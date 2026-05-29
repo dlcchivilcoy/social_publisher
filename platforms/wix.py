@@ -77,7 +77,7 @@ def publish(title: str, body: str, image_path: Path, page: int = 0) -> dict:
         })
 
     category_ids = _category_ids(page)
-    featured = page in DEPORTES_PAGES  # páginas 8 y 9 aparecen en el inicio como destacadas
+    featured = True  # TODAS las notas se muestran en Inicio (la portada muestra las destacadas)
     logger.debug(f"Wix categorías para página {page}: {category_ids}, featured: {featured}")
 
     draft_payload = {
@@ -97,8 +97,24 @@ def publish(title: str, body: str, image_path: Path, page: int = 0) -> dict:
     # 4) Publicar el borrador
     pub = requests.post(f"{DRAFT_POSTS_URL}/{draft_id}/publish", headers=headers, json={}, timeout=30)
     _raise_for_status(pub, "publicar")
-    logger.debug(f"Wix post publicado, draft_id={draft_id}, categorías={category_ids}")
-    return {"success": True, "id": draft_id}
+
+    # 5) Obtener la URL pública del post publicado
+    post_url = ""
+    try:
+        r_url = requests.post(
+            POSTS_QUERY_URL, headers=headers,
+            json={"query": {"filter": {"id": {"$eq": draft_id}}, "paging": {"limit": 1}}, "fieldsets": ["URL"]},
+            timeout=30,
+        )
+        posts = r_url.json().get("posts", [])
+        if posts:
+            url_obj = posts[0].get("url", {})
+            post_url = url_obj.get("base", "") + url_obj.get("path", "")
+    except Exception as e:
+        logger.warning(f"No se pudo obtener la URL del post: {e}")
+
+    logger.debug(f"Wix post publicado, draft_id={draft_id}, url={post_url}")
+    return {"success": True, "id": draft_id, "url": post_url}
 
 
 def _raise_for_status(resp: requests.Response, step: str) -> None:

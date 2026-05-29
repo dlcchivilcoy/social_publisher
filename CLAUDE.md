@@ -28,10 +28,21 @@ El nombre de la carpeta de edición sigue el patrón:
 
 ## Reglas de negocio críticas
 
+### Plataformas (estado actual)
+- **Wix Blog** → API automático ✅
+- **Facebook** (página *diariodechivilcoy*) → API automático ✅
+- **Instagram** (@dlcchivilcoy) → API automático ✅
+- **X (Twitter)** → **manual desde Wix** (Marketing → Marketing en redes sociales).
+  El plan gratis de Wix permite 1 cuenta conectada = X. No es automático, se postea a mano.
+  Wix NO tiene acción de "compartir en redes" en Automatizaciones, por eso no se pudo automatizar gratis.
+  El código de `platforms/twitter.py` quedó SIN usar (X no se llama desde `publisher.py`).
+
 ### Páginas a publicar
 - `ALLOWED_PAGES = 2, 3, 5, 7, 8, 9` (en .env)
-- Páginas **8 y 9** → categoría **Deportes** + **Inicio** en Wix (featured=True)
+- Páginas **8 y 9** → categoría **Deportes** + **Inicio** en Wix
 - Páginas **2, 3, 5, 7** → categoría **Locales** + **Inicio** en Wix
+- **TODAS las notas se marcan `featured=True`** → la portada (Inicio) del sitio muestra
+  solo las destacadas, así que sin featured no aparecían en Inicio. Ahora todas aparecen.
 
 ### Lógica de fechas (MUY IMPORTANTE)
 - El sistema **solo publica la edición de HOY**.
@@ -54,7 +65,22 @@ línea 1: TITULAR              (ej: "Triple choque de camiones en el km 138")
 línea 2+: CUERPO DE LA NOTA
 ```
 - **Título en Wix** = "volanta — titular"
-- **Texto en redes** = titular + cuerpo completo (Instagram recorta a 2200 chars)
+- **Cuerpo en Wix** = titular + cuerpo completo
+- **Texto en redes (FB/IG)** = bloque corto armado por `_social_caption()` en publisher.py:
+  ```
+  {emoji} {volanta}
+  📰 {titular}
+
+  📝 {resumen breve — primer párrafo, máx ~300 chars}
+
+  🔗 Leé la nota completa 👉 {URL de Wix}
+
+  {hashtags}
+  ```
+  - Emoji de categoría: ⚽ deportes / 📣 locales
+  - Hashtags automáticos: siempre `#Chivilcoy #DiarioLaCampaña` + según categoría/tema
+    (#Deportes #Fútbol #Básquet / #Noticias #Actualidad #Policiales #Política)
+  - En Instagram los links NO son clickeables (limitación de IG), igual va el texto.
 
 ---
 
@@ -69,15 +95,15 @@ WIX_CAT_INICIO=9bcc12a0-...     ← categoría "Inicio"
 WIX_CAT_LOCALES=4558c237-...    ← categoría "Locales"
 WIX_CAT_DEPORTES=094f631e-...   ← categoría "Deportes"
 
-# Facebook / Instagram (mismo token)
-FACEBOOK_PAGE_ID=101271341650483           ← página "Radio del Centro"
-INSTAGRAM_USER_ID=17841427698320458        ← @radiodelcentro
-# Token permanente de página (no vence)
+# Facebook / Instagram (mismo token permanente, app "diario")
+FACEBOOK_PAGE_ID=1456376377985890          ← página "Diario La Campaña De Chivilcoy"
+INSTAGRAM_USER_ID=17841405971293744        ← @dlcchivilcoy
+# Token permanente de página (no vence). App de Meta: "diario" (id 983887861017378)
+# Permisos: pages_show_list, pages_read_engagement, pages_manage_posts,
+#           instagram_basic, instagram_content_publish, business_management
 
-# Twitter/X
-# ⚠️ El Access Token generado antes estaba en solo lectura (read-only).
-# Hay que regenerarlo en developer.twitter.com con permisos "Read and Write".
-# La API Key y API Secret están bien — solo regenerar Access Token + Secret.
+# Twitter/X → NO se usa por API (ver arriba: X es manual desde Wix)
+# Las claves quedan en .env pero publisher.py no llama a twitter.publish().
 
 # ImgBB
 IMGBB_API_KEY=f1fb42f5...        ← relay de imágenes para Wix e Instagram
@@ -103,8 +129,8 @@ IMGBB_API_KEY=f1fb42f5...        ← relay de imágenes para Wix e Instagram
 ### Instagram
 - Requiere imagen en **formato JPG** (el código convierte PNG→JPG automáticamente)
 - El caption tiene límite de **2200 caracteres**
-- Algunas fotos pueden fallar por **proporción de aspecto** (muy alargadas)
-  → el código debería auto-recortar (pendiente mejorar)
+- **Proporción de aspecto resuelta** ✅: si la foto está fuera del rango que IG acepta
+  (4:5 a 1.91:1), `_as_jpeg()` agrega **borde blanco** para encuadrarla SIN recortar.
 
 ---
 
@@ -112,11 +138,14 @@ IMGBB_API_KEY=f1fb42f5...        ← relay de imágenes para Wix e Instagram
 - Nombre: `"Publicador Diario LC"`
 - Horario: **todos los días a las 07:00**
 - Comando: `run_publisher.bat` → `python main.py --run-now`
-- Estado actual: **DESHABILITADA** (habilitar cuando esté todo probado)
+- Estado actual: **HABILITADA** ✅ — corre todos los días a las 07:00
 
-Para habilitar:
+Para habilitar/cambiar hora (con cmdlets, NO piden contraseña):
 ```powershell
-schtasks /change /tn "Publicador Diario LC" /enable
+$t = New-ScheduledTaskTrigger -Daily -At 7:00am
+Set-ScheduledTask -TaskName "Publicador Diario LC" -Trigger $t
+Enable-ScheduledTask -TaskName "Publicador Diario LC"
+# (evitar `schtasks /change /enable` → pide la contraseña del usuario de forma interactiva)
 ```
 
 ---
@@ -145,6 +174,10 @@ notepad logs\publisher.log
 ---
 
 ## Pendientes
-- [ ] **Twitter/X**: regenerar Access Token con "Read and Write" en developer.twitter.com
-- [ ] **Instagram**: mejorar recorte automático de imágenes con proporción inválida
-- [ ] **Habilitar tarea programada** cuando estén todos los errores resueltos
+- [x] ~~Twitter/X por API~~ → se descartó; X es **manual desde Wix** (plan gratis = 1 cuenta)
+- [x] ~~Instagram proporción de aspecto~~ → resuelto con borde blanco automático
+- [x] ~~Habilitar tarea programada~~ → habilitada a las 07:00
+- [x] ~~Redes apuntando a Radio del Centro~~ → cambiadas a Diario La Campaña
+- [ ] Recordatorio operativo: postear X a mano desde Wix cuando se publique la edición
+- [ ] Si algún día se quiere X automático: pasar la cuenta de developer.x.com al plan **Free**
+      (gratis, 500 tweets/mes) y volver a habilitar `twitter.publish()` en publisher.py

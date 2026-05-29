@@ -117,7 +117,7 @@ def _page_number(folder_name: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def _read_docx(path: Path) -> tuple[str, str]:
+def _read_docx(path: Path) -> dict:
     """
     Estructura periodística:
       línea 0 = volanta/categoría
@@ -125,11 +125,12 @@ def _read_docx(path: Path) -> tuple[str, str]:
       línea 2+ = cuerpo
     Título  = "volanta — titular"
     Cuerpo  = titular + nota completa
+    Devuelve también volanta, titular y cuerpo por separado.
     """
     doc = Document(str(path))
     paras = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
     if not paras:
-        return path.stem, ""
+        return {"title": path.stem, "body": "", "volanta": "", "titular": "", "cuerpo": ""}
     volanta = paras[0]
     titular = paras[1] if len(paras) > 1 else ""
     cuerpo  = "\n".join(paras[2:]).strip() if len(paras) > 2 else ""
@@ -139,7 +140,7 @@ def _read_docx(path: Path) -> tuple[str, str]:
     else:
         title = volanta
         body  = volanta
-    return title, body
+    return {"title": title, "body": body, "volanta": volanta, "titular": titular, "cuerpo": cuerpo}
 
 
 def _pair_in_folder(page_folder: Path) -> list[dict]:
@@ -161,8 +162,10 @@ def _pair_in_folder(page_folder: Path) -> list[dict]:
             continue
         if score < MATCH_THRESHOLD:
             continue
-        title, body = _read_docx(doc)
-        notes.append({"docx": doc, "image": img, "title": title, "body": body, "score": round(score, 2)})
+        parts = _read_docx(doc)
+        note = {"docx": doc, "image": img, "score": round(score, 2)}
+        note.update(parts)
+        notes.append(note)
         used_docs.add(doc)
         used_imgs.add(img)
 

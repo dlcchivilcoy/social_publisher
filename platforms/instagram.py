@@ -13,17 +13,46 @@ logger = get_logger("instagram")
 GRAPH_VERSION = "v19.0"
 MAX_CAPTION = 2200  # límite de Instagram
 
+# Instagram acepta proporciones (ancho/alto) entre 4:5 (0.8) y 1.91:1 (1.91).
+MIN_RATIO = 0.8
+MAX_RATIO = 1.91
+
 
 def _as_jpeg(image_path: Path) -> Path:
-    """Instagram solo acepta JPG. Si la imagen no es JPG, la convierte a un archivo temporal."""
-    if image_path.suffix.lower() in (".jpg", ".jpeg"):
-        return image_path
+    """Prepara la imagen para Instagram: la convierte a JPG y ajusta la proporción
+    (agregando borde blanco, sin recortar) si está fuera del rango permitido.
+    Devuelve un archivo temporal nuevo si hizo falta algún cambio, o la original si ya servía."""
     img = Image.open(image_path)
     if img.mode in ("RGBA", "P", "LA"):
         img = img.convert("RGB")
+    elif img.mode != "RGB":
+        img = img.convert("RGB")
+
+    w, h = img.size
+    ratio = w / h
+    needs_pad = ratio < MIN_RATIO or ratio > MAX_RATIO
+    is_jpg = image_path.suffix.lower() in (".jpg", ".jpeg")
+
+    if not needs_pad and is_jpg:
+        return image_path  # ya sirve tal cual
+
+    if needs_pad:
+        if ratio < MIN_RATIO:
+            # Muy angosta/alta → ensancho el lienzo
+            new_w = round(h * MIN_RATIO)
+            new_h = h
+        else:
+            # Muy ancha → agrando el alto
+            new_w = w
+            new_h = round(w / MAX_RATIO)
+        canvas = Image.new("RGB", (new_w, new_h), (255, 255, 255))
+        canvas.paste(img, ((new_w - w) // 2, (new_h - h) // 2))
+        img = canvas
+        logger.debug(f"Proporción ajustada para Instagram: {w}x{h} → {new_w}x{new_h}")
+
     tmp = Path(tempfile.gettempdir()) / (image_path.stem + "_ig.jpg")
     img.save(tmp, "JPEG", quality=90)
-    logger.debug(f"Imagen convertida a JPG para Instagram: {tmp.name}")
+    logger.debug(f"Imagen preparada para Instagram: {tmp.name}")
     return tmp
 
 

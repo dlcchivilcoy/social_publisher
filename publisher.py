@@ -51,6 +51,83 @@ def _prepare_image(image_path: Path) -> Path:
     return image_path
 
 
+SUMMARY_MAX = 300  # caracteres del resumen breve
+
+
+def _resumen(cuerpo: str, body: str, limit: int = SUMMARY_MAX) -> str:
+    """Toma el primer párrafo del cuerpo (o del body) y lo recorta prolijo."""
+    texto = (cuerpo or body or "").strip()
+    if not texto:
+        return ""
+    # primer párrafo
+    parrafo = texto.split("\n")[0].strip()
+    if len(parrafo) <= limit:
+        return parrafo
+    # recorte en el último espacio antes del límite
+    corte = parrafo[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:")
+    return corte + "…"
+
+
+DEPORTES_PAGES = {8, 9}
+
+# Emoji de categoría según la página
+EMOJI_DEPORTES = "⚽"
+EMOJI_LOCALES = "📣"
+
+
+def _emoji_categoria(note: dict) -> str:
+    return EMOJI_DEPORTES if note.get("page") in DEPORTES_PAGES else EMOJI_LOCALES
+
+
+def _hashtags(note: dict) -> str:
+    """Hashtags reales y funcionales: locales + de categoría + tema detectado."""
+    tags = ["#Chivilcoy", "#DiarioLaCampaña"]
+    texto = f"{note.get('volanta','')} {note.get('titular','')}".lower()
+
+    if note.get("page") in DEPORTES_PAGES:
+        tags.append("#Deportes")
+        if "fútbol" in texto or "futbol" in texto:
+            tags.append("#Fútbol")
+        if "básquet" in texto or "basquet" in texto:
+            tags.append("#Básquet")
+    else:
+        tags += ["#Noticias", "#Actualidad"]
+        if any(p in texto for p in ("polic", "robo", "hurto", "delito", "delict", "choque", "accidente")):
+            tags.append("#Policiales")
+        if any(p in texto for p in ("concejo", "municipio", "intendente", "gobierno", "rendición", "rendicion")):
+            tags.append("#Política")
+
+    # quita duplicados conservando el orden
+    vistos, limpio = set(), []
+    for t in tags:
+        if t not in vistos:
+            vistos.add(t)
+            limpio.append(t)
+    return " ".join(limpio)
+
+
+def _social_caption(note: dict, wix_url: str) -> str:
+    """Arma el texto para redes: emoji + volanta + titular + resumen + link + hashtags."""
+    volanta = (note.get("volanta") or "").strip()
+    titular = (note.get("titular") or "").strip()
+    resumen = _resumen(note.get("cuerpo", ""), note.get("body", ""))
+    emoji = _emoji_categoria(note)
+
+    partes = []
+    if volanta and titular:
+        partes.append(f"{emoji} {volanta}\n📰 {titular}")
+    elif titular:
+        partes.append(f"{emoji} {titular}")
+    elif volanta:
+        partes.append(f"{emoji} {volanta}")
+    if resumen:
+        partes.append(f"📝 {resumen}")
+    if wix_url:
+        partes.append(f"🔗 Leé la nota completa 👉 {wix_url}")
+    partes.append(_hashtags(note))
+    return "\n\n".join(partes)
+
+
 def _parse_allowed_pages(raw: str) -> set[int]:
     pages = set()
     for part in raw.split(","):
@@ -99,15 +176,29 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
             continue
 
         page_num = note["page"]
-        platform_calls = [
-            ("wix",       lambda: wix.publish(title, body, image_path, page=page_num)),
-            ("facebook",  lambda: facebook.publish(body, image_path)),
-            ("instagram", lambda: instagram.publish(body, image_path)),
-            ("twitter",   lambda: twitter.publish(body, image_path)),
-        ]
-
         results = {}
-        for name, fn in platform_calls:
+
+        # 1) Wix primero — necesitamos su URL para el tweet
+        try:
+            results["wix"] = wix.publish(title, body, image_path, page=page_num)
+            logger.info(f"[wix] OK — «{title[:40]}»")
+        except Exception as e:
+            results["wix"] = {"success": False, "error": str(e)}
+            logger.error(f"[wix] FALLÓ — «{title[:40]}»: {e}")
+
+        wix_url = results["wix"].get("url", "") if results["wix"].get("success") else ""
+
+        # Texto corto para redes: volanta + titular + resumen breve + link a Wix
+        caption = _social_caption(note, wix_url)
+
+        # 2) Facebook e Instagram vía API.
+        # NOTA: X (Twitter) NO va por API — se publica solo desde Wix
+        # (función nativa "Compartir en redes sociales", cuenta gratis de Wix).
+        other_calls = [
+            ("facebook",  lambda: facebook.publish(caption, image_path)),
+            ("instagram", lambda: instagram.publish(caption, image_path)),
+        ]
+        for name, fn in other_calls:
             try:
                 results[name] = fn()
                 logger.info(f"[{name}] OK — «{title[:40]}»")
