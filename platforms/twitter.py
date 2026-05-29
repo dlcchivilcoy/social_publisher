@@ -23,7 +23,14 @@ def publish(body: str, image_path: Path) -> dict:
     auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
     api_v1 = tweepy.API(auth)
 
-    media = api_v1.media_upload(filename=str(image_path))
+    try:
+        media = api_v1.media_upload(filename=str(image_path))
+    except tweepy.errors.Forbidden:
+        raise PermissionError(
+            "Twitter (403): el token es de SOLO LECTURA. Regenerá el Access Token y "
+            "Access Token Secret en developer.twitter.com (con la app en 'Read and Write') "
+            "y actualizá el .env."
+        )
     media_id = str(media.media_id)
     logger.debug(f"Twitter media_id={media_id}")
 
