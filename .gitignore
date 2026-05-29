@@ -1,0 +1,21 @@
+# Credenciales — NUNCA subir esto
+.env
+
+# Entorno virtual de Python
+venv/
+
+# Logs
+logs/*.log
+logs/*.log.*
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Carpeta de posts publicados (si llegara a estar dentro del proyecto)
+published/
+
+# Sistema
+Thumbs.db
+desktop.ini
