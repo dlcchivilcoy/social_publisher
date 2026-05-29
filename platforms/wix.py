@@ -34,7 +34,25 @@ def _get_member_id(headers: dict) -> str:
     return posts[0]["memberId"]
 
 
-def publish(title: str, body: str, image_path: Path) -> dict:
+DEPORTES_PAGES = {8, 9}
+LOCALES_PAGES  = {2, 3, 5, 7}
+
+
+def _category_ids(page: int) -> list[str]:
+    """Devuelve los IDs de categoría según el número de página."""
+    inicio   = get("WIX_CAT_INICIO")   or ""
+    locales  = get("WIX_CAT_LOCALES")  or ""
+    deportes = get("WIX_CAT_DEPORTES") or ""
+
+    cats = [c for c in [inicio] if c]          # Inicio siempre
+    if page in DEPORTES_PAGES and deportes:
+        cats.append(deportes)
+    elif page in LOCALES_PAGES and locales:
+        cats.append(locales)
+    return cats
+
+
+def publish(title: str, body: str, image_path: Path, page: int = 0) -> dict:
     headers = _headers()
     member_id = _get_member_id(headers)
 
@@ -48,7 +66,7 @@ def publish(title: str, body: str, image_path: Path) -> dict:
     _raise_for_status(imp, "importar imagen")
     file_id = imp.json()["file"]["id"]
 
-    # 3) Crear el borrador del post
+    # 3) Crear el borrador del post con categorías
     paragraphs = [p for p in body.split("\n") if p.strip()]
     nodes = []
     for i, para in enumerate(paragraphs):
@@ -58,10 +76,16 @@ def publish(title: str, body: str, image_path: Path) -> dict:
             "nodes": [{"type": "TEXT", "id": "", "textData": {"text": para, "decorations": []}}],
         })
 
+    category_ids = _category_ids(page)
+    featured = page in DEPORTES_PAGES  # páginas 8 y 9 aparecen en el inicio como destacadas
+    logger.debug(f"Wix categorías para página {page}: {category_ids}, featured: {featured}")
+
     draft_payload = {
         "draftPost": {
             "title": title,
             "memberId": member_id,
+            "categoryIds": category_ids,
+            "featured": featured,
             "richContent": {"nodes": nodes},
             "media": {"wixMedia": {"image": {"id": file_id}}, "displayed": True, "custom": True},
         }
@@ -73,7 +97,7 @@ def publish(title: str, body: str, image_path: Path) -> dict:
     # 4) Publicar el borrador
     pub = requests.post(f"{DRAFT_POSTS_URL}/{draft_id}/publish", headers=headers, json={}, timeout=30)
     _raise_for_status(pub, "publicar")
-    logger.debug(f"Wix post publicado, draft_id={draft_id}")
+    logger.debug(f"Wix post publicado, draft_id={draft_id}, categorías={category_ids}")
     return {"success": True, "id": draft_id}
 
 

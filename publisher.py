@@ -98,8 +98,9 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
             logger.error(f"Error preparando imagen de «{title[:40]}»: {e} — omitida")
             continue
 
+        page_num = note["page"]
         platform_calls = [
-            ("wix",       lambda: wix.publish(title, body, image_path)),
+            ("wix",       lambda: wix.publish(title, body, image_path, page=page_num)),
             ("facebook",  lambda: facebook.publish(body, image_path)),
             ("instagram", lambda: instagram.publish(body, image_path)),
             ("twitter",   lambda: twitter.publish(body, image_path)),
