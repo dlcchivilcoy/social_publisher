@@ -15,6 +15,11 @@ def _default_folder() -> Path:
     return Path.home() / "Desktop" / "NOTAS AUTOMATICAS"
 
 
+def _allowed_pages() -> set[int]:
+    raw = get("ALLOWED_PAGES") or "2,3,5,7,8,9"
+    return {int(p.strip()) for p in raw.split(",") if p.strip().isdigit()}
+
+
 def cmd_check_config() -> None:
     missing = validate_config()
     if missing:
@@ -27,26 +32,21 @@ def cmd_check_config() -> None:
         print("\n[OK] Todas las variables de configuración están presentes.\n")
 
 
-def cmd_run_now(folder: Path) -> None:
-    from publisher import run_publish_cycle
-    run_publish_cycle(folder)
-
-
-def cmd_start_scheduler(folder: Path, hour: int, minute: int) -> None:
-    from scheduler import start
-    start(folder, hour=hour, minute=minute)
-
-
 def main() -> None:
     load_config()
 
     parser = argparse.ArgumentParser(
-        description="Social Media Auto-Publisher — publica pares foto+texto en Wix, Facebook, Instagram y X."
+        description="Social Media Auto-Publisher — publica notas (foto+Word) en Wix, Facebook, Instagram y X."
     )
     parser.add_argument(
         "--run-now",
         action="store_true",
-        help="Ejecutar una publicación inmediata y salir (útil para testing).",
+        help="Ejecutar una publicación inmediata y salir.",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Mostrar qué notas y fotos se emparejarían, SIN publicar nada.",
     )
     parser.add_argument(
         "--check-config",
@@ -62,8 +62,8 @@ def main() -> None:
     parser.add_argument(
         "--hour",
         type=int,
-        default=int(get("SCHEDULE_HOUR") or 10),
-        help="Hora de publicación diaria (0-23, por defecto 10).",
+        default=int(get("SCHEDULE_HOUR") or 8),
+        help="Hora de publicación diaria (0-23, por defecto 8).",
     )
     parser.add_argument(
         "--minute",
@@ -79,12 +79,19 @@ def main() -> None:
         return
 
     folder = Path(args.folder) if args.folder else _default_folder()
+    pages = _allowed_pages()
 
-    if args.run_now:
+    if args.dry_run:
+        from publisher import run_publish_cycle
+        logger.info(f"Modo --dry-run. Carpeta: {folder}")
+        run_publish_cycle(folder, pages, dry_run=True)
+    elif args.run_now:
+        from publisher import run_publish_cycle
         logger.info(f"Modo --run-now. Carpeta: {folder}")
-        cmd_run_now(folder)
+        run_publish_cycle(folder, pages, dry_run=False)
     else:
-        cmd_start_scheduler(folder, args.hour, args.minute)
+        from scheduler import start
+        start(folder, pages, hour=args.hour, minute=args.minute)
 
 
 if __name__ == "__main__":
