@@ -12,7 +12,7 @@ def _default_folder() -> Path:
     raw = get("POSTS_FOLDER")
     if raw:
         return Path(raw)
-    return Path.home() / "Desktop" / "publis escritorio"
+    return Path.home() / "Desktop" / "NOTAS AUTOMATICAS"
 
 
 def cmd_check_config() -> None:
