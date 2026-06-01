@@ -74,6 +74,11 @@ def main() -> None:
         help="Publicar la TAPA del diario (imagen de la carpeta del PDF) en muro + historia de IG y FB.",
     )
     parser.add_argument(
+        "--mail",
+        action="store_true",
+        help="Enviar el PDF del diario por correo a los clientes con MAIL en la planilla.",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -121,6 +126,11 @@ def main() -> None:
         from tapa import run_tapa
         logger.info(f"Modo --tapa (dry_run={args.dry_run}).")
         run_tapa(dry_run=args.dry_run)
+        return
+    if args.mail:
+        from mailer import run_mail
+        logger.info(f"Modo --mail (dry_run={args.dry_run}).")
+        run_mail(dry_run=args.dry_run)
         return
 
     if args.dry_run:
