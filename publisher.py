@@ -107,8 +107,18 @@ def _hashtags(note: dict) -> str:
     return " ".join(limpio)
 
 
-def _social_caption(note: dict, wix_url: str) -> str:
-    """Arma el texto para redes: emoji + volanta + titular + resumen + link + hashtags."""
+def _site_url() -> str:
+    return get("STORY_SITE_URL") or "www.diariolacampana.com.ar"
+
+
+def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True) -> str:
+    """
+    Arma el texto para redes: emoji + volanta + titular + resumen + cierre + hashtags.
+
+    usar_link_wix=True  → Facebook: pone el link clickeable a la nota de Wix.
+    usar_link_wix=False → Instagram: el link no es clickeable, así que invita por texto
+                          a entrar a la web (igual que en las historias).
+    """
     volanta = (note.get("volanta") or "").strip()
     titular = (note.get("titular") or "").strip()
     resumen = _resumen(note.get("cuerpo", ""), note.get("body", ""))
@@ -123,8 +133,11 @@ def _social_caption(note: dict, wix_url: str) -> str:
         partes.append(f"{emoji} {volanta}")
     if resumen:
         partes.append(f"📝 {resumen}")
-    if wix_url:
-        partes.append(f"🔗 Leé la nota completa 👉 {wix_url}")
+    if usar_link_wix:
+        if wix_url:
+            partes.append(f"🔗 Leé la nota completa 👉 {wix_url}")
+    else:
+        partes.append(f"📲 Seguí leyendo en {_site_url()}")
     partes.append(_hashtags(note))
     return "\n\n".join(partes)
 
@@ -227,15 +240,17 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
 
         wix_url = results["wix"].get("url", "") if results["wix"].get("success") else ""
 
-        # Texto corto para redes: volanta + titular + resumen breve + link a Wix
-        caption = _social_caption(note, wix_url)
+        # Facebook: link clickeable a Wix (ahí sí funciona).
+        # Instagram: el link no es clickeable, invita a la web por texto.
+        caption_fb = _social_caption(note, wix_url, usar_link_wix=True)
+        caption_ig = _social_caption(note, wix_url, usar_link_wix=False)
 
         # 2) Facebook e Instagram vía API.
         # NOTA: X (Twitter) NO va por API — se publica solo desde Wix
         # (función nativa "Compartir en redes sociales", cuenta gratis de Wix).
         other_calls = [
-            ("facebook",  lambda: facebook.publish(caption, image_path)),
-            ("instagram", lambda: instagram.publish(caption, image_path)),
+            ("facebook",  lambda: facebook.publish(caption_fb, image_path)),
+            ("instagram", lambda: instagram.publish(caption_ig, image_path)),
         ]
         for name, fn in other_calls:
             try:
