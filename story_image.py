@@ -273,3 +273,159 @@ def compose_tapa_story(cover_path: Path, fecha_str: str) -> Path:
         draw.text((MARGIN, footer_y + 72), fecha_str, font=f_fecha, fill=ACCENT)
 
     return _save(canvas, "tapa")
+
+
+# ---------------------------------------------------------------------------
+# Compositor GENÉRICO de listados (sirve para sepelios y farmacias)
+# ---------------------------------------------------------------------------
+GREEN = (60, 175, 110)
+
+
+def _line_h(font, sample="Ay") -> int:
+    b = font.getbbox(sample)
+    return b[3] - b[1]
+
+
+def _draw_marker(draw, x, y, size, color, kind):
+    """Dibuja un marcador: 'cross' (cruz sobria), 'plus' (cruz farmacia), 'dot'."""
+    if kind == "cross":
+        w = max(3, size // 5)
+        cx = x + size // 2
+        draw.rectangle((cx - w // 2, y, cx + w // 2, y + size), fill=color)          # vertical
+        draw.rectangle((x, y + size // 4, x + size, y + size // 4 + w), fill=color)   # horizontal
+    elif kind == "plus":
+        w = max(4, size // 4)
+        cx, cy = x + size // 2, y + size // 2
+        draw.rectangle((cx - w // 2, y, cx + w // 2, y + size), fill=color)
+        draw.rectangle((x, cy - w // 2, x + size, cy + w // 2), fill=color)
+    else:  # dot
+        draw.ellipse((x, y + size // 4, x + size // 2, y + size // 4 + size // 2), fill=color)
+
+
+def _compose_listado(*, size, titulo, subtitulo, items, footer,
+                     accent=ACCENT, marker="dot", stem="info") -> Path:
+    """
+    items: lista de dicts {"main": str, "sub": str (opcional)}.
+    Ajusta el tamaño de fuente para que entren todos entre el encabezado y el pie.
+    """
+    W2, H2 = size
+    m = 70
+    inner = W2 - 2 * m
+    canvas = Image.new("RGB", (W2, H2), BG)
+    draw = ImageDraw.Draw(canvas)
+
+    # Marca
+    draw.text((m, 48), "DIARIO LA CAMPAÑA", font=_font(28, True), fill=accent)
+    y = 116
+
+    # Título grande
+    f_t = _font(68, True)
+    for ln in _wrap(draw, titulo, f_t, inner)[:2]:
+        draw.text((m, y), ln, font=f_t, fill=WHITE)
+        y += _line_h(f_t, ln) + 16
+
+    # Subtítulo (fecha)
+    if subtitulo:
+        f_s = _font(36, False)
+        draw.text((m, y), subtitulo, font=f_s, fill=accent)
+        y += _line_h(f_s) + 24
+
+    draw.line((m, y, W2 - m, y), fill=(60, 64, 74), width=2)
+    y_start = y + 30
+
+    # Pie (reservar altura)
+    foot_lines = []
+    foot_y = H2 - m
+    if footer:
+        f_foot = _font(26, False)
+        foot_lines = _wrap(draw, footer, f_foot, inner)
+        foot_h = sum(_line_h(f_foot, l) + 10 for l in foot_lines)
+        foot_y = H2 - m - foot_h
+
+    avail = (foot_y - 26) - y_start
+    n = max(1, len(items))
+    tiene_sub = any(it.get("sub") for it in items)
+    GAP = 24  # espacio entre ítems
+
+    def layout(main_sz):
+        """Calcula fuentes, líneas por ítem y altura total para un tamaño dado."""
+        f_main = _font(main_sz, True)
+        f_sub = _font(max(22, main_sz - 18), False)
+        mk = max(22, _line_h(f_main, "Ay"))
+        text_w = inner - mk - 22
+        mlh = _line_h(f_main, "Ay")
+        slh = _line_h(f_sub, "Ay")
+        filas, total = [], 0
+        for it in items:
+            mlines = _wrap(draw, it.get("main", ""), f_main, text_w)[:2]
+            sub = it.get("sub", "")
+            sline = _wrap(draw, sub, f_sub, text_w)[:1] if sub else []
+            h = len(mlines) * (mlh + 2) + (slh + 4 if sline else 0) + GAP
+            filas.append((mlines, sline, h))
+            total += h
+        return f_main, f_sub, mk, mlh, slh, filas, total
+
+    # Elegir el tamaño más grande que entre (contemplando nombres en 2 líneas)
+    chosen = None
+    for main_sz in (54, 48, 44, 40, 36, 32, 28, 24):
+        res = layout(main_sz)
+        if res[6] <= avail:
+            chosen = res
+            break
+    if not chosen:
+        chosen = layout(24)
+    f_main, f_sub, mk, mlh, slh, filas, _ = chosen
+
+    yy = y_start
+    for idx, (mlines, sline, h) in enumerate(filas):
+        if yy + h > foot_y - 10:
+            draw.text((m, yy), f"… y {n - idx} más", font=f_sub, fill=GRAY)
+            break
+        _draw_marker(draw, m, yy + 4, mk, accent, marker)
+        tx = m + mk + 22
+        ly = yy
+        for ln in mlines:
+            draw.text((tx, ly), ln, font=f_main, fill=WHITE)
+            ly += mlh + 2
+        if sline:
+            draw.text((tx, ly + 2), sline[0], font=f_sub, fill=GRAY)
+        yy += h
+
+    # Pie
+    if foot_lines:
+        draw.line((m, foot_y - 16, W2 - m, foot_y - 16), fill=(60, 64, 74), width=2)
+        _draw_block(draw, foot_lines, _font(26, False), m, foot_y, GRAY, 10)
+
+    return _save(canvas, stem)
+
+
+# ---- SEPELIOS ----
+def compose_sepelios_feed(nombres: list[str], fecha_str: str) -> Path:
+    items = [{"main": n} for n in nombres]
+    return _compose_listado(
+        size=(1080, 1350), titulo="SEPELIOS", subtitulo=fecha_str,
+        items=items, footer="Q.E.P.D. · Diario La Campaña acompaña a las familias · Fuentes: Visión y San Nicolás",
+        accent=GRAY, marker="cross", stem="sepelios_feed")
+
+
+def compose_sepelios_story(nombres: list[str], fecha_str: str) -> Path:
+    items = [{"main": n} for n in nombres]
+    return _compose_listado(
+        size=(W, H), titulo="SEPELIOS", subtitulo=fecha_str,
+        items=items, footer="Q.E.P.D. · Diario La Campaña acompaña a las familias · Fuentes: Visión y San Nicolás",
+        accent=GRAY, marker="cross", stem="sepelios_story")
+
+
+# ---- FARMACIAS ----
+def compose_farmacias_feed(items: list[dict], fecha_str: str) -> Path:
+    return _compose_listado(
+        size=(1080, 1350), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
+        items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs) · Fuente: dechivilcoy.com.ar",
+        accent=GREEN, marker="plus", stem="farmacias_feed")
+
+
+def compose_farmacias_story(items: list[dict], fecha_str: str) -> Path:
+    return _compose_listado(
+        size=(W, H), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
+        items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs) · Fuente: dechivilcoy.com.ar",
+        accent=GREEN, marker="plus", stem="farmacias_story")

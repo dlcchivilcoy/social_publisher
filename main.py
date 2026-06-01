@@ -79,6 +79,16 @@ def main() -> None:
         help="Enviar el PDF del diario por correo a los clientes con MAIL en la planilla.",
     )
     parser.add_argument(
+        "--sepelios",
+        action="store_true",
+        help="Publicar los SEPELIOS de Chivilcoy del día (Wix+FB+IG, muro + historia).",
+    )
+    parser.add_argument(
+        "--farmacias",
+        action="store_true",
+        help="Publicar las FARMACIAS de turno de hoy (Wix+FB+IG, muro + historia).",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -131,6 +141,16 @@ def main() -> None:
         from mailer import run_mail
         logger.info(f"Modo --mail (dry_run={args.dry_run}).")
         run_mail(dry_run=args.dry_run)
+        return
+    if args.sepelios:
+        from sepelios import run_sepelios
+        logger.info(f"Modo --sepelios (dry_run={args.dry_run}).")
+        run_sepelios(dry_run=args.dry_run)
+        return
+    if args.farmacias:
+        from farmacias import run_farmacias
+        logger.info(f"Modo --farmacias (dry_run={args.dry_run}).")
+        run_farmacias(dry_run=args.dry_run)
         return
 
     if args.dry_run:

@@ -1,0 +1,38 @@
+{
+  "_ayuda": "Cronograma mensual de farmacias de turno. Cada día tiene su terna (3 farmacias); las 2 primeras de 8:30 a 8:30 hs y la última de 8:30 a 22 hs. Al cambiar de mes hay que cargar el nuevo cronograma leyendo la imagen de dechivilcoy.com.ar/farmacias/.",
+  "2026-06": {
+    "fuente": "TURNOS-JUNIO-2026.jpg",
+    "dias": {
+      "1": ["Homar", "Ceballos", "Cruz Roja"],
+      "2": ["Traverso", "Palumbo", "Rossi"],
+      "3": ["Giachetta", "Moderna", "Mitre"],
+      "4": ["Villarino", "Suipacha", "Mercé"],
+      "5": ["Mecca", "Miranda", "Cassino"],
+      "6": ["Mitre", "Suipacha", "Rolando"],
+      "7": ["Mecca", "De Francesco", "Lucini"],
+      "8": ["Frenkiel", "Litterio", "Rolando"],
+      "9": ["Ideal", "Sivori", "Zurita"],
+      "10": ["Cruz Roja", "Homar", "Ceballos"],
+      "11": ["Rossi", "Traverso", "Palumbo"],
+      "12": ["Mitre", "Giachetta", "Moderna"],
+      "13": ["Mercé", "Villarino", "Suipacha"],
+      "14": ["Cassino", "Bogliolo", "Miranda"],
+      "15": ["Pereyra", "Rolando", "Rossi"],
+      "16": ["Lucini", "Bogliolo", "De Francesco"],
+      "17": ["Rolando", "Frenkiel", "Litterio"],
+      "18": ["Zurita", "Ideal", "Sivori"],
+      "19": ["Ceballos", "Cruz Roja", "Homar"],
+      "20": ["Palumbo", "Rossi", "Traverso"],
+      "21": ["Moderna", "Mitre", "Giachetta"],
+      "22": ["Suipacha", "Mercé", "Villarino"],
+      "23": ["Miranda", "Cassino", "Mecca"],
+      "24": ["Feijoo", "Pereyra", "Moderna"],
+      "25": ["De Francesco", "Lucini", "Bogliolo"],
+      "26": ["Litterio", "Rolando", "Frenkiel"],
+      "27": ["Sivori", "Zurita", "Ideal"],
+      "28": ["Homar", "Ceballos", "Cruz Roja"],
+      "29": ["Traverso", "Palumbo", "Rossi"],
+      "30": ["Giachetta", "Moderna", "Mitre"]
+    }
+  }
+}
