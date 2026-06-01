@@ -5,6 +5,7 @@ from PIL import Image
 
 from file_scanner import find_notes
 from platforms import facebook, instagram, twitter, wix
+from utils.config import get
 from utils.logger import get_logger
 
 logger = get_logger("publisher")
@@ -137,6 +138,38 @@ def _parse_allowed_pages(raw: str) -> set[int]:
     return pages
 
 
+# Orden de PRESENTACIÓN en el feed, de ARRIBA hacia abajo (las primeras se leen primero).
+# Como en el feed lo último que se publica aparece arriba, internamente publicamos
+# en orden INVERSO: las páginas de mayor interés (3, 5) se publican AL FINAL para que
+# queden arriba, y deportes (8, 9) se publican PRIMERO para que queden abajo.
+DEFAULT_FEED_ORDER = [3, 5, 2, 7, 8, 9]
+
+
+def _feed_order() -> list[int]:
+    raw = get("FEED_ORDER")
+    if not raw:
+        return DEFAULT_FEED_ORDER
+    order = [int(p.strip()) for p in raw.split(",") if p.strip().isdigit()]
+    return order or DEFAULT_FEED_ORDER
+
+
+def _ordenar_para_feed(pending: list[dict]) -> list[dict]:
+    """
+    Reordena las notas para PUBLICAR. La página que aparece antes en FEED_ORDER
+    debe quedar más arriba en el feed, por lo que se publica más tarde.
+    Resultado: se publica de la página menos prioritaria a la más prioritaria.
+    """
+    orden = _feed_order()
+
+    def rank(note: dict) -> int:
+        page = note.get("page")
+        return orden.index(page) if page in orden else len(orden)
+
+    # rank bajo = más arriba en el feed = se publica último → reverse=True.
+    # El sort es estable: dentro de una misma página se conserva el orden original.
+    return sorted(pending, key=rank, reverse=True)
+
+
 def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool = False) -> None:
     mode = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Iniciando ciclo [{mode}] en: {posts_folder} ===")
@@ -153,13 +186,19 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
     if already:
         logger.info(f"{already} nota(s) ya estaban publicadas (se omiten).")
 
+    # Orden de publicación: deportes primero (quedan abajo), página 3/5 al final (quedan arriba).
+    pending = _ordenar_para_feed(pending)
+
     if dry_run:
-        logger.info("--- Emparejados detectados (NO se publica nada) ---")
-        for n in notes:
-            estado = "YA PUBLICADA" if n["key"] in ledger else "pendiente"
+        logger.info("--- Orden de PUBLICACIÓN (la última publicada queda ARRIBA en el feed) ---")
+        for i, n in enumerate(pending, 1):
             logger.info(
-                f"[pág {n['page']}] «{n['title'][:60]}»  "
-                f"foto: {n['image'].name}  (similitud {n['score']}, {estado})"
+                f"  {i}. [pág {n['page']}] «{n['title'][:60]}»  "
+                f"foto: {n['image'].name}  (similitud {n['score']})"
+            )
+        if pending:
+            logger.info(
+                f"→ Arriba del feed quedará: [pág {pending[-1]['page']}] «{pending[-1]['title'][:50]}»"
             )
         logger.info(f"Total: {len(notes)} nota(s), {len(pending)} pendiente(s).")
         return
