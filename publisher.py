@@ -231,8 +231,10 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
         results = {}
 
         # 1) Wix primero — necesitamos su URL para el tweet
+        descripcion = _resumen(note.get("cuerpo", ""), note.get("body", ""), limit=155)
         try:
-            results["wix"] = wix.publish(title, body, image_path, page=page_num)
+            results["wix"] = wix.publish(title, body, image_path, page=page_num,
+                                         description=descripcion)
             logger.info(f"[wix] OK — «{title[:40]}»")
         except Exception as e:
             results["wix"] = {"success": False, "error": str(e)}

@@ -1,3 +1,5 @@
+import re
+import unicodedata
 from pathlib import Path
 
 import requests
@@ -7,6 +9,44 @@ from utils.image_host import upload_to_imgbb
 from utils.logger import get_logger
 
 logger = get_logger("wix")
+
+
+# ── SEO ───────────────────────────────────────────────────────────────────────
+def _slugify(text: str, max_len: int = 70) -> str:
+    """URL limpia: sin acentos ni ñ, minúsculas, separadas por guiones."""
+    t = unicodedata.normalize("NFD", text or "")
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")  # quita tildes
+    t = t.replace("ñ", "n").replace("Ñ", "n").lower()
+    t = re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+    if len(t) > max_len:
+        t = t[:max_len].rsplit("-", 1)[0]
+    return t or "nota"
+
+
+def _meta_descripcion(description: str, body: str, limit: int = 155) -> str:
+    texto = (description or "").strip() or (body or "").split("\n")[0].strip()
+    texto = re.sub(r"\s+", " ", texto)
+    if len(texto) <= limit:
+        return texto
+    return texto[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
+
+
+def _seo_tags(title: str, descripcion: str, image_url: str) -> list[dict]:
+    tags = [
+        {"type": "title", "children": title, "custom": False, "disabled": False},
+        {"type": "meta", "props": {"name": "description", "content": descripcion},
+         "custom": False, "disabled": False},
+        {"type": "meta", "props": {"property": "og:title", "content": title}},
+        {"type": "meta", "props": {"property": "og:description", "content": descripcion}},
+        {"type": "meta", "props": {"property": "og:type", "content": "article"}},
+        {"type": "meta", "props": {"name": "twitter:card", "content": "summary_large_image"}},
+        {"type": "meta", "props": {"name": "twitter:title", "content": title}},
+        {"type": "meta", "props": {"name": "twitter:description", "content": descripcion}},
+    ]
+    if image_url:
+        tags.append({"type": "meta", "props": {"property": "og:image", "content": image_url}})
+        tags.append({"type": "meta", "props": {"name": "twitter:image", "content": image_url}})
+    return tags
 
 POSTS_QUERY_URL = "https://www.wixapis.com/blog/v3/posts/query"
 MEDIA_IMPORT_URL = "https://www.wixapis.com/site-media/v1/files/import"
@@ -52,7 +92,8 @@ def _category_ids(page: int) -> list[str]:
     return cats
 
 
-def publish(title: str, body: str, image_path: Path, page: int = 0) -> dict:
+def publish(title: str, body: str, image_path: Path, page: int = 0,
+            description: str = "") -> dict:
     headers = _headers()
     member_id = _get_member_id(headers)
 
@@ -80,6 +121,14 @@ def publish(title: str, body: str, image_path: Path, page: int = 0) -> dict:
     featured = True  # TODAS las notas se muestran en Inicio (la portada muestra las destacadas)
     logger.debug(f"Wix categorías para página {page}: {category_ids}, featured: {featured}")
 
+    # SEO: meta descripción, slug limpio (sin acentos) y etiquetas Open Graph/Twitter
+    descripcion = _meta_descripcion(description, body)
+    slug = _slugify(title)
+    seo_data = {
+        "tags": _seo_tags(title, descripcion, image_url),
+        "settings": {"preventAutoRedirect": False},
+    }
+
     draft_payload = {
         "draftPost": {
             "title": title,
@@ -88,6 +137,8 @@ def publish(title: str, body: str, image_path: Path, page: int = 0) -> dict:
             "featured": featured,
             "richContent": {"nodes": nodes},
             "media": {"wixMedia": {"image": {"id": file_id}}, "displayed": True, "custom": True},
+            "seoSlug": slug,
+            "seoData": seo_data,
         }
     }
     draft = requests.post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)

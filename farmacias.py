@@ -193,7 +193,10 @@ def run_farmacias(dry_run: bool = False) -> None:
     algun_ok = False
 
     try:
-        wix.publish(f"Farmacias de turno — {fecha.capitalize()}", caption, feed_img, page=0)
+        desc_seo = (f"Farmacias de turno en Chivilcoy — {fecha.capitalize()}: "
+                    + ", ".join(nombres))
+        wix.publish(f"Farmacias de turno — {fecha.capitalize()}", caption, feed_img, page=0,
+                    description=desc_seo)
         algun_ok = True
         logger.info("   [wix] farmacias publicadas OK")
     except Exception as e:
