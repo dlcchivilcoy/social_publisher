@@ -232,3 +232,44 @@ def compose_youtube_story(thumb_path: Path, titulo: str, etiqueta: str) -> Path:
 
     stem = "yt_" + _safe_stem(titulo, "video")
     return _save(canvas, stem)
+
+
+# ---------------------------------------------------------------------------
+# Historia de TAPA: la tapa del diario entera (contain, sin recortar) + fecha
+# ---------------------------------------------------------------------------
+def compose_tapa_story(cover_path: Path, fecha_str: str) -> Path:
+    canvas = _new_canvas()
+    draw = ImageDraw.Draw(canvas)
+
+    # Encabezado
+    f_brand = _font(40, bold=True)
+    draw.text((MARGIN, 60), "DIARIO LA CAMPAÑA", font=f_brand, fill=ACCENT)
+
+    # Pie (lo dibujamos al final, pero reservamos su altura)
+    f_tapa = _font(56, bold=True)
+    f_fecha = _font(40, bold=False)
+    footer_block_h = 150
+    footer_y = H - MARGIN - footer_block_h
+
+    # Tapa contenida (sin recortar) entre el encabezado y el pie
+    box_top = 150
+    box_h = footer_y - 30 - box_top
+    box_w = W - 2 * MARGIN
+    try:
+        cover = _contain(Image.open(cover_path), box_w, box_h)
+        cw, ch = cover.size
+        cx = (W - cw) // 2
+        cy = box_top + (box_h - ch) // 2
+        # marco sutil
+        draw.rectangle((cx - 4, cy - 4, cx + cw + 4, cy + ch + 4), outline=(70, 74, 84), width=3)
+        canvas.paste(cover, (cx, cy))
+    except Exception as e:
+        logger.warning(f"No se pudo abrir la tapa: {e}")
+
+    # Pie: "TAPA DE HOY" + fecha
+    draw.line((MARGIN, footer_y - 20, W - MARGIN, footer_y - 20), fill=(60, 64, 74), width=2)
+    draw.text((MARGIN, footer_y), "TAPA DE HOY", font=f_tapa, fill=WHITE)
+    if fecha_str:
+        draw.text((MARGIN, footer_y + 72), fecha_str, font=f_fecha, fill=ACCENT)
+
+    return _save(canvas, "tapa")

@@ -69,6 +69,11 @@ def main() -> None:
         help="Publicar HISTORIAS de las notas de YouTube subidas hoy (excluye el programa completo).",
     )
     parser.add_argument(
+        "--tapa",
+        action="store_true",
+        help="Publicar la TAPA del diario (imagen de la carpeta del PDF) en muro + historia de IG y FB.",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -111,6 +116,11 @@ def main() -> None:
         from stories import run_youtube_notes_stories
         logger.info(f"Modo --yt-notes (dry_run={args.dry_run}).")
         run_youtube_notes_stories(dry_run=args.dry_run)
+        return
+    if args.tapa:
+        from tapa import run_tapa
+        logger.info(f"Modo --tapa (dry_run={args.dry_run}).")
+        run_tapa(dry_run=args.dry_run)
         return
 
     if args.dry_run:
