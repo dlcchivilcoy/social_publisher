@@ -95,6 +95,43 @@ def publish(body: str, image_path: Path) -> dict:
             jpeg_path.unlink()
 
 
+def publish_story(image_path: Path) -> dict:
+    """Publica la imagen como HISTORIA (story) de Instagram.
+
+    Las historias por API no llevan caption ni stickers: solo la imagen.
+    Requiere una URL pública (ImgBB) y el permiso instagram_content_publish.
+    """
+    user_id = get("INSTAGRAM_USER_ID")
+    token = get("INSTAGRAM_ACCESS_TOKEN")
+    if not user_id or not token:
+        raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
+
+    # OJO: las historias son 9:16 (ratio 0.5625). NO usar _as_jpeg() acá porque
+    # rellenaría con bordes para forzar la proporción del feed y rompería el 9:16.
+    # La imagen ya viene 1080x1920 JPG del compositor; solo la subimos.
+    image_url = upload_to_imgbb(image_path)
+
+    container = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media",
+        params={"access_token": token},
+        data={"media_type": "STORIES", "image_url": image_url},
+        timeout=30,
+    )
+    _raise_for_status(container, "crear contenedor (story)")
+    creation_id = container.json()["id"]
+
+    publish_resp = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
+        params={"access_token": token},
+        data={"creation_id": creation_id},
+        timeout=30,
+    )
+    _raise_for_status(publish_resp, "publicar story")
+    media_id = publish_resp.json()["id"]
+    logger.debug(f"Instagram story publicada id={media_id}")
+    return {"success": True, "id": media_id}
+
+
 def _raise_for_status(resp: requests.Response, step: str) -> None:
     if resp.status_code == 401:
         raise PermissionError(f"Instagram ({step}): token inválido o expirado (401)")

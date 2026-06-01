@@ -54,6 +54,21 @@ def main() -> None:
         help="Verificar que todas las variables de .env estén configuradas y salir.",
     )
     parser.add_argument(
+        "--news-stories",
+        action="store_true",
+        help="Publicar HISTORIAS (stories) de las notas del diario de hoy en IG+FB.",
+    )
+    parser.add_argument(
+        "--yt-live",
+        action="store_true",
+        help="Publicar la HISTORIA del vivo de YouTube (si el canal está en vivo).",
+    )
+    parser.add_argument(
+        "--yt-notes",
+        action="store_true",
+        help="Publicar HISTORIAS de las notas de YouTube subidas hoy (excluye el programa completo).",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -80,6 +95,23 @@ def main() -> None:
 
     folder = Path(args.folder) if args.folder else _default_folder()
     pages = _allowed_pages()
+
+    # --- Historias (stories) ---
+    if args.news_stories:
+        from stories import run_news_stories
+        logger.info(f"Modo --news-stories (dry_run={args.dry_run}). Carpeta: {folder}")
+        run_news_stories(folder, pages, dry_run=args.dry_run)
+        return
+    if args.yt_live:
+        from stories import run_youtube_live_story
+        logger.info(f"Modo --yt-live (dry_run={args.dry_run}).")
+        run_youtube_live_story(dry_run=args.dry_run)
+        return
+    if args.yt_notes:
+        from stories import run_youtube_notes_stories
+        logger.info(f"Modo --yt-notes (dry_run={args.dry_run}).")
+        run_youtube_notes_stories(dry_run=args.dry_run)
+        return
 
     if args.dry_run:
         from publisher import run_publish_cycle

@@ -34,6 +34,46 @@ def publish(body: str, image_path: Path) -> dict:
     return {"success": True, "id": data.get("post_id") or data.get("id")}
 
 
+def publish_story(image_path: Path) -> dict:
+    """Publica la imagen como HISTORIA (story) de la Página de Facebook.
+
+    Dos pasos: subir la foto SIN publicar (published=false) → obtener photo_id;
+    luego crear la historia con /photo_stories. Requiere pages_manage_posts.
+
+    NOTA: las Page Photo Stories por API son relativamente nuevas y a veces
+    requieren elegibilidad extra de la página. Si falla, el llamador lo loguea
+    y sigue (Instagram no se ve afectado).
+    """
+    page_id = get("FACEBOOK_PAGE_ID")
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
+
+    # 1) Subir la foto sin publicarla en el feed → photo_id
+    with open(image_path, "rb") as img:
+        up = requests.post(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/photos",
+            params={"access_token": token},
+            files={"source": (image_path.name, img, _mime(image_path))},
+            data={"published": "false"},
+            timeout=60,
+        )
+    _raise_for_status(up)
+    photo_id = up.json()["id"]
+
+    # 2) Crear la historia con esa foto
+    story = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/photo_stories",
+        params={"access_token": token},
+        data={"photo_id": photo_id},
+        timeout=60,
+    )
+    _raise_for_status(story)
+    data = story.json()
+    logger.debug(f"Facebook story post_id={data.get('post_id') or data.get('id')}")
+    return {"success": True, "id": data.get("post_id") or data.get("id")}
+
+
 def _mime(path: Path) -> str:
     return "image/png" if path.suffix.lower() == ".png" else "image/jpeg"
 

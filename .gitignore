@@ -16,6 +16,11 @@ __pycache__/
 # Carpeta de posts publicados (si llegara a estar dentro del proyecto)
 published/
 
+# Historias (imágenes generadas + ledgers)
+historias_preview/
+youtube-historias.json
+.historias.json
+
 # Sistema
 Thumbs.db
 desktop.ini

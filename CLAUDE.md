@@ -134,6 +134,27 @@ IMGBB_API_KEY=f1fb42f5...        ← relay de imágenes para Wix e Instagram
 
 ---
 
+## Historias (stories) en Instagram + Facebook
+Además del feed, el sistema publica **Historias automáticas** (foto/miniatura + texto quemado, 9:16).
+Las Historias por API **no llevan caption ni stickers**: por eso NO hay link tocable; se quema en la
+imagen una invitación a entrar a la web (`STORY_SITE_URL`).
+
+- **Noticias** (`--news-stories`, 07:15): una historia por cada nota de hoy (reusa `find_notes`).
+  Foto + volanta + titular + resumen + *"Leé la nota completa en www.diariolacampana.com.ar"*.
+  Ledger `.historias.json` (en POSTS_FOLDER) para no repetir.
+- **YouTube vivo** (`--yt-live`, 10:35): si el canal está en vivo, miniatura + título + "Mirá el vivo".
+- **YouTube notas** (`--yt-notes`, 13:30): historias de los videos del día, EXCLUYENDO el programa
+  completo (`STORY_EXCLUDE_TITLE`, ej. "MAÑANA DEL CENTRO"). Ledger `youtube-historias.json`.
+
+Archivos: `story_image.py` (compositor Pillow 9:16 → `historias_preview/`), `youtube.py` (RSS/vivo),
+`stories.py` (orquestadores), `platforms/{instagram,facebook}.py::publish_story()`.
+Probar sin publicar: `python main.py --news-stories --dry-run` (genera los JPG en `historias_preview/`).
+
+⚠️ Facebook *photo_stories* por API es más nuevo y puede requerir elegibilidad extra de la página; si
+falla, se loguea y sigue (Instagram no se ve afectado). El token de Meta ya tiene los permisos.
+
+Tareas de Windows: `"Historias Noticias 0715"`, `"Historias YouTube Vivo 1035"`, `"Historias YouTube Notas 1330"`.
+
 ## Tarea programada de Windows
 - Nombre: `"Publicador Diario LC"`
 - Horario: **todos los días a las 07:00**
