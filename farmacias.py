@@ -7,6 +7,7 @@
 - Si llega un mes sin cargar (o cambia la imagen del cronograma), AVISA en el log
   y NO publica datos sin verificar.
 """
+import difflib
 import json
 import re
 import unicodedata
@@ -72,50 +73,74 @@ def scrap_listado() -> dict[str, dict]:
     return salida
 
 
-# ── Cronograma del mes ────────────────────────────────────────────────────────
-def _cargar_cronograma() -> dict:
+# ── Cronograma del mes (MAIL del Colegio, con fallback a cache/JSON curado) ───
+CACHE = Path(__file__).parent / ".farmacias_cache.json"
+
+
+def _cargar_json(path: Path) -> dict:
     try:
-        return json.loads(CRONOGRAMA.read_text(encoding="utf-8"))
-    except Exception as e:
-        logger.error(f"No se pudo leer turnos_farmacias.json: {e}")
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
         return {}
 
 
-def _imagen_cronograma_actual() -> str | None:
-    """Busca en la página el nombre de archivo de la imagen del cronograma (para detectar cambios)."""
+def _guardar_cache_mes(mes_key: str, dias: dict) -> None:
+    cache = _cargar_json(CACHE)
+    cache[mes_key] = {"dias": {str(k): v for k, v in dias.items()},
+                      "fuente": "mail", "actualizado": date.today().isoformat()}
     try:
-        soup = BeautifulSoup(fetch_text(URL), "lxml")
-        for img in soup.find_all("img"):
-            src = img.get("src", "")
-            base = src.rsplit("/", 1)[-1]
-            # El cronograma real se llama TURNOS-{MES}-{AÑO}.jpg (no el thumbnail "farmacias-de-turno-...")
-            if base.upper().startswith("TURNOS") and base.lower().endswith((".jpg", ".jpeg", ".png")):
-                return base
-    except Exception:
-        pass
+        CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as e:
+        logger.warning(f"No se pudo guardar el cache de farmacias: {e}")
+
+
+def _terna_desde_local(hoy: date) -> list | None:
+    """Cache del mail (.farmacias_cache.json) y, si no, el JSON curado a mano."""
+    mes_key = f"{hoy.year}-{hoy.month:02d}"
+    for origen in (CACHE, CRONOGRAMA):
+        dias = (_cargar_json(origen).get(mes_key) or {}).get("dias", {})
+        nombres = dias.get(str(hoy.day))
+        if nombres:
+            return nombres
     return None
 
 
-def terna_de_hoy(hoy: date):
-    """Devuelve (lista_de_nombres, aviso) para el día de hoy, o (None, motivo)."""
-    data = _cargar_cronograma()
-    mes_key = f"{hoy.year}-{hoy.month:02d}"
-    mes = data.get(mes_key)
-    if not mes:
-        return None, (f"FALTA cargar el cronograma de farmacias para {MESES[hoy.month-1]} "
-                      f"{hoy.year} (clave {mes_key}). Leé la imagen de {URL} y cargá turnos_farmacias.json.")
-    dias = mes.get("dias", {})
-    nombres = dias.get(str(hoy.day))
-    if not nombres:
-        return None, f"El cronograma de {mes_key} no tiene el día {hoy.day}."
+def _info_farmacia(listado: dict, nom: str) -> dict:
+    """Dirección/teléfono del directorio; tolera variantes de escritura (fuzzy)."""
+    key = _norm(nom)
+    if key in listado:
+        return listado[key]
+    cerca = difflib.get_close_matches(key, list(listado.keys()), n=1, cutoff=0.82)
+    return listado[cerca[0]] if cerca else {}
 
-    # Aviso si la imagen del cronograma en la web cambió respecto a la cargada.
-    fuente_cargada = mes.get("fuente", "")
-    actual = _imagen_cronograma_actual()
-    if actual and fuente_cargada and _norm(actual) != _norm(fuente_cargada):
-        logger.warning(f"⚠ La imagen del cronograma cambió en la web ({actual}) respecto a la "
-                       f"cargada ({fuente_cargada}). Verificá turnos_farmacias.json.")
-    return nombres, None
+
+def terna_de_hoy(hoy: date):
+    """Devuelve (nombres, aviso, es_cambio).
+
+    Preferencia: 1) CAMBIO del día (mail), 2) cronograma mensual del mail (Excel,
+    refresca el cache), 3) cache del mail o turnos_farmacias.json (curado).
+    """
+    mes_key = f"{hoy.year}-{hoy.month:02d}"
+    try:
+        import farmacias_mail as fmail
+        cambio = fmail.cambio_del_dia(hoy)
+        if cambio:
+            logger.info(f"CAMBIO de turno del día (mail): {', '.join(cambio)}")
+            return cambio, None, True
+        dias = fmail.cronograma_mensual(hoy.year, hoy.month)
+        if dias:
+            _guardar_cache_mes(mes_key, dias)
+            nombres = dias.get(hoy.day) or dias.get(str(hoy.day))
+            if nombres:
+                return nombres, None, False
+    except Exception as e:
+        logger.warning(f"No se pudo leer el mail de farmacias ({e}); uso el cronograma local.")
+
+    nombres = _terna_desde_local(hoy)
+    if nombres:
+        return nombres, None, False
+    return None, (f"No hay datos de farmacias para {MESES[hoy.month-1]} {hoy.year}: no se pudo "
+                  f"leer el mail y no hay cache ni cronograma cargado."), False
 
 
 # ── Ledger (no repetir el mismo día) ──────────────────────────────────────────
@@ -143,17 +168,18 @@ def run_farmacias(dry_run: bool = False) -> None:
         logger.info("Las farmacias de turno de hoy ya se publicaron. Se omite.")
         return
 
-    nombres, aviso = terna_de_hoy(hoy)
+    nombres, aviso, es_cambio = terna_de_hoy(hoy)
     if not nombres:
-        logger.error(aviso)  # mes sin cargar → avisa y NO publica
+        logger.error(aviso)  # sin datos → avisa y NO publica
         return
 
     listado = scrap_listado()
     fecha = _fecha_larga(hoy)
+    sufijo_cambio = " (CAMBIO)" if es_cambio else ""
 
     items, lineas_cap = [], []
     for i, nom in enumerate(nombres):
-        info = listado.get(_norm(nom), {})
+        info = _info_farmacia(listado, nom)
         direccion = info.get("direccion", "")
         telefono = info.get("telefono", "")
         # Las 2 primeras de la terna están de turno las 24 hs (8:30 a 8:30 del día
@@ -171,7 +197,8 @@ def run_farmacias(dry_run: bool = False) -> None:
         det += f"\n   🕒 Horario: {horario}"
         lineas_cap.append(det)
 
-    caption = ("💊 Farmacias de turno — " + fecha.capitalize() + "\n\n"
+    cabecera = ("⚠️ *CAMBIO de turno de hoy*\n\n" if es_cambio else "")
+    caption = (cabecera + "💊 Farmacias de turno — " + fecha.capitalize() + "\n\n"
                + "\n".join(lineas_cap)
                + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs.")
 
@@ -180,8 +207,8 @@ def run_farmacias(dry_run: bool = False) -> None:
         logger.info(f"   {l}")
 
     try:
-        feed_img = compose_farmacias_feed(items, fecha.capitalize())
-        story_img = compose_farmacias_story(items, fecha.capitalize())
+        feed_img = compose_farmacias_feed(items, fecha.capitalize() + sufijo_cambio)
+        story_img = compose_farmacias_story(items, fecha.capitalize() + sufijo_cambio)
     except Exception as e:
         logger.error(f"No se pudieron componer las imágenes de farmacias: {e}")
         return
@@ -198,8 +225,8 @@ def run_farmacias(dry_run: bool = False) -> None:
     try:
         desc_seo = (f"Farmacias de turno en Chivilcoy — {fecha.capitalize()}: "
                     + ", ".join(nombres))
-        wix.publish(f"Farmacias de turno — {fecha.capitalize()}", caption, feed_img, page=0,
-                    description=desc_seo)
+        wix.publish(f"Farmacias de turno — {fecha.capitalize()}{sufijo_cambio}", caption, feed_img,
+                    page=0, description=desc_seo)
         algun_ok = True
         logger.info("   [wix] farmacias publicadas OK")
     except Exception as e:

@@ -173,20 +173,24 @@ Scraping con `utils/scrape.py` (User-Agent de navegador; dechivilcoy bloquea el 
   El **posteo** incluye un **breve resumen de cada uno** (`detalle`): San Nicolás → "Falleció en {lugar} el
   {fecha}"; Visión → "Sepelio en {localidad} · {fecha}". La imagen se mantiene sobria (solo nombres).
   Módulo `sepelios.py`; imágenes `compose_sepelios_feed/story` en `story_image.py`.
-- **Farmacias** (`--farmacias`, **08:00** — tarea `"Farmacias Turno 0800"`): el cronograma de turnos de
-  `dechivilcoy.com.ar/farmacias/` es **una imagen mensual** (`TURNOS-{MES}-{AÑO}.jpg`) y el OCR NO es
-  confiable. Por eso el cronograma vive curado en **`turnos_farmacias.json`** (día → terna de 3 farmacias;
-  las 2 primeras 8:30→8:30, la última 8:30→22 hs). El listado (dirección/teléfono) sí se scrapea de la
-  tabla `<li>`. Cada día busca la terna de hoy, le pega dirección/teléfono y **el horario específico de
-  cada una** (las 2 primeras `8:30 a 8:30 hs (24 hs)`, la última `8:30 a 22 hs`) y publica. El horario se
-  muestra resaltado (verde, vía `sub2` en `_compose_listado`) bajo cada farmacia en la imagen y en el
-  texto del posteo. Ledger `.farmacias.json`
-  (no repite el mismo día). **Al cambiar de mes** detecta que falta el cronograma del mes (o que cambió la
-  imagen) → avisa en el log y NO publica datos sin verificar: hay que leer la imagen y cargar el mes nuevo
-  en `turnos_farmacias.json` (~1 min). Módulo `farmacias.py`; imágenes `compose_farmacias_feed/story`.
+- **Farmacias** (`--farmacias`, **08:00** — tarea `"Farmacias Turno 0800"`): la fuente es el **MAIL del
+  Colegio de Farmacéuticos** (`farchivi@gmail.com` → `dlc.chivilcoy@gmail.com`), leído por **IMAP**
+  (`farmacias_mail.py`, reusa `MAIL_FROM`/`MAIL_APP_PASSWORD`; remitente configurable en
+  `FARMACIAS_MAIL_FROM`). Dos tipos de correo:
+  1. **Mensual** — asunto `TURNOS {MES} {AÑO}` con **Excel adjunto** (día → 3 farmacias; las 2 primeras
+     24 hs, la última 8:30→22 hs). Se parsea con openpyxl (bloque izq. días 1–15, der. 16–31).
+  2. **Cambio del día** — asunto `TURNO CAMBIO HOY …`, texto `LAS 24 HS.: A - B` / `HASTA LAS 22 HS.: C`.
+  Prioridad: **cambio del día > Excel mensual > cache (`.farmacias_cache.json`) > `turnos_farmacias.json`**
+  (curado a mano, último fallback). El Excel leído refresca el cache. La dirección/teléfono se siguen
+  scrapeando del listado `<li>` de `dechivilcoy.com.ar/farmacias/` y se emparejan al nombre con **fuzzy**
+  (`difflib`, tolera GIACCHETTA/Giachetta, etc.). El **horario específico** de cada farmacia se muestra
+  resaltado (verde, `sub2`) en la imagen y en el texto. Si es un cambio, lo marca con `(CAMBIO)` /
+  `⚠️ CAMBIO de turno`. Ledger `.farmacias.json` (no repite el mismo día). Módulo `farmacias.py` +
+  `farmacias_mail.py`; imágenes `compose_farmacias_feed/story`.
 
 Probar sin publicar: `python main.py --sepelios --dry-run` y `python main.py --farmacias --dry-run`
-(generan los JPG en `historias_preview/`). `turnos_farmacias.json` SÍ se versiona; los ledgers no.
+(generan los JPG en `historias_preview/`). `turnos_farmacias.json` SÍ se versiona (fallback); los ledgers,
+el cache `.farmacias_cache.json` y `.env` no.
 Horarios de las tareas: **Sepelios 21:00**, **Farmacias 08:00**.
 
 ## Tarea programada de Windows
