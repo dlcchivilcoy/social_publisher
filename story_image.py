@@ -184,7 +184,8 @@ def compose_note_story(photo_path: Path, volanta: str, titular: str,
 # ---------------------------------------------------------------------------
 # Historia de YOUTUBE: miniatura (16:9) centrada + título + pie
 # ---------------------------------------------------------------------------
-def compose_youtube_story(thumb_path: Path, titulo: str, etiqueta: str) -> Path:
+def compose_youtube_story(thumb_path: Path, titulo: str, etiqueta: str,
+                          footer: str | None = None, en_vivo: bool = False) -> Path:
     canvas = _new_canvas()
     draw = ImageDraw.Draw(canvas)
 
@@ -192,10 +193,24 @@ def compose_youtube_story(thumb_path: Path, titulo: str, etiqueta: str) -> Path:
     f_brand = _font(34, bold=True)
     draw.text((MARGIN, 60), "RADIO DEL CENTRO", font=f_brand, fill=ACCENT)
 
+    # Cartel "EN VIVO" (rojo) cuando corresponde
+    if en_vivo:
+        f_live = _font(40, bold=True)
+        txt = "EN VIVO"
+        tw = draw.textlength(txt, font=f_live)
+        bx0, by0 = MARGIN, 118
+        pad, dot = 26, 16
+        bx1 = bx0 + dot + 18 + tw + pad * 2
+        by1 = by0 + 70
+        draw.rounded_rectangle((bx0, by0, bx1, by1), radius=18, fill=ACCENT)
+        cy = (by0 + by1) // 2
+        draw.ellipse((bx0 + pad, cy - dot // 2, bx0 + pad + dot, cy + dot // 2), fill=WHITE)
+        draw.text((bx0 + pad + dot + 18, by0 + 14), txt, font=f_live, fill=WHITE)
+
     # Miniatura: ancho completo, 16:9 → 1080x607, centrada verticalmente arriba
     thumb_w = W
     thumb_h = round(W * 9 / 16)
-    thumb_top = 360
+    thumb_top = 420 if en_vivo else 360
     try:
         thumb = _cover(Image.open(thumb_path), thumb_w, thumb_h)
         canvas.paste(thumb, (0, thumb_top))
@@ -219,7 +234,7 @@ def compose_youtube_story(thumb_path: Path, titulo: str, etiqueta: str) -> Path:
 
     # Pie: triángulo "play" dibujado + texto (sin emojis, para que Arial lo renderice)
     f_footer = _font(40, bold=True)
-    footer_text = f"{etiqueta} en YouTube"
+    footer_text = footer or f"{etiqueta} en YouTube"
     flines = _wrap(draw, footer_text, f_footer, text_w - 70)
     footer_h = sum((f_footer.getbbox(l)[3] - f_footer.getbbox(l)[1]) + 12 for l in flines)
     footer_y = H - MARGIN - footer_h

@@ -132,7 +132,10 @@ def run_youtube_live_story(dry_run: bool = False) -> None:
     logger.info(f"EN VIVO: «{vivo['titulo'][:55]}» ({vivo['url']})")
     try:
         thumb = youtube.descargar_miniatura(vivo["id"])
-        img = compose_youtube_story(thumb, vivo["titulo"], "Mirá el vivo")
+        img = compose_youtube_story(
+            thumb, vivo["titulo"], "Mirá el vivo",
+            footer="Miranos que estamos en vivo por nuestro canal de YouTube",
+            en_vivo=True)
     except Exception as e:
         logger.error(f"No se pudo componer la historia del vivo: {e}")
         return

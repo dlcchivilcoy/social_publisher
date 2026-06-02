@@ -142,7 +142,10 @@ imagen una invitación a entrar a la web (`STORY_SITE_URL`).
 - **Noticias** (`--news-stories`, 07:15): una historia por cada nota de hoy (reusa `find_notes`).
   Foto + volanta + titular + resumen + *"Leé la nota completa en www.diariolacampana.com.ar"*.
   Ledger `.historias.json` (en POSTS_FOLDER) para no repetir.
-- **YouTube vivo** (`--yt-live`, 10:35): si el canal está en vivo, miniatura + título + "Mirá el vivo".
+- **YouTube vivo** (`--yt-live`, **10:45 lun–vie**): si el canal está en vivo (La Mañana del Centro),
+  miniatura + título + cartel rojo **EN VIVO** + pie *"Miranos que estamos en vivo por nuestro canal de
+  YouTube"* (`compose_youtube_story(..., en_vivo=True, footer=...)`). En paralelo, `whatsapp_diario`
+  manda el link del vivo al canal + grupo (`enviar-vivo.js`, tarea `"Diario YouTube Vivo 1045"`).
 - **YouTube notas** (`--yt-notes`, 13:30): **UNA sola historia resumen** con TODAS las notas del día
   (varias miniaturas + título de cada video) y el CTA *"Mirálas en nuestro canal de YouTube — Radio del
   Centro"*. EXCLUYE el programa completo (`STORY_EXCLUDE_TITLE`, ej. "MAÑANA DEL CENTRO"). Compositor
@@ -160,7 +163,7 @@ Probar sin publicar: `python main.py --news-stories --dry-run` (genera los JPG e
 ⚠️ Facebook *photo_stories* por API es más nuevo y puede requerir elegibilidad extra de la página; si
 falla, se loguea y sigue (Instagram no se ve afectado). El token de Meta ya tiene los permisos.
 
-Tareas de Windows: `"Historias Noticias 0715"`, `"Historias YouTube Vivo 1035"`, `"Historias YouTube Notas 1330"`.
+Tareas de Windows: `"Historias Noticias 0715"`, `"Historias YouTube Vivo 1045"` (lun–vie), `"Historias YouTube Notas 1330"`.
 
 ## Sepelios y Farmacias (scraping → muro + historia)
 Dos automatizaciones diarias que publican en **Wix + Facebook + Instagram** (muro + historia 9:16).
