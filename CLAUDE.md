@@ -155,6 +155,12 @@ imagen una invitación a entrar a la web (`STORY_SITE_URL`).
   con **QR escaneable** del Canal de WhatsApp (en historias el link no se toca, el QR sí se escanea).
   Compositor `compose_canal_story` (QR con la librería `qrcode`); URL configurable en `CANAL_WSP_URL`
   (default = link del canal). Se publica a diario; guarda `.canal_story.json` para no repetir el mismo día.
+- **Reposteo de publicidad** (`--repost`): vigila las cuentas de IG `REPOST_CUENTAS` y, cuando una publica
+  una imagen cuyo caption MENCIONA `REPOST_TRIGGER` (`@dlcchivilcoy`), la sube como **historia** a
+  @dlcchivilcoy (`repost.py` + `compose_repost_story`, anti-repetición `.repost.json`). ⚠️ **PENDIENTE de
+  Meta**: usa Business Discovery, que requiere **Acceso Avanzado de `instagram_basic` (App Review)**. Hasta
+  que se apruebe, la API responde `#10` y el módulo avisa y no publica (queda listo). **No** tiene tarea
+  programada todavía: crearla cuando Meta apruebe.
 
 Archivos: `story_image.py` (compositor Pillow 9:16 → `historias_preview/`), `youtube.py` (RSS/vivo),
 `stories.py` (orquestadores), `platforms/{instagram,facebook}.py::publish_story()`.

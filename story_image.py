@@ -623,3 +623,39 @@ def compose_canal_story(url: str, *,
     _texto_centrado(draw, [marca], f_m, H - m - _line_h(f_m, "Ay"), WHATSAPP_GREEN)
 
     return _save(canvas, "canal_wsp")
+
+
+# ---------------------------------------------------------------------------
+# Historia de REPOSTEO de publicidad: el flyer del comercio centrado (sin
+# recortar) sobre el fondo de marca + un pie discreto. Sirve para cualquier
+# proporción de flyer (cuadrado, 4:5, etc.) quedando siempre 9:16 prolijo.
+# ---------------------------------------------------------------------------
+def compose_repost_story(flyer_path: Path, pie: str = "Espacio publicitario",
+                         marca: str = "DIARIO LA CAMPAÑA") -> Path:
+    canvas = _new_canvas()
+    draw = ImageDraw.Draw(canvas)
+
+    _texto_centrado(draw, [marca], _font(34, True), 60, ACCENT)
+
+    # Pie reservado
+    f_pie = _font(32, False)
+    pie_y = H - MARGIN - _line_h(f_pie, "Ay")
+
+    # Flyer contenido (sin recortar) y centrado entre encabezado y pie
+    box_top = 150
+    box_h = (pie_y - 30) - box_top
+    box_w = W - 2 * MARGIN
+    try:
+        flyer = _contain(Image.open(flyer_path), box_w, box_h)
+        fw, fh = flyer.size
+        cx = (W - fw) // 2
+        cy = box_top + (box_h - fh) // 2
+        draw.rectangle((cx - 3, cy - 3, cx + fw + 3, cy + fh + 3), outline=(70, 74, 84), width=2)
+        canvas.paste(flyer, (cx, cy))
+    except Exception as e:
+        logger.warning(f"No se pudo abrir el flyer a repostear: {e}")
+
+    if pie:
+        _texto_centrado(draw, [pie], f_pie, pie_y, GRAY)
+
+    return _save(canvas, "repost")
