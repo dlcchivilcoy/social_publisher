@@ -235,6 +235,110 @@ def compose_youtube_story(thumb_path: Path, titulo: str, etiqueta: str) -> Path:
 
 
 # ---------------------------------------------------------------------------
+# Historia RESUMEN de YouTube: UNA sola historia con TODAS las notas del día
+#   (varias miniaturas + título) + CTA "Mirálas en nuestro canal de YouTube".
+# ---------------------------------------------------------------------------
+def compose_youtube_resumen_story(videos: list[dict],
+                                  titulo_top: str = "NOTAS DE HOY",
+                                  cta: str = "Mirálas en nuestro canal de YouTube",
+                                  marca: str = "Radio del Centro") -> Path:
+    """videos: lista de {"thumb": Path, "titulo": str}. Devuelve un JPG 9:16."""
+    canvas = _new_canvas()
+    draw = ImageDraw.Draw(canvas)
+    m = MARGIN
+    inner = W - 2 * m
+
+    # Encabezado
+    draw.text((m, 56), "RADIO DEL CENTRO", font=_font(34, True), fill=ACCENT)
+    y = 130
+
+    # Título grande
+    f_t = _font(72, True)
+    for ln in _wrap(draw, titulo_top, f_t, inner)[:2]:
+        draw.text((m, y), ln, font=f_t, fill=WHITE)
+        y += _line_h(f_t, "Ay") + 18
+
+    # Subtítulo (cantidad de videos)
+    f_s = _font(34, False)
+    sub = f"{len(videos)} video{'s' if len(videos) != 1 else ''} de hoy"
+    draw.text((m, y), sub, font=f_s, fill=ACCENT)
+    y += _line_h(f_s, "Ay") + 22
+    draw.line((m, y, W - m, y), fill=(60, 64, 74), width=2)
+    y_start = y + 30
+
+    # Pie (CTA en varias líneas + marca) — reservar su altura
+    f_cta = _font(40, True)
+    f_marca = _font(46, True)
+    cta_lines = _wrap(draw, cta, f_cta, inner - 64)
+    cta_h = sum(_line_h(f_cta, l) + 8 for l in cta_lines)
+    footer_h = cta_h + _line_h(f_marca, "Ay") + 14
+    footer_y = H - m - footer_h
+    avail = (footer_y - 30) - y_start
+
+    # Cuántas filas mostrar y con qué tamaño de miniatura entran
+    GAP = 24
+    MAXN = 6
+    items = videos[:MAXN]
+    extra = len(videos) - len(items)
+    n = max(1, len(items))
+
+    thumb_w = 240
+    for tw in (460, 420, 380, 340, 300, 260, 240):
+        th = round(tw * 9 / 16)
+        total = n * th + (n - 1) * GAP + (44 if extra > 0 else 0)
+        if total <= avail:
+            thumb_w = tw
+            break
+    thumb_h = round(thumb_w * 9 / 16)
+
+    f_titulo = _font(34, True)
+    text_x = m + thumb_w + 28
+    text_w = W - m - text_x
+
+    yy = y_start
+    for v in items:
+        # Miniatura (cover, recorte centrado) con marco sutil
+        try:
+            th_img = _cover(Image.open(v["thumb"]), thumb_w, thumb_h)
+            canvas.paste(th_img, (m, yy))
+        except Exception as e:
+            logger.warning(f"miniatura no disponible: {e}")
+            draw.rectangle((m, yy, m + thumb_w, yy + thumb_h), fill=(40, 44, 54))
+        draw.rectangle((m, yy, m + thumb_w, yy + thumb_h), outline=(70, 74, 84), width=2)
+
+        # Botón play (círculo rojo + triángulo)
+        bx, by, r = m + thumb_w // 2, yy + thumb_h // 2, 32
+        draw.ellipse((bx - r, by - r, bx + r, by + r), fill=ACCENT)
+        draw.polygon([(bx - 10, by - 16), (bx - 10, by + 16), (bx + 18, by)], fill=WHITE)
+
+        # Título al costado, centrado vertical respecto a la miniatura
+        tlines = _wrap(draw, v.get("titulo", ""), f_titulo, text_w)[:3]
+        lh = _line_h(f_titulo, "Ay") + 4
+        ty = yy + max(0, (thumb_h - len(tlines) * lh) // 2)
+        for ln in tlines:
+            draw.text((text_x, ty), ln, font=f_titulo, fill=WHITE)
+            ty += lh
+        yy += thumb_h + GAP
+
+    if extra > 0:
+        draw.text((m, yy), f"… y {extra} más en el canal", font=f_s, fill=GRAY)
+
+    # Pie: triángulo play + CTA (blanco) + marca (acento)
+    draw.line((m, footer_y - 20, W - m, footer_y - 20), fill=(60, 64, 74), width=2)
+    fh = _line_h(f_cta, "Ay")
+    draw.polygon([(m, footer_y + 4), (m, footer_y + 4 + fh),
+                  (m + fh * 0.85, footer_y + 4 + fh / 2)], fill=ACCENT)
+    yc = footer_y
+    for i, ln in enumerate(cta_lines):
+        x = m + (int(fh) + 18 if i == 0 else 0)
+        draw.text((x, yc), ln, font=f_cta, fill=WHITE)
+        yc += _line_h(f_cta, ln) + 8
+    draw.text((m, yc + 4), marca, font=f_marca, fill=ACCENT)
+
+    return _save(canvas, "yt_resumen")
+
+
+# ---------------------------------------------------------------------------
 # Historia de TAPA: la tapa del diario entera (contain, sin recortar) + fecha
 # ---------------------------------------------------------------------------
 def compose_tapa_story(cover_path: Path, fecha_str: str) -> Path:

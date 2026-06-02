@@ -143,8 +143,11 @@ imagen una invitación a entrar a la web (`STORY_SITE_URL`).
   Foto + volanta + titular + resumen + *"Leé la nota completa en www.diariolacampana.com.ar"*.
   Ledger `.historias.json` (en POSTS_FOLDER) para no repetir.
 - **YouTube vivo** (`--yt-live`, 10:35): si el canal está en vivo, miniatura + título + "Mirá el vivo".
-- **YouTube notas** (`--yt-notes`, 13:30): historias de los videos del día, EXCLUYENDO el programa
-  completo (`STORY_EXCLUDE_TITLE`, ej. "MAÑANA DEL CENTRO"). Ledger `youtube-historias.json`.
+- **YouTube notas** (`--yt-notes`, 13:30): **UNA sola historia resumen** con TODAS las notas del día
+  (varias miniaturas + título de cada video) y el CTA *"Mirálas en nuestro canal de YouTube — Radio del
+  Centro"*. EXCLUYE el programa completo (`STORY_EXCLUDE_TITLE`, ej. "MAÑANA DEL CENTRO"). Compositor
+  `compose_youtube_resumen_story` (muestra hasta 6 miniaturas; si hay más, "… y N más en el canal").
+  Anti-repetición por día: clave `resumen-AAAA-MM-DD` en `youtube-historias.json` (una historia por día).
 
 Archivos: `story_image.py` (compositor Pillow 9:16 → `historias_preview/`), `youtube.py` (RSS/vivo),
 `stories.py` (orquestadores), `platforms/{instagram,facebook}.py::publish_story()`.

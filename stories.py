@@ -9,13 +9,15 @@ Las imágenes 9:16 se arman con story_image.py (texto quemado, sin links/sticker
 Cada orquestador lleva su propio ledger para no repetir.
 """
 import json
+from datetime import date
 from pathlib import Path
 
 import youtube
 from file_scanner import find_notes
 from platforms import facebook, instagram
 from publisher import _resumen
-from story_image import compose_note_story, compose_youtube_story
+from story_image import (compose_note_story, compose_youtube_resumen_story,
+                         compose_youtube_story)
 from utils.config import get
 from utils.logger import get_logger
 
@@ -143,11 +145,11 @@ def run_youtube_live_story(dry_run: bool = False) -> None:
 
 
 # ---------------------------------------------------------------------------
-# 3) Historias de las NOTAS de YouTube (excluye el programa completo)
+# 3) Historia RESUMEN de las NOTAS de YouTube (UNA sola con todas las del día)
 # ---------------------------------------------------------------------------
 def run_youtube_notes_stories(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
-    logger.info(f"=== Historias de notas de YouTube [{modo}] ===")
+    logger.info(f"=== Historia resumen de notas de YouTube [{modo}] ===")
     channel_id = get("YT_CHANNEL_ID") or "UCqiTJ2oRBLNO1ZzfrdiyjTw"
     excluir_raw = get("STORY_EXCLUDE_TITLE") or "MAÑANA DEL CENTRO"
     excluir = [youtube.normalizar(x) for x in excluir_raw.split(",") if x.strip()]
@@ -157,30 +159,54 @@ def run_youtube_notes_stories(dry_run: bool = False) -> None:
         logger.info("No hay videos de hoy en el canal.")
         return
 
-    ledger = youtube.leer_ledger()
-    nuevos = 0
+    # Filtra el programa completo (La Mañana del Centro) — solo quedan las notas.
+    notas = []
     for v in videos:
         tnorm = youtube.normalizar(v["titulo"])
         if any(x and x in tnorm for x in excluir):
             logger.info(f"Excluido (programa completo): «{v['titulo'][:55]}»")
             continue
-        if v["id"] in ledger:
-            continue
+        notas.append(v)
 
-        logger.info(f"--- Historia de nota: «{v['titulo'][:55]}» ---")
+    if not notas:
+        logger.info("No hay notas de YouTube para hoy (sin contar el programa completo).")
+        return
+
+    # Anti-repetición: una sola historia resumen por día (clave por fecha).
+    ledger = youtube.leer_ledger()
+    clave_dia = "resumen-" + date.today().isoformat()
+    if not dry_run and clave_dia in ledger:
+        logger.info("El resumen de notas de YouTube de hoy ya se publicó. Se omite.")
+        return
+
+    logger.info(f"{len(notas)} nota(s) para el resumen de hoy:")
+    for v in notas:
+        logger.info(f"   • {v['titulo'][:60]}")
+
+    # Baja las miniaturas de cada nota.
+    vids_img = []
+    for v in notas:
         try:
             thumb = youtube.descargar_miniatura(v["id"])
-            img = compose_youtube_story(thumb, v["titulo"], "Nueva nota")
+            vids_img.append({"thumb": thumb, "titulo": v["titulo"]})
         except Exception as e:
-            logger.error(f"   No se pudo componer: {e} — omitida")
-            continue
+            logger.warning(f"   miniatura no disponible para «{v['titulo'][:40]}»: {e}")
+    if not vids_img:
+        logger.error("No se pudo bajar ninguna miniatura — se omite.")
+        return
 
-        results = _publish(img, dry_run)
-        if not dry_run and _ok(results):
-            ledger.add(v["id"])
-            youtube.guardar_ledger(ledger)
-            nuevos += 1
+    # UNA sola historia con todas las notas + CTA al canal de YouTube.
+    try:
+        img = compose_youtube_resumen_story(vids_img)
+    except Exception as e:
+        logger.error(f"No se pudo componer la historia resumen: {e}")
+        return
 
+    results = _publish(img, dry_run)
+    if not dry_run and _ok(results):
+        ledger.add(clave_dia)
+        youtube.guardar_ledger(ledger)
+        logger.info("Resumen de YouTube registrado (no se repite hoy).")
     if dry_run:
         logger.info("(dry-run) no se modificó el ledger.")
-    logger.info(f"=== Historias de notas: fin ({nuevos} publicada/s) ===")
+    logger.info("=== Historia resumen de notas: fin ===")
