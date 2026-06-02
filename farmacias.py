@@ -173,8 +173,7 @@ def run_farmacias(dry_run: bool = False) -> None:
 
     caption = ("💊 Farmacias de turno — " + fecha.capitalize() + "\n\n"
                + "\n".join(lineas_cap)
-               + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs."
-                 "\nFuente: dechivilcoy.com.ar")
+               + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs.")
 
     logger.info(f"Farmacias de hoy: {', '.join(nombres)}")
     for l in lineas_cap:

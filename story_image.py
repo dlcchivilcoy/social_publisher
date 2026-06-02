@@ -530,14 +530,14 @@ def compose_sepelios_story(nombres: list[str], fecha_str: str) -> Path:
 def compose_farmacias_feed(items: list[dict], fecha_str: str) -> Path:
     return _compose_listado(
         size=(1080, 1350), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
-        items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs) · Fuente: dechivilcoy.com.ar",
+        items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs)",
         accent=GREEN, marker="plus", stem="farmacias_feed")
 
 
 def compose_farmacias_story(items: list[dict], fecha_str: str) -> Path:
     return _compose_listado(
         size=(W, H), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
-        items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs) · Fuente: dechivilcoy.com.ar",
+        items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs)",
         accent=GREEN, marker="plus", stem="farmacias_story")
 
 
