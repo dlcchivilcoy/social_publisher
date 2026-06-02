@@ -69,6 +69,17 @@ def _titulo(n: str) -> str:
     return " ".join(out)
 
 
+def _detalle(texto: str, nombre: str, limit: int = 130) -> str:
+    """Resumen breve a partir del texto de la tarjeta (sin el nombre ni Q.E.P.D.)."""
+    t = (texto or "").replace(nombre, " ")
+    t = re.sub(r"q\.?\s*e\.?\s*p\.?\s*d\.?", "", t, flags=re.I)
+    t = t.replace("†", " ").replace("Sepelios", " ").replace("Necrológicas", " ")
+    t = re.sub(r"\s+", " ", t).strip(" .-·,")
+    if len(t) > limit:
+        t = t[:limit].rsplit(" ", 1)[0].rstrip(" .,;:") + "…"
+    return t
+
+
 # ── Scrapers ─────────────────────────────────────────────────────────────────
 def scrap_sannicolas() -> list[dict]:
     """Cada tarjeta: div.slide-content con h3 (nombre) + 'Falleció en {lugar} el {fecha}'."""
@@ -86,7 +97,9 @@ def scrap_sannicolas() -> list[dict]:
         texto = card.get_text(" ", strip=True)
         if not _es_chivilcoy(texto):
             continue
-        out.append({"nombre": _limpiar_nombre(nombre), "fuente": "San Nicolás"})
+        out.append({"nombre": _limpiar_nombre(nombre),
+                    "detalle": _detalle(texto, nombre),
+                    "fuente": "San Nicolás"})
     logger.info(f"San Nicolás: {len(out)} sepelio(s) de Chivilcoy")
     return out
 
@@ -125,7 +138,10 @@ def scrap_vision() -> list[dict]:
             nombre = cand
             break
         if nombre:
-            out.append({"nombre": _limpiar_nombre(nombre), "fuente": "Visión"})
+            loc = re.sub(r"\s+", " ", localidad).strip(" .")
+            out.append({"nombre": _limpiar_nombre(nombre),
+                        "detalle": f"Sepelio en {loc} · {m.group(1)}",
+                        "fuente": "Visión"})
     logger.info(f"Visión: {len(out)} sepelio(s) de Chivilcoy")
     return out
 
@@ -186,9 +202,13 @@ def run_sepelios(dry_run: bool = False) -> None:
     fecha = _fecha_larga(date.today())
     nombres = [s["nombre"] for s in nuevos]
 
-    # Leyenda (caption) sobria
-    lineas = [f"🕯️ Sepelios — {fecha.capitalize()}", "", "Q.E.P.D."]
-    lineas += [f"• {n}" for n in nombres]
+    # Leyenda (caption) sobria, con un breve resumen de cada uno
+    lineas = [f"🕯️ Sepelios — {fecha.capitalize()}", "", "Q.E.P.D.", ""]
+    for s in nuevos:
+        lineas.append(f"• {s['nombre']}")
+        det = (s.get("detalle") or "").strip()
+        if det:
+            lineas.append(f"   {det}")
     lineas += ["", "Diario La Campaña acompaña a las familias.",
                "Información: empresas Visión y San Nicolás."]
     caption = "\n".join(lineas)

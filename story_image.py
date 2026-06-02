@@ -360,8 +360,11 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
             mlines = _wrap(draw, it.get("main", ""), f_main, text_w)[:2]
             sub = it.get("sub", "")
             sline = _wrap(draw, sub, f_sub, text_w)[:1] if sub else []
-            h = len(mlines) * (mlh + 2) + (slh + 4 if sline else 0) + GAP
-            filas.append((mlines, sline, h))
+            sub2 = it.get("sub2", "")           # línea resaltada (ej: horario)
+            sline2 = _wrap(draw, sub2, f_sub, text_w)[:1] if sub2 else []
+            h = (len(mlines) * (mlh + 2) + (slh + 4 if sline2 else 0)
+                 + (slh + 4 if sline else 0) + GAP)
+            filas.append((mlines, sline2, sline, h))
             total += h
         return f_main, f_sub, mk, mlh, slh, filas, total
 
@@ -377,7 +380,7 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
     f_main, f_sub, mk, mlh, slh, filas, _ = chosen
 
     yy = y_start
-    for idx, (mlines, sline, h) in enumerate(filas):
+    for idx, (mlines, sline2, sline, h) in enumerate(filas):
         if yy + h > foot_y - 10:
             draw.text((m, yy), f"… y {n - idx} más", font=f_sub, fill=GRAY)
             break
@@ -387,6 +390,9 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
         for ln in mlines:
             draw.text((tx, ly), ln, font=f_main, fill=WHITE)
             ly += mlh + 2
+        if sline2:   # horario u otra línea destacada → color de acento
+            draw.text((tx, ly + 2), sline2[0], font=f_sub, fill=accent)
+            ly += slh + 4
         if sline:
             draw.text((tx, ly + 2), sline[0], font=f_sub, fill=GRAY)
         yy += h

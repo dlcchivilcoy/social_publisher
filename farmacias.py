@@ -156,20 +156,24 @@ def run_farmacias(dry_run: bool = False) -> None:
         info = listado.get(_norm(nom), {})
         direccion = info.get("direccion", "")
         telefono = info.get("telefono", "")
-        horario = "hasta 22 hs" if i == len(nombres) - 1 else "24 hs"
+        # Las 2 primeras de la terna están de turno las 24 hs (8:30 a 8:30 del día
+        # siguiente); la última, de 8:30 a 22 hs.
+        ultima = (i == len(nombres) - 1)
+        horario = "8:30 a 22 hs" if ultima else "8:30 a 8:30 hs (24 hs)"
         sub = " · ".join([x for x in [direccion, (f"Tel {telefono}" if telefono else "")] if x])
-        items.append({"main": nom.upper(), "sub": sub})
+        # sub2 = horario, resaltado en color (verde) debajo del nombre.
+        items.append({"main": nom.upper(), "sub2": f"Horario: {horario}", "sub": sub})
         det = f"💊 {nom}"
         if direccion:
             det += f" — {direccion}"
         if telefono:
             det += f" — Tel: {telefono}"
-        det += f" ({horario})"
+        det += f"\n   🕒 Horario: {horario}"
         lineas_cap.append(det)
 
     caption = ("💊 Farmacias de turno — " + fecha.capitalize() + "\n\n"
                + "\n".join(lineas_cap)
-               + "\n\nTurnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs)."
+               + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs."
                  "\nFuente: dechivilcoy.com.ar")
 
     logger.info(f"Farmacias de hoy: {', '.join(nombres)}")

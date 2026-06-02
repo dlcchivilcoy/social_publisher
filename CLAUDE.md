@@ -163,18 +163,24 @@ Scraping con `utils/scrape.py` (User-Agent de navegador; dechivilcoy bloquea el 
   **San Nicolás** (`empresasannicolas.com/sepelios/`, `div.slide-content`) y **Visión**
   (`grupovisionargentina.com`, bloque "Necrológicas" de la home). **Solo Chivilcoy**. Un único posteo +
   historia con **solo los NUEVOS del día** (anti-repetición por nombre normalizado en `.sepelios.json`).
+  El **posteo** incluye un **breve resumen de cada uno** (`detalle`): San Nicolás → "Falleció en {lugar} el
+  {fecha}"; Visión → "Sepelio en {localidad} · {fecha}". La imagen se mantiene sobria (solo nombres).
   Módulo `sepelios.py`; imágenes `compose_sepelios_feed/story` en `story_image.py`.
-- **Farmacias** (`--farmacias`, 21:05 — tarea `"Farmacias Turno 2105"`): el cronograma de turnos de
+- **Farmacias** (`--farmacias`, **08:00** — tarea `"Farmacias Turno 0800"`): el cronograma de turnos de
   `dechivilcoy.com.ar/farmacias/` es **una imagen mensual** (`TURNOS-{MES}-{AÑO}.jpg`) y el OCR NO es
   confiable. Por eso el cronograma vive curado en **`turnos_farmacias.json`** (día → terna de 3 farmacias;
   las 2 primeras 8:30→8:30, la última 8:30→22 hs). El listado (dirección/teléfono) sí se scrapea de la
-  tabla `<li>`. Cada día busca la terna de hoy, le pega dirección/teléfono y publica. Ledger `.farmacias.json`
+  tabla `<li>`. Cada día busca la terna de hoy, le pega dirección/teléfono y **el horario específico de
+  cada una** (las 2 primeras `8:30 a 8:30 hs (24 hs)`, la última `8:30 a 22 hs`) y publica. El horario se
+  muestra resaltado (verde, vía `sub2` en `_compose_listado`) bajo cada farmacia en la imagen y en el
+  texto del posteo. Ledger `.farmacias.json`
   (no repite el mismo día). **Al cambiar de mes** detecta que falta el cronograma del mes (o que cambió la
   imagen) → avisa en el log y NO publica datos sin verificar: hay que leer la imagen y cargar el mes nuevo
   en `turnos_farmacias.json` (~1 min). Módulo `farmacias.py`; imágenes `compose_farmacias_feed/story`.
 
 Probar sin publicar: `python main.py --sepelios --dry-run` y `python main.py --farmacias --dry-run`
 (generan los JPG en `historias_preview/`). `turnos_farmacias.json` SÍ se versiona; los ledgers no.
+Horarios de las tareas: **Sepelios 21:00**, **Farmacias 08:00**.
 
 ## Tarea programada de Windows
 - Nombre: `"Publicador Diario LC"`
