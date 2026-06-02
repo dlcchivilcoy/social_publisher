@@ -16,7 +16,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from platforms import facebook, instagram, wix
+from platforms import facebook, instagram
 from story_image import compose_farmacias_feed, compose_farmacias_story
 from utils.config import get
 from utils.logger import get_logger
@@ -214,7 +214,7 @@ def run_farmacias(dry_run: bool = False) -> None:
         return
 
     if dry_run:
-        logger.info(f"   [dry-run] muro Wix/{'/'.join(_platforms())} + historia listos (NO se publica).")
+        logger.info(f"   [dry-run] muro {'/'.join(_platforms())} + historia listos (NO se publica, NO va a Wix).")
         logger.info(f"   imágenes: {feed_img.name} / {story_img.name}")
         logger.info("=== Farmacias: fin (dry-run) ===")
         return
@@ -222,16 +222,7 @@ def run_farmacias(dry_run: bool = False) -> None:
     plats = _platforms()
     algun_ok = False
 
-    try:
-        desc_seo = (f"Farmacias de turno en Chivilcoy — {fecha.capitalize()}: "
-                    + ", ".join(nombres))
-        wix.publish(f"Farmacias de turno — {fecha.capitalize()}{sufijo_cambio}", caption, feed_img,
-                    page=0, description=desc_seo)
-        algun_ok = True
-        logger.info("   [wix] farmacias publicadas OK")
-    except Exception as e:
-        logger.error(f"   [wix] FALLÓ: {e}")
-
+    # Las farmacias de turno NO se publican en Wix; solo en redes sociales (FB/IG).
     feed_fns = {"facebook": lambda: facebook.publish(caption, feed_img),
                 "instagram": lambda: instagram.publish(caption, feed_img)}
     for name in plats:

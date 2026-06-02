@@ -108,7 +108,7 @@ def _hashtags(note: dict) -> str:
 
 
 def _site_url() -> str:
-    return get("STORY_SITE_URL") or "www.diariolacampana.com.ar"
+    return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
 
 
 def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True) -> str:
