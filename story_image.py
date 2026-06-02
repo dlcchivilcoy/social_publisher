@@ -539,3 +539,72 @@ def compose_farmacias_story(items: list[dict], fecha_str: str) -> Path:
         size=(W, H), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
         items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs) · Fuente: dechivilcoy.com.ar",
         accent=GREEN, marker="plus", stem="farmacias_story")
+
+
+# ---------------------------------------------------------------------------
+# Historia PROMO del CANAL de WhatsApp: QR (escaneable) + invitación a seguirlo.
+#   En historias el link no es tocable; el QR sí se escanea desde otro teléfono.
+# ---------------------------------------------------------------------------
+WHATSAPP_GREEN = (37, 211, 102)
+
+
+def _texto_centrado(draw, lines, font, y, fill, gap=10):
+    for ln in lines:
+        w = draw.textlength(ln, font=font)
+        draw.text(((W - w) // 2, y), ln, font=font, fill=fill)
+        y += _line_h(font, "Ay") + gap
+    return y
+
+
+def compose_canal_story(url: str, *,
+                        titulo="Seguinos en nuestro Canal de WhatsApp",
+                        subtitulo="Toda la info del día, al instante 📲",
+                        cta="Escaneá el código para seguirnos",
+                        marca="Diario La Campaña · Radio del Centro") -> Path:
+    import qrcode
+
+    canvas = _new_canvas()
+    draw = ImageDraw.Draw(canvas)
+    m = MARGIN
+    inner = W - 2 * m
+
+    # Marca arriba (centrada)
+    _texto_centrado(draw, ["DIARIO LA CAMPAÑA"], _font(36, True), 70, ACCENT)
+    y = 175
+
+    # Título (centrado)
+    f_t = _font(64, True)
+    y = _texto_centrado(draw, _wrap(draw, titulo, f_t, inner)[:3], f_t, y, WHITE, gap=12)
+    y += 8
+
+    # Subtítulo (centrado, verde WhatsApp). Sin emoji para que Arial no falle.
+    sub = subtitulo.replace("📲", "").strip()
+    f_s = _font(38, False)
+    y = _texto_centrado(draw, _wrap(draw, sub, f_s, inner)[:2], f_s, y, WHATSAPP_GREEN, gap=8)
+    y += 34
+
+    # Panel blanco con el QR centrado
+    panel = min(inner, 760)
+    px = (W - panel) // 2
+    py = y
+    draw.rounded_rectangle((px, py, px + panel, py + panel), radius=44, fill=WHITE)
+
+    qr = qrcode.QRCode(border=1, box_size=10,
+                       error_correction=qrcode.constants.ERROR_CORRECT_M)
+    qr.add_data(url)
+    qr.make(fit=True)
+    qr_img = qr.make_image(fill_color=(17, 19, 26), back_color=(255, 255, 255)).convert("RGB")
+    qsize = panel - 96
+    qr_img = qr_img.resize((qsize, qsize), Image.NEAREST)
+    canvas.paste(qr_img, (px + (panel - qsize) // 2, py + (panel - qsize) // 2))
+    y = py + panel + 44
+
+    # CTA (centrada)
+    f_cta = _font(44, True)
+    y = _texto_centrado(draw, _wrap(draw, cta, f_cta, inner)[:2], f_cta, y, WHITE, gap=8)
+
+    # Marca abajo (verde WhatsApp)
+    f_m = _font(34, True)
+    _texto_centrado(draw, [marca], f_m, H - m - _line_h(f_m, "Ay"), WHATSAPP_GREEN)
+
+    return _save(canvas, "canal_wsp")

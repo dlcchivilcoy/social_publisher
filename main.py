@@ -74,6 +74,11 @@ def main() -> None:
         help="Publicar la TAPA del diario (imagen de la carpeta del PDF) en muro + historia de IG y FB.",
     )
     parser.add_argument(
+        "--canal-story",
+        action="store_true",
+        help="Publicar la HISTORIA promo del Canal de WhatsApp (con QR) en IG+FB.",
+    )
+    parser.add_argument(
         "--mail",
         action="store_true",
         help="Enviar el PDF del diario por correo a los clientes con MAIL en la planilla.",
@@ -136,6 +141,11 @@ def main() -> None:
         from tapa import run_tapa
         logger.info(f"Modo --tapa (dry_run={args.dry_run}).")
         run_tapa(dry_run=args.dry_run)
+        return
+    if args.canal_story:
+        from stories import run_canal_story
+        logger.info(f"Modo --canal-story (dry_run={args.dry_run}).")
+        run_canal_story(dry_run=args.dry_run)
         return
     if args.mail:
         from mailer import run_mail

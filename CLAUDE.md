@@ -148,6 +148,10 @@ imagen una invitación a entrar a la web (`STORY_SITE_URL`).
   Centro"*. EXCLUYE el programa completo (`STORY_EXCLUDE_TITLE`, ej. "MAÑANA DEL CENTRO"). Compositor
   `compose_youtube_resumen_story` (muestra hasta 6 miniaturas; si hay más, "… y N más en el canal").
   Anti-repetición por día: clave `resumen-AAAA-MM-DD` en `youtube-historias.json` (una historia por día).
+- **Canal de WhatsApp** (`--canal-story`, **17:00** — tarea `"Historia Canal WSP 1700"`): historia promo
+  con **QR escaneable** del Canal de WhatsApp (en historias el link no se toca, el QR sí se escanea).
+  Compositor `compose_canal_story` (QR con la librería `qrcode`); URL configurable en `CANAL_WSP_URL`
+  (default = link del canal). Se publica a diario; guarda `.canal_story.json` para no repetir el mismo día.
 
 Archivos: `story_image.py` (compositor Pillow 9:16 → `historias_preview/`), `youtube.py` (RSS/vivo),
 `stories.py` (orquestadores), `platforms/{instagram,facebook}.py::publish_story()`.

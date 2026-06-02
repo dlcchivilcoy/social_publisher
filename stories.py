@@ -16,8 +16,8 @@ import youtube
 from file_scanner import find_notes
 from platforms import facebook, instagram
 from publisher import _resumen
-from story_image import (compose_note_story, compose_youtube_resumen_story,
-                         compose_youtube_story)
+from story_image import (compose_canal_story, compose_note_story,
+                         compose_youtube_resumen_story, compose_youtube_story)
 from utils.config import get
 from utils.logger import get_logger
 
@@ -210,3 +210,47 @@ def run_youtube_notes_stories(dry_run: bool = False) -> None:
     if dry_run:
         logger.info("(dry-run) no se modificó el ledger.")
     logger.info("=== Historia resumen de notas: fin ===")
+
+
+# ---------------------------------------------------------------------------
+# 4) Historia PROMO del CANAL de WhatsApp (QR escaneable). Se publica a diario.
+# ---------------------------------------------------------------------------
+CANAL_LEDGER = Path(__file__).parent / ".canal_story.json"
+CANAL_URL_DEFAULT = "https://whatsapp.com/channel/0029Vb81uxu4yltJLzTE611x"
+
+
+def _canal_ya_hoy() -> bool:
+    from datetime import date
+    try:
+        if CANAL_LEDGER.exists():
+            return json.loads(CANAL_LEDGER.read_text(encoding="utf-8")).get("fecha") == date.today().isoformat()
+    except Exception:
+        pass
+    return False
+
+
+def _canal_marcar() -> None:
+    CANAL_LEDGER.write_text(json.dumps({"fecha": date.today().isoformat()},
+                                       ensure_ascii=False), encoding="utf-8")
+
+
+def run_canal_story(dry_run: bool = False) -> None:
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    logger.info(f"=== Historia promo del Canal de WhatsApp [{modo}] ===")
+    url = get("CANAL_WSP_URL") or CANAL_URL_DEFAULT
+
+    if not dry_run and _canal_ya_hoy():
+        logger.info("La historia del canal ya se publicó hoy. Se omite.")
+        return
+
+    try:
+        img = compose_canal_story(url)
+    except Exception as e:
+        logger.error(f"No se pudo componer la historia del canal: {e}")
+        return
+
+    results = _publish(img, dry_run)
+    if not dry_run and _ok(results):
+        _canal_marcar()
+        logger.info("Historia del canal registrada (no se repite hoy).")
+    logger.info("=== Historia promo del canal: fin ===")
