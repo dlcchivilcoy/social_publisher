@@ -179,10 +179,24 @@ def _platforms() -> list[str]:
     return [p.strip().lower() for p in raw.split(",") if p.strip()]
 
 
+# ── Interruptor general ───────────────────────────────────────────────────────
+# Los sepelios quedaron DESACTIVADOS por pedido del diario: no se publican más
+# en NINGUNA red ni en Wix (ni posteo ni historia). La tarea programada de
+# Windows también está deshabilitada. Para reactivarlos, poné SEPELIOS_ACTIVO=1
+# en el .env (o cambiá este valor) y volvé a habilitar la tarea.
+def _sepelios_activo() -> bool:
+    return (get("SEPELIOS_ACTIVO") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
 # ── Orquestador ──────────────────────────────────────────────────────────────
 def run_sepelios(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Sepelios de Chivilcoy [{modo}] ===")
+
+    if not _sepelios_activo():
+        logger.info("Sepelios DESACTIVADOS (SEPELIOS_ACTIVO!=1): no se publica nada "
+                    "(ni Wix, ni Facebook, ni Instagram, ni historias). Se omite.")
+        return
 
     sepelios = recolectar()
     if not sepelios:
