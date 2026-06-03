@@ -1,5 +1,7 @@
+import json
 import re
 import unicodedata
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -9,6 +11,9 @@ from utils.image_host import upload_to_imgbb
 from utils.logger import get_logger
 
 logger = get_logger("wix")
+
+# Zona horaria de Argentina (UTC-3) para las fechas de los datos estructurados.
+TZ_AR = timezone(timedelta(hours=-3))
 
 
 # ── SEO ───────────────────────────────────────────────────────────────────────
@@ -31,7 +36,53 @@ def _meta_descripcion(description: str, body: str, limit: int = 155) -> str:
     return texto[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
 
 
+def _marca() -> str:
+    return get("SEO_PUBLISHER_NAME") or "Diario La Campaña"
+
+
+def _sitio_url() -> str:
+    """URL canónica del sitio (con https). Configurable; usa el dominio con ñ."""
+    raw = (get("STORY_SITE_URL") or "www.diariolacampaña.com.ar").strip()
+    raw = re.sub(r"^https?://", "", raw).strip("/")
+    return f"https://{raw}"
+
+
+def _json_ld_newsarticle(title: str, descripcion: str, image_url: str) -> str:
+    """Datos estructurados NewsArticle (Schema.org) para Google Noticias/Discover.
+
+    Le dice a Google que esto es una NOTICIA: titular, imagen, fecha, autor y
+    editor. Es lo que habilita los carruseles de noticias y la pestaña Noticias.
+    """
+    ahora = datetime.now(TZ_AR).isoformat(timespec="seconds")
+    headline = (title or "").strip()
+    if len(headline) > 110:  # Google recomienda titulares de hasta 110 caracteres
+        headline = headline[:110].rsplit(" ", 1)[0]
+
+    data = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": headline,
+        "description": descripcion,
+        "datePublished": ahora,
+        "dateModified": ahora,
+        "inLanguage": "es-AR",
+        "author": {"@type": "Organization", "name": _marca(), "url": _sitio_url()},
+        "publisher": {
+            "@type": "Organization",
+            "name": _marca(),
+            "url": _sitio_url(),
+        },
+    }
+    if image_url:
+        data["image"] = [image_url]
+    logo = get("SEO_PUBLISHER_LOGO_URL")
+    if logo:
+        data["publisher"]["logo"] = {"@type": "ImageObject", "url": logo}
+    return json.dumps(data, ensure_ascii=False)
+
+
 def _seo_tags(title: str, descripcion: str, image_url: str) -> list[dict]:
+    ahora = datetime.now(TZ_AR).isoformat(timespec="seconds")
     tags = [
         {"type": "title", "children": title, "custom": False, "disabled": False},
         {"type": "meta", "props": {"name": "description", "content": descripcion},
@@ -39,13 +90,28 @@ def _seo_tags(title: str, descripcion: str, image_url: str) -> list[dict]:
         {"type": "meta", "props": {"property": "og:title", "content": title}},
         {"type": "meta", "props": {"property": "og:description", "content": descripcion}},
         {"type": "meta", "props": {"property": "og:type", "content": "article"}},
+        {"type": "meta", "props": {"property": "og:site_name", "content": _marca()}},
+        {"type": "meta", "props": {"property": "og:locale", "content": "es_AR"}},
+        # Señales de artículo de noticias (fecha y autor) para buscadores.
+        {"type": "meta", "props": {"property": "article:published_time", "content": ahora}},
+        {"type": "meta", "props": {"property": "article:modified_time", "content": ahora}},
+        {"type": "meta", "props": {"property": "article:author", "content": _marca()}},
         {"type": "meta", "props": {"name": "twitter:card", "content": "summary_large_image"}},
         {"type": "meta", "props": {"name": "twitter:title", "content": title}},
         {"type": "meta", "props": {"name": "twitter:description", "content": descripcion}},
     ]
     if image_url:
         tags.append({"type": "meta", "props": {"property": "og:image", "content": image_url}})
+        tags.append({"type": "meta", "props": {"property": "og:image:alt", "content": title}})
         tags.append({"type": "meta", "props": {"name": "twitter:image", "content": image_url}})
+    # Datos estructurados NewsArticle (JSON-LD) — lo más importante para Google Noticias.
+    tags.append({
+        "type": "script",
+        "props": {"type": "application/ld+json"},
+        "children": _json_ld_newsarticle(title, descripcion, image_url),
+        "custom": True,
+        "disabled": False,
+    })
     return tags
 
 POSTS_QUERY_URL = "https://www.wixapis.com/blog/v3/posts/query"
@@ -100,10 +166,13 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     # 1) Imagen pública temporal (ImgBB)
     image_url = upload_to_imgbb(image_path)
 
-    # 2) Importar al Media Manager de Wix
+    # 2) Importar al Media Manager de Wix (con nombre descriptivo = titular,
+    #    así la imagen aporta a Google Imágenes en vez de un nombre genérico).
     mime = "image/png" if image_path.suffix.lower() == ".png" else "image/jpeg"
+    nombre_archivo = _slugify(title)[:80] or "nota"
     imp = requests.post(MEDIA_IMPORT_URL, headers=headers,
-                        json={"mediaType": "IMAGE", "url": image_url, "mimeType": mime}, timeout=30)
+                        json={"mediaType": "IMAGE", "url": image_url, "mimeType": mime,
+                              "displayName": nombre_archivo}, timeout=30)
     _raise_for_status(imp, "importar imagen")
     file_id = imp.json()["file"]["id"]
 
