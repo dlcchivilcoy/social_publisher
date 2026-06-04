@@ -111,13 +111,17 @@ def _site_url() -> str:
     return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
 
 
-def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True) -> str:
+def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True,
+                    hashtags: str = "full", link_en_comentario: bool = False) -> str:
     """
     Arma el texto para redes: emoji + volanta + titular + resumen + cierre + hashtags.
 
-    usar_link_wix=True  → Facebook: pone el link clickeable a la nota de Wix.
-    usar_link_wix=False → Instagram: el link no es clickeable, así que invita por texto
-                          a entrar a la web (igual que en las historias).
+    usar_link_wix=True       → link clickeable a la nota de Wix dentro del posteo.
+    link_en_comentario=True  → Facebook: NO pone el link en el cuerpo (va al primer
+                               comentario). Evita el castigo de alcance de Facebook
+                               a los posteos con links externos.
+    usar_link_wix=False y sin link_en_comentario → Instagram: invita por texto.
+    hashtags="full"|"min"|"none" → cuántos hashtags poner ("min" para Facebook).
     """
     volanta = (note.get("volanta") or "").strip()
     titular = (note.get("titular") or "").strip()
@@ -133,12 +137,19 @@ def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True) -> 
         partes.append(f"{emoji} {volanta}")
     if resumen:
         partes.append(f"📝 {resumen}")
-    if usar_link_wix:
-        if wix_url:
-            partes.append(f"🔗 Leé la nota completa 👉 {wix_url}")
+
+    if usar_link_wix and wix_url:
+        partes.append(f"🔗 Leé la nota completa 👉 {wix_url}")
+    elif link_en_comentario:
+        partes.append("👉 Nota completa en el PRIMER COMENTARIO 👇" if wix_url
+                      else f"📲 Más en {_site_url()}")
     else:
         partes.append(f"📲 Seguí leyendo en {_site_url()}")
-    partes.append(_hashtags(note))
+
+    if hashtags == "full":
+        partes.append(_hashtags(note))
+    elif hashtags == "min":
+        partes.append("#Chivilcoy #DiarioLaCampaña")
     return "\n\n".join(partes)
 
 
@@ -242,10 +253,12 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
 
         wix_url = results["wix"].get("url", "") if results["wix"].get("success") else ""
 
-        # Facebook: link clickeable a Wix (ahí sí funciona).
-        # Instagram: el link no es clickeable, invita a la web por texto.
-        caption_fb = _social_caption(note, wix_url, usar_link_wix=True)
-        caption_ig = _social_caption(note, wix_url, usar_link_wix=False)
+        # Facebook: SIN link en el cuerpo (va al 1er comentario) + pocos hashtags,
+        #   para no perder alcance (Facebook castiga los links externos en el post).
+        # Instagram: igual que siempre (link por texto + hashtags completos).
+        caption_fb = _social_caption(note, wix_url, usar_link_wix=False,
+                                     hashtags="min", link_en_comentario=True)
+        caption_ig = _social_caption(note, wix_url, usar_link_wix=False, hashtags="full")
 
         # 2) Facebook e Instagram vía API.
         # NOTA: X (Twitter) NO va por API — se publica solo desde Wix
@@ -261,6 +274,16 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
             except Exception as e:
                 results[name] = {"success": False, "error": str(e)}
                 logger.error(f"[{name}] FALLÓ — «{title[:40]}»: {e}")
+
+        # Facebook: poné el link de la nota en el PRIMER COMENTARIO (mejor alcance).
+        fb = results.get("facebook", {})
+        if wix_url and fb.get("success") and fb.get("id"):
+            try:
+                facebook.comment(fb["id"], f"📰 Leé la nota completa acá 👉 {wix_url}")
+                logger.info("[facebook] link agregado en el primer comentario")
+            except Exception as e:
+                logger.warning(f"[facebook] no se pudo comentar el link (¿falta permiso "
+                               f"pages_manage_engagement?): {e}")
 
         # Limpia la imagen redimensionada temporal.
         if image_path != note["image"] and image_path.exists():

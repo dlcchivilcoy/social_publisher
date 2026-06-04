@@ -34,6 +34,23 @@ def publish(body: str, image_path: Path) -> dict:
     return {"success": True, "id": data.get("post_id") or data.get("id")}
 
 
+def comment(object_id: str, message: str) -> dict:
+    """Agrega un comentario (como la Página) a un posteo propio.
+
+    Se usa para poner el link de la nota en el PRIMER COMENTARIO en vez del
+    cuerpo del posteo: Facebook penaliza el alcance de los posteos con links
+    externos, pero casi no penaliza los links en comentarios.
+    """
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not token:
+        raise ValueError("FACEBOOK_PAGE_ACCESS_TOKEN no configurado en .env")
+    url = f"https://graph.facebook.com/{GRAPH_VERSION}/{object_id}/comments"
+    resp = requests.post(url, params={"access_token": token},
+                         data={"message": message}, timeout=60)
+    _raise_for_status(resp)
+    return {"success": True, "id": resp.json().get("id")}
+
+
 def publish_story(image_path: Path) -> dict:
     """Publica la imagen como HISTORIA (story) de la Página de Facebook.
 

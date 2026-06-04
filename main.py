@@ -105,6 +105,12 @@ def main() -> None:
         help="Ruta a la carpeta de posts (por defecto: valor de POSTS_FOLDER en .env).",
     )
     parser.add_argument(
+        "--pages",
+        type=str,
+        default=None,
+        help="Override de páginas SOLO para esta corrida (ej: 3,5,7). Si se omite, usa ALLOWED_PAGES.",
+    )
+    parser.add_argument(
         "--hour",
         type=int,
         default=int(get("SCHEDULE_HOUR") or 8),
@@ -125,6 +131,11 @@ def main() -> None:
 
     folder = Path(args.folder) if args.folder else _default_folder()
     pages = _allowed_pages()
+    if args.pages:  # override por corrida (ej: 7am=3,5,7 / 13hs=8,9)
+        override = {int(p.strip()) for p in args.pages.split(",") if p.strip().isdigit()}
+        if override:
+            pages = override
+            logger.info(f"Páginas override para esta corrida: {sorted(pages)}")
 
     # --- Historias (stories) ---
     if args.news_stories:
