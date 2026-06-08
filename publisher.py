@@ -1,4 +1,5 @@
 import json
+import time
 from pathlib import Path
 
 from PIL import Image
@@ -118,6 +119,33 @@ def _fb_link_en_comentario() -> bool:
     return (get("FB_LINK_EN_COMENTARIO") or "false").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
+def _post_delay() -> int:
+    """Segundos de espera entre un posteo y el siguiente (anti-ráfaga)."""
+    try:
+        return max(0, int(get("POST_DELAY_SECONDS") or 120))
+    except ValueError:
+        return 120
+
+
+# Ganchos para invitar a comentar (suben el engagement). Varían por nota.
+_GANCHOS_DEP = [
+    "¿Le tenés fe? Dejá tu pronóstico 👇",
+    "¿Qué esperás de este partido? 💬",
+    "¿Cómo lo ves? Contanos en los comentarios 👇",
+]
+_GANCHOS_GEN = [
+    "¿Qué opinás? Dejanos tu comentario 👇",
+    "💬 ¿Vos qué pensás de esto?",
+    "Contanos tu mirada en los comentarios 👇",
+]
+
+
+def _gancho(note: dict) -> str:
+    opts = _GANCHOS_DEP if note.get("page") in DEPORTES_PAGES else _GANCHOS_GEN
+    base = note.get("titular") or note.get("title") or "x"
+    return opts[len(base) % len(opts)]  # determinístico: no cambia si se reintenta
+
+
 def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True,
                     hashtags: str = "full", link_en_comentario: bool = False) -> str:
     """
@@ -152,6 +180,9 @@ def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True,
                       else f"📲 Más en {_site_url()}")
     else:
         partes.append(f"📲 Seguí leyendo en {_site_url()}")
+
+    # Gancho para invitar a comentar (sube el engagement).
+    partes.append(_gancho(note))
 
     if hashtags == "full":
         partes.append(_hashtags(note))
@@ -234,7 +265,8 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
         logger.info(f"Total: {len(notes)} nota(s), {len(pending)} pendiente(s).")
         return
 
-    for note in pending:
+    delay = _post_delay()
+    for i, note in enumerate(pending):
         title = note["title"]
         body = note["body"]
         logger.info(f"--- Publicando [pág {note['page']}]: «{title[:60]}» ---")
@@ -302,5 +334,11 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
             logger.info(f"«{title[:40]}» registrada como publicada.")
         else:
             logger.error(f"TODAS las plataformas fallaron para «{title[:40]}» — se reintentará la próxima vez")
+
+        # Espaciá los posteos para no salir "de golpe" (mejor alcance y menos
+        # sensación de spam). No espera después del último.
+        if delay > 0 and i < len(pending) - 1:
+            logger.info(f"Esperando {delay}s antes del próximo posteo…")
+            time.sleep(delay)
 
     logger.info("=== Ciclo finalizado ===")
