@@ -1,0 +1,3 @@
+# Los scripts de shell deben tener saltos de linea Unix (LF) si o si,
+# aunque se editen/commiteen desde Windows. Sin esto, bash falla con $'\r'.
+*.sh text eol=lf

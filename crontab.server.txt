@@ -1,0 +1,21 @@
+# Cron del publicador en el server (Oracle Ubuntu).
+# Instalar con:  crontab crontab.server.txt    (o pegarlo en  crontab -e)
+# Horarios en hora de Argentina gracias a CRON_TZ.
+# Recurrencia tomada de las Tareas de Windows reales:
+#   - Todas DIARIAS, salvo --yt-live que es LUN-VIE (campo dia-semana = 1-5).
+#
+# Campos:  min  hora  dia-mes  mes  dia-semana   comando
+
+CRON_TZ=America/Argentina/Buenos_Aires
+
+0  0  * * *   /home/ubuntu/social_publisher/correr.sh --tapa
+0  7  * * *   /home/ubuntu/social_publisher/correr.sh --run-now --pages 3,5,7
+15 7  * * *   /home/ubuntu/social_publisher/correr.sh --news-stories
+0  8  * * *   /home/ubuntu/social_publisher/correr.sh --farmacias
+45 10 * * 1-5 /home/ubuntu/social_publisher/correr.sh --yt-live
+0  13 * * *   /home/ubuntu/social_publisher/correr.sh --run-now --pages 8,9
+30 13 * * *   /home/ubuntu/social_publisher/correr.sh --yt-notes
+0  17 * * *   /home/ubuntu/social_publisher/correr.sh --canal-story
+
+# NO migran (quedan en la PC): --mail (07:00) y todo WhatsApp.
+# --sepelios esta desactivado (SEPELIOS_ACTIVO=0).

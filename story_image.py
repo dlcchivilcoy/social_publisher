@@ -28,10 +28,19 @@ GRAY = (188, 192, 200)
 
 PREVIEW_DIR = Path(__file__).parent / "historias_preview"
 
-# Fuentes de Windows (con fallback a la default de Pillow)
+# Fuentes (Windows primero, luego Linux; fallback a la default de Pillow).
+# En el server Linux se usan Liberation Sans (métrica idéntica a Arial) o DejaVu.
 _FONT_PATHS = {
-    "bold": [r"C:\Windows\Fonts\arialbd.ttf", r"C:\Windows\Fonts\Arialbd.ttf"],
-    "regular": [r"C:\Windows\Fonts\arial.ttf", r"C:\Windows\Fonts\Arial.ttf"],
+    "bold": [
+        r"C:\Windows\Fonts\arialbd.ttf", r"C:\Windows\Fonts\Arialbd.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    ],
+    "regular": [
+        r"C:\Windows\Fonts\arial.ttf", r"C:\Windows\Fonts\Arial.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    ],
 }
 
 
