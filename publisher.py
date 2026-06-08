@@ -111,6 +111,13 @@ def _site_url() -> str:
     return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
 
 
+def _fb_link_en_comentario() -> bool:
+    """Solo prometer 'link en el primer comentario' si el token PUEDE comentar.
+    Activar (FB_LINK_EN_COMENTARIO=true) recién cuando el permiso
+    pages_manage_engagement esté concedido y el comentario funcione."""
+    return (get("FB_LINK_EN_COMENTARIO") or "false").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
 def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True,
                     hashtags: str = "full", link_en_comentario: bool = False) -> str:
     """
@@ -256,8 +263,8 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
         # Facebook: SIN link en el cuerpo (va al 1er comentario) + pocos hashtags,
         #   para no perder alcance (Facebook castiga los links externos en el post).
         # Instagram: igual que siempre (link por texto + hashtags completos).
-        caption_fb = _social_caption(note, wix_url, usar_link_wix=False,
-                                     hashtags="min", link_en_comentario=True)
+        caption_fb = _social_caption(note, wix_url, usar_link_wix=False, hashtags="min",
+                                     link_en_comentario=_fb_link_en_comentario())
         caption_ig = _social_caption(note, wix_url, usar_link_wix=False, hashtags="full")
 
         # 2) Facebook e Instagram vía API.
