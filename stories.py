@@ -9,6 +9,7 @@ Las imágenes 9:16 se arman con story_image.py (texto quemado, sin links/sticker
 Cada orquestador lleva su propio ledger para no repetir.
 """
 import json
+import time
 from datetime import date
 from pathlib import Path
 
@@ -29,6 +30,14 @@ NEWS_LEDGER_NAME = ".historias.json"
 def _platforms() -> list[str]:
     raw = get("STORIES_PLATFORMS") or "instagram,facebook"
     return [p.strip().lower() for p in raw.split(",") if p.strip()]
+
+
+def _story_delay() -> int:
+    """Segundos de espera entre una historia y la siguiente (anti-ráfaga)."""
+    try:
+        return max(0, int(get("STORY_DELAY_SECONDS") or 300))
+    except ValueError:
+        return 300
 
 
 def _publish(image_path: Path, dry_run: bool) -> dict:
@@ -92,7 +101,8 @@ def run_news_stories(posts_folder: Path, allowed_pages: set[int], dry_run: bool 
     if len(notes) - len(pendientes):
         logger.info(f"{len(notes) - len(pendientes)} nota(s) ya tenían historia (se omiten).")
 
-    for note in pendientes:
+    delay = _story_delay()
+    for i, note in enumerate(pendientes):
         titular = note.get("titular") or note.get("title", "")
         logger.info(f"--- Historia [pág {note.get('page')}]: «{titular[:55]}» ---")
         resumen = _resumen(note.get("cuerpo", ""), note.get("body", ""), limit=240)
@@ -107,6 +117,11 @@ def run_news_stories(posts_folder: Path, allowed_pages: set[int], dry_run: bool 
         if not dry_run and _ok(results):
             ledger.add(note["key"])
             _save_set(ledger_path, ledger)
+
+        # Espaciá las historias para que no salgan todas juntas (no espera tras la última).
+        if not dry_run and delay > 0 and i < len(pendientes) - 1:
+            logger.info(f"Esperando {delay}s antes de la próxima historia…")
+            time.sleep(delay)
 
     logger.info("=== Historias de noticias: fin ===")
 
