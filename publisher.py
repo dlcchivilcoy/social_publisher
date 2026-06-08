@@ -147,7 +147,8 @@ def _gancho(note: dict) -> str:
 
 
 def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True,
-                    hashtags: str = "full", link_en_comentario: bool = False) -> str:
+                    hashtags: str = "full", link_en_comentario: bool = False,
+                    cta_web: bool = True) -> str:
     """
     Arma el texto para redes: emoji + volanta + titular + resumen + cierre + hashtags.
 
@@ -178,8 +179,9 @@ def _social_caption(note: dict, wix_url: str, *, usar_link_wix: bool = True,
     elif link_en_comentario:
         partes.append("👉 Nota completa en el PRIMER COMENTARIO 👇" if wix_url
                       else f"📲 Más en {_site_url()}")
-    else:
+    elif cta_web:
         partes.append(f"📲 Seguí leyendo en {_site_url()}")
+    # cta_web=False → no se menciona la web (máx alcance en Facebook)
 
     # Gancho para invitar a comentar (sube el engagement).
     partes.append(_gancho(note))
@@ -295,8 +297,12 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
         # Facebook: SIN link en el cuerpo (va al 1er comentario) + pocos hashtags,
         #   para no perder alcance (Facebook castiga los links externos en el post).
         # Instagram: igual que siempre (link por texto + hashtags completos).
+        # Facebook: SIN link ni mención de web en el cuerpo (máximo alcance; FB
+        #   penaliza los posteos que sacan a la gente de la app). Solo el gancho.
+        # Instagram: igual que siempre (invita a la web por texto + hashtags).
+        fb_comentario = _fb_link_en_comentario()
         caption_fb = _social_caption(note, wix_url, usar_link_wix=False, hashtags="min",
-                                     link_en_comentario=_fb_link_en_comentario())
+                                     link_en_comentario=fb_comentario, cta_web=False)
         caption_ig = _social_caption(note, wix_url, usar_link_wix=False, hashtags="full")
 
         # 2) Facebook e Instagram vía API.
@@ -314,9 +320,10 @@ def run_publish_cycle(posts_folder: Path, allowed_pages: set[int], dry_run: bool
                 results[name] = {"success": False, "error": str(e)}
                 logger.error(f"[{name}] FALLÓ — «{title[:40]}»: {e}")
 
-        # Facebook: poné el link de la nota en el PRIMER COMENTARIO (mejor alcance).
+        # Facebook: link en el PRIMER COMENTARIO — SOLO si está activado y hay
+        # permiso (FB_LINK_EN_COMENTARIO=true). Por defecto NO se comenta nada.
         fb = results.get("facebook", {})
-        if wix_url and fb.get("success") and fb.get("id"):
+        if fb_comentario and wix_url and fb.get("success") and fb.get("id"):
             try:
                 facebook.comment(fb["id"], f"📰 Leé la nota completa acá 👉 {wix_url}")
                 logger.info("[facebook] link agregado en el primer comentario")
