@@ -36,6 +36,16 @@ def _meta_descripcion(description: str, body: str, limit: int = 155) -> str:
     return texto[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
 
 
+def _titulo_wix(title: str, limit: int = 200) -> str:
+    """Wix exige título de máx. 200 caracteres. Recorta prolijo (en una palabra,
+    con '…') si se pasa; si no, lo deja igual. Evita el error 400 de draftPost.title."""
+    t = re.sub(r"\s+", " ", (title or "").strip())
+    if len(t) <= limit:
+        return t
+    corte = t[:limit - 1].rsplit(" ", 1)[0].rstrip(" ,.;:—-")
+    return (corte + "…") if corte else t[:limit]
+
+
 def _marca() -> str:
     return get("SEO_PUBLISHER_NAME") or "Diario La Campaña"
 
@@ -162,6 +172,9 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
             description: str = "") -> dict:
     headers = _headers()
     member_id = _get_member_id(headers)
+
+    # Wix limita el título a 200 caracteres: recortar para no recibir un 400.
+    title = _titulo_wix(title)
 
     # 1) Imagen pública temporal (ImgBB)
     image_url = upload_to_imgbb(image_path)
