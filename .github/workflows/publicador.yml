@@ -66,6 +66,8 @@ jobs:
         run: |
           mkdir -p diario
           rclone sync "gdrive:Diario" diario
+          # Asegura que las carpetas existan aunque esten vacias en Drive
+          mkdir -p "diario/NOTAS AUTOMATICAS" "diario/DIARIO PDF"
 
       - name: Restaurar registros anti-repeticion
         run: |
