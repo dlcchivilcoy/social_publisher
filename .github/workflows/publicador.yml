@@ -32,6 +32,10 @@ jobs:
   publicar:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    # El runner corre en UTC; con esto Python usa hora de Argentina para
+    # date.today()/now() (clave para detectar la "edicion de hoy" y los ledgers diarios).
+    env:
+      TZ: America/Argentina/Buenos_Aires
     steps:
       - name: Bajar el codigo
         uses: actions/checkout@v4
