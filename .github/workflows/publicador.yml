@@ -1,17 +1,10 @@
 name: Publicador Diario
 
-# Horarios en UTC. Argentina = UTC-3 (no tiene horario de verano), asi que
-# para pasar de hora AR a UTC se le SUMAN 3 horas. Comentado al lado va la hora AR real.
+# El disparo a horario lo hace cron-job.org (disparador externo confiable, en hora de
+# Argentina) llamando a la API de workflow_dispatch. NO se usa el scheduler nativo de
+# GitHub (schedule:) porque no es confiable y chocaba con cron-job.org.
+# Tambien se puede correr a mano desde la pestana Actions -> Run workflow.
 on:
-  schedule:
-    - cron: '0 3 * * *'      # 00:00 AR  -> Tapa
-    - cron: '0 10 * * *'     # 07:00 AR  -> Feed manana (paginas 3,5,7)
-    - cron: '15 10 * * *'    # 07:15 AR  -> Historias de noticias
-    - cron: '0 11 * * *'     # 08:00 AR  -> Farmacias de turno
-    - cron: '45 13 * * 1-5'  # 10:45 AR  -> Historia vivo YouTube (lun-vie)
-    - cron: '0 16 * * *'     # 13:00 AR  -> Feed tarde (paginas 8,9)
-    - cron: '30 16 * * *'    # 13:30 AR  -> Historias notas YouTube
-    - cron: '0 20 * * *'     # 17:00 AR  -> Historia Canal WhatsApp
   workflow_dispatch:
     inputs:
       args:
