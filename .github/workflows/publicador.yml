@@ -1,0 +1,118 @@
+name: Publicador Diario
+
+# Horarios en UTC. Argentina = UTC-3 (no tiene horario de verano), asi que
+# para pasar de hora AR a UTC se le SUMAN 3 horas. Comentado al lado va la hora AR real.
+on:
+  schedule:
+    - cron: '0 3 * * *'      # 00:00 AR  -> Tapa
+    - cron: '0 10 * * *'     # 07:00 AR  -> Feed manana (paginas 3,5,7)
+    - cron: '15 10 * * *'    # 07:15 AR  -> Historias de noticias
+    - cron: '0 11 * * *'     # 08:00 AR  -> Farmacias de turno
+    - cron: '45 13 * * 1-5'  # 10:45 AR  -> Historia vivo YouTube (lun-vie)
+    - cron: '0 16 * * *'     # 13:00 AR  -> Feed tarde (paginas 8,9)
+    - cron: '30 16 * * *'    # 13:30 AR  -> Historias notas YouTube
+    - cron: '0 20 * * *'     # 17:00 AR  -> Historia Canal WhatsApp
+  workflow_dispatch:
+    inputs:
+      args:
+        description: 'Argumentos para main.py (ej: --dry-run | --canal-story | --run-now --pages 3,5,7)'
+        required: true
+        default: '--dry-run'
+
+# Evita que dos corridas se pisen (importante para no corromper los registros).
+concurrency:
+  group: publicador
+  cancel-in-progress: false
+
+# Necesario para commitear de vuelta los registros anti-repeticion.
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Bajar el codigo
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar fuentes (para las historias 9:16)
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation fonts-dejavu-core
+
+      - name: Instalar dependencias de Python
+        run: pip install -r requirements.txt
+
+      - name: Instalar rclone
+        run: |
+          sudo -v
+          curl https://rclone.org/install.sh | sudo bash
+
+      - name: Escribir credenciales (.env) y config de Drive (rclone)
+        env:
+          ENV_FILE: ${{ secrets.ENV_FILE }}
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          printf '%s' "$ENV_FILE" > .env
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Bajar la carpeta del dia desde Google Drive
+        run: |
+          mkdir -p diario
+          rclone sync "gdrive:Diario" diario
+
+      - name: Restaurar registros anti-repeticion
+        run: |
+          [ -f "state/.publicado.json" ] && cp "state/.publicado.json" "diario/NOTAS AUTOMATICAS/.publicado.json" || true
+          [ -f "state/.historias.json" ] && cp "state/.historias.json" "diario/NOTAS AUTOMATICAS/.historias.json" || true
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json; do
+            [ -f "state/$f" ] && cp "state/$f" "./$f" || true
+          done
+
+      - name: Determinar el comando segun el horario
+        id: cmd
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 3 * * *")      echo 'args=--tapa' >> "$GITHUB_OUTPUT" ;;
+            "0 10 * * *")     echo 'args=--run-now --pages 3,5,7' >> "$GITHUB_OUTPUT" ;;
+            "15 10 * * *")    echo 'args=--news-stories' >> "$GITHUB_OUTPUT" ;;
+            "0 11 * * *")     echo 'args=--farmacias' >> "$GITHUB_OUTPUT" ;;
+            "45 13 * * 1-5")  echo 'args=--yt-live' >> "$GITHUB_OUTPUT" ;;
+            "0 16 * * *")     echo 'args=--run-now --pages 8,9' >> "$GITHUB_OUTPUT" ;;
+            "30 16 * * *")    echo 'args=--yt-notes' >> "$GITHUB_OUTPUT" ;;
+            "0 20 * * *")     echo 'args=--canal-story' >> "$GITHUB_OUTPUT" ;;
+            *)                echo 'args=${{ github.event.inputs.args }}' >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Publicar
+        env:
+          POSTS_FOLDER: ${{ github.workspace }}/diario/NOTAS AUTOMATICAS
+          TAPA_FOLDER: ${{ github.workspace }}/diario/DIARIO PDF
+        run: |
+          echo "Ejecutando: main.py ${{ steps.cmd.outputs.args }}"
+          python main.py ${{ steps.cmd.outputs.args }}
+
+      - name: Guardar registros anti-repeticion (para no duplicar la proxima vez)
+        if: always()
+        run: |
+          mkdir -p state
+          cp "diario/NOTAS AUTOMATICAS/.publicado.json" state/ 2>/dev/null || true
+          cp "diario/NOTAS AUTOMATICAS/.historias.json" state/ 2>/dev/null || true
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json; do
+            [ -f "$f" ] && cp "$f" state/ || true
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f state/
+          if git diff --cached --quiet; then
+            echo "Sin cambios de estado."
+          else
+            git commit -m "Estado anti-repeticion [skip ci]"
+            git push
+          fi

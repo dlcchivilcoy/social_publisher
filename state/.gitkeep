@@ -1,0 +1,4 @@
+# Esta carpeta guarda los registros anti-repeticion (.publicado.json, .historias.json,
+# .tapa.json, .farmacias.json, .canal_story.json, youtube-historias.json) entre corridas
+# de GitHub Actions. El workflow los restaura antes de publicar y los vuelve a guardar
+# despues, para no publicar dos veces lo mismo. No borrar.
