@@ -70,7 +70,7 @@ jobs:
         run: |
           [ -f "state/.publicado.json" ] && cp "state/.publicado.json" "diario/NOTAS AUTOMATICAS/.publicado.json" || true
           [ -f "state/.historias.json" ] && cp "state/.historias.json" "diario/NOTAS AUTOMATICAS/.historias.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -103,7 +103,7 @@ jobs:
           mkdir -p state
           cp "diario/NOTAS AUTOMATICAS/.publicado.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.historias.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"

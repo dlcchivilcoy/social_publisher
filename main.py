@@ -89,6 +89,11 @@ def main() -> None:
         help="Enviar el PDF del diario por correo a los clientes con MAIL en la planilla.",
     )
     parser.add_argument(
+        "--newsletter",
+        action="store_true",
+        help="Enviar el newsletter de la mañana (titulares + PDF) a los suscriptores de la web (Supabase).",
+    )
+    parser.add_argument(
         "--sepelios",
         action="store_true",
         help="Publicar los SEPELIOS de Chivilcoy del día (Wix+FB+IG, muro + historia).",
@@ -172,6 +177,11 @@ def main() -> None:
         from mailer import run_mail
         logger.info(f"Modo --mail (dry_run={args.dry_run}).")
         run_mail(dry_run=args.dry_run)
+        return
+    if args.newsletter:
+        from newsletter import run_newsletter
+        logger.info(f"Modo --newsletter (dry_run={args.dry_run}).")
+        run_newsletter(dry_run=args.dry_run)
         return
     if args.sepelios:
         from sepelios import run_sepelios
