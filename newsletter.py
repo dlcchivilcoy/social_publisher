@@ -23,6 +23,7 @@ Config (.env):
   NEWSLETTER_SUBJECT        opcional, admite {fecha}
 """
 import json
+import re
 import smtplib
 import ssl
 from datetime import date, datetime
@@ -70,8 +71,26 @@ def _suscriptores() -> list[str]:
 
 
 # ── Titulares del día (Wix) ───────────────────────────────────────────────────
+def _titulo_limpio(raw: str, max_len: int = 110) -> str:
+    """El título de Wix viene como "VOLANTA — título — bajada" todo junto (igual
+    que en la web). Devuelve solo el titular: si el primer tramo es corto (≤25,
+    es la volanta) toma el segundo; si no, el primero (lo demás suele ser bajada).
+    Recorta prolijo si se pasa de max_len."""
+    partes = [p.strip() for p in re.split(r"\s+[—–-]\s+", (raw or "").strip()) if p.strip()]
+    if not partes:
+        titulo = (raw or "").strip()
+    elif len(partes) >= 2 and len(partes[0]) <= 25:
+        titulo = partes[1]
+    else:
+        titulo = partes[0]
+    titulo = re.sub(r"\s+", " ", titulo)
+    if len(titulo) > max_len:
+        titulo = titulo[:max_len].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
+    return titulo
+
+
 def _titulares(limit: int) -> list[tuple[str, str]]:
-    """Últimas notas del blog (título + URL pública), las más nuevas primero."""
+    """Últimas notas del blog (título limpio + URL pública), las más nuevas primero."""
     body = {
         "query": {
             "sort": [{"fieldName": "firstPublishedDate", "order": "DESC"}],
@@ -84,7 +103,7 @@ def _titulares(limit: int) -> list[tuple[str, str]]:
         raise RuntimeError(f"Wix titulares ({r.status_code}): {r.text[:200]}")
     out: list[tuple[str, str]] = []
     for p in r.json().get("posts", []):
-        titulo = (p.get("title") or "").strip()
+        titulo = _titulo_limpio(p.get("title") or "")
         u = p.get("url") or {}
         link = (u.get("base", "") + u.get("path", "")).strip()
         if titulo and link:
