@@ -1,4 +1,5 @@
 import tempfile
+import time
 from pathlib import Path
 
 import requests
@@ -56,6 +57,28 @@ def _as_jpeg(image_path: Path) -> Path:
     return tmp
 
 
+def _wait_container_ready(creation_id: str, token: str, *, timeout: int = 90, intervalo: int = 3) -> None:
+    """Espera a que Instagram TERMINE de procesar la imagen del contenedor antes
+    de publicarlo. Sin esto, publicar de inmediato una imagen grande (p. ej. la
+    tapa) falla con 'Media ID is not available' (code 9007 / subcode 2207027)
+    porque el medio todavía está en proceso. Consulta el estado del contenedor
+    hasta que quede en FINISHED (o falla si da ERROR/EXPIRED o se agota el tiempo)."""
+    fin = time.time() + timeout
+    while time.time() < fin:
+        r = requests.get(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{creation_id}",
+            params={"fields": "status_code", "access_token": token},
+            timeout=30,
+        )
+        estado = r.json().get("status_code") if r.ok else None
+        if estado == "FINISHED":
+            return
+        if estado in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"Instagram: el medio quedó en estado {estado} al procesar la imagen")
+        time.sleep(intervalo)
+    raise RuntimeError("Instagram: el medio no terminó de procesarse a tiempo (timeout)")
+
+
 def publish(body: str, image_path: Path) -> dict:
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
@@ -78,6 +101,9 @@ def publish(body: str, image_path: Path) -> dict:
         )
         _raise_for_status(container, "crear contenedor")
         creation_id = container.json()["id"]
+
+        # Paso 1.5: esperar a que Instagram procese la imagen (evita 2207027)
+        _wait_container_ready(creation_id, token)
 
         # Paso 2: publicar contenedor
         publish_resp = requests.post(
@@ -119,6 +145,9 @@ def publish_story(image_path: Path) -> dict:
     )
     _raise_for_status(container, "crear contenedor (story)")
     creation_id = container.json()["id"]
+
+    # Esperar a que Instagram procese la imagen antes de publicar (evita 2207027)
+    _wait_container_ready(creation_id, token)
 
     publish_resp = requests.post(
         f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
