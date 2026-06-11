@@ -236,18 +236,22 @@ def run_newsletter(dry_run: bool = False) -> None:
         logger.warning(f"No se pudieron leer los titulares de Wix: {e}")
         titulares = []
 
-    # PDF (se adjunta si existe y no está viejo)
-    pdf = _pdf_del_dia()
+    # PDF: por ahora NO se adjunta (se reservará para una futura opción PAGA).
+    # Para reactivarlo, poné NEWSLETTER_ADJUNTAR_PDF=1 en el .env.
+    adjuntar_pdf = (get("NEWSLETTER_ADJUNTAR_PDF") or "").strip().lower() in ("1", "true", "si", "sí", "yes")
+    pdf = None
     con_pdf = False
-    if pdf:
-        horas = _pdf_horas(pdf)
-        if horas <= MAX_PDF_HOURS:
-            con_pdf = True
-            logger.info(f"PDF a adjuntar: {pdf.name} ({horas:.1f}h)")
+    if adjuntar_pdf:
+        pdf = _pdf_del_dia()
+        if pdf:
+            horas = _pdf_horas(pdf)
+            if horas <= MAX_PDF_HOURS:
+                con_pdf = True
+                logger.info(f"PDF a adjuntar: {pdf.name} ({horas:.1f}h)")
+            else:
+                logger.warning(f"El PDF «{pdf.name}» tiene {horas:.1f}h (> {MAX_PDF_HOURS}h): no se adjunta.")
         else:
-            logger.warning(f"El PDF «{pdf.name}» tiene {horas:.1f}h (> {MAX_PDF_HOURS}h): no se adjunta.")
-    else:
-        logger.warning("No se encontró PDF del día: se manda solo con titulares.")
+            logger.warning("No se encontró PDF del día: se manda solo con titulares.")
 
     if not titulares and not con_pdf:
         logger.warning("Sin titulares y sin PDF: no se envía nada (no tendría contenido).")
