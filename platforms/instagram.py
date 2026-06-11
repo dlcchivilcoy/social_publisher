@@ -17,6 +17,10 @@ MAX_CAPTION = 2200  # límite de Instagram
 # Instagram acepta proporciones (ancho/alto) entre 4:5 (0.8) y 1.91:1 (1.91).
 MIN_RATIO = 0.8
 MAX_RATIO = 1.91
+# Lado máximo de la imagen al subirla. Instagram la muestra a ~1080px; mandarla
+# más liviana evita que su descarga se agote (error 2207003 con imágenes pesadas
+# como la tapa en alta resolución).
+MAX_DIM = 1440
 
 
 def _as_jpeg(image_path: Path) -> Path:
@@ -32,9 +36,10 @@ def _as_jpeg(image_path: Path) -> Path:
     w, h = img.size
     ratio = w / h
     needs_pad = ratio < MIN_RATIO or ratio > MAX_RATIO
+    too_big = max(w, h) > MAX_DIM
     is_jpg = image_path.suffix.lower() in (".jpg", ".jpeg")
 
-    if not needs_pad and is_jpg:
+    if not needs_pad and not too_big and is_jpg:
         return image_path  # ya sirve tal cual
 
     if needs_pad:
@@ -51,8 +56,12 @@ def _as_jpeg(image_path: Path) -> Path:
         img = canvas
         logger.debug(f"Proporción ajustada para Instagram: {w}x{h} → {new_w}x{new_h}")
 
+    # Achicar para que Instagram pueda descargarla rápido (evita timeout 2207003).
+    if max(img.size) > MAX_DIM:
+        img.thumbnail((MAX_DIM, MAX_DIM), Image.LANCZOS)
+
     tmp = Path(tempfile.gettempdir()) / (image_path.stem + "_ig.jpg")
-    img.save(tmp, "JPEG", quality=90)
+    img.save(tmp, "JPEG", quality=85, optimize=True)
     logger.debug(f"Imagen preparada para Instagram: {tmp.name}")
     return tmp
 
@@ -79,6 +88,28 @@ def _wait_container_ready(creation_id: str, token: str, *, timeout: int = 90, in
     raise RuntimeError("Instagram: el medio no terminó de procesarse a tiempo (timeout)")
 
 
+def _crear_contenedor(user_id: str, token: str, data: dict, *, intentos: int = 3) -> str:
+    """Crea el contenedor de media y devuelve su id. Reintenta ante el timeout
+    transitorio de Instagram al descargar la imagen (subcode 2207003)."""
+    ultimo = None
+    for i in range(intentos):
+        resp = requests.post(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media",
+            params={"access_token": token},
+            data=data,
+            timeout=60,
+        )
+        if resp.ok:
+            return resp.json()["id"]
+        ultimo = resp
+        if "2207003" in resp.text and i < intentos - 1:
+            logger.warning(f"Instagram tardó en descargar la imagen; reintento {i + 1}/{intentos - 1}…")
+            time.sleep(5)
+            continue
+        break
+    _raise_for_status(ultimo, "crear contenedor")
+
+
 def publish(body: str, image_path: Path) -> dict:
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
@@ -92,15 +123,8 @@ def publish(body: str, image_path: Path) -> dict:
     try:
         image_url = upload_to_imgbb(jpeg_path)
 
-        # Paso 1: crear contenedor
-        container = requests.post(
-            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media",
-            params={"access_token": token},
-            data={"image_url": image_url, "caption": caption},
-            timeout=30,
-        )
-        _raise_for_status(container, "crear contenedor")
-        creation_id = container.json()["id"]
+        # Paso 1: crear contenedor (reintenta ante timeout de descarga 2207003)
+        creation_id = _crear_contenedor(user_id, token, {"image_url": image_url, "caption": caption})
 
         # Paso 1.5: esperar a que Instagram procese la imagen (evita 2207027)
         _wait_container_ready(creation_id, token)
@@ -137,14 +161,7 @@ def publish_story(image_path: Path) -> dict:
     # La imagen ya viene 1080x1920 JPG del compositor; solo la subimos.
     image_url = upload_to_imgbb(image_path)
 
-    container = requests.post(
-        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media",
-        params={"access_token": token},
-        data={"media_type": "STORIES", "image_url": image_url},
-        timeout=30,
-    )
-    _raise_for_status(container, "crear contenedor (story)")
-    creation_id = container.json()["id"]
+    creation_id = _crear_contenedor(user_id, token, {"media_type": "STORIES", "image_url": image_url})
 
     # Esperar a que Instagram procese la imagen antes de publicar (evita 2207027)
     _wait_container_ready(creation_id, token)
