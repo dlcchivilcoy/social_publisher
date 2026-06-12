@@ -46,28 +46,35 @@ EMAIL_OK = lambda e: bool(e) and "@" in e and "." in e.split("@")[-1]
 
 
 # ── Suscriptores (Supabase) ───────────────────────────────────────────────────
-def _suscriptores() -> list[str]:
-    """Lee los emails de la tabla `suscriptores` con la clave SERVICE (saltea RLS)."""
+def _suscriptores() -> list[tuple[str, bool]]:
+    """Lee (email, pdf) de la tabla `suscriptores` con la clave SERVICE (saltea RLS).
+    `pdf=True` = pagó la suscripción al PDF (se le adjunta la edición). Si la columna
+    `pdf` todavía no existe, cae a pdf=False para todos (no rompe)."""
     url = get("SUPABASE_URL")
     key = get("SUPABASE_SERVICE_KEY")
     if not url or not key:
         raise ValueError("Faltan SUPABASE_URL / SUPABASE_SERVICE_KEY en .env")
     endpoint = url.rstrip("/") + "/rest/v1/suscriptores"
-    r = requests.get(
-        endpoint,
-        headers={"apikey": key, "Authorization": f"Bearer {key}"},
-        params={"select": "email", "order": "creado.asc"},
-        timeout=30,
-    )
+    headers = {"apikey": key, "Authorization": f"Bearer {key}"}
+
+    def _pedir(select):
+        return requests.get(endpoint, headers=headers,
+                            params={"select": select, "order": "creado.asc"}, timeout=30)
+
+    r = _pedir("email,pdf")
     if r.status_code >= 400:
-        raise RuntimeError(f"Supabase ({r.status_code}): {r.text[:200]}")
-    vistos, emails = set(), []
+        # La columna `pdf` puede no existir aún → reintento solo con email.
+        r = _pedir("email")
+        if r.status_code >= 400:
+            raise RuntimeError(f"Supabase ({r.status_code}): {r.text[:200]}")
+
+    vistos, subs = set(), []
     for row in r.json():
         e = str(row.get("email", "")).strip().lower()
         if EMAIL_OK(e) and e not in vistos:
             vistos.add(e)
-            emails.append(e)
-    return emails
+            subs.append((e, bool(row.get("pdf", False))))
+    return subs
 
 
 # ── Titulares del día (Wix) ───────────────────────────────────────────────────
@@ -215,13 +222,13 @@ def run_newsletter(dry_run: bool = False) -> None:
         logger.info(f"El newsletter de hoy ({hoy_iso}) ya se envió. NO se reenvía.")
         return
 
-    # Destinatarios
+    # Destinatarios: (email, pdf) — pdf=True = pagó la suscripción al PDF.
     try:
-        emails = _suscriptores()
+        subs = _suscriptores()
     except Exception as e:
         logger.error(f"No se pudieron leer los suscriptores: {e}")
         return
-    if not emails:
+    if not subs:
         logger.info("No hay suscriptores todavía. Nada que enviar.")
         return
 
@@ -236,40 +243,48 @@ def run_newsletter(dry_run: bool = False) -> None:
         logger.warning(f"No se pudieron leer los titulares de Wix: {e}")
         titulares = []
 
-    # PDF: por ahora NO se adjunta (se reservará para una futura opción PAGA).
-    # Para reactivarlo, poné NEWSLETTER_ADJUNTAR_PDF=1 en el .env.
-    adjuntar_pdf = (get("NEWSLETTER_ADJUNTAR_PDF") or "").strip().lower() in ("1", "true", "si", "sí", "yes")
-    pdf = None
-    con_pdf = False
-    if adjuntar_pdf:
+    # PDF: se adjunta SOLO a los suscriptores con pdf=True (pagaron la suscripción).
+    # El flag NEWSLETTER_ADJUNTAR_PDF=1 lo fuerza para TODOS (no suele hacer falta).
+    forzar_todos = (get("NEWSLETTER_ADJUNTAR_PDF") or "").strip().lower() in ("1", "true", "si", "sí", "yes")
+    pagos = sum(1 for _, p in subs if p)
+    pdf_bytes = None
+    if forzar_todos or pagos > 0:
         pdf = _pdf_del_dia()
         if pdf:
             horas = _pdf_horas(pdf)
             if horas <= MAX_PDF_HOURS:
-                con_pdf = True
-                logger.info(f"PDF a adjuntar: {pdf.name} ({horas:.1f}h)")
+                pdf_bytes = pdf.read_bytes()
+                logger.info(f"PDF para suscriptores pagos: {pdf.name} ({horas:.1f}h)")
             else:
                 logger.warning(f"El PDF «{pdf.name}» tiene {horas:.1f}h (> {MAX_PDF_HOURS}h): no se adjunta.")
         else:
-            logger.warning("No se encontró PDF del día: se manda solo con titulares.")
+            logger.warning("No se encontró PDF del día: los suscriptores pagos lo reciben sin adjunto.")
 
-    if not titulares and not con_pdf:
+    if not titulares and pdf_bytes is None:
         logger.warning("Sin titulares y sin PDF: no se envía nada (no tendría contenido).")
         return
 
     fecha = _fecha_larga(date.today())
     asunto = (get("NEWSLETTER_SUBJECT") or "Diario La Campaña — Noticias de hoy ({fecha})").format(fecha=fecha)
-    texto = _texto(titulares, fecha, con_pdf)
-    html = _html(titulares, fecha, con_pdf)
+    # Dos variantes del cuerpo: con mención del PDF (para quien lo recibe) y sin.
+    cuerpos = {
+        False: (_texto(titulares, fecha, False), _html(titulares, fecha, False)),
+        True: (_texto(titulares, fecha, True), _html(titulares, fecha, True)),
+    }
+    adjunto_nombre = f"Diario La Campaña {fecha}.pdf"
 
-    logger.info(f"{len(emails)} suscriptor(es), {len(titulares)} titular(es), PDF={'sí' if con_pdf else 'no'}.")
+    def quiere_pdf(pago: bool) -> bool:
+        return pdf_bytes is not None and (pago or forzar_todos)
+
+    logger.info(f"{len(subs)} suscriptor(es) ({pagos} con PDF pago), {len(titulares)} titular(es).")
 
     if dry_run:
         logger.info("--- DRY-RUN: no se envía nada ---")
         logger.info(f"Asunto: {asunto}")
         for t, l in titulares:
             logger.info(f"   • {t} → {l}")
-        logger.info(f"Destinatarios ({len(emails)}): {', '.join(emails[:10])}{' …' if len(emails) > 10 else ''}")
+        muestra = [f"{e}{' [PDF]' if quiere_pdf(p) else ''}" for e, p in subs[:10]]
+        logger.info(f"Destinatarios ({len(subs)}): {', '.join(muestra)}{' …' if len(subs) > 10 else ''}")
         return
 
     remitente = get("MAIL_FROM")
@@ -281,28 +296,27 @@ def run_newsletter(dry_run: bool = False) -> None:
         return
     nombre_from = get("MAIL_FROM_NAME") or "Diario La Campaña"
 
-    pdf_bytes = pdf.read_bytes() if con_pdf else None
-    adjunto_nombre = f"Diario La Campaña {fecha}.pdf"
-
     enviados, fallidos = 0, 0
     try:
         ctx = ssl.create_default_context()
         with smtplib.SMTP(host, port, timeout=60) as server:
             server.starttls(context=ctx)
             server.login(remitente, password)
-            for email in emails:
+            for email, pago in subs:
                 try:
+                    con = quiere_pdf(pago)
+                    texto, html = cuerpos[con]
                     msg = EmailMessage()
                     msg["From"] = formataddr((nombre_from, remitente))
                     msg["To"] = email
                     msg["Subject"] = asunto
                     msg.set_content(texto)
                     msg.add_alternative(html, subtype="html")
-                    if pdf_bytes is not None:
+                    if con:
                         msg.add_attachment(pdf_bytes, maintype="application", subtype="pdf",
                                            filename=adjunto_nombre)
                     server.send_message(msg)
-                    logger.info(f"[OK] enviado a {email}")
+                    logger.info(f"[OK] enviado a {email}{' (con PDF)' if con else ''}")
                     enviados += 1
                 except Exception as e:
                     logger.error(f"[FALLÓ] {email}: {e}")
