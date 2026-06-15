@@ -10,7 +10,7 @@ Ambas devuelven la ruta a un JPG en historias_preview/.
 """
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 
 from utils.logger import get_logger
 
@@ -101,6 +101,23 @@ def _contain(img: Image.Image, box_w: int, box_h: int) -> Image.Image:
     return out
 
 
+def _fit_blur(img: Image.Image, box_w: int, box_h: int) -> Image.Image:
+    """Muestra la foto COMPLETA (sin recortar) dentro del box y rellena el fondo
+    con una versión ampliada y desenfocada de la misma foto (estilo Instagram).
+    Si la foto ya tiene la proporción del box, queda igual que antes (sin franjas);
+    si tiene otra proporción, se ve entera y prolija sobre el fondo borroso."""
+    img = img.convert("RGB")
+    # Fondo: cubrir el box (recorte) + desenfoque fuerte + oscurecer un poco
+    bg = _cover(img, box_w, box_h).filter(ImageFilter.GaussianBlur(40))
+    bg = ImageEnhance.Brightness(bg).enhance(0.55)
+    # Primer plano: la foto entera escalada para entrar, centrada
+    fg = img.copy()
+    fg.thumbnail((box_w, box_h), Image.LANCZOS)
+    fw, fh = fg.size
+    bg.paste(fg, ((box_w - fw) // 2, (box_h - fh) // 2))
+    return bg
+
+
 def _new_canvas() -> Image.Image:
     return Image.new("RGB", (W, H), BG)
 
@@ -130,11 +147,12 @@ def compose_note_story(photo_path: Path, volanta: str, titular: str,
     f_brand = _font(34, bold=True)
     draw.text((MARGIN, 60), "DIARIO LA CAMPAÑA", font=f_brand, fill=ACCENT)
 
-    # Foto full-bleed (cover) en la franja superior
+    # Foto en la franja superior: se ve ENTERA (sin recortar), con fondo borroso
+    # para rellenar si la foto tiene otra proporción (evita "fuera de cuadro").
     photo_top = 130
     photo_h = 1080
     try:
-        photo = _cover(Image.open(photo_path), W, photo_h)
+        photo = _fit_blur(Image.open(photo_path), W, photo_h)
         canvas.paste(photo, (0, photo_top))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto {getattr(photo_path,'name',photo_path)}: {e}")
