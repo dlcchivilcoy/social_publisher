@@ -829,3 +829,62 @@ def compose_noticias_hoy_story(fecha_str: str, site_url: str = "", photos: list 
     if site_url:
         _texto_centrado(draw, [site_url], _font(60, bold=True), 1640, ACCENT)
     return _save(canvas, "noticias_hoy")
+
+
+# ---------------------------------------------------------------------------
+# REEL "Las 5 más leídas del día" — placas 9:16 (1080x1920) para armar el video.
+# ---------------------------------------------------------------------------
+def compose_reel_intro(fecha_str: str, photos: list = None) -> Path:
+    """Portada del reel: fondo rompecabezas con las fotos + velo + logo + título."""
+    base = _mosaico(photos, W, H).convert("RGBA")
+    velo = Image.new("RGBA", (W, H), (255, 255, 255, 214))
+    canvas = Image.alpha_composite(base, velo).convert("RGB")
+    draw = ImageDraw.Draw(canvas)
+    _paste_logo(canvas, 150, 820)
+    _texto_centrado(draw, ["LAS 5 MÁS", "LEÍDAS", "DE HOY"], _font(148, bold=True), 470, ACCENT, gap=2)
+    if fecha_str:
+        _texto_centrado(draw, [fecha_str], _font(60, bold=True), 1180, GRAY)
+    draw.line((MARGIN, 1330, W - MARGIN, 1330), fill=ACCENT, width=8)
+    _texto_centrado(draw, ["Mirá el ranking del día"], _font(54, bold=True), 1440, GRAY)
+    return _save(canvas, "reel_intro")
+
+
+def compose_reel_slide(photo_path: Path, titular: str, resumen: str, rank: int, views: int = 0) -> Path:
+    """Una placa del reel: badge de ranking + foto entera + titular + resumen + lecturas."""
+    canvas = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(canvas)
+    _paste_logo(canvas, 70, 560)
+    _texto_centrado(draw, [f"N°{rank}  ·  LO MÁS LEÍDO"], _font(52, bold=True), 210, ACCENT)
+
+    photo_top, photo_h = 300, 1000
+    try:
+        canvas.paste(_fit_blur(Image.open(photo_path), W, photo_h), (0, photo_top))
+    except Exception as e:
+        logger.warning(f"No se pudo abrir la foto del reel: {e}")
+
+    x, max_w = MARGIN, W - 2 * MARGIN
+    y = photo_top + photo_h + 36
+    f_tit = _font(60, bold=True)
+    y = _draw_block(draw, _wrap(draw, titular, f_tit, max_w)[:3], f_tit, x, y, ACCENT, 8) + 16
+    if resumen:
+        f_res = _font(38, bold=False)
+        rl = _wrap(draw, resumen, f_res, max_w)
+        lines = rl[:2]
+        if len(rl) > 2 and lines:
+            lines[-1] = lines[-1].rstrip(" .,;:") + "…"
+        _draw_block(draw, lines, f_res, x, y, GRAY, 10)
+    if views and views > 0:
+        _texto_centrado(draw, [f"{views:,}".replace(",", ".") + " lecturas"], _font(34, bold=True), H - 110, ACCENT)
+    return _save(canvas, f"reel_{rank}")
+
+
+def compose_reel_outro(site_url: str = "") -> Path:
+    """Cierre del reel: logo + invitación a la web."""
+    canvas = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(canvas)
+    _paste_logo(canvas, 560, 780)
+    _texto_centrado(draw, _wrap(draw, "Seguí informándote en", _font(66, bold=True), W - 2 * MARGIN),
+                    _font(66, bold=True), 900, GRAY, gap=10)
+    if site_url:
+        _texto_centrado(draw, [site_url], _font(58, bold=True), 1060, ACCENT)
+    return _save(canvas, "reel_outro")
