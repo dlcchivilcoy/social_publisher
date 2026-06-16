@@ -785,21 +785,27 @@ def compose_tapa_slide(cover_path: Path) -> Path:
 
 
 def _mosaico(photos: list, w: int, h: int) -> "Image.Image":
-    """Collage tipo rompecabezas con las fotos cubriendo el lienzo w x h."""
+    """Collage tipo rompecabezas que CUBRE todo el lienzo w x h SIN huecos:
+    rellena todas las celdas (cicla fotos si faltan) y las celdas se tocan
+    exactamente (sin franjas en blanco), recortando cada foto a su celda."""
     canvas = Image.new("RGB", (w, h), BG)
     fotos = [p for p in (photos or []) if p]
     n = len(fotos)
     if n == 0:
         return canvas
-    cols = 2 if n <= 8 else 3
-    rows = (n + cols - 1) // cols
-    cw, ch = w // cols, h // rows
-    for i, p in enumerate(fotos):
-        r, c = divmod(i, cols)
-        try:
-            canvas.paste(_cover(Image.open(p), cw, ch), (c * cw, r * ch))
-        except Exception:
-            pass
+    cols = 1 if n == 1 else (2 if n <= 6 else 3)
+    rows = max(1, (n + cols - 1) // cols)
+    idx = 0
+    for r in range(rows):
+        y0, y1 = r * h // rows, (r + 1) * h // rows
+        for c in range(cols):
+            x0, x1 = c * w // cols, (c + 1) * w // cols
+            p = fotos[idx % n]
+            idx += 1
+            try:
+                canvas.paste(_cover(Image.open(p), x1 - x0, y1 - y0), (x0, y0))
+            except Exception:
+                pass
     return canvas
 
 
@@ -808,17 +814,18 @@ def compose_noticias_hoy_story(fecha_str: str, site_url: str = "", photos: list 
     las fotos de las noticias arman un rompecabezas de fondo, con un velo blanco
     para que se lea + logo + texto naranja."""
     base = _mosaico(photos, W, H).convert("RGBA")
-    velo = Image.new("RGBA", (W, H), (255, 255, 255, 205))
+    velo = Image.new("RGBA", (W, H), (255, 255, 255, 210))
     canvas = Image.alpha_composite(base, velo).convert("RGB")
     draw = ImageDraw.Draw(canvas)
 
-    _paste_logo(canvas, 150, 620)
-    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(140, bold=True), 540, ACCENT, gap=4)
+    # Todo MÁS GRANDE para máxima legibilidad
+    _paste_logo(canvas, 120, 860)
+    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(190, bold=True), 430, ACCENT, gap=2)
     if fecha_str:
-        _texto_centrado(draw, [fecha_str], _font(48, bold=False), 1000, GRAY)
-    draw.line((MARGIN, 1150, W - MARGIN, 1150), fill=ACCENT, width=5)
+        _texto_centrado(draw, [fecha_str], _font(66, bold=True), 930, GRAY)
+    draw.line((MARGIN, 1080, W - MARGIN, 1080), fill=ACCENT, width=8)
     msg = "Mirá todas las noticias de hoy en nuestro perfil"
-    _texto_centrado(draw, _wrap(draw, msg, _font(46, bold=True), W - 2 * MARGIN), _font(46, bold=True), 1480, GRAY, gap=12)
+    _texto_centrado(draw, _wrap(draw, msg, _font(64, bold=True), W - 2 * MARGIN), _font(64, bold=True), 1330, GRAY, gap=16)
     if site_url:
-        _texto_centrado(draw, [site_url], _font(42, bold=True), 1680, ACCENT)
+        _texto_centrado(draw, [site_url], _font(60, bold=True), 1640, ACCENT)
     return _save(canvas, "noticias_hoy")
