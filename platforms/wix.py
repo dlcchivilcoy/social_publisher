@@ -190,23 +190,10 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     file_id = imp.json()["file"]["id"]
 
     # 3) Crear el borrador del post con categorías
+    # La foto va SOLO como portada (media), que Wix ya muestra arriba de la nota.
+    # (No se agrega al cuerpo para no duplicar la imagen al leer.)
     paragraphs = [p for p in body.split("\n") if p.strip()]
     nodes = []
-    # La foto va DENTRO del cuerpo de la nota (arriba de todo), no solo como portada,
-    # para que al abrir a leer la nota se vea la imagen y no solo el texto.
-    nodes.append({
-        "type": "IMAGE",
-        "id": "img0",
-        "nodes": [],
-        "imageData": {
-            "containerData": {
-                "width": {"size": "CONTENT"},
-                "alignment": "CENTER",
-                "textWrap": True,
-            },
-            "image": {"src": {"id": file_id}},
-        },
-    })
     for i, para in enumerate(paragraphs):
         nodes.append({
             "type": "PARAGRAPH",
