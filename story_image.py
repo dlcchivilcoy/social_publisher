@@ -20,13 +20,37 @@ logger = get_logger("story_image")
 W, H = 1080, 1920
 MARGIN = 70
 
-# --- Paleta (marca) ---
-BG = (17, 19, 26)          # fondo oscuro
-ACCENT = (214, 40, 40)     # rojo del diario
-WHITE = (245, 245, 245)
-GRAY = (188, 192, 200)
+# --- Paleta CLARA (identidad de la web: blanco + naranja + logo) ---
+BG = (255, 255, 255)        # fondo blanco
+ACCENT = (226, 98, 12)      # naranja del diario (ajustable)
+# OJO: la variable se sigue llamando WHITE por compatibilidad con las funciones
+# existentes, pero ahora vale NARANJA: los títulos (antes blancos sobre negro) pasan
+# a ser naranjas sobre blanco. El cuerpo va en GRAY (gris oscuro, legible en blanco).
+WHITE = (226, 98, 12)       # títulos → naranja
+GRAY = (74, 78, 86)         # texto secundario → gris oscuro
 
 PREVIEW_DIR = Path(__file__).parent / "historias_preview"
+LOGO_PATH = Path(__file__).parent / "logo.png"
+_logo_cache = None
+
+
+def _paste_logo(canvas: "Image.Image", top: int, target_w: int) -> int:
+    """Pega el logo del diario (masthead negro, transparente) centrado arriba.
+    Devuelve la 'y' debajo del logo. Si no está el archivo, no rompe."""
+    global _logo_cache
+    if _logo_cache is None:
+        try:
+            _logo_cache = Image.open(LOGO_PATH).convert("RGBA")
+        except Exception as e:
+            logger.warning(f"No se pudo cargar el logo ({LOGO_PATH}): {e}")
+            _logo_cache = False
+    if not _logo_cache:
+        return top
+    w, h = _logo_cache.size
+    nh = max(1, round(h * target_w / w))
+    lg = _logo_cache.resize((target_w, nh), Image.LANCZOS)
+    canvas.paste(lg, ((canvas.width - target_w) // 2, top), lg)
+    return top + nh
 
 # Fuentes (Windows primero, luego Linux; fallback a la default de Pillow).
 # En el server Linux se usan Liberation Sans (métrica idéntica a Arial) o DejaVu.
@@ -387,9 +411,8 @@ def compose_tapa_story(cover_path: Path, fecha_str: str) -> Path:
     canvas = _new_canvas()
     draw = ImageDraw.Draw(canvas)
 
-    # Encabezado
-    f_brand = _font(40, bold=True)
-    draw.text((MARGIN, 60), "DIARIO LA CAMPAÑA", font=f_brand, fill=ACCENT)
+    # Encabezado (logo)
+    _paste_logo(canvas, 50, 560)
 
     # Pie (lo dibujamos al final, pero reservamos su altura)
     f_tapa = _font(56, bold=True)
@@ -460,8 +483,8 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
     canvas = Image.new("RGB", (W2, H2), BG)
     draw = ImageDraw.Draw(canvas)
 
-    # Marca
-    draw.text((m, 48), "DIARIO LA CAMPAÑA", font=_font(28, True), fill=accent)
+    # Marca (logo)
+    _paste_logo(canvas, 40, 360)
     y = 116
 
     # Título grande
@@ -703,9 +726,9 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, resumen: st
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
     draw = ImageDraw.Draw(canvas)
 
-    draw.text((MARGIN, 22), "DIARIO LA CAMPAÑA", font=_font(30, bold=True), fill=ACCENT)
-
-    photo_top, photo_h = 76, 720
+    logo_bottom = _paste_logo(canvas, 34, 470)
+    photo_top = logo_bottom + 22
+    photo_h = 690
     try:
         canvas.paste(_fit_blur(Image.open(photo_path), SLIDE_W, photo_h), (0, photo_top))
     except Exception as e:
@@ -761,17 +784,41 @@ def compose_tapa_slide(cover_path: Path) -> Path:
     return _save(canvas, "slide_tapa")
 
 
-def compose_noticias_hoy_story(fecha_str: str, site_url: str = "") -> Path:
-    """Placa 9:16 'NOTICIAS DE HOY' — la ÚNICA historia del carrusel de notas."""
-    canvas = _new_canvas()
+def _mosaico(photos: list, w: int, h: int) -> "Image.Image":
+    """Collage tipo rompecabezas con las fotos cubriendo el lienzo w x h."""
+    canvas = Image.new("RGB", (w, h), BG)
+    fotos = [p for p in (photos or []) if p]
+    n = len(fotos)
+    if n == 0:
+        return canvas
+    cols = 2 if n <= 8 else 3
+    rows = (n + cols - 1) // cols
+    cw, ch = w // cols, h // rows
+    for i, p in enumerate(fotos):
+        r, c = divmod(i, cols)
+        try:
+            canvas.paste(_cover(Image.open(p), cw, ch), (c * cw, r * ch))
+        except Exception:
+            pass
+    return canvas
+
+
+def compose_noticias_hoy_story(fecha_str: str, site_url: str = "", photos: list = None) -> Path:
+    """Placa 9:16 'NOTICIAS DE HOY' (la ÚNICA historia del carrusel de notas):
+    las fotos de las noticias arman un rompecabezas de fondo, con un velo blanco
+    para que se lea + logo + texto naranja."""
+    base = _mosaico(photos, W, H).convert("RGBA")
+    velo = Image.new("RGBA", (W, H), (255, 255, 255, 205))
+    canvas = Image.alpha_composite(base, velo).convert("RGB")
     draw = ImageDraw.Draw(canvas)
-    _texto_centrado(draw, ["DIARIO LA CAMPAÑA"], _font(42, bold=True), 300, ACCENT)
-    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(130, bold=True), 560, WHITE, gap=6)
+
+    _paste_logo(canvas, 150, 620)
+    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(140, bold=True), 540, ACCENT, gap=4)
     if fecha_str:
-        _texto_centrado(draw, [fecha_str], _font(46, bold=False), 980, GRAY)
-    draw.line((MARGIN, 1130, W - MARGIN, 1130), fill=ACCENT, width=4)
+        _texto_centrado(draw, [fecha_str], _font(48, bold=False), 1000, GRAY)
+    draw.line((MARGIN, 1150, W - MARGIN, 1150), fill=ACCENT, width=5)
     msg = "Mirá todas las noticias de hoy en nuestro perfil"
-    _texto_centrado(draw, _wrap(draw, msg, _font(44, bold=True), W - 2 * MARGIN), _font(44, bold=True), 1480, WHITE, gap=12)
+    _texto_centrado(draw, _wrap(draw, msg, _font(46, bold=True), W - 2 * MARGIN), _font(46, bold=True), 1480, GRAY, gap=12)
     if site_url:
-        _texto_centrado(draw, [site_url], _font(40, bold=True), 1700, ACCENT)
+        _texto_centrado(draw, [site_url], _font(42, bold=True), 1680, ACCENT)
     return _save(canvas, "noticias_hoy")

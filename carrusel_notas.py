@@ -110,7 +110,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         f"{hashtags}"
     )
 
-    story_img = compose_noticias_hoy_story(_fecha_larga(hoy).capitalize(), site)
+    story_img = compose_noticias_hoy_story(_fecha_larga(hoy).capitalize(), site,
+                                           photos=[n["image"] for n in pending[:10]])
 
     if dry_run:
         logger.info(f"[dry-run] carrusel de {len(slides)} slide(s): {[s.name for s in slides]}")
