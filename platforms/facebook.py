@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import requests
@@ -32,6 +33,49 @@ def publish(body: str, image_path: Path) -> dict:
     data = resp.json()
     logger.debug(f"Facebook post_id={data.get('post_id') or data.get('id')}")
     return {"success": True, "id": data.get("post_id") or data.get("id")}
+
+
+def publish_multi(message: str, image_paths: list[Path]) -> dict:
+    """Publica VARIAS fotos en un solo posteo (carrusel/galería) de la Página.
+
+    Sube cada foto sin publicar (published=false) → media_fbid; luego crea el
+    posteo en /feed con attached_media. Si llega 1 sola imagen, cae a publish()."""
+    page_id = get("FACEBOOK_PAGE_ID")
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
+
+    paths = list(image_paths)
+    if len(paths) < 2:
+        return publish(message, paths[0])
+
+    media_fbids: list[str] = []
+    for p in paths:
+        with open(p, "rb") as img:
+            up = requests.post(
+                f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/photos",
+                params={"access_token": token},
+                files={"source": (p.name, img, _mime(p))},
+                data={"published": "false"},
+                timeout=60,
+            )
+        _raise_for_status(up)
+        media_fbids.append(up.json()["id"])
+
+    data = {"message": message}
+    for i, fbid in enumerate(media_fbids):
+        data[f"attached_media[{i}]"] = json.dumps({"media_fbid": fbid})
+
+    resp = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/feed",
+        params={"access_token": token},
+        data=data,
+        timeout=90,
+    )
+    _raise_for_status(resp)
+    out = resp.json()
+    logger.debug(f"Facebook multi-foto id={out.get('id')} ({len(media_fbids)} fotos)")
+    return {"success": True, "id": out.get("id")}
 
 
 def comment(object_id: str, message: str) -> dict:

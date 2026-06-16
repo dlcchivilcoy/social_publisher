@@ -158,6 +158,37 @@ def _marcar(hoy: date, nombres: list[str]) -> None:
                                  ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def farmacias_feed_de_hoy(hoy: date):
+    """Para el CARRUSEL: arma la imagen de farmacias (1080x1350) y las líneas de
+    texto del día, reutilizando toda la lógica de turnos. Devuelve
+    (feed_img:Path, lineas_cap:list[str], nombres:list[str], es_cambio:bool) o
+    (None, aviso:str, None, False) si no hay datos."""
+    nombres, aviso, es_cambio = terna_de_hoy(hoy)
+    if not nombres:
+        return None, aviso, None, False
+    listado = scrap_listado()
+    fecha = _fecha_larga(hoy)
+    sufijo_cambio = " (CAMBIO)" if es_cambio else ""
+    items, lineas_cap = [], []
+    for i, nom in enumerate(nombres):
+        info = _info_farmacia(listado, nom)
+        direccion = info.get("direccion", "")
+        telefono = info.get("telefono", "")
+        ultima = (i == len(nombres) - 1)
+        horario = "8:30 a 22 hs" if ultima else "8:30 a 8:30 hs (24 hs)"
+        sub = " · ".join([x for x in [direccion, (f"Tel {telefono}" if telefono else "")] if x])
+        items.append({"main": nom.upper(), "sub2": f"Horario: {horario}", "sub": sub})
+        det = f"💊 {nom}"
+        if direccion:
+            det += f" — {direccion}"
+        if telefono:
+            det += f" — Tel: {telefono}"
+        det += f"\n   🕒 Horario: {horario}"
+        lineas_cap.append(det)
+    feed_img = compose_farmacias_feed(items, fecha.capitalize() + sufijo_cambio)
+    return feed_img, lineas_cap, nombres, es_cambio
+
+
 # ── Orquestador ──────────────────────────────────────────────────────────────
 def run_farmacias(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"

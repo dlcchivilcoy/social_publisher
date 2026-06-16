@@ -686,3 +686,92 @@ def compose_repost_story(flyer_path: Path, pie: str = "Espacio publicitario",
         _texto_centrado(draw, [pie], f_pie, pie_y, GRAY)
 
     return _save(canvas, "repost")
+
+
+# ---------------------------------------------------------------------------
+# CARRUSEL (feed 4:5): slide de NOTA, slide de TAPA y placa "Noticias de hoy".
+# Las imágenes del carrusel se generan 1080x1350 (Instagram exige que TODAS las
+# imágenes del carrusel tengan la misma proporción).
+# ---------------------------------------------------------------------------
+SLIDE_W, SLIDE_H = 1080, 1350
+
+
+def compose_note_slide(photo_path: Path, volanta: str, titular: str, resumen: str,
+                       *, con_cta: bool = False, site_url: str = "") -> Path:
+    """Slide 4:5 de una nota: foto entera (fondo desenfocado) + volanta + titular
+    + resumen breve. El primer slide (con_cta=True) suma el llamado a leer en la web."""
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
+    draw = ImageDraw.Draw(canvas)
+
+    draw.text((MARGIN, 22), "DIARIO LA CAMPAÑA", font=_font(30, bold=True), fill=ACCENT)
+
+    photo_top, photo_h = 76, 720
+    try:
+        canvas.paste(_fit_blur(Image.open(photo_path), SLIDE_W, photo_h), (0, photo_top))
+    except Exception as e:
+        logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
+
+    x = MARGIN
+    max_w = SLIDE_W - 2 * MARGIN
+    y = photo_top + photo_h + 28
+    bottom = SLIDE_H - 36
+
+    f_vol = _font(32, bold=True)
+    f_tit = _font(52, bold=True)
+    f_res = _font(34, bold=False)
+    f_cta = _font(30, bold=True)
+
+    if volanta:
+        y = _draw_block(draw, _wrap(draw, volanta.upper(), f_vol, max_w)[:1], f_vol, x, y, ACCENT, 8) + 8
+    if titular:
+        y = _draw_block(draw, _wrap(draw, titular, f_tit, max_w)[:3], f_tit, x, y, WHITE, 8) + 14
+
+    cta_lines = []
+    if con_cta and site_url:
+        cta_lines = _wrap(draw, f"Seguí leyendo la nota completa en {site_url}", f_cta, max_w)
+    cta_h = sum((f_cta.getbbox(l)[3] - f_cta.getbbox(l)[1]) + 8 for l in cta_lines)
+    res_limit = bottom - (cta_h + 24 if cta_lines else 0)
+
+    if resumen:
+        fitted, yy = [], y
+        for ln in _wrap(draw, resumen, f_res, max_w):
+            h = (f_res.getbbox(ln)[3] - f_res.getbbox(ln)[1]) + 10
+            if yy + h > res_limit:
+                if fitted:
+                    fitted[-1] = fitted[-1].rstrip(" .,;:") + "…"
+                break
+            fitted.append(ln)
+            yy += h
+        _draw_block(draw, fitted, f_res, x, y, GRAY, 10)
+
+    if cta_lines:
+        draw.line((x, bottom - cta_h - 16, SLIDE_W - MARGIN, bottom - cta_h - 16), fill=(60, 64, 74), width=2)
+        _draw_block(draw, cta_lines, f_cta, x, bottom - cta_h, WHITE, 8)
+
+    return _save(canvas, "slide_" + _safe_stem(titular or volanta, "nota"))
+
+
+def compose_tapa_slide(cover_path: Path) -> Path:
+    """Slide 4:5 con la tapa entera (fondo desenfocado para entrar en 1080x1350)."""
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
+    try:
+        canvas.paste(_fit_blur(Image.open(cover_path), SLIDE_W, SLIDE_H), (0, 0))
+    except Exception as e:
+        logger.warning(f"No se pudo abrir la tapa para el slide: {e}")
+    return _save(canvas, "slide_tapa")
+
+
+def compose_noticias_hoy_story(fecha_str: str, site_url: str = "") -> Path:
+    """Placa 9:16 'NOTICIAS DE HOY' — la ÚNICA historia del carrusel de notas."""
+    canvas = _new_canvas()
+    draw = ImageDraw.Draw(canvas)
+    _texto_centrado(draw, ["DIARIO LA CAMPAÑA"], _font(42, bold=True), 300, ACCENT)
+    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(130, bold=True), 560, WHITE, gap=6)
+    if fecha_str:
+        _texto_centrado(draw, [fecha_str], _font(46, bold=False), 980, GRAY)
+    draw.line((MARGIN, 1130, W - MARGIN, 1130), fill=ACCENT, width=4)
+    msg = "Mirá todas las noticias de hoy en nuestro perfil"
+    _texto_centrado(draw, _wrap(draw, msg, _font(44, bold=True), W - 2 * MARGIN), _font(44, bold=True), 1480, WHITE, gap=12)
+    if site_url:
+        _texto_centrado(draw, [site_url], _font(40, bold=True), 1700, ACCENT)
+    return _save(canvas, "noticias_hoy")

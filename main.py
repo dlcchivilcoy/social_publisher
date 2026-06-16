@@ -104,6 +104,16 @@ def main() -> None:
         help="Publicar las FARMACIAS de turno de hoy (Wix+FB+IG, muro + historia).",
     )
     parser.add_argument(
+        "--tapa-farmacias",
+        action="store_true",
+        help="CARRUSEL Tapa+Farmacias en FB/IG (tapa 1°, farmacias 2°) + historia de la tapa.",
+    )
+    parser.add_argument(
+        "--notes-carousel",
+        action="store_true",
+        help="CARRUSEL con todas las notas del día en FB/IG + 1 historia 'Noticias de hoy' (cada nota va a Wix).",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -192,6 +202,16 @@ def main() -> None:
         from farmacias import run_farmacias
         logger.info(f"Modo --farmacias (dry_run={args.dry_run}).")
         run_farmacias(dry_run=args.dry_run)
+        return
+    if args.tapa_farmacias:
+        from carrusel_tapa_farmacias import run_tapa_farmacias
+        logger.info(f"Modo --tapa-farmacias (dry_run={args.dry_run}).")
+        run_tapa_farmacias(dry_run=args.dry_run)
+        return
+    if args.notes_carousel:
+        from carrusel_notas import run_notes_carousel
+        logger.info(f"Modo --notes-carousel (dry_run={args.dry_run}). Carpeta: {folder}")
+        run_notes_carousel(folder, pages, dry_run=args.dry_run)
         return
 
     if args.dry_run:

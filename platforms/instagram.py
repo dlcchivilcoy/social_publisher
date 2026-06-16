@@ -145,6 +145,62 @@ def publish(body: str, image_path: Path) -> dict:
             jpeg_path.unlink()
 
 
+MAX_CAROUSEL = 10  # Instagram permite hasta 10 imágenes por carrusel
+
+
+def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
+    """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
+
+    Flujo: por cada imagen se crea un contenedor hijo (is_carousel_item=true);
+    luego un contenedor padre media_type=CAROUSEL con todos los hijos; se publica.
+    IG exige entre 2 y 10 imágenes (si llega 1, cae a publish() simple; si llegan
+    más de 10, toma las primeras 10). Todas las imágenes deben tener la MISMA
+    proporción (el compositor las genera 1080x1350)."""
+    user_id = get("INSTAGRAM_USER_ID")
+    token = get("INSTAGRAM_ACCESS_TOKEN")
+    if not user_id or not token:
+        raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
+
+    paths = list(image_paths)[:MAX_CAROUSEL]
+    if len(paths) < 2:
+        return publish(caption, paths[0])
+
+    caption = caption[:MAX_CAPTION]
+    temps: list[Path] = []
+    try:
+        child_ids: list[str] = []
+        for p in paths:
+            jpeg = _as_jpeg(p)
+            if jpeg != p:
+                temps.append(jpeg)
+            url = upload_to_imgbb(jpeg)
+            cid = _crear_contenedor(user_id, token, {"image_url": url, "is_carousel_item": "true"})
+            _wait_container_ready(cid, token)
+            child_ids.append(cid)
+
+        carousel_id = _crear_contenedor(user_id, token, {
+            "media_type": "CAROUSEL",
+            "children": ",".join(child_ids),
+            "caption": caption,
+        })
+        _wait_container_ready(carousel_id, token)
+
+        publish_resp = requests.post(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
+            params={"access_token": token},
+            data={"creation_id": carousel_id},
+            timeout=30,
+        )
+        _raise_for_status(publish_resp, "publicar carrusel")
+        media_id = publish_resp.json()["id"]
+        logger.debug(f"Instagram carrusel publicado id={media_id} ({len(child_ids)} imágenes)")
+        return {"success": True, "id": media_id}
+    finally:
+        for t in temps:
+            if t.exists():
+                t.unlink()
+
+
 def publish_story(image_path: Path) -> dict:
     """Publica la imagen como HISTORIA (story) de Instagram.
 
