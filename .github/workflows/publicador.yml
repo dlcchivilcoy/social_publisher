@@ -113,5 +113,13 @@ jobs:
             echo "Sin cambios de estado."
           else
             git commit -m "Estado anti-repeticion [skip ci]"
-            git push
+            # Push a prueba de choques: si otro push avanzo el repo, reordena y reintenta.
+            ok=0
+            for intento in 1 2 3 4 5; do
+              if git pull --rebase --autostash && git push; then
+                echo "Estado guardado."; ok=1; break
+              fi
+              echo "Push del estado rechazado, reintento $intento..."; sleep 4
+            done
+            if [ "$ok" != "1" ]; then echo "No se pudo guardar el estado tras varios intentos."; fi
           fi
