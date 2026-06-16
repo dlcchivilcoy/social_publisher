@@ -190,10 +190,19 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     file_id = imp.json()["file"]["id"]
 
     # 3) Crear el borrador del post con categorías
-    # La foto va SOLO como portada (media), que Wix ya muestra arriba de la nota.
-    # (No se agrega al cuerpo para no duplicar la imagen al leer.)
+    # La foto va como PORTADA (media) y además UNA vez dentro del cuerpo (arriba del
+    # texto), como pidió el diario. Es UNA sola foto interna (no duplicada).
     paragraphs = [p for p in body.split("\n") if p.strip()]
     nodes = []
+    nodes.append({
+        "type": "IMAGE",
+        "id": "img0",
+        "nodes": [],
+        "imageData": {
+            "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
+            "image": {"src": {"id": file_id}},
+        },
+    })
     for i, para in enumerate(paragraphs):
         nodes.append({
             "type": "PARAGRAPH",
