@@ -719,58 +719,59 @@ def compose_repost_story(flyer_path: Path, pie: str = "Espacio publicitario",
 SLIDE_W, SLIDE_H = 1080, 1350
 
 
-def compose_note_slide(photo_path: Path, volanta: str, titular: str, resumen: str,
-                       *, con_cta: bool = False, site_url: str = "") -> Path:
-    """Slide 4:5 de una nota: foto entera (fondo desenfocado) + volanta + titular
-    + resumen breve. El primer slide (con_cta=True) suma el llamado a leer en la web."""
+def _draw_titular_fill(draw, text, x, y, w, h, fill, *, max_size=100, min_size=44):
+    """Dibuja el titular lo MÁS grande posible para llenar la caja (w x h),
+    centrado verticalmente. Si no entra ni al tamaño mínimo, recorta con '…'."""
+    text = (text or "").strip()
+    if not text:
+        return
+    for size in range(max_size, min_size - 1, -3):
+        f = _font(size, bold=True)
+        lines = _wrap(draw, text, f, w)
+        lh = _line_h(f, "Ay") + 8
+        if len(lines) * lh <= h:
+            yy = y + max(0, (h - len(lines) * lh) // 2)
+            for ln in lines:
+                draw.text((x, yy), ln, font=f, fill=fill)
+                yy += lh
+            return
+    f = _font(min_size, bold=True)
+    lh = _line_h(f, "Ay") + 8
+    lines = _wrap(draw, text, f, w)[:max(1, h // lh)]
+    if lines:
+        lines[-1] = lines[-1].rstrip(" .,;:") + "…"
+    yy = y
+    for ln in lines:
+        draw.text((x, yy), ln, font=f, fill=fill)
+        yy += lh
+
+
+def compose_note_slide(photo_path: Path, volanta: str, titular: str) -> Path:
+    """Slide 4:5: logo + (volanta si la hay) + foto entera + TITULAR grande que
+    LLENA la caja blanca inferior. La descripción/bajada NO va acá (va en el caption)."""
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
     draw = ImageDraw.Draw(canvas)
 
-    logo_bottom = _paste_logo(canvas, 34, 470)
-    photo_top = logo_bottom + 22
-    photo_h = 690
+    logo_bottom = _paste_logo(canvas, 30, 460)
+    x = MARGIN
+    max_w = SLIDE_W - 2 * MARGIN
+    y = logo_bottom + 14
+
+    if volanta:
+        f_vol = _font(34, bold=True)
+        y = _draw_block(draw, _wrap(draw, volanta.upper(), f_vol, max_w)[:1], f_vol, x, y, ACCENT, 6) + 8
+
+    box_bottom = SLIDE_H - 46
+    text_box_h = 440
+    photo_top = y + 4
+    photo_h = max(300, (box_bottom - text_box_h - 26) - photo_top)
     try:
         canvas.paste(_fit_blur(Image.open(photo_path), SLIDE_W, photo_h), (0, photo_top))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
-    x = MARGIN
-    max_w = SLIDE_W - 2 * MARGIN
-    y = photo_top + photo_h + 28
-    bottom = SLIDE_H - 36
-
-    f_vol = _font(32, bold=True)
-    f_tit = _font(52, bold=True)
-    f_res = _font(34, bold=False)
-    f_cta = _font(30, bold=True)
-
-    if volanta:
-        y = _draw_block(draw, _wrap(draw, volanta.upper(), f_vol, max_w)[:1], f_vol, x, y, ACCENT, 8) + 8
-    if titular:
-        y = _draw_block(draw, _wrap(draw, titular, f_tit, max_w)[:3], f_tit, x, y, WHITE, 8) + 14
-
-    cta_lines = []
-    if con_cta and site_url:
-        cta_lines = _wrap(draw, f"Seguí leyendo la nota completa en {site_url}", f_cta, max_w)
-    cta_h = sum((f_cta.getbbox(l)[3] - f_cta.getbbox(l)[1]) + 8 for l in cta_lines)
-    res_limit = bottom - (cta_h + 24 if cta_lines else 0)
-
-    if resumen:
-        fitted, yy = [], y
-        for ln in _wrap(draw, resumen, f_res, max_w):
-            h = (f_res.getbbox(ln)[3] - f_res.getbbox(ln)[1]) + 10
-            if yy + h > res_limit:
-                if fitted:
-                    fitted[-1] = fitted[-1].rstrip(" .,;:") + "…"
-                break
-            fitted.append(ln)
-            yy += h
-        _draw_block(draw, fitted, f_res, x, y, GRAY, 10)
-
-    if cta_lines:
-        draw.line((x, bottom - cta_h - 16, SLIDE_W - MARGIN, bottom - cta_h - 16), fill=(60, 64, 74), width=2)
-        _draw_block(draw, cta_lines, f_cta, x, bottom - cta_h, WHITE, 8)
-
+    box_top = photo_top + photo_h + 26
+    _draw_titular_fill(draw, titular, x, box_top, max_w, box_bottom - box_top, ACCENT)
     return _save(canvas, "slide_" + _safe_stem(titular or volanta, "nota"))
 
 

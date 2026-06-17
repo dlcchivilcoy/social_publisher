@@ -44,6 +44,22 @@ def _orden(note: dict) -> int:
     return int(m.group(1)) if m else 9999
 
 
+def _parse_nota(docx_path):
+    """Lee el .docx y devuelve (volanta, titular, cuerpo_parrafos).
+
+    Detecta si la nota EMPIEZA con volanta: si el primer párrafo es corto
+    (kicker/categoría) y hay más párrafos, es volanta y el segundo es el titular;
+    si el primero es largo, NO hay volanta y ese primer párrafo es el titular."""
+    from docx import Document
+    paras = [p.text.strip() for p in Document(str(docx_path)).paragraphs if p.text.strip()]
+    if not paras:
+        return "", "", []
+    es_volanta = len(paras) >= 2 and (len(paras[0]) <= 55 or len(paras[0].split()) <= 7)
+    if es_volanta:
+        return paras[0], paras[1], paras[2:]
+    return "", paras[0], paras[1:]
+
+
 def _find_notes(posts_folder: Path) -> list:
     """Busca las notas del día. Soporta DOS estructuras dentro de la carpeta de la
     edición de hoy: (1) notas SUELTAS numeradas en la raíz (estructura nueva del
@@ -94,37 +110,50 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
 
     site = _site()
     slides: list[Path] = []
+    bajadas: list[tuple] = []  # (titular, primer_parrafo) para el caption
     wix_ok = 0
 
-    for i, note in enumerate(pending):
-        resumen = _resumen(note.get("cuerpo", ""), note.get("body", ""), limit=180)
+    for note in pending:
+        volanta, titular, cuerpo = _parse_nota(note["docx"])
+        if not titular:
+            titular = note.get("titular") or note["title"]
+        primer = cuerpo[0] if cuerpo else ""
         try:
-            slide = compose_note_slide(note["image"], note.get("volanta", ""), note.get("titular", "") or note["title"],
-                                       resumen, con_cta=(i == 0), site_url=site)
+            slide = compose_note_slide(note["image"], volanta, titular)
             slides.append(slide)
         except Exception as e:
-            logger.error(f"No se pudo componer el slide de «{(note.get('titular') or note['title'])[:40]}»: {e}")
+            logger.error(f"No se pudo componer el slide de «{titular[:40]}»: {e}")
             continue
+        bajadas.append((titular, primer))
 
         # Publicar la nota en Wix (la web es el destino del "seguí leyendo")
         if not dry_run:
             try:
                 img = _prepare_image(note["image"])
-                descripcion = _resumen(note.get("cuerpo", ""), note.get("body", ""), limit=155)
-                wix.publish(note["title"], note["body"], img, page=note["page"], description=descripcion)
+                wix_title = f"{volanta} — {titular}" if volanta else titular
+                body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
+                descripcion = (primer or titular)[:155]
+                wix.publish(wix_title, body, img, page=note["page"], description=descripcion)
                 wix_ok += 1
                 if img != note["image"] and img.exists():
                     img.unlink()
-                logger.info(f"[wix] OK — «{(note.get('titular') or note['title'])[:40]}»")
+                logger.info(f"[wix] OK — «{titular[:40]}»")
             except Exception as e:
-                logger.error(f"[wix] FALLÓ — «{(note.get('titular') or note['title'])[:40]}»: {e}")
+                logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
 
     if not slides:
         logger.error("No se pudo componer ningún slide. Se aborta el carrusel.")
         return
 
-    # Caption: intro + titulares + CTA + hashtags (con emojis)
-    titulares = "\n".join(f"• {(n.get('titular') or n['title'])}" for n in pending[:10])
+    # Caption (bajada): por nota → titular + primer párrafo. + CTA + hashtags.
+    bloques = []
+    for titular, primer in bajadas:
+        p = (primer or "").strip()
+        if len(p) > 120:
+            p = p[:120].rsplit(" ", 1)[0].rstrip(" .,;:") + "…"
+        bloques.append(f"📌 {titular}" + (f"\n{p}" if p else ""))
+    cuerpo_cap = "\n\n".join(bloques)
+
     tags = []
     for n in pending:
         for t in _hashtags(n).split():
@@ -133,8 +162,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     hashtags = " ".join(tags[:10])
     caption = (
         f"📰 Noticias de hoy — {_fecha_larga(hoy).capitalize()}\n\n"
-        f"{titulares}\n\n"
-        f"📲 Deslizá para ver todas y seguí leyendo cada nota completa en nuestra web 👉 {site}\n\n"
+        f"{cuerpo_cap}\n\n"
+        f"📲 Seguí leyendo cada nota completa en nuestra web 👉 {site}\n\n"
         f"{hashtags}"
     )
 
