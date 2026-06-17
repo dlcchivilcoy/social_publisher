@@ -135,6 +135,73 @@ def publish_story(image_path: Path) -> dict:
     return {"success": True, "id": data.get("post_id") or data.get("id")}
 
 
+def publish_video(message: str, video_path: Path) -> dict:
+    """Publica un VIDEO (reel) en el feed de la Página subiendo el archivo directo.
+
+    Facebook acepta la subida directa del .mp4 a /{page}/videos (no necesita URL
+    pública, a diferencia de Instagram)."""
+    page_id = get("FACEBOOK_PAGE_ID")
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
+
+    video_path = Path(video_path)
+    with open(video_path, "rb") as vid:
+        resp = requests.post(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/videos",
+            params={"access_token": token},
+            files={"source": (video_path.name, vid, "video/mp4")},
+            data={"description": message},
+            timeout=300,
+        )
+    _raise_for_status(resp)
+    data = resp.json()
+    logger.debug(f"Facebook video id={data.get('id')}")
+    return {"success": True, "id": data.get("id")}
+
+
+def publish_video_story(video_path: Path) -> dict:
+    """Publica un VIDEO como HISTORIA de la Página (flujo de subida en 3 fases).
+
+    Las Page Video Stories usan subida reanudable: start → upload binario → finish.
+    A veces la página necesita elegibilidad extra; si falla, el llamador lo loguea
+    y sigue (Instagram no se ve afectado)."""
+    page_id = get("FACEBOOK_PAGE_ID")
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
+
+    video_path = Path(video_path)
+    base = f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/video_stories"
+
+    # 1) start → video_id + upload_url
+    start = requests.post(base, params={"access_token": token}, data={"upload_phase": "start"}, timeout=60)
+    _raise_for_status(start)
+    sj = start.json()
+    video_id = sj["video_id"]
+    upload_url = sj["upload_url"]
+
+    # 2) subir el binario al upload_url
+    size = video_path.stat().st_size
+    with open(video_path, "rb") as vid:
+        up = requests.post(
+            upload_url,
+            headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(size)},
+            data=vid.read(),
+            timeout=300,
+        )
+    if up.status_code >= 400:
+        raise RuntimeError(f"Facebook (subir video story): {up.status_code} {up.text[:200]}")
+
+    # 3) finish → publica la historia
+    finish = requests.post(base, params={"access_token": token},
+                           data={"upload_phase": "finish", "video_id": video_id,
+                                 "video_state": "PUBLISHED"}, timeout=120)
+    _raise_for_status(finish)
+    logger.debug(f"Facebook historia de video video_id={video_id}")
+    return {"success": True, "id": video_id}
+
+
 def _mime(path: Path) -> str:
     return "image/png" if path.suffix.lower() == ".png" else "image/jpeg"
 

@@ -261,6 +261,56 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     return {"success": True, "id": draft_id, "url": post_url}
 
 
+def _reel_headline(title: str, limit: int = 95) -> str:
+    """Saca un titular limpio del 'title' de Wix (que viene 'VOLANTA — titular …').
+    Toma la parte antes del em-dash (la volanta = el titular real) y la recorta."""
+    t = re.sub(r"\s+", " ", (title or "").strip())
+    for sep in (" — ", " – "):  # em-dash y en-dash con espacios
+        if sep in t:
+            izq, der = (s.strip() for s in t.split(sep, 1))
+            # La parte izquierda suele ser la volanta/titular; pero si es muy corta
+            # (ej. "TENIS"), el titular real está a la derecha.
+            t = der if len(izq) < 20 and der else izq
+            break
+    if len(t) > limit:
+        t = t[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:—-") + "…"
+    return t
+
+
+def top_posts_today(limit: int = 5) -> list[dict]:
+    """Las notas MÁS LEÍDAS publicadas HOY (para el reel del cierre del día).
+
+    Filtra por firstPublishedDate >= hoy 00:00 (hora AR), ordena por
+    metrics.views DESC y toma las primeras `limit`. Devuelve por cada una:
+    {headline, excerpt, image_url, views, url}. Si hoy no hay notas, lista vacía.
+    """
+    hoy0 = datetime.now(TZ_AR).replace(hour=0, minute=0, second=0, microsecond=0)
+    body = {
+        "query": {
+            "filter": {"firstPublishedDate": {"$gte": hoy0.isoformat()}},
+            "sort": [{"fieldName": "metrics.views", "order": "DESC"}],
+            "paging": {"limit": max(1, limit)},
+        },
+        "fieldsets": ["METRICS", "URL"],
+    }
+    r = requests.post(POSTS_QUERY_URL, headers=_headers(), json=body, timeout=30)
+    _raise_for_status(r, "consultar más leídas")
+    out = []
+    for p in r.json().get("posts", []):
+        media = p.get("media") or {}
+        img = (((media.get("wixMedia") or {}).get("image") or {}).get("url")) or media.get("url") or ""
+        url = p.get("url", {})
+        out.append({
+            "headline": _reel_headline(p.get("title", "")),
+            "excerpt": re.sub(r"\s+", " ", (p.get("excerpt") or "").strip()),
+            "image_url": img,
+            "views": (p.get("metrics") or {}).get("views") or 0,
+            "url": url.get("base", "") + url.get("path", ""),
+        })
+    logger.info(f"Top {len(out)} notas más leídas de hoy obtenidas de Wix")
+    return out
+
+
 def _raise_for_status(resp: requests.Response, step: str) -> None:
     if resp.status_code == 401:
         raise PermissionError(f"Wix ({step}): API key inválida (401) — revisá .env")

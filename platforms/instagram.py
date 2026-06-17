@@ -234,6 +234,65 @@ def publish_story(image_path: Path) -> dict:
     return {"success": True, "id": media_id}
 
 
+def _wait_container_ready_long(creation_id: str, token: str, *, timeout: int = 300, intervalo: int = 5) -> None:
+    """Igual que _wait_container_ready pero con timeout amplio: procesar un VIDEO
+    (reel/historia de video) tarda mucho más que una imagen."""
+    _wait_container_ready(creation_id, token, timeout=timeout, intervalo=intervalo)
+
+
+def publish_reel(video_url: str, caption: str) -> dict:
+    """Publica un REEL (video vertical) en Instagram a partir de una URL pública del .mp4.
+
+    Flujo: crear contenedor media_type=REELS con video_url → esperar a que IG
+    termine de procesar el video (FINISHED, puede tardar minutos) → media_publish.
+    """
+    user_id = get("INSTAGRAM_USER_ID")
+    token = get("INSTAGRAM_ACCESS_TOKEN")
+    if not user_id or not token:
+        raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
+
+    creation_id = _crear_contenedor(user_id, token, {
+        "media_type": "REELS",
+        "video_url": video_url,
+        "caption": caption[:MAX_CAPTION],
+        "share_to_feed": "true",
+    })
+    _wait_container_ready_long(creation_id, token)
+
+    publish_resp = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
+        params={"access_token": token},
+        data={"creation_id": creation_id},
+        timeout=60,
+    )
+    _raise_for_status(publish_resp, "publicar reel")
+    media_id = publish_resp.json()["id"]
+    logger.debug(f"Instagram reel publicado id={media_id}")
+    return {"success": True, "id": media_id}
+
+
+def publish_video_story(video_url: str) -> dict:
+    """Publica un VIDEO como HISTORIA de Instagram (media_type=STORIES + video_url)."""
+    user_id = get("INSTAGRAM_USER_ID")
+    token = get("INSTAGRAM_ACCESS_TOKEN")
+    if not user_id or not token:
+        raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
+
+    creation_id = _crear_contenedor(user_id, token, {"media_type": "STORIES", "video_url": video_url})
+    _wait_container_ready_long(creation_id, token)
+
+    publish_resp = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
+        params={"access_token": token},
+        data={"creation_id": creation_id},
+        timeout=60,
+    )
+    _raise_for_status(publish_resp, "publicar historia de video")
+    media_id = publish_resp.json()["id"]
+    logger.debug(f"Instagram historia de video publicada id={media_id}")
+    return {"success": True, "id": media_id}
+
+
 def _raise_for_status(resp: requests.Response, step: str) -> None:
     if resp.status_code == 401:
         raise PermissionError(f"Instagram ({step}): token inválido o expirado (401)")

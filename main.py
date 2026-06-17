@@ -114,6 +114,11 @@ def main() -> None:
         help="CARRUSEL con todas las notas del día en FB/IG + 1 historia 'Noticias de hoy' (cada nota va a Wix).",
     )
     parser.add_argument(
+        "--reel",
+        action="store_true",
+        help="Publicar el REEL 'Las 5 más leídas del día' (video 9:16) en FB+IG (feed + historia).",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -212,6 +217,11 @@ def main() -> None:
         from carrusel_notas import run_notes_carousel
         logger.info(f"Modo --notes-carousel (dry_run={args.dry_run}). Carpeta: {folder}")
         run_notes_carousel(folder, pages, dry_run=args.dry_run)
+        return
+    if args.reel:
+        from reel import run_reel
+        logger.info(f"Modo --reel (dry_run={args.dry_run}).")
+        run_reel(dry_run=args.dry_run)
         return
 
     if args.dry_run:

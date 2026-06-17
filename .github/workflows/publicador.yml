@@ -39,8 +39,8 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Instalar fuentes (para las historias 9:16)
-        run: sudo apt-get update && sudo apt-get install -y fonts-liberation fonts-dejavu-core
+      - name: Instalar fuentes y ffmpeg (historias 9:16 + reel en video)
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation fonts-dejavu-core ffmpeg
 
       - name: Instalar dependencias de Python
         run: pip install -r requirements.txt
@@ -70,7 +70,7 @@ jobs:
         run: |
           [ -f "state/.publicado.json" ] && cp "state/.publicado.json" "diario/NOTAS AUTOMATICAS/.publicado.json" || true
           [ -f "state/.historias.json" ] && cp "state/.historias.json" "diario/NOTAS AUTOMATICAS/.historias.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -93,6 +93,9 @@ jobs:
         env:
           POSTS_FOLDER: ${{ github.workspace }}/diario/NOTAS AUTOMATICAS
           TAPA_FOLDER: ${{ github.workspace }}/diario/DIARIO PDF
+          # Para subir el .mp4 del reel como asset de un GitHub Release (URL pública para IG).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           echo "Ejecutando: main.py ${{ steps.cmd.outputs.args }}"
           python main.py ${{ steps.cmd.outputs.args }}
@@ -103,7 +106,7 @@ jobs:
           mkdir -p state
           cp "diario/NOTAS AUTOMATICAS/.publicado.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.historias.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"
