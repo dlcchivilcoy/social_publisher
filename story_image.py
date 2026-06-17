@@ -746,9 +746,9 @@ def _draw_titular_fill(draw, text, x, y, w, h, fill, *, max_size=100, min_size=4
         yy += lh
 
 
-def compose_note_slide(photo_path: Path, volanta: str, titular: str) -> Path:
-    """Slide 4:5: logo + (volanta si la hay) + foto entera + TITULAR grande que
-    LLENA la caja blanca inferior. La descripción/bajada NO va acá (va en el caption)."""
+def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: str = "") -> Path:
+    """Slide 4:5: logo + (volanta si la hay) + foto entera + TITULAR grande que llena
+    la caja blanca, y al PIE 'Seguí leyendo la nota completa en {web}'."""
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
     draw = ImageDraw.Draw(canvas)
 
@@ -761,17 +761,36 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str) -> Path:
         f_vol = _font(34, bold=True)
         y = _draw_block(draw, _wrap(draw, volanta.upper(), f_vol, max_w)[:1], f_vol, x, y, ACCENT, 6) + 8
 
-    box_bottom = SLIDE_H - 46
-    text_box_h = 440
+    # Pie: "Seguí leyendo la nota completa en {web}" (en cada slide)
+    box_bottom = SLIDE_H - 44
+    f_cta = _font(30, bold=True)
+    cta_lines = _wrap(draw, f"Seguí leyendo la nota completa en {site_url}", f_cta, max_w) if site_url else []
+    cta_lh = _line_h(f_cta, "Ay") + 6
+    cta_h = len(cta_lines) * cta_lh
+
+    # Caja del titular (arriba del pie)
+    titular_box_h = 360
+    titular_box_bottom = box_bottom - (cta_h + 28 if cta_lines else 0)
+    titular_box_top = titular_box_bottom - titular_box_h
+
     photo_top = y + 4
-    photo_h = max(300, (box_bottom - text_box_h - 26) - photo_top)
+    photo_h = max(280, (titular_box_top - 24) - photo_top)
     try:
         canvas.paste(_fit_blur(Image.open(photo_path), SLIDE_W, photo_h), (0, photo_top))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
-    box_top = photo_top + photo_h + 26
-    _draw_titular_fill(draw, titular, x, box_top, max_w, box_bottom - box_top, ACCENT)
+    _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT)
+
+    if cta_lines:
+        sep_y = titular_box_bottom + 14
+        draw.line((x, sep_y, SLIDE_W - MARGIN, sep_y), fill=ACCENT, width=3)
+        yy = box_bottom - cta_h
+        for ln in cta_lines:
+            w = draw.textlength(ln, font=f_cta)
+            draw.text(((SLIDE_W - w) // 2, yy), ln, font=f_cta, fill=ACCENT)
+            yy += cta_lh
+
     return _save(canvas, "slide_" + _safe_stem(titular or volanta, "nota"))
 
 

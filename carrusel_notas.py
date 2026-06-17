@@ -119,7 +119,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
             titular = note.get("titular") or note["title"]
         primer = cuerpo[0] if cuerpo else ""
         try:
-            slide = compose_note_slide(note["image"], volanta, titular)
+            slide = compose_note_slide(note["image"], volanta, titular, site_url=site)
             slides.append(slide)
         except Exception as e:
             logger.error(f"No se pudo componer el slide de «{titular[:40]}»: {e}")
