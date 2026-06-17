@@ -11,7 +11,7 @@ import re
 from datetime import date
 from pathlib import Path
 
-from file_scanner import find_notes
+from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
 from publisher import _hashtags, _load_ledger, _prepare_image, _resumen, _save_ledger
 from story_image import compose_note_slide, compose_noticias_hoy_story
@@ -44,12 +44,40 @@ def _orden(note: dict) -> int:
     return int(m.group(1)) if m else 9999
 
 
+def _find_notes(posts_folder: Path) -> list:
+    """Busca las notas del día. Soporta DOS estructuras dentro de la carpeta de la
+    edición de hoy: (1) notas SUELTAS numeradas en la raíz (estructura nueva del
+    carrusel) y, si no hay, (2) subcarpetas 'PÁGINA X' (estructura vieja)."""
+    ed = find_todays_edition(posts_folder)
+    if ed is None:
+        return []
+    notes = []
+    # (1) notas sueltas directamente en la carpeta de la edición (numeradas)
+    for n in _pair_in_folder(ed):
+        n["page"] = 0
+        n["edition"] = ed.name
+        n["key"] = f"{ed.name}|{n['docx'].name}"
+        notes.append(n)
+    # (2) compatibilidad: subcarpetas 'pagina X'
+    if not notes:
+        for sub in sorted(ed.rglob("*")):
+            if sub.is_dir() and "pagina" in _normalize(sub.name):
+                pg = _page_number(sub.name) or 0
+                for n in _pair_in_folder(sub):
+                    n["page"] = pg
+                    n["edition"] = ed.name
+                    n["key"] = f"{ed.name}|p{pg}|{n['docx'].name}"
+                    notes.append(n)
+    logger.info(f"{len(notes)} nota(s) encontrada(s) en la edición de hoy")
+    return notes
+
+
 def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
     logger.info(f"=== Carrusel de notas [{modo}] — {hoy.isoformat()} — carpeta: {posts_folder} ===")
 
-    notes = find_notes(posts_folder, allowed_pages)
+    notes = _find_notes(posts_folder)
     if not notes:
         logger.info("No se encontraron notas para el carrusel.")
         return
