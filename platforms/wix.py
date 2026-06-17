@@ -301,6 +301,7 @@ def top_posts_today(limit: int = 5) -> list[dict]:
         img = (((media.get("wixMedia") or {}).get("image") or {}).get("url")) or media.get("url") or ""
         url = p.get("url", {})
         out.append({
+            "title": p.get("title", ""),  # título completo (para emparejar con la nota local)
             "headline": _reel_headline(p.get("title", "")),
             "excerpt": re.sub(r"\s+", " ", (p.get("excerpt") or "").strip()),
             "image_url": img,

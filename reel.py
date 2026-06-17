@@ -15,10 +15,12 @@ Flujo:
 import json
 import tempfile
 from datetime import date
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import requests
 
+from file_scanner import _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
 from story_image import compose_reel_intro, compose_reel_outro, compose_reel_slide
 from utils.logger import get_logger
@@ -76,6 +78,48 @@ def _bajar_foto(url: str, idx: int) -> Path | None:
         return None
 
 
+def _norm(s: str) -> str:
+    return "".join(c.lower() for c in (s or "") if c.isalnum())
+
+
+def _notas_locales() -> list:
+    """Notas de la edición de hoy en Drive (nota↔foto ya emparejadas por file_scanner)."""
+    try:
+        from utils.config import get
+        base = Path(get("POSTS_FOLDER") or (Path.home() / "Desktop" / "NOTAS AUTOMATICAS"))
+        ed = find_todays_edition(base)
+        return _pair_in_folder(ed) if ed else []
+    except Exception as e:
+        logger.warning(f"No se pudieron leer las notas locales: {e}")
+        return []
+
+
+def _resolver_fotos(posts: list) -> list:
+    """Foto de cada nota del reel. FUENTE DE VERDAD = la foto LOCAL de la edición
+    (la que el editor puso con la nota), emparejada por TÍTULO. Así el reel NUNCA
+    depende de la portada de Wix, que puede estar cruzada/mal. Si no hay edición
+    local o no hay match confiable, recién ahí cae a la portada de Wix."""
+    locales = _notas_locales()
+    fotos = []
+    for i, p in enumerate(posts, 1):
+        foto = None
+        if locales:
+            wt = _norm(p.get("title") or p.get("headline"))
+            best = max(locales, key=lambda n: SequenceMatcher(None, _norm(n["title"]), wt).ratio())
+            sim = SequenceMatcher(None, _norm(best["title"]), wt).ratio()
+            if sim >= 0.5:
+                cand = Path(best["image"])
+                if cand.exists():
+                    foto = cand
+                    logger.info(f"Foto #{i} desde la edición local (sim={sim:.2f}): {foto.name}")
+        if foto is None:
+            foto = _bajar_foto(p["image_url"], i)
+            if foto:
+                logger.info(f"Foto #{i} desde la portada de Wix (fallback)")
+        fotos.append(foto)
+    return fotos
+
+
 def run_reel(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
@@ -91,10 +135,8 @@ def run_reel(dry_run: bool = False) -> None:
         return
     logger.info("Ranking: " + " | ".join(f"{i+1}·{p['headline'][:30]} ({p['views']})" for i, p in enumerate(posts)))
 
-    # Descargar fotos
-    fotos = []
-    for i, p in enumerate(posts, 1):
-        fotos.append(_bajar_foto(p["image_url"], i))
+    # Fotos: prioriza la foto LOCAL de la edición (fuente correcta), no la portada de Wix
+    fotos = _resolver_fotos(posts)
 
     site = _site()
     placas: list[Path] = []
