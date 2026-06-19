@@ -14,6 +14,12 @@ logger = get_logger("instagram")
 GRAPH_VERSION = "v19.0"
 MAX_CAPTION = 2200  # límite de Instagram
 
+
+def _location() -> str:
+    """ID de página-lugar de Facebook para etiquetar la UBICACIÓN (ej. Chivilcoy).
+    Instagram usa el mismo tipo de ID que Facebook. Configurable en IG_LOCATION_ID."""
+    return get("IG_LOCATION_ID") or ""
+
 # Instagram acepta proporciones (ancho/alto) entre 4:5 (0.8) y 1.91:1 (1.91).
 MIN_RATIO = 0.8
 MAX_RATIO = 1.91
@@ -178,11 +184,14 @@ def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
             _wait_container_ready(cid, token)
             child_ids.append(cid)
 
-        carousel_id = _crear_contenedor(user_id, token, {
+        parent_data = {
             "media_type": "CAROUSEL",
             "children": ",".join(child_ids),
             "caption": caption,
-        })
+        }
+        if _location():
+            parent_data["location_id"] = _location()
+        carousel_id = _crear_contenedor(user_id, token, parent_data)
         _wait_container_ready(carousel_id, token)
 
         publish_resp = requests.post(
@@ -251,12 +260,15 @@ def publish_reel(video_url: str, caption: str) -> dict:
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
-    creation_id = _crear_contenedor(user_id, token, {
+    reel_data = {
         "media_type": "REELS",
         "video_url": video_url,
         "caption": caption[:MAX_CAPTION],
         "share_to_feed": "true",
-    })
+    }
+    if _location():
+        reel_data["location_id"] = _location()
+    creation_id = _crear_contenedor(user_id, token, reel_data)
     _wait_container_ready_long(creation_id, token)
 
     publish_resp = requests.post(

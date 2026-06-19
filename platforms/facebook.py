@@ -11,6 +11,12 @@ logger = get_logger("facebook")
 GRAPH_VERSION = "v19.0"
 
 
+def _place() -> str:
+    """ID de página-lugar de Facebook para etiquetar la UBICACIÓN del posteo
+    (ej. Chivilcoy, Buenos Aires). Configurable en FB_PLACE_ID del .env."""
+    return get("FB_PLACE_ID") or ""
+
+
 def publish(body: str, image_path: Path) -> dict:
     page_id = get("FACEBOOK_PAGE_ID")
     token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
@@ -63,6 +69,8 @@ def publish_multi(message: str, image_paths: list[Path]) -> dict:
         media_fbids.append(up.json()["id"])
 
     data = {"message": message}
+    if _place():
+        data["place"] = _place()
     for i, fbid in enumerate(media_fbids):
         data[f"attached_media[{i}]"] = json.dumps({"media_fbid": fbid})
 
@@ -146,12 +154,15 @@ def publish_video(message: str, video_path: Path) -> dict:
         raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
 
     video_path = Path(video_path)
+    data = {"description": message}
+    if _place():
+        data["place"] = _place()
     with open(video_path, "rb") as vid:
         resp = requests.post(
             f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/videos",
             params={"access_token": token},
             files={"source": (video_path.name, vid, "video/mp4")},
-            data={"description": message},
+            data=data,
             timeout=300,
         )
     _raise_for_status(resp)

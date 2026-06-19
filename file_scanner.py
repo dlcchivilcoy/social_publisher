@@ -143,29 +143,62 @@ def _read_docx(path: Path) -> dict:
     return {"title": title, "body": body, "volanta": volanta, "titular": titular, "cuerpo": cuerpo}
 
 
+def _leading_num(stem: str) -> str | None:
+    """Número con que empieza el nombre del archivo (ej. '3 - titulo' → '3')."""
+    m = re.match(r"\s*0*(\d+)", stem)
+    return m.group(1) if m else None
+
+
+def _make_note(doc: Path, img: Path, score: float) -> dict:
+    parts = _read_docx(doc)
+    note = {"docx": doc, "image": img, "score": round(score, 2)}
+    note.update(parts)
+    return note
+
+
 def _pair_in_folder(page_folder: Path) -> list[dict]:
     docs   = [p for p in page_folder.iterdir()
               if p.is_file() and p.suffix.lower() in DOC_EXTS and not p.name.startswith("~")]
     images = [p for p in page_folder.iterdir()
               if p.is_file() and p.suffix.lower() in IMAGE_EXTS and not p.name.startswith(".")]
 
+    notes = []
+    used_docs, used_imgs = set(), set()
+
+    # 1) BLINDAJE POR NÚMERO: si la nota y la foto empiezan con el MISMO número
+    #    (estructura nueva '1 - titulo.docx' + '1 - titulo.jpg'), se emparejan
+    #    directo. Evita que el fuzzy cruce dos notas contiguas con nombres parecidos.
+    imgs_por_num: dict[str, list[Path]] = {}
+    for img in images:
+        num = _leading_num(img.stem)
+        if num:
+            imgs_por_num.setdefault(num, []).append(img)
+    for doc in sorted(docs, key=lambda p: p.name):
+        num = _leading_num(doc.stem)
+        if num and len(imgs_por_num.get(num, [])) == 1:
+            img = imgs_por_num[num][0]
+            if img in used_imgs:
+                continue
+            notes.append(_make_note(doc, img, 1.0))
+            used_docs.add(doc)
+            used_imgs.add(img)
+
+    # 2) FUZZY para el resto (notas/fotos sin número o con número ambiguo/duplicado).
     scored = []
     for doc in docs:
+        if doc in used_docs:
+            continue
         for img in images:
+            if img in used_imgs:
+                continue
             scored.append((_similarity(doc.stem, img.stem), doc, img))
     scored.sort(key=lambda x: x[0], reverse=True)
-
-    used_docs, used_imgs = set(), set()
-    notes = []
     for score, doc, img in scored:
         if doc in used_docs or img in used_imgs:
             continue
         if score < MATCH_THRESHOLD:
             continue
-        parts = _read_docx(doc)
-        note = {"docx": doc, "image": img, "score": round(score, 2)}
-        note.update(parts)
-        notes.append(note)
+        notes.append(_make_note(doc, img, score))
         used_docs.add(doc)
         used_imgs.add(img)
 

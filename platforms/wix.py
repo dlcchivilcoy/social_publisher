@@ -261,9 +261,11 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     return {"success": True, "id": draft_id, "url": post_url}
 
 
-def _reel_headline(title: str, limit: int = 95) -> str:
-    """Saca un titular limpio del 'title' de Wix (que viene 'VOLANTA — titular …').
-    Toma la parte antes del em-dash (la volanta = el titular real) y la recorta."""
+def _reel_headline(title: str) -> str:
+    """Saca el titular limpio del 'title' de Wix (que viene 'VOLANTA — titular').
+    Quita la volanta (parte antes del em-dash) y devuelve el titular COMPLETO, sin
+    recortar: el reel necesita el título entero (la placa lo autoajusta para que
+    entre sin puntos suspensivos)."""
     t = re.sub(r"\s+", " ", (title or "").strip())
     for sep in (" — ", " – "):  # em-dash y en-dash con espacios
         if sep in t:
@@ -272,8 +274,6 @@ def _reel_headline(title: str, limit: int = 95) -> str:
             # (ej. "TENIS"), el titular real está a la derecha.
             t = der if len(izq) < 20 and der else izq
             break
-    if len(t) > limit:
-        t = t[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:—-") + "…"
     return t
 
 

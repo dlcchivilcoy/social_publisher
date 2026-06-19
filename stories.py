@@ -168,6 +168,13 @@ def run_youtube_live_story(dry_run: bool = False) -> None:
 def run_youtube_notes_stories(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Historia resumen de notas de YouTube [{modo}] ===")
+
+    # DESACTIVADA (pedido del usuario): ya NO se publica la historia 'NOTAS DE HOY'
+    # de Radio del Centro en IG/FB. Para reactivarla: YT_NOTES_STORY=1 en .env.
+    if (get("YT_NOTES_STORY") or "0").strip().lower() not in ("1", "true", "si", "sí", "on"):
+        logger.info("Historia de notas de YouTube DESACTIVADA (YT_NOTES_STORY no está en 1). Se omite.")
+        return
+
     channel_id = get("YT_CHANNEL_ID") or "UCqiTJ2oRBLNO1ZzfrdiyjTw"
     excluir_raw = get("STORY_EXCLUDE_TITLE") or "MAÑANA DEL CENTRO"
     excluir = [youtube.normalizar(x) for x in excluir_raw.split(",") if x.strip()]

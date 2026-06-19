@@ -105,6 +105,26 @@ def _draw_block(draw, lines, font, x, y, fill, line_gap) -> int:
     return y
 
 
+def _resumen_lineas(draw, text, font, max_w, max_lines) -> list[str]:
+    """Resumen recortado a `max_lines` líneas que entren en `max_w`, SIN puntos
+    suspensivos. Si el texto no entra, corta en el límite de la última línea
+    completa (y, si puede, en el final de una oración para que quede prolijo)."""
+    text = (text or "").strip()
+    if not text:
+        return []
+    lines = _wrap(draw, text, font, max_w)
+    if len(lines) <= max_lines:
+        return lines
+    recorte = lines[:max_lines]
+    # Intentar terminar en el final de una oración dentro del bloque permitido.
+    bloque = " ".join(recorte)
+    corte = max(bloque.rfind(". "), bloque.rfind("! "), bloque.rfind("? "))
+    if corte >= len(bloque) * 0.5:  # solo si no perdemos demasiado texto
+        bloque = bloque[:corte + 1]
+        recorte = _wrap(draw, bloque, font, max_w)[:max_lines]
+    return recorte
+
+
 def _cover(img: Image.Image, box_w: int, box_h: int) -> Image.Image:
     """Escala la imagen para CUBRIR el box y recorta el sobrante (crop centrado)."""
     img = img.convert("RGB")
@@ -411,18 +431,16 @@ def compose_tapa_story(cover_path: Path, fecha_str: str) -> Path:
     canvas = _new_canvas()
     draw = ImageDraw.Draw(canvas)
 
-    # Encabezado (logo)
-    _paste_logo(canvas, 50, 560)
-
-    # Pie (lo dibujamos al final, pero reservamos su altura)
+    # (Sin logo arriba — pedido del usuario.)
+    # Pie (lo dibujamos al final, pero reservamos su altura). Texto CENTRADO.
     f_tapa = _font(56, bold=True)
     f_fecha = _font(40, bold=False)
     footer_block_h = 150
     footer_y = H - MARGIN - footer_block_h
 
-    # Tapa contenida (sin recortar) entre el encabezado y el pie
-    box_top = 150
-    box_h = footer_y - 30 - box_top
+    # Tapa contenida (sin recortar), centrada en TODO el espacio libre de arriba.
+    box_top = 90
+    box_h = footer_y - 40 - box_top
     box_w = W - 2 * MARGIN
     try:
         cover = _contain(Image.open(cover_path), box_w, box_h)
@@ -435,11 +453,11 @@ def compose_tapa_story(cover_path: Path, fecha_str: str) -> Path:
     except Exception as e:
         logger.warning(f"No se pudo abrir la tapa: {e}")
 
-    # Pie: "TAPA DE HOY" + fecha
+    # Pie: "TAPA DE HOY" + fecha — CENTRADOS
     draw.line((MARGIN, footer_y - 20, W - MARGIN, footer_y - 20), fill=(60, 64, 74), width=2)
-    draw.text((MARGIN, footer_y), "TAPA DE HOY", font=f_tapa, fill=WHITE)
+    y = _texto_centrado(draw, ["TAPA DE HOY"], f_tapa, footer_y, WHITE, gap=8)
     if fecha_str:
-        draw.text((MARGIN, footer_y + 72), fecha_str, font=f_fecha, fill=ACCENT)
+        _texto_centrado(draw, [fecha_str], f_fecha, y, ACCENT)
 
     return _save(canvas, "tapa")
 
@@ -472,10 +490,14 @@ def _draw_marker(draw, x, y, size, color, kind):
 
 
 def _compose_listado(*, size, titulo, subtitulo, items, footer,
-                     accent=ACCENT, marker="dot", stem="info") -> Path:
+                     accent=ACCENT, marker="dot", stem="info",
+                     logo=True, center=False) -> Path:
     """
     items: lista de dicts {"main": str, "sub": str (opcional)}.
     Ajusta el tamaño de fuente para que entren todos entre el encabezado y el pie.
+    logo=False  → no dibuja el logo de arriba.
+    center=True → centra TODO el texto horizontalmente y centra verticalmente la
+                  lista de ítems en el espacio disponible (sin marcadores a la izq.).
     """
     W2, H2 = size
     m = 70
@@ -483,20 +505,27 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
     canvas = Image.new("RGB", (W2, H2), BG)
     draw = ImageDraw.Draw(canvas)
 
+    def _line(ln, font, yy, fill):
+        lx = m + (inner - draw.textlength(ln, font=font)) / 2 if center else m
+        draw.text((lx, yy), ln, font=font, fill=fill)
+
     # Marca (logo)
-    _paste_logo(canvas, 40, 360)
-    y = 116
+    if logo:
+        _paste_logo(canvas, 40, 360)
+        y = 116
+    else:
+        y = 90
 
     # Título grande
     f_t = _font(68, True)
     for ln in _wrap(draw, titulo, f_t, inner)[:2]:
-        draw.text((m, y), ln, font=f_t, fill=WHITE)
+        _line(ln, f_t, y, WHITE)
         y += _line_h(f_t, ln) + 16
 
     # Subtítulo (fecha)
     if subtitulo:
         f_s = _font(36, False)
-        draw.text((m, y), subtitulo, font=f_s, fill=accent)
+        _line(subtitulo, f_s, y, accent)
         y += _line_h(f_s) + 24
 
     draw.line((m, y, W2 - m, y), fill=(60, 64, 74), width=2)
@@ -546,30 +575,50 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
             break
     if not chosen:
         chosen = layout(24)
-    f_main, f_sub, mk, mlh, slh, filas, _ = chosen
+    f_main, f_sub, mk, mlh, slh, filas, total = chosen
 
-    yy = y_start
+    # En modo centrado, arrancar la lista de modo que quede centrada verticalmente.
+    yy = y_start + (max(0, (avail - total) // 2) if center else 0)
     for idx, (mlines, sline2, sline, h) in enumerate(filas):
         if yy + h > foot_y - 10:
             draw.text((m, yy), f"… y {n - idx} más", font=f_sub, fill=GRAY)
             break
-        _draw_marker(draw, m, yy + 4, mk, accent, marker)
-        tx = m + mk + 22
-        ly = yy
-        for ln in mlines:
-            draw.text((tx, ly), ln, font=f_main, fill=WHITE)
-            ly += mlh + 2
-        if sline2:   # horario u otra línea destacada → color de acento
-            draw.text((tx, ly + 2), sline2[0], font=f_sub, fill=accent)
-            ly += slh + 4
-        if sline:
-            draw.text((tx, ly + 2), sline[0], font=f_sub, fill=GRAY)
+        if center:
+            # Texto centrado, sin marcador a la izquierda.
+            ly = yy
+            for ln in mlines:
+                draw.text(((W2 - draw.textlength(ln, font=f_main)) / 2, ly), ln, font=f_main, fill=WHITE)
+                ly += mlh + 2
+            if sline2:
+                draw.text(((W2 - draw.textlength(sline2[0], font=f_sub)) / 2, ly + 2), sline2[0], font=f_sub, fill=accent)
+                ly += slh + 4
+            if sline:
+                draw.text(((W2 - draw.textlength(sline[0], font=f_sub)) / 2, ly + 2), sline[0], font=f_sub, fill=GRAY)
+        else:
+            _draw_marker(draw, m, yy + 4, mk, accent, marker)
+            tx = m + mk + 22
+            ly = yy
+            for ln in mlines:
+                draw.text((tx, ly), ln, font=f_main, fill=WHITE)
+                ly += mlh + 2
+            if sline2:   # horario u otra línea destacada → color de acento
+                draw.text((tx, ly + 2), sline2[0], font=f_sub, fill=accent)
+                ly += slh + 4
+            if sline:
+                draw.text((tx, ly + 2), sline[0], font=f_sub, fill=GRAY)
         yy += h
 
     # Pie
     if foot_lines:
         draw.line((m, foot_y - 16, W2 - m, foot_y - 16), fill=(60, 64, 74), width=2)
-        _draw_block(draw, foot_lines, _font(26, False), m, foot_y, GRAY, 10)
+        f_foot = _font(26, False)
+        if center:
+            yy = foot_y
+            for ln in foot_lines:
+                draw.text(((W2 - draw.textlength(ln, font=f_foot)) / 2, yy), ln, font=f_foot, fill=GRAY)
+                yy += _line_h(f_foot, ln) + 10
+        else:
+            _draw_block(draw, foot_lines, f_foot, m, foot_y, GRAY, 10)
 
     return _save(canvas, stem)
 
@@ -603,7 +652,8 @@ def compose_farmacias_story(items: list[dict], fecha_str: str) -> Path:
     return _compose_listado(
         size=(W, H), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
         items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs)",
-        accent=GREEN, marker="plus", stem="farmacias_story")
+        accent=GREEN, marker="plus", stem="farmacias_story",
+        logo=False, center=True)
 
 
 # ---------------------------------------------------------------------------
@@ -719,47 +769,47 @@ def compose_repost_story(flyer_path: Path, pie: str = "Espacio publicitario",
 SLIDE_W, SLIDE_H = 1080, 1350
 
 
-def _draw_titular_fill(draw, text, x, y, w, h, fill, *, max_size=100, min_size=44):
+def _draw_titular_fill(draw, text, x, y, w, h, fill, *, max_size=100, min_size=44, center=False):
     """Dibuja el titular lo MÁS grande posible para llenar la caja (w x h),
-    centrado verticalmente. Si no entra ni al tamaño mínimo, recorta con '…'."""
+    centrado verticalmente (y horizontalmente si center=True). Si no entra ni al
+    tamaño mínimo, recorta con '…'."""
     text = (text or "").strip()
     if not text:
         return
+
+    def _emit(f, lines, yy):
+        for ln in lines:
+            lx = x + (w - draw.textlength(ln, font=f)) / 2 if center else x
+            draw.text((lx, yy), ln, font=f, fill=fill)
+            yy += _line_h(f, "Ay") + 8
+
     for size in range(max_size, min_size - 1, -3):
         f = _font(size, bold=True)
         lines = _wrap(draw, text, f, w)
         lh = _line_h(f, "Ay") + 8
         if len(lines) * lh <= h:
-            yy = y + max(0, (h - len(lines) * lh) // 2)
-            for ln in lines:
-                draw.text((x, yy), ln, font=f, fill=fill)
-                yy += lh
+            _emit(f, lines, y + max(0, (h - len(lines) * lh) // 2))
             return
     f = _font(min_size, bold=True)
     lh = _line_h(f, "Ay") + 8
     lines = _wrap(draw, text, f, w)[:max(1, h // lh)]
     if lines:
         lines[-1] = lines[-1].rstrip(" .,;:") + "…"
-    yy = y
-    for ln in lines:
-        draw.text((x, yy), ln, font=f, fill=fill)
-        yy += lh
+    _emit(f, lines, y)
 
 
 def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: str = "") -> Path:
-    """Slide 4:5: logo + (volanta si la hay) + foto entera + TITULAR grande que llena
-    la caja blanca, y al PIE 'Seguí leyendo la nota completa en {web}'."""
+    """Slide 4:5: logo + foto entera + TITULAR grande CENTRADO que llena la caja
+    blanca, y al PIE 'Seguí leyendo la nota completa en {web}'.
+    (La volanta ya NO se muestra — pedido del usuario; el parámetro se mantiene por
+    compatibilidad con quien llama.)"""
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
     draw = ImageDraw.Draw(canvas)
 
     logo_bottom = _paste_logo(canvas, 30, 460)
     x = MARGIN
     max_w = SLIDE_W - 2 * MARGIN
-    y = logo_bottom + 14
-
-    if volanta:
-        f_vol = _font(34, bold=True)
-        y = _draw_block(draw, _wrap(draw, volanta.upper(), f_vol, max_w)[:1], f_vol, x, y, ACCENT, 6) + 8
+    y = logo_bottom + 18
 
     # Pie: "Seguí leyendo la nota completa en {web}" (en cada slide)
     box_bottom = SLIDE_H - 44
@@ -780,7 +830,7 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
-    _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT)
+    _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT, center=True)
 
     if cta_lines:
         sep_y = titular_box_bottom + 14
@@ -839,15 +889,16 @@ def compose_noticias_hoy_story(fecha_str: str, site_url: str = "", photos: list 
     draw = ImageDraw.Draw(canvas)
 
     # Todo MÁS GRANDE para máxima legibilidad
-    _paste_logo(canvas, 120, 860)
-    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(190, bold=True), 430, ACCENT, gap=2)
+    _paste_logo(canvas, 110, 860)
+    _texto_centrado(draw, ["NUEVO POSTEO"], _font(70, bold=True), 390, GRAY)
+    _texto_centrado(draw, ["NOTICIAS", "DE HOY"], _font(180, bold=True), 470, ACCENT, gap=2)
     if fecha_str:
-        _texto_centrado(draw, [fecha_str], _font(66, bold=True), 930, GRAY)
-    draw.line((MARGIN, 1080, W - MARGIN, 1080), fill=ACCENT, width=8)
-    msg = "Mirá todas las noticias de hoy en nuestro perfil"
-    _texto_centrado(draw, _wrap(draw, msg, _font(64, bold=True), W - 2 * MARGIN), _font(64, bold=True), 1330, GRAY, gap=16)
+        _texto_centrado(draw, [fecha_str], _font(64, bold=True), 940, GRAY)
+    draw.line((MARGIN, 1090, W - MARGIN, 1090), fill=ACCENT, width=8)
+    msg = "Deslizá nuestro posteo con todas las noticias del día en el perfil"
+    _texto_centrado(draw, _wrap(draw, msg, _font(62, bold=True), W - 2 * MARGIN), _font(62, bold=True), 1330, GRAY, gap=16)
     if site_url:
-        _texto_centrado(draw, [site_url], _font(60, bold=True), 1640, ACCENT)
+        _texto_centrado(draw, [site_url], _font(58, bold=True), 1660, ACCENT)
     return _save(canvas, "noticias_hoy")
 
 
@@ -870,31 +921,48 @@ def compose_reel_intro(fecha_str: str, photos: list = None) -> Path:
 
 
 def compose_reel_slide(photo_path: Path, titular: str, resumen: str, rank: int, views: int = 0) -> Path:
-    """Una placa del reel: badge de ranking + foto entera + titular + resumen + lecturas."""
+    """Una placa del reel: badge de ranking + foto entera (bien encuadrada) +
+    TITULAR COMPLETO grande (autoajustado, centrado) + resumen hasta 5 líneas
+    SIN puntos suspensivos + lecturas. Las cajas se reservan de abajo hacia arriba
+    para que el titular y el resumen siempre entren completos."""
     canvas = Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(canvas)
     _paste_logo(canvas, 70, 560)
     _texto_centrado(draw, [f"N°{rank}  ·  LO MÁS LEÍDO"], _font(52, bold=True), 210, ACCENT)
 
-    photo_top, photo_h = 300, 1000
+    x, max_w = MARGIN, W - 2 * MARGIN
+
+    # Reservar de ABAJO hacia arriba: lecturas → resumen (5 líneas) → titular.
+    views_h = 70 if (views and views > 0) else 0
+    views_top = (H - 70) - views_h
+
+    f_res = _font(40, bold=False)
+    res_lines = _resumen_lineas(draw, resumen, f_res, max_w, 5) if resumen else []
+    res_lh = _line_h(f_res, "Ay") + 12
+    res_h = len(res_lines) * res_lh
+    res_top = views_top - (res_h + (26 if res_lines else 0))
+
+    titular_box_h = 440
+    titular_box_top = (res_top - 12) - titular_box_h
+
+    photo_top = 300
+    photo_h = max(340, (titular_box_top - 28) - photo_top)
     try:
         canvas.paste(_fit_blur(Image.open(photo_path), W, photo_h), (0, photo_top))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del reel: {e}")
 
-    x, max_w = MARGIN, W - 2 * MARGIN
-    y = photo_top + photo_h + 36
-    f_tit = _font(60, bold=True)
-    y = _draw_block(draw, _wrap(draw, titular, f_tit, max_w)[:3], f_tit, x, y, ACCENT, 8) + 16
-    if resumen:
-        f_res = _font(38, bold=False)
-        rl = _wrap(draw, resumen, f_res, max_w)
-        lines = rl[:2]
-        if len(rl) > 2 and lines:
-            lines[-1] = lines[-1].rstrip(" .,;:") + "…"
-        _draw_block(draw, lines, f_res, x, y, GRAY, 10)
+    # Titular COMPLETO, lo más grande que entre, centrado (min bajo para que el
+    # título entero entre aunque sea largo, sin recortar con '…').
+    _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT,
+                       max_size=86, min_size=34, center=True)
+
+    # Resumen: hasta 5 líneas, centrado, sin puntos suspensivos.
+    if res_lines:
+        _texto_centrado(draw, res_lines, f_res, res_top, GRAY, gap=12)
+
     if views and views > 0:
-        _texto_centrado(draw, [f"{views:,}".replace(",", ".") + " lecturas"], _font(34, bold=True), H - 110, ACCENT)
+        _texto_centrado(draw, [f"{views:,}".replace(",", ".") + " lecturas"], _font(34, bold=True), views_top, ACCENT)
     return _save(canvas, f"reel_{rank}")
 
 

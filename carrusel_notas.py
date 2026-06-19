@@ -7,6 +7,7 @@ nombre del archivo. Además:
   - publica UNA historia "Noticias de hoy".
 Reemplaza el feed por nota (07:00/13:00) y las historias por nota (07:15).
 """
+import json
 import re
 from datetime import date
 from pathlib import Path
@@ -19,6 +20,56 @@ from utils.config import get
 from utils.logger import get_logger
 
 logger = get_logger("carrusel_notas")
+
+# Ledger propio de la carga a la WEB (Wix), independiente de .publicado.json.
+# La corrida de las 7:00 (--notes-web) sube las notas a Wix y las marca acá; el
+# carrusel de las 10:00 NO vuelve a subir a Wix las que ya están marcadas (evita
+# duplicar en la web), pero igual arma el carrusel/historia en FB/IG.
+WEB_LEDGER_NAME = ".web.json"
+
+
+def _load_web_ledger(posts_folder: Path) -> set[str]:
+    path = posts_folder / WEB_LEDGER_NAME
+    if not path.exists():
+        return set()
+    try:
+        return set(json.loads(path.read_text(encoding="utf-8")))
+    except Exception:
+        logger.warning("No se pudo leer el registro de la web; se asume vacío.")
+        return set()
+
+
+def _save_web_ledger(posts_folder: Path, keys: set[str]) -> None:
+    (posts_folder / WEB_LEDGER_NAME).write_text(
+        json.dumps(sorted(keys), ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _resumen_caption(texto: str, max_chars: int = 280) -> str:
+    """Resumen para el caption: ~5 líneas como máximo, cortado en final de oración
+    o de palabra, SIN puntos suspensivos."""
+    t = (texto or "").strip()
+    if not t or len(t) <= max_chars:
+        return t
+    corte = t[:max_chars]
+    for sep in (". ", "! ", "? "):
+        idx = corte.rfind(sep)
+        if idx >= max_chars * 0.5:
+            return corte[:idx + 1].strip()
+    return corte.rsplit(" ", 1)[0].rstrip(" ,;:").strip()
+
+
+def _publicar_nota_wix(note: dict, volanta: str, titular: str, cuerpo: list, primer: str) -> bool:
+    """Sube UNA nota a Wix (portada + cuerpo). Devuelve True si salió bien."""
+    img = _prepare_image(note["image"])
+    try:
+        wix_title = f"{volanta} — {titular}" if volanta else titular
+        body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
+        descripcion = (primer or titular)[:155]
+        wix.publish(wix_title, body, img, page=note["page"], description=descripcion)
+        return True
+    finally:
+        if img != note["image"] and img.exists():
+            img.unlink()
 
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -109,9 +160,11 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     logger.info("Orden del carrusel: " + " | ".join(f"{_orden(n)}·{(n.get('titular') or n['title'])[:30]}" for n in pending))
 
     site = _site()
+    web_ledger = _load_web_ledger(posts_folder)
     slides: list[Path] = []
     bajadas: list[tuple] = []  # (titular, primer_parrafo) para el caption
     wix_ok = 0
+    web_changed = False
 
     for note in pending:
         volanta, titular, cuerpo = _parse_nota(note["docx"])
@@ -126,20 +179,23 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
             continue
         bajadas.append((titular, primer))
 
-        # Publicar la nota en Wix (la web es el destino del "seguí leyendo")
+        # Publicar la nota en Wix SOLO si la corrida de las 7:00 (--notes-web) no la
+        # subió ya (evita duplicar en la web). Si ya está marcada, se saltea Wix.
         if not dry_run:
-            try:
-                img = _prepare_image(note["image"])
-                wix_title = f"{volanta} — {titular}" if volanta else titular
-                body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
-                descripcion = (primer or titular)[:155]
-                wix.publish(wix_title, body, img, page=note["page"], description=descripcion)
-                wix_ok += 1
-                if img != note["image"] and img.exists():
-                    img.unlink()
-                logger.info(f"[wix] OK — «{titular[:40]}»")
-            except Exception as e:
-                logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
+            if note["key"] in web_ledger:
+                logger.info(f"[wix] ya cargada a las 7:00 — se saltea «{titular[:40]}»")
+            else:
+                try:
+                    if _publicar_nota_wix(note, volanta, titular, cuerpo, primer):
+                        wix_ok += 1
+                        web_ledger.add(note["key"])
+                        web_changed = True
+                        logger.info(f"[wix] OK — «{titular[:40]}»")
+                except Exception as e:
+                    logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
+
+    if not dry_run and web_changed:
+        _save_web_ledger(posts_folder, web_ledger)
 
     if not slides:
         logger.error("No se pudo componer ningún slide. Se aborta el carrusel.")
@@ -148,9 +204,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     # Caption (bajada): por nota → titular + primer párrafo. + CTA + hashtags.
     bloques = []
     for titular, primer in bajadas:
-        p = (primer or "").strip()
-        if len(p) > 120:
-            p = p[:120].rsplit(" ", 1)[0].rstrip(" .,;:") + "…"
+        p = _resumen_caption(primer, max_chars=280)
         bloques.append(f"📌 {titular}" + (f"\n{p}" if p else ""))
     cuerpo_cap = "\n\n".join(bloques)
 
@@ -218,3 +272,45 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         logger.error("El carrusel de notas NO se pudo publicar — se reintentará la próxima corrida.")
 
     logger.info("=== Carrusel de notas: fin ===")
+
+
+def run_notes_web(posts_folder: Path, allowed_pages: set[int], dry_run: bool = False) -> None:
+    """Corrida de las 7:00 — SOLO carga las notas del día a la WEB (Wix). NO toca
+    FB/IG. Así la nota está temprano en la web (y el reel mide vistas todo el día);
+    el carrusel + la historia salen aparte a las 10:00 (--notes-carousel)."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    hoy = date.today()
+    logger.info(f"=== Carga de notas a la WEB [{modo}] — {hoy.isoformat()} — carpeta: {posts_folder} ===")
+
+    notes = _find_notes(posts_folder)
+    if not notes:
+        logger.info("No se encontraron notas para cargar a la web.")
+        return
+
+    web_ledger = _load_web_ledger(posts_folder)
+    pending = [n for n in notes if n["key"] not in web_ledger]
+    if not pending:
+        logger.info("Todas las notas de hoy ya estaban cargadas a la web. Nada que hacer.")
+        return
+    pending.sort(key=_orden)
+    logger.info(f"{len(pending)} nota(s) para cargar a la web.")
+
+    ok = 0
+    for note in pending:
+        volanta, titular, cuerpo = _parse_nota(note["docx"])
+        if not titular:
+            titular = note.get("titular") or note["title"]
+        primer = cuerpo[0] if cuerpo else ""
+        if dry_run:
+            logger.info(f"[dry-run] subiría a la web: «{(volanta + ' — ') if volanta else ''}{titular[:50]}»")
+            continue
+        try:
+            if _publicar_nota_wix(note, volanta, titular, cuerpo, primer):
+                web_ledger.add(note["key"])
+                _save_web_ledger(posts_folder, web_ledger)  # guarda tras cada una (resiliente)
+                ok += 1
+                logger.info(f"[wix] OK — «{titular[:40]}»")
+        except Exception as e:
+            logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
+
+    logger.info(f"=== Carga a la web: fin — {ok}/{len(pending)} subida(s) ===")
