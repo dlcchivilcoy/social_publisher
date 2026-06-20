@@ -124,6 +124,39 @@ def main() -> None:
         help="Publicar el REEL 'Las 5 más leídas del día' (video 9:16) en FB+IG (feed + historia).",
     )
     parser.add_argument(
+        "--transcribe-video",
+        action="store_true",
+        help="DESGRABAR un video (Drive) a nota en Wix como BORRADOR + reel listo (etapa 1, con --file/--uploader).",
+    )
+    parser.add_argument(
+        "--publish-video",
+        action="store_true",
+        help="PUBLICAR el borrador del video aprobado: web + reel a FB/IG (etapa 2, con --file).",
+    )
+    parser.add_argument(
+        "--videos-report",
+        action="store_true",
+        help="Enviar por mail el Excel de contabilidad de videos por colaborador (mes anterior, o --mes YYYY-MM).",
+    )
+    parser.add_argument(
+        "--file",
+        type=str,
+        default=None,
+        help="Nombre del archivo de video (para --transcribe-video / --publish-video).",
+    )
+    parser.add_argument(
+        "--uploader",
+        type=str,
+        default=None,
+        help="Email del colaborador que subió el video (para --transcribe-video, lo pasa el Apps Script).",
+    )
+    parser.add_argument(
+        "--mes",
+        type=str,
+        default=None,
+        help="Mes YYYY-MM para --videos-report (por defecto, el mes anterior).",
+    )
+    parser.add_argument(
         "--folder",
         type=str,
         default=None,
@@ -232,6 +265,21 @@ def main() -> None:
         from reel import run_reel
         logger.info(f"Modo --reel (dry_run={args.dry_run}).")
         run_reel(dry_run=args.dry_run)
+        return
+    if args.transcribe_video:
+        from transcriber import run_transcribe_video
+        logger.info(f"Modo --transcribe-video (dry_run={args.dry_run}). file={args.file}")
+        run_transcribe_video(file=args.file or "", uploader=args.uploader or "", dry_run=args.dry_run)
+        return
+    if args.publish_video:
+        from transcriber import run_publish_video
+        logger.info(f"Modo --publish-video (dry_run={args.dry_run}). file={args.file}")
+        run_publish_video(file=args.file or "", dry_run=args.dry_run)
+        return
+    if args.videos_report:
+        from reporte import run_videos_report
+        logger.info(f"Modo --videos-report (dry_run={args.dry_run}). mes={args.mes}")
+        run_videos_report(mes=args.mes, dry_run=args.dry_run)
         return
 
     if args.dry_run:

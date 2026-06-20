@@ -18,6 +18,9 @@ published/
 
 # Historias (imágenes generadas + ledgers)
 historias_preview/
+videos_preview/
+videos/
+.videos_contabilidad.json
 youtube-historias.json
 .historias.json
 .tapa.json

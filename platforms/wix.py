@@ -168,33 +168,48 @@ def _category_ids(page: int) -> list[str]:
     return cats
 
 
-def publish(title: str, body: str, image_path: Path, page: int = 0,
-            description: str = "") -> dict:
-    headers = _headers()
-    member_id = _get_member_id(headers)
-
-    # Wix limita el título a 200 caracteres: recortar para no recibir un 400.
-    title = _titulo_wix(title)
-
-    # 1) Imagen pública temporal (ImgBB)
+def _importar_imagen(headers: dict, image_path: Path, title: str) -> tuple[str, str]:
+    """Sube la imagen a ImgBB (URL pública temporal) y la importa al Media Manager
+    de Wix con nombre descriptivo. Devuelve (file_id, image_url)."""
     image_url = upload_to_imgbb(image_path)
-
-    # 2) Importar al Media Manager de Wix (con nombre descriptivo = titular,
-    #    así la imagen aporta a Google Imágenes en vez de un nombre genérico).
-    mime = "image/png" if image_path.suffix.lower() == ".png" else "image/jpeg"
+    mime = "image/png" if Path(image_path).suffix.lower() == ".png" else "image/jpeg"
     nombre_archivo = _slugify(title)[:80] or "nota"
     imp = requests.post(MEDIA_IMPORT_URL, headers=headers,
                         json={"mediaType": "IMAGE", "url": image_url, "mimeType": mime,
                               "displayName": nombre_archivo}, timeout=30)
     _raise_for_status(imp, "importar imagen")
-    file_id = imp.json()["file"]["id"]
+    return imp.json()["file"]["id"], image_url
 
-    # 3) Crear el borrador del post con categorías
-    # La foto va como PORTADA (media) y además UNA vez dentro del cuerpo (arriba del
-    # texto), como pidió el diario. Es UNA sola foto interna (no duplicada).
+
+def _importar_video(headers: dict, video_url: str, display_name: str) -> str:
+    """Importa un .mp4 (desde una URL pública, ej. el GitHub Release del reel) al
+    Media Manager de Wix como VIDEO. Devuelve el file_id para usarlo en un nodo VIDEO.
+
+    El procesamiento del video es asíncrono: el file_id sirve igual, y el video queda
+    listo a los pocos segundos (antes de que el editor termine de revisar el borrador).
+    """
+    imp = requests.post(MEDIA_IMPORT_URL, headers=headers,
+                        json={"mediaType": "VIDEO", "url": video_url,
+                              "mimeType": "video/mp4",
+                              "displayName": (_slugify(display_name)[:80] or "video")},
+                        timeout=60)
+    _raise_for_status(imp, "importar video")
+    return imp.json()["file"]["id"]
+
+
+def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
+                   description: str = "", video_url: str = "") -> dict:
+    """Crea un BORRADOR (draft) en el blog de Wix SIN publicarlo. La foto va como
+    portada + dentro del cuerpo; si se pasa `video_url`, se importa a Wix y se embebe
+    un nodo VIDEO arriba del texto. Devuelve {draft_id, file_id, image_url}."""
+    headers = _headers()
+    member_id = _get_member_id(headers)
+    title = _titulo_wix(title)  # Wix limita el título a 200 caracteres
+
+    file_id, image_url = _importar_imagen(headers, image_path, title)
+
     paragraphs = [p for p in body.split("\n") if p.strip()]
-    nodes = []
-    nodes.append({
+    nodes = [{
         "type": "IMAGE",
         "id": "img0",
         "nodes": [],
@@ -202,7 +217,25 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
             "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
             "image": {"src": {"id": file_id}},
         },
-    })
+    }]
+    # Video nativo embebido (arriba del texto, debajo de la foto). Best-effort: si el
+    # import falla, se sigue sin video (la nota igual sale con foto).
+    if video_url:
+        try:
+            video_id = _importar_video(headers, video_url, title)
+            nodes.append({
+                "type": "VIDEO",
+                "id": "video0",
+                "nodes": [],
+                "videoData": {
+                    "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER"},
+                    "video": {"src": {"id": video_id}},
+                },
+            })
+            logger.info(f"Video importado a Wix (file_id={video_id}) y embebido en la nota.")
+        except Exception as e:
+            logger.error(f"No se pudo embeber el video nativo en Wix: {e}. La nota sale sin video.")
+
     for i, para in enumerate(paragraphs):
         nodes.append({
             "type": "PARAGRAPH",
@@ -211,10 +244,6 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
         })
 
     category_ids = _category_ids(page)
-    featured = True  # TODAS las notas se muestran en Inicio (la portada muestra las destacadas)
-    logger.debug(f"Wix categorías para página {page}: {category_ids}, featured: {featured}")
-
-    # SEO: meta descripción, slug limpio (sin acentos) y etiquetas Open Graph/Twitter
     descripcion = _meta_descripcion(description, body)
     slug = _slugify(title)
     seo_data = {
@@ -227,7 +256,7 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
             "title": title,
             "memberId": member_id,
             "categoryIds": category_ids,
-            "featured": featured,
+            "featured": True,
             "richContent": {"nodes": nodes},
             "media": {"wixMedia": {"image": {"id": file_id}}, "displayed": True, "custom": True},
             "seoSlug": slug,
@@ -237,12 +266,16 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     draft = requests.post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)
     _raise_for_status(draft, "crear borrador")
     draft_id = draft.json()["draftPost"]["id"]
+    logger.info(f"Borrador de Wix creado (sin publicar): draft_id={draft_id}")
+    return {"draft_id": draft_id, "file_id": file_id, "image_url": image_url}
 
-    # 4) Publicar el borrador
+
+def publicar_borrador(draft_id: str) -> dict:
+    """Publica un borrador ya creado. Devuelve {success, id, url}."""
+    headers = _headers()
     pub = requests.post(f"{DRAFT_POSTS_URL}/{draft_id}/publish", headers=headers, json={}, timeout=30)
     _raise_for_status(pub, "publicar")
 
-    # 5) Obtener la URL pública del post publicado
     post_url = ""
     try:
         r_url = requests.post(
@@ -259,6 +292,13 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
 
     logger.debug(f"Wix post publicado, draft_id={draft_id}, url={post_url}")
     return {"success": True, "id": draft_id, "url": post_url}
+
+
+def publish(title: str, body: str, image_path: Path, page: int = 0,
+            description: str = "") -> dict:
+    """Crea el borrador y lo publica de una (flujo normal del diario)."""
+    info = crear_borrador(title, body, image_path, page=page, description=description)
+    return publicar_borrador(info["draft_id"])
 
 
 def _reel_headline(title: str) -> str:

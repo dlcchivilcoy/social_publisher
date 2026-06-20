@@ -26,6 +26,67 @@ def _norm(idx: int, fps: int) -> str:
             f"pad=1080:1920:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={fps}[s{idx}]")
 
 
+def _run_ffmpeg(cmd: list, paso: str) -> None:
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0:
+        logger.error(f"ffmpeg falló ({paso}):\n" + (r.stderr or "")[-1200:])
+        raise RuntimeError(f"ffmpeg error: {paso}")
+
+
+def to_vertical_reel(src, salida, *, audio: bool = True) -> Path:
+    """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
+
+    El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
+    sí mismo (misma estética que las historias, story_image._fit_blur). Mantiene el
+    audio por defecto. Devuelve el .mp4 de salida.
+    """
+    src, salida = Path(src), Path(salida)
+    ff = _ffmpeg()
+    # Fondo: el propio video escalado a llenar + recortado + desenfocado.
+    # Primer plano: el video escalado a entrar dentro de 1080x1920. Se superponen.
+    vf = (
+        "[0:v]split=2[bg][fg];"
+        "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+        "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
+        "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fgs];"
+        "[bgb][fgs]overlay=(W-w)/2:(H-h)/2[v]"
+    )
+    cmd = [ff, "-y", "-i", str(src), "-filter_complex", vf, "-map", "[v]"]
+    if audio:
+        # Mapea el audio si existe (el '?' evita fallar si el video no tiene pista).
+        cmd += ["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"]
+    else:
+        cmd += ["-an"]
+    cmd += ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+    _run_ffmpeg(cmd, "reel vertical")
+    logger.info(f"Reel vertical armado: {salida}")
+    return salida
+
+
+def best_frame(src, salida) -> Path:
+    """Extrae el frame más representativo del video (filtro `thumbnail` de ffmpeg)
+    como foto de portada. Devuelve el .jpg de salida."""
+    src, salida = Path(src), Path(salida)
+    ff = _ffmpeg()
+    cmd = [ff, "-y", "-i", str(src), "-vf", "thumbnail=n=300",
+           "-frames:v", "1", "-q:v", "2", str(salida)]
+    _run_ffmpeg(cmd, "frame de portada")
+    logger.info(f"Foto de portada extraída: {salida}")
+    return salida
+
+
+def extract_audio(src, salida) -> Path:
+    """Extrae el audio del video a mono 16 kHz (liviano para mandar a Gemini).
+    Devuelve el archivo de audio (.mp3 según la extensión de `salida`)."""
+    src, salida = Path(src), Path(salida)
+    ff = _ffmpeg()
+    cmd = [ff, "-y", "-i", str(src), "-vn", "-ac", "1", "-ar", "16000",
+           "-b:a", "64k", str(salida)]
+    _run_ffmpeg(cmd, "extraer audio")
+    logger.info(f"Audio extraído: {salida}")
+    return salida
+
+
 def build_slideshow(imagenes, salida, *, seg: float = 3.5, fade: float = 0.6, fps: int = 30) -> Path:
     """imagenes: lista de Paths (cada una una placa 9:16). Devuelve el .mp4."""
     imgs = [str(p) for p in imagenes]
