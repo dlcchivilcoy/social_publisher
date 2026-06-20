@@ -5,8 +5,9 @@ publicar: {volanta, titulo, texto, resumen}. Usa la API REST de Gemini directame
 con `requests` (sin SDK extra) y fuerza salida JSON estricta con response_schema.
 
 Clave: GEMINI_API_KEY (gratis, Google AI Studio). Modelo configurable con GEMINI_MODEL
-(por defecto gemini-2.0-flash, free tier). El audio va inline en base64: para clips de
-unos minutos en mono 16 kHz pesa muy poco (~1 MB/min), bien por debajo del límite.
+(por defecto gemini-2.5-flash, free tier; OJO: gemini-2.0-flash ya no tiene cuota
+gratis — devuelve 429 limit:0). El audio va inline en base64: para clips de unos
+minutos en mono 16 kHz pesa muy poco (~1 MB/min), bien por debajo del límite.
 """
 import base64
 import json
@@ -69,7 +70,7 @@ def transcribe_to_nota(media_path: Path) -> dict:
     api_key = get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
-    model = get("GEMINI_MODEL") or "gemini-2.0-flash"
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
 
     data_b64 = base64.b64encode(media_path.read_bytes()).decode("ascii")
     payload = {
