@@ -50,15 +50,9 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
         logger.info("Las historias de tapa+farmacias de hoy ya se publicaron. Se omite.")
         return
 
-    # 1) Tapa (imagen más nueva de TAPA_FOLDER)
-    folder = Path(get("TAPA_FOLDER") or tapa_mod.DEFAULT_FOLDER)
-    tapa_img = tapa_mod._resolver_tapa(folder)
-    if not tapa_img:
-        logger.error(f"No hay imagen de tapa en {folder}. No se publican las historias.")
-        return
-    logger.info(f"Tapa: {tapa_img.name}")
+    es_finde = hoy.weekday() >= 5  # 5=sábado, 6=domingo
 
-    # 2) Farmacias de hoy (imagen de historia + datos)
+    # 1) Farmacias de hoy (SIEMPRE, también fin de semana: hay farmacia de turno).
     feed_farm, story_farm, lineas_cap, nombres, es_cambio = farm.farmacias_feed_de_hoy(hoy)
     if not story_farm:
         logger.error(f"Sin datos de farmacias: {lineas_cap}. No se publican las historias.")
@@ -66,10 +60,21 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
     logger.info(f"Farmacias: {', '.join(nombres)}")
 
     fecha = farm._fecha_larga(hoy).capitalize()
+    historias = []
 
-    # SOLO HISTORIAS (el posteo/carrusel al feed quedó anulado): tapa + farmacias.
-    story_tapa = compose_tapa_story(tapa_img, fecha)
-    historias = [("tapa", story_tapa), ("farmacias", story_farm)]
+    # 2) Tapa SOLO de lunes a viernes (sáb/dom no hay edición → desactivada).
+    if not es_finde:
+        folder = Path(get("TAPA_FOLDER") or tapa_mod.DEFAULT_FOLDER)
+        tapa_img = tapa_mod._resolver_tapa(folder)
+        if tapa_img:
+            logger.info(f"Tapa: {tapa_img.name}")
+            historias.append(("tapa", compose_tapa_story(tapa_img, fecha)))
+        else:
+            logger.warning(f"No hay imagen de tapa en {folder}; se publica solo farmacias.")
+    else:
+        logger.info("Fin de semana: no se publica la tapa (solo farmacias).")
+
+    historias.append(("farmacias", story_farm))
 
     if dry_run:
         logger.info(f"[dry-run] historias {[n for n, _ in historias]} "

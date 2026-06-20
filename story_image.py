@@ -932,34 +932,22 @@ def compose_reel_slide(photo_path: Path, titular: str, resumen: str, rank: int, 
 
     x, max_w = MARGIN, W - 2 * MARGIN
 
-    # Reservar de ABAJO hacia arriba: lecturas → resumen (5 líneas) → titular.
+    # Lecturas reservadas abajo (solo si hay vistas > 0).
     views_h = 70 if (views and views > 0) else 0
-    views_top = (H - 70) - views_h
+    views_top = (H - 80) - views_h
 
-    f_res = _font(40, bold=False)
-    res_lines = _resumen_lineas(draw, resumen, f_res, max_w, 5) if resumen else []
-    res_lh = _line_h(f_res, "Ay") + 12
-    res_h = len(res_lines) * res_lh
-    res_top = views_top - (res_h + (26 if res_lines else 0))
-
-    titular_box_h = 440
-    titular_box_top = (res_top - 12) - titular_box_h
-
-    photo_top = 300
-    photo_h = max(340, (titular_box_top - 28) - photo_top)
+    photo_top, photo_h = 300, 980
     try:
         canvas.paste(_fit_blur(Image.open(photo_path), W, photo_h), (0, photo_top))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del reel: {e}")
 
-    # Titular COMPLETO, lo más grande que entre, centrado (min bajo para que el
-    # título entero entre aunque sea largo, sin recortar con '…').
+    # SIN descripción: el TITULAR COMPLETO ocupa todo el espacio entre la foto y las
+    # lecturas. Caja grande + min_size bajo garantizan que entre entero (sin '…').
+    titular_box_top = photo_top + photo_h + 30
+    titular_box_h = max(300, (views_top - 24) - titular_box_top)
     _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT,
-                       max_size=86, min_size=34, center=True)
-
-    # Resumen: hasta 5 líneas, centrado, sin puntos suspensivos.
-    if res_lines:
-        _texto_centrado(draw, res_lines, f_res, res_top, GRAY, gap=12)
+                       max_size=98, min_size=38, center=True)
 
     if views and views > 0:
         _texto_centrado(draw, [f"{views:,}".replace(",", ".") + " lecturas"], _font(34, bold=True), views_top, ACCENT)

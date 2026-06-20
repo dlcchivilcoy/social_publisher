@@ -125,6 +125,10 @@ def run_reel(dry_run: bool = False) -> None:
     hoy = date.today()
     logger.info(f"=== Reel '5 más leídas' [{modo}] — {hoy.isoformat()} ===")
 
+    if not dry_run and hoy.weekday() >= 5:  # 5=sábado, 6=domingo
+        logger.info("Fin de semana: el reel NO se publica (sáb/dom desactivado).")
+        return
+
     if not dry_run and _ya_publicado_hoy():
         logger.info("El reel de hoy ya se publicó. Nada que hacer.")
         return

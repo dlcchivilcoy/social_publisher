@@ -144,6 +144,10 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     hoy = date.today()
     logger.info(f"=== Carrusel de notas [{modo}] — {hoy.isoformat()} — carpeta: {posts_folder} ===")
 
+    if not dry_run and hoy.weekday() >= 5:  # 5=sábado, 6=domingo
+        logger.info("Fin de semana: el carrusel de notas NO se publica (sáb/dom desactivado).")
+        return
+
     notes = _find_notes(posts_folder)
     if not notes:
         logger.info("No se encontraron notas para el carrusel.")
