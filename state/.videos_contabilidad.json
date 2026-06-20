@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "file": "operativo.mp4",
+    "uploader": "dlc.chivilcoy@gmail.com",
+    "fecha_recibido": "2026-06-20T19:56:18",
+    "volanta": "Solo música dramática",
+    "titulo": "Audio misterioso sin contenido noticioso para Chivilcoy",
+    "resumen": "Un audio enviado al Diario La Campaña contenía solo música dramática, sin información noticiosa explícita. La redacción no pudo extraer datos, nombres ni cifras para una nota.",
+    "draft_id": "dca36548-daff-444d-904d-677fa867a4df",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel.mp4",
+    "estado": "borrador"
+  }
+]
