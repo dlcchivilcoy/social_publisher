@@ -1,16 +1,19 @@
 """Desgrabación periodística con Google Gemini (gratis, NO consume tokens de Claude).
 
-Toma el AUDIO extraído de un video (o el video mismo) y devuelve una nota lista para
-publicar: {volanta, titulo, texto, resumen}. Usa la API REST de Gemini directamente
-con `requests` (sin SDK extra) y fuerza salida JSON estricta con response_schema.
+Le manda a Gemini el VIDEO COMPLETO (no solo el audio) vía la Files API, así
+aprovecha TODO: lo que se habla, el texto en pantalla, los subtítulos y lo que se ve.
+Acepta además contexto extra: un texto y/o fotos que el colaborador anexe en la carpeta.
+
+Devuelve {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}:
+- hay_noticia: si pudo extraer info real para una nota.
+- mejor_momento_seg: el segundo del cuadro más representativo (para la foto de portada).
 
 Clave: GEMINI_API_KEY (gratis, Google AI Studio). Modelo configurable con GEMINI_MODEL
-(por defecto gemini-2.5-flash, free tier; OJO: gemini-2.0-flash ya no tiene cuota
-gratis — devuelve 429 limit:0). El audio va inline en base64: para clips de unos
-minutos en mono 16 kHz pesa muy poco (~1 MB/min), bien por debajo del límite.
+(por defecto gemini-2.5-flash; OJO: gemini-2.0-flash ya no tiene cuota gratis, 429 limit:0).
 """
 import base64
 import json
+import time
 from pathlib import Path
 
 import requests
@@ -20,40 +23,49 @@ from utils.logger import get_logger
 
 logger = get_logger("gemini")
 
-API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+API_BASE = "https://generativelanguage.googleapis.com/v1beta"
+UPLOAD_URL = "https://generativelanguage.googleapis.com/upload/v1beta/files"
 
-# Tipos MIME que Gemini acepta para audio/video, por extensión.
+_VIDEO_EXT = {".mp4", ".mov", ".webm", ".mkv", ".avi", ".m4v", ".mpg", ".mpeg"}
 _MIME = {
     ".mp3": "audio/mpeg", ".m4a": "audio/mp4", ".aac": "audio/aac",
     ".wav": "audio/wav", ".ogg": "audio/ogg", ".flac": "audio/flac",
     ".mp4": "video/mp4", ".mov": "video/quicktime", ".webm": "video/webm",
     ".mkv": "video/x-matroska", ".avi": "video/x-msvideo",
+    ".mpg": "video/mpeg", ".mpeg": "video/mpeg", ".m4v": "video/x-m4v",
+    ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp",
 }
 
-PROMPT = (
-    "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Te paso el "
-    "audio de un video que mandó un colaborador. Escuchalo y redactá UNA noticia "
-    "en español rioplatense (es-AR), en estilo periodístico, tercera persona, "
-    "fiel al contenido. NO inventes datos, nombres ni cifras que no estén en el "
-    "audio. Devolvé EXACTAMENTE estos campos:\n"
-    "- volanta: antetítulo corto (2 a 5 palabras), sin punto final.\n"
-    "- titulo: titular atractivo y claro (máx ~90 caracteres), sin punto final.\n"
-    "- texto: cuerpo de la nota en párrafos separados por una línea en blanco "
-    "(\\n\\n). Bien redactado, sin muletillas del habla.\n"
-    "- resumen: resumen breve para redes sociales, máximo 280 caracteres.\n"
-    "Si el audio no tiene contenido noticioso claro, igual hacé tu mejor esfuerzo "
-    "con lo que se entienda."
+PROMPT_BASE = (
+    "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Un colaborador "
+    "mandó un VIDEO (y a veces fotos y/o un texto con datos). Analizá TODO el material: "
+    "lo que se HABLA en el audio, el TEXTO que aparece en pantalla, los SUBTÍTULOS, lo "
+    "que se VE en las imágenes, y el texto/fotos de contexto si los hay. Con eso armá "
+    "UNA noticia en español rioplatense (es-AR), estilo periodístico, tercera persona, "
+    "fiel al material. NO inventes datos, nombres ni cifras que no estén en el material.\n"
+    "Devolvé EXACTAMENTE estos campos:\n"
+    "- hay_noticia: true si pudiste extraer información REAL y suficiente para una nota; "
+    "false si el material no alcanza (p.ej. solo música, imágenes sin datos, nada legible).\n"
+    "- volanta: antetítulo corto (2 a 5 palabras), sin punto final. Vacío si hay_noticia es false.\n"
+    "- titulo: titular atractivo y claro (máx ~90 caracteres), sin punto final. Vacío si false.\n"
+    "- texto: cuerpo de la nota en párrafos separados por una línea en blanco (\\n\\n). Vacío si false.\n"
+    "- resumen: resumen breve para redes, máximo 280 caracteres. Vacío si false.\n"
+    "- mejor_momento_seg: el SEGUNDO del video (número entero) con el cuadro más "
+    "representativo, llamativo o polémico, idealmente con TEXTO en pantalla que se entienda "
+    "de qué trata la nota. Si no lo podés determinar, devolvé 0.\n"
 )
 
 _SCHEMA = {
     "type": "object",
     "properties": {
+        "hay_noticia": {"type": "boolean"},
         "volanta": {"type": "string"},
         "titulo": {"type": "string"},
         "texto": {"type": "string"},
         "resumen": {"type": "string"},
+        "mejor_momento_seg": {"type": "number"},
     },
-    "required": ["volanta", "titulo", "texto", "resumen"],
+    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "mejor_momento_seg"],
 }
 
 
@@ -61,26 +73,97 @@ def _mime(path: Path) -> str:
     return _MIME.get(path.suffix.lower(), "application/octet-stream")
 
 
-def transcribe_to_nota(media_path: Path) -> dict:
-    """Desgraba `media_path` (audio o video) y devuelve {volanta, titulo, texto, resumen}.
+def _subir_archivo(path: Path, mime: str, key: str) -> dict:
+    """Sube un archivo grande (video) a la Files API de Gemini (subida reanudable).
+    Devuelve el recurso file {name, uri, state, ...}."""
+    n = path.stat().st_size
+    start = requests.post(
+        f"{UPLOAD_URL}?key={key}",
+        headers={
+            "X-Goog-Upload-Protocol": "resumable",
+            "X-Goog-Upload-Command": "start",
+            "X-Goog-Upload-Header-Content-Length": str(n),
+            "X-Goog-Upload-Header-Content-Type": mime,
+            "Content-Type": "application/json",
+        },
+        json={"file": {"display_name": path.name}},
+        timeout=60,
+    )
+    start.raise_for_status()
+    upload_url = start.headers.get("X-Goog-Upload-URL")
+    if not upload_url:
+        raise RuntimeError("Gemini Files: no devolvió URL de subida")
+    up = requests.post(
+        upload_url,
+        headers={"Content-Length": str(n), "X-Goog-Upload-Offset": "0",
+                 "X-Goog-Upload-Command": "upload, finalize"},
+        data=path.read_bytes(),
+        timeout=600,
+    )
+    up.raise_for_status()
+    return up.json()["file"]
 
-    Lanza RuntimeError si falla la API o ValueError si falta la clave.
+
+def _esperar_activo(file_name: str, key: str, timeout: int = 300) -> dict:
+    """Espera a que Gemini termine de procesar el video (state ACTIVE)."""
+    t0 = time.time()
+    while time.time() - t0 < timeout:
+        r = requests.get(f"{API_BASE}/{file_name}?key={key}", timeout=30)
+        r.raise_for_status()
+        data = r.json()
+        st = data.get("state")
+        if st == "ACTIVE":
+            return data
+        if st == "FAILED":
+            raise RuntimeError("Gemini Files: el procesamiento del video FALLÓ")
+        time.sleep(3)
+    raise RuntimeError("Gemini Files: timeout esperando que el video quede ACTIVE")
+
+
+def _img_part(path: Path) -> dict:
+    b64 = base64.b64encode(path.read_bytes()).decode("ascii")
+    return {"inline_data": {"mime_type": _mime(path), "data": b64}}
+
+
+def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> dict:
+    """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
+
+    extra_text: texto que aportó el colaborador (archivo de la carpeta).
+    image_paths: fotos anexadas (contexto). Devuelve dict con hay_noticia (bool),
+    volanta, titulo, texto, resumen y mejor_momento_seg (float, segundos).
     """
     media_path = Path(media_path)
-    api_key = get("GEMINI_API_KEY")
-    if not api_key:
+    key = get("GEMINI_API_KEY")
+    if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    mime = _mime(media_path)
 
-    data_b64 = base64.b64encode(media_path.read_bytes()).decode("ascii")
+    prompt = PROMPT_BASE
+    if (extra_text or "").strip():
+        prompt += ("\nDATOS/CONTEXTO que aportó el redactor (tenelo MUY en cuenta para la nota):\n"
+                   + extra_text.strip())
+
+    parts = [{"text": prompt}]
+    file_name = None
+    if media_path.suffix.lower() in _VIDEO_EXT:
+        logger.info(f"Gemini: subiendo video {media_path.name} ({media_path.stat().st_size//1024} KB) a la Files API…")
+        info = _subir_archivo(media_path, mime, key)
+        info = _esperar_activo(info["name"], key)
+        file_name = info["name"]
+        parts.append({"file_data": {"mime_type": mime, "file_uri": info["uri"]}})
+    else:  # audio u otro: inline base64
+        b64 = base64.b64encode(media_path.read_bytes()).decode("ascii")
+        parts.append({"inline_data": {"mime_type": mime, "data": b64}})
+
+    for img in (image_paths or [])[:3]:
+        try:
+            parts.append(_img_part(Path(img)))
+        except Exception as e:
+            logger.warning(f"No se pudo adjuntar la foto de contexto {img}: {e}")
+
     payload = {
-        "contents": [{
-            "role": "user",
-            "parts": [
-                {"text": PROMPT},
-                {"inline_data": {"mime_type": _mime(media_path), "data": data_b64}},
-            ],
-        }],
+        "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
             "temperature": 0.4,
             "response_mime_type": "application/json",
@@ -88,20 +171,37 @@ def transcribe_to_nota(media_path: Path) -> dict:
         },
     }
 
-    url = f"{API_BASE}/{model}:generateContent?key={api_key}"
-    logger.info(f"Gemini: desgrabando {media_path.name} con {model} ({len(data_b64)//1024} KB b64)…")
-    r = requests.post(url, json=payload, timeout=300)
-    if r.status_code >= 400:
-        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
+                f"{len(image_paths or [])} foto(s))…")
+    try:
+        r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={key}", json=payload, timeout=300)
+        if r.status_code >= 400:
+            raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        raw = json.loads(cand)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+    finally:
+        if file_name:  # borrar el archivo subido (best-effort)
+            try:
+                requests.delete(f"{API_BASE}/{file_name}?key={key}", timeout=30)
+            except Exception:
+                pass
 
     try:
-        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        nota = json.loads(cand)
-    except (KeyError, IndexError, json.JSONDecodeError) as e:
-        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e} — {r.text[:300]}")
-
-    nota = {k: (str(nota.get(k, "")).strip()) for k in ("volanta", "titulo", "texto", "resumen")}
-    if not nota["titulo"] and not nota["texto"]:
-        raise RuntimeError("Gemini no devolvió ni título ni texto.")
-    logger.info(f"Gemini OK: «{nota['volanta']} — {nota['titulo']}»")
+        momento = float(raw.get("mejor_momento_seg") or 0)
+    except (TypeError, ValueError):
+        momento = 0.0
+    nota = {
+        "hay_noticia": bool(raw.get("hay_noticia")),
+        "volanta": str(raw.get("volanta", "")).strip(),
+        "titulo": str(raw.get("titulo", "")).strip(),
+        "texto": str(raw.get("texto", "")).strip(),
+        "resumen": str(raw.get("resumen", "")).strip(),
+        "mejor_momento_seg": max(0.0, momento),
+    }
+    if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
+        nota["hay_noticia"] = False
+    logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
+                f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
     return nota

@@ -33,12 +33,13 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
         raise RuntimeError(f"ffmpeg error: {paso}")
 
 
-def to_vertical_reel(src, salida, *, audio: bool = True) -> Path:
+def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None) -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
     sí mismo (misma estética que las historias, story_image._fit_blur). Mantiene el
-    audio por defecto. Devuelve el .mp4 de salida.
+    audio por defecto. Si se pasa `max_seconds`, recorta el reel a esa duración
+    (ej. 60 para los reels sin desgrabar). Devuelve el .mp4 de salida.
     """
     src, salida = Path(src), Path(salida)
     ff = _ffmpeg()
@@ -57,10 +58,31 @@ def to_vertical_reel(src, salida, *, audio: bool = True) -> Path:
         cmd += ["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"]
     else:
         cmd += ["-an"]
+    if max_seconds:
+        cmd += ["-t", str(float(max_seconds))]
     cmd += ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
     _run_ffmpeg(cmd, "reel vertical")
-    logger.info(f"Reel vertical armado: {salida}")
+    logger.info(f"Reel vertical armado: {salida}" + (f" (recortado a {max_seconds}s)" if max_seconds else ""))
     return salida
+
+
+def frame_at(src, seconds, salida) -> Path:
+    """Extrae el frame del video en el segundo indicado (el que Gemini marca como el
+    más representativo). Si falla o el segundo es 0, cae a best_frame(). Devuelve el .jpg."""
+    src, salida = Path(src), Path(salida)
+    seconds = max(0.0, float(seconds or 0))
+    if seconds <= 0:
+        return best_frame(src, salida)
+    ff = _ffmpeg()
+    cmd = [ff, "-y", "-ss", str(seconds), "-i", str(src), "-frames:v", "1", "-q:v", "2", str(salida)]
+    try:
+        _run_ffmpeg(cmd, f"frame en {seconds:.0f}s")
+        if salida.exists() and salida.stat().st_size > 0:
+            logger.info(f"Foto de portada extraída en {seconds:.0f}s: {salida}")
+            return salida
+    except Exception as e:
+        logger.warning(f"No se pudo extraer el frame en {seconds:.0f}s ({e}); uso best_frame.")
+    return best_frame(src, salida)
 
 
 def best_frame(src, salida) -> Path:

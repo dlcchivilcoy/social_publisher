@@ -64,15 +64,32 @@ function _esVideo(file) {
   return /\.(mp4|mov|mkv|avi|webm|m4v|mpg|mpeg)$/.test(n);
 }
 
-function _procesarCarpeta(folderId, vistosKey, hacerArgs) {
-  if (!folderId) return;
-  var folder = DriveApp.getFolderById(folderId);
+// Junta todos los videos de una carpeta Y sus subcarpetas (para soportar que el
+// colaborador mande una SUBCARPETA con video + fotos + texto). Saltea la subcarpeta
+// excludeId (la de APROBADAS, que se escanea por separado).
+function _recolectarVideos(folder, excludeId, acc) {
   var files = folder.getFiles();
-  var vistos = _vistos(vistosKey);
-  var ahora = new Date().getTime();
   while (files.hasNext()) {
     var f = files.next();
-    if (!_esVideo(f)) continue;
+    if (_esVideo(f)) acc.push(f);
+  }
+  var subs = folder.getFolders();
+  while (subs.hasNext()) {
+    var s = subs.next();
+    if (excludeId && s.getId() === excludeId) continue;
+    _recolectarVideos(s, excludeId, acc);
+  }
+  return acc;
+}
+
+function _procesarCarpeta(folderId, vistosKey, hacerArgs, excludeId) {
+  if (!folderId) return;
+  var folder = DriveApp.getFolderById(folderId);
+  var vids = _recolectarVideos(folder, excludeId, []);
+  var vistos = _vistos(vistosKey);
+  var ahora = new Date().getTime();
+  for (var i = 0; i < vids.length; i++) {
+    var f = vids[i];
     if (vistos.indexOf(f.getId()) !== -1) continue;
     // Esperar a que el archivo esté completo: ignorar lo modificado hace <30s.
     if (ahora - f.getLastUpdated().getTime() < 30000) continue;
@@ -84,12 +101,13 @@ function _procesarCarpeta(folderId, vistosKey, hacerArgs) {
 }
 
 function revisarNuevos() {
-  // Etapa 1: videos nuevos → desgrabar y armar borrador.
+  var aprobadasId = _prop('FOLDER_APROBADAS_ID');
+  // Etapa 1: videos nuevos (en la carpeta o en subcarpetas, menos APROBADAS) → desgrabar.
   _procesarCarpeta(_prop('FOLDER_NUEVOS_ID'), 'PROCESSED_NEW', function (name, email) {
     return '--transcribe-video --file "' + name + '" --uploader ' + (email || 'desconocido');
-  });
+  }, aprobadasId);
   // Etapa 2: videos movidos a APROBADAS → publicar.
-  _procesarCarpeta(_prop('FOLDER_APROBADAS_ID'), 'PROCESSED_APROBADAS', function (name, email) {
+  _procesarCarpeta(aprobadasId, 'PROCESSED_APROBADAS', function (name, email) {
     return '--publish-video --file "' + name + '"';
-  });
+  }, null);
 }

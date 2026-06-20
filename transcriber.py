@@ -1,29 +1,30 @@
 """Desgrabador audiovisual → nota web (Wix) + reel a Facebook e Instagram.
 
 Pensado para correr en la NUBE (GitHub Actions), disparado por un Google Apps Script
-cuando un colaborador sube un video a la carpeta de Drive «videos notas actualidad».
-NO usa tokens de Claude: la desgrabación + redacción la hace Gemini (gratis).
+cuando un colaborador sube un video (o una SUBCARPETA con video + fotos + texto) a la
+carpeta de Drive «videos notas actualidad». NO usa tokens de Claude: la desgrabación la
+hace Gemini (gratis), que recibe el VIDEO COMPLETO (audio + texto en pantalla + subtítulos
++ imágenes) más el contexto adjunto.
 
 Dos etapas (flujo CON revisión):
 
-  ETAPA 1 — `run_transcribe_video(file, uploader)`  (al subir el video):
-    1. extrae el audio del video
-    2. Gemini desgraba → {volanta, titulo, texto, resumen}
-    3. saca el frame más representativo = foto de portada
-    4. arma el reel vertical 9:16 y lo sube a un GitHub Release (URL pública)
-    5. crea la nota como BORRADOR en Wix (foto de portada + video nativo embebido)
-    6. registra la fila de contabilidad (.videos_contabilidad.json)
-    7. avisa por mail al diario con el dato para revisar/aprobar
+  ETAPA 1 — `run_transcribe_video(file, uploader)`  (al subir):
+    1. junta los adjuntos de la subcarpeta (fotos + texto) como contexto
+    2. Gemini desgraba el video → {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}
+    3. saca la foto de portada en el segundo más representativo que indica Gemini
+    4. arma el reel vertical 9:16 (si no hay noticia, recortado a 1 min) y lo sube a un Release
+    5. SI HAY NOTICIA: crea la nota como BORRADOR en Wix (foto + video nativo) y avisa
+       SI NO HAY: NO crea nota web; deja listo solo el reel y avisa para decidir
+    6. registra la fila de contabilidad
 
-  ETAPA 2 — `run_publish_video(file)`  (cuando el editor mueve el video a APROBADAS):
-    1. publica el borrador de Wix
-    2. postea el reel a Facebook (video) e Instagram (reel) con el resumen de caption
-    3. marca la fila de contabilidad como publicada
+  ETAPA 2 — `run_publish_video(file)`  (al mover el video a APROBADAS):
+    - Con noticia: publica la nota web + reel a FB/IG con el resumen de caption.
+    - Sin noticia: la web queda SUSPENDIDA; sale SOLO el reel (sin texto).
 """
 import json
+import re
 import smtplib
 import ssl
-import tempfile
 from datetime import datetime
 from email.message import EmailMessage
 from email.utils import formataddr
@@ -36,13 +37,16 @@ from utils.config import get
 from utils.gemini import transcribe_to_nota
 from utils.logger import get_logger
 from utils.video_host import upload_reel
-from video import best_frame, extract_audio, to_vertical_reel
+from video import frame_at, to_vertical_reel
 
 logger = get_logger("transcriber")
 
 LEDGER = Path(__file__).parent / ".videos_contabilidad.json"
 WORK_DIR = Path(__file__).parent / "videos_preview"
 VIDEO_EXTS = {".mp4", ".mov", ".mkv", ".avi", ".webm", ".m4v", ".mpg", ".mpeg"}
+IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+TEXT_EXTS = {".txt", ".md", ".docx"}
+REEL_MAX_SIN_NOTICIA = 60  # segundos: tope del reel cuando no se pudo desgrabar
 
 
 # ── Helpers de entorno ────────────────────────────────────────────────────────
@@ -60,7 +64,8 @@ def _videos_folder() -> Path:
 
 
 def _find_video(name: str) -> Path | None:
-    """Ubica el video bajado de Drive por nombre; si no, agarra el más nuevo."""
+    """Ubica el video bajado de Drive por nombre (en la raíz o en una subcarpeta);
+    si no, agarra el más nuevo."""
     folder = _videos_folder()
     if not folder.exists():
         return None
@@ -73,6 +78,48 @@ def _find_video(name: str) -> Path | None:
                 return p
     vids = [p for p in folder.rglob("*") if p.is_file() and p.suffix.lower() in VIDEO_EXTS]
     return max(vids, key=lambda p: p.stat().st_mtime) if vids else None
+
+
+def _slug(s: str) -> str:
+    s = re.sub(r"[^a-zA-Z0-9]+", "-", (s or "")).strip("-").lower()
+    return s[:40] or "reel"
+
+
+# ── Adjuntos de la subcarpeta (fotos + texto de contexto) ─────────────────────
+def _leer_texto(path: Path) -> str:
+    try:
+        if path.suffix.lower() == ".docx":
+            from docx import Document
+            return "\n".join(p.text for p in Document(str(path)).paragraphs if p.text.strip())
+        return path.read_text(encoding="utf-8-sig", errors="ignore")
+    except Exception as e:
+        logger.warning(f"No se pudo leer el contexto {path.name}: {e}")
+        return ""
+
+
+def _recolectar_adjuntos(video: Path) -> tuple[str, list[Path]]:
+    """Si el video está en una SUBCARPETA (no en la raíz de videos/), junta las fotos y
+    textos hermanos como contexto. En la raíz no junta nada (evita mezclar notas)."""
+    folder = video.parent
+    try:
+        if folder.resolve() == _videos_folder().resolve():
+            return "", []
+    except Exception:
+        return "", []
+    textos, imgs = [], []
+    for p in sorted(folder.iterdir()):
+        if not p.is_file() or p == video:
+            continue
+        ext = p.suffix.lower()
+        if ext in TEXT_EXTS:
+            t = _leer_texto(p)
+            if t.strip():
+                textos.append(t.strip())
+        elif ext in IMAGE_EXTS:
+            imgs.append(p)
+    if textos or imgs:
+        logger.info(f"Adjuntos en «{folder.name}»: {len(textos)} texto(s), {len(imgs)} foto(s)")
+    return "\n\n".join(textos), imgs
 
 
 # ── Ledger de contabilidad ────────────────────────────────────────────────────
@@ -131,7 +178,7 @@ def _descargar(url: str, destino: Path) -> Path:
     return destino
 
 
-# ── ETAPA 1: preparar borrador ────────────────────────────────────────────────
+# ── ETAPA 1: preparar ─────────────────────────────────────────────────────────
 def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
     logger.info(f"=== Desgrabar video [{modo}] — file='{file}' uploader='{uploader}' ===")
@@ -144,60 +191,79 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
 
     rows = _leer_ledger()
     fila = _buscar_fila(rows, video.name)
-    if not dry_run and fila and fila.get("estado") in ("borrador", "publicado"):
+    YA = ("borrador", "solo_reel", "publicado", "publicado_solo_reel")
+    if not dry_run and fila and fila.get("estado") in YA:
         logger.info(f"El video '{video.name}' ya fue procesado (estado={fila['estado']}). Nada que hacer.")
         return
 
     WORK_DIR.mkdir(exist_ok=True)
-    audio = extract_audio(video, WORK_DIR / "audio.mp3")
-    nota = transcribe_to_nota(audio)
+    extra_text, imgs = _recolectar_adjuntos(video)
+    nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs)
 
-    cover = best_frame(video, WORK_DIR / "portada.jpg")
-    reel = to_vertical_reel(video, WORK_DIR / "reel.mp4")
-
+    hay = nota["hay_noticia"]
     volanta, titulo = nota["volanta"], nota["titulo"]
     texto, resumen = nota["texto"], nota["resumen"]
-    title = f"{volanta} — {titulo}" if volanta else titulo
-    body = titulo + ("\n\n" + texto if texto else "")
+
+    cover = frame_at(video, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
+    reel_path = WORK_DIR / f"reel_{_slug(video.stem)}.mp4"
+    if hay:
+        reel = to_vertical_reel(video, reel_path)
+    else:
+        reel = to_vertical_reel(video, reel_path, max_seconds=REEL_MAX_SIN_NOTICIA)
 
     if dry_run:
-        logger.info(f"[dry-run] Nota:\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"
+        logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"
                     f"  RESUMEN: {resumen}\n  TEXTO:\n{texto}")
         logger.info(f"[dry-run] Portada: {cover}  Reel: {reel}")
         logger.info("=== Desgrabar video: fin (dry-run) ===")
         return
 
-    # Subir el reel a una URL pública (la usa Instagram y también Wix para el video nativo).
     reel_url = upload_reel(reel)
 
-    # Crear la nota como BORRADOR (sin publicar) con foto + video nativo.
-    info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=reel_url)
-    draft_id = info["draft_id"]
+    draft_id = ""
+    if hay:
+        title = f"{volanta} — {titulo}" if volanta else titulo
+        body = titulo + ("\n\n" + texto if texto else "")
+        info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=reel_url)
+        draft_id = info["draft_id"]
+        estado = "borrador"
+    else:
+        estado = "solo_reel"
 
-    # Registrar la fila de contabilidad.
     if fila is None:
         fila = {"file": video.name}
         rows.append(fila)
     fila.update({
         "uploader": uploader or fila.get("uploader", ""),
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
-        "volanta": volanta, "titulo": titulo, "resumen": resumen,
-        "draft_id": draft_id, "reel_url": reel_url, "estado": "borrador",
+        "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
+        "draft_id": draft_id, "reel_url": reel_url, "estado": estado,
     })
     _guardar_ledger(rows)
-    logger.info(f"Borrador creado y registrado (draft_id={draft_id}).")
+    logger.info(f"Registrado (estado={estado}, draft_id={draft_id or '—'}).")
 
-    # Avisar al diario para revisar/aprobar.
-    cuerpo = (
-        f"Llegó un video para revisar: «{titulo}»\n"
-        f"Enviado por: {uploader or 'desconocido'}\n\n"
-        f"VOLANTA: {volanta}\nTÍTULO: {titulo}\n\nRESUMEN: {resumen}\n\n"
-        f"Está cargado como BORRADOR en Wix (Blog → Borradores) con la foto de portada y el video.\n\n"
-        f"➡️ Para PUBLICARLO en la web y mandar el reel a Facebook e Instagram, "
-        f"mové el video «{video.name}» a la subcarpeta APROBADAS dentro de "
-        f"«videos notas actualidad» en Google Drive."
-    )
-    _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo)
+    if hay:
+        cuerpo = (
+            f"Llegó un video para revisar: «{titulo}»\n"
+            f"Enviado por: {uploader or 'desconocido'}\n\n"
+            f"VOLANTA: {volanta}\nTÍTULO: {titulo}\n\nRESUMEN: {resumen}\n\n"
+            f"Está cargado como BORRADOR en Wix (Blog → Borradores) con la foto de portada y el video.\n\n"
+            f"➡️ Para PUBLICARLO en la web y mandar el reel a Facebook e Instagram, "
+            f"mové el video «{video.name}» a la subcarpeta APROBADAS dentro de «videos notas actualidad»."
+        )
+        _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo)
+    else:
+        cuerpo = (
+            f"Llegó un video pero NO pude desgrabarlo: «{video.name}»\n"
+            f"Enviado por: {uploader or 'desconocido'}\n\n"
+            f"No encontré información suficiente (ni en el audio, ni en el texto en pantalla, ni en "
+            f"subtítulos o adjuntos) para armar la nota. Por eso la NOTA WEB queda SUSPENDIDA.\n\n"
+            f"➡️ Si querés que igual SALGA EL REEL (recortado a 1 minuto, sin texto) a Facebook e "
+            f"Instagram, mové el video «{video.name}» a la subcarpeta APROBADAS.\n"
+            f"➡️ Si no, borralo. (Tip: podés re-subirlo en una subcarpeta con un .txt o fotos de "
+            f"contexto para que pueda armar la nota.)"
+        )
+        _enviar_aviso(f"Video sin desgrabar: {video.name}", cuerpo)
     logger.info("=== Desgrabar video: fin ===")
 
 
@@ -216,41 +282,44 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     logger.info(f"=== Publicar video aprobado [{modo}] — file='{file}' ===")
 
     rows = _leer_ledger()
-    # Buscar por nombre exacto; si no, la última fila en estado borrador.
     fila = _buscar_fila(rows, file) if file else None
     if fila is None:
-        borradores = [r for r in rows if r.get("estado") == "borrador"]
-        fila = borradores[-1] if borradores else None
+        pendientes = [r for r in rows if r.get("estado") in ("borrador", "solo_reel")]
+        fila = pendientes[-1] if pendientes else None
     if fila is None:
-        logger.error(f"No hay un borrador pendiente para '{file}'. Nada que publicar.")
+        logger.error(f"No hay nada pendiente para '{file}'. Nada que publicar.")
         return
-    if fila.get("estado") == "publicado":
+    if fila.get("estado") in ("publicado", "publicado_solo_reel"):
         logger.info(f"El video '{fila['file']}' ya estaba publicado. Nada que hacer.")
         return
 
+    hay = fila.get("hay_noticia", True)
     draft_id = fila.get("draft_id")
     reel_url = fila.get("reel_url")
     titulo = fila.get("titulo", "")
     resumen = fila.get("resumen", "")
-    caption = _caption(titulo, resumen)
+    caption = _caption(titulo, resumen) if hay else ""
 
     if dry_run:
-        logger.info(f"[dry-run] Publicaría draft={draft_id} + reel={reel_url}\nCaption:\n{caption}")
+        logger.info(f"[dry-run] hay_noticia={hay}. Publicaría draft={draft_id or '—'} + reel={reel_url}\n"
+                    f"Caption:\n{caption or '(sin texto)'}")
         return
 
-    # 1) Publicar la nota en la web.
+    # 1) Nota web (solo si hay noticia).
     post_url = ""
-    try:
-        res = wix.publicar_borrador(draft_id)
-        post_url = res.get("url", "")
-        logger.info(f"[wix] nota publicada: {post_url}")
-    except Exception as e:
-        logger.error(f"[wix] no se pudo publicar el borrador: {e}")
+    if hay and draft_id:
+        try:
+            res = wix.publicar_borrador(draft_id)
+            post_url = res.get("url", "")
+            logger.info(f"[wix] nota publicada: {post_url}")
+        except Exception as e:
+            logger.error(f"[wix] no se pudo publicar el borrador: {e}")
+    else:
+        logger.info("Sin desgrabación: la nota web queda SUSPENDIDA, sale solo el reel (sin texto).")
 
-    # 2) Reel a las redes. Instagram baja el mp4 de la URL; Facebook necesita el archivo.
+    # 2) Reel a las redes (con caption si hay noticia; vacío si no).
     plats = _platforms()
     algun_ok = False
-
     if "instagram" in plats and reel_url:
         try:
             instagram.publish_reel(reel_url, caption)
@@ -258,7 +327,6 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
             logger.info("[instagram] reel OK")
         except Exception as e:
             logger.error(f"[instagram] reel FALLÓ: {e}")
-
     if "facebook" in plats and reel_url:
         try:
             WORK_DIR.mkdir(exist_ok=True)
@@ -269,16 +337,15 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         except Exception as e:
             logger.error(f"[facebook] video FALLÓ: {e}")
 
-    # 3) Marcar como publicado.
     fila.update({
-        "estado": "publicado",
+        "estado": "publicado" if hay else "publicado_solo_reel",
         "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
         "post_url": post_url,
     })
     _guardar_ledger(rows)
 
     if algun_ok or post_url:
-        logger.info("Video publicado (web y/o redes) y registrado.")
+        logger.info("Publicado (web y/o reel) y registrado.")
     else:
         logger.error("No se pudo publicar en ninguna parte — revisar credenciales.")
     logger.info("=== Publicar video aprobado: fin ===")
