@@ -86,10 +86,10 @@ function _procesarCarpeta(folderId, vistosKey, hacerArgs) {
 function revisarNuevos() {
   // Etapa 1: videos nuevos → desgrabar y armar borrador.
   _procesarCarpeta(_prop('FOLDER_NUEVOS_ID'), 'PROCESSED_NEW', function (name, email) {
-    return '--transcribe-video --file ' + name + ' --uploader ' + (email || 'desconocido');
+    return '--transcribe-video --file "' + name + '" --uploader ' + (email || 'desconocido');
   });
   // Etapa 2: videos movidos a APROBADAS → publicar.
   _procesarCarpeta(_prop('FOLDER_APROBADAS_ID'), 'PROCESSED_APROBADAS', function (name, email) {
-    return '--publish-video --file ' + name;
+    return '--publish-video --file "' + name + '"';
   });
 }
