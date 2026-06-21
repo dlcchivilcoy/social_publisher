@@ -28,7 +28,9 @@ import ssl
 from datetime import datetime
 from email.message import EmailMessage
 from email.utils import formataddr
+from html import escape as _hesc
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -144,8 +146,33 @@ def _buscar_fila(rows: list[dict], file: str) -> dict | None:
 
 
 # ── Aviso por mail ────────────────────────────────────────────────────────────
-def _enviar_aviso(asunto: str, cuerpo: str) -> None:
-    """Manda un mail simple al diario (reusa el SMTP del mailer). Best-effort."""
+def _boton(url: str, texto: str, color: str = "#e2620c") -> str:
+    return (f'<a href="{url}" style="display:inline-block;background:{color};color:#fff;'
+            f'text-decoration:none;padding:12px 20px;border-radius:6px;font-family:Arial;'
+            f'font-size:16px;margin:6px 6px 6px 0">{texto}</a>')
+
+
+def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: bool) -> str:
+    """Arma el cuerpo HTML del aviso con los botones (si hay APPROVE_WEBAPP_URL)."""
+    webapp = get("APPROVE_WEBAPP_URL")
+    botones = ""
+    if webapp:
+        botones += _boton(f"{webapp}?action=approve&name={quote(name)}", "✅ Aprobar y publicar")
+        if reel_url:
+            botones += _boton(reel_url, "👁️ Previsualizar video", color="#444")
+        if hay and draft_id:
+            botones += _boton(f"{webapp}?action=edit&draft={draft_id}", "✏️ Corregir texto", color="#444")
+    elif reel_url:
+        botones += _boton(reel_url, "👁️ Ver el reel", color="#444")
+    return (f'<div style="font-family:Arial;max-width:600px;color:#222;font-size:16px">'
+            f'{intro_html}<div style="margin:22px 0">{botones}</div>'
+            f'<p style="color:#777;font-size:13px">Si no ves los botones, aprobá moviendo el '
+            f'video a la subcarpeta APROBADAS en Drive.</p></div>')
+
+
+def _enviar_aviso(asunto: str, cuerpo: str, html: str | None = None) -> None:
+    """Manda un mail al diario (reusa el SMTP del mailer). Best-effort. Si se pasa `html`,
+    va como alternativa HTML (con botones)."""
     remitente = get("MAIL_FROM")
     password = get("MAIL_APP_PASSWORD")
     destino = get("VIDEOS_NOTIFY_EMAIL") or remitente
@@ -160,6 +187,8 @@ def _enviar_aviso(asunto: str, cuerpo: str) -> None:
     msg["To"] = destino
     msg["Subject"] = asunto
     msg.set_content(cuerpo)
+    if html:
+        msg.add_alternative(html, subtype="html")
     try:
         ctx = ssl.create_default_context()
         with smtplib.SMTP(host, port, timeout=60) as server:
@@ -269,7 +298,13 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             f"➡️ Para PUBLICARLO en la web y mandar el reel a Facebook e Instagram, "
             f"mové el video «{video.name}» a la subcarpeta APROBADAS dentro de «videos notas actualidad»."
         )
-        _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo)
+        intro = (f"<h2 style='color:#e2620c'>Nota por revisar</h2>"
+                 f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · enviado por {_hesc(uploader or 'desconocido')}</p>"
+                 f"<p style='font-size:19px'><b>{_hesc(titulo)}</b></p>"
+                 f"<p>{_hesc(resumen)}</p>"
+                 f"<p>Está como <b>borrador en Wix</b> con foto + video. Revisalo y:</p>")
+        _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo,
+                      html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
     else:
         cuerpo = (
             f"Llegó un video pero NO pude desgrabarlo: «{video.name}»\n"
@@ -281,7 +316,12 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             f"➡️ Si no, borralo. (Tip: podés re-subirlo en una subcarpeta con un .txt o fotos de "
             f"contexto para que pueda armar la nota.)"
         )
-        _enviar_aviso(f"Video sin desgrabar: {video.name}", cuerpo)
+        intro = (f"<h2 style='color:#e2620c'>Video sin desgrabar</h2>"
+                 f"<p>No pude armar la nota de «{_hesc(video.name)}» (no había info suficiente). "
+                 f"La <b>nota web queda suspendida</b>.</p>"
+                 f"<p>Si querés que igual salga <b>solo el reel</b> (1 min, sin texto):</p>")
+        _enviar_aviso(f"Video sin desgrabar: {video.name}", cuerpo,
+                      html=_html_aviso(intro, video.name, reel_url, "", hay=False))
     logger.info("=== Desgrabar video: fin ===")
 
 
