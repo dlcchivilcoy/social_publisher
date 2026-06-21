@@ -53,6 +53,10 @@ PROMPT_BASE = (
     "- mejor_momento_seg: el SEGUNDO del video (número entero) con el cuadro más "
     "representativo, llamativo o polémico, idealmente con TEXTO en pantalla que se entienda "
     "de qué trata la nota. Si no lo podés determinar, devolvé 0.\n"
+    "- segmentos_destacados: SOLO si el video dura MÁS de 60 segundos, una lista de tramos "
+    "{inicio, fin} (en segundos) con las MEJORES partes para entender la noticia, en orden "
+    "cronológico, que SUMADAS no superen 60 segundos. Si el video dura 60s o menos, devolvé "
+    "una lista vacía [].\n"
 )
 
 _SCHEMA = {
@@ -64,8 +68,17 @@ _SCHEMA = {
         "texto": {"type": "string"},
         "resumen": {"type": "string"},
         "mejor_momento_seg": {"type": "number"},
+        "segmentos_destacados": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"inicio": {"type": "number"}, "fin": {"type": "number"}},
+                "required": ["inicio", "fin"],
+            },
+        },
     },
-    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "mejor_momento_seg"],
+    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "mejor_momento_seg",
+                 "segmentos_destacados"],
 }
 
 
@@ -192,6 +205,14 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> di
         momento = float(raw.get("mejor_momento_seg") or 0)
     except (TypeError, ValueError):
         momento = 0.0
+    segmentos = []
+    for s in (raw.get("segmentos_destacados") or []):
+        try:
+            ini, fin = float(s.get("inicio")), float(s.get("fin"))
+            if fin > ini >= 0:
+                segmentos.append({"inicio": ini, "fin": fin})
+        except (TypeError, ValueError, AttributeError):
+            continue
     nota = {
         "hay_noticia": bool(raw.get("hay_noticia")),
         "volanta": str(raw.get("volanta", "")).strip(),
@@ -199,6 +220,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> di
         "texto": str(raw.get("texto", "")).strip(),
         "resumen": str(raw.get("resumen", "")).strip(),
         "mejor_momento_seg": max(0.0, momento),
+        "segmentos": segmentos,
     }
     if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
         nota["hay_noticia"] = False

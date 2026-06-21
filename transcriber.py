@@ -37,7 +37,7 @@ from utils.config import get
 from utils.gemini import transcribe_to_nota
 from utils.logger import get_logger
 from utils.video_host import upload_reel
-from video import frame_at, to_vertical_reel
+from video import best_parts_clip, duration_seconds, frame_at, remux_mp4, to_vertical_reel
 
 logger = get_logger("transcriber")
 
@@ -205,15 +205,26 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     texto, resumen = nota["texto"], nota["resumen"]
 
     cover = frame_at(video, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
-    reel_path = WORK_DIR / f"reel_{_slug(video.stem)}.mp4"
+    slug = _slug(video.stem)
+
+    # Reel para redes: si el original supera 1 min y Gemini marcó tramos, lo resume a las
+    # MEJORES PARTES (≤60s); si no, va entero. Sin noticia: recortado a 60s.
+    reel_path = WORK_DIR / f"reel_{slug}.mp4"
+    fuente_reel = video
     if hay:
-        reel = to_vertical_reel(video, reel_path)
+        dur = duration_seconds(video)
+        if dur > 60 and nota.get("segmentos"):
+            resumido = best_parts_clip(video, nota["segmentos"], WORK_DIR / f"resumen_{slug}.mp4", max_total=60)
+            if resumido:
+                fuente_reel = resumido
+                logger.info(f"Video de {dur:.0f}s resumido a las mejores partes para el reel (≤60s).")
+        reel = to_vertical_reel(fuente_reel, reel_path)
     else:
         reel = to_vertical_reel(video, reel_path, max_seconds=REEL_MAX_SIN_NOTICIA)
 
     if dry_run:
-        logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"
-                    f"  RESUMEN: {resumen}\n  TEXTO:\n{texto}")
+        logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
+                    f"  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n  RESUMEN: {resumen}\n  TEXTO:\n{texto}")
         logger.info(f"[dry-run] Portada: {cover}  Reel: {reel}")
         logger.info("=== Desgrabar video: fin (dry-run) ===")
         return
@@ -222,9 +233,16 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
 
     draft_id = ""
     if hay:
+        # La WEB lleva el video COMPLETO (no el reel recortado): se hostea aparte y se embebe.
+        web_video_url = reel_url
+        try:
+            full = remux_mp4(video, WORK_DIR / f"video_{slug}.mp4")
+            web_video_url = upload_reel(full)
+        except Exception as e:
+            logger.warning(f"No se pudo hostear el video completo para la web ({e}); uso el reel.")
         title = f"{volanta} — {titulo}" if volanta else titulo
         body = titulo + ("\n\n" + texto if texto else "")
-        info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=reel_url)
+        info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=web_video_url)
         draft_id = info["draft_id"]
         estado = "borrador"
     else:

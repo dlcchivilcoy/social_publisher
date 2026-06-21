@@ -1,6 +1,7 @@
 """Arma un video vertical (reel) 1080x1920 a partir de imágenes, con transiciones
 crossfade (xfade) entre placas, SIN audio. Usa el ffmpeg de imageio_ffmpeg (local)
 o el del sistema (en la nube)."""
+import re
 import subprocess
 from pathlib import Path
 
@@ -83,6 +84,81 @@ def frame_at(src, seconds, salida) -> Path:
     except Exception as e:
         logger.warning(f"No se pudo extraer el frame en {seconds:.0f}s ({e}); uso best_frame.")
     return best_frame(src, salida)
+
+
+def duration_seconds(src) -> float:
+    """Duración del video en segundos (parseando la salida de ffmpeg). 0 si no se puede."""
+    ff = _ffmpeg()
+    r = subprocess.run([ff, "-i", str(src)], capture_output=True, text=True)
+    m = re.search(r"Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)", r.stderr or "")
+    if not m:
+        return 0.0
+    h, mi, s = m.groups()
+    return int(h) * 3600 + int(mi) * 60 + float(s)
+
+
+def best_parts_clip(src, segmentos, salida, *, max_total: float = 60.0) -> Path | None:
+    """Recorta los tramos destacados (lista de {inicio,fin} en segundos) y los une en un
+    solo clip de COMO MÁXIMO `max_total` segundos, en orden. Devuelve el .mp4 unido, o
+    None si no hay tramos válidos. Pensado para resumir videos largos a las mejores partes."""
+    src, salida = Path(src), Path(salida)
+    ff = _ffmpeg()
+    dur = duration_seconds(src)
+    tmpdir = salida.parent
+    partes, total = [], 0.0
+    for i, seg in enumerate(segmentos or []):
+        ini = max(0.0, float(seg.get("inicio", 0)))
+        fin = float(seg.get("fin", 0))
+        if dur:
+            fin = min(fin, dur)
+        if total + (fin - ini) > max_total:
+            fin = ini + (max_total - total)  # recorta el último tramo para no pasar del tope
+        if fin <= ini:
+            continue
+        out = tmpdir / f"_seg{i}.mp4"
+        cmd = [ff, "-y", "-ss", str(ini), "-i", str(src), "-t", str(fin - ini),
+               "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-ar", "44100", str(out)]
+        try:
+            _run_ffmpeg(cmd, f"tramo {i}")
+            partes.append(out)
+            total += (fin - ini)
+        except Exception as e:
+            logger.warning(f"Tramo {i} omitido: {e}")
+        if total >= max_total:
+            break
+    if not partes:
+        return None
+    if len(partes) == 1:
+        partes[0].replace(salida)
+    else:
+        lista = tmpdir / "_concat.txt"
+        lista.write_text("".join(f"file '{p.name}'\n" for p in partes), encoding="utf-8")
+        cmd = [ff, "-y", "-f", "concat", "-safe", "0", "-i", str(lista), "-c", "copy", str(salida)]
+        try:
+            _run_ffmpeg(cmd, "unir tramos")
+        except Exception:
+            cmd = [ff, "-y", "-f", "concat", "-safe", "0", "-i", str(lista),
+                   "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", str(salida)]
+            _run_ffmpeg(cmd, "unir tramos (re-encode)")
+    logger.info(f"Clip de mejores partes: {salida} ({total:.0f}s, {len(partes)} tramo(s))")
+    return salida
+
+
+def remux_mp4(src, salida) -> Path:
+    """Asegura un .mp4 (para hostear el video COMPLETO de la web). Copia si ya es mp4;
+    si no, lo remuxea (o re-encodea como fallback)."""
+    src, salida = Path(src), Path(salida)
+    if src.suffix.lower() == ".mp4":
+        import shutil
+        shutil.copy(src, salida)
+        return salida
+    ff = _ffmpeg()
+    try:
+        _run_ffmpeg([ff, "-y", "-i", str(src), "-c", "copy", str(salida)], "remux mp4")
+    except Exception:
+        _run_ffmpeg([ff, "-y", "-i", str(src), "-c:v", "libx264", "-pix_fmt", "yuv420p",
+                     "-c:a", "aac", str(salida)], "re-encode mp4")
+    return salida
 
 
 def best_frame(src, salida) -> Path:
