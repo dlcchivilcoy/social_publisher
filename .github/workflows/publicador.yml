@@ -62,9 +62,16 @@ jobs:
       - name: Bajar la carpeta del dia desde Google Drive
         run: |
           mkdir -p diario
-          rclone sync "gdrive:Diario" diario
           # Asegura que las carpetas existan aunque esten vacias en Drive
           mkdir -p "diario/NOTAS AUTOMATICAS" "diario/DIARIO PDF"
+          # Los comandos de video (desgrabador) NO necesitan toda la carpeta Diario:
+          # saltear el sync pesado acelera esas corridas varios minutos.
+          ARGS="${{ github.event.inputs.args }}"
+          if echo "$ARGS" | grep -q -- "video"; then
+            echo "Comando de video: se saltea el sync completo de gdrive:Diario."
+          else
+            rclone sync "gdrive:Diario" diario
+          fi
 
       - name: Bajar videos de actualidad desde Google Drive (desgrabador)
         run: |
