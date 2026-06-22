@@ -116,7 +116,13 @@ def best_parts_clip(src, segmentos, salida, *, max_total: float = 60.0) -> Path 
         if fin <= ini:
             continue
         out = tmpdir / f"_seg{i}.mp4"
-        cmd = [ff, "-y", "-ss", str(ini), "-i", str(src), "-t", str(fin - ini),
+        d = fin - ini
+        fo = max(0.0, d - 0.3)  # fade-out: arranca 0.3s antes del final
+        vf = f"fade=t=in:st=0:d=0.3,fade=t=out:st={fo:.2f}:d=0.3"
+        af = f"afade=t=in:st=0:d=0.3,afade=t=out:st={fo:.2f}:d=0.3"
+        # -ss DESPUÉS de -i = corte preciso al frame (el tramo arranca/termina donde dijo Gemini).
+        cmd = [ff, "-y", "-i", str(src), "-ss", str(ini), "-t", str(d),
+               "-vf", vf, "-af", af,
                "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-ar", "44100", str(out)]
         try:
             _run_ffmpeg(cmd, f"tramo {i}")

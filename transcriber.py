@@ -155,13 +155,15 @@ def _boton(url: str, texto: str, color: str = "#e2620c") -> str:
 def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: bool) -> str:
     """Arma el cuerpo HTML del aviso con los botones (si hay APPROVE_WEBAPP_URL)."""
     webapp = get("APPROVE_WEBAPP_URL")
+    tok = get("WEBAPP_TOKEN")
+    t = f"&token={quote(tok)}" if tok else ""
     botones = ""
     if webapp:
-        botones += _boton(f"{webapp}?action=approve&name={quote(name)}", "✅ Aprobar y publicar")
+        botones += _boton(f"{webapp}?action=approve&name={quote(name)}{t}", "✅ Aprobar y publicar")
         if reel_url:
             botones += _boton(reel_url, "👁️ Previsualizar video", color="#444")
         if hay and draft_id:
-            botones += _boton(f"{webapp}?action=edit&draft={draft_id}", "✏️ Corregir texto", color="#444")
+            botones += _boton(f"{webapp}?action=edit&draft={draft_id}{t}", "✏️ Corregir texto", color="#444")
     elif reel_url:
         botones += _boton(reel_url, "👁️ Ver el reel", color="#444")
     return (f'<div style="font-family:Arial;max-width:600px;color:#222;font-size:16px">'

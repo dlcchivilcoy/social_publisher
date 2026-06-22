@@ -53,10 +53,13 @@ PROMPT_BASE = (
     "- mejor_momento_seg: el SEGUNDO del video (número entero) con el cuadro más "
     "representativo, llamativo o polémico, idealmente con TEXTO en pantalla que se entienda "
     "de qué trata la nota. Si no lo podés determinar, devolvé 0.\n"
-    "- segmentos_destacados: SOLO si el video dura MÁS de 60 segundos, una lista de tramos "
-    "{inicio, fin} (en segundos) con las MEJORES partes para entender la noticia, en orden "
-    "cronológico, que SUMADAS no superen 60 segundos. Si el video dura 60s o menos, devolvé "
-    "una lista vacía [].\n"
+    "- segmentos_destacados: SOLO si el video dura MÁS de 60 segundos. Elegí POCOS tramos "
+    "(1 a 3) {inicio, fin} en segundos con las mejores partes para entender la noticia. "
+    "REGLAS para que el corte quede BIEN HECHO: cada tramo debe EMPEZAR y TERMINAR en puntos "
+    "naturales (una pausa, el final de una frase o de una idea, un cambio de plano), NUNCA a "
+    "mitad de una palabra, frase o acción; cada tramo de al menos 8 segundos; en orden "
+    "cronológico y sin solaparse; juntos deben sumar entre 45 y 60 segundos y dejar clara la "
+    "noticia de principio a fin. Si el video dura 60s o menos, devolvé una lista vacía [].\n"
 )
 
 _SCHEMA = {
@@ -80,6 +83,65 @@ _SCHEMA = {
     "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "mejor_momento_seg",
                  "segmentos_destacados"],
 }
+
+
+SEO_PROMPT = (
+    "Sos el editor de «Radio del Centro» / «Diario La Campaña» de Chivilcoy (Argentina), "
+    "un medio LOCAL de noticias con canal de YouTube. Te paso el TÍTULO y la DESCRIPCIÓN "
+    "actuales de un video YA PUBLICADO. Reescribilos para que el algoritmo de YouTube los "
+    "muestre más y para que la gente haga clic, SIN inventar datos ni cambiar el tema del video.\n"
+    "Devolvé EXACTAMENTE estos campos:\n"
+    "- titulo: título atractivo y claro en español rioplatense, MÁXIMO 70 caracteres, con la "
+    "palabra clave principal al principio y mención local (Chivilcoy/la región) si corresponde. "
+    "Sin clickbait engañoso, sin MAYÚSCULAS sostenidas, sin punto final.\n"
+    "- descripcion: 2 a 4 frases con las palabras clave naturales (qué se ve y por qué importa), "
+    "más una llamada a la acción a la web www.diariolacampaña.com.ar y a suscribirse al canal. "
+    "Terminá con una línea de 3 a 6 hashtags relevantes (incluí #Chivilcoy).\n"
+    "- tags: lista de 8 a 12 etiquetas (palabras o frases cortas) para el campo Tags de YouTube, "
+    "en minúsculas, mezclando términos locales (chivilcoy, radio del centro) y temáticos del video.\n"
+)
+
+_SEO_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "titulo": {"type": "string"},
+        "descripcion": {"type": "string"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["titulo", "descripcion", "tags"],
+}
+
+
+def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
+    """Reescribe (texto puro, sin bajar el video) el título y la descripción de un
+    video de YouTube para SEO/algoritmo. Devuelve {titulo, descripcion, tags}."""
+    key = get("GEMINI_API_KEY")
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    prompt = (SEO_PROMPT + "\nTÍTULO ACTUAL:\n" + (titulo_actual or "(vacío)") +
+              "\n\nDESCRIPCIÓN ACTUAL:\n" + (descripcion_actual or "(vacía)"))
+    payload = {
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "temperature": 0.5,
+            "response_mime_type": "application/json",
+            "response_schema": _SEO_SCHEMA,
+        },
+    }
+    logger.info(f"Gemini SEO YouTube con {model} para «{(titulo_actual or '')[:50]}»…")
+    r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={key}", json=payload, timeout=120)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    try:
+        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        raw = json.loads(cand)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+    titulo = str(raw.get("titulo", "")).strip()[:100]  # YouTube tope duro 100 chars
+    descripcion = str(raw.get("descripcion", "")).strip()
+    tags = [str(t).strip() for t in (raw.get("tags") or []) if str(t).strip()][:15]
+    return {"titulo": titulo, "descripcion": descripcion, "tags": tags}
 
 
 def _mime(path: Path) -> str:

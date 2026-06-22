@@ -51,6 +51,7 @@ function _getDraft(id) {
 
 function doGet(e) {
   var p = (e && e.parameter) || {};
+  if (p.token !== _prop('WEBAPP_TOKEN')) return _html('Acceso no autorizado.');
   if (p.action === 'approve') {
     var name = p.name || '';
     var nuevos = DriveApp.getFolderById(_prop('FOLDER_NUEVOS_ID'));
@@ -77,6 +78,7 @@ function doGet(e) {
       + '<h2>Corregir la nota</h2>'
       + '<form method="post" action="">'
       + '<input type="hidden" name="draft" value="' + _esc(p.draft) + '">'
+      + '<input type="hidden" name="token" value="' + _esc(p.token) + '">'
       + '<b>Título</b><br><input name="title" style="width:100%;font-size:16px;padding:6px" value="' + _esc(d.title) + '"><br><br>'
       + '<b>Texto</b><br><textarea name="texto" style="width:100%;height:320px;font-size:15px;padding:6px">' + _esc(texto.trim()) + '</textarea><br><br>'
       + '<button type="submit" style="background:#e2620c;color:#fff;border:0;padding:12px 22px;font-size:16px;border-radius:6px;cursor:pointer">Guardar cambios</button>'
@@ -88,6 +90,7 @@ function doGet(e) {
 
 function doPost(e) {
   var p = (e && e.parameter) || {};
+  if (p.token !== _prop('WEBAPP_TOKEN')) return _html('Acceso no autorizado.');
   var d = _getDraft(p.draft || '');
   if (!d) return _html('⚠️ No encontré el borrador.');
   // Conserva la foto y el video; reemplaza solo los párrafos de texto.
