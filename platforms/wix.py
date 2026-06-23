@@ -317,7 +317,9 @@ def _nodo_video_youtube(url_or_id: str) -> dict:
 
 
 def _get_draft(headers: dict, draft_id: str) -> dict:
-    r = requests.get(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers, timeout=30)
+    # `fieldsets=RICH_CONTENT` es obligatorio: sin él, Wix NO devuelve el richContent.
+    r = requests.get(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers,
+                     params={"fieldsets": "RICH_CONTENT"}, timeout=30)
     _raise_for_status(r, "leer borrador")
     return r.json()["draftPost"]
 
