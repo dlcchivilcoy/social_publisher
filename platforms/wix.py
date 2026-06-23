@@ -270,6 +270,94 @@ def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
     return {"draft_id": draft_id, "file_id": file_id, "image_url": image_url}
 
 
+def _youtube_id(url_or_id: str) -> str:
+    """Saca el ID de 11 chars de cualquier forma de URL de YouTube (watch, youtu.be,
+    shorts, embed) o lo devuelve tal cual si ya es el ID."""
+    s = (url_or_id or "").strip()
+    m = re.search(r"(?:v=|youtu\.be/|/shorts/|/embed/)([0-9A-Za-z_-]{11})", s)
+    if m:
+        return m.group(1)
+    if re.fullmatch(r"[0-9A-Za-z_-]{11}", s):
+        return s
+    return s
+
+
+def _youtube_oembed(watch_url: str) -> dict:
+    """oEmbed de YouTube (best-effort) para sacar miniatura y dimensiones del player."""
+    try:
+        r = requests.get("https://www.youtube.com/oembed",
+                         params={"url": watch_url, "format": "json"}, timeout=20)
+        if r.status_code == 200:
+            return r.json()
+    except Exception as e:
+        logger.debug(f"oEmbed de YouTube falló: {e}")
+    return {}
+
+
+def _nodo_video_youtube(url_or_id: str) -> dict:
+    """Nodo VIDEO de Ricos para un video EXTERNO de YouTube (reproductor embebido,
+    responsive en móvil y escritorio). Usa la URL pública del video como `src.url`."""
+    vid = _youtube_id(url_or_id)
+    watch = f"https://www.youtube.com/watch?v={vid}"
+    oe = _youtube_oembed(watch)
+    video_data = {
+        "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER"},
+        "video": {"src": {"url": watch}},
+    }
+    thumb = oe.get("thumbnail_url") or f"https://img.youtube.com/vi/{vid}/hqdefault.jpg"
+    if thumb:
+        video_data["thumbnail"] = {"src": {"url": thumb}}
+        w, h = oe.get("thumbnail_width"), oe.get("thumbnail_height")
+        if w and h:
+            video_data["thumbnail"]["width"] = int(w)
+            video_data["thumbnail"]["height"] = int(h)
+    if oe.get("title"):
+        video_data["title"] = oe["title"][:100]
+    return {"type": "VIDEO", "id": f"yt-{vid}", "nodes": [], "videoData": video_data}
+
+
+def _get_draft(headers: dict, draft_id: str) -> dict:
+    # `fieldsets=RICH_CONTENT` es obligatorio: sin él, Wix NO devuelve el richContent.
+    r = requests.get(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers,
+                     params={"fieldsets": "RICH_CONTENT"}, timeout=30)
+    _raise_for_status(r, "leer borrador")
+    return r.json()["draftPost"]
+
+
+def insertar_video_youtube(draft_id: str, youtube_url: str) -> bool:
+    """Inserta el reproductor de YouTube DENTRO del borrador, DEBAJO de la imagen
+    principal y ENCIMA del cuerpo. Si ya había un video (el nativo del paso 1), lo
+    REEMPLAZA por el de YouTube (un solo reproductor). Re-envía `media` para NO perder
+    la portada (gotcha de Wix al editar por API). El PATCH es atómico: si falla, el
+    borrador queda intacto (con su video nativo) y la nota igual se puede publicar.
+    """
+    headers = _headers()
+    draft = _get_draft(headers, draft_id)
+    rich = draft.get("richContent") or {}
+    nodes = list(rich.get("nodes") or [])
+    if not nodes:
+        # Sin contenido recuperado: NO tocamos el borrador (no queremos pisar el cuerpo).
+        logger.warning(f"El borrador {draft_id} no devolvió richContent; no embebo el YouTube.")
+        return False
+
+    yt_node = _nodo_video_youtube(youtube_url)  # se arma primero (si falla, no toco nada)
+    # Saca cualquier VIDEO previo (el nativo) para no duplicar reproductores.
+    nodes = [n for n in nodes if n.get("type") != "VIDEO"]
+    # Ubica después de la 1ª imagen (debajo de la foto principal); si no hay, al principio.
+    idx = next((i for i, n in enumerate(nodes) if n.get("type") == "IMAGE"), -1)
+    nodes.insert(idx + 1, yt_node)
+    rich["nodes"] = nodes
+
+    payload = {
+        "draftPost": {"id": draft_id, "richContent": rich, "media": draft.get("media")},
+        "fieldMask": ["richContent", "media"],  # media reenviado o se borra la portada
+    }
+    r = requests.patch(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers, json=payload, timeout=30)
+    _raise_for_status(r, "embeber YouTube")
+    logger.info(f"Reproductor de YouTube embebido en el borrador {draft_id}.")
+    return True
+
+
 def publicar_borrador(draft_id: str) -> dict:
     """Publica un borrador ya creado. Devuelve {success, id, url}."""
     headers = _headers()

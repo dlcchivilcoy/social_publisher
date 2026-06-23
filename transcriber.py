@@ -25,6 +25,7 @@ import json
 import re
 import smtplib
 import ssl
+import time
 from datetime import datetime
 from email.message import EmailMessage
 from email.utils import formataddr
@@ -286,7 +287,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         "uploader": uploader or fila.get("uploader", ""),
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
-        "draft_id": draft_id, "reel_url": reel_url, "estado": estado,
+        "texto": texto, "draft_id": draft_id, "reel_url": reel_url, "estado": estado,
     })
     _guardar_ledger(rows)
     logger.info(f"Registrado (estado={estado}, draft_id={draft_id or '—'}).")
@@ -337,6 +338,89 @@ def _caption(titulo: str, resumen: str) -> str:
     )
 
 
+def _retry(fn, intentos: int = 3, espera: int = 5, etiqueta: str = ""):
+    """Ejecuta `fn` con reintentos automáticos (backoff lineal). Re-lanza el último
+    error si agota los intentos. Se usa para YouTube y Wix (red/cuota intermitente)."""
+    ultimo = None
+    for i in range(max(1, intentos)):
+        try:
+            return fn()
+        except Exception as e:  # noqa: BLE001 — queremos reintentar ante cualquier fallo de red/API
+            ultimo = e
+            logger.warning(f"{etiqueta or 'tarea'}: intento {i + 1}/{intentos} falló: {e}")
+            if i < intentos - 1:
+                time.sleep(espera * (i + 1))
+    raise ultimo
+
+
+# Hashtags locales SIEMPRE presentes (SEO local de Chivilcoy) + los temáticos de la nota.
+_HASHTAGS_LOCALES = ["#Chivilcoy", "#NoticiasChivilcoy", "#DiarioLaCampaña", "#Actualidad"]
+
+
+def _yt_enabled() -> bool:
+    return (get("YT_SHORTS_ENABLED") or "1").strip().lower() not in ("0", "false", "no", "off")
+
+
+def _hashtag(palabra: str) -> str:
+    """Convierte 'radio del centro' → '#RadioDelCentro' (sin acentos/espacios)."""
+    limpio = re.sub(r"[^0-9A-Za-zñÑáéíóúÁÉÍÓÚ ]+", "", palabra or "").strip()
+    return "#" + "".join(p.capitalize() for p in limpio.split())
+
+
+def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
+    """Arma título + descripción (formato periodístico, SEO local) + tags + hashtags del
+    Short, REUTILIZANDO la lógica SEO de Gemini (`seo_youtube`). Si Gemini falla, cae a un
+    armado determinístico con los datos de la nota. Nunca tira excepción."""
+    site = _site()
+    seo = {}
+    try:
+        from utils import gemini
+        cuerpo_ctx = (resumen + ("\n\n" + texto if texto else "")).strip()
+        seo = gemini.seo_youtube(titulo, cuerpo_ctx) or {}
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[youtube] SEO con Gemini falló ({e}); uso los datos de la nota.")
+
+    yt_titulo = (seo.get("titulo") or (f"{volanta}: {titulo}" if volanta else titulo) or titulo)[:100]
+
+    # Hashtags: locales fijos + los temáticos que sugirió Gemini (de sus tags).
+    tags = [t for t in (seo.get("tags") or []) if t]
+    topicos = []
+    for t in tags:
+        h = _hashtag(t)
+        if len(h) > 2 and h.lower() not in (x.lower() for x in _HASHTAGS_LOCALES + topicos):
+            topicos.append(h)
+    hashtags = _HASHTAGS_LOCALES + topicos[:6]
+    linea_hashtags = " ".join(hashtags)
+
+    # Descripción periodística: bajada (Gemini o resumen) + CTA web/suscripción + hashtags.
+    bajada = (seo.get("descripcion") or resumen or titulo).strip()
+    # La descripción de Gemini ya puede traer su propia línea de hashtags: la sacamos para no
+    # duplicar y dejamos la nuestra (con los locales garantizados).
+    bajada = re.sub(r"\n?#[\wñÑáéíóúÁÉÍÓÚ]+(?:\s+#[\wñÑáéíóúÁÉÍÓÚ]+)*\s*$", "", bajada).strip()
+    descripcion = (
+        f"{bajada}\n\n"
+        f"📲 Seguí leyendo la nota completa en {site}\n"
+        f"🔔 Suscribite al canal para más noticias de Chivilcoy y la región.\n\n"
+        f"{linea_hashtags}"
+    )
+
+    # Tags de YouTube (campo Tags): los de Gemini + locales, sin '#', deduplicados.
+    base_tags = ["chivilcoy", "noticias chivilcoy", "diario la campaña", "radio del centro", "actualidad"]
+    final_tags, vistos = [], set()
+    for t in (tags + base_tags):
+        k = t.strip().lower()
+        if k and k not in vistos:
+            vistos.add(k)
+            final_tags.append(t.strip())
+    return {
+        "titulo": yt_titulo,
+        "descripcion": descripcion,
+        "tags": final_tags[:15],
+        "hashtags": linea_hashtags,
+        "category_id": (get("YT_SHORTS_CATEGORY") or "25").strip(),
+    }
+
+
 def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Publicar video aprobado [{modo}] — file='{file}' ===")
@@ -356,56 +440,157 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     hay = fila.get("hay_noticia", True)
     draft_id = fila.get("draft_id")
     reel_url = fila.get("reel_url")
+    volanta = fila.get("volanta", "")
     titulo = fila.get("titulo", "")
     resumen = fila.get("resumen", "")
     caption = _caption(titulo, resumen) if hay else ""
 
     if dry_run:
-        logger.info(f"[dry-run] hay_noticia={hay}. Publicaría draft={draft_id or '—'} + reel={reel_url}\n"
-                    f"Caption:\n{caption or '(sin texto)'}")
+        meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if hay else {}
+        logger.info(f"[dry-run] hay_noticia={hay}. Publicaría reel={reel_url} + draft={draft_id or '—'}\n"
+                    f"Caption FB/IG:\n{caption or '(sin texto)'}\n"
+                    f"YouTube Short: {'(omitido)' if not (hay and _yt_enabled()) else meta.get('titulo')}\n"
+                    f"Descripción YT:\n{meta.get('descripcion', '(omitida)')}")
         return
 
-    # 1) Nota web (solo si hay noticia).
+    plats = _platforms()
+    # Estado de publicación por canal (el «panel» que pide el flujo: IG/FB/YouTube/Wix).
+    estado_canales = {"instagram": "omitido", "facebook": "omitido",
+                      "youtube": "omitido", "wix": "omitido"}
+
+    # Bajamos el reel UNA sola vez (lo reusan Facebook y YouTube).
+    local_reel = None
+    if reel_url:
+        try:
+            WORK_DIR.mkdir(exist_ok=True)
+            local_reel = _descargar(reel_url, WORK_DIR / "reel_pub.mp4")
+        except Exception as e:
+            logger.error(f"No se pudo bajar el reel ({reel_url}): {e}")
+
+    # 1) Instagram (reel remoto).
+    if "instagram" in plats and reel_url:
+        try:
+            instagram.publish_reel(reel_url, caption)
+            estado_canales["instagram"] = "ok"
+            logger.info("[instagram] reel OK")
+        except Exception as e:
+            estado_canales["instagram"] = f"falló: {e}"
+            logger.error(f"[instagram] reel FALLÓ: {e}")
+
+    # 2) Facebook (archivo local).
+    if "facebook" in plats and local_reel:
+        try:
+            facebook.publish_video(caption, local_reel)
+            estado_canales["facebook"] = "ok"
+            logger.info("[facebook] video OK")
+        except Exception as e:
+            estado_canales["facebook"] = f"falló: {e}"
+            logger.error(f"[facebook] video FALLÓ: {e}")
+
+    # 3) YouTube Shorts (mismo archivo vertical) — solo si hay noticia (necesita SEO).
+    yt_info = {}
+    if hay and _yt_enabled() and local_reel:
+        try:
+            from platforms import youtube_api
+            meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", ""))
+            privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
+            yt_info = _retry(
+                lambda: youtube_api.upload_short(
+                    local_reel, meta["titulo"], meta["descripcion"],
+                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
+                etiqueta="[youtube] subir Short")
+            estado_canales["youtube"] = "ok"
+            logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
+        except Exception as e:
+            estado_canales["youtube"] = f"falló: {e}"
+            logger.error(f"[youtube] Short FALLÓ tras reintentos: {e}")
+    elif hay and not _yt_enabled():
+        logger.info("[youtube] desactivado (YT_SHORTS_ENABLED=0).")
+
+    # 4) Nota web: embeber el YouTube (si salió) y PUBLICAR (al final del flujo).
     post_url = ""
     if hay and draft_id:
+        if yt_info.get("url"):
+            try:
+                _retry(lambda: wix.insertar_video_youtube(draft_id, yt_info["url"]),
+                       etiqueta="[wix] embeber YouTube")
+            except Exception as e:
+                logger.error(f"[wix] no se pudo embeber el YouTube (la nota igual sale con el "
+                             f"video nativo): {e}")
         try:
-            res = wix.publicar_borrador(draft_id)
+            res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
             post_url = res.get("url", "")
+            estado_canales["wix"] = "ok"
             logger.info(f"[wix] nota publicada: {post_url}")
         except Exception as e:
+            estado_canales["wix"] = f"falló: {e}"
             logger.error(f"[wix] no se pudo publicar el borrador: {e}")
     else:
         logger.info("Sin desgrabación: la nota web queda SUSPENDIDA, sale solo el reel (sin texto).")
 
-    # 2) Reel a las redes (con caption si hay noticia; vacío si no).
-    plats = _platforms()
-    algun_ok = False
-    if "instagram" in plats and reel_url:
-        try:
-            instagram.publish_reel(reel_url, caption)
-            algun_ok = True
-            logger.info("[instagram] reel OK")
-        except Exception as e:
-            logger.error(f"[instagram] reel FALLÓ: {e}")
-    if "facebook" in plats and reel_url:
-        try:
-            WORK_DIR.mkdir(exist_ok=True)
-            local = _descargar(reel_url, WORK_DIR / "reel_pub.mp4")
-            facebook.publish_video(caption, local)
-            algun_ok = True
-            logger.info("[facebook] video OK")
-        except Exception as e:
-            logger.error(f"[facebook] video FALLÓ: {e}")
-
+    # Registro: estado + datos del Short (URL, ID, fecha, título; métricas a futuro).
     fila.update({
         "estado": "publicado" if hay else "publicado_solo_reel",
         "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
         "post_url": post_url,
+        "estado_canales": estado_canales,
     })
+    if yt_info:
+        fila.update({
+            "yt_video_id": yt_info.get("id", ""),
+            "yt_url": yt_info.get("short_url") or yt_info.get("url", ""),
+            "yt_watch_url": yt_info.get("watch_url", ""),
+            "yt_titulo": titulo,
+            "yt_privacy": yt_info.get("privacy", ""),
+            "fecha_youtube": datetime.now().isoformat(timespec="seconds"),
+            "yt_metrics": fila.get("yt_metrics", {}),  # se completan luego (--videos-report)
+        })
     _guardar_ledger(rows)
 
-    if algun_ok or post_url:
-        logger.info("Publicado (web y/o reel) y registrado.")
+    # Aviso de estado por canal (el «panel» de publicación).
+    _avisar_estado(fila, estado_canales, post_url, yt_info)
+
+    algun_ok = any(v == "ok" for v in estado_canales.values())
+    if algun_ok:
+        logger.info(f"Publicado y registrado. Estado por canal: {estado_canales}")
     else:
-        logger.error("No se pudo publicar en ninguna parte — revisar credenciales.")
+        logger.error("No se pudo publicar en ningún canal — revisar credenciales.")
     logger.info("=== Publicar video aprobado: fin ===")
+
+
+def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> None:
+    """Manda un mail con el ESTADO de publicación por canal (IG/FB/YouTube/Wix)."""
+    titulo = fila.get("titulo") or fila.get("file", "")
+    iconos = {"ok": "✅", "omitido": "➖"}
+
+    def _li(nombre: str, clave: str, extra: str = "") -> str:
+        st = estado.get(clave, "omitido")
+        ico = iconos.get(st, "❌")
+        txt = "publicado" if st == "ok" else st
+        return f"<li>{ico} <b>{nombre}:</b> {_hesc(txt)}{extra}</li>"
+
+    yt_extra = ""
+    if yt_info.get("short_url"):
+        priv = yt_info.get("privacy", "")
+        nota_priv = " <i>(privado — falta auditoría de la API)</i>" if priv and priv != "public" else ""
+        yt_extra = f' — <a href="{yt_info["short_url"]}">{_hesc(yt_info["short_url"])}</a>{nota_priv}'
+    wix_extra = f' — <a href="{post_url}">{_hesc(post_url)}</a>' if post_url else ""
+
+    html = (
+        f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+        f"<h2 style='color:#e2620c'>Estado de publicación</h2>"
+        f"<p style='font-size:18px'><b>{_hesc(titulo)}</b></p>"
+        f"<ul style='line-height:1.8;list-style:none;padding:0'>"
+        f"{_li('Instagram', 'instagram')}"
+        f"{_li('Facebook', 'facebook')}"
+        f"{_li('YouTube Shorts', 'youtube', yt_extra)}"
+        f"{_li('Web (Wix)', 'wix', wix_extra)}"
+        f"</ul></div>"
+    )
+    cuerpo = (f"Estado de publicación de «{titulo}»:\n"
+              f"- Instagram: {estado.get('instagram')}\n"
+              f"- Facebook: {estado.get('facebook')}\n"
+              f"- YouTube: {estado.get('youtube')}"
+              + (f" ({yt_info.get('short_url')})" if yt_info.get('short_url') else "") + "\n"
+              f"- Web (Wix): {estado.get('wix')}" + (f" ({post_url})" if post_url else "") + "\n")
+    _enviar_aviso(f"Estado de publicación: {titulo}", cuerpo, html=html)

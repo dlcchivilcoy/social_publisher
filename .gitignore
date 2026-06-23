@@ -35,6 +35,13 @@ youtube-historias.json
 .tiktok_token.json
 .tiktok_reel.json
 
+# YouTube SEO (token OAuth que rota + credenciales + propuestas generadas)
+.yt_token.json
+.yt_token_diario.json
+client_secret.json
+youtube_seo/
+.yt_seo.json
+
 # Sistema
 Thumbs.db
 desktop.ini
