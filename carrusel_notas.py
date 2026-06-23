@@ -67,12 +67,10 @@ def _save_x_ledger(posts_folder: Path, keys: set[str]) -> None:
 
 
 def _x_activo() -> bool:
-    """X está activo si X_ACTIVO lo dice; si no se setea, queda activo cuando hay
-    credenciales de Twitter cargadas."""
-    raw = get("X_ACTIVO")
-    if raw is not None and str(raw).strip() != "":
-        return str(raw).strip().lower() in ("1", "true", "si", "sí", "on")
-    return bool(get("TWITTER_API_KEY") and get("TWITTER_ACCESS_TOKEN"))
+    """X solo se activa si X_ACTIVO está explícitamente en 1/true. Apagado por
+    defecto porque X pide un plan con créditos para postear (la API devuelve
+    402 Payment Required sin él); prenderlo recién cuando el plan lo permita."""
+    return str(get("X_ACTIVO") or "").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
 def _x_delay() -> int:
