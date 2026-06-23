@@ -234,6 +234,85 @@ def _img_part(path: Path) -> dict:
     return {"inline_data": {"mime_type": _mime(path), "data": b64}}
 
 
+def _post_generate(parts: list, key: str, model: str, temperature: float = 0.4) -> dict:
+    """Llama a Gemini generateContent con esos `parts` y el schema de nota, reintentando
+    ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
+    payload = {
+        "contents": [{"role": "user", "parts": parts}],
+        "generationConfig": {
+            "temperature": temperature,
+            "response_mime_type": "application/json",
+            "response_schema": _SCHEMA,
+        },
+    }
+    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
+    r = None
+    for intento in range(4):
+        r = requests.post(url, json=payload, timeout=300)
+        if r.status_code in (429, 500, 503) and intento < 3:
+            espera = 5 * (intento + 1)
+            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
+            time.sleep(espera)
+            continue
+        break
+    if r.status_code >= 400:
+        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    try:
+        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        return json.loads(cand)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+
+
+def _parse_nota(raw: dict) -> dict:
+    """Normaliza el JSON crudo de Gemini al dict de nota que usa el sistema."""
+    try:
+        momento = float(raw.get("mejor_momento_seg") or 0)
+    except (TypeError, ValueError):
+        momento = 0.0
+    segmentos = []
+    for s in (raw.get("segmentos_destacados") or []):
+        try:
+            ini, fin = float(s.get("inicio")), float(s.get("fin"))
+            if fin > ini >= 0:
+                segmentos.append({"inicio": ini, "fin": fin})
+        except (TypeError, ValueError, AttributeError):
+            continue
+    nota = {
+        "hay_noticia": bool(raw.get("hay_noticia")),
+        "volanta": str(raw.get("volanta", "")).strip(),
+        "titulo": str(raw.get("titulo", "")).strip(),
+        "texto": str(raw.get("texto", "")).strip(),
+        "resumen": str(raw.get("resumen", "")).strip(),
+        "mejor_momento_seg": max(0.0, momento),
+        "segmentos": segmentos,
+    }
+    if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
+        nota["hay_noticia"] = False
+    return nota
+
+
+def transcribe_youtube_url(url: str, extra_text: str = "") -> dict:
+    """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
+    nada): Gemini ingiere el video desde YouTube y devuelve la misma nota
+    {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}. Gratis."""
+    key = get("GEMINI_API_KEY")
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    prompt = PROMPT_BASE
+    if (extra_text or "").strip():
+        prompt += ("\nDATOS/CONTEXTO adicional (tenelo MUY en cuenta para la nota):\n"
+                   + extra_text.strip())
+    parts = [{"text": prompt}, {"file_data": {"file_uri": url}}]
+    logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
+    raw = _post_generate(parts, key, model, temperature=0.4)
+    nota = _parse_nota(raw)
+    logger.info(f"Gemini OK (YouTube): hay_noticia={nota['hay_noticia']} | "
+                f"«{nota['volanta']} — {nota['titulo']}»")
+    return nota
+
+
 def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> dict:
     """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
 
@@ -271,25 +350,10 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> di
         except Exception as e:
             logger.warning(f"No se pudo adjuntar la foto de contexto {img}: {e}")
 
-    payload = {
-        "contents": [{"role": "user", "parts": parts}],
-        "generationConfig": {
-            "temperature": 0.4,
-            "response_mime_type": "application/json",
-            "response_schema": _SCHEMA,
-        },
-    }
-
     logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                 f"{len(image_paths or [])} foto(s))…")
     try:
-        r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={key}", json=payload, timeout=300)
-        if r.status_code >= 400:
-            raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
-        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        raw = json.loads(cand)
-    except (KeyError, IndexError, json.JSONDecodeError) as e:
-        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+        raw = _post_generate(parts, key, model, temperature=0.4)
     finally:
         if file_name:  # borrar el archivo subido (best-effort)
             try:
@@ -297,29 +361,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> di
             except Exception:
                 pass
 
-    try:
-        momento = float(raw.get("mejor_momento_seg") or 0)
-    except (TypeError, ValueError):
-        momento = 0.0
-    segmentos = []
-    for s in (raw.get("segmentos_destacados") or []):
-        try:
-            ini, fin = float(s.get("inicio")), float(s.get("fin"))
-            if fin > ini >= 0:
-                segmentos.append({"inicio": ini, "fin": fin})
-        except (TypeError, ValueError, AttributeError):
-            continue
-    nota = {
-        "hay_noticia": bool(raw.get("hay_noticia")),
-        "volanta": str(raw.get("volanta", "")).strip(),
-        "titulo": str(raw.get("titulo", "")).strip(),
-        "texto": str(raw.get("texto", "")).strip(),
-        "resumen": str(raw.get("resumen", "")).strip(),
-        "mejor_momento_seg": max(0.0, momento),
-        "segmentos": segmentos,
-    }
-    if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
-        nota["hay_noticia"] = False
+    nota = _parse_nota(raw)
     logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                 f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
     return nota
