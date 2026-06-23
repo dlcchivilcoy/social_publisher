@@ -292,15 +292,19 @@ def _parse_nota(raw: dict) -> dict:
     return nota
 
 
-def transcribe_youtube_url(url: str, extra_text: str = "") -> dict:
+def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "") -> dict:
     """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
     nada): Gemini ingiere el video desde YouTube y devuelve la misma nota
-    {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}. Gratis."""
+    {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}. Gratis.
+
+    `instrucciones`: directiva extra de redacción (ej. pedir un cuerpo más largo)."""
     key = get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or "gemini-2.5-flash"
     prompt = PROMPT_BASE
+    if (instrucciones or "").strip():
+        prompt += ("\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip())
     if (extra_text or "").strip():
         prompt += ("\nDATOS/CONTEXTO adicional (tenelo MUY en cuenta para la nota):\n"
                    + extra_text.strip())

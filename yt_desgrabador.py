@@ -94,22 +94,44 @@ def _png_miniatura(video_id: str, destino: Path) -> Path | None:
         return None
 
 
-def _texto_nota(nota: dict, video: dict) -> str:
-    """Arma el .txt periodístico: volanta + título + cuerpo + pie con fuente."""
-    partes = []
+# Pedido de redacción: nota larga (~1300 palabras / 2 hojas y media), formato periodístico.
+INSTRUCCION_LARGO = (
+    "El cuerpo de la nota (campo «texto») debe ser EXTENSO: aproximadamente 1300 palabras "
+    "(unas 2 hojas y media de Word), escrito en formato periodístico y organizado en "
+    "PÁRRAFOS bien desarrollados. Profundizá y desarrollá TODOS los temas que se tratan en "
+    "el video, con citas textuales cuando sean claras y confiables, contexto y datos "
+    "concretos. Mantené la fidelidad al material: NO inventes, no rellenes ni repitas; si el "
+    "material no alcanzara para 1300 palabras, desarrollá todo lo posible siendo fiel."
+)
+
+
+def _escribir_docx(nota: dict, video: dict, path: Path) -> None:
+    """Escribe la nota como Word (.docx) en formato periodístico: volanta + título +
+    cuerpo en párrafos. Sin fuente ni fecha de procesado."""
+    from docx import Document
+    from docx.shared import Pt, RGBColor
+
+    doc = Document()
     if nota.get("volanta"):
-        partes.append(nota["volanta"].upper())
-    partes.append(nota.get("titulo") or video.get("titulo", ""))
-    partes.append("")  # línea en blanco
-    partes.append(nota.get("texto", ""))
-    if nota.get("resumen"):
-        partes.append("")
-        partes.append(f"RESUMEN (redes): {nota['resumen']}")
-    partes.append("")
-    partes.append("—")
-    partes.append(f"Fuente (video): {video.get('url', '')}")
-    partes.append(f"Procesado: {datetime.now().strftime('%d/%m/%Y %H:%M')}")
-    return "\n".join(partes).strip() + "\n"
+        p = doc.add_paragraph()
+        run = p.add_run(nota["volanta"].upper())
+        run.bold = True
+        run.font.size = Pt(11)
+        run.font.color.rgb = RGBColor(0xE2, 0x62, 0x0C)  # naranja del diario
+
+    titulo = nota.get("titulo") or video.get("titulo", "")
+    pt = doc.add_paragraph()
+    rt = pt.add_run(titulo)
+    rt.bold = True
+    rt.font.size = Pt(18)
+
+    doc.add_paragraph()  # línea en blanco entre título y cuerpo
+    for parrafo in (nota.get("texto", "") or "").split("\n\n"):
+        parrafo = parrafo.strip()
+        if parrafo:
+            doc.add_paragraph(parrafo)
+
+    doc.save(str(path))
 
 
 def run_yt_desgrabar(dry_run: bool = False) -> None:
@@ -148,7 +170,7 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
     for v in pendientes:
         logger.info(f"  Desgrabando: «{v['titulo'][:60]}» ({v['url']})")
         try:
-            nota = gemini.transcribe_youtube_url(v["url"])
+            nota = gemini.transcribe_youtube_url(v["url"], instrucciones=INSTRUCCION_LARGO)
         except Exception as e:
             logger.error(f"    Gemini falló (se reintenta en la próxima corrida): {e}")
             continue  # NO se marca: se reintenta
@@ -161,25 +183,28 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
             continue
 
         slug = _slug(nota.get("titulo") or v["titulo"])
-        txt_path = destino / f"{slug}.txt"
+        docx_path = destino / f"{slug}.docx"
         png_path = destino / f"{slug}.png"
         # Evita pisar si dos notas dieran el mismo nombre
-        if txt_path.exists():
+        if docx_path.exists():
             slug = f"{slug} ({v['id'][:6]})"
-            txt_path = destino / f"{slug}.txt"
+            docx_path = destino / f"{slug}.docx"
             png_path = destino / f"{slug}.png"
 
+        palabras = len((nota.get("texto") or "").split())
         if dry_run:
-            logger.info(f"    [dry-run] Guardaría: {txt_path.name} + {png_path.name}\n"
+            logger.info(f"    [dry-run] Guardaría: {docx_path.name} + {png_path.name} "
+                        f"(~{palabras} palabras)\n"
                         f"      VOLANTA: {nota['volanta']}\n      TÍTULO: {nota['titulo']}")
             continue
 
-        txt_path.write_text(_texto_nota(nota, v), encoding="utf-8")
+        _escribir_docx(nota, v, docx_path)
         _png_miniatura(v["id"], png_path)
         ledger.add(v["id"])
         _guardar_ledger(ledger)
         hechas += 1
-        logger.info(f"    ✓ {txt_path.name}" + (f" + {png_path.name}" if png_path.exists() else ""))
+        logger.info(f"    ✓ {docx_path.name} (~{palabras} palabras)"
+                    + (f" + {png_path.name}" if png_path.exists() else ""))
 
     if dry_run:
         logger.info("=== Desgrabar notas de YouTube: fin (dry-run) ===")
