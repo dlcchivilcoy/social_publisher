@@ -4,18 +4,19 @@ Un solo posteo en Facebook + Instagram con TODAS las notas del día (un slide po
 nota: foto + titular + resumen breve), ordenadas por el número con que empieza el
 nombre del archivo. Además:
   - publica cada nota en Wix/web (destino del "seguí leyendo"),
-  - publica UNA historia "Noticias de hoy".
+  - comparte cada nota en X (Twitter) como tweet individual con link a la nota.
 Reemplaza el feed por nota (07:00/13:00) y las historias por nota (07:15).
 """
 import json
 import re
+import time
 from datetime import date
 from pathlib import Path
 
 from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
 from publisher import _hashtags, _load_ledger, _prepare_image, _resumen, _save_ledger
-from story_image import compose_note_slide, compose_noticias_hoy_story
+from story_image import compose_note_slide
 from utils.config import get
 from utils.logger import get_logger
 
@@ -44,6 +45,68 @@ def _save_web_ledger(posts_folder: Path, keys: set[str]) -> None:
         json.dumps(sorted(keys), ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+# Ledger propio de X (Twitter): cada nota se tuitea UNA sola vez (independiente de
+# Wix/FB/IG). Se persiste en state/ por el workflow para no duplicar entre corridas.
+X_LEDGER_NAME = ".x.json"
+
+
+def _load_x_ledger(posts_folder: Path) -> set[str]:
+    path = posts_folder / X_LEDGER_NAME
+    if not path.exists():
+        return set()
+    try:
+        return set(json.loads(path.read_text(encoding="utf-8")))
+    except Exception:
+        logger.warning("No se pudo leer el registro de X; se asume vacío.")
+        return set()
+
+
+def _save_x_ledger(posts_folder: Path, keys: set[str]) -> None:
+    (posts_folder / X_LEDGER_NAME).write_text(
+        json.dumps(sorted(keys), ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _x_activo() -> bool:
+    """X está activo si X_ACTIVO lo dice; si no se setea, queda activo cuando hay
+    credenciales de Twitter cargadas."""
+    raw = get("X_ACTIVO")
+    if raw is not None and str(raw).strip() != "":
+        return str(raw).strip().lower() in ("1", "true", "si", "sí", "on")
+    return bool(get("TWITTER_API_KEY") and get("TWITTER_ACCESS_TOKEN"))
+
+
+def _x_delay() -> int:
+    try:
+        return max(0, int(get("X_DELAY_SECONDS") or 5))
+    except ValueError:
+        return 5
+
+
+def _postear_nota_x(note: dict, volanta: str, titular: str, primer: str,
+                    wix_url: str, x_ledger: set[str], posts_folder: Path,
+                    dry_run: bool) -> bool:
+    """Tuitea UNA nota (título + resumen + foto + link). Devuelve True si tuiteó."""
+    if not _x_activo() or note["key"] in x_ledger:
+        return False
+    from platforms import twitter
+    titulo = f"{volanta} — {titular}" if volanta else titular
+    resumen = _resumen_caption(primer, max_chars=180)
+    img = _prepare_image(note["image"])
+    try:
+        twitter.publish(titulo, resumen, img, wix_url=wix_url, dry_run=dry_run)
+        if not dry_run:
+            x_ledger.add(note["key"])
+            _save_x_ledger(posts_folder, x_ledger)
+        logger.info(f"[x] {'(dry-run) ' if dry_run else ''}OK — «{titular[:40]}»")
+        return True
+    except Exception as e:
+        logger.error(f"[x] FALLÓ — «{titular[:40]}»: {e}")
+        return False
+    finally:
+        if img != note["image"] and img.exists():
+            img.unlink()
+
+
 def _resumen_caption(texto: str, max_chars: int = 280) -> str:
     """Resumen para el caption: ~5 líneas como máximo, cortado en final de oración
     o de palabra, SIN puntos suspensivos."""
@@ -58,15 +121,17 @@ def _resumen_caption(texto: str, max_chars: int = 280) -> str:
     return corte.rsplit(" ", 1)[0].rstrip(" ,;:").strip()
 
 
-def _publicar_nota_wix(note: dict, volanta: str, titular: str, cuerpo: list, primer: str) -> bool:
-    """Sube UNA nota a Wix (portada + cuerpo). Devuelve True si salió bien."""
+def _publicar_nota_wix(note: dict, volanta: str, titular: str, cuerpo: list, primer: str) -> str:
+    """Sube UNA nota a Wix (portada + cuerpo). Si no falla, devuelve la URL de la
+    nota (puede ser "" si Wix no la devolvió, pero igual fue exitosa); si falla,
+    lanza excepción."""
     img = _prepare_image(note["image"])
     try:
         wix_title = f"{volanta} — {titular}" if volanta else titular
         body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
         descripcion = (primer or titular)[:155]
-        wix.publish(wix_title, body, img, page=note["page"], description=descripcion)
-        return True
+        res = wix.publish(wix_title, body, img, page=note["page"], description=descripcion)
+        return (res or {}).get("url", "") or ""
     finally:
         if img != note["image"] and img.exists():
             img.unlink()
@@ -165,6 +230,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
 
     site = _site()
     web_ledger = _load_web_ledger(posts_folder)
+    x_ledger = _load_x_ledger(posts_folder)
     slides: list[Path] = []
     bajadas: list[tuple] = []  # (titular, primer_parrafo) para el caption
     wix_ok = 0
@@ -184,19 +250,25 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         bajadas.append((titular, primer))
 
         # Publicar la nota en Wix SOLO si la corrida de las 7:00 (--notes-web) no la
-        # subió ya (evita duplicar en la web). Si ya está marcada, se saltea Wix.
-        if not dry_run:
-            if note["key"] in web_ledger:
-                logger.info(f"[wix] ya cargada a las 7:00 — se saltea «{titular[:40]}»")
-            else:
-                try:
-                    if _publicar_nota_wix(note, volanta, titular, cuerpo, primer):
-                        wix_ok += 1
-                        web_ledger.add(note["key"])
-                        web_changed = True
-                        logger.info(f"[wix] OK — «{titular[:40]}»")
-                except Exception as e:
-                    logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
+        # subió ya (evita duplicar en la web). Si se sube ahora, además se tuitea
+        # (la corrida de las 7:00 ya la habría tuiteado).
+        if note["key"] in web_ledger and not dry_run:
+            logger.info(f"[wix] ya cargada a las 7:00 — se saltea «{titular[:40]}»")
+        else:
+            try:
+                wix_url = "" if dry_run else _publicar_nota_wix(note, volanta, titular, cuerpo, primer)
+                if not dry_run:
+                    wix_ok += 1
+                    web_ledger.add(note["key"])
+                    web_changed = True
+                    logger.info(f"[wix] OK — «{titular[:40]}»")
+            except Exception as e:
+                logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
+                wix_url = None
+            if wix_url is not None and _postear_nota_x(
+                    note, volanta, titular, primer, wix_url, x_ledger, posts_folder, dry_run):
+                if not dry_run:
+                    time.sleep(_x_delay())
 
     if not dry_run and web_changed:
         _save_web_ledger(posts_folder, web_ledger)
@@ -225,12 +297,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         f"{hashtags}"
     )
 
-    story_img = compose_noticias_hoy_story(_fecha_larga(hoy).capitalize(), site,
-                                           photos=[n["image"] for n in pending[:10]])
-
     if dry_run:
         logger.info(f"[dry-run] carrusel de {len(slides)} slide(s): {[s.name for s in slides]}")
-        logger.info(f"[dry-run] historia: {story_img.name}")
         logger.info(f"[dry-run] caption:\n{caption}")
         logger.info("=== Carrusel de notas: fin (dry-run) ===")
         return
@@ -253,19 +321,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         except Exception as e:
             logger.error(f"[instagram] carrusel FALLÓ: {e}")
 
-    # UNA historia "Noticias de hoy"
-    story_fns = {"instagram": lambda: instagram.publish_story(story_img),
-                 "facebook": lambda: facebook.publish_story(story_img)}
-    for name in plats:
-        fn = story_fns.get(name)
-        if not fn:
-            continue
-        try:
-            fn()
-            algun_ok = True
-            logger.info(f"[{name}] historia 'Noticias de hoy' OK")
-        except Exception as e:
-            logger.error(f"[{name}] historia FALLÓ: {e}")
+    # (La historia "Noticias de hoy" se sacó a pedido del usuario 2026-06-23:
+    # el carrusel y la carga a la web siguen; ya no se publica el mosaico.)
 
     if algun_ok:
         for n in pending:
@@ -292,6 +349,7 @@ def run_notes_web(posts_folder: Path, allowed_pages: set[int], dry_run: bool = F
         return
 
     web_ledger = _load_web_ledger(posts_folder)
+    x_ledger = _load_x_ledger(posts_folder)
     pending = [n for n in notes if n["key"] not in web_ledger]
     if not pending:
         logger.info("Todas las notas de hoy ya estaban cargadas a la web. Nada que hacer.")
@@ -307,14 +365,19 @@ def run_notes_web(posts_folder: Path, allowed_pages: set[int], dry_run: bool = F
         primer = cuerpo[0] if cuerpo else ""
         if dry_run:
             logger.info(f"[dry-run] subiría a la web: «{(volanta + ' — ') if volanta else ''}{titular[:50]}»")
+            _postear_nota_x(note, volanta, titular, primer, "", x_ledger, posts_folder, dry_run=True)
             continue
         try:
-            if _publicar_nota_wix(note, volanta, titular, cuerpo, primer):
-                web_ledger.add(note["key"])
-                _save_web_ledger(posts_folder, web_ledger)  # guarda tras cada una (resiliente)
-                ok += 1
-                logger.info(f"[wix] OK — «{titular[:40]}»")
+            wix_url = _publicar_nota_wix(note, volanta, titular, cuerpo, primer)
+            web_ledger.add(note["key"])
+            _save_web_ledger(posts_folder, web_ledger)  # guarda tras cada una (resiliente)
+            ok += 1
+            logger.info(f"[wix] OK — «{titular[:40]}»")
         except Exception as e:
             logger.error(f"[wix] FALLÓ — «{titular[:40]}»: {e}")
+            continue
+        # Compartir la nota en X (Twitter) con link a la nota recién publicada.
+        if _postear_nota_x(note, volanta, titular, primer, wix_url, x_ledger, posts_folder, dry_run):
+            time.sleep(_x_delay())
 
     logger.info(f"=== Carga a la web: fin — {ok}/{len(pending)} subida(s) ===")
