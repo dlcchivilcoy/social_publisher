@@ -42,14 +42,23 @@ PROMPT_BASE = (
     "lo que se HABLA en el audio, el TEXTO que aparece en pantalla, los SUBTÍTULOS, lo "
     "que se VE en las imágenes, y el texto/fotos de contexto si los hay. Con eso armá "
     "UNA noticia en español rioplatense (es-AR), estilo periodístico, tercera persona, "
-    "fiel al material. NO inventes datos, nombres ni cifras que no estén en el material.\n"
+    "fiel al material. NO inventes datos, nombres ni cifras que no estén en el material. "
+    "NUNCA entregues la transcripción cruda: reescribí con criterio editorial.\n"
     "Devolvé EXACTAMENTE estos campos:\n"
     "- hay_noticia: true si pudiste extraer información REAL y suficiente para una nota; "
     "false si el material no alcanza (p.ej. solo música, imágenes sin datos, nada legible).\n"
-    "- volanta: antetítulo corto (2 a 5 palabras), sin punto final. Vacío si hay_noticia es false.\n"
-    "- titulo: titular atractivo y claro (máx ~90 caracteres), sin punto final. Vacío si false.\n"
-    "- texto: cuerpo de la nota en párrafos separados por una línea en blanco (\\n\\n). Vacío si false.\n"
-    "- resumen: resumen breve para redes, máximo 280 caracteres. Vacío si false.\n"
+    "- volanta: antetítulo corto (2 a 5 palabras) que dé contexto, sin punto final. "
+    "Vacío si hay_noticia es false.\n"
+    "- titulo: titular atractivo, claro y fiel al contenido (máx ~90 caracteres), sin punto "
+    "final. Puede ser una cita breve y textual si representa bien lo central. Vacío si false.\n"
+    "- texto: cuerpo de la nota en párrafos separados por una línea en blanco (\\n\\n). "
+    "ORDENALO POR TEMAS, no minuto a minuto: agrupá lo que se dice por asunto. Párrafos de "
+    "lectura ágil y extensión variada. Cerrá recuperando una idea fuerte, un dato de agenda "
+    "o una definición del entrevistado. La extensión la manda el material: si hay mucho, "
+    "desarrollá; si es breve, priorizá FIDELIDAD antes que extensión, sin rellenar ni "
+    "repetir. Vacío si false.\n"
+    "- resumen: resumen breve para redes (máximo 280 caracteres) que diga quién habla, qué "
+    "sostiene y por qué importa. Vacío si false.\n"
     "- mejor_momento_seg: el SEGUNDO del video (número entero) con el cuadro más "
     "representativo, llamativo o polémico, idealmente con TEXTO en pantalla que se entienda "
     "de qué trata la nota. Si no lo podés determinar, devolvé 0.\n"
@@ -60,6 +69,16 @@ PROMPT_BASE = (
     "mitad de una palabra, frase o acción; cada tramo de al menos 8 segundos; en orden "
     "cronológico y sin solaparse; juntos deben sumar entre 45 y 60 segundos y dejar clara la "
     "noticia de principio a fin. Si el video dura 60s o menos, devolvé una lista vacía [].\n"
+    "CRITERIO EDITORIAL (respetalo siempre):\n"
+    "• Usá comillas SOLO para frases claras y confiables del material. Si una frase del "
+    "audio/subtítulo suena dudosa o mal transcripta, PARAFRASEALA en vez de citarla.\n"
+    "• Confirmá nombres propios, cargos e instituciones con el contexto. Si no podés "
+    "confirmarlos, evitá afirmarlos con seguridad (o no los pongas).\n"
+    "• Convertí las fechas relativas («ayer», «el martes») en fechas o referencias concretas "
+    "cuando se pueda deducir del material.\n"
+    "• No exageres ni endurezcas las opiniones del entrevistado: mantené el tono y el sentido "
+    "originales. Sacá muletillas solo si no alteran el sentido.\n"
+    "• No agregues firma, autor ni línea tipo «Por Radio del Centro».\n"
 )
 
 _SCHEMA = {
@@ -94,6 +113,10 @@ SEO_PROMPT = (
     "- titulo: título atractivo y claro en español rioplatense, MÁXIMO 70 caracteres, con la "
     "palabra clave principal al principio y mención local (Chivilcoy/la región) si corresponde. "
     "Sin clickbait engañoso, sin MAYÚSCULAS sostenidas, sin punto final.\n"
+    "- bajada: una BAJADA corta y LLAMATIVA para la miniatura (1 sola frase, máximo 60 caracteres), "
+    "que genere intriga o debate, picante pero SIN difamar, sin inventar y fiel al tema del video. "
+    "Puede ser una pregunta fuerte o una afirmación que invite a hacer clic. Sin hashtags, sin punto "
+    "final. Distinta del título (no lo repitas).\n"
     "- descripcion: 2 a 4 frases con las palabras clave naturales (qué se ve y por qué importa), "
     "más una llamada a la acción a la web www.diariolacampaña.com.ar y a suscribirse al canal. "
     "Terminá con una línea de 3 a 6 hashtags relevantes (incluí #Chivilcoy).\n"
@@ -105,10 +128,11 @@ _SEO_SCHEMA = {
     "type": "object",
     "properties": {
         "titulo": {"type": "string"},
+        "bajada": {"type": "string"},
         "descripcion": {"type": "string"},
         "tags": {"type": "array", "items": {"type": "string"}},
     },
-    "required": ["titulo", "descripcion", "tags"],
+    "required": ["titulo", "bajada", "descripcion", "tags"],
 }
 
 
@@ -130,7 +154,16 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
         },
     }
     logger.info(f"Gemini SEO YouTube con {model} para «{(titulo_actual or '')[:50]}»…")
-    r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={key}", json=payload, timeout=120)
+    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
+    r = None
+    for intento in range(4):  # reintenta ante 503/429 (modelo gratis sobrecargado)
+        r = requests.post(url, json=payload, timeout=120)
+        if r.status_code in (429, 500, 503) and intento < 3:
+            espera = 5 * (intento + 1)
+            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
+            time.sleep(espera)
+            continue
+        break
     if r.status_code >= 400:
         raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
     try:
@@ -139,9 +172,10 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
     except (KeyError, IndexError, json.JSONDecodeError) as e:
         raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
     titulo = str(raw.get("titulo", "")).strip()[:100]  # YouTube tope duro 100 chars
+    bajada = str(raw.get("bajada", "")).strip().rstrip(".")
     descripcion = str(raw.get("descripcion", "")).strip()
     tags = [str(t).strip() for t in (raw.get("tags") or []) if str(t).strip()][:15]
-    return {"titulo": titulo, "descripcion": descripcion, "tags": tags}
+    return {"titulo": titulo, "bajada": bajada, "descripcion": descripcion, "tags": tags}
 
 
 def _mime(path: Path) -> str:
