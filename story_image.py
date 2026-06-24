@@ -973,3 +973,570 @@ def compose_reel_outro(site_url: str = "") -> Path:
     if site_url:
         _texto_centrado(draw, [site_url], _font(58, bold=True), 1060, ACCENT)
     return _save(canvas, "reel_outro")
+
+
+# ---------------------------------------------------------------------------
+# Miniatura de YouTube 1280x720 — estética de Radio del Centro: foto arriba
+#   (full-bleed) + banda NARANJA con el wordmark "RADIO DEL CENTRO" (sacado del
+#   banner del canal), el TÍTULO grande con tipografía estilo logo (negro con
+#   contorno blanco) y una BAJADA llamativa debajo. Líneas BALANCEADAS.
+# ---------------------------------------------------------------------------
+YT_TW, YT_TH = 1280, 720
+RADIO_ORANGE = (255, 122, 0)    # naranja exacto de la marca (muestreado del banner)
+RADIO_BLACK = (0, 0, 0)
+RADIO_LOGO_SRC = Path(__file__).parent / "logo_radio_banner.jpg"
+_radio_logo_cache = None
+
+
+def _radio_logo():
+    """Extrae el wordmark 'RADIO DEL CENTRO' del banner del canal (zona central) y
+    arma una máscara para pegarlo limpio (solo el texto) sobre la banda naranja.
+    Cacheado."""
+    global _radio_logo_cache
+    if _radio_logo_cache is None:
+        try:
+            from PIL import ImageChops
+            im = Image.open(RADIO_LOGO_SRC).convert("RGB")
+            w, h = im.size
+            cx, cy = w // 2, h // 2
+            crop = im.crop((cx - 740, cy - 300, cx + 740, cy + 300))
+            diff = ImageChops.difference(crop, Image.new("RGB", crop.size, RADIO_ORANGE)).convert("L")
+            mask_full = diff.point(lambda p: 255 if p > 55 else 0)
+            bbox = mask_full.getbbox()
+            if bbox:
+                img = crop.crop(bbox)
+                mask = mask_full.crop(bbox).filter(ImageFilter.GaussianBlur(0.6))
+            else:
+                img, mask = crop, None
+            _radio_logo_cache = (img, mask)
+        except Exception as e:
+            logger.warning(f"No se pudo cargar el logo de la radio ({RADIO_LOGO_SRC}): {e}")
+            _radio_logo_cache = False
+    return _radio_logo_cache
+
+
+def _paste_radio_logo(canvas: "Image.Image", top: int, target_h: int, x: int | None = None) -> int:
+    """Pega el logo de la radio con la altura pedida. Si x es None va centrado; si
+    no, en esa x (para la esquina). Devuelve la y debajo del logo."""
+    data = _radio_logo()
+    if not data:
+        return top
+    img, mask = data
+    w, h = img.size
+    nw = max(1, round(w * target_h / h))
+    lg = img.resize((nw, target_h), Image.LANCZOS)
+    m = mask.resize((nw, target_h), Image.LANCZOS) if mask is not None else None
+    px = (canvas.width - nw) // 2 if x is None else x
+    canvas.paste(lg, (px, top), m)
+    return top + target_h
+
+
+def _name_chunks(text: str) -> list[str]:
+    """Agrupa en 'bloques' atómicos las palabras que NO se deben partir entre
+    renglones: nombres propios (2+ palabras con mayúscula seguidas) y lo que va
+    entre paréntesis. El resto queda palabra por palabra."""
+    words = (text or "").split()
+    n = len(words)
+
+    def cap(w):
+        for ch in w:
+            if ch.isalpha():
+                return ch.isupper()
+        return False
+
+    chunks, i = [], 0
+    while i < n:
+        w = words[i]
+        if w.startswith("("):  # grupo entre paréntesis: lo mantenemos junto
+            grp, j = [], i
+            while j < n:
+                grp.append(words[j])
+                if ")" in words[j]:
+                    j += 1
+                    break
+                j += 1
+            chunks.append(" ".join(grp))
+            i = j
+            continue
+        if cap(w):  # posible nombre propio (corrida de palabras con mayúscula)
+            grp, j = [], i
+            while j < n and cap(words[j]) and not words[j].startswith("("):
+                grp.append(words[j])
+                j += 1
+            chunks.append(" ".join(grp) if len(grp) >= 2 else grp[0])
+            i = j
+            continue
+        chunks.append(w)
+        i += 1
+    return chunks
+
+
+def _balanced_tokens(draw, tokens, font, max_w):
+    """Reparte `tokens` (atómicos) en líneas balanceadas (mínima irregularidad).
+    Devuelve la lista de líneas, o None si algún token solo no entra en max_w."""
+    if not tokens:
+        return []
+    n = len(tokens)
+
+    def lw(i, j):
+        return draw.textlength(" ".join(tokens[i:j]), font=font)
+
+    for t in tokens:  # si un bloque (p.ej. un nombre) no entra, no es viable
+        if draw.textlength(t, font=font) > max_w:
+            return None
+
+    k, i = 0, 0  # cantidad mínima de líneas (greedy)
+    while i < n:
+        j = i + 1
+        while j <= n and lw(i, j) <= max_w:
+            j += 1
+        i = max(i + 1, j - 1)
+        k += 1
+
+    INF = float("inf")
+    memo = {}
+
+    def solve(i, l):
+        key = (i, l)
+        if key in memo:
+            return memo[key]
+        if l == 1:
+            ww = lw(i, n)
+            res = ((max_w - ww) ** 2, [n]) if (i < n and ww <= max_w) else (INF, None)
+            memo[key] = res
+            return res
+        best = (INF, None)
+        for j in range(i + 1, n - (l - 1) + 1):
+            ww = lw(i, j)
+            if ww > max_w:
+                break  # sumar más tokens solo agranda la línea
+            sub = solve(j, l - 1)
+            if sub[1] is None:
+                continue
+            cost = (max_w - ww) ** 2 + sub[0]
+            if cost < best[0]:
+                best = (cost, [j] + sub[1])
+        memo[key] = best
+        return best
+
+    _, cuts = solve(0, k)
+    if cuts is None:
+        return None
+    lines, start = [], 0
+    for c in cuts:
+        lines.append(" ".join(tokens[start:c]))
+        start = c
+    return lines
+
+
+def _draw_title_balanced(draw, text, x, y, w, h, fill, *, max_size=92, min_size=40,
+                         stroke=0, stroke_fill=None, top_align=False):
+    """Dibuja el texto lo más grande posible, con líneas balanceadas, centrado
+    horizontalmente y (por defecto) verticalmente dentro de la caja (w x h).
+    `stroke`/`stroke_fill` dibujan un contorno (estilo logo). Devuelve la y final."""
+    text = (text or "").strip()
+    if not text:
+        return y
+
+    def _render(f, lines, yy):
+        lh = _line_h(f, "Ay") + max(10, stroke * 2)
+        for ln in lines:
+            lx = x + (w - draw.textlength(ln, font=f)) / 2
+            draw.text((lx, yy), ln, font=f, fill=fill,
+                      stroke_width=stroke, stroke_fill=stroke_fill or fill)
+            yy += lh
+        return yy
+
+    avail = w - 2 * stroke
+    chunks = _name_chunks(text)
+    for size in range(max_size, min_size - 1, -3):
+        f = _font(size, bold=True)
+        lines = _balanced_tokens(draw, chunks, f, avail)  # mantiene nombres juntos
+        if not lines:
+            continue  # algún nombre no entra a este tamaño → achicar
+        lh = _line_h(f, "Ay") + max(10, stroke * 2)
+        if len(lines) * lh <= h:
+            yy = y if top_align else y + max(0, (h - len(lines) * lh) // 2)
+            return _render(f, lines, yy)
+    # último recurso: al tamaño mínimo, permitir partir palabra por palabra
+    f = _font(min_size, bold=True)
+    lh = _line_h(f, "Ay") + max(10, stroke * 2)
+    lines = (_balanced_tokens(draw, text.split(), f, avail) or _wrap(draw, text, f, avail))[:max(1, h // lh)]
+    return _render(f, lines, y)
+
+
+_rembg_session = None
+
+
+def _cutout_rgba(src_rgb: "Image.Image"):
+    """Recorta SOLO a las personas del frame con rembg (local, gratis). Usa el modelo
+    'u2net_human_seg' (especializado en humanos): descarta escritorios, cajitas de
+    videollamada, etc. Devuelve RGBA o None."""
+    global _rembg_session
+    try:
+        from rembg import remove, new_session
+        if _rembg_session is None:
+            _rembg_session = new_session("u2net_human_seg")
+        return remove(src_rgb, session=_rembg_session)
+    except Exception as e:
+        logger.warning(f"rembg no disponible / falló el recorte: {e}")
+        return None
+
+
+def _add_outline(cut_rgba: "Image.Image", grow: int = 7,
+                 color=(255, 255, 255, 255)) -> "Image.Image":
+    """Agrega un contorno (sticker) alrededor del recorte, dilatando su alpha."""
+    alpha = cut_rgba.split()[3]
+    k = grow * 2 + 1
+    dil = alpha.filter(ImageFilter.MaxFilter(k if k <= 9 else 9))
+    if grow > 4:  # más grosor: dilatar de nuevo
+        dil = dil.filter(ImageFilter.MaxFilter(9))
+    dil = dil.filter(ImageFilter.GaussianBlur(1)).point(lambda p: 255 if p > 60 else 0)
+    base = Image.new("RGBA", cut_rgba.size, (0, 0, 0, 0))
+    base.paste(Image.new("RGBA", cut_rgba.size, color), (0, 0), dil)
+    base.alpha_composite(cut_rgba)
+    return base
+
+
+def _split_two_figures(cut_rgba: "Image.Image") -> list:
+    """Separa el recorte en DOS figuras (si hay un hueco vertical en el medio, típico
+    de la videollamada con dos personas). Devuelve [fig] o [fig_izq, fig_der], ya
+    recortadas a su contenido. Para armar el 'vs'."""
+    try:
+        import numpy as np
+        a = np.asarray(cut_rgba.split()[3], dtype=float)
+        cols = a.sum(axis=0)
+        if cols.max() <= 0:
+            return [cut_rgba]
+        present = cols > cols.max() * 0.06
+        xs = np.where(present)[0]
+        if len(xs) == 0:
+            return [cut_rgba]
+        x0, x1 = int(xs[0]), int(xs[-1])
+        gaps, i = [], x0
+        while i <= x1:
+            if not present[i]:
+                j = i
+                while j <= x1 and not present[j]:
+                    j += 1
+                gaps.append((i, j - 1))
+                i = j
+            else:
+                i += 1
+        mid = (x0 + x1) / 2
+        best = None
+        for g0, g1 in gaps:
+            if g1 - g0 < 10:
+                continue
+            score = (g1 - g0) - abs((g0 + g1) / 2 - mid) * 0.6
+            if best is None or score > best[0]:
+                best = (score, g0, g1)
+        if best is None:
+            return [cut_rgba]
+        _, g0, g1 = best
+        figs = []
+        for box in ((x0, 0, g0 + 1, cut_rgba.height), (g1, 0, x1 + 1, cut_rgba.height)):
+            f = cut_rgba.crop(box)
+            bb = f.split()[3].getbbox()
+            if bb:
+                figs.append(f.crop(bb))
+        return figs if len(figs) == 2 else [cut_rgba]
+    except Exception as e:
+        logger.warning(f"No se pudieron separar las figuras: {e}")
+        return [cut_rgba]
+
+
+def _orange_fade(canvas_rgba: "Image.Image", frac: float = 0.55, max_alpha: int = 240) -> "Image.Image":
+    """Degradado naranja DIFUMINADO desde el borde inferior (transparente arriba →
+    naranja abajo), no una caja lineal."""
+    h, w = YT_TH, YT_TW
+    y0 = int(h * (1 - frac))
+    grad = Image.new("L", (1, h), 0)
+    gpx = grad.load()
+    for y in range(h):
+        gpx[0, y] = 0 if y <= y0 else int(((y - y0) / (h - y0)) ** 1.6 * max_alpha)
+    grad = grad.resize((w, h))
+    orange = Image.new("RGBA", (w, h), RADIO_ORANGE + (255,))
+    orange.putalpha(grad)
+    canvas_rgba.alpha_composite(orange)
+    return canvas_rgba
+
+
+def _draw_title_left(draw, text, x, bottom, max_w, max_h, *, max_size, min_size,
+                     fill, stroke, stroke_fill, max_lines=3):
+    """Título grande ALINEADO A LA IZQUIERDA, anclado al borde inferior `bottom`,
+    nombres sin cortar. Devuelve la y de la primera línea."""
+    text = (text or "").strip()
+    if not text:
+        return bottom
+    chunks = _name_chunks(text)
+    for size in range(max_size, min_size - 1, -3):
+        f = _font(size, bold=True)
+        lines = _balanced_tokens(draw, chunks, f, max_w)
+        if not lines or len(lines) > max_lines:
+            continue
+        lh = _line_h(f, "Ay") + max(12, stroke * 2)
+        if len(lines) * lh <= max_h:
+            yy = bottom - len(lines) * lh
+            top = yy
+            for ln in lines:
+                draw.text((x, yy), ln, font=f, fill=fill,
+                          stroke_width=stroke, stroke_fill=stroke_fill)
+                yy += lh
+            return top
+    f = _font(min_size, bold=True)
+    lh = _line_h(f, "Ay") + max(12, stroke * 2)
+    lines = (_balanced_tokens(draw, text.split(), f, max_w) or _wrap(draw, text, f, max_w))[:max_lines]
+    yy = bottom - len(lines) * lh
+    top = yy
+    for ln in lines:
+        draw.text((x, yy), ln, font=f, fill=fill, stroke_width=stroke, stroke_fill=stroke_fill)
+        yy += lh
+    return top
+
+
+def _draw_title_centered(draw, text, cx, bottom, max_w, max_h, *, max_size, min_size,
+                         fill, stroke, stroke_fill, max_lines=4):
+    """Título CENTRADO, anclado al borde inferior `bottom`. Corta después del primer
+    ':' (lo de antes va en un renglón y lo de después abajo) y mantiene nombres juntos.
+    Devuelve la y de la primera línea."""
+    text = (text or "").strip()
+    if not text:
+        return bottom
+    if ":" in text:
+        i = text.index(":")
+        segs = [text[:i + 1].strip(), text[i + 1:].strip()]
+    else:
+        segs = [text]
+    segs = [s for s in segs if s]
+
+    def _wrap_all(f):
+        out = []
+        for s in segs:
+            sl = _balanced_tokens(draw, _name_chunks(s), f, max_w)
+            if sl is None:
+                return None
+            out.extend(sl)
+        return out
+
+    for size in range(max_size, min_size - 1, -3):
+        f = _font(size, bold=True)
+        lines = _wrap_all(f)
+        if not lines or len(lines) > max_lines:
+            continue
+        lh = _line_h(f, "Ay") + max(10, stroke * 2)
+        if len(lines) * lh <= max_h:
+            yy = bottom - len(lines) * lh
+            top = yy
+            for ln in lines:
+                draw.text((cx - draw.textlength(ln, font=f) / 2, yy), ln, font=f, fill=fill,
+                          stroke_width=stroke, stroke_fill=stroke_fill)
+                yy += lh
+            return top
+    f = _font(min_size, bold=True)
+    lh = _line_h(f, "Ay") + max(10, stroke * 2)
+    lines = (_wrap_all(f) or _wrap(draw, text, f, max_w))[:max_lines]
+    yy = bottom - len(lines) * lh
+    top = yy
+    for ln in lines:
+        draw.text((cx - draw.textlength(ln, font=f) / 2, yy), ln, font=f, fill=fill,
+                  stroke_width=stroke, stroke_fill=stroke_fill)
+        yy += lh
+    return top
+
+
+def _bg_naranja(src: "Image.Image") -> "Image.Image":
+    """Fondo naranja vibrante: el frame desenfocado + saturado + tinte naranja."""
+    bg = _cover(src, YT_TW, YT_TH).filter(ImageFilter.GaussianBlur(24))
+    bg = ImageEnhance.Color(bg).enhance(1.35)
+    bg = ImageEnhance.Brightness(bg).enhance(0.92).convert("RGBA")
+    bg.alpha_composite(Image.new("RGBA", (YT_TW, YT_TH), RADIO_ORANGE + (135,)))
+    return bg
+
+
+def _guardar_thumb(canvas, titulo, out_path) -> Path:
+    if out_path is not None:
+        out = Path(out_path)
+        out.parent.mkdir(parents=True, exist_ok=True)
+    else:
+        PREVIEW_DIR.mkdir(exist_ok=True)
+        out = PREVIEW_DIR / f"yt_thumb_{_safe_stem(titulo, 'video')}.jpg"
+    canvas.save(out, "JPEG", quality=90)
+    logger.debug(f"Miniatura YouTube compuesta: {out}")
+    return out
+
+
+def _trim_black_borders(img: "Image.Image") -> "Image.Image":
+    """Recorta las barras/bordes negros del frame (pillarbox/letterbox)."""
+    try:
+        import numpy as np
+        a = np.asarray(img.convert("L"))
+        mask = a > 18
+        cols = np.where(mask.any(axis=0))[0]
+        rows = np.where(mask.any(axis=1))[0]
+        if len(cols) and len(rows):
+            return img.crop((int(cols[0]), int(rows[0]), int(cols[-1]) + 1, int(rows[-1]) + 1))
+    except Exception:
+        pass
+    return img
+
+
+def _compose_programa(src, gancho, keyword, out_path) -> Path:
+    """Layout LIMPIO para el programa (Mañana del Centro): la card del programa fundida
+    arriba (sin marco ni barras negras), y el GANCHO con palabra resaltada abajo."""
+    CARD_BOTTOM = 452               # la card no baja de acá; debajo va el texto
+    base = _bg_naranja(src)         # fondo naranja vibrante (la card desenfocada + tinte)
+
+    # ZOOM al centro de la card (donde está el texto del logo) para que se vea GRANDE,
+    # sin los márgenes naranjas que trae alrededor.
+    bc = _trim_black_borders(src)
+    bw, bh0 = bc.size
+    bc = bc.crop((int(bw * 0.06), int(bh0 * 0.16), int(bw * 0.94), int(bh0 * 0.84)))
+    card = _contain(bc, int(YT_TW * 0.99), CARD_BOTTOM - 6).convert("RGBA")
+    cw, ch = card.size
+    # Difuminamos los bordes para que se FUNDA con el naranja (sin rectángulo).
+    inset = max(8, int(min(cw, ch) * 0.10))
+    m = Image.new("L", (cw, ch), 0)
+    ImageDraw.Draw(m).rectangle((inset, inset, cw - inset, ch - inset), fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(inset * 0.8))
+    card.putalpha(m)
+    base.alpha_composite(card, ((YT_TW - cw) // 2, 6 + (CARD_BOTTOM - 6 - ch) // 2))
+
+    _bottom_scrim(base, frac=0.42, max_alpha=205, color=(12, 7, 3))
+    canvas = base.convert("RGB")
+    draw = ImageDraw.Draw(canvas)
+
+    # GANCHO con palabra resaltada, centrado abajo (no se superpone con la card de arriba).
+    _draw_hook(draw, gancho, keyword, YT_TW // 2, YT_TH - 30,
+               YT_TW - 2 * MARGIN, YT_TH - CARD_BOTTOM - 44,
+               max_size=72, min_size=34)
+
+    return _guardar_thumb(canvas, gancho, out_path)  # SIN logo de Radio del Centro
+
+
+def _norm_w(w: str) -> str:
+    s = "".join(c for c in (w or "").lower() if c.isalnum())
+    for a, b in (("á", "a"), ("é", "e"), ("í", "i"), ("ó", "o"), ("ú", "u"), ("ñ", "n")):
+        s = s.replace(a, b)
+    return s
+
+
+def _draw_hook(draw, text, keyword, cx, bottom, max_w, max_h, *, max_size=118, min_size=46,
+               base=(255, 255, 255), hl=(255, 196, 0), stroke=7):
+    """GANCHO centrado, anclado abajo, en MAYÚSCULAS, con UNA palabra resaltada en color
+    (estilo growth/CTR). Devuelve la y superior."""
+    text = (text or "").strip().upper()
+    if not text:
+        return bottom
+    kwset = {_norm_w(x) for x in (keyword or "").split() if _norm_w(x)}
+    words = text.split()
+
+    def wrap(f):
+        lines, cur = [], []
+        for w in words:
+            if not cur or draw.textlength(" ".join(cur + [w]), font=f) <= max_w:
+                cur.append(w)
+            else:
+                lines.append(cur)
+                cur = [w]
+        if cur:
+            lines.append(cur)
+        return lines
+
+    def emit(f, lines):
+        lh = _line_h(f, "Ay") + max(12, stroke * 2)
+        y = bottom - len(lines) * lh
+        top = y
+        sp = draw.textlength(" ", font=f)
+        for ln in lines:
+            widths = [draw.textlength(w, font=f) for w in ln]
+            total = sum(widths) + sp * (len(ln) - 1)
+            x = cx - total / 2
+            for w, wd in zip(ln, widths):
+                col = hl if _norm_w(w) in kwset else base
+                draw.text((x, y), w, font=f, fill=col, stroke_width=stroke, stroke_fill=(6, 6, 6))
+                x += wd + sp
+            y += lh
+        return top
+
+    for size in range(max_size, min_size - 1, -4):
+        f = _font(size, bold=True)
+        lines = wrap(f)
+        lh = _line_h(f, "Ay") + max(12, stroke * 2)
+        if len(lines) * lh <= max_h and all(draw.textlength(" ".join(l), font=f) <= max_w for l in lines):
+            return emit(f, lines)
+    fm = _font(min_size, bold=True)
+    return emit(fm, wrap(fm))
+
+
+def _vignette(canvas_rgba, strength=150):
+    """Oscurece las esquinas (look cinematográfico)."""
+    w, h = canvas_rgba.size
+    m = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(m).ellipse((int(w * 0.06), int(h * 0.02), int(w * 0.94), int(h * 1.06)), fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(170))
+    black = Image.new("RGBA", (w, h), (0, 0, 0, 255))
+    black.putalpha(m.point(lambda p: int((255 - p) / 255 * strength)))
+    canvas_rgba.alpha_composite(black)
+
+
+def _cinematic_bg(src):
+    """Fondo cinematográfico: frame muy desenfocado, oscuro, contrastado, con tinte
+    naranja sutil (acento, no lavado) y viñeta."""
+    bg = _cover(src, YT_TW, YT_TH).filter(ImageFilter.GaussianBlur(22))
+    bg = ImageEnhance.Contrast(bg).enhance(1.18)
+    bg = ImageEnhance.Brightness(bg).enhance(0.5)
+    bg = ImageEnhance.Color(bg).enhance(1.12).convert("RGBA")
+    bg.alpha_composite(Image.new("RGBA", (YT_TW, YT_TH), RADIO_ORANGE + (55,)))
+    _vignette(bg, strength=150)
+    return bg
+
+
+def _soft_shadow(cut_rgba, blur=20, alpha=165):
+    """Sombra suave de la figura (le da profundidad/separación premium)."""
+    sh = Image.new("RGBA", cut_rgba.size, (0, 0, 0, 0))
+    sh.paste(Image.new("RGBA", cut_rgba.size, (0, 0, 0, alpha)), (0, 0), cut_rgba.split()[3])
+    return sh.filter(ImageFilter.GaussianBlur(blur))
+
+
+def _bottom_scrim(canvas_rgba, frac=0.55, max_alpha=215, color=(10, 7, 4)):
+    """Degradado OSCURO desde abajo para que el gancho se lea con fuerza."""
+    h, w = YT_TH, YT_TW
+    y0 = int(h * (1 - frac))
+    grad = Image.new("L", (1, h), 0)
+    gpx = grad.load()
+    for y in range(h):
+        gpx[0, y] = 0 if y <= y0 else int(((y - y0) / (h - y0)) ** 1.5 * max_alpha)
+    layer = Image.new("RGBA", (w, h), color + (255,))
+    layer.putalpha(grad.resize((w, h)))
+    canvas_rgba.alpha_composite(layer)
+
+
+def compose_youtube_thumbnail(fondo_path: Path, gancho: str, keyword: str = "",
+                              out_path: Path | None = None, programa: bool = False) -> Path:
+    """Miniatura 1280x720 SIMPLE de marca (sin recortes ni efectos): el frame del video
+    arriba con marco blanco, y abajo una banda naranja con el wordmark 'RADIO DEL CENTRO'
+    y el GANCHO (texto con gancho + SEO, en negro con contorno blanco, sin cortar nombres)."""
+    try:
+        src = Image.open(fondo_path).convert("RGB")
+    except Exception as e:
+        logger.warning(f"No se pudo abrir el frame de la miniatura: {e}")
+        src = Image.new("RGB", (YT_TW, YT_TH), (20, 20, 20))
+    src = _trim_black_borders(src)  # saca barras negras (p.ej. la card del programa)
+
+    canvas = Image.new("RGB", (YT_TW, YT_TH), RADIO_ORANGE)
+    draw = ImageDraw.Draw(canvas)
+
+    # Foto del video arriba, con marco blanco que la rodea.
+    bordo, foto_h = 14, 432
+    draw.rectangle((0, 0, YT_TW, foto_h + 2 * bordo), fill=(255, 255, 255))
+    canvas.paste(_cover(src, YT_TW - 2 * bordo, foto_h), (bordo, bordo))
+
+    # Banda naranja: wordmark de la radio + gancho.
+    y = _paste_radio_logo(canvas, foto_h + 2 * bordo + 10, 56)
+    box_y = y + 8
+    box_h = YT_TH - box_y - 18
+    _draw_title_centered(draw, gancho, YT_TW // 2, YT_TH - 20, YT_TW - 2 * MARGIN, box_h,
+                         max_size=68, min_size=28, fill=(12, 12, 12), stroke=5,
+                         stroke_fill=(255, 255, 255), max_lines=3)
+    return _guardar_thumb(canvas, gancho, out_path)

@@ -178,6 +178,83 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
     return {"titulo": titulo, "bajada": bajada, "descripcion": descripcion, "tags": tags}
 
 
+GANCHO_PROMPT = (
+    "Actuás como DIRECTOR CREATIVO de crecimiento orgánico de YouTube (NO como redacción "
+    "periodística). Tu única misión: definir el GANCHO de la MINIATURA para MAXIMIZAR el CTR.\n"
+    "Análisis previo OBLIGATORIO: detectá (a) la EMOCIÓN dominante, (b) la DECLARACIÓN o dato MÁS "
+    "FUERTE, (c) la frase con mayor potencial VIRAL y de CURIOSIDAD. Elegí la que genere MÁS clics.\n"
+    "En entrevistas: el ENTREVISTADO y su DECLARACIÓN son protagonistas. La miniatura JAMÁS debe "
+    "transmitir 'dos personas conversando'; debe transmitir 'esta persona acaba de revelar algo "
+    "importante'.\n"
+    "Prioridad ante conflicto: CTR > curiosidad > retención > SEO. Español rioplatense. PROHIBIDO el "
+    "clickbait mentiroso o difamatorio: el gancho debe ser fiel a lo que realmente se dice.\n"
+    "Control de calidad: '¿yo haría clic en esto sin conocer a nadie de la imagen?'. Si no, rehacelo.\n"
+    "Devolvé EXACTAMENTE:\n"
+    "- gancho: texto CORTO para la miniatura (MÁXIMO 42 caracteres) que combine GANCHO de curiosidad "
+    "CON SEO: incluí la palabra clave principal o el nombre del protagonista/tema, y sumale intriga. "
+    "Formato ideal 'CLAVE: hook' (ej. 'Vaccarezza: ¿vocación o interés?'). Sin punto final, sin comillas.\n"
+    "- keyword: UNA sola palabra del gancho (la más fuerte) para resaltar; tiene que estar TAL CUAL "
+    "dentro del gancho.\n"
+    "- emocion: 1 palabra con la emoción dominante.\n"
+)
+
+_GANCHO_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "gancho": {"type": "string"},
+        "keyword": {"type": "string"},
+        "emocion": {"type": "string"},
+    },
+    "required": ["gancho", "keyword", "emocion"],
+}
+
+
+def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video: bool = True) -> dict:
+    """Genera el GANCHO de la miniatura (CTR-first). Si usar_video, Gemini analiza el
+    video de YouTube directo (primeros minutos, para acotar la cuota) y saca la frase/
+    emoción más fuerte; si no, trabaja con título+descripción. Devuelve {gancho, keyword,
+    emocion}."""
+    key = get("GEMINI_API_KEY")
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY en .env.")
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    instruc = (GANCHO_PROMPT + "\nTÍTULO: " + (titulo or "") +
+               "\nDESCRIPCIÓN: " + (descripcion or "")[:600])
+    parts = [{"text": instruc}]
+    if usar_video and youtube_url:
+        # primeros 4 min, baja resolución → ~70k tokens en vez de ~400k
+        parts.append({"file_data": {"file_uri": youtube_url},
+                      "video_metadata": {"end_offset": "240s"}})
+    payload = {
+        "contents": [{"role": "user", "parts": parts}],
+        "generationConfig": {
+            "temperature": 0.75,
+            "response_mime_type": "application/json",
+            "response_schema": _GANCHO_SCHEMA,
+        },
+    }
+    logger.info(f"Gemini gancho miniatura (video={usar_video and bool(youtube_url)})…")
+    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
+    r = None
+    for intento in range(4):
+        r = requests.post(url, json=payload, timeout=300)
+        if r.status_code in (429, 500, 503) and intento < 3:
+            time.sleep(6 * (intento + 1))
+            continue
+        break
+    if r.status_code >= 400:
+        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    try:
+        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        raw = json.loads(cand)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+    gancho = str(raw.get("gancho", "")).strip().strip('"').rstrip(".")[:42]
+    keyword = str(raw.get("keyword", "")).strip().strip('"')
+    emocion = str(raw.get("emocion", "")).strip()
+    return {"gancho": gancho, "keyword": keyword, "emocion": emocion}
+
+
 def _mime(path: Path) -> str:
     return _MIME.get(path.suffix.lower(), "application/octet-stream")
 
@@ -234,6 +311,89 @@ def _img_part(path: Path) -> dict:
     return {"inline_data": {"mime_type": _mime(path), "data": b64}}
 
 
+def _post_generate(parts: list, key: str, model: str, temperature: float = 0.4) -> dict:
+    """Llama a Gemini generateContent con esos `parts` y el schema de nota, reintentando
+    ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
+    payload = {
+        "contents": [{"role": "user", "parts": parts}],
+        "generationConfig": {
+            "temperature": temperature,
+            "response_mime_type": "application/json",
+            "response_schema": _SCHEMA,
+        },
+    }
+    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
+    r = None
+    for intento in range(4):
+        r = requests.post(url, json=payload, timeout=300)
+        if r.status_code in (429, 500, 503) and intento < 3:
+            espera = 5 * (intento + 1)
+            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
+            time.sleep(espera)
+            continue
+        break
+    if r.status_code >= 400:
+        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    try:
+        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        return json.loads(cand)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+
+
+def _parse_nota(raw: dict) -> dict:
+    """Normaliza el JSON crudo de Gemini al dict de nota que usa el sistema."""
+    try:
+        momento = float(raw.get("mejor_momento_seg") or 0)
+    except (TypeError, ValueError):
+        momento = 0.0
+    segmentos = []
+    for s in (raw.get("segmentos_destacados") or []):
+        try:
+            ini, fin = float(s.get("inicio")), float(s.get("fin"))
+            if fin > ini >= 0:
+                segmentos.append({"inicio": ini, "fin": fin})
+        except (TypeError, ValueError, AttributeError):
+            continue
+    nota = {
+        "hay_noticia": bool(raw.get("hay_noticia")),
+        "volanta": str(raw.get("volanta", "")).strip(),
+        "titulo": str(raw.get("titulo", "")).strip(),
+        "texto": str(raw.get("texto", "")).strip(),
+        "resumen": str(raw.get("resumen", "")).strip(),
+        "mejor_momento_seg": max(0.0, momento),
+        "segmentos": segmentos,
+    }
+    if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
+        nota["hay_noticia"] = False
+    return nota
+
+
+def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "") -> dict:
+    """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
+    nada): Gemini ingiere el video desde YouTube y devuelve la misma nota
+    {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}. Gratis.
+
+    `instrucciones`: directiva extra de redacción (ej. pedir un cuerpo más largo)."""
+    key = get("GEMINI_API_KEY")
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    prompt = PROMPT_BASE
+    if (instrucciones or "").strip():
+        prompt += ("\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip())
+    if (extra_text or "").strip():
+        prompt += ("\nDATOS/CONTEXTO adicional (tenelo MUY en cuenta para la nota):\n"
+                   + extra_text.strip())
+    parts = [{"text": prompt}, {"file_data": {"file_uri": url}}]
+    logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
+    raw = _post_generate(parts, key, model, temperature=0.4)
+    nota = _parse_nota(raw)
+    logger.info(f"Gemini OK (YouTube): hay_noticia={nota['hay_noticia']} | "
+                f"«{nota['volanta']} — {nota['titulo']}»")
+    return nota
+
+
 def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> dict:
     """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
 
@@ -271,25 +431,10 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> di
         except Exception as e:
             logger.warning(f"No se pudo adjuntar la foto de contexto {img}: {e}")
 
-    payload = {
-        "contents": [{"role": "user", "parts": parts}],
-        "generationConfig": {
-            "temperature": 0.4,
-            "response_mime_type": "application/json",
-            "response_schema": _SCHEMA,
-        },
-    }
-
     logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                 f"{len(image_paths or [])} foto(s))…")
     try:
-        r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={key}", json=payload, timeout=300)
-        if r.status_code >= 400:
-            raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
-        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        raw = json.loads(cand)
-    except (KeyError, IndexError, json.JSONDecodeError) as e:
-        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+        raw = _post_generate(parts, key, model, temperature=0.4)
     finally:
         if file_name:  # borrar el archivo subido (best-effort)
             try:
@@ -297,29 +442,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> di
             except Exception:
                 pass
 
-    try:
-        momento = float(raw.get("mejor_momento_seg") or 0)
-    except (TypeError, ValueError):
-        momento = 0.0
-    segmentos = []
-    for s in (raw.get("segmentos_destacados") or []):
-        try:
-            ini, fin = float(s.get("inicio")), float(s.get("fin"))
-            if fin > ini >= 0:
-                segmentos.append({"inicio": ini, "fin": fin})
-        except (TypeError, ValueError, AttributeError):
-            continue
-    nota = {
-        "hay_noticia": bool(raw.get("hay_noticia")),
-        "volanta": str(raw.get("volanta", "")).strip(),
-        "titulo": str(raw.get("titulo", "")).strip(),
-        "texto": str(raw.get("texto", "")).strip(),
-        "resumen": str(raw.get("resumen", "")).strip(),
-        "mejor_momento_seg": max(0.0, momento),
-        "segmentos": segmentos,
-    }
-    if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
-        nota["hay_noticia"] = False
+    nota = _parse_nota(raw)
     logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                 f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
     return nota

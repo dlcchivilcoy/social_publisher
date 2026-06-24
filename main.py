@@ -139,6 +139,32 @@ def main() -> None:
         help="Enviar por mail el Excel de contabilidad de videos por colaborador (mes anterior, o --mes YYYY-MM).",
     )
     parser.add_argument(
+        "--yt-seo",
+        action="store_true",
+        help="Generar propuestas SEO (título, descripción, miniatura) de los últimos videos de YouTube. Revisión manual.",
+    )
+    parser.add_argument(
+        "--yt-seo-apply",
+        action="store_true",
+        help="Aplicar en YouTube las propuestas marcadas con 'aplicar': true en youtube_seo/propuestas.json.",
+    )
+    parser.add_argument(
+        "--yt-seo-auto",
+        action="store_true",
+        help="AUTOMÁTICO: a los videos subidos HOY les aplica solo título+descripción+miniatura nuevos (con registro anti-repetición).",
+    )
+    parser.add_argument(
+        "--yt-desgrabar",
+        action="store_true",
+        help="DESGRABAR a texto + miniatura las notas de YouTube de hoy (Radio del Centro) y dejarlas en una carpeta del escritorio (local, Gemini, 13:30).",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=15,
+        help="Cantidad de videos a procesar para --yt-seo (por defecto 15).",
+    )
+    parser.add_argument(
         "--file",
         type=str,
         default=None,
@@ -280,6 +306,26 @@ def main() -> None:
         from reporte import run_videos_report
         logger.info(f"Modo --videos-report (dry_run={args.dry_run}). mes={args.mes}")
         run_videos_report(mes=args.mes, dry_run=args.dry_run)
+        return
+    if args.yt_seo:
+        from youtube_seo import run_generate
+        logger.info(f"Modo --yt-seo (limit={args.limit}, dry_run={args.dry_run}).")
+        run_generate(limit=args.limit, dry_run=args.dry_run)
+        return
+    if args.yt_seo_apply:
+        from youtube_seo import run_apply
+        logger.info(f"Modo --yt-seo-apply (dry_run={args.dry_run}).")
+        run_apply(dry_run=args.dry_run)
+        return
+    if args.yt_seo_auto:
+        from youtube_seo import run_auto
+        logger.info(f"Modo --yt-seo-auto (dry_run={args.dry_run}).")
+        run_auto(dry_run=args.dry_run)
+        return
+    if args.yt_desgrabar:
+        from yt_desgrabador import run_yt_desgrabar
+        logger.info(f"Modo --yt-desgrabar (dry_run={args.dry_run}).")
+        run_yt_desgrabar(dry_run=args.dry_run)
         return
 
     if args.dry_run:
