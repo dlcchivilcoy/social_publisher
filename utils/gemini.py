@@ -178,6 +178,83 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
     return {"titulo": titulo, "bajada": bajada, "descripcion": descripcion, "tags": tags}
 
 
+GANCHO_PROMPT = (
+    "Actuás como DIRECTOR CREATIVO de crecimiento orgánico de YouTube (NO como redacción "
+    "periodística). Tu única misión: definir el GANCHO de la MINIATURA para MAXIMIZAR el CTR.\n"
+    "Análisis previo OBLIGATORIO: detectá (a) la EMOCIÓN dominante, (b) la DECLARACIÓN o dato MÁS "
+    "FUERTE, (c) la frase con mayor potencial VIRAL y de CURIOSIDAD. Elegí la que genere MÁS clics.\n"
+    "En entrevistas: el ENTREVISTADO y su DECLARACIÓN son protagonistas. La miniatura JAMÁS debe "
+    "transmitir 'dos personas conversando'; debe transmitir 'esta persona acaba de revelar algo "
+    "importante'.\n"
+    "Prioridad ante conflicto: CTR > curiosidad > retención > SEO. Español rioplatense. PROHIBIDO el "
+    "clickbait mentiroso o difamatorio: el gancho debe ser fiel a lo que realmente se dice.\n"
+    "Control de calidad: '¿yo haría clic en esto sin conocer a nadie de la imagen?'. Si no, rehacelo.\n"
+    "Devolvé EXACTAMENTE:\n"
+    "- gancho: texto CORTO para la miniatura (MÁXIMO 42 caracteres) que combine GANCHO de curiosidad "
+    "CON SEO: incluí la palabra clave principal o el nombre del protagonista/tema, y sumale intriga. "
+    "Formato ideal 'CLAVE: hook' (ej. 'Vaccarezza: ¿vocación o interés?'). Sin punto final, sin comillas.\n"
+    "- keyword: UNA sola palabra del gancho (la más fuerte) para resaltar; tiene que estar TAL CUAL "
+    "dentro del gancho.\n"
+    "- emocion: 1 palabra con la emoción dominante.\n"
+)
+
+_GANCHO_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "gancho": {"type": "string"},
+        "keyword": {"type": "string"},
+        "emocion": {"type": "string"},
+    },
+    "required": ["gancho", "keyword", "emocion"],
+}
+
+
+def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video: bool = True) -> dict:
+    """Genera el GANCHO de la miniatura (CTR-first). Si usar_video, Gemini analiza el
+    video de YouTube directo (primeros minutos, para acotar la cuota) y saca la frase/
+    emoción más fuerte; si no, trabaja con título+descripción. Devuelve {gancho, keyword,
+    emocion}."""
+    key = get("GEMINI_API_KEY")
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY en .env.")
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    instruc = (GANCHO_PROMPT + "\nTÍTULO: " + (titulo or "") +
+               "\nDESCRIPCIÓN: " + (descripcion or "")[:600])
+    parts = [{"text": instruc}]
+    if usar_video and youtube_url:
+        # primeros 4 min, baja resolución → ~70k tokens en vez de ~400k
+        parts.append({"file_data": {"file_uri": youtube_url},
+                      "video_metadata": {"end_offset": "240s"}})
+    payload = {
+        "contents": [{"role": "user", "parts": parts}],
+        "generationConfig": {
+            "temperature": 0.75,
+            "response_mime_type": "application/json",
+            "response_schema": _GANCHO_SCHEMA,
+        },
+    }
+    logger.info(f"Gemini gancho miniatura (video={usar_video and bool(youtube_url)})…")
+    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
+    r = None
+    for intento in range(4):
+        r = requests.post(url, json=payload, timeout=300)
+        if r.status_code in (429, 500, 503) and intento < 3:
+            time.sleep(6 * (intento + 1))
+            continue
+        break
+    if r.status_code >= 400:
+        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    try:
+        cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        raw = json.loads(cand)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+    gancho = str(raw.get("gancho", "")).strip().strip('"').rstrip(".")[:42]
+    keyword = str(raw.get("keyword", "")).strip().strip('"')
+    emocion = str(raw.get("emocion", "")).strip()
+    return {"gancho": gancho, "keyword": keyword, "emocion": emocion}
+
+
 def _mime(path: Path) -> str:
     return _MIME.get(path.suffix.lower(), "application/octet-stream")
 
