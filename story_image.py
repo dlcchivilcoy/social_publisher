@@ -922,9 +922,9 @@ def compose_reel_intro(fecha_str: str, photos: list = None) -> Path:
 
 def compose_reel_slide(photo_path: Path, titular: str, resumen: str, rank: int, views: int = 0) -> Path:
     """Una placa del reel: badge de ranking + foto entera (bien encuadrada) +
-    TITULAR COMPLETO grande (autoajustado, centrado) + resumen hasta 5 líneas
+    TITULAR grande (autoajustado, centrado) + DESCRIPCIÓN de hasta 3 líneas
     SIN puntos suspensivos + lecturas. Las cajas se reservan de abajo hacia arriba
-    para que el titular y el resumen siempre entren completos."""
+    para que todo entre completo."""
     canvas = Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(canvas)
     _paste_logo(canvas, 70, 560)
@@ -942,12 +942,21 @@ def compose_reel_slide(photo_path: Path, titular: str, resumen: str, rank: int, 
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del reel: {e}")
 
-    # SIN descripción: el TITULAR COMPLETO ocupa todo el espacio entre la foto y las
-    # lecturas. Caja grande + min_size bajo garantizan que entre entero (sin '…').
+    # Descripción: MÁXIMO 3 líneas (pedido del usuario), sin '…'. Se reserva su caja
+    # justo encima de las lecturas; el titular ocupa lo que queda entre la foto y ella.
+    f_res = _font(40)
+    res_lines = _resumen_lineas(draw, resumen, f_res, max_w, max_lines=3)
+    res_lh = _line_h(f_res, "Ay") + 10
+    res_h = len(res_lines) * res_lh
+    res_top = (views_top - (24 if res_h else 0)) - res_h
+
     titular_box_top = photo_top + photo_h + 30
-    titular_box_h = max(300, (views_top - 24) - titular_box_top)
+    titular_box_h = max(220, (res_top - 24) - titular_box_top)
     _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT,
-                       max_size=98, min_size=38, center=True)
+                       max_size=92, min_size=38, center=True)
+
+    if res_lines:
+        _texto_centrado(draw, res_lines, f_res, res_top, GRAY, gap=10)
 
     if views and views > 0:
         _texto_centrado(draw, [f"{views:,}".replace(",", ".") + " lecturas"], _font(34, bold=True), views_top, ACCENT)

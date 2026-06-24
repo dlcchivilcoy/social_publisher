@@ -132,6 +132,13 @@ def run_news_stories(posts_folder: Path, allowed_pages: set[int], dry_run: bool 
 def run_youtube_live_story(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Historia del vivo de YouTube [{modo}] ===")
+
+    # DESACTIVADA (pedido del usuario): ya NO se publica en IG/FB la historia del
+    # vivo de Radio del Centro. Para reactivarla: YT_LIVE_STORY=1 en .env.
+    if (get("YT_LIVE_STORY") or "0").strip().lower() not in ("1", "true", "si", "sí", "on"):
+        logger.info("Historia del vivo de YouTube DESACTIVADA (YT_LIVE_STORY no está en 1). Se omite.")
+        return
+
     handle = get("YT_HANDLE") or "RadiodelCentro"
 
     vivo = youtube.vivo_actual(handle)

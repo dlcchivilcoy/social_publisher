@@ -278,7 +278,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     # Caption (bajada): por nota → titular + primer párrafo. + CTA + hashtags.
     bloques = []
     for titular, primer in bajadas:
-        p = _resumen_caption(primer, max_chars=280)
+        # Descripción de cada nota acotada a ~3 líneas (pedido del usuario).
+        p = _resumen_caption(primer, max_chars=130)
         bloques.append(f"📌 {titular}" + (f"\n{p}" if p else ""))
     cuerpo_cap = "\n\n".join(bloques)
 
