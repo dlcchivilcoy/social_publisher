@@ -144,16 +144,68 @@ def publish_story(image_path: Path) -> dict:
 
 
 def publish_video(message: str, video_path: Path) -> dict:
-    """Publica un VIDEO (reel) en el feed de la Página subiendo el archivo directo.
+    """Publica un REEL en la Página. Intenta primero la API de REELS
+    (/{page}/video_reels, 3 fases) para que salga como Reel de verdad (mejor alcance,
+    aparece en la pestaña Reels). Si falla (elegibilidad, error de la API), cae al
+    método clásico /{page}/videos (video común) para no perder el posteo."""
+    video_path = Path(video_path)
+    try:
+        out = _publish_reel(message, video_path)
+        logger.debug(f"Facebook REEL id={out.get('id')}")
+        return out
+    except Exception as e:
+        logger.warning(f"Facebook: la API de Reels falló ({e}); reintento como video clásico (/videos).")
+        out = _publish_video_clasico(message, video_path)
+        logger.debug(f"Facebook video (fallback) id={out.get('id')}")
+        return out
 
-    Facebook acepta la subida directa del .mp4 a /{page}/videos (no necesita URL
-    pública, a diferencia de Instagram)."""
+
+def _publish_reel(message: str, video_path: Path) -> dict:
+    """Sube un Reel a /{page}/video_reels en 3 fases: start → subir binario → finish."""
     page_id = get("FACEBOOK_PAGE_ID")
     token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
     if not page_id or not token:
         raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
 
-    video_path = Path(video_path)
+    base = f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/video_reels"
+
+    # 1) start → video_id + upload_url
+    start = requests.post(base, params={"access_token": token},
+                          data={"upload_phase": "start"}, timeout=60)
+    _raise_for_status(start)
+    sj = start.json()
+    video_id = sj["video_id"]
+    upload_url = sj.get("upload_url") or f"https://rupload.facebook.com/video-upload/{GRAPH_VERSION}/{video_id}"
+
+    # 2) subir el binario
+    size = video_path.stat().st_size
+    with open(video_path, "rb") as vid:
+        up = requests.post(
+            upload_url,
+            headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(size)},
+            data=vid.read(),
+            timeout=300,
+        )
+    if up.status_code >= 400:
+        raise RuntimeError(f"subir reel: {up.status_code} {up.text[:200]}")
+
+    # 3) finish → publica el reel
+    finish_data = {"upload_phase": "finish", "video_id": video_id,
+                   "video_state": "PUBLISHED", "description": message}
+    if _place():
+        finish_data["place"] = _place()
+    finish = requests.post(base, params={"access_token": token}, data=finish_data, timeout=120)
+    _raise_for_status(finish)
+    return {"success": True, "id": video_id}
+
+
+def _publish_video_clasico(message: str, video_path: Path) -> dict:
+    """Publica el .mp4 directo a /{page}/videos (video común). Fallback del Reel."""
+    page_id = get("FACEBOOK_PAGE_ID")
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
+
     data = {"description": message}
     if _place():
         data["place"] = _place()
@@ -166,9 +218,7 @@ def publish_video(message: str, video_path: Path) -> dict:
             timeout=300,
         )
     _raise_for_status(resp)
-    data = resp.json()
-    logger.debug(f"Facebook video id={data.get('id')}")
-    return {"success": True, "id": data.get("id")}
+    return {"success": True, "id": resp.json().get("id")}
 
 
 def publish_video_story(video_path: Path) -> dict:
