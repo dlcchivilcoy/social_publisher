@@ -77,6 +77,14 @@
     "texto": "Un operativo conjunto entre diversas fuerzas de seguridad y tránsito de Chivilcoy resultó en el secuestro de siete motocicletas que participaban en picadas ilegales. El procedimiento se llevó a cabo en las inmediaciones de la Ruta Provincial 30 y el Acceso Perón.\n\nEn la acción participaron la Dirección de Tránsito, la Policía Comunal, el Grupo Técnico Operativo (GTO), el Grupo GAD y el Centro de Monitoreo. Durante el despliegue, se detectó a motociclistas realizando maniobras peligrosas y las mencionadas picadas.\n\nComo resultado del procedimiento, se labraron las infracciones correspondientes a los conductores involucrados y se procedió al secuestro de los rodados.\n\nLa Secretaría de Seguridad de Chivilcoy informó que estos controles se mantendrán de forma sorpresiva en distintos puntos de la ciudad, con el objetivo de prevenir situaciones que pongan en riesgo la seguridad vial.",
     "draft_id": "f3a1ee29-ab32-4e1b-9fd7-4b61ccc9f062",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260627-wa0007.mp4",
-    "estado": "borrador"
+    "estado": "publicado",
+    "fecha_publicado": "2026-06-27T16:37:59",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operativo-antipicadas-en-chivilcoy-secuestraron-siete-motos-en-un",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "falló: No hay token de YouTube (.yt_token_diario.json). Corré `python yt_auth.py diario` (local) o cargá YT_SHORTS_TOKEN_JSON (nube).",
+      "wix": "ok"
+    }
   }
 ]
