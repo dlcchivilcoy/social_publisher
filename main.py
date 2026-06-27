@@ -156,7 +156,12 @@ def main() -> None:
     parser.add_argument(
         "--yt-desgrabar",
         action="store_true",
-        help="DESGRABAR a texto + miniatura las notas de YouTube de hoy (Radio del Centro) y dejarlas en una carpeta del escritorio (local, Gemini, 13:30).",
+        help="DESGRABAR a texto + miniatura las notas de YouTube de hoy (Radio del Centro) y mandarlas por mail (local, Gemini, 14:30).",
+    )
+    parser.add_argument(
+        "--notas-web",
+        action="store_true",
+        help="Publicar a la WEB (Wix) + reel a FB/IG las notas nuevas de la carpeta «notas para web» (Word + foto + video por subcarpeta).",
     )
     parser.add_argument(
         "--limit",
@@ -326,6 +331,11 @@ def main() -> None:
         from yt_desgrabador import run_yt_desgrabar
         logger.info(f"Modo --yt-desgrabar (dry_run={args.dry_run}).")
         run_yt_desgrabar(dry_run=args.dry_run)
+        return
+    if args.notas_web:
+        from notas_web import run_notas_web
+        logger.info(f"Modo --notas-web (dry_run={args.dry_run}).")
+        run_notas_web(dry_run=args.dry_run)
         return
 
     if args.dry_run:

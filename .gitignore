@@ -20,6 +20,8 @@ published/
 historias_preview/
 videos_preview/
 videos/
+notas_web/
+.notas_web.json
 .videos_contabilidad.json
 .yt_desgrabaciones.json
 youtube-historias.json

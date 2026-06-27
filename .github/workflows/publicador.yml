@@ -79,6 +79,10 @@ jobs:
           # La carpeta "videos notas actualidad" puede estar dentro de Diario o en la raiz del Drive.
           rclone copy "gdrive:Diario/videos notas actualidad" videos 2>/dev/null || true
           rclone copy "gdrive:videos notas actualidad" videos 2>/dev/null || true
+          # Carpeta "notas para web" (Word + foto + video por subcarpeta) → notas_web/
+          mkdir -p notas_web
+          rclone copy "gdrive:Diario/notas para web" notas_web 2>/dev/null || true
+          rclone copy "gdrive:notas para web" notas_web 2>/dev/null || true
 
       - name: Restaurar registros anti-repeticion
         run: |
@@ -86,7 +90,7 @@ jobs:
           [ -f "state/.historias.json" ] && cp "state/.historias.json" "diario/NOTAS AUTOMATICAS/.historias.json" || true
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -126,7 +130,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.historias.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"
