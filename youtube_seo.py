@@ -78,12 +78,12 @@ def run_generate(limit: int = 15, dry_run: bool = False) -> None:
     """Trae los últimos `limit` videos, propone SEO y arma miniaturas. NO toca YouTube."""
     from platforms import youtube_api
     from utils import gemini
-    import youtube
-    import story_image
 
     OUT_DIR.mkdir(exist_ok=True)
     videos = youtube_api.list_recent_videos(limit)
-    logger.info(f"Generando propuestas SEO para {len(videos)} video(s)…")
+    # Solo videos/shorts: se EXCLUYEN los vivos / el programa completo.
+    videos = [v for v in videos if not _es_programa(v["title"])]
+    logger.info(f"Generando propuestas SEO (solo texto) para {len(videos)} video(s)…")
     data = _leer_propuestas()
 
     for v in videos:
@@ -95,26 +95,7 @@ def run_generate(limit: int = 15, dry_run: bool = False) -> None:
             logger.warning(f"    Gemini falló para {vid}: {e}")
             continue
 
-        carpeta = OUT_DIR / vid
-        carpeta.mkdir(exist_ok=True)
-        prog = _es_programa(v["title"])
-        g = _gancho_de(vid, seo["titulo"], v["description"], prog)
-
-        # Miniatura nueva: fondo = miniatura actual del video (NO se baja el video).
-        thumb_rel = ""
-        try:
-            fondo = youtube.descargar_miniatura(vid)
-            out_thumb = carpeta / "miniatura_nueva.jpg"
-            story_image.compose_youtube_thumbnail(fondo, g["gancho"], g["keyword"],
-                                                  out_path=out_thumb, programa=prog)
-            thumb_rel = f"{vid}/miniatura_nueva.jpg"
-            try:  # copia de la actual, para comparar lado a lado en el index.html
-                (carpeta / "miniatura_actual.jpg").write_bytes(Path(fondo).read_bytes())
-            except Exception:
-                pass
-        except Exception as e:
-            logger.warning(f"    No se pudo armar la miniatura de {vid}: {e}")
-
+        # Solo SEO de texto: la miniatura gráfica está desactivada (pedido 2026-06-27).
         prev = data.get(vid, {})
         data[vid] = {
             "video_id": vid,
@@ -123,11 +104,9 @@ def run_generate(limit: int = 15, dry_run: bool = False) -> None:
             "descripcion_actual": v["description"],
             "tags_actuales": v.get("tags", []),
             "titulo_nuevo": seo["titulo"],
-            "gancho_miniatura": g["gancho"],
-            "gancho_keyword": g["keyword"],
             "descripcion_nueva": seo["descripcion"],
             "tags_nuevos": seo["tags"],
-            "miniatura": thumb_rel,
+            "miniatura": "",
             "aplicar": prev.get("aplicar", False),
             "aplicado": prev.get("aplicado", False),
         }
@@ -168,27 +147,7 @@ def run_apply(dry_run: bool = False) -> None:
             logger.error(f"    Falló el update de {vid}: {e}")
             continue
 
-        mini = p.get("miniatura")
-        if mini:
-            mpath = OUT_DIR / mini
-            # Regenerar desde el gancho actual (por si se editó a mano en propuestas.json)
-            gancho = (p.get("gancho_miniatura") or titulo).strip()
-            keyword = (p.get("gancho_keyword") or "").strip()
-            try:
-                import youtube
-                import story_image
-                fondo = youtube.descargar_miniatura(vid)
-                story_image.compose_youtube_thumbnail(fondo, gancho, keyword, out_path=mpath,
-                                                      programa=_es_programa(p.get("titulo_actual", "")))
-            except Exception as e:
-                logger.warning(f"    No se pudo regenerar la miniatura de {vid}: {e}")
-            if mpath.exists():
-                try:
-                    youtube_api.set_thumbnail(vid, mpath)
-                except Exception as e:
-                    logger.warning(f"    Miniatura NO aplicada en {vid} "
-                                   f"(¿canal sin verificar por teléfono?): {e}")
-
+        # Miniatura gráfica desactivada (pedido 2026-06-27): solo se aplica texto.
         p["aplicado"] = True
         aplicados += 1
         _guardar_propuestas(data)
@@ -204,14 +163,14 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
     Guarda igual el antes/después en youtube_seo/ por si querés auditar o revertir."""
     from platforms import youtube_api
     from utils import gemini
-    import youtube
-    import story_image
 
     recientes = youtube_api.list_recent_videos(limit)  # snippets completos, más reciente 1°
     ledger = _leer_ledger()
-    vids = [v for v in recientes if v["id"] not in ledger]
+    # Solo videos/shorts: se EXCLUYEN los vivos / el programa completo (La Mañana del Centro).
+    vids = [v for v in recientes if v["id"] not in ledger and not _es_programa(v["title"])]
     if not vids:
-        logger.info(f"Sin videos nuevos (revisados los últimos {len(recientes)}).")
+        logger.info(f"Sin videos nuevos para SEO (revisados los últimos {len(recientes)}; "
+                    f"los vivos/programa se saltean).")
         return
 
     logger.info(f"AUTO: {len(vids)} video(s) NUEVO(s) sin procesar (dry_run={dry_run})…")
@@ -227,24 +186,8 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
             logger.warning(f"    Gemini falló para {vid}: {e} (se reintenta en la próxima corrida)")
             continue
 
-        carpeta = OUT_DIR / vid
-        carpeta.mkdir(exist_ok=True)
-        prog = _es_programa(v["title"])
-        g = _gancho_de(vid, seo["titulo"], v["description"], prog)
-        thumb_rel, mpath = "", None
-        try:
-            fondo = youtube.descargar_miniatura(vid)
-            mpath = carpeta / "miniatura_nueva.jpg"
-            story_image.compose_youtube_thumbnail(fondo, g["gancho"], g["keyword"],
-                                                  out_path=mpath, programa=prog)
-            thumb_rel = f"{vid}/miniatura_nueva.jpg"
-            try:
-                (carpeta / "miniatura_actual.jpg").write_bytes(Path(fondo).read_bytes())
-            except Exception:
-                pass
-        except Exception as e:
-            logger.warning(f"    No se pudo armar la miniatura de {vid}: {e}")
-
+        # Solo SEO de texto (título + descripción + tags). La miniatura gráfica se desactivó
+        # (pedido del usuario 2026-06-27): no se arma ni se aplica imagen.
         data[vid] = {
             "video_id": vid,
             "url": f"https://youtu.be/{vid}",
@@ -252,11 +195,9 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
             "descripcion_actual": v["description"],
             "tags_actuales": v.get("tags", []),
             "titulo_nuevo": seo["titulo"],
-            "gancho_miniatura": g["gancho"],
-            "gancho_keyword": g["keyword"],
             "descripcion_nueva": seo["descripcion"],
             "tags_nuevos": seo["tags"],
-            "miniatura": thumb_rel,
+            "miniatura": "",
             "aplicar": True,
             "aplicado": False,
         }
@@ -272,17 +213,11 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
             logger.error(f"    Falló el update de {vid}: {e}")
             _guardar_propuestas(data)
             continue
-        if mpath and mpath.exists():
-            try:
-                youtube_api.set_thumbnail(vid, mpath)
-            except Exception as e:
-                logger.warning(f"    Miniatura NO aplicada en {vid} "
-                               f"(¿canal sin verificar por teléfono?): {e}")
         data[vid]["aplicado"] = True
         ledger.add(vid)
         _guardar_propuestas(data)
         _guardar_ledger(ledger)
-        logger.info("    ✓ aplicado")
+        logger.info("    ✓ aplicado (título + descripción + tags)")
 
     _escribir_index(data)
     logger.info("AUTO SEO de hoy: listo.")

@@ -1,26 +1,32 @@
-"""Desgrabador de las notas de YouTube de Radio del Centro → texto + screenshot, LOCAL.
+"""Desgrabador de las notas de YouTube de Radio del Centro → texto + screenshot, por MAIL.
 
 Toma las notas que el canal Radio del Centro subió a YouTube ese día (excluye el programa
 completo «La Mañana del Centro»), las desgraba a TEXTO PERIODÍSTICO con Google Gemini
-(gratis, SIN tokens de Claude, sin descargar el video: Gemini lee la URL directa), y deja
-por cada nota un `.txt` (volanta + título + cuerpo) y un `.png` (la miniatura del video) en
-una carpeta del ESCRITORIO, organizada por fecha:
+(gratis, SIN tokens de Claude, sin descargar el video: Gemini lee la URL directa), y manda
+UN MAIL al diario con cada nota como Word (`.docx`: volanta + título + cuerpo) y la
+miniatura (`.png`) adjuntos. (Antes dejaba los archivos en una carpeta del escritorio;
+ahora van por correo a dlc.chivilcoy@gmail.com.)
 
-    Escritorio\\DESGRABACIONES RADIO\\2026-06-23\\
-        Resultados muy auspiciosos para el girasol.txt
-        Resultados muy auspiciosos para el girasol.png
-
-Pensado para una TAREA DE WINDOWS diaria a las 13:30 (corre local porque deja archivos en
-el escritorio; la nube no puede). Un registro (`.yt_desgrabaciones.json`) evita repetir.
+Pensado para una TAREA DE WINDOWS diaria a las 14:30 (corre local). Un registro
+(`.yt_desgrabaciones.json`) evita repetir.
 
 Configuración (.env, opcional):
-  YT_DESGRABAR_FOLDER  — carpeta destino (por defecto: Escritorio\\DESGRABACIONES RADIO)
-Reusa: YT_CHANNEL_ID, STORY_EXCLUDE_TITLE, GEMINI_API_KEY (ya en el .env).
+  GEMINI_API_KEY_YT    — clave Gemini DEDICADA a este desgrabador (su propia cuota gratis);
+                         si falta, usa GEMINI_API_KEY.
+  YT_DESGRABAR_EMAIL   — destinatario del mail (por defecto dlc.chivilcoy@gmail.com).
+  YT_DESGRABAR_FOLDER  — carpeta de trabajo temporal (por defecto, temp del sistema).
+Reusa: YT_CHANNEL_ID, STORY_EXCLUDE_TITLE, MAIL_FROM, MAIL_APP_PASSWORD, SMTP_*.
 """
 import json
+import mimetypes
 import re
+import smtplib
+import ssl
+import tempfile
 import unicodedata
 from datetime import datetime
+from email.message import EmailMessage
+from email.utils import formataddr
 from pathlib import Path
 
 from utils.config import get
@@ -32,10 +38,65 @@ LEDGER = Path(__file__).parent / ".yt_desgrabaciones.json"
 
 
 def _carpeta_base() -> Path:
+    """Carpeta de trabajo donde se generan los .docx/.png antes de mandarlos por mail.
+    Por defecto una carpeta temporal del sistema (ya NO se deja en el escritorio:
+    las notas se envían por correo). Se puede forzar con YT_DESGRABAR_FOLDER."""
     raw = get("YT_DESGRABAR_FOLDER")
     if raw:
         return Path(raw)
-    return Path.home() / "Desktop" / "DESGRABACIONES RADIO"
+    return Path(tempfile.gettempdir()) / "DESGRABACIONES RADIO"
+
+
+def _gemini_key() -> str:
+    """Clave Gemini DEDICADA al desgrabador de YouTube (su propia cuota gratis). Si no se
+    cargó GEMINI_API_KEY_YT, cae a la clave general GEMINI_API_KEY."""
+    return (get("GEMINI_API_KEY_YT") or "").strip() or (get("GEMINI_API_KEY") or "").strip()
+
+
+def _destino_mail() -> str:
+    return (get("YT_DESGRABAR_EMAIL") or "dlc.chivilcoy@gmail.com").strip()
+
+
+def _enviar_por_mail(fecha: str, archivos: list[tuple[str, Path, Path | None]]) -> bool:
+    """Manda UN mail con las notas desgrabadas del día como adjuntos (.docx + .png).
+    `archivos` = lista de (titulo, docx_path, png_path|None). Devuelve True si se envió."""
+    remitente = get("MAIL_FROM")
+    password = get("MAIL_APP_PASSWORD")
+    destino = _destino_mail()
+    if not remitente or not password or not destino:
+        logger.error("Sin credenciales de mail (MAIL_FROM/MAIL_APP_PASSWORD): no se puede enviar.")
+        return False
+    host = get("SMTP_HOST") or "smtp.gmail.com"
+    port = int(get("SMTP_PORT") or 587)
+    nombre_from = get("MAIL_FROM_NAME") or "Diario La Campaña"
+
+    msg = EmailMessage()
+    msg["From"] = formataddr((nombre_from, remitente))
+    msg["To"] = destino
+    msg["Subject"] = f"Desgrabaciones Radio del Centro — {fecha} ({len(archivos)} nota/s)"
+    lista = "\n".join(f"• {t}" for t, _, _ in archivos)
+    msg.set_content(
+        f"Notas de YouTube de Radio del Centro desgrabadas el {fecha}.\n"
+        f"Adjunto el Word (.docx) de cada una y la miniatura (.png).\n\n{lista}\n"
+    )
+    for _titulo, docx_path, png_path in archivos:
+        for p in (docx_path, png_path):
+            if p and p.exists():
+                ctype, _ = mimetypes.guess_type(p.name)
+                maintype, _, subtype = (ctype or "application/octet-stream").partition("/")
+                msg.add_attachment(p.read_bytes(), maintype=maintype, subtype=subtype,
+                                   filename=p.name)
+    try:
+        ctx = ssl.create_default_context()
+        with smtplib.SMTP(host, port, timeout=120) as server:
+            server.starttls(context=ctx)
+            server.login(remitente, password)
+            server.send_message(msg)
+        logger.info(f"Mail enviado a {destino} con {len(archivos)} nota(s).")
+        return True
+    except Exception as e:
+        logger.error(f"No se pudo enviar el mail de desgrabaciones: {e}")
+        return False
 
 
 def _slug(s: str, max_len: int = 80) -> str:
@@ -101,8 +162,33 @@ INSTRUCCION_LARGO = (
     "PÁRRAFOS bien desarrollados. Profundizá y desarrollá TODOS los temas que se tratan en "
     "el video, con citas textuales cuando sean claras y confiables, contexto y datos "
     "concretos. Mantené la fidelidad al material: NO inventes, no rellenes ni repitas; si el "
-    "material no alcanzara para 1300 palabras, desarrollá todo lo posible siendo fiel."
+    "material no alcanzara para 1300 palabras, desarrollá todo lo posible siendo fiel.\n"
+    "CALIDAD DE REDACCIÓN (es OBLIGATORIO, son notas que se publican con la firma del "
+    "diario, tienen que quedar SERIAS y profesionales):\n"
+    "• ESCRITURA CORRECTA: redactá en prosa periodística pulida, sin muletillas, sin "
+    "repetir palabras pegadas ni frases. NUNCA escribas una palabra dos veces seguida "
+    "(mal: «siempre siempre», «muy muy», «que que»); el reconocimiento de voz a veces "
+    "duplica palabras: ELIMINÁ esas duplicaciones y reescribí la oración bien.\n"
+    "• NO repitas la misma idea ni el mismo conector párrafo tras párrafo; variá el "
+    "vocabulario y la construcción de las oraciones.\n"
+    "• NOMBRES PROPIOS BIEN ESCRITOS: prestá MÁXIMA atención a la ortografía de nombres y "
+    "apellidos de personas, lugares, clubes e instituciones. El audio puede confundir "
+    "letras (B/V, C/S/Z, G/J, H muda). Si en pantalla aparece el nombre escrito (zócalo, "
+    "placa, cartel), usá ESA grafía. Ante la duda, usá la forma correcta y conocida del "
+    "nombre (por ejemplo, el futbolista uruguayo es «Cavani», con V). Si no podés "
+    "confirmar un nombre, mejor no lo afirmes.\n"
+    "• Ortografía y tildes del español rioplatense impecables; puntuación correcta."
 )
+
+
+_DUP_RE = re.compile(r"\b(\w+)(\s+\1\b)+", flags=re.IGNORECASE | re.UNICODE)
+
+
+def _limpiar_repeticiones(texto: str) -> str:
+    """Red de seguridad: colapsa palabras duplicadas pegadas que deja el reconocimiento
+    de voz («siempre siempre» → «siempre», «muy muy muy» → «muy»). Conserva la primera
+    aparición (con su mayúscula/acento)."""
+    return _DUP_RE.sub(lambda m: m.group(1), texto or "")
 
 
 def _escribir_docx(nota: dict, video: dict, path: Path) -> None:
@@ -114,19 +200,19 @@ def _escribir_docx(nota: dict, video: dict, path: Path) -> None:
     doc = Document()
     if nota.get("volanta"):
         p = doc.add_paragraph()
-        run = p.add_run(nota["volanta"].upper())
+        run = p.add_run(_limpiar_repeticiones(nota["volanta"]).upper())
         run.bold = True
         run.font.size = Pt(11)
         run.font.color.rgb = RGBColor(0xE2, 0x62, 0x0C)  # naranja del diario
 
-    titulo = nota.get("titulo") or video.get("titulo", "")
+    titulo = _limpiar_repeticiones(nota.get("titulo") or video.get("titulo", ""))
     pt = doc.add_paragraph()
     rt = pt.add_run(titulo)
     rt.bold = True
     rt.font.size = Pt(18)
 
     doc.add_paragraph()  # línea en blanco entre título y cuerpo
-    for parrafo in (nota.get("texto", "") or "").split("\n\n"):
+    for parrafo in _limpiar_repeticiones(nota.get("texto", "") or "").split("\n\n"):
         parrafo = parrafo.strip()
         if parrafo:
             doc.add_paragraph(parrafo)
@@ -164,13 +250,15 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
     destino = _carpeta_base() / fecha
     if not dry_run:
         destino.mkdir(parents=True, exist_ok=True)
-    logger.info(f"{len(pendientes)} nota(s) por desgrabar → {destino}")
+    logger.info(f"{len(pendientes)} nota(s) por desgrabar → se enviarán por mail a {_destino_mail()}")
 
-    hechas = 0
+    key = _gemini_key()
+    generadas: list[tuple[str, Path, Path | None]] = []  # (titulo, docx, png) para el mail
     for v in pendientes:
         logger.info(f"  Desgrabando: «{v['titulo'][:60]}» ({v['url']})")
         try:
-            nota = gemini.transcribe_youtube_url(v["url"], instrucciones=INSTRUCCION_LARGO)
+            nota = gemini.transcribe_youtube_url(v["url"], instrucciones=INSTRUCCION_LARGO,
+                                                 api_key=key)
         except Exception as e:
             logger.error(f"    Gemini falló (se reintenta en la próxima corrida): {e}")
             continue  # NO se marca: se reintenta
@@ -193,20 +281,23 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
 
         palabras = len((nota.get("texto") or "").split())
         if dry_run:
-            logger.info(f"    [dry-run] Guardaría: {docx_path.name} + {png_path.name} "
+            logger.info(f"    [dry-run] Mandaría por mail: {docx_path.name} + {png_path.name} "
                         f"(~{palabras} palabras)\n"
                         f"      VOLANTA: {nota['volanta']}\n      TÍTULO: {nota['titulo']}")
             continue
 
         _escribir_docx(nota, v, docx_path)
-        _png_miniatura(v["id"], png_path)
+        png = _png_miniatura(v["id"], png_path)
         ledger.add(v["id"])
         _guardar_ledger(ledger)
-        hechas += 1
+        generadas.append((nota.get("titulo") or v["titulo"], docx_path, png))
         logger.info(f"    ✓ {docx_path.name} (~{palabras} palabras)"
-                    + (f" + {png_path.name}" if png_path.exists() else ""))
+                    + (f" + {png_path.name}" if png else ""))
 
     if dry_run:
         logger.info("=== Desgrabar notas de YouTube: fin (dry-run) ===")
-    else:
-        logger.info(f"=== Desgrabar notas de YouTube: {hechas} nota(s) en {destino} ===")
+        return
+
+    if generadas:
+        _enviar_por_mail(fecha, generadas)
+    logger.info(f"=== Desgrabar notas de YouTube: {len(generadas)} nota(s) enviada(s) por mail ===")

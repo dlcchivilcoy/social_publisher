@@ -311,7 +311,7 @@ def _img_part(path: Path) -> dict:
     return {"inline_data": {"mime_type": _mime(path), "data": b64}}
 
 
-def _post_generate(parts: list, key: str, model: str, temperature: float = 0.4) -> dict:
+def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3) -> dict:
     """Llama a Gemini generateContent con esos `parts` y el schema de nota, reintentando
     ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
     payload = {
@@ -369,13 +369,16 @@ def _parse_nota(raw: dict) -> dict:
     return nota
 
 
-def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "") -> dict:
+def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "",
+                           api_key: str = "") -> dict:
     """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
     nada): Gemini ingiere el video desde YouTube y devuelve la misma nota
     {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}. Gratis.
 
-    `instrucciones`: directiva extra de redacción (ej. pedir un cuerpo más largo)."""
-    key = get("GEMINI_API_KEY")
+    `instrucciones`: directiva extra de redacción (ej. pedir un cuerpo más largo).
+    `api_key`: clave Gemini a usar; si viene vacía cae a GEMINI_API_KEY del .env. Sirve
+    para que el desgrabador de YouTube use una clave DEDICADA (su propia cuota gratis)."""
+    key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or "gemini-2.5-flash"
@@ -387,7 +390,8 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
                    + extra_text.strip())
     parts = [{"text": prompt}, {"file_data": {"file_uri": url}}]
     logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
-    raw = _post_generate(parts, key, model, temperature=0.4)
+    # Temperatura baja: prioriza fidelidad (nombres bien escritos) y evita repeticiones.
+    raw = _post_generate(parts, key, model, temperature=0.3)
     nota = _parse_nota(raw)
     logger.info(f"Gemini OK (YouTube): hay_noticia={nota['hay_noticia']} | "
                 f"«{nota['volanta']} — {nota['titulo']}»")

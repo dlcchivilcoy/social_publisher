@@ -275,13 +275,11 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         logger.error("No se pudo componer ningún slide. Se aborta el carrusel.")
         return
 
-    # Caption (bajada): por nota → titular + primer párrafo. + CTA + hashtags.
-    bloques = []
-    for titular, primer in bajadas:
-        # Descripción de cada nota acotada a ~3 líneas (pedido del usuario).
-        p = _resumen_caption(primer, max_chars=130)
-        bloques.append(f"📌 {titular}" + (f"\n{p}" if p else ""))
-    cuerpo_cap = "\n\n".join(bloques)
+    # Caption (bajada): SOLO el titular de cada nota (pedido del usuario 2026-06-27):
+    # nada de descripción/primer párrafo, así no quedan textos mal cortados. El que
+    # quiere leer entra a la web. Máx ~3 renglones = el titular solo.
+    bloques = [f"📌 {titular}" for titular, _ in bajadas]
+    cuerpo_cap = "\n".join(bloques)
 
     tags = []
     for n in pending:

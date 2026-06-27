@@ -85,6 +85,19 @@ function doGet(e) {
       + '</form><p style="color:#666">Tras guardar, volvé al mail y tocá «Aprobar y publicar».</p></div>';
     return HtmlService.createHtmlOutput(form);
   }
+  if (p.action === 'preview') {
+    // Reproduce el reel DENTRO del navegador (sin descargarlo). Recibe la URL del mp4
+    // (asset del GitHub Release) y la mete en un <video>; así el navegador lo reproduce
+    // en vez de bajarlo (que es lo que pasa al abrir el link directo).
+    var u = String(p.url || '');
+    if (!/^https:\/\//.test(u)) return _html('⚠️ No hay un video para previsualizar.');
+    var page = '<div style="background:#000;min-height:100vh;display:flex;align-items:center;'
+      + 'justify-content:center;margin:0"><video src="' + _esc(u) + '" controls autoplay '
+      + 'playsinline style="max-width:100%;max-height:100vh"></video></div>';
+    return HtmlService.createHtmlOutput(page)
+      .setTitle('Previsualizar video')
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+  }
   return _html('Desgrabador: acción no reconocida.');
 }
 

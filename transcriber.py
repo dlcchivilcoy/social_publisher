@@ -162,7 +162,9 @@ def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: b
     if webapp:
         botones += _boton(f"{webapp}?action=approve&name={quote(name)}{t}", "✅ Aprobar y publicar")
         if reel_url:
-            botones += _boton(reel_url, "👁️ Previsualizar video", color="#444")
+            # Reproduce el reel dentro del navegador (web app) en vez de descargarlo.
+            botones += _boton(f"{webapp}?action=preview&url={quote(reel_url)}{t}",
+                              "👁️ Previsualizar video", color="#444")
         if hay and draft_id:
             botones += _boton(f"{webapp}?action=edit&draft={draft_id}{t}", "✏️ Corregir texto", color="#444")
     elif reel_url:
