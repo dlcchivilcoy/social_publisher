@@ -64,7 +64,15 @@
     "texto": "Los alumnos y alumnas de la Escuela Primaria Nº 40 de Chivilcoy se preparan para presentar su obra musical \"El Tesoro del Equipo\" esta noche, 26 de junio, a las 21:00 horas en el Teatro El Chasqui. La función, que promete una aventura de piratas y búsqueda de tesoros, se realiza a beneficio de la Asociación Cooperadora de la institución.\n\nVarios de los jóvenes protagonistas compartieron detalles y su entusiasmo por el estreno. Santi y Bianca se presentaron como los narradores de la historia, mientras que Tania y Coti, de 10 años, también forman parte del elenco. Otra de las participantes, Shim, invitó a la comunidad a presenciar la obra.\n\nCoti adelantó parte de la trama, explicando que la historia \"trata sobre una isla donde se pelean piratas solamente para buscar un tesoro\". Los estudiantes, visiblemente emocionados, invitaron a todos a acompañarlos en esta propuesta teatral. Un grupo de ellos, incluso, entonó parte de una de las canciones de la obra, \"Mapa, mapa, miren bien, lo que parece aquí también\", demostrando la alegría y el trabajo en equipo detrás de la producción.\n\nLa comunidad está invitada a disfrutar de esta propuesta cultural y colaborar con la escuela. Las entradas están a la venta con un bono contribución de $10.000.",
     "draft_id": "105e4bd6-3fd3-440d-929e-81f94912d317",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260626-wa0008.mp4",
-    "estado": "borrador"
+    "estado": "publicado",
+    "fecha_publicado": "2026-06-27T16:45:59",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/teatro-escolar-en-chivilcoy-alumnos-de-la-ep-40-presentan-su-obra",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "falló: No hay token de YouTube (.yt_token_diario.json). Corré `python yt_auth.py diario` (local) o cargá YT_SHORTS_TOKEN_JSON (nube).",
+      "wix": "ok"
+    }
   },
   {
     "file": "VID-20260627-WA0007.mp4",
