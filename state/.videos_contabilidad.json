@@ -51,7 +51,15 @@
     "resumen": "Un Chevrolet Corsa volcó en el kilómetro 155 de la Ruta 5, cerca de Chivilcoy. El conductor, único ocupante, sufrió lesiones leves y fue trasladado al hospital. Bomberos y SAME trabajaron en el lugar.",
     "draft_id": "59d37f22-1c40-48fa-af85-ccb816f6c805",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260621-wa0024.mp4",
-    "estado": "borrador"
+    "estado": "publicado",
+    "fecha_publicado": "2026-06-27T18:50:04",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidente-en-ruta-5-vuelco-de-un-chevrolet-corsa-en-ruta-5-conductor",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "falló: No hay token de YouTube (.yt_token_diario.json). Corré `python yt_auth.py diario` (local) o cargá YT_SHORTS_TOKEN_JSON (nube).",
+      "wix": "ok"
+    }
   },
   {
     "file": "VID-20260626-WA0008.mp4",
