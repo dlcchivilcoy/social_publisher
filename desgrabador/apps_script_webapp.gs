@@ -85,6 +85,15 @@ function doGet(e) {
       + '</form><p style="color:#666">Tras guardar, volvé al mail y tocá «Aprobar y publicar».</p></div>';
     return HtmlService.createHtmlOutput(form);
   }
+  if (p.action === 'delete') {
+    // Borra (papelera) una nota del blog por su id. Para el botón «Borrar de la web».
+    var id = p.post || '';
+    if (!id) return _html('No se indicó qué nota borrar.');
+    var r = UrlFetchApp.fetch('https://www.wixapis.com/blog/v3/draft-posts/' + id,
+      { method: 'delete', headers: _wixHeaders(), muteHttpExceptions: true });
+    if (r.getResponseCode() < 300) return _html('🗑️ <b>Nota borrada de la web.</b>');
+    return _html('No se pudo borrar (' + r.getResponseCode() + '): ' + _esc(r.getContentText().slice(0, 200)));
+  }
   if (p.action === 'preview') {
     // Reproduce el reel DENTRO del navegador (sin descargarlo). Recibe la URL del mp4
     // (asset del GitHub Release) y la mete en un <video>; así el navegador lo reproduce

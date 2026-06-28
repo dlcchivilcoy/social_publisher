@@ -241,20 +241,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     cover = frame_at(video, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
     slug = _slug(video.stem)
 
-    # Reel para redes: si el original supera 1 min y Gemini marcó tramos, lo resume a las
-    # MEJORES PARTES (≤60s); si no, va entero. Sin noticia: recortado a 60s.
+    # Reel para redes: VIDEO COMPLETO, sin recorte (pedido del usuario 2026-06-28).
+    # Antes se recortaba a ~60s (mejores partes con noticia, o 60s sin noticia); se anuló:
+    # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
     reel_path = WORK_DIR / f"reel_{slug}.mp4"
-    fuente_reel = video
-    if hay:
-        dur = duration_seconds(video)
-        if dur > 60 and nota.get("segmentos"):
-            resumido = best_parts_clip(video, nota["segmentos"], WORK_DIR / f"resumen_{slug}.mp4", max_total=60)
-            if resumido:
-                fuente_reel = resumido
-                logger.info(f"Video de {dur:.0f}s resumido a las mejores partes para el reel (≤60s).")
-        reel = to_vertical_reel(fuente_reel, reel_path)
-    else:
-        reel = to_vertical_reel(video, reel_path, max_seconds=REEL_MAX_SIN_NOTICIA)
+    reel = to_vertical_reel(video, reel_path)
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"

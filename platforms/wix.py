@@ -389,6 +389,84 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     return publicar_borrador(info["draft_id"])
 
 
+def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
+                           page: int = 0, description: str = "") -> dict:
+    """Crea un borrador con VARIAS fotos (galería) + VARIOS videos nativos COMPLETOS +
+    el texto. La 1ª foto va de portada. Pensado para «notas para web». Devuelve
+    {draft_id, file_id, image_url}."""
+    headers = _headers()
+    member_id = _get_member_id(headers)
+    title = _titulo_wix(title)
+    image_paths = [Path(p) for p in (image_paths or []) if p]
+    if not image_paths:
+        raise ValueError("crear_borrador_galeria necesita al menos una foto")
+
+    file_ids, cover_url = [], ""
+    for i, img in enumerate(image_paths):
+        fid, url = _importar_imagen(headers, img, title)
+        file_ids.append(fid)
+        if i == 0:
+            cover_url = url
+
+    nodes = []
+    # Galería: una imagen por nodo (la 1ª también es portada).
+    for i, fid in enumerate(file_ids):
+        nodes.append({
+            "type": "IMAGE", "id": f"img{i}", "nodes": [],
+            "imageData": {
+                "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
+                "image": {"src": {"id": fid}},
+            },
+        })
+    # Videos nativos completos (cada uno desde una URL pública ya hosteada).
+    for j, vurl in enumerate(video_urls or []):
+        try:
+            video_id = _importar_video(headers, vurl, title)
+            nodes.append({
+                "type": "VIDEO", "id": f"video{j}", "nodes": [],
+                "videoData": {
+                    "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER"},
+                    "video": {"src": {"id": video_id}},
+                },
+            })
+        except Exception as e:
+            logger.error(f"No se pudo embeber el video {j} en Wix: {e} (la nota sigue sin ese video).")
+
+    for i, para in enumerate(p for p in body.split("\n") if p.strip()):
+        nodes.append({
+            "type": "PARAGRAPH", "id": f"p{i}",
+            "nodes": [{"type": "TEXT", "id": "", "textData": {"text": para, "decorations": []}}],
+        })
+
+    descripcion = _meta_descripcion(description, body)
+    draft_payload = {
+        "draftPost": {
+            "title": title, "memberId": member_id, "categoryIds": _category_ids(page),
+            "featured": True, "richContent": {"nodes": nodes},
+            "media": {"wixMedia": {"image": {"id": file_ids[0]}}, "displayed": True, "custom": True},
+            "seoSlug": _slugify(title),
+            "seoData": {"tags": _seo_tags(title, descripcion, cover_url),
+                        "settings": {"preventAutoRedirect": False}},
+        }
+    }
+    draft = requests.post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)
+    _raise_for_status(draft, "crear borrador galería")
+    draft_id = draft.json()["draftPost"]["id"]
+    logger.info(f"Borrador de galería creado: draft_id={draft_id} "
+                f"({len(file_ids)} foto/s, {len(video_urls or [])} video/s)")
+    return {"draft_id": draft_id, "file_id": file_ids[0], "image_url": cover_url}
+
+
+def borrar_post(post_id: str) -> dict:
+    """Borra del blog (manda a la papelera y despublica) un post por su id (= draft_id).
+    Se usa para el botón «Borrar de la web» de las notas para web."""
+    headers = _headers()
+    r = requests.delete(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, timeout=30)
+    _raise_for_status(r, "borrar post")
+    logger.info(f"Post borrado de Wix: {post_id}")
+    return {"success": True, "id": post_id}
+
+
 def _reel_headline(title: str) -> str:
     """Saca el titular limpio del 'title' de Wix (que viene 'VOLANTA — titular').
     Quita la volanta (parte antes del em-dash) y devuelve el titular COMPLETO, sin

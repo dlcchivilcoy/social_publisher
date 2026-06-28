@@ -54,11 +54,10 @@ def _guardar_ledger(keys: set) -> None:
                       encoding="utf-8")
 
 
-def _primero(carpeta: Path, exts: set) -> Path | None:
-    for p in sorted(carpeta.iterdir()):
-        if p.is_file() and p.suffix.lower() in exts:
-            return p
-    return None
+def _todos(carpeta: Path, exts: set) -> list[Path]:
+    """Todos los archivos de la carpeta con esas extensiones, ordenados por nombre."""
+    return [p for p in sorted(carpeta.iterdir())
+            if p.is_file() and p.suffix.lower() in exts]
 
 
 def _parse_docx(docx_path: Path) -> tuple[str, str, list[str]]:
@@ -67,14 +66,29 @@ def _parse_docx(docx_path: Path) -> tuple[str, str, list[str]]:
     return _parse_nota(docx_path)
 
 
+def _boton_borrar(draft_id: str) -> str:
+    """Botón HTML «Borrar de la web» (web app de Apps Script). Vacío si no hay web app."""
+    from urllib.parse import quote
+    from transcriber import _boton
+    webapp = get("APPROVE_WEBAPP_URL")
+    tok = get("WEBAPP_TOKEN")
+    if not webapp or not draft_id:
+        return ""
+    t = f"&token={quote(tok)}" if tok else ""
+    return _boton(f"{webapp}?action=delete&post={quote(draft_id)}{t}",
+                  "🗑️ Borrar de la web", color="#b00020")
+
+
 def run_notas_web(dry_run: bool = False) -> None:
-    """Publica a la web (y reel a FB/IG) las notas nuevas de la carpeta «notas para web».
-    Cada subcarpeta = una nota. Idempotente."""
-    from transcriber import (_caption, _enviar_aviso, _hesc, _retry, _slug,
-                             _yt_enabled, _youtube_meta)
+    """Publica SOLO en la web (Wix) las notas nuevas de «notas para web». Cada subcarpeta
+    = una nota: Word (texto) + TODAS las fotos (galería) + TODOS los videos COMPLETOS
+    (embebidos, sin recorte). NO va a redes. Manda un mail con botón «Borrar de la web».
+    Idempotente."""
+    from transcriber import _enviar_aviso, _hesc, _retry, _slug
     from carrusel_notas import _resumen_caption
-    from platforms import facebook, instagram, wix
-    from video import remux_mp4, to_vertical_reel
+    from platforms import wix
+    from utils.video_host import upload_reel
+    from video import remux_mp4
 
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     base = _folder()
@@ -84,25 +98,24 @@ def run_notas_web(dry_run: bool = False) -> None:
         return
 
     subcarpetas = [d for d in sorted(base.iterdir()) if d.is_dir()
-                   and d.name.upper() not in ("PUBLICADAS", "APROBADAS")]
+                   and d.name.upper() not in ("PUBLICADAS", "APROBADAS", "BORRAR")]
     if not subcarpetas:
         logger.info("No hay notas (subcarpetas) en «notas para web».")
         return
 
     ledger = _leer_ledger()
     work = Path(__file__).parent / "videos_preview"
-    plats = [p.strip().lower() for p in (get("STORIES_PLATFORMS") or "instagram,facebook").split(",") if p.strip()]
-
     hechas = 0
     for carpeta in subcarpetas:
         key = carpeta.name
         if key in ledger:
             continue
-        docx = _primero(carpeta, _DOC_EXT)
-        foto = _primero(carpeta, _IMG_EXT)
-        video = _primero(carpeta, _VIDEO_EXT)
-        if not docx or not foto:
-            logger.warning(f"«{key}»: falta el Word o la foto (docx={bool(docx)}, foto={bool(foto)}). Se saltea.")
+        docx = (_todos(carpeta, _DOC_EXT) or [None])[0]
+        fotos = _todos(carpeta, _IMG_EXT)
+        videos = _todos(carpeta, _VIDEO_EXT)
+        if not docx or not fotos:
+            logger.warning(f"«{key}»: falta el Word o las fotos (docx={bool(docx)}, "
+                           f"fotos={len(fotos)}). Se saltea.")
             continue
 
         volanta, titular, cuerpo = _parse_docx(docx)
@@ -114,84 +127,49 @@ def run_notas_web(dry_run: bool = False) -> None:
         body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
 
         if dry_run:
-            logger.info(f"[dry-run] «{key}» → Wix: «{title}» | foto={foto.name} | "
-                        f"video={video.name if video else '—'} | reel={'sí' if video else 'no'}")
+            logger.info(f"[dry-run] «{key}» → Wix (solo web): «{title}» | "
+                        f"{len(fotos)} foto/s | {len(videos)} video/s completo/s")
             continue
 
-        # Reel + hosting del video (si hay), para embeber en la web y postear a redes.
+        # Hostear los videos COMPLETOS (sin recorte) para embeberlos como video nativo.
         work.mkdir(exist_ok=True)
-        reel_url, local_reel, web_video_url = "", None, ""
-        if video:
+        slug = _slug(carpeta.name)
+        video_urls = []
+        for i, v in enumerate(videos):
             try:
-                from utils.video_host import upload_reel
-                slug = _slug(carpeta.name)
-                local_reel = to_vertical_reel(video, work / f"reel_web_{slug}.mp4")
-                reel_url = upload_reel(local_reel)
-                web_video_url = reel_url
-                try:  # la web lleva el video completo (no el reel recortado)
-                    full = remux_mp4(video, work / f"video_web_{slug}.mp4")
-                    web_video_url = upload_reel(full)
-                except Exception as e:
-                    logger.warning(f"«{key}»: no pude hostear el video completo ({e}); uso el reel.")
+                full = remux_mp4(v, work / f"web_{slug}_{i}.mp4")
+                video_urls.append(upload_reel(full))
             except Exception as e:
-                logger.error(f"«{key}»: falló el armado/subida del reel: {e}. Sigo con la nota web sin video.")
+                logger.error(f"«{key}»: no pude hostear el video {v.name}: {e} (se omite ese video).")
 
-        # 1) Nota web (Wix) con foto + video embebido → publicar.
-        post_url = ""
+        # Publicar SOLO en la web (Wix): galería de fotos + videos completos + texto.
         try:
-            info = wix.crear_borrador(title, body, foto, page=0, description=resumen,
-                                      video_url=web_video_url)
+            info = _retry(lambda: wix.crear_borrador_galeria(
+                title, body, fotos, video_urls=video_urls, page=0, description=resumen),
+                etiqueta="[wix] crear galería")
             draft_id = info["draft_id"]
-            # YouTube Short opcional: si está activo y hay video, reemplaza el video nativo.
-            if video and local_reel and _yt_enabled():
-                try:
-                    from platforms import youtube_api
-                    meta = _youtube_meta(volanta, titular, resumen, body)
-                    privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
-                    yt = _retry(lambda: youtube_api.upload_short(
-                        local_reel, meta["titulo"], meta["descripcion"],
-                        tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
-                        etiqueta="[youtube] subir Short")
-                    if yt.get("url"):
-                        _retry(lambda: wix.insertar_video_youtube(draft_id, yt["url"]),
-                               etiqueta="[wix] embeber YouTube")
-                except Exception as e:
-                    logger.warning(f"«{key}»: YouTube Short falló ({e}); la nota sale con el video nativo.")
             res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
             post_url = (res or {}).get("url", "")
-            logger.info(f"[wix] nota publicada: {post_url or '(sin URL)'}")
+            logger.info(f"[wix] nota web publicada: {post_url or '(sin URL)'}")
         except Exception as e:
-            logger.error(f"«{key}»: NO se pudo publicar la nota en Wix: {e}. Se reintenta la próxima.")
+            logger.error(f"«{key}»: NO se pudo publicar en Wix: {e}. Se reintenta la próxima.")
             continue  # no se marca: se reintenta
-
-        # 2) Reel a FB/IG (solo si hay video).
-        caption = _caption(titular, resumen)
-        if video and reel_url and "instagram" in plats:
-            try:
-                instagram.publish_reel(reel_url, caption)
-                logger.info("[instagram] reel OK")
-            except Exception as e:
-                logger.error(f"[instagram] reel FALLÓ: {e}")
-        if video and local_reel and "facebook" in plats:
-            try:
-                facebook.publish_video(caption, local_reel)
-                logger.info("[facebook] reel OK")
-            except Exception as e:
-                logger.error(f"[facebook] reel FALLÓ: {e}")
 
         ledger.add(key)
         _guardar_ledger(ledger)
         hechas += 1
 
-        # Aviso por mail (best-effort).
+        # Mail con botón «Borrar de la web».
         intro = (f"<h2 style='color:#e2620c'>Nota publicada en la web</h2>"
                  f"<p style='color:#888;font-size:13px'>{_hesc(volanta)}</p>"
                  f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
                  f"<p>{_hesc(resumen)}</p>"
+                 f"<p>{len(fotos)} foto/s en galería · {len(video_urls)} video/s completo/s.</p>"
                  + (f"<p><a href='{_hesc(post_url)}'>{_hesc(post_url)}</a></p>" if post_url else "")
-                 + (f"<p>Reel publicado en Facebook e Instagram.</p>" if video else ""))
+                 + f"<div style='margin:18px 0'>{_boton_borrar(draft_id)}</div>")
         _enviar_aviso(f"Nota web publicada: {titular}",
-                      f"Se publicó «{title}» en la web{' + reel a FB/IG' if video else ''}.\n{post_url}",
+                      f"Se publicó «{title}» en la web.\n{post_url}\n\n"
+                      f"Para borrarla, abrí este mail en formato HTML y tocá «Borrar de la web».",
                       html=intro)
 
     logger.info(f"=== Notas para la web: {hechas} nota(s) publicada(s) ===")
