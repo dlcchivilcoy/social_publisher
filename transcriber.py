@@ -167,6 +167,7 @@ def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: b
                               "👁️ Previsualizar video", color="#444")
         if hay and draft_id:
             botones += _boton(f"{webapp}?action=edit&draft={draft_id}{t}", "✏️ Corregir texto", color="#444")
+            botones += _boton(f"{webapp}?action=delete&post={quote(draft_id)}{t}", "🗑️ Borrar borrador", color="#b00020")
     elif reel_url:
         botones += _boton(reel_url, "👁️ Ver el reel", color="#444")
     return (f'<div style="font-family:Arial;max-width:600px;color:#222;font-size:16px">'
@@ -569,6 +570,18 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
         yt_extra = f' — <a href="{yt_info["short_url"]}">{_hesc(yt_info["short_url"])}</a>{nota_priv}'
     wix_extra = f' — <a href="{post_url}">{_hesc(post_url)}</a>' if post_url else ""
 
+    # Botón «Borrar de la web»: borra SOLO la nota de Wix (no FB/IG/YouTube).
+    borrar = ""
+    webapp = get("APPROVE_WEBAPP_URL")
+    pid = fila.get("draft_id")
+    if webapp and pid and estado.get("wix") == "ok":
+        tok = get("WEBAPP_TOKEN")
+        t = f"&token={quote(tok)}" if tok else ""
+        borrar = (f"<div style='margin:14px 0'>"
+                  f"{_boton(f'{webapp}?action=delete&post={quote(pid)}{t}', '🗑️ Borrar de la web', color='#b00020')}"
+                  f"</div><p style='color:#999;font-size:12px'>Solo borra la nota de la web; "
+                  f"el reel de FB/IG y el Short de YouTube se borran a mano.</p>")
+
     html = (
         f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
         f"<h2 style='color:#e2620c'>Estado de publicación</h2>"
@@ -578,7 +591,7 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
         f"{_li('Facebook', 'facebook')}"
         f"{_li('YouTube Shorts', 'youtube', yt_extra)}"
         f"{_li('Web (Wix)', 'wix', wix_extra)}"
-        f"</ul></div>"
+        f"</ul>{borrar}</div>"
     )
     cuerpo = (f"Estado de publicación de «{titulo}»:\n"
               f"- Instagram: {estado.get('instagram')}\n"
