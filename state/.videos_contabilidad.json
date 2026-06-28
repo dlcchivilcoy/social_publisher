@@ -123,5 +123,18 @@
       "youtube": "falló: No hay token de YouTube (.yt_token_diario.json). Corré `python yt_auth.py diario` (local) o cargá YT_SHORTS_TOKEN_JSON (nube).",
       "wix": "ok"
     }
+  },
+  {
+    "file": "VID-20260628-WA0018.mp4",
+    "uploader": "dlc.chivilcoy@gmail.com",
+    "fecha_recibido": "2026-06-28T15:18:48",
+    "hay_noticia": true,
+    "volanta": "Pizza gigante en Chivilcoy",
+    "titulo": "Chivilcoy: Una pizza de 100 metros para celebrar el Día del Inmigrante Italiano",
+    "resumen": "El Centro Cultural Ítalo Argentino celebró el Día del Inmigrante Italiano en Chivilcoy con una pizza de 100 metros. Roxana Bichierai y Matías Giarraputo destacaron el gran trabajo y el apoyo municipal para el evento, que busca promover la cultura italiana y sumar nuevos miembros.",
+    "texto": "El Centro Cultural Ítalo Argentino de Chivilcoy celebró el Día del Inmigrante Italiano con un evento multitudinario: la elaboración y degustación de una pizza de 100 metros de largo. La actividad, que congregó a una gran cantidad de vecinos, había sido originalmente programada para junio, pero debió posponerse debido a las condiciones climáticas adversas.\n\nRoxana Bichierai, una de las organizadoras, expresó su enorme satisfacción por la exitosa realización del festejo. \"Estamos super contentos, la verdad, compartiendo con un montón de gente\", afirmó, destacando la alegría de poder celebrar la italianidad en un día soleado. Matías Giarraputo, también parte de la comisión organizadora, añadió que este logro fue el resultado de un arduo trabajo y la colaboración de muchas personas.\n\nLa preparación de la gigantesca pizza demandó semanas de planificación y esfuerzo. Giarraputo detalló que implicó tareas como rallar queso, preparar la salsa y montar los tablones necesarios para la extensión. Agradeció especialmente a la Municipalidad de Chivilcoy y a la Dirección de Producción por el apoyo brindado, que permitió que la Feria Bio acompañara esta iniciativa.\n\nMás allá de la celebración, el evento sirvió como una oportunidad para que el Centro Cultural Ítalo Argentino se acercara y se diera a conocer a la comunidad. \"La idea es hacernos conocidos\", explicó Giarraputo, invitando a los interesados a sumarse a las nuevas etapas y talleres que están comenzando. El Centro Cultural ofrece diversas vías de contacto a través de sus redes sociales en Instagram y Facebook, así como un número telefónico para quienes deseen asociarse o participar de sus actividades.",
+    "draft_id": "b060faa9-8c1f-4844-be1e-276afc4a1bab",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260628-wa0018.mp4",
+    "estado": "borrador"
   }
 ]
