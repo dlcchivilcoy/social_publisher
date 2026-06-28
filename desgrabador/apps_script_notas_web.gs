@@ -43,17 +43,18 @@ function _archivoMasNuevo(folder) {
 }
 
 function _tieneWordYFoto(folder) {
-  // Acepta como TEXTO: un .docx subido, un .txt, o un Google Doc (creado en Drive).
-  // Acepta como FOTO: cualquier imagen (por extensión o por tipo MIME).
-  var hayDoc = false, hayFoto = false;
+  // Vale si hay TEXTO (un .docx subido, un .txt o un Google Doc) MÁS algo de media:
+  // al menos una FOTO o un VIDEO (si no hay foto, la portada se saca de un frame del video).
+  var hayDoc = false, hayMedia = false;
   var files = folder.getFiles();
   while (files.hasNext()) {
     var f = files.next();
     var n = f.getName().toLowerCase();
     var mt = f.getMimeType() || '';
     if (/\.(docx|txt)$/.test(n) || mt === 'application/vnd.google-apps.document') hayDoc = true;
-    if (/\.(jpg|jpeg|png|webp|gif)$/.test(n) || mt.indexOf('image/') === 0) hayFoto = true;
-    if (hayDoc && hayFoto) return true;
+    if (/\.(jpg|jpeg|png|webp|gif|mp4|mov|mkv|avi|webm|m4v|mpg|mpeg)$/.test(n)
+        || mt.indexOf('image/') === 0 || mt.indexOf('video/') === 0) hayMedia = true;
+    if (hayDoc && hayMedia) return true;
   }
   return false;
 }

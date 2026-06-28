@@ -124,27 +124,40 @@ def run_notas_web(dry_run: bool = False) -> None:
         docx = (_todos(carpeta, _DOC_EXT) or [None])[0]
         fotos = _todos(carpeta, _IMG_EXT)
         videos = _todos(carpeta, _VIDEO_EXT)
-        if not docx or not fotos:
-            logger.warning(f"«{key}»: falta el Word o las fotos (docx={bool(docx)}, "
-                           f"fotos={len(fotos)}). Se saltea.")
+        if not docx or (not fotos and not videos):
+            logger.warning(f"«{key}»: falta el texto o algo de media (texto={bool(docx)}, "
+                           f"fotos={len(fotos)}, videos={len(videos)}). Se saltea.")
             continue
 
         volanta, titular, cuerpo = _parse_docx(docx)
         if not titular:
-            logger.warning(f"«{key}»: el Word no tiene título legible. Se saltea.")
+            logger.warning(f"«{key}»: el texto no tiene título legible. Se saltea.")
             continue
         resumen = _resumen_caption(cuerpo[0], max_chars=280) if cuerpo else titular
         title = f"{volanta} — {titular}" if volanta else titular
         body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
 
         if dry_run:
+            extra = "" if fotos else " (portada = frame del video)"
             logger.info(f"[dry-run] «{key}» → Wix (solo web): «{title}» | "
-                        f"{len(fotos)} foto/s | {len(videos)} video/s completo/s")
+                        f"{len(fotos)} foto/s{extra} | {len(videos)} video/s completo/s")
             continue
 
-        # Hostear los videos COMPLETOS (sin recorte) para embeberlos como video nativo.
         work.mkdir(exist_ok=True)
         slug = _slug(carpeta.name)
+
+        # Portada: si no hay foto, saco un frame del primer video.
+        portadas = list(fotos)
+        if not portadas and videos:
+            try:
+                from video import best_frame
+                portadas = [best_frame(videos[0], work / f"portada_{slug}.jpg")]
+                logger.info(f"«{key}»: sin foto → uso un frame del video como portada.")
+            except Exception as e:
+                logger.error(f"«{key}»: no pude sacar un frame del video: {e}. Se saltea.")
+                continue
+
+        # Hostear los videos COMPLETOS (sin recorte) para embeberlos como video nativo.
         video_urls = []
         for i, v in enumerate(videos):
             try:
@@ -156,7 +169,7 @@ def run_notas_web(dry_run: bool = False) -> None:
         # Publicar SOLO en la web (Wix): galería de fotos + videos completos + texto.
         try:
             info = _retry(lambda: wix.crear_borrador_galeria(
-                title, body, fotos, video_urls=video_urls, page=0, description=resumen),
+                title, body, portadas, video_urls=video_urls, page=0, description=resumen),
                 etiqueta="[wix] crear galería")
             draft_id = info["draft_id"]
             res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
@@ -175,7 +188,7 @@ def run_notas_web(dry_run: bool = False) -> None:
                  f"<p style='color:#888;font-size:13px'>{_hesc(volanta)}</p>"
                  f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
                  f"<p>{_hesc(resumen)}</p>"
-                 f"<p>{len(fotos)} foto/s en galería · {len(video_urls)} video/s completo/s.</p>"
+                 f"<p>{len(portadas)} foto/s en galería · {len(video_urls)} video/s completo/s.</p>"
                  + (f"<p><a href='{_hesc(post_url)}'>{_hesc(post_url)}</a></p>" if post_url else "")
                  + f"<div style='margin:18px 0'>{_boton_borrar(draft_id)}</div>")
         _enviar_aviso(f"Nota web publicada: {titular}",
