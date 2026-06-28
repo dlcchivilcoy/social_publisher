@@ -144,5 +144,18 @@
       "youtube": "falló: No hay token de YouTube (.yt_token_diario.json). Corré `python yt_auth.py diario` (local) o cargá YT_SHORTS_TOKEN_JSON (nube).",
       "wix": "ok"
     }
+  },
+  {
+    "file": "Patricia realiza junto a su mamá pecheras escolares para niños y docentes. Están en la Feria Bio en Plaza España.mp4",
+    "uploader": "dlc.chivilcoy@gmail.com",
+    "fecha_recibido": "2026-06-28T19:50:42",
+    "hay_noticia": true,
+    "volanta": "Producción local",
+    "titulo": "MIP Pecheras: Un emprendimiento familiar que crece en la Feria Bio",
+    "resumen": "Patricia de MIP Pecheras habló sobre su emprendimiento familiar de pecheras y guardapolvos. Destacó el crecimiento del negocio, la incorporación de nuevos productos y la importancia de la Feria Bio para conectar con clientes, incluso de otras localidades.",
+    "texto": "En un soleado domingo en la Plaza España, Patricia, una de las impulsoras del microemprendimiento familiar \"MIP Pecheras\", compartió detalles sobre su trabajo en la Feria Bio. Junto a su madre, se dedican a la confección de pecheras para escuelas y jardines, un proyecto que inició hace aproximadamente cinco años.\n\nEl emprendimiento ha evolucionado, incorporando recientemente la confección de pecheras para maestras. Patricia explicó que comenzaron de a poco y que la participación en la Feria Bio ha sido fundamental para darse a conocer y mostrar la variedad de sus productos.\n\n\"MIP Pecheras\" ofrece diseños personalizados y la posibilidad de elegir colores y detalles en los bolsillos, como se pudo observar en los guardapolvos de jardín con corbatas que varían según la sala. Si bien aún no han implementado el bordado, la idea es seguir sumando opciones a su catálogo.\n\nLa respuesta del público ha sido muy positiva, con clientes que los eligen repetidamente y otros que se acercan desde diferentes localidades, como los visitantes de San Sebastián que regresaron a comprar tras una primera visita. Patricia expresó su agradecimiento por la preferencia y la oportunidad que les brinda la feria para expandir su alcance. Para conocer más, se los puede encontrar en Facebook e Instagram como \"MIP Pecheras\".",
+    "draft_id": "d33a831f-a81a-4fe6-83ff-44fcb69af165",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_patricia-realiza-junto-a-su-mam-pecheras.mp4",
+    "estado": "borrador"
   }
 ]
