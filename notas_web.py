@@ -28,8 +28,9 @@ logger = get_logger("notas_web")
 LEDGER = Path(__file__).parent / ".notas_web.json"
 
 _VIDEO_EXT = {".mp4", ".mov", ".webm", ".mkv", ".avi", ".m4v", ".mpg", ".mpeg"}
-_IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}
-_DOC_EXT = {".docx"}
+_IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+# Texto de la nota: Word (.docx; un Google Doc llega como .docx por rclone) o .txt.
+_DOC_EXT = {".docx", ".txt"}
 
 
 def _folder() -> Path:
@@ -61,7 +62,17 @@ def _todos(carpeta: Path, exts: set) -> list[Path]:
 
 
 def _parse_docx(docx_path: Path) -> tuple[str, str, list[str]]:
-    """(volanta, titular, cuerpo_parrafos). Reusa la heurística del carrusel."""
+    """(volanta, titular, cuerpo_parrafos) desde un .docx o un .txt. Misma heurística que
+    el carrusel: 1er párrafo corto = volanta; si no, el 1ro es el titular."""
+    if docx_path.suffix.lower() == ".txt":
+        raw = docx_path.read_text(encoding="utf-8", errors="replace")
+        paras = [ln.strip() for ln in raw.splitlines() if ln.strip()]
+        if not paras:
+            return "", "", []
+        es_volanta = len(paras) >= 2 and (len(paras[0]) <= 55 or len(paras[0].split()) <= 7)
+        if es_volanta:
+            return paras[0], paras[1], paras[2:]
+        return "", paras[0], paras[1:]
     from carrusel_notas import _parse_nota
     return _parse_nota(docx_path)
 

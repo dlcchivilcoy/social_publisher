@@ -43,12 +43,16 @@ function _archivoMasNuevo(folder) {
 }
 
 function _tieneWordYFoto(folder) {
+  // Acepta como TEXTO: un .docx subido, un .txt, o un Google Doc (creado en Drive).
+  // Acepta como FOTO: cualquier imagen (por extensión o por tipo MIME).
   var hayDoc = false, hayFoto = false;
   var files = folder.getFiles();
   while (files.hasNext()) {
-    var n = files.next().getName().toLowerCase();
-    if (/\.docx$/.test(n)) hayDoc = true;
-    if (/\.(jpg|jpeg|png|webp)$/.test(n)) hayFoto = true;
+    var f = files.next();
+    var n = f.getName().toLowerCase();
+    var mt = f.getMimeType() || '';
+    if (/\.(docx|txt)$/.test(n) || mt === 'application/vnd.google-apps.document') hayDoc = true;
+    if (/\.(jpg|jpeg|png|webp|gif)$/.test(n) || mt.indexOf('image/') === 0) hayFoto = true;
     if (hayDoc && hayFoto) return true;
   }
   return false;
