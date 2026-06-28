@@ -68,13 +68,15 @@ jobs:
           printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
 
       - name: Bajar la carpeta del dia desde Google Drive
+        env:
+          # Por env (NO inline) para no romper si el nombre del video trae espacios/comillas.
+          ARGS: ${{ github.event.inputs.args }}
         run: |
           mkdir -p diario
           # Asegura que las carpetas existan aunque esten vacias en Drive
           mkdir -p "diario/NOTAS AUTOMATICAS" "diario/DIARIO PDF"
           # Los comandos de video (desgrabador) NO necesitan toda la carpeta Diario:
           # saltear el sync pesado acelera esas corridas varios minutos.
-          ARGS="${{ github.event.inputs.args }}"
           if echo "$ARGS" | grep -q -- "video"; then
             echo "Comando de video: se saltea el sync completo de gdrive:Diario."
           else
