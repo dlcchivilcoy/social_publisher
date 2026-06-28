@@ -48,7 +48,15 @@ jobs:
       - name: Instalar rclone
         run: |
           sudo -v
-          curl https://rclone.org/install.sh | sudo bash
+          # Reintentar: a veces el install.sh flaquea y rclone no queda en PATH (exit 127).
+          for i in 1 2 3; do
+            curl -fsSL https://rclone.org/install.sh | sudo bash || true
+            if command -v rclone >/dev/null 2>&1; then break; fi
+            echo "rclone no quedó instalado (intento $i); reintento en 5s…"
+            sleep 5
+          done
+          command -v rclone >/dev/null 2>&1 || { echo "ERROR: no se pudo instalar rclone"; exit 1; }
+          rclone version | head -1
 
       - name: Escribir credenciales (.env) y config de Drive (rclone)
         env:
