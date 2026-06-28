@@ -114,6 +114,14 @@
     "texto": "Un joven mayor de edad fue hallado sin vida este domingo al mediodía en un loteo ubicado en la intersección de las calles Dorrego y 21 de Chivilcoy. El descubrimiento generó un importante operativo policial en la zona, mientras se investigan las causas del fallecimiento.\n\nLa información trascendió a través de un aviso vecinal a \"Chivilcoy al Día\". El lugar del hallazgo es un sector abierto, a pocas cuadras de la Segunda Avenida de Circunvalación, sin vegetación que impida la visibilidad, lo que permitió que el cuerpo fuera observado a simple vista desde la calle.\n\nPersonal de la Policía Comunal de Chivilcoy se encuentra trabajando en el sitio, preservando la escena y llevando a cabo las primeras actuaciones. Los efectivos también recorren el área en busca de registros de cámaras de seguridad y recabando testimonios de vecinos para reconstruir los hechos. Se aguarda la llegada de la Policía Científica de la Provincia de Buenos Aires, que será la encargada de realizar las pericias correspondientes.\n\nHasta el momento, no se ha difundido oficialmente la identidad de la víctima ni las circunstancias precisas en las que se produjo su deceso. Las autoridades no han emitido una comunicación oficial debido a la reciente naturaleza del suceso, y se espera que brinden más detalles a medida que avance la investigación.",
     "draft_id": "8b9d5a70-8618-4821-b9ed-f6df4c85852a",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260628-wa0015.mp4",
-    "estado": "borrador"
+    "estado": "publicado",
+    "fecha_publicado": "2026-06-28T15:06:14",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragico-hallazgo-en-chivilcoy-hallan-sin-vida-a-un-joven-en-chivilcoy",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "falló: No hay token de YouTube (.yt_token_diario.json). Corré `python yt_auth.py diario` (local) o cargá YT_SHORTS_TOKEN_JSON (nube).",
+      "wix": "ok"
+    }
   }
 ]
