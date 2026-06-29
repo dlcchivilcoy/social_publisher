@@ -100,6 +100,41 @@ function _procesarCarpeta(folderId, vistosKey, hacerArgs, excludeId) {
   }
 }
 
+// Nota-PLACA: una SUBCARPETA con Word/txt + foto pero SIN video.
+function _carpetaEsPlaca(folder) {
+  var hayDoc = false, hayFoto = false, hayVideo = false;
+  var files = folder.getFiles();
+  while (files.hasNext()) {
+    var f = files.next();
+    var n = f.getName().toLowerCase();
+    var mt = f.getMimeType() || '';
+    if (/\.(docx|txt)$/.test(n) || mt === 'application/vnd.google-apps.document') hayDoc = true;
+    if (/\.(jpg|jpeg|png|webp|gif)$/.test(n) || mt.indexOf('image/') === 0) hayFoto = true;
+    if (_esVideo(f)) hayVideo = true;
+  }
+  return hayDoc && hayFoto && !hayVideo;
+}
+
+function _procesarPlacas(folderId, vistosKey, excludeId) {
+  if (!folderId) return;
+  var folder = DriveApp.getFolderById(folderId);
+  var vistos = _vistos(vistosKey);
+  var ahora = new Date().getTime();
+  var subs = folder.getFolders();
+  while (subs.hasNext()) {
+    var sf = subs.next();
+    if (excludeId && sf.getId() === excludeId) continue;
+    if (vistos.indexOf(sf.getId()) !== -1) continue;
+    if (!_carpetaEsPlaca(sf)) continue;
+    // Esperar a que termine de subir: ignorar si algo se modificó hace <60s.
+    var ultimo = 0, fl = sf.getFiles();
+    while (fl.hasNext()) { var t = fl.next().getLastUpdated().getTime(); if (t > ultimo) ultimo = t; }
+    if (ahora - ultimo < 60000) continue;
+    _dispatch('--placa --file "' + sf.getName() + '"');
+    _marcarVisto(vistosKey, sf.getId());
+  }
+}
+
 function revisarNuevos() {
   var aprobadasId = _prop('FOLDER_APROBADAS_ID');
   // Etapa 1: videos nuevos (en la carpeta o en subcarpetas, menos APROBADAS) → desgrabar.
@@ -110,4 +145,6 @@ function revisarNuevos() {
   _procesarCarpeta(aprobadasId, 'PROCESSED_APROBADAS', function (name, email) {
     return '--publish-video --file "' + name + '"';
   }, null);
+  // Notas-placa: subcarpetas con Word + foto SIN video → reel-placa + nota web (directo).
+  _procesarPlacas(_prop('FOLDER_NUEVOS_ID'), 'PROCESSED_PLACA', aprobadasId);
 }

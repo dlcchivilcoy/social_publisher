@@ -88,6 +88,39 @@ def _slug(s: str) -> str:
     return s[:40] or "reel"
 
 
+IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+
+
+def _find_folder(name: str) -> Path | None:
+    """Ubica la SUBCARPETA de una nota-placa (Word + foto, sin video) por nombre."""
+    base = _videos_folder()
+    if not base.exists():
+        return None
+    if name:
+        cand = base / name
+        if cand.is_dir():
+            return cand
+        for p in base.rglob("*"):
+            if p.is_dir() and p.name == name:
+                return p
+    return None
+
+
+def _parse_word(path: Path) -> tuple[str, str, list[str]]:
+    """(volanta, titular, cuerpo) desde un .docx o .txt. 1er párrafo corto = volanta."""
+    if path.suffix.lower() == ".txt":
+        paras = [ln.strip() for ln in path.read_text(encoding="utf-8-sig", errors="ignore").splitlines() if ln.strip()]
+    else:
+        from docx import Document
+        paras = [p.text.strip() for p in Document(str(path)).paragraphs if p.text.strip()]
+    if not paras:
+        return "", "", []
+    es_vol = len(paras) >= 2 and (len(paras[0]) <= 55 or len(paras[0].split()) <= 7)
+    if es_vol:
+        return paras[0], paras[1], paras[2:]
+    return "", paras[0], paras[1:]
+
+
 # ── Adjuntos de la subcarpeta (fotos + texto de contexto) ─────────────────────
 def _leer_texto(path: Path) -> str:
     try:
@@ -550,6 +583,123 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     else:
         logger.error("No se pudo publicar en ningún canal — revisar credenciales.")
     logger.info("=== Publicar video aprobado: fin ===")
+
+
+def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
+    """Nota-PLACA: una subcarpeta de «videos notas actualidad» con Word + foto(s) SIN video.
+    Arma un reel vertical tipo placa (foto + titular, estética del diario), publica la nota
+    en la WEB (foto(s) + texto) y postea el reel a FB/IG. Publica DIRECTO (el texto lo
+    escribió el editor, no hay transcripción que revisar) y manda un mail con botón Borrar.
+    Idempotente (ledger compartido con los videos)."""
+    from story_image import compose_note_story
+    from video import build_slideshow
+    from carrusel_notas import _resumen_caption
+
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    logger.info(f"=== Nota placa [{modo}] — folder='{folder}' ===")
+    carpeta = _find_folder(folder)
+    if not carpeta:
+        logger.error(f"No encontré la carpeta '{folder}' en {_videos_folder()}.")
+        return
+    docx = next((p for p in sorted(carpeta.iterdir())
+                 if p.is_file() and p.suffix.lower() in (".docx", ".txt")), None)
+    fotos = [p for p in sorted(carpeta.iterdir()) if p.is_file() and p.suffix.lower() in IMG_EXTS]
+    if not docx or not fotos:
+        logger.error(f"'{folder}' necesita Word/txt + ≥1 foto (word={bool(docx)}, fotos={len(fotos)}).")
+        return
+
+    rows = _leer_ledger()
+    fila = _buscar_fila(rows, carpeta.name)
+    if not dry_run and fila and fila.get("estado") == "publicado_placa":
+        logger.info(f"La placa '{carpeta.name}' ya estaba publicada. Nada que hacer.")
+        return
+
+    volanta, titular, cuerpo = _parse_word(docx)
+    if not titular:
+        logger.error(f"El Word de '{folder}' no tiene título legible.")
+        return
+    resumen = _resumen_caption(cuerpo[0], max_chars=280) if cuerpo else titular
+    texto = "\n\n".join(cuerpo)
+    title = f"{volanta} — {titular}" if volanta else titular
+    body = titular + ("\n\n" + texto if texto else "")
+    site = _site()
+
+    if dry_run:
+        logger.info(f"[dry-run] placa «{title}»: {len(fotos)} foto(s) → reel-placa + nota web\n"
+                    f"  VOLANTA: {volanta}\n  TÍTULO: {titular}\n  RESUMEN: {resumen}")
+        return
+
+    WORK_DIR.mkdir(exist_ok=True)
+    slug = _slug(carpeta.name)
+    placas = [compose_note_story(f, volanta, titular, resumen, site) for f in fotos]
+    reel = build_slideshow(placas, WORK_DIR / f"placa_{slug}.mp4")
+    reel_url = upload_reel(reel)
+    plats = _platforms()
+    estado = {"instagram": "omitido", "facebook": "omitido", "wix": "omitido"}
+    caption = _caption(titular, resumen)
+
+    post_url, draft_id = "", ""
+    try:
+        info = wix.crear_borrador_galeria(title, body, fotos, video_urls=[], page=0, description=resumen)
+        draft_id = info["draft_id"]
+        res = wix.publicar_borrador(draft_id)
+        post_url = (res or {}).get("url", "")
+        estado["wix"] = "ok"
+        logger.info(f"[wix] nota publicada: {post_url}")
+    except Exception as e:
+        estado["wix"] = f"falló: {e}"
+        logger.error(f"[wix] FALLÓ: {e}")
+
+    if "instagram" in plats:
+        try:
+            instagram.publish_reel(reel_url, caption); estado["instagram"] = "ok"
+            logger.info("[instagram] reel OK")
+        except Exception as e:
+            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
+    if "facebook" in plats:
+        try:
+            facebook.publish_video(caption, reel); estado["facebook"] = "ok"
+            logger.info("[facebook] reel OK")
+        except Exception as e:
+            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
+
+    if not any(v == "ok" for v in estado.values()):
+        logger.error("La placa no se publicó en ningún canal — se reintenta la próxima corrida.")
+        return
+
+    if fila is None:
+        fila = {"file": carpeta.name}
+        rows.append(fila)
+    fila.update({
+        "uploader": uploader or fila.get("uploader", ""),
+        "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
+        "hay_noticia": True, "es_placa": True, "volanta": volanta, "titulo": titular,
+        "resumen": resumen, "texto": texto, "draft_id": draft_id, "reel_url": reel_url,
+        "post_url": post_url, "estado": "publicado_placa", "estado_canales": estado,
+    })
+    _guardar_ledger(rows)
+
+    borrar = ""
+    webapp = get("APPROVE_WEBAPP_URL")
+    if webapp and draft_id and estado["wix"] == "ok":
+        tok = get("WEBAPP_TOKEN")
+        t = f"&token={quote(tok)}" if tok else ""
+        borrar = (f"<div style='margin:14px 0'>"
+                  f"{_boton(f'{webapp}?action=delete&post={quote(draft_id)}{t}', '🗑️ Borrar de la web', color='#b00020')}"
+                  f"</div>")
+    html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+            f"<h2 style='color:#e2620c'>Placa publicada</h2>"
+            f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · {len(fotos)} foto(s)</p>"
+            f"<p style='font-size:18px'><b>{_hesc(titular)}</b></p>"
+            f"<ul style='line-height:1.8;list-style:none;padding:0'>"
+            f"<li>{'✅' if estado['instagram'] == 'ok' else '❌'} Instagram</li>"
+            f"<li>{'✅' if estado['facebook'] == 'ok' else '❌'} Facebook</li>"
+            f"<li>{'✅' if estado['wix'] == 'ok' else '❌'} Web"
+            + (f" — <a href='{post_url}'>{_hesc(post_url)}</a>" if post_url else "") + "</li>"
+            f"</ul>{borrar}</div>")
+    _enviar_aviso(f"Placa publicada: {titular}",
+                  f"Se publicó la placa «{title}» (reel a FB/IG + nota web).\n{post_url}", html=html)
+    logger.info("=== Nota placa: fin ===")
 
 
 def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> None:

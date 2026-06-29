@@ -164,6 +164,11 @@ def main() -> None:
         help="Publicar a la WEB (Wix) + reel a FB/IG las notas nuevas de la carpeta «notas para web» (Word + foto + video por subcarpeta).",
     )
     parser.add_argument(
+        "--placa",
+        action="store_true",
+        help="Nota-PLACA: una subcarpeta de «videos notas actualidad» con Word + foto(s) SIN video → reel-placa a FB/IG + nota web (con --folder).",
+    )
+    parser.add_argument(
         "--limit",
         type=int,
         default=15,
@@ -336,6 +341,11 @@ def main() -> None:
         from notas_web import run_notas_web
         logger.info(f"Modo --notas-web (dry_run={args.dry_run}).")
         run_notas_web(dry_run=args.dry_run)
+        return
+    if args.placa:
+        from transcriber import run_placa
+        logger.info(f"Modo --placa (dry_run={args.dry_run}). folder={args.file}")
+        run_placa(folder=args.file or "", uploader=args.uploader or "", dry_run=args.dry_run)
         return
 
     if args.dry_run:
