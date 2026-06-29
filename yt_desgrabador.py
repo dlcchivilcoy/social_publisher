@@ -257,8 +257,17 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
     for v in pendientes:
         logger.info(f"  Desgrabando: «{v['titulo'][:60]}» ({v['url']})")
         try:
-            nota = gemini.transcribe_youtube_url(v["url"], instrucciones=INSTRUCCION_LARGO,
-                                                 api_key=key)
+            contexto = (
+                f"TÍTULO ORIGINAL DEL VIDEO EN YOUTUBE: «{v['titulo']}».\n"
+                "Usá ESTE título como REFERENCIA AUTORITATIVA para los NOMBRES PROPIOS "
+                "(personas entrevistadas, apellidos, lugares, instituciones): escribilos "
+                "EXACTAMENTE como figuran en el título. Si un nombre que escuchás en el audio "
+                "no coincide con el del título (el reconocimiento de voz suele equivocar "
+                "apellidos), PRIORIZÁ la forma del título. Si el título nombra al entrevistado, "
+                "ese es su nombre correcto."
+            )
+            nota = gemini.transcribe_youtube_url(v["url"], extra_text=contexto,
+                                                 instrucciones=INSTRUCCION_LARGO, api_key=key)
         except Exception as e:
             logger.error(f"    Gemini falló (se reintenta en la próxima corrida): {e}")
             continue  # NO se marca: se reintenta

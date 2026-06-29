@@ -665,7 +665,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
             f"<p>Está como <b>borrador en Wix</b> con la foto y el texto. Para PUBLICAR "
-            f"(nota web + la foto a Facebook/Instagram con todo el texto en el pie):</p>"
+            f"(nota web + un REEL de la foto a Facebook/Instagram con todo el texto en el pie):</p>"
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la "
             f"carpeta «{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
@@ -723,24 +723,30 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         except Exception as e:
             estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
 
-    if "instagram" in plats:
+    # REEL: la/s foto/s encuadrada/s a 9:16 (SIN gráfica) como video vertical + caption completo.
+    reel_url, reel_local = "", None
+    try:
+        from story_image import compose_foto_reel
+        from video import build_slideshow
+        WORK_DIR.mkdir(exist_ok=True)
+        slides = [compose_foto_reel(f) for f in fotos]
+        reel_local = build_slideshow(slides, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4")
+        reel_url = upload_reel(reel_local)
+    except Exception as e:
+        logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
+
+    if "instagram" in plats and reel_url:
         try:
-            if len(fotos) == 1:
-                instagram.publish(caption, fotos[0])
-            else:
-                instagram.publish_carousel(caption, fotos[:10])
-            estado["instagram"] = "ok"; logger.info("[instagram] foto OK")
+            instagram.publish_reel(reel_url, caption); estado["instagram"] = "ok"
+            logger.info("[instagram] reel OK")
         except Exception as e:
-            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] foto FALLÓ: {e}")
-    if "facebook" in plats:
+            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
+    if "facebook" in plats and reel_local:
         try:
-            if len(fotos) == 1:
-                facebook.publish(caption, fotos[0])
-            else:
-                facebook.publish_multi(caption, fotos)
-            estado["facebook"] = "ok"; logger.info("[facebook] foto OK")
+            facebook.publish_video(caption, reel_local); estado["facebook"] = "ok"
+            logger.info("[facebook] reel OK")
         except Exception as e:
-            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] foto FALLÓ: {e}")
+            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
 
     fila.update({"estado": "publicado_placa", "post_url": post_url,
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
@@ -764,7 +770,7 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             + (f" — <a href='{post_url}'>{_hesc(post_url)}</a>" if post_url else "") + "</li>"
             f"</ul>{borrar}</div>")
     _enviar_aviso(f"Foto-nota publicada: {titular}",
-                  f"Se publicó «{title}» (foto + texto a FB/IG + nota web).\n{post_url}", html=html)
+                  f"Se publicó «{title}» (reel de la foto a FB/IG + nota web).\n{post_url}", html=html)
     logger.info("=== Foto-nota (etapa 2): fin ===")
 
 

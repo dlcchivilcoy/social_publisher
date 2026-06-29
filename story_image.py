@@ -179,6 +179,14 @@ def _safe_stem(text: str, fallback: str) -> str:
     return base or fallback
 
 
+def compose_foto_reel(photo_path: Path) -> Path:
+    """La foto TAL CUAL encuadrada a 9:16 (se ve entera, con fondo desenfocado), SIN texto
+    ni gráfica. Para armar un reel a partir de la foto del editor."""
+    img = Image.open(photo_path)
+    canvas = _fit_blur(img, W, H)
+    return _save(canvas, _safe_stem(Path(photo_path).stem, "foto_reel"))
+
+
 # ---------------------------------------------------------------------------
 # Historia de NOTICIA: foto (cover, full-bleed arriba) + texto abajo
 # ---------------------------------------------------------------------------
