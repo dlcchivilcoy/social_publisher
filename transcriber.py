@@ -146,6 +146,8 @@ def _recolectar_adjuntos(video: Path) -> tuple[str, list[Path]]:
     for p in sorted(folder.iterdir()):
         if not p.is_file() or p == video:
             continue
+        if p.name.lower() == "contexto.txt":
+            continue  # lo parsea _leer_contexto() aparte (datos del corresponsal)
         ext = p.suffix.lower()
         if ext in TEXT_EXTS:
             t = _leer_texto(p)
@@ -156,6 +158,43 @@ def _recolectar_adjuntos(video: Path) -> tuple[str, list[Path]]:
     if textos or imgs:
         logger.info(f"Adjuntos en «{folder.name}»: {len(textos)} texto(s), {len(imgs)} foto(s)")
     return "\n\n".join(textos), imgs
+
+
+# ── Contexto del corresponsal (contexto.txt que deja el bot de WhatsApp) ──────
+FIRMA_DEFAULT = ("Material enviado por un colaborador de la Red de Corresponsales — "
+                 "Diario La Campaña · Radio del Centro")
+_CTX_KEYS = ("origen", "nombre", "celular", "lugar", "descripcion", "autorizacion")
+
+
+def _firma_texto() -> str:
+    return (get("CORRESPONSALES_FIRMA") or FIRMA_DEFAULT).strip()
+
+
+def _leer_contexto(folder: Path) -> dict | None:
+    """Si en la subcarpeta del video hay un `contexto.txt` con los datos del corresponsal
+    (lo escribe el webhook de WhatsApp), lo parsea a un dict con las claves de `_CTX_KEYS`.
+    Formato `CLAVE: valor` (DESCRIPCION puede ser multilínea). Devuelve None si no existe o
+    no tiene el marcador ORIGEN."""
+    try:
+        cand = folder / "contexto.txt"
+        if not cand.exists():
+            return None
+        raw = cand.read_text(encoding="utf-8-sig", errors="ignore")
+    except Exception as e:
+        logger.warning(f"No se pudo leer contexto.txt: {e}")
+        return None
+    datos: dict[str, str] = {}
+    actual = None
+    for linea in raw.splitlines():
+        m = re.match(r"\s*([A-Za-zÁÉÍÓÚÑ]+)\s*:\s*(.*)$", linea)
+        if m and m.group(1).strip().lower() in _CTX_KEYS:
+            actual = m.group(1).strip().lower()
+            datos[actual] = m.group(2).strip()
+        elif actual:  # continuación de un valor multilínea (ej. DESCRIPCION)
+            datos[actual] = (datos[actual] + "\n" + linea.rstrip()).strip()
+    if not datos.get("origen"):
+        return None
+    return datos
 
 
 # ── Ledger de contabilidad ────────────────────────────────────────────────────
@@ -266,6 +305,20 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
 
     WORK_DIR.mkdir(exist_ok=True)
     extra_text, imgs = _recolectar_adjuntos(video)
+
+    # Contexto del corresponsal (lo deja el bot de WhatsApp en contexto.txt). Si existe,
+    # se firma el reel y se suman Lugar/Descripción al contexto que recibe Gemini.
+    ctx = _leer_contexto(video.parent)
+    es_corresponsal = bool(ctx and "corresponsal" in (ctx.get("origen", "").lower()))
+    if ctx:
+        partes = []
+        if ctx.get("lugar"):
+            partes.append(f"Lugar del hecho: {ctx['lugar']}")
+        if ctx.get("descripcion"):
+            partes.append(f"Descripción aportada por el colaborador: {ctx['descripcion']}")
+        if partes:
+            extra_text = (extra_text + "\n\n" + "\n".join(partes)).strip()
+
     nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs)
 
     hay = nota["hay_noticia"]
@@ -279,7 +332,8 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # Antes se recortaba a ~60s (mejores partes con noticia, o 60s sin noticia); se anuló:
     # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
     reel_path = WORK_DIR / f"reel_{slug}.mp4"
-    reel = to_vertical_reel(video, reel_path)
+    firma = _firma_texto() if es_corresponsal else None
+    reel = to_vertical_reel(video, reel_path, firma=firma)
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
@@ -316,20 +370,40 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
         "texto": texto, "draft_id": draft_id, "reel_url": reel_url, "estado": estado,
     })
+    if ctx:
+        fila.update({
+            "origen": ctx.get("origen", ""),
+            "corresponsal_nombre": ctx.get("nombre", ""),
+            "corresponsal_celular": ctx.get("celular", ""),
+            "corresponsal_lugar": ctx.get("lugar", ""),
+            "autorizacion": ctx.get("autorizacion", ""),
+        })
     _guardar_ledger(rows)
-    logger.info(f"Registrado (estado={estado}, draft_id={draft_id or '—'}).")
+    logger.info(f"Registrado (estado={estado}, draft_id={draft_id or '—'}"
+                + (f", corresponsal={ctx.get('nombre')}" if es_corresponsal else "") + ").")
+
+    # Quién mandó el material (corresponsal de WhatsApp si lo hay; si no, el uploader de Drive).
+    if es_corresponsal:
+        remitente = ctx.get("nombre", "") or "corresponsal"
+        if ctx.get("celular"):
+            remitente += f" · {ctx['celular']}"
+        if ctx.get("lugar"):
+            remitente += f" · {ctx['lugar']}"
+        remitente += " · Red de Corresponsales"
+    else:
+        remitente = uploader or "desconocido"
 
     if hay:
         cuerpo = (
             f"Llegó un video para revisar: «{titulo}»\n"
-            f"Enviado por: {uploader or 'desconocido'}\n\n"
+            f"Enviado por: {remitente}\n\n"
             f"VOLANTA: {volanta}\nTÍTULO: {titulo}\n\nRESUMEN: {resumen}\n\n"
             f"Está cargado como BORRADOR en Wix (Blog → Borradores) con la foto de portada y el video.\n\n"
             f"➡️ Para PUBLICARLO en la web y mandar el reel a Facebook e Instagram, "
             f"mové el video «{video.name}» a la subcarpeta APROBADAS dentro de «videos notas actualidad»."
         )
         intro = (f"<h2 style='color:#e2620c'>Nota por revisar</h2>"
-                 f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · enviado por {_hesc(uploader or 'desconocido')}</p>"
+                 f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · enviado por {_hesc(remitente)}</p>"
                  f"<p style='font-size:19px'><b>{_hesc(titulo)}</b></p>"
                  f"<p>{_hesc(resumen)}</p>"
                  f"<p>Está como <b>borrador en Wix</b> con foto + video. Revisalo y:</p>")
@@ -338,7 +412,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     else:
         cuerpo = (
             f"Llegó un video pero NO pude desgrabarlo: «{video.name}»\n"
-            f"Enviado por: {uploader or 'desconocido'}\n\n"
+            f"Enviado por: {remitente}\n\n"
             f"No encontré información suficiente (ni en el audio, ni en el texto en pantalla, ni en "
             f"subtítulos o adjuntos) para armar la nota. Por eso la NOTA WEB queda SUSPENDIDA.\n\n"
             f"➡️ Si querés que igual SALGA EL REEL (recortado a 1 minuto, sin texto) a Facebook e "
@@ -494,12 +568,14 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         except Exception as e:
             logger.error(f"No se pudo bajar el reel ({reel_url}): {e}")
 
-    # 1) Instagram (reel remoto).
+    # 1) Instagram (reel remoto). Guardamos el media_id para las métricas del ranking.
+    ig_media_id = fb_video_id = ""
     if "instagram" in plats and reel_url:
         try:
-            instagram.publish_reel(reel_url, caption)
+            res_ig = instagram.publish_reel(reel_url, caption)
+            ig_media_id = (res_ig or {}).get("id", "")
             estado_canales["instagram"] = "ok"
-            logger.info("[instagram] reel OK")
+            logger.info(f"[instagram] reel OK (id={ig_media_id})")
         except Exception as e:
             estado_canales["instagram"] = f"falló: {e}"
             logger.error(f"[instagram] reel FALLÓ: {e}")
@@ -507,9 +583,10 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # 2) Facebook (archivo local).
     if "facebook" in plats and local_reel:
         try:
-            facebook.publish_video(caption, local_reel)
+            res_fb = facebook.publish_video(caption, local_reel)
+            fb_video_id = (res_fb or {}).get("id", "")
             estado_canales["facebook"] = "ok"
-            logger.info("[facebook] video OK")
+            logger.info(f"[facebook] video OK (id={fb_video_id})")
         except Exception as e:
             estado_canales["facebook"] = f"falló: {e}"
             logger.error(f"[facebook] video FALLÓ: {e}")
@@ -561,6 +638,8 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
         "post_url": post_url,
         "estado_canales": estado_canales,
+        "ig_media_id": ig_media_id or fila.get("ig_media_id", ""),
+        "fb_video_id": fb_video_id or fila.get("fb_video_id", ""),
     })
     if yt_info:
         fila.update({

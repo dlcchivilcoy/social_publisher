@@ -1,0 +1,327 @@
+// Programa de Corresponsales "Chivilcoy en Acción" — webhook de WhatsApp (Cloud API).
+//
+// Recibe los mensajes que los vecinos mandan al número del Diario, corre un formulario
+// conversacional (Nombre → Celular → Lugar → Descripción → Autorización) y, al aceptar,
+// baja el video y lo deposita en la carpeta de Drive «videos notas actualidad» (en una
+// subcarpeta con un contexto.txt). A partir de ahí, el desgrabador que ya existe arma la
+// nota web + el reel (con la firma de corresponsal) y avisa al equipo para aprobar.
+//
+// Estado de la conversación + base de datos de colaboradores = tablas de Supabase
+// (ver supabase/migrations/0001_corresponsales.sql). Todo gratis y 100% en la nube.
+//
+// Secrets que necesita (supabase secrets set ...):
+//   WHATSAPP_TOKEN              token permanente de la API (System User)
+//   WHATSAPP_PHONE_NUMBER_ID    id del número en la WABA
+//   WHATSAPP_VERIFY_TOKEN       el que se pone también en el panel de Meta (verificación)
+//   WHATSAPP_APP_SECRET         App Secret (para validar la firma de los webhooks)
+//   GOOGLE_SA_JSON              JSON completo de la service account (una sola línea)
+//   DRIVE_CORRESPONSALES_FOLDER_ID  id de la carpeta «videos notas actualidad» en Drive
+//   (SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY los inyecta Supabase solo)
+
+const GRAPH = "https://graph.facebook.com/v21.0";
+
+const WA_TOKEN = Deno.env.get("WHATSAPP_TOKEN") ?? "";
+const WA_PHONE_ID = Deno.env.get("WHATSAPP_PHONE_NUMBER_ID") ?? "";
+const VERIFY_TOKEN = Deno.env.get("WHATSAPP_VERIFY_TOKEN") ?? "";
+const APP_SECRET = Deno.env.get("WHATSAPP_APP_SECRET") ?? "";
+const SA_JSON = Deno.env.get("GOOGLE_SA_JSON") ?? "";
+const DRIVE_FOLDER = Deno.env.get("DRIVE_CORRESPONSALES_FOLDER_ID") ?? "";
+const SB_URL = Deno.env.get("SUPABASE_URL") ?? "";
+const SB_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
+
+const LEGAL =
+  "Al enviar el material, el colaborador autoriza al Diario La Campaña y Radio del Centro " +
+  "a utilizar las imágenes y videos con fines periodísticos.";
+
+// ── Utilidades ────────────────────────────────────────────────────────────────
+function normalizar(s: string): string {
+  // NFD + saca diacríticos combinantes (U+0300–U+036F) → "Pérez" ≈ "perez", "sí" → "si".
+  return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").trim().toLowerCase();
+}
+
+function slug(s: string): string {
+  return normalizar(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 30) || "corresponsal";
+}
+
+function b64url(bytes: Uint8Array): string {
+  let bin = "";
+  for (const b of bytes) bin += String.fromCharCode(b);
+  return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+// ── Supabase REST (con la service role key, saltea RLS) ───────────────────────
+function sbHeaders(extra: Record<string, string> = {}): Record<string, string> {
+  return { apikey: SB_KEY, Authorization: `Bearer ${SB_KEY}`, "Content-Type": "application/json", ...extra };
+}
+
+async function getSesion(waId: string): Promise<Record<string, unknown> | null> {
+  const r = await fetch(
+    `${SB_URL}/rest/v1/corresponsales_sesiones?wa_id=eq.${encodeURIComponent(waId)}&select=*`,
+    { headers: sbHeaders() },
+  );
+  const rows = await r.json();
+  return Array.isArray(rows) && rows.length ? rows[0] : null;
+}
+
+async function upsertSesion(row: Record<string, unknown>): Promise<void> {
+  row.actualizado = new Date().toISOString();
+  await fetch(`${SB_URL}/rest/v1/corresponsales_sesiones`, {
+    method: "POST",
+    headers: sbHeaders({ Prefer: "resolution=merge-duplicates,return=minimal" }),
+    body: JSON.stringify(row),
+  });
+}
+
+async function deleteSesion(waId: string): Promise<void> {
+  await fetch(`${SB_URL}/rest/v1/corresponsales_sesiones?wa_id=eq.${encodeURIComponent(waId)}`, {
+    method: "DELETE",
+    headers: sbHeaders({ Prefer: "return=minimal" }),
+  });
+}
+
+async function registrarColaborador(waId: string, nombre: string, celular: string, autorizacion: string): Promise<void> {
+  // Lee el registro actual para incrementar el contador (no hay upsert con +1 en REST).
+  const r = await fetch(
+    `${SB_URL}/rest/v1/corresponsales_colaboradores?wa_id=eq.${encodeURIComponent(waId)}&select=cant_notas`,
+    { headers: sbHeaders() },
+  );
+  const rows = await r.json();
+  const prev = Array.isArray(rows) && rows.length ? Number(rows[0].cant_notas ?? 0) : 0;
+  await fetch(`${SB_URL}/rest/v1/corresponsales_colaboradores`, {
+    method: "POST",
+    headers: sbHeaders({ Prefer: "resolution=merge-duplicates,return=minimal" }),
+    body: JSON.stringify({
+      wa_id: waId, nombre, celular, autorizacion,
+      ultima_vez: new Date().toISOString(), cant_notas: prev + 1,
+    }),
+  });
+}
+
+// ── WhatsApp Cloud API ────────────────────────────────────────────────────────
+async function enviarTexto(to: string, body: string): Promise<void> {
+  await fetch(`${GRAPH}/${WA_PHONE_ID}/messages`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${WA_TOKEN}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ messaging_product: "whatsapp", to, type: "text", text: { body } }),
+  });
+}
+
+async function bajarMedia(mediaId: string): Promise<{ data: Uint8Array; mime: string }> {
+  const meta = await (await fetch(`${GRAPH}/${mediaId}`, {
+    headers: { Authorization: `Bearer ${WA_TOKEN}` },
+  })).json();
+  const bin = await fetch(meta.url, { headers: { Authorization: `Bearer ${WA_TOKEN}` } });
+  return { data: new Uint8Array(await bin.arrayBuffer()), mime: meta.mime_type || "video/mp4" };
+}
+
+// ── Google Drive (service account: JWT RS256 → token → subir) ──────────────────
+async function googleToken(): Promise<string> {
+  const sa = JSON.parse(SA_JSON);
+  const now = Math.floor(Date.now() / 1000);
+  const enc = new TextEncoder();
+  const header = b64url(enc.encode(JSON.stringify({ alg: "RS256", typ: "JWT" })));
+  const claim = b64url(enc.encode(JSON.stringify({
+    iss: sa.client_email,
+    scope: "https://www.googleapis.com/auth/drive",
+    aud: sa.token_uri || "https://oauth2.googleapis.com/token",
+    iat: now, exp: now + 3600,
+  })));
+  const unsigned = `${header}.${claim}`;
+
+  // Importa la private key PEM (PKCS8) y firma con RSASSA-PKCS1-v1_5 SHA-256.
+  const pem = (sa.private_key as string).replace(/-----[^-]+-----/g, "").replace(/\s+/g, "");
+  const der = Uint8Array.from(atob(pem), (c) => c.charCodeAt(0));
+  const key = await crypto.subtle.importKey(
+    "pkcs8", der.buffer, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["sign"],
+  );
+  const sig = new Uint8Array(await crypto.subtle.sign("RSASSA-PKCS1-v1_5", key, enc.encode(unsigned)));
+  const jwt = `${unsigned}.${b64url(sig)}`;
+
+  const tok = await (await fetch(sa.token_uri || "https://oauth2.googleapis.com/token", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer", assertion: jwt,
+    }),
+  })).json();
+  if (!tok.access_token) throw new Error("Google token: " + JSON.stringify(tok));
+  return tok.access_token;
+}
+
+async function crearSubcarpeta(token: string, nombre: string): Promise<string> {
+  const r = await fetch("https://www.googleapis.com/drive/v3/files?supportsAllDrives=true", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ name: nombre, mimeType: "application/vnd.google-apps.folder", parents: [DRIVE_FOLDER] }),
+  });
+  const j = await r.json();
+  if (!j.id) throw new Error("Drive crear carpeta: " + JSON.stringify(j));
+  return j.id;
+}
+
+async function subirArchivo(token: string, parentId: string, nombre: string, mime: string, data: Uint8Array): Promise<void> {
+  const boundary = "diariocorresponsales" + crypto.randomUUID();
+  const meta = JSON.stringify({ name: nombre, parents: [parentId] });
+  const pre = `--${boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n${meta}\r\n--${boundary}\r\nContent-Type: ${mime}\r\n\r\n`;
+  const post = `\r\n--${boundary}--`;
+  const enc = new TextEncoder();
+  const body = new Uint8Array(enc.encode(pre).length + data.length + enc.encode(post).length);
+  let o = 0;
+  body.set(enc.encode(pre), o); o += enc.encode(pre).length;
+  body.set(data, o); o += data.length;
+  body.set(enc.encode(post), o);
+  const r = await fetch(
+    "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&supportsAllDrives=true",
+    {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": `multipart/related; boundary=${boundary}` },
+      body,
+    },
+  );
+  if (!r.ok) throw new Error("Drive subir " + nombre + ": " + (await r.text()).slice(0, 200));
+}
+
+// ── Finalizar: bajar el video y depositarlo en Drive ──────────────────────────
+async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promise<void> {
+  const { data, mime } = await bajarMedia(String(s.media_id));
+  const token = await googleToken();
+  const fecha = new Date().toISOString().slice(0, 10);
+  const carpeta = await crearSubcarpeta(token, `corresponsal_${fecha}_${slug(String(s.nombre))}`);
+
+  const contexto =
+    `ORIGEN: corresponsal-whatsapp\n` +
+    `NOMBRE: ${s.nombre ?? ""}\n` +
+    `CELULAR: ${s.celular ?? ""}\n` +
+    `LUGAR: ${s.lugar ?? ""}\n` +
+    `DESCRIPCION: ${s.descripcion ?? ""}\n` +
+    `AUTORIZACION: ACEPTADA — ${LEGAL} — ${new Date().toISOString()} — wa:${waId}\n`;
+
+  // El contexto.txt va PRIMERO; el video ÚLTIMO (el disparador del desgrabador se fija en el
+  // video, así arranca recién cuando ya están los dos archivos).
+  const enc = new TextEncoder();
+  await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8", enc.encode(contexto));
+  const ext = mime.includes("quicktime") ? "mov" : "mp4";
+  await subirArchivo(token, carpeta, `video_${slug(String(s.nombre))}.${ext}`, mime, data);
+}
+
+// ── Máquina de estados ────────────────────────────────────────────────────────
+async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise<void> {
+  const waId: string = msg.from;
+  const tipo: string = msg.type;
+  const texto: string = msg.text?.body ?? msg.button?.text ?? "";
+  const esVideo = tipo === "video" || (tipo === "document" && String(msg.document?.mime_type || "").startsWith("video/"));
+  const sesion = await getSesion(waId);
+
+  // "cancelar" en cualquier momento.
+  if (sesion && normalizar(texto) === "cancelar") {
+    await deleteSesion(waId);
+    await enviarTexto(waId, "Listo, cancelé el envío. Cuando quieras, mandame de nuevo el video. 👋");
+    return;
+  }
+
+  // Llega un video → (re)arranca el formulario.
+  if (esVideo) {
+    const mediaId = (msg.video?.id) ?? (msg.document?.id);
+    await upsertSesion({ wa_id: waId, paso: "nombre", media_id: mediaId, perfil,
+      nombre: null, celular: null, lugar: null, descripcion: null });
+    await enviarTexto(waId,
+      "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
+      "Campaña - Radio del Centro! 📣\n\nRecibí tu video. Te hago unas preguntas cortas.\n\n" +
+      "1️⃣ ¿Cuál es tu *nombre y apellido*?\n\n(Si te equivocaste, escribí *cancelar*.)");
+    return;
+  }
+
+  // Sin sesión y sin video: guía.
+  if (!sesion) {
+    await enviarTexto(waId,
+      "¡Hola! 👋 Sumate al *Programa de Corresponsales «Chivilcoy en Acción»*.\n\n" +
+      "📹 Enviá *en formato video* una noticia (policial, incendio, robo, delito o siniestro) y " +
+      "te voy a pedir tus datos para sumarla.\n\n⚠️ El video tiene que pesar menos de 16 MB " +
+      "(si es muy largo, mandá un clip más corto).");
+    return;
+  }
+
+  // Hay sesión: avanzar según el paso.
+  const paso = String(sesion.paso);
+  if (paso === "nombre") {
+    await upsertSesion({ wa_id: waId, paso: "celular", nombre: texto.trim() });
+    await enviarTexto(waId, "2️⃣ ¿Cuál es tu *número de celular* de contacto?");
+  } else if (paso === "celular") {
+    await upsertSesion({ wa_id: waId, paso: "lugar", celular: texto.trim() });
+    await enviarTexto(waId, "3️⃣ ¿En qué *lugar* ocurrió el hecho? (dirección o zona)");
+  } else if (paso === "lugar") {
+    await upsertSesion({ wa_id: waId, paso: "descripcion", lugar: texto.trim() });
+    await enviarTexto(waId,
+      "4️⃣ Contame *qué pasó*: qué ocurrió, cuándo, dónde y cómo. (Todo en un mensaje)");
+  } else if (paso === "descripcion") {
+    await upsertSesion({ wa_id: waId, paso: "autorizacion", descripcion: texto.trim() });
+    await enviarTexto(waId,
+      `📄 *Autorización*\n\n${LEGAL}\n\nSi estás de acuerdo, respondé *ACEPTO* para enviar el material.`);
+  } else if (paso === "autorizacion") {
+    const n = normalizar(texto);
+    if (n === "acepto" || n === "si" || n.includes("acepto")) {
+      await enviarTexto(waId, "¡Perfecto! Estoy guardando tu material… ⏳");
+      try {
+        await depositarEnDrive(sesion, waId);
+        await registrarColaborador(waId, String(sesion.nombre ?? ""), String(sesion.celular ?? ""),
+          `ACEPTADA — ${new Date().toISOString()}`);
+        await deleteSesion(waId);
+        await enviarTexto(waId,
+          "✅ ¡Listo! Tu material entró a *revisión editorial*. Si se publica, vas a sumar puntos " +
+          "en el ranking mensual del Programa de Corresponsales. ¡Gracias por colaborar! 🙌");
+      } catch (e) {
+        console.error("depositar:", e);
+        await enviarTexto(waId,
+          "Uf, tuve un problema al guardar el video 😕. Por favor reenviá el video para intentar de nuevo.");
+        await deleteSesion(waId);
+      }
+    } else {
+      await enviarTexto(waId,
+        "Para poder usar el material necesito tu autorización. Respondé *ACEPTO* para continuar, " +
+        "o *cancelar* para no enviarlo.");
+    }
+  }
+}
+
+// ── Verificación de la firma del webhook (X-Hub-Signature-256) ────────────────
+async function firmaValida(req: Request, raw: string): Promise<boolean> {
+  if (!APP_SECRET) return true; // sin secret configurado, no se valida (no recomendado)
+  const firma = req.headers.get("x-hub-signature-256") || "";
+  const key = await crypto.subtle.importKey(
+    "raw", new TextEncoder().encode(APP_SECRET), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const mac = new Uint8Array(await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(raw)));
+  const hex = Array.from(mac).map((b) => b.toString(16).padStart(2, "0")).join("");
+  return firma === `sha256=${hex}`;
+}
+
+// ── Entry point ───────────────────────────────────────────────────────────────
+Deno.serve(async (req) => {
+  const url = new URL(req.url);
+
+  // Verificación inicial de Meta (GET).
+  if (req.method === "GET") {
+    if (url.searchParams.get("hub.verify_token") === VERIFY_TOKEN) {
+      return new Response(url.searchParams.get("hub.challenge") ?? "", { status: 200 });
+    }
+    return new Response("forbidden", { status: 403 });
+  }
+
+  if (req.method !== "POST") return new Response("ok", { status: 200 });
+
+  const raw = await req.text();
+  if (!(await firmaValida(req, raw))) return new Response("bad signature", { status: 401 });
+
+  // Respondemos 200 enseguida; el procesamiento sigue (Meta reintenta si no hay 200 rápido).
+  try {
+    const body = JSON.parse(raw);
+    const value = body?.entry?.[0]?.changes?.[0]?.value;
+    const msg = value?.messages?.[0];
+    if (msg) {
+      const perfil = value?.contacts?.[0]?.profile?.name ?? "";
+      await manejarMensaje(msg, perfil);
+    }
+  } catch (e) {
+    console.error("webhook:", e);
+  }
+  return new Response("ok", { status: 200 });
+});

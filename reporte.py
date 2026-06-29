@@ -52,26 +52,36 @@ def _filas_del_mes(rows: list[dict], mes: str) -> list[dict]:
     return out
 
 
+_PUBLICADOS = ("publicado", "publicado_solo_reel", "publicado_placa")
+
+
+def _quien(r: dict) -> str:
+    """Identidad del colaborador: el corresponsal de WhatsApp si lo hay; si no, el
+    uploader de Drive."""
+    return (r.get("corresponsal_nombre") or r.get("uploader") or "—").strip() or "—"
+
+
 def _armar_excel(filas: list[dict], mes: str) -> Path:
     wb = openpyxl.Workbook()
 
     # Hoja Detalle
     det = wb.active
     det.title = "Detalle"
-    cab = ["Fecha", "Colaborador", "Volanta", "Título", "Estado", "Link"]
+    cab = ["Fecha", "Colaborador", "Origen", "Volanta", "Título", "Estado", "Link"]
     det.append(cab)
     for c in det[1]:
         c.font = Font(bold=True)
     for r in sorted(filas, key=lambda x: x.get("fecha_recibido", "")):
         det.append([
             (r.get("fecha_recibido", "") or "")[:10],
-            r.get("uploader", "") or "—",
+            _quien(r),
+            r.get("origen", "") or ("corresponsal-whatsapp" if r.get("corresponsal_nombre") else "drive"),
             r.get("volanta", ""),
             r.get("titulo", ""),
             r.get("estado", ""),
             r.get("post_url", ""),
         ])
-    for col, ancho in zip("ABCDEF", (12, 32, 22, 50, 12, 45)):
+    for col, ancho in zip("ABCDEFG", (12, 28, 20, 22, 50, 16, 45)):
         det.column_dimensions[col].width = ancho
 
     # Hoja Resumen (colaborador → cantidad)
@@ -81,19 +91,44 @@ def _armar_excel(filas: list[dict], mes: str) -> Path:
         c.font = Font(bold=True)
     conteo: dict[str, list[int]] = {}
     for r in filas:
-        u = r.get("uploader", "") or "—"
+        u = _quien(r)
         conteo.setdefault(u, [0, 0])
         conteo[u][0] += 1
-        if r.get("estado") == "publicado":
+        if r.get("estado") in _PUBLICADOS:
             conteo[u][1] += 1
     for u, (total, pub) in sorted(conteo.items(), key=lambda kv: kv[1][0], reverse=True):
         res.append([u, total, pub])
     res.append([])
-    res.append(["TOTAL", len(filas), sum(1 for r in filas if r.get("estado") == "publicado")])
+    res.append(["TOTAL", len(filas), sum(1 for r in filas if r.get("estado") in _PUBLICADOS)])
     for c in res[res.max_row]:
         c.font = Font(bold=True)
     for col, ancho in zip("ABC", (32, 16, 12)):
         res.column_dimensions[col].width = ancho
+
+    # Hoja Colaboradores (la BASE DE DATOS del Programa de Corresponsales): solo los que
+    # llegaron por WhatsApp, con su celular y conteo. Es lo que pide el spec del programa.
+    corr = [r for r in filas if r.get("corresponsal_nombre")]
+    if corr:
+        col_sheet = wb.create_sheet("Colaboradores")
+        col_sheet.append(["Nombre", "Celular", "Lugar", "Notas enviadas", "Publicadas", "Última fecha"])
+        for c in col_sheet[1]:
+            c.font = Font(bold=True)
+        db: dict[str, dict] = {}
+        for r in corr:
+            nombre = (r.get("corresponsal_nombre") or "—").strip()
+            d = db.setdefault(nombre, {"cel": "", "lugar": "", "tot": 0, "pub": 0, "fecha": ""})
+            d["cel"] = r.get("corresponsal_celular") or d["cel"]
+            d["lugar"] = r.get("corresponsal_lugar") or d["lugar"]
+            d["tot"] += 1
+            if r.get("estado") in _PUBLICADOS:
+                d["pub"] += 1
+            f = (r.get("fecha_recibido", "") or "")[:10]
+            if f > d["fecha"]:
+                d["fecha"] = f
+        for nombre, d in sorted(db.items(), key=lambda kv: kv[1]["tot"], reverse=True):
+            col_sheet.append([nombre, d["cel"], d["lugar"], d["tot"], d["pub"], d["fecha"]])
+        for col, ancho in zip("ABCDEF", (28, 18, 24, 16, 12, 14)):
+            col_sheet.column_dimensions[col].width = ancho
 
     salida = Path(tempfile.gettempdir()) / f"contabilidad_videos_{mes}.xlsx"
     wb.save(salida)

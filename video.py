@@ -3,11 +3,57 @@ crossfade (xfade) entre placas, SIN audio. Usa el ffmpeg de imageio_ffmpeg (loca
 o el del sistema (en la nube)."""
 import re
 import subprocess
+import textwrap
 from pathlib import Path
 
 from utils.logger import get_logger
 
 logger = get_logger("video")
+
+# Fuentes candidatas para el drawtext de la firma (Windows local + Ubuntu de la nube).
+_FIRMA_FONTS = [
+    r"C:\Windows\Fonts\arialbd.ttf", r"C:\Windows\Fonts\Arialbd.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+]
+
+
+def _font_file() -> str | None:
+    """Primera fuente existente de la lista (bold). None si no hay ninguna."""
+    for p in _FIRMA_FONTS:
+        if Path(p).exists():
+            return p
+    return None
+
+
+def _esc_ff(path: str) -> str:
+    """Escapa una ruta para usarla DENTRO de un filtergraph de ffmpeg (drawtext
+    fontfile=/textfile=): barras hacia adelante y se escapa el ':' del 'C:'."""
+    return str(path).replace("\\", "/").replace(":", "\\:")
+
+
+def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str]:
+    """Devuelve (fragmento_de_filtro, etiqueta_de_salida) que superpone una banda
+    inferior semitransparente con `texto` (la firma del corresponsal) sobre `in_label`.
+    El texto va por `textfile=` para no pelear con tildes/guiones/'·' en el filtergraph.
+    Si no hay fuente disponible, no dibuja nada (devuelve el label original)."""
+    font = _font_file()
+    if not font:
+        logger.warning("Sin fuente para la firma del reel; se omite el drawtext.")
+        return "", in_label
+    work_dir.mkdir(parents=True, exist_ok=True)
+    firma_txt = work_dir / "firma.txt"
+    # Envuelve a ~34 caracteres por línea para que entre en los 1080 de ancho.
+    wrapped = "\n".join(textwrap.wrap(texto.strip(), width=34)) or texto.strip()
+    firma_txt.write_text(wrapped, encoding="utf-8")
+    draw = (
+        f"{in_label}drawtext=textfile='{_esc_ff(firma_txt)}'"
+        f":fontfile='{_esc_ff(font)}':fontcolor=white:fontsize=33:line_spacing=8"
+        f":box=1:boxcolor=black@0.55:boxborderw=24"
+        f":x=(w-text_w)/2:y=h-text_h-90[vf]"
+    )
+    return draw, "[vf]"
 
 # Transiciones que se van alternando entre placas (variedad visual).
 TRANS = ["fade", "wipeleft", "slideup", "circleopen", "fadeblack", "wiperight", "slideleft"]
@@ -34,13 +80,15 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
         raise RuntimeError(f"ffmpeg error: {paso}")
 
 
-def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None) -> Path:
+def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
+                     firma: str | None = None) -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
     sí mismo (misma estética que las historias, story_image._fit_blur). Mantiene el
     audio por defecto. Si se pasa `max_seconds`, recorta el reel a esa duración
-    (ej. 60 para los reels sin desgrabar). Devuelve el .mp4 de salida.
+    (ej. 60 para los reels sin desgrabar). Si se pasa `firma`, estampa una banda
+    inferior con ese texto (la firma de la Red de Corresponsales). Devuelve el .mp4.
     """
     src, salida = Path(src), Path(salida)
     ff = _ffmpeg()
@@ -53,7 +101,12 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fgs];"
         "[bgb][fgs]overlay=(W-w)/2:(H-h)/2[v]"
     )
-    cmd = [ff, "-y", "-i", str(src), "-filter_complex", vf, "-map", "[v]"]
+    out_label = "[v]"
+    if firma:
+        draw, out_label = _firma_drawtext(firma, "[v]", salida.parent)
+        if draw:
+            vf = vf + ";" + draw
+    cmd = [ff, "-y", "-i", str(src), "-filter_complex", vf, "-map", out_label]
     if audio:
         # Mapea el audio si existe (el '?' evita fallar si el video no tiene pista).
         cmd += ["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"]
