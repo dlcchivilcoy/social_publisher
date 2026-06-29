@@ -166,7 +166,12 @@ def main() -> None:
     parser.add_argument(
         "--placa",
         action="store_true",
-        help="Nota-PLACA: una subcarpeta de «videos notas actualidad» con Word + foto(s) SIN video → reel-placa a FB/IG + nota web (con --folder).",
+        help="Foto-nota (etapa 1): subcarpeta de «videos notas actualidad» con Word + foto(s) SIN video → borrador + mail para revisar (con --file).",
+    )
+    parser.add_argument(
+        "--placa-publish",
+        action="store_true",
+        help="Foto-nota (etapa 2, al aprobar): publica la nota web + la foto a FB/IG con todo el texto en el pie (con --file).",
     )
     parser.add_argument(
         "--limit",
@@ -346,6 +351,11 @@ def main() -> None:
         from transcriber import run_placa
         logger.info(f"Modo --placa (dry_run={args.dry_run}). folder={args.file}")
         run_placa(folder=args.file or "", uploader=args.uploader or "", dry_run=args.dry_run)
+        return
+    if args.placa_publish:
+        from transcriber import run_placa_publish
+        logger.info(f"Modo --placa-publish (dry_run={args.dry_run}). folder={args.file}")
+        run_placa_publish(folder=args.file or "", dry_run=args.dry_run)
         return
 
     if args.dry_run:

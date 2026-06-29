@@ -115,7 +115,7 @@ function _carpetaEsPlaca(folder) {
   return hayDoc && hayFoto && !hayVideo;
 }
 
-function _procesarPlacas(folderId, vistosKey, excludeId) {
+function _procesarPlacas(folderId, vistosKey, excludeId, hacerArgs) {
   if (!folderId) return;
   var folder = DriveApp.getFolderById(folderId);
   var vistos = _vistos(vistosKey);
@@ -130,7 +130,7 @@ function _procesarPlacas(folderId, vistosKey, excludeId) {
     var ultimo = 0, fl = sf.getFiles();
     while (fl.hasNext()) { var t = fl.next().getLastUpdated().getTime(); if (t > ultimo) ultimo = t; }
     if (ahora - ultimo < 60000) continue;
-    _dispatch('--placa --file "' + sf.getName() + '"');
+    _dispatch(hacerArgs(sf.getName()));
     _marcarVisto(vistosKey, sf.getId());
   }
 }
@@ -145,6 +145,12 @@ function revisarNuevos() {
   _procesarCarpeta(aprobadasId, 'PROCESSED_APROBADAS', function (name, email) {
     return '--publish-video --file "' + name + '"';
   }, null);
-  // Notas-placa: subcarpetas con Word + foto SIN video → reel-placa + nota web (directo).
-  _procesarPlacas(_prop('FOLDER_NUEVOS_ID'), 'PROCESSED_PLACA', aprobadasId);
+  // FOTO-NOTA etapa 1: subcarpetas con Word + foto SIN video → borrador + mail para revisar.
+  _procesarPlacas(_prop('FOLDER_NUEVOS_ID'), 'PROCESSED_PLACA', aprobadasId, function (name) {
+    return '--placa --file "' + name + '"';
+  });
+  // FOTO-NOTA etapa 2: esas carpetas movidas a APROBADAS → publicar (web + foto a FB/IG).
+  _procesarPlacas(aprobadasId, 'PROCESSED_PLACA_APROB', null, function (name) {
+    return '--placa-publish --file "' + name + '"';
+  });
 }

@@ -585,86 +585,58 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     logger.info("=== Publicar video aprobado: fin ===")
 
 
-def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
-    """Nota-PLACA: una subcarpeta de «videos notas actualidad» con Word + foto(s) SIN video.
-    Arma un reel vertical tipo placa (foto + titular, estética del diario), publica la nota
-    en la WEB (foto(s) + texto) y postea el reel a FB/IG. Publica DIRECTO (el texto lo
-    escribió el editor, no hay transcripción que revisar) y manda un mail con botón Borrar.
-    Idempotente (ledger compartido con los videos)."""
-    from story_image import compose_note_story
-    from video import build_slideshow
+def _placa_datos(carpeta: Path):
+    """(docx, fotos, volanta, titular, resumen, texto, title, body) de una carpeta foto-nota."""
     from carrusel_notas import _resumen_caption
-
-    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
-    logger.info(f"=== Nota placa [{modo}] — folder='{folder}' ===")
-    carpeta = _find_folder(folder)
-    if not carpeta:
-        logger.error(f"No encontré la carpeta '{folder}' en {_videos_folder()}.")
-        return
     docx = next((p for p in sorted(carpeta.iterdir())
                  if p.is_file() and p.suffix.lower() in (".docx", ".txt")), None)
     fotos = [p for p in sorted(carpeta.iterdir()) if p.is_file() and p.suffix.lower() in IMG_EXTS]
     if not docx or not fotos:
-        logger.error(f"'{folder}' necesita Word/txt + ≥1 foto (word={bool(docx)}, fotos={len(fotos)}).")
-        return
-
-    rows = _leer_ledger()
-    fila = _buscar_fila(rows, carpeta.name)
-    if not dry_run and fila and fila.get("estado") == "publicado_placa":
-        logger.info(f"La placa '{carpeta.name}' ya estaba publicada. Nada que hacer.")
-        return
-
+        return None
     volanta, titular, cuerpo = _parse_word(docx)
     if not titular:
-        logger.error(f"El Word de '{folder}' no tiene título legible.")
-        return
+        return None
     resumen = _resumen_caption(cuerpo[0], max_chars=280) if cuerpo else titular
     texto = "\n\n".join(cuerpo)
     title = f"{volanta} — {titular}" if volanta else titular
     body = titular + ("\n\n" + texto if texto else "")
-    site = _site()
+    return docx, fotos, volanta, titular, resumen, texto, title, body
 
-    if dry_run:
-        logger.info(f"[dry-run] placa «{title}»: {len(fotos)} foto(s) → reel-placa + nota web\n"
-                    f"  VOLANTA: {volanta}\n  TÍTULO: {titular}\n  RESUMEN: {resumen}")
+
+def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
+    """ETAPA 1 de la FOTO-NOTA: subcarpeta de «videos notas actualidad» con Word + foto(s)
+    SIN video. Crea la nota como BORRADOR en Wix (la/s foto/s TAL CUAL + el texto) y avisa
+    por mail para revisar. NO publica nada. Al aprobar (mover la carpeta a APROBADAS, o el
+    botón) se publica la nota web y se postea la FOTO a FB/IG con TODO el texto en el caption."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
+    logger.info(f"=== Foto-nota (etapa 1) [{modo}] — folder='{folder}' ===")
+    carpeta = _find_folder(folder)
+    if not carpeta:
+        logger.error(f"No encontré la carpeta '{folder}' en {_videos_folder()}.")
+        return
+    datos = _placa_datos(carpeta)
+    if not datos:
+        logger.error(f"'{folder}' necesita un Word/txt con título + al menos una foto.")
+        return
+    _docx, fotos, volanta, titular, resumen, texto, title, body = datos
+
+    rows = _leer_ledger()
+    fila = _buscar_fila(rows, carpeta.name)
+    if not dry_run and fila and fila.get("estado") in ("borrador_placa", "publicado_placa"):
+        logger.info(f"La foto-nota '{carpeta.name}' ya fue procesada (estado={fila['estado']}).")
         return
 
-    WORK_DIR.mkdir(exist_ok=True)
-    slug = _slug(carpeta.name)
-    placas = [compose_note_story(f, volanta, titular, resumen, site) for f in fotos]
-    reel = build_slideshow(placas, WORK_DIR / f"placa_{slug}.mp4")
-    reel_url = upload_reel(reel)
-    plats = _platforms()
-    estado = {"instagram": "omitido", "facebook": "omitido", "wix": "omitido"}
-    caption = _caption(titular, resumen)
+    if dry_run:
+        logger.info(f"[dry-run] foto-nota «{title}»: {len(fotos)} foto(s) tal cual + texto.\n"
+                    f"  VOLANTA: {volanta}\n  TÍTULO: {titular}")
+        return
 
-    post_url, draft_id = "", ""
+    draft_id = ""
     try:
         info = wix.crear_borrador_galeria(title, body, fotos, video_urls=[], page=0, description=resumen)
         draft_id = info["draft_id"]
-        res = wix.publicar_borrador(draft_id)
-        post_url = (res or {}).get("url", "")
-        estado["wix"] = "ok"
-        logger.info(f"[wix] nota publicada: {post_url}")
     except Exception as e:
-        estado["wix"] = f"falló: {e}"
-        logger.error(f"[wix] FALLÓ: {e}")
-
-    if "instagram" in plats:
-        try:
-            instagram.publish_reel(reel_url, caption); estado["instagram"] = "ok"
-            logger.info("[instagram] reel OK")
-        except Exception as e:
-            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
-    if "facebook" in plats:
-        try:
-            facebook.publish_video(caption, reel); estado["facebook"] = "ok"
-            logger.info("[facebook] reel OK")
-        except Exception as e:
-            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
-
-    if not any(v == "ok" for v in estado.values()):
-        logger.error("La placa no se publicó en ningún canal — se reintenta la próxima corrida.")
+        logger.error(f"[wix] no se pudo crear el borrador: {e}")
         return
 
     if fila is None:
@@ -672,24 +644,118 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         rows.append(fila)
     fila.update({
         "uploader": uploader or fila.get("uploader", ""),
-        "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
+        "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": True, "es_placa": True, "volanta": volanta, "titulo": titular,
-        "resumen": resumen, "texto": texto, "draft_id": draft_id, "reel_url": reel_url,
-        "post_url": post_url, "estado": "publicado_placa", "estado_canales": estado,
+        "resumen": resumen, "texto": texto, "draft_id": draft_id, "estado": "borrador_placa",
     })
+    _guardar_ledger(rows)
+    logger.info(f"Foto-nota registrada como BORRADOR (draft_id={draft_id}).")
+
+    webapp = get("APPROVE_WEBAPP_URL")
+    tok = get("WEBAPP_TOKEN")
+    t = f"&token={quote(tok)}" if tok else ""
+    botones = ""
+    if webapp:
+        botones += _boton(f"{webapp}?action=approve&name={quote(carpeta.name)}&kind=folder{t}", "✅ Aprobar y publicar")
+        if draft_id:
+            botones += _boton(f"{webapp}?action=delete&post={quote(draft_id)}{t}", "🗑️ Borrar borrador", color="#b00020")
+    html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+            f"<h2 style='color:#e2620c'>Foto-nota por revisar</h2>"
+            f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · {len(fotos)} foto(s)</p>"
+            f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
+            f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
+            f"<p>Está como <b>borrador en Wix</b> con la foto y el texto. Para PUBLICAR "
+            f"(nota web + la foto a Facebook/Instagram con todo el texto en el pie):</p>"
+            f"<div style='margin:18px 0'>{botones}</div>"
+            f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la "
+            f"carpeta «{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
+    _enviar_aviso(f"Foto-nota por revisar: {titular}",
+                  f"Foto-nota para revisar: «{title}».\nPara publicarla, mové la carpeta "
+                  f"«{carpeta.name}» a APROBADAS.", html=html)
+    logger.info("=== Foto-nota (etapa 1): fin ===")
+
+
+def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
+    """ETAPA 2 de la FOTO-NOTA (al aprobar): publica la nota web + postea la/s FOTO/s a FB/IG
+    con TODO el texto en el caption. Sin gráfica, sin video."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    logger.info(f"=== Foto-nota (etapa 2: publicar) [{modo}] — folder='{folder}' ===")
+    rows = _leer_ledger()
+    fila = _buscar_fila(rows, folder) if folder else None
+    if fila is None:
+        pend = [r for r in rows if r.get("es_placa") and r.get("estado") == "borrador_placa"]
+        fila = pend[-1] if pend else None
+    if fila is None:
+        logger.error(f"No hay foto-nota pendiente para '{folder}'.")
+        return
+    if fila.get("estado") == "publicado_placa":
+        logger.info(f"La foto-nota '{fila['file']}' ya estaba publicada.")
+        return
+
+    carpeta = _find_folder(fila["file"])
+    fotos = [p for p in sorted(carpeta.iterdir())
+             if p.is_file() and p.suffix.lower() in IMG_EXTS] if carpeta else []
+    if not fotos:
+        logger.error(f"No encontré las fotos de '{fila['file']}' para postear.")
+        return
+
+    titular = fila.get("titulo", ""); volanta = fila.get("volanta", "")
+    texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
+    draft_id = fila.get("draft_id", "")
+    title = f"{volanta} — {titular}" if volanta else titular
+    site = _site()
+    # TODO el texto en el caption (pedido del usuario): título + cuerpo completo + CTA.
+    caption = f"{titular}\n\n{texto}\n\n📲 Seguí leyendo en {site}".strip()
+
+    if dry_run:
+        logger.info(f"[dry-run] publicaría foto-nota «{title}» con {len(fotos)} foto(s) + caption completo.")
+        return
+
+    plats = _platforms()
+    estado = {"instagram": "omitido", "facebook": "omitido", "wix": "omitido"}
+    post_url = ""
+    if draft_id:
+        try:
+            res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
+            post_url = (res or {}).get("url", "")
+            estado["wix"] = "ok"
+            logger.info(f"[wix] nota publicada: {post_url}")
+        except Exception as e:
+            estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
+
+    if "instagram" in plats:
+        try:
+            if len(fotos) == 1:
+                instagram.publish(caption, fotos[0])
+            else:
+                instagram.publish_carousel(caption, fotos[:10])
+            estado["instagram"] = "ok"; logger.info("[instagram] foto OK")
+        except Exception as e:
+            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] foto FALLÓ: {e}")
+    if "facebook" in plats:
+        try:
+            if len(fotos) == 1:
+                facebook.publish(caption, fotos[0])
+            else:
+                facebook.publish_multi(caption, fotos)
+            estado["facebook"] = "ok"; logger.info("[facebook] foto OK")
+        except Exception as e:
+            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] foto FALLÓ: {e}")
+
+    fila.update({"estado": "publicado_placa", "post_url": post_url,
+                 "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
+                 "estado_canales": estado})
     _guardar_ledger(rows)
 
     borrar = ""
     webapp = get("APPROVE_WEBAPP_URL")
     if webapp and draft_id and estado["wix"] == "ok":
-        tok = get("WEBAPP_TOKEN")
-        t = f"&token={quote(tok)}" if tok else ""
+        tok = get("WEBAPP_TOKEN"); t = f"&token={quote(tok)}" if tok else ""
         borrar = (f"<div style='margin:14px 0'>"
                   f"{_boton(f'{webapp}?action=delete&post={quote(draft_id)}{t}', '🗑️ Borrar de la web', color='#b00020')}"
                   f"</div>")
     html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
-            f"<h2 style='color:#e2620c'>Placa publicada</h2>"
-            f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · {len(fotos)} foto(s)</p>"
+            f"<h2 style='color:#e2620c'>Foto-nota publicada</h2>"
             f"<p style='font-size:18px'><b>{_hesc(titular)}</b></p>"
             f"<ul style='line-height:1.8;list-style:none;padding:0'>"
             f"<li>{'✅' if estado['instagram'] == 'ok' else '❌'} Instagram</li>"
@@ -697,9 +763,9 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
             f"<li>{'✅' if estado['wix'] == 'ok' else '❌'} Web"
             + (f" — <a href='{post_url}'>{_hesc(post_url)}</a>" if post_url else "") + "</li>"
             f"</ul>{borrar}</div>")
-    _enviar_aviso(f"Placa publicada: {titular}",
-                  f"Se publicó la placa «{title}» (reel a FB/IG + nota web).\n{post_url}", html=html)
-    logger.info("=== Nota placa: fin ===")
+    _enviar_aviso(f"Foto-nota publicada: {titular}",
+                  f"Se publicó «{title}» (foto + texto a FB/IG + nota web).\n{post_url}", html=html)
+    logger.info("=== Foto-nota (etapa 2): fin ===")
 
 
 def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> None:

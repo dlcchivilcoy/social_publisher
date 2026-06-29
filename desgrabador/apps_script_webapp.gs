@@ -37,6 +37,17 @@ function _buscarPorNombre(folder, name) {
   return null;
 }
 
+function _buscarCarpetaPorNombre(folder, name) {
+  var it = folder.getFoldersByName(name);
+  if (it.hasNext()) return it.next();
+  var subs = folder.getFolders();
+  while (subs.hasNext()) {
+    var r = _buscarCarpetaPorNombre(subs.next(), name);
+    if (r) return r;
+  }
+  return null;
+}
+
 function _wixHeaders() {
   return { 'Authorization': _prop('WIX_API_KEY'), 'wix-site-id': _prop('WIX_SITE_ID'),
            'Content-Type': 'application/json' };
@@ -56,6 +67,15 @@ function doGet(e) {
     var name = p.name || '';
     var nuevos = DriveApp.getFolderById(_prop('FOLDER_NUEVOS_ID'));
     var aprob = DriveApp.getFolderById(_prop('FOLDER_APROBADAS_ID'));
+    // Foto-nota: se aprueba una CARPETA (no un archivo de video).
+    if (p.kind === 'folder') {
+      var fd = _buscarCarpetaPorNombre(nuevos, name);
+      if (!fd) return _html('⚠️ No encontré la carpeta «' + _esc(name) + '». ¿Ya la aprobaste o la borraste?');
+      fd.moveTo(aprob);
+      _marcarVisto('PROCESSED_PLACA_APROB', fd.getId()); // que el trigger no la re-dispare
+      _dispatch('--placa-publish --file "' + name + '"');
+      return _html('✅ <b>Aprobada.</b> Publicando «' + _esc(name) + '»: nota web + la foto a Facebook e Instagram con todo el texto. En un par de minutos está online.');
+    }
     var f = _buscarPorNombre(nuevos, name);
     if (!f) return _html('⚠️ No encontré el video «' + _esc(name) + '». ¿Ya lo aprobaste o lo borraste?');
     f.moveTo(aprob);
