@@ -230,7 +230,16 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
     logger.info(f"=== Desgrabar notas de YouTube (Radio del Centro) [{modo}] ===")
 
     cid = get("YT_CHANNEL_ID") or "UCqiTJ2oRBLNO1ZzfrdiyjTw"
-    videos = youtube.videos_de_hoy(cid)
+    # Por la API de datos: trae la SECCIÓN VIDEOS de hoy SIN vivos (ni vivos terminados) ni
+    # shorts, y todas (no solo las 15 del RSS). Si la API falla, cae al RSS (menos preciso).
+    try:
+        from platforms import youtube_api
+        min_seg = int(get("YT_DESGRABAR_MIN_SEG") or 60)
+        videos = youtube_api.videos_seccion_de_hoy(min_seg=min_seg)
+        logger.info(f"Videos de hoy (API, solo sección Videos — sin vivos ni shorts): {len(videos)}")
+    except Exception as e:
+        logger.warning(f"La API de YouTube falló ({e}); caigo al RSS (puede traer vivos/shorts).")
+        videos = youtube.videos_de_hoy(cid)
     if not videos:
         logger.info("No hay videos subidos hoy en el canal. Nada que desgrabar.")
         return
@@ -264,7 +273,11 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
                 "EXACTAMENTE como figuran en el título. Si un nombre que escuchás en el audio "
                 "no coincide con el del título (el reconocimiento de voz suele equivocar "
                 "apellidos), PRIORIZÁ la forma del título. Si el título nombra al entrevistado, "
-                "ese es su nombre correcto."
+                "ese es su nombre correcto.\n"
+                "NÚMEROS Y DATOS: transcribí con EXACTITUD las cifras, montos, porcentajes, "
+                "fechas, horarios, edades, resultados y cantidades tal como se dicen. NO "
+                "inventes ni redondees números; si un número no se entiende con claridad, NO lo "
+                "pongas en vez de adivinarlo. Mejor omitir un dato dudoso que poner uno incorrecto."
             )
             nota = gemini.transcribe_youtube_url(v["url"], extra_text=contexto,
                                                  instrucciones=INSTRUCCION_LARGO, api_key=key)

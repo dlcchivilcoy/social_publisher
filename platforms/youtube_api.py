@@ -149,6 +149,69 @@ def list_recent_videos(limit: int = 15) -> list[dict]:
     return out
 
 
+def _iso_dur_seg(iso: str) -> int:
+    """Duración ISO-8601 (PT#H#M#S) → segundos."""
+    import re as _re
+    m = _re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso or "")
+    if not m:
+        return 0
+    h, mi, s = (int(x) if x else 0 for x in m.groups())
+    return h * 3600 + mi * 60 + s
+
+
+def videos_seccion_de_hoy(limit_scan: int = 40, min_seg: int = 60) -> list[dict]:
+    """Videos de la SECCIÓN VIDEOS subidos HOY: EXCLUYE vivos (en curso, próximos y vivos
+    YA TERMINADOS) y shorts (< min_seg). Para el desgrabador (no agarrar la sección «En vivo»
+    ni duplicar video+short). Devuelve [{id, titulo, url, published}] más reciente primero."""
+    from datetime import datetime
+    yt = _service()
+    ch_id = get("YT_CHANNEL_ID")
+    if not ch_id:
+        raise ValueError("Falta YT_CHANNEL_ID en el .env")
+    ch = yt.channels().list(part="contentDetails", id=ch_id).execute()
+    items = ch.get("items", [])
+    if not items:
+        raise RuntimeError(f"No se encontró el canal {ch_id}")
+    uploads = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    ids: list[str] = []
+    page = None
+    while len(ids) < limit_scan:
+        pl = yt.playlistItems().list(
+            part="contentDetails", playlistId=uploads,
+            maxResults=min(50, limit_scan - len(ids)), pageToken=page).execute()
+        ids += [it["contentDetails"]["videoId"] for it in pl.get("items", [])]
+        page = pl.get("nextPageToken")
+        if not page:
+            break
+
+    hoy = datetime.now().astimezone()
+    out: list[dict] = []
+    for i in range(0, len(ids), 50):
+        resp = yt.videos().list(part="snippet,contentDetails,liveStreamingDetails",
+                                id=",".join(ids[i:i + 50])).execute()
+        for v in resp.get("items", []):
+            sn = v.get("snippet", {})
+            try:
+                d = datetime.fromisoformat(sn.get("publishedAt", "").replace("Z", "+00:00")).astimezone()
+            except Exception:
+                continue
+            if (d.year, d.month, d.day) != (hoy.year, hoy.month, hoy.day):
+                continue
+            # EXCLUIR vivos: en curso/próximos, o vivos ya terminados (tienen liveStreamingDetails)
+            if sn.get("liveBroadcastContent") in ("live", "upcoming"):
+                continue
+            if v.get("liveStreamingDetails"):
+                continue
+            # EXCLUIR shorts (videos muy cortos: evita el duplicado video+short)
+            dur = _iso_dur_seg(v.get("contentDetails", {}).get("duration", ""))
+            if dur and dur < min_seg:
+                continue
+            out.append({"id": v["id"], "titulo": sn.get("title", ""),
+                        "url": f"https://youtu.be/{v['id']}", "published": sn.get("publishedAt", "")})
+    return out
+
+
 def get_videos(ids) -> list[dict]:
     """Trae el snippet (title, description, tags, categoryId, thumbnail) de los videos
     con esos IDs. Mismo formato que list_recent_videos."""
