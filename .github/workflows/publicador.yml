@@ -100,7 +100,7 @@ jobs:
           [ -f "state/.historias.json" ] && cp "state/.historias.json" "diario/NOTAS AUTOMATICAS/.historias.json" || true
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json .yt_desgrabaciones.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -140,7 +140,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.historias.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json .yt_desgrabaciones.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"
