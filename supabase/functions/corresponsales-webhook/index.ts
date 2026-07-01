@@ -113,14 +113,21 @@ function normalizarAr(numero: string): string {
 
 async function enviarTexto(to: string, body: string): Promise<void> {
   to = normalizarAr(to);
-  const r = await fetch(`${GRAPH}/${WA_PHONE_ID}/messages`, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${WA_TOKEN}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ messaging_product: "whatsapp", to, type: "text", text: { body } }),
-  });
-  const txt = await r.text();
-  if (!r.ok) console.error(`enviarTexto FALLO ${r.status} → ${to}: ${txt}`);
-  else console.log(`enviarTexto OK → ${to}`);
+  const payload = JSON.stringify({ messaging_product: "whatsapp", to, type: "text", text: { body } });
+  // Reintenta ante fallos transitorios de la Graph API (ej. 131005 intermitente) con backoff.
+  for (let intento = 1; intento <= 3; intento++) {
+    const r = await fetch(`${GRAPH}/${WA_PHONE_ID}/messages`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${WA_TOKEN}`, "Content-Type": "application/json" },
+      body: payload,
+    });
+    if (r.ok) {
+      console.log(`enviarTexto OK → ${to}`);
+      return;
+    }
+    console.error(`enviarTexto intento ${intento}/3 FALLO ${r.status} → ${to}: ${(await r.text()).slice(0, 200)}`);
+    if (intento < 3) await new Promise((res) => setTimeout(res, 1500 * intento));
+  }
 }
 
 async function bajarMedia(mediaId: string): Promise<{ data: Uint8Array; mime: string }> {
