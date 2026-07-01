@@ -24,7 +24,11 @@ const WA_TOKEN = Deno.env.get("WHATSAPP_TOKEN") ?? "";
 const WA_PHONE_ID = Deno.env.get("WHATSAPP_PHONE_NUMBER_ID") ?? "";
 const VERIFY_TOKEN = Deno.env.get("WHATSAPP_VERIFY_TOKEN") ?? "";
 const APP_SECRET = Deno.env.get("WHATSAPP_APP_SECRET") ?? "";
-const SA_JSON = Deno.env.get("GOOGLE_SA_JSON") ?? "";
+// Acceso a Drive por OAuth de una cuenta de usuario (NO service account: las SA no tienen
+// cuota y no pueden subir a un Drive normal). Se refresca un access token con estos 3 datos.
+const G_CLIENT_ID = Deno.env.get("GOOGLE_OAUTH_CLIENT_ID") ?? "";
+const G_CLIENT_SECRET = Deno.env.get("GOOGLE_OAUTH_CLIENT_SECRET") ?? "";
+const G_REFRESH_TOKEN = Deno.env.get("GOOGLE_OAUTH_REFRESH_TOKEN") ?? "";
 const DRIVE_FOLDER = Deno.env.get("DRIVE_CORRESPONSALES_FOLDER_ID") ?? "";
 const SB_URL = Deno.env.get("SUPABASE_URL") ?? "";
 const SB_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
@@ -129,32 +133,15 @@ async function bajarMedia(mediaId: string): Promise<{ data: Uint8Array; mime: st
 
 // ── Google Drive (service account: JWT RS256 → token → subir) ──────────────────
 async function googleToken(): Promise<string> {
-  const sa = JSON.parse(SA_JSON);
-  const now = Math.floor(Date.now() / 1000);
-  const enc = new TextEncoder();
-  const header = b64url(enc.encode(JSON.stringify({ alg: "RS256", typ: "JWT" })));
-  const claim = b64url(enc.encode(JSON.stringify({
-    iss: sa.client_email,
-    scope: "https://www.googleapis.com/auth/drive",
-    aud: sa.token_uri || "https://oauth2.googleapis.com/token",
-    iat: now, exp: now + 3600,
-  })));
-  const unsigned = `${header}.${claim}`;
-
-  // Importa la private key PEM (PKCS8) y firma con RSASSA-PKCS1-v1_5 SHA-256.
-  const pem = (sa.private_key as string).replace(/-----[^-]+-----/g, "").replace(/\s+/g, "");
-  const der = Uint8Array.from(atob(pem), (c) => c.charCodeAt(0));
-  const key = await crypto.subtle.importKey(
-    "pkcs8", der.buffer, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["sign"],
-  );
-  const sig = new Uint8Array(await crypto.subtle.sign("RSASSA-PKCS1-v1_5", key, enc.encode(unsigned)));
-  const jwt = `${unsigned}.${b64url(sig)}`;
-
-  const tok = await (await fetch(sa.token_uri || "https://oauth2.googleapis.com/token", {
+  // Refresca un access token de Drive con el refresh_token OAuth de la cuenta de usuario.
+  const tok = await (await fetch("https://oauth2.googleapis.com/token", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams({
-      grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer", assertion: jwt,
+      client_id: G_CLIENT_ID,
+      client_secret: G_CLIENT_SECRET,
+      refresh_token: G_REFRESH_TOKEN,
+      grant_type: "refresh_token",
     }),
   })).json();
   if (!tok.access_token) throw new Error("Google token: " + JSON.stringify(tok));
@@ -327,6 +314,19 @@ Deno.serve(async (req) => {
       init = { method: "POST", headers: auth };
     } else if (admin === "list") {
       target = `${GRAPH}/${waba}/subscribed_apps`;
+    } else if (admin === "drivetest") {
+      // Verifica que la credencial de Google (GOOGLE_SA_JSON) sea válida y que la carpeta
+      // (DRIVE_CORRESPONSALES_FOLDER_ID) esté compartida con la cuenta de servicio.
+      try {
+        const tok = await googleToken();
+        const r = await fetch(
+          `https://www.googleapis.com/drive/v3/files/${DRIVE_FOLDER}?fields=id,name&supportsAllDrives=true`,
+          { headers: { Authorization: `Bearer ${tok}` } },
+        );
+        return new Response(await r.text(), { status: r.status, headers: { "Content-Type": "application/json" } });
+      } catch (e) {
+        return new Response(JSON.stringify({ error: String(e) }), { status: 500 });
+      }
     } else {
       return new Response("admin action desconocida", { status: 400 });
     }
