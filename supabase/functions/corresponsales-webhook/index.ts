@@ -98,12 +98,25 @@ async function registrarColaborador(waId: string, nombre: string, celular: strin
 }
 
 // ── WhatsApp Cloud API ────────────────────────────────────────────────────────
+// Los celulares argentinos llegan como wa_id con un "9" extra (549 + área + número).
+// Para RESPONDER hay que mandarlo SIN ese 9 (54 + área + número): Meta lo entrega igual al
+// teléfono real (comprobado). Sin esto, el envío falla con «not in allowed list» / no entrega.
+function normalizarAr(numero: string): string {
+  const n = (numero || "").replace(/\D/g, "");
+  if (n.startsWith("549") && n.length === 13) return "54" + n.slice(3);
+  return n;
+}
+
 async function enviarTexto(to: string, body: string): Promise<void> {
-  await fetch(`${GRAPH}/${WA_PHONE_ID}/messages`, {
+  to = normalizarAr(to);
+  const r = await fetch(`${GRAPH}/${WA_PHONE_ID}/messages`, {
     method: "POST",
     headers: { Authorization: `Bearer ${WA_TOKEN}`, "Content-Type": "application/json" },
     body: JSON.stringify({ messaging_product: "whatsapp", to, type: "text", text: { body } }),
   });
+  const txt = await r.text();
+  if (!r.ok) console.error(`enviarTexto FALLO ${r.status} → ${to}: ${txt}`);
+  else console.log(`enviarTexto OK → ${to}`);
 }
 
 async function bajarMedia(mediaId: string): Promise<{ data: Uint8Array; mime: string }> {
@@ -298,6 +311,29 @@ async function firmaValida(req: Request, raw: string): Promise<boolean> {
 Deno.serve(async (req) => {
   const url = new URL(req.url);
 
+  // ── Ruta ADMIN temporal (para diagnosticar/suscribir la WABA) ──────────────
+  // Protegida por el verify token. Se saca una vez que anda todo.
+  const admin = url.searchParams.get("admin");
+  if (admin && url.searchParams.get("key") === VERIFY_TOKEN) {
+    const waba = url.searchParams.get("waba") ?? "";
+    const auth = { Authorization: `Bearer ${WA_TOKEN}` };
+    let target = "";
+    let init: RequestInit = { headers: auth };
+    if (admin === "debug") {
+      // Muestra los scopes del token, incluidos los IDs de WABA a los que tiene acceso.
+      target = `${GRAPH}/debug_token?input_token=${WA_TOKEN}&access_token=${WA_TOKEN}`;
+    } else if (admin === "subscribe") {
+      target = `${GRAPH}/${waba}/subscribed_apps`;
+      init = { method: "POST", headers: auth };
+    } else if (admin === "list") {
+      target = `${GRAPH}/${waba}/subscribed_apps`;
+    } else {
+      return new Response("admin action desconocida", { status: 400 });
+    }
+    const r = await fetch(target, init);
+    return new Response(await r.text(), { status: r.status, headers: { "Content-Type": "application/json" } });
+  }
+
   // Verificación inicial de Meta (GET).
   if (req.method === "GET") {
     if (url.searchParams.get("hub.verify_token") === VERIFY_TOKEN) {
@@ -318,7 +354,10 @@ Deno.serve(async (req) => {
     const msg = value?.messages?.[0];
     if (msg) {
       const perfil = value?.contacts?.[0]?.profile?.name ?? "";
+      console.log(`MENSAJE de ${msg.from} tipo=${msg.type} texto="${msg.text?.body ?? ""}"`);
       await manejarMensaje(msg, perfil);
+    } else {
+      console.log("POST sin mensaje (status/otro):", JSON.stringify(value?.statuses ?? value).slice(0, 200));
     }
   } catch (e) {
     console.error("webhook:", e);
