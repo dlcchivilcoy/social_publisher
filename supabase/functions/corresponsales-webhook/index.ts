@@ -47,6 +47,18 @@ function slug(s: string): string {
   return normalizar(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 30) || "corresponsal";
 }
 
+// ¿El mensaje parece ser sobre mandar una noticia/video? (para no responder a mensajes de otro tema)
+const CLAVES_NOTICIA = [
+  "video", "noticia", "corresponsal", "chivilcoy en accion", "subir", "mandar", "enviar", "mando",
+  "colabor", "material", "nota", "policial", "incendio", "robo", "delito", "siniestro", "accidente",
+  "choque", "denuncia", "hecho", "camara", "grabe", "grabé", "filme", "filmé", "programa",
+];
+function pareceNoticia(texto: string): boolean {
+  const t = normalizar(texto);
+  if (!t) return false;
+  return CLAVES_NOTICIA.some((k) => t.includes(k));
+}
+
 function b64url(bytes: Uint8Array): string {
   let bin = "";
   for (const b of bytes) bin += String.fromCharCode(b);
@@ -193,13 +205,16 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   const { data, mime } = await bajarMedia(String(s.media_id));
   const token = await googleToken();
   const fecha = new Date().toISOString().slice(0, 10);
-  const carpeta = await crearSubcarpeta(token, `corresponsal_${fecha}_${slug(String(s.nombre))}`);
+  // El celular es el propio WhatsApp; el nombre = el del perfil (el nombre real y el resto de los
+  // datos vienen en el bloque DATOS que escribió el colaborador en un solo mensaje).
+  const nombre = String(s.perfil || s.nombre || "corresponsal");
+  const celular = String(s.celular || waId);
+  const carpeta = await crearSubcarpeta(token, `corresponsal_${fecha}_${slug(nombre)}`);
 
   const contexto =
     `ORIGEN: corresponsal-whatsapp\n` +
-    `NOMBRE: ${s.nombre ?? ""}\n` +
-    `CELULAR: ${s.celular ?? ""}\n` +
-    `LUGAR: ${s.lugar ?? ""}\n` +
+    `NOMBRE: ${nombre}\n` +
+    `CELULAR: ${celular}\n` +
     `DESCRIPCION: ${s.descripcion ?? ""}\n` +
     `AUTORIZACION: ACEPTADA — ${LEGAL} — ${new Date().toISOString()} — wa:${waId}\n`;
 
@@ -208,7 +223,7 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   const enc = new TextEncoder();
   await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8", enc.encode(contexto));
   const ext = mime.includes("quicktime") ? "mov" : "mp4";
-  await subirArchivo(token, carpeta, `video_${slug(String(s.nombre))}.${ext}`, mime, data);
+  await subirArchivo(token, carpeta, `video_${slug(nombre)}.${ext}`, mime, data);
 }
 
 // ── Máquina de estados ────────────────────────────────────────────────────────
@@ -226,51 +241,48 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     return;
   }
 
-  // Llega un video → (re)arranca el formulario.
+  // Llega un video → (re)arranca el formulario. TODAS las preguntas en UN solo mensaje.
   if (esVideo) {
     const mediaId = (msg.video?.id) ?? (msg.document?.id);
-    await upsertSesion({ wa_id: waId, paso: "nombre", media_id: mediaId, perfil,
+    await upsertSesion({ wa_id: waId, paso: "datos", media_id: mediaId, perfil,
       nombre: null, celular: null, lugar: null, descripcion: null });
     await enviarTexto(waId,
       "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-      "Campaña - Radio del Centro! 📣\n\nRecibí tu video. Te hago unas preguntas cortas.\n\n" +
-      "1️⃣ ¿Cuál es tu *nombre y apellido*?\n\n(Si te equivocaste, escribí *cancelar*.)");
+      "Campaña - Radio del Centro! 📣\n\nRecibí tu video. Para sumarlo, respondé en *un solo mensaje* con:\n\n" +
+      "• Tu *nombre y apellido*\n" +
+      "• *Lugar* del hecho\n" +
+      "• *Qué pasó*: qué ocurrió, cuándo, dónde y cómo\n\n" +
+      "(Tu número de contacto ya lo tengo de este WhatsApp. Si te arrepentís, escribí *cancelar*.)");
     return;
   }
 
-  // Sin sesión y sin video: guía.
+  // Sin sesión y sin video: SOLO responde si el mensaje parece sobre mandar una noticia/video.
+  // Si la persona escribe por otro motivo, el bot se queda callado (no molesta).
   if (!sesion) {
-    await enviarTexto(waId,
-      "¡Hola! 👋 Sumate al *Programa de Corresponsales «Chivilcoy en Acción»*.\n\n" +
-      "📹 Enviá *en formato video* una noticia (policial, incendio, robo, delito o siniestro) y " +
-      "te voy a pedir tus datos para sumarla.\n\n⚠️ El video tiene que pesar menos de 16 MB " +
-      "(si es muy largo, mandá un clip más corto).");
+    if (pareceNoticia(texto)) {
+      await enviarTexto(waId,
+        "¡Hola! 👋 Sumate al *Programa de Corresponsales «Chivilcoy en Acción»*.\n\n" +
+        "📹 Enviá *en formato video* una noticia (policial, incendio, robo, delito o siniestro) y " +
+        "te voy a pedir tus datos para sumarla.\n\n⚠️ El video tiene que pesar menos de 16 MB " +
+        "(si es muy largo, mandá un clip más corto).");
+    }
     return;
   }
 
   // Hay sesión: avanzar según el paso.
   const paso = String(sesion.paso);
-  if (paso === "nombre") {
-    await upsertSesion({ wa_id: waId, paso: "celular", nombre: texto.trim() });
-    await enviarTexto(waId, "2️⃣ ¿Cuál es tu *número de celular* de contacto?");
-  } else if (paso === "celular") {
-    await upsertSesion({ wa_id: waId, paso: "lugar", celular: texto.trim() });
-    await enviarTexto(waId, "3️⃣ ¿En qué *lugar* ocurrió el hecho? (dirección o zona)");
-  } else if (paso === "lugar") {
-    await upsertSesion({ wa_id: waId, paso: "descripcion", lugar: texto.trim() });
-    await enviarTexto(waId,
-      "4️⃣ Contame *qué pasó*: qué ocurrió, cuándo, dónde y cómo. (Todo en un mensaje)");
-  } else if (paso === "descripcion") {
+  if (paso === "datos") {
+    // Guarda TODO lo que escribió (nombre + lugar + qué pasó) como contexto para el desgrabador.
     await upsertSesion({ wa_id: waId, paso: "autorizacion", descripcion: texto.trim() });
     await enviarTexto(waId,
-      `📄 *Autorización*\n\n${LEGAL}\n\nSi estás de acuerdo, respondé *ACEPTO* para enviar el material.`);
+      `Buenísimo. 📄 *Autorización*\n\n${LEGAL}\n\nSi estás de acuerdo, respondé *ACEPTO* para enviar el material.`);
   } else if (paso === "autorizacion") {
     const n = normalizar(texto);
     if (n === "acepto" || n === "si" || n.includes("acepto")) {
       await enviarTexto(waId, "¡Perfecto! Estoy guardando tu material… ⏳");
       try {
         await depositarEnDrive(sesion, waId);
-        await registrarColaborador(waId, String(sesion.nombre ?? ""), String(sesion.celular ?? ""),
+        await registrarColaborador(waId, String(sesion.perfil ?? sesion.nombre ?? ""), waId,
           `ACEPTADA — ${new Date().toISOString()}`);
         await deleteSesion(waId);
         await enviarTexto(waId,
