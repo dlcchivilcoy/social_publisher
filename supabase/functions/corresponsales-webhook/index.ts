@@ -59,12 +59,6 @@ function pareceNoticia(texto: string): boolean {
   return CLAVES_NOTICIA.some((k) => t.includes(k));
 }
 
-function b64url(bytes: Uint8Array): string {
-  let bin = "";
-  for (const b of bytes) bin += String.fromCharCode(b);
-  return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-}
-
 // ── Supabase REST (con la service role key, saltea RLS) ───────────────────────
 function sbHeaders(extra: Record<string, string> = {}): Record<string, string> {
   return { apikey: SB_KEY, Authorization: `Bearer ${SB_KEY}`, "Content-Type": "application/json", ...extra };
@@ -316,42 +310,6 @@ async function firmaValida(req: Request, raw: string): Promise<boolean> {
 // ── Entry point ───────────────────────────────────────────────────────────────
 Deno.serve(async (req) => {
   const url = new URL(req.url);
-
-  // ── Ruta ADMIN temporal (para diagnosticar/suscribir la WABA) ──────────────
-  // Protegida por el verify token. Se saca una vez que anda todo.
-  const admin = url.searchParams.get("admin");
-  if (admin && url.searchParams.get("key") === VERIFY_TOKEN) {
-    const waba = url.searchParams.get("waba") ?? "";
-    const auth = { Authorization: `Bearer ${WA_TOKEN}` };
-    let target = "";
-    let init: RequestInit = { headers: auth };
-    if (admin === "debug") {
-      // Muestra los scopes del token, incluidos los IDs de WABA a los que tiene acceso.
-      target = `${GRAPH}/debug_token?input_token=${WA_TOKEN}&access_token=${WA_TOKEN}`;
-    } else if (admin === "subscribe") {
-      target = `${GRAPH}/${waba}/subscribed_apps`;
-      init = { method: "POST", headers: auth };
-    } else if (admin === "list") {
-      target = `${GRAPH}/${waba}/subscribed_apps`;
-    } else if (admin === "drivetest") {
-      // Verifica que la credencial de Google (GOOGLE_SA_JSON) sea válida y que la carpeta
-      // (DRIVE_CORRESPONSALES_FOLDER_ID) esté compartida con la cuenta de servicio.
-      try {
-        const tok = await googleToken();
-        const r = await fetch(
-          `https://www.googleapis.com/drive/v3/files/${DRIVE_FOLDER}?fields=id,name&supportsAllDrives=true`,
-          { headers: { Authorization: `Bearer ${tok}` } },
-        );
-        return new Response(await r.text(), { status: r.status, headers: { "Content-Type": "application/json" } });
-      } catch (e) {
-        return new Response(JSON.stringify({ error: String(e) }), { status: 500 });
-      }
-    } else {
-      return new Response("admin action desconocida", { status: 400 });
-    }
-    const r = await fetch(target, init);
-    return new Response(await r.text(), { status: r.status, headers: { "Content-Type": "application/json" } });
-  }
 
   // Verificación inicial de Meta (GET).
   if (req.method === "GET") {
