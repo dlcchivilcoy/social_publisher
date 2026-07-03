@@ -23,6 +23,7 @@ import re
 import smtplib
 import ssl
 import tempfile
+import time
 import unicodedata
 from datetime import datetime
 from email.message import EmailMessage
@@ -262,28 +263,49 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
     logger.info(f"{len(pendientes)} nota(s) por desgrabar → se enviarán por mail a {_destino_mail()}")
 
     key = _gemini_key()
+    # Espaciar las llamadas a Gemini y REINTENTAR: la cuota gratis limita por minuto, y sin
+    # esto la última nota del día solía fallar y quedar pendiente (se reintentaba recién al
+    # día siguiente, donde una nota nueva la volvía a desplazar → "siempre queda una").
+    entre_notas = int(get("YT_DESGRABAR_DELAY_SEG") or 8)
+    reintentos = max(1, int(get("YT_DESGRABAR_REINTENTOS") or 3))
     generadas: list[tuple[str, Path, Path | None]] = []  # (titulo, docx, png) para el mail
-    for v in pendientes:
+    for i, v in enumerate(pendientes):
+        if i > 0 and not dry_run:
+            time.sleep(entre_notas)  # respiro entre videos para no pegarle al límite por minuto
         logger.info(f"  Desgrabando: «{v['titulo'][:60]}» ({v['url']})")
-        try:
-            contexto = (
-                f"TÍTULO ORIGINAL DEL VIDEO EN YOUTUBE: «{v['titulo']}».\n"
-                "Usá ESTE título como REFERENCIA AUTORITATIVA para los NOMBRES PROPIOS "
-                "(personas entrevistadas, apellidos, lugares, instituciones): escribilos "
-                "EXACTAMENTE como figuran en el título. Si un nombre que escuchás en el audio "
-                "no coincide con el del título (el reconocimiento de voz suele equivocar "
-                "apellidos), PRIORIZÁ la forma del título. Si el título nombra al entrevistado, "
-                "ese es su nombre correcto.\n"
-                "NÚMEROS Y DATOS: transcribí con EXACTITUD las cifras, montos, porcentajes, "
-                "fechas, horarios, edades, resultados y cantidades tal como se dicen. NO "
-                "inventes ni redondees números; si un número no se entiende con claridad, NO lo "
-                "pongas en vez de adivinarlo. Mejor omitir un dato dudoso que poner uno incorrecto."
-            )
-            nota = gemini.transcribe_youtube_url(v["url"], extra_text=contexto,
-                                                 instrucciones=INSTRUCCION_LARGO, api_key=key)
-        except Exception as e:
-            logger.error(f"    Gemini falló (se reintenta en la próxima corrida): {e}")
-            continue  # NO se marca: se reintenta
+        contexto = (
+            f"TÍTULO ORIGINAL DEL VIDEO EN YOUTUBE: «{v['titulo']}».\n"
+            "Usá ESTE título como REFERENCIA AUTORITATIVA para los NOMBRES PROPIOS "
+            "(personas entrevistadas, apellidos, lugares, instituciones): escribilos "
+            "EXACTAMENTE como figuran en el título. Si un nombre que escuchás en el audio "
+            "no coincide con el del título (el reconocimiento de voz suele equivocar "
+            "apellidos), PRIORIZÁ la forma del título. Si el título nombra al entrevistado, "
+            "ese es su nombre correcto.\n"
+            "NÚMEROS Y DATOS: transcribí con EXACTITUD las cifras, montos, porcentajes, "
+            "fechas, horarios, edades, resultados y cantidades tal como se dicen. NO "
+            "inventes ni redondees números; si un número no se entiende con claridad, NO lo "
+            "pongas en vez de adivinarlo. Mejor omitir un dato dudoso que poner uno incorrecto."
+        )
+        # Reintenta con espera creciente ante fallos de Gemini (429/cuota/red) para que NINGUNA
+        # nota quede pendiente por un límite momentáneo.
+        nota = None
+        for intento in range(1, reintentos + 1):
+            try:
+                nota = gemini.transcribe_youtube_url(v["url"], extra_text=contexto,
+                                                     instrucciones=INSTRUCCION_LARGO, api_key=key)
+                break
+            except Exception as e:
+                if intento >= reintentos:
+                    logger.error(f"    Gemini falló {reintentos} veces (se reintenta en la "
+                                 f"próxima corrida): {e}")
+                else:
+                    espera = 30 * intento
+                    logger.warning(f"    Gemini falló (intento {intento}/{reintentos}): {e}. "
+                                   f"Reintento en {espera}s…")
+                    if not dry_run:
+                        time.sleep(espera)
+        if nota is None:
+            continue  # NO se marca: se reintenta la próxima corrida
 
         if not nota.get("hay_noticia"):
             logger.info("    Sin noticia aprovechable (música/sin datos). Se saltea y se marca.")
