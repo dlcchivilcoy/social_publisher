@@ -314,3 +314,39 @@ def _raise_for_status(resp: requests.Response, step: str) -> None:
         raise RuntimeError(f"Instagram ({step}): límite de tasa (429) — se reintentará la próxima vez")
     if resp.status_code >= 400:
         raise RuntimeError(f"Instagram ({step}): {resp.status_code} {resp.text[:200]}")
+
+
+def media_insights(media_id: str) -> dict:
+    """Estadísticas de un reel/media de Instagram (para el ranking de corresponsales):
+    {vistas, reach, likes, comentarios, shares}. Best-effort: si falla, devuelve {} (no rompe)."""
+    token = get("INSTAGRAM_ACCESS_TOKEN")
+    if not token or not media_id:
+        return {}
+    out = {"vistas": 0, "reach": 0, "likes": 0, "comentarios": 0, "shares": 0}
+    base = f"https://graph.facebook.com/{GRAPH_VERSION}/{media_id}"
+    # like_count / comments_count salen del propio media (siempre disponibles).
+    try:
+        d = requests.get(base, params={"fields": "like_count,comments_count",
+                                        "access_token": token}, timeout=30).json()
+        out["likes"] = int(d.get("like_count") or 0)
+        out["comentarios"] = int(d.get("comments_count") or 0)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[ig media] {media_id}: {e}")
+    # reach / vistas / shares vienen de insights (puede fallar por permisos/versión).
+    try:
+        d = requests.get(f"{base}/insights", params={"metric": "reach,views,shares",
+                                                      "access_token": token}, timeout=30).json()
+        for m in d.get("data", []):
+            vals = m.get("values") or []
+            val = int((vals[0].get("value") if vals else (m.get("total_value") or {}).get("value")) or 0)
+            if m.get("name") == "reach":
+                out["reach"] = val
+            elif m.get("name") == "views":
+                out["vistas"] = val
+            elif m.get("name") == "shares":
+                out["shares"] = val
+        if not out["vistas"]:
+            out["vistas"] = out["reach"]  # fallback si «views» no vino
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[ig insights] {media_id}: {e}")
+    return out

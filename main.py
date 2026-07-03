@@ -139,6 +139,11 @@ def main() -> None:
         help="Enviar por mail el Excel de contabilidad de videos por colaborador (mes anterior, o --mes YYYY-MM).",
     )
     parser.add_argument(
+        "--corresponsales-ranking",
+        action="store_true",
+        help="Ranking mensual de Corresponsales (vistas Wix + insights FB/IG → podio 1°/2°/3° + premios). Mail + Excel + borrador Wix. (mes anterior, o --mes YYYY-MM).",
+    )
+    parser.add_argument(
         "--yt-seo",
         action="store_true",
         help="Generar propuestas SEO (título, descripción, miniatura) de los últimos videos de YouTube. Revisión manual.",
@@ -321,6 +326,12 @@ def main() -> None:
         from reporte import run_videos_report
         logger.info(f"Modo --videos-report (dry_run={args.dry_run}). mes={args.mes}")
         run_videos_report(mes=args.mes, dry_run=args.dry_run)
+        return
+
+    if args.corresponsales_ranking:
+        from ranking import run_corresponsales_ranking
+        logger.info(f"Modo --corresponsales-ranking (dry_run={args.dry_run}). mes={args.mes}")
+        run_corresponsales_ranking(mes=args.mes, dry_run=args.dry_run)
         return
     if args.yt_seo:
         from youtube_seo import run_generate

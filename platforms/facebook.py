@@ -275,3 +275,30 @@ def _raise_for_status(resp: requests.Response) -> None:
     if resp.status_code == 429:
         raise RuntimeError("Facebook: límite de tasa alcanzado (429) — se reintentará la próxima vez")
     resp.raise_for_status()
+
+
+def video_insights(video_id: str) -> dict:
+    """Estadísticas de un video de la página (para el ranking de corresponsales):
+    {vistas, likes, comentarios, shares}. Best-effort: si falla, devuelve {} (no rompe)."""
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not token or not video_id:
+        return {}
+    try:
+        r = requests.get(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{video_id}",
+            params={"fields": "views,likes.summary(true),comments.summary(true)", "access_token": token},
+            timeout=30,
+        )
+        d = r.json()
+        if "error" in d:
+            logger.warning(f"[fb insights] {video_id}: {d['error'].get('message')}")
+            return {}
+        return {
+            "vistas": int(d.get("views") or 0),
+            "likes": int(((d.get("likes") or {}).get("summary") or {}).get("total_count") or 0),
+            "comentarios": int(((d.get("comments") or {}).get("summary") or {}).get("total_count") or 0),
+            "shares": 0,
+        }
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[fb insights] {video_id}: {e}")
+        return {}

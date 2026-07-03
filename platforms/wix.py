@@ -518,6 +518,25 @@ def top_posts_today(limit: int = 5) -> list[dict]:
     return out
 
 
+def views_de_post(post_id: str) -> int:
+    """Cantidad de vistas (metrics.views) de una nota publicada, por su id (= draft_id).
+    Best-effort: 0 si no se pudo consultar. Se usa en el ranking de corresponsales."""
+    if not post_id:
+        return 0
+    try:
+        r = requests.post(
+            POSTS_QUERY_URL, headers=_headers(),
+            json={"query": {"filter": {"id": {"$eq": post_id}}, "paging": {"limit": 1}},
+                  "fieldsets": ["METRICS"]}, timeout=30,
+        )
+        posts = r.json().get("posts", [])
+        if posts:
+            return int((posts[0].get("metrics") or {}).get("views") or 0)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[wix views] {post_id}: {e}")
+    return 0
+
+
 def _raise_for_status(resp: requests.Response, step: str) -> None:
     if resp.status_code == 401:
         raise PermissionError(f"Wix ({step}): API key inválida (401) — revisá .env")
@@ -527,3 +546,100 @@ def _raise_for_status(resp: requests.Response, step: str) -> None:
         raise RuntimeError(f"Wix ({step}): límite de tasa (429) — se reintentará la próxima vez")
     if resp.status_code >= 400:
         raise RuntimeError(f"Wix ({step}): {resp.status_code} {resp.text[:200]}")
+
+
+# ── Edición manual de notas (para el «Editor de notas» de escritorio) ──────────
+def slug_de_link(link: str) -> str:
+    """Saca el slug de una nota a partir de su LINK (URL de la web) o lo devuelve tal
+    cual si ya es un slug. Tolera `/single-post/<slug>`, `/post/<slug>`, query y hash."""
+    s = (link or "").strip()
+    s = s.split("#", 1)[0].split("?", 1)[0].rstrip("/")
+    m = re.search(r"/(?:single-post|post)/([^/]+)$", s)
+    if m:
+        return m.group(1)
+    return s.rsplit("/", 1)[-1]
+
+
+def _texto_de_parrafo(nodo: dict) -> str:
+    return "".join(x.get("textData", {}).get("text", "") for x in nodo.get("nodes", []))
+
+
+def cargar_nota(link_or_slug: str) -> dict:
+    """Busca una nota publicada por su LINK/slug y devuelve lo editable:
+    {id, title, paragraphs, cover_url, url, slug}. `paragraphs` son los párrafos del
+    cuerpo (texto plano); `title` es el título completo de Wix («VOLANTA — titular»)."""
+    headers = _headers()
+    slug = slug_de_link(link_or_slug)
+    r = requests.post(POSTS_QUERY_URL, headers=headers, json={
+        "query": {"filter": {"slug": {"$eq": slug}}, "paging": {"limit": 1}},
+        "fieldsets": ["URL"],
+    }, timeout=30)
+    _raise_for_status(r, "buscar nota")
+    posts = r.json().get("posts", [])
+    if not posts:
+        raise LookupError(f"No encontré ninguna nota con ese link (slug «{slug}»). "
+                          "Revisá que el link sea de una nota publicada.")
+    post_id = posts[0]["id"]
+    draft = _get_draft(headers, post_id)
+    nodes = (draft.get("richContent") or {}).get("nodes") or []
+    paragraphs = [_texto_de_parrafo(n) for n in nodes if n.get("type") == "PARAGRAPH"]
+    media = draft.get("media") or {}
+    cover = (((media.get("wixMedia") or {}).get("image") or {}).get("url")) or media.get("url") or ""
+    url = posts[0].get("url", {})
+    return {
+        "id": post_id,
+        "title": draft.get("title", ""),
+        "paragraphs": paragraphs,
+        "cover_url": cover,
+        "url": url.get("base", "") + url.get("path", ""),
+        "slug": slug,
+    }
+
+
+def editar_nota(post_id: str, title: str, paragraphs: list, nueva_portada_path=None) -> dict:
+    """Reemplaza el TÍTULO y el CUERPO (lista de párrafos) de una nota ya publicada y la
+    vuelve a publicar. Conserva las imágenes/videos del cuerpo (gotcha de Wix: se reenvía
+    `media` para no perder la portada). Si se pasa `nueva_portada_path`, sube esa imagen y
+    reemplaza la portada (y la 1ª imagen del cuerpo). Devuelve {success, id, url}."""
+    headers = _headers()
+    title = _titulo_wix(title)
+    draft = _get_draft(headers, post_id)
+    old_nodes = (draft.get("richContent") or {}).get("nodes") or []
+    # Conservamos los nodos que NO son párrafos (IMAGE/VIDEO) en su orden original.
+    keep = [n for n in old_nodes if n.get("type") != "PARAGRAPH"]
+    media = draft.get("media")
+
+    if nueva_portada_path:
+        file_id, _ = _importar_imagen(headers, Path(nueva_portada_path), title)
+        reemplazado = False
+        for n in keep:
+            if n.get("type") == "IMAGE":
+                n.setdefault("imageData", {}).setdefault("image", {})["src"] = {"id": file_id}
+                reemplazado = True
+                break
+        if not reemplazado:  # la nota no tenía imagen en el cuerpo: la agregamos arriba
+            keep.insert(0, {
+                "type": "IMAGE", "id": "imgcover", "nodes": [],
+                "imageData": {
+                    "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
+                    "image": {"src": {"id": file_id}},
+                },
+            })
+        media = {"wixMedia": {"image": {"id": file_id}}, "displayed": True, "custom": True}
+
+    nodes = list(keep)
+    for i, para in enumerate(p for p in paragraphs if str(p).strip()):
+        nodes.append({
+            "type": "PARAGRAPH", "id": f"ep{i}",
+            "nodes": [{"type": "TEXT", "id": "", "textData": {"text": para, "decorations": []}}],
+        })
+
+    payload = {
+        "draftPost": {"id": post_id, "title": title,
+                      "richContent": {"nodes": nodes}, "media": media},
+        "fieldMask": ["title", "richContent", "media"],  # media reenviado o se borra la portada
+    }
+    r = requests.patch(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, json=payload, timeout=60)
+    _raise_for_status(r, "editar nota")
+    logger.info(f"Nota {post_id} editada; re-publicando…")
+    return publicar_borrador(post_id)

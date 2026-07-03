@@ -94,8 +94,27 @@ En el `.env` del publicador y en el secret `ENV_FILE` de GitHub:
    el nombre del corresponsal) → aprobar → publica la nota Wix + el **reel firmado** a FB/IG/YouTube.
 5. **Excel**: `python main.py --videos-report --dry-run --mes <YYYY-MM>` → hoja **Colaboradores**.
 
-## Etapa 2 — Ranking y premios (pendiente)
-Con `ig_media_id`/`fb_video_id` + `corresponsal_nombre` que ya se guardan: un `ranking.py`
-(`--corresponsales-ranking`, 1° de cada mes) junta **Wix `metrics.views`** + **Meta Insights** de
-cada reel → puntaje (cantidad de notas + engagement) → define 1°/2°/3° ($100k/$50k/$25k) y publica
-un ranking transparente.
+## Etapa 2 — Ranking y premios (CONSTRUIDA)
+`ranking.py` + `main.py --corresponsales-ranking`: junta por cada nota de corresponsal publicada del
+mes las **vistas de Wix** (`wix.views_de_post`) + los **insights de FB** (`facebook.video_insights`)
+y de **IG** (`instagram.media_insights`) del reel → puntaje por nota → agrega por colaborador
+(`puntos = vistas + interacciones×PESO + BONUS×cantidad_de_notas`) → arma el **podio 1°/2°/3°** con
+sus premios → manda un **mail transparente** con la tabla + un **Excel** (hoja Ranking + Detalle por
+nota) y deja un **borrador en Wix** con el ranking para revisar y publicar.
+
+**Correr:**
+```powershell
+python main.py --corresponsales-ranking --dry-run            # mes anterior, no manda nada
+python main.py --corresponsales-ranking --mes 2026-07        # real (mail + Excel + borrador Wix)
+```
+**Automatizar (1° de cada mes):** crear en cron-job.org un disparo mensual del workflow con
+`args = --corresponsales-ranking` (igual que `--videos-report`). Reusa los tokens FB/IG y Wix que ya
+están en el `.env`/`ENV_FILE`; no necesita nada nuevo de Meta.
+
+**Config (`.env`, todo opcional):** `RANKING_PREMIOS` (default `100000,50000,25000`),
+`RANKING_PESO_INTERACCION` (10), `RANKING_BONUS_NOTA` (200), `RANKING_WIX_BORRADOR` (1 = crear
+borrador), `RANKING_EMAIL` (a quién llega; si no, usa el de los reportes).
+
+> Nota: los insights de FB/IG dependen de que los reels se hayan publicado con los IDs guardados
+> (`fb_video_id`/`ig_media_id`, que se registran desde la Etapa 1). Si algún insight no está
+> disponible (permiso/versión de la API), esa métrica cuenta 0 y el ranking igual se arma.
