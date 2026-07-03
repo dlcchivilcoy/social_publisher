@@ -191,3 +191,12 @@ def run_videos_report(mes: str | None = None, dry_run: bool = False) -> None:
         return
     _enviar(xlsx, mes, len(filas))
     logger.info("=== Reporte de videos: fin ===")
+
+    # El 1° de cada mes, además del reporte, armamos el RANKING de corresponsales del mismo
+    # mes (podio + premios). Va enganchado acá para reusar la corrida mensual que ya dispara
+    # cron-job.org (--videos-report), sin crear otro cron. Best-effort: si falla, no rompe el reporte.
+    try:
+        from ranking import run_corresponsales_ranking
+        run_corresponsales_ranking(mes=mes, dry_run=dry_run)
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"El ranking de corresponsales falló (el reporte igual salió): {e}")
