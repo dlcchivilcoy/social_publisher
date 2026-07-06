@@ -536,5 +536,18 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-07-06T12:01:59",
     "yt_metrics": {}
+  },
+  {
+    "file": "VID_20260706_092951_409_bsl.mp4",
+    "uploader": "dlc.chivilcoy@gmail.com",
+    "fecha_recibido": "2026-07-06T13:33:41",
+    "hay_noticia": true,
+    "volanta": "Tragedia en Chivilcoy",
+    "titulo": "Un trabajador murió tras la explosión de un tanque con thinner",
+    "resumen": "Miguel Noir, de 40 años, falleció en Chivilcoy tras la explosión de un tanque con thinner mientras realizaba trabajos de corte. La Justicia investiga las causas del fatal accidente laboral.",
+    "texto": "Un fatal accidente laboral conmocionó a Chivilcoy este domingo, cuando un hombre de 40 años perdió la vida tras la explosión de un tanque que había contenido thinner. El hecho ocurrió en un inmueble ubicado sobre calle Brandsen al 200.\n\nLa víctima fue identificada como Miguel Noir. Según la información preliminar, Noir y otro operario se encontraban realizando trabajos de corte sobre el recipiente, que anteriormente había almacenado un material altamente inflamable.\n\nPor motivos que aún son materia de investigación, el tanque explotó, provocando la muerte de uno de los trabajadores en el lugar del incidente.\n\nTras la explosión, intervinieron Bomberos Voluntarios, personal policial y una ambulancia del SAME. La zona fue preservada para permitir el trabajo de los peritos de Policía Científica, quienes buscan determinar el origen exacto de la deflagración. La causa quedó en manos de la Justicia.",
+    "draft_id": "01f1f26b-2435-4753-a666-6fdcead75a8b",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260706-092951-409-bsl.mp4",
+    "estado": "borrador"
   }
 ]
