@@ -152,6 +152,15 @@ def _platforms() -> list[str]:
     return [p.strip().lower() for p in raw.split(",") if p.strip()]
 
 
+def _carousel_platforms() -> list[str]:
+    """Plataformas del CARRUSEL de notas. Por defecto usa STORIES_PLATFORMS, pero se puede
+    acotar con CARRUSEL_PLATFORMS. Ej.: CARRUSEL_PLATFORMS=instagram → el carrusel NO se
+    postea a Facebook (el usuario lo comparte a FB a mano). NO afecta al feed ni a las
+    historias, que siguen con su propia config."""
+    raw = get("CARRUSEL_PLATFORMS") or get("STORIES_PLATFORMS") or "instagram,facebook"
+    return [p.strip().lower() for p in raw.split(",") if p.strip()]
+
+
 def _orden(note: dict) -> int:
     """Número con que empieza el nombre del .docx (1, 2, 3…). Sin número → al final."""
     m = re.match(r"\s*(\d+)", note["docx"].name)
@@ -300,7 +309,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         logger.info("=== Carrusel de notas: fin (dry-run) ===")
         return
 
-    plats = _platforms()
+    plats = _carousel_platforms()
     algun_ok = False
 
     if "facebook" in plats:
