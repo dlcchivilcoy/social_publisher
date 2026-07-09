@@ -1,4 +1,5 @@
 import json
+import time
 from pathlib import Path
 
 import requests
@@ -189,14 +190,34 @@ def _publish_reel(message: str, video_path: Path) -> dict:
     if up.status_code >= 400:
         raise RuntimeError(f"subir reel: {up.status_code} {up.text[:200]}")
 
-    # 3) finish → publica el reel
+    # 3) finish → dispara la publicación del reel
     finish_data = {"upload_phase": "finish", "video_id": video_id,
                    "video_state": "PUBLISHED", "description": message}
     if _place():
         finish_data["place"] = _place()
     finish = requests.post(base, params={"access_token": token}, data=finish_data, timeout=120)
     _raise_for_status(finish)
-    return {"success": True, "id": video_id}
+
+    # ⚠️ El "finish" devuelve 200 al instante, pero el reel entra en PROCESAMIENTO
+    # asíncrono de Facebook y puede FALLAR ahí SIN excepción → el reel nunca aparece
+    # aunque hubiéramos dicho "ok". Por eso esperamos a que el estado sea publicado;
+    # si falla o no termina a tiempo, lanzamos para caer al video clásico (/videos),
+    # que sí publica de forma confiable.
+    status_url = f"https://graph.facebook.com/{GRAPH_VERSION}/{video_id}"
+    for _ in range(15):  # ~ hasta 2,5 min
+        time.sleep(10)
+        st = requests.get(status_url, params={"access_token": token,
+                                              "fields": "status"}, timeout=60)
+        if st.status_code >= 400:
+            continue
+        status = st.json().get("status") or {}
+        vstatus = str(status.get("video_status") or "").lower()
+        pub = str((status.get("publishing_phase") or {}).get("status") or "").lower()
+        if vstatus in ("ready", "published") or pub == "complete":
+            return {"success": True, "id": video_id}
+        if vstatus in ("error", "expired") or pub in ("error", "failed"):
+            raise RuntimeError(f"el reel falló en el procesamiento de FB (status={status}).")
+    raise RuntimeError("el reel no terminó de publicarse en FB (timeout de procesamiento).")
 
 
 def _publish_video_clasico(message: str, video_path: Path) -> dict:
