@@ -238,7 +238,8 @@ def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: b
             botones += _boton(f"{webapp}?action=preview&url={quote(reel_url)}{t}",
                               "👁️ Previsualizar video", color="#444")
         if hay and draft_id:
-            botones += _boton(f"{webapp}?action=edit&draft={draft_id}{t}", "✏️ Corregir texto", color="#444")
+            # (El botón «Corregir texto» se sacó al pasar los botones a la web propia; para
+            #  corregir una nota se usa el «Editor de notas» del escritorio.)
             botones += _boton(f"{webapp}?action=delete&post={quote(draft_id)}{t}", "🗑️ Borrar borrador", color="#b00020")
     elif reel_url:
         botones += _boton(reel_url, "👁️ Ver el reel", color="#444")
