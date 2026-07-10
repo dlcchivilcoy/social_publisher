@@ -31,7 +31,7 @@ def _gemini_keys(primary: str = "") -> list:
     """Claves Gemini a usar, en orden, para ROTAR ante 429 (cuota agotada de UNA clave):
     la clave primaria (si se pasa) + las que estén cargadas en el .env. Así, si una clave
     se queda sin cuota, se sigue con la siguiente. Deduplicadas, sin vacías.
-    Para sumar más margen: cargar GEMINI_API_KEY_2 / _3 / _4 en el .env."""
+    Para sumar más margen: cargar GEMINI_API_KEY_2 / _3 / _4 en el .env. [ver _fallback_models]"""
     nombres = ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
                "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT"]
     cand = [primary] + [get(n) or "" for n in nombres]
@@ -44,19 +44,40 @@ def _gemini_keys(primary: str = "") -> list:
     return out
 
 
+def _fallback_models(primary: str = "") -> list:
+    """Modelos a probar, EN ORDEN, para caer a un modelo alternativo ante 429 cuando ya se
+    agotaron las claves con el modelo bueno. Cada modelo del plan gratis tiene su PROPIO cupo
+    (RPM/TPM/RPD), así que un 2º modelo suma capacidad. Default de respaldo:
+    gemini-flash-lite-latest (alias que se auto-actualiza al flash-lite disponible; gratis,
+    multimodal, aguanta video —verificado 2026-07-10). Configurable/desactivable con
+    GEMINI_MODEL_FALLBACK (vacío = sin respaldo; coma para varios). ⚠️ NO usar gemini-2.0-flash
+    (sin cupo gratis) ni el pineado gemini-2.5-flash-lite (404 'no longer available for new users')."""
+    raw = get("GEMINI_MODEL_FALLBACK", "gemini-flash-lite-latest")
+    fb = [m.strip() for m in raw.split(",") if m.strip() and m.strip() != primary]
+    return ([primary] if primary else []) + fb
+
+
 def _generate(model: str, payload: dict, key: str = "", timeout: int = 120):
-    """POST a `models/{model}:generateContent` con reintentos Y ROTACIÓN de claves.
-    Ante 429 (cuota de esa clave) pasa YA a la siguiente clave; ante 500/503 (servidor
-    saturado) espera (15→60s) y reintenta. Devuelve la respuesta OK; lanza si termina en error."""
+    """POST a generateContent con reintentos + ROTACIÓN de CLAVES y de MODELO ante 429.
+    Prioridad: agota las claves con el modelo bueno (calidad) y recién ahí cae al modelo de
+    respaldo (que tiene cupo aparte). Ante 500/503 (servidor saturado) espera (15→60s) y
+    reintenta. Devuelve la respuesta OK; lanza si termina en error."""
     keys = _gemini_keys(key) or [key]
-    ki, r = 0, None
-    intentos = max(7, len(keys) + 3)
+    modelos = _fallback_models(model) or [model]
+    combos = [(m, k) for m in modelos for k in keys]  # (modelo, clave): modelo bueno primero
+    ci, r = 0, None
+    intentos = max(7, len(combos) + 3)
     for intento in range(intentos):
-        r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={keys[ki]}",
+        m, k = combos[ci]
+        r = requests.post(f"{API_BASE}/models/{m}:generateContent?key={k}",
                           json=payload, timeout=timeout)
-        if r.status_code == 429 and ki < len(keys) - 1:
-            ki += 1  # esa clave se quedó sin cuota → siguiente clave, sin esperar
-            logger.warning(f"Gemini 429 (cuota de una clave); roto a la clave #{ki + 1} de {len(keys)}…")
+        if r.status_code == 429 and ci < len(combos) - 1:
+            ci += 1  # 429 → probar la siguiente combinación (otra clave, o el modelo de respaldo)
+            nuevo_m = combos[ci][0]
+            if nuevo_m != m:
+                logger.warning(f"Gemini 429; cambio al modelo de respaldo «{nuevo_m}»…")
+            else:
+                logger.warning(f"Gemini 429 (cuota de una clave); roto de clave (combo {ci + 1}/{len(combos)})…")
             continue
         if r.status_code in (429, 500, 503) and intento < intentos - 1:
             espera = min(60, 15 * (intento + 1))
