@@ -26,6 +26,49 @@ logger = get_logger("gemini")
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 UPLOAD_URL = "https://generativelanguage.googleapis.com/upload/v1beta/files"
 
+
+def _gemini_keys(primary: str = "") -> list:
+    """Claves Gemini a usar, en orden, para ROTAR ante 429 (cuota agotada de UNA clave):
+    la clave primaria (si se pasa) + las que estén cargadas en el .env. Así, si una clave
+    se queda sin cuota, se sigue con la siguiente. Deduplicadas, sin vacías.
+    Para sumar más margen: cargar GEMINI_API_KEY_2 / _3 / _4 en el .env."""
+    nombres = ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
+               "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT"]
+    cand = [primary] + [get(n) or "" for n in nombres]
+    out, visto = [], set()
+    for k in cand:
+        k = (k or "").strip()
+        if k and k not in visto:
+            visto.add(k)
+            out.append(k)
+    return out
+
+
+def _generate(model: str, payload: dict, key: str = "", timeout: int = 120):
+    """POST a `models/{model}:generateContent` con reintentos Y ROTACIÓN de claves.
+    Ante 429 (cuota de esa clave) pasa YA a la siguiente clave; ante 500/503 (servidor
+    saturado) espera (15→60s) y reintenta. Devuelve la respuesta OK; lanza si termina en error."""
+    keys = _gemini_keys(key) or [key]
+    ki, r = 0, None
+    intentos = max(7, len(keys) + 3)
+    for intento in range(intentos):
+        r = requests.post(f"{API_BASE}/models/{model}:generateContent?key={keys[ki]}",
+                          json=payload, timeout=timeout)
+        if r.status_code == 429 and ki < len(keys) - 1:
+            ki += 1  # esa clave se quedó sin cuota → siguiente clave, sin esperar
+            logger.warning(f"Gemini 429 (cuota de una clave); roto a la clave #{ki + 1} de {len(keys)}…")
+            continue
+        if r.status_code in (429, 500, 503) and intento < intentos - 1:
+            espera = min(60, 15 * (intento + 1))
+            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
+            time.sleep(espera)
+            continue
+        break
+    if r is None or r.status_code >= 400:
+        raise RuntimeError(f"Gemini {r.status_code if r is not None else '???'}: "
+                           f"{r.text[:300] if r is not None else ''}")
+    return r
+
 _VIDEO_EXT = {".mp4", ".mov", ".webm", ".mkv", ".avi", ".m4v", ".mpg", ".mpeg"}
 _MIME = {
     ".mp3": "audio/mpeg", ".m4a": "audio/mp4", ".aac": "audio/aac",
@@ -164,18 +207,7 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
         },
     }
     logger.info(f"Gemini SEO YouTube con {model} para «{(titulo_actual or '')[:50]}»…")
-    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
-    r = None
-    for intento in range(7):  # reintenta ante 503/429 (modelo gratis sobrecargado)
-        r = requests.post(url, json=payload, timeout=120)
-        if r.status_code in (429, 500, 503) and intento < 6:
-            espera = min(60, 15 * (intento + 1))
-            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
-            time.sleep(espera)
-            continue
-        break
-    if r.status_code >= 400:
-        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    r = _generate(model, payload, key, timeout=120)
     try:
         cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         raw = json.loads(cand)
@@ -244,16 +276,7 @@ def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video
         },
     }
     logger.info(f"Gemini gancho miniatura (video={usar_video and bool(youtube_url)})…")
-    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
-    r = None
-    for intento in range(7):
-        r = requests.post(url, json=payload, timeout=300)
-        if r.status_code in (429, 500, 503) and intento < 6:
-            time.sleep(min(60, 15 * (intento + 1)))
-            continue
-        break
-    if r.status_code >= 400:
-        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    r = _generate(model, payload, key, timeout=300)
     try:
         cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         raw = json.loads(cand)
@@ -332,18 +355,7 @@ def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3) 
             "response_schema": _SCHEMA,
         },
     }
-    url = f"{API_BASE}/models/{model}:generateContent?key={key}"
-    r = None
-    for intento in range(7):
-        r = requests.post(url, json=payload, timeout=300)
-        if r.status_code in (429, 500, 503) and intento < 6:
-            espera = min(60, 15 * (intento + 1))
-            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
-            time.sleep(espera)
-            continue
-        break
-    if r.status_code >= 400:
-        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:300]}")
+    r = _generate(model, payload, key, timeout=300)
     try:
         cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         return json.loads(cand)
