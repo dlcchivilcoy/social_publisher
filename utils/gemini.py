@@ -166,10 +166,10 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
     logger.info(f"Gemini SEO YouTube con {model} para «{(titulo_actual or '')[:50]}»…")
     url = f"{API_BASE}/models/{model}:generateContent?key={key}"
     r = None
-    for intento in range(4):  # reintenta ante 503/429 (modelo gratis sobrecargado)
+    for intento in range(7):  # reintenta ante 503/429 (modelo gratis sobrecargado)
         r = requests.post(url, json=payload, timeout=120)
-        if r.status_code in (429, 500, 503) and intento < 3:
-            espera = 5 * (intento + 1)
+        if r.status_code in (429, 500, 503) and intento < 6:
+            espera = min(60, 15 * (intento + 1))
             logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
             time.sleep(espera)
             continue
@@ -246,10 +246,10 @@ def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video
     logger.info(f"Gemini gancho miniatura (video={usar_video and bool(youtube_url)})…")
     url = f"{API_BASE}/models/{model}:generateContent?key={key}"
     r = None
-    for intento in range(4):
+    for intento in range(7):
         r = requests.post(url, json=payload, timeout=300)
-        if r.status_code in (429, 500, 503) and intento < 3:
-            time.sleep(6 * (intento + 1))
+        if r.status_code in (429, 500, 503) and intento < 6:
+            time.sleep(min(60, 15 * (intento + 1)))
             continue
         break
     if r.status_code >= 400:
@@ -334,10 +334,10 @@ def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3) 
     }
     url = f"{API_BASE}/models/{model}:generateContent?key={key}"
     r = None
-    for intento in range(4):
+    for intento in range(7):
         r = requests.post(url, json=payload, timeout=300)
-        if r.status_code in (429, 500, 503) and intento < 3:
-            espera = 5 * (intento + 1)
+        if r.status_code in (429, 500, 503) and intento < 6:
+            espera = min(60, 15 * (intento + 1))
             logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
             time.sleep(espera)
             continue
