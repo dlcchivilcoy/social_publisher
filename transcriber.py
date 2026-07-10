@@ -319,7 +319,28 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         if partes:
             extra_text = (extra_text + "\n\n" + "\n".join(partes)).strip()
 
-    nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs)
+    # Si Gemini falla del todo (saturado/cuota tras todos los reintentos), NO tiramos abajo
+    # la corrida: avisamos por mail que no se pudo esta vez y salimos limpio (exit 0). El
+    # video NO se marca como procesado → se puede reintentar (re-subiéndolo o a mano).
+    try:
+        nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs)
+    except Exception as e:
+        logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
+        if not dry_run:
+            _enviar_aviso(
+                f"No pude desgrabar el video (reintentá): {video.name}",
+                f"Gemini estaba saturado y no pude desgrabar «{video.name}» esta vez.\n\n"
+                f"El video NO se perdió. Para reintentarlo, volvé a subirlo a la carpeta de "
+                f"«videos notas actualidad» (o avisá y lo reintento).\n\nDetalle técnico: {str(e)[:200]}",
+                html=(f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+                      f"<h2 style='color:#b00020'>No pude desgrabar el video</h2>"
+                      f"<p>Gemini estaba saturado y no pude desgrabar «{_hesc(video.name)}» esta vez. "
+                      f"<b>No se perdió nada.</b></p>"
+                      f"<p>Para reintentarlo: volvé a subir el video a la carpeta de «videos notas "
+                      f"actualidad», o avisá y lo reintento.</p>"
+                      f"<p style='color:#888;font-size:13px'>Detalle: {_hesc(str(e)[:200])}</p></div>"))
+        logger.info("=== Desgrabar video: fin (Gemini falló; se avisó por mail, sin marcar el video) ===")
+        return
 
     hay = nota["hay_noticia"]
     volanta, titulo = nota["volanta"], nota["titulo"]
