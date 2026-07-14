@@ -72,6 +72,29 @@ def _as_jpeg(image_path: Path) -> Path:
     return tmp
 
 
+# Las historias se muestran a 1080x1920; no hace falta más. Si la imagen viene más
+# grande (o muy pesada), Instagram tarda en descargarla y falla con 2207003/2207052.
+STORY_MAX_DIM = 1920
+
+
+def _story_jpeg(image_path: Path) -> Path:
+    """Prepara una imagen 9:16 para subir como HISTORIA: a diferencia de _as_jpeg,
+    NO cambia la proporción (no rellena con bordes, así no rompe el 9:16), pero SÍ
+    la re-comprime (quality 85 + optimize, y la limita a 1080x1920) para que quede
+    liviana. Sin esto, la tapa en alta resolución pesaba tanto que Instagram no
+    alcanzaba a descargarla (2207003) y la rechazaba (2207052 'Only photo or video
+    can be accepted as media type'). Devuelve SIEMPRE un archivo temporal nuevo."""
+    img = Image.open(image_path)
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+    if max(img.size) > STORY_MAX_DIM:
+        img.thumbnail((STORY_MAX_DIM, STORY_MAX_DIM), Image.LANCZOS)
+    tmp = Path(tempfile.gettempdir()) / (image_path.stem + "_igstory.jpg")
+    img.save(tmp, "JPEG", quality=85, optimize=True)
+    logger.debug(f"Historia preparada para Instagram: {tmp.name}")
+    return tmp
+
+
 def _wait_container_ready(creation_id: str, token: str, *, timeout: int = 90, intervalo: int = 3) -> None:
     """Espera a que Instagram TERMINE de procesar la imagen del contenedor antes
     de publicarlo. Sin esto, publicar de inmediato una imagen grande (p. ej. la
@@ -223,24 +246,44 @@ def publish_story(image_path: Path) -> dict:
 
     # OJO: las historias son 9:16 (ratio 0.5625). NO usar _as_jpeg() acá porque
     # rellenaría con bordes para forzar la proporción del feed y rompería el 9:16.
-    # La imagen ya viene 1080x1920 JPG del compositor; solo la subimos.
-    image_url = upload_to_imgbb(image_path)
-
-    creation_id = _crear_contenedor(user_id, token, {"media_type": "STORIES", "image_url": image_url})
-
-    # Esperar a que Instagram procese la imagen antes de publicar (evita 2207027)
-    _wait_container_ready(creation_id, token)
-
-    publish_resp = requests.post(
-        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
-        params={"access_token": token},
-        data={"creation_id": creation_id},
-        timeout=30,
-    )
-    _raise_for_status(publish_resp, "publicar story")
-    media_id = publish_resp.json()["id"]
-    logger.debug(f"Instagram story publicada id={media_id}")
-    return {"success": True, "id": media_id}
+    # Sí la recomprimimos (sin tocar la proporción) para que quede liviana: la tapa
+    # en alta resolución pesaba tanto que Instagram no la descargaba a tiempo.
+    jpeg_path = _story_jpeg(image_path)
+    try:
+        ultimo = None
+        for intento in range(3):
+            try:
+                # URL FRESCA en cada intento: si Instagram no logró descargar la
+                # anterior (2207003) o la rechazó (2207052), reintentar la MISMA URL
+                # no sirve; volver a subir a ImgBB da una URL nueva que sí baja.
+                image_url = upload_to_imgbb(jpeg_path)
+                creation_id = _crear_contenedor(
+                    user_id, token,
+                    {"media_type": "STORIES", "image_url": image_url},
+                    intentos=1,
+                )
+                # Esperar a que Instagram procese la imagen antes de publicar (evita 2207027)
+                _wait_container_ready(creation_id, token)
+                publish_resp = requests.post(
+                    f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
+                    params={"access_token": token},
+                    data={"creation_id": creation_id},
+                    timeout=30,
+                )
+                _raise_for_status(publish_resp, "publicar story")
+                media_id = publish_resp.json()["id"]
+                logger.debug(f"Instagram story publicada id={media_id}")
+                return {"success": True, "id": media_id}
+            except Exception as e:
+                ultimo = e
+                if intento < 2:
+                    logger.warning(f"Historia de Instagram falló (intento {intento + 1}/3): {e}. "
+                                   f"Reintento subiendo la imagen de nuevo…")
+                    time.sleep(5)
+        raise ultimo
+    finally:
+        if jpeg_path != image_path and jpeg_path.exists():
+            jpeg_path.unlink()
 
 
 def _wait_container_ready_long(creation_id: str, token: str, *, timeout: int = 300, intervalo: int = 5) -> None:
