@@ -716,5 +716,18 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-07-11T12:06:51",
     "yt_metrics": {}
+  },
+  {
+    "file": "20260714_183600.mp4",
+    "uploader": "dlc.chivilcoy@gmail.com",
+    "fecha_recibido": "2026-07-14T18:44:34",
+    "hay_noticia": true,
+    "volanta": "Preocupación en la comunidad",
+    "titulo": "Múltiples choques y fugas: vecinos de Chivilcoy exigen respuestas",
+    "resumen": "Vecinos de Chivilcoy denuncian una ola de choques y fugas. Un video muestra un auto impactando a otro estacionado el 12/07 y huyendo. La comunidad exige respuestas y colaboración para identificar a los responsables ante la repetición de estos incidentes.",
+    "texto": "Chivilcoy se encuentra en alerta ante una serie de incidentes viales en los que los responsables chocan vehículos estacionados y se dan a la fuga. En los últimos días, se registraron al menos cuatro casos con esta modalidad en distintos puntos de la ciudad, generando preocupación entre los vecinos que exigen respuestas y mayor seguridad vial.\n\nUno de los hechos, ocurrido el domingo 12 de julio a las 14:20 horas, fue captado por cámaras de seguridad y compartido en redes sociales. Las imágenes muestran cómo un automóvil, que circulaba por Hipólito Yrigoyen, dobló hacia Alberdi e impactó contra un vehículo estacionado. Tras el choque, el conductor del rodado infractor se dio a la fuga, retomando su camino por Hipólito Yrigoyen sin detenerse a brindar asistencia ni datos.\n\nLos damnificados apelaron a la solidaridad de la comunidad de Chivilcoy para identificar al propietario del vehículo o al responsable del siniestro. Si bien en este caso se trató de daños materiales, los vecinos remarcan que, dado el horario y la imprudencia, el incidente pudo haber tenido consecuencias mucho más graves. Se solicita a quienes puedan aportar información o al propio conductor que se haga responsable y brinde los datos de su seguro.",
+    "draft_id": "f018a58d-c084-4e2b-8d1c-a32f6de4ca39",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_20260714-183600.mp4",
+    "estado": "borrador"
   }
 ]
