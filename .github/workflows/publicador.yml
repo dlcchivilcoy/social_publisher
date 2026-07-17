@@ -32,6 +32,14 @@ jobs:
     steps:
       - name: Bajar el codigo
         uses: actions/checkout@v4
+        with:
+          # Traer la PUNTA de main, no el commit de cuando se encolo la corrida.
+          # Si el mismo video se aprueba dos veces (doble toque/prefetch del boton del
+          # mail), se encolan 2 corridas con el MISMO commit; el concurrency las
+          # serializa, pero la 2da restauraba el ledger VIEJO (sin el "publicado" que
+          # dejo la 1ra) y volvia a postear -> reel duplicado en Instagram. Con ref: main
+          # la 2da ve el estado nuevo y se saltea sola.
+          ref: main
 
       - name: Preparar Python
         uses: actions/setup-python@v5

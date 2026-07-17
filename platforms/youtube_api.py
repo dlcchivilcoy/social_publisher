@@ -159,10 +159,33 @@ def _iso_dur_seg(iso: str) -> int:
     return h * 3600 + mi * 60 + s
 
 
+# Un Short nunca dura más de 3 minutos: arriba de eso, ni preguntamos.
+SHORT_MAX_SEG = 180
+
+
+def es_short(video_id: str, dur_seg: int = 0, min_seg: int = 60) -> bool:
+    """¿El video es un SHORT? Se lo preguntamos a YouTube: `/shorts/<id>` responde **200**
+    si ES un Short y **redirige (303)** a /watch si es un video normal. Ese es el único dato
+    confiable: la duración sola NO alcanza, porque los Shorts ya pueden durar hasta 3 minutos
+    (con el viejo filtro de «< 60s» se coló un Short de 65s). Si la consulta falla, se cae al
+    criterio viejo por duración."""
+    import requests
+    if dur_seg and dur_seg > SHORT_MAX_SEG:
+        return False  # imposible que sea Short
+    try:
+        r = requests.head(f"https://www.youtube.com/shorts/{video_id}",
+                          allow_redirects=False, timeout=10)
+        return r.status_code == 200
+    except Exception as e:
+        logger.warning(f"No pude verificar si {video_id} es Short ({e}); uso la duración.")
+        return bool(dur_seg) and dur_seg < min_seg
+
+
 def videos_seccion_de_hoy(limit_scan: int = 40, min_seg: int = 60) -> list[dict]:
     """Videos de la SECCIÓN VIDEOS subidos HOY: EXCLUYE vivos (en curso, próximos y vivos
-    YA TERMINADOS) y shorts (< min_seg). Para el desgrabador (no agarrar la sección «En vivo»
-    ni duplicar video+short). Devuelve [{id, titulo, url, published}] más reciente primero."""
+    YA TERMINADOS) y shorts (detectados con `es_short`, no por duración). Para el desgrabador
+    (no agarrar la sección «En vivo» ni los Shorts).
+    Devuelve [{id, titulo, url, published}] más reciente primero."""
     from datetime import datetime
     yt = _service()
     ch_id = get("YT_CHANNEL_ID")
@@ -203,9 +226,10 @@ def videos_seccion_de_hoy(limit_scan: int = 40, min_seg: int = 60) -> list[dict]
                 continue
             if v.get("liveStreamingDetails"):
                 continue
-            # EXCLUIR shorts (videos muy cortos: evita el duplicado video+short)
+            # EXCLUIR shorts: se lo preguntamos a YouTube (la duración sola no alcanza,
+            # los Shorts llegan a 3 min y uno de 65s se colaba con el filtro viejo).
             dur = _iso_dur_seg(v.get("contentDetails", {}).get("duration", ""))
-            if dur and dur < min_seg:
+            if es_short(v["id"], dur, min_seg):
                 continue
             out.append({"id": v["id"], "titulo": sn.get("title", ""),
                         "url": f"https://youtu.be/{v['id']}", "published": sn.get("publishedAt", "")})

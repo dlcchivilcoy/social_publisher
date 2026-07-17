@@ -239,8 +239,14 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
         videos = youtube_api.videos_seccion_de_hoy(min_seg=min_seg)
         logger.info(f"Videos de hoy (API, solo sección Videos — sin vivos ni shorts): {len(videos)}")
     except Exception as e:
-        logger.warning(f"La API de YouTube falló ({e}); caigo al RSS (puede traer vivos/shorts).")
+        logger.warning(f"La API de YouTube falló ({e}); caigo al RSS y filtro los shorts a mano.")
         videos = youtube.videos_de_hoy(cid)
+        # El RSS trae TODO (shorts incluidos): le preguntamos a YouTube uno por uno.
+        try:
+            from platforms import youtube_api
+            videos = [v for v in videos if not youtube_api.es_short(v["id"])]
+        except Exception as e2:
+            logger.warning(f"Tampoco pude filtrar los shorts del RSS ({e2}).")
     if not videos:
         logger.info("No hay videos subidos hoy en el canal. Nada que desgrabar.")
         return
