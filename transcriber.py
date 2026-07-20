@@ -452,10 +452,12 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
 
 # ── ETAPA 2: publicar (al aprobar) ────────────────────────────────────────────
 def _caption(titulo: str, resumen: str) -> str:
+    from utils.branding import linea_canal_yt
     site = _site()
     return (
         f"{titulo}\n\n{resumen}\n\n"
-        f"📲 Seguí leyendo en {site}\n\n"
+        f"📲 Seguí leyendo en {site}\n"
+        f"{linea_canal_yt()}\n\n"
         f"#Chivilcoy #DiarioLaCampaña #Actualidad #Noticias"
     )
 

@@ -90,7 +90,7 @@ def run_generate(limit: int = 15, dry_run: bool = False) -> None:
         vid = v["id"]
         logger.info(f"  {vid} — «{v['title'][:60]}»")
         try:
-            seo = gemini.seo_youtube(v["title"], v["description"])
+            seo = gemini.seo_youtube(v["title"], v["description"], f"https://youtu.be/{vid}")
         except Exception as e:
             logger.warning(f"    Gemini falló para {vid}: {e}")
             continue
@@ -181,7 +181,7 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
         vid = v["id"]
         logger.info(f"  {vid} — «{v['title'][:60]}»")
         try:
-            seo = gemini.seo_youtube(v["title"], v["description"])
+            seo = gemini.seo_youtube(v["title"], v["description"], f"https://youtu.be/{vid}")
         except Exception as e:
             logger.warning(f"    Gemini falló para {vid}: {e} (se reintenta en la próxima corrida)")
             continue

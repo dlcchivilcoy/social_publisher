@@ -15,8 +15,10 @@ from pathlib import Path
 
 from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
-from publisher import _hashtags, _load_ledger, _prepare_image, _resumen, _save_ledger
+from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
+                       _save_ledger, _social_caption)
 from story_image import compose_note_slide
+from utils.branding import linea_canal_yt
 from utils.config import get
 from utils.logger import get_logger
 
@@ -64,6 +66,79 @@ def _load_x_ledger(posts_folder: Path) -> set[str]:
 def _save_x_ledger(posts_folder: Path, keys: set[str]) -> None:
     (posts_folder / X_LEDGER_NAME).write_text(
         json.dumps(sorted(keys), ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# Ledger propio de los posteos INDIVIDUALES a Facebook (un posteo por nota). Es su
+# propio eje (independiente de la web/carrusel): así, si una nota se subió a la web
+# pero su posteo de FB falló, se reintenta sin re-subir la web. Se persiste en state/.
+FB_LEDGER_NAME = ".fb.json"
+
+
+def _load_fb_ledger(posts_folder: Path) -> set[str]:
+    path = posts_folder / FB_LEDGER_NAME
+    if not path.exists():
+        return set()
+    try:
+        return set(json.loads(path.read_text(encoding="utf-8")))
+    except Exception:
+        logger.warning("No se pudo leer el registro de Facebook; se asume vacío.")
+        return set()
+
+
+def _save_fb_ledger(posts_folder: Path, keys: set[str]) -> None:
+    (posts_folder / FB_LEDGER_NAME).write_text(
+        json.dumps(sorted(keys), ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _fb_individual_activo() -> bool:
+    """Posteo individual de cada nota a Facebook (uno por nota). ON por defecto; se
+    apaga con NOTAS_FB_INDIVIDUAL=0. Instagram sigue con el carrusel (no se toca)."""
+    return str(get("NOTAS_FB_INDIVIDUAL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> None:
+    """Postea CADA nota del día como un posteo INDIVIDUAL en Facebook (foto + texto),
+    espaciados para no spamear. Instagram NO se toca (sigue con el carrusel de las 10).
+    Registro propio `.fb.json` para no duplicar entre corridas."""
+    if not _fb_individual_activo():
+        return
+    fb_ledger = _load_fb_ledger(posts_folder)
+    pending = [n for n in notes if n["key"] not in fb_ledger]
+    if not pending:
+        logger.info("[facebook] las notas de hoy ya se postearon individualmente. Nada que hacer.")
+        return
+    pending.sort(key=_orden)
+    logger.info(f"[facebook] {len(pending)} nota(s) para postear individualmente (una por una)…")
+
+    for i, note in enumerate(pending):
+        volanta, titular, cuerpo = _parse_nota(note["docx"])
+        if not titular:
+            titular = note.get("titular") or note["title"]
+        nota_fb = {"volanta": volanta, "titular": titular,
+                   "cuerpo": "\n\n".join(cuerpo), "title": titular,
+                   "page": note.get("page", 0)}
+        # FB: SIN link a la web en el cuerpo (máx alcance) + pocos hashtags; se agrega
+        # la invitación al canal de YouTube (pedido del usuario).
+        caption = _social_caption(nota_fb, "", usar_link_wix=False, hashtags="min", cta_web=False)
+        caption = f"{caption}\n\n{linea_canal_yt()}"
+
+        if dry_run:
+            logger.info(f"[facebook][dry-run] postearía «{titular[:45]}»")
+            continue
+
+        img = _prepare_image(note["image"])
+        try:
+            facebook.publish(caption, img)
+            fb_ledger.add(note["key"])
+            _save_fb_ledger(posts_folder, fb_ledger)  # guarda tras cada uno (resiliente)
+            logger.info(f"[facebook] OK — «{titular[:45]}»")
+        except Exception as e:
+            logger.error(f"[facebook] FALLÓ — «{titular[:45]}»: {e}")
+        finally:
+            if img != note["image"] and img.exists():
+                img.unlink()
+        if i < len(pending) - 1:  # espaciar entre posteos (anti-ráfaga), no tras el último
+            time.sleep(_post_delay())
 
 
 def _x_activo() -> bool:
@@ -127,6 +202,7 @@ def _publicar_nota_wix(note: dict, volanta: str, titular: str, cuerpo: list, pri
     try:
         wix_title = f"{volanta} — {titular}" if volanta else titular
         body = titular + ("\n\n" + "\n\n".join(cuerpo) if cuerpo else "")
+        body += "\n\n" + linea_canal_yt()  # invitación al canal de YouTube
         descripcion = (primer or titular)[:155]
         res = wix.publish(wix_title, body, img, page=note["page"], description=descripcion)
         return (res or {}).get("url", "") or ""
@@ -299,7 +375,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     caption = (
         f"📰 Noticias de hoy — {_fecha_larga(hoy).capitalize()}\n\n"
         f"{cuerpo_cap}\n\n"
-        f"📲 Seguí leyendo cada nota completa en nuestra web 👉 {site}\n\n"
+        f"📲 Seguí leyendo cada nota completa en nuestra web 👉 {site}\n"
+        f"{linea_canal_yt()}\n\n"
         f"{hashtags}"
     )
 
@@ -342,26 +419,27 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
 
 
 def run_notes_web(posts_folder: Path, allowed_pages: set[int], dry_run: bool = False) -> None:
-    """Corrida de las 7:00 — SOLO carga las notas del día a la WEB (Wix). NO toca
-    FB/IG. Así la nota está temprano en la web (y el reel mide vistas todo el día);
-    el carrusel + la historia salen aparte a las 10:00 (--notes-carousel)."""
+    """Corrida de las 7:00 — carga las notas del día a la WEB (Wix) y las postea, una
+    por una, a FACEBOOK (un posteo por nota). NO toca Instagram: IG sigue con el
+    carrusel de las 10:00 (--notes-carousel). Así la nota está temprano en la web y en FB."""
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
-    logger.info(f"=== Carga de notas a la WEB [{modo}] — {hoy.isoformat()} — carpeta: {posts_folder} ===")
+    logger.info(f"=== Carga de notas a la WEB + Facebook [{modo}] — {hoy.isoformat()} — carpeta: {posts_folder} ===")
 
     notes = _find_notes(posts_folder)
     if not notes:
-        logger.info("No se encontraron notas para cargar a la web.")
+        logger.info("No se encontraron notas para cargar.")
         return
 
     web_ledger = _load_web_ledger(posts_folder)
     x_ledger = _load_x_ledger(posts_folder)
     pending = [n for n in notes if n["key"] not in web_ledger]
-    if not pending:
-        logger.info("Todas las notas de hoy ya estaban cargadas a la web. Nada que hacer.")
-        return
     pending.sort(key=_orden)
-    logger.info(f"{len(pending)} nota(s) para cargar a la web.")
+
+    if not pending:
+        logger.info("Todas las notas de hoy ya estaban cargadas a la web.")
+    else:
+        logger.info(f"{len(pending)} nota(s) para cargar a la web.")
 
     ok = 0
     for note in pending:
@@ -387,3 +465,6 @@ def run_notes_web(posts_folder: Path, allowed_pages: set[int], dry_run: bool = F
             time.sleep(_x_delay())
 
     logger.info(f"=== Carga a la web: fin — {ok}/{len(pending)} subida(s) ===")
+
+    # Facebook: un posteo individual por nota (ledger .fb.json aparte; IG NO se toca).
+    _postear_notas_facebook(posts_folder, notes, dry_run)

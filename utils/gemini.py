@@ -210,25 +210,42 @@ _SEO_SCHEMA = {
 }
 
 
-def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
-    """Reescribe (texto puro, sin bajar el video) el título y la descripción de un
-    video de YouTube para SEO/algoritmo. Devuelve {titulo, descripcion, tags}."""
+def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = "") -> dict:
+    """Reescribe el título/descripción/tags de un video de YouTube para SEO/algoritmo.
+    Si se pasa `youtube_url`, Gemini MIRA el video (primeros minutos) y se basa en lo que
+    REALMENTE se dice — clave para no equivocar el tema cuando el título original es vago o
+    ambiguo (ej.: «Cerámica» es un CLUB de fútbol, no la industria del cerámico; sin ver el
+    video la IA lo tomaba como economía). Devuelve {titulo, bajada, descripcion, tags}."""
     key = get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or "gemini-2.5-flash"
-    prompt = (SEO_PROMPT + "\nTÍTULO ACTUAL:\n" + (titulo_actual or "(vacío)") +
-              "\n\nDESCRIPCIÓN ACTUAL:\n" + (descripcion_actual or "(vacía)"))
+    prompt = SEO_PROMPT
+    if youtube_url:
+        prompt += ("\nMIRÁ EL VIDEO ADJUNTO y basate en lo que REALMENTE se dice ahí (personas, "
+                   "tema, lugar). El título y la descripción de abajo son solo una REFERENCIA y "
+                   "pueden estar equivocados, incompletos o ser AMBIGUOS (por ejemplo, el nombre de "
+                   "un club, comercio o persona que parece otra cosa): si el video contradice ese "
+                   "texto, corregí y usá lo del video. NO inventes nada que no esté en el video.\n")
+    prompt += ("\nTÍTULO ACTUAL:\n" + (titulo_actual or "(vacío)") +
+               "\n\nDESCRIPCIÓN ACTUAL:\n" + (descripcion_actual or "(vacía)"))
+    parts = [{"text": prompt}]
+    if youtube_url:
+        # Primeros 5 min en baja resolución: alcanza para identificar tema/personas sin
+        # gastar la cuota de un video largo entero.
+        parts.append({"file_data": {"file_uri": youtube_url},
+                      "video_metadata": {"end_offset": "300s"}})
     payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
-            "temperature": 0.5,
+            "temperature": 0.4,
             "response_mime_type": "application/json",
             "response_schema": _SEO_SCHEMA,
         },
     }
-    logger.info(f"Gemini SEO YouTube con {model} para «{(titulo_actual or '')[:50]}»…")
-    r = _generate(model, payload, key, timeout=120)
+    con_video = "MIRANDO el video" if youtube_url else "solo texto"
+    logger.info(f"Gemini SEO YouTube con {model} ({con_video}) para «{(titulo_actual or '')[:50]}»…")
+    r = _generate(model, payload, key, timeout=180)
     try:
         cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         raw = json.loads(cand)
@@ -238,6 +255,10 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str) -> dict:
     bajada = str(raw.get("bajada", "")).strip().rstrip(".")
     descripcion = str(raw.get("descripcion", "")).strip()
     tags = [str(t).strip() for t in (raw.get("tags") or []) if str(t).strip()][:15]
+    # Invitación fija al canal (por si Gemini no la incluyó).
+    from utils.branding import canal_yt_url, linea_canal_yt
+    if canal_yt_url().lower() not in descripcion.lower():
+        descripcion = (descripcion + "\n\n" + linea_canal_yt()).strip()
     return {"titulo": titulo, "bajada": bajada, "descripcion": descripcion, "tags": tags}
 
 
