@@ -191,8 +191,8 @@ SEO_PROMPT = (
     "final. Distinta del título (no lo repitas).\n"
     "- descripcion: 2 a 4 frases con las palabras clave naturales (qué se ve y por qué importa), "
     "más una llamada a la acción a la web www.diariolacampaña.com.ar y a suscribirse al canal. "
-    "Terminá con una línea de 3 a 6 hashtags relevantes (incluí #Chivilcoy SOLO si la nota es "
-    "de/sobre Chivilcoy; misma regla de localidad que el título).\n"
+    "Terminá con una línea de hashtags relevantes: MÁXIMO 5 hashtags (entre 3 y 5, nunca más de 5). "
+    "Incluí #Chivilcoy SOLO si la nota es de/sobre Chivilcoy; misma regla de localidad que el título.\n"
     "- tags: lista de 8 a 12 etiquetas (palabras o frases cortas) para el campo Tags de YouTube, "
     "en minúsculas, con términos temáticos del video y «radio del centro»; sumá «chivilcoy» u otra "
     "localidad SOLO si corresponde al contenido (misma regla que el título, no la pongas por defecto).\n"
@@ -254,6 +254,14 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
     titulo = str(raw.get("titulo", "")).strip()[:100]  # YouTube tope duro 100 chars
     bajada = str(raw.get("bajada", "")).strip().rstrip(".")
     descripcion = str(raw.get("descripcion", "")).strip()
+    # Máximo 5 hashtags en la descripción (pedido del usuario): si Gemini puso de más, saco los que sobran.
+    import re as _re
+    _htags = _re.findall(r"#[^\s#]+", descripcion)
+    if len(_htags) > 5:
+        for _extra in _htags[5:]:
+            descripcion = descripcion.replace(_extra, "", 1)
+        descripcion = _re.sub(r"[ \t]{2,}", " ", descripcion)
+        descripcion = _re.sub(r" +\n", "\n", descripcion).strip()
     tags = [str(t).strip() for t in (raw.get("tags") or []) if str(t).strip()][:15]
     # Invitación fija al canal (por si Gemini no la incluyó).
     from utils.branding import canal_yt_url, linea_canal_yt
