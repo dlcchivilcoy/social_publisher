@@ -42,6 +42,29 @@ def publish(body: str, image_path: Path) -> dict:
     return {"success": True, "id": data.get("post_id") or data.get("id")}
 
 
+def publish_link(link: str, message: str = "") -> dict:
+    """Publica SOLO un LINK en el muro de la Página (sin subir foto ni texto). Facebook
+    arma la previsualización solo (foto + título + descripción) a partir de las etiquetas
+    Open Graph de la nota. `message` opcional (por defecto vacío = solo el link)."""
+    page_id = get("FACEBOOK_PAGE_ID")
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        raise ValueError("FACEBOOK_PAGE_ID o FACEBOOK_PAGE_ACCESS_TOKEN no configurados en .env")
+    data = {"link": link}
+    if message:
+        data["message"] = message
+    resp = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/{page_id}/feed",
+        params={"access_token": token},
+        data=data,
+        timeout=60,
+    )
+    _raise_for_status(resp)
+    d = resp.json()
+    logger.debug(f"Facebook link post_id={d.get('id')}")
+    return {"success": True, "id": d.get("id")}
+
+
 def publish_multi(message: str, image_paths: list[Path]) -> dict:
     """Publica VARIAS fotos en un solo posteo (carrusel/galería) de la Página.
 

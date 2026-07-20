@@ -389,6 +389,32 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     return publicar_borrador(info["draft_id"])
 
 
+def url_de_nota(titulo: str, buscar: int = 40) -> str:
+    """Devuelve la URL pública (dominio real) de una nota YA publicada, buscándola por
+    TÍTULO entre las últimas `buscar` publicaciones (match por slug, robusto a acentos/
+    puntuación). '' si no la encuentra. Sirve para compartir el link (ej. a Facebook)."""
+    objetivo = _slugify(titulo)
+    if not objetivo:
+        return ""
+    headers = _headers()
+    try:
+        r = requests.post(
+            POSTS_QUERY_URL, headers=headers,
+            json={"query": {"paging": {"limit": min(100, buscar)},
+                            "sort": [{"fieldName": "firstPublishedDate", "order": "DESC"}]},
+                  "fieldsets": ["URL"]},
+            timeout=30,
+        )
+        _raise_for_status(r, "buscar URL de nota")
+        for p in r.json().get("posts", []):
+            if _slugify(p.get("title", "")) == objetivo:
+                u = p.get("url", {})
+                return u.get("base", "") + u.get("path", "")
+    except Exception as e:
+        logger.warning(f"No se pudo buscar la URL de «{titulo[:40]}»: {e}")
+    return ""
+
+
 def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
                            page: int = 0, description: str = "") -> dict:
     """Crea un borrador con VARIAS fotos (galería) + VARIOS videos nativos COMPLETOS +

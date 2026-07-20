@@ -16,7 +16,7 @@ from pathlib import Path
 from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
-                       _save_ledger, _social_caption)
+                       _save_ledger)
 from story_image import compose_note_slide
 from utils.branding import linea_canal_yt
 from utils.config import get
@@ -97,46 +97,43 @@ def _fb_individual_activo() -> bool:
 
 
 def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> None:
-    """Postea CADA nota del día como un posteo INDIVIDUAL en Facebook (foto + texto),
-    espaciados para no spamear. Instagram NO se toca (sigue con el carrusel de las 10).
-    Registro propio `.fb.json` para no duplicar entre corridas."""
+    """Postea el LINK de cada nota del día en Facebook — SOLO el link, sin foto ni texto:
+    Facebook arma la previsualización (foto + título) solo, a partir de las etiquetas Open
+    Graph de la nota. Espaciados para no spamear. Instagram NO se toca (sigue con el
+    carrusel). Registro propio `.fb.json` para no duplicar entre corridas."""
     if not _fb_individual_activo():
         return
     fb_ledger = _load_fb_ledger(posts_folder)
     pending = [n for n in notes if n["key"] not in fb_ledger]
     if not pending:
-        logger.info("[facebook] las notas de hoy ya se postearon individualmente. Nada que hacer.")
+        logger.info("[facebook] los links de hoy ya se postearon. Nada que hacer.")
         return
     pending.sort(key=_orden)
-    logger.info(f"[facebook] {len(pending)} nota(s) para postear individualmente (una por una)…")
+    logger.info(f"[facebook] {len(pending)} link(s) de nota para postear (uno por uno)…")
 
     for i, note in enumerate(pending):
         volanta, titular, cuerpo = _parse_nota(note["docx"])
         if not titular:
             titular = note.get("titular") or note["title"]
-        nota_fb = {"volanta": volanta, "titular": titular,
-                   "cuerpo": "\n\n".join(cuerpo), "title": titular,
-                   "page": note.get("page", 0)}
-        # FB: SIN link a la web en el cuerpo (máx alcance) + pocos hashtags; se agrega
-        # la invitación al canal de YouTube (pedido del usuario).
-        caption = _social_caption(nota_fb, "", usar_link_wix=False, hashtags="min", cta_web=False)
-        caption = f"{caption}\n\n{linea_canal_yt()}"
-
-        if dry_run:
-            logger.info(f"[facebook][dry-run] postearía «{titular[:45]}»")
+        wix_title = f"{volanta} — {titular}" if volanta else titular
+        url = wix.url_de_nota(wix_title)
+        if not url:
+            logger.error(f"[facebook] no encontré la URL web de «{titular[:40]}» "
+                         f"(se reintenta la próxima corrida).")
             continue
 
-        img = _prepare_image(note["image"])
+        if dry_run:
+            logger.info(f"[facebook][dry-run] postearía el link: {url}")
+            continue
+
         try:
-            facebook.publish(caption, img)
+            facebook.publish_link(url)  # SOLO el link (sin foto ni texto)
             fb_ledger.add(note["key"])
             _save_fb_ledger(posts_folder, fb_ledger)  # guarda tras cada uno (resiliente)
-            logger.info(f"[facebook] OK — «{titular[:45]}»")
+            logger.info(f"[facebook] link OK — «{titular[:40]}» → {url}")
         except Exception as e:
-            logger.error(f"[facebook] FALLÓ — «{titular[:45]}»: {e}")
-        finally:
-            if img != note["image"] and img.exists():
-                img.unlink()
+            logger.error(f"[facebook] link FALLÓ — «{titular[:40]}»: {e}")
+            continue
         if i < len(pending) - 1:  # espaciar entre posteos (anti-ráfaga), no tras el último
             time.sleep(_post_delay())
 
