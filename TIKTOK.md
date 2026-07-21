@@ -29,7 +29,10 @@ En sandbox la subida funciona del lado API, pero **el borrador no aparece en el 
 | Category | News |
 | Terms of Service URL | `https://www.diariolacampaña.com.ar/terminos` |
 | Privacy Policy URL | `https://www.diariolacampaña.com.ar/privacidad` |
-| App icon | `logo.png` del repo (cuadrado, ≥120×120) |
+| App icon | `tiktok_app_icon.png` (512×512, la «C» naranja de la web) |
+
+> ⚠️ NO uses `logo.png`: es un banner de 6170×830 y TikTok pide el ícono **cuadrado**.
+> `tiktok_app_icon.png` es una copia de `icon-512.png` de la web (mismo ícono de la PWA).
 
 > Si el formulario rechaza la ñ, usá la forma punycode:
 > `https://www.xn--diariolacampaa-2nb.com.ar/terminos` y `.../privacidad`.
@@ -72,7 +75,14 @@ Grabá la pantalla (2–3 min, sin cortes, mostrando lo que pasa):
 1. Producción te da **otra client key** (la de sandbox es `sbawn6kn6j52larqzo`).
    Actualizá `TIKTOK_CLIENT_KEY` / `TIKTOK_CLIENT_SECRET` en el `.env` local.
 2. Re-autorizá: `python tiktok_auth.py` (se abre el navegador, una sola vez).
-3. Creá la tarea de Windows diaria (~20:15) que corra `run_tiktok_reel.bat`.
+3. Creá la tarea de Windows diaria (~20:15). En PowerShell **como administrador**:
+
+```powershell
+schtasks /create /tn "Diario TikTok Reel 2015" /tr "C:\Users\Diario\social_publisher\run_tiktok_reel.bat" /sc daily /st 20:15 /f
+```
+
+Para probarla sin esperar: `schtasks /run /tn "Diario TikTok Reel 2015"`, y mirá el
+resultado en `logs\task_scheduler.log`.
 
 ## Gotchas
 
