@@ -73,7 +73,18 @@ Grabá la pantalla (2–3 min, sin cortes, mostrando lo que pasa):
 ### 3. Después de que aprueben
 
 1. Producción te da **otra client key** (la de sandbox es `sbawn6kn6j52larqzo`).
-   Actualizá `TIKTOK_CLIENT_KEY` / `TIKTOK_CLIENT_SECRET` en el `.env` local.
+   Actualizá `TIKTOK_CLIENT_KEY` / `TIKTOK_CLIENT_SECRET` en el `.env` local, y **también
+   el redirect**:
+
+   ```
+   TIKTOK_REDIRECT_URI=http://localhost:8723/callback/
+   ```
+
+   ⚠️ La solapa **Desktop** del portal NO acepta direcciones web (solo `localhost` o
+   `127.0.0.1`), así que en Producción el redirect es local, no la web del diario.
+   `tiktok_auth.py` detecta solo cuál de los dos es: si es `localhost` levanta un
+   servidor y toma el código automáticamente; si es `https://` te pide pegar la URL
+   (que es como sigue andando el sandbox actual).
 2. Re-autorizá: `python tiktok_auth.py` (se abre el navegador, una sola vez).
 3. Creá la tarea de Windows diaria (~20:15). En PowerShell **como administrador**:
 
