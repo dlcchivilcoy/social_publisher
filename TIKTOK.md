@@ -1,7 +1,11 @@
 # TikTok — subir el reel a la bandeja del creador
 
-Estado: **código listo y probado**, esperando el **review de Producción** de TikTok.
+Estado: **enviado a review el 2026-07-21**, esperando la respuesta de TikTok (tarda días).
 Corre **LOCAL** (el refresh token rota y no puede vivir en el repo público).
+
+El flujo completo ya se probó de punta a punta en sandbox: el programa subió el reel, llegó
+la notificación al celular, se abrió el editor y se publicó. 🔑 **El video que entra por la
+API NO aparece en «Borradores» del perfil: la notificación ES el borrador**, hay que tocarla.
 
 ## Cómo funciona
 
@@ -70,30 +74,37 @@ Grabá la pantalla (2–3 min, sin cortes, mostrando lo que pasa):
 > justamente el bloqueo). Grabá 1, 3 y 4 mostrando el reel ya publicado desde la app, y
 > aclaralo en las notas del review.
 
-### 3. Después de que aprueben
+### 3. Después de que aprueben — UN SOLO COMANDO
 
-1. Producción te da **otra client key** (la de sandbox es `sbawn6kn6j52larqzo`).
-   Actualizá `TIKTOK_CLIENT_KEY` / `TIKTOK_CLIENT_SECRET` en el `.env` local, y **también
-   el redirect**:
+Abrí la terminal en la carpeta y corré:
 
-   ```
-   TIKTOK_REDIRECT_URI=http://localhost:8723/callback/
-   ```
-
-   ⚠️ La solapa **Desktop** del portal NO acepta direcciones web (solo `localhost` o
-   `127.0.0.1`), así que en Producción el redirect es local, no la web del diario.
-   `tiktok_auth.py` detecta solo cuál de los dos es: si es `localhost` levanta un
-   servidor y toma el código automáticamente; si es `https://` te pide pegar la URL
-   (que es como sigue andando el sandbox actual).
-2. Re-autorizá: `python tiktok_auth.py` (se abre el navegador, una sola vez).
-3. Creá la tarea de Windows diaria (~20:15). En PowerShell **como administrador**:
-
-```powershell
-schtasks /create /tn "Diario TikTok Reel 2015" /tr "C:\Users\Diario\social_publisher\run_tiktok_reel.bat" /sc daily /st 20:15 /f
+```
+venv\Scripts\python.exe tiktok_produccion.py
 ```
 
-Para probarla sin esperar: `schtasks /run /tn "Diario TikTok Reel 2015"`, y mirá el
-resultado en `logs\task_scheduler.log`.
+Te pide la **client key** y el **client secret** de producción (están en
+developers.tiktok.com → tu app → App details → Credentials) y hace los tres pasos solo:
+
+1. Actualiza el `.env` (las 2 credenciales + el redirect), dejando **respaldo**
+   `.env.bak-<fecha>` por las dudas. No toca ninguna otra variable.
+2. Abre el navegador para que autorices con @diarioyradio, y guarda el token.
+3. Crea la tarea de Windows **«Diario TikTok Reel 2015»**, todos los días a las 20:15.
+
+Después, para probar sin esperar a la noche:
+
+```
+venv\Scripts\python.exe tiktok_reel.py --force
+```
+
+**Por qué el redirect cambia:** la solapa **Desktop** del portal NO acepta direcciones web
+(solo `localhost` / `127.0.0.1`), así que en Producción es `http://localhost:8723/callback/`,
+no la web del diario. `tiktok_auth.py` detecta solo cuál de los dos es: con `localhost`
+levanta un servidor y toma el código automáticamente; con `https://` te pide pegar la URL
+(que es como funcionaba el sandbox).
+
+> Si la creación de la tarea falla por permisos, corré el script desde una terminal como
+> administrador, o creala a mano:
+> `schtasks /create /tn "Diario TikTok Reel 2015" /tr "C:\Users\Diario\social_publisher\run_tiktok_reel.bat" /sc daily /st 20:15 /f`
 
 ## Gotchas
 

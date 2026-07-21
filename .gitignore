@@ -1,5 +1,6 @@
 # Credenciales — NUNCA subir esto
 .env
+.env.bak-*
 
 # Entorno virtual de Python
 venv/
