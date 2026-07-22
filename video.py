@@ -6,9 +6,39 @@ import subprocess
 import textwrap
 from pathlib import Path
 
+from utils.config import get
 from utils.logger import get_logger
 
 logger = get_logger("video")
+
+# --- Marca del reel: logo arriba a la izquierda + placa de cierre -------------
+ASSETS = Path(__file__).parent
+LOGO_REEL = ASSETS / "logo_reel.png"      # isotipo 'C' con fondo transparente
+PLACA_FINAL = ASSETS / "placa_final.png"  # placa de cierre 1080x1920 ("Seguinos en redes")
+PLACA_SEG = 5.0                           # cuánto dura la placa de cierre
+
+
+def _cfg(clave: str, default: str) -> str:
+    return (get(clave, "") or default).strip()
+
+
+def _asset(clave: str, default: Path) -> Path | None:
+    """Ruta del asset (logo / placa). Se puede pisar por `.env`: si la variable trae
+    una ruta se usa esa; si vale 0/no/off se apaga. None = no dibujar nada."""
+    valor = _cfg(clave, "")
+    if valor.lower() in ("0", "no", "off", "false"):
+        return None
+    ruta = Path(valor) if valor else default
+    if not ruta.exists():
+        logger.warning(f"Falta el asset del reel ({ruta}); se omite.")
+        return None
+    return ruta
+
+
+def has_audio(src) -> bool:
+    """True si el archivo trae pista de audio (parseando la salida de ffmpeg)."""
+    r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
+    return "Audio:" in (r.stderr or "")
 
 # Fuentes candidatas para el drawtext de la firma (Windows local + Ubuntu de la nube).
 _FIRMA_FONTS = [
@@ -80,18 +110,15 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
         raise RuntimeError(f"ffmpeg error: {paso}")
 
 
-def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
-                     firma: str | None = None) -> Path:
-    """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
-
-    El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
-    sí mismo (misma estética que las historias, story_image._fit_blur). Mantiene el
-    audio por defecto. Si se pasa `max_seconds`, recorta el reel a esa duración
-    (ej. 60 para los reels sin desgrabar). Si se pasa `firma`, estampa una banda
-    inferior con ese texto (la firma de la Red de Corresponsales). Devuelve el .mp4.
-    """
-    src, salida = Path(src), Path(salida)
+def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
+                firma: str | None, logo_png: Path | None, placa: Path | None,
+                seg_placa: float) -> None:
+    """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
+    no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
+    al final la placa de cierre concatenada."""
     ff = _ffmpeg()
+    fps = 30
+    con_audio = audio and has_audio(src)
     # Fondo: el propio video escalado a llenar + recortado + desenfocado.
     # Primer plano: el video escalado a entrar dentro de 1080x1920. Se superponen.
     vf = (
@@ -102,21 +129,100 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         "[bgb][fgs]overlay=(W-w)/2:(H-h)/2[v]"
     )
     out_label = "[v]"
+    inputs = ["-i", str(src)]
+    n_in = 1  # cuántos INPUTS lleva ffmpeg (no alcanza con contar los argumentos)
+    if logo_png:
+        # Marca de agua: el isotipo arriba a la izquierda, debajo de la barra de la app.
+        idx = n_in
+        inputs += ["-i", str(logo_png)]
+        n_in += 1
+        ancho = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
+        mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
+        my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+        op = float(_cfg("REEL_LOGO_OPACIDAD", "0.92"))
+        vf += (f";[{idx}:v]scale={ancho}:-1,format=rgba,colorchannelmixer=aa={op}[lg];"
+               f"{out_label}[lg]overlay={mx}:{my}[vl]")
+        out_label = "[vl]"
     if firma:
-        draw, out_label = _firma_drawtext(firma, "[v]", salida.parent)
+        draw, out_label = _firma_drawtext(firma, out_label, salida.parent)
         if draw:
-            vf = vf + ";" + draw
-    cmd = [ff, "-y", "-i", str(src), "-filter_complex", vf, "-map", out_label]
-    if audio:
-        # Mapea el audio si existe (el '?' evita fallar si el video no tiene pista).
-        cmd += ["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"]
+            vf += ";" + draw
+
+    if not placa:
+        cmd = [ff, "-y", *inputs, "-filter_complex", vf, "-map", out_label]
+        cmd += (["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"] if audio else ["-an"])
+        if max_seconds:
+            cmd += ["-t", str(float(max_seconds))]
+        cmd += ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+        _run_ffmpeg(cmd, "reel vertical")
+        return
+
+    # Con placa: el recorte va por `trim` (el -t de salida cortaría también la placa).
+    corte = f",trim=duration={float(max_seconds)},setpts=PTS-STARTPTS" if max_seconds else ""
+    vf += f";{out_label}fps={fps},setsar=1,format=yuv420p{corte}[vmain]"
+    i_placa = n_in
+    inputs += ["-loop", "1", "-t", str(seg_placa), "-i", str(placa)]
+    n_in += 1
+    vf += (f";[{i_placa}:v]scale=1080:1920:force_original_aspect_ratio=decrease,"
+           f"pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,setsar=1,fps={fps},"
+           f"fade=t=in:st=0:d=0.4,format=yuv420p[vplaca]")
+    if con_audio:
+        # La placa va con silencio; el audio del video se normaliza para que concat
+        # no se queje de formatos distintos entre las dos pistas.
+        i_sil = n_in
+        inputs += ["-f", "lavfi", "-t", str(seg_placa),
+                   "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
+        n_in += 1
+        acorte = f",atrim=duration={float(max_seconds)},asetpts=PTS-STARTPTS" if max_seconds else ""
+        vf += (f";[0:a]aresample=44100,aformat=sample_fmts=fltp:channel_layouts=stereo"
+               f"{acorte}[amain]")
+        vf += f";[vmain][amain][vplaca][{i_sil}:a]concat=n=2:v=1:a=1[vout][aout]"
+        maps = ["-map", "[vout]", "-map", "[aout]", "-c:a", "aac", "-b:a", "128k"]
     else:
-        cmd += ["-an"]
-    if max_seconds:
-        cmd += ["-t", str(float(max_seconds))]
-    cmd += ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
-    _run_ffmpeg(cmd, "reel vertical")
-    logger.info(f"Reel vertical armado: {salida}" + (f" (recortado a {max_seconds}s)" if max_seconds else ""))
+        vf += ";[vmain][vplaca]concat=n=2:v=1[vout]"
+        maps = ["-map", "[vout]", "-an"]
+    cmd = [ff, "-y", *inputs, "-filter_complex", vf, *maps,
+           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+    _run_ffmpeg(cmd, "reel vertical + placa")
+
+
+def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
+                     firma: str | None = None, logo: bool = True,
+                     placa_final: bool = True) -> Path:
+    """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
+
+    El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
+    sí mismo (misma estética que las historias, story_image._fit_blur). Mantiene el
+    audio por defecto. Si se pasa `max_seconds`, recorta el reel a esa duración
+    (ej. 60 para los reels sin desgrabar). Si se pasa `firma`, estampa una banda
+    inferior con ese texto (la firma de la Red de Corresponsales).
+
+    `logo=True` estampa el isotipo del diario arriba a la izquierda y `placa_final=True`
+    agrega al final la placa "Seguinos en redes" (5 s). Los dos se apagan o se cambian
+    por `.env` (REEL_LOGO / REEL_PLACA_FINAL / REEL_PLACA_SEG). Devuelve el .mp4.
+    """
+    src, salida = Path(src), Path(salida)
+    logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
+    placa = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
+    seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
+    marca = dict(logo_png=logo_png, placa=placa, seg_placa=seg_placa)
+    try:
+        _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
+    except Exception as e:
+        if not (logo_png or placa):
+            raise
+        # Si la marca hiciera fallar el filtergraph, el reel PELADO igual sale: nunca
+        # se pierde la publicación por el logo o la placa.
+        logger.warning(f"El reel con logo/placa falló ({e}); lo rehago sin marca.")
+        _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
+                    logo_png=None, placa=None, seg_placa=0)
+        marca = dict(logo_png=None, placa=None, seg_placa=0)
+    logger.info(
+        f"Reel vertical armado: {salida}"
+        + (f" (recortado a {max_seconds}s)" if max_seconds else "")
+        + (" + logo" if marca["logo_png"] else "")
+        + (f" + placa final {seg_placa:.0f}s" if marca["placa"] else "")
+    )
     return salida
 
 
