@@ -11,11 +11,19 @@ from utils.logger import get_logger
 
 logger = get_logger("video")
 
-# --- Marca del reel: logo arriba a la izquierda + placa de cierre -------------
+# --- Marca del reel: logo + overlay con zócalo + placa de cierre --------------
 ASSETS = Path(__file__).parent
-LOGO_REEL = ASSETS / "logo_reel.png"      # isotipo 'C' con fondo transparente
-PLACA_FINAL = ASSETS / "placa_final.png"  # placa de cierre 1080x1920 ("Seguinos en redes")
-PLACA_SEG = 5.0                           # cuánto dura la placa de cierre
+LOGO_REEL = ASSETS / "logo_reel.png"        # isotipo 'C' con fondo transparente
+PLACA_FINAL = ASSETS / "placa_final.png"    # placa de cierre 1080x1920 ("Seguinos en redes")
+OVERLAY_REEL = ASSETS / "overlay_reel.png"  # marco 1080x1920 (esquinas + caja + barra web)
+FUENTE_ZOCALO = ASSETS / "fonts" / "Montserrat-Bold.ttf"
+PLACA_SEG = 5.0                             # cuánto dura la placa de cierre
+# Rectángulo ÚTIL de la caja negra del overlay (medido sobre el PNG, en 1080x1920): es la
+# parte donde la caja es negra en TODAS sus filas, así el texto nunca se escapa por los
+# bordes en diagonal. (x, y, ancho, alto).
+ZOCALO_CAJA = (175, 1481, 670, 71)
+ZOCALO_COLOR = (247, 127, 0)  # el naranja de la marca
+ZOCALO_PALABRAS = 5           # tope de palabras del zócalo
 
 
 def _cfg(clave: str, default: str) -> str:
@@ -39,6 +47,46 @@ def has_audio(src) -> bool:
     """True si el archivo trae pista de audio (parseando la salida de ffmpeg)."""
     r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
     return "Audio:" in (r.stderr or "")
+
+
+def _zocalo_texto(texto: str) -> str:
+    """Deja el zócalo en 5 palabras como mucho y en mayúsculas (estilo placa de TV)."""
+    palabras = [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+    return " ".join(palabras[:ZOCALO_PALABRAS]).upper().strip(" ,;:-–—")
+
+
+def overlay_con_zocalo(texto: str, salida) -> Path | None:
+    """Devuelve el PNG del overlay con el ZÓCALO escrito dentro de la caja negra de
+    abajo: naranja, Montserrat, hasta 5 palabras, achicando la tipografía hasta que
+    entre en `ZOCALO_CAJA` (nunca se escapa del recuadro). Sin overlay devuelve None;
+    sin texto (o sin fuente) devuelve el overlay pelado."""
+    base = _asset("REEL_OVERLAY", OVERLAY_REEL)
+    if not base:
+        return None
+    from PIL import Image, ImageDraw, ImageFont
+    img = Image.open(base).convert("RGBA")
+    if img.size != (1080, 1920):
+        img = img.resize((1080, 1920), Image.LANCZOS)
+    texto = _zocalo_texto(texto)
+    if texto and not FUENTE_ZOCALO.exists():
+        logger.warning(f"Falta la fuente {FUENTE_ZOCALO}; el zócalo va vacío.")
+    elif texto:
+        x, y, w, h = ZOCALO_CAJA
+        dib = ImageDraw.Draw(img)
+        cuerpo = h + 24
+        while True:
+            fuente = ImageFont.truetype(str(FUENTE_ZOCALO), cuerpo)
+            izq, arr, der, aba = dib.textbbox((0, 0), texto, font=fuente)
+            if (der - izq <= w and aba - arr <= h) or cuerpo <= 14:
+                break
+            cuerpo -= 2
+        # Se descuenta el offset del bbox para apoyar el texto exacto contra la caja.
+        dib.text((x - izq, y + (h - (aba - arr)) / 2 - arr), texto, font=fuente,
+                 fill=ZOCALO_COLOR)
+        logger.info(f"Zócalo del reel: «{texto}» (cuerpo {cuerpo}px)")
+    salida = Path(salida)
+    img.save(salida)
+    return salida
 
 # Fuentes candidatas para el drawtext de la firma (Windows local + Ubuntu de la nube).
 _FIRMA_FONTS = [
@@ -111,8 +159,8 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
 
 
 def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
-                firma: str | None, logo_png: Path | None, placa: Path | None,
-                seg_placa: float) -> None:
+                firma: str | None, logo_png: Path | None, overlay: Path | None,
+                placa: Path | None, seg_placa: float) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada."""
@@ -143,6 +191,14 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         vf += (f";[{idx}:v]scale={ancho}:-1,format=rgba,colorchannelmixer=aa={op}[lg];"
                f"{out_label}[lg]overlay={mx}:{my}[vl]")
         out_label = "[vl]"
+    if overlay:
+        # Marco del diario (esquinas + caja del zócalo + barra con la web y las redes).
+        idx = n_in
+        inputs += ["-i", str(overlay)]
+        n_in += 1
+        vf += (f";[{idx}:v]scale=1080:1920,format=rgba[ov];"
+               f"{out_label}[ov]overlay=0:0[vo]")
+        out_label = "[vo]"
     if firma:
         draw, out_label = _firma_drawtext(firma, out_label, salida.parent)
         if draw:
@@ -188,7 +244,7 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
 
 def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
                      firma: str | None = None, logo: bool = True,
-                     placa_final: bool = True) -> Path:
+                     placa_final: bool = True, zocalo: str | None = None) -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
@@ -197,30 +253,34 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     (ej. 60 para los reels sin desgrabar). Si se pasa `firma`, estampa una banda
     inferior con ese texto (la firma de la Red de Corresponsales).
 
-    `logo=True` estampa el isotipo del diario arriba a la izquierda y `placa_final=True`
-    agrega al final la placa "Seguinos en redes" (5 s). Los dos se apagan o se cambian
-    por `.env` (REEL_LOGO / REEL_PLACA_FINAL / REEL_PLACA_SEG). Devuelve el .mp4.
+    `logo=True` estampa el isotipo del diario arriba a la izquierda, el OVERLAY del diario
+    (marco + caja del zócalo + barra con la web y las redes) va siempre con el `zocalo`
+    escrito adentro, y `placa_final=True` agrega al final la placa "Seguinos en redes"
+    (5 s). Todo se apaga o se cambia por `.env` (REEL_LOGO / REEL_OVERLAY /
+    REEL_PLACA_FINAL / REEL_PLACA_SEG). Devuelve el .mp4.
     """
     src, salida = Path(src), Path(salida)
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
     placa = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
     seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
-    marca = dict(logo_png=logo_png, placa=placa, seg_placa=seg_placa)
+    overlay = overlay_con_zocalo(zocalo or "", salida.parent / f"overlay_{salida.stem}.png")
+    marca = dict(logo_png=logo_png, overlay=overlay, placa=placa, seg_placa=seg_placa)
     try:
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
     except Exception as e:
-        if not (logo_png or placa):
+        if not (logo_png or overlay or placa):
             raise
         # Si la marca hiciera fallar el filtergraph, el reel PELADO igual sale: nunca
-        # se pierde la publicación por el logo o la placa.
-        logger.warning(f"El reel con logo/placa falló ({e}); lo rehago sin marca.")
+        # se pierde la publicación por el logo, el overlay o la placa.
+        logger.warning(f"El reel con marca falló ({e}); lo rehago pelado.")
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
-                    logo_png=None, placa=None, seg_placa=0)
-        marca = dict(logo_png=None, placa=None, seg_placa=0)
+                    logo_png=None, overlay=None, placa=None, seg_placa=0)
+        marca = dict(logo_png=None, overlay=None, placa=None, seg_placa=0)
     logger.info(
         f"Reel vertical armado: {salida}"
         + (f" (recortado a {max_seconds}s)" if max_seconds else "")
         + (" + logo" if marca["logo_png"] else "")
+        + (" + overlay" if marca["overlay"] else "")
         + (f" + placa final {seg_placa:.0f}s" if marca["placa"] else "")
     )
     return salida

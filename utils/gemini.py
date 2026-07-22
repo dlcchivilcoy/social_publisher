@@ -123,6 +123,12 @@ PROMPT_BASE = (
     "repetir. Vacío si false.\n"
     "- resumen: resumen breve para redes (máximo 280 caracteres) que diga quién habla, qué "
     "sostiene y por qué importa. Vacío si false.\n"
+    "- zocalo: el texto del ZÓCALO del reel (la placa de abajo, como en la tele). MÁXIMO 5 "
+    "PALABRAS, sin punto final, sin comillas. Si es una entrevista o una declaración, el "
+    "NOMBRE Y APELLIDO de quien habla (y su cargo solo si entra en las 5 palabras, ej. "
+    "«Juan Pérez, intendente»). Si es un hecho (accidente, robo, incendio, temporal, corte "
+    "de calle, acto), de qué se trata en pocas palabras (ej. «Choque en Ruta 30», «Robo en "
+    "un comercio»). Vacío si hay_noticia es false.\n"
     "- mejor_momento_seg: el SEGUNDO del video (número entero) con el cuadro más "
     "representativo, llamativo o polémico, idealmente con TEXTO en pantalla que se entienda "
     "de qué trata la nota. Si no lo podés determinar, devolvé 0.\n"
@@ -153,6 +159,7 @@ _SCHEMA = {
         "titulo": {"type": "string"},
         "texto": {"type": "string"},
         "resumen": {"type": "string"},
+        "zocalo": {"type": "string"},
         "mejor_momento_seg": {"type": "number"},
         "segmentos_destacados": {
             "type": "array",
@@ -163,8 +170,8 @@ _SCHEMA = {
             },
         },
     },
-    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "mejor_momento_seg",
-                 "segmentos_destacados"],
+    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "zocalo",
+                 "mejor_momento_seg", "segmentos_destacados"],
 }
 
 
@@ -436,6 +443,9 @@ def _parse_nota(raw: dict) -> dict:
         "mejor_momento_seg": max(0.0, momento),
         "segmentos": segmentos,
     }
+    # Zócalo del reel: si Gemini no lo devuelve, la volanta ya es un antetítulo de 2 a 5
+    # palabras, así que sirve de reemplazo natural.
+    nota["zocalo"] = str(raw.get("zocalo", "")).strip() or nota["volanta"]
     if nota["hay_noticia"] and not nota["titulo"] and not nota["texto"]:
         nota["hay_noticia"] = False
     return nota

@@ -354,7 +354,8 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
     reel_path = WORK_DIR / f"reel_{slug}.mp4"
     firma = _firma_texto() if es_corresponsal else None
-    reel = to_vertical_reel(video, reel_path, firma=firma)
+    # Zócalo = quién habla, o de qué se trata el hecho (lo elige Gemini, 5 palabras).
+    reel = to_vertical_reel(video, reel_path, firma=firma, zocalo=nota.get("zocalo", ""))
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
@@ -389,7 +390,8 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         "uploader": uploader or fila.get("uploader", ""),
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
-        "texto": texto, "draft_id": draft_id, "reel_url": reel_url, "estado": estado,
+        "texto": texto, "zocalo": nota.get("zocalo", ""), "draft_id": draft_id,
+        "reel_url": reel_url, "estado": estado,
     })
     if ctx:
         fila.update({
