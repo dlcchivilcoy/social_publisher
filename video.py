@@ -16,8 +16,10 @@ ASSETS = Path(__file__).parent
 LOGO_REEL = ASSETS / "logo_reel.png"        # isotipo 'C' con fondo transparente
 PLACA_FINAL = ASSETS / "placa_final.png"    # placa de cierre 1080x1920 ("Seguinos en redes")
 OVERLAY_REEL = ASSETS / "overlay_reel.png"  # marco 1080x1920 (esquinas + caja + barra web)
+FONDO_REEL = ASSETS / "fondo_reel.png"      # degradado naranja que enmarca el video
 FUENTE_ZOCALO = ASSETS / "fonts" / "Montserrat-Bold.ttf"
 PLACA_SEG = 5.0                             # cuánto dura la placa de cierre
+FONDO_DIFUMINADO = 80                       # px de transición entre el video y el fondo
 # Rectángulo ÚTIL de la caja negra del overlay (medido sobre el PNG, en 1080x1920): es la
 # parte donde la caja es negra en TODAS sus filas, así el texto nunca se escapa por los
 # bordes en diagonal. (x, y, ancho, alto).
@@ -47,6 +49,49 @@ def has_audio(src) -> bool:
     """True si el archivo trae pista de audio (parseando la salida de ffmpeg)."""
     r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
     return "Audio:" in (r.stderr or "")
+
+
+def _dimensiones(src) -> tuple[int, int]:
+    """Ancho y alto del video (parseando la salida de ffmpeg). (0, 0) si no se puede."""
+    r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
+    m = re.search(r"Video:.*?[\s,](\d{2,5})x(\d{2,5})[\s,]", r.stderr or "")
+    return (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+
+
+def fondo_enmarcado(src, salida) -> Path | None:
+    """Devuelve el FONDO del reel ya recortado con una máscara: OPACO en los bordes del
+    cuadro y TRANSPARENTE donde va el video, con una transición difuminada en el medio.
+    Así el degradado naranja contornea el video hasta los bordes y el marco se ajusta
+    solo al tamaño de CADA video (bandas arriba y abajo si viene apaisado, apenas un
+    halo si ya viene vertical). None si no hay fondo o no se pudo medir el video."""
+    base = _asset("REEL_FONDO", FONDO_REEL)
+    if not base:
+        return None
+    w, h = _dimensiones(src)
+    if not (w and h):
+        logger.warning("No pude medir el video; el reel va sin el fondo naranja.")
+        return None
+    from PIL import Image, ImageDraw, ImageFilter
+    fondo = Image.open(base).convert("RGB")
+    if fondo.size != (1080, 1920):
+        fondo = fondo.resize((1080, 1920), Image.LANCZOS)
+    # El mismo encuadre que hace ffmpeg: el video entero centrado dentro de 1080x1920.
+    esc = min(1080 / w, 1920 / h)
+    vw, vh = round(w * esc), round(h * esc)
+    x0, y0 = (1080 - vw) // 2, (1920 - vh) // 2
+    dif = int(float(_cfg("REEL_FONDO_DIFUMINADO", str(FONDO_DIFUMINADO))))
+    op = max(0.0, min(1.0, float(_cfg("REEL_FONDO_OPACIDAD", "1"))))
+    mascara = Image.new("L", (1080, 1920), round(255 * op))
+    ImageDraw.Draw(mascara).rectangle([x0, y0, x0 + vw - 1, y0 + vh - 1], fill=0)
+    if dif > 0:
+        # El desenfoque reparte la transición a los dos lados del borde del video: el
+        # naranja entra un poco sobre el video y se apaga hacia adentro.
+        mascara = mascara.filter(ImageFilter.GaussianBlur(dif / 2))
+    fondo.putalpha(mascara)
+    salida = Path(salida)
+    fondo.save(salida)
+    logger.info(f"Fondo del reel: video {vw}x{vh} centrado, difuminado {dif}px")
+    return salida
 
 
 def _zocalo_texto(texto: str) -> str:
@@ -159,8 +204,8 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
 
 
 def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
-                firma: str | None, logo_png: Path | None, overlay: Path | None,
-                placa: Path | None, seg_placa: float) -> None:
+                firma: str | None, fondo: Path | None, logo_png: Path | None,
+                overlay: Path | None, placa: Path | None, seg_placa: float) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada."""
@@ -179,6 +224,15 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     out_label = "[v]"
     inputs = ["-i", str(src)]
     n_in = 1  # cuántos INPUTS lleva ffmpeg (no alcanza con contar los argumentos)
+    if fondo:
+        # Degradado naranja que tapa el fondo borroso alrededor del video y se funde
+        # con él en el borde. Va ANTES del logo y del overlay para no taparlos.
+        idx = n_in
+        inputs += ["-i", str(fondo)]
+        n_in += 1
+        vf += (f";[{idx}:v]scale=1080:1920,format=rgba[fd];"
+               f"{out_label}[fd]overlay=0:0[vfd]")
+        out_label = "[vfd]"
     if logo_png:
         # Marca de agua: el isotipo arriba a la izquierda, debajo de la barra de la app.
         idx = n_in
@@ -264,21 +318,24 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     placa = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
     seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
     overlay = overlay_con_zocalo(zocalo or "", salida.parent / f"overlay_{salida.stem}.png")
-    marca = dict(logo_png=logo_png, overlay=overlay, placa=placa, seg_placa=seg_placa)
+    fondo = fondo_enmarcado(src, salida.parent / f"fondo_{salida.stem}.png")
+    marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay, placa=placa,
+                 seg_placa=seg_placa)
     try:
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
     except Exception as e:
-        if not (logo_png or overlay or placa):
+        if not (fondo or logo_png or overlay or placa):
             raise
         # Si la marca hiciera fallar el filtergraph, el reel PELADO igual sale: nunca
-        # se pierde la publicación por el logo, el overlay o la placa.
+        # se pierde la publicación por el fondo, el logo, el overlay o la placa.
         logger.warning(f"El reel con marca falló ({e}); lo rehago pelado.")
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
-                    logo_png=None, overlay=None, placa=None, seg_placa=0)
-        marca = dict(logo_png=None, overlay=None, placa=None, seg_placa=0)
+                    fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0)
+        marca = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0)
     logger.info(
         f"Reel vertical armado: {salida}"
         + (f" (recortado a {max_seconds}s)" if max_seconds else "")
+        + (" + fondo" if marca["fondo"] else "")
         + (" + logo" if marca["logo_png"] else "")
         + (" + overlay" if marca["overlay"] else "")
         + (f" + placa final {seg_placa:.0f}s" if marca["placa"] else "")
