@@ -198,6 +198,9 @@ SEO_PROMPT = (
     "final. Distinta del título (no lo repitas).\n"
     "- descripcion: 2 a 4 frases con las palabras clave naturales (qué se ve y por qué importa), "
     "más una llamada a la acción a la web www.diariolacampaña.com.ar y a suscribirse al canal. "
+    "FORMATO (importante para que se lea fácil): escribí CADA oración o idea como un PÁRRAFO "
+    "APARTE, separados por un RENGLÓN EN BLANCO (o sea, punto y aparte con una línea vacía en "
+    "medio). NO entregues todo junto en un solo bloque de texto. "
     "Terminá con una línea de hashtags relevantes: MÁXIMO 5 hashtags (entre 3 y 5, nunca más de 5). "
     "Incluí #Chivilcoy SOLO si la nota es de/sobre Chivilcoy; misma regla de localidad que el título.\n"
     "- tags: lista de 8 a 12 etiquetas (palabras o frases cortas) para el campo Tags de YouTube, "
@@ -215,6 +218,42 @@ _SEO_SCHEMA = {
     },
     "required": ["titulo", "bajada", "descripcion", "tags"],
 }
+
+
+def _formatear_descripcion(desc: str, max_hashtags: int = 5) -> str:
+    """Deja la descripción de YouTube LEGIBLE y consistente, pase lo que pase con Gemini:
+
+    - cada oración queda como un PÁRRAFO aparte, separados por un renglón en blanco
+      (punto y aparte con línea vacía en medio);
+    - los hashtags se juntan en UNA sola línea al final, sin repetidos y con tope
+      (`max_hashtags`). Se sacan del cuerpo aunque vengan pegados al último punto
+      (Gemini a veces devuelve «...com.ar.#Chivilcoy #Deportes»).
+    """
+    import re as _re
+    texto = (desc or "").strip()
+    if not texto:
+        return ""
+    # 1) Separar los hashtags del cuerpo.
+    hashtags = _re.findall(r"#[^\s#]+", texto)
+    cuerpo = _re.sub(r"#[^\s#]+", " ", texto)
+    # 2) Normalizar espacios/saltos para partir parejo.
+    cuerpo = _re.sub(r"\s+", " ", cuerpo).strip()
+    # 3) Una oración por párrafo (corta después de . ! ? …).
+    oraciones = [o.strip() for o in _re.split(r"(?<=[.!?…])\s+", cuerpo) if o.strip()]
+    out = "\n\n".join(oraciones)
+    # 4) Línea final de hashtags: sin duplicados y con tope.
+    vistos, limpios = set(), []
+    for h in hashtags:
+        k = h.lower()
+        if k in vistos:
+            continue
+        vistos.add(k)
+        limpios.append(h)
+        if len(limpios) >= max_hashtags:
+            break
+    if limpios:
+        out += "\n\n" + " ".join(limpios)
+    return out.strip()
 
 
 def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = "") -> dict:
@@ -260,15 +299,8 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
         raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
     titulo = str(raw.get("titulo", "")).strip()[:100]  # YouTube tope duro 100 chars
     bajada = str(raw.get("bajada", "")).strip().rstrip(".")
-    descripcion = str(raw.get("descripcion", "")).strip()
-    # Máximo 5 hashtags en la descripción (pedido del usuario): si Gemini puso de más, saco los que sobran.
-    import re as _re
-    _htags = _re.findall(r"#[^\s#]+", descripcion)
-    if len(_htags) > 5:
-        for _extra in _htags[5:]:
-            descripcion = descripcion.replace(_extra, "", 1)
-        descripcion = _re.sub(r"[ \t]{2,}", " ", descripcion)
-        descripcion = _re.sub(r" +\n", "\n", descripcion).strip()
+    # Una oración por párrafo (renglón en blanco en medio) + máximo 5 hashtags al final.
+    descripcion = _formatear_descripcion(str(raw.get("descripcion", "")), max_hashtags=5)
     tags = [str(t).strip() for t in (raw.get("tags") or []) if str(t).strip()][:15]
     # Invitación fija al canal (por si Gemini no la incluyó).
     from utils.branding import canal_yt_url, linea_canal_yt
