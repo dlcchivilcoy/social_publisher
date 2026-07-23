@@ -903,6 +903,23 @@
     "zocalo": "María Inés Mandalunis",
     "draft_id": "0c1ef561-86ea-4c31-990f-791277ab4273",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_screen-recording-20260723-135608-youtube.mp4",
-    "estado": "borrador"
+    "estado": "publicado",
+    "fecha_publicado": "2026-07-23T14:32:47",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/arte-y-fotografia-maria-ines-mandalunis-la-luz-es-todo-es-la-vida",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AKIy5awlVCp-gF4pOv_lf9q\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1042444211743160",
+    "yt_video_id": "j9dpVuyR-co",
+    "yt_url": "https://www.youtube.com/shorts/j9dpVuyR-co",
+    "yt_watch_url": "https://www.youtube.com/watch?v=j9dpVuyR-co",
+    "yt_titulo": "María Inés Mandalunis: \"La luz es todo, es la vida misma\"",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-07-23T14:32:47",
+    "yt_metrics": {}
   }
 ]
