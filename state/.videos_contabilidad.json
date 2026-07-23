@@ -979,6 +979,23 @@
     "zocalo": "Carlos Aiello, Presidente",
     "draft_id": "4740ec29-86be-44ec-830f-b0443357d748",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_screen-recording-20260723-135751-youtube.mp4",
-    "estado": "borrador"
+    "estado": "publicado",
+    "fecha_publicado": "2026-07-23T15:15:19",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/un-repaso-historico-carlos-aiello-el-primer-trofeo-de-chivilcoy-lo",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"Aw-6ApqgRTh4D3okiLdE2zD\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1016125227697013",
+    "yt_video_id": "3DnUtCgHXMQ",
+    "yt_url": "https://www.youtube.com/shorts/3DnUtCgHXMQ",
+    "yt_watch_url": "https://www.youtube.com/watch?v=3DnUtCgHXMQ",
+    "yt_titulo": "Carlos Aiello: \"El primer trofeo de Chivilcoy lo ganó el Club Argentino\"",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-07-23T15:15:19",
+    "yt_metrics": {}
   }
 ]
