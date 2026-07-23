@@ -292,16 +292,22 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
         logger.info(f"  Desgrabando: «{v['titulo'][:60]}» ({v['url']})")
         contexto = (
             f"TÍTULO ORIGINAL DEL VIDEO EN YOUTUBE: «{v['titulo']}».\n"
-            "Usá ESTE título como REFERENCIA AUTORITATIVA para los NOMBRES PROPIOS "
-            "(personas entrevistadas, apellidos, lugares, instituciones): escribilos "
-            "EXACTAMENTE como figuran en el título. Si un nombre que escuchás en el audio "
-            "no coincide con el del título (el reconocimiento de voz suele equivocar "
-            "apellidos), PRIORIZÁ la forma del título. Si el título nombra al entrevistado, "
-            "ese es su nombre correcto.\n"
-            "NÚMEROS Y DATOS: transcribí con EXACTITUD las cifras, montos, porcentajes, "
-            "fechas, horarios, edades, resultados y cantidades tal como se dicen. NO "
-            "inventes ni redondees números; si un número no se entiende con claridad, NO lo "
-            "pongas en vez de adivinarlo. Mejor omitir un dato dudoso que poner uno incorrecto."
+            "REGLA DE ORO — NOMBRES PROPIOS Y SIGLAS (MUY IMPORTANTE: el reconocimiento de voz "
+            "los equivoca MUCHO): escribí un NOMBRE PROPIO (persona, apellido, lugar, club, "
+            "institución, comercio) o una SIGLA/ABREVIATURA SOLO si estás SEGURO de cómo se "
+            "escribe, y estás seguro ÚNICAMENTE si figura en el TÍTULO de arriba o aparece "
+            "ESCRITO en pantalla (zócalo, placa, cartel). Si NO está confirmado así, NO lo "
+            "arriesgues ni adivines la grafía: reescribí la frase de forma GENÉRICA («el "
+            "entrevistado», «un vecino», «una vecina», «la institución», «el club», «el "
+            "funcionario», «un dirigente», «una empresa», «la organización»…) o directamente "
+            "OMITÍ ese dato. Cuando el nombre SÍ está en el título o en pantalla, copialo "
+            "EXACTAMENTE de ahí; si lo que escuchás en el audio no coincide, priorizá la forma "
+            "del título/pantalla.\n"
+            "NÚMEROS Y DATOS (cifras, montos, porcentajes, fechas, horarios, edades, resultados, "
+            "cantidades): NO inventes ni redondees. Poné un número SOLO si lo escuchaste CLARO y "
+            "sin dudas; ante la MÍNIMA duda, omitilo o generalizá («varios», «una parte», «cerca "
+            "de»…). SIEMPRE es preferible una nota SIN ese dato que una con un nombre o un número "
+            "equivocado."
         )
         # Reintenta con espera creciente ante fallos de Gemini (429/cuota/red) para que NINGUNA
         # nota quede pendiente por un límite momentáneo.
