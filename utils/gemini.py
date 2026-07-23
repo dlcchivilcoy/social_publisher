@@ -256,6 +256,23 @@ def _formatear_descripcion(desc: str, max_hashtags: int = 5) -> str:
     return out.strip()
 
 
+def _quitar_chivilcoy_titulo(titulo: str) -> str:
+    """Saca «Chivilcoy» de un título y limpia el conector/puntuación que queda colgando.
+    Se usa cuando la localidad NO está justificada por el material: la IA tiende a meter
+    «Chivilcoy» por costumbre aunque el tema o el entrevistado sean de otro lugar. Cubre las
+    formas típicas: «Chivilcoy: …» / «Chivilcoy - …» al inicio, «… en/de Chivilcoy» y
+    «… - / , / | Chivilcoy» como cola, y cualquier «Chivilcoy» suelto restante."""
+    import re as _re
+    t = titulo or ""
+    t = _re.sub(r"^\s*chivilcoy\s*[:\-–—|,]+\s*", "", t, flags=_re.IGNORECASE)          # prefijo
+    t = _re.sub(r"\s+(?:en|de|del|desde|para|hacia)\s+chivilcoy\b", "", t, flags=_re.IGNORECASE)
+    t = _re.sub(r"\s*[\-–—|,]\s*chivilcoy\b", "", t, flags=_re.IGNORECASE)               # cola con separador
+    t = _re.sub(r"\bchivilcoy\b", "", t, flags=_re.IGNORECASE)                           # suelto
+    t = _re.sub(r"\s+([:;,.])", r"\1", t)   # espacio colgado antes de puntuación
+    t = _re.sub(r"\s{2,}", " ", t)
+    return t.strip(" \t:–—-|,·").strip()
+
+
 def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = "") -> dict:
     """Reescribe el título/descripción/tags de un video de YouTube para SEO/algoritmo.
     Si se pasa `youtube_url`, Gemini MIRA el video (primeros minutos) y se basa en lo que
@@ -302,6 +319,20 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
     # Una oración por párrafo (renglón en blanco en medio) + máximo 5 hashtags al final.
     descripcion = _formatear_descripcion(str(raw.get("descripcion", "")), max_hashtags=5)
     tags = [str(t).strip() for t in (raw.get("tags") or []) if str(t).strip()][:15]
+    # NO forzar «Chivilcoy» (pedido del usuario 2026-07-23): la IA tiende a meter la ciudad en
+    # CADA título aunque el entrevistado o el tema sean de otro lado. Si «Chivilcoy» NO aparece
+    # en el material de referencia (título/descripción originales), la sacamos del título, de los
+    # hashtags y de los tags. Regla del usuario: mejor un título SIN ciudad que con la equivocada.
+    fuente = f"{titulo_actual or ''} {descripcion_actual or ''}".lower()
+    if "chivilcoy" not in fuente:
+        if "chivilcoy" in titulo.lower():
+            limpio = _quitar_chivilcoy_titulo(titulo)
+            if limpio:
+                logger.info(f"SEO: saqué «Chivilcoy» del título (no está en el material) → «{limpio}»")
+                titulo = limpio
+        import re as _re
+        descripcion = _re.sub(r"\s*#chivilcoy\b", "", descripcion, flags=_re.IGNORECASE).strip()
+        tags = [t for t in tags if "chivilcoy" not in t.lower()]
     # Invitación fija al canal (por si Gemini no la incluyó).
     from utils.branding import canal_yt_url, linea_canal_yt
     if canal_yt_url().lower() not in descripcion.lower():
@@ -510,6 +541,70 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     logger.info(f"Gemini OK (YouTube): hay_noticia={nota['hay_noticia']} | "
                 f"«{nota['volanta']} — {nota['titulo']}»")
     return nota
+
+
+_REESCRIBIR_LARGO_BASE = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy (Argentina). "
+    "Te paso una nota YA redactada a partir de un video. Tu ÚNICA tarea es dejar el CUERPO "
+    "(campo «texto») con el LARGO justo, SIN cambiar el tema, la volanta ni el título y SIN "
+    "inventar datos. Devolvé el mismo JSON de nota, con hay_noticia=true y la MISMA volanta y "
+    "título; lo único que reescribís es «texto»."
+)
+
+
+def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabras: int,
+                             objetivo: int, extra_text: str = "", api_key: str = "") -> dict:
+    """Segundo pase de LARGO para el desgrabador: si el cuerpo quedó fuera del rango (~2
+    páginas de Word), reescribe la nota para dejarla entre `min_palabras` y `max_palabras`.
+
+    - Si quedó CORTA: se vuelve a MIRAR el video (file_uri) para desarrollar con material
+      REAL (declaraciones, contexto, datos) sin inventar nada.
+    - Si quedó LARGA: se sintetiza a partir del propio texto (sin volver a gastar el video).
+
+    Best-effort: ante cualquier error devuelve la nota tal como estaba. Conserva
+    volanta/título; solo cambia «texto»."""
+    key = (api_key or "").strip() or get("GEMINI_API_KEY")
+    if not key:
+        return nota
+    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    palabras = len((nota.get("texto") or "").split())
+    corta = palabras < min_palabras
+    guia = (
+        f"La nota quedó {'DEMASIADO CORTA' if corta else 'DEMASIADO LARGA'} "
+        f"({palabras} palabras). Reescribí el cuerpo para que tenga entre {min_palabras} y "
+        f"{max_palabras} palabras (objetivo {objetivo}: DOS páginas de Word, ni media ni tres). "
+    )
+    if corta:
+        guia += ("MIRÁ DE NUEVO EL VIDEO adjunto y desarrollá EN SERIO lo que SÍ está en el "
+                 "material: más declaraciones y citas textuales, contexto, antecedentes, el "
+                 "porqué y el para qué, consecuencias y próximos pasos. NO inventes NADA que no "
+                 "esté en el video; no rellenes con vueltas ni repitas la misma idea. ")
+    else:
+        guia += ("Sintetizá: sacá lo redundante y las vueltas y quedate con lo importante. NO "
+                 "agregues nada que no esté ya en la nota ni cambies los datos. ")
+    guia += ("Prosa periodística seria, párrafos bien desarrollados, español rioplatense "
+             "impecable.\n\n"
+             f"VOLANTA: {nota.get('volanta', '')}\nTÍTULO: {nota.get('titulo', '')}\n"
+             f"CUERPO ACTUAL ({palabras} palabras):\n{nota.get('texto', '')}")
+    prompt = _REESCRIBIR_LARGO_BASE + "\n\n" + guia
+    if (extra_text or "").strip():
+        prompt += "\n\nCONTEXTO ADICIONAL:\n" + extra_text.strip()
+    parts = [{"text": prompt}]
+    if corta and url:
+        parts.append({"file_data": {"file_uri": url}})  # re-mira el video: desarrolla sin inventar
+    try:
+        raw = _post_generate(parts, key, model, temperature=0.3)
+        nuevo = _parse_nota(raw)
+    except Exception as e:
+        logger.warning(f"Segundo pase de largo falló ({e}); dejo la nota como estaba.")
+        return nota
+    txt = (nuevo.get("texto") or "").strip()
+    if not txt:
+        return nota
+    ajustada = dict(nota)
+    ajustada["texto"] = txt
+    logger.info(f"    Segundo pase de largo: {palabras} → {len(txt.split())} palabras.")
+    return ajustada
 
 
 def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> dict:

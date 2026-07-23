@@ -156,14 +156,25 @@ def _png_miniatura(video_id: str, destino: Path) -> Path | None:
         return None
 
 
-# Pedido de redacción: nota larga (~1300 palabras / 2 hojas y media), formato periodístico.
+# LARGO de las notas del desgrabador (~2 páginas de Word). El usuario pidió (2026-07-23) que
+# TODAS queden de 2 páginas: ni cortadas en menos de 1 página, ni de 3 páginas. Con el formato
+# del .docx (Calibri 11, interlineado simple) 2 páginas ≈ 850–1100 palabras.
+LARGO_MIN_PALABRAS = 850
+LARGO_MAX_PALABRAS = 1100
+LARGO_OBJETIVO = 950
+
 INSTRUCCION_LARGO = (
-    "El cuerpo de la nota (campo «texto») debe ser EXTENSO: aproximadamente 1300 palabras "
-    "(unas 2 hojas y media de Word), escrito en formato periodístico y organizado en "
-    "PÁRRAFOS bien desarrollados. Profundizá y desarrollá TODOS los temas que se tratan en "
-    "el video, con citas textuales cuando sean claras y confiables, contexto y datos "
-    "concretos. Mantené la fidelidad al material: NO inventes, no rellenes ni repitas; si el "
-    "material no alcanzara para 1300 palabras, desarrollá todo lo posible siendo fiel.\n"
+    f"LARGO DE LA NOTA (REGLA FIRME): el cuerpo (campo «texto») tiene que ocupar DOS PÁGINAS "
+    f"de Word — siempre 2 páginas, ni media ni tres. Apuntá a {LARGO_OBJETIVO} palabras y "
+    f"quedate SIEMPRE dentro del rango {LARGO_MIN_PALABRAS}–{LARGO_MAX_PALABRAS} palabras.\n"
+    "• Si el video da para MÁS: NO te pases del techo; elegí lo más importante y sintetizá el "
+    "resto (no entregues notas de 3 páginas).\n"
+    "• Si el video parece dar para MENOS: LLEGÁ igual a las 2 páginas desarrollando EN SERIO lo "
+    "que SÍ está en el material —más contexto, antecedentes, el porqué y el para qué, citas "
+    "textuales, consecuencias y próximos pasos—, SIEMPRE fiel: NO inventes, no rellenes con "
+    "vueltas ni repitas la misma idea con otras palabras (no entregues notas de media página).\n"
+    "• Organizá la nota en una ENTRADA que resuma lo principal, un DESARROLLO por temas y un "
+    "CIERRE, con párrafos bien construidos.\n"
     "CALIDAD DE REDACCIÓN (es OBLIGATORIO, son notas que se publican con la firma del "
     "diario, tienen que quedar SERIAS y profesionales):\n"
     "• ESCRITURA CORRECTA: redactá en prosa periodística pulida, sin muletillas, sin "
@@ -319,6 +330,19 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
             if not dry_run:
                 _guardar_ledger(ledger)
             continue
+
+        # LARGO ~2 páginas: si quedó fuera de rango, un SEGUNDO PASE la ajusta (desarrolla
+        # mirando de nuevo el video si quedó corta, o sintetiza si quedó larga). Así ninguna
+        # nota sale de media página ni de tres páginas.
+        min_pal = int(get("YT_DESGRABAR_MIN_PALABRAS") or LARGO_MIN_PALABRAS)
+        max_pal = int(get("YT_DESGRABAR_MAX_PALABRAS") or LARGO_MAX_PALABRAS)
+        palabras_ini = len((nota.get("texto") or "").split())
+        if not dry_run and not (min_pal <= palabras_ini <= max_pal):
+            estado = "corta" if palabras_ini < min_pal else "larga"
+            logger.info(f"    Nota {estado} ({palabras_ini} palabras); segundo pase para dejarla "
+                        f"en ~2 páginas ({min_pal}-{max_pal})…")
+            nota = gemini.reescribir_a_dos_paginas(v["url"], nota, min_pal, max_pal,
+                                                   LARGO_OBJETIVO, extra_text=contexto, api_key=key)
 
         slug = _slug(nota.get("titulo") or v["titulo"])
         docx_path = destino / f"{slug}.docx"
