@@ -58,16 +58,62 @@ def _dimensiones(src) -> tuple[int, int]:
     return (int(m.group(1)), int(m.group(2))) if m else (0, 0)
 
 
-def fondo_enmarcado(src, salida) -> Path | None:
+def detectar_recorte(src) -> tuple[int, int, int, int] | None:
+    """Detecta las BARRAS NEGRAS pegadas dentro del cuadro (letterbox arriba/abajo o
+    pillarbox a los costados) con el `cropdetect` de ffmpeg y devuelve (w, h, x, y) del
+    contenido REAL, o None si el video ya llena su propio cuadro. Sirve para los videos
+    que vienen verticales pero con mucho negro adentro: así el marco naranja tapa el
+    negro en vez de dejarlo. `reset=0` hace que cropdetect acumule el área más grande de
+    todo el clip (une el contenido de todos los cuadros), así una escena oscura no lo
+    engaña recortando de más."""
+    if _cfg("REEL_RECORTE_NEGRO", "1").lower() in ("0", "no", "off", "false"):
+        return None
+    w, h = _dimensiones(src)
+    if not (w and h):
+        return None
+    dur = duration_seconds(src) or 0
+    args = [_ffmpeg(), "-hide_banner"]
+    if dur > 16:
+        args += ["-t", "16"]           # con 16 s alcanza para fijar las barras; no gasta de más
+    args += ["-i", str(src), "-vf", "fps=3,cropdetect=limit=24:round=2:reset=0",
+             "-f", "null", "-"]
+    r = subprocess.run(args, capture_output=True, text=True)
+    m = re.findall(r"crop=(\d+):(\d+):(-?\d+):(-?\d+)", r.stderr or "")
+    if not m:
+        return None
+    cw, ch, cx, cy = (int(v) for v in m[-1])
+    if not (0 < cw <= w and 0 < ch <= h and 0 <= cx and 0 <= cy
+            and cx + cw <= w and cy + ch <= h):
+        return None
+    # Recortamos cada eje SOLO si la barra es grande (≥6% del lado). Así una barra real
+    # (letterbox/pillarbox ocupa bastante) se saca, pero una esquina apenas oscura del
+    # contenido NO se recorta. Si ningún eje tiene barra, no tocamos nada.
+    recorta_w = (w - cw) >= 0.06 * w
+    recorta_h = (h - ch) >= 0.06 * h
+    if not (recorta_w or recorta_h):
+        return None
+    if not recorta_w:
+        cw, cx = w, 0
+    if not recorta_h:
+        ch, cy = h, 0
+    cw -= cw % 2; ch -= ch % 2  # libx264 necesita dimensiones pares
+    cx -= cx % 2; cy -= cy % 2
+    logger.info(f"Barras negras detectadas: contenido {cw}x{ch} en ({cx},{cy}) de {w}x{h}")
+    return (cw, ch, cx, cy)
+
+
+def fondo_enmarcado(cont_w: int, cont_h: int, salida) -> Path | None:
     """Devuelve el FONDO del reel ya recortado con una máscara: OPACO en los bordes del
     cuadro y TRANSPARENTE donde va el video, con una transición difuminada en el medio.
     Así el degradado naranja contornea el video hasta los bordes y el marco se ajusta
-    solo al tamaño de CADA video (bandas arriba y abajo si viene apaisado, apenas un
-    halo si ya viene vertical). None si no hay fondo o no se pudo medir el video."""
+    solo al tamaño del CONTENIDO real de cada video: bandas arriba y abajo si viene
+    apaisado (o si venía vertical con negro que ya recortamos), apenas un halo si llena
+    el cuadro. `cont_w`/`cont_h` son las dimensiones del contenido SIN las barras negras.
+    None si no hay fondo o no se pasaron dimensiones."""
     base = _asset("REEL_FONDO", FONDO_REEL)
     if not base:
         return None
-    w, h = _dimensiones(src)
+    w, h = cont_w, cont_h
     if not (w and h):
         logger.warning("No pude medir el video; el reel va sin el fondo naranja.")
         return None
@@ -205,17 +251,23 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
 
 def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
                 firma: str | None, fondo: Path | None, logo_png: Path | None,
-                overlay: Path | None, placa: Path | None, seg_placa: float) -> None:
+                overlay: Path | None, placa: Path | None, seg_placa: float,
+                recorte: tuple[int, int, int, int] | None = None) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
-    al final la placa de cierre concatenada."""
+    al final la placa de cierre concatenada. Si `recorte` (w,h,x,y) viene dado, primero
+    le saca las barras negras al video para que el marco naranja tape ese negro."""
     ff = _ffmpeg()
     fps = 30
     con_audio = audio and has_audio(src)
+    # Si el video trae barras negras horneadas, se las sacamos ANTES de todo, así el
+    # contenido real es lo que se escala y el fondo naranja ocupa donde estaba el negro.
+    pre = f"[0:v]crop={recorte[0]}:{recorte[1]}:{recorte[2]}:{recorte[3]}[src0];" if recorte else ""
+    v0 = "[src0]" if recorte else "[0:v]"
     # Fondo: el propio video escalado a llenar + recortado + desenfocado.
     # Primer plano: el video escalado a entrar dentro de 1080x1920. Se superponen.
     vf = (
-        "[0:v]split=2[bg][fg];"
+        f"{pre}{v0}split=2[bg][fg];"
         "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
         "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
         "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fgs];"
@@ -310,31 +362,39 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     `logo=True` estampa el isotipo del diario arriba a la izquierda, el OVERLAY del diario
     (marco + caja del zócalo + barra con la web y las redes) va siempre con el `zocalo`
     escrito adentro, y `placa_final=True` agrega al final la placa "Seguinos en redes"
-    (5 s). Todo se apaga o se cambia por `.env` (REEL_LOGO / REEL_OVERLAY /
-    REEL_PLACA_FINAL / REEL_PLACA_SEG). Devuelve el .mp4.
+    (5 s). Si el video trae BARRAS NEGRAS horneadas (apaisado dentro de un cuadro vertical,
+    o directamente apaisado), se las recorta y el marco naranja tapa ese negro. Todo se
+    apaga o se cambia por `.env` (REEL_LOGO / REEL_FONDO / REEL_OVERLAY / REEL_PLACA_FINAL /
+    REEL_PLACA_SEG / REEL_RECORTE_NEGRO). Devuelve el .mp4.
     """
     src, salida = Path(src), Path(salida)
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
     placa = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
     seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
     overlay = overlay_con_zocalo(zocalo or "", salida.parent / f"overlay_{salida.stem}.png")
-    fondo = fondo_enmarcado(src, salida.parent / f"fondo_{salida.stem}.png")
+    # Contenido real del video (sin las barras negras) → con eso se calcula el marco.
+    recorte = detectar_recorte(src)
+    cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
+    fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay, placa=placa,
-                 seg_placa=seg_placa)
+                 seg_placa=seg_placa, recorte=recorte)
     try:
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
     except Exception as e:
-        if not (fondo or logo_png or overlay or placa):
+        if not (fondo or logo_png or overlay or placa or recorte):
             raise
         # Si la marca hiciera fallar el filtergraph, el reel PELADO igual sale: nunca
-        # se pierde la publicación por el fondo, el logo, el overlay o la placa.
+        # se pierde la publicación por el fondo, el recorte, el logo, el overlay o la placa.
         logger.warning(f"El reel con marca falló ({e}); lo rehago pelado.")
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
-                    fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0)
-        marca = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0)
+                    fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
+                    recorte=None)
+        marca = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
+                     recorte=None)
     logger.info(
         f"Reel vertical armado: {salida}"
         + (f" (recortado a {max_seconds}s)" if max_seconds else "")
+        + (" + recorte-negro" if marca["recorte"] else "")
         + (" + fondo" if marca["fondo"] else "")
         + (" + logo" if marca["logo_png"] else "")
         + (" + overlay" if marca["overlay"] else "")
