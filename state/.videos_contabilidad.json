@@ -1203,5 +1203,18 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-07-24T19:15:51",
     "yt_metrics": {}
+  },
+  {
+    "file": "Colon",
+    "uploader": "",
+    "fecha_recibido": "2026-07-25T13:45:51",
+    "hay_noticia": true,
+    "es_placa": true,
+    "volanta": "",
+    "titulo": "Deportivo Colón Campeón del Torneo Apertura de Primera División",
+    "resumen": "Superó en el segundo juego final a Racing por 80 a 78",
+    "texto": "Superó en el segundo juego final a Racing por 80 a 78",
+    "draft_id": "3d300f6c-d19b-4860-a04b-092b6fe70448",
+    "estado": "borrador_placa"
   }
 ]
