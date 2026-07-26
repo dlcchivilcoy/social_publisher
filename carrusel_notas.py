@@ -234,6 +234,13 @@ def _carousel_platforms() -> list[str]:
     return [p.strip().lower() for p in raw.split(",") if p.strip()]
 
 
+def _carrusel_activo() -> bool:
+    """Interruptor del posteo del carrusel a redes. CARRUSEL_ACTIVO=0 lo APAGA: las
+    notas igual se cargan a la web (Wix) y a X, pero NO se postea el carrusel a
+    Instagram/Facebook. Para reactivarlo: CARRUSEL_ACTIVO=1 (o borrar la variable)."""
+    return (get("CARRUSEL_ACTIVO") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
 def _orden(note: dict) -> int:
     """Número con que empieza el nombre del .docx (1, 2, 3…). Sin número → al final."""
     m = re.match(r"\s*(\d+)", note["docx"].name)
@@ -381,6 +388,12 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         logger.info(f"[dry-run] carrusel de {len(slides)} slide(s): {[s.name for s in slides]}")
         logger.info(f"[dry-run] caption:\n{caption}")
         logger.info("=== Carrusel de notas: fin (dry-run) ===")
+        return
+
+    if not _carrusel_activo():
+        logger.info("Carrusel a redes DESACTIVADO (CARRUSEL_ACTIVO=0): las notas se "
+                    "cargaron a la web, pero NO se postea el carrusel a Instagram/Facebook.")
+        logger.info("=== Carrusel de notas: fin (carrusel apagado) ===")
         return
 
     plats = _carousel_platforms()
