@@ -403,6 +403,60 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     return salida
 
 
+def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
+    """Loopea una FOTO a un .mp4 de `seg` segundos, sin audio, escalada para entrar en
+    1080x1920 (a su proporción, sin recortar) y con dimensiones pares (libx264). Sirve
+    de 'video fuente' para pasarlo por `to_vertical_reel` y que reciba EXACTAMENTE el
+    mismo branding que los videos (fondo naranja + logo + overlay + placa)."""
+    ff = _ffmpeg()
+    vf = ("scale=1080:1920:force_original_aspect_ratio=decrease,"
+          "scale=trunc(iw/2)*2:trunc(ih/2)*2,setsar=1,format=yuv420p")
+    cmd = [ff, "-y", "-loop", "1", "-t", f"{float(seg):.3f}", "-i", str(foto),
+           "-vf", vf, "-r", str(fps),
+           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+    _run_ffmpeg(cmd, "foto→clip base")
+    logger.info(f"Foto a clip base: {salida} ({float(seg):.0f}s)")
+    return Path(salida)
+
+
+def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None = None,
+                firma: str | None = None) -> Path:
+    """Convierte una FOTO (o varias) de una nota en un reel vertical 9:16 con el MISMO
+    criterio estético que los videos: fondo naranja que enmarca, logo arriba a la
+    izquierda, overlay del diario con el ZÓCALO escrito, y la placa de cierre «Seguinos
+    en redes» al final. Reusa `to_vertical_reel` (mismo re-encode/branding) pasándole un
+    'video fuente' armado con la/s foto/s.
+
+    - Una foto → se muestra fija, enmarcada en naranja (bandas si es apaisada/vertical).
+    - Varias → slideshow con transiciones, todas branded.
+    `seg` es la DURACIÓN TOTAL apuntada del reel (default `REEL_FOTO_SEG`, 30s): se le
+    descuentan los segundos de la placa para que el total quede en ~`seg`. Devuelve el .mp4.
+    """
+    fotos = [Path(f) for f in fotos]
+    salida = Path(salida)
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    if not fotos:
+        raise ValueError("foto_a_reel: no hay fotos para armar el reel")
+    seg_total = float(seg if seg is not None else _cfg("REEL_FOTO_SEG", "30"))
+    # La placa se suma al final; descontamos sus segundos para apuntar al total pedido.
+    placa_on = _asset("REEL_PLACA_FINAL", PLACA_FINAL) is not None
+    placa_seg = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG))) if placa_on else 0.0
+    seg_cont = max(4.0, seg_total - placa_seg)
+    base = salida.parent / f"_base_{salida.stem}.mp4"
+    if len(fotos) == 1:
+        _foto_a_clip(fotos[0], base, seg_cont)
+    else:
+        # Cada foto encuadrada a 1080x1920 (fondo desenfocado de sí misma) y unidas en un
+        # slideshow que reparte los `seg_cont` segundos, con crossfade entre placas.
+        from story_image import compose_foto_reel
+        slides = [compose_foto_reel(f) for f in fotos]
+        por = max(3.0, (seg_cont + (len(slides) - 1) * 0.6) / len(slides))
+        build_slideshow(slides, base, seg=por, fade=0.6)
+    logger.info(f"Foto-reel: {len(fotos)} foto(s) → {seg_cont:.0f}s de contenido + placa "
+                f"(branding igual que los videos)")
+    return to_vertical_reel(base, salida, audio=False, firma=firma, zocalo=zocalo or "")
+
+
 def frame_at(src, seconds, salida) -> Path:
     """Extrae el frame del video en el segundo indicado (el que Gemini marca como el
     más representativo). Si falla o el segundo es 0, cae a best_frame(). Devuelve el .jpg."""

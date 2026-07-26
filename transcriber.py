@@ -827,14 +827,15 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         except Exception as e:
             estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
 
-    # REEL: la/s foto/s encuadrada/s a 9:16 (SIN gráfica) como video vertical + caption completo.
+    # REEL: la/s foto/s convertida/s a un reel vertical con el MISMO branding que los
+    # videos (fondo naranja + logo + overlay con zócalo + placa de cierre), ~30 s. El
+    # zócalo sale de la volanta (o del titular si no hay), como el fallback de los videos.
     reel_url, reel_local = "", None
     try:
-        from story_image import compose_foto_reel
-        from video import build_slideshow
+        from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
-        slides = [compose_foto_reel(f) for f in fotos]
-        reel_local = build_slideshow(slides, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4")
+        reel_local = foto_a_reel(fotos, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4",
+                                 zocalo=volanta or titular)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
