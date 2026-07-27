@@ -13,8 +13,15 @@ on:
         default: '--dry-run'
 
 # Evita que dos corridas se pisen (importante para no corromper los registros).
+# OJO: los comandos de VIDEO (transcribe/publish-video, del diario y de la radio) van a un
+# grupo APARTE (`publicador-videos`). Antes TODO compartia el grupo `publicador`: como GitHub
+# solo deja 1 corriendo + 1 en espera por grupo y cancela lo que este "pending", una corrida
+# lenta de video que quedaba en la cola era CANCELADA por el siguiente cron del publicador
+# (por hora), y el Apps Script ya la habia marcado como "vista" -> el video se perdia sin nota
+# ni mail. Con dos grupos, el publicador y el desgrabador ya no se cancelan entre si; los
+# videos siguen serializados ENTRE SI (un solo grupo) para no corromper el ledger.
 concurrency:
-  group: publicador
+  group: ${{ (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos' || 'publicador' }}
   cancel-in-progress: false
 
 # Necesario para commitear de vuelta los registros anti-repeticion.

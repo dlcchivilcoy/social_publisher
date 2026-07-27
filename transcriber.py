@@ -350,64 +350,89 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     volanta, titulo = nota["volanta"], nota["titulo"]
     texto, resumen = nota["texto"], nota["resumen"]
 
-    cover = frame_at(video, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
-    slug = _slug(video.stem)
+    # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
+    # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
+    # esto se cae, NO dejamos morir la corrida en silencio: antes el run terminaba en error, sin
+    # mail y sin marcar el video → como el Apps Script ya lo marcó "visto", NO se reintentaba y
+    # el video se perdía. Ahora avisamos por mail y salimos limpio (exit 0), sin marcar el video
+    # → se puede reintentar re-subiéndolo. (La desgrabación de Gemini ya está protegida arriba.)
+    try:
+        cover = frame_at(video, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
+        slug = _slug(video.stem)
 
-    # Reel para redes: VIDEO COMPLETO, sin recorte (pedido del usuario 2026-06-28).
-    # Antes se recortaba a ~60s (mejores partes con noticia, o 60s sin noticia); se anuló:
-    # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
-    reel_path = WORK_DIR / f"reel_{slug}.mp4"
-    firma = _firma_texto() if es_corresponsal else None
-    # Zócalo = quién habla, o de qué se trata el hecho (lo elige Gemini, 5 palabras).
-    reel = to_vertical_reel(video, reel_path, firma=firma, zocalo=nota.get("zocalo", ""))
+        # Reel para redes: VIDEO COMPLETO, sin recorte (pedido del usuario 2026-06-28).
+        # Antes se recortaba a ~60s (mejores partes con noticia, o 60s sin noticia); se anuló:
+        # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
+        reel_path = WORK_DIR / f"reel_{slug}.mp4"
+        firma = _firma_texto() if es_corresponsal else None
+        # Zócalo = quién habla, o de qué se trata el hecho (lo elige Gemini, 5 palabras).
+        reel = to_vertical_reel(video, reel_path, firma=firma, zocalo=nota.get("zocalo", ""))
 
-    if dry_run:
-        logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
-                    f"  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n  RESUMEN: {resumen}\n  TEXTO:\n{texto}")
-        logger.info(f"[dry-run] Portada: {cover}  Reel: {reel}")
-        logger.info("=== Desgrabar video: fin (dry-run) ===")
-        return
+        if dry_run:
+            logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
+                        f"  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n  RESUMEN: {resumen}\n  TEXTO:\n{texto}")
+            logger.info(f"[dry-run] Portada: {cover}  Reel: {reel}")
+            logger.info("=== Desgrabar video: fin (dry-run) ===")
+            return
 
-    reel_url = upload_reel(reel)
+        reel_url = upload_reel(reel)
 
-    draft_id = ""
-    if hay:
-        # La WEB lleva el video COMPLETO (no el reel recortado): se hostea aparte y se embebe.
-        web_video_url = reel_url
-        try:
-            full = remux_mp4(video, WORK_DIR / f"video_{slug}.mp4")
-            web_video_url = upload_reel(full)
-        except Exception as e:
-            logger.warning(f"No se pudo hostear el video completo para la web ({e}); uso el reel.")
-        title = f"{volanta} — {titulo}" if volanta else titulo
-        body = titulo + ("\n\n" + texto if texto else "")
-        info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=web_video_url)
-        draft_id = info["draft_id"]
-        estado = "borrador"
-    else:
-        estado = "solo_reel"
+        draft_id = ""
+        if hay:
+            # La WEB lleva el video COMPLETO (no el reel recortado): se hostea aparte y se embebe.
+            web_video_url = reel_url
+            try:
+                full = remux_mp4(video, WORK_DIR / f"video_{slug}.mp4")
+                web_video_url = upload_reel(full)
+            except Exception as e:
+                logger.warning(f"No se pudo hostear el video completo para la web ({e}); uso el reel.")
+            title = f"{volanta} — {titulo}" if volanta else titulo
+            body = titulo + ("\n\n" + texto if texto else "")
+            info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=web_video_url)
+            draft_id = info["draft_id"]
+            estado = "borrador"
+        else:
+            estado = "solo_reel"
 
-    if fila is None:
-        fila = {"file": video.name}
-        rows.append(fila)
-    fila.update({
-        "uploader": uploader or fila.get("uploader", ""),
-        "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
-        "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
-        "texto": texto, "zocalo": nota.get("zocalo", ""), "draft_id": draft_id,
-        "reel_url": reel_url, "estado": estado,
-    })
-    if ctx:
+        if fila is None:
+            fila = {"file": video.name}
+            rows.append(fila)
         fila.update({
-            "origen": ctx.get("origen", ""),
-            "corresponsal_nombre": ctx.get("nombre", ""),
-            "corresponsal_celular": ctx.get("celular", ""),
-            "corresponsal_lugar": ctx.get("lugar", ""),
-            "autorizacion": ctx.get("autorizacion", ""),
+            "uploader": uploader or fila.get("uploader", ""),
+            "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
+            "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
+            "texto": texto, "zocalo": nota.get("zocalo", ""), "draft_id": draft_id,
+            "reel_url": reel_url, "estado": estado,
         })
-    _guardar_ledger(rows)
-    logger.info(f"Registrado (estado={estado}, draft_id={draft_id or '—'}"
-                + (f", corresponsal={ctx.get('nombre')}" if es_corresponsal else "") + ").")
+        if ctx:
+            fila.update({
+                "origen": ctx.get("origen", ""),
+                "corresponsal_nombre": ctx.get("nombre", ""),
+                "corresponsal_celular": ctx.get("celular", ""),
+                "corresponsal_lugar": ctx.get("lugar", ""),
+                "autorizacion": ctx.get("autorizacion", ""),
+            })
+        _guardar_ledger(rows)
+        logger.info(f"Registrado (estado={estado}, draft_id={draft_id or '—'}"
+                    + (f", corresponsal={ctx.get('nombre')}" if es_corresponsal else "") + ").")
+    except Exception as e:
+        if dry_run:
+            raise  # en pruebas manuales queremos ver el error crudo
+        logger.error(f"No se pudo preparar «{video.name}» tras desgrabar (reel/subida/Wix falló): {e}")
+        _enviar_aviso(
+            f"No pude preparar el video (reintentá): {video.name}",
+            f"Desgrabé «{video.name}» pero fallé al armar/subir el reel o crear el borrador en "
+            f"Wix.\n\nEl video NO se perdió. Para reintentarlo, volvé a subirlo a la carpeta de "
+            f"«videos notas actualidad» (o avisá y lo reintento).\n\nDetalle técnico: {str(e)[:200]}",
+            html=(f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+                  f"<h2 style='color:#b00020'>No pude preparar el video</h2>"
+                  f"<p>Desgrabé «{_hesc(video.name)}» pero fallé al armar/subir el reel o crear el "
+                  f"borrador en Wix. <b>No se perdió nada.</b></p>"
+                  f"<p>Para reintentarlo: volvé a subir el video a «videos notas actualidad», o "
+                  f"avisá y lo reintento.</p>"
+                  f"<p style='color:#888;font-size:13px'>Detalle: {_hesc(str(e)[:200])}</p></div>"))
+        logger.info("=== Desgrabar video: fin (falló la preparación; se avisó por mail, sin marcar el video) ===")
+        return
 
     # Quién mandó el material (corresponsal de WhatsApp si lo hay; si no, el uploader de Drive).
     if es_corresponsal:
