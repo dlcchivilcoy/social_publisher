@@ -289,6 +289,44 @@ def _descargar(url: str, destino: Path) -> Path:
     return destino
 
 
+def _avisar_nombre_repetido(nombre: str, fila: dict, kind: str = "nota") -> None:
+    """Cuando una etapa-1 (video o foto-nota) se saltea porque el NOMBRE ya existe en el ledger
+    (ya procesado), avisa por mail. Antes se quedaba MUDO y el colaborador no se enteraba de que
+    su nota nueva se descartó por REUSAR un nombre ya usado (pasó 2026-07-27 con la carpeta «Moto»).
+
+    Salvaguarda anti-aviso-falso: solo avisa si la entrada previa NO es de los últimos ~15 min.
+    Así un doble disparo del MISMO ítem (mismo folder/archivo procesado recién en esta tanda) no
+    genera un aviso falso; un nombre reusado de horas/días atrás sí lo genera."""
+    fecha = fila.get("fecha_recibido") or fila.get("fecha_publicado") or ""
+    try:
+        reciente = (datetime.now() - datetime.fromisoformat(fecha)).total_seconds() < 900
+    except (ValueError, TypeError):
+        reciente = False
+    if reciente:
+        logger.info(f"'{nombre}' se salteó por nombre repetido, pero la entrada previa es reciente "
+                    f"(probable doble disparo); no mando aviso.")
+        return
+    cuando = fecha[:10] if fecha else "antes"
+    cuerpo = (
+        f"Subiste una {kind} en «{nombre}», pero ese nombre YA se usó para otra nota "
+        f"(registrada el {cuando}). El sistema deduplica por NOMBRE, así que la salteó para no "
+        f"duplicar y por eso NO se creó el borrador.\n\n"
+        f"➡️ Para que salga como nota NUEVA, ponela en una carpeta con un nombre DISTINTO "
+        f"(cualquiera que no hayas usado antes) y volvé a subirla.\n\n"
+        f"(El nombre de la carpeta es solo interno: no aparece en la nota.)"
+    )
+    html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+            f"<h2 style='color:#b00020'>Nombre repetido: no se creó la nota</h2>"
+            f"<p>Subiste una {kind} en «{_hesc(nombre)}», pero ese nombre <b>ya se usó</b> para otra "
+            f"nota (registrada el {_hesc(cuando)}). Como el sistema deduplica por nombre, la "
+            f"<b>salteó</b> para no duplicar y <b>no se creó el borrador</b>.</p>"
+            f"<p>➡️ Para que salga como nota <b>nueva</b>, ponela en una carpeta con un "
+            f"<b>nombre distinto</b> (cualquiera que no hayas usado) y volvé a subirla.</p>"
+            f"<p style='color:#888;font-size:13px'>El nombre de la carpeta es solo interno: no "
+            f"aparece en la nota.</p></div>")
+    _enviar_aviso(f"Nombre repetido, no se creó la nota: {nombre}", cuerpo, html=html)
+
+
 # ── ETAPA 1: preparar ─────────────────────────────────────────────────────────
 def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
@@ -305,6 +343,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     YA = ("borrador", "solo_reel", "publicado", "publicado_solo_reel")
     if not dry_run and fila and fila.get("estado") in YA:
         logger.info(f"El video '{video.name}' ya fue procesado (estado={fila['estado']}). Nada que hacer.")
+        _avisar_nombre_repetido(video.name, fila, kind="nota de video")
         return
 
     WORK_DIR.mkdir(exist_ok=True)
@@ -757,6 +796,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
     fila = _buscar_fila(rows, carpeta.name)
     if not dry_run and fila and fila.get("estado") in ("borrador_placa", "publicado_placa"):
         logger.info(f"La foto-nota '{carpeta.name}' ya fue procesada (estado={fila['estado']}).")
+        _avisar_nombre_repetido(carpeta.name, fila, kind="foto-nota")
         return
 
     if dry_run:
