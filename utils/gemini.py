@@ -61,12 +61,17 @@ def _fallback_models(primary: str = "") -> list:
     return ([primary] if primary else []) + fb
 
 
-def _generate(model: str, payload: dict, key: str = "", timeout: int = 120):
+def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_pool=None):
     """POST a generateContent con reintentos + ROTACIÓN de CLAVES y de MODELO ante 429.
     Prioridad: agota las claves con el modelo bueno (calidad) y recién ahí cae al modelo de
     respaldo (que tiene cupo aparte). Ante 500/503 (servidor saturado) espera (15→60s) y
-    reintenta. Devuelve la respuesta OK; lanza si termina en error."""
-    keys = _gemini_keys(key) or [key]
+    reintenta. Devuelve la respuesta OK; lanza si termina en error.
+
+    `key_pool`: si se pasa una lista, se usan EXACTAMENTE esas claves (sin sumar el pool del .env).
+    El desgrabador de la radio lo usa con UNA sola clave (`[k]`) para que la rotación entre
+    PROYECTOS la maneje afuera: los archivos de la Files API son por proyecto, así que no se puede
+    subir el video con una clave y desgrabarlo con otra (403). Ver `transcriber_radio`."""
+    keys = list(key_pool) if key_pool else (_gemini_keys(key) or [key])
     modelos = _fallback_models(model) or [model]
     combos = [(m, k) for m in modelos for k in keys]  # (modelo, clave): modelo bueno primero
     ci, r = 0, None
@@ -468,7 +473,7 @@ def _img_part(path: Path) -> dict:
     return {"inline_data": {"mime_type": _mime(path), "data": b64}}
 
 
-def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3) -> dict:
+def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3, key_pool=None) -> dict:
     """Llama a Gemini generateContent con esos `parts` y el schema de nota, reintentando
     ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
     payload = {
@@ -479,7 +484,7 @@ def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3) 
             "response_schema": _SCHEMA,
         },
     }
-    r = _generate(model, payload, key, timeout=300)
+    r = _generate(model, payload, key, timeout=300, key_pool=key_pool)
     try:
         cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         return json.loads(cand)
@@ -612,7 +617,7 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
 
 
 def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
-                       api_key: str = "", model: str = "") -> dict:
+                       api_key: str = "", model: str = "", key_pool=None) -> dict:
     """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
 
     extra_text: texto que aportó el colaborador (archivo de la carpeta).
@@ -659,7 +664,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                 f"{len(image_paths or [])} foto(s))…")
     try:
-        raw = _post_generate(parts, key, model, temperature=0.4)
+        raw = _post_generate(parts, key, model, temperature=0.4, key_pool=key_pool)
     finally:
         if file_name:  # borrar el archivo subido (best-effort)
             try:

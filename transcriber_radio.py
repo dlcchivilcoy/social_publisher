@@ -43,12 +43,30 @@ def _radio_folder() -> Path:
     return Path(get("VIDEOS_RADIO_FOLDER") or (Path(__file__).parent / "videos_radio"))
 
 
-def _gemini_key() -> str:
-    k = (get("GEMINI_API_KEY_RADIO") or "").strip()
-    if not k:
-        logger.warning("Sin GEMINI_API_KEY_RADIO en el .env: uso la clave Gemini general "
-                       "(cargá las claves de radiodelcentro para separar la cuota).")
-    return k
+def _gemini_pool() -> list:
+    """Claves de Gemini EN ORDEN para rotar entre PROYECTOS cuando una se satura (429): las 3 de
+    radiodelcentro primero y, como último recurso, las del diario. Deduplicadas, sin vacías.
+    La rotación se hace RE-SUBIENDO el video a cada proyecto: los archivos de la Files API son
+    por proyecto (subir con una clave y desgrabar con otra da 403), así que no alcanza con rotar
+    solo la desgrabación."""
+    nombres = ["GEMINI_API_KEY_RADIO", "GEMINI_API_KEY_RADIO_2", "GEMINI_API_KEY_RADIO_3",
+               "GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3", "GEMINI_API_KEY_4",
+               "GEMINI_API_KEY_YT"]
+    out, seen = [], set()
+    for n in nombres:
+        k = (get(n) or "").strip()
+        if k and k not in seen:
+            seen.add(k)
+            out.append(k)
+    if not (get("GEMINI_API_KEY_RADIO") or "").strip():
+        logger.warning("Sin GEMINI_API_KEY_RADIO en el .env: uso las claves generales "
+                       "(cargá las de radiodelcentro para separar la cuota).")
+    return out
+
+
+def _es_error_cuota(e: Exception) -> bool:
+    m = str(e).lower()
+    return any(s in m for s in ("429", "quota", "resource_exhausted", "exhausted", "rate limit"))
 
 
 def _gemini_model() -> str:
@@ -91,6 +109,31 @@ def _html_aviso(intro_html: str, name: str, reel_url: str, kind: str = "") -> st
             f'Aprobá desde el botón del mail.</p></div>')
 
 
+# ── Desgrabación con ROTACIÓN de proyectos ante saturación (429) ──────────────
+def _desgrabar_rotando(video: Path, extra_text: str, imgs) -> dict:
+    """Desgraba el video probando las claves del pool EN ORDEN. Cada intento sube el video a ESE
+    proyecto y lo desgraba con esa MISMA clave (`key_pool=[k]`, sin rotación interna cruzada:
+    los archivos de Gemini son por proyecto). Si una clave está saturada (429), pasa a la
+    siguiente. Ante un error que NO es de cuota, corta y lo re-lanza (lo maneja el llamador)."""
+    pool = _gemini_pool()
+    model = _gemini_model()
+    if not pool:  # sin ninguna clave configurada: que falle con el mensaje claro de gemini.py
+        return transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs, model=model)
+    ultimo = None
+    for i, k in enumerate(pool):
+        try:
+            return transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs,
+                                      api_key=k, model=model, key_pool=[k])
+        except Exception as e:  # noqa: BLE001
+            ultimo = e
+            if _es_error_cuota(e) and i < len(pool) - 1:
+                logger.warning(f"Gemini: clave/proyecto {i + 1}/{len(pool)} saturado (429); "
+                               f"reintento con la siguiente clave…")
+                continue
+            raise
+    raise ultimo  # todas saturadas
+
+
 # ── ETAPA 1: preparar (desgrabar + armar reel + avisar). Sin Wix. ─────────────
 def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict]) -> None:
     fila = tr._buscar_fila(rows, video.name)
@@ -114,8 +157,7 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
             extra_text = (extra_text + "\n\n" + "\n".join(partes)).strip()
 
     try:
-        nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs,
-                                  api_key=_gemini_key(), model=_gemini_model())
+        nota = _desgrabar_rotando(video, extra_text, imgs)
     except Exception as e:  # noqa: BLE001 — no tirar la corrida si Gemini está saturado
         logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
         if not dry_run:
