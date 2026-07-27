@@ -612,7 +612,7 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
 
 
 def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
-                       api_key: str = "") -> dict:
+                       api_key: str = "", model: str = "") -> dict:
     """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
 
     extra_text: texto que aportó el colaborador (archivo de la carpeta).
@@ -621,12 +621,16 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     api_key: clave Gemini a usar como PRIMARIA (para el desgrabador de la radio, que usa
     las claves de radiodelcentro `GEMINI_API_KEY_RADIO`). Si viene vacía, usa GEMINI_API_KEY.
     En ambos casos se rota al resto del pool ante 429 (ver `_gemini_keys`).
+    model: modelo a usar. Vacío = GEMINI_MODEL o gemini-2.5-flash (diario). El desgrabador de la
+    radio pasa `gemini-flash-latest`: los proyectos NUEVOS de Google (como el de radiodelcentro)
+    reciben 404 «no longer available to new users» con el pineado gemini-2.5-flash, pero el alias
+    gemini-flash-latest sí funciona.
     """
     media_path = Path(media_path)
     key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
-    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
     mime = _mime(media_path)
 
     prompt = PROMPT_BASE

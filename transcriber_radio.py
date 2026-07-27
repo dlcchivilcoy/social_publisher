@@ -51,6 +51,13 @@ def _gemini_key() -> str:
     return k
 
 
+def _gemini_model() -> str:
+    """Modelo Gemini para la radio. El proyecto NUEVO de radiodelcentro recibe 404 con el
+    pineado gemini-2.5-flash («no longer available to new users»); el alias gemini-flash-latest
+    sí funciona (verificado 2026-07-26). Configurable con GEMINI_MODEL_RADIO."""
+    return get("GEMINI_MODEL_RADIO") or "gemini-flash-latest"
+
+
 def _notify() -> str:
     """Destinatario del aviso de la radio (default: el general / MAIL_FROM)."""
     return get("VIDEOS_RADIO_NOTIFY_EMAIL") or ""
@@ -107,7 +114,8 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
             extra_text = (extra_text + "\n\n" + "\n".join(partes)).strip()
 
     try:
-        nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs, api_key=_gemini_key())
+        nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs,
+                                  api_key=_gemini_key(), model=_gemini_model())
     except Exception as e:  # noqa: BLE001 — no tirar la corrida si Gemini está saturado
         logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
         if not dry_run:
