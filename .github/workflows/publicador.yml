@@ -124,6 +124,21 @@ jobs:
           rclone copy "gdrive:Diario/notas para web" notas_web 2>/dev/null || true
           rclone copy "gdrive:notas para web" notas_web 2>/dev/null || true
 
+      - name: Bajar videos de la RADIO desde Google Drive (radiodelcentro)
+        env:
+          ARGS: ${{ github.event.inputs.args }}
+        run: |
+          # Solo para los comandos de la radio (*-radio): usan el SEGUNDO remoto de rclone
+          # (gdrive_radio → cuenta radiodelcentro). Para el resto del publicador este paso es INERTE.
+          if echo "$ARGS" | grep -qE -- "radio"; then
+            mkdir -p videos_radio
+            # La carpeta "videos radio" puede estar en la raiz del Drive o dentro de una subcarpeta.
+            rclone copy "gdrive_radio:videos radio" videos_radio 2>/dev/null || true
+            rclone copy "gdrive_radio:Radio/videos radio" videos_radio 2>/dev/null || true
+          else
+            echo "Sin args de radio: no se baja la carpeta de la radio."
+          fi
+
       - name: Restaurar registros anti-repeticion
         run: |
           [ -f "state/.publicado.json" ] && cp "state/.publicado.json" "diario/NOTAS AUTOMATICAS/.publicado.json" || true
@@ -131,7 +146,7 @@ jobs:
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.fb.json" ] && cp "state/.fb.json" "diario/NOTAS AUTOMATICAS/.fb.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -156,6 +171,8 @@ jobs:
           TAPA_FOLDER: ${{ github.workspace }}/diario/DIARIO PDF
           # Carpeta con los videos de actualidad bajados de Drive (desgrabador).
           VIDEOS_FOLDER: ${{ github.workspace }}/videos
+          # Carpeta con los videos de la RADIO (radiodelcentro) para --transcribe-video-radio.
+          VIDEOS_RADIO_FOLDER: ${{ github.workspace }}/videos_radio
           # Para subir el .mp4 del reel como asset de un GitHub Release (URL pública para IG).
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -172,7 +189,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.fb.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"

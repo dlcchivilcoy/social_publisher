@@ -66,10 +66,11 @@ def _videos_folder() -> Path:
     return Path(get("VIDEOS_FOLDER") or (Path(__file__).parent / "videos"))
 
 
-def _find_video(name: str) -> Path | None:
+def _find_video(name: str, base: Path | None = None) -> Path | None:
     """Ubica el video bajado de Drive por nombre (en la raíz o en una subcarpeta);
-    si no, agarra el más nuevo."""
-    folder = _videos_folder()
+    si no, agarra el más nuevo. `base` = carpeta donde buscar (default: la del diario;
+    el desgrabador de la radio pasa su propia carpeta)."""
+    folder = base or _videos_folder()
     if not folder.exists():
         return None
     if name:
@@ -91,9 +92,10 @@ def _slug(s: str) -> str:
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
 
-def _find_folder(name: str) -> Path | None:
-    """Ubica la SUBCARPETA de una nota-placa (Word + foto, sin video) por nombre."""
-    base = _videos_folder()
+def _find_folder(name: str, base: Path | None = None) -> Path | None:
+    """Ubica la SUBCARPETA de una nota-placa (Word + foto, sin video) por nombre.
+    `base` = carpeta raíz donde buscar (default: la del diario)."""
+    base = base or _videos_folder()
     if not base.exists():
         return None
     if name:
@@ -198,17 +200,18 @@ def _leer_contexto(folder: Path) -> dict | None:
 
 
 # ── Ledger de contabilidad ────────────────────────────────────────────────────
-def _leer_ledger() -> list[dict]:
-    if not LEDGER.exists():
+def _leer_ledger(path: Path | None = None) -> list[dict]:
+    ledger = path or LEDGER
+    if not ledger.exists():
         return []
     try:
-        return list(json.loads(LEDGER.read_text(encoding="utf-8-sig")))
+        return list(json.loads(ledger.read_text(encoding="utf-8-sig")))
     except Exception:
         return []
 
 
-def _guardar_ledger(rows: list[dict]) -> None:
-    LEDGER.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+def _guardar_ledger(rows: list[dict], path: Path | None = None) -> None:
+    (path or LEDGER).write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _buscar_fila(rows: list[dict], file: str) -> dict | None:
@@ -248,12 +251,13 @@ def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: b
             f'video a la subcarpeta APROBADAS en Drive.</p></div>')
 
 
-def _enviar_aviso(asunto: str, cuerpo: str, html: str | None = None) -> None:
+def _enviar_aviso(asunto: str, cuerpo: str, html: str | None = None, destino: str = "") -> None:
     """Manda un mail al diario (reusa el SMTP del mailer). Best-effort. Si se pasa `html`,
-    va como alternativa HTML (con botones)."""
+    va como alternativa HTML (con botones). `destino` sobreescribe el destinatario (lo usa
+    el desgrabador de la radio con VIDEOS_RADIO_NOTIFY_EMAIL)."""
     remitente = get("MAIL_FROM")
     password = get("MAIL_APP_PASSWORD")
-    destino = get("VIDEOS_NOTIFY_EMAIL") or remitente
+    destino = (destino or "").strip() or get("VIDEOS_NOTIFY_EMAIL") or remitente
     if not remitente or not password or not destino:
         logger.warning("Sin credenciales de mail (MAIL_FROM/MAIL_APP_PASSWORD): no se manda el aviso.")
         return

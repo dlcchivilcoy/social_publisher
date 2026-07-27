@@ -1,0 +1,482 @@
+"""Desgrabador de RADIO DEL CENTRO — clon SOLO REDES (sin Wix) del desgrabador del diario.
+
+Toma videos/fotos que los colaboradores suben al Drive de **radiodelcentro** (carpeta
+`VIDEOS_RADIO_FOLDER`), los desgraba con las claves Gemini de radiodelcentro
+(`GEMINI_API_KEY_RADIO`) y publica **solo en redes**:
+  - reel branded (MISMA marca del diario) a **Instagram y Facebook @diarioyradio**,
+  - **YouTube Short al canal RADIO DEL CENTRO** (www.youtube.com/radiodelcentro).
+NO crea nota web (Wix). Reutiliza casi todo de `transcriber.py` (reel, mail, captions, SEO).
+
+Modelo SIN Google Apps Script (todo nube/web):
+  - **Detección (etapa 1):** un escaneo programado (cron-job.org → workflow) corre
+    `--transcribe-video-radio` SIN `--file` y procesa los videos nuevos de la carpeta
+    (el ledger evita reprocesar). Con `--file <n>` procesa uno solo.
+  - **Aprobación (etapa 2):** el botón «Aprobar» del mail apunta al endpoint web de Vercel
+    `APPROVE_WEBAPP_URL_RADIO`, que dispara `--publish-video-radio --file <n>`.
+
+Ledger propio: `.videos_radio.json` (no se pisa con el `.videos_contabilidad.json` del diario).
+"""
+import time
+from datetime import datetime
+from html import escape as _hesc
+from pathlib import Path
+from urllib.parse import quote
+
+import transcriber as tr
+from platforms import facebook, instagram, youtube_api
+from utils.config import get
+from utils.gemini import transcribe_to_nota
+from utils.logger import get_logger
+from utils.video_host import upload_reel
+from video import foto_a_reel, frame_at, to_vertical_reel  # noqa: F401 (frame_at reservado)
+
+logger = get_logger("transcriber_radio")
+
+LEDGER_RADIO = Path(__file__).parent / ".videos_radio.json"
+# Estados que YA fueron procesados en la etapa 1 (no volver a desgrabar en el escaneo).
+YA_ETAPA1 = ("listo", "solo_reel", "publicado", "publicado_solo_reel",
+             "borrador_placa", "publicado_placa")
+
+
+# ── Config de la radio ────────────────────────────────────────────────────────
+def _radio_folder() -> Path:
+    return Path(get("VIDEOS_RADIO_FOLDER") or (Path(__file__).parent / "videos_radio"))
+
+
+def _gemini_key() -> str:
+    k = (get("GEMINI_API_KEY_RADIO") or "").strip()
+    if not k:
+        logger.warning("Sin GEMINI_API_KEY_RADIO en el .env: uso la clave Gemini general "
+                       "(cargá las claves de radiodelcentro para separar la cuota).")
+    return k
+
+
+def _notify() -> str:
+    """Destinatario del aviso de la radio (default: el general / MAIL_FROM)."""
+    return get("VIDEOS_RADIO_NOTIFY_EMAIL") or ""
+
+
+def _yt_enabled() -> bool:
+    return (get("YT_RADIO_SHORTS_ENABLED") or "1").strip().lower() not in ("0", "false", "no", "off")
+
+
+def _approve_url() -> str:
+    return get("APPROVE_WEBAPP_URL_RADIO") or ""
+
+
+# ── Mail de la radio (botones Aprobar + Previsualizar; SIN editar/borrar, no hay Wix) ──
+def _html_aviso(intro_html: str, name: str, reel_url: str, kind: str = "") -> str:
+    webapp = _approve_url()
+    tok = get("WEBAPP_TOKEN")
+    t = f"&token={quote(tok)}" if tok else ""
+    k = f"&kind={kind}" if kind else ""
+    botones = ""
+    if webapp:
+        botones += tr._boton(f"{webapp}?action=approve&name={quote(name)}{k}{t}", "✅ Aprobar y publicar")
+        if reel_url:
+            botones += tr._boton(f"{webapp}?action=preview&url={quote(reel_url)}{t}",
+                                 "👁️ Previsualizar video", color="#444")
+    elif reel_url:
+        botones += tr._boton(reel_url, "👁️ Ver el reel", color="#444")
+    return (f'<div style="font-family:Arial;max-width:600px;color:#222;font-size:16px">'
+            f'{intro_html}<div style="margin:22px 0">{botones}</div>'
+            f'<p style="color:#777;font-size:13px">Radio del Centro · solo redes (sin nota web). '
+            f'Aprobá desde el botón del mail.</p></div>')
+
+
+# ── ETAPA 1: preparar (desgrabar + armar reel + avisar). Sin Wix. ─────────────
+def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict]) -> None:
+    fila = tr._buscar_fila(rows, video.name)
+    if not dry_run and fila and fila.get("estado") in YA_ETAPA1:
+        logger.info(f"'{video.name}' ya fue procesado (estado={fila['estado']}). Nada que hacer.")
+        return
+
+    tr.WORK_DIR.mkdir(exist_ok=True)
+    extra_text, imgs = tr._recolectar_adjuntos(video)
+
+    # Contexto del corresponsal (contexto.txt que deja el bot de WhatsApp), si lo hay.
+    ctx = tr._leer_contexto(video.parent)
+    es_corresponsal = bool(ctx and "corresponsal" in (ctx.get("origen", "").lower()))
+    if ctx:
+        partes = []
+        if ctx.get("lugar"):
+            partes.append(f"Lugar del hecho: {ctx['lugar']}")
+        if ctx.get("descripcion"):
+            partes.append(f"Descripción aportada por el colaborador: {ctx['descripcion']}")
+        if partes:
+            extra_text = (extra_text + "\n\n" + "\n".join(partes)).strip()
+
+    try:
+        nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs, api_key=_gemini_key())
+    except Exception as e:  # noqa: BLE001 — no tirar la corrida si Gemini está saturado
+        logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
+        if not dry_run:
+            tr._enviar_aviso(
+                f"No pude desgrabar el video de la radio (reintentá): {video.name}",
+                f"Gemini estaba saturado y no pude desgrabar «{video.name}» esta vez.\n\n"
+                f"No se perdió nada: se reintenta solo en el próximo escaneo (o volvé a subirlo).\n\n"
+                f"Detalle técnico: {str(e)[:200]}", destino=_notify())
+        return
+
+    hay = nota["hay_noticia"]
+    volanta, titulo = nota["volanta"], nota["titulo"]
+    texto, resumen = nota["texto"], nota["resumen"]
+    slug = tr._slug(video.stem)
+
+    # Reel vertical branded (mismo overlay/logo/placa que el diario). Nombre único con prefijo
+    # «radio» para que no pise en el GitHub Release al reel del diario.
+    firma = tr._firma_texto() if es_corresponsal else None
+    reel = to_vertical_reel(video, tr.WORK_DIR / f"reel_radio_{slug}.mp4",
+                            firma=firma, zocalo=nota.get("zocalo", ""))
+
+    if dry_run:
+        logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"
+                    f"  RESUMEN: {resumen}\n  ZÓCALO: {nota.get('zocalo', '')}")
+        logger.info(f"[dry-run] Reel: {reel} (Radio: solo redes, NO se toca Wix).")
+        return
+
+    reel_url = upload_reel(reel)
+    estado = "listo" if hay else "solo_reel"
+
+    if fila is None:
+        fila = {"file": video.name}
+        rows.append(fila)
+    fila.update({
+        "canal": "radio",
+        "uploader": uploader or fila.get("uploader", ""),
+        "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
+        "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
+        "texto": texto, "zocalo": nota.get("zocalo", ""), "reel_url": reel_url, "estado": estado,
+    })
+    if ctx:
+        fila.update({"origen": ctx.get("origen", ""),
+                     "corresponsal_nombre": ctx.get("nombre", "")})
+    tr._guardar_ledger(rows, LEDGER_RADIO)
+    logger.info(f"Radio: registrado «{video.name}» (estado={estado}).")
+
+    if hay:
+        intro = (f"<h2 style='color:#e2620c'>Reel por revisar · Radio del Centro</h2>"
+                 f"<p style='color:#888;font-size:13px'>{_hesc(volanta)}</p>"
+                 f"<p style='font-size:19px'><b>{_hesc(titulo)}</b></p>"
+                 f"<p>{_hesc(resumen)}</p>"
+                 f"<p>Al aprobar, sale el reel a <b>Instagram y Facebook @diarioyradio</b> y como "
+                 f"<b>Short en el canal de YouTube Radio del Centro</b>.</p>")
+        asunto = f"Reel por revisar (Radio): {titulo}"
+    else:
+        intro = (f"<h2 style='color:#e2620c'>Video sin desgrabar · Radio del Centro</h2>"
+                 f"<p>No pude armar el texto de «{_hesc(video.name)}» (no había info suficiente). "
+                 f"Si aprobás, sale <b>solo el reel</b> (sin texto) a Instagram y Facebook.</p>")
+        asunto = f"Video sin desgrabar (Radio): {video.name}"
+    tr._enviar_aviso(asunto,
+                     f"Reel de la radio por revisar: «{titulo or video.name}». "
+                     f"Aprobalo desde el botón del mail.",
+                     html=_html_aviso(intro, video.name, reel_url), destino=_notify())
+
+
+def run_transcribe_video_radio(file: str = "", uploader: str = "", dry_run: bool = False) -> None:
+    """ETAPA 1 de la radio. Con `--file` procesa ese video; SIN `--file` hace un ESCANEO de
+    toda la carpeta y procesa cada video nuevo (el disparo lo hace cron-job.org, no Apps Script)."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
+    base = _radio_folder()
+    logger.info(f"=== Desgrabar video RADIO [{modo}] — file='{file or '(scan)'}' base={base} ===")
+    if not base.exists():
+        logger.error(f"No existe la carpeta de videos de la radio: {base}")
+        return
+
+    rows = tr._leer_ledger(LEDGER_RADIO)
+
+    if file:
+        video = tr._find_video(file, base=base)
+        if not video:
+            logger.error(f"No se encontró el video '{file}' en {base}.")
+            return
+        _procesar_video(video, uploader, dry_run, rows)
+        logger.info("=== Desgrabar video RADIO: fin ===")
+        return
+
+    # MODO SCAN: todos los videos nuevos de la carpeta (más viejos primero).
+    vids = sorted([p for p in base.rglob("*")
+                   if p.is_file() and p.suffix.lower() in tr.VIDEO_EXTS],
+                  key=lambda p: p.stat().st_mtime)
+    if not vids:
+        logger.info("Scan radio: no hay videos en la carpeta.")
+        return
+    nuevos = 0
+    for v in vids:
+        fila = tr._buscar_fila(rows, v.name)
+        if fila and fila.get("estado") in YA_ETAPA1:
+            continue
+        # Evitar agarrar una subida a medio terminar: rclone preserva la fecha de Drive, así que
+        # si se modificó hace <60s lo dejamos para el próximo escaneo (se auto-corrige solo).
+        if not dry_run and (time.time() - v.stat().st_mtime) < 60:
+            logger.info(f"Scan radio: «{v.name}» recién modificado (<60s); lo dejo para el próximo escaneo.")
+            continue
+        logger.info(f"Scan radio: procesando «{v.name}»…")
+        _procesar_video(v, uploader, dry_run, rows)
+        nuevos += 1
+    logger.info(f"=== Scan radio: fin ({nuevos} video(s) nuevo(s)) ===")
+
+
+# ── ETAPA 2: publicar (al aprobar por el botón del mail). Solo redes. ─────────
+def _avisar_estado_radio(fila: dict, estado: dict, yt_info: dict) -> None:
+    titulo = fila.get("titulo") or fila.get("file", "")
+
+    def _li(nombre: str, clave: str, extra: str = "") -> str:
+        st = estado.get(clave, "omitido")
+        ico = "✅" if st == "ok" else ("➖" if st == "omitido" else "❌")
+        return f"<li>{ico} <b>{nombre}:</b> {_hesc('publicado' if st == 'ok' else st)}{extra}</li>"
+
+    yt_extra = ""
+    if yt_info.get("short_url"):
+        priv = yt_info.get("privacy", "")
+        nota_priv = " <i>(privado — falta auditoría de la API)</i>" if priv and priv != "public" else ""
+        yt_extra = f' — <a href="{yt_info["short_url"]}">{_hesc(yt_info["short_url"])}</a>{nota_priv}'
+
+    html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+            f"<h2 style='color:#e2620c'>Publicado · Radio del Centro</h2>"
+            f"<p style='font-size:18px'><b>{_hesc(titulo)}</b></p>"
+            f"<ul style='line-height:1.8;list-style:none;padding:0'>"
+            f"{_li('Instagram', 'instagram')}{_li('Facebook', 'facebook')}"
+            f"{_li('YouTube (Radio del Centro)', 'youtube', yt_extra)}"
+            f"</ul></div>")
+    tr._enviar_aviso(f"Publicado (Radio): {titulo}",
+                     f"Se publicó «{titulo}» a IG/FB @diarioyradio + YouTube (Radio del Centro).",
+                     html=html, destino=_notify())
+
+
+def run_publish_video_radio(file: str = "", dry_run: bool = False) -> None:
+    """ETAPA 2 de la radio: publica el reel aprobado a IG/FB + Short al canal Radio del Centro."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    logger.info(f"=== Publicar video RADIO [{modo}] — file='{file}' ===")
+
+    rows = tr._leer_ledger(LEDGER_RADIO)
+    fila = tr._buscar_fila(rows, file) if file else None
+    if fila is None:
+        pend = [r for r in rows if r.get("estado") in ("listo", "solo_reel")]
+        fila = pend[-1] if pend else None
+    if fila is None:
+        logger.error(f"No hay nada pendiente para '{file}'. Nada que publicar.")
+        return
+    if fila.get("estado") in ("publicado", "publicado_solo_reel"):
+        logger.info(f"El video '{fila['file']}' ya estaba publicado. Nada que hacer.")
+        return
+
+    hay = fila.get("hay_noticia", True)
+    reel_url = fila.get("reel_url")
+    volanta = fila.get("volanta", "")
+    titulo = fila.get("titulo", "")
+    resumen = fila.get("resumen", "")
+    caption = tr._caption(titulo, resumen) if hay else ""
+
+    if dry_run:
+        meta = tr._youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if hay else {}
+        logger.info(f"[dry-run] hay={hay}. Publicaría reel={reel_url}\nCaption FB/IG:\n{caption or '(sin texto)'}\n"
+                    f"YouTube Short: {'(omitido)' if not (hay and _yt_enabled()) else meta.get('titulo')}")
+        return
+
+    plats = tr._platforms()
+    estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido"}
+
+    local_reel = None
+    if reel_url:
+        try:
+            tr.WORK_DIR.mkdir(exist_ok=True)
+            local_reel = tr._descargar(reel_url, tr.WORK_DIR / "reel_radio_pub.mp4")
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"No se pudo bajar el reel ({reel_url}): {e}")
+
+    ig_media_id = fb_video_id = ""
+    if "instagram" in plats and reel_url:
+        try:
+            res = instagram.publish_reel(reel_url, caption)
+            ig_media_id = (res or {}).get("id", "")
+            estado["instagram"] = "ok"
+            logger.info(f"[instagram] reel OK (id={ig_media_id})")
+        except Exception as e:  # noqa: BLE001
+            estado["instagram"] = f"falló: {e}"
+            logger.error(f"[instagram] reel FALLÓ: {e}")
+
+    if "facebook" in plats and local_reel:
+        try:
+            res = facebook.publish_video(caption, local_reel)
+            fb_video_id = (res or {}).get("id", "")
+            estado["facebook"] = "ok"
+            logger.info(f"[facebook] video OK (id={fb_video_id})")
+        except Exception as e:  # noqa: BLE001
+            estado["facebook"] = f"falló: {e}"
+            logger.error(f"[facebook] video FALLÓ: {e}")
+
+    yt_info = {}
+    if hay and _yt_enabled() and local_reel:
+        try:
+            meta = tr._youtube_meta(volanta, titulo, resumen, fila.get("texto", ""))
+            privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
+            yt_info = tr._retry(
+                lambda: youtube_api.upload_short(
+                    local_reel, meta["titulo"], meta["descripcion"],
+                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy,
+                    creds=youtube_api.radio_credentials()),  # canal RADIO DEL CENTRO
+                etiqueta="[youtube-radio] subir Short")
+            estado["youtube"] = "ok"
+            logger.info(f"[youtube] Short OK (Radio del Centro): {yt_info.get('short_url')}")
+        except Exception as e:  # noqa: BLE001
+            estado["youtube"] = f"falló: {e}"
+            logger.error(f"[youtube] Short FALLÓ tras reintentos: {e}")
+    elif hay and not _yt_enabled():
+        logger.info("[youtube] desactivado (YT_RADIO_SHORTS_ENABLED=0).")
+
+    fila.update({
+        "estado": "publicado" if hay else "publicado_solo_reel",
+        "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
+        "estado_canales": estado,
+        "ig_media_id": ig_media_id or fila.get("ig_media_id", ""),
+        "fb_video_id": fb_video_id or fila.get("fb_video_id", ""),
+    })
+    if yt_info:
+        fila.update({
+            "yt_video_id": yt_info.get("id", ""),
+            "yt_url": yt_info.get("short_url") or yt_info.get("url", ""),
+            "yt_titulo": titulo, "yt_privacy": yt_info.get("privacy", ""),
+            "fecha_youtube": datetime.now().isoformat(timespec="seconds"),
+        })
+    tr._guardar_ledger(rows, LEDGER_RADIO)
+    _avisar_estado_radio(fila, estado, yt_info)
+
+    if any(v == "ok" for v in estado.values()):
+        logger.info(f"Radio publicado y registrado. Estado por canal: {estado}")
+    else:
+        logger.error("Radio: no se pudo publicar en ningún canal — revisar credenciales.")
+    logger.info("=== Publicar video RADIO: fin ===")
+
+
+# ── IMÁGENES (foto-nota) de la radio → reel branded a IG/FB. Sin Wix. ─────────
+def _placa_datos_radio(carpeta: Path):
+    """(fotos, volanta, titular, texto) de una subcarpeta con foto(s) y texto OPCIONAL.
+    A diferencia del diario, acepta carpetas SOLO con foto (título = nombre de la carpeta)."""
+    fotos = [p for p in sorted(carpeta.iterdir())
+             if p.is_file() and p.suffix.lower() in tr.IMG_EXTS]
+    if not fotos:
+        return None
+    docx = next((p for p in sorted(carpeta.iterdir())
+                 if p.is_file() and p.suffix.lower() in (".docx", ".txt")), None)
+    if docx:
+        volanta, titular, cuerpo = tr._parse_word(docx)
+    else:
+        volanta, titular, cuerpo = "", carpeta.name, []
+    return fotos, volanta, (titular or carpeta.name), "\n\n".join(cuerpo)
+
+
+def run_placa_radio(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
+    """ETAPA 1 de la foto-nota de la radio: subcarpeta con foto(s) (+ texto opcional) →
+    arma el reel branded de la foto y avisa para revisar. Sin Wix."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
+    base = _radio_folder()
+    logger.info(f"=== Foto-nota RADIO (etapa 1) [{modo}] — folder='{folder}' ===")
+    carpeta = tr._find_folder(folder, base=base)
+    if not carpeta:
+        logger.error(f"No encontré la carpeta '{folder}' en {base}.")
+        return
+    datos = _placa_datos_radio(carpeta)
+    if not datos:
+        logger.error(f"'{folder}' necesita al menos una foto.")
+        return
+    fotos, volanta, titular, texto = datos
+
+    rows = tr._leer_ledger(LEDGER_RADIO)
+    fila = tr._buscar_fila(rows, carpeta.name)
+    if not dry_run and fila and fila.get("estado") in ("borrador_placa", "publicado_placa"):
+        logger.info(f"La foto-nota '{carpeta.name}' ya fue procesada (estado={fila['estado']}).")
+        return
+
+    if dry_run:
+        logger.info(f"[dry-run] foto-nota radio «{titular}»: {len(fotos)} foto(s). VOLANTA={volanta}")
+        return
+
+    reel_url = ""
+    try:
+        tr.WORK_DIR.mkdir(exist_ok=True)
+        reel = foto_a_reel(fotos, tr.WORK_DIR / f"placa_radio_{tr._slug(carpeta.name)}.mp4",
+                           zocalo=volanta or titular)
+        reel_url = upload_reel(reel)
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
+        return
+
+    if fila is None:
+        fila = {"file": carpeta.name}
+        rows.append(fila)
+    fila.update({
+        "canal": "radio", "es_placa": True,
+        "uploader": uploader or fila.get("uploader", ""),
+        "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
+        "hay_noticia": True, "volanta": volanta, "titulo": titular, "texto": texto,
+        "reel_url": reel_url, "estado": "borrador_placa",
+    })
+    tr._guardar_ledger(rows, LEDGER_RADIO)
+    logger.info(f"Foto-nota radio registrada (estado=borrador_placa).")
+
+    intro = (f"<h2 style='color:#e2620c'>Foto-nota por revisar · Radio del Centro</h2>"
+             f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · {len(fotos)} foto(s)</p>"
+             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
+             f"<p style='white-space:pre-wrap'>{_hesc(texto)}</p>"
+             f"<p>Al aprobar, sale un <b>reel de la foto</b> a Instagram y Facebook @diarioyradio.</p>")
+    tr._enviar_aviso(f"Foto-nota por revisar (Radio): {titular}",
+                     f"Foto-nota de la radio por revisar: «{titular}». Aprobala desde el botón del mail.",
+                     html=_html_aviso(intro, carpeta.name, reel_url, kind="folder"), destino=_notify())
+    logger.info("=== Foto-nota RADIO (etapa 1): fin ===")
+
+
+def run_placa_radio_publish(folder: str = "", dry_run: bool = False) -> None:
+    """ETAPA 2 de la foto-nota de la radio: postea el reel de la foto a IG/FB. Sin Wix."""
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    logger.info(f"=== Foto-nota RADIO (etapa 2) [{modo}] — folder='{folder}' ===")
+    rows = tr._leer_ledger(LEDGER_RADIO)
+    fila = tr._buscar_fila(rows, folder) if folder else None
+    if fila is None:
+        pend = [r for r in rows if r.get("es_placa") and r.get("estado") == "borrador_placa"]
+        fila = pend[-1] if pend else None
+    if fila is None:
+        logger.error(f"No hay foto-nota pendiente para '{folder}'.")
+        return
+    if fila.get("estado") == "publicado_placa":
+        logger.info(f"La foto-nota '{fila['file']}' ya estaba publicada.")
+        return
+
+    titular = fila.get("titulo", "")
+    texto = fila.get("texto", "")
+    reel_url = fila.get("reel_url", "")
+    caption = f"{titular}\n\n{texto}\n\n📲 {tr._site()}".strip()
+
+    if dry_run:
+        logger.info(f"[dry-run] publicaría foto-nota radio «{titular}» (reel a IG/FB).")
+        return
+
+    plats = tr._platforms()
+    estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido"}
+    local_reel = None
+    if reel_url:
+        try:
+            tr.WORK_DIR.mkdir(exist_ok=True)
+            local_reel = tr._descargar(reel_url, tr.WORK_DIR / "placa_radio_pub.mp4")
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"No se pudo bajar el reel ({reel_url}): {e}")
+
+    if "instagram" in plats and reel_url:
+        try:
+            instagram.publish_reel(reel_url, caption); estado["instagram"] = "ok"
+            logger.info("[instagram] reel OK")
+        except Exception as e:  # noqa: BLE001
+            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
+    if "facebook" in plats and local_reel:
+        try:
+            facebook.publish_video(caption, local_reel); estado["facebook"] = "ok"
+            logger.info("[facebook] reel OK")
+        except Exception as e:  # noqa: BLE001
+            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
+
+    fila.update({"estado": "publicado_placa",
+                 "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
+                 "estado_canales": estado})
+    tr._guardar_ledger(rows, LEDGER_RADIO)
+    _avisar_estado_radio(fila, estado, {})
+    logger.info("=== Foto-nota RADIO (etapa 2): fin ===")

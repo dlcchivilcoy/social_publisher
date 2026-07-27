@@ -178,6 +178,27 @@ def main() -> None:
         action="store_true",
         help="Foto-nota (etapa 2, al aprobar): publica la nota web + la foto a FB/IG con todo el texto en el pie (con --file).",
     )
+    # ── RADIO DEL CENTRO (solo redes, sin Wix; Drive/Gemini de radiodelcentro) ──
+    parser.add_argument(
+        "--transcribe-video-radio",
+        action="store_true",
+        help="RADIO (etapa 1): desgraba video(s) de la carpeta de radiodelcentro y arma el reel + mail. SIN --file = ESCANEA todos los nuevos (cron). Solo redes, sin Wix.",
+    )
+    parser.add_argument(
+        "--publish-video-radio",
+        action="store_true",
+        help="RADIO (etapa 2, al aprobar): publica el reel a IG/FB @diarioyradio + Short al canal Radio del Centro (con --file).",
+    )
+    parser.add_argument(
+        "--placa-radio",
+        action="store_true",
+        help="RADIO foto-nota (etapa 1): subcarpeta con foto(s) a reel branded + mail para revisar (con --file). Solo redes.",
+    )
+    parser.add_argument(
+        "--placa-radio-publish",
+        action="store_true",
+        help="RADIO foto-nota (etapa 2, al aprobar): postea el reel de la foto a IG/FB (con --file).",
+    )
     parser.add_argument(
         "--limit",
         type=int,
@@ -321,6 +342,27 @@ def main() -> None:
         from transcriber import run_publish_video
         logger.info(f"Modo --publish-video (dry_run={args.dry_run}). file={args.file}")
         run_publish_video(file=args.file or "", dry_run=args.dry_run)
+        return
+    # ── RADIO DEL CENTRO (solo redes) ──
+    if args.transcribe_video_radio:
+        from transcriber_radio import run_transcribe_video_radio
+        logger.info(f"Modo --transcribe-video-radio (dry_run={args.dry_run}). file={args.file or '(scan)'}")
+        run_transcribe_video_radio(file=args.file or "", uploader=args.uploader or "", dry_run=args.dry_run)
+        return
+    if args.publish_video_radio:
+        from transcriber_radio import run_publish_video_radio
+        logger.info(f"Modo --publish-video-radio (dry_run={args.dry_run}). file={args.file}")
+        run_publish_video_radio(file=args.file or "", dry_run=args.dry_run)
+        return
+    if args.placa_radio:
+        from transcriber_radio import run_placa_radio
+        logger.info(f"Modo --placa-radio (dry_run={args.dry_run}). folder={args.file}")
+        run_placa_radio(folder=args.file or "", uploader=args.uploader or "", dry_run=args.dry_run)
+        return
+    if args.placa_radio_publish:
+        from transcriber_radio import run_placa_radio_publish
+        logger.info(f"Modo --placa-radio-publish (dry_run={args.dry_run}). folder={args.file}")
+        run_placa_radio_publish(folder=args.file or "", dry_run=args.dry_run)
         return
     if args.videos_report:
         from reporte import run_videos_report

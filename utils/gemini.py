@@ -33,7 +33,11 @@ def _gemini_keys(primary: str = "") -> list:
     se queda sin cuota, se sigue con la siguiente. Deduplicadas, sin vacías.
     Para sumar más margen: cargar GEMINI_API_KEY_2 / _3 / _4 en el .env. [ver _fallback_models]"""
     nombres = ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
-               "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT"]
+               "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT",
+               # Claves de radiodelcentro (desgrabador de la radio). Se suman al pool
+               # compartido como respaldo; el flujo radio las pasa como `primary`, así que
+               # las usa PRIMERO (ver transcribe_to_nota(api_key=...)).
+               "GEMINI_API_KEY_RADIO", "GEMINI_API_KEY_RADIO_2", "GEMINI_API_KEY_RADIO_3"]
     cand = [primary] + [get(n) or "" for n in nombres]
     out, visto = [], set()
     for k in cand:
@@ -607,15 +611,19 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
     return ajustada
 
 
-def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None) -> dict:
+def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
+                       api_key: str = "") -> dict:
     """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
 
     extra_text: texto que aportó el colaborador (archivo de la carpeta).
     image_paths: fotos anexadas (contexto). Devuelve dict con hay_noticia (bool),
     volanta, titulo, texto, resumen y mejor_momento_seg (float, segundos).
+    api_key: clave Gemini a usar como PRIMARIA (para el desgrabador de la radio, que usa
+    las claves de radiodelcentro `GEMINI_API_KEY_RADIO`). Si viene vacía, usa GEMINI_API_KEY.
+    En ambos casos se rota al resto del pool ante 429 (ver `_gemini_keys`).
     """
     media_path = Path(media_path)
-    key = get("GEMINI_API_KEY")
+    key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or "gemini-2.5-flash"

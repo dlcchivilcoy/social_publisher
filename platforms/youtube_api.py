@@ -85,6 +85,12 @@ def _credentials():
                        "Corré `python yt_auth.py` (local) o cargá YT_TOKEN_JSON (nube).")
 
 
+def radio_credentials():
+    """Alias público de las credenciales del canal RADIO DEL CENTRO. Lo usa el desgrabador
+    de la radio para subir el Short a ese canal: `upload_short(..., creds=radio_credentials())`."""
+    return _credentials()
+
+
 def _shorts_credentials():
     """Credenciales del canal DIARIO LA CAMPAÑA (Shorts del desgrabador)."""
     return _load_creds(_shorts_token_path(), "YT_SHORTS_TOKEN_JSON",
@@ -294,11 +300,16 @@ def set_thumbnail(video_id: str, image_path) -> dict:
 
 def upload_short(video_path, title: str, description: str, tags=None,
                  category_id: str = "25", privacy: str = "public",
-                 made_for_kids: bool = False) -> dict:
+                 made_for_kids: bool = False, creds=None) -> dict:
     """Sube el reel vertical como YouTube Short (videos.insert, subida reanudable).
 
     El video lo clasifica YouTube como Short por ser VERTICAL y ≤3 min (el reel del
     diario es 9:16 y ≤60s). Sumamos «#Shorts» a la descripción como refuerzo.
+
+    `creds`: credenciales OAuth a usar. Por defecto (None) sube al canal DIARIO LA CAMPAÑA
+    (`_shorts_credentials()`, token `.yt_token_diario.json`). El desgrabador de la RADIO pasa
+    `_credentials()` para subir al canal RADIO DEL CENTRO (token `.yt_token.json`). El scope
+    force-ssl de ese token también permite `videos.insert`.
 
     Devuelve {id, url, watch_url, embed_url, privacy}.
 
@@ -309,7 +320,7 @@ def upload_short(video_path, title: str, description: str, tags=None,
     cuota (de 10.000/día por defecto) → alcanza para varias notas por día.
     """
     from googleapiclient.http import MediaFileUpload
-    yt = _service(_shorts_credentials())  # canal Diario La Campaña
+    yt = _service(creds or _shorts_credentials())  # None → canal Diario La Campaña
 
     desc = description or ""
     if "#Shorts" not in desc and "#shorts" not in desc:
