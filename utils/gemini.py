@@ -473,15 +473,16 @@ def _img_part(path: Path) -> dict:
     return {"inline_data": {"mime_type": _mime(path), "data": b64}}
 
 
-def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3, key_pool=None) -> dict:
-    """Llama a Gemini generateContent con esos `parts` y el schema de nota, reintentando
+def _post_json(parts: list, key: str, model: str, schema: dict, temperature: float = 0.3,
+               key_pool=None) -> dict:
+    """Llama a Gemini generateContent con esos `parts` pidiendo JSON con `schema`, reintentando
     ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
             "temperature": temperature,
             "response_mime_type": "application/json",
-            "response_schema": _SCHEMA,
+            "response_schema": schema,
         },
     }
     r = _generate(model, payload, key, timeout=300, key_pool=key_pool)
@@ -490,6 +491,12 @@ def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3, 
         return json.loads(cand)
     except (KeyError, IndexError, json.JSONDecodeError) as e:
         raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+
+
+def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3, key_pool=None) -> dict:
+    """Atajo histórico: pide el JSON de NOTA completo (`_SCHEMA`) en UNA sola pasada.
+    Lo usan el camino legacy (tiro único) y `reescribir_a_dos_paginas`."""
+    return _post_json(parts, key, model, _SCHEMA, temperature=temperature, key_pool=key_pool)
 
 
 def _parse_nota(raw: dict) -> dict:
@@ -523,6 +530,245 @@ def _parse_nota(raw: dict) -> dict:
     return nota
 
 
+# ── Desgrabación en 3 PASOS (transcribir → redactar anclado → verificar) ──────
+# Anti-alucinación: en vez de pedirle a Gemini que "mire el video y escriba la nota" en un
+# solo tiro (donde rellena huecos con conocimiento del mundo y exagera), se separa en pasos a
+# temperatura 0:
+#   1) TRANSCRIBIR: audio/video → texto LITERAL (+ elige portada y segmentos, que necesitan
+#      VER el video). No interpreta ni resume.
+#   2) REDACTAR: escribe la nota USANDO SOLO el texto de la transcripción. Como trabaja sobre
+#      texto (no "escucha"), no confunde nombres y se le puede prohibir agregar lo que no esté.
+#   3) VERIFICAR: compara la nota contra la transcripción y saca/suaviza lo que no esté
+#      respaldado (contexto inventado, cifras/campeonatos/nombres que nadie dijo).
+# Kill-switch: GEMINI_NOTA_MULTIPASO=0 vuelve al tiro único (legacy). Ante un error que NO es de
+# cuota, el multipaso cae solo al legacy (nunca queda peor que antes); si es de cuota, deja subir
+# el error para que el llamador (radio) rote de proyecto/clave.
+
+_TRANSCRIBIR_PROMPT = (
+    "Sos un transcriptor profesional. Te paso un VIDEO (o audio). Tu ÚNICA tarea es TRANSCRIBIR "
+    "en español rioplatense (es-AR) EXACTAMENTE lo que se dice y lo que aparece escrito en "
+    "pantalla, palabra por palabra.\n"
+    "REGLAS ESTRICTAS (respetalas siempre):\n"
+    "• NO resumas, NO interpretes, NO corrijas, NO 'mejores' ni completes lo que se dice.\n"
+    "• NO agregues NADA que no esté en el audio o la pantalla: ni contexto, ni antecedentes, ni "
+    "datos, ni cifras, ni nombres, ni campeonatos, ni fechas, ni lugares.\n"
+    "• Respetá los NOMBRES PROPIOS, NÚMEROS y SIGLAS tal como se dicen. Si dudás de cómo se "
+    "escribe un nombre, transcribilo como suena; NO lo cambies por otro que 'te suene'.\n"
+    "• Si un tramo es inaudible o no se entiende, escribí [inaudible]; NO adivines.\n"
+    "• Marcá los cambios de hablante si se distinguen (ej. «Entrevistador:», «Entrevistado:»).\n"
+    "Devolvé EXACTAMENTE estos campos:\n"
+    "- transcripcion: la transcripción textual COMPLETA (todo lo hablado + texto en pantalla + "
+    "subtítulos). Si hay fotos de contexto con texto legible (carteles, placas, nombres), sumalo "
+    "al final bajo «CONTEXTO DE LAS FOTOS:», sin inventar.\n"
+    "- hay_audio: true si hay habla o texto legible suficiente para armar una nota; false si es "
+    "solo música, ruido o imágenes sin información.\n"
+    "- mejor_momento_seg: el SEGUNDO del video (número entero) con el cuadro más representativo, "
+    "llamativo o polémico, idealmente con TEXTO en pantalla que se entienda de qué trata. Si no lo "
+    "podés determinar, devolvé 0.\n"
+    "- segmentos_destacados: SOLO si el video dura MÁS de 60 segundos. Elegí POCOS tramos (1 a 3) "
+    "{inicio, fin} en segundos con las mejores partes para entender la noticia. Cada tramo debe "
+    "EMPEZAR y TERMINAR en puntos naturales (una pausa, el final de una frase o idea, un cambio de "
+    "plano), NUNCA a mitad de palabra o frase; de al menos 8 segundos; en orden cronológico y sin "
+    "solaparse; juntos deben sumar entre 45 y 60 segundos. Si dura 60s o menos, devolvé [].\n"
+)
+
+_TRANSCRIPCION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "transcripcion": {"type": "string"},
+        "hay_audio": {"type": "boolean"},
+        "mejor_momento_seg": {"type": "number"},
+        "segmentos_destacados": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"inicio": {"type": "number"}, "fin": {"type": "number"}},
+                "required": ["inicio", "fin"],
+            },
+        },
+    },
+    "required": ["transcripcion", "hay_audio", "mejor_momento_seg", "segmentos_destacados"],
+}
+
+_REDACTAR_PROMPT = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy (Argentina). Te paso "
+    "la TRANSCRIPCIÓN TEXTUAL de un video. Con ESO —y SOLO eso— armá UNA noticia en español "
+    "rioplatense (es-AR), estilo periodístico, tercera persona.\n"
+    "REGLA DE ORO — FIDELIDAD ABSOLUTA A LA TRANSCRIPCIÓN:\n"
+    "• Usá ÚNICAMENTE información EXPLÍCITA en la transcripción (y en el contexto que aporte el "
+    "redactor). PROHIBIDO agregar contexto histórico, antecedentes, cifras, fechas, nombres, "
+    "cargos, lugares, campeonatos, récords o cualquier dato que la transcripción NO diga. Si no "
+    "está, NO existe para la nota.\n"
+    "• PROHIBIDO exagerar, dramatizar o endurecer lo dicho. Mantené la magnitud y el tono "
+    "originales: si alguien dice «jugué algunos partidos», NO escribas «brilló» ni «fue figura».\n"
+    "• Copiá los NOMBRES PROPIOS, NÚMEROS y SIGLAS TAL CUAL están en la transcripción.\n"
+    "• Ante la duda, poné MENOS: mejor una nota más corta y 100% fiel que una más larga con un "
+    "dato inventado.\n"
+    "Devolvé EXACTAMENTE estos campos:\n"
+    "- hay_noticia: true si la transcripción alcanza para una nota REAL; false si no.\n"
+    "- volanta: antetítulo corto (2 a 5 palabras), sin punto final. Vacío si hay_noticia es false.\n"
+    "- titulo: titular claro y fiel (máx ~90 caracteres), sin punto final. Puede ser una cita "
+    "breve y textual. Vacío si false.\n"
+    "- texto: cuerpo en párrafos separados por línea en blanco (\\n\\n). ORDENALO POR TEMAS, no "
+    "minuto a minuto. Cerrá recuperando una idea fuerte o un dato del entrevistado. La extensión "
+    "la manda el material: si es breve, priorizá FIDELIDAD antes que extensión, sin rellenar ni "
+    "repetir. Vacío si false.\n"
+    "- resumen: resumen para redes (máx 280 caracteres): quién habla, qué sostiene y por qué "
+    "importa. Vacío si false.\n"
+    "- zocalo: texto del zócalo del reel, MÁXIMO 5 PALABRAS, sin punto ni comillas: el nombre y "
+    "apellido de quien habla (y cargo si entra), o de qué se trata el hecho («Choque en Ruta 30»). "
+    "Vacío si hay_noticia es false.\n"
+    "CRITERIO EDITORIAL: usá comillas solo para frases claras de la transcripción; si una frase "
+    "suena dudosa o cortada, parafraseala. No agregues firma ni autor.\n"
+)
+
+_REDACCION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "hay_noticia": {"type": "boolean"},
+        "volanta": {"type": "string"},
+        "titulo": {"type": "string"},
+        "texto": {"type": "string"},
+        "resumen": {"type": "string"},
+        "zocalo": {"type": "string"},
+    },
+    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "zocalo"],
+}
+
+_VERIFICAR_PROMPT = (
+    "Sos un EDITOR VERIFICADOR estricto de «Diario La Campaña» / «Radio del Centro». Te paso una "
+    "TRANSCRIPCIÓN textual y una NOTA redactada a partir de ella. Revisá la nota AFIRMACIÓN POR "
+    "AFIRMACIÓN contra la transcripción y devolvé la MISMA nota pero CORREGIDA de modo que CADA "
+    "dato quede respaldado por la transcripción:\n"
+    "• ELIMINÁ todo lo que la transcripción NO diga: contexto histórico, antecedentes, cifras, "
+    "fechas, campeonatos, récords, cargos, lugares o nombres inventados o supuestos.\n"
+    "• SUAVIZÁ cualquier exageración o dramatización hasta dejarla igual de fuerte que en la "
+    "transcripción (ni más ni menos).\n"
+    "• CORREGÍ los nombres propios, números y siglas que no coincidan con la transcripción.\n"
+    "• NO inventes datos nuevos para 'tapar' lo que sacaste: si al quitar algo el párrafo queda "
+    "corto, dejalo corto. Conservá el estilo, la volanta y el título salvo que tengan un error.\n"
+    "• Si tras la limpieza no queda información suficiente para una nota, poné hay_noticia=false.\n"
+    "Devolvé EXACTAMENTE: hay_noticia, volanta, titulo, texto, resumen, zocalo (mismos campos y "
+    "límites que la nota original) y ADEMÁS:\n"
+    "- correcciones: lista breve (puede ser []) de qué sacaste, suavizaste o corregiste y por qué "
+    "(ej. «saqué 'Mundial femenino': no se menciona en la transcripción»).\n"
+)
+
+_VERIF_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "hay_noticia": {"type": "boolean"},
+        "volanta": {"type": "string"},
+        "titulo": {"type": "string"},
+        "texto": {"type": "string"},
+        "resumen": {"type": "string"},
+        "zocalo": {"type": "string"},
+        "correcciones": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["hay_noticia", "volanta", "titulo", "texto", "resumen", "zocalo", "correcciones"],
+}
+
+
+def _multipaso_on() -> bool:
+    """True si la desgrabación en 3 pasos está activa (default). GEMINI_NOTA_MULTIPASO=0 vuelve
+    al tiro único legacy."""
+    return str(get("GEMINI_NOTA_MULTIPASO", "1")).strip().lower() not in ("0", "no", "false", "off")
+
+
+def _es_cuota(e: Exception) -> bool:
+    """Detecta un error de CUOTA/saturación de Gemini (mismo criterio que transcriber_radio).
+    Ante cuota NO caemos a legacy: dejamos subir el error para que el llamador rote de clave."""
+    m = str(e).lower()
+    return any(s in m for s in ("429", "quota", "resource_exhausted", "exhausted", "rate limit"))
+
+
+def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
+                    key_pool=None, instrucciones: str = "") -> dict:
+    """Desgraba en 3 pasos (transcribir → redactar anclado → verificar), todo a temperatura 0.
+    `media_part` es la parte de Gemini con el video/audio (subido o file_uri); `img_parts` son las
+    fotos de contexto ya convertidas a partes. Devuelve la nota normalizada por `_parse_nota`."""
+    # Paso 1 — transcripción literal + elección de portada/segmentos (mira el video).
+    t_prompt = _TRANSCRIBIR_PROMPT
+    if (extra_text or "").strip():
+        t_prompt += ("\nCONTEXTO (usalo SOLO para escribir bien nombres propios, cargos, lugares y "
+                     "siglas; NO para agregar hechos):\n" + extra_text.strip())
+    t_raw = _post_json([{"text": t_prompt}, media_part] + list(img_parts), key, model,
+                       _TRANSCRIPCION_SCHEMA, temperature=0.0, key_pool=key_pool)
+    transcripcion = str(t_raw.get("transcripcion", "")).strip()
+    hay_audio = bool(t_raw.get("hay_audio", True))
+    try:
+        momento = float(t_raw.get("mejor_momento_seg") or 0)
+    except (TypeError, ValueError):
+        momento = 0.0
+    segmentos = t_raw.get("segmentos_destacados") or []
+    logger.info(f"  Paso 1/3 (transcribir): {len(transcripcion)} chars · hay_audio={hay_audio} · "
+                f"mejor_seg={momento:.0f} · {len(segmentos)} segmento(s)")
+    if not hay_audio or len(transcripcion) < 25:
+        return _parse_nota({"hay_noticia": False, "mejor_momento_seg": momento,
+                            "segmentos_destacados": segmentos})
+
+    # Paso 2 — redacción anclada (SOLO sobre el texto de la transcripción).
+    r_prompt = _REDACTAR_PROMPT
+    if (instrucciones or "").strip():
+        r_prompt += "\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip()
+    if (extra_text or "").strip():
+        r_prompt += "\nDATOS/CONTEXTO que aportó el redactor (podés usarlos como fuente):\n" + extra_text.strip()
+    r_prompt += "\n\nTRANSCRIPCIÓN (única fuente de la nota):\n" + transcripcion
+    r_raw = _post_json([{"text": r_prompt}], key, model, _REDACCION_SCHEMA, temperature=0.0,
+                       key_pool=key_pool)
+    logger.info(f"  Paso 2/3 (redactar): hay_noticia={bool(r_raw.get('hay_noticia'))} · "
+                f"«{str(r_raw.get('titulo', ''))[:60]}»")
+
+    # Paso 3 — verificación anti-alucinación (best-effort; si falla, queda el paso 2).
+    nota_raw = dict(r_raw)
+    if bool(r_raw.get("hay_noticia")):
+        try:
+            borrador = {k: r_raw.get(k, "") for k in ("volanta", "titulo", "texto", "resumen", "zocalo")}
+            v_prompt = (_VERIFICAR_PROMPT + "\n\nTRANSCRIPCIÓN:\n" + transcripcion +
+                        "\n\nNOTA A VERIFICAR (JSON):\n" + json.dumps(borrador, ensure_ascii=False))
+            v_raw = _post_json([{"text": v_prompt}], key, model, _VERIF_SCHEMA, temperature=0.0,
+                               key_pool=key_pool)
+            correcciones = [str(c).strip() for c in (v_raw.get("correcciones") or []) if str(c).strip()]
+            if (v_raw.get("texto") or "").strip():
+                nota_raw = dict(v_raw)
+            if correcciones:
+                logger.info(f"  Paso 3/3 (verificar): {len(correcciones)} corrección(es) → "
+                            + " | ".join(correcciones[:6]))
+            else:
+                logger.info("  Paso 3/3 (verificar): sin observaciones.")
+        except Exception as e:  # noqa: BLE001
+            if _es_cuota(e):
+                raise
+            logger.warning(f"  Paso 3/3 (verificar) falló ({e}); uso la nota del paso 2.")
+
+    nota_raw["mejor_momento_seg"] = momento
+    nota_raw["segmentos_destacados"] = segmentos
+    return _parse_nota(nota_raw)
+
+
+def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
+                  key_pool=None, legacy_temp: float = 0.4, instrucciones: str = "") -> dict:
+    """Genera la nota a partir de la parte de medio ya construida. Usa el flujo en 3 pasos
+    (default) y, ante un error que NO es de cuota, cae al tiro ÚNICO legacy (PROMPT_BASE) para no
+    quedar nunca peor que antes. El error de cuota se re-lanza para que el llamador rote de clave."""
+    if _multipaso_on():
+        try:
+            return _nota_multipaso(media_part, img_parts, extra_text, key, model, key_pool, instrucciones)
+        except Exception as e:  # noqa: BLE001
+            if _es_cuota(e):
+                raise
+            logger.warning(f"Desgrabación en 3 pasos falló ({e}); caigo al tiro único (legacy).")
+    prompt = PROMPT_BASE
+    if (instrucciones or "").strip():
+        prompt += "\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip()
+    if (extra_text or "").strip():
+        prompt += ("\nDATOS/CONTEXTO que aportó el redactor (tenelo MUY en cuenta para la nota):\n"
+                   + extra_text.strip())
+    raw = _post_generate([{"text": prompt}, media_part] + list(img_parts), key, model,
+                         temperature=legacy_temp, key_pool=key_pool)
+    return _parse_nota(raw)
+
+
 def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "",
                            api_key: str = "") -> dict:
     """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
@@ -536,17 +782,12 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or "gemini-2.5-flash"
-    prompt = PROMPT_BASE
-    if (instrucciones or "").strip():
-        prompt += ("\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip())
-    if (extra_text or "").strip():
-        prompt += ("\nDATOS/CONTEXTO adicional (tenelo MUY en cuenta para la nota):\n"
-                   + extra_text.strip())
-    parts = [{"text": prompt}, {"file_data": {"file_uri": url}}]
+    media_part = {"file_data": {"file_uri": url}}
     logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
-    # Temperatura baja: prioriza fidelidad (nombres bien escritos) y evita repeticiones.
-    raw = _post_generate(parts, key, model, temperature=0.3)
-    nota = _parse_nota(raw)
+    # Flujo en 3 pasos (transcribir → redactar anclado → verificar), a temperatura 0: prioriza
+    # fidelidad (nombres bien escritos) y evita invenciones. Legacy (tiro único) con temp 0.3.
+    nota = _generar_nota(media_part, [], extra_text or "", key, model, key_pool=None,
+                         legacy_temp=0.3, instrucciones=instrucciones)
     logger.info(f"Gemini OK (YouTube): hay_noticia={nota['hay_noticia']} | "
                 f"«{nota['volanta']} — {nota['titulo']}»")
     return nota
@@ -638,33 +879,30 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
     mime = _mime(media_path)
 
-    prompt = PROMPT_BASE
-    if (extra_text or "").strip():
-        prompt += ("\nDATOS/CONTEXTO que aportó el redactor (tenelo MUY en cuenta para la nota):\n"
-                   + extra_text.strip())
-
-    parts = [{"text": prompt}]
+    # Parte del medio: si es video, se sube a la Files API; si es audio, va inline.
     file_name = None
     if media_path.suffix.lower() in _VIDEO_EXT:
         logger.info(f"Gemini: subiendo video {media_path.name} ({media_path.stat().st_size//1024} KB) a la Files API…")
         info = _subir_archivo(media_path, mime, key)
         info = _esperar_activo(info["name"], key)
         file_name = info["name"]
-        parts.append({"file_data": {"mime_type": mime, "file_uri": info["uri"]}})
+        media_part = {"file_data": {"mime_type": mime, "file_uri": info["uri"]}}
     else:  # audio u otro: inline base64
         b64 = base64.b64encode(media_path.read_bytes()).decode("ascii")
-        parts.append({"inline_data": {"mime_type": mime, "data": b64}})
+        media_part = {"inline_data": {"mime_type": mime, "data": b64}}
 
+    img_parts = []
     for img in (image_paths or [])[:3]:
         try:
-            parts.append(_img_part(Path(img)))
+            img_parts.append(_img_part(Path(img)))
         except Exception as e:
             logger.warning(f"No se pudo adjuntar la foto de contexto {img}: {e}")
 
     logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                 f"{len(image_paths or [])} foto(s))…")
     try:
-        raw = _post_generate(parts, key, model, temperature=0.4, key_pool=key_pool)
+        nota = _generar_nota(media_part, img_parts, extra_text or "", key, model,
+                             key_pool=key_pool, legacy_temp=0.4)
     finally:
         if file_name:  # borrar el archivo subido (best-effort)
             try:
@@ -672,7 +910,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
             except Exception:
                 pass
 
-    nota = _parse_nota(raw)
+    # nota ya viene normalizada por _generar_nota (_parse_nota).
     logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                 f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
     return nota
