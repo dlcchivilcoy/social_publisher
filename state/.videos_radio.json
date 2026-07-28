@@ -227,6 +227,19 @@
     "texto": "En esta campaña se aplicó la segunda vacuna como refuerzo a terneros y terneras. En total, se vacunaron 11.400 animales.",
     "zocalo": "Vacunación de terneros",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_enrique-cartier.mp4",
-    "estado": "listo"
+    "estado": "publicado",
+    "fecha_publicado": "2026-07-28T17:57:30",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok"
+    },
+    "ig_media_id": "18170013364439829",
+    "fb_video_id": "2253934535418665",
+    "yt_video_id": "y-5dgLGkVT0",
+    "yt_url": "https://www.youtube.com/shorts/y-5dgLGkVT0",
+    "yt_titulo": "Campaña de refuerzo para terneros: se vacunaron 11.400 animales",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-07-28T17:57:30"
   }
 ]
