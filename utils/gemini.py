@@ -682,13 +682,120 @@ def _es_cuota(e: Exception) -> bool:
     return any(s in m for s in ("429", "quota", "resource_exhausted", "exhausted", "rate limit"))
 
 
+# ── Glosario de nombres propios locales (Fase 2) ──────────────────────────────
+def _glosario() -> str:
+    """Lee el glosario de nombres propios locales (una línea por término, '#' = comentario).
+    Ruta: DESGRABADOR_GLOSARIO o `glosario.txt` en la raíz del repo. Devuelve los términos unidos
+    por ', ' (o '' si no hay). Se inyecta en la transcripción para escribir bien los propios;
+    mejora solo cada vez que el usuario agrega un nombre al archivo (no hace falta tocar código)."""
+    ruta = (get("DESGRABADOR_GLOSARIO") or "").strip()
+    p = Path(ruta) if ruta else (Path(__file__).resolve().parent.parent / "glosario.txt")
+    try:
+        if not p.exists():
+            return ""
+        terminos = [s.strip() for s in p.read_text(encoding="utf-8").splitlines()
+                    if s.strip() and not s.strip().startswith("#")]
+        return ", ".join(terminos)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude leer el glosario {p}: {e}")
+        return ""
+
+
+# ── Groq Whisper como motor de transcripción del Paso 1 (Fase 2, OPCIONAL) ────
+# Se activa SOLO si hay GROQ_API_KEY (gratis en console.groq.com). Sin la clave, todo sigue con
+# la transcripción de Gemini (Fase 1). Groq da mejores NOMBRES PROPIOS/números que la ASR interna
+# de Gemini, pero solo transcribe AUDIO (no lee el texto en pantalla). La portada y los segmentos
+# los sigue eligiendo Gemini mirando el video.
+GROQ_ASR_URL = "https://api.groq.com/openai/v1/audio/transcriptions"
+
+
+def _groq_key() -> str:
+    return (get("GROQ_API_KEY") or "").strip()
+
+
+def _groq_on() -> bool:
+    return bool(_groq_key()) and str(get("ASR_GROQ", "1")).strip().lower() not in ("0", "no", "false", "off")
+
+
+def _groq_model() -> str:
+    """Modelo de Groq. Default whisper-large-v3 (mejor calidad). Para más velocidad/cuota:
+    whisper-large-v3-turbo. Configurable con GROQ_ASR_MODEL."""
+    return get("GROQ_ASR_MODEL") or "whisper-large-v3"
+
+
+def _extraer_audio(media_local_path):
+    """Extrae el audio de un video/audio local a un mp3 chico (mono 16 kHz) para mandarlo a Groq
+    por debajo de su límite de tamaño. Devuelve la ruta temporal o None si falla."""
+    import subprocess
+    import tempfile
+    try:
+        from video import _ffmpeg  # import perezoso: evita cualquier import circular
+        ff = _ffmpeg()
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Groq: no ubico ffmpeg ({e}); sigo con la transcripción de Gemini.")
+        return None
+    src = Path(media_local_path)
+    out = Path(tempfile.gettempdir()) / f"asr_{src.stem}_{int(time.time())}.mp3"
+    cmd = [ff, "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
+           "-vn", "-ac", "1", "-ar", "16000", "-b:a", "64k", str(out)]
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode != 0 or not out.exists() or out.stat().st_size == 0:
+            logger.warning("Groq: ffmpeg no pudo extraer el audio; sigo con la transcripción de Gemini.")
+            return None
+        return out
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Groq: error extrayendo audio ({e}); sigo con la transcripción de Gemini.")
+        return None
+
+
+def _transcribir_groq(media_local_path, prompt_hint: str = ""):
+    """Transcribe el AUDIO de un archivo local con Groq Whisper (español, temperatura 0).
+    `prompt_hint` (el glosario) sesga hacia los nombres propios locales. Best-effort: cualquier
+    error devuelve None y se usa la transcripción de Gemini."""
+    key = _groq_key()
+    if not key:
+        return None
+    audio = _extraer_audio(media_local_path)
+    if audio is None:
+        return None
+    try:
+        with open(audio, "rb") as fh:
+            files = {"file": (audio.name, fh, "audio/mpeg")}
+            data = {"model": _groq_model(), "language": "es", "temperature": "0",
+                    "response_format": "json"}
+            if (prompt_hint or "").strip():
+                data["prompt"] = prompt_hint.strip()[:1000]  # Whisper pondera la pista hasta ~224 tokens
+            logger.info(f"  Paso 1b (Groq {_groq_model()}): transcribiendo audio…")
+            r = requests.post(GROQ_ASR_URL, headers={"Authorization": f"Bearer {key}"},
+                              files=files, data=data, timeout=300)
+        if r.status_code >= 400:
+            logger.warning(f"Groq {r.status_code}: {r.text[:200]}; sigo con la transcripción de Gemini.")
+            return None
+        return str(r.json().get("text", "")).strip() or None
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Groq falló ({e}); sigo con la transcripción de Gemini.")
+        return None
+    finally:
+        try:
+            audio.unlink()
+        except Exception:
+            pass
+
+
 def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
-                    key_pool=None, instrucciones: str = "") -> dict:
+                    key_pool=None, instrucciones: str = "", media_local_path=None) -> dict:
     """Desgraba en 3 pasos (transcribir → redactar anclado → verificar), todo a temperatura 0.
     `media_part` es la parte de Gemini con el video/audio (subido o file_uri); `img_parts` son las
-    fotos de contexto ya convertidas a partes. Devuelve la nota normalizada por `_parse_nota`."""
+    fotos de contexto ya convertidas a partes. `media_local_path`: ruta local del medio (si la hay);
+    con GROQ_API_KEY se usa Groq Whisper para la transcripción del Paso 1 (mejores nombres propios).
+    Devuelve la nota normalizada por `_parse_nota`."""
+    glosario = _glosario()
     # Paso 1 — transcripción literal + elección de portada/segmentos (mira el video).
     t_prompt = _TRANSCRIBIR_PROMPT
+    if glosario:
+        t_prompt += ("\nNOMBRES PROPIOS LOCALES (si aparecen en el audio, escribilos EXACTAMENTE "
+                     "así; son de la zona y se suelen transcribir mal):\n" + glosario)
     if (extra_text or "").strip():
         t_prompt += ("\nCONTEXTO (usalo SOLO para escribir bien nombres propios, cargos, lugares y "
                      "siglas; NO para agregar hechos):\n" + extra_text.strip())
@@ -706,6 +813,14 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
     if not hay_audio or len(transcripcion) < 25:
         return _parse_nota({"hay_noticia": False, "mejor_momento_seg": momento,
                             "segmentos_destacados": segmentos})
+
+    # Paso 1b (opcional) — re-transcribir el AUDIO con Groq Whisper para clavar nombres/números
+    # (Gemini ya dio portada y segmentos). Solo si hay GROQ_API_KEY y una ruta local del medio.
+    if media_local_path and _groq_on():
+        g_txt = _transcribir_groq(media_local_path, glosario)
+        if g_txt and len(g_txt) >= 25:
+            logger.info(f"  Paso 1b (Groq): transcripción reemplazada por la de Groq ({len(g_txt)} chars).")
+            transcripcion = g_txt
 
     # Paso 2 — redacción anclada (SOLO sobre el texto de la transcripción).
     r_prompt = _REDACTAR_PROMPT
@@ -747,13 +862,16 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
 
 
 def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
-                  key_pool=None, legacy_temp: float = 0.4, instrucciones: str = "") -> dict:
+                  key_pool=None, legacy_temp: float = 0.4, instrucciones: str = "",
+                  media_local_path=None) -> dict:
     """Genera la nota a partir de la parte de medio ya construida. Usa el flujo en 3 pasos
     (default) y, ante un error que NO es de cuota, cae al tiro ÚNICO legacy (PROMPT_BASE) para no
-    quedar nunca peor que antes. El error de cuota se re-lanza para que el llamador rote de clave."""
+    quedar nunca peor que antes. El error de cuota se re-lanza para que el llamador rote de clave.
+    `media_local_path`: ruta local del medio (si la hay), para el motor Groq del Paso 1."""
     if _multipaso_on():
         try:
-            return _nota_multipaso(media_part, img_parts, extra_text, key, model, key_pool, instrucciones)
+            return _nota_multipaso(media_part, img_parts, extra_text, key, model, key_pool,
+                                   instrucciones, media_local_path=media_local_path)
         except Exception as e:  # noqa: BLE001
             if _es_cuota(e):
                 raise
@@ -902,7 +1020,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
                 f"{len(image_paths or [])} foto(s))…")
     try:
         nota = _generar_nota(media_part, img_parts, extra_text or "", key, model,
-                             key_pool=key_pool, legacy_temp=0.4)
+                             key_pool=key_pool, legacy_temp=0.4, media_local_path=media_path)
     finally:
         if file_name:  # borrar el archivo subido (best-effort)
             try:

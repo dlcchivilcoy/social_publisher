@@ -1,0 +1,29 @@
+# Glosario de NOMBRES PROPIOS locales para el desgrabador.
+#
+# Para qué sirve: se le pasa a la desgrabación (a Gemini y, si está activo, a Groq
+# Whisper) para que escriba BIEN los nombres propios, cargos, instituciones, clubes,
+# barrios y siglas de la zona, que la IA suele transcribir mal por ser locales.
+#
+# Cómo se usa:
+#   - Un término por línea.
+#   - Las líneas que empiezan con "#" y las vacías se ignoran (son comentarios).
+#   - Podés poner el nombre y, opcional, una aclaración corta después de "—"
+#     (ej.: "Cerámica — club de fútbol de Chivilcoy"). Se manda tal cual como pista.
+#   - CADA vez que veas un nombre mal escrito en una nota, agregalo acá: el sistema
+#     mejora solo con el tiempo. No hace falta tocar código ni redeployar la nube;
+#     este archivo viaja en el repo (commit + push y listo).
+#
+# Ruta configurable con DESGRABADOR_GLOSARIO en el .env (por defecto: este archivo).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Medios y marca
+Diario La Campaña
+Radio del Centro
+Chivilcoy
+
+# Lugares / instituciones de Chivilcoy (agregar los que hagan falta)
+Municipalidad de Chivilcoy
+Liga Chivilcoyana de Fútbol
+
+# Personas (agregar apellidos que la IA escriba mal, con la grafía correcta)
+# Ejemplo: Celeste Ferreiro
