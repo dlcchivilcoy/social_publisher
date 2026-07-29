@@ -404,8 +404,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
         reel_path = WORK_DIR / f"reel_{slug}.mp4"
         firma = _firma_texto() if es_corresponsal else None
-        # Zócalo = quién habla, o de qué se trata el hecho (lo elige Gemini, 5 palabras).
-        reel = to_vertical_reel(video, reel_path, firma=firma, zocalo=nota.get("zocalo", ""))
+        # El diario va SIN el overlay del diario ni el texto del zócalo (pedido del usuario
+        # 2026-07-27): queda fondo naranja + logo + placa final. La radio (transcriber_radio)
+        # sí lleva overlay + zócalo. (El zócalo de Gemini se sigue guardando en el ledger.)
+        reel = to_vertical_reel(video, reel_path, firma=firma, overlay=False)
 
         if dry_run:
             logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
@@ -896,15 +898,15 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         except Exception as e:
             estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
 
-    # REEL: la/s foto/s convertida/s a un reel vertical con el MISMO branding que los
-    # videos (fondo naranja + logo + overlay con zócalo + placa de cierre), ~30 s. El
-    # zócalo sale de la volanta (o del titular si no hay), como el fallback de los videos.
+    # REEL: la/s foto/s convertida/s a un reel vertical branded (fondo naranja + logo +
+    # placa de cierre), ~30 s, SIN el overlay del diario ni el texto del zócalo (pedido del
+    # usuario 2026-07-27). La radio (transcriber_radio.run_placa_radio) sí lleva overlay+zócalo.
     reel_url, reel_local = "", None
     try:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4",
-                                 zocalo=volanta or titular)
+                                 overlay=False)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")

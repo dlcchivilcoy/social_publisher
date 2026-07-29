@@ -350,7 +350,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
 
 def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
                      firma: str | None = None, logo: bool = True,
-                     placa_final: bool = True, zocalo: str | None = None) -> Path:
+                     placa_final: bool = True, zocalo: str | None = None,
+                     overlay: bool = True) -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
@@ -360,8 +361,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     inferior con ese texto (la firma de la Red de Corresponsales).
 
     `logo=True` estampa el isotipo del diario arriba a la izquierda, el OVERLAY del diario
-    (marco + caja del zócalo + barra con la web y las redes) va siempre con el `zocalo`
-    escrito adentro, y `placa_final=True` agrega al final la placa "Seguinos en redes"
+    (marco + caja del zócalo + barra con la web y las redes) va con el `zocalo` escrito
+    adentro SOLO si `overlay=True` (default; `overlay=False` saca el marco y el texto del
+    zócalo de una), y `placa_final=True` agrega al final la placa "Seguinos en redes"
     (5 s). Si el video trae BARRAS NEGRAS horneadas (apaisado dentro de un cuadro vertical,
     o directamente apaisado), se las recorta y el marco naranja tapa ese negro. Todo se
     apaga o se cambia por `.env` (REEL_LOGO / REEL_FONDO / REEL_OVERLAY / REEL_PLACA_FINAL /
@@ -371,17 +373,20 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
     placa = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
     seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
-    overlay = overlay_con_zocalo(zocalo or "", salida.parent / f"overlay_{salida.stem}.png")
+    # `overlay=False` saca el marco del diario (esquinas + caja del zócalo + barra web/redes)
+    # Y con él el texto del zócalo (va dibujado adentro). Lo usa el diario; la radio deja True.
+    overlay_png = (overlay_con_zocalo(zocalo or "", salida.parent / f"overlay_{salida.stem}.png")
+                   if overlay else None)
     # Contenido real del video (sin las barras negras) → con eso se calcula el marco.
     recorte = detectar_recorte(src)
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
     fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
-    marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay, placa=placa,
+    marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
                  seg_placa=seg_placa, recorte=recorte)
     try:
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
     except Exception as e:
-        if not (fondo or logo_png or overlay or placa or recorte):
+        if not (fondo or logo_png or overlay_png or placa or recorte):
             raise
         # Si la marca hiciera fallar el filtergraph, el reel PELADO igual sale: nunca
         # se pierde la publicación por el fondo, el recorte, el logo, el overlay o la placa.
@@ -420,7 +425,7 @@ def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
 
 
 def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None = None,
-                firma: str | None = None) -> Path:
+                firma: str | None = None, overlay: bool = True) -> Path:
     """Convierte una FOTO (o varias) de una nota en un reel vertical 9:16 con el MISMO
     criterio estético que los videos: fondo naranja que enmarca, logo arriba a la
     izquierda, overlay del diario con el ZÓCALO escrito, y la placa de cierre «Seguinos
@@ -454,7 +459,8 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
         build_slideshow(slides, base, seg=por, fade=0.6)
     logger.info(f"Foto-reel: {len(fotos)} foto(s) → {seg_cont:.0f}s de contenido + placa "
                 f"(branding igual que los videos)")
-    return to_vertical_reel(base, salida, audio=False, firma=firma, zocalo=zocalo or "")
+    return to_vertical_reel(base, salida, audio=False, firma=firma, zocalo=zocalo or "",
+                            overlay=overlay)
 
 
 def frame_at(src, seconds, salida) -> Path:
