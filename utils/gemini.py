@@ -544,6 +544,28 @@ def _parse_nota(raw: dict) -> dict:
 # cuota, el multipaso cae solo al legacy (nunca queda peor que antes); si es de cuota, deja subir
 # el error para que el llamador (radio) rote de proyecto/clave.
 
+# Regla compartida (redacción + verificación) para NOMBRES PROPIOS y SIGLAS. El reconocimiento de
+# voz los escribe fonéticos (ej. «CASMA» por «CAZMA»); la grafía correcta la manda el CONTEXTO/
+# TÍTULO original del video, no el audio. Y si no hay seguridad total, no se escribe (pedido del
+# usuario 2026-07-29).
+_SIGLAS_RULE = (
+    "\nNOMBRES PROPIOS Y SIGLAS — LA GRAFÍA LA MANDA EL CONTEXTO/TÍTULO, NO EL AUDIO (el "
+    "reconocimiento de voz los escribe fonéticos y los equivoca mucho):\n"
+    "• Si un nombre propio o una sigla que aparece en la transcripción figura escrito distinto de "
+    "como está en el CONTEXTO o en el TÍTULO ORIGINAL del video (ej. «CASMA» en el audio vs "
+    "«CAZMA» en el título), usá SIEMPRE la grafía del contexto/título, NO la fonética de la "
+    "transcripción. (Esto es solo para CORREGIR la escritura de algo que YA está en la "
+    "transcripción; NO habilita agregar nombres nuevos que no se mencionen.)\n"
+    "• Sigla que NO esté en el contexto/título: deducí sus letras de las INICIALES de las palabras "
+    "del nombre de la organización tal como lo pronuncian (si dicen «Cámara Argentina de ... Zona "
+    "... Metropolitana ...», la sigla se arma con esas iniciales).\n"
+    "• Si NO tenés seguridad TOTAL de la grafía —ni por el contexto/título ni por las iniciales del "
+    "nombre pronunciado— NO escribas la sigla ni el nombre: usá una forma genérica («la cámara», "
+    "«la institución», «la entidad», «el organismo», «el club») u omitilo. SIEMPRE es preferible la "
+    "nota SIN la sigla que con la sigla equivocada.\n"
+)
+
+
 _TRANSCRIBIR_PROMPT = (
     "Sos un transcriptor profesional. Te paso un VIDEO (o audio). Tu ÚNICA tarea es TRANSCRIBIR "
     "en español rioplatense (es-AR) EXACTAMENTE lo que se dice y lo que aparece escrito en "
@@ -552,8 +574,10 @@ _TRANSCRIBIR_PROMPT = (
     "• NO resumas, NO interpretes, NO corrijas, NO 'mejores' ni completes lo que se dice.\n"
     "• NO agregues NADA que no esté en el audio o la pantalla: ni contexto, ni antecedentes, ni "
     "datos, ni cifras, ni nombres, ni campeonatos, ni fechas, ni lugares.\n"
-    "• Respetá los NOMBRES PROPIOS, NÚMEROS y SIGLAS tal como se dicen. Si dudás de cómo se "
-    "escribe un nombre, transcribilo como suena; NO lo cambies por otro que 'te suene'.\n"
+    "• NOMBRES PROPIOS y SIGLAS: si en el CONTEXTO o el TÍTULO ORIGINAL que se te pasa figura la "
+    "grafía de un nombre o una sigla que estás escuchando, escribilo con ESA grafía. Si no está "
+    "ahí y dudás, transcribilo como suena (no lo cambies por otro que 'te suene'); los pasos "
+    "siguientes deciden si se confirma u omite. NÚMEROS: tal como se dicen.\n"
     "• Si un tramo es inaudible o no se entiende, escribí [inaudible]; NO adivines.\n"
     "• Marcá los cambios de hablante si se distinguen (ej. «Entrevistador:», «Entrevistado:»).\n"
     "Devolvé EXACTAMENTE estos campos:\n"
@@ -601,9 +625,10 @@ _REDACTAR_PROMPT = (
     "está, NO existe para la nota.\n"
     "• PROHIBIDO exagerar, dramatizar o endurecer lo dicho. Mantené la magnitud y el tono "
     "originales: si alguien dice «jugué algunos partidos», NO escribas «brilló» ni «fue figura».\n"
-    "• Copiá los NOMBRES PROPIOS, NÚMEROS y SIGLAS TAL CUAL están en la transcripción.\n"
+    "• NÚMEROS: copialos TAL CUAL la transcripción. NOMBRES PROPIOS y SIGLAS: la grafía la manda el "
+    "CONTEXTO/TÍTULO (ver la regla del final), no la fonética de la transcripción.\n"
     "• Ante la duda, poné MENOS: mejor una nota más corta y 100% fiel que una más larga con un "
-    "dato inventado.\n"
+    "dato inventado o una sigla mal escrita.\n"
     "Devolvé EXACTAMENTE estos campos:\n"
     "- hay_noticia: true si la transcripción alcanza para una nota REAL; false si no.\n"
     "- volanta: antetítulo corto (2 a 5 palabras), sin punto final. Vacío si hay_noticia es false.\n"
@@ -620,7 +645,7 @@ _REDACTAR_PROMPT = (
     "Vacío si hay_noticia es false.\n"
     "CRITERIO EDITORIAL: usá comillas solo para frases claras de la transcripción; si una frase "
     "suena dudosa o cortada, parafraseala. No agregues firma ni autor.\n"
-)
+) + _SIGLAS_RULE
 
 _REDACCION_SCHEMA = {
     "type": "object",
@@ -644,15 +669,17 @@ _VERIFICAR_PROMPT = (
     "fechas, campeonatos, récords, cargos, lugares o nombres inventados o supuestos.\n"
     "• SUAVIZÁ cualquier exageración o dramatización hasta dejarla igual de fuerte que en la "
     "transcripción (ni más ni menos).\n"
-    "• CORREGÍ los nombres propios, números y siglas que no coincidan con la transcripción.\n"
+    "• NÚMEROS: que coincidan con la transcripción. NOMBRES PROPIOS y SIGLAS: corregí la grafía "
+    "según el CONTEXTO/TÍTULO (ver la regla del final); si el audio la transcribió fonética "
+    "(ej. «CASMA» por «CAZMA»), dejá la del contexto/título, y si no se puede confirmar, omitila.\n"
     "• NO inventes datos nuevos para 'tapar' lo que sacaste: si al quitar algo el párrafo queda "
     "corto, dejalo corto. Conservá el estilo, la volanta y el título salvo que tengan un error.\n"
     "• Si tras la limpieza no queda información suficiente para una nota, poné hay_noticia=false.\n"
     "Devolvé EXACTAMENTE: hay_noticia, volanta, titulo, texto, resumen, zocalo (mismos campos y "
     "límites que la nota original) y ADEMÁS:\n"
     "- correcciones: lista breve (puede ser []) de qué sacaste, suavizaste o corregiste y por qué "
-    "(ej. «saqué 'Mundial femenino': no se menciona en la transcripción»).\n"
-)
+    "(ej. «corregí 'CASMA' → 'CAZMA' según el título» o «saqué la sigla: no la pude confirmar»).\n"
+) + _SIGLAS_RULE
 
 _VERIF_SCHEMA = {
     "type": "object",
@@ -817,7 +844,9 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
     # Paso 1b (opcional) — re-transcribir el AUDIO con Groq Whisper para clavar nombres/números
     # (Gemini ya dio portada y segmentos). Solo si hay GROQ_API_KEY y una ruta local del medio.
     if media_local_path and _groq_on():
-        g_txt = _transcribir_groq(media_local_path, glosario)
+        # Hint para Whisper: glosario + contexto/título (así clava las siglas/nombres del título).
+        hint = "\n".join(x for x in (glosario, (extra_text or "").strip()) if x)
+        g_txt = _transcribir_groq(media_local_path, hint)
         if g_txt and len(g_txt) >= 25:
             logger.info(f"  Paso 1b (Groq): transcripción reemplazada por la de Groq ({len(g_txt)} chars).")
             transcripcion = g_txt
@@ -839,7 +868,9 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
     if bool(r_raw.get("hay_noticia")):
         try:
             borrador = {k: r_raw.get(k, "") for k in ("volanta", "titulo", "texto", "resumen", "zocalo")}
-            v_prompt = (_VERIFICAR_PROMPT + "\n\nTRANSCRIPCIÓN:\n" + transcripcion +
+            ctx = (("\n\nCONTEXTO/TÍTULO (autoridad para la grafía de nombres y siglas):\n"
+                    + extra_text.strip()) if (extra_text or "").strip() else "")
+            v_prompt = (_VERIFICAR_PROMPT + ctx + "\n\nTRANSCRIPCIÓN:\n" + transcripcion +
                         "\n\nNOTA A VERIFICAR (JSON):\n" + json.dumps(borrador, ensure_ascii=False))
             v_raw = _post_json([{"text": v_prompt}], key, model, _VERIF_SCHEMA, temperature=0.0,
                                key_pool=key_pool)
