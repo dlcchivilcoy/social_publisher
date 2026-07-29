@@ -362,6 +362,19 @@
     "texto": "Diego Scarpellino, de Teatro Trac, relató que escribió el texto titulado \"Teatro de la Extensión\", una obra que piensa el teatro en la provincia de Buenos Aires.\n\nSegún explicó, envió los escritos \"sin mucha fe\" debido a que en su momento todo estaba en veremos. Finalmente, la Academia Argentina de Letras —a la que definió como la institución literaria más importante del país— editará el libro.",
     "zocalo": "Diego Scarpellino Teatro Trac",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260729-141720-youtube.mp4",
-    "estado": "listo"
+    "estado": "publicado",
+    "fecha_publicado": "2026-07-29T18:11:18",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok"
+    },
+    "ig_media_id": "17969119154934717",
+    "fb_video_id": "2085081008774872",
+    "yt_video_id": "J20HShKTJCY",
+    "yt_url": "https://www.youtube.com/shorts/J20HShKTJCY",
+    "yt_titulo": "La Academia Argentina de Letras editará el libro de Diego Scarpellino",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-07-29T18:11:18"
   }
 ]
