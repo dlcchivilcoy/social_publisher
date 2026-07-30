@@ -497,6 +497,14 @@
     "texto": "La primera muestra temática se realizó en 2016 con el Bicentenario de la Independencia en el Complejo Histórico. Desde entonces, las exposiciones continuaron de manera ininterrumpida, incluyendo una modalidad virtual en junio de 2020 por los 200 años de la creación de la bandera.",
     "zocalo": "Muestras temáticas desde 2016",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260730-153815-youtube.mp4",
-    "estado": "solo_reel"
+    "estado": "publicado_solo_reel",
+    "fecha_publicado": "2026-07-30T18:40:33",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido"
+    },
+    "ig_media_id": "18120563938864466",
+    "fb_video_id": "1059755069918268"
   }
 ]
