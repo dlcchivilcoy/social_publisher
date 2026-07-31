@@ -600,6 +600,19 @@
     "texto": "Eduardo De Lillo se refirió a la búsqueda de propuestas educativas para la ciudad y señaló: «Yo personalmente he ido en su momento a tocar timbre a distintas universidades y decirles: 'Bueno, a ver, ¿qué están en condiciones de dictar en Chivilcoy con la misma calidad, y si pueden mejor, de lo que dictan ustedes en la base? Y después nosotros vemos si nos sirve o no'».",
     "zocalo": "Eduardo De Lillo",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260731-163811-youtube.mp4",
-    "estado": "listo"
+    "estado": "publicado",
+    "fecha_publicado": "2026-07-31T18:21:25",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok"
+    },
+    "ig_media_id": "18117339778924123",
+    "fb_video_id": "1411267700887396",
+    "yt_video_id": "RkjLQLCoWN0",
+    "yt_url": "https://www.youtube.com/shorts/RkjLQLCoWN0",
+    "yt_titulo": "De Lillo destacó las gestiones ante universidades para la oferta académica",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-07-31T18:21:25"
   }
 ]
