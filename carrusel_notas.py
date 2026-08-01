@@ -13,6 +13,8 @@ import time
 from datetime import date
 from pathlib import Path
 
+import requests
+
 from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
@@ -96,6 +98,103 @@ def _fb_individual_activo() -> bool:
     return str(get("NOTAS_FB_INDIVIDUAL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
+# ── Vista previa de Facebook: que la tarjeta tome la FOTO PROPIA de cada nota ──────────
+# Facebook arma la tarjeta del link scrapeando las etiquetas Open Graph de la web. Si
+# scrapea la nota recién publicada ANTES de que Wix tenga lista su og:image, se queda con
+# la foto por defecto del sitio (la MISMA para todas) y la cachea ~30 días → por eso
+# salían "todas con la misma foto". Para evitarlo, antes de postear el link:
+#   (1) esperamos a que la web muestre la foto propia (distinta de la del sitio),
+#   (2) forzamos el refresco de la caché de FB (scrape) y verificamos que tomó ESA foto.
+_UA_FB = {"User-Agent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"}
+_og_default_cache: dict[str, str] = {}
+
+
+def _verificar_preview_activo() -> bool:
+    """Kill-switch: FB_PREVIEW_VERIFICAR=0 apaga la verificación (posteo directo, como antes)."""
+    return str(get("FB_PREVIEW_VERIFICAR") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _media_id(u: str) -> str:
+    """Nombre de archivo de una URL de imagen — para comparar dos fotos sin que importe el
+    dominio/proxy (ej. '…/media/82cea5_abc~mv2.png' → '82cea5_abc~mv2.png')."""
+    return (u or "").split("?")[0].rstrip("/").split("/")[-1].lower()
+
+
+def _og_image_de_pagina(url: str) -> str:
+    """La og:image que la propia nota declara en la web (la foto que DEBE mostrar la
+    tarjeta de Facebook). '' si no se pudo leer."""
+    try:
+        html = requests.get(url, headers=_UA_FB, timeout=25).text
+        m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', html, re.I)
+        return m.group(1) if m else ""
+    except Exception as e:
+        logger.warning(f"[facebook] no se pudo leer la og:image de {url}: {e}")
+        return ""
+
+
+def _og_default_del_sitio() -> str:
+    """media_id de la foto por defecto del sitio (la de la home). Es la foto 'equivocada'
+    que aparece cuando Wix todavía no dejó lista la foto propia de la nota. Se cachea."""
+    site = _site()
+    if site not in _og_default_cache:
+        home = site if site.startswith("http") else f"https://{re.sub(r'^https?://', '', site).strip('/')}"
+        _og_default_cache[site] = _media_id(_og_image_de_pagina(home))
+    return _og_default_cache[site]
+
+
+def _esperar_og_propia(url: str, intentos: int = 5, espera: int = 6) -> str:
+    """Espera a que la web muestre la og:image PROPIA de la nota (distinta de la del
+    sitio). Devuelve esa og:image, o '' si tras los reintentos sigue mostrando la del
+    sitio (o no se pudo leer)."""
+    default = _og_default_del_sitio()
+    for intento in range(1, intentos + 1):
+        og = _og_image_de_pagina(url)
+        mid = _media_id(og)
+        if mid and mid != default:
+            return og
+        if intento < intentos:
+            time.sleep(espera)
+    return ""
+
+
+def _asegurar_preview_fb(url: str, esperada: str, intentos: int = 3, espera: int = 6) -> bool:
+    """Refresca la caché de la vista previa de Facebook hasta que tome la foto ESPERADA
+    (la og:image propia de la nota). Devuelve True si lo logró. Best-effort: si no lo
+    logra, el llamador postea igual (no queda peor que hoy) y queda logueado."""
+    objetivo = _media_id(esperada)
+    for intento in range(1, intentos + 1):
+        try:
+            got = facebook.scrape_preview(url).get("image", "")
+        except Exception as e:
+            logger.warning(f"[facebook] no se pudo refrescar la vista previa (intento {intento}): {e}")
+            got = ""
+        if got and _media_id(got) == objetivo:
+            logger.info(f"[facebook] vista previa lista con la foto de la nota (intento {intento}).")
+            return True
+        if intento < intentos:
+            time.sleep(espera)
+    logger.warning(f"[facebook] la vista previa NO tomó la foto propia tras {intentos} intentos "
+                   f"(esperada: {objetivo}). Se postea igual.")
+    return False
+
+
+def _preparar_preview(url: str) -> None:
+    """Deja lista la vista previa de Facebook para el link de una nota: espera la foto
+    propia en la web y ceba la caché de FB con ella. No lanza (best-effort): si algo
+    falla, el posteo sigue igual."""
+    if not _verificar_preview_activo():
+        return
+    try:
+        esperada = _esperar_og_propia(url)
+        if not esperada:
+            logger.warning(f"[facebook] la web aún muestra la foto por defecto para {url}; "
+                           f"se postea igual (FB podría mostrar la foto del sitio).")
+            return
+        _asegurar_preview_fb(url, esperada)
+    except Exception as e:  # noqa: BLE001 — best-effort, nunca frenar el posteo
+        logger.warning(f"[facebook] no se pudo preparar la vista previa de {url}: {e}")
+
+
 def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> None:
     """Postea el LINK de cada nota del día en Facebook — SOLO el link, sin foto ni texto:
     Facebook arma la previsualización (foto + título) solo, a partir de las etiquetas Open
@@ -125,6 +224,10 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
         if dry_run:
             logger.info(f"[facebook][dry-run] postearía el link: {url}")
             continue
+
+        # Dejar lista la vista previa con la FOTO PROPIA de la nota antes de postear
+        # (evita que la tarjeta salga con la foto por defecto del sitio).
+        _preparar_preview(url)
 
         try:
             facebook.publish_link(url)  # SOLO el link (sin foto ni texto)

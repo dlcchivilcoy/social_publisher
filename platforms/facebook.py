@@ -65,6 +65,36 @@ def publish_link(link: str, message: str = "") -> dict:
     return {"success": True, "id": d.get("id")}
 
 
+def scrape_preview(url: str) -> dict:
+    """Fuerza a Facebook a REFRESCAR (scrape) la vista previa de una URL y devuelve lo
+    que extrajo: {'title', 'image'}. Es el equivalente por API al Depurador de
+    Compartidos ('Scrape Again'): NO publica nada ni toca ningún posteo — solo
+    actualiza la caché de la vista previa del link. Se usa para que, al postear el
+    link de una nota, la tarjeta tome la FOTO PROPIA de la nota (og:image) y no la
+    foto por defecto del sitio (lo que pasa cuando FB scrapeó la nota antes de tiempo
+    y se quedó con esa foto cacheada ~30 días)."""
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not token:
+        raise ValueError("FACEBOOK_PAGE_ACCESS_TOKEN no configurado en .env")
+    resp = requests.post(
+        f"https://graph.facebook.com/{GRAPH_VERSION}/",
+        params={"id": url, "scrape": "true", "access_token": token},
+        timeout=60,
+    )
+    _raise_for_status(resp)
+    d = resp.json()
+    # La foto extraída aparece de forma fiable en image[]; og_object a veces viene vacío.
+    img = d.get("image")
+    if isinstance(img, list):
+        img = img[0] if img else {}
+    og = d.get("og_object") or {}
+    og_img = og.get("image")
+    if isinstance(og_img, list):
+        og_img = og_img[0] if og_img else {}
+    image_url = (img or {}).get("url") or (og_img or {}).get("url") or ""
+    return {"title": og.get("title") or "", "image": image_url}
+
+
 def publish_multi(message: str, image_paths: list[Path]) -> dict:
     """Publica VARIAS fotos en un solo posteo (carrusel/galería) de la Página.
 
