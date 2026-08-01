@@ -840,7 +840,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
             f"<p>Está como <b>borrador en Wix</b> con la foto y el texto. Para PUBLICAR "
-            f"(nota web + un REEL de la foto a Facebook/Instagram con todo el texto en el pie):</p>"
+            f"(nota web con el reel + reel de la foto a Facebook/Instagram y YouTube con el texto):</p>"
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la "
             f"carpeta «{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
@@ -851,8 +851,10 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
 
 
 def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
-    """ETAPA 2 de la FOTO-NOTA (al aprobar): publica la nota web + postea la/s FOTO/s a FB/IG
-    con TODO el texto en el caption. Sin gráfica, sin video."""
+    """ETAPA 2 de la FOTO-NOTA (al aprobar): arma el reel branded de la/s foto/s, lo sube al
+    canal de YouTube (Diario La Campaña) con su descripción, lo embebe en la nota web y la
+    publica, y postea el reel a FB/IG con TODO el texto en el caption. Mismo alcance que las
+    notas de video (reel → YouTube + web con el reel + redes)."""
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Foto-nota (etapa 2: publicar) [{modo}] — folder='{folder}' ===")
     rows = _leer_ledger()
@@ -883,24 +885,22 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     caption = f"{titular}\n\n{texto}\n\n📲 Seguí leyendo en {site}".strip()
 
     if dry_run:
-        logger.info(f"[dry-run] publicaría foto-nota «{title}» con {len(fotos)} foto(s) + caption completo.")
+        meta = _youtube_meta(volanta, titular, resumen, texto) if _yt_enabled() else {}
+        logger.info(f"[dry-run] publicaría foto-nota «{title}» con {len(fotos)} foto(s): reel branded "
+                    f"a FB/IG (caption completo) + YouTube Short embebido en la nota web.\n"
+                    f"YouTube: {'(desactivado)' if not meta else meta.get('titulo')}\n"
+                    f"Descripción YT:\n{meta.get('descripcion', '(omitida)')}")
         return
 
     plats = _platforms()
-    estado = {"instagram": "omitido", "facebook": "omitido", "wix": "omitido"}
-    post_url = ""
-    if draft_id:
-        try:
-            res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
-            post_url = (res or {}).get("url", "")
-            estado["wix"] = "ok"
-            logger.info(f"[wix] nota publicada: {post_url}")
-        except Exception as e:
-            estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
+    # Estado por canal (mismo «panel» que las notas de video): IG/FB/YouTube/Wix.
+    estado = {"instagram": "omitido", "facebook": "omitido",
+              "youtube": "omitido", "wix": "omitido"}
 
-    # REEL: la/s foto/s convertida/s a un reel vertical branded (fondo naranja + logo +
+    # 1) REEL: la/s foto/s convertida/s a un reel vertical branded (fondo naranja + logo +
     # placa de cierre), ~30 s, SIN el overlay del diario ni el texto del zócalo (pedido del
     # usuario 2026-07-27). La radio (transcriber_radio.run_placa_radio) sí lleva overlay+zócalo.
+    # Se arma ANTES de publicar la web para poder subirlo a YouTube y embeberlo en la nota.
     reel_url, reel_local = "", None
     try:
         from video import foto_a_reel
@@ -911,6 +911,47 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
 
+    # 2) YouTube Short: el MISMO reel branded sube al canal DIARIO LA CAMPAÑA con título +
+    # descripción SEO (igual que las notas de video). Reusa `_youtube_meta` (Gemini + fallback).
+    yt_info = {}
+    if _yt_enabled() and reel_local:
+        try:
+            from platforms import youtube_api
+            meta = _youtube_meta(volanta, titular, resumen, texto)
+            privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
+            yt_info = _retry(
+                lambda: youtube_api.upload_short(
+                    reel_local, meta["titulo"], meta["descripcion"],
+                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
+                etiqueta="[youtube] subir Short")
+            estado["youtube"] = "ok"
+            logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
+        except Exception as e:
+            estado["youtube"] = f"falló: {e}"
+            logger.error(f"[youtube] Short FALLÓ tras reintentos: {e}")
+    elif not _yt_enabled():
+        logger.info("[youtube] desactivado (YT_SHORTS_ENABLED=0).")
+
+    # 3) Nota web: embeber el reel (YouTube, si salió) DENTRO del borrador y recién PUBLICAR,
+    # así la web queda «como nota con el reel» y no solo la galería de fotos.
+    post_url = ""
+    if draft_id:
+        if yt_info.get("url"):
+            try:
+                _retry(lambda: wix.insertar_video_youtube(draft_id, yt_info["url"]),
+                       etiqueta="[wix] embeber YouTube")
+            except Exception as e:
+                logger.error(f"[wix] no se pudo embeber el YouTube (la nota igual sale con las "
+                             f"fotos): {e}")
+        try:
+            res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
+            post_url = (res or {}).get("url", "")
+            estado["wix"] = "ok"
+            logger.info(f"[wix] nota publicada: {post_url}")
+        except Exception as e:
+            estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
+
+    # 4) Reel a Instagram y Facebook con TODO el texto en el pie.
     if "instagram" in plats and reel_url:
         try:
             instagram.publish_reel(reel_url, caption); estado["instagram"] = "ok"
@@ -927,6 +968,15 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     fila.update({"estado": "publicado_placa", "post_url": post_url,
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
                  "estado_canales": estado})
+    if yt_info:
+        fila.update({
+            "yt_video_id": yt_info.get("id", ""),
+            "yt_url": yt_info.get("short_url") or yt_info.get("url", ""),
+            "yt_watch_url": yt_info.get("watch_url", ""),
+            "yt_titulo": titular,
+            "yt_privacy": yt_info.get("privacy", ""),
+            "fecha_youtube": datetime.now().isoformat(timespec="seconds"),
+        })
     _guardar_ledger(rows)
 
     borrar = ""
@@ -936,17 +986,22 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         borrar = (f"<div style='margin:14px 0'>"
                   f"{_boton(f'{webapp}?action=delete&post={quote(draft_id)}{t}', '🗑️ Borrar de la web', color='#b00020')}"
                   f"</div>")
+    yt_url_aviso = yt_info.get("short_url") or yt_info.get("url", "")
+    yt_ico = "✅" if estado["youtube"] == "ok" else ("➖" if estado["youtube"] == "omitido" else "❌")
+    yt_extra = f" — <a href='{yt_url_aviso}'>{_hesc(yt_url_aviso)}</a>" if yt_url_aviso else ""
     html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
             f"<h2 style='color:#e2620c'>Foto-nota publicada</h2>"
             f"<p style='font-size:18px'><b>{_hesc(titular)}</b></p>"
             f"<ul style='line-height:1.8;list-style:none;padding:0'>"
             f"<li>{'✅' if estado['instagram'] == 'ok' else '❌'} Instagram</li>"
             f"<li>{'✅' if estado['facebook'] == 'ok' else '❌'} Facebook</li>"
+            f"<li>{yt_ico} YouTube Shorts{yt_extra}</li>"
             f"<li>{'✅' if estado['wix'] == 'ok' else '❌'} Web"
             + (f" — <a href='{post_url}'>{_hesc(post_url)}</a>" if post_url else "") + "</li>"
             f"</ul>{borrar}</div>")
     _enviar_aviso(f"Foto-nota publicada: {titular}",
-                  f"Se publicó «{title}» (reel de la foto a FB/IG + nota web).\n{post_url}", html=html)
+                  f"Se publicó «{title}» (reel de la foto a FB/IG + YouTube + nota web con el reel).\n{post_url}",
+                  html=html)
     logger.info("=== Foto-nota (etapa 2): fin ===")
 
 
