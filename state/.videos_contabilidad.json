@@ -1371,5 +1371,18 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-02T14:42:30",
     "yt_metrics": {}
+  },
+  {
+    "file": "Liga racing",
+    "uploader": "",
+    "fecha_recibido": "2026-08-02T15:55:43",
+    "hay_noticia": true,
+    "es_placa": true,
+    "volanta": "🏀 ¡Comienza una nueva temporada de Liga Nacional!",
+    "titulo": "Te invitamos a acompañarnos en las actividades de esta semana:",
+    "resumen": "📅 Miércoles 5/08",
+    "texto": "📅 Miércoles 5/08\n\n🔒 Primer entrenamiento del plantel profesional (a puertas cerradas para la prensa y el público).\n\n📅 Viernes 7/08\n\n🕢 19:30 hs | Conferencia de prensa con todos los jugadores de Liga Nacional y parte del cuerpo técnico (Salón Chico).\n\n🕣 20:30 hs | Presentación oficial del plantel (Salón Principal).\n\n🤍 La presentación oficial es abierta al público y a la prensa, con entrada libre y gratuita. Además, habrá servicio de cantina y la posibilidad de conocer de cerca a los jugadores de la temporada 2026/27.",
+    "draft_id": "f44f8769-b41b-400e-b47f-cbb43b5cb856",
+    "estado": "borrador_placa"
   }
 ]
