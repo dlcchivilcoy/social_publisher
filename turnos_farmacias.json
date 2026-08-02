@@ -34,5 +34,41 @@
       "29": ["Traverso", "Palumbo", "Rossi"],
       "30": ["Giachetta", "Moderna", "Mitre"]
     }
+  },
+  "2026-08": {
+    "fuente": "TURNOS 08-2026.jpeg (mail del Colegio, vino como imagen; cargado a mano)",
+    "dias": {
+      "1": ["Frenkiel", "Litterio", "Rolando"],
+      "2": ["Ideal", "Sivori", "Zurita"],
+      "3": ["Cruz Roja", "Homar", "Ceballos"],
+      "4": ["Rossi", "Traverso", "Palumbo"],
+      "5": ["Mitre", "Giachetta", "Moderna"],
+      "6": ["Suipacha", "Villarino", "Mercé"],
+      "7": ["Cassino", "Mecca", "Miranda"],
+      "8": ["Pereyra", "Moderna", "Mitre"],
+      "9": ["Lucini", "Bogliolo", "De Francesco"],
+      "10": ["Rolando", "Frenkiel", "Litterio"],
+      "11": ["Zurita", "Ideal", "Sivori"],
+      "12": ["Ceballos", "Cruz Roja", "Homar"],
+      "13": ["Palumbo", "Rossi", "Traverso"],
+      "14": ["Moderna", "Mitre", "Giachetta"],
+      "15": ["Suipacha", "Mercé", "Villarino"],
+      "16": ["Miranda", "Cassino", "Mecca"],
+      "17": ["Rolando", "Pereyra", "Mitre"],
+      "18": ["De Francesco", "Lucini", "Bogliolo"],
+      "19": ["Litterio", "Rolando", "Frenkiel"],
+      "20": ["Sivori", "Zurita", "Ideal"],
+      "21": ["Homar", "Ceballos", "Cruz Roja"],
+      "22": ["Traverso", "Palumbo", "Rossi"],
+      "23": ["Giachetta", "Mitre", "Moderna"],
+      "24": ["Villarino", "Suipacha", "Mercé"],
+      "25": ["Mecca", "Miranda", "Cassino"],
+      "26": ["Mitre", "Feijoo", "Pereyra"],
+      "27": ["Bogliolo", "De Francesco", "Lucini"],
+      "28": ["Frenkiel", "Litterio", "Rolando"],
+      "29": ["Ideal", "Sivori", "Zurita"],
+      "30": ["Cruz Roja", "Homar", "Ceballos"],
+      "31": ["Rossi", "Traverso", "Palumbo"]
+    }
   }
 }
