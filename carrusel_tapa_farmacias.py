@@ -4,7 +4,11 @@ Publica en Facebook + Instagram DOS historias: la tapa del diario y las farmacia
 de turno de hoy. NO publica nada en el feed (el posteo/carrusel quedó anulado).
 """
 import json
+import smtplib
+import ssl
 from datetime import date
+from email.message import EmailMessage
+from email.utils import formataddr
 from pathlib import Path
 
 import farmacias as farm
@@ -17,6 +21,72 @@ from utils.logger import get_logger
 logger = get_logger("carrusel_tf")
 
 LEDGER = Path(__file__).parent / ".carrusel_tf.json"
+# Ledger aparte para el aviso "sin datos": manda a lo sumo UN mail por día
+# (así, si el mes viene sin cargar, es un recordatorio diario hasta resolverlo,
+# pero sin duplicar el aviso si la corrida se reintenta el mismo día).
+AVISO_LEDGER = Path(__file__).parent / ".farmacias_aviso.json"
+
+
+def _ya_avise_hoy(hoy: date) -> bool:
+    try:
+        if AVISO_LEDGER.exists():
+            return json.loads(AVISO_LEDGER.read_text(encoding="utf-8")).get("fecha") == hoy.isoformat()
+    except Exception:
+        pass
+    return False
+
+
+def _marcar_aviso(hoy: date) -> None:
+    try:
+        AVISO_LEDGER.write_text(json.dumps({"fecha": hoy.isoformat()}, ensure_ascii=False),
+                                encoding="utf-8")
+    except Exception as e:
+        logger.warning(f"No se pudo guardar el ledger del aviso de farmacias: {e}")
+
+
+def _avisar_sin_datos(hoy: date, motivo: str) -> None:
+    """Manda un mail al diario cuando farmacias se queda sin datos y no se publica.
+    Best-effort y a lo sumo una vez por día. Reusa el SMTP del .env (mismo patrón
+    que el desgrabador)."""
+    if _ya_avise_hoy(hoy):
+        return
+    remitente = get("MAIL_FROM")
+    password = get("MAIL_APP_PASSWORD")
+    destino = (get("FARMACIAS_NOTIFY_EMAIL") or get("VIDEOS_NOTIFY_EMAIL") or remitente or "").strip()
+    if not remitente or not password or not destino:
+        logger.warning("Sin credenciales de mail (MAIL_FROM/MAIL_APP_PASSWORD): no se manda el aviso de farmacias.")
+        return
+    host = get("SMTP_HOST") or "smtp.gmail.com"
+    port = int(get("SMTP_PORT") or 587)
+    nombre_from = get("MAIL_FROM_NAME") or "Diario La Campaña"
+    fecha = farm._fecha_larga(hoy).capitalize()
+    asunto = f"⚠️ Farmacias sin datos — NO salió la historia ({fecha})"
+    cuerpo = (
+        f"Hoy ({fecha}) no se publicaron las historias de farmacias de turno "
+        f"(ni en Instagram ni en Facebook), porque el sistema no tiene el cronograma del mes.\n\n"
+        f"Motivo: {motivo}\n\n"
+        f"Suele pasar cuando el Colegio manda el turno del mes como IMAGEN (o con otro formato) "
+        f"en vez del Excel que el robot sabe leer.\n\n"
+        f"Qué hacer: cargar el cronograma del mes a mano en turnos_farmacias.json "
+        f"(o pedírselo a Claude, que lee la imagen del mail y lo carga). Mientras tanto, "
+        f"las farmacias NO se publican para no dar datos sin verificar.\n\n"
+        f"— Publicador Diario La Campaña"
+    )
+    msg = EmailMessage()
+    msg["From"] = formataddr((nombre_from, remitente))
+    msg["To"] = destino
+    msg["Subject"] = asunto
+    msg.set_content(cuerpo)
+    try:
+        ctx = ssl.create_default_context()
+        with smtplib.SMTP(host, port, timeout=60) as server:
+            server.starttls(context=ctx)
+            server.login(remitente, password)
+            server.send_message(msg)
+        logger.info(f"Aviso de farmacias sin datos enviado a {destino}")
+        _marcar_aviso(hoy)
+    except Exception as e:
+        logger.error(f"No se pudo enviar el aviso de farmacias sin datos: {e}")
 
 
 def _site() -> str:
@@ -55,7 +125,10 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
     # 1) Farmacias de hoy (SIEMPRE, también fin de semana: hay farmacia de turno).
     feed_farm, story_farm, lineas_cap, nombres, es_cambio = farm.farmacias_feed_de_hoy(hoy)
     if not story_farm:
-        logger.error(f"Sin datos de farmacias: {lineas_cap}. No se publican las historias.")
+        motivo = lineas_cap if isinstance(lineas_cap, str) else str(lineas_cap)
+        logger.error(f"Sin datos de farmacias: {motivo}. No se publican las historias.")
+        if not dry_run:
+            _avisar_sin_datos(hoy, motivo)  # aviso por mail (1 vez por día)
         return
     logger.info(f"Farmacias: {', '.join(nombres)}")
 
