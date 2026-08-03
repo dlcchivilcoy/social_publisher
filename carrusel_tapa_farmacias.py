@@ -6,6 +6,7 @@ de turno de hoy. NO publica nada en el feed (el posteo/carrusel quedó anulado).
 import json
 import smtplib
 import ssl
+import time
 from datetime import date
 from email.message import EmailMessage
 from email.utils import formataddr
@@ -98,27 +99,36 @@ def _platforms() -> list[str]:
     return [p.strip().lower() for p in raw.split(",") if p.strip()]
 
 
-def _ya_hoy(hoy: date) -> bool:
+def _clave(etiqueta: str, plataforma: str) -> str:
+    return f"{etiqueta}|{plataforma}"
+
+
+def _estado_hoy(hoy: date) -> set[str]:
+    """Conjunto de 'etiqueta|plataforma' que YA se publicaron hoy (p. ej. 'tapa|facebook').
+    Vacío si el ledger no es de hoy. Con esto, si una historia ya salió en una red no se
+    vuelve a publicar (no duplica), pero la que falló (p. ej. IG) se reintenta."""
     try:
         if LEDGER.exists():
-            return json.loads(LEDGER.read_text(encoding="utf-8")).get("fecha") == hoy.isoformat()
+            d = json.loads(LEDGER.read_text(encoding="utf-8"))
+            if d.get("fecha") == hoy.isoformat():
+                return set(d.get("hechos", []))
     except Exception:
         pass
-    return False
+    return set()
 
 
-def _marcar(hoy: date) -> None:
-    LEDGER.write_text(json.dumps({"fecha": hoy.isoformat()}, ensure_ascii=False), encoding="utf-8")
+def _guardar_estado(hoy: date, hechos: set[str]) -> None:
+    try:
+        LEDGER.write_text(json.dumps({"fecha": hoy.isoformat(), "hechos": sorted(hechos)},
+                                     ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        logger.warning(f"No se pudo guardar el ledger de tapa+farmacias: {e}")
 
 
 def run_tapa_farmacias(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
     logger.info(f"=== Tapa+Farmacias (HISTORIAS) [{modo}] — {hoy.isoformat()} ===")
-
-    if not dry_run and _ya_hoy(hoy):
-        logger.info("Las historias de tapa+farmacias de hoy ya se publicaron. Se omite.")
-        return
 
     es_finde = hoy.weekday() >= 5  # 5=sábado, 6=domingo
 
@@ -156,23 +166,51 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
         return
 
     plats = _platforms()
-    algun_ok = False
-    for etiqueta, img in historias:
-        for name in plats:
-            fn = {"instagram": instagram.publish_story, "facebook": facebook.publish_story}.get(name)
-            if not fn:
-                continue
+    fns = {"instagram": instagram.publish_story, "facebook": facebook.publish_story}
+
+    # Combos (historia × red) a publicar hoy, salteando los que YA salieron (ledger por
+    # plataforma). Así, si FB salió pero IG falló, se reintenta SOLO IG — sin re-postear FB.
+    hechos = _estado_hoy(hoy)
+    requeridos = [(etiqueta, img, name) for etiqueta, img in historias
+                  for name in plats if name in fns]
+    pendientes = [(e, img, n) for (e, img, n) in requeridos if _clave(e, n) not in hechos]
+
+    if not pendientes:
+        logger.info("Tapa+Farmacias: todo lo de hoy ya está publicado (nada pendiente). Se omite.")
+        return
+    if hechos:
+        logger.info(f"Ya publicadas hoy (no se repiten): {', '.join(sorted(hechos))}")
+
+    # Reintenta EN LA MISMA corrida las que fallen (p. ej. IG con un hipo transitorio),
+    # sin volver a tocar las que ya salieron. Si igual queda alguna, el ledger deja
+    # registrado lo hecho para que la próxima corrida retome SOLO lo pendiente.
+    rondas = max(1, int(get("STORY_RETRY_ROUNDS") or 3))
+    espera = max(0, int(get("STORY_RETRY_WAIT") or 150))
+
+    for ronda in range(1, rondas + 1):
+        siguen = []
+        for etiqueta, img, name in pendientes:
             try:
-                fn(img)
-                algun_ok = True
+                fns[name](img)
+                hechos.add(_clave(etiqueta, name))
+                _guardar_estado(hoy, hechos)  # persistir apenas sale cada historia
                 logger.info(f"[{name}] historia {etiqueta} OK")
             except Exception as e:
-                logger.error(f"[{name}] historia {etiqueta} FALLÓ: {e}")
+                logger.error(f"[{name}] historia {etiqueta} FALLÓ (ronda {ronda}/{rondas}): {e}")
+                siguen.append((etiqueta, img, name))
+        pendientes = siguen
+        if not pendientes:
+            break
+        if ronda < rondas:
+            faltan = ", ".join(_clave(e, n) for e, _, n in pendientes)
+            logger.warning(f"Quedan pendientes: {faltan}. Reintento en {espera}s…")
+            time.sleep(espera)
 
-    if algun_ok:
-        _marcar(hoy)
-        logger.info("Tapa+Farmacias (historias) registrado como publicado hoy.")
+    if not pendientes:
+        logger.info("Tapa+Farmacias (historias): publicado en todas las redes.")
     else:
-        logger.error("No se pudo publicar ninguna historia — se reintentará la próxima corrida.")
+        faltan = ", ".join(_clave(e, n) for e, _, n in pendientes)
+        logger.error(f"Siguen sin publicarse: {faltan} (tras {rondas} rondas). "
+                     f"La próxima corrida retoma SOLO lo pendiente (sin duplicar lo ya publicado).")
 
     logger.info("=== Tapa+Farmacias (historias): fin ===")
