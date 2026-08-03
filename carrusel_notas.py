@@ -111,16 +111,15 @@ def _fb_foto_activo() -> bool:
     return str(get("NOTAS_FB_FOTO") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
-def _caption_fb_nota(volanta: str, titular: str, cuerpo: list, url: str) -> str:
-    """Texto del posteo de foto en Facebook: volanta + titular + resumen corto + link
-    clickeable a la nota. La FOTO (la de la nota) se sube aparte."""
+def _caption_fb_nota(volanta: str, titular: str, url: str) -> str:
+    """Texto del posteo de foto en Facebook: SOLO volanta + titular + link clickeable a la
+    nota. SIN resumen/primer párrafo (pedido del usuario: solo el titular, así no se repite
+    el título ni quedan textos mal cortados). La FOTO (la de la nota) se sube aparte y el
+    titular/volanta salen del .docx (texto limpio, sin caracteres raros)."""
     partes = []
     if volanta:
         partes.append(f"📌 {volanta}")
     partes.append(f"📰 {titular}")
-    resumen = _resumen_caption(cuerpo[0] if cuerpo else "", max_chars=220)
-    if resumen:
-        partes.append(resumen)
     partes.append(f"📲 Leé la nota completa 👉 {url}")
     return "\n\n".join(partes)
 
@@ -163,7 +162,7 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
                 # Subimos la FOTO PROPIA de la nota → la imagen SIEMPRE es la correcta.
                 img = _prepare_image(note["image"])
                 try:
-                    facebook.publish(_caption_fb_nota(volanta, titular, cuerpo, url), img)
+                    facebook.publish(_caption_fb_nota(volanta, titular, url), img)
                 finally:
                     if img != note["image"] and img.exists():
                         img.unlink()
