@@ -26,6 +26,9 @@ LEDGER = Path(__file__).parent / ".carrusel_tf.json"
 # (así, si el mes viene sin cargar, es un recordatorio diario hasta resolverlo,
 # pero sin duplicar el aviso si la corrida se reintenta el mismo día).
 AVISO_LEDGER = Path(__file__).parent / ".farmacias_aviso.json"
+# Ledger del aviso "no se pudo publicar tras reintentos": dedup por (día + combos que
+# fallaron), así no repite el mismo aviso el mismo día pero sí avisa si cambia lo que falla.
+FALLO_LEDGER = Path(__file__).parent / ".carrusel_tf_aviso.json"
 
 
 def _ya_avise_hoy(hoy: date) -> bool:
@@ -45,21 +48,45 @@ def _marcar_aviso(hoy: date) -> None:
         logger.warning(f"No se pudo guardar el ledger del aviso de farmacias: {e}")
 
 
-def _avisar_sin_datos(hoy: date, motivo: str) -> None:
-    """Manda un mail al diario cuando farmacias se queda sin datos y no se publica.
-    Best-effort y a lo sumo una vez por día. Reusa el SMTP del .env (mismo patrón
-    que el desgrabador)."""
-    if _ya_avise_hoy(hoy):
-        return
+def _destino_mail() -> str:
+    return (get("FARMACIAS_NOTIFY_EMAIL") or get("VIDEOS_NOTIFY_EMAIL") or get("MAIL_FROM") or "").strip()
+
+
+def _enviar_mail(asunto: str, cuerpo: str) -> bool:
+    """Manda un mail al diario por SMTP (mismo patrón que el desgrabador). Best-effort:
+    devuelve True si salió, False si no (sin romper la corrida)."""
     remitente = get("MAIL_FROM")
     password = get("MAIL_APP_PASSWORD")
-    destino = (get("FARMACIAS_NOTIFY_EMAIL") or get("VIDEOS_NOTIFY_EMAIL") or remitente or "").strip()
+    destino = _destino_mail()
     if not remitente or not password or not destino:
-        logger.warning("Sin credenciales de mail (MAIL_FROM/MAIL_APP_PASSWORD): no se manda el aviso de farmacias.")
-        return
+        logger.warning("Sin credenciales de mail (MAIL_FROM/MAIL_APP_PASSWORD): no se manda el aviso.")
+        return False
     host = get("SMTP_HOST") or "smtp.gmail.com"
     port = int(get("SMTP_PORT") or 587)
     nombre_from = get("MAIL_FROM_NAME") or "Diario La Campaña"
+    msg = EmailMessage()
+    msg["From"] = formataddr((nombre_from, remitente))
+    msg["To"] = destino
+    msg["Subject"] = asunto
+    msg.set_content(cuerpo)
+    try:
+        ctx = ssl.create_default_context()
+        with smtplib.SMTP(host, port, timeout=60) as server:
+            server.starttls(context=ctx)
+            server.login(remitente, password)
+            server.send_message(msg)
+        logger.info(f"Aviso enviado a {destino}")
+        return True
+    except Exception as e:
+        logger.error(f"No se pudo enviar el aviso por mail: {e}")
+        return False
+
+
+def _avisar_sin_datos(hoy: date, motivo: str) -> None:
+    """Manda un mail al diario cuando farmacias se queda sin datos y no se publica.
+    Best-effort y a lo sumo una vez por día."""
+    if _ya_avise_hoy(hoy):
+        return
     fecha = farm._fecha_larga(hoy).capitalize()
     asunto = f"⚠️ Farmacias sin datos — NO salió la historia ({fecha})"
     cuerpo = (
@@ -73,21 +100,48 @@ def _avisar_sin_datos(hoy: date, motivo: str) -> None:
         f"las farmacias NO se publican para no dar datos sin verificar.\n\n"
         f"— Publicador Diario La Campaña"
     )
-    msg = EmailMessage()
-    msg["From"] = formataddr((nombre_from, remitente))
-    msg["To"] = destino
-    msg["Subject"] = asunto
-    msg.set_content(cuerpo)
-    try:
-        ctx = ssl.create_default_context()
-        with smtplib.SMTP(host, port, timeout=60) as server:
-            server.starttls(context=ctx)
-            server.login(remitente, password)
-            server.send_message(msg)
-        logger.info(f"Aviso de farmacias sin datos enviado a {destino}")
+    if _enviar_mail(asunto, cuerpo):
         _marcar_aviso(hoy)
+
+
+def _ya_avise_fallo(hoy: date, combos: list[str]) -> bool:
+    """True si ya se avisó hoy por EXACTAMENTE estos combos fallidos (evita repetir)."""
+    try:
+        if FALLO_LEDGER.exists():
+            d = json.loads(FALLO_LEDGER.read_text(encoding="utf-8"))
+            return d.get("fecha") == hoy.isoformat() and set(d.get("combos", [])) == set(combos)
+    except Exception:
+        pass
+    return False
+
+
+def _marcar_aviso_fallo(hoy: date, combos: list[str]) -> None:
+    try:
+        FALLO_LEDGER.write_text(json.dumps({"fecha": hoy.isoformat(), "combos": sorted(combos)},
+                                           ensure_ascii=False), encoding="utf-8")
     except Exception as e:
-        logger.error(f"No se pudo enviar el aviso de farmacias sin datos: {e}")
+        logger.warning(f"No se pudo guardar el ledger del aviso de fallo: {e}")
+
+
+def _avisar_fallo_publicacion(hoy: date, combos: list[str]) -> None:
+    """Avisa por mail cuando historias NO salieron tras agotar los reintentos. Best-effort;
+    dedup por (día + combos), así no repite el mismo aviso pero sí avisa si cambia lo que falla."""
+    if not combos or _ya_avise_fallo(hoy, combos):
+        return
+    fecha = farm._fecha_larga(hoy).capitalize()
+    lista = "\n".join(f"  • {c.replace('|', ' → ')}" for c in sorted(combos))
+    asunto = f"⚠️ Historias que NO salieron ({fecha})"
+    cuerpo = (
+        f"Hoy ({fecha}) estas historias no se pudieron publicar tras varios reintentos:\n\n"
+        f"{lista}\n\n"
+        f"(Cada línea es historia → red.) Las demás sí salieron. Suele ser un problema "
+        f"transitorio de la red social o del hosting de imágenes.\n\n"
+        f"El sistema reintenta SOLO lo que falta en la próxima corrida, sin duplicar lo ya "
+        f"publicado. Si querés que salga ya, se puede republicar a mano solo lo pendiente.\n\n"
+        f"— Publicador Diario La Campaña"
+    )
+    if _enviar_mail(asunto, cuerpo):
+        _marcar_aviso_fallo(hoy, combos)
 
 
 def _site() -> str:
@@ -209,8 +263,10 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
     if not pendientes:
         logger.info("Tapa+Farmacias (historias): publicado en todas las redes.")
     else:
-        faltan = ", ".join(_clave(e, n) for e, _, n in pendientes)
+        combos_fallidos = [_clave(e, n) for e, _, n in pendientes]
+        faltan = ", ".join(combos_fallidos)
         logger.error(f"Siguen sin publicarse: {faltan} (tras {rondas} rondas). "
                      f"La próxima corrida retoma SOLO lo pendiente (sin duplicar lo ya publicado).")
+        _avisar_fallo_publicacion(hoy, combos_fallidos)  # aviso por mail (dedup por día+combos)
 
     logger.info("=== Tapa+Farmacias (historias): fin ===")
