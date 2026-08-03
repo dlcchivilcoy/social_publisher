@@ -681,6 +681,19 @@
     "texto": "El proyecto que utiliza el extracto «Con toda la muerte al aire» ahonda en un crimen privado, catalogado como femicidio, y lo relaciona con los hechos acontecidos en Argentina durante 1955, tales como el golpe de Estado y el bombardeo a Plaza de Mayo.\n\nLa propuesta transita entre dicho crimen y el contexto político de la época, combinando imágenes propias con una investigación centrada principalmente en materiales de archivo.",
     "zocalo": "«Con toda la muerte al aire»",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260803-135138-youtube.mp4",
-    "estado": "listo"
+    "estado": "publicado",
+    "fecha_publicado": "2026-08-03T18:28:00",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok"
+    },
+    "ig_media_id": "17912459304440754",
+    "fb_video_id": "1594231115713631",
+    "yt_video_id": "X9ckNDC7aeQ",
+    "yt_url": "https://www.youtube.com/shorts/X9ckNDC7aeQ",
+    "yt_titulo": "«Con toda la muerte al aire»: un proyecto artístico que entrelaza un femicidio con la historia argentina de 1955",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-03T18:28:00"
   }
 ]
