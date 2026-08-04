@@ -898,62 +898,6 @@ def _draw_title_impose(draw, text, x, bottom_y, max_w, *, max_h, max_size=110, m
     return bottom_y - total_h
 
 
-def compose_notes_cover_slide(fecha_larga: str = "", n_notas: int = 0, site_url: str = "") -> Path:
-    """Slide de PORTADA del carrusel (slide 1): isotipo grande + marca + 'NOTICIAS DE
-    HOY' + fecha + 'Deslizá para ver las N notas →'. Su función es enganchar el swipe."""
-    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)  # blanco de marca
-    draw = ImageDraw.Draw(canvas)
-    draw.rectangle((0, 0, SLIDE_W, 12), fill=ACCENT)  # barra naranja arriba
-    cx = SLIDE_W // 2
-
-    # Isotipo grande centrado
-    iso_h, iso_top = 330, 150
-    im = _iso(orange=True)
-    if im:
-        w, h = im.size
-        nw = max(1, round(w * iso_h / h))
-        canvas.paste(im.resize((nw, iso_h), Image.LANCZOS), (cx - nw // 2, iso_top),
-                     im.resize((nw, iso_h), Image.LANCZOS))
-    y = iso_top + iso_h + 34
-
-    f_brand = _font(48, bold=True)
-    bw = draw.textlength("DIARIO LA CAMPAÑA", font=f_brand)
-    draw.text((cx - bw / 2, y), "DIARIO LA CAMPAÑA", font=f_brand, fill=(20, 22, 28))
-    y += _line_h(f_brand, "Ay") + 64
-
-    f_h = _font(118, bold=True)
-    for line in ("NOTICIAS", "DE HOY"):
-        lw = draw.textlength(line, font=f_h)
-        draw.text((cx - lw / 2, y), line, font=f_h, fill=(20, 22, 28))
-        y += _line_h(f_h, "Ay") + 4
-    y += 26
-
-    if fecha_larga:
-        f_d = _font(42, bold=True)
-        fx = fecha_larga.strip().capitalize()
-        dw = draw.textlength(fx, font=f_d)
-        draw.text((cx - dw / 2, y), fx, font=f_d, fill=ACCENT)
-
-    # Botón 'Deslizá →'
-    f_s = _font(44, bold=True)
-    swipe = (f"Deslizá para ver las {n_notas} notas   →" if n_notas
-             else "Deslizá para ver todas las notas   →")
-    sw = draw.textlength(swipe, font=f_s)
-    sh = _line_h(f_s, "Ay")
-    sy = SLIDE_H - 172
-    pad_x, pad_y = 36, 22
-    draw.rounded_rectangle((cx - sw / 2 - pad_x, sy - pad_y, cx + sw / 2 + pad_x, sy + sh + pad_y),
-                           radius=(sh + 2 * pad_y) // 2, fill=ACCENT)
-    draw.text((cx - sw / 2, sy), swipe, font=f_s, fill=SLIDE_TITLE)
-
-    if site_url:
-        f_w = _font(28, bold=True)
-        ww = draw.textlength(site_url, font=f_w)
-        draw.text((cx - ww / 2, SLIDE_H - 58), site_url, font=f_w, fill=GRAY)
-
-    return _save(canvas, "slide_cover")
-
-
 def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: str = "",
                        idx: int | None = None, total: int | None = None) -> Path:
     """Slide 4:5 del carrusel — estética editorial:
