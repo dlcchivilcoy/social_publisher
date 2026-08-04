@@ -109,6 +109,11 @@ def main() -> None:
         help="CARRUSEL Tapa+Farmacias en FB/IG (tapa 1°, farmacias 2°) + historia de la tapa.",
     )
     parser.add_argument(
+        "--muro-tapa-farmacias",
+        action="store_true",
+        help="POSTEO en el muro de Facebook (00:00) con la tapa del día + la foto de farmacias de turno (una sola publicación, solo FB).",
+    )
+    parser.add_argument(
         "--notes-web",
         action="store_true",
         help="SOLO carga las notas del día a la web (Wix), sin tocar FB/IG (corrida de las 7:00).",
@@ -317,6 +322,11 @@ def main() -> None:
         from carrusel_tapa_farmacias import run_tapa_farmacias
         logger.info(f"Modo --tapa-farmacias (dry_run={args.dry_run}).")
         run_tapa_farmacias(dry_run=args.dry_run)
+        return
+    if args.muro_tapa_farmacias:
+        from muro_tapa_farmacias import run_muro_tapa_farmacias
+        logger.info(f"Modo --muro-tapa-farmacias (dry_run={args.dry_run}).")
+        run_muro_tapa_farmacias(dry_run=args.dry_run)
         return
     if args.notes_web:
         from carrusel_notas import run_notes_web

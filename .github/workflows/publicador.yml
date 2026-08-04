@@ -2,9 +2,14 @@ name: Publicador Diario
 
 # El disparo a horario lo hace cron-job.org (disparador externo confiable, en hora de
 # Argentina) llamando a la API de workflow_dispatch. NO se usa el scheduler nativo de
-# GitHub (schedule:) porque no es confiable y chocaba con cron-job.org.
+# GitHub (schedule:) para el grueso porque no es confiable y chocaba con cron-job.org.
+# EXCEPCION: el posteo del MURO tapa+farmacias de las 00:00 SI usa schedule nativo: a esa
+# hora no hay ningun cron de cron-job.org en el grupo `publicador`, asi que no choca, y una
+# demora de unos minutos a la medianoche es tolerable para un posteo diario.
 # Tambien se puede correr a mano desde la pestana Actions -> Run workflow.
 on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC = 00:00 Argentina (UTC-3): muro FB tapa+farmacias
   workflow_dispatch:
     inputs:
       args:
@@ -153,7 +158,7 @@ jobs:
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.fb.json" ] && cp "state/.fb.json" "diario/NOTAS AUTOMATICAS/.fb.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -161,7 +166,7 @@ jobs:
         id: cmd
         run: |
           case "${{ github.event.schedule }}" in
-            "0 3 * * *")      echo 'args=--tapa' >> "$GITHUB_OUTPUT" ;;
+            "0 3 * * *")      echo 'args=--muro-tapa-farmacias' >> "$GITHUB_OUTPUT" ;;
             "0 10 * * *")     echo 'args=--run-now --pages 3,5,7' >> "$GITHUB_OUTPUT" ;;
             "15 10 * * *")    echo 'args=--news-stories' >> "$GITHUB_OUTPUT" ;;
             "0 11 * * *")     echo 'args=--farmacias' >> "$GITHUB_OUTPUT" ;;
@@ -196,7 +201,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.fb.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"
