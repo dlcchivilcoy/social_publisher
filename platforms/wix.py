@@ -389,10 +389,12 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     return publicar_borrador(info["draft_id"])
 
 
-def url_de_nota(titulo: str, buscar: int = 40) -> str:
+def url_de_nota(titulo: str, buscar: int = 100) -> str:
     """Devuelve la URL pública (dominio real) de una nota YA publicada, buscándola por
     TÍTULO entre las últimas `buscar` publicaciones (match por slug, robusto a acentos/
-    puntuación). '' si no la encuentra. Sirve para compartir el link (ej. a Facebook)."""
+    puntuación). '' si no la encuentra. Sirve para compartir el link (ej. a Facebook).
+    Busca entre 100 (tope de Wix) para que aguante días con muchas notas (15-20+) sin
+    que ninguna quede sin link."""
     objetivo = _slugify(titulo)
     if not objetivo:
         return ""

@@ -9,8 +9,12 @@ Reemplaza el feed por nota (07:00/13:00) y las historias por nota (07:15).
 """
 import json
 import re
+import smtplib
+import ssl
 import time
 from datetime import date
+from email.message import EmailMessage
+from email.utils import formataddr
 from pathlib import Path
 
 from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
@@ -124,26 +128,97 @@ def _caption_fb_nota(volanta: str, titular: str, url: str) -> str:
     return "\n\n".join(partes)
 
 
+# ── Aviso: que ninguna nota de la carpeta se pierda en silencio ───────────────────────
+# El objetivo es que se posteen TODAS las notas de la carpeta. Si alguna no se pudo
+# (sin foto que coincida, sin link en la web, o error al postear), mandamos un mail para
+# que no pase desapercibido.
+def _enviar_mail(asunto: str, cuerpo: str) -> bool:
+    """Mail de aviso al diario (best-effort, mismo patrón que el resto del publicador)."""
+    remitente = get("MAIL_FROM")
+    password = get("MAIL_APP_PASSWORD")
+    destino = (get("VIDEOS_NOTIFY_EMAIL") or get("FARMACIAS_NOTIFY_EMAIL")
+               or get("MAIL_FROM") or "").strip()
+    if not remitente or not password or not destino:
+        logger.warning("[facebook] sin credenciales de mail: no se manda el aviso de notas.")
+        return False
+    msg = EmailMessage()
+    msg["From"] = formataddr((get("MAIL_FROM_NAME") or "Diario La Campaña", remitente))
+    msg["To"] = destino
+    msg["Subject"] = asunto
+    msg.set_content(cuerpo)
+    try:
+        ctx = ssl.create_default_context()
+        with smtplib.SMTP(get("SMTP_HOST") or "smtp.gmail.com",
+                          int(get("SMTP_PORT") or 587), timeout=60) as s:
+            s.starttls(context=ctx)
+            s.login(remitente, password)
+            s.send_message(msg)
+        logger.info(f"[facebook] aviso de notas no posteadas enviado a {destino}")
+        return True
+    except Exception as e:
+        logger.error(f"[facebook] no se pudo enviar el aviso: {e}")
+        return False
+
+
+def _docx_sin_nota(posts_folder: Path, notes: list) -> list[str]:
+    """Nombres de .docx que están en la edición de hoy pero NO quedaron emparejados con
+    una foto (por eso, con el método de subir la foto, no se pueden postear). Sirve para
+    avisar y que no se pierdan en silencio."""
+    ed = find_todays_edition(posts_folder)
+    if ed is None:
+        return []
+    emparejados = {n["docx"].name for n in notes}
+    return sorted(p.stem for p in ed.rglob("*.docx")
+                  if not p.name.startswith("~") and p.name not in emparejados)
+
+
+def _avisar_notas_no_posteadas(sin_foto: list[str], sin_url: list[str], errores: list[str]) -> None:
+    """Si alguna nota de la carpeta NO se pudo postear en Facebook, manda un mail para que
+    no pase desapercibido (el objetivo es que se carguen TODAS)."""
+    if not (sin_foto or sin_url or errores):
+        return
+    lineas = ["Algunas notas de hoy NO se postearon en Facebook:\n"]
+    if sin_foto:
+        lineas.append("• SIN FOTO que coincida (revisá que cada nota tenga su imagen con "
+                      "nombre parecido, o el mismo número al inicio del archivo):")
+        lineas += [f"   - {t}" for t in sin_foto]
+    if sin_url:
+        lineas.append("• No se encontró su link en la web (se reintenta la próxima corrida):")
+        lineas += [f"   - {t}" for t in sin_url]
+    if errores:
+        lineas.append("• Error al postear:")
+        lineas += [f"   - {t}" for t in errores]
+    lineas.append("\n— Publicador Diario La Campaña")
+    _enviar_mail("⚠️ Notas que NO salieron en Facebook", "\n".join(lineas))
+
+
 def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> None:
     """Postea cada nota del día en Facebook, una por una. Por defecto SUBE la foto propia
     de la nota (+ el link en el texto) para que SIEMPRE salga la imagen correcta —
     Facebook no puede leer la og:image de una nota de Wix recién publicada y devolvería la
-    misma foto para todas. Instagram NO se toca (sigue con el carrusel). Registro propio
-    `.fb.json` para no duplicar entre corridas."""
+    misma foto para todas. Postea TODAS las notas de la carpeta (sin tope de cantidad); si
+    alguna no se pudo, avisa por mail. Instagram NO se toca (sigue con el carrusel).
+    Registro propio `.fb.json` para no duplicar entre corridas."""
     if not _fb_individual_activo():
         return
+    # Notas de la carpeta que se cayeron por no tener foto que coincida (no se postean).
+    sin_foto = _docx_sin_nota(posts_folder, notes)
+
     fb_ledger = _load_fb_ledger(posts_folder)
     pending = [n for n in notes if n["key"] not in fb_ledger]
     if not pending:
         logger.info("[facebook] las notas de hoy ya se postearon. Nada que hacer.")
+        if not dry_run and sin_foto:
+            _avisar_notas_no_posteadas(sin_foto, [], [])
         return
     pending.sort(key=_orden)
     subir_foto = _fb_foto_activo()
     modo = "foto + link" if subir_foto else "solo link"
     logger.info(f"[facebook] {len(pending)} nota(s) para postear ({modo}, una por una)…")
 
+    sin_url, errores = [], []
     for i, note in enumerate(pending):
-        volanta, titular, cuerpo = _parse_nota(note["docx"])
+        volanta, titular, _ = _parse_nota(note["docx"])
         if not titular:
             titular = note.get("titular") or note["title"]
         wix_title = f"{volanta} — {titular}" if volanta else titular
@@ -151,6 +226,7 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
         if not url:
             logger.error(f"[facebook] no encontré la URL web de «{titular[:40]}» "
                          f"(se reintenta la próxima corrida).")
+            sin_url.append(titular[:60])
             continue
 
         if dry_run:
@@ -173,9 +249,13 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
             logger.info(f"[facebook] OK [{modo}] — «{titular[:40]}» → {url}")
         except Exception as e:
             logger.error(f"[facebook] FALLÓ — «{titular[:40]}»: {e}")
+            errores.append(f"{titular[:50]} ({e})")
             continue
         if i < len(pending) - 1:  # espaciar entre posteos (anti-ráfaga), no tras el último
             time.sleep(_post_delay())
+
+    if not dry_run:
+        _avisar_notas_no_posteadas(sin_foto, sin_url, errores)
 
 
 def _x_activo() -> bool:
