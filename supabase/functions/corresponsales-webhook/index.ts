@@ -203,7 +203,12 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   // datos vienen en el bloque DATOS que escribió el colaborador en un solo mensaje).
   const nombre = String(s.perfil || s.nombre || "corresponsal");
   const celular = String(s.celular || waId);
-  const carpeta = await crearSubcarpeta(token, `corresponsal_${fecha}_${slug(nombre)}`);
+  // Sufijo ÚNICO por envío: evita que dos envíos con el MISMO nombre (un corresponsal que manda
+  // varios videos/fotos, o dos vecinos homónimos) choquen en el dedup-por-nombre del desgrabador
+  // y se pierda uno en silencio. El nombre del corresponsal se conserva para identificarlo; el
+  // dedup sigue protegiendo contra reprocesar el MISMO archivo (mismo nombre físico en Drive).
+  const uniq = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  const carpeta = await crearSubcarpeta(token, `corresponsal_${fecha}_${slug(nombre)}_${uniq}`);
 
   const contexto =
     `ORIGEN: corresponsal-whatsapp\n` +
@@ -217,7 +222,7 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   const enc = new TextEncoder();
   await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8", enc.encode(contexto));
   const ext = mime.includes("quicktime") ? "mov" : "mp4";
-  await subirArchivo(token, carpeta, `video_${slug(nombre)}.${ext}`, mime, data);
+  await subirArchivo(token, carpeta, `video_${slug(nombre)}_${uniq}.${ext}`, mime, data);
 }
 
 // ── Máquina de estados ────────────────────────────────────────────────────────
