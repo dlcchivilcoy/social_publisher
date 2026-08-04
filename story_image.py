@@ -806,47 +806,217 @@ def _draw_titular_fill(draw, text, x, y, w, h, fill, *, max_size=100, min_size=4
     _emit(f, lines, y)
 
 
-def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: str = "") -> Path:
-    """Slide 4:5: logo + foto entera + TITULAR grande CENTRADO que llena la caja
-    blanca, y al PIE 'Seguí leyendo la nota completa en {web}'.
-    (La volanta ya NO se muestra — pedido del usuario; el parámetro se mantiene por
-    compatibilidad con quien llama.)"""
-    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)
+# ---------------------------------------------------------------------------
+# Carrusel de notas — estética editorial (2026-08). Logo NUEVO (isotipo naranja),
+# foto a sangre (tamaño orgánico), título imponente sobre degradé, y barra de
+# progreso + contador para invitar a DESLIZAR (más alcance en IG).
+# ---------------------------------------------------------------------------
+ISO_WHITE_PATH = Path(__file__).parent / "logo_reel.png"           # isotipo blanco
+ISO_ORANGE_PATH = Path(__file__).parent / "logo_reel_naranja.png"  # isotipo naranja
+_iso_cache: dict = {}
+
+SLIDE_DARK = (17, 19, 25)      # fondo/relleno oscuro del slide de foto
+SLIDE_TITLE = (255, 255, 255)  # título blanco
+SLIDE_VOL = (247, 147, 43)     # volanta: naranja más brillante (legible sobre foto)
+SLIDE_CTA = (228, 228, 232)    # pie claro
+
+
+def _iso(orange: bool = True):
+    key = "o" if orange else "w"
+    if key not in _iso_cache:
+        try:
+            _iso_cache[key] = Image.open(ISO_ORANGE_PATH if orange else ISO_WHITE_PATH).convert("RGBA")
+        except Exception as e:
+            logger.warning(f"No se pudo cargar el isotipo: {e}")
+            _iso_cache[key] = False
+    return _iso_cache[key]
+
+
+def _paste_iso(canvas, x, y, target_h, orange=True) -> int:
+    """Pega el isotipo (C concéntrica) con la altura pedida. Devuelve la x a su derecha."""
+    im = _iso(orange)
+    if not im:
+        return x
+    w, h = im.size
+    nw = max(1, round(w * target_h / h))
+    lg = im.resize((nw, target_h), Image.LANCZOS)
+    canvas.paste(lg, (x, y), lg)
+    return x + nw
+
+
+def _cover_top(img, box_w, box_h, y_bias=0.28):
+    """Cover-crop que LLENA la caja (foto a sangre, tamaño orgánico) sesgando el
+    recorte hacia arriba (y_bias 0=tope, 0.5=centro) para no cortar caras."""
+    img = img.convert("RGB")
+    sw, sh = img.size
+    scale = max(box_w / sw, box_h / sh)
+    new = img.resize((max(1, round(sw * scale)), max(1, round(sh * scale))), Image.LANCZOS)
+    nw, nh = new.size
+    left = (nw - box_w) // 2
+    top = int((nh - box_h) * y_bias)
+    top = max(0, min(top, nh - box_h))
+    return new.crop((left, top, left + box_w, top + box_h))
+
+
+def _grad_overlay(canvas, top_y, height, color, a_top, a_bottom, gamma=1.5):
+    """Pega un degradé vertical (alpha a_top→a_bottom) de `color` sobre el canvas."""
+    if height <= 0:
+        return
+    g = Image.new("L", (1, height), 0)
+    for i in range(height):
+        t = (i / (height - 1)) ** gamma if height > 1 else 1
+        g.putpixel((0, i), int(a_top + (a_bottom - a_top) * t))
+    alpha = g.resize((canvas.width, height))
+    canvas.paste(Image.new("RGB", (canvas.width, height), color), (0, top_y), alpha)
+
+
+def _draw_title_impose(draw, text, x, bottom_y, max_w, *, max_h, max_size=110, min_size=54):
+    """Título BLANCO imponente, alineado abajo-izquierda dentro de (max_w × max_h),
+    autoescalado con sombra para máxima legibilidad. Devuelve la Y superior usada."""
+    text = (text or "").strip()
+    if not text:
+        return bottom_y
+    f = _font(min_size, bold=True)
+    lines = _wrap(draw, text, f, max_w)
+    for size in range(max_size, min_size - 1, -4):
+        f = _font(size, bold=True)
+        lines = _wrap(draw, text, f, max_w)
+        lh = _line_h(f, "Ay") + 12
+        if len(lines) * lh <= max_h:
+            break
+    lh = _line_h(f, "Ay") + 12
+    max_lines = max(1, max_h // lh)
+    if len(lines) > max_lines:
+        lines = lines[:max_lines]
+        lines[-1] = lines[-1].rstrip(" .,;:") + "…"
+    total_h = len(lines) * lh
+    y = bottom_y - total_h
+    for ln in lines:
+        draw.text((x + 3, y + 4), ln, font=f, fill=(0, 0, 0))   # sombra
+        draw.text((x, y), ln, font=f, fill=SLIDE_TITLE)
+        y += lh
+    return bottom_y - total_h
+
+
+def compose_notes_cover_slide(fecha_larga: str = "", n_notas: int = 0, site_url: str = "") -> Path:
+    """Slide de PORTADA del carrusel (slide 1): isotipo grande + marca + 'NOTICIAS DE
+    HOY' + fecha + 'Deslizá para ver las N notas →'. Su función es enganchar el swipe."""
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)  # blanco de marca
     draw = ImageDraw.Draw(canvas)
+    draw.rectangle((0, 0, SLIDE_W, 12), fill=ACCENT)  # barra naranja arriba
+    cx = SLIDE_W // 2
 
-    logo_bottom = _paste_logo(canvas, 30, 460)
-    x = MARGIN
-    max_w = SLIDE_W - 2 * MARGIN
-    y = logo_bottom + 18
+    # Isotipo grande centrado
+    iso_h, iso_top = 330, 150
+    im = _iso(orange=True)
+    if im:
+        w, h = im.size
+        nw = max(1, round(w * iso_h / h))
+        canvas.paste(im.resize((nw, iso_h), Image.LANCZOS), (cx - nw // 2, iso_top),
+                     im.resize((nw, iso_h), Image.LANCZOS))
+    y = iso_top + iso_h + 34
 
-    # Pie: "Seguí leyendo la nota completa en {web}" (en cada slide)
-    box_bottom = SLIDE_H - 44
-    f_cta = _font(30, bold=True)
-    cta_lines = _wrap(draw, f"Seguí leyendo la nota completa en {site_url}", f_cta, max_w) if site_url else []
-    cta_lh = _line_h(f_cta, "Ay") + 6
-    cta_h = len(cta_lines) * cta_lh
+    f_brand = _font(48, bold=True)
+    bw = draw.textlength("DIARIO LA CAMPAÑA", font=f_brand)
+    draw.text((cx - bw / 2, y), "DIARIO LA CAMPAÑA", font=f_brand, fill=(20, 22, 28))
+    y += _line_h(f_brand, "Ay") + 64
 
-    # Caja del titular (arriba del pie)
-    titular_box_h = 360
-    titular_box_bottom = box_bottom - (cta_h + 28 if cta_lines else 0)
-    titular_box_top = titular_box_bottom - titular_box_h
+    f_h = _font(118, bold=True)
+    for line in ("NOTICIAS", "DE HOY"):
+        lw = draw.textlength(line, font=f_h)
+        draw.text((cx - lw / 2, y), line, font=f_h, fill=(20, 22, 28))
+        y += _line_h(f_h, "Ay") + 4
+    y += 26
 
-    photo_top = y + 4
-    photo_h = max(280, (titular_box_top - 24) - photo_top)
+    if fecha_larga:
+        f_d = _font(42, bold=True)
+        fx = fecha_larga.strip().capitalize()
+        dw = draw.textlength(fx, font=f_d)
+        draw.text((cx - dw / 2, y), fx, font=f_d, fill=ACCENT)
+
+    # Botón 'Deslizá →'
+    f_s = _font(44, bold=True)
+    swipe = (f"Deslizá para ver las {n_notas} notas   →" if n_notas
+             else "Deslizá para ver todas las notas   →")
+    sw = draw.textlength(swipe, font=f_s)
+    sh = _line_h(f_s, "Ay")
+    sy = SLIDE_H - 172
+    pad_x, pad_y = 36, 22
+    draw.rounded_rectangle((cx - sw / 2 - pad_x, sy - pad_y, cx + sw / 2 + pad_x, sy + sh + pad_y),
+                           radius=(sh + 2 * pad_y) // 2, fill=ACCENT)
+    draw.text((cx - sw / 2, sy), swipe, font=f_s, fill=SLIDE_TITLE)
+
+    if site_url:
+        f_w = _font(28, bold=True)
+        ww = draw.textlength(site_url, font=f_w)
+        draw.text((cx - ww / 2, SLIDE_H - 58), site_url, font=f_w, fill=GRAY)
+
+    return _save(canvas, "slide_cover")
+
+
+def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: str = "",
+                       idx: int | None = None, total: int | None = None) -> Path:
+    """Slide 4:5 del carrusel — estética editorial:
+      • foto a sangre (llena el cuadro, recorte orgánico, sin franjas borrosas),
+      • isotipo naranja + 'DIARIO LA CAMPAÑA' arriba,
+      • barra de progreso + contador 'idx/total' que invitan a deslizar,
+      • título BLANCO grande e imponente sobre un degradé oscuro (siempre legible),
+      • volanta naranja + 'Seguí leyendo en {web}' al pie."""
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), SLIDE_DARK)
     try:
-        canvas.paste(_fit_blur(Image.open(photo_path), SLIDE_W, photo_h), (0, photo_top))
+        canvas.paste(_cover_top(Image.open(photo_path), SLIDE_W, SLIDE_H, y_bias=0.26), (0, 0))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
-    _draw_titular_fill(draw, titular, x, titular_box_top, max_w, titular_box_h, ACCENT, center=True)
+    _grad_overlay(canvas, 0, 300, SLIDE_DARK, 180, 0)                 # velo arriba (marca)
+    _grad_overlay(canvas, SLIDE_H - 900, 900, (10, 11, 16), 0, 242)   # velo abajo (título)
+    draw = ImageDraw.Draw(canvas)
+
+    if idx and total:
+        draw.rectangle((0, 0, SLIDE_W, 9), fill=(70, 72, 80))
+        draw.rectangle((0, 0, int(SLIDE_W * idx / total), 9), fill=ACCENT)
+
+    hy, iso_h = 42, 70
+    after = _paste_iso(canvas, MARGIN, hy, iso_h, orange=True)
+    f_brand = _font(31, bold=True)
+    draw.text((after + 20, hy + (iso_h - _line_h(f_brand, "Ay")) // 2), "DIARIO LA CAMPAÑA",
+              font=f_brand, fill=SLIDE_TITLE)
+
+    if idx and total:
+        tag = f"{idx} / {total}"
+        f_tag = _font(30, bold=True)
+        tw = draw.textlength(tag, font=f_tag)
+        pad, pill_h = 20, 54
+        pill_w = tw + 2 * pad
+        px = SLIDE_W - MARGIN - pill_w
+        py = hy + (iso_h - pill_h) // 2
+        draw.rounded_rectangle((px, py, px + pill_w, py + pill_h), radius=pill_h // 2, fill=ACCENT)
+        draw.text((px + pad, py + (pill_h - _line_h(f_tag, "Ay")) // 2 - 2), tag, font=f_tag, fill=SLIDE_TITLE)
+
+    max_w = SLIDE_W - 2 * MARGIN
+    yb = SLIDE_H - 50
+
+    f_cta = _font(27, bold=True)
+    cta_lines = _wrap(draw, f"Seguí leyendo en {site_url}", f_cta, max_w) if site_url else []
+    cta_lh = _line_h(f_cta, "Ay") + 6
+    cta_block = len(cta_lines) * cta_lh
+
+    title_bottom = yb - (cta_block + 24 if cta_lines else 0)
+    title_top = _draw_title_impose(draw, titular, MARGIN, title_bottom, max_w, max_h=470)
+
+    vol = (volanta or "").strip().upper()
+    if vol:
+        f_vol = _font(30, bold=True)
+        vy = title_top - 14 - _line_h(f_vol, "Ay")
+        draw.rectangle((MARGIN, vy - 20, MARGIN + 66, vy - 12), fill=ACCENT)
+        ln = _wrap(draw, vol, f_vol, max_w)[:1]
+        if ln:
+            draw.text((MARGIN, vy), ln[0], font=f_vol, fill=SLIDE_VOL)
 
     if cta_lines:
-        sep_y = titular_box_bottom + 14
-        draw.line((x, sep_y, SLIDE_W - MARGIN, sep_y), fill=ACCENT, width=3)
-        yy = box_bottom - cta_h
+        yy = yb - cta_block
         for ln in cta_lines:
-            w = draw.textlength(ln, font=f_cta)
-            draw.text(((SLIDE_W - w) // 2, yy), ln, font=f_cta, fill=ACCENT)
+            draw.text((MARGIN, yy), ln, font=f_cta, fill=SLIDE_CTA)
             yy += cta_lh
 
     return _save(canvas, "slide_" + _safe_stem(titular or volanta, "nota"))

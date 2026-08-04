@@ -17,7 +17,7 @@ from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
                        _save_ledger)
-from story_image import compose_note_slide
+from story_image import compose_note_slide, compose_notes_cover_slide
 from utils.branding import linea_canal_yt
 from utils.config import get
 from utils.logger import get_logger
@@ -363,13 +363,15 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     wix_ok = 0
     web_changed = False
 
-    for note in pending:
+    total_notas = len(pending)
+    for i, note in enumerate(pending, 1):
         volanta, titular, cuerpo = _parse_nota(note["docx"])
         if not titular:
             titular = note.get("titular") or note["title"]
         primer = cuerpo[0] if cuerpo else ""
         try:
-            slide = compose_note_slide(note["image"], volanta, titular, site_url=site)
+            slide = compose_note_slide(note["image"], volanta, titular, site_url=site,
+                                       idx=i, total=total_notas)
             slides.append(slide)
         except Exception as e:
             logger.error(f"No se pudo componer el slide de «{titular[:40]}»: {e}")
@@ -403,6 +405,17 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     if not slides:
         logger.error("No se pudo componer ningún slide. Se aborta el carrusel.")
         return
+
+    # Portada (slide 1) que engancha el swipe ("Deslizá para ver las N notas →"). Se
+    # antepone respetando el máximo de 10 slides de Instagram: portada + hasta 9 notas.
+    # Si hay 10 notas, el carrusel va sin portada (se prioriza mostrar todas las notas).
+    n_notas = len(slides)
+    if n_notas < 10:
+        try:
+            slides = [compose_notes_cover_slide(_fecha_larga(hoy), n_notas, site)] + slides
+        except Exception as e:
+            logger.warning(f"No se pudo componer la portada del carrusel: {e}")
+    slides = slides[:10]
 
     # Caption (bajada): SOLO el titular de cada nota (pedido del usuario 2026-06-27):
     # nada de descripción/primer párrafo, así no quedan textos mal cortados. El que
