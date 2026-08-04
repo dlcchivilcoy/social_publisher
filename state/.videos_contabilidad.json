@@ -1488,11 +1488,28 @@
     "zocalo": "Macarena Pastorini",
     "draft_id": "b8ba9ed4-e7f2-42b4-a6be-39ba9df025a4",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msf8hcm8qe01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias Zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Al enviar el material, el colaborador autoriza al Diario La Campaña y Radio del Centro a utilizar las imágenes y videos con fines periodísticos. — 2026-08-04T22:32:35.334Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Al enviar el material, el colaborador autoriza al Diario La Campaña y Radio del Centro a utilizar las imágenes y videos con fines periodísticos. — 2026-08-04T22:32:35.334Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-04T19:45:17",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/recuperacion-en-moquehua-hallaron-la-moto-honda-wave-robada-en",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18002756033966841",
+    "fb_video_id": "1414652597198806",
+    "yt_video_id": "XzUCOcpj1A4",
+    "yt_url": "https://www.youtube.com/shorts/XzUCOcpj1A4",
+    "yt_watch_url": "https://www.youtube.com/watch?v=XzUCOcpj1A4",
+    "yt_titulo": "Hallaron la moto Honda Wave robada en Moquehuá",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-04T19:45:17",
+    "yt_metrics": {}
   }
 ]
