@@ -173,11 +173,12 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     texto, resumen = nota["texto"], nota["resumen"]
     slug = tr._slug(video.stem)
 
-    # Reel vertical branded (mismo overlay/logo/placa que el diario). Nombre único con prefijo
-    # «radio» para que no pise en el GitHub Release al reel del diario.
+    # Reel vertical branded SIN overlay ni zócalo (pedido del usuario 2026-07-29): queda igual
+    # que el diario → fondo naranja + logo + placa final. Nombre único con prefijo «radio» para
+    # que no pise en el GitHub Release al reel del diario.
     firma = tr._firma_texto() if es_corresponsal else None
     reel = to_vertical_reel(video, tr.WORK_DIR / f"reel_radio_{slug}.mp4",
-                            firma=firma, zocalo=nota.get("zocalo", ""))
+                            firma=firma, overlay=False)
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"
@@ -446,7 +447,7 @@ def run_placa_radio(folder: str = "", uploader: str = "", dry_run: bool = False)
     try:
         tr.WORK_DIR.mkdir(exist_ok=True)
         reel = foto_a_reel(fotos, tr.WORK_DIR / f"placa_radio_{tr._slug(carpeta.name)}.mp4",
-                           zocalo=volanta or titular)
+                           overlay=False)
         reel_url = upload_reel(reel)
     except Exception as e:  # noqa: BLE001
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
