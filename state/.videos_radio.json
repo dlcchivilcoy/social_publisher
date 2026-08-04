@@ -816,6 +816,14 @@
     "texto": "Productores trabajaron en articulación con diversas áreas del INTA en la valoración de espacios en los establecimientos rurales que aportan a la biodiversidad. Entre ellos se mencionaron las áreas de casco con vegetación añeja, los lotes internos, las taperas o montes de reparo y la vegetación espontánea a los costados de los caminos.",
     "zocalo": "Valoración de espacios de biodiversidad",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260804-170653-youtube.mp4",
-    "estado": "solo_reel"
+    "estado": "publicado_solo_reel",
+    "fecha_publicado": "2026-08-04T18:08:47",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido"
+    },
+    "ig_media_id": "18021713558911697",
+    "fb_video_id": "1044496344609411"
   }
 ]
