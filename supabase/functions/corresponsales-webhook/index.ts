@@ -34,8 +34,8 @@ const SB_URL = Deno.env.get("SUPABASE_URL") ?? "";
 const SB_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
 
 const LEGAL =
-  "Al enviar el material, el colaborador autoriza al Diario La Campaña y Radio del Centro " +
-  "a utilizar las imágenes y videos con fines periodísticos.";
+  "Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación " +
+  "de ningún tipo de retribución.";
 
 // ── Utilidades ────────────────────────────────────────────────────────────────
 function normalizar(s: string): string {
@@ -251,6 +251,9 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
       "• Tu *nombre y apellido*\n" +
       "• *Lugar* del hecho\n" +
       "• *Qué pasó*: qué ocurrió, cuándo, dónde y cómo\n\n" +
+      "🔒 Tus datos (nombre, apellido, celular) serán *confidenciales* y no se publicarán: solo se " +
+      "guardan en nuestra base de datos para dar el *premio del mes* al usuario que haya enviado el " +
+      "video con mejores estadísticas en nuestras redes sociales.\n\n" +
       "(Tu número de contacto ya lo tengo de este WhatsApp. Si te arrepentís, escribí *cancelar*.)");
     return;
   }
