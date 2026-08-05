@@ -1068,3 +1068,38 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                 f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
     return nota
+
+
+def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
+                    api_key: str = "", model: str = "", key_pool=None) -> dict:
+    """Redacta la nota (volanta, título, texto, resumen) a partir de la DESCRIPCIÓN que
+    escribió un corresponsal + la FOTO que mandó (NO hay video que desgrabar). Un solo tiro a
+    Gemini con la foto como imagen y la descripción como contexto — SIN el flujo multipaso
+    (que es para audio/video). Devuelve el mismo dict que `transcribe_to_nota`
+    (`hay_noticia=True`, `mejor_momento_seg=0`)."""
+    key = (api_key or "").strip() or get("GEMINI_API_KEY")
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
+    model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
+    img_parts = []
+    try:
+        img_parts.append(_img_part(Path(foto_path)))
+    except Exception as e:
+        logger.warning(f"No pude adjuntar la foto para redactar la nota: {e}")
+    ctx = (descripcion or "").strip()
+    if (lugar or "").strip():
+        ctx = f"Lugar del hecho: {lugar.strip()}\n{ctx}"
+    prompt = (
+        PROMPT_BASE
+        + "\n\nIMPORTANTE: NO hay video ni audio para desgrabar; te paso UNA FOTO y la "
+        "descripción que escribió el vecino que la envió. Redactá la nota a partir de ESA "
+        "DESCRIPCIÓN (la foto es de apoyo visual). NO inventes datos que no estén en la "
+        "descripción. `mejor_momento_seg` puede ser 0.\n\nDESCRIPCIÓN DEL VECINO:\n" + ctx
+    )
+    logger.info(f"Gemini: redactando nota desde foto+descripción ({len(ctx)} chars) con {model}…")
+    raw = _post_generate([{"text": prompt}] + img_parts, key, model,
+                         temperature=0.3, key_pool=key_pool or _gemini_keys(key))
+    nota = _parse_nota(raw)
+    nota["hay_noticia"] = True  # el corresponsal mandó material con intención de nota
+    logger.info(f"Gemini OK (foto): «{nota['volanta']} — {nota['titulo']}»")
+    return nota

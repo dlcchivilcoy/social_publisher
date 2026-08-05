@@ -777,6 +777,159 @@ def _placa_datos(carpeta: Path):
     return docx, fotos, volanta, titular, resumen, texto, title, body
 
 
+def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: bool) -> None:
+    """ETAPA 1 del CORRESPONSAL-FOTO: subcarpeta con contexto.txt (ORIGEN corresponsal) + foto,
+    SIN video ni Word. Redacta la nota con IA desde la descripción del vecino y avisa por mail
+    para revisar. NO crea nota web (pedido del usuario: SOLO reel a redes). Al aprobar (etapa 2)
+    se arma el reel branded (con firma) y se postea a las redes."""
+    fotos = [p for p in sorted(carpeta.iterdir())
+             if p.is_file() and p.suffix.lower() in IMG_EXTS]
+    if not fotos:
+        logger.error(f"Corresponsal-foto '{carpeta.name}': no hay foto para procesar.")
+        return
+    rows = _leer_ledger()
+    fila = _buscar_fila(rows, carpeta.name)
+    if not dry_run and fila and fila.get("estado") in ("borrador_foto_corr", "publicado_foto_corr"):
+        logger.info(f"El corresponsal-foto '{carpeta.name}' ya fue procesado (estado={fila['estado']}).")
+        _avisar_nombre_repetido(carpeta.name, fila, kind="foto de corresponsal")
+        return
+
+    # IA: redactar la nota (volanta/título/texto/resumen) desde la descripción + la foto.
+    from utils import gemini
+    try:
+        nota = gemini.nota_desde_foto(ctx.get("descripcion", ""), fotos[0], lugar=ctx.get("lugar", ""))
+    except Exception as e:
+        logger.error(f"Gemini falló al redactar el corresponsal-foto ({e}); uso la descripción cruda.")
+        desc = (ctx.get("descripcion") or "").strip()
+        nota = {"volanta": "", "titulo": (desc.split("\n")[0][:80] or "Envío de corresponsal"),
+                "texto": desc, "resumen": desc[:280]}
+    volanta = nota.get("volanta", ""); titular = nota.get("titulo", "")
+    texto = nota.get("texto", ""); resumen = nota.get("resumen", "") or titular
+    title = f"{volanta} — {titular}" if volanta else titular
+
+    if dry_run:
+        logger.info(f"[dry-run] corresponsal-foto «{title}»: reel branded (firma) a redes, sin nota web.")
+        return
+
+    if fila is None:
+        fila = {"file": carpeta.name}
+        rows.append(fila)
+    fila.update({
+        "uploader": uploader or fila.get("uploader", ""),
+        "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
+        "hay_noticia": True, "es_placa": True, "corr_foto": True,
+        "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto,
+        "draft_id": "", "estado": "borrador_foto_corr",
+        "origen": ctx.get("origen", ""), "corresponsal_nombre": ctx.get("nombre", ""),
+        "corresponsal_celular": ctx.get("celular", ""), "corresponsal_lugar": ctx.get("lugar", ""),
+        "autorizacion": ctx.get("autorizacion", ""),
+    })
+    _guardar_ledger(rows)
+    logger.info("Corresponsal-foto registrado como BORRADOR (solo reel).")
+
+    webapp = get("APPROVE_WEBAPP_URL"); tok = get("WEBAPP_TOKEN")
+    t = f"&token={quote(tok)}" if tok else ""
+    botones = _boton(f"{webapp}?action=approve&name={quote(carpeta.name)}&kind=folder{t}",
+                     "✅ Aprobar y publicar") if webapp else ""
+    html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
+            f"<h2 style='color:#e2620c'>Foto de corresponsal por revisar</h2>"
+            f"<p style='color:#888;font-size:13px'>{_hesc(ctx.get('nombre',''))} · "
+            f"{_hesc(ctx.get('lugar',''))} · foto</p>"
+            f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
+            f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
+            f"<p>Al aprobar se arma el <b>reel branded (30s, con firma)</b> de la foto y se postea a "
+            f"<b>Facebook/Instagram + YouTube Short</b> (sin nota web):</p>"
+            f"<div style='margin:18px 0'>{botones}</div>"
+            f"<p style='color:#777;font-size:13px'>Si no ves el botón, aprobá moviendo la carpeta "
+            f"«{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
+    _enviar_aviso(f"Foto de corresponsal por revisar: {titular}",
+                  f"Foto de corresponsal para revisar: «{title}».\nPara publicarla, mové la carpeta "
+                  f"«{carpeta.name}» a APROBADAS.", html=html)
+    logger.info("=== Corresponsal-foto (etapa 1): fin ===")
+
+
+def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
+    """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): arma el reel branded (con FIRMA) de la foto y lo
+    postea a Facebook/Instagram + YouTube Short. SIN nota web (solo reel a redes)."""
+    if fila.get("estado") == "publicado_foto_corr":
+        logger.info(f"El corresponsal-foto '{fila['file']}' ya estaba publicado.")
+        return
+    carpeta = _find_folder(fila["file"])
+    fotos = [p for p in sorted(carpeta.iterdir())
+             if p.is_file() and p.suffix.lower() in IMG_EXTS] if carpeta else []
+    if not fotos:
+        logger.error(f"No encontré la foto de '{fila['file']}' para postear.")
+        return
+    titular = fila.get("titulo", ""); volanta = fila.get("volanta", "")
+    texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
+    caption = f"{titular}\n\n{texto}\n\n📲 Más en {_site()}".strip()
+
+    if dry_run:
+        logger.info(f"[dry-run] corresponsal-foto: reel branded (firma) a redes, caption «{titular}».")
+        return
+
+    plats = _platforms()
+    estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido"}
+    # 1) Reel branded CON FIRMA (30s), sin overlay del diario.
+    reel_url, reel_local = "", None
+    try:
+        from video import foto_a_reel
+        WORK_DIR.mkdir(exist_ok=True)
+        reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
+                                 firma=_firma_texto(), overlay=False)
+        reel_url = upload_reel(reel_local)
+    except Exception as e:
+        logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
+        return
+    # 2) YouTube Short (opcional, gateado por YT_SHORTS_ENABLED).
+    yt_info = {}
+    if _yt_enabled() and reel_local:
+        try:
+            from platforms import youtube_api
+            meta = _youtube_meta(volanta, titular, resumen, texto)
+            privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
+            yt_info = _retry(lambda: youtube_api.upload_short(
+                reel_local, meta["titulo"], meta["descripcion"],
+                tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
+                etiqueta="[youtube] subir Short")
+            estado["youtube"] = "ok"
+            logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
+        except Exception as e:
+            estado["youtube"] = f"falló: {e}"; logger.error(f"[youtube] Short FALLÓ: {e}")
+    # 3) Reel a Instagram y Facebook con el caption.
+    if "instagram" in plats and reel_url:
+        try:
+            res_ig = instagram.publish_reel(reel_url, caption); estado["instagram"] = "ok"
+            fila["ig_media_id"] = (res_ig or {}).get("id", "") if isinstance(res_ig, dict) else ""
+            logger.info("[instagram] reel OK")
+        except Exception as e:
+            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
+    if "facebook" in plats and reel_local:
+        try:
+            res_fb = facebook.publish_video(caption, reel_local); estado["facebook"] = "ok"
+            fila["fb_video_id"] = (res_fb or {}).get("id", "") if isinstance(res_fb, dict) else ""
+            logger.info("[facebook] reel OK")
+        except Exception as e:
+            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
+
+    rows = _leer_ledger()
+    f2 = _buscar_fila(rows, fila["file"])
+    if f2 is None:
+        f2 = fila; rows.append(f2)
+    f2.update({"estado": "publicado_foto_corr",
+               "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
+               "estado_canales": estado,
+               "ig_media_id": fila.get("ig_media_id", ""), "fb_video_id": fila.get("fb_video_id", "")})
+    if yt_info:
+        f2.update({"yt_video_id": yt_info.get("id", ""),
+                   "yt_url": yt_info.get("short_url") or yt_info.get("url", "")})
+    _guardar_ledger(rows)
+    logger.info(f"Corresponsal-foto publicado: {estado}")
+    _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
+                  f"Se publicó el reel de la foto de corresponsal «{titular}»: "
+                  f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}.")
+
+
 def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
     """ETAPA 1 de la FOTO-NOTA: subcarpeta de «videos notas actualidad» con Word + foto(s)
     SIN video. Crea la nota como BORRADOR en Wix (la/s foto/s TAL CUAL + el texto) y avisa
@@ -787,6 +940,12 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
     carpeta = _find_folder(folder)
     if not carpeta:
         logger.error(f"No encontré la carpeta '{folder}' en {_videos_folder()}.")
+        return
+    # Corresponsal-FOTO (contexto.txt ORIGEN corresponsal + foto, SIN Word): camino aparte
+    # (reel branded con firma, SOLO redes, sin nota web). Va ANTES de _placa_datos (que pide Word).
+    ctx = _leer_contexto(carpeta)
+    if ctx and "corresponsal" in (ctx.get("origen", "").lower()):
+        _corresponsal_foto_etapa1(carpeta, ctx, uploader, dry_run)
         return
     datos = _placa_datos(carpeta)
     if not datos:
@@ -867,6 +1026,11 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         return
     if fila.get("estado") == "publicado_placa":
         logger.info(f"La foto-nota '{fila['file']}' ya estaba publicada.")
+        return
+
+    # Corresponsal-FOTO: publica SOLO el reel branded (con firma) a redes, sin nota web.
+    if fila.get("corr_foto"):
+        _corresponsal_foto_publish(fila, dry_run)
         return
 
     carpeta = _find_folder(fila["file"])

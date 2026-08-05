@@ -221,8 +221,15 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   // video, así arranca recién cuando ya están los dos archivos).
   const enc = new TextEncoder();
   await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8", enc.encode(contexto));
-  const ext = mime.includes("quicktime") ? "mov" : "mp4";
-  await subirArchivo(token, carpeta, `video_${slug(nombre)}_${uniq}.${ext}`, mime, data);
+  if (mime.startsWith("image/")) {
+    // FOTO: se guarda como imagen (sin video). La carpeta queda con contexto.txt + foto → el
+    // Apps Script la dispara como `--placa`, y el desgrabador arma el reel branded de la foto.
+    const ext = mime.includes("png") ? "png" : (mime.includes("webp") ? "webp" : "jpg");
+    await subirArchivo(token, carpeta, `foto_${slug(nombre)}_${uniq}.${ext}`, mime, data);
+  } else {
+    const ext = mime.includes("quicktime") ? "mov" : "mp4";
+    await subirArchivo(token, carpeta, `video_${slug(nombre)}_${uniq}.${ext}`, mime, data);
+  }
 }
 
 // ── Máquina de estados ────────────────────────────────────────────────────────
@@ -230,24 +237,25 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
   const waId: string = msg.from;
   const tipo: string = msg.type;
   const texto: string = msg.text?.body ?? msg.button?.text ?? "";
-  const esVideo = tipo === "video" || (tipo === "document" && String(msg.document?.mime_type || "").startsWith("video/"));
+  const esMedia = tipo === "video" || tipo === "image" ||
+    (tipo === "document" && /^(video|image)\//.test(String(msg.document?.mime_type || "")));
   const sesion = await getSesion(waId);
 
   // "cancelar" en cualquier momento.
   if (sesion && normalizar(texto) === "cancelar") {
     await deleteSesion(waId);
-    await enviarTexto(waId, "Listo, cancelé el envío. Cuando quieras, mandame de nuevo el video. 👋");
+    await enviarTexto(waId, "Listo, cancelé el envío. Cuando quieras, mandame de nuevo el material. 👋");
     return;
   }
 
-  // Llega un video → (re)arranca el formulario. TODAS las preguntas en UN solo mensaje.
-  if (esVideo) {
-    const mediaId = (msg.video?.id) ?? (msg.document?.id);
+  // Llega un video o foto → (re)arranca el formulario. TODAS las preguntas en UN solo mensaje.
+  if (esMedia) {
+    const mediaId = (msg.video?.id) ?? (msg.image?.id) ?? (msg.document?.id);
     await upsertSesion({ wa_id: waId, paso: "datos", media_id: mediaId, perfil,
       nombre: null, celular: null, lugar: null, descripcion: null });
     await enviarTexto(waId,
       "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-      "Campaña - Radio del Centro! 📣\n\nRecibí tu video. Para sumarlo, respondé en *un solo mensaje* con:\n\n" +
+      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Para sumarlo, respondé en *un solo mensaje* con:\n\n" +
       "• Tu *nombre y apellido*\n" +
       "• *Lugar* del hecho\n" +
       "• *Qué pasó*: qué ocurrió, cuándo, dónde y cómo\n\n" +
@@ -264,9 +272,9 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     if (pareceNoticia(texto)) {
       await enviarTexto(waId,
         "¡Hola! 👋 Sumate al *Programa de Corresponsales «Chivilcoy en Acción»*.\n\n" +
-        "📹 Enviá *en formato video* una noticia (policial, incendio, robo, delito o siniestro) y " +
-        "te voy a pedir tus datos para sumarla.\n\n⚠️ El video tiene que pesar menos de 16 MB " +
-        "(si es muy largo, mandá un clip más corto).");
+        "📹 Enviá una noticia (policial, incendio, robo, delito o siniestro) *en video o foto* y " +
+        "te voy a pedir tus datos para sumarla.\n\n⚠️ El archivo tiene que pesar menos de 16 MB " +
+        "(si el video es muy largo, mandá un clip más corto).");
     }
     return;
   }
@@ -293,7 +301,7 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
       } catch (e) {
         console.error("depositar:", e);
         await enviarTexto(waId,
-          "Uf, tuve un problema al guardar el video 😕. Por favor reenviá el video para intentar de nuevo.");
+          "Uf, tuve un problema al guardar el material 😕. Por favor reenvialo para intentar de nuevo.");
         await deleteSesion(waId);
       }
     } else {
