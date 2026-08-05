@@ -858,6 +858,37 @@ def _cover_top(img, box_w, box_h, y_bias=0.28):
     return new.crop((left, top, left + box_w, top + box_h))
 
 
+def _cover_seguro(img, box_w, box_h, *, min_conserva=0.80) -> bool:
+    """¿Es seguro llenar la caja con cover-crop sin arriesgar cortar sujetos? Devuelve
+    True solo si el recorte conserva al menos `min_conserva` de la dimensión que se
+    recorta (fotos verticales o casi cuadradas). Las apaisadas o muy altas — donde el
+    cover se comería a la gente de los costados/extremos — dan False y se muestran
+    ENTERAS (sin cortar) con `_foto_entera_con_fondo`."""
+    w, h = img.size
+    if not w or not h:
+        return True
+    a = w / h
+    objetivo = box_w / box_h
+    conserva = objetivo / a if a > objetivo else a / objetivo
+    return conserva >= min_conserva
+
+
+def _foto_entera_con_fondo(canvas, img, *, top=150, box_bottom=800) -> None:
+    """Muestra la foto COMPLETA (sin recortar → no corta caras/sujetos) anclada en la
+    franja de arriba, sobre un fondo INMERSIVO: un cover borroso y oscurecido de la
+    misma foto (a sangre, sin franjas blancas). Deja el pie libre para el título."""
+    W, H = canvas.size
+    img = img.convert("RGB")
+    bg = _cover(img, W, H).filter(ImageFilter.GaussianBlur(45))
+    bg = ImageEnhance.Brightness(bg).enhance(0.5)
+    canvas.paste(bg, (0, 0))
+    box_w, box_h = W, max(200, box_bottom - top)
+    fg = img.copy()
+    fg.thumbnail((box_w, box_h), Image.LANCZOS)
+    fw, fh = fg.size
+    canvas.paste(fg, ((W - fw) // 2, top))
+
+
 def _grad_overlay(canvas, top_y, height, color, a_top, a_bottom, gamma=1.5):
     """Pega un degradé vertical (alpha a_top→a_bottom) de `color` sobre el canvas."""
     if height <= 0:
@@ -908,7 +939,13 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
       • volanta naranja + 'Seguí leyendo en {web}' al pie."""
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), SLIDE_DARK)
     try:
-        canvas.paste(_cover_top(Image.open(photo_path), SLIDE_W, SLIDE_H, y_bias=0.26), (0, 0))
+        photo = Image.open(photo_path)
+        if _cover_seguro(photo, SLIDE_W, SLIDE_H):
+            # Vertical/casi cuadrada: llena el cuadro a sangre (poco se recorta).
+            canvas.paste(_cover_top(photo, SLIDE_W, SLIDE_H, y_bias=0.22), (0, 0))
+        else:
+            # Apaisada/muy alta: se muestra ENTERA para no cortar caras ni sujetos.
+            _foto_entera_con_fondo(canvas, photo)
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
