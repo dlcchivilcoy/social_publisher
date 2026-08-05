@@ -202,25 +202,46 @@ def _esc_ff(path: str) -> str:
     return str(path).replace("\\", "/").replace(":", "\\:")
 
 
+def _dos_renglones(texto: str) -> str:
+    """Parte el texto en EXACTAMENTE 2 renglones lo más parejos posible (corte por
+    palabra más cercano a la mitad). Con una sola palabra lo deja como está."""
+    palabras = texto.split()
+    if len(palabras) < 2:
+        return texto
+    total = sum(len(p) for p in palabras) + len(palabras) - 1
+    acum, corte, mejor = 0, 1, total
+    for i in range(1, len(palabras)):
+        acum += len(palabras[i - 1]) + 1
+        dif = abs(acum - (total - acum))
+        if dif < mejor:
+            mejor, corte = dif, i
+    return " ".join(palabras[:corte]) + "\n" + " ".join(palabras[corte:])
+
+
 def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str]:
-    """Devuelve (fragmento_de_filtro, etiqueta_de_salida) que superpone una banda
-    inferior semitransparente con `texto` (la firma del corresponsal) sobre `in_label`.
-    El texto va por `textfile=` para no pelear con tildes/guiones/'·' en el filtergraph.
-    Si no hay fuente disponible, no dibuja nada (devuelve el label original)."""
+    """Devuelve (fragmento_de_filtro, etiqueta_de_salida) que estampa la firma del
+    corresponsal ARRIBA, a la derecha del logo, en 2 renglones, sobre una caja
+    semitransparente (para que se lea sobre el fondo difuminado). El texto va por
+    `textfile=` para no pelear con tildes/guiones/'·' en el filtergraph. Si no hay fuente
+    disponible, no dibuja nada (devuelve el label original)."""
     font = _font_file()
     if not font:
         logger.warning("Sin fuente para la firma del reel; se omite el drawtext.")
         return "", in_label
     work_dir.mkdir(parents=True, exist_ok=True)
     firma_txt = work_dir / "firma.txt"
-    # Envuelve a ~34 caracteres por línea para que entre en los 1080 de ancho.
-    wrapped = "\n".join(textwrap.wrap(texto.strip(), width=34)) or texto.strip()
-    firma_txt.write_text(wrapped, encoding="utf-8")
+    firma_txt.write_text(_dos_renglones(texto.strip()), encoding="utf-8")
+    # Arranca a la derecha del logo (mismo margen de arriba, corrido por el ancho del logo).
+    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+    ancho = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
+    x = mx + ancho + 22
+    y = my + 6
     draw = (
         f"{in_label}drawtext=textfile='{_esc_ff(firma_txt)}'"
-        f":fontfile='{_esc_ff(font)}':fontcolor=white:fontsize=33:line_spacing=8"
-        f":box=1:boxcolor=black@0.55:boxborderw=24"
-        f":x=(w-text_w)/2:y=h-text_h-90[vf]"
+        f":fontfile='{_esc_ff(font)}':fontcolor=white:fontsize=26:line_spacing=6"
+        f":box=1:boxcolor=black@0.5:boxborderw=14"
+        f":x={x}:y={y}[vf]"
     )
     return draw, "[vf]"
 
