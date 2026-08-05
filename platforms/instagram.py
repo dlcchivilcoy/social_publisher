@@ -177,6 +177,32 @@ def publish(body: str, image_path: Path) -> dict:
 MAX_CAROUSEL = 10  # Instagram permite hasta 10 imágenes por carrusel
 
 
+def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos: int = 3) -> str:
+    """Crea un contenedor HIJO del carrusel, resiliente al fallo transitorio de descarga
+    de la imagen por parte de Instagram (2207003 timeout / 2207052 "Only photo or video…").
+    Reintenta subiendo la imagen de nuevo a ImgBB: cada intento usa una URL FRESCA, porque
+    reintentar la MISMA URL no destraba (mismo criterio que publish_story). Sin este
+    reintento, un solo tropiezo de una imagen tumbaba el carrusel entero."""
+    ultimo = None
+    for intento in range(intentos):
+        try:
+            image_url = upload_to_imgbb(jpeg_path)  # URL fresca en cada intento
+            cid = _crear_contenedor(
+                user_id, token,
+                {"image_url": image_url, "is_carousel_item": "true"},
+                intentos=1,
+            )
+            _wait_container_ready(cid, token)
+            return cid
+        except Exception as e:
+            ultimo = e
+            if intento < intentos - 1:
+                logger.warning(f"Hijo del carrusel falló (intento {intento + 1}/{intentos}): {e}. "
+                               f"Reintento subiendo la imagen de nuevo…")
+                time.sleep(5)
+    raise ultimo
+
+
 def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
     """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
 
@@ -202,10 +228,7 @@ def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
             jpeg = _as_jpeg(p)
             if jpeg != p:
                 temps.append(jpeg)
-            url = upload_to_imgbb(jpeg)
-            cid = _crear_contenedor(user_id, token, {"image_url": url, "is_carousel_item": "true"})
-            _wait_container_ready(cid, token)
-            child_ids.append(cid)
+            child_ids.append(_crear_hijo_carousel(user_id, token, jpeg))
 
         parent_data = {
             "media_type": "CAROUSEL",
