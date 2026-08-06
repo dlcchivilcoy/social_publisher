@@ -403,11 +403,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # Antes se recortaba a ~60s (mejores partes con noticia, o 60s sin noticia); se anuló:
         # ahora va el video entero, solo reencuadrado a vertical 9:16 para el formato reel.
         reel_path = WORK_DIR / f"reel_{slug}.mp4"
-        firma = _firma_texto() if es_corresponsal else None
-        # El diario va SIN el overlay del diario ni el texto del zócalo (pedido del usuario
-        # 2026-07-27): queda fondo naranja + logo + placa final. La radio (transcriber_radio)
-        # sí lleva overlay + zócalo. (El zócalo de Gemini se sigue guardando en el ledger.)
-        reel = to_vertical_reel(video, reel_path, firma=firma, overlay=False)
+        # La firma del corresponsal ya NO se quema en el video (pedido 2026-08-05): va como TEXTO
+        # al inicio de la descripción/caption en las 3 redes (se arma en run_publish_video). El
+        # diario también va SIN overlay ni zócalo (2026-07-27): fondo difuminado + logo + placa.
+        reel = to_vertical_reel(video, reel_path, overlay=False)
 
         if dry_run:
             logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
@@ -641,12 +640,22 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     resumen = fila.get("resumen", "")
     caption = _caption(titulo, resumen) if hay else ""
 
+    # Corresponsales: la firma ya NO va quemada en el reel; va como TEXTO al inicio de la
+    # descripción, y esa descripción (SEO con IA) sale igual en YouTube, Instagram y Facebook.
+    es_corr = "corresponsal" in (fila.get("origen", "") or "").lower()
+    # SEO con IA (título/descripción/hashtags), reutilizado en las 3 redes. Se arma si hay nota y
+    # (es corresponsal, para el caption de IG/FB, o YouTube está activo). Nunca tira excepción.
+    meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if (hay and (es_corr or _yt_enabled())) else {}
+    yt_desc = meta.get("descripcion", "")
+    if hay and es_corr:
+        yt_desc = f"{_firma_texto()}\n\n{meta.get('descripcion', '')}".strip()
+        caption = yt_desc  # IG/FB usan la misma descripción SEO con la firma al inicio
+
     if dry_run:
-        meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if hay else {}
         logger.info(f"[dry-run] hay_noticia={hay}. Publicaría reel={reel_url} + draft={draft_id or '—'}\n"
                     f"Caption FB/IG:\n{caption or '(sin texto)'}\n"
                     f"YouTube Short: {'(omitido)' if not (hay and _yt_enabled()) else meta.get('titulo')}\n"
-                    f"Descripción YT:\n{meta.get('descripcion', '(omitida)')}")
+                    f"Descripción YT:\n{yt_desc or '(omitida)'}")
         return
 
     plats = _platforms()
@@ -691,11 +700,10 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     if hay and _yt_enabled() and local_reel:
         try:
             from platforms import youtube_api
-            meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", ""))
             privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
             yt_info = _retry(
                 lambda: youtube_api.upload_short(
-                    local_reel, meta["titulo"], meta["descripcion"],
+                    local_reel, meta["titulo"], yt_desc,
                     tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
                 etiqueta="[youtube] subir Short")
             estado_canales["youtube"] = "ok"
@@ -781,7 +789,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     """ETAPA 1 del CORRESPONSAL-FOTO: subcarpeta con contexto.txt (ORIGEN corresponsal) + foto,
     SIN video ni Word. Redacta la nota con IA desde la descripción del vecino y avisa por mail
     para revisar. NO crea nota web (pedido del usuario: SOLO reel a redes). Al aprobar (etapa 2)
-    se arma el reel branded (con firma) y se postea a las redes."""
+    se arma el reel branded y se postea a las redes (la firma va en la descripción, no en el video)."""
     fotos = [p for p in sorted(carpeta.iterdir())
              if p.is_file() and p.suffix.lower() in IMG_EXTS]
     if not fotos:
@@ -837,8 +845,9 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
             f"{_hesc(ctx.get('lugar',''))} · foto</p>"
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
-            f"<p>Al aprobar se arma el <b>reel branded (30s, con firma)</b> de la foto y se postea a "
-            f"<b>Facebook/Instagram + YouTube Short</b> (sin nota web):</p>"
+            f"<p>Al aprobar se arma el <b>reel branded (30s)</b> de la foto y se postea a "
+            f"<b>Facebook/Instagram + YouTube Short</b> (la firma del corresponsal va en la "
+            f"descripción, con la nota redactada por IA · sin nota web):</p>"
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves el botón, aprobá moviendo la carpeta "
             f"«{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
@@ -849,8 +858,9 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
 
 
 def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
-    """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): arma el reel branded (con FIRMA) de la foto y lo
-    postea a Facebook/Instagram + YouTube Short. SIN nota web (solo reel a redes)."""
+    """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): arma el reel branded de la foto y lo postea a
+    Facebook/Instagram + YouTube Short. La firma va como texto al inicio de la descripción (no
+    quemada en el video) y la descripción sale SEO con IA. SIN nota web (solo reel a redes)."""
     if fila.get("estado") == "publicado_foto_corr":
         logger.info(f"El corresponsal-foto '{fila['file']}' ya estaba publicado.")
         return
@@ -862,34 +872,36 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         return
     titular = fila.get("titulo", ""); volanta = fila.get("volanta", "")
     texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
-    caption = f"{titular}\n\n{texto}\n\n📲 Más en {_site()}".strip()
+    # Firma como TEXTO al inicio de la descripción (ya NO quemada en el reel) + descripción SEO
+    # con IA, la misma en las 3 redes (YouTube, Instagram, Facebook). `_youtube_meta` no tira excepción.
+    meta = _youtube_meta(volanta, titular, resumen, texto)
+    caption = f"{_firma_texto()}\n\n{meta['descripcion']}".strip()
 
     if dry_run:
-        logger.info(f"[dry-run] corresponsal-foto: reel branded (firma) a redes, caption «{titular}».")
+        logger.info(f"[dry-run] corresponsal-foto: reel a redes (firma como texto en el caption), «{titular}».")
         return
 
     plats = _platforms()
     estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido"}
-    # 1) Reel branded CON FIRMA (30s), sin overlay del diario.
+    # 1) Reel branded (30s) SIN firma quemada ni overlay del diario (la firma va en el caption).
     reel_url, reel_local = "", None
     try:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                 firma=_firma_texto(), overlay=False)
+                                 overlay=False)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
         return
-    # 2) YouTube Short (opcional, gateado por YT_SHORTS_ENABLED).
+    # 2) YouTube Short (opcional, gateado por YT_SHORTS_ENABLED). Misma descripción (firma + SEO).
     yt_info = {}
     if _yt_enabled() and reel_local:
         try:
             from platforms import youtube_api
-            meta = _youtube_meta(volanta, titular, resumen, texto)
             privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
             yt_info = _retry(lambda: youtube_api.upload_short(
-                reel_local, meta["titulo"], meta["descripcion"],
+                reel_local, meta["titulo"], caption,
                 tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
                 etiqueta="[youtube] subir Short")
             estado["youtube"] = "ok"

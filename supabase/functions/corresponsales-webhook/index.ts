@@ -1,7 +1,7 @@
 // Programa de Corresponsales "Chivilcoy en Acción" — webhook de WhatsApp (Cloud API).
 //
 // Recibe los mensajes que los vecinos mandan al número del Diario, corre un formulario
-// conversacional (Nombre → Celular → Lugar → Descripción → Autorización) y, al aceptar,
+// conversacional en 3 etapas (1: qué pasó → 2: nombre y apellido → 3: autorización) y, al aceptar,
 // baja el video y lo deposita en la carpeta de Drive «videos notas actualidad» (en una
 // subcarpeta con un contexto.txt). A partir de ahí, el desgrabador que ya existe arma la
 // nota web + el reel (con la firma de corresponsal) y avisa al equipo para aprobar.
@@ -199,9 +199,9 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   const { data, mime } = await bajarMedia(String(s.media_id));
   const token = await googleToken();
   const fecha = new Date().toISOString().slice(0, 10);
-  // El celular es el propio WhatsApp; el nombre = el del perfil (el nombre real y el resto de los
-  // datos vienen en el bloque DATOS que escribió el colaborador en un solo mensaje).
-  const nombre = String(s.perfil || s.nombre || "corresponsal");
+  // El celular es el propio WhatsApp; el nombre = el que escribió el colaborador en la etapa 2
+  // (cae al nombre del perfil de WhatsApp si por algún motivo no lo cargó).
+  const nombre = String(s.nombre || s.perfil || "corresponsal");
   const celular = String(s.celular || waId);
   // Sufijo ÚNICO por envío: evita que dos envíos con el MISMO nombre (un corresponsal que manda
   // varios videos/fotos, o dos vecinos homónimos) choquen en el dedup-por-nombre del desgrabador
@@ -248,21 +248,19 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     return;
   }
 
-  // Llega un video o foto → (re)arranca el formulario. TODAS las preguntas en UN solo mensaje.
+  // Llega un video o foto → (re)arranca el formulario. 3 etapas: (1) qué pasó, (2) datos, (3) autorización.
   if (esMedia) {
     const mediaId = (msg.video?.id) ?? (msg.image?.id) ?? (msg.document?.id);
-    await upsertSesion({ wa_id: waId, paso: "datos", media_id: mediaId, perfil,
+    await upsertSesion({ wa_id: waId, paso: "hecho", media_id: mediaId, perfil,
       nombre: null, celular: null, lugar: null, descripcion: null });
     await enviarTexto(waId,
       "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Para sumarlo, respondé en *un solo mensaje* con:\n\n" +
-      "• Tu *nombre y apellido*\n" +
-      "• *Lugar* del hecho\n" +
-      "• *Qué pasó*: qué ocurrió, cuándo, dónde y cómo\n\n" +
-      "🔒 Tus datos (nombre, apellido, celular) serán *confidenciales* y no se publicarán: solo se " +
-      "guardan en nuestra base de datos para dar el *premio del mes* al usuario que haya enviado el " +
-      "video con mejores estadísticas en nuestras redes sociales.\n\n" +
-      "(Tu número de contacto ya lo tengo de este WhatsApp. Si te arrepentís, escribí *cancelar*.)");
+      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Contame en *un solo mensaje* qué pasó:\n\n" +
+      "• *Qué* ocurrió\n" +
+      "• *Cuándo* fue\n" +
+      "• *Dónde* fue\n" +
+      "• *Cómo* pasó\n\n" +
+      "(Si te arrepentís, escribí *cancelar*.)");
     return;
   }
 
@@ -281,9 +279,17 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
 
   // Hay sesión: avanzar según el paso.
   const paso = String(sesion.paso);
-  if (paso === "datos") {
-    // Guarda TODO lo que escribió (nombre + lugar + qué pasó) como contexto para el desgrabador.
-    await upsertSesion({ wa_id: waId, paso: "autorizacion", descripcion: texto.trim() });
+  if (paso === "hecho") {
+    // ETAPA 1: guarda el relato del hecho (qué/cuándo/dónde/cómo) → es lo que redacta la nota/descripción.
+    await upsertSesion({ wa_id: waId, paso: "datos", descripcion: texto.trim() });
+    await enviarTexto(waId,
+      "¡Gracias! 🙌 Ahora decime tu *nombre y apellido* (en un solo mensaje).\n\n" +
+      "🔒 Tus datos (nombre, apellido, celular) serán *confidenciales* y no se publicarán: solo se " +
+      "guardan en nuestra base de datos para dar el *premio del mes* al usuario que haya enviado el " +
+      "material con mejores estadísticas en nuestras redes sociales.");
+  } else if (paso === "datos") {
+    // ETAPA 2: guarda el nombre y apellido del corresponsal (para la firma y la base de datos).
+    await upsertSesion({ wa_id: waId, paso: "autorizacion", nombre: texto.trim() });
     await enviarTexto(waId,
       `Buenísimo. 📄 *Autorización*\n\n${LEGAL}\n\nSi estás de acuerdo, respondé *ACEPTO* para enviar el material.`);
   } else if (paso === "autorizacion") {
@@ -292,7 +298,7 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
       await enviarTexto(waId, "¡Perfecto! Estoy guardando tu material… ⏳");
       try {
         await depositarEnDrive(sesion, waId);
-        await registrarColaborador(waId, String(sesion.perfil ?? sesion.nombre ?? ""), waId,
+        await registrarColaborador(waId, String(sesion.nombre ?? sesion.perfil ?? ""), waId,
           `ACEPTADA — ${new Date().toISOString()}`);
         await deleteSesion(waId);
         await enviarTexto(waId,
