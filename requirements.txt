@@ -11,3 +11,6 @@ qrcode[pil]>=7.4.0
 google-api-python-client>=2.100.0
 google-auth-oauthlib>=1.1.0
 google-auth-httplib2>=0.2.0
+# Detección de caras para reencuadrar el carrusel sin cortar caras (story_image._smart_cover).
+# Headless: sin GUI, liviano y apto para el runner Linux de la nube.
+opencv-python-headless>=4.8.0,<5

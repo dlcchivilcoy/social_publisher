@@ -443,20 +443,24 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     wix_ok = 0
     web_changed = False
 
-    total_notas = len(pending)
+    # IG admite hasta 10 slides: el carrusel lleva las primeras 10 notas por orden y el
+    # contador va i/total_carrusel (p. ej. 10/10, no 10/14). Las notas 11+ igual se cargan
+    # a la web/X más abajo; solo no tienen slide propio en el carrusel.
+    MAX_CARRUSEL = 10
+    total_carrusel = min(len(pending), MAX_CARRUSEL)
     for i, note in enumerate(pending, 1):
         volanta, titular, cuerpo = _parse_nota(note["docx"])
         if not titular:
             titular = note.get("titular") or note["title"]
         primer = cuerpo[0] if cuerpo else ""
-        try:
-            slide = compose_note_slide(note["image"], volanta, titular, site_url=site,
-                                       idx=i, total=total_notas)
-            slides.append(slide)
-        except Exception as e:
-            logger.error(f"No se pudo componer el slide de «{titular[:40]}»: {e}")
-            continue
-        bajadas.append((titular, primer))
+        if i <= total_carrusel:
+            try:
+                slide = compose_note_slide(note["image"], volanta, titular, site_url=site,
+                                           idx=i, total=total_carrusel)
+                slides.append(slide)
+                bajadas.append((titular, primer))
+            except Exception as e:
+                logger.error(f"No se pudo componer el slide de «{titular[:40]}»: {e}")
 
         # Publicar la nota en Wix SOLO si la corrida de las 7:00 (--notes-web) no la
         # subió ya (evita duplicar en la web). Si se sube ahora, además se tuitea
@@ -487,9 +491,9 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         return
 
     # La PORTADA del carrusel es SIEMPRE una nota (no hay slide-título aparte): la primera
-    # nota por orden queda como portada/miniatura del feed. Se respeta el máximo de 10
-    # slides de Instagram (pedido del usuario 2026-08-03).
-    slides = slides[:10]
+    # nota por orden queda como portada/miniatura del feed. El máximo de 10 slides de IG ya
+    # se aplicó al componer (total_carrusel), así que el contador marca i/total_carrusel.
+    slides = slides[:MAX_CARRUSEL]
 
     # Caption (bajada): SOLO el titular de cada nota (pedido del usuario 2026-06-27):
     # nada de descripción/primer párrafo, así no quedan textos mal cortados. El que

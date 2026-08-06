@@ -858,19 +858,72 @@ def _cover_top(img, box_w, box_h, y_bias=0.28):
     return new.crop((left, top, left + box_w, top + box_h))
 
 
-def _cover_seguro(img, box_w, box_h, *, min_conserva=0.80) -> bool:
-    """¿Es seguro llenar la caja con cover-crop sin arriesgar cortar sujetos? Devuelve
-    True solo si el recorte conserva al menos `min_conserva` de la dimensión que se
-    recorta (fotos verticales o casi cuadradas). Las apaisadas o muy altas — donde el
-    cover se comería a la gente de los costados/extremos — dan False y se muestran
-    ENTERAS (sin cortar) con `_foto_entera_con_fondo`."""
-    w, h = img.size
-    if not w or not h:
-        return True
-    a = w / h
-    objetivo = box_w / box_h
-    conserva = objetivo / a if a > objetivo else a / objetivo
-    return conserva >= min_conserva
+_face_cascades = None
+
+
+def _detect_faces(img):
+    """Caras detectadas como lista de (x, y, w, h) en coordenadas de la imagen original.
+    Usa Haar (frontal + perfil + perfil espejado). Devuelve [] si no hay caras o si cv2
+    no está instalado (en ese caso degrada a cover-crop normal, sin romper)."""
+    try:
+        import cv2
+        import numpy as np
+    except Exception:
+        return []
+    global _face_cascades
+    if _face_cascades is None:
+        base = cv2.data.haarcascades
+        _face_cascades = (
+            cv2.CascadeClassifier(base + "haarcascade_frontalface_default.xml"),
+            cv2.CascadeClassifier(base + "haarcascade_profileface.xml"),
+        )
+    try:
+        gray = cv2.cvtColor(np.array(img.convert("RGB")), cv2.COLOR_RGB2GRAY)
+        gray = cv2.equalizeHist(gray)
+    except Exception:
+        return []
+    h, w = gray.shape[:2]
+    minsize = max(24, int(min(w, h) * 0.05))
+    frontal, profile = _face_cascades
+    boxes = []
+    if frontal is not None and not frontal.empty():
+        for (x, y, fw, fh) in frontal.detectMultiScale(gray, 1.1, 5, minSize=(minsize, minsize)):
+            boxes.append((int(x), int(y), int(fw), int(fh)))
+    if profile is not None and not profile.empty():
+        for (x, y, fw, fh) in profile.detectMultiScale(gray, 1.1, 5, minSize=(minsize, minsize)):
+            boxes.append((int(x), int(y), int(fw), int(fh)))
+        flip = cv2.flip(gray, 1)  # perfiles que miran al otro lado
+        for (x, y, fw, fh) in profile.detectMultiScale(flip, 1.1, 5, minSize=(minsize, minsize)):
+            boxes.append((int(w - x - fw), int(y), int(fw), int(fh)))
+    return boxes
+
+
+def _smart_cover(img, box_w, box_h, *, margin=0.16):
+    """Cover-crop A SANGRE (full-bleed) que reencuadra para MANTENER LAS CARAS en cuadro:
+    en vez de recortar centrado, centra el recorte en el conjunto de caras detectadas.
+    Devuelve la imagen recortada, o None si las caras están tan separadas que no entran
+    en el cuadro sin cortar a alguien (ahí el caller muestra la foto ENTERA). Sin caras
+    detectadas (paisaje/objeto o cv2 ausente): cover-crop con leve sesgo hacia arriba."""
+    img = img.convert("RGB")
+    faces = _detect_faces(img)
+    if not faces:
+        return _cover_top(img, box_w, box_h, y_bias=0.20)
+    sw, sh = img.size
+    scale = max(box_w / sw, box_h / sh)
+    nw, nh = max(1, round(sw * scale)), max(1, round(sh * scale))
+    # bbox del conjunto de caras (coords originales) + margen, llevado a la escala del cover
+    x0 = min(f[0] for f in faces); y0 = min(f[1] for f in faces)
+    x1 = max(f[0] + f[2] for f in faces); y1 = max(f[1] + f[3] for f in faces)
+    mx, my = (x1 - x0) * margin, (y1 - y0) * margin
+    x0, x1 = (x0 - mx) * scale, (x1 + mx) * scale
+    y0, y1 = (y0 - my) * scale, (y1 + my) * scale
+    if (x1 - x0) > box_w or (y1 - y0) > box_h:
+        return None  # caras demasiado separadas: no hay cover posible sin cortar → foto entera
+    resized = img.resize((nw, nh), Image.LANCZOS)
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    left = max(0, min(int(round(cx - box_w / 2)), nw - box_w))
+    top = max(0, min(int(round(cy - box_h / 2)), nh - box_h))
+    return resized.crop((left, top, left + box_w, top + box_h))
 
 
 def _foto_entera_con_fondo(canvas, img, *, top=150, box_bottom=800) -> None:
@@ -940,12 +993,11 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), SLIDE_DARK)
     try:
         photo = Image.open(photo_path)
-        if _cover_seguro(photo, SLIDE_W, SLIDE_H):
-            # Vertical/casi cuadrada: llena el cuadro a sangre (poco se recorta).
-            canvas.paste(_cover_top(photo, SLIDE_W, SLIDE_H, y_bias=0.22), (0, 0))
+        recorte = _smart_cover(photo, SLIDE_W, SLIDE_H)
+        if recorte is not None:
+            canvas.paste(recorte, (0, 0))          # full-bleed, con las caras en cuadro
         else:
-            # Apaisada/muy alta: se muestra ENTERA para no cortar caras ni sujetos.
-            _foto_entera_con_fondo(canvas, photo)
+            _foto_entera_con_fondo(canvas, photo)  # caras muy separadas → foto entera (sin cortar)
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
