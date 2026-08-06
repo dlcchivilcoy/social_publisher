@@ -915,7 +915,9 @@ def _region_sujetos(faces, iw, ih):
     x0 = min(f[0] for f in faces); y0 = min(f[1] for f in faces)
     x1 = max(f[0] + f[2] for f in faces); y1 = max(f[1] + f[3] for f in faces)
     fh = max(1, y1 - y0)
-    mx = (x1 - x0) * 0.10 + fh * 0.22
+    # Márgenes laterales ajustados (poco aire) para que MÁS fotos entren a full-bleed;
+    # abajo generoso para incluir el cuerpo.
+    mx = (x1 - x0) * 0.06 + fh * 0.12
     rx0 = max(0, x0 - mx); rx1 = min(iw, x1 + mx)
     ry0 = max(0, y0 - fh * 0.55); ry1 = min(ih, y1 + fh * 1.75)
     return rx0, ry0, rx1, ry1
@@ -949,15 +951,22 @@ def _encuadrar(img, box_w, box_h):
         top = max(0, min(int(round(cy - box_h / 2)), nh - box_h))
         return resized.crop((left, top, left + box_w, top + box_h))
 
-    # (2) No cabe full-bleed → recorto a los sujetos y los muestro GRANDES sobre fondo borroso
+    # (2) No cabe full-bleed → recorto a los sujetos y los muestro GRANDES, LLENANDO EL ANCHO
+    # (agranda si la foto es chica), sobre un fondo desenfocado de la foto entera.
     sub = img.crop((int(rx0), int(ry0), int(rx1), int(ry1)))
     canvas = Image.new("RGB", (box_w, box_h), SLIDE_DARK)
     bg = _cover(img, box_w, box_h).filter(ImageFilter.GaussianBlur(45))
     bg = ImageEnhance.Brightness(bg).enhance(0.5)
     canvas.paste(bg, (0, 0))
-    area_top, area_bottom = 128, 820  # franja de la foto, arriba del título
-    fg = sub.copy()
-    fg.thumbnail((box_w, area_bottom - area_top), Image.LANCZOS)
+    area_top, area_bottom = 120, 838  # franja de la foto, arriba del título
+    area_h = area_bottom - area_top
+    sw, sh = sub.size
+    sc = box_w / sw                   # llenar TODO el ancho (permite agrandar)
+    if sh * sc > area_h:              # si así queda más alto que la franja, limitar por alto
+        sc = area_h / sh
+    fg = sub.resize((max(1, round(sw * sc)), max(1, round(sh * sc))), Image.LANCZOS)
+    if sc > 1.15:                     # foto chica agrandada: un toque de nitidez
+        fg = fg.filter(ImageFilter.UnsharpMask(radius=2, percent=90, threshold=2))
     fw, fh = fg.size
     canvas.paste(fg, ((box_w - fw) // 2, area_top))
     return canvas
