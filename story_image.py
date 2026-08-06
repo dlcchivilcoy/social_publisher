@@ -898,48 +898,69 @@ def _detect_faces(img):
     return boxes
 
 
-def _smart_cover(img, box_w, box_h, *, margin=0.16):
-    """Cover-crop A SANGRE (full-bleed) que reencuadra para MANTENER LAS CARAS en cuadro:
-    en vez de recortar centrado, centra el recorte en el conjunto de caras detectadas.
-    Devuelve la imagen recortada, o None si las caras están tan separadas que no entran
-    en el cuadro sin cortar a alguien (ahí el caller muestra la foto ENTERA). Sin caras
-    detectadas (paisaje/objeto o cv2 ausente): cover-crop con leve sesgo hacia arriba."""
-    img = img.convert("RGB")
-    faces = _detect_faces(img)
+def _caras_principales(faces):
+    """De las caras detectadas deja las del PRIMER PLANO: las que miden al menos el 40%
+    del área de la cara más grande. Descarta caras chicas de fondo/público que inflarían
+    el recuadro de los sujetos hacia las gradas/atrás (ej.: en la foto de handball, la
+    cara del público a la izquierda estiraba el recorte; sin ella queda sobre las 3)."""
     if not faces:
-        return _cover_top(img, box_w, box_h, y_bias=0.20)
-    sw, sh = img.size
-    scale = max(box_w / sw, box_h / sh)
-    nw, nh = max(1, round(sw * scale)), max(1, round(sh * scale))
-    # bbox del conjunto de caras (coords originales) + margen, llevado a la escala del cover
+        return []
+    amax = max(f[2] * f[3] for f in faces)
+    return [f for f in faces if f[2] * f[3] >= 0.40 * amax]
+
+
+def _region_sujetos(faces, iw, ih):
+    """Rectángulo (x0,y0,x1,y1) que abarca las caras principales + algo de cuerpo (margen
+    generoso hacia abajo), recortado a la imagen. Es la zona 'que importa' de la foto."""
     x0 = min(f[0] for f in faces); y0 = min(f[1] for f in faces)
     x1 = max(f[0] + f[2] for f in faces); y1 = max(f[1] + f[3] for f in faces)
-    mx, my = (x1 - x0) * margin, (y1 - y0) * margin
-    x0, x1 = (x0 - mx) * scale, (x1 + mx) * scale
-    y0, y1 = (y0 - my) * scale, (y1 + my) * scale
-    if (x1 - x0) > box_w or (y1 - y0) > box_h:
-        return None  # caras demasiado separadas: no hay cover posible sin cortar → foto entera
-    resized = img.resize((nw, nh), Image.LANCZOS)
-    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
-    left = max(0, min(int(round(cx - box_w / 2)), nw - box_w))
-    top = max(0, min(int(round(cy - box_h / 2)), nh - box_h))
-    return resized.crop((left, top, left + box_w, top + box_h))
+    fh = max(1, y1 - y0)
+    mx = (x1 - x0) * 0.10 + fh * 0.22
+    rx0 = max(0, x0 - mx); rx1 = min(iw, x1 + mx)
+    ry0 = max(0, y0 - fh * 0.55); ry1 = min(ih, y1 + fh * 1.75)
+    return rx0, ry0, rx1, ry1
 
 
-def _foto_entera_con_fondo(canvas, img, *, top=150, box_bottom=800) -> None:
-    """Muestra la foto COMPLETA (sin recortar → no corta caras/sujetos) anclada en la
-    franja de arriba, sobre un fondo INMERSIVO: un cover borroso y oscurecido de la
-    misma foto (a sangre, sin franjas blancas). Deja el pie libre para el título."""
-    W, H = canvas.size
+def _encuadrar(img, box_w, box_h):
+    """Devuelve una imagen box_w×box_h lista para el slide, priorizando las CARAS:
+      1) si un cover a sangre (full-bleed) puede contener la región de los sujetos →
+         cover-crop centrado en ellos (llena el cuadro, caras dentro);
+      2) si no entra → recorta a la región de los sujetos (saca el margen vacío) y la
+         muestra LO MÁS GRANDE POSIBLE sobre un fondo desenfocado de la foto entera
+         (agranda a la gente, en vez de mostrar la foto chica y centrada).
+    Sin caras (paisaje/objeto o cv2 ausente): cover normal con leve sesgo hacia arriba."""
     img = img.convert("RGB")
-    bg = _cover(img, W, H).filter(ImageFilter.GaussianBlur(45))
+    iw, ih = img.size
+    faces = _caras_principales(_detect_faces(img))
+    if not faces:
+        return _cover_top(img, box_w, box_h, y_bias=0.20)
+
+    rx0, ry0, rx1, ry1 = _region_sujetos(faces, iw, ih)
+    rw, rh = rx1 - rx0, ry1 - ry0
+    scale = max(box_w / iw, box_h / ih)  # escala del cover a sangre
+
+    if rw * scale <= box_w and rh * scale <= box_h:
+        # (1) FULL-BLEED centrado en los sujetos
+        nw, nh = max(1, round(iw * scale)), max(1, round(ih * scale))
+        resized = img.resize((nw, nh), Image.LANCZOS)
+        cx = ((rx0 + rx1) / 2) * scale
+        cy = ((ry0 + ry1) / 2) * scale
+        left = max(0, min(int(round(cx - box_w / 2)), nw - box_w))
+        top = max(0, min(int(round(cy - box_h / 2)), nh - box_h))
+        return resized.crop((left, top, left + box_w, top + box_h))
+
+    # (2) No cabe full-bleed → recorto a los sujetos y los muestro GRANDES sobre fondo borroso
+    sub = img.crop((int(rx0), int(ry0), int(rx1), int(ry1)))
+    canvas = Image.new("RGB", (box_w, box_h), SLIDE_DARK)
+    bg = _cover(img, box_w, box_h).filter(ImageFilter.GaussianBlur(45))
     bg = ImageEnhance.Brightness(bg).enhance(0.5)
     canvas.paste(bg, (0, 0))
-    box_w, box_h = W, max(200, box_bottom - top)
-    fg = img.copy()
-    fg.thumbnail((box_w, box_h), Image.LANCZOS)
+    area_top, area_bottom = 128, 820  # franja de la foto, arriba del título
+    fg = sub.copy()
+    fg.thumbnail((box_w, area_bottom - area_top), Image.LANCZOS)
     fw, fh = fg.size
-    canvas.paste(fg, ((W - fw) // 2, top))
+    canvas.paste(fg, ((box_w - fw) // 2, area_top))
+    return canvas
 
 
 def _grad_overlay(canvas, top_y, height, color, a_top, a_bottom, gamma=1.5):
@@ -992,12 +1013,7 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
       • volanta naranja + 'Seguí leyendo en {web}' al pie."""
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), SLIDE_DARK)
     try:
-        photo = Image.open(photo_path)
-        recorte = _smart_cover(photo, SLIDE_W, SLIDE_H)
-        if recorte is not None:
-            canvas.paste(recorte, (0, 0))          # full-bleed, con las caras en cuadro
-        else:
-            _foto_entera_con_fondo(canvas, photo)  # caras muy separadas → foto entera (sin cortar)
+        canvas.paste(_encuadrar(Image.open(photo_path), SLIDE_W, SLIDE_H), (0, 0))
     except Exception as e:
         logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
 
