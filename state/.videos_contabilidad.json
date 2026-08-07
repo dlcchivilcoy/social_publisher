@@ -1567,11 +1567,28 @@
     "zocalo": "Marcha en Chivilcoy",
     "draft_id": "e2cbb888-2347-4ae3-be03-bf9a5473d59c",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msi68fi07kgq.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-06T23:52:58.103Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-06T23:52:58.103Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-06T21:01:12",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/protesta-en-chivilcoy-manifestantes-en-chivilcoy-la-patria-no-se-vende",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18065996924567910",
+    "fb_video_id": "4143643595766101",
+    "yt_video_id": "vdvNuOHn-AE",
+    "yt_url": "https://www.youtube.com/shorts/vdvNuOHn-AE",
+    "yt_watch_url": "https://www.youtube.com/watch?v=vdvNuOHn-AE",
+    "yt_titulo": "Manifestantes en Chivilcoy: \"La patria no se vende\"",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-06T21:01:12",
+    "yt_metrics": {}
   }
 ]
