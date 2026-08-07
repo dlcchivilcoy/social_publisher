@@ -1686,11 +1686,28 @@
     "zocalo": "Viva San Cayetano Chivilcoy",
     "draft_id": "08d2a13b-3190-4783-b195-688655e1d151",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msjgr0j9sxv2.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-07T21:35:07.594Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-07T21:35:07.594Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-07T18:56:03",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/celebracion-en-chivilcoy-fervor-y-oraciones-por-san-cayetano-en",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18096728753340605",
+    "fb_video_id": "1066211199092825",
+    "yt_video_id": "q84fHej7J-A",
+    "yt_url": "https://www.youtube.com/shorts/q84fHej7J-A",
+    "yt_watch_url": "https://www.youtube.com/watch?v=q84fHej7J-A",
+    "yt_titulo": "Fervor y oraciones por San Cayetano en Chivilcoy",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-07T18:56:03",
+    "yt_metrics": {}
   }
 ]
