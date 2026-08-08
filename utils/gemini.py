@@ -109,6 +109,17 @@ _MIME = {
     ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp",
 }
 
+# Regla dura de imparcialidad — se pega a todos los prompts que redactan la nota. El usuario pidió
+# (2026-08-06) cero sesgo, cero invención y cero exageración: describir SOLO lo que aporta la fuente.
+_NEUTRAL_RULE = (
+    "• IMPARCIALIDAD Y CERO EXAGERACIÓN (regla dura): contá los hechos de forma NEUTRAL y sin "
+    "sesgo, con lenguaje sobrio. Describí SOLO lo que dice la fuente (audio/texto/descripción del "
+    "vecino). NO agregues adjetivos, dramatismo, calificativos ni valoraciones que la fuente no "
+    "diga. NO cuantifiques lo que no está cuantificado: si no se dice cuánta gente había, NO "
+    "escribas «una multitud», «muchísima gente», «un gran operativo» ni un número; describilo en "
+    "neutro o no lo menciones. Ante la duda, poné MENOS y más sobrio.\n"
+)
+
 PROMPT_BASE = (
     "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Un colaborador "
     "mandó un VIDEO (y a veces fotos y/o un texto con datos). Analizá TODO el material: "
@@ -160,6 +171,7 @@ PROMPT_BASE = (
     "• No exageres ni endurezcas las opiniones del entrevistado: mantené el tono y el sentido "
     "originales. Sacá muletillas solo si no alteran el sentido.\n"
     "• No agregues firma, autor ni línea tipo «Por Radio del Centro».\n"
+    + _NEUTRAL_RULE
 )
 
 _SCHEMA = {
@@ -650,6 +662,7 @@ _REDACTAR_PROMPT = (
     "final); si no se puede confirmar el nombre, poné el hecho. Vacío si hay_noticia es false.\n"
     "CRITERIO EDITORIAL: usá comillas solo para frases claras de la transcripción; si una frase "
     "suena dudosa o cortada, parafraseala. No agregues firma ni autor.\n"
+    + _NEUTRAL_RULE
 ) + _SIGLAS_RULE
 
 _REDACCION_SCHEMA = {
@@ -674,6 +687,8 @@ _VERIFICAR_PROMPT = (
     "fechas, campeonatos, récords, cargos, lugares o nombres inventados o supuestos.\n"
     "• SUAVIZÁ cualquier exageración o dramatización hasta dejarla igual de fuerte que en la "
     "transcripción (ni más ni menos).\n"
+    "• QUITÁ adjetivos, calificativos, valoraciones o cuantificadores que la fuente NO respalde "
+    "(ej. «una multitud» si no se dijo cuánta gente había): dejá una descripción neutra e imparcial.\n"
     "• NÚMEROS: que coincidan con la transcripción. NOMBRES PROPIOS y SIGLAS: corregí la grafía "
     "según el CONTEXTO/TÍTULO (ver la regla del final); si el audio la transcribió fonética "
     "(ej. «CASMA» por «CAZMA»), dejá la del contexto/título, y si no se puede confirmar, omitila.\n"
@@ -1093,8 +1108,12 @@ def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
         PROMPT_BASE
         + "\n\nIMPORTANTE: NO hay video ni audio para desgrabar; te paso UNA FOTO y la "
         "descripción que escribió el vecino que la envió. Redactá la nota a partir de ESA "
-        "DESCRIPCIÓN (la foto es de apoyo visual). NO inventes datos que no estén en la "
-        "descripción. `mejor_momento_seg` puede ser 0.\n\nDESCRIPCIÓN DEL VECINO:\n" + ctx
+        "DESCRIPCIÓN, y SOLO de ella. La FOTO es apoyo visual: NO la uses para AGREGAR hechos que "
+        "la descripción no diga — NO cuentes ni estimes cantidad de personas (jamás «una multitud», "
+        "«mucha gente» ni un número si el vecino no lo dijo), NO deduzcas causas, magnitudes, daños "
+        "ni intenciones a partir de la imagen. Lenguaje NEUTRO e imparcial, sin adjetivar ni "
+        "exagerar. NO inventes datos que no estén en la descripción. `mejor_momento_seg` puede ser "
+        "0.\n\nDESCRIPCIÓN DEL VECINO:\n" + ctx
     )
     logger.info(f"Gemini: redactando nota desde foto+descripción ({len(ctx)} chars) con {model}…")
     raw = _post_generate([{"text": prompt}] + img_parts, key, model,

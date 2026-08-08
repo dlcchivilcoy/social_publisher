@@ -533,6 +533,17 @@ def _caption(titulo: str, resumen: str) -> str:
     )
 
 
+def _solo_5_hashtags(texto: str) -> str:
+    """Recorta el caption para IG/FB: deja el texto hasta el 5º hashtag inclusive y borra TODO lo
+    que venga después (pedido del usuario 2026-08-06). Si hay menos de 5 hashtags, lo deja igual."""
+    if not texto:
+        return texto
+    ms = list(re.finditer(r"#[0-9A-Za-zñÑáéíóúÁÉÍÓÚ_]+", texto))
+    if len(ms) < 5:
+        return texto.rstrip()
+    return texto[:ms[4].end()].rstrip()
+
+
 def _retry(fn, intentos: int = 3, espera: int = 5, etiqueta: str = ""):
     """Ejecuta `fn` con reintentos automáticos (backoff lineal). Re-lanza el último
     error si agota los intentos. Se usa para YouTube y Wix (red/cuota intermitente)."""
@@ -640,16 +651,17 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     resumen = fila.get("resumen", "")
     caption = _caption(titulo, resumen) if hay else ""
 
-    # Corresponsales: la firma ya NO va quemada en el reel; va como TEXTO al inicio de la
-    # descripción, y esa descripción (SEO con IA) sale igual en YouTube, Instagram y Facebook.
+    # Corresponsales: SIN firma (ni en el video ni en el texto). La descripción SEO va COMPLETA a
+    # YouTube; en IG/FB va RECORTADA a los primeros 5 hashtags (pedido del usuario 2026-08-06).
     es_corr = "corresponsal" in (fila.get("origen", "") or "").lower()
     # SEO con IA (título/descripción/hashtags), reutilizado en las 3 redes. Se arma si hay nota y
     # (es corresponsal, para el caption de IG/FB, o YouTube está activo). Nunca tira excepción.
     meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if (hay and (es_corr or _yt_enabled())) else {}
     yt_desc = meta.get("descripcion", "")
     if hay and es_corr:
-        yt_desc = f"{_firma_texto()}\n\n{meta.get('descripcion', '')}".strip()
-        caption = yt_desc  # IG/FB usan la misma descripción SEO con la firma al inicio
+        caption = yt_desc  # IG/FB parten de la descripción SEO (sin firma)
+    # IG/FB: nada de texto tras los primeros 5 hashtags (en YouTube va la descripción completa).
+    caption = _solo_5_hashtags(caption)
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}. Publicaría reel={reel_url} + draft={draft_id or '—'}\n"
@@ -859,8 +871,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
 
 def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): arma el reel branded de la foto y lo postea a
-    Facebook/Instagram + YouTube Short. La firma va como texto al inicio de la descripción (no
-    quemada en el video) y la descripción sale SEO con IA. SIN nota web (solo reel a redes)."""
+    Facebook/Instagram + YouTube Short. SIN firma (ni en el video ni en el texto). La descripción
+    sale SEO con IA: completa en YouTube y recortada a 5 hashtags en IG/FB. SIN nota web."""
     if fila.get("estado") == "publicado_foto_corr":
         logger.info(f"El corresponsal-foto '{fila['file']}' ya estaba publicado.")
         return
@@ -872,13 +884,14 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         return
     titular = fila.get("titulo", ""); volanta = fila.get("volanta", "")
     texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
-    # Firma como TEXTO al inicio de la descripción (ya NO quemada en el reel) + descripción SEO
-    # con IA, la misma en las 3 redes (YouTube, Instagram, Facebook). `_youtube_meta` no tira excepción.
+    # SIN firma. Descripción SEO con IA (`_youtube_meta` no tira excepción): COMPLETA para YouTube,
+    # RECORTADA a los primeros 5 hashtags para IG/FB.
     meta = _youtube_meta(volanta, titular, resumen, texto)
-    caption = f"{_firma_texto()}\n\n{meta['descripcion']}".strip()
+    yt_desc = meta["descripcion"]
+    caption = _solo_5_hashtags(yt_desc)
 
     if dry_run:
-        logger.info(f"[dry-run] corresponsal-foto: reel a redes (firma como texto en el caption), «{titular}».")
+        logger.info(f"[dry-run] corresponsal-foto: reel a redes (sin firma, IG/FB recortado a 5 hashtags), «{titular}».")
         return
 
     plats = _platforms()
@@ -901,7 +914,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             from platforms import youtube_api
             privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
             yt_info = _retry(lambda: youtube_api.upload_short(
-                reel_local, meta["titulo"], caption,
+                reel_local, meta["titulo"], yt_desc,
                 tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
                 etiqueta="[youtube] subir Short")
             estado["youtube"] = "ok"

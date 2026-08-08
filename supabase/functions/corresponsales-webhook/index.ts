@@ -47,18 +47,6 @@ function slug(s: string): string {
   return normalizar(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 30) || "corresponsal";
 }
 
-// ¿El mensaje parece ser sobre mandar una noticia/video? (para no responder a mensajes de otro tema)
-const CLAVES_NOTICIA = [
-  "video", "noticia", "corresponsal", "chivilcoy en accion", "subir", "mandar", "enviar", "mando",
-  "colabor", "material", "nota", "policial", "incendio", "robo", "delito", "siniestro", "accidente",
-  "choque", "denuncia", "hecho", "camara", "grabe", "grabé", "filme", "filmé", "programa",
-];
-function pareceNoticia(texto: string): boolean {
-  const t = normalizar(texto);
-  if (!t) return false;
-  return CLAVES_NOTICIA.some((k) => t.includes(k));
-}
-
 // ── Supabase REST (con la service role key, saltea RLS) ───────────────────────
 function sbHeaders(extra: Record<string, string> = {}): Record<string, string> {
   return { apikey: SB_KEY, Authorization: `Bearer ${SB_KEY}`, "Content-Type": "application/json", ...extra };
@@ -264,16 +252,12 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     return;
   }
 
-  // Sin sesión y sin video: SOLO responde si el mensaje parece sobre mandar una noticia/video.
-  // Si la persona escribe por otro motivo, el bot se queda callado (no molesta).
+  // Sin sesión y sin media: responde a CUALQUIER mensaje con la bienvenida (pedido del usuario
+  // 2026-08-06). Es una respuesta dentro de la ventana de servicio de 24 h → GRATIS.
   if (!sesion) {
-    if (pareceNoticia(texto)) {
-      await enviarTexto(waId,
-        "¡Hola! 👋 Sumate al *Programa de Corresponsales «Chivilcoy en Acción»*.\n\n" +
-        "📹 Enviá una noticia (policial, incendio, robo, delito o siniestro) *en video o foto* y " +
-        "te voy a pedir tus datos para sumarla.\n\n⚠️ El archivo tiene que pesar menos de 16 MB " +
-        "(si el video es muy largo, mandá un clip más corto).");
-    }
+    await enviarTexto(waId,
+      "Bienvenido al programa de Corresponsales del Diario La Campaña - Radio del Centro. " +
+      "Envianos tu video o foto para comenzar a elaborar la noticia.");
     return;
   }
 
