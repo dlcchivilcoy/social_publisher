@@ -544,6 +544,56 @@ def _solo_5_hashtags(texto: str) -> str:
     return texto[:ms[4].end()].rstrip()
 
 
+# ── Aviso al corresponsal cuando su nota se publica (SOLO-GRATIS) ──────────────
+_WA_CANALES = {"wix": "nuestra web", "instagram": "Instagram", "facebook": "Facebook", "youtube": "YouTube"}
+
+
+def _normalizar_ar(numero: str) -> str:
+    """Celular argentino: llega como 549+área+número (wa_id) y para RESPONDER va SIN el 9
+    (54+área+número), igual que en el webhook (Meta lo entrega igual)."""
+    n = re.sub(r"\D", "", numero or "")
+    if n.startswith("549") and len(n) == 13:
+        return "54" + n[3:]
+    return n
+
+
+def _avisar_corresponsal_publicado(celular: str, canales_ok: list, web_url: str = "") -> None:
+    """Le avisa al corresponsal por WhatsApp que su nota se publicó. SOLO-GRATIS: manda un mensaje
+    LIBRE; si la ventana de servicio de 24 h ya cerró, Meta lo rechaza (131047) SIN costo y se
+    saltea. NUNCA usa plantillas pagas. Queda DORMIDO si falta WHATSAPP_TOKEN en el .env del
+    publicador. Nunca rompe la publicación (todo dentro de try/except)."""
+    try:
+        if not celular or not canales_ok:
+            return
+        token = (get("WHATSAPP_TOKEN") or "").strip()
+        if not token:
+            logger.info("[corresponsal] aviso de publicación OMITIDO: falta WHATSAPP_TOKEN en el .env "
+                        "del publicador (cargalo + sincronizá ENV_FILE para activarlo).")
+            return
+        phone_id = (get("WHATSAPP_PHONE_NUMBER_ID") or "1192034310668098").strip()
+        to = _normalizar_ar(str(celular))
+        if not to:
+            return
+        lista = canales_ok[0] if len(canales_ok) == 1 else ", ".join(canales_ok[:-1]) + " y " + canales_ok[-1]
+        body = ("¡Hola! 🎉 Tu envío al *Programa de Corresponsales* del Diario La Campaña - Radio del "
+                f"Centro ya fue *publicado* en {lista}. ¡Gracias por colaborar!")
+        if web_url:
+            body += f"\n\n📲 Podés verlo acá: {web_url}"
+        r = requests.post(
+            f"https://graph.facebook.com/v21.0/{phone_id}/messages",
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            json={"messaging_product": "whatsapp", "to": to, "type": "text", "text": {"body": body}},
+            timeout=20,
+        )
+        if r.status_code // 100 == 2:
+            logger.info(f"[corresponsal] aviso de publicación enviado a {to} (gratis, ventana 24h abierta).")
+        else:
+            logger.info(f"[corresponsal] aviso NO enviado (probable ventana 24h cerrada, sin costo): "
+                        f"HTTP {r.status_code} {r.text[:150]}")
+    except Exception as e:
+        logger.warning(f"[corresponsal] no se pudo intentar el aviso de publicación: {e}")
+
+
 def _retry(fn, intentos: int = 3, espera: int = 5, etiqueta: str = ""):
     """Ejecuta `fn` con reintentos automáticos (backoff lineal). Re-lanza el último
     error si agota los intentos. Se usa para YouTube y Wix (red/cuota intermitente)."""
@@ -771,6 +821,12 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # Aviso de estado por canal (el «panel» de publicación).
     _avisar_estado(fila, estado_canales, post_url, yt_info)
 
+    # Corresponsal: avisarle por WhatsApp que su nota se publicó (SOLO-GRATIS; ver el helper).
+    if es_corr:
+        canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube")
+                   if estado_canales.get(k) == "ok"]
+        _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, post_url)
+
     algun_ok = any(v == "ok" for v in estado_canales.values())
     if algun_ok:
         logger.info(f"Publicado y registrado. Estado por canal: {estado_canales}")
@@ -953,6 +1009,9 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
                   f"Se publicó el reel de la foto de corresponsal «{titular}»: "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}.")
+    # Aviso al corresponsal por WhatsApp (SOLO-GRATIS; la foto no tiene nota web).
+    canales = [_WA_CANALES[k] for k in ("instagram", "facebook", "youtube") if estado.get(k) == "ok"]
+    _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales)
 
 
 def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
