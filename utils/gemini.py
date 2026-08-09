@@ -13,6 +13,7 @@ Clave: GEMINI_API_KEY (gratis, Google AI Studio). Modelo configurable con GEMINI
 """
 import base64
 import json
+import os
 import time
 from pathlib import Path
 
@@ -27,17 +28,36 @@ API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 UPLOAD_URL = "https://generativelanguage.googleapis.com/upload/v1beta/files"
 
 
+def _suf_num(nombre: str) -> int:
+    """Sufijo numérico de un nombre tipo GEMINI_API_KEY_5 → 5 (0 si no termina en número).
+    Para ordenar las claves nuevas de forma natural (_5 antes que _10)."""
+    cola = nombre.rsplit("_", 1)[-1]
+    return int(cola) if cola.isdigit() else 0
+
+
 def _gemini_keys(primary: str = "") -> list:
-    """Claves Gemini a usar, en orden, para ROTAR ante 429 (cuota agotada de UNA clave):
-    la clave primaria (si se pasa) + las que estén cargadas en el .env. Así, si una clave
-    se queda sin cuota, se sigue con la siguiente. Deduplicadas, sin vacías.
-    Para sumar más margen: cargar GEMINI_API_KEY_2 / _3 / _4 en el .env. [ver _fallback_models]"""
-    nombres = ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
-               "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT",
-               # Claves de radiodelcentro (desgrabador de la radio). Se suman al pool
-               # compartido como respaldo; el flujo radio las pasa como `primary`, así que
-               # las usa PRIMERO (ver transcribe_to_nota(api_key=...)).
-               "GEMINI_API_KEY_RADIO", "GEMINI_API_KEY_RADIO_2", "GEMINI_API_KEY_RADIO_3"]
+    """Claves Gemini a usar, EN ORDEN, para ROTAR ante 429 (cuota agotada de UNA clave):
+    la clave primaria (si se pasa) + TODAS las GEMINI_API_KEY* cargadas en el .env. Así, si una
+    clave se queda sin cuota, se sigue con la siguiente. Deduplicadas, sin vacías.
+
+    DINÁMICO (2026-08-09): para sumar cupo alcanza con crear más claves —cada una de un PROYECTO
+    distinto de Google AI Studio, que tiene su propio cupo gratis— y cargarlas en el .env como
+    GEMINI_API_KEY_5 / _6 / _7 … : se enganchan SOLAS al pool, sin tocar el código (y hay que
+    resincronizar el secret de la nube: `gh secret set ENV_FILE < .env`). [ver _fallback_models]
+
+    Orden: primero las conocidas del diario (compat), después cualquier clave NUEVA del diario, y
+    al final las de radiodelcentro (respaldo compartido; el flujo radio las pasa como `primary`,
+    así que las usa PRIMERO — ver transcribe_to_nota(api_key=...))."""
+    diario_fijas = ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
+                    "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT"]
+    radio_fijas = ["GEMINI_API_KEY_RADIO", "GEMINI_API_KEY_RADIO_2", "GEMINI_API_KEY_RADIO_3"]
+    fijas = set(diario_fijas + radio_fijas)
+    # Cualquier GEMINI_API_KEY* del .env que NO esté en las listas fijas se suma sola al pool.
+    nuevas = sorted((n for n in os.environ if n.startswith("GEMINI_API_KEY") and n not in fijas),
+                    key=lambda n: (_suf_num(n), n))
+    nuevas_diario = [n for n in nuevas if "RADIO" not in n]
+    nuevas_radio = [n for n in nuevas if "RADIO" in n]
+    nombres = diario_fijas + nuevas_diario + radio_fijas + nuevas_radio
     cand = [primary] + [get(n) or "" for n in nombres]
     out, visto = [], set()
     for k in cand:
