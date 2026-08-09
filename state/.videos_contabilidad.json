@@ -1933,6 +1933,16 @@
     "zocalo": "",
     "draft_id": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_vid-20260809-wa0000.mp4",
-    "estado": "solo_reel"
+    "estado": "publicado_solo_reel",
+    "fecha_publicado": "2026-08-09T12:24:36",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18147387826526697",
+    "fb_video_id": "2519735628477119"
   }
 ]
