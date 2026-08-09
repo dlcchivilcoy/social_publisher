@@ -324,6 +324,24 @@ def _get_draft(headers: dict, draft_id: str) -> dict:
     return r.json()["draftPost"]
 
 
+def leer_borrador_texto(draft_id: str) -> dict:
+    """Lee el borrador ACTUAL y devuelve {title, texto}. `texto` = los párrafos del cuerpo
+    unidos con doble salto (ignora imagen/video/galería). Sirve para releer una nota que se
+    CORRIGIÓ después de crearla (botón «Corregir texto» / edición a mano en Wix), así las redes
+    (FB/IG/YouTube) salen con el texto ya corregido y no con el viejo del ledger."""
+    headers = _headers()
+    draft = _get_draft(headers, draft_id)
+    parrafos = []
+    for n in (draft.get("richContent") or {}).get("nodes") or []:
+        if n.get("type") != "PARAGRAPH":
+            continue
+        t = "".join((sub.get("textData") or {}).get("text", "")
+                    for sub in (n.get("nodes") or []) if sub.get("type") == "TEXT")
+        if t.strip():
+            parrafos.append(t.strip())
+    return {"title": (draft.get("title") or "").strip(), "texto": "\n\n".join(parrafos)}
+
+
 def insertar_video_youtube(draft_id: str, youtube_url: str) -> bool:
     """Inserta el reproductor de YouTube DENTRO del borrador, DEBAJO de la imagen
     principal y ENCIMA del cuerpo. Si ya había un video (el nativo del paso 1), lo

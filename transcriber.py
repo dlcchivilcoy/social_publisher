@@ -677,6 +677,75 @@ def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
     }
 
 
+def _norm_txt(s: str) -> str:
+    """Normaliza para comparar textos ignorando espacios/saltos y mayúsculas."""
+    return re.sub(r"\s+", " ", (s or "")).strip().lower()
+
+
+def _sincronizar_correccion(draft_id: str, volanta: str, titulo: str, texto: str,
+                            resumen: str) -> tuple[str, str, str, str]:
+    """Re-lee el borrador de Wix y, si el texto se CORRIGIÓ después de crearlo (botón «Corregir
+    texto» o edición a mano en Wix), devuelve (volanta, titulo, texto, resumen) ACTUALIZADOS para
+    que FB/IG/YouTube salgan igual que la web. Si no cambió o no se puede leer, devuelve los
+    valores del ledger tal cual (sin regresión). El `resumen` (bajada) solo se regenera si cambió
+    el CUERPO (no si solo se tocó el título).
+
+    Antes la corrección vivía solo en el borrador: la web salía corregida (publica el borrador)
+    pero las redes usaban el texto viejo del ledger de la etapa 1."""
+    try:
+        d = wix.leer_borrador_texto(draft_id)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude releer el borrador {draft_id} para sincronizar la corrección: {e}")
+        return volanta, titulo, texto, resumen
+
+    cuerpo = (d.get("texto") or "").strip()
+    dtitle = (d.get("title") or "").strip()
+    if not cuerpo:
+        return volanta, titulo, texto, resumen
+
+    esperado_cuerpo = (titulo + ("\n\n" + texto if texto else "")).strip()
+    esperado_title = (f"{volanta} — {titulo}" if volanta else titulo).strip()
+    cuerpo_cambio = _norm_txt(cuerpo) != _norm_txt(esperado_cuerpo)
+    titulo_cambio = bool(dtitle) and _norm_txt(dtitle) != _norm_txt(esperado_title)
+    if not cuerpo_cambio and not titulo_cambio:
+        return volanta, titulo, texto, resumen  # sin corrección → nada que hacer
+
+    logger.info(f"El borrador {draft_id} está corregido; sincronizo las redes con esa versión "
+                f"(cuerpo_cambió={cuerpo_cambio}, título_cambió={titulo_cambio}).")
+
+    partes = [p.strip() for p in cuerpo.split("\n\n") if p.strip()]
+    # Volanta + titular: del título del post ("volanta — titular"); si no vino el título en la
+    # respuesta, uso el 1er párrafo del cuerpo como titular y conservo la volanta del ledger.
+    if dtitle:
+        if " — " in dtitle:
+            nueva_volanta, nuevo_titulo = (x.strip() for x in dtitle.split(" — ", 1))
+        else:
+            nueva_volanta, nuevo_titulo = "", dtitle
+    else:
+        nueva_volanta, nuevo_titulo = volanta, (partes[0] if partes else titulo)
+
+    # El cuerpo del borrador arranca con el titular repetido como 1er párrafo (así se creó en la
+    # etapa 1): lo saco si coincide con el titular NUEVO o el VIEJO —cubre el caso de corregir solo
+    # el título—, para no duplicarlo en el caption/descripción que va a las redes. Si no coincide
+    # (el usuario borró esa línea), dejo el cuerpo entero.
+    if partes and _norm_txt(partes[0]) in (_norm_txt(nuevo_titulo), _norm_txt(titulo)):
+        nuevo_texto = "\n\n".join(partes[1:])
+    else:
+        nuevo_texto = "\n\n".join(partes)
+
+    nuevo_resumen = resumen
+    if cuerpo_cambio:
+        try:
+            from carrusel_notas import _resumen_caption
+            base = (nuevo_texto or nuevo_titulo).split("\n\n")[0]
+            nuevo_resumen = _resumen_caption(base, max_chars=280) or resumen
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"No pude regenerar el resumen corregido ({e}); uso el del ledger.")
+            nuevo_resumen = resumen
+
+    return nueva_volanta, nuevo_titulo, nuevo_texto, nuevo_resumen
+
+
 def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Publicar video aprobado [{modo}] — file='{file}' ===")
@@ -699,6 +768,16 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     volanta = fila.get("volanta", "")
     titulo = fila.get("titulo", "")
     resumen = fila.get("resumen", "")
+    texto = fila.get("texto", "")
+
+    # Corrección de texto: si la nota se corrigió en el borrador de Wix (botón «Corregir texto»
+    # o edición a mano) DESPUÉS de la etapa 1, esa versión vive solo en el borrador. La web sale
+    # corregida (publica el borrador) pero las redes usaban el texto viejo del ledger → sincronizamos
+    # volanta/título/texto/resumen para que FB/IG/YouTube salgan con la versión corregida.
+    if hay and draft_id:
+        volanta, titulo, texto, resumen = _sincronizar_correccion(
+            draft_id, volanta, titulo, texto, resumen)
+
     caption = _caption(titulo, resumen) if hay else ""
 
     # Corresponsales: SIN firma (ni en el video ni en el texto). La descripción SEO va COMPLETA a
@@ -706,7 +785,7 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     es_corr = "corresponsal" in (fila.get("origen", "") or "").lower()
     # SEO con IA (título/descripción/hashtags), reutilizado en las 3 redes. Se arma si hay nota y
     # (es corresponsal, para el caption de IG/FB, o YouTube está activo). Nunca tira excepción.
-    meta = _youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if (hay and (es_corr or _yt_enabled())) else {}
+    meta = _youtube_meta(volanta, titulo, resumen, texto) if (hay and (es_corr or _yt_enabled())) else {}
     yt_desc = meta.get("descripcion", "")
     if hay and es_corr:
         caption = yt_desc  # IG/FB parten de la descripción SEO (sin firma)
@@ -805,6 +884,8 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         "estado_canales": estado_canales,
         "ig_media_id": ig_media_id or fila.get("ig_media_id", ""),
         "fb_video_id": fb_video_id or fila.get("fb_video_id", ""),
+        # Texto que realmente salió (ya sincronizado si se corrigió el borrador).
+        "volanta": volanta, "titulo": titulo, "resumen": resumen, "texto": texto,
     })
     if yt_info:
         fila.update({
@@ -1127,6 +1208,11 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     titular = fila.get("titulo", ""); volanta = fila.get("volanta", "")
     texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
     draft_id = fila.get("draft_id", "")
+    # Corrección de texto: si el borrador se corrigió en Wix después de la etapa 1, sincronizamos
+    # para que el reel a FB/IG/YouTube salga con esa versión (la web ya sale corregida al publicar).
+    if draft_id:
+        volanta, titular, texto, resumen = _sincronizar_correccion(
+            draft_id, volanta, titular, texto, resumen)
     title = f"{volanta} — {titular}" if volanta else titular
     site = _site()
     # TODO el texto en el caption (pedido del usuario): título + cuerpo completo + CTA.
@@ -1215,7 +1301,9 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
 
     fila.update({"estado": "publicado_placa", "post_url": post_url,
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
-                 "estado_canales": estado})
+                 "estado_canales": estado,
+                 # Texto que realmente salió (ya sincronizado si se corrigió el borrador).
+                 "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto})
     if yt_info:
         fila.update({
             "yt_video_id": yt_info.get("id", ""),
