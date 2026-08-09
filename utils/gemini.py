@@ -109,15 +109,22 @@ _MIME = {
     ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp",
 }
 
-# Regla dura de imparcialidad — se pega a todos los prompts que redactan la nota. El usuario pidió
-# (2026-08-06) cero sesgo, cero invención y cero exageración: describir SOLO lo que aporta la fuente.
+# Regla dura de imparcialidad + privacidad — se pega a todos los prompts que redactan la nota. El
+# usuario pidió (2026-08-06/08) cero sesgo/invención/exageración, PERO conservar la info bien contada;
+# y omitir solo datos sensibles (DNI, nombres de menores), dejando patentes y nombres/edades de adultos.
 _NEUTRAL_RULE = (
     "• IMPARCIALIDAD Y CERO EXAGERACIÓN (regla dura): contá los hechos de forma NEUTRAL y sin "
     "sesgo, con lenguaje sobrio. Describí SOLO lo que dice la fuente (audio/texto/descripción del "
     "vecino). NO agregues adjetivos, dramatismo, calificativos ni valoraciones que la fuente no "
     "diga. NO cuantifiques lo que no está cuantificado: si no se dice cuánta gente había, NO "
     "escribas «una multitud», «muchísima gente», «un gran operativo» ni un número; describilo en "
-    "neutro o no lo menciones. Ante la duda, poné MENOS y más sobrio.\n"
+    "neutro o no lo menciones. Ante la duda con un dato NO respaldado, poné MENOS.\n"
+    "• PERO NO RECORTES la información que SÍ está en la fuente y está bien contada: conservá esos "
+    "datos. La sobriedad es para lo inventado o exagerado, NO para achicar lo que realmente pasó.\n"
+    "• PRIVACIDAD (datos personales): NUNCA publiques números de DNI/documento (omitilos siempre). "
+    "NO pongas el NOMBRE de personas MENORES de edad (referilas como «un menor» o «una adolescente "
+    "de 15 años», sin nombre). SÍ podés incluir PATENTES de vehículos y NOMBRES y EDADES de "
+    "personas MAYORES de edad cuando la fuente los aporte.\n"
 )
 
 PROMPT_BASE = (
@@ -689,6 +696,9 @@ _VERIFICAR_PROMPT = (
     "transcripción (ni más ni menos).\n"
     "• QUITÁ adjetivos, calificativos, valoraciones o cuantificadores que la fuente NO respalde "
     "(ej. «una multitud» si no se dijo cuánta gente había): dejá una descripción neutra e imparcial.\n"
+    "• PRIVACIDAD: sacá números de DNI/documento y el NOMBRE de personas menores de edad; dejá las "
+    "patentes y los nombres/edades de adultos. NO recortes datos reales bien contados: solo lo "
+    "inventado, exagerado o sensible.\n"
     "• NÚMEROS: que coincidan con la transcripción. NOMBRES PROPIOS y SIGLAS: corregí la grafía "
     "según el CONTEXTO/TÍTULO (ver la regla del final); si el audio la transcribió fonética "
     "(ej. «CASMA» por «CAZMA»), dejá la del contexto/título, y si no se puede confirmar, omitila.\n"
