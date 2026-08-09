@@ -251,6 +251,38 @@ def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: b
             f'video a la subcarpeta APROBADAS en Drive.</p></div>')
 
 
+def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
+    """Botones de revisión para los mails de FOTO (aprobar + previsualizar reel + corregir texto +
+    borrar), iguales que en el mail de video. Reusa las acciones del endpoint web (`aprobar-video`):
+    approve/preview/edit/delete. Corregir y borrar necesitan un borrador de Wix (draft_id);
+    previsualizar necesita la URL del reel."""
+    webapp = get("APPROVE_WEBAPP_URL"); tok = get("WEBAPP_TOKEN")
+    if not webapp:
+        return _boton(reel_url, "👁️ Ver el reel", color="#444") if reel_url else ""
+    t = f"&token={quote(tok)}" if tok else ""
+    b = _boton(f"{webapp}?action=approve&name={quote(name)}&kind=folder{t}", "✅ Aprobar y publicar")
+    if reel_url:
+        b += _boton(f"{webapp}?action=preview&url={quote(reel_url)}{t}", "👁️ Previsualizar reel", color="#444")
+    if draft_id:
+        b += _boton(f"{webapp}?action=edit&draft={quote(draft_id)}{t}", "✏️ Corregir texto", color="#444")
+        b += _boton(f"{webapp}?action=delete&post={quote(draft_id)}{t}", "🗑️ Borrar borrador", color="#b00020")
+    return b
+
+
+def _reel_preview(fotos, slug: str) -> str:
+    """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
+    Devuelve la URL o "" si falla (el mail sale sin ese botón). El reel definitivo se rearma igual al
+    publicar; como la foto no lleva texto quemado, corregir el texto después no cambia el reel."""
+    try:
+        from video import foto_a_reel
+        WORK_DIR.mkdir(exist_ok=True)
+        reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False)
+        return upload_reel(reel_local)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
+        return ""
+
+
 def _enviar_aviso(asunto: str, cuerpo: str, html: str | None = None, destino: str = "") -> None:
     """Manda un mail al diario (reusa el SMTP del mailer). Best-effort. Si se pasa `html`,
     va como alternativa HTML (con botones). `destino` sobreescribe el destinatario (lo usa
@@ -936,9 +968,9 @@ def _placa_datos(carpeta: Path):
 
 def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: bool) -> None:
     """ETAPA 1 del CORRESPONSAL-FOTO: subcarpeta con contexto.txt (ORIGEN corresponsal) + foto,
-    SIN video ni Word. Redacta la nota con IA desde la descripción del vecino y avisa por mail
-    para revisar. NO crea nota web (pedido del usuario: SOLO reel a redes). Al aprobar (etapa 2)
-    se arma el reel branded y se postea a las redes (la firma va en la descripción, no en el video)."""
+    SIN video ni Word. Redacta la nota con IA desde la descripción del vecino, crea un BORRADOR en
+    Wix (para poder previsualizar/corregir/borrar desde el mail) y avisa por mail para revisar. Al
+    aprobar (etapa 2) se publica la nota web y se postea el reel a las redes."""
     fotos = [p for p in sorted(carpeta.iterdir())
              if p.is_file() and p.suffix.lower() in IMG_EXTS]
     if not fotos:
@@ -965,8 +997,19 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     title = f"{volanta} — {titular}" if volanta else titular
 
     if dry_run:
-        logger.info(f"[dry-run] corresponsal-foto «{title}»: reel branded (firma) a redes, sin nota web.")
+        logger.info(f"[dry-run] corresponsal-foto «{title}»: nota web (borrador) + reel a redes.")
         return
+
+    # Borrador en Wix (habilita «Corregir texto» / «Borrar» por botón + nota web al aprobar) y
+    # reel de previsualización. Ambos best-effort: si Wix falla, sigue sin nota web/edición.
+    draft_id = ""
+    try:
+        info = wix.crear_borrador_galeria(title, titular + ("\n\n" + texto if texto else ""),
+                                          fotos, video_urls=[], page=0, description=resumen)
+        draft_id = info["draft_id"]
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
+    reel_url = _reel_preview(fotos, _slug(carpeta.name))
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -976,29 +1019,26 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": True, "es_placa": True, "corr_foto": True,
         "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto,
-        "draft_id": "", "estado": "borrador_foto_corr",
+        "draft_id": draft_id, "reel_url": reel_url, "estado": "borrador_foto_corr",
         "origen": ctx.get("origen", ""), "corresponsal_nombre": ctx.get("nombre", ""),
         "corresponsal_celular": ctx.get("celular", ""), "corresponsal_lugar": ctx.get("lugar", ""),
         "autorizacion": ctx.get("autorizacion", ""),
     })
     _guardar_ledger(rows)
-    logger.info("Corresponsal-foto registrado como BORRADOR (solo reel).")
+    logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}).")
 
-    webapp = get("APPROVE_WEBAPP_URL"); tok = get("WEBAPP_TOKEN")
-    t = f"&token={quote(tok)}" if tok else ""
-    botones = _boton(f"{webapp}?action=approve&name={quote(carpeta.name)}&kind=folder{t}",
-                     "✅ Aprobar y publicar") if webapp else ""
+    botones = _botones_foto(carpeta.name, draft_id, reel_url)
     html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
             f"<h2 style='color:#e2620c'>Foto de corresponsal por revisar</h2>"
             f"<p style='color:#888;font-size:13px'>{_hesc(ctx.get('nombre',''))} · "
             f"{_hesc(ctx.get('lugar',''))} · foto</p>"
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
-            f"<p>Al aprobar se arma el <b>reel branded (30s)</b> de la foto y se postea a "
-            f"<b>Facebook/Instagram + YouTube Short</b> (la firma del corresponsal va en la "
-            f"descripción, con la nota redactada por IA · sin nota web):</p>"
+            f"<p>Al aprobar se publica la <b>nota web</b> y se postea el <b>reel</b> de la foto a "
+            f"<b>Facebook/Instagram + YouTube Short</b> (nota redactada por IA). Con los botones "
+            f"podés previsualizar el reel, corregir el texto o borrar el borrador:</p>"
             f"<div style='margin:18px 0'>{botones}</div>"
-            f"<p style='color:#777;font-size:13px'>Si no ves el botón, aprobá moviendo la carpeta "
+            f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la carpeta "
             f"«{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
     _enviar_aviso(f"Foto de corresponsal por revisar: {titular}",
                   f"Foto de corresponsal para revisar: «{title}».\nPara publicarla, mové la carpeta "
@@ -1007,9 +1047,10 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
 
 
 def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
-    """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): arma el reel branded de la foto y lo postea a
-    Facebook/Instagram + YouTube Short. SIN firma (ni en el video ni en el texto). La descripción
-    sale SEO con IA: completa en YouTube y recortada a 5 hashtags en IG/FB. SIN nota web."""
+    """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): publica la NOTA WEB (borrador de Wix con el reel
+    embebido) y postea el reel a Facebook/Instagram + YouTube Short. SIN firma. La descripción sale
+    SEO con IA: completa en YouTube y recortada a 5 hashtags en IG/FB. Sincroniza la corrección de
+    texto si se editó el borrador."""
     if fila.get("estado") == "publicado_foto_corr":
         logger.info(f"El corresponsal-foto '{fila['file']}' ya estaba publicado.")
         return
@@ -1021,6 +1062,12 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         return
     titular = fila.get("titulo", ""); volanta = fila.get("volanta", "")
     texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
+    draft_id = fila.get("draft_id", "")
+    # Corrección de texto: si el borrador se corrigió en Wix (botón «Corregir texto») después de la
+    # etapa 1, sincronizamos para que el reel/redes Y la nota web salgan con esa versión.
+    if draft_id:
+        volanta, titular, texto, resumen = _sincronizar_correccion(
+            draft_id, volanta, titular, texto, resumen)
     # SIN firma. Descripción SEO con IA (`_youtube_meta` no tira excepción): COMPLETA para YouTube,
     # RECORTADA a los primeros 5 hashtags para IG/FB.
     meta = _youtube_meta(volanta, titular, resumen, texto)
@@ -1028,11 +1075,11 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     caption = _solo_5_hashtags(yt_desc)
 
     if dry_run:
-        logger.info(f"[dry-run] corresponsal-foto: reel a redes (sin firma, IG/FB recortado a 5 hashtags), «{titular}».")
+        logger.info(f"[dry-run] corresponsal-foto: nota web + reel a redes (IG/FB recortado a 5 hashtags), «{titular}».")
         return
 
     plats = _platforms()
-    estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido"}
+    estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido", "wix": "omitido"}
     # 1) Reel branded (30s) SIN firma quemada ni overlay del diario (la firma va en el caption).
     reel_url, reel_local = "", None
     try:
@@ -1058,6 +1105,21 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
         except Exception as e:
             estado["youtube"] = f"falló: {e}"; logger.error(f"[youtube] Short FALLÓ: {e}")
+    # 2.5) Nota web: embeber el reel (YouTube si salió) en el borrador y publicarlo.
+    post_url = ""
+    if draft_id:
+        if yt_info.get("url"):
+            try:
+                _retry(lambda: wix.insertar_video_youtube(draft_id, yt_info["url"]),
+                       etiqueta="[wix] embeber YouTube")
+            except Exception as e:
+                logger.error(f"[wix] no se pudo embeber el YouTube (la nota igual sale): {e}")
+        try:
+            res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
+            post_url = (res or {}).get("url", ""); estado["wix"] = "ok"
+            logger.info(f"[wix] nota publicada: {post_url}")
+        except Exception as e:
+            estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
     # 3) Reel a Instagram y Facebook con el caption.
     if "instagram" in plats and reel_url:
         try:
@@ -1080,7 +1142,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         f2 = fila; rows.append(f2)
     f2.update({"estado": "publicado_foto_corr",
                "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
-               "estado_canales": estado,
+               "estado_canales": estado, "post_url": post_url,
+               "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto,
                "ig_media_id": fila.get("ig_media_id", ""), "fb_video_id": fila.get("fb_video_id", "")})
     if yt_info:
         f2.update({"yt_video_id": yt_info.get("id", ""),
@@ -1088,11 +1151,11 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     _guardar_ledger(rows)
     logger.info(f"Corresponsal-foto publicado: {estado}")
     _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
-                  f"Se publicó el reel de la foto de corresponsal «{titular}»: "
+                  f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}.")
-    # Aviso al corresponsal por WhatsApp (SOLO-GRATIS; la foto no tiene nota web).
-    canales = [_WA_CANALES[k] for k in ("instagram", "facebook", "youtube") if estado.get(k) == "ok"]
-    _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales)
+    # Aviso al corresponsal por WhatsApp (SOLO-GRATIS).
+    canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube") if estado.get(k) == "ok"]
+    _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, post_url)
 
 
 def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
@@ -1138,6 +1201,9 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         logger.error(f"[wix] no se pudo crear el borrador: {e}")
         return
 
+    # Reel de previsualización (para el botón «Previsualizar reel» del mail). Best-effort.
+    reel_url = _reel_preview(fotos, _slug(carpeta.name))
+
     if fila is None:
         fila = {"file": carpeta.name}
         rows.append(fila)
@@ -1145,19 +1211,13 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         "uploader": uploader or fila.get("uploader", ""),
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": True, "es_placa": True, "volanta": volanta, "titulo": titular,
-        "resumen": resumen, "texto": texto, "draft_id": draft_id, "estado": "borrador_placa",
+        "resumen": resumen, "texto": texto, "draft_id": draft_id, "reel_url": reel_url,
+        "estado": "borrador_placa",
     })
     _guardar_ledger(rows)
     logger.info(f"Foto-nota registrada como BORRADOR (draft_id={draft_id}).")
 
-    webapp = get("APPROVE_WEBAPP_URL")
-    tok = get("WEBAPP_TOKEN")
-    t = f"&token={quote(tok)}" if tok else ""
-    botones = ""
-    if webapp:
-        botones += _boton(f"{webapp}?action=approve&name={quote(carpeta.name)}&kind=folder{t}", "✅ Aprobar y publicar")
-        if draft_id:
-            botones += _boton(f"{webapp}?action=delete&post={quote(draft_id)}{t}", "🗑️ Borrar borrador", color="#b00020")
+    botones = _botones_foto(carpeta.name, draft_id, reel_url)
     html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
             f"<h2 style='color:#e2620c'>Foto-nota por revisar</h2>"
             f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · {len(fotos)} foto(s)</p>"
@@ -1193,7 +1253,7 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         logger.info(f"La foto-nota '{fila['file']}' ya estaba publicada.")
         return
 
-    # Corresponsal-FOTO: publica SOLO el reel branded (con firma) a redes, sin nota web.
+    # Corresponsal-FOTO: camino propio (nota web + reel a redes + aviso al vecino por WhatsApp).
     if fila.get("corr_foto"):
         _corresponsal_foto_publish(fila, dry_run)
         return
