@@ -2096,11 +2096,21 @@
     "zocalo": "",
     "draft_id": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msmi7kok36zp.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado_solo_reel",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-10T00:39:18.256Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-10T00:39:18.256Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-09T21:45:02",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "omitido"
+    },
+    "ig_media_id": "17919627576202265",
+    "fb_video_id": "1020516747474978"
   }
 ]
