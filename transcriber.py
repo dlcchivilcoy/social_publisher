@@ -421,6 +421,20 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     volanta, titulo = nota["volanta"], nota["titulo"]
     texto, resumen = nota["texto"], nota["resumen"]
 
+    # Corresponsal SIN desgrabar: si Gemini no pudo armar la nota (hay_noticia=False) pero el vecino
+    # cargó una descripción en el formulario de WhatsApp, usamos ESA descripción como texto para que
+    # igual salga a FB/IG/YouTube (con caption), PERO sin nota web (info no verificada, pedido del
+    # usuario 2026-08-09). `corr_sin_web` fuerza hay=True (para que haya caption y salga a YouTube)
+    # y evita crear el borrador de Wix (draft_id="" → en la etapa 2 la web se saltea).
+    corr_sin_web = False
+    if es_corresponsal and not hay and (ctx.get("descripcion") or "").strip():
+        desc = ctx["descripcion"].strip()
+        volanta = ""
+        titulo = desc.split("\n")[0].strip()[:80] or "Envío de un corresponsal"
+        texto, resumen = desc, desc[:280]
+        hay, corr_sin_web = True, True
+        logger.info("Corresponsal sin desgrabar: uso la descripción del vecino como texto (FB/IG/YT, sin web).")
+
     # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
     # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
     # esto se cae, NO dejamos morir la corrida en silencio: antes el run terminaba en error, sin
@@ -450,7 +464,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         reel_url = upload_reel(reel)
 
         draft_id = ""
-        if hay:
+        if hay and not corr_sin_web:
             # La WEB lleva el video COMPLETO (no el reel recortado): se hostea aparte y se embebe.
             web_video_url = reel_url
             try:
@@ -517,7 +531,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     else:
         remitente = uploader or "desconocido"
 
-    if hay:
+    if hay and not corr_sin_web:
         cuerpo = (
             f"Llegó un video para revisar: «{titulo}»\n"
             f"Enviado por: {remitente}\n\n"
@@ -533,6 +547,23 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"<p>Está como <b>borrador en Wix</b> con foto + video. Revisalo y:</p>")
         _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
+    elif corr_sin_web:
+        cuerpo = (
+            f"Llegó un video de corresponsal que NO pude desgrabar; uso la DESCRIPCIÓN que cargó el "
+            f"vecino: «{titulo}»\n"
+            f"Enviado por: {remitente}\n\n"
+            f"TEXTO (descripción del vecino):\n{texto}\n\n"
+            f"➡️ Al aprobar sale a Facebook, Instagram y YouTube con ese texto (SIN nota web). "
+            f"Mové el video «{video.name}» a APROBADAS, o usá el botón «Aprobar y publicar»."
+        )
+        intro = (f"<h2 style='color:#e2620c'>Corresponsal sin desgrabar — sale con la descripción</h2>"
+                 f"<p style='color:#888;font-size:13px'>enviado por {_hesc(remitente)}</p>"
+                 f"<p style='font-size:19px'><b>{_hesc(titulo)}</b></p>"
+                 f"<p style='white-space:pre-wrap'>{_hesc(texto)}</p>"
+                 f"<p>No pude desgrabar el video, así que uso la descripción del vecino. Al aprobar "
+                 f"sale a <b>Facebook, Instagram y YouTube</b> con ese texto (<b>sin nota web</b>):</p>")
+        _enviar_aviso(f"Corresponsal por revisar (sin desgrabar): {titulo}", cuerpo,
+                      html=_html_aviso(intro, video.name, reel_url, "", hay=True))
     else:
         cuerpo = (
             f"Llegó un video pero NO pude desgrabarlo: «{video.name}»\n"
