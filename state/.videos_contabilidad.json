@@ -2313,5 +2313,25 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-10T22:05:02",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-08-11_matias-zucchi_msot3rgqhh2y",
+    "uploader": "",
+    "fecha_recibido": "2026-08-11T12:24:17",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "",
+    "titulo": "Accidente en Calle 25 de Mayo entre auto estacionado y ciclomotor",
+    "resumen": "Accidente en Calle 25 de Mayo entre un auto estacionado y un ciclomotor.",
+    "texto": "Accidente en Calle 25 de Mayo entre un auto estacionado y un ciclomotor.",
+    "draft_id": "414aab33-86b1-4784-ae44-bd8014546b0b",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-08-11-matias-zucchi-ms.mp4",
+    "estado": "borrador_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-11T15:19:48.918Z — wa:5492346417636"
   }
 ]
