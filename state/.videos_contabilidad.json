@@ -2290,11 +2290,28 @@
     "zocalo": "",
     "draft_id": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msnyag67c07r.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-11T00:57:12.430Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-11T00:57:12.430Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-10T22:05:02",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18125431168665902",
+    "fb_video_id": "1415250437192614",
+    "yt_video_id": "jp1o_RVylns",
+    "yt_url": "https://www.youtube.com/shorts/jp1o_RVylns",
+    "yt_watch_url": "https://www.youtube.com/watch?v=jp1o_RVylns",
+    "yt_titulo": "Incautaron cocaína en dos allanamientos en Bragado, hay un aprehendido",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-10T22:05:02",
+    "yt_metrics": {}
   }
 ]
