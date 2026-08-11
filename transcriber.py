@@ -430,10 +430,18 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     if es_corresponsal and not hay and (ctx.get("descripcion") or "").strip():
         desc = ctx["descripcion"].strip()
         volanta = ""
-        titulo = desc.split("\n")[0].strip()[:80] or "Envío de un corresponsal"
-        texto, resumen = desc, desc[:280]
+        try:  # corregir gramática/redacción SIN cambiar la info (no reescribe/acorta/extiende)
+            from utils import gemini
+            corr = gemini.corregir_texto(desc, lugar=ctx.get("lugar", ""))
+            titulo = corr.get("titulo") or (desc.split("\n")[0].strip()[:80] or "Envío de un corresponsal")
+            texto = corr.get("texto") or desc
+            resumen = corr.get("resumen") or desc[:280]
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"No pude corregir la descripción del vecino ({e}); la uso cruda.")
+            titulo = desc.split("\n")[0].strip()[:80] or "Envío de un corresponsal"
+            texto, resumen = desc, desc[:280]
         hay, corr_sin_web = True, True
-        logger.info("Corresponsal sin desgrabar: uso la descripción del vecino como texto (FB/IG/YT, sin web).")
+        logger.info("Corresponsal sin desgrabar: uso la descripción del vecino (corregida) como texto (FB/IG/YT, sin web).")
 
     # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
     # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
@@ -477,6 +485,16 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             info = wix.crear_borrador(title, body, cover, page=0, description=resumen, video_url=web_video_url)
             draft_id = info["draft_id"]
             estado = "borrador"
+        elif corr_sin_web:
+            # Borrador SOLO para poder EDITAR/BORRAR el texto desde el mail (NO se publica en la web:
+            # `sin_web` lo marca). Si Wix falla, sigue sin editar/borrar (solo aprobar + previsualizar).
+            try:
+                body = titulo + ("\n\n" + texto if texto else "")
+                info = wix.crear_borrador(titulo, body, cover, page=0, description=resumen)
+                draft_id = info["draft_id"]
+            except Exception as e:  # noqa: BLE001
+                logger.warning(f"[wix] no pude crear el borrador de edición del corresponsal ({e}).")
+            estado = "solo_reel"
         else:
             estado = "solo_reel"
 
@@ -488,7 +506,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
             "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
             "texto": texto, "zocalo": nota.get("zocalo", ""), "draft_id": draft_id,
-            "reel_url": reel_url, "estado": estado,
+            "reel_url": reel_url, "estado": estado, "sin_web": corr_sin_web,
         })
         if ctx:
             fila.update({
@@ -563,7 +581,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"<p>No pude desgrabar el video, así que uso la descripción del vecino. Al aprobar "
                  f"sale a <b>Facebook, Instagram y YouTube</b> con ese texto (<b>sin nota web</b>):</p>")
         _enviar_aviso(f"Corresponsal por revisar (sin desgrabar): {titulo}", cuerpo,
-                      html=_html_aviso(intro, video.name, reel_url, "", hay=True))
+                      html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
     else:
         cuerpo = (
             f"Llegó un video pero NO pude desgrabarlo: «{video.name}»\n"
@@ -620,11 +638,11 @@ def _normalizar_ar(numero: str) -> str:
     return n
 
 
-def _avisar_corresponsal_publicado(celular: str, canales_ok: list, web_url: str = "") -> None:
-    """Le avisa al corresponsal por WhatsApp que su nota se publicó. SOLO-GRATIS: manda un mensaje
-    LIBRE; si la ventana de servicio de 24 h ya cerró, Meta lo rechaza (131047) SIN costo y se
-    saltea. NUNCA usa plantillas pagas. Queda DORMIDO si falta WHATSAPP_TOKEN en el .env del
-    publicador. Nunca rompe la publicación (todo dentro de try/except)."""
+def _avisar_corresponsal_publicado(celular: str, canales_ok: list, links: dict | None = None) -> None:
+    """Le avisa al corresponsal por WhatsApp que su nota se publicó, con los LINKS de cada red donde
+    salió (web/Instagram/Facebook/YouTube). SOLO-GRATIS: manda un mensaje LIBRE; si la ventana de
+    servicio de 24 h ya cerró, Meta lo rechaza (131047) SIN costo y se saltea. NUNCA usa plantillas
+    pagas. Queda DORMIDO si falta WHATSAPP_TOKEN en el .env del publicador. Nunca rompe la publicación."""
     try:
         if not celular or not canales_ok:
             return
@@ -640,8 +658,12 @@ def _avisar_corresponsal_publicado(celular: str, canales_ok: list, web_url: str 
         lista = canales_ok[0] if len(canales_ok) == 1 else ", ".join(canales_ok[:-1]) + " y " + canales_ok[-1]
         body = ("¡Hola! 🎉 Tu envío al *Programa de Corresponsales* del Diario La Campaña - Radio del "
                 f"Centro ya fue *publicado* en {lista}. ¡Gracias por colaborar!")
-        if web_url:
-            body += f"\n\n📲 Podés verlo acá: {web_url}"
+        links = links or {}
+        renglones = [f"{et} {links[k]}" for k, et in
+                     (("web", "🌐 Web:"), ("instagram", "📸 Instagram:"),
+                      ("facebook", "👍 Facebook:"), ("youtube", "▶️ YouTube:")) if links.get(k)]
+        if renglones:
+            body += "\n\n📲 Podés verlo acá:\n" + "\n".join(renglones)
         r = requests.post(
             f"https://graph.facebook.com/v21.0/{phone_id}/messages",
             headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
@@ -738,6 +760,18 @@ def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
         "hashtags": linea_hashtags,
         "category_id": (get("YT_SHORTS_CATEGORY") or "25").strip(),
     }
+
+
+def _meta_corresponsal(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
+    """Como `_youtube_meta` pero SIN reescribir el cuerpo: la descripción es el TEXTO del vecino (ya
+    corregido, MISMO contenido y largo) + CTA + hashtags, y el título es el que quedó (fiel), no el
+    SEO. Respeta el pedido de NO editar/acortar/extender la info del corresponsal (2026-08-09).
+    Reusa `_youtube_meta` solo para los hashtags/tags (metadata, no editan la info)."""
+    m = _youtube_meta(volanta, titulo, resumen, texto)
+    cuerpo = (texto or resumen or titulo).strip()
+    m["titulo"] = (titulo or m.get("titulo") or "")[:100]
+    m["descripcion"] = f"{cuerpo}\n\n📲 Seguí leyendo en {_site()}\n\n{m['hashtags']}"
+    return m
 
 
 def _norm_txt(s: str) -> str:
@@ -843,12 +877,16 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
 
     caption = _caption(titulo, resumen) if hay else ""
 
-    # Corresponsales: SIN firma (ni en el video ni en el texto). La descripción SEO va COMPLETA a
-    # YouTube; en IG/FB va RECORTADA a los primeros 5 hashtags (pedido del usuario 2026-08-06).
+    # Corresponsales: SIN firma. El caption es el TEXTO del vecino (ya corregido, NO reescrito) +
+    # hashtags; en IG/FB recortado a los primeros 5 hashtags, en YouTube el texto completo. Los
+    # videos del diario (no corresponsal) sí usan la bajada SEO. Nunca tira excepción.
     es_corr = "corresponsal" in (fila.get("origen", "") or "").lower()
-    # SEO con IA (título/descripción/hashtags), reutilizado en las 3 redes. Se arma si hay nota y
-    # (es corresponsal, para el caption de IG/FB, o YouTube está activo). Nunca tira excepción.
-    meta = _youtube_meta(volanta, titulo, resumen, texto) if (hay and (es_corr or _yt_enabled())) else {}
+    if hay and es_corr:
+        meta = _meta_corresponsal(volanta, titulo, resumen, texto)
+    elif hay and _yt_enabled():
+        meta = _youtube_meta(volanta, titulo, resumen, texto)
+    else:
+        meta = {}
     yt_desc = meta.get("descripcion", "")
     if hay and es_corr:
         caption = yt_desc  # IG/FB parten de la descripción SEO (sin firma)
@@ -918,9 +956,10 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     elif hay and not _yt_enabled():
         logger.info("[youtube] desactivado (YT_SHORTS_ENABLED=0).")
 
-    # 4) Nota web: embeber el YouTube (si salió) y PUBLICAR (al final del flujo).
+    # 4) Nota web: embeber el YouTube (si salió) y PUBLICAR (al final del flujo). `sin_web` (corresponsal
+    # sin desgrabar) tiene borrador SOLO para editar/borrar el texto → NO se publica en la web.
     post_url = ""
-    if hay and draft_id:
+    if hay and draft_id and not fila.get("sin_web"):
         if yt_info.get("url"):
             try:
                 _retry(lambda: wix.insertar_video_youtube(draft_id, yt_info["url"]),
@@ -965,11 +1004,21 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # Aviso de estado por canal (el «panel» de publicación).
     _avisar_estado(fila, estado_canales, post_url, yt_info)
 
-    # Corresponsal: avisarle por WhatsApp que su nota se publicó (SOLO-GRATIS; ver el helper).
+    # Corresponsal: avisarle por WhatsApp que su nota se publicó, con los LINKS de cada red donde
+    # salió ok (web/IG/FB/YouTube). SOLO-GRATIS (ver el helper).
     if es_corr:
         canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube")
                    if estado_canales.get(k) == "ok"]
-        _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, post_url)
+        links = {}
+        if estado_canales.get("wix") == "ok" and post_url:
+            links["web"] = post_url
+        if estado_canales.get("instagram") == "ok" and ig_media_id:
+            links["instagram"] = instagram.permalink(ig_media_id)
+        if estado_canales.get("facebook") == "ok" and fb_video_id:
+            links["facebook"] = facebook.permalink(fb_video_id)
+        if estado_canales.get("youtube") == "ok":
+            links["youtube"] = yt_info.get("short_url") or yt_info.get("watch_url") or yt_info.get("url", "")
+        _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, links)
 
     algun_ok = any(v == "ok" for v in estado_canales.values())
     if algun_ok:
@@ -1099,9 +1148,9 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     if draft_id:
         volanta, titular, texto, resumen = _sincronizar_correccion(
             draft_id, volanta, titular, texto, resumen)
-    # SIN firma. Descripción SEO con IA (`_youtube_meta` no tira excepción): COMPLETA para YouTube,
-    # RECORTADA a los primeros 5 hashtags para IG/FB.
-    meta = _youtube_meta(volanta, titular, resumen, texto)
+    # SIN firma. Caption = TEXTO del vecino (corregido, NO reescrito) + hashtags: COMPLETO para
+    # YouTube, RECORTADO a los primeros 5 hashtags para IG/FB.
+    meta = _meta_corresponsal(volanta, titular, resumen, texto)
     yt_desc = meta["descripcion"]
     caption = _solo_5_hashtags(yt_desc)
 
@@ -1184,9 +1233,18 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
                   f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}.")
-    # Aviso al corresponsal por WhatsApp (SOLO-GRATIS).
+    # Aviso al corresponsal por WhatsApp con los LINKS de cada red donde salió ok (SOLO-GRATIS).
     canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube") if estado.get(k) == "ok"]
-    _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, post_url)
+    links = {}
+    if estado.get("wix") == "ok" and post_url:
+        links["web"] = post_url
+    if estado.get("instagram") == "ok" and fila.get("ig_media_id"):
+        links["instagram"] = instagram.permalink(fila["ig_media_id"])
+    if estado.get("facebook") == "ok" and fila.get("fb_video_id"):
+        links["facebook"] = facebook.permalink(fila["fb_video_id"])
+    if estado.get("youtube") == "ok":
+        links["youtube"] = yt_info.get("short_url") or yt_info.get("watch_url") or yt_info.get("url", "")
+    _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, links)
 
 
 def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:

@@ -20,6 +20,21 @@ def _location() -> str:
     Instagram usa el mismo tipo de ID que Facebook. Configurable en IG_LOCATION_ID."""
     return get("IG_LOCATION_ID") or ""
 
+
+def permalink(media_id: str) -> str:
+    """URL pública del posteo de Instagram a partir de su media id (best-effort; "" si falla)."""
+    token = get("INSTAGRAM_ACCESS_TOKEN")
+    if not media_id or not token:
+        return ""
+    try:
+        r = requests.get(f"https://graph.facebook.com/{GRAPH_VERSION}/{media_id}",
+                         params={"fields": "permalink", "access_token": token}, timeout=20)
+        if r.ok:
+            return (r.json() or {}).get("permalink") or ""
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude obtener el permalink de IG {media_id}: {e}")
+    return ""
+
 # Instagram acepta proporciones (ancho/alto) entre 4:5 (0.8) y 1.91:1 (1.91).
 MIN_RATIO = 0.8
 MAX_RATIO = 1.91

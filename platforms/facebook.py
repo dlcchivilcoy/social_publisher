@@ -18,6 +18,22 @@ def _place() -> str:
     return get("FB_PLACE_ID") or ""
 
 
+def permalink(object_id: str) -> str:
+    """URL pública del posteo/video de Facebook a partir de su id (best-effort; "" si falla)."""
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not object_id or not token:
+        return ""
+    try:
+        r = requests.get(f"https://graph.facebook.com/{GRAPH_VERSION}/{object_id}",
+                         params={"fields": "permalink_url", "access_token": token}, timeout=20)
+        if r.ok:
+            u = (r.json() or {}).get("permalink_url") or ""
+            return ("https://www.facebook.com" + u) if u.startswith("/") else u
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude obtener el permalink de FB {object_id}: {e}")
+    return ""
+
+
 def publish(body: str, image_path: Path) -> dict:
     page_id = get("FACEBOOK_PAGE_ID")
     token = get("FACEBOOK_PAGE_ACCESS_TOKEN")

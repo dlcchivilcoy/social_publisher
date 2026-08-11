@@ -1115,40 +1115,73 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     return nota
 
 
-def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
-                    api_key: str = "", model: str = "", key_pool=None) -> dict:
-    """Redacta la nota (volanta, título, texto, resumen) a partir de la DESCRIPCIÓN que
-    escribió un corresponsal + la FOTO que mandó (NO hay video que desgrabar). Un solo tiro a
-    Gemini con la foto como imagen y la descripción como contexto — SIN el flujo multipaso
-    (que es para audio/video). Devuelve el mismo dict que `transcribe_to_nota`
-    (`hay_noticia=True`, `mejor_momento_seg=0`)."""
+# Corrección de la descripción del vecino: NO reescribir/acortar/extender — solo corregir la
+# gramática y redactarla bien (pedido del usuario 2026-08-09). Se usa en foto (con la foto de apoyo)
+# y en el video de corresponsal sin desgrabar (sin foto).
+_CORREGIR_PROMPT = (
+    "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Un vecino corresponsal escribió "
+    "una DESCRIPCIÓN de un hecho. Tu ÚNICA tarea es dejarla BIEN REDACTADA, SIN cambiar la información:\n"
+    "• NO acortes ni resumas, NO extiendas ni agregues NADA: mantené TODA la info del vecino y "
+    "aproximadamente el MISMO largo. NO agregues datos, contexto, adjetivos ni opiniones.\n"
+    "• Corregí ortografía, gramática, puntuación, tildes y mayúsculas, y mejorá la redacción si está "
+    "mal escrita, para que se lea prolija y periodística — pero SIN alterar el sentido, los hechos ni "
+    "las cifras. Si ya está bien redactada, dejala casi igual.\n"
+    "• PRIVACIDAD: NO publiques números de DNI ni el NOMBRE de personas menores de edad; SÍ dejá "
+    "patentes y nombres/edades de adultos.\n"
+    "{FOTO}"
+    "Devolvé EXACTAMENTE estos campos:\n"
+    "- hay_noticia: true.\n"
+    "- volanta: \"\".\n"
+    "- titulo: un título corto y FIEL (máx ~80 caracteres) que resuma el hecho, sin punto final (es "
+    "lo único que redactás de cero, y tiene que ser fiel a lo que dice el vecino).\n"
+    "- texto: la descripción del vecino YA CORREGIDA (mismo contenido y largo), en párrafos separados "
+    "por una línea en blanco si corresponde.\n"
+    "- resumen: los primeros ~280 caracteres del texto corregido.\n"
+    "- zocalo: \"\".\n- mejor_momento_seg: 0.\n- segmentos_destacados: [].\n"
+)
+
+
+def corregir_texto(descripcion: str, lugar: str = "", foto_path=None,
+                   api_key: str = "", model: str = "", key_pool=None) -> dict:
+    """Deja BIEN REDACTADA la descripción del vecino (gramática/ortografía/redacción) SIN cambiar la
+    información ni el largo (pedido 2026-08-09). Si se pasa `foto_path`, la adjunta como apoyo visual
+    (no para agregar hechos). Devuelve el mismo dict que `transcribe_to_nota` (hay_noticia=True)."""
     key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
-    img_parts = []
-    try:
-        img_parts.append(_img_part(Path(foto_path)))
-    except Exception as e:
-        logger.warning(f"No pude adjuntar la foto para redactar la nota: {e}")
     ctx = (descripcion or "").strip()
     if (lugar or "").strip():
         ctx = f"Lugar del hecho: {lugar.strip()}\n{ctx}"
-    prompt = (
-        PROMPT_BASE
-        + "\n\nIMPORTANTE: NO hay video ni audio para desgrabar; te paso UNA FOTO y la "
-        "descripción que escribió el vecino que la envió. Redactá la nota a partir de ESA "
-        "DESCRIPCIÓN, y SOLO de ella. La FOTO es apoyo visual: NO la uses para AGREGAR hechos que "
-        "la descripción no diga — NO cuentes ni estimes cantidad de personas (jamás «una multitud», "
-        "«mucha gente» ni un número si el vecino no lo dijo), NO deduzcas causas, magnitudes, daños "
-        "ni intenciones a partir de la imagen. Lenguaje NEUTRO e imparcial, sin adjetivar ni "
-        "exagerar. NO inventes datos que no estén en la descripción. `mejor_momento_seg` puede ser "
-        "0.\n\nDESCRIPCIÓN DEL VECINO:\n" + ctx
-    )
-    logger.info(f"Gemini: redactando nota desde foto+descripción ({len(ctx)} chars) con {model}…")
+    img_parts, foto_nota = [], ""
+    if foto_path:
+        try:
+            img_parts.append(_img_part(Path(foto_path)))
+            foto_nota = ("• La FOTO adjunta es SOLO apoyo visual: NO la uses para agregar hechos "
+                         "(no cuentes personas, no deduzcas causas ni magnitudes).\n")
+        except Exception as e:
+            logger.warning(f"No pude adjuntar la foto: {e}")
+    prompt = _CORREGIR_PROMPT.replace("{FOTO}", foto_nota) + \
+        "\nDESCRIPCIÓN DEL VECINO (corregila, NO la cambies):\n" + ctx
+    logger.info(f"Gemini: corrigiendo la descripción del vecino ({len(ctx)} chars) con {model}…")
     raw = _post_generate([{"text": prompt}] + img_parts, key, model,
-                         temperature=0.3, key_pool=key_pool or _gemini_keys(key))
+                         temperature=0.2, key_pool=key_pool or _gemini_keys(key))
     nota = _parse_nota(raw)
-    nota["hay_noticia"] = True  # el corresponsal mandó material con intención de nota
-    logger.info(f"Gemini OK (foto): «{nota['volanta']} — {nota['titulo']}»")
+    nota["hay_noticia"] = True
+    # Salvavidas: si Gemini no devolvió algún campo, caigo al texto crudo del vecino (nunca vacío).
+    if not (nota.get("texto") or "").strip():
+        nota["texto"] = ctx
+    if not (nota.get("titulo") or "").strip():
+        nota["titulo"] = (ctx.split("\n")[0][:80].strip() or "Envío de un corresponsal")
+    if not (nota.get("resumen") or "").strip():
+        nota["resumen"] = (nota["texto"] or ctx)[:280]
+    logger.info(f"Gemini OK (corrección): «{nota['titulo']}»")
     return nota
+
+
+def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
+                    api_key: str = "", model: str = "", key_pool=None) -> dict:
+    """Corrige la descripción que escribió el corresponsal (gramática/redacción, SIN cambiar la info
+    ni el largo) usando la FOTO como apoyo visual. Devuelve el mismo dict que `transcribe_to_nota`."""
+    return corregir_texto(descripcion, lugar=lugar, foto_path=foto_path,
+                          api_key=api_key, model=model, key_pool=key_pool)
