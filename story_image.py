@@ -940,9 +940,14 @@ def _encuadrar(img, box_w, box_h):
     rx0, ry0, rx1, ry1 = _region_sujetos(faces, iw, ih)
     rw, rh = rx1 - rx0, ry1 - ry0
     scale = max(box_w / iw, box_h / ih)  # escala del cover a sangre
+    cabe = rw * scale <= box_w and rh * scale <= box_h
+    # Foto MUY ANCHA (panorámica): va full-bleed igual aunque las caras no entren —
+    # una banda quedaría una tira fina con márgenes feos (ej. plantel de fútbol trotando).
+    panoramica = iw / ih >= 1.55
 
-    if rw * scale <= box_w and rh * scale <= box_h:
-        # (1) FULL-BLEED centrado en los sujetos
+    if cabe or panoramica:
+        # (1) FULL-BLEED A SANGRE centrado en el grupo de caras. Si es panorámica y no
+        # entran todas, se recortan los EXTREMOS (mejor que una banda con márgenes).
         nw, nh = max(1, round(iw * scale)), max(1, round(ih * scale))
         resized = img.resize((nw, nh), Image.LANCZOS)
         cx = ((rx0 + rx1) / 2) * scale
@@ -951,7 +956,7 @@ def _encuadrar(img, box_w, box_h):
         top = max(0, min(int(round(cy - box_h / 2)), nh - box_h))
         return resized.crop((left, top, left + box_w, top + box_h))
 
-    # (2) No cabe full-bleed → recorto a los sujetos y los muestro GRANDES, LLENANDO EL ANCHO
+    # (2) No cabe y no es panorámica → recorto a los sujetos y los muestro GRANDES, LLENANDO EL ANCHO
     # (agranda si la foto es chica), sobre un fondo desenfocado de la foto entera.
     sub = img.crop((int(rx0), int(ry0), int(rx1), int(ry1)))
     canvas = Image.new("RGB", (box_w, box_h), SLIDE_DARK)
