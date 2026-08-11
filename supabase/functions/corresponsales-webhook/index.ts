@@ -47,6 +47,20 @@ function slug(s: string): string {
   return normalizar(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 30) || "corresponsal";
 }
 
+// La sesión junta varios archivos (1-5 fotos o 2-3 videos cortos) en el campo `media_id`, guardado
+// como JSON [{id, tipo}]. `parseMedia` acepta eso o un id único viejo (compatibilidad).
+function parseMedia(v: unknown): Array<{ id: string; tipo: string }> {
+  const raw = String(v ?? "").trim();
+  if (!raw) return [];
+  if (raw.startsWith("[")) {
+    try {
+      const arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr.filter((m) => m && m.id).map((m) => ({ id: String(m.id), tipo: String(m.tipo || "video") })) : [];
+    } catch { return []; }
+  }
+  return [{ id: raw, tipo: "video" }]; // id único viejo
+}
+
 // ── Supabase REST (con la service role key, saltea RLS) ───────────────────────
 function sbHeaders(extra: Record<string, string> = {}): Record<string, string> {
   return { apikey: SB_KEY, Authorization: `Bearer ${SB_KEY}`, "Content-Type": "application/json", ...extra };
@@ -184,7 +198,8 @@ async function subirArchivo(token: string, parentId: string, nombre: string, mim
 
 // ── Finalizar: bajar el video y depositarlo en Drive ──────────────────────────
 async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promise<void> {
-  const { data, mime } = await bajarMedia(String(s.media_id));
+  const lista = parseMedia(s.media_id);
+  if (!lista.length) throw new Error("No hay material para depositar.");
   const token = await googleToken();
   const fecha = new Date().toISOString().slice(0, 10);
   // El celular es el propio WhatsApp; el nombre = el que escribió el colaborador en la etapa 2
@@ -209,14 +224,21 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   // video, así arranca recién cuando ya están los dos archivos).
   const enc = new TextEncoder();
   await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8", enc.encode(contexto));
-  if (mime.startsWith("image/")) {
-    // FOTO: se guarda como imagen (sin video). La carpeta queda con contexto.txt + foto → el
-    // Apps Script la dispara como `--placa`, y el desgrabador arma el reel branded de la foto.
-    const ext = mime.includes("png") ? "png" : (mime.includes("webp") ? "webp" : "jpg");
-    await subirArchivo(token, carpeta, `foto_${slug(nombre)}_${uniq}.${ext}`, mime, data);
-  } else {
-    const ext = mime.includes("quicktime") ? "mov" : "mp4";
-    await subirArchivo(token, carpeta, `video_${slug(nombre)}_${uniq}.${ext}`, mime, data);
+  // Bajar y subir CADA archivo, numerado (01, 02, …) para preservar el orden en el reel. Fotos → el
+  // Apps Script dispara `--placa` (reel de la/s foto/s); videos → `--transcribe-video` (si hay varios,
+  // el desgrabador los concatena). El contexto.txt va PRIMERO y el material DESPUÉS.
+  let i = 0;
+  for (const m of lista) {
+    i++;
+    const { data, mime } = await bajarMedia(String(m.id));
+    const nn = String(i).padStart(2, "0");
+    if (mime.startsWith("image/")) {
+      const ext = mime.includes("png") ? "png" : (mime.includes("webp") ? "webp" : "jpg");
+      await subirArchivo(token, carpeta, `foto_${slug(nombre)}_${uniq}_${nn}.${ext}`, mime, data);
+    } else {
+      const ext = mime.includes("quicktime") ? "mov" : "mp4";
+      await subirArchivo(token, carpeta, `video_${slug(nombre)}_${uniq}_${nn}.${ext}`, mime, data);
+    }
   }
 }
 
@@ -236,14 +258,42 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     return;
   }
 
-  // Llega un video o foto → (re)arranca el formulario. 3 etapas: (1) qué pasó, (2) datos, (3) autorización.
+  // Llega un video o foto. Se pueden mandar VARIOS (1-5 fotos o 2-3 videos cortos) y se juntan en un
+  // mismo envío mientras el formulario esté en el paso "hecho" (antes de que cuente qué pasó).
   if (esMedia) {
-    const mediaId = (msg.video?.id) ?? (msg.image?.id) ?? (msg.document?.id);
-    await upsertSesion({ wa_id: waId, paso: "hecho", media_id: mediaId, perfil,
+    const mediaId = String((msg.video?.id) ?? (msg.image?.id) ?? (msg.document?.id) ?? "");
+    const tipo = msg.image ? "image"
+      : (msg.video ? "video"
+      : (String(msg.document?.mime_type || "").startsWith("image/") ? "image" : "video"));
+    const juntando = !!sesion && String(sesion.paso) === "hecho";
+    const lista = juntando ? parseMedia(sesion!.media_id) : [];
+    const nImg = lista.filter((m) => m.tipo === "image").length;
+    const nVid = lista.filter((m) => m.tipo !== "image").length;
+    // Topes: 5 fotos / 3 videos por envío.
+    if (juntando && ((tipo === "image" && nImg >= 5) || (tipo !== "image" && nVid >= 3))) {
+      await enviarTexto(waId, tipo === "image"
+        ? "Ya tengo el máximo de *5 fotos* para este envío. Contame *qué pasó* para continuar. 🙂"
+        : "Ya tengo el máximo de *3 videos* para este envío. Contame *qué pasó* para continuar. 🙂");
+      return;
+    }
+    lista.push({ id: mediaId, tipo });
+    if (juntando) {
+      // Media adicional: NO reenvío el formulario, solo actualizo la lista + un ack corto.
+      await upsertSesion({ wa_id: waId, paso: "hecho", media_id: JSON.stringify(lista) });
+      const cImg = lista.filter((m) => m.tipo === "image").length;
+      const cVid = lista.filter((m) => m.tipo !== "image").length;
+      const res = cImg && cVid ? `${cImg} foto(s) y ${cVid} video(s)` : (cImg ? `${cImg} foto(s)` : `${cVid} video(s)`);
+      await enviarTexto(waId,
+        `📎 Recibí (${res} hasta ahora). Podés mandar más, o contame *qué pasó* para continuar.`);
+      return;
+    }
+    // Primer archivo → arranca el formulario (3 etapas: qué pasó → datos → autorización).
+    await upsertSesion({ wa_id: waId, paso: "hecho", media_id: JSON.stringify(lista), perfil,
       nombre: null, celular: null, lugar: null, descripcion: null });
     await enviarTexto(waId,
       "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Contame en *un solo mensaje* qué pasó:\n\n" +
+      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Podés mandar hasta *5 fotos* o *2-3 " +
+      "videos cortos* (van todos a un mismo reel). Cuando termines, contame en *un solo mensaje* qué pasó:\n\n" +
       "• *Qué* ocurrió\n" +
       "• *Cuándo* fue\n" +
       "• *Dónde* fue\n" +

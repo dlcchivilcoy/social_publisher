@@ -270,6 +270,52 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
         raise RuntimeError(f"ffmpeg error: {paso}")
 
 
+def _tiene_audio(src) -> bool:
+    """True si el video tiene al menos una pista de audio (mira el `ffmpeg -i`)."""
+    try:
+        r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
+        return "Audio:" in (r.stderr or "")
+    except Exception:
+        return False
+
+
+def concat_videos(paths, salida, *, w: int = 1080, h: int = 1920):
+    """Une varios videos cortos en UNO (para el corresponsal que manda 2-3 clips). Normaliza cada
+    clip a la MISMA resolución (con pad), 30 fps, H.264 + AAC estéreo (silencio si al clip le falta
+    audio) y después los concatena sin re-encodear. Devuelve `salida` (o el único video si es uno)."""
+    ps = [Path(p) for p in paths if Path(p).is_file()]
+    if not ps:
+        raise ValueError("concat_videos: no hay videos para unir.")
+    if len(ps) == 1:
+        return ps[0]
+    salida = Path(salida)
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    partes_dir = salida.parent / (salida.stem + "_parts")
+    partes_dir.mkdir(exist_ok=True)
+    vf = (f"scale={w}:{h}:force_original_aspect_ratio=decrease,"
+          f"pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:black,setsar=1,fps=30,format=yuv420p")
+    partes = []
+    for i, p in enumerate(ps):
+        out = partes_dir / f"n{i:02d}.mp4"
+        if _tiene_audio(p):
+            cmd = [_ffmpeg(), "-y", "-i", str(p), "-vf", vf,
+                   "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
+                   "-c:a", "aac", "-ar", "44100", "-ac", "2", str(out)]
+        else:  # sin audio: le pego una pista de silencio para que el concat no se rompa
+            cmd = [_ffmpeg(), "-y", "-i", str(p), "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
+                   "-vf", vf, "-map", "0:v:0", "-map", "1:a:0", "-shortest",
+                   "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
+                   "-c:a", "aac", "-ar", "44100", "-ac", "2", str(out)]
+        _run_ffmpeg(cmd, f"concat-normalizar {p.name}")
+        partes.append(out)
+    lista = partes_dir / "lista.txt"
+    lista.write_text("".join(f"file '{q.as_posix()}'\n" for q in partes), encoding="utf-8")
+    _run_ffmpeg([_ffmpeg(), "-y", "-f", "concat", "-safe", "0", "-i", str(lista),
+                 "-c", "copy", str(salida)], "concat-unir")
+    logger.info(f"concat_videos: uní {len(ps)} clips → {salida.name}")
+    return salida
+
+
 def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
                 firma: str | None, fondo: Path | None, logo_png: Path | None,
                 overlay: Path | None, placa: Path | None, seg_placa: float,

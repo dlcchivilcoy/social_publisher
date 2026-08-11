@@ -370,6 +370,19 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         return
     logger.info(f"Video: {video}")
 
+    # #2 Corresponsal con VARIOS videos (2-3 clips cortos): SOLO el primero (por nombre) procesa el
+    # grupo, concatenando todos en uno; los demás triggers saltean → varios videos = 1 sola nota.
+    # `video_media` es el archivo que se le pasa a Gemini y al reel (el concatenado, o el mismo video).
+    video_media = video
+    grupo = []
+    _ctx_g = _leer_contexto(video.parent)
+    if _ctx_g and "corresponsal" in (_ctx_g.get("origen", "").lower()):
+        grupo = sorted((p for p in video.parent.iterdir()
+                        if p.is_file() and p.suffix.lower() in VIDEO_EXTS), key=lambda p: p.name)
+    if len(grupo) > 1 and video.name != grupo[0].name:
+        logger.info(f"Corresponsal multi-video: el grupo lo procesa «{grupo[0].name}»; salteo «{video.name}».")
+        return
+
     rows = _leer_ledger()
     fila = _buscar_fila(rows, video.name)
     YA = ("borrador", "solo_reel", "publicado", "publicado_solo_reel")
@@ -379,6 +392,14 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         return
 
     WORK_DIR.mkdir(exist_ok=True)
+    if len(grupo) > 1:  # soy el primero del grupo → uno todos los clips cortos en un solo video
+        try:
+            from video import concat_videos
+            video_media = concat_videos(grupo, WORK_DIR / f"grupo_{_slug(video.stem)}.mp4")
+            logger.info(f"Corresponsal: uní {len(grupo)} videos cortos en «{video_media.name}».")
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"No pude unir el grupo de videos ({e}); proceso solo «{video.name}».")
+            video_media = video
     extra_text, imgs = _recolectar_adjuntos(video)
 
     # Contexto del corresponsal (lo deja el bot de WhatsApp en contexto.txt). Si existe,
@@ -398,7 +419,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # la corrida: avisamos por mail que no se pudo esta vez y salimos limpio (exit 0). El
     # video NO se marca como procesado → se puede reintentar (re-subiéndolo o a mano).
     try:
-        nota = transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs)
+        nota = transcribe_to_nota(video_media, extra_text=extra_text, image_paths=imgs)
     except Exception as e:
         logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
         if not dry_run:
@@ -450,7 +471,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # el video se perdía. Ahora avisamos por mail y salimos limpio (exit 0), sin marcar el video
     # → se puede reintentar re-subiéndolo. (La desgrabación de Gemini ya está protegida arriba.)
     try:
-        cover = frame_at(video, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
+        cover = frame_at(video_media, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
         slug = _slug(video.stem)
 
         # Reel para redes: VIDEO COMPLETO, sin recorte (pedido del usuario 2026-06-28).
@@ -460,7 +481,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # La firma del corresponsal ya NO se quema en el video (pedido 2026-08-05): va como TEXTO
         # al inicio de la descripción/caption en las 3 redes (se arma en run_publish_video). El
         # diario también va SIN overlay ni zócalo (2026-07-27): fondo difuminado + logo + placa.
-        reel = to_vertical_reel(video, reel_path, overlay=False)
+        reel = to_vertical_reel(video_media, reel_path, overlay=False)
 
         if dry_run:
             logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"
@@ -476,7 +497,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             # La WEB lleva el video COMPLETO (no el reel recortado): se hostea aparte y se embebe.
             web_video_url = reel_url
             try:
-                full = remux_mp4(video, WORK_DIR / f"video_{slug}.mp4")
+                full = remux_mp4(video_media, WORK_DIR / f"video_{slug}.mp4")
                 web_video_url = upload_reel(full)
             except Exception as e:
                 logger.warning(f"No se pudo hostear el video completo para la web ({e}); uso el reel.")
