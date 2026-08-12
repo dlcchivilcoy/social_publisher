@@ -1395,6 +1395,19 @@
     "texto": "Jorge Llanes, Hugo Alvarez y Daniel Valvoli, representantes del Club Ramón Biaus, anunciaron la realización de un almuerzo show para este domingo, en el marco de una jornada de campo organizada por la institución.\n\nDurante el evento se servirá vaquillona, chorizos y postres, y se concretará la inauguración del nuevo cielorraso del salón, obra realizada con el esfuerzo de la comunidad.\n\nAsimismo, remarcaron la llegada de visitantes desde distintos puntos para participar de las actividades de la institución. Al respecto, señalaron que asiste gente proveniente de la Capital, de 25 de Mayo, de Ugarte y de diversos pueblos y ciudades de los alrededores.",
     "zocalo": "Jorge Llanes",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260812-143552-youtube.mp4",
-    "estado": "listo"
+    "estado": "publicado",
+    "fecha_publicado": "2026-08-12T16:47:39",
+    "estado_canales": {
+      "instagram": "falló: Instagram: el medio quedó en estado ERROR al procesar la imagen",
+      "facebook": "ok",
+      "youtube": "ok"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1033849459640193",
+    "yt_video_id": "4BMPLEK8GSQ",
+    "yt_url": "https://www.youtube.com/shorts/4BMPLEK8GSQ",
+    "yt_titulo": "Preparan un almuerzo show en el Club Ramón Biaus con inauguración de obras",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-12T16:47:39"
   }
 ]
