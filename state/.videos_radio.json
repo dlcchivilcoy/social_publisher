@@ -1471,6 +1471,14 @@
     "texto": "",
     "zocalo": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260813-141123-youtube.mp4",
-    "estado": "solo_reel"
+    "estado": "publicado_solo_reel",
+    "fecha_publicado": "2026-08-13T16:58:22",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"A6Fu525TqaUPPZhsUlKX_id\"}}",
+      "facebook": "ok",
+      "youtube": "omitido"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1376535067777401"
   }
 ]
