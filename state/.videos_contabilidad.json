@@ -2454,12 +2454,29 @@
     "zocalo": "Carlos Heller, Presidente del Banco",
     "draft_id": "5720005e-0189-4470-8785-cada08cb8df6",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-claudia-msqpwqpm8f1w-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Claudia",
     "corresponsal_celular": "5492346583515",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-12T23:25:54.426Z — wa:5492346583515"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-12T23:25:54.426Z — wa:5492346583515",
+    "fecha_publicado": "2026-08-12T22:11:30",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/celebracion-cooperativa-en-chivilcoy-banco-credicoop-chivilcoy",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18112997761943689",
+    "fb_video_id": "1395529399264371",
+    "yt_video_id": "HcDuwWSgn0Y",
+    "yt_url": "https://www.youtube.com/shorts/HcDuwWSgn0Y",
+    "yt_watch_url": "https://www.youtube.com/watch?v=HcDuwWSgn0Y",
+    "yt_titulo": "Banco Credicoop Chivilcoy celebró el Día Internacional de las Cooperativas",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-12T22:11:30",
+    "yt_metrics": {}
   }
 ]
