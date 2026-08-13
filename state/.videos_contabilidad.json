@@ -2593,11 +2593,23 @@
     "texto": "Un accidente de tránsito se registró en la zona del acceso Perón y calle 1. Un joven de 23 años, que circulaba a bordo de una motocicleta Corven 150 sin dominio colocado, perdió el control del rodado y cayó por sus propios medios.\n\nEl motociclista fue identificado como Lautaro Agustín Hofsez, de 23 años. Tras el hecho, fue asistido por personal de emergencias y posteriormente trasladado en el móvil 2 del SAME, a cargo de Colamarino, para una evaluación médica.\n\nLuego de recibir la atención correspondiente, el joven fue dado de alta y se constató que no presentaba lesiones de consideración.",
     "draft_id": "3045e107-f030-42eb-84b0-18f5ab623290",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-08-13-matias-zucchi-ms.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T19:41:35.571Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T19:41:35.571Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-13T16:48:30",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AaSnvbsFkl3M9xBhwXACfft\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidente-en-acceso-peron-joven-cayo-de-su-moto-y-fue-trasladado-al",
+    "ig_media_id": "",
+    "fb_video_id": "27849336518066990",
+    "yt_video_id": "YzkuRzxCaog",
+    "yt_url": "https://www.youtube.com/shorts/YzkuRzxCaog"
   }
 ]
