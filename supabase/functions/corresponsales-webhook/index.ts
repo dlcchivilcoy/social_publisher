@@ -292,8 +292,9 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
       nombre: null, celular: null, lugar: null, descripcion: null });
     await enviarTexto(waId,
       "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Podés mandar hasta *5 fotos* o *2-3 " +
-      "videos cortos* (van todos a un mismo reel). Cuando termines, contame en *un solo mensaje* qué pasó:\n\n" +
+      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Podés mandar hasta *5 fotos*, o *1 video " +
+      "de hasta 1 minuto*, o *2-3 videos de máximo 20 segundos* cada uno (van todos a un mismo reel). " +
+      "Cuando termines, contame en *un solo mensaje* qué pasó:\n\n" +
       "• *Qué* ocurrió\n" +
       "• *Cuándo* fue\n" +
       "• *Dónde* fue\n" +
@@ -307,7 +308,8 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
   if (!sesion) {
     await enviarTexto(waId,
       "Bienvenido al programa de Corresponsales del Diario La Campaña - Radio del Centro. " +
-      "Envianos tu video o foto para comenzar a elaborar la noticia.");
+      "Envianos un *video de hasta 1 minuto* (o hasta *3 videos de máximo 20 segundos* cada uno) o " +
+      "*fotos*, y comenzamos a elaborar la noticia.");
     return;
   }
 
