@@ -2523,12 +2523,29 @@
     "zocalo": "Menciones en audio",
     "draft_id": "bfe16bcb-3f22-4137-803a-0a75775e84e9",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-claudia-msrl852ypt21-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Claudia",
     "corresponsal_celular": "5492346583515",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T14:02:34.554Z — wa:5492346583515"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T14:02:34.554Z — wa:5492346583515",
+    "fecha_publicado": "2026-08-13T11:12:22",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/menciones-en-audio-se-mencionaron-diversas-sedes-universitarias-y-el",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18360396946245926",
+    "fb_video_id": "1062424330053870",
+    "yt_video_id": "Woq2kWliMRU",
+    "yt_url": "https://www.youtube.com/shorts/Woq2kWliMRU",
+    "yt_watch_url": "https://www.youtube.com/watch?v=Woq2kWliMRU",
+    "yt_titulo": "Se mencionaron diversas sedes universitarias y el proyecto \"El Cielo de la Ciencia\"",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-13T11:12:22",
+    "yt_metrics": {}
   }
 ]
