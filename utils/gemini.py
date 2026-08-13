@@ -354,6 +354,7 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
             "temperature": 0.4,
             "response_mime_type": "application/json",
             "response_schema": _SEO_SCHEMA,
+            "mediaResolution": _media_resolution(),
         },
     }
     con_video = "MIRANDO el video" if youtube_url else "solo texto"
@@ -443,6 +444,7 @@ def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video
             "temperature": 0.75,
             "response_mime_type": "application/json",
             "response_schema": _GANCHO_SCHEMA,
+            "mediaResolution": _media_resolution(),
         },
     }
     logger.info(f"Gemini gancho miniatura (video={usar_video and bool(youtube_url)})…")
@@ -514,6 +516,15 @@ def _img_part(path: Path) -> dict:
     return {"inline_data": {"mime_type": _mime(path), "data": b64}}
 
 
+def _media_resolution() -> str:
+    """Resolución con la que Gemini muestrea imágenes/VIDEO. LOW usa ~4x menos tokens que media/alta
+    (clave para videos largos: menos consumo, menos 429), con impacto casi nulo al desgrabar audio +
+    escena. Configurable con GEMINI_MEDIA_RESOLUTION=low|medium|high (default low)."""
+    v = (get("GEMINI_MEDIA_RESOLUTION") or "low").strip().lower()
+    return {"low": "MEDIA_RESOLUTION_LOW", "medium": "MEDIA_RESOLUTION_MEDIUM",
+            "high": "MEDIA_RESOLUTION_HIGH"}.get(v, "MEDIA_RESOLUTION_LOW")
+
+
 def _post_json(parts: list, key: str, model: str, schema: dict, temperature: float = 0.3,
                key_pool=None) -> dict:
     """Llama a Gemini generateContent con esos `parts` pidiendo JSON con `schema`, reintentando
@@ -524,6 +535,7 @@ def _post_json(parts: list, key: str, model: str, schema: dict, temperature: flo
             "temperature": temperature,
             "response_mime_type": "application/json",
             "response_schema": schema,
+            "mediaResolution": _media_resolution(),
         },
     }
     r = _generate(model, payload, key, timeout=300, key_pool=key_pool)
@@ -795,9 +807,9 @@ def _groq_on() -> bool:
 
 
 def _groq_model() -> str:
-    """Modelo de Groq. Default whisper-large-v3 (mejor calidad). Para más velocidad/cuota:
-    whisper-large-v3-turbo. Configurable con GROQ_ASR_MODEL."""
-    return get("GROQ_ASR_MODEL") or "whisper-large-v3"
+    """Modelo de Groq. Default whisper-large-v3-turbo (más velocidad y MÁS CUOTA gratis, ideal para
+    videos largos; calidad casi igual). Para máxima calidad: GROQ_ASR_MODEL=whisper-large-v3."""
+    return get("GROQ_ASR_MODEL") or "whisper-large-v3-turbo"
 
 
 def _extraer_audio(media_local_path):
