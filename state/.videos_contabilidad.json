@@ -2478,5 +2478,25 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-12T22:11:30",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-08-13_matias-zucchi_msrjfv7z0h4l",
+    "uploader": "",
+    "fecha_recibido": "2026-08-13T10:15:48",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "",
+    "titulo": "Choque de moto y camioneta en Avenida 3 de Febrero y Biedma",
+    "resumen": "Un siniestro vial se registró en la intersección de Avenida 3 de Febrero y Biedma, donde colisionaron una motocicleta Motomel 110 sin dominio colocado, conducida por Barroso Axel Nahuel, y una camioneta Peugeot Partner, dominio AC492HH, guiada por Miguel Horacio Lucci. Como consecuencia del impacto, Barroso Axel Nahuel fue asistido y trasladado al Hospital Municipal de Chivilcoy por personal del SAME.",
+    "texto": "Un siniestro vial se registró en la intersección de Avenida 3 de Febrero y Biedma, donde colisionaron una motocicleta Motomel 110 sin dominio colocado, conducida por Barroso Axel Nahuel, y una camioneta Peugeot Partner, dominio AC492HH, guiada por Miguel Horacio Lucci.\n\nComo consecuencia del impacto, Barroso Axel Nahuel fue asistido y trasladado al Hospital Municipal de Chivilcoy por personal del SAME. Horas más tarde, se confirmó que fue dado de alta sin lesiones de consideración.\n\nAdemás, la motocicleta fue secuestrada por falta de documentación reglamentaria.",
+    "draft_id": "b9f4a9ef-0abb-4b79-97ef-eef06938079c",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-08-13-matias-zucchi-ms.mp4",
+    "estado": "borrador_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T13:12:35.895Z — wa:5492346417636"
   }
 ]
