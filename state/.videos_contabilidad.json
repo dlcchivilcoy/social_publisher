@@ -2624,12 +2624,29 @@
     "zocalo": "",
     "draft_id": "9c0d5aac-ee68-47dc-a5c4-be91445aacec",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-claudia-mss6em8vivy2-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Claudia",
     "corresponsal_celular": "5492346583515",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T23:55:28.541Z — wa:5492346583515"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-13T23:55:28.541Z — wa:5492346583515",
+    "fecha_publicado": "2026-08-13T21:06:45",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"A_fXy40QTaj16w8XzFsii7b\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "omitido"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1414524213884072",
+    "yt_video_id": "UNAfho6_KkE",
+    "yt_url": "https://www.youtube.com/shorts/UNAfho6_KkE",
+    "yt_watch_url": "https://www.youtube.com/watch?v=UNAfho6_KkE",
+    "yt_titulo": "Comenzó el Provincial Sub-15 Femenino y Chivilcoy juega contra Junín",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-13T21:06:45",
+    "yt_metrics": {}
   }
 ]
