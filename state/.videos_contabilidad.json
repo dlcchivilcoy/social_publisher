@@ -2694,11 +2694,23 @@
     "texto": "Personal del Gabinete Técnico Operativo (GTO) realizó este viernes dos procedimientos vinculados con distintos hechos delictivos ocurridos en la ciudad.\n\nEn uno de ellos fue detenido Néstor Maximiliano Bergues, de 20 años, investigado por el robo en “Qué Kiosco”, ubicado en avenida José Soárez 105, y vinculado además con otros hechos, entre ellos el robo de $503.895 en la aseguradora “La Segunda”, de San Lorenzo 85. Durante un allanamiento en Yapeyú 1060, la Policía secuestró cigarrillos, cerveza y dinero en efectivo.\n\nEn otro procedimiento fue aprehendido un adolescente de 17 años acusado de ingresar a una vivienda de Olavarría 214, provocar daños y sustraer griferías y otras pertenencias. También es investigado por distintos robos anteriores. Tras ser presentado ante la Justicia, se dispuso su libertad.\n\nLas investigaciones continúan para determinar responsabilidades en otros hechos registrados en Chivilcoy.",
     "draft_id": "534b0ebc-0b4c-4cc5-930d-3b64e57996f4",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-08-14-matias-zucchi-ms.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-14T21:32:17.975Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-14T21:32:17.975Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-14T18:41:58",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AB1AqEsukLb5lHF_OJaje1H\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-detenido-por-robo-en-aseguradora-y-menor-aprehendido",
+    "ig_media_id": "",
+    "fb_video_id": "2136725300252841",
+    "yt_video_id": "qNttLcdVvFo",
+    "yt_url": "https://www.youtube.com/shorts/qNttLcdVvFo"
   }
 ]
