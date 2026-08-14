@@ -1493,6 +1493,19 @@
     "texto": "Facundo Moscoloni, integrante de la Agrupación Artística Chivilcoy, se refirió al regreso a escena de la obra teatral \"Bang Bang\" y a las motivaciones del elenco para concretar su reposición.\n\nAl respecto, explicó que confluyeron diferentes factores para llevar adelante esta nueva etapa: \"Muchas cosas terminaron como de conjugarse en esta vuelta, el deseo de cada uno de nosotros del grupo para poder volver y también esto es decir bueno reponer un trabajo que había salido bien durante el año pasado y tener otra propuesta local y digamos de producción propia en el teatro\".",
     "zocalo": "Facundo Moscoloni",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260814-155504-youtube.mp4",
-    "estado": "listo"
+    "estado": "publicado",
+    "fecha_publicado": "2026-08-14T16:20:46",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok"
+    },
+    "ig_media_id": "17870711232582479",
+    "fb_video_id": "4460550080823355",
+    "yt_video_id": "uoH7nxQXRXY",
+    "yt_url": "https://www.youtube.com/shorts/uoH7nxQXRXY",
+    "yt_titulo": "Facundo Moscoloni se refirió al regreso de la obra \"Bang Bang\"",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-14T16:20:46"
   }
 ]
