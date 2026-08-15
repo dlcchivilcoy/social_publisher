@@ -2831,12 +2831,29 @@
     "zocalo": "Stefano Denicio",
     "draft_id": "efbdad93-c7a5-4cdd-abf1-d1cae2843ea8",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msusalbluhq1-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-15T19:43:44.629Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-15T19:43:44.629Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-15T16:55:07",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-deportivo-colon-campeon-deportivo-colon-de-chivilcoy-se",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "17898054015589732",
+    "fb_video_id": "2584382375330535",
+    "yt_video_id": "BSDxDzc7468",
+    "yt_url": "https://www.youtube.com/shorts/BSDxDzc7468",
+    "yt_watch_url": "https://www.youtube.com/watch?v=BSDxDzc7468",
+    "yt_titulo": "Deportivo Colón de Chivilcoy se consagró campeón de la Liga Federal",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-15T16:55:07",
+    "yt_metrics": {}
   }
 ]
