@@ -2937,12 +2937,29 @@
     "zocalo": "",
     "draft_id": "e1e29bd0-8ed3-4168-82d8-befd68724c83",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msw0br2iptod-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-16T16:16:22.031Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-16T16:16:22.031Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-16T13:23:34",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18111058415473367",
+    "fb_video_id": "3533683300121934",
+    "yt_video_id": "TRKtZlU-6NM",
+    "yt_url": "https://www.youtube.com/shorts/TRKtZlU-6NM",
+    "yt_watch_url": "https://www.youtube.com/watch?v=TRKtZlU-6NM",
+    "yt_titulo": "Robo de casi $1 millón en La Marisquería y otros asaltos en Chivilcoy",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-16T13:23:34",
+    "yt_metrics": {}
   }
 ]
