@@ -48,8 +48,12 @@ def _gemini_keys(primary: str = "") -> list:
     Orden: primero las conocidas del diario (compat), después cualquier clave NUEVA del diario, y
     al final las de radiodelcentro (respaldo compartido; el flujo radio las pasa como `primary`,
     así que las usa PRIMERO — ver transcribe_to_nota(api_key=...))."""
-    diario_fijas = ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
-                    "GEMINI_API_KEY_4", "GEMINI_API_KEY_YT"]
+    # GEMINI_API_KEY_YT es la clave con FACTURACIÓN activa (proyecto "Desgrabador YouTube",
+    # Nivel 1 · Prepago) → va PRIMERA a propósito: la usa de arranque todo video (máxima
+    # fiabilidad en videos largos 3-5 min), y recién si falla cae a las gratis. Para volver a
+    # "gratis primero, paga de respaldo": dejar GEMINI_API_KEY al frente de la lista.
+    diario_fijas = ["GEMINI_API_KEY_YT", "GEMINI_API_KEY", "GEMINI_API_KEY_2",
+                    "GEMINI_API_KEY_3", "GEMINI_API_KEY_4"]
     radio_fijas = ["GEMINI_API_KEY_RADIO", "GEMINI_API_KEY_RADIO_2", "GEMINI_API_KEY_RADIO_3"]
     fijas = set(diario_fijas + radio_fijas)
     # Cualquier GEMINI_API_KEY* del .env que NO esté en las listas fijas se suma sola al pool.
