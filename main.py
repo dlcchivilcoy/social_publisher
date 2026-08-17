@@ -205,6 +205,21 @@ def main() -> None:
         help="RADIO foto-nota (etapa 2, al aprobar): postea el reel de la foto a IG/FB (con --file).",
     )
     parser.add_argument(
+        "--descartar-video-radio",
+        action="store_true",
+        help="RADIO: DESCARTA un reel antes de publicar (botón «Borrar» del mail): lo marca 'descartado' en el ledger (con --file). No toca posteos online.",
+    )
+    parser.add_argument(
+        "--editar-video-radio",
+        action="store_true",
+        help="RADIO: CORRIGE el texto de un reel antes de publicar (botón «Editar» del mail): con --file + --titulo-b64/--texto-b64 (base64).",
+    )
+    parser.add_argument(
+        "--y-publicar",
+        action="store_true",
+        help="Con --editar-video-radio: además de guardar el texto, PUBLICA en la misma corrida (evita la carrera editar/aprobar).",
+    )
+    parser.add_argument(
         "--limit",
         type=int,
         default=15,
@@ -221,6 +236,18 @@ def main() -> None:
         type=str,
         default=None,
         help="Email del colaborador que subió el video (para --transcribe-video, lo pasa el Apps Script).",
+    )
+    parser.add_argument(
+        "--titulo-b64",
+        type=str,
+        default=None,
+        help="Título nuevo en base64 (UTF-8) para --editar-video-radio (lo manda el formulario web).",
+    )
+    parser.add_argument(
+        "--texto-b64",
+        type=str,
+        default=None,
+        help="Texto/cuerpo nuevo en base64 (UTF-8) para --editar-video-radio (lo manda el formulario web).",
     )
     parser.add_argument(
         "--mes",
@@ -373,6 +400,30 @@ def main() -> None:
         from transcriber_radio import run_placa_radio_publish
         logger.info(f"Modo --placa-radio-publish (dry_run={args.dry_run}). folder={args.file}")
         run_placa_radio_publish(folder=args.file or "", dry_run=args.dry_run)
+        return
+    if args.descartar_video_radio:
+        from transcriber_radio import run_descartar_video_radio
+        logger.info(f"Modo --descartar-video-radio (dry_run={args.dry_run}). file={args.file}")
+        run_descartar_video_radio(file=args.file or "", dry_run=args.dry_run)
+        return
+    if args.editar_video_radio:
+        import base64
+        from transcriber_radio import run_editar_video_radio
+
+        def _dec_b64(s):
+            if not s:
+                return ""
+            try:
+                return base64.b64decode(s).decode("utf-8", "replace")
+            except Exception as e:  # noqa: BLE001
+                logger.error(f"--editar-video-radio: no pude decodificar base64 ({e}).")
+                return ""
+        titulo_nuevo = _dec_b64(args.titulo_b64)
+        texto_nuevo = _dec_b64(args.texto_b64)
+        logger.info(f"Modo --editar-video-radio (dry_run={args.dry_run}). file={args.file} "
+                    f"titulo={len(titulo_nuevo)}c texto={len(texto_nuevo)}c publicar={args.y_publicar}")
+        run_editar_video_radio(file=args.file or "", titulo=titulo_nuevo, texto=texto_nuevo,
+                               publicar=args.y_publicar, dry_run=args.dry_run)
         return
     if args.videos_report:
         from reporte import run_videos_report

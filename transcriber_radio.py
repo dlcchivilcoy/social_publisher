@@ -34,8 +34,9 @@ logger = get_logger("transcriber_radio")
 
 LEDGER_RADIO = Path(__file__).parent / ".videos_radio.json"
 # Estados que YA fueron procesados en la etapa 1 (no volver a desgrabar en el escaneo).
+# "descartado" = el usuario tocó «Borrar» en el mail → no se publica ni se re-escanea.
 YA_ETAPA1 = ("listo", "solo_reel", "publicado", "publicado_solo_reel",
-             "borrador_placa", "publicado_placa")
+             "borrador_placa", "publicado_placa", "descartado")
 
 
 # ── Config de la radio ────────────────────────────────────────────────────────
@@ -89,24 +90,38 @@ def _approve_url() -> str:
     return get("APPROVE_WEBAPP_URL_RADIO") or ""
 
 
-# ── Mail de la radio (botones Aprobar + Previsualizar; SIN editar/borrar, no hay Wix) ──
-def _html_aviso(intro_html: str, name: str, reel_url: str, kind: str = "") -> str:
+# ── Mail de la radio con los 4 botones (Aprobar / Editar / Previsualizar / Borrar) ──
+def _html_aviso(intro_html: str, name: str, reel_url: str, kind: str = "",
+                titulo: str = "", texto: str = "", editable: bool = True) -> str:
+    """Mail de revisión de la radio con los 4 botones. Como la radio es SOLO REDES (no hay borrador
+    de Wix de dónde leer), «Editar» lleva el título+texto ACTUALES en el propio link (los prellenan
+    el formulario web) y «Borrar» DESCARTA el reel antes de publicar (no se publica ni se re-escanea).
+    `texto` = el cuerpo que alimenta el caption (resumen en videos, texto en foto-notas)."""
     webapp = _approve_url()
     tok = get("WEBAPP_TOKEN")
     t = f"&token={quote(tok)}" if tok else ""
     k = f"&kind={kind}" if kind else ""
     botones = ""
     if webapp:
-        botones += tr._boton(f"{webapp}?action=approve&name={quote(name)}{k}{t}", "✅ Aprobar y publicar")
+        botones += tr._boton(f"{webapp}?action=approve&name={quote(name)}{k}{t}",
+                             "✅ Aprobar y publicar")
+        if editable:
+            botones += tr._boton(
+                f"{webapp}?action=edit&name={quote(name)}{t}"
+                f"&titulo={quote(titulo)}&texto={quote(texto)}",
+                "✏️ Editar texto", color="#2a6bb8")
         if reel_url:
             botones += tr._boton(f"{webapp}?action=preview&url={quote(reel_url)}{t}",
                                  "👁️ Previsualizar video", color="#444")
+        botones += tr._boton(f"{webapp}?action=delete&name={quote(name)}{t}",
+                             "🗑️ Borrar (descartar)", color="#b00020")
     elif reel_url:
         botones += tr._boton(reel_url, "👁️ Ver el reel", color="#444")
     return (f'<div style="font-family:Arial;max-width:600px;color:#222;font-size:16px">'
             f'{intro_html}<div style="margin:22px 0">{botones}</div>'
             f'<p style="color:#777;font-size:13px">Radio del Centro · solo redes (sin nota web). '
-            f'Aprobá desde el botón del mail.</p></div>')
+            f'«Editar» corrige el texto que va al caption de IG/FB y a YouTube; «Borrar» descarta el '
+            f'reel (no se publica).</p></div>')
 
 
 # ── Desgrabación con ROTACIÓN de proyectos ante saturación (429) ──────────────
@@ -221,7 +236,9 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     tr._enviar_aviso(asunto,
                      f"Reel de la radio por revisar: «{titulo or video.name}». "
                      f"Aprobalo desde el botón del mail.",
-                     html=_html_aviso(intro, video.name, reel_url), destino=_notify())
+                     html=_html_aviso(intro, video.name, reel_url,
+                                      titulo=titulo, texto=resumen, editable=hay),
+                     destino=_notify())
 
 
 def run_transcribe_video_radio(file: str = "", uploader: str = "", dry_run: bool = False) -> None:
@@ -473,7 +490,9 @@ def run_placa_radio(folder: str = "", uploader: str = "", dry_run: bool = False)
              f"<p>Al aprobar, sale un <b>reel de la foto</b> a Instagram y Facebook @diarioyradio.</p>")
     tr._enviar_aviso(f"Foto-nota por revisar (Radio): {titular}",
                      f"Foto-nota de la radio por revisar: «{titular}». Aprobala desde el botón del mail.",
-                     html=_html_aviso(intro, carpeta.name, reel_url, kind="folder"), destino=_notify())
+                     html=_html_aviso(intro, carpeta.name, reel_url, kind="folder",
+                                      titulo=titular, texto=texto, editable=True),
+                     destino=_notify())
     logger.info("=== Foto-nota RADIO (etapa 1): fin ===")
 
 
@@ -531,3 +550,78 @@ def run_placa_radio_publish(folder: str = "", dry_run: bool = False) -> None:
     tr._guardar_ledger(rows, LEDGER_RADIO)
     _avisar_estado_radio(fila, estado, {})
     logger.info("=== Foto-nota RADIO (etapa 2): fin ===")
+
+
+# ── BORRAR = DESCARTAR antes de publicar (botón «Borrar» del mail) ────────────
+def run_descartar_video_radio(file: str = "", dry_run: bool = False) -> None:
+    """Descarta un reel de la radio ANTES de publicar: lo marca 'descartado' en el ledger (el
+    escaneo lo saltea) y NO publica nada. Equivale al «borrar borrador» del diario, pero como la
+    radio no tiene nota web, sólo evita que ese reel salga. No toca posteos ya publicados."""
+    logger.info(f"=== Descartar RADIO — file='{file}' dry_run={dry_run} ===")
+    rows = tr._leer_ledger(LEDGER_RADIO)
+    fila = tr._buscar_fila(rows, file) if file else None
+    if fila is None:
+        logger.error(f"No encontré «{file}» en el ledger de la radio. Nada que descartar.")
+        return
+    if fila.get("estado") in ("publicado", "publicado_solo_reel", "publicado_placa"):
+        logger.info(f"«{file}» ya estaba publicado; no se descarta (los posteos online no se tocan).")
+        return
+    if dry_run:
+        logger.info(f"[dry-run] descartaría «{file}».")
+        return
+    fila.update({"estado": "descartado",
+                 "fecha_descartado": datetime.now().isoformat(timespec="seconds")})
+    tr._guardar_ledger(rows, LEDGER_RADIO)
+    logger.info(f"Radio: «{file}» descartado (no se publica ni se re-escanea).")
+    tr._enviar_aviso(
+        f"Descartado (Radio): {fila.get('titulo') or file}",
+        f"Se descartó «{fila.get('titulo') or file}». No se publicó nada y no se vuelve a escanear.",
+        destino=_notify())
+    logger.info("=== Descartar RADIO: fin ===")
+
+
+# ── EDITAR el texto antes de publicar (botón «Editar» del mail) ───────────────
+def run_editar_video_radio(file: str = "", titulo: str = "", texto: str = "",
+                           publicar: bool = False, dry_run: bool = False) -> None:
+    """Corrige el TEXTO de un reel de la radio. Como no hay borrador de Wix, guarda los cambios en el
+    LEDGER. El cuerpo editado va al campo que alimenta el caption de cada tipo: `texto` en foto-notas,
+    `resumen` en videos (ver _caption / run_placa_radio_publish). El formulario web manda todo en base64.
+
+    Con `publicar=True` (botón «Guardar y publicar») EDITA Y PUBLICA en la MISMA corrida: así no hay
+    carrera entre dos Actions asíncronas (editar vs aprobar). Como el reel no cambia al editar el texto
+    —solo cambia el caption— no hace falta re-previsualizar."""
+    logger.info(f"=== Editar RADIO — file='{file}' publicar={publicar} dry_run={dry_run} ===")
+    rows = tr._leer_ledger(LEDGER_RADIO)
+    fila = tr._buscar_fila(rows, file) if file else None
+    if fila is None:
+        logger.error(f"No encontré «{file}» en el ledger de la radio. Nada que editar.")
+        return
+    if fila.get("estado") in ("publicado", "publicado_solo_reel", "publicado_placa"):
+        logger.info(f"«{file}» ya está publicado; no se edita (los posteos online no se tocan).")
+        return
+    titulo, texto = (titulo or "").strip(), (texto or "").strip()
+    if not titulo and not texto:
+        logger.error("Editar RADIO: vinieron vacíos título y texto; no toco nada.")
+        return
+    if dry_run:
+        logger.info(f"[dry-run] editaría «{file}»: titulo='{titulo[:60]}' cuerpo={len(texto)} chars "
+                    f"(publicar={publicar}).")
+        return
+    if titulo:
+        fila["titulo"] = titulo
+    if texto:
+        # El caption usa 'texto' en las foto-notas y 'resumen' en los videos.
+        fila["texto" if fila.get("es_placa") else "resumen"] = texto
+    fila["fecha_editado"] = datetime.now().isoformat(timespec="seconds")
+    tr._guardar_ledger(rows, LEDGER_RADIO)
+    logger.info(f"Radio: texto de «{file}» actualizado.")
+
+    if publicar:
+        logger.info(f"Radio: publico «{file}» con el texto corregido (misma corrida, sin carrera).")
+        if fila.get("es_placa"):
+            run_placa_radio_publish(folder=file, dry_run=dry_run)
+        else:
+            run_publish_video_radio(file=file, dry_run=dry_run)
+    else:
+        logger.info("Radio: guardado. Falta aprobar desde el mail para publicar.")
+    logger.info("=== Editar RADIO: fin ===")
