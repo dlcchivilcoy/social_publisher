@@ -723,6 +723,21 @@ def _yt_enabled() -> bool:
     return (get("YT_SHORTS_ENABLED") or "1").strip().lower() not in ("0", "false", "no", "off")
 
 
+def _yt_creds():
+    """Canal de YouTube al que van los Shorts del desgrabador del diario. `YT_SHORTS_CANAL=radio` →
+    canal RADIO DEL CENTRO (token `YT_TOKEN_JSON`; su scope force-ssl permite subir); cualquier otro
+    valor (default) → canal DIARIO LA CAMPAÑA. Devuelve las credenciales para pasarle a `upload_short`
+    (None = default = Diario La Campaña)."""
+    if (get("YT_SHORTS_CANAL") or "diario").strip().lower() == "radio":
+        try:
+            from platforms import youtube_api
+            return youtube_api.radio_credentials()
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"[youtube] no pude cargar las credenciales de Radio del Centro ({e}); "
+                         f"subo al canal por defecto.")
+    return None
+
+
 def _hashtag(palabra: str) -> str:
     """Convierte 'radio del centro' → '#RadioDelCentro' (sin acentos/espacios)."""
     limpio = re.sub(r"[^0-9A-Za-zñÑáéíóúÁÉÍÓÚ ]+", "", palabra or "").strip()
@@ -967,7 +982,8 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
             yt_info = _retry(
                 lambda: youtube_api.upload_short(
                     local_reel, meta["titulo"], yt_desc,
-                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
+                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy,
+                creds=_yt_creds()),
                 etiqueta="[youtube] subir Short")
             estado_canales["youtube"] = "ok"
             logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
@@ -1200,7 +1216,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
             yt_info = _retry(lambda: youtube_api.upload_short(
                 reel_local, meta["titulo"], yt_desc,
-                tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
+                tags=meta["tags"], category_id=meta["category_id"], privacy=privacy,
+                creds=_yt_creds()),
                 etiqueta="[youtube] subir Short")
             estado["youtube"] = "ok"
             logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
@@ -1426,7 +1443,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             yt_info = _retry(
                 lambda: youtube_api.upload_short(
                     reel_local, meta["titulo"], meta["descripcion"],
-                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy),
+                    tags=meta["tags"], category_id=meta["category_id"], privacy=privacy,
+                creds=_yt_creds()),
                 etiqueta="[youtube] subir Short")
             estado["youtube"] = "ok"
             logger.info(f"[youtube] Short OK: {yt_info.get('short_url')}")
