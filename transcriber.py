@@ -299,7 +299,10 @@ def _enviar_aviso(asunto: str, cuerpo: str, html: str | None = None, destino: st
     msg = EmailMessage()
     msg["From"] = formataddr((nombre_from, remitente))
     msg["To"] = destino
-    msg["Subject"] = asunto
+    # Un Subject de mail NO admite saltos de línea (CR/LF): si el título trae un \n (p.ej. cuando
+    # Gemini da hay_noticia=False y el título sale de la descripción del vecino), setearlo revienta
+    # con "Header values may not contain linefeed…" y aborta TODA la corrida. Colapsamos a espacios.
+    msg["Subject"] = " ".join(str(asunto or "").split()) or "Aviso · Diario La Campaña"
     msg.set_content(cuerpo)
     if html:
         msg.add_alternative(html, subtype="html")
