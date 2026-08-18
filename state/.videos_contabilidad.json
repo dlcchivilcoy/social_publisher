@@ -3216,12 +3216,29 @@
     "zocalo": "",
     "draft_id": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-claudia-roger-msyqc1yppk2q-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Claudia Roger",
     "corresponsal_celular": "5492346583515",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-18T13:59:58.499Z — wa:5492346583515"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-18T13:59:58.499Z — wa:5492346583515",
+    "fecha_publicado": "2026-08-18T11:46:47",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18119067256914793",
+    "fb_video_id": "2093428501274169",
+    "yt_video_id": "hJ542ddEEN0",
+    "yt_url": "https://www.youtube.com/shorts/hJ542ddEEN0",
+    "yt_watch_url": "https://www.youtube.com/watch?v=hJ542ddEEN0",
+    "yt_titulo": "El Mercado Bonaerense se instala en Plaza España",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-18T11:46:47",
+    "yt_metrics": {}
   }
 ]
