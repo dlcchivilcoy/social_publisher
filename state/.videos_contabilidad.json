@@ -3159,12 +3159,29 @@
     "zocalo": "Detención por robos en Chivilcoy",
     "draft_id": "7b46484e-8cdc-4c7d-8d6a-14ea08ed16bb",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-msymhwrwrp67-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-18T12:12:33.794Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-18T12:12:33.794Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-18T09:32:31",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18091145993402595",
+    "fb_video_id": "1595975845245537",
+    "yt_video_id": "c7H-TGt7a2Q",
+    "yt_url": "https://www.youtube.com/shorts/c7H-TGt7a2Q",
+    "yt_watch_url": "https://www.youtube.com/watch?v=c7H-TGt7a2Q",
+    "yt_titulo": "Aprehendieron al delincuente que robó varios comercios en Chivilcoy",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-18T09:32:31",
+    "yt_metrics": {}
   }
 ]
