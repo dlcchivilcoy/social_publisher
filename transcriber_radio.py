@@ -280,8 +280,16 @@ def run_transcribe_video_radio(file: str = "", uploader: str = "", dry_run: bool
             logger.info(f"Scan radio: «{v.name}» recién modificado (<60s); lo dejo para el próximo escaneo.")
             continue
         logger.info(f"Scan radio: procesando «{v.name}»…")
-        _procesar_video(v, uploader, dry_run, rows)
-        nuevos += 1
+        try:
+            _procesar_video(v, uploader, dry_run, rows)
+            nuevos += 1
+        except Exception as e:  # noqa: BLE001 — un video roto NO frena a los demás
+            logger.error(f"Scan radio: «{v.name}» falló pero sigo con los demás: {e}")
+            if not dry_run:
+                tr._enviar_aviso(
+                    f"No pude procesar un video de la radio (seguí con los demás): {v.name}",
+                    f"Falló el procesamiento de «{v.name}»: {str(e)[:300]}\n\n"
+                    f"El resto se procesó igual. Reintentá éste re-subiéndolo.", destino=_notify())
     logger.info(f"=== Scan radio: fin ({nuevos} video(s) nuevo(s)) ===")
 
 

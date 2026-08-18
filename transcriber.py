@@ -293,28 +293,30 @@ def _enviar_aviso(asunto: str, cuerpo: str, html: str | None = None, destino: st
     if not remitente or not password or not destino:
         logger.warning("Sin credenciales de mail (MAIL_FROM/MAIL_APP_PASSWORD): no se manda el aviso.")
         return
-    host = get("SMTP_HOST") or "smtp.gmail.com"
-    port = int(get("SMTP_PORT") or 587)
-    nombre_from = get("MAIL_FROM_NAME") or "Diario La Campaña"
-    msg = EmailMessage()
-    msg["From"] = formataddr((nombre_from, remitente))
-    msg["To"] = destino
-    # Un Subject de mail NO admite saltos de línea (CR/LF): si el título trae un \n (p.ej. cuando
-    # Gemini da hay_noticia=False y el título sale de la descripción del vecino), setearlo revienta
-    # con "Header values may not contain linefeed…" y aborta TODA la corrida. Colapsamos a espacios.
-    msg["Subject"] = " ".join(str(asunto or "").split()) or "Aviso · Diario La Campaña"
-    msg.set_content(cuerpo)
-    if html:
-        msg.add_alternative(html, subtype="html")
+    # BLINDADO: TODO (armar el mensaje + enviar) va dentro del try. Pase lo que pase —un asunto con
+    # saltos de línea, un header inválido, el SMTP caído— este aviso NUNCA propaga la excepción, así
+    # que jamás puede tumbar la corrida que lo llama. El aviso es best-effort: si falla, se loguea y
+    # la corrida sigue. (Antes, `msg["Subject"]=asunto` con un \n reventaba ACÁ y abortaba todo.)
     try:
+        host = get("SMTP_HOST") or "smtp.gmail.com"
+        port = int(get("SMTP_PORT") or 587)
+        nombre_from = get("MAIL_FROM_NAME") or "Diario La Campaña"
+        msg = EmailMessage()
+        msg["From"] = formataddr((nombre_from, remitente))
+        msg["To"] = destino
+        # Un Subject de mail NO admite saltos de línea (CR/LF) → los colapsamos a espacios.
+        msg["Subject"] = " ".join(str(asunto or "").split()) or "Aviso · Diario La Campaña"
+        msg.set_content(cuerpo)
+        if html:
+            msg.add_alternative(html, subtype="html")
         ctx = ssl.create_default_context()
         with smtplib.SMTP(host, port, timeout=60) as server:
             server.starttls(context=ctx)
             server.login(remitente, password)
             server.send_message(msg)
         logger.info(f"Aviso enviado a {destino}")
-    except Exception as e:
-        logger.error(f"No se pudo enviar el aviso por mail: {e}")
+    except Exception as e:  # noqa: BLE001 — un aviso NUNCA debe tumbar la corrida
+        logger.error(f"No se pudo enviar el aviso por mail (no corto la corrida): {e}")
 
 
 def _descargar(url: str, destino: Path) -> Path:
@@ -363,9 +365,57 @@ def _avisar_nombre_repetido(nombre: str, fila: dict, kind: str = "nota") -> None
 
 
 # ── ETAPA 1: preparar ─────────────────────────────────────────────────────────
+def _scan_transcribe_video(uploader: str = "", dry_run: bool = False) -> None:
+    """ESCANEO del desgrabador del diario: procesa TODOS los videos pendientes de «videos notas
+    actualidad», del más viejo al más nuevo. Antes se agarraba SOLO el más nuevo (_find_video hace
+    max(mtime)); si llegaban 2 casi juntos, el más viejo quedaba HUÉRFANO. Ahora se recorren todos.
+    Cada video se procesa AISLADO en su try/except: si uno falla, se avisa por mail y se SIGUE con
+    los demás (un video roto no bloquea a los otros ni tumba la corrida). El ledger evita reprocesar;
+    guard de <60s para no agarrar una subida a medio terminar."""
+    base = _videos_folder()
+    if not base.exists():
+        logger.error(f"No existe la carpeta de videos: {base}")
+        return
+    rows = _leer_ledger()
+    vids = sorted([p for p in base.rglob("*")
+                   if p.is_file() and p.suffix.lower() in VIDEO_EXTS],
+                  key=lambda p: p.stat().st_mtime)
+    if not vids:
+        logger.info("Scan diario: no hay videos en la carpeta.")
+        return
+    YA = ("borrador", "solo_reel", "publicado", "publicado_solo_reel")
+    nuevos = 0
+    for v in vids:
+        fila = _buscar_fila(rows, v.name)
+        if fila and fila.get("estado") in YA:
+            continue
+        if not dry_run and (time.time() - v.stat().st_mtime) < 60:
+            logger.info(f"Scan: «{v.name}» recién modificado (<60s); lo dejo para el próximo escaneo.")
+            continue
+        logger.info(f"Scan: procesando «{v.name}»…")
+        try:
+            run_transcribe_video(file=v.name, uploader=uploader, dry_run=dry_run)
+            nuevos += 1
+        except Exception as e:  # noqa: BLE001 — un video roto NO frena a los demás
+            logger.error(f"Scan: «{v.name}» falló pero sigo con los demás: {e}")
+            if not dry_run:
+                _enviar_aviso(
+                    f"No pude procesar un video (seguí con los demás): {v.name}",
+                    f"Falló el procesamiento de «{v.name}»: {str(e)[:300]}\n\n"
+                    f"El resto de los videos se procesó igual. Reintentá éste re-subiéndolo a "
+                    f"«videos notas actualidad» (o avisá y lo reintento).")
+        rows = _leer_ledger()  # run_transcribe_video pudo guardar cambios en el ledger
+    logger.info(f"=== Scan diario: fin ({nuevos} video(s) procesado(s)) ===")
+
+
 def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
     logger.info(f"=== Desgrabar video [{modo}] — file='{file}' uploader='{uploader}' ===")
+
+    # SIN --file = modo ESCANEO: procesar TODOS los pendientes (no solo el más nuevo), aislando cada
+    # uno para que un video roto no frene a los demás. Con --file, procesa ese video puntual.
+    if not file:
+        return _scan_transcribe_video(uploader=uploader, dry_run=dry_run)
 
     video = _find_video(file)
     if not video:
