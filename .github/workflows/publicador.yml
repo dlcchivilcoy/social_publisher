@@ -44,7 +44,7 @@ concurrency:
     (github.event.schedule == '0 3 * * *') && 'publicador-tapa-farmacias'
     || contains(github.event.inputs.args, '-radio') && 'publicador-radio'
     || (contains(github.event.inputs.args, 'placa') || contains(github.event.inputs.args, 'corresponsales')) && 'publicador-corresponsales'
-    || contains(github.event.inputs.args, 'yt-seo') && 'publicador-yt-seo'
+    || contains(github.event.inputs.args, 'yt-seo') && 'publicador-yt-seo-2'
     || contains(github.event.inputs.args, 'yt-desgrabar') && 'publicador-yt-desgrabador'
     || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos'
     || contains(github.event.inputs.args, 'notas-web') && 'publicador-notas-web'
