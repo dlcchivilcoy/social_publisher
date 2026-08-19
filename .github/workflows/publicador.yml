@@ -17,16 +17,20 @@ on:
         required: true
         default: '--dry-run'
 
-# Evita que dos corridas se pisen (importante para no corromper los registros).
-# OJO: los comandos de VIDEO (transcribe/publish-video, del diario y de la radio) van a un
-# grupo APARTE (`publicador-videos`). Antes TODO compartia el grupo `publicador`: como GitHub
-# solo deja 1 corriendo + 1 en espera por grupo y cancela lo que este "pending", una corrida
-# lenta de video que quedaba en la cola era CANCELADA por el siguiente cron del publicador
-# (por hora), y el Apps Script ya la habia marcado como "vista" -> el video se perdia sin nota
-# ni mail. Con dos grupos, el publicador y el desgrabador ya no se cancelan entre si; los
-# videos siguen serializados ENTRE SI (un solo grupo) para no corromper el ledger.
+# Evita que dos corridas se pisen (importante para no corromper los registros). GitHub deja 1
+# corriendo + 1 en espera por grupo y CANCELA lo que quede "pending". Por eso hay que aislar los
+# flujos que corren seguido para que no se cancelen entre si.
+# TRES grupos:
+#   - 'publicador-radio'  : TODO lo de la radio (*-radio). El cron dispara --transcribe-video-radio
+#                           cada ~10 min → NO debe compartir cola con el desgrabador del diario.
+#   - 'publicador-videos' : desgrabador del DIARIO (transcribe-video / publish-video SIN "radio").
+#                           Antes compartia grupo con la radio: el scan de radio (cada 10 min)
+#                           cancelaba el disparo del Apps Script de un video del diario que estaba
+#                           "pending" → como el Apps Script ya lo marco "visto", NUNCA se reintentaba
+#                           y el video se perdia SIN MAIL. Separar la radio lo arregla. (2026-08-19)
+#   - 'publicador'        : el resto (tapa, farmacias, historias, reel, muro, etc.).
 concurrency:
-  group: ${{ (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos' || 'publicador' }}
+  group: ${{ contains(github.event.inputs.args, 'radio') && 'publicador-radio' || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos' || 'publicador' }}
   cancel-in-progress: false
 
 # Necesario para commitear de vuelta los registros anti-repeticion.
