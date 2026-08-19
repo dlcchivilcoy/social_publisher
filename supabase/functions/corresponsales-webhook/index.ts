@@ -91,6 +91,23 @@ async function deleteSesion(waId: string): Promise<void> {
   });
 }
 
+// Append ATÓMICO de un archivo a la sesión (RPC SQL con lock de fila). Reemplaza el patrón
+// leer→append→upsert que perdía fotos cuando el álbum llegaba como webhooks concurrentes. Devuelve
+// cuántos archivos hay tras ESTE append (1 = primer archivo del envío). Ver migración 0002.
+async function addMediaAtomic(waId: string, id: string, tipo: string, perfil: string): Promise<number> {
+  const r = await fetch(`${SB_URL}/rest/v1/rpc/corresponsales_add_media`, {
+    method: "POST",
+    headers: sbHeaders(),
+    body: JSON.stringify({ p_wa_id: waId, p_id: id, p_tipo: tipo, p_perfil: perfil }),
+  });
+  if (!r.ok) {
+    console.error(`addMediaAtomic FALLO ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    return 1; // que al menos mande la bienvenida
+  }
+  const total = await r.json();
+  return typeof total === "number" && total > 0 ? total : 1;
+}
+
 async function registrarColaborador(waId: string, nombre: string, celular: string, autorizacion: string): Promise<void> {
   // Lee el registro actual para incrementar el contador (no hay upsert con +1 en REST).
   const r = await fetch(
@@ -258,48 +275,33 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     return;
   }
 
-  // Llega un video o foto. Se pueden mandar VARIOS (1-5 fotos o 2-3 videos cortos) y se juntan en un
-  // mismo envío mientras el formulario esté en el paso "hecho" (antes de que cuente qué pasó).
+  // Llega un video o foto. Se pueden mandar VARIOS y se juntan en un mismo envío. El append es
+  // ATÓMICO (RPC), así que aunque el álbum llegue como varios webhooks CONCURRENTES no se pisan ni
+  // se pierde ninguno (era el bug de "quedaba 1 sola foto en el reel"). `total` = cuántos hay tras
+  // ESTE archivo (1 = el primero → bienvenida + formulario; >1 = adicional → ack corto).
   if (esMedia) {
     const mediaId = String((msg.video?.id) ?? (msg.image?.id) ?? (msg.document?.id) ?? "");
-    const tipo = msg.image ? "image"
+    const tipoM = msg.image ? "image"
       : (msg.video ? "video"
       : (String(msg.document?.mime_type || "").startsWith("image/") ? "image" : "video"));
-    const juntando = !!sesion && String(sesion.paso) === "hecho";
-    const lista = juntando ? parseMedia(sesion!.media_id) : [];
-    const nImg = lista.filter((m) => m.tipo === "image").length;
-    const nVid = lista.filter((m) => m.tipo !== "image").length;
-    // Topes: 5 fotos / 3 videos por envío.
-    if (juntando && ((tipo === "image" && nImg >= 5) || (tipo !== "image" && nVid >= 3))) {
-      await enviarTexto(waId, tipo === "image"
-        ? "Ya tengo el máximo de *5 fotos* para este envío. Contame *qué pasó* para continuar. 🙂"
-        : "Ya tengo el máximo de *3 videos* para este envío. Contame *qué pasó* para continuar. 🙂");
-      return;
-    }
-    lista.push({ id: mediaId, tipo });
-    if (juntando) {
-      // Media adicional: NO reenvío el formulario, solo actualizo la lista + un ack corto.
-      await upsertSesion({ wa_id: waId, paso: "hecho", media_id: JSON.stringify(lista) });
-      const cImg = lista.filter((m) => m.tipo === "image").length;
-      const cVid = lista.filter((m) => m.tipo !== "image").length;
-      const res = cImg && cVid ? `${cImg} foto(s) y ${cVid} video(s)` : (cImg ? `${cImg} foto(s)` : `${cVid} video(s)`);
+    if (!mediaId) return;
+    const total = await addMediaAtomic(waId, mediaId, tipoM, perfil);
+    if (total <= 1) {
       await enviarTexto(waId,
-        `📎 Recibí (${res} hasta ahora). Podés mandar más, o contame *qué pasó* para continuar.`);
-      return;
+        "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
+        "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Podés mandar hasta *5 fotos*, o *1 video " +
+        "de hasta 1 minuto*, o *2-3 videos de máximo 20 segundos* cada uno (van todos a un mismo reel). " +
+        "Cuando termines, contame en *un solo mensaje* qué pasó:\n\n" +
+        "• *Qué* ocurrió\n" +
+        "• *Cuándo* fue\n" +
+        "• *Dónde* fue\n" +
+        "• *Cómo* pasó\n\n" +
+        "(Si te arrepentís, escribí *cancelar*.)");
+    } else {
+      await enviarTexto(waId,
+        `📎 Recibí ${total} archivos hasta ahora (van todos a un mismo reel). Podés mandar más, o ` +
+        `contame *qué pasó* para continuar.`);
     }
-    // Primer archivo → arranca el formulario (3 etapas: qué pasó → datos → autorización).
-    await upsertSesion({ wa_id: waId, paso: "hecho", media_id: JSON.stringify(lista), perfil,
-      nombre: null, celular: null, lugar: null, descripcion: null });
-    await enviarTexto(waId,
-      "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-      "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Podés mandar hasta *5 fotos*, o *1 video " +
-      "de hasta 1 minuto*, o *2-3 videos de máximo 20 segundos* cada uno (van todos a un mismo reel). " +
-      "Cuando termines, contame en *un solo mensaje* qué pasó:\n\n" +
-      "• *Qué* ocurrió\n" +
-      "• *Cuándo* fue\n" +
-      "• *Dónde* fue\n" +
-      "• *Cómo* pasó\n\n" +
-      "(Si te arrepentís, escribí *cancelar*.)");
     return;
   }
 
@@ -385,15 +387,27 @@ Deno.serve(async (req) => {
   // Respondemos 200 enseguida; el procesamiento sigue (Meta reintenta si no hay 200 rápido).
   try {
     const body = JSON.parse(raw);
-    const value = body?.entry?.[0]?.changes?.[0]?.value;
-    const msg = value?.messages?.[0];
-    if (msg) {
-      const perfil = value?.contacts?.[0]?.profile?.name ?? "";
-      console.log(`MENSAJE de ${msg.from} tipo=${msg.type} texto="${msg.text?.body ?? ""}"`);
-      await manejarMensaje(msg, perfil);
-    } else {
-      console.log("POST sin mensaje (status/otro):", JSON.stringify(value?.statuses ?? value).slice(0, 200));
+    // Recorre TODOS los mensajes del webhook (antes solo se procesaba messages[0]: si Meta mandaba
+    // un álbum como un único webhook con varios mensajes, se descartaban todas las fotos menos la
+    // primera). Se procesan SECUENCIALMENTE (await en el loop) → sin carrera dentro de la misma
+    // invocación; y para webhooks concurrentes, el append atómico (addMediaAtomic) protege igual.
+    let algun = false;
+    for (const entry of (body?.entry ?? [])) {
+      for (const change of (entry?.changes ?? [])) {
+        const value = change?.value;
+        const perfil = value?.contacts?.[0]?.profile?.name ?? "";
+        for (const msg of (value?.messages ?? [])) {
+          algun = true;
+          console.log(`MENSAJE de ${msg.from} tipo=${msg.type} texto="${msg.text?.body ?? ""}"`);
+          try {
+            await manejarMensaje(msg, perfil);
+          } catch (e) {
+            console.error("manejarMensaje:", e); // un mensaje que falla no frena a los demás
+          }
+        }
+      }
     }
+    if (!algun) console.log("POST sin mensajes (status/otro).");
   } catch (e) {
     console.error("webhook:", e);
   }
