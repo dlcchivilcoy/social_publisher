@@ -18,19 +18,41 @@ on:
         default: '--dry-run'
 
 # Evita que dos corridas se pisen (importante para no corromper los registros). GitHub deja 1
-# corriendo + 1 en espera por grupo y CANCELA lo que quede "pending". Por eso hay que aislar los
-# flujos que corren seguido para que no se cancelen entre si.
-# TRES grupos:
-#   - 'publicador-radio'  : TODO lo de la radio (*-radio). El cron dispara --transcribe-video-radio
-#                           cada ~10 min → NO debe compartir cola con el desgrabador del diario.
-#   - 'publicador-videos' : desgrabador del DIARIO (transcribe-video / publish-video SIN "radio").
-#                           Antes compartia grupo con la radio: el scan de radio (cada 10 min)
-#                           cancelaba el disparo del Apps Script de un video del diario que estaba
-#                           "pending" → como el Apps Script ya lo marco "visto", NUNCA se reintentaba
-#                           y el video se perdia SIN MAIL. Separar la radio lo arregla. (2026-08-19)
-#   - 'publicador'        : el resto (tapa, farmacias, historias, reel, muro, etc.).
+# corriendo + 1 en espera por grupo y CANCELA lo que quede "pending". Por eso cada PROYECTO tiene
+# su propio grupo: asi el trafico de un flujo (p.ej. el desgrabador de video cada 5 min, o los
+# reels de corresponsales) NUNCA cancela la publicacion de otro (p.ej. la carga de notas a la web).
+# Cada grupo serializa SOLO consigo mismo (para no corromper SU ledger). (2026-08-19)
+# Grupos (el orden importa: gana la primera coincidencia):
+#   - publicador-tapa-farmacias : --tapa-farmacias / --farmacias / --muro-tapa-farmacias / --tapa
+#                                 (+ el cron nativo 0 3 = muro). Comparten los ledgers de tapa/farmacias.
+#   - publicador-radio          : TODO lo de la radio (*-radio): transcribe/publish/placa/editar-*-radio.
+#   - publicador-corresponsales : bot de corresponsales por FOTO (--placa / --placa-publish) y --corresponsales-ranking.
+#                                 (Los VIDEOS de corresponsales usan --transcribe-video → caen en publicador-videos,
+#                                  porque comparten la MISMA cola/ledger que los videos del diario y deben serializar.)
+#   - publicador-yt-seo         : --yt-seo* (SEO de YouTube).
+#   - publicador-yt-desgrabador : --yt-desgrabar (notas de YouTube de Radio del Centro a texto).
+#   - publicador-videos         : desgrabador de VIDEOS del diario (y corresponsales): transcribe/publish-video.
+#   - publicador-notas-web      : --notas-web ("notas para web": Word+foto+video por subcarpeta).
+#   - publicador-historias      : --news-stories / --yt-live / --yt-notes / --canal-story / --sepelios.
+#   - publicador-notas          : carga de notas del diario a WEB/FB/IG: --notes-web / --notes-carousel / --run-now.
+#   - publicador-otros          : el resto manual/raro (--mail, --newsletter, --reel, --repost, --videos-report, --dry-run).
+# Nota anti-falsos-positivos: se usa '-radio' (con guion) para no confundir un email de --uploader
+# que contenga "radio"; y 'corresponsales' (plural) no matchea el --file "corresponsal_..." (singular).
 concurrency:
-  group: ${{ contains(github.event.inputs.args, 'radio') && 'publicador-radio' || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos' || 'publicador' }}
+  group: >-
+    ${{
+    (github.event.schedule == '0 3 * * *') && 'publicador-tapa-farmacias'
+    || contains(github.event.inputs.args, '-radio') && 'publicador-radio'
+    || (contains(github.event.inputs.args, 'placa') || contains(github.event.inputs.args, 'corresponsales')) && 'publicador-corresponsales'
+    || contains(github.event.inputs.args, 'yt-seo') && 'publicador-yt-seo'
+    || contains(github.event.inputs.args, 'yt-desgrabar') && 'publicador-yt-desgrabador'
+    || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos'
+    || contains(github.event.inputs.args, 'notas-web') && 'publicador-notas-web'
+    || (contains(github.event.inputs.args, 'farmacias') || contains(github.event.inputs.args, 'tapa') || contains(github.event.inputs.args, 'muro')) && 'publicador-tapa-farmacias'
+    || (contains(github.event.inputs.args, 'news-stories') || contains(github.event.inputs.args, 'yt-live') || contains(github.event.inputs.args, 'yt-notes') || contains(github.event.inputs.args, 'canal-story') || contains(github.event.inputs.args, 'sepelios')) && 'publicador-historias'
+    || (contains(github.event.inputs.args, 'notes-web') || contains(github.event.inputs.args, 'notes-carousel') || contains(github.event.inputs.args, 'run-now')) && 'publicador-notas'
+    || 'publicador-otros'
+    }}
   cancel-in-progress: false
 
 # Necesario para commitear de vuelta los registros anti-repeticion.
