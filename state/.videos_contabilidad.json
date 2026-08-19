@@ -3378,11 +3378,23 @@
     "texto": "Vuelco de una camioneta en calle 520 e Ituzaingó, en Chivilcoy.",
     "draft_id": "5d7dbf7b-3731-4856-a52a-1ab5471434b8",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-08-19-matias-zucchi-mt.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-19T23:27:13.230Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-19T23:27:13.230Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-19T20:34:58",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vuelco-de-camioneta-en-calle-520-e-ituzaingo-en-chivilcoy",
+    "ig_media_id": "17908359903286145",
+    "fb_video_id": "2574936849644112",
+    "yt_video_id": "pqJRuavkzwI",
+    "yt_url": "https://www.youtube.com/shorts/pqJRuavkzwI"
   }
 ]
