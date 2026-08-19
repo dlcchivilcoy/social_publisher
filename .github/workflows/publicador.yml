@@ -255,13 +255,21 @@ jobs:
       # GitHub no ejecuta ningun paso, asi que este aviso no puede dispararse en ese caso
       # (por eso primero se separo la concurrencia por proyecto: para que casi no haya
       # cancelaciones en cola de las publicaciones).
+      # OJO: cancelled()/failure() SOLO se pueden usar en `if:` (en `env:`/`run:` GitHub las
+      # rechaza con "Unrecognized function" e invalida TODO el workflow -> 422 en el dispatch).
+      # Por eso el resultado se calcula en dos pasos gateados por `if:` que escriben OUTCOME.
+      - name: (aviso) marcar cancelada
+        if: ${{ cancelled() }}
+        run: echo "OUTCOME=cancelada" >> "$GITHUB_ENV"
+      - name: (aviso) marcar fallida
+        if: ${{ failure() }}
+        run: echo "OUTCOME=fallida" >> "$GITHUB_ENV"
       - name: Avisar por mail si fallo o se cancelo (solo publicaciones)
         if: ${{ failure() || cancelled() }}
         env:
           ENV_FILE: ${{ secrets.ENV_FILE }}
           CMD_ARGS: ${{ steps.cmd.outputs.args || github.event.inputs.args }}
-          WAS_CANCELLED: ${{ cancelled() }}
-          WAS_FAILURE: ${{ failure() }}
+          OUTCOME: ${{ env.OUTCOME }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           # Reescribe .env desde el secret por si la corrida fallo ANTES del paso de credenciales.
