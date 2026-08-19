@@ -247,3 +247,23 @@ jobs:
             done
             if [ "$ok" != "1" ]; then echo "No se pudo guardar el estado tras varios intentos."; fi
           fi
+
+      # Aviso por mail si la corrida FALLO o se CANCELO. El script solo avisa para las
+      # corridas de PUBLICACION del diario (notas/historias/tapa-farmacias/notas-web); los
+      # videos/radio/corresponsales/yt ya mandan su propio aviso, asi que se saltean.
+      # LIMITE conocido: si una corrida se cancela mientras esta EN COLA (nunca arranca),
+      # GitHub no ejecuta ningun paso, asi que este aviso no puede dispararse en ese caso
+      # (por eso primero se separo la concurrencia por proyecto: para que casi no haya
+      # cancelaciones en cola de las publicaciones).
+      - name: Avisar por mail si fallo o se cancelo (solo publicaciones)
+        if: ${{ failure() || cancelled() }}
+        env:
+          ENV_FILE: ${{ secrets.ENV_FILE }}
+          CMD_ARGS: ${{ steps.cmd.outputs.args || github.event.inputs.args }}
+          WAS_CANCELLED: ${{ cancelled() }}
+          WAS_FAILURE: ${{ failure() }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          # Reescribe .env desde el secret por si la corrida fallo ANTES del paso de credenciales.
+          printf '%s' "$ENV_FILE" > .env
+          python notificar_corrida.py || echo "notificar_corrida.py no pudo correr (se ignora)."
