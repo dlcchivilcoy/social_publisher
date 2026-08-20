@@ -3611,12 +3611,29 @@
     "zocalo": "Guillermo Britos, Intendente",
     "draft_id": "d1d853c9-dc3e-47a1-8e31-210c571f3696",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-claudia-mt2162hmafwn-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Claudia",
     "corresponsal_celular": "5492346583515",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-20T21:26:33.417Z — wa:5492346583515"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-20T21:26:33.417Z — wa:5492346583515",
+    "fecha_publicado": "2026-08-20T18:43:11",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gestiones-por-seguridad-el-intendente-anuncio-importantes-refuerzos",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"Ag8NCxNXAiy5gf837CDmNHz\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1615419380021891",
+    "yt_video_id": "iRQCDI631Eo",
+    "yt_url": "https://www.youtube.com/shorts/iRQCDI631Eo",
+    "yt_watch_url": "https://www.youtube.com/watch?v=iRQCDI631Eo",
+    "yt_titulo": "El Intendente anunció importantes refuerzos policiales y patrulleros para Chivilcoy",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-20T18:43:11",
+    "yt_metrics": {}
   }
 ]
