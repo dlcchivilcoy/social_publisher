@@ -3505,12 +3505,29 @@
     "zocalo": "Pamela Martino",
     "draft_id": "47b0faea-c5ef-41db-babe-98e7454135bf",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mt1sajqlqe5k-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-20T17:18:06.639Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-20T17:18:06.639Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-20T14:24:31",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mundial-de-ciclismo-pamela-martino-el-mundial-es-el-show-y-detalla-la",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18619197025027903",
+    "fb_video_id": "1542089021296216",
+    "yt_video_id": "oJ7kvmsnlhU",
+    "yt_url": "https://www.youtube.com/shorts/oJ7kvmsnlhU",
+    "yt_watch_url": "https://www.youtube.com/watch?v=oJ7kvmsnlhU",
+    "yt_titulo": "Pamela Martino: \"El Mundial es el show\" y detalla la carrera",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-20T14:24:31",
+    "yt_metrics": {}
   }
 ]
