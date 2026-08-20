@@ -3,6 +3,9 @@ tweepy>=4.14.0
 python-dotenv>=1.0.0
 APScheduler>=3.10.4
 Pillow>=11.0.0
+# ffmpeg con binario estatico incorporado (lo usa video._ffmpeg / avisos_web._ffmpeg_exe para armar
+# los reels). Asi la nube NO tiene que instalar ffmpeg por apt (que a veces se cuelga y tumba la corrida).
+imageio-ffmpeg>=0.6.0
 python-docx>=1.1.0
 openpyxl>=3.1.0
 beautifulsoup4>=4.12.0
