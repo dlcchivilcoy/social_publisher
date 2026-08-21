@@ -62,9 +62,13 @@ permissions:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    # Respaldo: si una corrida se cuelga (apt/rclone/pip/Gemini), que se auto-cancele en 40 min y
-    # libere su grupo, en vez de retenerlo hasta 3 horas y provocar la tormenta de cancelaciones.
-    timeout-minutes: 40
+    # Respaldo anti-cuelgue: si una corrida se traba (rclone/pip/Gemini), que se auto-cancele y libere
+    # su grupo. OJO con bajarlo mucho: el posteo de notas a FB es SERIAL y espaciado (POST_DELAY_SECONDS
+    # entre cada una), asi que una edicion grande tarda ~30-40 min LEGITIMOS — un timeout corto la MATA
+    # a mitad y quedan notas sin postear (paso 2026-08-20/21 con timeout 40 + delay 300s). Con el apt
+    # YA FUERA (ffmpeg viene por pip), no hay cuelgue de apt que justifique un timeout agresivo: 90 min
+    # da margen de sobra para el posteo completo y aun asi corta una corrida realmente trabada.
+    timeout-minutes: 90
     # El runner corre en UTC; con esto Python usa hora de Argentina para
     # date.today()/now() (clave para detectar la "edicion de hoy" y los ledgers diarios).
     env:
