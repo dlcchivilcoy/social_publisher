@@ -844,20 +844,6 @@ def _paste_iso(canvas, x, y, target_h, orange=True) -> int:
     return x + nw
 
 
-def _cover_top(img, box_w, box_h, y_bias=0.28):
-    """Cover-crop que LLENA la caja (foto a sangre, tamaño orgánico) sesgando el
-    recorte hacia arriba (y_bias 0=tope, 0.5=centro) para no cortar caras."""
-    img = img.convert("RGB")
-    sw, sh = img.size
-    scale = max(box_w / sw, box_h / sh)
-    new = img.resize((max(1, round(sw * scale)), max(1, round(sh * scale))), Image.LANCZOS)
-    nw, nh = new.size
-    left = (nw - box_w) // 2
-    top = int((nh - box_h) * y_bias)
-    top = max(0, min(top, nh - box_h))
-    return new.crop((left, top, left + box_w, top + box_h))
-
-
 _face_cascades = None
 
 
@@ -909,72 +895,36 @@ def _caras_principales(faces):
     return [f for f in faces if f[2] * f[3] >= 0.40 * amax]
 
 
-def _region_sujetos(faces, iw, ih):
-    """Rectángulo (x0,y0,x1,y1) que abarca las caras principales + algo de cuerpo (margen
-    generoso hacia abajo), recortado a la imagen. Es la zona 'que importa' de la foto."""
-    x0 = min(f[0] for f in faces); y0 = min(f[1] for f in faces)
-    x1 = max(f[0] + f[2] for f in faces); y1 = max(f[1] + f[3] for f in faces)
-    fh = max(1, y1 - y0)
-    # Márgenes laterales ajustados (poco aire) para que MÁS fotos entren a full-bleed;
-    # abajo generoso para incluir el cuerpo.
-    mx = (x1 - x0) * 0.06 + fh * 0.12
-    rx0 = max(0, x0 - mx); rx1 = min(iw, x1 + mx)
-    ry0 = max(0, y0 - fh * 0.55); ry1 = min(ih, y1 + fh * 1.75)
-    return rx0, ry0, rx1, ry1
-
-
 def _encuadrar(img, box_w, box_h):
-    """Devuelve una imagen box_w×box_h lista para el slide, priorizando las CARAS:
-      1) si un cover a sangre (full-bleed) puede contener la región de los sujetos →
-         cover-crop centrado en ellos (llena el cuadro, caras dentro);
-      2) si no entra → recorta a la región de los sujetos (saca el margen vacío) y la
-         muestra LO MÁS GRANDE POSIBLE sobre un fondo desenfocado de la foto entera
-         (agranda a la gente, en vez de mostrar la foto chica y centrada).
-    Sin caras (paisaje/objeto o cv2 ausente): cover normal con leve sesgo hacia arriba."""
+    """SIEMPRE devuelve un cover a sangre (full-bleed) que LLENA el cuadro, enfocado en las
+    CARAS de los sujetos principales. El recorte se centra en el centro PONDERADO por el
+    tamaño de cada cara (las caras grandes = primer plano pesan más), con aire arriba para
+    no cortar cabezas y dejar ver el cuerpo. Si las caras no entran todas, se recortan las
+    de los extremos priorizando a los sujetos principales (pedido del usuario: las 10 full-
+    bleed). Sin caras (paisaje/objeto o cv2 ausente): cover con leve sesgo hacia arriba."""
     img = img.convert("RGB")
     iw, ih = img.size
+    scale = max(box_w / iw, box_h / ih)  # escala del cover a sangre
+    nw, nh = max(1, round(iw * scale)), max(1, round(ih * scale))
+    resized = img.resize((nw, nh), Image.LANCZOS)
+
     faces = _caras_principales(_detect_faces(img))
     if not faces:
-        return _cover_top(img, box_w, box_h, y_bias=0.20)
-
-    rx0, ry0, rx1, ry1 = _region_sujetos(faces, iw, ih)
-    rw, rh = rx1 - rx0, ry1 - ry0
-    scale = max(box_w / iw, box_h / ih)  # escala del cover a sangre
-    cabe = rw * scale <= box_w and rh * scale <= box_h
-    # Foto MUY ANCHA (panorámica): va full-bleed igual aunque las caras no entren —
-    # una banda quedaría una tira fina con márgenes feos (ej. plantel de fútbol trotando).
-    panoramica = iw / ih >= 1.55
-
-    if cabe or panoramica:
-        # (1) FULL-BLEED A SANGRE centrado en el grupo de caras. Si es panorámica y no
-        # entran todas, se recortan los EXTREMOS (mejor que una banda con márgenes).
-        nw, nh = max(1, round(iw * scale)), max(1, round(ih * scale))
-        resized = img.resize((nw, nh), Image.LANCZOS)
-        cx = ((rx0 + rx1) / 2) * scale
-        cy = ((ry0 + ry1) / 2) * scale
-        left = max(0, min(int(round(cx - box_w / 2)), nw - box_w))
-        top = max(0, min(int(round(cy - box_h / 2)), nh - box_h))
+        left = (nw - box_w) // 2
+        top = max(0, min(int((nh - box_h) * 0.30), nh - box_h))
         return resized.crop((left, top, left + box_w, top + box_h))
 
-    # (2) No cabe y no es panorámica → recorto a los sujetos y los muestro GRANDES, LLENANDO EL ANCHO
-    # (agranda si la foto es chica), sobre un fondo desenfocado de la foto entera.
-    sub = img.crop((int(rx0), int(ry0), int(rx1), int(ry1)))
-    canvas = Image.new("RGB", (box_w, box_h), SLIDE_DARK)
-    bg = _cover(img, box_w, box_h).filter(ImageFilter.GaussianBlur(45))
-    bg = ImageEnhance.Brightness(bg).enhance(0.5)
-    canvas.paste(bg, (0, 0))
-    area_top, area_bottom = 120, 838  # franja de la foto, arriba del título
-    area_h = area_bottom - area_top
-    sw, sh = sub.size
-    sc = box_w / sw                   # llenar TODO el ancho (permite agrandar)
-    if sh * sc > area_h:              # si así queda más alto que la franja, limitar por alto
-        sc = area_h / sh
-    fg = sub.resize((max(1, round(sw * sc)), max(1, round(sh * sc))), Image.LANCZOS)
-    if sc > 1.15:                     # foto chica agrandada: un toque de nitidez
-        fg = fg.filter(ImageFilter.UnsharpMask(radius=2, percent=90, threshold=2))
-    fw, fh = fg.size
-    canvas.paste(fg, ((box_w - fw) // 2, area_top))
-    return canvas
+    # Centro horizontal PONDERADO por el tamaño de cada cara (el/los sujetos principales
+    # pesan más → el recorte los mantiene aunque haya caras chicas hacia un costado).
+    tot = sum(f[2] * f[3] for f in faces)
+    cx = sum((f[0] + f[2] / 2) * f[2] * f[3] for f in faces) / tot
+    y_top = min(f[1] for f in faces)  # tope de las caras (para dejar aire arriba)
+
+    left = max(0, min(int(round(cx * scale - box_w / 2)), nw - box_w))
+    # Caras en el tercio superior: cabezas con aire arriba y cuerpo abajo (aplica a fotos
+    # verticales; en apaisadas el alto ya queda fijo por el cover).
+    top = max(0, min(int(round(y_top * scale - box_h * 0.14)), nh - box_h))
+    return resized.crop((left, top, left + box_w, top + box_h))
 
 
 def _grad_overlay(canvas, top_y, height, color, a_top, a_bottom, gamma=1.5):
