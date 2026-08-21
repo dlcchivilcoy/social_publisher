@@ -3700,12 +3700,29 @@
     "zocalo": "EMILIO GASTÓN AGUIRRE",
     "draft_id": "4905e53f-b49c-4227-9128-0969ea9302f7",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-claudia-roger-mt33zn7gm2zj-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Claudia roger",
     "corresponsal_celular": "5492346583515",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-21T15:33:19.408Z — wa:5492346583515"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-21T15:33:19.408Z — wa:5492346583515",
+    "fecha_publicado": "2026-08-21T12:48:05",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operativo-antidrogas-allanamiento-por-drogas-en-chivilcoy-detuvieron",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "17990143479045162",
+    "fb_video_id": "1064563635929045",
+    "yt_video_id": "Yb8ImUhBrKE",
+    "yt_url": "https://www.youtube.com/shorts/Yb8ImUhBrKE",
+    "yt_watch_url": "https://www.youtube.com/watch?v=Yb8ImUhBrKE",
+    "yt_titulo": "Allanamiento por drogas en Chivilcoy: detuvieron a un hombre y secuestraron cocaína, marihuana y un arma",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-21T12:48:05",
+    "yt_metrics": {}
   }
 ]
