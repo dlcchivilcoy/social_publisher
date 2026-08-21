@@ -1709,6 +1709,14 @@
     "texto": "",
     "zocalo": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_radio_screen-recording-20260821-182918-youtube.mp4",
-    "estado": "solo_reel"
+    "estado": "publicado_solo_reel",
+    "fecha_publicado": "2026-08-21T19:16:31",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido"
+    },
+    "ig_media_id": "17903575962539383",
+    "fb_video_id": "991718553879515"
   }
 ]
