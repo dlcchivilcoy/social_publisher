@@ -382,7 +382,7 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         cmd += (["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"] if audio else ["-an"])
         if max_seconds:
             cmd += ["-t", str(float(max_seconds))]
-        cmd += ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+        cmd += ["-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
         _run_ffmpeg(cmd, "reel vertical")
         return
 
@@ -411,7 +411,7 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         vf += ";[vmain][vplaca]concat=n=2:v=1[vout]"
         maps = ["-map", "[vout]", "-an"]
     cmd = [ff, "-y", *inputs, "-filter_complex", vf, *maps,
-           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+           "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
     _run_ffmpeg(cmd, "reel vertical + placa")
 
 
@@ -485,7 +485,7 @@ def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
           "scale=trunc(iw/2)*2:trunc(ih/2)*2,setsar=1,format=yuv420p")
     cmd = [ff, "-y", "-loop", "1", "-t", f"{float(seg):.3f}", "-i", str(foto),
            "-vf", vf, "-r", str(fps),
-           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+           "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
     _run_ffmpeg(cmd, "foto→clip base")
     logger.info(f"Foto a clip base: {salida} ({float(seg):.0f}s)")
     return Path(salida)
@@ -586,7 +586,7 @@ def best_parts_clip(src, segmentos, salida, *, max_total: float = 60.0) -> Path 
         # -ss DESPUÉS de -i = corte preciso al frame (el tramo arranca/termina donde dijo Gemini).
         cmd = [ff, "-y", "-i", str(src), "-ss", str(ini), "-t", str(d),
                "-vf", vf, "-af", af,
-               "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-ar", "44100", str(out)]
+               "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-c:a", "aac", "-ar", "44100", str(out)]
         try:
             _run_ffmpeg(cmd, f"tramo {i}")
             partes.append(out)
@@ -607,7 +607,7 @@ def best_parts_clip(src, segmentos, salida, *, max_total: float = 60.0) -> Path 
             _run_ffmpeg(cmd, "unir tramos")
         except Exception:
             cmd = [ff, "-y", "-f", "concat", "-safe", "0", "-i", str(lista),
-                   "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", str(salida)]
+                   "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-c:a", "aac", str(salida)]
             _run_ffmpeg(cmd, "unir tramos (re-encode)")
     logger.info(f"Clip de mejores partes: {salida} ({total:.0f}s, {len(partes)} tramo(s))")
     return salida
@@ -625,7 +625,7 @@ def remux_mp4(src, salida) -> Path:
     try:
         _run_ffmpeg([ff, "-y", "-i", str(src), "-c", "copy", str(salida)], "remux mp4")
     except Exception:
-        _run_ffmpeg([ff, "-y", "-i", str(src), "-c:v", "libx264", "-pix_fmt", "yuv420p",
+        _run_ffmpeg([ff, "-y", "-i", str(src), "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
                      "-c:a", "aac", str(salida)], "re-encode mp4")
     return salida
 
@@ -681,7 +681,7 @@ def build_slideshow(imagenes, salida, *, seg: float = 3.5, fade: float = 0.6, fp
         last = prev
 
     cmd = [ff, "-y", *inputs, "-filter_complex", ";".join(fc), "-map", f"[{last}]",
-           "-r", str(fps), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+           "-r", str(fps), "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
         logger.error("ffmpeg falló:\n" + (r.stderr or "")[-1200:])
