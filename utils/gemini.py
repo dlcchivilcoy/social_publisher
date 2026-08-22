@@ -1094,18 +1094,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
     mime = _mime(media_path)
 
-    # Parte del medio: si es video, se sube a la Files API; si es audio, va inline.
-    file_name = None
-    if media_path.suffix.lower() in _VIDEO_EXT:
-        logger.info(f"Gemini: subiendo video {media_path.name} ({media_path.stat().st_size//1024} KB) a la Files API…")
-        info = _subir_archivo(media_path, mime, key)
-        info = _esperar_activo(info["name"], key)
-        file_name = info["name"]
-        media_part = {"file_data": {"mime_type": mime, "file_uri": info["uri"]}}
-    else:  # audio u otro: inline base64
-        b64 = base64.b64encode(media_path.read_bytes()).decode("ascii")
-        media_part = {"inline_data": {"mime_type": mime, "data": b64}}
-
+    # Fotos de contexto (independientes de la clave).
     img_parts = []
     for img in (image_paths or [])[:3]:
         try:
@@ -1113,22 +1102,61 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
         except Exception as e:
             logger.warning(f"No se pudo adjuntar la foto de contexto {img}: {e}")
 
-    logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
-                f"{len(image_paths or [])} foto(s))…")
-    try:
+    # AUDIO u otro: va INLINE (base64), sin Files API → no hay archivo atado a una clave, así que la
+    # rotación de clave normal es segura (sin riesgo de 403).
+    if media_path.suffix.lower() not in _VIDEO_EXT:
+        b64 = base64.b64encode(media_path.read_bytes()).decode("ascii")
+        media_part = {"inline_data": {"mime_type": mime, "data": b64}}
+        logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
+                    f"{len(image_paths or [])} foto(s))…")
         nota = _generar_nota(media_part, img_parts, extra_text or "", key, model,
                              key_pool=key_pool, legacy_temp=0.4, media_local_path=media_path)
-    finally:
-        if file_name:  # borrar el archivo subido (best-effort)
-            try:
-                requests.delete(f"{API_BASE}/{file_name}?key={key}", timeout=30)
-            except Exception:
-                pass
+        logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
+                    f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
+        return nota
 
-    # nota ya viene normalizada por _generar_nota (_parse_nota).
-    logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
-                f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
-    return nota
+    # VIDEO: la Files API ATA el archivo subido a la clave que lo subió. Por eso subimos Y desgrabamos
+    # con la MISMA clave; si esa clave se queda sin cuota (429) probamos con la SIGUIENTE clave
+    # RE-SUBIENDO el video (NO se puede reusar el archivo con otra clave → 403 PERMISSION_DENIED, el bug
+    # que fallaba «algunos videos» al rotar de clave a mitad del desgrabe). La rotación de MODELO sí
+    # sigue adentro de _generate (misma clave, así el archivo se sigue viendo). La radio pasa
+    # key_pool=[k] (una sola) y rota afuera; el diario (key_pool=None) recorre todo el pool acá.
+    keys_video = list(key_pool) if key_pool else _gemini_keys(key)
+    if not keys_video:
+        keys_video = [key]
+    size_kb = media_path.stat().st_size // 1024
+    ultimo_err = None
+    for idx, k in enumerate(keys_video):
+        file_name = None
+        try:
+            logger.info(f"Gemini: subiendo video {media_path.name} ({size_kb} KB) a la Files API… "
+                        f"(clave {idx + 1}/{len(keys_video)})")
+            info = _subir_archivo(media_path, mime, k)
+            info = _esperar_activo(info["name"], k)
+            file_name = info["name"]
+            media_part = {"file_data": {"mime_type": mime, "file_uri": info["uri"]}}
+            logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
+                        f"{len(image_paths or [])} foto(s))…")
+            nota = _generar_nota(media_part, img_parts, extra_text or "", k, model,
+                                 key_pool=[k], legacy_temp=0.4, media_local_path=media_path)
+            logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — "
+                        f"{nota['titulo']}» | mejor_seg={nota['mejor_momento_seg']:.0f}")
+            return nota
+        except Exception as e:  # noqa: BLE001
+            if _es_cuota(e) and idx < len(keys_video) - 1:
+                logger.warning(f"Gemini sin cuota en la clave {idx + 1}/{len(keys_video)}; "
+                               f"re-subo el video con la siguiente clave…")
+                ultimo_err = e
+                continue
+            raise
+        finally:
+            if file_name:  # borrar el archivo subido con ESA clave (best-effort)
+                try:
+                    requests.delete(f"{API_BASE}/{file_name}?key={k}", timeout=30)
+                except Exception:
+                    pass
+    # Solo se llega acá si se agotaron todas las claves por cuota.
+    raise ultimo_err if ultimo_err is not None else RuntimeError("Gemini: sin claves para el video")
 
 
 # Corrección de la descripción del vecino: NO reescribir/acortar/extender — solo corregir la
