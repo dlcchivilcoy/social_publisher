@@ -3357,13 +3357,30 @@
     "zocalo": "Nicolas Bernal",
     "draft_id": "281fc865-5566-469f-8c7b-fae2f08e2d73",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mt0ct35473q4-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-19T17:16:50.966Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-19T17:16:50.966Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-23T14:36:15",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/robo-en-chivilcoy-robo-en-chivilcoy-ladron-actuo-en-27-segundos-y-con",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "18384755176203048",
+    "fb_video_id": "1110293454654356",
+    "yt_video_id": "lBs6t5uRCpA",
+    "yt_url": "https://www.youtube.com/shorts/lBs6t5uRCpA",
+    "yt_watch_url": "https://www.youtube.com/watch?v=lBs6t5uRCpA",
+    "yt_titulo": "Robo en Chivilcoy: Ladrón actuó en 27 segundos y con información previa",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-23T14:36:15",
+    "yt_metrics": {}
   },
   {
     "file": "corresponsal_2026-08-19_matias-zucchi_mt0q1di17g99",
