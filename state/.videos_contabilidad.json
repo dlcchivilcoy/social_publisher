@@ -4178,12 +4178,29 @@
     "zocalo": "",
     "draft_id": "4ef30289-0dc5-42bb-bdf4-70711c2583e9",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mt7botwxv0gm-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-24T14:19:56.000Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-24T14:19:56.000Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-24T11:28:12",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "omitido"
+    },
+    "ig_media_id": "17969455335126111",
+    "fb_video_id": "1239351072603498",
+    "yt_video_id": "NQaQIlYwNoU",
+    "yt_url": "https://www.youtube.com/shorts/NQaQIlYwNoU",
+    "yt_watch_url": "https://www.youtube.com/watch?v=NQaQIlYwNoU",
+    "yt_titulo": "Operativos de seguridad en Chivilcoy: 26 motos y 2 autos secuestrados",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-24T11:28:12",
+    "yt_metrics": {}
   }
 ]
