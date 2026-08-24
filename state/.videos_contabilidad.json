@@ -4247,12 +4247,29 @@
     "zocalo": "",
     "draft_id": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mt7u3o1tuxto-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-24T22:55:21.064Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-24T22:55:21.064Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-24T20:30:04",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AtsjugzmZoFOPqh3CGiizTF\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "omitido"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1628021602072218",
+    "yt_video_id": "I3wgpveJz28",
+    "yt_url": "https://www.youtube.com/shorts/I3wgpveJz28",
+    "yt_watch_url": "https://www.youtube.com/watch?v=I3wgpveJz28",
+    "yt_titulo": "Operativos de seguridad en Chivilcoy: 26 motos, 2 autos secuestrados y un prófugo",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-24T20:30:04",
+    "yt_metrics": {}
   }
 ]
