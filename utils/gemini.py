@@ -762,6 +762,94 @@ _VERIF_SCHEMA = {
 }
 
 
+# ── ¿Manda el TEXTO del colaborador o el AUDIO? (pedido 2026-08-23) ───────────
+# Si el colaborador ya escribió la info BIEN REDACTADA Y COMPLETA, esa es la FUENTE PRINCIPAL y el
+# audio del video pasa a ser COMPLEMENTO (aporta detalles, citas y color). Si el texto es flaco, se
+# mantiene el comportamiento de siempre (el audio manda). El corte es por cantidad de palabras
+# ÚTILES del aporte: configurable con TEXTO_PRIORITARIO_MIN_PALABRAS; kill-switch TEXTO_PRIORITARIO=0.
+_CTX_ETIQUETAS = ("lugar del hecho:", "descripción aportada por el colaborador:",
+                  "descripcion aportada por el colaborador:")
+
+
+def _palabras_utiles(texto: str) -> int:
+    """Palabras REALES del aporte del colaborador: descuenta las etiquetas que agrega el bot
+    («Lugar del hecho:», «Descripción aportada por el colaborador:») para no inflar la cuenta."""
+    total = 0
+    for linea in (texto or "").splitlines():
+        limpia = linea.strip()
+        bajo = limpia.lower()
+        for etiqueta in _CTX_ETIQUETAS:
+            if bajo.startswith(etiqueta):
+                limpia = limpia[len(etiqueta):]
+                break
+        total += len(limpia.split())
+    return total
+
+
+def _umbral_texto() -> int:
+    try:
+        return max(1, int(get("TEXTO_PRIORITARIO_MIN_PALABRAS") or 60))
+    except ValueError:
+        return 60
+
+
+def _texto_manda(extra_text: str) -> bool:
+    """True si el texto del colaborador alcanza para ser la FUENTE PRINCIPAL de la nota."""
+    if str(get("TEXTO_PRIORITARIO", "1")).strip().lower() in ("0", "no", "false", "off"):
+        return False
+    return _palabras_utiles(extra_text) >= _umbral_texto()
+
+
+# Redacción con el TEXTO del colaborador como fuente principal (el audio complementa).
+_REDACTAR_PROMPT_TEXTO = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy (Argentina). Un "
+    "colaborador mandó un TEXTO ya redactado con la información del hecho y, además, un video del que "
+    "te paso la TRANSCRIPCIÓN. Armá UNA noticia en español rioplatense (es-AR), estilo periodístico, "
+    "tercera persona.\n"
+    "JERARQUÍA DE FUENTES (regla principal):\n"
+    "• El TEXTO DEL COLABORADOR es la FUENTE PRINCIPAL: es información de primera mano y ya viene "
+    "redactada. La nota se apoya en ÉL: respetá sus datos, su enfoque y TODA su información.\n"
+    "• La TRANSCRIPCIÓN del audio es COMPLEMENTARIA: usala para ENRIQUECER la nota (declaraciones "
+    "textuales, precisiones, detalles, color) SOLO cuando aporte algo que el texto no dice.\n"
+    "• Si el texto y el audio se CONTRADICEN, MANDA EL TEXTO del colaborador.\n"
+    "• Si el audio no agrega nada nuevo, la nota puede salir prácticamente solo con el texto: NO "
+    "rellenes ni estires con material del audio que no suma.\n"
+    "REGLA DE ORO — CERO INVENCIÓN: usá ÚNICAMENTE información EXPLÍCITA en alguna de las dos "
+    "fuentes. PROHIBIDO agregar contexto histórico, antecedentes, cifras, fechas, nombres, cargos, "
+    "lugares, campeonatos o récords que NINGUNA de las dos diga. Si no está, NO existe para la nota.\n"
+    "• PROHIBIDO exagerar, dramatizar o endurecer: mantené la magnitud y el tono de las fuentes.\n"
+    "• NÚMEROS: copialos TAL CUAL. NOMBRES PROPIOS y SIGLAS: la grafía la manda el TEXTO del "
+    "colaborador, NO la fonética de la transcripción.\n"
+    "Devolvé EXACTAMENTE estos campos:\n"
+    "- hay_noticia: true si entre las dos fuentes hay una nota REAL; false si no.\n"
+    "- volanta: antetítulo corto (2 a 5 palabras), sin punto final. Vacío si hay_noticia es false.\n"
+    "- titulo: titular claro y fiel (máx ~90 caracteres), sin punto final. Puede ser una cita "
+    "breve y textual. Vacío si false.\n"
+    "- texto: cuerpo en párrafos separados por línea en blanco (\\n\\n). ORDENALO POR TEMAS, no "
+    "minuto a minuto. La extensión la manda el material: si es breve, priorizá FIDELIDAD antes que "
+    "extensión, sin rellenar ni repetir. Vacío si false.\n"
+    "- resumen: resumen para redes (máx 280 caracteres): qué pasó y por qué importa. Vacío si false.\n"
+    "- zocalo: texto del zócalo del reel, MÁXIMO 5 PALABRAS, sin punto ni comillas. PRIORIZÁ "
+    "SIEMPRE el NOMBRE Y APELLIDO de la persona central (quien habla, el entrevistado o el "
+    "protagonista nombrado del hecho), con el cargo solo si entra en las 5 palabras («Juan Pérez, "
+    "intendente»). SOLO si NO hay ninguna persona nombrada, poné de qué se trata el hecho («Choque "
+    "en Ruta 30»). No inventes un nombre; si no se puede confirmar, poné el hecho. Vacío si false.\n"
+    "CRITERIO EDITORIAL: usá comillas solo para frases claras y textuales (de la transcripción o del "
+    "texto); si una frase suena dudosa o cortada, parafraseala. No agregues firma ni autor.\n"
+    + _NEUTRAL_RULE
+) + _SIGLAS_RULE
+
+# Regla extra para el VERIFICADOR cuando el texto del colaborador es la fuente principal: sin esto,
+# el paso 3 BORRA todo lo que no esté en el audio (y se comería justo la info del texto).
+_VERIF_TEXTO_RULE = (
+    "\nIMPORTANTE — HAY DOS FUENTES VÁLIDAS: además de la transcripción, el colaborador aportó un "
+    "TEXTO redactado que es la FUENTE PRINCIPAL (información de primera mano). Un dato está "
+    "RESPALDADO si aparece en CUALQUIERA de las dos. NO elimines lo que dice el texto del colaborador "
+    "por el solo hecho de no estar en el audio. Si las dos se contradicen, MANDA EL TEXTO. Todo lo "
+    "demás (no inventar, no exagerar, privacidad, números y siglas) sigue igual.\n"
+)
+
+
 def _multipaso_on() -> bool:
     """True si la desgrabación en 3 pasos está activa (default). GEMINI_NOTA_MULTIPASO=0 vuelve
     al tiro único legacy."""
@@ -917,13 +1005,21 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
             logger.info(f"  Paso 1b (Groq): transcripción reemplazada por la de Groq ({len(g_txt)} chars).")
             transcripcion = g_txt
 
-    # Paso 2 — redacción anclada (SOLO sobre el texto de la transcripción).
-    r_prompt = _REDACTAR_PROMPT
+    # Paso 2 — redacción anclada. Si el colaborador mandó un texto COMPLETO, ese texto es la fuente
+    # PRINCIPAL y la transcripción COMPLEMENTA; si el texto es flaco (o no hay), manda la transcripción.
+    texto_manda = _texto_manda(extra_text)
+    r_prompt = _REDACTAR_PROMPT_TEXTO if texto_manda else _REDACTAR_PROMPT
     if (instrucciones or "").strip():
         r_prompt += "\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip()
-    if (extra_text or "").strip():
-        r_prompt += "\nDATOS/CONTEXTO que aportó el redactor (podés usarlos como fuente):\n" + extra_text.strip()
-    r_prompt += "\n\nTRANSCRIPCIÓN (única fuente de la nota):\n" + transcripcion
+    if texto_manda:
+        logger.info(f"  Paso 2/3: TEXTO del colaborador como fuente PRINCIPAL "
+                    f"({_palabras_utiles(extra_text)} palabras ≥ {_umbral_texto()}); el audio complementa.")
+        r_prompt += ("\n\nTEXTO DEL COLABORADOR (FUENTE PRINCIPAL):\n" + extra_text.strip() +
+                     "\n\nTRANSCRIPCIÓN DEL AUDIO (fuente COMPLEMENTARIA):\n" + transcripcion)
+    else:
+        if (extra_text or "").strip():
+            r_prompt += "\nDATOS/CONTEXTO que aportó el redactor (podés usarlos como fuente):\n" + extra_text.strip()
+        r_prompt += "\n\nTRANSCRIPCIÓN (única fuente de la nota):\n" + transcripcion
     r_raw = _post_json([{"text": r_prompt}], key, model, _REDACCION_SCHEMA, temperature=0.0,
                        key_pool=key_pool)
     logger.info(f"  Paso 2/3 (redactar): hay_noticia={bool(r_raw.get('hay_noticia'))} · "
@@ -934,10 +1030,19 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
     if bool(r_raw.get("hay_noticia")):
         try:
             borrador = {k: r_raw.get(k, "") for k in ("volanta", "titulo", "texto", "resumen", "zocalo")}
-            ctx = (("\n\nCONTEXTO/TÍTULO (autoridad para la grafía de nombres y siglas):\n"
-                    + extra_text.strip()) if (extra_text or "").strip() else "")
-            v_prompt = (_VERIFICAR_PROMPT + ctx + "\n\nTRANSCRIPCIÓN:\n" + transcripcion +
-                        "\n\nNOTA A VERIFICAR (JSON):\n" + json.dumps(borrador, ensure_ascii=False))
+            if texto_manda:
+                # Con el texto como fuente principal, el verificador tiene que tratarlo como fuente
+                # VÁLIDA: si no, borraría del borrador todo lo que aportó el colaborador y no está
+                # en el audio (justo la información que el usuario quiere priorizar).
+                v_prompt = (_VERIFICAR_PROMPT + _VERIF_TEXTO_RULE +
+                            "\n\nTEXTO DEL COLABORADOR (FUENTE PRINCIPAL):\n" + extra_text.strip() +
+                            "\n\nTRANSCRIPCIÓN (fuente complementaria):\n" + transcripcion +
+                            "\n\nNOTA A VERIFICAR (JSON):\n" + json.dumps(borrador, ensure_ascii=False))
+            else:
+                ctx = (("\n\nCONTEXTO/TÍTULO (autoridad para la grafía de nombres y siglas):\n"
+                        + extra_text.strip()) if (extra_text or "").strip() else "")
+                v_prompt = (_VERIFICAR_PROMPT + ctx + "\n\nTRANSCRIPCIÓN:\n" + transcripcion +
+                            "\n\nNOTA A VERIFICAR (JSON):\n" + json.dumps(borrador, ensure_ascii=False))
             v_raw = _post_json([{"text": v_prompt}], key, model, _VERIF_SCHEMA, temperature=0.0,
                                key_pool=key_pool)
             correcciones = [str(c).strip() for c in (v_raw.get("correcciones") or []) if str(c).strip()]
@@ -977,8 +1082,16 @@ def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, 
     if (instrucciones or "").strip():
         prompt += "\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip()
     if (extra_text or "").strip():
-        prompt += ("\nDATOS/CONTEXTO que aportó el redactor (tenelo MUY en cuenta para la nota):\n"
-                   + extra_text.strip())
+        if _texto_manda(extra_text):
+            # Texto completo del colaborador → es la FUENTE PRINCIPAL; el video complementa.
+            prompt += ("\nTEXTO DEL COLABORADOR — ES LA FUENTE PRINCIPAL de la nota: respetá SU "
+                       "información, sus datos y su enfoque. El audio/video COMPLEMENTA (detalles, "
+                       "citas y color) y NO puede contradecirlo; si se contradicen, MANDA EL TEXTO. "
+                       "Si el video no agrega nada, la nota sale prácticamente solo con el texto:\n"
+                       + extra_text.strip())
+        else:
+            prompt += ("\nDATOS/CONTEXTO que aportó el redactor (tenelo MUY en cuenta para la nota):\n"
+                       + extra_text.strip())
     raw = _post_generate([{"text": prompt}, media_part] + list(img_parts), key, model,
                          temperature=legacy_temp, key_pool=key_pool)
     return _parse_nota(raw)
