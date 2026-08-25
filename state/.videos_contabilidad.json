@@ -4308,5 +4308,25 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-25T12:01:20",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-08-25_matias-zucchi_mt8u5bsz95rq",
+    "uploader": "",
+    "fecha_recibido": "2026-08-25T12:47:25",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "",
+    "titulo": "Accidente en Chivilcoy: motociclista trasladado tras colisión en 25 de Mayo y Ayacucho",
+    "resumen": "Accidente en 25 de Mayo y Ayacucho: un motociclista fue trasladado. Un siniestro vial se registró en la intersección de 25 de Mayo y Ayacucho, en Chivilcoy, donde colisionaron una camioneta Volkswagen Amarok, dominio AF594SE, conducida por Federico Vega, y una motocicleta Zanella 110, dominio A123VFL, conducida por Oscar Livase.",
+    "texto": "Accidente en 25 de Mayo y Ayacucho: un motociclista fue trasladado. Un siniestro vial se registró en la intersección de 25 de Mayo y Ayacucho, en Chivilcoy, donde colisionaron una camioneta Volkswagen Amarok, dominio AF594SE, conducida por Federico Vega, y una motocicleta Zanella 110, dominio A123VFL, conducida por Oscar Livase. Tras el impacto, intervino personal de emergencias y Livase fue trasladado por el móvil 2 del SAME, a cargo de Miguelisi, para su correspondiente atención médica.",
+    "draft_id": "e415e933-6587-4b1b-8f7c-2966999c554e",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-08-25-matias-zucchi-mt.mp4",
+    "estado": "borrador_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-25T15:44:24.995Z — wa:5492346417636"
   }
 ]
