@@ -180,10 +180,14 @@ def _safe_stem(text: str, fallback: str) -> str:
 
 
 def compose_foto_reel(photo_path: Path) -> Path:
-    """La foto TAL CUAL encuadrada a 9:16 (se ve entera, con fondo desenfocado), SIN texto
-    ni gráfica. Para armar un reel a partir de la foto del editor."""
+    """La foto encuadrada a 9:16, SIN texto ni gráfica, para armar un reel con la/s foto/s
+    del editor. Por defecto va FULL BLEED: LLENA el cuadro, recortada y centrada en el
+    sujeto (`_encuadrar`, el mismo criterio que las placas del carrusel). Con
+    `REEL_FULLBLEED=0` vuelve al modo anterior (foto entera sobre fondo desenfocado)."""
+    from utils.config import get
     img = Image.open(photo_path)
-    canvas = _fit_blur(img, W, H)
+    full = str(get("REEL_FULLBLEED") or "1").strip().lower() not in ("0", "no", "false", "off")
+    canvas = _encuadrar(img, W, H) if full else _fit_blur(img, W, H)
     return _save(canvas, _safe_stem(Path(photo_path).stem, "foto_reel"))
 
 

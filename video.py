@@ -316,10 +316,70 @@ def concat_videos(paths, salida, *, w: int = 1080, h: int = 1920):
     return salida
 
 
+def _fullbleed_on() -> bool:
+    """Full bleed: el video/foto LLENA el cuadro 9:16 (sin franjas ni fondo borroso),
+    recortado y encuadrado en el sujeto. `REEL_FULLBLEED=0` vuelve al fondo difuminado."""
+    return str(_cfg("REEL_FULLBLEED", "1")).strip().lower() not in ("0", "no", "false", "off")
+
+
+def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: Path):
+    """Devuelve (nw, nh, x, y): a cuánto escalar el video para LLENAR 1080x1920 y desde
+    dónde recortarlo, ENCUADRADO EN EL SUJETO.
+
+    Busca caras en 3 fotogramas (reusa el detector de las placas) y se queda con el
+    fotograma más representativo (el de mayor superficie de caras). El recorte se centra
+    en el centro PONDERADO por el tamaño de cada cara (el primer plano pesa más) y deja
+    aire arriba para no cortar cabezas. Sin caras (paisaje/objeto) o ante cualquier error:
+    recorte centrado con leve sesgo hacia arriba (mismo criterio que `story_image._encuadrar`)."""
+    W, H = 1080, 1920
+    escala = max(W / max(1, cont_w), H / max(1, cont_h))
+    nw = max(W, int(round(cont_w * escala)))
+    nh = max(H, int(round(cont_h * escala)))
+    x = (nw - W) // 2
+    y = max(0, min(int((nh - H) * 0.30), nh - H))
+    try:
+        from PIL import Image
+        from story_image import _caras_principales, _detect_faces  # detector de las placas
+        dur = duration_seconds(src) or 0.0
+        momentos = [dur * f for f in (0.25, 0.5, 0.75)] if dur > 1 else [0.0]
+        mejor = []
+        for i, seg in enumerate(momentos):
+            tmp = work_dir / f"_enc_{i}_{src.stem[:20]}.jpg"
+            try:
+                frame_at(src, seg, tmp)
+                img = Image.open(tmp)
+                if recorte:  # mirar SOLO el contenido real (sin las barras negras)
+                    rw, rh, rx, ry = recorte
+                    img = img.crop((rx, ry, rx + rw, ry + rh))
+                caras = _caras_principales(_detect_faces(img))
+                if caras and sum(c[2] * c[3] for c in caras) > sum(c[2] * c[3] for c in mejor):
+                    mejor = caras
+            except Exception:
+                continue
+            finally:
+                try:
+                    tmp.unlink()
+                except Exception:
+                    pass
+        if mejor:
+            tot = sum(c[2] * c[3] for c in mejor)
+            cx = sum((c[0] + c[2] / 2) * c[2] * c[3] for c in mejor) / tot
+            y_top = min(c[1] for c in mejor)
+            x = max(0, min(int(round(cx * escala - W / 2)), nw - W))
+            y = max(0, min(int(round(y_top * escala - H * 0.14)), nh - H))
+            logger.info(f"Encuadre full bleed: {len(mejor)} cara(s) detectada(s) → recorte x={x} y={y}")
+        else:
+            logger.info("Encuadre full bleed: sin caras (paisaje/objeto) → recorte centrado.")
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude calcular el encuadre del sujeto ({e}); recorte centrado.")
+    return nw, nh, x, y
+
+
 def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
                 firma: str | None, fondo: Path | None, logo_png: Path | None,
                 overlay: Path | None, placa: Path | None, seg_placa: float,
-                recorte: tuple[int, int, int, int] | None = None) -> None:
+                recorte: tuple[int, int, int, int] | None = None,
+                encuadre: tuple[int, int, int, int] | None = None) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada. Si `recorte` (w,h,x,y) viene dado, primero
@@ -331,15 +391,22 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     # contenido real es lo que se escala y el fondo naranja ocupa donde estaba el negro.
     pre = f"[0:v]crop={recorte[0]}:{recorte[1]}:{recorte[2]}:{recorte[3]}[src0];" if recorte else ""
     v0 = "[src0]" if recorte else "[0:v]"
-    # Fondo: el propio video escalado a llenar + recortado + desenfocado.
-    # Primer plano: el video escalado a entrar dentro de 1080x1920. Se superponen.
-    vf = (
-        f"{pre}{v0}split=2[bg][fg];"
-        "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-        "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
-        "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fgs];"
-        "[bgb][fgs]overlay=(W-w)/2:(H-h)/2[v]"
-    )
+    if encuadre:
+        # FULL BLEED: el video LLENA el cuadro 9:16 (nada de franjas ni fondo borroso). Se
+        # escala hasta cubrir y se recorta en el punto que calculó `_encuadre_fullbleed`
+        # (centrado en el sujeto/las caras, con aire arriba).
+        nw, nh, cx, cy = encuadre
+        vf = f"{pre}{v0}scale={nw}:{nh},setsar=1,crop=1080:1920:{cx}:{cy}[v]"
+    else:
+        # Fondo: el propio video escalado a llenar + recortado + desenfocado.
+        # Primer plano: el video escalado a entrar dentro de 1080x1920. Se superponen.
+        vf = (
+            f"{pre}{v0}split=2[bg][fg];"
+            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+            "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
+            "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fgs];"
+            "[bgb][fgs]overlay=(W-w)/2:(H-h)/2[v]"
+        )
     out_label = "[v]"
     inputs = ["-i", str(src)]
     n_in = 1  # cuántos INPUTS lleva ffmpeg (no alcanza con contar los argumentos)
@@ -448,8 +515,11 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     recorte = detectar_recorte(src)
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
     fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
+    # Full bleed: el video llena el 9:16, encuadrado en el sujeto (ver `_encuadre_fullbleed`).
+    encuadre = (_encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
+                if _fullbleed_on() else None)
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
-                 seg_placa=seg_placa, recorte=recorte)
+                 seg_placa=seg_placa, recorte=recorte, encuadre=encuadre)
     try:
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
     except Exception as e:
@@ -460,12 +530,13 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         logger.warning(f"El reel con marca falló ({e}); lo rehago pelado.")
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
                     fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
-                    recorte=None)
+                    recorte=None, encuadre=None)
         marca = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
-                     recorte=None)
+                     recorte=None, encuadre=None)
     logger.info(
         f"Reel vertical armado: {salida}"
         + (f" (recortado a {max_seconds}s)" if max_seconds else "")
+        + (" + full-bleed" if marca["encuadre"] else "")
         + (" + recorte-negro" if marca["recorte"] else "")
         + (" + fondo" if marca["fondo"] else "")
         + (" + logo" if marca["logo_png"] else "")
@@ -476,14 +547,27 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
 
 
 def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
-    """Loopea una FOTO a un .mp4 de `seg` segundos, sin audio, escalada para entrar en
-    1080x1920 (a su proporción, sin recortar) y con dimensiones pares (libx264). Sirve
-    de 'video fuente' para pasarlo por `to_vertical_reel` y que reciba EXACTAMENTE el
-    mismo branding que los videos (fondo naranja + logo + overlay + placa)."""
+    """Loopea una FOTO a un .mp4 de `seg` segundos, sin audio. Con full bleed (default) la
+    foto se recorta a 9:16 LLENANDO el cuadro y encuadrada en el sujeto (caras) con
+    `story_image._encuadrar`; si está apagado, se escala para entrar (a su proporción).
+    Sirve de 'video fuente' para pasarlo por `to_vertical_reel` y que reciba EXACTAMENTE
+    el mismo branding que los videos (logo + overlay + placa)."""
     ff = _ffmpeg()
+    fuente = Path(foto)
+    if _fullbleed_on():
+        try:
+            from PIL import Image
+            from story_image import _encuadrar  # cover a sangre enfocado en el sujeto
+            enc = _encuadrar(Image.open(fuente), 1080, 1920)
+            fb = Path(salida).parent / f"_fb_{Path(salida).stem}.jpg"
+            enc.save(fb, quality=92)
+            fuente = fb
+            logger.info("Foto encuadrada full bleed (9:16, centrada en el sujeto).")
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"No pude encuadrar la foto full bleed ({e}); la dejo entera.")
     vf = ("scale=1080:1920:force_original_aspect_ratio=decrease,"
           "scale=trunc(iw/2)*2:trunc(ih/2)*2,setsar=1,format=yuv420p")
-    cmd = [ff, "-y", "-loop", "1", "-t", f"{float(seg):.3f}", "-i", str(foto),
+    cmd = [ff, "-y", "-loop", "1", "-t", f"{float(seg):.3f}", "-i", str(fuente),
            "-vf", vf, "-r", str(fps),
            "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
     _run_ffmpeg(cmd, "foto→clip base")
