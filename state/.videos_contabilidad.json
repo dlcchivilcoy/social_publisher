@@ -4284,12 +4284,29 @@
     "zocalo": "Aumento empleados municipales",
     "draft_id": "866d2b10-dae5-4888-b152-3d786deb62e0",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mt8sapp09b61-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-25T14:52:37.093Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-25T14:52:37.093Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-25T12:01:20",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/acuerdo-salarial-anuncian-aumento-del-5-para-empleados-municipales",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok"
+    },
+    "ig_media_id": "17881178565620214",
+    "fb_video_id": "2870932813270423",
+    "yt_video_id": "_UQd3DHvzgc",
+    "yt_url": "https://www.youtube.com/shorts/_UQd3DHvzgc",
+    "yt_watch_url": "https://www.youtube.com/watch?v=_UQd3DHvzgc",
+    "yt_titulo": "Anuncian aumento del 5% para empleados municipales",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-25T12:01:20",
+    "yt_metrics": {}
   }
 ]
