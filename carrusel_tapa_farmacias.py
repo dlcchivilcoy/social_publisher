@@ -16,6 +16,7 @@ import farmacias as farm
 import tapa as tapa_mod
 from platforms import facebook, instagram
 from story_image import compose_tapa_story
+from utils.branding import sitio_web
 from utils.config import get
 from utils.logger import get_logger
 
@@ -145,7 +146,7 @@ def _avisar_fallo_publicacion(hoy: date, combos: list[str]) -> None:
 
 
 def _site() -> str:
-    return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
+    return sitio_web()
 
 
 def _platforms() -> list[str]:

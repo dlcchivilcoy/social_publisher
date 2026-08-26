@@ -36,6 +36,7 @@ from urllib.parse import quote
 import requests
 
 from platforms import facebook, instagram, wix
+from utils.branding import sitio_web
 from utils.config import get
 from utils.gemini import transcribe_to_nota
 from utils.logger import get_logger
@@ -54,7 +55,7 @@ REEL_MAX_SIN_NOTICIA = 60  # segundos: tope del reel cuando no se pudo desgrabar
 
 # ── Helpers de entorno ────────────────────────────────────────────────────────
 def _site() -> str:
-    return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
+    return sitio_web()
 
 
 def _platforms() -> list[str]:
@@ -886,19 +887,14 @@ _HASHTAGS_LOCALES = _HASHTAGS_FIJOS  # compat con el código viejo
 
 
 def _sitio_ok(texto: str) -> str:
-    """Corrige el dominio del diario escrito MAL.
+    """Corrige el dominio del diario escrito MAL, en cualquier texto.
 
     La bajada la redacta Gemini y a veces escribe el dominio sin la Ñ («diariolacampana»,
-    «diariolacampaa»), en punycode («xn--diariolacampaa-2nb») o sin el `.ar`. Acá se
-    normaliza TODO a `www.diariolacampaña.com.ar`, que es como se lee bien en las redes."""
-    if not texto:
-        return texto
-    bueno = _site()
-    # Cualquier variante del dominio, con o sin http/www, con la Ñ escrita de cualquier forma.
-    patron = (r"(?:https?://)?(?:www\.)?"
-              r"(?:diariolacampa(?:ñ|n|ni|ny)?a|xn--diariolacampaa-2nb)"
-              r"\.com(?:\.ar)?/?")
-    return re.sub(patron, bueno, texto, flags=re.IGNORECASE)
+    «diariolacampaa»), en punycode («xn--diariolacampaa-2nb»), mal codificado
+    («diariolacampaÃ±a») o sin el `.ar`. La regla vive en `utils.branding` para que sea
+    la MISMA en todo el sistema; acá solo se aplica."""
+    from utils.branding import normalizar_sitio
+    return normalizar_sitio(texto)
 
 
 def _en_parrafos(texto: str, oraciones_por_parrafo: int = 2) -> str:

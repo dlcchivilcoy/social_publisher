@@ -1,5 +1,34 @@
 """Marca / llamadas a la acción compartidas por todas las publicaciones."""
+import re
+
 from utils.config import get
+from utils.texto import reparar_mojibake
+
+# Dominio del diario: ÚNICA fuente de verdad. Todo lo que se publica (redes, web,
+# YouTube, TikTok, placas) sale de acá y no de una constante suelta por archivo.
+SITIO_CANONICO = "www.diariolacampaña.com.ar"
+
+# Cualquier forma en la que el dominio puede aparecer MAL escrito:
+#   • sin la Ñ:        diariolacampana / diariolacampaa / diariolacampania
+#   • mal codificado:  diariolacampaÃ±a   (UTF-8 leído como Latin-1)
+#   • en punycode:     xn--diariolacampaa-2nb   (así lo devuelve Wix)
+#   • sin el .ar, con o sin http://, con o sin www.
+_RE_DOMINIO = re.compile(
+    r"(?:https?://)?(?:www\.)?"
+    r"(?:diariolacampa(?:ñ|Ñ|Ã±|Ã‘|ni|ny|n)?a|xn--diariolacampaa-2nb)"
+    r"\.com(?:\.ar)?/?",
+    re.IGNORECASE,
+)
+
+
+def normalizar_sitio(texto: str) -> str:
+    """Reescribe cualquier variante del dominio del diario a la forma canónica.
+
+    Se aplica a lo que redacta la IA (que a veces escribe el dominio sin la Ñ) y a
+    lo que sale del `.env` (que puede llegar mal codificado desde el secret)."""
+    if not texto:
+        return texto
+    return _RE_DOMINIO.sub(SITIO_CANONICO, reparar_mojibake(texto))
 
 
 def canal_yt_url() -> str:
@@ -14,8 +43,12 @@ def linea_canal_yt() -> str:
 
 
 def sitio_web() -> str:
-    """Dominio del diario, BIEN escrito (con la Ñ). Configurable en STORY_SITE_URL."""
-    return (get("STORY_SITE_URL") or "www.diariolacampaña.com.ar").strip()
+    """Dominio del diario, BIEN escrito (con la Ñ). Configurable en STORY_SITE_URL.
+
+    Nunca devuelve el valor crudo: lo pasa por `normalizar_sitio`, así una Ñ rota o
+    un punycode en el `.env` NO puede terminar publicado. Si `STORY_SITE_URL` apunta
+    a otro dominio distinto del diario, se respeta tal cual."""
+    return normalizar_sitio((get("STORY_SITE_URL") or "").strip()) or SITIO_CANONICO
 
 
 def cierre_youtube(hashtags: str = "") -> str:

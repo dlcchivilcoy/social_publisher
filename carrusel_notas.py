@@ -22,7 +22,7 @@ from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
                        _save_ledger)
 from story_image import compose_note_slide
-from utils.branding import linea_canal_yt
+from utils.branding import linea_canal_yt, sitio_web
 from utils.config import get
 from utils.logger import get_logger
 
@@ -337,7 +337,7 @@ def _fecha_larga(d: date) -> str:
 
 
 def _site() -> str:
-    return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
+    return sitio_web()
 
 
 def _platforms() -> list[str]:

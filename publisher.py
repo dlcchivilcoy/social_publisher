@@ -6,6 +6,7 @@ from PIL import Image
 
 from file_scanner import find_notes
 from platforms import facebook, instagram, twitter, wix
+from utils.branding import sitio_web
 from utils.config import get
 from utils.logger import get_logger
 
@@ -109,7 +110,7 @@ def _hashtags(note: dict) -> str:
 
 
 def _site_url() -> str:
-    return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
+    return sitio_web()
 
 
 def _fb_link_en_comentario() -> bool:

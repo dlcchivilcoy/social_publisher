@@ -41,8 +41,8 @@ def _fecha_larga(d: date) -> str:
 
 
 def _site() -> str:
-    from utils.config import get
-    return get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
+    from utils.branding import sitio_web
+    return sitio_web()
 
 
 def _platforms() -> list[str]:

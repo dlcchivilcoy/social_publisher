@@ -19,6 +19,7 @@ from platforms import facebook, instagram
 from publisher import _resumen
 from story_image import (compose_canal_story, compose_note_story,
                          compose_youtube_resumen_story, compose_youtube_story)
+from utils.branding import sitio_web
 from utils.config import get
 from utils.logger import get_logger
 
@@ -88,7 +89,7 @@ def _save_set(path: Path, keys: set[str]) -> None:
 def run_news_stories(posts_folder: Path, allowed_pages: set[int], dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     logger.info(f"=== Historias de noticias [{modo}] ===")
-    site_url = get("STORY_SITE_URL") or "www.diariolacampaña.com.ar"
+    site_url = sitio_web()
 
     notes = find_notes(posts_folder, allowed_pages)
     if not notes:

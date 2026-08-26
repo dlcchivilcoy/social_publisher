@@ -6,6 +6,7 @@ from pathlib import Path
 
 import requests
 
+from utils.branding import sitio_web
 from utils.config import get
 from utils.image_host import upload_to_imgbb
 from utils.logger import get_logger
@@ -52,7 +53,7 @@ def _marca() -> str:
 
 def _sitio_url() -> str:
     """URL canónica del sitio (con https). Configurable; usa el dominio con ñ."""
-    raw = (get("STORY_SITE_URL") or "www.diariolacampaña.com.ar").strip()
+    raw = sitio_web()
     raw = re.sub(r"^https?://", "", raw).strip("/")
     return f"https://{raw}"
 
