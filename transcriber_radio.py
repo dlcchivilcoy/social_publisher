@@ -398,8 +398,12 @@ def run_publish_video_radio(file: str = "", dry_run: bool = False) -> None:
         except Exception as e:  # noqa: BLE001
             estado["youtube"] = f"falló: {e}"
             logger.error(f"[youtube] Short FALLÓ tras reintentos: {e}")
+
     elif hay and not _yt_enabled():
         logger.info("[youtube] desactivado (YT_RADIO_SHORTS_ENABLED=0).")
+
+    # TikTok: el reel de la radio va a la MISMA cuenta de TikTok (pedido del usuario).
+    tr._publicar_tiktok(local_reel, caption, estado)
 
     fila.update({
         "estado": "publicado" if hay else "publicado_solo_reel",
@@ -551,6 +555,7 @@ def run_placa_radio_publish(folder: str = "", dry_run: bool = False) -> None:
             logger.info("[facebook] reel OK")
         except Exception as e:  # noqa: BLE001
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
+    tr._publicar_tiktok(local_reel, caption, estado)
 
     fila.update({"estado": "publicado_placa",
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),

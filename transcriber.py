@@ -807,6 +807,35 @@ def _yt_enabled() -> bool:
     return (get("YT_SHORTS_ENABLED") or "1").strip().lower() not in ("0", "false", "no", "off")
 
 
+def _tiktok_enabled() -> bool:
+    """TikTok va PRENDIDO por defecto, pero solo si están cargadas las credenciales (así, en un
+    entorno sin ellas, el reel igual sale al resto de las redes). `TIKTOK_ENABLED=0` lo apaga."""
+    if (get("TIKTOK_ENABLED") or "1").strip().lower() in ("0", "false", "no", "off"):
+        return False
+    return bool(get("TIKTOK_CLIENT_KEY") and get("TIKTOK_CLIENT_SECRET"))
+
+
+def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
+    """Publica el reel en TikTok (Direct Post; si la app no tuviera el permiso, cae a
+    borradores). Nunca corta la corrida: si falla, se anota en el panel y sigue."""
+    if not (_tiktok_enabled() and local_reel):
+        if local_reel and not _tiktok_enabled():
+            logger.info("[tiktok] desactivado (TIKTOK_ENABLED=0 o sin credenciales).")
+        return {}
+    try:
+        from platforms import tiktok
+        res = _retry(lambda: tiktok.publish(local_reel, caption), etiqueta="[tiktok] publicar reel")
+        modo = (res or {}).get("modo", "")
+        estado_canales["tiktok"] = "ok" if modo == "directo" else "en borradores"
+        logger.info(f"[tiktok] {'PUBLICADO' if modo == 'directo' else 'enviado a borradores'} "
+                    f"(publish_id={(res or {}).get('publish_id', '')})")
+        return res or {}
+    except Exception as e:  # noqa: BLE001
+        estado_canales["tiktok"] = f"falló: {e}"
+        logger.error(f"[tiktok] FALLÓ tras reintentos: {e}")
+        return {}
+
+
 def _yt_creds():
     """Canal de YouTube al que van los Shorts del desgrabador del diario. `YT_SHORTS_CANAL=radio` →
     canal RADIO DEL CENTRO (token `YT_TOKEN_JSON`; su scope force-ssl permite subir); cualquier otro
@@ -1023,7 +1052,7 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     plats = _platforms()
     # Estado de publicación por canal (el «panel» que pide el flujo: IG/FB/YouTube/Wix).
     estado_canales = {"instagram": "omitido", "facebook": "omitido",
-                      "youtube": "omitido", "wix": "omitido"}
+                      "youtube": "omitido", "tiktok": "omitido", "wix": "omitido"}
 
     # Bajamos el reel UNA sola vez (lo reusan Facebook y YouTube).
     local_reel = None
@@ -1076,6 +1105,9 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
             logger.error(f"[youtube] Short FALLÓ tras reintentos: {e}")
     elif hay and not _yt_enabled():
         logger.info("[youtube] desactivado (YT_SHORTS_ENABLED=0).")
+
+    # 3.5) TikTok (mismo archivo vertical): publicación DIRECTA en el perfil.
+    _publicar_tiktok(local_reel, caption, estado_canales)
 
     # 4) Nota web: embeber el YouTube (si salió) y PUBLICAR (al final del flujo). `sin_web` (corresponsal
     # sin desgrabar) tiene borrador SOLO para editar/borrar el texto → NO se publica en la web.
@@ -1337,6 +1369,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             logger.info("[facebook] reel OK")
         except Exception as e:
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
+    # 4) TikTok (publicación directa en el perfil).
+    _publicar_tiktok(reel_local, caption, estado)
 
     rows = _leer_ledger()
     f2 = _buscar_fila(rows, fila["file"])
@@ -1570,6 +1604,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             logger.info("[facebook] reel OK")
         except Exception as e:
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
+    # 5) TikTok (publicación directa en el perfil).
+    _publicar_tiktok(reel_local, caption, estado)
 
     fila.update({"estado": "publicado_placa", "post_url": post_url,
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
