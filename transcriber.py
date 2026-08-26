@@ -1002,9 +1002,11 @@ def _yt_creds():
 
 
 def _hashtag(palabra: str) -> str:
-    """Convierte 'radio del centro' → '#RadioDelCentro' (sin acentos/espacios)."""
+    """Convierte 'radio del centro' → '#RadioDelCentro' (sin acentos/espacios).
+    Las SIGLAS se respetan tal cual: 'RCP' → '#RCP' (no '#Rcp')."""
     limpio = re.sub(r"[^0-9A-Za-zñÑáéíóúÁÉÍÓÚ ]+", "", palabra or "").strip()
-    return "#" + "".join(p.capitalize() for p in limpio.split())
+    return "#" + "".join(p if (p.isupper() and len(p) > 1) else p.capitalize()
+                         for p in limpio.split())
 
 
 def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:

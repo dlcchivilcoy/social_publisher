@@ -25,6 +25,27 @@ PROPUESTAS = OUT_DIR / "propuestas.json"
 LEDGER = Path(__file__).parent / ".yt_seo.json"  # IDs ya procesados por el modo auto
 
 
+def _descripcion_final(desc_gemini: str, tags=None) -> str:
+    """Descripción que se sube a YouTube: el texto de Gemini + el CIERRE FIJO (web + canal) y
+    los HASHTAGS AL FINAL DE TODO (pedido 2026-08-26).
+
+    Gemini escribe SOLO el cuerpo: las direcciones las pone el código (cuando las escribía la
+    IA, el dominio salía sin la Ñ). Si el cuerpo trae hashtags o el dominio mal, se limpian."""
+    import re
+
+    from transcriber import _en_parrafos, _hashtag, _linea_hashtags, _quitar_hashtags, _sitio_ok
+    from utils.branding import cierre_youtube
+    cuerpo = _sitio_ok(_quitar_hashtags(desc_gemini or ""))
+    # Si Gemini igual dejó su propia invitación a la web, se saca: el cierre fijo ya la trae
+    # (si no, la llamada a la acción quedaba DUPLICADA en la descripción).
+    cuerpo = "\n".join(l for l in cuerpo.splitlines()
+                       if not re.search(r"diariolacampa\S*\.com", l, re.IGNORECASE)
+                       or len(re.sub(r"\S*diariolacampa\S*", "", l).split()) > 6).strip()
+    topicos = [h for h in (_hashtag(str(t)) for t in (tags or [])) if len(h) > 2]
+    return "\n\n".join(x for x in (_en_parrafos(cuerpo),
+                                   cierre_youtube(_linea_hashtags(topicos))) if x)
+
+
 def _leer_ledger() -> set:
     try:
         if LEDGER.exists():
@@ -104,7 +125,7 @@ def run_generate(limit: int = 15, dry_run: bool = False) -> None:
             "descripcion_actual": v["description"],
             "tags_actuales": v.get("tags", []),
             "titulo_nuevo": seo["titulo"],
-            "descripcion_nueva": seo["descripcion"],
+            "descripcion_nueva": _descripcion_final(seo["descripcion"], seo.get("tags")),
             "tags_nuevos": seo["tags"],
             "miniatura": "",
             "aplicar": prev.get("aplicar", False),
@@ -195,7 +216,7 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
             "descripcion_actual": v["description"],
             "tags_actuales": v.get("tags", []),
             "titulo_nuevo": seo["titulo"],
-            "descripcion_nueva": seo["descripcion"],
+            "descripcion_nueva": _descripcion_final(seo["descripcion"], seo.get("tags")),
             "tags_nuevos": seo["tags"],
             "miniatura": "",
             "aplicar": True,
@@ -208,7 +229,9 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
             continue
 
         try:
-            youtube_api.update_video_metadata(vid, seo["titulo"], seo["descripcion"], seo["tags"])
+            youtube_api.update_video_metadata(
+                vid, seo["titulo"], _descripcion_final(seo["descripcion"], seo.get("tags")),
+                seo["tags"])
         except Exception as e:
             logger.error(f"    Falló el update de {vid}: {e}")
             _guardar_propuestas(data)
