@@ -759,7 +759,7 @@ def run_watchdog(dry_run: bool = False) -> None:
     lineas = [f"Hay {len(pendientes)} trabajo(s) del desgrabador que NO terminaron bien.", ""]
     for t in pendientes[:25]:
         estado = "TRABADO (arrancó y no cerró)" if t.get("estado") == "en_proceso" else "FALLÓ"
-        lineas.append(f"• {t.get('clave')}  [{t.get('tipo')}]  → {estado}, "
+        lineas.append(f"- {t.get('clave')}  [{t.get('tipo')}]:  {estado}, "
                       f"{t.get('intentos')} intento(s)")
         if t.get("detalle"):
             lineas.append(f"    {str(t['detalle'])[:200]}")
