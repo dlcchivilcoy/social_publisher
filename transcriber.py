@@ -776,14 +776,10 @@ def run_watchdog(dry_run: bool = False) -> None:
 
 # ── ETAPA 2: publicar (al aprobar) ────────────────────────────────────────────
 def _caption(titulo: str, resumen: str) -> str:
-    from utils.branding import linea_canal_yt
-    site = _site()
-    return (
-        f"{titulo}\n\n{resumen}\n\n"
-        f"📲 Seguí leyendo en {site}\n"
-        f"{linea_canal_yt()}\n\n"
-        f"#Chivilcoy #DiarioLaCampaña #Actualidad #Noticias"
-    )
+    """Caption del reel para TODAS las redes (IG, FB, TikTok, YouTube): título + bajada EN
+    PÁRRAFOS + el link a la web BIEN ESCRITO (con la Ñ) + máximo 5 hashtags, los 3 fijos primero."""
+    cuerpo = "\n\n".join(x for x in ((titulo or "").strip(), (resumen or "").strip()) if x)
+    return _descripcion_social(cuerpo)
 
 
 def _solo_5_hashtags(texto: str) -> str:
@@ -866,8 +862,79 @@ def _retry(fn, intentos: int = 3, espera: int = 5, etiqueta: str = ""):
     raise ultimo
 
 
-# Hashtags locales SIEMPRE presentes (SEO local de Chivilcoy) + los temáticos de la nota.
-_HASHTAGS_LOCALES = ["#Chivilcoy", "#NoticiasChivilcoy", "#DiarioLaCampaña", "#Actualidad"]
+# Hashtags: los TRES primeros son fijos y van SIEMPRE en ese orden (pedido 2026-08-26);
+# después entran los temáticos de la nota hasta completar 5 como MÁXIMO.
+_HASHTAGS_FIJOS = ["#Chivilcoy", "#DiarioLaCampaña", "#RadioDelCentro"]
+_MAX_HASHTAGS = 5
+_HASHTAGS_LOCALES = _HASHTAGS_FIJOS  # compat con el código viejo
+
+
+def _sitio_ok(texto: str) -> str:
+    """Corrige el dominio del diario escrito MAL.
+
+    La bajada la redacta Gemini y a veces escribe el dominio sin la Ñ («diariolacampana»,
+    «diariolacampaa»), en punycode («xn--diariolacampaa-2nb») o sin el `.ar`. Acá se
+    normaliza TODO a `www.diariolacampaña.com.ar`, que es como se lee bien en las redes."""
+    if not texto:
+        return texto
+    bueno = _site()
+    # Cualquier variante del dominio, con o sin http/www, con la Ñ escrita de cualquier forma.
+    patron = (r"(?:https?://)?(?:www\.)?"
+              r"(?:diariolacampa(?:ñ|n|ni|ny)?a|xn--diariolacampaa-2nb)"
+              r"\.com(?:\.ar)?/?")
+    return re.sub(patron, bueno, texto, flags=re.IGNORECASE)
+
+
+def _en_parrafos(texto: str, oraciones_por_parrafo: int = 2) -> str:
+    """Separa la bajada en PÁRRAFOS para que no salga un bloque de texto (pedido 2026-08-26).
+
+    Si el texto ya viene con párrafos, se respetan. Si viene de corrido, se agrupa cada
+    `oraciones_por_parrafo` oraciones. Vale para todas las redes (web, IG, FB, TikTok, YT)."""
+    t = (texto or "").strip()
+    if not t:
+        return t
+    salida = []
+    # Se respetan los párrafos que ya venían, pero un párrafo LARGO igual se subdivide (si no,
+    # el cuerpo entero quedaba en un solo bloque cuando el título ya traía su salto).
+    for bloque in [b.strip() for b in t.split("\n\n") if b.strip()]:
+        oraciones = re.split(r"(?<=[.!?])\s+", " ".join(bloque.split()))
+        if len(oraciones) <= oraciones_por_parrafo:
+            salida.append(bloque)
+            continue
+        salida += [" ".join(oraciones[i:i + oraciones_por_parrafo]).strip()
+                   for i in range(0, len(oraciones), oraciones_por_parrafo)]
+    return "\n\n".join(p for p in salida if p)
+
+
+def _linea_hashtags(topicos=None) -> str:
+    """Los 3 fijos (#Chivilcoy #DiarioLaCampaña #RadioDelCentro) + los temáticos que entren,
+    hasta 5 en TOTAL. Sin repetidos (compara sin distinguir mayúsculas)."""
+    finales = list(_HASHTAGS_FIJOS)
+    vistos = {h.lower() for h in finales}
+    for h in (topicos or []):
+        if len(finales) >= _MAX_HASHTAGS:
+            break
+        h = (h or "").strip()
+        if len(h) > 2 and h.lower() not in vistos:
+            vistos.add(h.lower())
+            finales.append(h)
+    return " ".join(finales[:_MAX_HASHTAGS])
+
+
+def _descripcion_social(bajada: str, topicos=None, *, suscripcion: bool = False) -> str:
+    """Descripción ÚNICA para todas las redes (web, IG, FB, TikTok, YouTube):
+    bajada en PÁRRAFOS + el link a la web BIEN ESCRITO + máximo 5 hashtags."""
+    cuerpo = _en_parrafos(_sitio_ok(_quitar_hashtags(bajada)))
+    partes = [cuerpo, f"📲 Seguí leyendo la nota completa en {_site()}"]
+    if suscripcion:
+        partes.append("🔔 Suscribite al canal para más noticias de Chivilcoy y la región.")
+    partes.append(_linea_hashtags(topicos))
+    return "\n\n".join(p for p in partes if p)
+
+
+def _quitar_hashtags(texto: str) -> str:
+    """Saca la línea de hashtags que Gemini pudo dejar al final (para no duplicarla)."""
+    return re.sub(r"\n?#[\wñÑáéíóúÁÉÍÓÚ]+(?:\s+#[\wñÑáéíóúÁÉÍÓÚ]+)*\s*$", "", texto or "").strip()
 
 
 def _yt_enabled() -> bool:
@@ -896,6 +963,22 @@ def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
         estado_canales["tiktok"] = "ok" if modo == "directo" else "en borradores"
         logger.info(f"[tiktok] {'PUBLICADO' if modo == 'directo' else 'enviado a borradores'} "
                     f"(publish_id={(res or {}).get('publish_id', '')})")
+        # En modo BORRADOR la API de TikTok NO acepta el texto (el caption se escribe en la app),
+        # así que se manda por mail listo para copiar y pegar (pedido 2026-08-26). Cuando TikTok
+        # apruebe la publicación directa esto deja de hacer falta: el texto va con el video.
+        if modo != "directo" and caption:
+            try:
+                _enviar_aviso(
+                    "📋 TikTok: el reel está en borradores — copiá esta descripción",
+                    "El reel ya está en los borradores de TikTok. TikTok no deja mandar el texto "
+                    "junto con el borrador, así que copiá y pegá esta descripción al publicarlo "
+                    "desde la app:\n\n"
+                    "----------------------------------------\n"
+                    f"{caption}\n"
+                    "----------------------------------------\n\n"
+                    "(Cuando aprueben la publicación directa, el texto va a salir solo.)")
+            except Exception as e:  # noqa: BLE001
+                logger.warning(f"[tiktok] no pude mandar la descripción por mail: {e}")
         return res or {}
     except Exception as e:  # noqa: BLE001
         estado_canales["tiktok"] = f"falló: {e}"
@@ -946,20 +1029,11 @@ def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
         h = _hashtag(t)
         if len(h) > 2 and h.lower() not in (x.lower() for x in _HASHTAGS_LOCALES + topicos):
             topicos.append(h)
-    hashtags = _HASHTAGS_LOCALES + topicos[:6]
-    linea_hashtags = " ".join(hashtags)
+    linea_hashtags = _linea_hashtags(topicos)  # 3 fijos + temáticos, máx 5
 
-    # Descripción periodística: bajada (Gemini o resumen) + CTA web/suscripción + hashtags.
+    # Descripción periodística: bajada EN PÁRRAFOS + link BIEN ESCRITO + CTA + máx 5 hashtags.
     bajada = (seo.get("descripcion") or resumen or titulo).strip()
-    # La descripción de Gemini ya puede traer su propia línea de hashtags: la sacamos para no
-    # duplicar y dejamos la nuestra (con los locales garantizados).
-    bajada = re.sub(r"\n?#[\wñÑáéíóúÁÉÍÓÚ]+(?:\s+#[\wñÑáéíóúÁÉÍÓÚ]+)*\s*$", "", bajada).strip()
-    descripcion = (
-        f"{bajada}\n\n"
-        f"📲 Seguí leyendo la nota completa en {site}\n"
-        f"🔔 Suscribite al canal para más noticias de Chivilcoy y la región.\n\n"
-        f"{linea_hashtags}"
-    )
+    descripcion = _descripcion_social(bajada, topicos, suscripcion=True)
 
     # Tags de YouTube (campo Tags): los de Gemini + locales, sin '#', deduplicados.
     base_tags = ["chivilcoy", "noticias chivilcoy", "diario la campaña", "radio del centro", "actualidad"]
@@ -986,7 +1060,9 @@ def _meta_corresponsal(volanta: str, titulo: str, resumen: str, texto: str) -> d
     m = _youtube_meta(volanta, titulo, resumen, texto)
     cuerpo = (texto or resumen or titulo).strip()
     m["titulo"] = (titulo or m.get("titulo") or "")[:100]
-    m["descripcion"] = f"{cuerpo}\n\n📲 Seguí leyendo en {_site()}\n\n{m['hashtags']}"
+    # Mismo formato que el resto: párrafos + link BIEN ESCRITO + máx 5 hashtags. El CUERPO no se
+    # reescribe (es el texto del vecino ya corregido): solo se le separan los párrafos.
+    m["descripcion"] = _descripcion_social(cuerpo)
     return m
 
 
