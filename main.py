@@ -183,6 +183,11 @@ def main() -> None:
         action="store_true",
         help="Foto-nota (etapa 2, al aprobar): publica la nota web + la foto a FB/IG con todo el texto en el pie (con --file).",
     )
+    parser.add_argument(
+        "--watchdog",
+        action="store_true",
+        help="VIGÍA de la cola: avisa por mail los trabajos del desgrabador que quedaron trabados o fallaron.",
+    )
     # ── RADIO DEL CENTRO (solo redes, sin Wix; Drive/Gemini de radiodelcentro) ──
     parser.add_argument(
         "--transcribe-video-radio",
@@ -470,6 +475,12 @@ def main() -> None:
         from transcriber import run_placa_publish
         logger.info(f"Modo --placa-publish (dry_run={args.dry_run}). folder={args.file}")
         run_placa_publish(folder=args.file or "", dry_run=args.dry_run)
+        return
+
+    if args.watchdog:
+        from transcriber import run_watchdog
+        logger.info(f"Modo --watchdog (dry_run={args.dry_run}).")
+        run_watchdog(dry_run=args.dry_run)
         return
 
     if args.dry_run:

@@ -445,6 +445,14 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         return
 
     WORK_DIR.mkdir(exist_ok=True)
+    # Cola/panel (Bloque B): queda anotado que este video ARRANCÓ. Si la corrida muere sin cerrarlo,
+    # el vigía (`--watchdog`) lo ve trabado y avisa. Best-effort: nunca frena la publicación.
+    if not dry_run:
+        try:
+            from utils import trabajos
+            trabajos.empezar(video.name, "video-diario", f"--transcribe-video --file {video.name}")
+        except Exception:  # noqa: BLE001
+            pass
     if len(grupo) > 1:  # soy el primero del grupo → uno todos los clips cortos en un solo video
         try:
             from video import concat_videos
@@ -488,6 +496,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                       f"<p>Para reintentarlo: volvé a subir el video a la carpeta de «videos notas "
                       f"actualidad», o avisá y lo reintento.</p>"
                       f"<p style='color:#888;font-size:13px'>Detalle: {_hesc(str(e)[:200])}</p></div>"))
+        try:  # cola/panel: trabajo en ERROR (el vigia lo va a reportar)
+            from utils import trabajos
+            trabajos.terminar(video.name, ok=False, detalle=f"Gemini: {e}")
+        except Exception:  # noqa: BLE001
+            pass
         logger.info("=== Desgrabar video: fin (Gemini falló; se avisó por mail, sin marcar el video) ===")
         return
 
@@ -614,6 +627,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                   f"<p>Para reintentarlo: volvé a subir el video a «videos notas actualidad», o "
                   f"avisá y lo reintento.</p>"
                   f"<p style='color:#888;font-size:13px'>Detalle: {_hesc(str(e)[:200])}</p></div>"))
+        try:  # cola/panel: trabajo en ERROR
+            from utils import trabajos
+            trabajos.terminar(video.name, ok=False, detalle=f"preparacion: {e}")
+        except Exception:  # noqa: BLE001
+            pass
         logger.info("=== Desgrabar video: fin (falló la preparación; se avisó por mail, sin marcar el video) ===")
         return
 
@@ -678,6 +696,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"<p>Si querés que igual salga <b>solo el reel</b> (1 min, sin texto):</p>")
         _enviar_aviso(f"Video sin desgrabar: {video.name}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, "", hay=False))
+    try:  # cola/panel: trabajo CERRADO OK
+        from utils import trabajos
+        trabajos.terminar(video.name, ok=True)
+    except Exception:  # noqa: BLE001
+        pass
     logger.info("=== Desgrabar video: fin ===")
 
 
@@ -705,6 +728,50 @@ def _resumen_reel(titulo: str, texto: str, resumen: str, lugar: str = "") -> str
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el resumen SEO del reel ({e}); uso el resumen normal.")
     return actual or base[:tope]
+
+
+def run_watchdog(dry_run: bool = False) -> None:
+    """VIGÍA de la cola (Bloque B): revisa el registro de trabajos y AVISA POR MAIL lo que quedó
+    trabado o falló.
+
+    Un trabajo queda `en_proceso` cuando la corrida arrancó pero murió sin cerrarlo (timeout,
+    cuota, un hipo de red). Antes eso no se veía en ningún lado: el video quedaba sin procesar y
+    nadie se enteraba. El vigía lo saca a la luz. NO reprocesa: de eso ya se encarga el ESCANEO
+    (`--transcribe-video` sin --file), que recorre todos los pendientes del ledger.
+
+    Se agenda cada 30-60 min. Si Supabase no está configurado, no hace nada (y lo dice)."""
+    from utils import trabajos
+    logger.info("=== Vigía de trabajos ===")
+    if not trabajos.activo():
+        logger.info("Sin SUPABASE_URL/SUPABASE_SERVICE_KEY: el vigía no tiene dónde mirar.")
+        return
+    minutos = 30
+    try:
+        minutos = max(10, int(get("WATCHDOG_MINUTOS") or 30))
+    except (TypeError, ValueError):
+        pass
+    pendientes = trabajos.trabados(minutos)
+    resumen = trabajos.resumen_hoy()
+    logger.info(f"Últimas 24 h: {resumen or 'sin datos'} · trabados/fallados: {len(pendientes)}")
+    if not pendientes:
+        logger.info("Nada trabado. Todo en orden.")
+        return
+    lineas = [f"Hay {len(pendientes)} trabajo(s) del desgrabador que NO terminaron bien.", ""]
+    for t in pendientes[:25]:
+        estado = "TRABADO (arrancó y no cerró)" if t.get("estado") == "en_proceso" else "FALLÓ"
+        lineas.append(f"• {t.get('clave')}  [{t.get('tipo')}]  → {estado}, "
+                      f"{t.get('intentos')} intento(s)")
+        if t.get("detalle"):
+            lineas.append(f"    {str(t['detalle'])[:200]}")
+    lineas += ["", "Qué hacer: en general se recuperan solos en el próximo escaneo. Si alguno insiste,",
+               "volvé a subir el video con OTRO nombre de carpeta (el sistema deduplica por nombre).",
+               "", f"Resumen de las últimas 24 h: {resumen or 'sin datos'}"]
+    cuerpo = "\n".join(lineas)
+    if dry_run:
+        logger.info("[dry-run] Avisaría por mail:\n" + cuerpo)
+        return
+    _enviar_aviso(f"⚠️ Desgrabador: {len(pendientes)} trabajo(s) sin terminar", cuerpo)
+    logger.info("Aviso del vigía enviado.")
 
 
 # ── ETAPA 2: publicar (al aprobar) ────────────────────────────────────────────
