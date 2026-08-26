@@ -6,7 +6,7 @@ import requests
 from PIL import Image
 
 from utils.config import get
-from utils.image_host import upload_to_imgbb
+from utils.image_host import _upload_to_github, upload_to_imgbb
 from utils.logger import get_logger
 
 logger = get_logger("instagram")
@@ -192,16 +192,38 @@ def publish(body: str, image_path: Path) -> dict:
 MAX_CAROUSEL = 10  # Instagram permite hasta 10 imágenes por carrusel
 
 
-def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos: int = 3) -> str:
+# Esperas entre reintentos de un hijo del carrusel. Generosas A PROPÓSITO: el 2026-08-26
+# el carrusel no salió porque los 3 reintentos (5s fijos) cayeron TODOS dentro del mismo
+# bache transitorio de Instagram — 21 segundos en total (13:01:51→13:02:12). Minutos
+# después la MISMA imagen y la MISMA URL de ImgBB entraban perfecto. Con este backoff la
+# ventana de reintentos pasa a ~2,5 minutos, que sí cubre un bache corto.
+_HIJO_ESPERAS = (15, 45, 90)
+
+
+def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos: int = 4) -> str:
     """Crea un contenedor HIJO del carrusel, resiliente al fallo transitorio de descarga
     de la imagen por parte de Instagram (2207003 timeout / 2207052 "Only photo or video…").
-    Reintenta subiendo la imagen de nuevo a ImgBB: cada intento usa una URL FRESCA, porque
-    reintentar la MISMA URL no destraba (mismo criterio que publish_story). Sin este
-    reintento, un solo tropiezo de una imagen tumbaba el carrusel entero."""
+
+    Dos defensas, porque un solo tropiezo tumba el carrusel entero:
+      1. URL FRESCA en cada intento (reintentar la MISMA URL no destraba), con esperas
+         CRECIENTES (_HIJO_ESPERAS) para no agotar los intentos dentro del mismo bache.
+      2. A partir del 3er intento cambia de HOSTING: sube a un GitHub Release en vez de
+         ImgBB. Es otro dominio/CDN, así que cubre el caso de que Instagram puntualmente
+         no pueda descargar de i.ibb.co."""
     ultimo = None
     for intento in range(intentos):
         try:
-            image_url = upload_to_imgbb(jpeg_path)  # URL fresca en cada intento
+            # Los últimos intentos van por el hosting alternativo (otro dominio/CDN).
+            # Si el respaldo no está disponible (sin GITHUB_TOKEN, p. ej. en local),
+            # se sigue con ImgBB en vez de quemar el intento.
+            image_url = ""
+            if intento >= 2:
+                try:
+                    image_url = _upload_to_github(jpeg_path)
+                except Exception as gh_err:  # noqa: BLE001
+                    logger.warning(f"Respaldo GitHub no disponible ({gh_err}); sigo con ImgBB.")
+            if not image_url:
+                image_url = upload_to_imgbb(jpeg_path)  # URL fresca en cada intento
             cid = _crear_contenedor(
                 user_id, token,
                 {"image_url": image_url, "is_carousel_item": "true"},
@@ -212,9 +234,11 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
         except Exception as e:
             ultimo = e
             if intento < intentos - 1:
+                espera = _HIJO_ESPERAS[min(intento, len(_HIJO_ESPERAS) - 1)]
+                hosting = "GitHub Release" if intento + 1 >= 2 else "ImgBB"
                 logger.warning(f"Hijo del carrusel falló (intento {intento + 1}/{intentos}): {e}. "
-                               f"Reintento subiendo la imagen de nuevo…")
-                time.sleep(5)
+                               f"Reintento en {espera}s subiendo la imagen a {hosting}…")
+                time.sleep(espera)
     raise ultimo
 
 
