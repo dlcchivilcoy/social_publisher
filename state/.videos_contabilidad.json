@@ -4417,12 +4417,30 @@
     "zocalo": "Máximo Sala",
     "draft_id": "3e6ce5bc-1d08-4b45-a509-439ffc40b45f",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtabu0yg2xzm-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-26T16:47:16.972Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-26T16:47:16.972Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-26T13:57:08",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclista-argentino-en-mundial-maximo-sala-argentina-estuvo-primera-en",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "en borradores",
+      "wix": "ok"
+    },
+    "ig_media_id": "18456325441189953",
+    "fb_video_id": "870234519353967",
+    "yt_video_id": "bZJk__pch8I",
+    "yt_url": "https://www.youtube.com/shorts/bZJk__pch8I",
+    "yt_watch_url": "https://www.youtube.com/watch?v=bZJk__pch8I",
+    "yt_titulo": "Máximo Sala: \"Argentina estuvo primera en la clasificación\"",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-26T13:57:08",
+    "yt_metrics": {}
   }
 ]
