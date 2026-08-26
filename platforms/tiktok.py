@@ -39,7 +39,17 @@ STATUS_URL = f"{OPEN_API}/v2/post/publish/status/fetch/"
 # OJO: TikTok RECHAZA la autorización con error «scope» si la app no tiene ESE permiso habilitado
 # en el portal (developers.tiktok.com → tu app → Scopes), aunque el review ya esté aprobado. Para
 # autorizar con menos permisos mientras se habilita: TIKTOK_SCOPES="user.info.basic,video.upload".
-SCOPES = (get("TIKTOK_SCOPES") or "user.info.basic,video.upload,video.publish").strip()
+_SCOPES_DEFAULT = "user.info.basic,video.upload,video.publish"
+
+
+def scopes() -> str:
+    """Scopes a pedir en la autorización. OJO: se lee EN EL MOMENTO, no al importar — el
+    `.env` suele cargarse DESPUÉS de los imports, así que una constante de módulo se
+    quedaba con el default y TikTok rechazaba la autorización con error «scope»."""
+    return (get("TIKTOK_SCOPES") or _SCOPES_DEFAULT).strip()
+
+
+SCOPES = _SCOPES_DEFAULT  # compat: preferí scopes() (lee el .env en el momento)
 
 TOKEN_FILE = Path(__file__).resolve().parent.parent / ".tiktok_token.json"
 TOKEN_TABLE = "tiktok_token"

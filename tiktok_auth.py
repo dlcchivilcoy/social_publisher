@@ -24,7 +24,7 @@ import webbrowser
 
 import requests
 
-from platforms.tiktok import SCOPES, TOKEN_URL, save_initial_token
+from platforms.tiktok import TOKEN_URL, save_initial_token, scopes
 from utils.config import get, load_config
 
 AUTHORIZE_URL = "https://www.tiktok.com/v2/auth/authorize/"
@@ -105,7 +105,7 @@ def main() -> None:
     state = secrets.token_urlsafe(8)
     url = AUTHORIZE_URL + "?" + urllib.parse.urlencode({
         "client_key": ck,
-        "scope": SCOPES,
+        "scope": scopes(),  # se lee DESPUES de load_config()
         "response_type": "code",
         "redirect_uri": redirect,
         "state": state,
