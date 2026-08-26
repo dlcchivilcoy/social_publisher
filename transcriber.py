@@ -517,6 +517,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         hay, corr_sin_web = True, True
         logger.info("Corresponsal sin desgrabar: uso la descripción del vecino (corregida) como texto (FB/IG/YT, sin web).")
 
+    # Descripción del REEL: si el texto se pasa del largo que rinde en IG, resumen SEO (no un
+    # corte a lo bruto). La NOTA WEB sigue con el texto completo: esto es solo el caption.
+    if hay:
+        resumen = _resumen_reel(titulo, texto, resumen, lugar=(ctx or {}).get("lugar", ""))
+
     # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
     # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
     # esto se cae, NO dejamos morir la corrida en silencio: antes el run terminaba en error, sin
@@ -674,6 +679,32 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         _enviar_aviso(f"Video sin desgrabar: {video.name}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, "", hay=False))
     logger.info("=== Desgrabar video: fin ===")
+
+
+def _resumen_reel(titulo: str, texto: str, resumen: str, lugar: str = "") -> str:
+    """Bajada que va como descripción del REEL en IG/FB.
+
+    Si el texto se pasa del largo que rinde en una descripción de reel (el corresponsal escribió
+    largo), se arma un RESUMEN SEO —palabras clave adelante, que es lo que se ve antes del
+    «… más»— en vez de cortar el texto a lo bruto. Si el texto entra, va como está.
+    Tope configurable con `REEL_RESUMEN_MAX_CHARS` (default 300 caracteres)."""
+    try:
+        tope = max(120, int(get("REEL_RESUMEN_MAX_CHARS") or 300))
+    except (TypeError, ValueError):
+        tope = 300
+    base = " ".join((texto or "").split()).strip()
+    actual = " ".join((resumen or "").split()).strip()
+    if not base or len(base) <= tope:
+        return actual or base  # entra entero: no hay nada que resumir
+    try:
+        from utils import gemini
+        seo = gemini.resumen_seo(titulo, base, max_chars=tope, lugar=lugar)
+        if seo:
+            logger.info(f"Descripción del reel: resumen SEO ({len(base)} → {len(seo)} chars).")
+            return seo
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar el resumen SEO del reel ({e}); uso el resumen normal.")
+    return actual or base[:tope]
 
 
 # ── ETAPA 2: publicar (al aprobar) ────────────────────────────────────────────

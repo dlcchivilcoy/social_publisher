@@ -1336,6 +1336,72 @@ def corregir_texto(descripcion: str, lugar: str = "", foto_path=None,
     return nota
 
 
+_RESUMEN_SEO_PROMPT = (
+    "Sos el community manager del «Diario La Campaña» de Chivilcoy (Argentina). Te paso el TÍTULO y "
+    "el TEXTO de una nota. Escribí la BAJADA que va como descripción del REEL en Instagram/Facebook.\n"
+    "OBJETIVO — que se entienda de un vistazo y que POSICIONE (SEO):\n"
+    "• MÁXIMO {MAX} caracteres. Es un tope duro: si no entra, sacá lo secundario.\n"
+    "• Los PRIMEROS ~100 caracteres son los que se ven antes del «… más»: meté AHÍ lo más importante "
+    "y las PALABRAS CLAVE (qué pasó + dónde + quién). Nada de arranques vacíos tipo «Enterate de…».\n"
+    "• Usá las palabras que la gente buscaría: el lugar (Chivilcoy y el barrio/calle si está), los "
+    "NOMBRES PROPIOS, la institución y el tema (ej. «choque», «inauguración», «paro»).\n"
+    "• 2 o 3 oraciones cortas, en español rioplatense, tono informativo y sobrio. Se puede usar UN "
+    "emoji como mucho, y solo si suma.\n"
+    "• PROHIBIDO: hashtags, links, «click acá», clickbait, signos de admiración de más, MAYÚSCULAS "
+    "sostenidas, y CUALQUIER dato que no esté en el texto (no inventes cifras, nombres ni causas).\n"
+    "• No repitas el título palabra por palabra: complementalo con lo más jugoso del cuerpo.\n"
+    "Devolvé SOLO el texto de la bajada, sin comillas ni etiquetas."
+)
+
+
+def _cortar_prolijo(texto: str, max_chars: int) -> str:
+    """Corta en el último final de ORACIÓN que entre; si no hay, en la última palabra. Sin
+    puntos suspensivos (mismo criterio que `carrusel_notas._resumen_caption`)."""
+    t = " ".join((texto or "").split()).strip()
+    if len(t) <= max_chars:
+        return t
+    corte = t[:max_chars]
+    for fin in (". ", "? ", "! "):
+        i = corte.rfind(fin)
+        if i >= max_chars * 0.5:
+            return corte[:i + 1].strip()
+    i = corte.rfind(" ")
+    return (corte[:i] if i > 0 else corte).strip()
+
+
+def resumen_seo(titulo: str, texto: str, max_chars: int = 300, lugar: str = "",
+                api_key: str = "", model: str = "", key_pool=None) -> str:
+    """Bajada SEO para la descripción del REEL en IG/FB cuando el texto es largo.
+
+    Resume el cuerpo priorizando las palabras clave al principio (qué + dónde + quién) y respeta
+    el tope de caracteres. Best-effort: ante cualquier error devuelve un corte prolijo por
+    oración/palabra; nunca rompe la publicación ni devuelve vacío."""
+    base = " ".join((texto or "").split()).strip()
+    if not base:
+        return ""
+    try:
+        key = (api_key or "").strip() or get("GEMINI_API_KEY")
+        model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
+        ctx = f"LUGAR: {lugar.strip()}\n" if (lugar or "").strip() else ""
+        prompt = (_RESUMEN_SEO_PROMPT.replace("{MAX}", str(int(max_chars))) +
+                  f"\n\n{ctx}TÍTULO: {(titulo or '').strip()}\n\nTEXTO:\n{base}")
+        r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}],
+                              "generationConfig": {"temperature": 0.3}},
+                      key, timeout=120, key_pool=key_pool or _gemini_keys(key))
+        out = ""
+        for part in (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", []):
+            out += part.get("text", "")
+        out = " ".join(out.split()).strip().strip('"').strip()
+        if out:
+            if len(out) > max_chars:  # por las dudas, si Gemini se pasó del tope
+                out = _cortar_prolijo(out, max_chars)
+            logger.info(f"Resumen SEO para el reel: {len(base)} → {len(out)} chars.")
+            return out
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude generar el resumen SEO ({e}); corto el texto prolijo.")
+    return _cortar_prolijo(base, max_chars)
+
+
 def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
                     api_key: str = "", model: str = "", key_pool=None) -> dict:
     """Corrige la descripción que escribió el corresponsal (gramática/redacción, SIN cambiar la info

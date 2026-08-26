@@ -322,6 +322,21 @@ def _fullbleed_on() -> bool:
     return str(_cfg("REEL_FULLBLEED", "1")).strip().lower() not in ("0", "no", "false", "off")
 
 
+def _fullbleed_aplica(w: int, h: int) -> bool:
+    """Full bleed SOLO si el material NO es HORIZONTAL (o sea: vertical o cuadrado).
+
+    En un apaisado, recortar a 9:16 se come ~68% del ancho y deja al sujeto fuera de cuadro,
+    así que los horizontales vuelven al fondo difuminado de siempre (pedido 2026-08-25).
+    El corte se puede mover con `REEL_FULLBLEED_MAX_AR` (default 1.0 = hasta cuadrado)."""
+    if not _fullbleed_on() or w <= 0 or h <= 0:
+        return False
+    try:
+        max_ar = float(_cfg("REEL_FULLBLEED_MAX_AR", "1.0"))
+    except ValueError:
+        max_ar = 1.0
+    return (w / h) <= max_ar
+
+
 def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: Path):
     """Devuelve (nw, nh, x, y): a cuánto escalar el video para LLENAR 1080x1920 y desde
     dónde recortarlo, ENCUADRADO EN EL SUJETO.
@@ -515,9 +530,14 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     recorte = detectar_recorte(src)
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
     fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
-    # Full bleed: el video llena el 9:16, encuadrado en el sujeto (ver `_encuadre_fullbleed`).
-    encuadre = (_encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
-                if _fullbleed_on() else None)
+    # Full bleed: llena el 9:16 encuadrado en el sujeto, pero SOLO en verticales/cuadrados.
+    # Los HORIZONTALES siguen con el fondo difuminado de siempre (ver `_fullbleed_aplica`).
+    if _fullbleed_aplica(cont_w, cont_h):
+        encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
+    else:
+        encuadre = None
+        if _fullbleed_on():
+            logger.info(f"Video horizontal ({cont_w}x{cont_h}): sin full bleed, va con fondo difuminado.")
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
                  seg_placa=seg_placa, recorte=recorte, encuadre=encuadre)
     try:
@@ -558,11 +578,16 @@ def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
         try:
             from PIL import Image
             from story_image import _encuadrar  # cover a sangre enfocado en el sujeto
-            enc = _encuadrar(Image.open(fuente), 1080, 1920)
-            fb = Path(salida).parent / f"_fb_{Path(salida).stem}.jpg"
-            enc.save(fb, quality=92)
-            fuente = fb
-            logger.info("Foto encuadrada full bleed (9:16, centrada en el sujeto).")
+            img = Image.open(fuente)
+            if _fullbleed_aplica(img.width, img.height):  # solo verticales/cuadradas
+                enc = _encuadrar(img, 1080, 1920)
+                fb = Path(salida).parent / f"_fb_{Path(salida).stem}.jpg"
+                enc.save(fb, quality=92)
+                fuente = fb
+                logger.info("Foto encuadrada full bleed (9:16, centrada en el sujeto).")
+            else:
+                logger.info(f"Foto horizontal ({img.width}x{img.height}): sin full bleed, "
+                            "va entera sobre fondo difuminado.")
         except Exception as e:  # noqa: BLE001
             logger.warning(f"No pude encuadrar la foto full bleed ({e}); la dejo entera.")
     vf = ("scale=1080:1920:force_original_aspect_ratio=decrease,"
