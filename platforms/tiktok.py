@@ -36,7 +36,10 @@ DIRECT_INIT_URL = f"{OPEN_API}/v2/post/publish/video/init/"
 CREATOR_INFO_URL = f"{OPEN_API}/v2/post/publish/creator_info/query/"
 STATUS_URL = f"{OPEN_API}/v2/post/publish/status/fetch/"
 # `video.publish` = Direct Post (publicar derecho). `video.upload` = bandeja/borradores.
-SCOPES = "user.info.basic,video.upload,video.publish"
+# OJO: TikTok RECHAZA la autorización con error «scope» si la app no tiene ESE permiso habilitado
+# en el portal (developers.tiktok.com → tu app → Scopes), aunque el review ya esté aprobado. Para
+# autorizar con menos permisos mientras se habilita: TIKTOK_SCOPES="user.info.basic,video.upload".
+SCOPES = (get("TIKTOK_SCOPES") or "user.info.basic,video.upload,video.publish").strip()
 
 TOKEN_FILE = Path(__file__).resolve().parent.parent / ".tiktok_token.json"
 TOKEN_TABLE = "tiktok_token"
