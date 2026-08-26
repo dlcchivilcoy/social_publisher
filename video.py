@@ -640,12 +640,14 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
 
 
 def frame_at(src, seconds, salida) -> Path:
-    """Extrae el frame del video en el segundo indicado (el que Gemini marca como el
-    más representativo). Si falla o el segundo es 0, cae a best_frame(). Devuelve el .jpg."""
+    """Extrae el frame del video en el segundo indicado (el que Gemini marca como el más
+    representativo). Si el segundo es 0 —o sea: nadie miró el video, que es lo que pasa cuando
+    transcribe Groq— la portada se ELIGE SOLA con `mejor_frame` (caras + nitidez + exposición).
+    Devuelve el .jpg."""
     src, salida = Path(src), Path(salida)
     seconds = max(0.0, float(seconds or 0))
     if seconds <= 0:
-        return best_frame(src, salida)
+        return mejor_frame(src, salida)
     ff = _ffmpeg()
     cmd = [ff, "-y", "-ss", str(seconds), "-i", str(src), "-frames:v", "1", "-q:v", "2", str(salida)]
     try:
@@ -749,6 +751,87 @@ def best_frame(src, salida) -> Path:
     _run_ffmpeg(cmd, "frame de portada")
     logger.info(f"Foto de portada extraída: {salida}")
     return salida
+
+
+def _puntuar_frame(jpg: Path) -> float:
+    """Puntúa un cuadro como candidato a PORTADA. Pesa, en orden: CARAS (grandes y centradas
+    = alguien hablando en primer plano), NITIDEZ (descarta los cuadros movidos) y EXPOSICIÓN
+    (descarta negros y quemados). Devuelve 0 si no se puede analizar."""
+    try:
+        import cv2
+        import numpy as np
+        from PIL import Image
+        from story_image import _caras_principales, _detect_faces
+    except Exception:  # noqa: BLE001
+        return 0.0
+    try:
+        img = Image.open(jpg)
+        gris = cv2.cvtColor(np.array(img.convert("RGB")), cv2.COLOR_RGB2GRAY)
+        h, w = gris.shape[:2]
+        area = float(max(1, w * h))
+        # Nitidez: varianza del Laplaciano (un cuadro movido da muy poca).
+        nitidez = min(cv2.Laplacian(gris, cv2.CV_64F).var() / 500.0, 1.0)
+        # Exposición: penaliza lo muy oscuro o quemado.
+        brillo = float(gris.mean())
+        exposicion = 1.0 if 45 <= brillo <= 210 else max(0.0, 1 - abs(brillo - 127) / 127)
+        # Caras: cuánto ocupan y qué tan centradas están.
+        caras = _caras_principales(_detect_faces(img))
+        if caras:
+            ocupacion = min(sum(c[2] * c[3] for c in caras) / area * 6.0, 1.0)
+            mayor = max(caras, key=lambda c: c[2] * c[3])
+            cx = (mayor[0] + mayor[2] / 2) / w
+            centrado = 1.0 - min(abs(cx - 0.5) * 2, 1.0)
+            caras_score = 0.65 * ocupacion + 0.35 * centrado
+        else:
+            caras_score = 0.0
+        return 0.55 * caras_score + 0.30 * nitidez + 0.15 * exposicion
+    except Exception:  # noqa: BLE001
+        return 0.0
+
+
+def mejor_frame(src, salida, *, muestras: int = 8) -> Path:
+    """Elige la FOTO DE PORTADA sin que una IA tenga que MIRAR el video.
+
+    Muestrea `muestras` cuadros repartidos (saltea el arranque y el final, que suelen ser
+    cortinas o el cámara acomodándose), los puntúa con `_puntuar_frame` (caras + nitidez +
+    exposición) y extrae el ganador en calidad plena. Ante cualquier problema cae a
+    `best_frame` (el filtro `thumbnail` de ffmpeg). Devuelve el .jpg."""
+    src, salida = Path(src), Path(salida)
+    try:
+        dur = duration_seconds(src)
+        if dur <= 2:
+            return best_frame(src, salida)
+        ini, fin = dur * 0.08, dur * 0.92  # sin cortinas ni cierre
+        paso = (fin - ini) / max(1, muestras - 1)
+        ff = _ffmpeg()
+        tmp_dir = salida.parent
+        mejor_t, mejor_p = None, -1.0
+        for i in range(muestras):
+            t = ini + paso * i
+            chico = tmp_dir / f"_cand_{i}_{salida.stem}.jpg"
+            try:
+                # Chico (ancho 480) = analizar es barato; el ganador se extrae en calidad plena.
+                _run_ffmpeg([ff, "-y", "-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
+                             "-vf", "scale=480:-2", "-q:v", "5", str(chico)], f"candidato {i}")
+                p = _puntuar_frame(chico)
+                if p > mejor_p:
+                    mejor_t, mejor_p = t, p
+            except Exception:  # noqa: BLE001
+                continue
+            finally:
+                try:
+                    chico.unlink()
+                except Exception:  # noqa: BLE001
+                    pass
+        if mejor_t is None:
+            return best_frame(src, salida)
+        _run_ffmpeg([ff, "-y", "-ss", f"{mejor_t:.2f}", "-i", str(src), "-frames:v", "1",
+                     "-q:v", "2", str(salida)], "portada elegida")
+        logger.info(f"Portada elegida sola en {mejor_t:.0f}s (puntaje {mejor_p:.2f}).")
+        return salida
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude elegir la portada por puntaje ({e}); uso el thumbnail de ffmpeg.")
+        return best_frame(src, salida)
 
 
 def extract_audio(src, salida) -> Path:

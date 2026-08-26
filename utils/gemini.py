@@ -894,6 +894,14 @@ def _groq_key() -> str:
     return (get("GROQ_API_KEY") or "").strip()
 
 
+def _audio_first_on() -> bool:
+    """AUDIO-FIRST: transcribir con Groq el AUDIO y NO subir el video a Gemini (default ON si hay
+    GROQ_API_KEY). Es lo que evita la subida del video —lo más lento, lo que satura y lo que traía
+    el 403 de la Files API—: Gemini queda solo para redactar (llamadas de TEXTO, baratas), y la
+    portada la elige `video.mejor_frame`. `ASR_AUDIO_FIRST=0` vuelve a que Gemini mire el video."""
+    return str(get("ASR_AUDIO_FIRST", "1")).strip().lower() not in ("0", "no", "false", "off")
+
+
 def _groq_on() -> bool:
     return bool(_groq_key()) and str(get("ASR_GROQ", "1")).strip().lower() not in ("0", "no", "false", "off")
 
@@ -1005,6 +1013,16 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
             logger.info(f"  Paso 1b (Groq): transcripción reemplazada por la de Groq ({len(g_txt)} chars).")
             transcripcion = g_txt
 
+    return _redactar_y_verificar(transcripcion, extra_text, key, model, key_pool,
+                                 instrucciones, momento, segmentos)
+
+
+def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: str,
+                          key_pool, instrucciones: str, momento: float, segmentos: list) -> dict:
+    """Pasos 2 y 3 (redactar anclado + verificar), SOLO con texto: no necesita el video.
+
+    Está aparte para que lo use tanto el flujo clásico (Gemini mira el video) como el
+    AUDIO-FIRST (Groq transcribe el audio y el video NUNCA se sube a Gemini)."""
     # Paso 2 — redacción anclada. Si el colaborador mandó un texto COMPLETO, ese texto es la fuente
     # PRINCIPAL y la transcripción COMPLEMENTA; si el texto es flaco (o no hay), manda la transcripción.
     texto_manda = _texto_manda(extra_text)
@@ -1227,6 +1245,29 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
         logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                     f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
         return nota
+
+    # ── AUDIO-FIRST: Groq transcribe el AUDIO y el video NO se sube a Gemini ──────────────
+    # Es el camino rápido y barato: se saltea la subida del video (lo más lento, lo que satura
+    # y lo que traía el 403 de la Files API) y Gemini queda solo para REDACTAR (texto). La foto
+    # de portada la elige `video.mejor_frame` (mejor_momento_seg=0 se la pide). Si Groq no puede,
+    # cae SOLO al camino clásico de abajo (Gemini mirando el video): nunca queda peor que antes.
+    if _groq_on() and _audio_first_on():
+        hint = "\n".join(x for x in (_glosario(), (extra_text or "").strip()) if x)
+        try:
+            g_txt = _transcribir_groq(media_path, hint)
+        except Exception as e:  # noqa: BLE001
+            g_txt = None
+            logger.warning(f"Groq falló ({e}); caigo a Gemini mirando el video.")
+        if g_txt and len(g_txt) >= 25:
+            logger.info(f"Audio-first: Groq transcribió {len(g_txt)} chars SIN subir el video. "
+                        f"Gemini solo redacta; la portada la elige el sistema.")
+            nota = _redactar_y_verificar(g_txt, extra_text or "", key, model,
+                                         key_pool or _gemini_keys(key), instrucciones="",
+                                         momento=0.0, segmentos=[])
+            logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — "
+                        f"{nota['titulo']}»")
+            return nota
+        logger.info("Audio-first: sin transcripción de Groq; sigo con Gemini mirando el video.")
 
     # VIDEO: la Files API ATA el archivo subido a la clave que lo subió. Por eso subimos Y desgrabamos
     # con la MISMA clave; si esa clave se queda sin cuota (429) probamos con la SIGUIENTE clave
