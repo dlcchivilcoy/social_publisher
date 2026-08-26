@@ -542,10 +542,14 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # el video se perdía. Ahora avisamos por mail y salimos limpio (exit 0), sin marcar el video
     # → se puede reintentar re-subiéndolo. (La desgrabación de Gemini ya está protegida arriba.)
     try:
+        # NORMALIZAR LA FUENTE (una sola vez, en la puerta de entrada): hay videos de celular
+        # con metadatos de color inválidos que hacen fallar TODO ffmpeg (portada, reel, audio)
+        # con «Invalid color range». Se reparan acá, así ningún paso de abajo se entera.
+        from video import asegurar_procesable, portada_segura
+        video_media = asegurar_procesable(video_media, WORK_DIR)
         # PORTADA: paso COSMÉTICO — no puede voltear la nota. `portada_segura` no lanza nunca
         # (cascada: elección inteligente → cuadro sin filtros → thumbnail) y si aun así no sale,
-        # más abajo se saca del REEL, que al estar re-codificado tiene metadatos limpios.
-        from video import portada_segura
+        # más abajo se saca del REEL.
         cover = portada_segura(video_media, WORK_DIR / "portada.jpg")
         slug = _slug(video.stem)
 

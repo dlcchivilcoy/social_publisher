@@ -789,6 +789,71 @@ def _puntuar_frame(jpg: Path) -> float:
         return 0.0
 
 
+def _procesable(src: Path) -> bool:
+    """¿ffmpeg puede DECODIFICAR este video? Prueba sacar 1 cuadro y descartarlo (rápido).
+
+    Existe porque hay videos de celular cuyos metadatos de color son inválidos (el stream dice
+    `reserved`) y ffmpeg falla con «Invalid color range» al inicializar su grafo interno —que
+    arma SIEMPRE, aunque uno no pase ningún `-vf`—. Sin este chequeo, el error aparecía recién
+    al armar la portada o el reel, con la nota ya desgrabada."""
+    try:
+        _run_ffmpeg([_ffmpeg(), "-v", "error", "-i", str(src), "-frames:v", "1",
+                     "-f", "null", "-"], "chequeo de video")
+        return True
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def reparar_metadatos(src, salida) -> Path | None:
+    """Reescribe los METADATOS de color del H.264 sin tocar el video (stream copy + bitstream
+    filter). Devuelve el archivo reparado o None.
+
+    Es la cura del «Invalid color range»: NO decodifica (por eso no puede fallar por el mismo
+    motivo) y deja el color declarado como BT.709 rango limitado, que es lo normal. El video y
+    el audio quedan intactos, bit por bit."""
+    src, salida = Path(src), Path(salida)
+    meta = ("h264_metadata=video_full_range_flag=0:colour_primaries=1:"
+            "transfer_characteristics=1:matrix_coefficients=1")
+    try:
+        _run_ffmpeg([_ffmpeg(), "-y", "-i", str(src), "-c", "copy", "-bsf:v", meta,
+                     str(salida)], "reparar metadatos de color")
+        if salida.exists() and salida.stat().st_size > 0:
+            return salida
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude reparar los metadatos por bitstream ({e}); pruebo re-codificando.")
+    # Respaldo: re-codificar forzando el color (más lento, pero salva videos muy rotos).
+    try:
+        _run_ffmpeg([_ffmpeg(), "-y", "-i", str(src),
+                     "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+                     "-color_range", "tv", "-colorspace", "bt709",
+                     "-color_primaries", "bt709", "-color_trc", "bt709",
+                     "-c:a", "aac", str(salida)], "re-codificar video roto")
+        if salida.exists() and salida.stat().st_size > 0:
+            return salida
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"Tampoco pude re-codificar el video roto: {e}")
+    return None
+
+
+def asegurar_procesable(src, work_dir=None) -> Path:
+    """Devuelve un video que ffmpeg SÍ puede procesar (el mismo, o una copia reparada).
+
+    Se llama UNA vez, al principio: normalizar la fuente en la puerta de entrada evita que el
+    problema aparezca después en cada consumidor (portada, reel, audio…). Si no se puede
+    reparar, devuelve el original (que cada paso maneje su error como pueda)."""
+    src = Path(src)
+    if _procesable(src):
+        return src
+    logger.warning(f"«{src.name}»: ffmpeg no lo puede procesar (metadatos rotos); lo reparo…")
+    destino = Path(work_dir or src.parent) / f"_fix_{src.stem}.mp4"
+    fijo = reparar_metadatos(src, destino)
+    if fijo and _procesable(fijo):
+        logger.info(f"Video reparado OK: {fijo.name} (se usa este de acá en adelante).")
+        return fijo
+    logger.error(f"No se pudo reparar «{src.name}»; sigo con el original.")
+    return src
+
+
 def _extraer_frame(src: Path, t: float, salida: Path, *, escala: int = 0,
                    etiqueta: str = "frame") -> bool:
     """Extrae UN cuadro. Devuelve True/False — NO lanza.
