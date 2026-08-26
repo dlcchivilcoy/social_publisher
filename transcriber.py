@@ -542,7 +542,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # el video se perdía. Ahora avisamos por mail y salimos limpio (exit 0), sin marcar el video
     # → se puede reintentar re-subiéndolo. (La desgrabación de Gemini ya está protegida arriba.)
     try:
-        cover = frame_at(video_media, nota["mejor_momento_seg"], WORK_DIR / "portada.jpg")
+        # PORTADA: paso COSMÉTICO — no puede voltear la nota. `portada_segura` no lanza nunca
+        # (cascada: elección inteligente → cuadro sin filtros → thumbnail) y si aun así no sale,
+        # más abajo se saca del REEL, que al estar re-codificado tiene metadatos limpios.
+        from video import portada_segura
+        cover = portada_segura(video_media, WORK_DIR / "portada.jpg")
         slug = _slug(video.stem)
 
         # Reel para redes: VIDEO COMPLETO, sin recorte (pedido del usuario 2026-06-28).
@@ -553,6 +557,14 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # al inicio de la descripción/caption en las 3 redes (se arma en run_publish_video). El
         # diario también va SIN overlay ni zócalo (2026-07-27): fondo difuminado + logo + placa.
         reel = to_vertical_reel(video_media, reel_path, overlay=False)
+
+        # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
+        # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.
+        if cover is None:
+            logger.warning("Sin portada del video original; la saco del reel ya armado.")
+            cover = portada_segura(reel, WORK_DIR / "portada.jpg")
+            if cover is None:
+                logger.error("Tampoco pude sacar la portada del reel: la nota sigue SIN foto.")
 
         if dry_run:
             logger.info(f"[dry-run] hay_noticia={hay} | tramos={len(nota.get('segmentos', []))}\n"

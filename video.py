@@ -789,6 +789,65 @@ def _puntuar_frame(jpg: Path) -> float:
         return 0.0
 
 
+def _extraer_frame(src: Path, t: float, salida: Path, *, escala: int = 0,
+                   etiqueta: str = "frame") -> bool:
+    """Extrae UN cuadro. Devuelve True/False — NO lanza.
+
+    Clave: hay videos (típicos de celular por WhatsApp) con metadatos de color rotos que hacen
+    fallar CUALQUIER filtro de ffmpeg («Invalid color range» → «Error reinitializing filters»).
+    Por eso, si el intento CON filtro falla, se reintenta SIN filtros: la extracción cruda
+    (`-ss` + `-frames:v 1`) sobrevive a esos metadatos."""
+    ff = _ffmpeg()
+    intentos = []
+    if escala:
+        intentos.append(["-vf", f"scale={escala}:-2", "-q:v", "5"])
+    intentos.append(["-q:v", "2"])  # sin filtros: el camino que aguanta metadatos rotos
+    for extra in intentos:
+        try:
+            _run_ffmpeg([ff, "-y", "-ss", f"{float(t):.2f}", "-i", str(src),
+                         "-frames:v", "1", *extra, str(salida)], etiqueta)
+            if salida.exists() and salida.stat().st_size > 0:
+                return True
+        except Exception:  # noqa: BLE001
+            continue
+    return False
+
+
+def portada_segura(src, salida, *, muestras: int = 8):
+    """Portada del video que NUNCA rompe la publicación. Devuelve Path o None.
+
+    Una nota NO se puede perder porque no se pudo elegir un cuadro: es un paso cosmético.
+    Cascada, de mejor a peor:
+      1. `mejor_frame`  — elección por caras/nitidez/exposición (usa filtros).
+      2. cuadro simple SIN filtros al 25% del video (aguanta metadatos de color rotos).
+      3. `best_frame`   — el filtro `thumbnail` de ffmpeg.
+    Si todo falla devuelve None y el llamador sigue sin portada (o la saca del reel, que al
+    estar re-codificado tiene metadatos limpios)."""
+    src, salida = Path(src), Path(salida)
+    try:
+        out = mejor_frame(src, salida, muestras=muestras)
+        if out and Path(out).exists() and Path(out).stat().st_size > 0:
+            return Path(out)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Portada: la elección inteligente falló ({e}); pruebo un cuadro simple.")
+    try:
+        dur = duration_seconds(src) or 0
+    except Exception:  # noqa: BLE001
+        dur = 0
+    for t in (dur * 0.25 if dur > 2 else 1.0, 0.0):
+        if _extraer_frame(src, t, salida, etiqueta=f"portada simple en {t:.0f}s"):
+            logger.info(f"Portada: cuadro simple en {t:.0f}s (sin filtros).")
+            return salida
+    try:
+        out = best_frame(src, salida)
+        if out and Path(out).exists() and Path(out).stat().st_size > 0:
+            return Path(out)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Portada: el thumbnail de ffmpeg también falló ({e}).")
+    logger.error(f"Portada: no se pudo sacar NINGÚN cuadro de «{Path(src).name}».")
+    return None
+
+
 def mejor_frame(src, salida, *, muestras: int = 8) -> Path:
     """Elige la FOTO DE PORTADA sin que una IA tenga que MIRAR el video.
 
@@ -803,7 +862,6 @@ def mejor_frame(src, salida, *, muestras: int = 8) -> Path:
             return best_frame(src, salida)
         ini, fin = dur * 0.08, dur * 0.92  # sin cortinas ni cierre
         paso = (fin - ini) / max(1, muestras - 1)
-        ff = _ffmpeg()
         tmp_dir = salida.parent
         mejor_t, mejor_p = None, -1.0
         for i in range(muestras):
@@ -811,8 +869,9 @@ def mejor_frame(src, salida, *, muestras: int = 8) -> Path:
             chico = tmp_dir / f"_cand_{i}_{salida.stem}.jpg"
             try:
                 # Chico (ancho 480) = analizar es barato; el ganador se extrae en calidad plena.
-                _run_ffmpeg([ff, "-y", "-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
-                             "-vf", "scale=480:-2", "-q:v", "5", str(chico)], f"candidato {i}")
+                # `_extraer_frame` reintenta SIN filtros si el video trae metadatos rotos.
+                if not _extraer_frame(src, t, chico, escala=480, etiqueta=f"candidato {i}"):
+                    continue
                 p = _puntuar_frame(chico)
                 if p > mejor_p:
                     mejor_t, mejor_p = t, p
@@ -825,8 +884,8 @@ def mejor_frame(src, salida, *, muestras: int = 8) -> Path:
                     pass
         if mejor_t is None:
             return best_frame(src, salida)
-        _run_ffmpeg([ff, "-y", "-ss", f"{mejor_t:.2f}", "-i", str(src), "-frames:v", "1",
-                     "-q:v", "2", str(salida)], "portada elegida")
+        if not _extraer_frame(src, mejor_t, salida, etiqueta="portada elegida"):
+            return best_frame(src, salida)
         logger.info(f"Portada elegida sola en {mejor_t:.0f}s (puntaje {mejor_p:.2f}).")
         return salida
     except Exception as e:  # noqa: BLE001
