@@ -58,9 +58,39 @@ def _destino_mail() -> str:
     return (get("YT_DESGRABAR_EMAIL") or "dlc.chivilcoy@gmail.com").strip()
 
 
-def _enviar_por_mail(fecha: str, archivos: list[tuple[str, Path, Path | None]]) -> bool:
+def _avisar_pendientes(fecha: str, pendientes: list[dict]) -> None:
+    """Avisa por mail que NO se pudo desgrabar nada (normalmente, Gemini saturado).
+
+    Antes esto era silencioso: no llegaba mail y no había forma de saber si era que no
+    había videos o que había fallado todo."""
+    remitente, password = get("MAIL_FROM"), get("MAIL_APP_PASSWORD")
+    if not remitente or not password:
+        return
+    lista = "\n".join(f"• {v['titulo']} — {v['url']}" for v in pendientes)
+    msg = EmailMessage()
+    msg["From"] = formataddr((get("MAIL_FROM_NAME") or "Diario La Campaña", remitente))
+    msg["To"] = _destino_mail()
+    msg["Subject"] = f"⚠️ Desgrabaciones {fecha}: no salió ninguna ({len(pendientes)} pendiente/s)"
+    msg.set_content(
+        f"No se pudo desgrabar ninguna de las {len(pendientes)} nota(s) de hoy.\n"
+        f"La causa más común es que Gemini esté saturado (error 503).\n"
+        f"Quedan pendientes y se reintentan solas en la próxima corrida:\n\n{lista}\n")
+    try:
+        with smtplib.SMTP(get("SMTP_HOST") or "smtp.gmail.com",
+                          int(get("SMTP_PORT") or 587), timeout=120) as server:
+            server.starttls(context=ssl.create_default_context())
+            server.login(remitente, password)
+            server.send_message(msg)
+        logger.info("Aviso de desgrabaciones pendientes enviado.")
+    except Exception as e:  # noqa: BLE001 — avisar nunca puede voltear la corrida
+        logger.error(f"Tampoco se pudo avisar por mail: {e}")
+
+
+def _enviar_por_mail(fecha: str, archivos: list[tuple[str, Path, Path | None]],
+                     sin_hacer: list[dict] | None = None) -> bool:
     """Manda UN mail con las notas desgrabadas del día como adjuntos (.docx + .png).
-    `archivos` = lista de (titulo, docx_path, png_path|None). Devuelve True si se envió."""
+    `archivos` = lista de (titulo, docx_path, png_path|None). `sin_hacer` son las que
+    quedaron para la próxima corrida (se avisan en el cuerpo). Devuelve True si se envió."""
     remitente = get("MAIL_FROM")
     password = get("MAIL_APP_PASSWORD")
     destino = _destino_mail()
@@ -76,10 +106,13 @@ def _enviar_por_mail(fecha: str, archivos: list[tuple[str, Path, Path | None]]) 
     msg["To"] = destino
     msg["Subject"] = f"Desgrabaciones Radio del Centro — {fecha} ({len(archivos)} nota/s)"
     lista = "\n".join(f"• {t}" for t, _, _ in archivos)
-    msg.set_content(
-        f"Notas de YouTube de Radio del Centro desgrabadas el {fecha}.\n"
-        f"Adjunto el Word (.docx) de cada una y la miniatura (.png).\n\n{lista}\n"
-    )
+    cuerpo = (f"Notas de YouTube de Radio del Centro desgrabadas el {fecha}.\n"
+              f"Adjunto el Word (.docx) de cada una y la miniatura (.png).\n\n{lista}\n")
+    if sin_hacer:
+        faltan = "\n".join(f"• {v['titulo']} — {v['url']}" for v in sin_hacer)
+        cuerpo += (f"\nQuedaron {len(sin_hacer)} sin desgrabar (falta de tiempo o Gemini "
+                   f"saturado). Se reintentan solas en la próxima corrida:\n\n{faltan}\n")
+    msg.set_content(cuerpo)
     for _titulo, docx_path, png_path in archivos:
         for p in (docx_path, png_path):
             if p and p.exists():
@@ -285,8 +318,23 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
     # día siguiente, donde una nota nueva la volvía a desplazar → "siempre queda una").
     entre_notas = int(get("YT_DESGRABAR_DELAY_SEG") or 8)
     reintentos = max(1, int(get("YT_DESGRABAR_REINTENTOS") or 3))
+    # PRESUPUESTO DE TIEMPO (2026-08-27). La corrida de GitHub se corta a los 90 minutos. Si
+    # Gemini está saturado y contesta 503 una y otra vez, el desgrabador se quedaba
+    # reintentando hasta que lo mataban: las notas ya hechas NO se mandaban (el mail sale al
+    # final) y encima quedaban marcadas como hechas → se perdían para siempre. Ahora se corta
+    # SOLO, antes del tope, y manda lo que tenga; lo que falte se reintenta en la próxima.
+    limite_min = int(get("YT_DESGRABAR_MAX_MIN") or 70)
+    arranque = time.monotonic()
     generadas: list[tuple[str, Path, Path | None]] = []  # (titulo, docx, png) para el mail
+    hechos: list[str] = []          # ids de las notas generadas (se marcan RECIÉN al entregar)
+    sin_hacer: list[dict] = []      # las que quedaron afuera por tiempo o por error
     for i, v in enumerate(pendientes):
+        transcurrido = (time.monotonic() - arranque) / 60
+        if generadas and transcurrido >= limite_min:
+            sin_hacer += pendientes[i:]     # las que ni se intentaron (+ las que ya fallaron)
+            logger.warning(f"Corto por tiempo ({transcurrido:.0f} min de {limite_min}): mando las "
+                           f"{len(generadas)} que ya están y dejo {len(sin_hacer)} para la próxima.")
+            break
         if i > 0 and not dry_run:
             time.sleep(entre_notas)  # respiro entre videos para no pegarle al límite por minuto
         logger.info(f"  Desgrabando: «{v['titulo'][:60]}» ({v['url']})")
@@ -328,7 +376,8 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
                     if not dry_run:
                         time.sleep(espera)
         if nota is None:
-            continue  # NO se marca: se reintenta la próxima corrida
+            sin_hacer.append(v)  # NO se marca: se avisa en el mail y se reintenta la próxima
+            continue
 
         if not nota.get("hay_noticia"):
             logger.info("    Sin noticia aprovechable (música/sin datos). Se saltea y se marca.")
@@ -368,8 +417,9 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
 
         _escribir_docx(nota, v, docx_path)
         png = _png_miniatura(v["id"], png_path)
-        ledger.add(v["id"])
-        _guardar_ledger(ledger)
+        # ⚠️ NO se marca en el registro todavía. Una nota se da por HECHA recién cuando salió
+        # por mail; si no, una corrida cortada la dejaba "hecha" sin que llegara nunca.
+        hechos.append(v["id"])
         generadas.append((nota.get("titulo") or v["titulo"], docx_path, png))
         logger.info(f"    ✓ {docx_path.name} (~{palabras} palabras)"
                     + (f" + {png_path.name}" if png else ""))
@@ -378,6 +428,17 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
         logger.info("=== Desgrabar notas de YouTube: fin (dry-run) ===")
         return
 
-    if generadas:
-        _enviar_por_mail(fecha, generadas)
-    logger.info(f"=== Desgrabar notas de YouTube: {len(generadas)} nota(s) enviada(s) por mail ===")
+    if not generadas:
+        logger.error(f"No se pudo desgrabar ninguna de las {len(pendientes)} nota(s) pendientes; "
+                     f"quedan para el próximo intento.")
+        _avisar_pendientes(fecha, pendientes)
+        return
+
+    if _enviar_por_mail(fecha, generadas, sin_hacer):
+        ledger.update(hechos)          # marcadas SOLO después de entregarlas
+        _guardar_ledger(ledger)
+    else:
+        logger.error(f"El mail no salió: NO marco las {len(generadas)} nota(s) como hechas, "
+                     f"así se reintentan en la próxima corrida.")
+    logger.info(f"=== Desgrabar notas de YouTube: {len(generadas)} nota(s) enviada(s) por mail"
+                + (f"; {len(sin_hacer)} pendiente(s)" if sin_hacer else "") + " ===")
