@@ -34,28 +34,16 @@ def _descripcion_final(desc_gemini: str, tags=None) -> str:
     import re
 
     from transcriber import _en_parrafos, _hashtag, _linea_hashtags, _quitar_hashtags, _sitio_ok
-    from utils.branding import cierre_youtube
+    from utils.branding import cierre_youtube, es_linea_de_cierre
     cuerpo = _sitio_ok(_quitar_hashtags(desc_gemini or ""))
 
     # Gemini a veces escribe igual su propio cierre (hashtags, invitación a la web o al canal) y
     # quedaba TODO DUPLICADO. Se limpia el cuerpo para dejar SOLO el texto: el cierre lo pone
-    # `cierre_youtube`, una sola vez, al final y en el orden pedido.
-    #   • línea de puros hashtags        → fuera (los arma `_linea_hashtags`)
-    #   • invitación al canal de YouTube → fuera (la trae el cierre fijo)
-    #   • invitación a la web            → fuera, salvo que la frase tenga contenido propio
-    def _es_cierre(linea: str) -> bool:
-        l = linea.strip()
-        if not l:
-            return False
-        if re.fullmatch(r"(?:#[^\s#]+\s*)+", l):
-            return True
-        if re.search(r"youtube\.com|youtu\.be|canal de YouTube|/\s*radiodelcentro", l, re.IGNORECASE):
-            return True
-        if re.search(r"diariolacampa\S*\.com", l, re.IGNORECASE):
-            return len(re.sub(r"\S*diariolacampa\S*", "", l).split()) <= 6
-        return False
-
-    cuerpo = "\n".join(l for l in cuerpo.splitlines() if not _es_cierre(l)).strip()
+    # `cierre_youtube`, una sola vez, al final y en el orden pedido. `es_linea_de_cierre` vive en
+    # `branding` porque es el mismo módulo que ARMA ese cierre: uno solo sabe reconocer al otro.
+    # Esto también permite REPROCESAR una descripción ya publicada sin duplicarle nada.
+    cuerpo = "\n".join(l for l in cuerpo.splitlines()
+                       if not es_linea_de_cierre(l)).strip()
     topicos = [h for h in (_hashtag(str(t)) for t in (tags or [])) if len(h) > 2]
     return "\n\n".join(x for x in (_en_parrafos(cuerpo),
                                    cierre_youtube(_linea_hashtags(topicos))) if x)
