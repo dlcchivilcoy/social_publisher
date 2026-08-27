@@ -256,8 +256,9 @@ SEO_PROMPT = (
     "FORMATO (importante para que se lea fácil): escribí CADA oración o idea como un PÁRRAFO "
     "APARTE, separados por un RENGLÓN EN BLANCO (o sea, punto y aparte con una línea vacía en "
     "medio). NO entregues todo junto en un solo bloque de texto. "
-    "Terminá con una línea de hashtags relevantes: MÁXIMO 5 hashtags (entre 3 y 5, nunca más de 5). "
-    "Incluí #Chivilcoy SOLO si la nota es de/sobre Chivilcoy; misma regla de localidad que el título.\n"
+    "TERMINÁ CON LA ÚLTIMA FRASE DEL TEXTO: no agregues hashtags, ni links, ni invitaciones a la "
+    "web o al canal de YouTube. Ese cierre lo escribe el sistema y va DESPUÉS del texto; si lo "
+    "escribís vos también, sale DUPLICADO en la descripción.\n"
     "- tags: lista de 8 a 12 etiquetas (palabras o frases cortas) para el campo Tags de YouTube, "
     "en minúsculas, con términos temáticos del video y «radio del centro»; sumá «chivilcoy» u otra "
     "localidad SOLO si corresponde al contenido (misma regla que el título, no la pongas por defecto).\n"
@@ -389,10 +390,9 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
         import re as _re
         descripcion = _re.sub(r"\s*#chivilcoy\b", "", descripcion, flags=_re.IGNORECASE).strip()
         tags = [t for t in tags if "chivilcoy" not in t.lower()]
-    # Invitación fija al canal (por si Gemini no la incluyó).
-    from utils.branding import canal_yt_url, linea_canal_yt
-    if canal_yt_url().lower() not in descripcion.lower():
-        descripcion = (descripcion + "\n\n" + linea_canal_yt()).strip()
+    # `descripcion` es SOLO EL CUERPO. La invitación al canal, la de la web y los hashtags los
+    # agrega quien publica (`branding.cierre_youtube` / `transcriber._descripcion_social`), una
+    # sola vez y en el orden pedido. Antes se agregaba también acá y salía DUPLICADA.
     return {"titulo": titulo, "bajada": bajada, "descripcion": descripcion, "tags": tags}
 
 

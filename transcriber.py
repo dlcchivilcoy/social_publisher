@@ -897,12 +897,21 @@ def _sitio_ok(texto: str) -> str:
     return normalizar_sitio(texto)
 
 
+def _espacio_tras_punto(texto: str) -> str:
+    """Mete el espacio que falta cuando la IA escribe «…jóvenes.Explica la importancia…».
+
+    Sin ese espacio el separador de oraciones no encuentra dónde cortar y toda la descripción
+    salía en UN SOLO BLOQUE. Solo actúa cuando después del punto viene una MAYÚSCULA, así no
+    toca dominios (`diariolacampaña.com.ar`), decimales (`1.500`) ni siglas (`EE.UU.`)."""
+    return re.sub(r"(?<=[a-záéíóúüñ0-9)\"»”])([.!?])(?=[A-ZÁÉÍÓÚÜÑ¿¡])", r"\1 ", texto or "")
+
+
 def _en_parrafos(texto: str, oraciones_por_parrafo: int = 2) -> str:
     """Separa la bajada en PÁRRAFOS para que no salga un bloque de texto (pedido 2026-08-26).
 
     Si el texto ya viene con párrafos, se respetan. Si viene de corrido, se agrupa cada
     `oraciones_por_parrafo` oraciones. Vale para todas las redes (web, IG, FB, TikTok, YT)."""
-    t = (texto or "").strip()
+    t = _espacio_tras_punto((texto or "").strip())
     if not t:
         return t
     salida = []
