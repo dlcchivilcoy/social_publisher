@@ -85,6 +85,18 @@ def _fallback_models(primary: str = "") -> list:
     return ([primary] if primary else []) + fb
 
 
+# Cuántas veces se espera sobre la MISMA clave+modelo ante un 503 antes de rotar. Bajo a
+# propósito: esperar sobre un proyecto saturado no lo desatasca; probar otro proyecto, sí.
+# Modelo principal por defecto. gemini-2.5-flash quedo RETIRADO el 2026-08-27: devuelve
+# 404 "no longer available to new users" en TODAS las claves menos la del proyecto mas
+# viejo, y esa estaba saturada (503) -> el bot tenia un solo camino posible y tapado.
+# Configurable con GEMINI_MODEL en el .env.
+_MODELO_DEFAULT = "gemini-3.6-flash"
+
+
+_ESPERAS_POR_COMBO = 2
+
+
 def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_pool=None):
     """POST a generateContent con reintentos + ROTACIÓN de CLAVES y de MODELO ante 429.
     Prioridad: agota las claves con el modelo bueno (calidad) y recién ahí cae al modelo de
@@ -99,13 +111,20 @@ def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_
     modelos = _fallback_models(model) or [model]
     combos = [(m, k) for m in modelos for k in keys]  # (modelo, clave): modelo bueno primero
     ci, r = 0, None
-    intentos = max(7, len(combos) + 3)
+    # 503/500 = servidor SOBRECARGADO. Antes se esperaba siempre sobre la MISMA clave y el mismo
+    # modelo: el 2026-08-27 eso dejó al desgrabador de YouTube 90 minutos reintentando hasta que
+    # GitHub cortó la corrida, teniendo 9 claves y un modelo de respaldo sin usar. La capacidad se
+    # asigna por PROYECTO y por MODELO, así que ante un 503 que insiste conviene MOVERSE, no
+    # esperar. Se espera `_ESPERAS_POR_COMBO` veces en el mismo combo y después se rota.
+    esperas_aqui = 0
+    intentos = max(9, len(combos) * (_ESPERAS_POR_COMBO + 1) + 3)
     for intento in range(intentos):
         m, k = combos[ci]
         r = requests.post(f"{API_BASE}/models/{m}:generateContent?key={k}",
                           json=payload, timeout=timeout)
         if r.status_code == 429 and ci < len(combos) - 1:
             ci += 1  # 429 → probar la siguiente combinación (otra clave, o el modelo de respaldo)
+            esperas_aqui = 0
             nuevo_m = combos[ci][0]
             if nuevo_m != m:
                 logger.warning(f"Gemini 429; cambio al modelo de respaldo «{nuevo_m}»…")
@@ -113,9 +132,18 @@ def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_
                 logger.warning(f"Gemini 429 (cuota de una clave); roto de clave (combo {ci + 1}/{len(combos)})…")
             continue
         if r.status_code in (429, 500, 503) and intento < intentos - 1:
-            espera = min(60, 15 * (intento + 1))
-            logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
-            time.sleep(espera)
+            if esperas_aqui < _ESPERAS_POR_COMBO or ci >= len(combos) - 1:
+                espera = min(60, 15 * (esperas_aqui + 1))
+                esperas_aqui += 1
+                logger.warning(f"Gemini {r.status_code} (sobrecargado); reintento en {espera}s…")
+                time.sleep(espera)
+                continue
+            ci += 1  # sigue sobrecargado acá → me muevo a otra clave/modelo en vez de esperar
+            esperas_aqui = 0
+            nuevo_m = combos[ci][0]
+            logger.warning(f"Gemini {r.status_code} sigue sobrecargado; me paso a "
+                           + (f"el modelo de respaldo «{nuevo_m}»" if nuevo_m != m else "otra clave")
+                           + f" (combo {ci + 1}/{len(combos)})…")
             continue
         break
     if r is None or r.status_code >= 400:
@@ -338,7 +366,7 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
     key = get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
-    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = get("GEMINI_MODEL") or _MODELO_DEFAULT
     prompt = SEO_PROMPT
     if youtube_url:
         prompt += ("\nMIRÁ EL VIDEO ADJUNTO y basate en lo que REALMENTE se dice ahí (personas, "
@@ -435,7 +463,7 @@ def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video
     key = get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env.")
-    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = get("GEMINI_MODEL") or _MODELO_DEFAULT
     instruc = (GANCHO_PROMPT + "\nTÍTULO: " + (titulo or "") +
                "\nDESCRIPCIÓN: " + (descripcion or "")[:600])
     parts = [{"text": instruc}]
@@ -1128,7 +1156,7 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
-    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = get("GEMINI_MODEL") or _MODELO_DEFAULT
     media_part = {"file_data": {"file_uri": url}}
     logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
     # Flujo en 3 pasos (transcribir → redactar anclado → verificar), a temperatura 0: prioriza
@@ -1163,7 +1191,7 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
     key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         return nota
-    model = get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = get("GEMINI_MODEL") or _MODELO_DEFAULT
     palabras = len((nota.get("texto") or "").split())
     corta = palabras < min_palabras
     guia = (
@@ -1223,7 +1251,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
-    model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
     mime = _mime(media_path)
 
     # Fotos de contexto (independientes de la clave).
@@ -1348,7 +1376,7 @@ def corregir_texto(descripcion: str, lugar: str = "", foto_path=None,
     key = (api_key or "").strip() or get("GEMINI_API_KEY")
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
-    model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
     ctx = (descripcion or "").strip()
     if (lugar or "").strip():
         ctx = f"Lugar del hecho: {lugar.strip()}\n{ctx}"
@@ -1423,7 +1451,7 @@ def resumen_seo(titulo: str, texto: str, max_chars: int = 300, lugar: str = "",
         return ""
     try:
         key = (api_key or "").strip() or get("GEMINI_API_KEY")
-        model = (model or "").strip() or get("GEMINI_MODEL") or "gemini-2.5-flash"
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
         ctx = f"LUGAR: {lugar.strip()}\n" if (lugar or "").strip() else ""
         prompt = (_RESUMEN_SEO_PROMPT.replace("{MAX}", str(int(max_chars))) +
                   f"\n\n{ctx}TÍTULO: {(titulo or '').strip()}\n\nTEXTO:\n{base}")
