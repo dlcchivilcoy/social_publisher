@@ -271,3 +271,27 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
         _avisar_fallo_publicacion(hoy, combos_fallidos)  # aviso por mail (dedup por día+combos)
 
     logger.info("=== Tapa+Farmacias (historias): fin ===")
+    _recuperar_muro(dry_run)
+
+
+def _recuperar_muro(dry_run: bool) -> None:
+    """RED DE SEGURIDAD del posteo al muro de Facebook (tapa + farmacias, 00:00).
+
+    Ese posteo es lo ÚNICO del sistema que depende del `schedule:` NATIVO de GitHub, que no
+    es confiable: el 27/8/2026 salió 10 h 42 min tarde y el 28/8 directamente no se disparó
+    (las historias sí salieron, porque las dispara cron-job.org). Resultado: la tapa no
+    apareció en el muro y nadie se enteró.
+
+    Las historias corren a las 08:00 por cron-job.org —disparo confiable, MISMO grupo de
+    concurrencia y MISMOS datos (tapa + farmacias)—, así que son el lugar natural para
+    verificar. `run_muro_tapa_farmacias` ya es idempotente por fecha: si el muro de hoy ya
+    salió, no hace nada. Nunca puede voltear las historias, que ya están publicadas."""
+    try:
+        from muro_tapa_farmacias import _ya_hoy, run_muro_tapa_farmacias
+        if _ya_hoy(date.today()):
+            return
+        logger.warning("El muro de FB (tapa+farmacias) todavía no salió hoy: lo publico ahora "
+                       "(el cron nativo de GitHub no disparó).")
+        run_muro_tapa_farmacias(dry_run=dry_run)
+    except Exception as e:  # noqa: BLE001 — recuperar nunca puede tumbar la corrida
+        logger.error(f"No pude recuperar el muro de FB: {e}")
