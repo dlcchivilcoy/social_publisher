@@ -72,6 +72,17 @@ def _gemini_keys(primary: str = "") -> list:
     return out
 
 
+def _clave_por_defecto() -> str:
+    """Clave a usar cuando el llamador NO especifica ninguna: la PRIMERA del pool.
+
+    Antes cada flujo caía a `GEMINI_API_KEY` por su cuenta, y esa variable NO es la primera
+    del pool: el desgrabador de videos arrancaba con una clave gratis mientras el de YouTube
+    arrancaba con la paga. Distinto orden para el mismo trabajo, sin que nadie lo decidiera.
+    Con esto, la prioridad vive en UN solo lugar (`_gemini_keys`) y vale para todos."""
+    pool = _gemini_keys()
+    return pool[0] if pool else (get("GEMINI_API_KEY") or "")
+
+
 def _fallback_models(primary: str = "") -> list:
     """Modelos a probar, EN ORDEN, para caer a un modelo alternativo ante 429 cuando ya se
     agotaron las claves con el modelo bueno. Cada modelo del plan gratis tiene su PROPIO cupo
@@ -363,7 +374,7 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
     REALMENTE se dice — clave para no equivocar el tema cuando el título original es vago o
     ambiguo (ej.: «Cerámica» es un CLUB de fútbol, no la industria del cerámico; sin ver el
     video la IA lo tomaba como economía). Devuelve {titulo, bajada, descripcion, tags}."""
-    key = get("GEMINI_API_KEY")
+    key = _clave_por_defecto()
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -460,7 +471,7 @@ def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video
     video de YouTube directo (primeros minutos, para acotar la cuota) y saca la frase/
     emoción más fuerte; si no, trabaja con título+descripción. Devuelve {gancho, keyword,
     emocion}."""
-    key = get("GEMINI_API_KEY")
+    key = _clave_por_defecto()
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env.")
     model = get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -1212,7 +1223,7 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     `instrucciones`: directiva extra de redacción (ej. pedir un cuerpo más largo).
     `api_key`: clave Gemini a usar; si viene vacía cae a GEMINI_API_KEY del .env. Sirve
     para que el desgrabador de YouTube use una clave DEDICADA (su propia cuota gratis)."""
-    key = (api_key or "").strip() or get("GEMINI_API_KEY")
+    key = (api_key or "").strip() or _clave_por_defecto()
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -1282,7 +1293,7 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
 
     Best-effort: ante cualquier error devuelve la nota tal como estaba. Conserva
     volanta/título; solo cambia «texto»."""
-    key = (api_key or "").strip() or get("GEMINI_API_KEY")
+    key = (api_key or "").strip() or _clave_por_defecto()
     if not key:
         return nota
     model = get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -1352,7 +1363,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     gemini-flash-latest sí funciona.
     """
     media_path = Path(media_path)
-    key = (api_key or "").strip() or get("GEMINI_API_KEY")
+    key = (api_key or "").strip() or _clave_por_defecto()
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -1477,7 +1488,7 @@ def corregir_texto(descripcion: str, lugar: str = "", foto_path=None,
     """Deja BIEN REDACTADA la descripción del vecino (gramática/ortografía/redacción) SIN cambiar la
     información ni el largo (pedido 2026-08-09). Si se pasa `foto_path`, la adjunta como apoyo visual
     (no para agregar hechos). Devuelve el mismo dict que `transcribe_to_nota` (hay_noticia=True)."""
-    key = (api_key or "").strip() or get("GEMINI_API_KEY")
+    key = (api_key or "").strip() or _clave_por_defecto()
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -1554,7 +1565,7 @@ def resumen_seo(titulo: str, texto: str, max_chars: int = 300, lugar: str = "",
     if not base:
         return ""
     try:
-        key = (api_key or "").strip() or get("GEMINI_API_KEY")
+        key = (api_key or "").strip() or _clave_por_defecto()
         model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
         ctx = f"LUGAR: {lugar.strip()}\n" if (lugar or "").strip() else ""
         prompt = (_RESUMEN_SEO_PROMPT.replace("{MAX}", str(int(max_chars))) +
