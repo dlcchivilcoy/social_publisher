@@ -116,16 +116,20 @@ def _fb_foto_activo() -> bool:
 
 
 def _caption_fb_nota(volanta: str, titular: str, url: str) -> str:
-    """Texto del posteo de foto en Facebook: SOLO volanta + titular + link clickeable a la
-    nota. SIN resumen/primer párrafo (pedido del usuario: solo el titular, así no se repite
-    el título ni quedan textos mal cortados). La FOTO (la de la nota) se sube aparte y el
-    titular/volanta salen del .docx (texto limpio, sin caracteres raros)."""
-    partes = []
-    if volanta:
-        partes.append(f"📌 {volanta}")
-    partes.append(f"📰 {titular}")
-    partes.append(f"📲 Leé la nota completa 👉 {url}")
-    return "\n\n".join(partes)
+    """Texto del posteo de foto en Facebook: TITULAR y LINK en los PRIMEROS renglones, para
+    que se vean SIN tener que tocar «Ver más» (pedido 2026-08-28).
+
+    Facebook corta el texto de un posteo con foto a los pocos renglones y **cuenta los
+    renglones EN BLANCO como renglones**. Antes esto eran tres párrafos separados por líneas
+    vacías: el link caía en el renglón 5 y quedaba siempre escondido. Ahora va compacto
+    —volanta y titular en el MISMO renglón, link en el siguiente— y sin la muletilla «Leé la
+    nota completa», que solo gastaba caracteres. De 5 renglones a 2.
+
+    La URL igual es larga (~120 caracteres, porque Wix devuelve el dominio en punycode), así
+    que en pantallas chicas la cola puede recortarse; lo que importa es que el titular y el
+    link queden arriba y el enlace siga siendo clickeable. La FOTO se sube aparte."""
+    cabeza = f"📰 {volanta} — {titular}" if volanta else f"📰 {titular}"
+    return f"{cabeza}\n👉 {url}"
 
 
 # ── Aviso: que ninguna nota de la carpeta se pierda en silencio ───────────────────────
