@@ -51,6 +51,26 @@ def sitio_web() -> str:
     return normalizar_sitio((get("STORY_SITE_URL") or "").strip()) or SITIO_CANONICO
 
 
+def link_nota(url: str) -> str:
+    """Link CORTO y con el dominio propio para compartir una nota.
+
+    Wix devuelve la URL en punycode y con el prefijo `/single-post/` (122 caracteres). La web
+    (Astro) sirve `/n/{slug}` y redirige 301 a la nota, así lo que se publica es más corto y
+    se lee con la Ñ. Ahorra 17 caracteres, que en Facebook son los que empujan el link debajo
+    del «Ver más».
+
+    Solo reescribe si la URL es de una nota (`/single-post/` o `/post/`); cualquier otra cosa
+    vuelve intacta. Ante la menor duda devuelve la original: un link roto en un posteo ya
+    publicado es peor que un link largo."""
+    limpia = (url or "").strip()
+    if not limpia or not re.search(r"/(?:single-)?post/", limpia):
+        return url
+    slug = limpia.rstrip("/").rsplit("/", 1)[-1].split("?", 1)[0].split("#", 1)[0]
+    if not slug:
+        return url
+    return f"https://{SITIO_CANONICO}/n/{slug}"
+
+
 def cierre_youtube(hashtags: str = "") -> str:
     """Cierre fijo de las descripciones de YouTube (pedido 2026-08-26): primero las dos
     llamadas a la acción (web + canal) y los HASHTAGS AL FINAL DE TODO.

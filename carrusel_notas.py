@@ -128,8 +128,9 @@ def _caption_fb_nota(volanta: str, titular: str, url: str) -> str:
     La URL igual es larga (~120 caracteres, porque Wix devuelve el dominio en punycode), así
     que en pantallas chicas la cola puede recortarse; lo que importa es que el titular y el
     link queden arriba y el enlace siga siendo clickeable. La FOTO se sube aparte."""
+    from utils.branding import link_nota
     cabeza = f"📰 {volanta} — {titular}" if volanta else f"📰 {titular}"
-    return f"{cabeza}\n👉 {url}"
+    return f"{cabeza}\n👉 {link_nota(url)}"
 
 
 # ── Aviso: que ninguna nota de la carpeta se pierda en silencio ───────────────────────
