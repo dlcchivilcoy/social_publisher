@@ -397,7 +397,8 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
             logger.info(f"    Nota {estado} ({palabras_ini} palabras); segundo pase para dejarla "
                         f"en ~2 páginas ({min_pal}-{max_pal})…")
             nota = gemini.reescribir_a_dos_paginas(v["url"], nota, min_pal, max_pal,
-                                                   LARGO_OBJETIVO, extra_text=contexto, api_key=key)
+                                                   LARGO_OBJETIVO, extra_text=contexto, api_key=key,
+                                                   transcripcion=nota.get("transcripcion", ""))
 
         slug = _slug(nota.get("titulo") or v["titulo"])
         docx_path = destino / f"{slug}.docx"

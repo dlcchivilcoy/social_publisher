@@ -967,6 +967,43 @@ def _extraer_audio(media_local_path):
         return None
 
 
+def _audio_de_youtube(url: str):
+    """Baja SOLO la pista de audio de un video de YouTube a un archivo temporal.
+
+    Es lo que le faltaba al desgrabador de YouTube para poder usar el MISMO camino
+    AUDIO-FIRST que el desgrabador de videos: con el audio en disco, la transcripción la hace
+    Groq y a Gemini le llega SOLO TEXTO. Así se deja de depender de la ingesta de video de
+    Gemini, que es la parte que se satura (503) y la que más consume de la clave paga.
+
+    Best-effort: ante cualquier error devuelve None y se sigue con el camino clásico."""
+    import tempfile
+    try:
+        import yt_dlp
+    except ImportError:
+        logger.warning("yt-dlp no está instalado; sigo con Gemini mirando el video de YouTube.")
+        return None
+    destino = Path(tempfile.gettempdir()) / f"yt_asr_{int(time.time())}"
+    opciones = {
+        "format": "bestaudio/best",
+        "outtmpl": str(destino) + ".%(ext)s",
+        "quiet": True, "no_warnings": True, "noprogress": True, "noplaylist": True,
+        # Sin postprocesado: el mp3 chico que necesita Groq lo arma después `_extraer_audio`.
+        "postprocessors": [],
+    }
+    try:
+        with yt_dlp.YoutubeDL(opciones) as ydl:
+            info = ydl.extract_info(url, download=True)
+            archivo = Path(ydl.prepare_filename(info))
+        if not archivo.exists() or archivo.stat().st_size == 0:
+            logger.warning("yt-dlp no dejó el audio; sigo con Gemini mirando el video.")
+            return None
+        logger.info(f"  Paso 1a: audio de YouTube bajado ({archivo.stat().st_size // 1024} KB).")
+        return archivo
+    except Exception as e:  # noqa: BLE001 — bajar el audio nunca puede voltear el desgrabe
+        logger.warning(f"No pude bajar el audio de YouTube ({e}); sigo con Gemini mirando el video.")
+        return None
+
+
 def _transcribir_groq(media_local_path, prompt_hint: str = ""):
     """Transcribe el AUDIO de un archivo local con Groq Whisper (español, temperatura 0).
     `prompt_hint` (el glosario) sesga hacia los nombres propios locales. Best-effort: cualquier
@@ -1157,6 +1194,40 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     if not key:
         raise ValueError("Falta GEMINI_API_KEY en .env (clave gratis de Google AI Studio).")
     model = get("GEMINI_MODEL") or _MODELO_DEFAULT
+
+    # ── AUDIO-FIRST (2026-08-27): el MISMO camino que ya usa el desgrabador de videos ─────
+    # Se baja SOLO el audio, lo transcribe Groq y a Gemini le llega TEXTO. Antes se le pasaba
+    # el file_uri de YouTube y Gemini tenía que INGERIR el video: eso es lo que se satura
+    # (503 en cadena) y lo que más consume de la clave paga. Si algo falla, cae SOLO al
+    # camino clásico de abajo: nunca queda peor que antes.
+    if _groq_on() and _audio_first_on():
+        audio = _audio_de_youtube(url)
+        if audio is not None:
+            hint = "\n".join(x for x in (_glosario(), (extra_text or "").strip()) if x)
+            try:
+                g_txt = _transcribir_groq(audio, hint)
+            except Exception as e:  # noqa: BLE001
+                g_txt = None
+                logger.warning(f"Groq falló ({e}); caigo a Gemini mirando el video.")
+            finally:
+                try:
+                    audio.unlink()
+                except Exception:  # noqa: BLE001
+                    pass
+            if g_txt and len(g_txt) >= 25:
+                logger.info(f"Audio-first (YouTube): Groq transcribió {len(g_txt)} chars; "
+                            f"Gemini solo redacta (sin ingerir el video).")
+                nota = _redactar_y_verificar(g_txt, extra_text or "", key, model,
+                                             _gemini_keys(key), instrucciones=instrucciones,
+                                             momento=0.0, segmentos=[])
+                # La transcripción viaja con la nota: el segundo pase de largo la usa como
+                # fuente en vez de volver a pedirle el video a Gemini.
+                nota["transcripcion"] = g_txt
+                logger.info(f"Gemini OK (YouTube, audio-first): hay_noticia={nota['hay_noticia']} "
+                            f"| «{nota['volanta']} — {nota['titulo']}»")
+                return nota
+            logger.info("Audio-first (YouTube): sin transcripción de Groq; sigo con Gemini.")
+
     media_part = {"file_data": {"file_uri": url}}
     logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
     # Flujo en 3 pasos (transcribir → redactar anclado → verificar), a temperatura 0: prioriza
@@ -1178,7 +1249,8 @@ _REESCRIBIR_LARGO_BASE = (
 
 
 def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabras: int,
-                             objetivo: int, extra_text: str = "", api_key: str = "") -> dict:
+                             objetivo: int, extra_text: str = "", api_key: str = "",
+                             transcripcion: str = "") -> dict:
     """Segundo pase de LARGO para el desgrabador: si el cuerpo quedó fuera del rango (~2
     páginas de Word), reescribe la nota para dejarla entre `min_palabras` y `max_palabras`.
 
@@ -1199,7 +1271,15 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
         f"({palabras} palabras). Reescribí el cuerpo para que tenga entre {min_palabras} y "
         f"{max_palabras} palabras (objetivo {objetivo}: DOS páginas de Word, ni media ni tres). "
     )
-    if corta:
+    # Si hay TRANSCRIPCIÓN (camino audio-first), se desarrolla desde ella: tiene todo lo que se
+    # dijo y no hay que volver a pedirle el video a Gemini (que es lo que se satura).
+    usa_transcripcion = corta and bool((transcripcion or "").strip())
+    if usa_transcripcion:
+        guia += ("Desarrollá EN SERIO a partir de la TRANSCRIPCIÓN de abajo, que es lo que "
+                 "REALMENTE se dijo: más declaraciones y citas textuales, contexto, antecedentes, "
+                 "el porqué y el para qué, consecuencias y próximos pasos. NO inventes NADA que no "
+                 "esté en la transcripción; no rellenes con vueltas ni repitas la misma idea. ")
+    elif corta:
         guia += ("MIRÁ DE NUEVO EL VIDEO adjunto y desarrollá EN SERIO lo que SÍ está en el "
                  "material: más declaraciones y citas textuales, contexto, antecedentes, el "
                  "porqué y el para qué, consecuencias y próximos pasos. NO inventes NADA que no "
@@ -1214,8 +1294,10 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
     prompt = _REESCRIBIR_LARGO_BASE + "\n\n" + guia
     if (extra_text or "").strip():
         prompt += "\n\nCONTEXTO ADICIONAL:\n" + extra_text.strip()
+    if usa_transcripcion:
+        prompt += "\n\nTRANSCRIPCIÓN LITERAL DEL VIDEO:\n" + transcripcion.strip()
     parts = [{"text": prompt}]
-    if corta and url:
+    if corta and url and not usa_transcripcion:
         parts.append({"file_data": {"file_uri": url}})  # re-mira el video: desarrolla sin inventar
     try:
         raw = _post_generate(parts, key, model, temperature=0.3)
