@@ -1004,6 +1004,27 @@ def _audio_de_youtube(url: str):
         return None
 
 
+# Groq RECHAZA (400) una pista de más de 896 caracteres. Antes se cortaba en 1000 y la
+# llamada fallaba entera: se perdía la transcripción de Groq y se caía a que Gemini mirara
+# el video —justo lo que queremos evitar—, en silencio. Se corta con margen y por palabra.
+_GROQ_PROMPT_MAX = 850
+
+
+def _pista_groq(prompt_hint: str) -> str:
+    """Recorta la pista (glosario + contexto) al límite que acepta Groq, sin cortar palabras.
+
+    El glosario va primero en la pista, así que si algo se cae es el contexto largo — que es
+    lo menos útil para el reconocimiento de voz (Whisper solo pondera ~224 tokens)."""
+    pista = " ".join((prompt_hint or "").split())
+    if len(pista) <= _GROQ_PROMPT_MAX:
+        return pista
+    corte = pista[:_GROQ_PROMPT_MAX]
+    espacio = corte.rfind(" ")
+    corte = corte[:espacio] if espacio > _GROQ_PROMPT_MAX // 2 else corte
+    logger.debug(f"Groq: pista recortada de {len(pista)} a {len(corte)} caracteres.")
+    return corte
+
+
 def _transcribir_groq(media_local_path, prompt_hint: str = ""):
     """Transcribe el AUDIO de un archivo local con Groq Whisper (español, temperatura 0).
     `prompt_hint` (el glosario) sesga hacia los nombres propios locales. Best-effort: cualquier
@@ -1019,8 +1040,9 @@ def _transcribir_groq(media_local_path, prompt_hint: str = ""):
             files = {"file": (audio.name, fh, "audio/mpeg")}
             data = {"model": _groq_model(), "language": "es", "temperature": "0",
                     "response_format": "json"}
-            if (prompt_hint or "").strip():
-                data["prompt"] = prompt_hint.strip()[:1000]  # Whisper pondera la pista hasta ~224 tokens
+            pista = _pista_groq(prompt_hint)
+            if pista:
+                data["prompt"] = pista
             logger.info(f"  Paso 1b (Groq {_groq_model()}): transcribiendo audio…")
             r = requests.post(GROQ_ASR_URL, headers={"Authorization": f"Bearer {key}"},
                               files=files, data=data, timeout=300)
