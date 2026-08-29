@@ -4795,12 +4795,30 @@
     "zocalo": "Cristina Cosentino",
     "draft_id": "29dc47f4-47e1-419c-9165-c1faf24bf1d6",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtexwtuwm5y9-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-29T22:16:23.682Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-29T22:16:23.682Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-29T19:24:42",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mundial-de-hockey-2026-las-leonas-vencieron-a-paises-bajos-y-se",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AGC8m-FV_d7PurdXvnoQvSH\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "en borradores",
+      "wix": "ok"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "27796785860003649",
+    "yt_video_id": "AVVLt7WShMM",
+    "yt_url": "https://www.youtube.com/shorts/AVVLt7WShMM",
+    "yt_watch_url": "https://www.youtube.com/watch?v=AVVLt7WShMM",
+    "yt_titulo": "Las Leonas vencieron a Países Bajos y se coronaron campeonas del mundo",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-29T19:24:42",
+    "yt_metrics": {}
   }
 ]
