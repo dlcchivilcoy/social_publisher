@@ -4724,12 +4724,30 @@
     "zocalo": "",
     "draft_id": "",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtejob477aos-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-29T15:37:52.336Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-08-29T15:37:52.336Z — wa:5492346417636",
+    "fecha_publicado": "2026-08-29T12:47:06",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "falló: TikTok init falló (400): {\"error\":{\"code\":\"invalid_params\",\"message\":\"The chunk size is invalid\",\"log_id\":\"20260829234706598676554456B27F5BB3\"}}",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18019371524860691",
+    "fb_video_id": "1394616212099170",
+    "yt_video_id": "rTt9_-RdZcg",
+    "yt_url": "https://www.youtube.com/shorts/rTt9_-RdZcg",
+    "yt_watch_url": "https://www.youtube.com/watch?v=rTt9_-RdZcg",
+    "yt_titulo": "Celebración del Día de las Infancias en la Asociación Bancaria Chivilcoy",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-08-29T12:47:06",
+    "yt_metrics": {}
   }
 ]
