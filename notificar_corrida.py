@@ -22,6 +22,8 @@ import smtplib
 from email.message import EmailMessage
 from email.utils import formataddr
 
+from datetime import date
+
 from utils.config import get, load_config
 
 # Tokens de los comandos de PUBLICACION que SI ameritan aviso si no salen.
@@ -31,9 +33,25 @@ PUBLICACION_TOKENS = (
     "notas-web", "sepelios",
 )
 
+# Comandos que dependen de la CARPETA DE LA EDICION en Drive. Sabados y domingos el
+# usuario NO sube edicion, asi que esos dias no hay NADA que publicar y una corrida
+# fallida es ruido, no un problema (2026-08-29: rclone.org se cayo un sabado y llego
+# un mail de "corrida fallida --notes-carousel" que no habia que atender).
+# OJO: farmacias / tapa-farmacias / muro NO estan aca: farmacias SI se publica sab/dom
+# (hay farmacia de turno), asi que para esos el aviso se manda igual.
+TOKENS_DEPENDEN_EDICION = ("notes-web", "notes-carousel", "run-now", "news-stories", "notas-web")
+
 
 def _es_publicacion(args: str) -> bool:
     return any(tok in args for tok in PUBLICACION_TOKENS)
+
+
+def _depende_de_la_edicion(args: str) -> bool:
+    return any(tok in args for tok in TOKENS_DEPENDEN_EDICION)
+
+
+def _es_finde() -> bool:
+    return date.today().weekday() >= 5  # 5=sabado, 6=domingo
 
 
 def _enviar(asunto: str, cuerpo: str) -> bool:
@@ -76,6 +94,13 @@ def main() -> None:
     if not _es_publicacion(args):
         print(f"[notificar] la corrida ({args}) no es de publicacion del diario; "
               "no se avisa (esos flujos ya avisan solos). Fin.")
+        return
+
+    # Sabado/domingo no hay edicion en Drive: los comandos que dependen de ella no
+    # tenian nada para publicar, asi que un fallo NO amerita alarma.
+    if _es_finde() and _depende_de_la_edicion(args):
+        print(f"[notificar] fin de semana: ({args}) depende de la edicion del Drive y "
+              "sab/dom no hay edicion; no se avisa. Fin.")
         return
 
     asunto = f"⚠️ Publicador: corrida {outcome} — {args}"

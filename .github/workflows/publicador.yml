@@ -124,13 +124,23 @@ jobs:
         run: |
           sudo -v
           # Reintentar: a veces el install.sh flaquea y rclone no queda en PATH (exit 127).
+          # Con timeouts para no colgarse: el 2026-08-29 rclone.org no respondia y cada
+          # intento tardaba ~135s (el paso entero se comio 13 minutos antes de fallar).
           for i in 1 2 3; do
-            curl -fsSL https://rclone.org/install.sh | sudo bash || true
+            curl -fsSL --connect-timeout 15 --max-time 120 https://rclone.org/install.sh | sudo bash || true
             if command -v rclone >/dev/null 2>&1; then break; fi
             echo "rclone no quedó instalado (intento $i); reintento en 5s…"
             sleep 5
           done
-          command -v rclone >/dev/null 2>&1 || { echo "ERROR: no se pudo instalar rclone"; exit 1; }
+          # RESPALDO: si rclone.org esta caido (paso el 2026-08-29 y tumbo la corrida
+          # entera ANTES de publicar), instalar rclone desde los repos de Ubuntu. Es una
+          # version mas vieja pero alcanza de sobra para el copy/lsl de Drive.
+          if ! command -v rclone >/dev/null 2>&1; then
+            echo "rclone.org no respondio; instalo rclone desde apt (respaldo)…"
+            sudo apt-get update -qq || true
+            sudo apt-get install -y -qq rclone || true
+          fi
+          command -v rclone >/dev/null 2>&1 || { echo "ERROR: no se pudo instalar rclone (ni rclone.org ni apt)"; exit 1; }
           rclone version | head -1
 
       - name: Escribir credenciales (.env) y config de Drive (rclone)
