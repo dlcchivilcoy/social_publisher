@@ -17,6 +17,62 @@ logger = get_logger("wix")
 TZ_AR = timezone(timedelta(hours=-3))
 
 
+# ── Llamadas con REINTENTO ────────────────────────────────────────────────────
+# Por qué (2026-08-31): se perdió una nota de corresponsal con
+# «Wix (importar imagen): 500 <!DOCTYPE html>…» — Wix devolvió un error interno (una
+# página HTML, ni siquiera JSON) y el desgrabador abandonó la nota entera. Las 16 llamadas
+# a Wix eran de UN SOLO INTENTO: cualquier hipo momentáneo del servidor tiraba abajo todo
+# el trabajo ya hecho (desgrabación, reel, subida a YouTube).
+#
+# Se reintenta SOLO lo que puede arreglarse solo: 5xx (error del servidor), 429 (límite de
+# tasa) y las caídas de red. Un 4xx (payload mal, permisos) NO se reintenta: volvería a
+# fallar igual y solo haría perder tiempo.
+def _reintentos() -> int:
+    try:
+        return max(1, int(get("WIX_REINTENTOS") or 4))
+    except ValueError:
+        return 4
+
+
+def _pedir(metodo: str, url: str, **kw):
+    """`requests.request` con reintentos ante fallas TRANSITORIAS de Wix."""
+    import time
+    intentos, ultimo, r = _reintentos(), None, None
+    for i in range(1, intentos + 1):
+        try:
+            r = requests.request(metodo, url, **kw)
+            if r.status_code < 500 and r.status_code != 429:
+                return r                       # OK, o un 4xx que no va a mejorar solo
+            ultimo = f"{r.status_code} {r.text[:120]}"
+        except requests.RequestException as e:
+            ultimo, r = str(e)[:120], None
+        if i == intentos:
+            break
+        espera = min(30, 3 * (2 ** (i - 1)))    # 3s, 6s, 12s…
+        logger.warning(f"{metodo} {url.rsplit('/', 1)[-1][:40]} falló ({ultimo}); "
+                       f"reintento {i}/{intentos - 1} en {espera}s…")
+        time.sleep(espera)
+    if r is not None:
+        return r                               # lo maneja el `_raise_for_status` del llamador
+    raise RuntimeError(f"Wix: sin respuesta tras {intentos} intentos ({ultimo})")
+
+
+def _post(url, **kw):
+    return _pedir("POST", url, **kw)
+
+
+def _get(url, **kw):
+    return _pedir("GET", url, **kw)
+
+
+def _patch(url, **kw):
+    return _pedir("PATCH", url, **kw)
+
+
+def _delete(url, **kw):
+    return _pedir("DELETE", url, **kw)
+
+
 # ── SEO ───────────────────────────────────────────────────────────────────────
 def _slugify(text: str, max_len: int = 70) -> str:
     """URL limpia: sin acentos ni ñ, minúsculas, separadas por guiones."""
@@ -143,7 +199,7 @@ def _get_member_id(headers: dict) -> str:
     configured = get("WIX_MEMBER_ID")
     if configured:
         return configured
-    r = requests.post(POSTS_QUERY_URL, headers=headers, json={"query": {"paging": {"limit": 1}}}, timeout=30)
+    r = _post(POSTS_QUERY_URL, headers=headers, json={"query": {"paging": {"limit": 1}}}, timeout=30)
     _raise_for_status(r, "buscar autor")
     posts = r.json().get("posts", [])
     if not posts or not posts[0].get("memberId"):
@@ -175,7 +231,7 @@ def _importar_imagen(headers: dict, image_path: Path, title: str) -> tuple[str, 
     image_url = upload_to_imgbb(image_path)
     mime = "image/png" if Path(image_path).suffix.lower() == ".png" else "image/jpeg"
     nombre_archivo = _slugify(title)[:80] or "nota"
-    imp = requests.post(MEDIA_IMPORT_URL, headers=headers,
+    imp = _post(MEDIA_IMPORT_URL, headers=headers,
                         json={"mediaType": "IMAGE", "url": image_url, "mimeType": mime,
                               "displayName": nombre_archivo}, timeout=30)
     _raise_for_status(imp, "importar imagen")
@@ -189,7 +245,7 @@ def _importar_video(headers: dict, video_url: str, display_name: str) -> str:
     El procesamiento del video es asíncrono: el file_id sirve igual, y el video queda
     listo a los pocos segundos (antes de que el editor termine de revisar el borrador).
     """
-    imp = requests.post(MEDIA_IMPORT_URL, headers=headers,
+    imp = _post(MEDIA_IMPORT_URL, headers=headers,
                         json={"mediaType": "VIDEO", "url": video_url,
                               "mimeType": "video/mp4",
                               "displayName": (_slugify(display_name)[:80] or "video")},
@@ -207,18 +263,31 @@ def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
     member_id = _get_member_id(headers)
     title = _titulo_wix(title)  # Wix limita el título a 200 caracteres
 
-    file_id, image_url = _importar_imagen(headers, image_path, title)
+    # La FOTO no puede hacer perder la nota (2026-08-31). Antes esto era una llamada dura:
+    # un 500 momentáneo de Wix tiraba abajo la desgrabación, el reel y la subida a YouTube
+    # que ya estaban hechos. Ahora, si tras los reintentos igual falla, la nota se crea SIN
+    # foto y se avisa: la foto se agrega a mano en el borrador en diez segundos; rehacer el
+    # video no. Mismo criterio que el video embebido, acá abajo.
+    try:
+        file_id, image_url = _importar_imagen(headers, image_path, title)
+    except Exception as e:  # noqa: BLE001
+        file_id, image_url = "", ""
+        logger.error(f"No pude importar la foto de portada a Wix: {e}. La nota SALE IGUAL, "
+                     f"sin foto — agregala a mano en el borrador.")
 
     paragraphs = [p for p in body.split("\n") if p.strip()]
-    nodes = [{
-        "type": "IMAGE",
-        "id": "img0",
-        "nodes": [],
-        "imageData": {
-            "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
-            "image": {"src": {"id": file_id}},
-        },
-    }]
+    nodes = []
+    if file_id:
+        nodes.append({
+            "type": "IMAGE",
+            "id": "img0",
+            "nodes": [],
+            "imageData": {
+                "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER",
+                                  "textWrap": True},
+                "image": {"src": {"id": file_id}},
+            },
+        })
     # Video nativo embebido (arriba del texto, debajo de la foto). Best-effort: si el
     # import falla, se sigue sin video (la nota igual sale con foto).
     if video_url:
@@ -259,12 +328,14 @@ def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
             "categoryIds": category_ids,
             "featured": True,
             "richContent": {"nodes": nodes},
-            "media": {"wixMedia": {"image": {"id": file_id}}, "displayed": True, "custom": True},
             "seoSlug": slug,
             "seoData": seo_data,
         }
     }
-    draft = requests.post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)
+    if file_id:   # sin foto no se manda `media`: Wix rechaza un id vacío
+        draft_payload["draftPost"]["media"] = {
+            "wixMedia": {"image": {"id": file_id}}, "displayed": True, "custom": True}
+    draft = _post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)
     _raise_for_status(draft, "crear borrador")
     draft_id = draft.json()["draftPost"]["id"]
     logger.info(f"Borrador de Wix creado (sin publicar): draft_id={draft_id}")
@@ -319,7 +390,7 @@ def _nodo_video_youtube(url_or_id: str) -> dict:
 
 def _get_draft(headers: dict, draft_id: str) -> dict:
     # `fieldsets=RICH_CONTENT` es obligatorio: sin él, Wix NO devuelve el richContent.
-    r = requests.get(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers,
+    r = _get(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers,
                      params={"fieldsets": "RICH_CONTENT"}, timeout=30)
     _raise_for_status(r, "leer borrador")
     return r.json()["draftPost"]
@@ -371,7 +442,7 @@ def insertar_video_youtube(draft_id: str, youtube_url: str) -> bool:
         "draftPost": {"id": draft_id, "richContent": rich, "media": draft.get("media")},
         "fieldMask": ["richContent", "media"],  # media reenviado o se borra la portada
     }
-    r = requests.patch(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers, json=payload, timeout=30)
+    r = _patch(f"{DRAFT_POSTS_URL}/{draft_id}", headers=headers, json=payload, timeout=30)
     _raise_for_status(r, "embeber YouTube")
     logger.info(f"Reproductor de YouTube embebido en el borrador {draft_id}.")
     return True
@@ -380,12 +451,12 @@ def insertar_video_youtube(draft_id: str, youtube_url: str) -> bool:
 def publicar_borrador(draft_id: str) -> dict:
     """Publica un borrador ya creado. Devuelve {success, id, url}."""
     headers = _headers()
-    pub = requests.post(f"{DRAFT_POSTS_URL}/{draft_id}/publish", headers=headers, json={}, timeout=30)
+    pub = _post(f"{DRAFT_POSTS_URL}/{draft_id}/publish", headers=headers, json={}, timeout=30)
     _raise_for_status(pub, "publicar")
 
     post_url = ""
     try:
-        r_url = requests.post(
+        r_url = _post(
             POSTS_QUERY_URL, headers=headers,
             json={"query": {"filter": {"id": {"$eq": draft_id}}, "paging": {"limit": 1}}, "fieldsets": ["URL"]},
             timeout=30,
@@ -419,7 +490,7 @@ def url_de_nota(titulo: str, buscar: int = 100) -> str:
         return ""
     headers = _headers()
     try:
-        r = requests.post(
+        r = _post(
             POSTS_QUERY_URL, headers=headers,
             json={"query": {"paging": {"limit": min(100, buscar)},
                             "sort": [{"fieldName": "firstPublishedDate", "order": "DESC"}]},
@@ -496,7 +567,7 @@ def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
                         "settings": {"preventAutoRedirect": False}},
         }
     }
-    draft = requests.post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)
+    draft = _post(DRAFT_POSTS_URL, headers=headers, json=draft_payload, timeout=30)
     _raise_for_status(draft, "crear borrador galería")
     draft_id = draft.json()["draftPost"]["id"]
     logger.info(f"Borrador de galería creado: draft_id={draft_id} "
@@ -508,7 +579,7 @@ def borrar_post(post_id: str) -> dict:
     """Borra del blog (manda a la papelera y despublica) un post por su id (= draft_id).
     Se usa para el botón «Borrar de la web» de las notas para web."""
     headers = _headers()
-    r = requests.delete(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, timeout=30)
+    r = _delete(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, timeout=30)
     _raise_for_status(r, "borrar post")
     logger.info(f"Post borrado de Wix: {post_id}")
     return {"success": True, "id": post_id}
@@ -546,7 +617,7 @@ def top_posts_today(limit: int = 5) -> list[dict]:
         },
         "fieldsets": ["METRICS", "URL"],
     }
-    r = requests.post(POSTS_QUERY_URL, headers=_headers(), json=body, timeout=30)
+    r = _post(POSTS_QUERY_URL, headers=_headers(), json=body, timeout=30)
     _raise_for_status(r, "consultar más leídas")
     out = []
     for p in r.json().get("posts", []):
@@ -571,7 +642,7 @@ def views_de_post(post_id: str) -> int:
     if not post_id:
         return 0
     try:
-        r = requests.post(
+        r = _post(
             POSTS_QUERY_URL, headers=_headers(),
             json={"query": {"filter": {"id": {"$eq": post_id}}, "paging": {"limit": 1}},
                   "fieldsets": ["METRICS"]}, timeout=30,
@@ -617,7 +688,7 @@ def cargar_nota(link_or_slug: str) -> dict:
     cuerpo (texto plano); `title` es el título completo de Wix («VOLANTA — titular»)."""
     headers = _headers()
     slug = slug_de_link(link_or_slug)
-    r = requests.post(POSTS_QUERY_URL, headers=headers, json={
+    r = _post(POSTS_QUERY_URL, headers=headers, json={
         "query": {"filter": {"slug": {"$eq": slug}}, "paging": {"limit": 1}},
         "fieldsets": ["URL"],
     }, timeout=30)
@@ -686,7 +757,7 @@ def editar_nota(post_id: str, title: str, paragraphs: list, nueva_portada_path=N
                       "richContent": {"nodes": nodes}, "media": media},
         "fieldMask": ["title", "richContent", "media"],  # media reenviado o se borra la portada
     }
-    r = requests.patch(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, json=payload, timeout=60)
+    r = _patch(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, json=payload, timeout=60)
     _raise_for_status(r, "editar nota")
     logger.info(f"Nota {post_id} editada; re-publicando…")
     return publicar_borrador(post_id)
