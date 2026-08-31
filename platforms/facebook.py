@@ -369,26 +369,65 @@ def _raise_for_status(resp: requests.Response) -> None:
 
 def video_insights(video_id: str) -> dict:
     """Estadísticas de un video de la página (para el ranking de corresponsales):
-    {vistas, likes, comentarios, shares}. Best-effort: si falla, devuelve {} (no rompe)."""
+    {vistas, likes, comentarios, shares, alcance}. Best-effort: si falla, devuelve {}.
+
+    Las COMPARTIDAS no están en el objeto video: viven en el POSTEO que lo contiene, y hay
+    que pedirlas con el id COMPLETO `{page_id}_{post_id}` — con el post_id pelado la API
+    responde «(#12) singular statuses API is deprecated». Requiere el permiso
+    `pages_read_user_content` (agregado el 2026-08-31); sin él, `shares` queda en 0.
+    Cada dato se pide por separado a propósito: si uno falla, los demás igual salen."""
     token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
     if not token or not video_id:
         return {}
+    base = f"https://graph.facebook.com/{GRAPH_VERSION}"
+    out = {"vistas": 0, "likes": 0, "comentarios": 0, "shares": 0, "alcance": 0}
     try:
-        r = requests.get(
-            f"https://graph.facebook.com/{GRAPH_VERSION}/{video_id}",
-            params={"fields": "views,likes.summary(true),comments.summary(true)", "access_token": token},
-            timeout=30,
-        )
-        d = r.json()
+        d = requests.get(f"{base}/{video_id}", timeout=30, params={
+            "fields": "views,likes.summary(true),comments.summary(true),post_id",
+            "access_token": token}).json()
         if "error" in d:
             logger.warning(f"[fb insights] {video_id}: {d['error'].get('message')}")
             return {}
-        return {
-            "vistas": int(d.get("views") or 0),
-            "likes": int(((d.get("likes") or {}).get("summary") or {}).get("total_count") or 0),
-            "comentarios": int(((d.get("comments") or {}).get("summary") or {}).get("total_count") or 0),
-            "shares": 0,
-        }
+        out["vistas"] = int(d.get("views") or 0)
+        out["likes"] = int(((d.get("likes") or {}).get("summary") or {}).get("total_count") or 0)
+        out["comentarios"] = int(((d.get("comments") or {}).get("summary") or {}).get("total_count") or 0)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[fb insights] {video_id}: {e}")
         return {}
+
+    post_id = d.get("post_id") or ""
+    if post_id:
+        pid = post_id if "_" in post_id else f"{get('FACEBOOK_PAGE_ID')}_{post_id}"
+        try:
+            s = requests.get(f"{base}/{pid}", timeout=30,
+                             params={"fields": "shares", "access_token": token}).json()
+            # Un posteo SIN compartidas no trae la clave `shares`: eso es 0, no un error.
+            out["shares"] = int((s.get("shares") or {}).get("count") or 0)
+            if "error" in s:
+                logger.debug(f"[fb shares] {pid}: {s['error'].get('message')}")
+        except Exception as e:  # noqa: BLE001
+            logger.debug(f"[fb shares] {pid}: {e}")
+        out["alcance"] = _alcance_posteo(pid, token)
+    return out
+
+
+def _alcance_posteo(post_id: str, token: str) -> int:
+    """Alcance del posteo. Hoy devuelve 0: Facebook RETIRÓ la métrica.
+
+    Verificado el 2026-08-31 con `read_insights` ya otorgado: `post_impressions_unique` y
+    `post_impressions` responden «(#100) The value must be a valid insights metric». O sea
+    que no es un problema de permisos, la métrica ya no existe en esta versión de la API.
+
+    No se prueban nombres a ciegas porque serían dos llamadas fallidas por cada video. Si en
+    algún momento aparece el nombre correcto, se carga en `FB_METRICA_ALCANCE` y empieza a
+    funcionar sin tocar el código. Sin alcance, el ranking usa las VISTAS para Facebook."""
+    metrica = (get("FB_METRICA_ALCANCE") or "").strip()
+    if not metrica:
+        return 0
+    try:
+        r = requests.get(f"https://graph.facebook.com/{GRAPH_VERSION}/{post_id}/insights",
+                         params={"metric": metrica, "access_token": token}, timeout=30).json()
+        datos = r.get("data") or []
+        return int(datos[0]["values"][0].get("value") or 0) if datos and datos[0].get("values") else 0
+    except Exception:  # noqa: BLE001
+        return 0

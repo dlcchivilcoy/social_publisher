@@ -144,6 +144,12 @@ def main() -> None:
         help="Enviar por mail el Excel de contabilidad de videos por colaborador (mes anterior, o --mes YYYY-MM).",
     )
     parser.add_argument(
+        "--metricas-videos",
+        action="store_true",
+        help="Tomar la FOTO de metricas de los reels de corresponsales que ya cumplieron la "
+             "ventana (72 h por defecto). Idempotente: no vuelve a medir los que ya tienen foto.",
+    )
+    parser.add_argument(
         "--corresponsales-ranking",
         action="store_true",
         help="Ranking mensual de Corresponsales (vistas Wix + insights FB/IG → podio 1°/2°/3° + premios). Mail + Excel + borrador Wix. (mes anterior, o --mes YYYY-MM).",
@@ -435,6 +441,11 @@ def main() -> None:
         logger.info(f"Modo --videos-report (dry_run={args.dry_run}). mes={args.mes}")
         run_videos_report(mes=args.mes, dry_run=args.dry_run)
         return
+
+    if args.metricas_videos:
+        from metricas import capturar_pendientes
+        logger.info(f"Modo --metricas-videos (dry_run={args.dry_run}).")
+        capturar_pendientes(dry_run=args.dry_run)
 
     if args.corresponsales_ranking:
         from ranking import run_corresponsales_ranking

@@ -32,6 +32,8 @@ on:
 #   - publicador-yt-seo         : --yt-seo* (SEO de YouTube).
 #   - publicador-yt-desgrabador : --yt-desgrabar (notas de YouTube de Radio del Centro a texto).
 #   - publicador-videos         : desgrabador de VIDEOS del diario (y corresponsales): transcribe/publish-video.
+#                                 + --metricas-videos, que ESCRIBE EL MISMO ledger
+#                                 (.videos_contabilidad.json) y tiene que serializar con ellos.
 #   - publicador-notas-web      : --notas-web ("notas para web": Word+foto+video por subcarpeta).
 #   - publicador-historias      : --news-stories / --yt-live / --yt-notes / --canal-story / --sepelios.
 #   - publicador-notas          : carga de notas del diario a WEB/FB/IG: --notes-web / --notes-carousel / --run-now.
@@ -47,7 +49,7 @@ concurrency:
     || contains(github.event.inputs.args, 'watchdog') && 'publicador-otros'
     || contains(github.event.inputs.args, 'yt-seo') && 'publicador-yt-seo-2'
     || contains(github.event.inputs.args, 'yt-desgrabar') && 'publicador-yt-desgrabador'
-    || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video')) && 'publicador-videos'
+    || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video') || contains(github.event.inputs.args, 'metricas-videos')) && 'publicador-videos'
     || contains(github.event.inputs.args, 'notas-web') && 'publicador-notas-web'
     || (contains(github.event.inputs.args, 'farmacias') || contains(github.event.inputs.args, 'tapa') || contains(github.event.inputs.args, 'muro')) && 'publicador-tapa-farmacias'
     || (contains(github.event.inputs.args, 'news-stories') || contains(github.event.inputs.args, 'yt-live') || contains(github.event.inputs.args, 'yt-notes') || contains(github.event.inputs.args, 'canal-story') || contains(github.event.inputs.args, 'sepelios')) && 'publicador-historias'

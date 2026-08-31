@@ -17,6 +17,7 @@ from pathlib import Path
 import openpyxl
 from openpyxl.styles import Font
 
+from metricas import es_publicada
 from utils.config import get
 from utils.logger import get_logger
 
@@ -52,7 +53,6 @@ def _filas_del_mes(rows: list[dict], mes: str) -> list[dict]:
     return out
 
 
-_PUBLICADOS = ("publicado", "publicado_solo_reel", "publicado_placa")
 
 
 def _quien(r: dict) -> str:
@@ -94,12 +94,12 @@ def _armar_excel(filas: list[dict], mes: str) -> Path:
         u = _quien(r)
         conteo.setdefault(u, [0, 0])
         conteo[u][0] += 1
-        if r.get("estado") in _PUBLICADOS:
+        if es_publicada(r.get("estado")):
             conteo[u][1] += 1
     for u, (total, pub) in sorted(conteo.items(), key=lambda kv: kv[1][0], reverse=True):
         res.append([u, total, pub])
     res.append([])
-    res.append(["TOTAL", len(filas), sum(1 for r in filas if r.get("estado") in _PUBLICADOS)])
+    res.append(["TOTAL", len(filas), sum(1 for r in filas if es_publicada(r.get("estado")))])
     for c in res[res.max_row]:
         c.font = Font(bold=True)
     for col, ancho in zip("ABC", (32, 16, 12)):
@@ -120,7 +120,7 @@ def _armar_excel(filas: list[dict], mes: str) -> Path:
             d["cel"] = r.get("corresponsal_celular") or d["cel"]
             d["lugar"] = r.get("corresponsal_lugar") or d["lugar"]
             d["tot"] += 1
-            if r.get("estado") in _PUBLICADOS:
+            if es_publicada(r.get("estado")):
                 d["pub"] += 1
             f = (r.get("fecha_recibido", "") or "")[:10]
             if f > d["fecha"]:
