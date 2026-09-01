@@ -1273,7 +1273,12 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         logger.info("[youtube] desactivado (YT_SHORTS_ENABLED=0).")
 
     # 3.5) TikTok (mismo archivo vertical): publicación DIRECTA en el perfil.
-    _publicar_tiktok(local_reel, caption, estado_canales)
+    # El `publish_id` se guarda en el ledger: con Direct Post habilitado (2026-08-31) TikTok
+    # pasa a ser una publicación real y entra al ranking mensual, que necesita ese id para
+    # buscarle las métricas. En modo borrador no hay nada que medir y queda vacío.
+    res_tt = _publicar_tiktok(local_reel, caption, estado_canales)
+    if (res_tt or {}).get("modo") == "directo" and res_tt.get("publish_id"):
+        fila["tiktok_publish_id"] = res_tt["publish_id"]
 
     # 4) Nota web: embeber el YouTube (si salió) y PUBLICAR (al final del flujo). `sin_web` (corresponsal
     # sin desgrabar) tiene borrador SOLO para editar/borrar el texto → NO se publica en la web.

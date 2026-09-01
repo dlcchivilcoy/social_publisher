@@ -128,10 +128,27 @@ def _web(fila: dict) -> dict | None:
 
 
 def _tiktok(fila: dict) -> dict | None:
-    """TikTok todavía NO suma: los reels van a BORRADORES, así que no hay publicación que
-    medir. El día que se habilite Direct Post y se guarde el id del posteo, se lee acá y
-    entra al puntaje solo — el resto del sistema no se toca."""
-    return None
+    """Métricas del reel en TikTok (Direct Post habilitado el 2026-08-31).
+
+    Dos pasos, porque TikTok separa publicar de consultar: del `publish_id` que quedó al
+    publicar se saca el id PÚBLICO del video (aparece cuando TikTok termina de procesar) y
+    con ese se piden las estadísticas. El id público se guarda en el ledger para no volver a
+    pedirlo. Si falta el scope `video.list`, `metricas()` devuelve {} y TikTok no suma —
+    exactamente como antes, sin romper nada."""
+    pid = fila.get("tiktok_publish_id") or ""
+    if not pid:
+        return None
+    from platforms import tiktok
+    vid = fila.get("tiktok_video_id") or ""
+    if not vid:
+        vid = tiktok.video_id_de(pid)
+        if vid:
+            fila["tiktok_video_id"] = vid       # queda cacheado en el ledger
+    d = tiktok.metricas(vid) if vid else {}
+    if not d:
+        return None
+    return {**_VACIA, "vistas": d["vistas"], "likes": d["likes"],
+            "comentarios": d["comentarios"], "compartidas": d["compartidas"]}
 
 
 _FUENTES = {"facebook": _fb, "instagram": _ig, "youtube": _yt, "web": _web, "tiktok": _tiktok}

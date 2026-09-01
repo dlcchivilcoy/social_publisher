@@ -15,6 +15,7 @@ Uso:
   1. Cargá en el .env (local): TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET, TIKTOK_REDIRECT_URI
   2. python tiktok_auth.py
 """
+import hashlib
 import http.server
 import secrets
 import sys
@@ -93,6 +94,27 @@ def _pedir_a_mano(url: str) -> dict:
     return {k: v[0] for k, v in urllib.parse.parse_qs(q).items()}
 
 
+def _pkce() -> tuple[str, str]:
+    """Par (code_verifier, code_challenge) para PKCE.
+
+    TikTok EXIGE PKCE cuando el `redirect_uri` es de tipo Desktop (localhost) — sin esto la
+    autorización falla con «code_challenge» (2026-09-01). Es una protección para clientes que
+    no pueden guardar un secreto: se manda el hash ahora y el original al canjear el código,
+    así un tercero que intercepte el `code` no puede usarlo.
+
+    Formato: SHA256 en **HEXADECIMAL**, no en base64url. TikTok se aparta del RFC 7636 y lo
+    dice explícito en su documentación de Login Kit for Desktop:
+
+        «Create the code challenge by hashing the code verifier using hex encoding of
+         SHA256. Since we only support S256 as code_challenge_method, use
+         code_challenge = SHA256(code_verifier)»
+
+    (https://developers.tiktok.com/doc/login-kit-desktop/). `code_challenge_method=S256` es
+    obligatorio: sin él la petición se rechaza con «code_challenge_method»."""
+    verifier = secrets.token_urlsafe(64)[:96]          # el RFC pide entre 43 y 128 caracteres
+    return verifier, hashlib.sha256(verifier.encode("utf-8")).hexdigest()
+
+
 def main() -> None:
     load_config()
     ck = get("TIKTOK_CLIENT_KEY")
@@ -103,12 +125,15 @@ def main() -> None:
         sys.exit(1)
 
     state = secrets.token_urlsafe(8)
+    verifier, challenge = _pkce()
     url = AUTHORIZE_URL + "?" + urllib.parse.urlencode({
         "client_key": ck,
         "scope": scopes(),  # se lee DESPUES de load_config()
         "response_type": "code",
         "redirect_uri": redirect,
         "state": state,
+        "code_challenge": challenge,
+        "code_challenge_method": "S256",   # TikTok lo EXIGE (sin él: error «code_challenge_method»)
     })
 
     es_local = urllib.parse.urlparse(redirect).hostname in ("localhost", "127.0.0.1")
@@ -127,6 +152,7 @@ def main() -> None:
         "client_key": ck, "client_secret": cs,
         "code": code, "grant_type": "authorization_code",
         "redirect_uri": redirect,
+        "code_verifier": verifier,        # PKCE: el original del hash que se mandó al autorizar
     }, headers={"Content-Type": "application/x-www-form-urlencoded"}, timeout=30)
     if not r.ok:
         print(f"\n❌ Error al canjear el código ({r.status_code}): {r.text[:400]}")

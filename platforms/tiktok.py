@@ -283,3 +283,54 @@ def estado(publish_id: str) -> dict:
     if not r.ok:
         raise RuntimeError(f"TikTok status falló ({r.status_code}): {r.text[:300]}")
     return r.json().get("data", {})
+
+
+# ── Métricas (para el ranking de corresponsales) ──────────────────────────────
+VIDEO_QUERY_URL = f"{OPEN_API}/v2/video/query/"
+
+
+def video_id_de(publish_id: str) -> str:
+    """Id PÚBLICO del video ya publicado, a partir del `publish_id` del Direct Post.
+
+    TikTok lo devuelve en `status/fetch` recién cuando terminó de procesar, así que puede
+    tardar unos minutos. Vacío si todavía no está o si falla; nunca lanza."""
+    if not publish_id:
+        return ""
+    try:
+        d = estado(publish_id)
+    except Exception as e:  # noqa: BLE001
+        logger.debug(f"TikTok estado({publish_id}): {e}")
+        return ""
+    ids = d.get("publicaly_available_post_id") or []       # sic: TikTok lo escribe así
+    return str(ids[0]) if ids else ""
+
+
+def metricas(video_id: str) -> dict:
+    """{vistas, likes, comentarios, compartidas} de un video ya publicado.
+
+    ⚠️ Necesita el scope **`video.list`**, que es APARTE del de publicar (`video.publish`).
+    Si la app no lo tiene, TikTok responde con error de scope y acá se devuelve {}: el
+    ranking simplemente no cuenta TikTok, igual que hasta ahora. Nunca lanza."""
+    if not video_id:
+        return {}
+    try:
+        r = requests.post(
+            VIDEO_QUERY_URL,
+            params={"fields": "id,like_count,comment_count,share_count,view_count"},
+            headers={"Authorization": f"Bearer {_access_token()}",
+                     "Content-Type": "application/json; charset=UTF-8"},
+            json={"filters": {"video_ids": [video_id]}}, timeout=60)
+        if not r.ok:
+            logger.debug(f"TikTok video/query ({r.status_code}): {r.text[:200]}")
+            return {}
+        videos = (r.json().get("data") or {}).get("videos") or []
+        if not videos:
+            return {}
+        v = videos[0]
+        return {"vistas": int(v.get("view_count") or 0),
+                "likes": int(v.get("like_count") or 0),
+                "comentarios": int(v.get("comment_count") or 0),
+                "compartidas": int(v.get("share_count") or 0)}
+    except Exception as e:  # noqa: BLE001
+        logger.debug(f"TikTok métricas de {video_id}: {e}")
+        return {}
