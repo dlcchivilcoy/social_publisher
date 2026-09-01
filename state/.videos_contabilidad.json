@@ -1510,7 +1510,107 @@
     "yt_titulo": "Hallaron la moto Honda Wave robada en Moquehuá",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-04T19:45:17",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:00:49",
+      "horas": 661.3,
+      "facebook": {
+        "vistas": 388,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2653,
+        "alcance": 2124,
+        "likes": 85,
+        "comentarios": 2,
+        "compartidas": 5,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 51,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 10,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.158,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 5.0,
+        "alcance": 388,
+        "tasa": 0.0129,
+        "indice": 1.212
+      },
+      "instagram": {
+        "interacciones": 104.0,
+        "alcance": 2124,
+        "tasa": 0.049,
+        "indice": 3.419
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 51,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 10,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 3102,
+    "_inter": 109.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.158,
+      "redes": 4,
+      "vistas": 3102,
+      "interacciones": 109.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 5.0,
+          "alcance": 388,
+          "tasa": 0.0129,
+          "indice": 1.212
+        },
+        "instagram": {
+          "interacciones": 104.0,
+          "alcance": 2124,
+          "tasa": 0.049,
+          "indice": 3.419
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 51,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 10,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msgclk1g3bc9.mp4",
@@ -1589,7 +1689,107 @@
     "yt_titulo": "Manifestantes en Chivilcoy: \"La patria no se vende\"",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-06T21:01:12",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:00:55",
+      "horas": 612.0,
+      "facebook": {
+        "vistas": 1470,
+        "alcance": 0,
+        "likes": 16,
+        "comentarios": 2,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4307,
+        "alcance": 2605,
+        "likes": 89,
+        "comentarios": 10,
+        "compartidas": 11,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 955,
+        "alcance": 0,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 20,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.638,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 23.0,
+        "alcance": 1470,
+        "tasa": 0.0156,
+        "indice": 3.164
+      },
+      "instagram": {
+        "interacciones": 142.0,
+        "alcance": 2605,
+        "tasa": 0.0545,
+        "indice": 4.376
+      },
+      "youtube": {
+        "interacciones": 5.0,
+        "alcance": 955,
+        "tasa": 0.0052,
+        "indice": 3.01
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 20,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 6752,
+    "_inter": 170.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.638,
+      "redes": 4,
+      "vistas": 6752,
+      "interacciones": 170.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 23.0,
+          "alcance": 1470,
+          "tasa": 0.0156,
+          "indice": 3.164
+        },
+        "instagram": {
+          "interacciones": 142.0,
+          "alcance": 2605,
+          "tasa": 0.0545,
+          "indice": 4.376
+        },
+        "youtube": {
+          "interacciones": 5.0,
+          "alcance": 955,
+          "tasa": 0.0052,
+          "indice": 3.01
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 20,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-07_matias-zucchi_msj1jr6iv62j",
@@ -1618,7 +1818,87 @@
     "ig_media_id": "17950588599219043",
     "fb_video_id": "1085377487156766",
     "yt_video_id": "9Zw-4AT3AHc",
-    "yt_url": "https://www.youtube.com/shorts/9Zw-4AT3AHc"
+    "yt_url": "https://www.youtube.com/shorts/9Zw-4AT3AHc",
+    "metricas": {
+      "capturado": "2026-09-01T09:00:59",
+      "horas": 597.4,
+      "facebook": {
+        "vistas": 751,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 6,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1750,
+        "alcance": 1264,
+        "likes": 65,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 170,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.9,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 17.0,
+        "alcance": 751,
+        "tasa": 0.0226,
+        "indice": 2.95
+      },
+      "instagram": {
+        "interacciones": 68.0,
+        "alcance": 1264,
+        "tasa": 0.0538,
+        "indice": 2.751
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 170,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 2671,
+    "_inter": 85.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.9,
+      "redes": 3,
+      "vistas": 2671,
+      "interacciones": 85.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 17.0,
+          "alcance": 751,
+          "tasa": 0.0226,
+          "indice": 2.95
+        },
+        "instagram": {
+          "interacciones": 68.0,
+          "alcance": 1264,
+          "tasa": 0.0538,
+          "indice": 2.751
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 170,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "3 personas ",
@@ -1708,7 +1988,107 @@
     "yt_titulo": "Fervor y oraciones por San Cayetano en Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-07T18:56:03",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:02",
+      "horas": 590.1,
+      "facebook": {
+        "vistas": 289,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 945,
+        "alcance": 721,
+        "likes": 13,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 282,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.35,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 289,
+        "tasa": 0.0069,
+        "indice": 0.582
+      },
+      "instagram": {
+        "interacciones": 15.0,
+        "alcance": 721,
+        "tasa": 0.0208,
+        "indice": 0.818
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 282,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1524,
+    "_inter": 17.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.35,
+      "redes": 4,
+      "vistas": 1524,
+      "interacciones": 17.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 289,
+          "tasa": 0.0069,
+          "indice": 0.582
+        },
+        "instagram": {
+          "interacciones": 15.0,
+          "alcance": 721,
+          "tasa": 0.0208,
+          "indice": 0.818
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 282,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "VID-20260807-WA0049.mp4",
@@ -1768,7 +2148,87 @@
     "ig_media_id": "18120084428504864",
     "fb_video_id": "2115474595993573",
     "yt_video_id": "SK3H3Rgq4qY",
-    "yt_url": "https://www.youtube.com/shorts/SK3H3Rgq4qY"
+    "yt_url": "https://www.youtube.com/shorts/SK3H3Rgq4qY",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:06",
+      "horas": 567.4,
+      "facebook": {
+        "vistas": 333,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1091,
+        "alcance": 751,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 119,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.266,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 333,
+        "tasa": 0.006,
+        "indice": 0.532
+      },
+      "instagram": {
+        "interacciones": 5.0,
+        "alcance": 751,
+        "tasa": 0.0067,
+        "indice": 0.266
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 119,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1543,
+    "_inter": 7.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.266,
+      "redes": 3,
+      "vistas": 1543,
+      "interacciones": 7.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 333,
+          "tasa": 0.006,
+          "indice": 0.532
+        },
+        "instagram": {
+          "interacciones": 5.0,
+          "alcance": 751,
+          "tasa": 0.0067,
+          "indice": 0.266
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 119,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "VID-20260808-WA0003.mp4",
@@ -2111,7 +2571,67 @@
       "wix": "omitido"
     },
     "ig_media_id": "17919627576202265",
-    "fb_video_id": "1020516747474978"
+    "fb_video_id": "1020516747474978",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:08",
+      "horas": 539.3,
+      "facebook": {
+        "vistas": 542,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 5987,
+        "alcance": 3289,
+        "likes": 73,
+        "comentarios": 0,
+        "compartidas": 150,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.904,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 4.0,
+        "alcance": 542,
+        "tasa": 0.0074,
+        "indice": 0.808
+      },
+      "instagram": {
+        "interacciones": 523.0,
+        "alcance": 3289,
+        "tasa": 0.159,
+        "indice": 5.0
+      }
+    },
+    "_redes": 2,
+    "_vistas": 6529,
+    "_inter": 527.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.904,
+      "redes": 2,
+      "vistas": 6529,
+      "interacciones": 527.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 4.0,
+          "alcance": 542,
+          "tasa": 0.0074,
+          "indice": 0.808
+        },
+        "instagram": {
+          "interacciones": 523.0,
+          "alcance": 3289,
+          "tasa": 0.159,
+          "indice": 5.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msmiwacs7tcz.mp4",
@@ -2140,7 +2660,67 @@
       "wix": "omitido"
     },
     "ig_media_id": "18186776701400404",
-    "fb_video_id": "1616679013497025"
+    "fb_video_id": "1616679013497025",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:11",
+      "horas": 538.9,
+      "facebook": {
+        "vistas": 472,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2088,
+        "alcance": 1155,
+        "likes": 16,
+        "comentarios": 0,
+        "compartidas": 14,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.55,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 3.0,
+        "alcance": 472,
+        "tasa": 0.0064,
+        "indice": 0.651
+      },
+      "instagram": {
+        "interacciones": 58.0,
+        "alcance": 1155,
+        "tasa": 0.0502,
+        "indice": 2.448
+      }
+    },
+    "_redes": 2,
+    "_vistas": 2560,
+    "_inter": 61.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.55,
+      "redes": 2,
+      "vistas": 2560,
+      "interacciones": 61.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 3.0,
+          "alcance": 472,
+          "tasa": 0.0064,
+          "indice": 0.651
+        },
+        "instagram": {
+          "interacciones": 58.0,
+          "alcance": 1155,
+          "tasa": 0.0502,
+          "indice": 2.448
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msno75gq7dcq.mp4",
@@ -2176,7 +2756,107 @@
     "yt_titulo": "Martha Cleci: \"Acá en Chivilcoy tenemos esta suerte\"",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-10T17:22:07",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:13",
+      "horas": 519.7,
+      "facebook": {
+        "vistas": 366,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 769,
+        "alcance": 591,
+        "likes": 15,
+        "comentarios": 1,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 37,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.434,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 366,
+        "tasa": 0.0055,
+        "indice": 0.502
+      },
+      "instagram": {
+        "interacciones": 20.0,
+        "alcance": 591,
+        "tasa": 0.0338,
+        "indice": 1.235
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 37,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1180,
+    "_inter": 22.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.434,
+      "redes": 4,
+      "vistas": 1180,
+      "interacciones": 22.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 366,
+          "tasa": 0.0055,
+          "indice": 0.502
+        },
+        "instagram": {
+          "interacciones": 20.0,
+          "alcance": 591,
+          "tasa": 0.0338,
+          "indice": 1.235
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 37,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_claudia-roger_msnqrqzbtogw.mp4",
@@ -2212,7 +2892,107 @@
     "yt_titulo": "CFI N°1 inauguró mural con ceremonia y participación de jóvenes",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-10T18:36:13",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:17",
+      "horas": 518.4,
+      "facebook": {
+        "vistas": 110,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1095,
+        "alcance": 764,
+        "likes": 27,
+        "comentarios": 2,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 110,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.102,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 110,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 31.0,
+        "alcance": 764,
+        "tasa": 0.0406,
+        "indice": 1.634
+      },
+      "youtube": {
+        "interacciones": 2.0,
+        "alcance": 110,
+        "tasa": 0.0182,
+        "indice": 2.773
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1323,
+    "_inter": 33.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.102,
+      "redes": 4,
+      "vistas": 1323,
+      "interacciones": 33.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 110,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 31.0,
+          "alcance": 764,
+          "tasa": 0.0406,
+          "indice": 1.634
+        },
+        "youtube": {
+          "interacciones": 2.0,
+          "alcance": 110,
+          "tasa": 0.0182,
+          "indice": 2.773
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-11_matias-zucchi_msnwqxjzphgi",
@@ -2244,7 +3024,87 @@
     "ig_media_id": "18113684302981570",
     "fb_video_id": "1441234251148652",
     "yt_video_id": "_LjQw883DsU",
-    "yt_url": "https://www.youtube.com/shorts/_LjQw883DsU"
+    "yt_url": "https://www.youtube.com/shorts/_LjQw883DsU",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:21",
+      "horas": 515.6,
+      "facebook": {
+        "vistas": 246,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1208,
+        "alcance": 804,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 65,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.051,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 246,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 3.0,
+        "alcance": 804,
+        "tasa": 0.0037,
+        "indice": 0.153
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 65,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1519,
+    "_inter": 3.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.051,
+      "redes": 3,
+      "vistas": 1519,
+      "interacciones": 3.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 246,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 3.0,
+          "alcance": 804,
+          "tasa": 0.0037,
+          "indice": 0.153
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 65,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-11_matias-zucchi_msnxauvtcva1",
@@ -2276,7 +3136,107 @@
     "ig_media_id": "17878413621653186",
     "fb_video_id": "1989813071738081",
     "yt_video_id": "4oq-nSvT0wE",
-    "yt_url": "https://www.youtube.com/shorts/4oq-nSvT0wE"
+    "yt_url": "https://www.youtube.com/shorts/4oq-nSvT0wE",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:24",
+      "horas": 515.4,
+      "facebook": {
+        "vistas": 476,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 3169,
+        "alcance": 1845,
+        "likes": 29,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 691,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 5,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.536,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 476,
+        "tasa": 0.0042,
+        "indice": 0.432
+      },
+      "instagram": {
+        "interacciones": 31.0,
+        "alcance": 1845,
+        "tasa": 0.0168,
+        "indice": 1.071
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 691,
+        "tasa": 0.0014,
+        "indice": 0.641
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 5,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 4341,
+    "_inter": 34.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.536,
+      "redes": 4,
+      "vistas": 4341,
+      "interacciones": 34.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 476,
+          "tasa": 0.0042,
+          "indice": 0.432
+        },
+        "instagram": {
+          "interacciones": 31.0,
+          "alcance": 1845,
+          "tasa": 0.0168,
+          "indice": 1.071
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 691,
+          "tasa": 0.0014,
+          "indice": 0.641
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 5,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msnyag67c07r.mp4",
@@ -2312,7 +3272,87 @@
     "yt_titulo": "Incautaron cocaína en dos allanamientos en Bragado, hay un aprehendido",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-10T22:05:02",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:28",
+      "horas": 514.9,
+      "facebook": {
+        "vistas": 307,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 6096,
+        "alcance": 4450,
+        "likes": 44,
+        "comentarios": 3,
+        "compartidas": 36,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 782,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.05,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 307,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 158.0,
+        "alcance": 4450,
+        "tasa": 0.0355,
+        "indice": 4.274
+      },
+      "youtube": {
+        "interacciones": 3.0,
+        "alcance": 782,
+        "tasa": 0.0038,
+        "indice": 1.874
+      }
+    },
+    "_redes": 3,
+    "_vistas": 7185,
+    "_inter": 161.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.05,
+      "redes": 3,
+      "vistas": 7185,
+      "interacciones": 161.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 307,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 158.0,
+          "alcance": 4450,
+          "tasa": 0.0355,
+          "indice": 4.274
+        },
+        "youtube": {
+          "interacciones": 3.0,
+          "alcance": 782,
+          "tasa": 0.0038,
+          "indice": 1.874
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-11_matias-zucchi_msot3rgqhh2y",
@@ -2344,7 +3384,107 @@
     "ig_media_id": "18092683229104859",
     "fb_video_id": "1069298815593452",
     "yt_video_id": "54CvslO7FaA",
-    "yt_url": "https://www.youtube.com/shorts/54CvslO7FaA"
+    "yt_url": "https://www.youtube.com/shorts/54CvslO7FaA",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:31",
+      "horas": 500.5,
+      "facebook": {
+        "vistas": 1885,
+        "alcance": 0,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4070,
+        "alcance": 2447,
+        "likes": 18,
+        "comentarios": 1,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 109,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 25,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.366,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 5.0,
+        "alcance": 1885,
+        "tasa": 0.0027,
+        "indice": 0.647
+      },
+      "instagram": {
+        "interacciones": 26.0,
+        "alcance": 2447,
+        "tasa": 0.0106,
+        "indice": 0.817
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 109,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 25,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 6089,
+    "_inter": 31.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.366,
+      "redes": 4,
+      "vistas": 6089,
+      "interacciones": 31.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 5.0,
+          "alcance": 1885,
+          "tasa": 0.0027,
+          "indice": 0.647
+        },
+        "instagram": {
+          "interacciones": 26.0,
+          "alcance": 2447,
+          "tasa": 0.0106,
+          "indice": 0.817
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 109,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 25,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-11_matias-zucchi_msp0yo9te7op",
@@ -2376,7 +3516,107 @@
     "ig_media_id": "18335256832252457",
     "fb_video_id": "1034272756247076",
     "yt_video_id": "T-sgpHCqKZk",
-    "yt_url": "https://www.youtube.com/shorts/T-sgpHCqKZk"
+    "yt_url": "https://www.youtube.com/shorts/T-sgpHCqKZk",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:35",
+      "horas": 496.8,
+      "facebook": {
+        "vistas": 155,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1971,
+        "alcance": 1212,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 55,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 12,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.083,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 155,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 8.0,
+        "alcance": 1212,
+        "tasa": 0.0066,
+        "indice": 0.33
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 55,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 12,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2193,
+    "_inter": 8.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.083,
+      "redes": 4,
+      "vistas": 2193,
+      "interacciones": 8.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 155,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 8.0,
+          "alcance": 1212,
+          "tasa": 0.0066,
+          "indice": 0.33
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 55,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 12,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-11_matias-zucchi_msp1ehc0rrto",
@@ -2408,7 +3648,87 @@
     "ig_media_id": "18170353318443480",
     "fb_video_id": "1371930457702555",
     "yt_video_id": "ajufMeOmMKw",
-    "yt_url": "https://www.youtube.com/shorts/ajufMeOmMKw"
+    "yt_url": "https://www.youtube.com/shorts/ajufMeOmMKw",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:39",
+      "horas": 496.6,
+      "facebook": {
+        "vistas": 403,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 3042,
+        "alcance": 1641,
+        "likes": 15,
+        "comentarios": 1,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 882,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.931,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 403,
+        "tasa": 0.0025,
+        "indice": 0.237
+      },
+      "instagram": {
+        "interacciones": 20.0,
+        "alcance": 1641,
+        "tasa": 0.0122,
+        "indice": 0.723
+      },
+      "youtube": {
+        "interacciones": 3.0,
+        "alcance": 882,
+        "tasa": 0.0034,
+        "indice": 1.832
+      }
+    },
+    "_redes": 3,
+    "_vistas": 4327,
+    "_inter": 24.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.931,
+      "redes": 3,
+      "vistas": 4327,
+      "interacciones": 24.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 403,
+          "tasa": 0.0025,
+          "indice": 0.237
+        },
+        "instagram": {
+          "interacciones": 20.0,
+          "alcance": 1641,
+          "tasa": 0.0122,
+          "indice": 0.723
+        },
+        "youtube": {
+          "interacciones": 3.0,
+          "alcance": 882,
+          "tasa": 0.0034,
+          "indice": 1.832
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-11_matias-zucchi_msp84laa9dro",
@@ -2440,7 +3760,107 @@
     "ig_media_id": "18102730178598391",
     "fb_video_id": "1742471770320142",
     "yt_video_id": "6ix2CahFSvw",
-    "yt_url": "https://www.youtube.com/shorts/6ix2CahFSvw"
+    "yt_url": "https://www.youtube.com/shorts/6ix2CahFSvw",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:42",
+      "horas": 493.4,
+      "facebook": {
+        "vistas": 1008,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 4,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2148,
+        "alcance": 1189,
+        "likes": 6,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 131,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 12,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.722,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 9.0,
+        "alcance": 1008,
+        "tasa": 0.0089,
+        "indice": 1.393
+      },
+      "instagram": {
+        "interacciones": 6.0,
+        "alcance": 1189,
+        "tasa": 0.005,
+        "indice": 0.25
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 131,
+        "tasa": 0.0076,
+        "indice": 1.244
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 12,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 3299,
+    "_inter": 16.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.722,
+      "redes": 4,
+      "vistas": 3299,
+      "interacciones": 16.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 9.0,
+          "alcance": 1008,
+          "tasa": 0.0089,
+          "indice": 1.393
+        },
+        "instagram": {
+          "interacciones": 6.0,
+          "alcance": 1189,
+          "tasa": 0.005,
+          "indice": 0.25
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 131,
+          "tasa": 0.0076,
+          "indice": 1.244
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 12,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_claudia_msqpwqpm8f1w_01.mp4",
@@ -2477,7 +3897,107 @@
     "yt_titulo": "Banco Credicoop Chivilcoy celebró el Día Internacional de las Cooperativas",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-12T22:11:30",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:45",
+      "horas": 466.8,
+      "facebook": {
+        "vistas": 721,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1311,
+        "alcance": 977,
+        "likes": 24,
+        "comentarios": 1,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 6,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.746,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 7.0,
+        "alcance": 721,
+        "tasa": 0.0097,
+        "indice": 1.236
+      },
+      "instagram": {
+        "interacciones": 38.0,
+        "alcance": 977,
+        "tasa": 0.0389,
+        "indice": 1.746
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 6,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2047,
+    "_inter": 45.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.746,
+      "redes": 4,
+      "vistas": 2047,
+      "interacciones": 45.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 7.0,
+          "alcance": 721,
+          "tasa": 0.0097,
+          "indice": 1.236
+        },
+        "instagram": {
+          "interacciones": 38.0,
+          "alcance": 977,
+          "tasa": 0.0389,
+          "indice": 1.746
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 6,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-13_matias-zucchi_msrjfv7z0h4l",
@@ -2509,7 +4029,87 @@
     "ig_media_id": "18419908321145105",
     "fb_video_id": "1157072293907800",
     "yt_video_id": "u1DaO2AgwmU",
-    "yt_url": "https://www.youtube.com/shorts/u1DaO2AgwmU"
+    "yt_url": "https://www.youtube.com/shorts/u1DaO2AgwmU",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:49",
+      "horas": 454.7,
+      "facebook": {
+        "vistas": 110,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 755,
+        "alcance": 513,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 11,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 79,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.814,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 110,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 36.0,
+        "alcance": 513,
+        "tasa": 0.0702,
+        "indice": 2.442
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 79,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 944,
+    "_inter": 36.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.814,
+      "redes": 3,
+      "vistas": 944,
+      "interacciones": 36.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 110,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 36.0,
+          "alcance": 513,
+          "tasa": 0.0702,
+          "indice": 2.442
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 79,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_claudia_msrl852ypt21_01.mp4",
@@ -2546,7 +4146,107 @@
     "yt_titulo": "Se mencionaron diversas sedes universitarias y el proyecto \"El Cielo de la Ciencia\"",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-13T11:12:22",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:51",
+      "horas": 453.8,
+      "facebook": {
+        "vistas": 970,
+        "alcance": 0,
+        "likes": 7,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2220,
+        "alcance": 1558,
+        "likes": 49,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 89,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 11,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.9,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 10.0,
+        "alcance": 970,
+        "tasa": 0.0103,
+        "indice": 1.569
+      },
+      "instagram": {
+        "interacciones": 55.0,
+        "alcance": 1558,
+        "tasa": 0.0353,
+        "indice": 2.031
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 89,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 11,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 3290,
+    "_inter": 65.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.9,
+      "redes": 4,
+      "vistas": 3290,
+      "interacciones": 65.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 10.0,
+          "alcance": 970,
+          "tasa": 0.0103,
+          "indice": 1.569
+        },
+        "instagram": {
+          "interacciones": 55.0,
+          "alcance": 1558,
+          "tasa": 0.0353,
+          "indice": 2.031
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 89,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 11,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-13_matias-zucchi_msrrthjyzdrj",
@@ -2578,7 +4278,107 @@
     "ig_media_id": "17882819397616992",
     "fb_video_id": "2494353747733907",
     "yt_video_id": "6J7utc_i1Eo",
-    "yt_url": "https://www.youtube.com/shorts/6J7utc_i1Eo"
+    "yt_url": "https://www.youtube.com/shorts/6J7utc_i1Eo",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:54",
+      "horas": 450.7,
+      "facebook": {
+        "vistas": 381,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1185,
+        "alcance": 738,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 64,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 14,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.128,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 381,
+        "tasa": 0.0026,
+        "indice": 0.245
+      },
+      "instagram": {
+        "interacciones": 5.0,
+        "alcance": 738,
+        "tasa": 0.0068,
+        "indice": 0.269
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 64,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 14,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1644,
+    "_inter": 6.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.128,
+      "redes": 4,
+      "vistas": 1644,
+      "interacciones": 6.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 381,
+          "tasa": 0.0026,
+          "indice": 0.245
+        },
+        "instagram": {
+          "interacciones": 5.0,
+          "alcance": 738,
+          "tasa": 0.0068,
+          "indice": 0.269
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 64,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 14,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-13_matias-zucchi_msrxc49wi9kk",
@@ -2610,7 +4410,87 @@
     "ig_media_id": "",
     "fb_video_id": "27849336518066990",
     "yt_video_id": "YzkuRzxCaog",
-    "yt_url": "https://www.youtube.com/shorts/YzkuRzxCaog"
+    "yt_url": "https://www.youtube.com/shorts/YzkuRzxCaog",
+    "metricas": {
+      "capturado": "2026-09-01T09:01:57",
+      "horas": 448.2,
+      "facebook": {
+        "vistas": 152,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 27,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.0,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 152,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 27,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 188,
+    "_inter": 0.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.0,
+      "redes": 3,
+      "vistas": 188,
+      "interacciones": 0.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 152,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 27,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_claudia_mss6em8vivy2_01.mp4",
@@ -2647,7 +4527,67 @@
     "yt_titulo": "Comenzó el Provincial Sub-15 Femenino y Chivilcoy juega contra Junín",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-13T21:06:45",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:01:59",
+      "horas": 443.9,
+      "facebook": {
+        "vistas": 346,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 35,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.0,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 346,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 35,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 2,
+    "_vistas": 381,
+    "_inter": 0.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.0,
+      "redes": 2,
+      "vistas": 381,
+      "interacciones": 0.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 346,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 35,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-14_matias-zucchi_mstedysz8ucq",
@@ -2679,7 +4619,67 @@
     "ig_media_id": "",
     "fb_video_id": "1366379181733121",
     "yt_video_id": "YCmiDDboL4w",
-    "yt_url": "https://www.youtube.com/shorts/YCmiDDboL4w"
+    "yt_url": "https://www.youtube.com/shorts/YCmiDDboL4w",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:01",
+      "horas": 423.3,
+      "facebook": {
+        "vistas": 234,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 103,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.0,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 234,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 103,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 2,
+    "_vistas": 337,
+    "_inter": 0.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.0,
+      "redes": 2,
+      "vistas": 337,
+      "interacciones": 0.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 234,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 103,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-14_matias-zucchi_mstgqc8xdsox",
@@ -2711,7 +4711,87 @@
     "ig_media_id": "",
     "fb_video_id": "2136725300252841",
     "yt_video_id": "qNttLcdVvFo",
-    "yt_url": "https://www.youtube.com/shorts/qNttLcdVvFo"
+    "yt_url": "https://www.youtube.com/shorts/qNttLcdVvFo",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:02",
+      "horas": 422.3,
+      "facebook": {
+        "vistas": 377,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 1,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 501,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 7,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.203,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 9.0,
+        "alcance": 377,
+        "tasa": 0.0239,
+        "indice": 2.219
+      },
+      "youtube": {
+        "interacciones": 2.0,
+        "alcance": 501,
+        "tasa": 0.004,
+        "indice": 1.389
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 7,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 885,
+    "_inter": 11.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.203,
+      "redes": 3,
+      "vistas": 885,
+      "interacciones": 11.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 9.0,
+          "alcance": 377,
+          "tasa": 0.0239,
+          "indice": 2.219
+        },
+        "youtube": {
+          "interacciones": 2.0,
+          "alcance": 501,
+          "tasa": 0.004,
+          "indice": 1.389
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 7,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msthlivqe2v5_01.mp4",
@@ -2748,7 +4828,107 @@
     "yt_titulo": "Detuvieron a un joven de 20 años por robos a una aseguradora y comercios",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-14T19:06:19",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:04",
+      "horas": 421.9,
+      "facebook": {
+        "vistas": 288,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 1,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1613,
+        "alcance": 1099,
+        "likes": 18,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 181,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 10,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.965,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 7.0,
+        "alcance": 288,
+        "tasa": 0.0243,
+        "indice": 2.043
+      },
+      "instagram": {
+        "interacciones": 18.0,
+        "alcance": 1099,
+        "tasa": 0.0164,
+        "indice": 0.779
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 181,
+        "tasa": 0.0055,
+        "indice": 1.039
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 10,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2092,
+    "_inter": 26.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.965,
+      "redes": 4,
+      "vistas": 2092,
+      "interacciones": 26.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 7.0,
+          "alcance": 288,
+          "tasa": 0.0243,
+          "indice": 2.043
+        },
+        "instagram": {
+          "interacciones": 18.0,
+          "alcance": 1099,
+          "tasa": 0.0164,
+          "indice": 0.779
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 181,
+          "tasa": 0.0055,
+          "indice": 1.039
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 10,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-15_claudia_mstr4pkwybjw",
@@ -2780,7 +4960,87 @@
     "ig_media_id": "17883620451613880",
     "fb_video_id": "907838395722626",
     "yt_video_id": "-etXszCviwU",
-    "yt_url": "https://www.youtube.com/shorts/-etXszCviwU"
+    "yt_url": "https://www.youtube.com/shorts/-etXszCviwU",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:08",
+      "horas": 417.5,
+      "facebook": {
+        "vistas": 1093,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 3538,
+        "alcance": 1998,
+        "likes": 15,
+        "comentarios": 1,
+        "compartidas": 7,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 670,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.992,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 7.0,
+        "alcance": 1093,
+        "tasa": 0.0064,
+        "indice": 1.054
+      },
+      "instagram": {
+        "interacciones": 38.0,
+        "alcance": 1998,
+        "tasa": 0.019,
+        "indice": 1.276
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 670,
+        "tasa": 0.0015,
+        "indice": 0.646
+      }
+    },
+    "_redes": 3,
+    "_vistas": 5301,
+    "_inter": 46.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.992,
+      "redes": 3,
+      "vistas": 5301,
+      "interacciones": 46.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 7.0,
+          "alcance": 1093,
+          "tasa": 0.0064,
+          "indice": 1.054
+        },
+        "instagram": {
+          "interacciones": 38.0,
+          "alcance": 1998,
+          "tasa": 0.019,
+          "indice": 1.276
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 670,
+          "tasa": 0.0015,
+          "indice": 0.646
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msugm8g2vj1w_01.mp4",
@@ -2817,7 +5077,107 @@
     "yt_titulo": "Chivilcoy ganó su zona y enfrentará a Mar del Plata en semifinales",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-15T11:32:08",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:11",
+      "horas": 405.5,
+      "facebook": {
+        "vistas": 381,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 674,
+        "alcance": 473,
+        "likes": 10,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 195,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 13,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.797,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 6.0,
+        "alcance": 381,
+        "tasa": 0.0157,
+        "indice": 1.47
+      },
+      "instagram": {
+        "interacciones": 10.0,
+        "alcance": 473,
+        "tasa": 0.0211,
+        "indice": 0.717
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 195,
+        "tasa": 0.0051,
+        "indice": 1.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 13,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1263,
+    "_inter": 17.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.797,
+      "redes": 4,
+      "vistas": 1263,
+      "interacciones": 17.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 6.0,
+          "alcance": 381,
+          "tasa": 0.0157,
+          "indice": 1.47
+        },
+        "instagram": {
+          "interacciones": 10.0,
+          "alcance": 473,
+          "tasa": 0.0211,
+          "indice": 0.717
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 195,
+          "tasa": 0.0051,
+          "indice": 1.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 13,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msusalbluhq1_01.mp4",
@@ -2854,7 +5214,107 @@
     "yt_titulo": "Deportivo Colón de Chivilcoy se consagró campeón de la Liga Federal",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-15T16:55:07",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:15",
+      "horas": 400.1,
+      "facebook": {
+        "vistas": 578,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1457,
+        "alcance": 1018,
+        "likes": 28,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 229,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 18,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.559,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 5.0,
+        "alcance": 578,
+        "tasa": 0.0087,
+        "indice": 0.978
+      },
+      "instagram": {
+        "interacciones": 28.0,
+        "alcance": 1018,
+        "tasa": 0.0275,
+        "indice": 1.259
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 229,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 18,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2282,
+    "_inter": 33.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.559,
+      "redes": 4,
+      "vistas": 2282,
+      "interacciones": 33.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 5.0,
+          "alcance": 578,
+          "tasa": 0.0087,
+          "indice": 0.978
+        },
+        "instagram": {
+          "interacciones": 28.0,
+          "alcance": 1018,
+          "tasa": 0.0275,
+          "indice": 1.259
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 229,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 18,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "2f529e22-03c6-489b-8984-ca2f3b96adf6.mov",
@@ -2923,7 +5383,107 @@
     "yt_titulo": "Julián, de Chivilcoy, busca ayuda para un tratamiento que podría devolverle la vista",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-16T11:15:59",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:18",
+      "horas": 381.8,
+      "facebook": {
+        "vistas": 1022,
+        "alcance": 0,
+        "likes": 11,
+        "comentarios": 0,
+        "compartidas": 6,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 683,
+        "alcance": 499,
+        "likes": 16,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 13,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 16,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.393,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 29.0,
+        "alcance": 1022,
+        "tasa": 0.0284,
+        "indice": 4.467
+      },
+      "instagram": {
+        "interacciones": 16.0,
+        "alcance": 499,
+        "tasa": 0.0321,
+        "indice": 1.106
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 13,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 16,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1734,
+    "_inter": 45.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.393,
+      "redes": 4,
+      "vistas": 1734,
+      "interacciones": 45.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 29.0,
+          "alcance": 1022,
+          "tasa": 0.0284,
+          "indice": 4.467
+        },
+        "instagram": {
+          "interacciones": 16.0,
+          "alcance": 499,
+          "tasa": 0.0321,
+          "indice": 1.106
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 13,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 16,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msw0br2iptod_01.mp4",
@@ -2960,7 +5520,87 @@
     "yt_titulo": "Robo de casi $1 millón en La Marisquería y otros asaltos en Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-16T13:23:34",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:21",
+      "horas": 379.6,
+      "facebook": {
+        "vistas": 1580,
+        "alcance": 0,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4178,
+        "alcance": 2641,
+        "likes": 25,
+        "comentarios": 0,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 463,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.584,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 11.0,
+        "alcance": 1580,
+        "tasa": 0.007,
+        "indice": 1.485
+      },
+      "instagram": {
+        "interacciones": 37.0,
+        "alcance": 2641,
+        "tasa": 0.014,
+        "indice": 1.136
+      },
+      "youtube": {
+        "interacciones": 3.0,
+        "alcance": 463,
+        "tasa": 0.0065,
+        "indice": 2.132
+      }
+    },
+    "_redes": 3,
+    "_vistas": 6221,
+    "_inter": 51.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.584,
+      "redes": 3,
+      "vistas": 6221,
+      "interacciones": 51.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 11.0,
+          "alcance": 1580,
+          "tasa": 0.007,
+          "indice": 1.485
+        },
+        "instagram": {
+          "interacciones": 37.0,
+          "alcance": 2641,
+          "tasa": 0.014,
+          "indice": 1.136
+        },
+        "youtube": {
+          "interacciones": 3.0,
+          "alcance": 463,
+          "tasa": 0.0065,
+          "indice": 2.132
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-16_matias-zucchi_msw3gt55s7qp",
@@ -2992,7 +5632,107 @@
     "ig_media_id": "18615265075044865",
     "fb_video_id": "1571443841346057",
     "yt_video_id": "ZbFV-wW9a-U",
-    "yt_url": "https://www.youtube.com/shorts/ZbFV-wW9a-U"
+    "yt_url": "https://www.youtube.com/shorts/ZbFV-wW9a-U",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:24",
+      "horas": 378.2,
+      "facebook": {
+        "vistas": 133,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 636,
+        "alcance": 460,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 32,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.091,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 133,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 5.0,
+        "alcance": 460,
+        "tasa": 0.0109,
+        "indice": 0.366
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 32,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 810,
+    "_inter": 5.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.091,
+      "redes": 4,
+      "vistas": 810,
+      "interacciones": 5.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 133,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 5.0,
+          "alcance": 460,
+          "tasa": 0.0109,
+          "indice": 0.366
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 32,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-16_matias-zucchi_msw3upgf6rpc",
@@ -3024,7 +5764,87 @@
     "ig_media_id": "17914342842245938",
     "fb_video_id": "2173466219866375",
     "yt_video_id": "TwrEPdxHFF0",
-    "yt_url": "https://www.youtube.com/shorts/TwrEPdxHFF0"
+    "yt_url": "https://www.youtube.com/shorts/TwrEPdxHFF0",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:27",
+      "horas": 378.0,
+      "facebook": {
+        "vistas": 133,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 563,
+        "alcance": 417,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 44,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.25,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 133,
+        "tasa": 0.0075,
+        "indice": 0.515
+      },
+      "instagram": {
+        "interacciones": 3.0,
+        "alcance": 417,
+        "tasa": 0.0072,
+        "indice": 0.235
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 44,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 740,
+    "_inter": 4.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.25,
+      "redes": 3,
+      "vistas": 740,
+      "interacciones": 4.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 133,
+          "tasa": 0.0075,
+          "indice": 0.515
+        },
+        "instagram": {
+          "interacciones": 3.0,
+          "alcance": 417,
+          "tasa": 0.0072,
+          "indice": 0.235
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 44,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msw49qrqjxe6_01.mp4",
@@ -3061,7 +5881,87 @@
     "yt_titulo": "Bahía Blanca, campeonas provinciales Sub-15 de básquet femenino",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-16T15:15:38",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:29",
+      "horas": 377.8,
+      "facebook": {
+        "vistas": 156,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 793,
+        "alcance": 516,
+        "likes": 11,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 53,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.248,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 156,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 11.0,
+        "alcance": 516,
+        "tasa": 0.0213,
+        "indice": 0.743
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 53,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1002,
+    "_inter": 11.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.248,
+      "redes": 3,
+      "vistas": 1002,
+      "interacciones": 11.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 156,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 11.0,
+          "alcance": 516,
+          "tasa": 0.0213,
+          "indice": 0.743
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 53,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-16_matias-zucchi_msw6rjo7ttlt",
@@ -3093,7 +5993,87 @@
     "ig_media_id": "18095226929636627",
     "fb_video_id": "1032860702851488",
     "yt_video_id": "cgicykvjfM0",
-    "yt_url": "https://www.youtube.com/shorts/cgicykvjfM0"
+    "yt_url": "https://www.youtube.com/shorts/cgicykvjfM0",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:31",
+      "horas": 376.6,
+      "facebook": {
+        "vistas": 409,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2054,
+        "alcance": 1223,
+        "likes": 10,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 152,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.178,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 409,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 13.0,
+        "alcance": 1223,
+        "tasa": 0.0106,
+        "indice": 0.534
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 152,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 2615,
+    "_inter": 13.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.178,
+      "redes": 3,
+      "vistas": 2615,
+      "interacciones": 13.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 409,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 13.0,
+          "alcance": 1223,
+          "tasa": 0.0106,
+          "indice": 0.534
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 152,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-16_matias-zucchi_msw75hd7oe7q",
@@ -3125,7 +6105,107 @@
     "ig_media_id": "18201262018374562",
     "fb_video_id": "1355550886646886",
     "yt_video_id": "bn_C61iTUiw",
-    "yt_url": "https://www.youtube.com/shorts/bn_C61iTUiw"
+    "yt_url": "https://www.youtube.com/shorts/bn_C61iTUiw",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:34",
+      "horas": 376.4,
+      "facebook": {
+        "vistas": 690,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 1,
+        "compartidas": 6,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4148,
+        "alcance": 2325,
+        "likes": 25,
+        "comentarios": 5,
+        "compartidas": 11,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 592,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 14,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.654,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 21.0,
+        "alcance": 690,
+        "tasa": 0.0304,
+        "indice": 3.781
+      },
+      "instagram": {
+        "interacciones": 68.0,
+        "alcance": 2325,
+        "tasa": 0.0292,
+        "indice": 2.17
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 592,
+        "tasa": 0.0017,
+        "indice": 0.665
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 14,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 5444,
+    "_inter": 90.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.654,
+      "redes": 4,
+      "vistas": 5444,
+      "interacciones": 90.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 21.0,
+          "alcance": 690,
+          "tasa": 0.0304,
+          "indice": 3.781
+        },
+        "instagram": {
+          "interacciones": 68.0,
+          "alcance": 2325,
+          "tasa": 0.0292,
+          "indice": 2.17
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 592,
+          "tasa": 0.0017,
+          "indice": 0.665
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 14,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msxhoau33lb1_01.mp4",
@@ -3182,7 +6262,87 @@
     "yt_titulo": "Aprehendieron al delincuente que robó varios comercios en Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-18T09:32:31",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:37",
+      "horas": 335.5,
+      "facebook": {
+        "vistas": 787,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 3247,
+        "alcance": 2335,
+        "likes": 31,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 804,
+        "alcance": 0,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.542,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 787,
+        "tasa": 0.0025,
+        "indice": 0.34
+      },
+      "instagram": {
+        "interacciones": 37.0,
+        "alcance": 2335,
+        "tasa": 0.0158,
+        "indice": 1.179
+      },
+      "youtube": {
+        "interacciones": 5.0,
+        "alcance": 804,
+        "tasa": 0.0062,
+        "indice": 3.106
+      }
+    },
+    "_redes": 3,
+    "_vistas": 4838,
+    "_inter": 44.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.542,
+      "redes": 3,
+      "vistas": 4838,
+      "interacciones": 44.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 787,
+          "tasa": 0.0025,
+          "indice": 0.34
+        },
+        "instagram": {
+          "interacciones": 37.0,
+          "alcance": 2335,
+          "tasa": 0.0158,
+          "indice": 1.179
+        },
+        "youtube": {
+          "interacciones": 5.0,
+          "alcance": 804,
+          "tasa": 0.0062,
+          "indice": 3.106
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_msyp3gu8vokp_01.mp4",
@@ -3239,7 +6399,87 @@
     "yt_titulo": "El Mercado Bonaerense se instala en Plaza España",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-18T11:46:47",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:41",
+      "horas": 333.3,
+      "facebook": {
+        "vistas": 692,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 818,
+        "alcance": 580,
+        "likes": 9,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 113,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.007,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 4.0,
+        "alcance": 692,
+        "tasa": 0.0058,
+        "indice": 0.719
+      },
+      "instagram": {
+        "interacciones": 15.0,
+        "alcance": 580,
+        "tasa": 0.0259,
+        "indice": 0.938
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 113,
+        "tasa": 0.0088,
+        "indice": 1.363
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1623,
+    "_inter": 20.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.007,
+      "redes": 3,
+      "vistas": 1623,
+      "interacciones": 20.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 4.0,
+          "alcance": 692,
+          "tasa": 0.0058,
+          "indice": 0.719
+        },
+        "instagram": {
+          "interacciones": 15.0,
+          "alcance": 580,
+          "tasa": 0.0259,
+          "indice": 0.938
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 113,
+          "tasa": 0.0088,
+          "indice": 1.363
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-18_matias-zucchi_msz359tu3wj3",
@@ -3271,7 +6511,87 @@
     "ig_media_id": "18146951788538202",
     "fb_video_id": "845022028695175",
     "yt_video_id": "xH0PDbZYr4Y",
-    "yt_url": "https://www.youtube.com/shorts/xH0PDbZYr4Y"
+    "yt_url": "https://www.youtube.com/shorts/xH0PDbZYr4Y",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:43",
+      "horas": 327.6,
+      "facebook": {
+        "vistas": 169,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 374,
+        "alcance": 294,
+        "likes": 3,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 286,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.17,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 169,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 5.0,
+        "alcance": 294,
+        "tasa": 0.017,
+        "indice": 0.511
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 286,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 829,
+    "_inter": 5.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.17,
+      "redes": 3,
+      "vistas": 829,
+      "interacciones": 5.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 169,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 5.0,
+          "alcance": 294,
+          "tasa": 0.017,
+          "indice": 0.511
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 286,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-18_aldo-sergio-parodi-cel-2613407_mszayvv0ezcr",
@@ -3323,7 +6643,107 @@
     "ig_media_id": "18087992819657728",
     "fb_video_id": "2519626438557143",
     "yt_video_id": "uZtK1UFtQMQ",
-    "yt_url": "https://www.youtube.com/shorts/uZtK1UFtQMQ"
+    "yt_url": "https://www.youtube.com/shorts/uZtK1UFtQMQ",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:46",
+      "horas": 311.3,
+      "facebook": {
+        "vistas": 372,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1822,
+        "alcance": 1088,
+        "likes": 9,
+        "comentarios": 0,
+        "compartidas": 5,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 1236,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 2,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.819,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 372,
+        "tasa": 0.0054,
+        "indice": 0.497
+      },
+      "instagram": {
+        "interacciones": 24.0,
+        "alcance": 1088,
+        "tasa": 0.0221,
+        "indice": 1.043
+      },
+      "youtube": {
+        "interacciones": 3.0,
+        "alcance": 1236,
+        "tasa": 0.0024,
+        "indice": 1.737
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 2,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 3432,
+    "_inter": 29.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.819,
+      "redes": 4,
+      "vistas": 3432,
+      "interacciones": 29.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 372,
+          "tasa": 0.0054,
+          "indice": 0.497
+        },
+        "instagram": {
+          "interacciones": 24.0,
+          "alcance": 1088,
+          "tasa": 0.0221,
+          "indice": 1.043
+        },
+        "youtube": {
+          "interacciones": 3.0,
+          "alcance": 1236,
+          "tasa": 0.0024,
+          "indice": 1.737
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 2,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-19_matias-zucchi_mt0bbor4kkw7",
@@ -3380,7 +6800,47 @@
     "yt_titulo": "Robo en Chivilcoy: Ladrón actuó en 27 segundos y con información previa",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-23T14:36:15",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:02:49",
+      "horas": 210.4,
+      "instagram": {
+        "vistas": 0,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.0,
+    "_detalle": {
+      "instagram": {
+        "interacciones": 0.0,
+        "alcance": 0,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 1,
+    "_vistas": 0,
+    "_inter": 0.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.0,
+      "redes": 1,
+      "vistas": 0,
+      "interacciones": 0.0,
+      "detalle": {
+        "instagram": {
+          "interacciones": 0.0,
+          "alcance": 0,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-19_matias-zucchi_mt0q1di17g99",
@@ -3412,7 +6872,107 @@
     "ig_media_id": "17908359903286145",
     "fb_video_id": "2574936849644112",
     "yt_video_id": "pqJRuavkzwI",
-    "yt_url": "https://www.youtube.com/shorts/pqJRuavkzwI"
+    "yt_url": "https://www.youtube.com/shorts/pqJRuavkzwI",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:51",
+      "horas": 300.5,
+      "facebook": {
+        "vistas": 336,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1882,
+        "alcance": 1126,
+        "likes": 13,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 110,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.205,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 336,
+        "tasa": 0.003,
+        "indice": 0.264
+      },
+      "instagram": {
+        "interacciones": 13.0,
+        "alcance": 1126,
+        "tasa": 0.0115,
+        "indice": 0.556
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 110,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2336,
+    "_inter": 14.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.205,
+      "redes": 4,
+      "vistas": 2336,
+      "interacciones": 14.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 336,
+          "tasa": 0.003,
+          "indice": 0.264
+        },
+        "instagram": {
+          "interacciones": 13.0,
+          "alcance": 1126,
+          "tasa": 0.0115,
+          "indice": 0.556
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 110,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-20_camioneta-saveiro-dominio-fkn8_mt0ropcwzdtp",
@@ -3444,7 +7004,107 @@
     "ig_media_id": "17941599213292569",
     "fb_video_id": "1042256582062622",
     "yt_video_id": "52DyQIj2fw4",
-    "yt_url": "https://www.youtube.com/shorts/52DyQIj2fw4"
+    "yt_url": "https://www.youtube.com/shorts/52DyQIj2fw4",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:54",
+      "horas": 299.7,
+      "facebook": {
+        "vistas": 1087,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1578,
+        "alcance": 985,
+        "likes": 11,
+        "comentarios": 1,
+        "compartidas": 8,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 354,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 5,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.962,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 4.0,
+        "alcance": 1087,
+        "tasa": 0.0037,
+        "indice": 0.603
+      },
+      "instagram": {
+        "interacciones": 37.0,
+        "alcance": 985,
+        "tasa": 0.0376,
+        "indice": 1.693
+      },
+      "youtube": {
+        "interacciones": 2.0,
+        "alcance": 354,
+        "tasa": 0.0056,
+        "indice": 1.551
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 5,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 3024,
+    "_inter": 43.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.962,
+      "redes": 4,
+      "vistas": 3024,
+      "interacciones": 43.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 4.0,
+          "alcance": 1087,
+          "tasa": 0.0037,
+          "indice": 0.603
+        },
+        "instagram": {
+          "interacciones": 37.0,
+          "alcance": 985,
+          "tasa": 0.0376,
+          "indice": 1.693
+        },
+        "youtube": {
+          "interacciones": 2.0,
+          "alcance": 354,
+          "tasa": 0.0056,
+          "indice": 1.551
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 5,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-20_matias-zucchi_mt1kgaufr0ia",
@@ -3476,7 +7136,107 @@
     "ig_media_id": "18089108210208789",
     "fb_video_id": "2318370315235874",
     "yt_video_id": "BJ8_dEfKpDw",
-    "yt_url": "https://www.youtube.com/shorts/BJ8_dEfKpDw"
+    "yt_url": "https://www.youtube.com/shorts/BJ8_dEfKpDw",
+    "metricas": {
+      "capturado": "2026-09-01T09:02:57",
+      "horas": 286.3,
+      "facebook": {
+        "vistas": 195,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 699,
+        "alcance": 515,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 72,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.53,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 5.0,
+        "alcance": 195,
+        "tasa": 0.0256,
+        "indice": 1.916
+      },
+      "instagram": {
+        "interacciones": 3.0,
+        "alcance": 515,
+        "tasa": 0.0058,
+        "indice": 0.203
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 72,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 974,
+    "_inter": 8.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.53,
+      "redes": 4,
+      "vistas": 974,
+      "interacciones": 8.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 5.0,
+          "alcance": 195,
+          "tasa": 0.0256,
+          "indice": 1.916
+        },
+        "instagram": {
+          "interacciones": 3.0,
+          "alcance": 515,
+          "tasa": 0.0058,
+          "indice": 0.203
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 72,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-20_matias-zucchi_mt1plkl00rn8",
@@ -3508,7 +7268,87 @@
     "ig_media_id": "18300915238305147",
     "fb_video_id": "1072331781805956",
     "yt_video_id": "FKF2YnvJpjg",
-    "yt_url": "https://www.youtube.com/shorts/FKF2YnvJpjg"
+    "yt_url": "https://www.youtube.com/shorts/FKF2YnvJpjg",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:00",
+      "horas": 283.4,
+      "facebook": {
+        "vistas": 478,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2391,
+        "alcance": 1716,
+        "likes": 50,
+        "comentarios": 1,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 761,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.039,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 478,
+        "tasa": 0.0021,
+        "indice": 0.216
+      },
+      "instagram": {
+        "interacciones": 64.0,
+        "alcance": 1716,
+        "tasa": 0.0373,
+        "indice": 2.273
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 761,
+        "tasa": 0.0013,
+        "indice": 0.628
+      }
+    },
+    "_redes": 3,
+    "_vistas": 3630,
+    "_inter": 66.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.039,
+      "redes": 3,
+      "vistas": 3630,
+      "interacciones": 66.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 478,
+          "tasa": 0.0021,
+          "indice": 0.216
+        },
+        "instagram": {
+          "interacciones": 64.0,
+          "alcance": 1716,
+          "tasa": 0.0373,
+          "indice": 2.273
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 761,
+          "tasa": 0.0013,
+          "indice": 0.628
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt1sajqlqe5k_01.mp4",
@@ -3545,7 +7385,107 @@
     "yt_titulo": "Pamela Martino: \"El Mundial es el show\" y detalla la carrera",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-20T14:24:31",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:02",
+      "horas": 282.6,
+      "facebook": {
+        "vistas": 649,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1077,
+        "alcance": 766,
+        "likes": 8,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 45,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 7,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.198,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 649,
+        "tasa": 0.0031,
+        "indice": 0.37
+      },
+      "instagram": {
+        "interacciones": 8.0,
+        "alcance": 766,
+        "tasa": 0.0104,
+        "indice": 0.421
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 45,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 7,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1778,
+    "_inter": 10.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.198,
+      "redes": 4,
+      "vistas": 1778,
+      "interacciones": 10.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 649,
+          "tasa": 0.0031,
+          "indice": 0.37
+        },
+        "instagram": {
+          "interacciones": 8.0,
+          "alcance": 766,
+          "tasa": 0.0104,
+          "indice": 0.421
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 45,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 7,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt1skkxo5usj_01.mp4",
@@ -3582,7 +7522,107 @@
     "yt_titulo": "Nacho Fedato: \"Fue maravilloso tener una jugadora de Chivilcoy\"",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-20T14:33:03",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:08",
+      "horas": 282.5,
+      "facebook": {
+        "vistas": 146,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1318,
+        "alcance": 1000,
+        "likes": 8,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 31,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.244,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 146,
+        "tasa": 0.0068,
+        "indice": 0.478
+      },
+      "instagram": {
+        "interacciones": 11.0,
+        "alcance": 1000,
+        "tasa": 0.011,
+        "indice": 0.499
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 31,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1504,
+    "_inter": 12.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.244,
+      "redes": 4,
+      "vistas": 1504,
+      "interacciones": 12.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 146,
+          "tasa": 0.0068,
+          "indice": 0.478
+        },
+        "instagram": {
+          "interacciones": 11.0,
+          "alcance": 1000,
+          "tasa": 0.011,
+          "indice": 0.499
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 31,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-20_matias-zucchi_mt200akucye7",
@@ -3614,7 +7654,87 @@
     "ig_media_id": "",
     "fb_video_id": "3966726656957495",
     "yt_video_id": "ysfFb907UiA",
-    "yt_url": "https://www.youtube.com/shorts/ysfFb907UiA"
+    "yt_url": "https://www.youtube.com/shorts/ysfFb907UiA",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:12",
+      "horas": 279.0,
+      "facebook": {
+        "vistas": 522,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 255,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 7,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.5,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 3.0,
+        "alcance": 522,
+        "tasa": 0.0057,
+        "indice": 0.617
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 255,
+        "tasa": 0.0039,
+        "indice": 0.882
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 7,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 784,
+    "_inter": 4.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.5,
+      "redes": 3,
+      "vistas": 784,
+      "interacciones": 4.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 3.0,
+          "alcance": 522,
+          "tasa": 0.0057,
+          "indice": 0.617
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 255,
+          "tasa": 0.0039,
+          "indice": 0.882
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 7,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_claudia_mt2162hmafwn_01.mp4",
@@ -3651,7 +7771,87 @@
     "yt_titulo": "El Intendente anunció importantes refuerzos policiales y patrulleros para Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-20T18:43:11",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:14",
+      "horas": 278.3,
+      "facebook": {
+        "vistas": 399,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 1,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 11,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.715,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 9.0,
+        "alcance": 399,
+        "tasa": 0.0226,
+        "indice": 2.146
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 11,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 419,
+    "_inter": 9.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.715,
+      "redes": 3,
+      "vistas": 419,
+      "interacciones": 9.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 9.0,
+          "alcance": 399,
+          "tasa": 0.0226,
+          "indice": 2.146
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 11,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-20_matias-zucchi_mt24fxw60fmn",
@@ -3683,7 +7883,87 @@
     "ig_media_id": "17980910934076441",
     "fb_video_id": "2508271826314523",
     "yt_video_id": "BAyBNWd515g",
-    "yt_url": "https://www.youtube.com/shorts/BAyBNWd515g"
+    "yt_url": "https://www.youtube.com/shorts/BAyBNWd515g",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:16",
+      "horas": 276.8,
+      "facebook": {
+        "vistas": 500,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 10282,
+        "alcance": 8375,
+        "likes": 521,
+        "comentarios": 7,
+        "compartidas": 52,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 376,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.807,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 500,
+        "tasa": 0.004,
+        "indice": 0.421
+      },
+      "instagram": {
+        "interacciones": 691.0,
+        "alcance": 8375,
+        "tasa": 0.0825,
+        "indice": 5.0
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 376,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 11158,
+    "_inter": 693.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.807,
+      "redes": 3,
+      "vistas": 11158,
+      "interacciones": 693.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 500,
+          "tasa": 0.004,
+          "indice": 0.421
+        },
+        "instagram": {
+          "interacciones": 691.0,
+          "alcance": 8375,
+          "tasa": 0.0825,
+          "indice": 5.0
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 376,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-21_se-abrio-la-causa-contra-el-va_mt2vesu2aabh",
@@ -3740,7 +8020,107 @@
     "yt_titulo": "Allanamiento por drogas en Chivilcoy: detuvieron a un hombre y secuestraron cocaína, marihuana y un arma",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-21T12:48:05",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:18",
+      "horas": 260.3,
+      "facebook": {
+        "vistas": 763,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2076,
+        "alcance": 1466,
+        "likes": 20,
+        "comentarios": 1,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 83,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 13,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.957,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 7.0,
+        "alcance": 763,
+        "tasa": 0.0092,
+        "indice": 1.207
+      },
+      "instagram": {
+        "interacciones": 25.0,
+        "alcance": 1466,
+        "tasa": 0.0171,
+        "indice": 0.947
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 83,
+        "tasa": 0.012,
+        "indice": 1.675
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 13,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2935,
+    "_inter": 33.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.957,
+      "redes": 4,
+      "vistas": 2935,
+      "interacciones": 33.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 7.0,
+          "alcance": 763,
+          "tasa": 0.0092,
+          "indice": 1.207
+        },
+        "instagram": {
+          "interacciones": 25.0,
+          "alcance": 1466,
+          "tasa": 0.0171,
+          "indice": 0.947
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 83,
+          "tasa": 0.012,
+          "indice": 1.675
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 13,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-21_matias-zucchi_mt3btkq2mgm1",
@@ -3772,7 +8152,107 @@
     "ig_media_id": "18098784134612342",
     "fb_video_id": "1713012686622749",
     "yt_video_id": "O2k8D1zoTg4",
-    "yt_url": "https://www.youtube.com/shorts/O2k8D1zoTg4"
+    "yt_url": "https://www.youtube.com/shorts/O2k8D1zoTg4",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:21",
+      "horas": 256.7,
+      "facebook": {
+        "vistas": 1462,
+        "alcance": 0,
+        "likes": 7,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4755,
+        "alcance": 2780,
+        "likes": 19,
+        "comentarios": 2,
+        "compartidas": 6,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 1006,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 17,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.355,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 13.0,
+        "alcance": 1462,
+        "tasa": 0.0089,
+        "indice": 1.791
+      },
+      "instagram": {
+        "interacciones": 41.0,
+        "alcance": 2780,
+        "tasa": 0.0147,
+        "indice": 1.24
+      },
+      "youtube": {
+        "interacciones": 4.0,
+        "alcance": 1006,
+        "tasa": 0.004,
+        "indice": 2.388
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 17,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 7240,
+    "_inter": 58.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.355,
+      "redes": 4,
+      "vistas": 7240,
+      "interacciones": 58.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 13.0,
+          "alcance": 1462,
+          "tasa": 0.0089,
+          "indice": 1.791
+        },
+        "instagram": {
+          "interacciones": 41.0,
+          "alcance": 2780,
+          "tasa": 0.0147,
+          "indice": 1.24
+        },
+        "youtube": {
+          "interacciones": 4.0,
+          "alcance": 1006,
+          "tasa": 0.004,
+          "indice": 2.388
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 17,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt3cm8boklh0_01.mp4",
@@ -3809,7 +8289,107 @@
     "yt_titulo": "La muestra de Chivilcoy busca ser integral y variada",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-21T16:41:58",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:24",
+      "horas": 256.4,
+      "facebook": {
+        "vistas": 149,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1098,
+        "alcance": 803,
+        "likes": 19,
+        "comentarios": 0,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 14,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 11,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.514,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 149,
+        "tasa": 0.0067,
+        "indice": 0.471
+      },
+      "instagram": {
+        "interacciones": 31.0,
+        "alcance": 803,
+        "tasa": 0.0386,
+        "indice": 1.587
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 14,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 11,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1272,
+    "_inter": 32.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.514,
+      "redes": 4,
+      "vistas": 1272,
+      "interacciones": 32.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 149,
+          "tasa": 0.0067,
+          "indice": 0.471
+        },
+        "instagram": {
+          "interacciones": 31.0,
+          "alcance": 803,
+          "tasa": 0.0386,
+          "indice": 1.587
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 14,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 11,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt3d0dah6x07_01.mp4",
@@ -3846,7 +8426,107 @@
     "yt_titulo": "Feminella: \"Hay que ir por la intendencia y un nuevo modelo de municipio\"",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-21T16:53:04",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:28",
+      "horas": 256.2,
+      "facebook": {
+        "vistas": 600,
+        "alcance": 0,
+        "likes": 7,
+        "comentarios": 8,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1034,
+        "alcance": 727,
+        "likes": 15,
+        "comentarios": 1,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 24,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 17,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.642,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 26.0,
+        "alcance": 600,
+        "tasa": 0.0433,
+        "indice": 4.994
+      },
+      "instagram": {
+        "interacciones": 29.0,
+        "alcance": 727,
+        "tasa": 0.0399,
+        "indice": 1.574
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 24,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 17,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1675,
+    "_inter": 55.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.642,
+      "redes": 4,
+      "vistas": 1675,
+      "interacciones": 55.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 26.0,
+          "alcance": 600,
+          "tasa": 0.0433,
+          "indice": 4.994
+        },
+        "instagram": {
+          "interacciones": 29.0,
+          "alcance": 727,
+          "tasa": 0.0399,
+          "indice": 1.574
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 24,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 17,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-22_matias-zucchi_mt4ex5uyjprx",
@@ -3878,7 +8558,107 @@
     "ig_media_id": "18090512747210398",
     "fb_video_id": "2061199237831261",
     "yt_video_id": "LeNiq-z4Cbc",
-    "yt_url": "https://www.youtube.com/shorts/LeNiq-z4Cbc"
+    "yt_url": "https://www.youtube.com/shorts/LeNiq-z4Cbc",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:31",
+      "horas": 238.5,
+      "facebook": {
+        "vistas": 304,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 606,
+        "alcance": 418,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 235,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 13,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.2,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 304,
+        "tasa": 0.0066,
+        "indice": 0.563
+      },
+      "instagram": {
+        "interacciones": 3.0,
+        "alcance": 418,
+        "tasa": 0.0072,
+        "indice": 0.235
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 235,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 13,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1158,
+    "_inter": 5.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.2,
+      "redes": 4,
+      "vistas": 1158,
+      "interacciones": 5.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 304,
+          "tasa": 0.0066,
+          "indice": 0.563
+        },
+        "instagram": {
+          "interacciones": 3.0,
+          "alcance": 418,
+          "tasa": 0.0072,
+          "indice": 0.235
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 235,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 13,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-22_matias-zucchi_mt4fbcpnumtz",
@@ -3910,7 +8690,107 @@
     "ig_media_id": "18104188328349781",
     "fb_video_id": "28386253484304598",
     "yt_video_id": "4Q6Nt8L-wNw",
-    "yt_url": "https://www.youtube.com/shorts/4Q6Nt8L-wNw"
+    "yt_url": "https://www.youtube.com/shorts/4Q6Nt8L-wNw",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:34",
+      "horas": 238.3,
+      "facebook": {
+        "vistas": 128,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 573,
+        "alcance": 414,
+        "likes": 10,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 90,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 6,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.33,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 128,
+        "tasa": 0.0078,
+        "indice": 0.532
+      },
+      "instagram": {
+        "interacciones": 10.0,
+        "alcance": 414,
+        "tasa": 0.0242,
+        "indice": 0.789
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 90,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 6,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 797,
+    "_inter": 11.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.33,
+      "redes": 4,
+      "vistas": 797,
+      "interacciones": 11.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 128,
+          "tasa": 0.0078,
+          "indice": 0.532
+        },
+        "instagram": {
+          "interacciones": 10.0,
+          "alcance": 414,
+          "tasa": 0.0242,
+          "indice": 0.789
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 90,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 6,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt4fo6ccdwze_01.mp4",
@@ -3947,7 +8827,107 @@
     "yt_titulo": "Lanzaron bono contribución y anunciaron cena por 25 años",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-22T10:54:14",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:38",
+      "horas": 238.2,
+      "facebook": {
+        "vistas": 195,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 552,
+        "alcance": 426,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 40,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 5,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.365,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 3.0,
+        "alcance": 195,
+        "tasa": 0.0154,
+        "indice": 1.15
+      },
+      "instagram": {
+        "interacciones": 4.0,
+        "alcance": 426,
+        "tasa": 0.0094,
+        "indice": 0.309
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 40,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 5,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 792,
+    "_inter": 7.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.365,
+      "redes": 4,
+      "vistas": 792,
+      "interacciones": 7.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 3.0,
+          "alcance": 195,
+          "tasa": 0.0154,
+          "indice": 1.15
+        },
+        "instagram": {
+          "interacciones": 4.0,
+          "alcance": 426,
+          "tasa": 0.0094,
+          "indice": 0.309
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 40,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 5,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-22_matias-zucchi_mt4gq6wzjqu0",
@@ -3979,7 +8959,87 @@
     "ig_media_id": "",
     "fb_video_id": "1024671057074206",
     "yt_video_id": "OnxY_-kZVlQ",
-    "yt_url": "https://www.youtube.com/shorts/OnxY_-kZVlQ"
+    "yt_url": "https://www.youtube.com/shorts/OnxY_-kZVlQ",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:41",
+      "horas": 237.7,
+      "facebook": {
+        "vistas": 753,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 962,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 10,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.748,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 6.0,
+        "alcance": 753,
+        "tasa": 0.008,
+        "indice": 1.04
+      },
+      "youtube": {
+        "interacciones": 2.0,
+        "alcance": 962,
+        "tasa": 0.0021,
+        "indice": 1.203
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 10,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1725,
+    "_inter": 8.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.748,
+      "redes": 3,
+      "vistas": 1725,
+      "interacciones": 8.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 6.0,
+          "alcance": 753,
+          "tasa": 0.008,
+          "indice": 1.04
+        },
+        "youtube": {
+          "interacciones": 2.0,
+          "alcance": 962,
+          "tasa": 0.0021,
+          "indice": 1.203
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 10,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt4re8lavddk_01.mp4",
@@ -4016,7 +9076,87 @@
     "yt_titulo": "El Tenis Club Gimnasia y Esgrima celebró el Día del Niño y la cuarta fecha del Torneo TM Agro",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-22T16:23:38",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:43",
+      "horas": 232.7,
+      "facebook": {
+        "vistas": 399,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 642,
+        "alcance": 456,
+        "likes": 13,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 73,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.478,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 399,
+        "tasa": 0.005,
+        "indice": 0.477
+      },
+      "instagram": {
+        "interacciones": 13.0,
+        "alcance": 456,
+        "tasa": 0.0285,
+        "indice": 0.957
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 73,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1114,
+    "_inter": 15.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.478,
+      "redes": 3,
+      "vistas": 1114,
+      "interacciones": 15.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 399,
+          "tasa": 0.005,
+          "indice": 0.477
+        },
+        "instagram": {
+          "interacciones": 13.0,
+          "alcance": 456,
+          "tasa": 0.0285,
+          "indice": 0.957
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 73,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt52xzuna8s5_01.mp4",
@@ -4053,7 +9193,87 @@
     "yt_titulo": "Refuerzan la seguridad nocturna en Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-22T22:13:46",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:46",
+      "horas": 226.8,
+      "facebook": {
+        "vistas": 782,
+        "alcance": 0,
+        "likes": 10,
+        "comentarios": 16,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1846,
+        "alcance": 1150,
+        "likes": 26,
+        "comentarios": 1,
+        "compartidas": 9,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.442,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 45.0,
+        "alcance": 782,
+        "tasa": 0.0575,
+        "indice": 5.0
+      },
+      "instagram": {
+        "interacciones": 55.0,
+        "alcance": 1150,
+        "tasa": 0.0478,
+        "indice": 2.327
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 2637,
+    "_inter": 100.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.442,
+      "redes": 3,
+      "vistas": 2637,
+      "interacciones": 100.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 45.0,
+          "alcance": 782,
+          "tasa": 0.0575,
+          "indice": 5.0
+        },
+        "instagram": {
+          "interacciones": 55.0,
+          "alcance": 1150,
+          "tasa": 0.0478,
+          "indice": 2.327
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt63sgnbkxd3_01.mp4",
@@ -4090,7 +9310,107 @@
     "yt_titulo": "Agradecimientos en la celebración del Día del Niño en Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-23T14:58:24",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:49",
+      "horas": 210.1,
+      "facebook": {
+        "vistas": 1218,
+        "alcance": 0,
+        "likes": 17,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4188,
+        "alcance": 2765,
+        "likes": 81,
+        "comentarios": 0,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 67,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 4,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.54,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 23.0,
+        "alcance": 1218,
+        "tasa": 0.0189,
+        "indice": 3.343
+      },
+      "instagram": {
+        "interacciones": 93.0,
+        "alcance": 2765,
+        "tasa": 0.0336,
+        "indice": 2.817
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 67,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 4,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 5477,
+    "_inter": 116.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.54,
+      "redes": 4,
+      "vistas": 5477,
+      "interacciones": 116.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 23.0,
+          "alcance": 1218,
+          "tasa": 0.0189,
+          "indice": 3.343
+        },
+        "instagram": {
+          "interacciones": 93.0,
+          "alcance": 2765,
+          "tasa": 0.0336,
+          "indice": 2.817
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 67,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 4,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt693wc8d607_01.mp4",
@@ -4127,7 +9447,87 @@
     "yt_titulo": "Chivilcoy: Operativo de seguridad nocturna con incautaciones y detenciones",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-23T17:28:23",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:52",
+      "horas": 207.6,
+      "facebook": {
+        "vistas": 237,
+        "alcance": 0,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1577,
+        "alcance": 1071,
+        "likes": 30,
+        "comentarios": 1,
+        "compartidas": 4,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 294,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.808,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 8.0,
+        "alcance": 237,
+        "tasa": 0.0338,
+        "indice": 2.665
+      },
+      "instagram": {
+        "interacciones": 44.0,
+        "alcance": 1071,
+        "tasa": 0.0411,
+        "indice": 1.928
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 294,
+        "tasa": 0.0034,
+        "indice": 0.832
+      }
+    },
+    "_redes": 3,
+    "_vistas": 2108,
+    "_inter": 53.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.808,
+      "redes": 3,
+      "vistas": 2108,
+      "interacciones": 53.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 8.0,
+          "alcance": 237,
+          "tasa": 0.0338,
+          "indice": 2.665
+        },
+        "instagram": {
+          "interacciones": 44.0,
+          "alcance": 1071,
+          "tasa": 0.0411,
+          "indice": 1.928
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 294,
+          "tasa": 0.0034,
+          "indice": 0.832
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt6f5seypn5s_01.mp4",
@@ -4164,7 +9564,87 @@
     "yt_titulo": "Amplio despliegue de seguridad con contundentes resultados el fin de semana en Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-23T20:17:31",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:54",
+      "horas": 204.8,
+      "facebook": {
+        "vistas": 571,
+        "alcance": 0,
+        "likes": 11,
+        "comentarios": 2,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2590,
+        "alcance": 1782,
+        "likes": 47,
+        "comentarios": 0,
+        "compartidas": 3,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 57,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.571,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 18.0,
+        "alcance": 571,
+        "tasa": 0.0315,
+        "indice": 3.541
+      },
+      "instagram": {
+        "interacciones": 56.0,
+        "alcance": 1782,
+        "tasa": 0.0314,
+        "indice": 1.961
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 57,
+        "tasa": 0.0175,
+        "indice": 2.211
+      }
+    },
+    "_redes": 3,
+    "_vistas": 3218,
+    "_inter": 75.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.571,
+      "redes": 3,
+      "vistas": 3218,
+      "interacciones": 75.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 18.0,
+          "alcance": 571,
+          "tasa": 0.0315,
+          "indice": 3.541
+        },
+        "instagram": {
+          "interacciones": 56.0,
+          "alcance": 1782,
+          "tasa": 0.0314,
+          "indice": 1.961
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 57,
+          "tasa": 0.0175,
+          "indice": 2.211
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt7botwxv0gm_01.mp4",
@@ -4201,7 +9681,87 @@
     "yt_titulo": "Operativos de seguridad en Chivilcoy: 26 motos y 2 autos secuestrados",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-24T11:28:12",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:03:57",
+      "horas": 189.6,
+      "facebook": {
+        "vistas": 498,
+        "alcance": 0,
+        "likes": 6,
+        "comentarios": 2,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2214,
+        "alcance": 1355,
+        "likes": 26,
+        "comentarios": 2,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 131,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.51,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 10.0,
+        "alcance": 498,
+        "tasa": 0.0201,
+        "indice": 2.109
+      },
+      "instagram": {
+        "interacciones": 30.0,
+        "alcance": 1355,
+        "tasa": 0.0221,
+        "indice": 1.176
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 131,
+        "tasa": 0.0076,
+        "indice": 1.244
+      }
+    },
+    "_redes": 3,
+    "_vistas": 2843,
+    "_inter": 41.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.51,
+      "redes": 3,
+      "vistas": 2843,
+      "interacciones": 41.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 10.0,
+          "alcance": 498,
+          "tasa": 0.0201,
+          "indice": 2.109
+        },
+        "instagram": {
+          "interacciones": 30.0,
+          "alcance": 1355,
+          "tasa": 0.0221,
+          "indice": 1.176
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 131,
+          "tasa": 0.0076,
+          "indice": 1.244
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-24_matias-zucchi_mt7tepla065i",
@@ -4233,7 +9793,107 @@
     "ig_media_id": "18414813298157067",
     "fb_video_id": "1395470646106700",
     "yt_video_id": "FnwHZHRFLwA",
-    "yt_url": "https://www.youtube.com/shorts/FnwHZHRFLwA"
+    "yt_url": "https://www.youtube.com/shorts/FnwHZHRFLwA",
+    "metricas": {
+      "capturado": "2026-09-01T09:03:59",
+      "horas": 181.4,
+      "facebook": {
+        "vistas": 379,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1046,
+        "alcance": 662,
+        "likes": 6,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 224,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 7,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.732,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 6.0,
+        "alcance": 379,
+        "tasa": 0.0158,
+        "indice": 1.475
+      },
+      "instagram": {
+        "interacciones": 9.0,
+        "alcance": 662,
+        "tasa": 0.0136,
+        "indice": 0.517
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 224,
+        "tasa": 0.0045,
+        "indice": 0.935
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 7,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1656,
+    "_inter": 16.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.732,
+      "redes": 4,
+      "vistas": 1656,
+      "interacciones": 16.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 6.0,
+          "alcance": 379,
+          "tasa": 0.0158,
+          "indice": 1.475
+        },
+        "instagram": {
+          "interacciones": 9.0,
+          "alcance": 662,
+          "tasa": 0.0136,
+          "indice": 0.517
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 224,
+          "tasa": 0.0045,
+          "indice": 0.935
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 7,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt7u3o1tuxto_01.mp4",
@@ -4270,7 +9930,67 @@
     "yt_titulo": "Operativos de seguridad en Chivilcoy: 26 motos, 2 autos secuestrados y un prófugo",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-24T20:30:04",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:02",
+      "horas": 180.6,
+      "facebook": {
+        "vistas": 560,
+        "alcance": 0,
+        "likes": 11,
+        "comentarios": 17,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 606,
+        "alcance": 0,
+        "likes": 6,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 4.483,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 48.0,
+        "alcance": 560,
+        "tasa": 0.0857,
+        "indice": 5.0
+      },
+      "youtube": {
+        "interacciones": 6.0,
+        "alcance": 606,
+        "tasa": 0.0099,
+        "indice": 3.965
+      }
+    },
+    "_redes": 2,
+    "_vistas": 1166,
+    "_inter": 54.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 4.483,
+      "redes": 2,
+      "vistas": 1166,
+      "interacciones": 54.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 48.0,
+          "alcance": 560,
+          "tasa": 0.0857,
+          "indice": 5.0
+        },
+        "youtube": {
+          "interacciones": 6.0,
+          "alcance": 606,
+          "tasa": 0.0099,
+          "indice": 3.965
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mt8sapp09b61_01.mp4",
@@ -4307,7 +10027,107 @@
     "yt_titulo": "Anuncian aumento del 5% para empleados municipales",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-25T12:01:20",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:04",
+      "horas": 165.0,
+      "facebook": {
+        "vistas": 192,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1025,
+        "alcance": 717,
+        "likes": 10,
+        "comentarios": 1,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 136,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 15,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.44,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 192,
+        "tasa": 0.0104,
+        "indice": 0.775
+      },
+      "instagram": {
+        "interacciones": 18.0,
+        "alcance": 717,
+        "tasa": 0.0251,
+        "indice": 0.985
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 136,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 15,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1368,
+    "_inter": 20.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.44,
+      "redes": 4,
+      "vistas": 1368,
+      "interacciones": 20.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 192,
+          "tasa": 0.0104,
+          "indice": 0.775
+        },
+        "instagram": {
+          "interacciones": 18.0,
+          "alcance": 717,
+          "tasa": 0.0251,
+          "indice": 0.985
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 136,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 15,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-25_matias-zucchi_mt8u5bsz95rq",
@@ -4339,7 +10159,107 @@
     "ig_media_id": "18100906310340414",
     "fb_video_id": "1688055852299848",
     "yt_video_id": "L02HxjJfMvM",
-    "yt_url": "https://www.youtube.com/shorts/L02HxjJfMvM"
+    "yt_url": "https://www.youtube.com/shorts/L02HxjJfMvM",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:07",
+      "horas": 164.2,
+      "facebook": {
+        "vistas": 1043,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4380,
+        "alcance": 2243,
+        "likes": 24,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 1048,
+        "alcance": 0,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 17,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.036,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 1043,
+        "tasa": 0.0019,
+        "indice": 0.306
+      },
+      "instagram": {
+        "interacciones": 27.0,
+        "alcance": 2243,
+        "tasa": 0.012,
+        "indice": 0.872
+      },
+      "youtube": {
+        "interacciones": 5.0,
+        "alcance": 1048,
+        "tasa": 0.0048,
+        "indice": 2.965
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 17,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 6488,
+    "_inter": 34.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.036,
+      "redes": 4,
+      "vistas": 6488,
+      "interacciones": 34.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 1043,
+          "tasa": 0.0019,
+          "indice": 0.306
+        },
+        "instagram": {
+          "interacciones": 27.0,
+          "alcance": 2243,
+          "tasa": 0.012,
+          "indice": 0.872
+        },
+        "youtube": {
+          "interacciones": 5.0,
+          "alcance": 1048,
+          "tasa": 0.0048,
+          "indice": 2.965
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 17,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-25_matias-zucchi_mt99chbwnxzq",
@@ -4371,7 +10291,107 @@
     "ig_media_id": "17983038857878517",
     "fb_video_id": "4203770109755066",
     "yt_video_id": "XVr3sHHnnJM",
-    "yt_url": "https://www.youtube.com/shorts/XVr3sHHnnJM"
+    "yt_url": "https://www.youtube.com/shorts/XVr3sHHnnJM",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:10",
+      "horas": 157.0,
+      "facebook": {
+        "vistas": 673,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 811,
+        "alcance": 546,
+        "likes": 5,
+        "comentarios": 0,
+        "compartidas": 6,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 418,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 14,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.784,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 9.0,
+        "alcance": 673,
+        "tasa": 0.0134,
+        "indice": 1.639
+      },
+      "instagram": {
+        "interacciones": 23.0,
+        "alcance": 546,
+        "tasa": 0.0421,
+        "indice": 1.496
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 418,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 14,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1916,
+    "_inter": 32.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.784,
+      "redes": 4,
+      "vistas": 1916,
+      "interacciones": 32.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 9.0,
+          "alcance": 673,
+          "tasa": 0.0134,
+          "indice": 1.639
+        },
+        "instagram": {
+          "interacciones": 23.0,
+          "alcance": 546,
+          "tasa": 0.0421,
+          "indice": 1.496
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 418,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 14,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-25_matias-zucchi_mt99wi1cbu1e",
@@ -4403,7 +10423,107 @@
     "ig_media_id": "17903525109503219",
     "fb_video_id": "956259800836285",
     "yt_video_id": "G7T_H62q-CU",
-    "yt_url": "https://www.youtube.com/shorts/G7T_H62q-CU"
+    "yt_url": "https://www.youtube.com/shorts/G7T_H62q-CU",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:13",
+      "horas": 156.8,
+      "facebook": {
+        "vistas": 262,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1102,
+        "alcance": 747,
+        "likes": 10,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 93,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.289,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 2.0,
+        "alcance": 262,
+        "tasa": 0.0076,
+        "indice": 0.622
+      },
+      "instagram": {
+        "interacciones": 10.0,
+        "alcance": 747,
+        "tasa": 0.0134,
+        "indice": 0.534
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 93,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1466,
+    "_inter": 12.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.289,
+      "redes": 4,
+      "vistas": 1466,
+      "interacciones": 12.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 2.0,
+          "alcance": 262,
+          "tasa": 0.0076,
+          "indice": 0.622
+        },
+        "instagram": {
+          "interacciones": 10.0,
+          "alcance": 747,
+          "tasa": 0.0134,
+          "indice": 0.534
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 93,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mtabu0yg2xzm_01.mp4",
@@ -4441,7 +10561,107 @@
     "yt_titulo": "Máximo Sala: \"Argentina estuvo primera en la clasificación\"",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-26T13:57:08",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:16",
+      "horas": 139.1,
+      "facebook": {
+        "vistas": 1059,
+        "alcance": 0,
+        "likes": 21,
+        "comentarios": 3,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 882,
+        "alcance": 600,
+        "likes": 36,
+        "comentarios": 1,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 62,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 12,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.395,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 33.0,
+        "alcance": 1059,
+        "tasa": 0.0312,
+        "indice": 5.0
+      },
+      "instagram": {
+        "interacciones": 41.0,
+        "alcance": 600,
+        "tasa": 0.0683,
+        "indice": 2.507
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 62,
+        "tasa": 0.0161,
+        "indice": 2.073
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 12,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2015,
+    "_inter": 75.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.395,
+      "redes": 4,
+      "vistas": 2015,
+      "interacciones": 75.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 33.0,
+          "alcance": 1059,
+          "tasa": 0.0312,
+          "indice": 5.0
+        },
+        "instagram": {
+          "interacciones": 41.0,
+          "alcance": 600,
+          "tasa": 0.0683,
+          "indice": 2.507
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 62,
+          "tasa": 0.0161,
+          "indice": 2.073
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 12,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mtajps5t1bat_01.mp4",
@@ -4479,7 +10699,107 @@
     "yt_titulo": "Lucas Ballerino destacó los 12 años del Mural Rayuela",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-26T17:57:15",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:19",
+      "horas": 135.1,
+      "facebook": {
+        "vistas": 975,
+        "alcance": 0,
+        "likes": 16,
+        "comentarios": 4,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4070,
+        "alcance": 2997,
+        "likes": 93,
+        "comentarios": 6,
+        "compartidas": 9,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 13,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 3.168,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 24.0,
+        "alcance": 975,
+        "tasa": 0.0246,
+        "indice": 3.76
+      },
+      "instagram": {
+        "interacciones": 132.0,
+        "alcance": 2997,
+        "tasa": 0.044,
+        "indice": 3.911
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 13,
+        "tasa": 0.0769,
+        "indice": 5.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 5066,
+    "_inter": 157.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 3.168,
+      "redes": 4,
+      "vistas": 5066,
+      "interacciones": 157.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 24.0,
+          "alcance": 975,
+          "tasa": 0.0246,
+          "indice": 3.76
+        },
+        "instagram": {
+          "interacciones": 132.0,
+          "alcance": 2997,
+          "tasa": 0.044,
+          "indice": 3.911
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 13,
+          "tasa": 0.0769,
+          "indice": 5.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-26_matias-zucchi_mtapyt04922d",
@@ -4512,7 +10832,107 @@
     "ig_media_id": "18086066327234932",
     "fb_video_id": "2123985075141250",
     "yt_video_id": "cT4WBtQfxcw",
-    "yt_url": "https://www.youtube.com/shorts/cT4WBtQfxcw"
+    "yt_url": "https://www.youtube.com/shorts/cT4WBtQfxcw",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:22",
+      "horas": 132.5,
+      "facebook": {
+        "vistas": 698,
+        "alcance": 0,
+        "likes": 8,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1477,
+        "alcance": 910,
+        "likes": 16,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 146,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 13,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.585,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 8.0,
+        "alcance": 698,
+        "tasa": 0.0115,
+        "indice": 1.433
+      },
+      "instagram": {
+        "interacciones": 19.0,
+        "alcance": 910,
+        "tasa": 0.0209,
+        "indice": 0.907
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 146,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 13,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2334,
+    "_inter": 27.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.585,
+      "redes": 4,
+      "vistas": 2334,
+      "interacciones": 27.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 8.0,
+          "alcance": 698,
+          "tasa": 0.0115,
+          "indice": 1.433
+        },
+        "instagram": {
+          "interacciones": 19.0,
+          "alcance": 910,
+          "tasa": 0.0209,
+          "indice": 0.907
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 146,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 13,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-26_matias-zucchi_mtaqbzhft9jp",
@@ -4545,7 +10965,87 @@
     "ig_media_id": "18437672059125226",
     "fb_video_id": "38636670315931372",
     "yt_video_id": "NHk07B0W8G4",
-    "yt_url": "https://www.youtube.com/shorts/NHk07B0W8G4"
+    "yt_url": "https://www.youtube.com/shorts/NHk07B0W8G4",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:25",
+      "horas": 132.3,
+      "facebook": {
+        "vistas": 1347,
+        "alcance": 0,
+        "likes": 7,
+        "comentarios": 9,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 2662,
+        "alcance": 1440,
+        "likes": 17,
+        "comentarios": 4,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 203,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.672,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 28.0,
+        "alcance": 1347,
+        "tasa": 0.0208,
+        "indice": 3.948
+      },
+      "instagram": {
+        "interacciones": 28.0,
+        "alcance": 1440,
+        "tasa": 0.0194,
+        "indice": 1.069
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 203,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 4212,
+    "_inter": 56.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.672,
+      "redes": 3,
+      "vistas": 4212,
+      "interacciones": 56.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 28.0,
+          "alcance": 1347,
+          "tasa": 0.0208,
+          "indice": 3.948
+        },
+        "instagram": {
+          "interacciones": 28.0,
+          "alcance": 1440,
+          "tasa": 0.0194,
+          "indice": 1.069
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 203,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-27_matias-zucchi_mtbj91uvxozw",
@@ -4578,7 +11078,107 @@
     "ig_media_id": "18080742944336899",
     "fb_video_id": "2263624167724361",
     "yt_video_id": "qKbWhokQytg",
-    "yt_url": "https://www.youtube.com/shorts/qKbWhokQytg"
+    "yt_url": "https://www.youtube.com/shorts/qKbWhokQytg",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:27",
+      "horas": 118.9,
+      "facebook": {
+        "vistas": 418,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1469,
+        "alcance": 1005,
+        "likes": 37,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 171,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 12,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.825,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 7.0,
+        "alcance": 418,
+        "tasa": 0.0167,
+        "indice": 1.625
+      },
+      "instagram": {
+        "interacciones": 37.0,
+        "alcance": 1005,
+        "tasa": 0.0368,
+        "indice": 1.675
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 171,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 12,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 2070,
+    "_inter": 44.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.825,
+      "redes": 4,
+      "vistas": 2070,
+      "interacciones": 44.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 7.0,
+          "alcance": 418,
+          "tasa": 0.0167,
+          "indice": 1.625
+        },
+        "instagram": {
+          "interacciones": 37.0,
+          "alcance": 1005,
+          "tasa": 0.0368,
+          "indice": 1.675
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 171,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 12,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-27_matias-zucchi_mtbn2g669gst",
@@ -4611,7 +11211,87 @@
     "ig_media_id": "",
     "fb_video_id": "1422841003097869",
     "yt_video_id": "yteOJoreHoY",
-    "yt_url": "https://www.youtube.com/shorts/yteOJoreHoY"
+    "yt_url": "https://www.youtube.com/shorts/yteOJoreHoY",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:30",
+      "horas": 117.1,
+      "facebook": {
+        "vistas": 123,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 81,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 10,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.751,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 123,
+        "tasa": 0.0081,
+        "indice": 0.549
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 81,
+        "tasa": 0.0123,
+        "indice": 1.704
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 10,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 214,
+    "_inter": 2.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.751,
+      "redes": 3,
+      "vistas": 214,
+      "interacciones": 2.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 123,
+          "tasa": 0.0081,
+          "indice": 0.549
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 81,
+          "tasa": 0.0123,
+          "indice": 1.704
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 10,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-27_matias-zucchi_mtbrfl06yl0w",
@@ -4644,7 +11324,107 @@
     "ig_media_id": "18351350188173461",
     "fb_video_id": "1074992011612673",
     "yt_video_id": "CTGU7dgPE4E",
-    "yt_url": "https://www.youtube.com/shorts/CTGU7dgPE4E"
+    "yt_url": "https://www.youtube.com/shorts/CTGU7dgPE4E",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:33",
+      "horas": 115.0,
+      "facebook": {
+        "vistas": 191,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 872,
+        "alcance": 530,
+        "likes": 5,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 109,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 12,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.603,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 5.0,
+        "alcance": 191,
+        "tasa": 0.0262,
+        "indice": 1.946
+      },
+      "instagram": {
+        "interacciones": 7.0,
+        "alcance": 530,
+        "tasa": 0.0132,
+        "indice": 0.465
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 109,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 12,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1184,
+    "_inter": 12.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.603,
+      "redes": 4,
+      "vistas": 1184,
+      "interacciones": 12.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 5.0,
+          "alcance": 191,
+          "tasa": 0.0262,
+          "indice": 1.946
+        },
+        "instagram": {
+          "interacciones": 7.0,
+          "alcance": 530,
+          "tasa": 0.0132,
+          "indice": 0.465
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 109,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 12,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-28_matias-zucchi_mtd35p9n636p",
@@ -4677,7 +11457,87 @@
     "ig_media_id": "18102658486958570",
     "fb_video_id": "1544094466988468",
     "yt_video_id": "Yd8Of8h5oDM",
-    "yt_url": "https://www.youtube.com/shorts/Yd8Of8h5oDM"
+    "yt_url": "https://www.youtube.com/shorts/Yd8Of8h5oDM",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:37",
+      "horas": 92.8,
+      "instagram": {
+        "vistas": 0,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 1019,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 14,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.199,
+    "_detalle": {
+      "instagram": {
+        "interacciones": 0.0,
+        "alcance": 0,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 1019,
+        "tasa": 0.001,
+        "indice": 0.596
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 14,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1033,
+    "_inter": 1.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.199,
+      "redes": 3,
+      "vistas": 1033,
+      "interacciones": 1.0,
+      "detalle": {
+        "instagram": {
+          "interacciones": 0.0,
+          "alcance": 0,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 1019,
+          "tasa": 0.001,
+          "indice": 0.596
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 14,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-28_matias-zucchi_mtdjboabm0wo",
@@ -4710,7 +11570,107 @@
     "ig_media_id": "17924494146408789",
     "fb_video_id": "1384012239823750",
     "yt_video_id": "HDk3G2hAtH4",
-    "yt_url": "https://www.youtube.com/shorts/HDk3G2hAtH4"
+    "yt_url": "https://www.youtube.com/shorts/HDk3G2hAtH4",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:39",
+      "horas": 85.3,
+      "facebook": {
+        "vistas": 965,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1205,
+        "alcance": 751,
+        "likes": 11,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 990,
+        "alcance": 0,
+        "likes": 2,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 10,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.761,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 7.0,
+        "alcance": 965,
+        "tasa": 0.0073,
+        "indice": 1.101
+      },
+      "instagram": {
+        "interacciones": 14.0,
+        "alcance": 751,
+        "tasa": 0.0186,
+        "indice": 0.745
+      },
+      "youtube": {
+        "interacciones": 2.0,
+        "alcance": 990,
+        "tasa": 0.002,
+        "indice": 1.197
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 10,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 3170,
+    "_inter": 23.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.761,
+      "redes": 4,
+      "vistas": 3170,
+      "interacciones": 23.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 7.0,
+          "alcance": 965,
+          "tasa": 0.0073,
+          "indice": 1.101
+        },
+        "instagram": {
+          "interacciones": 14.0,
+          "alcance": 751,
+          "tasa": 0.0186,
+          "indice": 0.745
+        },
+        "youtube": {
+          "interacciones": 2.0,
+          "alcance": 990,
+          "tasa": 0.002,
+          "indice": 1.197
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 10,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mtejob477aos_01.mp4",
@@ -4748,7 +11708,87 @@
     "yt_titulo": "Celebración del Día de las Infancias en la Asociación Bancaria Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-29T12:47:06",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:41",
+      "horas": 68.3,
+      "facebook": {
+        "vistas": 523,
+        "alcance": 0,
+        "likes": 4,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 1388,
+        "alcance": 892,
+        "likes": 9,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 72,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.556,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 6.0,
+        "alcance": 523,
+        "tasa": 0.0115,
+        "indice": 1.234
+      },
+      "instagram": {
+        "interacciones": 9.0,
+        "alcance": 892,
+        "tasa": 0.0101,
+        "indice": 0.434
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 72,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1983,
+    "_inter": 15.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.556,
+      "redes": 3,
+      "vistas": 1983,
+      "interacciones": 15.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 6.0,
+          "alcance": 523,
+          "tasa": 0.0115,
+          "indice": 1.234
+        },
+        "instagram": {
+          "interacciones": 9.0,
+          "alcance": 892,
+          "tasa": 0.0101,
+          "indice": 0.434
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 72,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-29_sumate-a-la-fuerza-la-provinci_mtewzojs8hpn",
@@ -4781,7 +11821,87 @@
     "ig_media_id": "17909630211284685",
     "fb_video_id": "1553470300130805",
     "yt_video_id": "2awFsPXEeOg",
-    "yt_url": "https://www.youtube.com/shorts/2awFsPXEeOg"
+    "yt_url": "https://www.youtube.com/shorts/2awFsPXEeOg",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:44",
+      "horas": 62.1,
+      "facebook": {
+        "vistas": 249,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 904,
+        "alcance": 537,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 952,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.998,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 6.0,
+        "alcance": 249,
+        "tasa": 0.0241,
+        "indice": 1.931
+      },
+      "instagram": {
+        "interacciones": 7.0,
+        "alcance": 537,
+        "tasa": 0.013,
+        "indice": 0.46
+      },
+      "youtube": {
+        "interacciones": 1.0,
+        "alcance": 952,
+        "tasa": 0.0011,
+        "indice": 0.602
+      }
+    },
+    "_redes": 3,
+    "_vistas": 2105,
+    "_inter": 14.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.998,
+      "redes": 3,
+      "vistas": 2105,
+      "interacciones": 14.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 6.0,
+          "alcance": 249,
+          "tasa": 0.0241,
+          "indice": 1.931
+        },
+        "instagram": {
+          "interacciones": 7.0,
+          "alcance": 537,
+          "tasa": 0.013,
+          "indice": 0.46
+        },
+        "youtube": {
+          "interacciones": 1.0,
+          "alcance": 952,
+          "tasa": 0.0011,
+          "indice": 0.602
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mtexwtuwm5y9_01.mp4",
@@ -4819,7 +11939,87 @@
     "yt_titulo": "Las Leonas vencieron a Países Bajos y se coronaron campeonas del mundo",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-29T19:24:42",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:46",
+      "horas": 61.7,
+      "facebook": {
+        "vistas": 265,
+        "alcance": 0,
+        "likes": 6,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 1447,
+        "alcance": 0,
+        "likes": 76,
+        "comentarios": 1,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 4,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 2.489,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 8.0,
+        "alcance": 265,
+        "tasa": 0.0302,
+        "indice": 2.468
+      },
+      "youtube": {
+        "interacciones": 78.0,
+        "alcance": 1447,
+        "tasa": 0.0539,
+        "indice": 5.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 4,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 1716,
+    "_inter": 86.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 2.489,
+      "redes": 3,
+      "vistas": 1716,
+      "interacciones": 86.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 8.0,
+          "alcance": 265,
+          "tasa": 0.0302,
+          "indice": 2.468
+        },
+        "youtube": {
+          "interacciones": 78.0,
+          "alcance": 1447,
+          "tasa": 0.0539,
+          "indice": 5.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 4,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mthgdo6e1f7b_01.mp4",
@@ -4857,7 +12057,67 @@
     "yt_titulo": "Yamila Farrell anunció el lanzamiento de la 74° Exposición Rural de Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-31T13:39:34",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:48",
+      "horas": 19.4,
+      "instagram": {
+        "vistas": 0,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.0,
+    "_detalle": {
+      "instagram": {
+        "interacciones": 0.0,
+        "alcance": 0,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 2,
+    "_vistas": 8,
+    "_inter": 0.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.0,
+      "redes": 2,
+      "vistas": 8,
+      "interacciones": 0.0,
+      "detalle": {
+        "instagram": {
+          "interacciones": 0.0,
+          "alcance": 0,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "video_matias-zucchi_mthhbunu3d05_01.mp4",
@@ -4895,7 +12155,87 @@
     "yt_titulo": "Choque entre dos camiones en el Parque Industrial de Chivilcoy",
     "yt_privacy": "public",
     "fecha_youtube": "2026-08-31T14:04:32",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "metricas": {
+      "capturado": "2026-09-01T09:04:50",
+      "horas": 19.0,
+      "facebook": {
+        "vistas": 708,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 4569,
+        "alcance": 2077,
+        "likes": 29,
+        "comentarios": 1,
+        "compartidas": 7,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 543,
+        "alcance": 0,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 1.313,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 708,
+        "tasa": 0.0014,
+        "indice": 0.178
+      },
+      "instagram": {
+        "interacciones": 52.0,
+        "alcance": 2077,
+        "tasa": 0.025,
+        "indice": 1.723
+      },
+      "youtube": {
+        "interacciones": 3.0,
+        "alcance": 543,
+        "tasa": 0.0055,
+        "indice": 2.039
+      }
+    },
+    "_redes": 3,
+    "_vistas": 5820,
+    "_inter": 56.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 1.313,
+      "redes": 3,
+      "vistas": 5820,
+      "interacciones": 56.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 708,
+          "tasa": 0.0014,
+          "indice": 0.178
+        },
+        "instagram": {
+          "interacciones": 52.0,
+          "alcance": 2077,
+          "tasa": 0.025,
+          "indice": 1.723
+        },
+        "youtube": {
+          "interacciones": 3.0,
+          "alcance": 543,
+          "tasa": 0.0055,
+          "indice": 2.039
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-08-31_matias-zucchi_mthvlu56ie11",
@@ -4928,7 +12268,107 @@
     "ig_media_id": "18016216511730721",
     "fb_video_id": "1896239148016109",
     "yt_video_id": "f0vNKKyQ368",
-    "yt_url": "https://www.youtube.com/shorts/f0vNKKyQ368"
+    "yt_url": "https://www.youtube.com/shorts/f0vNKKyQ368",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:52",
+      "horas": 12.4,
+      "facebook": {
+        "vistas": 87,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 482,
+        "alcance": 305,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 24,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 8,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.283,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 1.0,
+        "alcance": 87,
+        "tasa": 0.0115,
+        "indice": 0.735
+      },
+      "instagram": {
+        "interacciones": 4.0,
+        "alcance": 305,
+        "tasa": 0.0131,
+        "indice": 0.397
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 24,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 8,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 601,
+    "_inter": 5.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.283,
+      "redes": 4,
+      "vistas": 601,
+      "interacciones": 5.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 1.0,
+          "alcance": 87,
+          "tasa": 0.0115,
+          "indice": 0.735
+        },
+        "instagram": {
+          "interacciones": 4.0,
+          "alcance": 305,
+          "tasa": 0.0131,
+          "indice": 0.397
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 24,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 8,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-09-01_matias-zucchi_mthwlcvlyqu5",
@@ -4961,7 +12401,87 @@
     "ig_media_id": "18085598495427392",
     "fb_video_id": "1076370908312197",
     "yt_video_id": "BopfIM2PBYk",
-    "yt_url": "https://www.youtube.com/shorts/BopfIM2PBYk"
+    "yt_url": "https://www.youtube.com/shorts/BopfIM2PBYk",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:55",
+      "horas": 11.9,
+      "facebook": {
+        "vistas": 116,
+        "alcance": 0,
+        "likes": 1,
+        "comentarios": 0,
+        "compartidas": 1,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 568,
+        "alcance": 336,
+        "likes": 4,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 106,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.891,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 4.0,
+        "alcance": 116,
+        "tasa": 0.0345,
+        "indice": 2.305
+      },
+      "instagram": {
+        "interacciones": 4.0,
+        "alcance": 336,
+        "tasa": 0.0119,
+        "indice": 0.369
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 106,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 3,
+    "_vistas": 790,
+    "_inter": 8.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.891,
+      "redes": 3,
+      "vistas": 790,
+      "interacciones": 8.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 4.0,
+          "alcance": 116,
+          "tasa": 0.0345,
+          "indice": 2.305
+        },
+        "instagram": {
+          "interacciones": 4.0,
+          "alcance": 336,
+          "tasa": 0.0119,
+          "indice": 0.369
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 106,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   },
   {
     "file": "corresponsal_2026-09-01_matias-zucchi_mti0pwzwn6mn",
@@ -4994,6 +12514,106 @@
     "ig_media_id": "18099892604573977",
     "fb_video_id": "1099236839286035",
     "yt_video_id": "RF1fALKVgiY",
-    "yt_url": "https://www.youtube.com/shorts/RF1fALKVgiY"
+    "yt_url": "https://www.youtube.com/shorts/RF1fALKVgiY",
+    "metricas": {
+      "capturado": "2026-09-01T09:04:56",
+      "horas": 10.0,
+      "facebook": {
+        "vistas": 114,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 841,
+        "alcance": 461,
+        "likes": 11,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 266,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 7,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.201,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 114,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 11.0,
+        "alcance": 461,
+        "tasa": 0.0239,
+        "indice": 0.803
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 266,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 7,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 1228,
+    "_inter": 11.0,
+    "ranking_metrics": {
+      "mes": "2026-08",
+      "indice": 0.201,
+      "redes": 4,
+      "vistas": 1228,
+      "interacciones": 11.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 114,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 11.0,
+          "alcance": 461,
+          "tasa": 0.0239,
+          "indice": 0.803
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 266,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 7,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-09-01T09:04:59"
+    }
   }
 ]
