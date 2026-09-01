@@ -970,8 +970,27 @@ def extract_audio(src, salida) -> Path:
     return salida
 
 
+def _duraciones_parejas(n: int, seg: float, fade: float) -> list[float]:
+    """Cuánto dura cada placa para que TODAS se vean el MISMO tiempo (2026-09-01).
+
+    El problema: con `xfade`, la primera y la última placa tienen UN fundido (de salida y
+    de entrada) mientras que las del medio tienen DOS. Si todas duraran lo mismo, las del
+    medio se verían solas `seg - 2*fade` y las de las puntas `seg - fade`: la primera
+    parecía durar más, que es justo lo que se veía.
+
+    Solución: darle a cada placa el tiempo solo que le corresponde MÁS los fundidos que le
+    tocan. Así el tiempo VISIBLE es idéntico para todas y la duración total no cambia."""
+    if n <= 1:
+        return [seg]
+    solo = seg - 2 * (n - 1) * fade / n          # mantiene el total en n*seg - (n-1)*fade
+    return [round(solo + (fade if i in (0, n - 1) else 2 * fade), 3) for i in range(n)]
+
+
 def build_slideshow(imagenes, salida, *, seg: float = 3.5, fade: float = 0.6, fps: int = 30) -> Path:
-    """imagenes: lista de Paths (cada una una placa 9:16). Devuelve el .mp4."""
+    """imagenes: lista de Paths (cada una una placa 9:16). Devuelve el .mp4.
+
+    `seg` es la duración MEDIA por placa: el reparto real lo hace `_duraciones_parejas`
+    para que todas se vean el mismo tiempo. El total sigue siendo `n*seg - (n-1)*fade`."""
     imgs = [str(p) for p in imagenes]
     n = len(imgs)
     salida = Path(salida)
@@ -979,9 +998,10 @@ def build_slideshow(imagenes, salida, *, seg: float = 3.5, fade: float = 0.6, fp
     if n == 0:
         raise ValueError("No hay imágenes para el reel")
 
+    dur = _duraciones_parejas(n, seg, fade)
     inputs = []
-    for p in imgs:
-        inputs += ["-loop", "1", "-t", str(seg), "-i", p]
+    for p, d in zip(imgs, dur):
+        inputs += ["-loop", "1", "-t", str(d), "-i", p]
 
     fc = [_norm(i, fps) for i in range(n)]
     if n == 1:
@@ -989,7 +1009,8 @@ def build_slideshow(imagenes, salida, *, seg: float = 3.5, fade: float = 0.6, fp
     else:
         prev = "s0"
         for i in range(1, n):
-            off = round(i * (seg - fade), 3)
+            # El fundido arranca `fade` antes de que termine lo acumulado hasta acá.
+            off = round(sum(dur[:i]) - i * fade, 3)
             tr = TRANS[(i - 1) % len(TRANS)]
             out = f"v{i}"
             fc.append(f"[{prev}][s{i}]xfade=transition={tr}:duration={fade}:offset={off}[{out}]")
