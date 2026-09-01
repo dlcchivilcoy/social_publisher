@@ -12832,11 +12832,24 @@
     "texto": "Un accidente de tránsito se registró en la intersección de la avenida Calixto Calderón y Padre Zacarías, donde colisionaron una motocicleta Keller 110 cc, sin dominio colocado, y una bicicleta. La moto era conducida por Natalia Lorena Romano, de 48 años, mientras que en la bicicleta circulaba Nicolás Maximiliano Rey. Ambos fueron asistidos y trasladados al Hospital Municipal de Chivilcoy por móviles del SAME. Por el momento, no se brindaron precisiones sobre su estado de salud.",
     "draft_id": "2286ce4f-a750-4497-8c25-45ee5572534e",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-09-01-matias-zucchi-mt.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-01T22:18:04.721Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-01T22:18:04.721Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-01T19:28:29",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"A_9AHsWIVgX4G4Yvs340MwW\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "en borradores"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/choque-entre-una-moto-y-una-bicicleta-en-calixto-calderon-y-padre",
+    "ig_media_id": "",
+    "fb_video_id": "1641402510889822",
+    "yt_video_id": "TTjdZFOn9i4",
+    "yt_url": "https://www.youtube.com/shorts/TTjdZFOn9i4"
   }
 ]
