@@ -1439,7 +1439,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
             f"<p>Al aprobar se publica la <b>nota web</b> y se postea el <b>reel</b> de la foto a "
-            f"<b>Facebook/Instagram + YouTube Short</b> (nota redactada por IA). Con los botones "
+            f"<b>Facebook/Instagram + YouTube Short + TikTok</b> (nota redactada por IA). Con los "
+            f"botones "
             f"podés previsualizar el reel, corregir el texto o borrar el borrador:</p>"
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la carpeta "
@@ -1452,7 +1453,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
 
 def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     """ETAPA 2 del CORRESPONSAL-FOTO (al aprobar): publica la NOTA WEB (borrador de Wix con el reel
-    embebido) y postea el reel a Facebook/Instagram + YouTube Short. SIN firma. La descripción sale
+    embebido) y postea el reel a Facebook/Instagram + YouTube Short + TikTok. SIN firma. La descripción sale
     SEO con IA: completa en YouTube y recortada a 5 hashtags en IG/FB. Sincroniza la corrección de
     texto si se editó el borrador."""
     if fila.get("estado") == "publicado_foto_corr":
@@ -1559,7 +1560,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     logger.info(f"Corresponsal-foto publicado: {estado}")
     _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
                   f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
-                  f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}.")
+                  f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}, "
+                  f"TikTok={estado.get('tiktok', 'omitido')}.")
     # Aviso al corresponsal por WhatsApp con los LINKS de cada red donde salió ok (SOLO-GRATIS).
     canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube") if estado.get(k) == "ok"]
     links = {}
@@ -1640,7 +1642,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
             f"<p>Está como <b>borrador en Wix</b> con la foto y el texto. Para PUBLICAR "
-            f"(nota web con el reel + reel de la foto a Facebook/Instagram y YouTube con el texto):</p>"
+            f"(nota web con el reel + reel de la foto a Facebook/Instagram, YouTube y TikTok con el texto):</p>"
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la "
             f"carpeta «{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
@@ -1815,7 +1817,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             + (f" — <a href='{post_url}'>{_hesc(post_url)}</a>" if post_url else "") + "</li>"
             f"</ul>{borrar}</div>")
     _enviar_aviso(f"Foto-nota publicada: {titular}",
-                  f"Se publicó «{title}» (reel de la foto a FB/IG + YouTube + nota web con el reel).\n{post_url}",
+                  f"Se publicó «{title}» (reel de la foto a FB/IG + YouTube + TikTok + "
+                  f"nota web con el reel).\n{post_url}",
                   html=html)
     logger.info("=== Foto-nota (etapa 2): fin ===")
 
