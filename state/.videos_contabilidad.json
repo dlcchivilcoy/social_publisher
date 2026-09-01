@@ -12761,11 +12761,24 @@
     "texto": "Chivilcoy prepara un plan de contingencia ante los posibles efectos del fenómeno de El Niño, que podría provocar lluvias intensas, tormentas severas, anegamientos, cortes de energía y complicaciones en caminos y servicios públicos.\n\nEl intendente Guillermo Britos encabezó una reunión con representantes de Defensa Civil, Bomberos, Cruz Roja, EDEN y distintas áreas municipales para coordinar tareas, definir recursos y fortalecer la capacidad de respuesta ante una eventual emergencia climática.\n\nLa próxima semana se realizará un encuentro ampliado con más dependencias, instituciones y espacios políticos. El objetivo es anticiparse a los distintos escenarios y evitar improvisaciones frente a un posible evento de gran magnitud.",
     "draft_id": "096adc2b-18c7-479c-968d-0d557f6955c5",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-09-01-matias-zucchi-mt.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-01T21:38:56.155Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-01T21:38:56.155Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-01T18:49:03",
+    "estado_canales": {
+      "instagram": "falló: Instagram (publicar reel): 500 {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AF1kpekHnGVPf1AnYev8h70\"}}",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "en borradores"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-prepara-un-plan-de-contingencia-ante-el-fenomeno-de-el-nino",
+    "ig_media_id": "",
+    "fb_video_id": "1613658556946915",
+    "yt_video_id": "U1qzpF71_K0",
+    "yt_url": "https://www.youtube.com/shorts/U1qzpF71_K0"
   }
 ]
