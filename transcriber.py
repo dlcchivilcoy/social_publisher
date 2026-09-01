@@ -811,7 +811,12 @@ def _solo_5_hashtags(texto: str) -> str:
 
 
 # ── Aviso al corresponsal cuando su nota se publica (SOLO-GRATIS) ──────────────
-_WA_CANALES = {"wix": "nuestra web", "instagram": "Instagram", "facebook": "Facebook", "youtube": "YouTube"}
+_WA_CANALES = {"wix": "nuestra web", "instagram": "Instagram", "facebook": "Facebook",
+               "youtube": "YouTube", "tiktok": "TikTok"}
+# Orden en que se le nombran las redes al corresponsal. Se listan SOLO las que quedaron en
+# «ok»: TikTok, mientras la app no esté auditada, cae en BORRADORES y el reel todavía no es
+# público — nombrarlo ahí sería prometerle al vecino algo que todavía no puede ver.
+_WA_ORDEN = ("wix", "instagram", "facebook", "youtube", "tiktok")
 
 
 def _normalizar_ar(numero: str) -> str:
@@ -1331,8 +1336,7 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # Corresponsal: avisarle por WhatsApp que su nota se publicó, con los LINKS de cada red donde
     # salió ok (web/IG/FB/YouTube). SOLO-GRATIS (ver el helper).
     if es_corr:
-        canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube")
-                   if estado_canales.get(k) == "ok"]
+        canales = [_WA_CANALES[k] for k in _WA_ORDEN if estado_canales.get(k) == "ok"]
         links = {}
         if estado_canales.get("wix") == "ok" and post_url:
             links["web"] = post_url
@@ -1563,7 +1567,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}, "
                   f"TikTok={estado.get('tiktok', 'omitido')}.")
     # Aviso al corresponsal por WhatsApp con los LINKS de cada red donde salió ok (SOLO-GRATIS).
-    canales = [_WA_CANALES[k] for k in ("wix", "instagram", "facebook", "youtube") if estado.get(k) == "ok"]
+    canales = [_WA_CANALES[k] for k in _WA_ORDEN if estado.get(k) == "ok"]
     links = {}
     if estado.get("wix") == "ok" and post_url:
         links["web"] = post_url
