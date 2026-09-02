@@ -317,9 +317,13 @@ def concat_videos(paths, salida, *, w: int = 1080, h: int = 1920):
 
 
 def _fullbleed_on() -> bool:
-    """Full bleed: el video/foto LLENA el cuadro 9:16 (sin franjas ni fondo borroso),
-    recortado y encuadrado en el sujeto. `REEL_FULLBLEED=0` vuelve al fondo difuminado."""
-    return str(_cfg("REEL_FULLBLEED", "1")).strip().lower() not in ("0", "no", "false", "off")
+    """Full bleed: el video/foto LLENA el cuadro 9:16 recortando lo que sobra.
+
+    APAGADO por default desde el 2026-09-02 (pedido del usuario): el material que mandan
+    los corresponsales va ENTERO, a su proporción, escalado hasta tocar los márgenes del
+    reel, sobre el fondo difuminado. Recortar a 9:16 se comía gente, carteles y patentes.
+    `REEL_FULLBLEED=1` lo vuelve a prender."""
+    return str(_cfg("REEL_FULLBLEED", "0")).strip().lower() not in ("0", "no", "false", "off")
 
 
 def _fullbleed_aplica(w: int, h: int) -> bool:
@@ -530,8 +534,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     recorte = detectar_recorte(src)
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
     fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
-    # Full bleed: llena el 9:16 encuadrado en el sujeto, pero SOLO en verticales/cuadrados.
-    # Los HORIZONTALES siguen con el fondo difuminado de siempre (ver `_fullbleed_aplica`).
+    # Por default el video va ENTERO, a su proporción, escalado hasta tocar los márgenes,
+    # sobre el fondo difuminado. Con `REEL_FULLBLEED=1` los verticales/cuadrados se recortan
+    # a 9:16 encuadrando el sujeto (los horizontales nunca: ver `_fullbleed_aplica`).
     if _fullbleed_aplica(cont_w, cont_h):
         encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
     else:
@@ -567,9 +572,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
 
 
 def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
-    """Loopea una FOTO a un .mp4 de `seg` segundos, sin audio. Con full bleed (default) la
-    foto se recorta a 9:16 LLENANDO el cuadro y encuadrada en el sujeto (caras) con
-    `story_image._encuadrar`; si está apagado, se escala para entrar (a su proporción).
+    """Loopea una FOTO a un .mp4 de `seg` segundos, sin audio. Por default la foto va
+    ENTERA, escalada a su proporción hasta tocar los márgenes del reel. Con
+    `REEL_FULLBLEED=1` se recorta a 9:16 encuadrando el sujeto (`story_image._encuadrar`).
     Sirve de 'video fuente' para pasarlo por `to_vertical_reel` y que reciba EXACTAMENTE
     el mismo branding que los videos (logo + overlay + placa)."""
     ff = _ffmpeg()
