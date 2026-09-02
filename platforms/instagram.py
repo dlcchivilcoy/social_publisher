@@ -1,5 +1,6 @@
 import tempfile
 import time
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -154,6 +155,119 @@ def _crear_contenedor(user_id: str, token: str, data: dict, *, intentos: int = 3
     _raise_for_status(ultimo, "crear contenedor")
 
 
+# --------------------------- publicar el contenedor ---------------------------
+# El paso final (media_publish) a veces contesta 500 "is_transient" AUNQUE la
+# publicación HAYA SALIDO BIEN. Pasó el 2026-09-01 con dos reels de corresponsal:
+# quedaron publicados en Instagram (21:47 y 22:27 UTC) y el bot los reportó como
+# fallidos. Por eso acá NO se reintenta a ciegas —eso duplicaría el posteo—: ante un
+# error transitorio primero se le pregunta a Instagram si el media ya está.
+_PUBLICAR_ESPERAS = (10, 30, 60)
+_MARGEN_RELOJ = 180   # segundos de tolerancia entre nuestro reloj y el de Meta
+
+
+def _es_transitorio(resp) -> bool:
+    """True si el error de Instagram es un bache momentáneo y vale la pena reintentar."""
+    if resp is None:
+        return False
+    if resp.status_code in (429, 500, 502, 503, 504):
+        return True
+    try:
+        err = (resp.json() or {}).get("error") or {}
+    except ValueError:
+        return False
+    return bool(err.get("is_transient")) or err.get("code") in (1, 2, 4, 17, 32, 341)
+
+
+def _clave_caption(texto: str) -> str:
+    """Arranque normalizado del caption, para reconocer nuestro propio posteo."""
+    return " ".join((texto or "").split())[:80].lower()
+
+
+def _epoch(ts: str) -> float:
+    """Marca de tiempo ISO de Instagram (2026-09-01T22:27:00+0000) a segundos."""
+    try:
+        return datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z").timestamp()
+    except (ValueError, TypeError):
+        return 0.0
+
+
+def _ya_publicado(user_id: str, token: str, *, caption: str = "", desde: float = 0.0,
+                  historia: bool = False) -> str:
+    """Id de una publicación nuestra posterior a `desde` que coincida con `caption`.
+
+    Devuelve "" si no está. Sirve para distinguir un fallo REAL de un error transitorio
+    mentiroso. Con caption compara el arranque del texto (identifica el posteo sin lugar
+    a dudas); sin caption —las historias no tienen— se guía por la marca de tiempo.
+    """
+    edge = "stories" if historia else "media"
+    try:
+        r = requests.get(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/{edge}",
+            params={"fields": "id,caption,timestamp", "limit": 10, "access_token": token},
+            timeout=30,
+        )
+        if not r.ok:
+            return ""
+        datos = (r.json() or {}).get("data") or []
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude verificar si el posteo de Instagram salió igual: {e}")
+        return ""
+
+    buscado = _clave_caption(caption)
+    # Sin caption el único indicio es la hora, así que el margen se achica para no
+    # confundir el posteo anterior de la misma tanda con el que estamos publicando.
+    piso = desde - (_MARGEN_RELOJ if buscado else 5)
+    for m in datos:
+        cuando = _epoch(m.get("timestamp") or "")
+        if not cuando or cuando < piso:
+            continue
+        if not buscado or _clave_caption(m.get("caption") or "") == buscado:
+            return m.get("id") or ""
+    return ""
+
+
+def _publicar_contenedor(user_id: str, token: str, creation_id: str, paso: str, *,
+                         caption: str = "", historia: bool = False,
+                         timeout: int = 30, esperas: tuple = _PUBLICAR_ESPERAS) -> str:
+    """Publica un contenedor ya listo y devuelve el media id.
+
+    Reintenta solo ante errores transitorios, y siempre chequeando antes que el posteo
+    no haya salido igual, para no duplicarlo.
+    """
+    desde = time.time()
+    ultimo = None
+    for intento in range(len(esperas) + 1):
+        if intento:
+            time.sleep(esperas[intento - 1])
+            ya = _ya_publicado(user_id, token, caption=caption, desde=desde, historia=historia)
+            if ya:
+                logger.warning(f"Instagram ({paso}): el error era falso, el posteo SÍ salió "
+                               f"(id={ya}). No se reintenta.")
+                return ya
+        resp = requests.post(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
+            params={"access_token": token},
+            data={"creation_id": creation_id},
+            timeout=timeout,
+        )
+        if resp.ok:
+            return resp.json()["id"]
+        ultimo = resp
+        if not _es_transitorio(resp) or intento == len(esperas):
+            break
+        logger.warning(f"Instagram ({paso}): error transitorio {resp.status_code}; "
+                       f"reintento en {esperas[intento]}s…")
+
+    # Último chequeo: pudo haber salido en el intento que acaba de "fallar".
+    if _es_transitorio(ultimo):
+        time.sleep(10)
+        ya = _ya_publicado(user_id, token, caption=caption, desde=desde, historia=historia)
+        if ya:
+            logger.warning(f"Instagram ({paso}): el error era falso, el posteo SÍ salió (id={ya})")
+            return ya
+    _raise_for_status(ultimo, paso)
+
+
 def publish(body: str, image_path: Path) -> dict:
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
@@ -174,14 +288,8 @@ def publish(body: str, image_path: Path) -> dict:
         _wait_container_ready(creation_id, token)
 
         # Paso 2: publicar contenedor
-        publish_resp = requests.post(
-            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
-            params={"access_token": token},
-            data={"creation_id": creation_id},
-            timeout=30,
-        )
-        _raise_for_status(publish_resp, "publicar media")
-        media_id = publish_resp.json()["id"]
+        media_id = _publicar_contenedor(user_id, token, creation_id, "publicar media",
+                                        caption=caption)
         logger.debug(f"Instagram media publicado id={media_id}")
         return {"success": True, "id": media_id}
     finally:
@@ -279,14 +387,8 @@ def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
         carousel_id = _crear_contenedor(user_id, token, parent_data)
         _wait_container_ready(carousel_id, token)
 
-        publish_resp = requests.post(
-            f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
-            params={"access_token": token},
-            data={"creation_id": carousel_id},
-            timeout=30,
-        )
-        _raise_for_status(publish_resp, "publicar carrusel")
-        media_id = publish_resp.json()["id"]
+        media_id = _publicar_contenedor(user_id, token, carousel_id, "publicar carrusel",
+                                        caption=caption)
         logger.debug(f"Instagram carrusel publicado id={media_id} ({len(child_ids)} imágenes)")
         return {"success": True, "id": media_id}
     finally:
@@ -326,14 +428,9 @@ def publish_story(image_path: Path) -> dict:
                 )
                 # Esperar a que Instagram procese la imagen antes de publicar (evita 2207027)
                 _wait_container_ready(creation_id, token)
-                publish_resp = requests.post(
-                    f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
-                    params={"access_token": token},
-                    data={"creation_id": creation_id},
-                    timeout=30,
-                )
-                _raise_for_status(publish_resp, "publicar story")
-                media_id = publish_resp.json()["id"]
+                # esperas cortas: el bucle de afuera ya reintenta con imagen nueva
+                media_id = _publicar_contenedor(user_id, token, creation_id, "publicar story",
+                                                historia=True, esperas=(15,))
                 logger.debug(f"Instagram story publicada id={media_id}")
                 return {"success": True, "id": media_id}
             except Exception as e:
@@ -376,14 +473,8 @@ def publish_reel(video_url: str, caption: str) -> dict:
     creation_id = _crear_contenedor(user_id, token, reel_data)
     _wait_container_ready_long(creation_id, token)
 
-    publish_resp = requests.post(
-        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
-        params={"access_token": token},
-        data={"creation_id": creation_id},
-        timeout=60,
-    )
-    _raise_for_status(publish_resp, "publicar reel")
-    media_id = publish_resp.json()["id"]
+    media_id = _publicar_contenedor(user_id, token, creation_id, "publicar reel",
+                                    caption=reel_data["caption"], timeout=60)
     logger.debug(f"Instagram reel publicado id={media_id}")
     return {"success": True, "id": media_id}
 
@@ -398,14 +489,8 @@ def publish_video_story(video_url: str) -> dict:
     creation_id = _crear_contenedor(user_id, token, {"media_type": "STORIES", "video_url": video_url})
     _wait_container_ready_long(creation_id, token)
 
-    publish_resp = requests.post(
-        f"https://graph.facebook.com/{GRAPH_VERSION}/{user_id}/media_publish",
-        params={"access_token": token},
-        data={"creation_id": creation_id},
-        timeout=60,
-    )
-    _raise_for_status(publish_resp, "publicar historia de video")
-    media_id = publish_resp.json()["id"]
+    media_id = _publicar_contenedor(user_id, token, creation_id, "publicar historia de video",
+                                    historia=True, timeout=60, esperas=(15, 45))
     logger.debug(f"Instagram historia de video publicada id={media_id}")
     return {"success": True, "id": media_id}
 
