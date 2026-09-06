@@ -13483,12 +13483,30 @@
     "zocalo": "",
     "draft_id": "af828bd0-6a5b-4e05-991e-087b64ec0cec",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtq387268odx-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-06T17:30:40.027Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-06T17:30:40.027Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-06T14:36:34",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "falló: TikTok init falló (400): {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"202609070136343DB261367B52BFE35EC9\"}}",
+      "wix": "omitido"
+    },
+    "ig_media_id": "17996060868007542",
+    "fb_video_id": "1785926572427806",
+    "yt_video_id": "uG2w4SOhpKE",
+    "yt_url": "https://www.youtube.com/shorts/uG2w4SOhpKE",
+    "yt_watch_url": "https://www.youtube.com/watch?v=uG2w4SOhpKE",
+    "yt_titulo": "Pergamino le ganó a Chivilcoy y se consagró campeón del Torneo Zonal U17",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-06T14:36:34",
+    "yt_metrics": {}
   }
 ]
