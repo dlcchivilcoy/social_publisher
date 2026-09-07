@@ -201,6 +201,14 @@ class TikTokBloqueado(RuntimeError):
     """
 
 
+class TikTokFrenado(TikTokBloqueado):
+    """No se intentó dejarlo en borradores: lo frenamos NOSOTROS para no llegar al tope.
+
+    TikTok admite 5 borradores sin publicar cada 24 h y al pasarse rechaza TODO. Es
+    preferible saltear el reel a gastar un pedido que va a ser rechazado igual.
+    """
+
+
 # Los códigos crudos de TikTok no le dicen nada a nadie; acá se traducen a qué pasó
 # y qué hay que hacer, que es lo que termina en el mail de aviso.
 _MOTIVOS = {
@@ -270,15 +278,24 @@ def upload_to_inbox(video_path: Path, titulo: str = "") -> dict:
     return {"success": True, "modo": "bandeja", "publish_id": publish_id}
 
 
-def publish(video_path, titulo: str = "", *, privacidad: str = "") -> dict:
+def publish(video_path, titulo: str = "", *, privacidad: str = "",
+            permitir_bandeja: bool = True) -> dict:
     """PUBLICA el reel derecho en el perfil de TikTok (Direct Post), con `titulo` de caption.
 
-    Si la app no tiene el scope `video.publish`, o TikTok rechaza el Direct Post, cae solo al
-    modo BANDEJA (borradores) para no perder la publicación, y lo avisa en el resultado."""
+    Si la app no tiene el scope `video.publish`, o TikTok rechaza el Direct Post, cae al
+    modo BANDEJA (borradores) para no perder la publicación, y lo avisa en el resultado.
+
+    `permitir_bandeja=False` desactiva esa caída: se intenta SOLO la publicación directa y,
+    si no sale, se lanza `TikTokFrenado`. Lo usa el llamador cuando ya hay demasiados
+    borradores pendientes, para no llegar al tope de TikTok. Ojo: la directa se intenta
+    igual, así que el día que aprueben la auditoría el freno deja de estorbar solo."""
     video_path = Path(video_path)
     if not video_path.exists():
         raise FileNotFoundError(f"No existe el reel para TikTok: {video_path}")
     if not _puede_publicar_directo():
+        if not permitir_bandeja:
+            raise TikTokFrenado("la app no tiene publicación directa y no mando más "
+                                "borradores para no llegar al tope de TikTok")
         logger.warning("TikTok: la app no tiene permiso de publicación directa; va a la bandeja.")
         return upload_to_inbox(video_path, titulo)
 
@@ -324,6 +341,10 @@ def publish(video_path, titulo: str = "", *, privacidad: str = "") -> dict:
         return {"success": True, "modo": "directo", "publish_id": publish_id, "privacidad": nivel}
     except Exception as e:  # noqa: BLE001
         directo = str(e)
+        if not permitir_bandeja:
+            raise TikTokFrenado(
+                "no lo mando a borradores para no llegar al tope de TikTok (5 sin publicar "
+                f"cada 24 h). Derecho tampoco pudo: {directo}") from e
         logger.warning(f"TikTok: la publicación directa falló ({directo}); lo mando a la bandeja.")
         try:
             out = upload_to_inbox(video_path, titulo)

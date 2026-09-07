@@ -981,6 +981,19 @@ def _tiktok_enabled() -> bool:
     return bool(get("TIKTOK_CLIENT_KEY") and get("TIKTOK_CLIENT_SECRET"))
 
 
+def _tope_borradores_tiktok() -> int:
+    """Cuántos borradores por día se permite mandar antes de frenar (default 4).
+
+    TikTok corta en 5; se frena en 4 para dejar un margen, porque nuestro conteo es un
+    techo y no puede ver los que el usuario ya publicó desde la app. `TIKTOK_MAX_BORRADORES=0`
+    apaga el freno.
+    """
+    try:
+        return int(str(get("TIKTOK_MAX_BORRADORES") or "4").strip())
+    except ValueError:
+        return 4
+
+
 def _borradores_tiktok_24h() -> int:
     """Cuántos reels se mandaron a los borradores de TikTok en las últimas 24 horas.
 
@@ -1009,10 +1022,19 @@ def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
         if local_reel and not _tiktok_enabled():
             logger.info("[tiktok] desactivado (TIKTOK_ENABLED=0 o sin credenciales).")
         return {}
+    from platforms import tiktok
+    # FRENO PROPIO: TikTok rechaza TODO al pasar de 5 borradores sin publicar en 24 h. Al
+    # llegar al tope se intenta SOLO la publicación directa (si esa anduviera no se genera
+    # un borrador nuevo, así que no hay problema); lo que no se hace es sumar otro borrador.
+    tope = _tope_borradores_tiktok()
+    pendientes = _borradores_tiktok_24h() if tope else 0
+    sin_bandeja = bool(tope) and pendientes >= tope
+    if sin_bandeja:
+        logger.warning(f"[tiktok] ya hay {pendientes} borradores en 24 h (tope {tope}): "
+                       "solo intento publicación directa, no mando otro borrador.")
     try:
-        from platforms import tiktok
-        res = _retry(lambda: tiktok.publish(local_reel, caption), etiqueta="[tiktok] publicar reel",
-                     salvo=(tiktok.TikTokBloqueado,))
+        res = _retry(lambda: tiktok.publish(local_reel, caption, permitir_bandeja=not sin_bandeja),
+                     etiqueta="[tiktok] publicar reel", salvo=(tiktok.TikTokBloqueado,))
         modo = (res or {}).get("modo", "")
         # Si quedó en borradores hay un MOTIVO (casi siempre: la auditoría sin aprobar).
         # Antes se perdía y el panel decía sólo "en borradores", sin explicar por qué.
@@ -1049,6 +1071,29 @@ def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
             except Exception as e:  # noqa: BLE001
                 logger.warning(f"[tiktok] no pude mandar la descripción por mail: {e}")
         return res or {}
+    except tiktok.TikTokFrenado as e:
+        # No es un fallo: lo frenamos a propósito. Se avisa con el texto listo por si se
+        # quiere subir a mano, y el reel igual salió al resto de las redes.
+        estado_canales["tiktok"] = f"frenado ({pendientes} borradores sin publicar)"
+        logger.warning(f"[tiktok] FRENADO: {e}")
+        try:
+            _enviar_aviso(
+                f"⏸️ TikTok frenado: tenés {pendientes} borradores sin publicar",
+                f"No mandé este reel a TikTok a propósito.\n\n"
+                f"TikTok no admite más de 5 borradores sin publicar cada 24 horas y ya van "
+                f"{pendientes}. Si mandaba otro, TikTok iba a rechazarlo y encima le suma "
+                f"señal de spam a la cuenta.\n\n"
+                f"QUÉ HACER: entrá a la app de TikTok y publicá (o borrá) los borradores "
+                f"pendientes. Con eso se destraba solo y los próximos reels vuelven a subir.\n\n"
+                f"El reel igual se publicó en el resto de las redes. Si querés subir este a "
+                f"mano, la descripción es:\n\n"
+                f"----------------------------------------\n{caption}\n"
+                f"----------------------------------------\n\n"
+                f"(Cuando aprueben la publicación directa esto deja de pasar: las "
+                f"publicaciones reales no cuentan como borradores.)")
+        except Exception as e2:  # noqa: BLE001
+            logger.warning(f"[tiktok] no pude avisar del freno por mail: {e2}")
+        return {}
     except Exception as e:  # noqa: BLE001
         estado_canales["tiktok"] = f"falló: {e}"
         logger.error(f"[tiktok] FALLÓ tras reintentos: {e}")
