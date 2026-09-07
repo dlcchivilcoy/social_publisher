@@ -192,6 +192,60 @@ def _titulo_tiktok(texto: str) -> str:
     return " ".join((texto or "").split()).strip()[:2200]
 
 
+# ── Errores de TikTok: qué significan y cuáles no se arreglan reintentando ────
+class TikTokBloqueado(RuntimeError):
+    """TikTok rechaza por una condición que un reintento NO cambia (permiso o tope).
+
+    Insistir no solo es inútil: cada pedido rechazado suma a la señal de spam de la
+    cuenta. El llamador la usa para saltear los reintentos.
+    """
+
+
+# Los códigos crudos de TikTok no le dicen nada a nadie; acá se traducen a qué pasó
+# y qué hay que hacer, que es lo que termina en el mail de aviso.
+_MOTIVOS = {
+    "unaudited_client_can_only_post_to_private_accounts":
+        "la app todavía no está auditada por TikTok, así que no deja publicar derecho; "
+        "el reel va a borradores hasta que aprueben la auditoría",
+    "spam_risk_too_many_pending_share":
+        "hay 5 borradores sin publicar y TikTok no admite más de 5 cada 24 horas. "
+        "Entrá a la app de TikTok y publicá (o borrá) los que están pendientes",
+    "spam_risk_too_many_posts":
+        "se llegó al tope diario de publicaciones de TikTok; se puede volver a intentar mañana",
+    "spam_risk_user_banned_from_posting":
+        "TikTok tiene la cuenta suspendida para publicar",
+    "spam_risk_text":
+        "TikTok marcó la descripción como spam; hay que cambiar el texto",
+    "reached_active_user_cap":
+        "se llegó al tope de usuarios activos que TikTok le permite a la app",
+    "access_token_invalid":
+        "el token de TikTok venció; hay que volver a autorizar con el .bat",
+    "scope_not_authorized":
+        "a la app le falta el permiso de TikTok para esta operación",
+}
+# El token vencido SÍ se puede reintentar (se refresca solo); el resto, no.
+_PERMANENTES = set(_MOTIVOS) - {"access_token_invalid"}
+
+
+def _codigo_error(resp) -> str:
+    try:
+        return ((resp.json() or {}).get("error") or {}).get("code") or ""
+    except ValueError:
+        return ""
+
+
+def _fallo(resp, paso: str) -> RuntimeError:
+    """Convierte una respuesta con error de TikTok en una excepción entendible."""
+    codigo = _codigo_error(resp)
+    motivo = _MOTIVOS.get(codigo)
+    if motivo:
+        detalle = f"{paso}: {motivo} [{codigo}]"
+    else:
+        detalle = f"{paso} falló ({resp.status_code}): {resp.text[:200]}"
+    clase = TikTokBloqueado if codigo in _PERMANENTES else RuntimeError
+    return clase(f"TikTok — {detalle}")
+
+
 def upload_to_inbox(video_path: Path, titulo: str = "") -> dict:
     """Sube el .mp4 a la BANDEJA del creador (borradores): se termina de publicar desde la
     app de TikTok. Es el modo que NO necesita `video.publish`. (`titulo` se ignora: en la
@@ -206,7 +260,7 @@ def upload_to_inbox(video_path: Path, titulo: str = "") -> dict:
         "chunk_size": size, "total_chunk_count": 1,  # el reel pesa poco => un solo chunk
     }}, timeout=60)
     if not init.ok:
-        raise RuntimeError(f"TikTok init falló ({init.status_code}): {init.text[:300]}")
+        raise _fallo(init, "no pude dejar el reel en borradores")
     d = init.json().get("data", {})
     publish_id, upload_url = d.get("publish_id"), d.get("upload_url")
     if not upload_url:
@@ -260,7 +314,7 @@ def publish(video_path, titulo: str = "", *, privacidad: str = "") -> dict:
             },
         }, timeout=60)
         if not init.ok:
-            raise RuntimeError(f"TikTok direct init falló ({init.status_code}): {init.text[:300]}")
+            raise _fallo(init, "no pude publicar derecho")
         d = init.json().get("data", {})
         publish_id, upload_url = d.get("publish_id"), d.get("upload_url")
         if not upload_url:
@@ -269,9 +323,17 @@ def publish(video_path, titulo: str = "", *, privacidad: str = "") -> dict:
         logger.info(f"Reel PUBLICADO en TikTok (publish_id={publish_id}, privacidad={nivel}).")
         return {"success": True, "modo": "directo", "publish_id": publish_id, "privacidad": nivel}
     except Exception as e:  # noqa: BLE001
-        logger.warning(f"TikTok: la publicación directa falló ({e}); lo mando a la bandeja.")
-        out = upload_to_inbox(video_path, titulo)
-        out["error_directo"] = str(e)[:300]
+        directo = str(e)
+        logger.warning(f"TikTok: la publicación directa falló ({directo}); lo mando a la bandeja.")
+        try:
+            out = upload_to_inbox(video_path, titulo)
+        except Exception as e2:  # noqa: BLE001
+            # Los DOS caminos fallaron. Antes se veía SOLO el error de la bandeja y no se
+            # entendía por qué tampoco había salido derecho (pasó el 2026-09-07: el mail
+            # mostraba el tope de borradores y escondía que la auditoría seguía pendiente).
+            clase = TikTokBloqueado if isinstance(e2, TikTokBloqueado) else RuntimeError
+            raise clase(f"{e2}. Y derecho tampoco pudo: {directo}") from e2
+        out["error_directo"] = directo[:300]
         return out
 
 

@@ -869,13 +869,19 @@ def _avisar_corresponsal_publicado(celular: str, canales_ok: list, links: dict |
         logger.warning(f"[corresponsal] no se pudo intentar el aviso de publicación: {e}")
 
 
-def _retry(fn, intentos: int = 3, espera: int = 5, etiqueta: str = ""):
+def _retry(fn, intentos: int = 3, espera: int = 5, etiqueta: str = "", salvo: tuple = ()):
     """Ejecuta `fn` con reintentos automáticos (backoff lineal). Re-lanza el último
-    error si agota los intentos. Se usa para YouTube y Wix (red/cuota intermitente)."""
+    error si agota los intentos. Se usa para YouTube y Wix (red/cuota intermitente).
+
+    `salvo`: tipos de error que NO se reintentan porque insistir no los arregla (un
+    permiso que falta, un tope alcanzado). Con TikTok además es contraproducente: cada
+    pedido rechazado suma a la señal de spam de la cuenta."""
     ultimo = None
     for i in range(max(1, intentos)):
         try:
             return fn()
+        except salvo:                       # rechazo definitivo: no tiene sentido insistir
+            raise
         except Exception as e:  # noqa: BLE001 — queremos reintentar ante cualquier fallo de red/API
             ultimo = e
             logger.warning(f"{etiqueta or 'tarea'}: intento {i + 1}/{intentos} falló: {e}")
@@ -975,6 +981,27 @@ def _tiktok_enabled() -> bool:
     return bool(get("TIKTOK_CLIENT_KEY") and get("TIKTOK_CLIENT_SECRET"))
 
 
+def _borradores_tiktok_24h() -> int:
+    """Cuántos reels se mandaron a los borradores de TikTok en las últimas 24 horas.
+
+    TikTok no admite más de 5 sin publicar por cada 24 h (`spam_risk_too_many_pending_share`).
+    OJO: es un TECHO, no el número exacto — no hay forma de saber por API cuáles ya publicó
+    el usuario desde la app, y esos dejan de contar. Sirve para AVISAR, nunca para bloquear.
+    """
+    desde = time.time() - 24 * 3600
+    n = 0
+    for f in _leer_ledger():
+        ec = f.get("estado_canales") or {}
+        if not isinstance(ec, dict) or "borradores" not in str(ec.get("tiktok", "")):
+            continue
+        try:
+            if datetime.fromisoformat(f.get("fecha_publicado") or "").timestamp() >= desde:
+                n += 1
+        except ValueError:
+            pass
+    return n
+
+
 def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
     """Publica el reel en TikTok (Direct Post; si la app no tuviera el permiso, cae a
     borradores). Nunca corta la corrida: si falla, se anota en el panel y sigue."""
@@ -984,18 +1011,34 @@ def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
         return {}
     try:
         from platforms import tiktok
-        res = _retry(lambda: tiktok.publish(local_reel, caption), etiqueta="[tiktok] publicar reel")
+        res = _retry(lambda: tiktok.publish(local_reel, caption), etiqueta="[tiktok] publicar reel",
+                     salvo=(tiktok.TikTokBloqueado,))
         modo = (res or {}).get("modo", "")
-        estado_canales["tiktok"] = "ok" if modo == "directo" else "en borradores"
+        # Si quedó en borradores hay un MOTIVO (casi siempre: la auditoría sin aprobar).
+        # Antes se perdía y el panel decía sólo "en borradores", sin explicar por qué.
+        motivo = str((res or {}).get("error_directo", "")).replace("TikTok — ", "")
+        estado_canales["tiktok"] = ("ok" if modo == "directo"
+                                    else "en borradores" + (f" — {motivo[:160]}" if motivo else ""))
         logger.info(f"[tiktok] {'PUBLICADO' if modo == 'directo' else 'enviado a borradores'} "
                     f"(publish_id={(res or {}).get('publish_id', '')})")
         # En modo BORRADOR la API de TikTok NO acepta el texto (el caption se escribe en la app),
         # así que se manda por mail listo para copiar y pegar (pedido 2026-08-26). Cuando TikTok
         # apruebe la publicación directa esto deja de hacer falta: el texto va con el video.
         if modo != "directo" and caption:
+            # TikTok no admite más de 5 borradores SIN PUBLICAR cada 24 h; al llegar al tope
+            # deja de aceptar todo (pasó el 6 y el 7/9/2026). Por eso se avisa ANTES de que
+            # corte. El número es un techo: los que ya publicaste desde la app no cuentan.
+            pendientes = _borradores_tiktok_24h()
+            alerta = ""
+            if pendientes >= 4:
+                alerta = (f"⚠️ OJO: ya van {pendientes} borradores en las últimas 24 horas y "
+                          "TikTok no acepta más de 5 sin publicar. Publicá (o borrá) los que "
+                          "tengas pendientes en la app, o los próximos reels van a ser "
+                          "rechazados.\n\n")
             try:
                 _enviar_aviso(
                     "📋 TikTok: el reel está en borradores — copiá esta descripción",
+                    alerta +
                     "El reel ya está en los borradores de TikTok. TikTok no deja mandar el texto "
                     "junto con el borrador, así que copiá y pegá esta descripción al publicarlo "
                     "desde la app:\n\n"
@@ -1282,8 +1325,11 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # pasa a ser una publicación real y entra al ranking mensual, que necesita ese id para
     # buscarle las métricas. En modo borrador no hay nada que medir y queda vacío.
     res_tt = _publicar_tiktok(local_reel, caption, estado_canales)
-    if (res_tt or {}).get("modo") == "directo" and res_tt.get("publish_id"):
+    if (res_tt or {}).get("publish_id"):
+        # Se guarda también el de los BORRADORES: sin él no hay manera de saber después
+        # cuáles quedaron pendientes en TikTok (el ranking sólo mira los de modo directo).
         fila["tiktok_publish_id"] = res_tt["publish_id"]
+        fila["tiktok_modo"] = res_tt.get("modo", "")
 
     # 4) Nota web: embeber el YouTube (si salió) y PUBLICAR (al final del flujo). `sin_web` (corresponsal
     # sin desgrabar) tiene borrador SOLO para editar/borrar el texto → NO se publica en la web.
