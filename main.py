@@ -114,6 +114,12 @@ def main() -> None:
         help="POSTEO en el muro de Facebook (00:00) con la tapa del día + la foto de farmacias de turno (una sola publicación, solo FB).",
     )
     parser.add_argument(
+        "--yt-facebook",
+        action="store_true",
+        help="Postea en el muro de Facebook los VIDEOS de hoy del canal de YouTube, como link "
+             "con miniatura (lun-vie 18:00-19:00; uno por corrida, sin vivos ni shorts).",
+    )
+    parser.add_argument(
         "--notes-web",
         action="store_true",
         help="SOLO carga las notas del día a la web (Wix), sin tocar FB/IG (corrida de las 7:00).",
@@ -365,6 +371,12 @@ def main() -> None:
         from muro_tapa_farmacias import run_muro_tapa_farmacias
         logger.info(f"Modo --muro-tapa-farmacias (dry_run={args.dry_run}).")
         run_muro_tapa_farmacias(dry_run=args.dry_run)
+        return
+
+    if args.yt_facebook:
+        from yt_a_facebook import run_yt_a_facebook
+        logger.info(f"Modo --yt-facebook (dry_run={args.dry_run}).")
+        run_yt_a_facebook(dry_run=args.dry_run)
         return
     if args.notes_web:
         from carrusel_notas import run_notes_web

@@ -31,6 +31,7 @@ on:
 #                                  porque comparten la MISMA cola/ledger que los videos del diario y deben serializar.)
 #   - publicador-yt-seo         : --yt-seo* (SEO de YouTube).
 #   - publicador-yt-desgrabador : --yt-desgrabar (notas de YouTube de Radio del Centro a texto).
+#   - publicador-yt-facebook    : --yt-facebook (videos de YouTube al muro de FB, lun-vie 18-19).
 #   - publicador-videos         : desgrabador de VIDEOS del diario (y corresponsales): transcribe/publish-video.
 #                                 + --metricas-videos, que ESCRIBE EL MISMO ledger
 #                                 (.videos_contabilidad.json) y tiene que serializar con ellos.
@@ -49,6 +50,7 @@ concurrency:
     || contains(github.event.inputs.args, 'watchdog') && 'publicador-otros'
     || contains(github.event.inputs.args, 'yt-seo') && 'publicador-yt-seo-2'
     || contains(github.event.inputs.args, 'yt-desgrabar') && 'publicador-yt-desgrabador'
+    || contains(github.event.inputs.args, 'yt-facebook') && 'publicador-yt-facebook'
     || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video') || contains(github.event.inputs.args, 'metricas-videos')) && 'publicador-videos'
     || contains(github.event.inputs.args, 'notas-web') && 'publicador-notas-web'
     || (contains(github.event.inputs.args, 'farmacias') || contains(github.event.inputs.args, 'tapa') || contains(github.event.inputs.args, 'muro')) && 'publicador-tapa-farmacias'
@@ -235,7 +237,7 @@ jobs:
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.fb.json" ] && cp "state/.fb.json" "diario/NOTAS AUTOMATICAS/.fb.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -278,7 +280,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.fb.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"
