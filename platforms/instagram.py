@@ -111,26 +111,67 @@ def _story_jpeg(image_path: Path) -> Path:
     return tmp
 
 
-def _wait_container_ready(creation_id: str, token: str, *, timeout: int = 90, intervalo: int = 3) -> None:
-    """Espera a que Instagram TERMINE de procesar la imagen del contenedor antes
+class ContenedorFallo(RuntimeError):
+    """El contenedor de Instagram terminó mal mientras IG procesaba el medio.
+
+    El contenedor queda QUEMADO: para reintentar hay que crear uno NUEVO (no sirve
+    volver a esperar el mismo id). `estado` es ERROR / EXPIRED / TIMEOUT y `detalle`
+    trae el motivo que da Instagram.
+    """
+
+    def __init__(self, mensaje: str, *, estado: str = "", detalle: str = ""):
+        super().__init__(mensaje)
+        self.estado = estado
+        self.detalle = detalle
+
+
+def _wait_container_ready(creation_id: str, token: str, *, timeout: int = 90,
+                          intervalo: int = 3, que: str = "la imagen") -> None:
+    """Espera a que Instagram TERMINE de procesar el medio del contenedor antes
     de publicarlo. Sin esto, publicar de inmediato una imagen grande (p. ej. la
     tapa) falla con 'Media ID is not available' (code 9007 / subcode 2207027)
     porque el medio todavía está en proceso. Consulta el estado del contenedor
-    hasta que quede en FINISHED (o falla si da ERROR/EXPIRED o se agota el tiempo)."""
+    hasta que quede en FINISHED (o falla si da ERROR/EXPIRED o se agota el tiempo).
+
+    Se pide `status` ADEMÁS de `status_code`: ahí Instagram explica QUÉ pasó
+    (ej. «Error: 2207020 - Unable to fetch the media»). Antes se descartaba, y el
+    aviso por mail decía «quedó en estado ERROR» sin decir por qué (2026-09-10).
+    """
     fin = time.time() + timeout
+    detalle = ""
     while time.time() < fin:
         r = requests.get(
             f"https://graph.facebook.com/{GRAPH_VERSION}/{creation_id}",
-            params={"fields": "status_code", "access_token": token},
+            params={"fields": "status_code,status", "access_token": token},
             timeout=30,
         )
-        estado = r.json().get("status_code") if r.ok else None
+        estado = None
+        if r.ok:
+            d = r.json() or {}
+            estado = d.get("status_code")
+            detalle = d.get("status") or detalle
         if estado == "FINISHED":
             return
         if estado in ("ERROR", "EXPIRED"):
-            raise RuntimeError(f"Instagram: el medio quedó en estado {estado} al procesar la imagen")
+            raise ContenedorFallo(
+                f"Instagram: el medio quedó en estado {estado} al procesar {que}"
+                + (f" — {detalle}" if detalle else ""),
+                estado=estado, detalle=detalle)
         time.sleep(intervalo)
-    raise RuntimeError("Instagram: el medio no terminó de procesarse a tiempo (timeout)")
+    raise ContenedorFallo(
+        f"Instagram: {que} no terminó de procesarse a tiempo (timeout de {timeout}s)"
+        + (f" — {detalle}" if detalle else ""),
+        estado="TIMEOUT", detalle=detalle)
+
+
+def _url_viva(url: str) -> bool:
+    """¿Nuestro propio .mp4 sigue accesible? Si no lo está, Instagram no puede bajarlo y
+    reintentar no sirve de nada: conviene decirlo en vez de insistir a ciegas."""
+    try:
+        r = requests.head(url, timeout=20, allow_redirects=True)
+        return r.status_code < 400
+    except Exception:  # noqa: BLE001
+        return False
 
 
 def _crear_contenedor(user_id: str, token: str, data: dict, *, intentos: int = 3) -> str:
@@ -445,10 +486,48 @@ def publish_story(image_path: Path) -> dict:
             jpeg_path.unlink()
 
 
-def _wait_container_ready_long(creation_id: str, token: str, *, timeout: int = 300, intervalo: int = 5) -> None:
+def _wait_container_ready_long(creation_id: str, token: str, *, timeout: int = 300,
+                              intervalo: int = 5) -> None:
     """Igual que _wait_container_ready pero con timeout amplio: procesar un VIDEO
     (reel/historia de video) tarda mucho más que una imagen."""
-    _wait_container_ready(creation_id, token, timeout=timeout, intervalo=intervalo)
+    _wait_container_ready(creation_id, token, timeout=timeout, intervalo=intervalo,
+                          que="el video")
+
+
+# Esperas entre reintentos cuando el contenedor de un VIDEO termina en ERROR. Instagram
+# baja el .mp4 de nuestra URL pública y a veces esa descarga o el transcode se le caen;
+# con un contenedor NUEVO suele salir. El contenedor viejo no se puede reusar.
+_ESPERAS_VIDEO = (20, 60, 120)
+
+
+def _contenedor_video_listo(user_id: str, token: str, data: dict, video_url: str,
+                            que: str, *, intentos: int = 4) -> str:
+    """Crea el contenedor de un video y espera a que Instagram lo procese, reintentando
+    con un contenedor NUEVO si queda en ERROR/EXPIRED. Devuelve el creation_id listo.
+
+    No reintenta ante TIMEOUT (si IG viene lentísimo, insistir sólo alarga la corrida)
+    ni si nuestro propio .mp4 dejó de estar accesible (ahí el reintento no puede ayudar).
+    """
+    ultimo = None
+    for i in range(max(1, intentos)):
+        if i:
+            time.sleep(_ESPERAS_VIDEO[min(i - 1, len(_ESPERAS_VIDEO) - 1)])
+        creation_id = _crear_contenedor(user_id, token, data)
+        try:
+            _wait_container_ready_long(creation_id, token)
+            return creation_id
+        except ContenedorFallo as e:
+            ultimo = e
+            if e.estado == "TIMEOUT" or i == intentos - 1:
+                raise
+            if not _url_viva(video_url):
+                raise ContenedorFallo(
+                    f"{e} · Además nuestro propio video ya no responde ({video_url}): "
+                    "Instagram no puede bajarlo, por eso no reintento.",
+                    estado=e.estado, detalle=e.detalle) from e
+            logger.warning(f"Instagram ({que}): el contenedor falló ({e}). "
+                           f"Reintento {i + 1}/{intentos - 1} con un contenedor nuevo…")
+    raise ultimo  # pragma: no cover — el for siempre sale por return o raise
 
 
 def publish_reel(video_url: str, caption: str) -> dict:
@@ -470,8 +549,7 @@ def publish_reel(video_url: str, caption: str) -> dict:
     }
     if _location():
         reel_data["location_id"] = _location()
-    creation_id = _crear_contenedor(user_id, token, reel_data)
-    _wait_container_ready_long(creation_id, token)
+    creation_id = _contenedor_video_listo(user_id, token, reel_data, video_url, "reel")
 
     media_id = _publicar_contenedor(user_id, token, creation_id, "publicar reel",
                                     caption=reel_data["caption"], timeout=60)
@@ -486,8 +564,9 @@ def publish_video_story(video_url: str) -> dict:
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
-    creation_id = _crear_contenedor(user_id, token, {"media_type": "STORIES", "video_url": video_url})
-    _wait_container_ready_long(creation_id, token)
+    creation_id = _contenedor_video_listo(
+        user_id, token, {"media_type": "STORIES", "video_url": video_url},
+        video_url, "historia de video")
 
     media_id = _publicar_contenedor(user_id, token, creation_id, "publicar historia de video",
                                     historia=True, timeout=60, esperas=(15, 45))
