@@ -278,6 +278,35 @@ def upload_to_inbox(video_path: Path, titulo: str = "") -> dict:
     return {"success": True, "modo": "bandeja", "publish_id": publish_id}
 
 
+# ── Lo que la persona eligió en la pantalla de confirmación ──────────────────
+# TikTok EXIGE (Content Sharing Guidelines) que estas opciones las elija una PERSONA
+# antes de cada publicación directa: privacidad sin valor por defecto, divulgación de
+# contenido comercial e interacciones. La pantalla vive en la web (/api/aprobar-video) y
+# manda lo elegido en `--tiktok-opciones`, que main.py vuelca a estas variables.
+# SIN confirmación NO se publica derecho: se manda a borradores. Es la regla, no un
+# capricho — publicar derecho sin que nadie haya elegido es lo que hace fallar la auditoría.
+def _bool_cfg(clave: str) -> bool:
+    return str(get(clave) or "0").strip().lower() in ("1", "si", "sí", "true", "on", "yes")
+
+
+def _confirmacion() -> dict | None:
+    """`post_info` armado con lo que eligió la persona, o None si no hubo pantalla."""
+    if not _bool_cfg("TIKTOK_CONFIRMADO"):
+        return None
+    priv = (get("TIKTOK_PRIVACIDAD") or "").strip()
+    if not priv:
+        return None
+    return {
+        "privacy_level": priv,
+        # La pantalla pregunta qué PERMITIR; la API pide qué DESHABILITAR.
+        "disable_comment": not _bool_cfg("TIKTOK_COMENTARIOS"),
+        "disable_duet": not _bool_cfg("TIKTOK_DUO"),
+        "disable_stitch": not _bool_cfg("TIKTOK_STITCH"),
+        "brand_organic_toggle": _bool_cfg("TIKTOK_MARCA_PROPIA"),    # promociona lo propio
+        "brand_content_toggle": _bool_cfg("TIKTOK_MARCA_TERCEROS"),  # promociona a un tercero
+    }
+
+
 def publish(video_path, titulo: str = "", *, privacidad: str = "",
             permitir_bandeja: bool = True) -> dict:
     """PUBLICA el reel derecho en el perfil de TikTok (Direct Post), con `titulo` de caption.
@@ -292,11 +321,16 @@ def publish(video_path, titulo: str = "", *, privacidad: str = "",
     video_path = Path(video_path)
     if not video_path.exists():
         raise FileNotFoundError(f"No existe el reel para TikTok: {video_path}")
-    if not _puede_publicar_directo():
+
+    confirmado = _confirmacion()
+    motivo = ("la app no tiene permiso de publicación directa" if not _puede_publicar_directo()
+              else "nadie eligió las opciones en la pantalla de aprobación" if confirmado is None
+              else "")
+    if motivo:
         if not permitir_bandeja:
-            raise TikTokFrenado("la app no tiene publicación directa y no mando más "
-                                "borradores para no llegar al tope de TikTok")
-        logger.warning("TikTok: la app no tiene permiso de publicación directa; va a la bandeja.")
+            raise TikTokFrenado(f"{motivo} y no mando más borradores para no llegar al tope "
+                                "de TikTok")
+        logger.info(f"TikTok: {motivo}; va a la bandeja.")
         return upload_to_inbox(video_path, titulo)
 
     size = video_path.stat().st_size
@@ -305,11 +339,14 @@ def publish(video_path, titulo: str = "", *, privacidad: str = "",
         info = creator_info(token)
         opciones = info.get("privacy_level_options") or []
         nick = info.get("creator_nickname", "")
-        # Preferimos público; si la app quedara sin auditar, TikTok solo deja SELF_ONLY.
-        pref = (privacidad or get("TIKTOK_PRIVACIDAD") or "PUBLIC_TO_EVERYONE").strip()
-        nivel = pref if pref in opciones else (opciones[0] if opciones else "SELF_ONLY")
-        if nivel != pref:
-            logger.warning(f"TikTok: «{pref}» no está habilitada; publico como «{nivel}».")
+        nivel = (privacidad or confirmado["privacy_level"]).strip()
+        if opciones and nivel not in opciones:
+            raise RuntimeError(f"TikTok: «{nivel}» no está entre las privacidades que admite "
+                               f"la cuenta ({', '.join(opciones)}).")
+        # Regla de TikTok: el contenido de marca de terceros NO puede ser privado.
+        if confirmado["brand_content_toggle"] and nivel == "SELF_ONLY":
+            raise RuntimeError("TikTok: el contenido de marca no puede publicarse como "
+                               "«Solo yo» (Branded content visibility cannot be set to private).")
         dur_max = info.get("max_video_post_duration_sec")
         logger.info(f"TikTok: publicando en @{nick} (privacidad {nivel}"
                     + (f", máx {dur_max}s" if dur_max else "") + ")…")
@@ -318,11 +355,9 @@ def publish(video_path, titulo: str = "", *, privacidad: str = "",
             "Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8",
         }, json={
             "post_info": {
-                "title": _titulo_tiktok(titulo),
+                **confirmado,
                 "privacy_level": nivel,
-                "disable_duet": False,
-                "disable_comment": False,
-                "disable_stitch": False,
+                "title": _titulo_tiktok(titulo),
                 "video_cover_timestamp_ms": 1000,
             },
             "source_info": {

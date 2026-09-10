@@ -32,6 +32,27 @@ def cmd_check_config() -> None:
         print("\n[OK] Todas las variables de configuración están presentes.\n")
 
 
+def _aplicar_opciones_tiktok(cadena: str) -> None:
+    """Traduce «priv=PUBLIC_TO_EVERYONE,com=1,duo=0,stitch=0,propia=0,terceros=0» a las
+    variables de entorno que lee `platforms.tiktok`.
+
+    Viene de la pantalla de confirmación de la web (/api/aprobar-video), que es donde la
+    persona elige privacidad, interacciones y divulgación comercial como exige TikTok.
+    """
+    import os
+    mapa = {"priv": "TIKTOK_PRIVACIDAD", "com": "TIKTOK_COMENTARIOS", "duo": "TIKTOK_DUO",
+            "stitch": "TIKTOK_STITCH", "propia": "TIKTOK_MARCA_PROPIA",
+            "terceros": "TIKTOK_MARCA_TERCEROS"}
+    for parte in str(cadena).split(","):
+        if "=" not in parte:
+            continue
+        clave, valor = parte.split("=", 1)
+        destino = mapa.get(clave.strip().lower())
+        if destino:
+            os.environ[destino] = valor.strip()
+    os.environ["TIKTOK_CONFIRMADO"] = "1"
+    logger.info(f"TikTok: opciones confirmadas por el usuario ({cadena}).")
+
 def main() -> None:
     load_config()
 
@@ -112,6 +133,13 @@ def main() -> None:
         "--muro-tapa-farmacias",
         action="store_true",
         help="POSTEO en el muro de Facebook (00:00) con la tapa del día + la foto de farmacias de turno (una sola publicación, solo FB).",
+    )
+    parser.add_argument(
+        "--tiktok-opciones",
+        default="",
+        help="Opciones que eligió una persona en la pantalla de confirmación de TikTok "
+             "(priv=...,com=1,duo=0,stitch=0,propia=0,terceros=0). Sin esto, TikTok va a "
+             "borradores: publicar derecho sin confirmación humana viola las reglas de TikTok.",
     )
     parser.add_argument(
         "--yt-facebook",
@@ -367,6 +395,11 @@ def main() -> None:
         logger.info(f"Modo --tapa-farmacias (dry_run={args.dry_run}).")
         run_tapa_farmacias(dry_run=args.dry_run)
         return
+    if args.tiktok_opciones:
+        # Lo elegido en la pantalla de confirmación viaja como un solo argumento y se vuelca
+        # al entorno, que es de donde `platforms.tiktok` lee las opciones de publicación.
+        _aplicar_opciones_tiktok(args.tiktok_opciones)
+
     if args.muro_tapa_farmacias:
         from muro_tapa_farmacias import run_muro_tapa_farmacias
         logger.info(f"Modo --muro-tapa-farmacias (dry_run={args.dry_run}).")
