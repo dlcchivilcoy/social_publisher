@@ -13693,12 +13693,32 @@
     "zocalo": "Nicolás Lopardo",
     "draft_id": "17f84826-fe22-48e2-af0e-81f1a3d7fe52",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtvjfjsh8q35-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-10T13:03:08.195Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-10T13:03:08.195Z — wa:5492346417636",
+    "tiktok_publish_id": "v_inbox_file~v2.7683893072257648647",
+    "tiktok_modo": "bandeja",
+    "fecha_publicado": "2026-09-10T10:09:58",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inseguridad-en-chivilcoy-denuncian-el-ingreso-de-un-delincuente-a-una",
+    "estado_canales": {
+      "instagram": "falló: Instagram: el medio quedó en estado ERROR al procesar la imagen",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "en borradores — no pude publicar derecho: la app todavía no está auditada por TikTok, así que no deja publicar derecho; el reel va a borradores hasta que aprueben la auditoría ",
+      "wix": "ok"
+    },
+    "ig_media_id": "",
+    "fb_video_id": "1115131801185669",
+    "yt_video_id": "fI38DIFNaA8",
+    "yt_url": "https://www.youtube.com/shorts/fI38DIFNaA8",
+    "yt_watch_url": "https://www.youtube.com/watch?v=fI38DIFNaA8",
+    "yt_titulo": "Denuncian el ingreso de un delincuente a una vivienda cerca de Plaza Moreno",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-10T10:09:58",
+    "yt_metrics": {}
   }
 ]
