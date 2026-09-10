@@ -1637,7 +1637,12 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         except Exception as e:
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
     # 4) TikTok (publicación directa en el perfil).
-    _publicar_tiktok(reel_local, caption, estado)
+    res_tt = _publicar_tiktok(reel_local, caption, estado)
+    if (res_tt or {}).get('publish_id'):
+        # El id se guarda TAMBIEN en modo borrador: sin el, estas notas nunca suman
+        # metricas de TikTok en el ranking de corresponsales.
+        fila['tiktok_publish_id'] = res_tt['publish_id']
+        fila['tiktok_modo'] = res_tt.get('modo', '')
 
     rows = _leer_ledger()
     f2 = _buscar_fila(rows, fila["file"])
@@ -1873,7 +1878,12 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         except Exception as e:
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
     # 5) TikTok (publicación directa en el perfil).
-    _publicar_tiktok(reel_local, caption, estado)
+    res_tt = _publicar_tiktok(reel_local, caption, estado)
+    if (res_tt or {}).get('publish_id'):
+        # El id se guarda TAMBIEN en modo borrador: sin el, estas notas nunca suman
+        # metricas de TikTok en el ranking de corresponsales.
+        fila['tiktok_publish_id'] = res_tt['publish_id']
+        fila['tiktok_modo'] = res_tt.get('modo', '')
 
     fila.update({"estado": "publicado_placa", "post_url": post_url,
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
