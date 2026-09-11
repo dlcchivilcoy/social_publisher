@@ -13905,12 +13905,30 @@
     "zocalo": "",
     "draft_id": "3d3b62a1-f08c-410c-8dec-059c2c960434",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtx1z2w4p8k1-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-11T14:29:58.669Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-11T14:29:58.669Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-11T11:36:01",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (4 borradores sin publicar)",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18463802107143456",
+    "fb_video_id": "1401420532099194",
+    "yt_video_id": "blRlpUSucv4",
+    "yt_url": "https://www.youtube.com/shorts/blRlpUSucv4",
+    "yt_watch_url": "https://www.youtube.com/watch?v=blRlpUSucv4",
+    "yt_titulo": "Ofrenda Floral a Domingo Faustino Sarmiento en el Día del Maestro",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-11T11:36:01",
+    "yt_metrics": {}
   }
 ]
