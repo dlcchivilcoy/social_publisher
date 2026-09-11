@@ -13865,12 +13865,32 @@
     "zocalo": "",
     "draft_id": "159285aa-f8f6-4820-a9aa-772f1d47c5e8",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtx1h3emoyvm-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-11T14:15:59.547Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-11T14:15:59.547Z — wa:5492346417636",
+    "tiktok_publish_id": "v_inbox_file~v2.7684283558877480977",
+    "tiktok_modo": "bandeja",
+    "fecha_publicado": "2026-09-11T11:26:23",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "en borradores",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18121465447917918",
+    "fb_video_id": "1061531456704606",
+    "yt_video_id": "Q9fcaufe1UY",
+    "yt_url": "https://www.youtube.com/shorts/Q9fcaufe1UY",
+    "yt_watch_url": "https://www.youtube.com/watch?v=Q9fcaufe1UY",
+    "yt_titulo": "Etapa Regional de Adultos Mayores en Chivilcoy: recibimiento a delegaciones",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-11T11:26:23",
+    "yt_metrics": {}
   }
 ]
