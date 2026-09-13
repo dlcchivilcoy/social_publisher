@@ -14120,12 +14120,30 @@
     "zocalo": "Marcelo Beccaria",
     "draft_id": "fa31198a-3304-4a94-a29b-3362a2ba7591",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mtz70k2lbsjg-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-13T02:26:37.720Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-13T02:26:37.720Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-13T00:21:25",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/muestra-de-coleccionistas-la-asociacion-civil-de-coleccionistas",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (4 borradores sin publicar)",
+      "wix": "ok"
+    },
+    "ig_media_id": "17941695345340135",
+    "fb_video_id": "1079809061580132",
+    "yt_video_id": "UWC7uhRBdyY",
+    "yt_url": "https://www.youtube.com/shorts/UWC7uhRBdyY",
+    "yt_watch_url": "https://www.youtube.com/watch?v=UWC7uhRBdyY",
+    "yt_titulo": "La Asociación Civil de Coleccionistas ultima detalles para su 15ª muestra anual",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-13T00:21:25",
+    "yt_metrics": {}
   }
 ]
