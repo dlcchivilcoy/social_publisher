@@ -26,10 +26,11 @@ FONDO_DIFUMINADO = 80                       # px de transición entre el video y
 ZOCALO_CAJA = (175, 1481, 670, 71)
 ZOCALO_COLOR = (247, 127, 0)  # el naranja de la marca
 ZOCALO_PALABRAS = 5           # tope de palabras del zócalo
-# Texto de marca que va arriba, del lado contrario al isologo (2026-09-14).
-MARCA_TEXTO = "DIARIO LA CAMPAÑA | RADIO DEL CENTRO"
+# Texto de marca que va arriba, del lado contrario al isologo (2026-09-14). Los dos
+# medios van uno DEBAJO del otro: el «|» separa renglones, no es un carácter a dibujar.
+MARCA_TEXTO = "DIARIO LA CAMPAÑA|RADIO DEL CENTRO"
 MARCA_USUARIO = "@diarioyradio"
-MARCA_TAM_MAX = 32            # cuerpo del renglón de arriba; baja solo si no entra
+MARCA_TAM_MAX = 40            # cuerpo de los renglones de la marca; baja solo si no entra
 MARCA_TAM_MIN = 18
 
 
@@ -256,13 +257,14 @@ def _cuerpo_que_entra(texto: str, fuente: str, ancho: int, maximo: int) -> int:
 
 
 def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
-    """(fragmento_de_filtro, etiqueta_de_salida) con el nombre de los dos medios y,
-    debajo, el usuario de las redes. Va arriba, del lado LIBRE (el contrario al
-    isologo) y centrado a la altura del isologo. Blanco, con contorno y sombra oscuros
-    para que se lea sobre cualquier foto.
+    """(fragmento_de_filtro, etiqueta_de_salida) con el nombre de los dos medios —uno
+    debajo del otro— y, abajo de todo, el usuario de las redes. Va arriba, del lado
+    LIBRE (el contrario al isologo) y centrado a la altura del isologo. Blanco, con
+    contorno y sombra oscuros para que se lea sobre cualquier foto.
 
-    El texto va por `textfile=` y no inline: la Ñ de «CAMPAÑA» y el «|» pelean con el
-    parser del filtergraph de ffmpeg. Se apaga con `REEL_MARCA_TEXTO=0`."""
+    En `REEL_MARCA_TEXTO` el «|» SEPARA RENGLONES (no se dibuja). El texto va por
+    `textfile=` y no inline porque la Ñ de «CAMPAÑA» pelea con el parser del
+    filtergraph de ffmpeg. Se apaga con `REEL_MARCA_TEXTO=0`."""
     texto = _cfg("REEL_MARCA_TEXTO", MARCA_TEXTO)
     usuario = _cfg("REEL_MARCA_USUARIO", MARCA_USUARIO)
     if texto.lower() in ("0", "no", "off", "false"):
@@ -279,12 +281,14 @@ def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
     hueco = 1080 - 2 * mx - ancho_logo - 24
     x = mx if _logo_a_la_derecha() else mx + ancho_logo + 24
 
-    cuerpo = _cuerpo_que_entra(texto, fuente, hueco, MARCA_TAM_MAX)
-    cuerpo2 = max(MARCA_TAM_MIN, round(cuerpo * 0.8))
-    salto = round(cuerpo * 1.35)
+    lineas = [l.strip() for l in texto.split("|") if l.strip()]
+    # Un solo cuerpo para toda la marca: el que hace entrar al renglón MÁS LARGO.
+    cuerpo = min(_cuerpo_que_entra(l, fuente, hueco, MARCA_TAM_MAX) for l in lineas)
+    cuerpo2 = max(MARCA_TAM_MIN, round(cuerpo * 0.75))
+    salto = round(cuerpo * 1.2)
     # Centrado contra el isologo (514x568 px de origen → alto = ancho * 568/514).
     alto_logo = round(ancho_logo * 568 / 514)
-    alto_texto = salto + round(cuerpo2 * 1.2)
+    alto_texto = len(lineas) * salto + round(cuerpo2 * 1.2)
     y = my + max(0, (alto_logo - alto_texto) // 2)
 
     # Contorno oscuro: el blanco PELADO sobre una foto clara desaparece (probado sobre un
@@ -293,8 +297,11 @@ def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
     borde = int(float(_cfg("REEL_MARCA_BORDE", "3")))
 
     work_dir.mkdir(parents=True, exist_ok=True)
+    renglones = [(l, cuerpo, i * salto) for i, l in enumerate(lineas)]
+    if usuario:
+        renglones.append((usuario, cuerpo2, len(lineas) * salto))
     frag, label = "", in_label
-    for i, (linea, cuerpo_i, dy) in enumerate(((texto, cuerpo, 0), (usuario, cuerpo2, salto))):
+    for i, (linea, cuerpo_i, dy) in enumerate(renglones):
         if not linea:
             continue
         archivo = work_dir / f"marca{i}.txt"
