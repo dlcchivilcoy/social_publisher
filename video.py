@@ -45,6 +45,12 @@ def _asset(clave: str, default: Path) -> Path | None:
     return ruta
 
 
+def _logo_a_la_derecha() -> bool:
+    """¿De qué lado va el isologo del reel? DERECHA por default (pedido 2026-09-14).
+    `REEL_LOGO_LADO=izquierda` en el `.env` lo devuelve al lugar de antes."""
+    return _cfg("REEL_LOGO_LADO", "derecha").lower() not in ("izq", "izquierda", "left")
+
+
 def has_audio(src) -> bool:
     """True si el archivo trae pista de audio (parseando la salida de ffmpeg)."""
     r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
@@ -231,11 +237,12 @@ def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str
     work_dir.mkdir(parents=True, exist_ok=True)
     firma_txt = work_dir / "firma.txt"
     firma_txt.write_text(_dos_renglones(texto.strip()), encoding="utf-8")
-    # Arranca a la derecha del logo (mismo margen de arriba, corrido por el ancho del logo).
+    # Va del lado LIBRE: con el logo a la derecha arranca contra el margen izquierdo;
+    # con el logo a la izquierda, corrida por el ancho del logo (como era antes).
     mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
     my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
     ancho = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
-    x = mx + ancho + 22
+    x = mx if _logo_a_la_derecha() else mx + ancho + 22
     y = my + 6
     draw = (
         f"{in_label}drawtext=textfile='{_esc_ff(firma_txt)}'"
@@ -439,7 +446,7 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
                f"{out_label}[fd]overlay=0:0[vfd]")
         out_label = "[vfd]"
     if logo_png:
-        # Marca de agua: el isotipo arriba a la izquierda, debajo de la barra de la app.
+        # Marca de agua: el isotipo arriba, debajo de la barra de la app.
         idx = n_in
         inputs += ["-i", str(logo_png)]
         n_in += 1
@@ -447,8 +454,12 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
         my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
         op = float(_cfg("REEL_LOGO_OPACIDAD", "0.92"))
+        # `W-w` = ancho del cuadro menos el del logo. Se deja que lo calcule ffmpeg en vez
+        # de hacer la cuenta acá: el `scale={ancho}:-1` define el alto —y por lo tanto el
+        # ancho final— recién al ejecutar, según la proporción del PNG.
+        lx = f"W-w-{mx}" if _logo_a_la_derecha() else str(mx)
         vf += (f";[{idx}:v]scale={ancho}:-1,format=rgba,colorchannelmixer=aa={op}[lg];"
-               f"{out_label}[lg]overlay={mx}:{my}[vl]")
+               f"{out_label}[lg]overlay={lx}:{my}[vl]")
         out_label = "[vl]"
     if overlay:
         # Marco del diario (esquinas + caja del zócalo + barra con la web y las redes).
@@ -513,7 +524,8 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     (ej. 60 para los reels sin desgrabar). Si se pasa `firma`, estampa una banda
     inferior con ese texto (la firma de la Red de Corresponsales).
 
-    `logo=True` estampa el isotipo del diario arriba a la izquierda, el OVERLAY del diario
+    `logo=True` estampa el isotipo del diario arriba a la DERECHA (perilla `REEL_LOGO_LADO`;
+    `izquierda` lo devuelve al lugar de antes), el OVERLAY del diario
     (marco + caja del zócalo + barra con la web y las redes) va con el `zocalo` escrito
     adentro SOLO si `overlay=True` (default; `overlay=False` saca el marco y el texto del
     zócalo de una), y `placa_final=True` agrega al final la placa "Seguinos en redes"
@@ -609,7 +621,7 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
                 firma: str | None = None, overlay: bool = True) -> Path:
     """Convierte una FOTO (o varias) de una nota en un reel vertical 9:16 con el MISMO
     criterio estético que los videos: fondo naranja que enmarca, logo arriba a la
-    izquierda, overlay del diario con el ZÓCALO escrito, y la placa de cierre «Seguinos
+    derecha, overlay del diario con el ZÓCALO escrito, y la placa de cierre «Seguinos
     en redes» al final. Reusa `to_vertical_reel` (mismo re-encode/branding) pasándole un
     'video fuente' armado con la/s foto/s.
 
