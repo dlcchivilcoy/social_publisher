@@ -508,8 +508,13 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
     items: lista de dicts {"main": str, "sub": str (opcional)}.
     Ajusta el tamaño de fuente para que entren todos entre el encabezado y el pie.
     logo=False  → no dibuja el logo de arriba.
-    center=True → centra TODO el texto horizontalmente y centra verticalmente la
-                  lista de ítems en el espacio disponible (sin marcadores a la izq.).
+    center=True → centra TODO el texto horizontalmente Y apila encabezado, lista y pie
+                  como UN SOLO BLOQUE centrado verticalmente.
+
+    Por qué el bloque único (2026-09-14): antes el título quedaba clavado arriba de todo
+    y el pie abajo de todo, con la lista flotando en el medio. En la historia de
+    farmacias (1080x1920 con tres renglones) eso dejaba dos huecos blancos enormes y el
+    título se veía descolgado del resto. Ahora las tres partes viajan juntas.
     """
     W2, H2 = size
     m = 70
@@ -521,40 +526,24 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
         lx = m + (inner - draw.textlength(ln, font=font)) / 2 if center else m
         draw.text((lx, yy), ln, font=font, fill=fill)
 
-    # Marca (logo)
-    if logo:
-        _paste_logo(canvas, 40, 360)
-        y = 116
-    else:
-        y = 90
-
-    # Título grande
+    # --- Encabezado y pie: se MIDEN antes de dibujar, para poder apilarlos ---
     f_t = _font(68, True)
-    for ln in _wrap(draw, titulo, f_t, inner)[:2]:
-        _line(ln, f_t, y, WHITE)
-        y += _line_h(f_t, ln) + 16
+    tit_lineas = _wrap(draw, titulo, f_t, inner)[:2]
+    alto_tit = sum(_line_h(f_t, ln) + 16 for ln in tit_lineas)
+    f_s = _font(36, False)
+    alto_sub = (_line_h(f_s) + 24) if subtitulo else 0
 
-    # Subtítulo (fecha)
-    if subtitulo:
-        f_s = _font(36, False)
-        _line(subtitulo, f_s, y, accent)
-        y += _line_h(f_s) + 24
+    f_foot = _font(26, False)
+    foot_lines = _wrap(draw, footer, f_foot, inner) if footer else []
+    foot_h = sum(_line_h(f_foot, l) + 10 for l in foot_lines)
 
-    draw.line((m, y, W2 - m, y), fill=(60, 64, 74), width=2)
-    y_start = y + 30
+    # Sitio que puede ocupar la lista: el MÁXIMO posible (encabezado pegado arriba y pie
+    # pegado abajo). Se mide siempre así, centrado o no, para que el cuerpo de letra que
+    # se elige no dependa de dónde termine ubicado el bloque.
+    y_arriba = 116 if logo else 90
+    avail = (H2 - m - foot_h - 26) - (y_arriba + alto_tit + alto_sub + 30)
 
-    # Pie (reservar altura)
-    foot_lines = []
-    foot_y = H2 - m
-    if footer:
-        f_foot = _font(26, False)
-        foot_lines = _wrap(draw, footer, f_foot, inner)
-        foot_h = sum(_line_h(f_foot, l) + 10 for l in foot_lines)
-        foot_y = H2 - m - foot_h
-
-    avail = (foot_y - 26) - y_start
     n = max(1, len(items))
-    tiene_sub = any(it.get("sub") for it in items)
     GAP = 24  # espacio entre ítems
 
     def layout(main_sz):
@@ -589,8 +578,32 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
         chosen = layout(24)
     f_main, f_sub, mk, mlh, slh, filas, total = chosen
 
-    # En modo centrado, arrancar la lista de modo que quede centrada verticalmente.
-    yy = y_start + (max(0, (avail - total) // 2) if center else 0)
+    # --- Dónde arranca el encabezado y dónde va el pie ---
+    if center:
+        # Bloque único: encabezado + 30 + lista + 26 + pie, centrado en el alto útil.
+        # `y_arriba` es el piso: el bloque nunca sube más que la posición de siempre.
+        alto_bloque = alto_tit + alto_sub + 30 + total + 26 + foot_h
+        y = max(y_arriba, (H2 - alto_bloque) // 2)
+        y_div = y + alto_tit + alto_sub
+        foot_y = y_div + 30 + total + 26
+    else:
+        y = y_arriba
+        y_div = y + alto_tit + alto_sub
+        foot_y = (H2 - m - foot_h) if foot_lines else (H2 - m)
+
+    # --- Dibujar ---
+    if logo:
+        _paste_logo(canvas, 40, 360)
+
+    for ln in tit_lineas:
+        _line(ln, f_t, y, WHITE)
+        y += _line_h(f_t, ln) + 16
+    if subtitulo:
+        _line(subtitulo, f_s, y, accent)
+
+    draw.line((m, y_div, W2 - m, y_div), fill=(60, 64, 74), width=2)
+
+    yy = y_div + 30
     for idx, (mlines, sline2, sline, h) in enumerate(filas):
         if yy + h > foot_y - 10:
             draw.text((m, yy), f"… y {n - idx} más", font=f_sub, fill=GRAY)
@@ -623,7 +636,6 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
     # Pie
     if foot_lines:
         draw.line((m, foot_y - 16, W2 - m, foot_y - 16), fill=(60, 64, 74), width=2)
-        f_foot = _font(26, False)
         if center:
             yy = foot_y
             for ln in foot_lines:
