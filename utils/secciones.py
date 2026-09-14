@@ -285,7 +285,10 @@ def por_ia(notas: list, timeout: int = 25) -> dict:
     }
 
     modelo = get("GEMINI_MODEL") or _MODELO_DEFAULT
-    for clave in claves[:3]:
+    # Cinco claves y no todo el pool: un 429 vuelve en milisegundos, así que probar
+    # varias no cuesta nada, pero el tope existe para que un Gemini caído (que sí agota
+    # el timeout) no sume nueve esperas dentro de una publicación.
+    for clave in claves[:5]:
         try:
             r = requests.post(f"{API_BASE}/models/{modelo}:generateContent?key={clave}",
                               json=payload, timeout=timeout)
