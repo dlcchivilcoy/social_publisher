@@ -26,6 +26,11 @@ FONDO_DIFUMINADO = 80                       # px de transición entre el video y
 ZOCALO_CAJA = (175, 1481, 670, 71)
 ZOCALO_COLOR = (247, 127, 0)  # el naranja de la marca
 ZOCALO_PALABRAS = 5           # tope de palabras del zócalo
+# Texto de marca que va arriba, del lado contrario al isologo (2026-09-14).
+MARCA_TEXTO = "DIARIO LA CAMPAÑA | RADIO DEL CENTRO"
+MARCA_USUARIO = "@diarioyradio"
+MARCA_TAM_MAX = 32            # cuerpo del renglón de arriba; baja solo si no entra
+MARCA_TAM_MIN = 18
 
 
 def _cfg(clave: str, default: str) -> str:
@@ -224,12 +229,94 @@ def _dos_renglones(texto: str) -> str:
     return " ".join(palabras[:corte]) + "\n" + " ".join(palabras[corte:])
 
 
+def _fuente_marca() -> str | None:
+    """Montserrat Bold (la tipografía de la marca, commiteada para que la nube la tenga).
+    Si faltara, cae a la misma lista de respaldo que la firma."""
+    return str(FUENTE_ZOCALO) if FUENTE_ZOCALO.exists() else _font_file()
+
+
+def _ancho_texto(texto: str, fuente: str, cuerpo: int) -> int:
+    """Ancho en px de ese texto. Sin PIL devuelve una estimación (no rompe el reel)."""
+    try:
+        from PIL import ImageFont
+        return int(ImageFont.truetype(fuente, cuerpo).getlength(texto))
+    except Exception:  # noqa: BLE001
+        return int(len(texto) * cuerpo * 0.62)
+
+
+def _cuerpo_que_entra(texto: str, fuente: str, ancho: int, maximo: int) -> int:
+    """El cuerpo más grande (≤ `maximo`) con el que el texto entra en `ancho`.
+
+    Se mide en vez de fijarlo: si mañana se cambia `REEL_MARCA_TEXTO` por uno más
+    largo, el renglón se achica solo en lugar de meterse abajo del isologo."""
+    for cuerpo in range(maximo, MARCA_TAM_MIN - 1, -1):
+        if _ancho_texto(texto, fuente, cuerpo) <= ancho:
+            return cuerpo
+    return MARCA_TAM_MIN
+
+
+def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
+    """(fragmento_de_filtro, etiqueta_de_salida) con el nombre de los dos medios y,
+    debajo, el usuario de las redes. Va arriba, del lado LIBRE (el contrario al
+    isologo) y centrado a la altura del isologo. Blanco, con contorno y sombra oscuros
+    para que se lea sobre cualquier foto.
+
+    El texto va por `textfile=` y no inline: la Ñ de «CAMPAÑA» y el «|» pelean con el
+    parser del filtergraph de ffmpeg. Se apaga con `REEL_MARCA_TEXTO=0`."""
+    texto = _cfg("REEL_MARCA_TEXTO", MARCA_TEXTO)
+    usuario = _cfg("REEL_MARCA_USUARIO", MARCA_USUARIO)
+    if texto.lower() in ("0", "no", "off", "false"):
+        return "", in_label
+    fuente = _fuente_marca()
+    if not fuente:
+        logger.warning("Sin tipografía para el texto de marca del reel; se omite.")
+        return "", in_label
+
+    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+    ancho_logo = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
+    # Espacio libre: todo el cuadro menos los dos márgenes y la franja del isologo.
+    hueco = 1080 - 2 * mx - ancho_logo - 24
+    x = mx if _logo_a_la_derecha() else mx + ancho_logo + 24
+
+    cuerpo = _cuerpo_que_entra(texto, fuente, hueco, MARCA_TAM_MAX)
+    cuerpo2 = max(MARCA_TAM_MIN, round(cuerpo * 0.8))
+    salto = round(cuerpo * 1.35)
+    # Centrado contra el isologo (514x568 px de origen → alto = ancho * 568/514).
+    alto_logo = round(ancho_logo * 568 / 514)
+    alto_texto = salto + round(cuerpo2 * 1.2)
+    y = my + max(0, (alto_logo - alto_texto) // 2)
+
+    # Contorno oscuro: el blanco PELADO sobre una foto clara desaparece (probado sobre un
+    # fondo casi blanco: quedaba solo la sombra). El contorno lo deja legible sobre
+    # cualquier imagen sin tener que meterle una caja negra detrás.
+    borde = int(float(_cfg("REEL_MARCA_BORDE", "3")))
+
+    work_dir.mkdir(parents=True, exist_ok=True)
+    frag, label = "", in_label
+    for i, (linea, cuerpo_i, dy) in enumerate(((texto, cuerpo, 0), (usuario, cuerpo2, salto))):
+        if not linea:
+            continue
+        archivo = work_dir / f"marca{i}.txt"
+        archivo.write_text(linea, encoding="utf-8")
+        out = f"[vm{i}]"
+        frag += (f"{';' if frag else ''}{label}drawtext=textfile='{_esc_ff(archivo)}'"
+                 f":fontfile='{_esc_ff(fuente)}':fontcolor=white:fontsize={cuerpo_i}"
+                 f":borderw={borde}:bordercolor=black@0.45"
+                 f":shadowcolor=black@0.45:shadowx=2:shadowy=2:x={x}:y={y + dy}{out}")
+        label = out
+    return frag, label
+
+
 def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str]:
     """Devuelve (fragmento_de_filtro, etiqueta_de_salida) que estampa la firma del
-    corresponsal ARRIBA, a la derecha del logo, en 2 renglones, sobre una caja
+    corresponsal ARRIBA, del lado libre del logo, en 2 renglones, sobre una caja
     semitransparente (para que se lea sobre el fondo difuminado). El texto va por
     `textfile=` para no pelear con tildes/guiones/'·' en el filtergraph. Si no hay fuente
-    disponible, no dibuja nada (devuelve el label original)."""
+    disponible, no dibuja nada (devuelve el label original).
+
+    OJO: hoy está DORMIDA (ningún llamado pasa `firma=`). Si se vuelve a prender hay que
+    correrla hacia abajo: comparte lugar con el texto de marca (`_marca_drawtext`)."""
     font = _font_file()
     if not font:
         logger.warning("Sin fuente para la firma del reel; se omite el drawtext.")
@@ -405,7 +492,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
                 firma: str | None, fondo: Path | None, logo_png: Path | None,
                 overlay: Path | None, placa: Path | None, seg_placa: float,
                 recorte: tuple[int, int, int, int] | None = None,
-                encuadre: tuple[int, int, int, int] | None = None) -> None:
+                encuadre: tuple[int, int, int, int] | None = None,
+                marca_texto: bool = False) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada. Si `recorte` (w,h,x,y) viene dado, primero
@@ -461,6 +549,11 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         vf += (f";[{idx}:v]scale={ancho}:-1,format=rgba,colorchannelmixer=aa={op}[lg];"
                f"{out_label}[lg]overlay={lx}:{my}[vl]")
         out_label = "[vl]"
+    if marca_texto:
+        # Nombre de los dos medios + usuario de las redes, del lado libre del isologo.
+        draw, out_label = _marca_drawtext(out_label, salida.parent)
+        if draw:
+            vf += ";" + draw
     if overlay:
         # Marco del diario (esquinas + caja del zócalo + barra con la web y las redes).
         idx = n_in
@@ -525,7 +618,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     inferior con ese texto (la firma de la Red de Corresponsales).
 
     `logo=True` estampa el isotipo del diario arriba a la DERECHA (perilla `REEL_LOGO_LADO`;
-    `izquierda` lo devuelve al lugar de antes), el OVERLAY del diario
+    `izquierda` lo devuelve al lugar de antes) y, del lado libre, el TEXTO de marca
+    («DIARIO LA CAMPAÑA | RADIO DEL CENTRO» + «@diarioyradio»; `REEL_MARCA_TEXTO=0` lo
+    apaga). El OVERLAY del diario
     (marco + caja del zócalo + barra con la web y las redes) va con el `zocalo` escrito
     adentro SOLO si `overlay=True` (default; `overlay=False` saca el marco y el texto del
     zócalo de una), y `placa_final=True` agrega al final la placa "Seguinos en redes"
@@ -556,7 +651,8 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         if _fullbleed_on():
             logger.info(f"Video horizontal ({cont_w}x{cont_h}): sin full bleed, va con fondo difuminado.")
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
-                 seg_placa=seg_placa, recorte=recorte, encuadre=encuadre)
+                 seg_placa=seg_placa, recorte=recorte, encuadre=encuadre,
+                 marca_texto=logo)
     try:
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
     except Exception as e:
@@ -567,9 +663,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         logger.warning(f"El reel con marca falló ({e}); lo rehago pelado.")
         _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
                     fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
-                    recorte=None, encuadre=None)
+                    recorte=None, encuadre=None, marca_texto=False)
         marca = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
-                     recorte=None, encuadre=None)
+                     recorte=None, encuadre=None, marca_texto=False)
     logger.info(
         f"Reel vertical armado: {salida}"
         + (f" (recortado a {max_seconds}s)" if max_seconds else "")
@@ -577,6 +673,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         + (" + recorte-negro" if marca["recorte"] else "")
         + (" + fondo" if marca["fondo"] else "")
         + (" + logo" if marca["logo_png"] else "")
+        + (" + texto de marca" if marca["marca_texto"] else "")
         + (" + overlay" if marca["overlay"] else "")
         + (f" + placa final {seg_placa:.0f}s" if marca["placa"] else "")
     )
