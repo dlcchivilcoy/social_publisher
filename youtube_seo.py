@@ -16,6 +16,7 @@ import html
 import json
 from pathlib import Path
 
+from utils.config import get
 from utils.logger import get_logger
 
 logger = get_logger("youtube_seo")
@@ -23,6 +24,20 @@ logger = get_logger("youtube_seo")
 OUT_DIR = Path(__file__).parent / "youtube_seo"
 PROPUESTAS = OUT_DIR / "propuestas.json"
 LEDGER = Path(__file__).parent / ".yt_seo.json"  # IDs ya procesados por el modo auto
+
+
+def _activo() -> bool:
+    """Interruptor general del SEO de YouTube. `YT_SEO_ENABLED=0` lo apaga ENTERO.
+
+    2026-09-14, pedido del usuario: se desactivaron las corridas de las 14 y las 15. El
+    disparo vive en cron-job.org (afuera del repo), asi que el interruptor va ACA: aunque
+    el cron siga existiendo, la corrida entra y no hace nada. Para volver a prenderlo:
+    YT_SEO_ENABLED=1 en el .env (y resincronizar el secret ENV_FILE)."""
+    return str(get("YT_SEO_ENABLED") or "1").strip().lower() not in ("0", "no", "false", "off")
+
+
+_APAGADO = ("SEO de YouTube DESACTIVADO (YT_SEO_ENABLED=0). No hago nada. "
+            "Para prenderlo: YT_SEO_ENABLED=1 en el .env + resincronizar el secret.")
 
 
 def _descripcion_final(desc_gemini: str, tags=None) -> str:
@@ -100,6 +115,9 @@ def _guardar_propuestas(data: dict) -> None:
 
 def run_generate(limit: int = 15, dry_run: bool = False) -> None:
     """Trae los últimos `limit` videos, propone SEO y arma miniaturas. NO toca YouTube."""
+    if not _activo():
+        logger.info(_APAGADO)
+        return
     from platforms import youtube_api
     from utils import gemini
 
@@ -143,6 +161,9 @@ def run_generate(limit: int = 15, dry_run: bool = False) -> None:
 
 def run_apply(dry_run: bool = False) -> None:
     """Aplica en YouTube SOLO las propuestas con "aplicar": true (y no aplicadas aún)."""
+    if not _activo():
+        logger.info(_APAGADO)
+        return
     from platforms import youtube_api
 
     data = _leer_propuestas()
@@ -185,6 +206,9 @@ def run_auto(dry_run: bool = False, limit: int = 15) -> None:
     El registro `.yt_seo.json` está "sellado" con los videos viejos, así SOLO toca los
     NUEVOS que subas de ahora en más (sin importar el horario). Idempotente.
     Guarda igual el antes/después en youtube_seo/ por si querés auditar o revertir."""
+    if not _activo():
+        logger.info(_APAGADO)
+        return
     from platforms import youtube_api
     from utils import gemini
 
