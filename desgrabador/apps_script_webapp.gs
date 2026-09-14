@@ -8,11 +8,23 @@
  *   GITHUB_PAT, FOLDER_NUEVOS_ID, FOLDER_APROBADAS_ID   (ya cargadas)
  *   WIX_API_KEY, WIX_SITE_ID                            (NUEVAS, para el botón Corregir)
  *
- * DESPLIEGUE:
+ * DESPLIEGUE (la PRIMERA vez, una sola vez):
  *   Implementar → Nueva implementación → tipo "Aplicación web".
- *   Ejecutar como: Yo (dlc.chivilcoy)  |  Quién tiene acceso: Solo yo.
+ *   Ejecutar como: Yo (dlc.chivilcoy)  |  Quién tiene acceso: CUALQUIERA
+ *   (los botones se clickean desde el mail sin estar logueado; la seguridad la da el
+ *    WEBAPP_TOKEN, no el acceso restringido).
  *   Copiá la URL que termina en /exec y ponela en el .env del repo como
- *   APPROVE_WEBAPP_URL=... (y en el secret ENV_FILE). Listo: los mails traen los botones.
+ *   APPROVE_WEBAPP_URL=... Y en el secret ENV_FILE:  gh secret set ENV_FILE < .env
+ *
+ * ⚠️ RE-DESPLIEGUE (cada vez que cambiás este código): NO uses "Nueva implementación".
+ *   "Nueva implementación" genera una URL /exec DISTINTA → los botones del mail (que traen
+ *   la URL vieja del secret ENV_FILE) dejan de funcionar. En su lugar:
+ *     Implementar → Administrar implementaciones → abrí la implementación existente →
+ *     ✏️ (lápiz) → Versión: "Nueva versión" → Implementar.
+ *   Eso conserva la MISMA URL /exec. Ojo: editar el código sin desplegar versión nueva
+ *   NO actualiza el /exec (sigue sirviendo la última versión desplegada).
+ *   Si la URL igual cambió, actualizá APPROVE_WEBAPP_URL en .env Y en el secret:
+ *     gh secret set ENV_FILE < .env
  */
 
 function _html(msg) {

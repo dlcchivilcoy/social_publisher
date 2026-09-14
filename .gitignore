@@ -53,6 +53,9 @@ client_secret.json
 youtube_seo/
 .yt_seo.json
 
+# Estado local de la CLI de Supabase (a que proyecto esta enlazada esta PC)
+supabase/.temp/
+
 # Sistema
 Thumbs.db
 desktop.ini
