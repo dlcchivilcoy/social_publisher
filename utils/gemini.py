@@ -98,11 +98,14 @@ def _fallback_models(primary: str = "") -> list:
 
 # Cuántas veces se espera sobre la MISMA clave+modelo ante un 503 antes de rotar. Bajo a
 # propósito: esperar sobre un proyecto saturado no lo desatasca; probar otro proyecto, sí.
-# Modelo principal por defecto. gemini-2.5-flash quedo RETIRADO el 2026-08-27: devuelve
-# 404 "no longer available to new users" en TODAS las claves menos la del proyecto mas
-# viejo, y esa estaba saturada (503) -> el bot tenia un solo camino posible y tapado.
-# Configurable con GEMINI_MODEL en el .env.
-_MODELO_DEFAULT = "gemini-3.6-flash"
+# Modelo principal por defecto (lo pisa GEMINI_MODEL del .env). 2026-09-14: pasa a
+# gemini-3.8-flash, que cuesta lo MISMO que 3.6 y 3.7 (0,75 USD/1M de entrada y 3,75 de
+# salida hasta el 31/12/2026), es estable y lo tienen las 9 claves del pool.
+# Va PINEADO y no con el alias gemini-flash-latest: Google recomienda fijar la version en
+# produccion, y el 2026-08-27 gemini-2.5-flash quedo RETIRADO de golpe (404 "no longer
+# available to new users") en todas las claves menos la del proyecto mas viejo -y esa
+# estaba saturada (503)-, o sea que el bot se quedo con un solo camino, y tapado.
+_MODELO_DEFAULT = "gemini-3.8-flash"
 
 
 _ESPERAS_POR_COMBO = 2
