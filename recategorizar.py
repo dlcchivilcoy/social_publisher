@@ -84,6 +84,9 @@ def _decidir(notas: list) -> None:
     Se le pregunta a la IA EN LOTE (una llamada cada 20 notas, no una por nota)."""
     dudosas = []
     for n in notas:
+        if S.es_servicio(n["titulo"]):        # sepelios/farmacias: nunca van a una sección
+            n["propuesta"], n["firme"] = S.SIN_SECCION, True
+            continue
         slug, seguro, _ = S.por_reglas(n["titulo"], n["texto"])
         n["propuesta"], n["firme"] = slug, seguro
         if not seguro:
@@ -134,7 +137,7 @@ def main() -> None:
         actual = _seccion_de(n["cats"])
         if actual and not args.todas:
             continue
-        n["actual"] = actual
+        n["actual"] = actual or S.SIN_SECCION
         candidatas.append(n)
     if not candidatas:
         logger.info("No hay nada que recategorizar.")
@@ -143,10 +146,11 @@ def main() -> None:
     logger.info(f"{len(candidatas)} nota(s) a decidir…")
     _decidir(candidatas)
     # Pisar una sección que YA existe pide una decisión firme; llenar una vacía, no.
+    tenia = lambda n: n["actual"] != S.SIN_SECCION
     cambios = [n for n in candidatas if n["propuesta"] != n["actual"]
-               and (n["firme"] or not n["actual"])]
+               and (n["firme"] or not tenia(n))]
     dudadas = sum(1 for n in candidatas
-                  if n["propuesta"] != n["actual"] and n["actual"] and not n["firme"])
+                  if n["propuesta"] != n["actual"] and tenia(n) and not n["firme"])
     if dudadas:
         logger.info(f"{dudadas} nota(s) con sección ya puesta se dejan como están "
                     f"(la decisión no fue firme).")
@@ -157,12 +161,13 @@ def main() -> None:
     for n in cambios:
         reparto[n["propuesta"]] = reparto.get(n["propuesta"], 0) + 1
     logger.info("Reparto propuesto: " + ", ".join(
-        f"{S.ETIQUETA[s]} {reparto[s]}" for s in S.SLUGS if reparto.get(s)))
+        f"{S.ETIQUETA.get(s, 'Solo Inicio')} {reparto[s]}"
+        for s in list(S.SLUGS) + [S.SIN_SECCION] if reparto.get(s)))
 
     ok = fallos = 0
     for i, n in enumerate(cambios, 1):
         etiqueta = (f"[{i}/{len(cambios)}] {n['fecha']} "
-                    f"{S.ETIQUETA[n['propuesta']]:<10} {n['titulo'][:60]}")
+                    f"{S.ETIQUETA.get(n['propuesta'], 'Solo Inicio'):<11} {n['titulo'][:60]}")
         if args.dry:
             logger.info("(dry) " + etiqueta)
             continue

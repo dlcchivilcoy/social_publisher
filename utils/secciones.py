@@ -47,6 +47,14 @@ NACIONALES = "nacionales"
 
 SLUGS = (LOCALES, DEPORTES, CAMPO, OPINION, NACIONALES)
 
+# Valor especial: la nota va a la portada y a NINGUNA sección.
+SIN_SECCION = "inicio"
+
+# Listados de servicio, no noticias. Van sin sección: la recategorización masiva los
+# mandó a Locales (hablan de Chivilcoy, claro) y no es ahí donde tienen que estar —
+# Locales se llenaría de avisos fúnebres y de farmacias de turno.
+_SERVICIO = ("sepelios", "farmacias de turno", "turnos de farmacia")
+
 # Variable del .env con el id de categoría de Wix de cada sección, y el id que se usa
 # si esa variable no está cargada. Los ids VAN EN EL CÓDIGO a propósito: no son
 # secretos (sin la WIX_API_KEY no sirven de nada, y la web los tiene igual en
@@ -305,9 +313,17 @@ def por_ia(notas: list, timeout: int = 25) -> dict:
     return {}
 
 
+def es_servicio(titulo: str) -> bool:
+    """¿Es un listado de servicio (sepelios, farmacias) y no una noticia?"""
+    t = _norm(titulo).lstrip("“\"' ")
+    return any(t.startswith(m) for m in _SERVICIO)
+
+
 def clasificar(titulo: str, cuerpo: str = "", pagina: int = 0) -> str:
-    """Sección de UNA nota. `pagina` es el viejo dato del diario de papel: si viene
-    8 o 9 es Deportes y no hace falta pensar (se mantiene por compatibilidad)."""
+    """Sección de UNA nota, o SIN_SECCION. `pagina` es el viejo dato del diario de
+    papel: si viene 8 o 9 es Deportes y no hace falta pensar (compatibilidad)."""
+    if es_servicio(titulo):
+        return SIN_SECCION
     if pagina in (8, 9):
         return DEPORTES
     slug, seguro, _ = por_reglas(titulo, cuerpo)
@@ -326,7 +342,7 @@ def id_inicio() -> str:
 
 
 def ids_de_categoria(slug: str) -> list:
-    """IDs de Wix para esa sección: «Inicio» + la sección."""
+    """IDs de Wix para esa sección: «Inicio» + la sección. Con SIN_SECCION, solo Inicio."""
     propia = ((get(ENV_CATEGORIA.get(slug, "")) or "").strip()
               or ID_CATEGORIA.get(slug, ""))
     return [c for c in (id_inicio(), propia) if c]
