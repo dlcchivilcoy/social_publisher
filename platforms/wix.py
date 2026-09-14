@@ -211,17 +211,31 @@ DEPORTES_PAGES = {8, 9}
 LOCALES_PAGES  = {2, 3, 5, 7}
 
 
-def _category_ids(page: int) -> list[str]:
-    """Devuelve los IDs de categoría según el número de página."""
-    inicio   = get("WIX_CAT_INICIO")   or ""
-    locales  = get("WIX_CAT_LOCALES")  or ""
-    deportes = get("WIX_CAT_DEPORTES") or ""
+def _category_ids(page: int = 0, title: str = "", body: str = "",
+                  seccion: str = "") -> list[str]:
+    """IDs de categoría de Wix para la nota: «Inicio» + la sección que le corresponde.
 
-    cats = [c for c in [inicio] if c]          # Inicio siempre
-    if page in DEPORTES_PAGES and deportes:
-        cats.append(deportes)
-    elif page in LOCALES_PAGES and locales:
-        cats.append(locales)
+    Antes la sección salía SOLO del número de página del diario de papel. Cuando la
+    edición pasó a notas sueltas numeradas, el escáner dejó de saber la página y mandó
+    `page=0` para todas: desde el 17/6/2026 TODAS las notas se publicaron únicamente en
+    «Inicio» y las secciones de la web se congelaron. Ahora la sección se deduce del
+    CONTENIDO (ver utils/secciones.py); `page` sigue sirviendo de atajo (8 y 9 eran
+    Deportes) y `seccion` permite forzarla a mano.
+    """
+    from utils import secciones
+
+    inicio = [secciones.id_inicio()]
+    slug = (seccion or "").strip().lower()
+    if slug == "inicio":
+        return inicio          # a propósito SIN sección (ej. sepelios: nunca fueron Locales)
+    if slug not in secciones.SLUGS:
+        try:
+            slug = secciones.clasificar(title, body, pagina=page)
+        except Exception as e:  # clasificar no puede impedir que la nota salga
+            logger.warning(f"No se pudo decidir la sección ({e}); va solo a Inicio.")
+            return inicio
+    cats = secciones.ids_de_categoria(slug)
+    logger.info(f"Sección de la nota: {secciones.ETIQUETA.get(slug, slug)}")
     return cats
 
 
@@ -255,7 +269,7 @@ def _importar_video(headers: dict, video_url: str, display_name: str) -> str:
 
 
 def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
-                   description: str = "", video_url: str = "") -> dict:
+                   description: str = "", video_url: str = "", seccion: str = "") -> dict:
     """Crea un BORRADOR (draft) en el blog de Wix SIN publicarlo. La foto va como
     portada + dentro del cuerpo; si se pasa `video_url`, se importa a Wix y se embebe
     un nodo VIDEO arriba del texto. Devuelve {draft_id, file_id, image_url}."""
@@ -313,7 +327,7 @@ def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
             "nodes": [{"type": "TEXT", "id": "", "textData": {"text": para, "decorations": []}}],
         })
 
-    category_ids = _category_ids(page)
+    category_ids = _category_ids(page, title, body, seccion)
     descripcion = _meta_descripcion(description, body)
     slug = _slugify(title)
     seo_data = {
@@ -473,9 +487,10 @@ def publicar_borrador(draft_id: str) -> dict:
 
 
 def publish(title: str, body: str, image_path: Path, page: int = 0,
-            description: str = "") -> dict:
+            description: str = "", seccion: str = "") -> dict:
     """Crea el borrador y lo publica de una (flujo normal del diario)."""
-    info = crear_borrador(title, body, image_path, page=page, description=description)
+    info = crear_borrador(title, body, image_path, page=page, description=description,
+                          seccion=seccion)
     return publicar_borrador(info["draft_id"])
 
 
@@ -508,7 +523,7 @@ def url_de_nota(titulo: str, buscar: int = 100) -> str:
 
 
 def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
-                           page: int = 0, description: str = "") -> dict:
+                           page: int = 0, description: str = "", seccion: str = "") -> dict:
     """Crea un borrador con VARIAS fotos (galería) + VARIOS videos nativos COMPLETOS +
     el texto. La 1ª foto va de portada. Pensado para «notas para web». Devuelve
     {draft_id, file_id, image_url}."""
@@ -559,7 +574,8 @@ def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
     descripcion = _meta_descripcion(description, body)
     draft_payload = {
         "draftPost": {
-            "title": title, "memberId": member_id, "categoryIds": _category_ids(page),
+            "title": title, "memberId": member_id,
+            "categoryIds": _category_ids(page, title, body, seccion),
             "featured": True, "richContent": {"nodes": nodes},
             "media": {"wixMedia": {"image": {"id": file_ids[0]}}, "displayed": True, "custom": True},
             "seoSlug": _slugify(title),

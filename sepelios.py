@@ -248,8 +248,10 @@ def run_sepelios(dry_run: bool = False) -> None:
     # 1) Wix (muro/blog)
     try:
         desc_seo = f"Sepelios de Chivilcoy — {fecha.capitalize()}: " + ", ".join(nombres)
+        # seccion="inicio" = solo la portada, sin sección: los sepelios nunca estuvieron
+        # en Locales y no tiene sentido que la sección se llene de avisos fúnebres.
         wix.publish(f"Sepelios — {fecha.capitalize()}", caption, feed_img, page=0,
-                    description=desc_seo)
+                    description=desc_seo, seccion="inicio")
         algun_ok = True
         logger.info("   [wix] sepelios publicados OK")
     except Exception as e:

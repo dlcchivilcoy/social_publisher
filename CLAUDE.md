@@ -39,8 +39,17 @@ El nombre de la carpeta de edición sigue el patrón:
 
 ### Páginas a publicar
 - `ALLOWED_PAGES = 2, 3, 5, 7, 8, 9` (en .env)
-- Páginas **8 y 9** → categoría **Deportes** + **Inicio** en Wix
-- Páginas **2, 3, 5, 7** → categoría **Locales** + **Inicio** en Wix
+
+### Secciones de la web (categorías de Wix)
+- Son cinco: **Locales, Deportes, Campo, Opinión, Nacionales** — más **Inicio**, que
+  la lleva toda nota.
+- La sección **NO sale más del número de página**. Salía de ahí (8 y 9 = Deportes,
+  2/3/5/7 = Locales) hasta que la edición pasó a notas sueltas numeradas: el escáner
+  dejó de saber la página, mandó `page=0` para todas y durante tres meses TODO se
+  publicó solo en «Inicio». Ahora la decide `utils/secciones.py` leyendo el CONTENIDO
+  (reglas + Gemini como desempate; kill-switch `SECCION_IA=0`).
+- Para forzarla: `wix.publish(..., seccion="deportes")`. `seccion="inicio"` publica
+  a propósito SIN sección (lo usa `sepelios.py`).
 - **TODAS las notas se marcan `featured=True`** → la portada (Inicio) del sitio muestra
   solo las destacadas, así que sin featured no aparecían en Inicio. Ahora todas aparecen.
 
