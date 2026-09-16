@@ -1,116 +1,128 @@
-# TikTok — subir el reel a la bandeja del creador
+# TikTok — el reel del bot a @diarioyradio
 
-Estado: **enviado a review el 2026-07-21**, esperando la respuesta de TikTok (tarda días).
-Corre **LOCAL** (el refresh token rota y no puede vivir en el repo público).
+**Estado al 2026-09-16: la app está LIVE, pero la auditoría de Direct Post está RECHAZADA.**
+Los reels caen en los **borradores** de TikTok y el editor los termina de publicar a mano
+desde el celular. No es un estado de transición: es el régimen normal hasta nuevo aviso.
 
-El flujo completo ya se probó de punta a punta en sandbox: el programa subió el reel, llegó
-la notificación al celular, se abrió el editor y se publicó. 🔑 **El video que entra por la
-API NO aparece en «Borradores» del perfil: la notificación ES el borrador**, hay que tocarla.
+El rechazo del 16/9 **no es de formulario** (los nueve anteriores sí lo eran: Website URL,
+ícono, la pantalla de confirmación). Es de política, textual del revisor:
 
-## Cómo funciona
+> App will not be approved for personal or company internal use. TikTok for Developers
+> currently does not support personal or internal company use. **Not acceptable:** Display
+> posts from the TikTok account(s) you or your team manage on your website.
 
-`tiktok_reel.py` busca en el GitHub Release `reel-latest` el asset `reel*.mp4` **más
-nuevo** (venga del reel de las 5 más leídas o de una desgrabación), lo baja y lo manda
-a la **bandeja** de TikTok. Después abrís la app, le ponés la canción trending y publicás.
+Es un renglón de las App Review Guidelines: TikTok aprueba herramientas que le sirven a
+muchos creadores de terceros, y esta maneja la cuenta propia. **No hay campo que tocar ni
+video que regrabar.** Hay un pedido de aclaración abierto con soporte (16/9).
 
-- No sube dos veces el mismo reel (ledger `.tiktok_reel.json`, por nombre de asset).
-- No sube reels viejos: si el más nuevo tiene más de `MAX_DIAS_REEL` (2) días, no hace
-  nada. Para forzarlo: `python tiktok_reel.py --force`.
+---
 
-Piezas: `platforms/tiktok.py` (token + `upload_to_inbox`), `tiktok_auth.py` (OAuth, una
-vez), `tiktok_reel.py`, `run_tiktok_reel.bat`.
+## Cómo funciona HOY
 
-## Lo que falta: el review de Producción
+TikTok es **una red más del bot**, al lado de Facebook, Instagram y YouTube. Corre en la
+nube, con el resto.
 
-TikTok **no** tiene atajo tipo Meta: toda app que postee automático pasa por review.
-En sandbox la subida funciona del lado API, pero **el borrador no aparece en el celular**.
+- `transcriber._publicar_tiktok()` es el punto único de entrada. Lo llaman los tres caminos
+  de `transcriber.py` (video aprobado, corresponsal, foto-nota) y los dos de
+  `transcriber_radio.py` (los reels de la radio van a la **misma** cuenta).
+- `platforms/tiktok.py` intenta **publicación directa** y, si TikTok la rechaza, cae solo a
+  la **bandeja/borradores** y lo avisa. Nunca se pierde un reel.
+- Hoy la directa siempre falla con `403 unaudited_client_can_only_post_to_private_accounts`,
+  así que en la práctica todo va a borradores.
+- **Freno propio: 4 borradores cada 24 h.** TikTok admite 5 subidas sin publicar por día y
+  después rechaza todo con `spam_risk_too_many_pending_share`. El freno saltea **solo la
+  bandeja**, nunca la directa. Tope en `TIKTOK_MAX_BORRADORES` (`0` lo apaga).
+- **El token vive en Supabase** (tabla `tiktok_token`), no en el disco: el refresh token
+  ROTA en cada uso y cada corrida de Actions arranca limpia. El archivo local
+  `.tiktok_token.json` es solo el respaldo de cuando no hay credenciales de Supabase.
+- Kill-switch: `TIKTOK_ENABLED=0`. Sin credenciales se saltea solo.
 
-### 1. App details (developers.tiktok.com → app «automatizacion reels» → Production)
+### Perillas del `.env`
 
-| Campo | Qué poner |
+`TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET`, `TIKTOK_REDIRECT_URI`, `TIKTOK_SCOPES`,
+`TIKTOK_ENABLED`, `TIKTOK_PRIVACIDAD`, `TIKTOK_MAX_BORRADORES`, `TIKTOK_CONFIRMADO`,
+`TIKTOK_COMENTARIOS`, `TIKTOK_DUO`, `TIKTOK_STITCH`, `TIKTOK_MARCA_PROPIA`,
+`TIKTOK_MARCA_TERCEROS`.
+
+### La pantalla de confirmación
+
+Las Content Sharing Guidelines exigen que una persona elija cuenta, privacidad, divulgación
+comercial e interacciones antes de **cada** publicación directa. Está construida: el botón
+«Aprobar» del mail abre `diario_web/src/lib/tiktok-confirmacion.js` en vez de publicar.
+Sin confirmación, el bot va derecho a borradores. Detalle: la pantalla pregunta qué
+**permitir** y la API pide qué **deshabilitar** (`disable_comment` y compañía van invertidos).
+
+También se puede a mano:
+`main.py --tiktok-opciones "priv=...,com=1,duo=0,stitch=0,propia=0,terceros=0"`.
+
+---
+
+## ⚠️ Lo que quedó muerto (no usarlo)
+
+- **`tiktok_reel.py` + `run_tiktok_reel.bat`** — subían el reel de las «5 más leídas» desde
+  un GitHub Release. Ese reel está apagado desde el 2026-07-02 y el camino lo reemplazó
+  `transcriber._publicar_tiktok()`.
+- **La tarea de Windows «Diario TikTok Reel 2015»** — no existe (verificado con `schtasks`
+  el 16/9). Todas las tareas locales se desactivaron el 2026-07-21.
+- **`tiktok_produccion.py`** — era el pasaje de sandbox a producción. Ya se hizo.
+
+`tiktok_auth.py` **sí** sigue vivo: es el que re-autoriza si hay que rehacer el token.
+
+---
+
+## Datos del portal (verificados el 2026-09-16)
+
+App ID `7652372530199644167`. Auditoría de Direct Post, referencia `20260910143956`.
+
+| Campo | Valor |
 |---|---|
 | App name | Diario La Campaña — Publicador |
 | Category | News |
-| Terms of Service URL | `https://www.diariolacampaña.com.ar/terminos` |
-| Privacy Policy URL | `https://www.diariolacampaña.com.ar/privacidad` |
-| App icon | `tiktok_app_icon.png` (512×512, la «C» naranja de la web) |
+| Platforms | **Web ✅ + Desktop ✅** |
+| Terms of Service URL | `https://www.xn--diariolacampaa-2nb.com.ar/terminos` |
+| Privacy Policy URL | `https://www.xn--diariolacampaa-2nb.com.ar/privacidad` |
+| Web URL | `https://diarioweb.vercel.app/` (†) |
+| App icon | `tiktok_app_icon.png` (la «C» naranja, cuadrado) (†) |
 
-> ⚠️ NO uses `logo.png`: es un banner de 6170×830 y TikTok pide el ícono **cuadrado**.
-> `tiktok_app_icon.png` es una copia de `icon-512.png` de la web (mismo ícono de la PWA).
+(†) Estos dos no entraban en la captura del 16/9; vienen del arreglo de agosto. El resto se
+leyó del portal ese día.
 
-> Si el formulario rechaza la ñ, usá la forma punycode:
-> `https://www.xn--diariolacampaa-2nb.com.ar/terminos` y `.../privacidad`.
-> Las dos resuelven al mismo sitio.
+**Description** (116 de 120 caracteres, tal cual está cargada):
 
-**Descripción** (pegar tal cual; el review se hace en inglés):
+> Local news outlet in Argentina. Our editors review our own news videos and post them to
+> our TikTok from our web app.
 
-> Internal publishing tool for Diario La Campaña, a local news outlet in Chivilcoy,
-> Argentina. The app uploads the newspaper's own short vertical videos — news reels
-> produced by our newsroom — to the drafts inbox of our own TikTok account
-> (@diarioyradio). Nothing is posted publicly by the app: our editor opens TikTok,
-> adds music and publishes manually. It is used only by our newsroom, on our own
-> account, with content we produce ourselves. It does not access third-party accounts
-> and has no public sign-up.
+**Scopes:** `user.info.basic`, `video.upload`, `video.publish`.
+Falta `video.list`, que es aparte: sin él `tiktok.metricas()` devuelve `{}` y TikTok no suma
+al ranking de corresponsales. Cuando se habilite, entra solo.
 
-**Scopes y justificación:**
+> 🚫 **Si alguna vez hay que reenviar algo, NO copies textos de versiones viejas de este
+> archivo.** La descripción de julio empezaba con «Internal publishing tool…» — «internal»
+> es la palabra exacta con la que TikTok nombra la categoría que rechaza.
 
-- `video.upload` — *Uploads our own news videos to our own account's drafts inbox. The
-  editor reviews and publishes them manually from the TikTok app.*
-- `user.info.basic` — *Only to confirm the authenticated account is our own newsroom
-  account before uploading.*
+---
 
-### 2. Video demo de la integración
+## Gotchas que costaron tiempo
 
-Grabá la pantalla (2–3 min, sin cortes, mostrando lo que pasa):
-
-1. La terminal: corré `python tiktok_reel.py --force` y que se vea el log
-   («Bajando… / Subiendo a la bandeja de TikTok… / Listo»).
-2. El celular: abrí TikTok → notificación → el borrador aparece en la bandeja.
-3. Abrí el borrador, agregale música y publicá **a mano** — esto es clave: le muestra
-   al revisor que la app **no publica sola**.
-4. Mostrá la nota publicada en la web del diario, para que se vea que el video es propio.
-
-> ⚠️ Del punto 2 **no vas a poder grabar nada mientras estés en sandbox** (ese es
-> justamente el bloqueo). Grabá 1, 3 y 4 mostrando el reel ya publicado desde la app, y
-> aclaralo en las notas del review.
-
-### 3. Después de que aprueben — UN SOLO COMANDO
-
-Abrí la terminal en la carpeta y corré:
-
-```
-venv\Scripts\python.exe tiktok_produccion.py
-```
-
-Te pide la **client key** y el **client secret** de producción (están en
-developers.tiktok.com → tu app → App details → Credentials) y hace los tres pasos solo:
-
-1. Actualiza el `.env` (las 2 credenciales + el redirect), dejando **respaldo**
-   `.env.bak-<fecha>` por las dudas. No toca ninguna otra variable.
-2. Abre el navegador para que autorices con @diarioyradio, y guarda el token.
-3. Crea la tarea de Windows **«Diario TikTok Reel 2015»**, todos los días a las 20:15.
-
-Después, para probar sin esperar a la noche:
-
-```
-venv\Scripts\python.exe tiktok_reel.py --force
-```
-
-**Por qué el redirect cambia:** la solapa **Desktop** del portal NO acepta direcciones web
-(solo `localhost` / `127.0.0.1`), así que en Producción es `http://localhost:8723/callback/`,
-no la web del diario. `tiktok_auth.py` detecta solo cuál de los dos es: con `localhost`
-levanta un servidor y toma el código automáticamente; con `https://` te pide pegar la URL
-(que es como funcionaba el sandbox).
-
-> Si la creación de la tarea falla por permisos, corré el script desde una terminal como
-> administrador, o creala a mano:
-> `schtasks /create /tn "Diario TikTok Reel 2015" /tr "C:\Users\Diario\social_publisher\run_tiktok_reel.bat" /sc daily /st 20:15 /f`
-
-## Gotchas
-
-- El **refresh token ROTA** en cada uso: se guarda en `.tiktok_token.json` (gitignored).
-  Si alguna vez se automatiza en la nube, hay que guardarlo en un secret que se
-  autoactualice (PAT con `secrets:write`), nunca en el repo.
-- El redirect en el canje matchea con la forma con ñ; TikTok redirige al punycode.
-- `user.info.basic` dio `scope_not_authorized` al pedir `display_name` en sandbox. No es
-  crítico: `video.upload` funciona igual.
+- 🔑 **Ante cualquier error raro, lo PRIMERO es verificar que `TIKTOK_CLIENT_KEY` sea la de
+  la app que estás mirando en el portal.** Nueve intentos se fueron en esto: el `.env` tenía
+  la clave de otra app, y TikTok rechazaba Redirect URIs perfectamente escritas.
+- **Los errores de TikTok nombran el campo equivocado.** Dijo «scope» cuando fallaba el
+  `redirect_uri`, y «redirect_uri» cuando el problema era el `client_key`. Descartar por
+  partes, cambiando una cosa por vez.
+- **El redirect Desktop solo acepta `localhost`/`127.0.0.1` con puerto.** El nuestro es
+  `http://localhost:8723/callback/`; `tiktok_auth.py` levanta un servidor local y toma el
+  código solo.
+- **PKCE con SHA256 en HEXADECIMAL**, no base64url: TikTok se aparta del RFC 7636 y lo
+  documenta en su guía de login-kit-desktop.
+- **El ícono tiene que ser cuadrado** (1024×1024) y coincidir con el favicon y el logo
+  visible del sitio. `logo.png` es un banner de 6170×830 y no sirve.
+- ⚠️ **«Return to Draft» VACÍA el App icon.** Hay que volver a subirlo antes de reenviar.
+- **Un MP4 recortado con `ffmpeg -c copy` lo RECHAZA el portal** (el índice `moov` queda al
+  final). Recodificar con `-movflags +faststart`. Los videos demo son de **5 MB** máximo,
+  no 50 como dice el texto de arriba del formulario.
+- **El video que entra por la API NO aparece en «Borradores» del perfil.** La notificación
+  ES el borrador: hay que tocarla y abre el editor con el video cargado.
+- **El tope de 5 no se destraba vaciando los borradores**: cuenta las subidas de las últimas
+  24 h, publiques o borres después. Se libera de a una.
+- `.env.bak-*` está en `.gitignore`: **este repo es público**.
