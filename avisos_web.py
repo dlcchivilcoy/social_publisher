@@ -337,7 +337,8 @@ def _nombre_unico(dir_: Path, base: str, ext: str) -> str:
 
 
 # ── alta / baja ───────────────────────────────────────────────────────────────
-def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha") -> dict:
+def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha",
+                  desde: str | None = None, hasta: str | None = None) -> dict:
     """Copia el archivo a public/avisos/, agrega la entrada al JSON y publica (git push)."""
     nombre = (nombre or "").strip()
     link = (link or "").strip()
@@ -366,6 +367,12 @@ def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha
     entry["forma"] = forma or "ancha"
     if link:
         entry["link"] = link
+    # Vigencia: la web sola muestra u oculta el aviso segun estas fechas
+    # (diario_web/src/lib/avisos.js). Sin fechas, esta siempre visible.
+    if desde:
+        entry["desde"] = desde
+    if hasta:
+        entry["hasta"] = hasta
 
     data = _leer(web)
     data.insert(0, entry)   # los avisos nuevos van PRIMEROS (arriba-izquierda del footer)
@@ -382,7 +389,8 @@ def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha
 
 def editar_aviso(indice: int, nombre_esperado: str | None, nombre: str,
                  link: str = "", nuevo_archivo: str | None = None,
-                 forma: str | None = None) -> dict:
+                 forma: str | None = None, desde: str | None = None,
+                 hasta: str | None = None, tocar_fechas: bool = False) -> dict:
     """Edita el aviso `indice`: cambia el nombre, el link (vacío = quitar el link) y,
     opcionalmente, REEMPLAZA el archivo (imagen o video). Mantiene su posición en la
     lista. Publica (git push). Borra el archivo viejo si nadie más lo usa."""
@@ -432,6 +440,14 @@ def editar_aviso(indice: int, nombre_esperado: str | None, nombre: str,
     nueva["forma"] = forma or entry.get("forma") or "ancha"
     if link:
         nueva["link"] = link
+    # `tocar_fechas` distingue "no me las pasaron" de "borralas": sin el, no habria
+    # forma de sacarle la vigencia a un aviso y dejarlo fijo.
+    d = desde if tocar_fechas else entry.get("desde")
+    h = hasta if tocar_fechas else entry.get("hasta")
+    if d:
+        nueva["desde"] = d
+    if h:
+        nueva["hasta"] = h
 
     data[indice] = nueva
     _escribir(web, data)
@@ -482,3 +498,50 @@ def borrar_aviso(indice: int, nombre_esperado: str | None = None) -> dict:
 
     _commit_push(web, rutas_rel, f"Publicidad: quitar {quitado.get('nombre', 'aviso')}")
     return quitado
+
+
+# ── campañas programadas (web + redes) ───────────────────────────────────────
+def _base_web() -> str:
+    """Dominio ASCII de la web. Meta tropieza con la ñ del dominio real, así que
+    para las URLs que le pasamos usamos siempre el .vercel.app, que es el mismo
+    sitio (ver el historial de rechazos de TikTok por lo mismo)."""
+    base = os.getenv("WEB_BASE_URL") or ""
+    if not base:
+        try:
+            from utils.config import get
+            base = get("WEB_BASE_URL") or ""
+        except Exception:
+            base = ""
+    return (base or "https://diarioweb.vercel.app").rstrip("/")
+
+
+def programar(nombre: str, archivo: str, forma: str = "ancha", link: str = "",
+              desde: str | None = None, hasta: str | None = None,
+              redes: list[str] | None = None, texto: str = "",
+              borrar_en_redes: bool = False) -> dict:
+    """Carga una campaña completa.
+
+    La WEB se resuelve sola: el aviso se sube con sus fechas y la web lo muestra
+    u oculta según corresponda, sin que nadie tenga que volver a tocar nada.
+
+    Las REDES sí necesitan a alguien despierto a esa hora, así que el posteo
+    queda en una cola que la nube revisa cada cuarto de hora.
+    """
+    entry = agregar_aviso(nombre, archivo, link, forma, desde=desde, hasta=hasta)
+    rel = entry.get("img") or entry.get("video") or ""
+    url = _base_web() + rel
+    salida = {"aviso": entry, "url": url, "programado": None,
+              "_optimizado": entry.get("_optimizado", "")}
+
+    redes = [r for r in (redes or []) if r]
+    if redes:
+        import publicidades_programadas as pp
+        cuando = desde or pp.ahora().isoformat(timespec="minutes")
+        salida["programado"] = pp.agregar(
+            nombre=nombre,
+            tipo="video" if entry.get("video") else "foto",
+            url=url, texto=texto, cuando=cuando, destinos=redes,
+            baja=hasta, borrar_en_redes=borrar_en_redes,
+        )
+        pp.publicar_cola()
+    return salida

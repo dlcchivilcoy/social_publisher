@@ -481,6 +481,56 @@ class EditorNotas:
                        "(Instagram, Facebook, la web del comercio, o «tel:2346…»). Se puede dejar vacío.\n"
                        "La publicidad nueva se muestra PRIMERA (arriba a la izquierda del bloque)."
                   ).pack(anchor="w", padx=10, pady=(2, 0))
+        # ── programacion (opcional) ──
+        ttk.Separator(alta, orient="horizontal").pack(fill="x", padx=10, pady=(8, 6))
+        ttk.Label(alta, text="Programar la campaña (opcional)",
+                  font=("Segoe UI", 9, "bold")).pack(anchor="w", padx=10)
+
+        r4 = ttk.Frame(alta)
+        r4.pack(fill="x", padx=10, pady=(4, 2))
+        ttk.Label(r4, text="Sale el:", width=15).pack(side="left")
+        self.aviso_desde_f = tk.StringVar()
+        ttk.Entry(r4, textvariable=self.aviso_desde_f, width=12).pack(side="left")
+        ttk.Label(r4, text=" a las ").pack(side="left")
+        self.aviso_desde_h = tk.StringVar(value="08:00")
+        ttk.Entry(r4, textvariable=self.aviso_desde_h, width=7).pack(side="left")
+        ttk.Label(r4, text="      Termina el:").pack(side="left")
+        self.aviso_hasta_f = tk.StringVar()
+        ttk.Entry(r4, textvariable=self.aviso_hasta_f, width=12).pack(side="left", padx=(6, 0))
+        ttk.Label(r4, text=" a las ").pack(side="left")
+        self.aviso_hasta_h = tk.StringVar(value="23:59")
+        ttk.Entry(r4, textvariable=self.aviso_hasta_h, width=7).pack(side="left")
+
+        r5 = ttk.Frame(alta)
+        r5.pack(fill="x", padx=10, pady=2)
+        ttk.Label(r5, text="Además en:", width=15).pack(side="left")
+        self.aviso_fb_var = tk.BooleanVar(value=False)
+        self.aviso_ig_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var).pack(side="left")
+        ttk.Checkbutton(r5, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(10, 0))
+        ttk.Label(r5, text="  (publicación + historia)", foreground="#777").pack(side="left")
+
+        r6 = ttk.Frame(alta)
+        r6.pack(fill="x", padx=10, pady=2)
+        ttk.Label(r6, text="Texto del posteo:", width=15).pack(side="left")
+        self.aviso_texto_var = tk.StringVar()
+        ttk.Entry(r6, textvariable=self.aviso_texto_var).pack(side="left", fill="x", expand=True)
+
+        r7 = ttk.Frame(alta)
+        r7.pack(fill="x", padx=10, pady=2)
+        self.aviso_borrar_redes_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(r7, text="Al terminar, borrar también el posteo de Facebook",
+                        variable=self.aviso_borrar_redes_var).pack(side="left")
+
+        ttk.Label(alta, foreground="#777", wraplength=680, justify="left",
+                  text="Fechas en dd/mm/aaaa y horas en hh:mm. Si dejás «Sale el» vacío, "
+                       "el aviso entra ya mismo. Si dejás «Termina el» vacío, no se baja nunca.\n"
+                       "La web enciende y apaga el aviso sola por esas fechas. Lo de las redes "
+                       "lo hace la nube, así que sale aunque la PC esté apagada.\n"
+                       "Instagram NO deja borrar publicaciones por su API: eso hay que "
+                       "sacarlo a mano desde el celular, y te llega un mail recordándotelo."
+                  ).pack(anchor="w", padx=10, pady=(2, 0))
+
         self.btn_aviso_agregar = tk.Button(alta, text="➕  Agregar y publicar",
                                            command=self.on_aviso_agregar, bg=NARANJA, fg="white",
                                            font=("Segoe UI", 10, "bold"), relief="flat",
@@ -655,6 +705,27 @@ class EditorNotas:
             sugerido = Path(ruta).stem.replace("-", " ").replace("_", " ").strip().title()
             self.aviso_nombre_var.set(sugerido)
 
+    def _fecha_iso(self, var_fecha, var_hora, etiqueta):
+        """dd/mm/aaaa + hh:mm  ->  ISO con el huso de Argentina. Vacío da None.
+
+        El huso va escrito a propósito: la nube corre en UTC y sin él una campaña
+        que arranca a las 8 de la mañana arrancaría a las 5.
+        """
+        from datetime import datetime
+        f = (var_fecha.get() or "").strip()
+        h = (var_hora.get() or "").strip() or "00:00"
+        if not f:
+            return None
+        for formato in ("%d/%m/%Y %H:%M", "%d/%m/%y %H:%M",
+                        "%d-%m-%Y %H:%M", "%Y-%m-%d %H:%M"):
+            try:
+                d = datetime.strptime(f + " " + h, formato)
+            except ValueError:
+                continue
+            return d.strftime("%Y-%m-%dT%H:%M:00-03:00")
+        raise ValueError("No entiendo la fecha de «" + etiqueta + "»: «" + f + " " + h +
+                         "». Va en dd/mm/aaaa y hh:mm.")
+
     def on_aviso_agregar(self):
         archivo = self.aviso_file
         nombre = self.aviso_nombre_var.get().strip()
@@ -665,26 +736,87 @@ class EditorNotas:
         if not nombre:
             messagebox.showinfo("Falta el nombre", "Escribí el nombre del anunciante.")
             return
-        if not messagebox.askyesno(
-                "Publicar publicidad",
-                f"¿Agrego «{nombre}» a las publicidades de la web y lo publico?\n\n"
-                "Se sube al sitio; aparece en la web en 1-2 minutos."):
+        try:
+            desde = self._fecha_iso(self.aviso_desde_f, self.aviso_desde_h, "Sale el")
+            hasta = self._fecha_iso(self.aviso_hasta_f, self.aviso_hasta_h, "Termina el")
+        except ValueError as e:
+            messagebox.showerror("Fecha mal escrita", str(e))
             return
-        self.run_bg(lambda: avisos_web.agregar_aviso(nombre, archivo, link),
-                    self._aviso_agregado_ok, busy="Publicando la publicidad…")
+        if desde and hasta and hasta <= desde:
+            messagebox.showerror("Fechas al revés",
+                                 "La campaña termina antes de empezar. Revisá las fechas.")
+            return
 
-    def _aviso_agregado_ok(self, entry):
+        redes = []
+        if self.aviso_fb_var.get():
+            redes.append("facebook")
+        if self.aviso_ig_var.get():
+            redes.append("instagram")
+        texto = self.aviso_texto_var.get().strip()
+        borrar = bool(self.aviso_borrar_redes_var.get())
+        es_video = str(archivo).lower().endswith((".mp4", ".webm", ".mov"))
+
+        lineas = ["Anunciante: " + nombre]
+        lineas.append("En la web: " + ("entra ya" if not desde else "entra el " +
+                      self.aviso_desde_f.get().strip() + " a las " +
+                      self.aviso_desde_h.get().strip()))
+        if hasta:
+            lineas.append("Sale de la web: el " + self.aviso_hasta_f.get().strip() +
+                          " a las " + self.aviso_hasta_h.get().strip())
+        if redes:
+            como = "reel + historia" if es_video else "publicación + historia"
+            lineas.append("Redes: " + " y ".join(
+                {"facebook": "Facebook", "instagram": "Instagram"}[r] for r in redes) +
+                " (" + como + ")")
+            if borrar:
+                lineas.append("Al terminar borra el posteo de Facebook "
+                              "(el de Instagram hay que sacarlo a mano).")
+        else:
+            lineas.append("Redes: no (solo web)")
+
+        if redes and not texto:
+            if not messagebox.askyesno("Sin texto",
+                                       "El posteo de las redes va a salir sin ningún texto. "
+                                       "¿Lo dejo así?"):
+                return
+        if not messagebox.askyesno("Confirmar la campaña", chr(10).join(lineas)):
+            return
+
+        self.run_bg(
+            lambda: avisos_web.programar(nombre, archivo, link=link, desde=desde, hasta=hasta,
+                                         redes=redes, texto=texto, borrar_en_redes=borrar),
+            self._aviso_agregado_ok, busy="Cargando la campaña…")
+
+    def _aviso_agregado_ok(self, res):
+        # `programar()` devuelve {"aviso", "url", "programado"}; el alta simple, la entrada.
+        entry = res.get("aviso", res) if isinstance(res, dict) else res
+        trabajo = res.get("programado") if isinstance(res, dict) else None
         self.set_status("✅ Publicidad agregada: " + entry.get("nombre", ""), "#227a22")
         self.aviso_file = None
         self.aviso_file_var.set("")
         self.aviso_nombre_var.set("")
         self.aviso_link_var.set("")
-        achicado = entry.get("_optimizado") or ""
-        messagebox.showinfo(
-            "Listo",
-            "La publicidad se subió.\n\nEn 1-2 minutos aparece en la web "
-            "(Vercel la está publicando)."
-            + (f"\n\nSe comprimió antes de subirla: {achicado}." if achicado else ""))
+        achicado = (res.get("_optimizado") if isinstance(res, dict) else "") or \
+                   entry.get("_optimizado") or ""
+        partes = []
+        if entry.get("desde"):
+            partes.append("En la web entra el " + entry["desde"][8:10] + "/" +
+                          entry["desde"][5:7] + " a las " + entry["desde"][11:16] + ".")
+        else:
+            partes.append("Ya está en la web (tarda 1-2 minutos en verse).")
+        if entry.get("hasta"):
+            partes.append("Sale sola el " + entry["hasta"][8:10] + "/" +
+                          entry["hasta"][5:7] + " a las " + entry["hasta"][11:16] + ".")
+        if trabajo:
+            redes = " y ".join({"facebook": "Facebook",
+                                "instagram": "Instagram"}[r] for r in trabajo["destinos"])
+            partes.append("El posteo en " + redes + " queda agendado para el " +
+                          trabajo["cuando"][8:10] + "/" + trabajo["cuando"][5:7] +
+                          " a las " + trabajo["cuando"][11:16] +
+                          ". Lo hace la nube, así que sale aunque la PC esté apagada.")
+        if achicado:
+            partes.append("Se comprimió antes de subirla: " + achicado + ".")
+        messagebox.showinfo("Listo", chr(10).join(partes))
         self.on_avisos_refrescar()
 
     def on_aviso_borrar(self):

@@ -148,6 +148,13 @@ def main() -> None:
              "con miniatura (lun-vie 18:00-19:00; uno por corrida, sin vivos ni shorts).",
     )
     parser.add_argument(
+        "--publicidades-programadas",
+        action="store_true",
+        help="Publica en FB/IG las publicidades de clientes cuya hora ya llego, y da de baja "
+             "las que vencieron. La cola la carga el Editor de notas (pestana Publicidades). "
+             "En la WEB no hace falta: cada aviso tiene sus fechas y la web las respeta sola.",
+    )
+    parser.add_argument(
         "--notes-web",
         action="store_true",
         help="SOLO carga las notas del día a la web (Wix), sin tocar FB/IG (corrida de las 7:00).",
@@ -410,6 +417,11 @@ def main() -> None:
         from yt_a_facebook import run_yt_a_facebook
         logger.info(f"Modo --yt-facebook (dry_run={args.dry_run}).")
         run_yt_a_facebook(dry_run=args.dry_run)
+        return
+    if args.publicidades_programadas:
+        import publicidades_programadas
+        logger.info(f"Modo --publicidades-programadas (dry_run={args.dry_run}).")
+        publicidades_programadas.correr(dry=args.dry_run)
         return
     if args.notes_web:
         from carrusel_notas import run_notes_web
