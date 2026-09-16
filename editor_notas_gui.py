@@ -399,71 +399,22 @@ class EditorNotas:
         ttk.Button(top, text="🕒 Agendadas en redes",
                    command=self.on_avisos_programadas).pack(side="right", padx=(0, 6))
 
-        cuerpo = ttk.Frame(f)
-        cuerpo.pack(fill="both", expand=True, padx=12, pady=4)
+        # OJO CON EL ORDEN: el pie y el formulario de alta se empaquetan ANTES que
+        # la lista y contra el fondo (side="bottom"). El packer de Tk reparte en el
+        # orden en que se le pide, asi que lo que va primero se asegura su lugar y
+        # lo que se achica cuando la ventana queda corta es la LISTA, nunca los
+        # botones. Al sumar los campos de programacion, los botones de editar y
+        # borrar habian quedado directamente sin dibujar.
+        pie = ttk.Frame(f)
+        pie.pack(side="bottom", fill="x", padx=12, pady=(0, 8))
+        self.aviso_dir_lbl = ttk.Label(pie, text="", foreground="#777")
+        self.aviso_dir_lbl.pack(side="left")
+        ttk.Button(pie, text="Cambiar carpeta…",
+                   command=self.on_aviso_cambiar_carpeta).pack(side="right")
 
-        # Izquierda: lista de publicidades
-        izq = ttk.Frame(cuerpo)
-        izq.pack(side="left", fill="both", expand=True)
-        ttk.Label(izq, text="Publicidades actuales:").pack(anchor="w")
-        lb_box = ttk.Frame(izq)
-        lb_box.pack(fill="both", expand=True, pady=(2, 0))
-        self.avisos_list = tk.Listbox(lb_box, height=10)
-        self.avisos_list.pack(side="left", fill="both", expand=True)
-        sb = ttk.Scrollbar(lb_box, command=self.avisos_list.yview)
-        self.avisos_list.config(yscrollcommand=sb.set)
-        sb.pack(side="right", fill="y")
-        self.avisos_list.bind("<<ListboxSelect>>", self.on_aviso_seleccion)
-
-        # Derecha: EDITAR la publicidad seleccionada (nombre, link, reemplazar archivo, borrar)
-        der = ttk.LabelFrame(cuerpo, text="  Editar la publicidad seleccionada  ", width=310)
-        der.pack(side="left", fill="y", padx=(12, 0))
-        der.pack_propagate(False)
-        self.aviso_thumb = tk.Label(der, text="(elegí una de la lista)", width=26, height=8,
-                                    bg="#f0f0f0", relief="groove")
-        self.aviso_thumb.pack(pady=(8, 4))
-
-        er_n = ttk.Frame(der)
-        er_n.pack(fill="x", padx=10, pady=2)
-        ttk.Label(er_n, text="Nombre:", width=7).pack(side="left")
-        self.aviso_edit_nombre_var = tk.StringVar()
-        self.aviso_edit_nombre_entry = ttk.Entry(er_n, textvariable=self.aviso_edit_nombre_var,
-                                                  state="disabled")
-        self.aviso_edit_nombre_entry.pack(side="left", fill="x", expand=True)
-        er_l = ttk.Frame(der)
-        er_l.pack(fill="x", padx=10, pady=2)
-        ttk.Label(er_l, text="Link:", width=7).pack(side="left")
-        self.aviso_edit_link_var = tk.StringVar()
-        self.aviso_edit_link_entry = ttk.Entry(er_l, textvariable=self.aviso_edit_link_var,
-                                               state="disabled")
-        self.aviso_edit_link_entry.pack(side="left", fill="x", expand=True)
-
-        self.btn_aviso_reemplazar = ttk.Button(der, text="Reemplazar archivo…",
-                                                command=self.on_aviso_edit_reemplazar,
-                                                state="disabled")
-        self.btn_aviso_reemplazar.pack(anchor="w", padx=10, pady=(4, 0))
-        self.aviso_reemplazo_lbl = ttk.Label(der, text="", foreground=NARANJA,
-                                             wraplength=270, justify="left")
-        self.aviso_reemplazo_lbl.pack(anchor="w", padx=10)
-
-        er_btn = ttk.Frame(der)
-        er_btn.pack(fill="x", padx=10, pady=(8, 8))
-        self.btn_aviso_guardar = tk.Button(er_btn, text="💾  Guardar cambios",
-                                           command=self.on_aviso_guardar, bg=NARANJA, fg="white",
-                                           font=("Segoe UI", 9, "bold"), relief="flat",
-                                           padx=10, pady=6, cursor="hand2", state="disabled")
-        self.btn_aviso_guardar.pack(side="left")
-        self.btn_aviso_borrar = tk.Button(er_btn, text="🗑  Borrar", command=self.on_aviso_borrar,
-                                          bg=ROJO, fg="white", font=("Segoe UI", 9, "bold"),
-                                          relief="flat", padx=10, pady=6, cursor="hand2",
-                                          state="disabled")
-        self.btn_aviso_borrar.pack(side="right")
-
-        ttk.Separator(f, orient="horizontal").pack(fill="x", padx=12, pady=(6, 4))
-
-        # Alta de una publicidad nueva
         alta = ttk.LabelFrame(f, text="  Agregar una publicidad nueva  ")
-        alta.pack(fill="x", padx=12, pady=(0, 8))
+        alta.pack(side="bottom", fill="x", padx=12, pady=(0, 8))
+
         r1 = ttk.Frame(alta)
         r1.pack(fill="x", padx=10, pady=(8, 2))
         ttk.Label(r1, text="Imagen o video:", width=15).pack(side="left")
@@ -471,25 +422,18 @@ class EditorNotas:
         ttk.Entry(r1, textvariable=self.aviso_file_var, state="readonly").pack(
             side="left", fill="x", expand=True)
         ttk.Button(r1, text="Elegir…", command=self.on_aviso_elegir_archivo).pack(side="left", padx=6)
+
         r2 = ttk.Frame(alta)
         r2.pack(fill="x", padx=10, pady=2)
         ttk.Label(r2, text="Nombre:", width=15).pack(side="left")
         self.aviso_nombre_var = tk.StringVar()
         ttk.Entry(r2, textvariable=self.aviso_nombre_var).pack(side="left", fill="x", expand=True)
+
         r3 = ttk.Frame(alta)
         r3.pack(fill="x", padx=10, pady=2)
         ttk.Label(r3, text="Link (opcional):", width=15).pack(side="left")
         self.aviso_link_var = tk.StringVar()
         ttk.Entry(r3, textvariable=self.aviso_link_var).pack(side="left", fill="x", expand=True)
-        ttk.Label(alta, foreground="#777", wraplength=680, justify="left",
-                  text="El link es a dónde va el visitante al tocar el aviso "
-                       "(Instagram, Facebook, la web del comercio, o «tel:2346…»). Se puede dejar vacío.\n"
-                       "La publicidad nueva se muestra PRIMERA (arriba a la izquierda del bloque)."
-                  ).pack(anchor="w", padx=10, pady=(2, 0))
-        # ── programacion (opcional) ──
-        ttk.Separator(alta, orient="horizontal").pack(fill="x", padx=10, pady=(8, 6))
-        ttk.Label(alta, text="Programar la campaña (opcional)",
-                  font=("Segoe UI", 9, "bold")).pack(anchor="w", padx=10)
 
         r4 = ttk.Frame(alta)
         r4.pack(fill="x", padx=10, pady=(4, 2))
@@ -521,16 +465,10 @@ class EditorNotas:
         self.aviso_forma_var = tk.StringVar(value="ancha")
         ttk.Combobox(r5, textvariable=self.aviso_forma_var, width=10, state="readonly",
                      values=("ancha", "cuadrada", "alta")).pack(side="left", padx=(4, 0))
-
-        r5b = ttk.Frame(alta)
-        r5b.pack(fill="x", padx=10, pady=2)
-        ttk.Label(r5b, text="", width=15).pack(side="left")
         self.aviso_fb_var = tk.BooleanVar(value=False)
         self.aviso_ig_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(r5b, text="Facebook", variable=self.aviso_fb_var).pack(side="left")
-        ttk.Checkbutton(r5b, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(10, 0))
-        ttk.Label(r5b, text="   (foto: publicación + historia  /  video: reel + historia)",
-                  foreground="#777").pack(side="left")
+        ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var).pack(side="left", padx=(12, 0))
+        ttk.Checkbutton(r5, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(8, 0))
 
         r6 = ttk.Frame(alta)
         r6.pack(fill="x", padx=10, pady=2)
@@ -538,13 +476,13 @@ class EditorNotas:
         self.aviso_texto_var = tk.StringVar()
         ttk.Entry(r6, textvariable=self.aviso_texto_var).pack(side="left", fill="x", expand=True)
 
-        ttk.Label(alta, foreground="#777", wraplength=680, justify="left",
-                  text="Fechas en dd/mm/aaaa y horas en hh:mm. Si dejás «Sale el» vacío, "
-                       "el aviso entra ya mismo. Si dejás «Termina el» vacío, no termina nunca.\n"
-                       "Los tres destinos son independientes: podés mandar a la web, a las redes, "
-                       "o a las tres cosas. La web acepta cualquier archivo, del tamaño que sea.\n"
-                       "La fecha de fin es un FRENO: la campaña deja de salir y el aviso sale de la "
-                       "web sola. Lo que ya se posteó en Facebook e Instagram NO se borra."
+        ttk.Label(alta, foreground="#777", wraplength=700, justify="left",
+                  text="Fechas con el botón 📅 o a mano en dd/mm/aaaa. «Sale el» vacío = entra ya; "
+                       "«Termina el» vacío = no termina nunca.\n"
+                       "Los tres destinos son independientes. En redes, una foto sale como "
+                       "publicación + historia y un video como reel + historia.\n"
+                       "La fecha de fin es un FRENO: deja de salir y el aviso se va de la web. "
+                       "Lo ya posteado en Facebook e Instagram no se borra."
                   ).pack(anchor="w", padx=10, pady=(2, 0))
 
         self.btn_aviso_agregar = tk.Button(alta, text="➕  Agregar y publicar",
@@ -553,12 +491,44 @@ class EditorNotas:
                                            padx=14, pady=8, cursor="hand2")
         self.btn_aviso_agregar.pack(anchor="w", padx=10, pady=(6, 10))
 
-        # Pie: carpeta de la web
-        pie = ttk.Frame(f)
-        pie.pack(fill="x", padx=12, pady=(0, 8))
-        self.aviso_dir_lbl = ttk.Label(pie, text="", foreground="#777")
-        self.aviso_dir_lbl.pack(side="left")
-        ttk.Button(pie, text="Cambiar carpeta…", command=self.on_aviso_cambiar_carpeta).pack(side="right")
+        ttk.Separator(f, orient="horizontal").pack(side="bottom", fill="x", padx=12, pady=(6, 4))
+
+        # ── la lista, con lo que sobre de alto ──
+        cuerpo = ttk.Frame(f)
+        cuerpo.pack(fill="both", expand=True, padx=12, pady=4)
+
+        izq = ttk.Frame(cuerpo)
+        izq.pack(side="left", fill="both", expand=True)
+        ttk.Label(izq, text="Publicidades actuales (doble clic para editarla):").pack(anchor="w")
+        lb_box = ttk.Frame(izq)
+        lb_box.pack(fill="both", expand=True, pady=(2, 0))
+        self.avisos_list = tk.Listbox(lb_box, height=6)
+        self.avisos_list.pack(side="left", fill="both", expand=True)
+        sb = ttk.Scrollbar(lb_box, command=self.avisos_list.yview)
+        self.avisos_list.config(yscrollcommand=sb.set)
+        sb.pack(side="right", fill="y")
+        self.avisos_list.bind("<<ListboxSelect>>", self.on_aviso_seleccion)
+        self.avisos_list.bind("<Double-Button-1>", lambda _e: self.on_aviso_editar())
+
+        acciones = ttk.Frame(izq)
+        acciones.pack(fill="x", pady=(6, 0))
+        self.btn_aviso_editar = tk.Button(acciones, text="✏️  Editar / cambiar la imagen",
+                                          command=self.on_aviso_editar, bg=NARANJA, fg="white",
+                                          font=("Segoe UI", 9, "bold"), relief="flat",
+                                          padx=10, pady=6, cursor="hand2", state="disabled")
+        self.btn_aviso_editar.pack(side="left")
+        self.btn_aviso_borrar = tk.Button(acciones, text="🗑  Borrar", command=self.on_aviso_borrar,
+                                          bg=ROJO, fg="white", font=("Segoe UI", 9, "bold"),
+                                          relief="flat", padx=10, pady=6, cursor="hand2",
+                                          state="disabled")
+        self.btn_aviso_borrar.pack(side="left", padx=(8, 0))
+
+        der = ttk.Frame(cuerpo, width=250)
+        der.pack(side="left", fill="y", padx=(12, 0))
+        der.pack_propagate(False)
+        self.aviso_thumb = tk.Label(der, text="(elegí una de la lista)", width=24, height=7,
+                                    bg="#f0f0f0", relief="groove")
+        self.aviso_thumb.pack(pady=(18, 4))
 
         self.on_avisos_refrescar()
 
@@ -707,17 +677,12 @@ class EditorNotas:
         self.set_status(f"{len(data)} publicidad/es en la web.", "#227a22")
 
     def _reset_aviso_edit(self):
-        """Deja el formulario de edición vacío y deshabilitado (nada seleccionado)."""
+        """Nada seleccionado: botones apagados y vista previa en blanco."""
         self.aviso_edit_idx = None
         self.aviso_edit_reemplazo = None
-        self.aviso_edit_nombre_var.set("")
-        self.aviso_edit_link_var.set("")
-        self.aviso_reemplazo_lbl.config(text="")
-        self.aviso_thumb.config(image="", text="(elegí una de la lista)", width=26, height=8)
+        self.aviso_thumb.config(image="", text="(elegí una de la lista)", width=24, height=7)
         self._aviso_thumb_ref = None
-        for w in (self.aviso_edit_nombre_entry, self.aviso_edit_link_entry):
-            w.config(state="disabled")
-        for b in (self.btn_aviso_reemplazar, self.btn_aviso_guardar, self.btn_aviso_borrar):
+        for b in (self.btn_aviso_editar, self.btn_aviso_borrar):
             b.config(state="disabled")
 
     def on_aviso_seleccion(self, _evt=None):
@@ -727,18 +692,9 @@ class EditorNotas:
         idx = sel[0]
         a = self.avisos_data[idx]
         self.aviso_edit_idx = idx
-        self.aviso_edit_reemplazo = None
-        self.aviso_reemplazo_lbl.config(text="")
-        # Prellenar y habilitar el formulario
-        self.aviso_edit_nombre_entry.config(state="normal")
-        self.aviso_edit_link_entry.config(state="normal")
-        self.aviso_edit_nombre_var.set(a.get("nombre", ""))
-        self.aviso_edit_link_var.set(a.get("link", ""))
-        self.btn_aviso_reemplazar.config(state="normal")
-        self.btn_aviso_guardar.config(state="normal")
+        self.btn_aviso_editar.config(state="normal")
         self.btn_aviso_borrar.config(state="normal")
-        # Vista previa (imagen o cuadro del video)
-        self.aviso_thumb.config(image="", text="⏳", width=26, height=8)
+        self.aviso_thumb.config(image="", text="⏳", width=24, height=7)
         self._aviso_thumb_ref = None
         if a.get("_es_video"):
             self.run_bg(lambda: self._thumb_video(a.get("_archivo")),
@@ -747,61 +703,150 @@ class EditorNotas:
             self.run_bg(lambda: self._miniatura(a.get("_archivo"), False),
                         self._set_aviso_thumb, busy="Cargando imagen…")
 
-    def on_aviso_edit_reemplazar(self):
-        if self.aviso_edit_idx is None:
-            return
-        ruta = filedialog.askopenfilename(
-            title="Elegí el archivo nuevo (reemplaza el actual)",
-            filetypes=[("Imágenes y video", "*.jpg *.jpeg *.png *.webp *.gif *.mp4 *.webm"),
-                       ("Imágenes", "*.jpg *.jpeg *.png *.webp *.gif"),
-                       ("Video", "*.mp4 *.webm"),
-                       ("Todos", "*.*")])
-        if not ruta:
-            return
-        self.aviso_edit_reemplazo = ruta
-        self.aviso_reemplazo_lbl.config(text="Archivo nuevo: " + Path(ruta).name)
-        # Vista previa del reemplazo
-        self.aviso_thumb.config(image="", text="⏳", width=26, height=8)
-        self._aviso_thumb_ref = None
-        if Path(ruta).suffix.lower() in (".mp4", ".webm", ".mov"):
-            self.run_bg(lambda: self._thumb_video(ruta), self._set_aviso_thumb,
-                        busy="Extrayendo un cuadro del video…")
-        else:
-            self.run_bg(lambda: self._miniatura(ruta, False), self._set_aviso_thumb,
-                        busy="Cargando imagen…")
+    @staticmethod
+    def _iso_a_campos(iso):
+        """«2026-09-20T08:00:00-03:00» -> («20/09/2026», «08:00»). Vacío -> («», «»)."""
+        iso = (iso or "").strip()
+        if len(iso) < 16:
+            return "", ""
+        return iso[8:10] + "/" + iso[5:7] + "/" + iso[0:4], iso[11:16]
 
-    def on_aviso_guardar(self):
-        if self.aviso_edit_idx is None:
-            return
+    def on_aviso_editar(self):
+        """Ventana para cambiar una publicidad ya cargada.
+
+        Tiene los MISMOS campos que el alta —archivo, nombre, link, forma y las dos
+        fechas con calendario— porque cambiar un aviso y cargarlo son la misma
+        tarea vista de dos lados. Antes esto vivía apretado en un panel al costado
+        y, al crecer el formulario de abajo, sus botones dejaron de dibujarse.
+        """
         idx = self.aviso_edit_idx
+        if idx is None:
+            messagebox.showinfo("Elegí una", "Primero seleccioná una publicidad de la lista.")
+            return
         actual = self.avisos_data[idx]
         nombre_orig = actual.get("nombre", "")
-        nombre = self.aviso_edit_nombre_var.get().strip()
-        link = self.aviso_edit_link_var.get().strip()
-        reemplazo = self.aviso_edit_reemplazo
-        if not nombre:
-            messagebox.showinfo("Falta el nombre", "La publicidad necesita un nombre.")
-            return
-        # ¿Cambió algo?
-        if (not reemplazo and nombre == nombre_orig and link == (actual.get("link", "") or "")):
-            messagebox.showinfo("Sin cambios", "No cambiaste nada para guardar.")
-            return
-        cambios = []
-        if nombre != nombre_orig:
-            cambios.append("• el nombre")
-        if link != (actual.get("link", "") or ""):
-            cambios.append("• el link")
-        if reemplazo:
-            cambios.append("• el archivo (reemplazo)")
-        if not messagebox.askyesno(
-                "Guardar cambios",
-                f"¿Guardo estos cambios en «{nombre_orig}» y los publico?\n\n"
-                + "\n".join(cambios) + "\n\nAparece en la web en 1-2 minutos."):
-            return
-        self.run_bg(
-            lambda: avisos_web.editar_aviso(idx, nombre_orig, nombre, link,
-                                            nuevo_archivo=reemplazo),
-            self._aviso_editado_ok, busy="Guardando los cambios…")
+
+        win = tk.Toplevel(self.root)
+        win.title("Editar: " + nombre_orig)
+        win.geometry("560x420")
+        win.transient(self.root)
+        win.grab_set()
+
+        estado = {"reemplazo": None}
+
+        ttk.Label(win, text="Editar «" + nombre_orig + "»",
+                  font=("Segoe UI", 10, "bold")).pack(anchor="w", padx=14, pady=(14, 8))
+
+        f1 = ttk.Frame(win)
+        f1.pack(fill="x", padx=14, pady=3)
+        ttk.Label(f1, text="Imagen o video:", width=16).pack(side="left")
+        v_archivo = tk.StringVar(value="(el que ya tiene)")
+        ttk.Entry(f1, textvariable=v_archivo, state="readonly").pack(
+            side="left", fill="x", expand=True)
+
+        def reemplazar():
+            ruta = filedialog.askopenfilename(
+                parent=win, title="Elegí la imagen o el video nuevo",
+                filetypes=[("Imágenes y video", "*.jpg *.jpeg *.png *.webp *.gif *.mp4 *.webm"),
+                           ("Imágenes", "*.jpg *.jpeg *.png *.webp *.gif"),
+                           ("Video", "*.mp4 *.webm"),
+                           ("Todos", "*.*")])
+            if not ruta:
+                return
+            estado["reemplazo"] = ruta
+            v_archivo.set(Path(ruta).name)
+
+        ttk.Button(f1, text="Cambiar…", command=reemplazar).pack(side="left", padx=6)
+
+        f2 = ttk.Frame(win)
+        f2.pack(fill="x", padx=14, pady=3)
+        ttk.Label(f2, text="Nombre:", width=16).pack(side="left")
+        v_nombre = tk.StringVar(value=nombre_orig)
+        ttk.Entry(f2, textvariable=v_nombre).pack(side="left", fill="x", expand=True)
+
+        f3 = ttk.Frame(win)
+        f3.pack(fill="x", padx=14, pady=3)
+        ttk.Label(f3, text="Link:", width=16).pack(side="left")
+        v_link = tk.StringVar(value=actual.get("link", "") or "")
+        ttk.Entry(f3, textvariable=v_link).pack(side="left", fill="x", expand=True)
+
+        f4 = ttk.Frame(win)
+        f4.pack(fill="x", padx=14, pady=3)
+        ttk.Label(f4, text="Forma:", width=16).pack(side="left")
+        v_forma = tk.StringVar(value=actual.get("forma", "ancha") or "ancha")
+        ttk.Combobox(f4, textvariable=v_forma, width=12, state="readonly",
+                     values=("ancha", "cuadrada", "alta")).pack(side="left")
+
+        df, dh = self._iso_a_campos(actual.get("desde"))
+        hf, hh = self._iso_a_campos(actual.get("hasta"))
+        v_df, v_dh = tk.StringVar(value=df), tk.StringVar(value=dh or "08:00")
+        v_hf, v_hh = tk.StringVar(value=hf), tk.StringVar(value=hh or "23:59")
+
+        f5 = ttk.Frame(win)
+        f5.pack(fill="x", padx=14, pady=(8, 3))
+        ttk.Label(f5, text="Sale el:", width=16).pack(side="left")
+        ttk.Entry(f5, textvariable=v_df, width=12).pack(side="left")
+        bd = ttk.Button(f5, text="📅", width=3)
+        bd.config(command=lambda: calendario_tk.elegir(win, v_df, bd))
+        bd.pack(side="left", padx=(2, 0))
+        ttk.Label(f5, text=" a las ").pack(side="left")
+        ttk.Entry(f5, textvariable=v_dh, width=7).pack(side="left")
+
+        f6 = ttk.Frame(win)
+        f6.pack(fill="x", padx=14, pady=3)
+        ttk.Label(f6, text="Termina el:", width=16).pack(side="left")
+        ttk.Entry(f6, textvariable=v_hf, width=12).pack(side="left")
+        bh = ttk.Button(f6, text="📅", width=3)
+        bh.config(command=lambda: calendario_tk.elegir(win, v_hf, bh))
+        bh.pack(side="left", padx=(2, 0))
+        ttk.Label(f6, text=" a las ").pack(side="left")
+        ttk.Entry(f6, textvariable=v_hh, width=7).pack(side="left")
+
+        ttk.Label(win, foreground="#777", wraplength=520, justify="left",
+                  text="Dejá las fechas vacías para que el aviso quede fijo, sin fecha de "
+                       "entrada ni de salida. Cambiar la imagen sube la nueva, borra la "
+                       "vieja y deja el aviso en el mismo lugar de la lista."
+                  ).pack(anchor="w", padx=14, pady=(10, 0))
+
+        pie = ttk.Frame(win)
+        pie.pack(fill="x", padx=14, pady=14)
+
+        def guardar():
+            nombre = v_nombre.get().strip()
+            if not nombre:
+                messagebox.showinfo("Falta el nombre",
+                                    "La publicidad necesita un nombre.", parent=win)
+                return
+            try:
+                desde = self._fecha_iso(v_df, v_dh, "Sale el")
+                hasta = self._fecha_iso(v_hf, v_hh, "Termina el")
+            except ValueError as e:
+                messagebox.showerror("Fecha mal escrita", str(e), parent=win)
+                return
+            if desde and hasta and hasta <= desde:
+                messagebox.showerror("Fechas al revés",
+                                     "Termina antes de empezar.", parent=win)
+                return
+            win.destroy()
+            self.run_bg(
+                lambda: avisos_web.editar_aviso(
+                    idx, nombre_orig, nombre, v_link.get().strip(),
+                    nuevo_archivo=estado["reemplazo"], forma=v_forma.get(),
+                    desde=desde, hasta=hasta, tocar_fechas=True),
+                self._aviso_editado_ok, busy="Guardando los cambios…")
+
+        def borrar():
+            win.destroy()
+            self.on_aviso_borrar()
+
+        tk.Button(pie, text="💾  Guardar", command=guardar, bg=NARANJA, fg="white",
+                  font=("Segoe UI", 9, "bold"), relief="flat", padx=12, pady=6,
+                  cursor="hand2").pack(side="left")
+        tk.Button(pie, text="🗑  Borrar", command=borrar, bg=ROJO, fg="white",
+                  font=("Segoe UI", 9, "bold"), relief="flat", padx=12, pady=6,
+                  cursor="hand2").pack(side="left", padx=(8, 0))
+        ttk.Button(pie, text="Cancelar", command=win.destroy).pack(side="right")
+        win.bind("<Escape>", lambda _e: win.destroy())
 
     def _aviso_editado_ok(self, nueva):
         self.set_status("✅ Publicidad actualizada: " + nueva.get("nombre", ""), "#227a22")
