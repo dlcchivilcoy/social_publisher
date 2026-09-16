@@ -213,12 +213,19 @@ def publish_story(image_path: Path) -> dict:
     return {"success": True, "id": data.get("post_id") or data.get("id")}
 
 
-def publish_video(message: str, video_path: Path) -> dict:
-    """Publica un REEL en la Página. Intenta primero la API de REELS
-    (/{page}/video_reels, 3 fases) para que salga como Reel de verdad (mejor alcance,
-    aparece en la pestaña Reels). Si falla (elegibilidad, error de la API), cae al
-    método clásico /{page}/videos (video común) para no perder el posteo."""
+def publish_video(message: str, video_path: Path, preferir_reel: bool = True) -> dict:
+    """Publica un video en la Página. Con `preferir_reel` (el default) intenta primero
+    la API de REELS (/{page}/video_reels, 3 fases) para que salga como Reel de verdad
+    (mejor alcance, aparece en la pestaña Reels), y si falla cae al método clásico
+    /{page}/videos para no perder el posteo.
+
+    `preferir_reel=False` va derecho al video común: es lo que corresponde para un
+    video HORIZONTAL, que como reel saldría con bandas negras a los costados."""
     video_path = Path(video_path)
+    if not preferir_reel:
+        out = _publish_video_clasico(message, video_path)
+        logger.debug(f"Facebook video horizontal id={out.get('id')}")
+        return out
     try:
         out = _publish_reel(message, video_path)
         logger.debug(f"Facebook REEL id={out.get('id')}")

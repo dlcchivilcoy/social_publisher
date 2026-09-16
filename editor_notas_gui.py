@@ -470,6 +470,9 @@ class EditorNotas:
         ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var).pack(side="left", padx=(12, 0))
         ttk.Checkbutton(r5, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(8, 0))
 
+        self.aviso_medida_lbl = ttk.Label(alta, text="", foreground=NARANJA)
+        self.aviso_medida_lbl.pack(anchor="w", padx=10, pady=(2, 0))
+
         r6 = ttk.Frame(alta)
         r6.pack(fill="x", padx=10, pady=2)
         ttk.Label(r6, text="Texto del posteo:", width=15).pack(side="left")
@@ -737,6 +740,8 @@ class EditorNotas:
         ttk.Label(win, text="Editar «" + nombre_orig + "»",
                   font=("Segoe UI", 10, "bold")).pack(anchor="w", padx=14, pady=(14, 8))
 
+        lbl_medida = ttk.Label(win, text="", foreground=NARANJA)
+
         f1 = ttk.Frame(win)
         f1.pack(fill="x", padx=14, pady=3)
         ttk.Label(f1, text="Imagen o video:", width=16).pack(side="left")
@@ -755,6 +760,12 @@ class EditorNotas:
                 return
             estado["reemplazo"] = ruta
             v_archivo.set(Path(ruta).name)
+            m = avisos_web.medir(ruta)
+            if m.get("ancho"):
+                v_forma.set(m["forma"])
+                lbl_medida.config(
+                    text="Detectado: " + str(m["ancho"]) + "×" + str(m["alto"]) +
+                         " (" + m["orientacion"] + ")  →  forma «" + m["forma"] + "»")
 
         ttk.Button(f1, text="Cambiar…", command=reemplazar).pack(side="left", padx=6)
 
@@ -776,6 +787,7 @@ class EditorNotas:
         v_forma = tk.StringVar(value=actual.get("forma", "ancha") or "ancha")
         ttk.Combobox(f4, textvariable=v_forma, width=12, state="readonly",
                      values=("ancha", "cuadrada", "alta")).pack(side="left")
+        lbl_medida.pack(anchor="w", padx=14, pady=(2, 0))
 
         df, dh = self._iso_a_campos(actual.get("desde"))
         hf, hh = self._iso_a_campos(actual.get("hasta"))
@@ -888,6 +900,23 @@ class EditorNotas:
         if not self.aviso_nombre_var.get().strip():
             sugerido = Path(ruta).stem.replace("-", " ").replace("_", " ").strip().title()
             self.aviso_nombre_var.set(sugerido)
+        # Medir la pieza y acomodar la forma sola. Se puede cambiar a mano después:
+        # el combo queda habilitado, esto solo pone el valor que corresponde.
+        self.aviso_medida_lbl.config(text="Midiendo la pieza…")
+        self.run_bg(lambda: avisos_web.medir(ruta), self._aviso_medido,
+                    busy="Midiendo la pieza…")
+
+    def _aviso_medido(self, m):
+        if not m or not m.get("ancho"):
+            self.aviso_medida_lbl.config(
+                text="No pude medir la pieza; dejo la forma en «" +
+                     self.aviso_forma_var.get() + "». Elegila a mano si no es esa.")
+            return
+        self.aviso_forma_var.set(m["forma"])
+        self.aviso_medida_lbl.config(
+            text="Detectado: " + str(m["ancho"]) + "×" + str(m["alto"]) + " (" +
+                 m["orientacion"] + ")  →  forma «" + m["forma"] + "»  ·  en redes: " +
+                 avisos_web.como_sale(m))
 
     def _fecha_iso(self, var_fecha, var_hora, etiqueta):
         """dd/mm/aaaa + hh:mm  ->  ISO con el huso de Argentina. Vacío da None.

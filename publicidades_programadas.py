@@ -86,7 +86,8 @@ def guardar(trabajos: list[dict]) -> None:
 
 
 def agregar(nombre: str, tipo: str, url: str, texto: str, cuando: str,
-            destinos: list[str], baja: str | None = None) -> dict:
+            destinos: list[str], baja: str | None = None,
+            orientacion: str = "") -> dict:
     """Mete una campaña en la cola. `cuando` y `baja` van en ISO con huso."""
     if tipo not in ("foto", "video"):
         raise ValueError("El tipo tiene que ser «foto» o «video».")
@@ -104,6 +105,7 @@ def agregar(nombre: str, tipo: str, url: str, texto: str, cuando: str,
         "cuando": cuando,
         "destinos": destinos,
         "baja": baja,
+        "orientacion": orientacion,      # horizontal / vertical / cuadrada
         "estado": "pendiente",
         "creado": ahora().isoformat(timespec="minutes"),
         "intentos": 0,
@@ -165,7 +167,11 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
                 ids["fb_post"] = _id(facebook.publish(texto, pieza))
                 ids["fb_historia"] = _id(facebook.publish_story(pieza))
             else:
-                ids["fb_post"] = _id(facebook.publish_video(texto, pieza))
+                # Un video horizontal como reel saldria con bandas negras: va como
+                # video comun del muro. El vertical si es reel.
+                horizontal = trabajo.get("orientacion") == "horizontal"
+                ids["fb_post"] = _id(facebook.publish_video(
+                    texto, pieza, preferir_reel=not horizontal))
                 ids["fb_historia"] = _id(facebook.publish_video_story(pieza))
         except Exception as e:                                   # noqa: BLE001
             fallas.append(f"Facebook: {e}")

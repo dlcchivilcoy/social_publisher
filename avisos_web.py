@@ -572,7 +572,7 @@ def subir_pieza(nombre: str, archivo: str) -> tuple[str, str]:
     return fname, detalle
 
 
-def programar(nombre: str, archivo: str, forma: str = "ancha", link: str = "",
+def programar(nombre: str, archivo: str, forma: str = "", link: str = "",
               desde: str | None = None, hasta: str | None = None,
               en_web: bool = True, redes: list[str] | None = None,
               texto: str = "") -> dict:
@@ -589,6 +589,11 @@ def programar(nombre: str, archivo: str, forma: str = "ancha", link: str = "",
     redes = [r for r in (redes or []) if r]
     if not en_web and not redes:
         raise ValueError("Elegí al menos un destino: la web, Facebook o Instagram.")
+
+    # Se mide una sola vez: de acá sale la forma (si no la eligieron a mano) y la
+    # orientación, que es lo que después decide reel o video común en Facebook.
+    medida = medir(archivo)
+    forma = forma or medida["forma"]
 
     if en_web:
         entry = agregar_aviso(nombre, archivo, link, forma, desde=desde, hasta=hasta)
@@ -607,7 +612,7 @@ def programar(nombre: str, archivo: str, forma: str = "ancha", link: str = "",
             entry["hasta"] = hasta
 
     url = _base_web() + rel
-    salida = {"aviso": entry, "url": url, "en_web": en_web,
+    salida = {"aviso": entry, "url": url, "en_web": en_web, "medida": medida,
               "programado": None, "_optimizado": detalle}
 
     if redes:
@@ -617,6 +622,7 @@ def programar(nombre: str, archivo: str, forma: str = "ancha", link: str = "",
             nombre=nombre,
             tipo="video" if es_video else "foto",
             url=url, texto=texto, cuando=cuando, destinos=redes, baja=hasta,
+            orientacion=medida["orientacion"],
         )
         pp.publicar_cola()
     return salida
@@ -784,3 +790,66 @@ def cancelar_programada(id_: str, borrar_archivo: bool = False) -> dict:
         except ValueError:
             pass          # lo usa un aviso de la web: se deja
     return salida
+
+
+# ── medir la pieza ───────────────────────────────────────────────────────────
+# Con el ancho y el alto alcanza para decidir dos cosas que antes se elegían a
+# mano (o se dejaban mal): en qué hueco de la web encaja el aviso, y si en las
+# redes le corresponde un reel o un posteo de video común.
+def medir(archivo) -> dict:
+    """Devuelve ancho, alto, orientación y la forma que le corresponde.
+
+    Si no se puede medir (formato raro, archivo dañado), devuelve ceros y forma
+    «ancha», que es el valor con el que venía todo: medir es una ayuda, nunca un
+    motivo para que una carga falle.
+    """
+    src = Path(archivo)
+    es_video = src.suffix.lower() in VIDEO_EXTS
+    ancho = alto = 0
+    try:
+        if es_video:
+            ancho, alto = _medir_video(src)
+        else:
+            from PIL import Image
+            with Image.open(src) as im:
+                ancho, alto = im.size
+    except Exception:
+        ancho = alto = 0
+
+    if ancho > 0 and alto > 0:
+        prop = ancho / alto
+        if prop >= 1.25:
+            forma, orientacion = "ancha", "horizontal"
+        elif prop <= 0.85:
+            forma, orientacion = "alta", "vertical"
+        else:
+            forma, orientacion = "cuadrada", "cuadrada"
+    else:
+        prop, forma, orientacion = 0.0, "ancha", "desconocida"
+
+    return {"ancho": ancho, "alto": alto, "es_video": es_video,
+            "proporcion": round(prop, 3), "forma": forma, "orientacion": orientacion}
+
+
+def _medir_video(src: Path) -> tuple[int, int]:
+    """Ancho y alto de un video. imageio-ffmpeg trae ffmpeg pero NO ffprobe, así
+    que se lee de lo que ffmpeg escribe en stderr al abrir el archivo."""
+    import re
+    r = subprocess.run([_ffmpeg_exe(), "-i", str(src)],
+                       capture_output=True, text=True, timeout=60)
+    for linea in (r.stderr or "").splitlines():
+        if "Video:" not in linea:
+            continue
+        m = re.search(r"(?<![\d])(\d{2,5})x(\d{2,5})(?![\d])", linea)
+        if m:
+            return int(m.group(1)), int(m.group(2))
+    return 0, 0
+
+
+def como_sale(medida: dict) -> str:
+    """Una línea en castellano de cómo va a salir la pieza en las redes."""
+    if not medida.get("es_video"):
+        return "publicación + historia"
+    if medida.get("orientacion") == "horizontal":
+        return "video en el muro + historia (horizontal: no da para reel)"
+    return "reel + historia"
