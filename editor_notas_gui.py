@@ -21,6 +21,7 @@ from tkinter import ttk, filedialog, messagebox
 from utils.config import load_config
 from platforms import wix
 import avisos_web
+import calendario_tk
 
 NARANJA = "#e2620c"
 ROJO = "#b00020"
@@ -493,12 +494,18 @@ class EditorNotas:
         ttk.Label(r4, text="Sale el:", width=15).pack(side="left")
         self.aviso_desde_f = tk.StringVar()
         ttk.Entry(r4, textvariable=self.aviso_desde_f, width=12).pack(side="left")
+        b_desde = ttk.Button(r4, text="📅", width=3)
+        b_desde.config(command=lambda: calendario_tk.elegir(self.root, self.aviso_desde_f, b_desde))
+        b_desde.pack(side="left", padx=(2, 0))
         ttk.Label(r4, text=" a las ").pack(side="left")
         self.aviso_desde_h = tk.StringVar(value="08:00")
         ttk.Entry(r4, textvariable=self.aviso_desde_h, width=7).pack(side="left")
         ttk.Label(r4, text="      Termina el:").pack(side="left")
         self.aviso_hasta_f = tk.StringVar()
         ttk.Entry(r4, textvariable=self.aviso_hasta_f, width=12).pack(side="left", padx=(6, 0))
+        b_hasta = ttk.Button(r4, text="📅", width=3)
+        b_hasta.config(command=lambda: calendario_tk.elegir(self.root, self.aviso_hasta_f, b_hasta))
+        b_hasta.pack(side="left", padx=(2, 0))
         ttk.Label(r4, text=" a las ").pack(side="left")
         self.aviso_hasta_h = tk.StringVar(value="23:59")
         ttk.Entry(r4, textvariable=self.aviso_hasta_h, width=7).pack(side="left")
