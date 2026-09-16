@@ -396,6 +396,8 @@ class EditorNotas:
         ttk.Button(top, text="↻ Actualizar", command=self.on_avisos_refrescar).pack(side="right")
         ttk.Button(top, text="🧹 Limpiar vencidas",
                    command=self.on_avisos_limpiar).pack(side="right", padx=(0, 6))
+        ttk.Button(top, text="🕒 Agendadas en redes",
+                   command=self.on_avisos_programadas).pack(side="right", padx=(0, 6))
 
         cuerpo = ttk.Frame(f)
         cuerpo.pack(fill="both", expand=True, padx=12, pady=4)
@@ -560,6 +562,90 @@ class EditorNotas:
 
         self.on_avisos_refrescar()
 
+    def on_avisos_programadas(self):
+        """Ventana con los posteos agendados en Facebook e Instagram.
+
+        Existe porque una campaña que va SOLO a redes no aparece en la lista de
+        anunciantes (no está en el JSON de la web), y sin esto no habría forma de
+        verla ni de cancelarla.
+        """
+        self.run_bg(avisos_web.programadas, self._ventana_programadas,
+                    busy="Leyendo los posteos agendados…")
+
+    def _ventana_programadas(self, trabajos):
+        win = tk.Toplevel(self.root)
+        win.title("Posteos agendados en redes")
+        win.geometry("620x360")
+        win.transient(self.root)
+
+        ttk.Label(win, text="Posteos agendados en Facebook e Instagram",
+                  font=("Segoe UI", 10, "bold")).pack(anchor="w", padx=12, pady=(12, 2))
+        ttk.Label(win, foreground="#777", wraplength=580, justify="left",
+                  text="Cancelar saca el posteo de la cola: si todavía no salió, no sale. "
+                       "Lo que YA se publicó no se puede borrar desde acá — eso se saca "
+                       "a mano desde la red."
+                  ).pack(anchor="w", padx=12, pady=(0, 6))
+
+        caja = ttk.Frame(win)
+        caja.pack(fill="both", expand=True, padx=12)
+        lista = tk.Listbox(caja, height=12)
+        lista.pack(side="left", fill="both", expand=True)
+        sb = ttk.Scrollbar(caja, command=lista.yview)
+        lista.config(yscrollcommand=sb.set)
+        sb.pack(side="right", fill="y")
+
+        ESTADOS = {"pendiente": "agendado", "publicado": "ya salió",
+                   "bajado": "terminado", "vencido": "venció sin salir", "error": "falló"}
+        for t_ in trabajos:
+            cuando = (t_.get("cuando") or "")
+            redes = ", ".join({"facebook": "Facebook",
+                               "instagram": "Instagram"}.get(r, r) for r in t_.get("destinos", []))
+            linea = (cuando[8:10] + "/" + cuando[5:7] + " " + cuando[11:16] + "   " +
+                     t_.get("nombre", "(sin nombre)") + "   ·   " + redes + "   ·   " +
+                     ESTADOS.get(t_.get("estado"), t_.get("estado", "")))
+            if not t_.get("_en_web"):
+                linea += "   (solo redes)"
+            lista.insert("end", linea)
+        if not trabajos:
+            lista.insert("end", "  No hay ningún posteo agendado.")
+
+        pie = ttk.Frame(win)
+        pie.pack(fill="x", padx=12, pady=10)
+
+        def cancelar():
+            sel = lista.curselection()
+            if not sel or not trabajos:
+                return
+            t_ = trabajos[sel[0]]
+            if t_.get("estado") != "pendiente":
+                messagebox.showinfo(
+                    "Ya no está agendado",
+                    "Ese posteo está como «" + ESTADOS.get(t_.get("estado"), "") +
+                    "», así que no hay nada que cancelar. Si ya salió y lo querés sacar, "
+                    "hay que hacerlo desde Facebook o Instagram.", parent=win)
+                return
+            solo_redes = not t_.get("_en_web")
+            pregunta = ("¿Cancelo el posteo agendado de «" + t_.get("nombre", "") + "»?"
+                        + chr(10) + chr(10) + "No va a salir en las redes.")
+            if solo_redes:
+                pregunta += (chr(10) + chr(10) + "Como esta campaña no está cargada en la "
+                             "web, también borro su archivo del sistema.")
+            if not messagebox.askyesno("Cancelar el posteo", pregunta, parent=win):
+                return
+            try:
+                avisos_web.cancelar_programada(t_["id"], borrar_archivo=solo_redes)
+            except Exception as e:                                   # noqa: BLE001
+                messagebox.showerror("No se pudo", str(e), parent=win)
+                return
+            win.destroy()
+            self.set_status("🗑 Posteo agendado cancelado: " + t_.get("nombre", ""), ROJO)
+            self.on_avisos_refrescar()
+
+        tk.Button(pie, text="🗑  Cancelar el seleccionado", command=cancelar,
+                  bg=ROJO, fg="white", font=("Segoe UI", 9, "bold"), relief="flat",
+                  padx=10, pady=6, cursor="hand2").pack(side="left")
+        ttk.Button(pie, text="Cerrar", command=win.destroy).pack(side="right")
+
     def on_avisos_limpiar(self):
         """Saca de la web las campañas que ya terminaron, con su archivo.
 
@@ -603,6 +689,14 @@ class EditorNotas:
                 etiqueta += "  🎬"
             if a.get("link"):
                 etiqueta += "  🔗"
+            estado = a.get("_estado")
+            if estado == "programada":
+                etiqueta += "   🕒 sale el " + (a.get("desde") or "")[8:10] + "/" + \
+                            (a.get("desde") or "")[5:7]
+            elif estado == "vencida":
+                etiqueta += "   ⏸ vencida"
+            elif a.get("hasta"):
+                etiqueta += "   hasta el " + a["hasta"][8:10] + "/" + a["hasta"][5:7]
             self.avisos_list.insert("end", etiqueta)
         self._reset_aviso_edit()
         try:
@@ -881,19 +975,23 @@ class EditorNotas:
             return
         a = self.avisos_data[idx]
         nombre = a.get("nombre", "")
-        if not messagebox.askyesno(
-                "Borrar publicidad",
-                f"¿Seguro que querés BORRAR la publicidad «{nombre}» de la web?\n\n"
-                "Se saca del sitio; en 1-2 minutos deja de verse."):
+        aviso = ("¿Seguro que querés BORRAR la publicidad «" + nombre + "»?" + chr(10) + chr(10)
+                 + "Se saca de la web ya mismo (en 1-2 minutos deja de verse) y se "
+                 "cancela cualquier posteo que tuviera agendado en las redes." + chr(10) + chr(10)
+                 + "Lo que YA se haya publicado en Facebook o Instagram no se toca.")
+        if not messagebox.askyesno("Borrar publicidad", aviso):
             return
         self.run_bg(lambda: avisos_web.borrar_aviso(idx, nombre_esperado=nombre),
                     self._aviso_borrado_ok, busy="Borrando la publicidad…")
 
     def _aviso_borrado_ok(self, quitado):
         self.set_status("🗑 Publicidad borrada: " + quitado.get("nombre", ""), ROJO)
-        messagebox.showinfo(
-            "Borrada",
-            "La publicidad se sacó.\n\nEn 1-2 minutos deja de verse en la web.")
+        partes = ["La publicidad se sacó. En 1-2 minutos deja de verse en la web."]
+        cancelados = int(quitado.get("_cancelados") or 0)
+        if cancelados:
+            partes.append("También cancelé " + str(cancelados) +
+                          " posteo(s) que tenía agendado(s) en las redes.")
+        messagebox.showinfo("Borrada", chr(10) + chr(10).join(partes))
         self.on_avisos_refrescar()
 
     def on_aviso_cambiar_carpeta(self):

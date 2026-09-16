@@ -112,14 +112,45 @@ def _escribir(web: Path, data: list[dict]) -> None:
     _json_path(web).write_text("[\n  " + cuerpo + "\n]\n", encoding="utf-8")
 
 
+def _ahora_ar():
+    from datetime import datetime, timedelta, timezone
+    return datetime.now(timezone(timedelta(hours=-3)))
+
+
+def _fecha_ar(valor):
+    """ISO -> datetime con huso argentino. None si está vacío o ilegible."""
+    if not valor:
+        return None
+    from datetime import datetime, timedelta, timezone
+    try:
+        d = datetime.fromisoformat(str(valor))
+    except ValueError:
+        return None
+    return d if d.tzinfo else d.replace(tzinfo=timezone(timedelta(hours=-3)))
+
+
+def estado_de(aviso: dict, ahora=None) -> str:
+    """«vigente», «programada» (todavía no arrancó) o «vencida»."""
+    ahora = ahora or _ahora_ar()
+    hasta = _fecha_ar(aviso.get("hasta"))
+    if hasta and hasta <= ahora:
+        return "vencida"
+    desde = _fecha_ar(aviso.get("desde"))
+    if desde and desde > ahora:
+        return "programada"
+    return "vigente"
+
+
 def cargar_avisos() -> list[dict]:
-    """Lista de avisos con campos extra: «_archivo» (ruta real) y «_es_video»."""
+    """Lista de avisos con campos extra: «_archivo», «_es_video» y «_estado»."""
     web = web_dir()
     data = _leer(web)
+    ahora = _ahora_ar()
     for a in data:
         rel = a.get("img") or a.get("video") or ""
         a["_es_video"] = bool(a.get("video"))
         a["_archivo"] = str((web / "public" / rel.lstrip("/"))) if rel else ""
+        a["_estado"] = estado_de(a, ahora)
     return data
 
 
@@ -497,6 +528,9 @@ def borrar_aviso(indice: int, nombre_esperado: str | None = None) -> dict:
             rutas_rel.append(f"{_REL_AVISOS}/{fname}")
 
     _commit_push(web, rutas_rel, f"Publicidad: quitar {quitado.get('nombre', 'aviso')}")
+    # Si ademas tenia un posteo AGENDADO en redes, se cancela. Si no, borrariamos el
+    # aviso de la web y Facebook lo publicaria igual el mes que viene.
+    quitado["_cancelados"] = cancelar_en_cola(rel)
     return quitado
 
 
@@ -660,3 +694,93 @@ def vencidas(ahora=None) -> list[str]:
         if (d if d.tzinfo else d.replace(tzinfo=ar)) <= ahora:
             out.append(a.get("nombre", "(sin nombre)"))
     return out
+
+
+# ── borrado manual, en cualquier momento ─────────────────────────────────────
+def cancelar_en_cola(rel_o_nombre_archivo: str) -> int:
+    """Saca de la cola de redes los posteos que apuntan a ese archivo.
+
+    Devuelve cuántos canceló. Solo toca los que TODAVIA no salieron: si ya se
+    publicó, el posteo existe en Facebook o Instagram y sacarlo de la cola no lo
+    borraría — para eso hay que ir a la red. Por eso los publicados se dejan.
+    """
+    try:
+        import publicidades_programadas as pp
+    except Exception:
+        return 0
+    fname = (rel_o_nombre_archivo or "").split("/")[-1]
+    if not fname:
+        return 0
+    trabajos = pp.leer()
+    quedan = [t for t in trabajos
+              if not ((t.get("url") or "").split("/")[-1] == fname
+                      and t.get("estado") == "pendiente")]
+    cancelados = len(trabajos) - len(quedan)
+    if cancelados:
+        pp.guardar(quedan)
+        pp.publicar_cola()
+    return cancelados
+
+
+def borrar_pieza(nombre_archivo: str) -> dict:
+    """Borra del sistema un archivo subido que NO está en la lista de anunciantes.
+
+    Es el caso de una campaña que iba solo a redes: el archivo vive en
+    `public/avisos/` para que Meta lo pueda tomar, pero no figura en el JSON. Sin
+    esto no habría forma de sacarlo.
+    """
+    fname = (nombre_archivo or "").split("/")[-1]
+    if not fname:
+        raise ValueError("No sé qué archivo borrar.")
+    web = web_dir()
+    en_uso = any((a.get("img") or a.get("video") or "").split("/")[-1] == fname
+                 for a in _leer(web))
+    if en_uso:
+        raise ValueError("Ese archivo lo está usando una publicidad de la web. "
+                         "Borrá la publicidad desde la lista.")
+    cancelados = cancelar_en_cola(fname)
+    archivo = _avisos_dir(web) / fname
+    if archivo.exists():
+        archivo.unlink()
+        _commit_push(web, [f"{_REL_AVISOS}/{fname}"], f"Publicidad: borrar la pieza {fname}")
+    return {"archivo": fname, "cancelados": cancelados}
+
+
+def programadas() -> list[dict]:
+    """La cola de posteos en redes, con un campo «_en_web» para saber si además
+    el aviso está cargado en el sitio."""
+    try:
+        import publicidades_programadas as pp
+    except Exception:
+        return []
+    try:
+        en_web = {(a.get("img") or a.get("video") or "").split("/")[-1]
+                  for a in _leer(web_dir())}
+    except Exception:
+        en_web = set()
+    out = []
+    for t in pp.leer():
+        t = dict(t)
+        t["_archivo"] = (t.get("url") or "").split("/")[-1]
+        t["_en_web"] = t["_archivo"] in en_web
+        out.append(t)
+    return out
+
+
+def cancelar_programada(id_: str, borrar_archivo: bool = False) -> dict:
+    """Cancela un posteo agendado. Si se pide, borra también el archivo subido."""
+    import publicidades_programadas as pp
+    trabajo = next((t for t in pp.leer() if t.get("id") == id_), None)
+    if trabajo is None:
+        raise ValueError("Ese posteo ya no está en la cola. Actualizá la lista.")
+    pp.quitar(id_)
+    pp.publicar_cola()
+    salida = {"nombre": trabajo.get("nombre", ""), "archivo_borrado": False}
+    if borrar_archivo:
+        fname = (trabajo.get("url") or "").split("/")[-1]
+        try:
+            borrar_pieza(fname)
+            salida["archivo_borrado"] = True
+        except ValueError:
+            pass          # lo usa un aviso de la web: se deja
+    return salida
