@@ -760,12 +760,9 @@ class EditorNotas:
                 return
             estado["reemplazo"] = ruta
             v_archivo.set(Path(ruta).name)
-            m = avisos_web.medir(ruta)
-            if m.get("ancho"):
-                v_forma.set(m["forma"])
-                lbl_medida.config(
-                    text="Detectado: " + str(m["ancho"]) + "×" + str(m["alto"]) +
-                         " (" + m["orientacion"] + ")  →  forma «" + m["forma"] + "»")
+            lbl_medida.config(text="Midiendo la pieza…")
+            self.run_bg(lambda: avisos_web.medir(ruta), mostrar_medida,
+                        busy="Midiendo la pieza…")
 
         ttk.Button(f1, text="Cambiar…", command=reemplazar).pack(side="left", padx=6)
 
@@ -781,13 +778,11 @@ class EditorNotas:
         v_link = tk.StringVar(value=actual.get("link", "") or "")
         ttk.Entry(f3, textvariable=v_link).pack(side="left", fill="x", expand=True)
 
-        f4 = ttk.Frame(win)
-        f4.pack(fill="x", padx=14, pady=3)
-        ttk.Label(f4, text="Forma (auto):", width=16).pack(side="left")
+        # La forma no se pregunta: se mide la pieza, igual que en el alta. La
+        # variable existe porque es lo que se guarda; arranca con la que ya tenía
+        # el aviso, por si el archivo no se pudiera medir.
         v_forma = tk.StringVar(value=actual.get("forma", "ancha") or "ancha")
-        ttk.Combobox(f4, textvariable=v_forma, width=12, state="readonly",
-                     values=("ancha", "cuadrada", "alta")).pack(side="left")
-        lbl_medida.pack(anchor="w", padx=14, pady=(2, 0))
+        lbl_medida.pack(anchor="w", padx=14, pady=(6, 0))
 
         df, dh = self._iso_a_campos(actual.get("desde"))
         hf, hh = self._iso_a_campos(actual.get("hasta"))
@@ -824,6 +819,27 @@ class EditorNotas:
 
         pie = ttk.Frame(win)
         pie.pack(fill="x", padx=14, pady=14)
+
+        def mostrar_medida(m):
+            """Pinta lo detectado. Chequea que la ventana siga abierta: la medición
+            va en segundo plano y el usuario puede haberla cerrado antes."""
+            if not win.winfo_exists():
+                return
+            if not m or not m.get("ancho"):
+                lbl_medida.config(text="No pude medir la pieza; queda con la forma «" +
+                                       v_forma.get() + "».")
+                return
+            v_forma.set(m["forma"])
+            lbl_medida.config(
+                text="Detectado: " + str(m["ancho"]) + "×" + str(m["alto"]) + " (" +
+                     m["orientacion"] + ")  →  forma «" + m["forma"] + "»  ·  en redes: " +
+                     avisos_web.como_sale(m))
+
+        archivo_actual = actual.get("_archivo") or ""
+        if archivo_actual:
+            lbl_medida.config(text="Midiendo la pieza…")
+            self.run_bg(lambda: avisos_web.medir(archivo_actual), mostrar_medida,
+                        busy="Midiendo la pieza…")
 
         def guardar():
             nombre = v_nombre.get().strip()
