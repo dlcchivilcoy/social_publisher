@@ -393,6 +393,8 @@ class EditorNotas:
         ttk.Label(top, text="Publicidades del pie de la web («Nuestros anunciantes»)",
                   font=("Segoe UI", 10, "bold")).pack(side="left")
         ttk.Button(top, text="↻ Actualizar", command=self.on_avisos_refrescar).pack(side="right")
+        ttk.Button(top, text="🧹 Limpiar vencidas",
+                   command=self.on_avisos_limpiar).pack(side="right", padx=(0, 6))
 
         cuerpo = ttk.Frame(f)
         cuerpo.pack(fill="both", expand=True, padx=12, pady=4)
@@ -503,12 +505,23 @@ class EditorNotas:
 
         r5 = ttk.Frame(alta)
         r5.pack(fill="x", padx=10, pady=2)
-        ttk.Label(r5, text="Además en:", width=15).pack(side="left")
+        ttk.Label(r5, text="¿Dónde va?:", width=15).pack(side="left")
+        self.aviso_web_var = tk.BooleanVar(value=True)
+        ttk.Checkbutton(r5, text="Web (anunciantes)", variable=self.aviso_web_var).pack(side="left")
+        ttk.Label(r5, text="   Forma:").pack(side="left")
+        self.aviso_forma_var = tk.StringVar(value="ancha")
+        ttk.Combobox(r5, textvariable=self.aviso_forma_var, width=10, state="readonly",
+                     values=("ancha", "cuadrada", "alta")).pack(side="left", padx=(4, 0))
+
+        r5b = ttk.Frame(alta)
+        r5b.pack(fill="x", padx=10, pady=2)
+        ttk.Label(r5b, text="", width=15).pack(side="left")
         self.aviso_fb_var = tk.BooleanVar(value=False)
         self.aviso_ig_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var).pack(side="left")
-        ttk.Checkbutton(r5, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(10, 0))
-        ttk.Label(r5, text="  (publicación + historia)", foreground="#777").pack(side="left")
+        ttk.Checkbutton(r5b, text="Facebook", variable=self.aviso_fb_var).pack(side="left")
+        ttk.Checkbutton(r5b, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(10, 0))
+        ttk.Label(r5b, text="   (foto: publicación + historia  /  video: reel + historia)",
+                  foreground="#777").pack(side="left")
 
         r6 = ttk.Frame(alta)
         r6.pack(fill="x", padx=10, pady=2)
@@ -516,19 +529,13 @@ class EditorNotas:
         self.aviso_texto_var = tk.StringVar()
         ttk.Entry(r6, textvariable=self.aviso_texto_var).pack(side="left", fill="x", expand=True)
 
-        r7 = ttk.Frame(alta)
-        r7.pack(fill="x", padx=10, pady=2)
-        self.aviso_borrar_redes_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(r7, text="Al terminar, borrar también el posteo de Facebook",
-                        variable=self.aviso_borrar_redes_var).pack(side="left")
-
         ttk.Label(alta, foreground="#777", wraplength=680, justify="left",
                   text="Fechas en dd/mm/aaaa y horas en hh:mm. Si dejás «Sale el» vacío, "
-                       "el aviso entra ya mismo. Si dejás «Termina el» vacío, no se baja nunca.\n"
-                       "La web enciende y apaga el aviso sola por esas fechas. Lo de las redes "
-                       "lo hace la nube, así que sale aunque la PC esté apagada.\n"
-                       "Instagram NO deja borrar publicaciones por su API: eso hay que "
-                       "sacarlo a mano desde el celular, y te llega un mail recordándotelo."
+                       "el aviso entra ya mismo. Si dejás «Termina el» vacío, no termina nunca.\n"
+                       "Los tres destinos son independientes: podés mandar a la web, a las redes, "
+                       "o a las tres cosas. La web acepta cualquier archivo, del tamaño que sea.\n"
+                       "La fecha de fin es un FRENO: la campaña deja de salir y el aviso sale de la "
+                       "web sola. Lo que ya se posteó en Facebook e Instagram NO se borra."
                   ).pack(anchor="w", padx=10, pady=(2, 0))
 
         self.btn_aviso_agregar = tk.Button(alta, text="➕  Agregar y publicar",
@@ -544,6 +551,37 @@ class EditorNotas:
         self.aviso_dir_lbl.pack(side="left")
         ttk.Button(pie, text="Cambiar carpeta…", command=self.on_aviso_cambiar_carpeta).pack(side="right")
 
+        self.on_avisos_refrescar()
+
+    def on_avisos_limpiar(self):
+        """Saca de la web las campañas que ya terminaron, con su archivo.
+
+        El freno lo hace la fecha sola; esto es la limpieza de después. No toca
+        NADA de Facebook ni de Instagram.
+        """
+        self.run_bg(avisos_web.vencidas, self._avisos_limpiar_confirmar,
+                    busy="Buscando campañas vencidas…")
+
+    def _avisos_limpiar_confirmar(self, nombres):
+        if not nombres:
+            messagebox.showinfo("Nada que limpiar",
+                                "No hay ninguna campaña vencida. "
+                                "(Las que no tienen fecha de fin no vencen nunca.)")
+            return
+        detalle = chr(10).join("   • " + n for n in nombres)
+        if not messagebox.askyesno(
+                "Limpiar campañas vencidas",
+                "Estas campañas ya terminaron. Las saco de la web y borro su archivo:"
+                + chr(10) + chr(10) + detalle + chr(10) + chr(10)
+                + "Lo que se posteó en Facebook e Instagram NO se toca."):
+            return
+        self.run_bg(avisos_web.limpiar_vencidas, self._avisos_limpiadas,
+                    busy="Limpiando las vencidas…")
+
+    def _avisos_limpiadas(self, nombres):
+        self.set_status("✅ Limpieza: " + str(len(nombres)) + " campaña(s)", "#227a22")
+        messagebox.showinfo("Listo", "Saqué " + str(len(nombres)) +
+                            " campaña(s) vencida(s) de la web.")
         self.on_avisos_refrescar()
 
     def on_avisos_refrescar(self):
@@ -747,32 +785,37 @@ class EditorNotas:
                                  "La campaña termina antes de empezar. Revisá las fechas.")
             return
 
+        en_web = bool(self.aviso_web_var.get())
         redes = []
         if self.aviso_fb_var.get():
             redes.append("facebook")
         if self.aviso_ig_var.get():
             redes.append("instagram")
+        if not en_web and not redes:
+            messagebox.showinfo("Falta el destino",
+                                "Elegí al menos uno: la web, Facebook o Instagram.")
+            return
         texto = self.aviso_texto_var.get().strip()
-        borrar = bool(self.aviso_borrar_redes_var.get())
+        forma = self.aviso_forma_var.get() or "ancha"
         es_video = str(archivo).lower().endswith((".mp4", ".webm", ".mov"))
 
-        lineas = ["Anunciante: " + nombre]
-        lineas.append("En la web: " + ("entra ya" if not desde else "entra el " +
-                      self.aviso_desde_f.get().strip() + " a las " +
-                      self.aviso_desde_h.get().strip()))
+        cuando = ("ya" if not desde else "el " + self.aviso_desde_f.get().strip() +
+                  " a las " + self.aviso_desde_h.get().strip())
+        lineas = ["Anunciante: " + nombre, "Arranca: " + cuando]
         if hasta:
-            lineas.append("Sale de la web: el " + self.aviso_hasta_f.get().strip() +
+            lineas.append("Termina: el " + self.aviso_hasta_f.get().strip() +
                           " a las " + self.aviso_hasta_h.get().strip())
+        else:
+            lineas.append("Termina: no tiene fecha de fin")
+        lineas.append("")
+        lineas.append("Web: " + ("sí, forma " + forma if en_web else "no"))
         if redes:
             como = "reel + historia" if es_video else "publicación + historia"
             lineas.append("Redes: " + " y ".join(
                 {"facebook": "Facebook", "instagram": "Instagram"}[r] for r in redes) +
                 " (" + como + ")")
-            if borrar:
-                lineas.append("Al terminar borra el posteo de Facebook "
-                              "(el de Instagram hay que sacarlo a mano).")
         else:
-            lineas.append("Redes: no (solo web)")
+            lineas.append("Redes: no")
 
         if redes and not texto:
             if not messagebox.askyesno("Sin texto",
@@ -783,8 +826,9 @@ class EditorNotas:
             return
 
         self.run_bg(
-            lambda: avisos_web.programar(nombre, archivo, link=link, desde=desde, hasta=hasta,
-                                         redes=redes, texto=texto, borrar_en_redes=borrar),
+            lambda: avisos_web.programar(nombre, archivo, forma=forma, link=link,
+                                         desde=desde, hasta=hasta, en_web=en_web,
+                                         redes=redes, texto=texto),
             self._aviso_agregado_ok, busy="Cargando la campaña…")
 
     def _aviso_agregado_ok(self, res):
@@ -799,14 +843,19 @@ class EditorNotas:
         achicado = (res.get("_optimizado") if isinstance(res, dict) else "") or \
                    entry.get("_optimizado") or ""
         partes = []
-        if entry.get("desde"):
-            partes.append("En la web entra el " + entry["desde"][8:10] + "/" +
-                          entry["desde"][5:7] + " a las " + entry["desde"][11:16] + ".")
+        en_web = res.get("en_web", True) if isinstance(res, dict) else True
+        if en_web:
+            if entry.get("desde"):
+                partes.append("En la web entra el " + entry["desde"][8:10] + "/" +
+                              entry["desde"][5:7] + " a las " + entry["desde"][11:16] + ".")
+            else:
+                partes.append("Ya está en la web (tarda 1-2 minutos en verse).")
+            if entry.get("hasta"):
+                partes.append("Sale sola el " + entry["hasta"][8:10] + "/" +
+                              entry["hasta"][5:7] + " a las " + entry["hasta"][11:16] + ".")
         else:
-            partes.append("Ya está en la web (tarda 1-2 minutos en verse).")
-        if entry.get("hasta"):
-            partes.append("Sale sola el " + entry["hasta"][8:10] + "/" +
-                          entry["hasta"][5:7] + " a las " + entry["hasta"][11:16] + ".")
+            partes.append("No va a la web: el archivo se subió solo para que las "
+                          "redes lo puedan tomar.")
         if trabajo:
             redes = " y ".join({"facebook": "Facebook",
                                 "instagram": "Instagram"}[r] for r in trabajo["destinos"])

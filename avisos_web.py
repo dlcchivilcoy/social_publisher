@@ -515,33 +515,148 @@ def _base_web() -> str:
     return (base or "https://diarioweb.vercel.app").rstrip("/")
 
 
+def subir_pieza(nombre: str, archivo: str) -> tuple[str, str]:
+    """Sube SOLO el archivo a `public/avisos/`, sin meterlo en la lista de
+    anunciantes. Es hospedaje puro: le da a Facebook y a Instagram una URL
+    pública y estable para cuando llegue la hora de postear.
+
+    Queda accesible pero sin que lo referencie nadie, así que no se ve en la web.
+    """
+    src = Path(archivo)
+    if not src.is_file():
+        raise ValueError("Elegí un archivo de imagen o video válido.")
+    ext = src.suffix.lower()
+    if ext not in VIDEO_EXTS and ext not in IMG_EXTS:
+        raise ValueError(
+            f"Formato no soportado: {ext}. Usá imagen (jpg, png, gif, webp) o video (mp4, webm)."
+        )
+    web = web_dir()
+    dir_ = _avisos_dir(web)
+    dir_.mkdir(parents=True, exist_ok=True)
+    fname, detalle = _copiar_optimizado(src, dir_, _slug(nombre))
+    _commit_push(web, [f"{_REL_AVISOS}/{fname}"], f"Publicidad: subir la pieza de {nombre}")
+    return fname, detalle
+
+
 def programar(nombre: str, archivo: str, forma: str = "ancha", link: str = "",
               desde: str | None = None, hasta: str | None = None,
-              redes: list[str] | None = None, texto: str = "",
-              borrar_en_redes: bool = False) -> dict:
-    """Carga una campaña completa.
+              en_web: bool = True, redes: list[str] | None = None,
+              texto: str = "") -> dict:
+    """Carga una campaña. Los tres destinos son INDEPENDIENTES entre sí.
 
-    La WEB se resuelve sola: el aviso se sube con sus fechas y la web lo muestra
-    u oculta según corresponda, sin que nadie tenga que volver a tocar nada.
+    - `en_web`: entra al espacio de anunciantes, con sus fechas. Acepta cualquier
+      archivo, imagen o video, del tamaño que sea; la `forma` dice en qué hueco
+      encaja. La web lo enciende y lo apaga sola: no hay reloj de por medio.
+    - `redes`: Facebook y/o Instagram. Ahí sí importa si es foto (publicación +
+      historia) o video (reel + historia), porque son formatos distintos.
 
-    Las REDES sí necesitan a alguien despierto a esa hora, así que el posteo
-    queda en una cola que la nube revisa cada cuarto de hora.
+    Se puede pedir solo la web, solo las redes, o las tres cosas.
     """
-    entry = agregar_aviso(nombre, archivo, link, forma, desde=desde, hasta=hasta)
-    rel = entry.get("img") or entry.get("video") or ""
-    url = _base_web() + rel
-    salida = {"aviso": entry, "url": url, "programado": None,
-              "_optimizado": entry.get("_optimizado", "")}
-
     redes = [r for r in (redes or []) if r]
+    if not en_web and not redes:
+        raise ValueError("Elegí al menos un destino: la web, Facebook o Instagram.")
+
+    if en_web:
+        entry = agregar_aviso(nombre, archivo, link, forma, desde=desde, hasta=hasta)
+        rel = entry.get("img") or entry.get("video") or ""
+        detalle = entry.get("_optimizado", "")
+        es_video = bool(entry.get("video"))
+    else:
+        # Sin web, el archivo igual se sube: es de donde lo toman FB e IG.
+        fname, detalle = subir_pieza(nombre, archivo)
+        rel = f"/avisos/{fname}"
+        es_video = Path(fname).suffix.lower() in VIDEO_EXTS
+        entry = {"nombre": nombre}
+        if desde:
+            entry["desde"] = desde
+        if hasta:
+            entry["hasta"] = hasta
+
+    url = _base_web() + rel
+    salida = {"aviso": entry, "url": url, "en_web": en_web,
+              "programado": None, "_optimizado": detalle}
+
     if redes:
         import publicidades_programadas as pp
         cuando = desde or pp.ahora().isoformat(timespec="minutes")
         salida["programado"] = pp.agregar(
             nombre=nombre,
-            tipo="video" if entry.get("video") else "foto",
-            url=url, texto=texto, cuando=cuando, destinos=redes,
-            baja=hasta, borrar_en_redes=borrar_en_redes,
+            tipo="video" if es_video else "foto",
+            url=url, texto=texto, cuando=cuando, destinos=redes, baja=hasta,
         )
         pp.publicar_cola()
     return salida
+
+
+def limpiar_vencidas(ahora=None) -> list[str]:
+    """Saca de la web las campañas cuya fecha «hasta» ya pasó y borra sus archivos.
+
+    El FRENO ya lo hace la fecha: desde el «hasta», la web no las muestra más.
+    Esto es la limpieza posterior, para que el archivo no quede dando vueltas en
+    el sistema. Va acá y no en la nube porque el repositorio de la web es privado
+    y el token del workflow solo alcanza a social_publisher.
+
+    Devuelve los nombres de lo que sacó.
+    """
+    from datetime import datetime, timedelta, timezone
+    ar = timezone(timedelta(hours=-3))
+    ahora = ahora or datetime.now(ar)
+
+    web = web_dir()
+    data = _leer(web)
+    quedan: list[dict] = []
+    fuera: list[dict] = []
+    for a in data:
+        h = a.get("hasta")
+        vencida = False
+        if h:
+            try:
+                d = datetime.fromisoformat(str(h))
+                vencida = (d if d.tzinfo else d.replace(tzinfo=ar)) <= ahora
+            except ValueError:
+                vencida = False      # fecha ilegible: no la toco, que la mire un humano
+        (fuera if vencida else quedan).append(a)
+
+    if not fuera:
+        return []
+
+    _escribir(web, quedan)
+    rutas = [_REL_JSON]
+    nombres = []
+    for a in fuera:
+        nombres.append(a.get("nombre", "(sin nombre)"))
+        fname = (a.get("img") or a.get("video") or "").lstrip("/").split("/")[-1]
+        if not fname:
+            continue
+        sigue_usado = any(
+            (b.get("img") or b.get("video") or "").lstrip("/").split("/")[-1] == fname
+            for b in quedan
+        )
+        if sigue_usado:
+            continue
+        archivo = _avisos_dir(web) / fname
+        if archivo.exists():
+            archivo.unlink()
+        rutas.append(f"{_REL_AVISOS}/{fname}")
+
+    _commit_push(web, rutas, "Publicidades: limpiar las campanas vencidas")
+    return nombres
+
+
+def vencidas(ahora=None) -> list[str]:
+    """Los nombres de las campañas ya vencidas, para preguntar antes de limpiar."""
+    from datetime import datetime, timedelta, timezone
+    ar = timezone(timedelta(hours=-3))
+    ahora = ahora or datetime.now(ar)
+    out = []
+    for a in _leer(web_dir()):
+        h = a.get("hasta")
+        if not h:
+            continue
+        try:
+            d = datetime.fromisoformat(str(h))
+        except ValueError:
+            continue
+        if (d if d.tzinfo else d.replace(tzinfo=ar)) <= ahora:
+            out.append(a.get("nombre", "(sin nombre)"))
+    return out

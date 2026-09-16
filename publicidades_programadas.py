@@ -15,9 +15,18 @@ hora. Por eso el editor deja acá una cola y la nube la mira cada tanto:
 El archivo de la cola es `state/.publicidades_programadas.json` y lo commitea la
 propia nube al terminar (el workflow ya hace `git add -f state/`).
 
-ADVERTENCIA: INSTAGRAM NO SE PUEDE BORRAR POR API. Su API no tiene endpoint para
-eliminar una publicación ya hecha. Si la campaña pidió borrar en redes, se borra
-lo de Facebook y el mail avisa que lo de Instagram hay que sacarlo a mano.
+La fecha de baja es un FRENO, no un borrado: cuando llega, la campaña deja de
+estar activa y no se postea nada más. Lo que ya salió en Facebook e Instagram se
+queda donde está, como cualquier publicación vieja — nadie borra posteos.
+
+El freno agarra de los dos lados:
+  - si la campaña ya salió, se cierra y no vuelve a salir;
+  - si por lo que fuera NO llegó a salir y la fecha de baja ya pasó, se marca
+    vencida y NO se publica tarde. Una campaña que se vendió para el 20 no sirve
+    el 25.
+
+El archivo que se subió se saca aparte, con «Limpiar vencidas» del editor, que es
+lo único que puede tocar el repositorio de la web.
 """
 from __future__ import annotations
 
@@ -77,8 +86,7 @@ def guardar(trabajos: list[dict]) -> None:
 
 
 def agregar(nombre: str, tipo: str, url: str, texto: str, cuando: str,
-            destinos: list[str], baja: str | None = None,
-            borrar_en_redes: bool = False) -> dict:
+            destinos: list[str], baja: str | None = None) -> dict:
     """Mete una campaña en la cola. `cuando` y `baja` van en ISO con huso."""
     if tipo not in ("foto", "video"):
         raise ValueError("El tipo tiene que ser «foto» o «video».")
@@ -96,7 +104,6 @@ def agregar(nombre: str, tipo: str, url: str, texto: str, cuando: str,
         "cuando": cuando,
         "destinos": destinos,
         "baja": baja,
-        "borrar_en_redes": bool(borrar_en_redes),
         "estado": "pendiente",
         "creado": ahora().isoformat(timespec="minutes"),
         "intentos": 0,
@@ -181,29 +188,6 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
     return ids, fallas
 
 
-def _dar_de_baja(trabajo: dict) -> tuple[list[str], list[str]]:
-    """Borra de las redes lo que se pueda. Devuelve (borrados, a_mano)."""
-    from platforms import facebook
-
-    ids = trabajo.get("resultado") or {}
-    borrados: list[str] = []
-    a_mano: list[str] = []
-    for clave in ("fb_post", "fb_historia"):
-        oid = ids.get(clave)
-        if not oid:
-            continue
-        que = "posteo" if clave == "fb_post" else "historia"
-        try:
-            facebook.borrar(oid)
-            borrados.append(f"Facebook ({que})")
-        except Exception as e:                                   # noqa: BLE001
-            a_mano.append(f"Facebook {que}: {e}")
-    # Instagram NO tiene borrado por API. Se avisa y se hace a mano.
-    if ids.get("ig_post") or ids.get("ig_historia"):
-        a_mano.append("Instagram: su API no permite borrar; hay que sacarlo desde el celular")
-    return borrados, a_mano
-
-
 # ── el runner ─────────────────────────────────────────────────────────────────
 def correr(dry: bool = False) -> dict:
     """Publica lo que ya venció y da de baja lo que corresponda. Lo llama la nube."""
@@ -220,6 +204,17 @@ def correr(dry: bool = False) -> dict:
         estado = t.get("estado")
         cuando = _fecha(t.get("cuando"))
         baja = _fecha(t.get("baja"))
+
+        # ── freno: vencida antes de salir ──
+        # Si la campana terminaba antes de que llegara a publicarse, NO se publica
+        # tarde: lo que se vendio para el 20 no sirve el 25.
+        if estado == "pendiente" and baja and baja <= hoy:
+            t["estado"] = "vencido"
+            t["bajado_en"] = hoy.isoformat(timespec="minutes")
+            bajas += 1
+            avisos.append(f"«{t.get('nombre')}» venció sin llegar a publicarse. "
+                          f"No se postea tarde.")
+            continue
 
         # ── alta ──
         if estado == "pendiente" and cuando and cuando <= hoy:
@@ -245,26 +240,16 @@ def correr(dry: bool = False) -> dict:
                 hechas += 1
                 logger.info(f"Publicidad «{t.get('nombre')}» publicada: {ids}")
 
-        # ── baja ──
+        # ── freno: la campana termino ──
+        # De la web sale sola por la fecha «hasta» del aviso. Lo que ya se posteo en
+        # Facebook e Instagram SE QUEDA: no se borra nada.
         elif estado == "publicado" and baja and baja <= hoy:
-            if not t.get("borrar_en_redes"):
-                # De la web sale sola por la fecha «hasta» del aviso.
-                t["estado"] = "bajado"
-                t["bajado_en"] = hoy.isoformat(timespec="minutes")
-                bajas += 1
-                continue
-            if dry:
-                logger.info(f"[dry] borraría de las redes «{t.get('nombre')}»")
-                continue
-            borrados, a_mano = _dar_de_baja(t)
             t["estado"] = "bajado"
             t["bajado_en"] = hoy.isoformat(timespec="minutes")
-            t["baja_detalle"] = {"borrados": borrados, "a_mano": a_mano}
             bajas += 1
-            if a_mano:
-                avisos.append(f"Terminó «{t.get('nombre')}». Borrado: "
-                              f"{', '.join(borrados) or 'nada'}. "
-                              f"Queda a mano: {'; '.join(a_mano)}")
+            avisos.append(f"Terminó la campaña de «{t.get('nombre')}». Ya salió de la "
+                          f"web. Los posteos de las redes quedan como están. Para sacar "
+                          f"el archivo del sistema: «Limpiar vencidas» en el editor.")
 
     if not dry:
         guardar(trabajos)

@@ -431,24 +431,3 @@ def _alcance_posteo(post_id: str, token: str) -> int:
         return int(datos[0]["values"][0].get("value") or 0) if datos and datos[0].get("values") else 0
     except Exception:  # noqa: BLE001
         return 0
-
-
-def borrar(object_id: str) -> dict:
-    """Borra un posteo (foto, video o historia) del muro de la página.
-
-    IRREVERSIBLE: se van con él los comentarios, las reacciones y el alcance que
-    haya juntado. Lo usa la baja programada de las publicidades, y solo cuando el
-    usuario lo pidió expresamente para esa campaña.
-    """
-    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
-    if not object_id:
-        raise ValueError("Falta el id del posteo a borrar.")
-    if not token:
-        raise ValueError("FACEBOOK_PAGE_ACCESS_TOKEN no configurado en .env")
-    resp = requests.delete(
-        f"https://graph.facebook.com/{GRAPH_VERSION}/{object_id}",
-        params={"access_token": token}, timeout=30,
-    )
-    _raise_for_status(resp)
-    logger.info(f"Facebook: borrado {object_id}")
-    return {"success": True, "id": object_id}
