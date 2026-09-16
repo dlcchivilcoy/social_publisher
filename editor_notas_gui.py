@@ -616,10 +616,12 @@ class EditorNotas:
 
     def _aviso_editado_ok(self, nueva):
         self.set_status("✅ Publicidad actualizada: " + nueva.get("nombre", ""), "#227a22")
+        achicado = nueva.get("_optimizado") or ""
         messagebox.showinfo(
             "Listo",
             "Los cambios se guardaron.\n\nEn 1-2 minutos se ven en la web "
-            "(Vercel está publicando).")
+            "(Vercel está publicando)."
+            + (f"\n\nEl archivo se comprimió antes de subirlo: {achicado}." if achicado else ""))
         self.on_avisos_refrescar()
 
     def _thumb_video(self, video_path):
@@ -677,10 +679,12 @@ class EditorNotas:
         self.aviso_file_var.set("")
         self.aviso_nombre_var.set("")
         self.aviso_link_var.set("")
+        achicado = entry.get("_optimizado") or ""
         messagebox.showinfo(
             "Listo",
             "La publicidad se subió.\n\nEn 1-2 minutos aparece en la web "
-            "(Vercel la está publicando).")
+            "(Vercel la está publicando)."
+            + (f"\n\nSe comprimió antes de subirla: {achicado}." if achicado else ""))
         self.on_avisos_refrescar()
 
     def on_aviso_borrar(self):

@@ -167,6 +167,112 @@ def miniatura_video(video_path: str, salida=None):
     return None
 
 
+# ── compresión automática ─────────────────────────────────────────────────────
+# Un aviso pesado se paga en tráfico. El 2/8/2026 el crawler de Facebook se bajó
+# 7,08 GB en UN día pidiendo los videos de los avisos una y otra vez, y hubo que
+# recomprimirlos a mano (12,3 MB → 4,1 MB). Desde entonces todo lo que entra se
+# recomprime ANTES de subirlo, así no depende de que alguien se acuerde.
+IMG_LADO_MAX = 1600      # ningún aviso se muestra más grande que esto
+IMG_CALIDAD = 82
+VIDEO_ANCHO_MAX = 720    # en el pie se ve chico; 720 sobra
+VIDEO_CRF = 28           # liviano y sin artefactos visibles a ese tamaño
+VIDEO_FPS_MAX = 30       # los de 60 fps pesan el doble por nada
+
+
+def _peso(n: int) -> str:
+    if n >= 1024 * 1024:
+        return f"{n / 1024 / 1024:.1f} MB".replace(".", ",")
+    return f"{n / 1024:.0f} KB"
+
+
+def _comprimir_imagen(src: Path, tmp: Path):
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        return None
+    try:
+        with Image.open(src) as im:
+            im = ImageOps.exif_transpose(im)
+            alfa = im.mode in ("RGBA", "LA") or (
+                im.mode == "P" and "transparency" in im.info)
+            im.thumbnail((IMG_LADO_MAX, IMG_LADO_MAX), Image.LANCZOS)
+            if alfa:
+                salida = tmp / (src.stem + ".png")
+                im.convert("RGBA").save(salida, "PNG", optimize=True)
+            else:
+                salida = tmp / (src.stem + ".jpg")
+                im.convert("RGB").save(salida, "JPEG", quality=IMG_CALIDAD,
+                                       optimize=True, progressive=True)
+        return salida if salida.is_file() and salida.stat().st_size else None
+    except Exception:
+        return None
+
+
+def _comprimir_video(src: Path, tmp: Path):
+    salida = tmp / (src.stem + ".mp4")
+    escala = f"scale='min({VIDEO_ANCHO_MAX},iw)':-2:flags=lanczos"
+    # 1º con tope de cuadros por segundo; si esta ffmpeg no entiende la expresión,
+    # 2º sin ella (igual comprime, solo que menos).
+    for vf in (f"{escala},fps=fps=min({VIDEO_FPS_MAX}\\,source_fps)", escala):
+        cmd = [
+            _ffmpeg_exe(), "-y", "-i", str(src),
+            "-map", "0:v:0", "-map", "0:a?",
+            "-vf", vf,
+            "-c:v", "libx264", "-preset", "slow", "-crf", str(VIDEO_CRF),
+            "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+            "-c:a", "aac", "-b:a", "96k", "-ac", "2",
+            "-map_metadata", "-1",
+            str(salida),
+        ]
+        try:
+            subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+        except Exception:
+            return None
+        if salida.is_file() and salida.stat().st_size:
+            return salida
+    return None
+
+
+def _optimizar(src: Path):
+    """Recomprime el archivo antes de subirlo.
+
+    Devuelve `(ruta_a_usar, detalle, es_temporal)`. Si algo falla, o si el
+    resultado NO queda más chico, devuelve el original tal cual: la compresión
+    nunca empeora un archivo ni hace fracasar una carga.
+    """
+    import tempfile
+    ext = src.suffix.lower()
+    if ext == ".gif":
+        return src, "", False          # animado: recomprimirlo lo rompe
+    try:
+        antes = src.stat().st_size
+    except OSError:
+        return src, "", False
+    tmp = Path(tempfile.mkdtemp(prefix="aviso_"))
+    hacer = _comprimir_video if ext in VIDEO_EXTS else _comprimir_imagen
+    salida = hacer(src, tmp)
+    if salida is None:
+        shutil.rmtree(tmp, ignore_errors=True)
+        return src, "", False
+    despues = salida.stat().st_size
+    if despues >= antes:               # ya venía bien comprimido
+        shutil.rmtree(tmp, ignore_errors=True)
+        return src, "", False
+    return salida, f"{_peso(antes)} → {_peso(despues)}", True
+
+
+def _copiar_optimizado(src: Path, destino_dir: Path, base: str):
+    """Comprime `src` y lo copia a `destino_dir`. Devuelve `(nombre, detalle)`."""
+    listo, detalle, es_temp = _optimizar(src)
+    try:
+        fname = _nombre_unico(destino_dir, base, listo.suffix.lower())
+        shutil.copy2(listo, destino_dir / fname)
+    finally:
+        if es_temp:
+            shutil.rmtree(listo.parent, ignore_errors=True)
+    return fname, detalle
+
+
 # ── git ───────────────────────────────────────────────────────────────────────
 def _git(web: Path, *args, timeout: int = 180) -> str:
     try:
@@ -250,8 +356,7 @@ def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha
     web = web_dir()
     dir_ = _avisos_dir(web)
     dir_.mkdir(parents=True, exist_ok=True)
-    fname = _nombre_unico(dir_, _slug(nombre), ext)
-    shutil.copy2(src, dir_ / fname)
+    fname, detalle = _copiar_optimizado(src, dir_, _slug(nombre))
 
     entry: dict = {"nombre": nombre}
     if es_video:
@@ -271,6 +376,7 @@ def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha
         [_REL_JSON, f"{_REL_AVISOS}/{fname}"],
         f"Publicidad: agregar {nombre}",
     )
+    entry["_optimizado"] = detalle   # «_» = no se escribe en el JSON (ver _limpio)
     return entry
 
 
@@ -298,6 +404,7 @@ def editar_aviso(indice: int, nombre_esperado: str | None, nombre: str,
 
     # ¿reemplazar el archivo?
     nuevo_fname = None
+    detalle = ""
     es_video = bool(entry.get("video"))
     if nuevo_archivo:
         src = Path(nuevo_archivo)
@@ -311,8 +418,7 @@ def editar_aviso(indice: int, nombre_esperado: str | None, nombre: str,
             )
         dir_ = _avisos_dir(web)
         dir_.mkdir(parents=True, exist_ok=True)
-        nuevo_fname = _nombre_unico(dir_, _slug(nombre), ext)
-        shutil.copy2(src, dir_ / nuevo_fname)
+        nuevo_fname, detalle = _copiar_optimizado(src, dir_, _slug(nombre))
         rutas_rel.append(f"{_REL_AVISOS}/{nuevo_fname}")
 
     # Reconstruir la entrada en orden canónico: nombre, img|video, forma, link
@@ -343,6 +449,7 @@ def editar_aviso(indice: int, nombre_esperado: str | None, nombre: str,
             rutas_rel.append(f"{_REL_AVISOS}/{archivo_viejo}")
 
     _commit_push(web, rutas_rel, f"Publicidad: editar {nombre}")
+    nueva["_optimizado"] = detalle
     return nueva
 
 
