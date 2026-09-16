@@ -461,10 +461,10 @@ class EditorNotas:
         ttk.Label(r5, text="¿Dónde va?:", width=15).pack(side="left")
         self.aviso_web_var = tk.BooleanVar(value=True)
         ttk.Checkbutton(r5, text="Web (anunciantes)", variable=self.aviso_web_var).pack(side="left")
-        ttk.Label(r5, text="   Forma:").pack(side="left")
+        # La forma NO se pregunta: sale de medir la pieza (ver _aviso_medido). La
+        # variable queda igual porque es lo que se manda al guardar, y arranca en
+        # "ancha" por si el archivo no se puede medir.
         self.aviso_forma_var = tk.StringVar(value="ancha")
-        ttk.Combobox(r5, textvariable=self.aviso_forma_var, width=10, state="readonly",
-                     values=("ancha", "cuadrada", "alta")).pack(side="left", padx=(4, 0))
         self.aviso_fb_var = tk.BooleanVar(value=False)
         self.aviso_ig_var = tk.BooleanVar(value=False)
         ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var).pack(side="left", padx=(12, 0))
@@ -482,8 +482,8 @@ class EditorNotas:
         ttk.Label(alta, foreground="#777", wraplength=700, justify="left",
                   text="Fechas con el botón 📅 o a mano en dd/mm/aaaa. «Sale el» vacío = entra ya; "
                        "«Termina el» vacío = no termina nunca.\n"
-                       "Los tres destinos son independientes. En redes, una foto sale como "
-                       "publicación + historia y un video como reel + historia.\n"
+                       "El tamaño de la pieza lo mide el programa solo y de ahí sale en qué hueco "
+                       "de la web encaja y cómo sale en las redes.\n"
                        "La fecha de fin es un FRENO: deja de salir y el aviso se va de la web. "
                        "Lo ya posteado en Facebook e Instagram no se borra."
                   ).pack(anchor="w", padx=10, pady=(2, 0))
@@ -783,7 +783,7 @@ class EditorNotas:
 
         f4 = ttk.Frame(win)
         f4.pack(fill="x", padx=14, pady=3)
-        ttk.Label(f4, text="Forma:", width=16).pack(side="left")
+        ttk.Label(f4, text="Forma (auto):", width=16).pack(side="left")
         v_forma = tk.StringVar(value=actual.get("forma", "ancha") or "ancha")
         ttk.Combobox(f4, textvariable=v_forma, width=12, state="readonly",
                      values=("ancha", "cuadrada", "alta")).pack(side="left")
@@ -817,7 +817,9 @@ class EditorNotas:
         ttk.Label(win, foreground="#777", wraplength=520, justify="left",
                   text="Dejá las fechas vacías para que el aviso quede fijo, sin fecha de "
                        "entrada ni de salida. Cambiar la imagen sube la nueva, borra la "
-                       "vieja y deja el aviso en el mismo lugar de la lista."
+                       "vieja y deja el aviso en el mismo lugar de la lista.\n"
+                       "La forma se calcula sola con el tamaño de la pieza; acá se puede "
+                       "corregir si alguna vez no da con el hueco que querés."
                   ).pack(anchor="w", padx=14, pady=(10, 0))
 
         pie = ttk.Frame(win)
