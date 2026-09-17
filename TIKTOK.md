@@ -1,19 +1,87 @@
 # TikTok — el reel del bot a @diarioyradio
 
-**Estado al 2026-09-16: la app está LIVE, pero la auditoría de Direct Post está RECHAZADA.**
+**Estado al 2026-09-17: la app está LIVE, pero la auditoría de Direct Post sigue RECHAZADA.**
 Los reels caen en los **borradores** de TikTok y el editor los termina de publicar a mano
 desde el celular. No es un estado de transición: es el régimen normal hasta nuevo aviso.
 
-El rechazo del 16/9 **no es de formulario** (los nueve anteriores sí lo eran: Website URL,
-ícono, la pantalla de confirmación). Es de política, textual del revisor:
+## Los dos rechazos, en orden
+
+Ninguno de los dos es **de formulario** (los nueve anteriores sí lo eran: Website URL,
+ícono, la pantalla de confirmación).
+
+**16/9 — política.** Textual del revisor:
 
 > App will not be approved for personal or company internal use. TikTok for Developers
 > currently does not support personal or internal company use. **Not acceptable:** Display
 > posts from the TikTok account(s) you or your team manage on your website.
 
 Es un renglón de las App Review Guidelines: TikTok aprueba herramientas que le sirven a
-muchos creadores de terceros, y esta maneja la cuenta propia. **No hay campo que tocar ni
-video que regrabar.** Hay un pedido de aclaración abierto con soporte (16/9).
+muchos creadores de terceros, y esta maneja la cuenta propia. No había campo que tocar ni
+video que regrabar. Ese mismo día se abrió un pedido de aclaración con soporte.
+
+**17/9 — técnica.** Soporte contestó y el motivo **cambió**:
+
+> The media URL submitted does not meet the required technical specifications for the
+> Content Posting API.
+
+Y listan cinco requisitos: HTTPS, accesible sin autenticación, dominio verificado en la
+configuración de Content Posting API, link directo al archivo con el Content-Type correcto,
+y HTTP 200 con Content-Length válido.
+
+**El motivo del mail cambió, pero el del portal NO.** El cartel rojo de Production seguía
+mostrando, el 17/9, el mismo texto de política del 16/9 palabra por palabra. Son dos
+trámites distintos —la revisión del app y la auditoría de Content Posting API— y no se puede
+saber desde afuera si la política quedó resuelta o si siguen los dos rechazos vivos en
+paralelo. **Hay que preguntárselo a soporte por escrito.**
+
+### ⚠️ Pero ese motivo no aplica a esta app
+
+Esos cinco requisitos son la lista de control de **PULL_FROM_URL**, el modo en que uno le
+pasa un link y TikTok va a buscar el video. **Este bot no lo usa.** Los dos caminos de
+`platforms/tiktok.py` —`upload_to_inbox()` y la publicación directa— mandan
+`"source": "FILE_UPLOAD"` y suben los bytes al `upload_url` que devuelve TikTok. Nunca se le
+entrega una URL para que la descargue: no hay «media URL submitted» de nuestro lado.
+
+Igual se verificó el 17/9 lo que sí está publicado, y cumple los cinco:
+
+| Requisito | Estado |
+|---|---|
+| HTTPS | ✅ |
+| Accesible sin login | ✅ |
+| Dominio verificado | ✅ los `tiktok*.txt` dan 200 en `diarioweb.vercel.app` **y** en el dominio real |
+| Link directo con Content-Type correcto | ✅ `image/jpeg`, sin redirección |
+| HTTP 200 con Content-Length | ✅ |
+
+### 🎯 Lo que sí apareció: la configuración `reels` sin verificar
+
+Se revisó *URL properties* en el portal el 17/9. **En `Production` está todo bien**: los dos
+URL prefixes verificados son los propios (`https://diarioweb.vercel.app/` y el punycode) y
+«Unverified properties» está vacío. No hay ninguna entrada vieja de GitHub ni de ImgBB — esa
+hipótesis se descartó.
+
+**Pero el desplegable de esa ventana tiene una SEGUNDA configuración, `reels`, y ahí no hay
+nada verificado.** TikTok lo dice con todas las letras:
+
+> You must verify URL properties for **all configurations with a URL**
+
+Eso es, textual, el requisito 3 del mail del 17/9.
+
+**`reels` es un sandbox**, confirmado el 17/9 abriendo el desplegable: lista `Production` y,
+bajo el encabezado `Sandbox`, `reels`. **No hay una tercera configuración.** Es el sandbox que
+nunca se llegó a usar —los videos demo se grabaron en producción, porque la app ya estaba
+Live— y quedó ahí, sin una sola URL verificada. Nadie lo usa, pero el revisor lo mira igual:
+**una configuración que no usás te puede voltear la auditoría.**
+
+**✅ ARREGLADO el 17/9.** *URL properties* → `reels` → **Verify properties** → URL prefix.
+Quedaron verificados los dos, igual que en Production: `https://diarioweb.vercel.app/` (web
+`d68af87`) y `https://www.xn--diariolacampaa-2nb.com.ar/` (web `4950974`). «Unverified
+properties» quedó vacío.
+
+**Cómo se hace, para la próxima:** TikTok entrega un `tiktok*.txt` **nuevo por cada
+verificación** — un token por cada una, aunque el dominio sea el mismo. Por eso hoy hay
+**cuatro** archivos en `diario_web/public/` y no se puede borrar ninguno. El archivo se copia
+ahí, se pushea a `main`, y **recién cuando Vercel terminó** (unos 30 s; se chequea con `curl`
+que dé 200) se toca «Verify». Si le das antes, falla y hay que rehacer la carga.
 
 ---
 
@@ -125,4 +193,9 @@ al ranking de corresponsales. Cuando se habilite, entra solo.
   ES el borrador: hay que tocarla y abre el editor con el video cargado.
 - **El tope de 5 no se destraba vaciando los borradores**: cuenta las subidas de las últimas
   24 h, publiques o borres después. Se libera de a una.
+- **Los archivos de verificación de dominio** son `diario_web/public/tiktok*.txt`. Hay
+  **cuatro**: dos por cada configuración del portal (`Production` y `reels`) × dos dominios.
+  TikTok genera un token por verificación, así que ninguno reemplaza a otro y **no se borra
+  ninguno**. Los sirve solo el deploy de Vercel; si alguna vez dan 404, el portal marca el
+  dominio como no verificado y la auditoría se cae por ahí.
 - `.env.bak-*` está en `.gitignore`: **este repo es público**.
