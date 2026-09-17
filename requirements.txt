@@ -5,7 +5,19 @@ APScheduler>=3.10.4
 Pillow>=11.0.0
 # ffmpeg con binario estatico incorporado (lo usa video._ffmpeg / avisos_web._ffmpeg_exe para armar
 # los reels). Asi la nube NO tiene que instalar ffmpeg por apt (que a veces se cuelga y tumba la corrida).
-imageio-ffmpeg>=0.6.0
+#
+# VERSION FIJA, a proposito. Este paquete NO es una libreria mas: trae adentro el BINARIO de ffmpeg
+# con el que se arman TODOS los reels y se comprimen los avisos. Con ">=" cada corrida de la nube
+# podia traer un ffmpeg distinto —otros filtros, otros valores por defecto— y romper los videos sin
+# que nadie tocara una linea de codigo. Eso es de lo mas dificil de diagnosticar que hay: el codigo
+# esta igual, el repo esta igual, y ayer andaba.
+# ⚠️ OJO, gotcha que costo una tarde: la MISMA version del paquete trae un ffmpeg DISTINTO segun
+# el sistema. 0.6.0 = ffmpeg 7.0.2-static (johnvansickle) en el Linux de la nube, y 7.1-essentials
+# (gyan.dev) en Windows. O sea que probar un reel en la PC NO prueba el ffmpeg que va a correr en
+# produccion: un filtergraph puede andar aca y fallar alla. Fijar la version acota el problema a
+# dos binarios conocidos, pero no lo elimina.
+# Para subirla: cambiar el numero, subir un video de prueba y confirmar que el reel salga CON marca.
+imageio-ffmpeg==0.6.0
 python-docx>=1.1.0
 openpyxl>=3.1.0
 beautifulsoup4>=4.12.0
