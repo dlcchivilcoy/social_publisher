@@ -229,8 +229,35 @@ def _boton(url: str, texto: str, color: str = "#e2620c") -> str:
             f'font-size:16px;margin:6px 6px 6px 0">{texto}</a>')
 
 
+def _aviso_reel_pelado() -> str:
+    """Cartel para el mail cuando el reel salió sin la marca del diario.
+
+    Antes esto pasaba EN SILENCIO: si ffmpeg no podía con el filtergraph, el reel se
+    rehacía pelado —sin isologo y sin placa— y solo quedaba una línea en el log de la
+    nube, que nadie mira. El 2026-09-17 se publicó así y nos enteramos porque el usuario
+    vio el video. Ahora se avisa donde se revisa."""
+    try:
+        from video import ultimo_reel_degradado
+        deg = ultimo_reel_degradado()
+    except Exception:                                            # noqa: BLE001
+        return ""
+    if not deg:
+        return ""
+    return (
+        "<div style='border-left:4px solid #b00020;background:#fdecee;padding:12px 16px;"
+        "margin:0 0 18px'>"
+        "<b style='color:#b00020'>⚠️ Este reel salió " + _hesc(deg.get("nivel", "sin marca")) +
+        ".</b><br>"
+        "<span style='font-size:14px;color:#555'>No es lo normal: ffmpeg no pudo armarlo "
+        "completo y el bot lo rehizo para no perder la publicación. "
+        "Motivo: <code style='font-size:12px'>" + _hesc(deg.get("motivo", ""))[:400] +
+        "</code></span></div>"
+    )
+
+
 def _html_aviso(intro_html: str, name: str, reel_url: str, draft_id: str, hay: bool) -> str:
     """Arma el cuerpo HTML del aviso con los botones (si hay APPROVE_WEBAPP_URL)."""
+    intro_html = _aviso_reel_pelado() + intro_html
     webapp = get("APPROVE_WEBAPP_URL")
     tok = get("WEBAPP_TOKEN")
     t = f"&token={quote(tok)}" if tok else ""

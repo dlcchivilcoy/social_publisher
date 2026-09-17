@@ -364,11 +364,75 @@ def _norm(idx: int, fps: int) -> str:
             f"pad=1080:1920:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={fps}[s{idx}]")
 
 
+# Frases con las que ffmpeg nombra lo que salió mal. Las suyas van al PRINCIPIO del
+# stderr y el final es el filtergraph entero —2000 caracteres o más—, así que recortar
+# por el final, como se hacía antes, dejaba afuera justo el motivo. Pasó el 2026-09-17:
+# un reel salió sin logo ni placa y el log solo mostraba «Filter not found» sin decir
+# CUÁL filtro.
+_MOTIVOS_FFMPEG = (
+    "No such filter", "Error applying", "Error initializing", "Error opening",
+    "Cannot load", "Unable to", "Invalid", "not found", "No such file",
+    "Conversion failed", "Error while", "Impossible to convert",
+)
+
+
+def _motivo_ffmpeg(stderr: str) -> str:
+    """Las líneas del stderr que explican el fallo, sin el filtergraph al lado."""
+    lineas = []
+    for l in (stderr or "").splitlines():
+        l = l.strip()
+        if not l or len(l) > 300:      # una línea larguísima ES el filtergraph
+            continue
+        if any(k in l for k in _MOTIVOS_FFMPEG):
+            lineas.append(l)
+    # Sin repetidos y en orden
+    vistas, limpias = set(), []
+    for l in lineas:
+        if l not in vistas:
+            vistas.add(l)
+            limpias.append(l)
+    return "\n".join(limpias[:8])
+
+
+# Tope de tiempo para UNA pasada de ffmpeg. Un reel largo en la nube tarda minutos, así
+# que el tope es generoso; lo que corta es el caso patológico. Se regula con `REEL_TIMEOUT`.
+#
+# ⚠️ Por qué existe: con `-loop 1` sobre una imagen ILEGIBLE (una placa corrupta, por
+# ejemplo), ffmpeg no falla — se queda en un bucle escupiendo errores para siempre. Y
+# `subprocess.run(capture_output=True)` va acumulando esa salida en memoria hasta que el
+# proceso muere por MemoryError. Sin reloj, eso cuelga la corrida hasta el timeout del
+# workflow (horas) y no publica nada más ese día.
+def _timeout_ffmpeg() -> float | None:
+    try:
+        seg = float(_cfg("REEL_TIMEOUT", "900"))
+    except ValueError:
+        seg = 900.0
+    return seg if seg > 0 else None
+
+
 def _run_ffmpeg(cmd: list, paso: str) -> None:
-    r = subprocess.run(cmd, capture_output=True, text=True)
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=_timeout_ffmpeg())
+    except subprocess.TimeoutExpired:
+        logger.error(f"ffmpeg se colgó ({paso}): pasó el tope de "
+                     f"{_timeout_ffmpeg():.0f}s y lo corté.")
+        raise RuntimeError(f"ffmpeg error: {paso} — se colgó y lo corté") from None
+    except MemoryError:
+        # ffmpeg en bucle escribiendo errores: la salida no entra en memoria.
+        logger.error(f"ffmpeg ({paso}) escribió más errores de los que entran en memoria; "
+                     f"casi seguro es un archivo de entrada ilegible.")
+        raise RuntimeError(f"ffmpeg error: {paso} — entrada ilegible") from None
     if r.returncode != 0:
-        logger.error(f"ffmpeg falló ({paso}):\n" + (r.stderr or "")[-1200:])
-        raise RuntimeError(f"ffmpeg error: {paso}")
+        err = r.stderr or ""
+        motivo = _motivo_ffmpeg(err)
+        logger.error(
+            f"ffmpeg falló ({paso}).\n"
+            + (f"  MOTIVO:\n    " + motivo.replace("\n", "\n    ") + "\n" if motivo else
+               "  (ffmpeg no dio un motivo reconocible)\n")
+            + "  ÚLTIMAS LÍNEAS:\n    " + err[-700:].replace("\n", "\n    ")
+        )
+        corto = motivo.splitlines()[0] if motivo else ""
+        raise RuntimeError(f"ffmpeg error: {paso}" + (f" — {corto}" if corto else ""))
 
 
 def _tiene_audio(src) -> bool:
@@ -495,6 +559,23 @@ def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: 
     return nw, nh, x, y
 
 
+def _calidad() -> list:
+    """Control de tasa del reel. Sin esto, libx264 deja un minuto de 1080x1920 en más de
+    20 MB, que tarda una eternidad en abrirse desde el celular para revisarlo (y es lo
+    mismo que después sube a las redes, donde igual lo vuelven a comprimir).
+
+    CRF 26 con techo de 3,5 Mb/s baja el archivo a menos de la mitad sin diferencia
+    visible en un teléfono. Se regula con `REEL_CRF` y `REEL_MAXRATE` (`0` los apaga)."""
+    crf = str(_cfg("REEL_CRF", "26")).strip()
+    if crf in ("0", "no", "off", ""):
+        return []
+    maxrate = str(_cfg("REEL_MAXRATE", "3500k")).strip()
+    args = ["-crf", crf]
+    if maxrate not in ("0", "no", "off", ""):
+        args += ["-maxrate", maxrate, "-bufsize", "7000k"]
+    return args
+
+
 def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | None,
                 firma: str | None, fondo: Path | None, logo_png: Path | None,
                 overlay: Path | None, placa: Path | None, seg_placa: float,
@@ -579,7 +660,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         cmd += (["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"] if audio else ["-an"])
         if max_seconds:
             cmd += ["-t", str(float(max_seconds))]
-        cmd += ["-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+        cmd += ["-c:v", "libx264", "-preset", "veryfast", *_calidad(),
+                "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
         _run_ffmpeg(cmd, "reel vertical")
         return
 
@@ -608,8 +690,19 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         vf += ";[vmain][vplaca]concat=n=2:v=1[vout]"
         maps = ["-map", "[vout]", "-an"]
     cmd = [ff, "-y", *inputs, "-filter_complex", vf, *maps,
-           "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
+           "-c:v", "libx264", "-preset", "veryfast", *_calidad(),
+           "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
     _run_ffmpeg(cmd, "reel vertical + placa")
+
+
+# Qué le faltó al último reel armado. Lo lee `transcriber` para avisarlo en el mail de
+# revisión: un reel sin marca que sale en silencio es peor que uno que no sale.
+_DEGRADADO: dict = {}
+
+
+def ultimo_reel_degradado() -> dict:
+    """`{}` si el último reel salió completo; si no, `{nivel, motivo}`."""
+    return dict(_DEGRADADO)
 
 
 def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
@@ -660,19 +753,35 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
                  seg_placa=seg_placa, recorte=recorte, encuadre=encuadre,
                  marca_texto=logo)
-    try:
-        _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **marca)
-    except Exception as e:
-        if not (fondo or logo_png or overlay_png or placa or recorte):
-            raise
-        # Si la marca hiciera fallar el filtergraph, el reel PELADO igual sale: nunca
-        # se pierde la publicación por el fondo, el recorte, el logo, el overlay o la placa.
-        logger.warning(f"El reel con marca falló ({e}); lo rehago pelado.")
-        _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma,
-                    fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
-                    recorte=None, encuadre=None, marca_texto=False)
-        marca = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0,
-                     recorte=None, encuadre=None, marca_texto=False)
+    # Si la marca hace fallar el filtergraph, el reel igual sale: nunca se pierde una
+    # publicación por el fondo, el logo, el overlay o la placa. Pero se baja DE A UN
+    # ESCALÓN, no de golpe: antes, un problema con la placa se llevaba puesto también al
+    # isologo y el reel salía sin ninguna marca (2026-09-17). Ahora, si la placa molesta,
+    # el reel conserva el logo y el texto.
+    _DEGRADADO.clear()
+    pelado = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0.0,
+                  recorte=None, encuadre=None, marca_texto=False)
+    escalones = [("completo", marca)]
+    if placa:
+        escalones.append(("sin la placa de cierre", {**marca, "placa": None, "seg_placa": 0.0}))
+    if fondo or logo_png or overlay_png or placa or recorte:
+        escalones.append(("pelado, sin ninguna marca", pelado))
+
+    ultimo = None
+    for i, (nombre, args) in enumerate(escalones):
+        try:
+            _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **args)
+        except Exception as e:                                   # noqa: BLE001
+            ultimo = e
+            if i == len(escalones) - 1:
+                raise
+            logger.error(f"El reel {nombre} falló: {e}. Pruebo bajando un escalón.")
+            continue
+        marca = args
+        if i:
+            _DEGRADADO.update(nivel=nombre, motivo=str(ultimo))
+            logger.error(f"⚠️ El reel salió {nombre.upper()}. Motivo: {ultimo}")
+        break
     logger.info(
         f"Reel vertical armado: {salida}"
         + (f" (recortado a {max_seconds}s)" if max_seconds else "")
