@@ -14229,12 +14229,32 @@
     "zocalo": "",
     "draft_id": "ddfcf7a9-6c59-4a25-a824-40c8e7d0ff94",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mu5oz6vo0ru5-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-17T15:36:04.243Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-17T15:36:04.243Z — wa:5492346417636",
+    "tiktok_publish_id": "v_inbox_file~v2.7686530267519059975",
+    "tiktok_modo": "bandeja",
+    "fecha_publicado": "2026-09-17T12:45:14",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "en borradores",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18150387565554779",
+    "fb_video_id": "1377775684476730",
+    "yt_video_id": "jPYWdCES4vk",
+    "yt_url": "https://www.youtube.com/shorts/jPYWdCES4vk",
+    "yt_watch_url": "https://www.youtube.com/watch?v=jPYWdCES4vk",
+    "yt_titulo": "Jornada de Robótica en la Escuela de Educación Técnica",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-17T12:45:14",
+    "yt_metrics": {}
   }
 ]
