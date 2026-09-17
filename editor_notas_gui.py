@@ -25,6 +25,30 @@ import calendario_tk
 
 NARANJA = "#e2620c"
 ROJO = "#b00020"
+MAX_FOTOS_AVISO = 10        # el tope del carrusel de Instagram
+
+
+def _horarios(texto: str) -> list[str]:
+    """Los horarios escritos a mano, normalizados a HH:MM y ordenados.
+
+    Se acepta cualquier cosa razonable —«9», «9:30», «09.30», «18 30»— porque quien
+    carga una campaña está apurado y no tiene por qué acordarse de un formato. Lo que
+    no se entiende se descarta en silencio: el resumen de confirmación muestra los
+    horarios que quedaron, así que un error se ve antes de guardar.
+    """
+    import re as _re
+    salida = []
+    for pedazo in _re.split(r"[,;]+", texto or ""):
+        pedazo = pedazo.strip()
+        if not pedazo:
+            continue
+        m = _re.match(r"^(\d{1,2})(?:[:.\s](\d{1,2}))?$", pedazo)
+        if not m:
+            continue
+        hh, mm = int(m.group(1)), int(m.group(2) or 0)
+        if 0 <= hh <= 23 and 0 <= mm <= 59:
+            salida.append(f"{hh:02d}:{mm:02d}")
+    return sorted(set(salida))
 
 
 def parrafos_desde_texto(raw: str) -> list:
@@ -417,7 +441,7 @@ class EditorNotas:
 
         r1 = ttk.Frame(alta)
         r1.pack(fill="x", padx=10, pady=(8, 2))
-        ttk.Label(r1, text="Imagen o video:", width=15).pack(side="left")
+        ttk.Label(r1, text="Fotos o video:", width=15).pack(side="left")
         self.aviso_file_var = tk.StringVar()
         ttk.Entry(r1, textvariable=self.aviso_file_var, state="readonly").pack(
             side="left", fill="x", expand=True)
@@ -467,8 +491,48 @@ class EditorNotas:
         self.aviso_forma_var = tk.StringVar(value="ancha")
         self.aviso_fb_var = tk.BooleanVar(value=False)
         self.aviso_ig_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var).pack(side="left", padx=(12, 0))
-        ttk.Checkbutton(r5, text="Instagram", variable=self.aviso_ig_var).pack(side="left", padx=(8, 0))
+        ttk.Checkbutton(r5, text="Facebook", variable=self.aviso_fb_var,
+                        command=self._aviso_redes_cambiaron).pack(side="left", padx=(12, 0))
+        ttk.Checkbutton(r5, text="Instagram", variable=self.aviso_ig_var,
+                        command=self._aviso_redes_cambiaron).pack(side="left", padx=(8, 0))
+
+        # ── cómo sale en las redes ──
+        # Se habilita sola al tildar Facebook o Instagram: sin redes elegidas no hay
+        # formato que elegir. Los valores por defecto los pone `_aviso_medido` según
+        # lo que sea la pieza (una foto arranca en publicación, un video en reel).
+        r5b = ttk.Frame(alta)
+        r5b.pack(fill="x", padx=10, pady=2)
+        ttk.Label(r5b, text="Cómo sale:", width=15).pack(side="left")
+        self.aviso_feed_var = tk.BooleanVar(value=True)
+        self.aviso_reel_var = tk.BooleanVar(value=False)
+        self.aviso_hist_var = tk.BooleanVar(value=True)
+        self.aviso_formato_chks = []
+        for texto_chk, var in (("Publicación / carrusel", self.aviso_feed_var),
+                               ("Reel", self.aviso_reel_var),
+                               ("Historia", self.aviso_hist_var)):
+            c = ttk.Checkbutton(r5b, text=texto_chk, variable=var, state="disabled")
+            c.pack(side="left", padx=(0, 10))
+            self.aviso_formato_chks.append(c)
+
+        # ── repetición semanal ──
+        r5c = ttk.Frame(alta)
+        r5c.pack(fill="x", padx=10, pady=2)
+        ttk.Label(r5c, text="Repetir:", width=15).pack(side="left")
+        self.aviso_dias_vars = []
+        # Las dos iniciales repetidas (M de martes y de miércoles, S de sábado) son las
+        # de siempre en un calendario; el tooltip del día lo aclara al pasar el mouse.
+        for i, (inicial, dia) in enumerate(zip("LMMJVSD",
+                ("lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"))):
+            v = tk.BooleanVar(value=False)
+            c = tk.Checkbutton(r5c, text=inicial, variable=v, indicatoron=False,
+                               width=3, relief="raised", selectcolor=NARANJA,
+                               font=("Segoe UI", 9, "bold"), cursor="hand2")
+            c.pack(side="left", padx=1)
+            self.aviso_dias_vars.append(v)
+        ttk.Label(r5c, text="  a las ").pack(side="left")
+        self.aviso_horas_var = tk.StringVar()
+        ttk.Entry(r5c, textvariable=self.aviso_horas_var, width=22).pack(side="left")
+        ttk.Label(r5c, text=" (ej: 09:00, 18:30)", foreground="#777").pack(side="left")
 
         self.aviso_medida_lbl = ttk.Label(alta, text="", foreground=NARANJA)
         self.aviso_medida_lbl.pack(anchor="w", padx=10, pady=(2, 0))
@@ -482,8 +546,10 @@ class EditorNotas:
         ttk.Label(alta, foreground="#777", wraplength=700, justify="left",
                   text="Fechas con el botón 📅 o a mano en dd/mm/aaaa. «Sale el» vacío = entra ya; "
                        "«Termina el» vacío = no termina nunca.\n"
-                       "El tamaño de la pieza lo mide el programa solo y de ahí sale en qué hueco "
-                       "de la web encaja y cómo sale en las redes.\n"
+                       "Se pueden elegir hasta 10 fotos: van como carrusel, y si pedís reel o "
+                       "historia se pegan en un video con tiempos parejos.\n"
+                       "«Repetir» sin días = sale UNA vez. Con días y horarios, sale en cada uno "
+                       "hasta la fecha de fin, y en la web se ve solo esos días.\n"
                        "La fecha de fin es un FRENO: deja de salir y el aviso se va de la web. "
                        "Lo ya posteado en Facebook e Instagram no se borra."
                   ).pack(anchor="w", padx=10, pady=(2, 0))
@@ -905,36 +971,98 @@ class EditorNotas:
             self._aviso_thumb_ref = None
 
     def on_aviso_elegir_archivo(self):
-        ruta = filedialog.askopenfilename(
-            title="Elegí la imagen o el video de la publicidad",
+        rutas = filedialog.askopenfilenames(
+            title="Elegí la/s foto/s o el video de la publicidad",
             filetypes=[("Imágenes y video", "*.jpg *.jpeg *.png *.webp *.gif *.mp4 *.webm"),
                        ("Imágenes", "*.jpg *.jpeg *.png *.webp *.gif"),
                        ("Video", "*.mp4 *.webm"),
                        ("Todos", "*.*")])
-        if not ruta:
+        if not rutas:
             return
-        self.aviso_file = ruta
-        self.aviso_file_var.set(ruta)
+        rutas = list(rutas)
+        videos = [r for r in rutas if str(r).lower().endswith((".mp4", ".webm", ".mov"))]
+        if videos and len(rutas) > 1:
+            messagebox.showinfo(
+                "Un video por vez",
+                "Un video va solo. Si querés varias piezas, que sean todas fotos: "
+                "salen como carrusel, y para el reel o la historia se pegan en un video.")
+            return
+        if len(rutas) > MAX_FOTOS_AVISO:
+            messagebox.showinfo(
+                "Son muchas",
+                "Instagram admite hasta " + str(MAX_FOTOS_AVISO) + " fotos por carrusel. "
+                "Me quedo con las primeras " + str(MAX_FOTOS_AVISO) + ".")
+            rutas = rutas[:MAX_FOTOS_AVISO]
+
+        self.aviso_files = rutas
+        self.aviso_file = rutas[0]          # la que va a la web y la que se mide
+        self.aviso_file_var.set(rutas[0] if len(rutas) == 1
+                                else str(len(rutas)) + " fotos · " +
+                                     ", ".join(Path(r).name for r in rutas))
         if not self.aviso_nombre_var.get().strip():
-            sugerido = Path(ruta).stem.replace("-", " ").replace("_", " ").strip().title()
+            sugerido = Path(rutas[0]).stem.replace("-", " ").replace("_", " ").strip().title()
             self.aviso_nombre_var.set(sugerido)
-        # Medir la pieza y acomodar la forma sola. Se puede cambiar a mano después:
-        # el combo queda habilitado, esto solo pone el valor que corresponde.
+        # Medir la pieza: de ahí salen la forma del hueco de la web y los formatos que
+        # se marcan solos.
         self.aviso_medida_lbl.config(text="Midiendo la pieza…")
-        self.run_bg(lambda: avisos_web.medir(ruta), self._aviso_medido,
+        self.run_bg(lambda: avisos_web.medir(rutas[0]), self._aviso_medido,
                     busy="Midiendo la pieza…")
 
     def _aviso_medido(self, m):
+        cuantas = len(getattr(self, "aviso_files", None) or [])
         if not m or not m.get("ancho"):
             self.aviso_medida_lbl.config(
                 text="No pude medir la pieza; dejo la forma en «" +
-                     self.aviso_forma_var.get() + "». Elegila a mano si no es esa.")
+                     self.aviso_forma_var.get() + "».")
             return
         self.aviso_forma_var.set(m["forma"])
-        self.aviso_medida_lbl.config(
-            text="Detectado: " + str(m["ancho"]) + "×" + str(m["alto"]) + " (" +
-                 m["orientacion"] + ")  →  forma «" + m["forma"] + "»  ·  en redes: " +
-                 avisos_web.como_sale(m))
+        # Los formatos se marcan solos según lo que sea: un video arranca en reel, las
+        # fotos en publicación. La historia va siempre, que es lo que se hacía antes.
+        # Todo esto se puede destildar: es un punto de partida, no una decisión.
+        es_video = bool(m.get("es_video"))
+        self.aviso_feed_var.set(not es_video)
+        self.aviso_reel_var.set(es_video)
+        self.aviso_hist_var.set(True)
+        self._aviso_redes_cambiaron()
+
+        detalle = ("Detectado: " + str(m["ancho"]) + "×" + str(m["alto"]) + " (" +
+                   m["orientacion"] + ")  →  hueco de la web «" + m["forma"] + "»")
+        if cuantas > 1:
+            detalle += "  ·  " + str(cuantas) + " fotos"
+        self.aviso_medida_lbl.config(text=detalle + "  ·  " + self._aviso_como_sale())
+
+    def _aviso_como_sale(self) -> str:
+        """La frase de lo que va a salir en las redes, con lo que está tildado ahora."""
+        import avisos_piezas
+        cuantas = len(getattr(self, "aviso_files", None) or []) or 1
+        tipo = "video" if str(self.aviso_file or "").lower().endswith(
+            (".mp4", ".webm", ".mov")) else "foto"
+        return "en redes: " + avisos_piezas.como_sale(tipo, self._aviso_formatos(), cuantas)
+
+    def _aviso_formatos(self) -> list:
+        return [f for f, v in (("feed", self.aviso_feed_var),
+                               ("reel", self.aviso_reel_var),
+                               ("historia", self.aviso_hist_var)) if v.get()]
+
+    def _aviso_redes_cambiaron(self):
+        """Los formatos solo tienen sentido si hay alguna red tildada."""
+        hay = bool(self.aviso_fb_var.get() or self.aviso_ig_var.get())
+        for c in self.aviso_formato_chks:
+            c.config(state="normal" if hay else "disabled")
+
+    def _aviso_agenda(self) -> dict | None:
+        """Los días y horarios tildados, o None si no se pidió repetición."""
+        dias = [i for i, v in enumerate(self.aviso_dias_vars) if v.get()]
+        horas = _horarios(self.aviso_horas_var.get())
+        if not dias and not horas:
+            return None
+        if not dias:
+            raise ValueError("Pusiste horarios pero ningún día. Marcá los días de la "
+                             "semana en que tiene que salir.")
+        if not horas:
+            raise ValueError("Marcaste días pero no pusiste ningún horario. Escribilos "
+                             "en «a las», por ejemplo: 09:00, 18:30")
+        return {"dias": dias, "horas": horas}
 
     def _fecha_iso(self, var_fecha, var_hora, etiqueta):
         """dd/mm/aaaa + hh:mm  ->  ISO con el huso de Argentina. Vacío da None.
@@ -958,11 +1086,14 @@ class EditorNotas:
                          "». Va en dd/mm/aaaa y hh:mm.")
 
     def on_aviso_agregar(self):
-        archivo = self.aviso_file
+        import publicidades_programadas as pp
+
+        archivos = getattr(self, "aviso_files", None) or (
+            [self.aviso_file] if self.aviso_file else [])
         nombre = self.aviso_nombre_var.get().strip()
         link = self.aviso_link_var.get().strip()
-        if not archivo:
-            messagebox.showinfo("Falta el archivo", "Elegí la imagen o el video de la publicidad.")
+        if not archivos:
+            messagebox.showinfo("Falta el archivo", "Elegí la/s foto/s o el video de la publicidad.")
             return
         if not nombre:
             messagebox.showinfo("Falta el nombre", "Escribí el nombre del anunciante.")
@@ -970,13 +1101,20 @@ class EditorNotas:
         try:
             desde = self._fecha_iso(self.aviso_desde_f, self.aviso_desde_h, "Sale el")
             hasta = self._fecha_iso(self.aviso_hasta_f, self.aviso_hasta_h, "Termina el")
+            agenda = self._aviso_agenda()
         except ValueError as e:
-            messagebox.showerror("Fecha mal escrita", str(e))
+            messagebox.showerror("Revisá la programación", str(e))
             return
         if desde and hasta and hasta <= desde:
             messagebox.showerror("Fechas al revés",
                                  "La campaña termina antes de empezar. Revisá las fechas.")
             return
+        if agenda and not hasta:
+            if not messagebox.askyesno(
+                    "Sin fecha de fin",
+                    "Marcaste días para repetir pero no pusiste «Termina el». La campaña "
+                    "va a salir todas las semanas hasta que la frenes a mano.\n\n¿Seguimos?"):
+                return
 
         en_web = bool(self.aviso_web_var.get())
         redes = []
@@ -988,25 +1126,47 @@ class EditorNotas:
             messagebox.showinfo("Falta el destino",
                                 "Elegí al menos uno: la web, Facebook o Instagram.")
             return
+        formatos = self._aviso_formatos()
+        if redes and not formatos:
+            messagebox.showinfo("Falta el formato",
+                                "Elegí cómo sale en las redes: publicación/carrusel, "
+                                "reel o historia.")
+            return
         texto = self.aviso_texto_var.get().strip()
         forma = self.aviso_forma_var.get() or "ancha"
-        es_video = str(archivo).lower().endswith((".mp4", ".webm", ".mov"))
 
-        cuando = ("ya" if not desde else "el " + self.aviso_desde_f.get().strip() +
-                  " a las " + self.aviso_desde_h.get().strip())
-        lineas = ["Anunciante: " + nombre, "Arranca: " + cuando]
-        if hasta:
-            lineas.append("Termina: el " + self.aviso_hasta_f.get().strip() +
-                          " a las " + self.aviso_hasta_h.get().strip())
+        # ── el resumen, para que se lea antes de que salga ──
+        lineas = ["Anunciante: " + nombre]
+        if len(archivos) > 1:
+            lineas.append("Piezas: " + str(len(archivos)) + " fotos")
+        if agenda:
+            lineas.append("Sale: " + pp.describir_agenda(agenda))
+            lineas.append("Desde: " + ("ya" if not desde else "el " +
+                          self.aviso_desde_f.get().strip()))
         else:
-            lineas.append("Termina: no tiene fecha de fin")
+            lineas.append("Sale: " + ("ya" if not desde else "el " +
+                          self.aviso_desde_f.get().strip() + " a las " +
+                          self.aviso_desde_h.get().strip()) + " (una sola vez)")
+        lineas.append("Termina: " + ("no tiene fecha de fin" if not hasta else
+                      "el " + self.aviso_hasta_f.get().strip() + " a las " +
+                      self.aviso_hasta_h.get().strip()))
         lineas.append("")
-        lineas.append("Web: " + ("sí, forma " + forma if en_web else "no"))
+        if en_web:
+            web = "sí, en el hueco «" + forma + "»"
+            if agenda:
+                web += " (solo los días elegidos)"
+            if len(archivos) > 1:
+                web += " · en la web entra solo la primera foto"
+        else:
+            web = "no"
+        lineas.append("Web: " + web)
         if redes:
-            como = "reel + historia" if es_video else "publicación + historia"
+            import avisos_piezas
+            tipo = "video" if str(archivos[0]).lower().endswith(
+                (".mp4", ".webm", ".mov")) else "foto"
             lineas.append("Redes: " + " y ".join(
                 {"facebook": "Facebook", "instagram": "Instagram"}[r] for r in redes) +
-                " (" + como + ")")
+                " → " + avisos_piezas.como_sale(tipo, formatos, len(archivos)))
         else:
             lineas.append("Redes: no")
 
@@ -1019,20 +1179,25 @@ class EditorNotas:
             return
 
         self.run_bg(
-            lambda: avisos_web.programar(nombre, archivo, forma=forma, link=link,
+            lambda: avisos_web.programar(nombre, archivos, forma=forma, link=link,
                                          desde=desde, hasta=hasta, en_web=en_web,
-                                         redes=redes, texto=texto),
+                                         redes=redes, texto=texto,
+                                         formatos=formatos, agenda=agenda),
             self._aviso_agregado_ok, busy="Cargando la campaña…")
 
     def _aviso_agregado_ok(self, res):
+        import publicidades_programadas as pp
+
         # `programar()` devuelve {"aviso", "url", "programado"}; el alta simple, la entrada.
         entry = res.get("aviso", res) if isinstance(res, dict) else res
         trabajo = res.get("programado") if isinstance(res, dict) else None
         self.set_status("✅ Publicidad agregada: " + entry.get("nombre", ""), "#227a22")
         self.aviso_file = None
+        self.aviso_files = []
         self.aviso_file_var.set("")
         self.aviso_nombre_var.set("")
         self.aviso_link_var.set("")
+        self.aviso_medida_lbl.config(text="")
         achicado = (res.get("_optimizado") if isinstance(res, dict) else "") or \
                    entry.get("_optimizado") or ""
         partes = []
@@ -1043,6 +1208,10 @@ class EditorNotas:
                               entry["desde"][5:7] + " a las " + entry["desde"][11:16] + ".")
             else:
                 partes.append("Ya está en la web (tarda 1-2 minutos en verse).")
+            if entry.get("dias"):
+                dias = ("lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo")
+                partes.append("En la web se ve solo los " +
+                              ", ".join(dias[d] for d in entry["dias"]) + ".")
             if entry.get("hasta"):
                 partes.append("Sale sola el " + entry["hasta"][8:10] + "/" +
                               entry["hasta"][5:7] + " a las " + entry["hasta"][11:16] + ".")
@@ -1052,10 +1221,14 @@ class EditorNotas:
         if trabajo:
             redes = " y ".join({"facebook": "Facebook",
                                 "instagram": "Instagram"}[r] for r in trabajo["destinos"])
-            partes.append("El posteo en " + redes + " queda agendado para el " +
-                          trabajo["cuando"][8:10] + "/" + trabajo["cuando"][5:7] +
-                          " a las " + trabajo["cuando"][11:16] +
-                          ". Lo hace la nube, así que sale aunque la PC esté apagada.")
+            if trabajo.get("agenda"):
+                partes.append("En " + redes + " sale " +
+                              pp.describir_agenda(trabajo["agenda"]) + ".")
+            else:
+                partes.append("El posteo en " + redes + " queda agendado para el " +
+                              trabajo["cuando"][8:10] + "/" + trabajo["cuando"][5:7] +
+                              " a las " + trabajo["cuando"][11:16] + ".")
+            partes.append("Lo hace la nube, así que sale aunque la PC esté apagada.")
         if achicado:
             partes.append("Se comprimió antes de subirla: " + achicado + ".")
         messagebox.showinfo("Listo", chr(10).join(partes))

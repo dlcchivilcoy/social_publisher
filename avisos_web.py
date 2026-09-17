@@ -369,7 +369,8 @@ def _nombre_unico(dir_: Path, base: str, ext: str) -> str:
 
 # ── alta / baja ───────────────────────────────────────────────────────────────
 def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha",
-                  desde: str | None = None, hasta: str | None = None) -> dict:
+                  desde: str | None = None, hasta: str | None = None,
+                  dias: list[int] | None = None) -> dict:
     """Copia el archivo a public/avisos/, agrega la entrada al JSON y publica (git push)."""
     nombre = (nombre or "").strip()
     link = (link or "").strip()
@@ -398,6 +399,10 @@ def agregar_aviso(nombre: str, archivo: str, link: str = "", forma: str = "ancha
     entry["forma"] = forma or "ancha"
     if link:
         entry["link"] = link
+    # Dias de la semana en que se muestra (0 = lunes). Sin esto, se ve todos los dias.
+    # La web lo resuelve sola en cada visita; aca no hay ningun reloj.
+    if dias:
+        entry["dias"] = sorted({int(d) for d in dias if 0 <= int(d) <= 6})
     # Vigencia: la web sola muestra u oculta el aviso segun estas fechas
     # (diario_web/src/lib/avisos.js). Sin fechas, esta siempre visible.
     if desde:
@@ -572,56 +577,97 @@ def subir_pieza(nombre: str, archivo: str) -> tuple[str, str]:
     return fname, detalle
 
 
-def programar(nombre: str, archivo: str, forma: str = "", link: str = "",
+def programar(nombre: str, archivos, forma: str = "", link: str = "",
               desde: str | None = None, hasta: str | None = None,
               en_web: bool = True, redes: list[str] | None = None,
-              texto: str = "") -> dict:
+              texto: str = "", formatos: list[str] | None = None,
+              agenda: dict | None = None) -> dict:
     """Carga una campaña. Los tres destinos son INDEPENDIENTES entre sí.
 
     - `en_web`: entra al espacio de anunciantes, con sus fechas. Acepta cualquier
       archivo, imagen o video, del tamaño que sea; la `forma` dice en qué hueco
-      encaja. La web lo enciende y lo apaga sola: no hay reloj de por medio.
-    - `redes`: Facebook y/o Instagram. Ahí sí importa si es foto (publicación +
-      historia) o video (reel + historia), porque son formatos distintos.
+      encaja. La web lo enciende y lo apaga sola: no hay reloj de por medio. Si la
+      campaña trae `agenda`, además se muestra SOLO los días elegidos.
+    - `redes`: Facebook y/o Instagram, con los `formatos` que se pidan («feed» para
+      publicación o carrusel, «reel», «historia»).
 
-    Se puede pedir solo la web, solo las redes, o las tres cosas.
+    `archivos` puede ser uno solo o hasta diez FOTOS (el tope del carrusel de
+    Instagram). Un video va siempre solo. **En la web entra la primera pieza**: el
+    espacio de anunciantes muestra una, no un carrusel.
+
+    Con `agenda` la campaña se repite en esos días y horarios hasta la fecha de baja;
+    sin ella sale una sola vez, en la fecha de `desde` (o ya mismo).
     """
+    import avisos_piezas
+
+    if isinstance(archivos, (str, Path)):
+        archivos = [archivos]
+    archivos = [str(a) for a in (archivos or []) if a]
+    if not archivos:
+        raise ValueError("Elegí al menos un archivo.")
+    if len(archivos) > avisos_piezas.MAX_FOTOS:
+        raise ValueError(f"Hasta {avisos_piezas.MAX_FOTOS} fotos por campaña "
+                         "(es el tope del carrusel de Instagram).")
+
+    videos = [a for a in archivos if Path(a).suffix.lower() in VIDEO_EXTS]
+    if videos and len(archivos) > 1:
+        raise ValueError("Un video va solo. Varias piezas solo se admiten entre fotos.")
+
     redes = [r for r in (redes or []) if r]
     if not en_web and not redes:
         raise ValueError("Elegí al menos un destino: la web, Facebook o Instagram.")
+    if redes and not [f for f in (formatos or []) if f]:
+        raise ValueError("Elegí cómo sale en las redes: publicación, reel o historia.")
 
-    # Se mide una sola vez: de acá sale la forma (si no la eligieron a mano) y la
+    # Se mide la PRIMERA: de ahí sale la forma (si no la eligieron a mano) y la
     # orientación, que es lo que después decide reel o video común en Facebook.
-    medida = medir(archivo)
+    medida = medir(archivos[0])
     forma = forma or medida["forma"]
+    es_video = bool(videos)
+    dias = (agenda or {}).get("dias") or []
 
+    urls: list[str] = []
+    detalle = ""
     if en_web:
-        entry = agregar_aviso(nombre, archivo, link, forma, desde=desde, hasta=hasta)
+        entry = agregar_aviso(nombre, archivos[0], link, forma,
+                              desde=desde, hasta=hasta, dias=dias)
         rel = entry.get("img") or entry.get("video") or ""
         detalle = entry.get("_optimizado", "")
-        es_video = bool(entry.get("video"))
+        urls.append(_base_web() + rel)
     else:
         # Sin web, el archivo igual se sube: es de donde lo toman FB e IG.
-        fname, detalle = subir_pieza(nombre, archivo)
-        rel = f"/avisos/{fname}"
-        es_video = Path(fname).suffix.lower() in VIDEO_EXTS
+        fname, detalle = subir_pieza(nombre, archivos[0])
+        urls.append(_base_web() + f"/avisos/{fname}")
         entry = {"nombre": nombre}
         if desde:
             entry["desde"] = desde
         if hasta:
             entry["hasta"] = hasta
+        if dias:
+            entry["dias"] = sorted(dias)
 
-    url = _base_web() + rel
-    salida = {"aviso": entry, "url": url, "en_web": en_web, "medida": medida,
-              "programado": None, "_optimizado": detalle}
+    # Las fotos 2 a 10 no van a la web (el espacio muestra una sola): se suben nada
+    # más que para que Facebook e Instagram las puedan bajar.
+    for extra in archivos[1:]:
+        fname, _ = subir_pieza(f"{nombre} {Path(extra).stem}", extra)
+        urls.append(_base_web() + f"/avisos/{fname}")
+
+    salida = {"aviso": entry, "url": urls[0], "urls": urls, "en_web": en_web,
+              "medida": medida, "programado": None, "_optimizado": detalle}
 
     if redes:
         import publicidades_programadas as pp
-        cuando = desde or pp.ahora().isoformat(timespec="minutes")
         salida["programado"] = pp.agregar(
             nombre=nombre,
             tipo="video" if es_video else "foto",
-            url=url, texto=texto, cuando=cuando, destinos=redes, baja=hasta,
+            texto=texto,
+            urls=urls,
+            destinos=redes,
+            formatos=formatos,
+            agenda=agenda,
+            desde=desde,
+            baja=hasta,
+            cuando="" if agenda else (desde or pp.ahora().isoformat(timespec="minutes")),
             orientacion=medida["orientacion"],
         )
         pp.publicar_cola()
