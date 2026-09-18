@@ -18,6 +18,13 @@ PLACA_FINAL = ASSETS / "placa_final.png"    # placa de cierre 1080x1920 ("Seguin
 OVERLAY_REEL = ASSETS / "overlay_reel.png"  # marco 1080x1920 (esquinas + caja + barra web)
 FONDO_REEL = ASSETS / "fondo_reel.png"      # degradado naranja que enmarca el video
 FUENTE_ZOCALO = ASSETS / "fonts" / "Montserrat-Bold.ttf"
+# Tres tipografías, una por trabajo (2026-09-18). Montserrat es LA MARCA y no se toca; el
+# titular y el resumen usan otras porque tienen otro problema que resolver:
+#   · el TITULAR tiene que entrar en 2 renglones → una angosta permite letra más grande;
+#   · el RESUMEN se lee chico sobre una foto → una humanista aguanta mejor ese tamaño.
+# Si el archivo no está, se cae a Montserrat y el reel sale igual (solo lo avisa el log).
+FUENTE_TITULAR = ASSETS / "fonts" / "ArchivoNarrow-SemiBold.ttf"
+FUENTE_RESUMEN = ASSETS / "fonts" / "LibreFranklin-SemiBold.ttf"
 PLACA_SEG = 5.0                             # cuánto dura la placa de cierre
 FONDO_DIFUMINADO = 80                       # px de transición entre el video y el fondo
 # Rectángulo ÚTIL de la caja negra del overlay (medido sobre el PNG, en 1080x1920): es la
@@ -254,6 +261,41 @@ def _fuente_marca() -> str | None:
     return str(FUENTE_ZOCALO) if FUENTE_ZOCALO.exists() else _font_file()
 
 
+_FUENTES_AVISADAS: set = set()
+
+
+def _fuente_usable(ruta: Path) -> bool:
+    """¿PIL puede ABRIR de verdad este archivo como tipografía?
+
+    No alcanza con que exista: una descarga cortada o una página de error guardada con
+    nombre .ttf existen igual, y ahí PIL tira «unknown file format». Pasó el 2026-09-18 y
+    el reel salió SIN titular ni resumen — por un archivo basura de 268 KB."""
+    try:
+        from PIL import ImageFont
+        ImageFont.truetype(str(ruta), 24)
+        return True
+    except Exception:                                            # noqa: BLE001
+        return False
+
+
+def _fuente_banda(clave: str, archivo: Path) -> str | None:
+    """Tipografía del titular o del resumen, con respaldo.
+
+    Si el `.ttf` no está —o está pero no se puede abrir— cae a la de la marca en vez de
+    dejar el reel sin texto: falta una tipografía, no una noticia. Avisa UNA sola vez por
+    corrida para no llenar el log de la nube con el mismo renglón."""
+    valor = _cfg(clave, "")
+    ruta = Path(valor) if valor else archivo
+    if ruta.exists() and _fuente_usable(ruta):
+        return str(ruta)
+    if str(ruta) not in _FUENTES_AVISADAS:
+        _FUENTES_AVISADAS.add(str(ruta))
+        motivo = "no se puede abrir (¿descarga cortada?)" if ruta.exists() else "falta"
+        logger.warning(f"La tipografía {ruta.name} {motivo}; ese texto va con la de la marca. "
+                       f"Para usarla, dejá un .ttf válido en {ruta.parent} y commiteá.")
+    return _fuente_marca()
+
+
 def _ancho_texto(texto: str, fuente: str, cuerpo: int) -> int:
     """Ancho en px de ese texto. Sin PIL devuelve una estimación (no rompe el reel)."""
     try:
@@ -359,11 +401,15 @@ def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
     return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo)
 
 
-def bandas_layout(titular: str, resumen: str, fuente: str, ar: float | None = None) -> dict:
+def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
+                  ar: float | None = None) -> dict:
     """Dónde va cada cosa cuando el reel lleva titular arriba y resumen abajo.
 
     Devuelve `{arriba, abajo, y_media, alto_media}`; `arriba`/`abajo` son listas de
     `(texto, cuerpo, y)`. La IMAGEN va en el MEDIO, entre los dos textos.
+
+    `f_titular` y `f_resumen` son las tipografías de cada bloque: no son la misma, así que
+    cada uno se mide con la suya (el cuerpo que entra depende del dibujo de la letra).
 
     `ar` es la proporción (ancho/alto) del material. Con ella los textos se ACERCAN a la
     imagen: sin eso, una foto apaisada ocupa una franja fina en el centro y el titular
@@ -379,7 +425,7 @@ def bandas_layout(titular: str, resumen: str, fuente: str, ar: float | None = No
 
     # El titular arranca DEBAJO del bloque de marca (isologo + los dos medios + usuario).
     fin_marca = my + round(ancho_logo * 568 / 514)
-    renglones_marca, _, _, _ = _marca_layout(fuente)
+    renglones_marca, _, _, _ = _marca_layout(_fuente_marca())
     if renglones_marca:
         _, cuerpo_u, y_u = renglones_marca[-1]
         fin_marca = max(fin_marca, y_u + round(cuerpo_u * 1.3))
@@ -387,13 +433,13 @@ def bandas_layout(titular: str, resumen: str, fuente: str, ar: float | None = No
     # ── 1) Medir: cuánto ocupa cada texto, sin decidir todavía dónde va ──────
     t_cuerpo, t_lineas, t_salto, t_alto = 0, [], 0, 0
     if titular:
-        t_cuerpo, t_lineas = _cuerpo_para(titular, fuente, ancho, TITULAR_RENGLONES,
+        t_cuerpo, t_lineas = _cuerpo_para(titular, f_titular, ancho, TITULAR_RENGLONES,
                                           TITULAR_TAM_MAX, TITULAR_TAM_MIN)
         t_salto = round(t_cuerpo * 1.18)
         t_alto = len(t_lineas) * t_salto
     r_cuerpo, r_lineas, r_salto, r_alto = 0, [], 0, 0
     if resumen:
-        r_cuerpo, r_lineas = _cuerpo_para(resumen, fuente, ancho, RESUMEN_RENGLONES,
+        r_cuerpo, r_lineas = _cuerpo_para(resumen, f_resumen, ancho, RESUMEN_RENGLONES,
                                           RESUMEN_TAM_MAX, RESUMEN_TAM_MIN)
         r_salto = round(r_cuerpo * 1.28)
         r_alto = len(r_lineas) * r_salto
@@ -424,8 +470,8 @@ def bandas_layout(titular: str, resumen: str, fuente: str, ar: float | None = No
             if t_lineas:                                     # nunca se le encima al titular
                 y_r = max(y_r, y_t + t_alto + BANDA_AIRE)
 
-    arriba = [(l, t_cuerpo, y_t + i * t_salto) for i, l in enumerate(t_lineas)]
-    abajo = [(l, r_cuerpo, y_r + i * r_salto) for i, l in enumerate(r_lineas)]
+    arriba = [(l, t_cuerpo, y_t + i * t_salto, f_titular) for i, l in enumerate(t_lineas)]
+    abajo = [(l, r_cuerpo, y_r + i * r_salto, f_resumen) for i, l in enumerate(r_lineas)]
     return dict(arriba=arriba, abajo=abajo, y_media=y_media, alto_media=alto_media)
 
 
@@ -444,17 +490,18 @@ def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
     resumen = " ".join((resumen or "").split())
     if not titular and not resumen:
         return None
-    fuente = _fuente_marca()
-    if not fuente:
+    if not _fuente_marca():
         logger.warning("Sin tipografía para el titular del reel; el reel va sin bandas.")
         return None
+    f_titular = _fuente_banda("REEL_FUENTE_TITULAR", FUENTE_TITULAR)
+    f_resumen = _fuente_banda("REEL_FUENTE_RESUMEN", FUENTE_RESUMEN)
     try:
         from PIL import Image, ImageDraw, ImageFont
     except Exception as e:                                       # noqa: BLE001
         logger.warning(f"Sin PIL para dibujar el titular ({e}); el reel va sin bandas.")
         return None
 
-    caja = bandas_layout(titular, resumen, fuente, ar=ar)
+    caja = bandas_layout(titular, resumen, f_titular, f_resumen, ar=ar)
     if not caja["arriba"] and not caja["abajo"]:
         return None
 
@@ -467,8 +514,8 @@ def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
         # CENTRADO: `anchor="ma"` ancla cada renglón por su MEDIO (y por el ascendente,
         # igual que antes), así que la `x` pasa a ser el centro del cuadro.
         cx = 1080 // 2
-        for linea, cuerpo, y in caja["arriba"] + caja["abajo"]:
-            f = ImageFont.truetype(fuente, cuerpo)
+        for linea, cuerpo, y, tipo in caja["arriba"] + caja["abajo"]:
+            f = ImageFont.truetype(tipo, cuerpo)
             dibujo.text((cx + 2, y + 2), linea, font=f, fill=NEGRO, anchor="ma")
             dibujo.text((cx, y), linea, font=f, fill=BLANCO, anchor="ma",
                         stroke_width=borde, stroke_fill=NEGRO)
@@ -478,8 +525,10 @@ def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
     except Exception as e:                                       # noqa: BLE001
         logger.warning(f"No pude dibujar el titular del reel ({e}); va sin bandas.")
         return None
-    logger.info(f"Bandas del reel: titular en {len(caja['arriba'])} renglón/es, resumen en "
-                f"{len(caja['abajo'])} · hueco de {caja['alto_media']}px desde y={caja['y_media']}")
+    logger.info(f"Bandas del reel: titular en {len(caja['arriba'])} renglón/es "
+                f"({Path(f_titular).stem}), resumen en {len(caja['abajo'])} "
+                f"({Path(f_resumen).stem}) · hueco de {caja['alto_media']}px "
+                f"desde y={caja['y_media']}")
     return salida, caja["y_media"], caja["alto_media"]
 
 
