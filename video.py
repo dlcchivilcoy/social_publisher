@@ -129,11 +129,44 @@ def has_audio(src) -> bool:
     return "Audio:" in (r.stderr or "")
 
 
+def _sin_giro() -> str:
+    """Filtro que BORRA la «matriz de pantalla» de los cuadros. `null` si no está.
+
+    Un video de celular puede venir grabado apaisado y traer aparte un cartel que dice
+    «mostrame girado 90°». ffmpeg lo aplica solo al decodificar (los cuadros salen
+    derechos) pero después ARRASTRA el cartel hasta la salida, así que el reel termina
+    derecho por dentro y acostado en la pantalla. Y si ese archivo se vuelve a procesar,
+    lo gira otra vez.
+
+    Ojo: `-metadata:s:v:0 rotate=0` NO alcanza (probado 2026-09-18) porque el cartel viaja
+    como side data del cuadro, no como metadato del contenedor. Hay que borrarlo del cuadro.
+
+    Va SOLO donde se re-codifica. Donde se copia el video tal cual (`-c copy`) el cartel
+    tiene que quedarse: ahí los cuadros siguen guardados de costado y es el cartel el que
+    los endereza."""
+    return ("sidedata=mode=delete:type=DISPLAYMATRIX"
+            if tiene_filtro("sidedata") else "null")
+
+
 def _dimensiones(src) -> tuple[int, int]:
-    """Ancho y alto del video (parseando la salida de ffmpeg). (0, 0) si no se puede."""
+    """Ancho y alto del video TAL COMO SE VE. (0, 0) si no se puede.
+
+    Con un video girado (ver `_sin_giro`) la ficha del archivo miente: dice 1920x1080 y los
+    cuadros salen 1080x1920. Si se le cree a la ficha, el reel sale ARRUINADO y sin avisar:
+    el código lo toma por apaisado, lo aplasta a un tercio de su alto y encima la salida
+    hereda el giro, con lo cual queda todo acostado (probado 2026-09-18)."""
     r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
-    m = re.search(r"Video:.*?[\s,](\d{2,5})x(\d{2,5})[\s,]", r.stderr or "")
-    return (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+    err = r.stderr or ""
+    m = re.search(r"Video:.*?[\s,](\d{2,5})x(\d{2,5})[\s,]", err)
+    if not m:
+        return (0, 0)
+    ancho, alto = int(m.group(1)), int(m.group(2))
+    giro = re.search(r"rotation of\s+(-?[\d.]+)\s+degrees", err)
+    if giro and round(abs(float(giro.group(1)))) % 180 == 90:
+        logger.info(f"El video viene girado {giro.group(1)}°: se ve {alto}x{ancho} y no "
+                    f"{ancho}x{alto}. Lo trato por cómo se ve.")
+        return alto, ancho
+    return ancho, alto
 
 
 def detectar_recorte(src) -> tuple[int, int, int, int] | None:
@@ -1118,7 +1151,7 @@ def concat_videos(paths, salida, *, w: int = 1080, h: int = 1920):
     salida.parent.mkdir(parents=True, exist_ok=True)
     partes_dir = salida.parent / (salida.stem + "_parts")
     partes_dir.mkdir(exist_ok=True)
-    vf = (f"scale={w}:{h}:force_original_aspect_ratio=decrease,"
+    vf = (f"{_sin_giro()},scale={w}:{h}:force_original_aspect_ratio=decrease,"
           f"pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:black,setsar=1,fps=30,format=yuv420p")
     partes = []
     for i, p in enumerate(ps):
@@ -1280,8 +1313,13 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     con_audio = audio and has_audio(src)
     # Si el video trae barras negras horneadas, se las sacamos ANTES de todo, así el
     # contenido real es lo que se escala y el fondo naranja ocupa donde estaba el negro.
-    pre = f"[0:v]crop={recorte[0]}:{recorte[1]}:{recorte[2]}:{recorte[3]}[src0];" if recorte else ""
-    v0 = "[src0]" if recorte else "[0:v]"
+    # Primer paso SIEMPRE: sacarle el cartel de giro al video (ver `_sin_giro`), porque si
+    # no, el reel entero sale acostado en Instagram y Facebook.
+    cadena = _sin_giro()
+    if recorte:
+        cadena += f",crop={recorte[0]}:{recorte[1]}:{recorte[2]}:{recorte[3]}"
+    pre = f"[0:v]{cadena}[src0];"
+    v0 = "[src0]"
     # ESTILO PLACA: el texto va arriba y la imagen FULL BLEED abajo, fundida con el fondo
     # por su borde de arriba. Sin placa, la imagen ocupa el cuadro entero como siempre.
     ym = texto_placa[1] if texto_placa else 0
@@ -1723,7 +1761,7 @@ def best_parts_clip(src, segmentos, salida, *, max_total: float = 60.0) -> Path 
         out = tmpdir / f"_seg{i}.mp4"
         d = fin - ini
         fo = max(0.0, d - 0.3)  # fade-out: arranca 0.3s antes del final
-        vf = f"fade=t=in:st=0:d=0.3,fade=t=out:st={fo:.2f}:d=0.3"
+        vf = f"{_sin_giro()},fade=t=in:st=0:d=0.3,fade=t=out:st={fo:.2f}:d=0.3"
         af = f"afade=t=in:st=0:d=0.3,afade=t=out:st={fo:.2f}:d=0.3"
         # -ss DESPUÉS de -i = corte preciso al frame (el tramo arranca/termina donde dijo Gemini).
         cmd = [ff, "-y", "-i", str(src), "-ss", str(ini), "-t", str(d),
@@ -1767,7 +1805,8 @@ def remux_mp4(src, salida) -> Path:
     try:
         _run_ffmpeg([ff, "-y", "-i", str(src), "-c", "copy", str(salida)], "remux mp4")
     except Exception:
-        _run_ffmpeg([ff, "-y", "-i", str(src), "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+        _run_ffmpeg([ff, "-y", "-i", str(src), "-vf", _sin_giro(),
+                     "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
                      "-c:a", "aac", str(salida)], "re-encode mp4")
     return salida
 
@@ -1854,7 +1893,7 @@ def reparar_metadatos(src, salida) -> Path | None:
         logger.warning(f"No pude reparar los metadatos por bitstream ({e}); pruebo re-codificando.")
     # Respaldo: re-codificar forzando el color (más lento, pero salva videos muy rotos).
     try:
-        _run_ffmpeg([_ffmpeg(), "-y", "-i", str(src),
+        _run_ffmpeg([_ffmpeg(), "-y", "-i", str(src), "-vf", _sin_giro(),
                      "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
                      "-color_range", "tv", "-colorspace", "bt709",
                      "-color_primaries", "bt709", "-color_trc", "bt709",
