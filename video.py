@@ -81,6 +81,10 @@ PLACA_TITULAR_RENGLONES = 3
 PLACA_BAJADA_TAM = 44
 PLACA_BAJADA_MIN = 30
 PLACA_BAJADA_RENGLONES = 2
+# Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
+# entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
+# aunque el apellido caiga al renglón siguiente.
+PLACA_NOMBRE_COSTO = 8
 PLACA_IMG_MIN = 980           # la imagen nunca ocupa menos que esto (51% del cuadro)
 PLACA_FUNDIDO = 240           # px de transición entre el fondo y la imagen
 # Gris oscuro SÓLIDO detrás del texto de arriba (pedido del usuario 2026-09-18). Es un gris
@@ -351,8 +355,83 @@ def _tipo(ruta: str, cuerpo: int, peso: str = ""):
     return f
 
 
+# Une las palabras que NO se pueden separar en dos renglones. Para el ojo es un espacio
+# común (se cambia por uno antes de dibujar); para el cortador, la pareja es UNA palabra.
+_PEGA = "\u0001"
+
+
+def _es_propio(palabra: str) -> bool:
+    """¿Esta palabra parece parte de un nombre propio? (`Seba`, `Bravo`, `San`…)
+
+    Arranca en mayúscula y no cierra frase: si termina en punto, coma o dos puntos, ahí SÍ
+    se puede cortar, porque lo que sigue ya es otra idea («Chivilcoy: El intendente…»)."""
+    limpia = palabra.strip("«»\"'¿¡()[]—-")
+    if not limpia or not limpia[0].isupper():
+        return False
+    return limpia[-1] not in ".,;:!?…"
+
+
+def _unir_nombres(texto: str) -> str:
+    """Pega las tiras de palabras que empiezan en mayúscula seguidas.
+
+    Un nombre partido entre dos renglones se lee mal: «Memi Mesplet y Seba / Bravo presentan»
+    hace que el apellido parezca colgar de otra cosa (pedido del usuario 2026-09-18).
+
+    Se pegan SOLO mayúsculas consecutivas, sin partículas en el medio. Así «Seba Bravo» y
+    «San Luis» quedan juntos, pero «Memi Mesplet y Seba Bravo» no se convierte en un ladrillo
+    de cinco palabras: la «y» minúscula corta la tira.
+
+    Si el texto viene TODO EN MAYÚSCULAS no se pega nada: ahí la mayúscula no distingue un
+    nombre de una palabra cualquiera, y pegar todo terminaría en un renglón imposible."""
+    if not any(c.islower() for c in (texto or "")):
+        return (texto or "").strip()
+    palabras = [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+    salida: list = []
+    for p in palabras:
+        if salida and _es_propio(p) and _es_propio(salida[-1].rsplit(_PEGA, 1)[-1]):
+            salida[-1] += _PEGA + p
+        else:
+            salida.append(p)
+    return " ".join(salida)
+
+
+def _palabras(texto: str, fuente: str, cuerpo: int, ancho: int, peso: str = "",
+              pegar: bool = True) -> list:
+    """Las palabras a repartir en renglones, con los nombres propios ya pegados.
+
+    Si una tira pegada no entra ELLA SOLA en el renglón, no se hace polvo: se parte en los
+    pedazos más grandes que sí entren. «Domingo Faustino Sarmiento» prefiere quedar como
+    «Domingo Faustino» + «Sarmiento» antes que soltar las tres palabras por separado."""
+    if not pegar:
+        return [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+    palabras: list = []
+    for p in re.split(r"\s+", _unir_nombres(texto)):
+        if not p:
+            continue
+        if _PEGA not in p or _ancho_texto(p, fuente, cuerpo, peso) <= ancho:
+            palabras.append(p)
+            continue
+        trozo = ""
+        for palabra in p.split(_PEGA):
+            prueba = f"{trozo}{_PEGA}{palabra}" if trozo else palabra
+            if trozo and _ancho_texto(prueba, fuente, cuerpo, peso) > ancho:
+                palabras.append(trozo)
+                trozo = palabra
+            else:
+                trozo = prueba
+        if trozo:
+            palabras.append(trozo)
+    return palabras
+
+
+def _despegar(renglones: list) -> list:
+    """Saca el pegamento: lo que se dibuja lleva espacios de verdad."""
+    return [r.replace(_PEGA, " ") for r in renglones]
+
+
 def _ancho_texto(texto: str, fuente: str, cuerpo: int, peso: str = "") -> int:
     """Ancho en px de ese texto. Sin PIL devuelve una estimación (no rompe el reel)."""
+    texto = texto.replace(_PEGA, " ")     # el pegamento de los nombres mide como un espacio
     try:
         return int(_tipo(fuente, cuerpo, peso).getlength(texto))
     except Exception:  # noqa: BLE001
@@ -425,12 +504,13 @@ def _alto_bloque(n: int, salto: int, fuente: str, cuerpo: int, peso: str = "") -
 
 
 def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
-              peso: str = "") -> list:
+              peso: str = "", pegar: bool = True) -> list:
     """Parte `texto` en renglones que entren en `ancho`, hasta `maximo` renglones.
 
     Si sobra texto, el último renglón termina en «…»: así se ve que quedó cortado, en vez
-    de que el titular parezca decir otra cosa."""
-    palabras = [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+    de que el titular parezca decir otra cosa. Con `pegar` (lo normal) nombre y apellido
+    viajan juntos: ver `_unir_nombres`."""
+    palabras = _palabras(texto, fuente, cuerpo, ancho, peso, pegar)
     if not palabras:
         return []
     renglones: list = []
@@ -459,12 +539,16 @@ def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
         while ultimo and _ancho_texto(ultimo + "…", fuente, cuerpo, peso) > ancho:
             ultimo = ultimo.rsplit(" ", 1)[0] if " " in ultimo else ultimo[:-1]
         renglones[-1] = (ultimo + "…") if ultimo else "…"
-    return renglones
+    return _despegar(renglones)
 
 
-def _cortar_libre(texto: str, fuente: str, cuerpo: int, ancho: int, peso: str = "") -> list:
-    """Corta el texto en cuantos renglones haga falta para que entren en `ancho`. Sin tope."""
-    palabras = [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+def _cortar_libre(texto: str, fuente: str, cuerpo: int, ancho: int, peso: str = "",
+                  palabras: list | None = None) -> list:
+    """Corta el texto en cuantos renglones haga falta para que entren en `ancho`. Sin tope.
+
+    `palabras` viene de afuera cuando quien llama ya las calculó con el ancho DE VERDAD
+    (ver `_emparejar`): así una prueba con un ancho angosto no despega un nombre."""
+    palabras = palabras if palabras is not None else _palabras(texto, fuente, cuerpo, ancho, peso)
     renglones, actual = [], ""
     for p in palabras:
         prueba = f"{actual} {p}".strip()
@@ -475,11 +559,11 @@ def _cortar_libre(texto: str, fuente: str, cuerpo: int, ancho: int, peso: str = 
             actual = prueba
     if actual:
         renglones.append(actual)
-    return renglones
+    return _despegar(renglones)
 
 
 def _emparejar(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
-               peso: str = "") -> list:
+               peso: str = "", pegar: bool = True) -> list:
     """Reparte el texto en renglones PAREJOS, sin cambiar cuántos son.
 
     El corte normal es glotón: llena cada renglón hasta el tope y lo que sobra cae al
@@ -489,15 +573,18 @@ def _emparejar(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
     El truco: si con todo el ancho entra en N renglones, se busca el ancho MÁS ANGOSTO con
     el que sigue entrando en N. Al apretarlo, el texto se reparte solo y los renglones
     quedan de largo parecido. Búsqueda binaria: ~10 pasadas, nada de fuerza bruta."""
-    libres = _cortar_libre(texto, fuente, cuerpo, ancho, peso)
+    # Las palabras se arman UNA sola vez y con el ancho REAL: si se recalcularan en cada
+    # prueba, un ancho angosto despegaría los nombres y la búsqueda elegiría justo eso.
+    palabras = _palabras(texto, fuente, cuerpo, ancho, peso, pegar)
+    libres = _cortar_libre(texto, fuente, cuerpo, ancho, peso, palabras)
     if len(libres) <= 1 or len(libres) > maximo:
         # Una sola línea, o no entra y hay que recortar: de eso se encarga `_envolver`.
-        return _envolver(texto, fuente, cuerpo, ancho, maximo, peso)
+        return _envolver(texto, fuente, cuerpo, ancho, maximo, peso, pegar)
     objetivo = len(libres)
     bajo, alto, mejor = 1, ancho, libres
     while bajo <= alto:
         medio = (bajo + alto) // 2
-        prueba = _cortar_libre(texto, fuente, cuerpo, medio, peso)
+        prueba = _cortar_libre(texto, fuente, cuerpo, medio, peso, palabras)
         if prueba and len(prueba) <= objetivo:
             mejor, alto = prueba, medio - 1
         else:
@@ -505,17 +592,43 @@ def _emparejar(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
     return mejor
 
 
+def _mas_grande_que_entra(texto: str, fuente: str, ancho: int, maximo: int,
+                          tam_max: int, tam_min: int, peso: str, pegar: bool) -> tuple:
+    """El cuerpo más grande con el que el texto entra ENTERO. `(None, [])` si no entra."""
+    for cuerpo in range(tam_max, tam_min - 1, -2):
+        renglones = _envolver(texto, fuente, cuerpo, ancho, maximo, peso, pegar)
+        if renglones and not renglones[-1].endswith("…"):
+            return cuerpo, renglones
+    return None, []
+
+
 def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
                  tam_max: int, tam_min: int, peso: str = "") -> tuple:
     """El cuerpo más grande (≤ `tam_max`) con el que el texto entra ENTERO en `maximo`
     renglones. Si ni con el mínimo entra, va el mínimo y el texto recortado con «…».
 
-    Devuelve `(cuerpo, renglones)`."""
-    for cuerpo in range(tam_max, tam_min - 1, -2):
-        renglones = _envolver(texto, fuente, cuerpo, ancho, maximo, peso)
-        if renglones and not renglones[-1].endswith("…"):
-            return cuerpo, renglones
-    return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo, peso)
+    Se prueba de las dos maneras: con el nombre y el apellido pegados y con ellos sueltos.
+    Pegados es más lindo, pero a veces obliga a achicar la tipografía; si eso cuesta más de
+    `PLACA_NOMBRE_COSTO` puntos, gana el titular grande. Un apellido en el renglón de abajo
+    se nota menos que un titular chico.
+
+    Devuelve `(cuerpo, renglones, pegar)`: `pegar` es lo que decidió acá, y quien llama tiene
+    que repetírselo a `_emparejar` para que no vuelva a pegar lo que acá se soltó."""
+    cuerpo_p, ren_p = _mas_grande_que_entra(texto, fuente, ancho, maximo,
+                                            tam_max, tam_min, peso, True)
+    cuerpo_s, ren_s = _mas_grande_que_entra(texto, fuente, ancho, maximo,
+                                            tam_max, tam_min, peso, False)
+    if cuerpo_p and (not cuerpo_s or cuerpo_p >= cuerpo_s - PLACA_NOMBRE_COSTO):
+        return cuerpo_p, ren_p, True
+    if cuerpo_s:
+        if cuerpo_p:
+            logger.info(f"Dejar el nombre entero obligaba a bajar el titular de {cuerpo_s} a "
+                        f"{cuerpo_p}: lo dejo grande y el nombre parte de renglón.")
+        else:
+            logger.info("El titular no entraba con el nombre y el apellido juntos; los separo "
+                        "para no recortar texto.")
+        return cuerpo_s, ren_s, False
+    return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo, peso, False), False
 
 
 def _color_fondo() -> str:
@@ -579,11 +692,13 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
     # Titular (BLANCO), lo más grande que entre.
     if titular:
         tmax = int(float(_cfg("REEL_PLACA_TITULAR_TAM", str(PLACA_TITULAR_TAM))))
-        cuerpo, lineas = _cuerpo_para(titular, f_titular, ancho, PLACA_TITULAR_RENGLONES,
-                                      tmax, PLACA_TITULAR_MIN, p_titular)
-        # Mismo cuerpo y mismos renglones, pero repartidos parejo.
+        cuerpo, lineas, pegar = _cuerpo_para(titular, f_titular, ancho,
+                                             PLACA_TITULAR_RENGLONES, tmax,
+                                             PLACA_TITULAR_MIN, p_titular)
+        # Mismo cuerpo y mismos renglones, pero repartidos parejo. `pegar` va tal cual: si
+        # arriba se decidió soltar el nombre, acá no se puede volver a pegar.
         lineas = _emparejar(titular, f_titular, cuerpo, ancho, PLACA_TITULAR_RENGLONES,
-                            p_titular) or lineas
+                            p_titular, pegar) or lineas
         salto = round(cuerpo * 1.08)          # interlineado apretado, como la referencia
         for i, l in enumerate(lineas):
             bloques.append((l, cuerpo, y + i * salto, f_titular, p_titular, BLANCO, True))
