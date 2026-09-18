@@ -269,6 +269,8 @@ def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
     usuario = _cfg("REEL_MARCA_USUARIO", MARCA_USUARIO)
     if texto.lower() in ("0", "no", "off", "false"):
         return "", in_label
+    if not _hay_drawtext():
+        return "", in_label
     fuente = _fuente_marca()
     if not fuente:
         logger.warning("Sin tipografía para el texto de marca del reel; se omite.")
@@ -324,6 +326,8 @@ def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str
 
     OJO: hoy está DORMIDA (ningún llamado pasa `firma=`). Si se vuelve a prender hay que
     correrla hacia abajo: comparte lugar con el texto de marca (`_marca_drawtext`)."""
+    if not _hay_drawtext():
+        return "", in_label
     font = _font_file()
     if not font:
         logger.warning("Sin fuente para la firma del reel; se omite el drawtext.")
@@ -356,6 +360,48 @@ def _ffmpeg() -> str:
         return imageio_ffmpeg.get_ffmpeg_exe()
     except Exception:
         return "ffmpeg"  # en la nube viene en el sistema
+
+
+_FILTROS: set | None = None
+
+
+def _filtros_disponibles() -> set:
+    """Los filtros que trae ESTE ffmpeg. Se pregunta una sola vez por corrida."""
+    global _FILTROS
+    if _FILTROS is None:
+        try:
+            r = subprocess.run([_ffmpeg(), "-hide_banner", "-filters"],
+                               capture_output=True, text=True, timeout=60)
+            # Cada línea útil es «  T.. nombre  entradas->salidas  descripción»
+            _FILTROS = {l.split()[1] for l in (r.stdout or "").splitlines()
+                        if len(l.split()) > 2 and l[:1] in " TSC."}
+        except Exception as e:                                   # noqa: BLE001
+            logger.warning(f"No pude listar los filtros de ffmpeg ({e}); asumo que están todos.")
+            _FILTROS = set()
+    return _FILTROS
+
+
+def tiene_filtro(nombre: str) -> bool:
+    """¿Este ffmpeg trae el filtro? Si no se pudo averiguar, se asume que sí (y si no
+    estaba, lo agarra la degradación por escalones)."""
+    filtros = _filtros_disponibles()
+    return (nombre in filtros) if filtros else True
+
+
+def _hay_drawtext() -> bool:
+    """`drawtext` necesita que ffmpeg esté compilado con libfreetype, y NO todas las
+    builds lo traen. El binario que `imageio-ffmpeg` instala en el Linux de la nube no
+    lo tiene, aunque el de Windows sí — por eso esto anduvo meses en la PC y fallaba
+    allá (2026-09-17: reels publicados sin isologo ni placa).
+
+    Sin `drawtext` el reel se arma igual: el isologo y la placa se dibujan con
+    `overlay`, que está en todas las builds. Lo único que se pierde es el TEXTO de la
+    marca, que es lo menos importante de los tres."""
+    if not tiene_filtro("drawtext"):
+        logger.warning("Este ffmpeg NO trae «drawtext» (le falta libfreetype): el reel "
+                       "va SIN el texto de marca. El isologo y la placa sí van.")
+        return False
+    return True
 
 
 def _norm(idx: int, fps: int) -> str:
@@ -750,9 +796,13 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         encuadre = None
         if _fullbleed_on():
             logger.info(f"Video horizontal ({cont_w}x{cont_h}): sin full bleed, va con fondo difuminado.")
+
+    # `marca_texto` tiene que decir si el texto VA A SALIR de verdad, no solo si se pidió:
+    # si a este ffmpeg le falta `drawtext`, el texto no se dibuja y el log no debe decir
+    # que sí. Ese log es lo único que se mira cuando algo sale raro.
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
                  seg_placa=seg_placa, recorte=recorte, encuadre=encuadre,
-                 marca_texto=logo)
+                 marca_texto=logo and tiene_filtro("drawtext"))
     # Si la marca hace fallar el filtergraph, el reel igual sale: nunca se pierde una
     # publicación por el fondo, el logo, el overlay o la placa. Pero se baja DE A UN
     # ESCALÓN, no de golpe: antes, un problema con la placa se llevaba puesto también al
