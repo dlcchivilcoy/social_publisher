@@ -495,8 +495,10 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
                  p_titular: str = "", p_resumen: str = "") -> dict:
     """El bloque de texto de arriba y dónde empieza la imagen.
 
-    Devuelve `{bloques, y_img}`; cada bloque es `(texto, cuerpo, y, fuente, peso, color)`.
-    Los colores ALTERNAN naranja → blanco → naranja, de arriba hacia abajo."""
+    Devuelve `{bloques, y_img}`; cada bloque es
+    `(texto, cuerpo, y, fuente, peso, color, centrado)`. Los colores ALTERNAN naranja →
+    blanco → naranja de arriba hacia abajo, y todo va CENTRADO salvo la marca, que queda
+    a la izquierda haciendo pareja con el isologo de la derecha."""
     ancho = 1080 - 2 * PLACA_MX
     f_marca = _fuente_marca()
     bloques: list = []
@@ -509,7 +511,7 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
     tam = int(float(_cfg("REEL_PLACA_MARCA_TAM", str(PLACA_MARCA_TAM))))
     for txt in (nombres, usuario):
         if txt:
-            bloques.append((txt, tam, y, f_marca, "", GRIS))
+            bloques.append((txt, tam, y, f_marca, "", GRIS, False))
             y += round(tam * 1.25)
     y += 46
 
@@ -517,7 +519,7 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
     if volanta:
         tam = int(float(_cfg("REEL_PLACA_VOLANTA_TAM", str(PLACA_VOLANTA_TAM))))
         for l in _envolver(volanta, f_resumen, tam, ancho, 1, p_resumen):
-            bloques.append((l, tam, y, f_resumen, p_resumen, NARANJA))
+            bloques.append((l, tam, y, f_resumen, p_resumen, NARANJA, True))
             y += round(tam * 1.2)
         y += 8
 
@@ -528,7 +530,7 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
                                       tmax, PLACA_TITULAR_MIN, p_titular)
         salto = round(cuerpo * 1.08)          # interlineado apretado, como la referencia
         for i, l in enumerate(lineas):
-            bloques.append((l, cuerpo, y + i * salto, f_titular, p_titular, BLANCO))
+            bloques.append((l, cuerpo, y + i * salto, f_titular, p_titular, BLANCO, True))
         y += (len(lineas) - 1) * salto + _alto_linea(f_titular, cuerpo, p_titular) + 22
 
     # Bajada (NARANJA), pocas líneas y cortada por oración.
@@ -544,7 +546,7 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
         cuerpo = max(cuerpo, PLACA_BAJADA_MIN)
         salto = round(cuerpo * 1.26)
         for i, l in enumerate(lineas):
-            bloques.append((l, cuerpo, y + i * salto, f_resumen, p_resumen, NARANJA))
+            bloques.append((l, cuerpo, y + i * salto, f_resumen, p_resumen, NARANJA, True))
         if lineas:
             y += (len(lineas) - 1) * salto + _alto_linea(f_resumen, cuerpo, p_resumen)
 
@@ -584,11 +586,13 @@ def placa_texto_png(volanta: str, titular: str, resumen: str, salida, *,
     try:
         lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
         dib = ImageDraw.Draw(lienzo)
-        for texto, cuerpo, y, fuente, peso, color in caja["bloques"]:
+        for texto, cuerpo, y, fuente, peso, color, centrado in caja["bloques"]:
             f = _tipo(fuente, cuerpo, peso)
+            # `anchor="ma"` ancla el renglón por su MEDIO, así la x pasa a ser el centro.
+            x, anchor = (540, "ma") if centrado else (PLACA_MX, "la")
             # Sombra suave: el texto se apoya sobre el fondo difuminado de la propia foto.
-            dib.text((PLACA_MX + 2, y + 2), texto, font=f, fill=(0, 0, 0, 105), anchor="la")
-            dib.text((PLACA_MX, y), texto, font=f, fill=color, anchor="la")
+            dib.text((x + 2, y + 2), texto, font=f, fill=(0, 0, 0, 105), anchor=anchor)
+            dib.text((x, y), texto, font=f, fill=color, anchor=anchor)
         salida = Path(salida)
         salida.parent.mkdir(parents=True, exist_ok=True)
         lienzo.save(salida, "PNG")
