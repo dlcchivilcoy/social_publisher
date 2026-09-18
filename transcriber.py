@@ -297,7 +297,8 @@ def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
     return b
 
 
-def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "") -> str:
+def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
+                  volanta: str = "") -> str:
     """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
     Devuelve la URL o "" si falla (el mail sale sin ese botón).
 
@@ -310,7 +311,7 @@ def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "") -> str
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False,
-                                 titular=titular, resumen=resumen)
+                                 titular=titular, resumen=resumen, volanta=volanta)
         return upload_reel(reel_local)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
@@ -597,7 +598,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # El titular y el resumen van QUEMADOS en el reel (arriba y abajo, con el video en
         # el medio). Los escribió Gemini al redactar la nota: acá no se le pide nada nuevo.
         reel = to_vertical_reel(video_media, reel_path, overlay=False,
-                                titular=titulo, resumen=resumen)
+                                titular=titulo, resumen=resumen, volanta=volanta)
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.
@@ -1616,7 +1617,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         draft_id = info["draft_id"]
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
-    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen)
+    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
+                             volanta=volanta)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1694,7 +1696,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                 overlay=False, titular=titular, resumen=resumen)
+                                 overlay=False, titular=titular, resumen=resumen,
+                                 volanta=volanta)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
@@ -1828,7 +1831,8 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         return
 
     # Reel de previsualización (para el botón «Previsualizar reel» del mail). Best-effort.
-    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen)
+    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
+                             volanta=volanta)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1928,7 +1932,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4",
-                                 overlay=False, titular=titular, resumen=resumen)
+                                 overlay=False, titular=titular, resumen=resumen,
+                                 volanta=volanta)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
