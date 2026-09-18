@@ -320,6 +320,13 @@ def main() -> None:
         help="Override de páginas SOLO para esta corrida (ej: 3,5,7). Si se omite, usa ALLOWED_PAGES.",
     )
     parser.add_argument(
+        "--chequeo-reel",
+        action="store_true",
+        help="Revisa que el armador de reels esté sano (ffmpeg, filtros, tipografías) y arma "
+             "un reel de prueba. No publica nada. Sirve para correrlo EN LA NUBE, donde el "
+             "ffmpeg no es el mismo que en la PC.",
+    )
+    parser.add_argument(
         "--hour",
         type=int,
         default=int(get("SCHEDULE_HOUR") or 8),
@@ -337,6 +344,12 @@ def main() -> None:
     if args.check_config:
         cmd_check_config()
         return
+
+    if args.chequeo_reel:
+        import sys
+        from video import autochequeo
+        logger.info("Modo --chequeo-reel (no publica nada).")
+        sys.exit(0 if autochequeo() else 1)
 
     folder = Path(args.folder) if args.folder else _default_folder()
     pages = _allowed_pages()

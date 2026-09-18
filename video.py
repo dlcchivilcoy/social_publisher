@@ -1478,6 +1478,117 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     _run_ffmpeg(cmd, "reel vertical + placa")
 
 
+# Filtros de ffmpeg de los que depende el reel. Si falta alguno, el reel sale peor (o no
+# sale). Se listan acá para poder preguntarle a la nube qué tiene ANTES de que se rompa una
+# publicación de verdad: el ffmpeg de Linux NO es el mismo binario que el de Windows y ya
+# nos mordió una vez (drawtext, 2026-09-17).
+FILTROS_QUE_USA = {
+    "overlay": "pegar el logo, la placa de texto y la imagen",
+    "scale": "llevar todo a 1080x1920",
+    "crop": "el encuadre full bleed",
+    "split": "separar fondo y primer plano",
+    "concat": "pegarle la placa de cierre al final",
+    "fade": "la entrada de la placa de cierre",
+    "alphamerge": "el desvanecido de la foto contra el fondo",
+    "drawbox": "el gris sólido de atrás del texto",
+    "sidedata": "sacarle el giro a los videos de celular",
+    "boxblur": "el fondo borroso (solo en los reels sin placa)",
+    "trim": "recortar el video sin recortar la placa",
+    "anullsrc": "el silencio de la placa de cierre",
+}
+
+
+def autochequeo() -> bool:
+    """Prueba de humo del armador de reels: ffmpeg, filtros, tipografías y un reel REAL.
+
+    Está para correrlo en la nube (`main.py --chequeo-reel`) y enterarnos de un problema
+    ANTES de que se caiga una publicación. Devuelve False si algo está mal."""
+    import tempfile
+    ok = True
+    print("\n=== ffmpeg ===")
+    try:
+        exe = _ffmpeg()
+        r = subprocess.run([exe, "-hide_banner", "-version"], capture_output=True, text=True)
+        print(f"  binario: {exe}")
+        print(f"  {(r.stdout or '').splitlines()[0]}")
+    except Exception as e:                                       # noqa: BLE001
+        print(f"  ROTO: no pude correr ffmpeg: {e}")
+        return False
+
+    print("\n=== filtros que necesita el reel ===")
+    disponibles = _filtros_disponibles()
+    if not disponibles:
+        print("  (no pude listar los filtros; asumo que están todos)")
+    else:
+        for nombre, para_que in sorted(FILTROS_QUE_USA.items()):
+            hay = nombre in disponibles
+            print(f"  {'OK  ' if hay else 'FALTA'} {nombre:12} — {para_que}")
+            ok = ok and hay
+        hay_dt = "drawtext" in disponibles
+        print(f"  {'OK  ' if hay_dt else 'no  '} drawtext     — no hace falta: el texto se "
+              f"dibuja con PIL{'' if hay_dt else ' (es lo esperado en Linux)'}")
+
+    print("\n=== tipografías ===")
+    for clave, ruta in (("titular", _fuente_banda("REEL_FUENTE_TITULAR", FUENTE_TITULAR)),
+                        ("resumen", _fuente_banda("REEL_FUENTE_RESUMEN", FUENTE_RESUMEN)),
+                        ("marca", _fuente_marca())):
+        if not ruta:
+            print(f"  FALTA {clave}: no hay ninguna tipografía usable")
+            ok = False
+            continue
+        try:
+            fino = _ancho_texto("Chivilcoy ñÁÉÍ", str(ruta), 50, "Regular")
+            grueso = _ancho_texto("Chivilcoy ñÁÉÍ", str(ruta), 50, "SemiBold")
+            peso = "variable" if fino != grueso else "un solo peso"
+            print(f"  OK   {clave:8} {Path(ruta).name} ({peso})")
+        except Exception as e:                                   # noqa: BLE001
+            print(f"  ROTO {clave}: {Path(ruta).name} no se puede usar: {e}")
+            ok = False
+
+    print("\n=== reel de prueba (el camino completo, como en una publicación) ===")
+    with tempfile.TemporaryDirectory() as d:
+        tmp = Path(d)
+        base, giro = tmp / "base.mp4", tmp / "giro.mp4"
+        try:
+            subprocess.run([exe, "-y", "-f", "lavfi", "-i",
+                            "testsrc=size=1920x1080:rate=25:duration=3",
+                            "-f", "lavfi", "-i", "sine=frequency=440:duration=3",
+                            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac",
+                            str(base)], capture_output=True, check=True)
+            # El mismo video pero "grabado con el celular de costado".
+            subprocess.run([exe, "-y", "-display_rotation", "90", "-i", str(base),
+                            "-c", "copy", str(giro)], capture_output=True, check=True)
+        except Exception as e:                                   # noqa: BLE001
+            print(f"  ROTO: no pude armar el video de prueba: {e}")
+            return False
+
+        for etiqueta, fuente in (("video derecho", base), ("video de celular girado", giro)):
+            salida = tmp / f"reel_{etiqueta.split()[1]}.mp4"
+            try:
+                to_vertical_reel(fuente, salida,
+                                 titular="Memi Mesplet y Seba Bravo presentan «Habladurías»",
+                                 resumen="La función será el domingo 27 en Casa vieja San Luis.",
+                                 volanta="Ciclo de teatro independiente")
+                w, h = _dimensiones(salida)
+                dur = duration_seconds(salida) or 0
+                falta = ultimo_reel_degradado()
+                bien = (w, h) == (1080, 1920) and dur > 1 and not falta
+                ok = ok and bien
+                detalle = f"{w}x{h}, {dur:.1f}s"
+                if (w, h) != (1080, 1920):
+                    detalle += "  ← TENDRÍA QUE SER 1080x1920 (¿sale acostado?)"
+                if falta:
+                    detalle += f"  ← se cayó a «{falta}»"
+                print(f"  {'OK  ' if bien else 'MAL '} {etiqueta}: {detalle}")
+            except Exception as e:                               # noqa: BLE001
+                ok = False
+                print(f"  ROTO {etiqueta}: {type(e).__name__}: {e}")
+
+    print("\n" + ("=== TODO EN ORDEN: el próximo reel puede salir tranquilo ===" if ok else
+                  "=== HAY ALGO MAL: mirá las líneas de arriba ==="))
+    return ok
+
+
 # Qué le faltó al último reel armado. Lo lee `transcriber` para avisarlo en el mail de
 # revisión: un reel sin marca que sale en silencio es peor que uno que no sale.
 _DEGRADADO: dict = {}
