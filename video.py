@@ -82,7 +82,11 @@ PLACA_BAJADA_TAM = 44
 PLACA_BAJADA_MIN = 30
 PLACA_BAJADA_RENGLONES = 2
 PLACA_IMG_MIN = 980           # la imagen nunca ocupa menos que esto (51% del cuadro)
-PLACA_FUNDIDO = 170           # px de transición entre el fondo y la imagen
+PLACA_FUNDIDO = 240           # px de transición entre el fondo y la imagen
+# Gris oscuro SÓLIDO detrás del texto de arriba (pedido del usuario 2026-09-18). Es un gris
+# apenas frío: sobre él el naranja de la marca y el blanco del titular saltan, y no compite
+# con la foto. Se cambia con `REEL_PLACA_FONDO` (admite `0x22252B`, `#22252B` o `black`).
+PLACA_FONDO = "0x22252B"
 NARANJA = (247, 127, 0, 255)  # el naranja de la marca
 BLANCO = (255, 255, 255, 255)
 GRIS = (233, 236, 240, 255)   # la marca, apenas apagada
@@ -514,6 +518,12 @@ def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
     return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo, peso)
 
 
+def _color_fondo() -> str:
+    """El gris oscuro de la placa, en el formato que entiende ffmpeg (`0xRRGGBB`)."""
+    c = (_cfg("REEL_PLACA_FONDO", PLACA_FONDO) or PLACA_FONDO).strip()
+    return ("0x" + c[1:]) if c.startswith("#") else c
+
+
 def _por_oracion(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
                  peso: str = "") -> list:
     """Corta el texto en `maximo` renglones cerrando por ORACIÓN cuando se puede.
@@ -640,8 +650,8 @@ def placa_texto_png(volanta: str, titular: str, resumen: str, salida, *,
             f = _tipo(fuente, cuerpo, peso)
             # `anchor="ma"` ancla el renglón por su MEDIO, así la x pasa a ser el centro.
             x, anchor = (540, "ma") if centrado else (PLACA_MX, "la")
-            # Sombra suave: el texto se apoya sobre el fondo difuminado de la propia foto.
-            dib.text((x + 2, y + 2), texto, font=f, fill=(0, 0, 0, 105), anchor=anchor)
+            # Sin sombra: contra el gris liso solo ensuciaba el contorno de la letra. Antes
+            # hacía falta porque atrás había una foto borrosa con manchas claras y oscuras.
             dib.text((x, y), texto, font=f, fill=color, anchor=anchor)
         salida = Path(salida)
         salida.parent.mkdir(parents=True, exist_ok=True)
@@ -658,10 +668,11 @@ def fundido_png(alto: int, salida, *, abajo: bool = False) -> Path | None:
     """Máscara en escala de grises para fundir los BORDES de la imagen con el fondo.
 
     Negro (transparente) → blanco (opaco) a los `PLACA_FUNDIDO` px. `alphamerge` la usa como
-    canal alfa de la imagen, y así el corte deja de ser una línea recta.
+    canal alfa de la imagen, y así el corte deja de ser una línea recta: la foto se DISUELVE
+    en el gris oscuro de arriba en vez de terminar de golpe.
 
     `abajo=True` funde también el borde de abajo: hace falta cuando la imagen NO llega al
-    pie del cuadro (material apaisado) y debajo de ella queda el fondo difuminado."""
+    pie del cuadro (material apaisado) y debajo de ella queda el gris de la placa."""
     try:
         from PIL import Image
     except Exception:                                            # noqa: BLE001
@@ -1028,7 +1039,9 @@ def _llena_el_cuadro(w: int, h: int) -> bool:
     Sí si es CUADRADA o VERTICAL: ahí ampliar recorta poco y de los costados, donde casi
     nunca pasa nada. Una APAISADA es otra cosa: llevarla a un hueco casi cuadrado le come
     la mitad del ancho, y en una foto de varios chicos jugando eso se lleva medio equipo.
-    Esas van ENTERAS, y abajo queda el fondo difuminado (pedido del usuario 2026-09-18).
+    Esas van ENTERAS, y abajo queda el gris de la placa (pedido del usuario 2026-09-18).
+    Ese gris del pie no es espacio perdido: es justo la franja que Instagram y Facebook tapan
+    con su propio texto y sus botones.
 
     El corte se mueve con `REEL_FULLBLEED_MAX_AR` (default 1.0 = hasta cuadrada)."""
     if w <= 0 or h <= 0:
@@ -1160,13 +1173,26 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     mh = texto_placa[3] if texto_placa else 1920        # alto REAL de la imagen
     mascara = texto_placa[2] if texto_placa else None
     if texto_placa:
-        # Fondo: la propia imagen, ampliada y desenfocada, detrás de TODO el cuadro; así el
-        # texto de arriba nunca cae sobre negro y la unión con la foto no se ve.
-        vf = (
-            f"{pre}{v0}split=2[bg][fg];"
-            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-            "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb]"
-        )
+        # Fondo: un GRIS OSCURO SÓLIDO detrás de TODO el cuadro (pedido del usuario
+        # 2026-09-18). Antes iba la propia imagen ampliada y desenfocada, pero el video
+        # borroso repetido arriba ensuciaba el texto y se notaba la repetición. Un plano liso
+        # es más fino y hace que el naranja y el blanco salten.
+        #
+        # `drawbox ... t=fill` pinta el cuadro ENTERO respetando la duración del video, así que
+        # no hace falta sumar un input ni un generador `color` infinito. Y de paso nos ahorramos
+        # el `boxblur`, que era con diferencia el filtro más caro de la cadena.
+        if tiene_filtro("drawbox"):
+            relleno = (f"scale=1080:1920,drawbox=x=0:y=0:w=1080:h=1920:"
+                       f"color={_color_fondo()}@1:t=fill")
+        else:
+            # Misma historia que `drawtext` (2026-09-17): no todas las builds traen todo, y la
+            # de Linux de la nube es más pelada que la de Windows. `drawbox` no depende de
+            # ninguna librería externa, así que esto no debería pasar nunca — pero si pasa, el
+            # reel sale con el fondo borroso de antes en vez de no salir.
+            logger.warning("Este ffmpeg NO trae «drawbox»: el fondo de la placa va borroso.")
+            relleno = ("scale=1080:1920:force_original_aspect_ratio=increase,"
+                       "crop=1080:1920,boxblur=luma_radius=40:luma_power=1")
+        vf = f"{pre}{v0}split=2[bg][fg];[bg]{relleno},setsar=1[bgb]"
         if encuadre:                        # cuadrada/vertical: amplía y recorta a medida
             nw, nh, cx, cy = encuadre
             vf += f";[fg]scale={nw}:{nh},setsar=1,crop=1080:{mh}:{cx}:{cy},format=rgba[fgc]"
@@ -1362,20 +1388,20 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
             png, y_img = armada
             hueco = 1920 - y_img
             # Cuadrada o vertical: la imagen LLENA el hueco. Apaisada: va entera, pegada
-            # arriba, y abajo queda el fondo difuminado — recortarla perdería los costados.
+            # arriba, y abajo queda el gris de la placa — recortarla perdería los costados.
             llena = _llena_el_cuadro(cont_w, cont_h)
             alto_foto = hueco if llena else min(hueco, int(round(1080 * cont_h / cont_w)))
             alto_foto = max(2, alto_foto - alto_foto % 2)
             if not llena:
                 logger.info(f"Material apaisado ({cont_w}x{cont_h}): va ENTERO "
                             f"({alto_foto}px de los {hueco} del hueco) y abajo queda el "
-                            f"fondo difuminado, para no recortarle los costados.")
+                            f"gris de la placa, para no recortarle los costados.")
             placa = (png, y_img,
                      fundido_png(alto_foto, salida.parent / f"fundido_{salida.stem}.png",
                                  abajo=not llena),
                      alto_foto, llena)
     y_media, alto_media = (placa[1], 1920 - placa[1]) if placa else (0, 1920)
-    # Con placa el marco naranja no va: el fondo es la propia foto difuminada.
+    # Con placa el marco naranja no va: el fondo es el gris liso que pinta el filtergraph.
     fondo = None if placa else fondo_enmarcado(
         cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
     # Por default el video va ENTERO, a su proporción, escalado hasta tocar los márgenes,
