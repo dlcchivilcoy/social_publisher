@@ -820,13 +820,25 @@ def fundido_png(alto: int, salida, *, abajo: bool = False) -> Path | None:
     en el gris oscuro de arriba en vez de terminar de golpe.
 
     `abajo=True` funde también el borde de abajo: hace falta cuando la imagen NO llega al
-    pie del cuadro (material apaisado) y debajo de ella queda el gris de la placa."""
+    pie del cuadro (material apaisado) y debajo de ella queda el gris de la placa.
+
+    El desvanecido NUNCA se come más de un tercio de la foto por borde. Sin ese freno, una
+    panorámica muy ancha (4000x800 entra como una tira de 216px) quedaba más baja que los
+    240px del fundido y DESAPARECÍA: el reel salía sin foto y la corrida daba «success»
+    igual (encontrado auditando, 2026-09-18)."""
     try:
         from PIL import Image
     except Exception:                                            # noqa: BLE001
         return None
     try:
         fundido = max(1, int(float(_cfg("REEL_PLACA_FUNDIDO", str(PLACA_FUNDIDO)))))
+        # Con fundido arriba Y abajo, cada borde se queda a lo sumo con un tercio: así el
+        # medio de la foto SIEMPRE llega opaco, por finita que sea la tira.
+        techo = max(1, alto // (3 if abajo else 2))
+        if fundido > techo:
+            logger.info(f"La imagen mide {alto}px de alto: achico el desvanecido de "
+                        f"{fundido} a {techo}px para que no se coma la foto.")
+            fundido = techo
         m = Image.new("L", (1080, alto), 255)
         px = m.load()
         for y in range(min(fundido, alto)):
