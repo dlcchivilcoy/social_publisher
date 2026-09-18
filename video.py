@@ -458,6 +458,49 @@ def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
     return renglones
 
 
+def _cortar_libre(texto: str, fuente: str, cuerpo: int, ancho: int, peso: str = "") -> list:
+    """Corta el texto en cuantos renglones haga falta para que entren en `ancho`. Sin tope."""
+    palabras = [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+    renglones, actual = [], ""
+    for p in palabras:
+        prueba = f"{actual} {p}".strip()
+        if actual and _ancho_texto(prueba, fuente, cuerpo, peso) > ancho:
+            renglones.append(actual)
+            actual = p
+        else:
+            actual = prueba
+    if actual:
+        renglones.append(actual)
+    return renglones
+
+
+def _emparejar(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
+               peso: str = "") -> list:
+    """Reparte el texto en renglones PAREJOS, sin cambiar cuántos son.
+
+    El corte normal es glotón: llena cada renglón hasta el tope y lo que sobra cae al
+    siguiente. Con un titular de 7 palabras eso deja seis arriba y **una sola colgando**
+    abajo, que se ve feo (pedido del usuario 2026-09-18).
+
+    El truco: si con todo el ancho entra en N renglones, se busca el ancho MÁS ANGOSTO con
+    el que sigue entrando en N. Al apretarlo, el texto se reparte solo y los renglones
+    quedan de largo parecido. Búsqueda binaria: ~10 pasadas, nada de fuerza bruta."""
+    libres = _cortar_libre(texto, fuente, cuerpo, ancho, peso)
+    if len(libres) <= 1 or len(libres) > maximo:
+        # Una sola línea, o no entra y hay que recortar: de eso se encarga `_envolver`.
+        return _envolver(texto, fuente, cuerpo, ancho, maximo, peso)
+    objetivo = len(libres)
+    bajo, alto, mejor = 1, ancho, libres
+    while bajo <= alto:
+        medio = (bajo + alto) // 2
+        prueba = _cortar_libre(texto, fuente, cuerpo, medio, peso)
+        if prueba and len(prueba) <= objetivo:
+            mejor, alto = prueba, medio - 1
+        else:
+            bajo = medio + 1
+    return mejor
+
+
 def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
                  tam_max: int, tam_min: int, peso: str = "") -> tuple:
     """El cuerpo más grande (≤ `tam_max`) con el que el texto entra ENTERO en `maximo`
@@ -518,7 +561,7 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
     # Volanta (NARANJA). Es corta por naturaleza: mediana de 23 caracteres en el ledger.
     if volanta:
         tam = int(float(_cfg("REEL_PLACA_VOLANTA_TAM", str(PLACA_VOLANTA_TAM))))
-        for l in _envolver(volanta, f_resumen, tam, ancho, 1, p_resumen):
+        for l in _emparejar(volanta, f_resumen, tam, ancho, 1, p_resumen):
             bloques.append((l, tam, y, f_resumen, p_resumen, NARANJA, True))
             y += round(tam * 1.2)
         y += 8
@@ -528,6 +571,9 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
         tmax = int(float(_cfg("REEL_PLACA_TITULAR_TAM", str(PLACA_TITULAR_TAM))))
         cuerpo, lineas = _cuerpo_para(titular, f_titular, ancho, PLACA_TITULAR_RENGLONES,
                                       tmax, PLACA_TITULAR_MIN, p_titular)
+        # Mismo cuerpo y mismos renglones, pero repartidos parejo.
+        lineas = _emparejar(titular, f_titular, cuerpo, ancho, PLACA_TITULAR_RENGLONES,
+                            p_titular) or lineas
         salto = round(cuerpo * 1.08)          # interlineado apretado, como la referencia
         for i, l in enumerate(lineas):
             bloques.append((l, cuerpo, y + i * salto, f_titular, p_titular, BLANCO, True))
@@ -544,6 +590,10 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
                 break
             cuerpo -= 2
         cuerpo = max(cuerpo, PLACA_BAJADA_MIN)
+        if lineas and not lineas[-1].endswith("…"):
+            # Ya sabemos QUÉ texto entra; ahora se reparte parejo entre los mismos renglones.
+            lineas = _emparejar(" ".join(lineas), f_resumen, cuerpo, ancho,
+                                PLACA_BAJADA_RENGLONES, p_resumen) or lineas
         salto = round(cuerpo * 1.26)
         for i, l in enumerate(lineas):
             bloques.append((l, cuerpo, y + i * salto, f_resumen, p_resumen, NARANJA, True))
@@ -604,11 +654,14 @@ def placa_texto_png(volanta: str, titular: str, resumen: str, salida, *,
     return salida, caja["y_img"]
 
 
-def fundido_png(alto: int, salida) -> Path | None:
-    """Máscara en escala de grises para fundir el BORDE DE ARRIBA de la imagen con el fondo.
+def fundido_png(alto: int, salida, *, abajo: bool = False) -> Path | None:
+    """Máscara en escala de grises para fundir los BORDES de la imagen con el fondo.
 
-    Negro arriba (transparente) → blanco (opaco) a los `PLACA_FUNDIDO` px. `alphamerge` la
-    usa como canal alfa de la imagen, y así el corte deja de ser una línea recta."""
+    Negro (transparente) → blanco (opaco) a los `PLACA_FUNDIDO` px. `alphamerge` la usa como
+    canal alfa de la imagen, y así el corte deja de ser una línea recta.
+
+    `abajo=True` funde también el borde de abajo: hace falta cuando la imagen NO llega al
+    pie del cuadro (material apaisado) y debajo de ella queda el fondo difuminado."""
     try:
         from PIL import Image
     except Exception:                                            # noqa: BLE001
@@ -621,6 +674,13 @@ def fundido_png(alto: int, salida) -> Path | None:
             v = round(255 * (y / fundido) ** 1.6)   # arranca lento: la unión se nota menos
             for x in range(1080):
                 px[x, y] = v
+        if abajo:
+            for y in range(min(fundido, alto)):
+                v = round(255 * (y / fundido) ** 1.6)
+                fila = alto - 1 - y
+                for x in range(1080):
+                    if v < px[x, fila]:
+                        px[x, fila] = v
         salida = Path(salida)
         m.save(salida)
         return salida
@@ -962,6 +1022,24 @@ def _bandas_on() -> bool:
     return str(_cfg("REEL_BANDAS", "1")).strip().lower() not in ("0", "no", "false", "off")
 
 
+def _llena_el_cuadro(w: int, h: int) -> bool:
+    """¿Se puede AMPLIAR esta imagen hasta llenar el hueco sin perder información?
+
+    Sí si es CUADRADA o VERTICAL: ahí ampliar recorta poco y de los costados, donde casi
+    nunca pasa nada. Una APAISADA es otra cosa: llevarla a un hueco casi cuadrado le come
+    la mitad del ancho, y en una foto de varios chicos jugando eso se lleva medio equipo.
+    Esas van ENTERAS, y abajo queda el fondo difuminado (pedido del usuario 2026-09-18).
+
+    El corte se mueve con `REEL_FULLBLEED_MAX_AR` (default 1.0 = hasta cuadrada)."""
+    if w <= 0 or h <= 0:
+        return False
+    try:
+        max_ar = float(_cfg("REEL_FULLBLEED_MAX_AR", "1.0"))
+    except ValueError:
+        max_ar = 1.0
+    return (w / h) <= max_ar
+
+
 def _fullbleed_on() -> bool:
     """Full bleed: el video/foto LLENA el cuadro 9:16 recortando lo que sobra.
 
@@ -1078,18 +1156,23 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     v0 = "[src0]" if recorte else "[0:v]"
     # ESTILO PLACA: el texto va arriba y la imagen FULL BLEED abajo, fundida con el fondo
     # por su borde de arriba. Sin placa, la imagen ocupa el cuadro entero como siempre.
-    ym, mh = (texto_placa[1], 1920 - texto_placa[1]) if texto_placa else (0, 1920)
+    ym = texto_placa[1] if texto_placa else 0
+    mh = texto_placa[3] if texto_placa else 1920        # alto REAL de la imagen
     mascara = texto_placa[2] if texto_placa else None
     if texto_placa:
-        nw, nh, cx, cy = encuadre
         # Fondo: la propia imagen, ampliada y desenfocada, detrás de TODO el cuadro; así el
         # texto de arriba nunca cae sobre negro y la unión con la foto no se ve.
         vf = (
             f"{pre}{v0}split=2[bg][fg];"
             "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-            "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
-            f"[fg]scale={nw}:{nh},setsar=1,crop=1080:{mh}:{cx}:{cy},format=rgba[fgc]"
+            "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb]"
         )
+        if encuadre:                        # cuadrada/vertical: amplía y recorta a medida
+            nw, nh, cx, cy = encuadre
+            vf += f";[fg]scale={nw}:{nh},setsar=1,crop=1080:{mh}:{cx}:{cy},format=rgba[fgc]"
+        else:                               # apaisada: entera, a lo ancho del cuadro
+            vf += f";[fg]scale=1080:{mh},setsar=1,format=rgba[fgc]"
+
         etiqueta_img = "[fgc]"
         if mascara:
             # `alphamerge` toma el brillo de la máscara como canal alfa: negro arriba =
@@ -1277,9 +1360,20 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                                  salida.parent / f"placa_{salida.stem}.png")
         if armada:
             png, y_img = armada
-            alto_img = 1920 - y_img
+            hueco = 1920 - y_img
+            # Cuadrada o vertical: la imagen LLENA el hueco. Apaisada: va entera, pegada
+            # arriba, y abajo queda el fondo difuminado — recortarla perdería los costados.
+            llena = _llena_el_cuadro(cont_w, cont_h)
+            alto_foto = hueco if llena else min(hueco, int(round(1080 * cont_h / cont_w)))
+            alto_foto = max(2, alto_foto - alto_foto % 2)
+            if not llena:
+                logger.info(f"Material apaisado ({cont_w}x{cont_h}): va ENTERO "
+                            f"({alto_foto}px de los {hueco} del hueco) y abajo queda el "
+                            f"fondo difuminado, para no recortarle los costados.")
             placa = (png, y_img,
-                     fundido_png(alto_img, salida.parent / f"fundido_{salida.stem}.png"))
+                     fundido_png(alto_foto, salida.parent / f"fundido_{salida.stem}.png",
+                                 abajo=not llena),
+                     alto_foto, llena)
     y_media, alto_media = (placa[1], 1920 - placa[1]) if placa else (0, 1920)
     # Con placa el marco naranja no va: el fondo es la propia foto difuminada.
     fondo = None if placa else fondo_enmarcado(
@@ -1287,11 +1381,12 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # Por default el video va ENTERO, a su proporción, escalado hasta tocar los márgenes,
     # sobre el fondo difuminado. Con `REEL_FULLBLEED=1` los verticales/cuadrados se recortan
     # a 9:16 encuadrando el sujeto (los horizontales nunca: ver `_fullbleed_aplica`).
-    if placa:
-        # Con placa SIEMPRE es full bleed: la imagen llena el ancho y se recorta encuadrando
-        # el sujeto. Es lo que pidió el usuario y lo que hace que la estética cierre.
+    if placa and placa[4]:
+        # Cuadrada o vertical: llena el hueco, encuadrando el sujeto (busca caras).
         encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent,
-                                       alto=alto_media)
+                                       alto=placa[3])
+    elif placa:
+        encuadre = None                     # apaisada: entera, sin recortar nada
     elif _fullbleed_aplica(cont_w, cont_h):
         encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
     else:
