@@ -44,6 +44,10 @@ BANDA_MX = 56                 # margen lateral del texto de las bandas
 BANDA_AIRE = 26               # aire entre el texto y el borde de la imagen
 BANDA_PIE = 84                # margen inferior del resumen
 BANDA_ALTO_MIN = 420          # la imagen nunca queda más chata que esto
+# Franja de abajo que tapan los controles de Instagram y Facebook (autor, texto, botones).
+# El resumen nunca baja de acá: si la imagen es vertical y llega hasta el piso, el resumen
+# SUBE y se apoya sobre la parte de abajo de la imagen, que es donde sí se ve.
+BANDA_SEGURO = 330
 
 
 def _cfg(clave: str, default: str) -> str:
@@ -355,18 +359,23 @@ def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
     return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo)
 
 
-def bandas_layout(titular: str, resumen: str, fuente: str) -> dict:
+def bandas_layout(titular: str, resumen: str, fuente: str, ar: float | None = None) -> dict:
     """Dónde va cada cosa cuando el reel lleva titular arriba y resumen abajo.
 
     Devuelve `{arriba, abajo, y_media, alto_media}`; `arriba`/`abajo` son listas de
-    `(texto, cuerpo, y)`. La IMAGEN va en el MEDIO: entre el final del titular y el
-    comienzo del resumen.
+    `(texto, cuerpo, y)`. La IMAGEN va en el MEDIO, entre los dos textos.
+
+    `ar` es la proporción (ancho/alto) del material. Con ella los textos se ACERCAN a la
+    imagen: sin eso, una foto apaisada ocupa una franja fina en el centro y el titular
+    quedaba pegado al isologo y el resumen contra el piso, los dos flotando lejísimos de
+    la foto.
 
     Se mide en un solo lugar a propósito, porque lo usan el dibujo del PNG y el
     filtergraph de ffmpeg: si se despegan, el texto termina pisando la foto."""
     ancho = 1080 - 2 * BANDA_MX
     my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "124")))
     ancho_logo = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
+    seguro = int(float(_cfg("REEL_BANDA_SEGURO", str(BANDA_SEGURO))))
 
     # El titular arranca DEBAJO del bloque de marca (isologo + los dos medios + usuario).
     fin_marca = my + round(ancho_logo * 568 / 514)
@@ -375,33 +384,52 @@ def bandas_layout(titular: str, resumen: str, fuente: str) -> dict:
         _, cuerpo_u, y_u = renglones_marca[-1]
         fin_marca = max(fin_marca, y_u + round(cuerpo_u * 1.3))
 
-    arriba: list = []
-    fin_titular = fin_marca
+    # ── 1) Medir: cuánto ocupa cada texto, sin decidir todavía dónde va ──────
+    t_cuerpo, t_lineas, t_salto, t_alto = 0, [], 0, 0
     if titular:
-        cuerpo, renglones = _cuerpo_para(titular, fuente, ancho, TITULAR_RENGLONES,
-                                         TITULAR_TAM_MAX, TITULAR_TAM_MIN)
-        salto = round(cuerpo * 1.18)
-        y0 = fin_marca + 34
-        arriba = [(l, cuerpo, y0 + i * salto) for i, l in enumerate(renglones)]
-        fin_titular = y0 + len(renglones) * salto
-
-    abajo: list = []
-    y_resumen = 1920 - BANDA_PIE
+        t_cuerpo, t_lineas = _cuerpo_para(titular, fuente, ancho, TITULAR_RENGLONES,
+                                          TITULAR_TAM_MAX, TITULAR_TAM_MIN)
+        t_salto = round(t_cuerpo * 1.18)
+        t_alto = len(t_lineas) * t_salto
+    r_cuerpo, r_lineas, r_salto, r_alto = 0, [], 0, 0
     if resumen:
-        cuerpo, renglones = _cuerpo_para(resumen, fuente, ancho, RESUMEN_RENGLONES,
-                                         RESUMEN_TAM_MAX, RESUMEN_TAM_MIN)
-        salto = round(cuerpo * 1.28)
-        y_resumen = 1920 - BANDA_PIE - len(renglones) * salto
-        abajo = [(l, cuerpo, y_resumen + i * salto) for i, l in enumerate(renglones)]
+        r_cuerpo, r_lineas = _cuerpo_para(resumen, fuente, ancho, RESUMEN_RENGLONES,
+                                          RESUMEN_TAM_MAX, RESUMEN_TAM_MIN)
+        r_salto = round(r_cuerpo * 1.28)
+        r_alto = len(r_lineas) * r_salto
 
-    y_media = fin_titular + BANDA_AIRE
-    alto_media = max(BANDA_ALTO_MIN, (y_resumen - BANDA_AIRE) - y_media)
-    # Alto PAR: libx264 no acepta dimensiones impares.
-    alto_media -= alto_media % 2
+    # ── 2) El hueco de la imagen: lo que sobra con los textos en su lugar de
+    #       máxima separación (titular pegado a la marca, resumen contra el piso) ──
+    y_t = fin_marca + 34
+    y_r = 1920 - BANDA_PIE - r_alto
+    y_media = (y_t + t_alto + BANDA_AIRE) if t_lineas else fin_marca + BANDA_AIRE
+    alto_media = max(BANDA_ALTO_MIN, (y_r - BANDA_AIRE) - y_media)
+    alto_media -= alto_media % 2          # libx264 no acepta altos impares
+
+    # ── 3) Acercar los textos a la imagen de verdad ─────────────────────────
+    # ffmpeg centra la imagen dentro del hueco: con `ar` sabemos qué parte del hueco va a
+    # ocupar realmente, y pegamos los textos a ESE borde en vez de a los extremos.
+    if ar and ar > 0:
+        alto_real = min(alto_media, int(round(1080 / ar)))
+        tope = y_media + (alto_media - alto_real) // 2       # borde de arriba de la imagen
+        pie = tope + alto_real                               # borde de abajo
+        if t_lineas:
+            # Baja hasta quedar justo encima de la imagen (nunca por encima de la marca).
+            y_t = max(y_t, tope - BANDA_AIRE - t_alto)
+        if r_lineas:
+            # Sube hasta quedar justo debajo de la imagen. Y si la imagen llega hasta
+            # abajo (material vertical), sube MÁS: se apoya sobre la parte inferior de la
+            # imagen para no caer donde IG y FB ponen sus controles.
+            y_r = min(pie + BANDA_AIRE, 1920 - seguro - r_alto)
+            if t_lineas:                                     # nunca se le encima al titular
+                y_r = max(y_r, y_t + t_alto + BANDA_AIRE)
+
+    arriba = [(l, t_cuerpo, y_t + i * t_salto) for i, l in enumerate(t_lineas)]
+    abajo = [(l, r_cuerpo, y_r + i * r_salto) for i, l in enumerate(r_lineas)]
     return dict(arriba=arriba, abajo=abajo, y_media=y_media, alto_media=alto_media)
 
 
-def texto_reel_png(titular: str, resumen: str, salida):
+def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
     """Dibuja el TITULAR (arriba) y el RESUMEN (abajo) en un PNG transparente de
     1080x1920. Devuelve `(png, y_media, alto_media)` — dónde queda el hueco para la
     imagen — o None si no hay texto ni con qué dibujarlo.
@@ -426,7 +454,7 @@ def texto_reel_png(titular: str, resumen: str, salida):
         logger.warning(f"Sin PIL para dibujar el titular ({e}); el reel va sin bandas.")
         return None
 
-    caja = bandas_layout(titular, resumen, fuente)
+    caja = bandas_layout(titular, resumen, fuente, ar=ar)
     if not caja["arriba"] and not caja["abajo"]:
         return None
 
@@ -436,10 +464,13 @@ def texto_reel_png(titular: str, resumen: str, salida):
     try:
         lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
         dibujo = ImageDraw.Draw(lienzo)
+        # CENTRADO: `anchor="ma"` ancla cada renglón por su MEDIO (y por el ascendente,
+        # igual que antes), así que la `x` pasa a ser el centro del cuadro.
+        cx = 1080 // 2
         for linea, cuerpo, y in caja["arriba"] + caja["abajo"]:
             f = ImageFont.truetype(fuente, cuerpo)
-            dibujo.text((BANDA_MX + 2, y + 2), linea, font=f, fill=NEGRO, anchor="la")
-            dibujo.text((BANDA_MX, y), linea, font=f, fill=BLANCO, anchor="la",
+            dibujo.text((cx + 2, y + 2), linea, font=f, fill=NEGRO, anchor="ma")
+            dibujo.text((cx, y), linea, font=f, fill=BLANCO, anchor="ma",
                         stroke_width=borde, stroke_fill=NEGRO)
         salida = Path(salida)
         salida.parent.mkdir(parents=True, exist_ok=True)
@@ -1083,7 +1114,8 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
     # BANDAS (titular arriba / resumen abajo). Se calculan PRIMERO porque definen el hueco
     # donde entra la imagen, y de ese hueco dependen el fondo y el encuadre de abajo.
-    banda = (texto_reel_png(titular, resumen, salida.parent / f"bandas_{salida.stem}.png")
+    banda = (texto_reel_png(titular, resumen, salida.parent / f"bandas_{salida.stem}.png",
+                            ar=(cont_w / cont_h) if (cont_w and cont_h) else None)
              if _bandas_on() else None)
     y_media, alto_media = (banda[1], banda[2]) if banda else (0, 1920)
     fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png",
