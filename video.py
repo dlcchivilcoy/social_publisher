@@ -32,6 +32,18 @@ MARCA_TEXTO = "DIARIO LA CAMPAÑA|RADIO DEL CENTRO"
 MARCA_USUARIO = "@diarioyradio"
 MARCA_TAM_MAX = 40            # cuerpo de los renglones de la marca; baja solo si no entra
 MARCA_TAM_MIN = 18
+# Titular arriba y resumen abajo, con la imagen en el medio (2026-09-18). Los cuerpos son
+# TOPES: si el texto no entra en sus renglones, la tipografía baja sola hasta el mínimo.
+TITULAR_RENGLONES = 2
+TITULAR_TAM_MAX = 64
+TITULAR_TAM_MIN = 32
+RESUMEN_RENGLONES = 3
+RESUMEN_TAM_MAX = 38
+RESUMEN_TAM_MIN = 20
+BANDA_MX = 56                 # margen lateral del texto de las bandas
+BANDA_AIRE = 26               # aire entre el texto y el borde de la imagen
+BANDA_PIE = 84                # margen inferior del resumen
+BANDA_ALTO_MIN = 420          # la imagen nunca queda más chata que esto
 
 
 def _cfg(clave: str, default: str) -> str:
@@ -114,7 +126,8 @@ def detectar_recorte(src) -> tuple[int, int, int, int] | None:
     return (cw, ch, cx, cy)
 
 
-def fondo_enmarcado(cont_w: int, cont_h: int, salida) -> Path | None:
+def fondo_enmarcado(cont_w: int, cont_h: int, salida, *,
+                    dest_y: int = 0, dest_h: int = 1920) -> Path | None:
     """Devuelve el FONDO del reel ya recortado con una máscara: OPACO en los bordes del
     cuadro y TRANSPARENTE donde va el video, con una transición difuminada en el medio.
     Así el degradado naranja contornea el video hasta los bordes y el marco se ajusta
@@ -133,10 +146,11 @@ def fondo_enmarcado(cont_w: int, cont_h: int, salida) -> Path | None:
     fondo = Image.open(base).convert("RGB")
     if fondo.size != (1080, 1920):
         fondo = fondo.resize((1080, 1920), Image.LANCZOS)
-    # El mismo encuadre que hace ffmpeg: el video entero centrado dentro de 1080x1920.
-    esc = min(1080 / w, 1920 / h)
+    # El mismo encuadre que hace ffmpeg: el video entero centrado dentro del HUECO. Sin
+    # bandas el hueco es el cuadro entero; con titular y resumen es la franja del medio.
+    esc = min(1080 / w, dest_h / h)
     vw, vh = round(w * esc), round(h * esc)
-    x0, y0 = (1080 - vw) // 2, (1920 - vh) // 2
+    x0, y0 = (1080 - vw) // 2, dest_y + (dest_h - vh) // 2
     dif = int(float(_cfg("REEL_FONDO_DIFUMINADO", str(FONDO_DIFUMINADO))))
     op = max(0.0, min(1.0, float(_cfg("REEL_FONDO_OPACIDAD", "1"))))
     mascara = Image.new("L", (1080, 1920), round(255 * op))
@@ -264,8 +278,8 @@ def _marca_layout(fuente: str) -> tuple[list, int, int, int]:
     """
     texto = _cfg("REEL_MARCA_TEXTO", MARCA_TEXTO)
     usuario = _cfg("REEL_MARCA_USUARIO", MARCA_USUARIO)
-    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
-    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "72")))
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "124")))
     ancho_logo = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
     borde = int(float(_cfg("REEL_MARCA_BORDE", "3")))
 
@@ -289,6 +303,153 @@ def _marca_layout(fuente: str) -> tuple[list, int, int, int]:
     if usuario:
         renglones.append((usuario, cuerpo2, y0 + len(lineas) * salto))
     return renglones, x, borde, hueco
+
+
+def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int) -> list:
+    """Parte `texto` en renglones que entren en `ancho`, hasta `maximo` renglones.
+
+    Si sobra texto, el último renglón termina en «…»: así se ve que quedó cortado, en vez
+    de que el titular parezca decir otra cosa."""
+    palabras = [p for p in re.split(r"\s+", (texto or "").strip()) if p]
+    if not palabras:
+        return []
+    renglones: list = []
+    actual = ""
+    sobra = False
+    for p in palabras:
+        prueba = f"{actual} {p}".strip()
+        if actual and _ancho_texto(prueba, fuente, cuerpo) > ancho:
+            renglones.append(actual)
+            actual = p
+            if len(renglones) == maximo:
+                sobra = True
+                actual = ""
+                break
+        else:
+            actual = prueba
+    if actual:
+        if len(renglones) < maximo:
+            renglones.append(actual)
+        else:
+            sobra = True
+    if not renglones:
+        return []
+    if sobra:
+        ultimo = renglones[-1]
+        while ultimo and _ancho_texto(ultimo + "…", fuente, cuerpo) > ancho:
+            ultimo = ultimo.rsplit(" ", 1)[0] if " " in ultimo else ultimo[:-1]
+        renglones[-1] = (ultimo + "…") if ultimo else "…"
+    return renglones
+
+
+def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
+                 tam_max: int, tam_min: int) -> tuple:
+    """El cuerpo más grande (≤ `tam_max`) con el que el texto entra ENTERO en `maximo`
+    renglones. Si ni con el mínimo entra, va el mínimo y el texto recortado con «…».
+
+    Devuelve `(cuerpo, renglones)`."""
+    for cuerpo in range(tam_max, tam_min - 1, -2):
+        renglones = _envolver(texto, fuente, cuerpo, ancho, maximo)
+        if renglones and not renglones[-1].endswith("…"):
+            return cuerpo, renglones
+    return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo)
+
+
+def bandas_layout(titular: str, resumen: str, fuente: str) -> dict:
+    """Dónde va cada cosa cuando el reel lleva titular arriba y resumen abajo.
+
+    Devuelve `{arriba, abajo, y_media, alto_media}`; `arriba`/`abajo` son listas de
+    `(texto, cuerpo, y)`. La IMAGEN va en el MEDIO: entre el final del titular y el
+    comienzo del resumen.
+
+    Se mide en un solo lugar a propósito, porque lo usan el dibujo del PNG y el
+    filtergraph de ffmpeg: si se despegan, el texto termina pisando la foto."""
+    ancho = 1080 - 2 * BANDA_MX
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "124")))
+    ancho_logo = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
+
+    # El titular arranca DEBAJO del bloque de marca (isologo + los dos medios + usuario).
+    fin_marca = my + round(ancho_logo * 568 / 514)
+    renglones_marca, _, _, _ = _marca_layout(fuente)
+    if renglones_marca:
+        _, cuerpo_u, y_u = renglones_marca[-1]
+        fin_marca = max(fin_marca, y_u + round(cuerpo_u * 1.3))
+
+    arriba: list = []
+    fin_titular = fin_marca
+    if titular:
+        cuerpo, renglones = _cuerpo_para(titular, fuente, ancho, TITULAR_RENGLONES,
+                                         TITULAR_TAM_MAX, TITULAR_TAM_MIN)
+        salto = round(cuerpo * 1.18)
+        y0 = fin_marca + 34
+        arriba = [(l, cuerpo, y0 + i * salto) for i, l in enumerate(renglones)]
+        fin_titular = y0 + len(renglones) * salto
+
+    abajo: list = []
+    y_resumen = 1920 - BANDA_PIE
+    if resumen:
+        cuerpo, renglones = _cuerpo_para(resumen, fuente, ancho, RESUMEN_RENGLONES,
+                                         RESUMEN_TAM_MAX, RESUMEN_TAM_MIN)
+        salto = round(cuerpo * 1.28)
+        y_resumen = 1920 - BANDA_PIE - len(renglones) * salto
+        abajo = [(l, cuerpo, y_resumen + i * salto) for i, l in enumerate(renglones)]
+
+    y_media = fin_titular + BANDA_AIRE
+    alto_media = max(BANDA_ALTO_MIN, (y_resumen - BANDA_AIRE) - y_media)
+    # Alto PAR: libx264 no acepta dimensiones impares.
+    alto_media -= alto_media % 2
+    return dict(arriba=arriba, abajo=abajo, y_media=y_media, alto_media=alto_media)
+
+
+def texto_reel_png(titular: str, resumen: str, salida):
+    """Dibuja el TITULAR (arriba) y el RESUMEN (abajo) en un PNG transparente de
+    1080x1920. Devuelve `(png, y_media, alto_media)` — dónde queda el hueco para la
+    imagen — o None si no hay texto ni con qué dibujarlo.
+
+    Va como imagen y no con `drawtext` por lo mismo que el texto de marca: `drawtext`
+    necesita libfreetype y el ffmpeg de Linux de la nube no lo trae (2026-09-17). Con
+    `overlay`, que está en todas las builds, esto anda igual acá que allá.
+
+    Mismo tratamiento que la marca —blanco con contorno y sombra oscuros— para que se
+    lea sobre cualquier fondo."""
+    titular = " ".join((titular or "").split())
+    resumen = " ".join((resumen or "").split())
+    if not titular and not resumen:
+        return None
+    fuente = _fuente_marca()
+    if not fuente:
+        logger.warning("Sin tipografía para el titular del reel; el reel va sin bandas.")
+        return None
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"Sin PIL para dibujar el titular ({e}); el reel va sin bandas.")
+        return None
+
+    caja = bandas_layout(titular, resumen, fuente)
+    if not caja["arriba"] and not caja["abajo"]:
+        return None
+
+    NEGRO = (0, 0, 0, 115)
+    BLANCO = (255, 255, 255, 255)
+    borde = int(float(_cfg("REEL_MARCA_BORDE", "3")))
+    try:
+        lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
+        dibujo = ImageDraw.Draw(lienzo)
+        for linea, cuerpo, y in caja["arriba"] + caja["abajo"]:
+            f = ImageFont.truetype(fuente, cuerpo)
+            dibujo.text((BANDA_MX + 2, y + 2), linea, font=f, fill=NEGRO, anchor="la")
+            dibujo.text((BANDA_MX, y), linea, font=f, fill=BLANCO, anchor="la",
+                        stroke_width=borde, stroke_fill=NEGRO)
+        salida = Path(salida)
+        salida.parent.mkdir(parents=True, exist_ok=True)
+        lienzo.save(salida, "PNG")
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"No pude dibujar el titular del reel ({e}); va sin bandas.")
+        return None
+    logger.info(f"Bandas del reel: titular en {len(caja['arriba'])} renglón/es, resumen en "
+                f"{len(caja['abajo'])} · hueco de {caja['alto_media']}px desde y={caja['y_media']}")
+    return salida, caja["y_media"], caja["alto_media"]
 
 
 def marca_texto_png(salida) -> Path | None:
@@ -364,8 +525,8 @@ def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
         logger.warning("Sin tipografía para el texto de marca del reel; se omite.")
         return "", in_label
 
-    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
-    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "72")))
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "124")))
     ancho_logo = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
     # Espacio libre: todo el cuadro menos los dos márgenes y la franja del isologo.
     hueco = 1080 - 2 * mx - ancho_logo - 24
@@ -412,8 +573,11 @@ def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str
     `textfile=` para no pelear con tildes/guiones/'·' en el filtergraph. Si no hay fuente
     disponible, no dibuja nada (devuelve el label original).
 
-    OJO: hoy está DORMIDA (ningún llamado pasa `firma=`). Si se vuelve a prender hay que
-    correrla hacia abajo: comparte lugar con el texto de marca (`_marca_drawtext`)."""
+    ⚠️ OJO: la usa UN solo llamado, `transcriber_radio.run_video_radio` cuando el video es
+    de un corresponsal de la radio. Y comparte el lugar EXACTO con el texto de marca
+    (`marca_texto_png`, mismos mx/my): si las dos salen, se pisan. Hoy no se nota porque
+    el ffmpeg de Linux de la nube no trae `drawtext` y la firma no se dibuja nunca allá.
+    Si se vuelve a prender de verdad, hay que correrla hacia abajo."""
     if not _hay_drawtext():
         return "", in_label
     font = _font_file()
@@ -425,8 +589,8 @@ def _firma_drawtext(texto: str, in_label: str, work_dir: Path) -> tuple[str, str
     firma_txt.write_text(_dos_renglones(texto.strip()), encoding="utf-8")
     # Va del lado LIBRE: con el logo a la derecha arranca contra el margen izquierdo;
     # con el logo a la izquierda, corrida por el ancho del logo (como era antes).
-    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
-    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "72")))
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "124")))
     ancho = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
     x = mx if _logo_a_la_derecha() else mx + ancho + 22
     y = my + 6
@@ -615,6 +779,12 @@ def concat_videos(paths, salida, *, w: int = 1080, h: int = 1920):
     return salida
 
 
+def _bandas_on() -> bool:
+    """¿El reel lleva titular arriba y resumen abajo? Sí por default (pedido 2026-09-18).
+    `REEL_BANDAS=0` lo apaga y la imagen vuelve a ocupar el cuadro entero."""
+    return str(_cfg("REEL_BANDAS", "1")).strip().lower() not in ("0", "no", "false", "off")
+
+
 def _fullbleed_on() -> bool:
     """Full bleed: el video/foto LLENA el cuadro 9:16 recortando lo que sobra.
 
@@ -640,7 +810,8 @@ def _fullbleed_aplica(w: int, h: int) -> bool:
     return (w / h) <= max_ar
 
 
-def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: Path):
+def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: Path,
+                        *, alto: int = 1920):
     """Devuelve (nw, nh, x, y): a cuánto escalar el video para LLENAR 1080x1920 y desde
     dónde recortarlo, ENCUADRADO EN EL SUJETO.
 
@@ -649,7 +820,7 @@ def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: 
     en el centro PONDERADO por el tamaño de cada cara (el primer plano pesa más) y deja
     aire arriba para no cortar cabezas. Sin caras (paisaje/objeto) o ante cualquier error:
     recorte centrado con leve sesgo hacia arriba (mismo criterio que `story_image._encuadrar`)."""
-    W, H = 1080, 1920
+    W, H = 1080, alto          # `alto` < 1920 cuando el reel lleva titular y resumen
     escala = max(W / max(1, cont_w), H / max(1, cont_h))
     nw = max(W, int(round(cont_w * escala)))
     nh = max(H, int(round(cont_h * escala)))
@@ -715,7 +886,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
                 overlay: Path | None, placa: Path | None, seg_placa: float,
                 recorte: tuple[int, int, int, int] | None = None,
                 encuadre: tuple[int, int, int, int] | None = None,
-                marca_texto: bool = False) -> None:
+                marca_texto: bool = False,
+                banda: tuple | None = None) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada. Si `recorte` (w,h,x,y) viene dado, primero
@@ -727,21 +899,36 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     # contenido real es lo que se escala y el fondo naranja ocupa donde estaba el negro.
     pre = f"[0:v]crop={recorte[0]}:{recorte[1]}:{recorte[2]}:{recorte[3]}[src0];" if recorte else ""
     v0 = "[src0]" if recorte else "[0:v]"
-    if encuadre:
+    # Con titular y resumen la imagen NO ocupa el cuadro entero: va en la franja del medio
+    # que dejaron las bandas. Sin bandas, `ym`/`mh` son el cuadro completo y todo queda
+    # igual que siempre.
+    ym, mh = (banda[1], banda[2]) if banda else (0, 1920)
+    if encuadre and not banda:
         # FULL BLEED: el video LLENA el cuadro 9:16 (nada de franjas ni fondo borroso). Se
         # escala hasta cubrir y se recorta en el punto que calculó `_encuadre_fullbleed`
         # (centrado en el sujeto/las caras, con aire arriba).
         nw, nh, cx, cy = encuadre
         vf = f"{pre}{v0}scale={nw}:{nh},setsar=1,crop=1080:1920:{cx}:{cy}[v]"
-    else:
-        # Fondo: el propio video escalado a llenar + recortado + desenfocado.
-        # Primer plano: el video escalado a entrar dentro de 1080x1920. Se superponen.
+    elif encuadre:
+        # Full bleed DENTRO del hueco: llena la franja del medio, y detrás —en las bandas—
+        # sigue el fondo borroso, así el titular y el resumen no caen sobre negro.
+        nw, nh, cx, cy = encuadre
         vf = (
             f"{pre}{v0}split=2[bg][fg];"
             "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
             "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
-            "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fgs];"
-            "[bgb][fgs]overlay=(W-w)/2:(H-h)/2[v]"
+            f"[fg]scale={nw}:{nh},setsar=1,crop=1080:{mh}:{cx}:{cy}[fgs];"
+            f"[bgb][fgs]overlay=0:{ym}[v]"
+        )
+    else:
+        # Fondo: el propio video escalado a llenar + recortado + desenfocado.
+        # Primer plano: el video escalado a entrar dentro del hueco. Se superponen.
+        vf = (
+            f"{pre}{v0}split=2[bg][fg];"
+            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+            "crop=1080:1920,boxblur=luma_radius=40:luma_power=1,setsar=1[bgb];"
+            f"[fg]scale=1080:{mh}:force_original_aspect_ratio=decrease,setsar=1[fgs];"
+            f"[bgb][fgs]overlay=(W-w)/2:{ym}+({mh}-h)/2[v]"
         )
     out_label = "[v]"
     inputs = ["-i", str(src)]
@@ -761,8 +948,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         inputs += ["-i", str(logo_png)]
         n_in += 1
         ancho = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
-        mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
-        my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+        mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "72")))
+        my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "124")))
         op = float(_cfg("REEL_LOGO_OPACIDAD", "0.92"))
         # `W-w` = ancho del cuadro menos el del logo. Se deja que lo calcule ffmpeg en vez
         # de hacer la cuenta acá: el `scale={ancho}:-1` define el alto —y por lo tanto el
@@ -782,6 +969,15 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
             vf += (f";[{idx}:v]scale=1080:1920,format=rgba[mk];"
                    f"{out_label}[mk]overlay=0:0[vmk]")
             out_label = "[vmk]"
+    if banda:
+        # Titular arriba y resumen abajo, ya dibujados en un PNG transparente por
+        # `texto_reel_png`. Van DESPUÉS del logo para que nada los tape.
+        idx = n_in
+        inputs += ["-i", str(banda[0])]
+        n_in += 1
+        vf += (f";[{idx}:v]scale=1080:1920,format=rgba[bn];"
+               f"{out_label}[bn]overlay=0:0[vbn]")
+        out_label = "[vbn]"
     if overlay:
         # Marco del diario (esquinas + caja del zócalo + barra con la web y las redes).
         idx = n_in
@@ -848,7 +1044,7 @@ def ultimo_reel_degradado() -> dict:
 def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
                      firma: str | None = None, logo: bool = True,
                      placa_final: bool = True, zocalo: str | None = None,
-                     overlay: bool = True) -> Path:
+                     overlay: bool = True, titular: str = "", resumen: str = "") -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
@@ -868,6 +1064,11 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     o directamente apaisado), se las recorta y el marco naranja tapa ese negro. Todo se
     apaga o se cambia por `.env` (REEL_LOGO / REEL_FONDO / REEL_OVERLAY / REEL_PLACA_FINAL /
     REEL_PLACA_SEG / REEL_RECORTE_NEGRO). Devuelve el .mp4.
+
+    Con `titular` y/o `resumen` el reel sale con el TITULAR arriba (hasta 2 renglones) y el
+    RESUMEN abajo (hasta 3), y la imagen ACHICADA para caber entre los dos. El texto ya lo
+    escribió Gemini al redactar la nota: acá no se le pide nada, solo se dibuja. Se apaga
+    con `REEL_BANDAS=0`.
     """
     src, salida = Path(src), Path(salida)
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
@@ -880,12 +1081,19 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # Contenido real del video (sin las barras negras) → con eso se calcula el marco.
     recorte = detectar_recorte(src)
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
-    fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
+    # BANDAS (titular arriba / resumen abajo). Se calculan PRIMERO porque definen el hueco
+    # donde entra la imagen, y de ese hueco dependen el fondo y el encuadre de abajo.
+    banda = (texto_reel_png(titular, resumen, salida.parent / f"bandas_{salida.stem}.png")
+             if _bandas_on() else None)
+    y_media, alto_media = (banda[1], banda[2]) if banda else (0, 1920)
+    fondo = fondo_enmarcado(cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png",
+                            dest_y=y_media, dest_h=alto_media)
     # Por default el video va ENTERO, a su proporción, escalado hasta tocar los márgenes,
     # sobre el fondo difuminado. Con `REEL_FULLBLEED=1` los verticales/cuadrados se recortan
     # a 9:16 encuadrando el sujeto (los horizontales nunca: ver `_fullbleed_aplica`).
     if _fullbleed_aplica(cont_w, cont_h):
-        encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
+        encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent,
+                                       alto=alto_media)
     else:
         encuadre = None
         if _fullbleed_on():
@@ -893,7 +1101,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
 
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
                  seg_placa=seg_placa, recorte=recorte, encuadre=encuadre,
-                 marca_texto=logo)
+                 marca_texto=logo, banda=banda)
     # Si la marca hace fallar el filtergraph, el reel igual sale: nunca se pierde una
     # publicación por el fondo, el logo, el overlay o la placa. Pero se baja DE A UN
     # ESCALÓN, no de golpe: antes, un problema con la placa se llevaba puesto también al
@@ -901,15 +1109,30 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # el reel conserva el logo y el texto.
     _DEGRADADO.clear()
     pelado = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0.0,
-                  recorte=None, encuadre=None, marca_texto=False)
+                  recorte=None, encuadre=None, marca_texto=False, banda=None)
     escalones = [("completo", marca)]
     if placa:
         escalones.append(("sin la placa de cierre", {**marca, "placa": None, "seg_placa": 0.0}))
-    if fondo or logo_png or overlay_png or placa or recorte:
+    if banda:
+        # Un escalón propio: si lo que molesta son las bandas, el reel conserva el isologo,
+        # el texto de marca y la placa. La imagen vuelve a ocupar el cuadro entero, así que
+        # hay que recalcular el fondo y el encuadre para ese tamaño — pero SOLO si se llega
+        # a usar este escalón: es trabajo de PIL y de detección de caras, y el 99% de las
+        # veces el reel sale completo en el primer intento. Por eso va como función.
+        def sin_banda():
+            return {**marca, "banda": None, "placa": None, "seg_placa": 0.0,
+                    "fondo": fondo_enmarcado(cont_w, cont_h,
+                                             salida.parent / f"fondo2_{salida.stem}.png"),
+                    "encuadre": (_encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent)
+                                 if encuadre else None)}
+        escalones.append(("sin el titular ni el resumen", sin_banda))
+    if fondo or logo_png or overlay_png or placa or recorte or banda:
         escalones.append(("pelado, sin ninguna marca", pelado))
 
     ultimo = None
     for i, (nombre, args) in enumerate(escalones):
+        if callable(args):        # escalón perezoso: recién acá se arma lo que necesita
+            args = args()
         try:
             _armar_reel(src, salida, audio=audio, max_seconds=max_seconds, firma=firma, **args)
         except Exception as e:                                   # noqa: BLE001
@@ -931,6 +1154,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         + (" + fondo" if marca["fondo"] else "")
         + (" + logo" if marca["logo_png"] else "")
         + (" + texto de marca" if marca["marca_texto"] else "")
+        + (" + titular y resumen" if marca["banda"] else "")
         + (" + overlay" if marca["overlay"] else "")
         + (f" + placa final {seg_placa:.0f}s" if marca["placa"] else "")
     )
@@ -972,7 +1196,8 @@ def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:
 
 
 def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None = None,
-                firma: str | None = None, overlay: bool = True) -> Path:
+                firma: str | None = None, overlay: bool = True,
+                titular: str = "", resumen: str = "") -> Path:
     """Convierte una FOTO (o varias) de una nota en un reel vertical 9:16 con el MISMO
     criterio estético que los videos: fondo naranja que enmarca, logo arriba a la
     derecha, overlay del diario con el ZÓCALO escrito, y la placa de cierre «Seguinos
@@ -1007,7 +1232,7 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
     logger.info(f"Foto-reel: {len(fotos)} foto(s) → {seg_cont:.0f}s de contenido + placa "
                 f"(branding igual que los videos)")
     return to_vertical_reel(base, salida, audio=False, firma=firma, zocalo=zocalo or "",
-                            overlay=overlay)
+                            overlay=overlay, titular=titular, resumen=resumen)
 
 
 def frame_at(src, seconds, salida) -> Path:

@@ -297,14 +297,20 @@ def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
     return b
 
 
-def _reel_preview(fotos, slug: str) -> str:
+def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "") -> str:
     """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
-    Devuelve la URL o "" si falla (el mail sale sin ese botón). El reel definitivo se rearma igual al
-    publicar; como la foto no lleva texto quemado, corregir el texto después no cambia el reel."""
+    Devuelve la URL o "" si falla (el mail sale sin ese botón).
+
+    El reel definitivo se rearma al publicar. OJO (2026-09-18): desde que el reel lleva el
+    TITULAR y el RESUMEN quemados, corregir el texto SÍ cambia el reel — antes no, porque la
+    foto iba sin texto. Como el definitivo se arma después de leer la corrección, lo que se
+    publica siempre lleva el texto corregido; lo único que puede quedar viejo es ESTA
+    previsualización."""
     try:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
-        reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False)
+        reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False,
+                                 titular=titular, resumen=resumen)
         return upload_reel(reel_local)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
@@ -588,7 +594,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # La firma del corresponsal ya NO se quema en el video (pedido 2026-08-05): va como TEXTO
         # al inicio de la descripción/caption en las 3 redes (se arma en run_publish_video). El
         # diario también va SIN overlay ni zócalo (2026-07-27): fondo difuminado + logo + placa.
-        reel = to_vertical_reel(video_media, reel_path, overlay=False)
+        # El titular y el resumen van QUEMADOS en el reel (arriba y abajo, con el video en
+        # el medio). Los escribió Gemini al redactar la nota: acá no se le pide nada nuevo.
+        reel = to_vertical_reel(video_media, reel_path, overlay=False,
+                                titular=titulo, resumen=resumen)
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.
@@ -1535,7 +1544,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         draft_id = info["draft_id"]
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
-    reel_url = _reel_preview(fotos, _slug(carpeta.name))
+    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1613,7 +1622,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                 overlay=False)
+                                 overlay=False, titular=titular, resumen=resumen)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
@@ -1747,7 +1756,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         return
 
     # Reel de previsualización (para el botón «Previsualizar reel» del mail). Best-effort.
-    reel_url = _reel_preview(fotos, _slug(carpeta.name))
+    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1845,7 +1854,7 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4",
-                                 overlay=False)
+                                 overlay=False, titular=titular, resumen=resumen)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
