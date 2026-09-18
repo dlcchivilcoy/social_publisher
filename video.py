@@ -23,8 +23,14 @@ FUENTE_ZOCALO = ASSETS / "fonts" / "Montserrat-Bold.ttf"
 #   · el TITULAR tiene que entrar en 2 renglones → una angosta permite letra más grande;
 #   · el RESUMEN se lee chico sobre una foto → una humanista aguanta mejor ese tamaño.
 # Si el archivo no está, se cae a Montserrat y el reel sale igual (solo lo avisa el log).
-FUENTE_TITULAR = ASSETS / "fonts" / "ArchivoNarrow-SemiBold.ttf"
-FUENTE_RESUMEN = ASSETS / "fonts" / "LibreFranklin-SemiBold.ttf"
+# Las dos vienen de Google Fonts y son VARIABLES: un solo archivo con todos los pesos
+# adentro. Hay que pedir la instancia; si no, sale la Regular, demasiado fina para leerse
+# sobre una foto. Se elige con `_tipo`, tanto al MEDIR como al DIBUJAR — si se midiera con
+# una y se dibujara con otra, el texto no entraría donde dice que entra.
+FUENTE_TITULAR = ASSETS / "fonts" / "ArchivoNarrow-Variable.ttf"
+FUENTE_RESUMEN = ASSETS / "fonts" / "LibreFranklin-Variable.ttf"
+PESO_TITULAR = "SemiBold"     # instancias que traen: Regular, Medium, SemiBold, Bold
+PESO_RESUMEN = "SemiBold"
 PLACA_SEG = 5.0                             # cuánto dura la placa de cierre
 FONDO_DIFUMINADO = 80                       # px de transición entre el video y el fondo
 # Rectángulo ÚTIL de la caja negra del overlay (medido sobre el PNG, en 1080x1920): es la
@@ -296,11 +302,26 @@ def _fuente_banda(clave: str, archivo: Path) -> str | None:
     return _fuente_marca()
 
 
-def _ancho_texto(texto: str, fuente: str, cuerpo: int) -> int:
+def _tipo(ruta: str, cuerpo: int, peso: str = ""):
+    """Abre la tipografía en el CUERPO y el PESO pedidos.
+
+    `peso` solo aplica a las variables (Archivo Narrow, Libre Franklin). Si esta build de
+    PIL no sabe de variables, queda la instancia por defecto: más fina, pero el reel sale
+    igual. Montserrat es estática y no usa `peso`."""
+    from PIL import ImageFont
+    f = ImageFont.truetype(ruta, cuerpo)
+    if peso:
+        try:
+            f.set_variation_by_name(peso)
+        except Exception:                                        # noqa: BLE001
+            pass
+    return f
+
+
+def _ancho_texto(texto: str, fuente: str, cuerpo: int, peso: str = "") -> int:
     """Ancho en px de ese texto. Sin PIL devuelve una estimación (no rompe el reel)."""
     try:
-        from PIL import ImageFont
-        return int(ImageFont.truetype(fuente, cuerpo).getlength(texto))
+        return int(_tipo(fuente, cuerpo, peso).getlength(texto))
     except Exception:  # noqa: BLE001
         return int(len(texto) * cuerpo * 0.62)
 
@@ -351,7 +372,8 @@ def _marca_layout(fuente: str) -> tuple[list, int, int, int]:
     return renglones, x, borde, hueco
 
 
-def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int) -> list:
+def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
+              peso: str = "") -> list:
     """Parte `texto` en renglones que entren en `ancho`, hasta `maximo` renglones.
 
     Si sobra texto, el último renglón termina en «…»: así se ve que quedó cortado, en vez
@@ -364,7 +386,7 @@ def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int) -> 
     sobra = False
     for p in palabras:
         prueba = f"{actual} {p}".strip()
-        if actual and _ancho_texto(prueba, fuente, cuerpo) > ancho:
+        if actual and _ancho_texto(prueba, fuente, cuerpo, peso) > ancho:
             renglones.append(actual)
             actual = p
             if len(renglones) == maximo:
@@ -382,27 +404,27 @@ def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int) -> 
         return []
     if sobra:
         ultimo = renglones[-1]
-        while ultimo and _ancho_texto(ultimo + "…", fuente, cuerpo) > ancho:
+        while ultimo and _ancho_texto(ultimo + "…", fuente, cuerpo, peso) > ancho:
             ultimo = ultimo.rsplit(" ", 1)[0] if " " in ultimo else ultimo[:-1]
         renglones[-1] = (ultimo + "…") if ultimo else "…"
     return renglones
 
 
 def _cuerpo_para(texto: str, fuente: str, ancho: int, maximo: int,
-                 tam_max: int, tam_min: int) -> tuple:
+                 tam_max: int, tam_min: int, peso: str = "") -> tuple:
     """El cuerpo más grande (≤ `tam_max`) con el que el texto entra ENTERO en `maximo`
     renglones. Si ni con el mínimo entra, va el mínimo y el texto recortado con «…».
 
     Devuelve `(cuerpo, renglones)`."""
     for cuerpo in range(tam_max, tam_min - 1, -2):
-        renglones = _envolver(texto, fuente, cuerpo, ancho, maximo)
+        renglones = _envolver(texto, fuente, cuerpo, ancho, maximo, peso)
         if renglones and not renglones[-1].endswith("…"):
             return cuerpo, renglones
-    return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo)
+    return tam_min, _envolver(texto, fuente, tam_min, ancho, maximo, peso)
 
 
 def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
-                  ar: float | None = None) -> dict:
+                  ar: float | None = None, p_titular: str = "", p_resumen: str = "") -> dict:
     """Dónde va cada cosa cuando el reel lleva titular arriba y resumen abajo.
 
     Devuelve `{arriba, abajo, y_media, alto_media}`; `arriba`/`abajo` son listas de
@@ -434,13 +456,13 @@ def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
     t_cuerpo, t_lineas, t_salto, t_alto = 0, [], 0, 0
     if titular:
         t_cuerpo, t_lineas = _cuerpo_para(titular, f_titular, ancho, TITULAR_RENGLONES,
-                                          TITULAR_TAM_MAX, TITULAR_TAM_MIN)
+                                          TITULAR_TAM_MAX, TITULAR_TAM_MIN, p_titular)
         t_salto = round(t_cuerpo * 1.18)
         t_alto = len(t_lineas) * t_salto
     r_cuerpo, r_lineas, r_salto, r_alto = 0, [], 0, 0
     if resumen:
         r_cuerpo, r_lineas = _cuerpo_para(resumen, f_resumen, ancho, RESUMEN_RENGLONES,
-                                          RESUMEN_TAM_MAX, RESUMEN_TAM_MIN)
+                                          RESUMEN_TAM_MAX, RESUMEN_TAM_MIN, p_resumen)
         r_salto = round(r_cuerpo * 1.28)
         r_alto = len(r_lineas) * r_salto
 
@@ -470,8 +492,10 @@ def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
             if t_lineas:                                     # nunca se le encima al titular
                 y_r = max(y_r, y_t + t_alto + BANDA_AIRE)
 
-    arriba = [(l, t_cuerpo, y_t + i * t_salto, f_titular) for i, l in enumerate(t_lineas)]
-    abajo = [(l, r_cuerpo, y_r + i * r_salto, f_resumen) for i, l in enumerate(r_lineas)]
+    arriba = [(l, t_cuerpo, y_t + i * t_salto, f_titular, p_titular)
+              for i, l in enumerate(t_lineas)]
+    abajo = [(l, r_cuerpo, y_r + i * r_salto, f_resumen, p_resumen)
+             for i, l in enumerate(r_lineas)]
     return dict(arriba=arriba, abajo=abajo, y_media=y_media, alto_media=alto_media)
 
 
@@ -495,13 +519,16 @@ def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
         return None
     f_titular = _fuente_banda("REEL_FUENTE_TITULAR", FUENTE_TITULAR)
     f_resumen = _fuente_banda("REEL_FUENTE_RESUMEN", FUENTE_RESUMEN)
+    p_titular = _cfg("REEL_PESO_TITULAR", PESO_TITULAR)
+    p_resumen = _cfg("REEL_PESO_RESUMEN", PESO_RESUMEN)
     try:
         from PIL import Image, ImageDraw, ImageFont
     except Exception as e:                                       # noqa: BLE001
         logger.warning(f"Sin PIL para dibujar el titular ({e}); el reel va sin bandas.")
         return None
 
-    caja = bandas_layout(titular, resumen, f_titular, f_resumen, ar=ar)
+    caja = bandas_layout(titular, resumen, f_titular, f_resumen, ar=ar,
+                         p_titular=p_titular, p_resumen=p_resumen)
     if not caja["arriba"] and not caja["abajo"]:
         return None
 
@@ -514,8 +541,8 @@ def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
         # CENTRADO: `anchor="ma"` ancla cada renglón por su MEDIO (y por el ascendente,
         # igual que antes), así que la `x` pasa a ser el centro del cuadro.
         cx = 1080 // 2
-        for linea, cuerpo, y, tipo in caja["arriba"] + caja["abajo"]:
-            f = ImageFont.truetype(tipo, cuerpo)
+        for linea, cuerpo, y, tipo, peso in caja["arriba"] + caja["abajo"]:
+            f = _tipo(tipo, cuerpo, peso)
             dibujo.text((cx + 2, y + 2), linea, font=f, fill=NEGRO, anchor="ma")
             dibujo.text((cx, y), linea, font=f, fill=BLANCO, anchor="ma",
                         stroke_width=borde, stroke_fill=NEGRO)
@@ -526,8 +553,8 @@ def texto_reel_png(titular: str, resumen: str, salida, ar: float | None = None):
         logger.warning(f"No pude dibujar el titular del reel ({e}); va sin bandas.")
         return None
     logger.info(f"Bandas del reel: titular en {len(caja['arriba'])} renglón/es "
-                f"({Path(f_titular).stem}), resumen en {len(caja['abajo'])} "
-                f"({Path(f_resumen).stem}) · hueco de {caja['alto_media']}px "
+                f"({Path(f_titular).stem} {p_titular}), resumen en {len(caja['abajo'])} "
+                f"({Path(f_resumen).stem} {p_resumen}) · hueco de {caja['alto_media']}px "
                 f"desde y={caja['y_media']}")
     return salida, caja["y_media"], caja["alto_media"]
 
@@ -571,7 +598,7 @@ def marca_texto_png(salida) -> Path | None:
         lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
         dibujo = ImageDraw.Draw(lienzo)
         for linea, cuerpo, y in renglones:
-            f = ImageFont.truetype(fuente, cuerpo)
+            f = _tipo(fuente, cuerpo)
             # Sombra primero, corrida 2px, igual que shadowx/shadowy del filtro.
             dibujo.text((x + 2, y + 2), linea, font=f, fill=NEGRO, anchor="la")
             dibujo.text((x, y), linea, font=f, fill=BLANCO, anchor="la",
