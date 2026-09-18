@@ -1408,7 +1408,7 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # IG/FB: nada de texto tras los primeros 5 hashtags (en YouTube va la descripción completa).
     caption = _solo_5_hashtags(caption)
     # Y si aun así se pasa de lo que entra en Instagram, se resume (no se corta al medio).
-    caption = _caption_ig(caption, titulo, (ctx or {}).get("lugar", ""))
+    caption = _caption_ig(caption, titulo, fila.get("corresponsal_lugar", ""))
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}. Publicaría reel={reel_url} + draft={draft_id or '—'}\n"
