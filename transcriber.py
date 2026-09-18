@@ -846,6 +846,76 @@ def _solo_5_hashtags(texto: str) -> str:
     return texto[:ms[4].end()].rstrip()
 
 
+# Tope de la descripción de INSTAGRAM. Es el más chico de las redes donde va el reel
+# (Facebook admite 63.206), así que es el que manda para el caption compartido.
+IG_MAX_CAPTION = 2200
+
+
+def _cortar_prolijo(texto: str, tope: int) -> str:
+    """Último recurso: recorta a `tope` cerrando por ORACIÓN, y si no da, por PALABRA.
+
+    Nunca parte una palabra al medio. Sirve de red cuando no hay Gemini a mano."""
+    texto = (texto or "").strip()
+    if len(texto) <= tope:
+        return texto
+    corte = texto[:tope]
+    fin = max(corte.rfind(". "), corte.rfind("! "), corte.rfind("? "))
+    if fin > tope * 0.5:                       # hay una oración entera: cerramos ahí
+        return corte[:fin + 1].rstrip()
+    espacio = corte.rfind(" ")
+    return (corte[:espacio] if espacio > 0 else corte).rstrip(" ,.;:-—") + "…"
+
+
+def _partir_cola(texto: str) -> tuple:
+    """Separa el CUERPO de la COLA (el link a la web y los hashtags).
+
+    La cola no se resume nunca: es lo que lleva a la gente a la nota y lo que la hace
+    aparecer en las búsquedas. Se resume solo el cuerpo."""
+    i = texto.rfind("📲")
+    if i == -1:
+        m = re.search(r"\n+#[^\n]*$", texto)
+        i = m.start() if m else -1
+    if i <= 0:
+        return texto, ""
+    return texto[:i].rstrip(), texto[i:].strip()
+
+
+def _caption_ig(caption: str, titulo: str = "", lugar: str = "") -> str:
+    """Deja el caption dentro del tope de Instagram RESUMIENDO, no cortando.
+
+    POR QUÉ (2026-09-18): cuando el corresponsal escribe largo, el caption se pasaba de los
+    2.200 caracteres de Instagram y era la propia API la que lo cortaba —en seco, a mitad de
+    palabra— y de paso se llevaba puestos el link a la web y los hashtags, que van al final.
+    Quedaba publicado algo como «…y el intendente anunció que la ob».
+
+    Acá, si no entra, se RESUME el cuerpo con el mismo resumidor SEO que ya se usa para la
+    descripción del reel, y la cola (link + hashtags) se conserva entera.
+
+    ⚠️ Solo llama a Gemini si el texto NO entra. Si entra —que es lo habitual— no gasta nada.
+    Y si Gemini falla, cae a un corte por oración: nunca deja de publicar."""
+    limpio = (caption or "").strip()
+    if len(limpio) <= IG_MAX_CAPTION:
+        return limpio
+    cuerpo, cola = _partir_cola(limpio)
+    presupuesto = max(300, IG_MAX_CAPTION - len(cola) - 8)
+    resumido = ""
+    try:
+        from utils import gemini
+        resumido = gemini.resumen_seo(titulo, cuerpo, max_chars=presupuesto, lugar=lugar)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude resumir el caption para Instagram ({e}); lo corto por oración.")
+    nuevo = (resumido or _cortar_prolijo(cuerpo, presupuesto)).strip()
+    if len(nuevo) > presupuesto:               # Gemini a veces se pasa del tope pedido
+        nuevo = _cortar_prolijo(nuevo, presupuesto)
+    final = (nuevo + ("\n\n" + cola if cola else "")).strip()
+    if len(final) > IG_MAX_CAPTION:            # cinturón y tiradores
+        final = _cortar_prolijo(final, IG_MAX_CAPTION)
+    logger.info(f"El caption tenía {len(limpio)} caracteres y en Instagram entran "
+                f"{IG_MAX_CAPTION}: resumido a {len(final)} (la cola con el link y los "
+                f"hashtags quedó entera).")
+    return final
+
+
 # ── Aviso al corresponsal cuando su nota se publica (SOLO-GRATIS) ──────────────
 _WA_CANALES = {"wix": "nuestra web", "instagram": "Instagram", "facebook": "Facebook",
                "youtube": "YouTube", "tiktok": "TikTok"}
@@ -1336,6 +1406,8 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         caption = yt_desc  # IG/FB parten de la descripción SEO (sin firma)
     # IG/FB: nada de texto tras los primeros 5 hashtags (en YouTube va la descripción completa).
     caption = _solo_5_hashtags(caption)
+    # Y si aun así se pasa de lo que entra en Instagram, se resume (no se corta al medio).
+    caption = _caption_ig(caption, titulo, (ctx or {}).get("lugar", ""))
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}. Publicaría reel={reel_url} + draft={draft_id or '—'}\n"
@@ -1608,7 +1680,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     # YouTube, RECORTADO a los primeros 5 hashtags para IG/FB.
     meta = _meta_corresponsal(volanta, titular, resumen, texto)
     yt_desc = meta["descripcion"]
-    caption = _solo_5_hashtags(yt_desc)
+    caption = _caption_ig(_solo_5_hashtags(yt_desc), titular)
 
     if dry_run:
         logger.info(f"[dry-run] corresponsal-foto: nota web + reel a redes (IG/FB recortado a 5 hashtags), «{titular}».")
@@ -1830,7 +1902,9 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     title = f"{volanta} — {titular}" if volanta else titular
     site = _site()
     # TODO el texto en el caption (pedido del usuario): título + cuerpo completo + CTA.
-    caption = f"{titular}\n\n{texto}\n\n📲 Seguí leyendo en {site}".strip()
+    # Si el vecino escribió largo y no entra en Instagram, `_caption_ig` lo resume en vez de
+    # dejar que la API lo corte a mitad de palabra y se lleve puesto el link.
+    caption = _caption_ig(f"{titular}\n\n{texto}\n\n📲 Seguí leyendo en {site}".strip(), titular)
 
     if dry_run:
         meta = _youtube_meta(volanta, titular, resumen, texto) if _yt_enabled() else {}

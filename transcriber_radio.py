@@ -530,7 +530,7 @@ def run_placa_radio_publish(folder: str = "", dry_run: bool = False) -> None:
     texto = fila.get("texto", "")
     reel_url = fila.get("reel_url", "")
     # Mismo formato que el resto de las redes: párrafos + link bien escrito + máx 5 hashtags.
-    caption = tr._caption(titular, texto)
+    caption = tr._caption_ig(tr._caption(titular, texto), titular)
 
     if dry_run:
         logger.info(f"[dry-run] publicaría foto-nota radio «{titular}» (reel a IG/FB).")

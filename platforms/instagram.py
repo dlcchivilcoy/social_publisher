@@ -16,6 +16,22 @@ GRAPH_VERSION = "v19.0"
 MAX_CAPTION = 2200  # límite de Instagram
 
 
+def _acotar(caption: str) -> str:
+    """Último tope antes de mandar, por si algo llega largo igual.
+
+    Antes se hacía `caption[:MAX_CAPTION]`, que corta EN SECO: la última palabra quedaba
+    partida al medio. Acá se corta por palabra y se cierra con «…».
+
+    Lo normal es que esto no haga nada: el caption ya viene resumido de
+    `transcriber._caption_ig`, que en vez de cortar le pide un resumen a Gemini."""
+    caption = (caption or "").strip()
+    if len(caption) <= MAX_CAPTION:
+        return caption
+    corte = caption[:MAX_CAPTION - 1]
+    espacio = corte.rfind(" ")
+    return (corte[:espacio] if espacio > 0 else corte).rstrip(" ,.;:-—") + "…"
+
+
 def _location() -> str:
     """ID de página-lugar de Facebook para etiquetar la UBICACIÓN (ej. Chivilcoy).
     Instagram usa el mismo tipo de ID que Facebook. Configurable en IG_LOCATION_ID."""
@@ -315,7 +331,7 @@ def publish(body: str, image_path: Path) -> dict:
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
-    caption = body[:MAX_CAPTION]
+    caption = _acotar(body)
     jpeg_path = _as_jpeg(image_path)
     temp_created = jpeg_path != image_path
 
@@ -408,7 +424,7 @@ def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
     if len(paths) < 2:
         return publish(caption, paths[0])
 
-    caption = caption[:MAX_CAPTION]
+    caption = _acotar(caption)
     temps: list[Path] = []
     try:
         child_ids: list[str] = []
@@ -544,7 +560,7 @@ def publish_reel(video_url: str, caption: str) -> dict:
     reel_data = {
         "media_type": "REELS",
         "video_url": video_url,
-        "caption": caption[:MAX_CAPTION],
+        "caption": _acotar(caption),
         "share_to_feed": "true",
     }
     if _location():
