@@ -256,6 +256,94 @@ def _cuerpo_que_entra(texto: str, fuente: str, ancho: int, maximo: int) -> int:
     return MARCA_TAM_MIN
 
 
+def _marca_layout(fuente: str) -> tuple[list, int, int, int]:
+    """Dónde y de qué tamaño va cada renglón de la marca: (renglones, x, borde, ancho_util).
+
+    Cada renglón es `(texto, cuerpo, y)`. Se calcula acá, en un solo lugar, porque lo
+    usaban el dibujo y la medición y era fácil que se despegaran.
+    """
+    texto = _cfg("REEL_MARCA_TEXTO", MARCA_TEXTO)
+    usuario = _cfg("REEL_MARCA_USUARIO", MARCA_USUARIO)
+    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", "48")))
+    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", "110")))
+    ancho_logo = int(float(_cfg("REEL_LOGO_ANCHO", "150")))
+    borde = int(float(_cfg("REEL_MARCA_BORDE", "3")))
+
+    # Espacio libre: el cuadro menos los dos márgenes y la franja del isologo.
+    hueco = 1080 - 2 * mx - ancho_logo - 24
+    x = mx if _logo_a_la_derecha() else mx + ancho_logo + 24
+
+    lineas = [l.strip() for l in texto.split("|") if l.strip()]
+    if not lineas:
+        return [], x, borde, hueco
+    # Un solo cuerpo para toda la marca: el que hace entrar al renglón MÁS LARGO.
+    cuerpo = min(_cuerpo_que_entra(l, fuente, hueco, MARCA_TAM_MAX) for l in lineas)
+    cuerpo2 = max(MARCA_TAM_MIN, round(cuerpo * 0.75))
+    salto = round(cuerpo * 1.2)
+    # Centrado contra el isologo (514x568 px de origen → alto = ancho * 568/514).
+    alto_logo = round(ancho_logo * 568 / 514)
+    alto_texto = len(lineas) * salto + round(cuerpo2 * 1.2)
+    y0 = my + max(0, (alto_logo - alto_texto) // 2)
+
+    renglones = [(l, cuerpo, y0 + i * salto) for i, l in enumerate(lineas)]
+    if usuario:
+        renglones.append((usuario, cuerpo2, y0 + len(lineas) * salto))
+    return renglones, x, borde, hueco
+
+
+def marca_texto_png(salida) -> Path | None:
+    """Dibuja el TEXTO de marca en un PNG transparente de 1080x1920, para superponerlo
+    con `overlay`.
+
+    Antes esto se hacía con el filtro `drawtext` de ffmpeg, y el 2026-09-17 se descubrió
+    por qué eso era frágil: **`drawtext` necesita libfreetype y no todas las builds lo
+    traen**. El ffmpeg que se instala en el Linux de la nube NO lo tiene (el de Windows
+    sí), así que los reels salían sin nada de marca — y encima era irreproducible en la
+    PC. `overlay`, en cambio, está en todas las builds.
+
+    Beneficio de fondo: lo que se prueba en la PC ahora es lo mismo que corre en la nube.
+    """
+    salida = Path(salida)
+    texto = _cfg("REEL_MARCA_TEXTO", MARCA_TEXTO)
+    if texto.lower() in ("0", "no", "off", "false"):
+        return None
+    fuente = _fuente_marca()
+    if not fuente:
+        logger.warning("Sin tipografía para el texto de marca del reel; se omite.")
+        return None
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"Sin PIL para dibujar el texto de marca ({e}); se omite.")
+        return None
+
+    renglones, x, borde, _ = _marca_layout(fuente)
+    if not renglones:
+        return None
+
+    # Los mismos colores que tenía el drawtext: blanco, con contorno y sombra oscuros
+    # para que se lea sobre cualquier foto (el blanco pelado sobre un fondo claro
+    # desaparecía). 0.45 de opacidad = 115 de alfa.
+    NEGRO = (0, 0, 0, 115)
+    BLANCO = (255, 255, 255, 255)
+    try:
+        lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
+        dibujo = ImageDraw.Draw(lienzo)
+        for linea, cuerpo, y in renglones:
+            f = ImageFont.truetype(fuente, cuerpo)
+            # Sombra primero, corrida 2px, igual que shadowx/shadowy del filtro.
+            dibujo.text((x + 2, y + 2), linea, font=f, fill=NEGRO, anchor="la")
+            dibujo.text((x, y), linea, font=f, fill=BLANCO, anchor="la",
+                        stroke_width=borde, stroke_fill=NEGRO)
+        salida.parent.mkdir(parents=True, exist_ok=True)
+        lienzo.save(salida, "PNG")
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"No pude dibujar el texto de marca ({e}); el reel va sin él.")
+        return None
+    logger.info(f"Texto de marca dibujado: {len(renglones)} renglón/es")
+    return salida
+
+
 def _marca_drawtext(in_label: str, work_dir: Path) -> tuple[str, str]:
     """(fragmento_de_filtro, etiqueta_de_salida) con el nombre de los dos medios —uno
     debajo del otro— y, abajo de todo, el usuario de las redes. Va arriba, del lado
@@ -685,9 +773,15 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         out_label = "[vl]"
     if marca_texto:
         # Nombre de los dos medios + usuario de las redes, del lado libre del isologo.
-        draw, out_label = _marca_drawtext(out_label, salida.parent)
-        if draw:
-            vf += ";" + draw
+        # Va como IMAGEN superpuesta, no con `drawtext`: ver `marca_texto_png`.
+        marca_png = marca_texto_png(salida.parent / f"marca_{salida.stem}.png")
+        if marca_png:
+            idx = n_in
+            inputs += ["-i", str(marca_png)]
+            n_in += 1
+            vf += (f";[{idx}:v]scale=1080:1920,format=rgba[mk];"
+                   f"{out_label}[mk]overlay=0:0[vmk]")
+            out_label = "[vmk]"
     if overlay:
         # Marco del diario (esquinas + caja del zócalo + barra con la web y las redes).
         idx = n_in
@@ -797,12 +891,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         if _fullbleed_on():
             logger.info(f"Video horizontal ({cont_w}x{cont_h}): sin full bleed, va con fondo difuminado.")
 
-    # `marca_texto` tiene que decir si el texto VA A SALIR de verdad, no solo si se pidió:
-    # si a este ffmpeg le falta `drawtext`, el texto no se dibuja y el log no debe decir
-    # que sí. Ese log es lo único que se mira cuando algo sale raro.
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa,
                  seg_placa=seg_placa, recorte=recorte, encuadre=encuadre,
-                 marca_texto=logo and tiene_filtro("drawtext"))
+                 marca_texto=logo)
     # Si la marca hace fallar el filtergraph, el reel igual sale: nunca se pierde una
     # publicación por el fondo, el logo, el overlay o la placa. Pero se baja DE A UN
     # ESCALÓN, no de golpe: antes, un problema con la placa se llevaba puesto también al
