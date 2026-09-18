@@ -1,6 +1,6 @@
 # TikTok — el reel del bot a @diarioyradio
 
-**Estado al 2026-09-17: la app está LIVE, pero la auditoría de Direct Post sigue RECHAZADA.**
+**Estado al 2026-09-18: la app está LIVE, pero la auditoría de Direct Post sigue RECHAZADA.**
 Los reels caen en los **borradores** de TikTok y el editor los termina de publicar a mano
 desde el celular. No es un estado de transición: es el régimen normal hasta nuevo aviso.
 
@@ -82,6 +82,32 @@ verificación** — un token por cada una, aunque el dominio sea el mismo. Por e
 **cuatro** archivos en `diario_web/public/` y no se puede borrar ninguno. El archivo se copia
 ahí, se pushea a `main`, y **recién cuando Vercel terminó** (unos 30 s; se chequea con `curl`
 que dé 200) se toca «Verify». Si le das antes, falla y hay que rehacer la carga.
+
+### 📨 18/9 — soporte contestó, y la pregunta que importa quedó SIN responder
+
+Tercera respuesta del hilo (otra vez al día siguiente). Dice tres cosas:
+
+1. **Confirma que vieron la corrección.** Textual: notaron que los dos URL prefixes están
+   verificados bajo la configuración `reels` «to match your fully verified Production
+   configuration». O sea: el arreglo del 17/9 quedó registrado del lado de ellos. ✅
+2. **Sobre `FILE_UPLOAD`: quedaron en averiguar.** «We will check our internal records to see
+   if any specific URL was flagged and where it might have been submitted.» No hay respuesta
+   todavía, pero es un compromiso concreto — y si aparece esa URL, dice de dónde salió.
+3. **El resto es texto de molde.** Que miremos el motivo del rechazo en *Manage Apps → la app
+   → Review*, que cumplamos los requisitos (videos demo, criterios de media URL), que hagamos
+   la auditoría y que al reenviar corrijamos todo lo observado.
+
+**⚠️ La pregunta de política no la contestaron: ni que cayó, ni que sigue.**
+
+Y el consejo que dan es **circular**: la sección *Review* del portal es exactamente donde
+está el cartel del 16/9 que dice «will not be approved for personal or company internal use».
+Ese cartel es lo que motivó la pregunta. Mirarlo de nuevo no puede responderla, porque el
+panel muestra la **última decisión** y no distingue si sigue viva o si quedó de arrastre.
+
+**Qué se hace:** una respuesta corta más, con **una sola pregunta de sí o no**, y se sigue
+**sin tocar «Reapply»**. El costo de preguntar es un día —las dos últimas respuestas llegaron
+al día siguiente—; el costo de reenviar y que lo volteen por política es el ciclo entero.
+
 
 ---
 
