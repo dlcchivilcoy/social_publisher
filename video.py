@@ -510,10 +510,21 @@ def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
     alto_media -= alto_media % 2          # libx264 no acepta altos impares
     pie_foto = y_media + alto_media
 
-    # ── 4) El resumen se APOYA en el borde de abajo de la foto ──────────────
-    # Su último renglón termina justo donde termina la imagen (pedido del usuario): el texto
-    # queda sobre la parte inferior de la foto, que además es lo que las redes no tapan.
-    y_r = max(fin_titular + aire, pie_foto - r_alto)
+    # ── 4) El resumen, según la forma del material ──────────────────────────
+    # APAISADA: va DEBAJO del borde de abajo de la foto. Como una foto 16:9 solo ocupa 608px
+    #   de alto, abajo sobra lugar de verdad y el texto no tiene por qué taparla.
+    # VERTICAL (o cuadrada): la imagen llega casi hasta el piso, así que el texto se APOYA
+    #   sobre ella —su último renglón termina en el borde— y se superpone un poco. Es eso o
+    #   mandarlo a la franja donde Instagram y Facebook ponen sus botones.
+    # (Pedido del usuario, 2026-09-18.)
+    apaisada = bool(ar and ar > 1.02)
+    if apaisada:
+        y_r = pie_foto + aire
+        tope_abajo = 1920 - seguro - r_alto
+        if y_r > tope_abajo:                  # no caer en lo que tapan las redes
+            y_r = max(fin_titular + aire, tope_abajo)
+    else:
+        y_r = max(fin_titular + aire, pie_foto - r_alto)
 
     arriba = [(l, t_cuerpo, y_t + i * t_salto, f_titular, p_titular)
               for i, l in enumerate(t_lineas)]
