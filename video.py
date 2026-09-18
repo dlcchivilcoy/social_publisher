@@ -54,9 +54,13 @@ RESUMEN_RENGLONES = 3
 RESUMEN_TAM_MAX = 38
 RESUMEN_TAM_MIN = 20
 BANDA_MX = 56                 # margen lateral del texto de las bandas
-BANDA_AIRE = 26               # aire entre el texto y el borde de la imagen
-BANDA_PIE = 84                # margen inferior del resumen
+BANDA_AIRE = 18               # aire entre el titular y el borde de arriba de la imagen
+BANDA_GAP_MARCA = 16          # aire entre el bloque de marca y el titular
 BANDA_ALTO_MIN = 420          # la imagen nunca queda más chata que esto
+# El resumen va apenas más chico que el titular, no con un cuerpo fijo: con 38 contra 64
+# quedaba ilegible al lado del título. Si con ese cuerpo no entra todo, se RECORTA el texto
+# (pedido del usuario: antes menos palabras que letra chica).
+RESUMEN_DELTA = 2
 # Franja de abajo que tapan los controles de Instagram y Facebook (autor, texto, botones).
 # El resumen nunca baja de acá: si la imagen es vertical y llega hasta el piso, el resumen
 # SUBE y se apoya sobre la parte de abajo de la imagen, que es donde sí se ve.
@@ -372,6 +376,25 @@ def _marca_layout(fuente: str) -> tuple[list, int, int, int]:
     return renglones, x, borde, hueco
 
 
+def _alto_linea(fuente: str, cuerpo: int, peso: str = "") -> int:
+    """Alto REAL de un renglón: ascendente + descendente de esa tipografía en ese cuerpo.
+
+    Hace falta para apoyar el último renglón contra el borde de abajo de la foto. El `salto`
+    entre renglones NO sirve para eso: mide de una línea base a la siguiente y se olvida de
+    la cola de la «g», la «p» o la «j» del último renglón, que sobresale por debajo. Con
+    `n * salto` el texto se pasaba de la foto (visto el 2026-09-18)."""
+    try:
+        a, d = _tipo(fuente, cuerpo, peso).getmetrics()
+        return int(a + d)
+    except Exception:                                            # noqa: BLE001
+        return int(cuerpo * 1.2)
+
+
+def _alto_bloque(n: int, salto: int, fuente: str, cuerpo: int, peso: str = "") -> int:
+    """Alto de un bloque de `n` renglones, desde el tope del primero hasta el pie del último."""
+    return (n - 1) * salto + _alto_linea(fuente, cuerpo, peso) if n else 0
+
+
 def _envolver(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
               peso: str = "") -> list:
     """Parte `texto` en renglones que entren en `ancho`, hasta `maximo` renglones.
@@ -433,10 +456,9 @@ def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
     `f_titular` y `f_resumen` son las tipografías de cada bloque: no son la misma, así que
     cada uno se mide con la suya (el cuerpo que entra depende del dibujo de la letra).
 
-    `ar` es la proporción (ancho/alto) del material. Con ella los textos se ACERCAN a la
-    imagen: sin eso, una foto apaisada ocupa una franja fina en el centro y el titular
-    quedaba pegado al isologo y el resumen contra el piso, los dos flotando lejísimos de
-    la foto.
+    `ar` es la proporción (ancho/alto) del material, y con ella se calcula **exactamente**
+    cuánto va a medir la imagen. Todo el bloque —titular, foto y resumen— se apoya arriba,
+    contra el isologo, en vez de repartirse por el cuadro.
 
     Se mide en un solo lugar a propósito, porque lo usan el dibujo del PNG y el
     filtergraph de ffmpeg: si se despegan, el texto termina pisando la foto."""
@@ -452,45 +474,46 @@ def bandas_layout(titular: str, resumen: str, f_titular: str, f_resumen: str,
         _, cuerpo_u, y_u = renglones_marca[-1]
         fin_marca = max(fin_marca, y_u + round(cuerpo_u * 1.3))
 
-    # ── 1) Medir: cuánto ocupa cada texto, sin decidir todavía dónde va ──────
+    # ── 1) El TITULAR, pegado a la marca ────────────────────────────────────
+    # Antes el titular BAJABA a buscar la foto y quedaba flotando a 340px del isologo. Ahora
+    # es al revés: el titular se queda arriba y es la FOTO la que sube a buscarlo.
+    gap = int(float(_cfg("REEL_GAP_MARCA", str(BANDA_GAP_MARCA))))
+    aire = int(float(_cfg("REEL_BANDA_AIRE", str(BANDA_AIRE))))
     t_cuerpo, t_lineas, t_salto, t_alto = 0, [], 0, 0
     if titular:
         t_cuerpo, t_lineas = _cuerpo_para(titular, f_titular, ancho, TITULAR_RENGLONES,
                                           TITULAR_TAM_MAX, TITULAR_TAM_MIN, p_titular)
         t_salto = round(t_cuerpo * 1.18)
-        t_alto = len(t_lineas) * t_salto
+        t_alto = _alto_bloque(len(t_lineas), t_salto, f_titular, t_cuerpo, p_titular)
+    y_t = fin_marca + gap
+    fin_titular = y_t + t_alto if t_lineas else fin_marca
+
+    # ── 2) El RESUMEN: cuerpo atado al del titular ──────────────────────────
+    # No se achica hasta que entre: se fija el cuerpo (apenas menor que el del titular) y si
+    # el texto no entra en sus renglones se corta con «…». Menos palabras, pero legibles.
+    delta = int(float(_cfg("REEL_RESUMEN_DELTA", str(RESUMEN_DELTA))))
     r_cuerpo, r_lineas, r_salto, r_alto = 0, [], 0, 0
     if resumen:
-        r_cuerpo, r_lineas = _cuerpo_para(resumen, f_resumen, ancho, RESUMEN_RENGLONES,
-                                          RESUMEN_TAM_MAX, RESUMEN_TAM_MIN, p_resumen)
+        base = t_cuerpo if t_cuerpo else RESUMEN_TAM_MAX + delta
+        r_cuerpo = max(RESUMEN_TAM_MIN, base - delta)
+        r_lineas = _envolver(resumen, f_resumen, r_cuerpo, ancho, RESUMEN_RENGLONES, p_resumen)
         r_salto = round(r_cuerpo * 1.28)
-        r_alto = len(r_lineas) * r_salto
+        r_alto = _alto_bloque(len(r_lineas), r_salto, f_resumen, r_cuerpo, p_resumen)
 
-    # ── 2) El hueco de la imagen: lo que sobra con los textos en su lugar de
-    #       máxima separación (titular pegado a la marca, resumen contra el piso) ──
-    y_t = fin_marca + 34
-    y_r = 1920 - BANDA_PIE - r_alto
-    y_media = (y_t + t_alto + BANDA_AIRE) if t_lineas else fin_marca + BANDA_AIRE
-    alto_media = max(BANDA_ALTO_MIN, (y_r - BANDA_AIRE) - y_media)
+    # ── 3) La FOTO: arranca debajo del titular y no baja de la franja segura ─
+    # `alto_media` es EXACTAMENTE lo que va a medir la imagen, así que el centrado que hace
+    # ffmpeg dentro del hueco no mueve nada: la foto queda pegada abajo del titular.
+    y_media = fin_titular + aire
+    disponible = max(BANDA_ALTO_MIN, (1920 - seguro) - y_media)
+    alto_media = min(disponible, int(round(1080 / ar))) if (ar and ar > 0) else disponible
+    alto_media = max(BANDA_ALTO_MIN, alto_media)
     alto_media -= alto_media % 2          # libx264 no acepta altos impares
+    pie_foto = y_media + alto_media
 
-    # ── 3) Acercar los textos a la imagen de verdad ─────────────────────────
-    # ffmpeg centra la imagen dentro del hueco: con `ar` sabemos qué parte del hueco va a
-    # ocupar realmente, y pegamos los textos a ESE borde en vez de a los extremos.
-    if ar and ar > 0:
-        alto_real = min(alto_media, int(round(1080 / ar)))
-        tope = y_media + (alto_media - alto_real) // 2       # borde de arriba de la imagen
-        pie = tope + alto_real                               # borde de abajo
-        if t_lineas:
-            # Baja hasta quedar justo encima de la imagen (nunca por encima de la marca).
-            y_t = max(y_t, tope - BANDA_AIRE - t_alto)
-        if r_lineas:
-            # Sube hasta quedar justo debajo de la imagen. Y si la imagen llega hasta
-            # abajo (material vertical), sube MÁS: se apoya sobre la parte inferior de la
-            # imagen para no caer donde IG y FB ponen sus controles.
-            y_r = min(pie + BANDA_AIRE, 1920 - seguro - r_alto)
-            if t_lineas:                                     # nunca se le encima al titular
-                y_r = max(y_r, y_t + t_alto + BANDA_AIRE)
+    # ── 4) El resumen se APOYA en el borde de abajo de la foto ──────────────
+    # Su último renglón termina justo donde termina la imagen (pedido del usuario): el texto
+    # queda sobre la parte inferior de la foto, que además es lo que las redes no tapan.
+    y_r = max(fin_titular + aire, pie_foto - r_alto)
 
     arriba = [(l, t_cuerpo, y_t + i * t_salto, f_titular, p_titular)
               for i, l in enumerate(t_lineas)]
