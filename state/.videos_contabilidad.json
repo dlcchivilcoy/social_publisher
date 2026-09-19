@@ -14567,12 +14567,30 @@
     "zocalo": "Tenca Hernández",
     "draft_id": "85bb9b22-691c-40fb-83e3-028ca1db0546",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mu8rh0m89ioq-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-19T19:09:13.607Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-19T19:09:13.607Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-19T16:16:11",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/torneo-federal-a-independiente-abrio-el-marcador-ante-atletico",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (5 borradores sin publicar)",
+      "wix": "ok"
+    },
+    "ig_media_id": "18072144422755695",
+    "fb_video_id": "1076235838484722",
+    "yt_video_id": "AqMuQDMULNU",
+    "yt_url": "https://www.youtube.com/shorts/AqMuQDMULNU",
+    "yt_watch_url": "https://www.youtube.com/watch?v=AqMuQDMULNU",
+    "yt_titulo": "Independiente abrió el marcador ante Atlético Escobar con gol de «Tenca» Hernández",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-19T16:16:11",
+    "yt_metrics": {}
   }
 ]
