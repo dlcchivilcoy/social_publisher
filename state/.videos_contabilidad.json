@@ -14605,12 +14605,30 @@
     "zocalo": "J.J. Lungarzo",
     "draft_id": "c112189d-66bd-4434-ab36-eb0200ad45b2",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mu8tw6zfok9a-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-19T20:17:00.941Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-19T20:17:00.941Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-19T17:23:43",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-con-gol-de-soriano-independiente-se-puso-2-a-0-frente-a",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (6 borradores sin publicar)",
+      "wix": "ok"
+    },
+    "ig_media_id": "18061016921586816",
+    "fb_video_id": "2266036477514122",
+    "yt_video_id": "Q-BHt_Vbqxo",
+    "yt_url": "https://www.youtube.com/shorts/Q-BHt_Vbqxo",
+    "yt_watch_url": "https://www.youtube.com/watch?v=Q-BHt_Vbqxo",
+    "yt_titulo": "Con gol de Soriano, Independiente se puso 2 a 0 frente a Atlético Escobar",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-19T17:23:43",
+    "yt_metrics": {}
   }
 ]
