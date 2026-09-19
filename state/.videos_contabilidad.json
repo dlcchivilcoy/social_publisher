@@ -14453,12 +14453,30 @@
     "zocalo": "Mariana Olea",
     "draft_id": "340dd0a3-0bc4-48dc-97a3-edee48fe3c84",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mu7qin0by98q-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias Zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-19T01:54:43.468Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-19T01:54:43.468Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-18T23:02:51",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/derribando-muros-mariana-olea-los-pibes-necesitan-mas-contencion-que",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (4 borradores sin publicar)",
+      "wix": "ok"
+    },
+    "ig_media_id": "18111764309020235",
+    "fb_video_id": "1598215514989056",
+    "yt_video_id": "7QLV8cm05Uc",
+    "yt_url": "https://www.youtube.com/shorts/7QLV8cm05Uc",
+    "yt_watch_url": "https://www.youtube.com/watch?v=7QLV8cm05Uc",
+    "yt_titulo": "Mariana Olea: «Los pibes necesitan más contención que nunca»",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-18T23:02:51",
+    "yt_metrics": {}
   }
 ]
