@@ -186,6 +186,14 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     hay = nota["hay_noticia"]
     volanta, titulo = nota["volanta"], nota["titulo"]
     texto, resumen = nota["texto"], nota["resumen"]
+    # La grafía de los nombres y las siglas la manda lo ESCRITO, no la desgrabación del audio
+    # (mismo criterio que el diario; ver `utils/grafia.py`).
+    if hay and (extra_text or "").strip():
+        from utils import grafia
+        _c = grafia.corregir_campos({"volanta": volanta, "titular": titulo,
+                                     "bajada": resumen, "texto": texto}, extra_text)
+        volanta, titulo = _c["volanta"], _c["titular"]
+        resumen, texto = _c["bajada"], _c["texto"]
     slug = tr._slug(video.stem)
 
     # Reel vertical branded SIN overlay ni zócalo (pedido del usuario 2026-07-29): queda igual
@@ -194,7 +202,7 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     firma = tr._firma_texto() if es_corresponsal else None
     reel = to_vertical_reel(video, tr.WORK_DIR / f"reel_radio_{slug}.mp4",
                             firma=firma, overlay=False, titular=titulo, resumen=resumen,
-                            volanta=volanta)
+                            volanta=volanta, cuerpo=texto)
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"

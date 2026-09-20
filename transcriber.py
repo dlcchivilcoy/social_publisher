@@ -298,7 +298,7 @@ def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
 
 
 def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
-                  volanta: str = "") -> str:
+                  volanta: str = "", cuerpo: str = "") -> str:
     """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
     Devuelve la URL o "" si falla (el mail sale sin ese botón).
 
@@ -311,7 +311,8 @@ def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False,
-                                 titular=titular, resumen=resumen, volanta=volanta)
+                                 titular=titular, resumen=resumen, volanta=volanta,
+                                 cuerpo=cuerpo)
         return upload_reel(reel_local)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
@@ -570,6 +571,20 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     if hay:
         resumen = _resumen_reel(titulo, texto, resumen, lugar=(ctx or {}).get("lugar", ""))
 
+    # LA GRAFÍA LA MANDA LO ESCRITO (pedido del usuario 2026-09-20). Lo que se estampa en el
+    # reel sale de acá, y un apellido mal escrito en un titular quemado en el video ya no se
+    # arregla. Gemini tiene la instrucción de respetar el texto del colaborador, pero esto no
+    # depende de que la cumpla: compara nombre por nombre y sigla por sigla contra lo que el
+    # colaborador ESCRIBIÓ, y donde suena igual pero está escrito distinto, gana lo escrito.
+    # Si no hay texto escrito, no hay contra qué comparar y no se toca nada.
+    if hay and extra_text.strip():
+        from utils import grafia
+        _c = grafia.corregir_campos(
+            {"volanta": volanta, "titular": titulo, "bajada": resumen, "texto": texto},
+            extra_text)
+        volanta, titulo = _c["volanta"], _c["titular"]
+        resumen, texto = _c["bajada"], _c["texto"]
+
     # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
     # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
     # esto se cae, NO dejamos morir la corrida en silencio: antes el run terminaba en error, sin
@@ -595,10 +610,13 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # La firma del corresponsal ya NO se quema en el video (pedido 2026-08-05): va como TEXTO
         # al inicio de la descripción/caption en las 3 redes (se arma en run_publish_video). El
         # diario también va SIN overlay ni zócalo (2026-07-27): fondo difuminado + logo + placa.
-        # El titular y el resumen van QUEMADOS en el reel (arriba y abajo, con el video en
-        # el medio). Los escribió Gemini al redactar la nota: acá no se le pide nada nuevo.
+        # El titular y el resumen van QUEMADOS en el reel (arriba, con el video abajo). Los
+        # escribió Gemini al redactar la nota y ya pasaron por el corrector de grafía: acá no
+        # se le pide nada nuevo. `cuerpo` es el texto de la nota: si el material es apaisado,
+        # debajo de la foto queda fondo libre y ahí va su primera oración fuerte.
         reel = to_vertical_reel(video_media, reel_path, overlay=False,
-                                titular=titulo, resumen=resumen, volanta=volanta)
+                                titular=titulo, resumen=resumen, volanta=volanta,
+                                cuerpo=texto)
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.
@@ -1602,6 +1620,14 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
                 "texto": desc, "resumen": desc[:280]}
     volanta = nota.get("volanta", ""); titular = nota.get("titulo", "")
     texto = nota.get("texto", ""); resumen = nota.get("resumen", "") or titular
+    # Igual que en el desgrabador: la grafía de los nombres y las siglas la manda lo que el
+    # vecino ESCRIBIÓ, no cómo lo reescribió la IA (pedido 2026-09-20).
+    if desc.strip():
+        from utils import grafia
+        _c = grafia.corregir_campos({"volanta": volanta, "titular": titular,
+                                     "bajada": resumen, "texto": texto}, desc)
+        volanta, titular = _c["volanta"], _c["titular"]
+        resumen, texto = _c["bajada"], _c["texto"]
     title = f"{volanta} — {titular}" if volanta else titular
 
     if dry_run:
@@ -1618,7 +1644,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
     reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
-                             volanta=volanta)
+                             volanta=volanta, cuerpo=texto)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1697,7 +1723,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
                                  overlay=False, titular=titular, resumen=resumen,
-                                 volanta=volanta)
+                                 volanta=volanta, cuerpo=texto)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
@@ -1832,7 +1858,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
 
     # Reel de previsualización (para el botón «Previsualizar reel» del mail). Best-effort.
     reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
-                             volanta=volanta)
+                             volanta=volanta, cuerpo=texto)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1933,7 +1959,7 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4",
                                  overlay=False, titular=titular, resumen=resumen,
-                                 volanta=volanta)
+                                 volanta=volanta, cuerpo=texto)
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")
