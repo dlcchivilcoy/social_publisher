@@ -1804,6 +1804,26 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             estado["youtube"] = f"falló: {e}"; logger.error(f"[youtube] Short FALLÓ: {e}")
     # 2.5) Nota web: embeber el reel (YouTube si salió) en el borrador y publicarlo.
     post_url = ""
+    if not draft_id:
+        # La etapa 1 no pudo crear el borrador. Pasó el 2026-09-21: el importador de
+        # imágenes de Wix estuvo caído unos minutos y devolvió 500 en los cuatro intentos,
+        # y con eso la nota salía a TODAS las redes y NUNCA llegaba a la web — en silencio,
+        # porque el mail resumen decía «web=omitido», que se lee como una decisión y no
+        # como una falla. Se reintenta acá: entre la etapa 1 y la aprobación pasan minutos
+        # u horas, y para entonces Wix casi siempre volvió.
+        titulo_web = f"{volanta} — {titular}" if volanta else titular
+        try:
+            info = _retry(lambda: wix.crear_borrador_galeria(
+                titulo_web, titular + ("\n\n" + texto if texto else ""), fotos,
+                video_urls=[], page=0, description=resumen),
+                etiqueta="[wix] crear el borrador que faltó en la etapa 1")
+            draft_id = info["draft_id"]
+            fila["draft_id"] = draft_id
+            logger.info(f"[wix] el borrador no existía (Wix falló en la etapa 1): lo creé "
+                        f"ahora → {draft_id}")
+        except Exception as e:                                   # noqa: BLE001
+            estado["wix"] = f"falló: no había borrador y tampoco pude crearlo ({e})"
+            logger.error(f"[wix] no había borrador y tampoco pude crearlo ahora: {e}")
     if draft_id:
         if yt_info.get("url"):
             try:
@@ -2048,6 +2068,21 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     # 3) Nota web: embeber el reel (YouTube, si salió) DENTRO del borrador y recién PUBLICAR,
     # así la web queda «como nota con el reel» y no solo la galería de fotos.
     post_url = ""
+    if not draft_id:
+        # Mismo caso que en el corresponsal-foto: si Wix estaba caído en la etapa 1, no hay
+        # borrador y sin esto la nota salía a todas las redes menos a la web, en silencio.
+        try:
+            info = _retry(lambda: wix.crear_borrador_galeria(
+                title, titular + ("\n\n" + texto if texto else ""), fotos,
+                video_urls=[], page=0, description=resumen),
+                etiqueta="[wix] crear el borrador que faltó en la etapa 1")
+            draft_id = info["draft_id"]
+            fila["draft_id"] = draft_id
+            logger.info(f"[wix] el borrador no existía (Wix falló en la etapa 1): lo creé "
+                        f"ahora → {draft_id}")
+        except Exception as e:                                   # noqa: BLE001
+            estado["wix"] = f"falló: no había borrador y tampoco pude crearlo ({e})"
+            logger.error(f"[wix] no había borrador y tampoco pude crearlo ahora: {e}")
     if draft_id:
         if yt_info.get("url"):
             try:
