@@ -1590,6 +1590,69 @@ def resumen_seo(titulo: str, texto: str, max_chars: int = 300, lugar: str = "",
     return _cortar_prolijo(base, max_chars)
 
 
+_TITULAR_PROMPT = (
+    "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Te paso el TEXTO de una nota "
+    "que llegó SIN TÍTULO (o con un párrafo entero puesto en el lugar del título). Escribí EL "
+    "TITULAR.\n"
+    "CÓMO TIENE QUE SER:\n"
+    "• MÁXIMO {MAX} caracteres. Es un tope duro.\n"
+    "• UNA sola oración, en presente o pretérito perfecto, tercera persona, español rioplatense. "
+    "SIN punto final.\n"
+    "• Lo más importante ADELANTE: qué pasó, y quién o dónde. Si hay una persona, una institución "
+    "o un lugar con nombre, va en el titular.\n"
+    "• Escribilo como se escribe un título: no arranca con «Se informa que…» ni con la fecha, y no "
+    "es el primer renglón del texto copiado.\n"
+    "• PROHIBIDO inventar: usá SOLO lo que dice el texto. Nada de cifras, nombres, causas ni "
+    "consecuencias que el texto no diga. Si un dato no está, no va.\n"
+    "• PROHIBIDO el clickbait, las MAYÚSCULAS sostenidas, los signos de admiración, los hashtags "
+    "y las comillas alrededor de todo el título.\n"
+    "• Los NOMBRES PROPIOS y las SIGLAS se copian con la MISMA GRAFÍA que en el texto (las letras, los acentos), pero escritos como se escriben en un diario: «Damián Molinari», no «MOLINARI DAMIAN». Si el texto pone el apellido primero, dalo vuelta.\n"
+    "• El texto puede venir de un PARTE POLICIAL o administrativo. Traducilo al castellano del diario: «nosocomio» es «hospital», «masculino/femenino» es «un hombre»/«una mujer», «siniestro vial» es «choque» o «accidente», «dominio» es «patente». Nada de abreviaturas de parte («Pnal.», «s/n», «art.»).\n"
+    "Devolvé SOLO el titular, sin comillas ni etiquetas."
+)
+
+
+def titular_desde_texto(texto: str, volanta: str = "", max_chars: int = 90,
+                        api_key: str = "", model: str = "", key_pool=None) -> str:
+    """Deduce EL TITULAR del texto completo de la nota. "" si no se pudo.
+
+    Para cuando el material llega sin título —o con el primer párrafo entero metido en el
+    lugar del título, que es lo que pasa con los partes policiales pegados en el Word—. El
+    que llama decide CUÁNDO hace falta; acá solo se escribe.
+
+    Best-effort igual que `resumen_seo`: si Gemini no contesta, se recorta la primera oración
+    del texto de forma prolija. Nunca lanza."""
+    base = " ".join((texto or "").split()).strip()
+    if not base:
+        return ""
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        ctx = f"VOLANTA (ya escrita, no la repitas): {volanta.strip()}\n" if (volanta or "").strip() else ""
+        prompt = (_TITULAR_PROMPT.replace("{MAX}", str(int(max_chars))) +
+                  f"\n\n{ctx}TEXTO:\n{base}")
+        r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}],
+                              "generationConfig": {"temperature": 0.2}},
+                      key, timeout=120, key_pool=key_pool or _gemini_keys(key))
+        out = ""
+        for part in (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", []):
+            out += part.get("text", "")
+        out = " ".join(out.split()).strip().strip('"').strip("«»").strip()
+        out = out.rstrip(".").strip()          # un titular no lleva punto final
+        if out:
+            if len(out) > max_chars:           # por las dudas, si Gemini se pasó del tope
+                out = _cortar_prolijo(out, max_chars).rstrip(".").strip()
+            logger.info(f"Titular deducido del texto ({len(base)} chars): «{out}»")
+            return out
+    except Exception as e:                                          # noqa: BLE001
+        logger.warning(f"No pude deducir el titular con Gemini ({e}); corto la primera oración.")
+    # Sin IA: la primera oración, recortada prolijo. No es un gran titular, pero se lee
+    # entero y dice de qué se trata — que es mucho más que un párrafo cortado con «…».
+    import re as _re
+    primera = _re.split(r"(?<=[.!?])\s+", base)[0].strip()
+    return _cortar_prolijo(primera or base, max_chars).rstrip(".").strip()
+
+
 def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
                     api_key: str = "", model: str = "", key_pool=None) -> dict:
     """Corrige la descripción que escribió el corresponsal (gramática/redacción, SIN cambiar la info

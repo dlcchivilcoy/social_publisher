@@ -98,14 +98,14 @@ PLACA_BAJADA_MIN = 30
 PLACA_BAJADA_RENGLONES = 3
 # Texto de PIE: la primera oración fuerte de la nota, en el gris que queda DEBAJO de una
 # foto apaisada (pedido del usuario 2026-09-20). Ese hueco antes era gris vacío.
-# Va más chico que la bajada a propósito: es información de apoyo y, sobre todo, el hueco
-# real es corto. Medido con una foto 16:9 y un titular de largo normal, entre el pie de la
-# foto y la franja que tapan las apps quedan unos 96px — dos renglones de 30. Con un
-# titular corto el hueco crece y entran tres.
-PLACA_PIE_TAM = 30
-PLACA_PIE_MIN = 24
+# Va del MISMO tamaño que la bajada (pedido del usuario 2026-09-20): en el celular, 30
+# contra 44 se leía como una nota al pie, y esto es información de la noticia. El cuerpo
+# real lo decide el hueco que haya quedado bajo la foto — arranca en 44 y baja hasta 30—,
+# igual que la bajada.
+PLACA_PIE_TAM = PLACA_BAJADA_TAM
+PLACA_PIE_MIN = PLACA_BAJADA_MIN
 PLACA_PIE_RENGLONES = 3
-PLACA_PIE_MIN_ALTO = 70       # menos que esto no da ni para dos renglones: no se dibuja
+PLACA_PIE_MIN_ALTO = 60       # ni un renglón del cuerpo más chico entra: no se dibuja
 # Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
 # entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
 # aunque el apellido caiga al renglón siguiente.
@@ -804,6 +804,31 @@ def _color_dominante(src, work_dir) -> str:
 
 _FIN_ORACION = ".!?"
 
+# Palabras «de enganche»: anuncian que viene algo más. Una frase recortada NO puede terminar
+# en una de estas —«La obra se estrenó el año pasado en el.» se lee roto—, así que se siguen
+# sacando hasta llegar a una palabra con contenido.
+_COLGADAS = {
+    "a", "al", "ante", "bajo", "cabe", "con", "contra", "de", "del", "desde", "durante",
+    "en", "entre", "hacia", "hasta", "mediante", "para", "por", "según", "segun", "sin",
+    "so", "sobre", "tras", "versus", "vía", "via",
+    "el", "la", "los", "las", "un", "una", "unos", "unas", "lo",
+    "mi", "tu", "su", "mis", "tus", "sus", "nuestro", "nuestra", "nuestros", "nuestras",
+    "este", "esta", "estos", "estas", "ese", "esa", "esos", "esas", "aquel", "aquella",
+    "y", "e", "o", "u", "ni", "pero", "sino", "aunque", "porque", "pues", "que", "qué",
+    "quien", "quién", "cuyo", "cuya", "cual", "cuál", "donde", "dónde", "cuando", "cuándo",
+    "como", "cómo", "si", "muy", "más", "mas", "menos", "tan", "también", "tambien",
+    "se", "le", "les", "me", "te", "nos", "es", "son", "fue", "era", "está", "esta",
+}
+
+
+def _sin_colgar(texto: str) -> str:
+    """Saca del final las palabras que dejan la frase colgada (preposiciones, artículos,
+    conjunciones). Devuelve "" si al terminar no queda nada con sentido."""
+    palabras = (texto or "").strip().rstrip(" ,;:.").split()
+    while palabras and palabras[-1].lower().strip(",;:.") in _COLGADAS:
+        palabras.pop()
+    return " ".join(palabras)
+
 
 def _oraciones(texto: str) -> list:
     """Parte el texto en oraciones enteras. No corta en «Sr.», «Dr.» ni en un número."""
@@ -833,7 +858,10 @@ def _cerrar(texto: str) -> str:
     texto = (texto or "").strip().rstrip("…").strip().rstrip(" ,;:")
     if not texto:
         return ""
-    return texto if texto[-1] in _FIN_ORACION else texto + "."
+    if texto[-1] in _FIN_ORACION:
+        return texto
+    limpio = _sin_colgar(texto)
+    return (limpio + ".") if limpio else ""
 
 
 def _texto_cerrado(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
@@ -855,24 +883,54 @@ def _texto_cerrado(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int
     return _envolver(_cerrar(acum), fuente, cuerpo, ancho, maximo, peso) if acum else mejor
 
 
+# Palabras que ABREN una idea nueva: justo antes de una de estas, la frase ya cerró algo y
+# se puede cortar sin romperla. «…se concentró frente al palacio municipal | para reclamar
+# por el estado de las calles» — cortando ahí queda una oración completa.
+_ENGANCHES = {
+    "y", "e", "o", "u", "ni", "pero", "sino", "aunque", "porque", "pues", "mientras",
+    "que", "quien", "quienes", "donde", "cuando", "como", "según", "segun", "si",
+    "para", "tras", "hasta", "desde", "durante", "con", "sin", "sobre", "además",
+    "ademas", "también", "tambien", "luego", "después", "despues", "antes", "ya",
+}
+
+
+def _cortes_naturales(frase: str) -> list:
+    """Dónde se puede cortar la frase sin romperla, de la más larga a la más corta.
+
+    Dos clases de corte: la PUNTUACIÓN (coma, punto y coma, dos puntos), que es la señal más
+    clara, y el lugar justo ANTES de una palabra que abre una idea nueva («y», «que»,
+    «para», «hasta»…). Sin la segunda clase, una oración larga y SIN COMAS no tenía dónde
+    cortarse y el texto desaparecía entero."""
+    palabras = frase.split()
+    cortes = []
+    for i in range(1, len(palabras)):
+        anterior = palabras[i - 1]
+        if anterior[-1:] in ",;:":
+            cortes.append(" ".join(palabras[:i]))
+        elif palabras[i].lower().strip(".,;:«»\"'") in _ENGANCHES:
+            cortes.append(" ".join(palabras[:i]))
+    return sorted(set(cortes), key=len, reverse=True)
+
+
 def _recorte_limpio(texto: str, fuente: str, cuerpo: int, ancho: int, maximo: int,
                     peso: str) -> list:
     """Último recurso: ni la primera oración entra al cuerpo más chico.
 
-    Corta por la última coma (o, si no hay, por la última palabra) de lo que sí entra y
-    cierra en punto. Queda más corto que el original, pero se lee entero — que es lo
-    pedido. Antes acá salía un «…» y la bajada quedaba a mitad de frase."""
+    Corta SOLO donde la frase respira (ver `_cortes_naturales`) y cierra en punto. `[]` si
+    ningún corte de esos entra: **mejor nada que una frase rota**.
+
+    Por qué no se recorta palabra por palabra: probado, deja cosas como «La obra se estrenó
+    el año pasado en el Teatro Español y ya recorrió varias.» o «…de la ciudad junto.». El
+    castellano no se puede cortar en cualquier lado, y una lista de palabras prohibidas al
+    final nunca alcanza (ahí el problema era «varias» y «junto», no una preposición)."""
     primera = (_oraciones(texto) or [" ".join((texto or "").split())])[0]
-    palabras = primera.split()
-    while palabras:
-        trozo = " ".join(palabras)
-        renglones = _envolver(_cerrar(trozo.rstrip(" ,;:")), fuente, cuerpo, ancho,
-                              maximo, peso)
+    for trozo in _cortes_naturales(primera):
+        cerrado = _cerrar(trozo)
+        if len(cerrado.split()) < 5:     # menos de cinco palabras ya no dice nada
+            continue
+        renglones = _envolver(cerrado, fuente, cuerpo, ancho, maximo, peso)
         if renglones and not renglones[-1].endswith("…"):
             return renglones
-        # Recorto hasta la coma anterior; si no hay, una palabra.
-        corte = max(trozo.rfind(","), trozo.rfind(";"), trozo.rfind(":"))
-        palabras = (trozo[:corte].split() if corte > 0 else palabras[:-1])
     return []
 
 
@@ -887,33 +945,47 @@ def _bajada(texto: str, fuente: str, ancho: int, maximo: int, tam_max: int,
         renglones = _texto_cerrado(texto, fuente, cuerpo, ancho, maximo, peso)
         if renglones:
             return cuerpo, renglones
+    recortada = _recorte_limpio(texto, fuente, tam_min, ancho, maximo, peso)
     logger.info("La primera oración de la bajada no entra ni en el cuerpo más chico: "
-                "la recorto por la última coma y la cierro en punto.")
-    return tam_min, _recorte_limpio(texto, fuente, tam_min, ancho, maximo, peso)
+                + ("la corto donde la frase respira y la cierro en punto."
+                   if recortada else "y no tiene dónde cortarla sin romperla, así que el "
+                                     "reel va sin bajada."))
+    return tam_min, recortada
 
 
-def primera_oracion_util(cuerpo: str, ya_dicho: str = "") -> str:
-    """La primera oración FUERTE de la nota, para el pie del reel.
+def oraciones_utiles(cuerpo: str, ya_dicho: str = "", cuantas: int = 3) -> list:
+    """Las primeras oraciones FUERTES de la nota, para el pie del reel.
 
     Saltea lo que ya está en la bajada (no tiene sentido repetirlo tres centímetros más
     abajo) y las oraciones demasiado cortas para aportar algo. Es la misma idea que la
-    descripción de SEO: la frase que cuenta la noticia si solo se lee una."""
+    descripción de SEO: la frase que cuenta la noticia si solo se lee una.
+
+    Devuelve VARIAS porque el hueco del pie es chico: si la primera es larguísima y no tiene
+    ni una coma donde cortarla, se prueba con la que sigue en vez de dejar el fondo vacío."""
     def clave(s: str) -> str:
         return re.sub(r"[^a-z0-9áéíóúñ ]", "", s.lower())
 
     dicho = clave(ya_dicho)
+    salida: list = []
     for o in _oraciones(cuerpo):
         if len(o.split()) < 6:
             continue
         k = clave(o)
         if dicho and (k[:50] in dicho or dicho[:50] in k):
             continue
-        return _cerrar(o)
-    return ""
+        salida.append(_cerrar(o))
+        if len(salida) >= cuantas:
+            break
+    return salida
+
+
+def primera_oracion_util(cuerpo: str, ya_dicho: str = "") -> str:
+    """La primera de `oraciones_utiles`, o "" si no hay ninguna."""
+    return (oraciones_utiles(cuerpo, ya_dicho, 1) or [""])[0]
 
 
 def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_resumen: str,
-                 p_titular: str = "", p_resumen: str = "", pie: str = "",
+                 p_titular: str = "", p_resumen: str = "", pie="",
                  pie_zona: tuple | None = None) -> dict:
     """El bloque de texto de arriba y dónde empieza la imagen.
 
@@ -925,7 +997,8 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
     Nada se dibuja dentro de las zonas que tapan Instagram y TikTok (ver `SEGURO_ARRIBA` y
     `BANDA_SEGURO`) ni encima del isologo: la volanta y el titular arrancan DEBAJO de él.
     Con `pie` y `pie_zona=(desde, hasta)` se escribe además una frase en el hueco que queda
-    bajo una foto apaisada."""
+    bajo una foto apaisada. `pie` puede ser una frase o una lista de frases: se dibuja la
+    PRIMERA que entre entera."""
     ancho = 1080 - 2 * PLACA_MX
     f_marca = _fuente_marca()
     bloques: list = []
@@ -1014,7 +1087,9 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
     # PIE: la primera oración fuerte de la nota, en el gris que sobra bajo una foto
     # apaisada (pedido 2026-09-20). Ese hueco es alto y estaba vacío. Se centra en la zona
     # y nunca entra en la franja que tapan las apps.
-    if pie and pie_zona:
+    frases = [" ".join(f.split()) for f in ([pie] if isinstance(pie, str) else list(pie))
+              if (f or "").strip()]
+    if frases and pie_zona:
         desde, hasta = pie_zona
         hueco = hasta - desde
         if hueco >= PLACA_PIE_MIN_ALTO:
@@ -1023,15 +1098,39 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
             # calcula CUÁNTOS renglones entran y recién ahí se prueba el texto. Al revés
             # —elegir el cuerpo y después tirar renglones— se perdía media frase.
             elegido = None
+            mayor = None                 # el cuerpo más grande en el que entra AL MENOS uno
             for cuerpo in range(tmax, PLACA_PIE_MIN - 1, -2):
                 salto = round(cuerpo * 1.24)
                 alto_l = _alto_linea(f_resumen, cuerpo, p_resumen)
                 cabe = min(PLACA_PIE_RENGLONES, 1 + max(0, (hueco - alto_l) // salto))
-                renglones = _texto_cerrado(pie, f_resumen, cuerpo, ancho, cabe, p_resumen)
-                if renglones:
-                    elegido = (cuerpo, renglones, salto,
-                               (len(renglones) - 1) * salto + alto_l)
+                if alto_l > hueco:
+                    continue             # ni un renglón de este cuerpo entra
+                mayor = mayor or (cuerpo, salto, alto_l, cabe)
+                for frase in frases:
+                    renglones = _texto_cerrado(frase, f_resumen, cuerpo, ancho, cabe,
+                                               p_resumen)
+                    if renglones:
+                        elegido = (cuerpo, renglones, salto,
+                                   (len(renglones) - 1) * salto + alto_l)
+                        break
+                if elegido:
                     break
+            if not elegido and mayor and mayor[3] >= 2:
+                # La frase no entra entera en ningún cuerpo. Antes de resignar el pie, se la
+                # recorta por la última coma y se cierra en punto, igual que a la bajada: al
+                # cuerpo MÁS GRANDE, que es lo que se pidió. Dice menos, pero se lee entera.
+                #
+                # Con UN SOLO renglón no se recorta: en un renglón de cuerpo 44 entran unos
+                # 40 caracteres, y de ahí no sale una frase, sale un muñón. Ahí es mejor el
+                # fondo limpio.
+                cuerpo, salto, alto_l, cabe = mayor
+                for frase in frases:
+                    renglones = _recorte_limpio(frase, f_resumen, cuerpo, ancho, cabe,
+                                                p_resumen)
+                    if renglones:
+                        elegido = (cuerpo, renglones, salto,
+                                   (len(renglones) - 1) * salto + alto_l)
+                        break
             if elegido:
                 cuerpo, renglones, salto, alto = elegido
                 y0 = desde + max(0, (hueco - alto) // 2)
@@ -1041,8 +1140,7 @@ def placa_layout(volanta: str, titular: str, resumen: str, f_titular: str, f_res
                 logger.info(f"Pie del reel: {len(renglones)} renglón/es de cuerpo {cuerpo} "
                             f"en el fondo de abajo (hueco de {hueco}px).")
             else:
-                # Mejor sin pie que con media frase: es información de apoyo, no la noticia.
-                logger.info(f"La frase del pie no entra entera en {hueco}px: va sin pie.")
+                logger.info(f"La frase del pie no entra ni recortada en {hueco}px: va sin pie.")
         else:
             logger.info(f"Bajo la foto quedan {hueco}px libres: no alcanza para el pie.")
 
@@ -1083,7 +1181,7 @@ def placa_texto_png(volanta: str, titular: str, resumen: str, salida, *,
         return None
 
     caja = placa_layout(volanta, titular, resumen, f_titular, f_resumen, p_titular,
-                        p_resumen, pie=" ".join((pie or "").split()), pie_zona=pie_zona)
+                        p_resumen, pie=pie, pie_zona=pie_zona)
     if not caja["bloques"]:
         return None
     try:
@@ -1877,6 +1975,13 @@ def autochequeo() -> bool:
         ("TODO EN MAYÚSCULAS", "URGENTE",
          "EL MUNICIPIO ANUNCIÓ OBRAS PARA EL BARRIO NORTE",
          "LA INVERSIÓN SUPERA LOS 200 MILLONES DE PESOS."),
+        # El titular más largo que el desgrabador puede llegar a mandar: 110 caracteres
+        # (`transcriber.TITULAR_MAX`). Tiene que entrar ENTERO, sin un «…» al final: de eso
+        # depende que la regla de deducir el titular sirva para algo.
+        ("titular al límite (110)", "Institucionales",
+         "Extraordinariamente, la superintendencia interjurisdiccional desaconsejó "
+         "responsabilizar a los transportistas",
+         "La resolución se publicó el viernes."),
     ]
     for nombre, vol, tit, res in MAQUETAS:
         fallas = []
@@ -2036,11 +2141,13 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
             # `y_img` no se mueve.
             if not llena and cuerpo:
                 zona = (y_img + alto_foto + 24, 1920 - BANDA_SEGURO)
-                frase = primera_oracion_util(cuerpo, resumen)
-                if frase and zona[1] - zona[0] >= PLACA_PIE_MIN_ALTO:
+                # Van VARIAS candidatas: el hueco es chico y si la primera oración es
+                # larguísima y sin comas, `placa_layout` pasa a la siguiente.
+                frases = oraciones_utiles(cuerpo, resumen)
+                if frases and zona[1] - zona[0] >= PLACA_PIE_MIN_ALTO:
                     otra = placa_texto_png(volanta, titular, resumen,
                                            salida.parent / f"placa_{salida.stem}.png",
-                                           pie=frase, pie_zona=zona)
+                                           pie=frases, pie_zona=zona)
                     if otra:
                         png = otra[0]
             placa = (png, y_img,

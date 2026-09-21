@@ -194,6 +194,8 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
                                      "bajada": resumen, "texto": texto}, extra_text)
         volanta, titulo = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
+    if hay:
+        titulo = tr._asegurar_titulo(titulo, texto, resumen, volanta)
     slug = tr._slug(video.stem)
 
     # Reel vertical branded SIN overlay ni zócalo (pedido del usuario 2026-07-29): queda igual
@@ -450,6 +452,13 @@ def _placa_datos_radio(carpeta: Path):
                  if p.is_file() and p.suffix.lower() in (".docx", ".txt")), None)
     if docx:
         volanta, titular, cuerpo = tr._parse_word(docx)
+        if titular and not tr._es_titular(titular):
+            # Mismo caso que en el diario: el Word no traía título y su primer párrafo es
+            # texto. Se deduce el titular y el párrafo baja al cuerpo.
+            nuevo = tr._asegurar_titulo("", "\n\n".join([titular, *cuerpo]), volanta=volanta)
+            if nuevo and nuevo != titular:
+                cuerpo = [titular, *cuerpo]
+                titular = nuevo
     else:
         volanta, titular, cuerpo = "", carpeta.name, []
     return fotos, volanta, (titular or carpeta.name), "\n\n".join(cuerpo)

@@ -51,6 +51,11 @@ VIDEO_EXTS = {".mp4", ".mov", ".mkv", ".avi", ".webm", ".m4v", ".mpg", ".mpeg"}
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 TEXT_EXTS = {".txt", ".md", ".docx"}
 REEL_MAX_SIN_NOTICIA = 60  # segundos: tope del reel cuando no se pudo desgrabar
+# Más largo que esto no es un titular: es un párrafo puesto en su lugar. Medido sobre las
+# 228 notas del ledger, el titular mediano tiene 70 caracteres y el 90% no pasa de 86; los
+# 9 que se iban a 145, 205 y hasta 391 eran partes policiales pegados como título en el
+# Word. Con ese tope no se toca ningún titular de verdad.
+TITULAR_MAX = 110
 
 
 # ── Helpers de entorno ────────────────────────────────────────────────────────
@@ -107,6 +112,43 @@ def _find_folder(name: str, base: Path | None = None) -> Path | None:
             if p.is_dir() and p.name == name:
                 return p
     return None
+
+
+def _es_titular(texto: str) -> bool:
+    """¿Lo que vino es un TITULAR, o es un párrafo metido en su lugar?"""
+    return bool((texto or "").strip()) and len(" ".join(texto.split())) <= TITULAR_MAX
+
+
+def _asegurar_titulo(titulo: str, texto: str = "", resumen: str = "",
+                     volanta: str = "") -> str:
+    """Devuelve un TITULAR de verdad, deduciéndolo del texto completo si hace falta.
+
+    Pedido del usuario (2026-09-20): «el título lo generás vos por deducción del texto
+    completo que se envía si es que no lo hay, para que pueda salir como corresponde». Pasa
+    con las foto-notas cuyo Word no trae título —el primer párrafo es directamente el parte
+    policial— y con lo que llega sin nada.
+
+    Solo se mete cuando el titular NO es un titular: si el que vino está bien, no se toca
+    (ni se gasta una llamada a Gemini)."""
+    if _es_titular(titulo):
+        return " ".join(titulo.split())
+    # De dónde deducirlo: el cuerpo de la nota; si no hay cuerpo, lo que vino como
+    # «titular» —que ES el texto, por eso era tan largo—; y si tampoco, el resumen.
+    fuente = (texto or "").strip() or (titulo or "").strip() or (resumen or "").strip()
+    if not fuente:
+        return " ".join((titulo or "").split())
+    try:
+        from utils import gemini
+        nuevo = gemini.titular_desde_texto(fuente, volanta=volanta, max_chars=90)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude deducir el titular ({e}); dejo el que vino.")
+        return " ".join((titulo or "").split())
+    if nuevo:
+        viejo = len(" ".join((titulo or "").split()))
+        logger.info(f"La nota no traía titular ({viejo or 'ninguno'} caracteres en su lugar): "
+                    f"deduje uno del texto → «{nuevo}»")
+        return nuevo
+    return " ".join((titulo or "").split())
 
 
 def _parse_word(path: Path) -> tuple[str, str, list[str]]:
@@ -584,6 +626,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             extra_text)
         volanta, titulo = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
+
+    # Y si no quedó un titular de verdad, se deduce del texto completo.
+    if hay:
+        titulo = _asegurar_titulo(titulo, texto, resumen, volanta)
 
     # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
     # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
@@ -1585,6 +1631,14 @@ def _placa_datos(carpeta: Path):
     volanta, titular, cuerpo = _parse_word(docx)
     if not titular:
         return None
+    if not _es_titular(titular):
+        # El Word no traía título: su primer párrafo ES texto (típico parte policial pegado
+        # tal cual). Se deduce el titular del documento COMPLETO y ese párrafo baja al
+        # cuerpo, que es su lugar — antes quedaba de «título» y el cuerpo, vacío.
+        nuevo = _asegurar_titulo("", "\n\n".join([titular, *cuerpo]), volanta=volanta)
+        if nuevo and nuevo != titular:
+            cuerpo = [titular, *cuerpo]
+            titular = nuevo
     resumen = _resumen_caption(cuerpo[0], max_chars=280) if cuerpo else titular
     texto = "\n\n".join(cuerpo)
     title = f"{volanta} — {titular}" if volanta else titular
@@ -1628,6 +1682,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
                                      "bajada": resumen, "texto": texto}, desc)
         volanta, titular = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
+    titular = _asegurar_titulo(titular, texto, resumen, volanta)
     title = f"{volanta} — {titular}" if volanta else titular
 
     if dry_run:
