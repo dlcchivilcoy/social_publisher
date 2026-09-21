@@ -231,6 +231,13 @@ def main() -> None:
         help="Foto-nota (etapa 2, al aprobar): publica la nota web + la foto a FB/IG con todo el texto en el pie (con --file).",
     )
     parser.add_argument(
+        "--placa-web",
+        action="store_true",
+        help="RESCATE: publica SOLO la nota web de una foto-nota que ya salió a las redes pero "
+             "quedó con «web=omitido» (Wix estaba caído al aprobarla). NO vuelve a postear en "
+             "ninguna red. Con --file; sin él, agarra la última que le falte la web.",
+    )
+    parser.add_argument(
         "--watchdog",
         action="store_true",
         help="VIGÍA de la cola: avisa por mail los trabajos del desgrabador que quedaron trabados o fallaron.",
@@ -556,6 +563,11 @@ def main() -> None:
         from transcriber import run_placa_publish
         logger.info(f"Modo --placa-publish (dry_run={args.dry_run}). folder={args.file}")
         run_placa_publish(folder=args.file or "", dry_run=args.dry_run)
+        return
+    if args.placa_web:
+        from transcriber import run_placa_web
+        logger.info(f"Modo --placa-web (dry_run={args.dry_run}). folder={args.file}")
+        run_placa_web(folder=args.file or "", dry_run=args.dry_run)
         return
 
     if args.watchdog:

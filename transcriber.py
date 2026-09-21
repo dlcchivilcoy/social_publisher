@@ -2163,6 +2163,100 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
     logger.info("=== Foto-nota (etapa 2): fin ===")
 
 
+def run_placa_web(folder: str = "", dry_run: bool = False) -> None:
+    """Publica SOLO la nota web de una foto-nota que YA salió a las redes.
+
+    Para el caso en que Wix estaba caído justo cuando se aprobó: la nota salió a Instagram,
+    Facebook y YouTube, y el resumen quedó con `web=omitido` (pasó el 2026-09-21). Desde
+    entonces la etapa 2 rearma sola el borrador que falte, así que esto es el rescate de las
+    que quedaron colgadas ANTES de ese arreglo —o de una caída de Wix tan larga que tampoco
+    funcione el reintento—.
+
+    NO toca ninguna red: no vuelve a postear en Instagram, ni en Facebook, ni en YouTube.
+    Arma el borrador con el texto que quedó guardado y las fotos de la carpeta, le embebe el
+    Short de YouTube si lo hubo, lo publica y deja el registro al día.
+
+    Uso:  main.py --placa-web --file <nombre de la carpeta>
+    """
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL (solo web)"
+    logger.info(f"=== Nota web atrasada [{modo}] — folder='{folder}' ===")
+    rows = _leer_ledger()
+    if folder:
+        # Con nombre, manda el nombre. NUNCA se cae al automático: publicar la nota
+        # EQUIVOCADA por un nombre mal tipeado sería mucho peor que no publicar ninguna.
+        fila = _buscar_fila(rows, folder)
+        if fila is None:
+            logger.error(f"No encontré «{folder}» en el registro. Ojo: el registro vivo es "
+                         f"el de la nube (`state/`), el de la PC está viejo.")
+            return
+    else:
+        # Sin nombre: la última que haya quedado publicada en las redes pero no en la web.
+        pendientes = [r for r in rows
+                      if str(r.get("estado", "")).startswith("publicado")
+                      and not r.get("post_url")
+                      and (r.get("estado_canales") or {}).get("wix") != "ok"]
+        if not pendientes:
+            logger.error("No hay ninguna nota publicada en las redes a la que le falte la web.")
+            return
+        fila = pendientes[-1]
+        logger.info(f"Sin --file: agarro la última que le falta la web → «{fila.get('file')}»")
+    if fila.get("post_url") or (fila.get("estado_canales") or {}).get("wix") == "ok":
+        logger.info(f"«{fila.get('titulo', '')}» ya tiene su nota web: {fila.get('post_url')}")
+        return
+
+    carpeta = _find_folder(fila["file"])
+    fotos = [p for p in sorted(carpeta.iterdir())
+             if p.is_file() and p.suffix.lower() in IMG_EXTS] if carpeta else []
+    if not fotos:
+        logger.error(f"No encontré las fotos de '{fila['file']}': sin ellas no puedo armar "
+                     f"la nota web.")
+        return
+
+    volanta = fila.get("volanta", ""); titular = fila.get("titulo", "")
+    texto = fila.get("texto", ""); resumen = fila.get("resumen", "")
+    title = f"{volanta} — {titular}" if volanta else titular
+    yt_url = fila.get("yt_url", "")
+    if dry_run:
+        logger.info(f"[dry-run] publicaría SOLO la web de «{title}» con {len(fotos)} foto(s)"
+                    + (f" + el Short {yt_url}" if yt_url else "") + ". Sin tocar las redes.")
+        return
+
+    try:
+        info = _retry(lambda: wix.crear_borrador_galeria(
+            title, titular + ("\n\n" + texto if texto else ""), fotos,
+            video_urls=[], page=0, description=resumen),
+            etiqueta="[wix] crear el borrador atrasado")
+        draft_id = info["draft_id"]
+    except Exception as e:                                       # noqa: BLE001
+        logger.error(f"[wix] no pude crear el borrador: {e}")
+        return
+    if yt_url:
+        try:
+            _retry(lambda: wix.insertar_video_youtube(draft_id, yt_url),
+                   etiqueta="[wix] embeber YouTube")
+        except Exception as e:                                   # noqa: BLE001
+            logger.error(f"[wix] no se pudo embeber el YouTube (la nota igual sale): {e}")
+    try:
+        res = _retry(lambda: wix.publicar_borrador(draft_id), etiqueta="[wix] publicar")
+        post_url = (res or {}).get("url", "")
+    except Exception as e:                                       # noqa: BLE001
+        logger.error(f"[wix] no pude publicar el borrador {draft_id}: {e}")
+        return
+
+    rows = _leer_ledger()
+    f2 = _buscar_fila(rows, fila["file"]) or fila
+    canales = dict(f2.get("estado_canales") or {})
+    canales["wix"] = "ok"
+    f2.update({"draft_id": draft_id, "post_url": post_url, "estado_canales": canales})
+    _guardar_ledger(rows)
+    logger.info(f"[wix] nota web publicada (atrasada): {post_url}")
+    _enviar_aviso(f"Nota web publicada (la que había quedado sin web): {titular}",
+                  f"«{titular}» ya estaba en las redes pero le faltaba la web porque Wix "
+                  f"estaba caído al aprobarla. Ya está publicada:\n{post_url}\n\n"
+                  f"No se volvió a postear en ninguna red.")
+    logger.info("=== Nota web atrasada: fin ===")
+
+
 def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> None:
     """Manda un mail con el ESTADO de publicación por canal (IG/FB/YouTube/Wix)."""
     titulo = fila.get("titulo") or fila.get("file", "")

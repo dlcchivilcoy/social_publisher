@@ -91,6 +91,38 @@ async function deleteSesion(waId: string): Promise<void> {
   });
 }
 
+// Toma el TURNO para depositar: mueve la sesión de `autorizacion` a `depositando` en UNA sola
+// operación. Devuelve la sesión si esta invocación se quedó con el turno, o `null` si otra ya lo
+// tenía.
+//
+// Por qué hace falta (2026-09-21): el mismo envío entró DOS VECES y salieron dos notas idénticas
+// (dos carpetas en Drive con la misma descripción de 3478 caracteres, creadas con 774 ms de
+// diferencia). La sesión recién se borraba DESPUÉS de subir todo a Drive, que tarda entre 5 y 20
+// segundos; en esa ventana, un segundo «ACEPTO» —Meta reentrega el mismo mensaje si no le
+// contestamos rápido, y acá el 200 sale recién al terminar todo— leía la MISMA sesión, la veía
+// todavía en `autorizacion` y depositaba de nuevo.
+//
+// El UPDATE filtra por `paso=eq.autorizacion`: el segundo no matchea ninguna fila (el primero ya
+// la cambió) y PostgREST devuelve una lista vacía. Es el mismo criterio que `addMediaAtomic`:
+// que decida la base, no el orden en que lleguen los webhooks.
+async function tomarTurnoDeposito(waId: string): Promise<Record<string, unknown> | null> {
+  const r = await fetch(
+    `${SB_URL}/rest/v1/corresponsales_sesiones?wa_id=eq.${encodeURIComponent(waId)}` +
+    `&paso=eq.autorizacion`,
+    {
+      method: "PATCH",
+      headers: sbHeaders({ Prefer: "return=representation" }),
+      body: JSON.stringify({ paso: "depositando", actualizado: new Date().toISOString() }),
+    },
+  );
+  if (!r.ok) {
+    console.error(`tomarTurnoDeposito FALLO ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    return null;
+  }
+  const rows = await r.json();
+  return Array.isArray(rows) && rows.length ? rows[0] : null;
+}
+
 // Append ATÓMICO de un archivo a la sesión (RPC SQL con lock de fila). Reemplaza el patrón
 // leer→append→upsert que perdía fotos cuando el álbum llegaba como webhooks concurrentes. Devuelve
 // cuántos archivos hay tras ESTE append (1 = primer archivo del envío). Ver migración 0002.
@@ -330,12 +362,31 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     await upsertSesion({ wa_id: waId, paso: "autorizacion", nombre: texto.trim() });
     await enviarTexto(waId,
       `Buenísimo. 📄 *Autorización*\n\n${LEGAL}\n\nSi estás de acuerdo, respondé *ACEPTO* para enviar el material.`);
+  } else if (paso === "depositando") {
+    // Ya hay un depósito en curso. Si es de recién, este mensaje es el DUPLICADO de Meta y se
+    // ignora en silencio. Si quedó colgado hace rato (la función murió a mitad, sin pasar por el
+    // catch), se libera para que el vecino pueda reintentar en vez de quedarse sin respuesta.
+    const desde = Date.parse(String(sesion.actualizado ?? "")) || 0;
+    if (Date.now() - desde > 10 * 60 * 1000) {
+      await upsertSesion({ wa_id: waId, paso: "autorizacion" });
+      await enviarTexto(waId,
+        "Se me había colgado el guardado 😕. Respondé *ACEPTO* de nuevo y lo reintento.");
+    } else {
+      console.log(`Mensaje duplicado de ${waId} con el depósito en curso: lo ignoro.`);
+    }
+    return;
   } else if (paso === "autorizacion") {
     const n = normalizar(texto);
     if (n === "acepto" || n === "si" || n.includes("acepto")) {
+      // UN solo depósito por envío, aunque el «ACEPTO» llegue dos veces (ver `tomarTurnoDeposito`).
+      const mia = await tomarTurnoDeposito(waId);
+      if (!mia) {
+        console.log(`«ACEPTO» duplicado de ${waId}: otra invocación ya tiene el turno.`);
+        return;
+      }
       await enviarTexto(waId, "¡Perfecto! Estoy guardando tu material… ⏳");
       try {
-        await depositarEnDrive(sesion, waId);
+        await depositarEnDrive(mia, waId);
         await registrarColaborador(waId, String(sesion.nombre ?? sesion.perfil ?? ""), waId,
           `ACEPTADA — ${new Date().toISOString()}`);
         await deleteSesion(waId);
@@ -384,7 +435,12 @@ Deno.serve(async (req) => {
   const raw = await req.text();
   if (!(await firmaValida(req, raw))) return new Response("bad signature", { status: 401 });
 
-  // Respondemos 200 enseguida; el procesamiento sigue (Meta reintenta si no hay 200 rápido).
+  // OJO: el 200 sale recién cuando terminó TODO el procesamiento, y depositar en Drive tarda
+  // entre 5 y 20 segundos. En esa ventana Meta puede dar el webhook por perdido y REENTREGAR el
+  // mismo mensaje — que fue exactamente lo que duplicó una nota el 2026-09-21. Contra eso no
+  // alcanza con contestar más rápido (Meta reentrega igual ante cualquier hipo de red): la
+  // protección de verdad es que el depósito se tome un TURNO en la base (`tomarTurnoDeposito`),
+  // así el segundo mensaje no hace nada por más que llegue.
   try {
     const body = JSON.parse(raw);
     // Recorre TODOS los mensajes del webhook (antes solo se procesaba messages[0]: si Meta mandaba
