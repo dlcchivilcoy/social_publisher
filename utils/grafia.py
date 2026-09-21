@@ -77,18 +77,48 @@ def _plegar(palabra: str) -> str:
     return p
 
 
+def _arranca_oracion(texto: str, pos: int) -> bool:
+    """¿La palabra que empieza en `pos` es la primera de una oración?
+
+    Importa porque ahí la mayúscula la pone la gramática, no el hecho de ser un nombre
+    propio: «Habló la directora» empieza con mayúscula igual que «Britos habló»."""
+    previo = texto[:pos].rstrip()
+    return not previo or previo[-1] in ".!?:;«»\"'\n"
+
+
 def _vocabulario(fuente: str) -> dict:
-    """`{plegado: como está escrito}` de todos los nombres propios y siglas del texto
-    escrito. Si el mismo sonido aparece con dos grafías, gana la PRIMERA."""
+    """`{plegado: como está escrito}` de los nombres propios y siglas del texto escrito.
+
+    Solo entran las palabras que están en MAYÚSCULA por ser lo que son, no por dónde caen:
+    una sigla, o una palabra con mayúscula EN MEDIO de una oración. Si una palabra aparece
+    únicamente al principio de una oración, no se puede saber si es un nombre propio o un
+    verbo, y meterla acá hacía estragos: con «Hablo la directora» en el mensaje del vecino,
+    el módulo le corregía a la IA su «Habló» y le comía la tilde (visto el 2026-09-21).
+
+    Si el mismo sonido aparece con dos grafías, gana la PRIMERA."""
     vocab: dict = {}
-    for m in _PALABRA.finditer(fuente or ""):
+    texto = fuente or ""
+    for m in _PALABRA.finditer(texto):
         palabra = m.group(0).strip(".·-'’")
         if len(palabra) < _MIN_LARGO or palabra.lower() in _COMUNES:
             continue
+        if _arranca_oracion(texto, m.start()) and not palabra.isupper():
+            continue          # mayúscula de arranque: no prueba que sea un nombre propio
         clave = _plegar(palabra)
         if clave and clave not in vocab:
             vocab[clave] = palabra
     return vocab
+
+
+def _marca_tildes(texto: str) -> bool:
+    """¿Quien escribió esto pone las tildes? En un mensaje de WhatsApp escrito a las
+    apuradas no hay ninguna, y entonces su ortografía NO puede mandar sobre la de la IA."""
+    return any(c in "áéíóúÁÉÍÓÚ" for c in (texto or ""))
+
+
+def _solo_tildes(a: str, b: str) -> bool:
+    """¿Las dos palabras son la misma y solo cambian las tildes o las mayúsculas?"""
+    return _sin_tildes(a).lower() == _sin_tildes(b).lower()
 
 
 def corregir(texto: str, fuente: str) -> tuple:
@@ -105,6 +135,9 @@ def corregir(texto: str, fuente: str) -> tuple:
         return texto, []
     # Lo que ya está escrito IGUAL en la fuente es correcto por definición: ni se mira.
     literales = {m.group(0).strip(".·-'’") for m in _PALABRA.finditer(fuente)}
+    # Si el vecino escribió sin tildes —lo normal en un WhatsApp—, su ortografía no manda:
+    # ahí la IA acentúa mejor que él y no hay que deshacerle el trabajo.
+    manda_tildes = _marca_tildes(fuente)
     cambios: list = []
 
     def _una(m):
@@ -116,6 +149,8 @@ def corregir(texto: str, fuente: str) -> tuple:
         buena = vocab.get(_plegar(palabra))
         if not buena or buena == palabra:
             return cruda
+        if _solo_tildes(palabra, buena) and not manda_tildes:
+            return cruda      # la diferencia es solo la tilde y el vecino no las pone
         # Un titular puede venir todo en mayúsculas: se respeta esa forma.
         if palabra.isupper() and not buena.isupper():
             buena = buena.upper()

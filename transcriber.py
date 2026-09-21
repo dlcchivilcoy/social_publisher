@@ -1663,20 +1663,24 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         _avisar_nombre_repetido(carpeta.name, fila, kind="foto de corresponsal")
         return
 
+    # Lo que ESCRIBIÓ el vecino. Se lee UNA vez y ANTES del try, porque hace dos cosas: es el
+    # respaldo si Gemini no contesta, y es la fuente contra la que se corrige la grafía más
+    # abajo. Estaba definido solo adentro del `except`, y el 2026-09-21 volteó dos notas
+    # reales con «UnboundLocalError: desc» — justo por el camino BUENO, el que no falla.
+    desc = (ctx.get("descripcion") or "").strip()
     # IA: redactar la nota (volanta/título/texto/resumen) desde la descripción + la foto.
     from utils import gemini
     try:
-        nota = gemini.nota_desde_foto(ctx.get("descripcion", ""), fotos[0], lugar=ctx.get("lugar", ""))
+        nota = gemini.nota_desde_foto(desc, fotos[0], lugar=ctx.get("lugar", ""))
     except Exception as e:
         logger.error(f"Gemini falló al redactar el corresponsal-foto ({e}); uso la descripción cruda.")
-        desc = (ctx.get("descripcion") or "").strip()
         nota = {"volanta": "", "titulo": (desc.split("\n")[0][:80] or "Envío de corresponsal"),
                 "texto": desc, "resumen": desc[:280]}
     volanta = nota.get("volanta", ""); titular = nota.get("titulo", "")
     texto = nota.get("texto", ""); resumen = nota.get("resumen", "") or titular
     # Igual que en el desgrabador: la grafía de los nombres y las siglas la manda lo que el
     # vecino ESCRIBIÓ, no cómo lo reescribió la IA (pedido 2026-09-20).
-    if desc.strip():
+    if desc:
         from utils import grafia
         _c = grafia.corregir_campos({"volanta": volanta, "titular": titular,
                                      "bajada": resumen, "texto": texto}, desc)

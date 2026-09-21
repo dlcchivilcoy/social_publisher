@@ -1,0 +1,43 @@
+name: Chequeo del codigo
+
+# Corre SOLO cuando cambia codigo Python, no en cada publicacion.
+#
+# Por que existe: el 2026-09-18 y el 2026-09-21 se publico codigo que reventaba en
+# produccion con NameError / UnboundLocalError por el camino BUENO. Las dos veces se
+# enteraron por un mail de "Run failed" con la nota del corresponsal sin salir. Este
+# chequeo corre en 20 segundos apenas se sube el codigo, asi el mail de "Run failed"
+# llega ANTES de que se pierda una publicacion y dice exactamente que linea esta mal.
+#
+# NO va como paso de "Publicador Diario" a proposito: ese workflow corre cada 10 minutos y
+# publica. Si el chequeo se equivocara, ahi frenaria una nota de verdad. Aca no frena nada:
+# solo avisa.
+on:
+  push:
+    paths:
+      - '**.py'
+      - '.github/workflows/chequeo.yml'
+  workflow_dispatch:
+
+# Grupo propio: nunca le compite ni le cancela una corrida al publicador.
+concurrency:
+  group: chequeo-codigo
+  cancel-in-progress: true
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 1) Que todo compile. Agarra errores de sintaxis y de indentacion.
+      - name: Que todos los archivos compilen
+        run: python -m compileall -q . -x 'venv|node_modules'
+
+      # 2) Variables que se usan por un camino donde nunca se asignaron. Es AST puro: no
+      #    importa ni ejecuta nada del repo, asi que no necesita dependencias ni secrets.
+      - name: Variables que pueden reventar en produccion
+        run: python -m utils.chequeo_codigo
