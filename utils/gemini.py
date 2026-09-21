@@ -178,6 +178,30 @@ _MIME = {
 # Regla dura de imparcialidad + privacidad — se pega a todos los prompts que redactan la nota. El
 # usuario pidió (2026-08-06/08) cero sesgo/invención/exageración, PERO conservar la info bien contada;
 # y omitir solo datos sensibles (DNI, nombres de menores), dejando patentes y nombres/edades de adultos.
+# Quién NO va con nombre en el TITULAR (pedido del usuario 2026-09-20). El titular del reel
+# se quema en el video y es lo más grande de la pieza: ahí un nombre señala a la persona
+# para siempre. En el CUERPO de la nota el nombre sigue yendo como siempre — esta regla no
+# cambia la política de privacidad del diario, solo dice dónde no va el nombre.
+_TITULAR_SIN_NOMBRES = (
+    "• EL TITULAR NO LLEVA EL NOMBRE de accidentados ni de detenidos. En el TÍTULO, a quien "
+    "resultó herido, murió, chocó o viajaba en un vehículo en un accidente, y a quien fue "
+    "detenido, aprehendido, demorado, imputado o acusado, se lo nombra en GENÉRICO: «un "
+    "hombre», «una mujer», «un motociclista», «el conductor», «un vecino de Chivilcoy», "
+    "«tres personas». Si no sabés el género, usá una forma que no lo diga («una persona», "
+    "«un motociclista»).\n"
+    "• Esta regla es SOLO para el TÍTULO: en el CUERPO de la nota el nombre va como siempre, "
+    "si la fuente lo aporta. Y en el título tampoco lo reemplaces por una inicial ni por "
+    "«M. G.»: eso sigue señalando a la persona.\n"
+    "• La regla cubre a los ACCIDENTADOS y a los DETENIDOS o acusados, no a todo el mundo. "
+    "La VÍCTIMA de un delito que ya se conoce por su nombre SÍ puede ir nombrada en el "
+    "titular («el crimen de Juan Pérez»), igual que siempre.\n"
+    "• Y SÍ van con nombre y apellido las personas que aparecen por su ACTIVIDAD PÚBLICA y "
+    "no por ser parte de un accidente o de una causa: funcionarios, dirigentes, "
+    "deportistas, artistas, docentes, comerciantes. Lo mismo las instituciones, los clubes, "
+    "las empresas y los lugares.\n"
+)
+
+
 _NEUTRAL_RULE = (
     "• IMPARCIALIDAD Y CERO EXAGERACIÓN (regla dura): contá los hechos de forma NEUTRAL y sin "
     "sesgo, con lenguaje sobrio. Describí SOLO lo que dice la fuente (audio/texto/descripción del "
@@ -191,7 +215,7 @@ _NEUTRAL_RULE = (
     "NO pongas el NOMBRE de personas MENORES de edad (referilas como «un menor» o «una adolescente "
     "de 15 años», sin nombre). SÍ podés incluir PATENTES de vehículos y NOMBRES y EDADES de "
     "personas MAYORES de edad cuando la fuente los aporte.\n"
-)
+) + _TITULAR_SIN_NOMBRES
 
 PROMPT_BASE = (
     "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Un colaborador "
@@ -788,7 +812,7 @@ _VERIFICAR_PROMPT = (
     "límites que la nota original) y ADEMÁS:\n"
     "- correcciones: lista breve (puede ser []) de qué sacaste, suavizaste o corregiste y por qué "
     "(ej. «corregí 'CASMA' → 'CAZMA' según el título» o «saqué la sigla: no la pude confirmar»).\n"
-) + _SIGLAS_RULE
+) + _TITULAR_SIN_NOMBRES + _SIGLAS_RULE
 
 _VERIF_SCHEMA = {
     "type": "object",
@@ -1473,6 +1497,7 @@ _CORREGIR_PROMPT = (
     "las cifras. Si ya está bien redactada, dejala casi igual.\n"
     "• PRIVACIDAD: NO publiques números de DNI ni el NOMBRE de personas menores de edad; SÍ dejá "
     "patentes y nombres/edades de adultos.\n"
+    + _TITULAR_SIN_NOMBRES +
     "{FOTO}"
     "Devolvé EXACTAMENTE estos campos:\n"
     "- hay_noticia: true.\n"
@@ -1606,6 +1631,7 @@ _TITULAR_PROMPT = (
     "consecuencias que el texto no diga. Si un dato no está, no va.\n"
     "• PROHIBIDO el clickbait, las MAYÚSCULAS sostenidas, los signos de admiración, los hashtags "
     "y las comillas alrededor de todo el título.\n"
+    + _TITULAR_SIN_NOMBRES +
     "• Los NOMBRES PROPIOS y las SIGLAS se copian con la MISMA GRAFÍA que en el texto (las letras, los acentos), pero escritos como se escriben en un diario: «Damián Molinari», no «MOLINARI DAMIAN». Si el texto pone el apellido primero, dalo vuelta.\n"
     "• El texto puede venir de un PARTE POLICIAL o administrativo. Traducilo al castellano del diario: «nosocomio» es «hospital», «masculino/femenino» es «un hombre»/«una mujer», «siniestro vial» es «choque» o «accidente», «dominio» es «patente». Nada de abreviaturas de parte («Pnal.», «s/n», «art.»).\n"
     "Devolvé SOLO el titular, sin comillas ni etiquetas."
