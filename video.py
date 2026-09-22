@@ -151,6 +151,16 @@ def _cfg(clave: str, default: str) -> str:
     return (get(clave, "") or default).strip()
 
 
+def _num(clave: str, default: float) -> float:
+    """Una perilla numérica del `.env`. Si trae cualquier cosa, manda el default: una
+    variable mal escrita no puede cambiar cómo sale un reel sin que nadie se entere."""
+    try:
+        return float(_cfg(clave, str(default)))
+    except ValueError:
+        logger.warning(f"{clave} no es un número; uso {default}.")
+        return default
+
+
 def _asset(clave: str, default: Path) -> Path | None:
     """Ruta del asset (logo / placa). Se puede pisar por `.env`: si la variable trae
     una ruta se usa esa; si vale 0/no/off se apaga. None = no dibujar nada."""
@@ -1644,11 +1654,30 @@ def _bandas_on() -> bool:
 # corridas largas de píxeles exactamente del mismo color. Una foto de celular no, ni siquiera
 # en un cielo liso: siempre tiene grano. Eso es lo que separa una cosa de la otra, y de paso
 # aguanta el viaje por ffmpeg (medido: los valores no se mueven al pasar por el clip h264).
-GRAFICA_IGUALES = 16            # cuántos píxeles seguidos iguales cuentan como «relleno»
+# Se mide con DOS varas, porque un afiche no siempre es una placa lisa: puede ser una FOTO
+# a sangre con el texto encima (un jugador con su nombre en letras grandes). Ahí el relleno
+# sólido es solo el de las letras, o sea poquito, y lo que delata la gráfica son los bordes
+# DUROS del texto, que una foto no tiene.
+GRAFICA_IGUALES = 16            # relleno de placa: 16 píxeles seguidos iguales
+GRAFICA_TRAZO = 6               # relleno de LETRA: el ancho de un trazo tipográfico
 GRAFICA_PLANO_SEGURO = 0.35     # tan plana que no hace falta mirar nada más
-GRAFICA_PLANO = 0.08            # algo plana…
-GRAFICA_BORDES = 0.010          # …y además con bordes duros, o sea TEXTO
+GRAFICA_RELLENO = 0.18          # mucho relleno de letra: ya es una gráfica aunque no se
+                                # detecte el texto (placas con tipografía fina)
+GRAFICA_PLANO = 0.02            # algo de relleno…
+GRAFICA_BORDES = 0.010          # …y además bordes duros, o sea TEXTO
 GRAFICA_FILAS = 240             # filas que se miran, repartidas por toda la imagen
+
+
+def _corrida(tramo, desde: int, hasta: int):
+    """Estira la máscara de «píxeles iguales al de al lado» hasta corridas de `hasta`.
+
+    Va doblando: «este y el siguiente», después «…y los dos de más allá», etc. Devuelve la
+    máscara nueva y hasta dónde llegó, para poder seguir estirándola sin empezar de cero."""
+    while desde < hasta:
+        n = min(desde, hasta - desde)
+        tramo = tramo[:, :-n] & tramo[:, n:]
+        desde += n
+    return tramo, desde
 
 
 def _es_grafica(src: Path, work_dir: Path) -> bool:
@@ -1661,9 +1690,16 @@ def _es_grafica(src: Path, work_dir: Path) -> bool:
     video (un fundido a negro, una placa de TV) no manda a todo el material al camino
     equivocado. Nunca lanza: ante la duda, foto.
 
-    Calibrado contra material real: 40 publicidades del diario (gráficas de verdad) y 62
-    fotos de notas publicadas → detecta 31 de 40 gráficas y marca 5 de 62 fotos, de las
-    cuales 3 son afiches que se habían colado en el set."""
+    Calibrado contra material real y etiquetado a mano: 40 publicidades del diario y 62
+    fotos de notas publicadas, de las cuales 7 eran afiches colados. Detecta **38 de 40**
+    publicidades y **6 de los 7** afiches, y marca mal **5 de las 55 fotos** —de esas 5,
+    dos son casos de borde (un banner de la policía, que es una gráfica fotografiada, y un
+    recorte de cielo liso sin nada adentro).
+
+    ⚠️ Lo que se le escapa es el afiche que es una FOTO a sangre con el texto sobre un
+    fondo con degradé: ahí no hay relleno sólido NI bordes duros que medir. Para bajar más
+    el corte están `REEL_GRAFICA_RELLENO` y `REEL_GRAFICA_BORDES`, pero cada escalón se
+    lleva puestas fotos con paredes lisas, que pasarían a salir enteras en vez de a sangre."""
     try:
         import numpy as np
         from PIL import Image
@@ -1682,19 +1718,20 @@ def _es_grafica(src: Path, work_dir: Path) -> bool:
             if a.shape[1] < GRAFICA_IGUALES * 2:
                 continue
             a = a[::max(1, a.shape[0] // GRAFICA_FILAS)]
-            # Arranca en 1 y se va doblando: «este píxel y el siguiente son iguales», después
-            # «…y los dos de más allá también», hasta cubrir la corrida entera.
-            tramo, largo = np.all(a[:, 1:] == a[:, :-1], axis=2), 1
-            while largo < GRAFICA_IGUALES - 1:
-                n = min(largo, GRAFICA_IGUALES - 1 - largo)
-                tramo = tramo[:, :-n] & tramo[:, n:]
-                largo += n
+            # Primero las corridas cortas (un trazo de letra) y desde ahí, sin recalcular,
+            # las largas (el relleno de una placa).
+            tramo, largo = _corrida(np.all(a[:, 1:] == a[:, :-1], axis=2), 1,
+                                    GRAFICA_TRAZO - 1)
+            trazo = float(tramo.mean())
+            tramo, largo = _corrida(tramo, largo, GRAFICA_IGUALES - 1)
             plano = float(tramo.mean())
             gris = a.astype(np.int16).mean(axis=2)
             bordes = float((np.abs(np.diff(gris, axis=1)) >= 60).mean())
-            veredictos.append((plano >= GRAFICA_PLANO_SEGURO or
-                               (plano >= GRAFICA_PLANO and bordes >= GRAFICA_BORDES),
-                               plano, bordes))
+            veredictos.append((plano >= GRAFICA_PLANO_SEGURO
+                               or trazo >= _num("REEL_GRAFICA_RELLENO", GRAFICA_RELLENO)
+                               or (trazo >= GRAFICA_PLANO
+                                   and bordes >= _num("REEL_GRAFICA_BORDES", GRAFICA_BORDES)),
+                               trazo, bordes))
         except Exception:                               # noqa: BLE001
             continue
         finally:
@@ -1705,7 +1742,7 @@ def _es_grafica(src: Path, work_dir: Path) -> bool:
     if not veredictos or not all(v[0] for v in veredictos):
         return False
     p, b = veredictos[0][1], veredictos[0][2]
-    logger.info(f"El material es una GRÁFICA (relleno plano {p:.0%}, bordes duros {b:.1%}): "
+    logger.info(f"El material es una GRÁFICA (relleno macizo {p:.0%}, bordes duros {b:.1%}): "
                 f"va entero, porque recortarlo se comería el texto.")
     return True
 
