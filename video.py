@@ -121,13 +121,21 @@ PLACA_FUNDIDO = 110
 # mano (admite `0x22252B`, `#22252B` o `black`) y `REEL_PLACA_FONDO_AUTO=0` apaga el
 # automático y deja este gris de siempre.
 PLACA_FONDO = "0x22252B"
-# A cuánto se lleva el color sacado de la imagen. Luz baja y saturación corta: tiene que
-# leerse como un fondo, no como un color. Medido sobre los 36 matices: en el PEOR caso (un
-# amarillo) el blanco del titular queda en 14,5:1 de contraste y el naranja de la marca en
-# 5,5:1 — los dos por encima del 4,5:1 que pide la norma. O sea: no hay color de video que
-# pueda dejar el texto ilegible.
-PLACA_FONDO_LUZ = 0.13
-PLACA_FONDO_SAT = 0.26
+# A cuánto se lleva el color sacado de la imagen: se le respeta el MATIZ y se le imponen la
+# luz y la saturación, para que se lea como un fondo y no como un color.
+#
+# Subieron los dos el 2026-09-22: con 0,13 y 0,26 TODOS los reels salían el mismo casi-negro
+# y no se distinguía uno de otro (el usuario lo vio antes que los tests). Medido sobre los 36
+# matices, con estos valores dos fondos opuestos se separan 31 puntos sobre 255 —o sea que se
+# ve que son colores distintos en el celular, contra 25 de antes—.
+#
+# El texto sigue holgado: en el PEOR caso el blanco del titular queda en 11,5:1 de contraste
+# y el naranja de la marca en 4,4:1. El umbral que aplica es el de TEXTO GRANDE (3:1): la
+# volanta va en cuerpo 42, el titular en 88 y la bajada en 44, sobre 1080 de ancho. O sea
+# casi 50% de margen. Más luz separa más los tonos pero se come el naranja (a 0,18 baja a
+# 3,9:1), así que acá está el techo.
+PLACA_FONDO_LUZ = 0.16
+PLACA_FONDO_SAT = 0.45
 # Isologo: tamaño y margen. Estaban repetidos como literales en cuatro funciones; ahora
 # salen de acá, así la caja que calcula `_logo_caja` no se puede desfasar de lo que dibuja
 # el filtergraph (era eso lo que dejaba al titular pisándolo).
@@ -749,20 +757,41 @@ def _apagar_color(r: int, g: int, b: int) -> str:
     Sin esto, un fondo claro se comería el titular blanco y uno naranja, a la marca."""
     import colorsys
     h, _l, s = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
-    r2, g2, b2 = colorsys.hls_to_rgb(h, PLACA_FONDO_LUZ, min(s, PLACA_FONDO_SAT))
+    # La saturación se IMPONE, no se recorta. Antes iba `min(s, tope)` y ahí estaba la falla:
+    # el material real viene lavado (una calle, una vereda, una noche), así que el `min` lo
+    # dejaba en nada y todos los fondos salían el mismo casi-negro. Fijándola, el matiz que se
+    # rescató de la imagen se ve de verdad.
+    r2, g2, b2 = colorsys.hls_to_rgb(h, PLACA_FONDO_LUZ, PLACA_FONDO_SAT)
     return "0x%02X%02X%02X" % (round(r2 * 255), round(g2 * 255), round(b2 * 255))
+
+
+# Debajo de esto un píxel es negro de sombra, no un color: su matiz es ruido de compresión.
+# Estaba en 28 y por eso los fondos salían todos iguales — en casi cualquier foto la masa
+# oscura gana por superficie, así que el «color dominante» terminaba siendo un casi-negro
+# (medido en producción: 29,24,15 y 45,42,41 en dos reels seguidos).
+FONDO_MIN_LUZ = 55
+FONDO_MAX_LUZ = 225
+# Saturación mínima del ganador para creerle el matiz. Abajo de esto el material es gris de
+# verdad (una noche, un blanco y negro) y el fondo va al gris de siempre en vez de inventarle
+# un color a partir de ruido.
+FONDO_MIN_SAT = 0.10
 
 
 def _color_dominante(src, work_dir) -> str:
     """El color principal del video/foto, ya apagado para usarlo de fondo. "" si no se pudo.
 
     Mira TRES cuadros repartidos (uno solo puede caer en un plano negro o en un flash) y se
-    queda con el color que más superficie ocupa, salteando lo casi negro y lo casi blanco:
-    esos no tienen tinte y darían siempre el mismo gris. Nunca lanza: si algo falla, el reel
-    sale con el gris de siempre."""
+    queda con el color más representativo. «Representativo» NO es «el que más superficie
+    ocupa»: eso daba siempre un casi-negro, porque las sombras ocupan media foto y no tienen
+    matiz. Se pondera la superficie por cuánto COLOR tiene cada tono, así el verde de una
+    cancha le gana a la tribuna en sombra aunque ocupe menos.
+
+    Nunca lanza: si algo falla, o si la imagen es gris de verdad, el reel sale con el gris
+    de siempre."""
     if not _fondo_auto_on():
         return ""
     try:
+        import colorsys
         from PIL import Image
         src, work_dir = Path(src), Path(work_dir)
         dur = duration_seconds(src) or 0.0
@@ -780,9 +809,13 @@ def _color_dominante(src, work_dir) -> str:
                 crudo = pal.getpalette() or []
                 for n, idx in pal.getcolors(80 * 80) or []:
                     r, g, b = crudo[idx * 3:idx * 3 + 3]
-                    if max(r, g, b) < 28 or min(r, g, b) > 232:
-                        continue                    # negro o blanco: no aportan tinte
-                    cuenta[(r, g, b)] = cuenta.get((r, g, b), 0) + n
+                    if max(r, g, b) < FONDO_MIN_LUZ or min(r, g, b) > FONDO_MAX_LUZ:
+                        continue                    # sombra o reventado: no aportan matiz
+                    _h, _l, s = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
+                    # Superficie PONDERADA por color: un gris grande no le gana a un tono
+                    # mediano pero vivo. El 0,25 de base evita que un tono muy saturado y
+                    # diminuto (un cartel, una remera) se lleve el fondo entero.
+                    cuenta[(r, g, b)] = cuenta.get((r, g, b), 0) + n * (0.25 + s)
             except Exception:                       # noqa: BLE001
                 continue
             finally:
@@ -791,9 +824,14 @@ def _color_dominante(src, work_dir) -> str:
                 except Exception:                   # noqa: BLE001
                     pass
         if not cuenta:
-            logger.info("No le encontré un color dominante a la imagen: el fondo va gris.")
+            logger.info("La imagen es toda sombra o todo blanco: el fondo va gris.")
             return ""
         (r, g, b), _ = max(cuenta.items(), key=lambda kv: kv[1])
+        _h, _l, s = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
+        if s < FONDO_MIN_SAT:
+            logger.info(f"El color que manda en la imagen es gris ({r},{g},{b}): no le invento "
+                        f"un matiz, el fondo va gris.")
+            return ""
         color = _apagar_color(r, g, b)
         logger.info(f"Fondo de la placa sacado de la imagen: {r},{g},{b} → {color}.")
         return color
@@ -1205,15 +1243,17 @@ def placa_texto_png(volanta: str, titular: str, resumen: str, salida, *,
     return salida, caja["y_img"]
 
 
-def fundido_png(alto: int, salida, *, abajo: bool = False) -> Path | None:
+def fundido_png(alto: int, salida, *, abajo: bool = False, ancho: int = 1080) -> Path | None:
     """Máscara en escala de grises para fundir los BORDES de la imagen con el fondo.
 
     Negro (transparente) → blanco (opaco) a los `PLACA_FUNDIDO` px. `alphamerge` la usa como
     canal alfa de la imagen, y así el corte deja de ser una línea recta: la foto se DISUELVE
-    en el gris oscuro de arriba en vez de terminar de golpe.
+    en el fondo en vez de terminar de golpe.
 
     `abajo=True` funde también el borde de abajo: hace falta cuando la imagen NO llega al
-    pie del cuadro (material apaisado) y debajo de ella queda el gris de la placa.
+    pie del cuadro y debajo de ella queda el color del fondo. `ancho` es el de la imagen:
+    cuando va ENTERA y más angosta que el cuadro, la máscara tiene que medir lo mismo que
+    ella o `alphamerge` se queja de que no coinciden.
 
     El desvanecido NUNCA se come más de un tercio de la foto por borde. Sin ese freno, una
     panorámica muy ancha (4000x800 entra como una tira de 216px) quedaba más baja que los
@@ -1224,6 +1264,7 @@ def fundido_png(alto: int, salida, *, abajo: bool = False) -> Path | None:
     except Exception:                                            # noqa: BLE001
         return None
     try:
+        ancho = max(2, int(ancho))
         fundido = max(1, int(float(_cfg("REEL_PLACA_FUNDIDO", str(PLACA_FUNDIDO)))))
         # Con fundido arriba Y abajo, cada borde se queda a lo sumo con un tercio: así el
         # medio de la foto SIEMPRE llega opaco, por finita que sea la tira.
@@ -1232,17 +1273,17 @@ def fundido_png(alto: int, salida, *, abajo: bool = False) -> Path | None:
             logger.info(f"La imagen mide {alto}px de alto: achico el desvanecido de "
                         f"{fundido} a {techo}px para que no se coma la foto.")
             fundido = techo
-        m = Image.new("L", (1080, alto), 255)
+        m = Image.new("L", (ancho, alto), 255)
         px = m.load()
         for y in range(min(fundido, alto)):
             v = round(255 * (y / fundido) ** 1.6)   # arranca lento: la unión se nota menos
-            for x in range(1080):
+            for x in range(ancho):
                 px[x, y] = v
         if abajo:
             for y in range(min(fundido, alto)):
                 v = round(255 * (y / fundido) ** 1.6)
                 fila = alto - 1 - y
-                for x in range(1080):
+                for x in range(ancho):
                     if v < px[x, fila]:
                         px[x, fila] = v
         salida = Path(salida)
@@ -1586,24 +1627,37 @@ def _bandas_on() -> bool:
     return str(_cfg("REEL_BANDAS", "1")).strip().lower() not in ("0", "no", "false", "off")
 
 
-def _llena_el_cuadro(w: int, h: int) -> bool:
-    """¿Se puede AMPLIAR esta imagen hasta llenar el hueco sin perder información?
+# Cuánto de una foto estamos dispuestos a tirar con tal de que llene el hueco. Hasta acá lo
+# que se pierde son bordes; más allá empieza a faltar la noticia.
+PLACA_RECORTE_MAX = 0.25
 
-    Sí si es CUADRADA o VERTICAL: ahí ampliar recorta poco y de los costados, donde casi
-    nunca pasa nada. Una APAISADA es otra cosa: llevarla a un hueco casi cuadrado le come
-    la mitad del ancho, y en una foto de varios chicos jugando eso se lleva medio equipo.
-    Esas van ENTERAS, y abajo queda el gris de la placa (pedido del usuario 2026-09-18).
-    Ese gris del pie no es espacio perdido: es justo la franja que Instagram y Facebook tapan
-    con su propio texto y sus botones.
 
-    El corte se mueve con `REEL_FULLBLEED_MAX_AR` (default 1.0 = hasta cuadrada)."""
-    if w <= 0 or h <= 0:
+def _llena_el_cuadro(w: int, h: int, hueco: int = 0) -> bool:
+    """¿Esta imagen LLENA el hueco (recortando lo que sobra) o va ENTERA?
+
+    Manda cuánto habría que TIRAR, no la forma (pedido del usuario 2026-09-22: «que las
+    fotos de distintos tamaños no se corten mal»). Antes la regla era «cuadrada o vertical
+    llena»: una foto de celular 9:16 metida en un hueco casi cuadrado perdía el **46%** —
+    media foto, y con ella la cabeza o los pies del que la mandó.
+
+    Ahora se calcula la pérdida real contra el hueco que quedó bajo el texto:
+      · hasta `PLACA_RECORTE_MAX` (25%) se recorta: lo que se va son bordes y la imagen
+        llena el cuadro, que se ve mucho mejor;
+      · más que eso va ENTERA y centrada, con el color del fondo a los costados o abajo.
+
+    Con eso una cuadrada pierde 5% → llena; una 4:5 de Instagram pierde 24% → llena; una
+    9:16 de celular perdería 46% → va entera; una apaisada, igual que siempre.
+
+    `REEL_RECORTE_MAX` mueve el corte; en `0` no se recorta NUNCA."""
+    if w <= 0 or h <= 0 or hueco <= 0:
         return False
     try:
-        max_ar = float(_cfg("REEL_FULLBLEED_MAX_AR", "1.0"))
+        tope = float(_cfg("REEL_RECORTE_MAX", str(PLACA_RECORTE_MAX)))
     except ValueError:
-        max_ar = 1.0
-    return (w / h) <= max_ar
+        tope = PLACA_RECORTE_MAX
+    escala = max(1080 / w, hueco / h)             # cuánto hay que agrandarla para llenar
+    visible = (1080 * hueco) / (w * escala * h * escala)
+    return (1 - visible) <= tope
 
 
 def _fullbleed_on() -> bool:
@@ -1730,6 +1784,9 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     # por su borde de arriba. Sin placa, la imagen ocupa el cuadro entero como siempre.
     ym = texto_placa[1] if texto_placa else 0
     mh = texto_placa[3] if texto_placa else 1920        # alto REAL de la imagen
+    # Ancho REAL. Es 1080 salvo cuando la imagen va ENTERA y es más alta que ancha: ahí entra
+    # completa y más angosta, y a los costados queda el color del fondo.
+    mw = (texto_placa[5] if (texto_placa and len(texto_placa) > 5) else 1080) or 1080
     mascara = texto_placa[2] if texto_placa else None
     if texto_placa:
         # Fondo: un GRIS OSCURO SÓLIDO detrás de TODO el cuadro (pedido del usuario
@@ -1752,19 +1809,21 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
             relleno = ("scale=1080:1920:force_original_aspect_ratio=increase,"
                        "crop=1080:1920,boxblur=luma_radius=40:luma_power=1")
         vf = f"{pre}{v0}split=2[bg][fg];[bg]{relleno},setsar=1[bgb]"
-        if encuadre:                        # cuadrada/vertical: amplía y recorta a medida
+        if encuadre:                        # llena el hueco: amplía y recorta a medida
             nw, nh, cx, cy = encuadre
-            vf += f";[fg]scale={nw}:{nh},setsar=1,crop=1080:{mh}:{cx}:{cy},format=rgba[fgc]"
-        else:                               # apaisada: entera, a lo ancho del cuadro
-            vf += f";[fg]scale=1080:{mh},setsar=1,format=rgba[fgc]"
+            vf += f";[fg]scale={nw}:{nh},setsar=1,crop={mw}:{mh}:{cx}:{cy},format=rgba[fgc]"
+        else:                               # ENTERA: a su proporción, sin deformarse
+            vf += f";[fg]scale={mw}:{mh},setsar=1,format=rgba[fgc]"
 
         etiqueta_img = "[fgc]"
         if mascara:
             # `alphamerge` toma el brillo de la máscara como canal alfa: negro arriba =
             # transparente, y de ahí a blanco. El borde de la foto deja de ser una línea.
-            vf += f";[MASK:v]format=gray,scale=1080:{mh}[mk];[fgc][mk]alphamerge[fga]"
+            vf += f";[MASK:v]format=gray,scale={mw}:{mh}[mk];[fgc][mk]alphamerge[fga]"
             etiqueta_img = "[fga]"
-        vf += f";[bgb]{etiqueta_img}overlay=0:{ym}[v]"
+        # Centrada a lo ancho: cuando la imagen va ENTERA y es más angosta que el cuadro
+        # (una foto de celular 9:16, por ejemplo), a los costados queda el color del fondo.
+        vf += f";[bgb]{etiqueta_img}overlay={(1080 - mw) // 2}:{ym}[v]"
     elif encuadre:
         # FULL BLEED clásico: el video LLENA el cuadro 9:16, sin franjas ni fondo borroso.
         nw, nh, cx, cy = encuadre
@@ -2127,15 +2186,28 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         if armada:
             png, y_img = armada
             hueco = 1920 - y_img
-            # Cuadrada o vertical: la imagen LLENA el hueco. Apaisada: va entera, pegada
-            # arriba, y abajo queda el gris de la placa — recortarla perdería los costados.
-            llena = _llena_el_cuadro(cont_w, cont_h)
-            alto_foto = hueco if llena else min(hueco, int(round(1080 * cont_h / cont_w)))
-            alto_foto = max(2, alto_foto - alto_foto % 2)
+            # ¿Llena el hueco recortando, o va entera? Decide cuánto habría que tirar, no la
+            # forma (ver `_llena_el_cuadro`).
+            llena = _llena_el_cuadro(cont_w, cont_h, hueco)
+            if llena:
+                ancho_foto, alto_foto = 1080, hueco
+            else:
+                # ENTERA: entra completa en el hueco sin deformarse. Escala por el lado que
+                # apriete —el ancho en una apaisada, el alto en una vertical— y lo que sobra
+                # queda del color del fondo. OJO: acá antes iba `scale=1080:alto`, que a una
+                # vertical la ACHATABA; ahora se respeta la proporción y se centra.
+                esc = min(1080 / cont_w, hueco / cont_h)
+                ancho_foto = max(2, int(round(cont_w * esc)))
+                alto_foto = max(2, int(round(cont_h * esc)))
+            ancho_foto -= ancho_foto % 2
+            alto_foto -= alto_foto % 2
             if not llena:
-                logger.info(f"Material apaisado ({cont_w}x{cont_h}): va ENTERO "
-                            f"({alto_foto}px de los {hueco} del hueco) y abajo queda el "
-                            f"gris de la placa, para no recortarle los costados.")
+                perdida = round(100 * (1 - (1080 * hueco) /
+                                       (cont_w * max(1080 / cont_w, hueco / cont_h) *
+                                        cont_h * max(1080 / cont_w, hueco / cont_h))))
+                logger.info(f"Material {cont_w}x{cont_h}: recortarlo para llenar el hueco se "
+                            f"comería el {perdida}% de la imagen, así que va ENTERO "
+                            f"({ancho_foto}x{alto_foto}) y el resto queda del color del fondo.")
             # Segunda pasada: ahora que sé dónde termina la foto, sé cuánto fondo queda
             # abajo y puedo escribir ahí. El bloque de arriba sale idéntico, así que
             # `y_img` no se mueve.
@@ -2150,10 +2222,15 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                                            pie=frases, pie_zona=zona)
                     if otra:
                         png = otra[0]
+            # El borde de abajo se funde solo si la imagen NO llega al pie del cuadro. Una
+            # vertical que va entera SÍ llega (ocupa todo el alto del hueco): fundirle el
+            # borde de abajo le comía 110px de foto contra el filo del cuadro, donde no hay
+            # nada con qué fundirse.
+            funde_abajo = (y_img + alto_foto) < 1918
             placa = (png, y_img,
                      fundido_png(alto_foto, salida.parent / f"fundido_{salida.stem}.png",
-                                 abajo=not llena),
-                     alto_foto, llena)
+                                 abajo=funde_abajo, ancho=ancho_foto),
+                     alto_foto, llena, ancho_foto)
     y_media, alto_media = (placa[1], 1920 - placa[1]) if placa else (0, 1920)
     # Con placa el marco naranja no va: el fondo es el gris liso que pinta el filtergraph.
     fondo = None if placa else fondo_enmarcado(
