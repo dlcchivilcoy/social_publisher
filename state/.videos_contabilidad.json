@@ -15104,5 +15104,25 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-09-22T12:21:05",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-09-22_matias-zucchi_mucuumuyhjy7",
+    "uploader": "",
+    "fecha_recibido": "2026-09-22T12:58:30",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "",
+    "titulo": "Un corte de energía afecta el servicio de agua en sectores de la ciudad",
+    "resumen": "Aguas Bonaerenses informa que, producto de un corte de energía que impide el funcionamiento de una perforación de agua, se encuentran afectadas con baja presión y posible falta de agua las calles Calixto Calderón, Avenida 22 de Octubre y Avenida Hijas de San José, en Chivilcoy.",
+    "texto": "Aguas Bonaerenses informa que, producto de un corte de energía que impide el funcionamiento de una perforación de agua, se encuentran afectadas con baja presión y posible falta de agua las calles Calixto Calderón, Avenida 22 de Octubre y Avenida Hijas de San José, en Chivilcoy.\n\nAnte esta situación, se solicita a las personas usuarias cuidar las reservas de agua existentes y utilizarlas para hidratación y quehaceres impostergables, hasta la normalización del suministro.\n\nSe recuerda que, ante dificultades en el servicio, la empresa cuenta con los siguientes canales de contacto: línea telefónica de Asistencia Técnica 0800-999-2272 y redes sociales: Facebook y Telegram.",
+    "draft_id": "426abd65-bfa1-4dda-a2cb-7282d8e3ddec",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-09-22-matias-zucchi-mu.mp4",
+    "estado": "borrador_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-22T15:54:52.683Z — wa:5492346417636"
   }
 ]
