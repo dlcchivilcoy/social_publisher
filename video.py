@@ -1640,34 +1640,103 @@ def _bandas_on() -> bool:
     return str(_cfg("REEL_BANDAS", "1")).strip().lower() not in ("0", "no", "false", "off")
 
 
+# Una GRÁFICA (afiche, flyer, placa de Canva, captura de pantalla) tiene RELLENOS SÓLIDOS:
+# corridas largas de píxeles exactamente del mismo color. Una foto de celular no, ni siquiera
+# en un cielo liso: siempre tiene grano. Eso es lo que separa una cosa de la otra, y de paso
+# aguanta el viaje por ffmpeg (medido: los valores no se mueven al pasar por el clip h264).
+GRAFICA_IGUALES = 16            # cuántos píxeles seguidos iguales cuentan como «relleno»
+GRAFICA_PLANO_SEGURO = 0.35     # tan plana que no hace falta mirar nada más
+GRAFICA_PLANO = 0.08            # algo plana…
+GRAFICA_BORDES = 0.010          # …y además con bordes duros, o sea TEXTO
+GRAFICA_FILAS = 240             # filas que se miran, repartidas por toda la imagen
+
+
+def _es_grafica(src: Path, work_dir: Path) -> bool:
+    """¿El material es un AFICHE/placa/captura en vez de una foto?
+
+    Un afiche NO se puede recortar: el texto es la noticia. Una foto sí, porque lo que se
+    va son bordes (pedido del usuario 2026-09-22).
+
+    Se miran DOS cuadros y tienen que dar gráfica LOS DOS, así un solo fotograma raro de un
+    video (un fundido a negro, una placa de TV) no manda a todo el material al camino
+    equivocado. Nunca lanza: ante la duda, foto.
+
+    Calibrado contra material real: 40 publicidades del diario (gráficas de verdad) y 62
+    fotos de notas publicadas → detecta 31 de 40 gráficas y marca 5 de 62 fotos, de las
+    cuales 3 son afiches que se habían colado en el set."""
+    try:
+        import numpy as np
+        from PIL import Image
+    except Exception:                                   # noqa: BLE001
+        return False                                    # sin numpy: todo es foto (como antes)
+    src, work_dir = Path(src), Path(work_dir)
+    dur = duration_seconds(src) or 0.0
+    momentos = [dur * f for f in (0.35, 0.65)] if dur > 1 else [0.0]
+    veredictos = []
+    for i, seg in enumerate(momentos):
+        tmp = work_dir / f"_graf_{i}_{src.stem[:20]}.jpg"
+        try:
+            if not _extraer_frame(src, seg, tmp, etiqueta="¿afiche?"):
+                continue
+            a = np.asarray(Image.open(tmp).convert("RGB"), dtype=np.uint8)
+            if a.shape[1] < GRAFICA_IGUALES * 2:
+                continue
+            a = a[::max(1, a.shape[0] // GRAFICA_FILAS)]
+            # Arranca en 1 y se va doblando: «este píxel y el siguiente son iguales», después
+            # «…y los dos de más allá también», hasta cubrir la corrida entera.
+            tramo, largo = np.all(a[:, 1:] == a[:, :-1], axis=2), 1
+            while largo < GRAFICA_IGUALES - 1:
+                n = min(largo, GRAFICA_IGUALES - 1 - largo)
+                tramo = tramo[:, :-n] & tramo[:, n:]
+                largo += n
+            plano = float(tramo.mean())
+            gris = a.astype(np.int16).mean(axis=2)
+            bordes = float((np.abs(np.diff(gris, axis=1)) >= 60).mean())
+            veredictos.append((plano >= GRAFICA_PLANO_SEGURO or
+                               (plano >= GRAFICA_PLANO and bordes >= GRAFICA_BORDES),
+                               plano, bordes))
+        except Exception:                               # noqa: BLE001
+            continue
+        finally:
+            try:
+                tmp.unlink()
+            except Exception:                           # noqa: BLE001
+                pass
+    if not veredictos or not all(v[0] for v in veredictos):
+        return False
+    p, b = veredictos[0][1], veredictos[0][2]
+    logger.info(f"El material es una GRÁFICA (relleno plano {p:.0%}, bordes duros {b:.1%}): "
+                f"va entero, porque recortarlo se comería el texto.")
+    return True
+
+
 # Cuánto de una foto estamos dispuestos a tirar con tal de que llene el hueco. No es un solo
 # número, porque según la forma no se pierde lo mismo:
 #   · APAISADA: el recorte se lleva los COSTADOS, que es donde están la gente, los carteles y
 #     las patentes. Se aguanta poco.
 #   · VERTICAL o CUADRADA: el recorte se lleva ARRIBA y ABAJO —cielo, techo, piso, asfalto— y
-#     encima el encuadre busca las caras antes de cortar (`_encuadre_fullbleed`), así que la
-#     noticia sobrevive. Se aguanta bastante más, y por eso una foto de celular entra A
-#     SANGRE en vez de quedar chiquita en el medio del cuadro (pedido del usuario 2026-09-22).
+#     encima el encuadre GARANTIZA que las caras queden dentro (`_encuadre_fullbleed`), así
+#     que la noticia sobrevive. Va SIEMPRE a sangre (tope 1,00), que es el pedido del usuario
+#     del 2026-09-22: una foto vertical tiene que llenar el cuadro, no quedar chiquita en el
+#     medio. Lo que no se recorta nunca es una GRÁFICA: ver `_es_grafica`.
 PLACA_RECORTE_MAX = 0.25
-PLACA_RECORTE_MAX_VERTICAL = 0.50
+PLACA_RECORTE_MAX_VERTICAL = 1.00
 
 
-def _llena_el_cuadro(w: int, h: int, hueco: int = 0) -> bool:
+def _llena_el_cuadro(w: int, h: int, hueco: int = 0, *, grafica: bool = False) -> bool:
     """¿Esta imagen LLENA el hueco (recortando lo que sobra) o va ENTERA?
 
-    Mandan cuánto habría que TIRAR y QUÉ se tira, no la forma a secas. La pérdida se mide
-    contra el hueco que quedó bajo el texto y el tope sale de la forma (ver
-    `PLACA_RECORTE_MAX`): poco en una apaisada, porque lo que se va son los costados;
-    bastante más en una vertical o cuadrada, porque lo que se va es cielo y piso y el
-    encuadre esquiva las caras.
-
-    Así una cuadrada (5%), una 4:5 de Instagram (17%) y una foto de celular 9:16 (42%)
-    entran A SANGRE —que es como se ven bien—, y una apaisada metida en un hueco casi
-    cuadrado (41%) va ENTERA y centrada, con el color del fondo a los costados.
+    Tres reglas, en este orden:
+      1. una GRÁFICA va siempre ENTERA —un afiche recortado pierde justo el texto, que es
+         la noticia (pedido del usuario 2026-09-22);
+      2. una foto VERTICAL o CUADRADA va siempre A SANGRE: lo que se recorta es cielo y
+         piso, y el encuadre garantiza que las caras queden dentro;
+      3. una foto APAISADA llena solo si el recorte se lleva menos de `PLACA_RECORTE_MAX`,
+         porque ahí lo que se va son los costados: gente, carteles, patentes.
 
     `REEL_RECORTE_MAX` y `REEL_RECORTE_MAX_VERTICAL` mueven cada corte; en `0` no se
     recorta NUNCA."""
-    if w <= 0 or h <= 0 or hueco <= 0:
+    if w <= 0 or h <= 0 or hueco <= 0 or grafica:
         return False
     vertical = w <= h
     clave = "REEL_RECORTE_MAX_VERTICAL" if vertical else "REEL_RECORTE_MAX"
@@ -1706,16 +1775,30 @@ def _fullbleed_aplica(w: int, h: int) -> bool:
     return (w / h) <= max_ar
 
 
+def _entre(ideal: float, minimo: float, maximo: float, piso: float, techo: float) -> int:
+    """El valor más cercano a `ideal` que cumpla DOS condiciones a la vez: quedar en
+    [minimo, maximo] —lo que hace falta para no cortar al sujeto— y no salirse de la
+    imagen, [piso, techo]. Si las dos no se pueden, manda no salirse de la imagen."""
+    lo, hi = max(minimo, piso), min(maximo, techo)
+    if lo > hi:                       # no se tocan: la imagen manda
+        return int(round(max(piso, min(ideal, techo))))
+    return int(round(max(lo, min(ideal, hi))))
+
+
 def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: Path,
                         *, alto: int = 1920):
     """Devuelve (nw, nh, x, y): a cuánto escalar el video para LLENAR 1080x1920 y desde
     dónde recortarlo, ENCUADRADO EN EL SUJETO.
 
     Busca caras en 3 fotogramas (reusa el detector de las placas) y se queda con el
-    fotograma más representativo (el de mayor superficie de caras). El recorte se centra
-    en el centro PONDERADO por el tamaño de cada cara (el primer plano pesa más) y deja
-    aire arriba para no cortar cabezas. Sin caras (paisaje/objeto) o ante cualquier error:
-    recorte centrado con leve sesgo hacia arriba (mismo criterio que `story_image._encuadrar`)."""
+    fotograma más representativo (el de mayor superficie de caras). El recorte NO se
+    limita a apuntar a las caras: se GARANTIZA que entren enteras, con aire arriba de la
+    cabeza y un poco de cuello abajo (pedido del usuario 2026-09-22). Dentro de ese
+    margen se elige el encuadre más parecido al ideal —centrado en el sujeto y con la
+    cara en el tercio de arriba—. Si las caras están tan repartidas que no entran todas,
+    se suelta la más chica (la del fondo) antes que cortar a la principal. Sin caras
+    (paisaje/objeto) o ante cualquier error: recorte centrado con leve sesgo hacia arriba
+    (mismo criterio que `story_image._encuadrar`)."""
     W, H = 1080, alto          # `alto` < 1920 cuando el reel lleva titular y resumen
     escala = max(W / max(1, cont_w), H / max(1, cont_h))
     nw = max(W, int(round(cont_w * escala)))
@@ -1747,12 +1830,33 @@ def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: 
                 except Exception:
                     pass
         if mejor:
-            tot = sum(c[2] * c[3] for c in mejor)
-            cx = sum((c[0] + c[2] / 2) * c[2] * c[3] for c in mejor) / tot
-            y_top = min(c[1] for c in mejor)
-            x = max(0, min(int(round(cx * escala - W / 2)), nw - W))
-            y = max(0, min(int(round(y_top * escala - H * 0.14)), nh - H))
-            logger.info(f"Encuadre full bleed: {len(mejor)} cara(s) detectada(s) → recorte x={x} y={y}")
+            # Las caras, ya en píxeles del material escalado, la más grande primero.
+            cajas = sorted(((c[0] * escala, c[1] * escala, c[2] * escala, c[3] * escala)
+                            for c in mejor), key=lambda c: -c[2] * c[3])
+            # La caja que devuelve el detector es la CARA pelada: no trae ni la frente ni
+            # el pelo, así que hay que pedir aire arriba o el recorte corta la cabeza.
+            aire, cuello = cajas[0][3] * 0.7, cajas[0][3] * 0.3
+            while len(cajas) > 1:
+                ancho = max(c[0] + c[2] for c in cajas) - min(c[0] for c in cajas)
+                altura = (max(c[1] + c[3] for c in cajas) + cuello
+                          - min(c[1] for c in cajas) + aire)
+                if ancho <= W and altura <= H:
+                    break
+                fuera = cajas.pop()
+                logger.info(f"Encuadre: las {len(cajas) + 1} caras no entran juntas; suelto "
+                            f"la más chica ({int(fuera[2])}x{int(fuera[3])} px) y sigo.")
+            tot = sum(c[2] * c[3] for c in cajas)
+            cx = sum((c[0] + c[2] / 2) * c[2] * c[3] for c in cajas) / tot
+            arriba = min(c[1] for c in cajas)
+            # Lo que la ventana TIENE que cubrir…
+            izq, der = min(c[0] for c in cajas), max(c[0] + c[2] for c in cajas)
+            aba = max(c[1] + c[3] for c in cajas) + cuello
+            # …y dentro de eso, lo más parecido al encuadre lindo: centrado en el sujeto,
+            # con la cara en el tercio de arriba.
+            x = _entre(cx - W / 2, der - W, izq, 0, nw - W)
+            y = _entre(arriba - H * 0.14, aba - H, arriba - aire, 0, nh - H)
+            logger.info(f"Encuadre full bleed: {len(cajas)} cara(s) → recorte x={x} y={y}, "
+                        f"con las caras enteras y aire arriba de la cabeza.")
         else:
             logger.info("Encuadre full bleed: sin caras (paisaje/objeto) → recorte centrado.")
     except Exception as e:  # noqa: BLE001
@@ -2147,6 +2251,7 @@ def ultimo_reel_degradado() -> dict:
 
 
 def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | None = None,
+                     es_foto: bool = False,
                      firma: str | None = None, logo: bool = True,
                      placa_final: bool = True, zocalo: str | None = None,
                      overlay: bool = True, titular: str = "", resumen: str = "",
@@ -2180,6 +2285,11 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     hueco de fondo: ahí va la primera oración fuerte del cuerpo (pedido del usuario
     2026-09-20), que es información de más sin quitarle nada a la imagen. Con material
     vertical o cuadrado no hay hueco y el cuerpo se ignora.
+
+    `es_foto` avisa que atrás de este 'video' hay una FOTO (lo pone `foto_a_reel`). Solo
+    en ese caso se mira si el material es un AFICHE —que no se puede recortar, ver
+    `_es_grafica`—: un video de celular nunca lo es, y uno nocturno muy comprimido tiene
+    manchones planos que lo harían pasar por gráfica sin serlo.
     """
     src, salida = Path(src), Path(salida)
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
@@ -2209,16 +2319,21 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # una sola vez y ANTES de los escalones de degradado, así los tres reintentos usan el
     # mismo color y no se paga tres veces la extracción de cuadros.
     color_fondo = _color_dominante(src, salida.parent) if _bandas_on() else ""
+    # ¿Es un afiche? Decide si la imagen se puede recortar o no. Se calcula acá, una sola
+    # vez, por lo mismo que el color: los reintentos por degradado no tienen que repetirlo.
+    # SOLO para fotos: un afiche llega como imagen, nunca como video, y un video nocturno
+    # muy comprimido tiene manchones planos que lo harían pasar por gráfica sin serlo.
+    grafica = _es_grafica(src, salida.parent) if (_bandas_on() and es_foto) else False
     if _bandas_on():
         armada = placa_texto_png(volanta, titular, resumen,
                                  salida.parent / f"placa_{salida.stem}.png")
         if armada:
             png, y_img = armada
             hueco = 1920 - y_img
-            # ¿Llena el hueco recortando, o va entera? Deciden cuánto habría que tirar y
-            # QUÉ se tira: una vertical aguanta mucho más recorte que una apaisada, porque
-            # pierde cielo y piso en vez de perder gente (ver `_llena_el_cuadro`).
-            llena = _llena_el_cuadro(cont_w, cont_h, hueco)
+            # ¿Llena el hueco recortando, o va entera? Un afiche va siempre entero, una
+            # foto vertical siempre a sangre, y una apaisada según cuánto habría que
+            # tirarle (ver `_llena_el_cuadro`).
+            llena = _llena_el_cuadro(cont_w, cont_h, hueco, grafica=grafica)
             if llena:
                 ancho_foto, alto_foto = 1080, hueco
             else:
@@ -2237,6 +2352,10 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                 logger.info(f"Material {cont_w}x{cont_h}: va A SANGRE en el hueco "
                             f"(1080x{hueco}), recortando el {perdida}% y encuadrando el "
                             f"sujeto.")
+            elif grafica:
+                logger.info(f"Material {cont_w}x{cont_h}: es una gráfica, así que va ENTERA "
+                            f"({ancho_foto}x{alto_foto}) —recortarla se llevaría el "
+                            f"{perdida}% y con eso, el texto— y el resto queda del fondo.")
             else:
                 logger.info(f"Material {cont_w}x{cont_h}: recortarlo para llenar el hueco se "
                             f"comería el {perdida}% de la imagen, así que va ENTERO "
@@ -2418,7 +2537,7 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
                 f"(branding igual que los videos)")
     return to_vertical_reel(base, salida, audio=False, firma=firma, zocalo=zocalo or "",
                             overlay=overlay, titular=titular, resumen=resumen,
-                            volanta=volanta, cuerpo=cuerpo)
+                            volanta=volanta, cuerpo=cuerpo, es_foto=True)
 
 
 def frame_at(src, seconds, salida) -> Path:
