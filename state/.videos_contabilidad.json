@@ -15079,12 +15079,30 @@
     "zocalo": "",
     "draft_id": "731b0d6f-15bf-4316-84f1-74f4f3f37a46",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-muctamg1co3x-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-22T15:11:19.273Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-22T15:11:19.273Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-22T12:21:05",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (6 borradores sin publicar)",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18092858336450594",
+    "fb_video_id": "2297206181131921",
+    "yt_video_id": "MsHqZCJmCvM",
+    "yt_url": "https://www.youtube.com/shorts/MsHqZCJmCvM",
+    "yt_watch_url": "https://www.youtube.com/watch?v=MsHqZCJmCvM",
+    "yt_titulo": "Colón superó a Racing por 83 a 73 y se quedó con el clásico chivilcoyano",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-22T12:21:05",
+    "yt_metrics": {}
   }
 ]
