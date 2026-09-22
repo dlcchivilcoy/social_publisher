@@ -15041,12 +15041,30 @@
     "zocalo": "Vandalismo en Café Pronto",
     "draft_id": "277a7c1c-11c0-4b6a-8b46-dcb146c0fc45",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mucry4pgxnv4-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-22T14:33:37.612Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-22T14:33:37.612Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-22T11:40:52",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/avenida-sarmiento-registraron-actos-de-vandalismo-contra-un-cafe",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (5 borradores sin publicar)",
+      "wix": "ok"
+    },
+    "ig_media_id": "17970846759135644",
+    "fb_video_id": "3551750538326488",
+    "yt_video_id": "jFbMr_EEJt4",
+    "yt_url": "https://www.youtube.com/shorts/jFbMr_EEJt4",
+    "yt_watch_url": "https://www.youtube.com/watch?v=jFbMr_EEJt4",
+    "yt_titulo": "Registraron actos de vandalismo contra un café céntrico",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-22T11:40:52",
+    "yt_metrics": {}
   }
 ]
