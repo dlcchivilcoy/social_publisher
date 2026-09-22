@@ -194,7 +194,7 @@ def _logo_caja() -> tuple[int, int, int, int] | None:
 
 def has_audio(src) -> bool:
     """True si el archivo trae pista de audio (parseando la salida de ffmpeg)."""
-    r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
+    r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True, errors="replace")
     return "Audio:" in (r.stderr or "")
 
 
@@ -224,7 +224,11 @@ def _dimensiones(src) -> tuple[int, int]:
     cuadros salen 1080x1920. Si se le cree a la ficha, el reel sale ARRUINADO y sin avisar:
     el código lo toma por apaisado, lo aplasta a un tercio de su alto y encima la salida
     hereda el giro, con lo cual queda todo acostado (probado 2026-09-18)."""
-    r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
+    # `errors="replace"`: ffmpeg escribe la ficha en la codificación de la consola y un
+    # solo byte que no entre en ella hacía explotar la LECTURA (no el video), y de ahí
+    # salía un (0,0) que arrastraba todo lo demás.
+    r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True,
+                       errors="replace")
     err = r.stderr or ""
     m = re.search(r"Video:.*?[\s,](\d{2,5})x(\d{2,5})[\s,]", err)
     if not m:
@@ -257,7 +261,7 @@ def detectar_recorte(src) -> tuple[int, int, int, int] | None:
         args += ["-t", "16"]           # con 16 s alcanza para fijar las barras; no gasta de más
     args += ["-i", str(src), "-vf", "fps=3,cropdetect=limit=24:round=2:reset=0",
              "-f", "null", "-"]
-    r = subprocess.run(args, capture_output=True, text=True)
+    r = subprocess.run(args, capture_output=True, text=True, errors="replace")
     m = re.findall(r"crop=(\d+):(\d+):(-?\d+):(-?\d+)", r.stderr or "")
     if not m:
         return None
@@ -772,9 +776,11 @@ def _apagar_color(r: int, g: int, b: int) -> str:
 FONDO_MIN_LUZ = 55
 FONDO_MAX_LUZ = 225
 # Saturación mínima del ganador para creerle el matiz. Abajo de esto el material es gris de
-# verdad (una noche, un blanco y negro) y el fondo va al gris de siempre en vez de inventarle
-# un color a partir de ruido.
-FONDO_MIN_SAT = 0.10
+# verdad (una cámara de seguridad, un blanco y negro) y el fondo va al gris de siempre en vez
+# de inventarle un color a partir de ruido de compresión. Bajó de 0,10 a 0,06 el 22/9: con
+# 0,10 se iban al gris fotos que SÍ tienen tinte (una sala con luz cálida, un cielo plomizo).
+# Medido sobre 62 fotos reales de notas: con 0,06 quedan grises 2, y las dos lo son de verdad.
+FONDO_MIN_SAT = 0.06
 
 
 def _color_dominante(src, work_dir) -> str:
@@ -813,9 +819,15 @@ def _color_dominante(src, work_dir) -> str:
                         continue                    # sombra o reventado: no aportan matiz
                     _h, _l, s = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
                     # Superficie PONDERADA por color: un gris grande no le gana a un tono
-                    # mediano pero vivo. El 0,25 de base evita que un tono muy saturado y
-                    # diminuto (un cartel, una remera) se lleve el fondo entero.
-                    cuenta[(r, g, b)] = cuenta.get((r, g, b), 0) + n * (0.25 + s)
+                    # mediano pero vivo. El peso es la saturación PELADA, sin base: con el
+                    # «0,25 +» que había antes, el asfalto o una pared descascarada (s≈0,03)
+                    # seguían ganando por superficie y el fondo terminaba yéndose al gris de
+                    # descarte — medido en producción el 22/9, (97,93,91) en el reel de un
+                    # corresponsal. Sin base, un gris necesita DIEZ VECES más superficie que
+                    # un tono vivo para imponerse, y como las áreas son del mismo orden, no
+                    # pasa. Contra 62 fotos reales de notas: los fondos grises bajaron de 29%
+                    # a 8% y los colores distintos subieron de 37 a 46.
+                    cuenta[(r, g, b)] = cuenta.get((r, g, b), 0) + n * s
             except Exception:                       # noqa: BLE001
                 continue
             finally:
@@ -1465,7 +1477,7 @@ def _filtros_disponibles() -> set:
     if _FILTROS is None:
         try:
             r = subprocess.run([_ffmpeg(), "-hide_banner", "-filters"],
-                               capture_output=True, text=True, timeout=60)
+                               capture_output=True, text=True, errors="replace", timeout=60)
             # Cada línea útil es «  T.. nombre  entradas->salidas  descripción»
             _FILTROS = {l.split()[1] for l in (r.stdout or "").splitlines()
                         if len(l.split()) > 2 and l[:1] in " TSC."}
@@ -1552,7 +1564,8 @@ def _timeout_ffmpeg() -> float | None:
 
 def _run_ffmpeg(cmd: list, paso: str) -> None:
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=_timeout_ffmpeg())
+        r = subprocess.run(cmd, capture_output=True, text=True, errors="replace",
+                           timeout=_timeout_ffmpeg())
     except subprocess.TimeoutExpired:
         logger.error(f"ffmpeg se colgó ({paso}): pasó el tope de "
                      f"{_timeout_ffmpeg():.0f}s y lo corté.")
@@ -1578,7 +1591,7 @@ def _run_ffmpeg(cmd: list, paso: str) -> None:
 def _tiene_audio(src) -> bool:
     """True si el video tiene al menos una pista de audio (mira el `ffmpeg -i`)."""
     try:
-        r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True)
+        r = subprocess.run([_ffmpeg(), "-i", str(src)], capture_output=True, text=True, errors="replace")
         return "Audio:" in (r.stderr or "")
     except Exception:
         return False
@@ -1627,34 +1640,42 @@ def _bandas_on() -> bool:
     return str(_cfg("REEL_BANDAS", "1")).strip().lower() not in ("0", "no", "false", "off")
 
 
-# Cuánto de una foto estamos dispuestos a tirar con tal de que llene el hueco. Hasta acá lo
-# que se pierde son bordes; más allá empieza a faltar la noticia.
+# Cuánto de una foto estamos dispuestos a tirar con tal de que llene el hueco. No es un solo
+# número, porque según la forma no se pierde lo mismo:
+#   · APAISADA: el recorte se lleva los COSTADOS, que es donde están la gente, los carteles y
+#     las patentes. Se aguanta poco.
+#   · VERTICAL o CUADRADA: el recorte se lleva ARRIBA y ABAJO —cielo, techo, piso, asfalto— y
+#     encima el encuadre busca las caras antes de cortar (`_encuadre_fullbleed`), así que la
+#     noticia sobrevive. Se aguanta bastante más, y por eso una foto de celular entra A
+#     SANGRE en vez de quedar chiquita en el medio del cuadro (pedido del usuario 2026-09-22).
 PLACA_RECORTE_MAX = 0.25
+PLACA_RECORTE_MAX_VERTICAL = 0.50
 
 
 def _llena_el_cuadro(w: int, h: int, hueco: int = 0) -> bool:
     """¿Esta imagen LLENA el hueco (recortando lo que sobra) o va ENTERA?
 
-    Manda cuánto habría que TIRAR, no la forma (pedido del usuario 2026-09-22: «que las
-    fotos de distintos tamaños no se corten mal»). Antes la regla era «cuadrada o vertical
-    llena»: una foto de celular 9:16 metida en un hueco casi cuadrado perdía el **46%** —
-    media foto, y con ella la cabeza o los pies del que la mandó.
+    Mandan cuánto habría que TIRAR y QUÉ se tira, no la forma a secas. La pérdida se mide
+    contra el hueco que quedó bajo el texto y el tope sale de la forma (ver
+    `PLACA_RECORTE_MAX`): poco en una apaisada, porque lo que se va son los costados;
+    bastante más en una vertical o cuadrada, porque lo que se va es cielo y piso y el
+    encuadre esquiva las caras.
 
-    Ahora se calcula la pérdida real contra el hueco que quedó bajo el texto:
-      · hasta `PLACA_RECORTE_MAX` (25%) se recorta: lo que se va son bordes y la imagen
-        llena el cuadro, que se ve mucho mejor;
-      · más que eso va ENTERA y centrada, con el color del fondo a los costados o abajo.
+    Así una cuadrada (5%), una 4:5 de Instagram (17%) y una foto de celular 9:16 (42%)
+    entran A SANGRE —que es como se ven bien—, y una apaisada metida en un hueco casi
+    cuadrado (41%) va ENTERA y centrada, con el color del fondo a los costados.
 
-    Con eso una cuadrada pierde 5% → llena; una 4:5 de Instagram pierde 24% → llena; una
-    9:16 de celular perdería 46% → va entera; una apaisada, igual que siempre.
-
-    `REEL_RECORTE_MAX` mueve el corte; en `0` no se recorta NUNCA."""
+    `REEL_RECORTE_MAX` y `REEL_RECORTE_MAX_VERTICAL` mueven cada corte; en `0` no se
+    recorta NUNCA."""
     if w <= 0 or h <= 0 or hueco <= 0:
         return False
+    vertical = w <= h
+    clave = "REEL_RECORTE_MAX_VERTICAL" if vertical else "REEL_RECORTE_MAX"
+    base = PLACA_RECORTE_MAX_VERTICAL if vertical else PLACA_RECORTE_MAX
     try:
-        tope = float(_cfg("REEL_RECORTE_MAX", str(PLACA_RECORTE_MAX)))
+        tope = float(_cfg(clave, str(base)))
     except ValueError:
-        tope = PLACA_RECORTE_MAX
+        tope = base
     escala = max(1080 / w, hueco / h)             # cuánto hay que agrandarla para llenar
     visible = (1080 * hueco) / (w * escala * h * escala)
     return (1 - visible) <= tope
@@ -1973,7 +1994,7 @@ def autochequeo() -> bool:
     print("\n=== ffmpeg ===")
     try:
         exe = _ffmpeg()
-        r = subprocess.run([exe, "-hide_banner", "-version"], capture_output=True, text=True)
+        r = subprocess.run([exe, "-hide_banner", "-version"], capture_output=True, text=True, errors="replace")
         print(f"  binario: {exe}")
         print(f"  {(r.stdout or '').splitlines()[0]}")
     except Exception as e:                                       # noqa: BLE001
@@ -2173,6 +2194,14 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # Contenido real del video (sin las barras negras) → con eso se calcula el marco.
     recorte = detectar_recorte(src)
     cont_w, cont_h = (recorte[0], recorte[1]) if recorte else _dimensiones(src)
+    if cont_w <= 0 or cont_h <= 0:
+        # `_dimensiones` devuelve (0,0) a propósito cuando no puede leer la ficha del
+        # archivo. De acá para abajo se divide por el ancho para encuadrar, así que sin
+        # este piso el reel se cae entero en vez de salir un poco peor (pasó probando con
+        # un nombre de archivo acentuado). Lo trato como lo más probable: celular vertical.
+        logger.warning(f"No pude leer el tamaño de {src.name}; lo trato como 1080x1920 "
+                       f"(vertical de celular) para no quedarme sin reel.")
+        cont_w, cont_h = 1080, 1920
     # PLACA: el texto de arriba se arma PRIMERO porque define dónde empieza la imagen, y de
     # ahí sale el encuadre full bleed y el fundido del borde.
     placa = None
@@ -2186,8 +2215,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         if armada:
             png, y_img = armada
             hueco = 1920 - y_img
-            # ¿Llena el hueco recortando, o va entera? Decide cuánto habría que tirar, no la
-            # forma (ver `_llena_el_cuadro`).
+            # ¿Llena el hueco recortando, o va entera? Deciden cuánto habría que tirar y
+            # QUÉ se tira: una vertical aguanta mucho más recorte que una apaisada, porque
+            # pierde cielo y piso en vez de perder gente (ver `_llena_el_cuadro`).
             llena = _llena_el_cuadro(cont_w, cont_h, hueco)
             if llena:
                 ancho_foto, alto_foto = 1080, hueco
@@ -2201,10 +2231,13 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                 alto_foto = max(2, int(round(cont_h * esc)))
             ancho_foto -= ancho_foto % 2
             alto_foto -= alto_foto % 2
-            if not llena:
-                perdida = round(100 * (1 - (1080 * hueco) /
-                                       (cont_w * max(1080 / cont_w, hueco / cont_h) *
-                                        cont_h * max(1080 / cont_w, hueco / cont_h))))
+            _esc = max(1080 / cont_w, hueco / cont_h)
+            perdida = round(100 * (1 - (1080 * hueco) / (cont_w * _esc * cont_h * _esc)))
+            if llena:
+                logger.info(f"Material {cont_w}x{cont_h}: va A SANGRE en el hueco "
+                            f"(1080x{hueco}), recortando el {perdida}% y encuadrando el "
+                            f"sujeto.")
+            else:
                 logger.info(f"Material {cont_w}x{cont_h}: recortarlo para llenar el hueco se "
                             f"comería el {perdida}% de la imagen, así que va ENTERO "
                             f"({ancho_foto}x{alto_foto}) y el resto queda del color del fondo.")
@@ -2412,7 +2445,7 @@ def frame_at(src, seconds, salida) -> Path:
 def duration_seconds(src) -> float:
     """Duración del video en segundos (parseando la salida de ffmpeg). 0 si no se puede."""
     ff = _ffmpeg()
-    r = subprocess.run([ff, "-i", str(src)], capture_output=True, text=True)
+    r = subprocess.run([ff, "-i", str(src)], capture_output=True, text=True, errors="replace")
     m = re.search(r"Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)", r.stderr or "")
     if not m:
         return 0.0
@@ -2769,7 +2802,7 @@ def build_slideshow(imagenes, salida, *, seg: float = 3.5, fade: float = 0.6, fp
 
     cmd = [ff, "-y", *inputs, "-filter_complex", ";".join(fc), "-map", f"[{last}]",
            "-r", str(fps), "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
-    r = subprocess.run(cmd, capture_output=True, text=True)
+    r = subprocess.run(cmd, capture_output=True, text=True, errors="replace")
     if r.returncode != 0:
         logger.error("ffmpeg falló:\n" + (r.stderr or "")[-1200:])
         raise RuntimeError("ffmpeg error al armar el reel")
