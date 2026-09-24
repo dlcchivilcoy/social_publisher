@@ -27,3 +27,10 @@ $$;
 drop trigger if exists tiktok_token_touch on public.tiktok_token;
 create trigger tiktok_token_touch before insert or update on public.tiktok_token
   for each row execute function public.tiktok_token_touch();
+
+-- Permisos EXPLÍCITOS para la Data API (PostgREST). Desde el 30/10/2026 Supabase deja de
+-- darlos solo a las tablas NUEVAS de `public` (las que ya existen los conservan): sin esto,
+-- rearmar el proyecto desde estas migraciones dejaría la tabla respondiendo «permission
+-- denied». Solo service_role, que es con la que la usan el bot, el publicador y la web; RLS
+-- está activo y sin políticas, así que anon y authenticated no tienen nada que hacer acá.
+grant select, insert, update, delete on table public.tiktok_token to service_role;

@@ -30,3 +30,11 @@ create table if not exists public.corresponsales_colaboradores (
 -- Igual dejamos RLS activado y sin policies públicas: nadie con la anon key puede leerlas.
 alter table public.corresponsales_sesiones      enable row level security;
 alter table public.corresponsales_colaboradores enable row level security;
+
+-- Permisos EXPLÍCITOS para la Data API (PostgREST). Desde el 30/10/2026 Supabase deja de
+-- darlos solo a las tablas NUEVAS de `public` (las que ya existen los conservan): sin esto,
+-- rearmar el proyecto desde estas migraciones dejaría la tabla respondiendo «permission
+-- denied». Solo service_role, que es con la que la usan el bot, el publicador y la web; RLS
+-- está activo y sin políticas, así que anon y authenticated no tienen nada que hacer acá.
+grant select, insert, update, delete on table public.corresponsales_sesiones to service_role;
+grant select, insert, update, delete on table public.corresponsales_colaboradores to service_role;
