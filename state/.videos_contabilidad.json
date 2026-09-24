@@ -15256,12 +15256,32 @@
     "zocalo": "",
     "draft_id": "65be3e72-4f67-41c4-a8b1-bc68c82bea14",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-muflx5kbhtwg-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-24T14:08:12.277Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-24T14:08:12.277Z — wa:5492346417636",
+    "tiktok_publish_id": "v_inbox_file~v2.7689105963709679624",
+    "tiktok_modo": "bandeja",
+    "fecha_publicado": "2026-09-24T11:18:44",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "en borradores",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18112173583844697",
+    "fb_video_id": "1629920428707283",
+    "yt_video_id": "eAX-l-7Xym0",
+    "yt_url": "https://www.youtube.com/shorts/eAX-l-7Xym0",
+    "yt_watch_url": "https://www.youtube.com/watch?v=eAX-l-7Xym0",
+    "yt_titulo": "Colonia de adultos mayores en el Club Gimnasia",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-24T11:18:44",
+    "yt_metrics": {}
   }
 ]
