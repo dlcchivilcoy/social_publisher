@@ -1,4 +1,5 @@
-"""A qué SECCIÓN de la web va cada nota (Locales, Deportes, Campo, Opinión, Nacionales).
+"""A qué SECCIÓN de la web va cada nota (Locales, Policiales, Deportes, Campo, Opinión,
+Nacionales).
 
 POR QUÉ EXISTE (2026-09-13)
 ---------------------------
@@ -44,8 +45,12 @@ DEPORTES = "deportes"
 CAMPO = "campo"
 OPINION = "opinion"
 NACIONALES = "nacionales"
+# Sumada el 2026-09-24 (pedido del usuario): «policiales Chivilcoy» es de las búsquedas
+# más comunes de la ciudad y no había una página que la respondiera — los hechos
+# policiales iban mezclados dentro de Locales.
+POLICIALES = "policiales"
 
-SLUGS = (LOCALES, DEPORTES, CAMPO, OPINION, NACIONALES)
+SLUGS = (LOCALES, POLICIALES, DEPORTES, CAMPO, OPINION, NACIONALES)
 
 # Valor especial: la nota va a la portada y a NINGUNA sección.
 SIN_SECCION = "inicio"
@@ -67,6 +72,7 @@ ENV_CATEGORIA = {
     CAMPO: "WIX_CAT_CAMPO",
     OPINION: "WIX_CAT_OPINION",
     NACIONALES: "WIX_CAT_NACIONALES",
+    POLICIALES: "WIX_CAT_POLICIALES",
 }
 ID_CATEGORIA = {
     LOCALES: "4558c237-6a14-4ed8-b17f-cd4fd84010f2",
@@ -74,12 +80,13 @@ ID_CATEGORIA = {
     CAMPO: "0b4eafce-3bb8-44df-96dd-43e53fa24a9c",
     OPINION: "08b921b7-df16-4926-a467-214c95f0e2e9",
     NACIONALES: "b646fede-00cb-4f10-aca5-56fdda96094a",
+    POLICIALES: "f673ced4-0912-4b90-a4e5-312a7c69bc4b",
 }
 ID_INICIO = "9bcc12a0-51c9-451c-8611-2b06153c9f58"
 
 ETIQUETA = {
     LOCALES: "Locales", DEPORTES: "Deportes", CAMPO: "Campo",
-    OPINION: "Opinión", NACIONALES: "Nacionales",
+    OPINION: "Opinión", NACIONALES: "Nacionales", POLICIALES: "Policiales",
 }
 
 
@@ -156,6 +163,56 @@ _NACIONAL_FUERTE = (
     "decreto nacional", "veto presidencial", "paro nacional", "suteba",
 )
 
+# Policiales: delitos, detenciones, Justicia penal, accidentes, personas buscadas.
+# Las palabras ambiguas van a APOYO, nunca a fuerte:
+#   · «choque» es también un PARTIDO («el choque ante Douglas Haig»);
+#   · «fiscal» es también fiscal de mesa y año fiscal; «penal» es también un tiro penal;
+#   · «operativo» es también un operativo de vacunación, y «seguridad» es seguridad vial
+#     en una charla en la escuela.
+# Y los verbos van en palabra ENTERA, no por prefijo: «detenid-» agarraba
+# «detenidamente» y «robo-» agarraba «robótica».
+_POLICIAL_FUERTE = (
+    "polici-", "comisari-", "subcomisari-", "detenido", "detenida", "detenidos",
+    "detenidas", "detuvieron", "aprehendid-", "aprehension", "arrestad-", "arresto",
+    "allanamiento-", "allanaron", "robo", "robos", "robaron", "robado", "robada",
+    "robados", "robadas", "hurto-", "asalto-", "asaltaron", "asaltante-", "ladron",
+    "ladrones", "motochorro-", "entradera-", "delincuente-", "malviviente-", "delito-",
+    "homicid-", "femicid-", "asesin-", "crimen", "estafa-", "estafador-", "narco-",
+    "estupefaciente-", "cocaina", "marihuana", "arma de fuego", "armas de fuego",
+    "arma blanca", "balazo-", "balacera", "baleado-", "apunal-", "cuchillazo-",
+    "secuestr-", "abuso sexual", "profugo-", "fiscalia", "ufi", "ufij",
+    "juzgado de garantias", "tribunal oral", "juicio oral", "imputad-", "condenad-",
+    "prision preventiva", "causa penal", "accidente de transito", "accidente vial",
+    "siniestro vial", "siniestros viales", "colision-", "atropell-", "despiste",
+    "paradero", "desaparecid-",
+    # El vuelco de un VEHÍCULO, nunca «volcó» a secas: «la gente se volcó en forma masiva
+    # a firmar» mandaba a Policiales una juntada de firmas.
+    "volco un", "volco una", "volco con", "volcaron", "vuelco de",
+)
+_POLICIAL_APOYO = (
+    "choque-", "chocaron", "herido-", "herida-", "lesion-", "incendio-", "denuncia-",
+    "victima-", "patrullero-", "operativo-", "alcoholemia", "fuga", "investigacion",
+    "violencia de genero", "prefectura", "gendarmeria", "seguridad",
+)
+# Si el TÍTULO dice esto, la nota habla de un programa, una campaña o una gestión, no de
+# un hecho: «“Yo Elijo Vivir”, un programa de prevención de siniestros viales», «pedido
+# para que más policías sean destinados al barrio», «Publicación pedida: …». Nombran lo
+# policial pero no son Policiales. Con esto la regla deja de estar SEGURA y decide la
+# IA (en vivo) o la nota se queda donde estaba (en la recategorización masiva).
+_POLICIAL_NO = (
+    "prevencion", "prevenir", "mesa de trabajo", "concientizacion", "campana-", "programa-", "charla-", "capacitacion",
+    "taller-", "jornada-", "concejo", "concejal-", "ordenanza-", "proyecto-",
+    "publicacion pedida", "presupuesto", "reunion-", "entrega", "entregaron",
+    "inaugur-", "homenaje", "aniversario", "reconocimiento-", "curso-",
+)
+
+# Si la VOLANTA dice esto, la nota es de Policiales sin mirar más.
+_POLICIAL_VOLANTA = (
+    "policial-", "seguridad", "judicial-", "tribunales", "accidente-", "siniestro-",
+    "choque", "robo", "robos", "incendio-", "delito-", "tragedia", "allanamiento-",
+    "violencia de genero", "inseguridad",
+)
+
 # Señales de que la nota es NUESTRA. Pesan más que lo nacional: una nota sobre el
 # intendente y una ley nacional sigue siendo Locales.
 _LOCAL_FUERTE = (
@@ -173,9 +230,13 @@ def _puntajes(texto: str) -> dict:
     campo = 3 * len(_hay(texto, _CAMPO_FUERTE))
     nac = 2 * len(_hay(texto, _NACIONAL_FUERTE))
     local = len(_hay(texto, _LOCAL_FUERTE))
+    pol = 3 * len(_hay(texto, _POLICIAL_FUERTE)) + len(_hay(texto, _POLICIAL_APOYO))
     # Lo nacional solo gana si la nota NO es claramente de acá.
     nac = max(0, nac - 2 * local)
-    return {DEPORTES: dep, CAMPO: campo, OPINION: 0, NACIONALES: nac, LOCALES: local}
+    # Lo policial NO se descuenta por ser local: casi todo hecho policial que publica el
+    # diario pasó en Chivilcoy, así que «es de acá» no dice nada en contra.
+    return {DEPORTES: dep, CAMPO: campo, OPINION: 0, NACIONALES: nac, LOCALES: local,
+            POLICIALES: pol}
 
 
 def _volanta(titulo: str) -> str:
@@ -206,6 +267,8 @@ def por_reglas(titulo: str, cuerpo: str = "") -> tuple:
             return OPINION, True, total
         if _hay(vol, _DEPORTES_FUERTE):
             return DEPORTES, True, total
+        if _hay(vol, _POLICIAL_VOLANTA):
+            return POLICIALES, True, total
 
     orden = sorted((s for s in SLUGS if s not in (LOCALES, OPINION)),
                    key=lambda s: total[s], reverse=True)
@@ -213,12 +276,20 @@ def por_reglas(titulo: str, cuerpo: str = "") -> tuple:
     gana, escolta = total[primera], total[segunda]
 
     if gana >= 6 and gana >= escolta * 2:
+        if primera == POLICIALES and _hay(t_tit, _POLICIAL_NO):
+            return POLICIALES, False, total  # nombra lo policial pero es una gestión
         return primera, True, total          # señal fuerte y sin competencia
     if gana == 0 and total[LOCALES] >= 3:
         return LOCALES, True, total          # habla de Chivilcoy y de nada más
     if gana == 0:
         return LOCALES, False, total         # sin señales: Locales, pero que mire la IA
-    return (primera if gana > escolta else LOCALES), False, total
+    ganador = primera if gana > escolta else LOCALES
+    # Policiales con SOLO palabras de apoyo no alcanza: «operativo de vacunación» o una
+    # charla de «seguridad» vial sumaban uno o dos puntos contra cero y se iban a
+    # Policiales cuando Gemini no contestaba. Hace falta al menos una señal fuerte.
+    if ganador == POLICIALES and gana < 3:
+        ganador = LOCALES
+    return ganador, False, total
 
 
 # ── IA (desempate) ──────────────────────────────────────────────────────────────
@@ -226,9 +297,14 @@ _CRITERIO = (
     "Sos el editor de secciones de Diario La Campaña, de Chivilcoy (Buenos Aires, "
     "Argentina). Asigná a cada nota UNA sola sección:\n"
     "- locales: la vida de Chivilcoy y su zona. Municipio, Concejo Deliberante, obras, "
-    "servicios, salud, educación, policiales y judiciales de acá, cultura, teatro, "
+    "servicios, salud, educación, cultura, teatro, "
     "música, libros y escritores, entidades, comercios, barrios y localidades del "
     "partido. Es la sección POR DEFECTO: ante cualquier duda, va acá.\n"
+    "- policiales: hechos policiales y judiciales. Delitos, robos, detenciones, "
+    "allanamientos, estafas, accidentes de tránsito, incendios, causas en la Justicia "
+    "penal, operativos policiales y personas buscadas. NO es policiales una charla de "
+    "prevención, una campaña de seguridad vial en escuelas ni un acto institucional sin "
+    "un hecho detrás: eso es locales.\n"
     "- deportes: cualquier disciplina deportiva, local o no, incluidos clubes, torneos, "
     "resultados y deportistas chivilcoyanos compitiendo afuera.\n"
     "- campo: actividad agropecuaria. Cultivos, cosecha, clima productivo, ganadería, "

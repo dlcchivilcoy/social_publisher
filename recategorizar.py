@@ -10,6 +10,14 @@ si vuelve a pasar o si se suma una sección nueva.
     python recategorizar.py --todas --dry      revisar también las que ya tienen una
     python recategorizar.py --desde 2026-06-01 acotar por fecha
     python recategorizar.py --limite 50        tocar como mucho 50
+    python recategorizar.py --todas --solo policiales --ledger .recategorizado_policiales.json
+                                               poblar una sección NUEVA sin tocar el resto
+
+Para una sección nueva hacen falta los dos agregados: `--solo`, para que la pasada
+por todo el archivo mueva únicamente lo que va a esa sección (sin `--solo`, `--todas`
+reabriría la clasificación de las 14 mil notas con las reglas de hoy), y un `--ledger`
+propio, porque el de siempre ya tiene anotadas las notas de la primera pasada y las
+saltearía aunque ahora correspondiera moverlas.
 
 Es reanudable: `.recategorizado.json` guarda lo hecho, así una corrida cortada sigue
 donde iba. Cambiar la categoría NO republica la nota: se verificó que
@@ -29,7 +37,7 @@ from utils import secciones as S
 
 logger = get_logger("recategorizar")
 
-LEDGER = Path(__file__).parent / ".recategorizado.json"
+LEDGER_DEFAULT = Path(__file__).parent / ".recategorizado.json"
 QUERY_URL = "https://www.wixapis.com/blog/v3/posts/query"
 DRAFTS_URL = "https://www.wixapis.com/blog/v3/draft-posts"
 LOTE_IA = 20          # cuántas notas se le preguntan a Gemini de una sola vez
@@ -122,9 +130,14 @@ def main() -> None:
     ap.add_argument("--limite", type=int, default=0, help="tope de notas a modificar")
     ap.add_argument("--max-notas", type=int, default=3000,
                     help="cuántas notas del archivo se revisan como mucho")
+    ap.add_argument("--solo", default="", choices=("",) + S.SLUGS,
+                    help="aplicar SOLO los cambios que mandan a esta sección")
+    ap.add_argument("--ledger", default="",
+                    help="archivo de notas ya hechas (default .recategorizado.json)")
     args = ap.parse_args()
 
     load_config()
+    LEDGER = Path(__file__).parent / args.ledger if args.ledger else LEDGER_DEFAULT
     hechas = set(json.loads(LEDGER.read_text(encoding="utf-8"))) if LEDGER.exists() else set()
 
     notas = _bajar_notas(args.desde, args.max_notas)
@@ -154,6 +167,8 @@ def main() -> None:
     if dudadas:
         logger.info(f"{dudadas} nota(s) con sección ya puesta se dejan como están "
                     f"(la decisión no fue firme).")
+    if args.solo:
+        cambios = [n for n in cambios if n["propuesta"] == args.solo]
     if args.limite:
         cambios = cambios[:args.limite]
 
