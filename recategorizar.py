@@ -10,14 +10,16 @@ si vuelve a pasar o si se suma una sección nueva.
     python recategorizar.py --todas --dry      revisar también las que ya tienen una
     python recategorizar.py --desde 2026-06-01 acotar por fecha
     python recategorizar.py --limite 50        tocar como mucho 50
-    python recategorizar.py --todas --solo policiales --ledger .recategorizado_policiales.json
+    python recategorizar.py --todas --de locales --solo policiales --ledger .recategorizado_policiales.json
                                                poblar una sección NUEVA sin tocar el resto
 
 Para una sección nueva hacen falta los dos agregados: `--solo`, para que la pasada
 por todo el archivo mueva únicamente lo que va a esa sección (sin `--solo`, `--todas`
 reabriría la clasificación de las 14 mil notas con las reglas de hoy), y un `--ledger`
 propio, porque el de siempre ya tiene anotadas las notas de la primera pasada y las
-saltearía aunque ahora correspondiera moverlas.
+saltearía aunque ahora correspondiera moverlas. Y `--de`, para sacar notas SOLO de la
+sección donde estaban mezcladas: una columna de Opinión sobre la inseguridad o un
+partido de Deportes con incidentes nombran lo policial y tienen que quedarse donde están.
 
 Es reanudable: `.recategorizado.json` guarda lo hecho, así una corrida cortada sigue
 donde iba. Cambiar la categoría NO republica la nota: se verificó que
@@ -132,6 +134,8 @@ def main() -> None:
                     help="cuántas notas del archivo se revisan como mucho")
     ap.add_argument("--solo", default="", choices=("",) + S.SLUGS,
                     help="aplicar SOLO los cambios que mandan a esta sección")
+    ap.add_argument("--de", default="", choices=("",) + S.SLUGS,
+                    help="mover SOLO notas que hoy están en esta sección")
     ap.add_argument("--ledger", default="",
                     help="archivo de notas ya hechas (default .recategorizado.json)")
     args = ap.parse_args()
@@ -149,6 +153,8 @@ def main() -> None:
             continue
         actual = _seccion_de(n["cats"])
         if actual and not args.todas:
+            continue
+        if args.de and actual != args.de:
             continue
         n["actual"] = actual or S.SIN_SECCION
         candidatas.append(n)
