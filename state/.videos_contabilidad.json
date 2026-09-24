@@ -15395,12 +15395,30 @@
     "zocalo": "",
     "draft_id": "cbc40c0e-09cd-41ab-b356-21c0798a2867",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mug5tvbg3cls-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-24T23:25:31.081Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-24T23:25:31.081Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-24T20:34:21",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (4 borradores sin publicar)",
+      "wix": "omitido"
+    },
+    "ig_media_id": "18092914364159816",
+    "fb_video_id": "2129038421302180",
+    "yt_video_id": "NsOyaT8tx3o",
+    "yt_url": "https://www.youtube.com/shorts/NsOyaT8tx3o",
+    "yt_watch_url": "https://www.youtube.com/watch?v=NsOyaT8tx3o",
+    "yt_titulo": "Newcoy Chivilcoy realiza entrenamientos previos a competencias locales y regionales",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-24T20:34:21",
+    "yt_metrics": {}
   }
 ]
