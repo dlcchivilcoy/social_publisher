@@ -15572,12 +15572,30 @@
     "zocalo": "Néstor Dabi, secretario de Seguridad",
     "draft_id": "b869d699-2270-4c31-aa3a-e165ce5bf984",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-muhkvu1af1jd-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-25T23:14:43.962Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-25T23:14:43.962Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-25T20:21:05",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/persecucion-y-tiroteo-persecucion-tiroteo-y-un-aprehendido-tras",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (5 borradores sin publicar)",
+      "wix": "ok"
+    },
+    "ig_media_id": "17998694705812510",
+    "fb_video_id": "1779461819988554",
+    "yt_video_id": "iBne6QqfK2g",
+    "yt_url": "https://www.youtube.com/shorts/iBne6QqfK2g",
+    "yt_watch_url": "https://www.youtube.com/watch?v=iBne6QqfK2g",
+    "yt_titulo": "Persecución, tiroteo y un aprehendido tras intentar embestir a la policía en la Ruta 30",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-25T20:21:05",
+    "yt_metrics": {}
   }
 ]
