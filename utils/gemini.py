@@ -862,24 +862,45 @@ def _umbral_texto() -> int:
         return 60
 
 
-def _texto_manda(extra_text: str) -> bool:
-    """True si el texto del colaborador alcanza para ser la FUENTE PRINCIPAL de la nota."""
+# Con `escrito_base` (videos del diario, corresponsales y radio, pedido del usuario
+# 2026-09-26: «que la nota web también use lo escrito como base») alcanza con que haya escrito
+# algo de verdad: una oración. Menos que esto es solo el lugar del hecho o un rótulo, y ahí
+# sigue mandando el audio. Configurable con ESCRITO_BASE_MIN_PALABRAS.
+ESCRITO_BASE_MIN_PALABRAS = 8
+
+
+def _texto_manda(extra_text: str, escrito_base: bool = False) -> bool:
+    """True si el texto del colaborador es la FUENTE PRINCIPAL de la nota.
+
+    `escrito_base=True` lo piden los videos del diario, de corresponsales y de la radio: lo
+    escrito es la base desde `ESCRITO_BASE_MIN_PALABRAS` palabras y la desgrabación queda de
+    contexto. Sin eso (el desgrabador de YouTube, que en ese lugar le pasa instrucciones y no
+    un texto del colaborador) sigue el umbral de siempre."""
     if str(get("TEXTO_PRIORITARIO", "1")).strip().lower() in ("0", "no", "false", "off"):
         return False
+    if escrito_base:
+        try:
+            minimo = max(1, int(get("ESCRITO_BASE_MIN_PALABRAS") or ESCRITO_BASE_MIN_PALABRAS))
+        except ValueError:
+            minimo = ESCRITO_BASE_MIN_PALABRAS
+        return _palabras_utiles(extra_text) >= minimo
     return _palabras_utiles(extra_text) >= _umbral_texto()
 
 
 # Redacción con el TEXTO del colaborador como fuente principal (el audio complementa).
 _REDACTAR_PROMPT_TEXTO = (
     "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy (Argentina). Un "
-    "colaborador mandó un TEXTO ya redactado con la información del hecho y, además, un video del que "
-    "te paso la TRANSCRIPCIÓN. Armá UNA noticia en español rioplatense (es-AR), estilo periodístico, "
-    "tercera persona.\n"
+    "colaborador mandó por ESCRITO la información del hecho (puede ser un texto completo o unas pocas "
+    "líneas) y, además, un video del que te paso la TRANSCRIPCIÓN. Armá UNA noticia en español "
+    "rioplatense (es-AR), estilo periodístico, tercera persona.\n"
     "JERARQUÍA DE FUENTES (regla principal):\n"
-    "• El TEXTO DEL COLABORADOR es la FUENTE PRINCIPAL: es información de primera mano y ya viene "
-    "redactada. La nota se apoya en ÉL: respetá sus datos, su enfoque y TODA su información.\n"
-    "• La TRANSCRIPCIÓN del audio es COMPLEMENTARIA: usala para ENRIQUECER la nota (declaraciones "
-    "textuales, precisiones, detalles, color) SOLO cuando aporte algo que el texto no dice.\n"
+    "• El TEXTO DEL COLABORADOR es la BASE de la nota: es información de primera mano. La nota se "
+    "ORGANIZA alrededor de él —el hecho, el enfoque, los datos y el título salen de ahí—: respetá "
+    "TODA su información.\n"
+    "• La TRANSCRIPCIÓN del audio es CONTEXTO y COMPLEMENTO: usala para entender y ubicar lo "
+    "escrito y para ENRIQUECER la nota (precisiones, detalles, declaraciones claras) SOLO cuando "
+    "aporte algo que el texto no dice. Si el texto es breve, el audio puede desarrollarlo, pero "
+    "siempre al servicio de lo que el texto cuenta.\n"
     "• Si el texto y el audio se CONTRADICEN, MANDA EL TEXTO del colaborador.\n"
     "• Si el audio no agrega nada nuevo, la nota puede salir prácticamente solo con el texto: NO "
     "rellenes ni estires con material del audio que no suma.\n"
@@ -1102,7 +1123,8 @@ def _transcribir_groq(media_local_path, prompt_hint: str = ""):
 
 
 def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
-                    key_pool=None, instrucciones: str = "", media_local_path=None) -> dict:
+                    key_pool=None, instrucciones: str = "", media_local_path=None,
+                    escrito_base: bool = False) -> dict:
     """Desgraba en 3 pasos (transcribir → redactar anclado → verificar), todo a temperatura 0.
     `media_part` es la parte de Gemini con el video/audio (subido o file_uri); `img_parts` son las
     fotos de contexto ya convertidas a partes. `media_local_path`: ruta local del medio (si la hay);
@@ -1143,24 +1165,27 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
             transcripcion = g_txt
 
     return _redactar_y_verificar(transcripcion, extra_text, key, model, key_pool,
-                                 instrucciones, momento, segmentos)
+                                 instrucciones, momento, segmentos, escrito_base=escrito_base)
 
 
 def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: str,
-                          key_pool, instrucciones: str, momento: float, segmentos: list) -> dict:
+                          key_pool, instrucciones: str, momento: float, segmentos: list,
+                          escrito_base: bool = False) -> dict:
     """Pasos 2 y 3 (redactar anclado + verificar), SOLO con texto: no necesita el video.
 
     Está aparte para que lo use tanto el flujo clásico (Gemini mira el video) como el
     AUDIO-FIRST (Groq transcribe el audio y el video NUNCA se sube a Gemini)."""
     # Paso 2 — redacción anclada. Si el colaborador mandó un texto COMPLETO, ese texto es la fuente
     # PRINCIPAL y la transcripción COMPLEMENTA; si el texto es flaco (o no hay), manda la transcripción.
-    texto_manda = _texto_manda(extra_text)
+    texto_manda = _texto_manda(extra_text, escrito_base)
     r_prompt = _REDACTAR_PROMPT_TEXTO if texto_manda else _REDACTAR_PROMPT
     if (instrucciones or "").strip():
         r_prompt += "\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip()
     if texto_manda:
         logger.info(f"  Paso 2/3: TEXTO del colaborador como fuente PRINCIPAL "
-                    f"({_palabras_utiles(extra_text)} palabras ≥ {_umbral_texto()}); el audio complementa.")
+                    f"({_palabras_utiles(extra_text)} palabras"
+                    + (", lo escrito es la base" if escrito_base else f" ≥ {_umbral_texto()}")
+                    + "); el audio es contexto.")
         r_prompt += ("\n\nTEXTO DEL COLABORADOR (FUENTE PRINCIPAL):\n" + extra_text.strip() +
                      "\n\nTRANSCRIPCIÓN DEL AUDIO (fuente COMPLEMENTARIA):\n" + transcripcion)
     else:
@@ -1212,7 +1237,7 @@ def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: 
 
 def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
                   key_pool=None, legacy_temp: float = 0.4, instrucciones: str = "",
-                  media_local_path=None) -> dict:
+                  media_local_path=None, escrito_base: bool = False) -> dict:
     """Genera la nota a partir de la parte de medio ya construida. Usa el flujo en 3 pasos
     (default) y, ante un error que NO es de cuota, cae al tiro ÚNICO legacy (PROMPT_BASE) para no
     quedar nunca peor que antes. El error de cuota se re-lanza para que el llamador rote de clave.
@@ -1220,7 +1245,8 @@ def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, 
     if _multipaso_on():
         try:
             return _nota_multipaso(media_part, img_parts, extra_text, key, model, key_pool,
-                                   instrucciones, media_local_path=media_local_path)
+                                   instrucciones, media_local_path=media_local_path,
+                                   escrito_base=escrito_base)
         except Exception as e:  # noqa: BLE001
             if _es_cuota(e):
                 raise
@@ -1229,7 +1255,7 @@ def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, 
     if (instrucciones or "").strip():
         prompt += "\nINSTRUCCIÓN ADICIONAL DE REDACCIÓN (respetala):\n" + instrucciones.strip()
     if (extra_text or "").strip():
-        if _texto_manda(extra_text):
+        if _texto_manda(extra_text, escrito_base):
             # Texto completo del colaborador → es la FUENTE PRINCIPAL; el video complementa.
             prompt += ("\nTEXTO DEL COLABORADOR — ES LA FUENTE PRINCIPAL de la nota: respetá SU "
                        "información, sus datos y su enfoque. El audio/video COMPLEMENTA (detalles, "
@@ -1378,7 +1404,8 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
 
 
 def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
-                       api_key: str = "", model: str = "", key_pool=None) -> dict:
+                       api_key: str = "", model: str = "", key_pool=None,
+                       escrito_base: bool = False) -> dict:
     """Desgraba un VIDEO (o audio) + contexto opcional y devuelve la nota.
 
     extra_text: texto que aportó el colaborador (archivo de la carpeta).
@@ -1391,6 +1418,8 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
     radio pasa `gemini-flash-latest`: los proyectos NUEVOS de Google (como el de radiodelcentro)
     reciben 404 «no longer available to new users» con el pineado gemini-2.5-flash, pero el alias
     gemini-flash-latest sí funciona.
+    escrito_base: lo que escribió quien mandó el video es la BASE de la nota y la desgrabación,
+    el contexto (pedido del usuario 2026-09-26; ver `_texto_manda`).
     """
     media_path = Path(media_path)
     key = (api_key or "").strip() or _clave_por_defecto()
@@ -1415,7 +1444,8 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
         logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                     f"{len(image_paths or [])} foto(s))…")
         nota = _generar_nota(media_part, img_parts, extra_text or "", key, model,
-                             key_pool=key_pool, legacy_temp=0.4, media_local_path=media_path)
+                             key_pool=key_pool, legacy_temp=0.4, media_local_path=media_path,
+                             escrito_base=escrito_base)
         logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                     f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
         return nota
@@ -1437,7 +1467,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
                         f"Gemini solo redacta; la portada la elige el sistema.")
             nota = _redactar_y_verificar(g_txt, extra_text or "", key, model,
                                          key_pool or _gemini_keys(key), instrucciones="",
-                                         momento=0.0, segmentos=[])
+                                         momento=0.0, segmentos=[], escrito_base=escrito_base)
             logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — "
                         f"{nota['titulo']}»")
             return nota
@@ -1466,7 +1496,8 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
             logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                         f"{len(image_paths or [])} foto(s))…")
             nota = _generar_nota(media_part, img_parts, extra_text or "", k, model,
-                                 key_pool=[k], legacy_temp=0.4, media_local_path=media_path)
+                                 key_pool=[k], legacy_temp=0.4, media_local_path=media_path,
+                                 escrito_base=escrito_base)
             logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — "
                         f"{nota['titulo']}» | mejor_seg={nota['mejor_momento_seg']:.0f}")
             return nota

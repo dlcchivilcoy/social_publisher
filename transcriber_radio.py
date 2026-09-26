@@ -133,12 +133,14 @@ def _desgrabar_rotando(video: Path, extra_text: str, imgs) -> dict:
     pool = _gemini_pool()
     model = _gemini_model()
     if not pool:  # sin ninguna clave configurada: que falle con el mensaje claro de gemini.py
-        return transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs, model=model)
+        return transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs, model=model,
+                                  escrito_base=True)
     ultimo = None
     for i, k in enumerate(pool):
         try:
             return transcribe_to_nota(video, extra_text=extra_text, image_paths=imgs,
-                                      api_key=k, model=model, key_pool=[k])
+                                      api_key=k, model=model, key_pool=[k],
+                                      escrito_base=True)
         except Exception as e:  # noqa: BLE001
             ultimo = e
             if _es_error_cuota(e) and i < len(pool) - 1:

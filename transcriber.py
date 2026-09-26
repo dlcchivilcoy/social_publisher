@@ -558,7 +558,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # la corrida: avisamos por mail que no se pudo esta vez y salimos limpio (exit 0). El
     # video NO se marca como procesado → se puede reintentar (re-subiéndolo o a mano).
     try:
-        nota = transcribe_to_nota(video_media, extra_text=extra_text, image_paths=imgs)
+        # Lo que ESCRIBIÓ quien mandó el video es la base de la nota; la desgrabación, el
+        # contexto (pedido del usuario 2026-09-26).
+        nota = transcribe_to_nota(video_media, extra_text=extra_text, image_paths=imgs,
+                                  escrito_base=True)
     except Exception as e:
         logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
         if not dry_run:
