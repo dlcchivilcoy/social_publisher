@@ -717,6 +717,9 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
             "texto": texto, "zocalo": nota.get("zocalo", ""), "draft_id": draft_id,
             "reel_url": reel_url, "estado": estado, "sin_web": corr_sin_web,
+            # Lo que ESCRIBIÓ quien mandó el video: es la base de la descripción del posteo
+            # (ver `_descripcion_redes`); la desgrabación queda solo como contexto.
+            "escrito": extra_text,
         })
         if ctx:
             fila.update({
@@ -1294,10 +1297,31 @@ def _hashtag(palabra: str) -> str:
                          for p in limpio.split())
 
 
-def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
+def _descripcion_redes(fila: dict, titulo: str, texto: str, max_chars: int) -> str:
+    """Descripción del posteo de un VIDEO desgrabado (pedido del usuario 2026-09-26): la base
+    es lo que ESCRIBIÓ quien lo mandó (`fila["escrito"]`) y la desgrabación —el cuerpo de la
+    nota— queda solo como contexto, sin citas textuales del audio (`gemini.descripcion_redes`).
+
+    "" cuando no corresponde —no hay nota, o es un corresponsal sin audio, donde el texto YA es
+    lo que escribió el vecino— o si Gemini no pudo: ahí quien llama usa lo de siempre."""
+    if not fila.get("hay_noticia", True) or fila.get("sin_web"):
+        return ""
+    try:
+        from utils import gemini
+        return gemini.descripcion_redes(titulo, fila.get("escrito", ""), texto,
+                                        lugar=fila.get("corresponsal_lugar", ""),
+                                        max_chars=max_chars)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la descripción del video ({e}); va la de siempre.")
+        return ""
+
+
+def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str,
+                  bajada: str = "") -> dict:
     """Arma título + descripción (formato periodístico, SEO local) + tags + hashtags del
     Short, REUTILIZANDO la lógica SEO de Gemini (`seo_youtube`). Si Gemini falla, cae a un
-    armado determinístico con los datos de la nota. Nunca tira excepción."""
+    armado determinístico con los datos de la nota. Nunca tira excepción.
+    `bajada`, si viene, es el cuerpo de la descripción (`_descripcion_redes`) en vez del SEO."""
     site = _site()
     seo = {}
     try:
@@ -1319,7 +1343,7 @@ def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
     linea_hashtags = _linea_hashtags(topicos)  # 3 fijos + temáticos, máx 5
 
     # Descripción periodística: bajada EN PÁRRAFOS + link BIEN ESCRITO + CTA + máx 5 hashtags.
-    bajada = (seo.get("descripcion") or resumen or titulo).strip()
+    bajada = (bajada or seo.get("descripcion") or resumen or titulo).strip()
     descripcion = _descripcion_social(bajada, topicos, suscripcion=True)
 
     # Tags de YouTube (campo Tags): los de Gemini + locales, sin '#', deduplicados.
@@ -1339,13 +1363,16 @@ def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
     }
 
 
-def _meta_corresponsal(volanta: str, titulo: str, resumen: str, texto: str) -> dict:
+def _meta_corresponsal(volanta: str, titulo: str, resumen: str, texto: str,
+                       cuerpo: str = "") -> dict:
     """Como `_youtube_meta` pero SIN reescribir el cuerpo: la descripción es el TEXTO del vecino (ya
     corregido, MISMO contenido y largo) + CTA + hashtags, y el título es el que quedó (fiel), no el
     SEO. Respeta el pedido de NO editar/acortar/extender la info del corresponsal (2026-08-09).
     Reusa `_youtube_meta` solo para los hashtags/tags (metadata, no editan la info)."""
     m = _youtube_meta(volanta, titulo, resumen, texto)
-    cuerpo = (texto or resumen or titulo).strip()
+    # `cuerpo` (si viene) es la descripción armada sobre lo que ESCRIBIÓ el vecino, con el audio
+    # solo como contexto (2026-09-26). Sin él, el texto de siempre.
+    cuerpo = (cuerpo or texto or resumen or titulo).strip()
     m["titulo"] = (titulo or m.get("titulo") or "")[:100]
     # Mismo formato que el resto: párrafos + link BIEN ESCRITO + máx 5 hashtags. El CUERPO no se
     # reescribe (es el texto del vecino ya corregido): solo se le separan los párrafos.
@@ -1460,15 +1487,21 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # hashtags; en IG/FB recortado a los primeros 5 hashtags, en YouTube el texto completo. Los
     # videos del diario (no corresponsal) sí usan la bajada SEO. Nunca tira excepción.
     es_corr = "corresponsal" in (fila.get("origen", "") or "").lower()
+    # La descripción parte de lo que ESCRIBIÓ quien mandó el video; la desgrabación es solo
+    # contexto y no se copian frases del audio (pedido 2026-09-26). Corresponsal: el texto
+    # completo, como siempre; video del diario: una bajada corta, como siempre.
+    desc = _descripcion_redes(fila, titulo, texto, 1200 if es_corr else 450) if hay else ""
     if hay and es_corr:
-        meta = _meta_corresponsal(volanta, titulo, resumen, texto)
+        meta = _meta_corresponsal(volanta, titulo, resumen, texto, cuerpo=desc)
     elif hay and _yt_enabled():
-        meta = _youtube_meta(volanta, titulo, resumen, texto)
+        meta = _youtube_meta(volanta, titulo, resumen, texto, bajada=desc)
     else:
         meta = {}
     yt_desc = meta.get("descripcion", "")
     if hay and es_corr:
         caption = yt_desc  # IG/FB parten de la descripción SEO (sin firma)
+    elif hay and desc:
+        caption = _caption(titulo, desc)
     # IG/FB: nada de texto tras los primeros 5 hashtags (en YouTube va la descripción completa).
     caption = _solo_5_hashtags(caption)
     # Y si aun así se pasa de lo que entra en Instagram, se resume (no se corta al medio).

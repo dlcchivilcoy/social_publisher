@@ -224,6 +224,9 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": hay, "volanta": volanta, "titulo": titulo, "resumen": resumen,
         "texto": texto, "zocalo": nota.get("zocalo", ""), "reel_url": reel_url, "estado": estado,
+        # Lo que ESCRIBIÓ quien mandó el video: base de la descripción (ver
+        # `tr._descripcion_redes`); la desgrabación queda solo como contexto.
+        "escrito": extra_text,
     })
     if ctx:
         fila.update({"origen": ctx.get("origen", ""),
@@ -353,10 +356,14 @@ def run_publish_video_radio(file: str = "", dry_run: bool = False) -> None:
     volanta = fila.get("volanta", "")
     titulo = fila.get("titulo", "")
     resumen = fila.get("resumen", "")
-    caption = tr._caption(titulo, resumen) if hay else ""
+    # La descripción parte de lo que ESCRIBIÓ quien mandó el video; la desgrabación es solo
+    # contexto, sin citas textuales del audio (pedido 2026-09-26). Si no se pudo, la de siempre.
+    desc = tr._descripcion_redes(fila, titulo, fila.get("texto", ""), 450) if hay else ""
+    caption = tr._caption(titulo, desc or resumen) if hay else ""
 
     if dry_run:
-        meta = tr._youtube_meta(volanta, titulo, resumen, fila.get("texto", "")) if hay else {}
+        meta = tr._youtube_meta(volanta, titulo, resumen, fila.get("texto", ""),
+                                bajada=desc) if hay else {}
         logger.info(f"[dry-run] hay={hay}. Publicaría reel={reel_url}\nCaption FB/IG:\n{caption or '(sin texto)'}\n"
                     f"YouTube Short: {'(omitido)' if not (hay and _yt_enabled()) else meta.get('titulo')}")
         return
@@ -396,7 +403,8 @@ def run_publish_video_radio(file: str = "", dry_run: bool = False) -> None:
     yt_info = {}
     if hay and _yt_enabled() and local_reel:
         try:
-            meta = tr._youtube_meta(volanta, titulo, resumen, fila.get("texto", ""))
+            meta = tr._youtube_meta(volanta, titulo, resumen, fila.get("texto", ""),
+                                    bajada=desc)
             privacy = (get("YT_SHORTS_PRIVACY") or "public").strip()
             yt_info = tr._retry(
                 lambda: youtube_api.upload_short(

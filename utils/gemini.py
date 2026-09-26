@@ -239,7 +239,7 @@ PROMPT_BASE = (
     "desarrollá; si es breve, priorizá FIDELIDAD antes que extensión, sin rellenar ni "
     "repetir. Vacío si false.\n"
     "- resumen: resumen breve para redes (máximo 280 caracteres) que diga quién habla, qué "
-    "sostiene y por qué importa. Vacío si false.\n"
+    "sostiene y por qué importa. SIN citas textuales ni frases entre comillas de lo que se dice en el video: contalo con tus palabras (va como descripción y bajada del reel). Vacío si false.\n"
     "- zocalo: el texto del ZÓCALO del reel (la placa de abajo, como en la tele). MÁXIMO 5 "
     "PALABRAS, sin punto final, sin comillas. PRIORIDAD: si hay una persona identificada por su "
     "nombre (quien habla, el entrevistado o el protagonista nombrado del hecho), poné su NOMBRE Y "
@@ -317,6 +317,8 @@ SEO_PROMPT = (
     "Puede ser una pregunta fuerte o una afirmación que invite a hacer clic. Sin hashtags, sin punto "
     "final. Distinta del título (no lo repitas).\n"
     "- descripcion: 2 a 4 frases con las palabras clave naturales (qué se ve y por qué importa). "
+    "SIN citas textuales ni frases entre comillas de lo que se dice en el video: contalo con tus "
+    "palabras. "
     "NO escribas la dirección de la web ni links ni hashtags: el sistema los agrega solo al final "
     "(si los escribís vos, el dominio sale mal escrito). "
     "FORMATO (importante para que se lea fácil): escribí CADA oración o idea como un PÁRRAFO "
@@ -763,7 +765,7 @@ _REDACTAR_PROMPT = (
     "la manda el material: si es breve, priorizá FIDELIDAD antes que extensión, sin rellenar ni "
     "repetir. Vacío si false.\n"
     "- resumen: resumen para redes (máx 280 caracteres): quién habla, qué sostiene y por qué "
-    "importa. Vacío si false.\n"
+    "importa. SIN citas textuales ni frases entre comillas de lo que se dice en el video: contalo con tus palabras (va como descripción y bajada del reel). Vacío si false.\n"
     "- zocalo: texto del zócalo del reel, MÁXIMO 5 PALABRAS, sin punto ni comillas. PRIORIZÁ "
     "SIEMPRE el NOMBRE Y APELLIDO de la persona central (quien habla, el entrevistado o el "
     "protagonista nombrado del hecho), con el cargo solo si entra en las 5 palabras («Juan Pérez, "
@@ -895,7 +897,8 @@ _REDACTAR_PROMPT_TEXTO = (
     "- texto: cuerpo en párrafos separados por línea en blanco (\\n\\n). ORDENALO POR TEMAS, no "
     "minuto a minuto. La extensión la manda el material: si es breve, priorizá FIDELIDAD antes que "
     "extensión, sin rellenar ni repetir. Vacío si false.\n"
-    "- resumen: resumen para redes (máx 280 caracteres): qué pasó y por qué importa. Vacío si false.\n"
+    "- resumen: resumen para redes (máx 280 caracteres): qué pasó y por qué importa. "
+    "SIN citas textuales ni frases entre comillas de lo que se dice en el video: contalo con tus palabras (va como descripción y bajada del reel). Vacío si false.\n"
     "- zocalo: texto del zócalo del reel, MÁXIMO 5 PALABRAS, sin punto ni comillas. PRIORIZÁ "
     "SIEMPRE el NOMBRE Y APELLIDO de la persona central (quien habla, el entrevistado o el "
     "protagonista nombrado del hecho), con el cargo solo si entra en las 5 palabras («Juan Pérez, "
@@ -1563,6 +1566,8 @@ _RESUMEN_SEO_PROMPT = (
     "• PROHIBIDO: hashtags, links, «click acá», clickbait, signos de admiración de más, MAYÚSCULAS "
     "sostenidas, y CUALQUIER dato que no esté en el texto (no inventes cifras, nombres ni causas).\n"
     "• No repitas el título palabra por palabra: complementalo con lo más jugoso del cuerpo.\n"
+    "• PROHIBIDO copiar declaraciones textuales o frases entre comillas del texto: contá lo que "
+    "se dijo con tus palabras (pedido del diario 2026-09-26).\n"
     "Devolvé SOLO el texto de la bajada, sin comillas ni etiquetas."
 )
 
@@ -1613,6 +1618,121 @@ def resumen_seo(titulo: str, texto: str, max_chars: int = 300, lugar: str = "",
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude generar el resumen SEO ({e}); corto el texto prolijo.")
     return _cortar_prolijo(base, max_chars)
+
+
+# ── Descripción del posteo de un VIDEO (pedido del usuario 2026-09-26) ──────────────────────
+# «No usar la desgrabación para poner citas textuales en la descripción: usarla para darle
+# contexto a la info escrita que envía el usuario.» Antes, en los videos de corresponsales, la
+# descripción era el cuerpo entero de la nota, que sale sobre todo del AUDIO: llevaba frases
+# entre comillas (a veces mal desgrabadas) y no lo que el vecino escribió.
+_DESCRIPCION_REDES_PROMPT = (
+    "Sos el community manager del «Diario La Campaña» / «Radio del Centro» de Chivilcoy "
+    "(Argentina). Escribí la DESCRIPCIÓN que acompaña a un VIDEO en Instagram, Facebook y "
+    "YouTube.\n"
+    "FUENTES Y JERARQUÍA (regla principal):\n"
+    "• INFORMACIÓN ESCRITA: lo que escribió quien mandó el video. Es la BASE de la descripción: "
+    "respetá sus datos, su enfoque y su información. Podés corregir redacción y ortografía, pero "
+    "no le cambies el sentido ni le saques datos.\n"
+    "• CONTEXTO DEL VIDEO: lo que se dice en el video, ya pasado a nota. Usalo SOLO para entender "
+    "y ubicar la información escrita —quién habla, dónde, en qué marco, de qué se trata— y para "
+    "completar ese marco si lo escrito no alcanza para entender el hecho. Todo lo que tomes de acá "
+    "va CONTADO CON TUS PALABRAS.\n"
+    "• Si no hay información escrita, la base es el contexto del video, igual contado con tus "
+    "palabras.\n"
+    "PROHIBIDO:\n"
+    "• Copiar frases textuales de lo que se dice en el video: nada de declaraciones entre "
+    "comillas, ni «dijo: …», ni pedazos de lo hablado. Si hace falta mencionar lo que alguien "
+    "planteó, resumilo en una línea con tus palabras (ej.: «El director explicó cómo sigue la "
+    "obra»).\n"
+    "• Inventar: ningún dato, nombre, cifra, cargo o lugar que no esté en alguna de las dos "
+    "fuentes. Nombres propios y siglas: con la grafía de la INFORMACIÓN ESCRITA.\n"
+    "• Hashtags, links e invitaciones a la web o al canal: el sistema los agrega al final.\n"
+    "FORMA: español rioplatense, tono informativo y sobrio, tercera persona. MÁXIMO {MAX} "
+    "caracteres. Lo más importante en la primera oración (qué pasó, dónde, quién). Párrafos "
+    "cortos separados por un renglón en blanco.\n"
+    "Devolvé SOLO el texto de la descripción, sin comillas alrededor ni etiquetas."
+)
+
+# Etiquetas que el bot le agrega al texto del colaborador antes de pasárselo a Gemini.
+_ETIQUETAS_ESCRITO = ("lugar del hecho:", "descripción aportada por el colaborador:",
+                      "descripcion aportada por el colaborador:")
+
+
+def _escrito_limpio(escrito: str) -> str:
+    """El texto del colaborador sin las etiquetas del bot («Lugar del hecho:», …)."""
+    out = []
+    for linea in (escrito or "").splitlines():
+        limpia = linea.strip()
+        bajo = limpia.lower()
+        for etiqueta in _ETIQUETAS_ESCRITO:
+            if bajo.startswith(etiqueta):
+                limpia = limpia[len(etiqueta):].strip()
+                break
+        if limpia:
+            out.append(limpia)
+    return "\n".join(out)
+
+
+def _citas(texto: str) -> list:
+    """Las frases entre comillas de un texto («…», “…” o "…") de 4 palabras o más."""
+    import re as _re
+    halladas = _re.findall(r"«([^»]{8,})»|“([^”]{8,})”|\"([^\"]{8,})\"", texto or "")
+    return [next(g for g in grupo if g) for grupo in halladas
+            if len(next(g for g in grupo if g).split()) >= 4]
+
+
+def descripcion_redes(titulo: str, escrito: str, contexto: str, lugar: str = "",
+                      max_chars: int = 1200, api_key: str = "", model: str = "") -> str:
+    """Descripción del posteo de un VIDEO: la BASE es lo que escribió quien lo mandó
+    (`escrito`) y lo que se dice en el video (`contexto`, la nota desgrabada) sirve SOLO de
+    contexto, contado con otras palabras: NUNCA citas textuales del audio (pedido del usuario
+    2026-09-26).
+
+    Se controla a mano: si la respuesta trae una frase entre comillas que NO está en lo escrito
+    (o sea, sacada del audio), se pide de nuevo una vez avisándolo. Si Gemini falla, devuelve lo
+    escrito tal cual (sin etiquetas), o "" si no había nada escrito: quien llama usa entonces lo
+    de siempre."""
+    base_escrita = _escrito_limpio(escrito)
+    contexto = (contexto or "").strip()
+    if not (base_escrita or contexto):
+        return ""
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        prompt = _DESCRIPCION_REDES_PROMPT.replace("{MAX}", str(int(max_chars)))
+        prompt += (f"\n\nTÍTULO DE LA NOTA: {(titulo or '').strip()}"
+                   + (f"\nLUGAR: {lugar.strip()}" if (lugar or "").strip() else "")
+                   + "\n\nINFORMACIÓN ESCRITA (base):\n" + (base_escrita or "(no mandó nada escrito)")
+                   + "\n\nCONTEXTO DEL VIDEO (solo para entender; NO copiar frases):\n"
+                   + (contexto or "(sin contexto)"))
+        salida = ""
+        for intento in range(2):
+            r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}],
+                                  "generationConfig": {"temperature": 0.3}},
+                          key, timeout=120, key_pool=_gemini_keys(key))
+            out = ""
+            for part in (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", []):
+                out += part.get("text", "")
+            out = out.strip().strip('"').strip()
+            if len(out) > max_chars:
+                out = _cortar_prolijo(out, max_chars)
+            escrito_norm = " ".join(base_escrita.split()).lower()
+            del_audio = [c for c in _citas(out)
+                         if " ".join(c.split()).lower() not in escrito_norm]
+            salida = out
+            if not del_audio:
+                break
+            logger.info(f"La descripción trajo {len(del_audio)} cita(s) del audio; la pido de nuevo.")
+            prompt += ("\n\nATENCIÓN: la versión anterior copiaba frases del video entre comillas ("
+                       + " / ".join(c[:60] for c in del_audio[:3]) + "). Reescribila SIN ninguna "
+                       "cita: contá eso con tus palabras.")
+        if salida:
+            logger.info(f"Descripción del video: {len(salida)} chars, base "
+                        f"{'lo escrito por el colaborador' if base_escrita else 'el contexto del video'}.")
+            return salida
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la descripción del video ({e}).")
+    return base_escrita
 
 
 _TITULAR_PROMPT = (
