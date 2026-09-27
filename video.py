@@ -169,6 +169,36 @@ PLACA_VERTICAL_GAP_MARCA = 42     # aire mínimo entre la marca y la volanta en 
 PLACA_AFICHE_TOPE = 260           # un afiche que no llena el alto arranca debajo de la marca
 PLACA_AFICHE_SOMBRA = 0.40        # opacidad del sombreado de arriba (arriba de todo)
 PLACA_AFICHE_SOMBRA_ALTO = 380    # hasta dónde baja ese sombreado
+
+# ── Vertical a PANTALLA COMPLETA (pedido del usuario 2026-09-27) ──────────────
+# «Que los videos/imágenes/afiches verticales en 9:16 salgan completos: anular la parte de
+# arriba con fondo gris grafito porque me corta margen del video, y dejar solo logo, redes,
+# isologo, volanta y título, sin tapar el video». Con la franja de arriba, un 9:16 perdía un
+# cuarto de su alto para caber en los 3/4 de abajo. Ahora lo que es más angosto que
+# `PLACA_PANTALLA_AR` (9:16, 2:3) va ENTERO a todo el cuadro, y encima:
+#   · la marca y el isologo arriba, con el sombreado mínimo del afiche y un halo en la letra;
+#   · la volanta y el titular en CAJAS (la idea de la referencia que mandó), en el tercio de
+#     abajo —donde no suele haber caras— y por encima de lo que tapan las apps. Si justo ahí
+#     hay una cara, suben debajo de la marca (`plan_placa`, `caras`).
+# Los de 3:4 y 4:5 siguen con la franja de arriba: caben en los 3/4 de abajo casi sin recorte.
+PLACA_PANTALLA_AR = 0.72
+# Si para llenar el cuadro hay que recortar a lo sumo esto, se llena; si no, va entero con
+# humo a los costados (un material MÁS alto que 9:16, raro) o arriba (un 2:3).
+PLACA_PANTALLA_TOLERANCIA = 0.07
+# Estilo del texto encima del material (`REEL_PLACA_CAJAS`): «grafito» (caja carbón
+# traslúcida con la letra blanca), «blanca» (caja blanca con la letra carbón, como la
+# referencia) o «sombra» (sin cajas: la letra de siempre con un sombreado suave detrás). En
+# las dos primeras la volanta va en una caja naranja con la letra blanca.
+PLACA_CAJAS = "grafito"
+PLACA_CAJA_PISO = 380          # del pie del cuadro al pie de la caja del titular
+PLACA_CAJA_MX = 80             # borde izquierdo de las cajas (el texto sigue en PLACA_MX)
+PLACA_CAJA_DER = 1080 - SEGURO_DERECHA   # las cajas no entran en la columna de botones
+PLACA_CAJA_TITULAR_TAM = 84
+PLACA_CAJA_TITULAR_MIN = 44    # en DOS renglones; recién debajo de esto pasa a tres
+PLACA_CAJA_TITULAR_MIN3 = 38
+PLACA_CAJA_SALTO = 1.10
+PLACA_CAJA_VOLANTA_TAM = 40
+PLACA_CAJA_OPACIDAD = 0.86     # la caja grafito deja ver apenas el video de atrás
 # Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
 # entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
 # aunque el apellido caiga al renglón siguiente.
@@ -204,6 +234,7 @@ LOGO_MY = 113
 NARANJA = (247, 127, 0, 255)  # el naranja de la marca
 BLANCO = (255, 255, 255, 255)
 GRIS = (236, 236, 240, 255)   # la marca, apenas apagada
+GRAFITO = (24, 23, 28, 255)   # el carbón del fondo (`PLACA_FONDO`)
 
 
 def _cfg(clave: str, default: str) -> str:
@@ -1272,11 +1303,15 @@ def _cortar_en_dos_puntos(titular: str, lineas: list, fuente: str, cuerpo: int, 
 
 
 def forma_de(w: int, h: int, grafica: bool = False) -> str:
-    """«vertical», «horizontal» o «afiche» (ver `PLACA_VERTICAL_AR`). Un afiche apaisado se
-    trata como horizontal: va entero, con sombra, y la bajada debajo."""
-    vertical = w > 0 and h > 0 and (w / h) <= PLACA_VERTICAL_AR
+    """«pantalla», «vertical», «horizontal» o «afiche» (ver `PLACA_VERTICAL_AR` y
+    `PLACA_PANTALLA_AR`). Un afiche apaisado se trata como horizontal: va entero, con sombra,
+    y la bajada debajo. Un afiche vertical va siempre entero, sea 9:16 o 4:5."""
+    ar = (w / h) if (w > 0 and h > 0) else 99.0
+    vertical = ar <= PLACA_VERTICAL_AR
     if vertical and grafica:
         return "afiche"
+    if vertical and ar < _num("REEL_PLACA_PANTALLA_AR", PLACA_PANTALLA_AR):
+        return "pantalla"
     return "vertical" if vertical else "horizontal"
 
 
@@ -1493,8 +1528,118 @@ def _bajada_abajo(resumen: str, desde: int, hasta: int, f: dict) -> tuple:
     return [], []
 
 
+def _estilo_cajas() -> str:
+    """Ver `PLACA_CAJAS`."""
+    e = _cfg("REEL_PLACA_CAJAS", PLACA_CAJAS).strip().lower()
+    return e if e in ("grafito", "blanca", "sombra") else PLACA_CAJAS
+
+
+def _texto_encima(volanta: str, titular: str, f: dict, desde: int | None = None) -> dict:
+    """Volanta + titular ENCIMA de un material a pantalla completa, en cajas (ver
+    `PLACA_CAJAS`): la volanta en UN renglón y el titular en DOS (tres solo si no entra).
+
+    Sin `desde`, el bloque se APOYA abajo: el pie de la caja del titular queda a
+    `PLACA_CAJA_PISO` del borde, arriba del texto del posteo y los botones de las apps. Con
+    `desde`, CUELGA de esa altura (arriba, debajo de la marca: se usa cuando abajo hay una
+    cara). Devuelve `cajas`, `bloques`, `halo` (lo que va con sombra en la letra), `banda`
+    (dónde va el sombreado del estilo «sombra»), `rect` (lo que ocupa todo), y el texto:
+    `titulo` (renglones) y `volanta`."""
+    estilo = _estilo_cajas()
+    pad_x = PLACA_MX - PLACA_CAJA_MX
+    ancho = PLACA_CAJA_DER - pad_x - PLACA_MX
+    tope = int(_num("REEL_PLACA_CAJA_TITULAR_TAM", PLACA_CAJA_TITULAR_TAM))
+    tit = (0, [])
+    for maximo, minimo in ((2, PLACA_CAJA_TITULAR_MIN), (3, PLACA_CAJA_TITULAR_MIN3)):
+        tit = _titulo_en(titular, f, ancho, maximo, tope, minimo, mayor=True)
+        if not titular or (tit[1] and not tit[1][-1].endswith("…")):
+            break
+    c, lineas = tit
+    vtope = (min(PLACA_CAJA_VOLANTA_TAM, max(PLACA_VOLANTA_MIN, round(c * 0.66)))
+             if c else PLACA_CAJA_VOLANTA_TAM)
+    v, vtxt = _volanta_renglon(volanta, f["f_r"], ancho, vtope, f["p_v"])
+
+    # Altos: el mismo aire arriba de las mayúsculas que debajo de la línea base, que es lo
+    # que el ojo lee como «centrado» (la cola de la «g» cae dentro de ese aire).
+    alto_t = alto_v = 0
+    if lineas:
+        asc_t, may_t = _metricas(f["f_t"], c, f["p_t"])
+        salto = round(c * PLACA_CAJA_SALTO)
+        pad_t = round(c * 0.40)
+        alto_t = 2 * pad_t + may_t + (len(lineas) - 1) * salto
+    if vtxt:
+        asc_v, may_v = _metricas(f["f_r"], v, f["p_v"])
+        pad_v = round(v * 0.46)
+        alto_v = 2 * pad_v + may_v
+    if desde is None:
+        y_t = 1920 - int(_num("REEL_PLACA_CAJA_PISO", PLACA_CAJA_PISO)) - alto_t
+        y_v = y_t - alto_v
+    else:
+        y_v = desde
+        y_t = y_v + alto_v
+
+    caja_t = GRAFITO[:3] + (round(255 * _num("REEL_PLACA_CAJA_OPACIDAD",
+                                               PLACA_CAJA_OPACIDAD)),)
+    color_t, color_v = BLANCO, BLANCO
+    if estilo == "blanca":
+        caja_t, color_t = (255, 255, 255, 255), GRAFITO
+    elif estilo == "sombra":
+        color_v = NARANJA
+    cajas, bloques = [], []
+    x1_max = PLACA_CAJA_MX
+    if vtxt:
+        bl = y_v + pad_v + may_v
+        bloques.append((vtxt, v, bl - asc_v, f["f_r"], f["p_v"], color_v, False))
+        x1 = PLACA_MX + _ancho_texto(vtxt, f["f_r"], v, f["p_v"]) + pad_x
+        x1_max = max(x1_max, x1)
+        if estilo != "sombra":
+            cajas.append((PLACA_CAJA_MX, y_v, x1, y_v + alto_v, NARANJA))
+    if lineas:
+        largo = max(_ancho_texto(l, f["f_t"], c, f["p_t"]) for l in lineas)
+        x1 = PLACA_MX + largo + pad_x
+        x1_max = max(x1_max, x1)
+        for i, l in enumerate(lineas):
+            bl = y_t + pad_t + may_t + i * salto
+            bloques.append((l, c, bl - asc_t, f["f_t"], f["p_t"], color_t, False))
+        if estilo != "sombra":
+            cajas.append((PLACA_CAJA_MX, y_t, x1, y_t + alto_t, caja_t))
+    rect = (PLACA_CAJA_MX, y_v if vtxt else y_t, x1_max, y_t + alto_t)
+    return dict(cajas=cajas, bloques=bloques, rect=rect, titulo=lineas, volanta=vtxt,
+                halo=list(bloques) if estilo == "sombra" else [],
+                banda=(rect[1], rect[3]) if (estilo == "sombra" and bloques) else None)
+
+
+def _caras_en_cuadro(caras, w: int, h: int, media: tuple, cover: bool) -> list:
+    """Las `caras` (x, y, ancho, alto en píxeles del material) llevadas al cuadro del reel,
+    con la CABEZA entera (la caja del detector es la cara pelada: se le suma frente, pelo y
+    un poco de cuello, como en `_ventana_caras`)."""
+    if not caras:
+        return []
+    x, y, wm, hm = media
+    if cover:
+        nw, nh, cx, cy = _ventana_caras(caras, w, h, wm, hm, arriba_primero=True)
+        esc, dx, dy = nw / max(1, w), x - cx, y - cy
+    else:
+        esc, dx, dy = wm / max(1, w), x, y
+    out = []
+    for fx, fy, fw, fh in caras:
+        fx, fy, fw, fh = fx * esc + dx, fy * esc + dy, fw * esc, fh * esc
+        out.append((fx - fw * 0.15, fy - fh * 0.7, fx + fw * 1.15, fy + fh * 1.3))
+    return out
+
+
+def _cuanto_tapa(rect: tuple, cabezas: list) -> float:
+    """Qué fracción de la cabeza más tapada queda debajo de `rect`."""
+    peor = 0.0
+    for c in cabezas:
+        ix = max(0.0, min(rect[2], c[2]) - max(rect[0], c[0]))
+        iy = max(0.0, min(rect[3], c[3]) - max(rect[1], c[1]))
+        area = max(1.0, (c[2] - c[0]) * (c[3] - c[1]))
+        peor = max(peor, ix * iy / area)
+    return peor
+
+
 def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
-               grafica: bool = False, modo_texto: str = "") -> dict:
+               grafica: bool = False, modo_texto: str = "", caras=None) -> dict:
     """TODO lo que va en un cuadro del reel estilo placa, según la FORMA del material
     (pedido del usuario 2026-09-26; ver `PLACA_VERTICAL_AR`):
 
@@ -1503,14 +1648,20 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
       · «horizontal»: marca + volanta + titular (hasta 3 renglones) arriba, la imagen entera a
         todo el ancho y la BAJADA debajo de ella;
       · «afiche» (gráfica vertical): el afiche ocupa todo el cuadro y encima van solo la marca
-        (y el isologo, que pega ffmpeg) con un sombreado mínimo.
+        (y el isologo, que pega ffmpeg) con un sombreado mínimo;
+      · «pantalla» (9:16, 2:3; 2026-09-27): el material ENTERO a todo el cuadro, sin franja de
+        arriba, y la volanta y el titular encima, en cajas (`_texto_encima`), abajo. Si ahí
+        hay una de las `caras` (x, y, ancho, alto en píxeles del material) y arriba no, el
+        bloque sube debajo de la marca.
 
     `modo_texto` fuerza el bloque de arriba: en un reel de VARIAS fotos, si alguna es
-    vertical, todas usan el bloque vertical para que el texto no salte entre foto y foto.
+    vertical, todas usan el bloque vertical para que el texto no salte entre foto y foto (una
+    «pantalla» va entonces entera, más angosta, en los 3/4 de abajo).
 
     Devuelve un dict con `forma`, `bloques` (todo el texto), `bajada` (sus renglones),
     `media=(x, y, ancho, alto)` (dónde va la imagen), `cover` (si hay que recortarla para
-    llenar), `fundido=(arriba, abajo)`, `sombra_arriba` y `grafica`."""
+    llenar), `fundido=(arriba, abajo)`, `sombra_arriba` y `grafica`; en «pantalla», además,
+    `cajas`, `halo`, `banda`, `titulo`, `volanta` y `texto` (el rectángulo que ocupa)."""
     f = _fuentes_placa()
     forma = forma_de(w, h, grafica)
     modo = modo_texto or forma
@@ -1529,9 +1680,24 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
         plan.update(media=((1080 - aw) // 2, y, aw, ah), sombra_arriba=True)
         return plan
 
+    if forma == "pantalla" and modo != "vertical":
+        return _plan_pantalla(plan, volanta, titular, f, fin_marca, w, h, caras)
+
     techo = 1920 - round(1920 * PLACA_VERTICAL_MEDIA)
     if modo == "vertical":
         arriba, tinta = _arriba_vertical(volanta, titular, f, fin_marca, techo)
+
+    if forma == "pantalla":
+        # En un reel de varias fotos con alguna 3:4: el texto va arriba como en las demás, y
+        # esta va ENTERA en los 3/4 de abajo, más angosta, con humo a los costados.
+        plan["bloques"] += arriba
+        y = max(techo, tinta + PLACA_AIRE_IMG)
+        alto = 1920 - y
+        aw = min(1080, round(w * alto / h))
+        aw -= aw % 2
+        plan.update(media=((1080 - aw) // 2, y, aw, alto),
+                    fundido=(int(_num("REEL_PLACA_VERTICAL_FUNDIDO", PLACA_VERTICAL_FUNDIDO)), 0))
+        return plan
 
     if forma == "vertical":
         plan["bloques"] += arriba
@@ -1590,6 +1756,46 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
     return plan
 
 
+def _plan_pantalla(plan: dict, volanta: str, titular: str, f: dict, fin_marca: int,
+                   w: int, h: int, caras) -> dict:
+    """La forma «pantalla» de `plan_placa` (pedido del usuario 2026-09-27): ver
+    `PLACA_PANTALLA_AR`."""
+    tol = _num("REEL_PLACA_PANTALLA_TOLERANCIA", PLACA_PANTALLA_TOLERANCIA)
+    alto_natural = 1080 * h / w
+    if alto_natural >= 1920 * (1 - tol) and alto_natural <= 1920 * (1 + tol):
+        # 9:16 o casi: llena el cuadro; lo poco que sobra se va por los costados o por abajo.
+        media, cover = (0, 0, 1080, 1920), abs(alto_natural - 1920) > 2
+    elif alto_natural > 1920:
+        # Más alto que 9:16: entero, tocando arriba y abajo, con humo a los costados.
+        aw = round(w * 1920 / h)
+        aw -= aw % 2
+        media, cover = ((1080 - aw) // 2, 0, aw, 1920), False
+    else:
+        # Un 2:3: entero a todo el ancho, apoyado abajo. Arriba queda humo con la marca.
+        am = round(alto_natural)
+        am -= am % 2
+        media, cover = (0, 1920 - am, 1080, am), False
+    fundido = (int(_num("REEL_PLACA_VERTICAL_FUNDIDO", PLACA_VERTICAL_FUNDIDO))
+               if media[1] > 0 else 0, 0)
+    texto = _texto_encima(volanta, titular, f)
+    cabezas = _caras_en_cuadro(caras, w, h, media, cover)
+    if cabezas and _cuanto_tapa(texto["rect"], cabezas) > 0.15:
+        # Abajo tapa una cara: se prueba colgado debajo de la marca (y del isologo).
+        caja_logo = _logo_caja()
+        desde = max(fin_marca + 56, (caja_logo[3] + 24) if caja_logo else 0)
+        arriba = _texto_encima(volanta, titular, f, desde=desde)
+        if _cuanto_tapa(arriba["rect"], cabezas) < _cuanto_tapa(texto["rect"], cabezas):
+            logger.info("El titular abajo tapaba una cara: va arriba, debajo de la marca.")
+            texto = arriba
+    marca = list(plan["bloques"])            # hasta acá, solo los renglones de marca
+    plan["bloques"] = marca + texto["bloques"]
+    plan.update(media=media, cover=cover, fundido=fundido, sombra_arriba=True,
+                cajas=texto["cajas"], halo=marca + texto["halo"],
+                banda=texto["banda"], titulo=texto["titulo"], volanta=texto["volanta"],
+                texto=texto["rect"])
+    return plan
+
+
 def placa_layout(volanta: str, titular: str, resumen: str, w: int = 1920, h: int = 1080,
                  **kw) -> dict:
     """Compatibilidad: el texto de la placa para un material de `w`x`h` (ver `plan_placa`).
@@ -1610,9 +1816,7 @@ def placa_png(plan: dict, salida) -> Path | None:
     try:
         from PIL import Image, ImageDraw
         lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
-        if plan.get("sombra_arriba"):
-            sombrear_arriba(lienzo)
-        dibujar_bloques(ImageDraw.Draw(lienzo), plan["bloques"])
+        pintar_placa(lienzo, plan)
         salida = Path(salida)
         salida.parent.mkdir(parents=True, exist_ok=True)
         lienzo.save(salida, "PNG")
@@ -1622,6 +1826,71 @@ def placa_png(plan: dict, salida) -> Path | None:
     logger.info(f"Placa del reel ({plan['forma']}): {len(plan['bloques'])} renglón/es · la "
                 f"imagen va en {plan['media']}")
     return salida
+
+
+def pintar_placa(lienzo, plan: dict) -> None:
+    """Pinta sobre `lienzo` (RGB o RGBA) todo lo de un `plan_placa` que va encima de la
+    imagen: los sombreados, el halo de la letra, las cajas y el texto, en ese orden."""
+    from PIL import Image, ImageDraw
+    if plan.get("sombra_arriba"):
+        sombrear_arriba(lienzo)
+    if plan.get("banda"):
+        _sombrear_banda(lienzo, *plan["banda"])
+    if plan.get("halo"):
+        _halo(lienzo, plan["halo"])
+    if plan.get("cajas"):
+        capa = Image.new("RGBA", lienzo.size, (0, 0, 0, 0))
+        dib = ImageDraw.Draw(capa)
+        for x0, y0, x1, y1, color in plan["cajas"]:
+            dib.rectangle((x0, y0, x1 - 1, y1 - 1), fill=tuple(color))
+        _componer(lienzo, capa)
+    dibujar_bloques(ImageDraw.Draw(lienzo), plan["bloques"])
+
+
+def _componer(lienzo, capa) -> None:
+    """Pega una capa RGBA sobre un lienzo RGB o RGBA respetando su transparencia."""
+    if lienzo.mode == "RGBA":
+        lienzo.alpha_composite(capa)
+    else:
+        lienzo.paste(capa.convert("RGB"), (0, 0), capa.getchannel("A"))
+
+
+def _halo(lienzo, bloques, fuerza: float = 0.75) -> None:
+    """Una sombra difusa pegada a la letra: lo que hace que el texto sin caja se lea encima
+    de un cielo o una pared blanca sin oscurecer la imagen entera (pedido 2026-09-27: «un
+    leve sombreado para que contraste si el fondo es muy claro»). El difuminado sigue al
+    cuerpo de cada renglón, así la marca chica no queda con una mancha de titular."""
+    from PIL import Image, ImageChops, ImageDraw, ImageFilter
+    alfa = Image.new("L", lienzo.size, 0)
+    for cuerpo in sorted({b[1] for b in bloques}):
+        capa = Image.new("RGBA", lienzo.size, (0, 0, 0, 0))
+        dibujar_bloques(ImageDraw.Draw(capa), [b[:5] + ((0, 0, 0, 255),) + b[6:]
+                                               for b in bloques if b[1] == cuerpo])
+        a = capa.getchannel("A").filter(ImageFilter.GaussianBlur(max(3, round(cuerpo * 0.16))))
+        alfa = ImageChops.lighter(alfa, a)
+    alfa = alfa.point(lambda p: min(255, round(p * 2.2 * fuerza)))
+    negro = Image.new("RGBA", lienzo.size, (0, 0, 0, 255))
+    negro.putalpha(alfa)
+    _componer(lienzo, negro)
+
+
+def _sombrear_banda(lienzo, y0: int, y1: int, tope: float = 0.55, borde: int = 170) -> None:
+    """Sombreado suave detrás del bloque de texto del estilo «sombra»: negro que llega a
+    `tope` entre `y0` e `y1` y se desvanece `borde` px para arriba y para abajo."""
+    from PIL import Image
+    col = []
+    for y in range(lienzo.height):
+        if y < y0:
+            k = _curva_suave(1 - (y0 - y) / borde)
+        elif y > y1:
+            k = _curva_suave(1 - (y - y1) / borde)
+        else:
+            k = 1.0
+        col.append(round(255 * tope * k))
+    alfa = Image.frombytes("L", (1, lienzo.height), bytes(col)).resize(lienzo.size, Image.NEAREST)
+    negro = Image.new("RGBA", lienzo.size, (0, 0, 0, 255))
+    negro.putalpha(alfa)
+    _componer(lienzo, negro)
 
 
 def sombrear_arriba(lienzo) -> None:
@@ -2282,14 +2551,24 @@ def _ventana_caras(caras, cont_w: int, cont_h: int, W: int, H: int, *,
 
 
 def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: Path,
-                        *, alto: int = 1920, fundido: int = 0, arriba_primero: bool = False):
+                        *, alto: int = 1920, fundido: int = 0, arriba_primero: bool = False,
+                        caras=None):
     """Devuelve (nw, nh, x, y): a cuánto escalar el VIDEO para LLENAR 1080x`alto` y desde
     dónde recortarlo, ENCUADRADO EN EL SUJETO.
 
-    Busca caras en 3 fotogramas (reusa el detector de las placas) y se queda con el
-    fotograma más representativo (el de mayor superficie de caras); el recorte lo decide
-    `_ventana_caras`. Ante cualquier error: recorte centrado."""
+    Las caras salen de `_caras_de_video` (o vienen ya buscadas en `caras`); el recorte lo
+    decide `_ventana_caras`."""
     W, H = 1080, alto          # `alto` < 1920 cuando el reel lleva el texto arriba
+    if caras is None:
+        caras = _caras_de_video(src, recorte, work_dir)
+    return _ventana_caras(caras, cont_w, cont_h, W, H, fundido=fundido,
+                          arriba_primero=arriba_primero)
+
+
+def _caras_de_video(src: Path, recorte, work_dir: Path) -> list:
+    """Busca caras en 3 fotogramas (reusa el detector de las placas) y se queda con el
+    fotograma más representativo (el de mayor superficie de caras). En píxeles del contenido
+    real (sin las barras negras de `recorte`). Ante cualquier error, ninguna."""
     mejor: list = []
     try:
         from PIL import Image
@@ -2315,12 +2594,11 @@ def _encuadre_fullbleed(src: Path, cont_w: int, cont_h: int, recorte, work_dir: 
                 except Exception:
                     pass
         if not mejor:
-            logger.info("Encuadre full bleed: sin caras (paisaje/objeto) → recorte centrado.")
+            logger.info("Encuadre: sin caras (paisaje/objeto).")
     except Exception as e:  # noqa: BLE001
-        logger.warning(f"No pude calcular el encuadre del sujeto ({e}); recorte centrado.")
+        logger.warning(f"No pude buscar las caras del video ({e}).")
         mejor = []
-    return _ventana_caras(mejor, cont_w, cont_h, W, H, fundido=fundido,
-                          arriba_primero=arriba_primero)
+    return mejor
 
 
 def _calidad() -> list:
@@ -2650,7 +2928,8 @@ def autochequeo() -> bool:
     ]
     # Cada maqueta se prueba en las formas que decide `plan_placa` (2026-09-26).
     FORMAS = (("horizontal 16:9", 1920, 1080, False), ("horizontal 4:3", 1600, 1200, False),
-              ("vertical 9:16", 1080, 1920, False), ("afiche 4:5", 1080, 1350, True))
+              ("vertical 3:4", 960, 1280, False), ("pantalla 9:16", 1080, 1920, False),
+              ("pantalla 2:3", 1080, 1620, False), ("afiche 4:5", 1080, 1350, True))
     for nombre, vol, tit, res in MAQUETAS:
         for etiqueta, w, h, graf in FORMAS:
             fallas = []
@@ -2675,13 +2954,28 @@ def autochequeo() -> bool:
                 if caja_logo and not (r[2] <= caja_logo[0] or r[0] >= caja_logo[2]
                                       or r[3] <= caja_logo[1] or r[1] >= caja_logo[3]):
                     fallas.append(f"«{texto[:22]}» SE SUPERPONE CON EL ISOLOGO")
-                if forma != "afiche" and color != GRIS and y_media <= r[1] < y_media + hm:
+                if (forma not in ("afiche", "pantalla") and color != GRIS
+                        and y_media <= r[1] < y_media + hm):
                     if not (plan["bajada"] and texto in plan["bajada"]):
                         fallas.append(f"«{texto[:22]}» cae encima de la imagen")
             blancos = [b[0] for b in plan["bloques"] if b[5] == BLANCO]
             naranjas = [b[0] for b in plan["bloques"] if b[5] == NARANJA]
             titulo = [t for t in blancos if t not in plan["bajada"]]
             bajada = plan["bajada"]
+            if forma == "pantalla":
+                # Encima del material el color depende del estilo de caja: se cuenta lo que
+                # dice el plan.
+                titulo = list(plan["titulo"])
+                naranjas = [plan["volanta"]] if plan["volanta"] else []
+                blancos = titulo
+                cx0, cy0, cx1, cy1 = plan["texto"]
+                if cx1 > PLACA_CAJA_DER:
+                    fallas.append(f"las cajas entran en la columna de botones (x={cx1})")
+                if cy1 > 1920 - BANDA_SEGURO:
+                    fallas.append(f"las cajas entran en la franja de abajo (y={cy1})")
+                if caja_logo and not (cx1 <= caja_logo[0] or cx0 >= caja_logo[2]
+                                      or cy1 <= caja_logo[1] or cy0 >= caja_logo[3]):
+                    fallas.append("las cajas SE SUPERPONEN CON EL ISOLOGO")
             if vol and len(naranjas) != 1 and forma != "afiche":
                 fallas.append(f"la volanta va en {len(naranjas)} renglones (tiene que ser 1)")
             if any(t.endswith("…") for t in titulo):
@@ -2693,6 +2987,14 @@ def autochequeo() -> bool:
                     fallas.append("la bajada no entró debajo de la imagen")
                 if bajada and bajada[-1][-1] not in ".!?»":
                     fallas.append(f"la bajada queda cortada: «…{bajada[-1][-24:]}»")
+            elif forma == "pantalla":
+                if bajada:
+                    fallas.append("un reel a pantalla completa no lleva bajada")
+                if len(titulo) > 3:
+                    fallas.append(f"el titular va en {len(titulo)} renglones")
+                if plan["cover"] or wm != 1080 or hm != round(1080 * h / w) // 2 * 2:
+                    fallas.append(f"el material no va entero ({wm}x{hm}, "
+                                  f"{'recortado' if plan['cover'] else 'sin recortar'})")
             elif forma == "vertical":
                 if bajada:
                     fallas.append("un reel vertical no lleva bajada")
@@ -2725,11 +3027,19 @@ def autochequeo() -> bool:
             # El mismo video pero "grabado con el celular de costado".
             subprocess.run([exe, "-y", "-display_rotation", "90", "-i", str(base),
                             "-c", "copy", str(giro)], capture_output=True, check=True)
+            # Y uno vertical de celular: va a pantalla completa con el texto en cajas.
+            vert = tmp / "vert.mp4"
+            subprocess.run([exe, "-y", "-f", "lavfi", "-i",
+                            "testsrc=size=1080x1920:rate=25:duration=3",
+                            "-f", "lavfi", "-i", "sine=frequency=440:duration=3",
+                            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac",
+                            str(vert)], capture_output=True, check=True)
         except Exception as e:                                   # noqa: BLE001
             print(f"  ROTO: no pude armar el video de prueba: {e}")
             return False
 
-        for etiqueta, fuente in (("video derecho", base), ("video de celular girado", giro)):
+        for etiqueta, fuente in (("video derecho", base), ("video de celular girado", giro),
+                                 ("video vertical 9:16", vert)):
             salida = tmp / f"reel_{etiqueta.split()[1]}.mp4"
             try:
                 to_vertical_reel(fuente, salida,
@@ -2937,8 +3247,14 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # SOLO para fotos: un afiche llega como imagen, nunca como video, y un video nocturno
     # muy comprimido tiene manchones planos que lo harían pasar por gráfica sin serlo.
     grafica = _es_grafica(src, salida.parent) if (_bandas_on() and es_foto) else False
+    caras = None
     if _bandas_on() and (titular or resumen or volanta):
-        plan = plan_placa(volanta, titular, resumen, cont_w, cont_h, grafica=grafica)
+        # A pantalla completa el titular va ENCIMA del video: se buscan las caras antes, para
+        # no taparlas (y el encuadre las reusa).
+        if forma_de(cont_w, cont_h, grafica) == "pantalla":
+            caras = _caras_de_video(src, recorte, salida.parent)
+        plan = plan_placa(volanta, titular, resumen, cont_w, cont_h, grafica=grafica,
+                          caras=caras)
         png = placa_png(plan, salida.parent / f"placa_{salida.stem}.png")
         if png:
             _x, y_media, ancho_foto, alto_foto = plan["media"]
@@ -2963,7 +3279,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         # sujetos y lo que sobra se saca de ABAJO, así no se cortan cabezas.
         encuadre = _encuadre_fullbleed(src, cont_w, cont_h, recorte, salida.parent,
                                        alto=placa[3], fundido=plan["fundido"][0],
-                                       arriba_primero=True)
+                                       arriba_primero=True, caras=caras)
     elif placa:
         encuadre = None                     # entera, sin recortar nada
     elif _fullbleed_aplica(cont_w, cont_h):
@@ -3080,7 +3396,8 @@ def _mirar_foto(foto, work_dir: Path, clave: str) -> tuple:
     return img, grafica
 
 
-def _placa_de_foto(img, plan: dict, fondo, salida: Path, nombre: str = "") -> Path:
+def _placa_de_foto(img, plan: dict, fondo, salida: Path, nombre: str = "",
+                   caras=None) -> Path:
     """UNA foto compuesta como un cuadro ENTERO del reel estilo placa, según su `plan`
     (`plan_placa`): el fondo de humo, la foto donde y como dice el plan, y el texto.
 
@@ -3098,11 +3415,8 @@ def _placa_de_foto(img, plan: dict, fondo, salida: Path, nombre: str = "") -> Pa
     lienzo = fondo.copy()
     arriba, abajo = plan["fundido"]
     if plan["cover"]:
-        try:
-            from story_image import _caras_principales, _detect_faces
-            caras = _caras_principales(_detect_faces(img))
-        except Exception:                                        # noqa: BLE001
-            caras = []
+        if caras is None:
+            caras = _caras_de_foto(img)
         nw, nh, cx, cy = _ventana_caras(caras, w, h, wm, hm, fundido=arriba,
                                         arriba_primero=True)
         media = img.resize((nw, nh), Image.LANCZOS).crop((cx, cy, cx + wm, cy + hm))
@@ -3120,14 +3434,21 @@ def _placa_de_foto(img, plan: dict, fondo, salida: Path, nombre: str = "") -> Pa
         lienzo.paste(media, (x, y), mascara_fundido(wm, hm, arriba=arriba, abajo=abajo))
     else:
         lienzo.paste(media, (x, y))
-    if plan.get("sombra_arriba"):
-        sombrear_arriba(lienzo)
-    dibujar_bloques(ImageDraw.Draw(lienzo), plan["bloques"])
+    pintar_placa(lienzo, plan)
     logger.info(f"Foto {nombre} ({w}x{h}) → «{plan['forma']}»: {wm}x{hm} desde y={y}"
                 + (" (recortada desde abajo)" if plan["cover"] else ""))
     salida = Path(salida)
     lienzo.save(salida, quality=93)
     return salida
+
+
+def _caras_de_foto(img) -> list:
+    """Las caras del primer plano de una foto (ver `story_image._caras_principales`)."""
+    try:
+        from story_image import _caras_principales, _detect_faces
+        return _caras_principales(_detect_faces(img))
+    except Exception:                                            # noqa: BLE001
+        return []
 
 
 def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
@@ -3152,15 +3473,21 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
     if not miradas:
         raise RuntimeError("ninguna foto se pudo abrir")
     formas = [forma_de(img.width, img.height, g) for _f, img, g in miradas]
-    modo = "vertical" if "vertical" in formas else ""
+    # Una «pantalla» lleva el texto abajo y encima; si convive con fotos que lo llevan arriba,
+    # todas van con el bloque de arriba (el texto no puede saltar de un lugar a otro).
+    modo = ("vertical" if ("vertical" in formas or
+                           ("pantalla" in formas and "horizontal" in formas)) else "")
     placas = []
     for i, (f, img, grafica) in enumerate(miradas):
         try:
+            forma = formas[i]
+            # Las que se recortan o llevan texto encima buscan caras acá, una sola vez.
+            caras = _caras_de_foto(img) if forma in ("pantalla", "vertical") else None
             plan = plan_placa(volanta, titular, resumen, img.width, img.height,
-                              grafica=grafica, modo_texto=modo)
+                              grafica=grafica, modo_texto=modo, caras=caras)
             placas.append(_placa_de_foto(img, plan, fondo,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
-                                         Path(f).name))
+                                         Path(f).name, caras=caras))
         except Exception as e:                                   # noqa: BLE001
             logger.warning(f"No pude componer la foto {Path(f).name} ({e}); la salteo.")
     if not placas:
