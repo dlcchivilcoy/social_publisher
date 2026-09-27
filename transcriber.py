@@ -1607,6 +1607,9 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     else:
         logger.info("Sin desgrabación: la nota web queda SUSPENDIDA, sale solo el reel (sin texto).")
 
+    # 5) Historias de IG y FB con el mismo reel (al final: no demoran la nota web).
+    _publicar_historias(reel_url, local_reel, plats, estado_canales, fila)
+
     # Registro: estado + datos del Short (URL, ID, fecha, título; métricas a futuro).
     fila.update({
         "estado": "publicado" if hay else "publicado_solo_reel",
@@ -1895,6 +1898,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         # metricas de TikTok en el ranking de corresponsales.
         fila['tiktok_publish_id'] = res_tt['publish_id']
         fila['tiktok_modo'] = res_tt.get('modo', '')
+    # 5) Historias de IG y FB con el mismo reel.
+    _publicar_historias(reel_url, reel_local, plats, estado, fila)
 
     rows = _leer_ledger()
     f2 = _buscar_fila(rows, fila["file"])
@@ -1904,7 +1909,9 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
                "estado_canales": estado, "post_url": post_url,
                "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto,
-               "ig_media_id": fila.get("ig_media_id", ""), "fb_video_id": fila.get("fb_video_id", "")})
+               "ig_media_id": fila.get("ig_media_id", ""), "fb_video_id": fila.get("fb_video_id", ""),
+               "ig_historia_id": fila.get("ig_historia_id", ""),
+               "fb_historia_id": fila.get("fb_historia_id", "")})
     if yt_info:
         f2.update({"yt_video_id": yt_info.get("id", ""),
                    "yt_url": yt_info.get("short_url") or yt_info.get("url", "")})
@@ -1913,7 +1920,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
                   f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}, "
-                  f"TikTok={estado.get('tiktok', 'omitido')}.")
+                  f"TikTok={estado.get('tiktok', 'omitido')}{_historias_txt(estado)}.")
     # Aviso al corresponsal por WhatsApp con los LINKS de cada red donde salió ok (SOLO-GRATIS).
     canales = [_WA_CANALES[k] for k in _WA_ORDEN if estado.get(k) == "ok"]
     links = {}
@@ -2155,6 +2162,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         # metricas de TikTok en el ranking de corresponsales.
         fila['tiktok_publish_id'] = res_tt['publish_id']
         fila['tiktok_modo'] = res_tt.get('modo', '')
+    # 6) Historias de IG y FB con el mismo reel.
+    _publicar_historias(reel_url, reel_local, plats, estado, fila)
 
     fila.update({"estado": "publicado_placa", "post_url": post_url,
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
@@ -2188,6 +2197,7 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             f"<ul style='line-height:1.8;list-style:none;padding:0'>"
             f"<li>{'✅' if estado['instagram'] == 'ok' else '❌'} Instagram</li>"
             f"<li>{'✅' if estado['facebook'] == 'ok' else '❌'} Facebook</li>"
+            f"{_historias_li(estado)}"
             f"<li>{yt_ico} YouTube Shorts{yt_extra}</li>"
             f"<li>{'✅' if estado['wix'] == 'ok' else '❌'} Web"
             + (f" — <a href='{post_url}'>{_hesc(post_url)}</a>" if post_url else "") + "</li>"
@@ -2293,6 +2303,109 @@ def run_placa_web(folder: str = "", dry_run: bool = False) -> None:
     logger.info("=== Nota web atrasada: fin ===")
 
 
+# ── Historias (pedido del usuario 2026-09-26) ────────────────────────────────────────────
+# Cada reel del bot sale TAMBIÉN como historia en Instagram y Facebook. Meta no acepta historias
+# de más de 60 segundos (verificado en su documentación: IG 3–60 s, FB hasta 60 publicada) y el
+# usuario eligió que esas NO suban, en vez de armar una versión corta. Por la API tampoco se
+# pueden poner stickers de link ni texto: la historia es el video del reel tal cual.
+# `REEL_HISTORIAS=0` lo apaga.
+HISTORIA_MAX_SEG = 60.0
+HISTORIA_MIN_SEG = 3.0
+
+
+def _historias_on() -> bool:
+    return (get("REEL_HISTORIAS") or "1").strip().lower() not in ("0", "no", "false", "off")
+
+
+def _copia_historia_fb(local_reel: Path) -> Path:
+    """Facebook pide el audio de las historias a 48 kHz y el reel sale a 44,1. Se rehace SOLO el
+    audio (el video se copia, así que tarda un segundo). Si no hay audio o algo falla, va el
+    reel tal cual: con los reels mudos de «las 5 más leídas» la historia de FB ya andaba."""
+    try:
+        import subprocess
+        from video import _ffmpeg, has_audio
+        if not has_audio(local_reel):
+            return local_reel
+        salida = local_reel.with_name(local_reel.stem + "_historia.mp4")
+        subprocess.run([_ffmpeg(), "-y", "-i", str(local_reel), "-c:v", "copy", "-c:a", "aac",
+                        "-ar", "48000", "-ac", "2", "-b:a", "128k", "-movflags", "+faststart",
+                        str(salida)], capture_output=True, check=True, timeout=300)
+        return salida
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[facebook] no pude pasar el audio de la historia a 48 kHz ({e}); "
+                       f"va el reel tal cual.")
+        return local_reel
+
+
+def _publicar_historias(reel_url: str, local_reel, plats, estado: dict, fila: dict) -> None:
+    """Sube el reel como HISTORIA a Instagram y a Facebook. Nunca voltea la publicación: cada
+    red es independiente y lo que falla queda anotado.
+
+    Deja el resultado en `estado["ig_historia"]` / `estado["fb_historia"]` (salen en el mail) y
+    el id en la `fila` (`ig_historia_id` / `fb_historia_id`): si la publicación se reintenta, la
+    historia que ya salió no se duplica."""
+    if not _historias_on() or not local_reel:
+        return
+    redes = [r for r in ("instagram", "facebook") if r in plats]
+    if not redes:
+        return
+    try:
+        from video import duration_seconds
+        dur = float(duration_seconds(local_reel) or 0)
+    except Exception:  # noqa: BLE001
+        dur = 0.0
+    if not (HISTORIA_MIN_SEG <= dur <= HISTORIA_MAX_SEG):
+        motivo = (f"omitida (dura {dur:.0f} s; las historias admiten hasta "
+                  f"{HISTORIA_MAX_SEG:.0f})" if dur else "omitida (no pude medir el video)")
+        for red in redes:
+            estado["ig_historia" if red == "instagram" else "fb_historia"] = motivo
+        logger.info(f"[historias] {motivo}.")
+        return
+    if "instagram" in redes and reel_url:
+        if fila.get("ig_historia_id"):
+            estado["ig_historia"] = "ok"
+        else:
+            try:
+                res = instagram.publish_video_story(reel_url)
+                fila["ig_historia_id"] = (res or {}).get("id", "")
+                estado["ig_historia"] = "ok"
+                logger.info(f"[instagram] historia OK (id={fila['ig_historia_id']})")
+            except Exception as e:  # noqa: BLE001
+                estado["ig_historia"] = f"falló: {e}"
+                logger.error(f"[instagram] historia FALLÓ: {e}")
+    if "facebook" in redes:
+        if fila.get("fb_historia_id"):
+            estado["fb_historia"] = "ok"
+        else:
+            try:
+                res = facebook.publish_video_story(_copia_historia_fb(Path(local_reel)))
+                fila["fb_historia_id"] = (res or {}).get("id", "")
+                estado["fb_historia"] = "ok"
+                logger.info(f"[facebook] historia OK (id={fila['fb_historia_id']})")
+            except Exception as e:  # noqa: BLE001
+                estado["fb_historia"] = f"falló: {e}"
+                logger.error(f"[facebook] historia FALLÓ: {e}")
+
+
+def _historias_li(estado: dict) -> str:
+    """Los renglones de las historias para los mails de estado (vacío si no se intentaron)."""
+    out = ""
+    for clave, nombre in (("ig_historia", "Historia de Instagram"),
+                          ("fb_historia", "Historia de Facebook")):
+        st = estado.get(clave)
+        if not st:
+            continue
+        ico = "✅" if st == "ok" else ("➖" if str(st).startswith("omitid") else "❌")
+        out += f"<li>{ico} <b>{nombre}:</b> {_hesc('publicada' if st == 'ok' else st)}</li>"
+    return out
+
+
+def _historias_txt(estado: dict) -> str:
+    partes = [f"{n}={estado[c]}" for c, n in (("ig_historia", "Historia IG"),
+                                              ("fb_historia", "Historia FB")) if estado.get(c)]
+    return (", " + ", ".join(partes)) if partes else ""
+
+
 def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> None:
     """Manda un mail con el ESTADO de publicación por canal (IG/FB/YouTube/Wix)."""
     titulo = fila.get("titulo") or fila.get("file", "")
@@ -2330,6 +2443,7 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
         f"<ul style='line-height:1.8;list-style:none;padding:0'>"
         f"{_li('Instagram', 'instagram')}"
         f"{_li('Facebook', 'facebook')}"
+        f"{_historias_li(estado)}"
         f"{_li('YouTube Shorts', 'youtube', yt_extra)}"
         f"{_li('Web (Wix)', 'wix', wix_extra)}"
         f"</ul>{borrar}</div>"

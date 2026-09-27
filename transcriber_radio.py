@@ -329,6 +329,7 @@ def _avisar_estado_radio(fila: dict, estado: dict, yt_info: dict) -> None:
             f"<p style='font-size:18px'><b>{_hesc(titulo)}</b></p>"
             f"<ul style='line-height:1.8;list-style:none;padding:0'>"
             f"{_li('Instagram', 'instagram')}{_li('Facebook', 'facebook')}"
+            f"{tr._historias_li(estado)}"
             f"{_li('YouTube (Radio del Centro)', 'youtube', yt_extra)}"
             f"</ul></div>")
     tr._enviar_aviso(f"Publicado (Radio): {titulo}",
@@ -425,6 +426,8 @@ def run_publish_video_radio(file: str = "", dry_run: bool = False) -> None:
 
     # TikTok: el reel de la radio va a la MISMA cuenta de TikTok (pedido del usuario).
     tr._publicar_tiktok(local_reel, caption, estado)
+    # Historias de IG y FB con el mismo reel (salen en @diarioyradio, como el reel).
+    tr._publicar_historias(reel_url, local_reel, plats, estado, fila)
 
     fila.update({
         "estado": "publicado" if hay else "publicado_solo_reel",
@@ -587,6 +590,7 @@ def run_placa_radio_publish(folder: str = "", dry_run: bool = False) -> None:
         except Exception as e:  # noqa: BLE001
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
     tr._publicar_tiktok(local_reel, caption, estado)
+    tr._publicar_historias(reel_url, local_reel, plats, estado, fila)
 
     fila.update({"estado": "publicado_placa",
                  "fecha_publicado": datetime.now().isoformat(timespec="seconds"),
