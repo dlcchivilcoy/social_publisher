@@ -15864,13 +15864,33 @@
     "zocalo": "Calles anegadas en Chivilcoy",
     "draft_id": "5400f899-dbab-463b-89e9-b3a5766fb8f7",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-muk573px3s6e-01.mp4",
-    "estado": "borrador",
+    "estado": "publicado",
     "sin_web": false,
     "escrito": "Descripción aportada por el colaborador: Video que nos llega mostrando como quedo afectada calles de chivilcoy tras la lluvia",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-27T18:18:53.556Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-27T18:18:53.556Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-27T15:32:58",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tras-la-lluvia-calles-afectadas-en-chivilcoy-tras-las-precipitaciones",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (6 borradores sin publicar)",
+      "wix": "ok",
+      "ig_historia": "omitida (dura 82 s; las historias admiten hasta 60)",
+      "fb_historia": "omitida (dura 82 s; las historias admiten hasta 60)"
+    },
+    "ig_media_id": "18104231588353377",
+    "fb_video_id": "2533687303792928",
+    "yt_video_id": "yXcomHpa5pw",
+    "yt_url": "https://www.youtube.com/shorts/yXcomHpa5pw",
+    "yt_watch_url": "https://www.youtube.com/watch?v=yXcomHpa5pw",
+    "yt_titulo": "Calles afectadas en Chivilcoy tras las precipitaciones",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-27T15:32:58",
+    "yt_metrics": {}
   }
 ]
