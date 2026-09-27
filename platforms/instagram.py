@@ -477,7 +477,17 @@ def publish_story(image_path: Path) -> dict:
                 # URL FRESCA en cada intento: si Instagram no logró descargar la
                 # anterior (2207003) o la rechazó (2207052), reintentar la MISMA URL
                 # no sirve; volver a subir a ImgBB da una URL nueva que sí baja.
-                image_url = upload_to_imgbb(jpeg_path)
+                # Desde el 2do intento cambia de HOSTING (GitHub Release): el 27/9/2026
+                # la API de ImgBB subía bien pero su CDN i.ibb.co respondía vacío, e IG
+                # rechazaba todas las URLs con 2207052 mientras FB (sin ImgBB) salía OK.
+                image_url = ""
+                if intento >= 1:
+                    try:
+                        image_url = _upload_to_github(jpeg_path)
+                    except Exception as gh_err:  # noqa: BLE001
+                        logger.warning(f"Respaldo GitHub no disponible ({gh_err}); sigo con ImgBB.")
+                if not image_url:
+                    image_url = upload_to_imgbb(jpeg_path)
                 creation_id = _crear_contenedor(
                     user_id, token,
                     {"media_type": "STORIES", "image_url": image_url},
