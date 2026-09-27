@@ -15750,11 +15750,28 @@
     "texto": "ALERTA por búsqueda de paradero: se solicita colaboración para dar con el paradero de una menor de 16 años, con fecha de nacimiento el 30 de abril de 2010, quien falta desde el 26 de septiembre de 2026. Su lugar de residencia es Chivilcoy, provincia de Buenos Aires.\n\nSi tenés información de utilidad, comunicate de inmediato al 911 o a la comisaría más cercana.",
     "draft_id": "5341649e-164b-459f-afe7-8b25de765ef2",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-09-27-matias-zucchi-mu.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-27T16:30:36.081Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-27T16:30:36.081Z — wa:5492346417636",
+    "fecha_publicado": "2026-09-27T13:39:21",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "en borradores",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/solicitan-colaboracion-para-dar-con-el-paradero-de-una-menor-de-16",
+    "ig_media_id": "18095594330119586",
+    "fb_video_id": "3263331227210668",
+    "ig_historia_id": "17901333297598794",
+    "fb_historia_id": "2529586517518313",
+    "yt_video_id": "F7vmQ1qLzQM",
+    "yt_url": "https://www.youtube.com/shorts/F7vmQ1qLzQM"
   }
 ]
