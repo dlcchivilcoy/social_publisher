@@ -15905,13 +15905,35 @@
     "zocalo": "",
     "draft_id": "d6bf5e16-50bb-4621-92b5-f3b589835676",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-mukd0ygqhjvk-01.mp4",
-    "estado": "solo_reel",
+    "estado": "publicado",
     "sin_web": true,
     "escrito": "Descripción aportada por el colaborador: Olimpo de Bahia Blanca 2 - Gimnasia de Chivilcoy 1 en el partido de cuartos de final, partido de ida",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "matias zucchi",
     "corresponsal_celular": "5492346417636",
     "corresponsal_lugar": "",
-    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-27T21:58:04.496Z — wa:5492346417636"
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-09-27T21:58:04.496Z — wa:5492346417636",
+    "ig_historia_id": "18071574764769847",
+    "fb_historia_id": "2046961442854392",
+    "fecha_publicado": "2026-09-27T19:05:03",
+    "post_url": "",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (7 borradores sin publicar)",
+      "wix": "omitido",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "ig_media_id": "18117316204984654",
+    "fb_video_id": "1108317505031400",
+    "yt_video_id": "GuBYLsi30lU",
+    "yt_url": "https://www.youtube.com/shorts/GuBYLsi30lU",
+    "yt_watch_url": "https://www.youtube.com/watch?v=GuBYLsi30lU",
+    "yt_titulo": "Olimpo venció 2 a 1 a Gimnasia en la ida de cuartos de final",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-09-27T19:05:03",
+    "yt_metrics": {}
   }
 ]
