@@ -8,7 +8,7 @@ import requests
 
 from utils.branding import sitio_web
 from utils.config import get
-from utils.image_host import upload_to_imgbb
+from utils.image_host import url_imagen_verificada
 from utils.logger import get_logger
 
 logger = get_logger("wix")
@@ -240,9 +240,9 @@ def _category_ids(page: int = 0, title: str = "", body: str = "",
 
 
 def _importar_imagen(headers: dict, image_path: Path, title: str) -> tuple[str, str]:
-    """Sube la imagen a ImgBB (URL pública temporal) y la importa al Media Manager
+    """Sube la imagen a ImgBB (o GitHub si ImgBB no sirve) y la importa al Media Manager
     de Wix con nombre descriptivo. Devuelve (file_id, image_url)."""
-    image_url = upload_to_imgbb(image_path)
+    image_url = url_imagen_verificada(image_path)
     mime = "image/png" if Path(image_path).suffix.lower() == ".png" else "image/jpeg"
     nombre_archivo = _slugify(title)[:80] or "nota"
     imp = _post(MEDIA_IMPORT_URL, headers=headers,

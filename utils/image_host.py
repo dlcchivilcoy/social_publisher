@@ -145,3 +145,39 @@ def upload_to_imgbb(image_path: Path, intentos: int = 4) -> str:
         except Exception as gh_err:
             logger.error(f"El respaldo en GitHub Release también falló: {gh_err}")
             raise imgbb_err
+
+
+def url_descargable(url: str, timeout: int = 20) -> bool:
+    """¿La URL devuelve de verdad una imagen? Baja solo el primer KB (Range).
+
+    Hace falta porque la SUBIDA a ImgBB puede andar y su CDN no servir el archivo
+    (2026-09-27: i.ibb.co respondía vacío). Instagram al menos da error (2207052); Wix
+    en cambio acepta la importación y baja la imagen después, así que la nota quedaba
+    sin foto sin que nadie se enterara."""
+    try:
+        with requests.get(url, headers={"User-Agent": "Mozilla/5.0", "Range": "bytes=0-1023"},
+                          timeout=timeout, stream=True, allow_redirects=True) as r:
+            if r.status_code not in (200, 206):
+                return False
+            if not (r.headers.get("Content-Type") or "").lower().startswith("image/"):
+                return False
+            return bool(next(r.iter_content(512), b""))
+    except Exception:  # noqa: BLE001 — cualquier falla de red = no descargable
+        return False
+
+
+def url_imagen_verificada(image_path: Path) -> str:
+    """URL pública de la imagen COMPROBADA antes de entregarla (la usa Wix, que importa
+    en diferido). ImgBB primero; si su URL no baja, GitHub Release. Si el respaldo
+    tampoco está (p. ej. sin GITHUB_TOKEN en local), devuelve la de ImgBB igual: no
+    queda peor que antes."""
+    image_path = Path(image_path)
+    url = upload_to_imgbb(image_path)
+    if "github.com" in url or url_descargable(url):
+        return url
+    logger.warning(f"La imagen subida no se puede descargar ({url}); uso el respaldo en GitHub Release…")
+    try:
+        return _upload_to_github(image_path)
+    except Exception as gh_err:  # noqa: BLE001
+        logger.error(f"Respaldo GitHub no disponible ({gh_err}); sigo con la URL de ImgBB.")
+        return url
