@@ -325,6 +325,19 @@ def _publicar_contenedor(user_id: str, token: str, creation_id: str, paso: str, 
     _raise_for_status(ultimo, paso)
 
 
+def _url_imagen(jpeg_path: Path, intento: int) -> str:
+    """URL pública de la imagen para que Instagram la baje. 1er intento: ImgBB. Desde el
+    2do: GitHub Release (otro dominio/CDN). El 27/9/2026 la API de ImgBB subía bien pero
+    su CDN i.ibb.co respondía vacío, e IG rechazaba todas las URLs con 2207052 (FB, que
+    no usa ImgBB, salía OK). Sin GITHUB_TOKEN (p. ej. en local) sigue con ImgBB."""
+    if intento >= 1:
+        try:
+            return _upload_to_github(jpeg_path)
+        except Exception as gh_err:  # noqa: BLE001
+            logger.warning(f"Respaldo GitHub no disponible ({gh_err}); sigo con ImgBB.")
+    return upload_to_imgbb(jpeg_path)
+
+
 def publish(body: str, image_path: Path) -> dict:
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
@@ -336,13 +349,30 @@ def publish(body: str, image_path: Path) -> dict:
     temp_created = jpeg_path != image_path
 
     try:
-        image_url = upload_to_imgbb(jpeg_path)
-
-        # Paso 1: crear contenedor (reintenta ante timeout de descarga 2207003)
-        creation_id = _crear_contenedor(user_id, token, {"image_url": image_url, "caption": caption})
-
-        # Paso 1.5: esperar a que Instagram procese la imagen (evita 2207027)
-        _wait_container_ready(creation_id, token)
+        # Paso 1: crear contenedor con URL FRESCA en cada intento (2207003/2207052) y
+        # cambiando de hosting desde el 2do (ver _url_imagen). Solo se reintenta la
+        # creación: el publish va una vez afuera para no arriesgar un posteo doble.
+        ultimo = None
+        creation_id = None
+        for intento in range(3):
+            try:
+                creation_id = _crear_contenedor(
+                    user_id, token,
+                    {"image_url": _url_imagen(jpeg_path, intento), "caption": caption},
+                    intentos=1,
+                )
+                # Paso 1.5: esperar a que Instagram procese la imagen (evita 2207027)
+                _wait_container_ready(creation_id, token)
+                break
+            except Exception as e:  # noqa: BLE001
+                ultimo = e
+                creation_id = None
+                if intento < 2:
+                    logger.warning(f"Instagram (crear posteo) falló (intento {intento + 1}/3): {e}. "
+                                   f"Reintento subiendo la imagen de nuevo…")
+                    time.sleep(5)
+        if not creation_id:
+            raise ultimo
 
         # Paso 2: publicar contenedor
         media_id = _publicar_contenedor(user_id, token, creation_id, "publicar media",
@@ -477,17 +507,7 @@ def publish_story(image_path: Path) -> dict:
                 # URL FRESCA en cada intento: si Instagram no logró descargar la
                 # anterior (2207003) o la rechazó (2207052), reintentar la MISMA URL
                 # no sirve; volver a subir a ImgBB da una URL nueva que sí baja.
-                # Desde el 2do intento cambia de HOSTING (GitHub Release): el 27/9/2026
-                # la API de ImgBB subía bien pero su CDN i.ibb.co respondía vacío, e IG
-                # rechazaba todas las URLs con 2207052 mientras FB (sin ImgBB) salía OK.
-                image_url = ""
-                if intento >= 1:
-                    try:
-                        image_url = _upload_to_github(jpeg_path)
-                    except Exception as gh_err:  # noqa: BLE001
-                        logger.warning(f"Respaldo GitHub no disponible ({gh_err}); sigo con ImgBB.")
-                if not image_url:
-                    image_url = upload_to_imgbb(jpeg_path)
+                image_url = _url_imagen(jpeg_path, intento)
                 creation_id = _crear_contenedor(
                     user_id, token,
                     {"media_type": "STORIES", "image_url": image_url},
