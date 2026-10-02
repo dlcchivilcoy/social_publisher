@@ -663,9 +663,12 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # escribió Gemini al redactar la nota y ya pasaron por el corrector de grafía: acá no
         # se le pide nada nuevo. `cuerpo` es el texto de la nota: si el material es apaisado,
         # debajo de la foto queda fondo libre y ahí va su primera oración fuerte.
+        # Lo que llega por WhatsApp va con la especificación visual v1.0 (2026-10-02): a
+        # sangre, con la volanta y el titular en cajas abajo.
         reel = to_vertical_reel(video_media, reel_path, overlay=False,
                                 titular=titulo, resumen=resumen, volanta=volanta,
-                                cuerpo=texto)
+                                cuerpo=texto,
+                                estilo="corresponsal" if es_corresponsal else "")
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.

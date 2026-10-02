@@ -204,9 +204,11 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     # que el diario → fondo naranja + logo + placa final. Nombre único con prefijo «radio» para
     # que no pise en el GitHub Release al reel del diario.
     firma = tr._firma_texto() if es_corresponsal else None
+    # Lo que llega por WhatsApp va con la especificación visual v1.0 (2026-10-02).
     reel = to_vertical_reel(video, tr.WORK_DIR / f"reel_radio_{slug}.mp4",
                             firma=firma, overlay=False, titular=titulo, resumen=resumen,
-                            volanta=volanta, cuerpo=texto)
+                            volanta=volanta, cuerpo=texto,
+                            estilo="corresponsal" if es_corresponsal else "")
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"

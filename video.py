@@ -1577,7 +1577,8 @@ def _estilo_cajas() -> str:
     return e if e in ("grafito", "blanca", "sombra") else PLACA_CAJAS
 
 
-def _texto_encima(volanta: str, titular: str, f: dict, desde: int | None = None) -> dict:
+def _texto_encima(volanta: str, titular: str, f: dict, desde: int | None = None,
+                  espec: bool = False) -> dict:
     """Volanta + titular ENCIMA de un material a pantalla completa, en cajas (ver
     `PLACA_CAJAS`): la volanta en UN renglón y el titular en DOS (tres solo si no entra).
 
@@ -1586,10 +1587,19 @@ def _texto_encima(volanta: str, titular: str, f: dict, desde: int | None = None)
     `desde`, CUELGA de esa altura (arriba, debajo de la marca: se usa cuando abajo hay una
     cara). Devuelve `cajas`, `bloques`, `halo` (lo que va con sombra en la letra), `banda`
     (dónde va el sombreado del estilo «sombra»), `rect` (lo que ocupa todo), y el texto:
-    `titulo` (renglones) y `volanta`."""
-    estilo = _estilo_cajas()
-    pad_x = PLACA_MX - PLACA_CAJA_MX
-    ancho = PLACA_CAJA_DER - pad_x - PLACA_MX
+    `titulo` (renglones) y `volanta`.
+
+    `espec=True` (videos de corresponsales, especificación v1.0): cajas desde el margen de 80,
+    naranja `#EF963C`, carbón `#202226` y titular en peso 400; siempre el estilo «grafito»."""
+    estilo = "grafito" if espec else _estilo_cajas()
+    caja_mx = ESPEC_MX if espec else PLACA_CAJA_MX
+    texto_x = ESPEC_MX + 26 if espec else PLACA_MX
+    naranja, carbon = (ESPEC_NARANJA, ESPEC_CARBON) if espec else (NARANJA, GRAFITO)
+    campo = texto_x if espec else False          # la x de cada renglón (ver `_x_renglon`)
+    if espec:
+        f = dict(f, p_t=ESPEC_PESO_TITULAR, p_v=ESPEC_PESO_VOLANTA)
+    pad_x = texto_x - caja_mx
+    ancho = PLACA_CAJA_DER - pad_x - texto_x
     tope = int(_num("REEL_PLACA_CAJA_TITULAR_TAM", PLACA_CAJA_TITULAR_TAM))
     tit = (0, [])
     for maximo, minimo in ((2, PLACA_CAJA_TITULAR_MIN), (3, PLACA_CAJA_TITULAR_MIN3)):
@@ -1620,32 +1630,32 @@ def _texto_encima(volanta: str, titular: str, f: dict, desde: int | None = None)
         y_v = desde
         y_t = y_v + alto_v
 
-    caja_t = GRAFITO[:3] + (round(255 * _num("REEL_PLACA_CAJA_OPACIDAD",
+    caja_t = carbon[:3] + (round(255 * _num("REEL_PLACA_CAJA_OPACIDAD",
                                                PLACA_CAJA_OPACIDAD)),)
     color_t, color_v = BLANCO, BLANCO
     if estilo == "blanca":
-        caja_t, color_t = (255, 255, 255, 255), GRAFITO
+        caja_t, color_t = (255, 255, 255, 255), carbon
     elif estilo == "sombra":
-        color_v = NARANJA
+        color_v = naranja
     cajas, bloques = [], []
-    x1_max = PLACA_CAJA_MX
+    x1_max = caja_mx
     if vtxt:
         bl = y_v + pad_v + may_v
-        bloques.append((vtxt, v, bl - asc_v, f["f_r"], f["p_v"], color_v, False))
-        x1 = PLACA_MX + _ancho_texto(vtxt, f["f_r"], v, f["p_v"]) + pad_x
+        bloques.append((vtxt, v, bl - asc_v, f["f_r"], f["p_v"], color_v, campo))
+        x1 = texto_x + _ancho_texto(vtxt, f["f_r"], v, f["p_v"]) + pad_x
         x1_max = max(x1_max, x1)
         if estilo != "sombra":
-            cajas.append((PLACA_CAJA_MX, y_v, x1, y_v + alto_v, NARANJA))
+            cajas.append((caja_mx, y_v, x1, y_v + alto_v, naranja))
     if lineas:
         largo = max(_ancho_texto(l, f["f_t"], c, f["p_t"]) for l in lineas)
-        x1 = PLACA_MX + largo + pad_x
+        x1 = texto_x + largo + pad_x
         x1_max = max(x1_max, x1)
         for i, l in enumerate(lineas):
             bl = y_t + pad_t + may_t + i * salto
-            bloques.append((l, c, bl - asc_t, f["f_t"], f["p_t"], color_t, False))
+            bloques.append((l, c, bl - asc_t, f["f_t"], f["p_t"], color_t, campo))
         if estilo != "sombra":
-            cajas.append((PLACA_CAJA_MX, y_t, x1, y_t + alto_t, caja_t))
-    rect = (PLACA_CAJA_MX, y_v if vtxt else y_t, x1_max, y_t + alto_t)
+            cajas.append((caja_mx, y_t, x1, y_t + alto_t, caja_t))
+    rect = (caja_mx, y_v if vtxt else y_t, x1_max, y_t + alto_t)
     return dict(cajas=cajas, bloques=bloques, rect=rect, titulo=lineas, volanta=vtxt,
                 halo=list(bloques) if estilo == "sombra" else [],
                 banda=(rect[1], rect[3]) if (estilo == "sombra" and bloques) else None)
@@ -1847,6 +1857,32 @@ def _plan_espec_foto(volanta: str, titular: str, resumen: str, f: dict, w: int, 
     return plan
 
 
+def _plan_espec_video(volanta: str, titular: str, f: dict, w: int, h: int, caras) -> dict:
+    """Un VIDEO de corresponsal con la especificación v1.0 (pedido 2026-10-02): A SANGRE en
+    cualquier orientación —un apaisado se recorta a 9:16 buscando a los sujetos—, arriba el
+    encabezado y el isologo de la especificación con el sombreado mínimo, y abajo la volanta
+    y el titular en CAJAS (naranja y carbón), SIN bajada: así lo eligió el usuario para video.
+    Si las cajas taparían una cara, suben debajo de la marca, como en `_plan_pantalla`."""
+    w, h = max(1, w), max(1, h)
+    marca, fin_marca = _marca_espec(f)
+    media = (0, 0, 1080, 1920)
+    cover = abs(1080 * h / w - 1920) > 2
+    texto = _texto_encima(volanta, titular, f, espec=True)
+    cabezas = _caras_en_cuadro(caras, w, h, media, cover)
+    if cabezas and _cuanto_tapa(texto["rect"], cabezas) > 0.15:
+        caja_logo = _logo_caja(ESPEC_LOGO)
+        desde = max(fin_marca + 56, (caja_logo[3] + 24) if caja_logo else 0)
+        arriba = _texto_encima(volanta, titular, f, desde=desde, espec=True)
+        if _cuanto_tapa(arriba["rect"], cabezas) < _cuanto_tapa(texto["rect"], cabezas):
+            logger.info("Las cajas abajo tapaban una cara: van arriba, debajo de la marca.")
+            texto = arriba
+    return dict(forma=forma_de(w, h), bloques=marca + texto["bloques"], bajada=[],
+                cover=cover, fundido=(0, 0), sombra_arriba=True, grafica=False,
+                media=media, cajas=texto["cajas"], halo=marca + texto["halo"], banda=None,
+                titulo=texto["titulo"], volanta=texto["volanta"], texto=texto["rect"],
+                estilo="corresponsal", logo=ESPEC_LOGO, degradado=None)
+
+
 def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
                grafica: bool = False, modo_texto: str = "", caras=None,
                estilo: str = "", video: bool = False) -> dict:
@@ -1874,9 +1910,12 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
     `cajas`, `halo`, `banda`, `titulo`, `volanta` y `texto` (el rectángulo que ocupa).
 
     `estilo="corresponsal"` (material que llega por WhatsApp, 2026-10-02): las FOTOS van con
-    la especificación v1.0 (`_plan_espec_foto`). Los videos, por ahora, como siempre."""
+    la especificación v1.0 (`_plan_espec_foto`) y los VIDEOS a sangre con cajas abajo
+    (`_plan_espec_video`)."""
     f = _fuentes_placa()
-    if estilo == "corresponsal" and not video:
+    if estilo == "corresponsal":
+        if video:
+            return _plan_espec_video(volanta, titular, f, w, h, caras)
         return _plan_espec_foto(volanta, titular, resumen, f, w, h, grafica, caras)
     forma = forma_de(w, h, grafica)
     modo = modo_texto or forma
@@ -3311,6 +3350,43 @@ def autochequeo() -> bool:
             for f_ in fallas:
                 print(f"        → {f_}")
 
+    print("\n=== estilo de los corresponsales (especificación v1.0, videos) ===")
+    for nombre, vol, tit, res in MAQUETAS:
+        for etiqueta, w, h in (("video 9:16", 1080, 1920), ("video 16:9", 1920, 1080)):
+            fallas = []
+            plan = plan_placa(vol, tit, res, w, h, estilo="corresponsal", video=True)
+            for texto, cuerpo, y, fuente, peso, color, campo in plan["bloques"]:
+                x, anchor, _c = _x_renglon(campo)
+                bx0, by0, bx1, by1 = _tipo(fuente, cuerpo, peso).getbbox(texto, anchor=anchor)
+                bx1 += _interletra(peso)[1] * cuerpo * max(0, len(texto) - 1)
+                r = (x + bx0, y + by0, x + bx1, y + by1)
+                if r[0] < ESPEC_MX - 6 or r[2] > 1080 - ESPEC_MX + 6:
+                    fallas.append(f"«{texto[:22]}» se sale del margen (x={r[0]:.0f}..{r[2]:.0f})")
+                if caja_logo_e and not (r[2] <= caja_logo_e[0] or r[0] >= caja_logo_e[2]
+                                        or r[3] <= caja_logo_e[1] or r[1] >= caja_logo_e[3]):
+                    fallas.append(f"«{texto[:22]}» SE SUPERPONE CON EL ISOLOGO")
+            cx0, cy0, cx1, cy1 = plan["texto"]
+            if cx1 > PLACA_CAJA_DER:
+                fallas.append(f"las cajas entran en la columna de botones (x={cx1})")
+            if cy1 > 1920 - BANDA_SEGURO:
+                fallas.append(f"las cajas entran en la franja de abajo (y={cy1})")
+            if plan["bajada"]:
+                fallas.append("un video de corresponsal no lleva bajada")
+            if vol and not plan["volanta"]:
+                fallas.append("falta la volanta")
+            if len(plan["titulo"]) > 3 or any(t.endswith("…") for t in plan["titulo"]):
+                fallas.append(f"titular mal: {plan['titulo']}")
+            if plan["media"] != (0, 0, 1080, 1920):
+                fallas.append(f"el video no va a sangre ({plan['media']})")
+            if len(plan.get("cajas") or []) != (2 if vol else 1):
+                fallas.append(f"van {len(plan.get('cajas') or [])} cajas")
+            ok = ok and not fallas
+            print(f"  {'OK  ' if not fallas else 'MAL '} {nombre} · {etiqueta}: titular "
+                  f"{len(plan['titulo'])} renglón/es, cajas y={cy0}..{cy1}, "
+                  f"{'recortado' if plan['cover'] else 'entero'}")
+            for f_ in fallas:
+                print(f"        → {f_}")
+
     print("\n=== reel de prueba (el camino completo, como en una publicación) ===")
     with tempfile.TemporaryDirectory() as d:
         tmp = Path(d)
@@ -3335,11 +3411,14 @@ def autochequeo() -> bool:
             print(f"  ROTO: no pude armar el video de prueba: {e}")
             return False
 
-        for etiqueta, fuente in (("video derecho", base), ("video de celular girado", giro),
-                                 ("video vertical 9:16", vert)):
-            salida = tmp / f"reel_{etiqueta.split()[1]}.mp4"
+        for etiqueta, fuente, estilo in (("video derecho", base, ""),
+                                         ("video de celular girado", giro, ""),
+                                         ("video vertical 9:16", vert, ""),
+                                         ("video corresponsal 16:9", base, "corresponsal"),
+                                         ("video corresponsal 9:16", vert, "corresponsal")):
+            salida = tmp / f"reel_{len(estilo)}_{etiqueta.split()[-1].replace(':', '')}.mp4"
             try:
-                to_vertical_reel(fuente, salida,
+                to_vertical_reel(fuente, salida, estilo=estilo,
                                  titular="Memi Mesplet y Seba Bravo presentan «Habladurías»",
                                  resumen="La función será el domingo 27 en Casa vieja San Luis.",
                                  volanta="Ciclo de teatro independiente",
@@ -3566,11 +3645,11 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # muy comprimido tiene manchones planos que lo harían pasar por gráfica sin serlo.
     grafica = _es_grafica(src, salida.parent) if (_bandas_on() and es_foto) else False
     caras = None
-    espec_foto = estilo == "corresponsal" and es_foto
+    espec = estilo == "corresponsal"
     if _bandas_on() and (titular or resumen or volanta):
         # A pantalla completa el titular va ENCIMA del video: se buscan las caras antes, para
         # no taparlas (y el encuadre las reusa). Con la especificación, toda foto va a sangre.
-        if forma_de(cont_w, cont_h, grafica) == "pantalla" or (espec_foto and not grafica):
+        if forma_de(cont_w, cont_h, grafica) == "pantalla" or (espec and not grafica):
             caras = _caras_de_video(src, recorte, salida.parent)
         plan = plan_placa(volanta, titular, resumen, cont_w, cont_h, grafica=grafica,
                           caras=caras, estilo=estilo, video=not es_foto)
