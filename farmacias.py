@@ -158,6 +158,30 @@ def _marcar(hoy: date, nombres: list[str]) -> None:
                                  ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+# ── Datos para la página /farmacias-de-turno de la web ────────────────────────
+# La web (diario_web) lee este archivo del repo público (state/) junto con el
+# cronograma del mes: de acá saca la dirección y el teléfono de cada farmacia, y
+# los CAMBIOS del día, que solo llegan por mail. Si falla, la publicación sigue.
+WEB = Path(__file__).parent / ".farmacias_web.json"
+
+
+def _guardar_para_web(hoy: date, listado: dict, nombres: list[str], es_cambio: bool) -> None:
+    try:
+        previo = _cargar_json(WEB)
+        cambios = dict(previo.get("cambios") or {})
+        if es_cambio:
+            cambios[hoy.isoformat()] = nombres
+        datos = {
+            "actualizado": hoy.isoformat(),
+            "listado": (sorted(listado.values(), key=lambda x: _norm(x["nombre"]))
+                        if listado else previo.get("listado", [])),
+            "cambios": dict(sorted(cambios.items())[-31:]),
+        }
+        WEB.write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as e:
+        logger.warning(f"No se pudo guardar el archivo de farmacias para la web: {e}")
+
+
 def farmacias_feed_de_hoy(hoy: date):
     """Para el carrusel/historia: arma la imagen de farmacias para feed (1080x1350)
     Y para historia (1080x1920), más las líneas de texto del día. Devuelve
@@ -167,6 +191,7 @@ def farmacias_feed_de_hoy(hoy: date):
     if not nombres:
         return None, None, aviso, None, False
     listado = scrap_listado()
+    _guardar_para_web(hoy, listado, nombres, es_cambio)
     fecha = _fecha_larga(hoy)
     sufijo_cambio = " (CAMBIO)" if es_cambio else ""
     items, lineas_cap = [], []
@@ -206,6 +231,7 @@ def run_farmacias(dry_run: bool = False) -> None:
         return
 
     listado = scrap_listado()
+    _guardar_para_web(hoy, listado, nombres, es_cambio)
     fecha = _fecha_larga(hoy)
     sufijo_cambio = " (CAMBIO)" if es_cambio else ""
 
