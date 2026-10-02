@@ -14,6 +14,7 @@ Clave: GEMINI_API_KEY (gratis, Google AI Studio). Modelo configurable con GEMINI
 import base64
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -1764,6 +1765,194 @@ def descripcion_redes(titulo: str, escrito: str, contexto: str, lugar: str = "",
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar la descripción del video ({e}).")
     return base_escrita
+
+
+# ── Especificación editorial v1.0: textos de lo que llega por WhatsApp (pedido 2026-10-02) ──
+# El usuario mandó una especificación para los reels de los corresponsales. La parte de TEXTO:
+# volanta «Localidad · Tema», titular de 6 a 12 palabras, bajada de 8 a 16 y una descripción de
+# 150 a 220 palabras (menos si la fuente es breve, sin relleno) con exactamente 5 hashtags.
+_MATICES = (
+    "• MATICES: «denunció», «según informó», «investigan» y «habría ocurrido» NO equivalen a una "
+    "confirmación. Si la fuente atribuye o duda, el texto atribuye o duda. Una denuncia o una "
+    "acusación va atribuida; la versión de una parte no se presenta como un hecho probado.\n"
+    "• No identifiques a nadie por intuición: solo con el nombre que da la fuente.\n"
+)
+
+_TITULACION_PROMPT = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy (Argentina). Te paso "
+    "una NOTA ya redactada y verificada (y, si la hay, la información que ESCRIBIÓ el vecino que la "
+    "mandó). Escribí la TITULACIÓN de la portada del reel, en español rioplatense:\n"
+    "- volanta: «Localidad · Tema», con un punto medio (·) entre espacios. Localidad: dónde pasó "
+    "(si la nota no lo dice, «Chivilcoy»). Tema: una o dos palabras, por ejemplo Sociedad, "
+    "Policiales, Accidente, Política, Educación, Deportes, Cultura, Salud, Gremiales, De duelo. "
+    "Ejemplos: «Chivilcoy · Sociedad», «Chivilcoy · De duelo», «Ruta 5 · Accidente».\n"
+    "- titulo: UNA idea principal, entre 6 y 12 palabras. Precisión antes que impacto. Estilo "
+    "oración (mayúscula solo al principio y en los nombres propios), sin punto final, sin "
+    "comillas, sin signos de admiración. Que no repita la bajada. Si el título actual ya cumple, "
+    "conservalo o ajustale solo el largo.\n"
+    "- bajada: UN dato complementario confirmado, entre 8 y 16 palabras, con punto final. Que no "
+    "repita el título con sinónimos.\n"
+    "REGLAS:\n"
+    "• La regla de los nombres del título (accidentados, detenidos) vale TAMBIÉN para la bajada: "
+    "las dos van en la portada.\n"
+    "• Fechas: nada de «hoy», «ayer» ni «el miércoles» sueltos. {FECHA}\n"
+    "• Usá SOLO lo que dice la nota o lo escrito: nada de cifras, edades, causas, lesiones, "
+    "nombres ni cargos que no estén ahí.\n"
+    + _MATICES
+    + _TITULAR_SIN_NOMBRES +
+    "• Los nombres propios y las siglas, con la misma grafía que en el texto.\n"
+    "Devolvé SOLO el JSON con volanta, titulo y bajada."
+)
+
+_TITULACION_SCHEMA = {
+    "type": "object",
+    "properties": {"volanta": {"type": "string"}, "titulo": {"type": "string"},
+                   "bajada": {"type": "string"}},
+    "required": ["volanta", "titulo", "bajada"],
+}
+
+
+_FECHA_REGLA = ("El material se recibió el {F}: usá esa fecha SOLO para traducir un «hoy», "
+                "«ayer» o un día de la semana que diga la fuente. Si la fuente no dice cuándo "
+                "pasó algo, NO le pongas fecha.")
+
+
+def titulacion_corresponsal(texto: str, titulo: str = "", lugar: str = "", escrito: str = "",
+                            fecha: str = "", api_key: str = "", model: str = "") -> dict:
+    """Volanta «Localidad · Tema», titular de 6 a 12 palabras y bajada de 8 a 16 para lo que
+    llega por WhatsApp (especificación v1.0, 2026-10-02), a partir de la nota YA verificada.
+
+    Devuelve `{volanta, titulo, bajada}`; un campo vacío si no salió bien (quien llama conserva
+    entonces el que tenía). Nunca tira excepción."""
+    texto = (texto or "").strip()
+    if not texto:
+        return {}
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        prompt = (_TITULACION_PROMPT.replace(
+                      "{FECHA}", _FECHA_REGLA.replace("{F}", fecha) if fecha else "")
+                  + f"\n\nTÍTULO ACTUAL: {(titulo or '').strip() or '(sin título)'}"
+                  + (f"\nLUGAR DEL HECHO (lo escribió el vecino): {lugar.strip()}"
+                     if (lugar or "").strip() else "")
+                  + (f"\n\nLO QUE ESCRIBIÓ EL VECINO:\n{_escrito_limpio(escrito)}"
+                     if _escrito_limpio(escrito) else "")
+                  + f"\n\nNOTA:\n{texto}")
+        raw = _post_json([{"text": prompt}], key, model, _TITULACION_SCHEMA, temperature=0.2,
+                         key_pool=_gemini_keys(key))
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la titulación de la especificación ({e}).")
+        return {}
+    volanta = " ".join(str(raw.get("volanta", "")).split()).strip(" .")
+    tit = " ".join(str(raw.get("titulo", "")).split()).strip().rstrip(".").strip("«»\"")
+    bajada = " ".join(str(raw.get("bajada", "")).split()).strip()
+    if bajada and bajada[-1] not in ".!?":
+        bajada += "."
+    # Controles: lo que no cumple, no va (queda lo de antes).
+    if "·" not in volanta or len(volanta.split()) > 6:
+        volanta = ""
+    if not 4 <= len(tit.split()) <= 15:
+        tit = ""
+    if not 5 <= len(bajada.split()) <= 22:
+        bajada = ""
+    logger.info(f"Titulación (especificación): «{volanta}» | «{tit}» | «{bajada}»")
+    return {"volanta": volanta, "titulo": tit, "bajada": bajada}
+
+
+_DESCRIPCION_CORRESPONSAL_PROMPT = (
+    "Sos el redactor de redes del «Diario La Campaña» / «Radio del Centro» de Chivilcoy "
+    "(Argentina). Escribí la DESCRIPCIÓN de un posteo de Instagram con esta noticia.\n"
+    "FUENTES: la INFORMACIÓN ESCRITA (lo que mandó el vecino, si hay) es la base; la NOTA es el "
+    "texto ya redactado y verificado. No uses nada que no esté en alguna de las dos.\n"
+    "EXTENSIÓN: entre 150 y 220 palabras cuando haya datos suficientes. Si la fuente es breve, "
+    "usá menos. NO RELLENES: nada de frases vacías ni repeticiones para llegar al número.\n"
+    "ESTRUCTURA: apertura con el hecho principal; desarrollo en 3 a 5 párrafos cortos; contexto, "
+    "consecuencias y situación informada; un cierre adecuado al tema. Incluí, si están: qué "
+    "ocurrió, dónde, cuándo, quiénes participaron, el resultado y los organismos que intervinieron.\n"
+    "NO INVENTES edades, causas, lesiones, diagnósticos, fechas, citas, responsabilidades ni "
+    "medidas judiciales.\n"
+    + _MATICES +
+    "• FECHAS: no uses «hoy», «ayer» ni «este jueves», que quedan viejos: poné la fecha (día y "
+    "número). {FECHA}\n"
+    "• NADA de citas textuales sacadas del video: contalo con tus palabras.\n"
+    "SEGÚN EL TEMA:\n"
+    "• Accidentes: ubicación, dinámica informada, estado de los involucrados y asistencia. Sin "
+    "dramatismo («se salvaron de milagro» y similares, no).\n"
+    "• Política y reclamos: quién sostiene cada afirmación; distinguí anuncio, propuesta, "
+    "aprobación y ejecución.\n"
+    "• Fallecimientos: tono sobrio y humano, la trayectoria y el vínculo con la comunidad. No "
+    "inventes causa de muerte, edad ni sepelio. Sin emojis, sin preguntas para generar "
+    "interacción, sin pedir «me gusta». Podés cerrar con las condolencias de Diario La Campaña y "
+    "Radio del Centro.\n"
+    "FORMA: español argentino, tono periodístico, claro, cercano y profesional, tercera persona. "
+    "Párrafos separados por un renglón en blanco. Sin emojis. Sin hashtags ni links en el texto "
+    "(van aparte). Sin explicar lo que hiciste.\n"
+    "Además devolvé:\n"
+    "• hashtags: EXACTAMENTE 2 hashtags temáticos, relacionados directamente con la persona, la "
+    "institución, el tema o el lugar de la noticia (ej. «#Suteba», «#FeriaDelLibro», «#Ruta5»). "
+    "NO uses #Chivilcoy, #DiarioLaCampaña ni #RadioDelCentro (ya van fijos).\n"
+    "• tema: «accidente», «politica», «fallecimiento» u «otro»."
+)
+
+_DESCRIPCION_CORRESPONSAL_SCHEMA = {
+    "type": "object",
+    "properties": {"texto": {"type": "string"},
+                   "hashtags": {"type": "array", "items": {"type": "string"}},
+                   "tema": {"type": "string"}},
+    "required": ["texto", "hashtags", "tema"],
+}
+
+
+def descripcion_corresponsal(titulo: str, escrito: str, nota: str, lugar: str = "",
+                             fecha: str = "", api_key: str = "", model: str = "") -> dict:
+    """La descripción de Instagram de lo que llega por WhatsApp, con la especificación v1.0
+    (2026-10-02): 150 a 220 palabras si hay datos (menos si no, sin relleno), en párrafos
+    cortos, con las reglas por tema, y dos hashtags temáticos que se suman a los tres fijos.
+
+    Devuelve `{texto, hashtags, tema}`, o `{}` si Gemini no pudo: quien llama usa lo de siempre.
+    Igual que `descripcion_redes`, si trae una cita que no está en lo escrito se pide de nuevo."""
+    base = _escrito_limpio(escrito)
+    nota = (nota or "").strip()
+    if not (base or nota):
+        return {}
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        prompt = (_DESCRIPCION_CORRESPONSAL_PROMPT.replace(
+                      "{FECHA}", _FECHA_REGLA.replace("{F}", fecha) if fecha else "")
+                  + f"\n\nTÍTULO: {(titulo or '').strip()}"
+                  + (f"\nLUGAR: {lugar.strip()}" if (lugar or "").strip() else "")
+                  + "\n\nINFORMACIÓN ESCRITA (base):\n" + (base or "(no mandó nada escrito)")
+                  + "\n\nNOTA:\n" + (nota or "(sin nota)"))
+        raw = {}
+        for intento in range(2):
+            raw = _post_json([{"text": prompt}], key, model, _DESCRIPCION_CORRESPONSAL_SCHEMA,
+                             temperature=0.3, key_pool=_gemini_keys(key))
+            texto = str(raw.get("texto", "")).strip()
+            base_norm = " ".join((base + " " + nota).split()).lower()
+            ajenas = [c for c in _citas(texto) if " ".join(c.split()).lower() not in base_norm]
+            if not ajenas:
+                break
+            prompt += ("\n\nATENCIÓN: la versión anterior traía frases entre comillas que no "
+                       "están en las fuentes. Reescribila SIN esas citas.")
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la descripción de la especificación ({e}).")
+        return {}
+    texto = str(raw.get("texto", "")).strip()
+    if not texto:
+        return {}
+    fijos = {"#chivilcoy", "#diariolacampaña", "#diariolacampana", "#radiodelcentro"}
+    tags = []
+    for item in raw.get("hashtags") or []:
+        # A veces vienen dos en un mismo elemento («#SiniestroVial #SAME»): se separan.
+        for h in re.split(r"[\s#]+", str(item)):
+            h = "#" + "".join(ch for ch in h if ch.isalnum())
+            if len(h) > 2 and h.lower() not in fijos and h.lower() not in (t.lower() for t in tags):
+                tags.append(h)
+    tema = str(raw.get("tema", "")).strip().lower()
+    logger.info(f"Descripción (especificación): {len(texto.split())} palabras, tema «{tema}», "
+                f"hashtags {tags[:2]}")
+    return {"texto": texto, "hashtags": tags[:2], "tema": tema}
 
 
 _TITULAR_PROMPT = (

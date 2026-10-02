@@ -633,6 +633,12 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # Y si no quedó un titular de verdad, se deduce del texto completo.
     if hay:
         titulo = _asegurar_titulo(titulo, texto, resumen, volanta)
+    # Lo que llega por WhatsApp: volanta «Localidad · Tema» y titular de 6 a 12 palabras
+    # (especificación editorial v1.0, pedido 2026-10-02). El video no lleva bajada.
+    if hay and es_corresponsal:
+        volanta, titulo, _bajada = _titulacion_espec(texto, titulo, volanta,
+                                                     (ctx or {}).get("lugar", ""), extra_text,
+                                                     _fecha_larga())
 
     # Todo lo que viene DESPUÉS de la desgrabación (portada, reel, subir el reel, borrador en
     # Wix, ledger) también puede fallar por un hipo de red / GitHub Release / Wix. Si algo de
@@ -1133,11 +1139,13 @@ def _linea_hashtags(topicos=None) -> str:
     return " ".join(finales[:_MAX_HASHTAGS])
 
 
-def _descripcion_social(bajada: str, topicos=None, *, suscripcion: bool = False) -> str:
+def _descripcion_social(bajada: str, topicos=None, *, suscripcion: bool = False,
+                        sobrio: bool = False) -> str:
     """Descripción ÚNICA para todas las redes (web, IG, FB, TikTok, YouTube):
-    bajada en PÁRRAFOS + el link a la web BIEN ESCRITO + máximo 5 hashtags."""
+    bajada en PÁRRAFOS + el link a la web BIEN ESCRITO + máximo 5 hashtags.
+    `sobrio=True` (fallecimientos, especificación v1.0): el link va sin emoji."""
     cuerpo = _en_parrafos(_sitio_ok(_quitar_hashtags(bajada)))
-    partes = [cuerpo, f"📲 Seguí leyendo la nota completa en {_site()}"]
+    partes = [cuerpo, ("" if sobrio else "📲 ") + f"Seguí leyendo la nota completa en {_site()}"]
     if suscripcion:
         partes.append("🔔 Suscribite al canal para más noticias de Chivilcoy y la región.")
     partes.append(_linea_hashtags(topicos))
@@ -1303,6 +1311,65 @@ def _hashtag(palabra: str) -> str:
                          for p in limpio.split())
 
 
+# ── Especificación editorial v1.0 para lo que llega por WhatsApp (pedido 2026-10-02) ──────
+# Volanta «Localidad · Tema», titular de 6 a 12 palabras, bajada de 8 a 16 (va en la portada
+# del reel de fotos) y una descripción de 150 a 220 palabras con 5 hashtags.
+# `CORRESPONSAL_ESPEC_TEXTOS=0` vuelve a los textos de antes.
+_DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+_MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+          "septiembre", "octubre", "noviembre", "diciembre"]
+
+
+def _espec_textos_on() -> bool:
+    return (get("CORRESPONSAL_ESPEC_TEXTOS") or "1").strip().lower() not in (
+        "0", "no", "false", "off")
+
+
+def _fecha_larga(iso: str = "") -> str:
+    """«jueves 1 de octubre de 2026» de una fecha ISO (o de hoy si no hay)."""
+    try:
+        d = datetime.fromisoformat(str(iso)[:19]) if iso else datetime.now()
+    except ValueError:
+        d = datetime.now()
+    return f"{_DIAS[d.weekday()]} {d.day} de {_MESES[d.month - 1]} de {d.year}"
+
+
+def _titulacion_espec(texto: str, titulo: str, volanta: str, lugar: str = "",
+                      escrito: str = "", fecha: str = "") -> tuple[str, str, str]:
+    """(volanta, titular, bajada) de la especificación para lo que llega por WhatsApp. Lo que
+    Gemini no pudo dar bien queda como estaba (la bajada, vacía). La grafía la manda lo escrito."""
+    if not _espec_textos_on() or not (texto or "").strip():
+        return volanta, titulo, ""
+    try:
+        from utils import gemini
+        t = gemini.titulacion_corresponsal(texto, titulo, lugar=lugar, escrito=escrito,
+                                           fecha=fecha)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la titulación de la especificación ({e}).")
+        return volanta, titulo, ""
+    v, ti, b = t.get("volanta") or volanta, t.get("titulo") or titulo, t.get("bajada") or ""
+    if (escrito or "").strip():
+        from utils import grafia
+        c = grafia.corregir_campos({"volanta": v, "titular": ti, "bajada": b}, escrito)
+        v, ti, b = c["volanta"], c["titular"], c["bajada"]
+    return v, ti, b
+
+
+def _descripcion_espec(fila: dict, titulo: str, texto: str) -> dict:
+    """La descripción de la especificación (`gemini.descripcion_corresponsal`): `{texto,
+    hashtags, tema}`, o `{}` si no corresponde o Gemini no pudo (va la de siempre)."""
+    if not _espec_textos_on() or not fila.get("hay_noticia", True):
+        return {}
+    try:
+        from utils import gemini
+        return gemini.descripcion_corresponsal(
+            titulo, fila.get("escrito", ""), texto, lugar=fila.get("corresponsal_lugar", ""),
+            fecha=_fecha_larga(fila.get("fecha_recibido", "")))
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la descripción de la especificación ({e}).")
+        return {}
+
+
 def _descripcion_redes(fila: dict, titulo: str, texto: str, max_chars: int) -> str:
     """Descripción del posteo de un VIDEO desgrabado (pedido del usuario 2026-09-26): la base
     es lo que ESCRIBIÓ quien lo mandó (`fila["escrito"]`) y la desgrabación —el cuerpo de la
@@ -1370,7 +1437,7 @@ def _youtube_meta(volanta: str, titulo: str, resumen: str, texto: str,
 
 
 def _meta_corresponsal(volanta: str, titulo: str, resumen: str, texto: str,
-                       cuerpo: str = "") -> dict:
+                       cuerpo: str = "", topicos=None, sobrio: bool = False) -> dict:
     """Como `_youtube_meta` pero SIN reescribir el cuerpo: la descripción es el TEXTO del vecino (ya
     corregido, MISMO contenido y largo) + CTA + hashtags, y el título es el que quedó (fiel), no el
     SEO. Respeta el pedido de NO editar/acortar/extender la info del corresponsal (2026-08-09).
@@ -1382,7 +1449,10 @@ def _meta_corresponsal(volanta: str, titulo: str, resumen: str, texto: str,
     m["titulo"] = (titulo or m.get("titulo") or "")[:100]
     # Mismo formato que el resto: párrafos + link BIEN ESCRITO + máx 5 hashtags. El CUERPO no se
     # reescribe (es el texto del vecino ya corregido): solo se le separan los párrafos.
-    m["descripcion"] = _descripcion_social(cuerpo)
+    # Hashtags: los 3 fijos + 2 temáticos (especificación v1.0: exactamente cinco). Primero los
+    # que eligió la descripción; si faltan, los del SEO del Short.
+    seo = (m.get("hashtags") or "").split()[len(_HASHTAGS_FIJOS):]
+    m["descripcion"] = _descripcion_social(cuerpo, list(topicos or []) + seo, sobrio=sobrio)
     return m
 
 
@@ -1496,9 +1566,13 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # La descripción parte de lo que ESCRIBIÓ quien mandó el video; la desgrabación es solo
     # contexto y no se copian frases del audio (pedido 2026-09-26). Corresponsal: el texto
     # completo, como siempre; video del diario: una bajada corta, como siempre.
-    desc = _descripcion_redes(fila, titulo, texto, 1200 if es_corr else 450) if hay else ""
+    espec = _descripcion_espec(fila, titulo, texto) if (hay and es_corr) else {}
+    desc = espec.get("texto") or (
+        _descripcion_redes(fila, titulo, texto, 1200 if es_corr else 450) if hay else "")
     if hay and es_corr:
-        meta = _meta_corresponsal(volanta, titulo, resumen, texto, cuerpo=desc)
+        meta = _meta_corresponsal(volanta, titulo, resumen, texto, cuerpo=desc,
+                                  topicos=espec.get("hashtags"),
+                                  sobrio=espec.get("tema") == "fallecimiento")
     elif hay and _yt_enabled():
         meta = _youtube_meta(volanta, titulo, resumen, texto, bajada=desc)
     else:
@@ -1729,10 +1803,15 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         volanta, titular = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
     titular = _asegurar_titulo(titular, texto, resumen, volanta)
+    # Especificación editorial v1.0 (pedido 2026-10-02): volanta «Localidad · Tema», titular de
+    # 6 a 12 palabras y una bajada de 8 a 16 para la portada del reel.
+    volanta, titular, bajada_reel = _titulacion_espec(texto, titular, volanta,
+                                                      ctx.get("lugar", ""), desc, _fecha_larga())
     title = f"{volanta} — {titular}" if volanta else titular
 
     if dry_run:
-        logger.info(f"[dry-run] corresponsal-foto «{title}»: nota web (borrador) + reel a redes.")
+        logger.info(f"[dry-run] corresponsal-foto «{title}» ({bajada_reel or 'sin bajada'}): "
+                    f"nota web (borrador) + reel a redes.")
         return
 
     # Borrador en Wix (habilita «Corregir texto» / «Borrar» por botón + nota web al aprobar) y
@@ -1745,8 +1824,9 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
     # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
-    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
-                             volanta=volanta, cuerpo=texto, estilo="corresponsal")
+    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular,
+                             resumen=bajada_reel or resumen, volanta=volanta, cuerpo=texto,
+                             estilo="corresponsal")
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1756,6 +1836,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": True, "es_placa": True, "corr_foto": True,
         "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto,
+        "bajada_reel": bajada_reel, "escrito": desc,
         "draft_id": draft_id, "reel_url": reel_url, "estado": "borrador_foto_corr",
         "origen": ctx.get("origen", ""), "corresponsal_nombre": ctx.get("nombre", ""),
         "corresponsal_celular": ctx.get("celular", ""), "corresponsal_lugar": ctx.get("lugar", ""),
@@ -1806,9 +1887,16 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     if draft_id:
         volanta, titular, texto, resumen = _sincronizar_correccion(
             draft_id, volanta, titular, texto, resumen)
-    # SIN firma. Caption = TEXTO del vecino (corregido, NO reescrito) + hashtags: COMPLETO para
-    # YouTube, RECORTADO a los primeros 5 hashtags para IG/FB.
-    meta = _meta_corresponsal(volanta, titular, resumen, texto)
+    # La bajada de la portada (especificación v1.0) vale mientras no se haya corregido el cuerpo:
+    # si cambió, va el resumen nuevo.
+    bajada_reel = fila.get("bajada_reel", "") if resumen == fila.get("resumen", "") else ""
+    # SIN firma. Caption: la descripción de la especificación (150 a 220 palabras, 5 hashtags);
+    # si no sale, el TEXTO del vecino (corregido) + hashtags, como antes. Completa en YouTube y
+    # recortada a los primeros 5 hashtags en IG/FB.
+    espec = _descripcion_espec(fila, titular, texto)
+    meta = _meta_corresponsal(volanta, titular, resumen, texto, cuerpo=espec.get("texto", ""),
+                              topicos=espec.get("hashtags"),
+                              sobrio=espec.get("tema") == "fallecimiento")
     yt_desc = meta["descripcion"]
     caption = _caption_ig(_solo_5_hashtags(yt_desc), titular)
 
@@ -1825,7 +1913,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         WORK_DIR.mkdir(exist_ok=True)
         # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                 overlay=False, titular=titular, resumen=resumen,
+                                 overlay=False, titular=titular,
+                                 resumen=bajada_reel or resumen,
                                  volanta=volanta, cuerpo=texto, estilo="corresponsal")
         reel_url = upload_reel(reel_local)
     except Exception as e:
