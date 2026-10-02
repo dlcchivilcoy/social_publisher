@@ -340,7 +340,7 @@ def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
 
 
 def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
-                  volanta: str = "", cuerpo: str = "") -> str:
+                  volanta: str = "", cuerpo: str = "", estilo: str = "") -> str:
     """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
     Devuelve la URL o "" si falla (el mail sale sin ese botón).
 
@@ -354,7 +354,7 @@ def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False,
                                  titular=titular, resumen=resumen, volanta=volanta,
-                                 cuerpo=cuerpo)
+                                 cuerpo=cuerpo, estilo=estilo)
         return upload_reel(reel_local)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
@@ -1741,8 +1741,9 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         draft_id = info["draft_id"]
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
+    # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
     reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
-                             volanta=volanta, cuerpo=texto)
+                             volanta=volanta, cuerpo=texto, estilo="corresponsal")
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1819,9 +1820,10 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     try:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
+        # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
                                  overlay=False, titular=titular, resumen=resumen,
-                                 volanta=volanta, cuerpo=texto)
+                                 volanta=volanta, cuerpo=texto, estilo="corresponsal")
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")

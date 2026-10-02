@@ -199,6 +199,44 @@ PLACA_CAJA_TITULAR_MIN3 = 38
 PLACA_CAJA_SALTO = 1.10
 PLACA_CAJA_VOLANTA_TAM = 40
 PLACA_CAJA_OPACIDAD = 0.86     # la caja grafito deja ver apenas el video de atrás
+
+# ── Estética «especificación v1.0» (corresponsales de WhatsApp, pedido 2026-10-02) ────────
+# El usuario mandó una especificación editorial y visual («ESPECIFICACIÓN EDITORIAL Y VISUAL,
+# Diario La Campaña | Radio del Centro, versión 1.0») para los reels que arma el bot con lo que
+# llega al número de WhatsApp. Los demás reels (videos del diario, foto-notas, radio) siguen
+# con el estilo placa de arriba. En las FOTOS cambia la composición: la foto va A SANGRE en
+# todo el cuadro —también las apaisadas, lo eligió el usuario— y el texto va arriba sobre un
+# degradado carbón, en este orden: medio, volanta, titular, bajada. Sin cajas, sin sombreado
+# abajo. Si el texto taparía una cara, la foto baja y arranca debajo del texto. Los valores
+# son los de la especificación («orientativos para 1080x1920»).
+ESPEC_NARANJA = (239, 150, 60, 255)    # #EF963C
+ESPEC_CARBON = (32, 34, 38, 255)       # #202226
+ESPEC_BLANCO2 = (240, 240, 240, 255)   # #F0F0F0: el usuario y la bajada
+ESPEC_MX = 80                          # márgenes izquierdo y derecho
+ESPEC_ANCHO = 1080 - 2 * ESPEC_MX      # 920: ancho máximo del bloque
+ESPEC_Y_MARCA = 105                    # tope de las mayúsculas del encabezado
+ESPEC_MARCA_TAM = 28                   # «Diario La Campaña | Radio del Centro»
+ESPEC_USUARIO_TAM = 25                 # «@diarioyradio»
+ESPEC_MARCA_AIRE = 10                  # entre el encabezado y el usuario
+ESPEC_Y_VOLANTA = 260                  # tope de las mayúsculas de la volanta (245–275)
+ESPEC_VOLANTA_TAM = 38                 # 34–40
+ESPEC_PESO_VOLANTA = "500"
+ESPEC_Y_TITULAR = 330                  # tope de las mayúsculas del titular (315–350)
+ESPEC_TITULAR_TAM = 96                 # tamaño inicial (rango 78–112)
+ESPEC_TITULAR_MIN = 78
+ESPEC_TITULAR_PISO = 60                # solo si ni en 3 renglones a 78 entra (titular larguísimo)
+ESPEC_TITULAR_SALTO = 1.08             # 1,04–1,12
+# Peso 400 (la especificación pide 300 o 400; Google Sans arranca en 400) y apenas apretado.
+ESPEC_PESO_TITULAR = "400/-10"
+ESPEC_BAJADA_TAM = 40                  # 36–44, uno o dos renglones
+ESPEC_BAJADA_MIN = 36
+ESPEC_BAJADA_SALTO = 1.22              # 1,18–1,28
+ESPEC_GAP_BAJADA = 0.46                # de la línea base del titular al tope de la bajada (× titular)
+# Degradado carbón de arriba: (y, opacidad). Interpolación suave, sin escalones.
+ESPEC_DEGRADADO = ((0, 0.96), (400, 0.90), (650, 0.55), (850, 0.0))
+ESPEC_LOGO = (130, 80, 80)             # isologo: ancho, margen derecho, margen de arriba
+ESPEC_CARA_AIRE = 30                   # mínimo entre la última letra y la cabeza más alta
+ESPEC_FUNDIDO = 140                    # desvanecido de la foto cuando baja para no tapar caras
 # Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
 # entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
 # aunque el apellido caiga al renglón siguiente.
@@ -270,7 +308,14 @@ def _logo_a_la_derecha() -> bool:
     return _cfg("REEL_LOGO_LADO", "derecha").lower() not in ("izq", "izquierda", "left")
 
 
-def _logo_caja() -> tuple[int, int, int, int] | None:
+def _logo_geo() -> tuple[int, int, int]:
+    """(ancho, margen lateral, margen de arriba) del isologo de siempre (`REEL_LOGO_*`)."""
+    return (int(float(_cfg("REEL_LOGO_ANCHO", str(LOGO_ANCHO)))),
+            int(float(_cfg("REEL_LOGO_MARGEN_X", str(LOGO_MX)))),
+            int(float(_cfg("REEL_LOGO_MARGEN_Y", str(LOGO_MY)))))
+
+
+def _logo_caja(geo: tuple | None = None) -> tuple[int, int, int, int] | None:
     """(x0, y0, x1, y1): el rectángulo que ocupa el isologo. None si el reel va sin logo.
 
     El alto se MIDE del PNG en vez de fijarlo, porque el filtergraph lo escala con
@@ -279,9 +324,7 @@ def _logo_caja() -> tuple[int, int, int, int] | None:
     ruta = _asset("REEL_LOGO", LOGO_REEL)
     if not ruta:
         return None
-    ancho = int(float(_cfg("REEL_LOGO_ANCHO", str(LOGO_ANCHO))))
-    mx = int(float(_cfg("REEL_LOGO_MARGEN_X", str(LOGO_MX))))
-    my = int(float(_cfg("REEL_LOGO_MARGEN_Y", str(LOGO_MY))))
+    ancho, mx, my = geo or _logo_geo()
     try:
         from PIL import Image
         with Image.open(ruta) as im:
@@ -1638,8 +1681,175 @@ def _cuanto_tapa(rect: tuple, cabezas: list) -> float:
     return peor
 
 
+def _marca_espec(f: dict) -> tuple:
+    """El encabezado de la especificación, arriba a la izquierda: «Diario La Campaña | Radio
+    del Centro» (28, blanco) y debajo «@diarioyradio» (25, blanco secundario). Devuelve
+    `(bloques, línea base del último renglón)`."""
+    nombres = " | ".join(l.strip() for l in
+                         _cfg("REEL_PLACA_MARCA_TEXTO", PLACA_MARCA_TEXTO).split("|")
+                         if l.strip())
+    usuario = _cfg("REEL_MARCA_USUARIO", MARCA_USUARIO)
+    caja_logo = _logo_caja(ESPEC_LOGO)
+    borde = (caja_logo[0] - 24) if (caja_logo and _logo_a_la_derecha()) else 1080 - ESPEC_MX
+    tam = ESPEC_MARCA_TAM
+    while tam > MARCA_TAM_MIN and nombres and \
+            _ancho_texto(nombres, f["f_r"], tam, "400") > borde - ESPEC_MX:
+        tam -= 1
+    asc, may = _metricas(f["f_r"], tam, "400")
+    base, fin, bloques = ESPEC_Y_MARCA + may, ESPEC_Y_MARCA, []
+    if nombres:
+        bloques.append((nombres, tam, base - asc, f["f_r"], "400", BLANCO, ESPEC_MX))
+        fin = base
+        base += ESPEC_USUARIO_TAM + ESPEC_MARCA_AIRE
+    if usuario:
+        asc_u, _may = _metricas(f["f_r"], ESPEC_USUARIO_TAM, "400")
+        bloques.append((usuario, ESPEC_USUARIO_TAM, base - asc_u, f["f_r"], "400",
+                        ESPEC_BLANCO2, ESPEC_MX))
+        fin = base
+    return bloques, fin
+
+
+def _titulo_espec(titular: str, f: dict) -> tuple:
+    """(cuerpo, renglones) del titular de la especificación: arranca en 96, se adapta entre
+    78 y 112 y va en dos o tres renglones. Solo un titular larguísimo baja de 78 (y recién
+    ahí puede ir en cuatro): la especificación prefiere achicar «moderadamente» antes que
+    cortarlo, y la etapa de textos lo va a acortar desde Gemini."""
+    if not titular:
+        return 0, []
+    fe = dict(f, p_t=ESPEC_PESO_TITULAR)
+    for maximo, tope, minimo in ((3, ESPEC_TITULAR_TAM, ESPEC_TITULAR_MIN),
+                                 (3, ESPEC_TITULAR_MIN, ESPEC_TITULAR_PISO),
+                                 (4, ESPEC_TITULAR_PISO, ESPEC_TITULAR_PISO - 8)):
+        c, lineas = _titulo_en(titular, fe, ESPEC_ANCHO, maximo, tope, minimo)
+        if lineas and not lineas[-1].endswith("…"):
+            return c, lineas
+    return c, lineas
+
+
+def _bajada_espec(resumen: str, f: dict) -> tuple:
+    """(cuerpo, renglones) de la bajada: uno o dos renglones, cerrando en punto (oraciones
+    enteras o cortada donde la frase respira, como `_bajada_abajo`). Vacío si no entra."""
+    resumen = " ".join((resumen or "").split())
+    if not resumen:
+        return 0, []
+    for c in range(ESPEC_BAJADA_TAM, ESPEC_BAJADA_MIN - 1, -2):
+        lineas = _texto_cerrado(resumen, f["f_r"], c, ESPEC_ANCHO, 2, "400")
+        if lineas:
+            return c, lineas
+    lineas = _recorte_limpio(resumen, f["f_r"], ESPEC_BAJADA_MIN, ESPEC_ANCHO, 2, "400")
+    return (ESPEC_BAJADA_MIN, lineas) if lineas else (0, [])
+
+
+def _texto_espec(volanta: str, titular: str, resumen: str, f: dict) -> dict:
+    """El bloque de texto de la especificación, de arriba hacia abajo: encabezado, volanta
+    (naranja, un renglón), titular (blanco) y bajada (blanco secundario). Es FIJO —no depende
+    de la foto—, así en un pase de varias fotos el texto queda quieto."""
+    bloques, fin = _marca_espec(f)
+    marca = list(bloques)
+    v, vtxt = _volanta_renglon(volanta, f["f_r"], ESPEC_ANCHO, ESPEC_VOLANTA_TAM,
+                               ESPEC_PESO_VOLANTA)
+    y_cap = ESPEC_Y_VOLANTA
+    tinta = fin
+    if vtxt:
+        asc, may = _metricas(f["f_r"], v, ESPEC_PESO_VOLANTA)
+        bl = y_cap + may
+        bloques.append((vtxt, v, bl - asc, f["f_r"], ESPEC_PESO_VOLANTA, ESPEC_NARANJA,
+                        ESPEC_MX))
+        tinta = bl + _pie_de_tinta(vtxt, f["f_r"], v, ESPEC_PESO_VOLANTA)
+    c, lineas = _titulo_espec(titular, f)
+    if lineas:
+        asc, may = _metricas(f["f_t"], c, ESPEC_PESO_TITULAR)
+        salto = round(c * ESPEC_TITULAR_SALTO)
+        y0 = max(ESPEC_Y_TITULAR, tinta + round(c * 0.42)) if vtxt else ESPEC_Y_VOLANTA
+        for i, l in enumerate(lineas):
+            bl = y0 + may + i * salto
+            bloques.append((l, c, bl - asc, f["f_t"], ESPEC_PESO_TITULAR, BLANCO, ESPEC_MX))
+        tinta = bl + _pie_de_tinta(lineas[-1], f["f_t"], c, ESPEC_PESO_TITULAR)
+        base_tit = bl
+    else:
+        base_tit = tinta
+    cb, bajada = _bajada_espec(resumen, f)
+    if bajada:
+        asc, may = _metricas(f["f_r"], cb, "400")
+        salto = round(cb * ESPEC_BAJADA_SALTO)
+        y0 = base_tit + round((c or cb) * ESPEC_GAP_BAJADA)
+        for i, l in enumerate(bajada):
+            bl = y0 + may + i * salto
+            bloques.append((l, cb, bl - asc, f["f_r"], "400", ESPEC_BLANCO2, ESPEC_MX))
+        tinta = bl + _pie_de_tinta(bajada[-1], f["f_r"], cb, "400")
+    return dict(bloques=bloques, marca=marca, fin=tinta, titulo=lineas, volanta=vtxt,
+                bajada=bajada, fin_marca=fin)
+
+
+def _degradado_espec(fin: int, cabeza: float | None) -> tuple:
+    """Las paradas del degradado: las de la especificación, corridas hacia abajo si el texto
+    termina más abajo de lo previsto (que la última letra no quede sobre la zona clara), y
+    acortadas si hay una cabeza debajo del texto (que la cara no quede a oscuras)."""
+    (ya, a), (yb, b), (yc, c), (yd, d) = ESPEC_DEGRADADO
+    yc = max(yc, fin - 60)
+    yd = max(yd, fin + 120)
+    if cabeza is not None and cabeza < yd:
+        yd = max(fin + 60, int(cabeza))
+        yc = min(yc, yd - 60)
+    yb = min(yb, yc - 120)
+    return ((ya, a), (max(1, yb), b), (yc, c), (yd, d))
+
+
+def _plan_espec_foto(volanta: str, titular: str, resumen: str, f: dict, w: int, h: int,
+                     grafica: bool, caras) -> dict:
+    """Una FOTO de corresponsal con la especificación v1.0 (ver `ESPEC_NARANJA`).
+
+    · La foto A SANGRE: llena el cuadro (escala = la mayor de ancho y alto) y se recorta
+      buscando a los sujetos (`_ventana_caras`, el mismo que usa `_placa_de_foto`).
+    · Encima, el degradado carbón y el texto arriba (`_texto_espec`).
+    · Si con eso una CABEZA queda debajo del texto, la foto baja: arranca debajo de la última
+      letra, sobre el carbón, con un desvanecido — «adaptar el área superior y el encuadre sin
+      inventar contenido», dice la especificación.
+    · Un afiche (gráfica) no se recorta nunca: si es vertical va entero con solo la marca, como
+      siempre; si es apaisado, entero a lo ancho debajo del texto."""
+    forma = forma_de(w, h, grafica)
+    texto = _texto_espec(volanta, titular, resumen, f)
+    fin = texto["fin"]
+    plan = dict(forma=forma, bloques=list(texto["bloques"]), bajada=list(texto["bajada"]),
+                cover=False, fundido=(0, 0), sombra_arriba=False, grafica=grafica,
+                estilo="corresponsal", logo=ESPEC_LOGO, titulo=texto["titulo"],
+                volanta=texto["volanta"], texto=(ESPEC_MX, ESPEC_Y_MARCA, 1080 - ESPEC_MX, fin),
+                degradado=None, color_degradado=ESPEC_CARBON, fondo=ESPEC_CARBON)
+    w, h = max(1, w), max(1, h)
+    if forma == "afiche":
+        esc = min(1080 / w, 1920 / h)
+        aw, ah = max(2, round(w * esc)) // 2 * 2, max(2, round(h * esc)) // 2 * 2
+        y = max(0, min(PLACA_AFICHE_TOPE, 1920 - ah))
+        plan.update(bloques=list(texto["marca"]), bajada=[], titulo=[], volanta="",
+                    media=((1080 - aw) // 2, y, aw, ah), sombra_arriba=True,
+                    texto=(ESPEC_MX, ESPEC_Y_MARCA, 1080 - ESPEC_MX, texto["fin_marca"]))
+        return plan
+    if grafica:
+        # Afiche apaisado: entero, a lo ancho (con margen para su sombra), debajo del texto.
+        aw = 1080 - 2 * PLACA_GRAFICA_MX
+        ah = min(round(aw * h / w), 1920 - BANDA_SEGURO - fin - 60) // 2 * 2
+        aw = min(aw, round(ah * w / h)) // 2 * 2
+        plan["media"] = ((1080 - aw) // 2, fin + 60, aw, ah)
+        return plan
+    media = (0, 0, 1080, 1920)
+    cover = abs(1080 * h / w - 1920) > 2
+    cabezas = _caras_en_cuadro(caras, w, h, media, cover)
+    tope_cabeza = min((c[1] for c in cabezas), default=None)
+    if tope_cabeza is not None and tope_cabeza < fin + ESPEC_CARA_AIRE:
+        # La foto baja: arranca debajo del texto y se funde con el carbón por arriba.
+        y = fin + 50
+        media, cover = (0, y, 1080, 1920 - y), True
+        logger.info(f"El texto taparía una cara (y={tope_cabeza:.0f}): la foto arranca debajo "
+                    f"del texto, en y={y}.")
+        plan.update(media=media, cover=cover, fundido=(ESPEC_FUNDIDO, 0))
+        return plan
+    plan.update(media=media, cover=cover, degradado=_degradado_espec(fin, tope_cabeza))
+    return plan
+
+
 def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
-               grafica: bool = False, modo_texto: str = "", caras=None) -> dict:
+               grafica: bool = False, modo_texto: str = "", caras=None,
+               estilo: str = "", video: bool = False) -> dict:
     """TODO lo que va en un cuadro del reel estilo placa, según la FORMA del material
     (pedido del usuario 2026-09-26; ver `PLACA_VERTICAL_AR`):
 
@@ -1661,8 +1871,13 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
     Devuelve un dict con `forma`, `bloques` (todo el texto), `bajada` (sus renglones),
     `media=(x, y, ancho, alto)` (dónde va la imagen), `cover` (si hay que recortarla para
     llenar), `fundido=(arriba, abajo)`, `sombra_arriba` y `grafica`; en «pantalla», además,
-    `cajas`, `halo`, `banda`, `titulo`, `volanta` y `texto` (el rectángulo que ocupa)."""
+    `cajas`, `halo`, `banda`, `titulo`, `volanta` y `texto` (el rectángulo que ocupa).
+
+    `estilo="corresponsal"` (material que llega por WhatsApp, 2026-10-02): las FOTOS van con
+    la especificación v1.0 (`_plan_espec_foto`). Los videos, por ahora, como siempre."""
     f = _fuentes_placa()
+    if estilo == "corresponsal" and not video:
+        return _plan_espec_foto(volanta, titular, resumen, f, w, h, grafica, caras)
     forma = forma_de(w, h, grafica)
     modo = modo_texto or forma
     marca, fin_marca = _marca_bloques(f)
@@ -1832,6 +2047,8 @@ def pintar_placa(lienzo, plan: dict) -> None:
     """Pinta sobre `lienzo` (RGB o RGBA) todo lo de un `plan_placa` que va encima de la
     imagen: los sombreados, el halo de la letra, las cajas y el texto, en ese orden."""
     from PIL import Image, ImageDraw
+    if plan.get("degradado"):
+        _pintar_degradado(lienzo, plan["degradado"], plan.get("color_degradado", ESPEC_CARBON))
     if plan.get("sombra_arriba"):
         sombrear_arriba(lienzo)
     if plan.get("banda"):
@@ -1845,6 +2062,29 @@ def pintar_placa(lienzo, plan: dict) -> None:
             dib.rectangle((x0, y0, x1 - 1, y1 - 1), fill=tuple(color))
         _componer(lienzo, capa)
     dibujar_bloques(ImageDraw.Draw(lienzo), plan["bloques"])
+
+
+def _pintar_degradado(lienzo, paradas, color) -> None:
+    """El degradado carbón de arriba de la especificación: `paradas` = ((y, opacidad), …),
+    con curva suave entre parada y parada (sin escalones ni un corte que se vea)."""
+    from PIL import Image
+    col = []
+    for y in range(lienzo.height):
+        a = 0.0
+        if y <= paradas[0][0]:
+            a = paradas[0][1]
+        elif y < paradas[-1][0]:
+            for (y0, a0), (y1, a1) in zip(paradas, paradas[1:]):
+                if y0 <= y < y1:
+                    a = a0 + (a1 - a0) * _curva_suave((y - y0) / max(1, y1 - y0))
+                    break
+        else:
+            a = paradas[-1][1]
+        col.append(round(255 * max(0.0, min(1.0, a))))
+    alfa = Image.frombytes("L", (1, lienzo.height), bytes(col)).resize(lienzo.size, Image.NEAREST)
+    capa = Image.new("RGBA", lienzo.size, tuple(color[:3]) + (255,))
+    capa.putalpha(alfa)
+    _componer(lienzo, capa)
 
 
 def _componer(lienzo, capa) -> None:
@@ -1910,13 +2150,24 @@ def sombrear_arriba(lienzo) -> None:
         lienzo.paste(negro.convert("RGB"), (0, 0), alfa)
 
 
+def _x_renglon(campo) -> tuple:
+    """(x, anchor, centrado) del 7º campo de un renglón: `True` = centrado (lo usaba el estilo
+    anterior), un NÚMERO = la x de su margen izquierdo (el estilo de los corresponsales va a
+    80), `False` = el margen de siempre, `PLACA_MX`."""
+    if campo is True:
+        return 540, "ma", True
+    if isinstance(campo, (int, float)) and not isinstance(campo, bool) and campo:
+        return int(campo), "la", False
+    return PLACA_MX, "la", False
+
+
 def dibujar_bloques(dib, bloques) -> None:
     """Dibuja los renglones que arma `plan_placa` sobre un ImageDraw."""
-    for texto, cuerpo, y, fuente, peso, color, centrado in bloques:
+    for texto, cuerpo, y, fuente, peso, color, campo in bloques:
         f = _tipo(fuente, cuerpo, peso)
-        # `anchor="la"`: la `y` es el ascendente del renglón. Centrado (lo usaba el estilo
-        # anterior) ancla por el medio y la x pasa a ser el centro.
-        x, anchor = (540, "ma") if centrado else (PLACA_MX, "la")
+        # `anchor="la"`: la `y` es el ascendente del renglón. Centrado ancla por el medio y la
+        # x pasa a ser el centro.
+        x, anchor, centrado = _x_renglon(campo)
         track = _interletra(peso)[1] * cuerpo
         if not track or centrado:
             # Sin sombra: contra el fondo liso solo ensuciaba el contorno de la letra.
@@ -2627,7 +2878,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
                 texto_placa: tuple | None = None,
                 color_fondo: str = "",
                 fondo_placa: Path | None = None,
-                capa_texto: Path | None = None) -> None:
+                capa_texto: Path | None = None,
+                logo_geo: tuple | None = None) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada. Si `recorte` (w,h,x,y) viene dado, primero
@@ -2738,9 +2990,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         idx = n_in
         inputs += ["-i", str(logo_png)]
         n_in += 1
-        ancho = int(float(_cfg("REEL_LOGO_ANCHO", str(LOGO_ANCHO))))
-        mx = int(float(_cfg("REEL_LOGO_MARGEN_X", str(LOGO_MX))))
-        my = int(float(_cfg("REEL_LOGO_MARGEN_Y", str(LOGO_MY))))
+        # `logo_geo`: el estilo de los corresponsales lo lleva a 80 px de los bordes.
+        ancho, mx, my = logo_geo or _logo_geo()
         op = float(_cfg("REEL_LOGO_OPACIDAD", "0.92"))
         # `W-w` = ancho del cuadro menos el del logo. Se deja que lo calcule ffmpeg en vez
         # de hacer la cuenta acá: el `scale={ancho}:-1` define el alto —y por lo tanto el
@@ -2939,9 +3190,8 @@ def autochequeo() -> bool:
             for texto, cuerpo, y, fuente, peso, color, centrado in plan["bloques"]:
                 # La caja de TINTA de verdad (no la del renglón, que incluye el ascendente
                 # vacío por encima de las mayúsculas): lo que tapan las apps es lo que se ve.
-                x = 540 if centrado else PLACA_MX
-                bx0, by0, bx1, by1 = _tipo(fuente, cuerpo, peso).getbbox(
-                    texto, anchor="ma" if centrado else "la")
+                x, anchor, centrado = _x_renglon(centrado)
+                bx0, by0, bx1, by1 = _tipo(fuente, cuerpo, peso).getbbox(texto, anchor=anchor)
                 # Con interletrado negativo el renglón dibujado es más angosto que el que mide PIL.
                 bx1 += _interletra(peso)[1] * cuerpo * max(0, len(texto) - 1)
                 r = (x + bx0, y + by0, x + bx1, y + by1)
@@ -3013,6 +3263,53 @@ def autochequeo() -> bool:
                   f"imagen {wm}x{hm} desde y={y_media}")
             for f in fallas:
                 print(f"        → {f}")
+
+    print("\n=== estilo de los corresponsales (especificación v1.0, fotos) ===")
+    caja_logo_e = _logo_caja(ESPEC_LOGO)
+    for nombre, vol, tit, res in MAQUETAS:
+        for etiqueta, w, h, graf in (("foto 9:16", 1080, 1920, False),
+                                     ("foto 3:4", 960, 1280, False),
+                                     ("foto 16:9", 1920, 1080, False),
+                                     ("afiche 4:5", 1080, 1350, True)):
+            fallas = []
+            plan = plan_placa(vol, tit, res, w, h, grafica=graf, estilo="corresponsal")
+            for texto, cuerpo, y, fuente, peso, color, campo in plan["bloques"]:
+                x, anchor, _c = _x_renglon(campo)
+                bx0, by0, bx1, by1 = _tipo(fuente, cuerpo, peso).getbbox(texto, anchor=anchor)
+                bx1 += _interletra(peso)[1] * cuerpo * max(0, len(texto) - 1)
+                r = (x + bx0, y + by0, x + bx1, y + by1)
+                if r[0] < ESPEC_MX - 6 or r[2] > 1080 - ESPEC_MX + 6:
+                    fallas.append(f"«{texto[:22]}» se sale del margen (x={r[0]:.0f}..{r[2]:.0f})")
+                if r[3] > 1920 - BANDA_SEGURO:
+                    fallas.append(f"«{texto[:22]}» entra en la franja de abajo (y={r[3]})")
+                if caja_logo_e and not (r[2] <= caja_logo_e[0] or r[0] >= caja_logo_e[2]
+                                        or r[3] <= caja_logo_e[1] or r[1] >= caja_logo_e[3]):
+                    fallas.append(f"«{texto[:22]}» SE SUPERPONE CON EL ISOLOGO")
+            titulo, bajada = plan["titulo"], plan["bajada"]
+            if plan["forma"] == "afiche":
+                if titulo or bajada:
+                    fallas.append("un afiche lleva solo la marca")
+            else:
+                if vol and not plan["volanta"]:
+                    fallas.append("falta la volanta")
+                if any(t.endswith("…") for t in titulo):
+                    fallas.append("el titular queda cortado con «…»")
+                if len(titulo) > (4 if len(tit) > 100 else 3):
+                    fallas.append(f"el titular va en {len(titulo)} renglones")
+                if res and not bajada:
+                    fallas.append("la bajada no entró")
+                if len(bajada) > 2 or (bajada and bajada[-1][-1] not in ".!?»"):
+                    fallas.append(f"bajada mal cerrada o larga: {bajada}")
+                if plan["media"] != (0, 0, 1080, 1920) or not plan["degradado"]:
+                    fallas.append(f"la foto no va a sangre con degradado ({plan['media']})")
+                if plan.get("cajas"):
+                    fallas.append("la foto no lleva cajas")
+            ok = ok and not fallas
+            print(f"  {'OK  ' if not fallas else 'MAL '} {nombre} · {etiqueta}: "
+                  f"«{plan['forma']}», titular {len(titulo)} renglón/es, bajada {len(bajada)}, "
+                  f"el texto termina en y={plan['texto'][3]}")
+            for f_ in fallas:
+                print(f"        → {f_}")
 
     print("\n=== reel de prueba (el camino completo, como en una publicación) ===")
     with tempfile.TemporaryDirectory() as d:
@@ -3094,6 +3391,22 @@ def autochequeo() -> bool:
         except Exception as e:                                   # noqa: BLE001
             ok = False
             print(f"  ROTO tres fotos de formas distintas: {type(e).__name__}: {e}")
+        # Las mismas fotos con el estilo de los corresponsales (especificación v1.0).
+        try:
+            salida = tmp / "reel_corresponsal.mp4"
+            foto_a_reel(fotos, salida, seg=14, overlay=False, estilo="corresponsal",
+                        titular="Un auto se incendió en la Ruta 30",
+                        resumen="La conductora resultó ilesa.", volanta="Kilómetro 480")
+            w, h = _dimensiones(salida)
+            dur = duration_seconds(salida) or 0
+            falta = ultimo_reel_degradado()
+            bien = (w, h) == (1080, 1920) and dur > 8 and not falta
+            ok = ok and bien
+            print(f"  {'OK  ' if bien else 'MAL '} fotos de corresponsal (especificación): "
+                  f"{w}x{h}, {dur:.1f}s" + (f"  ← se cayó a «{falta}»" if falta else ""))
+        except Exception as e:                                   # noqa: BLE001
+            ok = False
+            print(f"  ROTO fotos de corresponsal: {type(e).__name__}: {e}")
 
     print("\n" + ("=== TODO EN ORDEN: el próximo reel puede salir tranquilo ===" if ok else
                   "=== HAY ALGO MAL: mirá las líneas de arriba ==="))
@@ -3149,7 +3462,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                      placa_final: bool = True, zocalo: str | None = None,
                      overlay: bool = True, titular: str = "", resumen: str = "",
                      volanta: str = "", cuerpo: str = "",
-                     compuesto=None) -> Path:
+                     compuesto=None, estilo: str = "") -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
@@ -3188,8 +3501,12 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     `compuesto` avisa que el 'video' es un reel de FOTOS que ya viene armado cuadro por
     cuadro, con fondo, foto y texto (ver `foto_a_reel`): acá solo se le pegan el isologo y la
     placa de cierre. Si es un PNG, además se le pega ese texto encima.
+
+    `estilo="corresponsal"` (lo que llega por WhatsApp): isologo a 80 px de los bordes y, en
+    las fotos, la especificación v1.0 (ver `plan_placa`).
     """
     src, salida = Path(src), Path(salida)
+    logo_geo = ESPEC_LOGO if estilo == "corresponsal" else None
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
     placa_cierre = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
     seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
@@ -3201,7 +3518,8 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                     seg_placa=seg_placa, recorte=None, encuadre=(1080, 1920, 0, 0),
                     marca_texto=False, texto_placa=None, color_fondo="",
                     fondo_placa=None,
-                    capa_texto=compuesto if isinstance(compuesto, Path) else None)
+                    capa_texto=compuesto if isinstance(compuesto, Path) else None,
+                    logo_geo=logo_geo)
         escalones = [("completo", base)]
         if placa_cierre:
             escalones.append(("sin la placa de cierre", {**base, "placa": None, "seg_placa": 0.0}))
@@ -3248,13 +3566,14 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     # muy comprimido tiene manchones planos que lo harían pasar por gráfica sin serlo.
     grafica = _es_grafica(src, salida.parent) if (_bandas_on() and es_foto) else False
     caras = None
+    espec_foto = estilo == "corresponsal" and es_foto
     if _bandas_on() and (titular or resumen or volanta):
         # A pantalla completa el titular va ENCIMA del video: se buscan las caras antes, para
-        # no taparlas (y el encuadre las reusa).
-        if forma_de(cont_w, cont_h, grafica) == "pantalla":
+        # no taparlas (y el encuadre las reusa). Con la especificación, toda foto va a sangre.
+        if forma_de(cont_w, cont_h, grafica) == "pantalla" or (espec_foto and not grafica):
             caras = _caras_de_video(src, recorte, salida.parent)
         plan = plan_placa(volanta, titular, resumen, cont_w, cont_h, grafica=grafica,
-                          caras=caras)
+                          caras=caras, estilo=estilo, video=not es_foto)
         png = placa_png(plan, salida.parent / f"placa_{salida.stem}.png")
         if png:
             _x, y_media, ancho_foto, alto_foto = plan["media"]
@@ -3266,8 +3585,12 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                                    arriba=arriba, abajo=abajo, ancho=ancho_foto)
                        if (arriba or abajo) else None)
             placa = (png, y_media, mascara, alto_foto, plan["cover"], ancho_foto)
-            fondo_pl = fondo_placa_png(salida.parent / f"fondo_placa_{salida.stem}.png",
-                                       color_fondo)
+            if plan.get("estilo") == "corresponsal":
+                # Carbón liso de la especificación, sin humo.
+                color_fondo = "0x%02X%02X%02X" % ESPEC_CARBON[:3]
+            else:
+                fondo_pl = fondo_placa_png(salida.parent / f"fondo_placa_{salida.stem}.png",
+                                           color_fondo)
     # Con placa el marco naranja no va: el fondo es el carbón que pinta el filtergraph.
     fondo = None if placa else fondo_enmarcado(
         cont_w, cont_h, salida.parent / f"fondo_{salida.stem}.png")
@@ -3292,7 +3615,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
     marca = dict(fondo=fondo, logo_png=logo_png, overlay=overlay_png, placa=placa_cierre,
                  seg_placa=seg_placa, recorte=recorte, encuadre=encuadre,
                  marca_texto=logo, texto_placa=placa, color_fondo=color_fondo,
-                 fondo_placa=fondo_pl, capa_texto=None)
+                 fondo_placa=fondo_pl, capa_texto=None, logo_geo=logo_geo)
     pelado = dict(fondo=None, logo_png=None, overlay=None, placa=None, seg_placa=0.0,
                   recorte=None, encuadre=None, marca_texto=False, texto_placa=None,
                   color_fondo="", fondo_placa=None, capa_texto=None)
@@ -3452,7 +3775,8 @@ def _caras_de_foto(img) -> list:
 
 
 def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
-                      resumen: str, volanta: str, work_dir: Path, clave: str) -> bool:
+                      resumen: str, volanta: str, work_dir: Path, clave: str,
+                      estilo: str = "") -> bool:
     """Arma el 'video fuente' de un reel de FOTOS en el estilo placa: cada foto compuesta
     ENTERA por separado (`_placa_de_foto`, con su texto) y unidas con un fundido encadenado.
 
@@ -3460,10 +3784,14 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
     a otra: si alguna foto es VERTICAL, todas usan el bloque vertical (volanta + titular en dos
     renglones, que entra en la franja chica de arriba). Los afiches van con solo la marca."""
     from PIL import Image
-    color = _color_dominante(fotos[0], work_dir)          # "" salvo REEL_PLACA_FONDO_AUTO=1
-    fondo_png = fondo_placa_png(work_dir / f"fondo_placa_{clave}.png", color)
-    fondo = (Image.open(fondo_png).convert("RGB") if fondo_png else
-             Image.new("RGB", (1080, 1920), _rgb_de(_color_fondo(color))))
+    if estilo == "corresponsal":
+        # La especificación: carbón liso, sin humo (casi no se ve: la foto va a sangre).
+        fondo = Image.new("RGB", (1080, 1920), ESPEC_CARBON[:3])
+    else:
+        color = _color_dominante(fotos[0], work_dir)      # "" salvo REEL_PLACA_FONDO_AUTO=1
+        fondo_png = fondo_placa_png(work_dir / f"fondo_placa_{clave}.png", color)
+        fondo = (Image.open(fondo_png).convert("RGB") if fondo_png else
+                 Image.new("RGB", (1080, 1920), _rgb_de(_color_fondo(color))))
     miradas = []
     for i, f in enumerate(fotos):
         try:
@@ -3481,10 +3809,13 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
     for i, (f, img, grafica) in enumerate(miradas):
         try:
             forma = formas[i]
-            # Las que se recortan o llevan texto encima buscan caras acá, una sola vez.
-            caras = _caras_de_foto(img) if forma in ("pantalla", "vertical") else None
+            # Las que se recortan o llevan texto encima buscan caras acá, una sola vez. Con
+            # la especificación TODAS se recortan (van a sangre), salvo los afiches.
+            recorta = (estilo == "corresponsal" and not grafica) or forma in ("pantalla",
+                                                                               "vertical")
+            caras = _caras_de_foto(img) if recorta else None
             plan = plan_placa(volanta, titular, resumen, img.width, img.height,
-                              grafica=grafica, modo_texto=modo, caras=caras)
+                              grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo)
             placas.append(_placa_de_foto(img, plan, fondo,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
                                          Path(f).name, caras=caras))
@@ -3502,7 +3833,7 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
 def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None = None,
                 firma: str | None = None, overlay: bool = True,
                 titular: str = "", resumen: str = "", volanta: str = "",
-                cuerpo: str = "") -> Path:
+                cuerpo: str = "", estilo: str = "") -> Path:
     """Convierte una FOTO (o varias) de una nota en un reel vertical 9:16 con el MISMO
     criterio estético que los videos: logo arriba a la derecha, texto de la nota arriba y
     la placa de cierre «Seguinos en redes» al final.
@@ -3516,6 +3847,8 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
     `seg` es la DURACIÓN TOTAL apuntada del reel (default `REEL_FOTO_SEG`, 30s): se le
     descuentan los segundos de la placa para que el total quede en ~`seg`. Devuelve el .mp4.
     `cuerpo` ya no se usa (era el «pie» de las apaisadas, que reemplazó la bajada).
+    `estilo="corresponsal"`: lo que llega por WhatsApp, con la especificación v1.0
+    (`_plan_espec_foto`).
     """
     fotos = [Path(f) for f in fotos]
     salida = Path(salida)
@@ -3533,14 +3866,15 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
         try:
             listo = _fotos_compuestas(fotos, base, seg_cont, titular=titular, resumen=resumen,
                                       volanta=volanta, work_dir=salida.parent,
-                                      clave=salida.stem)
+                                      clave=salida.stem, estilo=estilo)
         except Exception as e:                                   # noqa: BLE001
             logger.error(f"No pude componer las fotos en el estilo placa ({e}); van con el "
                          f"armado de antes.")
         if listo:
             logger.info(f"Foto-reel: {len(fotos)} foto(s) compuestas una por una → "
                         f"{seg_cont:.0f}s de contenido + placa")
-            return to_vertical_reel(base, salida, audio=False, firma=firma, compuesto=True)
+            return to_vertical_reel(base, salida, audio=False, firma=firma, compuesto=True,
+                                    estilo=estilo)
     if len(fotos) == 1:
         _foto_a_clip(fotos[0], base, seg_cont)
     else:
@@ -3554,7 +3888,7 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
                 f"(branding igual que los videos)")
     return to_vertical_reel(base, salida, audio=False, firma=firma, zocalo=zocalo or "",
                             overlay=overlay, titular=titular, resumen=resumen,
-                            volanta=volanta, es_foto=True)
+                            volanta=volanta, es_foto=True, estilo=estilo)
 
 
 def frame_at(src, seconds, salida) -> Path:
