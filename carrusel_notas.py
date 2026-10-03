@@ -4,7 +4,8 @@ Un solo posteo en Facebook + Instagram con TODAS las notas del día (un slide po
 nota: foto + titular + resumen breve), ordenadas por el número con que empieza el
 nombre del archivo. Además:
   - publica cada nota en Wix/web (destino del "seguí leyendo"),
-  - comparte cada nota en X (Twitter) como tweet individual con link a la nota.
+  - comparte cada nota en X (Twitter) como tweet individual con link a la nota,
+  - sube a las historias de IG la portada del carrusel (CARRUSEL_HISTORIA).
 Reemplaza el feed por nota (07:00/13:00) y las historias por nota (07:15).
 """
 import json
@@ -21,7 +22,7 @@ from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
                        _save_ledger)
-from story_image import compose_note_slide
+from story_image import compose_carrusel_story, compose_note_slide
 from utils.branding import linea_canal_yt, sitio_web
 from utils.config import get
 from utils.logger import get_logger
@@ -366,6 +367,12 @@ def _carrusel_activo() -> bool:
     return (get("CARRUSEL_ACTIVO") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
+def _historia_activa() -> bool:
+    """Historia de IG con la portada del carrusel (pedido 2026-10-03). Sale solo si el
+    carrusel entró a Instagram. CARRUSEL_HISTORIA=0 la apaga sin tocar el carrusel."""
+    return (get("CARRUSEL_HISTORIA") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
 def _orden(note: dict) -> int:
     """Número con que empieza el nombre del .docx (1, 2, 3…). Sin número → al final."""
     m = re.match(r"\s*(\d+)", note["docx"].name)
@@ -523,6 +530,12 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     if dry_run:
         logger.info(f"[dry-run] carrusel de {len(slides)} slide(s): {[s.name for s in slides]}")
         logger.info(f"[dry-run] caption:\n{caption}")
+        if _historia_activa():
+            try:
+                historia = compose_carrusel_story(slides[0], _fecha_larga(hoy), len(slides), site)
+                logger.info(f"[dry-run] historia IG con la portada: {historia}")
+            except Exception as e:
+                logger.error(f"[dry-run] no se pudo componer la historia del carrusel: {e}")
         logger.info("=== Carrusel de notas: fin (dry-run) ===")
         return
 
@@ -542,16 +555,25 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
             logger.info("[facebook] carrusel OK")
         except Exception as e:
             logger.error(f"[facebook] carrusel FALLÓ: {e}")
+    ig_ok = False
     if "instagram" in plats:
         try:
             instagram.publish_carousel(caption, slides)
-            algun_ok = True
+            algun_ok = ig_ok = True
             logger.info("[instagram] carrusel OK")
         except Exception as e:
             logger.error(f"[instagram] carrusel FALLÓ: {e}")
 
-    # (La historia "Noticias de hoy" se sacó a pedido del usuario 2026-06-23:
-    # el carrusel y la carga a la web siguen; ya no se publica el mosaico.)
+    # Historia de IG con la portada del carrusel (pedido 2026-10-03, solo Instagram). Va
+    # solo si el carrusel entró: invita a deslizarlo en el perfil. Si falla no voltea nada.
+    # (La vieja historia-mosaico "Noticias de hoy" se sacó el 2026-06-23 y no vuelve.)
+    if ig_ok and _historia_activa():
+        try:
+            historia = compose_carrusel_story(slides[0], _fecha_larga(hoy), len(slides), site)
+            instagram.publish_story(historia)
+            logger.info("[instagram] historia de la portada del carrusel OK")
+        except Exception as e:
+            logger.error(f"[instagram] historia de la portada del carrusel FALLÓ: {e}")
 
     if algun_ok:
         for n in pending:

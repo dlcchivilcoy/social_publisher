@@ -1109,6 +1109,55 @@ def compose_noticias_hoy_story(fecha_str: str, site_url: str = "", photos: list 
     return _save(canvas, "noticias_hoy")
 
 
+def compose_carrusel_story(slide_path: Path, fecha_str: str = "", total: int = 0,
+                           site_url: str = "") -> Path:
+    """Historia 9:16 con la PORTADA del carrusel de notas (pedido 2026-10-03): imita el
+    'compartir publicación en tu historia' de IG, que la API no permite. La 1ª placa del
+    carrusel va como tarjeta (esquinas redondeadas + sombra) sobre la misma imagen
+    desenfocada y oscurecida, con 'NUEVO POSTEO' + fecha arriba y la invitación a deslizar
+    abajo. Todo dentro de la zona segura (IG tapa ~250 px arriba y abajo)."""
+    slide = Image.open(slide_path).convert("RGB")
+    bg = _cover(slide, W, H).filter(ImageFilter.GaussianBlur(50))
+    canvas = ImageEnhance.Brightness(bg).enhance(0.42)
+    draw = ImageDraw.Draw(canvas)
+
+    # Encabezado: píldora naranja 'NUEVO POSTEO' + fecha
+    f_pill = _font(40, bold=True)
+    tag = "NUEVO POSTEO"
+    pad, pill_h = 30, 70
+    pill_w = int(draw.textlength(tag, font=f_pill)) + 2 * pad
+    px, py = (W - pill_w) // 2, 240
+    draw.rounded_rectangle((px, py, px + pill_w, py + pill_h), radius=pill_h // 2, fill=ACCENT)
+    draw.text((px + pad, py + (pill_h - _line_h(f_pill, "AY")) // 2 - 4), tag, font=f_pill,
+              fill=SLIDE_TITLE)
+    if fecha_str:
+        f_fecha = _font(46, bold=True)
+        _texto_centrado(draw, [f"Noticias de hoy · {fecha_str}"], f_fecha, py + pill_h + 26,
+                        SLIDE_TITLE)
+
+    # Tarjeta: la portada del carrusel (4:5) con esquinas redondeadas y sombra suave
+    card_w = 840
+    card_h = round(card_w * slide.height / slide.width)
+    card = slide.resize((card_w, card_h), Image.LANCZOS)
+    cx, cy, radio = (W - card_w) // 2, 440, 36
+    sombra = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(sombra).rounded_rectangle((cx, cy + 16, cx + card_w, cy + card_h + 16),
+                                             radius=radio, fill=170)
+    canvas.paste((0, 0, 0), (0, 0), sombra.filter(ImageFilter.GaussianBlur(28)))
+    mask = Image.new("L", (card_w, card_h), 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, card_w, card_h), radius=radio, fill=255)
+    canvas.paste(card, (cx, cy), mask)
+
+    # Pie: invitación a deslizar el carrusel en el perfil (+ web)
+    f_cta = _font(46, bold=True)
+    cta = ([f"Deslizá las {total} noticias del día", "en nuestro perfil"] if total > 1
+           else ["Mirá el posteo completo", "en nuestro perfil"])
+    y = _texto_centrado(draw, cta, f_cta, cy + card_h + 44, SLIDE_TITLE, gap=12)
+    if site_url:
+        _texto_centrado(draw, [site_url], _font(40, bold=True), y + 10, SLIDE_VOL)
+    return _save(canvas, "carrusel_historia")
+
+
 # ---------------------------------------------------------------------------
 # REEL "Las 5 más leídas del día" — placas 9:16 (1080x1920) para armar el video.
 # ---------------------------------------------------------------------------
