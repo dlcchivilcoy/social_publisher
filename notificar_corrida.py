@@ -30,7 +30,7 @@ from utils.config import get, load_config
 PUBLICACION_TOKENS = (
     "notes-web", "notes-carousel", "run-now", "news-stories",
     "farmacias", "tapa", "muro", "yt-live", "yt-notes", "canal-story",
-    "notas-web", "sepelios",
+    "notas-web", "sepelios", "reels-listos",
 )
 
 # Comandos que dependen de la CARPETA DE LA EDICION en Drive. Sabados y domingos el

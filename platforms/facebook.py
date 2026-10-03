@@ -296,6 +296,24 @@ def _publish_reel(message: str, video_path: Path) -> dict:
     raise RuntimeError("el reel no terminó de publicarse en FB (timeout de procesamiento).")
 
 
+def poner_miniatura(video_id: str, image_path: Path) -> None:
+    """Le pone una PORTADA propia a un video/reel ya subido a la Página
+    (/{video}/thumbnails con is_preferred). Lanza si Facebook la rechaza: el que llama
+    decide si eso importa."""
+    token = get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not token or not video_id:
+        raise ValueError("Falta el token de la Página o el id del video.")
+    with open(image_path, "rb") as img:
+        resp = requests.post(
+            f"https://graph.facebook.com/{GRAPH_VERSION}/{video_id}/thumbnails",
+            params={"access_token": token},
+            files={"source": (Path(image_path).name, img, "image/jpeg")},
+            data={"is_preferred": "true"},
+            timeout=120,
+        )
+    _raise_for_status(resp)
+
+
 def _publish_video_clasico(message: str, video_path: Path) -> dict:
     """Publica el .mp4 directo a /{page}/videos (video común). Fallback del Reel."""
     page_id = get("FACEBOOK_PAGE_ID")

@@ -576,11 +576,14 @@ def _contenedor_video_listo(user_id: str, token: str, data: dict, video_url: str
     raise ultimo  # pragma: no cover — el for siempre sale por return o raise
 
 
-def publish_reel(video_url: str, caption: str) -> dict:
+def publish_reel(video_url: str, caption: str, cover_url: str = "") -> dict:
     """Publica un REEL (video vertical) en Instagram a partir de una URL pública del .mp4.
 
     Flujo: crear contenedor media_type=REELS con video_url → esperar a que IG
     termine de procesar el video (FINISHED, puede tardar minutos) → media_publish.
+
+    `cover_url`: URL pública de una imagen para la PORTADA del reel (la que se ve en el
+    perfil). Sin ella, Instagram usa el primer cuadro del video.
     """
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
@@ -593,6 +596,8 @@ def publish_reel(video_url: str, caption: str) -> dict:
         "caption": _acotar(caption),
         "share_to_feed": "true",
     }
+    if cover_url:
+        reel_data["cover_url"] = cover_url
     if _location():
         reel_data["location_id"] = _location()
     creation_id = _contenedor_video_listo(user_id, token, reel_data, video_url, "reel")

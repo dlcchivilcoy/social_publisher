@@ -55,6 +55,7 @@ concurrency:
     || (github.event.schedule == '*/15 * * * *') && 'publicador-publicidades'
     || contains(github.event.inputs.args, 'publicidades') && 'publicador-publicidades'
     || contains(github.event.inputs.args, '-radio') && 'publicador-radio'
+    || contains(github.event.inputs.args, 'reels-listos') && 'publicador-reels-listos'
     || (contains(github.event.inputs.args, 'placa') || contains(github.event.inputs.args, 'corresponsales')) && 'publicador-corresponsales'
     || contains(github.event.inputs.args, 'watchdog') && 'publicador-otros'
     || contains(github.event.inputs.args, 'yt-seo') && 'publicador-yt-seo-2'
@@ -209,14 +210,14 @@ jobs:
           mkdir -p "diario/NOTAS AUTOMATICAS" "diario/DIARIO PDF"
           # Los comandos de video (desgrabador) NO necesitan toda la carpeta Diario:
           # saltear el sync pesado acelera esas corridas varios minutos.
-          if echo "$ARGS" | grep -qE -- "video|placa|yt-desgrabar|yt-seo"; then
+          if echo "$ARGS" | grep -qE -- "video|placa|yt-desgrabar|yt-seo|reels-listos"; then
             echo "Comando que NO usa la edición: se saltea el sync completo de gdrive:Diario."
           else
             rclone sync "gdrive:Diario" diario
           fi
 
       - name: Bajar videos de actualidad desde Google Drive (desgrabador)
-        if: ${{ github.event.schedule != '*/15 * * * *' }}
+        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'reels-listos') }}
         run: |
           mkdir -p videos
           # La carpeta "videos notas actualidad" puede estar dentro de Diario o en la raiz del Drive.
@@ -250,7 +251,7 @@ jobs:
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.fb.json" ] && cp "state/.fb.json" "diario/NOTAS AUTOMATICAS/.fb.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json .reels_listos.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -294,7 +295,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.fb.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json .reels_listos.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"

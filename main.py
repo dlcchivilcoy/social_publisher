@@ -155,6 +155,13 @@ def main() -> None:
              "En la WEB no hace falta: cada aviso tiene sus fechas y la web las respeta sola.",
     )
     parser.add_argument(
+        "--reels-listos",
+        action="store_true",
+        help="Publica TAL CUAL los reels terminados que dejo el chat de Codex en la carpeta "
+             "«reels listos» de Drive (video + portada + publicacion.json) en las redes que "
+             "pida cada uno. Lo dispara el propio Codex al terminar.",
+    )
+    parser.add_argument(
         "--notes-web",
         action="store_true",
         help="SOLO carga las notas del día a la web (Wix), sin tocar FB/IG (corrida de las 7:00).",
@@ -442,6 +449,11 @@ def main() -> None:
         import publicidades_programadas
         logger.info(f"Modo --publicidades-programadas (dry_run={args.dry_run}).")
         publicidades_programadas.correr(dry=args.dry_run)
+        return
+    if args.reels_listos:
+        import reels_listos
+        logger.info(f"Modo --reels-listos (dry_run={args.dry_run}).")
+        reels_listos.correr(dry=args.dry_run)
         return
     if args.notes_web:
         from carrusel_notas import run_notes_web
