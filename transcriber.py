@@ -2455,6 +2455,18 @@ def _publicar_historias(reel_url: str, local_reel, plats, estado: dict, fila: di
             estado["ig_historia" if red == "instagram" else "fb_historia"] = motivo
         logger.info(f"[historias] {motivo}.")
         return
+    # Las historias son 9:16. Un reel 4:5 (lo apaisado de los corresponsales, 2026-10-03) va con
+    # bandas grafito arriba y abajo; Instagram la pide por URL, así que esa copia se sube aparte.
+    try:
+        from video import _dimensiones, a_9x16
+        w, h = _dimensiones(local_reel)
+        if w and h and h / w < 1.7:
+            local_reel = a_9x16(Path(local_reel),
+                                Path(local_reel).with_name(Path(local_reel).stem + "_9x16.mp4"))
+            if "instagram" in redes and not fila.get("ig_historia_id"):
+                reel_url = upload_reel(local_reel)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[historias] no pude llevar el reel a 9:16 ({e}); va como está.")
     if "instagram" in redes and reel_url:
         if fila.get("ig_historia_id"):
             estado["ig_historia"] = "ok"
