@@ -684,11 +684,26 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                 reel = to_vertical_reel(base, reel_path, compuesto=True, estilo="corresponsal")
         if reel is None:
             # Lo que llega por WhatsApp va con el diseño de los corresponsales: vertical a sangre
-            # con cajas abajo, apaisado entero en 4:5.
+            # con cajas abajo, apaisado entero en 4:5. Y si el video da para más de una idea, la
+            # tarjeta del título va dando paso a otras (pedido 2026-10-03; `TARJETAS_VIDEO=0`).
+            tarjetas = None
+            if (es_corresponsal and hay
+                    and (get("TARJETAS_VIDEO") or "1").strip().lower() not in ("0", "no", "off")):
+                try:
+                    from video import duration_seconds as _dur
+                    from utils import gemini as _g
+                    d = float(_dur(video_media) or 0)
+                    if d >= 12:
+                        tarjetas = _g.tarjetas_video(
+                            video_media, d, volanta, titulo,
+                            f"{texto}\n\nLO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}")
+                except Exception as e:  # noqa: BLE001
+                    logger.warning(f"No pude pedir las tarjetas del video ({e}).")
             reel = to_vertical_reel(video_media, reel_path, overlay=False,
                                     titular=titulo, resumen=resumen, volanta=volanta,
                                     cuerpo=texto,
-                                    estilo="corresponsal" if es_corresponsal else "")
+                                    estilo="corresponsal" if es_corresponsal else "",
+                                    tarjetas=tarjetas)
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.

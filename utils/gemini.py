@@ -1983,6 +1983,9 @@ _MONTAJE_PROMPT = (
     "`velocidad` = 1, 1.5 o 2 (preferí 1 y elegí bien los momentos; acelerá solo para condensar "
     "esperas largas); `foco_x` de la acción en la principal. Cada acto dura al menos 3 segundos "
     "ya acelerado, y entre todos no pasan de {MAX}.\n"
+    "SEGUIMIENTO: en cada acto o plano, `foco_x` es dónde está la acción al EMPEZAR el tramo y "
+    "`foco_x_fin` dónde está al TERMINAR (de 0 a 1), para que el recorte vertical la acompañe si "
+    "se mueve (alguien que cruza, un auto que pasa). Si no se mueve, el mismo valor.\n"
     "PLANOS (solo en secuencial): de 3 a 10 planos en un orden que se entienda (apertura, "
     "desarrollo, desenlace). Para cada uno: `video`, `desde`/`hasta` en segundos de ese video "
     "(de 2 a 6 s, más si una acción lo necesita: conservá su inicio y su resultado), `foco_x`. "
@@ -2013,14 +2016,16 @@ _MONTAJE_SCHEMA = {
             "principal": {"type": "integer"}, "desde": {"type": "number"},
             "hasta": {"type": "number"}, "velocidad": {"type": "number"},
             "volanta": {"type": "string"}, "texto": {"type": "string"},
-            "foco_x": {"type": "number"}},
+            "foco_x": {"type": "number"}, "foco_x_fin": {"type": "number"}},
             "required": ["principal", "desde", "hasta", "velocidad", "volanta", "texto",
-                         "foco_x"]}},
+                         "foco_x", "foco_x_fin"]}},
         "planos": {"type": "array", "items": {"type": "object", "properties": {
             "video": {"type": "integer"}, "desde": {"type": "number"},
             "hasta": {"type": "number"}, "volanta": {"type": "string"},
-            "texto": {"type": "string"}, "foco_x": {"type": "number"}},
-            "required": ["video", "desde", "hasta", "volanta", "texto", "foco_x"]}},
+            "texto": {"type": "string"}, "foco_x": {"type": "number"},
+            "foco_x_fin": {"type": "number"}},
+            "required": ["video", "desde", "hasta", "volanta", "texto", "foco_x",
+                         "foco_x_fin"]}},
         "motivo": {"type": "string"},
     },
     "required": ["modo", "camaras", "actos", "planos", "motivo"],
@@ -2071,6 +2076,59 @@ def plan_montaje(videos: list, cuadros: list, fuentes: str, max_seg: float = 55.
     logger.info(f"Plan de montaje: modo «{raw.get('modo')}», {len(raw.get('actos') or [])} "
                 f"acto(s), {len(raw.get('planos') or [])} plano(s). {raw.get('motivo', '')[:160]}")
     return raw
+
+
+# Tarjetas que van CAMBIANDO a lo largo de un video solo (pedido del usuario 2026-10-03, del
+# «prompt detallado»: «una sola idea narrativa a la vez», de 6 a 12 palabras por tarjeta).
+_TARJETAS_PROMPT = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy. Te paso un VIDEO de "
+    "{DUR} segundos que mandó un corresponsal y la nota que se escribió con él. El reel arranca con "
+    "una tarjeta fija: volanta «{VOLANTA}» y título «{TITULO}». Proponé de 1 a 3 tarjetas MÁS que "
+    "vayan apareciendo a lo largo del video, cada una con UNA idea nueva.\n"
+    "Para cada una: `desde` = el segundo del video en que aparece (cuando se ve o se dice eso); "
+    "`volanta` = 2 a 4 palabras en mayúsculas (el tema de esa parte); `texto` = de 6 a 12 palabras, "
+    "que coincidan con lo que se ve o se dice en ESE momento, o que aporten contexto confirmado de la "
+    "nota diciéndolo («Según…», «La denuncia indica…»).\n"
+    "REGLAS: la primera no antes del segundo 5; entre una y otra al menos 5 segundos; ninguna en "
+    "los últimos 4 segundos; no repitas el título ni entre ellas; no anticipes lo que todavía no "
+    "pasó en el video; nada de citas textuales largas.\n"
+    + _MATICES +
+    "• Usá SOLO lo que se ve, se dice y está en la nota. No inventes.\n"
+    "Si el video es corto o no hay ideas nuevas, devolvé la lista vacía."
+)
+
+_TARJETAS_SCHEMA = {
+    "type": "object",
+    "properties": {"tarjetas": {"type": "array", "items": {"type": "object", "properties": {
+        "desde": {"type": "number"}, "volanta": {"type": "string"},
+        "texto": {"type": "string"}}, "required": ["desde", "volanta", "texto"]}}},
+    "required": ["tarjetas"],
+}
+
+
+def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
+                   api_key: str = "", model: str = "") -> list:
+    """Las tarjetas que se suman a la del título a lo largo de un video solo: [{desde, volanta,
+    texto}] tal como las propone Gemini (las valida `video.tarjetas_validas`). [] si no se pudo:
+    el reel sale con la tarjeta del título, como siempre."""
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        video = Path(video)
+        f = _esperar_activo(_subir_archivo(video, _mime(video), key)["name"], key)
+        prompt = (_TARJETAS_PROMPT.replace("{DUR}", f"{dur:.0f}")
+                  .replace("{VOLANTA}", volanta or "").replace("{TITULO}", titulo or "")
+                  + f"\n\nNOTA:\n{fuentes.strip()}")
+        parts = [{"text": prompt},
+                 {"file_data": {"mime_type": f.get("mimeType") or _mime(video),
+                                "file_uri": f["uri"]}}]
+        raw = _post_json(parts, key, model, _TARJETAS_SCHEMA, temperature=0.2, key_pool=[key])
+        tarjetas = raw.get("tarjetas") or []
+        logger.info(f"Tarjetas del video: Gemini propuso {len(tarjetas)}.")
+        return tarjetas
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar las tarjetas del video ({e}); va solo la del título.")
+        return []
 
 
 _TITULAR_PROMPT = (

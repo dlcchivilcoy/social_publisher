@@ -230,6 +230,10 @@ CORR_Y_ARRIBA = 360                     # la posición alternativa, si abajo hay
 CORR_TOPE_IMAGEN = 290                  # en lo apaisado, la imagen arranca debajo del isologo
 CORR_ALTO_APAISADO = 1350               # el reel de lo horizontal: 4:5
 CORR_AR_APAISADO = 1.0                  # más ancho que alto = «apaisado»
+# Tarjetas que cambian a lo largo del video (2026-10-03): entran y salen con un fundido de 0,2 s
+# («de 0,15 a 0,25», dice el prompt) y cada una se lee al menos 3 s (o palabras / 2,5).
+FUNDIDO_TARJETA = 0.2
+TARJETA_MIN_SEG = 3.0
 # Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
 # entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
 # aunque el apellido caiga al renglón siguiente.
@@ -1755,6 +1759,53 @@ def _tarjeta_corr(volanta: str, titular: str, f: dict, y: int) -> dict:
                 titulo=lineas, volanta=vtxt)
 
 
+def tarjeta_png(volanta: str, texto: str, y: int, lienzo: tuple, salida) -> Path:
+    """Una tarjeta SOLA (`_tarjeta_corr`, volanta arriba en `y`) en un PNG transparente del
+    tamaño del cuadro, para superponerla en su momento y con su fundido. Si no entra abajo (un
+    cuadro 4:5 y una tarjeta más alta que la del título), sube lo justo."""
+    from PIL import Image
+    f = _fuentes_placa()
+    t = _tarjeta_corr(volanta, texto, f, y)
+    sobra = t["rect"][3] - (lienzo[1] - 30)
+    if sobra > 0:
+        t = _tarjeta_corr(volanta, texto, f, y - sobra)
+    capa = Image.new("RGBA", tuple(lienzo), (0, 0, 0, 0))
+    pintar_placa(capa, dict(bloques=t["bloques"], cajas=t["cajas"]))
+    salida = Path(salida)
+    capa.save(salida)
+    return salida
+
+
+def _segundos_lectura(texto: str) -> float:
+    """Lo mínimo que una tarjeta tiene que quedar: 3 s o palabras / 2,5, lo que sea más."""
+    return max(TARJETA_MIN_SEG, len((texto or "").split()) / 2.5)
+
+
+def tarjetas_validas(propuestas: list, dur: float, volanta: str, titulo: str) -> list:
+    """Las tarjetas de un video solo, en limpio: [(desde, hasta, volanta, texto)], la primera
+    siempre la del título desde el segundo 0. Las que propone Gemini entran solo si dejan leer a
+    la anterior, si a ellas les queda tiempo de lectura antes del final y si no repiten texto.
+    Con una sola, el reel queda como siempre."""
+    lista = [(0.0, volanta, titulo)]
+    vistos = {(titulo or "").strip().lower()}
+    for p in sorted(propuestas or [], key=lambda p: float(p.get("desde") or 0)):
+        try:
+            desde = float(p.get("desde"))
+        except (TypeError, ValueError):
+            continue
+        texto = " ".join(str(p.get("texto", "")).split())
+        if not (3 <= len(texto.split()) <= 16) or texto.lower() in vistos:
+            continue
+        if desde < lista[-1][0] + _segundos_lectura(lista[-1][2]):
+            continue
+        if desde + _segundos_lectura(texto) > dur - 0.5:
+            continue
+        vistos.add(texto.lower())
+        lista.append((desde, " ".join(str(p.get("volanta", "")).split()), texto))
+    return [(d, (lista[i + 1][0] if i + 1 < len(lista) else dur), v, t)
+            for i, (d, v, t) in enumerate(lista)]
+
+
 def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: bool, caras,
                alto: int = 0) -> dict:
     """Un cuadro de un reel de lo que llega por WhatsApp (ver `CORR_NARANJA`), foto o video.
@@ -2828,7 +2879,8 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
                 fondo_placa: Path | None = None,
                 capa_texto: Path | None = None,
                 logo_geo: tuple | None = None,
-                alto: int = 1920) -> None:
+                alto: int = 1920,
+                tarjetas: list | None = None) -> None:
     """Arma el reel vertical en UNA sola pasada de ffmpeg (un único re-encode, para
     no pagar el doble de CPU en la nube): fondo borroso + video + logo + firma, y
     al final la placa de cierre concatenada. Si `recorte` (w,h,x,y) viene dado, primero
@@ -2970,6 +3022,23 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         vf += (f";[{idx}:v]scale=1080:{alto},format=rgba[pl];"
                f"{out_label}[pl]overlay=0:0[vpl]")
         out_label = "[vpl]"
+    for png, desde, hasta, f_in, f_out in tarjetas or []:
+        # Tarjetas que cambian a lo largo del video (2026-10-03): cada una en su tramo, con un
+        # fundido de entrada/salida en alfa. La imagen se repite cuadro a cuadro (`-loop 1`)
+        # para que el fundido tenga cuadros sobre los que actuar.
+        idx = n_in
+        inputs += ["-loop", "1", "-framerate", str(fps), "-t", f"{hasta + 0.1:.3f}",
+                   "-i", str(png)]
+        n_in += 1
+        fd = FUNDIDO_TARJETA
+        cad = "format=rgba"
+        if f_in:
+            cad += f",fade=t=in:st={desde:.3f}:d={fd}:alpha=1"
+        if f_out:
+            cad += f",fade=t=out:st={max(desde, hasta - fd):.3f}:d={fd}:alpha=1"
+        vf += (f";[{idx}:v]{cad}[tj{idx}];{out_label}[tj{idx}]"
+               f"overlay=0:0:enable='between(t,{desde:.3f},{hasta:.3f})'[vtj{idx}]")
+        out_label = f"[vtj{idx}]"
     if capa_texto:
         # Reel de FOTOS: fondo e imagen ya vienen compuestos en cada cuadro; acá solo se le
         # pega el texto de arriba, una vez, para que quede QUIETO mientras las fotos pasan.
@@ -3368,6 +3437,26 @@ def autochequeo() -> bool:
             print(f"  ROTO tres fotos de formas distintas: {type(e).__name__}: {e}")
         # Las mismas fotos con el estilo de los corresponsales: con una vertical van todas en
         # 9:16; solo las apaisadas, en 4:5.
+        # Tarjetas que cambian a lo largo de un video solo, con fundido (2026-10-03).
+        try:
+            largo = tmp / "largo.mp4"
+            subprocess.run([exe, "-y", "-f", "lavfi", "-i",
+                            "testsrc=size=1080x1920:rate=25:duration=12", "-c:v", "libx264",
+                            "-pix_fmt", "yuv420p", str(largo)], capture_output=True, check=True)
+            salida = tmp / "reel_tarjetas.mp4"
+            to_vertical_reel(largo, salida, estilo="corresponsal", volanta="CHIVILCOY · PRUEBA",
+                             titular="Una prueba de tarjetas que cambian",
+                             tarjetas=[{"desde": 5.5, "volanta": "CONTEXTO",
+                                        "texto": "La segunda tarjeta entra con un fundido suave"}])
+            w, h = _dimensiones(salida)
+            falta = ultimo_reel_degradado()
+            bien = (w, h) == (1080, 1920) and not falta
+            ok = ok and bien
+            print(f"  {'OK  ' if bien else 'MAL '} video con tarjetas que cambian: {w}x{h}"
+                  + (f"  ← se cayó a «{falta}»" if falta else ""))
+        except Exception as e:                                   # noqa: BLE001
+            ok = False
+            print(f"  ROTO video con tarjetas que cambian: {type(e).__name__}: {e}")
         # Montaje de varios videos (2026-10-03): paneles, capas y unión por cortes, sin Gemini.
         try:
             import montaje
@@ -3449,7 +3538,8 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                      placa_final: bool = True, zocalo: str | None = None,
                      overlay: bool = True, titular: str = "", resumen: str = "",
                      volanta: str = "", cuerpo: str = "",
-                     compuesto=None, estilo: str = "", alto: int = 0) -> Path:
+                     compuesto=None, estilo: str = "", alto: int = 0,
+                     tarjetas: list | None = None) -> Path:
     """Convierte un video cualquiera a un reel vertical 1080x1920 (9:16).
 
     El video se escala ENTERO (sin recortar) y se centra sobre un fondo borroso de
@@ -3491,10 +3581,12 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
 
     `estilo="corresponsal"` (lo que llega por WhatsApp): el diseño de `_plan_corr`, con el
     isologo en X 872 · Y 130. Lo apaisado sale en 1080x1350; `alto` es el de un reel de fotos
-    ya compuesto.
+    ya compuesto. `tarjetas` (las que propone Gemini para un video solo, ver
+    `tarjetas_validas`) hace que la tarjeta del título dé paso a otras a lo largo del video.
     """
     src, salida = Path(src), Path(salida)
     logo_geo = CORR_LOGO if estilo == "corresponsal" else None
+    capas_tiempo = None
     logo_png = _asset("REEL_LOGO", LOGO_REEL) if logo else None
     placa_cierre = _asset("REEL_PLACA_FINAL", PLACA_FINAL) if placa_final else None
     seg_placa = float(_cfg("REEL_PLACA_SEG", str(PLACA_SEG)))
@@ -3573,6 +3665,9 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                                    arriba=arriba, abajo=abajo, ancho=ancho_foto)
                        if (arriba or abajo) else None)
             placa = (png, y_media, mascara, alto_foto, plan["cover"], ancho_foto)
+            if plan.get("estilo") == "corresponsal" and tarjetas and plan.get("texto"):
+                capas_tiempo = _capas_en_el_tiempo(plan, tarjetas, src, salida, volanta,
+                                                   titular)
             if plan.get("estilo") == "corresponsal":
                 # Grafito liso, sin humo.
                 color_fondo = "0x%02X%02X%02X" % CORR_GRAFITO[:3]
@@ -3609,6 +3704,12 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
                   recorte=None, encuadre=None, marca_texto=False, texto_placa=None,
                   color_fondo="", fondo_placa=None, capa_texto=None)
     escalones = [("completo", marca)]
+    if capas_tiempo:
+        # Primero con las tarjetas que cambian; si eso molesta, la del título fija, como siempre.
+        base_png, lista = capas_tiempo
+        escalones = [("completo", {**marca, "texto_placa": (base_png,) + tuple(placa[1:]),
+                                   "tarjetas": lista}),
+                     ("sin las tarjetas que cambian", marca)]
     if placa_cierre:
         escalones.append(("sin la placa de cierre", {**marca, "placa": None, "seg_placa": 0.0}))
     if fondo_pl:
@@ -3659,6 +3760,35 @@ def a_9x16(src, salida) -> Path:
            "-c:a", "copy", "-movflags", "+faststart", str(salida)]
     _run_ffmpeg(cmd, "reel a 9:16 para historias")
     return Path(salida)
+
+
+def _capas_en_el_tiempo(plan: dict, propuestas: list, src: Path, salida: Path, volanta: str,
+                        titular: str) -> tuple | None:
+    """Para un video solo con tarjetas que cambian: el PNG de la marca SOLA (va todo el video) y
+    una tarjeta por PNG con su tramo y sus fundidos. None si queda una sola tarjeta (el reel sale
+    como siempre, con la del título fija)."""
+    try:
+        dur = float(duration_seconds(src) or 0)
+        lista = tarjetas_validas(propuestas, dur, volanta, titular)
+        if len(lista) < 2:
+            return None
+        base = dict(plan, bloques=[b for b in plan["bloques"] if b[6] == CORR_X] or
+                    plan["bloques"][:2], cajas=[])
+        base_png = placa_png(base, salida.parent / f"placa_base_{salida.stem}.png")
+        lienzo = tuple(plan.get("lienzo") or (1080, 1920))
+        y = plan["texto"][1]
+        capas = []
+        for i, (desde, hasta, vol, txt) in enumerate(lista):
+            png = tarjeta_png(vol, txt, y, lienzo,
+                              salida.parent / f"tarjeta_{i}_{salida.stem}.png")
+            # Sin fundido al arrancar (el primer cuadro es la portada) ni al final del video.
+            capas.append((png, desde, hasta, i > 0, i + 1 < len(lista)))
+        logger.info(f"Tarjetas en el tiempo: {len(lista)} — "
+                    + " · ".join(f"{d:.0f}s «{t[:30]}»" for d, _h, _v, t in lista))
+        return base_png, capas
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"No pude armar las tarjetas en el tiempo ({e}); va la del título fija.")
+        return None
 
 
 def _foto_a_clip(foto, salida, seg: float, fps: int = 30) -> Path:

@@ -143,7 +143,9 @@ def validar(raw: dict, durs: list) -> dict | None:
                                dur_salida=(fin - ini) / vel,
                                volanta=str(a.get("volanta", "")).strip(),
                                texto=str(a.get("texto", "")).strip(),
-                               foco=_foco(a.get("foco_x", camaras[p]["foco"]))))
+                               foco=_foco(a.get("foco_x", camaras[p]["foco"])),
+                               foco_fin=_foco(a.get("foco_x_fin",
+                                                    a.get("foco_x", camaras[p]["foco"])))))
         if len(con_reloj) >= 2 and tramos:
             usadas = sorted(set(con_reloj[:3]), key=lambda k: -sum(
                 t["dur_salida"] for t in tramos if t["principal"] == k))
@@ -166,7 +168,9 @@ def validar(raw: dict, durs: list) -> dict | None:
         tramos.append(dict(video=k, desde=d, hasta=h, velocidad=1.0, dur_salida=h - d,
                            volanta=str(p.get("volanta", "")).strip(),
                            texto=str(p.get("texto", "")).strip(),
-                           foco=_foco(p.get("foco_x", camaras[k]["foco"]))))
+                           foco=_foco(p.get("foco_x", camaras[k]["foco"])),
+                           foco_fin=_foco(p.get("foco_x_fin",
+                                                p.get("foco_x", camaras[k]["foco"])))))
     if not tramos:
         return None
     return dict(modo="secuencial", camaras=camaras, usadas=[], tramos=_texto_minimo(
@@ -174,10 +178,11 @@ def validar(raw: dict, durs: list) -> dict | None:
 
 
 # ── Dibujo de cada tramo ───────────────────────────────────────────────────────────
-def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> Path:
-    """El PNG transparente que va encima de un tramo: separadores naranjas entre paneles, la
-    etiqueta de cada cámara (arriba a la izquierda de su panel; en la principal, con la
-    velocidad si va acelerada), la marca arriba y la tarjeta del tramo."""
+def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> tuple:
+    """Los PNG transparentes que van encima de un tramo: `salida` con los separadores naranjas
+    entre paneles, la etiqueta de cada cámara (arriba a la izquierda de su panel; en la
+    principal, con la velocidad si va acelerada) y la marca; y aparte la TARJETA del tramo
+    (`..._tarjeta.png`, o None si no lleva), que entra y sale con un fundido."""
     from PIL import Image, ImageDraw
     f = V._fuentes_placa()
     lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
@@ -205,42 +210,72 @@ def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> Path:
         asc, may = V._metricas(f["f_r"], ETIQUETA_TAM, "500")
         plan["bloques"].append((txt, ETIQUETA_TAM, round(ey + (alto - may) / 2 - asc + may),
                                 f["f_r"], "500", V.BLANCO, ("centro", ex + ancho // 2)))
-    if tramo.get("texto") or tramo.get("volanta"):
-        t = V._tarjeta_corr(tramo.get("volanta", ""), tramo.get("texto", ""), f, V.CORR_Y_ABAJO)
-        plan["cajas"] += t["cajas"]
-        plan["bloques"] += t["bloques"]
     V.pintar_placa(lienzo, plan)
     lienzo.save(salida)
-    return salida
+    tarjeta = None
+    if tramo.get("texto") or tramo.get("volanta"):
+        tarjeta = V.tarjeta_png(tramo.get("volanta", ""), tramo.get("texto", ""),
+                                V.CORR_Y_ABAJO, (1080, 1920),
+                                salida.with_name(salida.stem + "_tarjeta.png"))
+    return salida, tarjeta
 
 
-def _entrada(src: Path, recorte, ancho: int, alto: int, foco: float, vel: float) -> str:
+def _x_seguimiento(ancho: int, foco: float, foco_fin: float, dur: float) -> str:
+    """La x del recorte que ACOMPAÑA la acción dentro del tramo (pedido 2026-10-03, «definí
+    puntos de seguimiento e interpolá suavemente»): va de `foco` a `foco_fin` con una curva suave
+    (arranca y frena despacio, sin paneos nerviosos). Si no se mueve, es fija."""
+    if abs(foco_fin - foco) < 0.02 or dur <= 0:
+        return f"(iw-{ancho})*{foco:.3f}"
+    p = f"clip(t/{dur:.3f}\\,0\\,1)"
+    return (f"(iw-{ancho})*({foco:.3f}+({foco_fin - foco:.3f})*({p}*{p}*(3-2*{p})))")
+
+
+def _entrada(src: Path, recorte, ancho: int, alto: int, foco: float, vel: float,
+             foco_fin: float | None = None, dur: float = 0.0) -> str:
     """Cadena de filtros de una cámara: sin giro, sin barras negras, a su velocidad, llenando su
-    panel (escala = la mayor de ancho y alto) y corrida hacia la acción (`foco`)."""
+    panel (escala = la mayor de ancho y alto) y corrida hacia la acción (`foco`; si viene
+    `foco_fin`, el recorte la sigue a lo largo de los `dur` segundos del tramo)."""
     cad = V._sin_giro()
     if recorte:
         cad += f",crop={recorte[0]}:{recorte[1]}:{recorte[2]}:{recorte[3]}"
+    x = _x_seguimiento(ancho, foco, foco if foco_fin is None else foco_fin, dur)
     return (f"{cad},setpts=(PTS-STARTPTS)/{vel:g},fps={FPS},"
             f"scale={ancho}:{alto}:force_original_aspect_ratio=increase,"
-            f"crop={ancho}:{alto}:(iw-{ancho})*{foco:.3f}:(ih-{alto})*0.5,setsar=1")
+            f"crop={ancho}:{alto}:{x}:(ih-{alto})*0.5,setsar=1")
 
 
 def _armar_tramo(entradas: list, paneles: list, capa: Path, dur: float, salida: Path,
-                 audio_de: int | None) -> Path:
-    """Un tramo: cada entrada (ruta, desde, recorte, foco, velocidad) en su panel, la capa
-    encima, `dur` segundos. Audio: el de `audio_de` (solo a velocidad normal) o silencio."""
+                 audio_de: int | None, tarjeta: Path | None = None,
+                 fundir: tuple = (False, False)) -> Path:
+    """Un tramo: cada entrada (ruta, desde, recorte, foco, velocidad, foco_fin) en su panel, la
+    capa encima, `dur` segundos. La `tarjeta` va aparte, con un fundido de entrada y/o salida
+    (`fundir`) cuando cambia respecto del tramo vecino. Audio: el de `audio_de` (solo a
+    velocidad normal) o silencio."""
     cmd = [V._ffmpeg(), "-y"]
-    for src, desde, _rec, _foco, vel in entradas:
+    for src, desde, _rec, _foco, vel, _fin in entradas:
         cmd += ["-ss", f"{desde:.3f}", "-t", f"{dur * vel + 0.5:.3f}", "-i", str(src)]
     i_capa = len(entradas)
     cmd += ["-loop", "1", "-t", f"{dur:.3f}", "-i", str(capa)]
+    i_sig = i_capa + 1
+    if tarjeta:
+        cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", str(tarjeta)]
+        i_sig += 1
     color = "0x%02X%02X%02X" % V.CORR_GRAFITO[:3]
     fc = [f"color=c={color}:s=1080x1920:r={FPS}:d={dur:.3f}[b0]"]
-    for i, ((src, _d, rec, foco, vel), (x, y, w, h)) in enumerate(zip(entradas, paneles)):
-        fc.append(f"[{i}:v]{_entrada(Path(src), rec, w, h, foco, vel)}[p{i}]")
+    for i, ((src, _d, rec, foco, vel, fin), (x, y, w, h)) in enumerate(zip(entradas, paneles)):
+        fc.append(f"[{i}:v]{_entrada(Path(src), rec, w, h, foco, vel, fin, dur)}[p{i}]")
         fc.append(f"[b{i}][p{i}]overlay={x}:{y}:eof_action=pass[b{i + 1}]")
     n = len(entradas)
-    fc.append(f"[{i_capa}:v]format=rgba[cp];[b{n}][cp]overlay=0:0,format=yuv420p[v]")
+    if tarjeta:
+        f = V.FUNDIDO_TARJETA
+        fundidos = ((f",fade=t=in:st=0:d={f}:alpha=1" if fundir[0] else "")
+                    + (f",fade=t=out:st={max(0.0, dur - f):.3f}:d={f}:alpha=1"
+                       if fundir[1] else ""))
+        fc.append(f"[{i_capa}:v]format=rgba[cp];[b{n}][cp]overlay=0:0[bc]")
+        fc.append(f"[{i_capa + 1}:v]format=rgba{fundidos}[tj];[bc][tj]overlay=0:0,"
+                  f"format=yuv420p[v]")
+    else:
+        fc.append(f"[{i_capa}:v]format=rgba[cp];[b{n}][cp]overlay=0:0,format=yuv420p[v]")
     maps = ["-map", "[v]"]
     if audio_de is not None:
         fc.append(f"[{audio_de}:a]aresample=44100,aformat=sample_fmts=fltp:"
@@ -249,7 +284,7 @@ def _armar_tramo(entradas: list, paneles: list, capa: Path, dur: float, salida: 
     else:
         cmd += ["-f", "lavfi", "-t", f"{dur:.3f}", "-i",
                 "anullsrc=channel_layout=stereo:sample_rate=44100"]
-        maps += ["-map", f"{i_capa + 1}:a", "-c:a", "aac", "-b:a", "128k"]
+        maps += ["-map", f"{i_sig}:a", "-c:a", "aac", "-b:a", "128k"]
     cmd += ["-filter_complex", ";".join(fc), *maps, "-t", f"{dur:.3f}", "-r", str(FPS),
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
             str(salida)]
@@ -277,20 +312,30 @@ def armar(plan: dict, videos: list, salida: Path, work_dir: Path) -> Path:
             # La principal primero; después las otras cámaras usadas, en su orden.
             orden = ([t["principal"]] + [k for k in plan["usadas"] if k != t["principal"]])[:3]
             paneles = PANELES[len(orden)]
+            # La principal sigue la acción (foco → foco_fin); las chicas, encuadre fijo.
             entradas = [(videos[k], t["reloj_ini"] - plan["camaras"][k]["reloj"], recortes[k],
                          t["foco"] if k == t["principal"] else plan["camaras"][k]["foco"],
-                         t["velocidad"]) for k in orden]
+                         t["velocidad"],
+                         t.get("foco_fin") if k == t["principal"] else None) for k in orden]
             roles = [plan["camaras"][k]["rol"] for k in orden]
             audio = 0 if (t["velocidad"] == 1 and con_audio[orden[0]]) else None
         else:
             k = t["video"]
             paneles = ((0, 0, 1080, 1920),)
-            entradas = [(videos[k], t["desde"], recortes[k], t["foco"], 1.0)]
+            entradas = [(videos[k], t["desde"], recortes[k], t["foco"], 1.0,
+                         t.get("foco_fin"))]
             roles = [""]
             audio = 0 if con_audio[k] else None
-        _capa(paneles, roles, t, capa_png)
+        _base, tarjeta = _capa(paneles, roles, t, capa_png)
+        # Fundido de la tarjeta solo donde CAMBIA respecto del tramo vecino (si sigue la misma,
+        # no parpadea), y nunca al arrancar el reel: el primer cuadro es la portada.
+        tj = (t["volanta"], t["texto"])
+        antes = (plan["tramos"][j - 1]["volanta"], plan["tramos"][j - 1]["texto"]) if j else tj
+        despues = ((plan["tramos"][j + 1]["volanta"], plan["tramos"][j + 1]["texto"])
+                   if j + 1 < len(plan["tramos"]) else tj)
         partes.append(_armar_tramo(entradas, paneles, capa_png, t["dur_salida"],
-                                   work_dir / f"_tramo_{j}.mp4", audio))
+                                   work_dir / f"_tramo_{j}.mp4", audio, tarjeta,
+                                   (j > 0 and antes != tj, despues != tj)))
     return _unir(partes, Path(salida))
 
 
@@ -313,7 +358,8 @@ def autoprueba(tmp: Path) -> bool:
                        {"video": 3, "rol": "CALLE", "reloj_inicio": "05:10:03", "foco_x": 0.6}],
            "actos": [{"principal": 1, "desde": 3, "hasta": 7, "velocidad": 1,
                       "volanta": "CHIVILCOY · PRUEBA",
-                      "texto": "Forzaron la entrada del comercio", "foco_x": 0.5},
+                      "texto": "Forzaron la entrada del comercio", "foco_x": 0.2,
+                      "foco_x_fin": 0.8},
                      {"principal": 2, "desde": 5, "hasta": 10, "velocidad": 1.5,
                       "volanta": "CÁMARAS DE SEGURIDAD", "texto": "Revisaron el interior",
                       "foco_x": 0.4}],
