@@ -1,7 +1,7 @@
 """HISTORIAS DE LA MAÑANA (08:00): TAPA → CLIMA → SEPELIOS → FARMACIAS.
 
-Tapa y farmacias van a Facebook + Instagram; clima y sepelios (desde 2026-10-03) solo
-a Instagram. NO publica nada en el feed (el posteo/carrusel quedó anulado).
+Las cuatro van a Facebook + Instagram (STORIES_PLATFORMS; clima y sepelios, sumadas el
+2026-10-03, se pueden acotar con CLIMA_SEPELIOS_PLATFORMS). NO publica nada en el feed.
 """
 import json
 import smtplib
@@ -181,9 +181,11 @@ def _guardar_estado(hoy: date, hechos: set[str]) -> None:
 
 
 def _extra_platforms() -> list[str]:
-    """Redes de las historias de CLIMA y SEPELIOS: solo Instagram (pedido 2026-10-03).
-    Tapa y farmacias siguen con STORIES_PLATFORMS (FB + IG)."""
-    raw = get("CLIMA_SEPELIOS_PLATFORMS") or "instagram"
+    """Redes de las historias de CLIMA y SEPELIOS. Arrancaron solo en Instagram
+    (2026-10-03) y el mismo día el usuario las pidió también en Facebook: por defecto van
+    a las mismas redes que tapa y farmacias (STORIES_PLATFORMS). CLIMA_SEPELIOS_PLATFORMS
+    las acota (ej. =instagram)."""
+    raw = get("CLIMA_SEPELIOS_PLATFORMS") or get("STORIES_PLATFORMS") or "instagram,facebook"
     return [p.strip().lower() for p in raw.split(",") if p.strip()]
 
 
@@ -194,7 +196,7 @@ def _clima_activo() -> bool:
 def run_tapa_farmacias(dry_run: bool = False) -> None:
     """Historias de la mañana, en este orden: TAPA → CLIMA → SEPELIOS → FARMACIAS
     (pedido 2026-10-03). Tapa solo lun–vie; clima, sepelios y farmacias todos los días.
-    Clima y sepelios van solo a Instagram. Si una no se puede armar (sin datos de
+    Todas van a Instagram y Facebook. Si una no se puede armar (sin datos de
     farmacias, MET caído, ningún sepelio nuevo…), las demás salen igual."""
     import clima
     import sepelios as sep
@@ -316,12 +318,11 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
             logger.warning(f"Quedan pendientes: {faltan}. Reintento en {espera}s…")
             time.sleep(espera)
 
-    # Los sepelios quedan registrados (no se repiten otro día) recién cuando su historia
-    # salió EN ESTA corrida y en todas sus redes; si falta alguna, la próxima la reintenta.
-    # (Si la de hoy ya había salido antes, los nuevos que aparecieron después no se marcan:
-    # entran en la de mañana.)
-    if ("sepelios" in salieron_ahora
-            and all(_clave("sepelios", n) in hechos for n in extra if n in fns)):
+    # Los sepelios quedan registrados (no se repiten otro día) apenas su historia salió EN
+    # ESTA corrida en alguna red: si Facebook falló pero Instagram no, mañana no se repiten
+    # en Instagram. (Si la de hoy ya había salido antes, los nuevos que aparecieron después
+    # no se marcan: entran en la de mañana.)
+    if "sepelios" in salieron_ahora:
         sep.marcar_historia(sepelios_hoy)
 
     if not pendientes:
