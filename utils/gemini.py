@@ -1955,6 +1955,124 @@ def descripcion_corresponsal(titulo: str, escrito: str, nota: str, lugar: str = 
     return {"texto": texto, "hashtags": tags[:2], "tema": tema}
 
 
+# ── Montaje de VARIOS videos de un mismo hecho (pedido del usuario 2026-10-03) ──────────────
+# «Prompt detallado para editar reels»: con varias cámaras de seguridad, o varios videos sueltos
+# de un hecho, el reel se MONTA: por cortes (secuencial) o con 2-3 cámaras a la vez
+# (simultáneo), sincronizadas por sus relojes. Acá Gemini mira los videos y devuelve el PLAN;
+# el armado lo hace `montaje.py` con ffmpeg.
+_MONTAJE_PROMPT = (
+    "Sos el editor audiovisual del «Diario La Campaña» / «Radio del Centro» de Chivilcoy. Un "
+    "corresponsal mandó VARIOS VIDEOS de un mismo hecho. Mirálos todos y armá el PLAN DE MONTAJE de "
+    "un reel vertical de hasta {MAX} segundos.\n"
+    "Para cada video te paso también su CUADRO INICIAL y su CUADRO FINAL en buena resolución, para "
+    "que leas el RELOJ sobreimpreso si lo tiene (las cámaras de seguridad lo tienen).\n"
+    "MODO:\n"
+    "• «simultaneo»: SOLO si entre 2 y 3 videos tienen un reloj legible y sus horarios se "
+    "superponen (muestran el mismo hecho al mismo tiempo desde distintas cámaras). Se ven todas a "
+    "la vez: una grande (la principal) y las otras chicas; la principal cambia según dónde está la "
+    "acción.\n"
+    "• «secuencial»: en cualquier otro caso. Un plano por vez, alternando videos con cortes.\n"
+    "CÁMARAS (camaras): para cada video, `rol` = una etiqueta corta en mayúsculas que diga qué "
+    "muestra («INGRESO», «INTERIOR», «CALLE», «CÁMARA 2»); `reloj_inicio` = la hora EXACTA que marca "
+    "el reloj en el cuadro inicial, «HH:MM:SS» (\"\" si no hay reloj o no se lee bien; comprobala "
+    "con el cuadro final: la diferencia tiene que ser la duración del video); `foco_x` = dónde está "
+    "en general la acción, de 0 (izquierda) a 1 (derecha).\n"
+    "ACTOS (solo en simultáneo): de 2 a 4 etapas del hecho en orden (por ejemplo ingreso, "
+    "revisión, salida). Para cada una: `principal` = el número del video que MEJOR la muestra; "
+    "`desde`/`hasta` = segundos DEL VIDEO PRINCIPAL (su propio tiempo, no el del reloj); "
+    "`velocidad` = 1, 1.5 o 2 (preferí 1 y elegí bien los momentos; acelerá solo para condensar "
+    "esperas largas); `foco_x` de la acción en la principal. Cada acto dura al menos 3 segundos "
+    "ya acelerado, y entre todos no pasan de {MAX}.\n"
+    "PLANOS (solo en secuencial): de 3 a 10 planos en un orden que se entienda (apertura, "
+    "desarrollo, desenlace). Para cada uno: `video`, `desde`/`hasta` en segundos de ese video "
+    "(de 2 a 6 s, más si una acción lo necesita: conservá su inicio y su resultado), `foco_x`. "
+    "Quitá esperas y repeticiones. Entre todos no pasan de {MAX} segundos.\n"
+    "TARJETAS (en cada acto o plano): `volanta` = 2 a 4 palabras en mayúsculas (lugar · tema, por "
+    "ejemplo «CHIVILCOY · LAVILIMP», «CÁMARAS DE SEGURIDAD»); `texto` = de 6 a 12 palabras que "
+    "cuenten LO QUE SE VE en ese tramo, con datos confirmados por la nota. Planos seguidos de una "
+    "misma etapa repiten el mismo texto, y cada texto distinto queda en pantalla al menos 3 "
+    "segundos (sumando los planos seguidos que lo repiten). No anticipes: durante el ingreso no digas que ya se "
+    "llevaron algo. Si un dato no se ve (por ejemplo cuántas cosas se llevaron), decilo como "
+    "contexto atribuido («La denuncia indica…»).\n"
+    + _MATICES +
+    "• Usá SOLO lo que se ve y lo que dicen las fuentes de abajo. No inventes personas, objetos, "
+    "daños ni horarios.\n"
+    "Devolvé SOLO el JSON (en el modo que no corresponde, la lista va vacía) y en `motivo` una "
+    "línea que explique por qué elegiste ese modo."
+)
+
+_MONTAJE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "modo": {"type": "string"},
+        "camaras": {"type": "array", "items": {"type": "object", "properties": {
+            "video": {"type": "integer"}, "rol": {"type": "string"},
+            "reloj_inicio": {"type": "string"}, "foco_x": {"type": "number"}},
+            "required": ["video", "rol", "reloj_inicio", "foco_x"]}},
+        "actos": {"type": "array", "items": {"type": "object", "properties": {
+            "principal": {"type": "integer"}, "desde": {"type": "number"},
+            "hasta": {"type": "number"}, "velocidad": {"type": "number"},
+            "volanta": {"type": "string"}, "texto": {"type": "string"},
+            "foco_x": {"type": "number"}},
+            "required": ["principal", "desde", "hasta", "velocidad", "volanta", "texto",
+                         "foco_x"]}},
+        "planos": {"type": "array", "items": {"type": "object", "properties": {
+            "video": {"type": "integer"}, "desde": {"type": "number"},
+            "hasta": {"type": "number"}, "volanta": {"type": "string"},
+            "texto": {"type": "string"}, "foco_x": {"type": "number"}},
+            "required": ["video", "desde", "hasta", "volanta", "texto", "foco_x"]}},
+        "motivo": {"type": "string"},
+    },
+    "required": ["modo", "camaras", "actos", "planos", "motivo"],
+}
+
+
+def plan_montaje(videos: list, cuadros: list, fuentes: str, max_seg: float = 55.0,
+                 api_key: str = "", model: str = "") -> dict:
+    """El PLAN de montaje de varios videos de un mismo hecho (ver `_MONTAJE_PROMPT`).
+
+    `videos` = [(ruta, duración en s)], `cuadros` = [(ruta del cuadro inicial, del final)] de cada
+    uno, para leer el reloj; `fuentes` = título, volanta y nota. Los videos van por la Files API
+    con UNA clave (el archivo queda atado a ella) y en resolución media, para que se lean los
+    relojes. Devuelve el JSON de Gemini tal cual; lo valida `montaje.py`. Tira excepción si falla."""
+    key = (api_key or "").strip() or _clave_por_defecto()
+    if not key:
+        raise ValueError("Falta GEMINI_API_KEY")
+    model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+    parts = [{"text": _MONTAJE_PROMPT.replace("{MAX}", f"{max_seg:.0f}")
+              + f"\n\nFUENTES:\n{fuentes.strip()}"}]
+    for i, ((ruta, dur), (ini, fin)) in enumerate(zip(videos, cuadros), start=1):
+        ruta = Path(ruta)
+        f = _subir_archivo(ruta, _mime(ruta), key)
+        f = _esperar_activo(f["name"], key)
+        parts += [{"text": f"\nVIDEO {i} («{ruta.name}», {dur:.1f} s):"},
+                  {"file_data": {"mime_type": f.get("mimeType") or _mime(ruta),
+                                 "file_uri": f["uri"]}},
+                  {"text": f"Cuadro INICIAL del video {i} (segundo 0):"}, _img_part(Path(ini)),
+                  {"text": f"Cuadro FINAL del video {i} (segundo {dur:.1f}):"}, _img_part(Path(fin))]
+    resol = (get("MONTAJE_MEDIA_RESOLUTION") or "medium").strip().lower()
+    payload = {
+        "contents": [{"role": "user", "parts": parts}],
+        "generationConfig": {
+            "temperature": 0.2,
+            "response_mime_type": "application/json",
+            "response_schema": _MONTAJE_SCHEMA,
+            "mediaResolution": {"low": "MEDIA_RESOLUTION_LOW",
+                                "high": "MEDIA_RESOLUTION_HIGH"}.get(resol,
+                                                                     "MEDIA_RESOLUTION_MEDIUM"),
+        },
+    }
+    # Una sola clave: los videos subidos quedan atados a ella (otra clave daría 403).
+    r = _generate(model, payload, key, timeout=600, key_pool=[key])
+    try:
+        raw = json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
+    logger.info(f"Plan de montaje: modo «{raw.get('modo')}», {len(raw.get('actos') or [])} "
+                f"acto(s), {len(raw.get('planos') or [])} plano(s). {raw.get('motivo', '')[:160]}")
+    return raw
+
+
 _TITULAR_PROMPT = (
     "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Te paso el TEXTO de una nota "
     "que llegó SIN TÍTULO (o con un párrafo entero puesto en el lugar del título). Escribí EL "

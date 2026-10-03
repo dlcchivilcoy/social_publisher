@@ -669,12 +669,26 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # escribió Gemini al redactar la nota y ya pasaron por el corrector de grafía: acá no
         # se le pide nada nuevo. `cuerpo` es el texto de la nota: si el material es apaisado,
         # debajo de la foto queda fondo libre y ahí va su primera oración fuerte.
-        # Lo que llega por WhatsApp va con la especificación visual v1.0 (2026-10-02): a
-        # sangre, con la volanta y el titular en cajas abajo.
-        reel = to_vertical_reel(video_media, reel_path, overlay=False,
-                                titular=titulo, resumen=resumen, volanta=volanta,
-                                cuerpo=texto,
-                                estilo="corresponsal" if es_corresponsal else "")
+        # VARIOS videos de un corresponsal: se MONTAN (por cortes o con 2-3 cámaras a la vez,
+        # lo decide Gemini; pedido del usuario 2026-10-03, ver `montaje.py`). Si el montaje no
+        # sale, van uno detrás del otro como antes. `MONTAJE_VIDEOS=0` lo apaga.
+        reel = None
+        if (es_corresponsal and len(grupo) > 1
+                and (get("MONTAJE_VIDEOS") or "1").strip().lower() not in ("0", "no", "off")):
+            from montaje import montar
+            base = montar(grupo, WORK_DIR / f"montaje_{slug}.mp4",
+                          fuentes=(f"TÍTULO: {titulo}\nVOLANTA: {volanta}\nNOTA:\n{texto}\n\n"
+                                   f"LO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}"),
+                          work_dir=WORK_DIR / f"montaje_{slug}")
+            if base:
+                reel = to_vertical_reel(base, reel_path, compuesto=True, estilo="corresponsal")
+        if reel is None:
+            # Lo que llega por WhatsApp va con el diseño de los corresponsales: vertical a sangre
+            # con cajas abajo, apaisado entero en 4:5.
+            reel = to_vertical_reel(video_media, reel_path, overlay=False,
+                                    titular=titulo, resumen=resumen, volanta=volanta,
+                                    cuerpo=texto,
+                                    estilo="corresponsal" if es_corresponsal else "")
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.

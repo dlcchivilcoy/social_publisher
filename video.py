@@ -3368,6 +3368,13 @@ def autochequeo() -> bool:
             print(f"  ROTO tres fotos de formas distintas: {type(e).__name__}: {e}")
         # Las mismas fotos con el estilo de los corresponsales: con una vertical van todas en
         # 9:16; solo las apaisadas, en 4:5.
+        # Montaje de varios videos (2026-10-03): paneles, capas y unión por cortes, sin Gemini.
+        try:
+            import montaje
+            ok = montaje.autoprueba(tmp) and ok
+        except Exception as e:                                   # noqa: BLE001
+            ok = False
+            print(f"  ROTO montaje: {type(e).__name__}: {e}")
         for etiqueta, lote, esperado in (("fotos de corresponsal mezcladas", fotos, 1920),
                                          ("fotos de corresponsal apaisadas", fotos[1:],
                                           CORR_ALTO_APAISADO)):
