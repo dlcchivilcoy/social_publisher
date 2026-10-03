@@ -808,7 +808,26 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     else:
         remitente = uploader or "desconocido"
 
-    if hay and not corr_sin_web:
+    # Números habilitados (`CORRESPONSALES_DIRECTO`): sin mail de revisión, se publica en esta
+    # misma corrida. Solo si hay nota (o la descripción del vecino): un video del que no se sacó
+    # nada sigue yendo a revisión. El mail de ESTADO llega igual, con los links y el botón de
+    # borrar de la web.
+    directo = (not dry_run and es_corresponsal and (hay or corr_sin_web)
+               and _publica_directo((ctx or {}).get("celular", "")))
+    if directo:
+        logger.info(f"Publicación DIRECTA, sin revisión: el número {ctx.get('celular')} está "
+                    f"habilitado.")
+        try:
+            fila["publicacion_directa"] = True
+            _guardar_ledger(rows)
+            run_publish_video(file=video.name)
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"La publicación directa falló ({e}); va el mail de revisión.")
+            directo = False
+
+    if directo:
+        pass
+    elif hay and not corr_sin_web:
         cuerpo = (
             f"Llegó un video para revisar: «{titulo}»\n"
             f"Enviado por: {remitente}\n\n"
@@ -1041,6 +1060,23 @@ def _normalizar_ar(numero: str) -> str:
     if n.startswith("549") and len(n) == 13:
         return "54" + n[3:]
     return n
+
+
+def _publica_directo(celular: str) -> bool:
+    """¿Lo que manda este número de WhatsApp se publica DIRECTO, sin el mail de revisión?
+    (pedido del usuario 2026-10-03, para los números que él asigne).
+
+    La lista va en el `.env` —`CORRESPONSALES_DIRECTO`, separados por coma— y NO en el código:
+    el repositorio es público. Se comparan los últimos 10 dígitos (característica + número), así
+    da igual si se anotó con 549, con 54, con 0 o sin nada."""
+    propio = re.sub(r"\D", "", celular or "")[-10:]
+    if len(propio) < 8:
+        return False
+    for n in (get("CORRESPONSALES_DIRECTO") or "").split(","):
+        n = re.sub(r"\D", "", n)
+        if n and n[-10:] == propio:
+            return True
+    return False
 
 
 def _avisar_corresponsal_publicado(celular: str, canales_ok: list, links: dict | None = None) -> None:
@@ -1874,6 +1910,19 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     _guardar_ledger(rows)
     logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}).")
 
+    # Números habilitados (`CORRESPONSALES_DIRECTO`): se publica ya mismo, sin mail de revisión.
+    if _publica_directo(ctx.get("celular", "")):
+        logger.info(f"Publicación DIRECTA, sin revisión: el número {ctx.get('celular')} está "
+                    f"habilitado.")
+        try:
+            fila["publicacion_directa"] = True
+            _guardar_ledger(rows)
+            _corresponsal_foto_publish(fila, dry_run=False)
+            logger.info("=== Corresponsal-foto (etapa 1): publicado directo ===")
+            return
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"La publicación directa falló ({e}); va el mail de revisión.")
+
     botones = _botones_foto(carpeta.name, draft_id, reel_url)
     html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
             f"<h2 style='color:#e2620c'>Foto de corresponsal por revisar</h2>"
@@ -2040,7 +2089,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                    "yt_url": yt_info.get("short_url") or yt_info.get("url", "")})
     _guardar_ledger(rows)
     logger.info(f"Corresponsal-foto publicado: {estado}")
-    _enviar_aviso(f"Corresponsal-foto publicado: {titular}",
+    _enviar_aviso(("Publicado directo (sin revisión): " if fila.get("publicacion_directa")
+                   else "Corresponsal-foto publicado: ") + titular,
                   f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}, "
                   f"TikTok={estado.get('tiktok', 'omitido')}{_historias_txt(estado)}.")
@@ -2574,7 +2624,9 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
     html = (
         f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
         f"<h2 style='color:#e2620c'>Estado de publicación</h2>"
-        f"<p style='font-size:18px'><b>{_hesc(titulo)}</b></p>"
+        + ("<p style='color:#888;font-size:13px'>Publicada <b>directo, sin revisión</b>: el "
+           "número que la mandó está habilitado.</p>" if fila.get("publicacion_directa") else "")
+        + f"<p style='font-size:18px'><b>{_hesc(titulo)}</b></p>"
         f"<ul style='line-height:1.8;list-style:none;padding:0'>"
         f"{_li('Instagram', 'instagram')}"
         f"{_li('Facebook', 'facebook')}"
@@ -2589,4 +2641,5 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
               f"- YouTube: {estado.get('youtube')}"
               + (f" ({yt_info.get('short_url')})" if yt_info.get('short_url') else "") + "\n"
               f"- Web (Wix): {estado.get('wix')}" + (f" ({post_url})" if post_url else "") + "\n")
-    _enviar_aviso(f"Estado de publicación: {titulo}", cuerpo, html=html)
+    _enviar_aviso(("Publicado directo: " if fila.get("publicacion_directa")
+                   else "Estado de publicación: ") + titulo, cuerpo, html=html)
