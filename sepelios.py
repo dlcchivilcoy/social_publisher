@@ -10,6 +10,7 @@ Reglas (definidas con el usuario):
   - Un único posteo + historia que resume todos los sepelios nuevos del día.
   - Publica en Wix (muro/blog), Facebook e Instagram (muro + historia).
 """
+import html
 import json
 import re
 import unicodedata
@@ -186,6 +187,103 @@ def _platforms() -> list[str]:
 # en el .env (o cambiá este valor) y volvé a habilitar la tarea.
 def _sepelios_activo() -> bool:
     return (get("SEPELIOS_ACTIVO") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+# ── Historia diaria de Instagram (pedido 2026-10-03) ─────────────────────────
+# Va dentro de la corrida de las 08:00 (carrusel_tapa_farmacias), entre el clima y las
+# farmacias. Es APARTE de run_sepelios (posteo + Wix), que sigue apagado con
+# SEPELIOS_ACTIVO=0. Lee las dos empresas con los mismos patrones que la página
+# /sepelios de la web (diario_web/src/lib/sepelios.js), que traen la FECHA.
+HISTORIA_LEDGER = Path(__file__).parent / ".sepelios_historia.json"
+HISTORIA_DIAS = 2  # además de no repetir, solo entran los de hoy y los 2 días anteriores
+
+_RE_SN = re.compile(r"<h3[^>]*>\s*<a\s+href=['\"][^'\"]+['\"][^>]*>([\s\S]*?)</a>\s*</h3>\s*"
+                    r"<span[^>]*ciudad-fecha-deceso[^>]*>([\s\S]*?)</span>", re.I)
+_RE_VI = re.compile(r'<span class="homenaje__nombre">([\s\S]*?)</span>\s*'
+                    r'<span class="homenaje__fallecimiento">([\s\S]*?)</span>', re.I)
+_CHICAS = {"de", "del", "la", "las", "los", "y", "vda", "vda.", "da"}
+
+
+def _txt(fragmento: str) -> str:
+    sin_tags = re.sub(r"<[^>]+>", " ", re.sub(r"<br\s*/?>", " ", fragmento or "", flags=re.I))
+    return re.sub(r"\s+", " ", html.unescape(sin_tags)).strip()
+
+
+def _nombre_lindo(n: str) -> str:
+    """'TRUSSO WALTER DARIO (TONI) Q.E.P.D.' → 'Trusso Walter Dario (Toni)'."""
+    n = re.sub(r"q\.?\s*e\.?\s*p\.?\s*d\.?", "", n, flags=re.I).replace("†", "")
+    n = re.sub(r"\s+", " ", n).strip(" .-")
+    out = []
+    for w in n.split(" "):
+        low = w.lower()
+        out.append(low if low in _CHICAS else re.sub(r"[^\W\d_]", lambda m: m.group().upper(), low, count=1))
+    return " ".join(out)
+
+
+def _clave_persona(nombre: str) -> str:
+    """La misma persona puede figurar en las dos empresas con nombre y apellido en otro
+    orden: se compara el conjunto de palabras."""
+    return " ".join(sorted(w for w in re.split(r"[^a-z]+", _norm(nombre))
+                           if len(w) > 2 and w not in _CHICAS))
+
+
+def recolectar_con_fecha() -> list[dict]:
+    """[{nombre, fecha (date), empresa, clave}] de Chivilcoy, sin repetidos, más nuevos
+    primero. Si una empresa no responde, sigue con la otra."""
+    lista = []
+    try:
+        for m in _RE_SN.finditer(fetch_text(URL_SANNICOLAS)):
+            f = re.search(r"falleci[oó]\s+en\s+(.+?)\s+el\s+(\d{2})/(\d{2})/(\d{4})", _txt(m.group(2)), re.I)
+            if f and _es_chivilcoy(f.group(1)):
+                lista.append({"nombre": _nombre_lindo(_txt(m.group(1))), "empresa": "Empresa San Nicolás",
+                              "fecha": date(int(f.group(4)), int(f.group(3)), int(f.group(2)))})
+    except Exception as e:
+        logger.error(f"No se pudo leer San Nicolás: {e}")
+    try:
+        for m in _RE_VI.finditer(fetch_text(URL_VISION)):
+            f = re.search(r"(\d{2})/(\d{2})/(\d{4})\s*-\s*Servicio\s+(.+?)\.?$", _txt(m.group(2)), re.I)
+            if f and _es_chivilcoy(f.group(4)):
+                lista.append({"nombre": _nombre_lindo(_txt(m.group(1))), "empresa": "Grupo Visión",
+                              "fecha": date(int(f.group(3)), int(f.group(2)), int(f.group(1)))})
+    except Exception as e:
+        logger.error(f"No se pudo leer Visión: {e}")
+    vistos, unicos = set(), []
+    for s in sorted(lista, key=lambda s: s["fecha"], reverse=True):
+        s["clave"] = _clave_persona(s["nombre"])
+        if s["clave"] and s["clave"] not in vistos:
+            vistos.add(s["clave"])
+            unicos.append(s)
+    return unicos
+
+
+def historia_activa() -> bool:
+    """SEPELIOS_HISTORIA=0 apaga solo la historia diaria (no toca SEPELIOS_ACTIVO)."""
+    return (get("SEPELIOS_HISTORIA") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _leer_ledger_historia() -> set[str]:
+    try:
+        if HISTORIA_LEDGER.exists():
+            return set(json.loads(HISTORIA_LEDGER.read_text(encoding="utf-8")))
+    except Exception:
+        logger.warning("No se pudo leer .sepelios_historia.json; se asume vacío.")
+    return set()
+
+
+def pendientes_historia(hoy: date) -> list[dict]:
+    """Los sepelios que todavía no salieron en una historia, de hoy o de los
+    HISTORIA_DIAS días anteriores (sin el tope de días, el primer día saldría el listado
+    viejo entero de las dos empresas)."""
+    ya = _leer_ledger_historia()
+    desde = date.fromordinal(hoy.toordinal() - HISTORIA_DIAS)
+    return [s for s in recolectar_con_fecha() if s["clave"] not in ya and s["fecha"] >= desde]
+
+
+def marcar_historia(sepelios: list[dict]) -> None:
+    """Registra los que ya salieron en la historia (no se repiten otro día)."""
+    claves = _leer_ledger_historia() | {s["clave"] for s in sepelios}
+    HISTORIA_LEDGER.write_text(json.dumps(sorted(claves)[-400:], ensure_ascii=False, indent=2),
+                               encoding="utf-8")
 
 
 # ── Orquestador ──────────────────────────────────────────────────────────────

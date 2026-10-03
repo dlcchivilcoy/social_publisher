@@ -545,6 +545,9 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
 
     n = max(1, len(items))
     GAP = 24  # espacio entre ítems
+    # Aire entre el nombre y sus renglones chicos en el modo centrado: sin esto la 'g' o
+    # la 'j' del nombre tocaban el renglón de abajo (se vio en sepelios, 2026-10-03).
+    SUB_AIRE = 10 if center else 0
 
     def layout(main_sz):
         """Calcula fuentes, líneas por ítem y altura total para un tamaño dado."""
@@ -562,7 +565,7 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
             sub2 = it.get("sub2", "")           # línea resaltada (ej: horario)
             sline2 = _wrap(draw, sub2, f_sub, text_w)[:1] if sub2 else []
             h = (len(mlines) * (mlh + 2) + (slh + 4 if sline2 else 0)
-                 + (slh + 4 if sline else 0) + GAP)
+                 + (slh + 4 if sline else 0) + (SUB_AIRE if sline or sline2 else 0) + GAP)
             filas.append((mlines, sline2, sline, h))
             total += h
         return f_main, f_sub, mk, mlh, slh, filas, total
@@ -614,6 +617,7 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
             for ln in mlines:
                 draw.text(((W2 - draw.textlength(ln, font=f_main)) / 2, ly), ln, font=f_main, fill=WHITE)
                 ly += mlh + 2
+            ly += SUB_AIRE
             if sline2:
                 draw.text(((W2 - draw.textlength(sline2[0], font=f_sub)) / 2, ly + 2), sline2[0], font=f_sub, fill=accent)
                 ly += slh + 4
@@ -656,12 +660,15 @@ def compose_sepelios_feed(nombres: list[str], fecha_str: str) -> Path:
         accent=GRAY, marker="cross", stem="sepelios_feed")
 
 
-def compose_sepelios_story(nombres: list[str], fecha_str: str) -> Path:
-    items = [{"main": n} for n in nombres]
+def compose_sepelios_story(nombres: list[str], fecha_str: str, subs: list[str] | None = None) -> Path:
+    """Historia de sepelios. Centrada y sin logo, igual que la de farmacias (van seguidas
+    en las historias de la mañana). `subs`: renglón chico debajo de cada nombre."""
+    subs = subs or [""] * len(nombres)
+    items = [{"main": n, "sub": s} for n, s in zip(nombres, subs)]
     return _compose_listado(
         size=(W, H), titulo="SEPELIOS", subtitulo=fecha_str,
-        items=items, footer="Q.E.P.D. · Diario La Campaña acompaña a las familias · Fuentes: Visión y San Nicolás",
-        accent=GRAY, marker="cross", stem="sepelios_story")
+        items=items, footer="Q.E.P.D. · Diario La Campaña acompaña a las familias · Fuentes: Grupo Visión y Empresa San Nicolás",
+        accent=GRAY, marker="cross", stem="sepelios_story", logo=False, center=True)
 
 
 # ---- FARMACIAS ----
@@ -678,6 +685,169 @@ def compose_farmacias_story(items: list[dict], fecha_str: str) -> Path:
         items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs)",
         accent=GREEN, marker="plus", stem="farmacias_story",
         logo=False, center=True)
+
+
+# ---- CLIMA (historia diaria de IG, pedido 2026-10-03) ----
+SOL = (247, 170, 40)
+NUBE = (176, 182, 192)
+NUBE_OSC = (128, 134, 146)
+GOTA = (64, 132, 210)
+
+
+def _icono_clima(tipo: str, size: int) -> Image.Image:
+    """Ícono del clima dibujado (RGBA, fondo transparente). Las fuentes del servidor no
+    tienen emojis, así que se dibuja a 4x y se achica para que los bordes queden suaves."""
+    k = 4
+    s = size * k
+    im = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+
+    def sol(cx, cy, r):
+        import math
+        for i in range(8):
+            a = math.pi / 4 * i
+            d.line((cx + math.cos(a) * r * 1.35, cy + math.sin(a) * r * 1.35,
+                    cx + math.cos(a) * r * 1.85, cy + math.sin(a) * r * 1.85),
+                   fill=SOL, width=max(2, int(r * 0.22)))
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=SOL)
+
+    def luna(cx, cy, r):
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(150, 160, 190))
+        d.ellipse((cx - r * 0.45, cy - r * 1.15, cx + r * 1.35, cy + r * 0.65), fill=(0, 0, 0, 0))
+
+    def nube(x0, y0, w, color):
+        h = w * 0.5
+        d.ellipse((x0 + w * 0.08, y0 + h * 0.30, x0 + w * 0.48, y0 + h * 1.0), fill=color)
+        d.ellipse((x0 + w * 0.28, y0, x0 + w * 0.78, y0 + h * 0.95), fill=color)
+        d.ellipse((x0 + w * 0.58, y0 + h * 0.35, x0 + w * 0.95, y0 + h * 1.0), fill=color)
+        d.rounded_rectangle((x0 + w * 0.08, y0 + h * 0.55, x0 + w * 0.95, y0 + h * 1.0),
+                            radius=int(h * 0.22), fill=color)
+
+    def gotas(y, n=3):
+        for i in range(n):
+            x = s * (0.30 + 0.20 * i)
+            d.line((x + s * 0.04, y, x - s * 0.03, y + s * 0.16), fill=GOTA, width=int(s * 0.05))
+
+    if tipo == "sol":
+        sol(s / 2, s / 2, s * 0.24)
+    elif tipo == "luna":
+        luna(s / 2, s / 2, s * 0.30)
+    elif tipo in ("sol_nube", "luna_nube"):
+        (sol if tipo == "sol_nube" else luna)(s * 0.38, s * 0.36, s * 0.19)
+        nube(s * 0.12, s * 0.40, s * 0.82, NUBE)
+    elif tipo == "nube":
+        nube(s * 0.06, s * 0.28, s * 0.88, NUBE)
+    elif tipo == "niebla":
+        for i, w in enumerate((0.70, 0.84, 0.62, 0.78)):
+            y = s * (0.28 + 0.14 * i)
+            d.rounded_rectangle((s * (1 - w) / 2, y, s * (1 + w) / 2, y + s * 0.06),
+                                radius=int(s * 0.03), fill=NUBE)
+    elif tipo in ("lluvia", "chaparron", "tormenta", "nieve"):
+        if tipo == "chaparron":
+            sol(s * 0.36, s * 0.26, s * 0.16)
+        nube(s * 0.08, s * 0.14, s * 0.84, NUBE_OSC if tipo != "chaparron" else NUBE)
+        y = s * 0.66
+        if tipo == "tormenta":
+            d.polygon([(s * 0.52, y - s * 0.04), (s * 0.38, y + s * 0.16), (s * 0.49, y + s * 0.16),
+                       (s * 0.42, y + s * 0.30), (s * 0.62, y + s * 0.10), (s * 0.51, y + s * 0.10),
+                       (s * 0.58, y - s * 0.04)], fill=SOL)
+        elif tipo == "nieve":
+            for i in range(3):
+                x = s * (0.30 + 0.20 * i)
+                d.ellipse((x - s * 0.04, y + s * 0.04, x + s * 0.04, y + s * 0.12), fill=GOTA)
+        else:
+            gotas(y)
+    return im.resize((size, size), Image.LANCZOS)
+
+
+def compose_clima_story(datos: dict, fecha_str: str, site_url: str = "") -> Path:
+    """Historia 9:16 del clima de HOY en Chivilcoy (blanco + naranja, como farmacias):
+    título y fecha, ícono grande con el estado del día y la máxima/mínima, la fila de
+    horas (9 a 21 hs), viento/humedad/lluvia y al pie la web y la fuente (MET Norway).
+    `datos` = clima.pronostico_hoy(). Todo como un bloque centrado en el alto, dentro de
+    la zona segura de IG (~250 px arriba y abajo)."""
+    canvas = _new_canvas()
+    draw = ImageDraw.Draw(canvas)
+    inner = W - 2 * MARGIN
+
+    f_t = _font(72, True)
+    f_sub = _font(40, False)
+    f_estado = _font(50, True)
+    f_temp = _font(150, True)
+    f_mm = _font(44, True)
+    f_hora = _font(36, True)
+    f_htemp = _font(42, True)
+    f_det = _font(38, False)
+    f_foot = _font(34, True)
+    f_fuente = _font(26, False)
+
+    horas = datos.get("horas") or []
+    lluvia = datos.get("lluvia") or 0
+    ahora = datos.get("ahora") or {}
+    detalles = [
+        f"Ahora {ahora.get('temp')}° · sensación térmica {ahora.get('sensacion')}°",
+        f"Viento del {ahora.get('rumbo')}, hasta {datos.get('viento_max')} km/h",
+        f"Humedad {ahora.get('humedad')} %",
+        (f"Lluvia prevista: {str(lluvia).replace('.', ',')} mm" if lluvia >= 0.2
+         else "Sin lluvias previstas"),
+    ]
+
+    # Alto del bloque (para centrarlo): título, fecha, ícono+temps, estado, horas, detalles, pie
+    ICON = 300
+    alto = (_line_h(f_t) + 18 + _line_h(f_sub) + 50 + ICON + 30 + _line_h(f_estado) + 60
+            + (36 + 110 + 14 + 42 + 50 if horas else 0)
+            + len(detalles) * (_line_h(f_det) + 18) + 40 + 2 * (_line_h(f_foot) + 14)
+            + _line_h(f_fuente))
+    y = max(250, (H - alto) // 2)
+
+    y = _texto_centrado(draw, ["EL CLIMA EN CHIVILCOY"], f_t, y, WHITE, gap=18)
+    y = _texto_centrado(draw, [fecha_str], f_sub, y, GRAY, gap=50)
+
+    # Ícono grande del día + máxima (grande) y mínima al lado
+    est = datos.get("estado") or {}
+    ico = _icono_clima(est.get("icono", "sol_nube"), ICON)
+    f_lab = _font(34, True)
+    t_max, t_min = f"{datos.get('max')}°", f"MÍNIMA {datos.get('min')}°"
+    w_temp = max(draw.textlength(t_max, font=f_temp), draw.textlength(t_min, font=f_mm))
+    x0 = (W - (ICON + 40 + w_temp)) // 2
+    canvas.paste(ico, (int(x0), y), ico)
+    tx = x0 + ICON + 40
+    ty = y + (ICON - (_line_h(f_lab) + 24 + _line_h(f_temp, "0") + 40 + _line_h(f_mm))) // 2
+    draw.text((tx + 6, ty), "MÁXIMA", font=f_lab, fill=GRAY)
+    ty += _line_h(f_lab) + 24
+    draw.text((tx, ty - (f_temp.getbbox("0")[1])), t_max, font=f_temp, fill=WHITE)
+    ty += _line_h(f_temp, "0") + 40
+    draw.text((tx + 6, ty), t_min, font=f_mm, fill=GRAY)
+    y += ICON + 30
+    y = _texto_centrado(draw, [est.get("texto", "")], f_estado, y, GRAY, gap=60)
+
+    # Fila de horas
+    if horas:
+        draw.line((MARGIN, y - 24, W - MARGIN, y - 24), fill=(220, 222, 228), width=2)
+        col = inner / len(horas)
+        for i, h in enumerate(horas):
+            cx = MARGIN + col * i + col / 2
+            lab = f"{h['hora']} hs"
+            draw.text((cx - draw.textlength(lab, font=f_hora) / 2, y + 12), lab, font=f_hora, fill=GRAY)
+            hi = _icono_clima(h["estado"]["icono"], 110)
+            canvas.paste(hi, (int(cx - 55), y + 36 + 18), hi)
+            tt = f"{h['temp']}°"
+            draw.text((cx - draw.textlength(tt, font=f_htemp) / 2, y + 36 + 110 + 28), tt,
+                      font=f_htemp, fill=WHITE)
+        y += 36 + 110 + 14 + 42 + 50
+        draw.line((MARGIN, y - 4, W - MARGIN, y - 4), fill=(220, 222, 228), width=2)
+        y += 30
+
+    for ln in detalles:
+        y = _texto_centrado(draw, [ln], f_det, y, GRAY, gap=18)
+
+    y += 30
+    if site_url:
+        y = _texto_centrado(draw, ["Pronóstico extendido en", f"{site_url}/clima"], f_foot, y,
+                            ACCENT, gap=14)
+    _texto_centrado(draw, ["Datos: Instituto Meteorológico de Noruega (MET Norway)"], f_fuente, y,
+                    (150, 154, 162))
+    return _save(canvas, "clima_story")
 
 
 # ---------------------------------------------------------------------------
