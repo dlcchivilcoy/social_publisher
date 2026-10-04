@@ -36,7 +36,7 @@ from urllib.parse import quote
 import requests
 
 from platforms import facebook, instagram, wix
-from utils.branding import sitio_web
+from utils.branding import link_nota, sitio_web
 from utils.config import get
 from utils.gemini import transcribe_to_nota
 from utils.logger import get_logger
@@ -61,6 +61,32 @@ TITULAR_MAX = 110
 # ── Helpers de entorno ────────────────────────────────────────────────────────
 def _site() -> str:
     return sitio_web()
+
+
+def _caption_fb(caption: str, post_url: str) -> str:
+    """El texto del reel en FACEBOOK lleva el LINK de la nota, no el dominio pelado (pedido
+    2026-10-04): en Facebook el link se toca y abre la nota. En Instagram y TikTok el texto no
+    tiene links clicables, así que ahí sigue el nombre del sitio.
+
+    Reemplaza el dominio en el renglón «Seguí leyendo…»; si el texto no lo trae, suma el link
+    antes de los hashtags. Sin nota publicada (Wix falló, video sin desgrabar) queda igual."""
+    link = link_nota(post_url) if post_url else ""
+    if not caption or not link:
+        return caption
+    site = _site()
+    lineas = caption.split("\n")
+    # Primero el renglón de la invitación: el dominio también puede aparecer en el cuerpo.
+    for i, renglon in enumerate(lineas):
+        if site in renglon and "leyendo" in renglon.lower():
+            lineas[i] = renglon.replace(site, link, 1)
+            return "\n".join(lineas)
+    partes = caption.rstrip().split("\n\n")
+    renglon = f"📲 Seguí leyendo la nota completa en {link}"
+    if len(partes) > 1 and partes[-1].lstrip().startswith("#"):
+        partes.insert(len(partes) - 1, renglon)
+    else:
+        partes.append(renglon)
+    return "\n\n".join(partes)
 
 
 def _platforms() -> list[str]:
@@ -1685,17 +1711,6 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
             estado_canales["instagram"] = f"falló: {e}"
             logger.error(f"[instagram] reel FALLÓ: {e}")
 
-    # 2) Facebook (archivo local).
-    if "facebook" in plats and local_reel:
-        try:
-            res_fb = facebook.publish_video(caption, local_reel)
-            fb_video_id = (res_fb or {}).get("id", "")
-            estado_canales["facebook"] = "ok"
-            logger.info(f"[facebook] video OK (id={fb_video_id})")
-        except Exception as e:
-            estado_canales["facebook"] = f"falló: {e}"
-            logger.error(f"[facebook] video FALLÓ: {e}")
-
     # 3) YouTube Shorts (mismo archivo vertical) — solo si hay noticia (necesita SEO).
     yt_info = {}
     if hay and _yt_enabled() and local_reel:
@@ -1748,6 +1763,18 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
             logger.error(f"[wix] no se pudo publicar el borrador: {e}")
     else:
         logger.info("Sin desgrabación: la nota web queda SUSPENDIDA, sale solo el reel (sin texto).")
+
+    # 4.5) Facebook DESPUÉS de la nota web: así el texto lleva el link de la nota, que antes de
+    # publicarla no existe (pedido 2026-10-04; hasta entonces iba segundo, con el dominio pelado).
+    if "facebook" in plats and local_reel:
+        try:
+            res_fb = facebook.publish_video(_caption_fb(caption, post_url), local_reel)
+            fb_video_id = (res_fb or {}).get("id", "")
+            estado_canales["facebook"] = "ok"
+            logger.info(f"[facebook] video OK (id={fb_video_id})")
+        except Exception as e:
+            estado_canales["facebook"] = f"falló: {e}"
+            logger.error(f"[facebook] video FALLÓ: {e}")
 
     # 5) Historias de IG y FB con el mismo reel (al final: no demoran la nota web).
     _publicar_historias(reel_url, local_reel, plats, estado_canales, fila)
@@ -2058,7 +2085,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
     if "facebook" in plats and reel_local:
         try:
-            res_fb = facebook.publish_video(caption, reel_local); estado["facebook"] = "ok"
+            res_fb = facebook.publish_video(_caption_fb(caption, post_url), reel_local)
+            estado["facebook"] = "ok"
             fila["fb_video_id"] = (res_fb or {}).get("id", "") if isinstance(res_fb, dict) else ""
             logger.info("[facebook] reel OK")
         except Exception as e:
@@ -2324,7 +2352,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] reel FALLÓ: {e}")
     if "facebook" in plats and reel_local:
         try:
-            facebook.publish_video(caption, reel_local); estado["facebook"] = "ok"
+            facebook.publish_video(_caption_fb(caption, post_url), reel_local)
+            estado["facebook"] = "ok"
             logger.info("[facebook] reel OK")
         except Exception as e:
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] reel FALLÓ: {e}")
