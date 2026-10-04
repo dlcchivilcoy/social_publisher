@@ -1,7 +1,9 @@
-"""HISTORIAS DE LA MAÑANA (08:00): TAPA → CLIMA → SEPELIOS → FARMACIAS.
+"""PUBLICACIONES + HISTORIAS DE LA MAÑANA (08:00): TAPA → FARMACIAS → SEPELIOS → CLIMA.
 
-Las cuatro van a Facebook + Instagram (STORIES_PLATFORMS; clima y sepelios, sumadas el
-2026-10-03, se pueden acotar con CLIMA_SEPELIOS_PLATFORMS). NO publica nada en el feed.
+Cada pieza sale como publicación en el MURO de Facebook (pedido 2026-10-04; reemplaza el
+posteo combinado tapa+farmacias de las 00:00) y como HISTORIA en Facebook + Instagram
+(STORIES_PLATFORMS; clima y sepelios se pueden acotar con CLIMA_SEPELIOS_PLATFORMS).
+Nada va al feed de Instagram.
 """
 import json
 import smtplib
@@ -15,7 +17,9 @@ from pathlib import Path
 import farmacias as farm
 import tapa as tapa_mod
 from platforms import facebook, instagram
-from story_image import compose_clima_story, compose_sepelios_story, compose_tapa_story
+from publisher import _prepare_image
+from story_image import (compose_clima_feed, compose_clima_story, compose_sepelios_feed,
+                         compose_sepelios_story, compose_tapa_story)
 from utils.branding import sitio_web
 from utils.config import get
 from utils.logger import get_logger
@@ -131,11 +135,12 @@ def _avisar_fallo_publicacion(hoy: date, combos: list[str]) -> None:
         return
     fecha = farm._fecha_larga(hoy).capitalize()
     lista = "\n".join(f"  • {c.replace('|', ' → ')}" for c in sorted(combos))
-    asunto = f"⚠️ Historias que NO salieron ({fecha})"
+    asunto = f"⚠️ Publicaciones/historias de la mañana que NO salieron ({fecha})"
     cuerpo = (
-        f"Hoy ({fecha}) estas historias no se pudieron publicar tras varios reintentos:\n\n"
+        f"Hoy ({fecha}) esto no se pudo publicar tras varios reintentos:\n\n"
         f"{lista}\n\n"
-        f"(Cada línea es historia → red.) Las demás sí salieron. Suele ser un problema "
+        f"(Cada línea es pieza → red; «muro» es la publicación en el muro de Facebook, "
+        f"instagram/facebook son las historias.) Lo demás sí salió. Suele ser un problema "
         f"transitorio de la red social o del hosting de imágenes.\n\n"
         f"El sistema reintenta SOLO lo que falta en la próxima corrida, sin duplicar lo ya "
         f"publicado. Si querés que salga ya, se puede republicar a mano solo lo pendiente.\n\n"
@@ -193,169 +198,246 @@ def _clima_activo() -> bool:
     return (get("CLIMA_HISTORIA") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
+def _muro_activo() -> bool:
+    """Publicaciones en el MURO de Facebook, una por pieza (pedido 2026-10-04).
+    MURO_FB=0 las apaga y quedan solo las historias."""
+    return (get("MURO_FB") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _muro_delay() -> int:
+    """Separación mínima entre dos publicaciones del muro (anti-ráfaga de Facebook)."""
+    try:
+        return max(0, int(get("MURO_DELAY_SECONDS") or get("POST_DELAY_SECONDS") or 300))
+    except ValueError:
+        return 300
+
+
+def _tapa_de_hoy(hoy: date) -> Path | None:
+    """La tapa de hoy, solo lun–vie y solo si es FRESCA (subida en las últimas
+    TAPA_FRESCA_HORAS, 20 por defecto: la del día se sube la noche anterior). Así un
+    feriado sin edición no publica la tapa vieja en el muro ni en la historia."""
+    if hoy.weekday() >= 5:
+        logger.info("Fin de semana: no se publica la tapa.")
+        return None
+    folder = Path(get("TAPA_FOLDER") or tapa_mod.DEFAULT_FOLDER)
+    tapa = tapa_mod._resolver_tapa(folder)
+    if not tapa:
+        logger.warning(f"No hay imagen de tapa en {folder}; sale el resto sin la tapa.")
+        return None
+    try:
+        limite = float(get("TAPA_FRESCA_HORAS") or 20)
+    except ValueError:
+        limite = 20.0
+    horas = (time.time() - tapa.stat().st_mtime) / 3600.0
+    if horas > limite:
+        logger.warning(f"La tapa más nueva ({tapa.name}) tiene {horas:.0f} h (> {limite:.0f} h): "
+                       f"es vieja (¿feriado o todavía no se subió?). Sale el resto sin la tapa.")
+        return None
+    return tapa
+
+
+def _caption_tapa(fecha: str) -> str:
+    return (f"📰 Tapa de hoy — Diario La Campaña · {fecha}\n\n"
+            f"Las noticias de Chivilcoy, todos los días en nuestra web y en el diario impreso.")
+
+
+def _caption_farmacias(fecha: str, lineas: list[str], es_cambio: bool) -> str:
+    cabecera = "⚠️ *CAMBIO de turno de hoy*\n\n" if es_cambio else ""
+    return (cabecera + f"💊 Farmacias de turno — {fecha}\n\n" + "\n".join(lineas)
+            + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs.")
+
+
+def _caption_sepelios(fecha: str, lista: list[dict]) -> str:
+    renglones = [f"• {s['nombre']} ({s['empresa']}, {s['fecha'].strftime('%d/%m')})" for s in lista]
+    return (f"🕯️ Sepelios — {fecha}\n\nQ.E.P.D.\n\n" + "\n".join(renglones)
+            + "\n\nDiario La Campaña acompaña a las familias.\n"
+              "Información: Grupo Visión y Empresa San Nicolás.")
+
+
+def _caption_clima(fecha: str, d: dict) -> str:
+    lluvia = d.get("lluvia") or 0
+    agua = (f"☔ Lluvia prevista: {str(lluvia).replace('.', ',')} mm" if lluvia >= 0.2
+            else "☔ Sin lluvias previstas")
+    ahora = d.get("ahora") or {}
+    return (f"🌤️ El clima hoy en Chivilcoy — {fecha}\n\n"
+            f"{d['estado']['texto']}. Máxima de {d['max']}° y mínima de {d['min']}°.\n"
+            f"💨 Viento del {ahora.get('rumbo')}, hasta {d.get('viento_max')} km/h · "
+            f"💧 Humedad {ahora.get('humedad')} %\n{agua}\n\n"
+            f"El pronóstico extendido, en nuestra web.\n"
+            f"Datos: Instituto Meteorológico de Noruega (MET Norway).")
+
+
 def run_tapa_farmacias(dry_run: bool = False) -> None:
-    """Historias de la mañana, en este orden: TAPA → CLIMA → SEPELIOS → FARMACIAS
-    (pedido 2026-10-03). Tapa solo lun–vie; clima, sepelios y farmacias todos los días.
-    Todas van a Instagram y Facebook. Si una no se puede armar (sin datos de
-    farmacias, MET caído, ningún sepelio nuevo…), las demás salen igual."""
+    """Publicaciones + historias de la mañana (08:00), en este orden:
+    TAPA → FARMACIAS → SEPELIOS → CLIMA (pedido 2026-10-04).
+
+    Cada pieza sale como PUBLICACIÓN en el muro de Facebook (foto 4:5 + texto) y,
+    enseguida, como HISTORIA en Instagram y Facebook. Tapa solo lun–vie; farmacias,
+    sepelios y clima todos los días. Si una no se puede armar (sin datos de farmacias,
+    MET caído, ningún sepelio nuevo…), las demás salen igual. Reemplaza el posteo
+    combinado tapa+farmacias que salía a las 00:00 (muro_tapa_farmacias.py)."""
     import clima
     import sepelios as sep
 
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
-    logger.info(f"=== Historias de la mañana [{modo}] — {hoy.isoformat()} ===")
+    logger.info(f"=== Publicaciones e historias de la mañana [{modo}] — {hoy.isoformat()} ===")
 
-    es_finde = hoy.weekday() >= 5  # 5=sábado, 6=domingo
     fecha = farm._fecha_larga(hoy).capitalize()
     plats, extra = _platforms(), _extra_platforms()
-    historias = []          # (etiqueta, imagen, redes) en el ORDEN en que deben aparecer
+    # Cada pieza: (etiqueta, imagen de historia, redes de la historia, imagen del muro, texto)
+    piezas = []
     sepelios_hoy = []
 
-    # 1) Tapa SOLO de lunes a viernes (sáb/dom no hay edición → desactivada).
-    if not es_finde:
-        folder = Path(get("TAPA_FOLDER") or tapa_mod.DEFAULT_FOLDER)
-        tapa_img = tapa_mod._resolver_tapa(folder)
-        if tapa_img:
-            logger.info(f"Tapa: {tapa_img.name}")
-            historias.append(("tapa", compose_tapa_story(tapa_img, fecha), plats))
-        else:
-            logger.warning(f"No hay imagen de tapa en {folder}; sale el resto sin la tapa.")
-    else:
-        logger.info("Fin de semana: no se publica la tapa.")
-
-    # 2) Clima de hoy en Chivilcoy (MET Norway, la misma fuente que /clima de la web).
-    if _clima_activo():
+    # 1) Tapa
+    tapa = _tapa_de_hoy(hoy)
+    if tapa:
+        logger.info(f"Tapa: {tapa.name}")
         try:
-            datos = clima.pronostico_hoy()
-            logger.info(f"Clima: {datos['estado']['texto']}, máx {datos['max']}° / mín {datos['min']}°")
-            historias.append(("clima", compose_clima_story(datos, fecha, _site()), extra))
+            tapa_feed = Path(_prepare_image(tapa))
         except Exception as e:
-            logger.error(f"No se pudo armar la historia del clima: {e}")
+            logger.error(f"No se pudo preparar la tapa para el muro: {e}")
+            tapa_feed = tapa
+        piezas.append(("tapa", compose_tapa_story(tapa, fecha), plats, tapa_feed, _caption_tapa(fecha)))
 
-    # 3) Sepelios nuevos (los que todavía no salieron en una historia).
+    # 2) Farmacias de hoy (SIEMPRE, también fin de semana: hay farmacia de turno).
+    feed_farm, story_farm, lineas_cap, nombres, es_cambio = farm.farmacias_feed_de_hoy(hoy)
+    if story_farm:
+        logger.info(f"Farmacias: {', '.join(nombres)}")
+        piezas.append(("farmacias", story_farm, plats, feed_farm,
+                       _caption_farmacias(fecha, lineas_cap, es_cambio)))
+    else:
+        motivo = lineas_cap if isinstance(lineas_cap, str) else str(lineas_cap)
+        logger.error(f"Sin datos de farmacias: {motivo}. No salen las farmacias.")
+        if not dry_run:
+            _avisar_sin_datos(hoy, motivo)  # aviso por mail (1 vez por día)
+
+    # 3) Sepelios nuevos (los que todavía no salieron).
     if sep.historia_activa():
         try:
             sepelios_hoy = sep.pendientes_historia(hoy)
             if sepelios_hoy:
                 logger.info(f"Sepelios: {', '.join(s['nombre'] for s in sepelios_hoy)}")
-                img = compose_sepelios_story(
-                    [s["nombre"] for s in sepelios_hoy], fecha,
-                    [f"{s['empresa']} · {s['fecha'].strftime('%d/%m')}" for s in sepelios_hoy])
-                historias.append(("sepelios", img, extra))
+                nombres_sep = [s["nombre"] for s in sepelios_hoy]
+                subs = [f"{s['empresa']} · {s['fecha'].strftime('%d/%m')}" for s in sepelios_hoy]
+                piezas.append(("sepelios", compose_sepelios_story(nombres_sep, fecha, subs), extra,
+                               compose_sepelios_feed(nombres_sep, fecha, subs),
+                               _caption_sepelios(fecha, sepelios_hoy)))
             else:
-                logger.info("Sepelios: ninguno nuevo de Chivilcoy; hoy no sale esa historia.")
+                logger.info("Sepelios: ninguno nuevo de Chivilcoy; hoy no salen.")
         except Exception as e:
-            logger.error(f"No se pudo armar la historia de sepelios: {e}")
+            logger.error(f"No se pudieron armar los sepelios: {e}")
 
-    # 4) Farmacias de hoy (SIEMPRE, también fin de semana: hay farmacia de turno).
-    feed_farm, story_farm, lineas_cap, nombres, es_cambio = farm.farmacias_feed_de_hoy(hoy)
-    if story_farm:
-        logger.info(f"Farmacias: {', '.join(nombres)}")
-        historias.append(("farmacias", story_farm, plats))
-    else:
-        motivo = lineas_cap if isinstance(lineas_cap, str) else str(lineas_cap)
-        logger.error(f"Sin datos de farmacias: {motivo}. No sale la historia de farmacias.")
-        if not dry_run:
-            _avisar_sin_datos(hoy, motivo)  # aviso por mail (1 vez por día)
+    # 4) Clima de hoy en Chivilcoy (MET Norway, la misma fuente que /clima de la web).
+    if _clima_activo():
+        try:
+            datos = clima.pronostico_hoy()
+            logger.info(f"Clima: {datos['estado']['texto']}, máx {datos['max']}° / mín {datos['min']}°")
+            piezas.append(("clima", compose_clima_story(datos, fecha, _site()), extra,
+                           compose_clima_feed(datos, fecha, _site()), _caption_clima(fecha, datos)))
+        except Exception as e:
+            logger.error(f"No se pudo armar el clima: {e}")
 
-    if not historias:
-        logger.error("No hay ninguna historia para publicar hoy.")
+    if not piezas:
+        logger.error("No hay nada para publicar hoy.")
         return
+
+    muro = _muro_activo()
+    story_fns = {"instagram": instagram.publish_story, "facebook": facebook.publish_story}
+
+    # Acciones en ORDEN: por cada pieza, primero la publicación del muro y después sus
+    # historias. Cada una es (etiqueta, red, función); red "muro" = muro de Facebook.
+    acciones = []
+    for etiqueta, story_img, redes, feed_img, caption in piezas:
+        if muro and feed_img:
+            acciones.append((etiqueta, "muro",
+                             lambda c=caption, f=feed_img: facebook.publish(c, Path(f))))
+        for red in redes:
+            if red in story_fns:
+                acciones.append((etiqueta, red, lambda fn=story_fns[red], i=story_img: fn(i)))
 
     if dry_run:
-        for etiqueta, img, redes in historias:
-            logger.info(f"[dry-run] {etiqueta}: {img.name} → {'+'.join(redes)} (NO se publica)")
-        logger.info("=== Historias de la mañana: fin (dry-run) ===")
+        for etiqueta, red, _ in acciones:
+            que = "publicación en el muro de Facebook" if red == "muro" else f"historia {red}"
+            logger.info(f"[dry-run] {etiqueta}: {que} (NO se publica)")
+        for etiqueta, story_img, _, feed_img, caption in piezas:
+            logger.info(f"[dry-run] {etiqueta}: historia {Path(story_img).name}, "
+                        f"muro {Path(feed_img).name}\n{caption}")
+        logger.info("=== Publicaciones e historias de la mañana: fin (dry-run) ===")
         return
 
-    fns = {"instagram": instagram.publish_story, "facebook": facebook.publish_story}
-
-    # Combos (historia × red) a publicar hoy, salteando los que YA salieron (ledger por
-    # plataforma). Así, si FB salió pero IG falló, se reintenta SOLO IG — sin re-postear FB.
+    # Salteando lo que YA salió hoy (ledger por pieza y red): si FB salió pero IG falló,
+    # se reintenta SOLO IG, sin volver a publicar lo de FB.
     hechos = _estado_hoy(hoy)
-    requeridos = [(etiqueta, img, name) for etiqueta, img, redes in historias
-                  for name in redes if name in fns]
-    pendientes = [(e, img, n) for (e, img, n) in requeridos if _clave(e, n) not in hechos]
-
+    pendientes = [(e, r, fn) for (e, r, fn) in acciones if _clave(e, r) not in hechos]
     if not pendientes:
-        logger.info("Historias de la mañana: todo lo de hoy ya está publicado. Se omite.")
+        logger.info("Todo lo de hoy ya está publicado. Se omite.")
         return
     if hechos:
         logger.info(f"Ya publicadas hoy (no se repiten): {', '.join(sorted(hechos))}")
 
-    # Reintenta EN LA MISMA corrida las que fallen (p. ej. IG con un hipo transitorio),
-    # sin volver a tocar las que ya salieron. Si igual queda alguna, el ledger deja
-    # registrado lo hecho para que la próxima corrida retome SOLO lo pendiente.
+    # Reintenta EN LA MISMA corrida lo que falle (p. ej. IG con un hipo transitorio). Si
+    # igual queda algo, el ledger deja registrado lo hecho y la próxima corrida retoma
+    # SOLO lo pendiente.
     rondas = max(1, int(get("STORY_RETRY_ROUNDS") or 3))
     espera = max(0, int(get("STORY_RETRY_WAIT") or 150))
-    salieron_ahora = set()  # etiquetas publicadas en ESTA corrida
+    separacion = _muro_delay()
+    ultimo_muro = None
+    salieron_ahora = set()  # etiquetas publicadas (en alguna red) en ESTA corrida
 
     for ronda in range(1, rondas + 1):
         siguen = []
-        # ORDEN: si en una red falla una historia, las que van después en esa misma red
-        # esperan a la ronda siguiente, para no salir antes que ella (tapa → clima →
-        # sepelios → farmacias). En la última ronda sale todo lo que se pueda.
+        # ORDEN: si en una red falla algo, lo que va después en esa misma red espera a la
+        # ronda siguiente, para no salir desordenado. En la última ronda sale todo lo
+        # que se pueda.
         trabadas = set()
-        for etiqueta, img, name in pendientes:
-            if name in trabadas and ronda < rondas:
-                siguen.append((etiqueta, img, name))
+        for etiqueta, red, fn in pendientes:
+            if red in trabadas and ronda < rondas:
+                siguen.append((etiqueta, red, fn))
                 continue
+            if red == "muro" and ultimo_muro is not None:
+                falta = separacion - (time.time() - ultimo_muro)
+                if falta > 0:
+                    logger.info(f"Espero {falta:.0f}s antes de la próxima publicación del muro…")
+                    time.sleep(falta)
             try:
-                fns[name](img)
-                hechos.add(_clave(etiqueta, name))
+                fn()
+                if red == "muro":
+                    ultimo_muro = time.time()
+                hechos.add(_clave(etiqueta, red))
                 salieron_ahora.add(etiqueta)
-                _guardar_estado(hoy, hechos)  # persistir apenas sale cada historia
-                logger.info(f"[{name}] historia {etiqueta} OK")
+                _guardar_estado(hoy, hechos)  # persistir apenas sale cada una
+                logger.info(f"[{red}] {etiqueta} OK")
             except Exception as e:
-                logger.error(f"[{name}] historia {etiqueta} FALLÓ (ronda {ronda}/{rondas}): {e}")
-                siguen.append((etiqueta, img, name))
-                trabadas.add(name)
+                logger.error(f"[{red}] {etiqueta} FALLÓ (ronda {ronda}/{rondas}): {e}")
+                siguen.append((etiqueta, red, fn))
+                trabadas.add(red)
         pendientes = siguen
         if not pendientes:
             break
         if ronda < rondas:
-            faltan = ", ".join(_clave(e, n) for e, _, n in pendientes)
+            faltan = ", ".join(_clave(e, r) for e, r, _ in pendientes)
             logger.warning(f"Quedan pendientes: {faltan}. Reintento en {espera}s…")
             time.sleep(espera)
 
-    # Los sepelios quedan registrados (no se repiten otro día) apenas su historia salió EN
-    # ESTA corrida en alguna red: si Facebook falló pero Instagram no, mañana no se repiten
-    # en Instagram. (Si la de hoy ya había salido antes, los nuevos que aparecieron después
-    # no se marcan: entran en la de mañana.)
+    # Los sepelios quedan registrados (no se repiten otro día) apenas salieron EN ESTA
+    # corrida en alguna red: si una red falló, mañana no se repiten en las otras. (Si los
+    # de hoy ya habían salido antes, los nuevos que aparecieron después no se marcan:
+    # entran mañana.)
     if "sepelios" in salieron_ahora:
         sep.marcar_historia(sepelios_hoy)
 
     if not pendientes:
-        logger.info("Historias de la mañana: publicado en todas las redes.")
+        logger.info("Publicaciones e historias de la mañana: todo publicado.")
     else:
-        combos_fallidos = [_clave(e, n) for e, _, n in pendientes]
-        faltan = ", ".join(combos_fallidos)
-        logger.error(f"Siguen sin publicarse: {faltan} (tras {rondas} rondas). "
+        combos_fallidos = [_clave(e, r) for e, r, _ in pendientes]
+        logger.error(f"Siguen sin publicarse: {', '.join(combos_fallidos)} (tras {rondas} rondas). "
                      f"La próxima corrida retoma SOLO lo pendiente (sin duplicar lo ya publicado).")
         _avisar_fallo_publicacion(hoy, combos_fallidos)  # aviso por mail (dedup por día+combos)
 
-    logger.info("=== Historias de la mañana: fin ===")
-    _recuperar_muro(dry_run)
-
-
-def _recuperar_muro(dry_run: bool) -> None:
-    """RED DE SEGURIDAD del posteo al muro de Facebook (tapa + farmacias, 00:00).
-
-    Ese posteo es lo ÚNICO del sistema que depende del `schedule:` NATIVO de GitHub, que no
-    es confiable: el 27/8/2026 salió 10 h 42 min tarde y el 28/8 directamente no se disparó
-    (las historias sí salieron, porque las dispara cron-job.org). Resultado: la tapa no
-    apareció en el muro y nadie se enteró.
-
-    Las historias corren a las 08:00 por cron-job.org —disparo confiable, MISMO grupo de
-    concurrencia y MISMOS datos (tapa + farmacias)—, así que son el lugar natural para
-    verificar. `run_muro_tapa_farmacias` ya es idempotente por fecha: si el muro de hoy ya
-    salió, no hace nada. Nunca puede voltear las historias, que ya están publicadas."""
-    try:
-        from muro_tapa_farmacias import _ya_hoy, run_muro_tapa_farmacias
-        if _ya_hoy(date.today()):
-            return
-        logger.warning("El muro de FB (tapa+farmacias) todavía no salió hoy: lo publico ahora "
-                       "(el cron nativo de GitHub no disparó).")
-        run_muro_tapa_farmacias(dry_run=dry_run)
-    except Exception as e:  # noqa: BLE001 — recuperar nunca puede tumbar la corrida
-        logger.error(f"No pude recuperar el muro de FB: {e}")
+    if tapa and tapa_feed != tapa:
+        try:
+            tapa_feed.unlink(missing_ok=True)  # temporal de _prepare_image
+        except Exception:
+            pass
+    logger.info("=== Publicaciones e historias de la mañana: fin ===")

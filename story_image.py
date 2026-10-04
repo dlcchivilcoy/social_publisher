@@ -652,12 +652,13 @@ def _compose_listado(*, size, titulo, subtitulo, items, footer,
 
 
 # ---- SEPELIOS ----
-def compose_sepelios_feed(nombres: list[str], fecha_str: str) -> Path:
-    items = [{"main": n} for n in nombres]
+def compose_sepelios_feed(nombres: list[str], fecha_str: str, subs: list[str] | None = None) -> Path:
+    subs = subs or [""] * len(nombres)
+    items = [{"main": n, "sub": s} for n, s in zip(nombres, subs)]
     return _compose_listado(
         size=(1080, 1350), titulo="SEPELIOS", subtitulo=fecha_str,
-        items=items, footer="Q.E.P.D. · Diario La Campaña acompaña a las familias · Fuentes: Visión y San Nicolás",
-        accent=GRAY, marker="cross", stem="sepelios_feed")
+        items=items, footer="Q.E.P.D. · Diario La Campaña acompaña a las familias · Fuentes: Grupo Visión y Empresa San Nicolás",
+        accent=GRAY, marker="cross", stem="sepelios_feed", logo=False, center=True)
 
 
 def compose_sepelios_story(nombres: list[str], fecha_str: str, subs: list[str] | None = None) -> Path:
@@ -676,7 +677,7 @@ def compose_farmacias_feed(items: list[dict], fecha_str: str) -> Path:
     return _compose_listado(
         size=(1080, 1350), titulo="FARMACIAS DE TURNO", subtitulo=fecha_str,
         items=items, footer="Turnos de 8:30 a 8:30 hs (la última, de 8:30 a 22 hs)",
-        accent=GREEN, marker="plus", stem="farmacias_feed")
+        accent=GREEN, marker="plus", stem="farmacias_feed", logo=False, center=True)
 
 
 def compose_farmacias_story(items: list[dict], fecha_str: str) -> Path:
@@ -760,13 +761,15 @@ def _icono_clima(tipo: str, size: int) -> Image.Image:
     return im.resize((size, size), Image.LANCZOS)
 
 
-def compose_clima_story(datos: dict, fecha_str: str, site_url: str = "") -> Path:
+def compose_clima_story(datos: dict, fecha_str: str, site_url: str = "", alto: int = H) -> Path:
     """Historia 9:16 del clima de HOY en Chivilcoy (blanco + naranja, como farmacias):
     título y fecha, ícono grande con el estado del día y la máxima/mínima, la fila de
     horas (9 a 21 hs), viento/humedad/lluvia y al pie la web y la fuente (MET Norway).
     `datos` = clima.pronostico_hoy(). Todo como un bloque centrado en el alto, dentro de
-    la zona segura de IG (~250 px arriba y abajo)."""
-    canvas = _new_canvas()
+    la zona segura de IG (~250 px arriba y abajo). Con alto=1350 sale la versión 4:5 para
+    el muro de Facebook (compose_clima_feed)."""
+    es_story = alto >= 1600
+    canvas = Image.new("RGB", (W, alto), BG)
     draw = ImageDraw.Draw(canvas)
     inner = W - 2 * MARGIN
 
@@ -793,12 +796,16 @@ def compose_clima_story(datos: dict, fecha_str: str, site_url: str = "") -> Path
     ]
 
     # Alto del bloque (para centrarlo): título, fecha, ícono+temps, estado, horas, detalles, pie
-    ICON = 300
-    alto = (_line_h(f_t) + 18 + _line_h(f_sub) + 50 + ICON + 30 + _line_h(f_estado) + 60
-            + (36 + 110 + 14 + 42 + 50 if horas else 0)
-            + len(detalles) * (_line_h(f_det) + 18) + 40 + 2 * (_line_h(f_foot) + 14)
-            + _line_h(f_fuente))
-    y = max(250, (H - alto) // 2)
+    ICON = 300 if es_story else 220
+    f_lab = _font(34, True)
+    # Alto de la fila del ícono: el mayor entre el ícono y la columna MÁXIMA/23°/MÍNIMA
+    col_der = _line_h(f_lab) + 24 + _line_h(f_temp, "0") + 40 + _line_h(f_mm)
+    fila = max(ICON, col_der)
+    bloque = (_line_h(f_t) + 18 + _line_h(f_sub) + 50 + fila + 30 + _line_h(f_estado) + 60
+              + (36 + 110 + 14 + 42 + 50 if horas else 0)
+              + len(detalles) * (_line_h(f_det) + 18) + 40 + 2 * (_line_h(f_foot) + 14)
+              + _line_h(f_fuente))
+    y = max(250 if es_story else 40, (alto - bloque) // 2)
 
     y = _texto_centrado(draw, ["EL CLIMA EN CHIVILCOY"], f_t, y, WHITE, gap=18)
     y = _texto_centrado(draw, [fecha_str], f_sub, y, GRAY, gap=50)
@@ -806,19 +813,18 @@ def compose_clima_story(datos: dict, fecha_str: str, site_url: str = "") -> Path
     # Ícono grande del día + máxima (grande) y mínima al lado
     est = datos.get("estado") or {}
     ico = _icono_clima(est.get("icono", "sol_nube"), ICON)
-    f_lab = _font(34, True)
     t_max, t_min = f"{datos.get('max')}°", f"MÍNIMA {datos.get('min')}°"
     w_temp = max(draw.textlength(t_max, font=f_temp), draw.textlength(t_min, font=f_mm))
     x0 = (W - (ICON + 40 + w_temp)) // 2
-    canvas.paste(ico, (int(x0), y), ico)
+    canvas.paste(ico, (int(x0), y + (fila - ICON) // 2), ico)
     tx = x0 + ICON + 40
-    ty = y + (ICON - (_line_h(f_lab) + 24 + _line_h(f_temp, "0") + 40 + _line_h(f_mm))) // 2
+    ty = y + (fila - col_der) // 2
     draw.text((tx + 6, ty), "MÁXIMA", font=f_lab, fill=GRAY)
     ty += _line_h(f_lab) + 24
     draw.text((tx, ty - (f_temp.getbbox("0")[1])), t_max, font=f_temp, fill=WHITE)
     ty += _line_h(f_temp, "0") + 40
     draw.text((tx + 6, ty), t_min, font=f_mm, fill=GRAY)
-    y += ICON + 30
+    y += fila + 30
     y = _texto_centrado(draw, [est.get("texto", "")], f_estado, y, GRAY, gap=60)
 
     # Fila de horas
@@ -847,7 +853,12 @@ def compose_clima_story(datos: dict, fecha_str: str, site_url: str = "") -> Path
                             ACCENT, gap=14)
     _texto_centrado(draw, ["Datos: Instituto Meteorológico de Noruega (MET Norway)"], f_fuente, y,
                     (150, 154, 162))
-    return _save(canvas, "clima_story")
+    return _save(canvas, "clima_story" if es_story else "clima_feed")
+
+
+def compose_clima_feed(datos: dict, fecha_str: str, site_url: str = "") -> Path:
+    """Versión 4:5 (1080x1350) de la placa del clima, para el muro de Facebook."""
+    return compose_clima_story(datos, fecha_str, site_url, alto=SLIDE_H)
 
 
 # ---------------------------------------------------------------------------

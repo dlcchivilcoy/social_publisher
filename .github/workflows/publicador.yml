@@ -3,13 +3,12 @@ name: Publicador Diario
 # El disparo a horario lo hace cron-job.org (disparador externo confiable, en hora de
 # Argentina) llamando a la API de workflow_dispatch. NO se usa el scheduler nativo de
 # GitHub (schedule:) para el grueso porque no es confiable y chocaba con cron-job.org.
-# EXCEPCION: el posteo del MURO tapa+farmacias de las 00:00 SI usa schedule nativo: a esa
-# hora no hay ningun cron de cron-job.org en el grupo `publicador`, asi que no choca, y una
-# demora de unos minutos a la medianoche es tolerable para un posteo diario.
+# EXCEPCION: las publicidades programadas usan schedule nativo (ver abajo). El posteo del
+# MURO tapa+farmacias de las 00:00 tambien lo usaba; se RETIRO el 2026-10-04 (ahora salen
+# 4 publicaciones separadas a las 08:00 con --tapa-farmacias, disparadas por cron-job.org).
 # Tambien se puede correr a mano desde la pestana Actions -> Run workflow.
 on:
   schedule:
-    - cron: "0 3 * * *"   # 03:00 UTC = 00:00 Argentina (UTC-3): muro FB tapa+farmacias
     # Publicidades de clientes: mira la cola y postea/da de baja lo que corresponda.
     # Cada cuarto de hora porque una campana se vende con horario ("sale a las 8") y
     # llegar 40 minutos tarde al posteo de un anunciante que pago no es aceptable.

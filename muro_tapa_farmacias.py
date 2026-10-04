@@ -65,10 +65,22 @@ def _tapa_fresca(hoy: date) -> Path | None:
     return tapa
 
 
+def _combinado_activo() -> bool:
+    """RETIRADO el 2026-10-04: ahora tapa, farmacias, sepelios y clima salen como 4
+    publicaciones separadas a las 08:00 (carrusel_tapa_farmacias.py). Queda apagado para
+    no duplicar la tapa y las farmacias en el muro; MURO_COMBINADO=1 lo vuelve a prender."""
+    return (get("MURO_COMBINADO") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
 def run_muro_tapa_farmacias(dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
     logger.info(f"=== Muro FB Tapa+Farmacias [{modo}] — {hoy.isoformat()} ===")
+
+    if not _combinado_activo():
+        logger.info("Posteo combinado tapa+farmacias RETIRADO (MURO_COMBINADO!=1): ahora salen "
+                    "publicaciones separadas a las 08:00 con --tapa-farmacias. Se omite.")
+        return
 
     if not dry_run and _ya_hoy(hoy):
         logger.info("El posteo del muro de hoy ya se publicó. Se omite.")
