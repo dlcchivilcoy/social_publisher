@@ -379,3 +379,31 @@ def get_video_stats(ids, shorts: bool = False) -> dict:
                 "comments": int(st.get("commentCount", 0) or 0),
             }
     return out
+
+
+def subtitulos_texto(video_id: str, idioma: str = "es") -> str:
+    """Texto plano de los SUBTÍTULOS de un video PROPIO del canal Radio del Centro, por la
+    API oficial (captions.list + captions.download, scope force-ssl).
+
+    Es el camino del desgrabador de YouTube en la NUBE: desde las IP de GitHub, YouTube
+    bloquea a yt-dlp («Sign in to confirm you're not a bot», siempre, desde el 10/9/2026) y
+    se caía a que Gemini ingiriera el video (lento: 57 min para 6 videos el 5/10). Como
+    los videos son NUESTROS, la API deja bajar la transcripción automática sin ese bloqueo.
+
+    Prefiere una pista cargada a mano (standard) sobre la automática (asr), en `idioma`.
+    Cuota: 50 (list) + 200 (download) unidades por video. Devuelve "" si no hay pista."""
+    s = _service()
+    items = s.captions().list(part="snippet", videoId=video_id).execute().get("items", [])
+    pistas = [c for c in items
+              if (c["snippet"].get("language") or "").lower().startswith(idioma)
+              and (c["snippet"].get("status") or "serving") == "serving"]
+    if not pistas:
+        return ""
+    pistas.sort(key=lambda c: (c["snippet"].get("trackKind") or "").lower() == "asr")
+    srt = s.captions().download(id=pistas[0]["id"], tfmt="srt").execute()
+    if isinstance(srt, bytes):
+        srt = srt.decode("utf-8", "replace")
+    # SRT → texto: se descartan los números de bloque y las líneas de tiempo.
+    lineas = [l.strip() for l in srt.splitlines()
+              if l.strip() and not l.strip().isdigit() and "-->" not in l]
+    return " ".join(" ".join(lineas).split())

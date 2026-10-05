@@ -1067,6 +1067,37 @@ def _audio_de_youtube(url: str):
         return None
 
 
+def _subs_api_on() -> bool:
+    """Plan B del desgrabador de YouTube: bajar los SUBTÍTULOS por la API del canal cuando
+    yt-dlp está bloqueado. `YT_SUBTITULOS_API=0` lo apaga (vuelve a Gemini mirando el video)."""
+    return str(get("YT_SUBTITULOS_API", "1")).strip().lower() not in ("0", "no", "false", "off")
+
+
+def _id_de_youtube(url: str) -> str:
+    """ID de 11 caracteres de un link de YouTube (youtu.be/, watch?v=, shorts/, live/, embed/)."""
+    m = re.search(r"(?:youtu\.be/|[?&]v=|/(?:shorts|live|embed)/)([A-Za-z0-9_-]{11})", url or "")
+    return m.group(1) if m else ""
+
+
+def _subtitulos_de_youtube(url: str):
+    """Transcripción de un video PROPIO por la API oficial (ver youtube_api.subtitulos_texto).
+    Best-effort: ante cualquier error (sin token, sin pista, cuota) devuelve None."""
+    vid = _id_de_youtube(url)
+    if not vid:
+        return None
+    try:
+        from platforms import youtube_api
+        txt = youtube_api.subtitulos_texto(vid)
+    except Exception as e:  # noqa: BLE001 — los subtítulos nunca pueden voltear el desgrabe
+        logger.warning(f"No pude bajar los subtítulos de YouTube ({e}).")
+        return None
+    if not txt:
+        logger.info("El video no tiene subtítulos en español (todavía).")
+        return None
+    logger.info(f"  Paso 1a: subtítulos de YouTube bajados por la API ({len(txt.split())} palabras).")
+    return txt
+
+
 # Groq RECHAZA (400) una pista de más de 896 caracteres. Antes se cortaba en 1000 y la
 # llamada fallaba entera: se perdía la transcripción de Groq y se caía a que Gemini mirara
 # el video —justo lo que queremos evitar—, en silencio. Se corta con margen y por palabra.
@@ -1290,33 +1321,44 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     # el file_uri de YouTube y Gemini tenía que INGERIR el video: eso es lo que se satura
     # (503 en cadena) y lo que más consume de la clave paga. Si algo falla, cae SOLO al
     # camino clásico de abajo: nunca queda peor que antes.
+    g_txt, fuente = None, ""
     if _groq_on() and _audio_first_on():
         audio = _audio_de_youtube(url)
         if audio is not None:
             hint = "\n".join(x for x in (_glosario(), (extra_text or "").strip()) if x)
             try:
                 g_txt = _transcribir_groq(audio, hint)
+                fuente = "Groq"
             except Exception as e:  # noqa: BLE001
                 g_txt = None
-                logger.warning(f"Groq falló ({e}); caigo a Gemini mirando el video.")
+                logger.warning(f"Groq falló ({e}); pruebo con los subtítulos de YouTube.")
             finally:
                 try:
                     audio.unlink()
                 except Exception:  # noqa: BLE001
                     pass
-            if g_txt and len(g_txt) >= 25:
-                logger.info(f"Audio-first (YouTube): Groq transcribió {len(g_txt)} chars; "
-                            f"Gemini solo redacta (sin ingerir el video).")
-                nota = _redactar_y_verificar(g_txt, extra_text or "", key, model,
-                                             _gemini_keys(key), instrucciones=instrucciones,
-                                             momento=0.0, segmentos=[])
-                # La transcripción viaja con la nota: el segundo pase de largo la usa como
-                # fuente en vez de volver a pedirle el video a Gemini.
-                nota["transcripcion"] = g_txt
-                logger.info(f"Gemini OK (YouTube, audio-first): hay_noticia={nota['hay_noticia']} "
-                            f"| «{nota['volanta']} — {nota['titulo']}»")
-                return nota
-            logger.info("Audio-first (YouTube): sin transcripción de Groq; sigo con Gemini.")
+
+    # Plan B (2026-10-05): SUBTÍTULOS por la API oficial del canal. En la nube yt-dlp está
+    # SIEMPRE bloqueado por YouTube (IP de GitHub) y se caía a que Gemini mirara el video.
+    # Los videos son del canal propio, así que el token OAuth puede bajar su transcripción.
+    if not (g_txt and len(g_txt) >= 25) and _audio_first_on() and _subs_api_on():
+        g_txt, fuente = _subtitulos_de_youtube(url), "subtítulos de YouTube"
+
+    if g_txt and len(g_txt) >= 25:
+        logger.info(f"Audio-first (YouTube): {fuente} dio {len(g_txt)} chars; "
+                    f"Gemini solo redacta (sin ingerir el video).")
+        nota = _redactar_y_verificar(g_txt, extra_text or "", key, model,
+                                     _gemini_keys(key), instrucciones=instrucciones,
+                                     momento=0.0, segmentos=[])
+        # La transcripción viaja con la nota: el segundo pase de largo la usa como
+        # fuente en vez de volver a pedirle el video a Gemini.
+        nota["transcripcion"] = g_txt
+        logger.info(f"Gemini OK (YouTube, {fuente}): hay_noticia={nota['hay_noticia']} "
+                    f"| «{nota['volanta']} — {nota['titulo']}»")
+        return nota
+    if _audio_first_on():
+        logger.info("Audio-first (YouTube): sin transcripción (ni Groq ni subtítulos); "
+                    "sigo con Gemini mirando el video.")
 
     media_part = {"file_data": {"file_uri": url}}
     logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
