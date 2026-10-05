@@ -1826,10 +1826,13 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
                 sombra_arriba=False, grafica=grafica, estilo="corresponsal", logo=CORR_LOGO,
                 halo=[], cajas=[], titulo=[], volanta="", lienzo=(1080, 1920),
                 texto=(CORR_X, CORR_MARCA[0][0], CORR_X + CORR_CAJA_ANCHO, CORR_MARCA[1][0] + 30))
-    if forma == "afiche":
+    if forma == "afiche" or (grafica and w / h <= CORR_AR_APAISADO):
+        # Un flyer CUADRADO también va entero y sin tarjeta (2026-10-04: uno de 1024x1024 salió
+        # recortado a 9:16, con el título encima de su propio texto). Centrado en el alto.
         esc = min(1080 / w, 1920 / h)
         aw, ah = max(2, round(w * esc)) // 2 * 2, max(2, round(h * esc)) // 2 * 2
-        y = max(0, min(PLACA_AFICHE_TOPE, 1920 - ah))
+        y = (max(0, min(PLACA_AFICHE_TOPE, 1920 - ah)) if forma == "afiche"
+             else max(PLACA_AFICHE_TOPE, (1920 - ah) // 2))
         plan.update(media=((1080 - aw) // 2, y, aw, ah), sombra_arriba=True, halo=list(marca))
         return plan
     if w / h > CORR_AR_APAISADO:
@@ -3908,9 +3911,14 @@ def _caras_de_foto(img) -> list:
 
 def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
                       resumen: str, volanta: str, work_dir: Path, clave: str,
-                      estilo: str = "") -> int:
+                      estilo: str = "", tarjetas: list | None = None) -> int:
     """Arma el 'video fuente' de un reel de FOTOS en el estilo placa: cada foto compuesta
     ENTERA por separado (`_placa_de_foto`, con su texto) y unidas con un fundido encadenado.
+
+    Corresponsales (pedido 2026-10-04): la PORTADA es la foto más parecida a 9:16 y las demás
+    siguen en el orden en que llegaron. `tarjetas` = [(volanta, texto)] para las fotos que
+    siguen a la primera: cada una lleva su caja con un dato distinto en vez de repetir el
+    título. Los afiches no llevan caja (taparía su texto) y no gastan tarjeta.
 
     El bloque de arriba tiene que ser el MISMO en todas las fotos, o el texto saltaría de una
     a otra: si alguna foto es VERTICAL, todas usan el bloque vertical (volanta + titular en dos
@@ -3941,12 +3949,23 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
             logger.warning(f"No pude abrir la foto {Path(f).name} ({e}); la salteo.")
     if not miradas:
         raise RuntimeError("ninguna foto se pudo abrir")
+    if estilo == "corresponsal" and len(miradas) > 1:
+        # La más cercana a 9:16 entre las FOTOS (no los afiches: la portada lleva el título).
+        import math
+
+        def _lejos(m) -> float:
+            return abs(math.log((m[1].width / max(1, m[1].height)) / (9 / 16)))
+        primera = min([m for m in miradas if not m[2]] or miradas, key=_lejos)
+        miradas = [primera] + [m for m in miradas if m is not primera]
+    extra = ([tuple(t) for t in (tarjetas or []) if t and len(t) == 2 and t[1]]
+             if estilo == "corresponsal" else [])
     formas = [forma_de(img.width, img.height, g) for _f, img, g in miradas]
     # Una «pantalla» lleva el texto abajo y encima; si convive con fotos que lo llevan arriba,
     # todas van con el bloque de arriba (el texto no puede saltar de un lugar a otro).
     modo = ("vertical" if ("vertical" in formas or
                            ("pantalla" in formas and "horizontal" in formas)) else "")
     placas = []
+    ultima = None       # la última foto con caja: las tarjetas que sobren van sobre ella
     for i, (f, img, grafica) in enumerate(miradas):
         try:
             forma = formas[i]
@@ -3955,16 +3974,39 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
             recorta = (estilo == "corresponsal" and not grafica) or forma in ("pantalla",
                                                                                "vertical")
             caras = _caras_de_foto(img) if recorta else None
-            plan = plan_placa(volanta, titular, resumen, img.width, img.height,
+            # Un afiche o un flyer cuadrado no lleva caja (`_plan_corr`): no gasta tarjeta.
+            sin_caja = grafica and img.width / max(1, img.height) <= CORR_AR_APAISADO
+            v, t = volanta, titular
+            if i > 0 and not sin_caja and extra:
+                v, t = extra.pop(0)
+                v = v or volanta
+            plan = plan_placa(v, t, resumen, img.width, img.height,
                               grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo,
                               alto=alto if estilo == "corresponsal" else 0)
             placas.append(_placa_de_foto(img, plan, fondo,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
                                          Path(f).name, caras=caras))
+            if not sin_caja:
+                ultima = (len(placas) - 1, f, img, grafica, caras)
         except Exception as e:                                   # noqa: BLE001
             logger.warning(f"No pude componer la foto {Path(f).name} ({e}); la salteo.")
     if not placas:
         raise RuntimeError("ninguna foto se pudo componer")
+    # Más tarjetas que fotos con caja: la última foto se queda más tiempo y la caja va cambiando
+    # (la imagen es la misma, así que el fundido solo se nota en el texto).
+    if extra and ultima is not None:
+        pos, f, img, grafica, caras = ultima
+        for k, (v, t) in enumerate(extra):
+            try:
+                plan = plan_placa(v or volanta, t, resumen, img.width, img.height,
+                                  grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo,
+                                  alto=alto)
+                pos += 1
+                placas.insert(pos, _placa_de_foto(img, plan, fondo,
+                                                  work_dir / f"_placa_foto_{clave}_x{k}.jpg",
+                                                  Path(f).name, caras=caras))
+            except Exception as e:                               # noqa: BLE001
+                logger.warning(f"No pude sumar la tarjeta «{t}» ({e}).")
     # Solo FUNDIDO entre fotos: una cortina o un deslizamiento moverían el humo y el texto.
     por = (seg_cont if len(placas) == 1 else
            max(3.0, (seg_cont + (len(placas) - 1) * 0.6) / len(placas)))
@@ -3975,7 +4017,7 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
 def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None = None,
                 firma: str | None = None, overlay: bool = True,
                 titular: str = "", resumen: str = "", volanta: str = "",
-                cuerpo: str = "", estilo: str = "") -> Path:
+                cuerpo: str = "", estilo: str = "", tarjetas: list | None = None) -> Path:
     """Convierte una FOTO (o varias) de una nota en un reel vertical 9:16 con el MISMO
     criterio estético que los videos: logo arriba a la derecha, texto de la nota arriba y
     la placa de cierre «Seguinos en redes» al final.
@@ -3990,6 +4032,8 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
     descuentan los segundos de la placa para que el total quede en ~`seg`. Devuelve el .mp4.
     `cuerpo` ya no se usa (era el «pie» de las apaisadas, que reemplazó la bajada).
     `estilo="corresponsal"`: lo que llega por WhatsApp (`_plan_corr`).
+    `tarjetas`: las cajas informativas de las fotos que siguen a la primera (ver
+    `_fotos_compuestas`).
     """
     fotos = [Path(f) for f in fotos]
     salida = Path(salida)
@@ -4007,7 +4051,7 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
         try:
             listo = _fotos_compuestas(fotos, base, seg_cont, titular=titular, resumen=resumen,
                                       volanta=volanta, work_dir=salida.parent,
-                                      clave=salida.stem, estilo=estilo)
+                                      clave=salida.stem, estilo=estilo, tarjetas=tarjetas)
         except Exception as e:                                   # noqa: BLE001
             logger.error(f"No pude componer las fotos en el estilo placa ({e}); van con el "
                          f"armado de antes.")

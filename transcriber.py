@@ -265,7 +265,36 @@ def _leer_contexto(folder: Path) -> dict | None:
             datos[actual] = (datos[actual] + "\n" + linea.rstrip()).strip()
     if not datos.get("origen"):
         return None
+    # El formulario de WhatsApp guardó una vez el RELATO como nombre (2026-10-04: un mensaje sin
+    # texto —una reacción, una foto en HD— lo avanzó un paso y el texto de la nota cayó en
+    # «nombre y apellido»). Salió una nota «Envío de un corresponsal» sin texto. Un nombre no
+    # tiene renglones ni pasa de 7 palabras: si pasa eso, va a la descripción.
+    nombre = datos.get("nombre", "")
+    if _parece_relato(nombre):
+        previa = datos.get("descripcion", "").strip()
+        datos["descripcion"] = (previa + "\n\n" + nombre).strip() if previa else nombre
+        datos["nombre"] = _nombre_conocido(datos.get("celular", ""))
+        logger.warning(f"contexto.txt: el NOMBRE traía el relato ({len(nombre)} caracteres); "
+                       f"lo paso a la descripción. Corresponsal: «{datos['nombre'] or '—'}».")
     return datos
+
+
+def _parece_relato(texto: str) -> bool:
+    t = (texto or "").strip()
+    return "\n" in t or len(t) > 60 or len(t.split()) > 7
+
+
+def _nombre_conocido(celular: str) -> str:
+    """El nombre con que ese celular firmó antes (el más reciente que sea un nombre)."""
+    propio = re.sub(r"\D", "", celular or "")[-10:]
+    if len(propio) < 8:
+        return ""
+    for r in reversed(_leer_ledger()):
+        n = (r.get("corresponsal_nombre") or "").strip()
+        if (re.sub(r"\D", "", str(r.get("corresponsal_celular", "")))[-10:] == propio
+                and n and not _parece_relato(n)):
+            return n
+    return ""
 
 
 # ── Ledger de contabilidad ────────────────────────────────────────────────────
@@ -366,7 +395,8 @@ def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
 
 
 def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
-                  volanta: str = "", cuerpo: str = "", estilo: str = "") -> str:
+                  volanta: str = "", cuerpo: str = "", estilo: str = "",
+                  tarjetas: list | None = None) -> str:
     """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
     Devuelve la URL o "" si falla (el mail sale sin ese botón).
 
@@ -380,7 +410,7 @@ def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False,
                                  titular=titular, resumen=resumen, volanta=volanta,
-                                 cuerpo=cuerpo, estilo=estilo)
+                                 cuerpo=cuerpo, estilo=estilo, tarjetas=tarjetas)
         return upload_reel(reel_local)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
@@ -1900,10 +1930,14 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     volanta, titular, bajada_reel = _titulacion_espec(texto, titular, volanta,
                                                       ctx.get("lugar", ""), desc, _fecha_larga())
     title = f"{volanta} — {titular}" if volanta else titular
+    # Varias fotos: cada una después de la primera lleva su caja con un dato de la nota
+    # (pedido 2026-10-04). Se calculan UNA vez y quedan en el ledger para el reel definitivo.
+    tarjetas = (gemini.tarjetas_fotos(texto or desc, len(fotos) - 1, volanta, titular)
+                if len(fotos) > 1 and (texto or desc) else [])
 
     if dry_run:
         logger.info(f"[dry-run] corresponsal-foto «{title}» ({bajada_reel or 'sin bajada'}): "
-                    f"nota web (borrador) + reel a redes.")
+                    f"nota web (borrador) + reel a redes. Tarjetas: {tarjetas}")
         return
 
     # Borrador en Wix (habilita «Corregir texto» / «Borrar» por botón + nota web al aprobar) y
@@ -1918,7 +1952,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
     reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular,
                              resumen=bajada_reel or resumen, volanta=volanta, cuerpo=texto,
-                             estilo="corresponsal")
+                             estilo="corresponsal", tarjetas=tarjetas)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1928,7 +1962,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": True, "es_placa": True, "corr_foto": True,
         "volanta": volanta, "titulo": titular, "resumen": resumen, "texto": texto,
-        "bajada_reel": bajada_reel, "escrito": desc,
+        "bajada_reel": bajada_reel, "escrito": desc, "tarjetas_fotos": tarjetas,
         "draft_id": draft_id, "reel_url": reel_url, "estado": "borrador_foto_corr",
         "origen": ctx.get("origen", ""), "corresponsal_nombre": ctx.get("nombre", ""),
         "corresponsal_celular": ctx.get("celular", ""), "corresponsal_lugar": ctx.get("lugar", ""),
@@ -1938,7 +1972,11 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}).")
 
     # Números habilitados (`CORRESPONSALES_DIRECTO`): se publica ya mismo, sin mail de revisión.
-    if _publica_directo(ctx.get("celular", "")):
+    # Pero NUNCA sin texto: sin lo que escribió el corresponsal la nota sale vacía («Envío de
+    # un corresponsal», 2026-10-04). Eso va a revisión como cualquier otro envío.
+    if not desc and _publica_directo(ctx.get("celular", "")):
+        logger.warning("Llegó sin texto: aunque el número publica directo, va a revisión.")
+    elif _publica_directo(ctx.get("celular", "")):
         logger.info(f"Publicación DIRECTA, sin revisión: el número {ctx.get('celular')} está "
                     f"habilitado.")
         try:
@@ -2020,7 +2058,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
                                  overlay=False, titular=titular,
                                  resumen=bajada_reel or resumen,
-                                 volanta=volanta, cuerpo=texto, estilo="corresponsal")
+                                 volanta=volanta, cuerpo=texto, estilo="corresponsal",
+                                 tarjetas=fila.get("tarjetas_fotos") or [])
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")

@@ -2131,6 +2131,62 @@ def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
         return []
 
 
+# Tarjetas de un reel de VARIAS FOTOS (pedido del usuario 2026-10-04): la primera foto lleva el
+# título y cada una de las siguientes, una caja con un dato informativo distinto de la nota.
+_TARJETAS_FOTOS_PROMPT = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy. Con las fotos que "
+    "mandó un corresponsal se arma un reel: cada foto queda unos segundos en pantalla con una "
+    "TARJETA de texto. La primera ya lleva volanta «{VOLANTA}» y título «{TITULO}». Escribí las "
+    "{N} tarjetas que siguen, en orden, cada una con UNA idea informativa nueva de la nota (cómo "
+    "siguió, un dato clave, una advertencia, qué pasa ahora). Si la nota no da para {N}, devolvé "
+    "menos.\n"
+    "Para cada una: `volanta` = 1 a 3 palabras en mayúsculas (el tema de esa tarjeta); `texto` = "
+    "de 6 a 12 palabras, que se entienda sola.\n"
+    "REGLAS: no repitas el título ni entre ellas; nada de citas textuales largas; sin nombres de "
+    "víctimas, heridos, detenidos ni menores; sin teléfonos ni direcciones exactas de "
+    "particulares.\n"
+    + _MATICES +
+    "• Usá SOLO lo que está en la nota. No inventes."
+)
+
+_TARJETAS_FOTOS_SCHEMA = {
+    "type": "object",
+    "properties": {"tarjetas": {"type": "array", "items": {"type": "object", "properties": {
+        "volanta": {"type": "string"}, "texto": {"type": "string"}},
+        "required": ["volanta", "texto"]}}},
+    "required": ["tarjetas"],
+}
+
+
+def tarjetas_fotos(nota: str, n: int, volanta: str, titulo: str,
+                   api_key: str = "", model: str = "") -> list:
+    """Hasta `n` tarjetas informativas para las fotos que siguen a la primera: [[volanta, texto]],
+    ya en limpio (de 3 a 16 palabras, sin repetir el título ni entre ellas). [] si no se pudo:
+    el reel sale con el título en todas las fotos, como antes."""
+    if n <= 0 or not (nota or "").strip():
+        return []
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        prompt = (_TARJETAS_FOTOS_PROMPT.replace("{N}", str(n))
+                  .replace("{VOLANTA}", volanta or "").replace("{TITULO}", titulo or "")
+                  + f"\n\nNOTA:\n{nota.strip()}")
+        raw = _post_json([{"text": prompt}], key, model, _TARJETAS_FOTOS_SCHEMA,
+                         temperature=0.2, key_pool=_gemini_keys(key))
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar las tarjetas de las fotos ({e}); va el título en todas.")
+        return []
+    vistos, out = {(titulo or "").strip().lower()}, []
+    for t in raw.get("tarjetas") or []:
+        texto = " ".join(str(t.get("texto", "")).split()).rstrip(".")
+        if not (3 <= len(texto.split()) <= 16) or texto.lower() in vistos:
+            continue
+        vistos.add(texto.lower())
+        out.append([" ".join(str(t.get("volanta", "")).split()).upper()[:30], texto])
+    logger.info(f"Tarjetas de las fotos: {len(out)} de {n}.")
+    return out[:n]
+
+
 _TITULAR_PROMPT = (
     "Sos el editor del «Diario La Campaña» de Chivilcoy (Argentina). Te paso el TEXTO de una nota "
     "que llegó SIN TÍTULO (o con un párrafo entero puesto en el lugar del título). Escribí EL "

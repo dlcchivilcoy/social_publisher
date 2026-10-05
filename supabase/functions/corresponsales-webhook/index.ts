@@ -349,6 +349,14 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
 
   // Hay sesión: avanzar según el paso.
   const paso = String(sesion.paso);
+  // Un mensaje SIN texto (una reacción, un sticker, la copia «HD» de una foto que Meta manda como
+  // `unsupported`…) no contesta ninguna pregunta: no avanza el formulario. El 2026-10-04 uno de
+  // esos avanzó «qué pasó» con la descripción vacía, el relato cayó en «nombre y apellido» y se
+  // publicó una nota «Envío de un corresponsal» sin texto.
+  if ((paso === "hecho" || paso === "datos") && !texto.trim()) {
+    console.log(`Mensaje sin texto de ${waId} (tipo=${tipo}) en el paso ${paso}: no avanza.`);
+    return;
+  }
   if (paso === "hecho") {
     // ETAPA 1: guarda el relato del hecho (qué/cuándo/dónde/cómo) → es lo que redacta la nota/descripción.
     await upsertSesion({ wa_id: waId, paso: "datos", descripcion: texto.trim() });
@@ -358,8 +366,19 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
       "guardan en nuestra base de datos para dar el *premio del mes* al usuario que haya enviado el " +
       "material con mejores estadísticas en nuestras redes sociales.");
   } else if (paso === "datos") {
+    // Un nombre no tiene renglones ni pasa de 7 palabras: si llega un texto así, es MÁS relato
+    // (o el relato entero, si la descripción quedó vacía). Se suma a la descripción y se vuelve
+    // a pedir el nombre.
+    const t = texto.trim();
+    if (t.includes("\n") || t.length > 60 || t.split(/\s+/).length > 7) {
+      const previa = String(sesion.descripcion ?? "").trim();
+      await upsertSesion({ wa_id: waId, paso: "datos", descripcion: previa ? `${previa}\n\n${t}` : t });
+      await enviarTexto(waId,
+        "Sumé eso a lo que pasó. 👍 Ahora sí, decime solo tu *nombre y apellido*.");
+      return;
+    }
     // ETAPA 2: guarda el nombre y apellido del corresponsal (para la firma y la base de datos).
-    await upsertSesion({ wa_id: waId, paso: "autorizacion", nombre: texto.trim() });
+    await upsertSesion({ wa_id: waId, paso: "autorizacion", nombre: t });
     await enviarTexto(waId,
       `Buenísimo. 📄 *Autorización*\n\n${LEGAL}\n\nSi estás de acuerdo, respondé *ACEPTO* para enviar el material.`);
   } else if (paso === "depositando") {
