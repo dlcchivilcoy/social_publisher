@@ -426,7 +426,6 @@ def seo_youtube(titulo_actual: str, descripcion_actual: str, youtube_url: str = 
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
-            "temperature": 0.4,
             "response_mime_type": "application/json",
             "response_schema": _SEO_SCHEMA,
             "mediaResolution": _media_resolution(),
@@ -515,7 +514,6 @@ def gancho_miniatura(youtube_url: str, titulo: str, descripcion: str, usar_video
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
-            "temperature": 0.75,
             "response_mime_type": "application/json",
             "response_schema": _GANCHO_SCHEMA,
             "mediaResolution": _media_resolution(),
@@ -599,14 +597,12 @@ def _media_resolution() -> str:
             "high": "MEDIA_RESOLUTION_HIGH"}.get(v, "MEDIA_RESOLUTION_LOW")
 
 
-def _post_json(parts: list, key: str, model: str, schema: dict, temperature: float = 0.3,
-               key_pool=None) -> dict:
+def _post_json(parts: list, key: str, model: str, schema: dict, key_pool=None) -> dict:
     """Llama a Gemini generateContent con esos `parts` pidiendo JSON con `schema`, reintentando
     ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
-            "temperature": temperature,
             "response_mime_type": "application/json",
             "response_schema": schema,
             "mediaResolution": _media_resolution(),
@@ -620,10 +616,10 @@ def _post_json(parts: list, key: str, model: str, schema: dict, temperature: flo
         raise RuntimeError(f"Respuesta de Gemini ininteligible: {e}")
 
 
-def _post_generate(parts: list, key: str, model: str, temperature: float = 0.3, key_pool=None) -> dict:
+def _post_generate(parts: list, key: str, model: str, key_pool=None) -> dict:
     """Atajo histórico: pide el JSON de NOTA completo (`_SCHEMA`) en UNA sola pasada.
     Lo usan el camino legacy (tiro único) y `reescribir_a_dos_paginas`."""
-    return _post_json(parts, key, model, _SCHEMA, temperature=temperature, key_pool=key_pool)
+    return _post_json(parts, key, model, _SCHEMA, key_pool=key_pool)
 
 
 def _parse_nota(raw: dict) -> dict:
@@ -1172,7 +1168,7 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
         t_prompt += ("\nCONTEXTO (usalo SOLO para escribir bien nombres propios, cargos, lugares y "
                      "siglas; NO para agregar hechos):\n" + extra_text.strip())
     t_raw = _post_json([{"text": t_prompt}, media_part] + list(img_parts), key, model,
-                       _TRANSCRIPCION_SCHEMA, temperature=0.0, key_pool=key_pool)
+                       _TRANSCRIPCION_SCHEMA, key_pool=key_pool)
     transcripcion = str(t_raw.get("transcripcion", "")).strip()
     hay_audio = bool(t_raw.get("hay_audio", True))
     try:
@@ -1224,7 +1220,7 @@ def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: 
         if (extra_text or "").strip():
             r_prompt += "\nDATOS/CONTEXTO que aportó el redactor (podés usarlos como fuente):\n" + extra_text.strip()
         r_prompt += "\n\nTRANSCRIPCIÓN (única fuente de la nota):\n" + transcripcion
-    r_raw = _post_json([{"text": r_prompt}], key, model, _REDACCION_SCHEMA, temperature=0.0,
+    r_raw = _post_json([{"text": r_prompt}], key, model, _REDACCION_SCHEMA,
                        key_pool=key_pool)
     logger.info(f"  Paso 2/3 (redactar): hay_noticia={bool(r_raw.get('hay_noticia'))} · "
                 f"«{str(r_raw.get('titulo', ''))[:60]}»")
@@ -1247,7 +1243,7 @@ def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: 
                         + extra_text.strip()) if (extra_text or "").strip() else "")
                 v_prompt = (_VERIFICAR_PROMPT + ctx + "\n\nTRANSCRIPCIÓN:\n" + transcripcion +
                             "\n\nNOTA A VERIFICAR (JSON):\n" + json.dumps(borrador, ensure_ascii=False))
-            v_raw = _post_json([{"text": v_prompt}], key, model, _VERIF_SCHEMA, temperature=0.0,
+            v_raw = _post_json([{"text": v_prompt}], key, model, _VERIF_SCHEMA,
                                key_pool=key_pool)
             correcciones = [str(c).strip() for c in (v_raw.get("correcciones") or []) if str(c).strip()]
             if (v_raw.get("texto") or "").strip():
@@ -1268,7 +1264,7 @@ def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: 
 
 
 def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, model: str,
-                  key_pool=None, legacy_temp: float = 0.4, instrucciones: str = "",
+                  key_pool=None, instrucciones: str = "",
                   media_local_path=None, escrito_base: bool = False) -> dict:
     """Genera la nota a partir de la parte de medio ya construida. Usa el flujo en 3 pasos
     (default) y, ante un error que NO es de cuota, cae al tiro ÚNICO legacy (PROMPT_BASE) para no
@@ -1297,8 +1293,7 @@ def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, 
         else:
             prompt += ("\nDATOS/CONTEXTO que aportó el redactor (tenelo MUY en cuenta para la nota):\n"
                        + extra_text.strip())
-    raw = _post_generate([{"text": prompt}, media_part] + list(img_parts), key, model,
-                         temperature=legacy_temp, key_pool=key_pool)
+    raw = _post_generate([{"text": prompt}, media_part] + list(img_parts), key, model, key_pool=key_pool)
     return _parse_nota(raw)
 
 
@@ -1365,7 +1360,7 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     # Flujo en 3 pasos (transcribir → redactar anclado → verificar), a temperatura 0: prioriza
     # fidelidad (nombres bien escritos) y evita invenciones. Legacy (tiro único) con temp 0.3.
     nota = _generar_nota(media_part, [], extra_text or "", key, model, key_pool=None,
-                         legacy_temp=0.3, instrucciones=instrucciones)
+                         instrucciones=instrucciones)
     logger.info(f"Gemini OK (YouTube): hay_noticia={nota['hay_noticia']} | "
                 f"«{nota['volanta']} — {nota['titulo']}»")
     return nota
@@ -1432,7 +1427,7 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
     if corta and url and not usa_transcripcion:
         parts.append({"file_data": {"file_uri": url}})  # re-mira el video: desarrolla sin inventar
     try:
-        raw = _post_generate(parts, key, model, temperature=0.3)
+        raw = _post_generate(parts, key, model)
         nuevo = _parse_nota(raw)
     except Exception as e:
         logger.warning(f"Segundo pase de largo falló ({e}); dejo la nota como estaba.")
@@ -1487,7 +1482,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
         logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                     f"{len(image_paths or [])} foto(s))…")
         nota = _generar_nota(media_part, img_parts, extra_text or "", key, model,
-                             key_pool=key_pool, legacy_temp=0.4, media_local_path=media_path,
+                             key_pool=key_pool, media_local_path=media_path,
                              escrito_base=escrito_base)
         logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — {nota['titulo']}» "
                     f"| mejor_seg={nota['mejor_momento_seg']:.0f}")
@@ -1539,7 +1534,7 @@ def transcribe_to_nota(media_path, extra_text: str = "", image_paths=None,
             logger.info(f"Gemini: desgrabando con {model} (contexto: {len(extra_text or '')} chars, "
                         f"{len(image_paths or [])} foto(s))…")
             nota = _generar_nota(media_part, img_parts, extra_text or "", k, model,
-                                 key_pool=[k], legacy_temp=0.4, media_local_path=media_path,
+                                 key_pool=[k], media_local_path=media_path,
                                  escrito_base=escrito_base)
             logger.info(f"Gemini OK: hay_noticia={nota['hay_noticia']} | «{nota['volanta']} — "
                         f"{nota['titulo']}» | mejor_seg={nota['mejor_momento_seg']:.0f}")
@@ -1611,8 +1606,7 @@ def corregir_texto(descripcion: str, lugar: str = "", foto_path=None,
     prompt = _CORREGIR_PROMPT.replace("{FOTO}", foto_nota) + \
         "\nDESCRIPCIÓN DEL VECINO (corregila, NO la cambies):\n" + ctx
     logger.info(f"Gemini: corrigiendo la descripción del vecino ({len(ctx)} chars) con {model}…")
-    raw = _post_generate([{"text": prompt}] + img_parts, key, model,
-                         temperature=0.2, key_pool=key_pool or _gemini_keys(key))
+    raw = _post_generate([{"text": prompt}] + img_parts, key, model, key_pool=key_pool or _gemini_keys(key))
     nota = _parse_nota(raw)
     nota["hay_noticia"] = True
     # Salvavidas: si Gemini no devolvió algún campo, caigo al texto crudo del vecino (nunca vacío).
@@ -1677,8 +1671,7 @@ def resumen_seo(titulo: str, texto: str, max_chars: int = 300, lugar: str = "",
         ctx = f"LUGAR: {lugar.strip()}\n" if (lugar or "").strip() else ""
         prompt = (_RESUMEN_SEO_PROMPT.replace("{MAX}", str(int(max_chars))) +
                   f"\n\n{ctx}TÍTULO: {(titulo or '').strip()}\n\nTEXTO:\n{base}")
-        r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}],
-                              "generationConfig": {"temperature": 0.3}},
+        r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}]},
                       key, timeout=120, key_pool=key_pool or _gemini_keys(key))
         out = ""
         for part in (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", []):
@@ -1781,8 +1774,7 @@ def descripcion_redes(titulo: str, escrito: str, contexto: str, lugar: str = "",
                    + (contexto or "(sin contexto)"))
         salida = ""
         for intento in range(2):
-            r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}],
-                                  "generationConfig": {"temperature": 0.3}},
+            r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}]},
                           key, timeout=120, key_pool=_gemini_keys(key))
             out = ""
             for part in (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", []):
@@ -1883,7 +1875,7 @@ def titulacion_corresponsal(texto: str, titulo: str = "", lugar: str = "", escri
                   + (f"\n\nLO QUE ESCRIBIÓ EL VECINO:\n{_escrito_limpio(escrito)}"
                      if _escrito_limpio(escrito) else "")
                   + f"\n\nNOTA:\n{texto}")
-        raw = _post_json([{"text": prompt}], key, model, _TITULACION_SCHEMA, temperature=0.2,
+        raw = _post_json([{"text": prompt}], key, model, _TITULACION_SCHEMA,
                          key_pool=_gemini_keys(key))
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar la titulación de la especificación ({e}).")
@@ -1971,8 +1963,7 @@ def descripcion_corresponsal(titulo: str, escrito: str, nota: str, lugar: str = 
                   + "\n\nNOTA:\n" + (nota or "(sin nota)"))
         raw = {}
         for intento in range(2):
-            raw = _post_json([{"text": prompt}], key, model, _DESCRIPCION_CORRESPONSAL_SCHEMA,
-                             temperature=0.3, key_pool=_gemini_keys(key))
+            raw = _post_json([{"text": prompt}], key, model, _DESCRIPCION_CORRESPONSAL_SCHEMA, key_pool=_gemini_keys(key))
             texto = str(raw.get("texto", "")).strip()
             base_norm = " ".join((base + " " + nota).split()).lower()
             ajenas = [c for c in _citas(texto) if " ".join(c.split()).lower() not in base_norm]
@@ -2104,7 +2095,6 @@ def plan_montaje(videos: list, cuadros: list, fuentes: str, max_seg: float = 55.
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
-            "temperature": 0.2,
             "response_mime_type": "application/json",
             "response_schema": _MONTAJE_SCHEMA,
             "mediaResolution": {"low": "MEDIA_RESOLUTION_LOW",
@@ -2167,7 +2157,7 @@ def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
         parts = [{"text": prompt},
                  {"file_data": {"mime_type": f.get("mimeType") or _mime(video),
                                 "file_uri": f["uri"]}}]
-        raw = _post_json(parts, key, model, _TARJETAS_SCHEMA, temperature=0.2, key_pool=[key])
+        raw = _post_json(parts, key, model, _TARJETAS_SCHEMA, key_pool=[key])
         tarjetas = raw.get("tarjetas") or []
         logger.info(f"Tarjetas del video: Gemini propuso {len(tarjetas)}.")
         return tarjetas
@@ -2216,8 +2206,7 @@ def tarjetas_fotos(nota: str, n: int, volanta: str, titulo: str,
         prompt = (_TARJETAS_FOTOS_PROMPT.replace("{N}", str(n))
                   .replace("{VOLANTA}", volanta or "").replace("{TITULO}", titulo or "")
                   + f"\n\nNOTA:\n{nota.strip()}")
-        raw = _post_json([{"text": prompt}], key, model, _TARJETAS_FOTOS_SCHEMA,
-                         temperature=0.2, key_pool=_gemini_keys(key))
+        raw = _post_json([{"text": prompt}], key, model, _TARJETAS_FOTOS_SCHEMA, key_pool=_gemini_keys(key))
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar las tarjetas de las fotos ({e}); va el título en todas.")
         return []
@@ -2274,8 +2263,7 @@ def titular_desde_texto(texto: str, volanta: str = "", max_chars: int = 90,
         ctx = f"VOLANTA (ya escrita, no la repitas): {volanta.strip()}\n" if (volanta or "").strip() else ""
         prompt = (_TITULAR_PROMPT.replace("{MAX}", str(int(max_chars))) +
                   f"\n\n{ctx}TEXTO:\n{base}")
-        r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}],
-                              "generationConfig": {"temperature": 0.2}},
+        r = _generate(model, {"contents": [{"parts": [{"text": prompt}]}]},
                       key, timeout=120, key_pool=key_pool or _gemini_keys(key))
         out = ""
         for part in (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", []):

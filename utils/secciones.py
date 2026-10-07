@@ -364,8 +364,7 @@ def por_ia(notas: list, timeout: int = 25) -> dict:
         "contents": [{"role": "user", "parts": [{"text":
             f"{_CRITERIO}\n\nDevolvé la sección de CADA nota, usando el número [n] que "
             f"tiene al lado.\n\n{listado}"}]}],
-        "generationConfig": {"temperature": 0, "response_mime_type": "application/json",
-                             "response_schema": _SCHEMA},
+        "generationConfig": {"response_mime_type": "application/json", "response_schema": _SCHEMA},
     }
 
     modelo = get("GEMINI_MODEL") or _MODELO_DEFAULT
