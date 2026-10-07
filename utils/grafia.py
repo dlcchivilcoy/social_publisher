@@ -170,8 +170,45 @@ def corregir_campos(campos: dict, fuente: str) -> dict:
     salida, todo = {}, []
     for nombre, valor in campos.items():
         nuevo, cambios = corregir(valor, fuente)
+        nuevo, otros = participios(nuevo)
         salida[nombre] = nuevo
-        todo += [f"{a} → {b} (en {nombre})" for a, b in cambios]
+        todo += [f"{a} → {b} (en {nombre})" for a, b in cambios + otros]
     if todo:
         logger.info("Grafía según el texto escrito: " + "; ".join(dict.fromkeys(todo)))
     return salida
+
+
+# Participios IRREGULARES que la IA a veces arma como si fueran regulares (2026-10-07: una caja
+# del reel de un robo dijo «VIVIENDA REVOLVIDA» en vez de «REVUELTA»; el vecino había escrito
+# «revolvieron», que está bien, y Gemini sacó de ahí un participio que no existe). Raíz mal →
+# raíz bien; la terminación (o, a, os, as) se conserva. Solo formas que NO son palabras del
+# español (imprimido y freído, que la RAE admite, no están).
+_PARTICIPIOS = {
+    "revolvid": "revuelt", "devolvid": "devuelt", "envolvid": "envuelt",
+    "desenvolvid": "desenvuelt", "resolvid": "resuelt", "disolvid": "disuelt",
+    "absolvid": "absuelt", "volvid": "vuelt", "rompid": "rot", "escribid": "escrit",
+    "describid": "descrit", "inscribid": "inscrit", "suscribid": "suscrit", "abrid": "abiert",
+    "reabrid": "reabiert", "cubrid": "cubiert", "descubrid": "descubiert",
+    "encubrid": "encubiert", "morid": "muert", "ponid": "puest", "hacid": "hech",
+    "deshacid": "deshech", "satisfacid": "satisfech",
+}
+_RE_PARTICIPIO = re.compile(r"\b(" + "|".join(sorted(_PARTICIPIOS, key=len, reverse=True)) +
+                            r")(o|a|os|as)\b", re.IGNORECASE)
+
+
+def participios(texto: str) -> tuple:
+    """`(texto corregido, [(antes, después), ...])` con los participios mal formados
+    cambiados por los de verdad, respetando las mayúsculas («REVOLVIDA» → «REVUELTA»)."""
+    cambios: list = []
+
+    def _una(m):
+        mala = m.group(0)
+        buena = _PARTICIPIOS[m.group(1).lower()] + m.group(2).lower()
+        if mala.isupper():
+            buena = buena.upper()
+        elif mala[0].isupper():
+            buena = buena[0].upper() + buena[1:]
+        cambios.append((mala, buena))
+        return buena
+
+    return _RE_PARTICIPIO.sub(_una, texto or ""), cambios

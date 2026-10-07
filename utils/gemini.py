@@ -1818,6 +1818,9 @@ _MATICES = (
     "confirmación. Si la fuente atribuye o duda, el texto atribuye o duda. Una denuncia o una "
     "acusación va atribuida; la versión de una parte no se presenta como un hecho probado.\n"
     "• No identifiques a nadie por intuición: solo con el nombre que da la fuente.\n"
+    "• Ortografía y gramática del español correctas. Los participios irregulares van como "
+    "corresponden: revuelto (no «revolvido»), roto, vuelto, devuelto, puesto, hecho, escrito, "
+    "abierto, cubierto, muerto, resuelto.\n"
 )
 
 _TITULACION_PROMPT = (

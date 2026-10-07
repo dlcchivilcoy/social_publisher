@@ -1723,6 +1723,10 @@ def _tarjeta_corr(volanta: str, titular: str, f: dict, y: int) -> dict:
         hasta dos renglones, cada renglón centrado sobre el eje X 492 y el bloque centrado en el
         alto. Si no entra en dos renglones se achica; recién por debajo de 42, va en tres.
     Esquinas rectas, sin borde. Devuelve `cajas`, `bloques`, `rect`, `titulo` y `volanta`."""
+    # Todo texto que se QUEMA en el reel pasa por acá: un participio mal armado por la IA
+    # («REVOLVIDA») no tiene arreglo una vez publicado.
+    from utils.grafia import participios
+    volanta, titular = participios(volanta)[0], participios(titular)[0]
     pad_x, pad_y = CORR_CAJA_PAD
     cajas, bloques, y0 = [], [], y
     v, vtxt = _volanta_corr(volanta, f)
