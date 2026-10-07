@@ -124,6 +124,7 @@ def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_
     subir el video con una clave y desgrabarlo con otra (403). Ver `transcriber_radio`."""
     keys = list(key_pool) if key_pool else (_gemini_keys(key) or [key])
     modelos = _fallback_models(model) or [model]
+    payload = _con_razonamiento(payload)
     combos = [(m, k) for m in modelos for k in keys]  # (modelo, clave): modelo bueno primero
     ci, r = 0, None
     # 503/500 = servidor SOBRECARGADO. Antes se esperaba siempre sobre la MISMA clave y el mismo
@@ -137,6 +138,13 @@ def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_
         m, k = combos[ci]
         r = requests.post(f"{API_BASE}/models/{m}:generateContent?key={k}",
                           json=payload, timeout=timeout)
+        if (r.status_code == 400 and "thinking" in r.text.lower()
+                and "thinkingConfig" in payload.get("generationConfig", {})):
+            # Un modelo (p. ej. el de respaldo) que no acepta thinkingLevel: va sin él.
+            logger.warning(f"Gemini {m} no acepta el nivel de razonamiento; reintento sin fijarlo.")
+            payload = {**payload, "generationConfig": {
+                k2: v2 for k2, v2 in payload["generationConfig"].items() if k2 != "thinkingConfig"}}
+            continue
         if r.status_code == 429 and ci < len(combos) - 1:
             ci += 1  # 429 → probar la siguiente combinación (otra clave, o el modelo de respaldo)
             esperas_aqui = 0
@@ -164,7 +172,38 @@ def _generate(model: str, payload: dict, key: str = "", timeout: int = 120, key_
     if r is None or r.status_code >= 400:
         raise RuntimeError(f"Gemini {r.status_code if r is not None else '???'}: "
                            f"{r.text[:300] if r is not None else ''}")
+    _log_consumo(m, r)
     return r
+
+
+def _con_razonamiento(payload: dict) -> dict:
+    """Fija el nivel de RAZONAMIENTO (thinking) si la llamada no trae uno propio.
+
+    Los tokens de razonamiento se cobran como SALIDA (USD 3,75/1M en 3.8-flash, 5 veces la
+    entrada) y sin fijarlo el modelo decide cuánto pensar. Redactar o transcribir no necesita
+    pensar mucho. `GEMINI_THINKING_LEVEL` = minimal|low|medium|high (default low; vacío o
+    «off» = no se fija y decide el modelo). No pisa el nivel que traiga una llamada puntual."""
+    nivel = str(get("GEMINI_THINKING_LEVEL", "low") or "").strip().lower()
+    gc = payload.get("generationConfig") or {}
+    if nivel in ("", "off", "0", "no") or "thinkingConfig" in gc:
+        return payload
+    return {**payload, "generationConfig": {**gc, "thinkingConfig": {"thinkingLevel": nivel}}}
+
+
+def _log_consumo(modelo: str, r) -> None:
+    """Deja en el log cuántos tokens usó la llamada (entrada por tipo, salida y razonamiento),
+    para poder ver en los logs de la nube qué es lo que gasta. Nunca falla."""
+    try:
+        u = r.json().get("usageMetadata") or {}
+        tipos = {d.get("modality", "?").lower(): d.get("tokenCount", 0)
+                 for d in (u.get("promptTokensDetails") or [])}
+        medios = ", ".join(f"{t} {n:,}" for t, n in tipos.items() if t != "text" and n)
+        logger.info(f"    Gemini consumo ({modelo}): entrada {u.get('promptTokenCount', 0):,}"
+                    + (f" ({medios})" if medios else "")
+                    + f" · salida {u.get('candidatesTokenCount', 0):,}"
+                    + f" · razonamiento {u.get('thoughtsTokenCount', 0):,}")
+    except Exception:  # noqa: BLE001
+        pass
 
 _VIDEO_EXT = {".mp4", ".mov", ".webm", ".mkv", ".avi", ".m4v", ".mpg", ".mpeg"}
 _MIME = {
@@ -597,9 +636,11 @@ def _media_resolution() -> str:
             "high": "MEDIA_RESOLUTION_HIGH"}.get(v, "MEDIA_RESOLUTION_LOW")
 
 
-def _post_json(parts: list, key: str, model: str, schema: dict, key_pool=None) -> dict:
+def _post_json(parts: list, key: str, model: str, schema: dict, key_pool=None,
+               razonamiento: str = "") -> dict:
     """Llama a Gemini generateContent con esos `parts` pidiendo JSON con `schema`, reintentando
-    ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict)."""
+    ante 429/500/503 (modelo gratis sobrecargado). Devuelve el JSON crudo (dict).
+    `razonamiento`: nivel de thinking para ESTA llamada (si no, el default de `_generate`)."""
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {
@@ -608,6 +649,8 @@ def _post_json(parts: list, key: str, model: str, schema: dict, key_pool=None) -
             "mediaResolution": _media_resolution(),
         },
     }
+    if razonamiento:
+        payload["generationConfig"]["thinkingConfig"] = {"thinkingLevel": razonamiento}
     r = _generate(model, payload, key, timeout=300, key_pool=key_pool)
     try:
         cand = r.json()["candidates"][0]["content"]["parts"][0]["text"]
@@ -1063,6 +1106,24 @@ def _audio_de_youtube(url: str):
         return None
 
 
+def _parte_video_youtube(url: str) -> dict:
+    """Parte de Gemini para que MIRE un video de YouTube, con pocos cuadros por segundo.
+
+    Por defecto Gemini toma 1 cuadro por segundo: en una entrevista de radio de 25 min son
+    1.500 imágenes de dos personas frente a un micrófono, y eran la mayor parte del costo.
+    El AUDIO se procesa entero igual (va aparte de los cuadros). Con 0,1 queda un cuadro
+    cada 10 s: alcanza para leer los zócalos con nombres. `YT_VIDEO_FPS` lo cambia
+    (vacío o 0 = el default de Gemini)."""
+    parte = {"file_data": {"file_uri": url}}
+    try:
+        fps = float(str(get("YT_VIDEO_FPS", "0.1") or "0").replace(",", "."))
+    except ValueError:
+        fps = 0.0
+    if fps > 0:
+        parte["video_metadata"] = {"fps": fps}
+    return parte
+
+
 def _subs_api_on() -> bool:
     """Plan B del desgrabador de YouTube: bajar los SUBTÍTULOS por la API del canal cuando
     yt-dlp está bloqueado. `YT_SUBTITULOS_API=0` lo apaga (vuelve a Gemini mirando el video)."""
@@ -1167,8 +1228,11 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
     if (extra_text or "").strip():
         t_prompt += ("\nCONTEXTO (usalo SOLO para escribir bien nombres propios, cargos, lugares y "
                      "siglas; NO para agregar hechos):\n" + extra_text.strip())
+    # Transcribir es copiar lo que se dice: no hace falta que el modelo «piense» (el
+    # razonamiento se cobra como salida). GEMINI_THINKING_TRANSCRIBIR para cambiarlo.
     t_raw = _post_json([{"text": t_prompt}, media_part] + list(img_parts), key, model,
-                       _TRANSCRIPCION_SCHEMA, key_pool=key_pool)
+                       _TRANSCRIPCION_SCHEMA, key_pool=key_pool,
+                       razonamiento=str(get("GEMINI_THINKING_TRANSCRIBIR", "low") or "").strip())
     transcripcion = str(t_raw.get("transcripcion", "")).strip()
     hay_audio = bool(t_raw.get("hay_audio", True))
     try:
@@ -1192,8 +1256,13 @@ def _nota_multipaso(media_part: dict, img_parts: list, extra_text: str, key: str
             logger.info(f"  Paso 1b (Groq): transcripción reemplazada por la de Groq ({len(g_txt)} chars).")
             transcripcion = g_txt
 
-    return _redactar_y_verificar(transcripcion, extra_text, key, model, key_pool,
+    nota = _redactar_y_verificar(transcripcion, extra_text, key, model, key_pool,
                                  instrucciones, momento, segmentos, escrito_base=escrito_base)
+    # La transcripción viaja con la nota (igual que en el camino de Groq): el segundo pase de
+    # largo del desgrabador de YouTube la usa como fuente. Sin esto volvía a MIRAR el video
+    # entero (2ª ingesta de 16-32 min) cada vez que una nota quedaba corta.
+    nota["transcripcion"] = transcripcion
+    return nota
 
 
 def _redactar_y_verificar(transcripcion: str, extra_text: str, key: str, model: str,
@@ -1355,7 +1424,7 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
         logger.info("Audio-first (YouTube): sin transcripción (ni Groq ni subtítulos); "
                     "sigo con Gemini mirando el video.")
 
-    media_part = {"file_data": {"file_uri": url}}
+    media_part = _parte_video_youtube(url)
     logger.info(f"Gemini: desgrabando YouTube {url} con {model} (sin descargar)…")
     # Flujo en 3 pasos (transcribir → redactar anclado → verificar), a temperatura 0: prioriza
     # fidelidad (nombres bien escritos) y evita invenciones. Legacy (tiro único) con temp 0.3.
@@ -1425,7 +1494,7 @@ def reescribir_a_dos_paginas(url: str, nota: dict, min_palabras: int, max_palabr
         prompt += "\n\nTRANSCRIPCIÓN LITERAL DEL VIDEO:\n" + transcripcion.strip()
     parts = [{"text": prompt}]
     if corta and url and not usa_transcripcion:
-        parts.append({"file_data": {"file_uri": url}})  # re-mira el video: desarrolla sin inventar
+        parts.append(_parte_video_youtube(url))  # re-mira el video: desarrolla sin inventar
     try:
         raw = _post_generate(parts, key, model)
         nuevo = _parse_nota(raw)
