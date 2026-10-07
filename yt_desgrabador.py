@@ -363,7 +363,8 @@ def run_yt_desgrabar(dry_run: bool = False) -> None:
         for intento in range(1, reintentos + 1):
             try:
                 nota = gemini.transcribe_youtube_url(v["url"], extra_text=contexto,
-                                                     instrucciones=INSTRUCCION_LARGO, api_key=key)
+                                                     instrucciones=INSTRUCCION_LARGO, api_key=key,
+                                                     duracion_seg=v.get("dur_seg", 0))
                 break
             except Exception as e:
                 if intento >= reintentos:

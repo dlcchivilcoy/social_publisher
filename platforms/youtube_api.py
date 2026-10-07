@@ -238,7 +238,10 @@ def videos_seccion_de_hoy(limit_scan: int = 40, min_seg: int = 60) -> list[dict]
             if es_short(v["id"], dur, min_seg):
                 continue
             out.append({"id": v["id"], "titulo": sn.get("title", ""),
-                        "url": f"https://youtu.be/{v['id']}", "published": sn.get("publishedAt", "")})
+                        "url": f"https://youtu.be/{v['id']}", "published": sn.get("publishedAt", ""),
+                        # La duración empareja el video con la transcripción que manda la PC
+                        # de la radio (ver utils/transcripciones_pc.py).
+                        "dur_seg": dur})
     return out
 
 

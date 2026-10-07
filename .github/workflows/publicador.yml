@@ -243,6 +243,25 @@ jobs:
             echo "Sin args de radio: no se baja la carpeta de la radio."
           fi
 
+      - name: Bajar transcripciones de la PC de la radio (para --yt-desgrabar)
+        if: ${{ github.event.schedule != '*/15 * * * *' }}
+        env:
+          ARGS: ${{ github.event.inputs.args }}
+        run: |
+          # La PC de la radio transcribe con Groq (gratis) cada video que exporta y deja un JSON
+          # en la carpeta de Drive "transcripciones yt" (de radiodelcentro o del diario, segun
+          # que cuenta tenga esa PC). Con eso Gemini ya no tiene que MIRAR el video de YouTube,
+          # que es lo que mas gasta de la clave paga. Ver utils/transcripciones_pc.py.
+          if echo "$ARGS" | grep -qE -- "yt-desgrabar"; then
+            mkdir -p transcripciones_yt
+            for r in "gdrive_radio:transcripciones yt" "gdrive_radio:Radio/transcripciones yt" "gdrive:transcripciones yt" "gdrive:Diario/transcripciones yt"; do
+              rclone copy "$r" transcripciones_yt --max-age 3d 2>/dev/null || true
+            done
+            echo "Transcripciones de la PC de la radio: $(find transcripciones_yt -name '*.json' | wc -l)"
+          else
+            echo "Sin --yt-desgrabar: no se bajan las transcripciones de la PC de la radio."
+          fi
+
       - name: Restaurar registros anti-repeticion
         run: |
           [ -f "state/.publicado.json" ] && cp "state/.publicado.json" "diario/NOTAS AUTOMATICAS/.publicado.json" || true
@@ -278,6 +297,8 @@ jobs:
           VIDEOS_FOLDER: ${{ github.workspace }}/videos
           # Carpeta con los videos de la RADIO (radiodelcentro) para --transcribe-video-radio.
           VIDEOS_RADIO_FOLDER: ${{ github.workspace }}/videos_radio
+          # Transcripciones que deja la PC de la radio (desgrabador de YouTube).
+          YT_TRANSCRIPCIONES_DIR: ${{ github.workspace }}/transcripciones_yt
           # Para subir el .mp4 del reel como asset de un GitHub Release (URL pública para IG).
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

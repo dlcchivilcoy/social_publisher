@@ -1367,7 +1367,7 @@ def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, 
 
 
 def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "",
-                           api_key: str = "") -> dict:
+                           api_key: str = "", duracion_seg: float = 0) -> dict:
     """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
     nada): Gemini ingiere el video desde YouTube y devuelve la misma nota
     {hay_noticia, volanta, titulo, texto, resumen, mejor_momento_seg}. Gratis.
@@ -1386,7 +1386,18 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     # (503 en cadena) y lo que más consume de la clave paga. Si algo falla, cae SOLO al
     # camino clásico de abajo: nunca queda peor que antes.
     g_txt, fuente = None, ""
-    if _groq_on() and _audio_first_on():
+    # Plan 0 (2026-10-07): la transcripción que hizo la PC de la RADIO con el archivo
+    # original (Groq, gratis) y dejó en Drive. Es el camino más barato y el más fiel.
+    if _audio_first_on():
+        try:
+            from utils import transcripciones_pc
+            g_txt = transcripciones_pc.buscar(_id_de_youtube(url), duracion_seg)
+            fuente = "PC de la radio"
+        except Exception as e:  # noqa: BLE001 — nunca puede voltear el desgrabe
+            g_txt = None
+            logger.warning(f"No pude leer las transcripciones de la PC de la radio ({e}).")
+
+    if not (g_txt and len(g_txt) >= 25) and _groq_on() and _audio_first_on():
         audio = _audio_de_youtube(url)
         if audio is not None:
             hint = "\n".join(x for x in (_glosario(), (extra_text or "").strip()) if x)
