@@ -26967,7 +26967,7 @@
     "escrito": "",
     "draft_id": "1098e3e1-9839-4ab0-9f5c-4eaa202860bd",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-05-recuperaron-otra.mp4",
-    "estado": "publicado_foto_corr",
+    "estado": "retirado",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Matias zucchi",
     "corresponsal_celular": "5492346417636",
@@ -26991,7 +26991,8 @@
     "fb_historia_id": "27628919006783881",
     "yt_video_id": "mNZ_X6RVfsE",
     "yt_url": "https://www.youtube.com/shorts/mNZ_X6RVfsE",
-    "nota_interna": "Salió sin texto (el relato cayó en el nombre); rehecho el 4/10/2026."
+    "nota_interna": "Salió sin texto (el relato cayó en el nombre); rehecho el 4/10/2026.",
+    "reemplazado_por": "corresponsal_2026-10-05_matias-zucchi_rehecho1"
   },
   {
     "file": "corresponsal_2026-10-05_matias-zucchi_rehecho1",
@@ -27360,7 +27361,7 @@
     "zocalo": "Yesi Larrosa",
     "draft_id": "6325d385-b892-46fb-aa28-beb9a727679d",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-muy4qichxqrc-01.mp4",
-    "estado": "publicado",
+    "estado": "retirado",
     "sin_web": false,
     "escrito": "Descripción aportada por el colaborador: Denuncian un robo en una vivienda de Chivilcoy: se llevaron la PlayStation 5 de un niño\nYesi Larrosa relató en sus redes sociales que desconocidos ingresaron a su casa durante la noche del lunes, mientras la familia estaba ausente, revolvieron las habitaciones y sustrajeron distintos elementos, entre ellos la PlayStation 5 de su hijo.\nLa vecina expresó la angustia que les provocó regresar y encontrar la vivienda en esas condiciones. Señaló que sus hijos quedaron atemorizados y que busca mudarse para recuperar la tranquilidad familiar.\nTambién agradeció los numerosos mensajes de acompañamiento y pidió que le avisen si les ofrecen una consola que pudiera estar relacionada con el hecho.\n“Ya vamos a estar nuevamente en paz y tranquilos”, manifestó.\n#chivilcoy #diariolacampaña #radiodelcentro #Inseguridad #RoboEnVivienda",
     "origen": "corresponsal-whatsapp",
@@ -27392,7 +27393,9 @@
     "yt_titulo": "Denunciaron el robo de una consola PlayStation 5 en una vivienda",
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-07T10:21:28",
-    "yt_metrics": {}
+    "yt_metrics": {},
+    "reemplazado_por": "video_matias-zucchi_ps5rehecho_01.mp4",
+    "nota_interna": "Retirado el 7/10/2026: la caja del reel decía «VIVIENDA REVOLVIDA». Web a la papelera y Short privado; IG y FB se borran a mano."
   },
   {
     "file": "corresponsal_2026-10-07_matias-zucchi_muy5afenjioq",
@@ -27607,5 +27610,49 @@
     "fb_historia_id": "1492086999608398",
     "yt_video_id": "O7Th49-e15w",
     "yt_url": "https://www.youtube.com/shorts/O7Th49-e15w"
+  },
+  {
+    "file": "video_matias-zucchi_ps5rehecho_01.mp4",
+    "uploader": "dlc.chivilcoy@gmail.com",
+    "fecha_recibido": "2026-10-07T12:02:40",
+    "hay_noticia": true,
+    "volanta": "Chivilcoy · Policiales",
+    "titulo": "Una vecina denunció que desconocidos entraron a robar a su vivienda",
+    "resumen": "El hecho ocurrió el lunes 5 de octubre y entre lo sustraído figura una consola.",
+    "texto": "Una vecina de Chivilcoy, Yesi Larrosa, denunció a través de sus redes sociales que personas desconocidas ingresaron a su vivienda durante la noche del lunes, aprovechando que la familia se encontraba ausente.\n\nSegún relató la damnificada, los delincuentes revolvieron las distintas habitaciones del inmueble y sustrajeron diversos elementos, entre ellos la consola PlayStation 5 perteneciente a su hijo.\n\nLarrosa expresó la angustia que significó regresar y encontrar la casa en esas condiciones, al tiempo que señaló que sus hijos quedaron atemorizados por lo ocurrido, motivo por el cual manifestó su intención de mudarse para recuperar la tranquilidad.\n\nAsimismo, agradeció las muestras de apoyo recibidas y solicitó a la comunidad que se comuniquen con ella en caso de que les ofrezcan una consola a la venta que pudiera estar vinculada con el hecho. “Ya vamos a estar nuevamente en paz y tranquilos”, expresó.",
+    "zocalo": "Yesi Larrosa",
+    "draft_id": "6aed3633-a584-4a7a-84f3-d84b388e9312",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/reel_video-matias-zucchi-ps5rehecho-01.mp4",
+    "estado": "publicado",
+    "sin_web": false,
+    "escrito": "Descripción aportada por el colaborador: Denuncian un robo en una vivienda de Chivilcoy: se llevaron la PlayStation 5 de un niño\nYesi Larrosa relató en sus redes sociales que desconocidos ingresaron a su casa durante la noche del lunes, mientras la familia estaba ausente, revolvieron las habitaciones y sustrajeron distintos elementos, entre ellos la PlayStation 5 de su hijo.\nLa vecina expresó la angustia que les provocó regresar y encontrar la vivienda en esas condiciones. Señaló que sus hijos quedaron atemorizados y que busca mudarse para recuperar la tranquilidad familiar.\nTambién agradeció los numerosos mensajes de acompañamiento y pidió que le avisen si les ofrecen una consola que pudiera estar relacionada con el hecho.\n“Ya vamos a estar nuevamente en paz y tranquilos”, manifestó.\n#chivilcoy #diariolacampaña #radiodelcentro #Inseguridad #RoboEnVivienda",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-07T13:14:47.333Z — wa:5492346417636",
+    "publicacion_directa": true,
+    "ig_historia_id": "18338631712261667",
+    "fb_historia_id": "1080849998151032",
+    "fecha_publicado": "2026-10-07T12:07:06",
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-que-desconocidos-entraron-a",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "tiktok": "frenado (7 borradores sin publicar)",
+      "wix": "ok",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "ig_media_id": "18055796648598118",
+    "fb_video_id": "2558465728000947",
+    "yt_video_id": "tZvRTQy904c",
+    "yt_url": "https://www.youtube.com/shorts/tZvRTQy904c",
+    "yt_watch_url": "https://www.youtube.com/watch?v=tZvRTQy904c",
+    "yt_titulo": "Una vecina denunció que desconocidos entraron a robar a su vivienda",
+    "yt_privacy": "public",
+    "fecha_youtube": "2026-10-07T12:05:29",
+    "nota_interna": "Fila reconstruida a mano el 7/10/2026: la nube publicó todo pero GitHub devolvió 500 al guardar el estado (run 37641528607)."
   }
 ]
