@@ -1,7 +1,8 @@
 // Programa de Corresponsales "Chivilcoy en Acción" — webhook de WhatsApp (Cloud API).
 //
 // Recibe los mensajes que los vecinos mandan al número del Diario, corre un formulario
-// conversacional en 3 etapas (1: qué pasó → 2: nombre y apellido → 3: autorización) y, al aceptar,
+// conversacional en 3 etapas (1: qué pasó → 2: nombre y apellido → 3: autorización; con un AUDIO,
+// además la foto o el video si faltan y quién habla, ver PREGUNTA_HABLA) y, al aceptar,
 // baja el video y lo deposita en la carpeta de Drive «videos notas actualidad» (en una
 // subcarpeta con un contexto.txt). A partir de ahí, el desgrabador que ya existe arma la
 // nota web + el reel (con la firma de corresponsal) y avisa al equipo para aprobar.
@@ -36,6 +37,21 @@ const SB_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
 const LEGAL =
   "Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación " +
   "de ningún tipo de retribución.";
+
+// DECLARACIONES (2026-10-10): un AUDIO de alguien que habla (nota de voz o archivo) + una foto o un
+// video → reel con el nombre y el cargo de quien habla y frases de lo que dice. Con audio, el
+// formulario pide también la foto o el video (si no llegó) y quién habla, antes del nombre.
+const PIDE_NOMBRE =
+  "¡Gracias! 🙌 Ahora decime tu *nombre y apellido* (en un solo mensaje).\n\n" +
+  "🔒 Tus datos (nombre, apellido, celular) serán *confidenciales* y no se publicarán: solo se " +
+  "guardan en nuestra base de datos para dar el *premio del mes* al usuario que haya enviado el " +
+  "material con mejores estadísticas en nuestras redes sociales.";
+const PIDE_FOTO =
+  "📷 Para armar la nota con el audio necesito también *una foto o un video* de quien habla (o del " +
+  "lugar). Mandalo ahora, por favor.";
+const PREGUNTA_HABLA =
+  "🎙️ ¿*Quién habla* en el audio? Decime su *nombre y cargo* en un solo mensaje (por ejemplo: " +
+  "_Néstor Dabi, secretario de Seguridad municipal_).";
 
 // ── Utilidades ────────────────────────────────────────────────────────────────
 function normalizar(s: string): string {
@@ -272,16 +288,25 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   // El contexto.txt va PRIMERO; el video ÚLTIMO (el disparador del desgrabador se fija en el
   // video, así arranca recién cuando ya están los dos archivos).
   const enc = new TextEncoder();
-  await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8", enc.encode(contexto));
+  const habla = String(s.habla ?? "").trim();
+  await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8",
+    enc.encode(contexto + (habla ? `HABLA: ${habla}\n` : "")));
   // Bajar y subir CADA archivo, numerado (01, 02, …) para preservar el orden en el reel. Fotos → el
   // Apps Script dispara `--placa` (reel de la/s foto/s); videos → `--transcribe-video` (si hay varios,
-  // el desgrabador los concatena). El contexto.txt va PRIMERO y el material DESPUÉS.
+  // el desgrabador los concatena). El contexto.txt va PRIMERO y el material DESPUÉS: los AUDIOS
+  // antes que las fotos y los videos al final, así cuando arranca el desgrabador ya está todo.
+  const orden = (t: string) => (t === "audio" ? 0 : t === "image" ? 1 : 2);
+  const ordenada = [...lista].sort((a, b) => orden(a.tipo) - orden(b.tipo));
   let i = 0;
-  for (const m of lista) {
+  for (const m of ordenada) {
     i++;
     const { data, mime } = await bajarMedia(String(m.id));
     const nn = String(i).padStart(2, "0");
-    if (mime.startsWith("image/")) {
+    if (mime.startsWith("audio/")) {
+      const ext = mime.includes("mpeg") ? "mp3" : mime.includes("mp4") || mime.includes("aac") ? "m4a"
+        : mime.includes("amr") ? "amr" : mime.includes("wav") ? "wav" : "ogg";
+      await subirArchivo(token, carpeta, `audio_${slug(nombre)}_${uniq}_${nn}.${ext}`, mime.split(";")[0], data);
+    } else if (mime.startsWith("image/")) {
       const ext = mime.includes("png") ? "png" : (mime.includes("webp") ? "webp" : "jpg");
       await subirArchivo(token, carpeta, `foto_${slug(nombre)}_${uniq}_${nn}.${ext}`, mime, data);
     } else {
@@ -296,8 +321,8 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
   const waId: string = msg.from;
   const tipo: string = msg.type;
   const texto: string = msg.text?.body ?? msg.button?.text ?? "";
-  const esMedia = tipo === "video" || tipo === "image" ||
-    (tipo === "document" && /^(video|image)\//.test(String(msg.document?.mime_type || "")));
+  const esMedia = tipo === "video" || tipo === "image" || tipo === "audio" ||
+    (tipo === "document" && /^(video|image|audio)\//.test(String(msg.document?.mime_type || "")));
   const sesion = await getSesion(waId);
 
   // "cancelar" en cualquier momento.
@@ -312,17 +337,33 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
   // se pierde ninguno (era el bug de "quedaba 1 sola foto en el reel"). `total` = cuántos hay tras
   // ESTE archivo (1 = el primero → bienvenida + formulario; >1 = adicional → ack corto).
   if (esMedia) {
-    const mediaId = String((msg.video?.id) ?? (msg.image?.id) ?? (msg.document?.id) ?? "");
+    const mediaId = String((msg.video?.id) ?? (msg.image?.id) ?? (msg.audio?.id) ?? (msg.document?.id) ?? "");
+    const mimeDoc = String(msg.document?.mime_type || "");
     const tipoM = msg.image ? "image"
-      : (msg.video ? "video"
-      : (String(msg.document?.mime_type || "").startsWith("image/") ? "image" : "video"));
+      : msg.video ? "video"
+      : msg.audio ? "audio"
+      : mimeDoc.startsWith("image/") ? "image"
+      : mimeDoc.startsWith("audio/") ? "audio" : "video";
     if (!mediaId) return;
     const total = await addMediaAtomic(waId, mediaId, tipoM, perfil);
-    if (total <= 1) {
+    // Declaración: se estaba esperando la foto o el video de quien habla → con esto sigue.
+    if (sesion && String(sesion.paso) === "foto" && tipoM !== "audio") {
+      await upsertSesion({ wa_id: waId, paso: "habla" });
+      await enviarTexto(waId, PREGUNTA_HABLA);
+      return;
+    }
+    if (total <= 1 && tipoM === "audio") {
+      await enviarTexto(waId,
+        "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
+        "Campaña - Radio del Centro! 📣\n\n🎙️ Recibí tu *audio*. Mandá también *una foto o un video* " +
+        "de quien habla (o del lugar) y después contame en *un solo mensaje* de qué se trata: qué pasó, " +
+        "cuándo y dónde.\n\n(Si te arrepentís, escribí *cancelar*.)");
+    } else if (total <= 1) {
       await enviarTexto(waId,
         "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
         "Campaña - Radio del Centro! 📣\n\nRecibí tu material. Podés mandar hasta *5 fotos*, o *1 video " +
         "de hasta 1 minuto*, o *2-3 videos de máximo 20 segundos* cada uno (van todos a un mismo reel). " +
+        "Si tenés el *audio* de alguien que habla (una declaración), mandalo también. " +
         "Cuando termines, contame en *un solo mensaje* qué pasó:\n\n" +
         "• *Qué* ocurrió\n" +
         "• *Cuándo* fue\n" +
@@ -343,7 +384,7 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     await enviarTexto(waId,
       "Bienvenido al programa de Corresponsales del Diario La Campaña - Radio del Centro. " +
       "Envianos un *video de hasta 1 minuto* (o hasta *3 videos de máximo 20 segundos* cada uno) o " +
-      "*fotos*, y comenzamos a elaborar la noticia.");
+      "*fotos* (o el *audio* de alguien que habla, con una foto), y comenzamos a elaborar la noticia.");
     return;
   }
 
@@ -353,18 +394,34 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
   // `unsupported`…) no contesta ninguna pregunta: no avanza el formulario. El 2026-10-04 uno de
   // esos avanzó «qué pasó» con la descripción vacía, el relato cayó en «nombre y apellido» y se
   // publicó una nota «Envío de un corresponsal» sin texto.
-  if ((paso === "hecho" || paso === "datos") && !texto.trim()) {
+  if ((paso === "hecho" || paso === "datos" || paso === "habla") && !texto.trim()) {
     console.log(`Mensaje sin texto de ${waId} (tipo=${tipo}) en el paso ${paso}: no avanza.`);
+    return;
+  }
+  if (paso === "foto") {
+    // Declaración: llegó texto mientras se esperaba la foto o el video de quien habla.
+    if (texto.trim()) await enviarTexto(waId, PIDE_FOTO);
     return;
   }
   if (paso === "hecho") {
     // ETAPA 1: guarda el relato del hecho (qué/cuándo/dónde/cómo) → es lo que redacta la nota/descripción.
-    await upsertSesion({ wa_id: waId, paso: "datos", descripcion: texto.trim() });
-    await enviarTexto(waId,
-      "¡Gracias! 🙌 Ahora decime tu *nombre y apellido* (en un solo mensaje).\n\n" +
-      "🔒 Tus datos (nombre, apellido, celular) serán *confidenciales* y no se publicarán: solo se " +
-      "guardan en nuestra base de datos para dar el *premio del mes* al usuario que haya enviado el " +
-      "material con mejores estadísticas en nuestras redes sociales.");
+    const media = parseMedia(sesion.media_id);
+    const conAudio = media.some((m) => m.tipo === "audio");
+    if (conAudio && !media.some((m) => m.tipo !== "audio")) {
+      // Declaración sin imagen: falta la foto o el video antes de seguir.
+      await upsertSesion({ wa_id: waId, paso: "foto", descripcion: texto.trim() });
+      await enviarTexto(waId, PIDE_FOTO);
+    } else if (conAudio) {
+      await upsertSesion({ wa_id: waId, paso: "habla", descripcion: texto.trim() });
+      await enviarTexto(waId, PREGUNTA_HABLA);
+    } else {
+      await upsertSesion({ wa_id: waId, paso: "datos", descripcion: texto.trim() });
+      await enviarTexto(waId, PIDE_NOMBRE);
+    }
+  } else if (paso === "habla") {
+    // Declaración: quién habla en el audio (nombre y cargo) → va al contexto.txt como HABLA.
+    await upsertSesion({ wa_id: waId, paso: "datos", habla: texto.trim().slice(0, 200) });
+    await enviarTexto(waId, PIDE_NOMBRE);
   } else if (paso === "datos") {
     // Un nombre no tiene renglones ni pasa de 7 palabras: si llega un texto así, es MÁS relato
     // (o el relato entero, si la descripción quedó vacía). Se suma a la descripción y se vuelve
