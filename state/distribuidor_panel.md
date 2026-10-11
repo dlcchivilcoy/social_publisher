@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 11/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,19 +9,18 @@ Actualizado: 11/10/2026 19:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 8 | 5 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 9 | 4 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 4 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2982 de 3000 (visto 2026-10-11T22:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2981 de 3000 (visto 2026-10-11T23:00:16.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Notas web · Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación — espera para separarse de la otra publicación de la misma noticia
-- X · Notas web · Se profundiza la ruptura entre Cristina Kirchner y Axel Kicillof y divide al per — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Salarios dispares: cuáles son los empleos mejor y peor pagos en cada provincia — en turno
+- X · Notas web · Salarios dispares: cuáles son los empleos mejor y peor pagos en cada provincia — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · El desafío de financiar el retiro ante una mayor expectativa de vida y haberes m — en turno
 - X · Notas web · Se incendió el neumático de un camión en la Ruta 5 — en turno
 
@@ -29,7 +28,6 @@ Actualizado: 11/10/2026 19:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-11T21:58 recibido web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x 
 - 2026-10-11T21:58 recibido web:7b1a2e63-d062-48a9-ada5-e17347e06d48|x 
 - 2026-10-11T21:58 recibido web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x 
 - 2026-10-11T21:58 recibido web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x 
@@ -54,3 +52,4 @@ Actualizado: 11/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-11T22:20 programado web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x 
 - 2026-10-11T22:20 programado bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tikto 
 - 2026-10-11T22:40 programado web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x 
+- 2026-10-11T23:00 programado web:fb360714-5639-4bf4-a1f0-001886885d15|x 
