@@ -321,22 +321,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 82226,
+   "restantes": 232,
+   "segundos": 81024,
    "tope": 250
   },
   "30d": {
-   "restantes": 2983,
-   "segundos": 2587826,
+   "restantes": 2982,
+   "segundos": 2586624,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-11T22:20:16.000Z",
+ "cuota_visto": "2026-10-11T22:40:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T22:20:14.000Z",
@@ -616,14 +616,14 @@
    "video_url": ""
   },
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x": {
-   "actualizado": "2026-10-11T21:58:03.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-11T22:40:16.000Z",
+   "buffer_id": "6acc1050ea568e911a43726b",
    "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
    "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T00:31:07.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-11T15:06:24.415Z",
    "id": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1",
    "intentos": 0,
@@ -744,6 +744,7 @@
    "creado": "2026-10-11T21:58:03.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-11T12:16:54.016Z",
    "id": "web:fb360714-5639-4bf4-a1f0-001886885d15",
@@ -992,6 +993,13 @@
    "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
    "cuando": "2026-10-11T22:20:16.000Z",
    "dueAt": "2026-10-11T22:23:51.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acc1050ea568e911a43726b",
+   "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
+   "cuando": "2026-10-11T22:40:16.000Z",
+   "dueAt": "2026-10-12T00:31:07.000Z",
    "evento": "programado"
   }
  ],
