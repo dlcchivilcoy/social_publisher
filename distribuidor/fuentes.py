@@ -220,8 +220,9 @@ def video_verificado(ev: dict) -> tuple[bool, str, dict]:
     tipo = (r.headers.get("Content-Type") or "").lower()
     if tipo and not (tipo.startswith("video/") or "octet-stream" in tipo):
         return False, f"no es un video ({tipo})", {}
-    mb = int(r.headers.get("Content-Length") or 0) / 1_048_576
-    info = {"mb": round(mb, 1)}
+    nbytes = int(r.headers.get("Content-Length") or 0)
+    mb = nbytes / 1_048_576
+    info = {"mb": round(mb, 1), "bytes": nbytes}
     if mb and mb > config.X_VIDEO_MAX_MB:
         return False, f"pesa {mb:.0f} MB", info
     return True, "", info

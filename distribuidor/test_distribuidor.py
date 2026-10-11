@@ -78,7 +78,7 @@ def preparar(eventos_fn):
     buffer_api.crear_lote = falso.crear_lote
     buffer_api.estado_general = falso.estado_general
     fuentes.todas = eventos_fn
-    fuentes.video_verificado = lambda ev: (True, "", {"mb": 5})
+    fuentes.video_verificado = lambda ev: (True, "", {"mb": 5, "bytes": 5_000_000})
     fuentes.nota_verificada = lambda url: (True, "")
     run.avisar = lambda *a, **k: None
     return falso
@@ -327,6 +327,21 @@ def prueba_entrevistas_esperan_youtube():
     chequear("no va a TikTok", "entrevistas:1|tiktok" not in est["publicaciones"])
 
 
+def prueba_video_cambiado():
+    print("el video se pisó entre que se encoló y se manda: no sale")
+    reloj(AR_10)
+    tam = {"v": 5_000_000}
+    falso = preparar(lambda: [ev("pis", "bot")])
+    fuentes.video_verificado = lambda e: (True, "", {"mb": 5, "bytes": tam["v"]})
+    est = estado.cargar()
+    run.encolar(est, fuentes.todas())
+    tam["v"] = 7_123_456                     # otro reel con el mismo nombre
+    run.enviar(est)
+    p = est["publicaciones"]["bot:pis|x"]
+    chequear("descartada con motivo", p["estado"] == "descartado" and "cambi" in p["error"], p)
+    chequear("no llegó a Buffer", not falso.posts)
+
+
 def prueba_franja():
     print("franja horaria")
     t = datetime(2026, 10, 12, 5, 0, tzinfo=timezone.utc)        # 02:00 AR
@@ -342,7 +357,7 @@ def prueba_franja():
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_franja):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)

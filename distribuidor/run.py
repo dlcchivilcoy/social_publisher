@@ -137,6 +137,7 @@ def encolar(est: dict, eventos: list) -> dict:
                    "actualizado": estado.iso(ahora), "vence": estado.iso(vence),
                    "prioridad": ev["prioridad"], "urgente": ev["urgente"],
                    "nota_url": ev.get("nota_url", ""), "video_url": ev.get("video_url", ""),
+                   "video_bytes": ev.get("video_bytes", 0),
                    "estado": "pendiente", "intentos": 0, "buffer_id": "", "dueAt": "",
                    "error": "", "link": ""}
             apto, motivo = (ok, problema) if not ok else fuentes.apto_para(ev, red)
@@ -273,6 +274,21 @@ def enviar(est: dict, simular: bool = False) -> dict:
         return resumen
 
     pubs = est["publicaciones"]
+    # El video tiene que seguir siendo EL MISMO que se encoló (mismo tamaño exacto): si el
+    # archivo se pisó o se borró, no se manda (X saldría con el video de otra nota).
+    if not simular:
+        sanas = []
+        for k, due in asignadas:
+            p = pubs[k]
+            if p["tipo"] == "video" and p.get("video_bytes"):
+                ok, motivo, info = fuentes.video_verificado(p)
+                if not ok or info.get("bytes") != p["video_bytes"]:
+                    p.update(estado="descartado", actualizado=estado.iso(ahora),
+                             error=motivo or "el video cambió desde que se encoló")
+                    estado.anotar(est, "video_cambiado", clave=k, motivo=p["error"])
+                    continue
+            sanas.append((k, due))
+        asignadas = sanas
     for k, due in asignadas:
         p = pubs[k]
         p["dueAt"] = due

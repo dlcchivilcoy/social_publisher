@@ -1353,22 +1353,30 @@ def _a_distribuidor(fila: dict, reel_url: str, titulo: str, descripcion: str, po
     """
     if (get("DISTRIBUIDOR_BOT") or "1").strip().lower() in ("0", "false", "no", "off"):
         return
-    if not reel_url:
+    if not (reel_url and local_reel):
         return
     try:
+        import hashlib
+        import shutil
         from distribuidor import buzon
         from utils.branding import link_nota
-        dur = 0.0
-        if local_reel:
-            try:
-                dur = float(duration_seconds(local_reel) or 0)
-            except Exception:  # noqa: BLE001
-                dur = 0.0
+        cid = f"bot:{fila.get('file') or reel_url}"
+        # Copia con nombre ÚNICO: el Release `reel-latest` pisa los assets que se llaman igual
+        # (el 11/10 tres reels distintos se llamaron prev_corresponsal-2026-10-11-…mv.mp4), y
+        # Buffer baja el video recién al publicar: con la URL compartida, X podía salir con el
+        # texto de una nota y el video de otra.
+        unico = Path(local_reel).with_name(f"dist_{hashlib.sha1(cid.encode()).hexdigest()[:16]}.mp4")
+        shutil.copyfile(local_reel, unico)
+        url_unica = upload_reel(unico)
+        try:
+            dur = float(duration_seconds(local_reel) or 0)
+        except Exception:  # noqa: BLE001
+            dur = 0.0
         buzon.dejar({
-            "id": f"bot:{fila.get('file') or reel_url}",
+            "id": cid,
             "origen": "bot", "tipo": "video",
             "titulo": titulo or "", "descripcion": descripcion or "",
-            "video_url": reel_url,
+            "video_url": url_unica,
             "duracion_seg": round(dur, 1) if dur else None,
             "nota_url": link_nota(post_url) if post_url else "",
             "youtube_url": (yt_info or {}).get("short_url") or (yt_info or {}).get("url", ""),
