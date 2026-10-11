@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 11/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,24 +9,22 @@ Actualizado: 11/10/2026 20:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 7 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 6 | 8 | 1 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 8 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2979 de 3000 (visto 2026-10-11T23:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2978 de 3000 (visto 2026-10-11T23:40:13.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Notas web · Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación — espera para separarse de la otra publicación de la misma noticia
-- X · Notas web · Se incendió el neumático de un camión en la Ruta 5 — Buffer lleno (10 programadas por canal en el plan Free)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-11T21:58 programado web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x 
 - 2026-10-11T21:58 programado web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x 
 - 2026-10-11T21:58 programado web:70276865-8c0d-4a78-83f8-610a2dffcc17|x 
 - 2026-10-11T21:58 programado web:58114495-39f3-4653-ae6b-639c6c61dae5|x 
@@ -51,3 +49,4 @@ Actualizado: 11/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-11T23:20 enviado web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x 
 - 2026-10-11T23:20 programado web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a|x 
 - 2026-10-11T23:20 programado web:d1046b33-6e86-4507-ae0d-c47db70dbb2a|x 
+- 2026-10-11T23:40 programado web:d35101a5-0683-4dc9-8422-7280ee9bf814|x 
