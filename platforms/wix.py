@@ -595,9 +595,11 @@ def borrar_post(post_id: str) -> dict:
     """Borra del blog (manda a la papelera y despublica) un post por su id (= draft_id).
     Se usa para el botón «Borrar de la web» de las notas para web."""
     headers = _headers()
+    slug = _slug_de_post(post_id)  # antes de borrar: después ya no se puede consultar
     r = _delete(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, timeout=30)
     _raise_for_status(r, "borrar post")
     logger.info(f"Post borrado de Wix: {post_id}")
+    web_revalidar(slug)  # que la web deje de mostrarla ya, no en 6 horas
     return {"success": True, "id": post_id}
 
 
@@ -776,4 +778,43 @@ def editar_nota(post_id: str, title: str, paragraphs: list, nueva_portada_path=N
     r = _patch(f"{DRAFT_POSTS_URL}/{post_id}", headers=headers, json=payload, timeout=60)
     _raise_for_status(r, "editar nota")
     logger.info(f"Nota {post_id} editada; re-publicando…")
-    return publicar_borrador(post_id)
+    res = publicar_borrador(post_id)
+    web_revalidar(_slug_de_post(post_id))
+    return res
+
+
+def _slug_de_post(post_id: str) -> str:
+    """Slug de un post publicado (para armar su URL en la web). '' si no se pudo."""
+    try:
+        r = _get(f"https://www.wixapis.com/blog/v3/posts/{post_id}", headers=_headers(), timeout=30)
+        return (r.json().get("post") or {}).get("slug", "") if r.ok else ""
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def web_revalidar(slug: str) -> bool:
+    """Le pide a la web (Vercel) que regenere YA la página de esa nota.
+
+    Desde el 2026-10-11 las notas de la web se regeneran solas cada 6 horas (antes cada 5
+    minutos, y eso era la mitad de la factura de Vercel). Para que una corrección o un borrado
+    se vean al instante, se pide la página con el header `x-prerender-revalidate` y el token
+    del ISR (diario_web/astro.config.mjs → `bypassToken`; acá va en WEB_ISR_TOKEN).
+    Best-effort: si falla, la nota se actualiza sola en el próximo ciclo de 6 h."""
+    tok = (get("WEB_ISR_TOKEN") or "").strip()
+    if not slug or not tok:
+        if not tok:
+            logger.warning("Falta WEB_ISR_TOKEN: la web mostrará el cambio en hasta 6 horas.")
+        return False
+    from urllib.parse import quote
+    base = (get("WEB_BASE_URL") or "https://www.xn--diariolacampaa-2nb.com.ar").rstrip("/")
+    ruta = "/single-post/" + "/".join(quote(t, safe="-_.!~*'()") for t in slug.split("/"))
+    try:
+        r = requests.get(base + ruta, headers={"x-prerender-revalidate": tok},
+                         timeout=60, allow_redirects=False)
+        ok = r.status_code < 500
+        logger.info(f"Web: nota regenerada ({r.status_code}) {ruta}" if ok
+                    else f"Web: no se pudo regenerar {ruta} ({r.status_code})")
+        return ok
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Web: no se pudo regenerar {ruta} ({e}); se actualiza sola en hasta 6 h.")
+        return False
