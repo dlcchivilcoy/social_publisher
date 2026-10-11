@@ -118,3 +118,19 @@ borrador), `RANKING_EMAIL` (a quién llega; si no, usa el de los reportes).
 > Nota: los insights de FB/IG dependen de que los reels se hayan publicado con los IDs guardados
 > (`fb_video_id`/`ig_media_id`, que se registran desde la Etapa 1). Si algún insight no está
 > disponible (permiso/versión de la API), esa métrica cuenta 0 y el ranking igual se arma.
+
+## Declaraciones: un audio de quien habla (10/10/2026)
+
+Un corresponsal manda por WhatsApp el **audio** de alguien que habla (nota de voz o archivo) con una
+**foto o un video**. El reel lleva el **cargo**, el **nombre** en la caja naranja, **frases cortas que
+cambian** con lo que dice y un **espectro naranja** que se mueve con la voz; horizontal o cuadrado → 4:5.
+
+- **WhatsApp** (`corresponsales-webhook`): con audio, el formulario pide la foto o el video si faltan
+  y pregunta «¿Quién habla? Nombre y cargo» (columna `habla`, migración `0005_habla.sql`, que se
+  corre ANTES de deployar la función). Va al `contexto.txt` como `HABLA:`.
+- **Desgrabador** (`transcriber.py`): una carpeta de corresponsal con audio → Groq transcribe con los
+  tiempos de cada palabra, Gemini (`gemini.declaracion`) escribe la nota con citas textuales, separa
+  nombre y cargo y propone las frases → `declaracion.py` arma el reel. Borrador en Wix y mail
+  «Declaración de corresponsal por revisar», con los mismos botones; al aprobar sale con
+  «🎧 Escuchá las declaraciones de…». Si el audio no es una declaración, sigue como siempre.
+- Probar sin publicar: `python declaracion.py <carpeta>` (autoprueba) o `main.py --chequeo-reel`.
