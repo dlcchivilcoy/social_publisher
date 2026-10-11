@@ -1,0 +1,20 @@
+{
+ "avisos": {},
+ "canales": {},
+ "contenidos": {},
+ "cuota": {},
+ "publicaciones": {},
+ "registro": [
+  {
+   "clave": "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392",
+   "cuando": "2026-10-11T21:57:00.000Z",
+   "evento": "ya_publicado_en_prueba",
+   "motivo": "nota de Sentra programada a mano en la prueba del 11/10"
+  }
+ ],
+ "ultima_sync": "",
+ "version": 1,
+ "vistos": {
+  "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z"
+ }
+}
