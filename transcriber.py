@@ -122,6 +122,18 @@ def _slug(s: str) -> str:
 
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+# DECLARACIONES (2026-10-10): el audio de quien habla que manda un corresponsal por WhatsApp
+# (las notas de voz llegan .ogg) con una foto o un video → reel de `declaracion.py`.
+AUDIO_EXTS = {".ogg", ".opus", ".mp3", ".m4a", ".aac", ".wav", ".amr"}
+
+
+def _audio_de(carpeta: Path) -> Path | None:
+    """El audio de una carpeta de corresponsal (el primero por nombre), o None."""
+    try:
+        return next((p for p in sorted(carpeta.iterdir())
+                     if p.is_file() and p.suffix.lower() in AUDIO_EXTS), None)
+    except Exception:  # noqa: BLE001
+        return None
 
 
 def _find_folder(name: str, base: Path | None = None) -> Path | None:
@@ -234,7 +246,8 @@ def _recolectar_adjuntos(video: Path) -> tuple[str, list[Path]]:
 # ── Contexto del corresponsal (contexto.txt que deja el bot de WhatsApp) ──────
 FIRMA_DEFAULT = ("Material enviado por un colaborador de la Red de Corresponsales — "
                  "Diario La Campaña · Radio del Centro")
-_CTX_KEYS = ("origen", "nombre", "celular", "lugar", "descripcion", "autorizacion")
+# HABLA: quién habla en el audio de una declaración (nombre y cargo, lo escribe el corresponsal).
+_CTX_KEYS = ("origen", "nombre", "celular", "lugar", "descripcion", "autorizacion", "habla")
 
 
 def _firma_texto() -> str:
@@ -569,6 +582,13 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     if len(grupo) > 1 and video.name != grupo[0].name:
         logger.info(f"Corresponsal multi-video: el grupo lo procesa «{grupo[0].name}»; salteo «{video.name}».")
         return
+    # DECLARACIÓN (2026-10-10): el corresponsal mandó un AUDIO con el video → reel de declaración con
+    # el video de fondo. Va por la CARPETA, como la foto de corresponsal (mismos botones, misma
+    # etapa 2). Si la IA dice que el audio no es una declaración, sigue el desgrabado de siempre.
+    if grupo and _audio_de(video.parent):
+        if _corresponsal_foto_etapa1(video.parent, _ctx_g, uploader, dry_run, video=grupo[0]):
+            return
+        logger.info("El audio no sirvió como declaración: sigo con el video como siempre.")
 
     rows = _leer_ledger()
     fila = _buscar_fila(rows, video.name)
@@ -1652,6 +1672,17 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
 
     rows = _leer_ledger()
     fila = _buscar_fila(rows, file) if file else None
+    if fila is None and file:
+        # DECLARACIÓN con video (2026-10-10): la fila es de la CARPETA. Si alguien la movió a mano a
+        # APROBADAS, el disparador manda el video: se publica por la carpeta (y no el último
+        # borrador pendiente, que sería otra nota).
+        v = _find_video(file)
+        # `_find_video` cae al video más nuevo si no encuentra el nombre: solo vale si es ESE.
+        de_carpeta = _buscar_fila(rows, v.parent.name) if (v and v.name == file) else None
+        if de_carpeta and de_carpeta.get("decl"):
+            logger.info(f"«{file}» es el video de la declaración «{v.parent.name}»: se publica por la carpeta.")
+            _corresponsal_foto_publish(de_carpeta, dry_run)
+            return
     if fila is None:
         pendientes = [r for r in rows if r.get("estado") in ("borrador", "solo_reel")]
         fila = pendientes[-1] if pendientes else None
@@ -1884,61 +1915,124 @@ def _placa_datos(carpeta: Path):
     return docx, fotos, volanta, titular, resumen, texto, title, body
 
 
-def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: bool) -> None:
+def _declaracion_ia(audio: Path, video: Path | None, fotos: list, desc: str, ctx: dict) -> dict | None:
+    """Transcribe el audio de una DECLARACIÓN y redacta nota, nombre, cargo y frases (ver
+    `gemini.declaracion`). None si no se pudo o si la IA dice que no es una declaración: el envío
+    sigue por el camino de siempre."""
+    from utils import gemini
+    import declaracion
+    try:
+        dur = float(duration_seconds(audio) or 0)
+        ref = fotos[0] if fotos else frame_at(video, 1.0, WORK_DIR / f"decl_ref_{_slug(audio.stem)}.jpg")
+        d = gemini.declaracion(audio, dur, relato=desc, habla=ctx.get("habla", ""), foto=ref,
+                               max_seg=declaracion.MAX_SEG)
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"No pude transcribir o redactar la declaración ({e}); sigue sin el audio.")
+        return None
+    if not d.get("hay_declaracion"):
+        logger.warning(f"La IA dice que el audio no es una declaración ({d.get('motivo', '')}); "
+                       f"sigue sin el audio.")
+        return None
+    visual = video or fotos[0]
+    return {"audio": audio.name, "visual": visual.name, "es_foto": video is None,
+            "nombre": (d.get("nombre") or "").strip(), "cargo": (d.get("cargo") or "").strip(),
+            "frases": d.get("frases") or [], "tramo": d.get("tramo") or {},
+            "transcripcion": (d.get("transcripcion") or "")[:4000], "asr": d.get("asr", ""),
+            "volanta": d.get("volanta", ""), "titulo": d.get("titulo", ""),
+            "texto": d.get("texto", ""), "resumen": d.get("resumen", "")}
+
+
+def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "") -> Path:
+    """El reel de una declaración (`declaracion.reel`) con el audio y la foto o el video de la carpeta."""
+    import declaracion
+    WORK_DIR.mkdir(exist_ok=True)
+    info = declaracion.reel(carpeta / decl["audio"], carpeta / decl["visual"], salida,
+                            nombre=decl.get("nombre", ""), cargo=decl.get("cargo", ""),
+                            frases=decl.get("frases"), tramo=decl.get("tramo"),
+                            es_foto=decl.get("es_foto", True), respaldo=respaldo,
+                            work_dir=WORK_DIR / f"decl_{_slug(carpeta.name)}")
+    return Path(info["archivo"])
+
+
+def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: bool,
+                              video: Path | None = None) -> bool:
     """ETAPA 1 del CORRESPONSAL-FOTO: subcarpeta con contexto.txt (ORIGEN corresponsal) + foto,
     SIN video ni Word. Redacta la nota con IA desde la descripción del vecino, crea un BORRADOR en
     Wix (para poder previsualizar/corregir/borrar desde el mail) y avisa por mail para revisar. Al
-    aprobar (etapa 2) se publica la nota web y se postea el reel a las redes."""
+    aprobar (etapa 2) se publica la nota web y se postea el reel a las redes.
+
+    DECLARACIÓN (pedido 2026-10-10): si la carpeta trae un AUDIO (lo que dice alguien), la nota sale
+    de la transcripción y el reel es el de `declaracion.py` (nombre, cargo, frases que cambian y el
+    espectro), con la foto o con `video` de fondo. Devuelve False solo si venía con `video` y el
+    audio no sirvió: el que llama sigue con el desgrabado del video de siempre."""
     fotos = [p for p in sorted(carpeta.iterdir())
              if p.is_file() and p.suffix.lower() in IMG_EXTS]
-    if not fotos:
+    audio = _audio_de(carpeta)
+    if not fotos and not (audio and video):
         logger.error(f"Corresponsal-foto '{carpeta.name}': no hay foto para procesar.")
-        return
+        return True
     rows = _leer_ledger()
     fila = _buscar_fila(rows, carpeta.name)
     if not dry_run and fila and fila.get("estado") in ("borrador_foto_corr", "publicado_foto_corr"):
         logger.info(f"El corresponsal-foto '{carpeta.name}' ya fue procesado (estado={fila['estado']}).")
         _avisar_nombre_repetido(carpeta.name, fila, kind="foto de corresponsal")
-        return
+        return True
 
     # Lo que ESCRIBIÓ el vecino. Se lee UNA vez y ANTES del try, porque hace dos cosas: es el
     # respaldo si Gemini no contesta, y es la fuente contra la que se corrige la grafía más
     # abajo. Estaba definido solo adentro del `except`, y el 2026-09-21 volteó dos notas
     # reales con «UnboundLocalError: desc» — justo por el camino BUENO, el que no falla.
     desc = (ctx.get("descripcion") or "").strip()
-    # IA: redactar la nota (volanta/título/texto/resumen) desde la descripción + la foto.
     from utils import gemini
-    try:
-        nota = gemini.nota_desde_foto(desc, fotos[0], lugar=ctx.get("lugar", ""))
-    except Exception as e:
-        logger.error(f"Gemini falló al redactar el corresponsal-foto ({e}); uso la descripción cruda.")
-        nota = {"volanta": "", "titulo": (desc.split("\n")[0][:80] or "Envío de corresponsal"),
-                "texto": desc, "resumen": desc[:280]}
+    decl = _declaracion_ia(audio, video, fotos, desc, ctx) if audio else None
+    if video and not decl:
+        return False
+    if decl:
+        nota = {k: decl[k] for k in ("volanta", "titulo", "texto", "resumen")}
+        if not fotos:
+            # Con video de fondo: un cuadro del video para la galería de la nota web.
+            fotos = [frame_at(video, 1.0, WORK_DIR / f"decl_{_slug(carpeta.name)}_portada.jpg")]
+    else:
+        # IA: redactar la nota (volanta/título/texto/resumen) desde la descripción + la foto.
+        try:
+            nota = gemini.nota_desde_foto(desc, fotos[0], lugar=ctx.get("lugar", ""))
+        except Exception as e:
+            logger.error(f"Gemini falló al redactar el corresponsal-foto ({e}); uso la descripción cruda.")
+            nota = {"volanta": "", "titulo": (desc.split("\n")[0][:80] or "Envío de corresponsal"),
+                    "texto": desc, "resumen": desc[:280]}
     volanta = nota.get("volanta", ""); titular = nota.get("titulo", "")
     texto = nota.get("texto", ""); resumen = nota.get("resumen", "") or titular
     # Igual que en el desgrabador: la grafía de los nombres y las siglas la manda lo que el
     # vecino ESCRIBIÓ, no cómo lo reescribió la IA (pedido 2026-09-20).
-    if desc:
+    escrito = "\n".join(x for x in (desc, ctx.get("habla", "")) if x)
+    if escrito:
         from utils import grafia
         _c = grafia.corregir_campos({"volanta": volanta, "titular": titular,
-                                     "bajada": resumen, "texto": texto}, desc)
+                                     "bajada": resumen, "texto": texto}, escrito)
         volanta, titular = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
     titular = _asegurar_titulo(titular, texto, resumen, volanta)
-    # Especificación editorial v1.0 (pedido 2026-10-02): volanta «Localidad · Tema», titular de
-    # 6 a 12 palabras y una bajada de 8 a 16 para la portada del reel.
-    volanta, titular, bajada_reel = _titulacion_espec(texto, titular, volanta,
-                                                      ctx.get("lugar", ""), desc, _fecha_larga())
+    if decl:
+        # El reel de la declaración no lleva la portada de la especificación v1.0: lleva el nombre,
+        # el cargo y las frases.
+        bajada_reel, tarjetas = "", []
+    else:
+        # Especificación editorial v1.0 (pedido 2026-10-02): volanta «Localidad · Tema», titular de
+        # 6 a 12 palabras y una bajada de 8 a 16 para la portada del reel.
+        volanta, titular, bajada_reel = _titulacion_espec(texto, titular, volanta,
+                                                          ctx.get("lugar", ""), desc, _fecha_larga())
+        # Varias fotos: cada una después de la primera lleva su caja con un dato de la nota
+        # (pedido 2026-10-04). Se calculan UNA vez y quedan en el ledger para el reel definitivo.
+        tarjetas = (gemini.tarjetas_fotos(texto or desc, len(fotos) - 1, volanta, titular)
+                    if len(fotos) > 1 and (texto or desc) else [])
     title = f"{volanta} — {titular}" if volanta else titular
-    # Varias fotos: cada una después de la primera lleva su caja con un dato de la nota
-    # (pedido 2026-10-04). Se calculan UNA vez y quedan en el ledger para el reel definitivo.
-    tarjetas = (gemini.tarjetas_fotos(texto or desc, len(fotos) - 1, volanta, titular)
-                if len(fotos) > 1 and (texto or desc) else [])
 
     if dry_run:
         logger.info(f"[dry-run] corresponsal-foto «{title}» ({bajada_reel or 'sin bajada'}): "
-                    f"nota web (borrador) + reel a redes. Tarjetas: {tarjetas}")
-        return
+                    f"nota web (borrador) + reel a redes. Tarjetas: {tarjetas}"
+                    + (f" · DECLARACIÓN de {decl['nombre']} ({decl['cargo']}), frases {decl['frases']}, "
+                       f"tramo {decl['tramo']}" if decl else ""))
+        return True
 
     # Borrador en Wix (habilita «Corregir texto» / «Borrar» por botón + nota web al aprobar) y
     # reel de previsualización. Ambos best-effort: si Wix falla, sigue sin nota web/edición.
@@ -1949,10 +2043,19 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         draft_id = info["draft_id"]
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
-    # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
-    reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular,
-                             resumen=bajada_reel or resumen, volanta=volanta, cuerpo=texto,
-                             estilo="corresponsal", tarjetas=tarjetas)
+    if decl:
+        reel_url = ""
+        try:
+            reel_url = upload_reel(_reel_declaracion(
+                carpeta, decl, WORK_DIR / f"prev_{_slug(carpeta.name)}.mp4", respaldo=titular))
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"No pude armar el reel de la declaración para revisar ({e}); el mail va "
+                           f"sin ese botón.")
+    else:
+        # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
+        reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular,
+                                 resumen=bajada_reel or resumen, volanta=volanta, cuerpo=texto,
+                                 estilo="corresponsal", tarjetas=tarjetas)
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -1967,6 +2070,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         "origen": ctx.get("origen", ""), "corresponsal_nombre": ctx.get("nombre", ""),
         "corresponsal_celular": ctx.get("celular", ""), "corresponsal_lugar": ctx.get("lugar", ""),
         "autorizacion": ctx.get("autorizacion", ""),
+        "decl": {k: v for k, v in (decl or {}).items()
+                 if k not in ("volanta", "titulo", "texto", "resumen")} or None,
     })
     _guardar_ledger(rows)
     logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}).")
@@ -1984,16 +2089,22 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
             _guardar_ledger(rows)
             _corresponsal_foto_publish(fila, dry_run=False)
             logger.info("=== Corresponsal-foto (etapa 1): publicado directo ===")
-            return
+            return True
         except Exception as e:  # noqa: BLE001
             logger.error(f"La publicación directa falló ({e}); va el mail de revisión.")
 
     botones = _botones_foto(carpeta.name, draft_id, reel_url)
+    que = "Declaración de corresponsal" if decl else "Foto de corresponsal"
+    material = ("audio + " + ("video" if video else "foto")) if decl else "foto"
+    extra_decl = (f"<p style='color:#555'>🎙️ Habla: <b>{_hesc(decl['nombre'] or '¿?')}</b>"
+                  f"{' — ' + _hesc(decl['cargo']) if decl['cargo'] else ''}<br>"
+                  f"<span style='font-size:13px;color:#888'>Transcripción: "
+                  f"{_hesc(decl['transcripcion'][:600])}</span></p>") if decl else ""
     html = (f"<div style='font-family:Arial;max-width:600px;color:#222;font-size:16px'>"
-            f"<h2 style='color:#e2620c'>Foto de corresponsal por revisar</h2>"
+            f"<h2 style='color:#e2620c'>{que} por revisar</h2>"
             f"<p style='color:#888;font-size:13px'>{_hesc(ctx.get('nombre',''))} · "
-            f"{_hesc(ctx.get('lugar',''))} · foto</p>"
-            f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>"
+            f"{_hesc(ctx.get('lugar',''))} · {material}</p>"
+            f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>" + extra_decl +
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
             f"<p>Al aprobar se publica la <b>nota web</b> y se postea el <b>reel</b> de la foto a "
             f"<b>Facebook/Instagram + YouTube Short + TikTok</b> (nota redactada por IA). Con los "
@@ -2002,10 +2113,11 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la carpeta "
             f"«{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
-    _enviar_aviso(f"Foto de corresponsal por revisar: {titular}",
-                  f"Foto de corresponsal para revisar: «{title}».\nPara publicarla, mové la carpeta "
+    _enviar_aviso(f"{que} por revisar: {titular}",
+                  f"{que} para revisar: «{title}».\nPara publicarla, mové la carpeta "
                   f"«{carpeta.name}» a APROBADAS.", html=html)
     logger.info("=== Corresponsal-foto (etapa 1): fin ===")
+    return True
 
 
 def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
@@ -2019,6 +2131,14 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     carpeta = _find_folder(fila["file"])
     fotos = [p for p in sorted(carpeta.iterdir())
              if p.is_file() and p.suffix.lower() in IMG_EXTS] if carpeta else []
+    decl = fila.get("decl") or None
+    if decl and carpeta and not (carpeta / decl.get("audio", "")).is_file():
+        logger.error(f"No encontré el audio de la declaración '{fila['file']}': va como foto.")
+        decl = None
+    if decl and not fotos and carpeta and (carpeta / decl.get("visual", "")).is_file():
+        # Declaración con video de fondo: un cuadro del video para la nota web.
+        fotos = [frame_at(carpeta / decl["visual"], 1.0,
+                          WORK_DIR / f"decl_{_slug(fila['file'])}_portada.jpg")]
     if not fotos:
         logger.error(f"No encontré la foto de '{fila['file']}' para postear.")
         return
@@ -2037,7 +2157,11 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     # si no sale, el TEXTO del vecino (corregido) + hashtags, como antes. Completa en YouTube y
     # recortada a los primeros 5 hashtags en IG/FB.
     espec = _descripcion_espec(fila, titular, texto)
-    meta = _meta_corresponsal(volanta, titular, resumen, texto, cuerpo=espec.get("texto", ""),
+    cuerpo = espec.get("texto", "")
+    if decl and decl.get("nombre"):
+        # Como el reel de referencia (9/10): el posteo invita a escuchar a quien habla.
+        cuerpo = (cuerpo + "\n\n" if cuerpo else "") + f"🎧 Escuchá las declaraciones de {decl['nombre']}."
+    meta = _meta_corresponsal(volanta, titular, resumen, texto, cuerpo=cuerpo,
                               topicos=espec.get("hashtags"),
                               sobrio=espec.get("tema") == "fallecimiento")
     yt_desc = meta["descripcion"]
@@ -2054,12 +2178,17 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     try:
         from video import foto_a_reel
         WORK_DIR.mkdir(exist_ok=True)
-        # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
-        reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                 overlay=False, titular=titular,
-                                 resumen=bajada_reel or resumen,
-                                 volanta=volanta, cuerpo=texto, estilo="corresponsal",
-                                 tarjetas=fila.get("tarjetas_fotos") or [])
+        if decl:
+            # DECLARACIÓN (2026-10-10): audio + foto o video, con nombre, cargo y frases.
+            reel_local = _reel_declaracion(carpeta, decl, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
+                                           respaldo=titular)
+        else:
+            # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
+            reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
+                                     overlay=False, titular=titular,
+                                     resumen=bajada_reel or resumen,
+                                     volanta=volanta, cuerpo=texto, estilo="corresponsal",
+                                     tarjetas=fila.get("tarjetas_fotos") or [])
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")

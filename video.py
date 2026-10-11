@@ -3471,6 +3471,13 @@ def autochequeo() -> bool:
         except Exception as e:                                   # noqa: BLE001
             ok = False
             print(f"  ROTO montaje: {type(e).__name__}: {e}")
+        # Declaraciones (2026-10-10): audio + foto con nombre, cargo, frases y espectro, sin IA.
+        try:
+            import declaracion
+            ok = declaracion.autoprueba(tmp / "declaracion") and ok
+        except Exception as e:                                   # noqa: BLE001
+            ok = False
+            print(f"  ROTO declaración: {type(e).__name__}: {e}")
         for etiqueta, lote, esperado in (("fotos de corresponsal mezcladas", fotos, 1920),
                                          ("fotos de corresponsal apaisadas", fotos[1:],
                                           CORR_ALTO_APAISADO)):

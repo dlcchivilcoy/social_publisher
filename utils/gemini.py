@@ -2370,3 +2370,174 @@ def nota_desde_foto(descripcion: str, foto_path, lugar: str = "",
     ni el largo) usando la FOTO como apoyo visual. Devuelve el mismo dict que `transcribe_to_nota`."""
     return corregir_texto(descripcion, lugar=lugar, foto_path=foto_path,
                           api_key=api_key, model=model, key_pool=key_pool)
+
+
+# ── DECLARACIONES: un audio de quien habla + foto o video (pedido 2026-10-10) ──────────────────
+# El reel lleva el nombre y el cargo de la persona y frases cortas que cambian con el audio (ver
+# `declaracion.py`). Para sincronizarlas hacen falta los TIEMPOS de lo que se dice: Groq Whisper
+# los da exactos por segmento; si no hay Groq, Gemini con marcas de tiempo.
+
+def segmentos_groq(audio) -> list:
+    """[{desde, hasta, texto}] del audio con Groq (`verbose_json`). [] si no se pudo."""
+    key = _groq_key()
+    if not key:
+        return []
+    mp3 = _extraer_audio(audio)
+    if mp3 is None:
+        return []
+    try:
+        with open(mp3, "rb") as fh:
+            data = [("model", _groq_model()), ("language", "es"), ("temperature", "0"),
+                    ("response_format", "verbose_json"), ("timestamp_granularities[]", "segment"),
+                    ("timestamp_granularities[]", "word")]
+            pista = _pista_groq(_glosario())
+            if pista:
+                data.append(("prompt", pista))
+            r = requests.post(GROQ_ASR_URL, headers={"Authorization": f"Bearer {key}"},
+                              files={"file": (mp3.name, fh, "audio/mpeg")}, data=data, timeout=300)
+        if r.status_code >= 400:
+            logger.warning(f"Groq {r.status_code}: {r.text[:200]}; pruebo con Gemini.")
+            return []
+        datos = r.json()
+        # Con las palabras se arman tramos de 3 a 7 s cortados en las pausas: Whisper suele dar un
+        # segmento por oración larga (13 s en el audio de prueba) y las frases del reel tienen que
+        # cambiar cuando cambia lo que se dice.
+        tramos = tramos_de_palabras(datos.get("words") or [])
+        if tramos:
+            return tramos
+        segs = [{"desde": round(float(s.get("start", 0)), 2), "hasta": round(float(s.get("end", 0)), 2),
+                 "texto": " ".join(str(s.get("text", "")).split())}
+                for s in (datos.get("segments") or [])]
+        return [s for s in segs if s["texto"]]
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Groq falló con los segmentos ({e}); pruebo con Gemini.")
+        return []
+    finally:
+        try:
+            mp3.unlink()
+        except Exception:
+            pass
+
+
+def tramos_de_palabras(palabras: list, minimo: float = 3.0, maximo: float = 7.0,
+                       pausa: float = 0.25) -> list:
+    """[{desde, hasta, texto}] juntando las palabras de Whisper ({word, start, end}): un tramo se
+    cierra en una pausa (o un punto) cuando ya dura `minimo`, y siempre al llegar a `maximo`."""
+    tramos, actual = [], []
+    for i, p in enumerate(palabras):
+        try:
+            w, ini, fin = str(p.get("word", "")).strip(), float(p.get("start")), float(p.get("end"))
+        except (TypeError, ValueError, AttributeError):
+            continue
+        if not w:
+            continue
+        actual.append((w, ini, fin))
+        dura = fin - actual[0][1]
+        sig = palabras[i + 1] if i + 1 < len(palabras) else None
+        hueco = (float(sig.get("start", fin)) - fin) if sig else 99
+        if dura >= maximo or (dura >= minimo and (hueco >= pausa or w[-1:] in ".?!,;")) or sig is None:
+            tramos.append({"desde": round(actual[0][1], 2), "hasta": round(actual[-1][2], 2),
+                           "texto": " ".join(x[0] for x in actual)})
+            actual = []
+    return tramos
+
+
+_SEGMENTOS_SCHEMA = {
+    "type": "object",
+    "properties": {"segmentos": {"type": "array", "items": {"type": "object", "properties": {
+        "desde": {"type": "number"}, "hasta": {"type": "number"}, "texto": {"type": "string"}},
+        "required": ["desde", "hasta", "texto"]}}},
+    "required": ["segmentos"],
+}
+
+
+def segmentos_gemini(audio, api_key: str = "", model: str = "") -> list:
+    """Respaldo de `segmentos_groq`: Gemini transcribe el audio en frases con sus segundos."""
+    key = (api_key or "").strip() or _clave_por_defecto()
+    model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+    audio = Path(audio)
+    f = _esperar_activo(_subir_archivo(audio, _mime(audio), key)["name"], key)
+    prompt = ("Transcribí este audio en español, LITERAL, partido en frases de 3 a 15 segundos. "
+              "Para cada una: `desde` y `hasta` en SEGUNDOS desde el comienzo del audio (números con "
+              "un decimal) y `texto` tal cual se dice. No resumas ni corrijas.")
+    raw = _post_json([{"text": prompt}, {"file_data": {"mime_type": f.get("mimeType") or _mime(audio),
+                                                       "file_uri": f["uri"]}}],
+                     key, model, _SEGMENTOS_SCHEMA, key_pool=[key])
+    return [{"desde": float(s.get("desde") or 0), "hasta": float(s.get("hasta") or 0),
+             "texto": " ".join(str(s.get("texto", "")).split())}
+            for s in raw.get("segmentos") or [] if str(s.get("texto", "")).strip()]
+
+
+_DECLARACION_PROMPT = (
+    "Sos el editor del «Diario La Campaña» / «Radio del Centro» de Chivilcoy (Argentina). Un "
+    "corresponsal mandó por WhatsApp el AUDIO de una persona que habla (una declaración, una "
+    "entrevista) con una foto o un video. Te paso la TRANSCRIPCIÓN con los segundos de cada frase, "
+    "QUIÉN HABLA según el corresponsal y su relato. Devolvé el JSON:\n"
+    "• `nombre` y `cargo` de quien habla: MANDA lo que escribió el corresponsal; vos solo corregí "
+    "la grafía (mayúsculas, tildes) y separá el nombre del cargo («Néstor Dabi» / «Secretario de "
+    "Seguridad municipal»). Si el corresponsal no lo dijo, sacalo de la transcripción (si la persona "
+    "se presenta). Si no se sabe, dejalos vacíos. Nunca inventes un cargo.\n"
+    "• `volanta` (1 a 3 palabras, el tema), `titulo` (8 a 14 palabras, el dato más fuerte de lo que "
+    "dijo, atribuido: «Dabi: el helicóptero patrulla la ciudad y la zona rural»), `texto` (la nota "
+    "para la web, 3 a 6 párrafos: quién habló, qué dijo —con 1 o 2 citas TEXTUALES cortas entre "
+    "comillas, tal cual la transcripción— y el contexto del relato) y `resumen` (2 oraciones).\n"
+    "• `frases`: de 3 a 6, en orden, cada una de 3 a 7 palabras, que resuman lo que la persona va "
+    "diciendo EN ESE MOMENTO del audio (como los títulos que cambian en un reel: «Refuerzo aéreo "
+    "para Chivilcoy», «Patrullaje nocturno en ciudad y zona rural»). `desde` = el segundo en que "
+    "arranca ese tramo de la transcripción. La primera, desde el comienzo del tramo. Fieles a lo "
+    "dicho, sin agregar nada.\n"
+    "• `tramo`: si el audio dura más de {MAX} segundos, el pedazo CONTINUO más fuerte de hasta {MAX} "
+    "segundos (desde y hasta en segundos, que arranque y termine en el borde de una frase); si dura "
+    "menos, desde 0 hasta el final.\n"
+    "• `hay_declaracion`: false si el audio no tiene una persona hablando de un tema (música, ruido, "
+    "silencio, un audio personal sin noticia) o si quien habla es un MENOR de edad.\n"
+    + _NEUTRAL_RULE + _MATICES +
+    "• Usá SOLO lo que está en la transcripción y el relato. No inventes."
+)
+
+_DECLARACION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "hay_declaracion": {"type": "boolean"}, "motivo": {"type": "string"},
+        "nombre": {"type": "string"}, "cargo": {"type": "string"},
+        "volanta": {"type": "string"}, "titulo": {"type": "string"},
+        "texto": {"type": "string"}, "resumen": {"type": "string"},
+        "frases": {"type": "array", "items": {"type": "object", "properties": {
+            "desde": {"type": "number"}, "texto": {"type": "string"}}, "required": ["desde", "texto"]}},
+        "tramo": {"type": "object", "properties": {"desde": {"type": "number"}, "hasta": {"type": "number"}}},
+    },
+    "required": ["hay_declaracion", "nombre", "cargo", "volanta", "titulo", "texto", "resumen", "frases"],
+}
+
+
+def declaracion(audio, dur: float, relato: str = "", habla: str = "", foto=None, max_seg: float = 55.0,
+                api_key: str = "", model: str = "") -> dict:
+    """Transcribe el audio con tiempos y redacta: {hay_declaracion, nombre, cargo, volanta, titulo,
+    texto, resumen, frases [{desde, texto}], tramo {desde, hasta}, segmentos, transcripcion}.
+    Lanza si no se pudo transcribir ni redactar."""
+    segs, origen = segmentos_groq(audio), "groq"
+    if not segs:
+        segs, origen = segmentos_gemini(audio, api_key, model), "gemini"
+    if not segs:
+        raise RuntimeError("no se pudo transcribir el audio")
+    key = (api_key or "").strip() or _clave_por_defecto()
+    model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+    transcripcion = "\n".join(f"[{s['desde']:.1f}–{s['hasta']:.1f}] {s['texto']}" for s in segs)
+    material = (f"DURACIÓN DEL AUDIO: {dur:.1f} segundos\n"
+                f"QUIÉN HABLA (según el corresponsal): {habla.strip() or '(no lo dijo)'}\n"
+                f"RELATO DEL CORRESPONSAL:\n{(relato or '').strip() or '(sin relato)'}\n\n"
+                f"TRANSCRIPCIÓN ({origen}):\n{transcripcion}")
+    partes = [{"text": _DECLARACION_PROMPT.replace("{MAX}", f"{max_seg:.0f}") + "\n\n" + material}]
+    if foto:
+        try:
+            partes.append(_img_part(Path(foto)))
+        except Exception:  # noqa: BLE001
+            pass
+    logger.info(f"Gemini: declaración ({len(segs)} segmentos de {origen}, {dur:.0f} s) con {model}…")
+    raw = _post_json(partes, key, model, _DECLARACION_SCHEMA, key_pool=_gemini_keys(key))
+    raw["segmentos"] = segs
+    raw["transcripcion"] = " ".join(s["texto"] for s in segs)
+    raw["asr"] = origen
+    logger.info(f"Gemini OK (declaración): «{raw.get('titulo', '')}» — {raw.get('nombre', '')} "
+                f"({raw.get('cargo', '')}), {len(raw.get('frases') or [])} frase(s)")
+    return raw
