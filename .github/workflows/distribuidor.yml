@@ -1,0 +1,76 @@
+name: Distribuidor X y TikTok (Buffer)
+
+# Lo dispara cron-job.org cada 20 minutos (hora AR), igual que el resto del publicador.
+# Liviano a propósito: no baja Drive ni ffmpeg, solo `requests` y la API de Buffer/Wix.
+# Ver DISTRIBUIDOR.md. Interruptor general: DISTRIBUIDOR_ACTIVO en el secret ENV_FILE.
+on:
+  workflow_dispatch:
+    inputs:
+      args:
+        description: 'Argumentos (vacío = pasada normal; --simular = sin tocar Buffer)'
+        required: false
+        default: ''
+
+# Su PROPIO grupo: nunca cancela ni espera a las corridas del publicador.
+concurrency:
+  group: distribuidor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  distribuir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: America/Argentina/Buenos_Aires
+    steps:
+      - name: Bajar el codigo (punta de main: el estado mas nuevo)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar lo minimo
+        run: pip install requests python-dotenv
+
+      - name: Escribir credenciales (.env)
+        env:
+          ENV_FILE: ${{ secrets.ENV_FILE }}
+        run: printf '%s' "$ENV_FILE" > .env
+
+      - name: Pasada del distribuidor
+        env:
+          ARGS: ${{ github.event.inputs.args }}
+          # Canal Radio del Centro: saber si el Short de una entrevista ya es PUBLICO.
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+          # Limpieza del Release buzon-distribuidor (MP4 de entrevistas viejos).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m distribuidor.run $ARGS
+
+      - name: Guardar el estado del distribuidor
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in state/distribuidor.json state/distribuidor_panel.md state/buzon; do
+            [ -e "$f" ] && git add -A "$f"
+          done
+          # Lo que se borró del buzón (ya encolado y viejo) también.
+          git add -A -u state/buzon 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+          else
+            git commit -m "Distribuidor: estado [skip ci]"
+            ok=0
+            for intento in 1 2 3 4 5; do
+              if git pull --rebase --autostash && git push; then ok=1; break; fi
+              echo "Push rechazado, reintento $intento..."; sleep 4
+            done
+            [ "$ok" = "1" ] || { echo "::error::No se pudo guardar el estado del distribuidor"; exit 1; }
+          fi

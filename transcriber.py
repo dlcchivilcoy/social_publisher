@@ -1344,9 +1344,55 @@ def _borradores_tiktok_24h() -> int:
     return n
 
 
+def _a_distribuidor(fila: dict, reel_url: str, titulo: str, descripcion: str, post_url: str,
+                    yt_info: dict, local_reel=None) -> None:
+    """Deja el reel en el buzón del distribuidor central (X y TikTok vía Buffer).
+
+    No publica nada: el distribuidor decide cuándo y si entra en el cupo del día. Nunca corta
+    la corrida (si falla, las demás redes ya salieron). Apagado: `DISTRIBUIDOR_BOT=0`.
+    """
+    if (get("DISTRIBUIDOR_BOT") or "1").strip().lower() in ("0", "false", "no", "off"):
+        return
+    if not reel_url:
+        return
+    try:
+        from distribuidor import buzon
+        from utils.branding import link_nota
+        dur = 0.0
+        if local_reel:
+            try:
+                dur = float(duration_seconds(local_reel) or 0)
+            except Exception:  # noqa: BLE001
+                dur = 0.0
+        buzon.dejar({
+            "id": f"bot:{fila.get('file') or reel_url}",
+            "origen": "bot", "tipo": "video",
+            "titulo": titulo or "", "descripcion": descripcion or "",
+            "video_url": reel_url,
+            "duracion_seg": round(dur, 1) if dur else None,
+            "nota_url": link_nota(post_url) if post_url else "",
+            "youtube_url": (yt_info or {}).get("short_url") or (yt_info or {}).get("url", ""),
+            "prioridad": 7 if "corresponsal" in (fila.get("origen") or "").lower() else 8,
+            "localidad": fila.get("corresponsal_lugar", "") or "Chivilcoy",
+            "plataformas": ["x", "tiktok"],
+        })
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[distribuidor] no se pudo dejar el reel en el buzón: {e}")
+
+
+def _tiktok_via_buffer() -> bool:
+    """TikTok sale por Buffer (distribuidor) → no se mandan borradores con la app propia,
+    para no duplicar el mismo reel. `TIKTOK_VIA_BUFFER=1` lo prende (default apagado)."""
+    return (get("TIKTOK_VIA_BUFFER") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
 def _publicar_tiktok(local_reel, caption: str, estado_canales: dict) -> dict:
     """Publica el reel en TikTok (Direct Post; si la app no tuviera el permiso, cae a
     borradores). Nunca corta la corrida: si falla, se anota en el panel y sigue."""
+    if local_reel and _tiktok_via_buffer():
+        estado_canales["tiktok"] = "vía Buffer (distribuidor)"
+        logger.info("[tiktok] sale por Buffer (TIKTOK_VIA_BUFFER=1): sin borradores propios.")
+        return {}
     if not (_tiktok_enabled() and local_reel):
         if local_reel and not _tiktok_enabled():
             logger.info("[tiktok] desactivado (TIKTOK_ENABLED=0 o sin credenciales).")
@@ -1862,6 +1908,7 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
             "yt_metrics": fila.get("yt_metrics", {}),  # se completan luego (--videos-report)
         })
     _guardar_ledger(rows)
+    _a_distribuidor(fila, reel_url, titulo, desc or resumen, post_url, yt_info, local_reel)
 
     # Aviso de estado por canal (el «panel» de publicación).
     _avisar_estado(fila, estado_canales, post_url, yt_info)
@@ -2284,6 +2331,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         f2.update({"yt_video_id": yt_info.get("id", ""),
                    "yt_url": yt_info.get("short_url") or yt_info.get("url", "")})
     _guardar_ledger(rows)
+    _a_distribuidor(f2, reel_url, titular, resumen or texto, post_url, yt_info, reel_local)
     logger.info(f"Corresponsal-foto publicado: {estado}")
     _enviar_aviso(("Publicado directo (sin revisión): " if fila.get("publicacion_directa")
                    else "Corresponsal-foto publicado: ") + titular,
@@ -2550,6 +2598,7 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
             "fecha_youtube": datetime.now().isoformat(timespec="seconds"),
         })
     _guardar_ledger(rows)
+    _a_distribuidor(fila, reel_url, titular, resumen or texto, post_url, yt_info, reel_local)
 
     borrar = ""
     webapp = get("APPROVE_WEBAPP_URL")
