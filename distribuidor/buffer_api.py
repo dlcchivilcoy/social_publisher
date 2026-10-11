@@ -151,6 +151,10 @@ def _entrada(pub: dict) -> dict:
         entrada["assets"] = [{"image": {"url": pub["imagen_url"]}}]
     if plataforma == "tiktok":
         entrada["metadata"] = {"tiktok": {"isAiGenerated": False}}
+    if pub.get("borrador"):
+        # Para revisar en Buffer antes de publicar (pruebas): queda en Borradores.
+        entrada.update(mode="addToQueue", saveToDraft=True)
+        entrada.pop("dueAt", None)
     return entrada
 
 
