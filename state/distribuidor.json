@@ -1,7 +1,53 @@
 {
  "avisos": {},
- "canales": {},
+ "canales": {
+  "tiktok": {
+   "desconectado": false,
+   "limite_buffer": {
+    "channelId": "6acbfa43778b240e2fdcb2d5",
+    "isAtLimit": false,
+    "limit": 25,
+    "scheduled": 0,
+    "sent": 2
+   },
+   "pausado": false,
+   "visto": "2026-10-11T22:20:14.000Z"
+  },
+  "x": {
+   "desconectado": false,
+   "limite_buffer": {
+    "channelId": "6acbfabe778b240e2fdcc1b9",
+    "isAtLimit": false,
+    "limit": 50,
+    "scheduled": 7,
+    "sent": 4
+   },
+   "pausado": false,
+   "visto": "2026-10-11T22:20:14.000Z"
+  }
+ },
  "contenidos": {
+  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": {
+   "descripcion": "Hugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla». El director de Gobierno, Hugo Kübler, se refirió al Complejo Federación y a la empresa SENTRA, aclarando afirmaciones vertidas en el Concejo Deliberante local. Chivilcoy no iba a poner ni un peso.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-11T22:06:34.000Z",
+   "id": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
+   "urgente": false,
+   "video_bytes": 450309,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Mc97VbOR7_s"
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": {
    "categoria": "nacionales",
    "descripcion": "El Presidente disertará en la Cámara de Comercio estadounidense y recibirá una distinción. Además, participará en un encuentro contra el antisemitismo en…",
@@ -127,6 +173,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/condenan-a-un-club-de-mar-del-plata-a-pagar-99-millones-por-un-8905d8",
    "volanta": ""
+  },
+  "web:97ba4aaf-5415-49c5-b1e4-62844c322155": {
+   "categoria": "",
+   "descripcion": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación Hugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla». El director de Gobierno, Hugo Kübler, se refirió al Complejo Federación y a la empresa SENTRA, aclarando afirmaciones vertidas en el Concejo Deliberante local. Chivilcoy no iba a poner ni un solo peso. Los iba a ahorrar. Esa es la verdad de la cuestión. La afirmación del concejal, si es literal, es falsa. La finalización del Complejo...",
+   "generado": "2026-10-11T22:04:48.750Z",
+   "id": "web:97ba4aaf-5415-49c5-b1e4-62844c322155",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8dbe80da9bfb4cf387f4960ae9e07586~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "volanta": "Chivilcoy · Política"
   },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": {
    "categoria": "nacionales",
@@ -257,23 +321,73 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 83554,
+   "restantes": 233,
+   "segundos": 82226,
    "tope": 250
   },
   "30d": {
-   "restantes": 2986,
-   "segundos": 2589154,
+   "restantes": 2983,
+   "segundos": 2587826,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-11T21:58:08.000Z",
+ "cuota_visto": "2026-10-11T22:20:16.000Z",
  "publicaciones": {
+  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
+   "actualizado": "2026-10-11T22:20:14.000Z",
+   "buffer_id": "6acc0b9fa9411fbcc55efde4",
+   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
+   "creado": "2026-10-11T22:20:13.000Z",
+   "dueAt": "2026-10-11T22:23:51.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-11T22:06:34.000Z",
+   "id": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación\n\nHugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla». El director de Gobierno, Hugo Kübler, se refirió al Complejo Federación y a la empresa SENTRA, aclarando afirmaciones vertidas en el Concejo Deliberante local. Chivilcoy no iba a poner ni un peso.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
+   "urgente": false,
+   "vence": "2026-10-13T22:06:34.000Z",
+   "video_bytes": 450309,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
+  },
+  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x": {
+   "actualizado": "2026-10-11T22:20:14.000Z",
+   "buffer_id": "6acc0b9f8e8dd50ffc5a19f1",
+   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
+   "creado": "2026-10-11T22:20:13.000Z",
+   "dueAt": "2026-10-12T00:01:13.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-11T22:06:34.000Z",
+   "id": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación\n\nHugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla».\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "tipo": "video",
+   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
+   "urgente": false,
+   "vence": "2026-10-13T22:06:34.000Z",
+   "video_bytes": 450309,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x": {
    "actualizado": "2026-10-11T21:58:06.000Z",
    "buffer_id": "6acc0670fa026cfb8117dddb",
@@ -325,14 +439,14 @@
    "video_url": ""
   },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x": {
-   "actualizado": "2026-10-11T21:58:03.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-11T22:20:14.000Z",
+   "buffer_id": "6acc0b9f7db619a2914ceb6c",
    "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
    "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T00:16:54.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-11T15:11:37.101Z",
    "id": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82",
    "intentos": 0,
@@ -400,18 +514,19 @@
    "video_url": ""
   },
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x": {
-   "actualizado": "2026-10-11T21:58:06.000Z",
+   "actualizado": "2026-10-11T22:20:14.000Z",
    "buffer_id": "6acc066eea568e911a41c37b",
    "clave": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x",
    "creado": "2026-10-11T21:58:03.000Z",
    "dueAt": "2026-10-11T22:01:23.000Z",
+   "enviado": "2026-10-11T22:01:31.618Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-11T17:57:07.290Z",
    "id": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109404051087478855",
    "nota_url": "https://www.diariolacampaña.com.ar/n/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
    "origen": "web",
    "plataforma": "x",
@@ -449,19 +564,45 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x": {
+   "actualizado": "2026-10-11T22:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x",
+   "creado": "2026-10-11T22:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera para separarse de la otra publicación de la misma noticia",
+   "estado": "pendiente",
+   "generado": "2026-10-11T22:04:48.750Z",
+   "id": "web:97ba4aaf-5415-49c5-b1e4-62844c322155",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación\n\nHugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla».\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
+   "tipo": "nota",
+   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
+   "urgente": false,
+   "vence": "2026-10-12T22:04:48.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x": {
-   "actualizado": "2026-10-11T21:58:06.000Z",
+   "actualizado": "2026-10-11T22:20:14.000Z",
    "buffer_id": "6acc066eea568e911a41c3a4",
    "clave": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x",
    "creado": "2026-10-11T21:58:03.000Z",
    "dueAt": "2026-10-11T22:16:21.000Z",
+   "enviado": "2026-10-11T22:16:31.227Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-11T21:16:42.169Z",
    "id": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109407824660906392",
    "nota_url": "https://www.diariolacampaña.com.ar/n/el-congreso-debate-un-proyecto-sobre-vandalismo-rural-que-suma-d98a79",
    "origen": "web",
    "plataforma": "x",
@@ -481,6 +622,7 @@
    "creado": "2026-10-11T21:58:03.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-11T15:06:24.415Z",
    "id": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1",
@@ -794,12 +936,70 @@
    "cuando": "2026-10-11T21:58:08.000Z",
    "dueAt": "2026-10-11T23:46:28.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
+   "cuando": "2026-10-11T22:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
+   "cuando": "2026-10-11T22:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x",
+   "cuando": "2026-10-11T22:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x",
+   "cuando": "2026-10-11T22:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109404051087478855"
+  },
+  {
+   "clave": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x",
+   "cuando": "2026-10-11T22:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109407824660906392"
+  },
+  {
+   "buffer_id": "6acc0b9f8e8dd50ffc5a19f1",
+   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
+   "cuando": "2026-10-11T22:20:16.000Z",
+   "dueAt": "2026-10-12T00:01:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acc0b9f7db619a2914ceb6c",
+   "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
+   "cuando": "2026-10-11T22:20:16.000Z",
+   "dueAt": "2026-10-12T00:16:54.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acc0b9fa9411fbcc55efde4",
+   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
+   "cuando": "2026-10-11T22:20:16.000Z",
+   "dueAt": "2026-10-11T22:23:51.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-11",
- "ultima_sync": "",
+ "ultima_sync": "2026-10-11T22:20:14.000Z",
  "version": 1,
  "vistos": {
+  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
@@ -808,6 +1008,7 @@
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
+  "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",
