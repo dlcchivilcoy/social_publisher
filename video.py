@@ -254,7 +254,7 @@ BLOQUE_LINEA = 10                  # la línea naranja entre la imagen y el bloq
 BLOQUE_X = 80                      # margen izquierdo de todo lo del bloque
 BLOQUE_ANCHO = 850                 # de X 80 a 930: lejos de la columna de botones de IG
 BLOQUE_PAD = (40, 50)              # aire mínimo arriba y abajo, adentro del bloque
-BLOQUE_ISOLOGO = 66                # alto del isologo; el logo va al lado
+BLOQUE_ISOLOGO = 76                # alto del isologo; el logo de los dos medios va al lado
 BLOQUE_LOGO = 44                   # alto de «La Campaña»
 BLOQUE_GAP_LOGO = 32               # del renglón del logo al tope de la volanta
 BLOQUE_VOLANTA = (36, 26, "700")   # cuerpo, mínimo, peso (en mayúsculas)
@@ -1872,9 +1872,53 @@ def tema_usado(reset: bool = False) -> str:
     return t
 
 
+def _lockup_bloque(tema: str):
+    """«La Campaña» (el logo del diario, del color del tema) y debajo «RADIO DEL CENTRO» en
+    naranja, espaciado hasta el mismo ancho: son DOS medios (pedido del usuario 2026-10-12).
+    Es el mismo armado que el logo de los carruseles (`story_image._lockup_marca`)."""
+    from PIL import Image, ImageDraw
+    t = BLOQUE_TEMAS[tema]
+    txt = Image.open(LOGO_TEXTO).convert("RGBA")
+    txt = txt.crop(txt.getchannel("A").getbbox() or (0, 0, txt.width, txt.height))
+    txt = txt.resize((max(1, round(txt.width * BLOQUE_LOGO / txt.height)), BLOQUE_LOGO),
+                     Image.LANCZOS)
+    arriba = Image.new("RGBA", txt.size, t["logo"])
+    arriba.putalpha(txt.getchannel("A"))
+    ancho = arriba.width
+    sub = "RADIO DEL CENTRO"
+    try:
+        from story_image import _franklin, _alto_mayus
+
+        def fuente(c):
+            return _franklin(c, 800)
+    except Exception:                                            # noqa: BLE001
+        def fuente(c):
+            return _tipo(str(FUENTE_ZOCALO), c)
+
+        def _alto_mayus(f):
+            return -f.getbbox("H", anchor="ls")[1]
+    medir = ImageDraw.Draw(Image.new("L", (1, 1)))
+    c = max(10, round(ancho * 0.075))
+    while c > 10 and medir.textlength(sub, font=fuente(c)) > ancho * 0.88:
+        c -= 1
+    f = fuente(c)
+    anchos = [medir.textlength(ch, font=f) for ch in sub]
+    track = (ancho - sum(anchos)) / (len(sub) - 1)
+    gap = round(BLOQUE_LOGO * 0.22)
+    alto = BLOQUE_LOGO + gap + _alto_mayus(f)
+    lock = Image.new("RGBA", (ancho, alto), (0, 0, 0, 0))
+    lock.alpha_composite(arriba, (0, 0))
+    d = ImageDraw.Draw(lock)
+    x = 0.0
+    for ch, aw in zip(sub, anchos):
+        d.text((x, alto), ch, font=f, fill=t["volanta"], anchor="ls")
+        x += aw + track
+    return lock
+
+
 def _logo_bloque(tema: str):
-    """El renglón de la marca del bloque: el isologo naranja y, al lado, «La Campaña» del color
-    del tema. RGBA de `BLOQUE_ISOLOGO` de alto."""
+    """El renglón de la marca del bloque: el isologo naranja y, al lado, el logo de los dos
+    medios (`_lockup_bloque`). RGBA de `BLOQUE_ISOLOGO` de alto."""
     from PIL import Image
     piezas = []
     if LOGO_NARANJA.exists():
@@ -1884,13 +1928,11 @@ def _logo_bloque(tema: str):
         piezas.append(iso.resize((max(1, round(iso.width * BLOQUE_ISOLOGO / iso.height)),
                                   BLOQUE_ISOLOGO), Image.LANCZOS))
     if LOGO_TEXTO.exists():
-        txt = Image.open(LOGO_TEXTO).convert("RGBA")
-        txt = txt.crop(txt.getchannel("A").getbbox() or (0, 0, txt.width, txt.height))
-        txt = txt.resize((max(1, round(txt.width * BLOQUE_LOGO / txt.height)), BLOQUE_LOGO),
-                         Image.LANCZOS)
-        color = Image.new("RGBA", txt.size, BLOQUE_TEMAS[tema]["logo"])
-        color.putalpha(txt.getchannel("A"))
-        piezas.append(color)
+        lock = _lockup_bloque(tema)
+        if lock.height > BLOQUE_ISOLOGO:
+            lock = lock.resize((max(1, round(lock.width * BLOQUE_ISOLOGO / lock.height)),
+                                BLOQUE_ISOLOGO), Image.LANCZOS)
+        piezas.append(lock)
     if not piezas:
         return None
     gap = 20
