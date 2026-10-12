@@ -10,7 +10,7 @@ Ambas devuelven la ruta a un JPG en historias_preview/.
 """
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 from utils.logger import get_logger
 
@@ -1230,6 +1230,411 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
             yy += cta_lh
 
     return _save(canvas, "slide_" + _safe_stem(titular or volanta, "nota"))
+
+
+# ---------------------------------------------------------------------------
+# Carrusel estilo «portal» (12/10/2026). Pedido del usuario con ejemplos de Infobae, para el
+# carrusel de las 10:00 (tema "claro": fondo blanco) y el de nacionales (tema "grafito"):
+#   • Fotos HORIZONTALES: nunca a sangre. Foto arriba y el texto en un panel abajo, y se
+#     alternan uno y uno dos estilos: "A" (foto grande, filete naranja, titular en
+#     mayúsculas con la volanta en naranja) y "B" (foto más chica con pestaña naranja,
+#     titular + bajada).
+#   • Fotos CUADRADAS o VERTICALES: "C", la foto a sangre y el titular en una caja
+#     semitransparente que NUNCA tapa una cara: va abajo, o arriba (debajo de los logos)
+#     si las caras están abajo.
+#   • Logo «La Campaña / RADIO DEL CENTRO» arriba a la izquierda, isologo arriba a la
+#     derecha. Número de la placa y flecha abajo a la derecha (invitan a deslizar).
+# compose_note_slide (arriba) queda para los posteos sueltos de Facebook de nacionales.
+# ---------------------------------------------------------------------------
+FONTS_DIR = Path(__file__).parent / "fonts"
+_vfont_cache: dict = {}
+
+HORIZONTAL_MIN = 1.2            # ancho/alto desde el que una foto cuenta como horizontal
+FOTO_A_H = (600, 760)           # estilo A: la foto entera a lo ancho, con el alto entre estos dos
+FOTO_B_H = 500                  # estilo B: foto más baja (se recorta arriba/abajo cuidando las caras)
+CARRUSEL_MARGEN = 60
+NARANJA_MARCA = (247, 127, 0)   # el naranja de la web (--naranja)
+
+TEMAS_CARRUSEL = {
+    "claro": {"fondo": (255, 255, 255), "texto": (18, 19, 22), "suave": (78, 82, 90),
+              "acento": (226, 98, 12)},
+    "grafito": {"fondo": (32, 34, 38), "texto": (255, 255, 255), "suave": (200, 202, 208),
+                "acento": (239, 150, 60)},
+}
+
+
+def _vfont(nombre: str, size: int, peso: int) -> ImageFont.FreeTypeFont:
+    """Fuente variable de fonts/ con el peso pedido (en caché). Sin el archivo, la de siempre."""
+    key = (nombre, size, peso)
+    f = _vfont_cache.get(key)
+    if f is None:
+        try:
+            f = ImageFont.truetype(str(FONTS_DIR / nombre), size)
+            try:
+                ejes = f.get_variation_axes()
+                valores = [e.get("default", 0) for e in ejes]
+                for i, e in enumerate(ejes):
+                    n = e.get("name")
+                    n = n.decode() if isinstance(n, bytes) else str(n)
+                    if n.lower() in ("weight", "wght"):
+                        valores[i] = max(e["minimum"], min(e["maximum"], peso))
+                f.set_variation_by_axes(valores)
+            except Exception:
+                pass
+        except OSError:
+            f = _font(size, bold=peso >= 600)
+        _vfont_cache[key] = f
+    return f
+
+
+def _angosta(size: int) -> ImageFont.FreeTypeFont:
+    """Titulares en mayúsculas: Archivo Narrow Bold."""
+    return _vfont("ArchivoNarrow-Variable.ttf", size, 700)
+
+
+def _franklin(size: int, peso: int = 400) -> ImageFont.FreeTypeFont:
+    return _vfont("LibreFranklin-Variable.ttf", size, peso)
+
+
+def _abrir_foto(photo_path) -> "Image.Image":
+    """La foto derecha (respeta la rotación EXIF de los celulares)."""
+    return ImageOps.exif_transpose(Image.open(photo_path)).convert("RGB")
+
+
+def es_horizontal(photo_path) -> bool:
+    try:
+        with Image.open(photo_path) as im:
+            w, h = ImageOps.exif_transpose(im).size
+    except Exception:
+        return True
+    return w / max(1, h) >= HORIZONTAL_MIN
+
+
+def estilos_carrusel(fotos: list) -> list:
+    """Estilo de cada placa: "C" las cuadradas/verticales (y las que no tienen foto); las
+    horizontales alternan "A", "B", "A"… en el orden en que aparecen."""
+    estilos, n = [], 0
+    for foto in fotos:
+        if foto and es_horizontal(foto):
+            estilos.append("AB"[n % 2])
+            n += 1
+        else:
+            estilos.append("C")
+    return estilos
+
+
+def _partes_titular(volanta: str, titular: str) -> tuple:
+    """(comienzo en naranja, resto) del titular en mayúsculas, como los de Infobae: la volanta
+    si hay; si no, lo que va antes de «:»; si no, la primera frase hasta un corte natural
+    (coma o «y», «tras», «con»…) cerca de la mitad. El texto no cambia, solo el color."""
+    vol = (volanta or "").strip().rstrip(":.")
+    tit = (titular or "").strip()
+    if vol:
+        return vol + ":", tit
+    a, sep, b = tit.partition(":")
+    if sep and a.strip() and b.strip() and len(a) <= 90:
+        return a.strip() + ":", b.strip()
+    pal = tit.split()
+    if len(pal) < 5:
+        return "", tit
+    cortes = ("y", "e", "tras", "con", "que", "pero", "mientras", "aunque", "porque", "luego",
+              "después", "antes", "ante", "para", "sin", "donde", "cuando")
+    mejor = None
+    for i in range(max(2, int(len(pal) * 0.3)), int(len(pal) * 0.7) + 1):
+        if i >= len(pal):
+            break
+        if pal[i - 1].endswith(",") or pal[i].lower() in cortes:
+            if mejor is None or abs(i - len(pal) / 2) < abs(mejor - len(pal) / 2):
+                mejor = i
+    if mejor is None:
+        mejor = max(2, round(len(pal) * 0.45))
+    return " ".join(pal[:mejor]), " ".join(pal[mejor:])
+
+
+def _partir_palabras(draw, palabras: list, font, max_w: int) -> list:
+    """[(palabra, color)] → renglones [[(palabra, color)], …] que entran en max_w."""
+    sp = draw.textlength(" ", font=font)
+    lineas, actual, ancho = [], [], 0.0
+    for w, c in palabras:
+        lw = draw.textlength(w, font=font)
+        if actual and ancho + sp + lw > max_w:
+            lineas.append(actual)
+            actual, ancho = [], 0.0
+        ancho += (sp if actual else 0) + lw
+        actual.append((w, c))
+    if actual:
+        lineas.append(actual)
+    return lineas
+
+
+def _medir_texto(draw, palabras: list, max_w: int, max_h: int, fuente, *, max_size: int,
+                 min_size: int, salto: float, max_lineas: int = 0) -> tuple:
+    """(fuente, renglones, interlínea) con el cuerpo más grande que entra en max_w × max_h.
+    Si ni con el mínimo entra, corta con «…»."""
+    for size in range(max_size, min_size - 1, -2):
+        f = fuente(size)
+        lineas = _partir_palabras(draw, palabras, f, max_w)
+        lh = round(size * salto)
+        if len(lineas) * lh <= max_h and (not max_lineas or len(lineas) <= max_lineas):
+            return f, lineas, lh
+    f = fuente(min_size)
+    lh = round(min_size * salto)
+    lineas = _partir_palabras(draw, palabras, f, max_w)
+    tope = max(1, min(max_lineas or 99, max_h // lh))
+    if len(lineas) > tope:
+        lineas = lineas[:tope]
+        w, c = lineas[-1][-1]
+        lineas[-1][-1] = (w.rstrip(" .,;:") + "…", c)
+    return f, lineas, lh
+
+
+def _alto_mayus(font) -> int:
+    b = font.getbbox("H", anchor="ls")
+    return -b[1]
+
+
+def _dibujar_renglones(draw, x: int, y_top: int, lineas: list, font, lh: int) -> int:
+    """Dibuja los renglones con la cima de las mayúsculas en y_top. Devuelve la línea de base
+    del último renglón."""
+    sp = draw.textlength(" ", font=font)
+    base = y_top + _alto_mayus(font)
+    for i, ln in enumerate(lineas):
+        if i:
+            base += lh
+        xx = x
+        for w, c in ln:
+            draw.text((xx, base), w, font=font, fill=c, anchor="ls")
+            xx += draw.textlength(w, font=font) + sp
+    return base
+
+
+def _con_sombra(canvas, im, x: int, y: int, blur: int = 6, fuerza: float = 0.55) -> None:
+    """Pega un RGBA con una sombra suave debajo (se lee sobre cualquier foto)."""
+    sombra = im.getchannel("A").filter(ImageFilter.GaussianBlur(blur)).point(lambda v: int(v * fuerza))
+    canvas.paste((0, 0, 0), (x, y + 2), sombra)
+    canvas.paste(im, (x, y), im)
+
+
+_lockup_cache: dict = {}
+
+
+def _lockup_marca(ancho: int) -> "Image.Image":
+    """El logo del carrusel: «La Campaña» (el logo del diario, en blanco) y debajo
+    «RADIO DEL CENTRO» en naranja, espaciado hasta el mismo ancho."""
+    if ancho in _lockup_cache:
+        return _lockup_cache[ancho]
+    global _logo_cache
+    if _logo_cache is None:
+        try:
+            _logo_cache = Image.open(LOGO_PATH).convert("RGBA")
+        except Exception as e:
+            logger.warning(f"No se pudo cargar el logo ({LOGO_PATH}): {e}")
+            _logo_cache = False
+    medir = ImageDraw.Draw(Image.new("L", (1, 1)))
+    if _logo_cache:
+        mh = max(1, round(_logo_cache.height * ancho / _logo_cache.width))
+        alfa = _logo_cache.resize((ancho, mh), Image.LANCZOS).getchannel("A")
+        arriba = Image.new("RGBA", (ancho, mh), (255, 255, 255, 0))
+        arriba.putalpha(alfa)
+    else:
+        fl = _franklin(round(ancho * 0.13), 900)
+        mh = _alto_mayus(fl) + 4
+        arriba = Image.new("RGBA", (ancho, mh), (255, 255, 255, 0))
+        ImageDraw.Draw(arriba).text((0, mh - 2), "LA CAMPAÑA", font=fl, fill=(255, 255, 255), anchor="ls")
+
+    sub = "RADIO DEL CENTRO"
+    size = max(10, round(ancho * 0.075))
+    while size > 10 and medir.textlength(sub, font=_franklin(size, 800)) > ancho * 0.88:
+        size -= 1
+    f = _franklin(size, 800)
+    anchos = [medir.textlength(ch, font=f) for ch in sub]
+    track = (ancho - sum(anchos)) / (len(sub) - 1)
+    gap = round(mh * 0.22)
+    alto = mh + gap + _alto_mayus(f)
+    lock = Image.new("RGBA", (ancho, alto), (0, 0, 0, 0))
+    lock.paste(arriba, (0, 0), arriba)
+    d = ImageDraw.Draw(lock)
+    x = 0.0
+    for ch, aw in zip(sub, anchos):
+        d.text((x, alto), ch, font=f, fill=NARANJA_MARCA, anchor="ls")
+        x += aw + track
+    _lockup_cache[ancho] = lock
+    return lock
+
+
+def _cabecera_carrusel(canvas) -> int:
+    """Velo arriba + logo a la izquierda + isologo a la derecha. Devuelve la y donde terminan."""
+    _grad_overlay(canvas, 0, 280, (0, 0, 0), 170, 0, gamma=1.2)
+    m, y = CARRUSEL_MARGEN, 46
+    lock = _lockup_marca(350)
+    _con_sombra(canvas, lock, m, y)
+    iso = _iso(True)
+    alto = lock.height
+    if iso:
+        ih = round(alto * 1.2)
+        iw = max(1, round(iso.width * ih / iso.height))
+        im = iso.resize((iw, ih), Image.LANCZOS)
+        _con_sombra(canvas, im, canvas.width - m - iw, y + (alto - ih) // 2)
+    return y + round(alto * 1.2)
+
+
+def _caja_flecha(lado: int, fondo, color) -> "Image.Image":
+    """Cuadrado redondeado con una flecha → (dibujado al cuádruple y achicado: bordes suaves)."""
+    L = lado * 4
+    im = Image.new("RGBA", (L, L), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle((0, 0, L - 1, L - 1), radius=round(L * 0.14), fill=fondo)
+    w = round(L * 0.085)
+    d.line([(L * 0.26, L * 0.5), (L * 0.70, L * 0.5)], fill=color, width=w)
+    d.line([(L * 0.50, L * 0.30), (L * 0.71, L * 0.5), (L * 0.50, L * 0.70)], fill=color, width=w,
+           joint="curve")
+    return im.resize((lado, lado), Image.LANCZOS)
+
+
+def _pie_carrusel(canvas, draw, tema: dict, x0: int, x1: int, y_centro: int, idx, total,
+                  site_url: str, color_sitio=None) -> None:
+    """«Seguí leyendo en la web» a la izquierda; número de la placa y flecha (si hay otra) a la
+    derecha, todo centrado en y_centro."""
+    lado = 58
+    derecha = x1
+    if idx and total and idx < total:
+        fl = _caja_flecha(lado, tema["acento"], (255, 255, 255))
+        canvas.paste(fl, (derecha - lado, y_centro - lado // 2), fl)
+        derecha -= lado + 14
+    if idx:
+        fn = _angosta(50)
+        num = f"{idx:02d}"
+        draw.text((derecha, y_centro), num, font=fn, fill=tema["acento"], anchor="rm")
+        derecha -= round(draw.textlength(num, font=fn)) + 28
+    if site_url:
+        fs = _franklin(26, 600)
+        texto = f"Seguí leyendo en {site_url}"
+        if draw.textlength(texto, font=fs) > derecha - x0:
+            texto = site_url
+        if draw.textlength(texto, font=fs) <= derecha - x0:
+            draw.text((x0, y_centro), texto, font=fs, fill=color_sitio or tema["suave"], anchor="lm")
+
+
+def _zona_caja(caras: list, alto_caja: int, y_min: int, y_max: int) -> tuple:
+    """(y de arriba de la caja, cuánto tapa): abajo si no tapa ninguna cara; si no, arriba
+    (debajo de los logos); si tapa en los dos lados, donde tape menos."""
+    def tapa(y0):
+        y1 = y0 + alto_caja
+        total = 0
+        for (fx, fy, fw, fh) in caras:
+            c0, c1 = fy - fh * 0.35, fy + fh * 1.15      # pelo arriba, mentón abajo
+            total += max(0, min(y1, c1) - max(y0, c0)) * fw
+        return total
+    abajo, arriba = y_max - alto_caja, y_min
+    ta, tb = tapa(abajo), tapa(arriba)
+    if ta == 0 or ta <= tb:
+        return abajo, ta
+    return arriba, tb
+
+
+def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str = "",
+                           site_url: str = "", idx: int | None = None, total: int | None = None,
+                           *, tema: str = "claro", estilo: str | None = None) -> Path:
+    """Placa 4:5 del carrusel, estilo portal (ver el bloque de arriba). `estilo`: "A", "B" o
+    "C"; sin estilo, "C" si la foto es cuadrada o vertical y "A" si es horizontal (el que
+    alterna es el que llama, con estilos_carrusel)."""
+    t = TEMAS_CARRUSEL.get(tema, TEMAS_CARRUSEL["claro"])
+    if estilo not in ("A", "B", "C"):
+        estilo = "A" if photo_path and es_horizontal(photo_path) else "C"
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), t["fondo"])
+    foto = None
+    if photo_path:
+        try:
+            foto = _abrir_foto(photo_path)
+        except Exception as e:
+            logger.warning(f"No se pudo abrir la foto del slide {getattr(photo_path, 'name', photo_path)}: {e}")
+    m = CARRUSEL_MARGEN
+    ancho = SLIDE_W - 2 * m
+    draw = ImageDraw.Draw(canvas)
+    lead, resto = _partes_titular(volanta, titular)
+    mayus = [(w, t["acento"]) for w in lead.upper().split()] + [(w, t["texto"]) for w in resto.upper().split()]
+
+    if estilo in ("A", "B"):
+        if estilo == "A":
+            # La foto ENTERA a lo ancho siempre que se pueda (una 16:9 entra sin cortar nada).
+            alto = round(SLIDE_W * foto.height / foto.width) if foto is not None else FOTO_A_H[1]
+            foto_h = max(FOTO_A_H[0], min(FOTO_A_H[1], alto))
+        else:
+            foto_h = FOTO_B_H
+        if foto is not None:
+            canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
+        _cabecera_carrusel(canvas)
+        draw = ImageDraw.Draw(canvas)
+        pie_y = SLIDE_H - 66
+        if estilo == "A":
+            draw.rectangle((0, foto_h, SLIDE_W, foto_h + 10), fill=t["acento"])
+            y0 = foto_h + 10 + 52
+            f, lineas, lh = _medir_texto(draw, mayus, ancho, pie_y - 60 - y0, _angosta,
+                                         max_size=92, min_size=50, salto=1.06)
+            _dibujar_renglones(draw, m, y0, lineas, f, lh)
+        else:
+            draw.rectangle((m, foto_h - 30, m + 330, foto_h), fill=t["acento"])
+            y = foto_h + 50
+            vol = (volanta or "").strip().upper()
+            if vol:
+                fv = _franklin(30, 700)
+                draw.text((m, y), vol, font=fv, fill=t["acento"], anchor="lt")
+                y += 30 + 26
+            alto_libre = pie_y - 56 - y
+            baj = (bajada or "").strip()
+            alto_tit = round(alto_libre * 0.55) if baj else alto_libre
+            ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in (titular or "").split()], ancho,
+                                       alto_tit, lambda s: _franklin(s, 800), max_size=72 if baj else 84,
+                                       min_size=42, salto=1.14, max_lineas=5)
+            base = _dibujar_renglones(draw, m, y, lt, ft, lht)
+            if baj:
+                y_baj = base + round(lht * 0.25) + 34
+                fb_alto = pie_y - 56 - y_baj
+                if fb_alto >= 40:
+                    fb, lb, lhb = _medir_texto(draw, [(w, t["texto"]) for w in baj.split()], ancho, fb_alto,
+                                               lambda s: _franklin(s, 400), max_size=40, min_size=34,
+                                               salto=1.35)
+                    _dibujar_renglones(draw, m, y_baj, lb, fb, lhb)
+        _pie_carrusel(canvas, draw, t, m, SLIDE_W - m, pie_y, idx, total, site_url)
+        return _save(canvas, "carrusel_" + _safe_stem(titular or volanta, "nota"))
+
+    # --- Estilo C: foto a sangre + caja semitransparente que no tapa caras ---
+    if foto is not None:
+        canvas.paste(_encuadrar(foto, SLIDE_W, SLIDE_H), (0, 0))
+    caras = _detect_faces(canvas) if foto is not None else []
+    tope_logos = _cabecera_carrusel(canvas) + 34
+    draw = ImageDraw.Draw(canvas)
+    pad, fila_pie = 40, 58
+    bx0, bx1 = m - 14, SLIDE_W - m + 14
+    y_max = SLIDE_H - 50
+    # El cuerpo más grande con el que la caja no tapa ninguna cara (abajo o arriba); si con
+    # ninguno se puede, el que menos tapa.
+    eleccion = None
+    cuerpos = list(range(84, 45, -4))
+    for size in cuerpos:
+        f, lineas, lh = _medir_texto(draw, mayus, bx1 - bx0 - 2 * pad, 6 * round(size * 1.06), _angosta,
+                                     max_size=size, min_size=size, salto=1.06, max_lineas=6)
+        if lineas and lineas[-1][-1][0].endswith("…") and size != cuerpos[-1]:
+            continue                                  # no entra en 6 renglones: más chico
+        alto_caja = pad + _alto_mayus(f) + (len(lineas) - 1) * lh + 34 + fila_pie + pad - 6
+        y_caja, tapa = _zona_caja(caras, alto_caja, tope_logos, y_max)
+        if eleccion is None or tapa < eleccion[0]:
+            eleccion = (tapa, f, lineas, lh, alto_caja, y_caja)
+        if tapa == 0:
+            break
+    _, f, lineas, lh, alto_caja, by0 = eleccion
+    by1 = by0 + alto_caja
+    zona = canvas.crop((bx0, by0, bx1, by1)).filter(ImageFilter.GaussianBlur(10))
+    zona = Image.blend(zona, Image.new("RGB", zona.size, t["fondo"]), 0.80)
+    mascara = Image.new("L", zona.size, 0)
+    ImageDraw.Draw(mascara).rounded_rectangle((0, 0, zona.width - 1, zona.height - 1), radius=18, fill=255)
+    canvas.paste(zona, (bx0, by0), mascara)
+    draw = ImageDraw.Draw(canvas)
+    draw.rectangle((bx0 + pad, by0, bx0 + pad + 200, by0 + 9), fill=t["acento"])
+    _dibujar_renglones(draw, bx0 + pad, by0 + pad, lineas, f, lh)
+    _pie_carrusel(canvas, draw, t, bx0 + pad, bx1 - pad, by1 - pad - fila_pie // 2 + 6, idx, total,
+                  site_url, color_sitio=t["texto"])
+    return _save(canvas, "carrusel_" + _safe_stem(titular or volanta, "nota"))
 
 
 def compose_tapa_slide(cover_path: Path) -> Path:

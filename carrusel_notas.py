@@ -22,7 +22,7 @@ from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
                        _save_ledger)
-from story_image import compose_carrusel_story, compose_note_slide
+from story_image import compose_carrusel_slide, compose_carrusel_story, estilos_carrusel
 from utils.branding import linea_canal_yt, sitio_web
 from utils.config import get
 from utils.logger import get_logger
@@ -460,6 +460,10 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     # a la web/X más abajo; solo no tienen slide propio en el carrusel.
     MAX_CARRUSEL = 10
     total_carrusel = min(len(pending), MAX_CARRUSEL)
+    # Estilo de cada placa (12/10/2026): las fotos horizontales alternan foto grande + titular en
+    # mayúsculas (A) y foto chica + titular y bajada (B); las cuadradas/verticales van a sangre
+    # con el titular en una caja que no tapa caras (C). Fondo blanco.
+    estilos = estilos_carrusel([n["image"] for n in pending[:total_carrusel]])
     for i, note in enumerate(pending, 1):
         volanta, titular, cuerpo = _parse_nota(note["docx"])
         if not titular:
@@ -467,8 +471,9 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         primer = cuerpo[0] if cuerpo else ""
         if i <= total_carrusel:
             try:
-                slide = compose_note_slide(note["image"], volanta, titular, site_url=site,
-                                           idx=i, total=total_carrusel)
+                slide = compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site,
+                                               idx=i, total=total_carrusel, tema="claro",
+                                               estilo=estilos[i - 1])
                 slides.append(slide)
                 bajadas.append((titular, primer))
             except Exception as e:
