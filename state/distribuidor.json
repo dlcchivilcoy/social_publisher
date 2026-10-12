@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
+    "scheduled": 0,
     "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-12T20:00:22.000Z"
+   "visto": "2026-10-12T21:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-12T20:00:22.000Z"
+   "visto": "2026-10-12T21:20:15.000Z"
   }
  },
  "contenidos": {
@@ -836,6 +836,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/expulsaron-a-un-ciudadano-brasileno-que-habia-cuestionado-a-470f1f",
    "volanta": ""
   },
+  "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": {
+   "categoria": "nacionales",
+   "descripcion": "La Justicia desestimó el reclamo civil de una propietaria contra los habitantes de una finca lindera y le ordenó abonar las costas procesales del litigio.",
+   "generado": "2026-10-12T21:16:45.399Z",
+   "id": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_57422ce93c974553a37ac8375c7d0217~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Rechazaron una demanda por 3 millones de pesos en un litigio entre vecinos en Buenos Aires",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
+   "volanta": ""
+  },
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": {
    "categoria": "",
    "descripcion": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida Un choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha. El siniestro involucró a una camioneta utilitaria y un automóvil que circulaban en sentidos opuestos. El periodista de Suipacha, Jorge Lasala, describió las características del impacto al señalar que se trató de «una Kangoo de color blanco que circulaba...",
@@ -870,6 +888,24 @@
    "titulo": "Estrategia de Cristina Kirchner hacia 2027: frentes en la ONU, la Justicia y el peronismo",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/estrategia-de-cristina-kirchner-hacia-2027-frentes-en-la-onu-la-7f0d6d",
+   "volanta": ""
+  },
+  "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": {
+   "categoria": "nacionales",
+   "descripcion": "El Parlamento afronta jornadas de fuerte tensión con discusiones sobre cuentas públicas, soberanía de Malvinas y la propiedad privada. La oposición…",
+   "generado": "2026-10-12T21:06:22.889Z",
+   "id": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d84b26a6ae474a848cd19e2efd00e3fa~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/semana-caliente-en-el-congreso-debate-por-el-presupuesto-2027-5b60ff",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Semana caliente en el Congreso: debate por el Presupuesto 2027, ley de tierras y DNU 70",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/semana-caliente-en-el-congreso-debate-por-el-presupuesto-2027-5b60ff",
    "volanta": ""
   },
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": {
@@ -1142,6 +1178,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sentra-respondieron-a-las-acusaciones-del-concejal-etcheverria-y",
    "volanta": "SENTRA"
   },
+  "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": {
+   "categoria": "nacionales",
+   "descripcion": "La Justicia ordenó abonar 15 millones de pesos a los herederos de una pasajera de 85 años que se accidentó en septiembre de 2017 durante un viaje médico.",
+   "generado": "2026-10-12T21:11:35.333Z",
+   "id": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f6e5dbff98ea499780d30a4b93873cda~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Condenaron a una prepaga a pagar 15 millones por una caída desde una ambulancia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
+   "volanta": ""
+  },
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": {
    "categoria": "",
    "descripcion": "Fueron retirados los radares de las rutas 5 y 46 en la jurisdicción de Bragado Los dispositivos de control de velocidad que se encontraban instalados sobre las rutas Nacional 5 y Provincial 46, en jurisdicción de Bragado, fueron retirados luego de la derogación de los convenios que permitían el funcionamiento del sistema de fotomultas. La confirmación surgió a partir de consultas realizadas por medios locales ante los reclamos de vecinos y oyentes respecto de la continuidad de los controles....",
@@ -1204,17 +1258,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 201,
-   "segundos": 4219,
+   "restantes": 249,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2951,
-   "segundos": 2509819,
+   "restantes": 2950,
+   "segundos": 2505025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T20:00:22.000Z",
+ "cuota_visto": "2026-10-12T21:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1477,14 +1531,15 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00191.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok": {
-   "actualizado": "2026-10-12T18:20:17.000Z",
+   "actualizado": "2026-10-12T21:20:15.000Z",
    "buffer_id": "6acd24e4235298ab870f0550",
    "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok",
    "creado": "2026-10-12T18:20:14.000Z",
    "dueAt": "2026-10-12T20:03:18.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-12T18:16:38.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva",
    "intentos": 0,
@@ -2640,6 +2695,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x": {
+   "actualizado": "2026-10-12T21:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x",
+   "creado": "2026-10-12T21:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T21:16:45.399Z",
+   "id": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Rechazaron una demanda por 3 millones de pesos en un litigio entre vecinos en Buenos Aires\n\nLa Justicia desestimó el reclamo civil de una propietaria contra los habitantes de una finca lindera y le ordenó abonar las costas procesales del litigio.\n\nhttps://www.diariolacampaña.com.ar/n/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
+   "tipo": "nota",
+   "titulo": "Rechazaron una demanda por 3 millones de pesos en un litigio entre vecinos en Buenos Aires",
+   "urgente": false,
+   "vence": "2026-10-13T21:16:45.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x": {
    "actualizado": "2026-10-12T15:20:17.000Z",
    "buffer_id": "",
@@ -2687,6 +2767,31 @@
    "titulo": "Estrategia de Cristina Kirchner hacia 2027: frentes en la ONU, la Justicia y el peronismo",
    "urgente": false,
    "vence": "2026-10-13T15:17:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9|x": {
+   "actualizado": "2026-10-12T21:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9|x",
+   "creado": "2026-10-12T21:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T21:06:22.889Z",
+   "id": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/semana-caliente-en-el-congreso-debate-por-el-presupuesto-2027-5b60ff",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Semana caliente en el Congreso: debate por el Presupuesto 2027, ley de tierras y DNU 70\n\nEl Parlamento afronta jornadas de fuerte tensión con discusiones sobre cuentas públicas, soberanía de Malvinas y la propiedad privada. La oposición…\n\nhttps://www.diariolacampaña.com.ar/n/semana-caliente-en-el-congreso-debate-por-el-presupuesto-2027-5b60ff",
+   "tipo": "nota",
+   "titulo": "Semana caliente en el Congreso: debate por el Presupuesto 2027, ley de tierras y DNU 70",
+   "urgente": false,
+   "vence": "2026-10-13T21:06:22.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3071,6 +3176,31 @@
    "titulo": "Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación",
    "urgente": false,
    "vence": "2026-10-13T10:02:37.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x": {
+   "actualizado": "2026-10-12T21:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x",
+   "creado": "2026-10-12T21:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T21:11:35.333Z",
+   "id": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Condenaron a una prepaga a pagar 15 millones por una caída desde una ambulancia\n\nLa Justicia ordenó abonar 15 millones de pesos a los herederos de una pasajera de 85 años que se accidentó en septiembre de 2017 durante un viaje médico.\n\nhttps://www.diariolacampaña.com.ar/n/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
+   "tipo": "nota",
+   "titulo": "Condenaron a una prepaga a pagar 15 millones por una caída desde una ambulancia",
+   "urgente": false,
+   "vence": "2026-10-13T21:11:35.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -4579,10 +4709,40 @@
    "cuando": "2026-10-12T20:00:22.000Z",
    "evento": "error_publicacion",
    "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
+  },
+  {
+   "clave": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x",
+   "cuando": "2026-10-12T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x",
+   "cuando": "2026-10-12T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9|x",
+   "cuando": "2026-10-12T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok",
+   "cuando": "2026-10-12T21:20:15.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T20:00:22.000Z",
+ "ultima_sync": "2026-10-12T21:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -4626,8 +4786,10 @@
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
+  "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
+  "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": "2026-10-12T21:20:14.000Z",
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": "2026-10-12T12:20:13.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
@@ -4643,6 +4805,7 @@
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
+  "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
