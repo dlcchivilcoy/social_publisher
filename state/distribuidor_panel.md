@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 11/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,16 +7,16 @@ Actualizado: 11/10/2026 22:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 0 | 3 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 3 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 4 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 0 | 1 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 13 enviadas + 5 programadas de 50 por día
-- TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 19 enviadas + 2 programadas de 50 por día
+- TikTok: conectado · Buffer: 5 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2976 de 3000 (visto 2026-10-12T00:40:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2975 de 3000 (visto 2026-10-12T02:00:20.000Z)
 
 ## Cola propia (1 esperando)
 - X · Notas web · Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación — espera para separarse de la otra publicación de la misma noticia
@@ -25,13 +25,6 @@ Actualizado: 11/10/2026 22:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-11T23:20 enviado bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tikto 
-- 2026-10-11T23:20 enviado web:58114495-39f3-4653-ae6b-639c6c61dae5|x 
-- 2026-10-11T23:20 enviado web:70276865-8c0d-4a78-83f8-610a2dffcc17|x 
-- 2026-10-11T23:20 enviado web:71e9044f-15d8-4fa8-891c-2f86d98234cd|x 
-- 2026-10-11T23:20 enviado web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x 
-- 2026-10-11T23:20 programado web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a|x 
-- 2026-10-11T23:20 programado web:d1046b33-6e86-4507-ae0d-c47db70dbb2a|x 
 - 2026-10-11T23:40 programado web:d35101a5-0683-4dc9-8422-7280ee9bf814|x 
 - 2026-10-12T00:40 recibido policiales:https://www.diarioel9dejulio.com.ar/noticia/20354 
 - 2026-10-12T00:40 recibido policiales:https://www.diarioel9dejulio.com.ar/noticia/20354 
@@ -50,3 +43,10 @@ Actualizado: 11/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-10-12T00:40 programado policiales:https://semanariodejunin.com.ar/nota/75422/denunc 
 - 2026-10-12T00:40 programado policiales:https://www.diarioel9dejulio.com.ar/noticia/20354 
 - 2026-10-12T00:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/danos-en- 
+- 2026-10-12T02:00 enviado policiales:https://semanariodejunin.com.ar/nota/75422/denunc 
+- 2026-10-12T02:00 enviado policiales:https://semanariodejunin.com.ar/nota/75422/denunc 
+- 2026-10-12T02:00 enviado policiales:https://www.diarioel9dejulio.com.ar/noticia/20354 
+- 2026-10-12T02:00 enviado web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a|x 
+- 2026-10-12T02:00 enviado web:d1046b33-6e86-4507-ae0d-c47db70dbb2a|x 
+- 2026-10-12T02:00 enviado web:d35101a5-0683-4dc9-8422-7280ee9bf814|x 
+- 2026-10-12T02:00 enviado web:fb360714-5639-4bf4-a1f0-001886885d15|x 
