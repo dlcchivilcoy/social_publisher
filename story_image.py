@@ -1584,7 +1584,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
             baj = (bajada or "").strip()
             alto_tit = round(alto_libre * 0.55) if baj else alto_libre
             ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in (titular or "").split()], ancho,
-                                       alto_tit, lambda s: _franklin(s, 800), max_size=72 if baj else 84,
+                                       alto_tit, lambda s: _franklin(s, 800), max_size=72 if baj else 100,
                                        min_size=42, salto=1.14, max_lineas=5)
             base = _dibujar_renglones(draw, m, y, lt, ft, lht)
             if baj:
