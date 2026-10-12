@@ -48,6 +48,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Mc97VbOR7_s"
   },
+  "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
+   "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
+   "duracion_seg": 72.7,
+   "generado": "2026-10-12T12:18:30.000Z",
+   "id": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles",
+   "urgente": false,
+   "video_bytes": 21616565,
+   "video_mb": 20.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/uZmNDrJ_wTY"
+  },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": {
    "categoria": "homicidio",
    "descripcion": "Noelia Díaz fue hallada sin vida en su vivienda de Punta Alta pese a haber denunciado previamente a su agresor. El femicida, identificado como Daniel Ferreyra, fue encontrado muerto horas más tarde.",
@@ -143,6 +164,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_02_9-de-julio_vuelco-en-la-ruta-5-cinco-pers.mp4",
    "volanta": "9 de Julio",
    "youtube_url": "https://youtube.com/shorts/8tQcd_NRzpU"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": {
+   "categoria": "incendio",
+   "descripcion": "El acoplado de un transporte de carga sufrió fuego en una de sus ruedas mientras circulaba por la traza nacional. El chofer resultó ileso y actuaron los bomberos voluntarios.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-12T12:11:04.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-se-incendio-un-neumatico-de-un-camion-en-la-ruta-5-64b039",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "texto_tiktok": "['Un transporte de carga protagonizó un principio de incendio en la Ruta 5 a la altura de 9 de Julio.', 'El fuego se originó en un neumático del acoplado mientras el vehículo circulaba en pleno tránsito.', 'El chofer logró detener la marcha a tiempo y no sufrió lesiones de gravedad.', 'Personal de bomberos voluntarios acudió al lugar para controlar la situación y evitar mayores daños.']\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Ruta5 #Incendio #BuenosAires",
+   "tipo": "video",
+   "titulo": "Incendio de neumático en un camión sobre la Ruta 5 en 9 de Julio",
+   "urgente": false,
+   "video_bytes": 113075,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4",
+   "volanta": "9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/BPZqPBpToEo"
   },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": {
    "categoria": "nacionales",
@@ -251,6 +296,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-racing-de-chivilcoy-dio-el-salto-inicial-en-la-liga-nacional",
    "volanta": "Básquet"
+  },
+  "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": {
+   "categoria": "",
+   "descripcion": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles A través de un registro audiovisual enviado a este medio, se conocieron imágenes que muestran camisetas de equipos de fútbol de Chivilcoy presentes en el Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia. En la grabación compartida se refleja la presencia de estas casacas locales en el espacio dedicado al astro argentino, exhibiendo prendas con la figura de Maradona.",
+   "generado": "2026-10-12T12:17:25.856Z",
+   "id": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ccdad938d0d943ffbcfb0906d9031c12~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "volanta": "Nápoles · Deportes"
   },
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": {
    "categoria": "",
@@ -450,6 +513,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
    "volanta": "Colegios de Abogados"
   },
+  "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": {
+   "categoria": "nacionales",
+   "descripcion": "El país atraviesa una jornada de descanso por el Día del Respeto a la Diversidad Cultural. Cómo se paga el día y qué dice la normativa vigente sobre el…",
+   "generado": "2026-10-12T12:06:31.630Z",
+   "id": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_db14e46fb0404747921e3551415f9791~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/feriado-del-12-de-octubre-que-se-conmemora-y-como-se-debe-2c8c0c",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Feriado del 12 de octubre: qué se conmemora y cómo se debe abonar la jornada laboral",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/feriado-del-12-de-octubre-que-se-conmemora-y-como-se-debe-2c8c0c",
+   "volanta": ""
+  },
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": {
    "categoria": "",
    "descripcion": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación Hugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla». El director de Gobierno, Hugo Kübler, se refirió al Complejo Federación y a la empresa SENTRA, aclarando afirmaciones vertidas en el Concejo Deliberante local. Chivilcoy no iba a poner ni un solo peso. Los iba a ahorrar. Esa es la verdad de la cuestión. La afirmación del concejal, si es literal, es falsa. La finalización del Complejo...",
@@ -467,6 +548,42 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
    "volanta": "Chivilcoy · Política"
+  },
+  "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": {
+   "categoria": "nacionales",
+   "descripcion": "Las fuerzas de seguridad llevan adelante un amplio operativo para reubicar a unos 1.500 internos desde el penal porteño hacia el complejo de Marcos Paz.",
+   "generado": "2026-10-12T12:11:43.895Z",
+   "id": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8cf0dd6258444991883e00788b75b5d4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/carcel-de-devoto-como-sigue-el-operativo-de-traslado-de-presos-1c609b",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Cárcel de Devoto: cómo sigue el operativo de traslado de presos a Marcos Paz",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/carcel-de-devoto-como-sigue-el-operativo-de-traslado-de-presos-1c609b",
+   "volanta": ""
+  },
+  "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": {
+   "categoria": "nacionales",
+   "descripcion": "El oficialismo reanuda sus encuentros en la Casa Rosada bajo la conducción de Karina Milei. Intentarán reflotar la alianza con el PRO de cara a 2027 y…",
+   "generado": "2026-10-12T12:16:57.534Z",
+   "id": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ea124bce6dc54a9f948ff8a1c5318b9d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-retoma-su-mesa-politica-en-la-casa-rosada-y-busca-15d12c",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El Gobierno retoma su mesa política en la Casa Rosada y busca destrabar la alianza con el PRO",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-retoma-su-mesa-politica-en-la-casa-rosada-y-busca-15d12c",
+   "volanta": ""
   },
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": {
    "categoria": "",
@@ -692,17 +809,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 215,
-   "segundos": 33017,
+   "restantes": 214,
+   "segundos": 31821,
    "tope": 250
   },
   "30d": {
-   "restantes": 2965,
-   "segundos": 2538617,
+   "restantes": 2964,
+   "segundos": 2537421,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T12:00:24.000Z",
+ "cuota_visto": "2026-10-12T12:20:26.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -755,6 +872,56 @@
    "vence": "2026-10-13T22:06:34.000Z",
    "video_bytes": 450309,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
+  },
+  "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
+   "actualizado": "2026-10-12T12:20:19.000Z",
+   "buffer_id": "6accd089355aa519678991b2",
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "2026-10-12T12:23:46.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T12:18:30.000Z",
+   "id": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles\n\nCamisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles",
+   "urgente": false,
+   "vence": "2026-10-14T12:18:30.000Z",
+   "video_bytes": 21616565,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4"
+  },
+  "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x": {
+   "actualizado": "2026-10-12T12:20:19.000Z",
+   "buffer_id": "6accd083c1658fce94d92552",
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "2026-10-12T14:00:11.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T12:18:30.000Z",
+   "id": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles\n\nCamisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "tipo": "video",
+   "titulo": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles",
+   "urgente": false,
+   "vence": "2026-10-14T12:18:30.000Z",
+   "video_bytes": 21616565,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
@@ -964,6 +1131,56 @@
    "video_bytes": 122800,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_02_9-de-julio_vuelco-en-la-ruta-5-cinco-pers.mp4"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok": {
+   "actualizado": "2026-10-12T12:20:19.000Z",
+   "buffer_id": "6accd08afcd88e54a9477df9",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "2026-10-12T13:03:11.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T12:11:04.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-se-incendio-un-neumatico-de-un-camion-en-la-ruta-5-64b039",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 5,
+   "texto": "['Un transporte de carga protagonizó un principio de incendio en la Ruta 5 a la altura de 9 de Julio.', 'El fuego se originó en un neumático del acoplado mientras el vehículo circulaba en pleno tránsito.', 'El chofer logró detener la marcha a tiempo y no sufrió lesiones de gravedad.', 'Personal de bomberos voluntarios acudió al lugar para controlar la situación y evitar mayores daños.']\n\n📲 Más noticias de 9 de Julio en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #9dejulio #policiales",
+   "tipo": "video",
+   "titulo": "Incendio de neumático en un camión sobre la Ruta 5 en 9 de Julio",
+   "urgente": false,
+   "vence": "2026-10-13T06:11:04.000Z",
+   "video_bytes": 113075,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x": {
+   "actualizado": "2026-10-12T12:20:19.000Z",
+   "buffer_id": "6accd087c1658fce94d92677",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "2026-10-12T14:15:15.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T12:11:04.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-se-incendio-un-neumatico-de-un-camion-en-la-ruta-5-64b039",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Incendio de neumático en un camión sobre la Ruta 5 en 9 de Julio\n\nEl acoplado de un transporte de carga sufrió fuego en una de sus ruedas mientras circulaba por la traza nacional.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/9-de-julio-se-incendio-un-neumatico-de-un-camion-en-la-ruta-5-64b039",
+   "tipo": "video",
+   "titulo": "Incendio de neumático en un camión sobre la Ruta 5 en 9 de Julio",
+   "urgente": false,
+   "vence": "2026-10-13T06:11:04.000Z",
+   "video_bytes": 113075,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4"
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0670fa026cfb8117dddb",
@@ -1113,6 +1330,31 @@
    "titulo": "Racing de Chivilcoy dio el salto inicial en la Liga Nacional con una victoria y una derrota en el Grilon Arena",
    "urgente": false,
    "vence": "2026-10-13T10:07:01.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x": {
+   "actualizado": "2026-10-12T12:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T12:17:25.856Z",
+   "id": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que muestran camisetas de equipos de fútbol de Chivilcoy presentes en el Santuario de…\n\nhttps://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
+   "tipo": "nota",
+   "titulo": "Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles",
+   "urgente": false,
+   "vence": "2026-10-13T12:17:25.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -1399,6 +1641,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x": {
+   "actualizado": "2026-10-12T12:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T12:06:31.630Z",
+   "id": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/feriado-del-12-de-octubre-que-se-conmemora-y-como-se-debe-2c8c0c",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Feriado del 12 de octubre: qué se conmemora y cómo se debe abonar la jornada laboral\n\nEl país atraviesa una jornada de descanso por el Día del Respeto a la Diversidad Cultural. Cómo se paga el día y qué dice la normativa vigente sobre el…\n\nhttps://www.diariolacampaña.com.ar/n/feriado-del-12-de-octubre-que-se-conmemora-y-como-se-debe-2c8c0c",
+   "tipo": "nota",
+   "titulo": "Feriado del 12 de octubre: qué se conmemora y cómo se debe abonar la jornada laboral",
+   "urgente": false,
+   "vence": "2026-10-13T12:06:31.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x": {
    "actualizado": "2026-10-12T10:20:20.000Z",
    "buffer_id": "6acca1a9c5fdc4c02d0f89f1",
@@ -1422,6 +1689,56 @@
    "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
    "urgente": false,
    "vence": "2026-10-12T22:04:48.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x": {
+   "actualizado": "2026-10-12T12:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T12:11:43.895Z",
+   "id": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/carcel-de-devoto-como-sigue-el-operativo-de-traslado-de-presos-1c609b",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Cárcel de Devoto: cómo sigue el operativo de traslado de presos a Marcos Paz\n\nLas fuerzas de seguridad llevan adelante un amplio operativo para reubicar a unos 1.500 internos desde el penal porteño hacia el complejo de Marcos Paz.\n\nhttps://www.diariolacampaña.com.ar/n/carcel-de-devoto-como-sigue-el-operativo-de-traslado-de-presos-1c609b",
+   "tipo": "nota",
+   "titulo": "Cárcel de Devoto: cómo sigue el operativo de traslado de presos a Marcos Paz",
+   "urgente": false,
+   "vence": "2026-10-13T12:11:43.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x": {
+   "actualizado": "2026-10-12T12:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x",
+   "creado": "2026-10-12T12:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T12:16:57.534Z",
+   "id": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-retoma-su-mesa-politica-en-la-casa-rosada-y-busca-15d12c",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El Gobierno retoma su mesa política en la Casa Rosada y busca destrabar la alianza con el PRO\n\nEl oficialismo reanuda sus encuentros en la Casa Rosada bajo la conducción de Karina Milei. Intentarán reflotar la alianza con el PRO de cara a 2027 y…\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-retoma-su-mesa-politica-en-la-casa-rosada-y-busca-15d12c",
+   "tipo": "nota",
+   "titulo": "El Gobierno retoma su mesa política en la Casa Rosada y busca destrabar la alianza con el PRO",
+   "urgente": false,
+   "vence": "2026-10-13T12:16:57.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -2514,6 +2831,98 @@
    "cuando": "2026-10-12T12:00:24.000Z",
    "dueAt": "2026-10-12T13:45:44.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
+   "cuando": "2026-10-12T12:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
+   "cuando": "2026-10-12T12:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
+   "cuando": "2026-10-12T12:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok",
+   "cuando": "2026-10-12T12:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x",
+   "cuando": "2026-10-12T12:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x",
+   "cuando": "2026-10-12T12:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x",
+   "cuando": "2026-10-12T12:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x",
+   "cuando": "2026-10-12T12:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6accd083c1658fce94d92552",
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
+   "cuando": "2026-10-12T12:20:26.000Z",
+   "dueAt": "2026-10-12T14:00:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6accd087c1658fce94d92677",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
+   "cuando": "2026-10-12T12:20:26.000Z",
+   "dueAt": "2026-10-12T14:15:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6accd089355aa519678991b2",
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
+   "cuando": "2026-10-12T12:20:26.000Z",
+   "dueAt": "2026-10-12T12:23:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6accd08afcd88e54a9477df9",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok",
+   "cuando": "2026-10-12T12:20:26.000Z",
+   "dueAt": "2026-10-12T13:03:11.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
@@ -2521,10 +2930,12 @@
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
+  "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
@@ -2532,6 +2943,7 @@
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
+  "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
@@ -2543,7 +2955,10 @@
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
+  "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": "2026-10-12T12:20:13.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
+  "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
+  "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
