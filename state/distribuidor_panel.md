@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,24 +9,22 @@ Actualizado: 12/10/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 8 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 6 | 9 | 1 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 7 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2966 de 3000 (visto 2026-10-12T11:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2965 de 3000 (visto 2026-10-12T12:00:24.000Z)
 
-## Cola propia (2 esperando)
-- X · Notas web · Etcheverría: “Estábamos transfiriendo a una empresa que no tiene constancia fisc — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación — en turno
+## Cola propia (1 esperando)
+- X · Notas web · Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-12T10:20 recibido web:24998057-0e22-47d2-a4b2-742700e77f3d|x 
 - 2026-10-12T10:20 recibido web:39554db5-c84a-492e-9690-89d95fba95ec|x 
 - 2026-10-12T10:20 recibido web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311|x 
 - 2026-10-12T10:20 recibido web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x 
@@ -51,3 +49,4 @@ Actualizado: 12/10/2026 08:40 (hora AR) · ACTIVO
 - 2026-10-12T11:40 enviado web:b395e5df-d8a5-4838-8478-88d0f4b8786c|x 
 - 2026-10-12T11:40 enviado web:d93ebaa3-7e7f-4b7c-b96d-975976da4252|x 
 - 2026-10-12T11:40 programado web:39554db5-c84a-492e-9690-89d95fba95ec|x 
+- 2026-10-12T12:00 programado web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311|x 
