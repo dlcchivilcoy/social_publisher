@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 3
+    "scheduled": 4,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-12T15:20:19.000Z"
+   "visto": "2026-10-12T16:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 0,
-    "sent": 18
+    "scheduled": 1,
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-12T15:20:19.000Z"
+   "visto": "2026-10-12T16:40:14.000Z"
   }
  },
  "contenidos": {
@@ -1022,17 +1022,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 209,
-   "segundos": 19819,
+   "restantes": 208,
+   "segundos": 16226,
    "tope": 250
   },
   "30d": {
-   "restantes": 2959,
-   "segundos": 2525419,
+   "restantes": 2958,
+   "segundos": 2521826,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T15:40:27.000Z",
+ "cuota_visto": "2026-10-12T16:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1087,18 +1087,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
   },
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok": {
-   "actualizado": "2026-10-12T15:20:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accfab4d38ece527cc0de3d",
    "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
    "creado": "2026-10-12T15:20:17.000Z",
    "dueAt": "2026-10-12T15:23:33.000Z",
+   "enviado": "2026-10-12T15:25:28.044Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:06:40.000Z",
    "id": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695802285997296897",
    "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -1112,18 +1113,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4"
   },
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x": {
-   "actualizado": "2026-10-12T15:20:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accfab4bd2a64ac735102af",
    "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
    "creado": "2026-10-12T15:20:17.000Z",
    "dueAt": "2026-10-12T15:23:16.000Z",
+   "enviado": "2026-10-12T15:23:33.766Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:06:40.000Z",
    "id": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109666288431763726",
    "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
    "origen": "bot",
    "plataforma": "x",
@@ -1420,18 +1422,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html|x": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accff68176c3010548793a6",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html|x",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T16:28:26.000Z",
+   "enviado": "2026-10-12T16:28:33.546Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:20.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109682645323882596",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-dos-sospechosos-tras-una-persecucion-9e9b6f",
    "origen": "policiales",
    "plataforma": "x",
@@ -1522,18 +1525,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_12_junin_cinco-heridos-tras-choque-fron.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|x": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accff670e025935d3b8419f",
    "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|x",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T16:13:26.000Z",
+   "enviado": "2026-10-12T16:13:33.598Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109678870618124408",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-y-general-rodriguez-cinco-heridos-en-choque-frontal-en-dcb16e",
    "origen": "policiales",
    "plataforma": "x",
@@ -1547,18 +1551,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_12_junin_cinco-heridos-tras-choque-fron.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|tiktok": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accff69225b47b7f7b7e6a6",
    "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|tiktok",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T16:03:27.000Z",
+   "enviado": "2026-10-12T16:07:15.720Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695813348385950994",
    "nota_url": "",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -1572,18 +1577,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_09_junin_robaron-m-s-de-un-centenar-de-.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|x": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accff66ba9a2573f195aa26",
    "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|x",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T15:43:22.000Z",
+   "enviado": "2026-10-12T15:43:33.295Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109671319478370608",
    "nota_url": "",
    "origen": "policiales",
    "plataforma": "x",
@@ -1622,18 +1628,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_06_junin_atac-con-un-machete-a-polic-as.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|x": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accff67225b47b7f7b7e637",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|x",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T15:58:18.000Z",
+   "enviado": "2026-10-12T15:58:33.289Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109675094469492747",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-jubilado-agredio-a-machetazos-a-policias-y-a-su-nuera-a43906",
    "origen": "policiales",
    "plataforma": "x",
@@ -3839,10 +3846,52 @@
    "cuando": "2026-10-12T15:40:27.000Z",
    "dueAt": "2026-10-12T18:43:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695802285997296897"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109666288431763726"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html|x",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109682645323882596"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|x",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109678870618124408"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|tiktok",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695813348385950994"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|x",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109671319478370608"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|x",
+   "cuando": "2026-10-12T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109675094469492747"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T15:20:19.000Z",
+ "ultima_sync": "2026-10-12T16:40:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

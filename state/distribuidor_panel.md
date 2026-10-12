@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 2 | 5 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 2 | 5 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 6 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 3 | 4 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 9 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 23 enviadas + 1 programadas de 50 por día
+- TikTok: conectado · Buffer: 5 enviadas + 4 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 209 de 250 · 30d: quedan 2959 de 3000 (visto 2026-10-12T15:40:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 208 de 250 · 30d: quedan 2958 de 3000 (visto 2026-10-12T16:40:15.000Z)
 
 ## Cola propia (9 esperando)
 - X · Notas web · Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida — cupo diario de Notas web en X completo (15)
@@ -33,13 +33,6 @@ Actualizado: 12/10/2026 13:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-12T15:20 recibido web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x 
-- 2026-10-12T15:20 enviado bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x 
-- 2026-10-12T15:20 enviado policiales:https://www.latrochadigital.com.ar/2026/10/12/rut 
-- 2026-10-12T15:20 programado bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x 
-- 2026-10-12T15:20 programado bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tikto 
-- 2026-10-12T15:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/persecuci 
-- 2026-10-12T15:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/persecuci 
 - 2026-10-12T15:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-12T15:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-12T15:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/30986/desp 
@@ -58,3 +51,10 @@ Actualizado: 12/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-12T15:40 programado policiales:https://www.diariojunin.com/noticias/102788_cinco 
 - 2026-10-12T15:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/persecuci 
 - 2026-10-12T15:40 programado policiales:https://www.bragadoinforma.com.ar/nota/30986/desp 
+- 2026-10-12T16:40 enviado bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tikto 
+- 2026-10-12T16:40 enviado bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x 
+- 2026-10-12T16:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/persecuci 
+- 2026-10-12T16:40 enviado policiales:https://www.diariojunin.com/noticias/102788_cinco 
+- 2026-10-12T16:40 enviado policiales:https://www.diariojunin.com/noticias/102790_robo- 
+- 2026-10-12T16:40 enviado policiales:https://www.diariojunin.com/noticias/102790_robo- 
+- 2026-10-12T16:40 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
