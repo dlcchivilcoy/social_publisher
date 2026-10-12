@@ -1330,17 +1330,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 85200,
+   "restantes": 247,
+   "segundos": 83997,
    "tope": 250
   },
   "30d": {
-   "restantes": 2949,
-   "segundos": 2503825,
+   "restantes": 2948,
+   "segundos": 2502622,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T21:40:17.000Z",
+ "cuota_visto": "2026-10-12T22:00:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1629,14 +1629,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x": {
-   "actualizado": "2026-10-12T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-12T22:00:17.000Z",
+   "buffer_id": "6acd58749f22b96ae7e41f3c",
    "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x",
    "creado": "2026-10-12T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T22:33:40.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T18:16:38.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva",
    "intentos": 0,
@@ -1783,14 +1783,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_03_junin_rueda-de-cami-n-suelta-choc-co.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|x": {
-   "actualizado": "2026-10-12T21:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-12T22:00:17.000Z",
+   "buffer_id": "6acd58739f22b96ae7e41f06",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|x",
    "creado": "2026-10-12T21:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T22:18:06.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T21:21:34.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos",
    "intentos": 0,
@@ -1937,14 +1937,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_02_chacabuco_choque-sin-heridos-y-moto-rete.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x": {
-   "actualizado": "2026-10-12T21:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-12T22:00:17.000Z",
+   "buffer_id": "6acd5875c210c8c6dd3a1df4",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
    "creado": "2026-10-12T21:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T22:48:33.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T21:21:34.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html",
    "intentos": 0,
@@ -2091,14 +2091,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_05_chacabuco_muri-un-trabajador-de-32-a-os-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x": {
-   "actualizado": "2026-10-12T21:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-12T22:00:17.000Z",
+   "buffer_id": "6acd58735229b40e8682f74c",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x",
    "creado": "2026-10-12T21:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T22:03:45.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T21:21:35.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven",
    "intentos": 0,
@@ -5029,6 +5029,34 @@
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok",
    "cuando": "2026-10-12T21:40:17.000Z",
    "dueAt": "2026-10-12T23:03:17.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acd58735229b40e8682f74c",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x",
+   "cuando": "2026-10-12T22:00:21.000Z",
+   "dueAt": "2026-10-12T22:03:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acd58739f22b96ae7e41f06",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|x",
+   "cuando": "2026-10-12T22:00:21.000Z",
+   "dueAt": "2026-10-12T22:18:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acd58749f22b96ae7e41f3c",
+   "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x",
+   "cuando": "2026-10-12T22:00:21.000Z",
+   "dueAt": "2026-10-12T22:33:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acd5875c210c8c6dd3a1df4",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
+   "cuando": "2026-10-12T22:00:21.000Z",
+   "dueAt": "2026-10-12T22:48:33.000Z",
    "evento": "programado"
   }
  ],
