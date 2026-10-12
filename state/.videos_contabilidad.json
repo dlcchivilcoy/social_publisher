@@ -28611,5 +28611,77 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-12T09:18:28",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-10-12_matias-zucchi_mv5dn026opic",
+    "uploader": "",
+    "fecha_recibido": "2026-10-12T12:03:09",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Siniestro vial",
+    "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
+    "resumen": "Una mujer falleció tras un choque frontal entre dos vehículos sobre el kilómetro 113 de la Ruta Nacional 5. Los dos conductores fueron derivados a un centro de salud y la Justicia investiga el hecho.",
+    "texto": "Un choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha. El siniestro involucró a una camioneta utilitaria y un automóvil que circulaban en sentidos opuestos.\n\nEl periodista de Suipacha, Jorge Lasala, describió las características del impacto al señalar que se trató de «una Kangoo de color blanco que circulaba en sentido de Mercedes hacia Suipacha» y «chocó de frente con un Chevrolet Agile en el que viajaba una joven mujer», quien perdió la vida en el lugar del hecho.\n\nDe acuerdo con la información policial, la Renault Kangoo era conducida por Héctor Matucheski, de 54 años, mientras que el Chevrolet Agile era guiado por Alejandro Melo, a quien acompañaba la mujer adulta que resultó víctima fatal. Ambos conductores fueron trasladados conscientes al hospital local para su atención médica.\n\nEn el sector del siniestro se implementó un operativo de circulación asistida mientras se preservaba la calzada para los peritajes de rigor. Las actuaciones judiciales quedaron a cargo de la Comisaría Primera de Mercedes, bajo la órbita de la UFI N.º 3 del Departamento Judicial Mercedes, que investiga las causas de la colisión.",
+    "bajada_reel": "",
+    "escrito": "🚨 Una mujer falleció en un choque frontal en Ruta 5.\nSegún el parte policial, el siniestro ocurrió en el kilómetro 113 de la Ruta Nacional 5, entre Mercedes y Suipacha. Colisionaron una Renault Kangoo blanca, conducida por Héctor Matucheski, de 54 años, y un Chevrolet Agile blanco, al mando de Alejandro Melo.\nUna mujer adulta que viajaba como acompañante en el Agile falleció. Los dos conductores fueron trasladados conscientes al hospital local.\nEl lugar fue preservado para los peritajes y se dispuso circulación asistida. Las actuaciones están a cargo de la Comisaría Primera de Mercedes, con intervención de la UFI N.º 3 del Departamento Judicial Mercedes.\nLas causas del choque se investigan.\n#chivilcoy #diariolacampaña #radiodelcentro #Ruta5 #SiniestroVial",
+    "tarjetas_fotos": [],
+    "draft_id": "8e6687d4-3abe-4379-8e0d-a883d98d2dfd",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-12-matias-zucchi-mv.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias Zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-12T14:58:22.078Z — wa:5492346417636",
+    "decl": {
+      "audio": "audio_matias-zucchi_mv5dn026opic_01.mp3",
+      "visual": "foto_matias-zucchi_mv5dn026opic_02.jpg",
+      "es_foto": true,
+      "nombre": "Jorge Lasala",
+      "cargo": "Periodista de Suipacha",
+      "frases": [
+        {
+          "desde": 0.0,
+          "texto": "Kangoo blanca hacia Suipacha"
+        },
+        {
+          "desde": 7.7,
+          "texto": "Choque frontal con un Chevrolet"
+        },
+        {
+          "desde": 12.6,
+          "texto": "Una mujer resultó fallecida"
+        },
+        {
+          "desde": 20.1,
+          "texto": "El vehículo circulaba hacia Capital"
+        }
+      ],
+      "tramo": {
+        "desde": 0,
+        "hasta": 21.2
+      },
+      "transcripcion": "Una caguda de color blanco que circulaba en sentido de Mercedes hacia Suipacha, que chocó de frente con un Chevrolet a Chile en el que viajaba una joven mujer, que es la que resulta fallecida, un Chevrolet a Chile de color blanco que iba desde Suipacha hacia Mercedes, o sea, hacia Capital",
+      "asr": "groq"
+    },
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-10-12T12:06:38",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+    "ig_media_id": "17890757082455609",
+    "fb_video_id": "1683896309761034",
+    "ig_historia_id": "18102305324456683",
+    "fb_historia_id": "1828702108062774",
+    "yt_video_id": "JvEletpiHlg",
+    "yt_url": "https://www.youtube.com/shorts/JvEletpiHlg"
   }
 ]
