@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 5
+    "scheduled": 2,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-12T16:40:14.000Z"
+   "visto": "2026-10-12T18:00:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 1,
-    "sent": 23
+    "scheduled": 0,
+    "sent": 26
    },
    "pausado": false,
-   "visto": "2026-10-12T16:40:14.000Z"
+   "visto": "2026-10-12T18:00:16.000Z"
   }
  },
  "contenidos": {
@@ -129,6 +129,26 @@
    "video_mb": 39.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00189.mp4",
    "youtube_url": "https://youtu.be/tBQtNSGhxcc"
+  },
+  "entrevistas:job00190": {
+   "descripcion": "El atleta de Chivilcoy Uriel Scalani relató el esfuerzo de viajar a competir desde el interior frente a delegaciones numerosas. Con dedicación propia y sin grandes estructuras, logró llegar a lo más alto de la disciplina.",
+   "duracion_seg": null,
+   "entrevistado": "Uriel Scalani",
+   "generado": "2026-10-12T18:00:16.000Z",
+   "id": "entrevistas:job00190",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Uriel Scalani y el camino a pulmón en el Powerlifting",
+   "urgente": false,
+   "video_bytes": 23015814,
+   "video_mb": 21.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00190.mp4",
+   "youtube_url": "https://youtu.be/A236-wVcKoM"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": {
    "categoria": "homicidio",
@@ -1057,22 +1077,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 206,
-   "segundos": 13826,
+   "restantes": 204,
+   "segundos": 11423,
    "tope": 250
   },
   "30d": {
-   "restantes": 2956,
-   "segundos": 2519426,
+   "restantes": 2954,
+   "segundos": 2517023,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T17:20:15.000Z",
+ "cuota_visto": "2026-10-12T18:00:18.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1231,18 +1251,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4"
   },
   "entrevistas:job00188|x": {
-   "actualizado": "2026-10-12T17:00:17.000Z",
+   "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd12237eb16fd28e94048f",
    "clave": "entrevistas:job00188|x",
    "creado": "2026-10-12T17:00:17.000Z",
    "dueAt": "2026-10-12T17:03:02.000Z",
+   "enviado": "2026-10-12T17:05:07.526Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T17:00:17.000Z",
    "id": "entrevistas:job00188",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109691847371026627",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -1256,18 +1277,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4"
   },
   "entrevistas:job00189|x": {
-   "actualizado": "2026-10-12T17:20:14.000Z",
+   "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd16cf7eb16fd28e9547f2",
    "clave": "entrevistas:job00189|x",
    "creado": "2026-10-12T17:20:13.000Z",
    "dueAt": "2026-10-12T17:23:43.000Z",
+   "enviado": "2026-10-12T17:24:09.185Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T17:20:13.000Z",
    "id": "entrevistas:job00189",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109696636066713641",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -1279,6 +1301,31 @@
    "vence": "2026-10-14T17:20:13.000Z",
    "video_bytes": 41143665,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00189.mp4"
+  },
+  "entrevistas:job00190|x": {
+   "actualizado": "2026-10-12T18:00:17.000Z",
+   "buffer_id": "6acd203284949d5b220e3b28",
+   "clave": "entrevistas:job00190|x",
+   "creado": "2026-10-12T18:00:16.000Z",
+   "dueAt": "2026-10-12T18:03:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T18:00:16.000Z",
+   "id": "entrevistas:job00190",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Uriel Scalani y el camino a pulmón en el Powerlifting\n\nEl atleta de Chivilcoy Uriel Scalani relató el esfuerzo de viajar a competir desde el interior frente a delegaciones numerosas.\n\n▶️ La entrevista completa: https://youtu.be/A236-wVcKoM",
+   "tipo": "video",
+   "titulo": "Uriel Scalani y el camino a pulmón en el Powerlifting",
+   "urgente": false,
+   "vence": "2026-10-14T18:00:16.000Z",
+   "video_bytes": 23015814,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00190.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
@@ -1410,18 +1457,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_07_bragado_daniel-ferrari-volc-con-su-che.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|x": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6accff6817154ed8aaf48b98",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|x",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T16:43:47.000Z",
+   "enviado": "2026-10-12T16:44:04.309Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109686549293985980",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-hombre-de-72-anos-volco-con-su-auto-en-la-ruta-65bebd",
    "origen": "policiales",
    "plataforma": "x",
@@ -1590,18 +1638,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_02_9-de-julio_vuelco-en-la-ruta-5-cinco-pers.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6accff6a176c301054879424",
    "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T17:23:17.000Z",
+   "enviado": "2026-10-12T17:25:12.785Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695833236223642898",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-y-general-rodriguez-cinco-heridos-en-choque-frontal-en-dcb16e",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -1693,18 +1742,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_09_junin_robaron-m-s-de-un-centenar-de-.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|tiktok": {
-   "actualizado": "2026-10-12T15:40:19.000Z",
+   "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6accff69ba9a2573f195aabe",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|tiktok",
    "creado": "2026-10-12T15:40:18.000Z",
    "dueAt": "2026-10-12T16:43:36.000Z",
+   "enviado": "2026-10-12T16:45:27.927Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T15:37:21.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695822996086328584",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-jubilado-agredio-a-machetazos-a-policias-y-a-su-nuera-a43906",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -4018,10 +4068,60 @@
    "cuando": "2026-10-12T17:20:15.000Z",
    "dueAt": "2026-10-12T17:23:43.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00190",
+   "cuando": "2026-10-12T18:00:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00190|x",
+   "cuando": "2026-10-12T18:00:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00188|x",
+   "cuando": "2026-10-12T18:00:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109691847371026627"
+  },
+  {
+   "clave": "entrevistas:job00189|x",
+   "cuando": "2026-10-12T18:00:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109696636066713641"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|x",
+   "cuando": "2026-10-12T18:00:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109686549293985980"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok",
+   "cuando": "2026-10-12T18:00:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695833236223642898"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|tiktok",
+   "cuando": "2026-10-12T18:00:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695822996086328584"
+  },
+  {
+   "buffer_id": "6acd203284949d5b220e3b28",
+   "clave": "entrevistas:job00190|x",
+   "cuando": "2026-10-12T18:00:18.000Z",
+   "dueAt": "2026-10-12T18:03:03.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T16:40:14.000Z",
+ "ultima_sync": "2026-10-12T18:00:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -4029,6 +4129,7 @@
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
+  "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
