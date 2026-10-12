@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 6 | 1 | 0 | 0 | 0 | 0 |
@@ -16,7 +16,7 @@ Actualizado: 12/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 5 enviadas + 4 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 208 de 250 · 30d: quedan 2958 de 3000 (visto 2026-10-12T16:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 207 de 250 · 30d: quedan 2957 de 3000 (visto 2026-10-12T17:00:19.000Z)
 
 ## Cola propia (9 esperando)
 - X · Notas web · Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida — cupo diario de Notas web en X completo (15)
@@ -33,9 +33,6 @@ Actualizado: 12/10/2026 13:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-12T15:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-12T15:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-12T15:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/30986/desp 
 - 2026-10-12T15:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/30986/desp 
 - 2026-10-12T15:40 recibido policiales:https://www.diariojunin.com/noticias/102790_robo- 
 - 2026-10-12T15:40 recibido policiales:https://www.diariojunin.com/noticias/102790_robo- 
@@ -58,3 +55,6 @@ Actualizado: 12/10/2026 13:40 (hora AR) · ACTIVO
 - 2026-10-12T16:40 enviado policiales:https://www.diariojunin.com/noticias/102790_robo- 
 - 2026-10-12T16:40 enviado policiales:https://www.diariojunin.com/noticias/102790_robo- 
 - 2026-10-12T16:40 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
+- 2026-10-12T17:00 entrevista_aprobada entrevistas:job00188 
+- 2026-10-12T17:00 recibido entrevistas:job00188|x 
+- 2026-10-12T17:00 programado entrevistas:job00188|x 

@@ -90,6 +90,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4",
    "youtube_url": "https://www.youtube.com/shorts/uZmNDrJ_wTY"
   },
+  "entrevistas:job00188": {
+   "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
+   "duracion_seg": null,
+   "entrevistado": "Estefanía Cruz",
+   "generado": "2026-10-12T17:00:17.000Z",
+   "id": "entrevistas:job00188",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Estefanía Cruz: el secreto de la bandera de Filipinas",
+   "urgente": false,
+   "video_bytes": 27391279,
+   "video_mb": 26.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4",
+   "youtube_url": "https://youtu.be/dt1BkouTlJw"
+  },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": {
    "categoria": "homicidio",
    "descripcion": "Noelia Díaz fue hallada sin vida en su vivienda de Punta Alta pese a haber denunciado previamente a su agresor. El femicida, identificado como Daniel Ferreyra, fue encontrado muerto horas más tarde.",
@@ -1022,17 +1042,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 208,
-   "segundos": 16226,
+   "restantes": 207,
+   "segundos": 15023,
    "tope": 250
   },
   "30d": {
-   "restantes": 2958,
-   "segundos": 2521826,
+   "restantes": 2957,
+   "segundos": 2520623,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T16:40:15.000Z",
+ "cuota_visto": "2026-10-12T17:00:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1189,6 +1209,31 @@
    "vence": "2026-10-14T12:18:30.000Z",
    "video_bytes": 21616565,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4"
+  },
+  "entrevistas:job00188|x": {
+   "actualizado": "2026-10-12T17:00:17.000Z",
+   "buffer_id": "6acd12237eb16fd28e94048f",
+   "clave": "entrevistas:job00188|x",
+   "creado": "2026-10-12T17:00:17.000Z",
+   "dueAt": "2026-10-12T17:03:02.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T17:00:17.000Z",
+   "id": "entrevistas:job00188",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Estefanía Cruz: el secreto de la bandera de Filipinas\n\nEstefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos…\n\n▶️ La entrevista completa: https://youtu.be/dt1BkouTlJw",
+   "tipo": "video",
+   "titulo": "Estefanía Cruz: el secreto de la bandera de Filipinas",
+   "urgente": false,
+   "vence": "2026-10-14T17:00:17.000Z",
+   "video_bytes": 27391279,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
@@ -3888,6 +3933,26 @@
    "cuando": "2026-10-12T16:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2109675094469492747"
+  },
+  {
+   "clave": "entrevistas:job00188",
+   "cuando": "2026-10-12T17:00:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00188|x",
+   "cuando": "2026-10-12T17:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6acd12237eb16fd28e94048f",
+   "clave": "entrevistas:job00188|x",
+   "cuando": "2026-10-12T17:00:19.000Z",
+   "dueAt": "2026-10-12T17:03:02.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
@@ -3897,6 +3962,7 @@
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
+  "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
