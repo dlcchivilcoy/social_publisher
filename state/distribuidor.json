@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
+    "scheduled": 1,
     "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-12T19:00:17.000Z"
+   "visto": "2026-10-12T20:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-12T19:00:17.000Z"
+   "visto": "2026-10-12T20:00:22.000Z"
   }
  },
  "contenidos": {
@@ -1204,17 +1204,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 202,
-   "segundos": 7823,
+   "restantes": 201,
+   "segundos": 4219,
    "tope": 250
   },
   "30d": {
-   "restantes": 2952,
-   "segundos": 2513423,
+   "restantes": 2951,
+   "segundos": 2509819,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T19:00:17.000Z",
+ "cuota_visto": "2026-10-12T20:00:22.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1527,14 +1527,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
   },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok": {
-   "actualizado": "2026-10-12T18:20:17.000Z",
+   "actualizado": "2026-10-12T20:00:22.000Z",
    "buffer_id": "6acd24e3536740a2d1159178",
    "clave": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok",
    "creado": "2026-10-12T18:20:14.000Z",
    "dueAt": "2026-10-12T19:23:18.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-12T18:16:38.000Z",
    "id": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/",
    "intentos": 0,
@@ -4572,10 +4573,16 @@
    "cuando": "2026-10-12T19:00:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7695843834881707284"
+  },
+  {
+   "clave": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok",
+   "cuando": "2026-10-12T20:00:22.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T19:00:17.000Z",
+ "ultima_sync": "2026-10-12T20:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

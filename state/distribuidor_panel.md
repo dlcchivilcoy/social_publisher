@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 16:40 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 17:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,15 +8,15 @@ Actualizado: 12/10/2026 16:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 8 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 7 | 2 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 7 | 1 | 0 | 1 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 9 enviadas + 2 programadas de 25 por día
+- TikTok: conectado · Buffer: 9 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 202 de 250 · 30d: quedan 2952 de 3000 (visto 2026-10-12T19:00:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 201 de 250 · 30d: quedan 2951 de 3000 (visto 2026-10-12T20:00:22.000Z)
 
 ## Cola propia (13 esperando)
 - X · Reels policiales · Detuvieron a dos hombres por robar baterías y herramientas — tope de 47 publicaciones en 24 h de X
@@ -34,10 +34,9 @@ Actualizado: 12/10/2026 16:40 (hora AR) · ACTIVO
 - X · Notas web · Feriado del 12 de octubre: qué se conmemora y cómo se debe abonar la jornada lab — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
-- ninguno
+- TikTok · Se atrincheró con un arma en una casa de Bolívar y terminó detenido — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-12T18:00 recibido entrevistas:job00190|x 
 - 2026-10-12T18:00 enviado entrevistas:job00188|x 
 - 2026-10-12T18:00 enviado entrevistas:job00189|x 
 - 2026-10-12T18:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/30986/desp 
@@ -62,3 +61,4 @@ Actualizado: 12/10/2026 16:40 (hora AR) · ACTIVO
 - 2026-10-12T19:00 enviado policiales:https://quepasaenbolivar.com.ar/momentos-de-tensi 
 - 2026-10-12T19:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/30986/desp 
 - 2026-10-12T19:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/persecuci 
+- 2026-10-12T20:00 error_publicacion policiales:https://quepasaenbolivar.com.ar/momentos-de-tensi TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
