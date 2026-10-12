@@ -11,7 +11,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-12T14:00:19.000Z"
+   "visto": "2026-10-12T15:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 2,
-    "sent": 16
+    "scheduled": 0,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-10-12T14:00:19.000Z"
+   "visto": "2026-10-12T15:20:19.000Z"
   }
  },
  "contenidos": {
@@ -47,6 +47,27 @@
    "video_mb": 0.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Mc97VbOR7_s"
+  },
+  "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": {
+   "descripcion": "Una mujer falleció tras un choque frontal entre dos vehículos sobre el kilómetro 113 de la Ruta Nacional 5. Los dos conductores fueron derivados a un centro de salud y la Justicia investiga el hecho.",
+   "duracion_seg": 26.5,
+   "generado": "2026-10-12T15:06:40.000Z",
+   "id": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
+   "urgente": false,
+   "video_bytes": 1241916,
+   "video_mb": 1.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/JvEletpiHlg"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -242,6 +263,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/proyecto-institucional-acercaran-a-los-barrios-una-mesa-itinerante-de",
    "volanta": "Proyecto institucional"
+  },
+  "web:380cc711-312c-4089-9509-56feaafc5238": {
+   "categoria": "nacionales",
+   "descripcion": "Durante una reunión en el Vaticano con el arzobispo de San Juan, Jorge Eduardo Lozano, el Sumo Pontífice ratificó su gira prevista para noviembre.",
+   "generado": "2026-10-12T15:06:44.506Z",
+   "id": "web:380cc711-312c-4089-9509-56feaafc5238",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3b74e7bf6cd44150b5bddc50aa2e56c0~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-confirmo-que-visitara-la-argentina-en-ba6fb5",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El papa León XIV confirmó que visitará la Argentina en noviembre a pesar de su operación",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-papa-leon-xiv-confirmo-que-visitara-la-argentina-en-ba6fb5",
+   "volanta": ""
   },
   "web:39554db5-c84a-492e-9690-89d95fba95ec": {
    "categoria": "",
@@ -441,6 +480,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
    "volanta": "Rawson · Cultura"
   },
+  "web:76c3d71e-5104-400d-a4f4-414ceb358697": {
+   "categoria": "nacionales",
+   "descripcion": "La administración nacional impulsa modificaciones en el sistema de votación de cara a 2027 y busca consensos con mandatarios provinciales mientras evalúa…",
+   "generado": "2026-10-12T15:11:58.893Z",
+   "id": "web:76c3d71e-5104-400d-a4f4-414ceb358697",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3133208ad5584d6e875bcc566e3933b1~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reforma-electoral-los-plazos-que-evalua-el-gobierno-y-el-pedido-cf9e19",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Reforma electoral: los plazos que evalúa el Gobierno y el pedido de los gobernadores",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reforma-electoral-los-plazos-que-evalua-el-gobierno-y-el-pedido-cf9e19",
+   "volanta": ""
+  },
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": {
    "categoria": "",
    "descripcion": "Gimnasia empató en Chaco y define los 16avos de la Reválida en el ‘José María Paz’ Defensores de Vilelas no pudo ante Gimnasia de Chivilcoy e igualó 1 a 1 en el juego de ida de la Segunda Ronda (etapa Reválida) del torneo Federal \"A\" de fútbol. Gustavo Carballo el gol del La revancha será el próximo fin de semana y el equipo de Vilelas está obligado a ganar para seguir en competencia. El comienzo del juego fue de mucho estudio y abusos de pelotazos. Eso fue así hasta la mitad de la primera...",
@@ -512,6 +569,42 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
    "volanta": "Colegios de Abogados"
+  },
+  "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": {
+   "categoria": "",
+   "descripcion": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida Un choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha. El siniestro involucró a una camioneta utilitaria y un automóvil que circulaban en sentidos opuestos. El periodista de Suipacha, Jorge Lasala, describió las características del impacto al señalar que se trató de «una Kangoo de color blanco que circulaba...",
+   "generado": "2026-10-12T15:04:00.428Z",
+   "id": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0d1e2b9caebf4c6ea0eb6bd67d5baa40~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "volanta": "Siniestro vial"
+  },
+  "web:9110bbe1-bdf4-4c81-bcba-062f16958539": {
+   "categoria": "nacionales",
+   "descripcion": "El sector impulsa una presentación en la ONU y diseña frentes judiciales y políticos para mantener viva la candidatura presidencial de Cristina Kirchner,…",
+   "generado": "2026-10-12T15:17:09.731Z",
+   "id": "web:9110bbe1-bdf4-4c81-bcba-062f16958539",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5fc324b28245471d95ba5fc81d22ce33~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estrategia-de-cristina-kirchner-hacia-2027-frentes-en-la-onu-la-7f0d6d",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Estrategia de Cristina Kirchner hacia 2027: frentes en la ONU, la Justicia y el peronismo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/estrategia-de-cristina-kirchner-hacia-2027-frentes-en-la-onu-la-7f0d6d",
+   "volanta": ""
   },
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": {
    "categoria": "nacionales",
@@ -804,22 +897,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 212,
-   "segundos": 25821,
+   "restantes": 210,
+   "segundos": 21021,
    "tope": 250
   },
   "30d": {
-   "restantes": 2962,
-   "segundos": 2531421,
+   "restantes": 2960,
+   "segundos": 2526621,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T14:00:20.000Z",
+ "cuota_visto": "2026-10-12T15:20:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -873,6 +966,56 @@
    "video_bytes": 450309,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
   },
+  "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok": {
+   "actualizado": "2026-10-12T15:20:19.000Z",
+   "buffer_id": "6accfab4d38ece527cc0de3d",
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
+   "creado": "2026-10-12T15:20:17.000Z",
+   "dueAt": "2026-10-12T15:23:33.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T15:06:40.000Z",
+   "id": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida\n\nUna mujer falleció tras un choque frontal entre dos vehículos sobre el kilómetro 113 de la Ruta Nacional 5. Los dos conductores fueron derivados a un centro de salud y la Justicia investiga el hecho.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
+   "urgente": false,
+   "vence": "2026-10-14T15:06:40.000Z",
+   "video_bytes": 1241916,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4"
+  },
+  "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x": {
+   "actualizado": "2026-10-12T15:20:19.000Z",
+   "buffer_id": "6accfab4bd2a64ac735102af",
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
+   "creado": "2026-10-12T15:20:17.000Z",
+   "dueAt": "2026-10-12T15:23:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T15:06:40.000Z",
+   "id": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida\n\nUna mujer falleció tras un choque frontal entre dos vehículos sobre el kilómetro 113 de la Ruta Nacional 5.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
+   "urgente": false,
+   "vence": "2026-10-14T15:06:40.000Z",
+   "video_bytes": 1241916,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -900,18 +1043,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x": {
-   "actualizado": "2026-10-12T12:20:19.000Z",
+   "actualizado": "2026-10-12T15:20:19.000Z",
    "buffer_id": "6accd083c1658fce94d92552",
    "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "2026-10-12T14:00:11.000Z",
+   "enviado": "2026-10-12T14:04:40.954Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T12:18:30.000Z",
    "id": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109646437461938390",
    "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
    "origen": "bot",
    "plataforma": "x",
@@ -1159,18 +1303,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x": {
-   "actualizado": "2026-10-12T12:20:19.000Z",
+   "actualizado": "2026-10-12T15:20:19.000Z",
    "buffer_id": "6accd087c1658fce94d92677",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "2026-10-12T14:15:15.000Z",
+   "enviado": "2026-10-12T14:15:18.330Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T12:11:04.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109649110898725280",
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-se-incendio-un-neumatico-de-un-camion-en-la-ruta-5-64b039",
    "origen": "policiales",
    "plataforma": "x",
@@ -1258,6 +1403,31 @@
    "titulo": "Acercarán a los barrios una mesa itinerante de prevención de la violencia",
    "urgente": false,
    "vence": "2026-10-13T10:06:21.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:380cc711-312c-4089-9509-56feaafc5238|x": {
+   "actualizado": "2026-10-12T15:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:380cc711-312c-4089-9509-56feaafc5238|x",
+   "creado": "2026-10-12T15:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T15:06:44.506Z",
+   "id": "web:380cc711-312c-4089-9509-56feaafc5238",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-confirmo-que-visitara-la-argentina-en-ba6fb5",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El papa León XIV confirmó que visitará la Argentina en noviembre a pesar de su operación\n\nDurante una reunión en el Vaticano con el arzobispo de San Juan, Jorge Eduardo Lozano, el Sumo Pontífice ratificó su gira prevista para noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-confirmo-que-visitara-la-argentina-en-ba6fb5",
+   "tipo": "nota",
+   "titulo": "El papa León XIV confirmó que visitará la Argentina en noviembre a pesar de su operación",
+   "urgente": false,
+   "vence": "2026-10-13T15:06:44.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -1546,6 +1716,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:76c3d71e-5104-400d-a4f4-414ceb358697|x": {
+   "actualizado": "2026-10-12T15:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:76c3d71e-5104-400d-a4f4-414ceb358697|x",
+   "creado": "2026-10-12T15:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T15:11:58.893Z",
+   "id": "web:76c3d71e-5104-400d-a4f4-414ceb358697",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reforma-electoral-los-plazos-que-evalua-el-gobierno-y-el-pedido-cf9e19",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Reforma electoral: los plazos que evalúa el Gobierno y el pedido de los gobernadores\n\nLa administración nacional impulsa modificaciones en el sistema de votación de cara a 2027 y busca consensos con mandatarios provinciales mientras evalúa…\n\nhttps://www.diariolacampaña.com.ar/n/reforma-electoral-los-plazos-que-evalua-el-gobierno-y-el-pedido-cf9e19",
+   "tipo": "nota",
+   "titulo": "Reforma electoral: los plazos que evalúa el Gobierno y el pedido de los gobernadores",
+   "urgente": false,
+   "vence": "2026-10-13T15:11:58.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb4680b395b96ab076258",
@@ -1647,6 +1842,56 @@
    "titulo": "Horacio Vero presento su nuevo libro en la Provincia de Corrientes",
    "urgente": false,
    "vence": "2026-10-13T10:12:58.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x": {
+   "actualizado": "2026-10-12T15:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
+   "creado": "2026-10-12T15:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T15:04:00.428Z",
+   "id": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida\n\nUn choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha.\n\nhttps://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
+   "tipo": "nota",
+   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
+   "urgente": false,
+   "vence": "2026-10-13T15:04:00.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:9110bbe1-bdf4-4c81-bcba-062f16958539|x": {
+   "actualizado": "2026-10-12T15:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:9110bbe1-bdf4-4c81-bcba-062f16958539|x",
+   "creado": "2026-10-12T15:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-12T15:17:09.731Z",
+   "id": "web:9110bbe1-bdf4-4c81-bcba-062f16958539",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estrategia-de-cristina-kirchner-hacia-2027-frentes-en-la-onu-la-7f0d6d",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Estrategia de Cristina Kirchner hacia 2027: frentes en la ONU, la Justicia y el peronismo\n\nEl sector impulsa una presentación en la ONU y diseña frentes judiciales y políticos para mantener viva la candidatura presidencial de Cristina Kirchner,…\n\nhttps://www.diariolacampaña.com.ar/n/estrategia-de-cristina-kirchner-hacia-2027-frentes-en-la-onu-la-7f0d6d",
+   "tipo": "nota",
+   "titulo": "Estrategia de Cristina Kirchner hacia 2027: frentes en la ONU, la Justicia y el peronismo",
+   "urgente": false,
+   "vence": "2026-10-13T15:17:09.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3000,13 +3245,88 @@
    "cuando": "2026-10-12T14:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2109631347387969920"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
+   "cuando": "2026-10-12T15:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
+   "cuando": "2026-10-12T15:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:9110bbe1-bdf4-4c81-bcba-062f16958539|x",
+   "cuando": "2026-10-12T15:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:76c3d71e-5104-400d-a4f4-414ceb358697|x",
+   "cuando": "2026-10-12T15:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:380cc711-312c-4089-9509-56feaafc5238|x",
+   "cuando": "2026-10-12T15:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
+   "cuando": "2026-10-12T15:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
+   "cuando": "2026-10-12T15:20:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109646437461938390"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
+   "cuando": "2026-10-12T15:20:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109649110898725280"
+  },
+  {
+   "buffer_id": "6accfab4bd2a64ac735102af",
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
+   "cuando": "2026-10-12T15:20:20.000Z",
+   "dueAt": "2026-10-12T15:23:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6accfab4d38ece527cc0de3d",
+   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
+   "cuando": "2026-10-12T15:20:20.000Z",
+   "dueAt": "2026-10-12T15:23:33.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T14:00:19.000Z",
+ "ultima_sync": "2026-10-12T15:20:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
+  "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
@@ -3016,6 +3336,7 @@
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
+  "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
@@ -3028,10 +3349,13 @@
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
+  "web:76c3d71e-5104-400d-a4f4-414ceb358697": "2026-10-12T15:20:17.000Z",
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
+  "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
+  "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": "2026-10-12T12:20:13.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
