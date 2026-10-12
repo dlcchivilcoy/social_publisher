@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 1
+    "scheduled": 1,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-12T11:40:14.000Z"
+   "visto": "2026-10-12T12:40:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 7
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-12T11:40:14.000Z"
+   "visto": "2026-10-12T12:40:21.000Z"
   }
  },
  "contenidos": {
@@ -809,17 +809,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 214,
-   "segundos": 31821,
+   "restantes": 213,
+   "segundos": 30619,
    "tope": 250
   },
   "30d": {
-   "restantes": 2964,
-   "segundos": 2537421,
+   "restantes": 2963,
+   "segundos": 2536219,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T12:20:26.000Z",
+ "cuota_visto": "2026-10-12T12:40:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -874,18 +874,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
-   "actualizado": "2026-10-12T12:20:19.000Z",
+   "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
    "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "2026-10-12T12:23:46.000Z",
+   "enviado": "2026-10-12T12:25:49.815Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T12:18:30.000Z",
    "id": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695756118789852437",
    "nota_url": "https://www.diariolacampaña.com.ar/n/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -1309,18 +1310,19 @@
    "video_url": ""
   },
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x": {
-   "actualizado": "2026-10-12T10:40:16.000Z",
+   "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb9109cc32f023f723f61",
    "clave": "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x",
    "creado": "2026-10-12T10:20:17.000Z",
    "dueAt": "2026-10-12T12:30:30.000Z",
+   "enviado": "2026-10-12T12:30:40.803Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T10:07:01.746Z",
    "id": "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109622780945703418",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-racing-de-chivilcoy-dio-el-salto-inicial-en-la-liga-nacional",
    "origen": "web",
    "plataforma": "x",
@@ -1359,18 +1361,19 @@
    "video_url": ""
   },
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x": {
-   "actualizado": "2026-10-12T10:20:21.000Z",
+   "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb468556a69b3a0b2c98f",
    "clave": "web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x",
    "creado": "2026-10-12T10:20:17.000Z",
    "dueAt": "2026-10-12T12:00:44.000Z",
+   "enviado": "2026-10-12T12:03:37.408Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T10:08:28.223Z",
    "id": "web:460f2444-1e6f-479e-a30a-997a5bb82cc9",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109615971627360314",
    "nota_url": "https://www.diariolacampaña.com.ar/n/handball-las-selecciones-juveniles-de-asambal-brillaron-en-el",
    "origen": "web",
    "plataforma": "x",
@@ -1384,18 +1387,19 @@
    "video_url": ""
   },
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e|x": {
-   "actualizado": "2026-10-12T10:20:21.000Z",
+   "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb468ccd31a0d0ed3bebd",
    "clave": "web:4c67800d-ecb6-4757-8e30-b02eb076372e|x",
    "creado": "2026-10-12T10:20:17.000Z",
    "dueAt": "2026-10-12T11:45:16.000Z",
+   "enviado": "2026-10-12T11:45:31.217Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T10:09:09.629Z",
    "id": "web:4c67800d-ecb6-4757-8e30-b02eb076372e",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109611416160235565",
    "nota_url": "https://www.diariolacampaña.com.ar/n/automovilismo-campeonato-regional-se-viene-el-rally-de-chivilcoy-una",
    "origen": "web",
    "plataforma": "x",
@@ -1539,18 +1543,19 @@
    "video_url": ""
   },
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x": {
-   "actualizado": "2026-10-12T10:20:21.000Z",
+   "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb4680b395b96ab076258",
    "clave": "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x",
    "creado": "2026-10-12T10:20:17.000Z",
    "dueAt": "2026-10-12T12:15:29.000Z",
+   "enviado": "2026-10-12T12:15:31.147Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T10:07:43.142Z",
    "id": "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109618965655749094",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-gimnasia-empato-en-chaco-y-define-los-16avos-de-la-revalida-en",
    "origen": "web",
    "plataforma": "x",
@@ -2923,10 +2928,40 @@
    "cuando": "2026-10-12T12:20:26.000Z",
    "dueAt": "2026-10-12T13:03:11.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
+   "cuando": "2026-10-12T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695756118789852437"
+  },
+  {
+   "clave": "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x",
+   "cuando": "2026-10-12T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109622780945703418"
+  },
+  {
+   "clave": "web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x",
+   "cuando": "2026-10-12T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109615971627360314"
+  },
+  {
+   "clave": "web:4c67800d-ecb6-4757-8e30-b02eb076372e|x",
+   "cuando": "2026-10-12T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109611416160235565"
+  },
+  {
+   "clave": "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x",
+   "cuando": "2026-10-12T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109618965655749094"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T11:40:14.000Z",
+ "ultima_sync": "2026-10-12T12:40:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

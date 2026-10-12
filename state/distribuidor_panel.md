@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 9 | 5 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 5 | 5 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 7 enviadas + 7 programadas de 50 por día
-- TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 11 enviadas + 7 programadas de 50 por día
+- TikTok: conectado · Buffer: 2 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2964 de 3000 (visto 2026-10-12T12:20:26.000Z)
+15m: quedan 99 de 100 · 24h: quedan 213 de 250 · 30d: quedan 2963 de 3000 (visto 2026-10-12T12:40:21.000Z)
 
 ## Cola propia (5 esperando)
 - X · Notas web · Camisetas de clubes de Chivilcoy llegaron al Santuario de Maradona en Nápoles — cupo diario de Notas web en X completo (15)
@@ -29,11 +29,6 @@ Actualizado: 12/10/2026 09:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-12T10:20 programado web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x 
-- 2026-10-12T10:40 programado web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x 
-- 2026-10-12T11:00 programado web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x 
-- 2026-10-12T11:20 programado web:e94166ae-41a4-4aa6-a0f9-064b0440ec09|x 
-- 2026-10-12T11:20 programado web:24998057-0e22-47d2-a4b2-742700e77f3d|x 
 - 2026-10-12T11:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/30984/roba 
 - 2026-10-12T11:40 enviado web:432a1738-bd99-40ee-ac9f-6bc60445b517|x 
 - 2026-10-12T11:40 enviado web:7a5b06dc-62c8-478f-b00c-f1f4482e5452|x 
@@ -54,3 +49,8 @@ Actualizado: 12/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-12T12:20 programado policiales:https://www.latrochadigital.com.ar/2026/10/12/rut 
 - 2026-10-12T12:20 programado bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok 
 - 2026-10-12T12:20 programado policiales:https://www.latrochadigital.com.ar/2026/10/12/rut 
+- 2026-10-12T12:40 enviado bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok 
+- 2026-10-12T12:40 enviado web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x 
+- 2026-10-12T12:40 enviado web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x 
+- 2026-10-12T12:40 enviado web:4c67800d-ecb6-4757-8e30-b02eb076372e|x 
+- 2026-10-12T12:40 enviado web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x 
