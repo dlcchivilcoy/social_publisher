@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 12/10/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 9 | 6 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 10 | 5 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 0 programadas de 50 por día
 - TikTok: conectado · Buffer: 0 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2970 de 3000 (visto 2026-10-12T10:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2969 de 3000 (visto 2026-10-12T11:00:22.000Z)
 
-## Cola propia (6 esperando)
-- X · Notas web · Acercarán a los barrios una mesa itinerante de prevención de la violencia — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Fueron retirados los radares de las rutas 5 y 46 en la jurisdicción de Bragado — en turno
+## Cola propia (5 esperando)
+- X · Notas web · Fueron retirados los radares de las rutas 5 y 46 en la jurisdicción de Bragado — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Polémica por la instalación de radares en la Ruta Provincial 51: “Es netamente r — en turno
 - X · Notas web · Gestiones parlamentarias y ciudadanas — en turno
 - X · Notas web · Etcheverría: “Estábamos transfiriendo a una empresa que no tiene constancia fisc — en turno
@@ -30,7 +29,6 @@ Actualizado: 12/10/2026 07:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-10-12T10:20 recibido web:b395e5df-d8a5-4838-8478-88d0f4b8786c|x 
 - 2026-10-12T10:20 recibido web:d93ebaa3-7e7f-4b7c-b96d-975976da4252|x 
 - 2026-10-12T10:20 recibido web:7a5b06dc-62c8-478f-b00c-f1f4482e5452|x 
 - 2026-10-12T10:20 recibido web:432a1738-bd99-40ee-ac9f-6bc60445b517|x 
@@ -55,3 +53,4 @@ Actualizado: 12/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-12T10:20 programado web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x 
 - 2026-10-12T10:20 programado web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x 
 - 2026-10-12T10:40 programado web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x 
+- 2026-10-12T11:00 programado web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x 

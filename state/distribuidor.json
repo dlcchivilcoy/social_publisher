@@ -692,17 +692,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 220,
-   "segundos": 37824,
+   "restantes": 219,
+   "segundos": 36619,
    "tope": 250
   },
   "30d": {
-   "restantes": 2970,
-   "segundos": 2543424,
+   "restantes": 2969,
+   "segundos": 2542219,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T10:40:16.000Z",
+ "cuota_visto": "2026-10-12T11:00:22.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1014,14 +1014,14 @@
    "video_url": ""
   },
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x": {
-   "actualizado": "2026-10-12T10:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-12T11:00:22.000Z",
+   "buffer_id": "6accbdc632da9d8379e9e86b",
    "clave": "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x",
    "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T12:45:38.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T10:06:21.165Z",
    "id": "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6",
    "intentos": 0,
@@ -1654,6 +1654,7 @@
    "creado": "2026-10-12T10:20:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-12T10:05:34.858Z",
    "id": "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09",
@@ -2431,6 +2432,13 @@
    "clave": "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x",
    "cuando": "2026-10-12T10:40:16.000Z",
    "dueAt": "2026-10-12T12:30:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6accbdc632da9d8379e9e86b",
+   "clave": "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x",
+   "cuando": "2026-10-12T11:00:22.000Z",
+   "dueAt": "2026-10-12T12:45:38.000Z",
    "evento": "programado"
   }
  ],
