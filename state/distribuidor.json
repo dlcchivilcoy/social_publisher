@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 5
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-12T02:00:19.000Z"
+   "visto": "2026-10-12T09:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 2,
-    "sent": 19
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-12T02:00:19.000Z"
+   "visto": "2026-10-12T09:00:23.000Z"
   }
  },
  "contenidos": {
@@ -71,6 +71,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_03_junin_una-mujer-de-33-a-os-fue-asesi.mp4",
    "volanta": "Femicidio en Punta Alta",
    "youtube_url": "https://youtube.com/shorts/G_l-9upuxe4"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": {
+   "categoria": "robo",
+   "descripcion": "El rodado de color negro había sido dejado estacionado en la vía pública por su dueño. Los delincuentes se lo llevaron durante la madrugada.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-12T02:41:56.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "['Delincuentes se llevaron una camioneta Toyota Hilux negra en Bragado durante la celebración de la Fiesta Nacional del Caballo.', 'El rodado, patente AH513NH, había sido estacionado el sábado a las 21:30 en la calle Macaya, entre General Paz y Remedios de Escalada.', 'Su propietario, Gustavo Adolfo Andrioni, de 51 años, descubrió el faltante cerca de la 1:30 de la madrugada del domingo al regresar al lugar.', 'La denuncia quedó radicada y la investigación penal preparatoria quedó bajo la órbita de la UFIyJ N.º 2 del departamento judicial de Mercedes.']\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #RoboDeAutos #FiestaDelCaballo #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado",
+   "urgente": false,
+   "video_bytes": 86525,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4",
+   "volanta": "Bragado",
+   "youtube_url": "https://youtube.com/shorts/qiEx5KDuyqg"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": {
    "categoria": "otro_policial",
@@ -393,22 +417,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 69021,
+   "restantes": 223,
+   "segundos": 43816,
    "tope": 250
   },
   "30d": {
-   "restantes": 2975,
-   "segundos": 2574621,
+   "restantes": 2973,
+   "segundos": 2549416,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T02:00:20.000Z",
+ "cuota_visto": "2026-10-12T09:00:26.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -514,19 +538,70 @@
    "video_bytes": 117022,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_03_junin_una-mujer-de-33-a-os-fue-asesi.mp4"
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok": {
+   "actualizado": "2026-10-12T09:00:24.000Z",
+   "buffer_id": "6acca1aaa2941ce81769b228",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok",
+   "creado": "2026-10-12T09:00:23.000Z",
+   "dueAt": "2026-10-12T11:00:11.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T02:41:56.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "['Delincuentes se llevaron una camioneta Toyota Hilux negra en Bragado durante la celebración de la Fiesta Nacional del Caballo.', 'El rodado, patente AH513NH, había sido estacionado el sábado a las 21:30 en la calle Macaya, entre General Paz y Remedios de Escalada.', 'Su propietario, Gustavo Adolfo Andrioni, de 51 años, descubrió el faltante cerca de la 1:30 de la madrugada del domingo al regresar al lugar.', 'La denuncia quedó radicada y la investigación penal preparatoria quedó bajo la órbita de la UFIyJ N.º 2 del departamento judicial de Mercedes.']\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
+   "tipo": "video",
+   "titulo": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado",
+   "urgente": false,
+   "vence": "2026-10-12T20:41:56.000Z",
+   "video_bytes": 86525,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x": {
+   "actualizado": "2026-10-12T09:00:24.000Z",
+   "buffer_id": "6acca1a9c5fdc4c02d0f89c6",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x",
+   "creado": "2026-10-12T09:00:23.000Z",
+   "dueAt": "2026-10-12T10:00:46.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T02:41:56.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado\n\nEl rodado de color negro había sido dejado estacionado en la vía pública por su dueño. Los delincuentes se lo llevaron durante la madrugada.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
+   "tipo": "video",
+   "titulo": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado",
+   "urgente": false,
+   "vence": "2026-10-12T20:41:56.000Z",
+   "video_bytes": 86525,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-12T00:40:14.000Z",
+   "actualizado": "2026-10-12T09:00:23.000Z",
    "buffer_id": "6acc2c72fa026cfb811e6d50",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok",
    "creado": "2026-10-12T00:40:12.000Z",
    "dueAt": "2026-10-12T02:03:10.000Z",
+   "enviado": "2026-10-12T02:04:57.858Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T00:21:23.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695596092490140948",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-investigan-los-destrozos-provocados-en-la-puerta-de-633b4e",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -540,18 +615,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|x": {
-   "actualizado": "2026-10-12T00:40:14.000Z",
+   "actualizado": "2026-10-12T09:00:23.000Z",
    "buffer_id": "6acc2c7063ff33d8c99f5a90",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|x",
    "creado": "2026-10-12T00:40:12.000Z",
    "dueAt": "2026-10-12T02:16:27.000Z",
+   "enviado": "2026-10-12T02:16:33.145Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T00:21:23.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109468230863429715",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-investigan-los-destrozos-provocados-en-la-puerta-de-633b4e",
    "origen": "policiales",
    "plataforma": "x",
@@ -591,18 +667,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_02_9-de-julio_vuelco-en-la-ruta-5-cinco-pers.mp4"
   },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|x": {
-   "actualizado": "2026-10-12T00:40:14.000Z",
+   "actualizado": "2026-10-12T09:00:23.000Z",
    "buffer_id": "6acc2c7063ff33d8c99f5a52",
    "clave": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|x",
    "creado": "2026-10-12T00:40:12.000Z",
    "dueAt": "2026-10-12T02:01:22.000Z",
+   "enviado": "2026-10-12T02:01:33.271Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T00:21:23.000Z",
    "id": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109464456551874741",
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-volco-un-auto-en-la-ruta-5-y-sus-cinco-ocupantes-7a8543",
    "origen": "policiales",
    "plataforma": "x",
@@ -798,14 +875,14 @@
    "video_url": ""
   },
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x": {
-   "actualizado": "2026-10-11T22:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-12T09:00:24.000Z",
+   "buffer_id": "6acca1a9c5fdc4c02d0f89f1",
    "clave": "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x",
    "creado": "2026-10-11T22:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-12T10:15:38.000Z",
    "error": "",
-   "espera": "espera para separarse de la otra publicación de la misma noticia",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-11T22:04:48.750Z",
    "id": "web:97ba4aaf-5415-49c5-b1e4-62844c322155",
    "intentos": 0,
@@ -1463,14 +1540,70 @@
    "cuando": "2026-10-12T02:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2109445638114996711"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x",
+   "cuando": "2026-10-12T09:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok",
+   "cuando": "2026-10-12T09:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-12T09:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695596092490140948"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|x",
+   "cuando": "2026-10-12T09:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109468230863429715"
+  },
+  {
+   "clave": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|x",
+   "cuando": "2026-10-12T09:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109464456551874741"
+  },
+  {
+   "buffer_id": "6acca1a9c5fdc4c02d0f89c6",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x",
+   "cuando": "2026-10-12T09:00:26.000Z",
+   "dueAt": "2026-10-12T10:00:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acca1a9c5fdc4c02d0f89f1",
+   "clave": "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x",
+   "cuando": "2026-10-12T09:00:26.000Z",
+   "dueAt": "2026-10-12T10:15:38.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acca1aaa2941ce81769b228",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok",
+   "cuando": "2026-10-12T09:00:26.000Z",
+   "dueAt": "2026-10-12T11:00:11.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T02:00:19.000Z",
+ "ultima_sync": "2026-10-12T09:00:23.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
