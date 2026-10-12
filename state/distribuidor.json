@@ -110,6 +110,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4",
    "youtube_url": "https://youtu.be/dt1BkouTlJw"
   },
+  "entrevistas:job00189": {
+   "descripcion": "Mirá los detalles que reveló en la escultura.",
+   "duracion_seg": null,
+   "entrevistado": "Alicia Ríos",
+   "generado": "2026-10-12T17:20:13.000Z",
+   "id": "entrevistas:job00189",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alicia Ríos: Símbolos masónicos en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 41143665,
+   "video_mb": 39.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00189.mp4",
+   "youtube_url": "https://youtu.be/tBQtNSGhxcc"
+  },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": {
    "categoria": "homicidio",
    "descripcion": "Noelia Díaz fue hallada sin vida en su vivienda de Punta Alta pese a haber denunciado previamente a su agresor. El femicida, identificado como Daniel Ferreyra, fue encontrado muerto horas más tarde.",
@@ -1042,17 +1062,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 207,
-   "segundos": 15023,
+   "restantes": 206,
+   "segundos": 13826,
    "tope": 250
   },
   "30d": {
-   "restantes": 2957,
-   "segundos": 2520623,
+   "restantes": 2956,
+   "segundos": 2519426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T17:00:19.000Z",
+ "cuota_visto": "2026-10-12T17:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1234,6 +1254,31 @@
    "vence": "2026-10-14T17:00:17.000Z",
    "video_bytes": 27391279,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4"
+  },
+  "entrevistas:job00189|x": {
+   "actualizado": "2026-10-12T17:20:14.000Z",
+   "buffer_id": "6acd16cf7eb16fd28e9547f2",
+   "clave": "entrevistas:job00189|x",
+   "creado": "2026-10-12T17:20:13.000Z",
+   "dueAt": "2026-10-12T17:23:43.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-12T17:20:13.000Z",
+   "id": "entrevistas:job00189",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alicia Ríos: Símbolos masónicos en Chivilcoy\n\nMirá los detalles que reveló en la escultura.\n\n▶️ La entrevista completa: https://youtu.be/tBQtNSGhxcc",
+   "tipo": "video",
+   "titulo": "Alicia Ríos: Símbolos masónicos en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-14T17:20:13.000Z",
+   "video_bytes": 41143665,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00189.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
@@ -3953,6 +3998,26 @@
    "cuando": "2026-10-12T17:00:19.000Z",
    "dueAt": "2026-10-12T17:03:02.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00189",
+   "cuando": "2026-10-12T17:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00189|x",
+   "cuando": "2026-10-12T17:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6acd16cf7eb16fd28e9547f2",
+   "clave": "entrevistas:job00189|x",
+   "cuando": "2026-10-12T17:20:15.000Z",
+   "dueAt": "2026-10-12T17:23:43.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
@@ -3963,6 +4028,7 @@
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
+  "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
