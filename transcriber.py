@@ -407,9 +407,21 @@ def _botones_foto(name: str, draft_id: str, reel_url: str) -> str:
     return b
 
 
+def _tema_4x5(rows: list, fila: dict | None = None) -> str:
+    """El tema del bloque del próximo reel 4:5 (pedido 2026-10-12: el bloque blanco y el grafito
+    se ALTERNAN de un posteo al otro): el otro del último que quedó anotado en el ledger. Si la
+    fila ya tiene uno (el de la previsualización de la etapa 1) se respeta: lo que se publica es
+    lo que se revisó."""
+    if fila and fila.get("tema_4x5"):
+        return fila["tema_4x5"]
+    from video import tema_siguiente
+    ultimo = next((r.get("tema_4x5") for r in reversed(rows or []) if r.get("tema_4x5")), "")
+    return tema_siguiente(ultimo)
+
+
 def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
                   volanta: str = "", cuerpo: str = "", estilo: str = "",
-                  tarjetas: list | None = None) -> str:
+                  tarjetas: list | None = None, tema: str = "") -> str:
     """Arma el reel de la/s foto/s y lo sube para poder PREVISUALIZARLO en la revisión (best-effort).
     Devuelve la URL o "" si falla (el mail sale sin ese botón).
 
@@ -423,7 +435,7 @@ def _reel_preview(fotos, slug: str, titular: str = "", resumen: str = "",
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"prev_{slug}.mp4", overlay=False,
                                  titular=titular, resumen=resumen, volanta=volanta,
-                                 cuerpo=cuerpo, estilo=estilo, tarjetas=tarjetas)
+                                 cuerpo=cuerpo, estilo=estilo, tarjetas=tarjetas, tema=tema)
         return upload_reel(reel_local)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar el reel de previsualización ({e}); el mail va sin ese botón.")
@@ -749,6 +761,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # lo decide Gemini; pedido del usuario 2026-10-03, ver `montaje.py`). Si el montaje no
         # sale, van uno detrás del otro como antes. `MONTAJE_VIDEOS=0` lo apaga.
         reel = None
+        tema_reel = ""
         if (es_corresponsal and len(grupo) > 1
                 and (get("MONTAJE_VIDEOS") or "1").strip().lower() not in ("0", "no", "off")):
             from montaje import montar
@@ -775,11 +788,16 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                             f"{texto}\n\nLO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}")
                 except Exception as e:  # noqa: BLE001
                     logger.warning(f"No pude pedir las tarjetas del video ({e}).")
+            # Lo apaisado sale 4:5 con el bloque blanco o el grafito, alternados (2026-10-12).
+            from video import tema_usado
+            tema_usado(reset=True)
             reel = to_vertical_reel(video_media, reel_path, overlay=False,
                                     titular=titulo, resumen=resumen, volanta=volanta,
                                     cuerpo=texto,
                                     estilo="corresponsal" if es_corresponsal else "",
-                                    tarjetas=tarjetas)
+                                    tarjetas=tarjetas,
+                                    tema=_tema_4x5(rows, fila) if es_corresponsal else "")
+            tema_reel = tema_usado()
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
         # saca del REEL — que acaba de re-codificarse y por eso SIEMPRE tiene metadatos sanos.
@@ -838,6 +856,8 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             # (ver `_descripcion_redes`); la desgrabación queda solo como contexto.
             "escrito": extra_text,
         })
+        if tema_reel:
+            fila["tema_4x5"] = tema_reel
         if ctx:
             fila.update({
                 "origen": ctx.get("origen", ""),
@@ -1997,7 +2017,8 @@ def _declaracion_ia(audio: Path, video: Path | None, fotos: list, desc: str, ctx
             "texto": d.get("texto", ""), "resumen": d.get("resumen", "")}
 
 
-def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "") -> Path:
+def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "",
+                      tema: str = "") -> Path:
     """El reel de una declaración (`declaracion.reel`) con el audio y la foto o el video de la carpeta."""
     import declaracion
     WORK_DIR.mkdir(exist_ok=True)
@@ -2005,7 +2026,7 @@ def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "
                             nombre=decl.get("nombre", ""), cargo=decl.get("cargo", ""),
                             frases=decl.get("frases"), tramo=decl.get("tramo"),
                             es_foto=decl.get("es_foto", True), respaldo=respaldo,
-                            work_dir=WORK_DIR / f"decl_{_slug(carpeta.name)}")
+                            work_dir=WORK_DIR / f"decl_{_slug(carpeta.name)}", tema=tema)
     return Path(info["archivo"])
 
 
@@ -2098,11 +2119,16 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         draft_id = info["draft_id"]
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[wix] no pude crear el borrador del corresponsal-foto ({e}); sigue sin nota web.")
+    # Bloque blanco o grafito si el reel sale 4:5 (se alternan; ver `_tema_4x5`).
+    from video import tema_usado
+    tema = _tema_4x5(rows, fila)
+    tema_usado(reset=True)
     if decl:
         reel_url = ""
         try:
             reel_url = upload_reel(_reel_declaracion(
-                carpeta, decl, WORK_DIR / f"prev_{_slug(carpeta.name)}.mp4", respaldo=titular))
+                carpeta, decl, WORK_DIR / f"prev_{_slug(carpeta.name)}.mp4", respaldo=titular,
+                tema=tema))
         except Exception as e:  # noqa: BLE001
             logger.warning(f"No pude armar el reel de la declaración para revisar ({e}); el mail va "
                            f"sin ese botón.")
@@ -2110,7 +2136,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
         reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular,
                                  resumen=bajada_reel or resumen, volanta=volanta, cuerpo=texto,
-                                 estilo="corresponsal", tarjetas=tarjetas)
+                                 estilo="corresponsal", tarjetas=tarjetas, tema=tema)
+    tema = tema_usado()
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -2128,6 +2155,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         "decl": {k: v for k, v in (decl or {}).items()
                  if k not in ("volanta", "titulo", "texto", "resumen")} or None,
     })
+    if tema:
+        fila["tema_4x5"] = tema
     _guardar_ledger(rows)
     logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}).")
 
@@ -2231,19 +2260,24 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     # 1) Reel branded (30s) SIN firma quemada ni overlay del diario (la firma va en el caption).
     reel_url, reel_local = "", None
     try:
-        from video import foto_a_reel
+        from video import foto_a_reel, tema_usado
         WORK_DIR.mkdir(exist_ok=True)
+        # El mismo bloque (blanco o grafito) que se vio en la revisión.
+        tema = _tema_4x5(_leer_ledger(), fila)
+        tema_usado(reset=True)
         if decl:
             # DECLARACIÓN (2026-10-10): audio + foto o video, con nombre, cargo y frases.
             reel_local = _reel_declaracion(carpeta, decl, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                           respaldo=titular)
+                                           respaldo=titular, tema=tema)
         else:
             # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
             reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
                                      overlay=False, titular=titular,
                                      resumen=bajada_reel or resumen,
                                      volanta=volanta, cuerpo=texto, estilo="corresponsal",
-                                     tarjetas=fila.get("tarjetas_fotos") or [])
+                                     tarjetas=fila.get("tarjetas_fotos") or [], tema=tema)
+        if tema_usado():
+            fila["tema_4x5"] = tema_usado()
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
@@ -2335,6 +2369,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                "ig_media_id": fila.get("ig_media_id", ""), "fb_video_id": fila.get("fb_video_id", ""),
                "ig_historia_id": fila.get("ig_historia_id", ""),
                "fb_historia_id": fila.get("fb_historia_id", "")})
+    if fila.get("tema_4x5"):
+        f2["tema_4x5"] = fila["tema_4x5"]
     if yt_info:
         f2.update({"yt_video_id": yt_info.get("id", ""),
                    "yt_url": yt_info.get("short_url") or yt_info.get("url", "")})

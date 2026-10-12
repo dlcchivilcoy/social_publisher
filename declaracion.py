@@ -13,6 +13,10 @@ Cómo queda el cuadro (mismo sistema visual que lo que llega por WhatsApp, `vide
     en la caja naranja, la FRASE en la caja grafito (cambia con el audio), el ESPECTRO naranja que
     se mueve con la voz y la línea de progreso;
   · de fondo, la misma imagen difuminada y oscurecida.
+Desde el 2026-10-12 el 4:5 va en el estilo BLOQUE de `video._plan_bloque` (pedido del usuario): la
+imagen desde el borde de arriba, la línea naranja y debajo el bloque blanco o grafito (`tema`, se
+alternan de un posteo al otro) con el isologo y el logo, el NOMBRE en naranja, el cargo, la frase,
+el espectro y el progreso. `REEL_BLOQUE_4X5=0` vuelve al de antes.
 
 El audio manda la duración (el tramo elegido, hasta MAX_SEG). Después `video.to_vertical_reel(
 compuesto=True, estilo="corresponsal")` le pega el isologo y la placa de cierre, igual que al montaje.
@@ -46,6 +50,12 @@ BARRAS = 56
 GAP_PROGRESO = 14
 PROGRESO = 4
 Y_ABAJO_9X16 = 1660             # en 9:16 el bloque termina acá: deja lugar al texto de IG
+# 4:5 estilo bloque
+NOMBRE_BLOQUE = (36, 26, "700")  # cuerpo, mínimo, peso (mayúsculas, naranja: como la volanta)
+GAP_NOMBRE = 12
+GAP_FRASE = 26
+FRASE_BLOQUE = (60, 40)         # tope y piso de la frase (todas con la misma letra)
+RECORTE_MIN = 0.5               # la imagen conserva al menos la mitad de su alto
 OSCURO_FONDO = 0.42
 FADE_IN, FADE_OUT = 0.15, 0.4
 
@@ -173,11 +183,67 @@ def bloque(nombre: str, cargo: str, frases: list, f: dict, y: int) -> dict:
                 y_progreso=y_progreso, fin=y, alto=y - y0)
 
 
-def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None) -> dict:
+def bloque_4x5(nombre: str, cargo: str, frases: list, f: dict, tema: str, y: int) -> dict:
+    """El contenido del bloque del 4:5 estilo bloque desde `y` (el tope del logo), a la izquierda
+    en X 80: el logo, el NOMBRE en naranja, el cargo, el lugar de la frase (todas con la misma
+    letra, la más grande que les entra a todas), el espectro y el progreso."""
+    t = V.BLOQUE_TEMAS[tema]
+    bloques, yy = [], y + V.BLOQUE_ISOLOGO + V.BLOQUE_GAP_LOGO
+    tn = " ".join((nombre or "").split()).upper()
+    if tn:
+        c, minimo, peso = NOMBRE_BLOQUE
+        while c > minimo and V._ancho_texto(tn, f["f_r"], c, peso) > V.BLOQUE_ANCHO:
+            c -= 1
+        asc, may = V._metricas(f["f_r"], c, peso)
+        bloques.append((tn, c, yy - asc + may, f["f_r"], peso, t["volanta"], V.BLOQUE_X))
+        yy += may + GAP_NOMBRE
+    c, renglones = _cargo_renglones(cargo, f)
+    if renglones:
+        peso = CARGO[2]
+        asc, may = V._metricas(f["f_r"], c, peso)
+        salto = round(c * 1.25)
+        for i, r in enumerate(renglones):
+            bloques.append((r, c, yy + i * salto - asc + may, f["f_r"], peso, t["titular"],
+                            V.BLOQUE_X))
+        yy += (len(renglones) - 1) * salto + may
+    yy += GAP_FRASE
+    tope, piso = FRASE_BLOQUE
+    medidas = [V._texto_bloque("", x, f, tema, 0, tope=tope, piso=piso) for _a, _b, x in frases]
+    cuerpo = min([m["cuerpo"] for m in medidas if m["cuerpo"]] or [tope])
+    alto_frase = max([V._texto_bloque("", x, f, tema, 0, tope=cuerpo, piso=cuerpo)["alto"]
+                      for _a, _b, x in frases] or [0])
+    y_frase = yy
+    yy += alto_frase + GAP_ESPECTRO
+    y_espectro = yy
+    yy += ESPECTRO[1] + GAP_PROGRESO
+    y_progreso = yy
+    yy += PROGRESO
+    return dict(bloques=bloques, cajas=[], y=y, y_logo=y, y_frase=y_frase, cuerpo_frase=cuerpo,
+                y_espectro=y_espectro, y_progreso=y_progreso, fin=yy, alto=yy - y)
+
+
+def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema: str = "") -> dict:
     """Dónde va cada cosa para una imagen de w x h. `lienzo`, `media` (x, y, ancho, alto, cover),
-    `bloque` y si hay que sombrear detrás del texto (cuando va encima de la imagen)."""
+    `bloque` y si hay que sombrear detrás del texto (cuando va encima de la imagen). Con material
+    horizontal y el estilo bloque prendido, además `tema` y `cajas` (la línea y el bloque)."""
     f = V._fuentes_placa()
     w, h = max(1, int(w)), max(1, int(h))
+    if w / h >= AR_4X5 and V._bloque_on():
+        tema = tema if tema in V.BLOQUE_TEMAS else V.tema_siguiente("")
+        V._TEMA_USADO[0] = tema
+        H = ALTO_4X5
+        am = round(1080 * h / w) // 2 * 2
+        pad_a, pad_b = V.BLOQUE_PAD
+        fijo = (V.BLOQUE_LINEA + pad_a + pad_b
+                + bloque_4x5(nombre, cargo, frases, f, tema, 0)["alto"])
+        hm = max(round(am * RECORTE_MIN), min(am, H - fijo)) // 2 * 2
+        extra = max(0, H - hm - fijo)
+        b = bloque_4x5(nombre, cargo, frases, f, tema,
+                       hm + V.BLOQUE_LINEA + pad_a + round(extra * 0.38))
+        cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.CORR_NARANJA),
+                 (0, hm + V.BLOQUE_LINEA, 1080, H, V.BLOQUE_TEMAS[tema]["fondo"])]
+        return dict(lienzo=(1080, H), media=(0, 0, 1080, hm, hm < am), bloque=b, encima=False,
+                    fuentes=f, tema=tema, cajas=cajas)
     prueba = bloque(nombre, cargo, frases, f, 0)
     if w / h >= AR_4X5:
         H = ALTO_4X5
@@ -243,6 +309,12 @@ def _base_png(p: dict, salida: Path) -> Path:
     b, f = p["bloque"], p["fuentes"]
     marca = list(V._marca_corr(f))
     lienzo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    if p.get("tema"):
+        # 4:5 estilo bloque: la línea, el bloque, el logo, el nombre y el cargo.
+        V.pintar_placa(lienzo, dict(bloques=b["bloques"], cajas=p["cajas"],
+                                    logo_bloque=(p["tema"], V.BLOQUE_X, b["y_logo"])))
+        lienzo.save(salida)
+        return salida
     V.sombrear_arriba(lienzo)
     if p["encima"]:
         V._sombrear_banda(lienzo, max(0, b["y"] - 40), min(H, b["fin"] + 20), tope=0.62, borde=200)
@@ -255,7 +327,13 @@ def _base_png(p: dict, salida: Path) -> Path:
 
 def _frase_png(texto: str, p: dict, salida: Path) -> Path:
     from PIL import Image
-    t = V._tarjeta_corr("", texto, p["fuentes"], p["bloque"]["y_frase"])
+    if p.get("tema"):
+        b = p["bloque"]
+        t = V._texto_bloque("", texto, p["fuentes"], p["tema"], b["y_frase"],
+                            tope=b["cuerpo_frase"], piso=b["cuerpo_frase"])
+        t["cajas"] = []
+    else:
+        t = V._tarjeta_corr("", texto, p["fuentes"], p["bloque"]["y_frase"])
     capa = Image.new("RGBA", tuple(p["lienzo"]), (0, 0, 0, 0))
     V.pintar_placa(capa, dict(bloques=t["bloques"], cajas=t["cajas"]))
     capa.save(salida)
@@ -312,7 +390,8 @@ def alturas(muestras, sr: int, n_cuadros: int, barras: int = BARRAS):
     return suave
 
 
-def _espectro_mov(audio: Path, desde: float, dur: float, salida: Path) -> tuple:
+def _espectro_mov(audio: Path, desde: float, dur: float, salida: Path,
+                  pista: tuple = (255, 255, 255, 110)) -> tuple:
     """El espectro y la línea de progreso, cuadro a cuadro, en un .mov con transparencia.
     Devuelve (archivo, ancho, alto)."""
     from PIL import Image, ImageDraw
@@ -339,7 +418,7 @@ def _espectro_mov(audio: Path, desde: float, dur: float, salida: Path) -> tuple:
                     d.rounded_rectangle((x, round(medio - a / 2), x + ancho_barra - 1, round(medio + a / 2)),
                                         radius=ancho_barra // 2, fill=naranja)
                 y = Hb + GAP_PROGRESO
-                d.rectangle((0, y + 1, W - 1, y + 2), fill=(255, 255, 255, 110))
+                d.rectangle((0, y + 1, W - 1, y + 2), fill=pista)
                 fin = round(W * (c + 1) / n)
                 if fin > 0:
                     d.rectangle((0, y, fin - 1, y + PROGRESO - 1), fill=naranja)
@@ -358,11 +437,11 @@ def _espectro_mov(audio: Path, desde: float, dur: float, salida: Path) -> tuple:
 # =============================================================================
 
 def armar(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, tramo=None,
-          es_foto: bool = True, respaldo: str = "", work_dir=None) -> dict:
+          es_foto: bool = True, respaldo: str = "", work_dir=None, tema: str = "") -> dict:
     """El contenido del reel (sin isologo ni placa de cierre): imagen, marca, cargo, nombre,
     frases que cambian, espectro y el audio. `frases` = [{desde, texto}] con los segundos del
-    audio ORIGINAL; `tramo` = {desde, hasta} (si el audio pasa de MAX_SEG). Devuelve
-    {archivo, alto, dur, frases, tramo}."""
+    audio ORIGINAL; `tramo` = {desde, hasta} (si el audio pasa de MAX_SEG); `tema` = los colores
+    del 4:5 estilo bloque. Devuelve {archivo, alto, dur, frases, tramo, tema}."""
     audio, visual, salida = Path(audio), Path(visual), Path(salida)
     work = Path(work_dir or salida.parent)
     work.mkdir(parents=True, exist_ok=True)
@@ -383,15 +462,21 @@ def armar(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, t
         img = _foto_rgb(V.frame_at(visual, min(1.0, max(0.0, float(V.duration_seconds(visual) or 0) / 3)),
                                    work / f"_cuadro_{clave}.jpg"))
     caras = V._caras_de_foto(img) if w / h < AR_4X5 else None
-    p = plan(w, h, nombre, cargo, lista, caras)
+    p = plan(w, h, nombre, cargo, lista, caras, tema=tema)
     W, H = p["lienzo"]
     x, y, mw, mh, cover = p["media"]
     fondo = _fondo(img, (W, H), work / f"_fondo_{clave}.jpg")
     base = _base_png(p, work / f"_base_{clave}.png")
     pngs = [(_frase_png(t, p, work / f"_frase_{i}_{clave}.png"), a, b)
             for i, (a, b, t) in enumerate(lista)]
-    esp, ew, eh = _espectro_mov(audio, desde, dur, work / f"_espectro_{clave}.mov")
-    ex, ey = EJE_X - ew // 2, p["bloque"]["y_espectro"]
+    if p.get("tema"):
+        esp, ew, eh = _espectro_mov(audio, desde, dur, work / f"_espectro_{clave}.mov",
+                                    pista=V.BLOQUE_TEMAS[p["tema"]]["tenue"])
+        ex = V.BLOQUE_X
+    else:
+        esp, ew, eh = _espectro_mov(audio, desde, dur, work / f"_espectro_{clave}.mov")
+        ex = EJE_X - ew // 2
+    ey = p["bloque"]["y_espectro"]
 
     entradas = ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", str(fondo)]
     if es_foto:
@@ -435,18 +520,21 @@ def armar(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, t
                 f"{dur_audio:.1f}), {len(lista)} frase(s): "
                 + " · ".join(f"{a:.0f}s «{t[:28]}»" for a, _b, t in lista))
     return {"archivo": str(salida), "alto": H, "dur": round(dur, 2), "tramo": [desde, hasta],
-            "frases": [[round(a, 2), round(b, 2), t] for a, b, t in lista]}
+            "frases": [[round(a, 2), round(b, 2), t] for a, b, t in lista],
+            "tema": p.get("tema", "")}
 
 
 def reel(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, tramo=None,
-         es_foto: bool = True, respaldo: str = "", work_dir=None) -> dict:
-    """El reel TERMINADO: `armar` + isologo y placa de cierre (`video.to_vertical_reel`)."""
+         es_foto: bool = True, respaldo: str = "", work_dir=None, tema: str = "") -> dict:
+    """El reel TERMINADO: `armar` + isologo y placa de cierre (`video.to_vertical_reel`). En el 4:5
+    estilo bloque el isologo ya va en el bloque."""
     salida = Path(salida)
     work = Path(work_dir or salida.parent)
     contenido = work / f"_decl_{salida.stem}.mp4"
     info = armar(audio, visual, contenido, nombre=nombre, cargo=cargo, frases=frases, tramo=tramo,
-                 es_foto=es_foto, respaldo=respaldo, work_dir=work)
-    V.to_vertical_reel(contenido, salida, compuesto=True, estilo="corresponsal", alto=info["alto"])
+                 es_foto=es_foto, respaldo=respaldo, work_dir=work, tema=tema)
+    V.to_vertical_reel(contenido, salida, compuesto=True, estilo="corresponsal", alto=info["alto"],
+                       logo=not info.get("tema"))
     info["archivo"] = str(salida)
     return info
 

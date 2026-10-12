@@ -205,10 +205,15 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     # que no pise en el GitHub Release al reel del diario.
     firma = tr._firma_texto() if es_corresponsal else None
     # Lo que llega por WhatsApp va con la especificación visual v1.0 (2026-10-02).
+    # Lo apaisado sale 4:5 con el bloque blanco o el grafito, alternados (2026-10-12).
+    from video import tema_usado
+    tema_usado(reset=True)
     reel = to_vertical_reel(video, tr.WORK_DIR / f"reel_radio_{slug}.mp4",
                             firma=firma, overlay=False, titular=titulo, resumen=resumen,
                             volanta=volanta, cuerpo=texto,
-                            estilo="corresponsal" if es_corresponsal else "")
+                            estilo="corresponsal" if es_corresponsal else "",
+                            tema=tr._tema_4x5(rows, fila) if es_corresponsal else "")
+    tema_reel = tema_usado()
 
     if dry_run:
         logger.info(f"[dry-run] hay_noticia={hay}\n  VOLANTA: {volanta}\n  TÍTULO: {titulo}\n"
@@ -232,6 +237,8 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
         # `tr._descripcion_redes`); la desgrabación queda solo como contexto.
         "escrito": extra_text,
     })
+    if tema_reel:
+        fila["tema_4x5"] = tema_reel
     if ctx:
         fila.update({"origen": ctx.get("origen", ""),
                      "corresponsal_nombre": ctx.get("nombre", "")})
