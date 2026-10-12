@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 10
+    "scheduled": 0,
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-12T22:40:13.000Z"
+   "visto": "2026-10-12T23:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 1,
-    "sent": 32
+    "scheduled": 0,
+    "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-12T22:40:13.000Z"
+   "visto": "2026-10-12T23:40:17.000Z"
   }
  },
  "contenidos": {
@@ -1330,17 +1330,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 81603,
+   "restantes": 245,
+   "segundos": 77999,
    "tope": 250
   },
   "30d": {
-   "restantes": 2947,
-   "segundos": 2500228,
+   "restantes": 2946,
+   "segundos": 2496623,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-12T22:40:13.000Z",
+ "cuota_visto": "2026-10-12T23:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1915,18 +1915,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_07_bragado_daniel-ferrari-volc-con-su-che.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-12T21:40:15.000Z",
+   "actualizado": "2026-10-12T23:40:17.000Z",
    "buffer_id": "6acd53c1aec88be081e4576e",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok",
    "creado": "2026-10-12T21:40:15.000Z",
    "dueAt": "2026-10-12T23:03:17.000Z",
+   "enviado": "2026-10-12T23:38:16.745Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T21:21:34.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695923382788836616",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-sin-heridos-y-moto-retenida-por-falta-de-73fde0",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -1940,18 +1941,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_02_chacabuco_choque-sin-heridos-y-moto-rete.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x": {
-   "actualizado": "2026-10-12T22:00:17.000Z",
+   "actualizado": "2026-10-12T23:40:17.000Z",
    "buffer_id": "6acd5875c210c8c6dd3a1df4",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
    "creado": "2026-10-12T21:40:15.000Z",
    "dueAt": "2026-10-12T22:48:33.000Z",
+   "enviado": "2026-10-12T22:48:48.267Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T21:21:34.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109778337136517508",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-sin-heridos-y-moto-retenida-por-falta-de-73fde0",
    "origen": "policiales",
    "plataforma": "x",
@@ -5093,10 +5095,22 @@
    "cuando": "2026-10-12T22:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2109767012490629631"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-12T23:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695923382788836616"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
+   "cuando": "2026-10-12T23:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109778337136517508"
   }
  ],
  "ultima_limpieza_release": "2026-10-12",
- "ultima_sync": "2026-10-12T22:40:13.000Z",
+ "ultima_sync": "2026-10-12T23:40:17.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
