@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 13/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 12 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 11 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 0 enviadas + 2 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2940 de 3000 (visto 2026-10-13T10:20:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2939 de 3000 (visto 2026-10-13T10:40:15.000Z)
 
-## Cola propia (23 esperando)
-- X · Notas web · Recuerdan que “está prohibido arrojar residuos voluminosos” e informan del Crono — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Propuesta interdisciplinaria — en turno
+## Cola propia (22 esperando)
+- X · Notas web · Propuesta interdisciplinaria — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con prese — en turno
 - X · Notas web · Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clau — en turno
 - X · Notas web · Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y a — en turno
@@ -49,7 +48,6 @@ Actualizado: 13/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T09:00 programado policiales:https://www.diariodemocracia.com/policiales/34644 
 - 2026-10-13T09:00 programado web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x 
 - 2026-10-13T09:00 programado web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x 
 - 2026-10-13T09:00 programado web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x 
@@ -74,3 +72,4 @@ Actualizado: 13/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-13T10:20 enviado policiales:https://www.diariojunin.com/noticias/102795_amena 
 - 2026-10-13T10:20 programado web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x 
 - 2026-10-13T10:20 programado web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x 
+- 2026-10-13T10:40 programado web:79374449-0d19-4bc1-8bac-ee1a849f1966|x 
