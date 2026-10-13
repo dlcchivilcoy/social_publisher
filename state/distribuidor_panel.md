@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 13/10/2026 19:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 9 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 12 | 0 | 4 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 9 | 2 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 15 | 0 | 0 | 0 |
 
 ## Canales
@@ -16,9 +16,15 @@ Actualizado: 13/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2914 de 3000 (visto 2026-10-13T21:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2913 de 3000 (visto 2026-10-13T23:00:23.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (21 esperando)
+- X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Di — cupo diario de Notas web en X completo (15)
 - X · Notas web · Anses: de cuánto serán las jubilaciones y pensiones en noviembre tras la inflaci — cupo diario de Notas web en X completo (15)
@@ -41,16 +47,6 @@ Actualizado: 13/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T19:00 entrevista_aprobada entrevistas:job00197 
-- 2026-10-13T19:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-13T19:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-13T19:00 recibido policiales:https://www.diariodemocracia.com/policiales/34647 
-- 2026-10-13T19:00 recibido policiales:https://www.diariodemocracia.com/policiales/34647 
-- 2026-10-13T19:00 recibido entrevistas:job00197|x 
-- 2026-10-13T19:00 programado entrevistas:job00197|x 
-- 2026-10-13T19:00 programado policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-13T19:00 programado policiales:https://www.diariodemocracia.com/policiales/34647 
-- 2026-10-13T19:00 programado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-13T19:00 programado policiales:https://www.diariodemocracia.com/policiales/34647 
 - 2026-10-13T20:00 enviado entrevistas:job00192|x 
 - 2026-10-13T20:00 enviado entrevistas:job00194v2|x 
@@ -66,3 +62,13 @@ Actualizado: 13/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-13T21:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-13T21:40 recibido web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x 
 - 2026-10-13T22:20 recibido web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x 
+- 2026-10-13T23:00 recibido policiales:https://semanariodejunin.com.ar/nota/75530/invest 
+- 2026-10-13T23:00 recibido policiales:https://semanariodejunin.com.ar/nota/75530/invest 
+- 2026-10-13T23:00 recibido policiales:https://www.diariodemocracia.com/policiales/34648 
+- 2026-10-13T23:00 recibido policiales:https://www.diariodemocracia.com/policiales/34648 
+- 2026-10-13T23:00 recibido policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
+- 2026-10-13T23:00 recibido policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
+- 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
+- 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
+- 2026-10-13T23:00 programado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
+- 2026-10-13T23:00 programado policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
