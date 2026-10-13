@@ -1702,17 +1702,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 237,
-   "segundos": 37196,
+   "restantes": 236,
+   "segundos": 35999,
    "tope": 250
   },
   "30d": {
-   "restantes": 2938,
-   "segundos": 2455821,
+   "restantes": 2937,
+   "segundos": 2454623,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T11:00:21.000Z",
+ "cuota_visto": "2026-10-13T11:20:18.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3420,6 +3420,7 @@
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-13T10:07:34.429Z",
    "id": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078",
@@ -3490,13 +3491,14 @@
    "video_url": ""
   },
   "web:70c111e7-3198-400b-89de-c2aca69f11ce|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T11:20:17.000Z",
+   "buffer_id": "6ace13f13b22eef92826b202",
    "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
    "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T13:15:25.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T10:08:14.886Z",
    "id": "web:70c111e7-3198-400b-89de-c2aca69f11ce",
    "intentos": 0,
@@ -3819,14 +3821,14 @@
    "video_url": ""
   },
   "web:903567f7-46a1-4218-a19a-686670a11eb1|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T11:20:17.000Z",
+   "buffer_id": "6ace13f195a61d8e02c8052c",
    "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
    "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T13:00:55.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T10:08:56.201Z",
    "id": "web:903567f7-46a1-4218-a19a-686670a11eb1",
    "intentos": 0,
@@ -6421,6 +6423,20 @@
    "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
    "cuando": "2026-10-13T11:00:21.000Z",
    "dueAt": "2026-10-13T12:45:38.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace13f195a61d8e02c8052c",
+   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
+   "cuando": "2026-10-13T11:20:18.000Z",
+   "dueAt": "2026-10-13T13:00:55.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace13f13b22eef92826b202",
+   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
+   "cuando": "2026-10-13T11:20:18.000Z",
+   "dueAt": "2026-10-13T13:15:25.000Z",
    "evento": "programado"
   }
  ],
