@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 16:40 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 17:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 5 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 10 | 3 | 2 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 9 | 3 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 7 | 2 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 10 | 2 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 9 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 25 enviadas + 5 programadas de 50 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 29 enviadas + 4 programadas de 50 por día
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2916 de 3000 (visto 2026-10-13T19:00:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2915 de 3000 (visto 2026-10-13T20:00:29.000Z)
 
 ## Cola propia (13 esperando)
 - X · Notas web · Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domicili — cupo diario de Notas web en X completo (15)
@@ -39,12 +39,6 @@ Actualizado: 13/10/2026 16:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T18:20 recibido web:63610a74-1ceb-4c17-9d20-a5b404821855|x 
-- 2026-10-13T18:20 recibido web:6ab0651a-5f39-461f-9277-fae18ec231f6|x 
-- 2026-10-13T18:20 recibido entrevistas:job00194v2|x 
-- 2026-10-13T18:20 recibido entrevistas:job00196|x 
-- 2026-10-13T18:20 vencido web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90|x cupo diario de Notas web en X completo (15)
-- 2026-10-13T18:20 vencido web:a75fc86b-708b-47e8-81d7-5e6ef80af77b|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T18:20 vencido web:ceec6742-f491-45cb-b224-31d1a7caf1da|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T18:20 programado entrevistas:job00194v2|x 
 - 2026-10-13T18:20 programado entrevistas:job00196|x 
@@ -64,3 +58,9 @@ Actualizado: 13/10/2026 16:40 (hora AR) · ACTIVO
 - 2026-10-13T19:00 programado policiales:https://www.diariodemocracia.com/policiales/34647 
 - 2026-10-13T19:00 programado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-13T19:00 programado policiales:https://www.diariodemocracia.com/policiales/34647 
+- 2026-10-13T20:00 enviado entrevistas:job00192|x 
+- 2026-10-13T20:00 enviado entrevistas:job00194v2|x 
+- 2026-10-13T20:00 enviado entrevistas:job00194|x 
+- 2026-10-13T20:00 enviado policiales:https://laopinionline.ar/articulo/salto-agrediero 
+- 2026-10-13T20:00 enviado policiales:https://www.diariodemocracia.com/policiales/34647 
+- 2026-10-13T20:00 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 

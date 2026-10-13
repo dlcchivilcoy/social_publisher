@@ -8,10 +8,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 8
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-13T18:40:26.000Z"
+   "visto": "2026-10-13T20:00:29.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 5,
-    "sent": 25
+    "scheduled": 4,
+    "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-13T18:40:26.000Z"
+   "visto": "2026-10-13T20:00:29.000Z"
   }
  },
  "contenidos": {
@@ -2191,17 +2191,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 215,
-   "segundos": 8394,
+   "restantes": 214,
+   "segundos": 4786,
    "tope": 250
   },
   "30d": {
-   "restantes": 2916,
-   "segundos": 2427019,
+   "restantes": 2915,
+   "segundos": 2423411,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T19:00:24.000Z",
+ "cuota_visto": "2026-10-13T20:00:29.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2516,18 +2516,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00191.mp4"
   },
   "entrevistas:job00192|x": {
-   "actualizado": "2026-10-13T17:20:15.000Z",
+   "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace68510b1619ab656aa069",
    "clave": "entrevistas:job00192|x",
    "creado": "2026-10-13T17:00:22.000Z",
    "dueAt": "2026-10-13T19:15:57.000Z",
+   "enviado": "2026-10-13T19:16:10.763Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T17:00:22.000Z",
    "id": "entrevistas:job00192",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110087216101732674",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -2566,18 +2567,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00193.mp4"
   },
   "entrevistas:job00194v2|x": {
-   "actualizado": "2026-10-13T18:20:17.000Z",
+   "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace76639d848852704299ea",
    "clave": "entrevistas:job00194v2|x",
    "creado": "2026-10-13T18:20:14.000Z",
    "dueAt": "2026-10-13T19:45:14.000Z",
+   "enviado": "2026-10-13T19:45:22.619Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T18:20:14.000Z",
    "id": "entrevistas:job00194v2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110094564144894407",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -2591,18 +2593,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00194_v2.mp4"
   },
   "entrevistas:job00194|x": {
-   "actualizado": "2026-10-13T17:40:17.000Z",
+   "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace6d02c75fa9d311e043b5",
    "clave": "entrevistas:job00194|x",
    "creado": "2026-10-13T17:40:16.000Z",
    "dueAt": "2026-10-13T19:30:52.000Z",
+   "enviado": "2026-10-13T19:31:09.422Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T17:40:16.000Z",
    "id": "entrevistas:job00194",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110090985468211418",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -2796,18 +2799,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_04_pergamino_agredieron-a-inspectores-viale.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x": {
-   "actualizado": "2026-10-13T15:40:15.000Z",
+   "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace50e0aae68f5d3cce3761",
    "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x",
    "creado": "2026-10-13T15:20:18.000Z",
    "dueAt": "2026-10-13T18:45:03.000Z",
+   "enviado": "2026-10-13T18:45:18.905Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T15:17:50.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110079448791859249",
    "nota_url": "https://www.diariolacampaña.com.ar/n/salto-agredieron-a-inspectores-de-transito-secuestraron-motos-y-268ac2",
    "origen": "policiales",
    "plataforma": "x",
@@ -3497,18 +3501,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_05_chacabuco_una-adolescente-de-15-a-os-suf.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok": {
-   "actualizado": "2026-10-13T19:00:20.000Z",
+   "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace7fc8b8901dbd45b7bbec",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
    "creado": "2026-10-13T19:00:18.000Z",
    "dueAt": "2026-10-13T19:43:46.000Z",
+   "enviado": "2026-10-13T19:45:43.402Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T18:42:25.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696240544711724306",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-hallaron-una-moto-robada-en-lincoln-durante-un-4c109b",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -3859,18 +3864,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_06_junin_atac-con-un-machete-a-polic-as.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok": {
-   "actualizado": "2026-10-13T19:00:20.000Z",
+   "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace7fc8b8901dbd45b7bb39",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
    "creado": "2026-10-13T19:00:18.000Z",
    "dueAt": "2026-10-13T19:03:46.000Z",
+   "enviado": "2026-10-13T19:04:45.453Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T18:42:25.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696230196680183092",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehendidos-tras-una-violenta-pelea-con-armas-22ab7d",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -8498,10 +8504,46 @@
    "cuando": "2026-10-13T19:00:24.000Z",
    "dueAt": "2026-10-13T19:43:46.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00192|x",
+   "cuando": "2026-10-13T20:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110087216101732674"
+  },
+  {
+   "clave": "entrevistas:job00194v2|x",
+   "cuando": "2026-10-13T20:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110094564144894407"
+  },
+  {
+   "clave": "entrevistas:job00194|x",
+   "cuando": "2026-10-13T20:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110090985468211418"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x",
+   "cuando": "2026-10-13T20:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110079448791859249"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
+   "cuando": "2026-10-13T20:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696240544711724306"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
+   "cuando": "2026-10-13T20:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696230196680183092"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T18:40:26.000Z",
+ "ultima_sync": "2026-10-13T20:00:29.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
