@@ -1703,6 +1703,58 @@ def _caras_en_cuadro(caras, w: int, h: int, media: tuple, cover: bool) -> list:
     return out
 
 
+def _objetos_de_foto(img) -> list:
+    """El OBJETO CENTRAL de una foto (x, y, ancho, alto en píxeles), o [] si no se destaca nada.
+
+    Para ubicar la caja del texto sin tapar lo importante cuando no hay caras (un monumento,
+    una fachada, un auto, un documento; pedido del usuario 2026-10-12 para las efemérides del
+    Archivo). Es un mapa de prominencia por «residuo espectral» (Hou y Zhang, 2007): lo que la
+    foto tiene de distinto a su propio fondo. Sin dependencias: numpy y PIL. Rápido (64 px)."""
+    try:
+        import numpy as np
+        from PIL import Image, ImageFilter
+        w, h = img.size
+        lado = 64
+        sw, sh = (lado, max(8, round(lado * h / w))) if w >= h else (max(8, round(lado * w / h)), lado)
+        a = np.asarray(img.convert("L").resize((sw, sh), Image.BILINEAR), dtype=np.float64)
+        f = np.fft.fft2(a)
+        amp = np.log(np.abs(f) + 1e-9)
+        fase = np.angle(f)
+        pad = np.pad(amp, 1, mode="edge")
+        media = sum(pad[i:i + sh, j:j + sw] for i in range(3) for j in range(3)) / 9.0
+        sal = np.abs(np.fft.ifft2(np.exp((amp - media) + 1j * fase))) ** 2
+        sal = (sal / (sal.max() + 1e-12) * 255).astype(np.uint8)
+        sal = np.asarray(Image.fromarray(sal).filter(ImageFilter.GaussianBlur(2.5)), dtype=np.float64)
+        if sal.max() <= 0:
+            return []
+        marca = sal >= sal.max() * 0.45
+        if marca.mean() < 0.01 or marca.mean() > 0.6:      # nada destacado, o todo es «objeto»
+            return []
+        ys, xs = np.nonzero(marca)
+        # El grueso de la masa, no los puntos sueltos de los bordes.
+        x0, x1 = np.percentile(xs, (5, 95))
+        y0, y1 = np.percentile(ys, (5, 95))
+        kx, ky = w / sw, h / sh
+        return [(int(x0 * kx), int(y0 * ky), int((x1 - x0 + 1) * kx), int((y1 - y0 + 1) * ky))]
+    except Exception:                                            # noqa: BLE001
+        return []
+
+
+def _objetos_en_cuadro(objetos, caras, w: int, h: int, media: tuple, cover: bool) -> list:
+    """Los `objetos` (como las caras, en píxeles del material) llevados al cuadro del reel, con
+    el MISMO recorte que deciden las caras (`_ventana_caras`), sin el margen de cabeza."""
+    if not objetos:
+        return []
+    x, y, wm, hm = media
+    if cover:
+        nw, nh, cx, cy = _ventana_caras(caras or [], w, h, wm, hm, arriba_primero=True)
+        esc, dx, dy = nw / max(1, w), x - cx, y - cy
+    else:
+        esc, dx, dy = wm / max(1, w), x, y
+    return [(ox * esc + dx, oy * esc + dy, (ox + ow) * esc + dx, (oy + oh) * esc + dy)
+            for ox, oy, ow, oh in objetos]
+
+
 def _cuanto_tapa(rect: tuple, cabezas: list) -> float:
     """Qué fracción de la cabeza más tapada queda debajo de `rect`."""
     peor = 0.0
@@ -2067,7 +2119,7 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
 
 
 def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: bool, caras,
-               alto: int = 0, tema: str = "") -> dict:
+               alto: int = 0, tema: str = "", objetos=None) -> dict:
     """Un cuadro de un reel de lo que llega por WhatsApp (ver `CORR_NARANJA`), foto o video.
 
     · VERTICAL o cuadrado: a sangre en 1080x1920 (se recorta buscando a los sujetos) con el
@@ -2126,11 +2178,24 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
     cover = abs(1080 * h / w - 1920) > 2
     t = _tarjeta_corr(volanta, titular, f, CORR_Y_ABAJO)
     cabezas = _caras_en_cuadro(caras, w, h, media, cover)
-    if cabezas and _cuanto_tapa(t["rect"], cabezas) > 0.15:
-        arriba = _tarjeta_corr(volanta, titular, f, CORR_Y_ARRIBA)
-        if _cuanto_tapa(arriba["rect"], cabezas) < _cuanto_tapa(t["rect"], cabezas):
-            logger.info("La tarjeta abajo tapaba una cara: va arriba (Y 360).")
-            t = arriba
+    # Y el OBJETO central (pedido 2026-10-12: «posicionar la caja en un lugar que no bloquee
+    # rostros u objetos centrales»). Tres lugares posibles, en este orden de preferencia: el de
+    # siempre (Y 1058), más abajo (pegado a la franja de la app) y arriba (Y 360). Gana el que
+    # menos tapa; una cara pesa el doble que un objeto. Sin caras ni objeto, el de siempre.
+    cosas = _objetos_en_cuadro(objetos, caras, w, h, media, cover)
+    if cabezas or cosas:
+        def tapa(rect):
+            return 2 * _cuanto_tapa(rect, cabezas) + _cuanto_tapa(rect, cosas)
+        alto_t = t["rect"][3] - t["rect"][1]
+        lugares = [t, _tarjeta_corr(volanta, titular, f, 1920 - BANDA_SEGURO - alto_t),
+                   _tarjeta_corr(volanta, titular, f, CORR_Y_ARRIBA)]
+        if tapa(t["rect"]) > 0.15:
+            mejor = min(lugares, key=lambda x: tapa(x["rect"]))
+            if tapa(mejor["rect"]) < tapa(t["rect"]):
+                logger.info(f"La tarjeta en Y {CORR_Y_ABAJO} tapaba "
+                            f"{'una cara' if _cuanto_tapa(t['rect'], cabezas) > 0.15 else 'el objeto central'}"
+                            f": va en Y {mejor['rect'][1]}.")
+                t = mejor
     plan.update(media=media, cover=cover, sombra_arriba=True, halo=list(marca),
                 cajas=t["cajas"], bloques=marca + t["bloques"], titulo=t["titulo"],
                 volanta=t["volanta"], texto=t["rect"])
@@ -2139,7 +2204,7 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
 
 def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
                grafica: bool = False, modo_texto: str = "", caras=None,
-               estilo: str = "", alto: int = 0, tema: str = "") -> dict:
+               estilo: str = "", alto: int = 0, tema: str = "", objetos=None) -> dict:
     """TODO lo que va en un cuadro del reel estilo placa, según la FORMA del material
     (pedido del usuario 2026-09-26; ver `PLACA_VERTICAL_AR`):
 
@@ -2168,7 +2233,7 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
     elige los colores del 4:5 estilo bloque (`BLOQUE_TEMAS`)."""
     f = _fuentes_placa()
     if estilo == "corresponsal":
-        return _plan_corr(volanta, titular, f, w, h, grafica, caras, alto, tema)
+        return _plan_corr(volanta, titular, f, w, h, grafica, caras, alto, tema, objetos)
     forma = forma_de(w, h, grafica)
     modo = modo_texto or forma
     marca, fin_marca = _marca_bloques(f)
@@ -4305,6 +4370,9 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
             recorta = (estilo == "corresponsal" and not grafica) or forma in ("pantalla",
                                                                                "vertical")
             caras = _caras_de_foto(img) if recorta else None
+            # El objeto central, para que la caja de una foto vertical no lo tape (2026-10-12).
+            objetos = (_objetos_de_foto(img) if (estilo == "corresponsal" and not grafica
+                                                and img.width <= img.height) else None)
             # Un afiche o un flyer cuadrado no lleva caja (`_plan_corr`): no gasta tarjeta.
             sin_caja = grafica and img.width / max(1, img.height) <= CORR_AR_APAISADO
             v, t = volanta, titular
@@ -4313,7 +4381,8 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
                 v = v or volanta
             plan = plan_placa(v, t, resumen, img.width, img.height,
                               grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo,
-                              alto=alto if estilo == "corresponsal" else 0, tema=tema)
+                              alto=alto if estilo == "corresponsal" else 0, tema=tema,
+                              objetos=objetos)
             placas.append(_placa_de_foto(img, plan, fondo,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
                                          Path(f).name, caras=caras))
