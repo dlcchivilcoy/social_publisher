@@ -11,7 +11,7 @@
     "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-13T13:40:22.000Z"
+   "visto": "2026-10-13T15:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 15
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-10-13T13:40:22.000Z"
+   "visto": "2026-10-13T15:00:20.000Z"
   }
  },
  "contenidos": {
@@ -1867,17 +1867,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 26393,
+   "restantes": 224,
+   "segundos": 22795,
    "tope": 250
   },
   "30d": {
-   "restantes": 2926,
-   "segundos": 2445018,
+   "restantes": 2925,
+   "segundos": 2441420,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T14:00:24.000Z",
+ "cuota_visto": "2026-10-13T15:00:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2010,18 +2010,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
   },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x": {
-   "actualizado": "2026-10-13T12:20:19.000Z",
+   "actualizado": "2026-10-13T15:00:20.000Z",
    "buffer_id": "6ace220476384aa24c2d70d1",
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "2026-10-13T14:00:35.000Z",
+   "enviado": "2026-10-13T14:04:41.250Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T12:10:17.000Z",
    "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110008826552365233",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
    "origen": "bot",
    "plataforma": "x",
@@ -3585,18 +3586,19 @@
    "video_url": ""
   },
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x": {
-   "actualizado": "2026-10-13T12:00:22.000Z",
+   "actualizado": "2026-10-13T15:00:20.000Z",
    "buffer_id": "6ace1d57b4d66b8b80b52062",
    "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T13:45:49.000Z",
+   "enviado": "2026-10-13T13:46:02.718Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:06:49.714Z",
    "id": "web:359c8325-07b4-4de6-9aca-1c26e7243c29",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110004135168806952",
    "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
    "origen": "web",
    "plataforma": "x",
@@ -7233,10 +7235,22 @@
    "cuando": "2026-10-13T14:00:24.000Z",
    "dueAt": "2026-10-13T18:30:55.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
+   "cuando": "2026-10-13T15:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110008826552365233"
+  },
+  {
+   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
+   "cuando": "2026-10-13T15:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110004135168806952"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T13:40:22.000Z",
+ "ultima_sync": "2026-10-13T15:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

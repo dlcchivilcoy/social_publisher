@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 11:40 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 12:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 5 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 5 | 6 | 0 | 0 | 0 |
+| Notas web | X | 15 | 11 | 4 | 6 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 15 enviadas + 7 programadas de 50 por día
+- X: conectado · Buffer: 17 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2926 de 3000 (visto 2026-10-13T14:00:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2925 de 3000 (visto 2026-10-13T15:00:21.000Z)
 
 ## Cola propia (15 esperando)
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — cupo diario de Notas web en X completo (15)
@@ -41,8 +41,6 @@ Actualizado: 13/10/2026 11:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T12:40 recibido policiales:https://laopinionline.ar/articulo/condenaron-a-14 
-- 2026-10-13T12:40 recibido policiales:https://laopinionline.ar/articulo/condenaron-a-14 
 - 2026-10-13T12:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
 - 2026-10-13T12:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
 - 2026-10-13T12:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
@@ -66,3 +64,5 @@ Actualizado: 13/10/2026 11:40 (hora AR) · ACTIVO
 - 2026-10-13T13:40 enviado web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x 
 - 2026-10-13T13:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
 - 2026-10-13T14:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
+- 2026-10-13T15:00 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x 
+- 2026-10-13T15:00 enviado web:359c8325-07b4-4de6-9aca-1c26e7243c29|x 
