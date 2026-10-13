@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 14
+    "scheduled": 2,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-13T02:40:17.000Z"
+   "visto": "2026-10-13T10:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 0,
-    "sent": 33
+    "scheduled": 6,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-13T02:40:17.000Z"
+   "visto": "2026-10-13T10:20:19.000Z"
   }
  },
  "contenidos": {
@@ -650,6 +650,42 @@
    "volanta": "Bolívar",
    "youtube_url": "https://youtube.com/shorts/iEXj7MXoEQc"
   },
+  "web:0880263e-20bb-4331-801a-a2781c0ec918": {
+   "categoria": "",
+   "descripcion": "Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruzadas, objeciones técnicas y la defensa del Ejecutivo El Concejo Deliberante se convirtió en el escenario de una durísima discusión en torno al futuro del emblemático Complejo Federación. La oposición expuso severas inconsistencias en el expediente, falta de transparencia y una histórica desprotección hacia los compradores estafados. Por su parte, la gestión municipal desmintió las críticas, asegurando que el...",
+   "generado": "2026-10-13T10:04:01.122Z",
+   "id": "web:0880263e-20bb-4331-801a-a2781c0ec918",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a73c3130e00d4e25a06735c6a428b1b2~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/complejo-federacion-tension-politica-y-debate-abierto-tras-el-rechazo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruzadas, objeciones técnicas y la defensa del Ejecutivo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/complejo-federacion-tension-politica-y-debate-abierto-tras-el-rechazo",
+   "volanta": "Complejo Federación"
+  },
+  "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": {
+   "categoria": "",
+   "descripcion": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas La directora de la Escuela Primaria N° 30 de Chivilcoy, Estefanía Cruz, visitó los estudios de Radio del Centro durante el programa La Mañana del Centro para detallar el presente institucional del establecimiento y profundizar sobre el singular lazo que une a la comunidad educativa con la República de Filipinas. A lo largo de la charla, la docente repasó las reformas edilicias...",
+   "generado": "2026-10-13T10:04:42.608Z",
+   "id": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_87d5386229a44d85ab8eae56e13a3d33~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
+   "volanta": "Vínculo Internacional"
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": {
    "categoria": "nacionales",
    "descripcion": "El Presidente disertará en la Cámara de Comercio estadounidense y recibirá una distinción. Además, participará en un encuentro contra el antisemitismo en…",
@@ -703,6 +739,60 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/proyecto-institucional-acercaran-a-los-barrios-una-mesa-itinerante-de",
    "volanta": "Proyecto institucional"
+  },
+  "web:2f28167a-6caf-4b85-81ac-e53b3248f984": {
+   "categoria": "",
+   "descripcion": "Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica Los integrantes del espacio de folclore del Taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional de la Danza Folclórica, donde tuvieron la oportunidad de compartir su talento y su pasión por las tradiciones argentinas. Participaron delegaciones de toda la zona y destacaron que Chivilcoy fue la única integrada por Personas con discapacidad. La...",
+   "generado": "2026-10-13T10:05:24.695Z",
+   "id": "web:2f28167a-6caf-4b85-81ac-e53b3248f984",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_26a759c42a7d456ca56d238881fe915b~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
+   "volanta": "En Rawson"
+  },
+  "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": {
+   "categoria": "",
+   "descripcion": "Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de Soda y la etapa como solista de Gustavo Cerati” La banda tributo Fuerza Stereo confirmó una nueva presentación en la ciudad de Chivilcoy para el viernes 16 de octubre en la sala de la Agrupación Artística Chivilcoy. La propuesta musical, que recrea minuciosamente la obra de Soda Stereo y también aborda la etapa solista de Gustavo Cerati, llegará por tercera vez al público local para ofrecer un recorrido integral por...",
+   "generado": "2026-10-13T10:06:10.028Z",
+   "id": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_400497288b5144b7b4a9887f8f59892e~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mas-de-268-shows-fuerza-stereo-presentara-su-tributo-en-chivilcoy",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de Soda y la etapa como solista de Gustavo Cerati”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mas-de-268-shows-fuerza-stereo-presentara-su-tributo-en-chivilcoy",
+   "volanta": "Más de 268 shows"
+  },
+  "web:359c8325-07b4-4de6-9aca-1c26e7243c29": {
+   "categoria": "",
+   "descripcion": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior Con orgullo, emoción y la convicción de estar viviendo un momento histórico, el tenista de Chivilcoy Máximo Cataldi ya se encuentra instalado en San Pablo, Brasil, junto a su entrenador, Iván Jorge, para disputar el Australian Open Junior Series South America. El gran objetivo: quedarse con el título y la clasificación directa al cuadro principal del Australian Open Junior 2027. El certamen...",
+   "generado": "2026-10-13T10:06:49.714Z",
+   "id": "web:359c8325-07b4-4de6-9aca-1c26e7243c29",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6c33c81c31004ccf990be8aee6a0340f~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
+   "volanta": "Tenis"
   },
   "web:380cc711-312c-4089-9509-56feaafc5238": {
    "categoria": "nacionales",
@@ -848,6 +938,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-debate-en-el-oficialismo-rumbo-a-2027-las-discusiones-sobre-75f2bd",
    "volanta": ""
   },
+  "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": {
+   "categoria": "",
+   "descripcion": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad El \"Lobo\" aplastó 5-0 a Alsina en el cierre del domingo y quedó como único líder del Torneo Clausura de Primera División. En una novena fecha empañada por las suspensiones, Colón e Independiente regalaron sendas goleadas para prendirse en la lucha de arriba. La novena fecha del Torneo Clausura de Primera División dejó un saldo agitado tanto en la tabla de posiciones como en el calendario....",
+   "generado": "2026-10-13T10:07:34.429Z",
+   "id": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_782e944eeebe480699574f05c0d3d37f~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
+   "volanta": "Fútbol"
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
    "categoria": "nacionales",
    "descripcion": "La fiscalía solicitó una pena de una década de prisión para Maximiliano Cabaleyro, referente de Camioneros, tras el bloqueo a una distribuidora familiar…",
@@ -883,6 +991,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-saludo-al-papa-leon-xiv-y-el-vaticano-confirmo-la-021719",
    "volanta": ""
+  },
+  "web:70c111e7-3198-400b-89de-c2aca69f11ce": {
+   "categoria": "",
+   "descripcion": "Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura El Torneo Clausura de Primera División de la Asociación Básquetbol Chivilcoy vivió una novena fecha a puro básquet, emociones y marcas históricas. El gran protagonista de la jornada volvió a ser Colón, que estiró su impresionante momento de forma y continúa agigantando su legado a nivel local. COLÓN ESTIRA LA DINASTÍA: ¡40 TRIUNFOS CONSECUTIVOS! El Rojinegro ratificó su absoluto dominio en el certamen local...",
+   "generado": "2026-10-13T10:08:14.886Z",
+   "id": "web:70c111e7-3198-400b-89de-c2aca69f11ce",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_80f8cfb3ee84443fbebe3953284b7193~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
+   "volanta": "Básquet"
   },
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": {
    "categoria": "nacionales",
@@ -938,6 +1064,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reforma-electoral-los-plazos-que-evalua-el-gobierno-y-el-pedido-cf9e19",
    "volanta": ""
   },
+  "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": {
+   "categoria": "",
+   "descripcion": "Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 municipios por la presencia de arsénico en el agua El Consejo Profesional de los químicos bonaerenses envió notas a los distritos donde el mapa elaborado por el Instituto Tecnológico de Buenos Aires (ITBA) detectó concentraciones elevadas de arsénico en el agua destinada al consumo humano, para conocer los controles, los resultados de los análisis y las medidas previstas para garantizar su potabilidad. “La presencia...",
+   "generado": "2026-10-13T10:02:32.658Z",
+   "id": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8411cd9ca77645fdbf3569fb9f4d1a1d~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/itba-chivilcoy-es-uno-de-ellos-los-quimicos-bonaerenses-le-piden",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 municipios por la presencia de arsénico en el agua",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/itba-chivilcoy-es-uno-de-ellos-los-quimicos-bonaerenses-le-piden",
+   "volanta": "ITBA"
+  },
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": {
    "categoria": "",
    "descripcion": "Gimnasia empató en Chaco y define los 16avos de la Reválida en el ‘José María Paz’ Defensores de Vilelas no pudo ante Gimnasia de Chivilcoy e igualó 1 a 1 en el juego de ida de la Segunda Ronda (etapa Reválida) del torneo Federal \"A\" de fútbol. Gustavo Carballo el gol del La revancha será el próximo fin de semana y el equipo de Vilelas está obligado a ganar para seguir en competencia. El comienzo del juego fue de mucho estudio y abusos de pelotazos. Eso fue así hasta la mitad de la primera...",
@@ -955,6 +1099,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-gimnasia-empato-en-chaco-y-define-los-16avos-de-la-revalida-en",
    "volanta": "Fútbol"
+  },
+  "web:79374449-0d19-4bc1-8bac-ee1a849f1966": {
+   "categoria": "",
+   "descripcion": "Recuerdan que “está prohibido arrojar residuos voluminosos” e informan del Cronograma de recolección La Municipalidad de Chivilcoy recuerda el cronograma de recolección de residuos y la colaboración vecinal para mantener la limpieza urbana. La Secretaría de Servicios Públicos de la Municipalidad de Chivilcoy a cargo de Esteban Genaro, informa a la comunidad los días y horarios correspondientes al servicio de recolección de residuos domiciliarios, ramas y escombros, e insta a los vecinos a...",
+   "generado": "2026-10-13T10:10:21.969Z",
+   "id": "web:79374449-0d19-4bc1-8bac-ee1a849f1966",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ddb9c09467c94442baf4ea8edcca70ab~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/servicios-publicos-recuerdan-que-esta-prohibido-arrojar-residuos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Recuerdan que “está prohibido arrojar residuos voluminosos” e informan del Cronograma de recolección",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/servicios-publicos-recuerdan-que-esta-prohibido-arrojar-residuos",
+   "volanta": "Servicios Públicos"
   },
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": {
    "categoria": "",
@@ -1064,6 +1226,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
    "volanta": "Siniestro vial"
   },
+  "web:903567f7-46a1-4218-a19a-686670a11eb1": {
+   "categoria": "",
+   "descripcion": "El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana Con la participación destacada del entrenador de la Selección Argentina, Lionel Scaloni, se llevó a cabo la cuarta edición de esta emblemática prueba de ciclismo de ruta. El equipo \"Chacinados El Pato\", dirigido por Fernando Antogna, dijo presente entre los miles de pedalistas. Buenos Aires vivió una verdadera fiesta del deporte sobre dos ruedas con la realización de la cuarta edición del Gran...",
+   "generado": "2026-10-13T10:08:56.201Z",
+   "id": "web:903567f7-46a1-4218-a19a-686670a11eb1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8d43074fa4cc43f2af315dfb0f92b6d9~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
+   "volanta": "Ciclismo"
+  },
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": {
    "categoria": "nacionales",
    "descripcion": "El sector impulsa una presentación en la ONU y diseña frentes judiciales y políticos para mantener viva la candidatura presidencial de Cristina Kirchner,…",
@@ -1154,6 +1334,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/carcel-de-devoto-como-sigue-el-operativo-de-traslado-de-presos-1c609b",
    "volanta": ""
   },
+  "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": {
+   "categoria": "",
+   "descripcion": "Florencia Nannini y Enrique Balardini propusieron: “Diseñarte: del patrón a la coherencia”",
+   "generado": "2026-10-13T10:09:41.149Z",
+   "id": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7e172ad9452545e29fb9e6a6fae102c6~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Propuesta interdisciplinaria",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
+   "volanta": ""
+  },
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": {
    "categoria": "nacionales",
    "descripcion": "La Justicia ratificó el pago de 15,4 millones de pesos a un canillita de 69 años cuyo comercio fue alcanzado por las llamas de un colectivo en 2019.",
@@ -1208,6 +1406,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/a-beneficio-la-escuela-nacional-organiza-una-cena-show-para-renovar",
    "volanta": "A beneficio"
   },
+  "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": {
+   "categoria": "",
+   "descripcion": "Participación en el Foro Regional de Educación y Seguridad Vial en Junín: formación, tecnología y concientización comunitaria Entre las distintas actividades programadas en el Día Mundial de la Educación Vial, se llevó a cabo el Foro Regional de Seguridad Vial en el Teatro “La Ranchería” organizado por la Agencia Municipal de Seguridad Vial (AMSV), con el acompañamiento de diferentes instituciones de la comunidad y la participación de referentes en la materia provenientes de diferentes...",
+   "generado": "2026-10-13T10:11:08.976Z",
+   "id": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_527189c20a404f4198012fbc3af132e3~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estrellas-amarillas-participacion-en-el-foro-regional-de-educacion-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Participación en el Foro Regional de Educación y Seguridad Vial en Junín: formación, tecnología y concientización comunitaria",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/estrellas-amarillas-participacion-en-el-foro-regional-de-educacion-y",
+   "volanta": "Estrellas Amarillas"
+  },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": {
    "categoria": "nacionales",
    "descripcion": "Una iniciativa que busca penalizar la intrusión y los daños en establecimientos productivos obtuvo dictamen de mayoría en la Cámara baja, con el respaldo…",
@@ -1243,6 +1459,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gran-fondo-buenos-aires-que-calles-y-autopistas-estan-cortadas-0150e5",
    "volanta": ""
+  },
+  "web:cc9019ae-7f13-4598-b272-348e432962b5": {
+   "categoria": "",
+   "descripcion": "Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha El violento siniestro vial ocurrió este lunes a la altura del kilómetro 113. La víctima fatal fue identificada como Yolanda Figueroa, de 37 años. Los sobrevivientes permanecen internados. Un trágico choque frontal sobre la Ruta Nacional N° 5 se cobró la vida de una mujer y dejó a dos hombres gravemente heridos durante la mañana de este lunes 12 de octubre, en jurisdicción del...",
+   "generado": "2026-10-13T10:03:15.139Z",
+   "id": "web:cc9019ae-7f13-4598-b272-348e432962b5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a84ffa0fa33945e0a1ec768e96a8e415~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
+   "volanta": "Tragedia en la Ruta 5"
   },
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": {
    "categoria": "nacionales",
@@ -1406,6 +1640,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/derogacion-del-convenio-fueron-retirados-los-radares-de-las-rutas-5-y",
    "volanta": "Derogación del convenio"
   },
+  "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": {
+   "categoria": "",
+   "descripcion": "La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada La Policía interceptó una moto robada en las inmediaciones de la Ruta Provincial 42 (el camino ancho a Bragado) tras una intensa persecución. El operativo, realizado el 12 de octubre de 2026, culminó con la aprehensión de tres jóvenes de Chacabuco y el secuestro del vehículo. El secretario de Seguridad Néstor Dabi brindó detalles de la participación de policía de Chivilcoy en una persecución que...",
+   "generado": "2026-10-13T10:11:51.183Z",
+   "id": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_32aa8ee3ca724e40b7cb1a62dc1bb1cd~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
+   "volanta": "Tres aprehendidos"
+  },
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": {
    "categoria": "nacionales",
    "descripcion": "Rogelio Frigerio e Ignacio Torres apoyaron quitar las primarias. Aseguraron que ir cinco veces a las urnas en 2027 es excesivo y destacaron el respaldo…",
@@ -1445,22 +1697,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 241,
-   "segundos": 44394,
+   "restantes": 239,
+   "segundos": 39596,
    "tope": 250
   },
   "30d": {
-   "restantes": 2942,
-   "segundos": 2463019,
+   "restantes": 2940,
+   "segundos": 2458220,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T09:00:27.000Z",
+ "cuota_visto": "2026-10-13T10:20:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2269,18 +2521,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x": {
-   "actualizado": "2026-10-13T09:00:19.000Z",
+   "actualizado": "2026-10-13T10:20:19.000Z",
    "buffer_id": "6acdf3275540c90f0a846084",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
    "creado": "2026-10-13T01:00:18.000Z",
    "dueAt": "2026-10-13T10:15:34.000Z",
+   "enviado": "2026-10-13T10:15:49.242Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T00:42:48.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109951230378164675",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-arrestaron-a-un-hombre-de-70-anos-por-atacar-con-un-05c122",
    "origen": "policiales",
    "plataforma": "x",
@@ -2526,18 +2779,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x": {
-   "actualizado": "2026-10-13T09:00:19.000Z",
+   "actualizado": "2026-10-13T10:20:19.000Z",
    "buffer_id": "6acdf3265167b5c45eb291e5",
    "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
    "creado": "2026-10-13T01:00:18.000Z",
    "dueAt": "2026-10-13T10:00:16.000Z",
+   "enviado": "2026-10-13T10:02:57.771Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T00:42:49.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109947994808213548",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-31-anos-por-amenazar-a-su-153da2",
    "origen": "policiales",
    "plataforma": "x",
@@ -2755,6 +3009,54 @@
    "video_bytes": 100748,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
+  "web:0880263e-20bb-4331-801a-a2781c0ec918|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:0880263e-20bb-4331-801a-a2781c0ec918|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:04:01.122Z",
+   "id": "web:0880263e-20bb-4331-801a-a2781c0ec918",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/complejo-federacion-tension-politica-y-debate-abierto-tras-el-rechazo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruzadas, objeciones técnicas y la defensa del Ejecutivo\n\nEl Concejo Deliberante se convirtió en el escenario de una durísima discusión en torno al futuro del emblemático…\n\nhttps://www.diariolacampaña.com.ar/n/complejo-federacion-tension-politica-y-debate-abierto-tras-el-rechazo",
+   "tipo": "nota",
+   "titulo": "Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruzadas, objeciones técnicas y la defensa del Ejecutivo",
+   "urgente": false,
+   "vence": "2026-10-14T10:04:01.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:04:42.608Z",
+   "id": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas\n\nLa directora de la Escuela Primaria N° 30 de Chivilcoy, Estefanía Cruz, visitó los estudios de Radio del Centro durante el programa La…\n\nhttps://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
+   "tipo": "nota",
+   "titulo": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas",
+   "urgente": false,
+   "vence": "2026-10-14T10:04:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0670fa026cfb8117dddb",
@@ -2830,6 +3132,78 @@
    "titulo": "Acercarán a los barrios una mesa itinerante de prevención de la violencia",
    "urgente": false,
    "vence": "2026-10-13T10:06:21.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:05:24.695Z",
+   "id": "web:2f28167a-6caf-4b85-81ac-e53b3248f984",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica\n\nLos integrantes del espacio de folclore del Taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional…\n\nhttps://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
+   "tipo": "nota",
+   "titulo": "Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica",
+   "urgente": false,
+   "vence": "2026-10-14T10:05:24.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:06:10.028Z",
+   "id": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mas-de-268-shows-fuerza-stereo-presentara-su-tributo-en-chivilcoy",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de Soda y la etapa como solista de Gustavo Cerati”\n\nLa banda tributo Fuerza Stereo confirmó una nueva presentación en la ciudad de Chivilcoy para el viernes 16 de octubre en…\n\nhttps://www.diariolacampaña.com.ar/n/mas-de-268-shows-fuerza-stereo-presentara-su-tributo-en-chivilcoy",
+   "tipo": "nota",
+   "titulo": "Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de Soda y la etapa como solista de Gustavo Cerati”",
+   "urgente": false,
+   "vence": "2026-10-14T10:06:10.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:06:49.714Z",
+   "id": "web:359c8325-07b4-4de6-9aca-1c26e7243c29",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior\n\nCon orgullo, emoción y la convicción de estar viviendo un momento histórico, el tenista de Chivilcoy Máximo Cataldi ya se encuentra instalado en San…\n\nhttps://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
+   "tipo": "nota",
+   "titulo": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior",
+   "urgente": false,
+   "vence": "2026-10-14T10:06:49.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3039,6 +3413,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:07:34.429Z",
+   "id": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad\n\nEl \"Lobo\" aplastó 5-0 a Alsina en el cierre del domingo y quedó como único líder del Torneo Clausura de Primera División.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
+   "tipo": "nota",
+   "titulo": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad",
+   "urgente": false,
+   "vence": "2026-10-14T10:07:34.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0b9f7db619a2914ceb6c",
@@ -3088,6 +3486,30 @@
    "titulo": "Javier Milei saludó al papa León XIV y el Vaticano confirmó la visita al país",
    "urgente": false,
    "vence": "2026-10-12T21:11:33.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:70c111e7-3198-400b-89de-c2aca69f11ce|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:08:14.886Z",
+   "id": "web:70c111e7-3198-400b-89de-c2aca69f11ce",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura\n\nEl Torneo Clausura de Primera División de la Asociación Básquetbol Chivilcoy vivió una novena fecha a puro básquet, emociones y marcas históricas.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
+   "tipo": "nota",
+   "titulo": "Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura",
+   "urgente": false,
+   "vence": "2026-10-14T10:08:14.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3168,6 +3590,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:02:32.658Z",
+   "id": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/itba-chivilcoy-es-uno-de-ellos-los-quimicos-bonaerenses-le-piden",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 municipios por la presencia de arsénico en el agua\n\nEl Consejo Profesional de los químicos bonaerenses envió notas a los distritos donde el mapa elaborado por el Instituto…\n\nhttps://www.diariolacampaña.com.ar/n/itba-chivilcoy-es-uno-de-ellos-los-quimicos-bonaerenses-le-piden",
+   "tipo": "nota",
+   "titulo": "Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 municipios por la presencia de arsénico en el agua",
+   "urgente": false,
+   "vence": "2026-10-14T10:02:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb4680b395b96ab076258",
@@ -3191,6 +3637,31 @@
    "titulo": "Gimnasia empató en Chaco y define los 16avos de la Reválida en el ‘José María Paz’",
    "urgente": false,
    "vence": "2026-10-13T10:07:43.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:10:21.969Z",
+   "id": "web:79374449-0d19-4bc1-8bac-ee1a849f1966",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/servicios-publicos-recuerdan-que-esta-prohibido-arrojar-residuos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Recuerdan que “está prohibido arrojar residuos voluminosos” e informan del Cronograma de recolección\n\nLa Municipalidad de Chivilcoy recuerda el cronograma de recolección de residuos y la colaboración vecinal para mantener la limpieza urbana.\n\nhttps://www.diariolacampaña.com.ar/n/servicios-publicos-recuerdan-que-esta-prohibido-arrojar-residuos",
+   "tipo": "nota",
+   "titulo": "Recuerdan que “está prohibido arrojar residuos voluminosos” e informan del Cronograma de recolección",
+   "urgente": false,
+   "vence": "2026-10-14T10:10:21.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3347,6 +3818,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:903567f7-46a1-4218-a19a-686670a11eb1|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:08:56.201Z",
+   "id": "web:903567f7-46a1-4218-a19a-686670a11eb1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana\n\nCon la participación destacada del entrenador de la Selección Argentina, Lionel Scaloni, se llevó a cabo la cuarta edición de esta emblemática prueba…\n\nhttps://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
+   "tipo": "nota",
+   "titulo": "El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana",
+   "urgente": false,
+   "vence": "2026-10-14T10:08:56.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539|x": {
    "actualizado": "2026-10-12T15:20:17.000Z",
    "buffer_id": "",
@@ -3473,6 +3968,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:09:41.149Z",
+   "id": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Propuesta interdisciplinaria\n\nFlorencia Nannini y Enrique Balardini propusieron: “Diseñarte: del patrón a la coherencia”\n\nhttps://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
+   "tipo": "nota",
+   "titulo": "Propuesta interdisciplinaria",
+   "urgente": false,
+   "vence": "2026-10-14T10:09:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b|x": {
    "actualizado": "2026-10-12T18:20:14.000Z",
    "buffer_id": "",
@@ -3549,6 +4068,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x": {
+   "actualizado": "2026-10-13T10:20:20.000Z",
+   "buffer_id": "6ace05e5e79eea2efe575ef6",
+   "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "2026-10-13T12:15:55.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T10:11:08.976Z",
+   "id": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estrellas-amarillas-participacion-en-el-foro-regional-de-educacion-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Participación en el Foro Regional de Educación y Seguridad Vial en Junín: formación, tecnología y concientización comunitaria\n\nEntre las distintas actividades programadas en el Día Mundial de la Educación Vial, se llevó a cabo el Foro Regional de…\n\nhttps://www.diariolacampaña.com.ar/n/estrellas-amarillas-participacion-en-el-foro-regional-de-educacion-y",
+   "tipo": "nota",
+   "titulo": "Participación en el Foro Regional de Educación y Seguridad Vial en Junín: formación, tecnología y concientización comunitaria",
+   "urgente": false,
+   "vence": "2026-10-14T10:11:08.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x": {
    "actualizado": "2026-10-11T22:20:14.000Z",
    "buffer_id": "6acc066eea568e911a41c3a4",
@@ -3598,6 +4142,30 @@
    "titulo": "Gran Fondo Buenos Aires: qué calles y autopistas están cortadas este domingo",
    "urgente": false,
    "vence": "2026-10-12T15:06:24.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:cc9019ae-7f13-4598-b272-348e432962b5|x": {
+   "actualizado": "2026-10-13T10:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:cc9019ae-7f13-4598-b272-348e432962b5|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T10:03:15.139Z",
+   "id": "web:cc9019ae-7f13-4598-b272-348e432962b5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha\n\nEl violento siniestro vial ocurrió este lunes a la altura del kilómetro 113.\n\nhttps://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
+   "tipo": "nota",
+   "titulo": "Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha",
+   "urgente": false,
+   "vence": "2026-10-14T10:03:15.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3757,14 +4325,14 @@
    "video_url": ""
   },
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x": {
-   "actualizado": "2026-10-12T10:20:17.000Z",
+   "actualizado": "2026-10-13T10:20:19.000Z",
    "buffer_id": "",
    "clave": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x",
    "creado": "2026-10-12T10:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-12T10:02:37.030Z",
    "id": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3",
    "intentos": 0,
@@ -3829,6 +4397,31 @@
    "titulo": "Fueron retirados los radares de las rutas 5 y 46 en la jurisdicción de Bragado",
    "urgente": false,
    "vence": "2026-10-13T10:05:34.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x": {
+   "actualizado": "2026-10-13T10:20:20.000Z",
+   "buffer_id": "6ace05e4aa6f147b955d0b42",
+   "clave": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x",
+   "creado": "2026-10-13T10:20:16.000Z",
+   "dueAt": "2026-10-13T12:00:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T10:11:51.183Z",
+   "id": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada\n\nLa Policía interceptó una moto robada en las inmediaciones de la Ruta Provincial 42 (el camino ancho a Bragado) tras una intensa persecución.\n\nhttps://www.diariolacampaña.com.ar/n/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
+   "tipo": "nota",
+   "titulo": "La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada",
+   "urgente": false,
+   "vence": "2026-10-14T10:11:51.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -5669,10 +6262,154 @@
    "cuando": "2026-10-13T09:00:27.000Z",
    "dueAt": "2026-10-13T11:40:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x",
+   "cuando": "2026-10-13T10:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
+   "cuando": "2026-10-13T10:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x",
+   "cuando": "2026-10-13T10:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
+   "cuando": "2026-10-13T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
+   "cuando": "2026-10-13T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
+   "cuando": "2026-10-13T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
+   "cuando": "2026-10-13T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
+   "cuando": "2026-10-13T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0880263e-20bb-4331-801a-a2781c0ec918|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:cc9019ae-7f13-4598-b272-348e432962b5|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x",
+   "cuando": "2026-10-13T10:20:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
+   "cuando": "2026-10-13T10:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109951230378164675"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
+   "cuando": "2026-10-13T10:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109947994808213548"
+  },
+  {
+   "buffer_id": "6ace05e4aa6f147b955d0b42",
+   "clave": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x",
+   "cuando": "2026-10-13T10:20:21.000Z",
+   "dueAt": "2026-10-13T12:00:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace05e5e79eea2efe575ef6",
+   "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
+   "cuando": "2026-10-13T10:20:21.000Z",
+   "dueAt": "2026-10-13T12:15:55.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T02:40:17.000Z",
+ "ultima_sync": "2026-10-13T10:20:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -5702,9 +6439,14 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
+  "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
+  "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
+  "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
+  "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
+  "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
@@ -5714,28 +6456,36 @@
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
+  "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
+  "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
   "web:76c3d71e-5104-400d-a4f4-414ceb358697": "2026-10-12T15:20:17.000Z",
+  "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": "2026-10-13T10:20:16.000Z",
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
+  "web:79374449-0d19-4bc1-8bac-ee1a849f1966": "2026-10-13T10:20:16.000Z",
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
+  "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
   "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": "2026-10-12T21:20:14.000Z",
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": "2026-10-12T12:20:13.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
+  "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
+  "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
+  "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",
   "web:ceec6742-f491-45cb-b224-31d1a7caf1da": "2026-10-12T18:20:14.000Z",
   "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a": "2026-10-11T21:58:03.000Z",
@@ -5745,6 +6495,7 @@
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
+  "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
  }
