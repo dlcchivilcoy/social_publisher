@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 4
+    "scheduled": 3,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-13T15:00:20.000Z"
+   "visto": "2026-10-13T16:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 17
+    "scheduled": 8,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-10-13T15:00:20.000Z"
+   "visto": "2026-10-13T16:20:16.000Z"
   }
  },
  "contenidos": {
@@ -1969,17 +1969,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 222,
-   "segundos": 20400,
+   "restantes": 221,
+   "segundos": 17999,
    "tope": 250
   },
   "30d": {
-   "restantes": 2923,
-   "segundos": 2439024,
+   "restantes": 2922,
+   "segundos": 2436624,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T15:40:19.000Z",
+ "cuota_visto": "2026-10-13T16:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3069,18 +3069,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_02_chacabuco_fuego-en-un-galp-n-de-la-empre.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok": {
-   "actualizado": "2026-10-13T15:40:15.000Z",
+   "actualizado": "2026-10-13T16:20:16.000Z",
    "buffer_id": "6ace50e11ced551792bbe8dd",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok",
    "creado": "2026-10-13T15:20:18.000Z",
    "dueAt": "2026-10-13T15:43:41.000Z",
+   "enviado": "2026-10-13T15:45:28.005Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T15:17:50.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696178634251373876",
    "nota_url": "https://www.diariolacampaña.com.ar/n/juan-bautista-alberdi-una-adolescente-de-15-anos-sufrio-e03c5c",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -3094,18 +3095,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_05_chacabuco_una-adolescente-de-15-a-os-suf.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|x": {
-   "actualizado": "2026-10-13T15:20:21.000Z",
+   "actualizado": "2026-10-13T16:20:16.000Z",
    "buffer_id": "6ace4c36aae68f5d3ccd4174",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|x",
    "creado": "2026-10-13T15:20:18.000Z",
    "dueAt": "2026-10-13T15:23:46.000Z",
+   "enviado": "2026-10-13T15:24:05.031Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T15:17:50.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110028807390273693",
    "nota_url": "https://www.diariolacampaña.com.ar/n/juan-bautista-alberdi-una-adolescente-de-15-anos-sufrio-e03c5c",
    "origen": "policiales",
    "plataforma": "x",
@@ -7640,10 +7642,22 @@
    "cuando": "2026-10-13T15:40:19.000Z",
    "dueAt": "2026-10-13T17:43:43.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok",
+   "cuando": "2026-10-13T16:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696178634251373876"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|x",
+   "cuando": "2026-10-13T16:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110028807390273693"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T15:00:20.000Z",
+ "ultima_sync": "2026-10-13T16:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

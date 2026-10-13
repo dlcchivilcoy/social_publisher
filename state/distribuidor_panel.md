@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,16 +7,16 @@ Actualizado: 13/10/2026 13:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 5 | 5 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 3 | 4 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 6 | 4 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 3 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 11 | 4 | 9 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 7 programadas de 50 por día
-- TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 18 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 5 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 222 de 250 · 30d: quedan 2923 de 3000 (visto 2026-10-13T15:40:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2922 de 3000 (visto 2026-10-13T16:20:16.000Z)
 
 ## Cola propia (13 esperando)
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — cupo diario de Notas web en X completo (15)
@@ -39,8 +39,6 @@ Actualizado: 13/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T13:40 enviado policiales:https://laopinionline.ar/articulo/condenaron-a-14 
-- 2026-10-13T13:40 enviado web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x 
 - 2026-10-13T13:40 enviado web:70c111e7-3198-400b-89de-c2aca69f11ce|x 
 - 2026-10-13T13:40 enviado web:903567f7-46a1-4218-a19a-686670a11eb1|x 
 - 2026-10-13T13:40 enviado web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x 
@@ -64,3 +62,5 @@ Actualizado: 13/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-13T15:40 programado policiales:https://laopinionline.ar/articulo/salto-agrediero 
 - 2026-10-13T15:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
 - 2026-10-13T15:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
+- 2026-10-13T16:20 enviado policiales:https://www.diariodemocracia.com/policiales/34645 
+- 2026-10-13T16:20 enviado policiales:https://www.diariodemocracia.com/policiales/34645 
