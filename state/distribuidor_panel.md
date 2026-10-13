@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 2 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 6 | 4 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 3 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 11 | 4 | 9 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 7 | 3 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 6 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 13 | 2 | 9 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 5 enviadas + 3 programadas de 25 por día
+- X: conectado · Buffer: 21 enviadas + 6 programadas de 50 por día
+- TikTok: conectado · Buffer: 7 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2921 de 3000 (visto 2026-10-13T17:20:17.000Z)
+15m: quedan 98 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2919 de 3000 (visto 2026-10-13T17:40:18.000Z)
 
 ## Cola propia (13 esperando)
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — cupo diario de Notas web en X completo (15)
@@ -39,15 +39,6 @@ Actualizado: 13/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T15:00 enviado web:359c8325-07b4-4de6-9aca-1c26e7243c29|x 
-- 2026-10-13T15:20 recibido policiales:https://laopinionline.ar/articulo/salto-agrediero 
-- 2026-10-13T15:20 recibido policiales:https://laopinionline.ar/articulo/salto-agrediero 
-- 2026-10-13T15:20 recibido policiales:https://www.diariodemocracia.com/policiales/34645 
-- 2026-10-13T15:20 recibido policiales:https://www.diariodemocracia.com/policiales/34645 
-- 2026-10-13T15:20 recibido web:76224348-2766-4a07-947f-ef8503976009|x 
-- 2026-10-13T15:20 recibido web:baeb5d08-b026-4158-a946-6ff35dd140c1|x 
-- 2026-10-13T15:20 recibido web:364ed235-37a6-4310-b188-750e40d877a8|x 
-- 2026-10-13T15:20 vencido web:380cc711-312c-4089-9509-56feaafc5238|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T15:20 vencido web:76c3d71e-5104-400d-a4f4-414ceb358697|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T15:20 vencido web:9110bbe1-bdf4-4c81-bcba-062f16958539|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T15:20 programado policiales:https://www.diariodemocracia.com/policiales/34645 
@@ -64,3 +55,12 @@ Actualizado: 13/10/2026 14:20 (hora AR) · ACTIVO
 - 2026-10-13T17:20 recibido entrevistas:job00193|x 
 - 2026-10-13T17:20 programado entrevistas:job00193|x 
 - 2026-10-13T17:20 programado entrevistas:job00192|x 
+- 2026-10-13T17:40 entrevista_aprobada entrevistas:job00194 
+- 2026-10-13T17:40 recibido entrevistas:job00194|x 
+- 2026-10-13T17:40 borrado_en_buffer entrevistas:job00193|x 
+- 2026-10-13T17:40 enviado policiales:https://laopinionline.ar/articulo/condenaron-a-14 
+- 2026-10-13T17:40 enviado policiales:https://laopinionline.ar/articulo/salto-agrediero 
+- 2026-10-13T17:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
+- 2026-10-13T17:40 enviado web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x 
+- 2026-10-13T17:40 enviado web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x 
+- 2026-10-13T17:40 programado entrevistas:job00194|x 
