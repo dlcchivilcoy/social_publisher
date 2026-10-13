@@ -8,10 +8,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 2
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-13T12:40:16.000Z"
+   "visto": "2026-10-13T13:40:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 11
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-13T12:40:16.000Z"
+   "visto": "2026-10-13T13:40:22.000Z"
   }
  },
  "contenidos": {
@@ -1862,22 +1862,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 228,
-   "segundos": 28801,
+   "restantes": 226,
+   "segundos": 27592,
    "tope": 250
   },
   "30d": {
-   "restantes": 2929,
-   "segundos": 2447426,
+   "restantes": 2927,
+   "segundos": 2446217,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T13:20:15.000Z",
+ "cuota_visto": "2026-10-13T13:40:24.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1984,18 +1984,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4"
   },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok": {
-   "actualizado": "2026-10-13T12:40:17.000Z",
+   "actualizado": "2026-10-13T13:40:22.000Z",
    "buffer_id": "6ace26b3d8537df3c5559f27",
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "2026-10-13T12:43:09.000Z",
+   "enviado": "2026-10-13T12:44:57.749Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T12:10:17.000Z",
    "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696132134616059137",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -2242,18 +2243,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok": {
-   "actualizado": "2026-10-13T12:40:17.000Z",
+   "actualizado": "2026-10-13T13:40:22.000Z",
    "buffer_id": "6ace26b3d8537df3c5559fa2",
    "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
    "creado": "2026-10-13T12:40:15.000Z",
    "dueAt": "2026-10-13T13:23:16.000Z",
+   "enviado": "2026-10-13T13:25:12.911Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696142486015724807",
    "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-53c50a",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -2635,6 +2637,7 @@
    "creado": "2026-10-13T12:40:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
@@ -3302,14 +3305,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x": {
-   "actualizado": "2026-10-13T12:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T13:40:23.000Z",
+   "buffer_id": "6ace34c81077be9dba265cc5",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
    "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T18:15:37.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
    "intentos": 0,
@@ -3487,6 +3490,7 @@
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T12:11:51.057Z",
    "id": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783",
@@ -3663,6 +3667,7 @@
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T12:17:02.148Z",
    "id": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc",
@@ -3861,18 +3866,19 @@
    "video_url": ""
   },
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
+   "actualizado": "2026-10-13T13:40:22.000Z",
    "buffer_id": "6ace18a0ed1fb1ea0f934a39",
    "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T13:30:16.000Z",
+   "enviado": "2026-10-13T13:30:38.616Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:07:34.429Z",
    "id": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110000259187327188",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
    "origen": "web",
    "plataforma": "x",
@@ -3892,6 +3898,7 @@
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T12:06:40.104Z",
    "id": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e",
@@ -3962,18 +3969,19 @@
    "video_url": ""
   },
   "web:70c111e7-3198-400b-89de-c2aca69f11ce|x": {
-   "actualizado": "2026-10-13T11:20:17.000Z",
+   "actualizado": "2026-10-13T13:40:22.000Z",
    "buffer_id": "6ace13f13b22eef92826b202",
    "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T13:15:25.000Z",
+   "enviado": "2026-10-13T13:15:31.305Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:08:14.886Z",
    "id": "web:70c111e7-3198-400b-89de-c2aca69f11ce",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109996453435183449",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
    "origen": "web",
    "plataforma": "x",
@@ -4296,18 +4304,19 @@
    "video_url": ""
   },
   "web:903567f7-46a1-4218-a19a-686670a11eb1|x": {
-   "actualizado": "2026-10-13T11:20:17.000Z",
+   "actualizado": "2026-10-13T13:40:22.000Z",
    "buffer_id": "6ace13f195a61d8e02c8052c",
    "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T13:00:55.000Z",
+   "enviado": "2026-10-13T13:04:23.025Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:08:56.201Z",
    "id": "web:903567f7-46a1-4218-a19a-686670a11eb1",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109993650667102607",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
    "origen": "web",
    "plataforma": "x",
@@ -4447,18 +4456,19 @@
    "video_url": ""
   },
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x": {
-   "actualizado": "2026-10-13T11:00:19.000Z",
+   "actualizado": "2026-10-13T13:40:22.000Z",
    "buffer_id": "6ace0f443b22eef928254cdd",
    "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T12:45:38.000Z",
+   "enviado": "2026-10-13T12:45:46.175Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:09:41.149Z",
    "id": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109988966405455935",
    "nota_url": "https://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
    "origen": "web",
    "plataforma": "x",
@@ -7173,10 +7183,53 @@
    "cuando": "2026-10-13T13:20:15.000Z",
    "dueAt": "2026-10-13T18:00:27.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
+   "cuando": "2026-10-13T13:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696132134616059137"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
+   "cuando": "2026-10-13T13:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696142486015724807"
+  },
+  {
+   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
+   "cuando": "2026-10-13T13:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110000259187327188"
+  },
+  {
+   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
+   "cuando": "2026-10-13T13:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109996453435183449"
+  },
+  {
+   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
+   "cuando": "2026-10-13T13:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109993650667102607"
+  },
+  {
+   "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
+   "cuando": "2026-10-13T13:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109988966405455935"
+  },
+  {
+   "buffer_id": "6ace34c81077be9dba265cc5",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
+   "cuando": "2026-10-13T13:40:24.000Z",
+   "dueAt": "2026-10-13T18:15:37.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T12:40:16.000Z",
+ "ultima_sync": "2026-10-13T13:40:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
