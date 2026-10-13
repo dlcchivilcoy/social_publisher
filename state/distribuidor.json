@@ -1499,6 +1499,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juicio-a-una-muebleria-le-salio-fallada-una-mesa-grande-y-gano-ff4a78",
    "volanta": ""
   },
+  "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": {
+   "categoria": "nacionales",
+   "descripcion": "Tras el testimonio de Valentín Yankelevich sobre el maltrato en su infancia, el abogado Juan Pablo Gallego detalló los plazos judiciales y las vías…",
+   "generado": "2026-10-13T22:06:28.666Z",
+   "id": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ae5dbec8bb5d4d7882129e89a6761906~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
+   "volanta": ""
+  },
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": {
    "categoria": "",
    "descripcion": "Chivilcoy sin Barreras participó en la Fiesta Regional de la Danza Folclórica Los integrantes del espacio de folclore del taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional de la Danza Folclórica, donde tuvieron la oportunidad de compartir su talento y su pasión por las tradiciones argentinas. Participaron delegaciones de toda la zona y destacaron que la de Chivilcoy fue la única integrada por personas con discapacidad. La delegación,...",
@@ -4876,6 +4894,31 @@
    "titulo": "Juicio a una mueblería: le salió fallada una mesa grande y ganó una millonaria demanda",
    "urgente": false,
    "vence": "2026-10-12T18:16:57.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x": {
+   "actualizado": "2026-10-13T22:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
+   "creado": "2026-10-13T22:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-13T22:06:28.666Z",
+   "id": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley\n\nTras el testimonio de Valentín Yankelevich sobre el maltrato en su infancia, el abogado Juan Pablo Gallego detalló los plazos judiciales y las vías…\n\nhttps://www.diariolacampaña.com.ar/n/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
+   "tipo": "nota",
+   "titulo": "Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley",
+   "urgente": false,
+   "vence": "2026-10-14T22:06:28.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -8676,6 +8719,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
+   "cuando": "2026-10-13T22:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
@@ -8754,6 +8805,7 @@
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
+  "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": "2026-10-13T22:20:15.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
   "web:76224348-2766-4a07-947f-ef8503976009": "2026-10-13T15:20:18.000Z",
   "web:76c3d71e-5104-400d-a4f4-414ceb358697": "2026-10-12T15:20:17.000Z",
