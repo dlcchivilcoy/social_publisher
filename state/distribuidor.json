@@ -1867,17 +1867,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 29994,
+   "restantes": 228,
+   "segundos": 28801,
    "tope": 250
   },
   "30d": {
-   "restantes": 2930,
-   "segundos": 2448619,
+   "restantes": 2929,
+   "segundos": 2447426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T13:00:22.000Z",
+ "cuota_visto": "2026-10-13T13:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3308,6 +3308,7 @@
    "creado": "2026-10-13T12:40:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
@@ -3384,6 +3385,7 @@
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T10:04:01.122Z",
    "id": "web:0880263e-20bb-4331-801a-a2781c0ec918",
@@ -3402,13 +3404,14 @@
    "video_url": ""
   },
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T13:20:15.000Z",
+   "buffer_id": "6ace300f8c4d573c4e547d6a",
    "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
    "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T18:00:27.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T10:04:42.608Z",
    "id": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b",
    "intentos": 0,
@@ -3528,14 +3531,14 @@
    "video_url": ""
   },
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T13:20:15.000Z",
+   "buffer_id": "6ace300f7a819fc95e4a7a2a",
    "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
    "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T17:45:37.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T10:05:24.695Z",
    "id": "web:2f28167a-6caf-4b85-81ac-e53b3248f984",
    "intentos": 0,
@@ -4067,6 +4070,7 @@
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T10:02:32.658Z",
    "id": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d",
@@ -4628,6 +4632,7 @@
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T10:03:15.139Z",
    "id": "web:cc9019ae-7f13-4598-b272-348e432962b5",
@@ -7153,6 +7158,20 @@
    "clave": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x",
    "cuando": "2026-10-13T13:00:22.000Z",
    "dueAt": "2026-10-13T17:30:23.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace300f7a819fc95e4a7a2a",
+   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
+   "cuando": "2026-10-13T13:20:15.000Z",
+   "dueAt": "2026-10-13T17:45:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace300f8c4d573c4e547d6a",
+   "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
+   "cuando": "2026-10-13T13:20:15.000Z",
+   "dueAt": "2026-10-13T18:00:27.000Z",
    "evento": "programado"
   }
  ],
