@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 11
+    "scheduled": 2,
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-12T23:40:17.000Z"
+   "visto": "2026-10-13T01:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-12T23:40:17.000Z"
+   "visto": "2026-10-13T01:20:19.000Z"
   }
  },
  "contenidos": {
@@ -1450,17 +1450,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 244,
-   "segundos": 73195,
+   "restantes": 243,
+   "segundos": 71996,
    "tope": 250
   },
   "30d": {
-   "restantes": 2945,
-   "segundos": 2491819,
+   "restantes": 2944,
+   "segundos": 2490621,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T01:00:22.000Z",
+ "cuota_visto": "2026-10-13T01:20:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2498,18 +2498,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_09_junin_robaron-m-s-de-un-centenar-de-.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|tiktok": {
-   "actualizado": "2026-10-13T01:00:20.000Z",
+   "actualizado": "2026-10-13T01:20:19.000Z",
    "buffer_id": "6acd82a5aec88be081ed01f4",
    "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|tiktok",
    "creado": "2026-10-13T01:00:18.000Z",
    "dueAt": "2026-10-13T01:03:53.000Z",
+   "enviado": "2026-10-13T01:04:43.639Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T00:42:49.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695951909588372757",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-31-anos-por-amenazar-a-su-153da2",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -5577,10 +5578,16 @@
    "cuando": "2026-10-13T01:00:22.000Z",
    "dueAt": "2026-10-13T02:23:10.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|tiktok",
+   "cuando": "2026-10-13T01:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695951909588372757"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-12T23:40:17.000Z",
+ "ultima_sync": "2026-10-13T01:20:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
