@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 10
+    "scheduled": 1,
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-13T21:20:15.000Z"
+   "visto": "2026-10-13T23:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-13T21:20:15.000Z"
+   "visto": "2026-10-13T23:20:15.000Z"
   }
  },
  "contenidos": {
@@ -89,6 +89,27 @@
    "video_mb": 0.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4",
    "youtube_url": "https://www.youtube.com/shorts/U7yb-ybO65I"
+  },
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": {
+   "descripcion": "Desconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-13T23:12:07.000Z",
+   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
+   "urgente": false,
+   "video_bytes": 443607,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/WjgoclOOY4E"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -2117,6 +2138,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
    "volanta": "Tragedia en la Ruta 5"
   },
+  "web:ce9c9291-5b63-4246-99f4-6095ce88b357": {
+   "categoria": "",
+   "descripcion": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta Desconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde. La Policía investiga el hecho para identificar a los responsables.",
+   "generado": "2026-10-13T23:09:54.841Z",
+   "id": "web:ce9c9291-5b63-4246-99f4-6095ce88b357",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a6ad6b7dc7a84091bada53177b0eb88a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": {
    "categoria": "nacionales",
    "descripcion": "Un informe revela las enormes diferencias entre los sueldos formales de distintas actividades en cada jurisdicción, con brechas que llegan hasta las 37…",
@@ -2336,22 +2375,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 80394,
+   "restantes": 246,
+   "segundos": 79201,
    "tope": 250
   },
   "30d": {
-   "restantes": 2913,
-   "segundos": 2412619,
+   "restantes": 2911,
+   "segundos": 2411425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T23:00:23.000Z",
+ "cuota_visto": "2026-10-13T23:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2508,6 +2547,56 @@
    "vence": "2026-10-15T12:10:17.000Z",
    "video_bytes": 737216,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
+  },
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok": {
+   "actualizado": "2026-10-13T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
+   "creado": "2026-10-13T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-13T23:12:07.000Z",
+   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta\n\nDesconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
+   "urgente": false,
+   "vence": "2026-10-15T23:12:07.000Z",
+   "video_bytes": 443607,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4"
+  },
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x": {
+   "actualizado": "2026-10-13T23:20:15.000Z",
+   "buffer_id": "6acebcaf33507eb5b0e32421",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
+   "creado": "2026-10-13T23:20:14.000Z",
+   "dueAt": "2026-10-13T23:23:51.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T23:12:07.000Z",
+   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta\n\nDesconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "tipo": "video",
+   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
+   "urgente": false,
+   "vence": "2026-10-15T23:12:07.000Z",
+   "video_bytes": 443607,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -3233,18 +3322,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_03_junin_rueda-de-cami-n-suelta-choc-co.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok": {
-   "actualizado": "2026-10-13T23:00:21.000Z",
+   "actualizado": "2026-10-13T23:20:15.000Z",
    "buffer_id": "6aceb80633507eb5b0e228a9",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "2026-10-13T23:03:55.000Z",
+   "enviado": "2026-10-13T23:04:43.695Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T22:42:06.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696292035296283910",
    "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-y-arroyo-seco-diez-afectados-y-dos-detenidos-por-estafa-de4bf9",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -5930,6 +6020,31 @@
    "titulo": "Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha",
    "urgente": false,
    "vence": "2026-10-14T10:03:15.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x": {
+   "actualizado": "2026-10-13T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x",
+   "creado": "2026-10-13T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-13T23:09:54.841Z",
+   "id": "web:ce9c9291-5b63-4246-99f4-6095ce88b357",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Robaron bebidas en el boliche Ozono Planet tras forzar una puerta\n\nDesconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
+   "tipo": "nota",
+   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
+   "urgente": false,
+   "vence": "2026-10-14T23:09:54.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -9101,15 +9216,53 @@
    "cuando": "2026-10-13T23:00:23.000Z",
    "dueAt": "2026-10-13T23:43:26.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
+   "cuando": "2026-10-13T23:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
+   "cuando": "2026-10-13T23:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x",
+   "cuando": "2026-10-13T23:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok",
+   "cuando": "2026-10-13T23:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696292035296283910"
+  },
+  {
+   "buffer_id": "6acebcaf33507eb5b0e32421",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
+   "cuando": "2026-10-13T23:20:16.000Z",
+   "dueAt": "2026-10-13T23:23:51.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T21:20:15.000Z",
+ "ultima_sync": "2026-10-13T23:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz": "2026-10-13T12:20:17.000Z",
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": "2026-10-13T23:20:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -9212,6 +9365,7 @@
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
+  "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",
   "web:ceec6742-f491-45cb-b224-31d1a7caf1da": "2026-10-12T18:20:14.000Z",
   "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a": "2026-10-11T21:58:03.000Z",

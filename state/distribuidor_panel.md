@@ -1,30 +1,32 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 12 | 0 | 4 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 9 | 2 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 15 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 10 | 1 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 16 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día
+- TikTok: conectado · Buffer: 11 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2913 de 3000 (visto 2026-10-13T23:00:23.000Z)
+15m: quedan 98 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2911 de 3000 (visto 2026-10-13T23:20:16.000Z)
 
-## Cola propia (21 esperando)
+## Cola propia (23 esperando)
+- TikTok · Reels del bot · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — cupo diario de Notas web en X completo (15)
 - X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
-- X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
-- X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — cupo diario de Reels policiales en X completo (12)
 - X · Notas web · Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Di — cupo diario de Notas web en X completo (15)
 - X · Notas web · Anses: de cuánto serán las jubilaciones y pensiones en noviembre tras la inflaci — cupo diario de Notas web en X completo (15)
@@ -47,11 +49,6 @@ Actualizado: 13/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T19:00 programado policiales:https://www.diariodemocracia.com/policiales/34647 
-- 2026-10-13T20:00 enviado entrevistas:job00192|x 
-- 2026-10-13T20:00 enviado entrevistas:job00194v2|x 
-- 2026-10-13T20:00 enviado entrevistas:job00194|x 
-- 2026-10-13T20:00 enviado policiales:https://laopinionline.ar/articulo/salto-agrediero 
 - 2026-10-13T20:00 enviado policiales:https://www.diariodemocracia.com/policiales/34647 
 - 2026-10-13T20:00 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-13T21:20 recibido web:ba878935-3e6f-4357-a078-3447ed612c35|x 
@@ -72,3 +69,8 @@ Actualizado: 13/10/2026 20:00 (hora AR) · ACTIVO
 - 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
 - 2026-10-13T23:00 programado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
 - 2026-10-13T23:00 programado policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
+- 2026-10-13T23:20 recibido bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
+- 2026-10-13T23:20 recibido bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
+- 2026-10-13T23:20 recibido web:ce9c9291-5b63-4246-99f4-6095ce88b357|x 
+- 2026-10-13T23:20 enviado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
+- 2026-10-13T23:20 programado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
