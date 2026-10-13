@@ -1450,17 +1450,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 67199,
+   "restantes": 241,
+   "segundos": 44394,
    "tope": 250
   },
   "30d": {
-   "restantes": 2943,
-   "segundos": 2485824,
+   "restantes": 2942,
+   "segundos": 2463019,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T02:40:17.000Z",
+ "cuota_visto": "2026-10-13T09:00:27.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2269,14 +2269,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf3275540c90f0a846084",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T10:15:34.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:48.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir",
    "intentos": 0,
@@ -2294,13 +2294,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf32be43d40721c7e11ed",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T11:40:19.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:47.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu",
    "intentos": 0,
@@ -2318,14 +2319,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_02_chacabuco_fuego-en-un-galp-n-de-la-empre.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf3295167b5c45eb2937b",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T11:00:40.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:47.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu",
    "intentos": 0,
@@ -2525,14 +2526,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf3265167b5c45eb291e5",
    "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T10:00:16.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:49.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html",
    "intentos": 0,
@@ -2550,14 +2551,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
   },
   "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf32aca68ebbd369c1b43",
    "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T11:00:02.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:47.000Z",
    "id": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania",
    "intentos": 0,
@@ -2575,14 +2576,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_03_general-villegas_recuperaron-ganado-robado-en-u.mp4"
   },
   "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf328e43d40721c7e1053",
    "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T10:45:13.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:47.000Z",
    "id": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania",
    "intentos": 0,
@@ -2730,14 +2731,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x": {
-   "actualizado": "2026-10-13T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf327e43d40721c7e0fdd",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x",
    "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T10:30:14.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T00:42:48.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/",
    "intentos": 0,
@@ -3297,14 +3298,14 @@
    "video_url": ""
   },
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x": {
-   "actualizado": "2026-10-12T21:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf329c0184667a9e254cb",
    "clave": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x",
    "creado": "2026-10-12T21:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T11:30:27.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T21:16:45.399Z",
    "id": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff",
    "intentos": 0,
@@ -3322,14 +3323,14 @@
    "video_url": ""
   },
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x": {
-   "actualizado": "2026-10-12T15:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf329ca68ebbd369c1a0e",
    "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
    "creado": "2026-10-12T15:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T11:15:46.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T15:04:00.428Z",
    "id": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd",
    "intentos": 0,
@@ -3378,7 +3379,7 @@
    "creado": "2026-10-12T21:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-12T21:06:22.889Z",
    "id": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9",
@@ -3781,14 +3782,14 @@
    "video_url": ""
   },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x": {
-   "actualizado": "2026-10-12T21:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T09:00:19.000Z",
+   "buffer_id": "6acdf32aca68ebbd369c1a8d",
    "clave": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x",
    "creado": "2026-10-12T21:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T11:45:33.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-12T21:11:35.333Z",
    "id": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b",
    "intentos": 0,
@@ -5598,6 +5599,76 @@
    "cuando": "2026-10-13T02:40:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7695962147926330676"
+  },
+  {
+   "buffer_id": "6acdf3265167b5c45eb291e5",
+   "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T10:00:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf3275540c90f0a846084",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T10:15:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf327e43d40721c7e0fdd",
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T10:30:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf328e43d40721c7e1053",
+   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T10:45:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf3295167b5c45eb2937b",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T11:00:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf329ca68ebbd369c1a0e",
+   "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T11:15:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf329c0184667a9e254cb",
+   "clave": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T11:30:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf32aca68ebbd369c1a8d",
+   "clave": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T11:45:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf32aca68ebbd369c1b43",
+   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T11:00:02.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acdf32be43d40721c7e11ed",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
+   "cuando": "2026-10-13T09:00:27.000Z",
+   "dueAt": "2026-10-13T11:40:19.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
