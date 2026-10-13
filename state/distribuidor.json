@@ -69,6 +69,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4",
    "youtube_url": "https://www.youtube.com/shorts/JvEletpiHlg"
   },
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz": {
+   "descripcion": "Una vecina de casi 80 años fue atacada por un pitbull en Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco. Según sus familiares, el perro circulaba suelto y sin bozal y atacó a la mujer y a su mascota.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-13T12:10:17.000Z",
+   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
+   "urgente": false,
+   "video_bytes": 737216,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/U7yb-ybO65I"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -722,6 +743,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reclamo-regional-polemica-por-la-instalacion-de-radares-en-la-ruta",
    "volanta": "Reclamo Regional"
   },
+  "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": {
+   "categoria": "nacionales",
+   "descripcion": "El cronograma anual se adentra en su etapa final con nuevas jornadas de descanso, incluyendo un asueto nacional por la llegada del papa León XIV en…",
+   "generado": "2026-10-13T12:11:51.057Z",
+   "id": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_cac9888915284d04941c06d55f0d7334~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/feriados-2026-cuando-es-el-proximo-fin-de-semana-largo-y-los-4267fd",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del cronograma",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/feriados-2026-cuando-es-el-proximo-fin-de-semana-largo-y-los-4267fd",
+   "volanta": ""
+  },
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": {
    "categoria": "",
    "descripcion": "Acercarán a los barrios una mesa itinerante de prevención de la violencia La Municipalidad de Chivilcoy pondrá en marcha un nuevo proyecto institucional de prevención de la violencia, impulsado por la Dirección de Género y la Secretaría de Derechos Humanos, en articulación con distintas áreas municipales. La primera salida se realizará durante la próxima semana en la plaza principal, en el marco de la Expo Chivilcoy Ofrece. El secretario de Derechos Humanos, Arturo Pertosa, y la directora de...",
@@ -829,6 +868,42 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gestiones-parlamentarias-y-ciudadanas-avanza-el-reclamo-por-la",
    "volanta": ""
+  },
+  "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": {
+   "categoria": "nacionales",
+   "descripcion": "El Gobierno oficializó la apertura de la nueva cárcel bonaerense. Ya reubican a los primeros detenidos en un operativo coordinado que busca vaciar el…",
+   "generado": "2026-10-13T12:17:02.148Z",
+   "id": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4873ba572308444fb5b063dbcac9eac4~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gobierno-habilita-el-penal-de-marcos-paz-y-traslada-a-609-9bef81",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Gobierno habilita el penal de Marcos Paz y traslada a 609 internos para cerrar Villa Devoto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gobierno-habilita-el-penal-de-marcos-paz-y-traslada-a-609-9bef81",
+   "volanta": ""
+  },
+  "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": {
+   "categoria": "",
+   "descripcion": "Una vecina de casi 80 años fue atacada por un pitbull Una vecina de casi 80 años fue atacada por un pitbull en Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco. Según sus familiares, el perro circulaba suelto y sin bozal y atacó a la mujer y a su mascota. La vecina sufrió mordeduras en los brazos y heridas en el rostro. La familia denuncia una atención insuficiente en la guardia del Hospital Municipal y sostiene que debió recurrir a...",
+   "generado": "2026-10-13T12:07:59.158Z",
+   "id": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_14ddc38c283c4c3a9799dcfb32043524~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": {
    "categoria": "",
@@ -955,6 +1030,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
    "volanta": "Fútbol"
+  },
+  "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": {
+   "categoria": "nacionales",
+   "descripcion": "El Ejecutivo nacional promulgó la normativa que modifica el esquema de descuentos en las facturas de gas. Chivilcoy figura entre los distritos bonaerenses…",
+   "generado": "2026-10-13T12:06:40.104Z",
+   "id": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e7dc28000e394dcebefeb4392cd90067~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/zonas-frias-chivilcoy-y-otros-distritos-pierden-el-subsidio-c9f234",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el gas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/zonas-frias-chivilcoy-y-otros-distritos-pierden-el-subsidio-c9f234",
+   "volanta": ""
   },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
    "categoria": "nacionales",
@@ -1702,17 +1795,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 33593,
+   "restantes": 232,
+   "segundos": 32397,
    "tope": 250
   },
   "30d": {
-   "restantes": 2934,
-   "segundos": 2452218,
+   "restantes": 2933,
+   "segundos": 2451021,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T12:00:23.000Z",
+ "cuota_visto": "2026-10-13T12:20:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1817,6 +1910,56 @@
    "vence": "2026-10-14T15:06:40.000Z",
    "video_bytes": 1241916,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4"
+  },
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok": {
+   "actualizado": "2026-10-13T12:20:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
+   "creado": "2026-10-13T12:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:10:17.000Z",
+   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una vecina de casi 80 años fue atacada por un pitbull\n\nen Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco. Según sus familiares, el perro circulaba suelto y sin bozal y atacó a la mujer y a su mascota.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
+   "urgente": false,
+   "vence": "2026-10-15T12:10:17.000Z",
+   "video_bytes": 737216,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
+  },
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x": {
+   "actualizado": "2026-10-13T12:20:19.000Z",
+   "buffer_id": "6ace220476384aa24c2d70d1",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
+   "creado": "2026-10-13T12:20:17.000Z",
+   "dueAt": "2026-10-13T14:00:35.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T12:10:17.000Z",
+   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una vecina de casi 80 años fue atacada por un pitbull\n\nen Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "tipo": "video",
+   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
+   "urgente": false,
+   "vence": "2026-10-15T12:10:17.000Z",
+   "video_bytes": 737216,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -3113,6 +3256,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x": {
+   "actualizado": "2026-10-13T12:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x",
+   "creado": "2026-10-13T12:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:11:51.057Z",
+   "id": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/feriados-2026-cuando-es-el-proximo-fin-de-semana-largo-y-los-4267fd",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del cronograma\n\nEl cronograma anual se adentra en su etapa final con nuevas jornadas de descanso, incluyendo un asueto nacional por la llegada del papa León XIV en…\n\nhttps://www.diariolacampaña.com.ar/n/feriados-2026-cuando-es-el-proximo-fin-de-semana-largo-y-los-4267fd",
+   "tipo": "nota",
+   "titulo": "Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del cronograma",
+   "urgente": false,
+   "vence": "2026-10-14T12:11:51.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x": {
    "actualizado": "2026-10-12T14:00:19.000Z",
    "buffer_id": "6accbdc632da9d8379e9e86b",
@@ -3264,6 +3431,55 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x": {
+   "actualizado": "2026-10-13T12:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
+   "creado": "2026-10-13T12:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:17:02.148Z",
+   "id": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gobierno-habilita-el-penal-de-marcos-paz-y-traslada-a-609-9bef81",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Gobierno habilita el penal de Marcos Paz y traslada a 609 internos para cerrar Villa Devoto\n\nEl Gobierno oficializó la apertura de la nueva cárcel bonaerense. Ya reubican a los primeros detenidos en un operativo coordinado que busca vaciar el…\n\nhttps://www.diariolacampaña.com.ar/n/gobierno-habilita-el-penal-de-marcos-paz-y-traslada-a-609-9bef81",
+   "tipo": "nota",
+   "titulo": "Gobierno habilita el penal de Marcos Paz y traslada a 609 internos para cerrar Villa Devoto",
+   "urgente": false,
+   "vence": "2026-10-14T12:17:02.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x": {
+   "actualizado": "2026-10-13T12:20:19.000Z",
+   "buffer_id": "6ace2204b7b7fb6d7b084a68",
+   "clave": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x",
+   "creado": "2026-10-13T12:20:17.000Z",
+   "dueAt": "2026-10-13T17:00:57.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T12:07:59.158Z",
+   "id": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Una vecina de casi 80 años fue atacada por un pitbull\n\nUna vecina de casi 80 años fue atacada por un pitbull en Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
+   "tipo": "nota",
+   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
+   "urgente": false,
+   "vence": "2026-10-14T12:07:59.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517|x": {
    "actualizado": "2026-10-12T11:40:14.000Z",
    "buffer_id": "6accb467ccd31a0d0ed3be94",
@@ -3317,14 +3533,14 @@
    "video_url": ""
   },
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x": {
-   "actualizado": "2026-10-12T12:20:13.000Z",
+   "actualizado": "2026-10-13T12:20:19.000Z",
    "buffer_id": "",
    "clave": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-12T12:17:25.856Z",
    "id": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1",
    "intentos": 0,
@@ -3441,6 +3657,30 @@
    "titulo": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad",
    "urgente": false,
    "vence": "2026-10-14T10:07:34.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x": {
+   "actualizado": "2026-10-13T12:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x",
+   "creado": "2026-10-13T12:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:06:40.104Z",
+   "id": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/zonas-frias-chivilcoy-y-otros-distritos-pierden-el-subsidio-c9f234",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el gas\n\nEl Ejecutivo nacional promulgó la normativa que modifica el esquema de descuentos en las facturas de gas. Chivilcoy figura entre los distritos bonaerenses…\n\nhttps://www.diariolacampaña.com.ar/n/zonas-frias-chivilcoy-y-otros-distritos-pierden-el-subsidio-c9f234",
+   "tipo": "nota",
+   "titulo": "Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el gas",
+   "urgente": false,
+   "vence": "2026-10-14T12:06:40.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -3904,14 +4144,14 @@
    "video_url": ""
   },
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x": {
-   "actualizado": "2026-10-12T12:20:13.000Z",
+   "actualizado": "2026-10-13T12:20:19.000Z",
    "buffer_id": "",
    "clave": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-12T12:06:31.630Z",
    "id": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75",
    "intentos": 0,
@@ -3955,14 +4195,14 @@
    "video_url": ""
   },
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x": {
-   "actualizado": "2026-10-12T12:20:13.000Z",
+   "actualizado": "2026-10-13T12:20:19.000Z",
    "buffer_id": "",
    "clave": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-12T12:11:43.895Z",
    "id": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e",
    "intentos": 0,
@@ -4030,14 +4270,14 @@
    "video_url": ""
   },
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x": {
-   "actualizado": "2026-10-12T12:20:13.000Z",
+   "actualizado": "2026-10-13T12:20:19.000Z",
    "buffer_id": "",
    "clave": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x",
    "creado": "2026-10-12T12:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-12T12:16:57.534Z",
    "id": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4",
    "intentos": 0,
@@ -6496,6 +6736,92 @@
    "cuando": "2026-10-13T12:00:23.000Z",
    "dueAt": "2026-10-13T13:45:49.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
+   "cuando": "2026-10-13T12:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
+   "cuando": "2026-10-13T12:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
+   "cuando": "2026-10-13T12:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x",
+   "cuando": "2026-10-13T12:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x",
+   "cuando": "2026-10-13T12:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x",
+   "cuando": "2026-10-13T12:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x",
+   "cuando": "2026-10-13T12:20:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x",
+   "cuando": "2026-10-13T12:20:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x",
+   "cuando": "2026-10-13T12:20:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x",
+   "cuando": "2026-10-13T12:20:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ace220476384aa24c2d70d1",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
+   "cuando": "2026-10-13T12:20:20.000Z",
+   "dueAt": "2026-10-13T14:00:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace2204b7b7fb6d7b084a68",
+   "clave": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x",
+   "cuando": "2026-10-13T12:20:20.000Z",
+   "dueAt": "2026-10-13T17:00:57.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
@@ -6504,6 +6830,7 @@
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
+  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz": "2026-10-13T12:20:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -6533,6 +6860,7 @@
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
+  "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": "2026-10-13T12:20:17.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
@@ -6540,6 +6868,8 @@
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
+  "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
+  "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
@@ -6547,6 +6877,7 @@
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
+  "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
