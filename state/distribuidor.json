@@ -1862,22 +1862,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 226,
-   "segundos": 27592,
+   "restantes": 225,
+   "segundos": 26393,
    "tope": 250
   },
   "30d": {
-   "restantes": 2927,
-   "segundos": 2446217,
+   "restantes": 2926,
+   "segundos": 2445018,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T13:40:24.000Z",
+ "cuota_visto": "2026-10-13T14:00:24.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2631,14 +2631,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x": {
-   "actualizado": "2026-10-13T12:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T14:00:22.000Z",
+   "buffer_id": "6ace3978e66b409d53fb2eee",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
    "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T18:30:55.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
    "intentos": 0,
@@ -4361,7 +4361,7 @@
    "creado": "2026-10-12T21:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-12T21:06:22.889Z",
    "id": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9",
@@ -7225,6 +7225,13 @@
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
    "cuando": "2026-10-13T13:40:24.000Z",
    "dueAt": "2026-10-13T18:15:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace3978e66b409d53fb2eee",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
+   "cuando": "2026-10-13T14:00:24.000Z",
+   "dueAt": "2026-10-13T18:30:55.000Z",
    "evento": "programado"
   }
  ],

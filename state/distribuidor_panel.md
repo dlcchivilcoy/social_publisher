@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 13/10/2026 10:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 5 | 2 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 5 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 5 | 6 | 0 | 0 | 0 |
 
@@ -16,9 +16,9 @@ Actualizado: 13/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2927 de 3000 (visto 2026-10-13T13:40:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2926 de 3000 (visto 2026-10-13T14:00:24.000Z)
 
-## Cola propia (16 esperando)
+## Cola propia (15 esperando)
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — cupo diario de Notas web en X completo (15)
 - X · Notas web · Una mujer murió y dos conductores sufrieron heridas graves tras un choque fronta — cupo diario de Notas web en X completo (15)
 - X · Notas web · Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 munic — cupo diario de Notas web en X completo (15)
@@ -27,8 +27,7 @@ Actualizado: 13/10/2026 10:40 (hora AR) · ACTIVO
 - X · Notas web · Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del crono — cupo diario de Notas web en X completo (15)
 - X · Notas web · Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el ga — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Principio de incendio en un auto en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Principio de incendio en un auto en Chacabuco — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Semana caliente en el Congreso: debate por el Presupuesto 2027, ley de tierras y — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Notas web · Semana caliente en el Congreso: debate por el Presupuesto 2027, ley de tierras y — cupo diario de Notas web en X completo (15)
 - X · Notas web · Confirman condena millonaria a una empresa de colectivos y su compañía de seguro — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Gobierno acelera el diálogo con gobernadores aliados y define la agenda legis — cupo diario de Notas web en X completo (15)
 - X · Notas web · Expulsaron a un ciudadano brasileño que había cuestionado a Javier Milei en las  — cupo diario de Notas web en X completo (15)
@@ -42,7 +41,6 @@ Actualizado: 13/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T12:20 programado web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x 
 - 2026-10-13T12:40 recibido policiales:https://laopinionline.ar/articulo/condenaron-a-14 
 - 2026-10-13T12:40 recibido policiales:https://laopinionline.ar/articulo/condenaron-a-14 
 - 2026-10-13T12:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
@@ -67,3 +65,4 @@ Actualizado: 13/10/2026 10:40 (hora AR) · ACTIVO
 - 2026-10-13T13:40 enviado web:903567f7-46a1-4218-a19a-686670a11eb1|x 
 - 2026-10-13T13:40 enviado web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x 
 - 2026-10-13T13:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
+- 2026-10-13T14:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
