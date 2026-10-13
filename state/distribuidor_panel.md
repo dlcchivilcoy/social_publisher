@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 12/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,15 +8,15 @@ Actualizado: 12/10/2026 23:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 12 | 0 | 5 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 10 | 2 | 2 | 3 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 12 | 0 | 2 | 3 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 12 enviadas + 2 programadas de 25 por día
+- TikTok: conectado · Buffer: 14 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2944 de 3000 (visto 2026-10-13T01:20:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2943 de 3000 (visto 2026-10-13T02:40:17.000Z)
 
 ## Cola propia (22 esperando)
 - X · Reels policiales · Junín: aprehendieron a un hombre de 31 años tras amenazar a su expareja con un a — cupo diario de Reels policiales en X completo (12)
@@ -48,8 +48,6 @@ Actualizado: 12/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-12T22:00 programado policiales:https://www.diariodemocracia.com/policiales/34643 
-- 2026-10-12T22:00 programado policiales:https://semanariodejunin.com.ar/nota/75516/se-des 
 - 2026-10-12T22:00 programado policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo- 
 - 2026-10-12T22:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
 - 2026-10-12T22:40 enviado policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo- 
@@ -73,3 +71,5 @@ Actualizado: 12/10/2026 23:20 (hora AR) · ACTIVO
 - 2026-10-13T01:00 programado policiales:https://www.noticiaslasflores.com.ar/policiales/t 
 - 2026-10-13T01:00 programado policiales:https://www.diariodemocracia.com/policiales/34643 
 - 2026-10-13T01:20 enviado policiales:https://www.diariojunin.com/noticias/102795_amena 
+- 2026-10-13T02:40 enviado policiales:https://www.diariodemocracia.com/policiales/34643 
+- 2026-10-13T02:40 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/t 

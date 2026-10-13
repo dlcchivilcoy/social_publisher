@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 12
+    "scheduled": 0,
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-13T01:20:19.000Z"
+   "visto": "2026-10-13T02:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-13T01:20:19.000Z"
+   "visto": "2026-10-13T02:40:17.000Z"
   }
  },
  "contenidos": {
@@ -1450,17 +1450,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 71996,
+   "restantes": 242,
+   "segundos": 67199,
    "tope": 250
   },
   "30d": {
-   "restantes": 2944,
-   "segundos": 2490621,
+   "restantes": 2943,
+   "segundos": 2485824,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T01:20:20.000Z",
+ "cuota_visto": "2026-10-13T02:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2243,18 +2243,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_05_chacabuco_muri-un-trabajador-de-32-a-os-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok": {
-   "actualizado": "2026-10-13T01:00:20.000Z",
+   "actualizado": "2026-10-13T02:40:17.000Z",
    "buffer_id": "6acd82a65229b40e868af3f6",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok",
    "creado": "2026-10-13T01:00:18.000Z",
    "dueAt": "2026-10-13T02:23:10.000Z",
+   "enviado": "2026-10-13T02:24:57.832Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T00:42:48.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695972368119958804",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-arrestaron-a-un-hombre-de-70-anos-por-atacar-con-un-05c122",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -2703,18 +2704,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok": {
-   "actualizado": "2026-10-13T01:00:20.000Z",
+   "actualizado": "2026-10-13T02:40:17.000Z",
    "buffer_id": "6acd82a6aec88be081ed0277",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok",
    "creado": "2026-10-13T01:00:18.000Z",
    "dueAt": "2026-10-13T01:43:19.000Z",
+   "enviado": "2026-10-13T01:45:12.907Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T00:42:48.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7695962147926330676",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-murio-electrocutado-un-operario-de-la-cooperativa-ae358c",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -5584,10 +5586,22 @@
    "cuando": "2026-10-13T01:20:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7695951909588372757"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok",
+   "cuando": "2026-10-13T02:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695972368119958804"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok",
+   "cuando": "2026-10-13T02:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7695962147926330676"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T01:20:19.000Z",
+ "ultima_sync": "2026-10-13T02:40:17.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
