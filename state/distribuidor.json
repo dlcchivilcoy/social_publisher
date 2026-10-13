@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 1
+    "scheduled": 0,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-13T11:40:15.000Z"
+   "visto": "2026-10-13T12:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 7
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-13T11:40:15.000Z"
+   "visto": "2026-10-13T12:40:16.000Z"
   }
  },
  "contenidos": {
@@ -215,6 +215,30 @@
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/PWER-CouUrg"
   },
+  "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": {
+   "categoria": "homicidio",
+   "descripcion": "La Justicia dictó la pena tras convalidar un procedimiento abreviado por el crimen cometido a balazos en la vía pública durante octubre de 2023.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-53c50a",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "El Tribunal en lo Criminal Nº 1 sentenció a Marcos Guerrini a cumplir una pena de 14 años de cárcel.\n\nEl magistrado Ignacio Uthurry avaló el entendimiento judicial alcanzado por las partes involucradas.\n\nEl ataque mortal sucedió en el barrio José Hernández cuando la víctima iba en bicicleta y recibió varios disparos.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #Policiales #Homicidio #BuenosAires",
+   "tipo": "video",
+   "titulo": "14 años de prisión para Marcos Guerrini por el homicidio de Daniel Scaldaferri",
+   "urgente": false,
+   "video_bytes": 93019,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4",
+   "volanta": "Condena en Pergamino",
+   "youtube_url": "https://youtube.com/shorts/2p_oowhPZCQ"
+  },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": {
    "categoria": "otro_policial",
    "descripcion": "Un joven ingresó de manera violenta a una vivienda y amenazó a una mujer, que logró escapar. Tras horas de tensión y negociaciones, se entregó a la policía y fue derivado al hospital.",
@@ -358,6 +382,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_02_chacabuco_choque-sin-heridos-y-moto-rete.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/rwF5t3y5sw4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": {
+   "categoria": "incendio",
+   "descripcion": "Bomberos voluntarios debieron intervenir tras registrarse un principio de incendio en un automóvil en la localidad de Chacabuco.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 4,
+   "texto_tiktok": "Un principio de incendio se registró en un automóvil en la localidad de Chacabuco.\n\nPersonal del cuerpo de bomberos voluntarios acudió rápidamente al lugar del hecho para contener la situación.\n\nEl foco ígneo fue controlado a tiempo y se registraron daños materiales en la unidad afectada.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Incendio #Bomberos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Principio de incendio en un auto en Chacabuco",
+   "urgente": false,
+   "video_bytes": 93300,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/4-yIZ8vu3QM"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": {
    "categoria": "otro_policial",
@@ -646,6 +694,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4",
    "volanta": "9 de Julio",
    "youtube_url": "https://youtube.com/shorts/BPZqPBpToEo"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": {
+   "categoria": "robo",
+   "descripcion": "Un operativo cerrojo culminó con la aprehensión de un hombre que era perseguido desde la vecina ciudad tras sustraer un ciclomotor. Interviene la justicia correspondiente.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Una intensa persecución policial se desató en la ruta que une ambas localidades tras el robo de un ciclomotor.\n\nEl operativo culminó en territorio chacabuquense con la captura del sospechoso y el secuestro del rodado sustraído.\n\nLas actuaciones judiciales continúan bajo la carátula correspondiente.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada",
+   "urgente": false,
+   "video_bytes": 94050,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/A0D5iPE8oRI"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": {
    "categoria": "otro_policial",
@@ -1790,22 +1862,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 232,
-   "segundos": 32397,
+   "restantes": 230,
+   "segundos": 31198,
    "tope": 250
   },
   "30d": {
-   "restantes": 2933,
-   "segundos": 2451021,
+   "restantes": 2931,
+   "segundos": 2449823,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T12:20:20.000Z",
+ "cuota_visto": "2026-10-13T12:40:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -1912,14 +1984,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23faa23c81c15662.mp4"
   },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok": {
-   "actualizado": "2026-10-13T12:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T12:40:17.000Z",
+   "buffer_id": "6ace26b3d8537df3c5559f27",
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
    "creado": "2026-10-13T12:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T12:43:09.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T12:10:17.000Z",
    "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
    "intentos": 0,
@@ -2168,6 +2240,56 @@
    "vence": "2026-10-13T12:16:38.000Z",
    "video_bytes": 95335,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok": {
+   "actualizado": "2026-10-13T12:40:17.000Z",
+   "buffer_id": "6ace26b3d8537df3c5559fa2",
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
+   "creado": "2026-10-13T12:40:15.000Z",
+   "dueAt": "2026-10-13T13:23:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-53c50a",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "El Tribunal en lo Criminal Nº 1 sentenció a Marcos Guerrini a cumplir una pena de 14 años de cárcel.\n\nEl magistrado Ignacio Uthurry avaló el entendimiento judicial alcanzado por las partes involucradas.\n\nEl ataque mortal sucedió en el barrio José Hernández cuando la víctima iba en bicicleta y recibió varios disparos.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
+   "tipo": "video",
+   "titulo": "14 años de prisión para Marcos Guerrini por el homicidio de Daniel Scaldaferri",
+   "urgente": false,
+   "vence": "2026-10-14T06:21:38.000Z",
+   "video_bytes": 93019,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|x": {
+   "actualizado": "2026-10-13T12:40:17.000Z",
+   "buffer_id": "6ace26b2f0fca1abf1cd8c70",
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|x",
+   "creado": "2026-10-13T12:40:15.000Z",
+   "dueAt": "2026-10-13T17:15:14.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-53c50a",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "14 años de prisión para Marcos Guerrini por el homicidio de Daniel Scaldaferri\n\nLa Justicia dictó la pena tras convalidar un procedimiento abreviado por el crimen cometido a balazos en la vía pública durante octubre de 2023.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pergamino-condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-53c50a\n#Pergamino",
+   "tipo": "video",
+   "titulo": "14 años de prisión para Marcos Guerrini por el homicidio de Daniel Scaldaferri",
+   "urgente": false,
+   "vence": "2026-10-14T06:21:38.000Z",
+   "video_bytes": 93019,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
   },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok": {
    "actualizado": "2026-10-12T20:00:22.000Z",
@@ -2481,6 +2603,55 @@
    "video_bytes": 133226,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_02_chacabuco_choque-sin-heridos-y-moto-rete.mp4"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok": {
+   "actualizado": "2026-10-13T12:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
+   "creado": "2026-10-13T12:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 4,
+   "texto": "Un principio de incendio se registró en un automóvil en la localidad de Chacabuco.\n\nPersonal del cuerpo de bomberos voluntarios acudió rápidamente al lugar del hecho para contener la situación.\n\nEl foco ígneo fue controlado a tiempo y se registraron daños materiales en la unidad afectada.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Principio de incendio en un auto en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-14T06:21:38.000Z",
+   "video_bytes": 93300,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x": {
+   "actualizado": "2026-10-13T12:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
+   "creado": "2026-10-13T12:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 4,
+   "texto": "Principio de incendio en un auto en Chacabuco\n\nBomberos voluntarios debieron intervenir tras registrarse un principio de incendio en un automóvil en la localidad de Chacabuco.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
+   "tipo": "video",
+   "titulo": "Principio de incendio en un auto en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-14T06:21:38.000Z",
+   "video_bytes": 93300,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T09:00:23.000Z",
    "buffer_id": "6acc2c72fa026cfb811e6d50",
@@ -2690,18 +2861,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok": {
-   "actualizado": "2026-10-13T09:00:19.000Z",
+   "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6acdf32be43d40721c7e11ed",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
    "creado": "2026-10-13T01:00:18.000Z",
    "dueAt": "2026-10-13T11:40:19.000Z",
+   "enviado": "2026-10-13T11:41:12.451Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T00:42:47.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696115945743338760",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-incendio-afecto-un-galpon-de-la-empresa-amerisu-y-no-db8f7f",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -3103,6 +3275,55 @@
    "vence": "2026-10-13T06:11:04.000Z",
    "video_bytes": 113075,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok": {
+   "actualizado": "2026-10-13T12:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok",
+   "creado": "2026-10-13T12:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una intensa persecución policial se desató en la ruta que une ambas localidades tras el robo de un ciclomotor.\n\nEl operativo culminó en territorio chacabuquense con la captura del sospechoso y el secuestro del rodado sustraído.\n\nLas actuaciones judiciales continúan bajo la carátula correspondiente.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada",
+   "urgente": false,
+   "vence": "2026-10-14T06:21:38.000Z",
+   "video_bytes": 94050,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x": {
+   "actualizado": "2026-10-13T12:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
+   "creado": "2026-10-13T12:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-13T12:21:38.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada\n\nUn operativo cerrojo culminó con la aprehensión de un hombre que era perseguido desde la vecina ciudad tras sustraer un ciclomotor.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
+   "tipo": "video",
+   "titulo": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada",
+   "urgente": false,
+   "vence": "2026-10-14T06:21:38.000Z",
+   "video_bytes": 94050,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok": {
    "actualizado": "2026-10-13T02:40:17.000Z",
@@ -3889,18 +4110,19 @@
    "video_url": ""
   },
   "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x": {
-   "actualizado": "2026-10-13T10:40:14.000Z",
+   "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6ace0a8fb8e63d8727e03c56",
    "clave": "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T12:30:31.000Z",
+   "enviado": "2026-10-13T12:31:03.844Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:10:21.969Z",
    "id": "web:79374449-0d19-4bc1-8bac-ee1a849f1966",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109985265397715145",
    "nota_url": "https://www.diariolacampaña.com.ar/n/servicios-publicos-recuerdan-que-esta-prohibido-arrojar-residuos",
    "origen": "web",
    "plataforma": "x",
@@ -4321,18 +4543,19 @@
    "video_url": ""
   },
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x": {
-   "actualizado": "2026-10-13T10:20:20.000Z",
+   "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6ace05e5e79eea2efe575ef6",
    "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T12:15:55.000Z",
+   "enviado": "2026-10-13T12:16:01.833Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:11:08.976Z",
    "id": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109981481955188917",
    "nota_url": "https://www.diariolacampaña.com.ar/n/estrellas-amarillas-participacion-en-el-foro-regional-de-educacion-y",
    "origen": "web",
    "plataforma": "x",
@@ -4602,18 +4825,19 @@
    "video_url": ""
   },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x": {
-   "actualizado": "2026-10-13T09:00:19.000Z",
+   "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6acdf32aca68ebbd369c1a8d",
    "clave": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x",
    "creado": "2026-10-12T21:20:14.000Z",
    "dueAt": "2026-10-13T11:45:33.000Z",
+   "enviado": "2026-10-13T11:45:47.927Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-12T21:11:35.333Z",
    "id": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109973872707604750",
    "nota_url": "https://www.diariolacampaña.com.ar/n/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
    "origen": "web",
    "plataforma": "x",
@@ -4653,18 +4877,19 @@
    "video_url": ""
   },
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x": {
-   "actualizado": "2026-10-13T10:20:20.000Z",
+   "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6ace05e4aa6f147b955d0b42",
    "clave": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T12:00:08.000Z",
+   "enviado": "2026-10-13T12:03:42.348Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:11:51.183Z",
    "id": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2109978380401606710",
    "nota_url": "https://www.diariolacampaña.com.ar/n/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
    "origen": "web",
    "plataforma": "x",
@@ -6822,10 +7047,109 @@
    "cuando": "2026-10-13T12:20:20.000Z",
    "dueAt": "2026-10-13T17:00:57.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|x",
+   "cuando": "2026-10-13T12:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
+   "cuando": "2026-10-13T12:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
+   "cuando": "2026-10-13T12:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
+   "cuando": "2026-10-13T12:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
+   "cuando": "2026-10-13T12:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok",
+   "cuando": "2026-10-13T12:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
+   "cuando": "2026-10-13T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696115945743338760"
+  },
+  {
+   "clave": "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x",
+   "cuando": "2026-10-13T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109985265397715145"
+  },
+  {
+   "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
+   "cuando": "2026-10-13T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109981481955188917"
+  },
+  {
+   "clave": "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x",
+   "cuando": "2026-10-13T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109973872707604750"
+  },
+  {
+   "clave": "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x",
+   "cuando": "2026-10-13T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2109978380401606710"
+  },
+  {
+   "buffer_id": "6ace26b2f0fca1abf1cd8c70",
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|x",
+   "cuando": "2026-10-13T12:40:19.000Z",
+   "dueAt": "2026-10-13T17:15:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace26b3d8537df3c5559f27",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
+   "cuando": "2026-10-13T12:40:19.000Z",
+   "dueAt": "2026-10-13T12:43:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace26b3d8537df3c5559fa2",
+   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
+   "cuando": "2026-10-13T12:40:19.000Z",
+   "dueAt": "2026-10-13T13:23:16.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T11:40:15.000Z",
+ "ultima_sync": "2026-10-13T12:40:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -6837,12 +7161,14 @@
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
   "entrevistas:job00191": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
+  "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven": "2026-10-12T21:40:15.000Z",
@@ -6855,6 +7181,7 @@
   "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
