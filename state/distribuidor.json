@@ -1193,6 +1193,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gestiones-parlamentarias-y-ciudadanas-avanza-el-reclamo-por-la",
    "volanta": ""
   },
+  "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": {
+   "categoria": "nacionales",
+   "descripcion": "El Gobierno nacional oficializó el nombramiento del doctor Diego Masaragian al frente de la Secretaría Nacional de Discapacidad. La decisión se tomó tras…",
+   "generado": "2026-10-13T21:36:28.039Z",
+   "id": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_38e98fb31644488197888e942b8c2d20~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Discapacidad",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
+   "volanta": ""
+  },
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno oficializó la apertura de la nueva cárcel bonaerense. Ya reubican a los primeros detenidos en un operativo coordinado que busca vaciar el…",
@@ -4422,6 +4440,31 @@
    "titulo": "Gestiones parlamentarias y ciudadanas",
    "urgente": false,
    "vence": "2026-10-13T10:04:11.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x": {
+   "actualizado": "2026-10-13T21:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
+   "creado": "2026-10-13T21:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-13T21:36:28.039Z",
+   "id": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Discapacidad\n\nEl Gobierno nacional oficializó el nombramiento del doctor Diego Masaragian al frente de la Secretaría Nacional de Discapacidad. La decisión se tomó tras…\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
+   "tipo": "nota",
+   "titulo": "El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Discapacidad",
+   "urgente": false,
+   "vence": "2026-10-14T21:36:28.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -8625,6 +8668,14 @@
    "cuando": "2026-10-13T21:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2110106061285753313"
+  },
+  {
+   "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
+   "cuando": "2026-10-13T21:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
@@ -8685,6 +8736,7 @@
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
+  "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
