@@ -1,24 +1,27 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 2 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 10 | 0 | 4 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 6 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 2 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 13 | 2 | 12 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 7 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2919 de 3000 (visto 2026-10-13T17:40:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2918 de 3000 (visto 2026-10-13T18:20:19.000Z)
 
 ## Cola propia (13 esperando)
+- X · Notas web · Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domicili — cupo diario de Notas web en X completo (15)
+- X · Notas web · Malvinas: el Reino Unido aprobó normas para proteger a las petroleras — cupo diario de Notas web en X completo (15)
+- X · Notas web · Visita del papa León XIV a la Argentina: cuándo serían los feriados y cómo sigue — cupo diario de Notas web en X completo (15)
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — cupo diario de Notas web en X completo (15)
 - X · Notas web · Una mujer murió y dos conductores sufrieron heridas graves tras un choque fronta — cupo diario de Notas web en X completo (15)
 - X · Notas web · Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 munic — cupo diario de Notas web en X completo (15)
@@ -29,9 +32,6 @@ Actualizado: 13/10/2026 15:00 (hora AR) · ACTIVO
 - X · Notas web · Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del crono — cupo diario de Notas web en X completo (15)
 - X · Notas web · Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el ga — cupo diario de Notas web en X completo (15)
 - X · Notas web · Semana caliente en el Congreso: debate por el Presupuesto 2027, ley de tierras y — cupo diario de Notas web en X completo (15)
-- X · Notas web · Confirman condena millonaria a una empresa de colectivos y su compañía de seguro — cupo diario de Notas web en X completo (15)
-- X · Notas web · El Gobierno acelera el diálogo con gobernadores aliados y define la agenda legis — cupo diario de Notas web en X completo (15)
-- X · Notas web · Expulsaron a un ciudadano brasileño que había cuestionado a Javier Milei en las  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -39,18 +39,6 @@ Actualizado: 13/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T15:20 vencido web:76c3d71e-5104-400d-a4f4-414ceb358697|x cupo diario de Notas web en X completo (15)
-- 2026-10-13T15:20 vencido web:9110bbe1-bdf4-4c81-bcba-062f16958539|x cupo diario de Notas web en X completo (15)
-- 2026-10-13T15:20 programado policiales:https://www.diariodemocracia.com/policiales/34645 
-- 2026-10-13T15:40 programado policiales:https://laopinionline.ar/articulo/salto-agrediero 
-- 2026-10-13T15:40 programado policiales:https://www.diariodemocracia.com/policiales/34645 
-- 2026-10-13T15:40 programado policiales:https://laopinionline.ar/articulo/salto-agrediero 
-- 2026-10-13T15:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
-- 2026-10-13T15:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
-- 2026-10-13T16:20 enviado policiales:https://www.diariodemocracia.com/policiales/34645 
-- 2026-10-13T16:20 enviado policiales:https://www.diariodemocracia.com/policiales/34645 
-- 2026-10-13T17:00 entrevista_aprobada entrevistas:job00192 
-- 2026-10-13T17:00 recibido entrevistas:job00192|x 
 - 2026-10-13T17:20 entrevista_aprobada entrevistas:job00193 
 - 2026-10-13T17:20 recibido entrevistas:job00193|x 
 - 2026-10-13T17:20 programado entrevistas:job00193|x 
@@ -64,3 +52,15 @@ Actualizado: 13/10/2026 15:00 (hora AR) · ACTIVO
 - 2026-10-13T17:40 enviado web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x 
 - 2026-10-13T17:40 enviado web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x 
 - 2026-10-13T17:40 programado entrevistas:job00194|x 
+- 2026-10-13T18:20 entrevista_aprobada entrevistas:job00194v2 
+- 2026-10-13T18:20 entrevista_aprobada entrevistas:job00196 
+- 2026-10-13T18:20 recibido web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x 
+- 2026-10-13T18:20 recibido web:63610a74-1ceb-4c17-9d20-a5b404821855|x 
+- 2026-10-13T18:20 recibido web:6ab0651a-5f39-461f-9277-fae18ec231f6|x 
+- 2026-10-13T18:20 recibido entrevistas:job00194v2|x 
+- 2026-10-13T18:20 recibido entrevistas:job00196|x 
+- 2026-10-13T18:20 vencido web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90|x cupo diario de Notas web en X completo (15)
+- 2026-10-13T18:20 vencido web:a75fc86b-708b-47e8-81d7-5e6ef80af77b|x cupo diario de Notas web en X completo (15)
+- 2026-10-13T18:20 vencido web:ceec6742-f491-45cb-b224-31d1a7caf1da|x cupo diario de Notas web en X completo (15)
+- 2026-10-13T18:20 programado entrevistas:job00194v2|x 
+- 2026-10-13T18:20 programado entrevistas:job00196|x 
