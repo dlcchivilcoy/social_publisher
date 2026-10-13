@@ -1697,22 +1697,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 234,
-   "segundos": 34800,
+   "restantes": 233,
+   "segundos": 33593,
    "tope": 250
   },
   "30d": {
-   "restantes": 2935,
-   "segundos": 2453425,
+   "restantes": 2934,
+   "segundos": 2452218,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T11:40:16.000Z",
+ "cuota_visto": "2026-10-13T12:00:23.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3170,6 +3170,7 @@
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-13T10:06:10.028Z",
    "id": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f",
@@ -3188,14 +3189,14 @@
    "video_url": ""
   },
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T12:00:22.000Z",
+   "buffer_id": "6ace1d57b4d66b8b80b52062",
    "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
    "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T13:45:49.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T10:06:49.714Z",
    "id": "web:359c8325-07b4-4de6-9aca-1c26e7243c29",
    "intentos": 0,
@@ -6487,6 +6488,13 @@
    "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
    "cuando": "2026-10-13T11:40:16.000Z",
    "dueAt": "2026-10-13T13:30:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace1d57b4d66b8b80b52062",
+   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
+   "cuando": "2026-10-13T12:00:23.000Z",
+   "dueAt": "2026-10-13T13:45:49.000Z",
    "evento": "programado"
   }
  ],

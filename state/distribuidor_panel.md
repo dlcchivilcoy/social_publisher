@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 13/10/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 8 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 9 | 6 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 7 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 1 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2935 de 3000 (visto 2026-10-13T11:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2934 de 3000 (visto 2026-10-13T12:00:23.000Z)
 
-## Cola propia (18 esperando)
-- X · Notas web · Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australi — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de So — en turno
+## Cola propia (17 esperando)
+- X · Notas web · Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de So — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de l — en turno
 - X · Notas web · Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela  — en turno
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — en turno
@@ -44,7 +43,6 @@ Actualizado: 13/10/2026 08:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T10:20 recibido web:70c111e7-3198-400b-89de-c2aca69f11ce|x 
 - 2026-10-13T10:20 recibido web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x 
 - 2026-10-13T10:20 recibido web:359c8325-07b4-4de6-9aca-1c26e7243c29|x 
 - 2026-10-13T10:20 recibido web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x 
@@ -69,3 +67,4 @@ Actualizado: 13/10/2026 08:40 (hora AR) · ACTIVO
 - 2026-10-13T11:40 enviado web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x 
 - 2026-10-13T11:40 enviado web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x 
 - 2026-10-13T11:40 programado web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x 
+- 2026-10-13T12:00 programado web:359c8325-07b4-4de6-9aca-1c26e7243c29|x 
