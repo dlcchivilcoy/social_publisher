@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,20 +7,19 @@ Actualizado: 13/10/2026 08:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 2 | 3 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 9 | 8 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 5 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 8 | 7 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 0 enviadas + 2 programadas de 25 por día
+- X: conectado · Buffer: 7 enviadas + 7 programadas de 50 por día
+- TikTok: conectado · Buffer: 1 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2937 de 3000 (visto 2026-10-13T11:20:18.000Z)
+15m: quedan 98 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2935 de 3000 (visto 2026-10-13T11:40:16.000Z)
 
-## Cola propia (19 esperando)
-- X · Notas web · Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y a — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australi — en turno
+## Cola propia (18 esperando)
+- X · Notas web · Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australi — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de So — en turno
 - X · Notas web · Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de l — en turno
 - X · Notas web · Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela  — en turno
@@ -45,13 +44,6 @@ Actualizado: 13/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T09:00 programado policiales:https://www.distritointerior.com.ar/hoy/218791/el 
-- 2026-10-13T09:00 programado policiales:https://www.diariodemocracia.com/policiales/34644 
-- 2026-10-13T10:20 recibido web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14|x 
-- 2026-10-13T10:20 recibido web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x 
-- 2026-10-13T10:20 recibido web:79374449-0d19-4bc1-8bac-ee1a849f1966|x 
-- 2026-10-13T10:20 recibido web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x 
-- 2026-10-13T10:20 recibido web:903567f7-46a1-4218-a19a-686670a11eb1|x 
 - 2026-10-13T10:20 recibido web:70c111e7-3198-400b-89de-c2aca69f11ce|x 
 - 2026-10-13T10:20 recibido web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x 
 - 2026-10-13T10:20 recibido web:359c8325-07b4-4de6-9aca-1c26e7243c29|x 
@@ -70,3 +62,10 @@ Actualizado: 13/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-13T11:00 programado web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x 
 - 2026-10-13T11:20 programado web:903567f7-46a1-4218-a19a-686670a11eb1|x 
 - 2026-10-13T11:20 programado web:70c111e7-3198-400b-89de-c2aca69f11ce|x 
+- 2026-10-13T11:40 enviado policiales:https://www.diariodemocracia.com/policiales/34644 
+- 2026-10-13T11:40 enviado policiales:https://www.distritointerior.com.ar/hoy/218791/el 
+- 2026-10-13T11:40 enviado policiales:https://www.distritointerior.com.ar/hoy/218791/el 
+- 2026-10-13T11:40 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/t 
+- 2026-10-13T11:40 enviado web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x 
+- 2026-10-13T11:40 enviado web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x 
+- 2026-10-13T11:40 programado web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x 
