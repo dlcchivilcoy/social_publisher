@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,16 +7,16 @@ Actualizado: 13/10/2026 15:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 4 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 7 | 3 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 6 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 2 | 12 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 9 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 7 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 7 enviadas + 1 programadas de 25 por día
+- X: conectado · Buffer: 25 enviadas + 5 programadas de 50 por día
+- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2918 de 3000 (visto 2026-10-13T18:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2917 de 3000 (visto 2026-10-13T18:40:26.000Z)
 
 ## Cola propia (13 esperando)
 - X · Notas web · Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domicili — cupo diario de Notas web en X completo (15)
@@ -39,11 +39,6 @@ Actualizado: 13/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T17:20 entrevista_aprobada entrevistas:job00193 
-- 2026-10-13T17:20 recibido entrevistas:job00193|x 
-- 2026-10-13T17:20 programado entrevistas:job00193|x 
-- 2026-10-13T17:20 programado entrevistas:job00192|x 
-- 2026-10-13T17:40 entrevista_aprobada entrevistas:job00194 
 - 2026-10-13T17:40 recibido entrevistas:job00194|x 
 - 2026-10-13T17:40 borrado_en_buffer entrevistas:job00193|x 
 - 2026-10-13T17:40 enviado policiales:https://laopinionline.ar/articulo/condenaron-a-14 
@@ -64,3 +59,8 @@ Actualizado: 13/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-13T18:20 vencido web:ceec6742-f491-45cb-b224-31d1a7caf1da|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T18:20 programado entrevistas:job00194v2|x 
 - 2026-10-13T18:20 programado entrevistas:job00196|x 
+- 2026-10-13T18:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
+- 2026-10-13T18:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
+- 2026-10-13T18:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
+- 2026-10-13T18:40 enviado web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x 
+- 2026-10-13T18:40 enviado web:2f28167a-6caf-4b85-81ac-e53b3248f984|x 

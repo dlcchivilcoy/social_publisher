@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 7
+    "scheduled": 0,
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-13T17:40:17.000Z"
+   "visto": "2026-10-13T18:40:26.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
-    "sent": 21
+    "scheduled": 5,
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-13T17:40:17.000Z"
+   "visto": "2026-10-13T18:40:26.000Z"
   }
  },
  "contenidos": {
@@ -2123,17 +2123,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 217,
-   "segundos": 10798,
+   "restantes": 216,
+   "segundos": 9590,
    "tope": 250
   },
   "30d": {
-   "restantes": 2918,
-   "segundos": 2429422,
+   "restantes": 2917,
+   "segundos": 2428215,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T18:20:19.000Z",
+ "cuota_visto": "2026-10-13T18:40:26.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3040,18 +3040,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_02_chacabuco_choque-sin-heridos-y-moto-rete.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok": {
-   "actualizado": "2026-10-13T15:40:15.000Z",
+   "actualizado": "2026-10-13T18:40:26.000Z",
    "buffer_id": "6ace50e3aefe64c2a8cf5ac8",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
    "creado": "2026-10-13T12:40:15.000Z",
    "dueAt": "2026-10-13T17:43:43.000Z",
+   "enviado": "2026-10-13T17:45:29.651Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696209515556900097",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -3065,18 +3066,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x": {
-   "actualizado": "2026-10-13T14:00:22.000Z",
+   "actualizado": "2026-10-13T18:40:26.000Z",
    "buffer_id": "6ace3978e66b409d53fb2eee",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
    "creado": "2026-10-13T12:40:15.000Z",
    "dueAt": "2026-10-13T18:30:55.000Z",
+   "enviado": "2026-10-13T18:31:05.241Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110075868429119886",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
    "origen": "policiales",
    "plataforma": "x",
@@ -3792,18 +3794,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x": {
-   "actualizado": "2026-10-13T13:40:23.000Z",
+   "actualizado": "2026-10-13T18:40:26.000Z",
    "buffer_id": "6ace34c81077be9dba265cc5",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
    "creado": "2026-10-13T12:40:15.000Z",
    "dueAt": "2026-10-13T18:15:37.000Z",
+   "enviado": "2026-10-13T18:15:48.466Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110072023233782105",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
    "origen": "policiales",
    "plataforma": "x",
@@ -3919,18 +3922,19 @@
    "video_url": ""
   },
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x": {
-   "actualizado": "2026-10-13T13:20:15.000Z",
+   "actualizado": "2026-10-13T18:40:26.000Z",
    "buffer_id": "6ace300f8c4d573c4e547d6a",
    "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T18:00:27.000Z",
+   "enviado": "2026-10-13T18:03:17.880Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:04:42.608Z",
    "id": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110068874850767052",
    "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
    "origen": "web",
    "plataforma": "x",
@@ -4047,18 +4051,19 @@
    "video_url": ""
   },
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x": {
-   "actualizado": "2026-10-13T13:20:15.000Z",
+   "actualizado": "2026-10-13T18:40:26.000Z",
    "buffer_id": "6ace300f7a819fc95e4a7a2a",
    "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "2026-10-13T17:45:37.000Z",
+   "enviado": "2026-10-13T17:45:46.129Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T10:05:24.695Z",
    "id": "web:2f28167a-6caf-4b85-81ac-e53b3248f984",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110064463617384452",
    "nota_url": "https://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
    "origen": "web",
    "plataforma": "x",
@@ -8190,10 +8195,40 @@
    "cuando": "2026-10-13T18:20:19.000Z",
    "dueAt": "2026-10-13T20:00:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
+   "cuando": "2026-10-13T18:40:26.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696209515556900097"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
+   "cuando": "2026-10-13T18:40:26.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110075868429119886"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
+   "cuando": "2026-10-13T18:40:26.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110072023233782105"
+  },
+  {
+   "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
+   "cuando": "2026-10-13T18:40:26.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110068874850767052"
+  },
+  {
+   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
+   "cuando": "2026-10-13T18:40:26.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110064463617384452"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
- "ultima_sync": "2026-10-13T17:40:17.000Z",
+ "ultima_sync": "2026-10-13T18:40:26.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
