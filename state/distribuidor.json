@@ -291,6 +291,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00196.mp4",
    "youtube_url": "https://youtu.be/XUB7kMDUgKk"
   },
+  "entrevistas:job00197": {
+   "descripcion": "Desde Chivilcoy, Patricio Lo Valvo, presidente de AIACA, explicó el peligro de sembrar una sola variedad y remarcó la importancia de la diversidad genética y los bioinsumos.",
+   "duracion_seg": null,
+   "entrevistado": "Patricio Lo Valvo",
+   "generado": "2026-10-13T19:00:18.000Z",
+   "id": "entrevistas:job00197",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Patricio Lo Valvo advierte el riesgo genético en el trigo",
+   "urgente": false,
+   "video_bytes": 16387120,
+   "video_mb": 15.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4",
+   "youtube_url": "https://youtu.be/kV-UWN9ywEI"
+  },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": {
    "categoria": "robo",
    "descripcion": "Uno de los sospechosos, de 34 años, había recuperado la libertad tras ser atrapado in fraganti y volvió a caer junto a un cómplice de 43.",
@@ -675,6 +695,30 @@
    "volanta": "Juan Bautista Alberdi en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/tsBd_C3LYqI"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do": {
+   "categoria": "robo",
+   "descripcion": "Una motocicleta sustraída en la vecina ciudad fue recuperada este martes tras un allanamiento en una vivienda de Junín. Dos jóvenes de 21 y 22 años quedaron imputados por encubrimiento.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-13T18:42:25.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-hallaron-una-moto-robada-en-lincoln-durante-un-4c109b",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Una motocicleta robada en Lincoln fue hallada este martes durante un allanamiento policial en la ciudad de Junín.\n\nEl operativo se llevó a cabo en un domicilio de la calle Soldado Jurio al 300, en el barrio Martín de Güemes.\n\nComo resultado del procedimiento, dos jóvenes de 21 y 22 años quedaron aprehendidos e imputados por el delito de encubrimiento.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Junin #Lincoln #Secuestro #BuenosAires",
+   "tipo": "video",
+   "titulo": "Hallan en Junín moto robada en Lincoln y hay dos aprehendidos",
+   "urgente": false,
+   "video_bytes": 87397,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_06_chacabuco_hallan-en-jun-n-moto-robada-en.mp4",
+   "volanta": "Junín y Lincoln en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/tXDE6UQWbkA"
+  },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": {
    "categoria": "accidente_vial",
    "descripcion": "Un Volkswagen Gol volcó en el kilómetro 271, entre la cabecera distrital y French. El conductor tiene 31 años y viajaba junto a cuatro jóvenes. Todos salieron ilesos.",
@@ -818,6 +862,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_06_junin_atac-con-un-machete-a-polic-as.mp4",
    "volanta": "Junín",
    "youtube_url": "https://youtube.com/shorts/g_Mx17wQElw"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos": {
+   "categoria": "operativo_policial",
+   "descripcion": "Personal policial arrestó a cuatro personas en la calle Magaldi luego de una confrontación que incluyó armas blancas, caños y un hacha. Uno de los demorados tenía un corte en la cabeza.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-13T18:42:25.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehendidos-tras-una-violenta-pelea-con-armas-22ab7d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Una fuerte disputa callejera movilizó a la policía hasta la calle Magaldi, entre las arterias Rivadavia y Roque Sáenz Peña.\n\nEn el sitio, los efectivos lograron reducir y arrestar a cuatro individuos que se resistieron al operativo.\n\nEl conflicto se habría originado a raíz de destrozos provocados en la entrada de una casa perteneciente a la expareja de uno de los sospechosos.\n\nDurante el procedimiento se incautaron armas blancas, varios caños y un hacha.\n\nUno de los sujetos involucrados sufrió una lesión cortante en la cabeza y la causa quedó bajo la órbita de la UFI N.º 6 junto a la fiscalía de género departamental.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cuatro detenidos tras una violenta pelea callejera con un hacha",
+   "urgente": false,
+   "video_bytes": 80861,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_05_junin_cuatro-detenidos-tras-una-viol.mp4",
+   "volanta": "Operativo en Junín",
+   "youtube_url": "https://youtube.com/shorts/LTIIvCuhNQU"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": {
    "categoria": "incendio",
@@ -2123,17 +2191,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 9590,
+   "restantes": 215,
+   "segundos": 8394,
    "tope": 250
   },
   "30d": {
-   "restantes": 2917,
-   "segundos": 2428215,
+   "restantes": 2916,
+   "segundos": 2427019,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T18:40:26.000Z",
+ "cuota_visto": "2026-10-13T19:00:24.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2571,6 +2639,31 @@
    "vence": "2026-10-15T18:20:14.000Z",
    "video_bytes": 24685129,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00196.mp4"
+  },
+  "entrevistas:job00197|x": {
+   "actualizado": "2026-10-13T19:00:20.000Z",
+   "buffer_id": "6ace7fc6910b59e1bcd7fa3c",
+   "clave": "entrevistas:job00197|x",
+   "creado": "2026-10-13T19:00:18.000Z",
+   "dueAt": "2026-10-13T20:15:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T19:00:18.000Z",
+   "id": "entrevistas:job00197",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Patricio Lo Valvo advierte el riesgo genético en el trigo\n\nDesde Chivilcoy, Patricio Lo Valvo, presidente de AIACA, explicó el peligro de sembrar una sola variedad y remarcó la importancia de la diversidad genética y los…\n\n▶️ La entrevista completa: https://youtu.be/kV-UWN9ywEI",
+   "tipo": "video",
+   "titulo": "Patricio Lo Valvo advierte el riesgo genético en el trigo",
+   "urgente": false,
+   "vence": "2026-10-15T19:00:18.000Z",
+   "video_bytes": 16387120,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok": {
    "actualizado": "2026-10-12T21:20:15.000Z",
@@ -3403,6 +3496,56 @@
    "video_bytes": 75639,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_05_chacabuco_una-adolescente-de-15-a-os-suf.mp4"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok": {
+   "actualizado": "2026-10-13T19:00:20.000Z",
+   "buffer_id": "6ace7fc8b8901dbd45b7bbec",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
+   "creado": "2026-10-13T19:00:18.000Z",
+   "dueAt": "2026-10-13T19:43:46.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T18:42:25.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-hallaron-una-moto-robada-en-lincoln-durante-un-4c109b",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Una motocicleta robada en Lincoln fue hallada este martes durante un allanamiento policial en la ciudad de Junín.\n\nEl operativo se llevó a cabo en un domicilio de la calle Soldado Jurio al 300, en el barrio Martín de Güemes.\n\nComo resultado del procedimiento, dos jóvenes de 21 y 22 años quedaron aprehendidos e imputados por el delito de encubrimiento.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Hallan en Junín moto robada en Lincoln y hay dos aprehendidos",
+   "urgente": false,
+   "vence": "2026-10-14T12:42:25.000Z",
+   "video_bytes": 87397,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_06_chacabuco_hallan-en-jun-n-moto-robada-en.mp4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x": {
+   "actualizado": "2026-10-13T19:00:20.000Z",
+   "buffer_id": "6ace7fc75e3254add91b2d97",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x",
+   "creado": "2026-10-13T19:00:18.000Z",
+   "dueAt": "2026-10-13T20:45:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T18:42:25.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-hallaron-una-moto-robada-en-lincoln-durante-un-4c109b",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Hallan en Junín moto robada en Lincoln y hay dos aprehendidos\n\nUna motocicleta sustraída en la vecina ciudad fue recuperada este martes tras un allanamiento en una vivienda de Junín.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/junin-hallaron-una-moto-robada-en-lincoln-durante-un-4c109b\n#Chacabuco",
+   "tipo": "video",
+   "titulo": "Hallan en Junín moto robada en Lincoln y hay dos aprehendidos",
+   "urgente": false,
+   "vence": "2026-10-14T12:42:25.000Z",
+   "video_bytes": 87397,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_06_chacabuco_hallan-en-jun-n-moto-robada-en.mp4"
+  },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
    "buffer_id": "6acc2c717db619a29151f186",
@@ -3714,6 +3857,56 @@
    "vence": "2026-10-13T09:37:21.000Z",
    "video_bytes": 80614,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_06_junin_atac-con-un-machete-a-polic-as.mp4"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok": {
+   "actualizado": "2026-10-13T19:00:20.000Z",
+   "buffer_id": "6ace7fc8b8901dbd45b7bb39",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
+   "creado": "2026-10-13T19:00:18.000Z",
+   "dueAt": "2026-10-13T19:03:46.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T18:42:25.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehendidos-tras-una-violenta-pelea-con-armas-22ab7d",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una fuerte disputa callejera movilizó a la policía hasta la calle Magaldi, entre las arterias Rivadavia y Roque Sáenz Peña.\n\nEn el sitio, los efectivos lograron reducir y arrestar a cuatro individuos que se resistieron al operativo.\n\nEl conflicto se habría originado a raíz de destrozos provocados en la entrada de una casa perteneciente a la expareja de uno de los sospechosos.\n\nDurante el procedimiento se incautaron armas blancas, varios caños y un hacha.\n\nUno de los sujetos involucrados sufrió una lesión cortante en la cabeza y la causa quedó bajo la órbita de la UFI N.º 6 junto a la fiscalía de género departamental.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
+   "tipo": "video",
+   "titulo": "Cuatro detenidos tras una violenta pelea callejera con un hacha",
+   "urgente": false,
+   "vence": "2026-10-14T12:42:25.000Z",
+   "video_bytes": 80861,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_05_junin_cuatro-detenidos-tras-una-viol.mp4"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x": {
+   "actualizado": "2026-10-13T19:00:20.000Z",
+   "buffer_id": "6ace7fc7e28a64c75dd76f50",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x",
+   "creado": "2026-10-13T19:00:18.000Z",
+   "dueAt": "2026-10-13T20:30:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-13T18:42:25.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehendidos-tras-una-violenta-pelea-con-armas-22ab7d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cuatro detenidos tras una violenta pelea callejera con un hacha\n\nPersonal policial arrestó a cuatro personas en la calle Magaldi luego de una confrontación que incluyó armas blancas, caños y un hacha.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehendidos-tras-una-violenta-pelea-con-armas-22ab7d\n#Junín",
+   "tipo": "video",
+   "titulo": "Cuatro detenidos tras una violenta pelea callejera con un hacha",
+   "urgente": false,
+   "vence": "2026-10-14T12:42:25.000Z",
+   "video_bytes": 80861,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_05_junin_cuatro-detenidos-tras-una-viol.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok": {
    "actualizado": "2026-10-12T14:00:19.000Z",
@@ -8225,6 +8418,86 @@
    "cuando": "2026-10-13T18:40:26.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2110064463617384452"
+  },
+  {
+   "clave": "entrevistas:job00197",
+   "cuando": "2026-10-13T19:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x",
+   "cuando": "2026-10-13T19:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
+   "cuando": "2026-10-13T19:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x",
+   "cuando": "2026-10-13T19:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
+   "cuando": "2026-10-13T19:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00197|x",
+   "cuando": "2026-10-13T19:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ace7fc6910b59e1bcd7fa3c",
+   "clave": "entrevistas:job00197|x",
+   "cuando": "2026-10-13T19:00:24.000Z",
+   "dueAt": "2026-10-13T20:15:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace7fc7e28a64c75dd76f50",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x",
+   "cuando": "2026-10-13T19:00:24.000Z",
+   "dueAt": "2026-10-13T20:30:59.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace7fc75e3254add91b2d97",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x",
+   "cuando": "2026-10-13T19:00:24.000Z",
+   "dueAt": "2026-10-13T20:45:36.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace7fc8b8901dbd45b7bb39",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
+   "cuando": "2026-10-13T19:00:24.000Z",
+   "dueAt": "2026-10-13T19:03:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace7fc8b8901dbd45b7bbec",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
+   "cuando": "2026-10-13T19:00:24.000Z",
+   "dueAt": "2026-10-13T19:43:46.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-13",
@@ -8244,6 +8517,7 @@
   "entrevistas:job00194": "2026-10-13T17:40:16.000Z",
   "entrevistas:job00194v2": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00196": "2026-10-13T18:20:14.000Z",
+  "entrevistas:job00197": "2026-10-13T19:00:18.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
@@ -8260,12 +8534,14 @@
   "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de": "2026-10-13T15:20:18.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do": "2026-10-13T19:00:18.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera": "2026-10-12T15:40:18.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos": "2026-10-13T19:00:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
