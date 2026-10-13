@@ -3352,14 +3352,18 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
     corte = f",trim=duration={float(max_seconds)},setpts=PTS-STARTPTS" if max_seconds else ""
     vf += f";{out_label}fps={fps},setsar=1,format=yuv420p{corte}[vmain]"
     i_placa = n_in
+    # Cuadro más bajo (el 4:5 de lo apaisado): desde el 2026-10-13 hay una placa diseñada para
+    # 4:5 (`placa_final_4x5.png`, 1080x1350, junto a la de 9:16). Si no está, la de 9:16 se
+    # RECORTA en alto alrededor del logo, el @diarioyradio y las redes, como antes.
+    placa_4x5 = Path(placa).with_name(Path(placa).stem + "_4x5.png") if alto != 1920 else None
+    if placa_4x5 is not None and placa_4x5.is_file():
+        placa = placa_4x5
     inputs += ["-loop", "1", "-t", str(seg_placa), "-i", str(placa)]
     n_in += 1
-    if alto == 1920:
-        ajuste = ("scale=1080:1920:force_original_aspect_ratio=decrease,"
-                  "pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black")
+    if alto == 1920 or placa == placa_4x5:
+        ajuste = (f"scale=1080:{alto}:force_original_aspect_ratio=decrease,"
+                  f"pad=1080:{alto}:(ow-iw)/2:(oh-ih)/2:black")
     else:
-        # Cuadro más bajo (el 4:5 de lo apaisado): la placa —fondo crema parejo— se RECORTA en
-        # alto alrededor del logo, el @diarioyradio y las redes, en vez de achicarse con bandas.
         ajuste = f"scale=1080:-2,crop=1080:{alto}:0:(ih-{alto})*0.42"
     vf += (f";[{i_placa}:v]{ajuste},setsar=1,fps={fps},"
            f"fade=t=in:st=0:d=0.4,format=yuv420p[vplaca]")
