@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 6 | 4 | 0 | 0 | 0 | 0 |
@@ -16,10 +16,9 @@ Actualizado: 13/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 5 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2922 de 3000 (visto 2026-10-13T16:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2921 de 3000 (visto 2026-10-13T17:20:17.000Z)
 
-## Cola propia (14 esperando)
-- X · Recortes de entrevistas · Erardo Spinelli: el cansancio mental no se va descansando — Buffer lleno (10 programadas por canal en el plan Free)
+## Cola propia (13 esperando)
 - X · Notas web · Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruza — cupo diario de Notas web en X completo (15)
 - X · Notas web · Una mujer murió y dos conductores sufrieron heridas graves tras un choque fronta — cupo diario de Notas web en X completo (15)
 - X · Notas web · Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 munic — cupo diario de Notas web en X completo (15)
@@ -40,10 +39,6 @@ Actualizado: 13/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T13:40 enviado web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x 
-- 2026-10-13T13:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/13/per 
-- 2026-10-13T14:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
-- 2026-10-13T15:00 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x 
 - 2026-10-13T15:00 enviado web:359c8325-07b4-4de6-9aca-1c26e7243c29|x 
 - 2026-10-13T15:20 recibido policiales:https://laopinionline.ar/articulo/salto-agrediero 
 - 2026-10-13T15:20 recibido policiales:https://laopinionline.ar/articulo/salto-agrediero 
@@ -65,3 +60,7 @@ Actualizado: 13/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-13T16:20 enviado policiales:https://www.diariodemocracia.com/policiales/34645 
 - 2026-10-13T17:00 entrevista_aprobada entrevistas:job00192 
 - 2026-10-13T17:00 recibido entrevistas:job00192|x 
+- 2026-10-13T17:20 entrevista_aprobada entrevistas:job00193 
+- 2026-10-13T17:20 recibido entrevistas:job00193|x 
+- 2026-10-13T17:20 programado entrevistas:job00193|x 
+- 2026-10-13T17:20 programado entrevistas:job00192|x 
