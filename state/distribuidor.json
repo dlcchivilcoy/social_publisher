@@ -1969,17 +1969,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 223,
-   "segundos": 21594,
+   "restantes": 222,
+   "segundos": 20400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2924,
-   "segundos": 2440219,
+   "restantes": 2923,
+   "segundos": 2439024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T15:20:22.000Z",
+ "cuota_visto": "2026-10-13T15:40:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2397,14 +2397,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|tiktok": {
-   "actualizado": "2026-10-13T15:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T15:40:15.000Z",
+   "buffer_id": "6ace50e253128ef284b5da1d",
    "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|tiktok",
    "creado": "2026-10-13T15:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T16:23:50.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T15:17:50.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales",
    "intentos": 0,
@@ -2422,14 +2422,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_04_pergamino_agredieron-a-inspectores-viale.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x": {
-   "actualizado": "2026-10-13T15:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T15:40:15.000Z",
+   "buffer_id": "6ace50e0aae68f5d3cce3761",
    "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x",
    "creado": "2026-10-13T15:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T18:45:03.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T15:17:50.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales",
    "intentos": 0,
@@ -2759,14 +2759,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_2109_02_chacabuco_choque-sin-heridos-y-moto-rete.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok": {
-   "actualizado": "2026-10-13T12:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T15:40:15.000Z",
+   "buffer_id": "6ace50e3aefe64c2a8cf5ac8",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
    "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T17:43:43.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
    "intentos": 0,
@@ -3069,14 +3069,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_02_chacabuco_fuego-en-un-galp-n-de-la-empre.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok": {
-   "actualizado": "2026-10-13T15:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T15:40:15.000Z",
+   "buffer_id": "6ace50e11ced551792bbe8dd",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok",
    "creado": "2026-10-13T15:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T15:43:41.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T15:17:50.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de",
    "intentos": 0,
@@ -3483,14 +3483,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1209_01_9-de-julio_incendio-de-neum-tico-en-un-ca.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok": {
-   "actualizado": "2026-10-13T12:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-13T15:40:15.000Z",
+   "buffer_id": "6ace50e253128ef284b5da60",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok",
    "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-13T17:03:36.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T12:21:38.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
    "intentos": 0,
@@ -3820,6 +3820,7 @@
    "creado": "2026-10-13T15:20:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T15:06:32.836Z",
    "id": "web:364ed235-37a6-4310-b188-750e40d877a8",
@@ -4281,6 +4282,7 @@
    "creado": "2026-10-13T15:20:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T15:16:59.566Z",
    "id": "web:76224348-2766-4a07-947f-ef8503976009",
@@ -4816,6 +4818,7 @@
    "creado": "2026-10-13T15:20:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-13T15:11:46.320Z",
    "id": "web:baeb5d08-b026-4158-a946-6ff35dd140c1",
@@ -7601,6 +7604,41 @@
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|x",
    "cuando": "2026-10-13T15:20:22.000Z",
    "dueAt": "2026-10-13T15:23:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace50e0aae68f5d3cce3761",
+   "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x",
+   "cuando": "2026-10-13T15:40:19.000Z",
+   "dueAt": "2026-10-13T18:45:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace50e11ced551792bbe8dd",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok",
+   "cuando": "2026-10-13T15:40:19.000Z",
+   "dueAt": "2026-10-13T15:43:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace50e253128ef284b5da1d",
+   "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|tiktok",
+   "cuando": "2026-10-13T15:40:19.000Z",
+   "dueAt": "2026-10-13T16:23:50.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace50e253128ef284b5da60",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok",
+   "cuando": "2026-10-13T15:40:19.000Z",
+   "dueAt": "2026-10-13T17:03:36.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ace50e3aefe64c2a8cf5ac8",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
+   "cuando": "2026-10-13T15:40:19.000Z",
+   "dueAt": "2026-10-13T17:43:43.000Z",
    "evento": "programado"
   }
  ],
