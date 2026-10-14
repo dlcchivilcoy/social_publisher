@@ -3125,22 +3125,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 23994,
+   "restantes": 228,
+   "segundos": 22797,
    "tope": 250
   },
   "30d": {
-   "restantes": 2894,
-   "segundos": 2356219,
+   "restantes": 2893,
+   "segundos": 2355021,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T14:40:22.000Z",
+ "cuota_visto": "2026-10-14T15:00:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6797,6 +6797,7 @@
    "creado": "2026-10-14T10:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-14T10:09:29.150Z",
    "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
@@ -8207,14 +8208,14 @@
    "video_url": ""
   },
   "web:e883209a-2652-420f-bb41-8ef9185d415e|x": {
-   "actualizado": "2026-10-14T10:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T15:00:19.000Z",
+   "buffer_id": "6acf99034713c18c89d63c1f",
    "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
    "creado": "2026-10-14T10:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T19:00:59.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T10:10:11.995Z",
    "id": "web:e883209a-2652-420f-bb41-8ef9185d415e",
    "intentos": 0,
@@ -11997,6 +11998,13 @@
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
    "cuando": "2026-10-14T14:40:22.000Z",
    "dueAt": "2026-10-14T18:45:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf99034713c18c89d63c1f",
+   "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
+   "cuando": "2026-10-14T15:00:20.000Z",
+   "dueAt": "2026-10-14T19:00:59.000Z",
    "evento": "programado"
   }
  ],
