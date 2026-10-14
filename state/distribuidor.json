@@ -195,6 +195,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4",
    "youtube_url": "https://www.youtube.com/shorts/H1AGcWi6Z3E"
   },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf": {
+   "descripcion": "La Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa y de formación para el trabajo disponible en la ciudad, especialmente para estudiantes que transitan el último año.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-14T16:44:58.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal",
+   "urgente": false,
+   "video_bytes": 1518077,
+   "video_mb": 1.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/GyTouCtXJtE"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -435,6 +456,26 @@
    "video_mb": 27.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00206.mp4",
    "youtube_url": "https://youtu.be/vI7IgRLgeSY"
+  },
+  "entrevistas:job00207": {
+   "descripcion": "La concejal Coty Alonso cuestionó el proceso de entrega del Complejo Federación en Chivilcoy señalando la falta de presupuestos para una obra de 14 millones de dólares. Reclamó respetar los mecanismos del Estado y la transparencia municipal.",
+   "duracion_seg": null,
+   "entrevistado": "Coty Alonso",
+   "generado": "2026-10-14T17:00:17.000Z",
+   "id": "entrevistas:job00207",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Coty Alonso sobre el Complejo Federación en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 29806199,
+   "video_mb": 28.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00207.mp4",
+   "youtube_url": "https://youtu.be/rNCw23Mi_g0"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
@@ -1629,6 +1670,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
    "volanta": "Tenis"
+  },
+  "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff": {
+   "categoria": "",
+   "descripcion": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal La Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa y de formación para el trabajo disponible en la ciudad, especialmente para estudiantes que transitan el último año de la escuela secundaria. La propuesta reunió a más de 20 instituciones educativas, organismos y representantes del sector productivo para acercar...",
+   "generado": "2026-10-14T16:42:28.878Z",
+   "id": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_35700e96631749819d1ff45b270abda4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "volanta": "Chivilcoy · Educación"
   },
   "web:364ed235-37a6-4310-b188-750e40d877a8": {
    "categoria": "nacionales",
@@ -3645,6 +3704,56 @@
    "video_bytes": 371590,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
   },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok": {
+   "actualizado": "2026-10-14T17:00:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
+   "creado": "2026-10-14T17:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-14T16:44:58.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal\n\nLa Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa y de formación para el trabajo disponible en la ciudad, especialmente para estudiantes que transitan el último año.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-16T16:44:58.000Z",
+   "video_bytes": 1518077,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x": {
+   "actualizado": "2026-10-14T17:00:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
+   "creado": "2026-10-14T17:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-14T16:44:58.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal\n\nLa Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "tipo": "video",
+   "titulo": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-16T16:44:58.000Z",
+   "video_bytes": 1518077,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -3981,6 +4090,30 @@
    "video_bytes": 29284553,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00206.mp4"
   },
+  "entrevistas:job00207|x": {
+   "actualizado": "2026-10-14T17:00:17.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00207|x",
+   "creado": "2026-10-14T17:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T17:00:17.000Z",
+   "id": "entrevistas:job00207",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Coty Alonso sobre el Complejo Federación en Chivilcoy\n\nLa concejal Coty Alonso cuestionó el proceso de entrega del Complejo Federación en Chivilcoy señalando la falta de presupuestos para una obra de 14 millones de dólares.\n\n▶️ La entrevista completa: https://youtu.be/rNCw23Mi_g0",
+   "tipo": "video",
+   "titulo": "Coty Alonso sobre el Complejo Federación en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-16T17:00:17.000Z",
+   "video_bytes": 29806199,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00207.mp4"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acfa71a95350f80b3547079",
@@ -4059,14 +4192,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_05_chacabuco_estado-de-salud-de-los-dos-her.mp4"
   },
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|x": {
-   "actualizado": "2026-10-13T23:00:20.000Z",
+   "actualizado": "2026-10-14T17:00:19.000Z",
    "buffer_id": "",
    "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|x",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Reels policiales en X completo (12)",
    "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T22:42:07.000Z",
    "id": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos",
    "intentos": 0,
@@ -4421,14 +4554,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_04_bolivar_usaron-foto-de-su-hija-y-carac.mp4"
   },
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|x": {
-   "actualizado": "2026-10-13T23:00:20.000Z",
+   "actualizado": "2026-10-14T17:00:19.000Z",
    "buffer_id": "",
    "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|x",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Reels policiales en X completo (12)",
    "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T22:42:07.000Z",
    "id": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/",
    "intentos": 0,
@@ -4576,14 +4709,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_01_junin_estafa-con-paquetes-tur-sticos.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x": {
-   "actualizado": "2026-10-13T23:00:20.000Z",
+   "actualizado": "2026-10-14T17:00:19.000Z",
    "buffer_id": "",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Reels policiales en X completo (12)",
    "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T22:42:06.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos",
    "intentos": 0,
@@ -5273,14 +5406,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1809_06_chacabuco_hallan-en-jun-n-moto-robada-en.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|tiktok": {
-   "actualizado": "2026-10-13T23:00:20.000Z",
+   "actualizado": "2026-10-14T17:00:19.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|tiktok",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T22:42:06.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi",
    "intentos": 0,
@@ -5298,14 +5431,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_02_junin_un-auto-abandonado-se-prendi-f.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|x": {
-   "actualizado": "2026-10-13T23:00:20.000Z",
+   "actualizado": "2026-10-14T17:00:19.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|x",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Reels policiales en X completo (12)",
    "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T22:42:06.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi",
    "intentos": 0,
@@ -6375,6 +6508,30 @@
    "titulo": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior",
    "urgente": false,
    "vence": "2026-10-14T10:06:49.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x": {
+   "actualizado": "2026-10-14T17:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
+   "creado": "2026-10-14T17:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T16:42:28.878Z",
+   "id": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal\n\nLa Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa y de formación…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
+   "tipo": "nota",
+   "titulo": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-15T16:42:28.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -12361,6 +12518,73 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00207",
+   "cuando": "2026-10-14T17:00:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
+   "cuando": "2026-10-14T17:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
+   "cuando": "2026-10-14T17:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
+   "cuando": "2026-10-14T17:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00207|x",
+   "cuando": "2026-10-14T17:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|x",
+   "cuando": "2026-10-14T17:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Reels policiales en X completo (12)"
+  },
+  {
+   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|x",
+   "cuando": "2026-10-14T17:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Reels policiales en X completo (12)"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x",
+   "cuando": "2026-10-14T17:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Reels policiales en X completo (12)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|tiktok",
+   "cuando": "2026-10-14T17:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|x",
+   "cuando": "2026-10-14T17:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Reels policiales en X completo (12)"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -12375,6 +12599,7 @@
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq": "2026-10-14T13:40:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8": "2026-10-14T13:40:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye": "2026-10-14T14:20:14.000Z",
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf": "2026-10-14T17:00:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -12387,6 +12612,7 @@
   "entrevistas:job00196": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00197": "2026-10-13T19:00:18.000Z",
   "entrevistas:job00206": "2026-10-14T16:20:15.000Z",
+  "entrevistas:job00207": "2026-10-14T17:00:17.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
@@ -12440,6 +12666,7 @@
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
+  "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff": "2026-10-14T17:00:17.000Z",
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
