@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 5,
-    "sent": 0
+    "scheduled": 4,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-14T10:20:21.000Z"
+   "visto": "2026-10-14T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
+    "scheduled": 8,
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-14T10:20:21.000Z"
+   "visto": "2026-10-14T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -2882,22 +2882,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 39594,
+   "restantes": 237,
+   "segundos": 34801,
    "tope": 250
   },
   "30d": {
-   "restantes": 2903,
-   "segundos": 2371818,
+   "restantes": 2902,
+   "segundos": 2367026,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T10:20:23.000Z",
+ "cuota_visto": "2026-10-14T11:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3108,18 +3108,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T11:40:15.000Z",
    "buffer_id": "6acf44b43188d8aa57b0fc80",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
    "creado": "2026-10-14T09:00:20.000Z",
    "dueAt": "2026-10-14T11:00:36.000Z",
+   "enviado": "2026-10-14T11:05:10.582Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:59:52.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696477494987312405",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -11014,10 +11015,16 @@
    "cuando": "2026-10-14T10:20:23.000Z",
    "dueAt": "2026-10-14T14:45:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
+   "cuando": "2026-10-14T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696477494987312405"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T10:20:21.000Z",
+ "ultima_sync": "2026-10-14T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

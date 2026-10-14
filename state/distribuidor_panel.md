@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 4 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 4 | 15 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 0 enviadas + 5 programadas de 25 por día
+- X: conectado · Buffer: 2 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2903 de 3000 (visto 2026-10-14T10:20:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2902 de 3000 (visto 2026-10-14T11:40:15.000Z)
 
 ## Cola propia (36 esperando)
 - X · Notas web · Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de — Buffer lleno (10 programadas por canal en el plan Free)
@@ -56,7 +56,6 @@ Actualizado: 14/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T09:00 programado policiales:https://www.presentenoticias.com/noticias/2026/10 
 - 2026-10-14T10:20 recibido web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x 
 - 2026-10-14T10:20 recibido web:176d2a19-01bb-4043-bc46-282b3dd6307c|x 
 - 2026-10-14T10:20 recibido web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x 
@@ -81,3 +80,4 @@ Actualizado: 14/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-14T10:20 enviado policiales:https://www.diariojunin.com/noticias/102816_detuv 
 - 2026-10-14T10:20 programado web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x 
 - 2026-10-14T10:20 programado web:66096b4b-4845-4ea3-a895-867ed95af957|x 
+- 2026-10-14T11:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tikto 
