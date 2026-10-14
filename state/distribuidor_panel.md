@@ -1,31 +1,26 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 3 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 0 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 5 | 2 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 0 | 3 | 0 | 0 | 0 |
-| Notas web | X | 15 | 3 | 6 | 19 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 3 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 6 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 1 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 5 | 18 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 9 enviadas + 7 programadas de 50 por día
+- X: conectado · Buffer: 13 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2891 de 3000 (visto 2026-10-14T15:40:19.000Z)
+15m: quedan 98 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2889 de 3000 (visto 2026-10-14T16:00:26.000Z)
 
-## Cola propia (41 esperando)
-- TikTok · Reels del bot · Golpearon y asaltaron a un empleado municipal cuando iba a trabajar — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · Un joven volcó sobre la calzada y pidió auxilio a otros conductores — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · Una vecina denunció el robo de su moto y ofrece recompensa — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Un joven murió atropellado en la Ruta 7 al regresar de Luján — tope de 15 publicaciones en 24 h de TikTok
+## Cola propia (36 esperando)
 - TikTok · Reels policiales · Robaron una Toyota Hilux 2025 de Gustavo Andreoni el 14/10/2026 — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ — fuera del horizonte de programación (espera en la cola)
-- X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — en turno
+- X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · Emanuel Boveri y el gran presente de Atlético Tostado: "Estamos muy motivados y  — en turno
 - X · Notas web · Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU — en turno
 - X · Notas web · Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting reali — en turno
@@ -49,6 +44,11 @@ Actualizado: 14/10/2026 12:40 (hora AR) · ACTIVO
 - X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Nuevo choque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Nuevo choque en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — cupo diario de Reels policiales en X completo (12)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,15 +56,6 @@ Actualizado: 14/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T13:40 enviado policiales:https://www.diariodemocracia.com/policiales/34649 
-- 2026-10-14T13:40 enviado policiales:https://www.diariodemocracia.com/policiales/34649 
-- 2026-10-14T13:40 enviado web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x 
-- 2026-10-14T13:40 programado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x 
-- 2026-10-14T14:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x 
-- 2026-10-14T14:20 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x 
-- 2026-10-14T14:20 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tikto 
-- 2026-10-14T14:20 recibido web:d72917a3-67e5-41df-affc-436383926d89|x 
-- 2026-10-14T14:20 programado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x 
 - 2026-10-14T14:20 programado web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x 
 - 2026-10-14T14:40 enviado policiales:https://laopinionline.ar/articulo/la-policia-rura 
 - 2026-10-14T14:40 enviado policiales:https://www.presentenoticias.com/noticias/2026/10 
@@ -81,3 +72,12 @@ Actualizado: 14/10/2026 12:40 (hora AR) · ACTIVO
 - 2026-10-14T15:40 recibido web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x 
 - 2026-10-14T15:40 recibido web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
 - 2026-10-14T15:40 programado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
+- 2026-10-14T16:00 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x 
+- 2026-10-14T16:00 enviado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
+- 2026-10-14T16:00 enviado web:66096b4b-4845-4ea3-a895-867ed95af957|x 
+- 2026-10-14T16:00 enviado web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x 
+- 2026-10-14T16:00 programado web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
+- 2026-10-14T16:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tikto 
+- 2026-10-14T16:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
+- 2026-10-14T16:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tikto 
+- 2026-10-14T16:00 programado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 

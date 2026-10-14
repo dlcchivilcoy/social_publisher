@@ -11,7 +11,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-14T14:40:21.000Z"
+   "visto": "2026-10-14T16:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 9
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-14T14:40:21.000Z"
+   "visto": "2026-10-14T16:00:20.000Z"
   }
  },
  "contenidos": {
@@ -3179,22 +3179,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 226,
-   "segundos": 20397,
+   "restantes": 224,
+   "segundos": 19194,
    "tope": 250
   },
   "30d": {
-   "restantes": 2891,
-   "segundos": 2352622,
+   "restantes": 2889,
+   "segundos": 2351419,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T15:40:19.000Z",
+ "cuota_visto": "2026-10-14T16:00:26.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3457,14 +3457,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok": {
-   "actualizado": "2026-10-14T13:40:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T16:00:20.000Z",
+   "buffer_id": "6acfa718c7801890a279c897",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
    "creado": "2026-10-14T13:40:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T17:23:07.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T13:22:31.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq",
    "intentos": 0,
@@ -3507,14 +3507,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8ce861781c98b5e7.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok": {
-   "actualizado": "2026-10-14T13:40:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T16:00:20.000Z",
+   "buffer_id": "6acfa717c7801890a279c7ca",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
    "creado": "2026-10-14T13:40:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T16:43:45.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T13:31:32.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8",
    "intentos": 0,
@@ -3532,18 +3532,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_98a2789056ac4037.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x": {
-   "actualizado": "2026-10-14T13:40:22.000Z",
+   "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acf86476fbacc6750ad58a5",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x",
    "creado": "2026-10-14T13:40:20.000Z",
    "dueAt": "2026-10-14T15:30:52.000Z",
+   "enviado": "2026-10-14T15:31:38.115Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:31:32.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110393095627976903",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-un-joven-volco-sobre-la-calzada-y-pidio-auxilio-a",
    "origen": "bot",
    "plataforma": "x",
@@ -3557,14 +3558,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_98a2789056ac4037.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok": {
-   "actualizado": "2026-10-14T14:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T16:00:20.000Z",
+   "buffer_id": "6acfa71781eb78c8f8b0b2ef",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
    "creado": "2026-10-14T14:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T16:03:16.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T14:14:12.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
    "intentos": 0,
@@ -3918,14 +3919,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
-   "actualizado": "2026-10-14T13:20:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T16:00:20.000Z",
+   "buffer_id": "6acfa71a95350f80b3547079",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
    "creado": "2026-10-14T13:20:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T18:03:06.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html",
    "intentos": 0,
@@ -3943,18 +3944,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_06_lujan_un-joven-muri-atropellado-en-l.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|x": {
-   "actualizado": "2026-10-14T13:20:25.000Z",
+   "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acf819a62c15da2721d75a1",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|x",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "2026-10-14T15:15:04.000Z",
+   "enviado": "2026-10-14T15:15:24.039Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110389010187137532",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-un-joven-murio-tras-ser-atropellado-en-la-traza-de-la-5989d8",
    "origen": "policiales",
    "plataforma": "x",
@@ -6820,18 +6822,19 @@
    "video_url": ""
   },
   "web:66096b4b-4845-4ea3-a895-867ed95af957|x": {
-   "actualizado": "2026-10-14T10:20:22.000Z",
+   "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acf5766b389ea6547067c41",
    "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
    "creado": "2026-10-14T10:20:15.000Z",
    "dueAt": "2026-10-14T14:45:39.000Z",
+   "enviado": "2026-10-14T14:45:46.223Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T10:10:51.402Z",
    "id": "web:66096b4b-4845-4ea3-a895-867ed95af957",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110381553335361913",
    "nota_url": "https://www.diariolacampaña.com.ar/n/termas-de-rio-hondo-la-pena-virgen-de-loreto-deslumbro-al-publico-en",
    "origen": "web",
    "plataforma": "x",
@@ -6894,14 +6897,14 @@
    "video_url": ""
   },
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x": {
-   "actualizado": "2026-10-14T10:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T16:00:20.000Z",
+   "buffer_id": "6acfa716c7801890a279c6c2",
    "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
    "creado": "2026-10-14T10:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T21:45:46.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T10:09:29.150Z",
    "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
    "intentos": 0,
@@ -7461,6 +7464,7 @@
    "creado": "2026-10-14T10:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-14T10:08:46.839Z",
    "id": "web:92431890-c8e8-4999-9e83-03174b736b52",
@@ -7732,18 +7736,19 @@
    "video_url": ""
   },
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x": {
-   "actualizado": "2026-10-14T13:20:25.000Z",
+   "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acf819aba9c302b3b845e72",
    "clave": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "2026-10-14T15:00:58.000Z",
+   "enviado": "2026-10-14T15:04:31.565Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:20:01.415Z",
    "id": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110386273126924470",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
    "origen": "web",
    "plataforma": "x",
@@ -12189,10 +12194,69 @@
    "cuando": "2026-10-14T15:40:19.000Z",
    "dueAt": "2026-10-14T21:30:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x",
+   "cuando": "2026-10-14T16:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110393095627976903"
+  },
+  {
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|x",
+   "cuando": "2026-10-14T16:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110389010187137532"
+  },
+  {
+   "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
+   "cuando": "2026-10-14T16:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110381553335361913"
+  },
+  {
+   "clave": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x",
+   "cuando": "2026-10-14T16:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110386273126924470"
+  },
+  {
+   "buffer_id": "6acfa716c7801890a279c6c2",
+   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
+   "cuando": "2026-10-14T16:00:26.000Z",
+   "dueAt": "2026-10-14T21:45:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfa71781eb78c8f8b0b2ef",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
+   "cuando": "2026-10-14T16:00:26.000Z",
+   "dueAt": "2026-10-14T16:03:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfa717c7801890a279c7ca",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
+   "cuando": "2026-10-14T16:00:26.000Z",
+   "dueAt": "2026-10-14T16:43:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfa718c7801890a279c897",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
+   "cuando": "2026-10-14T16:00:26.000Z",
+   "dueAt": "2026-10-14T17:23:07.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfa71a95350f80b3547079",
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
+   "cuando": "2026-10-14T16:00:26.000Z",
+   "dueAt": "2026-10-14T18:03:06.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T14:40:21.000Z",
+ "ultima_sync": "2026-10-14T16:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
