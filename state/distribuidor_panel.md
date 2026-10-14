@@ -1,40 +1,32 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-10-13)
+## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 12 | 0 | 9 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 11 | 1 | 6 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 17 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 0 | 5 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 2 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 34 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 13 enviadas + 1 programadas de 25 por día
+- X: conectado · Buffer: 0 enviadas + 0 programadas de 50 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2908 de 3000 (visto 2026-10-14T01:40:14.000Z)
+15m: quedan 97 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2905 de 3000 (visto 2026-10-14T09:00:39.000Z)
 
-## Cola propia (32 esperando)
-- TikTok · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — fuera del horizonte de programación (espera en la cola)
-- X · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — cupo diario de Reels policiales en X completo (12)
-- TikTok · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — en turno
-- X · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — cupo diario de Reels policiales en X completo (12)
-- TikTok · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — en turno
-- X · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — cupo diario de Reels policiales en X completo (12)
-- X · Notas web · Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño — cupo diario de Notas web en X completo (15)
-- TikTok · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — en turno
-- X · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — cupo diario de Reels policiales en X completo (12)
-- X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — cupo diario de Notas web en X completo (15)
+## Cola propia (24 esperando)
+- TikTok · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
-- TikTok · Reels policiales · Nuevo choque en Chacabuco — en turno
+- TikTok · Reels policiales · Nuevo choque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Nuevo choque en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
-- TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — fuera del horizonte de programación (espera en la cola)
+- TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — cupo diario de Reels policiales en X completo (12)
 - X · Notas web · Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Di — cupo diario de Notas web en X completo (15)
@@ -49,6 +41,8 @@ Actualizado: 13/10/2026 23:40 (hora AR) · ACTIVO
 - X · Notas web · Créditos hipotecarios del Banco Nación: qué sueldo exigen para una propiedad de  — cupo diario de Notas web en X completo (15)
 - X · Notas web · ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos — cupo diario de Notas web en X completo (15)
 - X · Notas web · Gobierno habilita el penal de Marcos Paz y traslada a 609 internos para cerrar V — cupo diario de Notas web en X completo (15)
+- X · Notas web · Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del crono — cupo diario de Notas web en X completo (15)
+- X · Notas web · Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el ga — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,28 +50,28 @@ Actualizado: 13/10/2026 23:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
-- 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
-- 2026-10-13T23:00 programado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
-- 2026-10-13T23:00 programado policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
-- 2026-10-13T23:20 recibido bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
-- 2026-10-13T23:20 recibido bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
-- 2026-10-13T23:20 recibido web:ce9c9291-5b63-4246-99f4-6095ce88b357|x 
-- 2026-10-13T23:20 enviado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
-- 2026-10-13T23:20 programado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
-- 2026-10-14T00:20 recibido web:44657646-5aa8-40e2-92e8-9107905b81c5|x 
-- 2026-10-14T00:40 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
-- 2026-10-14T00:40 enviado policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
-- 2026-10-14T01:20 programado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
-- 2026-10-14T01:20 programado policiales:https://chacabucoenred.com/estado-de-salud-de-los 
-- 2026-10-14T01:40 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
-- 2026-10-14T02:20 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-14T02:20 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-14T02:20 recibido policiales:https://laopinionline.ar/articulo/la-policia-rura 
-- 2026-10-14T02:20 recibido policiales:https://laopinionline.ar/articulo/la-policia-rura 
 - 2026-10-14T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34649 
 - 2026-10-14T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34649 
 - 2026-10-14T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho 
 - 2026-10-14T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho 
 - 2026-10-14T02:20 recibido policiales:https://www.diariojunin.com/noticias/102816_detuv 
 - 2026-10-14T02:20 recibido policiales:https://www.diariojunin.com/noticias/102816_detuv 
+- 2026-10-14T09:00 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x 
+- 2026-10-14T09:00 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tikto 
+- 2026-10-14T09:00 recibido policiales:https://laopinionline.ar/articulo/familiares-de-m 
+- 2026-10-14T09:00 recibido policiales:https://laopinionline.ar/articulo/familiares-de-m 
+- 2026-10-14T09:00 recibido web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x 
+- 2026-10-14T09:00 enviado policiales:https://chacabucoenred.com/estado-de-salud-de-los 
+- 2026-10-14T09:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x 
+- 2026-10-14T09:00 programado policiales:https://www.diariojunin.com/noticias/102816_detuv 
+- 2026-10-14T09:00 programado web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x 
+- 2026-10-14T09:00 programado policiales:https://laopinionline.ar/articulo/familiares-de-m 
+- 2026-10-14T09:00 programado policiales:https://www.diariodemocracia.com/policiales/34649 
+- 2026-10-14T09:00 programado policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-14T09:00 programado web:44657646-5aa8-40e2-92e8-9107905b81c5|x 
+- 2026-10-14T09:00 programado policiales:https://laopinionline.ar/articulo/la-policia-rura 
+- 2026-10-14T09:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tikto 
+- 2026-10-14T09:00 programado policiales:https://www.diariojunin.com/noticias/102816_detuv 
+- 2026-10-14T09:00 programado policiales:https://laopinionline.ar/articulo/familiares-de-m 
+- 2026-10-14T09:00 programado policiales:https://www.diariodemocracia.com/policiales/34649 
+- 2026-10-14T09:00 programado policiales:https://www.presentenoticias.com/noticias/2026/10 

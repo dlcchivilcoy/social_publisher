@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 13
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-14T01:40:14.000Z"
+   "visto": "2026-10-14T09:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 0,
-    "sent": 34
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-14T01:40:14.000Z"
+   "visto": "2026-10-14T09:00:22.000Z"
   }
  },
  "contenidos": {
@@ -110,6 +110,27 @@
    "video_mb": 0.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WjgoclOOY4E"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a": {
+   "descripcion": "En el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos dispositivos de saturación y controles en puntos estratégicos de Chivilcoy, con la participación de personal del GAD, Guardia",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-14T02:59:52.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
+   "urgente": false,
+   "video_bytes": 2482354,
+   "video_mb": 2.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/_AR3-hv3K6A"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -403,6 +424,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4",
    "volanta": "Condena en Pergamino",
    "youtube_url": "https://youtube.com/shorts/2p_oowhPZCQ"
+  },
+  "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": {
+   "categoria": "otro_policial",
+   "descripcion": "Allegados a María de los Ángeles Ruiz se concentraron frente a la sede judicial de Pergamino para exigir avances en la causa por su muerte y entregar pruebas clave sobre hostigamiento.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-14T02:41:22.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-familiares-de-maria-de-los-angeles-ruiz-aportaron-41b551",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "Familiares y amigos de María de los Ángeles Ruiz, de 29 años, se congregaron pacíficamente ante la Fiscalía de Pergamino para reclamar avances en la causa.\n\nDurante la medida, llevada a cabo el 13 de octubre de 2026, fueron recibidos por el fiscal Francisco Furnari, a quien le entregaron nuevos elementos probatorios.\n\nEl entorno familiar busca que la justicia analice presuntos episodios de violencia y hostigamiento previos al fallecimiento de la joven.\n\nEl expediente judicial continúa caratulado como averiguación de causales de muerte mientras los allegados exigen esclarecer las responsabilidades.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Familiares de María de los Ángeles Ruiz pidieron justicia frente a la Fiscalía este 13",
+   "urgente": false,
+   "video_bytes": 104736,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4",
+   "volanta": "Pergamino",
+   "youtube_url": "https://youtube.com/shorts/6czOikPl34I"
   },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": {
    "categoria": "operativo_policial",
@@ -1303,6 +1348,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/feriados-2026-cuando-es-el-proximo-fin-de-semana-largo-y-los-4267fd",
    "volanta": ""
+  },
+  "web:28e067b4-ba01-429e-8c1a-11e30f5d6846": {
+   "categoria": "",
+   "descripcion": "Realizaron operativos de saturación y controles preventivos en distintos puntos En el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos dispositivos de saturación y controles en puntos estratégicos de Chivilcoy, con la participación de personal del Grupo de Apoyo Departamental (GAD), Guardia Urbana, Policía Vial e Infantería Motorizada. Los procedimientos se intensificaron gracias a las...",
+   "generado": "2026-10-14T02:57:37.804Z",
+   "id": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bdf9e189a2894e24b60b23a2e8ce5e4d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "volanta": "Chivilcoy · Seguridad"
   },
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": {
    "categoria": "",
@@ -2513,22 +2576,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 97,
+   "segundos": 885,
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 70802,
+   "restantes": 240,
+   "segundos": 44379,
    "tope": 250
   },
   "30d": {
-   "restantes": 2908,
-   "segundos": 2403027,
+   "restantes": 2905,
+   "segundos": 2376603,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T01:40:14.000Z",
+ "cuota_visto": "2026-10-14T09:00:39.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2737,6 +2800,56 @@
    "vence": "2026-10-15T23:12:07.000Z",
    "video_bytes": 443607,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok": {
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b43188d8aa57b0fc80",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
+   "creado": "2026-10-14T09:00:20.000Z",
+   "dueAt": "2026-10-14T11:00:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T02:59:52.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Realizaron operativos de saturación y controles preventivos en distintos puntos\n\nEn el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos dispositivos de saturación y controles en puntos estratégicos de Chivilcoy, con la participación de personal del GAD, Guardia\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
+   "urgente": false,
+   "vence": "2026-10-16T02:59:52.000Z",
+   "video_bytes": 2482354,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x": {
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44ab99805204daf6ea5d",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
+   "creado": "2026-10-14T09:00:20.000Z",
+   "dueAt": "2026-10-14T10:00:37.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T02:59:52.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Realizaron operativos de saturación y controles preventivos en distintos puntos\n\nEn el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "tipo": "video",
+   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
+   "urgente": false,
+   "vence": "2026-10-16T02:59:52.000Z",
+   "video_bytes": 2482354,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -3050,18 +3163,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
   },
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok": {
-   "actualizado": "2026-10-14T01:20:16.000Z",
+   "actualizado": "2026-10-14T09:00:22.000Z",
    "buffer_id": "6aced8d2848c31c80954fc1f",
    "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "2026-10-14T02:03:11.000Z",
+   "enviado": "2026-10-14T02:04:57.789Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T22:42:07.000Z",
    "id": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696338290038820117",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-revelaron-el-parte-medico-de-los-heridos-tras-un-2e5e2a",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -3203,6 +3317,56 @@
    "video_bytes": 93019,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
   },
+  "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok": {
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b68fea659be5b386cc",
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
+   "creado": "2026-10-14T09:00:20.000Z",
+   "dueAt": "2026-10-14T12:20:50.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T02:41:22.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-familiares-de-maria-de-los-angeles-ruiz-aportaron-41b551",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Familiares y amigos de María de los Ángeles Ruiz, de 29 años, se congregaron pacíficamente ante la Fiscalía de Pergamino para reclamar avances en la causa.\n\nDurante la medida, llevada a cabo el 13 de octubre de 2026, fueron recibidos por el fiscal Francisco Furnari, a quien le entregaron nuevos elementos probatorios.\n\nEl entorno familiar busca que la justicia analice presuntos episodios de violencia y hostigamiento previos al fallecimiento de la joven.\n\nEl expediente judicial continúa caratulado como averiguación de causales de muerte mientras los allegados exigen esclarecer las responsabilidades.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
+   "tipo": "video",
+   "titulo": "Familiares de María de los Ángeles Ruiz pidieron justicia frente a la Fiscalía este 13",
+   "urgente": false,
+   "vence": "2026-10-14T20:41:22.000Z",
+   "video_bytes": 104736,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x": {
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b06435f1d309461003",
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x",
+   "creado": "2026-10-14T09:00:20.000Z",
+   "dueAt": "2026-10-14T13:15:15.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T02:41:22.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-familiares-de-maria-de-los-angeles-ruiz-aportaron-41b551",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Familiares de María de los Ángeles Ruiz pidieron justicia frente a la Fiscalía este 13\n\nAllegados a María de los Ángeles Ruiz se concentraron frente a la sede judicial de Pergamino para exigir avances en la causa por su…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pergamino-familiares-de-maria-de-los-angeles-ruiz-aportaron-41b551\n#Pergamino",
+   "tipo": "video",
+   "titulo": "Familiares de María de los Ángeles Ruiz pidieron justicia frente a la Fiscalía este 13",
+   "urgente": false,
+   "vence": "2026-10-14T20:41:22.000Z",
+   "video_bytes": 104736,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4"
+  },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok": {
    "actualizado": "2026-10-14T02:20:13.000Z",
    "buffer_id": "",
@@ -3210,6 +3374,7 @@
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos",
@@ -3228,14 +3393,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_03_pergamino_cinco-aprehendidos-y-170-ident.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b38fea659be5b384f9",
    "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T14:15:13.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos",
    "intentos": 0,
@@ -3829,6 +3994,7 @@
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html",
@@ -4190,7 +4356,7 @@
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-13T22:42:06.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi",
@@ -4234,13 +4400,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_02_junin_un-auto-abandonado-se-prendi-f.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|tiktok": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b66435f1d3094614f4",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T13:00:47.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied",
    "intentos": 0,
@@ -4258,14 +4425,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_04_chacabuco_agredieron-a-una-preceptora-y-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|x": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b03188d8aa57b0fa8d",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|x",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T13:30:30.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied",
    "intentos": 0,
@@ -4491,14 +4658,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b5d592dd5ee6b84426",
    "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T11:40:58.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html",
    "intentos": 0,
@@ -4516,14 +4683,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_12_junin_cay-en-per-un-pr-fugo-vinculad.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44ac3188d8aa57b0f789",
    "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T10:15:44.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html",
    "intentos": 0,
@@ -4853,13 +5020,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b65c07f69e7d3993fd",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T13:40:16.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion",
    "intentos": 0,
@@ -4877,14 +5045,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b18fea659be5b38379",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
    "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T13:45:42.000Z",
    "error": "",
-   "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion",
    "intentos": 0,
@@ -5051,6 +5219,31 @@
    "titulo": "Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del cronograma",
    "urgente": false,
    "vence": "2026-10-14T12:11:51.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x": {
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44afd592dd5ee6b83e0a",
+   "clave": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x",
+   "creado": "2026-10-14T09:00:20.000Z",
+   "dueAt": "2026-10-14T13:00:04.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T02:57:37.804Z",
+   "id": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Realizaron operativos de saturación y controles preventivos en distintos puntos\n\nEn el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
+   "tipo": "nota",
+   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
+   "urgente": false,
+   "vence": "2026-10-15T02:57:37.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -5337,14 +5530,14 @@
    "video_url": ""
   },
   "web:44657646-5aa8-40e2-92e8-9107905b81c5|x": {
-   "actualizado": "2026-10-14T00:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T09:00:24.000Z",
+   "buffer_id": "6acf44b2d592dd5ee6b841fa",
    "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
    "creado": "2026-10-14T00:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T14:00:36.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T00:16:27.771Z",
    "id": "web:44657646-5aa8-40e2-92e8-9107905b81c5",
    "intentos": 0,
@@ -6442,7 +6635,7 @@
    "creado": "2026-10-13T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-13T23:09:54.841Z",
    "id": "web:ce9c9291-5b63-4246-99f4-6095ce88b357",
@@ -9785,16 +9978,154 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
+   "cuando": "2026-10-14T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
+   "cuando": "2026-10-14T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x",
+   "cuando": "2026-10-14T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
+   "cuando": "2026-10-14T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x",
+   "cuando": "2026-10-14T09:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
+   "cuando": "2026-10-14T09:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696338290038820117"
+  },
+  {
+   "buffer_id": "6acf44ab99805204daf6ea5d",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T10:00:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44ac3188d8aa57b0f789",
+   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T10:15:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44afd592dd5ee6b83e0a",
+   "clave": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T13:00:04.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b06435f1d309461003",
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T13:15:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b03188d8aa57b0fa8d",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T13:30:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b18fea659be5b38379",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T13:45:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b2d592dd5ee6b841fa",
+   "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T14:00:36.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b38fea659be5b384f9",
+   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T14:15:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b43188d8aa57b0fc80",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T11:00:36.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b5d592dd5ee6b84426",
+   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
+   "cuando": "2026-10-14T09:00:37.000Z",
+   "dueAt": "2026-10-14T11:40:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b68fea659be5b386cc",
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
+   "cuando": "2026-10-14T09:00:39.000Z",
+   "dueAt": "2026-10-14T12:20:50.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b66435f1d3094614f4",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|tiktok",
+   "cuando": "2026-10-14T09:00:39.000Z",
+   "dueAt": "2026-10-14T13:00:47.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf44b65c07f69e7d3993fd",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
+   "cuando": "2026-10-14T09:00:39.000Z",
+   "dueAt": "2026-10-14T13:40:16.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T01:40:14.000Z",
+ "ultima_sync": "2026-10-14T09:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz": "2026-10-13T12:20:17.000Z",
   "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": "2026-10-13T23:20:14.000Z",
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a": "2026-10-14T09:00:20.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -9809,6 +10140,7 @@
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
+  "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": "2026-10-14T09:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": "2026-10-14T02:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
@@ -9848,6 +10180,7 @@
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": "2026-10-13T12:20:17.000Z",
+  "web:28e067b4-ba01-429e-8c1a-11e30f5d6846": "2026-10-14T09:00:20.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
