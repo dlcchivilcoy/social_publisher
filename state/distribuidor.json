@@ -2420,6 +2420,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juicio-a-una-muebleria-le-salio-fallada-una-mesa-grande-y-gano-ff4a78",
    "volanta": ""
   },
+  "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2": {
+   "categoria": "nacionales",
+   "descripcion": "El intendente Guillermo Montenegro recibió a la secretaria de Seguridad de la Nación, Alejandra Monteoliva, para coordinar medidas contra la delincuencia…",
+   "generado": "2026-10-14T21:36:25.116Z",
+   "id": "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1a8ab38ca1c2417f8ad5c6ccbdef37af~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-montenegro-y-monteoliva-coordinan-medidas-de-c35c5c",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Mar del Plata: Montenegro y Monteoliva coordinan medidas de seguridad con Nación y Provincia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mar-del-plata-montenegro-y-monteoliva-coordinan-medidas-de-c35c5c",
+   "volanta": ""
+  },
   "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": {
    "categoria": "nacionales",
    "descripcion": "Tras el testimonio de Valentín Yankelevich sobre el maltrato en su infancia, el abogado Juan Pablo Gallego detalló los plazos judiciales y las vías…",
@@ -3580,17 +3598,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 249,
-   "segundos": 86400,
+   "restantes": 248,
+   "segundos": 85200,
    "tope": 250
   },
   "30d": {
-   "restantes": 2880,
-   "segundos": 2332225,
+   "restantes": 2879,
+   "segundos": 2331024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T21:20:16.000Z",
+ "cuota_visto": "2026-10-14T21:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6689,6 +6707,7 @@
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/",
@@ -7388,14 +7407,14 @@
    "video_url": ""
   },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x": {
-   "actualizado": "2026-10-13T21:40:13.000Z",
+   "actualizado": "2026-10-14T21:40:16.000Z",
    "buffer_id": "",
    "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
    "creado": "2026-10-13T21:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T21:36:28.039Z",
    "id": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627",
    "intentos": 0,
@@ -7994,6 +8013,30 @@
    "titulo": "Juicio a una mueblería: le salió fallada una mesa grande y ganó una millonaria demanda",
    "urgente": false,
    "vence": "2026-10-12T18:16:57.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x": {
+   "actualizado": "2026-10-14T21:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x",
+   "creado": "2026-10-14T21:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T21:36:25.116Z",
+   "id": "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-montenegro-y-monteoliva-coordinan-medidas-de-c35c5c",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Mar del Plata: Montenegro y Monteoliva coordinan medidas de seguridad con Nación y Provincia\n\nEl intendente Guillermo Montenegro recibió a la secretaria de Seguridad de la Nación, Alejandra Monteoliva, para coordinar medidas contra la delincuencia…\n\nhttps://www.diariolacampaña.com.ar/n/mar-del-plata-montenegro-y-monteoliva-coordinan-medidas-de-c35c5c",
+   "tipo": "nota",
+   "titulo": "Mar del Plata: Montenegro y Monteoliva coordinan medidas de seguridad con Nación y Provincia",
+   "urgente": false,
+   "vence": "2026-10-15T21:36:25.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -9286,14 +9329,14 @@
    "video_url": ""
   },
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x": {
-   "actualizado": "2026-10-14T19:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T21:40:16.000Z",
+   "buffer_id": "6acff6c161e981448aa7bc00",
    "clave": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x",
    "creado": "2026-10-14T19:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T01:45:23.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T18:44:06.824Z",
    "id": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21",
    "intentos": 0,
@@ -13781,6 +13824,27 @@
    "cuando": "2026-10-14T21:20:16.000Z",
    "dueAt": "2026-10-14T23:15:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x",
+   "cuando": "2026-10-14T21:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
+   "cuando": "2026-10-14T21:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6acff6c161e981448aa7bc00",
+   "clave": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x",
+   "cuando": "2026-10-14T21:40:17.000Z",
+   "dueAt": "2026-10-15T01:45:23.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -13902,6 +13966,7 @@
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
+  "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2": "2026-10-14T21:40:16.000Z",
   "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": "2026-10-13T22:20:15.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
   "web:76224348-2766-4a07-947f-ef8503976009": "2026-10-13T15:20:18.000Z",
