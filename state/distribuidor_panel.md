@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,19 +19,19 @@ Actualizado: 13/10/2026 23:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2908 de 3000 (visto 2026-10-14T01:40:14.000Z)
 
 ## Cola propia (32 esperando)
-- X · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — fuera del horizonte de programación (espera en la cola)
-- X · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — cupo diario de Reels policiales en X completo (12)
-- TikTok · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — en turno
-- X · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — en turno
+- X · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — en turno
+- X · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — cupo diario de Reels policiales en X completo (12)
 - X · Notas web · Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño — cupo diario de Notas web en X completo (15)
-- X · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — en turno
+- X · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — cupo diario de Reels policiales en X completo (12)
 - X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — cupo diario de Notas web en X completo (15)
 - X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
-- X · Reels policiales · Nuevo choque en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Nuevo choque en Chacabuco — en turno
+- X · Reels policiales · Nuevo choque en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — fuera del horizonte de programación (espera en la cola)
