@@ -416,6 +416,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4",
    "youtube_url": "https://youtu.be/kV-UWN9ywEI"
   },
+  "entrevistas:job00206": {
+   "descripcion": "El violinista Kuki Errante analizó en Chivilcoy las diferencias musicales entre el tango y el folclore. Explicó por qué considera al tango como música académica y repasó el origen de las melodías criollas.",
+   "duracion_seg": null,
+   "entrevistado": "Kuki Errante",
+   "generado": "2026-10-14T16:20:15.000Z",
+   "id": "entrevistas:job00206",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Kuki Errante: \"Es mucho más difícil tocar tango\"",
+   "urgente": false,
+   "video_bytes": 29284553,
+   "video_mb": 27.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00206.mp4",
+   "youtube_url": "https://youtu.be/vI7IgRLgeSY"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
@@ -2546,6 +2566,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
    "volanta": ""
   },
+  "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": {
+   "categoria": "nacionales",
+   "descripcion": "La entidad financiera superó las 35.000 operaciones con el plan Más Hogares con BNA y explicó que el 36,8% del incremento del sistema financiero pertenece…",
+   "generado": "2026-10-14T16:06:39.387Z",
+   "id": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3b7dd168b90d45e8a22f32ab8e70fa16~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-nacion-preven-otorgar-40-000-creditos-hipotecarios-antes-e884fc",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Banco Nación: prevén otorgar 40.000 créditos hipotecarios antes de fin de año",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/banco-nacion-preven-otorgar-40-000-creditos-hipotecarios-antes-e884fc",
+   "volanta": ""
+  },
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": {
    "categoria": "nacionales",
    "descripcion": "La Justicia ratificó el pago de 15,4 millones de pesos a un canillita de 69 años cuyo comercio fue alcanzado por las llamas de un colectivo en 2019.",
@@ -3917,6 +3955,31 @@
    "vence": "2026-10-15T19:00:18.000Z",
    "video_bytes": 16387120,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
+  },
+  "entrevistas:job00206|x": {
+   "actualizado": "2026-10-14T16:20:15.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00206|x",
+   "creado": "2026-10-14T16:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-14T16:20:15.000Z",
+   "id": "entrevistas:job00206",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Kuki Errante: \"Es mucho más difícil tocar tango\"\n\nEl violinista Kuki Errante analizó en Chivilcoy las diferencias musicales entre el tango y el folclore.\n\n▶️ La entrevista completa: https://youtu.be/vI7IgRLgeSY",
+   "tipo": "video",
+   "titulo": "Kuki Errante: \"Es mucho más difícil tocar tango\"",
+   "urgente": false,
+   "vence": "2026-10-16T16:20:15.000Z",
+   "video_bytes": 29284553,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00206.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T16:00:20.000Z",
@@ -7630,6 +7693,30 @@
    "titulo": "El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el impacto de su visita en año electoral",
    "urgente": false,
    "vence": "2026-10-15T12:06:23.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x": {
+   "actualizado": "2026-10-14T16:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x",
+   "creado": "2026-10-14T16:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T16:06:39.387Z",
+   "id": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-nacion-preven-otorgar-40-000-creditos-hipotecarios-antes-e884fc",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Banco Nación: prevén otorgar 40.000 créditos hipotecarios antes de fin de año\n\nLa entidad financiera superó las 35.000 operaciones con el plan Más Hogares con BNA y explicó que el 36,8% del incremento del sistema financiero pertenece…\n\nhttps://www.diariolacampaña.com.ar/n/banco-nacion-preven-otorgar-40-000-creditos-hipotecarios-antes-e884fc",
+   "tipo": "nota",
+   "titulo": "Banco Nación: prevén otorgar 40.000 créditos hipotecarios antes de fin de año",
+   "urgente": false,
+   "vence": "2026-10-15T16:06:39.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -12253,6 +12340,27 @@
    "cuando": "2026-10-14T16:00:26.000Z",
    "dueAt": "2026-10-14T18:03:06.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00206",
+   "cuando": "2026-10-14T16:20:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x",
+   "cuando": "2026-10-14T16:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00206|x",
+   "cuando": "2026-10-14T16:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -12278,6 +12386,7 @@
   "entrevistas:job00194v2": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00196": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00197": "2026-10-13T19:00:18.000Z",
+  "entrevistas:job00206": "2026-10-14T16:20:15.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
@@ -12384,6 +12493,7 @@
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
+  "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",
