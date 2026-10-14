@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,16 +9,16 @@ Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 5 | 2 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 3 | 0 | 0 | 0 |
-| Notas web | X | 15 | 3 | 5 | 18 | 0 | 0 | 0 |
+| Notas web | X | 15 | 3 | 6 | 19 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 9 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2892 de 3000 (visto 2026-10-14T15:20:14.000Z)
+15m: quedan 99 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2891 de 3000 (visto 2026-10-14T15:40:19.000Z)
 
-## Cola propia (40 esperando)
+## Cola propia (41 esperando)
 - TikTok · Reels del bot · Golpearon y asaltaron a un empleado municipal cuando iba a trabajar — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Un joven volcó sobre la calzada y pidió auxilio a otros conductores — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Una vecina denunció el robo de su moto y ofrece recompensa — tope de 15 publicaciones en 24 h de TikTok
@@ -38,6 +38,7 @@ Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
 - X · Notas web · Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pe — en turno
 - TikTok · Reels policiales · Detuvieron a un prófugo en Chacabuco por amenazas con armas — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Detuvieron a un prófugo en Chacabuco por amenazas con armas — en turno
+- X · Notas web · Inflación de septiembre: el Indec registró un incremento del 1,9% y el año acumu — en turno
 - X · Notas web · Malvinas: Reino Unido anunció actos para 2027 y rechazó la demanda argentina en  — en turno
 - X · Notas web · Inflación en América Latina: qué puesto ocupó la Argentina en septiembre — en turno
 - X · Notas web · Pablo Avelluto llamó a construir una alternativa que imagine el futuro después d — en turno
@@ -48,7 +49,6 @@ Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
 - X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Nuevo choque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Nuevo choque en Chacabuco — cupo diario de Reels policiales en X completo (12)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,9 +56,6 @@ Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T13:40 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
-- 2026-10-14T13:40 recibido web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x 
-- 2026-10-14T13:40 enviado policiales:https://laopinionline.ar/articulo/familiares-de-m 
 - 2026-10-14T13:40 enviado policiales:https://www.diariodemocracia.com/policiales/34649 
 - 2026-10-14T13:40 enviado policiales:https://www.diariodemocracia.com/policiales/34649 
 - 2026-10-14T13:40 enviado web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x 
@@ -81,3 +78,6 @@ Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-14T15:20 vencido web:76224348-2766-4a07-947f-ef8503976009|x cupo diario de Notas web en X completo (15)
 - 2026-10-14T15:20 vencido web:baeb5d08-b026-4158-a946-6ff35dd140c1|x cupo diario de Notas web en X completo (15)
 - 2026-10-14T15:20 programado web:d72917a3-67e5-41df-affc-436383926d89|x 
+- 2026-10-14T15:40 recibido web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x 
+- 2026-10-14T15:40 recibido web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
+- 2026-10-14T15:40 programado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 

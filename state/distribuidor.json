@@ -1862,6 +1862,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/automovilismo-campeonato-regional-se-viene-el-rally-de-chivilcoy-una",
    "volanta": "Automovilismo"
   },
+  "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": {
+   "categoria": "",
+   "descripcion": "El fenómeno de El Niño aporta registros clave en la región central para consolidar los rindes del cereal.",
+   "generado": "2026-10-14T15:33:14.595Z",
+   "id": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e719ff45f1d64bd2bb4154a0dec2bff2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Lluvias de hasta 102 mm frenan el deterioro del trigo en la región central",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
+   "volanta": ""
+  },
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": {
    "categoria": "nacionales",
    "descripcion": "En la Casa Rosada analizan los pasos a seguir de cara a los comicios presidenciales. Mientras unos buscan confrontar con el mandatario bonaerense, otros…",
@@ -3104,6 +3122,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
    "volanta": "Tres aprehendidos"
   },
+  "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": {
+   "categoria": "nacionales",
+   "descripcion": "El Indec difundió el Índice de Precios al Consumidor del mes pasado. Vivienda y educación lideraron las subas, mientras analistas prevén un ritmo similar…",
+   "generado": "2026-10-14T15:36:36.811Z",
+   "id": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_edba99eb434747a7a089a775178c98a7~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/inflacion-de-septiembre-el-indec-registro-un-incremento-del-1-9-907846",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Inflación de septiembre: el Indec registró un incremento del 1,9% y el año acumula 33,4%",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inflacion-de-septiembre-el-indec-registro-un-incremento-del-1-9-907846",
+   "volanta": ""
+  },
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": {
    "categoria": "nacionales",
    "descripcion": "Rogelio Frigerio e Ignacio Torres apoyaron quitar las primarias. Aseguraron que ir cinco veces a las urnas en 2027 es excesivo y destacaron el respaldo…",
@@ -3148,17 +3184,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 227,
-   "segundos": 21602,
+   "restantes": 226,
+   "segundos": 20397,
    "tope": 250
   },
   "30d": {
-   "restantes": 2892,
-   "segundos": 2353826,
+   "restantes": 2891,
+   "segundos": 2352622,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T15:20:14.000Z",
+ "cuota_visto": "2026-10-14T15:40:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6632,6 +6668,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x": {
+   "actualizado": "2026-10-14T15:40:19.000Z",
+   "buffer_id": "6acfa26361a1b9da73640d6d",
+   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
+   "creado": "2026-10-14T15:40:18.000Z",
+   "dueAt": "2026-10-14T21:30:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T15:33:14.595Z",
+   "id": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Lluvias de hasta 102 mm frenan el deterioro del trigo en la región central\n\nEl fenómeno de El Niño aporta registros clave en la región central para consolidar los rindes del cereal.\n\nhttps://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
+   "tipo": "nota",
+   "titulo": "Lluvias de hasta 102 mm frenan el deterioro del trigo en la región central",
+   "urgente": false,
+   "vence": "2026-10-15T15:33:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:58114495-39f3-4653-ae6b-639c6c61dae5|x": {
    "actualizado": "2026-10-11T23:20:15.000Z",
    "buffer_id": "6acc066ffa026cfb8117dda4",
@@ -8371,6 +8432,30 @@
    "titulo": "La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada",
    "urgente": false,
    "vence": "2026-10-14T10:11:51.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x": {
+   "actualizado": "2026-10-14T15:40:18.000Z",
+   "buffer_id": "",
+   "clave": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x",
+   "creado": "2026-10-14T15:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T15:36:36.811Z",
+   "id": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/inflacion-de-septiembre-el-indec-registro-un-incremento-del-1-9-907846",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Inflación de septiembre: el Indec registró un incremento del 1,9% y el año acumula 33,4%\n\nEl Indec difundió el Índice de Precios al Consumidor del mes pasado. Vivienda y educación lideraron las subas, mientras analistas prevén un ritmo similar…\n\nhttps://www.diariolacampaña.com.ar/n/inflacion-de-septiembre-el-indec-registro-un-incremento-del-1-9-907846",
+   "tipo": "nota",
+   "titulo": "Inflación de septiembre: el Indec registró un incremento del 1,9% y el año acumula 33,4%",
+   "urgente": false,
+   "vence": "2026-10-15T15:36:36.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -12081,6 +12166,29 @@
    "cuando": "2026-10-14T15:20:14.000Z",
    "dueAt": "2026-10-14T21:15:43.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x",
+   "cuando": "2026-10-14T15:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
+   "cuando": "2026-10-14T15:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6acfa26361a1b9da73640d6d",
+   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
+   "cuando": "2026-10-14T15:40:19.000Z",
+   "dueAt": "2026-10-14T21:30:39.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -12174,6 +12282,7 @@
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
+  "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
@@ -12243,6 +12352,7 @@
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
+  "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
  }
