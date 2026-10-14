@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,21 +7,20 @@ Actualizado: 14/10/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 7 | 0 | 8 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 7 | 1 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 9 | 0 | 0 | 0 |
-| Notas web | X | 15 | 7 | 3 | 24 | 0 | 0 | 0 |
+| Notas web | X | 15 | 7 | 3 | 25 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 18 enviadas + 8 programadas de 50 por día
 - TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2881 de 3000 (visto 2026-10-14T20:40:29.000Z)
+15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2880 de 3000 (visto 2026-10-14T21:20:16.000Z)
 
-## Cola propia (45 esperando)
+## Cola propia (44 esperando)
 - TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Juan Martín Bodda y Ariel Zurraco son campeones nacionales de pádel — en turno
+- X · Notas web · Juan Martín Bodda y Ariel Zurraco son campeones nacionales de pádel — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — en turno
 - TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
@@ -31,6 +30,7 @@ Actualizado: 14/10/2026 18:00 (hora AR) · ACTIVO
 - X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — en turno
 - TikTok · Reels policiales · Detuvieron a un hombre por hostigar a mujeres y agredir a un agente — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Detuvieron a un hombre por hostigar a mujeres y agredir a un agente — en turno
+- X · Notas web · Cuánto cobran los empleados de cadenas de comida rápida en octubre de 2026 — en turno
 - TikTok · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — en turno
 - X · Notas web · El arzobispo Jorge Lozano habló sobre la salud del papa León XIV y la visita al  — en turno
@@ -56,9 +56,6 @@ Actualizado: 14/10/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T18:20 programado entrevistas:job00207|x 
-- 2026-10-14T18:40 recibido web:b0047360-2401-4617-a433-07cb41aa8ce4|x 
-- 2026-10-14T18:40 programado entrevistas:job00206|x 
 - 2026-10-14T19:00 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x 
 - 2026-10-14T19:00 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tikto 
 - 2026-10-14T19:00 recibido policiales:https://www.noticiaslasflores.com.ar/policiales/c 
@@ -81,3 +78,6 @@ Actualizado: 14/10/2026 18:00 (hora AR) · ACTIVO
 - 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho cupo diario de Reels policiales en X completo (12)
 - 2026-10-14T20:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tikto 
 - 2026-10-14T20:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tikto 
+- 2026-10-14T21:20 recibido web:14487ca8-2475-41c1-b598-3490602d4ec8|x 
+- 2026-10-14T21:20 vencido web:ba878935-3e6f-4357-a078-3447ed612c35|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T21:20 programado policiales:http://www.elcivismo.com.ar/notas/59152/dos-muert 

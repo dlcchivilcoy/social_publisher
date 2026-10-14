@@ -1718,6 +1718,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
    "volanta": "Vínculo Internacional"
   },
+  "web:14487ca8-2475-41c1-b598-3490602d4ec8": {
+   "categoria": "nacionales",
+   "descripcion": "Los sueldos básicos del sector oscilan entre $997.033 y $1.863.345 este mes, según la categoría. La entidad sindical también fijó adicionales no…",
+   "generado": "2026-10-14T21:06:24.926Z",
+   "id": "web:14487ca8-2475-41c1-b598-3490602d4ec8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_731238460aad4f13b9230a6295a79d26~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cuanto-cobran-los-empleados-de-cadenas-de-comida-rapida-en-4e8798",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Cuánto cobran los empleados de cadenas de comida rápida en octubre de 2026",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cuanto-cobran-los-empleados-de-cadenas-de-comida-rapida-en-4e8798",
+   "volanta": ""
+  },
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": {
    "categoria": "nacionales",
    "descripcion": "La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año La variación interanual llegó al 33,4%, informó ayer el Indec. La división que registró el mayor incremento mensual fue “Vivienda, agua, electricidad, gas y otros combustibles”, con un alza del 3,1%. El Índice de Precios al Consumidor (IPC) registró en septiembre una suba del 1,9% respecto de agosto, mientras que la variación interanual llegó al 33,4%. En los primeros nueve meses de 2026, la inflación acumuló un...",
@@ -3562,17 +3580,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 2387,
+   "restantes": 249,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2881,
-   "segundos": 2334611,
+   "restantes": 2880,
+   "segundos": 2332225,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T20:40:29.000Z",
+ "cuota_visto": "2026-10-14T21:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4556,14 +4574,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_09_lujan_dos-muertos-en-un-choque-front.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T21:20:15.000Z",
+   "buffer_id": "6acff210ad454aea56cf4181",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
    "creado": "2026-10-14T18:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T23:15:56.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
    "intentos": 0,
@@ -6990,6 +7008,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:14487ca8-2475-41c1-b598-3490602d4ec8|x": {
+   "actualizado": "2026-10-14T21:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:14487ca8-2475-41c1-b598-3490602d4ec8|x",
+   "creado": "2026-10-14T21:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T21:06:24.926Z",
+   "id": "web:14487ca8-2475-41c1-b598-3490602d4ec8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cuanto-cobran-los-empleados-de-cadenas-de-comida-rapida-en-4e8798",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Cuánto cobran los empleados de cadenas de comida rápida en octubre de 2026\n\nLos sueldos básicos del sector oscilan entre $997.033 y $1.863.345 este mes, según la categoría. La entidad sindical también fijó adicionales no…\n\nhttps://www.diariolacampaña.com.ar/n/cuanto-cobran-los-empleados-de-cadenas-de-comida-rapida-en-4e8798",
+   "tipo": "nota",
+   "titulo": "Cuánto cobran los empleados de cadenas de comida rápida en octubre de 2026",
+   "urgente": false,
+   "vence": "2026-10-15T21:06:24.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c|x": {
    "actualizado": "2026-10-14T10:20:15.000Z",
    "buffer_id": "",
@@ -8788,14 +8830,14 @@
    "video_url": ""
   },
   "web:ba878935-3e6f-4357-a078-3447ed612c35|x": {
-   "actualizado": "2026-10-13T21:20:15.000Z",
+   "actualizado": "2026-10-14T21:20:15.000Z",
    "buffer_id": "",
    "clave": "web:ba878935-3e6f-4357-a078-3447ed612c35|x",
    "creado": "2026-10-13T21:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T21:06:25.632Z",
    "id": "web:ba878935-3e6f-4357-a078-3447ed612c35",
    "intentos": 0,
@@ -9250,6 +9292,7 @@
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-14T18:44:06.824Z",
    "id": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21",
@@ -13717,6 +13760,27 @@
    "cuando": "2026-10-14T20:40:29.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7696606404752248084"
+  },
+  {
+   "clave": "web:14487ca8-2475-41c1-b598-3490602d4ec8|x",
+   "cuando": "2026-10-14T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:ba878935-3e6f-4357-a078-3447ed612c35|x",
+   "cuando": "2026-10-14T21:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6acff210ad454aea56cf4181",
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
+   "cuando": "2026-10-14T21:20:16.000Z",
+   "dueAt": "2026-10-14T23:15:56.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -13798,6 +13862,7 @@
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
+  "web:14487ca8-2475-41c1-b598-3490602d4ec8": "2026-10-14T21:20:14.000Z",
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
