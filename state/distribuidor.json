@@ -174,6 +174,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_98a2789056ac4037.mp4",
    "youtube_url": "https://www.youtube.com/shorts/fqLhGy8FPaE"
   },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye": {
+   "descripcion": "Maximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón Municipal. Según relató, dos personas salieron desde un campo, le propinaron una fuerte patada en el estómago",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-14T14:14:12.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
+   "urgente": false,
+   "video_bytes": 371590,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/H1AGcWi6Z3E"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -2849,6 +2870,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-accidente-un-joven-volco-sobre-la-calzada-y-pidio-auxilio-a",
    "volanta": "Ruta 30 · Accidente"
   },
+  "web:d72917a3-67e5-41df-affc-436383926d89": {
+   "categoria": "",
+   "descripcion": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar Maximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón Municipal. Según relató, dos personas salieron desde un campo, le propinaron una fuerte patada en el estómago y le sustrajeron la mochila. Llevaba su equipo de mate y una billetera con documentación, pero no tenía dinero. Los agresores huyeron. El...",
+   "generado": "2026-10-14T14:12:14.151Z",
+   "id": "web:d72917a3-67e5-41df-affc-436383926d89",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8d34633ee0d7460c90f8be93c27294f6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": {
    "categoria": "",
    "descripcion": "Etcheverría: “Estábamos transfiriendo a una empresa que no tiene constancia fiscal el patrimonio más grande que tiene la ciudad. Me parecía por demás de imprudente aprobar esta adenda” El Concejo Deliberante de Chivilcoy trató en sesión ordinaria la adenda del convenio suscripto entre el Departamento Ejecutivo y la empresa Sentra SA para la continuidad de las obras en el Complejo Federación. La votación concluyó con un pronunciamiento negativo del cuerpo legislativo sobre el acuerdo, frenando...",
@@ -3091,17 +3130,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 232,
-   "segundos": 26397,
+   "restantes": 231,
+   "segundos": 25200,
    "tope": 250
   },
   "30d": {
-   "restantes": 2897,
-   "segundos": 2358622,
+   "restantes": 2896,
+   "segundos": 2357425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T14:00:20.000Z",
+ "cuota_visto": "2026-10-14T14:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3462,6 +3501,56 @@
    "vence": "2026-10-16T13:31:32.000Z",
    "video_bytes": 444479,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_98a2789056ac4037.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok": {
+   "actualizado": "2026-10-14T14:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
+   "creado": "2026-10-14T14:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-14T14:14:12.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar\n\nMaximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón Municipal. Según relató, dos personas salieron desde un campo, le propinaron una fuerte patada en el estómago\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
+   "urgente": false,
+   "vence": "2026-10-16T14:14:12.000Z",
+   "video_bytes": 371590,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x": {
+   "actualizado": "2026-10-14T14:20:15.000Z",
+   "buffer_id": "6acf8fa08b6c76b221fef6ed",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
+   "creado": "2026-10-14T14:20:14.000Z",
+   "dueAt": "2026-10-14T18:15:14.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T14:14:12.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar\n\nMaximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
+   "urgente": false,
+   "vence": "2026-10-16T14:14:12.000Z",
+   "video_bytes": 371590,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -7912,14 +8001,14 @@
    "video_url": ""
   },
   "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x": {
-   "actualizado": "2026-10-14T13:40:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T14:20:15.000Z",
+   "buffer_id": "6acf8fa1ed762d924f21c2ad",
    "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
    "creado": "2026-10-14T13:40:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T18:30:16.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T13:29:02.417Z",
    "id": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d",
    "intentos": 0,
@@ -7933,6 +8022,31 @@
    "titulo": "Un joven volcó sobre la calzada y pidió auxilio a otros conductores",
    "urgente": false,
    "vence": "2026-10-15T13:29:02.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:d72917a3-67e5-41df-affc-436383926d89|x": {
+   "actualizado": "2026-10-14T14:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
+   "creado": "2026-10-14T14:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera para separarse de la otra publicación de la misma noticia",
+   "estado": "pendiente",
+   "generado": "2026-10-14T14:12:14.151Z",
+   "id": "web:d72917a3-67e5-41df-affc-436383926d89",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Golpearon y asaltaron a un empleado municipal cuando iba a trabajar\n\nMaximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
+   "tipo": "nota",
+   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
+   "urgente": false,
+   "vence": "2026-10-15T14:12:14.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -11804,6 +11918,44 @@
    "cuando": "2026-10-14T14:00:20.000Z",
    "dueAt": "2026-10-14T18:00:15.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
+   "cuando": "2026-10-14T14:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
+   "cuando": "2026-10-14T14:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
+   "cuando": "2026-10-14T14:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6acf8fa08b6c76b221fef6ed",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
+   "cuando": "2026-10-14T14:20:17.000Z",
+   "dueAt": "2026-10-14T18:15:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf8fa1ed762d924f21c2ad",
+   "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
+   "cuando": "2026-10-14T14:20:17.000Z",
+   "dueAt": "2026-10-14T18:30:16.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -11817,6 +11969,7 @@
   "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a": "2026-10-14T09:00:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq": "2026-10-14T13:40:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8": "2026-10-14T13:40:20.000Z",
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye": "2026-10-14T14:20:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -11952,6 +12105,7 @@
   "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a": "2026-10-11T21:58:03.000Z",
   "web:d35101a5-0683-4dc9-8422-7280ee9bf814": "2026-10-11T21:58:03.000Z",
   "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d": "2026-10-14T13:40:20.000Z",
+  "web:d72917a3-67e5-41df-affc-436383926d89": "2026-10-14T14:20:14.000Z",
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
