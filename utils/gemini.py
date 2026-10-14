@@ -2209,23 +2209,39 @@ _TARJETAS_PROMPT = (
     "pasó en el video; nada de citas textuales largas.\n"
     + _MATICES +
     "• Usá SOLO lo que se ve, se dice y está en la nota. No inventes.\n"
-    "Si el video es corto o no hay ideas nuevas, devolvé la lista vacía."
+    "Si el video es corto o no hay ideas nuevas, devolvé la lista vacía.\n"
+    "DÓNDE VA CADA CAJA (el cuadro es vertical 9:16): `lugar` = «abajo» (lo normal), «medio» o "
+    "«arriba», el tercio del cuadro donde la caja NO tapa rostros ni lo central de la imagen en "
+    "ESE momento (personas, un vehículo, el objeto o el lugar de la noticia). `lugar_titulo` = lo "
+    "mismo para la tarjeta del título, mirando los primeros segundos."
 )
 
+# Pedido 2026-10-14: en lo VERTICAL las cajas narran la noticia entera, no solo suman datos.
+_TARJETAS_NARRAR = (
+    "\nEste video es VERTICAL: las tarjetas tienen que NARRAR la noticia de punta a punta, en "
+    "orden (qué pasó, dónde y cuándo, cómo siguió, qué pasa ahora). Proponé de 2 a 4 si el video "
+    "da el tiempo.\n"
+)
+
+_LUGAR = {"type": "string", "enum": ["abajo", "medio", "arriba"]}
 _TARJETAS_SCHEMA = {
     "type": "object",
-    "properties": {"tarjetas": {"type": "array", "items": {"type": "object", "properties": {
-        "desde": {"type": "number"}, "volanta": {"type": "string"},
-        "texto": {"type": "string"}}, "required": ["desde", "volanta", "texto"]}}},
+    "properties": {"lugar_titulo": _LUGAR,
+                   "tarjetas": {"type": "array", "items": {"type": "object", "properties": {
+                       "desde": {"type": "number"}, "volanta": {"type": "string"},
+                       "texto": {"type": "string"}, "lugar": _LUGAR},
+                       "required": ["desde", "volanta", "texto", "lugar"]}}},
     "required": ["tarjetas"],
 }
 
 
 def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
-                   api_key: str = "", model: str = "") -> list:
+                   api_key: str = "", model: str = "", narrar: bool = False) -> list:
     """Las tarjetas que se suman a la del título a lo largo de un video solo: [{desde, volanta,
-    texto}] tal como las propone Gemini (las valida `video.tarjetas_validas`). [] si no se pudo:
-    el reel sale con la tarjeta del título, como siempre."""
+    texto, lugar}] tal como las propone Gemini (las valida `video.tarjetas_validas`). Si Gemini
+    dijo dónde va la del título, va primero como {desde: 0, titulo: True, lugar, texto: ""}
+    (`tarjetas_validas` la ignora: no tiene texto). [] si no se pudo: el reel sale con la
+    tarjeta del título, como siempre. `narrar`: video vertical, las cajas cuentan la noticia."""
     try:
         key = (api_key or "").strip() or _clave_por_defecto()
         model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
@@ -2233,13 +2249,19 @@ def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
         f = _esperar_activo(_subir_archivo(video, _mime(video), key)["name"], key)
         prompt = (_TARJETAS_PROMPT.replace("{DUR}", f"{dur:.0f}")
                   .replace("{VOLANTA}", volanta or "").replace("{TITULO}", titulo or "")
+                  + (_TARJETAS_NARRAR if narrar else "")
                   + f"\n\nNOTA:\n{fuentes.strip()}")
         parts = [{"text": prompt},
                  {"file_data": {"mime_type": f.get("mimeType") or _mime(video),
                                 "file_uri": f["uri"]}}]
         raw = _post_json(parts, key, model, _TARJETAS_SCHEMA, key_pool=[key])
         tarjetas = raw.get("tarjetas") or []
-        logger.info(f"Tarjetas del video: Gemini propuso {len(tarjetas)}.")
+        logger.info(f"Tarjetas del video: Gemini propuso {len(tarjetas)} "
+                    f"(título {raw.get('lugar_titulo') or '—'}; "
+                    + ", ".join(str(t.get("lugar", "")) for t in tarjetas) + ").")
+        if raw.get("lugar_titulo"):
+            tarjetas = [{"desde": 0, "titulo": True, "texto": "",
+                         "lugar": raw["lugar_titulo"]}] + tarjetas
         return tarjetas
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude armar las tarjetas del video ({e}); va solo la del título.")
@@ -2253,8 +2275,8 @@ _TARJETAS_FOTOS_PROMPT = (
     "mandó un corresponsal se arma un reel: cada foto queda unos segundos en pantalla con una "
     "TARJETA de texto. La primera ya lleva volanta «{VOLANTA}» y título «{TITULO}». Escribí las "
     "{N} tarjetas que siguen, en orden, cada una con UNA idea informativa nueva de la nota (cómo "
-    "siguió, un dato clave, una advertencia, qué pasa ahora). Si la nota no da para {N}, devolvé "
-    "menos.\n"
+    "siguió, un dato clave, una advertencia, qué pasa ahora). Juntas, con el título, tienen que "
+    "NARRAR la noticia de punta a punta. Si la nota no da para {N}, devolvé menos.\n"
     "Para cada una: `volanta` = 1 a 3 palabras en mayúsculas (el tema de esa tarjeta); `texto` = "
     "de 6 a 12 palabras, que se entienda sola.\n"
     "REGLAS: no repitas el título ni entre ellas; nada de citas textuales largas; sin nombres de "

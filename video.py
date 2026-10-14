@@ -267,6 +267,8 @@ BLOQUE_RECORTE_MAX = 0.25          # lo más que se recorta de la imagen (desde 
 # («de 0,15 a 0,25», dice el prompt) y cada una se lee al menos 3 s (o palabras / 2,5).
 FUNDIDO_TARJETA = 0.2
 TARJETA_MIN_SEG = 3.0
+# Tope de la volanta de una tarjeta según el `lugar` que dice Gemini (video vertical a sangre).
+_Y_LUGAR = {"abajo": 1058, "medio": 700, "arriba": 360}
 # Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
 # entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
 # aunque el apellido caiga al renglón siguiente.
@@ -1887,7 +1889,9 @@ def tarjetas_validas(propuestas: list, dur: float, volanta: str, titulo: str) ->
             continue
         if desde < lista[-1][0] + _segundos_lectura(lista[-1][2]):
             continue
-        if desde + _segundos_lectura(texto) > dur - 0.5:
+        # La última puede quedar hasta el final del video: alcanza con 3 s para leerla (antes
+        # pedía el tiempo de lectura entero y se caía la que cerraba el relato por medio segundo).
+        if desde + TARJETA_MIN_SEG > dur - 0.3:
             continue
         vistos.add(texto.lower())
         lista.append((desde, " ".join(str(p.get("volanta", "")).split()), texto))
@@ -4175,11 +4179,22 @@ def _capas_en_el_tiempo(plan: dict, propuestas: list, src: Path, salida: Path, v
         base_png = placa_png(base, salida.parent / f"placa_base_{salida.stem}.png")
         lienzo = tuple(plan.get("lienzo") or (1080, 1920))
         y = plan["texto"][1]
+        # Dónde va cada caja en un video a sangre (pedido 2026-10-14): el lugar que eligió Gemini
+        # mirando ese momento del video, para no tapar caras ni lo central. Sin dato, el del plan.
+        lugares = {}
+        if (not plan.get("bloque") and lienzo[1] >= 1920
+                and tuple(plan.get("media") or ())[:4] == (0, 0, 1080, 1920)):
+            for p in propuestas or []:
+                lugar = str(p.get("lugar") or "")
+                if lugar in _Y_LUGAR:
+                    clave = "" if p.get("titulo") else " ".join(str(p.get("texto", "")).split())
+                    lugares[clave] = _Y_LUGAR[lugar]
         capas = []
         for i, (desde, hasta, vol, txt) in enumerate(lista):
             destino = salida.parent / f"tarjeta_{i}_{salida.stem}.png"
+            yi = lugares.get("" if i == 0 else txt, y)
             png = (bloque_tarjeta_png(vol, txt, plan, destino) if plan.get("bloque")
-                   else tarjeta_png(vol, txt, y, lienzo, destino))
+                   else tarjeta_png(vol, txt, yi, lienzo, destino))
             # Sin fundido al arrancar (el primer cuadro es la portada) ni al final del video.
             capas.append((png, desde, hasta, i > 0, i + 1 < len(lista)))
         logger.info(f"Tarjetas en el tiempo: {len(lista)} — "
@@ -4240,6 +4255,12 @@ def _mirar_foto(foto, work_dir: Path, clave: str) -> tuple:
     try:
         _foto_a_clip(foto, muestra, 1.0)
         grafica = _es_grafica(muestra, work_dir)
+        if grafica and _retrato_sin_texto(img):
+            # 2026-10-14: una selfie vertical (pared lisa, buzo negro) dio 30 % de «relleno» y
+            # salió como afiche, entera y SIN cajas. Una cara grande y nada de bordes de letra
+            # es una foto, no una placa.
+            logger.info("Parecía una gráfica, pero es un retrato sin texto: va como foto.")
+            grafica = False
     except Exception:                                            # noqa: BLE001
         grafica = False
     finally:
@@ -4294,6 +4315,22 @@ def _placa_de_foto(img, plan: dict, fondo, salida: Path, nombre: str = "",
     salida = Path(salida)
     lienzo.save(salida, quality=93)
     return salida
+
+
+def _retrato_sin_texto(img) -> bool:
+    """¿Hay una cara GRANDE (al menos 15 % del ancho) y casi ningún borde duro (nada de letras)?
+    Corrige al detector de afiches, que se fija en el color liso y no en lo que hay."""
+    try:
+        import numpy as np
+        caras = _caras_de_foto(img)
+        if not caras or max(c[2] for c in caras) < 0.15 * img.width:
+            return False
+        chica = img.convert("L").resize((540, max(2, round(540 * img.height / img.width))))
+        gris = np.asarray(chica, dtype=np.int16)
+        bordes = float((np.abs(np.diff(gris, axis=1)) >= 60).mean())
+        return bordes < GRAFICA_BORDES / 2
+    except Exception:                                            # noqa: BLE001
+        return False
 
 
 def _caras_de_foto(img) -> list:
@@ -4387,7 +4424,7 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
                                          Path(f).name, caras=caras))
             if not sin_caja:
-                ultima = (len(placas) - 1, f, img, grafica, caras)
+                ultima = (len(placas) - 1, f, img, grafica, caras, objetos)
         except Exception as e:                                   # noqa: BLE001
             logger.warning(f"No pude componer la foto {Path(f).name} ({e}); la salteo.")
     if not placas:
@@ -4395,12 +4432,12 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
     # Más tarjetas que fotos con caja: la última foto se queda más tiempo y la caja va cambiando
     # (la imagen es la misma, así que el fundido solo se nota en el texto).
     if extra and ultima is not None:
-        pos, f, img, grafica, caras = ultima
+        pos, f, img, grafica, caras, objetos = ultima
         for k, (v, t) in enumerate(extra):
             try:
                 plan = plan_placa(v or volanta, t, resumen, img.width, img.height,
                                   grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo,
-                                  alto=alto, tema=tema)
+                                  alto=alto, tema=tema, objetos=objetos)
                 pos += 1
                 placas.insert(pos, _placa_de_foto(img, plan, fondo,
                                                   work_dir / f"_placa_foto_{clave}_x{k}.jpg",

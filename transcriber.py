@@ -63,6 +63,23 @@ def _site() -> str:
     return sitio_web()
 
 
+# Cuántas tarjetas, además del título, narran un reel vertical (9:16) de corresponsal.
+NARRAR_VERTICAL = 3
+
+
+def _hay_vertical(fotos) -> bool:
+    """¿Alguna foto es vertical (más alta que ancha, ya enderezada)? Esas van a sangre en 9:16."""
+    try:
+        from PIL import Image, ImageOps
+        for f in fotos:
+            w, h = ImageOps.exif_transpose(Image.open(f)).size
+            if h > w:
+                return True
+    except Exception:  # noqa: BLE001
+        pass
+    return False
+
+
 def _caption_fb(caption: str, post_url: str) -> str:
     """El texto del reel en FACEBOOK lleva el LINK de la nota, no el dominio pelado (pedido
     2026-10-04): en Facebook el link se toca y abre la nota. En Instagram y TikTok el texto no
@@ -781,11 +798,16 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                 try:
                     from video import duration_seconds as _dur
                     from utils import gemini as _g
+                    from video import _dimensiones as _dims
                     d = float(_dur(video_media) or 0)
-                    if d >= 12:
+                    _w, _h = _dims(video_media)
+                    vertical = bool(_w and _h and _h > _w)
+                    # Vertical (9:16): las cajas NARRAN la noticia, desde los 8 s (2026-10-14).
+                    if d >= (8 if vertical else 12):
                         tarjetas = _g.tarjetas_video(
                             video_media, d, volanta, titulo,
-                            f"{texto}\n\nLO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}")
+                            f"{texto}\n\nLO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}",
+                            narrar=vertical)
                 except Exception as e:  # noqa: BLE001
                     logger.warning(f"No pude pedir las tarjetas del video ({e}).")
             # Lo apaisado sale 4:5 con el bloque blanco o el grafito, alternados (2026-10-12).
@@ -2099,8 +2121,14 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
                                                           ctx.get("lugar", ""), desc, _fecha_larga())
         # Varias fotos: cada una después de la primera lleva su caja con un dato de la nota
         # (pedido 2026-10-04). Se calculan UNA vez y quedan en el ledger para el reel definitivo.
-        tarjetas = (gemini.tarjetas_fotos(texto or desc, len(fotos) - 1, volanta, titular)
-                    if len(fotos) > 1 and (texto or desc) else [])
+        # Si hay una foto VERTICAL (va a sangre en 9:16), las cajas NARRAN la noticia aunque sea
+        # una sola foto (pedido 2026-10-14): título y después hasta 3 tarjetas, que van cambiando
+        # sobre la misma imagen y se ubican sin tapar caras ni el objeto central.
+        n = len(fotos) - 1
+        if _hay_vertical(fotos):
+            n = max(n, NARRAR_VERTICAL)
+        tarjetas = (gemini.tarjetas_fotos(texto or desc, n, volanta, titular)
+                    if n > 0 and (texto or desc) else [])
     title = f"{volanta} — {titular}" if volanta else titular
 
     if dry_run:
