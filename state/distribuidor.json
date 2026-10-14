@@ -2398,17 +2398,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 74403,
+   "restantes": 244,
+   "segundos": 71999,
    "tope": 250
   },
   "30d": {
-   "restantes": 2910,
-   "segundos": 2406627,
+   "restantes": 2909,
+   "segundos": 2404224,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T00:40:13.000Z",
+ "cuota_visto": "2026-10-14T01:20:18.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2567,14 +2567,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
   },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok": {
-   "actualizado": "2026-10-13T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T01:20:16.000Z",
+   "buffer_id": "6aced8d1f847f2ad9eba1d7a",
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
    "creado": "2026-10-13T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T01:23:01.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T23:12:07.000Z",
    "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
    "intentos": 0,
@@ -2929,14 +2929,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
   },
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok": {
-   "actualizado": "2026-10-13T23:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T01:20:16.000Z",
+   "buffer_id": "6aced8d2848c31c80954fc1f",
    "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
    "creado": "2026-10-13T23:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T02:03:11.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-13T22:42:07.000Z",
    "id": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos",
    "intentos": 0,
@@ -3971,7 +3971,7 @@
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-13T22:42:06.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi",
@@ -9318,6 +9318,20 @@
    "cuando": "2026-10-14T00:40:13.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7696302228491029812"
+  },
+  {
+   "buffer_id": "6aced8d1f847f2ad9eba1d7a",
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
+   "cuando": "2026-10-14T01:20:18.000Z",
+   "dueAt": "2026-10-14T01:23:01.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aced8d2848c31c80954fc1f",
+   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
+   "cuando": "2026-10-14T01:20:18.000Z",
+   "dueAt": "2026-10-14T02:03:11.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
