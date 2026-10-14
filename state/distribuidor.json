@@ -566,6 +566,30 @@
    "volanta": "Luján",
    "youtube_url": "https://youtube.com/shorts/qp8s-p8-tok"
   },
+  "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un viajero oriundo de Pehuajó volcó este miércoles con su Renault Kangoo en el camino que conecta con la localidad de Timote. Fue asistido por bomberos y trasladado al hospital de Carlos Tejedor para controles preventivos.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/",
+   "localidad": "Carlos Casares",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/carlos-casares-volco-un-viajante-pehuajense-en-el-camino-hacia-73ffeb",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "texto_tiktok": "Un utilitario volcó este miércoles sobre el camino rural que une la localidad de Timote con Carlos Tejedor.\n\nEl rodado era conducido por un único ocupante oriundo de Pehuajó, quien fue asistido en el lugar por personal de salud.\n\nTras el rescate, el conductor fue trasladado de manera preventiva al hospital municipal para descartar lesiones.\n\n📲 Más noticias de Carlos Casares en www.diariolacampaña.com.ar\n\n#CarlosCasares #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Volcó una camioneta en el camino a Timote y trasladaron al conductor",
+   "urgente": false,
+   "video_bytes": 91388,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_05_carlos-casares_volc-una-camioneta-en-el-camin.mp4",
+   "volanta": "Carlos Casares",
+   "youtube_url": "https://youtube.com/shorts/zP0i2TzbnuA"
+  },
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": {
    "categoria": "accidente_vial",
    "descripcion": "Dos motociclistas debieron recibir atención médica luego de protagonizar un violento impacto en la intersección de Balcarce y Santa Fe. Las autoridades constataron las lesiones sufridas por ambos involucrados.",
@@ -950,6 +974,30 @@
    "volanta": "Bragado en el barrio El Complejo",
    "youtube_url": "https://youtube.com/shorts/mVeeLegFPzk"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": {
+   "categoria": "robo",
+   "descripcion": "Dos ladrones ingresaron a una vivienda ubicada en Miguel Gil entre Mendoza y La Rioja, maniataron a la propietaria y escaparon con dinero en efectivo. La víctima debió ser hospitalizada.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "Una jubilada de 73 años fue brutalmente asaltada en su vivienda de Chacabuco por dos delincuentes.\n\nLos ladrones la maniataron de las muñecas y le robaron varios miles de pesos y dólares.\n\nEl hecho ocurrió en una finca situada en la calle Miguel Gil, entre Mendoza y La Rioja, durante la tarde.\n\nTras el ataque, un albañil que realizaba tareas en la zona llamó al servicio de emergencias para pedir asistencia médica y policial.\n\nLa víctima fue trasladada de urgencia al Hospital de Chacabuco mientras la policía analiza cámaras de seguridad de la zona.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Inseguridad #Robo #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Atacaron y ataron a una mujer de 73 años en su casa para robarle pesos y dólares",
+   "urgente": false,
+   "video_bytes": 74620,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/hhPuaWDhR5E"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "Esta tarde se produjo un choque entre un auto y una moto en Chacabuco. No se registraron heridos, pero personal de Tránsito secuestró el rodado menor por falta de documentación.",
@@ -997,6 +1045,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/4-yIZ8vu3QM"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Una moto impactó contra la parte trasera de una camioneta en la zona céntrica de la ciudad. El conductor del rodado menor debió ser trasladado en ambulancia para su atención médica.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-entre-una-moto-y-una-camioneta-en-la-zona-a5d4d7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "texto_tiktok": "Un fuerte choque se registró esta tarde en la zona céntrica de Chacabuco.\n\nEl hecho ocurrió sobre la calle Alvear, a pocos metros del cruce con Pueyrredón.\n\nAllí, una moto colisionó violentamente contra la parte trasera de una camioneta.\n\nComo consecuencia del impacto, el conductor de la moto resultó herido y fue trasladado de urgencia al hospital local en una ambulancia.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque en pleno centro: un motociclista terminó en el hospital",
+   "urgente": false,
+   "video_bytes": 96296,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/9I17c6Lqido"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": {
    "categoria": "otro_policial",
@@ -2888,6 +2960,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-arzobispo-jorge-lozano-hablo-sobre-la-salud-del-papa-leon-33d5a3",
    "volanta": ""
   },
+  "web:a48b6d42-70dd-4459-94a5-2c178959330a": {
+   "categoria": "nacionales",
+   "descripcion": "La autoridad monetaria adquirió divisas en el mercado este miércoles 14 de octubre. Las reservas brutas bajaron a USD 117 millones y el blue operó sin…",
+   "generado": "2026-10-14T22:06:25.250Z",
+   "id": "web:a48b6d42-70dd-4459-94a5-2c178959330a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c940788eeda24addae5395dda23f9291~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miércoles",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
+   "volanta": ""
+  },
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": {
    "categoria": "nacionales",
    "descripcion": "La entidad financiera superó las 35.000 operaciones con el plan Más Hogares con BNA y explicó que el 36,8% del incremento del sistema financiero pertenece…",
@@ -3593,22 +3683,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 83991,
+   "restantes": 245,
+   "segundos": 82798,
    "tope": 250
   },
   "30d": {
-   "restantes": 2877,
-   "segundos": 2329816,
+   "restantes": 2876,
+   "segundos": 2328622,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T22:00:25.000Z",
+ "cuota_visto": "2026-10-14T22:20:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4616,6 +4706,55 @@
    "video_bytes": 124421,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_09_lujan_dos-muertos-en-un-choque-front.mp4"
   },
+  "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok": {
+   "actualizado": "2026-10-14T22:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/carlos-casares-volco-un-viajante-pehuajense-en-el-camino-hacia-73ffeb",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 5,
+   "texto": "Un utilitario volcó este miércoles sobre el camino rural que une la localidad de Timote con Carlos Tejedor.\n\nEl rodado era conducido por un único ocupante oriundo de Pehuajó, quien fue asistido en el lugar por personal de salud.\n\nTras el rescate, el conductor fue trasladado de manera preventiva al hospital municipal para descartar lesiones.\n\n📲 Más noticias de Carlos Casares en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #carloscasares #policiales",
+   "tipo": "video",
+   "titulo": "Volcó una camioneta en el camino a Timote y trasladaron al conductor",
+   "urgente": false,
+   "vence": "2026-10-15T16:11:38.000Z",
+   "video_bytes": 91388,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_05_carlos-casares_volc-una-camioneta-en-el-camin.mp4"
+  },
+  "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x": {
+   "actualizado": "2026-10-14T22:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/carlos-casares-volco-un-viajante-pehuajense-en-el-camino-hacia-73ffeb",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Volcó una camioneta en el camino a Timote y trasladaron al conductor\n\nUn viajero oriundo de Pehuajó volcó este miércoles con su Renault Kangoo en el camino que conecta con la localidad de Timote.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/carlos-casares-volco-un-viajante-pehuajense-en-el-camino-hacia-73ffeb\n#CarlosCasares",
+   "tipo": "video",
+   "titulo": "Volcó una camioneta en el camino a Timote y trasladaron al conductor",
+   "urgente": false,
+   "vence": "2026-10-15T16:11:38.000Z",
+   "video_bytes": 91388,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_05_carlos-casares_volc-una-camioneta-en-el-camin.mp4"
+  },
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok": {
    "actualizado": "2026-10-14T09:00:22.000Z",
    "buffer_id": "6aced8d2848c31c80954fc1f",
@@ -5437,6 +5576,56 @@
    "video_bytes": 93908,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok": {
+   "actualizado": "2026-10-14T22:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Una jubilada de 73 años fue brutalmente asaltada en su vivienda de Chacabuco por dos delincuentes.\n\nLos ladrones la maniataron de las muñecas y le robaron varios miles de pesos y dólares.\n\nEl hecho ocurrió en una finca situada en la calle Miguel Gil, entre Mendoza y La Rioja, durante la tarde.\n\nTras el ataque, un albañil que realizaba tareas en la zona llamó al servicio de emergencias para pedir asistencia médica y policial.\n\nLa víctima fue trasladada de urgencia al Hospital de Chacabuco mientras la policía analiza cámaras de seguridad de la zona.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Atacaron y ataron a una mujer de 73 años en su casa para robarle pesos y dólares",
+   "urgente": false,
+   "vence": "2026-10-15T16:11:38.000Z",
+   "video_bytes": 74620,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x": {
+   "actualizado": "2026-10-14T22:20:18.000Z",
+   "buffer_id": "6ad000232a2f648468f17ef0",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "2026-10-15T02:15:58.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Atacaron y ataron a una mujer de 73 años en su casa para robarle pesos y dólares\n\nDos ladrones ingresaron a una vivienda ubicada en Miguel Gil entre Mendoza y La Rioja, maniataron a la propietaria y escaparon con dinero en…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6\n#Chacabuco",
+   "tipo": "video",
+   "titulo": "Atacaron y ataron a una mujer de 73 años en su casa para robarle pesos y dólares",
+   "urgente": false,
+   "vence": "2026-10-15T16:11:38.000Z",
+   "video_bytes": 74620,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T23:40:17.000Z",
    "buffer_id": "6acd53c1aec88be081e4576e",
@@ -5540,6 +5729,55 @@
    "vence": "2026-10-14T06:21:38.000Z",
    "video_bytes": 93300,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok": {
+   "actualizado": "2026-10-14T22:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-entre-una-moto-y-una-camioneta-en-la-zona-a5d4d7",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 5,
+   "texto": "Un fuerte choque se registró esta tarde en la zona céntrica de Chacabuco.\n\nEl hecho ocurrió sobre la calle Alvear, a pocos metros del cruce con Pueyrredón.\n\nAllí, una moto colisionó violentamente contra la parte trasera de una camioneta.\n\nComo consecuencia del impacto, el conductor de la moto resultó herido y fue trasladado de urgencia al hospital local en una ambulancia.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Choque en pleno centro: un motociclista terminó en el hospital",
+   "urgente": false,
+   "vence": "2026-10-15T16:11:38.000Z",
+   "video_bytes": 96296,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x": {
+   "actualizado": "2026-10-14T22:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T22:11:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-entre-una-moto-y-una-camioneta-en-la-zona-a5d4d7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Choque en pleno centro: un motociclista terminó en el hospital\n\nUna moto impactó contra la parte trasera de una camioneta en la zona céntrica de la ciudad.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-choque-entre-una-moto-y-una-camioneta-en-la-zona-a5d4d7\n#Chacabuco",
+   "tipo": "video",
+   "titulo": "Choque en pleno centro: un motociclista terminó en el hospital",
+   "urgente": false,
+   "vence": "2026-10-15T16:11:38.000Z",
+   "video_bytes": 96296,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T09:00:23.000Z",
@@ -6852,14 +7090,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_07_las-flores_un-operario-muri-aplastado-por.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T22:20:18.000Z",
+   "buffer_id": "6ad00023097897a778db64d7",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
    "creado": "2026-10-14T18:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T02:30:26.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/",
    "intentos": 0,
@@ -7290,6 +7528,7 @@
    "creado": "2026-10-14T17:00:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-14T16:42:28.878Z",
    "id": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff",
@@ -8044,14 +8283,14 @@
    "video_url": ""
   },
   "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x": {
-   "actualizado": "2026-10-13T22:20:15.000Z",
+   "actualizado": "2026-10-14T22:20:18.000Z",
    "buffer_id": "",
    "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
    "creado": "2026-10-13T22:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T22:06:28.666Z",
    "id": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b",
    "intentos": 0,
@@ -8672,6 +8911,30 @@
    "titulo": "El arzobispo Jorge Lozano habló sobre la salud del papa León XIV y la visita al país",
    "urgente": false,
    "vence": "2026-10-15T19:06:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:a48b6d42-70dd-4459-94a5-2c178959330a|x": {
+   "actualizado": "2026-10-14T22:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
+   "creado": "2026-10-14T22:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T22:06:25.250Z",
+   "id": "web:a48b6d42-70dd-4459-94a5-2c178959330a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miércoles\n\nLa autoridad monetaria adquirió divisas en el mercado este miércoles 14 de octubre. Las reservas brutas bajaron a USD 117 millones y el blue operó sin…\n\nhttps://www.diariolacampaña.com.ar/n/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
+   "tipo": "nota",
+   "titulo": "El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miércoles",
+   "urgente": false,
+   "vence": "2026-10-15T22:06:25.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -9660,76 +9923,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392",
-   "cuando": "2026-10-11T21:57:00.000Z",
-   "evento": "ya_publicado_en_prueba",
-   "motivo": "nota de Sentra programada a mano en la prueba del 11/10"
-  },
-  {
-   "clave": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x",
-   "cuando": "2026-10-11T21:58:03.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:70276865-8c0d-4a78-83f8-610a2dffcc17|x",
-   "cuando": "2026-10-11T21:58:03.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:58114495-39f3-4653-ae6b-639c6c61dae5|x",
-   "cuando": "2026-10-11T21:58:03.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:71e9044f-15d8-4fa8-891c-2f86d98234cd|x",
-   "cuando": "2026-10-11T21:58:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x",
-   "cuando": "2026-10-11T21:58:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x",
-   "cuando": "2026-10-11T21:58:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x",
-   "cuando": "2026-10-11T21:58:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:7b1a2e63-d062-48a9-ada5-e17347e06d48|x",
-   "cuando": "2026-10-11T21:58:05.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
    "cuando": "2026-10-11T21:58:05.000Z",
@@ -13874,6 +14067,82 @@
    "cuando": "2026-10-14T22:00:25.000Z",
    "dueAt": "2026-10-15T02:00:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x",
+   "cuando": "2026-10-14T22:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok",
+   "cuando": "2026-10-14T22:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
+   "cuando": "2026-10-14T22:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
+   "cuando": "2026-10-14T22:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
+   "cuando": "2026-10-14T22:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
+   "cuando": "2026-10-14T22:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
+   "cuando": "2026-10-14T22:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
+   "cuando": "2026-10-14T22:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad000232a2f648468f17ef0",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
+   "cuando": "2026-10-14T22:20:19.000Z",
+   "dueAt": "2026-10-15T02:15:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad00023097897a778db64d7",
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
+   "cuando": "2026-10-14T22:20:19.000Z",
+   "dueAt": "2026-10-15T02:30:26.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -13906,6 +14175,7 @@
   "entrevistas:job00208": "2026-10-14T19:20:14.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
+  "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": "2026-10-14T22:20:16.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
@@ -13922,8 +14192,10 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
@@ -14021,6 +14293,7 @@
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
+  "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
