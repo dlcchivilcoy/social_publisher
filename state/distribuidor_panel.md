@@ -1,28 +1,27 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 6 | 1 | 6 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 7 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 5 | 21 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 5 | 22 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 15 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2886 de 3000 (visto 2026-10-14T18:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2885 de 3000 (visto 2026-10-14T18:40:16.000Z)
 
 ## Cola propia (43 esperando)
 - TikTok · Reels del bot · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — tope de 15 publicaciones en 24 h de TikTok
-- X · Recortes de entrevistas · Kuki Errante: "Es mucho más difícil tocar tango" — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — en turno
+- X · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — en turno
 - TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
@@ -32,6 +31,7 @@ Actualizado: 14/10/2026 15:20 (hora AR) · ACTIVO
 - X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — en turno
 - TikTok · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — en turno
+- X · Notas web · El intendente de San Nicolás propuso a Milei un acuerdo de IVA cero y tasas muni — en turno
 - TikTok · Reels policiales · Robaron una Toyota Hilux 2025 de Gustavo Andreoni el 14/10/2026 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Malvinas: Argentina presentó un reclamo ante el Tribunal del Mar contra la extra — en turno
 - X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — fuera del horizonte de programación (espera en la cola)
@@ -56,8 +56,6 @@ Actualizado: 14/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T17:00 vencido policiales:https://semanariodejunin.com.ar/nota/75530/invest cupo diario de Reels policiales en X completo (12)
-- 2026-10-14T17:00 vencido policiales:https://www.diariodemocracia.com/policiales/34648 tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-14T17:00 vencido policiales:https://www.diariodemocracia.com/policiales/34648 cupo diario de Reels policiales en X completo (12)
 - 2026-10-14T17:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
 - 2026-10-14T17:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tikto 
@@ -81,3 +79,5 @@ Actualizado: 14/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-14T18:20 enviado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
 - 2026-10-14T18:20 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x 
 - 2026-10-14T18:20 programado entrevistas:job00207|x 
+- 2026-10-14T18:40 recibido web:b0047360-2401-4617-a433-07cb41aa8ce4|x 
+- 2026-10-14T18:40 programado entrevistas:job00206|x 

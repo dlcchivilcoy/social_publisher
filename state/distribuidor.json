@@ -2781,6 +2781,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/confirman-condena-millonaria-a-una-empresa-de-colectivos-y-su-3cb0a3",
    "volanta": ""
   },
+  "web:b0047360-2401-4617-a433-07cb41aa8ce4": {
+   "categoria": "nacionales",
+   "descripcion": "Santiago Passaglia, jefe comunal de San Nicolás, le propuso al presidente Javier Milei reducir la presión fiscal mediante la fórmula de IVA cero para…",
+   "generado": "2026-10-14T18:36:14.595Z",
+   "id": "web:b0047360-2401-4617-a433-07cb41aa8ce4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_21b1e53675614a4d87812a756a3e36fb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-intendente-de-san-nicolas-propuso-a-milei-un-acuerdo-de-iva-1502e0",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El intendente de San Nicolás propuso a Milei un acuerdo de IVA cero y tasas municipales cero",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-intendente-de-san-nicolas-propuso-a-milei-un-acuerdo-de-iva-1502e0",
+   "volanta": ""
+  },
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": {
    "categoria": "nacionales",
    "descripcion": "El oficialismo reanuda sus encuentros en la Casa Rosada bajo la conducción de Karina Milei. Intentarán reflotar la alianza con el PRO de cara a 2027 y…",
@@ -3414,22 +3432,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 10800,
+   "restantes": 220,
+   "segundos": 9601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2886,
-   "segundos": 2343025,
+   "restantes": 2885,
+   "segundos": 2341825,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T18:20:16.000Z",
+ "cuota_visto": "2026-10-14T18:40:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4209,14 +4227,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
   },
   "entrevistas:job00206|x": {
-   "actualizado": "2026-10-14T16:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T18:40:15.000Z",
+   "buffer_id": "6acfcc90eac88d1d1a8e6719",
    "clave": "entrevistas:job00206|x",
    "creado": "2026-10-14T16:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T22:30:51.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T16:20:15.000Z",
    "id": "entrevistas:job00206",
    "intentos": 0,
@@ -4342,6 +4360,7 @@
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
@@ -8289,6 +8308,30 @@
    "titulo": "Confirman condena millonaria a una empresa de colectivos y su compañía de seguros",
    "urgente": false,
    "vence": "2026-10-13T18:16:52.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:b0047360-2401-4617-a433-07cb41aa8ce4|x": {
+   "actualizado": "2026-10-14T18:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:b0047360-2401-4617-a433-07cb41aa8ce4|x",
+   "creado": "2026-10-14T18:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T18:36:14.595Z",
+   "id": "web:b0047360-2401-4617-a433-07cb41aa8ce4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-intendente-de-san-nicolas-propuso-a-milei-un-acuerdo-de-iva-1502e0",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El intendente de San Nicolás propuso a Milei un acuerdo de IVA cero y tasas municipales cero\n\nSantiago Passaglia, jefe comunal de San Nicolás, le propuso al presidente Javier Milei reducir la presión fiscal mediante la fórmula de IVA cero para…\n\nhttps://www.diariolacampaña.com.ar/n/el-intendente-de-san-nicolas-propuso-a-milei-un-acuerdo-de-iva-1502e0",
+   "tipo": "nota",
+   "titulo": "El intendente de San Nicolás propuso a Milei un acuerdo de IVA cero y tasas municipales cero",
+   "urgente": false,
+   "vence": "2026-10-15T18:36:14.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -13155,6 +13198,21 @@
    "cuando": "2026-10-14T18:20:16.000Z",
    "dueAt": "2026-10-14T22:15:27.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:b0047360-2401-4617-a433-07cb41aa8ce4|x",
+   "cuando": "2026-10-14T18:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6acfcc90eac88d1d1a8e6719",
+   "clave": "entrevistas:job00206|x",
+   "cuando": "2026-10-14T18:40:16.000Z",
+   "dueAt": "2026-10-14T22:30:51.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -13297,6 +13355,7 @@
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
+  "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
