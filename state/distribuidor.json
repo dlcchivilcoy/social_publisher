@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-14T13:40:21.000Z"
+   "visto": "2026-10-14T14:40:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 5
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-14T13:40:21.000Z"
+   "visto": "2026-10-14T14:40:21.000Z"
   }
  },
  "contenidos": {
@@ -3125,22 +3125,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 231,
-   "segundos": 25200,
+   "restantes": 229,
+   "segundos": 23994,
    "tope": 250
   },
   "30d": {
-   "restantes": 2896,
-   "segundos": 2357425,
+   "restantes": 2894,
+   "segundos": 2356219,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T14:20:17.000Z",
+ "cuota_visto": "2026-10-14T14:40:22.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4146,18 +4146,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_03_pergamino_cinco-aprehendidos-y-170-ident.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T14:40:21.000Z",
    "buffer_id": "6acf44b38fea659be5b384f9",
    "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "2026-10-14T14:15:13.000Z",
+   "enviado": "2026-10-14T14:15:26.339Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110373920230498693",
    "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-cinco-aprehendidos-en-un-operativo-de-seguridad-rural-34ba69",
    "origen": "policiales",
    "plataforma": "x",
@@ -4610,14 +4611,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_03_bragado_robaron-una-toyota-hilux-2025-.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x": {
-   "actualizado": "2026-10-14T13:20:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T14:40:21.000Z",
+   "buffer_id": "6acf94564713c18c89d52d72",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
    "creado": "2026-10-14T13:20:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T18:45:14.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes",
    "intentos": 0,
@@ -5876,18 +5877,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T14:40:21.000Z",
    "buffer_id": "6acf44b65c07f69e7d3993fd",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "2026-10-14T13:40:16.000Z",
+   "enviado": "2026-10-14T13:42:13.422Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696517976106749191",
    "nota_url": "https://www.diariolacampaña.com.ar/n/daireaux-las-lluvias-de-octubre-elevaron-las-napas-y-frenaron-a972a2",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -5901,18 +5903,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T14:40:21.000Z",
    "buffer_id": "6acf44b18fea659be5b38379",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "2026-10-14T13:45:42.000Z",
+   "enviado": "2026-10-14T13:45:49.435Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110366467396894980",
    "nota_url": "https://www.diariolacampaña.com.ar/n/daireaux-las-lluvias-de-octubre-elevaron-las-napas-y-frenaron-a972a2",
    "origen": "policiales",
    "plataforma": "x",
@@ -6459,18 +6462,19 @@
    "video_url": ""
   },
   "web:44657646-5aa8-40e2-92e8-9107905b81c5|x": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T14:40:21.000Z",
    "buffer_id": "6acf44b2d592dd5ee6b841fa",
    "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
    "creado": "2026-10-14T00:20:13.000Z",
    "dueAt": "2026-10-14T14:00:36.000Z",
+   "enviado": "2026-10-14T14:04:25.303Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T00:16:27.771Z",
    "id": "web:44657646-5aa8-40e2-92e8-9107905b81c5",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110371147430715492",
    "nota_url": "https://www.diariolacampaña.com.ar/n/campana-de-maiz-2026-27-manejo-y-fertilizacion-frente-al-super-5d4c58",
    "origen": "web",
    "plataforma": "x",
@@ -7572,18 +7576,19 @@
    "video_url": ""
   },
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x": {
-   "actualizado": "2026-10-14T10:20:22.000Z",
+   "actualizado": "2026-10-14T14:40:21.000Z",
    "buffer_id": "6acf57664c17f845373549e6",
    "clave": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x",
    "creado": "2026-10-14T10:20:15.000Z",
    "dueAt": "2026-10-14T14:30:32.000Z",
+   "enviado": "2026-10-14T14:31:12.524Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T10:11:40.794Z",
    "id": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110377888440635858",
    "nota_url": "https://www.diariolacampaña.com.ar/n/campana-triguera-juan-jose-lanzillota-analizo-el-estado-de-los",
    "origen": "web",
    "plataforma": "x",
@@ -11956,10 +11961,47 @@
    "cuando": "2026-10-14T14:20:17.000Z",
    "dueAt": "2026-10-14T18:30:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x",
+   "cuando": "2026-10-14T14:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110373920230498693"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
+   "cuando": "2026-10-14T14:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696517976106749191"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
+   "cuando": "2026-10-14T14:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110366467396894980"
+  },
+  {
+   "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
+   "cuando": "2026-10-14T14:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110371147430715492"
+  },
+  {
+   "clave": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x",
+   "cuando": "2026-10-14T14:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110377888440635858"
+  },
+  {
+   "buffer_id": "6acf94564713c18c89d52d72",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
+   "cuando": "2026-10-14T14:40:22.000Z",
+   "dueAt": "2026-10-14T18:45:14.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T13:40:21.000Z",
+ "ultima_sync": "2026-10-14T14:40:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
