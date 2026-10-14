@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,23 +9,22 @@ Actualizado: 14/10/2026 12:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 5 | 2 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 3 | 0 | 0 | 0 |
-| Notas web | X | 15 | 3 | 4 | 18 | 0 | 0 | 0 |
+| Notas web | X | 15 | 3 | 5 | 18 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 9 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2893 de 3000 (visto 2026-10-14T15:00:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2892 de 3000 (visto 2026-10-14T15:20:14.000Z)
 
-## Cola propia (43 esperando)
+## Cola propia (40 esperando)
 - TikTok · Reels del bot · Golpearon y asaltaron a un empleado municipal cuando iba a trabajar — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Un joven volcó sobre la calzada y pidió auxilio a otros conductores — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Una vecina denunció el robo de su moto y ofrece recompensa — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Golpearon y asaltaron a un empleado municipal cuando iba a trabajar — espera para separarse de la otra publicación de la misma noticia
 - TikTok · Reels policiales · Un joven murió atropellado en la Ruta 7 al regresar de Luján — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Robaron una Toyota Hilux 2025 de Gustavo Andreoni el 14/10/2026 — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Notas web · Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — en turno
 - X · Notas web · Emanuel Boveri y el gran presente de Atlético Tostado: "Estamos muy motivados y  — en turno
 - X · Notas web · Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU — en turno
@@ -39,6 +38,7 @@ Actualizado: 14/10/2026 12:00 (hora AR) · ACTIVO
 - X · Notas web · Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pe — en turno
 - TikTok · Reels policiales · Detuvieron a un prófugo en Chacabuco por amenazas con armas — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Detuvieron a un prófugo en Chacabuco por amenazas con armas — en turno
+- X · Notas web · Malvinas: Reino Unido anunció actos para 2027 y rechazó la demanda argentina en  — en turno
 - X · Notas web · Inflación en América Latina: qué puesto ocupó la Argentina en septiembre — en turno
 - X · Notas web · Pablo Avelluto llamó a construir una alternativa que imagine el futuro después d — en turno
 - X · Notas web · El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el i — en turno
@@ -56,11 +56,6 @@ Actualizado: 14/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T13:20 programado web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x 
-- 2026-10-14T13:20 programado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
-- 2026-10-14T13:40 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x 
-- 2026-10-14T13:40 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tikto 
-- 2026-10-14T13:40 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x 
 - 2026-10-14T13:40 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
 - 2026-10-14T13:40 recibido web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x 
 - 2026-10-14T13:40 enviado policiales:https://laopinionline.ar/articulo/familiares-de-m 
@@ -81,3 +76,8 @@ Actualizado: 14/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-14T14:40 enviado web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x 
 - 2026-10-14T14:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
 - 2026-10-14T15:00 programado web:e883209a-2652-420f-bb41-8ef9185d415e|x 
+- 2026-10-14T15:20 recibido web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x 
+- 2026-10-14T15:20 vencido web:364ed235-37a6-4310-b188-750e40d877a8|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T15:20 vencido web:76224348-2766-4a07-947f-ef8503976009|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T15:20 vencido web:baeb5d08-b026-4158-a946-6ff35dd140c1|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T15:20 programado web:d72917a3-67e5-41df-affc-436383926d89|x 
