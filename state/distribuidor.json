@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 7
+    "scheduled": 0,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-14T17:20:15.000Z"
+   "visto": "2026-10-14T18:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 13
+    "scheduled": 6,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-14T17:20:15.000Z"
+   "visto": "2026-10-14T18:20:15.000Z"
   }
  },
  "contenidos": {
@@ -3339,6 +3339,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
    "volanta": "Tres aprehendidos"
   },
+  "web:efbef857-ab9c-4566-904e-f8f5926bed12": {
+   "categoria": "nacionales",
+   "descripcion": "El Gobierno envió un documento de 49 páginas al ITLOS para frenar la explotación petrolera británica en la plataforma continental y proteger el medio…",
+   "generado": "2026-10-14T18:06:15.854Z",
+   "id": "web:efbef857-ab9c-4566-904e-f8f5926bed12",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_86abe5c911ff48178f68647175675f7d~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/malvinas-argentina-presento-un-reclamo-ante-el-tribunal-del-mar-4ffd7c",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Malvinas: Argentina presentó un reclamo ante el Tribunal del Mar contra la extracción petrolera",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malvinas-argentina-presento-un-reclamo-ante-el-tribunal-del-mar-4ffd7c",
+   "volanta": ""
+  },
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": {
    "categoria": "nacionales",
    "descripcion": "El Indec difundió el Índice de Precios al Consumidor del mes pasado. Vivienda y educación lideraron las subas, mientras analistas prevén un ritmo similar…",
@@ -3396,22 +3414,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 223,
-   "segundos": 14401,
+   "restantes": 221,
+   "segundos": 10800,
    "tope": 250
   },
   "30d": {
-   "restantes": 2888,
-   "segundos": 2346626,
+   "restantes": 2886,
+   "segundos": 2343025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T17:20:15.000Z",
+ "cuota_visto": "2026-10-14T18:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3674,18 +3692,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok": {
-   "actualizado": "2026-10-14T16:00:20.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "6acfa718c7801890a279c897",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
    "creado": "2026-10-14T13:40:20.000Z",
    "dueAt": "2026-10-14T17:23:07.000Z",
+   "enviado": "2026-10-14T17:23:57.492Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:22:31.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696575364109225237",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -3699,18 +3718,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8ce861781c98b5e7.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x": {
-   "actualizado": "2026-10-14T14:00:18.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "6acf8af48570d416620b947e",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x",
    "creado": "2026-10-14T13:40:20.000Z",
    "dueAt": "2026-10-14T18:00:15.000Z",
+   "enviado": "2026-10-14T18:03:42.520Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:22:31.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110431365900464340",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
    "origen": "bot",
    "plataforma": "x",
@@ -3802,18 +3822,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x": {
-   "actualizado": "2026-10-14T14:20:15.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "6acf8fa08b6c76b221fef6ed",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
    "creado": "2026-10-14T14:20:14.000Z",
    "dueAt": "2026-10-14T18:15:14.000Z",
+   "enviado": "2026-10-14T18:15:19.458Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T14:14:12.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110434289259004356",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
    "origen": "bot",
    "plataforma": "x",
@@ -3852,14 +3873,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x": {
-   "actualizado": "2026-10-14T17:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T18:20:15.000Z",
+   "buffer_id": "6acfc7e09b63fb37e4588d7d",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
    "creado": "2026-10-14T17:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T22:00:17.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T16:44:58.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
    "intentos": 0,
@@ -4213,13 +4234,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00206.mp4"
   },
   "entrevistas:job00207|x": {
-   "actualizado": "2026-10-14T17:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T18:20:15.000Z",
+   "buffer_id": "6acfc7e09b63fb37e4588da8",
    "clave": "entrevistas:job00207|x",
    "creado": "2026-10-14T17:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T22:15:27.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T17:00:17.000Z",
    "id": "entrevistas:job00207",
    "intentos": 0,
@@ -4237,18 +4259,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00207.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
-   "actualizado": "2026-10-14T16:00:20.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "6acfa71a95350f80b3547079",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "2026-10-14T18:03:06.000Z",
+   "enviado": "2026-10-14T18:04:48.682Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696585853136637202",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-un-joven-murio-tras-ser-atropellado-en-la-traza-de-la-5989d8",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -6597,14 +6620,14 @@
    "video_url": ""
   },
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x": {
-   "actualizado": "2026-10-13T18:20:14.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "",
    "clave": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x",
    "creado": "2026-10-13T18:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T18:17:18.464Z",
    "id": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366",
    "intentos": 0,
@@ -7384,14 +7407,14 @@
    "video_url": ""
   },
   "web:63610a74-1ceb-4c17-9d20-a5b404821855|x": {
-   "actualizado": "2026-10-13T18:20:14.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "",
    "clave": "web:63610a74-1ceb-4c17-9d20-a5b404821855|x",
    "creado": "2026-10-13T18:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T18:12:03.864Z",
    "id": "web:63610a74-1ceb-4c17-9d20-a5b404821855",
    "intentos": 0,
@@ -7459,14 +7482,14 @@
    "video_url": ""
   },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x": {
-   "actualizado": "2026-10-13T18:20:14.000Z",
+   "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "",
    "clave": "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x",
    "creado": "2026-10-13T18:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T18:06:48.632Z",
    "id": "web:6ab0651a-5f39-461f-9277-fae18ec231f6",
    "intentos": 0,
@@ -9048,6 +9071,30 @@
    "titulo": "La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada",
    "urgente": false,
    "vence": "2026-10-14T10:11:51.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:efbef857-ab9c-4566-904e-f8f5926bed12|x": {
+   "actualizado": "2026-10-14T18:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:efbef857-ab9c-4566-904e-f8f5926bed12|x",
+   "creado": "2026-10-14T18:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T18:06:15.854Z",
+   "id": "web:efbef857-ab9c-4566-904e-f8f5926bed12",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/malvinas-argentina-presento-un-reclamo-ante-el-tribunal-del-mar-4ffd7c",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Malvinas: Argentina presentó un reclamo ante el Tribunal del Mar contra la extracción petrolera\n\nEl Gobierno envió un documento de 49 páginas al ITLOS para frenar la explotación petrolera británica en la plataforma continental y proteger el medio…\n\nhttps://www.diariolacampaña.com.ar/n/malvinas-argentina-presento-un-reclamo-ante-el-tribunal-del-mar-4ffd7c",
+   "tipo": "nota",
+   "titulo": "Malvinas: Argentina presentó un reclamo ante el Tribunal del Mar contra la extracción petrolera",
+   "urgente": false,
+   "vence": "2026-10-15T18:06:15.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -13044,10 +13091,74 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "web:efbef857-ab9c-4566-904e-f8f5926bed12|x",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:63610a74-1ceb-4c17-9d20-a5b404821855|x",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696575364109225237"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110431365900464340"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110434289259004356"
+  },
+  {
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
+   "cuando": "2026-10-14T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696585853136637202"
+  },
+  {
+   "buffer_id": "6acfc7e09b63fb37e4588d7d",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
+   "cuando": "2026-10-14T18:20:16.000Z",
+   "dueAt": "2026-10-14T22:00:17.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfc7e09b63fb37e4588da8",
+   "clave": "entrevistas:job00207|x",
+   "cuando": "2026-10-14T18:20:16.000Z",
+   "dueAt": "2026-10-14T22:15:27.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T17:20:15.000Z",
+ "ultima_sync": "2026-10-14T18:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -13217,6 +13328,7 @@
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
+  "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
