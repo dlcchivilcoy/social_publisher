@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
+    "scheduled": 5,
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-14T09:00:22.000Z"
+   "visto": "2026-10-14T10:20:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 6,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-14T09:00:22.000Z"
+   "visto": "2026-10-14T10:20:21.000Z"
   }
  },
  "contenidos": {
@@ -1241,6 +1241,24 @@
    "volanta": "Daireaux en Bolívar",
    "youtube_url": "https://youtube.com/shorts/f_tW-dDv7Js"
   },
+  "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": {
+   "categoria": "",
+   "descripcion": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive La ciudad transita jornadas de ambiente fresco y húmedo. Aunque durante los últimos días las tardes se presentaron agradables pero sin lluvias en la región, el escenario meteorológico sufrirá modificaciones a partir de las próximas horas. De acuerdo con el informe brindado por el meteorólogo Marcelo Speranza en El Tiempo en Chivilcoy,...",
+   "generado": "2026-10-14T10:03:06.035Z",
+   "id": "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9974fbeb887f4cbd94c360160c2b9f21~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/clima-en-chivilcoy-el-pronostico-indica-que-el-ambiente-fresco-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/clima-en-chivilcoy-el-pronostico-indica-que-el-ambiente-fresco-y",
+   "volanta": "Clima en Chivilcoy"
+  },
   "web:0880263e-20bb-4331-801a-a2781c0ec918": {
    "categoria": "",
    "descripcion": "Tensión política y debate abierto tras el rechazo a la adenda: acusaciones cruzadas, objeciones técnicas y la defensa del Ejecutivo El Concejo Deliberante se convirtió en el escenario de una durísima discusión en torno al futuro del emblemático Complejo Federación. La oposición expuso severas inconsistencias en el expediente, falta de transparencia y una histórica desprotección hacia los compradores estafados. Por su parte, la gestión municipal desmintió las críticas, asegurando que el...",
@@ -1294,6 +1312,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
    "volanta": "Vínculo Internacional"
+  },
+  "web:176d2a19-01bb-4043-bc46-282b3dd6307c": {
+   "categoria": "nacionales",
+   "descripcion": "La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año La variación interanual llegó al 33,4%, informó ayer el Indec. La división que registró el mayor incremento mensual fue “Vivienda, agua, electricidad, gas y otros combustibles”, con un alza del 3,1%. El Índice de Precios al Consumidor (IPC) registró en septiembre una suba del 1,9% respecto de agosto, mientras que la variación interanual llegó al 33,4%. En los primeros nueve meses de 2026, la inflación acumuló un...",
+   "generado": "2026-10-14T10:12:24.318Z",
+   "id": "web:176d2a19-01bb-4043-bc46-282b3dd6307c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b1ca6c4f1dcf45dd9d77a60e88573aba~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ipc-la-inflacion-fue-del-1-9-en-septiembre-y-acumula-23-6-en-lo-que",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ipc-la-inflacion-fue-del-1-9-en-septiembre-y-acumula-23-6-en-lo-que",
+   "volanta": "IPC"
   },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": {
    "categoria": "nacionales",
@@ -1456,6 +1492,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/anses-quienes-cobran-este-martes-13-de-octubre-de-2026-y-cuales-fd7f55",
    "volanta": ""
+  },
+  "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": {
+   "categoria": "",
+   "descripcion": "Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Juvenil al Servicio El Servicio de Salud Mental del Hospital Municipal Dr. Santiago Fornos realizó una jornada abierta a la comunidad en el marco del Día Mundial de la Salud Mental, encabezada por el secretario de Salud, Dr. José Luis Neme, las directoras Patricia Mangino y Marcela Conde, además del personal del nosocomio, pacientes, familiares y vecinos. El jefe del servicio, Federico Von Borowski, destacó la...",
+   "generado": "2026-10-14T10:04:30.689Z",
+   "id": "web:373879d8-54ba-4e71-9032-4f6c8f181ebc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_722ba230a583469987da64f65b273792~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-mental-remarcaron-el-valor-estrategico-de-la-incorporacion-del",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Juvenil al Servicio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/salud-mental-remarcaron-el-valor-estrategico-de-la-incorporacion-del",
+   "volanta": "Salud Mental"
   },
   "web:380cc711-312c-4089-9509-56feaafc5238": {
    "categoria": "nacionales",
@@ -1709,6 +1763,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/zonas-frias-chivilcoy-y-otros-distritos-pierden-el-subsidio-c9f234",
    "volanta": ""
   },
+  "web:6092c4f7-b53e-4964-a892-2470dfeed127": {
+   "categoria": "",
+   "descripcion": "Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU Se llevó a cabo el Campeonato Argentino de Jiu Jitsu en Núñez, Ciudad Autónoma de Buenos Aires, organizado por la Confederación Argentina de Jiu Jitsu, con la participación de cuatro representantes de nuestra ciudad. - Paula Conti se consagró campeona argentina en la categoría hasta 74 kg, mientras que Gustavo Giménez obtuvo el título nacional en la categoría hasta 82 kg. - Por su parte, Raúl Lopardo alcanzó el...",
+   "generado": "2026-10-14T10:07:25.667Z",
+   "id": "web:6092c4f7-b53e-4964-a892-2470dfeed127",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_24fd5a63fb2c427fab3ba2899ba45c78~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/confederacion-argentina-destacada-participacion-de-chivilcoyanos-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/confederacion-argentina-destacada-participacion-de-chivilcoyanos-en",
+   "volanta": "Confederación Argentina"
+  },
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": {
    "categoria": "nacionales",
    "descripcion": "El gobierno británico aplicará la legislación de Protección de Intereses Comerciales para respaldar el proyecto Sea Lion frente a los reclamos realizados…",
@@ -1727,6 +1799,42 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malvinas-el-reino-unido-aprobo-normas-para-proteger-a-las-a80867",
    "volanta": ""
   },
+  "web:66096b4b-4845-4ea3-a895-867ed95af957": {
+   "categoria": "",
+   "descripcion": "La Peña Virgen de Loreto deslumbró al público en el 20° Festival Internacional de Folklore Ashpa Súmaj La delegación de la Peña Virgen de Loreto, representante de Chivilcoy, tuvo una histórica y consagratoria actuación en la 20ª edición del Festival Internacional de Folklore Ashpa Súmaj y 6ª Fiesta Nacional de las Colectividades, realizado en Las Termas de Río Hondo, Santiago del Estero. El evento internacional, declarado de Interés Cultural y Turístico por la Cámara de Diputados de la...",
+   "generado": "2026-10-14T10:10:51.402Z",
+   "id": "web:66096b4b-4845-4ea3-a895-867ed95af957",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_889c29782be145ebb541ba3545908369~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/termas-de-rio-hondo-la-pena-virgen-de-loreto-deslumbro-al-publico-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "La Peña Virgen de Loreto deslumbró al público en el 20° Festival Internacional de Folklore Ashpa Súmaj",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/termas-de-rio-hondo-la-pena-virgen-de-loreto-deslumbro-al-publico-en",
+   "volanta": "Termas de Río Hondo"
+  },
+  "web:67f24835-bd85-49b4-9af8-87a85a52dc63": {
+   "categoria": "",
+   "descripcion": "Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pedidos de captura activos En los últimos meses, el trabajo conjunto entre la Policía Comunal, el Departamento de Seguridad Vial y las denuncias realizadas por la comunidad ha permitido interceptar a diversos sujetos que circulaban por las calles de Chivilcoy sobre quienes pesaban requerimientos de la Justicia. A través de operativos de interceptación vehicular, controles poblacionales y llamados de alerta por parte...",
+   "generado": "2026-10-14T10:02:27.206Z",
+   "id": "web:67f24835-bd85-49b4-9af8-87a85a52dc63",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7adbf1d718494e90a245e544deffa7d7~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/en-las-ultimos-dias-operativos-policiales-y-alerta-vecinal-varias",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pedidos de captura activos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-las-ultimos-dias-operativos-policiales-y-alerta-vecinal-varias",
+   "volanta": "En las últimos días"
+  },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno analiza declarar feriados y asuetos del 8 al 11 de noviembre por la llegada del papa León XIV. La agenda sigue en pie a la espera de su…",
@@ -1744,6 +1852,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/visita-del-papa-leon-xiv-a-la-argentina-cuando-serian-los-1111e7",
    "volanta": ""
+  },
+  "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": {
+   "categoria": "",
+   "descripcion": "Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ El Jardín Maternal ‘Estrellita de Belén’ llevó adelante la muestra de la Semana de las Artes en ambos turnos, compartiendo con las familias las producciones y experiencias artísticas realizadas por los niños y niñas. “Felicitamos a las docentes por su compromiso, dedicación y creatividad, y a las familias por el acompañamiento y el trabajo conjunto en cada actividad”, destacaron desde la dirección municipal de educación, y...",
+   "generado": "2026-10-14T10:09:29.150Z",
+   "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_65569c93719d4588b1ee936de9b64c71~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
+   "volanta": "Muestra"
   },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
    "categoria": "nacionales",
@@ -2015,6 +2141,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/expulsaron-a-un-ciudadano-brasileno-que-habia-cuestionado-a-470f1f",
    "volanta": ""
   },
+  "web:84b5112d-aa11-45e0-b614-d5bb307939e1": {
+   "categoria": "",
+   "descripcion": "Emanuel Boveri y el gran presente de Atlético Tostado: \"Estamos muy motivados y con ganas de volver a jugar el Federal\" El basquetbolista chivilcoyano repasó la actualidad del equipo santafesino, analizó la reestructuración del plantel para la segunda parte del año y se enfocó en los próximos desafíos: los cruces definitorios de la Copa Centenario y el debut en la Copa Santa Fe. En un mano a mano con el programa periodístico, Emanuel \"Manu\" Boveri compartió sus impresiones sobre el momento...",
+   "generado": "2026-10-14T10:08:07.323Z",
+   "id": "web:84b5112d-aa11-45e0-b614-d5bb307939e1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d488f5c01f044cde909cb18b42b03766~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-emanuel-boveri-y-el-gran-presente-de-atletico-tostado-estamos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Emanuel Boveri y el gran presente de Atlético Tostado: \"Estamos muy motivados y con ganas de volver a jugar el Federal\"",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-emanuel-boveri-y-el-gran-presente-de-atletico-tostado-estamos",
+   "volanta": "Básquet"
+  },
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": {
    "categoria": "nacionales",
    "descripcion": "La Justicia desestimó el reclamo civil de una propietaria contra los habitantes de una finca lindera y le ordenó abonar las costas procesales del litigio.",
@@ -2086,6 +2230,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/estrategia-de-cristina-kirchner-hacia-2027-frentes-en-la-onu-la-7f0d6d",
    "volanta": ""
+  },
+  "web:92431890-c8e8-4999-9e83-03174b736b52": {
+   "categoria": "",
+   "descripcion": "Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a favor En un gran definición en Chivilcoy, Villa Mitre ganó el cuadrangular final a nivel provincial del U17 masculino. El representante bahiense necesitó de un triple empate, donde salió airoso y finalmente pudo festejar con buenas performances en cada uno de los partidos. Racing Club terminó terminó tercero y quedó entre los mejores de la provincia. Villa Mitre celebró en Chivilcoy tras un cuadrangular final que...",
+   "generado": "2026-10-14T10:08:46.839Z",
+   "id": "web:92431890-c8e8-4999-9e83-03174b736b52",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_10617158b54246bcbf10f9efcdc737cc~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-u17-triple-empate-villa-mitre-campeon-del-final-four-por-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a favor",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-u17-triple-empate-villa-mitre-campeon-del-final-four-por-la",
+   "volanta": "Básquet U17"
   },
   "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": {
    "categoria": "nacionales",
@@ -2213,6 +2375,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-retoma-su-mesa-politica-en-la-casa-rosada-y-busca-15d12c",
    "volanta": ""
   },
+  "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": {
+   "categoria": "",
+   "descripcion": "Juan José Lanzillota analizó el estado de los cultivos y la evolución del rendimiento El ingeniero Juan José Lanzillota, especialista y fitomejorador de trigo en la Estación Experimental Agropecuaria del INTA Pergamino, brindó un detallado panorama sobre la evolución del ciclo productivo en la región, las particularidades climáticas del año, el estado sanitario y los avances logrados a partir del mejoramiento genético. En diálogo con el programa INTA en la Radio, emitido por Radio del Centro,...",
+   "generado": "2026-10-14T10:11:40.794Z",
+   "id": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dcbcd42fc1114b2482b1698e2a56a733~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/campana-triguera-juan-jose-lanzillota-analizo-el-estado-de-los",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Juan José Lanzillota analizó el estado de los cultivos y la evolución del rendimiento",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campana-triguera-juan-jose-lanzillota-analizo-el-estado-de-los",
+   "volanta": "Campaña Triguera"
+  },
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": {
    "categoria": "",
    "descripcion": "La Escuela Nacional organiza una cena show para renovar su edificio histórico La comunidad de la Escuela de Educación Secundaria N° 3 ‘José Hernández’, emblemática institución de Chivilcoy popularmente conocida como la Escuela Nacional, llevará adelante una gran cena show a beneficio el próximo 31 de octubre. La iniciativa surgió del trabajo mancomunado entre el equipo directivo, la asociación cooperadora y distintas promociones de exalumnos, con el propósito prioritario de reunir fondos...",
@@ -2230,6 +2410,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/a-beneficio-la-escuela-nacional-organiza-una-cena-show-para-renovar",
    "volanta": "A beneficio"
+  },
+  "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": {
+   "categoria": "nacionales",
+   "descripcion": "A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico de $ 313.610 millones De acuerdo con el relevamiento de la Confederación Argentina de la Mediana Empresa (CAME) durante el fin de semana largo por el 12 de octubre, 1.490.400 turistas viajaron por el país, generando un impacto económico directo de $ 313.610 millones. La cantidad de viajeros creció 3,5% frente al mismo feriado de 2025, lo que reflejó una mejora en la actividad, aunque con diferencias importantes...",
+   "generado": "2026-10-14T10:13:10.237Z",
+   "id": "web:b560e67f-5921-48d3-b7cd-51da35bc1db3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ced5f0253721467dbede4d92e7a45537~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/informe-de-came-a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico de $ 313.610 millones",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/informe-de-came-a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre",
+   "volanta": "Informe de CAME"
   },
   "web:ba878935-3e6f-4357-a078-3447ed612c35": {
    "categoria": "nacionales",
@@ -2285,6 +2483,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/estrellas-amarillas-participacion-en-el-foro-regional-de-educacion-y",
    "volanta": "Estrellas Amarillas"
   },
+  "web:c6470534-4523-4411-a14d-e8390249bc0c": {
+   "categoria": "",
+   "descripcion": "Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés laboral El licenciado en Higiene y Seguridad, especialista en riesgos psicosociales, Erardo Spinelli, visitó los estudios de Radio del Centro durante el programa ‘La Mañana del Centro’ para abordar una temática de creciente relevancia: cómo impactan las exigencias cotidianas en la salud integral de las personas trabajadoras y de qué manera las organizaciones pueden anticiparse al estrés y al desgaste ocupacional....",
+   "generado": "2026-10-14T10:03:46.780Z",
+   "id": "web:c6470534-4523-4411-a14d-e8390249bc0c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_25ab1eb6de244eaa88ec75dbaa873aed~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-en-el-trabajo-erardo-spinelli-analizo-la-prevencion-de-los",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés laboral",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguridad-en-el-trabajo-erardo-spinelli-analizo-la-prevencion-de-los",
+   "volanta": "Seguridad en el Trabajo"
+  },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": {
    "categoria": "nacionales",
    "descripcion": "Una iniciativa que busca penalizar la intrusión y los daños en establecimientos productivos obtuvo dictamen de mayoría en la Cámara baja, con el respaldo…",
@@ -2320,6 +2536,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gran-fondo-buenos-aires-que-calles-y-autopistas-estan-cortadas-0150e5",
    "volanta": ""
+  },
+  "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": {
+   "categoria": "",
+   "descripcion": "Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting realizado en Chile El atleta chivilcoyano Uriel Scalise visitó los estudios de Radio del Centro tras su destacada actuación en el Campeonato Iberoamericano de powerlifting disputado en Chile. En el certamen internacional, integrando las filas del seleccionado argentino, el deportista local completó una labor sobresaliente al consagrarse subcampeón en la categoría Junior de hasta 75 kilos de peso corporal, conquistando...",
+   "generado": "2026-10-14T10:06:41.647Z",
+   "id": "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_afd2c13473cf4094970e93f5018aeaf9~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/destacada-actuacion-uriel-scalise-obtuvo-el-subcampeonato-en-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting realizado en Chile",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/destacada-actuacion-uriel-scalise-obtuvo-el-subcampeonato-en-el",
+   "volanta": "Destacada actuación"
   },
   "web:cc9019ae-7f13-4598-b272-348e432962b5": {
    "categoria": "",
@@ -2465,6 +2699,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
    "volanta": "De Córdoba al país"
   },
+  "web:dae9d3f8-bd74-4de6-a065-60f894be222e": {
+   "categoria": "",
+   "descripcion": "El coleccionismo local se consolida con proyectos y nuevas temáticas: desde la filatelia a los frascos de perfume",
+   "generado": "2026-10-14T10:06:03.213Z",
+   "id": "web:dae9d3f8-bd74-4de6-a065-60f894be222e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f0c274d2fce74762b5e24150d73f66bc~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/preservacion-de-los-objetos-el-coleccionismo-local-se-consolida-con",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Preservación de los objetos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/preservacion-de-los-objetos-el-coleccionismo-local-se-consolida-con",
+   "volanta": ""
+  },
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": {
    "categoria": "",
    "descripcion": "Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación A través de un comunicado firmado por su presidente, Carlos Jaunarena, la empresa constructora SENTRA S.A. respondió formalmente a las acusaciones realizadas por el concejal Martín Etcheverría. En el documento, la firma buscó llevar claridad a la comunidad de Chivilcoy respecto a su situación contable, la historia contractual de la obra del Complejo Federación y los detalles de la Adenda...",
@@ -2482,6 +2734,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sentra-respondieron-a-las-acusaciones-del-concejal-etcheverria-y",
    "volanta": "SENTRA"
+  },
+  "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": {
+   "categoria": "",
+   "descripcion": "Un trabajo evaluó 42 campañas agrícolas en once provincias para estimar el impacto productivo del fenómeno climático El Niño.",
+   "generado": "2026-10-14T10:02:33.624Z",
+   "id": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b07947e914534bf9aa844cd0a0244e86~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/simulacion-agricola-detalla-como-impacta-el-nino-en-rindes-de-d57cd8",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Simulación agrícola detalla cómo impacta El Niño en rindes de soja y maíz",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/simulacion-agricola-detalla-como-impacta-el-nino-en-rindes-de-d57cd8",
+   "volanta": ""
   },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": {
    "categoria": "nacionales",
@@ -2501,6 +2771,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
    "volanta": ""
   },
+  "web:e883209a-2652-420f-bb41-8ef9185d415e": {
+   "categoria": "",
+   "descripcion": "Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de Cine de Chivilcoy prepara cuatro días de pantallas y resistencia Del 12 al 15 de noviembre, como viene ocurriendo en los últimos nuestra ciudad volverá a convertirse en el epicentro del cine independiente con la llegada de la novena edición de Raíces - Festival Internacional de Cine de Chivilcoy. La cita tendrá lugar en la histórica sede del Teatro ‘El Chasqui’ (ubicado en la calle General Rodríguez),...",
+   "generado": "2026-10-14T10:10:11.995Z",
+   "id": "web:e883209a-2652-420f-bb41-8ef9185d415e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f408cc9d53104227ae8684a09187e14a~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/del-12-al-15-de-noviembre-confirmaciones-a-un-mes-de-la-9-edicion-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de Cine de Chivilcoy prepara cuatro días de pantallas y resistencia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/del-12-al-15-de-noviembre-confirmaciones-a-un-mes-de-la-9-edicion-de",
+   "volanta": "Del 12 al 15 de noviembre"
+  },
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": {
    "categoria": "",
    "descripcion": "Fueron retirados los radares de las rutas 5 y 46 en la jurisdicción de Bragado Los dispositivos de control de velocidad que se encontraban instalados sobre las rutas Nacional 5 y Provincial 46, en jurisdicción de Bragado, fueron retirados luego de la derogación de los convenios que permitían el funcionamiento del sistema de fotomultas. La confirmación surgió a partir de consultas realizadas por medios locales ante los reclamos de vecinos y oyentes respecto de la continuidad de los controles....",
@@ -2518,6 +2806,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/derogacion-del-convenio-fueron-retirados-los-radares-de-las-rutas-5-y",
    "volanta": "Derogación del convenio"
+  },
+  "web:eb28d2e9-187b-45cf-9369-d13890bc9998": {
+   "categoria": "",
+   "descripcion": "Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona” En el marco de la reciente conmemoración del Día Mundial de la Salud Mental y tras diversas actividades desplegadas en el ámbito local, la directora del Dispositivo Territorial Comunitario (DTC) de Sedronar en nuestra ciudad, Leticia Berdugo, visitó los estudios de Radio del Centro con motivo de  profundizar sobre los lineamientos institucionales, el...",
+   "generado": "2026-10-14T10:05:17.296Z",
+   "id": "web:eb28d2e9-187b-45cf-9369-d13890bc9998",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_974cfc5ce7b642cdaeaf529b16ab670a~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/dtc-sedronar-chivilcoy-leticia-berdugo-propiciamos-siempre-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dtc-sedronar-chivilcoy-leticia-berdugo-propiciamos-siempre-el",
+   "volanta": "DTC Sedronar Chivilcoy"
   },
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": {
    "categoria": "",
@@ -2576,22 +2882,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 97,
-   "segundos": 885,
+   "restantes": 98,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 44379,
+   "restantes": 238,
+   "segundos": 39594,
    "tope": 250
   },
   "30d": {
-   "restantes": 2905,
-   "segundos": 2376603,
+   "restantes": 2903,
+   "segundos": 2371818,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T09:00:39.000Z",
+ "cuota_visto": "2026-10-14T10:20:23.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2827,18 +3133,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "6acf44ab99805204daf6ea5d",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
    "creado": "2026-10-14T09:00:20.000Z",
    "dueAt": "2026-10-14T10:00:37.000Z",
+   "enviado": "2026-10-14T10:02:50.126Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:59:52.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110310350629245057",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
    "origen": "bot",
    "plataforma": "x",
@@ -4683,18 +4990,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_12_junin_cay-en-per-un-pr-fugo-vinculad.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "6acf44ac3188d8aa57b0f789",
    "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "2026-10-14T10:15:44.000Z",
+   "enviado": "2026-10-14T10:15:49.511Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110313619447525513",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cayo-en-peru-un-profugo-de-40-anos-vinculado-al-triple-crimen-53fee4",
    "origen": "policiales",
    "plataforma": "x",
@@ -5069,15 +5377,39 @@
    "video_bytes": 104302,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
   },
+  "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:03:06.035Z",
+   "id": "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/clima-en-chivilcoy-el-pronostico-indica-que-el-ambiente-fresco-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive\n\nLa ciudad transita jornadas de ambiente fresco y húmedo.\n\nhttps://www.diariolacampaña.com.ar/n/clima-en-chivilcoy-el-pronostico-indica-que-el-ambiente-fresco-y",
+   "tipo": "nota",
+   "titulo": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive",
+   "urgente": false,
+   "vence": "2026-10-15T10:03:06.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:0880263e-20bb-4331-801a-a2781c0ec918|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
+   "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "",
    "clave": "web:0880263e-20bb-4331-801a-a2781c0ec918|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T10:04:01.122Z",
    "id": "web:0880263e-20bb-4331-801a-a2781c0ec918",
    "intentos": 0,
@@ -5142,6 +5474,30 @@
    "titulo": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas",
    "urgente": false,
    "vence": "2026-10-14T10:04:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:176d2a19-01bb-4043-bc46-282b3dd6307c|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:176d2a19-01bb-4043-bc46-282b3dd6307c|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:12:24.318Z",
+   "id": "web:176d2a19-01bb-4043-bc46-282b3dd6307c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ipc-la-inflacion-fue-del-1-9-en-septiembre-y-acumula-23-6-en-lo-que",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año\n\nLa variación interanual llegó al 33,4%, informó ayer el Indec. La división que registró el mayor incremento mensual fue “Vivienda, agua, electricidad, gas y otros…\n\nhttps://www.diariolacampaña.com.ar/n/ipc-la-inflacion-fue-del-1-9-en-septiembre-y-acumula-23-6-en-lo-que",
+   "tipo": "nota",
+   "titulo": "La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año",
+   "urgente": false,
+   "vence": "2026-10-15T10:12:24.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -5373,6 +5729,30 @@
    "titulo": "ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos",
    "urgente": false,
    "vence": "2026-10-14T15:06:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:373879d8-54ba-4e71-9032-4f6c8f181ebc|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:373879d8-54ba-4e71-9032-4f6c8f181ebc|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:04:30.689Z",
+   "id": "web:373879d8-54ba-4e71-9032-4f6c8f181ebc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-mental-remarcaron-el-valor-estrategico-de-la-incorporacion-del",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Juvenil al Servicio\n\nEl Servicio de Salud Mental del Hospital Municipal Dr. Santiago Fornos realizó una jornada abierta a la comunidad en el marco del Día Mundial de la…\n\nhttps://www.diariolacampaña.com.ar/n/salud-mental-remarcaron-el-valor-estrategico-de-la-incorporacion-del",
+   "tipo": "nota",
+   "titulo": "Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Juvenil al Servicio",
+   "urgente": false,
+   "vence": "2026-10-15T10:04:30.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -5734,6 +6114,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6092c4f7-b53e-4964-a892-2470dfeed127|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:6092c4f7-b53e-4964-a892-2470dfeed127|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:07:25.667Z",
+   "id": "web:6092c4f7-b53e-4964-a892-2470dfeed127",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/confederacion-argentina-destacada-participacion-de-chivilcoyanos-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU\n\nSe llevó a cabo el Campeonato Argentino de Jiu Jitsu en Núñez, Ciudad Autónoma de Buenos Aires, organizado por la Confederación Argentina de Jiu Jitsu, con la…\n\nhttps://www.diariolacampaña.com.ar/n/confederacion-argentina-destacada-participacion-de-chivilcoyanos-en",
+   "tipo": "nota",
+   "titulo": "Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU",
+   "urgente": false,
+   "vence": "2026-10-15T10:07:25.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:63610a74-1ceb-4c17-9d20-a5b404821855|x": {
    "actualizado": "2026-10-13T18:20:14.000Z",
    "buffer_id": "",
@@ -5759,6 +6163,55 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:66096b4b-4845-4ea3-a895-867ed95af957|x": {
+   "actualizado": "2026-10-14T10:20:22.000Z",
+   "buffer_id": "6acf5766b389ea6547067c41",
+   "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "2026-10-14T14:45:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T10:10:51.402Z",
+   "id": "web:66096b4b-4845-4ea3-a895-867ed95af957",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/termas-de-rio-hondo-la-pena-virgen-de-loreto-deslumbro-al-publico-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 La Peña Virgen de Loreto deslumbró al público en el 20° Festival Internacional de Folklore Ashpa Súmaj\n\nLa delegación de la Peña Virgen de Loreto, representante de Chivilcoy, tuvo una histórica y consagratoria actuación en la 20ª edición del Festival…\n\nhttps://www.diariolacampaña.com.ar/n/termas-de-rio-hondo-la-pena-virgen-de-loreto-deslumbro-al-publico-en",
+   "tipo": "nota",
+   "titulo": "La Peña Virgen de Loreto deslumbró al público en el 20° Festival Internacional de Folklore Ashpa Súmaj",
+   "urgente": false,
+   "vence": "2026-10-15T10:10:51.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:02:27.206Z",
+   "id": "web:67f24835-bd85-49b4-9af8-87a85a52dc63",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/en-las-ultimos-dias-operativos-policiales-y-alerta-vecinal-varias",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pedidos de captura activos\n\nEn los últimos meses, el trabajo conjunto entre la Policía Comunal, el Departamento de Seguridad Vial y las denuncias realizadas por la…\n\nhttps://www.diariolacampaña.com.ar/n/en-las-ultimos-dias-operativos-policiales-y-alerta-vecinal-varias",
+   "tipo": "nota",
+   "titulo": "Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pedidos de captura activos",
+   "urgente": false,
+   "vence": "2026-10-15T10:02:27.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x": {
    "actualizado": "2026-10-13T18:20:14.000Z",
    "buffer_id": "",
@@ -5781,6 +6234,30 @@
    "titulo": "Visita del papa León XIV a la Argentina: cuándo serían los feriados y cómo sigue la gira tras su operación",
    "urgente": false,
    "vence": "2026-10-14T18:06:48.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:09:29.150Z",
+   "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’\n\nEl Jardín Maternal ‘Estrellita de Belén’ llevó adelante la muestra de la Semana de las Artes en ambos turnos, compartiendo con las familias las producciones y experiencias artísticas…\n\nhttps://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
+   "tipo": "nota",
+   "titulo": "Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’",
+   "urgente": false,
+   "vence": "2026-10-15T10:09:29.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -5990,14 +6467,14 @@
    "video_url": ""
   },
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
+   "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "",
    "clave": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T10:02:32.658Z",
    "id": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d",
    "intentos": 0,
@@ -6169,6 +6646,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:84b5112d-aa11-45e0-b614-d5bb307939e1|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:84b5112d-aa11-45e0-b614-d5bb307939e1|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:08:07.323Z",
+   "id": "web:84b5112d-aa11-45e0-b614-d5bb307939e1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-emanuel-boveri-y-el-gran-presente-de-atletico-tostado-estamos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Emanuel Boveri y el gran presente de Atlético Tostado: \"Estamos muy motivados y con ganas de volver a jugar el Federal\"\n\nEl basquetbolista chivilcoyano repasó la actualidad del equipo santafesino, analizó la reestructuración del plantel para la…\n\nhttps://www.diariolacampaña.com.ar/n/basquet-emanuel-boveri-y-el-gran-presente-de-atletico-tostado-estamos",
+   "tipo": "nota",
+   "titulo": "Emanuel Boveri y el gran presente de Atlético Tostado: \"Estamos muy motivados y con ganas de volver a jugar el Federal\"",
+   "urgente": false,
+   "vence": "2026-10-15T10:08:07.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x": {
    "actualizado": "2026-10-13T11:40:15.000Z",
    "buffer_id": "6acdf329c0184667a9e254cb",
@@ -6269,6 +6770,30 @@
    "titulo": "Estrategia de Cristina Kirchner hacia 2027: frentes en la ONU, la Justicia y el peronismo",
    "urgente": false,
    "vence": "2026-10-13T15:17:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:92431890-c8e8-4999-9e83-03174b736b52|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:92431890-c8e8-4999-9e83-03174b736b52|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:08:46.839Z",
+   "id": "web:92431890-c8e8-4999-9e83-03174b736b52",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-u17-triple-empate-villa-mitre-campeon-del-final-four-por-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a favor\n\nEn un gran definición en Chivilcoy, Villa Mitre ganó el cuadrangular final a nivel provincial del U17 masculino.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-u17-triple-empate-villa-mitre-campeon-del-final-four-por-la",
+   "tipo": "nota",
+   "titulo": "Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a favor",
+   "urgente": false,
+   "vence": "2026-10-15T10:08:46.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -6449,6 +6974,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x": {
+   "actualizado": "2026-10-14T10:20:22.000Z",
+   "buffer_id": "6acf57664c17f845373549e6",
+   "clave": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "2026-10-14T14:30:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T10:11:40.794Z",
+   "id": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/campana-triguera-juan-jose-lanzillota-analizo-el-estado-de-los",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Juan José Lanzillota analizó el estado de los cultivos y la evolución del rendimiento\n\nEl ingeniero Juan José Lanzillota, especialista y fitomejorador de trigo en la Estación Experimental Agropecuaria del INTA Pergamino, brindó un detallado panorama…\n\nhttps://www.diariolacampaña.com.ar/n/campana-triguera-juan-jose-lanzillota-analizo-el-estado-de-los",
+   "tipo": "nota",
+   "titulo": "Juan José Lanzillota analizó el estado de los cultivos y la evolución del rendimiento",
+   "urgente": false,
+   "vence": "2026-10-15T10:11:40.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c|x": {
    "actualizado": "2026-10-12T11:40:14.000Z",
    "buffer_id": "6accb467a0f0173687a9148b",
@@ -6472,6 +7022,30 @@
    "titulo": "La Escuela Nacional organiza una cena show para renovar su edificio histórico",
    "urgente": false,
    "vence": "2026-10-13T10:12:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:13:10.237Z",
+   "id": "web:b560e67f-5921-48d3-b7cd-51da35bc1db3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/informe-de-came-a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico de $ 313.610 millones\n\nDe acuerdo con el relevamiento de la Confederación Argentina de la Mediana Empresa (CAME) durante el fin de semana largo por el 12 de octubre…\n\nhttps://www.diariolacampaña.com.ar/n/informe-de-came-a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre",
+   "tipo": "nota",
+   "titulo": "A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico de $ 313.610 millones",
+   "urgente": false,
+   "vence": "2026-10-15T10:13:10.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -6551,6 +7125,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c6470534-4523-4411-a14d-e8390249bc0c|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:c6470534-4523-4411-a14d-e8390249bc0c|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:03:46.780Z",
+   "id": "web:c6470534-4523-4411-a14d-e8390249bc0c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-en-el-trabajo-erardo-spinelli-analizo-la-prevencion-de-los",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés laboral\n\nEl licenciado en Higiene y Seguridad, especialista en riesgos psicosociales, Erardo Spinelli, visitó los estudios de Radio del Centro durante el programa ‘La…\n\nhttps://www.diariolacampaña.com.ar/n/seguridad-en-el-trabajo-erardo-spinelli-analizo-la-prevencion-de-los",
+   "tipo": "nota",
+   "titulo": "Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés laboral",
+   "urgente": false,
+   "vence": "2026-10-15T10:03:46.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x": {
    "actualizado": "2026-10-11T22:20:14.000Z",
    "buffer_id": "6acc066eea568e911a41c3a4",
@@ -6603,15 +7201,39 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:06:41.647Z",
+   "id": "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/destacada-actuacion-uriel-scalise-obtuvo-el-subcampeonato-en-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting realizado en Chile\n\nEl atleta chivilcoyano Uriel Scalise visitó los estudios de Radio del Centro tras su destacada actuación en el Campeonato Iberoamericano de powerlifting…\n\nhttps://www.diariolacampaña.com.ar/n/destacada-actuacion-uriel-scalise-obtuvo-el-subcampeonato-en-el",
+   "tipo": "nota",
+   "titulo": "Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting realizado en Chile",
+   "urgente": false,
+   "vence": "2026-10-15T10:06:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:cc9019ae-7f13-4598-b272-348e432962b5|x": {
-   "actualizado": "2026-10-13T10:20:16.000Z",
+   "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "",
    "clave": "web:cc9019ae-7f13-4598-b272-348e432962b5|x",
    "creado": "2026-10-13T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T10:03:15.139Z",
    "id": "web:cc9019ae-7f13-4598-b272-348e432962b5",
    "intentos": 0,
@@ -6808,6 +7430,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:dae9d3f8-bd74-4de6-a065-60f894be222e|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:dae9d3f8-bd74-4de6-a065-60f894be222e|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:06:03.213Z",
+   "id": "web:dae9d3f8-bd74-4de6-a065-60f894be222e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/preservacion-de-los-objetos-el-coleccionismo-local-se-consolida-con",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Preservación de los objetos\n\nEl coleccionismo local se consolida con proyectos y nuevas temáticas: desde la filatelia a los frascos de perfume\n\nhttps://www.diariolacampaña.com.ar/n/preservacion-de-los-objetos-el-coleccionismo-local-se-consolida-con",
+   "tipo": "nota",
+   "titulo": "Preservación de los objetos",
+   "urgente": false,
+   "vence": "2026-10-15T10:06:03.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x": {
    "actualizado": "2026-10-13T10:20:19.000Z",
    "buffer_id": "",
@@ -6830,6 +7476,30 @@
    "titulo": "Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación",
    "urgente": false,
    "vence": "2026-10-13T10:02:37.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:02:33.624Z",
+   "id": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/simulacion-agricola-detalla-como-impacta-el-nino-en-rindes-de-d57cd8",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Simulación agrícola detalla cómo impacta El Niño en rindes de soja y maíz\n\nUn trabajo evaluó 42 campañas agrícolas en once provincias para estimar el impacto productivo del fenómeno climático El Niño.\n\nhttps://www.diariolacampaña.com.ar/n/simulacion-agricola-detalla-como-impacta-el-nino-en-rindes-de-d57cd8",
+   "tipo": "nota",
+   "titulo": "Simulación agrícola detalla cómo impacta El Niño en rindes de soja y maíz",
+   "urgente": false,
+   "vence": "2026-10-15T10:02:33.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -6859,6 +7529,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e883209a-2652-420f-bb41-8ef9185d415e|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:10:11.995Z",
+   "id": "web:e883209a-2652-420f-bb41-8ef9185d415e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/del-12-al-15-de-noviembre-confirmaciones-a-un-mes-de-la-9-edicion-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de Cine de Chivilcoy prepara cuatro días de pantallas y resistencia\n\nDel 12 al 15 de noviembre, como viene ocurriendo en los últimos nuestra ciudad volverá a convertirse en…\n\nhttps://www.diariolacampaña.com.ar/n/del-12-al-15-de-noviembre-confirmaciones-a-un-mes-de-la-9-edicion-de",
+   "tipo": "nota",
+   "titulo": "Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de Cine de Chivilcoy prepara cuatro días de pantallas y resistencia",
+   "urgente": false,
+   "vence": "2026-10-15T10:10:11.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09|x": {
    "actualizado": "2026-10-12T14:00:19.000Z",
    "buffer_id": "6accc272624c35d1cf1e1ff3",
@@ -6882,6 +7577,30 @@
    "titulo": "Fueron retirados los radares de las rutas 5 y 46 en la jurisdicción de Bragado",
    "urgente": false,
    "vence": "2026-10-13T10:05:34.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x": {
+   "actualizado": "2026-10-14T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x",
+   "creado": "2026-10-14T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T10:05:17.296Z",
+   "id": "web:eb28d2e9-187b-45cf-9369-d13890bc9998",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/dtc-sedronar-chivilcoy-leticia-berdugo-propiciamos-siempre-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona”\n\nEn el marco de la reciente conmemoración del Día Mundial de la Salud Mental y tras diversas actividades…\n\nhttps://www.diariolacampaña.com.ar/n/dtc-sedronar-chivilcoy-leticia-berdugo-propiciamos-siempre-el",
+   "tipo": "nota",
+   "titulo": "Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona”",
+   "urgente": false,
+   "vence": "2026-10-15T10:05:17.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -10115,10 +10834,190 @@
    "cuando": "2026-10-14T09:00:39.000Z",
    "dueAt": "2026-10-14T13:40:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x",
+   "cuando": "2026-10-14T10:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:176d2a19-01bb-4043-bc46-282b3dd6307c|x",
+   "cuando": "2026-10-14T10:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x",
+   "cuando": "2026-10-14T10:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
+   "cuando": "2026-10-14T10:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
+   "cuando": "2026-10-14T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
+   "cuando": "2026-10-14T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:92431890-c8e8-4999-9e83-03174b736b52|x",
+   "cuando": "2026-10-14T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:84b5112d-aa11-45e0-b614-d5bb307939e1|x",
+   "cuando": "2026-10-14T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6092c4f7-b53e-4964-a892-2470dfeed127|x",
+   "cuando": "2026-10-14T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x",
+   "cuando": "2026-10-14T10:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:dae9d3f8-bd74-4de6-a065-60f894be222e|x",
+   "cuando": "2026-10-14T10:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x",
+   "cuando": "2026-10-14T10:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:373879d8-54ba-4e71-9032-4f6c8f181ebc|x",
+   "cuando": "2026-10-14T10:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c6470534-4523-4411-a14d-e8390249bc0c|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0880263e-20bb-4331-801a-a2781c0ec918|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:cc9019ae-7f13-4598-b272-348e432962b5|x",
+   "cuando": "2026-10-14T10:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
+   "cuando": "2026-10-14T10:20:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110310350629245057"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x",
+   "cuando": "2026-10-14T10:20:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110313619447525513"
+  },
+  {
+   "buffer_id": "6acf57664c17f845373549e6",
+   "clave": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x",
+   "cuando": "2026-10-14T10:20:23.000Z",
+   "dueAt": "2026-10-14T14:30:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acf5766b389ea6547067c41",
+   "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
+   "cuando": "2026-10-14T10:20:23.000Z",
+   "dueAt": "2026-10-14T14:45:39.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T09:00:22.000Z",
+ "ultima_sync": "2026-10-14T10:20:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -10174,9 +11073,11 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion": "2026-10-14T02:20:13.000Z",
+  "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
+  "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": "2026-10-13T12:20:17.000Z",
@@ -10186,6 +11087,7 @@
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",
+  "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
@@ -10201,8 +11103,12 @@
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
+  "web:6092c4f7-b53e-4964-a892-2470dfeed127": "2026-10-14T10:20:15.000Z",
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
+  "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
+  "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
+  "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
@@ -10218,10 +11124,12 @@
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
+  "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
   "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
+  "web:92431890-c8e8-4999-9e83-03174b736b52": "2026-10-14T10:20:15.000Z",
   "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": "2026-10-12T21:20:14.000Z",
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": "2026-10-12T12:20:13.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
@@ -10229,12 +11137,16 @@
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
+  "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
+  "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
   "web:ba878935-3e6f-4357-a078-3447ed612c35": "2026-10-13T21:20:15.000Z",
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": "2026-10-13T15:20:18.000Z",
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
+  "web:c6470534-4523-4411-a14d-e8390249bc0c": "2026-10-14T10:20:15.000Z",
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
+  "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": "2026-10-14T10:20:15.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",
@@ -10243,9 +11155,13 @@
   "web:d35101a5-0683-4dc9-8422-7280ee9bf814": "2026-10-11T21:58:03.000Z",
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
+  "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
+  "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": "2026-10-14T10:20:15.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
+  "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
+  "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
