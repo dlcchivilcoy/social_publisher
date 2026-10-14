@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 14/10/2026 14:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 2 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 3 | 1 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 6 | 1 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 6 | 1 | 6 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 1 | 7 | 0 | 0 | 0 |
 | Notas web | X | 15 | 5 | 5 | 20 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,12 +18,22 @@ Actualizado: 14/10/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2888 de 3000 (visto 2026-10-14T17:20:15.000Z)
 
-## Cola propia (37 esperando)
+## Cola propia (47 esperando)
 - TikTok · Reels del bot · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Coty Alonso sobre el Complejo Federación en Chivilcoy — en turno
 - X · Recortes de entrevistas · Kuki Errante: "Es mucho más difícil tocar tango" — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — en turno
+- TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — en turno
+- TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — en turno
+- TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — en turno
+- X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — en turno
+- TikTok · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — en turno
+- TikTok · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Robaron una Toyota Hilux 2025 de Gustavo Andreoni el 14/10/2026 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · Emanuel Boveri y el gran presente de Atlético Tostado: "Estamos muy motivados y  — en turno
@@ -39,16 +49,6 @@ Actualizado: 14/10/2026 14:40 (hora AR) · ACTIVO
 - X · Notas web · Banco Nación: prevén otorgar 40.000 créditos hipotecarios antes de fin de año — en turno
 - TikTok · Reels policiales · Detuvieron a un prófugo en Chacabuco por amenazas con armas — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Detuvieron a un prófugo en Chacabuco por amenazas con armas — en turno
-- X · Notas web · Inflación de septiembre: el Indec registró un incremento del 1,9% y el año acumu — en turno
-- X · Notas web · Malvinas: Reino Unido anunció actos para 2027 y rechazó la demanda argentina en  — en turno
-- X · Notas web · Inflación en América Latina: qué puesto ocupó la Argentina en septiembre — en turno
-- X · Notas web · Pablo Avelluto llamó a construir una alternativa que imagine el futuro después d — en turno
-- X · Notas web · El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el i — en turno
-- X · Notas web · A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico  — en turno
-- X · Notas web · La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año — en turno
-- TikTok · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — Buffer lleno (10 programadas por canal en el plan Free)
-- TikTok · Reels policiales · Nuevo choque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,16 +56,6 @@ Actualizado: 14/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T15:40 programado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
-- 2026-10-14T16:00 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x 
-- 2026-10-14T16:00 enviado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
-- 2026-10-14T16:00 enviado web:66096b4b-4845-4ea3-a895-867ed95af957|x 
-- 2026-10-14T16:00 enviado web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x 
-- 2026-10-14T16:00 programado web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
-- 2026-10-14T16:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tikto 
-- 2026-10-14T16:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
-- 2026-10-14T16:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tikto 
-- 2026-10-14T16:00 programado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
 - 2026-10-14T16:20 entrevista_aprobada entrevistas:job00206 
 - 2026-10-14T16:20 recibido web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x 
 - 2026-10-14T16:20 recibido entrevistas:job00206|x 
@@ -81,3 +71,13 @@ Actualizado: 14/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-14T17:00 vencido policiales:https://www.diariodemocracia.com/policiales/34648 cupo diario de Reels policiales en X completo (12)
 - 2026-10-14T17:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
 - 2026-10-14T17:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tikto 
+- 2026-10-14T18:00 recibido policiales:https://www.distritointerior.com.ar/hoy/218838/ge 
+- 2026-10-14T18:00 recibido policiales:https://www.distritointerior.com.ar/hoy/218838/ge 
+- 2026-10-14T18:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/14/mue 
+- 2026-10-14T18:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/14/mue 
+- 2026-10-14T18:00 recibido policiales:https://www.noticiaslasflores.com.ar/policiales/u 
+- 2026-10-14T18:00 recibido policiales:https://www.noticiaslasflores.com.ar/policiales/u 
+- 2026-10-14T18:00 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
+- 2026-10-14T18:00 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
+- 2026-10-14T18:00 recibido policiales:http://www.elcivismo.com.ar/notas/59152/dos-muert 
+- 2026-10-14T18:00 recibido policiales:http://www.elcivismo.com.ar/notas/59152/dos-muert 
