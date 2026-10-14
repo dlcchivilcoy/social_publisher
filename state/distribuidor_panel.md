@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,27 +9,26 @@ Actualizado: 14/10/2026 19:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 4 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 12 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 1 | 26 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 2 | 25 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2876 de 3000 (visto 2026-10-14T22:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2875 de 3000 (visto 2026-10-14T22:40:15.000Z)
 
-## Cola propia (46 esperando)
+## Cola propia (45 esperando)
 - TikTok · Reels policiales · Atacaron y ataron a una mujer de 73 años en su casa para robarle pesos y dólares — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — en turno
-- X · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — en turno
-- TikTok · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — en turno
+- X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — en turno
+- TikTok · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — en turno
 - X · Notas web · El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miér — en turno
 - X · Notas web · Mar del Plata: Montenegro y Monteoliva coordinan medidas de seguridad con Nación — en turno
 - TikTok · Reels policiales · Detuvieron a un hombre por hostigar a mujeres y agredir a un agente — tope de 15 publicaciones en 24 h de TikTok
@@ -49,6 +48,7 @@ Actualizado: 14/10/2026 19:20 (hora AR) · ACTIVO
 - X · Notas web · Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting reali — en turno
 - X · Notas web · Preservación de los objetos — en turno
 - X · Notas web · Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a  — en turno
+- X · Notas web · Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Ju — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,7 +56,6 @@ Actualizado: 14/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T20:20 vencido policiales:https://laopinionline.ar/articulo/la-policia-rura tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho cupo diario de Reels policiales en X completo (12)
 - 2026-10-14T20:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tikto 
@@ -81,3 +80,4 @@ Actualizado: 14/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-14T22:20 vencido web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x cupo diario de Notas web en X completo (15)
 - 2026-10-14T22:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/123.html| 
 - 2026-10-14T22:20 programado policiales:https://www.noticiaslasflores.com.ar/policiales/u 
+- 2026-10-14T22:40 programado web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x 

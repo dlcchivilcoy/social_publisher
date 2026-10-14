@@ -3688,17 +3688,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 82798,
+   "restantes": 244,
+   "segundos": 81601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2876,
-   "segundos": 2328622,
+   "restantes": 2875,
+   "segundos": 2327426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T22:20:19.000Z",
+ "cuota_visto": "2026-10-14T22:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6688,6 +6688,7 @@
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-14T17:42:34.000Z",
    "id": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente",
@@ -7522,14 +7523,14 @@
    "video_url": ""
   },
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x": {
-   "actualizado": "2026-10-14T17:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T22:40:14.000Z",
+   "buffer_id": "6ad004cfecf932275358cab5",
    "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
    "creado": "2026-10-14T17:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T02:45:01.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T16:42:28.878Z",
    "id": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff",
    "intentos": 0,
@@ -9923,14 +9924,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
-   "cuando": "2026-10-11T21:58:05.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
    "cuando": "2026-10-11T21:58:05.000Z",
@@ -14142,6 +14135,13 @@
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
    "cuando": "2026-10-14T22:20:19.000Z",
    "dueAt": "2026-10-15T02:30:26.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad004cfecf932275358cab5",
+   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
+   "cuando": "2026-10-14T22:40:15.000Z",
+   "dueAt": "2026-10-15T02:45:01.000Z",
    "evento": "programado"
   }
  ],
