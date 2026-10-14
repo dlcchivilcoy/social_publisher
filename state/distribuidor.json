@@ -1382,6 +1382,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-tecnologia-miriam-latorre-analizo-una-nueva-edicion-de",
    "volanta": "Educación y Tecnología"
   },
+  "web:44657646-5aa8-40e2-92e8-9107905b81c5": {
+   "categoria": "",
+   "descripcion": "El Ing. Agr. Justo MacLoughlin detalla cómo ajustar densidad, fertilización y germoplasma para maximizar rindes.",
+   "generado": "2026-10-14T00:16:27.771Z",
+   "id": "web:44657646-5aa8-40e2-92e8-9107905b81c5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b4c691f2a28347419802df77c45bc60b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/campana-de-maiz-2026-27-manejo-y-fertilizacion-frente-al-super-5d4c58",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campana-de-maiz-2026-27-manejo-y-fertilizacion-frente-al-super-5d4c58",
+   "volanta": ""
+  },
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": {
    "categoria": "",
    "descripcion": "Racing de Chivilcoy dio el salto inicial en la Liga Nacional con una victoria y una derrota en el Grilon Arena El equipo conducido por Diego D'Ambrosio abrió la temporada en el Grilon Arena con una vibrante victoria en doble suplementario ante San Martín y un luchado encuentro frente a Gimnasia. Ahora se prepara para encarar su primera gira como visitante. Un debut inolvidable a puro dramatismo La segunda temporada de Racing de Chivilcoy en la élite del básquetbol argentino no pudo haber...",
@@ -4946,6 +4964,31 @@
    "titulo": "Miriam Latorre analizó una nueva edición de las Jornadas Regionales y Públicas ante los desafíos que impone la IA",
    "urgente": false,
    "vence": "2026-10-13T10:09:54.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:44657646-5aa8-40e2-92e8-9107905b81c5|x": {
+   "actualizado": "2026-10-14T00:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
+   "creado": "2026-10-14T00:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-14T00:16:27.771Z",
+   "id": "web:44657646-5aa8-40e2-92e8-9107905b81c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/campana-de-maiz-2026-27-manejo-y-fertilizacion-frente-al-super-5d4c58",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño\n\nEl Ing. Agr. Justo MacLoughlin detalla cómo ajustar densidad, fertilización y germoplasma para maximizar rindes.\n\nhttps://www.diariolacampaña.com.ar/n/campana-de-maiz-2026-27-manejo-y-fertilizacion-frente-al-super-5d4c58",
+   "tipo": "nota",
+   "titulo": "Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño",
+   "urgente": false,
+   "vence": "2026-10-15T00:16:27.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -9253,6 +9296,14 @@
    "cuando": "2026-10-13T23:20:16.000Z",
    "dueAt": "2026-10-13T23:23:51.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
+   "cuando": "2026-10-14T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -9323,6 +9374,7 @@
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
+  "web:44657646-5aa8-40e2-92e8-9107905b81c5": "2026-10-14T00:20:13.000Z",
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
