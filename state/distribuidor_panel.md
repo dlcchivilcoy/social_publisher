@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 14/10/2026 20:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 8 | 3 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 2 | 10 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 2 | 25 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 2 | 26 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 27 enviadas + 5 programadas de 50 por día
@@ -18,7 +18,8 @@ Actualizado: 14/10/2026 20:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2873 de 3000 (visto 2026-10-14T23:20:16.000Z)
 
-## Cola propia (42 esperando)
+## Cola propia (43 esperando)
+- X · Notas web · Presentan nueva tecnología nacional para monitorear sembradoras surco por surco — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — tope de 15 publicaciones en 24 h de TikTok
@@ -48,7 +49,6 @@ Actualizado: 14/10/2026 20:20 (hora AR) · ACTIVO
 - X · Notas web · Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a  — en turno
 - X · Notas web · Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Ju — en turno
 - X · Notas web · Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés l — en turno
-- X · Notas web · El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente s — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,7 +56,6 @@ Actualizado: 14/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T21:40 programado web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x 
 - 2026-10-14T22:00 enviado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
 - 2026-10-14T22:00 enviado web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
 - 2026-10-14T22:00 enviado web:d72917a3-67e5-41df-affc-436383926d89|x 
@@ -81,3 +80,4 @@ Actualizado: 14/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-14T23:20 enviado policiales:http://www.elcivismo.com.ar/notas/59152/dos-muert 
 - 2026-10-14T23:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/123.html| 
 - 2026-10-14T23:20 programado policiales:http://www.elcivismo.com.ar/notas/59152/dos-muert 
+- 2026-10-14T23:40 recibido web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x 

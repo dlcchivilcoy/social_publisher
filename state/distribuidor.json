@@ -3050,6 +3050,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-retoma-su-mesa-politica-en-la-casa-rosada-y-busca-15d12c",
    "volanta": ""
   },
+  "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": {
+   "categoria": "",
+   "descripcion": "La empresa VAF, del Grupo GR, presentó dos subsistemas electrónicos para monitorear la distribución de semillas y controlar cada surco de siembra.",
+   "generado": "2026-10-14T23:33:04.681Z",
+   "id": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0677606085974838b51761bdfdfcdaf5~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Presentan nueva tecnología nacional para monitorear sembradoras surco por surco",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
+   "volanta": ""
+  },
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": {
    "categoria": "",
    "descripcion": "Juan José Lanzillota analizó el estado de los cultivos y la evolución del rendimiento El ingeniero Juan José Lanzillota, especialista y fitomejorador de trigo en la Estación Experimental Agropecuaria del INTA Pergamino, brindó un detallado panorama sobre la evolución del ciclo productivo en la región, las particularidades climáticas del año, el estado sanitario y los avances logrados a partir del mejoramiento genético. En diálogo con el programa INTA en la Radio, emitido por Radio del Centro,...",
@@ -9043,6 +9061,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x": {
+   "actualizado": "2026-10-14T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x",
+   "creado": "2026-10-14T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-14T23:33:04.681Z",
+   "id": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Presentan nueva tecnología nacional para monitorear sembradoras surco por surco\n\nLa empresa VAF, del Grupo GR, presentó dos subsistemas electrónicos para monitorear la distribución de semillas y controlar cada surco de siembra.\n\nhttps://www.diariolacampaña.com.ar/n/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
+   "tipo": "nota",
+   "titulo": "Presentan nueva tecnología nacional para monitorear sembradoras surco por surco",
+   "urgente": false,
+   "vence": "2026-10-15T23:33:04.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x": {
    "actualizado": "2026-10-14T14:40:21.000Z",
    "buffer_id": "6acf57664c17f845373549e6",
@@ -9930,13 +9973,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acc066fa9411fbcc55dec8c",
-   "clave": "web:71e9044f-15d8-4fa8-891c-2f86d98234cd|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T23:01:36.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acc066fa9411fbcc55decb5",
    "clave": "web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x",
@@ -14137,6 +14173,14 @@
    "cuando": "2026-10-14T23:20:16.000Z",
    "dueAt": "2026-10-15T00:03:28.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x",
+   "cuando": "2026-10-14T23:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -14292,6 +14336,7 @@
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
+  "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": "2026-10-14T23:40:15.000Z",
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": "2026-10-14T13:20:22.000Z",
