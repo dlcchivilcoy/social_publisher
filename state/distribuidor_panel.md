@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 12 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 11 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 17 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 34 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día
+- TikTok: conectado · Buffer: 13 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2909 de 3000 (visto 2026-10-14T01:20:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2908 de 3000 (visto 2026-10-14T01:40:14.000Z)
 
 ## Cola propia (22 esperando)
 - X · Notas web · Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño — cupo diario de Notas web en X completo (15)
@@ -48,7 +48,6 @@ Actualizado: 13/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T21:20 enviado entrevistas:job00197|x 
 - 2026-10-13T21:20 enviado policiales:https://www.diariodemocracia.com/policiales/34647 
 - 2026-10-13T21:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-13T21:40 recibido web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x 
@@ -73,3 +72,4 @@ Actualizado: 13/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-14T00:40 enviado policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
 - 2026-10-14T01:20 programado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
 - 2026-10-14T01:20 programado policiales:https://chacabucoenred.com/estado-de-salud-de-los 
+- 2026-10-14T01:40 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
