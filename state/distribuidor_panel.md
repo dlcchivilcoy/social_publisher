@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 13/10/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 12 | 0 | 4 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 11 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 12 | 0 | 9 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 11 | 1 | 6 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 17 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,10 +18,20 @@ Actualizado: 13/10/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2908 de 3000 (visto 2026-10-14T01:40:14.000Z)
 
-## Cola propia (22 esperando)
+## Cola propia (32 esperando)
+- X · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Cayó en Perú un prófugo vinculado al triple crimen de La Matanza — fuera del horizonte de programación (espera en la cola)
+- X · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Lluvias de octubre anegan campos y frenan la siembra desde hace 12 días — en turno
+- X · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Agredieron a una preceptora y a una directora dentro de una escuela en Chacabuco — en turno
 - X · Notas web · Campaña de maíz 2026/27: manejo y fertilización frente al Super Niño — cupo diario de Notas web en X completo (15)
+- X · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — en turno
 - X · Notas web · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — cupo diario de Notas web en X completo (15)
 - X · Reels policiales · Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos — cupo diario de Reels policiales en X completo (12)
+- X · Reels policiales · Nuevo choque en Chacabuco — cupo diario de Reels policiales en X completo (12)
+- TikTok · Reels policiales · Nuevo choque en Chacabuco — en turno
 - X · Reels policiales · Estado de salud de los dos heridos tras un fuerte choque de motos en Chacabuco — cupo diario de Reels policiales en X completo (12)
 - X · Reels policiales · Usaron foto de su hija y característica 2314 para intentar estafar a un vecino — cupo diario de Reels policiales en X completo (12)
 - TikTok · Reels policiales · Un auto abandonado se prendió fuego en la calle Doctor Possio — fuera del horizonte de programación (espera en la cola)
@@ -39,8 +49,6 @@ Actualizado: 13/10/2026 23:00 (hora AR) · ACTIVO
 - X · Notas web · Créditos hipotecarios del Banco Nación: qué sueldo exigen para una propiedad de  — cupo diario de Notas web en X completo (15)
 - X · Notas web · ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos — cupo diario de Notas web en X completo (15)
 - X · Notas web · Gobierno habilita el penal de Marcos Paz y traslada a 609 internos para cerrar V — cupo diario de Notas web en X completo (15)
-- X · Notas web · Feriados 2026: cuándo es el próximo fin de semana largo y los detalles del crono — cupo diario de Notas web en X completo (15)
-- X · Notas web · Zonas Frías: Chivilcoy y otros distritos pierden el subsidio automático en el ga — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -48,16 +56,6 @@ Actualizado: 13/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T21:20 enviado policiales:https://www.diariodemocracia.com/policiales/34647 
-- 2026-10-13T21:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-13T21:40 recibido web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x 
-- 2026-10-13T22:20 recibido web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x 
-- 2026-10-13T23:00 recibido policiales:https://semanariodejunin.com.ar/nota/75530/invest 
-- 2026-10-13T23:00 recibido policiales:https://semanariodejunin.com.ar/nota/75530/invest 
-- 2026-10-13T23:00 recibido policiales:https://www.diariodemocracia.com/policiales/34648 
-- 2026-10-13T23:00 recibido policiales:https://www.diariodemocracia.com/policiales/34648 
-- 2026-10-13T23:00 recibido policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
-- 2026-10-13T23:00 recibido policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 
 - 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
 - 2026-10-13T23:00 recibido policiales:https://chacabucoenred.com/estado-de-salud-de-los 
 - 2026-10-13T23:00 programado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
@@ -73,3 +71,13 @@ Actualizado: 13/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-14T01:20 programado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
 - 2026-10-14T01:20 programado policiales:https://chacabucoenred.com/estado-de-salud-de-los 
 - 2026-10-14T01:40 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tikto 
+- 2026-10-14T02:20 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-14T02:20 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-14T02:20 recibido policiales:https://laopinionline.ar/articulo/la-policia-rura 
+- 2026-10-14T02:20 recibido policiales:https://laopinionline.ar/articulo/la-policia-rura 
+- 2026-10-14T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34649 
+- 2026-10-14T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34649 
+- 2026-10-14T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho 
+- 2026-10-14T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho 
+- 2026-10-14T02:20 recibido policiales:https://www.diariojunin.com/noticias/102816_detuv 
+- 2026-10-14T02:20 recibido policiales:https://www.diariojunin.com/noticias/102816_detuv 
