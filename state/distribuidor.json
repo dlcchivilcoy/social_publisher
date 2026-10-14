@@ -11,7 +11,7 @@
     "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-14T18:20:15.000Z"
+   "visto": "2026-10-14T19:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
-    "sent": 15
+    "scheduled": 7,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-10-14T18:20:15.000Z"
+   "visto": "2026-10-14T19:20:15.000Z"
   }
  },
  "contenidos": {
@@ -497,6 +497,26 @@
    "video_mb": 28.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00207.mp4",
    "youtube_url": "https://youtu.be/rNCw23Mi_g0"
+  },
+  "entrevistas:job00208": {
+   "descripcion": "Marisa Mindeguia, presidenta del Centro de Martilleros de Chivilcoy, destacó la tendencia de parejas jóvenes que regresan del exterior con sus ahorros para adquirir propiedades a refaccionar con terrenos amplios.",
+   "duracion_seg": null,
+   "entrevistado": "Marisa Mindeguia",
+   "generado": "2026-10-14T19:20:14.000Z",
+   "id": "entrevistas:job00208",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marisa Mindeguia: jóvenes vuelven a Chivilcoy a comprar casas",
+   "urgente": false,
+   "video_bytes": 16398454,
+   "video_mb": 15.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00208.mp4",
+   "youtube_url": "https://youtu.be/ZNqgVoD44bs"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
@@ -2814,6 +2834,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
    "volanta": ""
   },
+  "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": {
+   "categoria": "nacionales",
+   "descripcion": "El arzobispo de San Juan de Cuyo, Jorge Lozano, afirmó que la salud del Pontífice es la prioridad absoluta y que su visita al país podría postergarse…",
+   "generado": "2026-10-14T19:06:14.681Z",
+   "id": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8c73656f82464c36a0568ab49599bf40~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-arzobispo-jorge-lozano-hablo-sobre-la-salud-del-papa-leon-33d5a3",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El arzobispo Jorge Lozano habló sobre la salud del papa León XIV y la visita al país",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-arzobispo-jorge-lozano-hablo-sobre-la-salud-del-papa-leon-33d5a3",
+   "volanta": ""
+  },
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": {
    "categoria": "nacionales",
    "descripcion": "La entidad financiera superó las 35.000 operaciones con el plan Más Hogares con BNA y explicó que el 36,8% del incremento del sistema financiero pertenece…",
@@ -3519,22 +3557,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 219,
-   "segundos": 8393,
+   "restantes": 217,
+   "segundos": 7200,
    "tope": 250
   },
   "30d": {
-   "restantes": 2884,
-   "segundos": 2340618,
+   "restantes": 2882,
+   "segundos": 2339425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T19:00:23.000Z",
+ "cuota_visto": "2026-10-14T19:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3953,14 +3991,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok": {
-   "actualizado": "2026-10-14T17:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T19:20:15.000Z",
+   "buffer_id": "6acfd5f1199c0449d73ba3ef",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
    "creado": "2026-10-14T17:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T20:03:56.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T16:44:58.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
    "intentos": 0,
@@ -4003,14 +4041,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok": {
-   "actualizado": "2026-10-14T19:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T19:20:15.000Z",
+   "buffer_id": "6acfd5f1bf94024368610c62",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok",
    "creado": "2026-10-14T19:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T19:23:42.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T18:46:13.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou",
    "intentos": 0,
@@ -4412,6 +4450,31 @@
    "vence": "2026-10-16T17:00:17.000Z",
    "video_bytes": 29806199,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00207.mp4"
+  },
+  "entrevistas:job00208|x": {
+   "actualizado": "2026-10-14T19:20:15.000Z",
+   "buffer_id": "6acfd5f0edcab17b81299a7b",
+   "clave": "entrevistas:job00208|x",
+   "creado": "2026-10-14T19:20:14.000Z",
+   "dueAt": "2026-10-14T23:00:21.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-14T19:20:14.000Z",
+   "id": "entrevistas:job00208",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marisa Mindeguia: jóvenes vuelven a Chivilcoy a comprar casas\n\nMarisa Mindeguia, presidenta del Centro de Martilleros de Chivilcoy, destacó la tendencia de parejas jóvenes que regresan del exterior con sus ahorros para…\n\n▶️ La entrevista completa: https://youtu.be/ZNqgVoD44bs",
+   "tipo": "video",
+   "titulo": "Marisa Mindeguia: jóvenes vuelven a Chivilcoy a comprar casas",
+   "urgente": false,
+   "vence": "2026-10-16T19:20:14.000Z",
+   "video_bytes": 16398454,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00208.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
@@ -5262,18 +5325,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_03_bragado_robaron-una-toyota-hilux-2025-.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x": {
-   "actualizado": "2026-10-14T14:40:21.000Z",
+   "actualizado": "2026-10-14T19:20:15.000Z",
    "buffer_id": "6acf94564713c18c89d52d72",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "2026-10-14T18:45:14.000Z",
+   "enviado": "2026-10-14T18:45:20.259Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110441842261045313",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-toyota-hilux-2025-a-gustavo-andreoni-0afe2a",
    "origen": "policiales",
    "plataforma": "x",
@@ -8497,6 +8561,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x": {
+   "actualizado": "2026-10-14T19:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x",
+   "creado": "2026-10-14T19:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T19:06:14.681Z",
+   "id": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-arzobispo-jorge-lozano-hablo-sobre-la-salud-del-papa-leon-33d5a3",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El arzobispo Jorge Lozano habló sobre la salud del papa León XIV y la visita al país\n\nEl arzobispo de San Juan de Cuyo, Jorge Lozano, afirmó que la salud del Pontífice es la prioridad absoluta y que su visita al país podría postergarse…\n\nhttps://www.diariolacampaña.com.ar/n/el-arzobispo-jorge-lozano-hablo-sobre-la-salud-del-papa-leon-33d5a3",
+   "tipo": "nota",
+   "titulo": "El arzobispo Jorge Lozano habló sobre la salud del papa León XIV y la visita al país",
+   "urgente": false,
+   "vence": "2026-10-15T19:06:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x": {
    "actualizado": "2026-10-14T16:20:15.000Z",
    "buffer_id": "",
@@ -9027,18 +9115,19 @@
    "video_url": ""
   },
   "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x": {
-   "actualizado": "2026-10-14T14:20:15.000Z",
+   "actualizado": "2026-10-14T19:20:15.000Z",
    "buffer_id": "6acf8fa1ed762d924f21c2ad",
    "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
    "creado": "2026-10-14T13:40:20.000Z",
    "dueAt": "2026-10-14T18:30:16.000Z",
+   "enviado": "2026-10-14T18:30:51.714Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:29:02.417Z",
    "id": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110438199331782766",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-un-joven-volco-sobre-la-calzada-y-pidio-auxilio-a",
    "origen": "web",
    "plataforma": "x",
@@ -9252,18 +9341,19 @@
    "video_url": ""
   },
   "web:e883209a-2652-420f-bb41-8ef9185d415e|x": {
-   "actualizado": "2026-10-14T15:00:19.000Z",
+   "actualizado": "2026-10-14T19:20:15.000Z",
    "buffer_id": "6acf99034713c18c89d63c1f",
    "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
    "creado": "2026-10-14T10:20:15.000Z",
    "dueAt": "2026-10-14T19:00:59.000Z",
+   "enviado": "2026-10-14T19:02:50.763Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T10:10:11.995Z",
    "id": "web:e883209a-2652-420f-bb41-8ef9185d415e",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110446247890845739",
    "nota_url": "https://www.diariolacampaña.com.ar/n/del-12-al-15-de-noviembre-confirmaciones-a-un-mes-de-la-9-edicion-de",
    "origen": "web",
    "plataforma": "x",
@@ -13535,10 +13625,70 @@
    "cuando": "2026-10-14T19:00:23.000Z",
    "dueAt": "2026-10-14T22:45:26.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00208",
+   "cuando": "2026-10-14T19:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x",
+   "cuando": "2026-10-14T19:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00208|x",
+   "cuando": "2026-10-14T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
+   "cuando": "2026-10-14T19:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110441842261045313"
+  },
+  {
+   "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
+   "cuando": "2026-10-14T19:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110438199331782766"
+  },
+  {
+   "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
+   "cuando": "2026-10-14T19:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110446247890845739"
+  },
+  {
+   "buffer_id": "6acfd5f0edcab17b81299a7b",
+   "clave": "entrevistas:job00208|x",
+   "cuando": "2026-10-14T19:20:17.000Z",
+   "dueAt": "2026-10-14T23:00:21.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfd5f1bf94024368610c62",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok",
+   "cuando": "2026-10-14T19:20:17.000Z",
+   "dueAt": "2026-10-14T19:23:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6acfd5f1199c0449d73ba3ef",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
+   "cuando": "2026-10-14T19:20:17.000Z",
+   "dueAt": "2026-10-14T20:03:56.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T18:20:15.000Z",
+ "ultima_sync": "2026-10-14T19:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -13564,6 +13714,7 @@
   "entrevistas:job00197": "2026-10-13T19:00:18.000Z",
   "entrevistas:job00206": "2026-10-14T16:20:15.000Z",
   "entrevistas:job00207": "2026-10-14T17:00:17.000Z",
+  "entrevistas:job00208": "2026-10-14T19:20:14.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
@@ -13678,6 +13829,7 @@
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
+  "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
