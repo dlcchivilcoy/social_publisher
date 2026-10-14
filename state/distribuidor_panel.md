@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 13/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 12 | 0 | 4 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 10 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 11 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 17 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 33 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 11 enviadas + 1 programadas de 25 por día
+- X: conectado · Buffer: 34 enviadas + 0 programadas de 50 por día
+- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2911 de 3000 (visto 2026-10-13T23:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2910 de 3000 (visto 2026-10-14T00:40:13.000Z)
 
 ## Cola propia (24 esperando)
 - TikTok · Reels del bot · Robaron bebidas en el boliche Ozono Planet tras forzar una puerta — tope de 15 publicaciones en 24 h de TikTok
@@ -50,8 +50,6 @@ Actualizado: 13/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-13T20:00 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-13T21:20 recibido web:ba878935-3e6f-4357-a078-3447ed612c35|x 
 - 2026-10-13T21:20 vencido web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9|x cupo diario de Notas web en X completo (15)
 - 2026-10-13T21:20 enviado entrevistas:job00196|x 
 - 2026-10-13T21:20 enviado entrevistas:job00197|x 
@@ -75,3 +73,5 @@ Actualizado: 13/10/2026 21:20 (hora AR) · ACTIVO
 - 2026-10-13T23:20 enviado policiales:https://semanariodejunin.com.ar/nota/75530/invest 
 - 2026-10-13T23:20 programado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
 - 2026-10-14T00:20 recibido web:44657646-5aa8-40e2-92e8-9107905b81c5|x 
+- 2026-10-14T00:40 enviado bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x 
+- 2026-10-14T00:40 enviado policiales:https://quepasaenbolivar.com.ar/un-vecino-de-boli 

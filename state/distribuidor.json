@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 11
+    "scheduled": 0,
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-13T23:20:15.000Z"
+   "visto": "2026-10-14T00:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 0,
-    "sent": 33
+    "sent": 34
    },
    "pausado": false,
-   "visto": "2026-10-13T23:20:15.000Z"
+   "visto": "2026-10-14T00:40:13.000Z"
   }
  },
  "contenidos": {
@@ -2393,22 +2393,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 79201,
+   "restantes": 245,
+   "segundos": 74403,
    "tope": 250
   },
   "30d": {
-   "restantes": 2911,
-   "segundos": 2411425,
+   "restantes": 2910,
+   "segundos": 2406627,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-13T23:20:16.000Z",
+ "cuota_visto": "2026-10-14T00:40:13.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -2592,18 +2592,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4"
   },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x": {
-   "actualizado": "2026-10-13T23:20:15.000Z",
+   "actualizado": "2026-10-14T00:40:13.000Z",
    "buffer_id": "6acebcaf33507eb5b0e32421",
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
    "creado": "2026-10-13T23:20:14.000Z",
    "dueAt": "2026-10-13T23:23:51.000Z",
+   "enviado": "2026-10-13T23:24:04.747Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T23:12:07.000Z",
    "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110149602070380978",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
    "origen": "bot",
    "plataforma": "x",
@@ -3186,18 +3187,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_01_bolivar_se-atrincher-con-un-arma-en-un.mp4"
   },
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok": {
-   "actualizado": "2026-10-13T23:00:21.000Z",
+   "actualizado": "2026-10-14T00:40:13.000Z",
    "buffer_id": "6aceb807848c31c8094f2889",
    "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok",
    "creado": "2026-10-13T23:00:20.000Z",
    "dueAt": "2026-10-13T23:43:26.000Z",
+   "enviado": "2026-10-13T23:44:12.487Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-13T22:42:07.000Z",
    "id": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696302228491029812",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-alertan-por-un-intento-de-estafa-de-whatsapp-con-aa4df9",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -9304,10 +9306,22 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
+   "cuando": "2026-10-14T00:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110149602070380978"
+  },
+  {
+   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok",
+   "cuando": "2026-10-14T00:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696302228491029812"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-13T23:20:15.000Z",
+ "ultima_sync": "2026-10-14T00:40:13.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
