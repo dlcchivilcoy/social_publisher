@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,17 +8,17 @@ Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 4 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 16 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 4 | 17 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día
+- TikTok: conectado · Buffer: 3 enviadas + 2 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2902 de 3000 (visto 2026-10-14T11:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2901 de 3000 (visto 2026-10-14T12:40:21.000Z)
 
-## Cola propia (34 esperando)
+## Cola propia (35 esperando)
 - X · Notas web · Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ — en turno
 - X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — en turno
@@ -32,6 +32,7 @@ Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
 - X · Notas web · El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente s — en turno
 - X · Notas web · Simulación agrícola detalla cómo impacta El Niño en rindes de soja y maíz — en turno
 - X · Notas web · Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pe — en turno
+- X · Notas web · Pablo Avelluto llamó a construir una alternativa que imagine el futuro después d — en turno
 - X · Notas web · El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el i — en turno
 - X · Notas web · A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico  — en turno
 - X · Notas web · La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año — en turno
@@ -48,7 +49,6 @@ Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
 - X · Notas web · El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Di — cupo diario de Notas web en X completo (15)
 - X · Notas web · Anses: de cuánto serán las jubilaciones y pensiones en noviembre tras la inflaci — cupo diario de Notas web en X completo (15)
 - X · Notas web · Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domicili — cupo diario de Notas web en X completo (15)
-- X · Notas web · Malvinas: el Reino Unido aprobó normas para proteger a las petroleras — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,9 +56,6 @@ Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T10:20 recibido web:e883209a-2652-420f-bb41-8ef9185d415e|x 
-- 2026-10-14T10:20 recibido web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
-- 2026-10-14T10:20 recibido web:92431890-c8e8-4999-9e83-03174b736b52|x 
 - 2026-10-14T10:20 recibido web:84b5112d-aa11-45e0-b614-d5bb307939e1|x 
 - 2026-10-14T10:20 recibido web:6092c4f7-b53e-4964-a892-2470dfeed127|x 
 - 2026-10-14T10:20 recibido web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x 
@@ -81,3 +78,6 @@ Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-14T12:20 vencido web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x cupo diario de Notas web en X completo (15)
 - 2026-10-14T12:20 vencido web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x cupo diario de Notas web en X completo (15)
 - 2026-10-14T12:20 vencido web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T12:40 recibido web:ebb4960b-25a9-442a-859e-8eb60ad25986|x 
+- 2026-10-14T12:40 enviado policiales:https://laopinionline.ar/articulo/familiares-de-m 
+- 2026-10-14T12:40 enviado policiales:https://www.diariojunin.com/noticias/102816_detuv 

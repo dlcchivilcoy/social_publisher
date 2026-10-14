@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 1
+    "scheduled": 2,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-14T11:40:15.000Z"
+   "visto": "2026-10-14T12:40:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-14T11:40:15.000Z"
+   "visto": "2026-10-14T12:40:21.000Z"
   }
  },
  "contenidos": {
@@ -2843,6 +2843,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dtc-sedronar-chivilcoy-leticia-berdugo-propiciamos-siempre-el",
    "volanta": "DTC Sedronar Chivilcoy"
   },
+  "web:ebb4960b-25a9-442a-859e-8eb60ad25986": {
+   "categoria": "nacionales",
+   "descripcion": "El exministro de Cultura cuestionó el impacto social del ajuste, criticó el estilo confrontativo del mandatario y advirtió que la oposición no debe…",
+   "generado": "2026-10-14T12:36:17.775Z",
+   "id": "web:ebb4960b-25a9-442a-859e-8eb60ad25986",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_00fc3420cbd844ecb1fdd9908c35f743~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pablo-avelluto-llamo-a-construir-una-alternativa-que-imagine-el-74aec8",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Pablo Avelluto llamó a construir una alternativa que imagine el futuro después de Javier Milei",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pablo-avelluto-llamo-a-construir-una-alternativa-que-imagine-el-74aec8",
+   "volanta": ""
+  },
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": {
    "categoria": "",
    "descripcion": "La Policía de Chivilcoy inició la persecución y frustró la fuga de jóvenes con una moto robada La Policía interceptó una moto robada en las inmediaciones de la Ruta Provincial 42 (el camino ancho a Bragado) tras una intensa persecución. El operativo, realizado el 12 de octubre de 2026, culminó con la aprehensión de tres jóvenes de Chacabuco y el secuestro del vehículo. El secretario de Seguridad Néstor Dabi brindó detalles de la participación de policía de Chivilcoy en una persecución que...",
@@ -2905,17 +2923,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 237,
-   "segundos": 34801,
+   "restantes": 236,
+   "segundos": 31195,
    "tope": 250
   },
   "30d": {
-   "restantes": 2902,
-   "segundos": 2367026,
+   "restantes": 2901,
+   "segundos": 2363419,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T11:40:15.000Z",
+ "cuota_visto": "2026-10-14T12:40:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3644,18 +3662,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T12:40:21.000Z",
    "buffer_id": "6acf44b68fea659be5b386cc",
    "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
    "creado": "2026-10-14T09:00:20.000Z",
    "dueAt": "2026-10-14T12:20:50.000Z",
+   "enviado": "2026-10-14T12:22:45.353Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:41:22.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696497499002998037",
    "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-familiares-de-maria-de-los-angeles-ruiz-aportaron-41b551",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -4984,18 +5003,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok": {
-   "actualizado": "2026-10-14T09:00:24.000Z",
+   "actualizado": "2026-10-14T12:40:21.000Z",
    "buffer_id": "6acf44b5d592dd5ee6b84426",
    "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "2026-10-14T11:40:58.000Z",
+   "enviado": "2026-10-14T11:42:44.307Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696487161905827092",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cayo-en-peru-un-profugo-de-40-anos-vinculado-al-triple-crimen-53fee4",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -7644,6 +7664,30 @@
    "titulo": "Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona”",
    "urgente": false,
    "vence": "2026-10-15T10:05:17.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:ebb4960b-25a9-442a-859e-8eb60ad25986|x": {
+   "actualizado": "2026-10-14T12:40:20.000Z",
+   "buffer_id": "",
+   "clave": "web:ebb4960b-25a9-442a-859e-8eb60ad25986|x",
+   "creado": "2026-10-14T12:40:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T12:36:17.775Z",
+   "id": "web:ebb4960b-25a9-442a-859e-8eb60ad25986",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pablo-avelluto-llamo-a-construir-una-alternativa-que-imagine-el-74aec8",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Pablo Avelluto llamó a construir una alternativa que imagine el futuro después de Javier Milei\n\nEl exministro de Cultura cuestionó el impacto social del ajuste, criticó el estilo confrontativo del mandatario y advirtió que la oposición no debe…\n\nhttps://www.diariolacampaña.com.ar/n/pablo-avelluto-llamo-a-construir-una-alternativa-que-imagine-el-74aec8",
+   "tipo": "nota",
+   "titulo": "Pablo Avelluto llamó a construir una alternativa que imagine el futuro después de Javier Milei",
+   "urgente": false,
+   "vence": "2026-10-15T12:36:17.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -11089,10 +11133,30 @@
    "cuando": "2026-10-14T12:20:17.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:ebb4960b-25a9-442a-859e-8eb60ad25986|x",
+   "cuando": "2026-10-14T12:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
+   "cuando": "2026-10-14T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696497499002998037"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
+   "cuando": "2026-10-14T12:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696487161905827092"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T11:40:15.000Z",
+ "ultima_sync": "2026-10-14T12:40:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -11238,6 +11302,7 @@
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
+  "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
