@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,7 +18,7 @@ Actualizado: 14/10/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2882 de 3000 (visto 2026-10-14T19:20:17.000Z)
 
-## Cola propia (48 esperando)
+## Cola propia (45 esperando)
 - TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Juan Martín Bodda y Ariel Zurraco son campeones nacionales de pádel — en turno
@@ -56,9 +56,6 @@ Actualizado: 14/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T18:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tikto 
-- 2026-10-14T18:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x 
-- 2026-10-14T18:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x 
 - 2026-10-14T18:20 enviado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
 - 2026-10-14T18:20 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x 
 - 2026-10-14T18:20 programado entrevistas:job00207|x 
@@ -81,3 +78,6 @@ Actualizado: 14/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-14T19:20 programado entrevistas:job00208|x 
 - 2026-10-14T19:20 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tikto 
 - 2026-10-14T19:20 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tikto 
+- 2026-10-14T20:20 vencido policiales:https://laopinionline.ar/articulo/la-policia-rura tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho cupo diario de Reels policiales en X completo (12)

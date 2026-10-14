@@ -4835,14 +4835,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
+   "actualizado": "2026-10-14T20:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T02:13:15.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos",
    "intentos": 0,
@@ -5556,14 +5556,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
+   "actualizado": "2026-10-14T20:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html",
    "intentos": 0,
@@ -5581,14 +5581,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_06_chacabuco_nuevo-choque-en-chacabuco.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|x": {
-   "actualizado": "2026-10-14T02:20:13.000Z",
+   "actualizado": "2026-10-14T20:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|x",
    "creado": "2026-10-14T02:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Reels policiales en X completo (12)",
    "espera": "cupo diario de Reels policiales en X completo (12)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T02:13:16.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html",
    "intentos": 0,
@@ -13685,6 +13685,24 @@
    "cuando": "2026-10-14T19:20:17.000Z",
    "dueAt": "2026-10-14T20:03:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok",
+   "cuando": "2026-10-14T20:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-14T20:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|x",
+   "cuando": "2026-10-14T20:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Reels policiales en X completo (12)"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
