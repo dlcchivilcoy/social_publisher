@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,23 +7,22 @@ Actualizado: 14/10/2026 18:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 7 | 1 | 7 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 7 | 2 | 6 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 9 | 0 | 0 | 0 |
-| Notas web | X | 15 | 7 | 4 | 25 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 1 | 25 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 8 programadas de 50 por día
+- X: conectado · Buffer: 21 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2879 de 3000 (visto 2026-10-14T21:40:17.000Z)
+15m: quedan 98 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2877 de 3000 (visto 2026-10-14T22:00:25.000Z)
 
-## Cola propia (43 esperando)
+## Cola propia (42 esperando)
 - TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — en turno
+- X · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — en turno
 - TikTok · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — en turno
@@ -49,6 +48,7 @@ Actualizado: 14/10/2026 18:40 (hora AR) · ACTIVO
 - X · Notas web · Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés l — en turno
 - X · Notas web · El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente s — en turno
 - X · Notas web · Simulación agrícola detalla cómo impacta El Niño en rindes de soja y maíz — en turno
+- X · Notas web · Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pe — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,10 +56,6 @@ Actualizado: 14/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T19:00 recibido policiales:https://www.noticiaslasflores.com.ar/policiales/c 
-- 2026-10-14T19:00 recibido policiales:https://laopinionline.ar/articulo/detuvieron-a-un 
-- 2026-10-14T19:00 recibido policiales:https://laopinionline.ar/articulo/detuvieron-a-un 
-- 2026-10-14T19:00 recibido web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x 
 - 2026-10-14T19:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x 
 - 2026-10-14T19:20 entrevista_aprobada entrevistas:job00208 
 - 2026-10-14T19:20 recibido web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x 
@@ -81,3 +77,7 @@ Actualizado: 14/10/2026 18:40 (hora AR) · ACTIVO
 - 2026-10-14T21:40 recibido web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x 
 - 2026-10-14T21:40 vencido web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x cupo diario de Notas web en X completo (15)
 - 2026-10-14T21:40 programado web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x 
+- 2026-10-14T22:00 enviado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
+- 2026-10-14T22:00 enviado web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
+- 2026-10-14T22:00 enviado web:d72917a3-67e5-41df-affc-436383926d89|x 
+- 2026-10-14T22:00 programado policiales:https://www.latrochadigital.com.ar/2026/10/14/mue 

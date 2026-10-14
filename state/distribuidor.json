@@ -11,7 +11,7 @@
     "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-14T20:40:29.000Z"
+   "visto": "2026-10-14T22:00:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 18
+    "scheduled": 7,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-14T20:40:29.000Z"
+   "visto": "2026-10-14T22:00:24.000Z"
   }
  },
  "contenidos": {
@@ -3593,22 +3593,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 85200,
+   "restantes": 246,
+   "segundos": 83991,
    "tope": 250
   },
   "30d": {
-   "restantes": 2879,
-   "segundos": 2331024,
+   "restantes": 2877,
+   "segundos": 2329816,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T21:40:17.000Z",
+ "cuota_visto": "2026-10-14T22:00:25.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6701,14 +6701,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_06_9-de-julio_muri-un-conductor-tras-un-choq.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T22:00:24.000Z",
+   "buffer_id": "6acffb791a2e3345fc757cc9",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
    "creado": "2026-10-14T18:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T02:00:05.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/",
    "intentos": 0,
@@ -6858,6 +6858,7 @@
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/",
@@ -7662,18 +7663,19 @@
    "video_url": ""
   },
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x": {
-   "actualizado": "2026-10-14T15:40:19.000Z",
+   "actualizado": "2026-10-14T22:00:24.000Z",
    "buffer_id": "6acfa26361a1b9da73640d6d",
    "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
    "creado": "2026-10-14T15:40:18.000Z",
    "dueAt": "2026-10-14T21:30:39.000Z",
+   "enviado": "2026-10-14T21:30:49.155Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T15:33:14.595Z",
    "id": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110483486947557647",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
    "origen": "web",
    "plataforma": "x",
@@ -7888,18 +7890,19 @@
    "video_url": ""
   },
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x": {
-   "actualizado": "2026-10-14T16:00:20.000Z",
+   "actualizado": "2026-10-14T22:00:24.000Z",
    "buffer_id": "6acfa716c7801890a279c6c2",
    "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
    "creado": "2026-10-14T10:20:15.000Z",
    "dueAt": "2026-10-14T21:45:46.000Z",
+   "enviado": "2026-10-14T21:46:02.926Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T10:09:29.150Z",
    "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110487319769739704",
    "nota_url": "https://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
    "origen": "web",
    "plataforma": "x",
@@ -9228,18 +9231,19 @@
    "video_url": ""
   },
   "web:d72917a3-67e5-41df-affc-436383926d89|x": {
-   "actualizado": "2026-10-14T15:20:14.000Z",
+   "actualizado": "2026-10-14T22:00:24.000Z",
    "buffer_id": "6acf9dae33f7fa2d2ad2a948",
    "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
    "creado": "2026-10-14T14:20:14.000Z",
    "dueAt": "2026-10-14T21:15:43.000Z",
+   "enviado": "2026-10-14T21:15:46.302Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T14:12:14.151Z",
    "id": "web:d72917a3-67e5-41df-affc-436383926d89",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110479700153823483",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
    "origen": "web",
    "plataforma": "x",
@@ -13845,10 +13849,35 @@
    "cuando": "2026-10-14T21:40:17.000Z",
    "dueAt": "2026-10-15T01:45:23.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
+   "cuando": "2026-10-14T22:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110483486947557647"
+  },
+  {
+   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
+   "cuando": "2026-10-14T22:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110487319769739704"
+  },
+  {
+   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
+   "cuando": "2026-10-14T22:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110479700153823483"
+  },
+  {
+   "buffer_id": "6acffb791a2e3345fc757cc9",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
+   "cuando": "2026-10-14T22:00:25.000Z",
+   "dueAt": "2026-10-15T02:00:05.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T20:40:29.000Z",
+ "ultima_sync": "2026-10-14T22:00:24.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
