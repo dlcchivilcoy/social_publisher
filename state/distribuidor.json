@@ -2339,6 +2339,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
    "volanta": ""
   },
+  "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": {
+   "categoria": "nacionales",
+   "descripcion": "La salud del Sumo Pontífice encendió las alarmas en la Casa Rosada y abrió interrogantes sobre una posible postergación del viaje previsto del 8 al 11 de…",
+   "generado": "2026-10-14T12:06:23.983Z",
+   "id": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a1c9bcbb23be46cc901f04274cd06866~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el impacto de su visita en año electoral",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
+   "volanta": ""
+  },
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": {
    "categoria": "nacionales",
    "descripcion": "La Justicia ratificó el pago de 15,4 millones de pesos a un canillita de 69 años cuyo comercio fue alcanzado por las llamas de un colectivo en 2019.",
@@ -5555,14 +5573,14 @@
    "video_url": ""
   },
   "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x": {
-   "actualizado": "2026-10-13T12:20:17.000Z",
+   "actualizado": "2026-10-14T12:20:17.000Z",
    "buffer_id": "",
    "clave": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x",
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T12:11:51.057Z",
    "id": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783",
    "intentos": 0,
@@ -5834,14 +5852,14 @@
    "video_url": ""
   },
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x": {
-   "actualizado": "2026-10-13T12:20:17.000Z",
+   "actualizado": "2026-10-14T12:20:17.000Z",
    "buffer_id": "",
    "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T12:17:02.148Z",
    "id": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc",
    "intentos": 0,
@@ -6091,14 +6109,14 @@
    "video_url": ""
   },
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x": {
-   "actualizado": "2026-10-13T12:20:17.000Z",
+   "actualizado": "2026-10-14T12:20:17.000Z",
    "buffer_id": "",
    "clave": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x",
    "creado": "2026-10-13T12:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T12:06:40.104Z",
    "id": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e",
    "intentos": 0,
@@ -6922,6 +6940,30 @@
    "titulo": "Propuesta interdisciplinaria",
    "urgente": false,
    "vence": "2026-10-14T10:09:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x": {
+   "actualizado": "2026-10-14T12:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x",
+   "creado": "2026-10-14T12:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T12:06:23.983Z",
+   "id": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el impacto de su visita en año electoral\n\nLa salud del Sumo Pontífice encendió las alarmas en la Casa Rosada y abrió interrogantes sobre una posible postergación del viaje…\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
+   "tipo": "nota",
+   "titulo": "El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el impacto de su visita en año electoral",
+   "urgente": false,
+   "vence": "2026-10-15T12:06:23.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -11021,6 +11063,32 @@
    "cuando": "2026-10-14T11:40:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7696477494987312405"
+  },
+  {
+   "clave": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x",
+   "cuando": "2026-10-14T12:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x",
+   "cuando": "2026-10-14T12:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
+   "cuando": "2026-10-14T12:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x",
+   "cuando": "2026-10-14T12:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
@@ -11142,6 +11210,7 @@
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
+  "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",

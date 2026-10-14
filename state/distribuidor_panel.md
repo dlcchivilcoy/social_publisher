@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 4 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 15 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 4 | 16 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 8 programadas de 50 por día
@@ -18,7 +18,7 @@ Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2902 de 3000 (visto 2026-10-14T11:40:15.000Z)
 
-## Cola propia (36 esperando)
+## Cola propia (34 esperando)
 - X · Notas web · Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ — en turno
 - X · Notas web · Triple empate: Villa Mitre campeón del Final Four por la diferencia de goles a f — en turno
@@ -32,6 +32,7 @@ Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
 - X · Notas web · El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente s — en turno
 - X · Notas web · Simulación agrícola detalla cómo impacta El Niño en rindes de soja y maíz — en turno
 - X · Notas web · Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pe — en turno
+- X · Notas web · El Gobierno espera definiciones del Vaticano por la salud del Papa y evalúa el i — en turno
 - X · Notas web · A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico  — en turno
 - X · Notas web · La inflación fue del 1,9% en septiembre y acumula 23,6% en lo que va del año — en turno
 - TikTok · Reels policiales · Cinco aprehendidos y 170 identificados en un megaoperativo rural — tope de 15 publicaciones en 24 h de TikTok
@@ -48,7 +49,6 @@ Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
 - X · Notas web · Anses: de cuánto serán las jubilaciones y pensiones en noviembre tras la inflaci — cupo diario de Notas web en X completo (15)
 - X · Notas web · Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domicili — cupo diario de Notas web en X completo (15)
 - X · Notas web · Malvinas: el Reino Unido aprobó normas para proteger a las petroleras — cupo diario de Notas web en X completo (15)
-- X · Notas web · Visita del papa León XIV a la Argentina: cuándo serían los feriados y cómo sigue — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,10 +56,6 @@ Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T10:20 recibido web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x 
-- 2026-10-14T10:20 recibido web:176d2a19-01bb-4043-bc46-282b3dd6307c|x 
-- 2026-10-14T10:20 recibido web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x 
-- 2026-10-14T10:20 recibido web:66096b4b-4845-4ea3-a895-867ed95af957|x 
 - 2026-10-14T10:20 recibido web:e883209a-2652-420f-bb41-8ef9185d415e|x 
 - 2026-10-14T10:20 recibido web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
 - 2026-10-14T10:20 recibido web:92431890-c8e8-4999-9e83-03174b736b52|x 
@@ -81,3 +77,7 @@ Actualizado: 14/10/2026 09:00 (hora AR) · ACTIVO
 - 2026-10-14T10:20 programado web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x 
 - 2026-10-14T10:20 programado web:66096b4b-4845-4ea3-a895-867ed95af957|x 
 - 2026-10-14T11:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tikto 
+- 2026-10-14T12:20 recibido web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x 
+- 2026-10-14T12:20 vencido web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T12:20 vencido web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x cupo diario de Notas web en X completo (15)
+- 2026-10-14T12:20 vencido web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x cupo diario de Notas web en X completo (15)
