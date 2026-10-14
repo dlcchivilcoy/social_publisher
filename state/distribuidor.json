@@ -11,7 +11,7 @@
     "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-14T22:00:24.000Z"
+   "visto": "2026-10-14T23:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 21
+    "scheduled": 5,
+    "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-14T22:00:24.000Z"
+   "visto": "2026-10-14T23:20:14.000Z"
   }
  },
  "contenidos": {
@@ -3683,22 +3683,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 244,
-   "segundos": 81601,
+   "restantes": 242,
+   "segundos": 79201,
    "tope": 250
   },
   "30d": {
-   "restantes": 2875,
-   "segundos": 2327426,
+   "restantes": 2873,
+   "segundos": 2325025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T22:40:15.000Z",
+ "cuota_visto": "2026-10-14T23:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4143,18 +4143,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "6acfc7e09b63fb37e4588d7d",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
    "creado": "2026-10-14T17:00:17.000Z",
    "dueAt": "2026-10-14T22:00:17.000Z",
+   "enviado": "2026-10-14T22:01:57.722Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T16:44:58.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110491324742881623",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
    "origen": "bot",
    "plataforma": "x",
@@ -4194,18 +4195,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8490b3df03bacbdd.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x": {
-   "actualizado": "2026-10-14T19:00:22.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "6acfd147edcab17b81289d8c",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "2026-10-14T22:45:26.000Z",
+   "enviado": "2026-10-14T22:45:34.520Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T18:46:13.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110502300342968424",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-juan-martin-bodda-y-ariel-zurraco-son",
    "origen": "bot",
    "plataforma": "x",
@@ -4530,18 +4532,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00197.mp4"
   },
   "entrevistas:job00206|x": {
-   "actualizado": "2026-10-14T18:40:15.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "6acfcc90eac88d1d1a8e6719",
    "clave": "entrevistas:job00206|x",
    "creado": "2026-10-14T16:20:15.000Z",
    "dueAt": "2026-10-14T22:30:51.000Z",
+   "enviado": "2026-10-14T22:31:11.437Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T16:20:15.000Z",
    "id": "entrevistas:job00206",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110498680281108919",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -4555,18 +4558,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00206.mp4"
   },
   "entrevistas:job00207|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "6acfc7e09b63fb37e4588da8",
    "clave": "entrevistas:job00207|x",
    "creado": "2026-10-14T17:00:17.000Z",
    "dueAt": "2026-10-14T22:15:27.000Z",
+   "enviado": "2026-10-14T22:15:49.993Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T17:00:17.000Z",
    "id": "entrevistas:job00207",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110494815519477980",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -4580,18 +4584,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00207.mp4"
   },
   "entrevistas:job00208|x": {
-   "actualizado": "2026-10-14T19:20:15.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "6acfd5f0edcab17b81299a7b",
    "clave": "entrevistas:job00208|x",
    "creado": "2026-10-14T19:20:14.000Z",
    "dueAt": "2026-10-14T23:00:21.000Z",
+   "enviado": "2026-10-14T23:02:42.147Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T19:20:14.000Z",
    "id": "entrevistas:job00208",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110506610531385718",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -4657,14 +4662,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_06_lujan_un-joven-muri-atropellado-en-l.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T23:20:14.000Z",
+   "buffer_id": "6ad00e30d9430f324aebd269",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
    "creado": "2026-10-14T18:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T00:03:28.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
    "intentos": 0,
@@ -4682,18 +4687,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_09_lujan_dos-muertos-en-un-choque-front.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x": {
-   "actualizado": "2026-10-14T21:20:15.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "6acff210ad454aea56cf4181",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "2026-10-14T23:15:56.000Z",
+   "enviado": "2026-10-14T23:16:03.834Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110509972878397863",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-muertos-en-un-tragico-choque-frontal-sobre-el-acceso-fc62b7",
    "origen": "policiales",
    "plataforma": "x",
@@ -5577,14 +5583,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok": {
-   "actualizado": "2026-10-14T22:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-14T23:20:14.000Z",
+   "buffer_id": "6ad00e2f5f62d3c5af0f4585",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
    "creado": "2026-10-14T22:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-14T23:23:48.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
    "intentos": 0,
@@ -9341,14 +9347,14 @@
    "video_url": ""
   },
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x": {
-   "actualizado": "2026-10-13T23:20:14.000Z",
+   "actualizado": "2026-10-14T23:20:14.000Z",
    "buffer_id": "",
    "clave": "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x",
    "creado": "2026-10-13T23:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
    "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-13T23:09:54.841Z",
    "id": "web:ce9c9291-5b63-4246-99f4-6095ce88b357",
    "intentos": 0,
@@ -9924,74 +9930,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
-   "cuando": "2026-10-11T21:58:05.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:fb360714-5639-4bf4-a1f0-001886885d15|x",
-   "cuando": "2026-10-11T21:58:05.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a|x",
-   "cuando": "2026-10-11T21:58:05.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a|x",
-   "cuando": "2026-10-11T21:58:06.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d35101a5-0683-4dc9-8422-7280ee9bf814|x",
-   "cuando": "2026-10-11T21:58:06.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6acc066eea568e911a41c37b",
-   "clave": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T22:01:23.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc066eea568e911a41c3a4",
-   "clave": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T22:16:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc066f8e8dd50ffc58effb",
-   "clave": "web:70276865-8c0d-4a78-83f8-610a2dffcc17|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T22:31:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc066ffa026cfb8117dda4",
-   "clave": "web:58114495-39f3-4653-ae6b-639c6c61dae5|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T22:46:48.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acc066fa9411fbcc55dec8c",
    "clave": "web:71e9044f-15d8-4fa8-891c-2f86d98234cd|x",
@@ -14143,10 +14081,66 @@
    "cuando": "2026-10-14T22:40:15.000Z",
    "dueAt": "2026-10-15T02:45:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110491324742881623"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110502300342968424"
+  },
+  {
+   "clave": "entrevistas:job00206|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110498680281108919"
+  },
+  {
+   "clave": "entrevistas:job00207|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110494815519477980"
+  },
+  {
+   "clave": "entrevistas:job00208|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110506610531385718"
+  },
+  {
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
+   "cuando": "2026-10-14T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110509972878397863"
+  },
+  {
+   "buffer_id": "6ad00e2f5f62d3c5af0f4585",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
+   "cuando": "2026-10-14T23:20:16.000Z",
+   "dueAt": "2026-10-14T23:23:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad00e30d9430f324aebd269",
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
+   "cuando": "2026-10-14T23:20:16.000Z",
+   "dueAt": "2026-10-15T00:03:28.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T22:00:24.000Z",
+ "ultima_sync": "2026-10-14T23:20:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
