@@ -8,10 +8,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 9
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-14T19:20:15.000Z"
+   "visto": "2026-10-14T20:40:29.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
+    "scheduled": 8,
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-10-14T19:20:15.000Z"
+   "visto": "2026-10-14T20:40:29.000Z"
   }
  },
  "contenidos": {
@@ -3557,22 +3557,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 217,
-   "segundos": 7200,
+   "restantes": 216,
+   "segundos": 2387,
    "tope": 250
   },
   "30d": {
-   "restantes": 2882,
-   "segundos": 2339425,
+   "restantes": 2881,
+   "segundos": 2334611,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T19:20:17.000Z",
+ "cuota_visto": "2026-10-14T20:40:29.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3991,18 +3991,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok": {
-   "actualizado": "2026-10-14T19:20:15.000Z",
+   "actualizado": "2026-10-14T20:40:29.000Z",
    "buffer_id": "6acfd5f1199c0449d73ba3ef",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
    "creado": "2026-10-14T17:00:17.000Z",
    "dueAt": "2026-10-14T20:03:56.000Z",
+   "enviado": "2026-10-14T20:04:44.976Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T16:44:58.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696616795922320692",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -4041,18 +4042,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8e061d3571f787a1.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok": {
-   "actualizado": "2026-10-14T19:20:15.000Z",
+   "actualizado": "2026-10-14T20:40:29.000Z",
    "buffer_id": "6acfd5f1bf94024368610c62",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "2026-10-14T19:23:42.000Z",
+   "enviado": "2026-10-14T19:24:27.378Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T18:46:13.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696606404752248084",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-juan-martin-bodda-y-ariel-zurraco-son",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -13703,10 +13705,22 @@
    "cuando": "2026-10-14T20:20:13.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Reels policiales en X completo (12)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
+   "cuando": "2026-10-14T20:40:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696616795922320692"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok",
+   "cuando": "2026-10-14T20:40:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696606404752248084"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T19:20:15.000Z",
+ "ultima_sync": "2026-10-14T20:40:29.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

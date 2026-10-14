@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 4 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 0 | 8 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 9 | 0 | 0 | 0 |
 | Notas web | X | 15 | 7 | 3 | 24 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 7 programadas de 50 por día
-- TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 18 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2882 de 3000 (visto 2026-10-14T19:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2881 de 3000 (visto 2026-10-14T20:40:29.000Z)
 
 ## Cola propia (45 esperando)
 - TikTok · Reels policiales · Dos muertos en un choque frontal en el Acceso Oeste — tope de 15 publicaciones en 24 h de TikTok
@@ -56,8 +56,6 @@ Actualizado: 14/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T18:20 enviado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
-- 2026-10-14T18:20 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x 
 - 2026-10-14T18:20 programado entrevistas:job00207|x 
 - 2026-10-14T18:40 recibido web:b0047360-2401-4617-a433-07cb41aa8ce4|x 
 - 2026-10-14T18:40 programado entrevistas:job00206|x 
@@ -81,3 +79,5 @@ Actualizado: 14/10/2026 17:20 (hora AR) · ACTIVO
 - 2026-10-14T20:20 vencido policiales:https://laopinionline.ar/articulo/la-policia-rura tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-14T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-cho cupo diario de Reels policiales en X completo (12)
+- 2026-10-14T20:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tikto 
+- 2026-10-14T20:40 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tikto 
