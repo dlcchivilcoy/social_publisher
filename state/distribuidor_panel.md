@@ -1,26 +1,26 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 2 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 3 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 3 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 6 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 5 | 5 | 20 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 13 enviadas + 7 programadas de 50 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 13 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 7 enviadas + 2 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2889 de 3000 (visto 2026-10-14T16:00:26.000Z)
+15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2888 de 3000 (visto 2026-10-14T17:20:15.000Z)
 
 ## Cola propia (37 esperando)
-- X · Reels del bot · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Coty Alonso sobre el Complejo Federación en Chivilcoy — en turno
 - X · Recortes de entrevistas · Kuki Errante: "Es mucho más difícil tocar tango" — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal — en turno
@@ -56,8 +56,6 @@ Actualizado: 14/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T15:40 recibido web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x 
-- 2026-10-14T15:40 recibido web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
 - 2026-10-14T15:40 programado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
 - 2026-10-14T16:00 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x 
 - 2026-10-14T16:00 enviado policiales:http://www.elcivismo.com.ar/notas/59149/un-joven- 
@@ -81,3 +79,5 @@ Actualizado: 14/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-14T17:00 vencido policiales:https://semanariodejunin.com.ar/nota/75530/invest cupo diario de Reels policiales en X completo (12)
 - 2026-10-14T17:00 vencido policiales:https://www.diariodemocracia.com/policiales/34648 tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-14T17:00 vencido policiales:https://www.diariodemocracia.com/policiales/34648 cupo diario de Reels policiales en X completo (12)
+- 2026-10-14T17:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tikto 
+- 2026-10-14T17:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tikto 

@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 5
+    "scheduled": 2,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-14T16:00:20.000Z"
+   "visto": "2026-10-14T17:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
+    "scheduled": 8,
     "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-14T16:00:20.000Z"
+   "visto": "2026-10-14T17:20:15.000Z"
   }
  },
  "contenidos": {
@@ -3276,22 +3276,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 224,
-   "segundos": 19194,
+   "restantes": 223,
+   "segundos": 14401,
    "tope": 250
   },
   "30d": {
-   "restantes": 2889,
-   "segundos": 2351419,
+   "restantes": 2888,
+   "segundos": 2346626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T16:00:26.000Z",
+ "cuota_visto": "2026-10-14T17:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -3604,18 +3604,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8ce861781c98b5e7.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok": {
-   "actualizado": "2026-10-14T16:00:20.000Z",
+   "actualizado": "2026-10-14T17:20:15.000Z",
    "buffer_id": "6acfa717c7801890a279c7ca",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
    "creado": "2026-10-14T13:40:20.000Z",
    "dueAt": "2026-10-14T16:43:45.000Z",
+   "enviado": "2026-10-14T16:45:28.077Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T13:31:32.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696565167366229269",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-un-joven-volco-sobre-la-calzada-y-pidio-auxilio-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -3655,18 +3656,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_98a2789056ac4037.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok": {
-   "actualizado": "2026-10-14T16:00:20.000Z",
+   "actualizado": "2026-10-14T17:20:15.000Z",
    "buffer_id": "6acfa71781eb78c8f8b0b2ef",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
    "creado": "2026-10-14T14:20:14.000Z",
    "dueAt": "2026-10-14T16:03:16.000Z",
+   "enviado": "2026-10-14T16:08:25.375Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T14:14:12.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696555673500454196",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12585,10 +12587,22 @@
    "cuando": "2026-10-14T17:00:19.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Reels policiales en X completo (12)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
+   "cuando": "2026-10-14T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696565167366229269"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
+   "cuando": "2026-10-14T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696555673500454196"
   }
  ],
  "ultima_limpieza_release": "2026-10-14",
- "ultima_sync": "2026-10-14T16:00:20.000Z",
+ "ultima_sync": "2026-10-14T17:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
