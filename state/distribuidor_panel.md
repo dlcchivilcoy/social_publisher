@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 2 | 2 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 7 | 1 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 8 | 3 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 10 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 2 | 30 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 27 enviadas + 5 programadas de 50 por día
-- TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día
+- TikTok: conectado · Buffer: 14 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2871 de 3000 (visto 2026-10-15T01:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2870 de 3000 (visto 2026-10-15T01:40:15.000Z)
 
 ## Cola propia (53 esperando)
 - X · Reels del bot · Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional — fuera del horizonte de programación (espera en la cola)
@@ -56,7 +56,6 @@ Actualizado: 14/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T23:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x 
 - 2026-10-14T23:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x 
 - 2026-10-14T23:20 enviado entrevistas:job00206|x 
 - 2026-10-14T23:20 enviado entrevistas:job00207|x 
@@ -81,3 +80,4 @@ Actualizado: 14/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-15T00:40 recibido web:b6fb5d90-4508-431b-b874-06c3716a8faf|x 
 - 2026-10-15T01:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tikto 
 - 2026-10-15T01:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tikto 
+- 2026-10-15T01:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tikto 

@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 13
+    "scheduled": 1,
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-15T00:20:15.000Z"
+   "visto": "2026-10-15T01:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-15T00:20:15.000Z"
+   "visto": "2026-10-15T01:40:15.000Z"
   }
  },
  "contenidos": {
@@ -3862,17 +3862,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 72001,
+   "restantes": 239,
+   "segundos": 70801,
    "tope": 250
   },
   "30d": {
-   "restantes": 2871,
-   "segundos": 2317826,
+   "restantes": 2870,
+   "segundos": 2316625,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T01:20:16.000Z",
+ "cuota_visto": "2026-10-15T01:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4544,18 +4544,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok": {
-   "actualizado": "2026-10-15T01:20:14.000Z",
+   "actualizado": "2026-10-15T01:40:15.000Z",
    "buffer_id": "6ad02a4f5f62d3c5af1441ed",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
    "creado": "2026-10-15T00:40:14.000Z",
    "dueAt": "2026-10-15T01:23:56.000Z",
+   "enviado": "2026-10-15T01:24:42.886Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T00:34:12.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696699264440732949",
    "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10427,12 +10428,6 @@
  },
  "registro": [
   {
-   "clave": "web:71e9044f-15d8-4fa8-891c-2f86d98234cd|x",
-   "cuando": "2026-10-11T23:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109419212384923741"
-  },
-  {
    "clave": "web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x",
    "cuando": "2026-10-11T23:20:15.000Z",
    "evento": "enviado",
@@ -14646,10 +14641,16 @@
    "cuando": "2026-10-15T01:20:16.000Z",
    "dueAt": "2026-10-15T02:03:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
+   "cuando": "2026-10-15T01:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696699264440732949"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T00:20:15.000Z",
+ "ultima_sync": "2026-10-15T01:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
