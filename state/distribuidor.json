@@ -342,6 +342,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4",
    "youtube_url": "https://www.youtube.com/shorts/xSy1loDxK9s"
   },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9": {
+   "descripcion": "El intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave industrial ubicada sobre la Ruta Nacional 5, donde funcionaron Paquetá y posteriormente Bicontinentar.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-15T15:00:49.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
+   "urgente": false,
+   "video_bytes": 439897,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ac8632662e2ed69.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/yDUi603RVac"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -3470,6 +3491,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
    "volanta": "Ciclismo"
   },
+  "web:90cb2fe1-4568-4f3b-b570-73550002c005": {
+   "categoria": "nacionales",
+   "descripcion": "El presidente Javier Milei retomará su recorrido por el interior con una agenda enfocada en proyectos petroleros y mineros. Viajará a Neuquén el 19 de…",
+   "generado": "2026-10-15T15:06:37.868Z",
+   "id": "web:90cb2fe1-4568-4f3b-b570-73550002c005",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e7fd892395d149ed850d85d8bf7cef62~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
+   "volanta": ""
+  },
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": {
    "categoria": "nacionales",
    "descripcion": "El sector impulsa una presentación en la ONU y diseña frentes judiciales y políticos para mantener viva la candidatura presidencial de Cristina Kirchner,…",
@@ -4576,17 +4615,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 222,
-   "segundos": 22793,
+   "restantes": 221,
+   "segundos": 21601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2853,
-   "segundos": 2268618,
+   "restantes": 2852,
+   "segundos": 2267425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T15:00:23.000Z",
+ "cuota_visto": "2026-10-15T15:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -5365,6 +5404,56 @@
    "vence": "2026-10-17T13:17:11.000Z",
    "video_bytes": 298090,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tiktok": {
+   "actualizado": "2026-10-15T15:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tiktok",
+   "creado": "2026-10-15T15:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T15:00:49.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio\n\nEl intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave industrial ubicada sobre la Ruta Nacional 5, donde funcionaron Paquetá y posteriormente Bicontinentar.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
+   "urgente": false,
+   "vence": "2026-10-17T15:00:49.000Z",
+   "video_bytes": 439897,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ac8632662e2ed69.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x": {
+   "actualizado": "2026-10-15T15:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x",
+   "creado": "2026-10-15T15:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera para separarse de la otra publicación de la misma noticia",
+   "estado": "pendiente",
+   "generado": "2026-10-15T15:00:49.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio\n\nEl intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "tipo": "video",
+   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
+   "urgente": false,
+   "vence": "2026-10-17T15:00:49.000Z",
+   "video_bytes": 439897,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ac8632662e2ed69.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -8975,14 +9064,14 @@
    "video_url": ""
   },
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x": {
-   "actualizado": "2026-10-15T10:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T15:20:15.000Z",
+   "buffer_id": "6ad0ef2f0d345057f7d18a0d",
    "clave": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x",
    "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T19:45:42.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T10:07:39.157Z",
    "id": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36",
    "intentos": 0,
@@ -9098,13 +9187,14 @@
    "video_url": ""
   },
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x": {
-   "actualizado": "2026-10-15T10:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T15:20:15.000Z",
+   "buffer_id": "6ad0ef304fc2f6b7dbe465cd",
    "clave": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x",
    "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T20:00:22.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T10:06:49.588Z",
    "id": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0",
    "intentos": 0,
@@ -9575,13 +9665,13 @@
    "video_url": ""
   },
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x": {
-   "actualizado": "2026-10-14T15:20:13.000Z",
+   "actualizado": "2026-10-15T15:20:15.000Z",
    "buffer_id": "",
    "clave": "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x",
    "creado": "2026-10-14T15:20:13.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T15:06:40.528Z",
    "id": "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e",
    "intentos": 0,
@@ -10815,6 +10905,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:90cb2fe1-4568-4f3b-b570-73550002c005|x": {
+   "actualizado": "2026-10-15T15:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:90cb2fe1-4568-4f3b-b570-73550002c005|x",
+   "creado": "2026-10-15T15:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T15:06:37.868Z",
+   "id": "web:90cb2fe1-4568-4f3b-b570-73550002c005",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca\n\nEl presidente Javier Milei retomará su recorrido por el interior con una agenda enfocada en proyectos petroleros y mineros. Viajará a Neuquén el 19 de…\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
+   "tipo": "nota",
+   "titulo": "Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca",
+   "urgente": false,
+   "vence": "2026-10-16T15:06:37.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539|x": {
    "actualizado": "2026-10-13T15:20:21.000Z",
    "buffer_id": "",
@@ -11499,6 +11613,7 @@
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T10:06:04.659Z",
    "id": "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3",
@@ -12350,41 +12465,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html|x",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109682645323882596"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|x",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109678870618124408"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|tiktok",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695813348385950994"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|x",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109671319478370608"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|x",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109675094469492747"
-  },
-  {
-   "clave": "entrevistas:job00188",
-   "cuando": "2026-10-12T17:00:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00188|x",
    "cuando": "2026-10-12T17:00:17.000Z",
@@ -16557,6 +16637,50 @@
    "cuando": "2026-10-15T15:00:23.000Z",
    "dueAt": "2026-10-15T19:30:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x",
+   "cuando": "2026-10-15T15:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tiktok",
+   "cuando": "2026-10-15T15:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:90cb2fe1-4568-4f3b-b570-73550002c005|x",
+   "cuando": "2026-10-15T15:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x",
+   "cuando": "2026-10-15T15:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad0ef2f0d345057f7d18a0d",
+   "clave": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x",
+   "cuando": "2026-10-15T15:20:16.000Z",
+   "dueAt": "2026-10-15T19:45:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0ef304fc2f6b7dbe465cd",
+   "clave": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x",
+   "cuando": "2026-10-15T15:20:16.000Z",
+   "dueAt": "2026-10-15T20:00:22.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -16578,6 +16702,7 @@
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": "2026-10-15T13:20:17.000Z",
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9": "2026-10-15T15:20:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
@@ -16731,6 +16856,7 @@
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
   "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
+  "web:90cb2fe1-4568-4f3b-b570-73550002c005": "2026-10-15T15:20:14.000Z",
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
   "web:92431890-c8e8-4999-9e83-03174b736b52": "2026-10-14T10:20:15.000Z",
   "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": "2026-10-12T21:20:14.000Z",
