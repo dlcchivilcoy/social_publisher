@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 2 | 0 | 0 | 0 |
@@ -18,7 +18,8 @@ Actualizado: 15/10/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2848 de 3000 (visto 2026-10-15T17:00:24.000Z)
 
-## Cola propia (37 esperando)
+## Cola propia (38 esperando)
+- X · Recortes de entrevistas · Alvaro Cortes: ¿Existe la inspiración al escribir? — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Eva Mussio: Crece la demanda de alimentos en comedores — en turno
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
@@ -48,7 +49,6 @@ Actualizado: 15/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
 - TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -57,8 +57,6 @@ Actualizado: 15/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T15:20 vencido web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x no hubo lugar antes de su vencimiento
-- 2026-10-15T15:20 programado web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x 
 - 2026-10-15T15:20 programado web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x 
 - 2026-10-15T15:40 recibido web:9cb13f8f-7629-4775-bc59-668a4e784c85|x 
 - 2026-10-15T15:40 recibido web:0488321b-e07d-4538-90b9-84ad4724ad17|x 
@@ -82,3 +80,5 @@ Actualizado: 15/10/2026 14:20 (hora AR) · ACTIVO
 - 2026-10-15T17:00 error_publicacion policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
 - 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p 
+- 2026-10-15T17:40 entrevista_aprobada entrevistas:job00213 
+- 2026-10-15T17:40 recibido entrevistas:job00213|x 
