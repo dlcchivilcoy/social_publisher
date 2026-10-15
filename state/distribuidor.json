@@ -4558,17 +4558,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 226,
-   "segundos": 26395,
+   "restantes": 225,
+   "segundos": 25199,
    "tope": 250
   },
   "30d": {
-   "restantes": 2857,
-   "segundos": 2272220,
+   "restantes": 2856,
+   "segundos": 2271024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T14:00:22.000Z",
+ "cuota_visto": "2026-10-15T14:20:18.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6781,14 +6781,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_03_junin_bale-a-un-compa-ero-dentro-de-.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x": {
-   "actualizado": "2026-10-15T14:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T14:20:16.000Z",
+   "buffer_id": "6ad0e121109a34529aa20ad8",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
    "creado": "2026-10-15T14:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T18:30:27.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela",
    "intentos": 0,
@@ -6984,13 +6984,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_06_bragado_investigan-el-robo-de-un-auto-.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x": {
-   "actualizado": "2026-10-15T14:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T14:20:16.000Z",
+   "buffer_id": "6ad0e122b7bdcc4fb8830fb2",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
    "creado": "2026-10-15T14:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T18:45:13.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html",
    "intentos": 0,
@@ -9156,6 +9157,7 @@
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T10:08:21.306Z",
    "id": "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2",
@@ -11340,14 +11342,14 @@
    "video_url": ""
   },
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x": {
-   "actualizado": "2026-10-15T10:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T14:20:16.000Z",
+   "buffer_id": "6ad0e122b7bdcc4fb8830fec",
    "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
    "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T19:00:45.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T10:09:00.662Z",
    "id": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410",
    "intentos": 0,
@@ -12297,28 +12299,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok",
-   "cuando": "2026-10-12T15:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6accff66ba9a2573f195aa26",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html|x",
-   "cuando": "2026-10-12T15:40:27.000Z",
-   "dueAt": "2026-10-12T15:43:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6accff67225b47b7f7b7e637",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|x",
-   "cuando": "2026-10-12T15:40:27.000Z",
-   "dueAt": "2026-10-12T15:58:18.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6accff670e025935d3b8419f",
    "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|x",
@@ -16508,6 +16488,27 @@
    "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|x",
    "cuando": "2026-10-15T14:00:22.000Z",
    "dueAt": "2026-10-15T14:06:52.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0e121109a34529aa20ad8",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
+   "cuando": "2026-10-15T14:20:18.000Z",
+   "dueAt": "2026-10-15T18:30:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0e122b7bdcc4fb8830fb2",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
+   "cuando": "2026-10-15T14:20:18.000Z",
+   "dueAt": "2026-10-15T18:45:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0e122b7bdcc4fb8830fec",
+   "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
+   "cuando": "2026-10-15T14:20:18.000Z",
+   "dueAt": "2026-10-15T19:00:45.000Z",
    "evento": "programado"
   }
  ],
