@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 3 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 2 | 3 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 6 | 14 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 6 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 16 enviadas + 8 programadas de 50 por día
@@ -18,7 +18,7 @@ Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2850 de 3000 (visto 2026-10-15T16:00:28.000Z)
 
-## Cola propia (42 esperando)
+## Cola propia (38 esperando)
 - X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — espera para separarse de la otra publicación de la misma noticia
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Investigan el robo de un auto viejo que funcionaba como Uber durante la Fiesta d — tope de 15 publicaciones en 24 h de TikTok
@@ -31,6 +31,7 @@ Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 - X · Notas web · Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Rut — en turno
 - TikTok · Reels policiales · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — en turno
+- X · Notas web · Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provinci — en turno
 - X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
 - X · Notas web · Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca — en turno
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
@@ -48,7 +49,6 @@ Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
 - TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,12 +56,6 @@ Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T14:40 enviado policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ 
-- 2026-10-15T14:40 enviado web:62679199-0cb1-44ba-8928-add87ea1fa3f|x 
-- 2026-10-15T14:40 enviado web:8573e42b-75a0-4616-bdb3-930c6007225a|x 
-- 2026-10-15T14:40 enviado web:94f11536-c6e6-485e-b136-564a4c85d23b|x 
-- 2026-10-15T14:40 enviado web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x 
-- 2026-10-15T14:40 enviado web:b6fb5d90-4508-431b-b874-06c3716a8faf|x 
 - 2026-10-15T14:40 programado web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x 
 - 2026-10-15T15:00 recibido web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
 - 2026-10-15T15:00 programado web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
@@ -81,3 +75,9 @@ Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-15T16:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tikto 
 - 2026-10-15T16:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tikto 
 - 2026-10-15T16:00 programado policiales:https://semanariodejunin.com.ar/nota/75593/la-mat 
+- 2026-10-15T16:20 recibido web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x 
+- 2026-10-15T16:20 vencido policiales:https://casaresonline.com.ar/viajante-pehuajense- tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T16:20 vencido policiales:https://casaresonline.com.ar/viajante-pehuajense- no hubo lugar antes de su vencimiento
+- 2026-10-15T16:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T16:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en no hubo lugar antes de su vencimiento
+- 2026-10-15T16:20 vencido web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x no hubo lugar antes de su vencimiento

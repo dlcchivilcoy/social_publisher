@@ -4517,6 +4517,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
    "volanta": "Tres aprehendidos"
   },
+  "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": {
+   "categoria": "nacionales",
+   "descripcion": "El espacio libertario y el partido amarillo preparan las discusiones territoriales de cara a las elecciones. El armado de listas, el rol de los…",
+   "generado": "2026-10-15T16:06:39.353Z",
+   "id": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_45e9a5c4b9954fa0b30a22e4fbb95ef8~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provincia de Buenos Aires",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
+   "volanta": ""
+  },
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno envió un documento de 49 páginas al ITLOS para frenar la explotación petrolera británica en la plataforma continental y proteger el medio…",
@@ -6087,14 +6105,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_04_san-antonio-de-areco_se-prendi-fuego-un-auto-en-un-.mp4"
   },
   "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok": {
-   "actualizado": "2026-10-14T22:20:16.000Z",
+   "actualizado": "2026-10-15T16:20:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/",
    "intentos": 0,
@@ -6112,13 +6130,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_05_carlos-casares_volc-una-camioneta-en-el-camin.mp4"
   },
   "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x": {
-   "actualizado": "2026-10-14T22:20:16.000Z",
+   "actualizado": "2026-10-15T16:20:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/",
    "intentos": 0,
@@ -7462,14 +7480,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok": {
-   "actualizado": "2026-10-14T22:20:16.000Z",
+   "actualizado": "2026-10-15T16:20:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html",
    "intentos": 0,
@@ -7487,13 +7505,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x": {
-   "actualizado": "2026-10-14T22:20:16.000Z",
+   "actualizado": "2026-10-15T16:20:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html",
    "intentos": 0,
@@ -11293,13 +11311,13 @@
    "video_url": ""
   },
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x": {
-   "actualizado": "2026-10-14T16:20:15.000Z",
+   "actualizado": "2026-10-15T16:20:20.000Z",
    "buffer_id": "",
    "clave": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x",
    "creado": "2026-10-14T16:20:15.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T16:06:39.387Z",
    "id": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df",
    "intentos": 0,
@@ -12377,6 +12395,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x": {
+   "actualizado": "2026-10-15T16:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x",
+   "creado": "2026-10-15T16:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T16:06:39.353Z",
+   "id": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provincia de Buenos Aires\n\nEl espacio libertario y el partido amarillo preparan las discusiones territoriales de cara a las elecciones. El armado de listas, el rol de los…\n\nhttps://www.diariolacampaña.com.ar/n/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
+   "tipo": "nota",
+   "titulo": "Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provincia de Buenos Aires",
+   "urgente": false,
+   "vence": "2026-10-16T16:06:39.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:efbef857-ab9c-4566-904e-f8f5926bed12|x": {
    "actualizado": "2026-10-14T18:20:14.000Z",
    "buffer_id": "",
@@ -12553,46 +12595,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok",
-   "cuando": "2026-10-12T18:00:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695833236223642898"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|tiktok",
-   "cuando": "2026-10-12T18:00:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695822996086328584"
-  },
-  {
-   "buffer_id": "6acd203284949d5b220e3b28",
-   "clave": "entrevistas:job00190|x",
-   "cuando": "2026-10-12T18:00:18.000Z",
-   "dueAt": "2026-10-12T18:03:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00191",
-   "cuando": "2026-10-12T18:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|x",
-   "cuando": "2026-10-12T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok",
-   "cuando": "2026-10-12T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x",
    "cuando": "2026-10-12T18:20:15.000Z",
@@ -16771,6 +16773,44 @@
    "cuando": "2026-10-15T16:00:28.000Z",
    "dueAt": "2026-10-15T18:03:38.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x",
+   "cuando": "2026-10-15T16:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
+   "cuando": "2026-10-15T16:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
+   "cuando": "2026-10-15T16:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok",
+   "cuando": "2026-10-15T16:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x",
+   "cuando": "2026-10-15T16:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x",
+   "cuando": "2026-10-15T16:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -17003,6 +17043,7 @@
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
+  "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
