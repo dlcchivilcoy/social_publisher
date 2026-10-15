@@ -11,7 +11,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-15T14:40:15.000Z"
+   "visto": "2026-10-15T15:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 13
+    "scheduled": 8,
+    "sent": 16
    },
    "pausado": false,
-   "visto": "2026-10-15T14:40:15.000Z"
+   "visto": "2026-10-15T15:40:19.000Z"
   }
  },
  "contenidos": {
@@ -2105,6 +2105,24 @@
    "volanta": "Daireaux en Bolívar",
    "youtube_url": "https://youtube.com/shorts/f_tW-dDv7Js"
   },
+  "web:0488321b-e07d-4538-90b9-84ad4724ad17": {
+   "categoria": "",
+   "descripcion": "El INTA proyecta rindes altos para el cereal y aconseja intensificar la inversión en tecnología con diagnósticos precisos de suelo.",
+   "generado": "2026-10-15T15:33:32.822Z",
+   "id": "web:0488321b-e07d-4538-90b9-84ad4724ad17",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_366903039f3c489e930d246036afb651~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
+   "volanta": ""
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": {
    "categoria": "",
    "descripcion": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive La ciudad transita jornadas de ambiente fresco y húmedo. Aunque durante los últimos días las tardes se presentaron agradables pero sin lluvias en la región, el escenario meteorológico sufrirá modificaciones a partir de las próximas horas. De acuerdo con el informe brindado por el meteorólogo Marcelo Speranza en El Tiempo en Chivilcoy,...",
@@ -3653,6 +3671,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
    "volanta": ""
   },
+  "web:9cb13f8f-7629-4775-bc59-668a4e784c85": {
+   "categoria": "nacionales",
+   "descripcion": "Londres evalúa oponerse a la incorporación del país al tratado de libre comercio tras el reclamo judicial argentino por la explotación petrolera en la…",
+   "generado": "2026-10-15T15:36:39.180Z",
+   "id": "web:9cb13f8f-7629-4775-bc59-668a4e784c85",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d3e2079648674c5c8891bbc82bdcee5f~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTPP por Malvinas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
+   "volanta": ""
+  },
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": {
    "categoria": "nacionales",
    "descripcion": "La salud del Sumo Pontífice encendió las alarmas en la Casa Rosada y abrió interrogantes sobre una posible postergación del viaje previsto del 8 al 11 de…",
@@ -4615,17 +4651,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 21601,
+   "restantes": 220,
+   "segundos": 20396,
    "tope": 250
   },
   "30d": {
-   "restantes": 2852,
-   "segundos": 2267425,
+   "restantes": 2851,
+   "segundos": 2266221,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T15:20:16.000Z",
+ "cuota_visto": "2026-10-15T15:40:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -5381,18 +5417,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x": {
-   "actualizado": "2026-10-15T13:20:18.000Z",
+   "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "6ad0d313ee1dd4cd5e4add8b",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
    "creado": "2026-10-15T13:20:17.000Z",
    "dueAt": "2026-10-15T15:15:27.000Z",
+   "enviado": "2026-10-15T15:15:42.240Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T13:17:11.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110751473688531424",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
    "origen": "bot",
    "plataforma": "x",
@@ -8963,6 +9000,31 @@
    "video_bytes": 104302,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
   },
+  "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
+   "actualizado": "2026-10-15T15:40:19.000Z",
+   "buffer_id": "",
+   "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
+   "creado": "2026-10-15T15:40:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-15T15:33:32.822Z",
+   "id": "web:0488321b-e07d-4538-90b9-84ad4724ad17",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición\n\nEl INTA proyecta rindes altos para el cereal y aconseja intensificar la inversión en tecnología con diagnósticos precisos de suelo.\n\nhttps://www.diariolacampaña.com.ar/n/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
+   "tipo": "nota",
+   "titulo": "Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición",
+   "urgente": false,
+   "vence": "2026-10-16T15:33:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -9869,18 +9931,19 @@
    "video_url": ""
   },
   "web:474e6223-8e55-4add-aedc-549975a9f8e1|x": {
-   "actualizado": "2026-10-15T11:20:16.000Z",
+   "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "6ad0b6f0d955ee29a33fa875",
    "clave": "web:474e6223-8e55-4add-aedc-549975a9f8e1|x",
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "2026-10-15T14:45:29.000Z",
+   "enviado": "2026-10-15T14:45:31.384Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T10:11:36.369Z",
    "id": "web:474e6223-8e55-4add-aedc-549975a9f8e1",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110743878852632868",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-ofrece-mas-de-20-instituciones-acercaron-oportunidades-de",
    "origen": "web",
    "plataforma": "x",
@@ -10729,18 +10792,19 @@
    "video_url": ""
   },
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x": {
-   "actualizado": "2026-10-15T11:20:16.000Z",
+   "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "6ad0b6f1b0cc171adf18974e",
    "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "2026-10-15T15:00:54.000Z",
+   "enviado": "2026-10-15T15:04:35.663Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T10:09:37.716Z",
    "id": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110748678331752903",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-chivilcoy-sera-sede-del-2-encuentro-regional-de-coros",
    "origen": "web",
    "plataforma": "x",
@@ -11129,6 +11193,30 @@
    "titulo": "Propuesta interdisciplinaria",
    "urgente": false,
    "vence": "2026-10-14T10:09:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x": {
+   "actualizado": "2026-10-15T15:40:19.000Z",
+   "buffer_id": "",
+   "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
+   "creado": "2026-10-15T15:40:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T15:36:39.180Z",
+   "id": "web:9cb13f8f-7629-4775-bc59-668a4e784c85",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTPP por Malvinas\n\nLondres evalúa oponerse a la incorporación del país al tratado de libre comercio tras el reclamo judicial argentino por la explotación petrolera en la…\n\nhttps://www.diariolacampaña.com.ar/n/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
+   "tipo": "nota",
+   "titulo": "Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTPP por Malvinas",
+   "urgente": false,
+   "vence": "2026-10-16T15:36:39.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -12338,13 +12426,13 @@
    "video_url": ""
   },
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x": {
-   "actualizado": "2026-10-14T15:40:18.000Z",
+   "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "",
    "clave": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x",
    "creado": "2026-10-14T15:40:18.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T15:36:36.811Z",
    "id": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750",
    "intentos": 0,
@@ -12465,46 +12553,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00188|x",
-   "cuando": "2026-10-12T17:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6acd12237eb16fd28e94048f",
-   "clave": "entrevistas:job00188|x",
-   "cuando": "2026-10-12T17:00:19.000Z",
-   "dueAt": "2026-10-12T17:03:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00189",
-   "cuando": "2026-10-12T17:20:14.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00189|x",
-   "cuando": "2026-10-12T17:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6acd16cf7eb16fd28e9547f2",
-   "clave": "entrevistas:job00189|x",
-   "cuando": "2026-10-12T17:20:15.000Z",
-   "dueAt": "2026-10-12T17:23:43.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00190",
-   "cuando": "2026-10-12T18:00:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00190|x",
    "cuando": "2026-10-12T18:00:16.000Z",
@@ -16681,10 +16729,50 @@
    "cuando": "2026-10-15T15:20:16.000Z",
    "dueAt": "2026-10-15T20:00:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
+   "cuando": "2026-10-15T15:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
+   "cuando": "2026-10-15T15:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x",
+   "cuando": "2026-10-15T15:40:19.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
+   "cuando": "2026-10-15T15:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110751473688531424"
+  },
+  {
+   "clave": "web:474e6223-8e55-4add-aedc-549975a9f8e1|x",
+   "cuando": "2026-10-15T15:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110743878852632868"
+  },
+  {
+   "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
+   "cuando": "2026-10-15T15:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110748678331752903"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T14:40:15.000Z",
+ "ultima_sync": "2026-10-15T15:40:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -16778,6 +16866,7 @@
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion": "2026-10-14T02:20:13.000Z",
+  "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
@@ -16865,6 +16954,7 @@
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
+  "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
