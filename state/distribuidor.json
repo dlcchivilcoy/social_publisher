@@ -3862,17 +3862,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 241,
-   "segundos": 75600,
+   "restantes": 240,
+   "segundos": 72001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2872,
-   "segundos": 2321425,
+   "restantes": 2871,
+   "segundos": 2317826,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T00:20:16.000Z",
+ "cuota_visto": "2026-10-15T01:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4451,7 +4451,7 @@
    "creado": "2026-10-15T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-15T00:16:17.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
@@ -4495,14 +4495,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok": {
-   "actualizado": "2026-10-15T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T01:20:14.000Z",
+   "buffer_id": "6ad02a505ae624a5afa1e684",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
    "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T02:03:29.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:26:56.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
    "intentos": 0,
@@ -4544,14 +4544,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok": {
-   "actualizado": "2026-10-15T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T01:20:14.000Z",
+   "buffer_id": "6ad02a4f5f62d3c5af1441ed",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
    "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T01:23:56.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:34:12.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
    "intentos": 0,
@@ -10427,18 +10427,6 @@
  },
  "registro": [
   {
-   "clave": "web:58114495-39f3-4653-ae6b-639c6c61dae5|x",
-   "cuando": "2026-10-11T23:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109415503605158095"
-  },
-  {
-   "clave": "web:70276865-8c0d-4a78-83f8-610a2dffcc17|x",
-   "cuando": "2026-10-11T23:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109411600025178204"
-  },
-  {
    "clave": "web:71e9044f-15d8-4fa8-891c-2f86d98234cd|x",
    "cuando": "2026-10-11T23:20:15.000Z",
    "evento": "enviado",
@@ -14644,6 +14632,20 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "buffer_id": "6ad02a4f5f62d3c5af1441ed",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
+   "cuando": "2026-10-15T01:20:16.000Z",
+   "dueAt": "2026-10-15T01:23:56.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad02a505ae624a5afa1e684",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
+   "cuando": "2026-10-15T01:20:16.000Z",
+   "dueAt": "2026-10-15T02:03:29.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",

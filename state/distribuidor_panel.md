@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 2 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 8 | 3 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 10 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 2 | 30 | 0 | 0 | 0 |
@@ -16,14 +16,12 @@ Actualizado: 14/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2872 de 3000 (visto 2026-10-15T00:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2871 de 3000 (visto 2026-10-15T01:20:16.000Z)
 
-## Cola propia (55 esperando)
-- TikTok · Reels del bot · Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional — tope de 15 publicaciones en 24 h de TikTok
+## Cola propia (53 esperando)
 - X · Reels del bot · Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional — fuera del horizonte de programación (espera en la cola)
-- TikTok · Reels del bot · Piden colaboración para una joven atacada por un caballo en el Hipódromo — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Piden colaboración para una joven atacada por un caballo en el Hipódromo — en turno
-- TikTok · Reels del bot · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
+- TikTok · Reels del bot · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — fuera del horizonte de programación (espera en la cola)
 - X · Reels del bot · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels del bot · Recuperaron una moto robada e investigan a un menor — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Recuperaron una moto robada e investigan a un menor — fuera del horizonte de programación (espera en la cola)
@@ -49,6 +47,8 @@ Actualizado: 14/10/2026 22:00 (hora AR) · ACTIVO
 - X · Reels policiales · Choque entre un auto y una moto en San Martín y Esperanza — en turno
 - X · Notas web · El arzobispo Jorge Lozano habló sobre la salud del papa León XIV y la visita al  — en turno
 - TikTok · Reels policiales · Choque entre moto y utilitario en Azul y San Martín — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque entre moto y utilitario en Azul y San Martín — en turno
+- X · Notas web · El intendente de San Nicolás propuso a Milei un acuerdo de IVA cero y tasas muni — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,8 +56,6 @@ Actualizado: 14/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T22:40 programado web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x 
-- 2026-10-14T23:20 vencido web:ce9c9291-5b63-4246-99f4-6095ce88b357|x Buffer lleno (10 programadas por canal en el plan Free)
 - 2026-10-14T23:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x 
 - 2026-10-14T23:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x 
 - 2026-10-14T23:20 enviado entrevistas:job00206|x 
@@ -81,3 +79,5 @@ Actualizado: 14/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-15T00:40 recibido bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tikto 
 - 2026-10-15T00:40 recibido web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x 
 - 2026-10-15T00:40 recibido web:b6fb5d90-4508-431b-b874-06c3716a8faf|x 
+- 2026-10-15T01:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tikto 
+- 2026-10-15T01:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tikto 
