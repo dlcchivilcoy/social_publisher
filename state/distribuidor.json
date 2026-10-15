@@ -4612,6 +4612,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-accidente-un-joven-volco-sobre-la-calzada-y-pidio-auxilio-a",
    "volanta": "Ruta 30 · Accidente"
   },
+  "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": {
+   "categoria": "nacionales",
+   "descripcion": "El Banco Central actualiza los límites de la banda cambiaria según la inflación informada por el Indec. El dólar mayorista cerró a $1.515,85 y mantiene…",
+   "generado": "2026-10-15T22:06:32.196Z",
+   "id": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_30c9209b4bad4207bdea7d972030083f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/a-cuanto-llegara-el-techo-del-dolar-mayorista-en-noviembre-852d33",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambiaria",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/a-cuanto-llegara-el-techo-del-dolar-mayorista-en-noviembre-852d33",
+   "volanta": ""
+  },
   "web:d72917a3-67e5-41df-affc-436383926d89": {
    "categoria": "",
    "descripcion": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar Maximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón Municipal. Según relató, dos personas salieron desde un campo, le propinaron una fuerte patada en el estómago y le sustrajeron la mochila. Llevaba su equipo de mate y una billetera con documentación, pero no tenía dinero. Los agresores huyeron. El...",
@@ -12324,13 +12342,13 @@
    "video_url": ""
   },
   "web:a48b6d42-70dd-4459-94a5-2c178959330a|x": {
-   "actualizado": "2026-10-14T22:20:16.000Z",
+   "actualizado": "2026-10-15T22:20:20.000Z",
    "buffer_id": "",
    "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T22:06:25.250Z",
    "id": "web:a48b6d42-70dd-4459-94a5-2c178959330a",
    "intentos": 0,
@@ -13078,6 +13096,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x": {
+   "actualizado": "2026-10-15T22:20:20.000Z",
+   "buffer_id": "",
+   "clave": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x",
+   "creado": "2026-10-15T22:20:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T22:06:32.196Z",
+   "id": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/a-cuanto-llegara-el-techo-del-dolar-mayorista-en-noviembre-852d33",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambiaria\n\nEl Banco Central actualiza los límites de la banda cambiaria según la inflación informada por el Indec. El dólar mayorista cerró a $1.515,85 y mantiene…\n\nhttps://www.diariolacampaña.com.ar/n/a-cuanto-llegara-el-techo-del-dolar-mayorista-en-noviembre-852d33",
+   "tipo": "nota",
+   "titulo": "A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambiaria",
+   "urgente": false,
+   "vence": "2026-10-16T22:06:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:d72917a3-67e5-41df-affc-436383926d89|x": {
    "actualizado": "2026-10-14T22:00:24.000Z",
    "buffer_id": "6acf9dae33f7fa2d2ad2a948",
@@ -13707,18 +13749,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x",
-   "cuando": "2026-10-13T10:20:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
-   "cuando": "2026-10-13T10:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109951230378164675"
-  },
   {
    "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
    "cuando": "2026-10-13T10:20:20.000Z",
@@ -17888,6 +17918,20 @@
    "cuando": "2026-10-15T21:40:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697003219813289222"
+  },
+  {
+   "clave": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x",
+   "cuando": "2026-10-15T22:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
+   "cuando": "2026-10-15T22:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -18122,6 +18166,7 @@
   "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a": "2026-10-11T21:58:03.000Z",
   "web:d35101a5-0683-4dc9-8422-7280ee9bf814": "2026-10-11T21:58:03.000Z",
   "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d": "2026-10-14T13:40:20.000Z",
+  "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": "2026-10-15T22:20:20.000Z",
   "web:d72917a3-67e5-41df-affc-436383926d89": "2026-10-14T14:20:14.000Z",
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",

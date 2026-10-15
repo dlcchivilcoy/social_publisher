@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 15/10/2026 19:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 4 | 5 | 0 | 1 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 7 | 2 | 1 | 0 |
-| Notas web | X | 15 | 14 | 1 | 20 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 21 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 27 enviadas + 8 programadas de 50 por día
@@ -29,6 +29,7 @@ Actualizado: 15/10/2026 19:00 (hora AR) · ACTIVO
 - X · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — en turno
 - TikTok · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
+- X · Notas web · A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambia — en turno
 - TikTok · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — en turno
 - X · Notas web · La Cámara de Casación ratificó el archivo de una causa contra los jueces de la C — en turno
@@ -48,7 +49,6 @@ Actualizado: 15/10/2026 19:00 (hora AR) · ACTIVO
 - X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
 - X · Notas web · Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca — en turno
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
-- X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,8 +58,6 @@ Actualizado: 15/10/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T20:00 programado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
-- 2026-10-15T20:20 recibido bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
 - 2026-10-15T20:20 recibido bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
 - 2026-10-15T20:20 recibido web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x 
 - 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
@@ -83,3 +81,5 @@ Actualizado: 15/10/2026 19:00 (hora AR) · ACTIVO
 - 2026-10-15T21:40 vencido web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x no hubo lugar antes de su vencimiento
 - 2026-10-15T21:40 enviado entrevistas:job00213|x 
 - 2026-10-15T21:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
+- 2026-10-15T22:20 recibido web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x 
+- 2026-10-15T22:20 vencido web:a48b6d42-70dd-4459-94a5-2c178959330a|x no hubo lugar antes de su vencimiento
