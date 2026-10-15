@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 16:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 17:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 15/10/2026 16:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 4 | 1 | 9 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 4 | 2 | 8 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 1 | 9 | 1 | 0 | 0 |
 | Notas web | X | 15 | 11 | 3 | 18 | 0 | 0 | 0 |
 
@@ -16,14 +16,13 @@ Actualizado: 15/10/2026 16:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 9 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 210 de 250 · 30d: quedan 2841 de 3000 (visto 2026-10-15T19:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 209 de 250 · 30d: quedan 2840 de 3000 (visto 2026-10-15T20:00:20.000Z)
 
-## Cola propia (50 esperando)
+## Cola propia (42 esperando)
 - TikTok · Reels policiales · Hallaron asesinado a un hombre de 78 años en Pehuajó — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — en turno
+- X · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — en turno
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
@@ -49,6 +48,7 @@ Actualizado: 15/10/2026 16:40 (hora AR) · ACTIVO
 - X · Notas web · Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provinci — en turno
 - X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
 - X · Notas web · Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca — en turno
+- X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -57,14 +57,6 @@ Actualizado: 15/10/2026 16:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T18:20 programado entrevistas:job00212|x 
-- 2026-10-15T18:40 entrevista_aprobada entrevistas:job00216 
-- 2026-10-15T18:40 recibido web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x 
-- 2026-10-15T18:40 recibido entrevistas:job00216|x 
-- 2026-10-15T18:40 vencido web:b0047360-2401-4617-a433-07cb41aa8ce4|x no hubo lugar antes de su vencimiento
-- 2026-10-15T18:40 programado entrevistas:job00216|x 
-- 2026-10-15T19:00 programado entrevistas:job00213|x 
-- 2026-10-15T19:20 recibido policiales:https://laopinionline.ar/articulo/aun-no-identifi 
 - 2026-10-15T19:20 recibido policiales:https://laopinionline.ar/articulo/aun-no-identifi 
 - 2026-10-15T19:20 recibido policiales:https://www.diariodemocracia.com/policiales/34657 
 - 2026-10-15T19:20 recibido policiales:https://www.diariodemocracia.com/policiales/34657 
@@ -82,3 +74,11 @@ Actualizado: 15/10/2026 16:40 (hora AR) · ACTIVO
 - 2026-10-15T19:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
 - 2026-10-15T19:20 programado entrevistas:job00211|x 
 - 2026-10-15T19:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
+- 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de no hubo lugar antes de su vencimiento
+- 2026-10-15T20:00 vencido policiales:https://chacabucoenred.com/choque-entre-dos-motos tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T20:00 vencido policiales:https://chacabucoenred.com/choque-entre-dos-motos no hubo lugar antes de su vencimiento
+- 2026-10-15T20:00 vencido policiales:https://laopinionline.ar/articulo/un-adolescente- no hubo lugar antes de su vencimiento
+- 2026-10-15T20:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T20:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 no hubo lugar antes de su vencimiento
+- 2026-10-15T20:00 programado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
