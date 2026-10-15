@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,7 +19,7 @@ Actualizado: 15/10/2026 13:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2850 de 3000 (visto 2026-10-15T16:00:28.000Z)
 
 ## Cola propia (38 esperando)
-- X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — espera para separarse de la otra publicación de la misma noticia
+- X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Investigan el robo de un auto viejo que funcionaba como Uber durante la Fiesta d — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una  — Buffer lleno (10 programadas por canal en el plan Free)

@@ -5492,7 +5492,7 @@
    "creado": "2026-10-15T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera para separarse de la otra publicación de la misma noticia",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T15:00:49.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9",
