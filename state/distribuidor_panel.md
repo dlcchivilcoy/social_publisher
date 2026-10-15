@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,8 +28,8 @@ Actualizado: 15/10/2026 06:00 (hora AR) · ACTIVO
 - X · Notas web · Presentan nueva tecnología nacional para monitorear sembradoras surco por surco — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Un adolescente atacó a fierrazos un patrullero urbano tras una denuncia de viole — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Un adolescente atacó a fierrazos un patrullero urbano tras una denuncia de viole — en turno
-- X · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — en turno
 - TikTok · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — en turno
 - TikTok · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — en turno
 - TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
