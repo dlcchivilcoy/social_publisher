@@ -4720,6 +4720,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
    "volanta": "Oberá · Deportes"
   },
+  "web:dca831fd-6866-464f-a367-e6b85d1a5640": {
+   "categoria": "",
+   "descripcion": "La marca PLA completó su recorrido por 15 localidades con capacitaciones técnicas y la presentación de equipos.",
+   "generado": "2026-10-15T23:33:12.403Z",
+   "id": "web:dca831fd-6866-464f-a367-e6b85d1a5640",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_268b7909c7994046a69e4959a9f4eace~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gira-federal-de-pla-recorrio-seis-provincias-con-su-nueva-8b34b2",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gira-federal-de-pla-recorrio-seis-provincias-con-su-nueva-8b34b2",
+   "volanta": ""
+  },
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": {
    "categoria": "nacionales",
    "descripcion": "El oficialismo frenó la sesión especial convocada para rechazar el mega decreto gracias a las ausencias de legisladores que responden a gobernadores…",
@@ -5088,17 +5106,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 81597,
+   "restantes": 247,
+   "segundos": 79201,
    "tope": 250
   },
   "30d": {
-   "restantes": 2834,
-   "segundos": 2239821,
+   "restantes": 2833,
+   "segundos": 2237424,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T23:00:20.000Z",
+ "cuota_visto": "2026-10-15T23:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7238,14 +7256,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_04_pergamino_agredieron-a-inspectores-viale.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T23:40:15.000Z",
+   "buffer_id": "6ad16461fb64fffcf1a5e767",
    "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
    "creado": "2026-10-15T18:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T23:43:28.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento",
    "intentos": 0,
@@ -9795,14 +9813,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_02_las-flores_choque-entre-moto-y-utilitario.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T23:40:15.000Z",
+   "buffer_id": "6ad16461a82f34dbe1387b9d",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
    "creado": "2026-10-15T18:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T00:23:22.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T17:42:26.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/",
    "intentos": 0,
@@ -12466,14 +12484,14 @@
    "video_url": ""
   },
   "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x": {
-   "actualizado": "2026-10-14T23:40:15.000Z",
+   "actualizado": "2026-10-15T23:40:15.000Z",
    "buffer_id": "",
    "clave": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x",
    "creado": "2026-10-14T23:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "fuera del horizonte de programación (espera en la cola)",
    "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T23:33:04.681Z",
    "id": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b",
    "intentos": 0,
@@ -13250,6 +13268,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:dca831fd-6866-464f-a367-e6b85d1a5640|x": {
+   "actualizado": "2026-10-15T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
+   "creado": "2026-10-15T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:33:12.403Z",
+   "id": "web:dca831fd-6866-464f-a367-e6b85d1a5640",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gira-federal-de-pla-recorrio-seis-provincias-con-su-nueva-8b34b2",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola\n\nLa marca PLA completó su recorrido por 15 localidades con capacitaciones técnicas y la presentación de equipos.\n\nhttps://www.diariolacampaña.com.ar/n/gira-federal-de-pla-recorrio-seis-provincias-con-su-nueva-8b34b2",
+   "tipo": "nota",
+   "titulo": "Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola",
+   "urgente": false,
+   "vence": "2026-10-16T23:33:12.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x": {
    "actualizado": "2026-10-15T18:20:17.000Z",
    "buffer_id": "",
@@ -13751,34 +13794,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ace05e5e79eea2efe575ef6",
-   "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
-   "cuando": "2026-10-13T10:20:21.000Z",
-   "dueAt": "2026-10-13T12:15:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace0a8fb8e63d8727e03c56",
-   "clave": "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x",
-   "cuando": "2026-10-13T10:40:15.000Z",
-   "dueAt": "2026-10-13T12:30:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace0f443b22eef928254cdd",
-   "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
-   "cuando": "2026-10-13T11:00:21.000Z",
-   "dueAt": "2026-10-13T12:45:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace13f195a61d8e02c8052c",
-   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
-   "cuando": "2026-10-13T11:20:18.000Z",
-   "dueAt": "2026-10-13T13:00:55.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ace13f13b22eef92826b202",
    "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
@@ -17933,6 +17948,34 @@
    "cuando": "2026-10-15T23:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2110864737206517887"
+  },
+  {
+   "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
+   "cuando": "2026-10-15T23:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x",
+   "cuando": "2026-10-15T23:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "fuera del horizonte de programación (espera en la cola)"
+  },
+  {
+   "buffer_id": "6ad16461fb64fffcf1a5e767",
+   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
+   "cuando": "2026-10-15T23:40:17.000Z",
+   "dueAt": "2026-10-15T23:43:28.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad16461a82f34dbe1387b9d",
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
+   "cuando": "2026-10-15T23:40:17.000Z",
+   "dueAt": "2026-10-16T00:23:22.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -18173,6 +18216,7 @@
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
+  "web:dca831fd-6866-464f-a367-e6b85d1a5640": "2026-10-15T23:40:15.000Z",
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": "2026-10-15T18:20:17.000Z",
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": "2026-10-15T10:20:13.000Z",
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",

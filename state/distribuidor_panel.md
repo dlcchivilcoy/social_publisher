@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,19 +8,18 @@ Actualizado: 15/10/2026 20:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 4 | 5 | 0 | 1 | 0 |
-| Reels policiales | TikTok | 12 | 5 | 0 | 7 | 2 | 1 | 0 |
-| Notas web | X | 15 | 14 | 1 | 21 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 5 | 2 | 5 | 2 | 1 | 0 |
+| Notas web | X | 15 | 14 | 1 | 22 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2834 de 3000 (visto 2026-10-15T23:00:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2833 de 3000 (visto 2026-10-15T23:40:17.000Z)
 
-## Cola propia (37 esperando)
-- TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — tope de 15 publicaciones en 24 h de TikTok
+## Cola propia (35 esperando)
+- X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — fuera del horizonte de programación (espera en la cola)
@@ -49,6 +48,7 @@ Actualizado: 15/10/2026 20:20 (hora AR) · ACTIVO
 - X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
 - X · Notas web · Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca — en turno
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
+- X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,10 +58,6 @@ Actualizado: 15/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
-- 2026-10-15T20:20 programado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
-- 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
-- 2026-10-15T20:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
 - 2026-10-15T20:40 enviado entrevistas:job00212|x 
 - 2026-10-15T20:40 enviado entrevistas:job00216|x 
 - 2026-10-15T20:40 error_publicacion policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -83,3 +79,7 @@ Actualizado: 15/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-15T22:20 vencido web:a48b6d42-70dd-4459-94a5-2c178959330a|x no hubo lugar antes de su vencimiento
 - 2026-10-15T23:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
 - 2026-10-15T23:00 enviado entrevistas:job00211|x 
+- 2026-10-15T23:40 recibido web:dca831fd-6866-464f-a367-e6b85d1a5640|x 
+- 2026-10-15T23:40 vencido web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x fuera del horizonte de programación (espera en la cola)
+- 2026-10-15T23:40 programado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
+- 2026-10-15T23:40 programado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
