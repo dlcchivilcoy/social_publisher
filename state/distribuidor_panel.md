@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,7 +18,7 @@ Actualizado: 15/10/2026 08:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2862 de 3000 (visto 2026-10-15T11:20:17.000Z)
 
-## Cola propia (51 esperando)
+## Cola propia (45 esperando)
 - X · Notas web · Juan Martín Bodda, en dupla con Ariel Zurraco, se consagraron campeones en Mar d — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Detalles y distancias del Medio Maratón Eduardo Pollaroli en Chivilcoy — en turno
 - X · Notas web · El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y  — en turno
@@ -44,11 +44,11 @@ Actualizado: 15/10/2026 08:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
 - X · Notas web · Prohíben la venta de juguetes squishy Pinch Family en todo el país — en turno
-- TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — en turno
+- TikTok · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — en turno
+- X · Notas web · El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miér — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,12 +56,6 @@ Actualizado: 15/10/2026 08:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T10:20 vencido web:92431890-c8e8-4999-9e83-03174b736b52|x fuera del horizonte de programación (espera en la cola)
-- 2026-10-15T10:20 vencido web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x no hubo lugar antes de su vencimiento
-- 2026-10-15T10:20 vencido web:c6470534-4523-4411-a14d-e8390249bc0c|x no hubo lugar antes de su vencimiento
-- 2026-10-15T10:20 vencido web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x no hubo lugar antes de su vencimiento
-- 2026-10-15T10:20 vencido web:dae9d3f8-bd74-4de6-a065-60f894be222e|x no hubo lugar antes de su vencimiento
-- 2026-10-15T10:20 vencido web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x no hubo lugar antes de su vencimiento
 - 2026-10-15T10:20 vencido web:eb28d2e9-187b-45cf-9369-d13890bc9998|x no hubo lugar antes de su vencimiento
 - 2026-10-15T10:20 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x 
 - 2026-10-15T10:20 enviado bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x 
@@ -81,3 +75,9 @@ Actualizado: 15/10/2026 08:40 (hora AR) · ACTIVO
 - 2026-10-15T11:20 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
 - 2026-10-15T11:20 programado web:474e6223-8e55-4add-aedc-549975a9f8e1|x 
 - 2026-10-15T11:20 programado web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x 
+- 2026-10-15T12:00 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T12:00 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ no hubo lugar antes de su vencimiento
+- 2026-10-15T12:00 vencido policiales:https://www.distritointerior.com.ar/hoy/218838/ge tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T12:00 vencido policiales:https://www.distritointerior.com.ar/hoy/218838/ge fuera del horizonte de programación (espera en la cola)
+- 2026-10-15T12:00 vencido policiales:https://www.latrochadigital.com.ar/2026/10/14/mue tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T12:00 vencido policiales:https://www.noticiaslasflores.com.ar/policiales/u tope de 15 publicaciones en 24 h de TikTok

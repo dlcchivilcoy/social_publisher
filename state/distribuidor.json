@@ -6670,14 +6670,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_03_bragado_robaron-una-toyota-hilux-2025-.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|tiktok": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
+   "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|tiktok",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo",
    "intentos": 0,
@@ -6695,13 +6695,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|x": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
+   "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|x",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo",
    "intentos": 0,
@@ -7852,14 +7852,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_03_general-villegas_recuperaron-ganado-robado-en-u.mp4"
   },
   "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|tiktok": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
+   "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|tiktok",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T17:42:34.000Z",
    "id": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente",
    "intentos": 0,
@@ -7877,14 +7877,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_02_general-villegas_motociclista-grave-tras-chocar.mp4"
   },
   "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|x": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
+   "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|x",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "fuera del horizonte de programación (espera en la cola)",
    "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T17:42:34.000Z",
    "id": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente",
    "intentos": 0,
@@ -8159,14 +8159,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|tiktok": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
+   "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|tiktok",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/",
    "intentos": 0,
@@ -8311,14 +8311,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|tiktok": {
-   "actualizado": "2026-10-14T18:00:18.000Z",
+   "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|tiktok",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/",
    "intentos": 0,
@@ -11759,46 +11759,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6accd083c1658fce94d92552",
-   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
-   "cuando": "2026-10-12T12:20:26.000Z",
-   "dueAt": "2026-10-12T14:00:11.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6accd087c1658fce94d92677",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
-   "cuando": "2026-10-12T12:20:26.000Z",
-   "dueAt": "2026-10-12T14:15:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6accd089355aa519678991b2",
-   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
-   "cuando": "2026-10-12T12:20:26.000Z",
-   "dueAt": "2026-10-12T12:23:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6accd08afcd88e54a9477df9",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok",
-   "cuando": "2026-10-12T12:20:26.000Z",
-   "dueAt": "2026-10-12T13:03:11.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
-   "cuando": "2026-10-12T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695756118789852437"
-  },
-  {
-   "clave": "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703|x",
-   "cuando": "2026-10-12T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109622780945703418"
-  },
   {
    "clave": "web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x",
    "cuando": "2026-10-12T12:40:21.000Z",
@@ -15976,6 +15936,42 @@
    "cuando": "2026-10-15T11:20:17.000Z",
    "dueAt": "2026-10-15T15:00:54.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|tiktok",
+   "cuando": "2026-10-15T12:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|x",
+   "cuando": "2026-10-15T12:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|tiktok",
+   "cuando": "2026-10-15T12:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|x",
+   "cuando": "2026-10-15T12:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "fuera del horizonte de programación (espera en la cola)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|tiktok",
+   "cuando": "2026-10-15T12:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|tiktok",
+   "cuando": "2026-10-15T12:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
