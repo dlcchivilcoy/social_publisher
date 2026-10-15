@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 7
+    "scheduled": 1,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-15T18:00:22.000Z"
+   "visto": "2026-10-15T19:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 16
+    "scheduled": 6,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-15T18:00:22.000Z"
+   "visto": "2026-10-15T19:20:16.000Z"
   }
  },
  "contenidos": {
@@ -913,6 +913,30 @@
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/PWER-CouUrg"
   },
+  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": {
+   "categoria": "accidente_vial",
+   "descripcion": "El siniestro fatal ocurrió este miércoles por la noche a la altura del kilómetro 129, entre San Antonio de Areco y Capitán Sarmiento. La víctima aún no fue identificada y la conductora de la Toyota Hilux resultó ilesa.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T19:12:18.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Un ciclista falleció este miércoles por la noche tras ser embestido por una camioneta Toyota Hilux blanca en la autopista de la ruta nacional 8, a la altura del kilómetro 129, en un tramo ubicado entre San Antonio de Areco y Capitán Sarmiento.\n\nLa víctima circulaba en bicicleta cuando se produjo el violento impacto alrededor de las 20:55, y hasta el momento las autoridades no lograron establecer su identidad.\n\nAl mando del rodado mayor iba una mujer de 42 años oriunda de Pergamino, quien resultó ilesa tras el choque.\n\nEn el lugar trabajaron efectivos policiales, Policía Vial, Bomberos y peritos de Policía Científica, cuyas labores provocaron demoras e interrupciones en la circulación vehicular.\n\nLa causa quedó caratulada de forma preventiva como homicidio culposo, mientras la Justicia y los investigadores avanzan con las pericias para determinar la mecánica exacta del siniestro y dar con los datos personales del ciclista fallecido.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #SiniestroVial #Ruta8 #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8",
+   "urgente": false,
+   "video_bytes": 78250,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4",
+   "volanta": "Autopista de la ruta en Pergamino",
+   "youtube_url": "https://youtube.com/shorts/4yIxuShVE4w"
+  },
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": {
    "categoria": "accidente_vial",
    "descripcion": "Tres vehículos protagonizaron una colisión en cadena en la intersección con la calle La Plata. Uno de los conductores sufrió traumatismos y fue trasladado al Hospital San José.",
@@ -1104,6 +1128,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_03_pergamino_un-adolescente-atac-a-fierrazo.mp4",
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/LbvlzdtGrfs"
+  },
+  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un vecino de la localidad de Gowland halló a dos uniformados dentro de su terreno tras la denuncia de una vecina. Uno de los agentes se negó a dar sus datos y el propietario aseguró que suele hostigarlo en su lugar de trabajo.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T19:12:19.000Z",
+   "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
+   "localidad": "Mercedes",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Un vecino de la localidad de Gowland, partido de Mercedes, vivió una situación insólita al encontrar a dos uniformados dentro de su propiedad.\n\nEl episodio comenzó luego de que una vecina lo acusara de interrumpir el suministro de agua y, según le explicaron los agentes, la mujer les habría permitido el ingreso al inmueble.\n\nMientras uno de los policías accedió a identificarse, el otro se negó rotundamente a proporcionar sus datos personales.\n\nEl propietario, empleado de una metalúrgica local, denunció además que este mismo efectivo suele acercarse a su lugar de trabajo para insultarlo.\n\n📲 Más noticias de Mercedes en www.diariolacampaña.com.ar\n\n#Mercedes #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Encontró a dos policías en su propiedad y uno se negó a identificarse",
+   "urgente": false,
+   "video_bytes": 139286,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4",
+   "volanta": "Gowland, Mercedes",
+   "youtube_url": "https://youtube.com/shorts/OML_8-5BiU0"
   },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": {
    "categoria": "otro_policial",
@@ -1800,6 +1848,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_02_chacabuco_detuvieron-a-un-pr-fugo-en-cha.mp4",
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/9vt28Qe2jH4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un sospechoso de 23 años fue atrapado en El Triunfo tras una investigación por un asalto cometido en el barrio Los Docentes. Secuestraron un vehículo vinculado al hecho.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T19:12:19.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
+   "localidad": "Lincoln",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Cayó un joven de 23 años tras una investigación por un asalto a mano armada cometido en Lincoln.\n\nLos operativos estuvieron a cargo de la SubDDI y culminaron con una captura en la localidad de El Triunfo.\n\nLa causa tramita en la fiscalía departamental.\n\n📲 Más noticias de Lincoln en www.diariolacampaña.com.ar\n\n#Lincoln #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó un joven acusado de robar con un arma blanca en Lincoln",
+   "urgente": false,
+   "video_bytes": 81724,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4",
+   "volanta": "Lincoln y El Triunfo",
+   "youtube_url": "https://youtube.com/shorts/nCgoX9guah0"
   },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": {
    "categoria": "accidente_vial",
@@ -4645,6 +4717,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/simulacion-agricola-detalla-como-impacta-el-nino-en-rindes-de-d57cd8",
    "volanta": ""
   },
+  "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b": {
+   "categoria": "nacionales",
+   "descripcion": "El abogado de la querella afirmó ante el tribunal que el exfutbolista sufrió un asesinato y cuestionó al equipo médico. Detalló que durante 14 días se…",
+   "generado": "2026-10-15T19:06:24.685Z",
+   "id": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_727bc1fbbdf943c2aff98feb9f410b48~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juicio-por-la-muerte-de-diego-maradona-fernando-burlando-5c3932",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Juicio por la muerte de Diego Maradona: Fernando Burlando aseguró que fue asesinado",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juicio-por-la-muerte-de-diego-maradona-fernando-burlando-5c3932",
+   "volanta": ""
+  },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": {
    "categoria": "nacionales",
    "descripcion": "La Justicia ordenó abonar 15 millones de pesos a los herederos de una pasajera de 85 años que se accidentó en septiembre de 2017 durante un viaje médico.",
@@ -4900,22 +4990,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 213,
-   "segundos": 8394,
+   "restantes": 211,
+   "segundos": 7198,
    "tope": 250
   },
   "30d": {
-   "restantes": 2844,
-   "segundos": 2254219,
+   "restantes": 2842,
+   "segundos": 2253023,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T19:00:23.000Z",
+ "cuota_visto": "2026-10-15T19:20:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -5724,14 +5814,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ac8632662e2ed69.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x": {
-   "actualizado": "2026-10-15T15:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T19:20:17.000Z",
+   "buffer_id": "6ad127728fb2c19f54de363c",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x",
    "creado": "2026-10-15T15:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T22:30:43.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T15:00:49.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9",
    "intentos": 0,
@@ -6190,13 +6280,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00208.mp4"
   },
   "entrevistas:job00211|x": {
-   "actualizado": "2026-10-15T17:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T19:20:17.000Z",
+   "buffer_id": "6ad127738fb2c19f54de3683",
    "clave": "entrevistas:job00211|x",
    "creado": "2026-10-15T17:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T22:45:26.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T17:00:21.000Z",
    "id": "entrevistas:job00211",
    "intentos": 0,
@@ -6642,6 +6733,55 @@
    "video_bytes": 95335,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
   },
+  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:12:18.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Un ciclista falleció este miércoles por la noche tras ser embestido por una camioneta Toyota Hilux blanca en la autopista de la ruta nacional 8, a la altura del kilómetro 129, en un tramo ubicado entre San Antonio de Areco y Capitán Sarmiento.\n\nLa víctima circulaba en bicicleta cuando se produjo el violento impacto alrededor de las 20:55, y hasta el momento las autoridades no lograron establecer su identidad.\n\nAl mando del rodado mayor iba una mujer de 42 años oriunda de Pergamino, quien resultó ilesa tras el choque.\n\nEn el lugar trabajaron efectivos policiales, Policía Vial, Bomberos y peritos de Policía Científica, cuyas labores provocaron demoras e interrupciones en la circulación vehicular.\n\nLa causa quedó caratulada de forma preventiva como homicidio culposo, mientras la Justicia y los investigadores avanzan con las pericias para determinar la mecánica exacta del siniestro y dar con los datos personales del ciclista fallecido.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
+   "tipo": "video",
+   "titulo": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8",
+   "urgente": false,
+   "vence": "2026-10-16T13:12:18.000Z",
+   "video_bytes": 78250,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:12:18.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8\n\nEl siniestro fatal ocurrió este miércoles por la noche a la altura del kilómetro 129, entre San Antonio de Areco y Capitán Sarmiento.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a\n#Pergamino",
+   "tipo": "video",
+   "titulo": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8",
+   "urgente": false,
+   "vence": "2026-10-16T13:12:18.000Z",
+   "video_bytes": 78250,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4"
+  },
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok": {
    "actualizado": "2026-10-15T09:00:21.000Z",
    "buffer_id": "",
@@ -7046,6 +7186,55 @@
    "video_bytes": 87475,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_03_pergamino_un-adolescente-atac-a-fierrazo.mp4"
   },
+  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:12:19.000Z",
+   "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un vecino de la localidad de Gowland, partido de Mercedes, vivió una situación insólita al encontrar a dos uniformados dentro de su propiedad.\n\nEl episodio comenzó luego de que una vecina lo acusara de interrumpir el suministro de agua y, según le explicaron los agentes, la mujer les habría permitido el ingreso al inmueble.\n\nMientras uno de los policías accedió a identificarse, el otro se negó rotundamente a proporcionar sus datos personales.\n\nEl propietario, empleado de una metalúrgica local, denunció además que este mismo efectivo suele acercarse a su lugar de trabajo para insultarlo.\n\n📲 Más noticias de Mercedes en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #mercedes #policiales",
+   "tipo": "video",
+   "titulo": "Encontró a dos policías en su propiedad y uno se negó a identificarse",
+   "urgente": false,
+   "vence": "2026-10-16T13:12:19.000Z",
+   "video_bytes": 139286,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
+  },
+  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:12:19.000Z",
+   "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Encontró a dos policías en su propiedad y uno se negó a identificarse\n\nUn vecino de la localidad de Gowland halló a dos uniformados dentro de su terreno tras la denuncia de una vecina.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a\n#Mercedes",
+   "tipo": "video",
+   "titulo": "Encontró a dos policías en su propiedad y uno se negó a identificarse",
+   "urgente": false,
+   "vence": "2026-10-16T13:12:19.000Z",
+   "video_bytes": 139286,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
+  },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok": {
    "actualizado": "2026-10-12T20:00:22.000Z",
    "buffer_id": "6acd24e3536740a2d1159178",
@@ -7305,18 +7494,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_01_junin_estafa-con-paquetes-tur-sticos.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|tiktok": {
-   "actualizado": "2026-10-15T16:00:24.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0f89c43886cbb0751e804",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|tiktok",
    "creado": "2026-10-15T14:00:19.000Z",
    "dueAt": "2026-10-15T18:03:38.000Z",
+   "enviado": "2026-10-15T18:06:13.128Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696957087108074772",
    "nota_url": "https://www.diariolacampaña.com.ar/n/la-matanza-un-alumno-baleo-a-un-companero-de-18-anos-en-el-bano-9c3597",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -7330,18 +7520,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_03_junin_bale-a-un-compa-ero-dentro-de-.mp4"
   },
   "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x": {
-   "actualizado": "2026-10-15T14:20:16.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0e121109a34529aa20ad8",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
    "creado": "2026-10-15T14:00:19.000Z",
    "dueAt": "2026-10-15T18:30:27.000Z",
+   "enviado": "2026-10-15T18:31:06.639Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110800649822605343",
    "nota_url": "https://www.diariolacampaña.com.ar/n/la-matanza-un-alumno-baleo-a-un-companero-de-18-anos-en-el-bano-9c3597",
    "origen": "policiales",
    "plataforma": "x",
@@ -7508,18 +7699,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_07_bragado_una-camioneta-sufri-da-os-tota.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok": {
-   "actualizado": "2026-10-15T17:00:22.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad106a77208706296a0c3c0",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok",
    "creado": "2026-10-15T14:00:19.000Z",
    "dueAt": "2026-10-15T18:43:55.000Z",
+   "enviado": "2026-10-15T18:44:43.014Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696967246366657808",
    "nota_url": "",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -7533,18 +7725,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_06_bragado_investigan-el-robo-de-un-auto-.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x": {
-   "actualizado": "2026-10-15T14:20:16.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0e122b7bdcc4fb8830fb2",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
    "creado": "2026-10-15T14:00:19.000Z",
    "dueAt": "2026-10-15T18:45:13.000Z",
+   "enviado": "2026-10-15T18:45:17.879Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110804220546789658",
    "nota_url": "",
    "origen": "policiales",
    "plataforma": "x",
@@ -8528,6 +8721,55 @@
    "video_bytes": 83944,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_02_chacabuco_detuvieron-a-un-pr-fugo-en-cha.mp4"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:12:19.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Cayó un joven de 23 años tras una investigación por un asalto a mano armada cometido en Lincoln.\n\nLos operativos estuvieron a cargo de la SubDDI y culminaron con una captura en la localidad de El Triunfo.\n\nLa causa tramita en la fiscalía departamental.\n\n📲 Más noticias de Lincoln en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #lincoln #policiales",
+   "tipo": "video",
+   "titulo": "Cayó un joven acusado de robar con un arma blanca en Lincoln",
+   "urgente": false,
+   "vence": "2026-10-16T13:12:19.000Z",
+   "video_bytes": 81724,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:12:19.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cayó un joven acusado de robar con un arma blanca en Lincoln\n\nUn sospechoso de 23 años fue atrapado en El Triunfo tras una investigación por un asalto cometido en el barrio Los Docentes. Secuestraron un vehículo vinculado al hecho.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
+   "tipo": "video",
+   "titulo": "Cayó un joven acusado de robar con un arma blanca en Lincoln",
+   "urgente": false,
+   "vence": "2026-10-16T13:12:19.000Z",
+   "video_bytes": 81724,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
+  },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
    "buffer_id": "6acc2c717db619a29151f186",
@@ -9331,6 +9573,7 @@
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/",
@@ -9925,18 +10168,19 @@
    "video_url": ""
   },
   "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0e5d052c687f7505498f5",
    "clave": "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x",
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "2026-10-15T19:15:50.000Z",
+   "enviado": "2026-10-15T19:16:01.893Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T10:08:21.306Z",
    "id": "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110811954243584264",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-en-chivilcoy-detalles-y-distancias-del-medio-maraton",
    "origen": "web",
    "plataforma": "x",
@@ -11870,13 +12114,13 @@
    "video_url": ""
   },
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x": {
-   "actualizado": "2026-10-14T19:20:14.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "",
    "clave": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x",
    "creado": "2026-10-14T19:20:14.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T19:06:14.681Z",
    "id": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83",
    "intentos": 0,
@@ -12195,18 +12439,19 @@
    "video_url": ""
   },
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x": {
-   "actualizado": "2026-10-15T14:20:16.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0e122b7bdcc4fb8830fec",
    "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "2026-10-15T19:00:45.000Z",
+   "enviado": "2026-10-15T19:02:33.992Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T10:09:00.662Z",
    "id": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110808564973347251",
    "nota_url": "https://www.diariolacampaña.com.ar/n/padel-juan-martin-bodda-en-dupla-con-ariel-zurraco-se-consagraron",
    "origen": "web",
    "plataforma": "x",
@@ -12874,6 +13119,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x": {
+   "actualizado": "2026-10-15T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x",
+   "creado": "2026-10-15T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T19:06:24.685Z",
+   "id": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juicio-por-la-muerte-de-diego-maradona-fernando-burlando-5c3932",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Juicio por la muerte de Diego Maradona: Fernando Burlando aseguró que fue asesinado\n\nEl abogado de la querella afirmó ante el tribunal que el exfutbolista sufrió un asesinato y cuestionó al equipo médico. Detalló que durante 14 días se…\n\nhttps://www.diariolacampaña.com.ar/n/juicio-por-la-muerte-de-diego-maradona-fernando-burlando-5c3932",
+   "tipo": "nota",
+   "titulo": "Juicio por la muerte de Diego Maradona: Fernando Burlando aseguró que fue asesinado",
+   "urgente": false,
+   "vence": "2026-10-16T19:06:24.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x": {
    "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6acdf32aca68ebbd369c1a8d",
@@ -13200,18 +13469,19 @@
    "video_url": ""
   },
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x": {
-   "actualizado": "2026-10-15T13:40:17.000Z",
+   "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0d7c1cd335deaefee72da",
    "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
    "creado": "2026-10-15T13:20:17.000Z",
    "dueAt": "2026-10-15T18:15:12.000Z",
+   "enviado": "2026-10-15T18:15:16.545Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T13:14:07.117Z",
    "id": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110796664948605391",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
    "origen": "web",
    "plataforma": "x",
@@ -13226,125 +13496,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acd58739f22b96ae7e41f06",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|x",
-   "cuando": "2026-10-12T22:00:21.000Z",
-   "dueAt": "2026-10-12T22:18:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acd58749f22b96ae7e41f3c",
-   "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x",
-   "cuando": "2026-10-12T22:00:21.000Z",
-   "dueAt": "2026-10-12T22:33:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acd5875c210c8c6dd3a1df4",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
-   "cuando": "2026-10-12T22:00:21.000Z",
-   "dueAt": "2026-10-12T22:48:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x",
-   "cuando": "2026-10-12T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109774562699178201"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|tiktok",
-   "cuando": "2026-10-12T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695910642162715924"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|x",
-   "cuando": "2026-10-12T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109770662386471274"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|tiktok",
-   "cuando": "2026-10-12T22:40:13.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x",
-   "cuando": "2026-10-12T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109767012490629631"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-12T23:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695923382788836616"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
-   "cuando": "2026-10-12T23:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109778337136517508"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x",
-   "cuando": "2026-10-13T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
-   "cuando": "2026-10-13T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x",
-   "cuando": "2026-10-13T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok",
-   "cuando": "2026-10-13T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x",
-   "cuando": "2026-10-13T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok",
-   "cuando": "2026-10-13T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
-   "cuando": "2026-10-13T01:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok",
    "cuando": "2026-10-13T01:00:20.000Z",
@@ -17437,10 +17588,128 @@
    "cuando": "2026-10-15T19:00:22.000Z",
    "dueAt": "2026-10-15T20:45:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
+   "cuando": "2026-10-15T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok",
+   "cuando": "2026-10-15T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
+   "cuando": "2026-10-15T19:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok",
+   "cuando": "2026-10-15T19:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
+   "cuando": "2026-10-15T19:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok",
+   "cuando": "2026-10-15T19:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x",
+   "cuando": "2026-10-15T19:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x",
+   "cuando": "2026-10-15T19:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|tiktok",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696957087108074772"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110800649822605343"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696967246366657808"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110804220546789658"
+  },
+  {
+   "clave": "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110811954243584264"
+  },
+  {
+   "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110808564973347251"
+  },
+  {
+   "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
+   "cuando": "2026-10-15T19:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110796664948605391"
+  },
+  {
+   "buffer_id": "6ad127728fb2c19f54de363c",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x",
+   "cuando": "2026-10-15T19:20:19.000Z",
+   "dueAt": "2026-10-15T22:30:43.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad127738fb2c19f54de3683",
+   "clave": "entrevistas:job00211|x",
+   "cuando": "2026-10-15T19:20:19.000Z",
+   "dueAt": "2026-10-15T22:45:26.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T18:00:22.000Z",
+ "ultima_sync": "2026-10-15T19:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -17485,6 +17754,7 @@
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
+  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": "2026-10-15T09:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
@@ -17493,6 +17763,7 @@
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento": "2026-10-15T18:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
+  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/": "2026-10-13T23:00:20.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
@@ -17522,6 +17793,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi": "2026-10-13T23:00:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug": "2026-10-14T13:20:22.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli": "2026-10-15T19:20:15.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -17674,6 +17946,7 @@
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
   "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": "2026-10-14T10:20:15.000Z",
+  "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b": "2026-10-15T19:20:15.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
