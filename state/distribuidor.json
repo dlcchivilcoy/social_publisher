@@ -237,6 +237,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8490b3df03bacbdd.mp4",
    "youtube_url": "https://www.youtube.com/shorts/eZ1gmjbY8zg"
   },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv": {
+   "descripcion": "Personal del Grupo Táctico Operativo (GTO) de la Policía recuperó este miércoles 14 de octubre una motocicleta que había sido sustraída días atrás en Chivilcoy. El procedimiento se llevó a cabo en la intersección de las calles 30 y Alberdi, donde secuestraron una moto Tibo de 110 cc.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-14T23:47:18.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Recuperaron una moto robada e investigan a un menor",
+   "urgente": false,
+   "video_bytes": 803762,
+   "video_mb": 0.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/oU7k5mLPxU8"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -3158,6 +3179,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/anses-de-cuanto-seran-las-jubilaciones-y-pensiones-en-noviembre-8b1a0f",
    "volanta": ""
   },
+  "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": {
+   "categoria": "",
+   "descripcion": "Recuperaron una moto robada e investigan a un menor Personal del Grupo Táctico Operativo (GTO) de la Policía recuperó este miércoles 14 de octubre una motocicleta que había sido sustraída días atrás en Chivilcoy. El procedimiento se llevó a cabo en la intersección de las calles 30 y Alberdi, donde los efectivos secuestraron una motocicleta marca Tibo de 110 cc, que registraba una denuncia por hurto agravado de vehículo dejado en la vía pública, radicada el 11 de octubre por la damnificada,...",
+   "generado": "2026-10-14T23:43:59.364Z",
+   "id": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_274a881d25344b5cb6ea8200c5e9d183~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Recuperaron una moto robada e investigan a un menor",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": {
    "categoria": "nacionales",
    "descripcion": "El Banco Nación financia hasta el 75% del valor de un inmueble. Los requisitos de ingresos familiares y el costo de la primera cuota a 20 y 30 años.",
@@ -4237,6 +4276,56 @@
    "vence": "2026-10-16T18:46:13.000Z",
    "video_bytes": 745800,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8490b3df03bacbdd.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok": {
+   "actualizado": "2026-10-15T00:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok",
+   "creado": "2026-10-15T00:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-14T23:47:18.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Recuperaron una moto robada e investigan a un menor\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía recuperó este miércoles 14 de octubre una motocicleta que había sido sustraída días atrás en Chivilcoy. El procedimiento se llevó a cabo en la intersección de las calles 30 y Alberdi, donde secuestraron una moto Tibo de 110 cc.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Recuperaron una moto robada e investigan a un menor",
+   "urgente": false,
+   "vence": "2026-10-16T23:47:18.000Z",
+   "video_bytes": 803762,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
+  },
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x": {
+   "actualizado": "2026-10-15T00:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
+   "creado": "2026-10-15T00:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-14T23:47:18.000Z",
+   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Recuperaron una moto robada e investigan a un menor\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía recuperó este miércoles 14 de octubre una motocicleta que había sido sustraída días atrás en Chivilcoy.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "tipo": "video",
+   "titulo": "Recuperaron una moto robada e investigan a un menor",
+   "urgente": false,
+   "vence": "2026-10-16T23:47:18.000Z",
+   "video_bytes": 803762,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -9213,6 +9302,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x": {
+   "actualizado": "2026-10-15T00:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x",
+   "creado": "2026-10-15T00:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-14T23:43:59.364Z",
+   "id": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Recuperaron una moto robada e investigan a un menor\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía recuperó este miércoles 14 de octubre una motocicleta que había sido sustraída días atrás en Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
+   "tipo": "nota",
+   "titulo": "Recuperaron una moto robada e investigan a un menor",
+   "urgente": false,
+   "vence": "2026-10-15T23:43:59.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1|x": {
    "actualizado": "2026-10-14T15:20:14.000Z",
    "buffer_id": "",
@@ -9973,27 +10086,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acc066fa9411fbcc55decb5",
-   "clave": "web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T23:16:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc0670fa026cfb8117dddb",
-   "clave": "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T23:31:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc06707db619a2914baf51",
-   "clave": "web:7b1a2e63-d062-48a9-ada5-e17347e06d48|x",
-   "cuando": "2026-10-11T21:58:08.000Z",
-   "dueAt": "2026-10-11T23:46:28.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
    "cuando": "2026-10-11T22:20:13.000Z",
@@ -14181,9 +14273,33 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
+   "cuando": "2026-10-15T00:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok",
+   "cuando": "2026-10-15T00:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x",
+   "cuando": "2026-10-15T00:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
- "ultima_limpieza_release": "2026-10-14",
+ "ultima_limpieza_release": "2026-10-15",
  "ultima_sync": "2026-10-14T23:20:14.000Z",
  "version": 1,
  "vistos": {
@@ -14197,6 +14313,7 @@
   "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye": "2026-10-14T14:20:14.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf": "2026-10-14T17:00:17.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou": "2026-10-14T19:00:21.000Z",
+  "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv": "2026-10-15T00:00:18.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -14342,6 +14459,7 @@
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": "2026-10-14T13:20:22.000Z",
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
   "web:ba878935-3e6f-4357-a078-3447ed612c35": "2026-10-13T21:20:15.000Z",
+  "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": "2026-10-15T00:00:18.000Z",
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": "2026-10-13T15:20:18.000Z",
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
   "web:c6470534-4523-4411-a14d-e8390249bc0c": "2026-10-14T10:20:15.000Z",

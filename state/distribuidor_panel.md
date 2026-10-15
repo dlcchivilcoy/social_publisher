@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 8 | 3 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 2 | 10 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 2 | 26 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 2 | 27 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 27 enviadas + 5 programadas de 50 por día
@@ -18,7 +18,10 @@ Actualizado: 14/10/2026 20:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2873 de 3000 (visto 2026-10-14T23:20:16.000Z)
 
-## Cola propia (43 esperando)
+## Cola propia (46 esperando)
+- X · Reels del bot · Recuperaron una moto robada e investigan a un menor — fuera del horizonte de programación (espera en la cola)
+- TikTok · Reels del bot · Recuperaron una moto robada e investigan a un menor — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Recuperaron una moto robada e investigan a un menor — en turno
 - X · Notas web · Presentan nueva tecnología nacional para monitorear sembradoras surco por surco — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
@@ -46,9 +49,6 @@ Actualizado: 14/10/2026 20:40 (hora AR) · ACTIVO
 - X · Notas web · Destacada participación de chivilcoyanos en el Campeonato Argentino de JIU JITSU — en turno
 - X · Notas web · Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting reali — en turno
 - X · Notas web · Preservación de los objetos — en turno
-- X · Notas web · Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a  — en turno
-- X · Notas web · Remarcaron el valor estratégico de la incorporación del nuevo espacio Infanto-Ju — en turno
-- X · Notas web · Erardo Spinelli analizó la prevención de los riesgos psicosociales y el estrés l — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,9 +56,6 @@ Actualizado: 14/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-14T22:00 enviado web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x 
-- 2026-10-14T22:00 enviado web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x 
-- 2026-10-14T22:00 enviado web:d72917a3-67e5-41df-affc-436383926d89|x 
 - 2026-10-14T22:00 programado policiales:https://www.latrochadigital.com.ar/2026/10/14/mue 
 - 2026-10-14T22:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
 - 2026-10-14T22:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
@@ -81,3 +78,6 @@ Actualizado: 14/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-14T23:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/123.html| 
 - 2026-10-14T23:20 programado policiales:http://www.elcivismo.com.ar/notas/59152/dos-muert 
 - 2026-10-14T23:40 recibido web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x 
+- 2026-10-15T00:00 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x 
+- 2026-10-15T00:00 recibido bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tikto 
+- 2026-10-15T00:00 recibido web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x 
