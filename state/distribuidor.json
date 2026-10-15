@@ -6041,14 +6041,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|tiktok": {
-   "actualizado": "2026-10-14T19:00:21.000Z",
+   "actualizado": "2026-10-15T13:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|tiktok",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T18:42:14.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio",
    "intentos": 0,
@@ -6066,13 +6066,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_03_pergamino_detuvieron-a-un-hombre-por-hos.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|x": {
-   "actualizado": "2026-10-14T19:00:21.000Z",
+   "actualizado": "2026-10-15T13:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|x",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T18:42:14.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio",
    "intentos": 0,
@@ -8247,14 +8247,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_06_9-de-julio_muri-un-conductor-tras-un-choq.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok": {
-   "actualizado": "2026-10-14T19:00:21.000Z",
+   "actualizado": "2026-10-15T13:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T18:42:14.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/",
    "intentos": 0,
@@ -8272,13 +8272,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_02_las-flores_choque-entre-moto-y-utilitario.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|x": {
-   "actualizado": "2026-10-14T19:00:21.000Z",
+   "actualizado": "2026-10-15T13:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|x",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T18:42:14.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/",
    "intentos": 0,
@@ -11844,30 +11844,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6|x",
-   "cuando": "2026-10-12T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109626578321682442"
-  },
-  {
-   "clave": "web:39554db5-c84a-492e-9690-89d95fba95ec|x",
-   "cuando": "2026-10-12T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109637903244476891"
-  },
-  {
-   "clave": "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311|x",
-   "cuando": "2026-10-12T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109641678868951177"
-  },
-  {
-   "clave": "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09|x",
-   "cuando": "2026-10-12T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109631347387969920"
-  },
   {
    "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
    "cuando": "2026-10-12T15:20:18.000Z",
@@ -16059,6 +16035,30 @@
   {
    "clave": "web:ebb4960b-25a9-442a-859e-8eb60ad25986|x",
    "cuando": "2026-10-15T12:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|tiktok",
+   "cuando": "2026-10-15T13:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|x",
+   "cuando": "2026-10-15T13:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok",
+   "cuando": "2026-10-15T13:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|x",
+   "cuando": "2026-10-15T13:00:17.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
   }

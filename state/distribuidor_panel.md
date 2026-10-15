@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,7 +18,7 @@ Actualizado: 15/10/2026 09:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2861 de 3000 (visto 2026-10-15T12:20:16.000Z)
 
-## Cola propia (45 esperando)
+## Cola propia (41 esperando)
 - X · Notas web · Juan Martín Bodda, en dupla con Ariel Zurraco, se consagraron campeones en Mar d — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Detalles y distancias del Medio Maratón Eduardo Pollaroli en Chivilcoy — en turno
 - X · Notas web · El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y  — en turno
@@ -56,10 +56,6 @@ Actualizado: 15/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T10:40 programado web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x 
-- 2026-10-15T11:00 programado web:8573e42b-75a0-4616-bdb3-930c6007225a|x 
-- 2026-10-15T11:00 programado bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok 
-- 2026-10-15T11:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tikto 
 - 2026-10-15T11:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tikto 
 - 2026-10-15T11:00 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
 - 2026-10-15T11:00 programado policiales:https://laopinionline.ar/articulo/un-adolescente- 
@@ -81,3 +77,7 @@ Actualizado: 15/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-15T12:20 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tikto 
 - 2026-10-15T12:40 recibido web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x 
 - 2026-10-15T12:40 vencido web:ebb4960b-25a9-442a-859e-8eb60ad25986|x no hubo lugar antes de su vencimiento
+- 2026-10-15T13:00 vencido policiales:https://laopinionline.ar/articulo/detuvieron-a-un tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T13:00 vencido policiales:https://laopinionline.ar/articulo/detuvieron-a-un no hubo lugar antes de su vencimiento
+- 2026-10-15T13:00 vencido policiales:https://www.noticiaslasflores.com.ar/policiales/c tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T13:00 vencido policiales:https://www.noticiaslasflores.com.ar/policiales/c no hubo lugar antes de su vencimiento
