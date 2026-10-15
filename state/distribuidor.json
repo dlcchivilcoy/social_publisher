@@ -4457,22 +4457,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 228,
-   "segundos": 28797,
+   "restantes": 227,
+   "segundos": 27599,
    "tope": 250
   },
   "30d": {
-   "restantes": 2859,
-   "segundos": 2274621,
+   "restantes": 2858,
+   "segundos": 2273423,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T13:20:19.000Z",
+ "cuota_visto": "2026-10-15T13:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -11977,14 +11977,14 @@
    "video_url": ""
   },
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x": {
-   "actualizado": "2026-10-15T13:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T13:40:17.000Z",
+   "buffer_id": "6ad0d7c1cd335deaefee72da",
    "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
    "creado": "2026-10-15T13:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T18:15:12.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T13:14:07.117Z",
    "id": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc",
    "intentos": 0,
@@ -12003,13 +12003,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6accfab4d38ece527cc0de3d",
-   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
-   "cuando": "2026-10-12T15:20:20.000Z",
-   "dueAt": "2026-10-12T15:23:33.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html|x",
    "cuando": "2026-10-12T15:40:18.000Z",
@@ -16215,6 +16208,13 @@
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
    "cuando": "2026-10-15T13:20:19.000Z",
    "dueAt": "2026-10-15T15:15:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0d7c1cd335deaefee72da",
+   "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
+   "cuando": "2026-10-15T13:40:17.000Z",
+   "dueAt": "2026-10-15T18:15:12.000Z",
    "evento": "programado"
   }
  ],

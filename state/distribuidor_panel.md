@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 15/10/2026 10:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 3 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 1 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 7 | 16 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 8 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 7 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2859 de 3000 (visto 2026-10-15T13:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2858 de 3000 (visto 2026-10-15T13:40:17.000Z)
 
-## Cola propia (43 esperando)
+## Cola propia (42 esperando)
 - TikTok · Reels del bot · Britos confirmó contactos con otros espacios para su futuro político — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Britos confirmó contactos con otros espacios para su futuro político — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Juan Martín Bodda, en dupla con Ariel Zurraco, se consagraron campeones en Mar d — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Detalles y distancias del Medio Maratón Eduardo Pollaroli en Chivilcoy — en turno
 - X · Notas web · El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y  — en turno
@@ -49,6 +48,7 @@ Actualizado: 15/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
 - X · Notas web · Prohíben la venta de juguetes squishy Pinch Family en todo el país — en turno
+- TikTok · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,7 +56,6 @@ Actualizado: 15/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T11:20 programado web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x 
 - 2026-10-15T12:00 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-15T12:00 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ no hubo lugar antes de su vencimiento
 - 2026-10-15T12:00 vencido policiales:https://www.distritointerior.com.ar/hoy/218838/ge tope de 15 publicaciones en 24 h de TikTok
@@ -81,3 +80,4 @@ Actualizado: 15/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-15T13:20 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
 - 2026-10-15T13:20 enviado web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x 
 - 2026-10-15T13:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x 
+- 2026-10-15T13:40 programado web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x 
