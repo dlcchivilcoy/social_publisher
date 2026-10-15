@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 4 | 5 | 0 | 1 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 7 | 2 | 1 | 0 |
 | Notas web | X | 15 | 14 | 1 | 21 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 27 enviadas + 8 programadas de 50 por día
+- X: conectado · Buffer: 29 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2835 de 3000 (visto 2026-10-15T21:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2834 de 3000 (visto 2026-10-15T23:00:20.000Z)
 
 ## Cola propia (37 esperando)
 - TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
@@ -58,8 +58,6 @@ Actualizado: 15/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T20:20 recibido bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
-- 2026-10-15T20:20 recibido web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x 
 - 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
 - 2026-10-15T20:20 programado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
 - 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
@@ -83,3 +81,5 @@ Actualizado: 15/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-15T21:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
 - 2026-10-15T22:20 recibido web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x 
 - 2026-10-15T22:20 vencido web:a48b6d42-70dd-4459-94a5-2c178959330a|x no hubo lugar antes de su vencimiento
+- 2026-10-15T23:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
+- 2026-10-15T23:00 enviado entrevistas:job00211|x 
