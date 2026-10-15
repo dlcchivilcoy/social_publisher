@@ -1,30 +1,28 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 5 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 3 | 7 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 1 | 9 | 1 | 0 | 0 |
-| Notas web | X | 15 | 11 | 3 | 19 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 1 | 8 | 2 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 18 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 9 enviadas + 1 programadas de 25 por día
+- X: conectado · Buffer: 26 enviadas + 7 programadas de 50 por día
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 208 de 250 · 30d: quedan 2839 de 3000 (visto 2026-10-15T20:20:18.000Z)
+15m: quedan 98 de 100 · 24h: quedan 206 de 250 · 30d: quedan 2837 de 3000 (visto 2026-10-15T20:40:17.000Z)
 
-## Cola propia (42 esperando)
-- X · Notas web · Destrozaron la vidriera y robaron en el comercio Aromas — espera para separarse de la otra publicación de la misma noticia
-- TikTok · Reels policiales · Hallaron asesinado a un hombre de 78 años en Pehuajó — tope de 15 publicaciones en 24 h de TikTok
+## Cola propia (40 esperando)
 - TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — en turno
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
@@ -49,23 +47,17 @@ Actualizado: 15/10/2026 17:20 (hora AR) · ACTIVO
 - X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
 - X · Notas web · Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca — en turno
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
+- X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
+- X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Se atrincheró con un arma en una casa de Bolívar y terminó detenido — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
+- TikTok · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T19:20 vencido web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x no hubo lugar antes de su vencimiento
-- 2026-10-15T19:20 enviado policiales:https://semanariodejunin.com.ar/nota/75593/la-mat 
-- 2026-10-15T19:20 enviado policiales:https://semanariodejunin.com.ar/nota/75593/la-mat 
-- 2026-10-15T19:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
-- 2026-10-15T19:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
-- 2026-10-15T19:20 enviado web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x 
-- 2026-10-15T19:20 enviado web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x 
-- 2026-10-15T19:20 enviado web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x 
-- 2026-10-15T19:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
 - 2026-10-15T19:20 programado entrevistas:job00211|x 
 - 2026-10-15T19:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
 - 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de tope de 15 publicaciones en 24 h de TikTok
@@ -82,3 +74,12 @@ Actualizado: 15/10/2026 17:20 (hora AR) · ACTIVO
 - 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
 - 2026-10-15T20:20 programado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
 - 2026-10-15T20:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
+- 2026-10-15T20:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tikto 
+- 2026-10-15T20:40 enviado entrevistas:job00212|x 
+- 2026-10-15T20:40 enviado entrevistas:job00216|x 
+- 2026-10-15T20:40 error_publicacion policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
+- 2026-10-15T20:40 enviado web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x 
+- 2026-10-15T20:40 enviado web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x 
+- 2026-10-15T20:40 enviado web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
+- 2026-10-15T20:40 programado web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x 
+- 2026-10-15T20:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
