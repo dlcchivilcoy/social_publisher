@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 15/10/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 2 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 8 | 13 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 8 | 14 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 6 enviadas + 8 programadas de 50 por día
@@ -30,6 +30,7 @@ Actualizado: 15/10/2026 09:20 (hora AR) · ACTIVO
 - X · Notas web · Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo — en turno
 - X · Notas web · Una startup ganó AgTech Revolution con seguros paramétricos automáticos — en turno
 - X · Notas web · Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Rut — en turno
+- X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 - X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
 - X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
 - X · Notas web · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — Buffer lleno (10 programadas por canal en el plan Free)
@@ -48,7 +49,6 @@ Actualizado: 15/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Volcó una camioneta en el camino a Timote y trasladaron al conductor — en turno
 - TikTok · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Choque en pleno centro: un motociclista terminó en el hospital — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,8 +56,6 @@ Actualizado: 15/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T10:20 programado web:62679199-0cb1-44ba-8928-add87ea1fa3f|x 
-- 2026-10-15T10:20 programado web:94f11536-c6e6-485e-b136-564a4c85d23b|x 
 - 2026-10-15T10:40 programado web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x 
 - 2026-10-15T11:00 programado web:8573e42b-75a0-4616-bdb3-930c6007225a|x 
 - 2026-10-15T11:00 programado bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok 
@@ -81,3 +79,5 @@ Actualizado: 15/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-15T12:20 recibido web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x 
 - 2026-10-15T12:20 vencido web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x no hubo lugar antes de su vencimiento
 - 2026-10-15T12:20 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tikto 
+- 2026-10-15T12:40 recibido web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x 
+- 2026-10-15T12:40 vencido web:ebb4960b-25a9-442a-859e-8eb60ad25986|x no hubo lugar antes de su vencimiento
