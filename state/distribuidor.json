@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 4,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-15T10:20:16.000Z"
+   "visto": "2026-10-15T11:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 6,
-    "sent": 2
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-15T10:20:16.000Z"
+   "visto": "2026-10-15T11:20:16.000Z"
   }
  },
  "contenidos": {
@@ -4364,22 +4364,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 37194,
+   "restantes": 231,
+   "segundos": 36000,
    "tope": 250
   },
   "30d": {
-   "restantes": 2864,
-   "segundos": 2283018,
+   "restantes": 2862,
+   "segundos": 2281824,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T11:00:28.000Z",
+ "cuota_visto": "2026-10-15T11:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4927,18 +4927,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x": {
-   "actualizado": "2026-10-15T09:00:22.000Z",
+   "actualizado": "2026-10-15T11:20:16.000Z",
    "buffer_id": "6ad0962b675f058f0b415b63",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
    "creado": "2026-10-15T00:00:18.000Z",
    "dueAt": "2026-10-15T11:00:39.000Z",
+   "enviado": "2026-10-15T11:03:14.302Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T23:47:18.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110687939294343646",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
    "origen": "bot",
    "plataforma": "x",
@@ -4977,18 +4978,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x": {
-   "actualizado": "2026-10-15T09:00:22.000Z",
+   "actualizado": "2026-10-15T11:20:16.000Z",
    "buffer_id": "6ad0962ade79014f82c8394b",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
    "creado": "2026-10-15T00:20:14.000Z",
    "dueAt": "2026-10-15T10:45:37.000Z",
+   "enviado": "2026-10-15T10:45:53.268Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T00:16:17.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110683572973522996",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
    "origen": "bot",
    "plataforma": "x",
@@ -5028,18 +5030,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x": {
-   "actualizado": "2026-10-15T09:00:22.000Z",
+   "actualizado": "2026-10-15T11:20:16.000Z",
    "buffer_id": "6ad0962a62b039d57d4a8b0c",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
    "creado": "2026-10-15T00:40:14.000Z",
    "dueAt": "2026-10-15T10:30:01.000Z",
+   "enviado": "2026-10-15T10:30:49.144Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T00:26:56.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110679780790051013",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
    "origen": "bot",
    "plataforma": "x",
@@ -5157,18 +5160,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e6f253639199f43.mp4"
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
-   "actualizado": "2026-10-15T11:00:20.000Z",
+   "actualizado": "2026-10-15T11:20:16.000Z",
    "buffer_id": "6ad0b2488e44c0222ce2d5f9",
    "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok",
    "creado": "2026-10-15T02:00:18.000Z",
    "dueAt": "2026-10-15T11:03:51.000Z",
+   "enviado": "2026-10-15T11:05:46.172Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T01:54:20.000Z",
    "id": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696848760101440820",
    "nota_url": "https://www.diariolacampaña.com.ar/n/nacional-sociedad-prohiben-la-venta-de-juguetes-squishy-pinch-family",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6740,18 +6744,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x": {
-   "actualizado": "2026-10-15T09:00:22.000Z",
+   "actualizado": "2026-10-15T11:20:16.000Z",
    "buffer_id": "6ad0962cde79014f82c83ba7",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
    "creado": "2026-10-15T09:00:21.000Z",
    "dueAt": "2026-10-15T11:15:59.000Z",
+   "enviado": "2026-10-15T11:16:04.094Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T03:11:52.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110691167998247350",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-un-fiat-palio-adventure-durante-la-fiesta-1a0434",
    "origen": "policiales",
    "plataforma": "x",
@@ -9287,14 +9292,14 @@
    "video_url": ""
   },
   "web:474e6223-8e55-4add-aedc-549975a9f8e1|x": {
-   "actualizado": "2026-10-15T10:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T11:20:16.000Z",
+   "buffer_id": "6ad0b6f0d955ee29a33fa875",
    "clave": "web:474e6223-8e55-4add-aedc-549975a9f8e1|x",
    "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T14:45:29.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T10:11:36.369Z",
    "id": "web:474e6223-8e55-4add-aedc-549975a9f8e1",
    "intentos": 0,
@@ -10098,13 +10103,14 @@
    "video_url": ""
   },
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x": {
-   "actualizado": "2026-10-15T10:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T11:20:16.000Z",
+   "buffer_id": "6ad0b6f1b0cc171adf18974e",
    "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
    "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T15:00:54.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T10:09:37.716Z",
    "id": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929",
    "intentos": 0,
@@ -10828,6 +10834,7 @@
    "creado": "2026-10-15T10:20:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T10:09:00.662Z",
    "id": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410",
@@ -11752,62 +11759,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok",
-   "cuando": "2026-10-12T12:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
-   "cuando": "2026-10-12T12:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok",
-   "cuando": "2026-10-12T12:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x",
-   "cuando": "2026-10-12T12:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x",
-   "cuando": "2026-10-12T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x",
-   "cuando": "2026-10-12T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x",
-   "cuando": "2026-10-12T12:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "buffer_id": "6accd083c1658fce94d92552",
    "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
@@ -15981,10 +15932,54 @@
    "cuando": "2026-10-15T11:00:28.000Z",
    "dueAt": "2026-10-15T13:43:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
+   "cuando": "2026-10-15T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110687939294343646"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
+   "cuando": "2026-10-15T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110683572973522996"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
+   "cuando": "2026-10-15T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110679780790051013"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok",
+   "cuando": "2026-10-15T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696848760101440820"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
+   "cuando": "2026-10-15T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110691167998247350"
+  },
+  {
+   "buffer_id": "6ad0b6f0d955ee29a33fa875",
+   "clave": "web:474e6223-8e55-4add-aedc-549975a9f8e1|x",
+   "cuando": "2026-10-15T11:20:17.000Z",
+   "dueAt": "2026-10-15T14:45:29.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0b6f1b0cc171adf18974e",
+   "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
+   "cuando": "2026-10-15T11:20:17.000Z",
+   "dueAt": "2026-10-15T15:00:54.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T10:20:16.000Z",
+ "ultima_sync": "2026-10-15T11:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
