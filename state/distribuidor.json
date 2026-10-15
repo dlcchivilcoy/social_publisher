@@ -5029,22 +5029,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 206,
-   "segundos": 2400,
+   "restantes": 205,
+   "segundos": 1196,
    "tope": 250
   },
   "30d": {
-   "restantes": 2837,
-   "segundos": 2248224,
+   "restantes": 2836,
+   "segundos": 2247021,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T20:40:17.000Z",
+ "cuota_visto": "2026-10-15T21:00:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6857,6 +6857,7 @@
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-15T19:12:18.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
@@ -8841,14 +8842,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T21:00:19.000Z",
+   "buffer_id": "6ad13ee45533140b41c8c6f0",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
    "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T02:45:19.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T19:12:19.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
    "intentos": 0,
@@ -13621,14 +13622,6 @@
  },
  "registro": [
   {
-   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
-   "cuando": "2026-10-13T10:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
    "cuando": "2026-10-13T10:20:18.000Z",
    "estado": "pendiente",
@@ -17813,6 +17806,13 @@
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|tiktok",
    "cuando": "2026-10-15T20:40:17.000Z",
    "dueAt": "2026-10-15T21:03:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad13ee45533140b41c8c6f0",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
+   "cuando": "2026-10-15T21:00:20.000Z",
+   "dueAt": "2026-10-16T02:45:19.000Z",
    "evento": "programado"
   }
  ],

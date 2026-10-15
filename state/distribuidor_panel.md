@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 4 | 3 | 7 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 4 | 4 | 6 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 1 | 8 | 2 | 0 | 0 |
 | Notas web | X | 15 | 14 | 1 | 18 | 0 | 0 | 0 |
 
@@ -16,15 +16,14 @@ Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 206 de 250 · 30d: quedan 2837 de 3000 (visto 2026-10-15T20:40:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 205 de 250 · 30d: quedan 2836 de 3000 (visto 2026-10-15T21:00:20.000Z)
 
-## Cola propia (40 esperando)
+## Cola propia (39 esperando)
 - TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — en turno
+- X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — en turno
@@ -49,6 +48,7 @@ Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
 - X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 - X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
+- X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,7 +58,6 @@ Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T19:20 programado entrevistas:job00211|x 
 - 2026-10-15T19:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
 - 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de no hubo lugar antes de su vencimiento
@@ -83,3 +82,4 @@ Actualizado: 15/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-15T20:40 enviado web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
 - 2026-10-15T20:40 programado web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x 
 - 2026-10-15T20:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
+- 2026-10-15T21:00 programado policiales:https://www.diariodemocracia.com/policiales/34657 
