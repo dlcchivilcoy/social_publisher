@@ -685,6 +685,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00211.mp4",
    "youtube_url": "https://youtu.be/vki0e_ffls4"
   },
+  "entrevistas:job00212": {
+   "descripcion": "Mari Pissaco, referente del PTS en Chivilcoy, alertó sobre la difícil situación de los jubilados frente a los aumentos en remedios y el impacto del DNU. Explicó cómo los costos médicos superan los ingresos de la mínima.",
+   "duracion_seg": null,
+   "entrevistado": "Mari Pissaco",
+   "generado": "2026-10-15T18:20:17.000Z",
+   "id": "entrevistas:job00212",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Mari Pissaco: El drama de los medicamentos y las jubilaciones",
+   "urgente": false,
+   "video_bytes": 35792667,
+   "video_mb": 34.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00212.mp4",
+   "youtube_url": "https://youtu.be/5gU-8XHxQ8A"
+  },
   "entrevistas:job00213": {
    "descripcion": "En Chivilcoy, el escritor Alvaro Cortes reflexionó sobre el proceso creativo y la idea de la inspiración artística. Presentó su poemario 'Cuando corten la música' en la Sociedad Francesa.",
    "duracion_seg": null,
@@ -4497,6 +4517,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
    "volanta": "Oberá · Deportes"
   },
+  "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": {
+   "categoria": "nacionales",
+   "descripcion": "El oficialismo frenó la sesión especial convocada para rechazar el mega decreto gracias a las ausencias de legisladores que responden a gobernadores…",
+   "generado": "2026-10-15T18:06:25.288Z",
+   "id": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fe1d2fca423548e692a592789040f301~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogación del DNU 70",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
+   "volanta": ""
+  },
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": {
    "categoria": "",
    "descripcion": "Suyana Climate Insurance se impuso entre 44 proyectos regionales con una herramienta que automatiza pagos ante eventos climáticos extremos.",
@@ -4829,17 +4867,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 11994,
+   "restantes": 215,
+   "segundos": 10797,
    "tope": 250
   },
   "30d": {
-   "restantes": 2847,
-   "segundos": 2257818,
+   "restantes": 2846,
+   "segundos": 2256622,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T18:00:22.000Z",
+ "cuota_visto": "2026-10-15T18:20:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6136,6 +6174,31 @@
    "vence": "2026-10-17T17:00:21.000Z",
    "video_bytes": 23721591,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00211.mp4"
+  },
+  "entrevistas:job00212|x": {
+   "actualizado": "2026-10-15T18:20:18.000Z",
+   "buffer_id": "6ad119634313e4161eacd058",
+   "clave": "entrevistas:job00212|x",
+   "creado": "2026-10-15T18:20:17.000Z",
+   "dueAt": "2026-10-15T20:15:55.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-15T18:20:17.000Z",
+   "id": "entrevistas:job00212",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Mari Pissaco: El drama de los medicamentos y las jubilaciones\n\nMari Pissaco, referente del PTS en Chivilcoy, alertó sobre la difícil situación de los jubilados frente a los aumentos en remedios y el impacto del DNU.\n\n▶️ La entrevista completa: https://youtu.be/5gU-8XHxQ8A",
+   "tipo": "video",
+   "titulo": "Mari Pissaco: El drama de los medicamentos y las jubilaciones",
+   "urgente": false,
+   "vence": "2026-10-17T18:20:17.000Z",
+   "video_bytes": 35792667,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00212.mp4"
   },
   "entrevistas:job00213|x": {
    "actualizado": "2026-10-15T17:40:16.000Z",
@@ -12601,6 +12664,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x": {
+   "actualizado": "2026-10-15T18:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x",
+   "creado": "2026-10-15T18:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T18:06:25.288Z",
+   "id": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogación del DNU 70\n\nEl oficialismo frenó la sesión especial convocada para rechazar el mega decreto gracias a las ausencias de legisladores que responden a gobernadores…\n\nhttps://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
+   "tipo": "nota",
+   "titulo": "Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogación del DNU 70",
+   "urgente": false,
+   "vence": "2026-10-16T18:06:25.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x": {
    "actualizado": "2026-10-15T10:20:13.000Z",
    "buffer_id": "",
@@ -12877,13 +12964,13 @@
    "video_url": ""
   },
   "web:efbef857-ab9c-4566-904e-f8f5926bed12|x": {
-   "actualizado": "2026-10-14T18:20:14.000Z",
+   "actualizado": "2026-10-15T18:20:18.000Z",
    "buffer_id": "",
    "clave": "web:efbef857-ab9c-4566-904e-f8f5926bed12|x",
    "creado": "2026-10-14T18:20:14.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T18:06:15.854Z",
    "id": "web:efbef857-ab9c-4566-904e-f8f5926bed12",
    "intentos": 0,
@@ -13052,44 +13139,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok",
-   "cuando": "2026-10-12T21:20:15.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|x",
-   "cuando": "2026-10-12T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-12T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|x",
-   "cuando": "2026-10-12T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|tiktok",
-   "cuando": "2026-10-12T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x",
    "cuando": "2026-10-12T21:40:15.000Z",
@@ -17270,6 +17319,40 @@
    "cuando": "2026-10-15T18:00:22.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7696946525720743188"
+  },
+  {
+   "clave": "entrevistas:job00212",
+   "cuando": "2026-10-15T18:20:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x",
+   "cuando": "2026-10-15T18:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00212|x",
+   "cuando": "2026-10-15T18:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:efbef857-ab9c-4566-904e-f8f5926bed12|x",
+   "cuando": "2026-10-15T18:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad119634313e4161eacd058",
+   "clave": "entrevistas:job00212|x",
+   "cuando": "2026-10-15T18:20:19.000Z",
+   "dueAt": "2026-10-15T20:15:55.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -17308,6 +17391,7 @@
   "entrevistas:job00207": "2026-10-14T17:00:17.000Z",
   "entrevistas:job00208": "2026-10-14T19:20:14.000Z",
   "entrevistas:job00211": "2026-10-15T17:00:21.000Z",
+  "entrevistas:job00212": "2026-10-15T18:20:17.000Z",
   "entrevistas:job00213": "2026-10-15T17:40:16.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
@@ -17499,6 +17583,7 @@
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
+  "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": "2026-10-15T18:20:17.000Z",
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": "2026-10-15T10:20:13.000Z",
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
