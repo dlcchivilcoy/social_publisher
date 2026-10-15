@@ -1,28 +1,38 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 2 | 2 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 2 | 3 | 1 | 1 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 2 | 2 | 7 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 2 | 3 | 6 | 1 | 0 | 0 |
 | Notas web | X | 15 | 8 | 6 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 16 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 6 enviadas + 2 programadas de 25 por día
+- TikTok: conectado · Buffer: 7 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2848 de 3000 (visto 2026-10-15T17:00:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2847 de 3000 (visto 2026-10-15T18:00:22.000Z)
 
-## Cola propia (38 esperando)
+## Cola propia (48 esperando)
 - X · Recortes de entrevistas · Alvaro Cortes: ¿Existe la inspiración al escribir? — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Eva Mussio: Crece la demanda de alimentos en comedores — en turno
+- X · Reels policiales · Hallaron asesinado a un hombre de 78 años en Pehuajó — en turno
+- TikTok · Reels policiales · Hallaron asesinado a un hombre de 78 años en Pehuajó — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — en turno
+- TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — en turno
+- TikTok · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
+- TikTok · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — en turno
+- TikTok · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una  — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro mo — en turno
 - X · Notas web · Accesos y arterias de la ciudad — en turno
@@ -39,16 +49,6 @@ Actualizado: 15/10/2026 14:40 (hora AR) · ACTIVO
 - X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
 - X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
 - X · Notas web · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Recuperaron una moto robada e investigan a un menor — en turno
-- X · Notas web · Presentan nueva tecnología nacional para monitorear sembradoras surco por surco — fuera del horizonte de programación (espera en la cola)
-- X · Reels policiales · Un adolescente atacó a fierrazos un patrullero urbano tras una denuncia de viole — en turno
-- TikTok · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — en turno
-- TikTok · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — en turno
-- TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
-- TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -57,17 +57,6 @@ Actualizado: 15/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T15:20 programado web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x 
-- 2026-10-15T15:40 recibido web:9cb13f8f-7629-4775-bc59-668a4e784c85|x 
-- 2026-10-15T15:40 recibido web:0488321b-e07d-4538-90b9-84ad4724ad17|x 
-- 2026-10-15T15:40 vencido web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x no hubo lugar antes de su vencimiento
-- 2026-10-15T15:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x 
-- 2026-10-15T15:40 enviado web:474e6223-8e55-4add-aedc-549975a9f8e1|x 
-- 2026-10-15T15:40 enviado web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x 
-- 2026-10-15T16:00 programado policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ 
-- 2026-10-15T16:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tikto 
-- 2026-10-15T16:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tikto 
-- 2026-10-15T16:00 programado policiales:https://semanariodejunin.com.ar/nota/75593/la-mat 
 - 2026-10-15T16:20 recibido web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x 
 - 2026-10-15T16:20 vencido policiales:https://casaresonline.com.ar/viajante-pehuajense- tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-15T16:20 vencido policiales:https://casaresonline.com.ar/viajante-pehuajense- no hubo lugar antes de su vencimiento
@@ -82,3 +71,14 @@ Actualizado: 15/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p 
 - 2026-10-15T17:40 entrevista_aprobada entrevistas:job00213 
 - 2026-10-15T17:40 recibido entrevistas:job00213|x 
+- 2026-10-15T18:00 recibido policiales:https://www.noticiaslasflores.com.ar/policiales/h 
+- 2026-10-15T18:00 recibido policiales:https://www.noticiaslasflores.com.ar/policiales/h 
+- 2026-10-15T18:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
+- 2026-10-15T18:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
+- 2026-10-15T18:00 recibido policiales:https://www.diariodemocracia.com/mas-deportivo/po 
+- 2026-10-15T18:00 recibido policiales:https://www.diariodemocracia.com/mas-deportivo/po 
+- 2026-10-15T18:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
+- 2026-10-15T18:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
+- 2026-10-15T18:00 recibido policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
+- 2026-10-15T18:00 recibido policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
+- 2026-10-15T18:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tikto 
