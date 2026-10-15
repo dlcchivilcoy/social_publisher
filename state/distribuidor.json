@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 14
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-15T01:40:15.000Z"
+   "visto": "2026-10-15T09:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 5,
-    "sent": 27
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-15T01:40:15.000Z"
+   "visto": "2026-10-15T09:00:22.000Z"
   }
  },
  "contenidos": {
@@ -791,6 +791,30 @@
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/PWER-CouUrg"
   },
+  "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": {
+   "categoria": "accidente_vial",
+   "descripcion": "Tres vehículos protagonizaron una colisión en cadena en la intersección con la calle La Plata. Uno de los conductores sufrió traumatismos y fue trasladado al Hospital San José.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T03:11:52.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-choque-multiple-en-la-ruta-188-dejo-un-conductor-20bc94",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Un choque múltiple en cadena se produjo en la ruta nacional 188, a la altura de la calle La Plata, en la ciudad de Pergamino.\n\nDel siniestro participaron una camioneta Nissan Frontier, un Chevrolet Corsa y un Volkswagen Up.\n\nComo consecuencia del impacto, el conductor del último vehículo, identificado como Gustavo Daniel Monzón, sufrió traumatismos en el tórax y en el antebrazo.\n\nEl hombre fue asistido y trasladado al Hospital San José, mientras que los otros dos conductores resultaron ilesos.\n\nEn el lugar trabajaron efectivos del Departamento Vial Pergamino y de la Comisaría Segunda, bajo la intervención de la Unidad Funcional de Instrucción y Juicio en turno en una causa caratulada como lesiones culposas.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque múltiple en la ruta 188: un conductor hospitalizado",
+   "urgente": false,
+   "video_bytes": 86889,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_02_pergamino_choque-m-ltiple-en-la-ruta-188.mp4",
+   "volanta": "Pergamino",
+   "youtube_url": "https://youtube.com/shorts/5-W1exi0xIQ"
+  },
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": {
    "categoria": "homicidio",
    "descripcion": "La Justicia dictó la pena tras convalidar un procedimiento abreviado por el crimen cometido a balazos en la vía pública durante octubre de 2023.",
@@ -1150,6 +1174,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4",
    "volanta": "Bragado en el barrio El Complejo",
    "youtube_url": "https://youtube.com/shorts/mVeeLegFPzk"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": {
+   "categoria": "robo",
+   "descripcion": "Sandra Benítez denunció que delincuentes le robaron su Fiat Palio Adventure verde el domingo 14 de octubre de 2026 a la noche, en la zona de calle 12 de Octubre y Acceso Perón.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T03:11:52.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-un-fiat-palio-adventure-durante-la-fiesta-1a0434",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "En el marco de la Fiesta Nacional del Caballo celebrada este fin de semana en Bragado, se registró un nuevo robo de vehículo.\n\nLa damnificada fue identificada como Sandra Benítez, quien sufrió el hurto de su automóvil particular.\n\nEl hecho ocurrió el domingo 14 de octubre de 2026 por la tarde-noche, cuando el rodado se encontraba estacionado en la vía pública.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Inseguridad #RoboAuto #BuenosAires",
+   "tipo": "video",
+   "titulo": "Le robaron el auto a Sandra Benítez durante la Fiesta del Caballo en Bragado",
+   "urgente": false,
+   "video_bytes": 71628,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4",
+   "volanta": "Robo en Bragado",
+   "youtube_url": "https://youtube.com/shorts/XKL0EiUs3wg"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": {
    "categoria": "robo",
@@ -3992,22 +4040,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 239,
-   "segundos": 70801,
+   "restantes": 237,
+   "segundos": 44392,
    "tope": 250
   },
   "30d": {
-   "restantes": 2870,
-   "segundos": 2316625,
+   "restantes": 2868,
+   "segundos": 2290216,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T01:40:15.000Z",
+ "cuota_visto": "2026-10-15T09:00:29.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4555,14 +4603,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x": {
-   "actualizado": "2026-10-15T00:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad0962b675f058f0b415b63",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
    "creado": "2026-10-15T00:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T11:00:39.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-14T23:47:18.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv",
    "intentos": 0,
@@ -4586,7 +4634,7 @@
    "creado": "2026-10-15T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T00:16:17.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
@@ -4605,14 +4653,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x": {
-   "actualizado": "2026-10-15T00:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad0962ade79014f82c8394b",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
    "creado": "2026-10-15T00:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T10:45:37.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:16:17.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
    "intentos": 0,
@@ -4630,18 +4678,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok": {
-   "actualizado": "2026-10-15T01:20:14.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6ad02a505ae624a5afa1e684",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
    "creado": "2026-10-15T00:40:14.000Z",
    "dueAt": "2026-10-15T02:03:29.000Z",
+   "enviado": "2026-10-15T02:04:12.491Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T00:26:56.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696709438391995668",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -4655,13 +4704,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x": {
-   "actualizado": "2026-10-15T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad0962a62b039d57d4a8b0c",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
    "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T10:30:01.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:26:56.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
    "intentos": 0,
@@ -4705,14 +4755,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x": {
-   "actualizado": "2026-10-15T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad096296295ecc932f752fd",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
    "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T10:15:12.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:34:12.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
    "intentos": 0,
@@ -4788,7 +4838,7 @@
    "creado": "2026-10-15T02:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T01:54:20.000Z",
    "id": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4",
@@ -4807,14 +4857,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_51ba1f17a85c84e6.mp4"
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x": {
-   "actualizado": "2026-10-15T02:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad096295ca32ad3c7eeb45f",
    "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x",
    "creado": "2026-10-15T02:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T10:00:04.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T01:54:20.000Z",
    "id": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4",
    "intentos": 0,
@@ -5279,6 +5329,7 @@
    "creado": "2026-10-15T02:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T01:42:21.000Z",
    "id": "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/",
@@ -5376,6 +5427,7 @@
    "creado": "2026-10-15T02:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T01:42:21.000Z",
    "id": "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen",
@@ -5519,6 +5571,55 @@
    "vence": "2026-10-13T12:16:38.000Z",
    "video_bytes": 95335,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok": {
+   "actualizado": "2026-10-15T09:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok",
+   "creado": "2026-10-15T09:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T03:11:52.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-choque-multiple-en-la-ruta-188-dejo-un-conductor-20bc94",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un choque múltiple en cadena se produjo en la ruta nacional 188, a la altura de la calle La Plata, en la ciudad de Pergamino.\n\nDel siniestro participaron una camioneta Nissan Frontier, un Chevrolet Corsa y un Volkswagen Up.\n\nComo consecuencia del impacto, el conductor del último vehículo, identificado como Gustavo Daniel Monzón, sufrió traumatismos en el tórax y en el antebrazo.\n\nEl hombre fue asistido y trasladado al Hospital San José, mientras que los otros dos conductores resultaron ilesos.\n\nEn el lugar trabajaron efectivos del Departamento Vial Pergamino y de la Comisaría Segunda, bajo la intervención de la Unidad Funcional de Instrucción y Juicio en turno en una causa caratulada como lesiones culposas.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
+   "tipo": "video",
+   "titulo": "Choque múltiple en la ruta 188: un conductor hospitalizado",
+   "urgente": false,
+   "vence": "2026-10-15T21:11:52.000Z",
+   "video_bytes": 86889,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_02_pergamino_choque-m-ltiple-en-la-ruta-188.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x": {
+   "actualizado": "2026-10-15T09:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x",
+   "creado": "2026-10-15T09:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T03:11:52.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-choque-multiple-en-la-ruta-188-dejo-un-conductor-20bc94",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Choque múltiple en la ruta 188: un conductor hospitalizado\n\nTres vehículos protagonizaron una colisión en cadena en la intersección con la calle La Plata.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pergamino-choque-multiple-en-la-ruta-188-dejo-un-conductor-20bc94\n#Pergamino",
+   "tipo": "video",
+   "titulo": "Choque múltiple en la ruta 188: un conductor hospitalizado",
+   "urgente": false,
+   "vence": "2026-10-15T21:11:52.000Z",
+   "video_bytes": 86889,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_02_pergamino_choque-m-ltiple-en-la-ruta-188.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok": {
    "actualizado": "2026-10-13T13:40:22.000Z",
@@ -5783,6 +5884,7 @@
    "creado": "2026-10-15T02:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T01:42:20.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana",
@@ -6187,14 +6289,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_07_bragado_daniel-ferrari-volc-con-su-che.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok": {
-   "actualizado": "2026-10-14T13:20:22.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes",
    "intentos": 0,
@@ -6286,6 +6388,56 @@
    "video_bytes": 93908,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok": {
+   "actualizado": "2026-10-15T09:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
+   "creado": "2026-10-15T09:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T03:11:52.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-un-fiat-palio-adventure-durante-la-fiesta-1a0434",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "En el marco de la Fiesta Nacional del Caballo celebrada este fin de semana en Bragado, se registró un nuevo robo de vehículo.\n\nLa damnificada fue identificada como Sandra Benítez, quien sufrió el hurto de su automóvil particular.\n\nEl hecho ocurrió el domingo 14 de octubre de 2026 por la tarde-noche, cuando el rodado se encontraba estacionado en la vía pública.\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
+   "tipo": "video",
+   "titulo": "Le robaron el auto a Sandra Benítez durante la Fiesta del Caballo en Bragado",
+   "urgente": false,
+   "vence": "2026-10-15T21:11:52.000Z",
+   "video_bytes": 71628,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x": {
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad0962cde79014f82c83ba7",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
+   "creado": "2026-10-15T09:00:21.000Z",
+   "dueAt": "2026-10-15T11:15:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-15T03:11:52.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-un-fiat-palio-adventure-durante-la-fiesta-1a0434",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Le robaron el auto a Sandra Benítez durante la Fiesta del Caballo en Bragado\n\nSandra Benítez denunció que delincuentes le robaron su Fiat Palio Adventure verde el domingo 14 de octubre de 2026 a la noche, en la zona de calle 12 de…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-robaron-un-fiat-palio-adventure-durante-la-fiesta-1a0434",
+   "tipo": "video",
+   "titulo": "Le robaron el auto a Sandra Benítez durante la Fiesta del Caballo en Bragado",
+   "urgente": false,
+   "vence": "2026-10-15T21:11:52.000Z",
+   "video_bytes": 71628,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok": {
    "actualizado": "2026-10-15T00:20:15.000Z",
    "buffer_id": "6ad00e2f5f62d3c5af0f4585",
@@ -6313,18 +6465,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x": {
-   "actualizado": "2026-10-14T22:20:18.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6ad000232a2f648468f17ef0",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "2026-10-15T02:15:58.000Z",
+   "enviado": "2026-10-15T02:16:03.682Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110555270728343828",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6",
    "origen": "policiales",
    "plataforma": "x",
@@ -7007,14 +7160,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_04_chacabuco_agredieron-a-una-preceptora-y-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|tiktok": {
-   "actualizado": "2026-10-14T13:20:22.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|tiktok",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug",
    "intentos": 0,
@@ -7032,13 +7185,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_02_chacabuco_detuvieron-a-un-pr-fugo-en-cha.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|x": {
-   "actualizado": "2026-10-14T13:20:22.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|x",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T13:11:25.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug",
    "intentos": 0,
@@ -7528,6 +7681,7 @@
    "creado": "2026-10-15T02:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T01:42:21.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado",
@@ -7699,18 +7853,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_06_9-de-julio_muri-un-conductor-tras-un-choq.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x": {
-   "actualizado": "2026-10-14T22:00:24.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6acffb791a2e3345fc757cc9",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "2026-10-15T02:00:05.000Z",
+   "enviado": "2026-10-15T02:00:47.660Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110551428880101439",
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-murio-un-conductor-tras-un-violento-choque-fatal-en-f38deb",
    "origen": "policiales",
    "plataforma": "x",
@@ -7850,18 +8005,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_07_las-flores_un-operario-muri-aplastado-por.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x": {
-   "actualizado": "2026-10-14T22:20:18.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6ad00023097897a778db64d7",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "2026-10-15T02:30:26.000Z",
+   "enviado": "2026-10-15T02:30:34.531Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110558923186950458",
    "nota_url": "https://www.diariolacampaña.com.ar/n/las-flores-un-trabajador-murio-aplastado-por-toneladas-de-maiz-52b6dd",
    "origen": "policiales",
    "plataforma": "x",
@@ -8306,18 +8462,19 @@
    "video_url": ""
   },
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x": {
-   "actualizado": "2026-10-14T22:40:14.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6ad004cfecf932275358cab5",
    "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
    "creado": "2026-10-14T17:00:17.000Z",
    "dueAt": "2026-10-15T02:45:01.000Z",
+   "enviado": "2026-10-15T02:45:16.202Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T16:42:28.878Z",
    "id": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110562621149606092",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
    "origen": "web",
    "plataforma": "x",
@@ -8844,6 +9001,7 @@
    "creado": "2026-10-15T00:20:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T00:14:14.695Z",
    "id": "web:65614571-f714-4991-a75b-bc27850d9de1",
@@ -9972,13 +10130,14 @@
    "video_url": ""
   },
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x": {
-   "actualizado": "2026-10-15T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad0962d1b1f1d94be38c10d",
    "clave": "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x",
    "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T13:30:37.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:24:55.021Z",
    "id": "web:b6fb5d90-4508-431b-b874-06c3716a8faf",
    "intentos": 0,
@@ -10477,13 +10636,14 @@
    "video_url": ""
   },
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x": {
-   "actualizado": "2026-10-15T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T09:00:22.000Z",
+   "buffer_id": "6ad0962c5ca32ad3c7eeb87c",
    "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
    "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T13:15:40.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T00:32:17.914Z",
    "id": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6",
    "intentos": 0,
@@ -10501,18 +10661,19 @@
    "video_url": ""
   },
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x": {
-   "actualizado": "2026-10-14T21:40:16.000Z",
+   "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6acff6c161e981448aa7bc00",
    "clave": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x",
    "creado": "2026-10-14T19:00:21.000Z",
    "dueAt": "2026-10-15T01:45:23.000Z",
+   "enviado": "2026-10-15T01:45:31.686Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T18:44:06.824Z",
    "id": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110547586339799222",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-juan-martin-bodda-y-ariel-zurraco-son",
    "origen": "web",
    "plataforma": "x",
@@ -10828,142 +10989,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x",
-   "cuando": "2026-10-12T00:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109426763268870521"
-  },
-  {
-   "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
-   "cuando": "2026-10-12T00:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109438151630487987"
-  },
-  {
-   "clave": "web:7b1a2e63-d062-48a9-ada5-e17347e06d48|x",
-   "cuando": "2026-10-12T00:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109430473621397793"
-  },
-  {
-   "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
-   "cuando": "2026-10-12T00:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109441735927484760"
-  },
-  {
-   "buffer_id": "6acc2c6f7db619a29151f135",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|x",
-   "cuando": "2026-10-12T00:40:18.000Z",
-   "dueAt": "2026-10-12T01:46:10.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc2c7063ff33d8c99f5a52",
-   "clave": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|x",
-   "cuando": "2026-10-12T00:40:18.000Z",
-   "dueAt": "2026-10-12T02:01:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc2c7063ff33d8c99f5a90",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|x",
-   "cuando": "2026-10-12T00:40:18.000Z",
-   "dueAt": "2026-10-12T02:16:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc2c71fa026cfb811e6d1c",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|tiktok",
-   "cuando": "2026-10-12T00:40:18.000Z",
-   "dueAt": "2026-10-12T00:43:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc2c717db619a29151f186",
-   "clave": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok",
-   "cuando": "2026-10-12T00:40:18.000Z",
-   "dueAt": "2026-10-12T01:23:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc2c72fa026cfb811e6d50",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-12T00:40:18.000Z",
-   "dueAt": "2026-10-12T02:03:10.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|tiktok",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695575125722238209"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio|x",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109460618247835832"
-  },
-  {
-   "clave": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695585933722291476"
-  },
-  {
-   "clave": "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a|x",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109449477526323327"
-  },
-  {
-   "clave": "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a|x",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109453061093556486"
-  },
-  {
-   "clave": "web:d35101a5-0683-4dc9-8422-7280ee9bf814|x",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109456837779042642"
-  },
-  {
-   "clave": "web:fb360714-5639-4bf4-a1f0-001886885d15|x",
-   "cuando": "2026-10-12T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109445638114996711"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x",
-   "cuando": "2026-10-12T09:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok",
-   "cuando": "2026-10-12T09:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-12T09:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695596092490140948"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|x",
-   "cuando": "2026-10-12T09:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109468230863429715"
-  },
   {
    "clave": "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|x",
    "cuando": "2026-10-12T09:00:24.000Z",
@@ -15055,10 +15080,152 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x",
+   "cuando": "2026-10-15T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok",
+   "cuando": "2026-10-15T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|tiktok",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696709438391995668"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110555270728343828"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110551428880101439"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110558923186950458"
+  },
+  {
+   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110562621149606092"
+  },
+  {
+   "clave": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x",
+   "cuando": "2026-10-15T09:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110547586339799222"
+  },
+  {
+   "buffer_id": "6ad096295ca32ad3c7eeb45f",
+   "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T10:00:04.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad096296295ecc932f752fd",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T10:15:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0962a62b039d57d4a8b0c",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T10:30:01.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0962ade79014f82c8394b",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T10:45:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0962b675f058f0b415b63",
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T11:00:39.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0962cde79014f82c83ba7",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T11:15:59.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0962c5ca32ad3c7eeb87c",
+   "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T13:15:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad0962d1b1f1d94be38c10d",
+   "clave": "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x",
+   "cuando": "2026-10-15T09:00:29.000Z",
+   "dueAt": "2026-10-15T13:30:37.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T01:40:15.000Z",
+ "ultima_sync": "2026-10-15T09:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -15097,6 +15264,7 @@
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
+  "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": "2026-10-15T09:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": "2026-10-14T09:00:20.000Z",
@@ -15112,6 +15280,7 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
