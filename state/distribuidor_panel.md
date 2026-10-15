@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 2 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 3 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 7 | 0 | 0 | 0 |
@@ -16,10 +16,9 @@ Actualizado: 15/10/2026 15:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 7 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2845 de 3000 (visto 2026-10-15T18:40:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 213 de 250 · 30d: quedan 2844 de 3000 (visto 2026-10-15T19:00:23.000Z)
 
-## Cola propia (48 esperando)
-- X · Recortes de entrevistas · Alvaro Cortes: ¿Existe la inspiración al escribir? — Buffer lleno (10 programadas por canal en el plan Free)
+## Cola propia (47 esperando)
 - X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Eva Mussio: Crece la demanda de alimentos en comedores — en turno
 - TikTok · Reels policiales · Hallaron asesinado a un hombre de 78 años en Pehuajó — tope de 15 publicaciones en 24 h de TikTok
@@ -49,6 +48,7 @@ Actualizado: 15/10/2026 15:40 (hora AR) · ACTIVO
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
 - X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 - X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
+- X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -57,7 +57,6 @@ Actualizado: 15/10/2026 15:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
 - 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p 
 - 2026-10-15T17:40 entrevista_aprobada entrevistas:job00213 
 - 2026-10-15T17:40 recibido entrevistas:job00213|x 
@@ -82,3 +81,4 @@ Actualizado: 15/10/2026 15:40 (hora AR) · ACTIVO
 - 2026-10-15T18:40 recibido entrevistas:job00216|x 
 - 2026-10-15T18:40 vencido web:b0047360-2401-4617-a433-07cb41aa8ce4|x no hubo lugar antes de su vencimiento
 - 2026-10-15T18:40 programado entrevistas:job00216|x 
+- 2026-10-15T19:00 programado entrevistas:job00213|x 
