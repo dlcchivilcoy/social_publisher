@@ -1,26 +1,25 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 3 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 15 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 0 | 2 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 14 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2865 de 3000 (visto 2026-10-15T10:40:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2864 de 3000 (visto 2026-10-15T11:00:28.000Z)
 
-## Cola propia (59 esperando)
-- X · Notas web · Información a la comunidad — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Más de 20 instituciones acercaron oportunidades de estudio y formación laboral — en turno
+## Cola propia (53 esperando)
+- X · Notas web · Más de 20 instituciones acercaron oportunidades de estudio y formación laboral — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Chivilcoy será sede del 2° Encuentro Regional de Coros Infantiles — en turno
 - X · Notas web · Juan Martín Bodda, en dupla con Ariel Zurraco, se consagraron campeones en Mar d — en turno
 - X · Notas web · Detalles y distancias del Medio Maratón Eduardo Pollaroli en Chivilcoy — en turno
@@ -33,15 +32,10 @@ Actualizado: 15/10/2026 07:40 (hora AR) · ACTIVO
 - X · Notas web · Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo — en turno
 - X · Notas web · Una startup ganó AgTech Revolution con seguros paramétricos automáticos — en turno
 - X · Notas web · Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Rut — en turno
-- TikTok · Reels del bot · Prohíben la venta de juguetes squishy Pinch Family en todo el país — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · Recuperaron una moto robada e investigan a un menor — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
-- TikTok · Reels policiales · Le robaron el auto a Sandra Benítez durante la Fiesta del Caballo en Bragado — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Recuperaron una moto robada e investigan a un menor — en turno
 - X · Notas web · Presentan nueva tecnología nacional para monitorear sembradoras surco por surco — fuera del horizonte de programación (espera en la cola)
-- TikTok · Reels policiales · Un adolescente atacó a fierrazos un patrullero urbano tras una denuncia de viole — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Un adolescente atacó a fierrazos un patrullero urbano tras una denuncia de viole — en turno
 - TikTok · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — en turno
@@ -49,6 +43,12 @@ Actualizado: 15/10/2026 07:40 (hora AR) · ACTIVO
 - X · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — en turno
 - TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
+- TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
+- X · Notas web · Prohíben la venta de juguetes squishy Pinch Family en todo el país — en turno
+- TikTok · Reels policiales · Murió un conductor tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
+- TikTok · Reels policiales · Un operario murió aplastado por toneladas de maíz dentro de un silo — tope de 15 publicaciones en 24 h de TikTok
+- TikTok · Reels policiales · Motociclista grave tras chocar contra un camión en General Villegas — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,12 +56,6 @@ Actualizado: 15/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T10:20 recibido web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3|x 
-- 2026-10-15T10:20 recibido web:f1bd5374-e321-4707-b267-340e4fb19c4e|x 
-- 2026-10-15T10:20 recibido web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x 
-- 2026-10-15T10:20 recibido web:15858ae6-1837-4436-b8ed-3a098530f992|x 
-- 2026-10-15T10:20 recibido web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x 
-- 2026-10-15T10:20 recibido web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x 
 - 2026-10-15T10:20 recibido web:2de9a502-e952-44a4-8525-478c9d70047a|x 
 - 2026-10-15T10:20 vencido web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x no hubo lugar antes de su vencimiento
 - 2026-10-15T10:20 vencido web:176d2a19-01bb-4043-bc46-282b3dd6307c|x no hubo lugar antes de su vencimiento
@@ -81,3 +75,9 @@ Actualizado: 15/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-15T10:20 programado web:62679199-0cb1-44ba-8928-add87ea1fa3f|x 
 - 2026-10-15T10:20 programado web:94f11536-c6e6-485e-b136-564a4c85d23b|x 
 - 2026-10-15T10:40 programado web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x 
+- 2026-10-15T11:00 programado web:8573e42b-75a0-4616-bdb3-930c6007225a|x 
+- 2026-10-15T11:00 programado bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok 
+- 2026-10-15T11:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tikto 
+- 2026-10-15T11:00 programado bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tikto 
+- 2026-10-15T11:00 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
+- 2026-10-15T11:00 programado policiales:https://laopinionline.ar/articulo/un-adolescente- 
