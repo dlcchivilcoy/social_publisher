@@ -4496,6 +4496,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inflacion-de-septiembre-el-indec-registro-un-incremento-del-1-9-907846",
    "volanta": ""
   },
+  "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": {
+   "categoria": "",
+   "descripcion": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio El intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave industrial ubicada sobre la Ruta Nacional 5, donde funcionaron Paquetá y posteriormente Bicontinentar, vinculada a la empresa Perchet. Además, se refirió a la situación del Complejo Federación, defendió el convenio propuesto con la firma SENTRA y cuestionó...",
+   "generado": "2026-10-15T14:57:10.098Z",
+   "id": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_09ac30c5a481468599295096a5cf4825~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": {
    "categoria": "nacionales",
    "descripcion": "Rogelio Frigerio e Ignacio Torres apoyaron quitar las primarias. Aseguraron que ir cinco veces a las urnas en 2027 es excesivo y destacaron el respaldo…",
@@ -4553,22 +4571,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 223,
-   "segundos": 24001,
+   "restantes": 222,
+   "segundos": 22793,
    "tope": 250
   },
   "30d": {
-   "restantes": 2854,
-   "segundos": 2269825,
+   "restantes": 2853,
+   "segundos": 2268618,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T14:40:16.000Z",
+ "cuota_visto": "2026-10-15T15:00:23.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -12228,6 +12246,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x": {
+   "actualizado": "2026-10-15T15:00:22.000Z",
+   "buffer_id": "6ad0ea874ed96805c7c1687d",
+   "clave": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x",
+   "creado": "2026-10-15T15:00:22.000Z",
+   "dueAt": "2026-10-15T19:30:33.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-15T14:57:10.098Z",
+   "id": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 La Justicia ordenó restituir la nave de Bicontinentar al Municipio\n\nEl intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
+   "tipo": "nota",
+   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
+   "urgente": false,
+   "vence": "2026-10-16T14:57:10.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x": {
    "actualizado": "2026-10-11T23:20:15.000Z",
    "buffer_id": "6acc066fa9411fbcc55decb5",
@@ -12307,18 +12350,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695802285997296897"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
-   "cuando": "2026-10-12T16:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109666288431763726"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html|x",
    "cuando": "2026-10-12T16:40:15.000Z",
@@ -16511,6 +16542,21 @@
    "cuando": "2026-10-15T14:40:16.000Z",
    "dueAt": "2026-10-15T19:15:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x",
+   "cuando": "2026-10-15T15:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad0ea874ed96805c7c1687d",
+   "clave": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x",
+   "cuando": "2026-10-15T15:00:23.000Z",
+   "dueAt": "2026-10-15T19:30:33.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -16742,6 +16788,7 @@
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
+  "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc": "2026-10-15T13:20:17.000Z"

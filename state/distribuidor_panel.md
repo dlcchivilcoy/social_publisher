@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 11:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 12:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,14 +9,14 @@ Actualizado: 15/10/2026 11:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 3 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 5 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 5 | 13 | 0 | 0 | 0 |
+| Notas web | X | 15 | 6 | 6 | 13 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 13 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2854 de 3000 (visto 2026-10-15T14:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 222 de 250 · 30d: quedan 2853 de 3000 (visto 2026-10-15T15:00:23.000Z)
 
 ## Cola propia (45 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 27 — tope de 15 publicaciones en 24 h de TikTok
@@ -56,8 +56,6 @@ Actualizado: 15/10/2026 11:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T13:20 enviado bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tikto 
-- 2026-10-15T13:20 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/ 
 - 2026-10-15T13:20 enviado web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x 
 - 2026-10-15T13:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x 
 - 2026-10-15T13:40 programado web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x 
@@ -81,3 +79,5 @@ Actualizado: 15/10/2026 11:40 (hora AR) · ACTIVO
 - 2026-10-15T14:40 enviado web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x 
 - 2026-10-15T14:40 enviado web:b6fb5d90-4508-431b-b874-06c3716a8faf|x 
 - 2026-10-15T14:40 programado web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x 
+- 2026-10-15T15:00 recibido web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
+- 2026-10-15T15:00 programado web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
