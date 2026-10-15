@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 1 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 2 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 7 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 3 | 6 | 1 | 0 | 0 |
-| Notas web | X | 15 | 8 | 6 | 16 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 6 | 17 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 16 enviadas + 8 programadas de 50 por día
 - TikTok: conectado · Buffer: 7 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2846 de 3000 (visto 2026-10-15T18:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2845 de 3000 (visto 2026-10-15T18:40:18.000Z)
 
 ## Cola propia (48 esperando)
 - X · Recortes de entrevistas · Alvaro Cortes: ¿Existe la inspiración al escribir? — Buffer lleno (10 programadas por canal en el plan Free)
@@ -33,6 +33,7 @@ Actualizado: 15/10/2026 15:20 (hora AR) · ACTIVO
 - X · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — en turno
 - TikTok · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
+- X · Notas web · Financiamiento universitario: la Justicia frenó las multas al Gobierno por los s — en turno
 - X · Notas web · Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogació — en turno
 - X · Notas web · Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una  — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro mo — en turno
@@ -48,7 +49,6 @@ Actualizado: 15/10/2026 15:20 (hora AR) · ACTIVO
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
 - X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 - X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
-- X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -57,11 +57,6 @@ Actualizado: 15/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T16:20 vencido web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x no hubo lugar antes de su vencimiento
-- 2026-10-15T17:00 entrevista_aprobada entrevistas:job00211 
-- 2026-10-15T17:00 recibido entrevistas:job00211|x 
-- 2026-10-15T17:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tikto 
-- 2026-10-15T17:00 error_publicacion policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
 - 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p 
 - 2026-10-15T17:40 entrevista_aprobada entrevistas:job00213 
@@ -82,3 +77,8 @@ Actualizado: 15/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-15T18:20 recibido entrevistas:job00212|x 
 - 2026-10-15T18:20 vencido web:efbef857-ab9c-4566-904e-f8f5926bed12|x no hubo lugar antes de su vencimiento
 - 2026-10-15T18:20 programado entrevistas:job00212|x 
+- 2026-10-15T18:40 entrevista_aprobada entrevistas:job00216 
+- 2026-10-15T18:40 recibido web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x 
+- 2026-10-15T18:40 recibido entrevistas:job00216|x 
+- 2026-10-15T18:40 vencido web:b0047360-2401-4617-a433-07cb41aa8ce4|x no hubo lugar antes de su vencimiento
+- 2026-10-15T18:40 programado entrevistas:job00216|x 

@@ -725,6 +725,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00213.mp4",
    "youtube_url": "https://youtu.be/dMBiD9yiRg4"
   },
+  "entrevistas:job00216": {
+   "descripcion": "Karina, artesana de Chivilcoy, contó cómo se animó a pasar de sus miniaturas de porcelana a una escultura en tamaño natural para la muestra de los 35 años de la Feria Artesanal y Cultural en el Museo Pompeo Boggio.",
+   "duracion_seg": null,
+   "entrevistado": "Sofia",
+   "generado": "2026-10-15T18:40:15.000Z",
+   "id": "entrevistas:job00216",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Karina y su desafío en la Feria Artesanal de Chivilcoy",
+   "urgente": false,
+   "video_bytes": 44611187,
+   "video_mb": 42.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00216.mp4",
+   "youtube_url": "https://youtu.be/ub6ultpuslI"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
@@ -3257,6 +3277,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
    "volanta": ""
   },
+  "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": {
+   "categoria": "nacionales",
+   "descripcion": "La Cámara de Apelaciones frenó de manera temporal los castigos económicos contra la Jefatura de Gabinete. Fue tras un planteo del Ministerio de Capital…",
+   "generado": "2026-10-15T18:36:21.788Z",
+   "id": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_07fd5f2a889c492b965af6c706526daf~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/financiamiento-universitario-la-justicia-freno-las-multas-al-c89e96",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Financiamiento universitario: la Justicia frenó las multas al Gobierno por los salarios docentes",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/financiamiento-universitario-la-justicia-freno-las-multas-al-c89e96",
+   "volanta": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
    "categoria": "nacionales",
    "descripcion": "La fiscalía solicitó una pena de una década de prisión para Maximiliano Cabaleyro, referente de Camioneros, tras el bloqueo a una distribuidora familiar…",
@@ -4867,17 +4905,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 215,
-   "segundos": 10797,
+   "restantes": 214,
+   "segundos": 9599,
    "tope": 250
   },
   "30d": {
-   "restantes": 2846,
-   "segundos": 2256622,
+   "restantes": 2845,
+   "segundos": 2255423,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T18:20:19.000Z",
+ "cuota_visto": "2026-10-15T18:40:18.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6224,6 +6262,31 @@
    "vence": "2026-10-17T17:40:16.000Z",
    "video_bytes": 29602491,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00213.mp4"
+  },
+  "entrevistas:job00216|x": {
+   "actualizado": "2026-10-15T18:40:16.000Z",
+   "buffer_id": "6ad11e114313e4161eadd36d",
+   "clave": "entrevistas:job00216|x",
+   "creado": "2026-10-15T18:40:15.000Z",
+   "dueAt": "2026-10-15T20:30:55.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-15T18:40:15.000Z",
+   "id": "entrevistas:job00216",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Karina y su desafío en la Feria Artesanal de Chivilcoy\n\nKarina, artesana de Chivilcoy, contó cómo se animó a pasar de sus miniaturas de porcelana a una escultura en tamaño natural para la muestra de los 35 años de la Feria…\n\n▶️ La entrevista completa: https://youtu.be/ub6ultpuslI",
+   "tipo": "video",
+   "titulo": "Karina y su desafío en la Feria Artesanal de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-17T18:40:15.000Z",
+   "video_bytes": 44611187,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00216.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
@@ -10896,6 +10959,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x": {
+   "actualizado": "2026-10-15T18:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x",
+   "creado": "2026-10-15T18:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T18:36:21.788Z",
+   "id": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/financiamiento-universitario-la-justicia-freno-las-multas-al-c89e96",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Financiamiento universitario: la Justicia frenó las multas al Gobierno por los salarios docentes\n\nLa Cámara de Apelaciones frenó de manera temporal los castigos económicos contra la Jefatura de Gabinete. Fue tras un planteo del Ministerio de Capital…\n\nhttps://www.diariolacampaña.com.ar/n/financiamiento-universitario-la-justicia-freno-las-multas-al-c89e96",
+   "tipo": "nota",
+   "titulo": "Financiamiento universitario: la Justicia frenó las multas al Gobierno por los salarios docentes",
+   "urgente": false,
+   "vence": "2026-10-16T18:36:21.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0b9f7db619a2914ceb6c",
@@ -11880,13 +11967,13 @@
    "video_url": ""
   },
   "web:b0047360-2401-4617-a433-07cb41aa8ce4|x": {
-   "actualizado": "2026-10-14T18:40:14.000Z",
+   "actualizado": "2026-10-15T18:40:16.000Z",
    "buffer_id": "",
    "clave": "web:b0047360-2401-4617-a433-07cb41aa8ce4|x",
    "creado": "2026-10-14T18:40:14.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T18:36:14.595Z",
    "id": "web:b0047360-2401-4617-a433-07cb41aa8ce4",
    "intentos": 0,
@@ -13139,43 +13226,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x",
-   "cuando": "2026-10-12T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|tiktok",
-   "cuando": "2026-10-12T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6acd53c03d6121df402f25be",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|tiktok",
-   "cuando": "2026-10-12T21:40:17.000Z",
-   "dueAt": "2026-10-12T21:43:49.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acd53c15462be2e90259c99",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos|tiktok",
-   "cuando": "2026-10-12T21:40:17.000Z",
-   "dueAt": "2026-10-12T22:23:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acd53c1aec88be081e4576e",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-12T21:40:17.000Z",
-   "dueAt": "2026-10-12T23:03:17.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acd58735229b40e8682f74c",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven|x",
@@ -17353,6 +17403,40 @@
    "cuando": "2026-10-15T18:20:19.000Z",
    "dueAt": "2026-10-15T20:15:55.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00216",
+   "cuando": "2026-10-15T18:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x",
+   "cuando": "2026-10-15T18:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00216|x",
+   "cuando": "2026-10-15T18:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:b0047360-2401-4617-a433-07cb41aa8ce4|x",
+   "cuando": "2026-10-15T18:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad11e114313e4161eadd36d",
+   "clave": "entrevistas:job00216|x",
+   "cuando": "2026-10-15T18:40:18.000Z",
+   "dueAt": "2026-10-15T20:30:55.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -17393,6 +17477,7 @@
   "entrevistas:job00211": "2026-10-15T17:00:21.000Z",
   "entrevistas:job00212": "2026-10-15T18:20:17.000Z",
   "entrevistas:job00213": "2026-10-15T17:40:16.000Z",
+  "entrevistas:job00216": "2026-10-15T18:40:15.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
@@ -17513,6 +17598,7 @@
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
+  "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": "2026-10-15T18:40:15.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
