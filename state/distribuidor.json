@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 2
+    "scheduled": 1,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-15T12:20:16.000Z"
+   "visto": "2026-10-15T13:20:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 6
+    "scheduled": 7,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-15T12:20:16.000Z"
+   "visto": "2026-10-15T13:20:18.000Z"
   }
  },
  "contenidos": {
@@ -320,6 +320,27 @@
    "video_mb": 0.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4",
    "youtube_url": "https://www.youtube.com/shorts/qEHAVhqPhXo"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": {
+   "descripcion": "De cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus pasos.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-15T13:17:11.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
+   "urgente": false,
+   "video_bytes": 298090,
+   "video_mb": 0.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/xSy1loDxK9s"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -2903,6 +2924,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
    "volanta": "Muestra"
   },
+  "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": {
+   "categoria": "nacionales",
+   "descripcion": "El secretario de Trabajo justificó la caída del empleo formal en la elección de los ciudadanos por el trabajo independiente. El funcionario brindó…",
+   "generado": "2026-10-15T13:06:46.139Z",
+   "id": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8978993587114f5692bafb3a2dd9ad9c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relación de dependencia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
+   "volanta": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
    "categoria": "nacionales",
    "descripcion": "La fiscalía solicitó una pena de una década de prisión para Maximiliano Cabaleyro, referente de Camioneros, tras el bloqueo a una distribuidora familiar…",
@@ -4396,26 +4435,44 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/se-profundiza-la-ruptura-entre-cristina-kirchner-y-axel-c3e37b",
    "volanta": ""
+  },
+  "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc": {
+   "categoria": "",
+   "descripcion": "Britos confirmó contactos con otros espacios para su futuro político De cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus próximos pasos. Además, consideró que no se modificará la normativa que le impide buscar otra reelección municipal. “Me he sentido cómodo, varias veces,...",
+   "generado": "2026-10-15T13:14:07.117Z",
+   "id": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_49351606a9c047af8de560b4524bba70~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "volanta": "Chivilcoy · Politica"
   }
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 230,
-   "segundos": 32400,
+   "restantes": 228,
+   "segundos": 28797,
    "tope": 250
   },
   "30d": {
-   "restantes": 2861,
-   "segundos": 2278225,
+   "restantes": 2859,
+   "segundos": 2274621,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T12:20:16.000Z",
+ "cuota_visto": "2026-10-15T13:20:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4938,18 +4995,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8490b3df03bacbdd.mp4"
   },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok": {
-   "actualizado": "2026-10-15T11:00:20.000Z",
+   "actualizado": "2026-10-15T13:20:18.000Z",
    "buffer_id": "6ad0b24b8e44c0222ce2dfec",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok",
    "creado": "2026-10-15T00:00:18.000Z",
    "dueAt": "2026-10-15T12:23:27.000Z",
+   "enviado": "2026-10-15T12:25:13.828Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T23:47:18.000Z",
    "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696869214484811015",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -5143,6 +5201,56 @@
    "vence": "2026-10-17T00:34:12.000Z",
    "video_bytes": 724537,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok": {
+   "actualizado": "2026-10-15T13:20:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok",
+   "creado": "2026-10-15T13:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T13:17:11.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Britos confirmó contactos con otros espacios para su futuro político\n\nDe cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus pasos.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
+   "urgente": false,
+   "vence": "2026-10-17T13:17:11.000Z",
+   "video_bytes": 298090,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x": {
+   "actualizado": "2026-10-15T13:20:18.000Z",
+   "buffer_id": "6ad0d313ee1dd4cd5e4add8b",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
+   "creado": "2026-10-15T13:20:17.000Z",
+   "dueAt": "2026-10-15T15:15:27.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-15T13:17:11.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Britos confirmó contactos con otros espacios para su futuro político\n\nDe cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
+   "urgente": false,
+   "vence": "2026-10-17T13:17:11.000Z",
+   "video_bytes": 298090,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -6756,18 +6864,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok": {
-   "actualizado": "2026-10-15T11:00:20.000Z",
+   "actualizado": "2026-10-15T13:20:18.000Z",
    "buffer_id": "6ad0b24ba5eef0dc227f9b98",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
    "creado": "2026-10-15T09:00:21.000Z",
    "dueAt": "2026-10-15T13:03:19.000Z",
+   "enviado": "2026-10-15T13:07:14.655Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T03:11:52.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696879978113174790",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-un-fiat-palio-adventure-durante-la-fiesta-1a0434",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -9754,6 +9863,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x": {
+   "actualizado": "2026-10-15T13:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x",
+   "creado": "2026-10-15T13:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T13:06:46.139Z",
+   "id": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relación de dependencia\n\nEl secretario de Trabajo justificó la caída del empleo formal en la elección de los ciudadanos por el trabajo independiente. El funcionario brindó…\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
+   "tipo": "nota",
+   "titulo": "El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relación de dependencia",
+   "urgente": false,
+   "vence": "2026-10-16T13:06:46.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0b9f7db619a2914ceb6c",
@@ -10113,13 +10246,13 @@
    "video_url": ""
   },
   "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7|x": {
-   "actualizado": "2026-10-14T13:20:22.000Z",
+   "actualizado": "2026-10-15T13:20:18.000Z",
    "buffer_id": "",
    "clave": "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7|x",
    "creado": "2026-10-14T13:20:22.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T13:06:18.705Z",
    "id": "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7",
    "intentos": 0,
@@ -11443,18 +11576,19 @@
    "video_url": ""
   },
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x": {
-   "actualizado": "2026-10-15T09:00:22.000Z",
+   "actualizado": "2026-10-15T13:20:18.000Z",
    "buffer_id": "6ad0962c5ca32ad3c7eeb87c",
    "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
    "creado": "2026-10-15T00:40:14.000Z",
    "dueAt": "2026-10-15T13:15:40.000Z",
+   "enviado": "2026-10-15T13:15:46.205Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T00:32:17.914Z",
    "id": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110721291544044009",
    "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
    "origen": "web",
    "plataforma": "x",
@@ -11841,76 +11975,34 @@
    "vence": "2026-10-12T12:16:54.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x": {
+   "actualizado": "2026-10-15T13:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
+   "creado": "2026-10-15T13:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-15T13:14:07.117Z",
+   "id": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Britos confirmó contactos con otros espacios para su futuro político\n\nDe cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
+   "tipo": "nota",
+   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
+   "urgente": false,
+   "vence": "2026-10-16T13:14:07.000Z",
+   "video_bytes": 0,
+   "video_url": ""
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
-   "cuando": "2026-10-12T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
-   "cuando": "2026-10-12T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:9110bbe1-bdf4-4c81-bcba-062f16958539|x",
-   "cuando": "2026-10-12T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:76c3d71e-5104-400d-a4f4-414ceb358697|x",
-   "cuando": "2026-10-12T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:380cc711-312c-4089-9509-56feaafc5238|x",
-   "cuando": "2026-10-12T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
-   "cuando": "2026-10-12T15:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|x",
-   "cuando": "2026-10-12T15:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109646437461938390"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|x",
-   "cuando": "2026-10-12T15:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109649110898725280"
-  },
-  {
-   "buffer_id": "6accfab4bd2a64ac735102af",
-   "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|x",
-   "cuando": "2026-10-12T15:20:20.000Z",
-   "dueAt": "2026-10-12T15:23:16.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6accfab4d38ece527cc0de3d",
    "clave": "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok",
@@ -16061,10 +16153,73 @@
    "cuando": "2026-10-15T13:00:17.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7|x",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696869214484811015"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696879978113174790"
+  },
+  {
+   "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
+   "cuando": "2026-10-15T13:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110721291544044009"
+  },
+  {
+   "buffer_id": "6ad0d313ee1dd4cd5e4add8b",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
+   "cuando": "2026-10-15T13:20:19.000Z",
+   "dueAt": "2026-10-15T15:15:27.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T12:20:16.000Z",
+ "ultima_sync": "2026-10-15T13:20:18.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -16081,6 +16236,7 @@
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": "2026-10-15T00:20:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": "2026-10-15T00:40:14.000Z",
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": "2026-10-15T13:20:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
@@ -16205,6 +16361,7 @@
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
+  "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
@@ -16287,6 +16444,7 @@
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
-  "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z"
+  "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
+  "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc": "2026-10-15T13:20:17.000Z"
  }
 }
