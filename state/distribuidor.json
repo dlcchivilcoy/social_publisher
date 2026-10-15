@@ -3766,6 +3766,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/informacion-a-la-comunidad-la-direccion-de-genero-puso-en-marcha-una",
    "volanta": ""
   },
+  "web:87e2bd08-5d5c-4641-835f-adc4c2401866": {
+   "categoria": "nacionales",
+   "descripcion": "La Verificación Técnica Vehicular subió 17,6% en territorio bonaerense tras vencer el plazo de noventa días de suspensión acordado entre el Estado…",
+   "generado": "2026-10-15T21:06:25.019Z",
+   "id": "web:87e2bd08-5d5c-4641-835f-adc4c2401866",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5c92d837af5646d69fa09bbf18e9c7fd~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-la-vtv-en-la-provincia-de-buenos-aires-nuevos-montos-y-30de17",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Aumentó la VTV en la provincia de Buenos Aires: nuevos montos y categorías",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aumento-la-vtv-en-la-provincia-de-buenos-aires-nuevos-montos-y-30de17",
+   "volanta": ""
+  },
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": {
    "categoria": "nacionales",
    "descripcion": "La Justicia desestimó el reclamo civil de una propietaria contra los habitantes de una finca lindera y le ordenó abonar las costas procesales del litigio.",
@@ -6876,14 +6894,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok": {
-   "actualizado": "2026-10-15T09:00:21.000Z",
+   "actualizado": "2026-10-15T21:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok",
    "creado": "2026-10-15T09:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T03:11:52.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado",
    "intentos": 0,
@@ -6901,13 +6919,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_02_pergamino_choque-m-ltiple-en-la-ruta-188.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x": {
-   "actualizado": "2026-10-15T09:00:21.000Z",
+   "actualizado": "2026-10-15T21:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x",
    "creado": "2026-10-15T09:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T03:11:52.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado",
    "intentos": 0,
@@ -10118,13 +10136,13 @@
    "video_url": ""
   },
   "web:14487ca8-2475-41c1-b598-3490602d4ec8|x": {
-   "actualizado": "2026-10-14T21:20:14.000Z",
+   "actualizado": "2026-10-15T21:20:18.000Z",
    "buffer_id": "",
    "clave": "web:14487ca8-2475-41c1-b598-3490602d4ec8|x",
    "creado": "2026-10-14T21:20:14.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T21:06:24.926Z",
    "id": "web:14487ca8-2475-41c1-b598-3490602d4ec8",
    "intentos": 0,
@@ -11857,6 +11875,30 @@
    "titulo": "Información a la comunidad",
    "urgente": false,
    "vence": "2026-10-16T10:12:17.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x": {
+   "actualizado": "2026-10-15T21:20:18.000Z",
+   "buffer_id": "",
+   "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
+   "creado": "2026-10-15T21:20:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T21:06:25.019Z",
+   "id": "web:87e2bd08-5d5c-4641-835f-adc4c2401866",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-la-vtv-en-la-provincia-de-buenos-aires-nuevos-montos-y-30de17",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Aumentó la VTV en la provincia de Buenos Aires: nuevos montos y categorías\n\nLa Verificación Técnica Vehicular subió 17,6% en territorio bonaerense tras vencer el plazo de noventa días de suspensión acordado entre el Estado…\n\nhttps://www.diariolacampaña.com.ar/n/aumento-la-vtv-en-la-provincia-de-buenos-aires-nuevos-montos-y-30de17",
+   "tipo": "nota",
+   "titulo": "Aumentó la VTV en la provincia de Buenos Aires: nuevos montos y categorías",
+   "urgente": false,
+   "vence": "2026-10-16T21:06:25.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -13621,38 +13663,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
-   "cuando": "2026-10-13T10:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
-   "cuando": "2026-10-13T10:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x",
-   "cuando": "2026-10-13T10:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
-   "cuando": "2026-10-13T10:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
    "cuando": "2026-10-13T10:20:19.000Z",
@@ -17814,6 +17824,32 @@
    "cuando": "2026-10-15T21:00:20.000Z",
    "dueAt": "2026-10-16T02:45:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
+   "cuando": "2026-10-15T21:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok",
+   "cuando": "2026-10-15T21:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x",
+   "cuando": "2026-10-15T21:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:14487ca8-2475-41c1-b598-3490602d4ec8|x",
+   "cuando": "2026-10-15T21:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -18001,6 +18037,7 @@
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
+  "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",

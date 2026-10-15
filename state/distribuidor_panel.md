@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,9 +7,9 @@ Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 4 | 4 | 6 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 1 | 8 | 2 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 18 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 4 | 4 | 5 | 0 | 1 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 1 | 7 | 2 | 1 | 0 |
+| Notas web | X | 15 | 14 | 1 | 19 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 26 enviadas + 7 programadas de 50 por día
@@ -18,7 +18,7 @@ Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 205 de 250 · 30d: quedan 2836 de 3000 (visto 2026-10-15T21:00:20.000Z)
 
-## Cola propia (39 esperando)
+## Cola propia (37 esperando)
 - TikTok · Reels policiales · Emitieron alerta amarilla por tormentas y fuertes vientos — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Hirieron a una pareja de jubilados durante un asalto en Olavarría — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
@@ -31,6 +31,7 @@ Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 - X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
 - TikTok · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — en turno
+- X · Notas web · Aumentó la VTV en la provincia de Buenos Aires: nuevos montos y categorías — en turno
 - X · Notas web · Juicio por la muerte de Diego Maradona: Fernando Burlando aseguró que fue asesin — en turno
 - X · Notas web · Financiamiento universitario: la Justicia frenó las multas al Gobierno por los s — en turno
 - X · Notas web · Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogació — en turno
@@ -48,7 +49,6 @@ Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 - X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
 - X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 - X · Notas web · Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las  — en turno
-- X · Notas web · Marcha e intento opositor de sesionar por el DNU 70, las universidades, la disca — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,10 +58,6 @@ Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T19:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
-- 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de tope de 15 publicaciones en 24 h de TikTok
-- 2026-10-15T20:00 vencido policiales:https://boscoproducciones.com.ar/un-auto-quedo-de no hubo lugar antes de su vencimiento
-- 2026-10-15T20:00 vencido policiales:https://chacabucoenred.com/choque-entre-dos-motos tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-15T20:00 vencido policiales:https://chacabucoenred.com/choque-entre-dos-motos no hubo lugar antes de su vencimiento
 - 2026-10-15T20:00 vencido policiales:https://laopinionline.ar/articulo/un-adolescente- no hubo lugar antes de su vencimiento
 - 2026-10-15T20:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 tope de 15 publicaciones en 24 h de TikTok
@@ -83,3 +79,7 @@ Actualizado: 15/10/2026 18:00 (hora AR) · ACTIVO
 - 2026-10-15T20:40 programado web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x 
 - 2026-10-15T20:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
 - 2026-10-15T21:00 programado policiales:https://www.diariodemocracia.com/policiales/34657 
+- 2026-10-15T21:20 recibido web:87e2bd08-5d5c-4641-835f-adc4c2401866|x 
+- 2026-10-15T21:20 vencido policiales:https://laopinionline.ar/articulo/choque-multiple tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-15T21:20 vencido policiales:https://laopinionline.ar/articulo/choque-multiple no hubo lugar antes de su vencimiento
+- 2026-10-15T21:20 vencido web:14487ca8-2475-41c1-b598-3490602d4ec8|x no hubo lugar antes de su vencimiento
