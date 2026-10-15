@@ -1,27 +1,27 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 2 | 2 | 3 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 2 | 3 | 1 | 1 | 0 | 0 |
 | Notas web | X | 15 | 8 | 6 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 16 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
+- TikTok: conectado · Buffer: 6 enviadas + 2 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2850 de 3000 (visto 2026-10-15T16:00:28.000Z)
+15m: quedan 98 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2848 de 3000 (visto 2026-10-15T17:00:24.000Z)
 
-## Cola propia (38 esperando)
+## Cola propia (37 esperando)
 - X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Recortes de entrevistas · Eva Mussio: Crece la demanda de alimentos en comedores — en turno
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
-- TikTok · Reels policiales · Investigan el robo de un auto viejo que funcionaba como Uber durante la Fiesta d — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una  — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro mo — en turno
 - X · Notas web · Accesos y arterias de la ciudad — en turno
@@ -29,7 +29,6 @@ Actualizado: 15/10/2026 13:40 (hora AR) · ACTIVO
 - X · Notas web · Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo — en turno
 - X · Notas web · Una startup ganó AgTech Revolution con seguros paramétricos automáticos — en turno
 - X · Notas web · Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Rut — en turno
-- TikTok · Reels policiales · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — en turno
 - X · Notas web · Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provinci — en turno
 - X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
@@ -49,19 +48,15 @@ Actualizado: 15/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
 - TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Se atrincheró con un arma en una casa de Bolívar y terminó detenido — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
+- TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T14:40 programado web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x 
-- 2026-10-15T15:00 recibido web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
-- 2026-10-15T15:00 programado web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
-- 2026-10-15T15:20 recibido bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
-- 2026-10-15T15:20 recibido bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tikto 
-- 2026-10-15T15:20 recibido web:90cb2fe1-4568-4f3b-b570-73550002c005|x 
 - 2026-10-15T15:20 vencido web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x no hubo lugar antes de su vencimiento
 - 2026-10-15T15:20 programado web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x 
 - 2026-10-15T15:20 programado web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x 
@@ -81,3 +76,9 @@ Actualizado: 15/10/2026 13:40 (hora AR) · ACTIVO
 - 2026-10-15T16:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-15T16:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en no hubo lugar antes de su vencimiento
 - 2026-10-15T16:20 vencido web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x no hubo lugar antes de su vencimiento
+- 2026-10-15T17:00 entrevista_aprobada entrevistas:job00211 
+- 2026-10-15T17:00 recibido entrevistas:job00211|x 
+- 2026-10-15T17:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tikto 
+- 2026-10-15T17:00 error_publicacion policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
+- 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
+- 2026-10-15T17:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p 
