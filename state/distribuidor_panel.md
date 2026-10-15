@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 14/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,10 +19,10 @@ Actualizado: 14/10/2026 21:40 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2872 de 3000 (visto 2026-10-15T00:20:16.000Z)
 
 ## Cola propia (55 esperando)
-- X · Reels del bot · Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels del bot · Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels del bot · Piden colaboración para una joven atacada por un caballo en el Hipódromo — en turno
+- X · Reels del bot · Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels del bot · Piden colaboración para una joven atacada por un caballo en el Hipódromo — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Piden colaboración para una joven atacada por un caballo en el Hipódromo — en turno
 - TikTok · Reels del bot · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Investigan un posible femicidio tras un choque fatal en la Ruta 5 — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels del bot · Recuperaron una moto robada e investigan a un menor — tope de 15 publicaciones en 24 h de TikTok
