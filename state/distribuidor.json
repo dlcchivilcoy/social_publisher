@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 1
+    "scheduled": 3,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-15T11:20:16.000Z"
+   "visto": "2026-10-15T12:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
+    "scheduled": 8,
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-15T11:20:16.000Z"
+   "visto": "2026-10-15T12:20:16.000Z"
   }
  },
  "contenidos": {
@@ -2831,6 +2831,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-las-ultimos-dias-operativos-policiales-y-alerta-vecinal-varias",
    "volanta": "En las últimos días"
   },
+  "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": {
+   "categoria": "nacionales",
+   "descripcion": "Una polémica sentencia en San Nicolás absolvió a acusados por protestas gremiales. Mientras en 2023 hubo un fallo sobre arresto, los bloqueos bajaron a 8…",
+   "generado": "2026-10-15T12:06:45.465Z",
+   "id": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7ba6e9b9902a41f0b103459883efa52d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las empresas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
+   "volanta": ""
+  },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno analiza declarar feriados y asuetos del 8 al 11 de noviembre por la llegada del papa León XIV. La agenda sigue en pie a la espera de su…",
@@ -4364,22 +4382,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 231,
-   "segundos": 36000,
+   "restantes": 230,
+   "segundos": 32400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2862,
-   "segundos": 2281824,
+   "restantes": 2861,
+   "segundos": 2278225,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T11:20:17.000Z",
+ "cuota_visto": "2026-10-15T12:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4953,18 +4971,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok": {
-   "actualizado": "2026-10-15T11:00:20.000Z",
+   "actualizado": "2026-10-15T12:20:16.000Z",
    "buffer_id": "6ad0b249f262243260620a34",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
    "creado": "2026-10-15T00:20:14.000Z",
    "dueAt": "2026-10-15T11:43:48.000Z",
+   "enviado": "2026-10-15T11:45:44.615Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T00:16:17.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696858995780308276",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -9618,6 +9637,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x": {
+   "actualizado": "2026-10-15T12:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x",
+   "creado": "2026-10-15T12:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T12:06:45.465Z",
+   "id": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las empresas\n\nUna polémica sentencia en San Nicolás absolvió a acusados por protestas gremiales. Mientras en 2023 hubo un fallo sobre arresto, los bloqueos bajaron a 8…\n\nhttps://www.diariolacampaña.com.ar/n/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
+   "tipo": "nota",
+   "titulo": "Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las empresas",
+   "urgente": false,
+   "vence": "2026-10-16T12:06:45.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x": {
    "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "",
@@ -10481,13 +10524,13 @@
    "video_url": ""
   },
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x": {
-   "actualizado": "2026-10-14T12:20:17.000Z",
+   "actualizado": "2026-10-15T12:20:15.000Z",
    "buffer_id": "",
    "clave": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x",
    "creado": "2026-10-14T12:20:17.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T12:06:23.983Z",
    "id": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e",
    "intentos": 0,
@@ -11759,24 +11802,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x",
-   "cuando": "2026-10-12T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109615971627360314"
-  },
-  {
-   "clave": "web:4c67800d-ecb6-4757-8e30-b02eb076372e|x",
-   "cuando": "2026-10-12T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109611416160235565"
-  },
-  {
-   "clave": "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba|x",
-   "cuando": "2026-10-12T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109618965655749094"
-  },
   {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok",
    "cuando": "2026-10-12T14:00:20.000Z",
@@ -15972,10 +15997,30 @@
    "cuando": "2026-10-15T12:00:21.000Z",
    "evento": "vencido",
    "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x",
+   "cuando": "2026-10-15T12:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x",
+   "cuando": "2026-10-15T12:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
+   "cuando": "2026-10-15T12:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696858995780308276"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T11:20:16.000Z",
+ "ultima_sync": "2026-10-15T12:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -16112,6 +16157,7 @@
   "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
+  "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
