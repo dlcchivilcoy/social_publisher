@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 3 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 3 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 2 | 0 | 5 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 2 | 2 | 3 | 0 | 0 | 0 |
 | Notas web | X | 15 | 8 | 6 | 14 | 0 | 0 | 0 |
 
 ## Canales
@@ -16,15 +16,11 @@ Actualizado: 15/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2851 de 3000 (visto 2026-10-15T15:40:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2850 de 3000 (visto 2026-10-15T16:00:28.000Z)
 
-## Cola propia (46 esperando)
-- TikTok · Reels policiales · 🔴 URGENTE · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 27 — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — tope de 15 publicaciones en 24 h de TikTok
+## Cola propia (42 esperando)
 - X · Reels del bot · La Justicia ordenó restituir la nave de Bicontinentar al Municipio — espera para separarse de la otra publicación de la misma noticia
-- TikTok · Reels del bot · Britos confirmó contactos con otros espacios para su futuro político — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
-- TikTok · Reels policiales · Baleó a un compañero dentro de un colegio — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Investigan el robo de un auto viejo que funcionaba como Uber durante la Fiesta d — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una  — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro mo — en turno
@@ -49,6 +45,10 @@ Actualizado: 15/10/2026 12:40 (hora AR) · ACTIVO
 - X · Reels policiales · Choque múltiple en la ruta 188: un conductor hospitalizado — en turno
 - TikTok · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — en turno
+- TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
+- TikTok · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Atraparon a un joven de 28 años tras robar una moto y secuestraron otro rodado a — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,10 +56,6 @@ Actualizado: 15/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T14:20 programado policiales:https://semanariodejunin.com.ar/nota/75593/la-mat 
-- 2026-10-15T14:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31005/inve 
-- 2026-10-15T14:20 programado web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x 
-- 2026-10-15T14:40 enviado policiales:https://laopinionline.ar/articulo/un-adolescente- 
 - 2026-10-15T14:40 enviado policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ 
 - 2026-10-15T14:40 enviado web:62679199-0cb1-44ba-8928-add87ea1fa3f|x 
 - 2026-10-15T14:40 enviado web:8573e42b-75a0-4616-bdb3-930c6007225a|x 
@@ -81,3 +77,7 @@ Actualizado: 15/10/2026 12:40 (hora AR) · ACTIVO
 - 2026-10-15T15:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x 
 - 2026-10-15T15:40 enviado web:474e6223-8e55-4add-aedc-549975a9f8e1|x 
 - 2026-10-15T15:40 enviado web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x 
+- 2026-10-15T16:00 programado policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/ 
+- 2026-10-15T16:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tikto 
+- 2026-10-15T16:00 programado bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tikto 
+- 2026-10-15T16:00 programado policiales:https://semanariodejunin.com.ar/nota/75593/la-mat 
