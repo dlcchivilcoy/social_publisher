@@ -4990,22 +4990,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 211,
-   "segundos": 7198,
+   "restantes": 210,
+   "segundos": 6001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2842,
-   "segundos": 2253023,
+   "restantes": 2841,
+   "segundos": 2251826,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T19:20:19.000Z",
+ "cuota_visto": "2026-10-15T19:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7119,6 +7119,7 @@
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento",
@@ -9567,14 +9568,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_09_9-de-julio_hallaron-asesinado-a-un-hombre.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-15T19:40:14.000Z",
+   "buffer_id": "6ad12c1fd27a77f8514dca44",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
    "creado": "2026-10-15T18:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-15T23:00:08.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/",
    "intentos": 0,
@@ -13496,14 +13497,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok",
-   "cuando": "2026-10-13T01:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
    "cuando": "2026-10-13T01:00:20.000Z",
@@ -17705,6 +17698,13 @@
    "clave": "entrevistas:job00211|x",
    "cuando": "2026-10-15T19:20:19.000Z",
    "dueAt": "2026-10-15T22:45:26.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad12c1fd27a77f8514dca44",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
+   "cuando": "2026-10-15T19:40:15.000Z",
+   "dueAt": "2026-10-15T23:00:08.000Z",
    "evento": "programado"
   }
  ],
