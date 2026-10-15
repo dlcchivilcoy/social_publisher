@@ -279,6 +279,48 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Rb7Q2FdlwMY"
   },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": {
+   "descripcion": "Internada en el Hospital. Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis. La joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal «Dr. Santiago Fornos».",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-15T00:26:56.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
+   "urgente": false,
+   "video_bytes": 398958,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/i12qvfT5rmI"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": {
+   "descripcion": "Básquetbol. Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa. El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club. Sin descanso, este jueves buscará revalidar el triunfo.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-15T00:34:12.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional",
+   "urgente": false,
+   "video_bytes": 724537,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/qEHAVhqPhXo"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -3200,6 +3242,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/informe-de-came-a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre",
    "volanta": "Informe de CAME"
   },
+  "web:b6fb5d90-4508-431b-b874-06c3716a8faf": {
+   "categoria": "",
+   "descripcion": "Piden colaboración para una joven atacada por un caballo en el Hipódromo Internada en el Hospital Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis La joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal «Dr. Santiago Fornos». Su familia solicita la colaboración de la comunidad para cubrir el costo del material médico, mientras evoluciona de la reciente intervención quirúrgica. Una joven...",
+   "generado": "2026-10-15T00:24:55.021Z",
+   "id": "web:b6fb5d90-4508-431b-b874-06c3716a8faf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_89218b5e82d347c282ce8ac049f3626f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "volanta": "Chivilcoy · Solidaridad"
+  },
   "web:ba878935-3e6f-4357-a078-3447ed612c35": {
    "categoria": "nacionales",
    "descripcion": "Tras conocerse que la inflación de septiembre fue del 1,9%, la Anses aplicará ese porcentaje de actualización en los haberes de jubilados y pensionados…",
@@ -3541,6 +3601,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/preservacion-de-los-objetos-el-coleccionismo-local-se-consolida-con",
    "volanta": ""
+  },
+  "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": {
+   "categoria": "",
+   "descripcion": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional Básquetbol Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club. Sin descanso, este jueves buscará revalidar el triunfo en el estadio Cincuentenario frente a La Unión. Un gran triunfo racinguista que le permite recuperar el punto que en su casa se le escapó en su partido...",
+   "generado": "2026-10-15T00:32:17.914Z",
+   "id": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_354c6ca7c16248ecbb0c9b18053500f8~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "volanta": "Oberá · Deportes"
   },
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": {
    "categoria": "",
@@ -4415,6 +4493,105 @@
    "vence": "2026-10-17T00:16:17.000Z",
    "video_bytes": 437313,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok": {
+   "actualizado": "2026-10-15T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
+   "creado": "2026-10-15T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:26:56.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Piden colaboración para una joven atacada por un caballo en el Hipódromo\n\nInternada en el Hospital. Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis. La joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal «Dr. Santiago Fornos».\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
+   "urgente": false,
+   "vence": "2026-10-17T00:26:56.000Z",
+   "video_bytes": 398958,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x": {
+   "actualizado": "2026-10-15T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
+   "creado": "2026-10-15T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:26:56.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Piden colaboración para una joven atacada por un caballo en el Hipódromo\n\nInternada en el Hospital. Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
+   "urgente": false,
+   "vence": "2026-10-17T00:26:56.000Z",
+   "video_bytes": 398958,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok": {
+   "actualizado": "2026-10-15T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
+   "creado": "2026-10-15T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:34:12.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional\n\nBásquetbol. Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa. El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club. Sin descanso, este jueves buscará revalidar el triunfo.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional",
+   "urgente": false,
+   "vence": "2026-10-17T00:34:12.000Z",
+   "video_bytes": 724537,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x": {
+   "actualizado": "2026-10-15T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
+   "creado": "2026-10-15T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:34:12.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional\n\nBásquetbol. Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "tipo": "video",
+   "titulo": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional",
+   "urgente": false,
+   "vence": "2026-10-17T00:34:12.000Z",
+   "video_bytes": 724537,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -9392,6 +9569,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x": {
+   "actualizado": "2026-10-15T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x",
+   "creado": "2026-10-15T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:24:55.021Z",
+   "id": "web:b6fb5d90-4508-431b-b874-06c3716a8faf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Piden colaboración para una joven atacada por un caballo en el Hipódromo\n\nInternada en el Hospital Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis La joven de 25 años sufrió una fractura…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
+   "tipo": "nota",
+   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
+   "urgente": false,
+   "vence": "2026-10-16T00:24:55.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:ba878935-3e6f-4357-a078-3447ed612c35|x": {
    "actualizado": "2026-10-14T21:20:15.000Z",
    "buffer_id": "",
@@ -9873,6 +10074,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x": {
+   "actualizado": "2026-10-15T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
+   "creado": "2026-10-15T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:32:17.914Z",
+   "id": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional\n\nBásquetbol Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por…\n\nhttps://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
+   "tipo": "nota",
+   "titulo": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional",
+   "urgente": false,
+   "vence": "2026-10-16T00:32:17.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x": {
    "actualizado": "2026-10-14T21:40:16.000Z",
    "buffer_id": "6acff6c161e981448aa7bc00",
@@ -10201,47 +10426,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acc0b9f8e8dd50ffc5a19f1",
-   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
-   "cuando": "2026-10-11T22:20:16.000Z",
-   "dueAt": "2026-10-12T00:01:13.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc0b9f7db619a2914ceb6c",
-   "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
-   "cuando": "2026-10-11T22:20:16.000Z",
-   "dueAt": "2026-10-12T00:16:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc0b9fa9411fbcc55efde4",
-   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
-   "cuando": "2026-10-11T22:20:16.000Z",
-   "dueAt": "2026-10-11T22:23:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc1050ea568e911a43726b",
-   "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
-   "cuando": "2026-10-11T22:40:16.000Z",
-   "dueAt": "2026-10-12T00:31:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acc1500ea568e911a441ab8",
-   "clave": "web:fb360714-5639-4bf4-a1f0-001886885d15|x",
-   "cuando": "2026-10-11T23:00:16.000Z",
-   "dueAt": "2026-10-12T00:46:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
-   "cuando": "2026-10-11T23:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7695539304390610182"
-  },
   {
    "clave": "web:58114495-39f3-4653-ae6b-639c6c61dae5|x",
    "cuando": "2026-10-11T23:20:15.000Z",
@@ -14412,6 +14596,54 @@
    "cuando": "2026-10-15T00:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7696668285332393268"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
+   "cuando": "2026-10-15T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
+   "cuando": "2026-10-15T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
+   "cuando": "2026-10-15T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
+   "cuando": "2026-10-15T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
+   "cuando": "2026-10-15T00:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x",
+   "cuando": "2026-10-15T00:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
@@ -14430,6 +14662,8 @@
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou": "2026-10-14T19:00:21.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv": "2026-10-15T00:00:18.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": "2026-10-15T00:20:14.000Z",
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": "2026-10-15T00:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -14575,6 +14809,7 @@
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": "2026-10-14T13:20:22.000Z",
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
+  "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
   "web:ba878935-3e6f-4357-a078-3447ed612c35": "2026-10-13T21:20:15.000Z",
   "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": "2026-10-15T00:00:18.000Z",
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": "2026-10-13T15:20:18.000Z",
@@ -14594,6 +14829,7 @@
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
+  "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
   "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": "2026-10-14T10:20:15.000Z",
