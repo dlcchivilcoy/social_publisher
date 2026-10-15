@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 15/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 16 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 5 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2866 de 3000 (visto 2026-10-15T10:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2865 de 3000 (visto 2026-10-15T10:40:18.000Z)
 
-## Cola propia (60 esperando)
-- X · Notas web · Patricio Lo Valvo invitó a una nueva jornada a campo con el trigo y la camelina  — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Información a la comunidad — en turno
+## Cola propia (59 esperando)
+- X · Notas web · Información a la comunidad — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Más de 20 instituciones acercaron oportunidades de estudio y formación laboral — en turno
 - X · Notas web · Chivilcoy será sede del 2° Encuentro Regional de Coros Infantiles — en turno
 - X · Notas web · Juan Martín Bodda, en dupla con Ariel Zurraco, se consagraron campeones en Mar d — en turno
@@ -49,6 +48,7 @@ Actualizado: 15/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Se prendió fuego un auto en un camino rural y sufrió pérdidas totales — en turno
 - TikTok · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Choque de motos en el Acceso Hipólito Yrigoyen — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,7 +56,6 @@ Actualizado: 15/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T10:20 recibido web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x 
 - 2026-10-15T10:20 recibido web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3|x 
 - 2026-10-15T10:20 recibido web:f1bd5374-e321-4707-b267-340e4fb19c4e|x 
 - 2026-10-15T10:20 recibido web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x 
@@ -81,3 +80,4 @@ Actualizado: 15/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-15T10:20 enviado bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x 
 - 2026-10-15T10:20 programado web:62679199-0cb1-44ba-8928-add87ea1fa3f|x 
 - 2026-10-15T10:20 programado web:94f11536-c6e6-485e-b136-564a4c85d23b|x 
+- 2026-10-15T10:40 programado web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x 
