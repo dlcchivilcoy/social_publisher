@@ -8,10 +8,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 11
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-14T23:20:14.000Z"
+   "visto": "2026-10-15T00:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-14T23:20:14.000Z"
+   "visto": "2026-10-15T00:20:15.000Z"
   }
  },
  "contenidos": {
@@ -257,6 +257,27 @@
    "video_mb": 0.8,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4",
    "youtube_url": "https://www.youtube.com/shorts/oU7k5mLPxU8"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": {
+   "descripcion": "Aquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-15T00:16:17.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
+   "urgente": false,
+   "video_bytes": 437313,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Rb7Q2FdlwMY"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -2369,6 +2390,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malvinas-el-reino-unido-aprobo-normas-para-proteger-a-las-a80867",
    "volanta": ""
   },
+  "web:65614571-f714-4991-a75b-bc27850d9de1": {
+   "categoria": "",
+   "descripcion": "Investigan un posible femicidio tras un choque fatal en la Ruta 5 Aquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba la víctima fatal era su expareja y tenía una orden judicial vigente de restricción de acercamiento. El episodio tuvo lugar el pasado lunes a la altura...",
+   "generado": "2026-10-15T00:14:14.695Z",
+   "id": "web:65614571-f714-4991-a75b-bc27850d9de1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8bbb1cea10a54252ae1a89bd2abf762e~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "volanta": "Mercedes · Policiales"
+  },
   "web:66096b4b-4845-4ea3-a895-867ed95af957": {
    "categoria": "",
    "descripcion": "La Peña Virgen de Loreto deslumbró al público en el 20° Festival Internacional de Folklore Ashpa Súmaj La delegación de la Peña Virgen de Loreto, representante de Chivilcoy, tuvo una histórica y consagratoria actuación en la 20ª edición del Festival Internacional de Folklore Ashpa Súmaj y 6ª Fiesta Nacional de las Colectividades, realizado en Las Termas de Río Hondo, Santiago del Estero. El evento internacional, declarado de Interés Cultural y Turístico por la Cámara de Diputados de la...",
@@ -3740,22 +3779,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 79201,
+   "restantes": 241,
+   "segundos": 75600,
    "tope": 250
   },
   "30d": {
-   "restantes": 2873,
-   "segundos": 2325025,
+   "restantes": 2872,
+   "segundos": 2321425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-14T23:20:16.000Z",
+ "cuota_visto": "2026-10-15T00:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -4327,6 +4366,56 @@
    "video_bytes": 803762,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
   },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok": {
+   "actualizado": "2026-10-15T00:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
+   "creado": "2026-10-15T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:16:17.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Investigan un posible femicidio tras un choque fatal en la Ruta 5\n\nAquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-10-17T00:16:17.000Z",
+   "video_bytes": 437313,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x": {
+   "actualizado": "2026-10-15T00:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
+   "creado": "2026-10-15T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:16:17.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Investigan un posible femicidio tras un choque fatal en la Ruta 5\n\nAquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-10-17T00:16:17.000Z",
+   "video_bytes": 437313,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -4769,18 +4858,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_06_lujan_un-joven-muri-atropellado-en-l.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok": {
-   "actualizado": "2026-10-14T23:20:14.000Z",
+   "actualizado": "2026-10-15T00:20:15.000Z",
    "buffer_id": "6ad00e30d9430f324aebd269",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
    "creado": "2026-10-14T18:00:18.000Z",
    "dueAt": "2026-10-15T00:03:28.000Z",
+   "enviado": "2026-10-15T00:04:12.542Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T17:42:35.000Z",
    "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696678478954958088",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-muertos-en-un-tragico-choque-frontal-sobre-el-acceso-fc62b7",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -5690,18 +5780,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_08_bragado_choque-entre-un-auto-y-una-mot.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok": {
-   "actualizado": "2026-10-14T23:20:14.000Z",
+   "actualizado": "2026-10-15T00:20:15.000Z",
    "buffer_id": "6ad00e2f5f62d3c5af0f4585",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
    "creado": "2026-10-14T22:20:16.000Z",
    "dueAt": "2026-10-14T23:23:48.000Z",
+   "enviado": "2026-10-14T23:24:42.800Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-14T22:11:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7696668285332393268",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -8167,6 +8258,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:65614571-f714-4991-a75b-bc27850d9de1|x": {
+   "actualizado": "2026-10-15T00:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
+   "creado": "2026-10-15T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T00:14:14.695Z",
+   "id": "web:65614571-f714-4991-a75b-bc27850d9de1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Investigan un posible femicidio tras un choque fatal en la Ruta 5\n\nAquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
+   "tipo": "nota",
+   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-10-16T00:14:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:66096b4b-4845-4ea3-a895-867ed95af957|x": {
    "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acf5766b389ea6547067c41",
@@ -10086,42 +10201,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
-   "cuando": "2026-10-11T22:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok",
-   "cuando": "2026-10-11T22:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x",
-   "cuando": "2026-10-11T22:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x",
-   "cuando": "2026-10-11T22:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109404051087478855"
-  },
-  {
-   "clave": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x",
-   "cuando": "2026-10-11T22:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109407824660906392"
-  },
   {
    "buffer_id": "6acc0b9f8e8dd50ffc5a19f1",
    "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
@@ -14297,10 +14376,46 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
+   "cuando": "2026-10-15T00:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
+   "cuando": "2026-10-15T00:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
+   "cuando": "2026-10-15T00:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
+   "cuando": "2026-10-15T00:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696678478954958088"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
+   "cuando": "2026-10-15T00:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7696668285332393268"
   }
  ],
  "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-14T23:20:14.000Z",
+ "ultima_sync": "2026-10-15T00:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -14314,6 +14429,7 @@
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf": "2026-10-14T17:00:17.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou": "2026-10-14T19:00:21.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv": "2026-10-15T00:00:18.000Z",
+  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": "2026-10-15T00:20:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
@@ -14414,6 +14530,7 @@
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
   "web:6092c4f7-b53e-4964-a892-2470dfeed127": "2026-10-14T10:20:15.000Z",
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
+  "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
