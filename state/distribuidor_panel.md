@@ -1,25 +1,38 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 4 | 4 | 5 | 0 | 1 | 0 |
-| Reels policiales | TikTok | 12 | 5 | 2 | 5 | 2 | 1 | 0 |
-| Notas web | X | 15 | 14 | 1 | 22 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 8 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 7 | 1 | 10 | 0 | 1 | 0 |
+| Reels policiales | TikTok | 12 | 6 | 1 | 10 | 2 | 1 | 0 |
+| Notas web | X | 15 | 14 | 1 | 23 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 29 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 33 enviadas + 2 programadas de 50 por día
+- TikTok: conectado · Buffer: 12 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2833 de 3000 (visto 2026-10-15T23:40:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2832 de 3000 (visto 2026-10-16T00:00:24.000Z)
 
-## Cola propia (35 esperando)
+## Cola propia (47 esperando)
+- X · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
+- TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — en turno
+- X · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — en turno
+- TikTok · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — en turno
+- TikTok · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
+- TikTok · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
+- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
+- TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
+- TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — fuera del horizonte de programación (espera en la cola)
@@ -36,19 +49,6 @@ Actualizado: 15/10/2026 20:40 (hora AR) · ACTIVO
 - X · Notas web · Juicio por la muerte de Diego Maradona: Fernando Burlando aseguró que fue asesin — en turno
 - X · Notas web · Financiamiento universitario: la Justicia frenó las multas al Gobierno por los s — en turno
 - X · Notas web · Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogació — en turno
-- X · Notas web · Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una  — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro mo — en turno
-- X · Notas web · Accesos y arterias de la ciudad — en turno
-- X · Notas web · Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una dis — en turno
-- X · Notas web · Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo — en turno
-- X · Notas web · Una startup ganó AgTech Revolution con seguros paramétricos automáticos — en turno
-- X · Notas web · Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Rut — en turno
-- X · Reels policiales · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — en turno
-- X · Notas web · Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provinci — en turno
-- X · Notas web · Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTP — en turno
-- X · Notas web · Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca — en turno
-- X · Notas web · El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relació — en turno
-- X · Notas web · ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2 — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,28 +58,28 @@ Actualizado: 15/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T20:40 enviado entrevistas:job00212|x 
-- 2026-10-15T20:40 enviado entrevistas:job00216|x 
-- 2026-10-15T20:40 error_publicacion policiales:https://www.bragadoinforma.com.ar/nota/31004/un-p TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- 2026-10-15T20:40 enviado web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x 
-- 2026-10-15T20:40 enviado web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x 
-- 2026-10-15T20:40 enviado web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x 
-- 2026-10-15T20:40 programado web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x 
-- 2026-10-15T20:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
-- 2026-10-15T21:00 programado policiales:https://www.diariodemocracia.com/policiales/34657 
-- 2026-10-15T21:20 recibido web:87e2bd08-5d5c-4641-835f-adc4c2401866|x 
-- 2026-10-15T21:20 vencido policiales:https://laopinionline.ar/articulo/choque-multiple tope de 15 publicaciones en 24 h de TikTok
-- 2026-10-15T21:20 vencido policiales:https://laopinionline.ar/articulo/choque-multiple no hubo lugar antes de su vencimiento
-- 2026-10-15T21:20 vencido web:14487ca8-2475-41c1-b598-3490602d4ec8|x no hubo lugar antes de su vencimiento
-- 2026-10-15T21:40 recibido web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x 
-- 2026-10-15T21:40 vencido web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x no hubo lugar antes de su vencimiento
-- 2026-10-15T21:40 enviado entrevistas:job00213|x 
-- 2026-10-15T21:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
-- 2026-10-15T22:20 recibido web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x 
-- 2026-10-15T22:20 vencido web:a48b6d42-70dd-4459-94a5-2c178959330a|x no hubo lugar antes de su vencimiento
 - 2026-10-15T23:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
 - 2026-10-15T23:00 enviado entrevistas:job00211|x 
 - 2026-10-15T23:40 recibido web:dca831fd-6866-464f-a367-e6b85d1a5640|x 
 - 2026-10-15T23:40 vencido web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x fuera del horizonte de programación (espera en la cola)
 - 2026-10-15T23:40 programado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
 - 2026-10-15T23:40 programado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
+- 2026-10-16T00:00 recibido bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x 
+- 2026-10-16T00:00 recibido bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
+- 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
+- 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
+- 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
+- 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
+- 2026-10-16T00:00 recibido policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
+- 2026-10-16T00:00 recibido policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
+- 2026-10-16T00:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
+- 2026-10-16T00:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
+- 2026-10-16T00:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-16T00:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-16T00:00 recibido web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x 
+- 2026-10-16T00:00 vencido web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x no hubo lugar antes de su vencimiento
+- 2026-10-16T00:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
+- 2026-10-16T00:00 enviado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
+- 2026-10-16T00:00 enviado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
+- 2026-10-16T00:00 enviado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
+- 2026-10-16T00:00 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/h 

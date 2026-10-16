@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 11
+    "scheduled": 1,
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-15T23:00:19.000Z"
+   "visto": "2026-10-16T00:00:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
-    "sent": 29
+    "scheduled": 2,
+    "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-15T23:00:19.000Z"
+   "visto": "2026-10-16T00:00:24.000Z"
   }
  },
  "contenidos": {
@@ -383,6 +383,27 @@
    "video_mb": 1.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_38b75cd48882103a.mp4",
    "youtube_url": "https://www.youtube.com/shorts/UzZUk8xOwBI"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx": {
+   "descripcion": "En el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de urgencia en una vivienda ubicada en la calle De los Inmigrantes 321, donde aprehendió a un hombre de 27 años e incautó diversos elementos.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-15T23:47:42.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento",
+   "urgente": false,
+   "video_bytes": 1631458,
+   "video_mb": 1.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/gyURd6DfQmo"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -910,6 +931,30 @@
    "volanta": "Choque en Chacabuco",
    "youtube_url": ""
   },
+  "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un fiscal español solicitó abrir una causa contra el músico de 83 años tras la denuncia de dos exempleadas por hechos ocurridos en 2021. El artista rechazó las acusaciones.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
+   "localidad": "General Arenales",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/general-arenales-fiscal-espanol-pide-investigar-al-cantante-b5bf0d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "Un fiscal de España solicitó la apertura de una causa penal contra el cantante Julio Iglesias, de 83 años, tras la denuncia de dos exempleadas que trabajaron en sus residencias durante 2021.\n\nLas acusaciones incluyen episodios de control absoluto, tocamientos sin consentimiento y malos tratos ocurridos en propiedades ubicadas en las Islas Bahamas y la República Dominicana.\n\nLa solicitud fue formalizada por el Ministerio Público ante la Audiencia Nacional, luego de que un reporte inicial fuera desestimado por cuestiones de jurisdicción territorial.\n\nLa investigación preliminar sobre estos episodios había sido difundida inicialmente por elDiario.es en colaboración con Univisión Noticias, mientras que la defensa del músico negó categóricamente los señalamientos.\n\n📲 Más noticias de General Arenales en www.diariolacampaña.com.ar\n\n#GeneralArenales #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Piden investigar a Julio Iglesias por abusos y explotación",
+   "urgente": false,
+   "video_bytes": 81489,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4",
+   "volanta": "General Arenales",
+   "youtube_url": "https://youtube.com/shorts/P8xRpSEYEkw"
+  },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": {
    "categoria": "robo",
    "descripcion": "Uno de los sospechosos, de 34 años, había recuperado la libertad tras ser atrapado in fraganti y volvió a caer junto a un cómplice de 43.",
@@ -1125,6 +1170,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_11_pergamino_emitieron-alerta-amarilla-por-.mp4",
    "volanta": "San Nicolás en Pergamino",
    "youtube_url": "https://youtube.com/shorts/ekW27CZZcYM"
+  },
+  "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego": {
+   "categoria": "incendio",
+   "descripcion": "Las llamas se desataron en la madrugada del miércoles en el octavo piso de la planta. El fuego afectó motores y bandejas de cables, y demandó un arduo operativo conjunto.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-pedro-incendio-en-papel-prensa-movilizo-a-los-bomberos-d2b0a0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Un incendio afectó la madrugada del miércoles a la planta de Papel Prensa en San Pedro.\n\nEl fuego se desató en el octavo piso y demandó casi dos horas y media de trabajo entre bomberos y personal de la fábrica.\n\nLas llamas dañaron motores y bandejas de cableado eléctrico, aunque la estructura principal de la máquina productora sufrió menores consecuencias.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #Incendio #BomberosVoluntarios #BuenosAires",
+   "tipo": "video",
+   "titulo": "Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el fuego",
+   "urgente": false,
+   "video_bytes": 92942,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_01_pergamino_incendio-en-papel-prensa-bombe.mp4",
+   "volanta": "San Pedro en Pergamino",
+   "youtube_url": "https://youtube.com/shorts/NwPNyGFSBTQ"
   },
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": {
    "categoria": "violencia_genero",
@@ -1606,6 +1675,30 @@
    "volanta": "Vandalismo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/PMhjysUX4P0"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": {
+   "categoria": "operativo_policial",
+   "descripcion": "Una vecina fue demorada tras amenazar con una cuchilla a un menor de edad en la plaza San Martín de Chacabuco. Pasó la noche en la Subcomisaría de O'Higgins y declaró en la fiscalía.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-una-mujer-de-53-anos-tras-un-incidente-d4f427",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "Una mujer de 53 años fue demorada por la policía en la plaza San Martín de Chacabuco tras protagonizar un violento cruce con un menor de edad.\n\nLa vecina pasó la noche en la Subcomisaría de O'Higgins y este jueves declaró en la fiscalía, donde se le inició una causa penal por amenazas agravadas.\n\nSegún explicó la imputada, reaccionó de esa manera porque el joven hostigaba a su hijo de 15 años y lo había amenazado previamente con una faca.\n\nEl episodio ocurrió en las inmediaciones del Monumento y terminó cuando la involucrada aguardó la llegada de los efectivos policiales.\n\nLa acusada reconoció que no debió actuar así y aseguró que ya existían denuncias previas radicadas desde el pasado 17 de agosto.\n\nTras prestar declaración, recuperó la libertad mientras continúa la investigación a cargo de la justicia.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San Martín",
+   "urgente": false,
+   "video_bytes": 81128,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/p2Slti4i3FY"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": {
    "categoria": "accidente_vial",
    "descripcion": "Se registró un nuevo accidente vial en Chacabuco. Las autoridades investigan las circunstancias del hecho y recomiendan circular con precaución por la zona.",
@@ -1893,6 +1986,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4",
    "volanta": "Lincoln y El Triunfo",
    "youtube_url": "https://youtube.com/shorts/nCgoX9guah0"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de": {
+   "categoria": "operativo_policial",
+   "descripcion": "El procedimiento se concretó a las 5:31 PM en la esquina de Arquímedes y San Lorenzo, tras tareas investigativas y llamados al 911.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-30-anos-con-pedido-de-ec5ea4",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Efectivos de la DDI detuvieron a un hombre de 30 años que tenía un pedido de captura vigente por causas de amenazas y violencia familiar.\n\nEl procedimiento se concretó este jueves a las 5:31 PM en la vía pública, específicamente en el cruce de las calles Arquímedes y San Lorenzo.\n\nLa investigación se originó a partir de llamados al sistema de emergencias 911 y tareas de inteligencia.\n\nEl implicado era buscado desde mediados de este mes, luego de que la Comisaría de la Mujer y la Familia no pudiera ubicarlo para notificarle medidas cautelares.\n\nTras verificar sus datos en el sistema policial, se confirmó la vigencia de la orden de detención.\n\nEl Juzgado de Paz y el juez de la causa avalaron el operativo y dispusieron la notificación de las restricciones correspondientes.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Detenido #ViolenciaFamiliar #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violencia",
+   "urgente": false,
+   "video_bytes": 81312,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4",
+   "volanta": "Operativo policial en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/o5KCf0DnHdU"
   },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": {
    "categoria": "accidente_vial",
@@ -2397,6 +2514,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4",
    "volanta": "Daireaux en Bolívar",
    "youtube_url": "https://youtube.com/shorts/f_tW-dDv7Js"
+  },
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": {
+   "categoria": "operativo_policial",
+   "descripcion": "Tras varias horas de tensión, un joven de 24 años fue arrestado luego de atrincherarse armado en la vivienda de su exnovia, quien logró escapar ilesa. La Justicia ordenó su alojamiento en el penal de Sierra Chica.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-15T23:41:36.000Z",
+   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
+   "localidad": "Bolívar",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "Un joven de 24 años quedó formalmente detenido tras protagonizar un violento episodio donde se atrincheró armado en el domicilio de su expareja en Bolívar.\n\nLa víctima logró escapar ilesa a la casa de un vecino mientras se desplegaba un importante operativo con negociadores y bomberos.\n\nLa medida fue ordenada por la Justicia y prevé su traslado a una unidad del Servicio Penitenciario Bonaerense bajo múltiples cargos penales.\n\n📲 Más noticias de Bolívar en www.diariolacampaña.com.ar\n\n#Bolivar #OperativoPolicial #Detenido #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron al joven armado que se atrincheró en la casa de su expareja",
+   "urgente": false,
+   "video_bytes": 99715,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4",
+   "volanta": "Operativo policial en Bolívar",
+   "youtube_url": "https://youtube.com/shorts/SBAAzf0rgvA"
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": {
    "categoria": "",
@@ -4126,6 +4267,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/confirman-condena-millonaria-a-una-empresa-de-colectivos-y-su-3cb0a3",
    "volanta": ""
   },
+  "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": {
+   "categoria": "",
+   "descripcion": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento En el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de urgencia en una vivienda ubicada en la calle De los Inmigrantes 321, donde aprehendió a un hombre de 27 años e incautó diversos elementos de interés para la causa. El procedimiento se llevó a cabo en el marco de una investigación iniciada a partir de la...",
+   "generado": "2026-10-15T23:45:30.415Z",
+   "id": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7a545deb24d84d5e85af3c351250d2f2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": {
    "categoria": "nacionales",
    "descripcion": "Santiago Passaglia, jefe comunal de San Nicolás, le propuso al presidente Javier Milei reducir la presión fiscal mediante la fórmula de IVA cero para…",
@@ -5106,17 +5265,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 79201,
+   "restantes": 246,
+   "segundos": 77993,
    "tope": 250
   },
   "30d": {
-   "restantes": 2833,
-   "segundos": 2237424,
+   "restantes": 2832,
+   "segundos": 2236216,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-15T23:40:17.000Z",
+ "cuota_visto": "2026-10-16T00:00:24.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -5977,18 +6136,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_38b75cd48882103a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x": {
-   "actualizado": "2026-10-15T20:20:15.000Z",
+   "actualizado": "2026-10-16T00:00:24.000Z",
    "buffer_id": "6ad1358184453eae6f340a8a",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x",
    "creado": "2026-10-15T20:20:15.000Z",
    "dueAt": "2026-10-15T23:30:32.000Z",
+   "enviado": "2026-10-15T23:30:51.653Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T20:17:43.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110876084392640622",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
    "origen": "bot",
    "plataforma": "x",
@@ -6000,6 +6160,56 @@
    "vence": "2026-10-17T20:17:43.000Z",
    "video_bytes": 1045808,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_38b75cd48882103a.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:47:42.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento\n\nEn el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de urgencia en una vivienda ubicada en la calle De los Inmigrantes 321, donde aprehendió a un hombre de 27 años e incautó diversos elementos.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento",
+   "urgente": false,
+   "vence": "2026-10-17T23:47:42.000Z",
+   "video_bytes": 1631458,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
+  },
+  "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:47:42.000Z",
+   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento\n\nEn el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento",
+   "urgente": false,
+   "vence": "2026-10-17T23:47:42.000Z",
+   "video_bytes": 1631458,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -6848,6 +7058,55 @@
    "video_bytes": 133367,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_05_chacabuco_estado-de-salud-de-los-dos-her.mp4"
   },
+  "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/general-arenales-fiscal-espanol-pide-investigar-al-cantante-b5bf0d",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Un fiscal de España solicitó la apertura de una causa penal contra el cantante Julio Iglesias, de 83 años, tras la denuncia de dos exempleadas que trabajaron en sus residencias durante 2021.\n\nLas acusaciones incluyen episodios de control absoluto, tocamientos sin consentimiento y malos tratos ocurridos en propiedades ubicadas en las Islas Bahamas y la República Dominicana.\n\nLa solicitud fue formalizada por el Ministerio Público ante la Audiencia Nacional, luego de que un reporte inicial fuera desestimado por cuestiones de jurisdicción territorial.\n\nLa investigación preliminar sobre estos episodios había sido difundida inicialmente por elDiario.es en colaboración con Univisión Noticias, mientras que la defensa del músico negó categóricamente los señalamientos.\n\n📲 Más noticias de General Arenales en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #generalarenales #policiales",
+   "tipo": "video",
+   "titulo": "Piden investigar a Julio Iglesias por abusos y explotación",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 81489,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4"
+  },
+  "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/general-arenales-fiscal-espanol-pide-investigar-al-cantante-b5bf0d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Piden investigar a Julio Iglesias por abusos y explotación\n\nUn fiscal español solicitó abrir una causa contra el músico de 83 años tras la denuncia de dos exempleadas por hechos ocurridos en 2021.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/general-arenales-fiscal-espanol-pide-investigar-al-cantante-b5bf0d\n#GeneralArenales",
+   "tipo": "video",
+   "titulo": "Piden investigar a Julio Iglesias por abusos y explotación",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 81489,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4"
+  },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok": {
    "actualizado": "2026-10-12T21:20:15.000Z",
    "buffer_id": "6acd24e4235298ab870f0550",
@@ -7256,18 +7515,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1509_04_pergamino_agredieron-a-inspectores-viale.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok": {
-   "actualizado": "2026-10-15T23:40:15.000Z",
+   "actualizado": "2026-10-16T00:00:24.000Z",
    "buffer_id": "6ad16461fb64fffcf1a5e767",
    "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "2026-10-15T23:43:28.000Z",
+   "enviado": "2026-10-15T23:44:12.548Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697044413817818389",
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-nicolas-rige-una-alerta-amarilla-por-tormentas-y-rafagas-75d1f5",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -7281,18 +7541,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_11_pergamino_emitieron-alerta-amarilla-por-.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x": {
-   "actualizado": "2026-10-15T20:00:18.000Z",
+   "actualizado": "2026-10-16T00:00:24.000Z",
    "buffer_id": "6ad130d34fd04e4eb3aaf69d",
    "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "2026-10-15T23:15:54.000Z",
+   "enviado": "2026-10-15T23:16:05.687Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110872368675483829",
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-nicolas-rige-una-alerta-amarilla-por-tormentas-y-rafagas-75d1f5",
    "origen": "policiales",
    "plataforma": "x",
@@ -7304,6 +7565,55 @@
    "vence": "2026-10-16T11:42:28.000Z",
    "video_bytes": 81953,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_11_pergamino_emitieron-alerta-amarilla-por-.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-pedro-incendio-en-papel-prensa-movilizo-a-los-bomberos-d2b0a0",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un incendio afectó la madrugada del miércoles a la planta de Papel Prensa en San Pedro.\n\nEl fuego se desató en el octavo piso y demandó casi dos horas y media de trabajo entre bomberos y personal de la fábrica.\n\nLas llamas dañaron motores y bandejas de cableado eléctrico, aunque la estructura principal de la máquina productora sufrió menores consecuencias.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
+   "tipo": "video",
+   "titulo": "Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el fuego",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 92942,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_01_pergamino_incendio-en-papel-prensa-bombe.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-pedro-incendio-en-papel-prensa-movilizo-a-los-bomberos-d2b0a0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el fuego\n\nLas llamas se desataron en la madrugada del miércoles en el octavo piso de la planta.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/san-pedro-incendio-en-papel-prensa-movilizo-a-los-bomberos-d2b0a0\n#Pergamino",
+   "tipo": "video",
+   "titulo": "Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el fuego",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 92942,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_01_pergamino_incendio-en-papel-prensa-bombe.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|tiktok": {
    "actualizado": "2026-10-15T14:40:15.000Z",
@@ -8329,6 +8639,55 @@
    "video_bytes": 95264,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-una-mujer-de-53-anos-tras-un-incidente-d4f427",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Una mujer de 53 años fue demorada por la policía en la plaza San Martín de Chacabuco tras protagonizar un violento cruce con un menor de edad.\n\nLa vecina pasó la noche en la Subcomisaría de O'Higgins y este jueves declaró en la fiscalía, donde se le inició una causa penal por amenazas agravadas.\n\nSegún explicó la imputada, reaccionó de esa manera porque el joven hostigaba a su hijo de 15 años y lo había amenazado previamente con una faca.\n\nEl episodio ocurrió en las inmediaciones del Monumento y terminó cuando la involucrada aguardó la llegada de los efectivos policiales.\n\nLa acusada reconoció que no debió actuar así y aseguró que ya existían denuncias previas radicadas desde el pasado 17 de agosto.\n\nTras prestar declaración, recuperó la libertad mientras continúa la investigación a cargo de la justicia.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San Martín",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 81128,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-una-mujer-de-53-anos-tras-un-incidente-d4f427",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San Martín\n\nUna vecina fue demorada tras amenazar con una cuchilla a un menor de edad en la plaza San Martín de Chacabuco.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-una-mujer-de-53-anos-tras-un-incidente-d4f427\n#Chacabuco",
+   "tipo": "video",
+   "titulo": "Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San Martín",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 81128,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok": {
    "actualizado": "2026-10-14T20:20:13.000Z",
    "buffer_id": "",
@@ -8940,6 +9299,55 @@
    "vence": "2026-10-16T13:12:19.000Z",
    "video_bytes": 81724,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-30-anos-con-pedido-de-ec5ea4",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Efectivos de la DDI detuvieron a un hombre de 30 años que tenía un pedido de captura vigente por causas de amenazas y violencia familiar.\n\nEl procedimiento se concretó este jueves a las 5:31 PM en la vía pública, específicamente en el cruce de las calles Arquímedes y San Lorenzo.\n\nLa investigación se originó a partir de llamados al sistema de emergencias 911 y tareas de inteligencia.\n\nEl implicado era buscado desde mediados de este mes, luego de que la Comisaría de la Mujer y la Familia no pudiera ubicarlo para notificarle medidas cautelares.\n\nTras verificar sus datos en el sistema policial, se confirmó la vigencia de la orden de detención.\n\nEl Juzgado de Paz y el juez de la causa avalaron el operativo y dispusieron la notificación de las restricciones correspondientes.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violencia",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 81312,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:35.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-30-anos-con-pedido-de-ec5ea4",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violencia\n\nEl procedimiento se concretó a las 5:31 PM en la esquina de Arquímedes y San Lorenzo, tras tareas investigativas y llamados al 911.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-30-anos-con-pedido-de-ec5ea4",
+   "tipo": "video",
+   "titulo": "Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violencia",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:35.000Z",
+   "video_bytes": 81312,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4"
   },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
@@ -9739,18 +10147,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_09_9-de-julio_hallaron-asesinado-a-un-hombre.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x": {
-   "actualizado": "2026-10-15T19:40:14.000Z",
+   "actualizado": "2026-10-16T00:00:24.000Z",
    "buffer_id": "6ad12c1fd27a77f8514dca44",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "2026-10-15T23:00:08.000Z",
+   "enviado": "2026-10-15T23:01:45.900Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T17:42:28.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110868762198941855",
    "nota_url": "https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos-en-el-74be99",
    "origen": "policiales",
    "plataforma": "x",
@@ -9838,18 +10247,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_04_las-flores_hirieron-a-una-pareja-de-jubil.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|x": {
-   "actualizado": "2026-10-15T20:20:15.000Z",
+   "actualizado": "2026-10-16T00:00:24.000Z",
    "buffer_id": "6ad1358184453eae6f340ac0",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|x",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "2026-10-15T23:45:32.000Z",
+   "enviado": "2026-10-15T23:45:48.548Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T17:42:26.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110879846586872081",
    "nota_url": "https://www.diariolacampaña.com.ar/n/olavarria-hirieron-a-golpes-y-balazos-a-una-pareja-de-jubilados-3eb098",
    "origen": "policiales",
    "plataforma": "x",
@@ -10016,6 +10426,55 @@
    "vence": "2026-10-14T20:13:15.000Z",
    "video_bytes": 104302,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
+  },
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:36.000Z",
+   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Un joven de 24 años quedó formalmente detenido tras protagonizar un violento episodio donde se atrincheró armado en el domicilio de su expareja en Bolívar.\n\nLa víctima logró escapar ilesa a la casa de un vecino mientras se desplegaba un importante operativo con negociadores y bomberos.\n\nLa medida fue ordenada por la Justicia y prevé su traslado a una unidad del Servicio Penitenciario Bonaerense bajo múltiples cargos penales.\n\n📲 Más noticias de Bolívar en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bolívar #policiales",
+   "tipo": "video",
+   "titulo": "Detuvieron al joven armado que se atrincheró en la casa de su expareja",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:36.000Z",
+   "video_bytes": 99715,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4"
+  },
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:41:36.000Z",
+   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Detuvieron al joven armado que se atrincheró en la casa de su expareja\n\nTras varias horas de tensión, un joven de 24 años fue arrestado luego de atrincherarse armado en la vivienda de su exnovia, quien logró escapar ilesa.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544\n#Bolívar",
+   "tipo": "video",
+   "titulo": "Detuvieron al joven armado que se atrincheró en la casa de su expareja",
+   "urgente": false,
+   "vence": "2026-10-16T17:41:36.000Z",
+   "video_bytes": 99715,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4"
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
    "actualizado": "2026-10-15T15:40:19.000Z",
@@ -12434,6 +12893,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x": {
+   "actualizado": "2026-10-16T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
+   "creado": "2026-10-16T00:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-15T23:45:30.415Z",
+   "id": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Aprehendieron a un hombre por robos y a una mujer por encubrimiento\n\nEn el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de urgencia en…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
+   "tipo": "nota",
+   "titulo": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento",
+   "urgente": false,
+   "vence": "2026-10-16T23:45:30.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:b0047360-2401-4617-a433-07cb41aa8ce4|x": {
    "actualizado": "2026-10-15T18:40:16.000Z",
    "buffer_id": "",
@@ -12714,13 +13197,13 @@
    "video_url": ""
   },
   "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x": {
-   "actualizado": "2026-10-15T00:00:18.000Z",
+   "actualizado": "2026-10-16T00:00:24.000Z",
    "buffer_id": "",
    "clave": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x",
    "creado": "2026-10-15T00:00:18.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-14T23:43:59.364Z",
    "id": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b",
    "intentos": 0,
@@ -13794,135 +14277,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ace13f13b22eef92826b202",
-   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
-   "cuando": "2026-10-13T11:20:18.000Z",
-   "dueAt": "2026-10-13T13:15:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x",
-   "cuando": "2026-10-13T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109963012987670687"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok",
-   "cuando": "2026-10-13T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696106291726421266"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x",
-   "cuando": "2026-10-13T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109958649867043059"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x",
-   "cuando": "2026-10-13T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109954915829248270"
-  },
-  {
-   "clave": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x",
-   "cuando": "2026-10-13T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109970065843982465"
-  },
-  {
-   "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
-   "cuando": "2026-10-13T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109966382624375142"
-  },
-  {
-   "buffer_id": "6ace18a0ed1fb1ea0f934a39",
-   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
-   "cuando": "2026-10-13T11:40:16.000Z",
-   "dueAt": "2026-10-13T13:30:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace1d57b4d66b8b80b52062",
-   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
-   "cuando": "2026-10-13T12:00:23.000Z",
-   "dueAt": "2026-10-13T13:45:49.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
-   "cuando": "2026-10-13T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
-   "cuando": "2026-10-13T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
-   "cuando": "2026-10-13T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x",
-   "cuando": "2026-10-13T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x",
-   "cuando": "2026-10-13T12:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x",
-   "cuando": "2026-10-13T12:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:45068b15-aced-4c18-90c2-1a6b12ad49c1|x",
-   "cuando": "2026-10-13T12:20:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75|x",
-   "cuando": "2026-10-13T12:20:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x",
-   "cuando": "2026-10-13T12:20:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4|x",
-   "cuando": "2026-10-13T12:20:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "buffer_id": "6ace220476384aa24c2d70d1",
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
@@ -17976,10 +18330,150 @@
    "cuando": "2026-10-15T23:40:17.000Z",
    "dueAt": "2026-10-16T00:23:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
+   "cuando": "2026-10-16T00:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
+   "cuando": "2026-10-16T00:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x",
+   "cuando": "2026-10-16T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok",
+   "cuando": "2026-10-16T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x",
+   "cuando": "2026-10-16T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok",
+   "cuando": "2026-10-16T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x",
+   "cuando": "2026-10-16T00:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
+   "cuando": "2026-10-16T00:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x",
+   "cuando": "2026-10-16T00:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
+   "cuando": "2026-10-16T00:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
+   "cuando": "2026-10-16T00:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
+   "cuando": "2026-10-16T00:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110876084392640622"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697044413817818389"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110872368675483829"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110868762198941855"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|x",
+   "cuando": "2026-10-16T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110879846586872081"
   }
  ],
- "ultima_limpieza_release": "2026-10-15",
- "ultima_sync": "2026-10-15T23:00:19.000Z",
+ "ultima_limpieza_release": "2026-10-16",
+ "ultima_sync": "2026-10-16T00:00:24.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -17999,6 +18493,7 @@
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": "2026-10-15T13:20:17.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9": "2026-10-15T15:20:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2": "2026-10-15T20:20:15.000Z",
+  "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx": "2026-10-16T00:00:21.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
@@ -18024,6 +18519,7 @@
   "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": "2026-10-14T22:20:16.000Z",
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
+  "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": "2026-10-15T09:00:21.000Z",
@@ -18033,6 +18529,7 @@
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": "2026-10-14T02:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento": "2026-10-15T18:00:21.000Z",
+  "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
@@ -18053,6 +18550,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
@@ -18065,6 +18563,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli": "2026-10-15T19:20:15.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -18086,6 +18585,7 @@
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion": "2026-10-14T02:20:13.000Z",
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
@@ -18183,6 +18683,7 @@
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
+  "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": "2026-10-14T23:40:15.000Z",
