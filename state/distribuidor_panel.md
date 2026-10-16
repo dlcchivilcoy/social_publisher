@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,18 +7,19 @@ Actualizado: 16/10/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 1 | 3 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 17 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 0 | 3 | 1 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 1 | 4 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 5 | 18 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 3 enviadas + 8 programadas de 50 por día
 - TikTok: conectado · Buffer: 2 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2821 de 3000 (visto 2026-10-16T12:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2820 de 3000 (visto 2026-10-16T13:00:22.000Z)
 
-## Cola propia (48 esperando)
+## Cola propia (51 esperando)
+- X · Notas web · Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra — corrida por una urgente
 - X · Notas web · Estrena “Como un roble antiguo” en el Teatro La Cueva — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Música y Danza Tradicional — en turno
 - X · Notas web · El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra — en turno
@@ -32,6 +33,8 @@ Actualizado: 16/10/2026 09:40 (hora AR) · ACTIVO
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — en turno
 - X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — en turno
 - X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — en turno
+- X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — en turno
+- TikTok · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se  — en turno
 - X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — en turno
 - X · Notas web · La oposición no logró el quórum y se cayó la sesión para tratar la derogación de — en turno
@@ -46,9 +49,6 @@ Actualizado: 16/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
 - TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
-- TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,13 +58,6 @@ Actualizado: 16/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T10:20 vencido web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x no hubo lugar antes de su vencimiento
-- 2026-10-16T10:20 vencido web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3|x Buffer lleno (10 programadas por canal en el plan Free)
-- 2026-10-16T10:20 vencido web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x no hubo lugar antes de su vencimiento
-- 2026-10-16T10:20 vencido web:f1bd5374-e321-4707-b267-340e4fb19c4e|x no hubo lugar antes de su vencimiento
-- 2026-10-16T10:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x 
-- 2026-10-16T10:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x 
-- 2026-10-16T10:20 programado web:91984193-d136-423a-8896-e837bb387c4a|x 
 - 2026-10-16T10:20 programado web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x 
 - 2026-10-16T10:40 programado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
 - 2026-10-16T11:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
@@ -83,3 +76,10 @@ Actualizado: 16/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-16T12:40 recibido web:da812ee7-10e6-4f68-a954-bbcfc675078c|x 
 - 2026-10-16T12:40 vencido web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x no hubo lugar antes de su vencimiento
 - 2026-10-16T12:40 enviado policiales:https://chacabucoenred.com/le-chocaron-la-camione 
+- 2026-10-16T13:00 recibido policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 
+- 2026-10-16T13:00 recibido policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 
+- 2026-10-16T13:00 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/ 
+- 2026-10-16T13:00 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/ 
+- 2026-10-16T13:00 desprogramado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
+- 2026-10-16T13:00 programado policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 
+- 2026-10-16T13:00 programado policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 

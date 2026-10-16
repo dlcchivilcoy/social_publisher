@@ -997,6 +997,30 @@
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/32mBCgrD3-M"
   },
+  "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": {
+   "categoria": "homicidio",
+   "descripcion": "Diego José Aquino, de 35 años, fue derivado a la Unidad Carcelaria N.º 2 de Sierra Chica en el marco de la causa por el raid delictivo de marzo de 2025 que terminó con la muerte de una niña de 11 meses en Pablo Nogués.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T12:42:00.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-trasladaron-a-una-unidad-carcelaria-al-detenido-por-el-f6073d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "texto_tiktok": "El detenido Diego José Aquino, de 35 años, fue trasladado a la Unidad Carcelaria N.º 2 de Sierra Chica por disposición judicial.\n\nEl sujeto había sido capturado por efectivos del CPR Alberti durante un control de rutina en el camino real a Bragado, donde se constató que tenía pedido de captura.\n\nLa medida judicial se inscribe en la causa por el violento raid delictivo de marzo de 2025 que culminó con el trágico fallecimiento de una niña en Pablo Nogués y dejó cuatro detenidos.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #Policiales #Homicidio #BuenosAires",
+   "tipo": "video",
+   "titulo": "Alberti: trasladaron a la cárcel a un detenido por el crimen de una bebé",
+   "urgente": true,
+   "video_bytes": 101137,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_02_alberti_alberti-trasladaron-a-la-c-rce.mp4",
+   "volanta": "Alberti",
+   "youtube_url": "https://youtube.com/shorts/NNUg4jN_Vso"
+  },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": {
    "categoria": "otro_policial",
    "descripcion": "Un fiscal español solicitó abrir una causa contra el músico de 83 años tras la denuncia de dos exempleadas por hechos ocurridos en 2021. El artista rechazó las acusaciones.",
@@ -1644,6 +1668,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4",
    "volanta": "Robo en Bragado",
    "youtube_url": "https://youtube.com/shorts/XKL0EiUs3wg"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis": {
+   "categoria": "operativo_policial",
+   "descripcion": "Fueron demorados tras intimidar a una vecina frente al Hospital Municipal San Luis con un pistolón falso. Intervino la fiscalía de Mercedes.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T12:42:00.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-dos-menores-aprehendidos-por-amenazar-a-una-mujer-con-2582f0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Dos adolescentes fueron demorados por la policía tras intimidar a una mujer frente al Hospital Municipal San Luis.\n\nEl episodio ocurrió en la esquina de las calles Hermanos Islas y Moreno durante la tarde del jueves 15 de octubre de 2026.\n\nLos efectivos comprobaron que el elemento intimidatorio era un juguete y la fiscalía ordenó la entrega de los jóvenes a sus padres.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos menores aprehendidos por amenazar a una mujer con un arma de juguete",
+   "urgente": false,
+   "video_bytes": 91416,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4",
+   "volanta": "Bragado",
+   "youtube_url": "https://youtube.com/shorts/0gvPEEc9F8Y"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": {
    "categoria": "robo",
@@ -5823,17 +5871,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 235,
-   "segundos": 32402,
+   "restantes": 234,
+   "segundos": 31198,
    "tope": 250
   },
   "30d": {
-   "restantes": 2821,
-   "segundos": 2190626,
+   "restantes": 2820,
+   "segundos": 2189421,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T12:40:15.000Z",
+ "cuota_visto": "2026-10-16T13:00:22.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7773,6 +7821,56 @@
    "video_bytes": 119138,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
   },
+  "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok": {
+   "actualizado": "2026-10-16T13:00:19.000Z",
+   "buffer_id": "6ad21fe61ffe4709802eecd5",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok",
+   "creado": "2026-10-16T13:00:18.000Z",
+   "dueAt": "2026-10-16T13:03:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T12:42:00.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-trasladaron-a-una-unidad-carcelaria-al-detenido-por-el-f6073d",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 9,
+   "texto": "El detenido Diego José Aquino, de 35 años, fue trasladado a la Unidad Carcelaria N.º 2 de Sierra Chica por disposición judicial.\n\nEl sujeto había sido capturado por efectivos del CPR Alberti durante un control de rutina en el camino real a Bragado, donde se constató que tenía pedido de captura.\n\nLa medida judicial se inscribe en la causa por el violento raid delictivo de marzo de 2025 que culminó con el trágico fallecimiento de una niña en Pablo Nogués y dejó cuatro detenidos.\n\n📲 Más noticias de Alberti en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #alberti #policiales",
+   "tipo": "video",
+   "titulo": "Alberti: trasladaron a la cárcel a un detenido por el crimen de una bebé",
+   "urgente": true,
+   "vence": "2026-10-17T06:42:00.000Z",
+   "video_bytes": 101137,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_02_alberti_alberti-trasladaron-a-la-c-rce.mp4"
+  },
+  "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x": {
+   "actualizado": "2026-10-16T13:00:19.000Z",
+   "buffer_id": "6ad21fe5b948bf9e9d964e02",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x",
+   "creado": "2026-10-16T13:00:18.000Z",
+   "dueAt": "2026-10-16T13:06:26.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T12:42:00.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-trasladaron-a-una-unidad-carcelaria-al-detenido-por-el-f6073d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Alberti: trasladaron a la cárcel a un detenido por el crimen de una bebé\n\nDiego José Aquino, de 35 años, fue derivado a la Unidad Carcelaria N.º 2 de Sierra Chica en el marco de la causa por el raid delictivo de marzo de 2025 que…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/alberti-trasladaron-a-una-unidad-carcelaria-al-detenido-por-el-f6073d",
+   "tipo": "video",
+   "titulo": "Alberti: trasladaron a la cárcel a un detenido por el crimen de una bebé",
+   "urgente": true,
+   "vence": "2026-10-17T06:42:00.000Z",
+   "video_bytes": 101137,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_02_alberti_alberti-trasladaron-a-la-c-rce.mp4"
+  },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok": {
    "actualizado": "2026-10-16T11:20:16.000Z",
    "buffer_id": "6ad208742fe657de6e9faf6a",
@@ -9146,6 +9244,55 @@
    "vence": "2026-10-15T21:11:52.000Z",
    "video_bytes": 71628,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok": {
+   "actualizado": "2026-10-16T13:00:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok",
+   "creado": "2026-10-16T13:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T12:42:00.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-dos-menores-aprehendidos-por-amenazar-a-una-mujer-con-2582f0",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Dos adolescentes fueron demorados por la policía tras intimidar a una mujer frente al Hospital Municipal San Luis.\n\nEl episodio ocurrió en la esquina de las calles Hermanos Islas y Moreno durante la tarde del jueves 15 de octubre de 2026.\n\nLos efectivos comprobaron que el elemento intimidatorio era un juguete y la fiscalía ordenó la entrega de los jóvenes a sus padres.\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
+   "tipo": "video",
+   "titulo": "Dos menores aprehendidos por amenazar a una mujer con un arma de juguete",
+   "urgente": false,
+   "vence": "2026-10-17T06:42:00.000Z",
+   "video_bytes": 91416,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x": {
+   "actualizado": "2026-10-16T13:00:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
+   "creado": "2026-10-16T13:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T12:42:00.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-dos-menores-aprehendidos-por-amenazar-a-una-mujer-con-2582f0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dos menores aprehendidos por amenazar a una mujer con un arma de juguete\n\nFueron demorados tras intimidar a una vecina frente al Hospital Municipal San Luis con un pistolón falso. Intervino la fiscalía de Mercedes.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-dos-menores-aprehendidos-por-amenazar-a-una-mujer-con-2582f0\n#Bragado",
+   "tipo": "video",
+   "titulo": "Dos menores aprehendidos por amenazar a una mujer con un arma de juguete",
+   "urgente": false,
+   "vence": "2026-10-17T06:42:00.000Z",
+   "video_bytes": 91416,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok": {
    "actualizado": "2026-10-15T00:20:15.000Z",
@@ -14650,13 +14797,13 @@
   },
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x": {
    "actualizado": "2026-10-16T10:40:14.000Z",
-   "buffer_id": "6ad1ff0e13b2adf724a2360b",
+   "buffer_id": "",
    "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T14:45:42.000Z",
+   "dueAt": "",
    "error": "",
-   "espera": "",
-   "estado": "programado",
+   "espera": "corrida por una urgente",
+   "estado": "pendiente",
    "generado": "2026-10-16T10:11:10.876Z",
    "id": "web:c6c994e0-7772-4aac-b4f4-693e1662b284",
    "intentos": 0,
@@ -15728,59 +15875,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
-   "cuando": "2026-10-13T19:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x",
-   "cuando": "2026-10-13T19:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
-   "cuando": "2026-10-13T19:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00197|x",
-   "cuando": "2026-10-13T19:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ace7fc6910b59e1bcd7fa3c",
-   "clave": "entrevistas:job00197|x",
-   "cuando": "2026-10-13T19:00:24.000Z",
-   "dueAt": "2026-10-13T20:15:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace7fc7e28a64c75dd76f50",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x",
-   "cuando": "2026-10-13T19:00:24.000Z",
-   "dueAt": "2026-10-13T20:30:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace7fc75e3254add91b2d97",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x",
-   "cuando": "2026-10-13T19:00:24.000Z",
-   "dueAt": "2026-10-13T20:45:36.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ace7fc8b8901dbd45b7bb39",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
@@ -19953,6 +20047,57 @@
    "cuando": "2026-10-16T12:40:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697235245464096016"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x",
+   "cuando": "2026-10-16T13:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok",
+   "cuando": "2026-10-16T13:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
+   "cuando": "2026-10-16T13:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok",
+   "cuando": "2026-10-16T13:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
+   "cuando": "2026-10-16T13:00:22.000Z",
+   "evento": "desprogramado"
+  },
+  {
+   "buffer_id": "6ad21fe5b948bf9e9d964e02",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x",
+   "cuando": "2026-10-16T13:00:22.000Z",
+   "dueAt": "2026-10-16T13:06:26.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad21fe61ffe4709802eecd5",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok",
+   "cuando": "2026-10-16T13:00:22.000Z",
+   "dueAt": "2026-10-16T13:03:16.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -20005,6 +20150,7 @@
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida": "2026-10-16T09:00:20.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
@@ -20032,6 +20178,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis": "2026-10-16T13:00:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
