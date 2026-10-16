@@ -594,6 +594,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4",
    "youtube_url": "https://www.youtube.com/shorts/EgPz-OEk17k"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": {
+   "descripcion": "Se llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de la institución. El CPI depende de la Secretaría de Desarrollo Social municipal.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T23:18:11.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
+   "urgente": false,
+   "video_bytes": 961227,
+   "video_mb": 0.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/07e_WEappVM"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -4002,6 +4023,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-ofrece-mas-de-20-instituciones-acercaron-oportunidades-de",
    "volanta": "“Chivilcoy Ofrece”"
+  },
+  "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": {
+   "categoria": "",
+   "descripcion": "El Centro de Primera Infancia celebró el Día de la Familia Se llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de la institución. El CPI, que depende de la Secretaría de Desarrollo Social de la Municipalidad de Chivilcoy, a cargo de Ivana Aronna, convocó a las familias a compartir una jornada de encuentro en la que pudieron disfrutar de algo para comer y tomar,...",
+   "generado": "2026-10-16T23:16:15.689Z",
+   "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ecb6af053bd94608a4910043786181fb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": {
    "categoria": "",
@@ -8014,6 +8053,56 @@
    "vence": "2026-10-18T21:06:15.000Z",
    "video_bytes": 547577,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok": {
+   "actualizado": "2026-10-16T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
+   "creado": "2026-10-16T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T23:18:11.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Centro de Primera Infancia celebró el Día de la Familia\n\nSe llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de la institución. El CPI depende de la Secretaría de Desarrollo Social municipal.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
+   "urgente": false,
+   "vence": "2026-10-18T23:18:11.000Z",
+   "video_bytes": 961227,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x": {
+   "actualizado": "2026-10-16T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
+   "creado": "2026-10-16T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Reels del bot en X completo (10)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T23:18:11.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El Centro de Primera Infancia celebró el Día de la Familia\n\nSe llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
+   "urgente": false,
+   "vence": "2026-10-18T23:18:11.000Z",
+   "video_bytes": 961227,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -14283,6 +14372,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x": {
+   "actualizado": "2026-10-16T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
+   "creado": "2026-10-16T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T23:16:15.689Z",
+   "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 El Centro de Primera Infancia celebró el Día de la Familia\n\nSe llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
+   "tipo": "nota",
+   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
+   "urgente": false,
+   "vence": "2026-10-17T23:16:15.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e|x": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb468ccd31a0d0ed3bebd",
@@ -17915,28 +18029,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
-   "cuando": "2026-10-14T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696555673500454196"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|x",
-   "cuando": "2026-10-14T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|tiktok",
-   "cuando": "2026-10-14T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
    "cuando": "2026-10-14T18:00:18.000Z",
@@ -22084,6 +22176,30 @@
    "cuando": "2026-10-16T23:00:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111216178630713447"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
+   "cuando": "2026-10-16T23:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
+   "cuando": "2026-10-16T23:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
+   "cuando": "2026-10-16T23:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -22117,6 +22233,7 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd": "2026-10-16T17:20:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": "2026-10-16T21:00:18.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": "2026-10-16T21:20:13.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -22276,6 +22393,7 @@
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": "2026-10-15T10:20:13.000Z",
+  "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
