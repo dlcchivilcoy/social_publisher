@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 8 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 1 | 10 | 0 | 1 | 0 |
 | Reels policiales | TikTok | 12 | 6 | 1 | 10 | 2 | 1 | 0 |
-| Notas web | X | 15 | 14 | 1 | 23 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 25 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 2 programadas de 50 por día
@@ -18,9 +18,15 @@ Actualizado: 15/10/2026 21:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2832 de 3000 (visto 2026-10-16T00:00:24.000Z)
 
-## Cola propia (46 esperando)
+## Cola propia (52 esperando)
+- X · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — fuera del horizonte de programación (espera en la cola)
+- TikTok · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
+- TikTok · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
+- X · Notas web · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — en turno
+- X · Notas web · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
 - X · Notas web · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — en turno
 - TikTok · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — en turno
@@ -43,12 +49,6 @@ Actualizado: 15/10/2026 21:40 (hora AR) · ACTIVO
 - X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
 - X · Notas web · A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambia — en turno
 - TikTok · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — en turno
-- X · Notas web · La Cámara de Casación ratificó el archivo de una causa contra los jueces de la C — en turno
-- X · Notas web · Aumentó la VTV en la provincia de Buenos Aires: nuevos montos y categorías — en turno
-- X · Notas web · Juicio por la muerte de Diego Maradona: Fernando Burlando aseguró que fue asesin — en turno
-- X · Notas web · Financiamiento universitario: la Justicia frenó las multas al Gobierno por los s — en turno
-- X · Notas web · Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogació — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,12 +58,6 @@ Actualizado: 15/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T23:00 enviado entrevistas:job00211|x 
-- 2026-10-15T23:40 recibido web:dca831fd-6866-464f-a367-e6b85d1a5640|x 
-- 2026-10-15T23:40 vencido web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x fuera del horizonte de programación (espera en la cola)
-- 2026-10-15T23:40 programado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
-- 2026-10-15T23:40 programado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
-- 2026-10-16T00:00 recibido bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x 
 - 2026-10-16T00:00 recibido bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
 - 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
 - 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
@@ -83,3 +77,9 @@ Actualizado: 15/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-16T00:00 enviado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
 - 2026-10-16T00:00 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
 - 2026-10-16T00:20 vencido web:65614571-f714-4991-a75b-bc27850d9de1|x Buffer lleno (10 programadas por canal en el plan Free)
+- 2026-10-16T01:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x 
+- 2026-10-16T01:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tikto 
+- 2026-10-16T01:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x 
+- 2026-10-16T01:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tikto 
+- 2026-10-16T01:00 recibido web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x 
+- 2026-10-16T01:00 recibido web:ce42efb6-366a-4469-b255-64d747973441|x 
