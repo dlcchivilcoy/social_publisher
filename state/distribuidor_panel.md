@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 16/10/2026 10:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 3 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 4 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 8 | 16 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 9 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 3 enviadas + 8 programadas de 50 por día
 - TikTok: conectado · Buffer: 2 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2819 de 3000 (visto 2026-10-16T13:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2818 de 3000 (visto 2026-10-16T13:40:15.000Z)
 
-## Cola propia (43 esperando)
-- X · Notas web · El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Reprogramaron los pendientes: la Liga Chivilcoyana pone al día el Torneo Clausur — en turno
+## Cola propia (42 esperando)
+- X · Notas web · Reprogramaron los pendientes: la Liga Chivilcoyana pone al día el Torneo Clausur — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Gimnasia dio un golpe clave en el Coliseo y se afianza en zona de playoffs — en turno
 - X · Notas web · El Federal ‘A’ en etapa de definiciones: Gimnasia de Chivilcoy va por el pase a  — en turno
 - X · Notas web · Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en  — en turno
@@ -49,6 +48,7 @@ Actualizado: 16/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
 - TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,7 +58,6 @@ Actualizado: 16/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T12:00 vencido policiales:https://www.diariodemocracia.com/mas-deportivo/po no hubo lugar antes de su vencimiento
 - 2026-10-16T12:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-16T12:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 no hubo lugar antes de su vencimiento
 - 2026-10-16T12:20 recibido web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x 
@@ -83,3 +82,4 @@ Actualizado: 16/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-16T13:20 programado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
 - 2026-10-16T13:20 programado web:70161ba5-8aec-496b-844f-0838565b94a8|x 
 - 2026-10-16T13:20 programado web:90793449-fe94-4a94-a7d7-67bd22f391dd|x 
+- 2026-10-16T13:40 programado web:dd7f1568-1a2a-4716-94cc-9e7125c22801|x 
