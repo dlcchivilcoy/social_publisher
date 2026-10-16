@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,28 +7,27 @@ Actualizado: 16/10/2026 12:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 2 | 1 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 3 | 1 | 1 | 1 | 0 | 0 |
-| Notas web | X | 15 | 3 | 10 | 12 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 0 | 1 | 1 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 11 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 8 enviadas + 7 programadas de 50 por día
-- TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día
+- X: conectado · Buffer: 14 enviadas + 6 programadas de 50 por día
+- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2813 de 3000 (visto 2026-10-16T15:00:18.000Z)
+15m: quedan 98 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2811 de 3000 (visto 2026-10-16T15:20:17.000Z)
 
-## Cola propia (40 esperando)
+## Cola propia (38 esperando)
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en  — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Álvaro Cortés presenta su nuevo libro: “el lector no encontrará respuestas cerra — en turno
-- X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — en turno
-- X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — en turno
-- X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — en turno
-- X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — en turno
-- X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — en turno
+- X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — cupo diario de Notas web en X completo (15)
+- X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — cupo diario de Notas web en X completo (15)
+- X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — cupo diario de Notas web en X completo (15)
+- X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — cupo diario de Notas web en X completo (15)
+- X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — en turno
+- X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — en turno
 - X · Notas web · La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV — en turno
 - X · Notas web · Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se  — en turno
 - X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — en turno
@@ -49,6 +48,7 @@ Actualizado: 16/10/2026 12:00 (hora AR) · ACTIVO
 - X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 - TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
+- X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,17 +59,6 @@ Actualizado: 16/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T13:20 vencido policiales:https://laopinionline.ar/articulo/aun-no-identifi fuera del horizonte de programación (espera en la cola)
-- 2026-10-16T13:20 vencido policiales:https://noticiasmercedes.com/gowland-encontro-a-d tope de 15 publicaciones en 24 h de TikTok
-- 2026-10-16T13:20 vencido policiales:https://noticiasmercedes.com/gowland-encontro-a-d no hubo lugar antes de su vencimiento
-- 2026-10-16T13:20 vencido policiales:https://www.diariodemocracia.com/policiales/34657 tope de 15 publicaciones en 24 h de TikTok
-- 2026-10-16T13:20 vencido web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x no hubo lugar antes de su vencimiento
-- 2026-10-16T13:20 programado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
-- 2026-10-16T13:20 programado web:70161ba5-8aec-496b-844f-0838565b94a8|x 
-- 2026-10-16T13:20 programado web:90793449-fe94-4a94-a7d7-67bd22f391dd|x 
-- 2026-10-16T13:40 programado web:dd7f1568-1a2a-4716-94cc-9e7125c22801|x 
-- 2026-10-16T14:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x 
-- 2026-10-16T14:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tikto 
 - 2026-10-16T14:00 recibido web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x 
 - 2026-10-16T14:00 enviado policiales:https://chacabucoenred.com/le-chocaron-la-camione 
 - 2026-10-16T14:00 enviado policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 
@@ -84,3 +73,14 @@ Actualizado: 16/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-16T14:20 programado web:975c6fd2-4e78-4b7d-b793-7760379b7320|x 
 - 2026-10-16T14:40 programado web:9f367ea4-375b-4d70-99b9-15eec836b557|x 
 - 2026-10-16T15:00 programado web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x 
+- 2026-10-16T15:20 recibido web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x 
+- 2026-10-16T15:20 vencido web:90cb2fe1-4568-4f3b-b570-73550002c005|x no hubo lugar antes de su vencimiento
+- 2026-10-16T15:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
+- 2026-10-16T15:20 enviado policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-16T15:20 enviado web:70161ba5-8aec-496b-844f-0838565b94a8|x 
+- 2026-10-16T15:20 enviado web:90793449-fe94-4a94-a7d7-67bd22f391dd|x 
+- 2026-10-16T15:20 enviado web:91984193-d136-423a-8896-e837bb387c4a|x 
+- 2026-10-16T15:20 enviado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
+- 2026-10-16T15:20 enviado web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x 
+- 2026-10-16T15:20 programado web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x 
+- 2026-10-16T15:20 programado web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x 

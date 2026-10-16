@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-16T14:00:22.000Z"
+   "visto": "2026-10-16T15:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 8
+    "scheduled": 6,
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-16T14:00:22.000Z"
+   "visto": "2026-10-16T15:20:16.000Z"
   }
  },
  "contenidos": {
@@ -4138,6 +4138,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reflexion-lunfarda-carlos-armando-costanzo-y-la-verdadera-felicidad",
    "volanta": "Reflexión Lunfarda"
   },
+  "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": {
+   "categoria": "nacionales",
+   "descripcion": "Entre julio y septiembre, nueve entidades financieras recortaron sus tasas, diez las mantuvieron y una las subió, con un promedio que pasó de 8,7% a 7,7%.",
+   "generado": "2026-10-16T15:06:31.344Z",
+   "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c3a383d55cc44f2d9414b24d7e4e7290~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
+   "volanta": ""
+  },
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": {
    "categoria": "nacionales",
    "descripcion": "Un tribunal ordenó una millonaria indemnización y exigió modificar la estructura de un predio de Mar del Plata donde un joven se fracturó el brazo tras…",
@@ -5923,22 +5941,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 227,
-   "segundos": 23999,
+   "restantes": 225,
+   "segundos": 22800,
    "tope": 250
   },
   "30d": {
-   "restantes": 2813,
-   "segundos": 2182222,
+   "restantes": 2811,
+   "segundos": 2181024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T15:00:18.000Z",
+ "cuota_visto": "2026-10-16T15:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -9388,6 +9406,7 @@
    "creado": "2026-10-16T13:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T12:42:00.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
@@ -9663,18 +9682,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok": {
-   "actualizado": "2026-10-16T11:20:16.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad20874b948bf9e9d906e57",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T14:03:01.000Z",
+   "enviado": "2026-10-16T14:06:42.264Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697266425345346837",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-una-mujer-de-53-anos-tras-un-incidente-d4f427",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -11577,18 +11597,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad1e7aae991a49db3d69568",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T14:00:59.000Z",
+   "enviado": "2026-10-16T14:04:38.735Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T23:41:36.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111095979852046734",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
    "origen": "policiales",
    "plataforma": "x",
@@ -11834,6 +11855,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:02:52.022Z",
    "id": "web:12954328-2406-4753-ade8-612eaeebeb3a",
@@ -11882,6 +11904,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:03:37.200Z",
    "id": "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a",
@@ -11948,13 +11971,14 @@
    "video_url": ""
   },
   "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T15:20:16.000Z",
+   "buffer_id": "6ad240b17521b876061691bc",
    "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T20:00:15.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:05:01.560Z",
    "id": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0",
    "intentos": 0,
@@ -13116,6 +13140,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:02:12.271Z",
    "id": "web:6c2dee19-96b1-4489-897a-ad0acfed084b",
@@ -13208,18 +13233,19 @@
    "video_url": ""
   },
   "web:70161ba5-8aec-496b-844f-0838565b94a8|x": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad224932fe657de6ea75a21",
    "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T15:00:15.000Z",
+   "enviado": "2026-10-16T15:04:34.580Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:10:32.990Z",
    "id": "web:70161ba5-8aec-496b-844f-0838565b94a8",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111111061139038606",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cuatro-funciones-estrena-como-un-roble-antiguo-en-el-teatro-la-cueva",
    "origen": "web",
    "plataforma": "x",
@@ -13311,14 +13337,14 @@
    "video_url": ""
   },
   "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T15:20:16.000Z",
+   "buffer_id": "6ad240b1709e3eab3f93db1f",
    "clave": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T19:45:15.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:05:47.376Z",
    "id": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30",
    "intentos": 0,
@@ -13560,6 +13586,30 @@
    "titulo": "Carlos Armando Costanzo y La Verdadera Felicidad...",
    "urgente": false,
    "vence": "2026-10-13T10:10:40.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x": {
+   "actualizado": "2026-10-16T15:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x",
+   "creado": "2026-10-16T15:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:06:31.344Z",
+   "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses\n\nEntre julio y septiembre, nueve entidades financieras recortaron sus tasas, diez las mantuvieron y una las subió, con un promedio que pasó de 8,7% a 7,7%.\n\nhttps://www.diariolacampaña.com.ar/n/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
+   "tipo": "nota",
+   "titulo": "Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses",
+   "urgente": false,
+   "vence": "2026-10-17T15:06:31.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -13892,18 +13942,19 @@
    "video_url": ""
   },
   "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad2249325d13dd62eea1ebd",
    "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T15:15:16.000Z",
+   "enviado": "2026-10-16T15:15:31.330Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:09:49.670Z",
    "id": "web:90793449-fe94-4a94-a7d7-67bd22f391dd",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111113816016580706",
    "nota_url": "https://www.diariolacampaña.com.ar/n/musica-y-danza-tradicional-claudia-goggi-presentara-su-espectaculo",
    "origen": "web",
    "plataforma": "x",
@@ -13917,13 +13968,13 @@
    "video_url": ""
   },
   "web:90cb2fe1-4568-4f3b-b570-73550002c005|x": {
-   "actualizado": "2026-10-15T15:20:14.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "",
    "clave": "web:90cb2fe1-4568-4f3b-b570-73550002c005|x",
    "creado": "2026-10-15T15:20:14.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T15:06:37.868Z",
    "id": "web:90cb2fe1-4568-4f3b-b570-73550002c005",
    "intentos": 0,
@@ -13966,18 +14017,19 @@
    "video_url": ""
   },
   "web:91984193-d136-423a-8896-e837bb387c4a|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad1fa62bbb9ce09f66ba33f",
    "clave": "web:91984193-d136-423a-8896-e837bb387c4a|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T14:15:35.000Z",
+   "enviado": "2026-10-16T14:15:46.272Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:12:37.006Z",
    "id": "web:91984193-d136-423a-8896-e837bb387c4a",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111098779172573489",
    "nota_url": "https://www.diariolacampaña.com.ar/n/independiente-y-autogestivo-humor-improvisacion-y-reencuentro-los",
    "origen": "web",
    "plataforma": "x",
@@ -14098,6 +14150,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:03:14.569Z",
    "id": "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef",
@@ -14915,18 +14968,19 @@
    "video_url": ""
   },
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad22493b948bf9e9d97c5ef",
    "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T14:45:42.000Z",
+   "enviado": "2026-10-16T14:45:46.137Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:11:10.876Z",
    "id": "web:c6c994e0-7772-4aac-b4f4-693e1662b284",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111106328659669459",
    "nota_url": "https://www.diariolacampaña.com.ar/n/panorama-agroclimatico-antonio-martin-y-un-analisis-el-estado-de-las",
    "origen": "web",
    "plataforma": "x",
@@ -15297,18 +15351,19 @@
    "video_url": ""
   },
   "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
+   "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad1fa62c0accac7dac938b1",
    "clave": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T14:30:06.000Z",
+   "enviado": "2026-10-16T14:31:20.032Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:11:55.189Z",
    "id": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111102695733948636",
    "nota_url": "https://www.diariolacampaña.com.ar/n/feria-artesanal-de-chivilcoy-celebraran-sus-35-anos-con-una-gran",
    "origen": "web",
    "plataforma": "x",
@@ -15552,6 +15607,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:04:20.078Z",
    "id": "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c",
@@ -16045,83 +16101,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
-   "cuando": "2026-10-13T23:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x",
-   "cuando": "2026-10-13T23:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok",
-   "cuando": "2026-10-13T23:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696292035296283910"
-  },
-  {
-   "buffer_id": "6acebcaf33507eb5b0e32421",
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
-   "cuando": "2026-10-13T23:20:16.000Z",
-   "dueAt": "2026-10-13T23:23:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
-   "cuando": "2026-10-14T00:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
-   "cuando": "2026-10-14T00:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110149602070380978"
-  },
-  {
-   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok",
-   "cuando": "2026-10-14T00:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696302228491029812"
-  },
-  {
-   "buffer_id": "6aced8d1f847f2ad9eba1d7a",
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
-   "cuando": "2026-10-14T01:20:18.000Z",
-   "dueAt": "2026-10-14T01:23:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aced8d2848c31c80954fc1f",
-   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
-   "cuando": "2026-10-14T01:20:18.000Z",
-   "dueAt": "2026-10-14T02:03:11.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
-   "cuando": "2026-10-14T01:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696327983035845906"
-  },
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
-   "cuando": "2026-10-14T02:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
    "cuando": "2026-10-14T02:20:13.000Z",
@@ -20257,10 +20236,80 @@
    "cuando": "2026-10-16T15:00:18.000Z",
    "dueAt": "2026-10-16T19:30:15.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:90cb2fe1-4568-4f3b-b570-73550002c005|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697266425345346837"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111095979852046734"
+  },
+  {
+   "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111111061139038606"
+  },
+  {
+   "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111113816016580706"
+  },
+  {
+   "clave": "web:91984193-d136-423a-8896-e837bb387c4a|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111098779172573489"
+  },
+  {
+   "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111106328659669459"
+  },
+  {
+   "clave": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x",
+   "cuando": "2026-10-16T15:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111102695733948636"
+  },
+  {
+   "buffer_id": "6ad240b1709e3eab3f93db1f",
+   "clave": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x",
+   "cuando": "2026-10-16T15:20:17.000Z",
+   "dueAt": "2026-10-16T19:45:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad240b17521b876061691bc",
+   "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
+   "cuando": "2026-10-16T15:20:17.000Z",
+   "dueAt": "2026-10-16T20:00:15.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T14:00:22.000Z",
+ "ultima_sync": "2026-10-16T15:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -20460,6 +20509,7 @@
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
   "web:79374449-0d19-4bc1-8bac-ee1a849f1966": "2026-10-13T10:20:16.000Z",
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
+  "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": "2026-10-16T15:20:15.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
   "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7": "2026-10-14T13:20:22.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
