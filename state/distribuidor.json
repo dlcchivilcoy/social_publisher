@@ -995,6 +995,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00218.mp4",
    "youtube_url": "https://youtu.be/8gJy2QXwX2E"
   },
+  "entrevistas:job00219": {
+   "descripcion": "Natalia Oballe, secretaria del Círculo Criollo El Bozal en Chivilcoy, confiesa que no sabe andar a caballo pero resalta el valor de transmitir la tradición gaucha a los jóvenes.",
+   "duracion_seg": null,
+   "entrevistado": "Natalia Oballe",
+   "generado": "2026-10-16T18:00:17.000Z",
+   "id": "entrevistas:job00219",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Natalia Oballe: defender las raíces criollas en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 30159327,
+   "video_mb": 28.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00219.mp4",
+   "youtube_url": "https://youtu.be/5vxC8D8z0h4"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
@@ -8211,6 +8231,30 @@
    "video_bytes": 23374710,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00218.mp4"
   },
+  "entrevistas:job00219|x": {
+   "actualizado": "2026-10-16T18:00:17.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00219|x",
+   "creado": "2026-10-16T18:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T18:00:17.000Z",
+   "id": "entrevistas:job00219",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Natalia Oballe: defender las raíces criollas en Chivilcoy\n\nNatalia Oballe, secretaria del Círculo Criollo El Bozal en Chivilcoy, confiesa que no sabe andar a caballo pero resalta el valor de transmitir la tradición gaucha a…\n\n▶️ La entrevista completa: https://youtu.be/5vxC8D8z0h4",
+   "tipo": "video",
+   "titulo": "Natalia Oballe: defender las raíces criollas en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-18T18:00:17.000Z",
+   "video_bytes": 30159327,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00219.mp4"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "6acfa71a95350f80b3547079",
@@ -8644,14 +8688,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4"
   },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
+   "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
    "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
    "intentos": 0,
@@ -9226,14 +9270,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_11_pergamino_emitieron-alerta-amarilla-por-.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
+   "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego",
    "intentos": 0,
@@ -9251,13 +9295,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_01_pergamino_incendio-en-papel-prensa-bombe.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
+   "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego",
    "intentos": 0,
@@ -10375,13 +10419,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
+   "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
    "intentos": 0,
@@ -11061,14 +11105,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
+   "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de",
    "intentos": 0,
@@ -11086,13 +11130,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
+   "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de",
    "intentos": 0,
@@ -16990,66 +17034,6 @@
  },
  "registro": [
   {
-   "clave": "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x",
-   "cuando": "2026-10-14T10:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:373879d8-54ba-4e71-9032-4f6c8f181ebc|x",
-   "cuando": "2026-10-14T10:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c6470534-4523-4411-a14d-e8390249bc0c|x",
-   "cuando": "2026-10-14T10:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x",
-   "cuando": "2026-10-14T10:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x",
-   "cuando": "2026-10-14T10:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x",
-   "cuando": "2026-10-14T10:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0880263e-20bb-4331-801a-a2781c0ec918|x",
-   "cuando": "2026-10-14T10:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x",
-   "cuando": "2026-10-14T10:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "clave": "web:cc9019ae-7f13-4598-b272-348e432962b5|x",
    "cuando": "2026-10-14T10:20:21.000Z",
    "evento": "vencido",
@@ -21182,6 +21166,55 @@
    "cuando": "2026-10-16T17:20:19.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697312875588701460"
+  },
+  {
+   "clave": "entrevistas:job00219",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00219|x",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x",
+   "cuando": "2026-10-16T18:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -21235,6 +21268,7 @@
   "entrevistas:job00216": "2026-10-15T18:40:15.000Z",
   "entrevistas:job00217": "2026-10-16T17:00:18.000Z",
   "entrevistas:job00218": "2026-10-16T17:20:17.000Z",
+  "entrevistas:job00219": "2026-10-16T18:00:17.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",

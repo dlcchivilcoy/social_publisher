@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 2 | 3 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 3 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
@@ -18,10 +18,11 @@ Actualizado: 16/10/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2805 de 3000 (visto 2026-10-16T17:20:19.000Z)
 
-## Cola propia (51 esperando)
+## Cola propia (46 esperando)
 - TikTok · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels del bot · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Recortes de entrevistas · Natalia Oballe: defender las raíces criollas en Chivilcoy — en turno
 - TikTok · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Sebastián Di Siervi en Chivilcoy: Qué es el folklore — en turno
@@ -48,7 +49,6 @@ Actualizado: 16/10/2026 14:40 (hora AR) · ACTIVO
 - X · Notas web · Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se  — en turno
 - X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — en turno
 - X · Notas web · La oposición no logró el quórum y se cayó la sesión para tratar la derogación de — en turno
-- X · Notas web · SUTEBA marchó al Congreso por el presupuesto educativo y alertó sobre la crecien — en turno
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,14 +59,6 @@ Actualizado: 16/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T16:00 recibido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
-- 2026-10-16T16:00 recibido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
-- 2026-10-16T16:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-16T16:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-16T16:00 recibido web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x 
-- 2026-10-16T16:00 recibido web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x 
-- 2026-10-16T16:00 programado policiales:https://www.junindigital.com/policiales/2026-10-1 
-- 2026-10-16T16:20 recibido web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x 
 - 2026-10-16T16:20 vencido web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x no hubo lugar antes de su vencimiento
 - 2026-10-16T16:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x 
 - 2026-10-16T16:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
@@ -84,3 +76,11 @@ Actualizado: 16/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-16T17:20 recibido web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
 - 2026-10-16T17:20 recibido entrevistas:job00218|x 
 - 2026-10-16T17:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
+- 2026-10-16T18:00 entrevista_aprobada entrevistas:job00219 
+- 2026-10-16T18:00 recibido entrevistas:job00219|x 
+- 2026-10-16T18:00 vencido policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp Buffer lleno (10 programadas por canal en el plan Free)
+- 2026-10-16T18:00 vencido policiales:https://laopinionline.ar/articulo/san-pedro-incen tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-16T18:00 vencido policiales:https://laopinionline.ar/articulo/san-pedro-incen no hubo lugar antes de su vencimiento
+- 2026-10-16T18:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- no hubo lugar antes de su vencimiento
+- 2026-10-16T18:00 vencido policiales:https://www.diariodemocracia.com/policiales/34658 tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-16T18:00 vencido policiales:https://www.diariodemocracia.com/policiales/34658 no hubo lugar antes de su vencimiento
