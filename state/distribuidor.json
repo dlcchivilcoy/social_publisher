@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 8
+    "scheduled": 0,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-16T18:40:13.000Z"
+   "visto": "2026-10-16T19:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 17
+    "scheduled": 7,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-16T18:40:13.000Z"
+   "visto": "2026-10-16T19:40:16.000Z"
   }
  },
  "contenidos": {
@@ -6442,22 +6442,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 8401,
+   "restantes": 214,
+   "segundos": 7200,
    "tope": 250
   },
   "30d": {
-   "restantes": 2802,
-   "segundos": 2166624,
+   "restantes": 2800,
+   "segundos": 2165424,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T19:20:17.000Z",
+ "cuota_visto": "2026-10-16T19:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7551,18 +7551,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok": {
-   "actualizado": "2026-10-16T17:00:18.000Z",
+   "actualizado": "2026-10-16T19:40:16.000Z",
    "buffer_id": "6ad2582754bdc0a20029caef",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "2026-10-16T19:03:30.000Z",
+   "enviado": "2026-10-16T19:05:12.855Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:32:18.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697343357076655368",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -8420,14 +8421,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00219.mp4"
   },
   "entrevistas:job00221|x": {
-   "actualizado": "2026-10-16T18:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T19:40:16.000Z",
+   "buffer_id": "6ad27da1346e510ac44f3b29",
    "clave": "entrevistas:job00221|x",
    "creado": "2026-10-16T18:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T21:30:43.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T18:20:15.000Z",
    "id": "entrevistas:job00221",
    "intentos": 0,
@@ -15137,18 +15138,19 @@
    "video_url": ""
   },
   "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x": {
-   "actualizado": "2026-10-16T15:00:18.000Z",
+   "actualizado": "2026-10-16T19:40:16.000Z",
    "buffer_id": "6ad23c02cb7df35161452a46",
    "clave": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T19:30:15.000Z",
+   "enviado": "2026-10-16T19:30:29.252Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:06:29.760Z",
    "id": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111177980462375423",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-el-federal-a-en-etapa-de-definiciones-gimnasia-de-chivilcoy-va",
    "origen": "web",
    "plataforma": "x",
@@ -15389,18 +15391,19 @@
    "video_url": ""
   },
   "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x": {
-   "actualizado": "2026-10-16T14:20:14.000Z",
+   "actualizado": "2026-10-16T19:40:16.000Z",
    "buffer_id": "6ad2329f63c879f95860adc2",
    "clave": "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T19:00:52.000Z",
+   "enviado": "2026-10-16T19:02:48.426Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:07:50.210Z",
    "id": "web:975c6fd2-4e78-4b7d-b793-7760379b7320",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111171013870313554",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-reprogramaron-los-pendientes-la-liga-chivilcoyana-pone-al-dia",
    "origen": "web",
    "plataforma": "x",
@@ -15539,18 +15542,19 @@
    "video_url": ""
   },
   "web:9f367ea4-375b-4d70-99b9-15eec836b557|x": {
-   "actualizado": "2026-10-16T14:40:14.000Z",
+   "actualizado": "2026-10-16T19:40:16.000Z",
    "buffer_id": "6ad2374e7521b8760613cdb3",
    "clave": "web:9f367ea4-375b-4d70-99b9-15eec836b557|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T19:15:12.000Z",
+   "enviado": "2026-10-16T19:15:16.358Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:07:09.765Z",
    "id": "web:9f367ea4-375b-4d70-99b9-15eec836b557",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111174150999978071",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-gimnasia-dio-un-golpe-clave-en-el-coliseo-y-se-afianza-en",
    "origen": "web",
    "plataforma": "x",
@@ -17094,18 +17098,19 @@
    "video_url": ""
   },
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x": {
-   "actualizado": "2026-10-16T14:20:14.000Z",
+   "actualizado": "2026-10-16T19:40:16.000Z",
    "buffer_id": "6ad2329e1ffe47098034f627",
    "clave": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x",
    "creado": "2026-10-16T14:00:21.000Z",
    "dueAt": "2026-10-16T18:45:40.000Z",
+   "enviado": "2026-10-16T18:45:46.134Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T13:41:05.459Z",
    "id": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111166726675083438",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
    "origen": "web",
    "plataforma": "x",
@@ -17442,52 +17447,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acf819aba9c302b3b845e72",
-   "clave": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x",
-   "cuando": "2026-10-14T13:20:26.000Z",
-   "dueAt": "2026-10-14T15:00:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf819a62c15da2721d75a1",
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|x",
-   "cuando": "2026-10-14T13:20:26.000Z",
-   "dueAt": "2026-10-14T15:15:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x",
-   "cuando": "2026-10-14T13:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
-   "cuando": "2026-10-14T13:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x",
-   "cuando": "2026-10-14T13:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
-   "cuando": "2026-10-14T13:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
    "cuando": "2026-10-14T13:40:21.000Z",
@@ -21622,10 +21581,47 @@
    "cuando": "2026-10-16T19:20:17.000Z",
    "dueAt": "2026-10-16T21:15:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok",
+   "cuando": "2026-10-16T19:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697343357076655368"
+  },
+  {
+   "clave": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x",
+   "cuando": "2026-10-16T19:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111177980462375423"
+  },
+  {
+   "clave": "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x",
+   "cuando": "2026-10-16T19:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111171013870313554"
+  },
+  {
+   "clave": "web:9f367ea4-375b-4d70-99b9-15eec836b557|x",
+   "cuando": "2026-10-16T19:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111174150999978071"
+  },
+  {
+   "clave": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x",
+   "cuando": "2026-10-16T19:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111166726675083438"
+  },
+  {
+   "buffer_id": "6ad27da1346e510ac44f3b29",
+   "clave": "entrevistas:job00221|x",
+   "cuando": "2026-10-16T19:40:17.000Z",
+   "dueAt": "2026-10-16T21:30:43.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T18:40:13.000Z",
+ "ultima_sync": "2026-10-16T19:40:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
