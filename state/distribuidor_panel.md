@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,8 +19,8 @@ Actualizado: 16/10/2026 14:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2805 de 3000 (visto 2026-10-16T17:20:19.000Z)
 
 ## Cola propia (51 esperando)
-- X · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Reels del bot · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
