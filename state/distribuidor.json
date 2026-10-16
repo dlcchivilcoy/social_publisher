@@ -552,6 +552,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b8db04dc41f31b2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/K-FNSpsGKLU"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": {
+   "descripcion": "Un Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso de la Patria. El motociclista sufrió heridas, fue asistido por SAME y trasladado al Hospital Municipal.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T20:57:34.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
+   "urgente": false,
+   "video_bytes": 719546,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/loznN0El0cw"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -3721,6 +3742,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gestiones-parlamentarias-y-ciudadanas-avanza-el-reclamo-por-la",
    "volanta": ""
   },
+  "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": {
+   "categoria": "",
+   "descripcion": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado Un Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso de la Patria. El motociclista sufrió heridas, fue asistido por personal del SAME y trasladado al Hospital Municipal para su evaluación médica. En el lugar trabajaron efectivos policiales para ordenar el tránsito y realizar las actuaciones...",
+   "generado": "2026-10-16T20:54:53.891Z",
+   "id": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ba29de2465004927b7a3f1708331ab3f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno nacional oficializó el nombramiento del doctor Diego Masaragian al frente de la Secretaría Nacional de Discapacidad. La decisión se tomó tras…",
@@ -6442,22 +6481,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 210,
-   "segundos": 3599,
+   "restantes": 209,
+   "segundos": 2398,
    "tope": 250
   },
   "30d": {
-   "restantes": 2796,
-   "segundos": 2161823,
+   "restantes": 2795,
+   "segundos": 2160622,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T20:40:19.000Z",
+ "cuota_visto": "2026-10-16T21:00:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7754,6 +7793,56 @@
    "vence": "2026-10-18T17:12:47.000Z",
    "video_bytes": 367959,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b8db04dc41f31b2.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok": {
+   "actualizado": "2026-10-16T21:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
+   "creado": "2026-10-16T21:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T20:57:34.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado\n\nUn Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso de la Patria. El motociclista sufrió heridas, fue asistido por SAME y trasladado al Hospital Municipal.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
+   "urgente": false,
+   "vence": "2026-10-18T20:57:34.000Z",
+   "video_bytes": 719546,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x": {
+   "actualizado": "2026-10-16T21:00:18.000Z",
+   "buffer_id": "6ad290638ac6cfe5441864bd",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
+   "creado": "2026-10-16T21:00:18.000Z",
+   "dueAt": "2026-10-16T22:45:52.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T20:57:34.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado\n\nUn Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
+   "urgente": false,
+   "vence": "2026-10-18T20:57:34.000Z",
+   "video_bytes": 719546,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -13655,6 +13744,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x": {
+   "actualizado": "2026-10-16T21:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
+   "creado": "2026-10-16T21:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T20:54:53.891Z",
+   "id": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado\n\nUn Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
+   "tipo": "nota",
+   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
+   "urgente": false,
+   "vence": "2026-10-17T20:54:53.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x": {
    "actualizado": "2026-10-14T21:40:16.000Z",
    "buffer_id": "",
@@ -17454,33 +17567,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acf99034713c18c89d63c1f",
-   "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
-   "cuando": "2026-10-14T15:00:20.000Z",
-   "dueAt": "2026-10-14T19:00:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x",
-   "cuando": "2026-10-14T15:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:364ed235-37a6-4310-b188-750e40d877a8|x",
-   "cuando": "2026-10-14T15:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:76224348-2766-4a07-947f-ef8503976009|x",
-   "cuando": "2026-10-14T15:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "web:baeb5d08-b026-4158-a946-6ff35dd140c1|x",
    "cuando": "2026-10-14T15:20:14.000Z",
@@ -21618,6 +21704,37 @@
    "cuando": "2026-10-16T20:40:19.000Z",
    "dueAt": "2026-10-16T21:23:15.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
+   "cuando": "2026-10-16T21:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
+   "cuando": "2026-10-16T21:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
+   "cuando": "2026-10-16T21:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad290638ac6cfe5441864bd",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
+   "cuando": "2026-10-16T21:00:19.000Z",
+   "dueAt": "2026-10-16T22:45:52.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -21649,6 +21766,7 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c": "2026-10-16T16:00:18.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi": "2026-10-16T16:00:18.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd": "2026-10-16T17:20:17.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": "2026-10-16T21:00:18.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -21794,6 +21912,7 @@
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
+  "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
