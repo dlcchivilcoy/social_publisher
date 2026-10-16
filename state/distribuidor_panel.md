@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 3 | 3 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 4 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 4 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 4 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 4 | 1 | 0 | 0 |
@@ -16,14 +16,12 @@ Actualizado: 16/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 213 de 250 · 30d: quedan 2799 de 3000 (visto 2026-10-16T20:00:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 212 de 250 · 30d: quedan 2798 de 3000 (visto 2026-10-16T20:20:16.000Z)
 
-## Cola propia (40 esperando)
+## Cola propia (38 esperando)
 - TikTok · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 15 publicaciones en 24 h de TikTok
-- X · Recortes de entrevistas · Natalia Oballe: defender las raíces criollas en Chivilcoy — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Recortes de entrevistas · Sebastián Di Siervi en Chivilcoy: Qué es el folklore — en turno
+- X · Recortes de entrevistas · Sebastián Di Siervi en Chivilcoy: Qué es el folklore — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Daniela Ghio: ganar con bici de aluminio en Chivilcoy — en turno
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — en turno
@@ -49,6 +47,8 @@ Actualizado: 16/10/2026 17:00 (hora AR) · ACTIVO
 - X · Notas web · Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bul — en turno
 - TikTok · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — en turno
+- X · Notas web · La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV — en turno
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,8 +59,6 @@ Actualizado: 16/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T19:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
-- 2026-10-16T19:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
 - 2026-10-16T19:00 recibido entrevistas:job00222|x 
 - 2026-10-16T19:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x 
 - 2026-10-16T19:20 entrevista_aprobada entrevistas:job00223 
@@ -84,3 +82,5 @@ Actualizado: 16/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-16T20:00 vencido policiales:https://www.presentenoticias.com/noticias/2026/10 tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-16T20:00 vencido policiales:https://www.presentenoticias.com/noticias/2026/10 no hubo lugar antes de su vencimiento
 - 2026-10-16T20:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x 
+- 2026-10-16T20:20 programado entrevistas:job00219|x 
+- 2026-10-16T20:20 programado bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x 

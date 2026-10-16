@@ -6447,17 +6447,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 213,
-   "segundos": 5998,
+   "restantes": 212,
+   "segundos": 4802,
    "tope": 250
   },
   "30d": {
-   "restantes": 2799,
-   "segundos": 2164222,
+   "restantes": 2798,
+   "segundos": 2163026,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T20:00:19.000Z",
+ "cuota_visto": "2026-10-16T20:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7883,14 +7883,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
   },
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x": {
-   "actualizado": "2026-10-16T15:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T20:20:14.000Z",
+   "buffer_id": "6ad286ff29a10da0161bc26b",
    "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
    "creado": "2026-10-16T15:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T22:15:12.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T15:22:43.000Z",
    "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
    "intentos": 0,
@@ -8379,6 +8379,7 @@
    "creado": "2026-10-16T17:20:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T17:20:17.000Z",
    "id": "entrevistas:job00218",
@@ -8397,14 +8398,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00218.mp4"
   },
   "entrevistas:job00219|x": {
-   "actualizado": "2026-10-16T18:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T20:20:14.000Z",
+   "buffer_id": "6ad286fff90ad606a6f55a36",
    "clave": "entrevistas:job00219|x",
    "creado": "2026-10-16T18:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T22:00:42.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T18:00:17.000Z",
    "id": "entrevistas:job00219",
    "intentos": 0,
@@ -17449,21 +17450,6 @@
  },
  "registro": [
   {
-   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
-   "cuando": "2026-10-14T14:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6acf8fa08b6c76b221fef6ed",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
-   "cuando": "2026-10-14T14:20:17.000Z",
-   "dueAt": "2026-10-14T18:15:14.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6acf8fa1ed762d924f21c2ad",
    "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
    "cuando": "2026-10-14T14:20:17.000Z",
@@ -21611,6 +21597,20 @@
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
    "cuando": "2026-10-16T20:00:19.000Z",
    "dueAt": "2026-10-16T21:45:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad286fff90ad606a6f55a36",
+   "clave": "entrevistas:job00219|x",
+   "cuando": "2026-10-16T20:20:16.000Z",
+   "dueAt": "2026-10-16T22:00:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad286ff29a10da0161bc26b",
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
+   "cuando": "2026-10-16T20:20:16.000Z",
+   "dueAt": "2026-10-16T22:15:12.000Z",
    "evento": "programado"
   }
  ],
