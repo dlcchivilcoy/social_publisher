@@ -6442,22 +6442,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 214,
-   "segundos": 7200,
+   "restantes": 213,
+   "segundos": 5998,
    "tope": 250
   },
   "30d": {
-   "restantes": 2800,
-   "segundos": 2165424,
+   "restantes": 2799,
+   "segundos": 2164222,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T19:40:17.000Z",
+ "cuota_visto": "2026-10-16T20:00:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7628,14 +7628,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x": {
-   "actualizado": "2026-10-16T16:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T20:00:18.000Z",
+   "buffer_id": "6ad2825329a10da0161a8c5a",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
    "creado": "2026-10-16T16:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T21:45:11.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T15:44:43.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c",
    "intentos": 0,
@@ -8403,6 +8403,7 @@
    "creado": "2026-10-16T18:00:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T18:00:17.000Z",
    "id": "entrevistas:job00219",
@@ -9054,14 +9055,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|tiktok": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|tiktok",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada",
    "intentos": 0,
@@ -9079,13 +9080,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_06_pergamino_aprehendieron-a-un-joven-de-28.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|x": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|x",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada",
    "intentos": 0,
@@ -10883,14 +10884,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|tiktok",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:44.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html",
    "intentos": 0,
@@ -10908,13 +10909,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_01_chacabuco_agresi-n-y-traslado-policial-t.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|x": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|x",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:44.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html",
    "intentos": 0,
@@ -12315,14 +12316,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_06_9-de-julio_muri-un-conductor-tras-un-choq.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|tiktok": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|tiktok",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/",
    "intentos": 0,
@@ -12340,13 +12341,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_07_9-de-julio_sospechan-que-fue-intencional-.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|x": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|x",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/",
    "intentos": 0,
@@ -12724,14 +12725,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|tiktok": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|tiktok",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya",
    "intentos": 0,
@@ -12749,13 +12750,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_03_bolivar_hallaron-sin-vida-a-un-hombre-.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|x": {
-   "actualizado": "2026-10-16T02:00:19.000Z",
+   "actualizado": "2026-10-16T20:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|x",
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya",
    "intentos": 0,
@@ -17448,68 +17449,6 @@
  },
  "registro": [
   {
-   "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
-   "cuando": "2026-10-14T13:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x",
-   "cuando": "2026-10-14T13:40:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110358808753013054"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|tiktok",
-   "cuando": "2026-10-14T13:40:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696508744829553940"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|x",
-   "cuando": "2026-10-14T13:40:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110362733191320060"
-  },
-  {
-   "clave": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x",
-   "cuando": "2026-10-14T13:40:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110356118862004422"
-  },
-  {
-   "buffer_id": "6acf86476fbacc6750ad58a5",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x",
-   "cuando": "2026-10-14T13:40:23.000Z",
-   "dueAt": "2026-10-14T15:30:52.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf8af48570d416620b947e",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x",
-   "cuando": "2026-10-14T14:00:20.000Z",
-   "dueAt": "2026-10-14T18:00:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
-   "cuando": "2026-10-14T14:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
-   "cuando": "2026-10-14T14:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
    "cuando": "2026-10-14T14:20:15.000Z",
    "estado": "pendiente",
@@ -21617,6 +21556,61 @@
    "clave": "entrevistas:job00221|x",
    "cuando": "2026-10-16T19:40:17.000Z",
    "dueAt": "2026-10-16T21:30:43.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|tiktok",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|x",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|x",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|tiktok",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|x",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|tiktok",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|x",
+   "cuando": "2026-10-16T20:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad2825329a10da0161a8c5a",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
+   "cuando": "2026-10-16T20:00:19.000Z",
+   "dueAt": "2026-10-16T21:45:11.000Z",
    "evento": "programado"
   }
  ],
