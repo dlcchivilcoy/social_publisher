@@ -5928,17 +5928,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 228,
-   "segundos": 25203,
+   "restantes": 227,
+   "segundos": 23999,
    "tope": 250
   },
   "30d": {
-   "restantes": 2814,
-   "segundos": 2183426,
+   "restantes": 2813,
+   "segundos": 2182222,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T14:40:14.000Z",
+ "cuota_visto": "2026-10-16T15:00:18.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -13317,6 +13317,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:05:47.376Z",
    "id": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30",
@@ -13866,14 +13867,14 @@
    "video_url": ""
   },
   "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T15:00:18.000Z",
+   "buffer_id": "6ad23c02cb7df35161452a46",
    "clave": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T19:30:15.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:06:29.760Z",
    "id": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad",
    "intentos": 0,
@@ -16044,14 +16045,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
-   "cuando": "2026-10-13T23:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
    "cuando": "2026-10-13T23:20:14.000Z",
@@ -20256,6 +20249,13 @@
    "clave": "web:9f367ea4-375b-4d70-99b9-15eec836b557|x",
    "cuando": "2026-10-16T14:40:14.000Z",
    "dueAt": "2026-10-16T19:15:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad23c02cb7df35161452a46",
+   "clave": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x",
+   "cuando": "2026-10-16T15:00:18.000Z",
+   "dueAt": "2026-10-16T19:30:15.000Z",
    "evento": "programado"
   }
  ],
