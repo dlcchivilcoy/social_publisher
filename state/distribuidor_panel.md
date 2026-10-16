@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 2 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 7 | 1 | 10 | 0 | 1 | 0 |
-| Reels policiales | TikTok | 12 | 7 | 0 | 10 | 2 | 1 | 0 |
+| Reels policiales | X | 12 | 7 | 1 | 14 | 0 | 1 | 0 |
+| Reels policiales | TikTok | 12 | 7 | 0 | 14 | 2 | 1 | 0 |
 | Notas web | X | 15 | 14 | 1 | 25 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,7 +18,7 @@ Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2830 de 3000 (visto 2026-10-16T01:40:17.000Z)
 
-## Cola propia (50 esperando)
+## Cola propia (57 esperando)
 - X · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — fuera del horizonte de programación (espera en la cola)
 - X · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
 - TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
@@ -33,6 +33,14 @@ Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
 - X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
+- X · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
+- TikTok · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
+- X · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — en turno
+- TikTok · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — en turno
+- X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
+- TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
+- X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
+- TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
 - TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 - TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
@@ -41,14 +49,6 @@ Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
-- TikTok · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Descontrol, gases y corridas en el ingreso de los hinchas de River en el estadio — en turno
-- TikTok · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
-- X · Notas web · A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambia — en turno
-- TikTok · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — en turno
-- X · Notas web · La Cámara de Casación ratificó el archivo de una causa contra los jueces de la C — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,15 +58,6 @@ Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
-- 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
-- 2026-10-16T00:00 recibido policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
-- 2026-10-16T00:00 recibido policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
-- 2026-10-16T00:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
-- 2026-10-16T00:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
-- 2026-10-16T00:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-16T00:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-16T00:00 recibido web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x 
 - 2026-10-16T00:00 vencido web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x no hubo lugar antes de su vencimiento
 - 2026-10-16T00:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
 - 2026-10-16T00:00 enviado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
@@ -83,3 +74,12 @@ Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-10-16T01:20 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
 - 2026-10-16T01:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tikto 
 - 2026-10-16T01:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tikto 
+- 2026-10-16T02:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/violencia 
+- 2026-10-16T02:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/violencia 
+- 2026-10-16T02:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-16T02:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-16T02:00 recibido policiales:https://laopinionline.ar/articulo/aprehendieron-a 
+- 2026-10-16T02:00 recibido policiales:https://laopinionline.ar/articulo/aprehendieron-a 
+- 2026-10-16T02:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/15/inc 
+- 2026-10-16T02:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/15/inc 
+- 2026-10-16T02:00 vencido web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9|x no hubo lugar antes de su vencimiento
