@@ -5928,17 +5928,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 26403,
+   "restantes": 228,
+   "segundos": 25203,
    "tope": 250
   },
   "30d": {
-   "restantes": 2815,
-   "segundos": 2184626,
+   "restantes": 2814,
+   "segundos": 2183426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T14:20:15.000Z",
+ "cuota_visto": "2026-10-16T14:40:14.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -13872,6 +13872,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:06:29.760Z",
    "id": "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad",
@@ -14264,14 +14265,14 @@
    "video_url": ""
   },
   "web:9f367ea4-375b-4d70-99b9-15eec836b557|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T14:40:14.000Z",
+   "buffer_id": "6ad2374e7521b8760613cdb3",
    "clave": "web:9f367ea4-375b-4d70-99b9-15eec836b557|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T19:15:12.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:07:09.765Z",
    "id": "web:9f367ea4-375b-4d70-99b9-15eec836b557",
    "intentos": 0,
@@ -16043,13 +16044,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6aceb807848c31c8094f2889",
-   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok",
-   "cuando": "2026-10-13T23:00:23.000Z",
-   "dueAt": "2026-10-13T23:43:26.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|x",
    "cuando": "2026-10-13T23:20:14.000Z",
@@ -20255,6 +20249,13 @@
    "clave": "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x",
    "cuando": "2026-10-16T14:20:15.000Z",
    "dueAt": "2026-10-16T19:00:52.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2374e7521b8760613cdb3",
+   "clave": "web:9f367ea4-375b-4d70-99b9-15eec836b557|x",
+   "cuando": "2026-10-16T14:40:14.000Z",
+   "dueAt": "2026-10-16T19:15:12.000Z",
    "evento": "programado"
   }
  ],

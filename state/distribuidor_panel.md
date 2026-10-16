@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 11:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 11:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,19 +9,18 @@ Actualizado: 16/10/2026 11:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 1 | 1 | 1 | 0 | 0 |
-| Notas web | X | 15 | 3 | 8 | 14 | 0 | 0 | 0 |
+| Notas web | X | 15 | 3 | 9 | 13 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 8 enviadas + 7 programadas de 50 por día
 - TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2815 de 3000 (visto 2026-10-16T14:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2814 de 3000 (visto 2026-10-16T14:40:14.000Z)
 
-## Cola propia (42 esperando)
+## Cola propia (41 esperando)
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Gimnasia dio un golpe clave en el Coliseo y se afianza en zona de playoffs — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · El Federal ‘A’ en etapa de definiciones: Gimnasia de Chivilcoy va por el pase a  — en turno
+- X · Notas web · El Federal ‘A’ en etapa de definiciones: Gimnasia de Chivilcoy va por el pase a  — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en  — en turno
 - X · Notas web · Álvaro Cortés presenta su nuevo libro: “el lector no encontrará respuestas cerra — en turno
 - X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — en turno
@@ -49,6 +48,7 @@ Actualizado: 16/10/2026 11:20 (hora AR) · ACTIVO
 - X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
 - TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
+- TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,7 +59,6 @@ Actualizado: 16/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T13:20 recibido web:e80eb9f8-449c-4d4b-a410-387331e0d747|x 
 - 2026-10-16T13:20 vencido policiales:https://laopinionline.ar/articulo/aun-no-identifi tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-16T13:20 vencido policiales:https://laopinionline.ar/articulo/aun-no-identifi fuera del horizonte de programación (espera en la cola)
 - 2026-10-16T13:20 vencido policiales:https://noticiasmercedes.com/gowland-encontro-a-d tope de 15 publicaciones en 24 h de TikTok
@@ -84,3 +83,4 @@ Actualizado: 16/10/2026 11:20 (hora AR) · ACTIVO
 - 2026-10-16T14:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x 
 - 2026-10-16T14:20 programado web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x 
 - 2026-10-16T14:20 programado web:975c6fd2-4e78-4b7d-b793-7760379b7320|x 
+- 2026-10-16T14:40 programado web:9f367ea4-375b-4d70-99b9-15eec836b557|x 
