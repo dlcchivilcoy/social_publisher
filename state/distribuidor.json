@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 1
+    "scheduled": 3,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-16T11:40:15.000Z"
+   "visto": "2026-10-16T12:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-16T11:40:15.000Z"
+   "visto": "2026-10-16T12:40:15.000Z"
   }
  },
  "contenidos": {
@@ -5347,6 +5347,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
    "volanta": "De Córdoba al país"
   },
+  "web:da812ee7-10e6-4f68-a954-bbcfc675078c": {
+   "categoria": "nacionales",
+   "descripcion": "Unos 184 mil matriculados federales acudirán a las urnas para definir cuatro bancas del organismo que selecciona y sanciona jueces.",
+   "generado": "2026-10-16T12:36:36.182Z",
+   "id": "web:da812ee7-10e6-4f68-a954-bbcfc675078c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6747661c10b149678a1d32e405779a4c~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/elecciones-en-el-consejo-de-la-magistratura-cuando-votan-los-7686bd",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se define",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/elecciones-en-el-consejo-de-la-magistratura-cuando-votan-los-7686bd",
+   "volanta": ""
+  },
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": {
    "categoria": "",
    "descripcion": "El coleccionismo local se consolida con proyectos y nuevas temáticas: desde la filatelia a los frascos de perfume",
@@ -5805,17 +5823,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 36001,
+   "restantes": 235,
+   "segundos": 32402,
    "tope": 250
   },
   "30d": {
-   "restantes": 2822,
-   "segundos": 2194225,
+   "restantes": 2821,
+   "segundos": 2190626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T11:40:16.000Z",
+ "cuota_visto": "2026-10-16T12:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7705,18 +7723,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_05_chacabuco_estado-de-salud-de-los-dos-her.mp4"
   },
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok": {
-   "actualizado": "2026-10-16T11:20:16.000Z",
+   "actualizado": "2026-10-16T12:40:15.000Z",
    "buffer_id": "6ad20873f24c5797a237fb3c",
    "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
    "creado": "2026-10-16T09:00:20.000Z",
    "dueAt": "2026-10-16T12:03:42.000Z",
+   "enviado": "2026-10-16T12:05:55.256Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T02:41:51.000Z",
    "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697235245464096016",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -11746,13 +11765,13 @@
    "video_url": ""
   },
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x": {
-   "actualizado": "2026-10-15T12:40:15.000Z",
+   "actualizado": "2026-10-16T12:40:15.000Z",
    "buffer_id": "",
    "clave": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x",
    "creado": "2026-10-15T12:40:15.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T12:36:48.958Z",
    "id": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d",
    "intentos": 0,
@@ -15061,6 +15080,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x": {
+   "actualizado": "2026-10-16T12:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x",
+   "creado": "2026-10-16T12:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T12:36:36.182Z",
+   "id": "web:da812ee7-10e6-4f68-a954-bbcfc675078c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/elecciones-en-el-consejo-de-la-magistratura-cuando-votan-los-7686bd",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se define\n\nUnos 184 mil matriculados federales acudirán a las urnas para definir cuatro bancas del organismo que selecciona y sanciona jueces.\n\nhttps://www.diariolacampaña.com.ar/n/elecciones-en-el-consejo-de-la-magistratura-cuando-votan-los-7686bd",
+   "tipo": "nota",
+   "titulo": "Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se define",
+   "urgente": false,
+   "vence": "2026-10-17T12:36:36.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -15685,25 +15728,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
-   "cuando": "2026-10-13T18:40:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110064463617384452"
-  },
-  {
-   "clave": "entrevistas:job00197",
-   "cuando": "2026-10-13T19:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x",
-   "cuando": "2026-10-13T19:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
    "cuando": "2026-10-13T19:00:19.000Z",
@@ -19909,10 +19933,30 @@
    "cuando": "2026-10-16T12:20:15.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x",
+   "cuando": "2026-10-16T12:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x",
+   "cuando": "2026-10-16T12:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
+   "cuando": "2026-10-16T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697235245464096016"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T11:40:15.000Z",
+ "ultima_sync": "2026-10-16T12:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -20180,6 +20224,7 @@
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b": "2026-10-16T10:20:16.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
+  "web:da812ee7-10e6-4f68-a954-bbcfc675078c": "2026-10-16T12:40:14.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
   "web:dca831fd-6866-464f-a367-e6b85d1a5640": "2026-10-15T23:40:15.000Z",
