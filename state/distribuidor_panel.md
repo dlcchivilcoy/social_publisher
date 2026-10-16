@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 16/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 16 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 15 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2825 de 3000 (visto 2026-10-16T10:20:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2824 de 3000 (visto 2026-10-16T10:40:14.000Z)
 
-## Cola propia (58 esperando)
-- X · Notas web · Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Estrena “Como un roble antiguo” en el Teatro La Cueva — en turno
+## Cola propia (57 esperando)
+- X · Notas web · Estrena “Como un roble antiguo” en el Teatro La Cueva — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Música y Danza Tradicional — en turno
 - X · Notas web · El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra — en turno
 - X · Notas web · Reprogramaron los pendientes: la Liga Chivilcoyana pone al día el Torneo Clausur — en turno
@@ -49,6 +48,7 @@ Actualizado: 16/10/2026 07:20 (hora AR) · ACTIVO
 - X · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
 - TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
+- TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,7 +58,6 @@ Actualizado: 16/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T10:20 recibido web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x 
 - 2026-10-16T10:20 recibido web:dd7f1568-1a2a-4716-94cc-9e7125c22801|x 
 - 2026-10-16T10:20 recibido web:975c6fd2-4e78-4b7d-b793-7760379b7320|x 
 - 2026-10-16T10:20 recibido web:9f367ea4-375b-4d70-99b9-15eec836b557|x 
@@ -83,3 +82,4 @@ Actualizado: 16/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-16T10:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x 
 - 2026-10-16T10:20 programado web:91984193-d136-423a-8896-e837bb387c4a|x 
 - 2026-10-16T10:20 programado web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x 
+- 2026-10-16T10:40 programado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
