@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,21 +8,21 @@ Actualizado: 15/10/2026 22:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 8 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 1 | 10 | 0 | 1 | 0 |
-| Reels policiales | TikTok | 12 | 6 | 1 | 10 | 2 | 1 | 0 |
+| Reels policiales | TikTok | 12 | 7 | 0 | 10 | 2 | 1 | 0 |
 | Notas web | X | 15 | 14 | 1 | 25 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 2 programadas de 50 por día
-- TikTok: conectado · Buffer: 12 enviadas + 1 programadas de 25 por día
+- TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2832 de 3000 (visto 2026-10-16T00:00:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2831 de 3000 (visto 2026-10-16T01:20:15.000Z)
 
 ## Cola propia (52 esperando)
-- X · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
+- X · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
 - TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — en turno
@@ -58,7 +58,6 @@ Actualizado: 15/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T00:00 recibido bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
 - 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
 - 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
 - 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
@@ -83,3 +82,4 @@ Actualizado: 15/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-16T01:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tikto 
 - 2026-10-16T01:00 recibido web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x 
 - 2026-10-16T01:00 recibido web:ce42efb6-366a-4469-b255-64d747973441|x 
+- 2026-10-16T01:20 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/h 

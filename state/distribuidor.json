@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 12
+    "scheduled": 0,
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-16T00:00:24.000Z"
+   "visto": "2026-10-16T01:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-16T00:00:24.000Z"
+   "visto": "2026-10-16T01:20:15.000Z"
   }
  },
  "contenidos": {
@@ -5343,17 +5343,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 77993,
+   "restantes": 245,
+   "segundos": 73202,
    "tope": 250
   },
   "30d": {
-   "restantes": 2832,
-   "segundos": 2236216,
+   "restantes": 2831,
+   "segundos": 2231425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T00:00:24.000Z",
+ "cuota_visto": "2026-10-16T01:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -10399,18 +10399,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_02_las-flores_choque-entre-moto-y-utilitario.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok": {
-   "actualizado": "2026-10-15T23:40:15.000Z",
+   "actualizado": "2026-10-16T01:20:15.000Z",
    "buffer_id": "6ad16461a82f34dbe1387b9d",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "2026-10-16T00:23:22.000Z",
+   "enviado": "2026-10-16T00:25:14.979Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T17:42:26.000Z",
    "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697054735370652949",
    "nota_url": "https://www.diariolacampaña.com.ar/n/olavarria-hirieron-a-golpes-y-balazos-a-una-pareja-de-jubilados-3eb098",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -14502,14 +14503,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok",
-   "cuando": "2026-10-13T12:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
    "cuando": "2026-10-13T12:40:17.000Z",
@@ -18695,10 +18688,16 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
+   "cuando": "2026-10-16T01:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697054735370652949"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T00:00:24.000Z",
+ "ultima_sync": "2026-10-16T01:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
