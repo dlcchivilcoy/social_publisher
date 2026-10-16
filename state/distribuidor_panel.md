@@ -1,30 +1,39 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 2 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 0 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 3 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 0 | 1 | 1 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 14 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 2 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 0 | 5 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 3 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 0 | 3 | 1 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 16 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 14 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2810 de 3000 (visto 2026-10-16T15:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2809 de 3000 (visto 2026-10-16T16:00:20.000Z)
 
-## Cola propia (42 esperando)
+## Cola propia (51 esperando)
+- TikTok · Reels policiales · 🔴 URGENTE · Investigan choque fatal en la Ruta 5 como presunto femicidio — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Recuperaron una moto robada y aprehendieron a un adolescente — Buffer lleno (10 programadas por canal en el plan Free)
+- TikTok · Reels del bot · Recuperaron una moto robada y aprehendieron a un adolescente — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — en turno
+- TikTok · Reels del bot · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — en turno
+- X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — en turno
 - X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — en turno
 - X · Notas web · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — en turno
+- X · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — en turno
+- TikTok · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — cupo diario de Notas web en X completo (15)
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — cupo diario de Notas web en X completo (15)
@@ -40,15 +49,6 @@ Actualizado: 16/10/2026 12:40 (hora AR) · ACTIVO
 - X · Notas web · La oposición no logró el quórum y se cayó la sesión para tratar la derogación de — en turno
 - X · Notas web · SUTEBA marchó al Congreso por el presupuesto educativo y alertó sobre la crecien — en turno
 - X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
-- X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
-- TikTok · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — en turno
-- TikTok · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
-- TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
-- TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,17 +59,6 @@ Actualizado: 16/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T14:20 programado web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x 
-- 2026-10-16T14:20 programado web:975c6fd2-4e78-4b7d-b793-7760379b7320|x 
-- 2026-10-16T14:40 programado web:9f367ea4-375b-4d70-99b9-15eec836b557|x 
-- 2026-10-16T15:00 programado web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x 
-- 2026-10-16T15:20 recibido web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x 
-- 2026-10-16T15:20 vencido web:90cb2fe1-4568-4f3b-b570-73550002c005|x no hubo lugar antes de su vencimiento
-- 2026-10-16T15:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
-- 2026-10-16T15:20 enviado policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-16T15:20 enviado web:70161ba5-8aec-496b-844f-0838565b94a8|x 
-- 2026-10-16T15:20 enviado web:90793449-fe94-4a94-a7d7-67bd22f391dd|x 
-- 2026-10-16T15:20 enviado web:91984193-d136-423a-8896-e837bb387c4a|x 
 - 2026-10-16T15:20 enviado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
 - 2026-10-16T15:20 enviado web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x 
 - 2026-10-16T15:20 programado web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x 
@@ -84,3 +73,14 @@ Actualizado: 16/10/2026 12:40 (hora AR) · ACTIVO
 - 2026-10-16T15:40 vencido web:0488321b-e07d-4538-90b9-84ad4724ad17|x Buffer lleno (10 programadas por canal en el plan Free)
 - 2026-10-16T15:40 vencido web:9cb13f8f-7629-4775-bc59-668a4e784c85|x no hubo lugar antes de su vencimiento
 - 2026-10-16T15:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x 
+- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x 
+- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
+- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x 
+- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
+- 2026-10-16T16:00 recibido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
+- 2026-10-16T16:00 recibido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
+- 2026-10-16T16:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
+- 2026-10-16T16:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
+- 2026-10-16T16:00 recibido web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x 
+- 2026-10-16T16:00 recibido web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x 
+- 2026-10-16T16:00 programado policiales:https://www.junindigital.com/policiales/2026-10-1 

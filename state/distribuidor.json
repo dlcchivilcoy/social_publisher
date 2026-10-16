@@ -489,6 +489,48 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4",
    "youtube_url": "https://www.youtube.com/shorts/FZ7BohMk_M4"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c": {
+   "descripcion": "La Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará en Mar del Plata. Durante el encuentro, se hizo entrega de la indumentaria a los integrantes de la delegación,",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T15:44:43.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
+   "urgente": false,
+   "video_bytes": 1075136,
+   "video_mb": 1.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/qisxzid7ckM"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi": {
+   "descripcion": "Personal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15 años en el marco de una causa por encubrimiento. El procedimiento se llevó a cabo el 16 de octubre en calles 88 y 81.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T15:52:36.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
+   "urgente": false,
+   "video_bytes": 1054659,
+   "video_mb": 1.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/IGJ8sItybGw"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -1107,6 +1149,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4",
    "volanta": "General Arenales",
    "youtube_url": "https://youtube.com/shorts/P8xRpSEYEkw"
+  },
+  "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": {
+   "categoria": "otro_policial",
+   "descripcion": "El Ministerio de Seguridad bonaerense estableció una recompensa de entre 5 y 10 millones de pesos para quienes aporten datos sobre el homicidio de Diego Nahuel Calabrese, de 32 años, asesinado de un disparo en el barrio Centenario.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T15:41:32.000Z",
+   "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
+   "localidad": "General Arenales",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-ofrecen-una-millonaria-recompensa-para-esclarecer-e2b182",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "El Ministerio de Seguridad de la provincia de Buenos Aires ofreció una recompensa de entre 5 y 10 millones de pesos para esclarecer el homicidio de Diego Nahuel Calabrese.\n\nLa víctima, de 32 años, fue asesinada de un disparo en el tórax el 29 de noviembre de 2025 en el barrio Centenario de Mar del Plata.\n\nEl ataque ocurrió en las inmediaciones de las calles Saavedra y Chile tras una presunta discusión con al menos dos individuos.\n\nQuienes posean información pueden presentarse ante la fiscalía interviniente o comunicarse con las autoridades provinciales garantizando absoluta confidencialidad.\n\n📲 Más noticias de General Arenales en www.diariolacampaña.com.ar\n\n#GeneralArenales #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese",
+   "urgente": false,
+   "video_bytes": 116133,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4",
+   "volanta": "Mar del Plata en General Arenales",
+   "youtube_url": "https://youtube.com/shorts/YX9WFl3iMHo"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": {
    "categoria": "robo",
@@ -2523,6 +2589,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_05_junin_cayeron-dos-sospechosos-por-un.mp4",
    "volanta": "Chacabuco y Vedia",
    "youtube_url": "https://youtube.com/shorts/pWc7cQej_bg"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": {
+   "categoria": "homicidio",
+   "descripcion": "Una mujer de 37 años murió tras el impacto frontal de un auto contra una camioneta. Su expareja manejaba el vehículo a pesar de tener una perimetral vigente.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T15:41:32.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "texto_tiktok": "Una vecina de Suipacha de 37 años falleció este lunes en un violento impacto frontal sobre el kilómetro 112 de la Ruta Nacional 5.\n\nLa víctima iba a bordo de un automóvil guiado por su expareja, un hombre de 41 años que contaba con una medida judicial de prohibición de acercamiento.\n\nEl conductor y el otro automovilista involucrado sufrieron heridas de gravedad y continúan internados en el hospital municipal.\n\nLa fiscalía interviniente ordenó diversas medidas de prueba para esclarecer si el episodio fatal estuvo vinculado a un contexto de violencia de género.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Homicidio #BuenosAires",
+   "tipo": "video",
+   "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
+   "urgente": true,
+   "video_bytes": 85860,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4",
+   "volanta": "Mercedes y Suipacha en Junín",
+   "youtube_url": "https://youtube.com/shorts/mFvTGuATQFs"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": {
    "categoria": "incendio",
@@ -4378,6 +4468,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
    "volanta": ""
   },
+  "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": {
+   "categoria": "",
+   "descripcion": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses La Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará en Mar del Plata. Durante el encuentro, se hizo entrega de la indumentaria a los integrantes de la delegación, que competirá en distintas disciplinas de las categorías Juveniles, Adultos Mayores y personas con discapacidad. Participaron de la...",
+   "generado": "2026-10-16T15:40:42.749Z",
+   "id": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7fc90d89321d4eebb2c9ffcbc158857f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": {
    "categoria": "",
    "descripcion": "Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis La joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal “Dr. Santiago Fornos”. Su familia solicita la colaboración de la comunidad para cubrir el costo del material médico, mientras evoluciona de la reciente intervención quirúrgica. Una joven chivilcoyana de 25 años, identificada como Sofía Paola Meletto, sufrió graves heridas tras ser...",
@@ -4863,6 +4971,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-intendente-de-san-nicolas-propuso-a-milei-un-acuerdo-de-iva-1502e0",
    "volanta": ""
+  },
+  "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": {
+   "categoria": "",
+   "descripcion": "Recuperaron una moto robada y aprehendieron a un adolescente Personal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15 años en el marco de una causa por encubrimiento. El procedimiento se llevó a cabo el 16 de octubre en la intersección de las calles 88 y 81, donde los efectivos secuestraron el rodado, que registraba una denuncia por hurto agravado de vehículo dejado en la vía...",
+   "generado": "2026-10-16T15:50:28.482Z",
+   "id": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c724ff064b354f39b4726b10ad666aae~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": {
    "categoria": "nacionales",
@@ -6042,17 +6168,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 224,
-   "segundos": 21601,
+   "restantes": 223,
+   "segundos": 20398,
    "tope": 250
   },
   "30d": {
-   "restantes": 2810,
-   "segundos": 2179825,
+   "restantes": 2809,
+   "segundos": 2178621,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T15:40:16.000Z",
+ "cuota_visto": "2026-10-16T16:00:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7194,6 +7320,105 @@
    "video_bytes": 346393,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:44:43.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses\n\nLa Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará en Mar del Plata. Durante el encuentro, se hizo entrega de la indumentaria a los integrantes de la delegación,\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-18T15:44:43.000Z",
+   "video_bytes": 1075136,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:44:43.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses\n\nLa Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "tipo": "video",
+   "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-18T15:44:43.000Z",
+   "video_bytes": 1075136,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:52:36.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Recuperaron una moto robada y aprehendieron a un adolescente\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15 años en el marco de una causa por encubrimiento. El procedimiento se llevó a cabo el 16 de octubre en calles 88 y 81.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
+   "urgente": false,
+   "vence": "2026-10-18T15:52:36.000Z",
+   "video_bytes": 1054659,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:52:36.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Recuperaron una moto robada y aprehendieron a un adolescente\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "tipo": "video",
+   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
+   "urgente": false,
+   "vence": "2026-10-18T15:52:36.000Z",
+   "video_bytes": 1054659,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -8245,6 +8470,55 @@
    "vence": "2026-10-16T17:41:35.000Z",
    "video_bytes": 81489,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4"
+  },
+  "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:41:32.000Z",
+   "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-ofrecen-una-millonaria-recompensa-para-esclarecer-e2b182",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Ministerio de Seguridad de la provincia de Buenos Aires ofreció una recompensa de entre 5 y 10 millones de pesos para esclarecer el homicidio de Diego Nahuel Calabrese.\n\nLa víctima, de 32 años, fue asesinada de un disparo en el tórax el 29 de noviembre de 2025 en el barrio Centenario de Mar del Plata.\n\nEl ataque ocurrió en las inmediaciones de las calles Saavedra y Chile tras una presunta discusión con al menos dos individuos.\n\nQuienes posean información pueden presentarse ante la fiscalía interviniente o comunicarse con las autoridades provinciales garantizando absoluta confidencialidad.\n\n📲 Más noticias de General Arenales en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #generalarenales #policiales",
+   "tipo": "video",
+   "titulo": "Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese",
+   "urgente": false,
+   "vence": "2026-10-17T09:41:32.000Z",
+   "video_bytes": 116133,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
+  },
+  "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:41:32.000Z",
+   "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-ofrecen-una-millonaria-recompensa-para-esclarecer-e2b182",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese\n\nEl Ministerio de Seguridad bonaerense estableció una recompensa de entre 5 y 10 millones de pesos para quienes aporten datos sobre el homicidio de…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/mar-del-plata-ofrecen-una-millonaria-recompensa-para-esclarecer-e2b182\n#GeneralArenales",
+   "tipo": "video",
+   "titulo": "Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese",
+   "urgente": false,
+   "vence": "2026-10-17T09:41:32.000Z",
+   "video_bytes": 116133,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok": {
    "actualizado": "2026-10-12T21:20:15.000Z",
@@ -11254,6 +11528,56 @@
    "video_bytes": 78144,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_05_junin_cayeron-dos-sospechosos-por-un.mp4"
   },
+  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:41:32.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 9,
+   "texto": "Una vecina de Suipacha de 37 años falleció este lunes en un violento impacto frontal sobre el kilómetro 112 de la Ruta Nacional 5.\n\nLa víctima iba a bordo de un automóvil guiado por su expareja, un hombre de 41 años que contaba con una medida judicial de prohibición de acercamiento.\n\nEl conductor y el otro automovilista involucrado sufrieron heridas de gravedad y continúan internados en el hospital municipal.\n\nLa fiscalía interviniente ordenó diversas medidas de prueba para esclarecer si el episodio fatal estuvo vinculado a un contexto de violencia de género.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
+   "tipo": "video",
+   "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
+   "urgente": true,
+   "vence": "2026-10-17T09:41:32.000Z",
+   "video_bytes": 85860,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x": {
+   "actualizado": "2026-10-16T16:00:19.000Z",
+   "buffer_id": "6ad24a1445dfa13a723bdac4",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "2026-10-16T16:03:58.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T15:41:32.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Investigan choque fatal en la Ruta 5 como presunto femicidio\n\nUna mujer de 37 años murió tras el impacto frontal de un auto contra una camioneta. Su expareja manejaba el vehículo a pesar de tener una perimetral vigente.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42\n#Junín",
+   "tipo": "video",
+   "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
+   "urgente": true,
+   "vence": "2026-10-17T09:41:32.000Z",
+   "video_bytes": 85860,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4"
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/|tiktok": {
    "actualizado": "2026-10-12T14:00:19.000Z",
    "buffer_id": "6accd08afcd88e54a9477df9",
@@ -14060,6 +14384,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:40:42.749Z",
+   "id": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses\n\nLa Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "tipo": "nota",
+   "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-17T15:40:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
    "buffer_id": "",
@@ -14731,6 +15079,30 @@
    "titulo": "El intendente de San Nicolás propuso a Milei un acuerdo de IVA cero y tasas municipales cero",
    "urgente": false,
    "vence": "2026-10-15T18:36:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x": {
+   "actualizado": "2026-10-16T16:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x",
+   "creado": "2026-10-16T16:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:50:28.482Z",
+   "id": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Recuperaron una moto robada y aprehendieron a un adolescente\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15 años en el…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
+   "tipo": "nota",
+   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
+   "urgente": false,
+   "vence": "2026-10-17T15:50:28.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -16369,86 +16741,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
-   "cuando": "2026-10-14T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x",
-   "cuando": "2026-10-14T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
-   "cuando": "2026-10-14T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x",
-   "cuando": "2026-10-14T09:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
-   "cuando": "2026-10-14T09:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696338290038820117"
-  },
-  {
-   "buffer_id": "6acf44ab99805204daf6ea5d",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
-   "cuando": "2026-10-14T09:00:37.000Z",
-   "dueAt": "2026-10-14T10:00:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf44ac3188d8aa57b0f789",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x",
-   "cuando": "2026-10-14T09:00:37.000Z",
-   "dueAt": "2026-10-14T10:15:44.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf44afd592dd5ee6b83e0a",
-   "clave": "web:28e067b4-ba01-429e-8c1a-11e30f5d6846|x",
-   "cuando": "2026-10-14T09:00:37.000Z",
-   "dueAt": "2026-10-14T13:00:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf44b06435f1d309461003",
-   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x",
-   "cuando": "2026-10-14T09:00:37.000Z",
-   "dueAt": "2026-10-14T13:15:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf44b03188d8aa57b0fa8d",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|x",
-   "cuando": "2026-10-14T09:00:37.000Z",
-   "dueAt": "2026-10-14T13:30:30.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acf44b18fea659be5b38379",
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
-   "cuando": "2026-10-14T09:00:37.000Z",
-   "dueAt": "2026-10-14T13:45:42.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acf44b2d592dd5ee6b841fa",
    "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
@@ -20569,6 +20861,93 @@
    "cuando": "2026-10-16T15:40:16.000Z",
    "dueAt": "2026-10-16T20:15:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
+   "cuando": "2026-10-16T16:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok",
+   "cuando": "2026-10-16T16:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x",
+   "cuando": "2026-10-16T16:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok",
+   "cuando": "2026-10-16T16:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
+   "cuando": "2026-10-16T16:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok",
+   "cuando": "2026-10-16T16:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
+   "cuando": "2026-10-16T16:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok",
+   "cuando": "2026-10-16T16:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x",
+   "cuando": "2026-10-16T16:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x",
+   "cuando": "2026-10-16T16:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad24a1445dfa13a723bdac4",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
+   "cuando": "2026-10-16T16:00:20.000Z",
+   "dueAt": "2026-10-16T16:03:58.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -20597,6 +20976,8 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3": "2026-10-16T01:00:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix": "2026-10-16T14:00:21.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs": "2026-10-16T15:40:14.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c": "2026-10-16T16:00:18.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi": "2026-10-16T16:00:18.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -20626,6 +21007,7 @@
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida": "2026-10-16T09:00:20.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
+  "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
@@ -20685,6 +21067,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos": "2026-10-13T19:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado": "2026-10-15T02:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region": "2026-10-15T18:00:21.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": "2026-10-16T16:00:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/": "2026-10-14T18:00:18.000Z",
@@ -20785,6 +21168,7 @@
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
+  "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
   "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
@@ -20812,6 +21196,7 @@
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
+  "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": "2026-10-16T16:00:18.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": "2026-10-14T23:40:15.000Z",
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",
