@@ -1035,6 +1035,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00221.mp4",
    "youtube_url": "https://youtu.be/19hG1c-jlyk"
   },
+  "entrevistas:job00222": {
+   "descripcion": "La directora teatral Mirta Comerio destacó en Chivilcoy el compromiso del trabajo grupal de cara al estreno de 'Como un roble antiguo' en el Teatral La Cueva.",
+   "duracion_seg": null,
+   "entrevistado": "Mirta Comerio",
+   "generado": "2026-10-16T19:00:17.000Z",
+   "id": "entrevistas:job00222",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Mirta Comerio: El teatro es un acto colectivo",
+   "urgente": false,
+   "video_bytes": 23956665,
+   "video_mb": 22.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00222.mp4",
+   "youtube_url": "https://youtu.be/K6MSc0_F3Zo"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
@@ -1563,6 +1583,30 @@
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/LbvlzdtGrfs"
   },
+  "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/": {
+   "categoria": "narcotrafico",
+   "descripcion": "Tras escapar de un control en la Ruta Nacional 205 y recorrer 2,5 kilómetros, cuatro personas oriundas de Lobos fueron interceptadas con droga.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T18:41:21.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
+   "localidad": "Lobos",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Una persecución policial sobre la Ruta Nacional 205 terminó con el secuestro de estupefacientes y la interceptación de un vehículo en un camino vecinal.\n\nEl operativo se originó a la altura del kilómetro 93 cuando el conductor intentó evadir el control policial realizando una maniobra prohibida.\n\nDentro del rodado viajaban tres hombres y una mujer mayores de edad, todos domiciliados en el distrito, quienes posteriormente recuperaron la libertad.\n\n📲 Más noticias de Lobos en www.diariolacampaña.com.ar\n\n#Lobos #Narcotrafico #Operativo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Persecución y secuestro de cocaína en un camino rural de la Ruta 205",
+   "urgente": false,
+   "video_bytes": 158763,
+   "video_mb": 0.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4",
+   "volanta": "Operativo antidrogas en Lobos",
+   "youtube_url": "https://youtube.com/shorts/bjZhSevFweQ"
+  },
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": {
    "categoria": "otro_policial",
    "descripcion": "Un vecino de la localidad de Gowland halló a dos uniformados dentro de su terreno tras la denuncia de una vecina. Uno de los agentes se negó a dar sus datos y el propietario aseguró que suele hostigarlo en su lugar de trabajo.",
@@ -2018,6 +2062,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/9I17c6Lqido"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una motociclista fue trasladada al hospital municipal tras colisionar con otro rodado que huyó del lugar. Sucedió este mediodía en la intersección de Arenales y Almirante Brown.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T18:41:22.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Una mujer terminó hospitalizada este mediodía tras protagonizar un choque a bordo de su moto 110 en las calles Arenales y Almirante Brown.\n\nEl otro rodado implicado en el impacto fue retirado del lugar antes de la llegada de los efectivos policiales.\n\nDesde el lugar se indicó que se trata del tercer siniestro vial de estas características registrado en los últimos tres días en la ciudad.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque de motos en Chacabuco",
+   "urgente": false,
+   "video_bytes": 105348,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
+   "volanta": "Choque en Chacabuco",
+   "youtube_url": ""
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": {
    "categoria": "otro_policial",
@@ -6341,17 +6409,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 218,
-   "segundos": 10804,
+   "restantes": 217,
+   "segundos": 9598,
    "tope": 250
   },
   "30d": {
-   "restantes": 2804,
-   "segundos": 2169027,
+   "restantes": 2803,
+   "segundos": 2167822,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T18:40:13.000Z",
+ "cuota_visto": "2026-10-16T19:00:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7622,14 +7690,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b8db04dc41f31b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x": {
-   "actualizado": "2026-10-16T17:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T19:00:18.000Z",
+   "buffer_id": "6ad27443e038e7a747d13ce9",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x",
    "creado": "2026-10-16T17:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T20:45:43.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T17:12:47.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd",
    "intentos": 0,
@@ -8336,6 +8404,31 @@
    "vence": "2026-10-18T18:20:15.000Z",
    "video_bytes": 15747795,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00221.mp4"
+  },
+  "entrevistas:job00222|x": {
+   "actualizado": "2026-10-16T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00222|x",
+   "creado": "2026-10-16T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T19:00:17.000Z",
+   "id": "entrevistas:job00222",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Mirta Comerio: El teatro es un acto colectivo\n\nLa directora teatral Mirta Comerio destacó en Chivilcoy el compromiso del trabajo grupal de cara al estreno de 'Como un roble antiguo' en el Teatral La Cueva.\n\n▶️ La entrevista completa: https://youtu.be/K6MSc0_F3Zo",
+   "tipo": "video",
+   "titulo": "Mirta Comerio: El teatro es un acto colectivo",
+   "urgente": false,
+   "vence": "2026-10-18T19:00:17.000Z",
+   "video_bytes": 23956665,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00222.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
@@ -9450,6 +9543,55 @@
    "video_bytes": 87475,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_03_pergamino_un-adolescente-atac-a-fierrazo.mp4"
   },
+  "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok": {
+   "actualizado": "2026-10-16T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok",
+   "creado": "2026-10-16T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T18:41:21.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una persecución policial sobre la Ruta Nacional 205 terminó con el secuestro de estupefacientes y la interceptación de un vehículo en un camino vecinal.\n\nEl operativo se originó a la altura del kilómetro 93 cuando el conductor intentó evadir el control policial realizando una maniobra prohibida.\n\nDentro del rodado viajaban tres hombres y una mujer mayores de edad, todos domiciliados en el distrito, quienes posteriormente recuperaron la libertad.\n\n📲 Más noticias de Lobos en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #lobos #policiales",
+   "tipo": "video",
+   "titulo": "Persecución y secuestro de cocaína en un camino rural de la Ruta 205",
+   "urgente": false,
+   "vence": "2026-10-17T12:41:21.000Z",
+   "video_bytes": 158763,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4"
+  },
+  "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x": {
+   "actualizado": "2026-10-16T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
+   "creado": "2026-10-16T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T18:41:21.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Persecución y secuestro de cocaína en un camino rural de la Ruta 205\n\nTras escapar de un control en la Ruta Nacional 205 y recorrer 2,5 kilómetros, cuatro personas oriundas de Lobos fueron interceptadas con droga.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432\n#Lobos",
+   "tipo": "video",
+   "titulo": "Persecución y secuestro de cocaína en un camino rural de la Ruta 205",
+   "urgente": false,
+   "vence": "2026-10-17T12:41:21.000Z",
+   "video_bytes": 158763,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4"
+  },
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok": {
    "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
@@ -10421,6 +10563,55 @@
    "vence": "2026-10-15T16:11:38.000Z",
    "video_bytes": 96296,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-16T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok",
+   "creado": "2026-10-16T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T18:41:22.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Una mujer terminó hospitalizada este mediodía tras protagonizar un choque a bordo de su moto 110 en las calles Arenales y Almirante Brown.\n\nEl otro rodado implicado en el impacto fue retirado del lugar antes de la llegada de los efectivos policiales.\n\nDesde el lugar se indicó que se trata del tercer siniestro vial de estas características registrado en los últimos tres días en la ciudad.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque de motos en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-17T12:41:22.000Z",
+   "video_bytes": 105348,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x": {
+   "actualizado": "2026-10-16T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
+   "creado": "2026-10-16T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T18:41:22.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Una mujer herida tras un choque de motos en Chacabuco\n\nUna motociclista fue trasladada al hospital municipal tras colisionar con otro rodado que huyó del lugar. Sucedió este mediodía en la intersección de Arenales y Almirante Brown.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque de motos en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-17T12:41:22.000Z",
+   "video_bytes": 105348,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T09:00:23.000Z",
@@ -17164,54 +17355,6 @@
  },
  "registro": [
   {
-   "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
-   "cuando": "2026-10-14T12:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x",
-   "cuando": "2026-10-14T12:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:ebb4960b-25a9-442a-859e-8eb60ad25986|x",
-   "cuando": "2026-10-14T12:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
-   "cuando": "2026-10-14T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696497499002998037"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
-   "cuando": "2026-10-14T12:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696487161905827092"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|x",
-   "cuando": "2026-10-14T13:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|tiktok",
-   "cuando": "2026-10-14T13:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
    "cuando": "2026-10-14T13:20:23.000Z",
    "estado": "pendiente",
@@ -21346,6 +21489,58 @@
    "cuando": "2026-10-16T18:40:13.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697322814612835636"
+  },
+  {
+   "clave": "entrevistas:job00222",
+   "cuando": "2026-10-16T19:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
+   "cuando": "2026-10-16T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok",
+   "cuando": "2026-10-16T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
+   "cuando": "2026-10-16T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-16T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00222|x",
+   "cuando": "2026-10-16T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad27443e038e7a747d13ce9",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x",
+   "cuando": "2026-10-16T19:00:19.000Z",
+   "dueAt": "2026-10-16T20:45:43.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -21401,6 +21596,7 @@
   "entrevistas:job00218": "2026-10-16T17:20:17.000Z",
   "entrevistas:job00219": "2026-10-16T18:00:17.000Z",
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
+  "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
@@ -21423,6 +21619,7 @@
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento": "2026-10-15T18:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
+  "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/": "2026-10-16T19:00:17.000Z",
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/": "2026-10-13T23:00:20.000Z",
@@ -21442,6 +21639,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": "2026-10-14T22:20:16.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": "2026-10-16T19:00:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",

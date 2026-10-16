@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 2 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 3 | 2 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 3 | 1 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 5 | 0 | 2 | 1 | 0 | 0 |
+| Reels policiales | X | 12 | 4 | 0 | 4 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 5 | 0 | 4 | 1 | 0 | 0 |
 | Notas web | X | 15 | 9 | 6 | 20 | 0 | 0 | 0 |
 
 ## Canales
@@ -16,11 +16,11 @@ Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 8 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2804 de 3000 (visto 2026-10-16T18:40:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2803 de 3000 (visto 2026-10-16T19:00:19.000Z)
 
-## Cola propia (47 esperando)
+## Cola propia (51 esperando)
 - TikTok · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Recortes de entrevistas · Mirta Comerio: El teatro es un acto colectivo — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Ivana Aronna: el gran presente de la Peña Virgen de Loreto — en turno
 - X · Reels del bot · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Natalia Oballe: defender las raíces criollas en Chivilcoy — en turno
@@ -30,10 +30,14 @@ Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
 - X · Recortes de entrevistas · Daniela Ghio: ganar con bici de aluminio en Chivilcoy — en turno
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — en turno
+- X · Reels policiales · Persecución y secuestro de cocaína en un camino rural de la Ruta 205 — en turno
+- TikTok · Reels policiales · Persecución y secuestro de cocaína en un camino rural de la Ruta 205 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — en turno
 - X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — en turno
 - X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — en turno
 - X · Notas web · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — en turno
+- X · Reels policiales · Una mujer herida tras un choque de motos en Chacabuco — en turno
+- TikTok · Reels policiales · Una mujer herida tras un choque de motos en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — en turno
 - X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — en turno
@@ -45,10 +49,6 @@ Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
 - X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — cupo diario de Notas web en X completo (15)
 - X · Notas web · Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer  — en turno
 - X · Notas web · Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bul — en turno
-- TikTok · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — en turno
-- X · Notas web · La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV — en turno
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,13 +59,6 @@ Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
-- 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
-- 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tikto 
-- 2026-10-16T17:20 entrevista_aprobada entrevistas:job00218 
-- 2026-10-16T17:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x 
-- 2026-10-16T17:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tikto 
-- 2026-10-16T17:20 recibido web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
 - 2026-10-16T17:20 recibido entrevistas:job00218|x 
 - 2026-10-16T17:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-16T18:00 entrevista_aprobada entrevistas:job00219 
@@ -84,3 +77,10 @@ Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
 - 2026-10-16T18:40 vencido web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x no hubo lugar antes de su vencimiento
 - 2026-10-16T18:40 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
 - 2026-10-16T18:40 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
+- 2026-10-16T19:00 entrevista_aprobada entrevistas:job00222 
+- 2026-10-16T19:00 recibido policiales:https://lobos24.com.ar/2026/10/16/persecucion-en- 
+- 2026-10-16T19:00 recibido policiales:https://lobos24.com.ar/2026/10/16/persecucion-en- 
+- 2026-10-16T19:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
+- 2026-10-16T19:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
+- 2026-10-16T19:00 recibido entrevistas:job00222|x 
+- 2026-10-16T19:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x 
