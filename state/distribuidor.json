@@ -11,7 +11,7 @@
     "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-16T19:40:16.000Z"
+   "visto": "2026-10-16T20:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 21
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-16T19:40:16.000Z"
+   "visto": "2026-10-16T20:40:16.000Z"
   }
  },
  "contenidos": {
@@ -6442,22 +6442,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 212,
-   "segundos": 4802,
+   "restantes": 210,
+   "segundos": 3599,
    "tope": 250
   },
   "30d": {
-   "restantes": 2798,
-   "segundos": 2163026,
+   "restantes": 2796,
+   "segundos": 2161823,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T20:20:16.000Z",
+ "cuota_visto": "2026-10-16T20:40:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7577,18 +7577,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x": {
-   "actualizado": "2026-10-16T15:40:15.000Z",
+   "actualizado": "2026-10-16T20:40:16.000Z",
    "buffer_id": "6ad24560cb7df35161481f59",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "2026-10-16T20:15:32.000Z",
+   "enviado": "2026-10-16T20:15:53.437Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:32:18.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111189406585409729",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
    "origen": "bot",
    "plataforma": "x",
@@ -7679,18 +7680,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x": {
-   "actualizado": "2026-10-16T16:20:16.000Z",
+   "actualizado": "2026-10-16T20:40:16.000Z",
    "buffer_id": "6ad24ec1709e3eab3f97854f",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x",
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "2026-10-16T20:30:37.000Z",
+   "enviado": "2026-10-16T20:30:49.580Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:52:36.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111193165378019710",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
    "origen": "bot",
    "plataforma": "x",
@@ -7704,14 +7706,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok": {
-   "actualizado": "2026-10-16T17:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T20:40:16.000Z",
+   "buffer_id": "6ad28bb2d254ff4dc47c7818",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok",
    "creado": "2026-10-16T17:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T20:43:28.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T17:12:47.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd",
    "intentos": 0,
@@ -7858,14 +7860,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_51ba1f17a85c84e6.mp4"
   },
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok": {
-   "actualizado": "2026-10-16T15:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T20:40:16.000Z",
+   "buffer_id": "6ad28bb3c74c39c9ee579a43",
    "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
    "creado": "2026-10-16T15:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T21:23:15.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T15:22:43.000Z",
    "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
    "intentos": 0,
@@ -8355,6 +8357,7 @@
    "creado": "2026-10-16T17:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T17:00:18.000Z",
    "id": "entrevistas:job00217",
@@ -8373,14 +8376,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00217.mp4"
   },
   "entrevistas:job00218|x": {
-   "actualizado": "2026-10-16T17:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T20:40:16.000Z",
+   "buffer_id": "6ad28bb2c80590ed08af9b24",
    "clave": "entrevistas:job00218|x",
    "creado": "2026-10-16T17:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T22:30:58.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T17:20:17.000Z",
    "id": "entrevistas:job00218",
    "intentos": 0,
@@ -13074,18 +13077,19 @@
    "video_url": ""
   },
   "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
+   "actualizado": "2026-10-16T20:40:16.000Z",
    "buffer_id": "6ad240b17521b876061691bc",
    "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T20:00:15.000Z",
+   "enviado": "2026-10-16T20:01:36.037Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:05:01.560Z",
    "id": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111185810020081798",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cuando-corten-la-musica-alvaro-cortes-presenta-su-nuevo-libro-el",
    "origen": "web",
    "plataforma": "x",
@@ -14512,18 +14516,19 @@
    "video_url": ""
   },
   "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
+   "actualizado": "2026-10-16T20:40:16.000Z",
    "buffer_id": "6ad240b1709e3eab3f93db1f",
    "clave": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "2026-10-16T19:45:15.000Z",
+   "enviado": "2026-10-16T19:45:16.109Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T10:05:47.376Z",
    "id": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111181700327768462",
    "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-punto-a-punto-hacia-el-sueno-australiano-el-gran-arranque-de",
    "origen": "web",
    "plataforma": "x",
@@ -17449,50 +17454,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acf8fa1ed762d924f21c2ad",
-   "clave": "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d|x",
-   "cuando": "2026-10-14T14:20:17.000Z",
-   "dueAt": "2026-10-14T18:30:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x",
-   "cuando": "2026-10-14T14:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110373920230498693"
-  },
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
-   "cuando": "2026-10-14T14:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696517976106749191"
-  },
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|x",
-   "cuando": "2026-10-14T14:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110366467396894980"
-  },
-  {
-   "clave": "web:44657646-5aa8-40e2-92e8-9107905b81c5|x",
-   "cuando": "2026-10-14T14:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110371147430715492"
-  },
-  {
-   "clave": "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2|x",
-   "cuando": "2026-10-14T14:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110377888440635858"
-  },
-  {
-   "buffer_id": "6acf94564713c18c89d52d72",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
-   "cuando": "2026-10-14T14:40:22.000Z",
-   "dueAt": "2026-10-14T18:45:14.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acf99034713c18c89d63c1f",
    "clave": "web:e883209a-2652-420f-bb41-8ef9185d415e|x",
@@ -21612,10 +21573,55 @@
    "cuando": "2026-10-16T20:20:16.000Z",
    "dueAt": "2026-10-16T22:15:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
+   "cuando": "2026-10-16T20:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111189406585409729"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x",
+   "cuando": "2026-10-16T20:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111193165378019710"
+  },
+  {
+   "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
+   "cuando": "2026-10-16T20:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111185810020081798"
+  },
+  {
+   "clave": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x",
+   "cuando": "2026-10-16T20:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111181700327768462"
+  },
+  {
+   "buffer_id": "6ad28bb2c80590ed08af9b24",
+   "clave": "entrevistas:job00218|x",
+   "cuando": "2026-10-16T20:40:19.000Z",
+   "dueAt": "2026-10-16T22:30:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad28bb2d254ff4dc47c7818",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok",
+   "cuando": "2026-10-16T20:40:19.000Z",
+   "dueAt": "2026-10-16T20:43:28.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad28bb3c74c39c9ee579a43",
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
+   "cuando": "2026-10-16T20:40:19.000Z",
+   "dueAt": "2026-10-16T21:23:15.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T19:40:16.000Z",
+ "ultima_sync": "2026-10-16T20:40:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
