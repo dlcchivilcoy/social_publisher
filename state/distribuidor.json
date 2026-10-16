@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 2
+    "scheduled": 1,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-16T12:40:15.000Z"
+   "visto": "2026-10-16T14:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 3
+    "scheduled": 7,
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-16T12:40:15.000Z"
+   "visto": "2026-10-16T14:00:22.000Z"
   }
  },
  "contenidos": {
@@ -446,6 +446,27 @@
    "video_mb": 0.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/562TXu0niqI"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix": {
+   "descripcion": "Brandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA. Como características distintivas, tiene un logo de River debajo del tablero y una calcomanía",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T13:43:28.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
+   "urgente": false,
+   "video_bytes": 942586,
+   "video_mb": 0.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/18IXmpACoNk"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -5683,6 +5704,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/derogacion-del-convenio-fueron-retirados-los-radares-de-las-rutas-5-y",
    "volanta": "Derogación del convenio"
   },
+  "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": {
+   "categoria": "",
+   "descripcion": "Piden colaboración para recuperar una moto robada en calle 94 Brandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA. Como características distintivas, tiene un logo de River debajo del tablero y una calcomanía amarilla de Cariboni Motos en el guardabarros trasero. El propietario expresó su angustia por la pérdida y solicitó colaboración para encontrarla....",
+   "generado": "2026-10-16T13:41:05.459Z",
+   "id": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9defca9bf4de42dd817537a5feee9534~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": {
    "categoria": "",
    "descripcion": "Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona” En el marco de la reciente conmemoración del Día Mundial de la Salud Mental y tras diversas actividades desplegadas en el ámbito local, la directora del Dispositivo Territorial Comunitario (DTC) de Sedronar en nuestra ciudad, Leticia Berdugo, visitó los estudios de Radio del Centro con motivo de  profundizar sobre los lineamientos institucionales, el...",
@@ -5884,22 +5923,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 232,
-   "segundos": 28803,
+   "restantes": 230,
+   "segundos": 27594,
    "tope": 250
   },
   "30d": {
-   "restantes": 2818,
-   "segundos": 2187026,
+   "restantes": 2816,
+   "segundos": 2185818,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T13:40:15.000Z",
+ "cuota_visto": "2026-10-16T14:00:25.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6941,6 +6980,56 @@
    "video_bytes": 509076,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok": {
+   "actualizado": "2026-10-16T14:00:21.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
+   "creado": "2026-10-16T14:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T13:43:28.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Piden colaboración para recuperar una moto robada en calle 94\n\nBrandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA. Como características distintivas, tiene un logo de River debajo del tablero y una calcomanía\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
+   "urgente": false,
+   "vence": "2026-10-18T13:43:28.000Z",
+   "video_bytes": 942586,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x": {
+   "actualizado": "2026-10-16T14:00:22.000Z",
+   "buffer_id": "6ad22df825d13dd62eec8f90",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x",
+   "creado": "2026-10-16T14:00:21.000Z",
+   "dueAt": "2026-10-16T15:45:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T13:43:28.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Piden colaboración para recuperar una moto robada en calle 94\n\nBrandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
+   "urgente": false,
+   "vence": "2026-10-18T13:43:28.000Z",
+   "video_bytes": 942586,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -7815,18 +7904,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
   },
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a9ee2c696029c9030e",
    "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x",
    "creado": "2026-10-16T09:00:20.000Z",
    "dueAt": "2026-10-16T13:30:56.000Z",
+   "enviado": "2026-10-16T13:31:06.180Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T02:41:51.000Z",
    "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111087538442018865",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2",
    "origen": "policiales",
    "plataforma": "x",
@@ -7840,18 +7930,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
   },
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok": {
-   "actualizado": "2026-10-16T13:00:19.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad21fe61ffe4709802eecd5",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok",
    "creado": "2026-10-16T13:00:18.000Z",
    "dueAt": "2026-10-16T13:03:16.000Z",
+   "enviado": "2026-10-16T13:07:38.715Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T12:42:00.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697251298424524053",
    "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-trasladaron-a-una-unidad-carcelaria-al-detenido-por-el-f6073d",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -7865,18 +7956,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_02_alberti_alberti-trasladaron-a-la-c-rce.mp4"
   },
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x": {
-   "actualizado": "2026-10-16T13:00:19.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad21fe5b948bf9e9d964e02",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x",
    "creado": "2026-10-16T13:00:18.000Z",
    "dueAt": "2026-10-16T13:06:26.000Z",
+   "enviado": "2026-10-16T13:06:33.344Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T12:42:00.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111081360920047958",
    "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-trasladaron-a-una-unidad-carcelaria-al-detenido-por-el-f6073d",
    "origen": "policiales",
    "plataforma": "x",
@@ -7890,14 +7982,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_02_alberti_alberti-trasladaron-a-la-c-rce.mp4"
   },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok": {
-   "actualizado": "2026-10-16T11:20:16.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad208742fe657de6e9faf6a",
    "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T13:23:02.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
    "intentos": 0,
@@ -11458,18 +11551,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok": {
-   "actualizado": "2026-10-16T11:20:16.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad20873b948bf9e9d906e0d",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T12:43:27.000Z",
+   "enviado": "2026-10-16T12:45:23.648Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T23:41:36.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697245441305365781",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -14315,18 +14409,19 @@
    "video_url": ""
   },
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a99597cd166275050c",
    "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T13:45:05.000Z",
+   "enviado": "2026-10-16T13:45:16.465Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T23:45:30.415Z",
    "id": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111091104384708862",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
    "origen": "web",
    "plataforma": "x",
@@ -14694,18 +14789,19 @@
    "video_url": ""
   },
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a84ed7d375a451ee05",
    "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
    "creado": "2026-10-16T01:00:17.000Z",
    "dueAt": "2026-10-16T13:00:55.000Z",
+   "enviado": "2026-10-16T13:04:52.990Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T00:56:57.347Z",
    "id": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111080939992293405",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
    "origen": "web",
    "plataforma": "x",
@@ -14942,18 +15038,19 @@
    "video_url": ""
   },
   "web:ce42efb6-366a-4469-b255-64d747973441|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
+   "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a89597cd166275046c",
    "clave": "web:ce42efb6-366a-4469-b255-64d747973441|x",
    "creado": "2026-10-16T01:00:17.000Z",
    "dueAt": "2026-10-16T13:15:29.000Z",
+   "enviado": "2026-10-16T13:15:31.106Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T00:49:02.380Z",
    "id": "web:ce42efb6-366a-4469-b255-64d747973441",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111083616465780939",
    "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo",
    "origen": "web",
    "plataforma": "x",
@@ -15644,6 +15741,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x": {
+   "actualizado": "2026-10-16T14:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x",
+   "creado": "2026-10-16T14:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T13:41:05.459Z",
+   "id": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Piden colaboración para recuperar una moto robada en calle 94\n\nBrandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
+   "tipo": "nota",
+   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
+   "urgente": false,
+   "vence": "2026-10-17T13:41:05.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -15920,96 +16042,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00197|x",
-   "cuando": "2026-10-13T21:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110102131365609715"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|x",
-   "cuando": "2026-10-13T21:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110109772515037415"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|x",
-   "cuando": "2026-10-13T21:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110106061285753313"
-  },
-  {
-   "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
-   "cuando": "2026-10-13T21:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
-   "cuando": "2026-10-13T22:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|x",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|tiktok",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|x",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|x",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
    "cuando": "2026-10-13T23:00:21.000Z",
@@ -20145,10 +20177,89 @@
    "cuando": "2026-10-16T13:40:15.000Z",
    "dueAt": "2026-10-16T15:30:20.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111087538442018865"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697251298424524053"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111081360920047958"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697245441305365781"
+  },
+  {
+   "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111091104384708862"
+  },
+  {
+   "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111080939992293405"
+  },
+  {
+   "clave": "web:ce42efb6-366a-4469-b255-64d747973441|x",
+   "cuando": "2026-10-16T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111083616465780939"
+  },
+  {
+   "buffer_id": "6ad22df825d13dd62eec8f90",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x",
+   "cuando": "2026-10-16T14:00:24.000Z",
+   "dueAt": "2026-10-16T15:45:08.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T12:40:15.000Z",
+ "ultima_sync": "2026-10-16T14:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -20171,6 +20282,7 @@
   "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx": "2026-10-16T00:00:21.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop": "2026-10-16T01:00:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3": "2026-10-16T01:00:17.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix": "2026-10-16T14:00:21.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
@@ -20434,6 +20546,7 @@
   "web:e80eb9f8-449c-4d4b-a410-387331e0d747": "2026-10-16T13:20:18.000Z",
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
+  "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": "2026-10-16T14:00:21.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
