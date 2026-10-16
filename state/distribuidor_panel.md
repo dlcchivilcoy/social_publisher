@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 15 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 16 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 3 enviadas + 8 programadas de 50 por día
@@ -32,6 +32,7 @@ Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — en turno
 - X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — en turno
 - X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — en turno
+- X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — en turno
 - X · Notas web · La oposición no logró el quórum y se cayó la sesión para tratar la derogación de — en turno
 - X · Notas web · SUTEBA marchó al Congreso por el presupuesto educativo y alertó sobre la crecien — en turno
 - X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — Buffer lleno (10 programadas por canal en el plan Free)
@@ -48,7 +49,6 @@ Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 - TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,8 +58,6 @@ Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T10:20 recibido web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x 
-- 2026-10-16T10:20 vencido web:15858ae6-1837-4436-b8ed-3a098530f992|x no hubo lugar antes de su vencimiento
 - 2026-10-16T10:20 vencido web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x no hubo lugar antes de su vencimiento
 - 2026-10-16T10:20 vencido web:2de9a502-e952-44a4-8525-478c9d70047a|x no hubo lugar antes de su vencimiento
 - 2026-10-16T10:20 vencido web:529a6711-cd47-4076-ac13-c952c77ee9c7|x no hubo lugar antes de su vencimiento
@@ -83,3 +81,5 @@ Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
 - 2026-10-16T12:00 vencido policiales:https://www.diariodemocracia.com/mas-deportivo/po no hubo lugar antes de su vencimiento
 - 2026-10-16T12:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-16T12:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 no hubo lugar antes de su vencimiento
+- 2026-10-16T12:20 recibido web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x 
+- 2026-10-16T12:20 vencido web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x no hubo lugar antes de su vencimiento

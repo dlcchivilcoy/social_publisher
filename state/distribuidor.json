@@ -4591,6 +4591,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-gimnasia-dio-un-golpe-clave-en-el-coliseo-y-se-afianza-en",
    "volanta": "Básquet"
   },
+  "web:9f779d0b-1649-4d51-99d8-ba550d5285a5": {
+   "categoria": "nacionales",
+   "descripcion": "El vicerrector de la UBA repudió los disturbios frente al Congreso, desvinculó a la comunidad académica de los hechos y reclamó al Ejecutivo la aplicación…",
+   "generado": "2026-10-16T12:06:35.841Z",
+   "id": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6dbbf15f06534d7cb786c214f167873c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/la-uba-se-desmarco-de-los-disturbios-y-exigio-que-la-casa-9a8205",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-uba-se-desmarco-de-los-disturbios-y-exigio-que-la-casa-9a8205",
+   "volanta": ""
+  },
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": {
    "categoria": "nacionales",
    "descripcion": "El arzobispo de San Juan de Cuyo, Jorge Lozano, afirmó que la salud del Pontífice es la prioridad absoluta y que su visita al país podría postergarse…",
@@ -12739,13 +12757,13 @@
    "video_url": ""
   },
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x": {
-   "actualizado": "2026-10-15T12:20:15.000Z",
+   "actualizado": "2026-10-16T12:20:15.000Z",
    "buffer_id": "",
    "clave": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x",
    "creado": "2026-10-15T12:20:15.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T12:06:45.465Z",
    "id": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a",
    "intentos": 0,
@@ -13986,6 +14004,30 @@
    "titulo": "Gimnasia dio un golpe clave en el Coliseo y se afianza en zona de playoffs",
    "urgente": false,
    "vence": "2026-10-17T10:07:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x": {
+   "actualizado": "2026-10-16T12:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x",
+   "creado": "2026-10-16T12:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T12:06:35.841Z",
+   "id": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/la-uba-se-desmarco-de-los-disturbios-y-exigio-que-la-casa-9a8205",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley\n\nEl vicerrector de la UBA repudió los disturbios frente al Congreso, desvinculó a la comunidad académica de los hechos y reclamó al Ejecutivo la aplicación…\n\nhttps://www.diariolacampaña.com.ar/n/la-uba-se-desmarco-de-los-disturbios-y-exigio-que-la-casa-9a8205",
+   "tipo": "nota",
+   "titulo": "La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley",
+   "urgente": false,
+   "vence": "2026-10-17T12:06:35.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -15643,18 +15685,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
-   "cuando": "2026-10-13T18:40:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110072023233782105"
-  },
-  {
-   "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
-   "cuando": "2026-10-13T18:40:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110068874850767052"
-  },
   {
    "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
    "cuando": "2026-10-13T18:40:26.000Z",
@@ -19865,6 +19895,20 @@
    "cuando": "2026-10-16T12:00:18.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x",
+   "cuando": "2026-10-16T12:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x",
+   "cuando": "2026-10-16T12:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -20094,6 +20138,7 @@
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",
+  "web:9f779d0b-1649-4d51-99d8-ba550d5285a5": "2026-10-16T12:20:15.000Z",
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
