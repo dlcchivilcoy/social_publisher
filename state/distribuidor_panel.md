@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 16/10/2026 20:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 5 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 5 | 1 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 27 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 28 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 34 enviadas + 6 programadas de 50 por día
@@ -19,11 +19,12 @@ Actualizado: 16/10/2026 20:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2789 de 3000 (visto 2026-10-16T23:00:21.000Z)
 
 ## Cola propia (39 esperando)
-- X · Reels del bot · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · El Centro de Primera Infancia celebró el Día de la Familia — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argent — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — cupo diario de Notas web en X completo (15)
@@ -48,7 +49,6 @@ Actualizado: 16/10/2026 20:20 (hora AR) · ACTIVO
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — cupo diario de Notas web en X completo (15)
 - X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — cupo diario de Notas web en X completo (15)
 - X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — cupo diario de Notas web en X completo (15)
-- X · Notas web · Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,8 +59,6 @@ Actualizado: 16/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T21:20 vencido web:87e2bd08-5d5c-4641-835f-adc4c2401866|x no hubo lugar antes de su vencimiento
-- 2026-10-16T21:20 programado entrevistas:job00217|x 
 - 2026-10-16T21:20 programado policiales:https://laopinionline.ar/articulo/dos-sujetos-rob 
 - 2026-10-16T21:40 recibido web:559ac15c-0c52-40db-b3a1-6118e02867ed|x 
 - 2026-10-16T21:40 vencido web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x no hubo lugar antes de su vencimiento
@@ -84,3 +82,5 @@ Actualizado: 16/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-16T23:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x 
 - 2026-10-16T23:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tikto 
 - 2026-10-16T23:20 recibido web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x 
+- 2026-10-16T23:40 recibido web:054fa202-87fe-43be-afff-36d09259bbf7|x 
+- 2026-10-16T23:40 vencido web:dca831fd-6866-464f-a367-e6b85d1a5640|x cupo diario de Notas web en X completo (15)

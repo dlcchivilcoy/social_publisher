@@ -3196,6 +3196,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
    "volanta": ""
   },
+  "web:054fa202-87fe-43be-afff-36d09259bbf7": {
+   "categoria": "",
+   "descripcion": "La apertura de importaciones dinamizó el mercado de maquinaria agrícola con menor demora para los últimos modelos y más opciones para el productor.",
+   "generado": "2026-10-16T23:33:32.498Z",
+   "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5807e2fd009c4d5ca32ae53233e5ebb6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argentina",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
+   "volanta": ""
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": {
    "categoria": "",
    "descripcion": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive La ciudad transita jornadas de ambiente fresco y húmedo. Aunque durante los últimos días las tardes se presentaron agradables pero sin lluvias en la región, el escenario meteorológico sufrirá modificaciones a partir de las próximas horas. De acuerdo con el informe brindado por el meteorólogo Marcelo Speranza en El Tiempo en Chivilcoy,...",
@@ -13211,6 +13229,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:054fa202-87fe-43be-afff-36d09259bbf7|x": {
+   "actualizado": "2026-10-16T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
+   "creado": "2026-10-16T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T23:33:32.498Z",
+   "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argentina\n\nLa apertura de importaciones dinamizó el mercado de maquinaria agrícola con menor demora para los últimos modelos y más opciones para el productor.\n\nhttps://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
+   "tipo": "nota",
+   "titulo": "Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argentina",
+   "urgente": false,
+   "vence": "2026-10-17T23:33:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -17352,14 +17395,14 @@
    "video_url": ""
   },
   "web:dca831fd-6866-464f-a367-e6b85d1a5640|x": {
-   "actualizado": "2026-10-15T23:40:15.000Z",
+   "actualizado": "2026-10-16T23:40:15.000Z",
    "buffer_id": "",
    "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
    "creado": "2026-10-15T23:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T23:33:12.403Z",
    "id": "web:dca831fd-6866-464f-a367-e6b85d1a5640",
    "intentos": 0,
@@ -18029,22 +18072,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
-   "cuando": "2026-10-14T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|tiktok",
-   "cuando": "2026-10-14T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
    "cuando": "2026-10-14T18:00:18.000Z",
@@ -22200,6 +22227,20 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
+   "cuando": "2026-10-16T23:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
+   "cuando": "2026-10-16T23:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -22346,6 +22387,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
+  "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
