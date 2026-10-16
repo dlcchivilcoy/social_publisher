@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 0 | 3 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 2 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 7 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 1 | 14 | 0 | 1 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 14 | 2 | 1 | 0 |
 | Notas web | X | 15 | 14 | 1 | 25 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 2 programadas de 50 por día
-- TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día
+- TikTok: conectado · Buffer: 14 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2830 de 3000 (visto 2026-10-16T01:40:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2829 de 3000 (visto 2026-10-16T02:20:16.000Z)
 
 ## Cola propia (57 esperando)
 - X · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — fuera del horizonte de programación (espera en la cola)
@@ -33,14 +33,14 @@ Actualizado: 15/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
 - X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
-- X · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
-- TikTok · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
-- X · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — en turno
 - TikTok · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — en turno
-- X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
+- X · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — en turno
+- TikTok · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
+- X · Reels policiales · Hallaron sin vida a un hombre de 44 años en una casa del barrio Pompeya — en turno
 - TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
-- X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
+- X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
 - TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
+- X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
 - TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 - TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
@@ -58,7 +58,6 @@ Actualizado: 15/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T00:00 vencido web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x no hubo lugar antes de su vencimiento
 - 2026-10-16T00:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x 
 - 2026-10-16T00:00 enviado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
 - 2026-10-16T00:00 enviado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
@@ -83,3 +82,4 @@ Actualizado: 15/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-16T02:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/15/inc 
 - 2026-10-16T02:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/15/inc 
 - 2026-10-16T02:00 vencido web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9|x no hubo lugar antes de su vencimiento
+- 2026-10-16T02:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tikto 

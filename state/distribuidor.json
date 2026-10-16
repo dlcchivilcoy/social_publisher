@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 13
+    "scheduled": 1,
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-16T01:20:15.000Z"
+   "visto": "2026-10-16T02:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-16T01:20:15.000Z"
+   "visto": "2026-10-16T02:20:15.000Z"
   }
  },
  "contenidos": {
@@ -5439,17 +5439,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 244,
-   "segundos": 72001,
+   "restantes": 243,
+   "segundos": 69601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2830,
-   "segundos": 2230225,
+   "restantes": 2829,
+   "segundos": 2227825,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T01:40:17.000Z",
+ "cuota_visto": "2026-10-16T02:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6435,18 +6435,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_176ccf7b5f24e2ba.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok": {
-   "actualizado": "2026-10-16T01:40:15.000Z",
+   "actualizado": "2026-10-16T02:20:15.000Z",
    "buffer_id": "6ad180809597cd1662607795",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
    "creado": "2026-10-16T01:00:17.000Z",
    "dueAt": "2026-10-16T01:43:28.000Z",
+   "enviado": "2026-10-16T01:45:13.027Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T00:59:51.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697075329101270273",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14792,12 +14793,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
-   "cuando": "2026-10-13T13:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696132134616059137"
-  },
-  {
    "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
    "cuando": "2026-10-13T13:40:23.000Z",
    "evento": "enviado",
@@ -18994,10 +18989,16 @@
    "cuando": "2026-10-16T02:00:19.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
+   "cuando": "2026-10-16T02:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697075329101270273"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T01:20:15.000Z",
+ "ultima_sync": "2026-10-16T02:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
