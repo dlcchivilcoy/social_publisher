@@ -573,6 +573,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/loznN0El0cw"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": {
+   "descripcion": "Le robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital. El hecho ocurrió durante la madrugada de este viernes en una vivienda de calle 516, cerca de avenida De Tomaso, mientras la familia dormía. Los delincuentes forzaron el portón.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T21:06:15.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo",
+   "urgente": false,
+   "video_bytes": 547577,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/EgPz-OEk17k"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -1479,6 +1500,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_03_pergamino_detuvieron-a-un-hombre-por-hos.mp4",
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/rpB98bhv9m4"
+  },
+  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": {
+   "categoria": "robo",
+   "descripcion": "Dos hombres fueron atrapados por la policía mientras escapaban arrastrando un electrodoméstico robado en una finca situada en Roque Sáenz Peña al 700.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T21:10:39.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Dos sujetos fueron arrestados en la vía pública luego de sustraer un artefacto refrigerante de una propiedad.\n\nLa maniobra llamó la atención de los uniformados que patrullaban la zona durante la tarde del jueves.\n\nLos implicados intentaron escapar al ver el patrullero tras descartar el botín.\n\nEl operativo estuvo a cargo del personal de la Comisaría Tercera en conjunto con la fiscalía interviniente.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026",
+   "urgente": false,
+   "video_bytes": 92216,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4",
+   "volanta": "Robo en Pergamino",
+   "youtube_url": "https://youtube.com/shorts/mNnp5yzkyVA"
   },
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": {
    "categoria": "otro_policial",
@@ -4012,6 +4057,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
    "volanta": "Manifestaciones"
   },
+  "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": {
+   "categoria": "",
+   "descripcion": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo Le robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital. El hecho ocurrió durante la madrugada de este viernes en una vivienda de calle 516, cerca de avenida De Tomaso, mientras la familia dormía. Según relató Porto, los delincuentes forzaron el portón e ingresaron hasta la galería, de donde sustrajeron tres motocicletas. Una de ellas, marca CF y valuada en aproximadamente 15 a 16 millones...",
+   "generado": "2026-10-16T21:03:57.400Z",
+   "id": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_568662ac5a4c469795f9206b09383a55~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": {
    "categoria": "nacionales",
    "descripcion": "En la Casa Rosada analizan los pasos a seguir de cara a los comicios presidenciales. Mientras unos buscan confrontar con el mandatario bonaerense, otros…",
@@ -5686,6 +5749,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/destacada-actuacion-uriel-scalise-obtuvo-el-subcampeonato-en-el",
    "volanta": "Destacada actuación"
   },
+  "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": {
+   "categoria": "nacionales",
+   "descripcion": "El empresario Ariel Rey cuestionó la absolución del dirigente Maximiliano Cabaleyro por el bloqueo a Rey Distribución. El juez consideró que la protesta…",
+   "generado": "2026-10-16T21:06:41.670Z",
+   "id": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7bc6cafde4404ac7828c52207ff60128~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pyme-bloqueada-por-camioneros-el-dueno-teme-por-su-familia-tras-ec2d8e",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución del sindicalista",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pyme-bloqueada-por-camioneros-el-dueno-teme-por-su-familia-tras-ec2d8e",
+   "volanta": ""
+  },
   "web:cc9019ae-7f13-4598-b272-348e432962b5": {
    "categoria": "",
    "descripcion": "Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha El violento siniestro vial ocurrió este lunes a la altura del kilómetro 113. La víctima fatal fue identificada como Yolanda Figueroa, de 37 años. Los sobrevivientes permanecen internados. Un trágico choque frontal sobre la Ruta Nacional N° 5 se cobró la vida de una mujer y dejó a dos hombres gravemente heridos durante la mañana de este lunes 12 de octubre, en jurisdicción del...",
@@ -6486,17 +6567,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 209,
-   "segundos": 2398,
+   "restantes": 208,
+   "segundos": 1202,
    "tope": 250
   },
   "30d": {
-   "restantes": 2795,
-   "segundos": 2160622,
+   "restantes": 2794,
+   "segundos": 2159425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T21:00:19.000Z",
+ "cuota_visto": "2026-10-16T21:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7844,6 +7925,56 @@
    "video_bytes": 719546,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok": {
+   "actualizado": "2026-10-16T21:20:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
+   "creado": "2026-10-16T21:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T21:06:15.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo\n\nLe robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital. El hecho ocurrió durante la madrugada de este viernes en una vivienda de calle 516, cerca de avenida De Tomaso, mientras la familia dormía. Los delincuentes forzaron el portón.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo",
+   "urgente": false,
+   "vence": "2026-10-18T21:06:15.000Z",
+   "video_bytes": 547577,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x": {
+   "actualizado": "2026-10-16T21:20:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
+   "creado": "2026-10-16T21:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Reels del bot en X completo (10)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T21:06:15.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo\n\nLe robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y\n#Chivilcoy",
+   "tipo": "video",
+   "titulo": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo",
+   "urgente": false,
+   "vence": "2026-10-18T21:06:15.000Z",
+   "video_bytes": 547577,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -8440,14 +8571,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00216.mp4"
   },
   "entrevistas:job00217|x": {
-   "actualizado": "2026-10-16T17:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T21:20:15.000Z",
+   "buffer_id": "6ad295101694d771d508b639",
    "clave": "entrevistas:job00217|x",
    "creado": "2026-10-16T17:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T23:00:31.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T17:00:18.000Z",
    "id": "entrevistas:job00217",
    "intentos": 0,
@@ -9396,6 +9527,56 @@
    "video_bytes": 96819,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_03_pergamino_detuvieron-a-un-hombre-por-hos.mp4"
   },
+  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok": {
+   "actualizado": "2026-10-16T21:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok",
+   "creado": "2026-10-16T21:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T21:10:39.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Dos sujetos fueron arrestados en la vía pública luego de sustraer un artefacto refrigerante de una propiedad.\n\nLa maniobra llamó la atención de los uniformados que patrullaban la zona durante la tarde del jueves.\n\nLos implicados intentaron escapar al ver el patrullero tras descartar el botín.\n\nEl operativo estuvo a cargo del personal de la Comisaría Tercera en conjunto con la fiscalía interviniente.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
+   "tipo": "video",
+   "titulo": "Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026",
+   "urgente": false,
+   "vence": "2026-10-17T15:10:39.000Z",
+   "video_bytes": 92216,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x": {
+   "actualizado": "2026-10-16T21:20:15.000Z",
+   "buffer_id": "6ad2951152adf2bfae61948d",
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
+   "creado": "2026-10-16T21:20:13.000Z",
+   "dueAt": "2026-10-16T23:15:21.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T21:10:39.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026\n\nDos hombres fueron atrapados por la policía mientras escapaban arrastrando un electrodoméstico robado en una finca situada en Roque Sáenz Peña al…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75\n#Pergamino",
+   "tipo": "video",
+   "titulo": "Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026",
+   "urgente": false,
+   "vence": "2026-10-17T15:10:39.000Z",
+   "video_bytes": 92216,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4"
+  },
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok": {
    "actualizado": "2026-10-14T12:40:21.000Z",
    "buffer_id": "6acf44b68fea659be5b386cc",
@@ -9734,6 +9915,7 @@
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T18:41:21.000Z",
    "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
@@ -13298,6 +13480,7 @@
    "creado": "2026-10-16T17:20:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T17:09:57.561Z",
    "id": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de",
@@ -13751,6 +13934,7 @@
    "creado": "2026-10-16T21:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T20:54:53.891Z",
    "id": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37",
@@ -14120,6 +14304,31 @@
    "titulo": "Marcha e intento opositor de sesionar por el DNU 70, las universidades, la discapacidad y el endeudamiento",
    "urgente": false,
    "vence": "2026-10-16T10:10:45.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x": {
+   "actualizado": "2026-10-16T21:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x",
+   "creado": "2026-10-16T21:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T21:03:57.400Z",
+   "id": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Le robaron tres motos a Sebastián Porto y recuperó una con rastreo\n\nLe robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
+   "tipo": "nota",
+   "titulo": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo",
+   "urgente": false,
+   "vence": "2026-10-17T21:03:57.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -15108,13 +15317,13 @@
    "video_url": ""
   },
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x": {
-   "actualizado": "2026-10-15T21:20:18.000Z",
+   "actualizado": "2026-10-16T21:20:15.000Z",
    "buffer_id": "",
    "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
    "creado": "2026-10-15T21:20:18.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T21:06:25.019Z",
    "id": "web:87e2bd08-5d5c-4641-835f-adc4c2401866",
    "intentos": 0,
@@ -16461,6 +16670,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x": {
+   "actualizado": "2026-10-16T21:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x",
+   "creado": "2026-10-16T21:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T21:06:41.670Z",
+   "id": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pyme-bloqueada-por-camioneros-el-dueno-teme-por-su-familia-tras-ec2d8e",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución del sindicalista\n\nEl empresario Ariel Rey cuestionó la absolución del dirigente Maximiliano Cabaleyro por el bloqueo a Rey Distribución. El juez consideró que la protesta…\n\nhttps://www.diariolacampaña.com.ar/n/pyme-bloqueada-por-camioneros-el-dueno-teme-por-su-familia-tras-ec2d8e",
+   "tipo": "nota",
+   "titulo": "Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución del sindicalista",
+   "urgente": false,
+   "vence": "2026-10-17T21:06:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:cc9019ae-7f13-4598-b272-348e432962b5|x": {
    "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "",
@@ -17567,66 +17800,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:baeb5d08-b026-4158-a946-6ff35dd140c1|x",
-   "cuando": "2026-10-14T15:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6acf9dae33f7fa2d2ad2a948",
-   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
-   "cuando": "2026-10-14T15:20:14.000Z",
-   "dueAt": "2026-10-14T21:15:43.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x",
-   "cuando": "2026-10-14T15:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
-   "cuando": "2026-10-14T15:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6acfa26361a1b9da73640d6d",
-   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
-   "cuando": "2026-10-14T15:40:19.000Z",
-   "dueAt": "2026-10-14T21:30:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|x",
-   "cuando": "2026-10-14T16:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110393095627976903"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|x",
-   "cuando": "2026-10-14T16:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110389010187137532"
-  },
-  {
-   "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
-   "cuando": "2026-10-14T16:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110381553335361913"
-  },
-  {
-   "clave": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x",
-   "cuando": "2026-10-14T16:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110386273126924470"
-  },
   {
    "buffer_id": "6acfa716c7801890a279c6c2",
    "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
@@ -21735,6 +21908,74 @@
    "cuando": "2026-10-16T21:00:19.000Z",
    "dueAt": "2026-10-16T22:45:52.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
+   "cuando": "2026-10-16T21:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
+   "cuando": "2026-10-16T21:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
+   "cuando": "2026-10-16T21:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok",
+   "cuando": "2026-10-16T21:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x",
+   "cuando": "2026-10-16T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x",
+   "cuando": "2026-10-16T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
+   "cuando": "2026-10-16T21:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad295101694d771d508b639",
+   "clave": "entrevistas:job00217|x",
+   "cuando": "2026-10-16T21:20:17.000Z",
+   "dueAt": "2026-10-16T23:00:31.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2951152adf2bfae61948d",
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
+   "cuando": "2026-10-16T21:20:17.000Z",
+   "dueAt": "2026-10-16T23:15:21.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -21767,6 +22008,7 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi": "2026-10-16T16:00:18.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd": "2026-10-16T17:20:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": "2026-10-16T21:00:18.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": "2026-10-16T21:20:13.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -21809,6 +22051,7 @@
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": "2026-10-15T09:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
+  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": "2026-10-16T21:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": "2026-10-14T09:00:20.000Z",
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": "2026-10-14T02:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
@@ -21928,6 +22171,7 @@
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
   "web:529a6711-cd47-4076-ac13-c952c77ee9c7": "2026-10-15T10:20:13.000Z",
+  "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
@@ -22021,6 +22265,7 @@
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": "2026-10-14T10:20:15.000Z",
+  "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
