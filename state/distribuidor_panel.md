@@ -1,29 +1,33 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 2 | 2 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 3 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 2 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 3 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 4 | 1 | 2 | 1 | 0 | 0 |
-| Notas web | X | 15 | 9 | 6 | 17 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 5 | 0 | 2 | 1 | 0 | 0 |
+| Notas web | X | 15 | 9 | 6 | 18 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 7 programadas de 50 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 17 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 6 enviadas + 3 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2806 de 3000 (visto 2026-10-16T17:00:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2805 de 3000 (visto 2026-10-16T17:20:19.000Z)
 
-## Cola propia (47 esperando)
+## Cola propia (51 esperando)
+- X · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
+- TikTok · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
+- X · Recortes de entrevistas · Sebastián Di Siervi en Chivilcoy: Qué es el folklore — en turno
 - X · Recortes de entrevistas · Daniela Ghio: ganar con bici de aluminio en Chivilcoy — en turno
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — en turno
 - X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — en turno
 - X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — en turno
 - X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — en turno
@@ -45,10 +49,6 @@ Actualizado: 16/10/2026 14:00 (hora AR) · ACTIVO
 - X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — en turno
 - X · Notas web · La oposición no logró el quórum y se cayó la sesión para tratar la derogación de — en turno
 - X · Notas web · SUTEBA marchó al Congreso por el presupuesto educativo y alertó sobre la crecien — en turno
-- X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
-- X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
-- TikTok · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — tope de 15 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,12 +59,6 @@ Actualizado: 16/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T15:40 vencido web:9cb13f8f-7629-4775-bc59-668a4e784c85|x no hubo lugar antes de su vencimiento
-- 2026-10-16T15:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x 
-- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x 
-- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
-- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x 
-- 2026-10-16T16:00 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
 - 2026-10-16T16:00 recibido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
 - 2026-10-16T16:00 recibido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
 - 2026-10-16T16:00 recibido policiales:https://www.junindigital.com/policiales/2026-10-1 
@@ -84,3 +78,9 @@ Actualizado: 16/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
 - 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
 - 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tikto 
+- 2026-10-16T17:20 entrevista_aprobada entrevistas:job00218 
+- 2026-10-16T17:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x 
+- 2026-10-16T17:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tikto 
+- 2026-10-16T17:20 recibido web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
+- 2026-10-16T17:20 recibido entrevistas:job00218|x 
+- 2026-10-16T17:20 enviado policiales:https://www.junindigital.com/policiales/2026-10-1 
