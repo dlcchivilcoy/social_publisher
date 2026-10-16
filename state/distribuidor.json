@@ -4057,6 +4057,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
    "volanta": "Manifestaciones"
   },
+  "web:559ac15c-0c52-40db-b3a1-6118e02867ed": {
+   "categoria": "nacionales",
+   "descripcion": "El mandatario bonaerense respondió a las advertencias del jefe de Gabinete y reclamó una estrategia federal durante un encuentro del CFI en Buenos Aires.",
+   "generado": "2026-10-16T21:36:43.554Z",
+   "id": "web:559ac15c-0c52-40db-b3a1-6118e02867ed",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_aacecd118ecb433b844aaa0e8f38835b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-cruzo-a-santilli-y-critico-al-gobierno-en-una-cumbre-b0bbd9",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/kicillof-cruzo-a-santilli-y-critico-al-gobierno-en-una-cumbre-b0bbd9",
+   "volanta": ""
+  },
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": {
    "categoria": "",
    "descripcion": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo Le robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital. El hecho ocurrió durante la madrugada de este viernes en una vivienda de calle 516, cerca de avenida De Tomaso, mientras la familia dormía. Según relató Porto, los delincuentes forzaron el portón e ingresaron hasta la galería, de donde sustrajeron tres motocicletas. Una de ellas, marca CF y valuada en aproximadamente 15 a 16 millones...",
@@ -6567,17 +6585,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 208,
-   "segundos": 1202,
+   "restantes": 207,
+   "segundos": 3,
    "tope": 250
   },
   "30d": {
-   "restantes": 2794,
-   "segundos": 2159425,
+   "restantes": 2793,
+   "segundos": 2158227,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T21:20:17.000Z",
+ "cuota_visto": "2026-10-16T21:40:14.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -9909,14 +9927,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4"
   },
   "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x": {
-   "actualizado": "2026-10-16T19:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T21:40:13.000Z",
+   "buffer_id": "6ad299be1694d771d509b90d",
    "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
    "creado": "2026-10-16T19:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T23:30:58.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T18:41:21.000Z",
    "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
    "intentos": 0,
@@ -10937,6 +10955,7 @@
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T18:41:22.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
@@ -14307,6 +14326,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x": {
+   "actualizado": "2026-10-16T21:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x",
+   "creado": "2026-10-16T21:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T21:36:43.554Z",
+   "id": "web:559ac15c-0c52-40db-b3a1-6118e02867ed",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-cruzo-a-santilli-y-critico-al-gobierno-en-una-cumbre-b0bbd9",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores\n\nEl mandatario bonaerense respondió a las advertencias del jefe de Gabinete y reclamó una estrategia federal durante un encuentro del CFI en Buenos Aires.\n\nhttps://www.diariolacampaña.com.ar/n/kicillof-cruzo-a-santilli-y-critico-al-gobierno-en-una-cumbre-b0bbd9",
+   "tipo": "nota",
+   "titulo": "Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores",
+   "urgente": false,
+   "vence": "2026-10-17T21:36:43.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x": {
    "actualizado": "2026-10-16T21:20:13.000Z",
    "buffer_id": "",
@@ -15072,6 +15116,7 @@
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:29:58.842Z",
    "id": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d",
@@ -15373,6 +15418,7 @@
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:40:42.749Z",
    "id": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b",
@@ -16074,6 +16120,7 @@
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:50:28.482Z",
    "id": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801",
@@ -16454,6 +16501,7 @@
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:32:58.098Z",
    "id": "web:c07869bb-4b38-46ca-ad18-588d0b35d614",
@@ -16521,13 +16569,13 @@
    "video_url": ""
   },
   "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x": {
-   "actualizado": "2026-10-15T21:40:16.000Z",
+   "actualizado": "2026-10-16T21:40:13.000Z",
    "buffer_id": "",
    "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
    "creado": "2026-10-15T21:40:16.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T21:36:24.573Z",
    "id": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab",
    "intentos": 0,
@@ -17800,27 +17848,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acfa716c7801890a279c6c2",
-   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
-   "cuando": "2026-10-14T16:00:26.000Z",
-   "dueAt": "2026-10-14T21:45:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acfa71781eb78c8f8b0b2ef",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
-   "cuando": "2026-10-14T16:00:26.000Z",
-   "dueAt": "2026-10-14T16:03:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acfa717c7801890a279c7ca",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
-   "cuando": "2026-10-14T16:00:26.000Z",
-   "dueAt": "2026-10-14T16:43:45.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acfa718c7801890a279c897",
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
@@ -21976,6 +22003,27 @@
    "cuando": "2026-10-16T21:20:17.000Z",
    "dueAt": "2026-10-16T23:15:21.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x",
+   "cuando": "2026-10-16T21:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
+   "cuando": "2026-10-16T21:40:13.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad299be1694d771d509b90d",
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
+   "cuando": "2026-10-16T21:40:14.000Z",
+   "dueAt": "2026-10-16T23:30:58.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -22171,6 +22219,7 @@
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
   "web:529a6711-cd47-4076-ac13-c952c77ee9c7": "2026-10-15T10:20:13.000Z",
+  "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
