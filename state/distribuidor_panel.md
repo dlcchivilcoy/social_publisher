@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 3 | 3 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 2 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 5 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 10 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 5 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 5 | 1 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 26 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 30 enviadas + 7 programadas de 50 por día
+- X: conectado · Buffer: 34 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 11 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2790 de 3000 (visto 2026-10-16T22:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2789 de 3000 (visto 2026-10-16T23:00:21.000Z)
 
 ## Cola propia (36 esperando)
 - TikTok · Reels del bot · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — tope de 15 publicaciones en 24 h de TikTok
@@ -59,10 +59,6 @@ Actualizado: 16/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T21:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x 
-- 2026-10-16T21:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x 
-- 2026-10-16T21:20 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tikto 
-- 2026-10-16T21:20 recibido policiales:https://laopinionline.ar/articulo/dos-sujetos-rob 
 - 2026-10-16T21:20 recibido policiales:https://laopinionline.ar/articulo/dos-sujetos-rob 
 - 2026-10-16T21:20 recibido web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x 
 - 2026-10-16T21:20 recibido web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x 
@@ -84,3 +80,7 @@ Actualizado: 16/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-16T22:20 vencido web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x no hubo lugar antes de su vencimiento
 - 2026-10-16T22:20 programado policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
 - 2026-10-16T22:20 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/ 
+- 2026-10-16T23:00 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x 
+- 2026-10-16T23:00 enviado bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x 
+- 2026-10-16T23:00 enviado entrevistas:job00218|x 
+- 2026-10-16T23:00 enviado entrevistas:job00219|x 

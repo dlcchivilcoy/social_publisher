@@ -11,7 +11,7 @@
     "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-16T22:00:19.000Z"
+   "visto": "2026-10-16T23:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 30
+    "scheduled": 6,
+    "sent": 34
    },
    "pausado": false,
-   "visto": "2026-10-16T22:00:19.000Z"
+   "visto": "2026-10-16T23:00:20.000Z"
   }
  },
  "contenidos": {
@@ -6603,17 +6603,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 85206,
+   "restantes": 246,
+   "segundos": 82799,
    "tope": 250
   },
   "30d": {
-   "restantes": 2790,
-   "segundos": 2155827,
+   "restantes": 2789,
+   "segundos": 2153420,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T22:20:15.000Z",
+ "cuota_visto": "2026-10-16T23:00:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7940,18 +7940,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x": {
-   "actualizado": "2026-10-16T21:00:18.000Z",
+   "actualizado": "2026-10-16T23:00:20.000Z",
    "buffer_id": "6ad290638ac6cfe5441864bd",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
    "creado": "2026-10-16T21:00:18.000Z",
    "dueAt": "2026-10-16T22:45:52.000Z",
+   "enviado": "2026-10-16T22:46:04.759Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T20:57:34.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111227202977030472",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
    "origen": "bot",
    "plataforma": "x",
@@ -8145,18 +8146,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
   },
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x": {
-   "actualizado": "2026-10-16T20:20:14.000Z",
+   "actualizado": "2026-10-16T23:00:20.000Z",
    "buffer_id": "6ad286ff29a10da0161bc26b",
    "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "2026-10-16T22:15:12.000Z",
+   "enviado": "2026-10-16T22:15:19.820Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:22:43.000Z",
    "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111219464716833230",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "x",
@@ -8636,18 +8638,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00217.mp4"
   },
   "entrevistas:job00218|x": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
+   "actualizado": "2026-10-16T23:00:20.000Z",
    "buffer_id": "6ad28bb2c80590ed08af9b24",
    "clave": "entrevistas:job00218|x",
    "creado": "2026-10-16T17:20:17.000Z",
    "dueAt": "2026-10-16T22:30:58.000Z",
+   "enviado": "2026-10-16T22:31:16.421Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T17:20:17.000Z",
    "id": "entrevistas:job00218",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111223476925112478",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -8661,18 +8664,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00218.mp4"
   },
   "entrevistas:job00219|x": {
-   "actualizado": "2026-10-16T20:20:14.000Z",
+   "actualizado": "2026-10-16T23:00:20.000Z",
    "buffer_id": "6ad286fff90ad606a6f55a36",
    "clave": "entrevistas:job00219|x",
    "creado": "2026-10-16T18:00:17.000Z",
    "dueAt": "2026-10-16T22:00:42.000Z",
+   "enviado": "2026-10-16T22:02:16.368Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T18:00:17.000Z",
    "id": "entrevistas:job00219",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111216178630713447",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -17912,30 +17916,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x",
-   "cuando": "2026-10-14T17:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Reels policiales en X completo (12)"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|tiktok",
-   "cuando": "2026-10-14T17:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi|x",
-   "cuando": "2026-10-14T17:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Reels policiales en X completo (12)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8|tiktok",
-   "cuando": "2026-10-14T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696565167366229269"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|tiktok",
    "cuando": "2026-10-14T17:20:15.000Z",
    "evento": "enviado",
@@ -22080,10 +22060,34 @@
    "cuando": "2026-10-16T22:20:15.000Z",
    "dueAt": "2026-10-17T00:15:53.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
+   "cuando": "2026-10-16T23:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111227202977030472"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
+   "cuando": "2026-10-16T23:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111219464716833230"
+  },
+  {
+   "clave": "entrevistas:job00218|x",
+   "cuando": "2026-10-16T23:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111223476925112478"
+  },
+  {
+   "clave": "entrevistas:job00219|x",
+   "cuando": "2026-10-16T23:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111216178630713447"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T22:00:19.000Z",
+ "ultima_sync": "2026-10-16T23:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
