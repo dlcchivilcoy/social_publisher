@@ -468,6 +468,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/18IXmpACoNk"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs": {
+   "descripcion": "Reconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín. La deportista se ubicó como la segunda mejor argentina en una de las ocho maratones más importantes del mundo, que reunió a más de 60.000 corredores. Durante el encuentro,",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-16T15:32:18.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
+   "urgente": false,
+   "video_bytes": 346393,
+   "video_mb": 0.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/FZ7BohMk_M4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -509,6 +530,27 @@
    "video_mb": 7.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_51ba1f17a85c84e6.mp4",
    "youtube_url": "https://www.youtube.com/shorts/zZ9AoY4Hpg4"
+  },
+  "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": {
+   "descripcion": "La Federación de Sindicatos Municipales Bonaerenses (Fesimubo) lleva adelante un plenario regional en la sede del Sindicato de Municipales de Chivilcoy.\n\nEl encuentro gremial congrega a representantes de la región en las instalaciones locales del sindicato municipal para abordar temas vinculados a la actividad del sector.\n\nLa jornada se desarrolla en la sede de la organización gremial de nuestra ciudad en el marco de las actividades regionales de la entidad.",
+   "duracion_seg": 24.2,
+   "generado": "2026-10-16T15:22:43.000Z",
+   "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Plenario regional de Fesimubo en el Sindicato de Municipales",
+   "urgente": false,
+   "video_bytes": 3113886,
+   "video_mb": 3.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/K6tV4Ctqclo"
   },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
@@ -4120,6 +4162,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/servicios-publicos-recuerdan-que-esta-prohibido-arrojar-residuos",
    "volanta": "Servicios Públicos"
   },
+  "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d": {
+   "categoria": "",
+   "descripcion": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín Reconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín. La deportista se ubicó como la segunda mejor argentina en una de las ocho maratones más importantes del mundo, que reunió a más de 60.000 corredores. Durante el encuentro, compartió su experiencia y destacó la importancia de la preparación y la práctica responsable del running. El intendente Guillermo...",
+   "generado": "2026-10-16T15:29:58.842Z",
+   "id": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_78a5d1c32f0a41ee8413b46fb671a304~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": {
    "categoria": "",
    "descripcion": "Carlos Armando Costanzo y La Verdadera Felicidad... El siempre recordado intérprete musical y compositor, Facundo Cabral, solía puntualizar que “es rico no el que más tiene, sino el que menos necesita”, subrayando así, la importancia y la dimensión de la auténtica sabiduría, para comprender entonces que, la acumulación de bienes, el lujo, el boato y la fortuna, nada valen ni tampoco, nada significan; por el contrario, equivalen a vanidad y aflicción de espíritu, pues, en definitiva, sujetan...",
@@ -5056,6 +5116,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
    "volanta": "Chivilcoy · Gremiales"
   },
+  "web:c07869bb-4b38-46ca-ad18-588d0b35d614": {
+   "categoria": "",
+   "descripcion": "La Secretaría de Agricultura aprobó la comercialización de un desarrollo de Syngenta con resistencia a múltiples principios activos.",
+   "generado": "2026-10-16T15:32:58.098Z",
+   "id": "web:c07869bb-4b38-46ca-ad18-588d0b35d614",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0a9f2e3f2d1f43cca0ec8a74aba98d93~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aprobaron-una-nueva-soja-con-tolerancia-a-cuatro-herbicidas-en-c9c177",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aprobaron-una-nueva-soja-con-tolerancia-a-cuatro-herbicidas-en-c9c177",
+   "volanta": ""
+  },
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": {
    "categoria": "",
    "descripcion": "Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una gira proyectada por salas bonaerenses El violinista Kuki Errante se presentará en Chivilcoy con su nuevo espectáculo titulado “Violín Folclórico”. La esperada función tendrá lugar el próximo sábado 17 de octubre a las 21 horas en la tradicional sala del Teatro El Chasqui. En el marco de una gira proyectada por distintas salas teatrales de la provincia de Buenos Aires y otros puntos del país, el reconocido músico...",
@@ -5794,6 +5872,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tres-aprehendidos-la-policia-de-chivilcoy-inicio-la-persecucion-y",
    "volanta": "Tres aprehendidos"
   },
+  "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": {
+   "categoria": "nacionales",
+   "descripcion": "La diputada libertaria se refirió a las elecciones de 2027 y respaldó un binomio presidencial integrado por el mandatario y la senadora. Además, cuestionó…",
+   "generado": "2026-10-16T15:36:30.410Z",
+   "id": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ea6110f2fe634bafb1c075853837bb32~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lilia-lemoine-sugirio-una-formula-presidencial-entre-javier-3431db",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bullrich",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lilia-lemoine-sugirio-una-formula-presidencial-entre-javier-3431db",
+   "volanta": ""
+  },
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": {
    "categoria": "nacionales",
    "descripcion": "El espacio libertario y el partido amarillo preparan las discusiones territoriales de cara a las elecciones. El armado de listas, el rol de los…",
@@ -5941,22 +6037,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 22800,
+   "restantes": 224,
+   "segundos": 21601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2811,
-   "segundos": 2181024,
+   "restantes": 2810,
+   "segundos": 2179825,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T15:20:17.000Z",
+ "cuota_visto": "2026-10-16T15:40:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7048,6 +7144,56 @@
    "video_bytes": 942586,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
   },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok": {
+   "actualizado": "2026-10-16T15:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:32:18.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín\n\nReconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín. La deportista se ubicó como la segunda mejor argentina en una de las ocho maratones más importantes del mundo, que reunió a más de 60.000 corredores. Durante el encuentro,\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
+   "urgente": false,
+   "vence": "2026-10-18T15:32:18.000Z",
+   "video_bytes": 346393,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4"
+  },
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x": {
+   "actualizado": "2026-10-16T15:40:15.000Z",
+   "buffer_id": "6ad24560cb7df35161481f59",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "2026-10-16T20:15:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T15:32:18.000Z",
+   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín\n\nReconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "tipo": "video",
+   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
+   "urgente": false,
+   "vence": "2026-10-18T15:32:18.000Z",
+   "video_bytes": 346393,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -7151,6 +7297,56 @@
    "vence": "2026-10-17T01:54:20.000Z",
    "video_bytes": 7975750,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_51ba1f17a85c84e6.mp4"
+  },
+  "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok": {
+   "actualizado": "2026-10-16T15:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:22:43.000Z",
+   "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Plenario regional de Fesimubo en el Sindicato de Municipales\n\nLa Federación de Sindicatos Municipales Bonaerenses (Fesimubo) lleva adelante un plenario regional en la sede del Sindicato de Municipales de Chivilcoy.\n\nEl encuentro gremial congrega a representantes de la región en las instalaciones locales del sindicato municipal para abordar temas vinculados a la actividad del sector.\n\nLa jornada se desarrolla en la sede de la organización gremial de nuestra ciudad en el marco de las actividades regionales de la entidad.\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Plenario regional de Fesimubo en el Sindicato de Municipales",
+   "urgente": false,
+   "vence": "2026-10-18T15:22:43.000Z",
+   "video_bytes": 3113886,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
+  },
+  "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x": {
+   "actualizado": "2026-10-16T15:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:22:43.000Z",
+   "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Plenario regional de Fesimubo en el Sindicato de Municipales\n\nLa Federación de Sindicatos Municipales Bonaerenses (Fesimubo) lleva adelante un plenario regional en la sede del Sindicato de Municipales de Chivilcoy.\n\n▶️ Video completo: https://www.youtube.com/shorts/K6tV4Ctqclo",
+   "tipo": "video",
+   "titulo": "Plenario regional de Fesimubo en el Sindicato de Municipales",
+   "urgente": false,
+   "vence": "2026-10-18T15:22:43.000Z",
+   "video_bytes": 3113886,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -11672,14 +11868,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_03_bolivar_hallaron-sin-vida-a-un-hombre-.mp4"
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
-   "actualizado": "2026-10-15T15:40:19.000Z",
+   "actualizado": "2026-10-16T15:40:15.000Z",
    "buffer_id": "",
    "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
    "creado": "2026-10-15T15:40:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
    "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T15:33:32.822Z",
    "id": "web:0488321b-e07d-4538-90b9-84ad4724ad17",
    "intentos": 0,
@@ -13563,6 +13759,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x": {
+   "actualizado": "2026-10-16T15:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:29:58.842Z",
+   "id": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín\n\nReconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
+   "tipo": "nota",
+   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
+   "urgente": false,
+   "vence": "2026-10-17T15:29:58.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452|x": {
    "actualizado": "2026-10-12T11:40:14.000Z",
    "buffer_id": "6accb467a0f0173687a914de",
@@ -14271,13 +14491,13 @@
    "video_url": ""
   },
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x": {
-   "actualizado": "2026-10-15T15:40:19.000Z",
+   "actualizado": "2026-10-16T15:40:15.000Z",
    "buffer_id": "",
    "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
    "creado": "2026-10-15T15:40:19.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T15:36:39.180Z",
    "id": "web:9cb13f8f-7629-4775-bc59-668a4e784c85",
    "intentos": 0,
@@ -14867,6 +15087,30 @@
    "titulo": "SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar",
    "urgente": false,
    "vence": "2026-10-17T00:56:57.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x": {
+   "actualizado": "2026-10-16T15:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:32:58.098Z",
+   "id": "web:c07869bb-4b38-46ca-ad18-588d0b35d614",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aprobaron-una-nueva-soja-con-tolerancia-a-cuatro-herbicidas-en-c9c177",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina\n\nLa Secretaría de Agricultura aprobó la comercialización de un desarrollo de Syngenta con resistencia a múltiples principios activos.\n\nhttps://www.diariolacampaña.com.ar/n/aprobaron-una-nueva-soja-con-tolerancia-a-cuatro-herbicidas-en-c9c177",
+   "tipo": "nota",
+   "titulo": "Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina",
+   "urgente": false,
+   "vence": "2026-10-17T15:32:58.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -15899,6 +16143,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x": {
+   "actualizado": "2026-10-16T15:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x",
+   "creado": "2026-10-16T15:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T15:36:30.410Z",
+   "id": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lilia-lemoine-sugirio-una-formula-presidencial-entre-javier-3431db",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bullrich\n\nLa diputada libertaria se refirió a las elecciones de 2027 y respaldó un binomio presidencial integrado por el mandatario y la senadora. Además, cuestionó…\n\nhttps://www.diariolacampaña.com.ar/n/lilia-lemoine-sugirio-una-formula-presidencial-entre-javier-3431db",
+   "tipo": "nota",
+   "titulo": "Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bullrich",
+   "urgente": false,
+   "vence": "2026-10-17T15:36:30.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x": {
    "actualizado": "2026-10-15T16:20:19.000Z",
    "buffer_id": "",
@@ -16101,86 +16369,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion|tiktok",
-   "cuando": "2026-10-14T02:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|x",
-   "cuando": "2026-10-14T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok",
-   "cuando": "2026-10-14T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|x",
-   "cuando": "2026-10-14T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied|tiktok",
-   "cuando": "2026-10-14T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|x",
-   "cuando": "2026-10-14T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-14T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|x",
-   "cuando": "2026-10-14T02:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
-   "cuando": "2026-10-14T02:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|x",
-   "cuando": "2026-10-14T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
    "cuando": "2026-10-14T09:00:21.000Z",
@@ -20306,6 +20494,81 @@
    "cuando": "2026-10-16T15:20:17.000Z",
    "dueAt": "2026-10-16T20:00:15.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
+   "cuando": "2026-10-16T15:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok",
+   "cuando": "2026-10-16T15:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
+  },
+  {
+   "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
+   "cuando": "2026-10-16T15:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad24560cb7df35161481f59",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
+   "cuando": "2026-10-16T15:40:16.000Z",
+   "dueAt": "2026-10-16T20:15:32.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -20333,8 +20596,10 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop": "2026-10-16T01:00:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3": "2026-10-16T01:00:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix": "2026-10-16T14:00:21.000Z",
+  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs": "2026-10-16T15:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
+  "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -20508,6 +20773,7 @@
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": "2026-10-13T10:20:16.000Z",
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
   "web:79374449-0d19-4bc1-8bac-ee1a849f1966": "2026-10-13T10:20:16.000Z",
+  "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d": "2026-10-16T15:40:14.000Z",
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": "2026-10-16T15:20:15.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
@@ -20560,6 +20826,7 @@
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": "2026-10-13T15:20:18.000Z",
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c": "2026-10-16T01:00:17.000Z",
+  "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": "2026-10-15T10:20:13.000Z",
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",
   "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": "2026-10-15T21:40:16.000Z",
@@ -20601,6 +20868,7 @@
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
+  "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": "2026-10-16T15:40:14.000Z",
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",

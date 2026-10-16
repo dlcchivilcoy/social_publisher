@@ -1,30 +1,36 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 2 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 1 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 11 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 14 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 14 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2811 de 3000 (visto 2026-10-16T15:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2810 de 3000 (visto 2026-10-16T15:40:16.000Z)
 
-## Cola propia (38 esperando)
+## Cola propia (42 esperando)
+- TikTok · Reels del bot · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — Buffer lleno (10 programadas por canal en el plan Free)
+- TikTok · Reels del bot · Plenario regional de Fesimubo en el Sindicato de Municipales — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — en turno
+- X · Notas web · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — en turno
 - X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — cupo diario de Notas web en X completo (15)
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — cupo diario de Notas web en X completo (15)
 - X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — cupo diario de Notas web en X completo (15)
 - X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — cupo diario de Notas web en X completo (15)
+- X · Notas web · Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bul — en turno
 - TikTok · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — en turno
@@ -43,12 +49,6 @@ Actualizado: 16/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
 - TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
-- TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
-- TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
-- X · Notas web · Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición — Buffer lleno (10 programadas por canal en el plan Free)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,16 +59,6 @@ Actualizado: 16/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T14:00 recibido web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x 
-- 2026-10-16T14:00 enviado policiales:https://chacabucoenred.com/le-chocaron-la-camione 
-- 2026-10-16T14:00 enviado policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 
-- 2026-10-16T14:00 enviado policiales:https://diarioelsalado.com.ar/2026/10/trasladaron 
-- 2026-10-16T14:00 error_publicacion policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- 2026-10-16T14:00 enviado policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-16T14:00 enviado web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x 
-- 2026-10-16T14:00 enviado web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x 
-- 2026-10-16T14:00 enviado web:ce42efb6-366a-4469-b255-64d747973441|x 
-- 2026-10-16T14:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x 
 - 2026-10-16T14:20 programado web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x 
 - 2026-10-16T14:20 programado web:975c6fd2-4e78-4b7d-b793-7760379b7320|x 
 - 2026-10-16T14:40 programado web:9f367ea4-375b-4d70-99b9-15eec836b557|x 
@@ -84,3 +74,13 @@ Actualizado: 16/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-16T15:20 enviado web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x 
 - 2026-10-16T15:20 programado web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x 
 - 2026-10-16T15:20 programado web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x 
+- 2026-10-16T15:40 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x 
+- 2026-10-16T15:40 recibido bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tikto 
+- 2026-10-16T15:40 recibido bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x 
+- 2026-10-16T15:40 recibido bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok 
+- 2026-10-16T15:40 recibido web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x 
+- 2026-10-16T15:40 recibido web:c07869bb-4b38-46ca-ad18-588d0b35d614|x 
+- 2026-10-16T15:40 recibido web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x 
+- 2026-10-16T15:40 vencido web:0488321b-e07d-4538-90b9-84ad4724ad17|x Buffer lleno (10 programadas por canal en el plan Free)
+- 2026-10-16T15:40 vencido web:9cb13f8f-7629-4775-bc59-668a4e784c85|x no hubo lugar antes de su vencimiento
+- 2026-10-16T15:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x 
