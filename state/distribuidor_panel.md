@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,7 +18,7 @@ Actualizado: 16/10/2026 08:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2822 de 3000 (visto 2026-10-16T11:40:16.000Z)
 
-## Cola propia (52 esperando)
+## Cola propia (48 esperando)
 - X · Notas web · Estrena “Como un roble antiguo” en el Teatro La Cueva — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Música y Danza Tradicional — en turno
 - X · Notas web · El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra — en turno
@@ -58,10 +58,6 @@ Actualizado: 16/10/2026 08:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T10:20 recibido web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x 
-- 2026-10-16T10:20 recibido web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x 
-- 2026-10-16T10:20 recibido web:12954328-2406-4753-ade8-612eaeebeb3a|x 
-- 2026-10-16T10:20 recibido web:6c2dee19-96b1-4489-897a-ad0acfed084b|x 
 - 2026-10-16T10:20 recibido web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x 
 - 2026-10-16T10:20 vencido web:15858ae6-1837-4436-b8ed-3a098530f992|x no hubo lugar antes de su vencimiento
 - 2026-10-16T10:20 vencido web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x no hubo lugar antes de su vencimiento
@@ -83,3 +79,7 @@ Actualizado: 16/10/2026 08:40 (hora AR) · ACTIVO
 - 2026-10-16T11:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
 - 2026-10-16T11:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
 - 2026-10-16T11:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x 
+- 2026-10-16T12:00 vencido policiales:https://www.diariodemocracia.com/mas-deportivo/po tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-16T12:00 vencido policiales:https://www.diariodemocracia.com/mas-deportivo/po no hubo lugar antes de su vencimiento
+- 2026-10-16T12:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-16T12:00 vencido policiales:https://www.junindigital.com/policiales/2026-10-1 no hubo lugar antes de su vencimiento

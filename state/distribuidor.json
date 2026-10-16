@@ -9568,14 +9568,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_01_chacabuco_agresi-n-y-traslado-policial-t.mp4"
   },
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e|tiktok": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
+   "actualizado": "2026-10-16T12:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e|tiktok",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T17:42:27.000Z",
    "id": "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e",
    "intentos": 0,
@@ -9593,13 +9593,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_06_chacabuco_descontrol-gases-y-corridas-en.mp4"
   },
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e|x": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
+   "actualizado": "2026-10-16T12:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e|x",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T17:42:27.000Z",
    "id": "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e",
    "intentos": 0,
@@ -10695,14 +10695,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_06_junin_atraparon-a-un-joven-de-28-a-o.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|tiktok": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
+   "actualizado": "2026-10-16T12:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|tiktok",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T17:42:27.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region",
    "intentos": 0,
@@ -10720,13 +10720,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_05_junin_cayeron-dos-sospechosos-por-un.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|x": {
-   "actualizado": "2026-10-15T18:00:21.000Z",
+   "actualizado": "2026-10-16T12:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|x",
    "creado": "2026-10-15T18:00:21.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T17:42:27.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region",
    "intentos": 0,
@@ -15644,32 +15644,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ace76639d848852704299ea",
-   "clave": "entrevistas:job00194v2|x",
-   "cuando": "2026-10-13T18:20:19.000Z",
-   "dueAt": "2026-10-13T19:45:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace7663f969cac3ed461d89",
-   "clave": "entrevistas:job00196|x",
-   "cuando": "2026-10-13T18:20:19.000Z",
-   "dueAt": "2026-10-13T20:00:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
-   "cuando": "2026-10-13T18:40:26.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696209515556900097"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
-   "cuando": "2026-10-13T18:40:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110075868429119886"
-  },
-  {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
    "cuando": "2026-10-13T18:40:26.000Z",
    "evento": "enviado",
@@ -19867,6 +19841,30 @@
    "cuando": "2026-10-16T11:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111042193246843369"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e|tiktok",
+   "cuando": "2026-10-16T12:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e|x",
+   "cuando": "2026-10-16T12:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|tiktok",
+   "cuando": "2026-10-16T12:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|x",
+   "cuando": "2026-10-16T12:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
