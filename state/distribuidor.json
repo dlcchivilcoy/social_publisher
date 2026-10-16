@@ -8,10 +8,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 9
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-16T20:40:16.000Z"
+   "visto": "2026-10-16T22:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -20,10 +20,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 25
+    "sent": 30
    },
    "pausado": false,
-   "visto": "2026-10-16T20:40:16.000Z"
+   "visto": "2026-10-16T22:00:19.000Z"
   }
  },
  "contenidos": {
@@ -6580,22 +6580,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 207,
-   "segundos": 3,
+   "restantes": 248,
+   "segundos": 86399,
    "tope": 250
   },
   "30d": {
-   "restantes": 2793,
-   "segundos": 2158227,
+   "restantes": 2791,
+   "segundos": 2157020,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T21:40:14.000Z",
+ "cuota_visto": "2026-10-16T22:00:21.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7767,18 +7767,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x": {
-   "actualizado": "2026-10-16T20:00:18.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad2825329a10da0161a8c5a",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "2026-10-16T21:45:11.000Z",
+   "enviado": "2026-10-16T21:45:19.680Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:44:43.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111211914357252124",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
    "origen": "bot",
    "plataforma": "x",
@@ -7844,18 +7845,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad28bb2d254ff4dc47c7818",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok",
    "creado": "2026-10-16T17:20:17.000Z",
    "dueAt": "2026-10-16T20:43:28.000Z",
+   "enviado": "2026-10-16T20:44:12.865Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T17:12:47.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697369112648994066",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -7869,18 +7871,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b8db04dc41f31b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x": {
-   "actualizado": "2026-10-16T19:00:18.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad27443e038e7a747d13ce9",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x",
    "creado": "2026-10-16T17:20:17.000Z",
    "dueAt": "2026-10-16T20:45:43.000Z",
+   "enviado": "2026-10-16T20:45:48.173Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T17:12:47.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111196934375407641",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
    "origen": "bot",
    "plataforma": "x",
@@ -8098,18 +8101,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_51ba1f17a85c84e6.mp4"
   },
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad28bb3c74c39c9ee579a43",
    "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "2026-10-16T21:23:15.000Z",
+   "enviado": "2026-10-16T21:23:57.544Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:22:43.000Z",
    "id": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697379384604265735",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -8664,18 +8668,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00219.mp4"
   },
   "entrevistas:job00221|x": {
-   "actualizado": "2026-10-16T19:40:16.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad27da1346e510ac44f3b29",
    "clave": "entrevistas:job00221|x",
    "creado": "2026-10-16T18:20:15.000Z",
    "dueAt": "2026-10-16T21:30:43.000Z",
+   "enviado": "2026-10-16T21:30:59.663Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T18:20:15.000Z",
    "id": "entrevistas:job00221",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111208307218137099",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -8689,18 +8694,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00221.mp4"
   },
   "entrevistas:job00222|x": {
-   "actualizado": "2026-10-16T19:20:15.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad278f172d3b743708f39cd",
    "clave": "entrevistas:job00222|x",
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "2026-10-16T21:15:19.000Z",
+   "enviado": "2026-10-16T21:15:47.507Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T19:00:17.000Z",
    "id": "entrevistas:job00222",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111204481308262584",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -8714,18 +8720,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00222.mp4"
   },
   "entrevistas:job00223|x": {
-   "actualizado": "2026-10-16T19:20:15.000Z",
+   "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad278f193503c7a0a5c01e8",
    "clave": "entrevistas:job00223|x",
    "creado": "2026-10-16T19:20:14.000Z",
    "dueAt": "2026-10-16T21:00:53.000Z",
+   "enviado": "2026-10-16T21:02:00.669Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T19:20:14.000Z",
    "id": "entrevistas:job00223",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111201013201768760",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -9227,6 +9234,7 @@
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:41:32.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
@@ -10949,14 +10957,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x": {
-   "actualizado": "2026-10-16T19:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T22:00:19.000Z",
+   "buffer_id": "6ad29e751c7e49ea4c26ab74",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
    "creado": "2026-10-16T19:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T23:45:48.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T18:41:22.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
    "intentos": 0,
@@ -16725,6 +16733,7 @@
    "creado": "2026-10-16T21:20:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T21:06:41.670Z",
    "id": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394",
@@ -17848,62 +17857,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acfa718c7801890a279c897",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
-   "cuando": "2026-10-14T16:00:26.000Z",
-   "dueAt": "2026-10-14T17:23:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acfa71a95350f80b3547079",
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
-   "cuando": "2026-10-14T16:00:26.000Z",
-   "dueAt": "2026-10-14T18:03:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00206",
-   "cuando": "2026-10-14T16:20:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df|x",
-   "cuando": "2026-10-14T16:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00206|x",
-   "cuando": "2026-10-14T16:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00207",
-   "cuando": "2026-10-14T17:00:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
-   "cuando": "2026-10-14T17:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
-   "cuando": "2026-10-14T17:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
    "cuando": "2026-10-14T17:00:18.000Z",
@@ -22024,10 +21977,59 @@
    "cuando": "2026-10-16T21:40:14.000Z",
    "dueAt": "2026-10-16T23:30:58.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111211914357252124"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697369112648994066"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111196934375407641"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697379384604265735"
+  },
+  {
+   "clave": "entrevistas:job00221|x",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111208307218137099"
+  },
+  {
+   "clave": "entrevistas:job00222|x",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111204481308262584"
+  },
+  {
+   "clave": "entrevistas:job00223|x",
+   "cuando": "2026-10-16T22:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111201013201768760"
+  },
+  {
+   "buffer_id": "6ad29e751c7e49ea4c26ab74",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
+   "cuando": "2026-10-16T22:00:21.000Z",
+   "dueAt": "2026-10-16T23:45:48.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T20:40:16.000Z",
+ "ultima_sync": "2026-10-16T22:00:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
