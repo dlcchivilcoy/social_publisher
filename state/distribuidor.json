@@ -1055,6 +1055,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00222.mp4",
    "youtube_url": "https://youtu.be/K6MSc0_F3Zo"
   },
+  "entrevistas:job00223": {
+   "descripcion": "En Chivilcoy, el ingeniero civil Oscar Potetti analizó el cálculo de los peajes y explicó que los camiones generan el 90% del desgaste sobre la calzada frente al 1% de los autos.",
+   "duracion_seg": null,
+   "entrevistado": "Oscar Potetti",
+   "generado": "2026-10-16T19:20:14.000Z",
+   "id": "entrevistas:job00223",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Oscar Potetti: el peaje y el desgaste en Ruta 5",
+   "urgente": false,
+   "video_bytes": 30297181,
+   "video_mb": 28.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00223.mp4",
+   "youtube_url": "https://youtu.be/-zx6kPNf-4I"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
@@ -3321,6 +3341,24 @@
    "titulo": "Javier Milei viaja a Washington para reforzar su alianza con Donald Trump y disertar ante empresarios",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-viaja-a-washington-para-reforzar-su-alianza-con-69df65",
+   "volanta": ""
+  },
+  "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": {
+   "categoria": "nacionales",
+   "descripcion": "La Asociación Bancaria cerró el entendimiento con los empresarios para septiembre y confirmó que se mantendrá la indexación automática por inflación en el…",
+   "generado": "2026-10-16T19:06:26.903Z",
+   "id": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a0f7ede935e943f88dd6fd90cff1138b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/asociacion-bancaria-acordo-un-aumento-del-1-9-y-el-sueldo-bbeeb2",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2,5 millones",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/asociacion-bancaria-acordo-un-aumento-del-1-9-y-el-sueldo-bbeeb2",
    "volanta": ""
   },
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": {
@@ -6409,17 +6447,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 217,
-   "segundos": 9598,
+   "restantes": 216,
+   "segundos": 8401,
    "tope": 250
   },
   "30d": {
-   "restantes": 2803,
-   "segundos": 2167822,
+   "restantes": 2802,
+   "segundos": 2166624,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T19:00:19.000Z",
+ "cuota_visto": "2026-10-16T19:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8388,6 +8426,7 @@
    "creado": "2026-10-16T18:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T18:20:15.000Z",
    "id": "entrevistas:job00221",
@@ -8406,14 +8445,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00221.mp4"
   },
   "entrevistas:job00222|x": {
-   "actualizado": "2026-10-16T19:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T19:20:15.000Z",
+   "buffer_id": "6ad278f172d3b743708f39cd",
    "clave": "entrevistas:job00222|x",
    "creado": "2026-10-16T19:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T21:15:19.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T19:00:17.000Z",
    "id": "entrevistas:job00222",
    "intentos": 0,
@@ -8429,6 +8468,31 @@
    "vence": "2026-10-18T19:00:17.000Z",
    "video_bytes": 23956665,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00222.mp4"
+  },
+  "entrevistas:job00223|x": {
+   "actualizado": "2026-10-16T19:20:15.000Z",
+   "buffer_id": "6ad278f193503c7a0a5c01e8",
+   "clave": "entrevistas:job00223|x",
+   "creado": "2026-10-16T19:20:14.000Z",
+   "dueAt": "2026-10-16T21:00:53.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T19:20:14.000Z",
+   "id": "entrevistas:job00223",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Oscar Potetti: el peaje y el desgaste en Ruta 5\n\nEn Chivilcoy, el ingeniero civil Oscar Potetti analizó el cálculo de los peajes y explicó que los camiones generan el 90% del desgaste sobre la calzada frente al 1% de los…\n\n▶️ La entrevista completa: https://youtu.be/-zx6kPNf-4I",
+   "tipo": "video",
+   "titulo": "Oscar Potetti: el peaje y el desgaste en Ruta 5",
+   "urgente": false,
+   "vence": "2026-10-18T19:20:14.000Z",
+   "video_bytes": 30297181,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00223.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
@@ -13057,6 +13121,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x": {
+   "actualizado": "2026-10-16T19:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x",
+   "creado": "2026-10-16T19:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T19:06:26.903Z",
+   "id": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/asociacion-bancaria-acordo-un-aumento-del-1-9-y-el-sueldo-bbeeb2",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2,5 millones\n\nLa Asociación Bancaria cerró el entendimiento con los empresarios para septiembre y confirmó que se mantendrá la indexación automática por inflación en el…\n\nhttps://www.diariolacampaña.com.ar/n/asociacion-bancaria-acordo-un-aumento-del-1-9-y-el-sueldo-bbeeb2",
+   "tipo": "nota",
+   "titulo": "Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2,5 millones",
+   "urgente": false,
+   "vence": "2026-10-17T19:06:26.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x": {
    "actualizado": "2026-10-15T20:40:16.000Z",
    "buffer_id": "6ad0ef304fc2f6b7dbe465cd",
@@ -16880,13 +16968,13 @@
    "video_url": ""
   },
   "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
+   "actualizado": "2026-10-16T19:20:15.000Z",
    "buffer_id": "",
    "clave": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T19:06:24.685Z",
    "id": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b",
    "intentos": 0,
@@ -17354,54 +17442,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|x",
-   "cuando": "2026-10-14T13:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok",
-   "cuando": "2026-10-14T13:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|x",
-   "cuando": "2026-10-14T13:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
-   "cuando": "2026-10-14T13:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x",
-   "cuando": "2026-10-14T13:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7|x",
-   "cuando": "2026-10-14T13:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "buffer_id": "6acf819aba9c302b3b845e72",
    "clave": "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x",
@@ -21541,6 +21581,47 @@
    "cuando": "2026-10-16T19:00:19.000Z",
    "dueAt": "2026-10-16T20:45:43.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00223",
+   "cuando": "2026-10-16T19:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x",
+   "cuando": "2026-10-16T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00223|x",
+   "cuando": "2026-10-16T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x",
+   "cuando": "2026-10-16T19:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad278f193503c7a0a5c01e8",
+   "clave": "entrevistas:job00223|x",
+   "cuando": "2026-10-16T19:20:17.000Z",
+   "dueAt": "2026-10-16T21:00:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad278f172d3b743708f39cd",
+   "clave": "entrevistas:job00222|x",
+   "cuando": "2026-10-16T19:20:17.000Z",
+   "dueAt": "2026-10-16T21:15:19.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -21597,6 +21678,7 @@
   "entrevistas:job00219": "2026-10-16T18:00:17.000Z",
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
+  "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
@@ -21695,6 +21777,7 @@
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
   "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0": "2026-10-16T10:20:16.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
+  "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
