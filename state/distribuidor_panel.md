@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 6 | 15 | 0 | 0 | 0 |
 
 ## Canales
@@ -16,9 +16,9 @@ Actualizado: 16/10/2026 08:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2824 de 3000 (visto 2026-10-16T10:40:14.000Z)
+15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2823 de 3000 (visto 2026-10-16T11:20:20.000Z)
 
-## Cola propia (57 esperando)
+## Cola propia (52 esperando)
 - X · Notas web · Estrena “Como un roble antiguo” en el Teatro La Cueva — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Música y Danza Tradicional — en turno
 - X · Notas web · El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra — en turno
@@ -32,14 +32,9 @@ Actualizado: 16/10/2026 08:00 (hora AR) · ACTIVO
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — en turno
 - X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — en turno
 - X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — en turno
-- TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · La oposición no logró el quórum y se cayó la sesión para tratar la derogación de — en turno
 - X · Notas web · SUTEBA marchó al Congreso por el presupuesto educativo y alertó sobre la crecien — en turno
-- TikTok · Reels policiales · Le chocaron la camioneta estacionada y escaparon — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — Buffer lleno (10 programadas por canal en el plan Free)
-- TikTok · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
 - X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
 - TikTok · Reels policiales · Sospechan que fue intencional el incendio de un auto en 9 de Julio — tope de 15 publicaciones en 24 h de TikTok
@@ -49,6 +44,11 @@ Actualizado: 16/10/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Aprehendieron a un joven de 28 años en Pergamino por circular en una moto robada — en turno
 - TikTok · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Agresión y traslado policial tras un ataque en Chacabuco — en turno
+- TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
+- TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,11 +58,6 @@ Actualizado: 16/10/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T10:20 recibido web:dd7f1568-1a2a-4716-94cc-9e7125c22801|x 
-- 2026-10-16T10:20 recibido web:975c6fd2-4e78-4b7d-b793-7760379b7320|x 
-- 2026-10-16T10:20 recibido web:9f367ea4-375b-4d70-99b9-15eec836b557|x 
-- 2026-10-16T10:20 recibido web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad|x 
-- 2026-10-16T10:20 recibido web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x 
 - 2026-10-16T10:20 recibido web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x 
 - 2026-10-16T10:20 recibido web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x 
 - 2026-10-16T10:20 recibido web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x 
@@ -83,3 +78,8 @@ Actualizado: 16/10/2026 08:00 (hora AR) · ACTIVO
 - 2026-10-16T10:20 programado web:91984193-d136-423a-8896-e837bb387c4a|x 
 - 2026-10-16T10:20 programado web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x 
 - 2026-10-16T10:40 programado web:c6c994e0-7772-4aac-b4f4-693e1662b284|x 
+- 2026-10-16T11:20 programado bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
+- 2026-10-16T11:20 programado policiales:https://chacabucoenred.com/le-chocaron-la-camione 
+- 2026-10-16T11:20 programado policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-16T11:20 programado policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
+- 2026-10-16T11:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 

@@ -5787,17 +5787,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 39603,
+   "restantes": 237,
+   "segundos": 37199,
    "tope": 250
   },
   "30d": {
-   "restantes": 2824,
-   "segundos": 2197826,
+   "restantes": 2823,
+   "segundos": 2195423,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T10:40:14.000Z",
+ "cuota_visto": "2026-10-16T11:20:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6684,14 +6684,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_38b75cd48882103a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T11:20:16.000Z",
+   "buffer_id": "6ad208722fe657de6e9faf1b",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T11:23:23.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:47:42.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
    "intentos": 0,
@@ -7685,14 +7685,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_05_chacabuco_estado-de-salud-de-los-dos-her.mp4"
   },
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok": {
-   "actualizado": "2026-10-16T09:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T11:20:16.000Z",
+   "buffer_id": "6ad20873f24c5797a237fb3c",
    "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
    "creado": "2026-10-16T09:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T12:03:42.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T02:41:51.000Z",
    "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
    "intentos": 0,
@@ -7735,14 +7735,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
   },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T11:20:16.000Z",
+   "buffer_id": "6ad208742fe657de6e9faf6a",
    "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T13:23:02.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
    "intentos": 0,
@@ -9366,14 +9366,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T11:20:16.000Z",
+   "buffer_id": "6ad20874b948bf9e9d906e57",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T14:03:01.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
    "intentos": 0,
@@ -11254,14 +11254,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_01_bolivar_lluvias-de-octubre-anegan-camp.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T11:20:16.000Z",
+   "buffer_id": "6ad20873b948bf9e9d906e0d",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T12:43:27.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:41:36.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
    "intentos": 0,
@@ -15642,44 +15642,6 @@
  },
  "registro": [
   {
-   "clave": "web:63610a74-1ceb-4c17-9d20-a5b404821855|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00194v2|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00196|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "clave": "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b|x",
    "cuando": "2026-10-13T18:20:17.000Z",
    "evento": "vencido",
@@ -19867,6 +19829,41 @@
    "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
    "cuando": "2026-10-16T10:40:14.000Z",
    "dueAt": "2026-10-16T14:45:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad208722fe657de6e9faf1b",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
+   "cuando": "2026-10-16T11:20:20.000Z",
+   "dueAt": "2026-10-16T11:23:23.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad20873f24c5797a237fb3c",
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
+   "cuando": "2026-10-16T11:20:20.000Z",
+   "dueAt": "2026-10-16T12:03:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad20873b948bf9e9d906e0d",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
+   "cuando": "2026-10-16T11:20:20.000Z",
+   "dueAt": "2026-10-16T12:43:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad208742fe657de6e9faf6a",
+   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
+   "cuando": "2026-10-16T11:20:20.000Z",
+   "dueAt": "2026-10-16T13:23:02.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad20874b948bf9e9d906e57",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
+   "cuando": "2026-10-16T11:20:20.000Z",
+   "dueAt": "2026-10-16T14:03:01.000Z",
    "evento": "programado"
   }
  ],
