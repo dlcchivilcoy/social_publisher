@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 6
+    "scheduled": 1,
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-16T17:20:18.000Z"
+   "visto": "2026-10-16T18:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 17
    },
    "pausado": false,
-   "visto": "2026-10-16T17:20:18.000Z"
+   "visto": "2026-10-16T18:40:13.000Z"
   }
  },
  "contenidos": {
@@ -6189,6 +6189,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
    "volanta": ""
   },
+  "web:ef08f847-d9e6-4534-8776-17ff73df6820": {
+   "categoria": "nacionales",
+   "descripcion": "El esperado superdeportivo de la compañía de Elon Musk incorporó tecnología de propulsión vertical y sistemas de máxima adherencia, aunque la variante…",
+   "generado": "2026-10-16T18:36:27.079Z",
+   "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_372e5ad8302d481fa75e071db6ca7ffa~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se entrega",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
+   "volanta": ""
+  },
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno envió un documento de 49 páginas al ITLOS para frenar la explotación petrolera británica en la plataforma continental y proteger el medio…",
@@ -6323,17 +6341,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 219,
-   "segundos": 15598,
+   "restantes": 218,
+   "segundos": 10804,
    "tope": 250
   },
   "30d": {
-   "restantes": 2805,
-   "segundos": 2173822,
+   "restantes": 2804,
+   "segundos": 2169027,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T17:20:19.000Z",
+ "cuota_visto": "2026-10-16T18:40:13.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -7477,18 +7495,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok": {
-   "actualizado": "2026-10-16T17:00:18.000Z",
+   "actualizado": "2026-10-16T18:40:13.000Z",
    "buffer_id": "6ad25826dcd88593548c498a",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok",
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "2026-10-16T18:23:24.000Z",
+   "enviado": "2026-10-16T18:24:13.696Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:44:43.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697333048274078997",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -7527,18 +7546,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok": {
-   "actualizado": "2026-10-16T17:00:18.000Z",
+   "actualizado": "2026-10-16T18:40:13.000Z",
    "buffer_id": "6ad258254ba0c95fbddfa6ee",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok",
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "2026-10-16T17:43:43.000Z",
+   "enviado": "2026-10-16T17:45:27.866Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:52:36.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697322814612835636",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14056,13 +14076,13 @@
    "video_url": ""
   },
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x": {
-   "actualizado": "2026-10-15T18:40:15.000Z",
+   "actualizado": "2026-10-16T18:40:13.000Z",
    "buffer_id": "",
    "clave": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x",
    "creado": "2026-10-15T18:40:15.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T18:36:21.788Z",
    "id": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7",
    "intentos": 0,
@@ -16941,6 +16961,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ef08f847-d9e6-4534-8776-17ff73df6820|x": {
+   "actualizado": "2026-10-16T18:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:ef08f847-d9e6-4534-8776-17ff73df6820|x",
+   "creado": "2026-10-16T18:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T18:36:27.079Z",
+   "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se entrega\n\nEl esperado superdeportivo de la compañía de Elon Musk incorporó tecnología de propulsión vertical y sistemas de máxima adherencia, aunque la variante…\n\nhttps://www.diariolacampaña.com.ar/n/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
+   "tipo": "nota",
+   "titulo": "Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se entrega",
+   "urgente": false,
+   "vence": "2026-10-17T18:36:27.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:efbef857-ab9c-4566-904e-f8f5926bed12|x": {
    "actualizado": "2026-10-15T18:20:18.000Z",
    "buffer_id": "",
@@ -17119,33 +17163,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acf5766b389ea6547067c41",
-   "clave": "web:66096b4b-4845-4ea3-a895-867ed95af957|x",
-   "cuando": "2026-10-14T10:20:23.000Z",
-   "dueAt": "2026-10-14T14:45:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
-   "cuando": "2026-10-14T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696477494987312405"
-  },
-  {
-   "clave": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x",
-   "cuando": "2026-10-14T12:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:284a2a7c-5d1f-47ee-9e22-449293fa6783|x",
-   "cuando": "2026-10-14T12:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x",
    "cuando": "2026-10-14T12:20:17.000Z",
@@ -21303,10 +21320,36 @@
    "cuando": "2026-10-16T18:20:16.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:ef08f847-d9e6-4534-8776-17ff73df6820|x",
+   "cuando": "2026-10-16T18:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x",
+   "cuando": "2026-10-16T18:40:13.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok",
+   "cuando": "2026-10-16T18:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697333048274078997"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok",
+   "cuando": "2026-10-16T18:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697322814612835636"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T17:20:18.000Z",
+ "ultima_sync": "2026-10-16T18:40:13.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -21618,6 +21661,7 @@
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": "2026-10-16T15:40:14.000Z",
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
+  "web:ef08f847-d9e6-4534-8776-17ff73df6820": "2026-10-16T18:40:13.000Z",
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",

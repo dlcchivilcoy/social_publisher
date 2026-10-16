@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 2 | 3 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 3 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 3 | 1 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 2 | 1 | 0 | 0 |
-| Notas web | X | 15 | 9 | 6 | 19 | 0 | 0 | 0 |
+| Notas web | X | 15 | 9 | 6 | 20 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 17 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 6 enviadas + 3 programadas de 25 por día
+- TikTok: conectado · Buffer: 8 enviadas + 1 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2805 de 3000 (visto 2026-10-16T17:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2804 de 3000 (visto 2026-10-16T18:40:13.000Z)
 
 ## Cola propia (47 esperando)
 - TikTok · Reels del bot · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 15 publicaciones en 24 h de TikTok
@@ -36,6 +36,7 @@ Actualizado: 16/10/2026 15:20 (hora AR) · ACTIVO
 - X · Notas web · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — en turno
 - TikTok · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — en turno
+- X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — en turno
 - X · Notas web · Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la — en turno
 - X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — cupo diario de Notas web en X completo (15)
@@ -48,7 +49,6 @@ Actualizado: 16/10/2026 15:20 (hora AR) · ACTIVO
 - X · Reels policiales · Dos menores aprehendidos por amenazar a una mujer con un arma de juguete — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — en turno
 - X · Notas web · La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV — en turno
-- X · Notas web · Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se  — en turno
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,10 +59,6 @@ Actualizado: 16/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T16:20 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x 
-- 2026-10-16T17:00 entrevista_aprobada entrevistas:job00217 
-- 2026-10-16T17:00 recibido entrevistas:job00217|x 
-- 2026-10-16T17:00 programado policiales:https://www.junindigital.com/policiales/2026-10-1 
 - 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
 - 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
 - 2026-10-16T17:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tikto 
@@ -84,3 +80,7 @@ Actualizado: 16/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-16T18:20 recibido web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x 
 - 2026-10-16T18:20 recibido entrevistas:job00221|x 
 - 2026-10-16T18:20 vencido web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x no hubo lugar antes de su vencimiento
+- 2026-10-16T18:40 recibido web:ef08f847-d9e6-4534-8776-17ff73df6820|x 
+- 2026-10-16T18:40 vencido web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x no hubo lugar antes de su vencimiento
+- 2026-10-16T18:40 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tikto 
+- 2026-10-16T18:40 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tikto 
