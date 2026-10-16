@@ -5923,22 +5923,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 230,
-   "segundos": 27594,
+   "restantes": 229,
+   "segundos": 26403,
    "tope": 250
   },
   "30d": {
-   "restantes": 2816,
-   "segundos": 2185818,
+   "restantes": 2815,
+   "segundos": 2184626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T14:00:25.000Z",
+ "cuota_visto": "2026-10-16T14:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -14114,14 +14114,14 @@
    "video_url": ""
   },
   "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T14:20:14.000Z",
+   "buffer_id": "6ad2329f63c879f95860adc2",
    "clave": "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T19:00:52.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:07:50.210Z",
    "id": "web:975c6fd2-4e78-4b7d-b793-7760379b7320",
    "intentos": 0,
@@ -14270,6 +14270,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:07:09.765Z",
    "id": "web:9f367ea4-375b-4d70-99b9-15eec836b557",
@@ -15742,14 +15743,14 @@
    "video_url": ""
   },
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x": {
-   "actualizado": "2026-10-16T14:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T14:20:14.000Z",
+   "buffer_id": "6ad2329e1ffe47098034f627",
    "clave": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x",
    "creado": "2026-10-16T14:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T18:45:40.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T13:41:05.459Z",
    "id": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8",
    "intentos": 0,
@@ -16042,21 +16043,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|tiktok",
-   "cuando": "2026-10-13T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6aceb80633507eb5b0e228a9",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok",
-   "cuando": "2026-10-13T23:00:23.000Z",
-   "dueAt": "2026-10-13T23:03:55.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6aceb807848c31c8094f2889",
    "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok",
@@ -20255,6 +20241,20 @@
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x",
    "cuando": "2026-10-16T14:00:24.000Z",
    "dueAt": "2026-10-16T15:45:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2329e1ffe47098034f627",
+   "clave": "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x",
+   "cuando": "2026-10-16T14:20:15.000Z",
+   "dueAt": "2026-10-16T18:45:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2329f63c879f95860adc2",
+   "clave": "web:975c6fd2-4e78-4b7d-b793-7760379b7320|x",
+   "cuando": "2026-10-16T14:20:15.000Z",
+   "dueAt": "2026-10-16T19:00:52.000Z",
    "evento": "programado"
   }
  ],
