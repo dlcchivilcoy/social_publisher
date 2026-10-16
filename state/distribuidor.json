@@ -3301,6 +3301,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/convenios-britos-anuncio-que-la-justicia-ordeno-restituir-al",
    "volanta": "Convenios"
   },
+  "web:14436815-e65b-4622-81a4-d215bbfc9d5f": {
+   "categoria": "nacionales",
+   "descripcion": "El Instituto Nacional de Estadística y Censos informó que el Índice de precios internos al por mayor subió tras el fuerte avance del sector energético y…",
+   "generado": "2026-10-16T22:06:42.229Z",
+   "id": "web:14436815-e65b-4622-81a4-d215bbfc9d5f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9ed51ad2b61745c8aba6630af8fdf5b8~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Inflación mayorista del Indec: los precios subieron 3,2% en septiembre",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
+   "volanta": ""
+  },
   "web:14487ca8-2475-41c1-b598-3490602d4ec8": {
    "categoria": "nacionales",
    "descripcion": "Los sueldos básicos del sector oscilan entre $997.033 y $1.863.345 este mes, según la categoría. La entidad sindical también fijó adicionales no…",
@@ -6580,22 +6598,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 86399,
+   "restantes": 247,
+   "segundos": 85206,
    "tope": 250
   },
   "30d": {
-   "restantes": 2791,
-   "segundos": 2157020,
+   "restantes": 2790,
+   "segundos": 2155827,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T22:00:21.000Z",
+ "cuota_visto": "2026-10-16T22:20:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -9228,14 +9246,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
   },
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x": {
-   "actualizado": "2026-10-16T16:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T22:20:13.000Z",
+   "buffer_id": "6ad2a31e1c7e49ea4c27e954",
    "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
    "creado": "2026-10-16T16:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T00:00:07.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T15:41:32.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
    "intentos": 0,
@@ -10702,14 +10720,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x": {
-   "actualizado": "2026-10-16T13:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T22:20:13.000Z",
+   "buffer_id": "6ad2a31f1c7e49ea4c27e993",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
    "creado": "2026-10-16T13:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T00:15:53.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T12:42:00.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
    "intentos": 0,
@@ -13277,6 +13295,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x": {
+   "actualizado": "2026-10-16T22:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x",
+   "creado": "2026-10-16T22:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-16T22:06:42.229Z",
+   "id": "web:14436815-e65b-4622-81a4-d215bbfc9d5f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Inflación mayorista del Indec: los precios subieron 3,2% en septiembre\n\nEl Instituto Nacional de Estadística y Censos informó que el Índice de precios internos al por mayor subió tras el fuerte avance del sector energético y…\n\nhttps://www.diariolacampaña.com.ar/n/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
+   "tipo": "nota",
+   "titulo": "Inflación mayorista del Indec: los precios subieron 3,2% en septiembre",
+   "urgente": false,
+   "vence": "2026-10-17T22:06:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:14487ca8-2475-41c1-b598-3490602d4ec8|x": {
    "actualizado": "2026-10-15T21:20:18.000Z",
    "buffer_id": "",
@@ -13433,6 +13476,7 @@
    "creado": "2026-10-16T19:20:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T19:06:26.903Z",
    "id": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2",
@@ -13733,6 +13777,7 @@
    "creado": "2026-10-16T16:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T16:06:30.064Z",
    "id": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6",
@@ -14267,6 +14312,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:01:32.375Z",
    "id": "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018",
@@ -15175,6 +15221,7 @@
    "creado": "2026-10-16T15:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:06:31.344Z",
    "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
@@ -15957,6 +16004,7 @@
    "creado": "2026-10-16T12:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T12:06:35.841Z",
    "id": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5",
@@ -16559,6 +16607,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:09:07.458Z",
    "id": "web:c546061b-2a6f-44e9-b39f-577c4f187d8e",
@@ -16937,6 +16986,7 @@
    "creado": "2026-10-16T18:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T18:06:23.672Z",
    "id": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2",
@@ -16981,13 +17031,13 @@
    "video_url": ""
   },
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x": {
-   "actualizado": "2026-10-15T22:20:20.000Z",
+   "actualizado": "2026-10-16T22:20:13.000Z",
    "buffer_id": "",
    "clave": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x",
    "creado": "2026-10-15T22:20:20.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T22:06:32.196Z",
    "id": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000",
    "intentos": 0,
@@ -17115,6 +17165,7 @@
    "creado": "2026-10-16T12:40:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T12:36:36.182Z",
    "id": "web:da812ee7-10e6-4f68-a954-bbcfc675078c",
@@ -17189,7 +17240,7 @@
    "creado": "2026-10-15T23:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-15T23:33:12.403Z",
    "id": "web:dca831fd-6866-464f-a367-e6b85d1a5640",
@@ -17438,6 +17489,7 @@
    "creado": "2026-10-16T13:20:18.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T13:06:37.519Z",
    "id": "web:e80eb9f8-449c-4d4b-a410-387331e0d747",
@@ -17614,6 +17666,7 @@
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T15:36:30.410Z",
    "id": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b",
@@ -17662,6 +17715,7 @@
    "creado": "2026-10-16T18:40:13.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T18:36:27.079Z",
    "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
@@ -17857,34 +17911,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
-   "cuando": "2026-10-14T17:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00207|x",
-   "cuando": "2026-10-14T17:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos|x",
-   "cuando": "2026-10-14T17:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Reels policiales en X completo (12)"
-  },
-  {
-   "clave": "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|x",
-   "cuando": "2026-10-14T17:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Reels policiales en X completo (12)"
-  },
   {
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x",
    "cuando": "2026-10-14T17:00:19.000Z",
@@ -22026,6 +22052,34 @@
    "cuando": "2026-10-16T22:00:21.000Z",
    "dueAt": "2026-10-16T23:45:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x",
+   "cuando": "2026-10-16T22:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x",
+   "cuando": "2026-10-16T22:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad2a31e1c7e49ea4c27e954",
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
+   "cuando": "2026-10-16T22:20:15.000Z",
+   "dueAt": "2026-10-17T00:00:07.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2a31f1c7e49ea4c27e993",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
+   "cuando": "2026-10-16T22:20:15.000Z",
+   "dueAt": "2026-10-17T00:15:53.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -22178,6 +22232,7 @@
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": "2026-10-15T10:20:13.000Z",
   "web:12954328-2406-4753-ade8-612eaeebeb3a": "2026-10-16T10:20:16.000Z",
+  "web:14436815-e65b-4622-81a4-d215bbfc9d5f": "2026-10-16T22:20:13.000Z",
   "web:14487ca8-2475-41c1-b598-3490602d4ec8": "2026-10-14T21:20:14.000Z",
   "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a": "2026-10-16T10:20:16.000Z",
   "web:15858ae6-1837-4436-b8ed-3a098530f992": "2026-10-15T10:20:13.000Z",
