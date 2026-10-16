@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,21 +18,21 @@ Actualizado: 15/10/2026 21:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2832 de 3000 (visto 2026-10-16T00:00:24.000Z)
 
-## Cola propia (47 esperando)
-- X · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
+## Cola propia (46 esperando)
 - TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — en turno
-- X · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — en turno
 - TikTok · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — en turno
+- X · Reels policiales · Detuvieron al joven armado que se atrincheró en la casa de su expareja — en turno
 - TikTok · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
+- X · Reels policiales · Piden investigar a Julio Iglesias por abusos y explotación — en turno
 - TikTok · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San  — en turno
 - X · Notas web · Gira federal de PLA recorrió seis provincias con su nueva maquinaria agrícola — fuera del horizonte de programación (espera en la cola)
-- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 - TikTok · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
+- X · Reels policiales · Incendio en Papel Prensa: bomberos trabajaron dos horas y media para contener el — en turno
 - TikTok · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Detuvieron en Chacabuco a un hombre de 30 años con pedido de captura por violenc — en turno
 - TikTok · Reels policiales · Cayó un joven acusado de robar con un arma blanca en Lincoln — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Murió un ciclista tras ser atropellado por una camioneta en la ruta 8 — fuera del horizonte de programación (espera en la cola)
@@ -58,7 +58,6 @@ Actualizado: 15/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-15T23:00 enviado bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x 
 - 2026-10-15T23:00 enviado entrevistas:job00211|x 
 - 2026-10-15T23:40 recibido web:dca831fd-6866-464f-a367-e6b85d1a5640|x 
 - 2026-10-15T23:40 vencido web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x fuera del horizonte de programación (espera en la cola)
@@ -83,3 +82,4 @@ Actualizado: 15/10/2026 21:00 (hora AR) · ACTIVO
 - 2026-10-16T00:00 enviado policiales:https://laopinionline.ar/articulo/san-nicolas-ale 
 - 2026-10-16T00:00 enviado policiales:https://www.latrochadigital.com.ar/2026/10/15/peh 
 - 2026-10-16T00:00 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
+- 2026-10-16T00:20 vencido web:65614571-f714-4991-a75b-bc27850d9de1|x Buffer lleno (10 programadas por canal en el plan Free)

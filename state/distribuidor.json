@@ -11689,14 +11689,14 @@
    "video_url": ""
   },
   "web:65614571-f714-4991-a75b-bc27850d9de1|x": {
-   "actualizado": "2026-10-15T00:20:14.000Z",
+   "actualizado": "2026-10-16T00:20:17.000Z",
    "buffer_id": "",
    "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
    "creado": "2026-10-15T00:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
    "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T00:14:14.695Z",
    "id": "web:65614571-f714-4991-a75b-bc27850d9de1",
    "intentos": 0,
@@ -14277,13 +14277,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ace220476384aa24c2d70d1",
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
-   "cuando": "2026-10-13T12:20:20.000Z",
-   "dueAt": "2026-10-13T14:00:35.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ace2204b7b7fb6d7b084a68",
    "clave": "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x",
@@ -18470,6 +18463,12 @@
    "cuando": "2026-10-16T00:00:24.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2110879846586872081"
+  },
+  {
+   "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
+   "cuando": "2026-10-16T00:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
