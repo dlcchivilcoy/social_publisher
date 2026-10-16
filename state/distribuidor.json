@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 14
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-16T02:20:15.000Z"
+   "visto": "2026-10-16T09:00:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 2,
-    "sent": 33
+    "scheduled": 0,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-16T02:20:15.000Z"
+   "visto": "2026-10-16T09:00:21.000Z"
   }
  },
  "contenidos": {
@@ -972,6 +972,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_05_chacabuco_estado-de-salud-de-los-dos-her.mp4",
    "volanta": "Choque en Chacabuco",
    "youtube_url": ""
+  },
+  "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida": {
+   "categoria": "accidente_vial",
+   "descripcion": "Una vecina sufrió graves daños en la dirección de su vehículo tras un choque en la esquina de San Luis y Belgrano. El conductor responsable huyó sin dejar rastros.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-16T02:41:51.000Z",
+   "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "texto_tiktok": "Una vecina de Chacabuco se llevó una desagradable sorpresa al descubrir que su camioneta Ford Territory tenía la dirección completamente rota tras recibir un fuerte impacto.\n\nEl violento episodio vial sucedió en la intersección de las calles San Luis y Belgrano.\n\nEl rodado que provocó los daños sería de color gris y de diseño redondeado, según indicaron los datos preliminares del caso.\n\nLa damnificada solicita que el automovilista se presente por sus propios medios para evitar la difusión de las imágenes registradas por las cámaras de seguridad de la zona.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Le chocaron la camioneta estacionada y escaparon",
+   "urgente": false,
+   "video_bytes": 119138,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/32mBCgrD3-M"
   },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": {
    "categoria": "otro_policial",
@@ -5434,22 +5458,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 69601,
+   "restantes": 241,
+   "segundos": 45595,
    "tope": 250
   },
   "30d": {
-   "restantes": 2829,
-   "segundos": 2227825,
+   "restantes": 2827,
+   "segundos": 2203818,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T02:20:16.000Z",
+ "cuota_visto": "2026-10-16T09:00:26.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6342,7 +6366,7 @@
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-15T23:47:42.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
@@ -6361,14 +6385,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a8e991a49db3d6948a",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T10:30:41.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:47:42.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
    "intentos": 0,
@@ -6386,18 +6410,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok": {
-   "actualizado": "2026-10-16T01:40:15.000Z",
+   "actualizado": "2026-10-16T09:00:21.000Z",
    "buffer_id": "6ad180804ed7d375a43dd85d",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
    "creado": "2026-10-16T01:00:17.000Z",
    "dueAt": "2026-10-16T02:23:50.000Z",
+   "enviado": "2026-10-16T02:25:43.103Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T00:51:01.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697085807319895303",
    "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6411,13 +6436,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_176ccf7b5f24e2ba.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x": {
-   "actualizado": "2026-10-16T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a74ed7d375a451ed61",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x",
    "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T10:15:46.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T00:51:01.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop",
    "intentos": 0,
@@ -6461,14 +6487,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x": {
-   "actualizado": "2026-10-16T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a6a82f34dbe1539180",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x",
    "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T10:00:04.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T00:59:51.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3",
    "intentos": 0,
@@ -7332,6 +7358,56 @@
    "video_bytes": 133367,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_05_chacabuco_estado-de-salud-de-los-dos-her.mp4"
   },
+  "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok": {
+   "actualizado": "2026-10-16T09:00:20.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
+   "creado": "2026-10-16T09:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-16T02:41:51.000Z",
+   "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una vecina de Chacabuco se llevó una desagradable sorpresa al descubrir que su camioneta Ford Territory tenía la dirección completamente rota tras recibir un fuerte impacto.\n\nEl violento episodio vial sucedió en la intersección de las calles San Luis y Belgrano.\n\nEl rodado que provocó los daños sería de color gris y de diseño redondeado, según indicaron los datos preliminares del caso.\n\nLa damnificada solicita que el automovilista se presente por sus propios medios para evitar la difusión de las imágenes registradas por las cámaras de seguridad de la zona.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Le chocaron la camioneta estacionada y escaparon",
+   "urgente": false,
+   "vence": "2026-10-16T20:41:51.000Z",
+   "video_bytes": 119138,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
+  },
+  "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x": {
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a9ee2c696029c9030e",
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x",
+   "creado": "2026-10-16T09:00:20.000Z",
+   "dueAt": "2026-10-16T13:30:56.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-16T02:41:51.000Z",
+   "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Le chocaron la camioneta estacionada y escaparon\n\nUna vecina sufrió graves daños en la dirección de su vehículo tras un choque en la esquina de San Luis y Belgrano. El conductor responsable huyó sin dejar rastros.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2\n#Chacabuco",
+   "tipo": "video",
+   "titulo": "Le chocaron la camioneta estacionada y escaparon",
+   "urgente": false,
+   "vence": "2026-10-16T20:41:51.000Z",
+   "video_bytes": 119138,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
+  },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok": {
    "actualizado": "2026-10-16T00:00:21.000Z",
    "buffer_id": "",
@@ -7364,6 +7440,7 @@
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-15T23:41:35.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/",
@@ -7440,6 +7517,7 @@
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada",
@@ -8477,13 +8555,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_07_bragado_una-camioneta-sufri-da-os-tota.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x": {
-   "actualizado": "2026-10-15T14:00:19.000Z",
+   "actualizado": "2026-10-16T09:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x",
    "creado": "2026-10-15T14:00:19.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T13:42:33.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html",
    "intentos": 0,
@@ -9119,6 +9197,7 @@
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-16T01:41:44.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html",
@@ -9646,18 +9725,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x": {
-   "actualizado": "2026-10-15T21:00:19.000Z",
+   "actualizado": "2026-10-16T09:00:21.000Z",
    "buffer_id": "6ad13ee45533140b41c8c6f0",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "2026-10-16T02:45:19.000Z",
+   "enviado": "2026-10-16T02:45:33.270Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T19:12:19.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110925080876245269",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
    "origen": "policiales",
    "plataforma": "x",
@@ -10497,6 +10577,7 @@
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/",
@@ -10872,13 +10953,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7aae991a49db3d69568",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T14:00:59.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:41:36.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
    "intentos": 0,
@@ -10902,6 +10984,7 @@
    "creado": "2026-10-16T02:00:19.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-16T01:41:45.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya",
@@ -11043,18 +11126,19 @@
    "video_url": ""
   },
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
+   "actualizado": "2026-10-16T09:00:21.000Z",
    "buffer_id": "6ad13a304fd04e4eb3ad3ffb",
    "clave": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x",
    "creado": "2026-10-15T20:20:15.000Z",
    "dueAt": "2026-10-16T02:30:51.000Z",
+   "enviado": "2026-10-16T02:31:01.918Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T20:14:40.990Z",
    "id": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2110921425196392474",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
    "origen": "web",
    "plataforma": "x",
@@ -13361,13 +13445,14 @@
    "video_url": ""
   },
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x": {
-   "actualizado": "2026-10-16T00:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a99597cd166275050c",
    "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
    "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T13:45:05.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-15T23:45:30.415Z",
    "id": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87",
    "intentos": 0,
@@ -13739,13 +13824,14 @@
    "video_url": ""
   },
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x": {
-   "actualizado": "2026-10-16T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a84ed7d375a451ee05",
    "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
    "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T13:00:55.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T00:56:57.347Z",
    "id": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c",
    "intentos": 0,
@@ -13937,13 +14023,14 @@
    "video_url": ""
   },
   "web:ce42efb6-366a-4469-b255-64d747973441|x": {
-   "actualizado": "2026-10-16T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T09:00:21.000Z",
+   "buffer_id": "6ad1e7a89597cd166275046c",
    "clave": "web:ce42efb6-366a-4469-b255-64d747973441|x",
    "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T13:15:29.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T00:49:02.380Z",
    "id": "web:ce42efb6-366a-4469-b255-64d747973441",
    "intentos": 0,
@@ -14792,102 +14879,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
-   "cuando": "2026-10-13T13:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696142486015724807"
-  },
-  {
-   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
-   "cuando": "2026-10-13T13:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110000259187327188"
-  },
-  {
-   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
-   "cuando": "2026-10-13T13:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109996453435183449"
-  },
-  {
-   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
-   "cuando": "2026-10-13T13:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109993650667102607"
-  },
-  {
-   "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
-   "cuando": "2026-10-13T13:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109988966405455935"
-  },
-  {
-   "buffer_id": "6ace34c81077be9dba265cc5",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
-   "cuando": "2026-10-13T13:40:24.000Z",
-   "dueAt": "2026-10-13T18:15:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace3978e66b409d53fb2eee",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
-   "cuando": "2026-10-13T14:00:24.000Z",
-   "dueAt": "2026-10-13T18:30:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
-   "cuando": "2026-10-13T15:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110008826552365233"
-  },
-  {
-   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
-   "cuando": "2026-10-13T15:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110004135168806952"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x",
-   "cuando": "2026-10-13T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|tiktok",
-   "cuando": "2026-10-13T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|x",
-   "cuando": "2026-10-13T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok",
-   "cuando": "2026-10-13T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:76224348-2766-4a07-947f-ef8503976009|x",
-   "cuando": "2026-10-13T15:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:baeb5d08-b026-4158-a946-6ff35dd140c1|x",
    "cuando": "2026-10-13T15:20:21.000Z",
@@ -18995,10 +18986,106 @@
    "cuando": "2026-10-16T02:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697075329101270273"
+  },
+  {
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x",
+   "cuando": "2026-10-16T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
+   "cuando": "2026-10-16T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x",
+   "cuando": "2026-10-16T09:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
+   "cuando": "2026-10-16T09:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697085807319895303"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
+   "cuando": "2026-10-16T09:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110925080876245269"
+  },
+  {
+   "clave": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x",
+   "cuando": "2026-10-16T09:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2110921425196392474"
+  },
+  {
+   "buffer_id": "6ad1e7a6a82f34dbe1539180",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T10:00:04.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7a74ed7d375a451ed61",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T10:15:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7a8e991a49db3d6948a",
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T10:30:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7a84ed7d375a451ee05",
+   "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T13:00:55.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7a89597cd166275046c",
+   "clave": "web:ce42efb6-366a-4469-b255-64d747973441|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T13:15:29.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7a9ee2c696029c9030e",
+   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T13:30:56.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7a99597cd166275050c",
+   "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T13:45:05.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad1e7aae991a49db3d69568",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
+   "cuando": "2026-10-16T09:00:26.000Z",
+   "dueAt": "2026-10-16T14:00:59.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T02:20:15.000Z",
+ "ultima_sync": "2026-10-16T09:00:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -19046,6 +19133,7 @@
   "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": "2026-10-14T22:20:16.000Z",
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
+  "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida": "2026-10-16T09:00:20.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
