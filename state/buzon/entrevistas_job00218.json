@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00218",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-10-16T17:19:38.000Z",
+ "titulo": "Sebastián Di Siervi en Chivilcoy: Qué es el folklore",
+ "descripcion": "El cantante folklórico Sebastián Di Siervi se presenta en el Teatro La Cueva de Chivilcoy y reflexiona sobre el verdadero significado de esta cultura. Explicó que va mucho más allá de la música o la danza tradicional.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00218.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "Lng7U6-LdoQ",
+  "largo": "8gJy2QXwX2E"
+ },
+ "youtube_url": "https://youtube.com/shorts/Lng7U6-LdoQ",
+ "prioridad": 7,
+ "entrevistado": "Sebastián Di Siervi",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
