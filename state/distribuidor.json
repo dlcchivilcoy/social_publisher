@@ -5629,6 +5629,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/condenaron-a-una-prepaga-a-pagar-15-millones-por-una-caida-510a27",
    "volanta": ""
   },
+  "web:e80eb9f8-449c-4d4b-a410-387331e0d747": {
+   "categoria": "nacionales",
+   "descripcion": "Pese a la reciente cirugía del Pontífice en Roma, la organización nacional sigue adelante con los preparativos y ya juntó el 60 por ciento del presupuesto…",
+   "generado": "2026-10-16T13:06:37.519Z",
+   "id": "web:e80eb9f8-449c-4d4b-a410-387331e0d747",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0f62f0e4f1b543368c5e67324c2a6451~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
+   "volanta": ""
+  },
   "web:e883209a-2652-420f-bb41-8ef9185d415e": {
    "categoria": "",
    "descripcion": "Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de Cine de Chivilcoy prepara cuatro días de pantallas y resistencia Del 12 al 15 de noviembre, como viene ocurriendo en los últimos nuestra ciudad volverá a convertirse en el epicentro del cine independiente con la llegada de la novena edición de Raíces - Festival Internacional de Cine de Chivilcoy. La cita tendrá lugar en la histórica sede del Teatro ‘El Chasqui’ (ubicado en la calle General Rodríguez),...",
@@ -5871,17 +5889,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 234,
-   "segundos": 31198,
+   "restantes": 233,
+   "segundos": 29998,
    "tope": 250
   },
   "30d": {
-   "restantes": 2820,
-   "segundos": 2189421,
+   "restantes": 2819,
+   "segundos": 2188222,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T13:00:22.000Z",
+ "cuota_visto": "2026-10-16T13:20:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8023,14 +8041,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_06_pergamino_aprehendieron-a-un-joven-de-28.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
+   "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T19:12:18.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
    "intentos": 0,
@@ -8048,14 +8066,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
+   "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "fuera del horizonte de programación (espera en la cola)",
    "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T19:12:18.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
    "intentos": 0,
@@ -8529,14 +8547,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_03_pergamino_un-adolescente-atac-a-fierrazo.mp4"
   },
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
+   "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T19:12:19.000Z",
    "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
    "intentos": 0,
@@ -8554,13 +8572,13 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
   },
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
+   "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T19:12:19.000Z",
    "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
    "intentos": 0,
@@ -10212,14 +10230,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_02_chacabuco_detuvieron-a-un-pr-fugo-en-cha.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok": {
-   "actualizado": "2026-10-15T19:20:15.000Z",
+   "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok",
    "creado": "2026-10-15T19:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-15T19:12:19.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
    "intentos": 0,
@@ -13022,13 +13040,13 @@
    "video_url": ""
   },
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x": {
-   "actualizado": "2026-10-15T13:20:17.000Z",
+   "actualizado": "2026-10-16T13:20:18.000Z",
    "buffer_id": "",
    "clave": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x",
    "creado": "2026-10-15T13:20:17.000Z",
    "dueAt": "",
-   "error": "",
-   "estado": "pendiente",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
    "generado": "2026-10-15T13:06:46.139Z",
    "id": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf",
    "intentos": 0,
@@ -13096,14 +13114,14 @@
    "video_url": ""
   },
   "web:70161ba5-8aec-496b-844f-0838565b94a8|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T13:20:18.000Z",
+   "buffer_id": "6ad224932fe657de6ea75a21",
    "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T15:00:15.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:10:32.990Z",
    "id": "web:70161ba5-8aec-496b-844f-0838565b94a8",
    "intentos": 0,
@@ -13778,13 +13796,14 @@
    "video_url": ""
   },
   "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T13:20:18.000Z",
+   "buffer_id": "6ad2249325d13dd62eea1ebd",
    "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T15:15:16.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:09:49.670Z",
    "id": "web:90793449-fe94-4a94-a7d7-67bd22f391dd",
    "intentos": 0,
@@ -14796,14 +14815,14 @@
    "video_url": ""
   },
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x": {
-   "actualizado": "2026-10-16T10:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T13:20:18.000Z",
+   "buffer_id": "6ad22493b948bf9e9d97c5ef",
    "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
    "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T14:45:42.000Z",
    "error": "",
-   "espera": "corrida por una urgente",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T10:11:10.876Z",
    "id": "web:c6c994e0-7772-4aac-b4f4-693e1662b284",
    "intentos": 0,
@@ -15357,6 +15376,7 @@
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T10:08:26.164Z",
    "id": "web:dd7f1568-1a2a-4716-94cc-9e7125c22801",
@@ -15544,6 +15564,30 @@
    "titulo": "Condenaron a una prepaga a pagar 15 millones por una caída desde una ambulancia",
    "urgente": false,
    "vence": "2026-10-13T21:11:35.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:e80eb9f8-449c-4d4b-a410-387331e0d747|x": {
+   "actualizado": "2026-10-16T13:20:18.000Z",
+   "buffer_id": "",
+   "clave": "web:e80eb9f8-449c-4d4b-a410-387331e0d747|x",
+   "creado": "2026-10-16T13:20:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-16T13:06:37.519Z",
+   "id": "web:e80eb9f8-449c-4d4b-a410-387331e0d747",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV\n\nPese a la reciente cirugía del Pontífice en Roma, la organización nacional sigue adelante con los preparativos y ya juntó el 60 por ciento del presupuesto…\n\nhttps://www.diariolacampaña.com.ar/n/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
+   "tipo": "nota",
+   "titulo": "La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV",
+   "urgente": false,
+   "vence": "2026-10-17T13:06:37.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -15875,70 +15919,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ace7fc8b8901dbd45b7bb39",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
-   "cuando": "2026-10-13T19:00:24.000Z",
-   "dueAt": "2026-10-13T19:03:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ace7fc8b8901dbd45b7bbec",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
-   "cuando": "2026-10-13T19:00:24.000Z",
-   "dueAt": "2026-10-13T19:43:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00192|x",
-   "cuando": "2026-10-13T20:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110087216101732674"
-  },
-  {
-   "clave": "entrevistas:job00194v2|x",
-   "cuando": "2026-10-13T20:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110094564144894407"
-  },
-  {
-   "clave": "entrevistas:job00194|x",
-   "cuando": "2026-10-13T20:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110090985468211418"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales|x",
-   "cuando": "2026-10-13T20:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110079448791859249"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do|tiktok",
-   "cuando": "2026-10-13T20:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696240544711724306"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok",
-   "cuando": "2026-10-13T20:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696230196680183092"
-  },
-  {
-   "clave": "web:ba878935-3e6f-4357-a078-3447ed612c35|x",
-   "cuando": "2026-10-13T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9|x",
-   "cuando": "2026-10-13T21:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "entrevistas:job00196|x",
    "cuando": "2026-10-13T21:20:15.000Z",
@@ -20098,6 +20078,71 @@
    "cuando": "2026-10-16T13:00:22.000Z",
    "dueAt": "2026-10-16T13:03:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:e80eb9f8-449c-4d4b-a410-387331e0d747|x",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "fuera del horizonte de programación (espera en la cola)"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x",
+   "cuando": "2026-10-16T13:20:18.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "buffer_id": "6ad22493b948bf9e9d97c5ef",
+   "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
+   "cuando": "2026-10-16T13:20:19.000Z",
+   "dueAt": "2026-10-16T14:45:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad224932fe657de6ea75a21",
+   "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
+   "cuando": "2026-10-16T13:20:19.000Z",
+   "dueAt": "2026-10-16T15:00:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2249325d13dd62eea1ebd",
+   "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
+   "cuando": "2026-10-16T13:20:19.000Z",
+   "dueAt": "2026-10-16T15:15:16.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
@@ -20384,6 +20429,7 @@
   "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": "2026-10-14T10:20:15.000Z",
   "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b": "2026-10-15T19:20:15.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
+  "web:e80eb9f8-449c-4d4b-a410-387331e0d747": "2026-10-16T13:20:18.000Z",
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
