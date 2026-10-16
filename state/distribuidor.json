@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 4,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-16T10:20:18.000Z"
+   "visto": "2026-10-16T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
-    "sent": 2
+    "scheduled": 8,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-16T10:20:18.000Z"
+   "visto": "2026-10-16T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -5787,17 +5787,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 237,
-   "segundos": 37199,
+   "restantes": 236,
+   "segundos": 36001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2823,
-   "segundos": 2195423,
+   "restantes": 2822,
+   "segundos": 2194225,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T11:20:20.000Z",
+ "cuota_visto": "2026-10-16T11:40:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6684,18 +6684,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_38b75cd48882103a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok": {
-   "actualizado": "2026-10-16T11:20:16.000Z",
+   "actualizado": "2026-10-16T11:40:15.000Z",
    "buffer_id": "6ad208722fe657de6e9faf1b",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T11:23:23.000Z",
+   "enviado": "2026-10-16T11:25:12.973Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T23:47:42.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697224919179873552",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6709,18 +6710,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
+   "actualizado": "2026-10-16T11:40:15.000Z",
    "buffer_id": "6ad1e7a8e991a49db3d6948a",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "2026-10-16T10:30:41.000Z",
+   "enviado": "2026-10-16T10:30:55.051Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-15T23:47:42.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111042193246843369",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
    "origen": "bot",
    "plataforma": "x",
@@ -15642,18 +15644,6 @@
  },
  "registro": [
   {
-   "clave": "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:ceec6742-f491-45cb-b224-31d1a7caf1da|x",
-   "cuando": "2026-10-13T18:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "buffer_id": "6ace76639d848852704299ea",
    "clave": "entrevistas:job00194v2|x",
    "cuando": "2026-10-13T18:20:19.000Z",
@@ -19865,10 +19855,22 @@
    "cuando": "2026-10-16T11:20:20.000Z",
    "dueAt": "2026-10-16T14:03:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
+   "cuando": "2026-10-16T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697224919179873552"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
+   "cuando": "2026-10-16T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111042193246843369"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
- "ultima_sync": "2026-10-16T10:20:18.000Z",
+ "ultima_sync": "2026-10-16T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

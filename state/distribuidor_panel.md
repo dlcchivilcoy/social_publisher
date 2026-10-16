@@ -1,22 +1,22 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 6 | 15 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 3 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2823 de 3000 (visto 2026-10-16T11:20:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2822 de 3000 (visto 2026-10-16T11:40:16.000Z)
 
 ## Cola propia (52 esperando)
 - X · Notas web · Estrena “Como un roble antiguo” en el Teatro La Cueva — Buffer lleno (10 programadas por canal en el plan Free)
@@ -58,8 +58,6 @@ Actualizado: 16/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T10:20 recibido web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x 
-- 2026-10-16T10:20 recibido web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x 
 - 2026-10-16T10:20 recibido web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x 
 - 2026-10-16T10:20 recibido web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x 
 - 2026-10-16T10:20 recibido web:12954328-2406-4753-ade8-612eaeebeb3a|x 
@@ -83,3 +81,5 @@ Actualizado: 16/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-16T11:20 programado policiales:https://www.presentenoticias.com/noticias/2026/10 
 - 2026-10-16T11:20 programado policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
 - 2026-10-16T11:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la- 
+- 2026-10-16T11:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tikto 
+- 2026-10-16T11:40 enviado bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x 
