@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 15/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 0 | 3 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 2 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 7 | 1 | 10 | 0 | 1 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 10 | 2 | 1 | 0 |
 | Notas web | X | 15 | 14 | 1 | 25 | 0 | 0 | 0 |
@@ -16,14 +16,12 @@ Actualizado: 15/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2831 de 3000 (visto 2026-10-16T01:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2830 de 3000 (visto 2026-10-16T01:40:17.000Z)
 
-## Cola propia (52 esperando)
-- TikTok · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — tope de 15 publicaciones en 24 h de TikTok
+## Cola propia (50 esperando)
 - X · Reels del bot · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — fuera del horizonte de programación (espera en la cola)
-- TikTok · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
-- TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — tope de 15 publicaciones en 24 h de TikTok
+- TikTok · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
 - X · Reels del bot · Aprehendieron a un hombre por robos y a una mujer por encubrimiento — fuera del horizonte de programación (espera en la cola)
 - X · Notas web · SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar — en turno
 - X · Notas web · Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil — en turno
@@ -49,6 +47,8 @@ Actualizado: 15/10/2026 22:20 (hora AR) · ACTIVO
 - X · Reels policiales · Cayeron dos sospechosos por una estafa de setenta y nueve años — en turno
 - X · Notas web · A cuánto llegará el techo del dólar mayorista en noviembre según la banda cambia — en turno
 - TikTok · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Encontró a dos policías en su propiedad y uno se negó a identificarse — en turno
+- X · Notas web · La Cámara de Casación ratificó el archivo de una causa contra los jueces de la C — en turno
 
 ## Errores recientes
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -58,8 +58,6 @@ Actualizado: 15/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
-- 2026-10-16T00:00 recibido policiales:https://laopinionline.ar/articulo/san-pedro-incen 
 - 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
 - 2026-10-16T00:00 recibido policiales:https://www.diariodemocracia.com/policiales/34658 
 - 2026-10-16T00:00 recibido policiales:https://infoarenales.com/2026/10/15/un-fiscal-esp 
@@ -83,3 +81,5 @@ Actualizado: 15/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-16T01:00 recibido web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x 
 - 2026-10-16T01:00 recibido web:ce42efb6-366a-4469-b255-64d747973441|x 
 - 2026-10-16T01:20 enviado policiales:https://www.noticiaslasflores.com.ar/policiales/h 
+- 2026-10-16T01:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tikto 
+- 2026-10-16T01:40 programado bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tikto 

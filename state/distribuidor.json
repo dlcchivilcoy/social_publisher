@@ -5343,17 +5343,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 73202,
+   "restantes": 244,
+   "segundos": 72001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2831,
-   "segundos": 2231425,
+   "restantes": 2830,
+   "segundos": 2230225,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T01:20:15.000Z",
+ "cuota_visto": "2026-10-16T01:40:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -6246,7 +6246,7 @@
    "creado": "2026-10-16T00:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-15T23:47:42.000Z",
    "id": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx",
@@ -6290,14 +6290,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok": {
-   "actualizado": "2026-10-16T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T01:40:15.000Z",
+   "buffer_id": "6ad180804ed7d375a43dd85d",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
    "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T02:23:50.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T00:51:01.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop",
    "intentos": 0,
@@ -6339,14 +6339,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_176ccf7b5f24e2ba.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok": {
-   "actualizado": "2026-10-16T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-16T01:40:15.000Z",
+   "buffer_id": "6ad180809597cd1662607795",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
    "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-16T01:43:28.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T00:59:51.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3",
    "intentos": 0,
@@ -14504,18 +14504,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok",
-   "cuando": "2026-10-13T12:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696115945743338760"
-  },
-  {
-   "clave": "web:79374449-0d19-4bc1-8bac-ee1a849f1966|x",
-   "cuando": "2026-10-13T12:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2109985265397715145"
-  },
-  {
    "clave": "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181|x",
    "cuando": "2026-10-13T12:40:17.000Z",
    "evento": "enviado",
@@ -18694,6 +18682,20 @@
    "cuando": "2026-10-16T01:20:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697054735370652949"
+  },
+  {
+   "buffer_id": "6ad180809597cd1662607795",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
+   "cuando": "2026-10-16T01:40:16.000Z",
+   "dueAt": "2026-10-16T01:43:28.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad180804ed7d375a43dd85d",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
+   "cuando": "2026-10-16T01:40:16.000Z",
+   "dueAt": "2026-10-16T02:23:50.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-16",
