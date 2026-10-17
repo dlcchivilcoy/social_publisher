@@ -6301,6 +6301,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pyme-bloqueada-por-camioneros-el-dueno-teme-por-su-familia-tras-ec2d8e",
    "volanta": ""
   },
+  "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": {
+   "categoria": "",
+   "descripcion": "Servicios Públicos repone contenedores y avanza con mejoras en plazas",
+   "generado": "2026-10-17T16:59:26.852Z",
+   "id": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d6a13135e4e1493e89303685bea613c4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy · Servicios Públicos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "volanta": ""
+  },
   "web:cc9019ae-7f13-4598-b272-348e432962b5": {
    "categoria": "",
    "descripcion": "Una mujer murió y dos conductores sufrieron heridas graves tras un choque frontal en el tramo Mercedes - Suipacha El violento siniestro vial ocurrió este lunes a la altura del kilómetro 113. La víctima fatal fue identificada como Yolanda Figueroa, de 37 años. Los sobrevivientes permanecen internados. Un trágico choque frontal sobre la Ruta Nacional N° 5 se cobró la vida de una mujer y dejó a dos hombres gravemente heridos durante la mañana de este lunes 12 de octubre, en jurisdicción del...",
@@ -18322,6 +18340,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x": {
+   "actualizado": "2026-10-17T17:00:15.000Z",
+   "buffer_id": "",
+   "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
+   "creado": "2026-10-17T17:00:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T16:59:26.852Z",
+   "id": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy · Servicios Públicos\n\nServicios Públicos repone contenedores y avanza con mejoras en plazas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy · Servicios Públicos",
+   "urgente": false,
+   "vence": "2026-10-18T16:59:26.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:cc9019ae-7f13-4598-b272-348e432962b5|x": {
    "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "",
@@ -19487,14 +19531,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:15858ae6-1837-4436-b8ed-3a098530f992|x",
    "cuando": "2026-10-15T10:20:15.000Z",
@@ -23601,6 +23637,14 @@
    "cuando": "2026-10-17T16:40:27.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111488529880506587"
+  },
+  {
+   "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
+   "cuando": "2026-10-17T17:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -23917,6 +23961,7 @@
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": "2026-10-14T10:20:15.000Z",
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
+  "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
   "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": "2026-10-17T16:20:14.000Z",
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
