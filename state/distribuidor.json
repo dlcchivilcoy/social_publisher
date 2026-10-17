@@ -6660,17 +6660,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 82799,
+   "restantes": 245,
+   "segundos": 79200,
    "tope": 250
   },
   "30d": {
-   "restantes": 2789,
-   "segundos": 2153420,
+   "restantes": 2788,
+   "segundos": 2149821,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-16T23:00:21.000Z",
+ "cuota_visto": "2026-10-17T00:00:20.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8023,14 +8023,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok": {
-   "actualizado": "2026-10-16T21:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T00:00:18.000Z",
+   "buffer_id": "6ad2ba94c34368e4b09bd2a2",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
    "creado": "2026-10-16T21:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T00:43:07.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T21:06:15.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc",
    "intentos": 0,
@@ -8073,14 +8073,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok": {
-   "actualizado": "2026-10-16T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T00:00:18.000Z",
+   "buffer_id": "6ad2ba948ac6cfe54421119d",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
    "creado": "2026-10-16T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T00:03:58.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T23:18:11.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b",
    "intentos": 0,
@@ -18073,22 +18073,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
-   "cuando": "2026-10-14T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|tiktok",
-   "cuando": "2026-10-14T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|x",
    "cuando": "2026-10-14T18:00:19.000Z",
    "estado": "pendiente",
@@ -22241,9 +22225,23 @@
    "cuando": "2026-10-16T23:40:15.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad2ba948ac6cfe54421119d",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
+   "cuando": "2026-10-17T00:00:20.000Z",
+   "dueAt": "2026-10-17T00:03:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2ba94c34368e4b09bd2a2",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
+   "cuando": "2026-10-17T00:00:20.000Z",
+   "dueAt": "2026-10-17T00:43:07.000Z",
+   "evento": "programado"
   }
  ],
- "ultima_limpieza_release": "2026-10-16",
+ "ultima_limpieza_release": "2026-10-17",
  "ultima_sync": "2026-10-16T23:00:20.000Z",
  "version": 1,
  "vistos": {
