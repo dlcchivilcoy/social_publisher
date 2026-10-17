@@ -8,6 +8,7 @@ textos y el mismo cliente que el distribuidor. Contenido real del 11/10/2026.
 from __future__ import annotations
 
 import json
+import sys
 
 from utils.config import load_config
 
@@ -53,7 +54,20 @@ def main() -> None:
         pubs.append({"clave": f"{ev['id']}|{red}", "plataforma": red, "texto": texto, "borrador": True,
                      "video_url": ev.get("video_url", ""), "dueAt": "", "tipo": ev["tipo"],
                      "imagen_url": ev.get("imagen_url", "")})
-    res = buffer_api.crear_lote(pubs)
+    borrar = []
+    if "--publicar" in sys.argv:
+        # Aprobadas por el editor: salen ahora, salvo la nota de la MISMA noticia que el reel
+        # del bot, que va 3 h después (regla del distribuidor). Se borran los borradores.
+        from datetime import timedelta
+        from distribuidor import estado
+        for p in pubs:
+            p["borrador"] = False
+            if p["clave"] == "prueba:web-sentra|x":
+                p["dueAt"] = estado.iso(estado.ahora() + timedelta(hours=3))
+            else:
+                p["ahora"] = True
+        borrar = [a for a in sys.argv[sys.argv.index("--publicar") + 1:]]
+    res = buffer_api.crear_lote(pubs, borrar)
     print(json.dumps(res, ensure_ascii=False, indent=1))
     print(buffer_api.resumen_cuota())
 

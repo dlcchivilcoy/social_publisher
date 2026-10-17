@@ -70,6 +70,8 @@ class BufferFalso:
 
 
 def preparar(eventos_fn):
+    from distribuidor import resumen
+    resumen._pedir_gemini = lambda texto, titulo, maximo: ""     # nunca la red en las pruebas
     tmp = Path(tempfile.mkdtemp())
     estado.ARCHIVO = tmp / "distribuidor.json"
     estado.PANEL = tmp / "panel.md"
@@ -107,36 +109,104 @@ AR_10 = datetime(2026, 10, 12, 13, 0, tzinfo=timezone.utc)   # 10:00 en Argentin
 
 # ------------------------------------------------------------------ pruebas
 def prueba_textos():
-    print("textos")
+    print("textos: solo título + bajada completa + link, nunca «…»")
+    from distribuidor import resumen
+    pedidos = []
+    respuesta = {"txt": "Un auto y una camioneta chocaron en el kilómetro 120 de la Ruta 7."}
+    resumen._roto, resumen._inicio = False, None
+    resumen._pedir_gemini = lambda texto, titulo, maximo: (pedidos.append(maximo) or respuesta["txt"])
+    larga = ("Un auto y una camioneta chocaron esta mañana en el kilómetro 120 de la Ruta 7. " * 6
+             + "\n\n📲 Seguí leyendo en www.diariolacampaña.com.ar #policiales #ruta7")
     e = {"origen": "policiales", "tipo": "video", "localidad": "San Andrés de Giles",
          "titulo": "Choque en la ruta 7: dos heridos", "nota_url": "https://www.diariolacampaña.com.ar/n/x",
-         "descripcion": ("Un auto y una camioneta chocaron esta mañana en el kilómetro 120. " * 12
-                         + "\n\n📲 Seguí leyendo en www.diariolacampaña.com.ar #policiales #ruta7")}
+         "descripcion": larga}
     tx = textos.texto_x(e)
+    partes = tx.split("\n\n")
     chequear("X ≤ 280 con el peso real", textos.largo_x(tx) <= 280, f"{textos.largo_x(tx)}: {tx}")
-    chequear("X lleva el link de la nota", "https://www.diariolacampaña.com.ar/n/x" in tx, tx)
-    chequear("X corta en oración o con …", tx.split("\n\n")[1].endswith((".", "…")), tx)
-    chequear("X hashtag de la localidad", "#SanAndrésDeGiles" in tx, tx)
-    tt = textos.texto_tiktok(e)
-    tags = [w for w in tt.split() if w.startswith("#")]
-    chequear("TikTok máx. 5 hashtags", len(tags) <= 5, tags)
-    chequear("TikTok con los 3 fijos", all(h in tags for h in config.TIKTOK_HASHTAGS_FIJOS), tags)
-    chequear("TikTok sin links", "http" not in tt, tt)
-    chequear("TikTok saca el «Seguí leyendo» viejo", tt.count("Seguí leyendo") == 0, tt)
+    chequear("X = título / bajada / link (3 bloques)", len(partes) == 3 and partes[0] == e["titulo"]
+             and partes[2] == e["nota_url"], tx)
+    chequear("X: bajada larga → resumen de Gemini", partes[1] == respuesta["txt"] and pedidos, tx)
+    chequear("X sin «…», sin hashtags, sin etiquetas", "…" not in tx and "#" not in tx
+             and "Nota completa" not in tx and "📲" not in tx, tx)
+
+    # Gemini inventa un número que no está en el texto → se descarta y van oraciones enteras.
+    respuesta["txt"] = "Chocaron en el kilómetro 999 y hubo 5 heridos."
+    tx2 = textos.texto_x(e)
+    baj2 = tx2.split("\n\n")[1]
+    chequear("resumen con un dato inventado: descartado", "999" not in tx2, tx2)
+    chequear("…y queda en oraciones ENTERAS del original", baj2.endswith(".") and "Un auto" in baj2
+             and "…" not in baj2, tx2)
+
+    # Sin Gemini (caído): oraciones enteras; si ni la primera entra, sin bajada.
+    resumen._roto = True
+    una = {"origen": "web", "tipo": "nota", "titulo": "T" * 60, "nota_url": "https://a.b/n/c",
+           "descripcion": "Palabra " * 60 + "final."}
+    tx3 = textos.texto_x(una)
+    chequear("sin oración que entre: título + link solos", tx3 == "T" * 60 + "\n\nhttps://a.b/n/c", tx3)
+    corta = dict(una, descripcion="Primera oración completa. " + "Segunda muy larga " * 30 + "fin.")
+    tx4 = textos.texto_x(corta)
+    chequear("Gemini caído: primera oración entera", tx4.split("\n\n")[1] == "Primera oración completa.", tx4)
+    resumen._roto = False
+
     w = {"origen": "web", "tipo": "nota", "titulo": "El Concejo aprobó el presupuesto",
          "descripcion": "Fue por mayoría.", "nota_url": "https://www.diariolacampaña.com.ar/n/p"}
-    tw = textos.texto_x(w)
-    chequear("nota web: 📰 + link, sin hashtag", tw.startswith("📰") and "/n/p" in tw and "#" not in tw, tw)
-    bt = textos.texto_x({"origen": "bot", "tipo": "video", "titulo": "Corte de luz en el centro",
-                         "descripcion": "Será el martes.", "video_url": "https://a/b.mp4"})
-    chequear("reel propio del bot: #Chivilcoy", "#Chivilcoy" in bt, bt)
-    wn = dict(w, categoria="nacionales", titulo="Milei viaja a Washington")
-    chequear("nota nacional sin #Chivilcoy", "#Chivilcoy" not in textos.texto_x(wn), textos.texto_x(wn))
+    chequear("nota web corta: tal cual", textos.texto_x(w) ==
+             "El Concejo aprobó el presupuesto\n\nFue por mayoría.\n\nhttps://www.diariolacampaña.com.ar/n/p",
+             textos.texto_x(w))
+    sin_punto = dict(w, descripcion="La sesión duró cuatro horas y hubo debate")
+    respuesta["txt"] = "La sesión duró cuatro horas y hubo debate."
+    chequear("bajada sin punto final (cortada en origen) → se completa",
+             textos.texto_x(sin_punto).split("\n\n")[1].endswith("."), textos.texto_x(sin_punto))
     en = {"origen": "entrevistas", "tipo": "video", "titulo": "Juan Pérez, director del hospital",
-          "descripcion": "Habló de la guardia.", "youtube_url": "https://youtu.be/abc"}
-    chequear("entrevista: link a YouTube", "https://youtu.be/abc" in textos.texto_x(en))
+          "descripcion": "Habló de la guardia.", "youtube_url": "https://youtu.be/abc",
+          "nota_url": "https://otra"}
+    chequear("entrevista: link a la entrevista completa", textos.texto_x(en).endswith("https://youtu.be/abc"))
+
+    respuesta["txt"] = "Un auto y una camioneta chocaron en el kilómetro 120 de la Ruta 7."
+    tt = textos.texto_tiktok(e)
+    bloques = tt.split("\n\n")
+    tags = [w for w in tt.split() if w.startswith("#")]
+    chequear("TikTok = título / bajada / link / hashtags", len(bloques) == 4 and bloques[0] == e["titulo"]
+             and bloques[2] == e["nota_url"] and bloques[3].startswith("#"), tt)
+    chequear("TikTok: bajada ≤ 450 y entera", len(bloques[1]) <= 450 and bloques[1].endswith("."), bloques[1])
+    chequear("TikTok máx. 5 hashtags, con los 3 fijos", len(tags) <= 5 and
+             all(h in tags for h in config.TIKTOK_HASHTAGS_FIJOS), tags)
+    chequear("TikTok ignora la descripción vieja con hashtags",
+             "Seguí leyendo" not in tt and "#ruta7" not in tt, tt)
     chequear("emoji pesa 2 en X", textos.largo_x("🎥") == 2)
     chequear("link pesa 23 en X", textos.largo_x("https://example.com/" + "a" * 80) == 23)
+    frase = "A las 21.40 llegó la S.A. de Juan. Después se fue."
+    chequear("«21.40» y «S.A.» no cortan oraciones", len(resumen.oraciones(frase)) == 2,
+             resumen.oraciones(frase))
+
+
+def prueba_migracion_textos():
+    print("textos viejos: se rehacen (cola) y se reprograman (Buffer)")
+    reloj(AR_10)
+    falso = preparar(lambda: [ev(i, "bot") for i in range(3)])
+    run.pasada()
+    est = estado.cargar()
+    # Simula lo de antes del 17/10: textos con «…» y sin versión.
+    for p in est["publicaciones"].values():
+        p["texto"] = "viejo cortado…"
+        p.pop("texto_v", None)
+    limite = estado.ahora() + timedelta(minutes=10)     # las que salen ya, no se tocan
+    programadas = [p for p in est["publicaciones"].values() if p["estado"] == "programado"
+                   and estado.de_iso(p["dueAt"]) > limite]
+    cerca = {p["clave"] for p in est["publicaciones"].values() if p["estado"] == "programado"
+             and estado.de_iso(p["dueAt"]) <= limite}
+    estado.guardar(est)
+    n_antes = len(falso.posts)
+    run.pasada()
+    est = estado.cargar()
+    chequear("ningún texto viejo queda programado o en cola",
+             all("…" not in p["texto"] for p in est["publicaciones"].values()
+                 if p["estado"] in ("pendiente", "programado") and p["clave"] not in cerca),
+             [p["texto"] for p in est["publicaciones"].values()][:3])
+    chequear("se borraron de Buffer las programadas viejas",
+             all(p["buffer_id"] not in falso.posts for p in programadas), list(falso.posts))
+    chequear("y se volvieron a programar con texto nuevo", len(falso.posts) == n_antes,
+             [x["text"] for x in falso.posts.values()])
 
 
 def prueba_idempotencia_y_cupos():
@@ -355,7 +425,7 @@ def prueba_franja():
 
 
 if __name__ == "__main__":
-    for f in (prueba_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
+    for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
               prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja):
         f()

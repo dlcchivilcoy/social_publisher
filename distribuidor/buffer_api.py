@@ -151,6 +151,10 @@ def _entrada(pub: dict) -> dict:
         entrada["assets"] = [{"image": {"url": pub["imagen_url"]}}]
     if plataforma == "tiktok":
         entrada["metadata"] = {"tiktok": {"isAiGenerated": False}}
+    if pub.get("ahora"):
+        # Publicar en el momento (pruebas aprobadas a mano).
+        entrada["mode"] = "shareNow"
+        entrada.pop("dueAt", None)
     if pub.get("borrador"):
         # Para revisar en Buffer antes de publicar (pruebas): queda en Borradores.
         entrada.update(mode="addToQueue", saveToDraft=True)
@@ -169,15 +173,17 @@ def crear_lote(pubs: list, borrar: list | None = None) -> dict:
     if len(pubs) > LOTE_MAX:
         raise ValueError(f"máximo {LOTE_MAX} publicaciones por solicitud")
     partes, variables, decl = [], {}, []
-    for n, pub in enumerate(pubs):
-        decl.append(f"$i{n}: CreatePostInput!")
-        variables[f"i{n}"] = _entrada(pub)
-        partes.append(f"c{n}: createPost(input: $i{n}) {_SEL}")
+    # Los borrados VAN PRIMERO: las mutaciones corren en orden, y así el lugar que liberan
+    # (10 programadas por canal en el plan Free) ya está libre para las altas que siguen.
     for n, pid in enumerate(borrar or []):
         decl.append(f"$b{n}: PostId!")
         variables[f"b{n}"] = pid
         partes.append(f"b{n}: deletePost(input: {{id: $b{n}}}) "
                       "{ __typename ... on MutationError{ message } }")
+    for n, pub in enumerate(pubs):
+        decl.append(f"$i{n}: CreatePostInput!")
+        variables[f"i{n}"] = _entrada(pub)
+        partes.append(f"c{n}: createPost(input: $i{n}) {_SEL}")
     q = f"mutation({', '.join(decl)}) {{ {' '.join(partes)} }}"
     d = gql(q, variables, intentos=1)   # una mutación NO se reintenta a ciegas (duplicaría)
     out = {}

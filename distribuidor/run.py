@@ -145,9 +145,55 @@ def encolar(est: dict, eventos: list) -> dict:
                 pub.update(estado="descartado", error=motivo)
             else:
                 pub["texto"] = textos.texto_x(ev) if red == "x" else textos.texto_tiktok(ev)
+                pub["texto_v"] = textos.VERSION
             est["publicaciones"][k] = pub
             estado.anotar(est, "recibido", clave=k, origen=ev["origen"],
                           estado=pub["estado"], motivo=pub["error"])
+    return cuenta
+
+
+# ----------------------------------------------------------------------------- 1b. textos
+def migrar_textos(est: dict, simular: bool = False) -> dict:
+    """Rehace con el formato vigente (textos.VERSION) lo que todavía no salió.
+
+    - En la cola propia: se reescribe el texto y listo.
+    - Ya programado en Buffer (y falta más de 10 min): se BORRA de Buffer (una solicitud para
+      todos) y vuelve a la cola con el texto nuevo; solo lo que Buffer confirmó que borró.
+    """
+    ahora = estado.ahora()
+    cuenta = {"cola": 0, "buffer": 0}
+    borrar = []
+    for p in est["publicaciones"].values():
+        if p.get("texto_v") == textos.VERSION or p["estado"] not in ("pendiente", "programado"):
+            continue
+        ev = est["contenidos"].get(p["id"])
+        if not ev:
+            continue
+        nuevo = textos.texto_x(ev) if p["plataforma"] == "x" else textos.texto_tiktok(ev)
+        if p["estado"] == "pendiente":
+            p.update(texto=nuevo, texto_v=textos.VERSION)
+            cuenta["cola"] += 1
+        elif p.get("buffer_id") and (estado.de_iso(p.get("dueAt")) or ahora) > ahora + timedelta(minutes=10):
+            p["_texto_nuevo"] = nuevo
+            borrar.append(p)
+    if borrar and not simular and config.activo():
+        try:
+            res = buffer_api.crear_lote([], [p["buffer_id"] for p in borrar])
+        except buffer_api.BufferError as e:
+            logger.warning(f"no pude rehacer los programados con texto viejo: {e}")
+            res = {"_borrados": []}
+        for p in borrar:
+            nuevo = p.pop("_texto_nuevo")
+            if p["buffer_id"] in res.get("_borrados", []):
+                p.update(estado="pendiente", buffer_id="", dueAt="", texto=nuevo,
+                         texto_v=textos.VERSION, espera="texto rehecho (formato nuevo)")
+                estado.anotar(est, "texto_rehecho", clave=p["clave"])
+                cuenta["buffer"] += 1
+    else:
+        for p in borrar:
+            p.pop("_texto_nuevo", None)
+    if cuenta["cola"] or cuenta["buffer"]:
+        logger.info(f"textos rehechos con el formato nuevo: {cuenta}")
     return cuenta
 
 
@@ -418,6 +464,7 @@ def pasada(simular: bool = False) -> int:
     est = estado.cargar()
     eventos = fuentes.todas()
     cuenta = encolar(est, eventos)
+    migrar_textos(est, simular)
     venc = vencer(est)
     logger.info(f"entrada: {cuenta} · vencidos: {venc}")
 

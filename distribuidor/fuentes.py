@@ -6,7 +6,8 @@
       "tipo":        "video" | "nota"
       "generado":    ISO 8601
       "titulo", "descripcion"
-      "texto_x", "texto_tiktok"   (opcionales: si vienen, se usan tal cual)
+      "texto_x", "texto_tiktok"   (ya NO se usan desde el 17/10/2026: el texto es siempre
+                                   título + bajada + link, armado en textos.py)
       "video_url":   URL pública HTTPS del MP4 (videos)
       "video_path":  ruta local en la máquina que lo generó (solo informativa)
       "duracion_seg", "ancho", "alto"  (opcionales, para validar)

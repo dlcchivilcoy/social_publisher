@@ -1,19 +1,21 @@
 """Textos para X y TikTok a partir de lo que YA generó cada sistema.
 
-Regla de oro: no se inventa nada. Solo se recorta, se reordena y se sacan cosas que en
-cada red no sirven (links no clicables en TikTok, hashtags de más, la invitación a «seguir
-leyendo» con el dominio pelado). Si el texto original no alcanza, sale más corto.
+Formato (pedido del 17/10/2026): SOLO título + bajada + link (TikTok suma sus hashtags).
+La bajada va SIEMPRE en oraciones completas: si no entra entera se resume con datos del
+propio texto (resumen.py). Nunca una oración cortada con «…». No se inventa nada.
 """
 from __future__ import annotations
 
 import re
 import unicodedata
 
-from . import config
+from . import config, resumen
 
 X_MAX = 280
 X_URL = 23                 # X cuenta todo link como 23
 TIKTOK_MAX = 2200
+TIKTOK_BAJADA_MAX = 450     # la bajada en TikTok: corta y entera
+VERSION = 2                # textos: 2 = título + bajada completa + link (17/10/2026)
 
 _URL = re.compile(r"https?://\S+|www\.\S+", re.I)
 _HASHTAG = re.compile(r"(?<!\w)#[\wÁÉÍÓÚÜÑáéíóúüñ]+")
@@ -59,29 +61,6 @@ def limpiar(texto: str, sin_links: bool = True, sin_hashtags: bool = True) -> st
     return re.sub(r"\n{3,}", "\n\n", out).strip()
 
 
-def _cortar(texto: str, maximo: int, medir=len) -> str:
-    """Corta en el último fin de oración que entre; si no, en palabra + «…»."""
-    texto = texto.strip()
-    if medir(texto) <= maximo:
-        return texto
-    corte = ""
-    for m in re.finditer(r"[.!?…](?=\s|$)", texto):
-        cand = texto[:m.end()]
-        if medir(cand) <= maximo:
-            corte = cand
-        else:
-            break
-    if corte and medir(corte) >= maximo * 0.45:
-        return corte.strip()
-    palabras, out = texto.split(), ""
-    for p in palabras:
-        cand = (out + " " + p).strip()
-        if medir(cand + "…") > maximo:
-            break
-        out = cand
-    return (out.rstrip(",;:") + "…") if out else ""
-
-
 def _hashtag(palabra: str) -> str:
     """«San Andrés de Giles» → «#SanAndrésDeGiles»."""
     limpio = re.sub(r"[^\wÁÉÍÓÚÜÑáéíóúüñ ]", " ", palabra or "")
@@ -107,51 +86,22 @@ def _cuerpo(ev: dict) -> str:
     return d
 
 
-def link_de(ev: dict) -> tuple[str, str]:
-    """(etiqueta, url) del link que acompaña en X, o ("", "")."""
+def link_de(ev: dict) -> str:
+    """El link que acompaña: la entrevista completa (recortes) o la nota de la web."""
     if ev.get("origen") == "entrevistas" and ev.get("youtube_url"):
-        return "▶️ La entrevista completa:", ev["youtube_url"]
-    if ev.get("nota_url"):
-        return ("📲 Nota completa:" if ev.get("tipo") == "video" else ""), ev["nota_url"]
-    if ev.get("youtube_url"):
-        return "▶️ Video completo:", ev["youtube_url"]
-    return "", ""
+        return ev["youtube_url"]
+    return ev.get("nota_url") or ev.get("youtube_url") or ""
 
 
 def texto_x(ev: dict) -> str:
-    """Texto para X: título, lo que entre de la bajada, el link y (si suma) un hashtag."""
-    if ev.get("texto_x"):
-        return _cortar(ev["texto_x"], X_MAX, largo_x)
+    """X: SOLO título + bajada + link (pedido del 17/10/2026). La bajada va en oraciones
+    completas: si no entra entera, se resume (ver resumen.py). Nunca una oración cortada."""
     titulo = _titulo(ev)
-    cuerpo = _cuerpo(ev)
-    etiqueta, url = link_de(ev)
-    pie = (f"{etiqueta} {url}".strip()) if url else ""
-    prefijo = "📰 " if ev.get("tipo") == "nota" else ("🎥 " if ev.get("relacionado_nota") else "")
-
-    tag = ""
-    # Notas web: sin hashtag. La sección no dice de qué localidad es (hay notas de Suipacha o
-    # nacionales) y un #Chivilcoy equivocado es engañoso. Las producciones propias sí lo llevan.
-    if ev.get("origen") == "web" or ev.get("categoria") == "nacionales":
-        tag = ""
-    elif ev.get("origen") in ("bot", "entrevistas") and "chivilcoy" not in (
-            _sin_tildes(titulo + " " + cuerpo).lower()):
-        tag = "#Chivilcoy"
-    elif ev.get("origen") == "policiales" and ev.get("localidad"):
-        loc = ev["localidad"]
-        if _sin_tildes(loc).lower() not in _sin_tildes(titulo).lower():
-            tag = _hashtag(loc)
-
-    cabeza = _cortar(prefijo + titulo, X_MAX - (largo_x(pie) + 2 if pie else 0), largo_x)
-    fijo = cabeza + (("\n\n" + pie) if pie else "")
+    url = link_de(ev)
+    fijo = titulo + (("\n\n" + url) if url else "")
     lugar = X_MAX - largo_x(fijo) - 2
-    # Lugar para el hashtag, salvo que deje la bajada demasiado corta (la bajada informa más).
-    if tag and lugar - (largo_x(tag) + 1) >= 80:
-        lugar -= largo_x(tag) + 1
-    bajada = _cortar(cuerpo.replace("\n", " "), lugar, largo_x) if (cuerpo and lugar > 40) else ""
-    texto = cabeza + (("\n\n" + bajada) if bajada else "") + (("\n\n" + pie) if pie else "")
-    if tag and largo_x(texto + "\n" + tag) <= X_MAX:
-        texto += "\n" + tag
-    return texto.strip()
+    baj = resumen.bajada(_cuerpo(ev), lugar, largo_x, titulo)
+    return (titulo + (("\n\n" + baj) if baj else "") + (("\n\n" + url) if url else "")).strip()
 
 
 def hashtags_tiktok(ev: dict) -> list[str]:
@@ -169,16 +119,10 @@ def hashtags_tiktok(ev: dict) -> list[str]:
 
 
 def texto_tiktok(ev: dict) -> str:
-    """Descripción para TikTok: título + bajada, sin links (no se tocan), y 5 hashtags máx."""
+    """TikTok: título + bajada (oraciones completas, resumida si es larga) + link + hashtags."""
+    titulo = _titulo(ev)
+    url = link_de(ev)
+    baj = resumen.bajada(_cuerpo(ev), TIKTOK_BAJADA_MAX, len, titulo)
     tags = " ".join(hashtags_tiktok(ev))
-    if ev.get("texto_tiktok"):
-        base = limpiar(ev["texto_tiktok"])
-    else:
-        titulo, cuerpo = _titulo(ev), _cuerpo(ev)
-        base = titulo + (("\n\n" + cuerpo) if cuerpo else "")
-    if ev.get("origen") in ("bot", "policiales", "web") and ev.get("nota_url"):
-        base += f"\n\n📲 La nota completa, en {config.SITIO}"
-    elif ev.get("origen") == "entrevistas":
-        base += "\n\n▶️ La entrevista completa, en YouTube: Radio del Centro"
-    base = _cortar(base, TIKTOK_MAX - len(tags) - 2)
-    return f"{base}\n\n{tags}".strip()
+    partes = [titulo, baj, url, tags]
+    return "\n\n".join(p for p in partes if p).strip()
