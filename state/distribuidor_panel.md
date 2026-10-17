@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 17/10/2026 15:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 3 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 6 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 0 | 7 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 0 programadas de 50 por día
@@ -24,6 +24,7 @@ Actualizado: 17/10/2026 15:20 (hora AR) · ACTIVO
 - X · Reels del bot · Servicios Públicos repone contenedores y avanza con mejoras en plazas — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Chivilcoy · Servicios Públicos — tope de 47 publicaciones en 24 h de X
+- X · Notas web · Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Co — tope de 47 publicaciones en 24 h de X
 - X · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar  — tope de 47 publicaciones en 24 h de X
 - X · Notas web · El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados — tope de 47 publicaciones en 24 h de X
@@ -38,7 +39,6 @@ Actualizado: 17/10/2026 15:20 (hora AR) · ACTIVO
 - X · Notas web · Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución d — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2, — tope de 47 publicaciones en 24 h de X
-- X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — tope de 47 publicaciones en 24 h de X
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -49,8 +49,6 @@ Actualizado: 17/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T16:01 texto_rehecho web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
-- 2026-10-17T16:01 vencido web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x tope de 47 publicaciones en 24 h de X
 - 2026-10-17T16:01 vencido web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x tope de 47 publicaciones en 24 h de X
 - 2026-10-17T16:01 programado web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
 - 2026-10-17T16:01 programado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
@@ -74,3 +72,5 @@ Actualizado: 17/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-17T18:00 enviado bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tikto 
 - 2026-10-17T18:20 recibido web:38a2facb-610c-48c3-ba78-33049770dfcf|x 
 - 2026-10-17T18:20 vencido web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x tope de 47 publicaciones en 24 h de X
+- 2026-10-17T18:40 recibido web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x 
+- 2026-10-17T18:40 vencido web:ef08f847-d9e6-4534-8776-17ff73df6820|x tope de 47 publicaciones en 24 h de X

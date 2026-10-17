@@ -6361,6 +6361,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/destacada-actuacion-uriel-scalise-obtuvo-el-subcampeonato-en-el",
    "volanta": "Destacada actuación"
   },
+  "web:c8fffffc-9fd5-4775-9a97-2aa26888b072": {
+   "categoria": "nacionales",
+   "descripcion": "Christopher Landau y Juan Pablo Segura viajarán la semana próxima al país para avanzar en la iniciativa conjunta de infraestructura e inversiones…",
+   "generado": "2026-10-17T18:36:07.463Z",
+   "id": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5587688c22654e13bd9a93ad3c4e1d94~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Corredor Andes-Atlántico",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
+   "volanta": ""
+  },
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": {
    "categoria": "nacionales",
    "descripcion": "El empresario Ariel Rey cuestionó la absolución del dirigente Maximiliano Cabaleyro por el bloqueo a Rey Distribución. El juez consideró que la protesta…",
@@ -18549,6 +18567,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x": {
+   "actualizado": "2026-10-17T18:40:12.000Z",
+   "buffer_id": "",
+   "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
+   "creado": "2026-10-17T18:40:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T18:36:07.463Z",
+   "id": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Corredor Andes-Atlántico\n\nChristopher Landau y Juan Pablo Segura viajarán al país para avanzar en la iniciativa de infraestructura e inversiones.\n\nhttps://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Corredor Andes-Atlántico",
+   "urgente": false,
+   "vence": "2026-10-18T18:36:07.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x": {
    "actualizado": "2026-10-16T21:20:13.000Z",
    "buffer_id": "",
@@ -19563,14 +19607,14 @@
    "video_url": ""
   },
   "web:ef08f847-d9e6-4534-8776-17ff73df6820|x": {
-   "actualizado": "2026-10-16T18:40:13.000Z",
+   "actualizado": "2026-10-17T18:40:14.000Z",
    "buffer_id": "",
    "clave": "web:ef08f847-d9e6-4534-8776-17ff73df6820|x",
    "creado": "2026-10-16T18:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T18:36:27.079Z",
    "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
    "intentos": 0,
@@ -19766,18 +19810,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:dae9d3f8-bd74-4de6-a065-60f894be222e|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x",
    "cuando": "2026-10-15T10:20:16.000Z",
@@ -23888,6 +23920,20 @@
    "cuando": "2026-10-17T18:20:20.000Z",
    "evento": "vencido",
    "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
+   "cuando": "2026-10-17T18:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:ef08f847-d9e6-4534-8776-17ff73df6820|x",
+   "cuando": "2026-10-17T18:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -24207,6 +24253,7 @@
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": "2026-10-14T10:20:15.000Z",
+  "web:c8fffffc-9fd5-4775-9a97-2aa26888b072": "2026-10-17T18:40:12.000Z",
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
