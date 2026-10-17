@@ -3895,6 +3895,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
    "volanta": "Chivilcoy · Seguridad"
   },
+  "web:2981a70b-4786-42f4-adb6-8b9121c1ed06": {
+   "categoria": "nacionales",
+   "descripcion": "El gobierno de la Ciudad Autónoma de Buenos Aires prorrogó hasta el 1 de diciembre la operación de las siete plantas de verificación técnica vehicular…",
+   "generado": "2026-10-17T12:36:26.146Z",
+   "id": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_011f69c1efbf4ebb89d5ea9ed4a250c0~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/vtv-en-la-ciudad-extienden-las-concesiones-actuales-por-dos-ec77bc",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "VTV en la Ciudad: extienden las concesiones actuales por dos meses debido a demoras",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vtv-en-la-ciudad-extienden-las-concesiones-actuales-por-dos-ec77bc",
+   "volanta": ""
+  },
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": {
    "categoria": "",
    "descripcion": "Operativos de saturación y controles preventivos en distintos puntos de Chivilcoy durante el fin de semana",
@@ -14722,6 +14740,30 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x": {
+   "actualizado": "2026-10-17T12:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x",
+   "creado": "2026-10-17T12:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-17T12:36:26.146Z",
+   "id": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/vtv-en-la-ciudad-extienden-las-concesiones-actuales-por-dos-ec77bc",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 VTV en la Ciudad: extienden las concesiones actuales por dos meses debido a demoras\n\nEl gobierno de la Ciudad Autónoma de Buenos Aires prorrogó hasta el 1 de diciembre la operación de las siete plantas de verificación técnica vehicular…\n\nhttps://www.diariolacampaña.com.ar/n/vtv-en-la-ciudad-extienden-las-concesiones-actuales-por-dos-ec77bc",
+   "tipo": "nota",
+   "titulo": "VTV en la Ciudad: extienden las concesiones actuales por dos meses debido a demoras",
+   "urgente": false,
+   "vence": "2026-10-18T12:36:26.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
    "buffer_id": "",
@@ -18284,14 +18326,14 @@
    "video_url": ""
   },
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x": {
-   "actualizado": "2026-10-16T12:40:14.000Z",
+   "actualizado": "2026-10-17T12:40:15.000Z",
    "buffer_id": "",
    "clave": "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x",
    "creado": "2026-10-16T12:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T12:36:36.182Z",
    "id": "web:da812ee7-10e6-4f68-a954-bbcfc675078c",
    "intentos": 0,
@@ -19036,22 +19078,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
-   "cuando": "2026-10-15T00:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
-   "cuando": "2026-10-15T00:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
    "cuando": "2026-10-15T00:40:15.000Z",
@@ -23197,6 +23223,20 @@
    "cuando": "2026-10-17T12:20:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697600255495261448"
+  },
+  {
+   "clave": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x",
+   "cuando": "2026-10-17T12:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x",
+   "cuando": "2026-10-17T12:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -23379,6 +23419,7 @@
   "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2": "2026-10-15T10:20:13.000Z",
   "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": "2026-10-13T12:20:17.000Z",
   "web:28e067b4-ba01-429e-8c1a-11e30f5d6846": "2026-10-14T09:00:20.000Z",
+  "web:2981a70b-4786-42f4-adb6-8b9121c1ed06": "2026-10-17T12:40:14.000Z",
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": "2026-10-15T10:20:13.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9": "2026-10-15T02:00:18.000Z",
