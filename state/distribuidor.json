@@ -787,6 +787,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9b662011e549aef2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Dm8nnPyLtjs"
   },
+  "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4": {
+   "descripcion": "El tenista argentino Máximo Cataldi completó una destacada actuación y finalizó entre los cuatro mejores del certamen AO Junior Series South America.\n\nEn la instancia de semifinales, Cataldi cayó frente al brasileño Livas Damazio, máximo preclasificado y número uno del torneo, con un marcador de 6-3 y 6-3 en un cruce que se definió por un quiebre por set.\n\nTras el encuentro, el deportista y su equipo realizaron un balance positivo de la experiencia y valoraron el nivel exhibido en la cancha. Al mismo tiempo, remarcaron que continuarán trabajando en diferentes aspectos, como el manejo de las emociones y la serenidad en los momentos clave de los partidos.\n\nFinalmente, Cataldi expresó su agradecimiento a su familia, a su equipo de trabajo y a los auspiciantes que lo acompañan en su carrera, así como a todas las personas que siguieron su desempeño y le brindaron apoyo a la distancia.",
+   "duracion_seg": 109.8,
+   "generado": "2026-10-17T20:47:40.000Z",
+   "id": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
+   "urgente": false,
+   "video_bytes": 23506073,
+   "video_mb": 22.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/9AnQyFzWN4k"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -4091,6 +4112,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accesos-y-arterias-de-la-ciudad-operativos-de-saturacion-y-controles",
    "volanta": ""
   },
+  "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": {
+   "categoria": "",
+   "descripcion": "Máximo Cataldi finalizó entre los cuatro mejores del torneo El tenista Máximo Cataldi completó su participación en el certamen AO Junior Series South America tras alcanzar las semifinales, donde cayó frente al brasileño Livas Damazio, número uno del torneo, por 6-3 y 6-3. Luego del encuentro, el jugador y su equipo realizaron un balance positivo sobre la experiencia y el nivel exhibido en la cancha. Explicaron que el partido se definió por un quiebre por set y remarcaron que continuarán...",
+   "generado": "2026-10-17T20:46:45.417Z",
+   "id": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b75656d10b9645b0a05bede18d2e14a6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": {
    "categoria": "",
    "descripcion": "Acercarán a los barrios una mesa itinerante de prevención de la violencia La Municipalidad de Chivilcoy pondrá en marcha un nuevo proyecto institucional de prevención de la violencia, impulsado por la Dirección de Género y la Secretaría de Derechos Humanos, en articulación con distintas áreas municipales. La primera salida se realizará durante la próxima semana en la plaza principal, en el marco de la Expo Chivilcoy Ofrece. El secretario de Derechos Humanos, Arturo Pertosa, y la directora de...",
@@ -7321,17 +7360,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 214,
-   "segundos": 7201,
+   "restantes": 213,
+   "segundos": 3598,
    "tope": 250
   },
   "30d": {
-   "restantes": 2757,
-   "segundos": 2077822,
+   "restantes": 2756,
+   "segundos": 2074219,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T20:00:19.000Z",
+ "cuota_visto": "2026-10-17T21:00:24.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -9208,6 +9247,58 @@
    "video_bytes": 23879141,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9b662011e549aef2.mp4"
   },
+  "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok": {
+   "actualizado": "2026-10-17T21:00:21.000Z",
+   "buffer_id": "6ad3e1e70b0d72757af3dc05",
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok",
+   "creado": "2026-10-17T21:00:16.000Z",
+   "dueAt": "2026-10-17T21:03:42.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T20:47:40.000Z",
+   "id": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Máximo Cataldi finalizó entre los cuatro mejores del torneo\n\nEl tenista argentino cayó en semifinales del AO Junior Series South America frente al brasileño Livas Damazio por 6-3 y 6-3. Tras el encuentro, el deportista y su equipo realizaron un balance positivo de la experiencia y valoraron el nivel exhibido en la cancha.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
+   "urgente": false,
+   "vence": "2026-10-19T20:47:40.000Z",
+   "video_bytes": 23506073,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4"
+  },
+  "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x": {
+   "actualizado": "2026-10-17T21:00:21.000Z",
+   "buffer_id": "6ad3e1e60a208cb3233931e4",
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
+   "creado": "2026-10-17T21:00:16.000Z",
+   "dueAt": "2026-10-17T23:33:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T20:47:40.000Z",
+   "id": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Máximo Cataldi finalizó entre los cuatro mejores del torneo\n\nEl tenista argentino cayó en semifinales del AO Junior Series South America ante Livas Damazio por 6-3 y 6-3. Tras el partido, junto a su equipo realizó un balance positivo de la experiencia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
+   "urgente": false,
+   "vence": "2026-10-19T20:47:40.000Z",
+   "video_bytes": 23506073,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4"
+  },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd12237eb16fd28e94048f",
@@ -11072,14 +11163,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
   },
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok": {
-   "actualizado": "2026-10-17T19:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T21:00:21.000Z",
+   "buffer_id": "6ad3e1e7e272c4918f9fa1cd",
    "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
    "creado": "2026-10-17T19:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T21:43:01.000Z",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
    "intentos": 0,
@@ -15476,6 +15567,32 @@
    "titulo": "Accesos y arterias de la ciudad",
    "urgente": false,
    "vence": "2026-10-16T10:04:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x": {
+   "actualizado": "2026-10-17T21:00:16.000Z",
+   "buffer_id": "",
+   "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
+   "creado": "2026-10-17T21:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T20:46:45.417Z",
+   "id": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Máximo Cataldi finalizó entre los cuatro mejores del torneo\n\nEl tenista cayó en semifinales del certamen ante Livas Damazio por 6-3 y 6-3. Tras el partido, el jugador y su equipo realizaron un balance positivo sobre la experiencia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
+   "urgente": false,
+   "vence": "2026-10-18T20:46:45.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -20017,44 +20134,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|x",
-   "cuando": "2026-10-15T12:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "fuera del horizonte de programación (espera en la cola)"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|tiktok",
-   "cuando": "2026-10-15T12:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|tiktok",
-   "cuando": "2026-10-15T12:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x",
-   "cuando": "2026-10-15T12:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e|x",
-   "cuando": "2026-10-15T12:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
-   "cuando": "2026-10-15T12:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696858995780308276"
-  },
-  {
    "clave": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x",
    "cuando": "2026-10-15T12:40:16.000Z",
    "estado": "pendiente",
@@ -24148,6 +24227,51 @@
    "cuando": "2026-10-17T20:00:19.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697719605791395093"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
+   "cuando": "2026-10-17T21:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok",
+   "cuando": "2026-10-17T21:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
+   "cuando": "2026-10-17T21:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad3e1e60a208cb3233931e4",
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
+   "cuando": "2026-10-17T21:00:24.000Z",
+   "dueAt": "2026-10-17T23:33:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3e1e70b0d72757af3dc05",
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok",
+   "cuando": "2026-10-17T21:00:24.000Z",
+   "dueAt": "2026-10-17T21:03:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3e1e7e272c4918f9fa1cd",
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
+   "cuando": "2026-10-17T21:00:24.000Z",
+   "dueAt": "2026-10-17T21:43:01.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -24190,6 +24314,7 @@
   "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4": "2026-10-17T00:20:12.000Z",
   "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4": "2026-10-17T00:20:12.000Z",
   "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4": "2026-10-17T02:20:17.000Z",
+  "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4": "2026-10-17T21:00:16.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -24339,6 +24464,7 @@
   "web:28e067b4-ba01-429e-8c1a-11e30f5d6846": "2026-10-14T09:00:20.000Z",
   "web:2981a70b-4786-42f4-adb6-8b9121c1ed06": "2026-10-17T12:40:14.000Z",
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": "2026-10-15T10:20:13.000Z",
+  "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": "2026-10-17T21:00:16.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9": "2026-10-15T02:00:18.000Z",
   "web:2de9a502-e952-44a4-8525-478c9d70047a": "2026-10-15T10:20:13.000Z",

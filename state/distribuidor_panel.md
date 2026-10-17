@@ -1,26 +1,26 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 4 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 5 | 3 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 6 | 0 | 3 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 3 | 5 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 6 | 1 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 3 | 6 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 24 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2757 de 3000 (visto 2026-10-17T20:00:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 213 de 250 · 30d: quedan 2756 de 3000 (visto 2026-10-17T21:00:24.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
+- X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
 - X · Notas web · Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados — cupo diario de Notas web en X completo (15)
 - X · Notas web · Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar  — cupo diario de Notas web en X completo (15)
@@ -42,12 +42,6 @@ Actualizado: 17/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T18:40 recibido web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x 
-- 2026-10-17T18:40 vencido web:ef08f847-d9e6-4534-8776-17ff73df6820|x tope de 47 publicaciones en 24 h de X
-- 2026-10-17T19:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
-- 2026-10-17T19:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
-- 2026-10-17T19:00 recibido policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
-- 2026-10-17T19:00 recibido policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
 - 2026-10-17T19:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
 - 2026-10-17T19:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
 - 2026-10-17T19:00 programado bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x 
@@ -67,3 +61,9 @@ Actualizado: 17/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-17T20:00 enviado bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x 
 - 2026-10-17T20:00 enviado policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
 - 2026-10-17T20:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
+- 2026-10-17T21:00 recibido bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x 
+- 2026-10-17T21:00 recibido bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok 
+- 2026-10-17T21:00 recibido web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x 
+- 2026-10-17T21:00 programado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x 
+- 2026-10-17T21:00 programado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok 
+- 2026-10-17T21:00 programado policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
