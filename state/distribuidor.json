@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 11
+    "scheduled": 1,
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-16T23:00:20.000Z"
+   "visto": "2026-10-17T00:20:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
-    "sent": 34
+    "scheduled": 0,
+    "sent": 40
    },
    "pausado": false,
-   "visto": "2026-10-16T23:00:20.000Z"
+   "visto": "2026-10-17T00:20:13.000Z"
   }
  },
  "contenidos": {
@@ -677,6 +677,48 @@
    "video_mb": 3.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4",
    "youtube_url": "https://www.youtube.com/shorts/K6tV4Ctqclo"
+  },
+  "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4": {
+   "descripcion": "El periodista Gustavo Sylvestre visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda. Legado político y social del Papa Francisco”, tras una convocatoria realizada por el espacio Apertura Peronista.\n\nDurante la jornada, el conductor de Radio 10 y C5N combinó la reflexión sobre el legado del Sumo Pontífice con el análisis del escenario político y compartió su visión sobre la historia reciente de nuestro país.\n\nEn ese marco, Sylvestre sostuvo que el último gran momento de la política argentina se vivió a comienzos de la década del 2000, etapa que definió como un período de alta política en el ámbito nacional.\n\nAsimismo, el periodista repasó figuras y construcciones de aquellos años, recordando a dirigentes como Raúl Alfonsín, Carlos Álvarez, Néstor Kirchner, Cristina Fernández, Elisa Carrió, Graciela Fernández Meijide, Eugenio Zaffaroni y el obispo Hesayne, sumando además distintas anécdotas de su labor en el programa A dos voces.",
+   "duracion_seg": 95.1,
+   "generado": "2026-10-17T00:03:57.000Z",
+   "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 11785306,
+   "video_mb": 11.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b747335cc73d9a04.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ZfEDpsykOas"
+  },
+  "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4": {
+   "descripcion": "El referente de Fuerza Chivilcoyana, José Ferro, reconoció públicamente que su espacio político cometió una equivocación al respaldar el convenio con la empresa SENTRA, el cual había recibido el voto afirmativo de la concejal Rosario Galland.\n\nSegún explicó el dirigente, al momento de la votación en el ámbito legislativo desconocían las presuntas irregularidades fiscales que presentaba la firma vinculada al Complejo Federación.\n\nEn ese sentido, Ferro señaló que tras una revisión posterior realizada junto a sus equipos técnicos constataron que las condiciones tributarias y la documentación de la empresa no se encontraban en regla para rubricar un acuerdo de esas características.\n\nA raíz de esto, planteó una autocrítica sobre la postura adoptada inicialmente y sostuvo que no defenderán una decisión errónea solo por haber sido propia. Asimismo, si bien indicó que la empresa mantiene convenios vigentes hace tiempo con la Municipalidad de Chivilcoy, remarcó que cualquier firma debe cumplir con los requisitos legales correspondientes.",
+   "duracion_seg": 68.3,
+   "generado": "2026-10-17T00:12:27.000Z",
+   "id": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
+   "urgente": false,
+   "video_bytes": 10428751,
+   "video_mb": 9.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_17e7a2be1d7ae912.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/UpUIXsC_Z2Y"
   },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
@@ -3214,6 +3256,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
    "volanta": ""
   },
+  "web:074bc093-e566-4d4d-8d42-0dcd34171beb": {
+   "categoria": "",
+   "descripcion": "Gustavo Sylvestre presentó su libro en Chivilcoy El periodista de Radio 10 y C5N, Gustavo Sylvestre, visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda. Legado político y social del Papa Francisco”, en una actividad a la que fue convocado por el espacio Apertura Peronista. Durante el encuentro, que reunió la reflexión sobre el legado del Sumo Pontífice con el análisis del escenario político, Sylvestre compartió su mirada sobre la historia política nacional y sostuvo que...",
+   "generado": "2026-10-17T00:03:17.106Z",
+   "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f91ef67a1cc44f2f9aad4c3661d5c0d4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "volanta": "Chivilcoy · Cultura"
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": {
    "categoria": "",
    "descripcion": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive La ciudad transita jornadas de ambiente fresco y húmedo. Aunque durante los últimos días las tardes se presentaron agradables pero sin lluvias en la región, el escenario meteorológico sufrirá modificaciones a partir de las próximas horas. De acuerdo con el informe brindado por el meteorólogo Marcelo Speranza en El Tiempo en Chivilcoy,...",
@@ -4041,6 +4101,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-ofrece-mas-de-20-instituciones-acercaron-oportunidades-de",
    "volanta": "“Chivilcoy Ofrece”"
+  },
+  "web:480e86f5-f14e-481b-844f-2ac1f1192f77": {
+   "categoria": "",
+   "descripcion": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA El referente de Fuerza Chivilcoyana, José Ferro, reconoció que su espacio político cometió una equivocación al respaldar el convenio con la empresa SENTRA a través del voto afirmativo de la concejal Rosario Galland. Al respecto, Ferro explicó que al momento de la votación desconocían las presuntas irregularidades fiscales de la firma. En ese sentido, señaló que tras analizar la situación con los equipos técnicos constataron...",
+   "generado": "2026-10-17T00:11:40.984Z",
+   "id": "web:480e86f5-f14e-481b-844f-2ac1f1192f77",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dd079b3cdb9b421392670d9aaf388548~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "volanta": "Chivilcoy · Politica"
   },
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": {
    "categoria": "",
@@ -6660,17 +6738,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 79200,
+   "restantes": 244,
+   "segundos": 78006,
    "tope": 250
   },
   "30d": {
-   "restantes": 2788,
-   "segundos": 2149821,
+   "restantes": 2787,
+   "segundos": 2148627,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T00:00:20.000Z",
+ "cuota_visto": "2026-10-17T00:20:13.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8073,18 +8151,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok": {
-   "actualizado": "2026-10-17T00:00:18.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad2ba948ac6cfe54421119d",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
    "creado": "2026-10-16T23:20:14.000Z",
    "dueAt": "2026-10-17T00:03:58.000Z",
+   "enviado": "2026-10-17T00:04:43.732Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T23:18:11.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697420795781369108",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -8277,6 +8356,106 @@
    "vence": "2026-10-18T15:22:43.000Z",
    "video_bytes": 3113886,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
+  },
+  "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok": {
+   "actualizado": "2026-10-17T00:20:12.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
+   "creado": "2026-10-17T00:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T00:03:57.000Z",
+   "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gustavo Sylvestre presentó su libro en Chivilcoy\n\nEl periodista Gustavo Sylvestre visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda. Legado político y social del Papa Francisco”, tras una convocatoria realizada por el espacio Apertura Peronista.\n\nDurante la jornada, el conductor de Radio 10 y C5N combinó la reflexión sobre el legado del Sumo Pontífice con el análisis del escenario político y compartió su visión sobre la historia reciente de nuestro país.\n\nEn ese marco, Sylvestre sostuvo que el último gran momento de la política argentina se vivió a comienzos de la década del 2000, etapa que definió como un período de alta política en el ámbito nacional.\n\nAsimismo, el periodista repasó figuras y construcciones de aquellos años, recordando a dirigentes como Raúl Alfonsín, Carlos Álvarez, Néstor Kirchner, Cristina Fernández, Elisa Carrió, Graciela Fernández Meijide, Eugenio Zaffaroni y el obispo Hesayne, sumando además distintas anécdotas de su labor en el programa A dos voces.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-19T00:03:57.000Z",
+   "video_bytes": 11785306,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b747335cc73d9a04.mp4"
+  },
+  "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x": {
+   "actualizado": "2026-10-17T00:20:12.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
+   "creado": "2026-10-17T00:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Reels del bot en X completo (10)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T00:03:57.000Z",
+   "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gustavo Sylvestre presentó su libro en Chivilcoy\n\nEl periodista Gustavo Sylvestre visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "tipo": "video",
+   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-19T00:03:57.000Z",
+   "video_bytes": 11785306,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b747335cc73d9a04.mp4"
+  },
+  "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok": {
+   "actualizado": "2026-10-17T00:20:12.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok",
+   "creado": "2026-10-17T00:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T00:12:27.000Z",
+   "id": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA\n\nEl referente de Fuerza Chivilcoyana, José Ferro, reconoció públicamente que su espacio político cometió una equivocación al respaldar el convenio con la empresa SENTRA, el cual había recibido el voto afirmativo de la concejal Rosario Galland.\n\nSegún explicó el dirigente, al momento de la votación en el ámbito legislativo desconocían las presuntas irregularidades fiscales que presentaba la firma vinculada al Complejo Federación.\n\nEn ese sentido, Ferro señaló que tras una revisión posterior realizada junto a sus equipos técnicos constataron que las condiciones tributarias y la documentación de la empresa no se encontraban en regla para rubricar un acuerdo de esas características.\n\nA raíz de esto, planteó una autocrítica sobre la postura adoptada inicialmente y sostuvo que no defenderán una decisión errónea solo por haber sido propia. Asimismo, si bien indicó que la empresa mantiene convenios vigentes hace tiempo con la Municipalidad de Chivilcoy, remarcó que cualquier firma debe cumplir con los requisitos legales correspondientes.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "tipo": "video",
+   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
+   "urgente": false,
+   "vence": "2026-10-19T00:12:27.000Z",
+   "video_bytes": 10428751,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_17e7a2be1d7ae912.mp4"
+  },
+  "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x": {
+   "actualizado": "2026-10-17T00:20:12.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
+   "creado": "2026-10-17T00:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Reels del bot en X completo (10)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T00:12:27.000Z",
+   "id": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA\n\nEl referente de Fuerza Chivilcoyana, José Ferro, reconoció públicamente que su espacio político cometió una equivocación al respaldar el convenio con la empresa…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "tipo": "video",
+   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
+   "urgente": false,
+   "vence": "2026-10-19T00:12:27.000Z",
+   "video_bytes": 10428751,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_17e7a2be1d7ae912.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -8720,18 +8899,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00216.mp4"
   },
   "entrevistas:job00217|x": {
-   "actualizado": "2026-10-16T21:20:15.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad295101694d771d508b639",
    "clave": "entrevistas:job00217|x",
    "creado": "2026-10-16T17:00:18.000Z",
    "dueAt": "2026-10-16T23:00:31.000Z",
+   "enviado": "2026-10-16T23:02:10.952Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T17:00:18.000Z",
    "id": "entrevistas:job00217",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111231254905409632",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -9357,18 +9537,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
   },
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x": {
-   "actualizado": "2026-10-16T22:20:13.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad2a31e1c7e49ea4c27e954",
    "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "2026-10-17T00:00:07.000Z",
+   "enviado": "2026-10-17T00:01:41.163Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T15:41:32.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111246229849964690",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-ofrecen-una-millonaria-recompensa-para-esclarecer-e2b182",
    "origen": "policiales",
    "plataforma": "x",
@@ -9708,18 +9889,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x": {
-   "actualizado": "2026-10-16T21:20:15.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad2951152adf2bfae61948d",
    "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
    "creado": "2026-10-16T21:20:13.000Z",
    "dueAt": "2026-10-16T23:15:21.000Z",
+   "enviado": "2026-10-16T23:15:33.260Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T21:10:39.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111234620616224898",
    "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75",
    "origen": "policiales",
    "plataforma": "x",
@@ -10064,18 +10246,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4"
   },
   "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x": {
-   "actualizado": "2026-10-16T21:40:13.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad299be1694d771d509b90d",
    "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "2026-10-16T23:30:58.000Z",
+   "enviado": "2026-10-16T23:31:04.358Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T18:41:21.000Z",
    "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111238525790101908",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432",
    "origen": "policiales",
    "plataforma": "x",
@@ -10831,18 +11014,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x": {
-   "actualizado": "2026-10-16T22:20:13.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad2a31f1c7e49ea4c27e993",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
    "creado": "2026-10-16T13:00:18.000Z",
    "dueAt": "2026-10-17T00:15:53.000Z",
+   "enviado": "2026-10-17T00:16:04.063Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T12:42:00.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111249849249149148",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-dos-menores-aprehendidos-por-amenazar-a-una-mujer-con-2582f0",
    "origen": "policiales",
    "plataforma": "x",
@@ -11086,18 +11270,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x": {
-   "actualizado": "2026-10-16T22:00:19.000Z",
+   "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad29e751c7e49ea4c26ab74",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "2026-10-16T23:45:48.000Z",
+   "enviado": "2026-10-16T23:46:03.781Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T18:41:22.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111242298365219281",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
    "origen": "policiales",
    "plataforma": "x",
@@ -13254,6 +13439,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x": {
+   "actualizado": "2026-10-17T00:20:12.000Z",
+   "buffer_id": "",
+   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
+   "creado": "2026-10-17T00:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T00:03:17.106Z",
+   "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 Gustavo Sylvestre presentó su libro en Chivilcoy\n\nEl periodista de Radio 10 y C5N, Gustavo Sylvestre, visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
+   "tipo": "nota",
+   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-18T00:03:17.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -14412,6 +14622,31 @@
    "titulo": "Más de 20 instituciones acercaron oportunidades de estudio y formación laboral",
    "urgente": false,
    "vence": "2026-10-16T10:11:36.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x": {
+   "actualizado": "2026-10-17T00:20:12.000Z",
+   "buffer_id": "",
+   "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
+   "creado": "2026-10-17T00:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T00:11:40.984Z",
+   "id": "web:480e86f5-f14e-481b-844f-2ac1f1192f77",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 José Ferro admitió que su espacio se equivocó al respaldar a SENTRA\n\nEl referente de Fuerza Chivilcoyana, José Ferro, reconoció que su espacio político cometió una equivocación al respaldar el convenio con la empresa SENTRA a través del voto…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
+   "tipo": "nota",
+   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
+   "urgente": false,
+   "vence": "2026-10-18T00:11:40.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -18072,95 +18307,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|x",
-   "cuando": "2026-10-14T18:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|tiktok",
-   "cuando": "2026-10-14T18:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
-   "cuando": "2026-10-14T18:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
-   "cuando": "2026-10-14T18:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:efbef857-ab9c-4566-904e-f8f5926bed12|x",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:63610a74-1ceb-4c17-9d20-a5b404821855|x",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696575364109225237"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110431365900464340"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110434289259004356"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
-   "cuando": "2026-10-14T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696585853136637202"
-  },
-  {
-   "buffer_id": "6acfc7e09b63fb37e4588d7d",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
-   "cuando": "2026-10-14T18:20:16.000Z",
-   "dueAt": "2026-10-14T22:00:17.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6acfc7e09b63fb37e4588da8",
    "clave": "entrevistas:job00207|x",
@@ -22239,10 +22385,100 @@
    "cuando": "2026-10-17T00:00:20.000Z",
    "dueAt": "2026-10-17T00:43:07.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
+   "cuando": "2026-10-17T00:20:12.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
+   "cuando": "2026-10-17T00:20:12.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697420795781369108"
+  },
+  {
+   "clave": "entrevistas:job00217|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111231254905409632"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111246229849964690"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111234620616224898"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111238525790101908"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111249849249149148"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
+   "cuando": "2026-10-17T00:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111242298365219281"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-16T23:00:20.000Z",
+ "ultima_sync": "2026-10-17T00:20:13.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -22276,6 +22512,8 @@
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
+  "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4": "2026-10-17T00:20:12.000Z",
+  "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4": "2026-10-17T00:20:12.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -22386,6 +22624,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
+  "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
@@ -22433,6 +22672,7 @@
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": "2026-10-15T10:20:13.000Z",
+  "web:480e86f5-f14e-481b-844f-2ac1f1192f77": "2026-10-17T00:20:12.000Z",
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
