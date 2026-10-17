@@ -11,7 +11,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-17T15:40:15.000Z"
+   "visto": "2026-10-17T16:40:27.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 4,
-    "sent": 17
+    "scheduled": 0,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-17T15:40:15.000Z"
+   "visto": "2026-10-17T16:40:27.000Z"
   }
  },
  "contenidos": {
@@ -7132,22 +7132,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 21516,
+   "restantes": 220,
+   "segundos": 19192,
    "tope": 250
   },
   "30d": {
-   "restantes": 2764,
-   "segundos": 2092137,
+   "restantes": 2763,
+   "segundos": 2089813,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T16:01:44.000Z",
+ "cuota_visto": "2026-10-17T16:40:27.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -12194,18 +12194,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_07_chacabuco_detuvieron-a-tres-personas-y-s.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|x": {
-   "actualizado": "2026-10-17T16:01:43.000Z",
+   "actualizado": "2026-10-17T16:40:27.000Z",
    "buffer_id": "6ad39be80b0d72757ae4ebdf",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|x",
    "creado": "2026-10-17T16:00:19.000Z",
    "dueAt": "2026-10-17T16:30:47.000Z",
+   "enviado": "2026-10-17T16:31:04.660Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111495218495139979",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-tres-personas-secuestraron-autos-y-52ed95",
    "origen": "policiales",
    "plataforma": "x",
@@ -14318,18 +14319,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
   },
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x": {
-   "actualizado": "2026-10-17T14:00:17.000Z",
+   "actualizado": "2026-10-17T16:40:27.000Z",
    "buffer_id": "6ad37f720b0d72757adcb45f",
    "clave": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x",
    "creado": "2026-10-17T12:20:16.000Z",
    "dueAt": "2026-10-17T15:45:04.000Z",
+   "enviado": "2026-10-17T15:45:16.398Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T12:06:26.553Z",
    "id": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111483691020992910",
    "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
    "origen": "web",
    "plataforma": "x",
@@ -15205,18 +15207,19 @@
    "video_url": ""
   },
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x": {
-   "actualizado": "2026-10-17T16:01:43.000Z",
+   "actualizado": "2026-10-17T16:40:27.000Z",
    "buffer_id": "6ad39be8938409f1d092cb1a",
    "clave": "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x",
    "creado": "2026-10-17T15:20:13.000Z",
    "dueAt": "2026-10-17T16:15:54.000Z",
+   "enviado": "2026-10-17T16:16:02.173Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T15:03:19.485Z",
    "id": "web:357de5ae-2788-4cb5-9198-9e07743ac18f",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111491432955490684",
    "nota_url": "https://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
    "origen": "web",
    "plataforma": "x",
@@ -15409,18 +15412,19 @@
    "video_url": ""
   },
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x": {
-   "actualizado": "2026-10-17T14:20:13.000Z",
+   "actualizado": "2026-10-17T16:40:27.000Z",
    "buffer_id": "6ad3841e769b4579347f0d10",
    "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
    "creado": "2026-10-16T21:00:18.000Z",
    "dueAt": "2026-10-17T16:00:03.000Z",
+   "enviado": "2026-10-17T16:04:30.253Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T20:54:53.891Z",
    "id": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111488529880506587",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
    "origen": "web",
    "plataforma": "x",
@@ -19483,38 +19487,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f1bd5374-e321-4707-b267-340e4fb19c4e|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x",
    "cuando": "2026-10-15T10:20:15.000Z",
@@ -23605,10 +23577,34 @@
    "cuando": "2026-10-17T16:20:29.000Z",
    "evento": "vencido",
    "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|x",
+   "cuando": "2026-10-17T16:40:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111495218495139979"
+  },
+  {
+   "clave": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x",
+   "cuando": "2026-10-17T16:40:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111483691020992910"
+  },
+  {
+   "clave": "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x",
+   "cuando": "2026-10-17T16:40:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111491432955490684"
+  },
+  {
+   "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
+   "cuando": "2026-10-17T16:40:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111488529880506587"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T15:40:15.000Z",
+ "ultima_sync": "2026-10-17T16:40:27.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

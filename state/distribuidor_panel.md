@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,16 +7,16 @@ Actualizado: 17/10/2026 13:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 3 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 0 | 4 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 3 | 3 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 4 programadas de 50 por día
+- X: conectado · Buffer: 21 enviadas + 0 programadas de 50 por día
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2764 de 3000 (visto 2026-10-17T16:01:44.000Z)
+15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2763 de 3000 (visto 2026-10-17T16:40:27.000Z)
 
 ## Cola propia (19 esperando)
 - TikTok · Reels policiales · Detuvieron a tres personas y secuestraron dólares por un asalto — tope de 15 publicaciones en 24 h de TikTok
@@ -48,10 +48,6 @@ Actualizado: 17/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T14:40 programado web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
-- 2026-10-17T15:20 recibido web:36f35444-e990-4d78-aeea-920acd95d869|x 
-- 2026-10-17T15:20 recibido web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
-- 2026-10-17T15:20 vencido policiales:https://laopinionline.ar/articulo/dos-sujetos-rob tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-17T15:20 vencido web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x tope de 47 publicaciones en 24 h de X
 - 2026-10-17T15:40 recibido web:d9d5c19d-7cdc-4599-9431-674725b57a40|x 
 - 2026-10-17T15:40 vencido web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x tope de 47 publicaciones en 24 h de X
@@ -73,3 +69,7 @@ Actualizado: 17/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-17T16:01 programado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
 - 2026-10-17T16:20 recibido web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x 
 - 2026-10-17T16:20 vencido web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x tope de 47 publicaciones en 24 h de X
+- 2026-10-17T16:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
+- 2026-10-17T16:40 enviado web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x 
+- 2026-10-17T16:40 enviado web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
+- 2026-10-17T16:40 enviado web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x 
