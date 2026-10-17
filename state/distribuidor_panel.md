@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -23,12 +23,12 @@ Actualizado: 17/10/2026 06:00 (hora AR) · ACTIVO
 - X · Notas web · Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argent — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Notas web en X completo (15)
 - X · Reels policiales · Fuego en un edificio del centro por un desperfecto eléctrico — en turno
-- TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — fuera del horizonte de programación (espera en la cola)
+- TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — cupo diario de Notas web en X completo (15)
 - X · Notas web · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — cupo diario de Notas web en X completo (15)
+- TikTok · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — en turno
-- TikTok · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — en turno
 - TikTok · Reels policiales · Robaron y destrozaron el Club River de Junín: se llevaron pelotas y mercadería — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — cupo diario de Notas web en X completo (15)
