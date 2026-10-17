@@ -29,7 +29,7 @@ load_config()
 
 from utils.logger import get_logger  # noqa: E402
 
-from . import buffer_api, config, estado, fuentes, planificador, textos  # noqa: E402
+from . import buffer_api, config, estado, fuentes, planificador, tema, textos  # noqa: E402
 
 logger = get_logger("distribuidor")
 
@@ -269,6 +269,17 @@ def sincronizar(est: dict, simular: bool = False) -> None:
 
     por_id = {p["id"]: p for p in datos["posts"]}
     completo = len(datos["posts"]) < 100
+    # Lo AJENO del canal (cargado a mano en Buffer u otra herramienta): no se toca, pero cuenta
+    # para el intercalado de policiales (planificador.linea_del_canal, 17/10/2026).
+    nuestros = {p.get("buffer_id") for p in est["publicaciones"].values() if p.get("buffer_id")}
+    ajenos = {red: [] for red in config.PLATAFORMAS}
+    for b in datos["posts"]:
+        red = por_canal.get(b.get("channelId"))
+        if red and b.get("id") not in nuestros and b.get("status") in ("scheduled", "sending", "sent"):
+            ajenos[red].append({"dueAt": b.get("sentAt") or b.get("dueAt") or "",
+                                "policial": tema.es_policial({"texto": b.get("text") or ""}),
+                                "texto": (b.get("text") or "")[:120]})
+    est["ajenos"] = ajenos
     for p in pubs:
         canal = config.canal(p["plataforma"])
         if p["estado"] == "enviando":

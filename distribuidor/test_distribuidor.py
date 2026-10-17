@@ -11,6 +11,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 os.environ.setdefault("DISTRIBUIDOR_ACTIVO", "1")
+# El intercalado de policiales (17/10/2026) tiene su prueba propia (prueba_intercalado); las demás
+# son de cupos, topes y urgentes con lotes casi todos policiales, y se escribieron sin él.
+os.environ["INTERCALADO"] = "0"
 
 from distribuidor import buffer_api, config, estado, fuentes, planificador, run, textos  # noqa: E402
 
@@ -424,10 +427,79 @@ def prueba_franja():
     chequear("00:15 AR no vale en TikTok", planificador.en_franja(t2, "tiktok") != t2)
 
 
+def prueba_intercalado():
+    print("intercalado: nunca dos policiales seguidos en el mismo canal (17/10/2026)")
+    os.environ["INTERCALADO"] = "1"
+    try:
+        t0 = AR_10
+        L = [(t0, False), (t0 + timedelta(minutes=20), True)]
+        chequear("pegado: después de un policial, sí", planificador.pegado(L, t0 + timedelta(minutes=40), 1))
+        chequear("pegado: antes de uno de otra temática, no",
+                 not planificador.pegado([(t0, False)], t0 + timedelta(minutes=5), 1))
+        chequear("pegado: en medio, si el de después es policial, también",
+                 planificador.pegado(L, t0 + timedelta(minutes=10), 1))
+        chequear("tema: el bot con un choque en el título es policial",
+                 planificador.tema.es_policial({"origen": "bot", "titulo": "Choque en la Ruta 5: dos heridos"}))
+        chequear("tema: el bot con la Fiesta del Inmigrante no",
+                 not planificador.tema.es_policial({"origen": "bot", "titulo": "Se viene la Fiesta del Inmigrante"}))
+        cola = [{"origen": "web", "titulo": f"Nota {i}"} for i in range(3)] +                [{"origen": "policiales", "titulo": f"Pol {i}"} for i in range(3)]
+        orden = [("P" if planificador.tema.es_policial(p) else "o") for p in planificador.intercalar_cola(cola, [], 1)]
+        chequear("la cola se intercala: P o P o P o", orden == list("PoPoPo"), orden)
+        orden = [("P" if planificador.tema.es_policial(p) else "o")
+                 for p in planificador.intercalar_cola(cola, [(t0, True)], 1)]
+        chequear("...y si lo último del canal fue policial, arranca con otra temática", orden[0] == "o", orden)
+
+        reloj(AR_10)
+        lote = ([ev(i) for i in range(6)] + [ev(i, "web") for i in range(3)]
+                + [ev(i, "bot", titulo=f"Inauguraron la muestra número {i} en el museo") for i in range(3)]
+                + [ev("choque", "bot", titulo="Choque en la Ruta 5: dos heridos")])
+        falso = preparar(lambda: lote)
+        t = AR_10
+        for _ in range(16 * 3):
+            run.pasada()
+            t += timedelta(minutes=20)
+            reloj(t)
+            falso.publicar_vencidos()
+        est = estado.cargar()
+        for red in ("x", "tiktok"):
+            linea = sorted((estado.de_iso(p["dueAt"]), planificador.tema.es_policial(p))
+                           for p in est["publicaciones"].values()
+                           if p["plataforma"] == red and p["estado"] in ("programado", "enviado"))
+            seguidos = sum(1 for a, b in zip(linea, linea[1:]) if a[1] and b[1])
+            chequear(f"{config.NOMBRE[red]}: ningún par de policiales seguidos", seguidos == 0,
+                     [("P" if p else "o") for _, p in linea])
+        linea_x = sorted((estado.de_iso(p["dueAt"]), planificador.tema.es_policial(p))
+                         for p in est["publicaciones"].values()
+                         if p["plataforma"] == "x" and p["estado"] in ("programado", "enviado"))
+        n_pol = sum(1 for _, p in linea_x if p)
+        chequear("X: salen tantos policiales como huecos hay (6 de otra temática → hasta 7 policiales)",
+                 5 <= n_pol <= 7, [("P" if p else "o") for _, p in linea_x])
+        esperan = [p for p in est["publicaciones"].values() if p["estado"] == "pendiente"
+                   and (p.get("espera") or "").startswith("intercalado")]
+        chequear("lo que no tuvo hueco espera con el motivo «intercalado»", len(esperan) >= 1,
+                 [p.get("espera") for p in est["publicaciones"].values() if p["estado"] == "pendiente"][:3])
+
+        # Lo AJENO del canal (cargado a mano en Buffer) también cuenta.
+        reloj(AR_10)
+        lote2 = [ev("a", "policiales")]
+        falso = preparar(lambda: lote2)
+        est = estado.cargar()
+        est["ajenos"] = {"x": [{"dueAt": estado.iso(AR_10 + timedelta(minutes=10)), "policial": True,
+                                "texto": "Robo en un comercio"}], "tiktok": []}
+        estado.guardar(est)
+        run.pasada()
+        est = estado.cargar()
+        px = est["publicaciones"]["policiales:a|x"]
+        chequear("un policial cargado a mano en Buffer tampoco queda pegado a uno nuestro",
+                 px["estado"] == "pendiente" and px.get("espera", "").startswith("intercalado"), px.get("espera"))
+    finally:
+        os.environ["INTERCALADO"] = "0"
+
+
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)

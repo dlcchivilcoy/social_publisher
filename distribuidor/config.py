@@ -90,6 +90,16 @@ def separacion_min(plataforma: str) -> int:
     return _int(f"SEPARACION_{plataforma.upper()}_MIN", {"x": 15, "tiktok": 40}[plataforma])
 
 
+# Intercalado (17/10/2026, PDF «Prompt integral»): en cada canal, entre dos policiales al menos
+# esta cantidad de publicaciones de otra temática. INTERCALADO=0 lo apaga. Se leen al usarse.
+def intercalado() -> bool:
+    return _bool("INTERCALADO", True)
+
+
+def min_entre_policiales() -> int:
+    return max(1, _int("MIN_NON_POLICE_POSTS_BETWEEN_POLICE", 1))
+
+
 # Una nota web y el reel de la MISMA nota en X: separados al menos esto (y con otro texto).
 SEPARACION_MISMA_NOTA_MIN = _int("SEPARACION_MISMA_NOTA_MIN", 180)
 

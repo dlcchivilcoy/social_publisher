@@ -58,6 +58,14 @@ Todo lo configurable está en `distribuidor/config.py`.
   más la prioridad de cada pieza, menos la antigüedad.
 - **Separación**: X 15 min, TikTok 40 min. Reel y nota de la misma noticia en X: 3 h y textos
   distintos. Franja: X 07:00–24:00, TikTok 08:00–23:30.
+- **Intercalado (17/10/2026, PDF «Prompt integral»)**: en cada canal nunca dos policiales
+  seguidos; entre uno y otro, al menos `MIN_NON_POLICE_POSTS_BETWEEN_POLICE` (1) de otra temática.
+  Policial = origen «policiales» o un título con un hecho policial (`distribuidor/tema.py`: el bot
+  también publica choques y robos). Cuenta lo nuestro programado o enviado y lo AJENO que Buffer
+  muestra al sincronizar (`est["ajenos"]`, no se toca). La cola se ordena alternando (otra temática,
+  policial, otra…); lo urgente tampoco se pega. Sin otra temática, el policial espera en la cola con
+  el motivo «intercalado» (vence como siempre a las 18 h). Al desprogramar por un urgente, nunca se
+  saca la publicación que separa dos policiales. `INTERCALADO=0` lo apaga.
 - **Vencimiento**: policiales 18 h (sus videos se borran a las 24 h), bot y entrevistas 48 h,
   notas 24 h. Lo vencido queda informado en el panel, nunca se pierde en silencio.
 - **Entrevistas**: el pipeline sube todo en PRIVADO hasta que el editor aprueba. El recorte
