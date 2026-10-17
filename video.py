@@ -215,8 +215,12 @@ CORR_NARANJA_CAJA = (179, 91, 24, 255)  # #B35B18: la caja (opaca) de la volanta
 CORR_GRAFITO = (32, 34, 38, 255)        # #202226: la caja principal y el fondo
 CORR_BLANCO2 = (240, 240, 240, 255)     # #F0F0F0: el usuario
 CORR_X = 100                            # margen izquierdo de la marca y de las cajas
-CORR_MARCA = ((130, 29), (172, 26))     # (tope de las mayúsculas, cuerpo): nombre y usuario
-CORR_LOGO = (128, 80, 130)              # isologo: ancho, margen derecho (X 872), Y
+# 2026-10-17 (pedido del usuario): marca e isologo MÁS ABAJO —en Y 130 los tapaban los marcos de
+# Instagram y Facebook («Reels», la cámara)— y MÁS GRANDES. Antes: marca 29/26 en Y 130/172 e
+# isologo de 128 en Y 130.
+CORR_MARCA = ((250, 38), (302, 32))     # (tope de las mayúsculas, cuerpo): nombre y usuario
+CORR_LOGO = (168, 72, 205)              # isologo: ancho, margen derecho (X 840), Y
+CORR_SOMBRA_ALTO = 540                  # hasta dónde baja el sombreado de arriba (lo lee)
 CORR_CAJA_ANCHO = 784                   # cajas de X 100 a 884: lejos de los botones de la derecha
 CORR_CAJA_PAD = (26, 20)                # relleno de la caja principal: costados, arriba/abajo
 CORR_CAJA_OPACIDAD = 0.94
@@ -226,7 +230,7 @@ CORR_TITULAR = (54, 42, "400")          # cuerpo, mínimo en dos renglones, peso
 CORR_SALTO = 1.18                       # interlineado
 CORR_GAP = 12                           # entre la caja de la volanta y la principal
 CORR_Y_ABAJO = 1058                     # tope de la volanta en 9:16 (la principal, en 1126)
-CORR_Y_ARRIBA = 360                     # la posición alternativa, si abajo hay una cara
+CORR_Y_ARRIBA = 450                     # lo más arriba que va una caja (debajo de la marca)
 CORR_TOPE_IMAGEN = 290                  # en lo apaisado, la imagen arranca debajo del isologo
 CORR_ALTO_APAISADO = 1350               # el reel de lo horizontal: 4:5
 CORR_AR_APAISADO = 1.0                  # más ancho que alto = «apaisado»
@@ -263,12 +267,21 @@ BLOQUE_TITULAR = (78, 40, "700")   # tope, piso, peso
 BLOQUE_TITULAR_PREFIERE = 52       # por debajo de esto, antes se resigna un poco de imagen
 BLOQUE_SALTO = 1.1
 BLOQUE_RECORTE_MAX = 0.25          # lo más que se recorta de la imagen (desde abajo)
+# El bloque DENTRO de un reel 9:16 (pedido 2026-10-17: en un pase de fotos con alguna vertical,
+# las horizontales van «como las de policiales»; conviven las dos estéticas en el mismo reel).
+# La imagen sigue arrancando arriba, pero se estira hasta `BLOQUE_9X16_IMG` de alto recortando
+# los COSTADOS (como mucho un 40 % del ancho, mirando a las caras o a lo importante), así el
+# bloque no queda enorme; y el texto termina antes de la franja de la descripción de la app.
+BLOQUE_9X16_IMG = 1060
+BLOQUE_TEXTO_TIPICO = 300          # alto de volanta + titular de 3 renglones, para ubicar el logo
+BLOQUE_9X16_RECORTE = 0.40
 # Tarjetas que cambian a lo largo del video (2026-10-03): entran y salen con un fundido de 0,2 s
 # («de 0,15 a 0,25», dice el prompt) y cada una se lee al menos 3 s (o palabras / 2,5).
 FUNDIDO_TARJETA = 0.2
 TARJETA_MIN_SEG = 3.0
 # Tope de la volanta de una tarjeta según el `lugar` que dice Gemini (video vertical a sangre).
-_Y_LUGAR = {"abajo": 1058, "medio": 700, "arriba": 360}
+# «piso» (-1) = pegada al pie, justo arriba de la franja de la descripción de la app.
+_Y_LUGAR = {"abajo": 1058, "medio": 760, "arriba": CORR_Y_ARRIBA, "piso": -1}
 # Cuántos puntos de titular estamos dispuestos a resignar con tal de no partir un nombre
 # entre dos renglones. Hasta 8 no se nota; más abajo sí, y ahí conviene el titular grande
 # aunque el apellido caiga al renglón siguiente.
@@ -1686,7 +1699,7 @@ def _texto_encima(volanta: str, titular: str, f: dict, desde: int | None = None)
                 banda=(rect[1], rect[3]) if (estilo == "sombra" and bloques) else None)
 
 
-def _caras_en_cuadro(caras, w: int, h: int, media: tuple, cover: bool) -> list:
+def _caras_en_cuadro(caras, w: int, h: int, media: tuple, cover: bool, foco=None) -> list:
     """Las `caras` (x, y, ancho, alto en píxeles del material) llevadas al cuadro del reel,
     con la CABEZA entera (la caja del detector es la cara pelada: se le suma frente, pelo y
     un poco de cuello, como en `_ventana_caras`)."""
@@ -1694,7 +1707,7 @@ def _caras_en_cuadro(caras, w: int, h: int, media: tuple, cover: bool) -> list:
         return []
     x, y, wm, hm = media
     if cover:
-        nw, nh, cx, cy = _ventana_caras(caras, w, h, wm, hm, arriba_primero=True)
+        nw, nh, cx, cy = _ventana_caras(caras, w, h, wm, hm, arriba_primero=True, foco=foco)
         esc, dx, dy = nw / max(1, w), x - cx, y - cy
     else:
         esc, dx, dy = wm / max(1, w), x, y
@@ -1742,14 +1755,16 @@ def _objetos_de_foto(img) -> list:
         return []
 
 
-def _objetos_en_cuadro(objetos, caras, w: int, h: int, media: tuple, cover: bool) -> list:
+def _objetos_en_cuadro(objetos, caras, w: int, h: int, media: tuple, cover: bool,
+                       foco=None) -> list:
     """Los `objetos` (como las caras, en píxeles del material) llevados al cuadro del reel, con
     el MISMO recorte que deciden las caras (`_ventana_caras`), sin el margen de cabeza."""
     if not objetos:
         return []
     x, y, wm, hm = media
     if cover:
-        nw, nh, cx, cy = _ventana_caras(caras or [], w, h, wm, hm, arriba_primero=True)
+        nw, nh, cx, cy = _ventana_caras(caras or [], w, h, wm, hm, arriba_primero=True,
+                                        foco=foco)
         esc, dx, dy = nw / max(1, w), x - cx, y - cy
     else:
         esc, dx, dy = wm / max(1, w), x, y
@@ -1766,6 +1781,53 @@ def _cuanto_tapa(rect: tuple, cabezas: list) -> float:
         area = max(1.0, (c[2] - c[0]) * (c[3] - c[1]))
         peor = max(peor, ix * iy / area)
     return peor
+
+
+def _cuanto_cubre(rect: tuple, zonas: list) -> float:
+    """Qué fracción de `rect` cae sobre las `zonas` libres (cielo, piso, pared lisa)."""
+    area = max(1.0, (rect[2] - rect[0]) * (rect[3] - rect[1]))
+    tot = 0.0
+    for z in zonas:
+        ix = max(0.0, min(rect[2], z[2]) - max(rect[0], z[0]))
+        iy = max(0.0, min(rect[3], z[3]) - max(rect[1], z[1]))
+        tot += ix * iy
+    return min(1.0, tot / area)
+
+
+def _zonas_de(objetos) -> tuple:
+    """(claves, libres, propio) de lo que llega como `objetos`: el dict de `gemini.zonas_foto`
+    o la lista del detector propio (`_objetos_de_foto`)."""
+    if isinstance(objetos, dict):
+        return list(objetos.get("claves") or []), list(objetos.get("libres") or []), []
+    return [], [], list(objetos or [])
+
+
+def _lugar_corr(volanta: str, titular: str, f: dict, cabezas: list, cosas: list,
+                vacios: list, propio: list) -> dict:
+    """La tarjeta en el lugar que MENOS tapa (pedido 2026-10-17: «que no tape rostros u objetos
+    claves, por ejemplo si hay un vehículo que no lo tape, siempre que se ubique en tierra o cielo
+    o partes vacías con aire»). Se prueban todas las alturas, de debajo de la marca hasta el pie
+    (arriba de la franja de la descripción): una cara pesa 3, lo que marcó Gemini (personas,
+    vehículos, lo central) 2 y el objeto del detector propio 1; caer sobre piso, cielo o pared
+    lisa resta. Ante la duda, gana la de siempre (Y 1058)."""
+    base = _tarjeta_corr(volanta, titular, f, CORR_Y_ABAJO)
+    if not (cabezas or cosas or vacios or propio):
+        return base
+    alto_t = base["rect"][3] - base["rect"][1]
+    piso = 1920 - BANDA_SEGURO - alto_t
+
+    def costo(y: int) -> float:
+        r = (CORR_X, y, CORR_X + CORR_CAJA_ANCHO, y + alto_t)
+        return (3 * _cuanto_tapa(r, cabezas) + 2 * _cuanto_tapa(r, cosas)
+                + _cuanto_tapa(r, propio) - 0.6 * _cuanto_cubre(r, vacios)
+                + 0.25 * abs(y - CORR_Y_ABAJO) / 700)
+    ys = sorted(set(range(CORR_Y_ARRIBA, piso + 1, 8)) | {CORR_Y_ABAJO, piso})
+    y = min(ys, key=costo)
+    if y == CORR_Y_ABAJO:
+        return base
+    logger.info(f"Caja en Y {y} (en Y {CORR_Y_ABAJO} tapaba {costo(CORR_Y_ABAJO):.2f}, "
+                f"acá {costo(y):.2f}).")
+    return _tarjeta_corr(volanta, titular, f, y)
 
 
 def _marca_corr(f: dict) -> list:
@@ -1856,6 +1918,10 @@ def tarjeta_png(volanta: str, texto: str, y: int, lienzo: tuple, salida) -> Path
     cuadro 4:5 y una tarjeta más alta que la del título), sube lo justo."""
     from PIL import Image
     f = _fuentes_placa()
+    if y < 0:
+        # «piso»: pegada al pie, arriba de la franja de la descripción de la app.
+        alto = _tarjeta_corr(volanta, texto, f, 0)["rect"][3]
+        y = lienzo[1] - BANDA_SEGURO - alto
     t = _tarjeta_corr(volanta, texto, f, y)
     sobra = t["rect"][3] - (lienzo[1] - 30)
     if sobra > 0:
@@ -2080,34 +2146,50 @@ def bloque_tarjeta_png(volanta: str, texto: str, plan: dict, salida) -> Path:
 
 
 def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int,
-                 grafica: bool, tema: str, alto: int = CORR_ALTO_APAISADO) -> dict:
+                 grafica: bool, tema: str, alto: int = CORR_ALTO_APAISADO,
+                 foco=None) -> dict:
     """El cuadro 4:5 estilo bloque (ver `BLOQUE_TEMAS`) sobre el `plan` base de `_plan_corr`.
 
     La imagen entra ENTERA a todo el ancho desde y=0. Si con ella entera el texto no entra ni
     con titular de `BLOQUE_TITULAR_PREFIERE`, se resigna alto de imagen DESDE ABAJO (hasta
     `BLOQUE_RECORTE_MAX`, buscando que las caras queden adentro) antes que achicar más la letra.
-    Un afiche apaisado no se recorta nunca: se achica entero, centrado."""
+    Un afiche apaisado no se recorta nunca: se achica entero, centrado.
+
+    En un cuadro 9:16 (`alto` 1920, ver `BLOQUE_9X16_IMG`) la imagen se estira recortando los
+    costados (centrada en las caras o en el `foco`) y el texto termina arriba de la franja de
+    la descripción de la app (`BANDA_SEGURO`); el bloque igual llega hasta el pie."""
     tema = tema if tema in BLOQUE_TEMAS else tema_siguiente("")
     _TEMA_USADO[0] = tema
-    am = max(2, round(1080 * h / w) // 2 * 2)
+    am = natural = max(2, round(1080 * h / w) // 2 * 2)
     pad_a, pad_b = BLOQUE_PAD
+    fin = alto
+    if alto >= 1920:
+        fin = alto - BANDA_SEGURO + pad_b
+        if not grafica:
+            am = max(am, min(BLOQUE_9X16_IMG,
+                             round(natural / (1 - BLOQUE_9X16_RECORTE)))) // 2 * 2
     fijo = BLOQUE_LINEA + pad_a + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + pad_b
-    txt = _texto_bloque(volanta, titular, f, tema, 0, alto - am - fijo,
+    txt = _texto_bloque(volanta, titular, f, tema, 0, fin - am - fijo,
                         piso=BLOQUE_TITULAR_PREFIERE)
     hm = am
-    if txt["alto"] > alto - am - fijo or _cortado(txt):
+    if txt["alto"] > fin - am - fijo or _cortado(txt):
         hm_min = round(am * (1 - BLOQUE_RECORTE_MAX))
-        txt = _texto_bloque(volanta, titular, f, tema, 0, alto - hm_min - fijo)
-        hm = max(round(am * 0.4), min(am, alto - fijo - txt["alto"]))
+        txt = _texto_bloque(volanta, titular, f, tema, 0, fin - hm_min - fijo)
+        hm = max(round(am * 0.4), min(am, fin - fijo - txt["alto"]))
     hm = hm // 2 * 2
-    wm, cover = 1080, hm < am
+    wm, cover = 1080, hm < am or am > natural
     if grafica and hm < am:
         wm, cover = max(2, round(hm * w / h) // 2 * 2), False
-    extra = max(0, alto - hm - fijo - txt["alto"])
     # Lo que sobra (mucho con una 16:9) se reparte: un poco más abajo que arriba, y el logo y
-    # el texto casi juntos, como en la referencia.
+    # el texto casi juntos, como en la referencia. Se mide contra un texto TÍPICO y no contra
+    # este: si no, cuando las tarjetas cambian sobre la misma foto el logo salta (2026-10-17).
+    extra = max(0, fin - hm - fijo - BLOQUE_TEXTO_TIPICO)
     y_logo = hm + BLOQUE_LINEA + pad_a + round(extra * 0.38)
     y_txt = y_logo + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + round(min(extra * 0.12, 40))
+    sobra = y_txt + txt["alto"] - (fin - pad_b)
+    if sobra > 0:                    # un texto más alto que el típico: sube lo justo
+        y_logo = max(hm + BLOQUE_LINEA + pad_a, y_logo - sobra)
+        y_txt = y_logo + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO
     # Se armó en y=0 para medir: se corre al lugar, con la misma letra.
     txt["bloques"] = [b[:2] + (b[2] + y_txt,) + b[3:] for b in txt["bloques"]]
     t = BLOQUE_TEMAS[tema]
@@ -2118,7 +2200,7 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
                 volanta=txt["volanta"], sombra_arriba=False, halo=[], logo=None,
                 logo_bloque=(tema, BLOQUE_X, y_logo),
                 texto=(BLOQUE_X, y_txt, BLOQUE_X + BLOQUE_ANCHO, y_txt + txt["alto"]),
-                bloque=dict(tema=tema, zona=(y_txt, alto - pad_b)))
+                bloque=dict(tema=tema, zona=(y_txt, fin - pad_b)), foco=foco)
     return plan
 
 
@@ -2141,9 +2223,16 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
     forma = forma_de(w, h, grafica)
     w, h = max(1, w), max(1, h)
     marca = _marca_corr(f)
+    claves, libres, propio = _zonas_de(objetos)
+    # Sin caras, el recorte se centra en lo importante que marcó Gemini (2026-10-17).
+    foco = None
+    if claves and not caras:
+        tot = sum(c[2] * c[3] for c in claves) or 1
+        foco = sum((c[0] + c[2] / 2) * c[2] * c[3] for c in claves) / tot
     plan = dict(forma=forma, bloques=list(marca), bajada=[], cover=False, fundido=(0, 0),
                 sombra_arriba=False, grafica=grafica, estilo="corresponsal", logo=CORR_LOGO,
-                halo=[], cajas=[], titulo=[], volanta="", lienzo=(1080, 1920),
+                halo=[], cajas=[], titulo=[], volanta="", lienzo=(1080, 1920), foco=foco,
+                sombra_alto=CORR_SOMBRA_ALTO,
                 texto=(CORR_X, CORR_MARCA[0][0], CORR_X + CORR_CAJA_ANCHO, CORR_MARCA[1][0] + 30))
     if forma == "afiche" or (grafica and w / h <= CORR_AR_APAISADO):
         # Un flyer CUADRADO también va entero y sin tarjeta (2026-10-04: uno de 1024x1024 salió
@@ -2152,12 +2241,17 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
         aw, ah = max(2, round(w * esc)) // 2 * 2, max(2, round(h * esc)) // 2 * 2
         y = (max(0, min(PLACA_AFICHE_TOPE, 1920 - ah)) if forma == "afiche"
              else max(PLACA_AFICHE_TOPE, (1920 - ah) // 2))
-        plan.update(media=((1080 - aw) // 2, y, aw, ah), sombra_arriba=True, halo=list(marca))
+        # Sin grafito liso alrededor (2026-10-17: «no quiero un fondo grafito»): de fondo, el
+        # mismo afiche desenfocado y oscurecido (`_placa_de_foto`).
+        plan.update(media=((1080 - aw) // 2, y, aw, ah), sombra_arriba=True, halo=list(marca),
+                    fondo_borroso=True)
         return plan
     if w / h > CORR_AR_APAISADO:
         lienzo = alto or CORR_ALTO_APAISADO
-        if lienzo < 1920 and _bloque_on():
-            return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, lienzo)
+        if _bloque_on():
+            # También dentro de un reel 9:16 (un pase con alguna vertical): estilo bloque, el de
+            # policiales, en vez de la imagen flotando entre dos franjas grafito (2026-10-17).
+            return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, lienzo, foco)
         am = round(1080 * h / w) // 2 * 2
         alto_t = _tarjeta_corr(volanta, titular, f, 0)["rect"][3]
         if lienzo >= 1920:
@@ -2180,26 +2274,12 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
         return plan
     media = (0, 0, 1080, 1920)
     cover = abs(1080 * h / w - 1920) > 2
-    t = _tarjeta_corr(volanta, titular, f, CORR_Y_ABAJO)
-    cabezas = _caras_en_cuadro(caras, w, h, media, cover)
-    # Y el OBJETO central (pedido 2026-10-12: «posicionar la caja en un lugar que no bloquee
-    # rostros u objetos centrales»). Tres lugares posibles, en este orden de preferencia: el de
-    # siempre (Y 1058), más abajo (pegado a la franja de la app) y arriba (Y 360). Gana el que
-    # menos tapa; una cara pesa el doble que un objeto. Sin caras ni objeto, el de siempre.
-    cosas = _objetos_en_cuadro(objetos, caras, w, h, media, cover)
-    if cabezas or cosas:
-        def tapa(rect):
-            return 2 * _cuanto_tapa(rect, cabezas) + _cuanto_tapa(rect, cosas)
-        alto_t = t["rect"][3] - t["rect"][1]
-        lugares = [t, _tarjeta_corr(volanta, titular, f, 1920 - BANDA_SEGURO - alto_t),
-                   _tarjeta_corr(volanta, titular, f, CORR_Y_ARRIBA)]
-        if tapa(t["rect"]) > 0.15:
-            mejor = min(lugares, key=lambda x: tapa(x["rect"]))
-            if tapa(mejor["rect"]) < tapa(t["rect"]):
-                logger.info(f"La tarjeta en Y {CORR_Y_ABAJO} tapaba "
-                            f"{'una cara' if _cuanto_tapa(t['rect'], cabezas) > 0.15 else 'el objeto central'}"
-                            f": va en Y {mejor['rect'][1]}.")
-                t = mejor
+    # Las caras y lo que marcó Gemini, ya en el cuadro (con el mismo recorte que la imagen).
+    cabezas = _caras_en_cuadro(caras, w, h, media, cover, foco)
+    t = _lugar_corr(volanta, titular, f, cabezas,
+                    _objetos_en_cuadro(claves, caras, w, h, media, cover, foco),
+                    _objetos_en_cuadro(libres, caras, w, h, media, cover, foco),
+                    _objetos_en_cuadro(propio, caras, w, h, media, cover, foco))
     plan.update(media=media, cover=cover, sombra_arriba=True, halo=list(marca),
                 cajas=t["cajas"], bloques=marca + t["bloques"], titulo=t["titulo"],
                 volanta=t["volanta"], texto=t["rect"])
@@ -2408,7 +2488,7 @@ def pintar_placa(lienzo, plan: dict) -> None:
     imagen: los sombreados, el halo de la letra, las cajas y el texto, en ese orden."""
     from PIL import Image, ImageDraw
     if plan.get("sombra_arriba"):
-        sombrear_arriba(lienzo)
+        sombrear_arriba(lienzo, plan.get("sombra_alto") or 0)
     if plan.get("banda"):
         _sombrear_banda(lienzo, *plan["banda"])
     if plan.get("halo"):
@@ -2427,7 +2507,29 @@ def pintar_placa(lienzo, plan: dict) -> None:
             capa = Image.new("RGBA", lienzo.size, (0, 0, 0, 0))
             capa.alpha_composite(fila, (int(x), int(y)))
             _componer(lienzo, capa)
+    if plan.get("isologo"):
+        # El isologo de arriba DIBUJADO en el cuadro (un pase de fotos de corresponsales,
+        # 2026-10-17): así un cuadro estilo bloque del mismo reel no lo lleva encima de su foto.
+        _isologo(lienzo, plan["isologo"])
     dibujar_bloques(ImageDraw.Draw(lienzo), plan.get("bloques") or [])
+
+
+def _isologo(lienzo, geo: tuple) -> None:
+    """Pega el isologo (`LOGO_REEL`) con la geometría (ancho, margen lateral, Y) y la misma
+    opacidad con que lo pega ffmpeg."""
+    from PIL import Image
+    ruta = _asset("REEL_LOGO", LOGO_REEL)
+    if not ruta:
+        return
+    ancho, mx, my = geo
+    logo = Image.open(ruta).convert("RGBA")
+    logo = logo.resize((ancho, max(1, round(ancho * logo.height / logo.width))), Image.LANCZOS)
+    op = float(_cfg("REEL_LOGO_OPACIDAD", "0.92"))
+    logo.putalpha(logo.getchannel("A").point(lambda a: round(a * op)))
+    x = (lienzo.width - ancho - mx) if _logo_a_la_derecha() else mx
+    capa = Image.new("RGBA", lienzo.size, (0, 0, 0, 0))
+    capa.alpha_composite(logo, (int(x), int(my)))
+    _componer(lienzo, capa)
 
 
 def _componer(lienzo, capa) -> None:
@@ -2476,12 +2578,12 @@ def _sombrear_banda(lienzo, y0: int, y1: int, tope: float = 0.55, borde: int = 1
     _componer(lienzo, negro)
 
 
-def sombrear_arriba(lienzo) -> None:
+def sombrear_arriba(lienzo, alto: int = 0) -> None:
     """El sombreado MÍNIMO de arriba de un afiche (pedido 2026-09-26): negro que se desvanece
     hacia abajo, lo justo para que la marca y el isologo se lean encima de cualquier afiche.
-    Se pinta sobre `lienzo` (RGB o RGBA)."""
+    Se pinta sobre `lienzo` (RGB o RGBA). `alto`: hasta dónde baja (default, el de siempre)."""
     from PIL import Image
-    alto = PLACA_AFICHE_SOMBRA_ALTO
+    alto = alto or PLACA_AFICHE_SOMBRA_ALTO
     tope = _num("REEL_PLACA_AFICHE_SOMBRA", PLACA_AFICHE_SOMBRA)
     col = bytes(round(255 * tope * (1 - _curva_suave(y / alto))) for y in range(alto))
     alfa = Image.frombytes("L", (1, alto), col).resize((lienzo.width, alto), Image.NEAREST)
@@ -3086,7 +3188,7 @@ def _entre(ideal: float, minimo: float, maximo: float, piso: float, techo: float
 
 
 def _ventana_caras(caras, cont_w: int, cont_h: int, W: int, H: int, *,
-                   fundido: int = 0, arriba_primero: bool = False) -> tuple:
+                   fundido: int = 0, arriba_primero: bool = False, foco=None) -> tuple:
     """(nw, nh, x, y): a cuánto escalar el material para LLENAR `W`x`H` y desde dónde
     recortarlo, con las `caras` (x, y, w, h en píxeles del material) ENTERAS adentro.
 
@@ -3107,13 +3209,18 @@ def _ventana_caras(caras, cont_w: int, cont_h: int, W: int, H: int, *,
     El usuario vio que se estaban cortando las cabezas: con el sesgo de siempre se tiraba un
     30% del sobrante por arriba y el detector de caras no siempre las encuentra. Ahora el
     recorte arranca en el borde de arriba del material, y solo baja lo justo si hay una cara
-    tan abajo que si no, quedaría afuera."""
+    tan abajo que si no, quedaría afuera.
+
+    `foco` (la x, en píxeles del material, de lo importante que marcó Gemini: un vehículo, un
+    objeto; 2026-10-17): sin caras, el recorte de los costados se centra ahí y no en el medio."""
     escala = max(W / max(1, cont_w), H / max(1, cont_h))
     nw = max(W, int(round(cont_w * escala)))
     nh = max(H, int(round(cont_h * escala)))
     x = (nw - W) // 2
     y = 0 if arriba_primero else max(0, min(int((nh - H) * 0.30), nh - H))
     if not caras:
+        if foco is not None:
+            x = int(round(max(0, min(nw - W, foco * escala - W / 2))))
         return nw, nh, x, y
     # Las caras, ya en píxeles del material escalado, la más grande primero.
     cajas = sorted(((c[0] * escala, c[1] * escala, c[2] * escala, c[3] * escala)
@@ -4288,12 +4395,23 @@ def _placa_de_foto(img, plan: dict, fondo, salida: Path, nombre: str = "",
     w, h = img.size
     x, y, wm, hm = plan["media"]
     lienzo = fondo.copy()
+    if plan.get("fondo_borroso"):
+        # El afiche entero sobre SÍ MISMO desenfocado y oscurecido, no sobre grafito liso.
+        from PIL import ImageEnhance
+        W, H = lienzo.size
+        esc = max(W / w, H / h)
+        bw, bh = max(W, round(w * esc)), max(H, round(h * esc))
+        fondo_img = img.resize((max(1, bw // 8), max(1, bh // 8)), Image.BILINEAR)
+        fondo_img = fondo_img.filter(ImageFilter.GaussianBlur(6)).resize((bw, bh), Image.BILINEAR)
+        fondo_img = ImageEnhance.Brightness(fondo_img).enhance(0.45)
+        lienzo = fondo_img.crop(((bw - W) // 2, (bh - H) // 2, (bw - W) // 2 + W,
+                                 (bh - H) // 2 + H))
     arriba, abajo = plan["fundido"]
     if plan["cover"]:
         if caras is None:
             caras = _caras_de_foto(img)
         nw, nh, cx, cy = _ventana_caras(caras, w, h, wm, hm, fundido=arriba,
-                                        arriba_primero=True)
+                                        arriba_primero=True, foco=plan.get("foco"))
         media = img.resize((nw, nh), Image.LANCZOS).crop((cx, cy, cx + wm, cy + hm))
     else:
         media = img.resize((wm, hm), Image.LANCZOS)
@@ -4340,6 +4458,26 @@ def _caras_de_foto(img) -> list:
         return _caras_principales(_detect_faces(img))
     except Exception:                                            # noqa: BLE001
         return []
+
+
+def _zonas_ia(img):
+    """`gemini.zonas_foto` de una foto, o None (sin Gemini o con `REEL_ZONAS_IA=0`)."""
+    if (_cfg("REEL_ZONAS_IA", "1") or "1").strip().lower() in ("0", "no", "off"):
+        return None
+    try:
+        from utils import gemini
+        return gemini.zonas_foto(img)
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"Sin zonas de la foto ({e}).")
+        return None
+
+
+def _con_isologo(plan: dict) -> dict:
+    """En un pase de fotos de corresponsales el isologo va DIBUJADO en cada cuadro que no es
+    estilo bloque (ese lleva el suyo en el bloque): conviven las dos estéticas (2026-10-17)."""
+    if plan.get("estilo") == "corresponsal" and not plan.get("logo_bloque"):
+        plan["isologo"] = CORR_LOGO
+    return plan
 
 
 def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
@@ -4407,19 +4545,36 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
             recorta = (estilo == "corresponsal" and not grafica) or forma in ("pantalla",
                                                                                "vertical")
             caras = _caras_de_foto(img) if recorta else None
-            # El objeto central, para que la caja de una foto vertical no lo tape (2026-10-12).
-            objetos = (_objetos_de_foto(img) if (estilo == "corresponsal" and not grafica
-                                                and img.width <= img.height) else None)
+            # Lo que la caja no puede tapar y dónde conviene ponerla: lo marca Gemini mirando la
+            # foto (2026-10-17); si no contesta, el objeto central del detector propio.
+            objetos = None
+            if estilo == "corresponsal" and not grafica:
+                objetos = _zonas_ia(img)
+                if objetos is None and img.width <= img.height:
+                    objetos = _objetos_de_foto(img)
+                elif objetos and caras:
+                    # El detector ve «caras» en una moto o un cartel: si Gemini miró la foto,
+                    # solo valen las que caen sobre una persona que marcó él.
+                    def _en_persona(c):
+                        cx, cy = c[0] + c[2] / 2, c[1] + c[3] / 2
+                        return any(p[0] <= cx <= p[0] + p[2] and p[1] <= cy <= p[1] + p[3]
+                                   for p in objetos.get("personas") or [])
+                    reales = [c for c in caras if _en_persona(c)]
+                    if len(reales) < len(caras):
+                        logger.info(f"Descarto {len(caras) - len(reales)} «cara(s)» que no "
+                                    f"son personas según Gemini.")
+                    caras = reales
             # Un afiche o un flyer cuadrado no lleva caja (`_plan_corr`): no gasta tarjeta.
             sin_caja = grafica and img.width / max(1, img.height) <= CORR_AR_APAISADO
             v, t = volanta, titular
             if i > 0 and not sin_caja and extra:
                 v, t = extra.pop(0)
                 v = v or volanta
-            plan = plan_placa(v, t, resumen, img.width, img.height,
-                              grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo,
-                              alto=alto if estilo == "corresponsal" else 0, tema=tema,
-                              objetos=objetos)
+            plan = _con_isologo(plan_placa(v, t, resumen, img.width, img.height,
+                                           grafica=grafica, modo_texto=modo, caras=caras,
+                                           estilo=estilo,
+                                           alto=alto if estilo == "corresponsal" else 0,
+                                           tema=tema, objetos=objetos))
             placas.append(_placa_de_foto(img, plan, fondo,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
                                          Path(f).name, caras=caras))
@@ -4435,9 +4590,10 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
         pos, f, img, grafica, caras, objetos = ultima
         for k, (v, t) in enumerate(extra):
             try:
-                plan = plan_placa(v or volanta, t, resumen, img.width, img.height,
-                                  grafica=grafica, modo_texto=modo, caras=caras, estilo=estilo,
-                                  alto=alto, tema=tema, objetos=objetos)
+                plan = _con_isologo(plan_placa(v or volanta, t, resumen, img.width, img.height,
+                                               grafica=grafica, modo_texto=modo, caras=caras,
+                                               estilo=estilo, alto=alto, tema=tema,
+                                               objetos=objetos))
                 pos += 1
                 placas.insert(pos, _placa_de_foto(img, plan, fondo,
                                                   work_dir / f"_placa_foto_{clave}_x{k}.jpg",
@@ -4497,10 +4653,9 @@ def foto_a_reel(fotos, salida, *, seg: float | None = None, zocalo: str | None =
         if listo:
             logger.info(f"Foto-reel: {len(fotos)} foto(s) compuestas una por una → "
                         f"{seg_cont:.0f}s de contenido + placa (1080x{listo})")
-            # En el 4:5 estilo bloque cada foto ya trae el isologo dibujado en su bloque.
-            bloque = estilo == "corresponsal" and listo < 1920 and _bloque_on()
+            # Corresponsales: cada cuadro ya trae su isologo (arriba, o en su bloque).
             return to_vertical_reel(base, salida, audio=False, firma=firma, compuesto=True,
-                                    estilo=estilo, alto=listo, logo=not bloque)
+                                    estilo=estilo, alto=listo, logo=estilo != "corresponsal")
     if len(fotos) == 1:
         _foto_a_clip(fotos[0], base, seg_cont)
     else:

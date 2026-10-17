@@ -2120,13 +2120,12 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         volanta, titular, bajada_reel = _titulacion_espec(texto, titular, volanta,
                                                           ctx.get("lugar", ""), desc, _fecha_larga())
         # Varias fotos: cada una después de la primera lleva su caja con un dato de la nota
-        # (pedido 2026-10-04). Se calculan UNA vez y quedan en el ledger para el reel definitivo.
-        # Si hay una foto VERTICAL (va a sangre en 9:16), las cajas NARRAN la noticia aunque sea
-        # una sola foto (pedido 2026-10-14): título y después hasta 3 tarjetas, que van cambiando
-        # sobre la misma imagen y se ubican sin tapar caras ni el objeto central.
-        n = len(fotos) - 1
-        if _hay_vertical(fotos):
-            n = max(n, NARRAR_VERTICAL)
+        # (pedido 2026-10-04), y el texto cambia JUNTO con la foto (2026-10-17): una tarjeta por
+        # foto, ni una más. Se calculan UNA vez y quedan en el ledger para el reel definitivo.
+        # UNA sola foto (vertical u horizontal): las cajas NARRAN la noticia sobre la misma
+        # imagen (pedido 2026-10-14; desde el 17/10 también la horizontal, que salía sin
+        # cajas que cambian): título y después hasta 3 tarjetas.
+        n = len(fotos) - 1 if len(fotos) > 1 else NARRAR_VERTICAL
         tarjetas = (gemini.tarjetas_fotos(texto or desc, n, volanta, titular)
                     if n > 0 and (texto or desc) else [])
     title = f"{volanta} — {titular}" if volanta else titular

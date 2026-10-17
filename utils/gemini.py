@@ -2210,10 +2210,11 @@ _TARJETAS_PROMPT = (
     + _MATICES +
     "• Usá SOLO lo que se ve, se dice y está en la nota. No inventes.\n"
     "Si el video es corto o no hay ideas nuevas, devolvé la lista vacía.\n"
-    "DÓNDE VA CADA CAJA (el cuadro es vertical 9:16): `lugar` = «abajo» (lo normal), «medio» o "
-    "«arriba», el tercio del cuadro donde la caja NO tapa rostros ni lo central de la imagen en "
-    "ESE momento (personas, un vehículo, el objeto o el lugar de la noticia). `lugar_titulo` = lo "
-    "mismo para la tarjeta del título, mirando los primeros segundos."
+    "DÓNDE VA CADA CAJA (el cuadro es vertical 9:16): `lugar` = «abajo» (a media altura del "
+    "tercio de abajo, lo normal), «piso» (pegada al pie del cuadro), «medio» o «arriba»: donde la "
+    "caja NO tapa rostros, personas, vehículos (enteros, con sus ruedas) ni lo central de la "
+    "imagen en ESE momento, y cae sobre algo vacío: cielo, piso, pasto, calle, pared lisa. "
+    "`lugar_titulo` = lo mismo para la tarjeta del título, mirando los primeros segundos."
 )
 
 # Pedido 2026-10-14: en lo VERTICAL las cajas narran la noticia entera, no solo suman datos.
@@ -2223,7 +2224,7 @@ _TARJETAS_NARRAR = (
     "da el tiempo.\n"
 )
 
-_LUGAR = {"type": "string", "enum": ["abajo", "medio", "arriba"]}
+_LUGAR = {"type": "string", "enum": ["abajo", "piso", "medio", "arriba"]}
 _TARJETAS_SCHEMA = {
     "type": "object",
     "properties": {"lugar_titulo": _LUGAR,
@@ -2321,6 +2322,76 @@ def tarjetas_fotos(nota: str, n: int, volanta: str, titulo: str,
         out.append([" ".join(str(t.get("volanta", "")).split()).upper()[:30], texto])
     logger.info(f"Tarjetas de las fotos: {len(out)} de {n}.")
     return out[:n]
+
+
+# Dónde NO va la caja de texto en una foto (pedido del usuario 2026-10-17: «que no tape rostros
+# u objetos claves, por ejemplo si hay un vehículo que no lo tape, siempre que se ubique en
+# tierra o cielo o partes vacías con aire»). El detector propio de objetos (prominencia) se
+# confundía con un cartel y dejaba la caja encima de la moto.
+_ZONAS_PROMPT = (
+    "Esta foto va de fondo en un reel vertical de noticias y encima va una caja de texto. Marcá "
+    "con su caja (box_2d = [ymin, xmin, ymax, xmax], de 0 a 1000) lo que la caja NO puede tapar: "
+    "`claves` = cada persona (la cabeza y el cuerpo visible), cada vehículo entero (auto, moto, "
+    "bicicleta, camión, con sus ruedas), animales, y el objeto o el lugar que es el centro de la "
+    "noticia (un cartel con texto importante, un daño, un documento, un producto). Y `libres` = "
+    "las zonas SIN nada importante donde el texto se lee bien: cielo, piso, pasto, calle vacía, "
+    "pared lisa. Hasta 6 de cada una, las más grandes primero."
+)
+_CAJA = {"type": "array", "items": {"type": "integer"}}
+_ZONAS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "claves": {"type": "array", "items": {"type": "object", "properties": {
+            "que": {"type": "string"},
+            "tipo": {"type": "string", "enum": ["persona", "vehiculo", "animal", "objeto"]},
+            "box_2d": _CAJA}, "required": ["que", "tipo", "box_2d"]}},
+        "libres": {"type": "array", "items": {"type": "object", "properties": {
+            "que": {"type": "string"}, "box_2d": _CAJA}, "required": ["que", "box_2d"]}},
+    },
+    "required": ["claves", "libres"],
+}
+
+
+def zonas_foto(img, api_key: str = "", model: str = "") -> dict | None:
+    """{"claves": [(x, y, ancho, alto)], "libres": [...], "personas": [...]} en píxeles de `img`
+    (PIL): lo que una caja de texto no puede tapar, dónde conviene ponerla y cuáles de las
+    claves son personas (para descartar las «caras» que el detector ve en una moto). None si
+    no se pudo (el reel usa el detector propio de caras y de objeto central)."""
+    try:
+        import io
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        chica = img.convert("RGB")
+        chica.thumbnail((1024, 1024))
+        buf = io.BytesIO()
+        chica.save(buf, "JPEG", quality=85)
+        parte = {"inline_data": {"mime_type": "image/jpeg",
+                                 "data": base64.b64encode(buf.getvalue()).decode("ascii")}}
+        raw = _post_json([{"text": _ZONAS_PROMPT}, parte], key, model, _ZONAS_SCHEMA,
+                         key_pool=_gemini_keys(key), razonamiento="low")
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude marcar las zonas de la foto ({e}); va el detector propio.")
+        return None
+    w, h = img.size
+    out = {}
+    for clase in ("claves", "libres", "personas"):
+        cajas = []
+        lista = (raw.get(clase) or [] if clase != "personas" else
+                 [z for z in raw.get("claves") or [] if z.get("tipo") == "persona"])
+        for z in lista:
+            b = z.get("box_2d") or []
+            if len(b) != 4:
+                continue
+            y0, x0, y1, x1 = (max(0, min(1000, int(v))) for v in b)
+            if x1 - x0 < 5 or y1 - y0 < 5:
+                continue
+            cajas.append((round(x0 * w / 1000), round(y0 * h / 1000),
+                          round((x1 - x0) * w / 1000), round((y1 - y0) * h / 1000)))
+        out[clase] = cajas[:6]
+    logger.info("Zonas de la foto: claves "
+                + ", ".join(str(z.get("que", "")) for z in raw.get("claves") or [])
+                + " · libres " + ", ".join(str(z.get("que", "")) for z in raw.get("libres") or []))
+    return out
 
 
 _TITULAR_PROMPT = (
