@@ -15,7 +15,7 @@
     "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-17T22:20:22.000Z"
+   "visto": "2026-10-17T23:40:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 5,
-    "sent": 26
+    "scheduled": 0,
+    "sent": 31
    },
    "pausado": false,
-   "visto": "2026-10-17T22:20:22.000Z"
+   "visto": "2026-10-17T23:40:22.000Z"
   }
  },
  "contenidos": {
@@ -807,6 +807,27 @@
    "video_mb": 22.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4",
    "youtube_url": "https://www.youtube.com/shorts/9AnQyFzWN4k"
+  },
+  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": {
+   "descripcion": "En la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa correspondiente al Día de la Lealtad.\n\nDurante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista en las instalaciones de la entidad partidaria.",
+   "duracion_seg": 88.1,
+   "generado": "2026-10-17T23:31:28.000Z",
+   "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
+   "urgente": false,
+   "video_bytes": 33806591,
+   "video_mb": 32.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6bce2c61f08cdf64.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/gG3PSHmnFrU"
   },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
@@ -3841,6 +3862,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bloque-fuerza-patria-coty-alonso-fijo-postura-sobre-el-complejo",
    "volanta": "Bloque Fuerza Patria"
+  },
+  "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": {
+   "categoria": "",
+   "descripcion": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local En la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa por el Día de la Lealtad. Durante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista.",
+   "generado": "2026-10-17T23:30:46.054Z",
+   "id": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_866beb9e1066447285c344847731c04a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "volanta": "Chivilcoy · Política"
   },
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": {
    "categoria": "nacionales",
@@ -7427,22 +7466,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 249,
-   "segundos": 86400,
+   "restantes": 247,
+   "segundos": 81601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2754,
-   "segundos": 2069418,
+   "restantes": 2752,
+   "segundos": 2064618,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T22:20:22.000Z",
+ "cuota_visto": "2026-10-17T23:40:23.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -9347,18 +9386,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4"
   },
   "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x": {
-   "actualizado": "2026-10-17T21:00:21.000Z",
+   "actualizado": "2026-10-17T23:40:22.000Z",
    "buffer_id": "6ad3e1e60a208cb3233931e4",
    "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
    "creado": "2026-10-17T21:00:16.000Z",
    "dueAt": "2026-10-17T23:33:12.000Z",
+   "enviado": "2026-10-17T23:33:35.424Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T20:47:40.000Z",
    "id": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111601547356340425",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
    "origen": "bot",
    "plataforma": "x",
@@ -9371,6 +9411,58 @@
    "vence": "2026-10-19T20:47:40.000Z",
    "video_bytes": 23506073,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4"
+  },
+  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok": {
+   "actualizado": "2026-10-17T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
+   "creado": "2026-10-17T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T23:31:28.000Z",
+   "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local\n\nEn la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa correspondiente al Día de la Lealtad. Durante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista en las instalaciones de la entidad partidaria.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
+   "urgente": false,
+   "vence": "2026-10-19T23:31:28.000Z",
+   "video_bytes": 33806591,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6bce2c61f08cdf64.mp4"
+  },
+  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x": {
+   "actualizado": "2026-10-17T23:40:22.000Z",
+   "buffer_id": "6ad40767ae173d6e00d9d1c3",
+   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x",
+   "creado": "2026-10-17T23:40:13.000Z",
+   "dueAt": "2026-10-17T23:48:54.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T23:31:28.000Z",
+   "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local\n\nEn la sede del PJ de Chivilcoy se realizó el cierre de la jornada conmemorativa por el Día de la Lealtad. Los presentes finalizaron el acto en las instalaciones partidarias.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
+   "urgente": false,
+   "vence": "2026-10-19T23:31:28.000Z",
+   "video_bytes": 33806591,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6bce2c61f08cdf64.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -12349,18 +12441,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_04_chacabuco_secuestraron-ocho-autos-y-dos-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x": {
-   "actualizado": "2026-10-17T19:00:18.000Z",
+   "actualizado": "2026-10-17T23:40:22.000Z",
    "buffer_id": "6ad3c5c80a208cb32333f62e",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x",
    "creado": "2026-10-17T16:00:19.000Z",
    "dueAt": "2026-10-17T23:03:04.000Z",
+   "enviado": "2026-10-17T23:03:18.134Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111593925093839240",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-secuestraron-diez-vehiculos-y-retuvieron-licencias-en-8ded1e",
    "origen": "policiales",
    "plataforma": "x",
@@ -12705,18 +12798,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x": {
-   "actualizado": "2026-10-17T19:00:18.000Z",
+   "actualizado": "2026-10-17T23:40:22.000Z",
    "buffer_id": "6ad3c5c7938409f1d09c1297",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
    "creado": "2026-10-17T19:00:17.000Z",
    "dueAt": "2026-10-17T22:33:06.000Z",
+   "enviado": "2026-10-17T22:33:18.242Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111586375778615558",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
    "origen": "policiales",
    "plataforma": "x",
@@ -14857,18 +14951,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x": {
-   "actualizado": "2026-10-17T19:20:40.000Z",
+   "actualizado": "2026-10-17T23:40:22.000Z",
    "buffer_id": "6ad3ca89e272c4918f9b788c",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "2026-10-17T23:18:25.000Z",
+   "enviado": "2026-10-17T23:18:33.146Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111597762990989743",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
    "origen": "policiales",
    "plataforma": "x",
@@ -15258,6 +15353,32 @@
    "titulo": "Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una discusión para tenerla en 15 días cuando es algo que lleva más de 40 años sin finalizar”",
    "urgente": false,
    "vence": "2026-10-16T10:03:58.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x": {
+   "actualizado": "2026-10-17T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
+   "creado": "2026-10-17T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T23:30:46.054Z",
+   "id": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local\n\nEn la sede del Partido Justicialista de Chivilcoy se realizó el cierre de la jornada por el Día de la Lealtad. Los presentes concluyeron la actividad con la tradicional marcha.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
+   "urgente": false,
+   "vence": "2026-10-18T23:30:46.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -19018,18 +19139,19 @@
    "video_url": ""
   },
   "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x": {
-   "actualizado": "2026-10-17T19:00:18.000Z",
+   "actualizado": "2026-10-17T23:40:22.000Z",
    "buffer_id": "6ad3c5c7938409f1d09c12cd",
    "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
    "creado": "2026-10-17T18:40:12.000Z",
    "dueAt": "2026-10-17T22:48:16.000Z",
+   "enviado": "2026-10-17T22:48:31.244Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T18:36:07.463Z",
    "id": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111590204762968379",
    "nota_url": "https://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
    "origen": "web",
    "plataforma": "x",
@@ -20313,72 +20435,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
-   "cuando": "2026-10-15T13:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696879978113174790"
-  },
-  {
-   "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
-   "cuando": "2026-10-15T13:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110721291544044009"
-  },
-  {
-   "buffer_id": "6ad0d313ee1dd4cd5e4add8b",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
-   "cuando": "2026-10-15T13:20:19.000Z",
-   "dueAt": "2026-10-15T15:15:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0d7c1cd335deaefee72da",
-   "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
-   "cuando": "2026-10-15T13:40:17.000Z",
-   "dueAt": "2026-10-15T18:15:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|x",
-   "cuando": "2026-10-15T14:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|tiktok",
-   "cuando": "2026-10-15T14:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
-   "cuando": "2026-10-15T14:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|tiktok",
-   "cuando": "2026-10-15T14:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
-   "cuando": "2026-10-15T14:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok",
    "cuando": "2026-10-15T14:00:20.000Z",
@@ -24450,10 +24506,71 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x",
+   "cuando": "2026-10-17T23:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
+   "cuando": "2026-10-17T23:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
+   "cuando": "2026-10-17T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
+   "cuando": "2026-10-17T23:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111601547356340425"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x",
+   "cuando": "2026-10-17T23:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111593925093839240"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
+   "cuando": "2026-10-17T23:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111586375778615558"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
+   "cuando": "2026-10-17T23:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111597762990989743"
+  },
+  {
+   "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
+   "cuando": "2026-10-17T23:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111590204762968379"
+  },
+  {
+   "buffer_id": "6ad40767ae173d6e00d9d1c3",
+   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x",
+   "cuando": "2026-10-17T23:40:23.000Z",
+   "dueAt": "2026-10-17T23:48:54.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T22:20:22.000Z",
+ "ultima_sync": "2026-10-17T23:40:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -24493,6 +24610,7 @@
   "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4": "2026-10-17T00:20:12.000Z",
   "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4": "2026-10-17T02:20:17.000Z",
   "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4": "2026-10-17T21:00:16.000Z",
+  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": "2026-10-17T23:40:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -24627,6 +24745,7 @@
   "web:14487ca8-2475-41c1-b598-3490602d4ec8": "2026-10-14T21:20:14.000Z",
   "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a": "2026-10-16T10:20:16.000Z",
   "web:15858ae6-1837-4436-b8ed-3a098530f992": "2026-10-15T10:20:13.000Z",
+  "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": "2026-10-17T23:40:13.000Z",
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
   "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0": "2026-10-16T10:20:16.000Z",
   "web:18e1be80-a9ad-41f2-9e05-274978b011a3": "2026-10-17T19:20:13.000Z",
