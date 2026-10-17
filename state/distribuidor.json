@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 14
+    "scheduled": 6,
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-17T02:20:18.000Z"
+   "visto": "2026-10-17T10:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 0,
-    "sent": 43
+    "scheduled": 6,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-17T02:20:18.000Z"
+   "visto": "2026-10-17T10:20:15.000Z"
   }
  },
  "contenidos": {
@@ -3727,6 +3727,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquetbol-liga-nacional-racing-de-chivilcoy-piso-fuerte-en-obera-y",
    "volanta": "Basquetbol"
   },
+  "web:1aebaa22-868e-46df-ae05-8c08cc674c03": {
+   "categoria": "",
+   "descripcion": "Una nueva resolución permite a los entes sanitarios comercializar los dispositivos electrónicos y registrar los datos del rodeo.",
+   "generado": "2026-10-17T10:03:06.615Z",
+   "id": "web:1aebaa22-868e-46df-ae05-8c08cc674c03",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fd7c5e4859d94ac68f904b3f2201c68f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
+   "volanta": ""
+  },
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": {
    "categoria": "nacionales",
    "descripcion": "La Administración Nacional de la Seguridad Social efectiviza este jueves los pagos de jubilaciones, pensiones y asignaciones con un incremento del 1,66% y…",
@@ -6917,21 +6935,21 @@
  "cuota": {
   "15m": {
    "restantes": 98,
-   "segundos": 895,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 46791,
+   "restantes": 236,
+   "segundos": 42004,
    "tope": 250
   },
   "30d": {
-   "restantes": 2781,
-   "segundos": 2117412,
+   "restantes": 2779,
+   "segundos": 2112625,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T09:00:31.000Z",
+ "cuota_visto": "2026-10-17T10:20:16.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8618,18 +8636,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_17e7a2be1d7ae912.mp4"
   },
   "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x": {
-   "actualizado": "2026-10-17T09:00:20.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "6ad33929938409f1d07a4a81",
    "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
    "creado": "2026-10-17T00:20:12.000Z",
    "dueAt": "2026-10-17T10:15:16.000Z",
+   "enviado": "2026-10-17T10:15:36.620Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T00:12:27.000Z",
    "id": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111400729093034087",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
    "origen": "bot",
    "plataforma": "x",
@@ -8668,18 +8687,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9b662011e549aef2.mp4"
   },
   "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x": {
-   "actualizado": "2026-10-17T09:00:20.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "6ad339280b0d72757acc3257",
    "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x",
    "creado": "2026-10-17T02:20:17.000Z",
    "dueAt": "2026-10-17T10:00:14.000Z",
+   "enviado": "2026-10-17T10:01:35.124Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T02:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111397199347126749",
    "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-tenis-maximo-cataldi-clasifico-a-semifinales-del-ao-junior",
    "origen": "bot",
    "plataforma": "x",
@@ -13957,7 +13977,7 @@
    "creado": "2026-10-16T23:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T23:33:32.498Z",
    "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
@@ -13976,14 +13996,14 @@
    "video_url": ""
   },
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x": {
-   "actualizado": "2026-10-17T00:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T10:20:15.000Z",
+   "buffer_id": "6ad34be0dd83363c4dc8ea61",
    "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
    "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T13:45:09.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T00:03:17.106Z",
    "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
    "intentos": 0,
@@ -14153,14 +14173,14 @@
    "video_url": ""
   },
   "web:12954328-2406-4753-ade8-612eaeebeb3a|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:12954328-2406-4753-ade8-612eaeebeb3a|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:02:52.022Z",
    "id": "web:12954328-2406-4753-ade8-612eaeebeb3a",
    "intentos": 0,
@@ -14227,14 +14247,14 @@
    "video_url": ""
   },
   "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:03:37.200Z",
    "id": "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a",
    "intentos": 0,
@@ -14399,6 +14419,31 @@
    "titulo": "Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa",
    "urgente": false,
    "vence": "2026-10-16T10:06:49.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x": {
+   "actualizado": "2026-10-17T10:20:15.000Z",
+   "buffer_id": "6ad34bdf0b0d72757ad0b285",
+   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
+   "creado": "2026-10-17T10:20:15.000Z",
+   "dueAt": "2026-10-17T13:30:06.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T10:03:06.615Z",
+   "id": "web:1aebaa22-868e-46df-ae05-8c08cc674c03",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina\n\nUna nueva resolución permite a los entes sanitarios comercializar los dispositivos electrónicos y registrar los datos del rodeo.\n\nhttps://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
+   "tipo": "nota",
+   "titulo": "El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina",
+   "urgente": false,
+   "vence": "2026-10-18T10:03:06.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -15238,14 +15283,14 @@
    "video_url": ""
   },
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:01:32.375Z",
    "id": "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018",
    "intentos": 0,
@@ -15665,14 +15710,14 @@
    "video_url": ""
   },
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:6c2dee19-96b1-4489-897a-ad0acfed084b|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:02:12.271Z",
    "id": "web:6c2dee19-96b1-4489-897a-ad0acfed084b",
    "intentos": 0,
@@ -16753,14 +16798,14 @@
    "video_url": ""
   },
   "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:03:14.569Z",
    "id": "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef",
    "intentos": 0,
@@ -17558,14 +17603,14 @@
    "video_url": ""
   },
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:09:07.458Z",
    "id": "web:c546061b-2a6f-44e9-b39f-577c4f187d8e",
    "intentos": 0,
@@ -18316,14 +18361,14 @@
    "video_url": ""
   },
   "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x": {
-   "actualizado": "2026-10-16T10:20:16.000Z",
+   "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
    "clave": "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x",
    "creado": "2026-10-16T10:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T10:04:20.078Z",
    "id": "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c",
    "intentos": 0,
@@ -18868,85 +18913,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
-   "cuando": "2026-10-14T22:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
-   "cuando": "2026-10-14T22:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
-   "cuando": "2026-10-14T22:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad000232a2f648468f17ef0",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
-   "cuando": "2026-10-14T22:20:19.000Z",
-   "dueAt": "2026-10-15T02:15:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad00023097897a778db64d7",
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
-   "cuando": "2026-10-14T22:20:19.000Z",
-   "dueAt": "2026-10-15T02:30:26.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad004cfecf932275358cab5",
-   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
-   "cuando": "2026-10-14T22:40:15.000Z",
-   "dueAt": "2026-10-15T02:45:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:ce9c9291-5b63-4246-99f4-6095ce88b357|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110491324742881623"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110502300342968424"
-  },
-  {
-   "clave": "entrevistas:job00206|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110498680281108919"
-  },
-  {
-   "clave": "entrevistas:job00207|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110494815519477980"
-  },
-  {
-   "clave": "entrevistas:job00208|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110506610531385718"
-  },
   {
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
    "cuando": "2026-10-14T23:20:14.000Z",
@@ -23042,10 +23008,86 @@
    "cuando": "2026-10-17T10:00:16.000Z",
    "evento": "vencido",
    "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:12954328-2406-4753-ade8-612eaeebeb3a|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:6c2dee19-96b1-4489-897a-ad0acfed084b|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111400729093034087"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x",
+   "cuando": "2026-10-17T10:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111397199347126749"
+  },
+  {
+   "buffer_id": "6ad34bdf0b0d72757ad0b285",
+   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
+   "cuando": "2026-10-17T10:20:16.000Z",
+   "dueAt": "2026-10-17T13:30:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad34be0dd83363c4dc8ea61",
+   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
+   "cuando": "2026-10-17T10:20:16.000Z",
+   "dueAt": "2026-10-17T13:45:09.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T02:20:18.000Z",
+ "ultima_sync": "2026-10-17T10:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -23215,6 +23257,7 @@
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
+  "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",

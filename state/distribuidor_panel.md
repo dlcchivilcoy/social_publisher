@@ -1,26 +1,25 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 3 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 4 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 43 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 14 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
+- TikTok: conectado · Buffer: 0 enviadas + 6 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2781 de 3000 (visto 2026-10-17T09:00:31.000Z)
+15m: quedan 98 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2779 de 3000 (visto 2026-10-17T10:20:16.000Z)
 
-## Cola propia (38 esperando)
-- X · Notas web · Gustavo Sylvestre presentó su libro en Chivilcoy — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argent — cupo diario de Notas web en X completo (15)
+## Cola propia (30 esperando)
+- X · Notas web · Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argent — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Notas web en X completo (15)
 - X · Reels policiales · Fuego en un edificio del centro por un desperfecto eléctrico — en turno
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
@@ -44,11 +43,12 @@ Actualizado: 17/10/2026 07:00 (hora AR) · ACTIVO
 - X · Notas web · Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2, — cupo diario de Notas web en X completo (15)
 - X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — cupo diario de Notas web en X completo (15)
 - X · Notas web · Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la — cupo diario de Notas web en X completo (15)
-- X · Notas web · La salud y el deporte se unen en Chivilcoy en una jornada solidaria de concienti — cupo diario de Notas web en X completo (15)
-- X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — cupo diario de Notas web en X completo (15)
-- X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — cupo diario de Notas web en X completo (15)
-- X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — cupo diario de Notas web en X completo (15)
-- X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — cupo diario de Notas web en X completo (15)
+- X · Notas web · Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer  — cupo diario de Notas web en X completo (15)
+- X · Notas web · Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bul — cupo diario de Notas web en X completo (15)
+- X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — cupo diario de Notas web en X completo (15)
+- X · Notas web · La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV — cupo diario de Notas web en X completo (15)
+- X · Notas web · Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se  — cupo diario de Notas web en X completo (15)
+- X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,18 +59,6 @@ Actualizado: 17/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T02:20 enviado policiales:https://www.diariojunin.com/noticias/102844_el-go 
-- 2026-10-17T02:20 enviado policiales:https://www.diariojunin.com/noticias/102846_abige 
-- 2026-10-17T02:20 enviado policiales:https://www.junindigital.com/ciudad/2026-10-16-19 
-- 2026-10-17T09:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-17T09:00 recibido policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-17T09:00 recibido policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
-- 2026-10-17T09:00 recibido policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
-- 2026-10-17T09:00 recibido policiales:https://semanariodejunin.com.ar/nota/75601/hallar 
-- 2026-10-17T09:00 recibido policiales:https://semanariodejunin.com.ar/nota/75601/hallar 
-- 2026-10-17T09:00 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/ tope de 15 publicaciones en 24 h de TikTok
-- 2026-10-17T09:00 programado bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x 
-- 2026-10-17T09:00 programado bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x 
 - 2026-10-17T09:00 programado bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x 
 - 2026-10-17T09:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x 
 - 2026-10-17T09:00 programado policiales:https://semanariodejunin.com.ar/nota/75601/hallar 
@@ -84,3 +72,15 @@ Actualizado: 17/10/2026 07:00 (hora AR) · ACTIVO
 - 2026-10-17T09:00 programado policiales:https://www.diariojunin.com/noticias/102844_el-go 
 - 2026-10-17T09:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
 - 2026-10-17T10:00 vencido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-17T10:20 recibido web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
+- 2026-10-17T10:20 vencido web:12954328-2406-4753-ade8-612eaeebeb3a|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 vencido web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 vencido web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 vencido web:6c2dee19-96b1-4489-897a-ad0acfed084b|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 vencido web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 vencido web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 vencido web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T10:20 enviado bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x 
+- 2026-10-17T10:20 enviado bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x 
+- 2026-10-17T10:20 programado web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
+- 2026-10-17T10:20 programado web:074bc093-e566-4d4d-8d42-0dcd34171beb|x 
