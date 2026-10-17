@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,10 +19,10 @@ Actualizado: 16/10/2026 21:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2787 de 3000 (visto 2026-10-17T00:20:13.000Z)
 
 ## Cola propia (43 esperando)
-- X · Reels del bot · José Ferro admitió que su espacio se equivocó al respaldar a SENTRA — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · José Ferro admitió que su espacio se equivocó al respaldar a SENTRA — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — cupo diario de Reels del bot en X completo (10)
+- X · Reels del bot · José Ferro admitió que su espacio se equivocó al respaldar a SENTRA — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — cupo diario de Reels del bot en X completo (10)
 - X · Reels del bot · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Reels del bot en X completo (10)
 - X · Reels del bot · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — tope de 15 publicaciones en 24 h de TikTok
