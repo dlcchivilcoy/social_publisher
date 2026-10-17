@@ -11,7 +11,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-17T14:40:12.000Z"
+   "visto": "2026-10-17T15:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 13
+    "scheduled": 4,
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-10-17T14:40:12.000Z"
+   "visto": "2026-10-17T15:40:15.000Z"
   }
  },
  "contenidos": {
@@ -6505,6 +6505,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
    "volanta": "De Córdoba al país"
   },
+  "web:d9d5c19d-7cdc-4599-9431-674725b57a40": {
+   "categoria": "nacionales",
+   "descripcion": "En el marco del Día de la Lealtad, el Partido Justicialista lanzó un duro comunicado donde comparó la condena a la expresidenta con el destierro histórico…",
+   "generado": "2026-10-17T15:36:16.807Z",
+   "id": "web:d9d5c19d-7cdc-4599-9431-674725b57a40",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_585c1dac66614762aff23ab868497eb3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan Domingo Perón",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
+   "volanta": ""
+  },
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c": {
    "categoria": "nacionales",
    "descripcion": "Unos 184 mil matriculados federales acudirán a las urnas para definir cuatro bancas del organismo que selecciona y sanciona jueces.",
@@ -7048,22 +7066,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 224,
-   "segundos": 26407,
+   "restantes": 223,
+   "segundos": 22804,
    "tope": 250
   },
   "30d": {
-   "restantes": 2767,
-   "segundos": 2097028,
+   "restantes": 2766,
+   "segundos": 2093425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T14:40:13.000Z",
+ "cuota_visto": "2026-10-17T15:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -11596,18 +11614,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|x": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "6ad37612ae173d6e00b9b192",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|x",
    "creado": "2026-10-17T12:20:16.000Z",
    "dueAt": "2026-10-17T15:00:13.000Z",
+   "enviado": "2026-10-17T15:02:57.947Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T12:11:01.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111473044342337929",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-incidentes-y-disparos-de-estruendo-de-la-policia-a-la-1b03d9",
    "origen": "policiales",
    "plataforma": "x",
@@ -14805,18 +14824,19 @@
    "video_url": ""
   },
   "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x": {
-   "actualizado": "2026-10-17T13:40:13.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "6ad37abd769b4579347c4e42",
    "clave": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x",
    "creado": "2026-10-17T12:40:14.000Z",
    "dueAt": "2026-10-17T15:30:02.000Z",
+   "enviado": "2026-10-17T15:30:50.648Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T12:36:26.146Z",
    "id": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111480059731075384",
    "nota_url": "https://www.diariolacampaña.com.ar/n/vtv-en-la-ciudad-extienden-las-concesiones-actuales-por-dos-ec77bc",
    "origen": "web",
    "plataforma": "x",
@@ -15665,18 +15685,19 @@
    "video_url": ""
   },
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x": {
-   "actualizado": "2026-10-17T11:20:16.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "6ad359f20b0d72757ad4388c",
    "clave": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x",
    "creado": "2026-10-16T21:20:13.000Z",
    "dueAt": "2026-10-17T14:45:13.000Z",
+   "enviado": "2026-10-17T14:45:16.474Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T21:03:57.400Z",
    "id": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111468591627305077",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
    "origen": "web",
    "plataforma": "x",
@@ -15791,18 +15812,19 @@
    "video_url": ""
   },
   "web:61fa0efb-5787-4c59-bce8-a86006933cfa|x": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "6ad37612ae173d6e00b9b1c3",
    "clave": "web:61fa0efb-5787-4c59-bce8-a86006933cfa|x",
    "creado": "2026-10-17T13:20:16.000Z",
    "dueAt": "2026-10-17T15:15:22.000Z",
+   "enviado": "2026-10-17T15:15:31.387Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T13:06:26.505Z",
    "id": "web:61fa0efb-5787-4c59-bce8-a86006933cfa",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111476204154880436",
    "nota_url": "https://www.diariolacampaña.com.ar/n/piden-un-exhorto-a-suiza-para-investigar-transferencias-de-la-9e789b",
    "origen": "web",
    "plataforma": "x",
@@ -16474,14 +16496,14 @@
    "video_url": ""
   },
   "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x": {
-   "actualizado": "2026-10-16T15:40:14.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "",
    "clave": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T15:29:58.842Z",
    "id": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d",
    "intentos": 0,
@@ -17861,14 +17883,14 @@
    "video_url": ""
   },
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x": {
-   "actualizado": "2026-10-16T15:40:14.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "",
    "clave": "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T15:32:58.098Z",
    "id": "web:c07869bb-4b38-46ca-ad18-588d0b35d614",
    "intentos": 0,
@@ -18468,6 +18490,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x": {
+   "actualizado": "2026-10-17T15:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x",
+   "creado": "2026-10-17T15:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T15:36:16.807Z",
+   "id": "web:d9d5c19d-7cdc-4599-9431-674725b57a40",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan Domingo Perón\n\nEn el marco del Día de la Lealtad, el Partido Justicialista lanzó un duro comunicado donde comparó la condena a la expresidenta con el destierro histórico…\n\nhttps://www.diariolacampaña.com.ar/n/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
+   "tipo": "nota",
+   "titulo": "El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan Domingo Perón",
+   "urgente": false,
+   "vence": "2026-10-18T15:36:16.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c|x": {
    "actualizado": "2026-10-17T12:40:15.000Z",
    "buffer_id": "",
@@ -18970,14 +19017,14 @@
    "video_url": ""
   },
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x": {
-   "actualizado": "2026-10-16T15:40:14.000Z",
+   "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "",
    "clave": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x",
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T15:36:30.410Z",
    "id": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b",
    "intentos": 0,
@@ -19221,59 +19268,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110558923186950458"
-  },
-  {
-   "clave": "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110562621149606092"
-  },
-  {
-   "clave": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110547586339799222"
-  },
-  {
-   "buffer_id": "6ad096295ca32ad3c7eeb45f",
-   "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x",
-   "cuando": "2026-10-15T09:00:29.000Z",
-   "dueAt": "2026-10-15T10:00:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad096296295ecc932f752fd",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
-   "cuando": "2026-10-15T09:00:29.000Z",
-   "dueAt": "2026-10-15T10:15:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0962a62b039d57d4a8b0c",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
-   "cuando": "2026-10-15T09:00:29.000Z",
-   "dueAt": "2026-10-15T10:30:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0962ade79014f82c8394b",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
-   "cuando": "2026-10-15T09:00:29.000Z",
-   "dueAt": "2026-10-15T10:45:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0962b675f058f0b415b63",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
-   "cuando": "2026-10-15T09:00:29.000Z",
-   "dueAt": "2026-10-15T11:00:39.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad0962cde79014f82c83ba7",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
@@ -23357,10 +23351,60 @@
    "cuando": "2026-10-17T15:20:13.000Z",
    "evento": "vencido",
    "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111473044342337929"
+  },
+  {
+   "clave": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111480059731075384"
+  },
+  {
+   "clave": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111468591627305077"
+  },
+  {
+   "clave": "web:61fa0efb-5787-4c59-bce8-a86006933cfa|x",
+   "cuando": "2026-10-17T15:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111476204154880436"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T14:40:12.000Z",
+ "ultima_sync": "2026-10-17T15:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -23685,6 +23729,7 @@
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
   "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b": "2026-10-16T10:20:16.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
+  "web:d9d5c19d-7cdc-4599-9431-674725b57a40": "2026-10-17T15:40:15.000Z",
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c": "2026-10-16T12:40:14.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
