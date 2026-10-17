@@ -6319,6 +6319,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
    "volanta": "Tragedia en la Ruta 5"
   },
+  "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": {
+   "categoria": "nacionales",
+   "descripcion": "La iniciativa oficialista que endurece penas por extraer recursos en el Atlántico Sur tuvo demoras en Diputados. Los libertarios negocian modificaciones…",
+   "generado": "2026-10-17T16:06:13.676Z",
+   "id": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_03cb4a3ef60046b998618146e63697a9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-busca-dictamen-para-el-proyecto-sobre-malvinas-bd3726",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-oficialismo-busca-dictamen-para-el-proyecto-sobre-malvinas-bd3726",
+   "volanta": ""
+  },
   "web:ce42efb6-366a-4469-b255-64d747973441": {
    "categoria": "",
    "descripcion": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil El tenis juvenil argentino tiene a un protagonista que brilla con fuerza en tierras brasileñas. Máximo Cataldi comenzó su participación en el South America Junior Series de manera arrolladora y se metió de lleno en la pelea por el gran objetivo: conseguir el boleto al cuadro juvenil del Australian Open. En su presentación dentro de la fase de grupos, el joven tenista nacional mostró autoridad frente al brasileño Augusto...",
@@ -15109,14 +15127,14 @@
    "video_url": ""
   },
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x": {
-   "actualizado": "2026-10-16T16:20:15.000Z",
+   "actualizado": "2026-10-17T16:20:29.000Z",
    "buffer_id": "",
    "clave": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x",
    "creado": "2026-10-16T16:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T16:06:30.064Z",
    "id": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6",
    "intentos": 0,
@@ -18325,6 +18343,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x": {
+   "actualizado": "2026-10-17T16:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x",
+   "creado": "2026-10-17T16:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T16:06:13.676Z",
+   "id": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-busca-dictamen-para-el-proyecto-sobre-malvinas-bd3726",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados\n\nLa iniciativa oficialista que endurece penas por extraer recursos en el Atlántico Sur tuvo demoras en Diputados.\n\nhttps://www.diariolacampaña.com.ar/n/el-oficialismo-busca-dictamen-para-el-proyecto-sobre-malvinas-bd3726",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados",
+   "urgente": false,
+   "vence": "2026-10-18T16:06:13.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:ce42efb6-366a-4469-b255-64d747973441|x": {
    "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a89597cd166275046c",
@@ -19439,22 +19483,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
-   "cuando": "2026-10-15T10:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x",
    "cuando": "2026-10-15T10:20:15.000Z",
@@ -23563,6 +23591,20 @@
    "cuando": "2026-10-17T16:01:44.000Z",
    "dueAt": "2026-10-17T16:30:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x",
+   "cuando": "2026-10-17T16:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x",
+   "cuando": "2026-10-17T16:20:29.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -23880,6 +23922,7 @@
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": "2026-10-14T10:20:15.000Z",
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
+  "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": "2026-10-17T16:20:14.000Z",
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",

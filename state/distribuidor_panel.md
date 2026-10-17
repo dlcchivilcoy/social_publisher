@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 1 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 0 | 4 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 3 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 9 | 3 | 3 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 17 enviadas + 4 programadas de 50 por día
@@ -20,8 +20,9 @@ Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
 
 ## Cola propia (19 esperando)
 - TikTok · Reels policiales · Detuvieron a tres personas y secuestraron dólares por un asalto — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 47 publicaciones en 24 h de X
 - TikTok · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 47 publicaciones en 24 h de X
+- X · Notas web · El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados — tope de 47 publicaciones en 24 h de X
 - X · Notas web · El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la  — tope de 47 publicaciones en 24 h de X
 - TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
@@ -37,7 +38,6 @@ Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
 - X · Notas web · Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2, — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la — tope de 47 publicaciones en 24 h de X
-- X · Notas web · Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer  — tope de 47 publicaciones en 24 h de X
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -48,8 +48,6 @@ Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T14:40 enviado web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
-- 2026-10-17T14:40 enviado web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x 
 - 2026-10-17T14:40 programado web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
 - 2026-10-17T15:20 recibido web:36f35444-e990-4d78-aeea-920acd95d869|x 
 - 2026-10-17T15:20 recibido web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
@@ -73,3 +71,5 @@ Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
 - 2026-10-17T16:01 vencido web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x tope de 47 publicaciones en 24 h de X
 - 2026-10-17T16:01 programado web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
 - 2026-10-17T16:01 programado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
+- 2026-10-17T16:20 recibido web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x 
+- 2026-10-17T16:20 vencido web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x tope de 47 publicaciones en 24 h de X
