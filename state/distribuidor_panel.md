@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 06:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 07:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,7 +18,7 @@ Actualizado: 17/10/2026 06:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2781 de 3000 (visto 2026-10-17T09:00:31.000Z)
 
-## Cola propia (39 esperando)
+## Cola propia (38 esperando)
 - X · Notas web · Gustavo Sylvestre presentó su libro en Chivilcoy — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argent — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Centro de Primera Infancia celebró el Día de la Familia — cupo diario de Notas web en X completo (15)
@@ -41,7 +41,6 @@ Actualizado: 17/10/2026 06:40 (hora AR) · ACTIVO
 - X · Notas web · Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Una mujer herida tras un choque de motos en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución d — cupo diario de Notas web en X completo (15)
-- TikTok · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2, — cupo diario de Notas web en X completo (15)
 - X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — cupo diario de Notas web en X completo (15)
 - X · Notas web · Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la — cupo diario de Notas web en X completo (15)
@@ -49,6 +48,7 @@ Actualizado: 17/10/2026 06:40 (hora AR) · ACTIVO
 - X · Notas web · El Club de Leones y el Rally Regional impulsan una colecta de alimentos — cupo diario de Notas web en X completo (15)
 - X · Notas web · Campaña de soja 2025/26: arranca la siembra táctica con 4,5 millones de hectárea — cupo diario de Notas web en X completo (15)
 - X · Notas web · Britos anunció que la Justicia “ordenó restituir al Municipio la nave industrial — cupo diario de Notas web en X completo (15)
+- X · Notas web · Un aprehendido por robos reiterados y una mujer por encubrimiento. Se esclareció — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,7 +59,6 @@ Actualizado: 17/10/2026 06:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T02:20 enviado bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok 
 - 2026-10-17T02:20 enviado policiales:https://www.diariojunin.com/noticias/102844_el-go 
 - 2026-10-17T02:20 enviado policiales:https://www.diariojunin.com/noticias/102846_abige 
 - 2026-10-17T02:20 enviado policiales:https://www.junindigital.com/ciudad/2026-10-16-19 
@@ -84,3 +83,4 @@ Actualizado: 17/10/2026 06:40 (hora AR) · ACTIVO
 - 2026-10-17T09:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tikto 
 - 2026-10-17T09:00 programado policiales:https://www.diariojunin.com/noticias/102844_el-go 
 - 2026-10-17T09:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
+- 2026-10-17T10:00 vencido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta tope de 15 publicaciones en 24 h de TikTok

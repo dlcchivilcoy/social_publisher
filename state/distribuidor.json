@@ -9747,14 +9747,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_03_general-arenales_piden-investigar-a-julio-igles.mp4"
   },
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok": {
-   "actualizado": "2026-10-16T16:00:18.000Z",
+   "actualizado": "2026-10-17T10:00:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok",
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T15:41:32.000Z",
    "id": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/",
    "intentos": 0,
@@ -18869,14 +18869,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
-   "cuando": "2026-10-14T22:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
    "cuando": "2026-10-14T22:20:17.000Z",
    "estado": "pendiente",
@@ -23044,6 +23036,12 @@
    "cuando": "2026-10-17T09:00:31.000Z",
    "dueAt": "2026-10-17T14:20:45.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok",
+   "cuando": "2026-10-17T10:00:16.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
