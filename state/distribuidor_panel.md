@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 3 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 3 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 5 | 0 | 0 | 0 |
@@ -18,7 +18,9 @@ Actualizado: 17/10/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2762 de 3000 (visto 2026-10-17T17:20:36.000Z)
 
-## Cola propia (18 esperando)
+## Cola propia (20 esperando)
+- X · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 47 publicaciones en 24 h de X
+- TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels del bot · Servicios Públicos repone contenedores y avanza con mejoras en plazas — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Chivilcoy · Servicios Públicos — tope de 47 publicaciones en 24 h de X
@@ -47,8 +49,6 @@ Actualizado: 17/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
-- 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
 - 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
 - 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
 - 2026-10-17T16:01 texto_rehecho policiales:https://www.presentenoticias.com/noticias/2026/10 
@@ -72,3 +72,5 @@ Actualizado: 17/10/2026 14:20 (hora AR) · ACTIVO
 - 2026-10-17T17:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
 - 2026-10-17T17:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
 - 2026-10-17T17:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
+- 2026-10-17T17:40 recibido bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x 
+- 2026-10-17T17:40 recibido bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tikto 

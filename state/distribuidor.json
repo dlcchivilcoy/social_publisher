@@ -636,6 +636,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4",
    "youtube_url": "https://www.youtube.com/shorts/xqWdXbCx0BU"
   },
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": {
+   "descripcion": "En el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-17T17:21:29.000Z",
+   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
+   "urgente": false,
+   "video_bytes": 779667,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/5JWQzOkUeVY"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -8713,6 +8734,58 @@
    "vence": "2026-10-19T17:01:22.000Z",
    "video_bytes": 1832769,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
+  },
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok": {
+   "actualizado": "2026-10-17T17:40:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok",
+   "creado": "2026-10-17T17:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T17:21:29.000Z",
+   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Capacitaron al personal de los hogares municipales en control de infecciones\n\nEn el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
+   "urgente": false,
+   "vence": "2026-10-19T17:21:29.000Z",
+   "video_bytes": 779667,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
+  },
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x": {
+   "actualizado": "2026-10-17T17:40:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
+   "creado": "2026-10-17T17:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T17:21:29.000Z",
+   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Capacitaron al personal de los hogares municipales en control de infecciones\n\nEl personal de ambos hogares participó en una capacitación sobre Prevención y Control de Infecciones para fortalecer la seguridad sanitaria de las personas mayores.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
+   "urgente": false,
+   "vence": "2026-10-19T17:21:29.000Z",
+   "video_bytes": 779667,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -19649,18 +19722,6 @@
  },
  "registro": [
   {
-   "clave": "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:84b5112d-aa11-45e0-b614-d5bb307939e1|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
    "clave": "web:92431890-c8e8-4999-9e83-03174b736b52|x",
    "cuando": "2026-10-15T10:20:16.000Z",
    "evento": "vencido",
@@ -23764,6 +23825,22 @@
    "cuando": "2026-10-17T17:20:36.000Z",
    "dueAt": "2026-10-17T19:23:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
+   "cuando": "2026-10-17T17:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok",
+   "cuando": "2026-10-17T17:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -23799,6 +23876,7 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": "2026-10-16T21:20:13.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
