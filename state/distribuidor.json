@@ -1945,6 +1945,30 @@
    "volanta": "Violencia escolar en La Matanza",
    "youtube_url": "https://youtube.com/shorts/aQxb4w-XsN0"
   },
+  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos": {
+   "categoria": "desaparicion",
+   "descripcion": "El hombre era buscado tras desaparecer en Pehuajó. Su vehículo fue localizado en una calle urbana y la pesquisa derivó en un domicilio donde se produjo el arresto.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos",
+   "localidad": "Pehuajó",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-cbc776",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "texto_tiktok": "El jubilado Hugo Juárez fue encontrado sin vida en la localidad de Pehuajó tras varios días de intensa búsqueda.\n\nSu automóvil había sido hallado estacionado en una calle céntrica, lo que alertó a los investigadores.\n\nTras una serie de averiguaciones, la policía allanó una vivienda donde hallaron el cuerpo y detuvieron a un joven de 27 años vinculado al hecho.\n\n📲 Más noticias de Pehuajó en www.diariolacampaña.com.ar\n\n#Pehuajo #Policiales #Investigacion #BuenosAires",
+   "tipo": "video",
+   "titulo": "Encontraron muerto al jubilado Hugo Juárez y hay un detenido de 27 años",
+   "urgente": false,
+   "video_bytes": 102479,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4",
+   "volanta": "Hallazgo trágico en Pehuajó",
+   "youtube_url": "https://youtube.com/shorts/S_FSlbIokQ8"
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": {
    "categoria": "robo",
    "descripcion": "El rodado de color negro había sido dejado estacionado en la vía pública por su dueño. Los delincuentes se lo llevaron durante la madrugada.",
@@ -2040,6 +2064,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_06_bragado_investigan-el-robo-de-un-auto-.mp4",
    "volanta": "Robo en Bragado",
    "youtube_url": ""
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": {
+   "categoria": "incendio",
+   "descripcion": "Bomberos voluntarios acudieron anoche a un inmueble céntrico tras detectarse fuego en el aparato refrigerante de un tercer piso. No hubo heridos.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Un foco ígneo se desató la noche del viernes en un edificio situado en calle Pellegrini al 1400.\n\nLas llamas afectaron al aparato refrigerante colocado en el tercer nivel del inmueble céntrico.\n\nPersonal del cuartel local intervino de inmediato y neutralizó el peligro sin que se registraran víctimas.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Incendio #BomberosVoluntarios #BuenosAires",
+   "tipo": "video",
+   "titulo": "Fuego en un edificio del centro por un desperfecto eléctrico",
+   "urgente": false,
+   "video_bytes": 96669,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4",
+   "volanta": "Incendio en Bragado",
+   "youtube_url": "https://youtube.com/shorts/h5tNmVsk9Rc"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": {
    "categoria": "robo",
@@ -3312,6 +3360,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_03_bolivar_hallaron-sin-vida-a-un-hombre-.mp4",
    "volanta": "Bolívar",
    "youtube_url": "https://youtube.com/shorts/wk2v_Gv9aVs"
+  },
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": {
+   "categoria": "incendio",
+   "descripcion": "El fuego se desató el viernes por la noche en una vivienda ubicada en la calle Rafael Obligado. Los propietarios resultaron ilesos y el foco ígneo no causó daños materiales.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
+   "localidad": "Bolívar",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "texto_tiktok": "Un llamado de alerta movilizó a los bomberos y fuerzas de seguridad hacia una vivienda del barrio Los Zorzales en Bolívar.\n\nLas llamas comenzaron cerca de las 22 horas del viernes sobre la calle Rafael Obligado.\n\nEl foco ígneo pudo ser controlado a tiempo y los dueños de casa no sufrieron lesiones.\n\n📲 Más noticias de Bolívar en www.diariolacampaña.com.ar\n\n#Bolivar #Incendio #BomberosVoluntarios #BuenosAires",
+   "tipo": "video",
+   "titulo": "Principio de incendio en una casa del barrio Los Zorzales",
+   "urgente": false,
+   "video_bytes": 86336,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4",
+   "volanta": "Incendio en Bolívar",
+   "youtube_url": "https://youtube.com/shorts/vxxgXXK-YAY"
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": {
    "categoria": "",
@@ -6844,22 +6916,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 895,
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 70801,
+   "restantes": 238,
+   "segundos": 46791,
    "tope": 250
   },
   "30d": {
-   "restantes": 2783,
-   "segundos": 2141422,
+   "restantes": 2781,
+   "segundos": 2117412,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T02:20:18.000Z",
+ "cuota_visto": "2026-10-17T09:00:31.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8161,14 +8233,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b8db04dc41f31b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok": {
-   "actualizado": "2026-10-16T21:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392e938409f1d07a4dbc",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
    "creado": "2026-10-16T21:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T13:00:59.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T20:57:34.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
    "intentos": 0,
@@ -8238,14 +8310,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x": {
-   "actualizado": "2026-10-16T21:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392bdd83363c4dc48814",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
    "creado": "2026-10-16T21:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T11:15:24.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T21:06:15.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc",
    "intentos": 0,
@@ -8289,14 +8361,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x": {
-   "actualizado": "2026-10-16T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392a938409f1d07a4b3a",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
    "creado": "2026-10-16T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T10:45:33.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T23:18:11.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b",
    "intentos": 0,
@@ -8470,14 +8542,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
   },
   "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok": {
-   "actualizado": "2026-10-17T00:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392cae173d6e00abd626",
    "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
    "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T11:40:08.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T00:03:57.000Z",
    "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
    "intentos": 0,
@@ -8495,14 +8567,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b747335cc73d9a04.mp4"
   },
   "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x": {
-   "actualizado": "2026-10-17T00:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad339290a208cb32311cc24",
    "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
    "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T10:30:41.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T00:03:57.000Z",
    "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
    "intentos": 0,
@@ -8546,14 +8618,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_17e7a2be1d7ae912.mp4"
   },
   "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x": {
-   "actualizado": "2026-10-17T00:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad33929938409f1d07a4a81",
    "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
    "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T10:15:16.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T00:12:27.000Z",
    "id": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4",
    "intentos": 0,
@@ -8571,14 +8643,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_17e7a2be1d7ae912.mp4"
   },
   "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|tiktok": {
-   "actualizado": "2026-10-17T02:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392c769b4579346ccce9",
    "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|tiktok",
    "creado": "2026-10-17T02:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T11:00:34.000Z",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T02:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4",
    "intentos": 0,
@@ -8596,14 +8668,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9b662011e549aef2.mp4"
   },
   "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x": {
-   "actualizado": "2026-10-17T02:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad339280b0d72757acc3257",
    "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x",
    "creado": "2026-10-17T02:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T10:00:14.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T02:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4",
    "intentos": 0,
@@ -10793,6 +10865,56 @@
    "video_bytes": 85999,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_03_junin_bale-a-un-compa-ero-dentro-de-.mp4"
   },
+  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok": {
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392d938409f1d07a4d3a",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok",
+   "creado": "2026-10-17T09:00:19.000Z",
+   "dueAt": "2026-10-17T12:20:42.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-cbc776",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 9,
+   "texto": "El jubilado Hugo Juárez fue encontrado sin vida en la localidad de Pehuajó tras varios días de intensa búsqueda.\n\nSu automóvil había sido hallado estacionado en una calle céntrica, lo que alertó a los investigadores.\n\nTras una serie de averiguaciones, la policía allanó una vivienda donde hallaron el cuerpo y detuvieron a un joven de 27 años vinculado al hecho.\n\n📲 Más noticias de Pehuajó en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pehuajó #policiales",
+   "tipo": "video",
+   "titulo": "Encontraron muerto al jubilado Hugo Juárez y hay un detenido de 27 años",
+   "urgente": false,
+   "vence": "2026-10-17T21:39:53.000Z",
+   "video_bytes": 102479,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4"
+  },
+  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x": {
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392a0b0d72757acc339c",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x",
+   "creado": "2026-10-17T09:00:19.000Z",
+   "dueAt": "2026-10-17T11:00:35.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-cbc776",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Encontraron muerto al jubilado Hugo Juárez y hay un detenido de 27 años\n\nEl hombre era buscado tras desaparecer en Pehuajó. Su vehículo fue localizado en una calle urbana y la pesquisa derivó en un domicilio donde se produjo…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-cbc776\n#Pehuajó",
+   "tipo": "video",
+   "titulo": "Encontraron muerto al jubilado Hugo Juárez y hay un detenido de 27 años",
+   "urgente": false,
+   "vence": "2026-10-17T21:39:53.000Z",
+   "video_bytes": 102479,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4"
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok": {
    "actualizado": "2026-10-12T11:40:14.000Z",
    "buffer_id": "6acca1aaa2941ce81769b228",
@@ -10999,6 +11121,55 @@
    "video_bytes": 78230,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_06_bragado_investigan-el-robo-de-un-auto-.mp4"
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok": {
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392f769b4579346cce0c",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
+   "creado": "2026-10-17T09:00:19.000Z",
+   "dueAt": "2026-10-17T14:20:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un foco ígneo se desató la noche del viernes en un edificio situado en calle Pellegrini al 1400.\n\nLas llamas afectaron al aparato refrigerante colocado en el tercer nivel del inmueble céntrico.\n\nPersonal del cuartel local intervino de inmediato y neutralizó el peligro sin que se registraran víctimas.\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
+   "tipo": "video",
+   "titulo": "Fuego en un edificio del centro por un desperfecto eléctrico",
+   "urgente": false,
+   "vence": "2026-10-17T21:39:53.000Z",
+   "video_bytes": 96669,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x": {
+   "actualizado": "2026-10-17T09:00:19.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
+   "creado": "2026-10-17T09:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Fuego en un edificio del centro por un desperfecto eléctrico\n\nBomberos voluntarios acudieron anoche a un inmueble céntrico tras detectarse fuego en el aparato refrigerante de un tercer piso. No hubo heridos.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617\n#Bragado",
+   "tipo": "video",
+   "titulo": "Fuego en un edificio del centro por un desperfecto eléctrico",
+   "urgente": false,
+   "vence": "2026-10-17T21:39:53.000Z",
+   "video_bytes": 96669,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4"
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok": {
    "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "",
@@ -11152,14 +11323,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_04_bragado_le-robaron-el-auto-a-sandra-be.mp4"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok": {
-   "actualizado": "2026-10-16T13:00:18.000Z",
+   "actualizado": "2026-10-17T09:00:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok",
    "creado": "2026-10-16T13:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T12:42:00.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis",
    "intentos": 0,
@@ -12532,14 +12703,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_12_junin_cay-en-per-un-pr-fugo-vinculad.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok": {
-   "actualizado": "2026-10-17T01:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392fdd83363c4dc48948",
    "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
    "creado": "2026-10-17T01:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T13:40:56.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T01:09:30.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html",
    "intentos": 0,
@@ -12589,7 +12760,7 @@
    "creado": "2026-10-17T01:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-17T01:09:30.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html",
@@ -13705,6 +13876,54 @@
    "video_bytes": 78552,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_03_bolivar_hallaron-sin-vida-a-un-hombre-.mp4"
   },
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok": {
+   "actualizado": "2026-10-17T09:00:19.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok",
+   "creado": "2026-10-17T09:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 5,
+   "texto": "Un llamado de alerta movilizó a los bomberos y fuerzas de seguridad hacia una vivienda del barrio Los Zorzales en Bolívar.\n\nLas llamas comenzaron cerca de las 22 horas del viernes sobre la calle Rafael Obligado.\n\nEl foco ígneo pudo ser controlado a tiempo y los dueños de casa no sufrieron lesiones.\n\n📲 Más noticias de Bolívar en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bolívar #policiales",
+   "tipo": "video",
+   "titulo": "Principio de incendio en una casa del barrio Los Zorzales",
+   "urgente": false,
+   "vence": "2026-10-17T21:39:53.000Z",
+   "video_bytes": 86336,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
+  },
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x": {
+   "actualizado": "2026-10-17T09:00:19.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
+   "creado": "2026-10-17T09:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-17T03:39:53.000Z",
+   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Principio de incendio en una casa del barrio Los Zorzales\n\nEl fuego se desató el viernes por la noche en una vivienda ubicada en la calle Rafael Obligado.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9\n#Bolívar",
+   "tipo": "video",
+   "titulo": "Principio de incendio en una casa del barrio Los Zorzales",
+   "urgente": false,
+   "vence": "2026-10-17T21:39:53.000Z",
+   "video_bytes": 86336,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
+  },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
    "actualizado": "2026-10-16T15:40:15.000Z",
    "buffer_id": "",
@@ -13762,7 +13981,7 @@
    "creado": "2026-10-17T00:20:12.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-17T00:03:17.106Z",
    "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
@@ -14942,14 +15161,14 @@
    "video_url": ""
   },
   "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x": {
-   "actualizado": "2026-10-17T00:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392b0b0d72757acc341c",
    "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
    "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T13:15:43.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T00:11:40.984Z",
    "id": "web:480e86f5-f14e-481b-844f-2ac1f1192f77",
    "intentos": 0,
@@ -15774,14 +15993,14 @@
    "video_url": ""
   },
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x": {
-   "actualizado": "2026-10-17T02:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T09:00:20.000Z",
+   "buffer_id": "6ad3392b0b0d72757acc33e7",
    "clave": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x",
    "creado": "2026-10-17T02:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T13:00:40.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T02:16:35.774Z",
    "id": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f",
    "intentos": 0,
@@ -18648,149 +18867,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6acfd5f1bf94024368610c62",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok",
-   "cuando": "2026-10-14T19:20:17.000Z",
-   "dueAt": "2026-10-14T19:23:42.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6acfd5f1199c0449d73ba3ef",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
-   "cuando": "2026-10-14T19:20:17.000Z",
-   "dueAt": "2026-10-14T20:03:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok",
-   "cuando": "2026-10-14T20:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-14T20:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|x",
-   "cuando": "2026-10-14T20:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Reels policiales en X completo (12)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok",
-   "cuando": "2026-10-14T20:40:29.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696616795922320692"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|tiktok",
-   "cuando": "2026-10-14T20:40:29.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696606404752248084"
-  },
-  {
-   "clave": "web:14487ca8-2475-41c1-b598-3490602d4ec8|x",
-   "cuando": "2026-10-14T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ba878935-3e6f-4357-a078-3447ed612c35|x",
-   "cuando": "2026-10-14T21:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6acff210ad454aea56cf4181",
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
-   "cuando": "2026-10-14T21:20:16.000Z",
-   "dueAt": "2026-10-14T23:15:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x",
-   "cuando": "2026-10-14T21:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
-   "cuando": "2026-10-14T21:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6acff6c161e981448aa7bc00",
-   "clave": "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21|x",
-   "cuando": "2026-10-14T21:40:17.000Z",
-   "dueAt": "2026-10-15T01:45:23.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
-   "cuando": "2026-10-14T22:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110483486947557647"
-  },
-  {
-   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
-   "cuando": "2026-10-14T22:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110487319769739704"
-  },
-  {
-   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
-   "cuando": "2026-10-14T22:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110479700153823483"
-  },
-  {
-   "buffer_id": "6acffb791a2e3345fc757cc9",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
-   "cuando": "2026-10-14T22:00:25.000Z",
-   "dueAt": "2026-10-15T02:00:05.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x",
-   "cuando": "2026-10-14T22:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok",
-   "cuando": "2026-10-14T22:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
-   "cuando": "2026-10-14T22:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
-   "cuando": "2026-10-14T22:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
    "cuando": "2026-10-14T22:20:17.000Z",
@@ -22815,6 +22891,158 @@
    "cuando": "2026-10-17T02:20:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111274445255959020"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
+   "cuando": "2026-10-17T09:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok",
+   "cuando": "2026-10-17T09:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
+   "cuando": "2026-10-17T09:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
+   "cuando": "2026-10-17T09:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x",
+   "cuando": "2026-10-17T09:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok",
+   "cuando": "2026-10-17T09:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok",
+   "cuando": "2026-10-17T09:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "buffer_id": "6ad339280b0d72757acc3257",
+   "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T10:00:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad33929938409f1d07a4a81",
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T10:15:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad339290a208cb32311cc24",
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T10:30:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392a938409f1d07a4b3a",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T10:45:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392a0b0d72757acc339c",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T11:00:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392bdd83363c4dc48814",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T11:15:24.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392b0b0d72757acc33e7",
+   "clave": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T13:00:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392b0b0d72757acc341c",
+   "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T13:15:43.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392c769b4579346ccce9",
+   "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|tiktok",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T11:00:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392cae173d6e00abd626",
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
+   "cuando": "2026-10-17T09:00:29.000Z",
+   "dueAt": "2026-10-17T11:40:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392d938409f1d07a4d3a",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok",
+   "cuando": "2026-10-17T09:00:31.000Z",
+   "dueAt": "2026-10-17T12:20:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392e938409f1d07a4dbc",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
+   "cuando": "2026-10-17T09:00:31.000Z",
+   "dueAt": "2026-10-17T13:00:59.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392fdd83363c4dc48948",
+   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
+   "cuando": "2026-10-17T09:00:31.000Z",
+   "dueAt": "2026-10-17T13:40:56.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3392f769b4579346cce0c",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
+   "cuando": "2026-10-17T09:00:31.000Z",
+   "dueAt": "2026-10-17T14:20:45.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -22909,10 +23137,12 @@
   "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos": "2026-10-12T21:40:15.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos": "2026-10-13T23:00:20.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela": "2026-10-15T14:00:19.000Z",
+  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos": "2026-10-17T09:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": "2026-10-15T14:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html": "2026-10-15T14:00:19.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": "2026-10-17T09:00:19.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",
@@ -22966,6 +23196,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
+  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": "2026-10-17T09:00:19.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
