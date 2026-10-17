@@ -1,4 +1,8 @@
 {
+ "ajenos": {
+  "tiktok": [],
+  "x": []
+ },
  "avisos": {},
  "canales": {
   "tiktok": {
@@ -7,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 9
+    "scheduled": 0,
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-17T19:00:18.000Z"
+   "visto": "2026-10-17T20:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 0,
-    "sent": 21
+    "scheduled": 6,
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-17T19:00:18.000Z"
+   "visto": "2026-10-17T20:00:19.000Z"
   }
  },
  "contenidos": {
@@ -7317,17 +7321,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 215,
-   "segundos": 9579,
+   "restantes": 214,
+   "segundos": 7201,
    "tope": 250
   },
   "30d": {
-   "restantes": 2758,
-   "segundos": 2080200,
+   "restantes": 2757,
+   "segundos": 2077822,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T19:20:41.000Z",
+ "cuota_visto": "2026-10-17T20:00:19.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8376,7 +8380,7 @@
    "creado": "2026-10-16T14:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "estado": "pendiente",
    "generado": "2026-10-16T13:43:28.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
@@ -8813,18 +8817,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x": {
-   "actualizado": "2026-10-17T19:00:18.000Z",
+   "actualizado": "2026-10-17T20:00:19.000Z",
    "buffer_id": "6ad3c5c50b0d72757aee9a61",
    "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
    "creado": "2026-10-17T17:20:13.000Z",
    "dueAt": "2026-10-17T19:18:34.000Z",
+   "enviado": "2026-10-17T19:18:50.514Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T17:01:22.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111537437730021544",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
    "origen": "bot",
    "plataforma": "x",
@@ -8865,18 +8870,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x": {
-   "actualizado": "2026-10-17T19:00:18.000Z",
+   "actualizado": "2026-10-17T20:00:19.000Z",
    "buffer_id": "6ad3c5c40a208cb32333f496",
    "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
    "creado": "2026-10-17T17:40:13.000Z",
    "dueAt": "2026-10-17T19:03:45.000Z",
+   "enviado": "2026-10-17T19:03:49.235Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T17:21:29.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111533657580024252",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
    "origen": "bot",
    "plataforma": "x",
@@ -11072,7 +11078,7 @@
    "creado": "2026-10-17T19:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "estado": "pendiente",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
@@ -11092,18 +11098,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
   },
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x": {
-   "actualizado": "2026-10-17T19:00:18.000Z",
+   "actualizado": "2026-10-17T20:00:19.000Z",
    "buffer_id": "6ad3c5c5938409f1d09c11d1",
    "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
    "creado": "2026-10-17T19:00:17.000Z",
    "dueAt": "2026-10-17T19:33:12.000Z",
+   "enviado": "2026-10-17T19:33:18.271Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111541077324730674",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
    "origen": "policiales",
    "plataforma": "x",
@@ -11993,18 +12000,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-17T17:20:32.000Z",
+   "actualizado": "2026-10-17T20:00:19.000Z",
    "buffer_id": "6ad3ae64769b4579348a18f6",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
    "creado": "2026-10-17T12:20:16.000Z",
    "dueAt": "2026-10-17T19:23:19.000Z",
+   "enviado": "2026-10-17T19:25:12.787Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T12:11:01.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697719605791395093",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-incidentes-y-disparos-de-estruendo-de-la-policia-a-la-1b03d9",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -12512,7 +12520,7 @@
    "creado": "2026-10-17T19:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "estado": "pendiente",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
@@ -14664,7 +14672,7 @@
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "estado": "pendiente",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
@@ -20009,31 +20017,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad0b6f1b0cc171adf18974e",
-   "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
-   "cuando": "2026-10-15T11:20:17.000Z",
-   "dueAt": "2026-10-15T15:00:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|tiktok",
-   "cuando": "2026-10-15T12:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo|x",
-   "cuando": "2026-10-15T12:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|tiktok",
-   "cuando": "2026-10-15T12:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
    "clave": "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|x",
    "cuando": "2026-10-15T12:00:21.000Z",
    "evento": "vencido",
@@ -24141,10 +24124,34 @@
    "cuando": "2026-10-17T19:20:41.000Z",
    "dueAt": "2026-10-17T23:18:25.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
+   "cuando": "2026-10-17T20:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111537437730021544"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
+   "cuando": "2026-10-17T20:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111533657580024252"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
+   "cuando": "2026-10-17T20:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111541077324730674"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-17T20:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697719605791395093"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T19:00:18.000Z",
+ "ultima_sync": "2026-10-17T20:00:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
