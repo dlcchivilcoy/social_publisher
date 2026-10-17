@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 13:01 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,28 +7,30 @@ Actualizado: 17/10/2026 12:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 3 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 3 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 3 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 3 | 0 | 4 | 0 | 0 | 0 |
+| Notas web | X | 15 | 9 | 3 | 2 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 17 enviadas + 4 programadas de 50 por día
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2766 de 3000 (visto 2026-10-17T15:40:15.000Z)
+15m: quedan 98 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2764 de 3000 (visto 2026-10-17T16:01:44.000Z)
 
-## Cola propia (17 esperando)
-- X · Notas web · El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t — tope de 47 publicaciones en 24 h de X
+## Cola propia (19 esperando)
+- TikTok · Reels policiales · Detuvieron a tres personas y secuestraron dólares por un asalto — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 47 publicaciones en 24 h de X
+- TikTok · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la  — tope de 47 publicaciones en 24 h de X
 - TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 15 publicaciones en 24 h de TikTok
+- X · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 47 publicaciones en 24 h de X
 - TikTok · Reels policiales · Robaron y destrozaron el Club River de Junín: se llevaron pelotas y mercadería — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — tope de 47 publicaciones en 24 h de X
-- X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — tope de 47 publicaciones en 24 h de X
+- X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Inflación mayorista del Indec: los precios subieron 3,2% en septiembre — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución d — tope de 47 publicaciones en 24 h de X
@@ -46,16 +48,6 @@ Actualizado: 17/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T13:20 programado web:61fa0efb-5787-4c59-bce8-a86006933cfa|x 
-- 2026-10-17T13:40 programado web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 
-- 2026-10-17T14:00 programado web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x 
-- 2026-10-17T14:20 programado web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x 
-- 2026-10-17T14:20 programado policiales:https://www.presentenoticias.com/noticias/2026/10 
-- 2026-10-17T14:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
-- 2026-10-17T14:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
-- 2026-10-17T14:40 enviado policiales:https://www.diariojunin.com/noticias/102844_el-go 
-- 2026-10-17T14:40 enviado web:054fa202-87fe-43be-afff-36d09259bbf7|x 
-- 2026-10-17T14:40 enviado web:074bc093-e566-4d4d-8d42-0dcd34171beb|x 
 - 2026-10-17T14:40 enviado web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
 - 2026-10-17T14:40 enviado web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x 
 - 2026-10-17T14:40 programado web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
@@ -71,3 +63,13 @@ Actualizado: 17/10/2026 12:40 (hora AR) · ACTIVO
 - 2026-10-17T15:40 enviado web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 
 - 2026-10-17T15:40 enviado web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x 
 - 2026-10-17T15:40 enviado web:61fa0efb-5787-4c59-bce8-a86006933cfa|x 
+- 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
+- 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
+- 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
+- 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
+- 2026-10-17T16:01 texto_rehecho policiales:https://www.presentenoticias.com/noticias/2026/10 
+- 2026-10-17T16:01 texto_rehecho web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
+- 2026-10-17T16:01 vencido web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x tope de 47 publicaciones en 24 h de X
+- 2026-10-17T16:01 vencido web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x tope de 47 publicaciones en 24 h de X
+- 2026-10-17T16:01 programado web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
+- 2026-10-17T16:01 programado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
