@@ -6578,6 +6578,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragedia-en-la-ruta-5-una-mujer-murio-y-dos-conductores-sufrieron",
    "volanta": "Tragedia en la Ruta 5"
   },
+  "web:ccce7a0b-db66-488d-8412-6628b516975f": {
+   "categoria": "",
+   "descripcion": "El climatólogo Rafael Di Marco anticipa precipitaciones localizadas y un pico pluvial entre diciembre y enero que desafiarán al agro argentino.",
+   "generado": "2026-10-17T23:02:14.556Z",
+   "id": "web:ccce7a0b-db66-488d-8412-6628b516975f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b3606fdd7d7b4162b38658163d36f1c4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Niño en Argentina: advierten por lluvias intensas y picos de agua entre diciembre y enero",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
+   "volanta": ""
+  },
   "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": {
    "categoria": "nacionales",
    "descripcion": "La iniciativa oficialista que endurece penas por extraer recursos en el Atlántico Sur tuvo demoras en Diputados. Los libertarios negocian modificaciones…",
@@ -19103,6 +19121,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ccce7a0b-db66-488d-8412-6628b516975f|x": {
+   "actualizado": "2026-10-17T23:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
+   "creado": "2026-10-17T23:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T23:02:14.556Z",
+   "id": "web:ccce7a0b-db66-488d-8412-6628b516975f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Niño en Argentina: advierten por lluvias intensas y picos de agua entre diciembre y enero\n\nEl climatólogo Rafael Di Marco anticipa precipitaciones localizadas y un pico pluvial entre diciembre y enero que desafiarán al agro argentino.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Niño en Argentina: advierten por lluvias intensas y picos de agua entre diciembre y enero",
+   "urgente": false,
+   "vence": "2026-10-18T23:02:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x": {
    "actualizado": "2026-10-17T16:20:14.000Z",
    "buffer_id": "",
@@ -20269,12 +20313,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok",
-   "cuando": "2026-10-15T13:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696869214484811015"
-  },
   {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
    "cuando": "2026-10-15T13:20:18.000Z",
@@ -24404,6 +24442,14 @@
    "cuando": "2026-10-17T22:20:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111582717934436741"
+  },
+  {
+   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
+   "cuando": "2026-10-17T23:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -24734,6 +24780,7 @@
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
+  "web:ccce7a0b-db66-488d-8412-6628b516975f": "2026-10-17T23:20:15.000Z",
   "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": "2026-10-17T16:20:14.000Z",
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
