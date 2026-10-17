@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 5,
-    "sent": 1
+    "scheduled": 4,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-17T11:20:16.000Z"
+   "visto": "2026-10-17T12:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
+    "scheduled": 8,
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-17T11:20:16.000Z"
+   "visto": "2026-10-17T12:20:16.000Z"
   }
  },
  "contenidos": {
@@ -2209,6 +2209,30 @@
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/hhPuaWDhR5E"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "La madrugada terminó en medio de corridas y detonaciones de balas de estruendo por parte de la Policía en la zona de los locales nocturnos.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-17T12:11:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-incidentes-y-disparos-de-estruendo-de-la-policia-a-la-1b03d9",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Un tumulto a la salida de los boliches generó momentos de tensión durante la madrugada en la ciudad.\n\nPersonal policial intervino en el acceso Hipólito Yrigoyen y efectuó detonaciones con munición de estruendo.\n\nLas detonaciones se registraron a la altura de la calle Sargento Cabral, donde la gente se dispersó rápidamente.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Disparos y corridas a la salida de los boliches en Chacabuco",
+   "urgente": false,
+   "video_bytes": 86640,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/s3e8gtfpWrs"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "Esta tarde se produjo un choque entre un auto y una moto en Chacabuco. No se registraron heridos, pero personal de Tránsito secuestró el rodado menor por falta de documentación.",
@@ -3384,6 +3408,24 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4",
    "volanta": "Incendio en Bolívar",
    "youtube_url": "https://youtube.com/shorts/vxxgXXK-YAY"
+  },
+  "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": {
+   "categoria": "nacionales",
+   "descripcion": "El ministro nacional criticó la suba del 17,6% que rige desde el 15 de octubre en territorio bonaerense y apuntó contra el rechazo local a la…",
+   "generado": "2026-10-17T12:06:26.553Z",
+   "id": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c223d4d6c8004e6493b4dc103f391be7~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Sturzenegger",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
+   "volanta": ""
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": {
    "categoria": "",
@@ -6934,22 +6976,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 232,
-   "segundos": 38403,
+   "restantes": 231,
+   "segundos": 34803,
    "tope": 250
   },
   "30d": {
-   "restantes": 2775,
-   "segundos": 2109024,
+   "restantes": 2774,
+   "segundos": 2105424,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T11:20:18.000Z",
+ "cuota_visto": "2026-10-17T12:20:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8562,18 +8604,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2dcb50c7c65f9695.mp4"
   },
   "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok": {
-   "actualizado": "2026-10-17T09:00:20.000Z",
+   "actualizado": "2026-10-17T12:20:16.000Z",
    "buffer_id": "6ad3392cae173d6e00abd626",
    "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
    "creado": "2026-10-17T00:20:12.000Z",
    "dueAt": "2026-10-17T11:40:08.000Z",
+   "enviado": "2026-10-17T11:41:58.845Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T00:03:57.000Z",
    "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697600255495261448",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -11451,6 +11494,56 @@
    "video_bytes": 74620,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-17T12:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
+   "creado": "2026-10-17T12:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T12:11:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-incidentes-y-disparos-de-estruendo-de-la-policia-a-la-1b03d9",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un tumulto a la salida de los boliches generó momentos de tensión durante la madrugada en la ciudad.\n\nPersonal policial intervino en el acceso Hipólito Yrigoyen y efectuó detonaciones con munición de estruendo.\n\nLas detonaciones se registraron a la altura de la calle Sargento Cabral, donde la gente se dispersó rápidamente.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "tipo": "video",
+   "titulo": "Disparos y corridas a la salida de los boliches en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-18T06:11:01.000Z",
+   "video_bytes": 86640,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|x": {
+   "actualizado": "2026-10-17T12:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|x",
+   "creado": "2026-10-17T12:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T12:11:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-incidentes-y-disparos-de-estruendo-de-la-policia-a-la-1b03d9",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Disparos y corridas a la salida de los boliches en Chacabuco\n\nLa madrugada terminó en medio de corridas y detonaciones de balas de estruendo por parte de la Policía en la zona de los locales nocturnos.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-incidentes-y-disparos-de-estruendo-de-la-policia-a-la-1b03d9",
+   "tipo": "video",
+   "titulo": "Disparos y corridas a la salida de los boliches en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-18T06:11:01.000Z",
+   "video_bytes": 86640,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T23:40:17.000Z",
    "buffer_id": "6acd53c1aec88be081e4576e",
@@ -13950,6 +14043,30 @@
    "vence": "2026-10-17T21:39:53.000Z",
    "video_bytes": 86336,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
+  },
+  "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x": {
+   "actualizado": "2026-10-17T12:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x",
+   "creado": "2026-10-17T12:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-17T12:06:26.553Z",
+   "id": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Sturzenegger\n\nEl ministro nacional criticó la suba del 17,6% que rige desde el 15 de octubre en territorio bonaerense y apuntó contra el rechazo local a la…\n\nhttps://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
+   "tipo": "nota",
+   "titulo": "Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Sturzenegger",
+   "urgente": false,
+   "vence": "2026-10-18T12:06:26.000Z",
+   "video_bytes": 0,
+   "video_url": ""
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
    "actualizado": "2026-10-16T15:40:15.000Z",
@@ -17006,14 +17123,14 @@
    "video_url": ""
   },
   "web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x": {
-   "actualizado": "2026-10-16T12:20:15.000Z",
+   "actualizado": "2026-10-17T12:20:16.000Z",
    "buffer_id": "",
    "clave": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x",
    "creado": "2026-10-16T12:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T12:06:35.841Z",
    "id": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5",
    "intentos": 0,
@@ -18919,42 +19036,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
-   "cuando": "2026-10-15T00:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
-   "cuando": "2026-10-15T00:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696678478954958088"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
-   "cuando": "2026-10-15T00:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696668285332393268"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
-   "cuando": "2026-10-15T00:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
-   "cuando": "2026-10-15T00:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
    "cuando": "2026-10-15T00:40:14.000Z",
@@ -23080,10 +23161,46 @@
    "cuando": "2026-10-17T11:20:18.000Z",
    "dueAt": "2026-10-17T14:45:13.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|x",
+   "cuando": "2026-10-17T12:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-17T12:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x",
+   "cuando": "2026-10-17T12:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x",
+   "cuando": "2026-10-17T12:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
+   "cuando": "2026-10-17T12:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697600255495261448"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T11:20:16.000Z",
+ "ultima_sync": "2026-10-17T12:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -23185,6 +23302,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis": "2026-10-16T13:00:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": "2026-10-14T22:20:16.000Z",
@@ -23234,6 +23352,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": "2026-10-17T09:00:19.000Z",
+  "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",

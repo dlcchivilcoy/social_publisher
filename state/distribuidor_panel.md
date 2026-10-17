@@ -1,24 +1,27 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 1 | 1 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 3 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 7 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 1 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 0 | 3 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 7 | 1 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 6 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 1 enviadas + 5 programadas de 25 por día
+- X: conectado · Buffer: 6 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 2 enviadas + 4 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2775 de 3000 (visto 2026-10-17T11:20:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2774 de 3000 (visto 2026-10-17T12:20:17.000Z)
 
-## Cola propia (26 esperando)
+## Cola propia (28 esperando)
+- X · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — Buffer lleno (10 programadas por canal en el plan Free)
+- TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Stur — en turno
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — Buffer lleno (10 programadas por canal en el plan Free)
@@ -44,7 +47,6 @@ Actualizado: 17/10/2026 09:00 (hora AR) · ACTIVO
 - X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — cupo diario de Notas web en X completo (15)
 - X · Notas web · La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV — cupo diario de Notas web en X completo (15)
 - X · Notas web · Elecciones en el Consejo de la Magistratura: cuándo votan los abogados y qué se  — cupo diario de Notas web en X completo (15)
-- X · Notas web · La UBA se desmarcó de los disturbios y exigió que la Casa Rosada cumpla la ley — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -55,11 +57,6 @@ Actualizado: 17/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T09:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tikto 
-- 2026-10-17T09:00 programado policiales:https://www.diariojunin.com/noticias/102844_el-go 
-- 2026-10-17T09:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
-- 2026-10-17T10:00 vencido policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta tope de 15 publicaciones en 24 h de TikTok
-- 2026-10-17T10:20 recibido web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
 - 2026-10-17T10:20 vencido web:12954328-2406-4753-ade8-612eaeebeb3a|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T10:20 vencido web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T10:20 vencido web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x cupo diario de Notas web en X completo (15)
@@ -80,3 +77,8 @@ Actualizado: 17/10/2026 09:00 (hora AR) · ACTIVO
 - 2026-10-17T11:20 enviado policiales:https://semanariodejunin.com.ar/nota/75601/hallar 
 - 2026-10-17T11:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
 - 2026-10-17T11:20 programado web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x 
+- 2026-10-17T12:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
+- 2026-10-17T12:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
+- 2026-10-17T12:20 recibido web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x 
+- 2026-10-17T12:20 vencido web:9f779d0b-1649-4d51-99d8-ba550d5285a5|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T12:20 enviado bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok 
