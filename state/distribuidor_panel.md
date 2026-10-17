@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,8 +19,8 @@ Actualizado: 16/10/2026 23:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2783 de 3000 (visto 2026-10-17T02:20:18.000Z)
 
 ## Cola propia (48 esperando)
-- X · Reels del bot · Máximo Cataldi clasificó a semifinales del AO Junior Series — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Máximo Cataldi clasificó a semifinales del AO Junior Series — fuera del horizonte de programación (espera en la cola)
+- X · Reels del bot · Máximo Cataldi clasificó a semifinales del AO Junior Series — cupo diario de Reels del bot en X completo (10)
 - X · Reels del bot · José Ferro admitió que su espacio se equivocó al respaldar a SENTRA — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — fuera del horizonte de programación (espera en la cola)
 - X · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — cupo diario de Reels del bot en X completo (10)
