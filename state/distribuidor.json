@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-17T13:20:17.000Z"
+   "visto": "2026-10-17T14:40:12.000Z"
   },
   "x": {
    "desconectado": false,
@@ -19,11 +19,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
-    "sent": 8
+    "scheduled": 7,
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-17T13:20:17.000Z"
+   "visto": "2026-10-17T14:40:12.000Z"
   }
  },
  "contenidos": {
@@ -7012,22 +7012,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 226,
-   "segundos": 27606,
+   "restantes": 224,
+   "segundos": 26407,
    "tope": 250
   },
   "30d": {
-   "restantes": 2769,
-   "segundos": 2098227,
+   "restantes": 2767,
+   "segundos": 2097028,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T14:20:15.000Z",
+ "cuota_visto": "2026-10-17T14:40:13.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -11228,18 +11228,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_06_bragado_investigan-el-robo-de-un-auto-.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok": {
-   "actualizado": "2026-10-17T09:00:20.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad3392f769b4579346cce0c",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "2026-10-17T14:20:45.000Z",
+   "enviado": "2026-10-17T14:22:28.609Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697641574297226517",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -11253,18 +11254,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x": {
-   "actualizado": "2026-10-17T11:20:16.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad359f10a208cb32319984c",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "2026-10-17T14:30:45.000Z",
+   "enviado": "2026-10-17T14:30:48.174Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111464950392594562",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
    "origen": "policiales",
    "plataforma": "x",
@@ -12860,18 +12862,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_12_junin_cay-en-per-un-pr-fugo-vinculad.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok": {
-   "actualizado": "2026-10-17T09:00:20.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad3392fdd83363c4dc48948",
    "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
    "creado": "2026-10-17T01:20:16.000Z",
    "dueAt": "2026-10-17T13:40:56.000Z",
+   "enviado": "2026-10-17T13:42:46.814Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T01:09:30.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697631376035630352",
    "nota_url": "https://www.diariolacampaña.com.ar/n/gobierno-presento-denuncia-penal-por-incidentes-frente-al-5374e6",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -14134,18 +14137,19 @@
    "video_url": ""
   },
   "web:054fa202-87fe-43be-afff-36d09259bbf7|x": {
-   "actualizado": "2026-10-17T10:40:14.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad3508f0b0d72757ad1ad05",
    "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
    "creado": "2026-10-16T23:40:15.000Z",
    "dueAt": "2026-10-17T14:00:47.000Z",
+   "enviado": "2026-10-17T14:03:20.484Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T23:33:32.498Z",
    "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111458039068791148",
    "nota_url": "https://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
    "origen": "web",
    "plataforma": "x",
@@ -14159,18 +14163,19 @@
    "video_url": ""
   },
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x": {
-   "actualizado": "2026-10-17T10:20:15.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad34be0dd83363c4dc8ea61",
    "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
    "creado": "2026-10-17T00:20:12.000Z",
    "dueAt": "2026-10-17T13:45:09.000Z",
+   "enviado": "2026-10-17T13:45:16.202Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T00:03:17.106Z",
    "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111453491629592602",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
    "origen": "web",
    "plataforma": "x",
@@ -14367,7 +14372,7 @@
    "creado": "2026-10-16T22:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T22:06:42.229Z",
    "id": "web:14436815-e65b-4622-81a4-d215bbfc9d5f",
@@ -14541,7 +14546,7 @@
    "creado": "2026-10-16T19:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T19:06:26.903Z",
    "id": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2",
@@ -14586,18 +14591,19 @@
    "video_url": ""
   },
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x": {
-   "actualizado": "2026-10-17T10:20:15.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad34bdf0b0d72757ad0b285",
    "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
    "creado": "2026-10-17T10:20:15.000Z",
    "dueAt": "2026-10-17T13:30:06.000Z",
+   "enviado": "2026-10-17T13:30:51.594Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T10:03:06.615Z",
    "id": "web:1aebaa22-868e-46df-ae05-8c08cc674c03",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111449865049800743",
    "nota_url": "https://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
    "origen": "web",
    "plataforma": "x",
@@ -14635,14 +14641,14 @@
    "video_url": ""
   },
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x": {
-   "actualizado": "2026-10-16T17:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T14:40:13.000Z",
+   "buffer_id": "6ad388cdae173d6e00bec59c",
    "clave": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x",
    "creado": "2026-10-16T17:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T16:30:31.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T17:09:57.561Z",
    "id": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de",
    "intentos": 0,
@@ -14892,7 +14898,7 @@
    "creado": "2026-10-16T16:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T16:06:30.064Z",
    "id": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6",
@@ -15421,18 +15427,19 @@
    "video_url": ""
   },
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x": {
-   "actualizado": "2026-10-17T11:00:17.000Z",
+   "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad35541769b45793473307f",
    "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
    "creado": "2026-10-16T23:20:14.000Z",
    "dueAt": "2026-10-17T14:15:33.000Z",
+   "enviado": "2026-10-17T14:15:46.405Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T23:16:15.689Z",
    "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111461167528919408",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
    "origen": "web",
    "plataforma": "x",
@@ -15553,7 +15560,7 @@
    "creado": "2026-10-16T21:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T21:36:43.554Z",
    "id": "web:559ac15c-0c52-40db-b3a1-6118e02867ed",
@@ -16387,7 +16394,7 @@
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T15:29:58.842Z",
    "id": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d",
@@ -16438,7 +16445,7 @@
    "creado": "2026-10-16T15:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T15:06:31.344Z",
    "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
@@ -16690,7 +16697,7 @@
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T15:40:42.749Z",
    "id": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b",
@@ -17393,7 +17400,7 @@
    "creado": "2026-10-16T16:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T15:50:28.482Z",
    "id": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801",
@@ -17774,7 +17781,7 @@
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T15:32:58.098Z",
    "id": "web:c07869bb-4b38-46ca-ad18-588d0b35d614",
@@ -17999,7 +18006,7 @@
    "creado": "2026-10-16T21:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T21:06:41.670Z",
    "id": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394",
@@ -18203,7 +18210,7 @@
    "creado": "2026-10-16T18:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T18:06:23.672Z",
    "id": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2",
@@ -18883,7 +18890,7 @@
    "creado": "2026-10-16T15:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T15:36:30.410Z",
    "id": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b",
@@ -18932,7 +18939,7 @@
    "creado": "2026-10-16T18:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "tope de 47 publicaciones en 24 h de X",
    "estado": "pendiente",
    "generado": "2026-10-16T18:36:27.079Z",
    "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
@@ -19128,66 +19135,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen|tiktok",
-   "cuando": "2026-10-15T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9|x",
-   "cuando": "2026-10-15T02:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x",
-   "cuando": "2026-10-15T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok",
-   "cuando": "2026-10-15T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|tiktok",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|x",
    "cuando": "2026-10-15T09:00:22.000Z",
@@ -23271,10 +23218,59 @@
    "cuando": "2026-10-17T14:20:15.000Z",
    "dueAt": "2026-10-17T16:15:25.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697641574297226517"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111464950392594562"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697631376035630352"
+  },
+  {
+   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111458039068791148"
+  },
+  {
+   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111453491629592602"
+  },
+  {
+   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111449865049800743"
+  },
+  {
+   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111461167528919408"
+  },
+  {
+   "buffer_id": "6ad388cdae173d6e00bec59c",
+   "clave": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x",
+   "cuando": "2026-10-17T14:40:13.000Z",
+   "dueAt": "2026-10-17T16:30:31.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T13:20:17.000Z",
+ "ultima_sync": "2026-10-17T14:40:12.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
