@@ -4255,6 +4255,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-papa-leon-xiv-confirmo-que-visitara-la-argentina-en-ba6fb5",
    "volanta": ""
   },
+  "web:38a2facb-610c-48c3-ba78-33049770dfcf": {
+   "categoria": "nacionales",
+   "descripcion": "Durante un acto partidario en La Matanza, el gobernador bonaerense criticó con dureza a la administración nacional, defendió la vigencia de la justicia…",
+   "generado": "2026-10-17T18:06:08.085Z",
+   "id": "web:38a2facb-610c-48c3-ba78-33049770dfcf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9a5e23dcd92546978df699c1300cdb3e~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-cuestiono-al-gobierno-de-milei-en-el-dia-de-la-lealtad-8f5043",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar una alternativa para 2027",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/kicillof-cuestiono-al-gobierno-de-milei-en-el-dia-de-la-lealtad-8f5043",
+   "volanta": ""
+  },
   "web:39554db5-c84a-492e-9690-89d95fba95ec": {
    "categoria": "",
    "descripcion": "Avanza el reclamo por la Autovía de la Ruta 5: gestiones presupuestarias, unanimidad política y presión vecinal",
@@ -15568,6 +15586,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:38a2facb-610c-48c3-ba78-33049770dfcf|x": {
+   "actualizado": "2026-10-17T18:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:38a2facb-610c-48c3-ba78-33049770dfcf|x",
+   "creado": "2026-10-17T18:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T18:06:08.085Z",
+   "id": "web:38a2facb-610c-48c3-ba78-33049770dfcf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-cuestiono-al-gobierno-de-milei-en-el-dia-de-la-lealtad-8f5043",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar una alternativa para 2027\n\nEn un acto partidario en La Matanza, el gobernador bonaerense criticó con dureza a la administración nacional.\n\nhttps://www.diariolacampaña.com.ar/n/kicillof-cuestiono-al-gobierno-de-milei-en-el-dia-de-la-lealtad-8f5043",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar una alternativa para 2027",
+   "urgente": false,
+   "vence": "2026-10-18T18:06:08.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:39554db5-c84a-492e-9690-89d95fba95ec|x": {
    "actualizado": "2026-10-12T14:00:19.000Z",
    "buffer_id": "6accc71ffcd88e54a944e156",
@@ -18763,14 +18807,14 @@
    "video_url": ""
   },
   "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x": {
-   "actualizado": "2026-10-16T18:20:15.000Z",
+   "actualizado": "2026-10-17T18:20:20.000Z",
    "buffer_id": "",
    "clave": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x",
    "creado": "2026-10-16T18:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T18:06:23.672Z",
    "id": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2",
    "intentos": 0,
@@ -19722,18 +19766,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:c6470534-4523-4411-a14d-e8390249bc0c|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x",
    "cuando": "2026-10-15T10:20:16.000Z",
@@ -23842,6 +23874,20 @@
    "cuando": "2026-10-17T18:00:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697688465281961222"
+  },
+  {
+   "clave": "web:38a2facb-610c-48c3-ba78-33049770dfcf|x",
+   "cuando": "2026-10-17T18:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x",
+   "cuando": "2026-10-17T18:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -24043,6 +24089,7 @@
   "web:36f35444-e990-4d78-aeea-920acd95d869": "2026-10-17T15:20:13.000Z",
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
+  "web:38a2facb-610c-48c3-ba78-33049770dfcf": "2026-10-17T18:20:13.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
