@@ -4490,6 +4490,9 @@ def _zonas_ia(img):
         return None
     try:
         from utils import gemini
+    except ImportError:              # el motor copiado en otro repo (policiales) no trae Gemini
+        return None
+    try:
         return gemini.zonas_foto(img)
     except Exception as e:                                       # noqa: BLE001
         logger.warning(f"Sin zonas de la foto ({e}).")
