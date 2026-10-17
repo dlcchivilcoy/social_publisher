@@ -2292,10 +2292,11 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
                     bloques=marca + t["bloques"], titulo=t["titulo"], volanta=t["volanta"],
                     texto=t["rect"])
         return plan
-    if foto and _bloque_on():
-        # FOTO vertical o cuadrada (pedido 2026-10-17): la misma estética que las horizontales,
-        # el bloque abajo con el texto, el logo y el isologo, y la foto entera, achicada y
-        # centrada arriba. Los VIDEOS verticales siguen a sangre con las cajas.
+    if _bloque_on():
+        # FOTO o VIDEO vertical o cuadrado (pedidos 2026-10-17): la misma estética que lo
+        # horizontal, el bloque abajo con el texto, el logo y el isologo, y la imagen ENTERA,
+        # achicada y centrada arriba, sobre sí misma desenfocada. Las tarjetas que cambian van
+        # en el bloque. Lo de abajo (a sangre con cajas) queda para `REEL_BLOQUE_4X5=0`.
         return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, 1920, foco,
                             entera=True)
     media = (0, 0, 1080, 1920)
@@ -3400,7 +3401,14 @@ def _armar_reel(src: Path, salida: Path, *, audio: bool, max_seconds: float | No
         # `drawbox ... t=fill` pinta el cuadro ENTERO respetando la duración del video, así que
         # no hace falta sumar un input ni un generador `color` infinito. Y de paso nos ahorramos
         # el `boxblur`, que era con diferencia el filtro más caro de la cadena.
-        if tiene_filtro("drawbox"):
+        if len(texto_placa) > 6 and texto_placa[6]:
+            # Un video vertical ENTERO y más angosto que el cuadro (2026-10-17): a los costados,
+            # él mismo desenfocado y oscurecido, no un color liso. Se desenfoca chico (barato).
+            relleno = (f"scale=1080:{alto}:force_original_aspect_ratio=increase,"
+                       f"crop=1080:{alto},scale=135:{max(2, alto // 8)},"
+                       f"boxblur=luma_radius=6:luma_power=2,scale=1080:{alto},"
+                       f"colorchannelmixer=rr=0.45:gg=0.45:bb=0.45")
+        elif tiene_filtro("drawbox"):
             relleno = (f"scale=1080:{alto},drawbox=x=0:y=0:w=1080:h={alto}:"
                        f"color={_color_fondo(color_fondo)}@1:t=fill")
         else:
@@ -3799,14 +3807,26 @@ def autochequeo() -> bool:
                     r = (x + bx0, y + by0, x + bx1, y + by1)
                     if r[0] < BLOQUE_X - 4 or r[2] > BLOQUE_X + BLOQUE_ANCHO + 4:
                         fallas.append(f"«{texto[:22]}» se sale de X 80–930 ({r[0]:.0f}..{r[2]:.0f})")
-                    if r[1] < mh + BLOQUE_LINEA or r[3] > lh - 30:
+                    tope_img = my + mh if w > h else BLOQUE_9X16_ENTERA
+                    techo = lh - (BANDA_SEGURO if lh >= 1920 else 30)
+                    if r[1] < tope_img + BLOQUE_LINEA or r[3] > techo:
                         fallas.append(f"«{texto[:22]}» se sale del bloque (y {r[1]}..{r[3]})")
-                if (lw, lh) != (1080, CORR_ALTO_APAISADO):
-                    fallas.append(f"lo apaisado va en 1080x1350, no {lw}x{lh}")
-                if my != 0 or (mw != 1080 and not graf):
-                    fallas.append(f"la imagen no arranca arriba a todo el ancho ({mw}x{mh} en y={my})")
-                if mh < am * (1 - BLOQUE_RECORTE_MAX) - 2:
-                    fallas.append(f"se recortó demasiada imagen ({mh} de {am})")
+                if w > h:
+                    if (lw, lh) != (1080, CORR_ALTO_APAISADO):
+                        fallas.append(f"lo apaisado va en 1080x1350, no {lw}x{lh}")
+                    if my != 0 or (mw != 1080 and not graf):
+                        fallas.append(f"la imagen no arranca arriba a todo el ancho ({mw}x{mh} en y={my})")
+                    if mh < am * (1 - BLOQUE_RECORTE_MAX) - 2:
+                        fallas.append(f"se recortó demasiada imagen ({mh} de {am})")
+                else:
+                    # Vertical o cuadrada (2026-10-17): 9:16, ENTERA, achicada y centrada arriba.
+                    if (lw, lh) != (1080, 1920):
+                        fallas.append(f"lo vertical va en 1080x1920, no {lw}x{lh}")
+                    if (plan["cover"] or mx != (1080 - mw) // 2 or my + mh > BLOQUE_9X16_ENTERA
+                            or abs(mw / max(1, mh) - w / h) > 0.02):
+                        fallas.append(f"la imagen no va entera y centrada ({mw}x{mh} en {mx},{my})")
+                    if not plan.get("fondo_borroso"):
+                        fallas.append("a los costados no va la imagen desenfocada")
                 if vol and (not plan["volanta"] or plan["volanta"] != plan["volanta"].upper()):
                     fallas.append(f"volanta mal: «{plan['volanta']}»")
                 if not plan["titulo"] or any(l.endswith("…") for l in plan["titulo"]):
@@ -4192,7 +4212,8 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
             mascara = (fundido_png(alto_foto, salida.parent / f"fundido_{salida.stem}.png",
                                    arriba=arriba, abajo=abajo, ancho=ancho_foto)
                        if (arriba or abajo) else None)
-            placa = (png, y_media, mascara, alto_foto, plan["cover"], ancho_foto)
+            placa = (png, y_media, mascara, alto_foto, plan["cover"], ancho_foto,
+                     bool(plan.get("fondo_borroso")))
             if plan.get("estilo") == "corresponsal" and tarjetas and plan.get("texto"):
                 capas_tiempo = _capas_en_el_tiempo(plan, tarjetas, src, salida, volanta,
                                                    titular)
