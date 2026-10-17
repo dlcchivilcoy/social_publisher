@@ -6805,22 +6805,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 74402,
+   "restantes": 241,
+   "segundos": 71992,
    "tope": 250
   },
   "30d": {
-   "restantes": 2785,
-   "segundos": 2145023,
+   "restantes": 2784,
+   "segundos": 2142613,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T01:20:19.000Z",
+ "cuota_visto": "2026-10-17T02:00:28.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8437,7 +8437,7 @@
    "creado": "2026-10-17T00:20:12.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
    "estado": "pendiente",
    "generado": "2026-10-17T00:03:57.000Z",
    "id": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4",
@@ -8481,14 +8481,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b747335cc73d9a04.mp4"
   },
   "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok": {
-   "actualizado": "2026-10-17T00:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T02:00:27.000Z",
+   "buffer_id": "6ad2d6bc1c7e49ea4c31ecbc",
    "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok",
    "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T02:03:32.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T00:12:27.000Z",
    "id": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4",
    "intentos": 0,
@@ -18531,13 +18531,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6acfd147edcab17b81289d8c",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou|x",
-   "cuando": "2026-10-14T19:00:23.000Z",
-   "dueAt": "2026-10-14T22:45:26.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00208",
    "cuando": "2026-10-14T19:20:14.000Z",
    "evento": "entrevista_aprobada"
@@ -22694,6 +22687,13 @@
    "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|x",
    "cuando": "2026-10-17T01:20:19.000Z",
    "dueAt": "2026-10-17T01:53:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad2d6bc1c7e49ea4c31ecbc",
+   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok",
+   "cuando": "2026-10-17T02:00:28.000Z",
+   "dueAt": "2026-10-17T02:03:32.000Z",
    "evento": "programado"
   }
  ],
