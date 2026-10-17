@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,19 +9,18 @@ Actualizado: 17/10/2026 10:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 2 | 1 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 2 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 6 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 7 | 1 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 8 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 4 enviadas + 2 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2772 de 3000 (visto 2026-10-17T13:20:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2771 de 3000 (visto 2026-10-17T13:40:13.000Z)
 
-## Cola propia (24 esperando)
+## Cola propia (23 esperando)
 - TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · VTV en la Ciudad: extienden las concesiones actuales por dos meses debido a demo — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Stur — en turno
+- X · Notas web · Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Stur — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — Buffer lleno (10 programadas por canal en el plan Free)
@@ -53,7 +52,6 @@ Actualizado: 17/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T11:00 programado web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x 
 - 2026-10-17T11:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x 
 - 2026-10-17T11:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x 
 - 2026-10-17T11:20 enviado bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x 
@@ -78,3 +76,4 @@ Actualizado: 17/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-17T13:20 enviado web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x 
 - 2026-10-17T13:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
 - 2026-10-17T13:20 programado web:61fa0efb-5787-4c59-bce8-a86006933cfa|x 
+- 2026-10-17T13:40 programado web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 

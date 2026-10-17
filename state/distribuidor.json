@@ -7012,22 +7012,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 31202,
+   "restantes": 228,
+   "segundos": 30006,
    "tope": 250
   },
   "30d": {
-   "restantes": 2772,
-   "segundos": 2101823,
+   "restantes": 2771,
+   "segundos": 2100628,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T13:20:18.000Z",
+ "cuota_visto": "2026-10-17T13:40:13.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -14089,6 +14089,7 @@
    "creado": "2026-10-17T12:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-17T12:06:26.553Z",
    "id": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553",
@@ -14761,14 +14762,14 @@
    "video_url": ""
   },
   "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x": {
-   "actualizado": "2026-10-17T12:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T13:40:13.000Z",
+   "buffer_id": "6ad37abd769b4579347c4e42",
    "clave": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x",
    "creado": "2026-10-17T12:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T15:30:02.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T12:36:26.146Z",
    "id": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06",
    "intentos": 0,
@@ -19127,14 +19128,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/|tiktok",
-   "cuando": "2026-10-15T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado|x",
    "cuando": "2026-10-15T02:00:19.000Z",
    "estado": "pendiente",
@@ -23272,6 +23265,13 @@
    "clave": "web:61fa0efb-5787-4c59-bce8-a86006933cfa|x",
    "cuando": "2026-10-17T13:20:18.000Z",
    "dueAt": "2026-10-17T15:15:22.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad37abd769b4579347c4e42",
+   "clave": "web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x",
+   "cuando": "2026-10-17T13:40:13.000Z",
+   "dueAt": "2026-10-17T15:30:02.000Z",
    "evento": "programado"
   }
  ],
