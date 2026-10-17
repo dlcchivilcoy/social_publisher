@@ -10541,14 +10541,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_03_pergamino_un-adolescente-atac-a-fierrazo.mp4"
   },
   "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok": {
-   "actualizado": "2026-10-16T19:00:17.000Z",
+   "actualizado": "2026-10-17T13:00:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok",
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T18:41:21.000Z",
    "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
    "intentos": 0,
@@ -11716,14 +11716,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_01_chacabuco_choque-en-pleno-centro-un-moto.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-16T19:00:17.000Z",
+   "actualizado": "2026-10-17T13:00:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok",
    "creado": "2026-10-16T19:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T18:41:22.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
    "intentos": 0,
@@ -19079,22 +19079,6 @@
  },
  "registro": [
   {
-   "clave": "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6|x",
-   "cuando": "2026-10-15T00:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x",
-   "cuando": "2026-10-15T00:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "buffer_id": "6ad02a4f5f62d3c5af1441ed",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
    "cuando": "2026-10-15T01:20:16.000Z",
@@ -23237,6 +23221,18 @@
    "cuando": "2026-10-17T12:40:15.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok",
+   "cuando": "2026-10-17T13:00:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-17T13:00:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",

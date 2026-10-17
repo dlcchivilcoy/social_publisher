@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,7 +18,7 @@ Actualizado: 17/10/2026 09:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2774 de 3000 (visto 2026-10-17T12:20:17.000Z)
 
-## Cola propia (28 esperando)
+## Cola propia (26 esperando)
 - TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · VTV en la Ciudad: extienden las concesiones actuales por dos meses debido a demo — en turno
@@ -31,14 +31,12 @@ Actualizado: 17/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Robaron y destrozaron el Club River de Junín: se llevaron pelotas y mercadería — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — cupo diario de Notas web en X completo (15)
-- TikTok · Reels policiales · Persecución y secuestro de cocaína en un camino rural de la Ruta 205 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — cupo diario de Notas web en X completo (15)
 - X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — cupo diario de Notas web en X completo (15)
 - X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — cupo diario de Notas web en X completo (15)
 - X · Notas web · Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín — cupo diario de Notas web en X completo (15)
 - X · Notas web · Inflación mayorista del Indec: los precios subieron 3,2% en septiembre — cupo diario de Notas web en X completo (15)
 - X · Notas web · Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores — cupo diario de Notas web en X completo (15)
-- TikTok · Reels policiales · Una mujer herida tras un choque de motos en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución d — cupo diario de Notas web en X completo (15)
 - X · Notas web · Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2, — cupo diario de Notas web en X completo (15)
 - X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — cupo diario de Notas web en X completo (15)
@@ -57,8 +55,6 @@ Actualizado: 17/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T10:20 vencido web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x cupo diario de Notas web en X completo (15)
-- 2026-10-17T10:20 vencido web:6c2dee19-96b1-4489-897a-ad0acfed084b|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T10:20 vencido web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T10:20 vencido web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T10:20 vencido web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x cupo diario de Notas web en X completo (15)
@@ -82,3 +78,5 @@ Actualizado: 17/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-17T12:20 enviado bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok 
 - 2026-10-17T12:40 recibido web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 
 - 2026-10-17T12:40 vencido web:da812ee7-10e6-4f68-a954-bbcfc675078c|x cupo diario de Notas web en X completo (15)
+- 2026-10-17T13:00 vencido policiales:https://lobos24.com.ar/2026/10/16/persecucion-en- tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-17T13:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en tope de 15 publicaciones en 24 h de TikTok
