@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 17/10/2026 12:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 6 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 6 | 6 | 2 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 13 enviadas + 7 programadas de 50 por día
@@ -19,12 +19,13 @@ Actualizado: 17/10/2026 12:00 (hora AR) · ACTIVO
 15m: quedan 98 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2767 de 3000 (visto 2026-10-17T14:40:13.000Z)
 
 ## Cola propia (19 esperando)
+- X · Notas web · El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t — tope de 47 publicaciones en 24 h de X
+- X · Notas web · Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la  — tope de 47 publicaciones en 24 h de X
 - TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Robaron y destrozaron el Club River de Junín: se llevaron pelotas y mercadería — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — tope de 47 publicaciones en 24 h de X
@@ -37,7 +38,6 @@ Actualizado: 17/10/2026 12:00 (hora AR) · ACTIVO
 - X · Notas web · Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer  — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Lilia Lemoine sugirió una fórmula presidencial entre Javier Milei y Patricia Bul — tope de 47 publicaciones en 24 h de X
-- X · Notas web · Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses — tope de 47 publicaciones en 24 h de X
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -48,10 +48,6 @@ Actualizado: 17/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T12:20 enviado bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok 
-- 2026-10-17T12:40 recibido web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 
-- 2026-10-17T12:40 vencido web:da812ee7-10e6-4f68-a954-bbcfc675078c|x cupo diario de Notas web en X completo (15)
-- 2026-10-17T13:00 vencido policiales:https://lobos24.com.ar/2026/10/16/persecucion-en- tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-17T13:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en tope de 15 publicaciones en 24 h de TikTok
 - 2026-10-17T13:20 recibido web:61fa0efb-5787-4c59-bce8-a86006933cfa|x 
 - 2026-10-17T13:20 vencido web:e80eb9f8-449c-4d4b-a410-387331e0d747|x cupo diario de Notas web en X completo (15)
@@ -73,3 +69,7 @@ Actualizado: 17/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-17T14:40 enviado web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
 - 2026-10-17T14:40 enviado web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x 
 - 2026-10-17T14:40 programado web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x 
+- 2026-10-17T15:20 recibido web:36f35444-e990-4d78-aeea-920acd95d869|x 
+- 2026-10-17T15:20 recibido web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
+- 2026-10-17T15:20 vencido policiales:https://laopinionline.ar/articulo/dos-sujetos-rob tope de 15 publicaciones en 24 h de TikTok
+- 2026-10-17T15:20 vencido web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x tope de 47 publicaciones en 24 h de X

@@ -4039,6 +4039,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mas-de-268-shows-fuerza-stereo-presentara-su-tributo-en-chivilcoy",
    "volanta": "Más de 268 shows"
   },
+  "web:357de5ae-2788-4cb5-9198-9e07743ac18f": {
+   "categoria": "",
+   "descripcion": "El agro argentino concretó un volumen histórico de ventas y fijaciones. El maíz tocó US$ 194/t y la soja subió un 14%.",
+   "generado": "2026-10-17T15:03:19.485Z",
+   "id": "web:357de5ae-2788-4cb5-9198-9e07743ac18f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_37decf988d94483b853190fd96fc0dc1~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
+   "volanta": ""
+  },
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": {
    "categoria": "",
    "descripcion": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior Con orgullo, emoción y la convicción de estar viviendo un momento histórico, el tenista de Chivilcoy Máximo Cataldi ya se encuentra instalado en San Pablo, Brasil, junto a su entrenador, Iván Jorge, para disputar el Australian Open Junior Series South America. El gran objetivo: quedarse con el título y la clasificación directa al cuadro principal del Australian Open Junior 2027. El certamen...",
@@ -4091,6 +4109,24 @@
    "titulo": "ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/anses-quienes-cobran-este-martes-13-de-octubre-de-2026-y-cuales-fd7f55",
+   "volanta": ""
+  },
+  "web:36f35444-e990-4d78-aeea-920acd95d869": {
+   "categoria": "nacionales",
+   "descripcion": "La Asociación Bancaria acordó con las cámaras empresariales un incremento del 1,9% para septiembre. Con este ajuste, el salario inicial bruto escaló a más…",
+   "generado": "2026-10-17T15:06:17.302Z",
+   "id": "web:36f35444-e990-4d78-aeea-920acd95d869",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c6b6b01c826141aabcc77a58b186841d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la paritaria",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
    "volanta": ""
   },
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": {
@@ -10203,14 +10239,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1809_03_pergamino_detuvieron-a-un-hombre-por-hos.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok": {
-   "actualizado": "2026-10-16T21:20:13.000Z",
+   "actualizado": "2026-10-17T15:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok",
    "creado": "2026-10-16T21:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T21:10:39.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
    "intentos": 0,
@@ -14968,6 +15004,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x": {
+   "actualizado": "2026-10-17T15:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x",
+   "creado": "2026-10-17T15:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T15:03:19.485Z",
+   "id": "web:357de5ae-2788-4cb5-9198-9e07743ac18f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "📰 El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t\n\nEl agro argentino concretó un volumen histórico de ventas y fijaciones. El maíz tocó US$ 194/t y la soja subió un 14%.\n\nhttps://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
+   "tipo": "nota",
+   "titulo": "El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t",
+   "urgente": false,
+   "vence": "2026-10-18T15:03:19.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x": {
    "actualizado": "2026-10-13T15:00:20.000Z",
    "buffer_id": "6ace1d57b4d66b8b80b52062",
@@ -15042,6 +15103,31 @@
    "titulo": "ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos",
    "urgente": false,
    "vence": "2026-10-14T15:06:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:36f35444-e990-4d78-aeea-920acd95d869|x": {
+   "actualizado": "2026-10-17T15:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
+   "creado": "2026-10-17T15:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T15:06:17.302Z",
+   "id": "web:36f35444-e990-4d78-aeea-920acd95d869",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "📰 Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la paritaria\n\nLa Asociación Bancaria acordó con las cámaras empresariales un incremento del 1,9% para septiembre. Con este ajuste, el salario inicial bruto escaló a más…\n\nhttps://www.diariolacampaña.com.ar/n/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
+   "tipo": "nota",
+   "titulo": "Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la paritaria",
+   "urgente": false,
+   "vence": "2026-10-18T15:06:17.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -16439,14 +16525,14 @@
    "video_url": ""
   },
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x": {
-   "actualizado": "2026-10-16T15:20:15.000Z",
+   "actualizado": "2026-10-17T15:20:13.000Z",
    "buffer_id": "",
    "clave": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x",
    "creado": "2026-10-16T15:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T15:06:31.344Z",
    "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
    "intentos": 0,
@@ -19135,30 +19221,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|tiktok",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696709438391995668"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110555270728343828"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|x",
-   "cuando": "2026-10-15T09:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110551428880101439"
-  },
   {
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|x",
    "cuando": "2026-10-15T09:00:22.000Z",
@@ -23267,6 +23329,34 @@
    "cuando": "2026-10-17T14:40:13.000Z",
    "dueAt": "2026-10-17T16:30:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
+   "cuando": "2026-10-17T15:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x",
+   "cuando": "2026-10-17T15:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok",
+   "cuando": "2026-10-17T15:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x",
+   "cuando": "2026-10-17T15:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -23457,9 +23547,11 @@
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": "2026-10-16T16:20:15.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
+  "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff": "2026-10-14T17:00:17.000Z",
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",
+  "web:36f35444-e990-4d78-aeea-920acd95d869": "2026-10-17T15:20:13.000Z",
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
