@@ -6002,6 +6002,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/banco-nacion-preven-otorgar-40-000-creditos-hipotecarios-antes-e884fc",
    "volanta": ""
   },
+  "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": {
+   "categoria": "nacionales",
+   "descripcion": "Roberto Fabián Ayala reveló detalles de la charla con Leonel Flores por su exposición fuera de la cancha y habló sobre la salud de Emiliano Dibu Martínez.",
+   "generado": "2026-10-17T21:36:29.285Z",
+   "id": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f10333b616ae4ae386fa79c797d9ef64~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-aviso-del-cuerpo-tecnico-de-la-seleccion-al-delantero-de-476195",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-aviso-del-cuerpo-tecnico-de-la-seleccion-al-delantero-de-476195",
+   "volanta": ""
+  },
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": {
    "categoria": "nacionales",
    "descripcion": "La Justicia ratificó el pago de 15,4 millones de pesos a un canillita de 69 años cuyo comercio fue alcanzado por las llamas de un colectivo en 2019.",
@@ -14776,14 +14794,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_03_bolivar_hallaron-sin-vida-a-un-hombre-.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok": {
-   "actualizado": "2026-10-17T09:00:19.000Z",
+   "actualizado": "2026-10-17T21:40:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok",
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
    "intentos": 0,
@@ -16433,14 +16451,14 @@
    "video_url": ""
   },
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x": {
-   "actualizado": "2026-10-16T21:40:13.000Z",
+   "actualizado": "2026-10-17T21:40:13.000Z",
    "buffer_id": "",
    "clave": "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x",
    "creado": "2026-10-16T21:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T21:36:43.554Z",
    "id": "web:559ac15c-0c52-40db-b3a1-6118e02867ed",
    "intentos": 0,
@@ -18250,6 +18268,32 @@
    "titulo": "Banco Nación: prevén otorgar 40.000 créditos hipotecarios antes de fin de año",
    "urgente": false,
    "vence": "2026-10-15T16:06:39.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x": {
+   "actualizado": "2026-10-17T21:40:12.000Z",
+   "buffer_id": "",
+   "clave": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x",
+   "creado": "2026-10-17T21:40:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T21:36:29.285Z",
+   "id": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-aviso-del-cuerpo-tecnico-de-la-seleccion-al-delantero-de-476195",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores\n\nRoberto Fabián Ayala reveló detalles de la charla con Leonel Flores por su exposición fuera de la cancha y habló sobre la salud de Emiliano Dibu Martínez.\n\nhttps://www.diariolacampaña.com.ar/n/el-aviso-del-cuerpo-tecnico-de-la-seleccion-al-delantero-de-476195",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores",
+   "urgente": false,
+   "vence": "2026-10-18T21:36:29.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -20178,24 +20222,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio|x",
-   "cuando": "2026-10-15T13:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok",
-   "cuando": "2026-10-15T13:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|x",
-   "cuando": "2026-10-15T13:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
    "cuando": "2026-10-15T13:20:18.000Z",
@@ -24317,6 +24343,26 @@
    "cuando": "2026-10-17T21:20:23.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697745399506930965"
+  },
+  {
+   "clave": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x",
+   "cuando": "2026-10-17T21:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok",
+   "cuando": "2026-10-17T21:40:13.000Z",
+   "evento": "vencido",
+   "motivo": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática"
+  },
+  {
+   "clave": "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x",
+   "cuando": "2026-10-17T21:40:13.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -24615,6 +24661,7 @@
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
+  "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": "2026-10-17T21:40:12.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
