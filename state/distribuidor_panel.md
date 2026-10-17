@@ -1,24 +1,26 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 16/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 10 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 8 | 1 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 9 | 3 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 10 | 0 | 5 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 9 | 0 | 4 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 5 | 0 | 8 | 1 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 30 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 31 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 40 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día
+- X: conectado · Buffer: 43 enviadas + 0 programadas de 50 por día
+- TikTok: conectado · Buffer: 14 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2784 de 3000 (visto 2026-10-17T02:00:28.000Z)
+15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2783 de 3000 (visto 2026-10-17T02:20:18.000Z)
 
-## Cola propia (45 esperando)
+## Cola propia (48 esperando)
+- X · Reels del bot · Máximo Cataldi clasificó a semifinales del AO Junior Series — cupo diario de Reels del bot en X completo (10)
+- TikTok · Reels del bot · Máximo Cataldi clasificó a semifinales del AO Junior Series — fuera del horizonte de programación (espera en la cola)
 - X · Reels del bot · José Ferro admitió que su espacio se equivocó al respaldar a SENTRA — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — fuera del horizonte de programación (espera en la cola)
 - X · Reels del bot · Gustavo Sylvestre presentó su libro en Chivilcoy — cupo diario de Reels del bot en X completo (10)
@@ -26,6 +28,7 @@ Actualizado: 16/10/2026 23:00 (hora AR) · ACTIVO
 - X · Reels del bot · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Denuncian penalmente al menos 31 detenidos y 8 policías heridos tras marcha univ — tope de 15 publicaciones en 24 h de TikTok
+- X · Notas web · Máximo Cataldi clasificó a semifinales del AO Junior Series — cupo diario de Notas web en X completo (15)
 - X · Notas web · José Ferro admitió que su espacio se equivocó al respaldar a SENTRA — cupo diario de Notas web en X completo (15)
 - X · Notas web · Gustavo Sylvestre presentó su libro en Chivilcoy — cupo diario de Notas web en X completo (15)
 - X · Notas web · Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argent — cupo diario de Notas web en X completo (15)
@@ -46,9 +49,6 @@ Actualizado: 16/10/2026 23:00 (hora AR) · ACTIVO
 - X · Notas web · Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Una mujer herida tras un choque de motos en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución d — cupo diario de Notas web en X completo (15)
-- TikTok · Reels policiales · Ofrecen hasta $10 millones por el crimen de Diego Nahuel Calabrese — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Asociación Bancaria acordó un aumento del 1,9% y el sueldo inicial supera los 2, — cupo diario de Notas web en X completo (15)
-- X · Notas web · Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se e — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -59,13 +59,6 @@ Actualizado: 16/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T00:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tikto 
-- 2026-10-17T00:20 recibido bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x 
-- 2026-10-17T00:20 recibido bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok 
-- 2026-10-17T00:20 recibido bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x 
-- 2026-10-17T00:20 recibido bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok 
-- 2026-10-17T00:20 recibido web:480e86f5-f14e-481b-844f-2ac1f1192f77|x 
-- 2026-10-17T00:20 recibido web:074bc093-e566-4d4d-8d42-0dcd34171beb|x 
 - 2026-10-17T00:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tikto 
 - 2026-10-17T00:20 enviado entrevistas:job00217|x 
 - 2026-10-17T00:20 enviado policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta 
@@ -84,3 +77,10 @@ Actualizado: 16/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-17T01:20 programado policiales:https://www.diariojunin.com/noticias/102846_abige 
 - 2026-10-17T01:20 programado policiales:https://www.junindigital.com/ciudad/2026-10-16-19 
 - 2026-10-17T02:00 programado bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok 
+- 2026-10-17T02:20 recibido bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x 
+- 2026-10-17T02:20 recibido bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|tiktok 
+- 2026-10-17T02:20 recibido web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x 
+- 2026-10-17T02:20 enviado bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|tiktok 
+- 2026-10-17T02:20 enviado policiales:https://www.diariojunin.com/noticias/102844_el-go 
+- 2026-10-17T02:20 enviado policiales:https://www.diariojunin.com/noticias/102846_abige 
+- 2026-10-17T02:20 enviado policiales:https://www.junindigital.com/ciudad/2026-10-16-19 
