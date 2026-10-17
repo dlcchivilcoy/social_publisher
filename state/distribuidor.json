@@ -615,6 +615,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/07e_WEappVM"
   },
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": {
+   "descripcion": "El secretario de Servicios Públicos de la Municipalidad de Chivilcoy, Esteban Genaro, realizó un repaso de los trabajos que lleva adelante el área en distintos puntos de la ciudad, destacó las tareas de puesta en valor de espacios públicos y brindó recomendaciones sobre la disposi",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-17T17:01:22.000Z",
+   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Servicios Públicos repone contenedores y avanza con mejoras en plazas",
+   "urgente": false,
+   "video_bytes": 1832769,
+   "video_mb": 1.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/xqWdXbCx0BU"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -5473,6 +5494,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
    "volanta": ""
   },
+  "web:90ccf787-b147-4a06-9acf-05aa45b23cca": {
+   "categoria": "",
+   "descripcion": "Capacitaron al personal de los hogares municipales en control de infecciones En el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares municipales de Chivilcoy. La jornada se realizó el viernes 16 de octubre en el Hogar Municipal del Carmen y estuvo dirigida al personal de...",
+   "generado": "2026-10-17T17:19:31.660Z",
+   "id": "web:90ccf787-b147-4a06-9acf-05aa45b23cca",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1ad4e5e4b739459493ad9dac3741b5f8~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "volanta": "Chivilcoy · Salud"
+  },
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": {
    "categoria": "nacionales",
    "descripcion": "El sector impulsa una presentación en la ONU y diseña frentes judiciales y políticos para mantener viva la candidatura presidencial de Cristina Kirchner,…",
@@ -7155,17 +7194,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 220,
-   "segundos": 19192,
+   "restantes": 219,
+   "segundos": 16786,
    "tope": 250
   },
   "30d": {
-   "restantes": 2763,
-   "segundos": 2089813,
+   "restantes": 2762,
+   "segundos": 2087408,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T16:40:27.000Z",
+ "cuota_visto": "2026-10-17T17:20:36.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8622,6 +8661,58 @@
    "vence": "2026-10-18T23:18:11.000Z",
    "video_bytes": 961227,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4"
+  },
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok": {
+   "actualizado": "2026-10-17T17:20:32.000Z",
+   "buffer_id": "6ad3ae610a208cb3232f58d0",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok",
+   "creado": "2026-10-17T17:20:13.000Z",
+   "dueAt": "2026-10-17T17:23:15.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T17:01:22.000Z",
+   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Servicios Públicos repone contenedores y avanza con mejoras en plazas\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Servicios Públicos repone contenedores y avanza con mejoras en plazas",
+   "urgente": false,
+   "vence": "2026-10-19T17:01:22.000Z",
+   "video_bytes": 1832769,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
+  },
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x": {
+   "actualizado": "2026-10-17T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
+   "creado": "2026-10-17T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T17:01:22.000Z",
+   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Servicios Públicos repone contenedores y avanza con mejoras en plazas\n\nEl secretario de Servicios Públicos, Esteban Genaro, repasó las tareas del área en la ciudad y destacó las mejoras en espacios públicos. También dio recomendaciones.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Servicios Públicos repone contenedores y avanza con mejoras en plazas",
+   "urgente": false,
+   "vence": "2026-10-19T17:01:22.000Z",
+   "video_bytes": 1832769,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -11674,14 +11765,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-17T12:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T17:20:32.000Z",
+   "buffer_id": "6ad3ae64769b4579348a18f6",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
    "creado": "2026-10-17T12:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T19:23:19.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T12:11:01.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html",
    "intentos": 0,
@@ -11830,14 +11921,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-17T16:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T17:20:32.000Z",
+   "buffer_id": "6ad3ae63938409f1d097288f",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok",
    "creado": "2026-10-17T16:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T18:43:29.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html",
    "intentos": 0,
@@ -12186,14 +12277,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok": {
-   "actualizado": "2026-10-17T16:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T17:20:32.000Z",
+   "buffer_id": "6ad3ae63769b4579348a1866",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok",
    "creado": "2026-10-17T16:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T18:03:53.000Z",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html",
    "intentos": 0,
@@ -14894,14 +14985,14 @@
    "video_url": ""
   },
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x": {
-   "actualizado": "2026-10-17T14:40:13.000Z",
+   "actualizado": "2026-10-17T17:20:32.000Z",
    "buffer_id": "",
    "clave": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x",
    "creado": "2026-10-16T17:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T17:09:57.561Z",
    "id": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de",
    "intentos": 0,
@@ -17178,6 +17269,32 @@
    "titulo": "Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca",
    "urgente": false,
    "vence": "2026-10-16T15:06:37.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x": {
+   "actualizado": "2026-10-17T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
+   "creado": "2026-10-17T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 47 publicaciones en 24 h de X",
+   "estado": "pendiente",
+   "generado": "2026-10-17T17:19:31.660Z",
+   "id": "web:90ccf787-b147-4a06-9acf-05aa45b23cca",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Capacitaron al personal de los hogares municipales en control de infecciones\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
+   "urgente": false,
+   "vence": "2026-10-18T17:19:31.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -19531,62 +19648,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:15858ae6-1837-4436-b8ed-3a098530f992|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x",
-   "cuando": "2026-10-15T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2de9a502-e952-44a4-8525-478c9d70047a|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:176d2a19-01bb-4043-bc46-282b3dd6307c|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:373879d8-54ba-4e71-9032-4f6c8f181ebc|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:6092c4f7-b53e-4964-a892-2470dfeed127|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x",
    "cuando": "2026-10-15T10:20:16.000Z",
@@ -23645,6 +23706,64 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
+   "cuando": "2026-10-17T17:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok",
+   "cuando": "2026-10-17T17:20:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
+   "cuando": "2026-10-17T17:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x",
+   "cuando": "2026-10-17T17:20:32.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "buffer_id": "6ad3ae610a208cb3232f58d0",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok",
+   "cuando": "2026-10-17T17:20:36.000Z",
+   "dueAt": "2026-10-17T17:23:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3ae63769b4579348a1866",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok",
+   "cuando": "2026-10-17T17:20:36.000Z",
+   "dueAt": "2026-10-17T18:03:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3ae63938409f1d097288f",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-17T17:20:36.000Z",
+   "dueAt": "2026-10-17T18:43:29.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3ae64769b4579348a18f6",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-17T17:20:36.000Z",
+   "dueAt": "2026-10-17T19:23:19.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -23679,6 +23798,7 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": "2026-10-16T21:00:18.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": "2026-10-16T21:20:13.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
+  "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -23915,6 +24035,7 @@
   "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad": "2026-10-16T10:20:16.000Z",
   "web:90793449-fe94-4a94-a7d7-67bd22f391dd": "2026-10-16T10:20:16.000Z",
   "web:90cb2fe1-4568-4f3b-b570-73550002c005": "2026-10-15T15:20:14.000Z",
+  "web:90ccf787-b147-4a06-9acf-05aa45b23cca": "2026-10-17T17:20:13.000Z",
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
   "web:91984193-d136-423a-8896-e837bb387c4a": "2026-10-16T10:20:16.000Z",
   "web:92431890-c8e8-4999-9e83-03174b736b52": "2026-10-14T10:20:15.000Z",

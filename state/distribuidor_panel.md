@@ -1,38 +1,36 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 4 | 0 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 3 | 0 | 4 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 4 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 3 | 3 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 0 | 5 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 0 programadas de 50 por día
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2763 de 3000 (visto 2026-10-17T16:40:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2762 de 3000 (visto 2026-10-17T17:20:36.000Z)
 
-## Cola propia (20 esperando)
+## Cola propia (18 esperando)
+- X · Reels del bot · Servicios Públicos repone contenedores y avanza con mejoras en plazas — tope de 47 publicaciones en 24 h de X
+- X · Notas web · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Chivilcoy · Servicios Públicos — tope de 47 publicaciones en 24 h de X
-- TikTok · Reels policiales · Detuvieron a tres personas y secuestraron dólares por un asalto — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Secuestraron ocho autos y dos motos por alcoholemia positiva — tope de 47 publicaciones en 24 h de X
 - X · Notas web · El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados — tope de 47 publicaciones en 24 h de X
 - X · Notas web · El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la  — tope de 47 publicaciones en 24 h de X
-- TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 15 publicaciones en 24 h de TikTok
 - X · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 47 publicaciones en 24 h de X
 - TikTok · Reels policiales · Robaron y destrozaron el Club River de Junín: se llevaron pelotas y mercadería — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Inflación mayorista del Indec: los precios subieron 3,2% en septiembre — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Kicillof cruzó a Santilli y criticó al Gobierno en una cumbre de gobernadores — tope de 47 publicaciones en 24 h de X
 - X · Notas web · Pyme bloqueada por Camioneros: el dueño teme por su familia tras la absolución d — tope de 47 publicaciones en 24 h de X
@@ -49,14 +47,6 @@ Actualizado: 17/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T15:40 recibido web:d9d5c19d-7cdc-4599-9431-674725b57a40|x 
-- 2026-10-17T15:40 vencido web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x tope de 47 publicaciones en 24 h de X
-- 2026-10-17T15:40 vencido web:c07869bb-4b38-46ca-ad18-588d0b35d614|x tope de 47 publicaciones en 24 h de X
-- 2026-10-17T15:40 vencido web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x tope de 47 publicaciones en 24 h de X
-- 2026-10-17T15:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
-- 2026-10-17T15:40 enviado web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 
-- 2026-10-17T15:40 enviado web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x 
-- 2026-10-17T15:40 enviado web:61fa0efb-5787-4c59-bce8-a86006933cfa|x 
 - 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
 - 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
 - 2026-10-17T16:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
@@ -74,3 +64,11 @@ Actualizado: 17/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-17T16:40 enviado web:357de5ae-2788-4cb5-9198-9e07743ac18f|x 
 - 2026-10-17T16:40 enviado web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x 
 - 2026-10-17T17:00 recibido web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x 
+- 2026-10-17T17:20 recibido bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x 
+- 2026-10-17T17:20 recibido bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tikto 
+- 2026-10-17T17:20 recibido web:90ccf787-b147-4a06-9acf-05aa45b23cca|x 
+- 2026-10-17T17:20 vencido web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x tope de 47 publicaciones en 24 h de X
+- 2026-10-17T17:20 programado bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tikto 
+- 2026-10-17T17:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/video-cua 
+- 2026-10-17T17:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
+- 2026-10-17T17:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tir 
