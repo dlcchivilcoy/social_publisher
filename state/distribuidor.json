@@ -6934,22 +6934,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 42004,
+   "restantes": 235,
+   "segundos": 40805,
    "tope": 250
   },
   "30d": {
-   "restantes": 2779,
-   "segundos": 2112625,
+   "restantes": 2778,
+   "segundos": 2111426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T10:20:16.000Z",
+ "cuota_visto": "2026-10-17T10:40:15.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -13971,14 +13971,14 @@
    "video_url": ""
   },
   "web:054fa202-87fe-43be-afff-36d09259bbf7|x": {
-   "actualizado": "2026-10-16T23:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T10:40:14.000Z",
+   "buffer_id": "6ad3508f0b0d72757ad1ad05",
    "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
    "creado": "2026-10-16T23:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T14:00:47.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T23:33:32.498Z",
    "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
    "intentos": 0,
@@ -15238,7 +15238,7 @@
    "creado": "2026-10-16T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-16T23:16:15.689Z",
    "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
@@ -18913,12 +18913,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|x",
-   "cuando": "2026-10-14T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110509972878397863"
-  },
   {
    "buffer_id": "6ad00e2f5f62d3c5af0f4585",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
@@ -23083,6 +23077,13 @@
    "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
    "cuando": "2026-10-17T10:20:16.000Z",
    "dueAt": "2026-10-17T13:45:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3508f0b0d72757ad1ad05",
+   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
+   "cuando": "2026-10-17T10:40:15.000Z",
+   "dueAt": "2026-10-17T14:00:47.000Z",
    "evento": "programado"
   }
  ],
