@@ -111,6 +111,10 @@ def hashtags_tiktok(ev: dict) -> list[str]:
         h = "#" + h.lstrip("#").strip()
         if len(h) > 1 and h.lower() not in [x.lower() for x in fijos + extra]:
             extra.append(h)
+    if ev.get("origen") == "nacionales" and ev.get("categoria"):
+        h = _hashtag(ev["categoria"]).lower()
+        if h and h not in [x.lower() for x in fijos + extra]:
+            extra.insert(0, h)
     if ev.get("origen") == "policiales":
         for h in (_hashtag(ev.get("localidad") or "").lower(), "#policiales"):
             if h and h not in [x.lower() for x in fijos + extra]:

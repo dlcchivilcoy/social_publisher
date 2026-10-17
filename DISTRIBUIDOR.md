@@ -58,6 +58,17 @@ Todo lo configurable está en `distribuidor/config.py`.
   más la prioridad de cada pieza, menos la antigüedad.
 - **Separación**: X 15 min, TikTok 40 min. Reel y nota de la misma noticia en X: 3 h y textos
   distintos. Franja: X 07:00–24:00, TikTok 08:00–23:30.
+- **Etapa 6 (17/10/2026, PDF «Prompt integral»)**:
+  - Origen nuevo **«nacionales»**: los videos de nacionales y de sus categorías (deportes,
+    espectáculos, cine y series, tecnología) llegan por el buzón de policiales-bsas. **Solo TikTok**
+    (a X ya van como notas de la web), cupo 4 dentro del MISMO tope de TikTok: reemplaza parte de lo
+    policial y le da al intercalado otra temática. Hashtag de su sección (`#deportes`…).
+  - **Radio de 100 km**: un evento policial con `radio_ok: false` o `distancia_km > 100` se rechaza
+    al entrar (ni X ni TikTok), aunque policiales ya los filtra.
+  - **La red pide esperar**: cuando TikTok contesta «too many posts via OpenAPI in the last 24
+    hours» (pasó 6 veces del 12 al 16/10, con 13 y 15 publicaciones en las 24 h previas), el canal
+    queda **en pausa 24 h** (`est["pausas"]`, mail de aviso) y su tope pasa a **lo que aguantó menos
+    una** durante 7 días. Con los cortes históricos quedó en 12. Se ve en el panel.
 - **Intercalado (17/10/2026, PDF «Prompt integral»)**: en cada canal nunca dos policiales
   seguidos; entre uno y otro, al menos `MIN_NON_POLICE_POSTS_BETWEEN_POLICE` (1) de otra temática.
   Policial = origen «policiales» o un título con un hecho policial (`distribuidor/tema.py`: el bot

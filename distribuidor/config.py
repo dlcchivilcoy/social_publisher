@@ -31,9 +31,13 @@ NOMBRE = {"x": "X", "tiktok": "TikTok"}
 PLATAFORMAS = ("x", "tiktok")
 
 # Orígenes de contenido (los cuatro sistemas).
-ORIGENES = ("entrevistas", "bot", "policiales", "web")
+# «nacionales» (17/10/2026, PDF «Prompt integral» etapa 6): los videos de nacionales y de sus
+# categorías (deportes, espectáculos, cine y series, tecnología) del repo policiales-bsas. Solo
+# TikTok: a X ya llegan como notas de la web. Llegan por el mismo buzón que policiales.
+ORIGENES = ("entrevistas", "bot", "policiales", "web", "nacionales")
 NOMBRE_ORIGEN = {"entrevistas": "Recortes de entrevistas", "bot": "Reels del bot",
-                 "policiales": "Reels policiales", "web": "Notas web"}
+                 "policiales": "Reels policiales", "web": "Notas web",
+                 "nacionales": "Nacionales y categorías"}
 
 
 def _int(nombre: str, defecto: int) -> int:
@@ -63,6 +67,8 @@ MATRIZ_DEFAULT = {
     "bot":         {"x": 10, "tiktok": 10},
     "policiales":  {"x": 12, "tiktok": 12},
     "web":         {"x": 15, "tiktok": 0},   # las notas web NUNCA van a TikTok (ver puede_ir)
+    # Dentro del MISMO tope de TikTok (15): reemplaza parte de lo policial, no suma (17/10/2026).
+    "nacionales":  {"x": 0, "tiktok": 4},
 }
 
 
@@ -121,11 +127,12 @@ VENCE_HORAS = {
     "bot": _int("VENCE_BOT_HORAS", 48),
     "policiales": min(_int("VENCE_POLICIALES_HORAS", 18), 20),
     "web": _int("VENCE_WEB_HORAS", 24),
+    "nacionales": min(_int("VENCE_NACIONALES_HORAS", 18), 20),   # su video vive en el mismo Release
 }
 
 # Peso editorial de cada origen al ordenar la cola (más = antes), además de la prioridad
 # de cada pieza (1-10) y lo urgente. Lo propio y local va antes que lo regional.
-PESO_ORIGEN = {"bot": 30, "entrevistas": 25, "web": 20, "policiales": 10}
+PESO_ORIGEN = {"bot": 30, "entrevistas": 25, "web": 20, "nacionales": 15, "policiales": 10}
 BONO_URGENTE = 1000
 
 # Reintentos ante errores pasajeros de Buffer (5xx, red). Un error de datos no se reintenta.

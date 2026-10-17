@@ -2,7 +2,7 @@
 
     {
       "id":          "policiales:abc123"   (único y estable: es la clave de idempotencia)
-      "origen":      "entrevistas" | "bot" | "policiales" | "web"
+      "origen":      "entrevistas" | "bot" | "policiales" | "web" | "nacionales"
       "tipo":        "video" | "nota"
       "generado":    ISO 8601
       "titulo", "descripcion"
@@ -64,6 +64,15 @@ def normalizar(ev: dict) -> tuple[dict | None, str]:
         return None, "sin título ni texto"
     if e["tipo"] == "video" and not _http_ok(e.get("video_url", "")):
         return None, "video sin URL pública https"
+    # Radio de 100 km de policiales (17/10/2026): si el buzón trae un hecho que no lo cumple
+    # (un evento viejo, o un error del otro lado), no sale ni en X ni en TikTok.
+    if e["origen"] == "policiales":
+        try:
+            lejos = float(e.get("distancia_km")) > 100
+        except (TypeError, ValueError):
+            lejos = False
+        if e.get("radio_ok") is False or lejos:
+            return None, f"policial fuera del radio de 100 km de Chivilcoy ({e.get('localidad') or 's/d'})"
     if e["tipo"] == "nota" and not _http_ok(e.get("nota_url", "")):
         return None, "nota sin URL"
     try:

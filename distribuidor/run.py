@@ -21,7 +21,7 @@ import argparse
 import json
 import os
 import sys
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 from utils.config import load_config
 
@@ -309,6 +309,65 @@ def sincronizar(est: dict, simular: bool = False) -> None:
             p.update(estado="error", error=err.get("message") or "Buffer no pudo publicarla",
                      error_crudo=(err.get("rawError") or "")[:300], actualizado=estado.iso(ahora))
             estado.anotar(est, "error_publicacion", clave=p["clave"], motivo=p["error"])
+            if es_tope_de_la_red(p["error"] + " " + p["error_crudo"]):
+                registrar_pausa(est, p["plataforma"], estado.de_iso(p.get("dueAt")) or ahora, simular)
+
+
+# ------------------------------------------------------------ 3b. la red pide esperar (17/10/2026)
+# TikTok cortó 6 veces del 12 al 16/10 con «too many posts via OpenAPI in the last 24 hours» con
+# 13 y con 15 publicaciones en las 24 h previas: su tope real está por debajo del nuestro. El PDF
+# «Prompt integral» pide no insistir contra una restricción: se pausa el canal hasta que se cumpla
+# el plazo y su tope baja a lo que de verdad aguantó (durante DIAS_TOPE_MEDIDO).
+DIAS_TOPE_MEDIDO = 7
+_TOPE_RED = ("too many posts", "wait 24 hours", "spam_risk_too_many_posts", "large number of posts")
+
+
+def es_tope_de_la_red(texto: str) -> bool:
+    t = (texto or "").lower()
+    return any(x in t for x in _TOPE_RED)
+
+
+def registrar_pausa(est: dict, red: str, cuando: datetime, simular: bool = False) -> dict:
+    """Pausa `red` 24 h desde `cuando` y mide su tope: las que salieron en las 24 h previas, menos una."""
+    salieron = sum(1 for p in est["publicaciones"].values()
+                   if p["plataforma"] == red and p["estado"] == "enviado"
+                   and cuando - timedelta(hours=24) < (estado.de_iso(p.get("dueAt")) or cuando) < cuando)
+    pausas = est.setdefault("pausas", {})
+    previa = pausas.get(red) or {}
+    hasta = max(cuando + timedelta(hours=24), estado.de_iso(previa.get("hasta")) or cuando)
+    medido = max(1, salieron - 1)
+    if previa.get("tope_medido") and (estado.de_iso(previa.get("medido")) or cuando) > cuando - timedelta(days=DIAS_TOPE_MEDIDO):
+        medido = min(medido, int(previa["tope_medido"]))
+    pausas[red] = {"hasta": estado.iso(hasta), "tope_medido": medido, "medido": estado.iso(cuando),
+                   "motivo": f"{config.NOMBRE[red]} pidió esperar 24 h (salieron {salieron} en las 24 h previas)"}
+    estado.anotar(est, "pausa_red", red=red, hasta=pausas[red]["hasta"], tope=medido)
+    avisar(est, f"pausa_{red}", f"{config.NOMBRE[red]} pidió esperar 24 horas",
+           f"{pausas[red]['motivo']}.\n"
+           f"El distribuidor no programa nada en {config.NOMBRE[red]} hasta "
+           f"{hasta.astimezone(planificador.AR):%d/%m %H:%M} (hora AR) y baja su tope a {medido} por 24 h "
+           f"durante {DIAS_TOPE_MEDIDO} días. No hace falta hacer nada.", simular=simular)
+    return pausas[red]
+
+
+def medir_topes_historicos(est: dict) -> None:
+    """Una sola vez (17/10/2026): los cortes de TikTok que ya estaban en el estado fijan su tope
+    medido, sin mandar mails (ya pasaron)."""
+    if "pausas" in est:
+        return
+    est["pausas"] = {}
+    errores = sorted((p for p in est["publicaciones"].values() if p["estado"] == "error"
+                      and es_tope_de_la_red(f"{p.get('error')} {p.get('error_crudo')}")),
+                     key=lambda p: p.get("dueAt") or "")
+    for p in errores:
+        cuando = estado.de_iso(p.get("dueAt"))
+        if cuando:
+            registrar_pausa(est, p["plataforma"], cuando, simular=True)
+
+
+def pausada(est: dict, red: str, ahora: datetime) -> str:
+    p = (est.get("pausas") or {}).get(red) or {}
+    hasta = estado.de_iso(p.get("hasta"))
+    return p.get("motivo", "") if hasta and hasta > ahora else ""
 
 
 # ----------------------------------------------------------------------------- 4. enviar
@@ -320,6 +379,13 @@ def enviar(est: dict, simular: bool = False) -> dict:
             continue
         if (est["canales"].get(red) or {}).get("desconectado"):
             resumen[red] = "canal desconectado: no se programa"
+            continue
+        motivo_pausa = pausada(est, red, ahora)
+        if motivo_pausa:
+            resumen[red] = f"en pausa: {motivo_pausa}"
+            for p in est["publicaciones"].values():
+                if p["plataforma"] == red and p["estado"] == "pendiente":
+                    p["espera"] = f"en pausa: {motivo_pausa}"
             continue
         a, d, espera = planificador.planificar(est, red, ahora)
         for k, motivo in espera.items():
@@ -453,6 +519,10 @@ def panel(est: dict) -> str:
                f"{canales[r]['limite_buffer']['scheduled']} programadas de "
                f"{canales[r]['limite_buffer']['limit']} por día"
                if (canales.get(r) or {}).get("limite_buffer") else "")
+            + (f" · ⏸ EN PAUSA hasta {estado.de_iso(est['pausas'][r]['hasta']).astimezone(planificador.AR):%d/%m %H:%M}"
+               if pausada(est, r, estado.ahora()) else "")
+            + (f" · tope medido {est['pausas'][r]['tope_medido']} por 24 h"
+               if ((est.get("pausas") or {}).get(r) or {}).get("tope_medido") else "")
             for r in config.PLATAFORMAS],
           "", "## Cuota de la API de Buffer",
           (" · ".join(f"{v}: quedan {q[v]['restantes']} de {q[v]['tope']}" for v in ("15m", "24h", "30d") if v in q)
@@ -476,6 +546,7 @@ def pasada(simular: bool = False) -> int:
     eventos = fuentes.todas()
     cuenta = encolar(est, eventos)
     migrar_textos(est, simular)
+    medir_topes_historicos(est)
     venc = vencer(est)
     logger.info(f"entrada: {cuenta} · vencidos: {venc}")
 

@@ -149,6 +149,10 @@ def planificar(est: dict, plataforma: str, ahora: datetime) -> tuple[list, list,
                   key=lambda p: puntaje(p, ahora), reverse=True)
     asignadas, desprogramar, espera = [], [], {}
     tope24 = config.tope_24h(plataforma)
+    # El tope que la red de verdad aguantó (run.registrar_pausa), durante 7 días.
+    medido = (est.get("pausas") or {}).get(plataforma) or {}
+    if medido.get("tope_medido") and (estado.de_iso(medido.get("medido")) or ahora) > ahora - timedelta(days=7):
+        tope24 = min(tope24, int(medido["tope_medido"]))
     linea = linea_del_canal(est, plataforma)
     intercalar, n_inter = config.intercalado(), config.min_entre_policiales()
     if intercalar:

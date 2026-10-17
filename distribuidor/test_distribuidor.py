@@ -496,10 +496,61 @@ def prueba_intercalado():
         os.environ["INTERCALADO"] = "0"
 
 
+def prueba_etapa6():
+    print("etapa 6: nacionales a TikTok, radio de policiales y pausa ante el tope de TikTok (17/10/2026)")
+    reloj(AR_10)
+    nac = ev("n1", "bot", titulo="Argentinos Juniors ganó y alcanzó a Boca en la Tabla Anual")
+    nac.update(id="nacionales:n1", origen="nacionales", plataformas=["tiktok"], categoria="Deportes",
+               hashtags=["TorneoClausura"])
+    lejos = ev("lejos", localidad="Pergamino", distancia_km=122.9, radio_ok=False)
+    cerca = ev("cerca", localidad="Bragado", distancia_km=49.3, radio_ok=True)
+    falso = preparar(lambda: [nac, lejos, cerca])
+    run.pasada()
+    est = estado.cargar()
+    pubs = est["publicaciones"]
+    chequear("nacionales: solo TikTok (a X ya va como nota web)",
+             "nacionales:n1|tiktok" in pubs and "nacionales:n1|x" not in pubs, list(pubs))
+    chequear("nacionales: hashtag de su categoría en TikTok",
+             "#deportes" in pubs["nacionales:n1|tiktok"].get("texto", ""), pubs["nacionales:n1|tiktok"].get("texto"))
+    chequear("policial fuera del radio de 100 km: no entra ni a X ni a TikTok",
+             not any(k.startswith("policiales:lejos") for k in pubs))
+    chequear("policial dentro del radio: entra", "policiales:cerca|x" in pubs)
+
+    # TikTok contesta «too many posts»: pausa 24 h y tope medido.
+    for i in range(14):
+        k = f"bot:h{i}|tiktok"
+        pubs[k] = {"clave": k, "id": f"bot:h{i}", "plataforma": "tiktok", "origen": "bot", "tipo": "video",
+                   "estado": "enviado", "dueAt": estado.iso(AR_10 - timedelta(hours=20) + timedelta(minutes=40 * i)),
+                   "titulo": "x", "generado": estado.iso(AR_10)}
+    pausa = run.registrar_pausa(est, "tiktok", AR_10, simular=True)
+    chequear("tope de TikTok: pausa 24 h desde el corte", pausa["hasta"] == estado.iso(AR_10 + timedelta(hours=24)))
+    chequear("...y el tope medido es lo que aguantó menos una (14 → 13)", pausa["tope_medido"] == 13, pausa)
+    chequear("es_tope_de_la_red reconoce el mensaje real de TikTok",
+             run.es_tope_de_la_red("This TikTok creator has made too many posts via OpenAPI in the last 24 hours"))
+    estado.guardar(est)
+    reloj(AR_10 + timedelta(hours=1))
+    nac2 = dict(nac, id="nacionales:n2", titulo="Netflix estrena la serie de Mafalda en noviembre",
+                generado=estado.iso(AR_10 + timedelta(hours=1)))
+    falso_eventos = [nac, lejos, cerca, nac2]
+    fuentes.todas = lambda: falso_eventos
+    run.pasada()
+    est = estado.cargar()
+    t = est["publicaciones"]["nacionales:n2|tiktok"]
+    chequear("en pausa no se programa nada en TikTok (y el motivo queda a la vista)",
+             t["estado"] == "pendiente" and t.get("espera", "").startswith("en pausa"), t.get("espera"))
+    chequear("...X sigue igual", est["publicaciones"]["policiales:cerca|x"]["estado"] in ("programado", "enviado"))
+    est["pausas"]["tiktok"]["hasta"] = estado.iso(AR_10)          # ya pasó la pausa
+    est["pausas"]["tiktok"]["tope_medido"] = 14
+    estado.guardar(est)
+    _a, _d, espera = planificador.planificar(est, "tiktok", AR_10 + timedelta(hours=2))
+    chequear("pasada la pausa, rige el tope medido (14 en 24 h, no 15)",
+             any("tope de 14" in m for m in espera.values()) or len(_a) <= 1, espera)
+
+
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)
