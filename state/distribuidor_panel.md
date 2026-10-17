@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,18 +9,17 @@ Actualizado: 17/10/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 3 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 0 enviadas + 6 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2778 de 3000 (visto 2026-10-17T10:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2777 de 3000 (visto 2026-10-17T11:00:17.000Z)
 
-## Cola propia (29 esperando)
-- X · Notas web · El Centro de Primera Infancia celebró el Día de la Familia — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Reels policiales · Fuego en un edificio del centro por un desperfecto eléctrico — en turno
+## Cola propia (28 esperando)
+- X · Reels policiales · Fuego en un edificio del centro por un desperfecto eléctrico — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
 - X · Notas web · Le robaron tres motos a Sebastián Porto y recuperó una con rastreo — cupo diario de Notas web en X completo (15)
@@ -58,7 +57,6 @@ Actualizado: 17/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T09:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x 
 - 2026-10-17T09:00 programado policiales:https://semanariodejunin.com.ar/nota/75601/hallar 
 - 2026-10-17T09:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x 
 - 2026-10-17T09:00 programado web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x 
@@ -83,3 +81,4 @@ Actualizado: 17/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-17T10:20 programado web:1aebaa22-868e-46df-ae05-8c08cc674c03|x 
 - 2026-10-17T10:20 programado web:074bc093-e566-4d4d-8d42-0dcd34171beb|x 
 - 2026-10-17T10:40 programado web:054fa202-87fe-43be-afff-36d09259bbf7|x 
+- 2026-10-17T11:00 programado web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x 

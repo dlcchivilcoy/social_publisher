@@ -6939,17 +6939,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 235,
-   "segundos": 40805,
+   "restantes": 234,
+   "segundos": 39602,
    "tope": 250
   },
   "30d": {
-   "restantes": 2778,
-   "segundos": 2111426,
+   "restantes": 2777,
+   "segundos": 2110223,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T10:40:15.000Z",
+ "cuota_visto": "2026-10-17T11:00:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -11173,6 +11173,7 @@
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
@@ -15232,14 +15233,14 @@
    "video_url": ""
   },
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x": {
-   "actualizado": "2026-10-16T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T11:00:17.000Z",
+   "buffer_id": "6ad35541769b45793473307f",
    "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
    "creado": "2026-10-16T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T14:15:33.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T23:16:15.689Z",
    "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
    "intentos": 0,
@@ -18913,13 +18914,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad00e2f5f62d3c5af0f4585",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
-   "cuando": "2026-10-14T23:20:16.000Z",
-   "dueAt": "2026-10-14T23:23:48.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad00e30d9430f324aebd269",
    "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
@@ -23084,6 +23078,13 @@
    "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
    "cuando": "2026-10-17T10:40:15.000Z",
    "dueAt": "2026-10-17T14:00:47.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad35541769b45793473307f",
+   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
+   "cuando": "2026-10-17T11:00:17.000Z",
+   "dueAt": "2026-10-17T14:15:33.000Z",
    "evento": "programado"
   }
  ],
