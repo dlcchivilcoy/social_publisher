@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,27 +7,25 @@ Actualizado: 17/10/2026 11:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 1 | 2 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 1 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 2 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 8 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 9 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 8 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 4 enviadas + 2 programadas de 25 por día
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2770 de 3000 (visto 2026-10-17T14:00:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2769 de 3000 (visto 2026-10-17T14:20:15.000Z)
 
-## Cola propia (22 esperando)
+## Cola propia (20 esperando)
 - TikTok · Reels policiales · Disparos y corridas a la salida de los boliches en Chacabuco — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Junín: faenaron tres vacas preñadas y robaron 700 kilos de carne — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Piden colaboración para recuperar una moto robada en calle 94 — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — tope de 15 publicaciones en 24 h de TikTok
-- X · Reels policiales · Principio de incendio en una casa del barrio Los Zorzales — en turno
 - TikTok · Reels policiales · Robaron y destrozaron el Club River de Junín: se llevaron pelotas y mercadería — tope de 15 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026 — tope de 15 publicaciones en 24 h de TikTok
-- X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — cupo diario de Notas web en X completo (15)
+- X · Notas web · Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Recuperaron una moto robada y aprehendieron a un adolescente — cupo diario de Notas web en X completo (15)
 - X · Notas web · Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses — cupo diario de Notas web en X completo (15)
 - X · Notas web · Aprobaron una nueva soja con tolerancia a cuatro herbicidas en Argentina — cupo diario de Notas web en X completo (15)
@@ -51,8 +49,6 @@ Actualizado: 17/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T11:20 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x 
-- 2026-10-17T11:20 enviado bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x 
 - 2026-10-17T11:20 enviado bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|tiktok 
 - 2026-10-17T11:20 enviado policiales:https://semanariodejunin.com.ar/nota/75601/hallar 
 - 2026-10-17T11:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31015/sust 
@@ -76,3 +72,5 @@ Actualizado: 17/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-17T13:20 programado web:61fa0efb-5787-4c59-bce8-a86006933cfa|x 
 - 2026-10-17T13:40 programado web:2981a70b-4786-42f4-adb6-8b9121c1ed06|x 
 - 2026-10-17T14:00 programado web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x 
+- 2026-10-17T14:20 programado web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x 
+- 2026-10-17T14:20 programado policiales:https://www.presentenoticias.com/noticias/2026/10 
