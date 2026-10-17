@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 6
+    "scheduled": 3,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-17T16:40:27.000Z"
+   "visto": "2026-10-17T18:00:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-17T16:40:27.000Z"
+   "visto": "2026-10-17T18:00:16.000Z"
   }
  },
  "contenidos": {
@@ -7215,17 +7215,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 219,
-   "segundos": 16786,
+   "restantes": 218,
+   "segundos": 14403,
    "tope": 250
   },
   "30d": {
-   "restantes": 2762,
-   "segundos": 2087408,
+   "restantes": 2761,
+   "segundos": 2085024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T17:20:36.000Z",
+ "cuota_visto": "2026-10-17T18:00:17.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8684,18 +8684,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55ab930979047ec5.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok": {
-   "actualizado": "2026-10-17T17:20:32.000Z",
+   "actualizado": "2026-10-17T18:00:16.000Z",
    "buffer_id": "6ad3ae610a208cb3232f58d0",
    "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok",
    "creado": "2026-10-17T17:20:13.000Z",
    "dueAt": "2026-10-17T17:23:15.000Z",
+   "enviado": "2026-10-17T17:24:57.832Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T17:01:22.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697688465281961222",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19722,12 +19723,6 @@
  },
  "registro": [
   {
-   "clave": "web:92431890-c8e8-4999-9e83-03174b736b52|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "fuera del horizonte de programación (espera en la cola)"
-  },
-  {
    "clave": "web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x",
    "cuando": "2026-10-15T10:20:16.000Z",
    "evento": "vencido",
@@ -23841,10 +23836,16 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok",
+   "cuando": "2026-10-17T18:00:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697688465281961222"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T16:40:27.000Z",
+ "ultima_sync": "2026-10-17T18:00:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
