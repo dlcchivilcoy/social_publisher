@@ -278,6 +278,9 @@ BLOQUE_9X16_IMG = 1060
 # misma altura en todos los cuadros (una 16:9 llega a 1060 recortando un 43 % del ancho).
 BLOQUE_TEXTO_TIPICO = 300          # alto de volanta + titular de 3 renglones, para ubicar el logo
 BLOQUE_9X16_RECORTE = 0.43
+# Las verticales enteras, un poco más grandes (pedido 2026-10-17: «achicá un poco el bloque para
+# que la foto entre más grande»): el bloque arranca más abajo y el titular se achica si hace falta.
+BLOQUE_9X16_ENTERA = 1160
 # Tarjetas que cambian a lo largo del video (2026-10-03): entran y salen con un fundido de 0,2 s
 # («de 0,15 a 0,25», dice el prompt) y cada una se lee al menos 3 s (o palabras / 2,5).
 FUNDIDO_TARJETA = 0.2
@@ -2176,7 +2179,7 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
                              round(natural / (1 - BLOQUE_9X16_RECORTE)))) // 2 * 2
     fijo = BLOQUE_LINEA + pad_a + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + pad_b
     if entera:
-        hm = BLOQUE_9X16_IMG
+        hm = BLOQUE_9X16_ENTERA
         esc = min(1080 / w, hm / h)
         wi, hi = max(2, round(w * esc) // 2 * 2), max(2, round(h * esc) // 2 * 2)
         media = ((1080 - wi) // 2, (hm - hi) // 2, wi, hi)
