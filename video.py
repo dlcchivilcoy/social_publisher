@@ -273,8 +273,11 @@ BLOQUE_RECORTE_MAX = 0.25          # lo más que se recorta de la imagen (desde 
 # los COSTADOS (como mucho un 40 % del ancho, mirando a las caras o a lo importante), así el
 # bloque no queda enorme; y el texto termina antes de la franja de la descripción de la app.
 BLOQUE_9X16_IMG = 1060
+# 2026-10-17 (2º pedido): las FOTOS VERTICALES también van con el bloque abajo, ENTERAS: achicadas
+# y centradas en esos 1080x1060, sobre sí mismas desenfocadas. Así la línea naranja queda a la
+# misma altura en todos los cuadros (una 16:9 llega a 1060 recortando un 43 % del ancho).
 BLOQUE_TEXTO_TIPICO = 300          # alto de volanta + titular de 3 renglones, para ubicar el logo
-BLOQUE_9X16_RECORTE = 0.40
+BLOQUE_9X16_RECORTE = 0.43
 # Tarjetas que cambian a lo largo del video (2026-10-03): entran y salen con un fundido de 0,2 s
 # («de 0,15 a 0,25», dice el prompt) y cada una se lee al menos 3 s (o palabras / 2,5).
 FUNDIDO_TARJETA = 0.2
@@ -2147,7 +2150,7 @@ def bloque_tarjeta_png(volanta: str, texto: str, plan: dict, salida) -> Path:
 
 def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int,
                  grafica: bool, tema: str, alto: int = CORR_ALTO_APAISADO,
-                 foco=None) -> dict:
+                 foco=None, entera: bool = False) -> dict:
     """El cuadro 4:5 estilo bloque (ver `BLOQUE_TEMAS`) sobre el `plan` base de `_plan_corr`.
 
     La imagen entra ENTERA a todo el ancho desde y=0. Si con ella entera el texto no entra ni
@@ -2157,7 +2160,10 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
 
     En un cuadro 9:16 (`alto` 1920, ver `BLOQUE_9X16_IMG`) la imagen se estira recortando los
     costados (centrada en las caras o en el `foco`) y el texto termina arriba de la franja de
-    la descripción de la app (`BANDA_SEGURO`); el bloque igual llega hasta el pie."""
+    la descripción de la app (`BANDA_SEGURO`); el bloque igual llega hasta el pie.
+
+    `entera` (una FOTO vertical o cuadrada en 9:16, 2026-10-17): la imagen va ENTERA, achicada y
+    centrada en el espacio de arriba del bloque, sobre sí misma desenfocada; no se recorta."""
     tema = tema if tema in BLOQUE_TEMAS else tema_siguiente("")
     _TEMA_USADO[0] = tema
     am = natural = max(2, round(1080 * h / w) // 2 * 2)
@@ -2169,17 +2175,28 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
             am = max(am, min(BLOQUE_9X16_IMG,
                              round(natural / (1 - BLOQUE_9X16_RECORTE)))) // 2 * 2
     fijo = BLOQUE_LINEA + pad_a + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + pad_b
-    txt = _texto_bloque(volanta, titular, f, tema, 0, fin - am - fijo,
-                        piso=BLOQUE_TITULAR_PREFIERE)
-    hm = am
-    if txt["alto"] > fin - am - fijo or _cortado(txt):
+    if entera:
+        hm = BLOQUE_9X16_IMG
+        esc = min(1080 / w, hm / h)
+        wi, hi = max(2, round(w * esc) // 2 * 2), max(2, round(h * esc) // 2 * 2)
+        media = ((1080 - wi) // 2, (hm - hi) // 2, wi, hi)
+        txt = _texto_bloque(volanta, titular, f, tema, 0, fin - hm - fijo)
+        cover = False
+        plan["fondo_borroso"] = True
+    else:
+        txt = _texto_bloque(volanta, titular, f, tema, 0, fin - am - fijo,
+                            piso=BLOQUE_TITULAR_PREFIERE)
+        hm = am
+    if not entera and (txt["alto"] > fin - am - fijo or _cortado(txt)):
         hm_min = round(am * (1 - BLOQUE_RECORTE_MAX))
         txt = _texto_bloque(volanta, titular, f, tema, 0, fin - hm_min - fijo)
         hm = max(round(am * 0.4), min(am, fin - fijo - txt["alto"]))
     hm = hm // 2 * 2
-    wm, cover = 1080, hm < am or am > natural
-    if grafica and hm < am:
-        wm, cover = max(2, round(hm * w / h) // 2 * 2), False
+    if not entera:
+        wm, cover = 1080, hm < am or am > natural
+        if grafica and hm < am:
+            wm, cover = max(2, round(hm * w / h) // 2 * 2), False
+        media = ((1080 - wm) // 2, 0, wm, hm)
     # Lo que sobra (mucho con una 16:9) se reparte: un poco más abajo que arriba, y el logo y
     # el texto casi juntos, como en la referencia. Se mide contra un texto TÍPICO y no contra
     # este: si no, cuando las tarjetas cambian sobre la misma foto el logo salta (2026-10-17).
@@ -2195,7 +2212,7 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
     t = BLOQUE_TEMAS[tema]
     cajas = [(0, hm, 1080, hm + BLOQUE_LINEA, CORR_NARANJA),
              (0, hm + BLOQUE_LINEA, 1080, alto, t["fondo"])]
-    plan.update(media=((1080 - wm) // 2, 0, wm, hm), cover=cover, lienzo=(1080, alto),
+    plan.update(media=media, cover=cover, lienzo=(1080, alto),
                 cajas=cajas, bloques=txt["bloques"], titulo=txt["titulo"],
                 volanta=txt["volanta"], sombra_arriba=False, halo=[], logo=None,
                 logo_bloque=(tema, BLOQUE_X, y_logo),
@@ -2205,7 +2222,7 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
 
 
 def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: bool, caras,
-               alto: int = 0, tema: str = "", objetos=None) -> dict:
+               alto: int = 0, tema: str = "", objetos=None, foto: bool = False) -> dict:
     """Un cuadro de un reel de lo que llega por WhatsApp (ver `CORR_NARANJA`), foto o video.
 
     · VERTICAL o cuadrado: a sangre en 1080x1920 (se recorta buscando a los sujetos) con el
@@ -2272,6 +2289,12 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
                     bloques=marca + t["bloques"], titulo=t["titulo"], volanta=t["volanta"],
                     texto=t["rect"])
         return plan
+    if foto and _bloque_on():
+        # FOTO vertical o cuadrada (pedido 2026-10-17): la misma estética que las horizontales,
+        # el bloque abajo con el texto, el logo y el isologo, y la foto entera, achicada y
+        # centrada arriba. Los VIDEOS verticales siguen a sangre con las cajas.
+        return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, 1920, foco,
+                            entera=True)
     media = (0, 0, 1080, 1920)
     cover = abs(1080 * h / w - 1920) > 2
     # Las caras y lo que marcó Gemini, ya en el cuadro (con el mismo recorte que la imagen).
@@ -2288,7 +2311,8 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
 
 def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
                grafica: bool = False, modo_texto: str = "", caras=None,
-               estilo: str = "", alto: int = 0, tema: str = "", objetos=None) -> dict:
+               estilo: str = "", alto: int = 0, tema: str = "", objetos=None,
+               foto: bool = False) -> dict:
     """TODO lo que va en un cuadro del reel estilo placa, según la FORMA del material
     (pedido del usuario 2026-09-26; ver `PLACA_VERTICAL_AR`):
 
@@ -2317,7 +2341,7 @@ def plan_placa(volanta: str, titular: str, resumen: str, w: int, h: int, *,
     elige los colores del 4:5 estilo bloque (`BLOQUE_TEMAS`)."""
     f = _fuentes_placa()
     if estilo == "corresponsal":
-        return _plan_corr(volanta, titular, f, w, h, grafica, caras, alto, tema, objetos)
+        return _plan_corr(volanta, titular, f, w, h, grafica, caras, alto, tema, objetos, foto)
     forma = forma_de(w, h, grafica)
     modo = modo_texto or forma
     marca, fin_marca = _marca_bloques(f)
@@ -4548,7 +4572,8 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
             # Lo que la caja no puede tapar y dónde conviene ponerla: lo marca Gemini mirando la
             # foto (2026-10-17); si no contesta, el objeto central del detector propio.
             objetos = None
-            if estilo == "corresponsal" and not grafica:
+            if estilo == "corresponsal" and not grafica and (
+                    img.width > img.height or not _bloque_on()):
                 objetos = _zonas_ia(img)
                 if objetos is None and img.width <= img.height:
                     objetos = _objetos_de_foto(img)
@@ -4574,7 +4599,7 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
                                            grafica=grafica, modo_texto=modo, caras=caras,
                                            estilo=estilo,
                                            alto=alto if estilo == "corresponsal" else 0,
-                                           tema=tema, objetos=objetos))
+                                           tema=tema, objetos=objetos, foto=True))
             placas.append(_placa_de_foto(img, plan, fondo,
                                          work_dir / f"_placa_foto_{clave}_{i}.jpg",
                                          Path(f).name, caras=caras))
@@ -4593,7 +4618,7 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
                 plan = _con_isologo(plan_placa(v or volanta, t, resumen, img.width, img.height,
                                                grafica=grafica, modo_texto=modo, caras=caras,
                                                estilo=estilo, alto=alto, tema=tema,
-                                               objetos=objetos))
+                                               objetos=objetos, foto=True))
                 pos += 1
                 placas.insert(pos, _placa_de_foto(img, plan, fondo,
                                                   work_dir / f"_placa_foto_{clave}_x{k}.jpg",
