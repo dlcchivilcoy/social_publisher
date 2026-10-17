@@ -7,11 +7,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 7
+    "scheduled": 1,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-17T18:00:16.000Z"
+   "visto": "2026-10-17T19:00:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,7 +23,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-17T18:00:16.000Z"
+   "visto": "2026-10-17T19:00:18.000Z"
   }
  },
  "contenidos": {
@@ -1843,6 +1843,30 @@
    "volanta": "Gowland, Mercedes",
    "youtube_url": "https://youtube.com/shorts/OML_8-5BiU0"
   },
+  "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": {
+   "categoria": "otro_policial",
+   "descripcion": "La Justicia dictó una nueva condena contra Sandro Herrera, ex mano derecha del Superintendente, por un hecho cometido en 2019 contra una subalterna. Seguirá en prisión domiciliaria.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-17T18:41:23.000Z",
+   "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
+   "localidad": "Mercedes",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "texto_tiktok": "La Justicia dictó una nueva condena de ocho años de prisión efectiva contra el excapitán de la Policía Bonaerense Sandro Herrera por el abuso sexual de una subalterna.\n\nEl hecho ocurrió en la ciudad de Mercedes durante el año 2019.\n\nEl fallo estuvo a cargo de los jueces del Juzgado en lo Criminal y Correccional N.º 1, con la intervención del fiscal de juicio Adrián Landini y el fiscal de investigaciones Pedro Illanes.\n\nA pesar de la sentencia, el acusado continuará cumpliendo prisión domiciliaria hasta que el fallo quede firme.\n\n📲 Más noticias de Mercedes en www.diariolacampaña.com.ar\n\n#Mercedes #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual",
+   "urgente": false,
+   "video_bytes": 99398,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4",
+   "volanta": "Condena en Mercedes",
+   "youtube_url": "https://youtube.com/shorts/xW2lPahXG2I"
+  },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": {
    "categoria": "otro_policial",
    "descripcion": "Un joven ingresó de manera violenta a una vivienda y amenazó a una mujer, que logró escapar. Tras horas de tensión y negociaciones, se entregó a la policía y fue derivado al hospital.",
@@ -2490,6 +2514,30 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4",
    "volanta": "Operativo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/_-wWBo_bTeE"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-17T18:41:23.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "texto_tiktok": "Registraron múltiples episodios de violencia callejera y domiciliaria durante la jornada del sábado en la ciudad de Chacabuco.\n\nUna persona debió ser hospitalizada de urgencia tras un violento altercado registrado en una vivienda particular, siendo escoltada la ambulancia por personal policial.\n\nPor otro lado, dos hombres se enfrentaron a golpes en la vía pública al mediodía, aunque lograron escapar antes de la llegada del patrullero.\n\nLas autoridades investigan los hechos para esclarecer lo sucedido en ambas situaciones.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #ViolenciaUrbana #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
+   "urgente": false,
+   "video_bytes": 79842,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4",
+   "volanta": "Violencia urbana en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/tfJUuD3vol8"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": {
    "categoria": "robo",
@@ -7246,22 +7294,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 218,
-   "segundos": 14403,
+   "restantes": 216,
+   "segundos": 10800,
    "tope": 250
   },
   "30d": {
-   "restantes": 2761,
-   "segundos": 2085024,
+   "restantes": 2759,
+   "segundos": 2081421,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T18:00:17.000Z",
+ "cuota_visto": "2026-10-17T19:00:24.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -8747,14 +8795,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x": {
-   "actualizado": "2026-10-17T17:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c50b0d72757aee9a61",
    "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
    "creado": "2026-10-17T17:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T19:18:34.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T17:01:22.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
    "intentos": 0,
@@ -8799,14 +8847,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x": {
-   "actualizado": "2026-10-17T17:40:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c40a208cb32333f496",
    "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
    "creado": "2026-10-17T17:40:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T19:03:45.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T17:21:29.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
    "intentos": 0,
@@ -10999,6 +11047,58 @@
    "video_bytes": 139286,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
   },
+  "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok": {
+   "actualizado": "2026-10-17T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
+   "creado": "2026-10-17T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T18:41:23.000Z",
+   "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual\n\nLa Justicia dictó una nueva condena contra Sandro Herrera, ex mano derecha del Superintendente, por un hecho cometido en 2019 contra una subalterna. Seguirá en prisión domiciliaria.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989\n\n#chivilcoy #diariolacampaña #radiodelcentro #mercedes #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual",
+   "urgente": false,
+   "vence": "2026-10-18T12:41:23.000Z",
+   "video_bytes": 99398,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
+  },
+  "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x": {
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c5938409f1d09c11d1",
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
+   "creado": "2026-10-17T19:00:17.000Z",
+   "dueAt": "2026-10-17T19:33:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T18:41:23.000Z",
+   "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual\n\nLa Justicia dictó una nueva condena contra Sandro Herrera, ex mano derecha del Superintendente, por un hecho cometido en 2019 contra una subalterna. Seguirá en prisión domiciliaria.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual",
+   "urgente": false,
+   "vence": "2026-10-18T12:41:23.000Z",
+   "video_bytes": 99398,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
+  },
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok": {
    "actualizado": "2026-10-12T20:00:22.000Z",
    "buffer_id": "6acd24e3536740a2d1159178",
@@ -12031,18 +12131,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-17T17:20:32.000Z",
+   "actualizado": "2026-10-17T19:00:18.000Z",
    "buffer_id": "6ad3ae63938409f1d097288f",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok",
    "creado": "2026-10-17T16:00:19.000Z",
    "dueAt": "2026-10-17T18:43:29.000Z",
+   "enviado": "2026-10-17T18:44:12.310Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697709306547817736",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-secuestraron-diez-vehiculos-y-retuvieron-licencias-en-8ded1e",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -12057,14 +12158,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_04_chacabuco_secuestraron-ocho-autos-y-dos-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x": {
-   "actualizado": "2026-10-17T16:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c80a208cb32333f62e",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x",
    "creado": "2026-10-17T16:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T23:03:04.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html",
    "intentos": 0,
@@ -12386,19 +12487,72 @@
    "video_bytes": 87007,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok": {
+   "actualizado": "2026-10-17T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
+   "creado": "2026-10-17T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-17T18:41:23.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco\n\nUna persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-18T12:41:23.000Z",
+   "video_bytes": 79842,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x": {
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c7938409f1d09c1297",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
+   "creado": "2026-10-17T19:00:17.000Z",
+   "dueAt": "2026-10-17T22:33:06.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-17T18:41:23.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco\n\nUna persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-18T12:41:23.000Z",
+   "video_bytes": 79842,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok": {
-   "actualizado": "2026-10-17T17:20:32.000Z",
+   "actualizado": "2026-10-17T19:00:18.000Z",
    "buffer_id": "6ad3ae63769b4579348a1866",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok",
    "creado": "2026-10-17T16:00:19.000Z",
    "dueAt": "2026-10-17T18:03:53.000Z",
+   "enviado": "2026-10-17T18:05:44.533Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T15:47:09.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697698932180372742",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-tres-personas-secuestraron-autos-y-52ed95",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -14518,7 +14672,7 @@
    "creado": "2026-10-17T09:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
@@ -15536,7 +15690,7 @@
    "creado": "2026-10-17T15:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-17T15:06:17.302Z",
    "id": "web:36f35444-e990-4d78-aeea-920acd95d869",
@@ -15611,7 +15765,7 @@
    "creado": "2026-10-17T18:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-17T18:06:08.085Z",
    "id": "web:38a2facb-610c-48c3-ba78-33049770dfcf",
@@ -17409,14 +17563,14 @@
    "video_url": ""
   },
   "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x": {
-   "actualizado": "2026-10-17T17:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c6e272c4918f9a62ed",
    "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
    "creado": "2026-10-17T17:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T22:03:40.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T17:19:31.660Z",
    "id": "web:90ccf787-b147-4a06-9acf-05aa45b23cca",
    "intentos": 0,
@@ -18568,14 +18722,14 @@
    "video_url": ""
   },
   "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x": {
-   "actualizado": "2026-10-17T18:40:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c7938409f1d09c12cd",
    "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
    "creado": "2026-10-17T18:40:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T22:48:16.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T18:36:07.463Z",
    "id": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072",
    "intentos": 0,
@@ -18620,14 +18774,14 @@
    "video_url": ""
   },
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x": {
-   "actualizado": "2026-10-17T17:00:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:00:18.000Z",
+   "buffer_id": "6ad3c5c6ae173d6e00cd36ff",
    "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
    "creado": "2026-10-17T17:00:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T22:18:34.000Z",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T16:59:26.852Z",
    "id": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af",
    "intentos": 0,
@@ -18677,7 +18831,7 @@
    "creado": "2026-10-17T16:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-17T16:06:13.676Z",
    "id": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0",
@@ -19037,7 +19191,7 @@
    "creado": "2026-10-17T15:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-17T15:36:16.807Z",
    "id": "web:d9d5c19d-7cdc-4599-9431-674725b57a40",
@@ -19810,99 +19964,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:e04efdf6-203c-406b-84c5-3dfa3debaee6|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110675885367947701"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110672758807920956"
-  },
-  {
-   "buffer_id": "6ad0a8e0230b9109a48b7dba",
-   "clave": "web:62679199-0cb1-44ba-8928-add87ea1fa3f|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "dueAt": "2026-10-15T13:45:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0a8e0670326712d1c8168",
-   "clave": "web:94f11536-c6e6-485e-b136-564a4c85d23b|x",
-   "cuando": "2026-10-15T10:20:16.000Z",
-   "dueAt": "2026-10-15T14:00:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0ad910bac0656ce0429ea",
-   "clave": "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x",
-   "cuando": "2026-10-15T10:40:18.000Z",
-   "dueAt": "2026-10-15T14:15:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0b247a5eef0dc227f982e",
-   "clave": "web:8573e42b-75a0-4616-bdb3-930c6007225a|x",
-   "cuando": "2026-10-15T11:00:28.000Z",
-   "dueAt": "2026-10-15T14:30:49.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0b2488e44c0222ce2d5f9",
-   "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok",
-   "cuando": "2026-10-15T11:00:28.000Z",
-   "dueAt": "2026-10-15T11:03:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0b249f262243260620a34",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
-   "cuando": "2026-10-15T11:00:28.000Z",
-   "dueAt": "2026-10-15T11:43:48.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0b24b8e44c0222ce2dfec",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|tiktok",
-   "cuando": "2026-10-15T11:00:28.000Z",
-   "dueAt": "2026-10-15T12:23:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0b24ba5eef0dc227f9b98",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|tiktok",
-   "cuando": "2026-10-15T11:00:28.000Z",
-   "dueAt": "2026-10-15T13:03:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0b24cb0cc171adf174ea2",
-   "clave": "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|tiktok",
-   "cuando": "2026-10-15T11:00:28.000Z",
-   "dueAt": "2026-10-15T13:43:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv|x",
-   "cuando": "2026-10-15T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110687939294343646"
-  },
   {
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
    "cuando": "2026-10-15T11:20:16.000Z",
@@ -23934,10 +23995,110 @@
    "cuando": "2026-10-17T18:40:14.000Z",
    "evento": "vencido",
    "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
+   "cuando": "2026-10-17T19:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
+   "cuando": "2026-10-17T19:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
+   "cuando": "2026-10-17T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
+   "cuando": "2026-10-17T19:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-17T19:00:18.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697709306547817736"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok",
+   "cuando": "2026-10-17T19:00:18.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697698932180372742"
+  },
+  {
+   "buffer_id": "6ad3c5c40a208cb32333f496",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T19:03:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c50b0d72757aee9a61",
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T19:18:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c5938409f1d09c11d1",
+   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T19:33:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c6e272c4918f9a62ed",
+   "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T22:03:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c6ae173d6e00cd36ff",
+   "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T22:18:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c7938409f1d09c1297",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T22:33:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c7938409f1d09c12cd",
+   "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T22:48:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad3c5c80a208cb32333f62e",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x",
+   "cuando": "2026-10-17T19:00:24.000Z",
+   "dueAt": "2026-10-17T23:03:04.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
- "ultima_sync": "2026-10-17T18:00:16.000Z",
+ "ultima_sync": "2026-10-17T19:00:18.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -24024,6 +24185,7 @@
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
   "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/": "2026-10-16T19:00:17.000Z",
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
+  "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": "2026-10-17T19:00:17.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/": "2026-10-13T23:00:20.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75422/denuncio-a-su-ex-por-violencia-de-genero-y-la-restriccion-perimetral-no-la-protegio": "2026-10-12T00:40:12.000Z",
@@ -24051,6 +24213,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html": "2026-10-17T19:00:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
