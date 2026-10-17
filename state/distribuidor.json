@@ -3853,6 +3853,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cuando-corten-la-musica-alvaro-cortes-presenta-su-nuevo-libro-el",
    "volanta": "“Cuando corten la música”"
   },
+  "web:18e1be80-a9ad-41f2-9e05-274978b011a3": {
+   "categoria": "nacionales",
+   "descripcion": "El bloque de mandatarios provinciales acordó acompañar el proyecto del oficialismo en Diputados tras conseguir modificaciones presupuestarias. La…",
+   "generado": "2026-10-17T19:06:10.766Z",
+   "id": "web:18e1be80-a9ad-41f2-9e05-274978b011a3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_45752da95f224e338bb5bbb7abcdb319~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ley-de-discapacidad-gobernadores-daran-sus-votos-al-oficialismo-6762e6",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ley-de-discapacidad-gobernadores-daran-sus-votos-al-oficialismo-6762e6",
+   "volanta": ""
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": {
    "categoria": "nacionales",
    "descripcion": "El Presidente disertará en la Cámara de Comercio estadounidense y recibirá una distinción. Además, participará en un encuentro contra el antisemitismo en…",
@@ -7294,22 +7312,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 10800,
+   "restantes": 215,
+   "segundos": 9579,
    "tope": 250
   },
   "30d": {
-   "restantes": 2759,
-   "segundos": 2081421,
+   "restantes": 2758,
+   "segundos": 2080200,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T19:00:24.000Z",
+ "cuota_visto": "2026-10-17T19:20:41.000Z",
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -13515,14 +13533,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_05_junin_denuncian-penalmente-al-menos-.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|tiktok": {
-   "actualizado": "2026-10-17T01:20:16.000Z",
+   "actualizado": "2026-10-17T19:20:40.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|tiktok",
    "creado": "2026-10-17T01:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T01:09:30.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html",
    "intentos": 0,
@@ -13721,14 +13739,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_02_general-villegas_motociclista-grave-tras-chocar.mp4"
   },
   "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|tiktok": {
-   "actualizado": "2026-10-17T01:20:16.000Z",
+   "actualizado": "2026-10-17T19:20:40.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|tiktok",
    "creado": "2026-10-17T01:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 15 publicaciones en 24 h de TikTok",
    "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T01:09:30.000Z",
    "id": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido",
    "intentos": 0,
@@ -14666,14 +14684,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x": {
-   "actualizado": "2026-10-17T14:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-17T19:20:40.000Z",
+   "buffer_id": "6ad3ca89e272c4918f9b788c",
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
    "creado": "2026-10-17T09:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-17T23:18:25.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T03:39:53.000Z",
    "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
    "intentos": 0,
@@ -14978,7 +14996,7 @@
    "creado": "2026-10-16T22:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T22:06:42.229Z",
    "id": "web:14436815-e65b-4622-81a4-d215bbfc9d5f",
@@ -15120,6 +15138,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x": {
+   "actualizado": "2026-10-17T19:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
+   "creado": "2026-10-17T19:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-17T19:06:10.766Z",
+   "id": "web:18e1be80-a9ad-41f2-9e05-274978b011a3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ley-de-discapacidad-gobernadores-daran-sus-votos-al-oficialismo-6762e6",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados\n\nEl bloque de mandatarios provinciales acordó acompañar el proyecto del oficialismo en Diputados tras conseguir modificaciones presupuestarias.\n\nhttps://www.diariolacampaña.com.ar/n/ley-de-discapacidad-gobernadores-daran-sus-votos-al-oficialismo-6762e6",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados",
+   "urgente": false,
+   "vence": "2026-10-18T19:06:10.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0670fa026cfb8117dddb",
@@ -15147,14 +15191,14 @@
    "video_url": ""
   },
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x": {
-   "actualizado": "2026-10-16T19:20:14.000Z",
+   "actualizado": "2026-10-17T19:20:40.000Z",
    "buffer_id": "",
    "clave": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x",
    "creado": "2026-10-16T19:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 47 publicaciones en 24 h de X",
    "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-16T19:06:26.903Z",
    "id": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2",
    "intentos": 0,
@@ -16251,7 +16295,7 @@
    "creado": "2026-10-16T21:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T21:36:43.554Z",
    "id": "web:559ac15c-0c52-40db-b3a1-6118e02867ed",
@@ -18754,7 +18798,7 @@
    "creado": "2026-10-16T21:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 47 publicaciones en 24 h de X",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-16T21:06:41.670Z",
    "id": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394",
@@ -19964,37 +20008,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|x",
-   "cuando": "2026-10-15T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110683572973522996"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v|x",
-   "cuando": "2026-10-15T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110679780790051013"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok",
-   "cuando": "2026-10-15T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696848760101440820"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana|x",
-   "cuando": "2026-10-15T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110691167998247350"
-  },
-  {
-   "buffer_id": "6ad0b6f0d955ee29a33fa875",
-   "clave": "web:474e6223-8e55-4add-aedc-549975a9f8e1|x",
-   "cuando": "2026-10-15T11:20:17.000Z",
-   "dueAt": "2026-10-15T14:45:29.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad0b6f1b0cc171adf18974e",
    "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
@@ -24095,6 +24108,39 @@
    "cuando": "2026-10-17T19:00:24.000Z",
    "dueAt": "2026-10-17T23:03:04.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
+   "cuando": "2026-10-17T19:20:40.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|tiktok",
+   "cuando": "2026-10-17T19:20:40.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|tiktok",
+   "cuando": "2026-10-17T19:20:40.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x",
+   "cuando": "2026-10-17T19:20:40.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 47 publicaciones en 24 h de X"
+  },
+  {
+   "buffer_id": "6ad3ca89e272c4918f9b788c",
+   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
+   "cuando": "2026-10-17T19:20:41.000Z",
+   "dueAt": "2026-10-17T23:18:25.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-17",
@@ -24273,6 +24319,7 @@
   "web:15858ae6-1837-4436-b8ed-3a098530f992": "2026-10-15T10:20:13.000Z",
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
   "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0": "2026-10-16T10:20:16.000Z",
+  "web:18e1be80-a9ad-41f2-9e05-274978b011a3": "2026-10-17T19:20:13.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
