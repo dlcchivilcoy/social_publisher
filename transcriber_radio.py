@@ -208,11 +208,11 @@ def _procesar_video(video: Path, uploader: str, dry_run: bool, rows: list[dict])
     # Lo apaisado sale 4:5 con el bloque blanco o el grafito, alternados (2026-10-12).
     from video import tema_usado
     tema_usado(reset=True)
+    # Desde el 2026-10-18 todo con el bloque abajo, también lo de la radio.
     reel = to_vertical_reel(video, tr.WORK_DIR / f"reel_radio_{slug}.mp4",
                             firma=firma, overlay=False, titular=titulo, resumen=resumen,
-                            volanta=volanta, cuerpo=texto,
-                            estilo="corresponsal" if es_corresponsal else "",
-                            tema=tr._tema_4x5(rows, fila) if es_corresponsal else "")
+                            volanta=volanta, cuerpo=texto, estilo="corresponsal",
+                            tema=tr._tema_4x5(rows, fila))
     tema_reel = tema_usado()
 
     if dry_run:
@@ -518,7 +518,8 @@ def run_placa_radio(folder: str = "", uploader: str = "", dry_run: bool = False)
         # La foto-nota de la radio no trae un `resumen` aparte: va el texto, que las bandas
         # recortan solas a 3 renglones.
         reel = foto_a_reel(fotos, tr.WORK_DIR / f"placa_radio_{tr._slug(carpeta.name)}.mp4",
-                           overlay=False, titular=titular, resumen=texto, volanta=volanta)
+                           overlay=False, titular=titular, resumen=texto, volanta=volanta,
+                           estilo="corresponsal", tema=tr._tema_4x5(rows, fila))
         reel_url = upload_reel(reel)
     except Exception as e:  # noqa: BLE001
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")

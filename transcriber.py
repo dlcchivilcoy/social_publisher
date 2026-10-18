@@ -819,12 +819,12 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             # Lo apaisado sale 4:5 con el bloque blanco o el grafito, alternados (2026-10-12).
             from video import tema_usado
             tema_usado(reset=True)
+            # Desde el 2026-10-18 los videos del DIARIO también («todos los posteos con el texto
+            # abajo»): el mismo diseño, con el bloque. Las tarjetas que cambian, solo WhatsApp.
             reel = to_vertical_reel(video_media, reel_path, overlay=False,
                                     titular=titulo, resumen=resumen, volanta=volanta,
-                                    cuerpo=texto,
-                                    estilo="corresponsal" if es_corresponsal else "",
-                                    tarjetas=tarjetas,
-                                    tema=_tema_4x5(rows, fila) if es_corresponsal else "")
+                                    cuerpo=texto, estilo="corresponsal",
+                                    tarjetas=tarjetas, tema=_tema_4x5(rows, fila))
             tema_reel = tema_usado()
 
         # Última red: si no se pudo sacar la portada del video original (metadatos rotos), se
@@ -2473,8 +2473,13 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         return
 
     # Reel de previsualización (para el botón «Previsualizar reel» del mail). Best-effort.
+    # Con el bloque abajo, como todo (2026-10-18); el tema queda anotado para el definitivo.
+    from video import tema_usado
+    tema = _tema_4x5(rows, fila)
+    tema_usado(reset=True)
     reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular, resumen=resumen,
-                             volanta=volanta, cuerpo=texto)
+                             volanta=volanta, cuerpo=texto, estilo="corresponsal", tema=tema)
+    tema = tema_usado() or tema
 
     if fila is None:
         fila = {"file": carpeta.name}
@@ -2484,7 +2489,7 @@ def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> No
         "fecha_recibido": datetime.now().isoformat(timespec="seconds"),
         "hay_noticia": True, "es_placa": True, "volanta": volanta, "titulo": titular,
         "resumen": resumen, "texto": texto, "draft_id": draft_id, "reel_url": reel_url,
-        "estado": "borrador_placa",
+        "estado": "borrador_placa", "tema_4x5": tema,
     })
     _guardar_ledger(rows)
     logger.info(f"Foto-nota registrada como BORRADOR (draft_id={draft_id}).")
@@ -2575,7 +2580,8 @@ def run_placa_publish(folder: str = "", dry_run: bool = False) -> None:
         WORK_DIR.mkdir(exist_ok=True)
         reel_local = foto_a_reel(fotos, WORK_DIR / f"placa_{_slug(fila['file'])}.mp4",
                                  overlay=False, titular=titular, resumen=resumen,
-                                 volanta=volanta, cuerpo=texto)
+                                 volanta=volanta, cuerpo=texto, estilo="corresponsal",
+                                 tema=_tema_4x5(rows, fila))
         reel_url = upload_reel(reel_local)
     except Exception as e:
         logger.error(f"No se pudo armar el reel de la foto-nota: {e}")

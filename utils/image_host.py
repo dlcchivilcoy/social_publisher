@@ -21,6 +21,14 @@ IMGBB_URL = "https://api.imgbb.com/1/upload"
 _GH_API = "https://api.github.com"
 _GH_UPLOADS = "https://uploads.github.com"
 _GH_TAG = "img-latest"
+# 2026-10-18: la clave de ImgBB quedó dada de baja («Invalid API v1 key», code 100) y TODO pasó a
+# salir por GitHub. Ahí los nombres se repetían (dos corridas a la vez subiendo «portada.jpg» se
+# pisaban la foto mientras Instagram la bajaba): cada asset lleva un sello único, y los de más de
+# `_GH_DIAS` días se borran solos (son temporales: Instagram y Wix los bajan en minutos).
+_GH_DIAS = 7
+_GH_BORRAR_POR_VEZ = 25
+# Si ImgBB ya dijo en esta corrida que la clave no sirve, no se le vuelve a preguntar.
+_IMGBB_CLAVE_MALA = [False]
 
 
 def _gh_token() -> str:
@@ -67,16 +75,14 @@ def _upload_to_github(image_path: Path) -> str:
         raise ValueError("No hay GITHUB_TOKEN (ni en el entorno ni en .env) para el respaldo de imagen")
     repo = _gh_repo()
     h = _gh_headers(tok)
-    asset_name = Path(image_path).name
+    p = Path(image_path)
+    # Sello único: dos corridas con el mismo nombre de archivo no se pisan la imagen.
+    asset_name = f"{p.stem}_{time.strftime('%Y%m%d%H%M%S')}_{os.urandom(3).hex()}{p.suffix}"
     with open(image_path, "rb") as f:
         data = f.read()
     release = _ensure_release(repo, h)
     release_id = release["id"]
-    # Borrar un asset previo con el mismo nombre (GitHub no permite duplicados).
-    for a in release.get("assets", []):
-        if a.get("name") == asset_name:
-            requests.delete(f"{_GH_API}/repos/{repo}/releases/assets/{a['id']}", headers=h, timeout=30)
-            logger.debug(f"Asset de imagen previo borrado: {asset_name}")
+    _limpiar_viejos(repo, h, release_id)
     up = requests.post(
         f"{_GH_UPLOADS}/repos/{repo}/releases/{release_id}/assets?name={asset_name}",
         headers={**h, "Content-Type": _gh_content_type(asset_name)},
@@ -86,6 +92,30 @@ def _upload_to_github(image_path: Path) -> str:
     url = up.json()["browser_download_url"]
     logger.info(f"Imagen subida a GitHub Release (respaldo de ImgBB): {url}")
     return url
+
+
+def _limpiar_viejos(repo: str, h: dict, release_id: int) -> None:
+    """Borra los assets de imagen de más de `_GH_DIAS` días (unos pocos por vez, para no demorar
+    la subida). Si algo falla, sigue: es limpieza, no es lo importante."""
+    try:
+        from datetime import datetime, timedelta, timezone
+        limite = datetime.now(timezone.utc) - timedelta(days=_GH_DIAS)
+        borrados = 0
+        for pagina in range(1, 11):
+            r = requests.get(f"{_GH_API}/repos/{repo}/releases/{release_id}/assets",
+                             headers=h, params={"per_page": 100, "page": pagina}, timeout=30)
+            if not r.ok or not r.json():
+                break
+            for a in r.json():
+                creado = datetime.fromisoformat(a["created_at"].replace("Z", "+00:00"))
+                if creado < limite:
+                    requests.delete(f"{_GH_API}/repos/{repo}/releases/assets/{a['id']}",
+                                    headers=h, timeout=30)
+                    borrados += 1
+                    if borrados >= _GH_BORRAR_POR_VEZ:
+                        return
+    except Exception as e:  # noqa: BLE001
+        logger.debug(f"Limpieza de imágenes viejas del release: {e}")
 
 
 # ── ImgBB (hosting primario) ──────────────────────────────────────────────────
@@ -99,6 +129,8 @@ def _upload_to_imgbb(image_path: Path, intentos: int = 4) -> str:
     api_key = get("IMGBB_API_KEY")
     if not api_key:
         raise ValueError("IMGBB_API_KEY not set in .env")
+    if _IMGBB_CLAVE_MALA[0]:
+        raise RuntimeError("la clave de ImgBB no sirve (ya lo dijo antes en esta corrida)")
 
     with open(image_path, "rb") as f:
         encoded = base64.b64encode(f.read()).decode("utf-8")
@@ -117,6 +149,12 @@ def _upload_to_imgbb(image_path: Path, intentos: int = 4) -> str:
                 logger.debug(f"ImgBB upload OK: {url}")
                 return url
             ultimo = f"HTTP {resp.status_code}: {resp.text[:200]}"
+            if "Invalid API" in resp.text:
+                # Clave dada de baja: reintentar no cambia nada. Directo al respaldo.
+                _IMGBB_CLAVE_MALA[0] = True
+                raise RuntimeError(f"ImgBB rechaza la clave — {ultimo}")
+        except RuntimeError:
+            raise
         except Exception as e:  # noqa: BLE001 — red/timeout: se reintenta igual
             ultimo = str(e)
         if i < intentos - 1:

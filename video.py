@@ -4286,6 +4286,17 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         escalones.append(("sin el texto de arriba", sin_placa))
     if fondo or logo_png or overlay_png or placa_cierre or recorte or placa:
         escalones.append(("pelado, sin ninguna marca", pelado))
+    if plan and placa and plan.get("bloque"):
+        # Con el bloque (2026-10-18, «todos los posteos con el texto abajo») NO hay escalón sin
+        # texto: si ni así sale, que falle y avise por mail (el video se puede reintentar) antes
+        # que publicar un reel sin título. Lo más probable que moleste es el fondo desenfocado
+        # (boxblur): se prueba sin él, con el grafito liso, antes de rendirse.
+        escalones = [e for e in escalones
+                     if e[0] not in ("sin el texto de arriba", "pelado, sin ninguna marca")]
+        if len(placa) > 6 and placa[6]:
+            liso = tuple(placa[:6]) + (False,)
+            escalones.append(("sin el fondo desenfocado",
+                              {**marca, "texto_placa": liso, "placa": None, "seg_placa": 0.0}))
 
     marca = _probar_escalones(src, salida, escalones, audio=audio,
                               max_seconds=max_seconds, firma=firma)
