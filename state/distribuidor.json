@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-18T13:40:14.000Z"
+   "visto": "2026-10-18T15:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 7,
-    "sent": 7
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-18T13:40:14.000Z"
+   "visto": "2026-10-18T15:00:22.000Z"
   }
  },
  "contenidos": {
@@ -3609,6 +3609,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_09_9-de-julio_hallaron-asesinado-a-un-hombre.mp4",
    "volanta": "Pehuajó",
    "youtube_url": "https://youtube.com/shorts/lliq99s5bk8"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/": {
+   "categoria": "operativo_policial",
+   "descripcion": "El hombre fue arrestado en el marco de una causa vinculada a su hija, quien había quedado en el centro de la polémica tras gestos discriminatorios en un evento internacional.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T14:49:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un operativo policial concretado en las últimas horas derivó en la detención del padre de la abogada que quedó en el centro de la escena tras protagonizar un repudiable episodio de racismo en territorio brasileño.\n\nEl procedimiento se desarrolló en la ciudad de 9 de Julio en el marco de las actuaciones judiciales que se investigan a raíz de aquellos hechos.\n\nLas autoridades avanzan con las diligencias correspondientes mientras la causa continúa su curso legal.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #OperativoPolicial #Detenido #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron al papá de la abogada acusada de racismo en Brasil",
+   "urgente": false,
+   "video_bytes": 81524,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1208_03_9-de-julio_detuvieron-al-pap-de-la-abogad.mp4",
+   "volanta": "Operativo policial en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/e39mGw6kYRY"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": {
    "categoria": "accidente_vial",
@@ -7873,22 +7899,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 218,
-   "segundos": 27610,
+   "restantes": 216,
+   "segundos": 26400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2723,
-   "segundos": 2010627,
+   "restantes": 2721,
+   "segundos": 2009418,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T14:40:14.000Z",
+ "cuota_visto": "2026-10-18T15:00:23.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -8964,18 +8990,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok": {
-   "actualizado": "2026-10-18T11:00:18.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad4a6cb0a208cb323602036",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
    "creado": "2026-10-16T14:00:21.000Z",
    "dueAt": "2026-10-18T14:23:49.000Z",
+   "enviado": "2026-10-18T14:25:44.805Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-16T13:43:28.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698013552829156628",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10324,18 +10351,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
   },
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T11:00:18.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad4a6cb769b457934bbe07a",
    "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
    "creado": "2026-10-18T01:00:19.000Z",
    "dueAt": "2026-10-18T13:43:39.000Z",
+   "enviado": "2026-10-18T14:19:12.903Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T00:58:02.000Z",
    "id": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698003171033042197",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15976,6 +16004,58 @@
    "video_bytes": 106452,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_09_9-de-julio_hallaron-asesinado-a-un-hombre.mp4"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok": {
+   "actualizado": "2026-10-18T15:00:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
+   "creado": "2026-10-18T15:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
+   "estado": "pendiente",
+   "generado": "2026-10-18T14:49:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Detuvieron al papá de la abogada acusada de racismo en Brasil\n\nEl hombre fue arrestado en el marco de una causa vinculada a su hija, quien había quedado en el centro de la polémica tras gestos discriminatorios en un evento internacional.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac\n\n#chivilcoy #diariolacampaña #radiodelcentro #9dejulio #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron al papá de la abogada acusada de racismo en Brasil",
+   "urgente": false,
+   "vence": "2026-10-19T08:49:59.000Z",
+   "video_bytes": 81524,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1208_03_9-de-julio_detuvieron-al-pap-de-la-abogad.mp4"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x": {
+   "actualizado": "2026-10-18T15:00:22.000Z",
+   "buffer_id": "6ad4df070b0d72757a288eec",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
+   "creado": "2026-10-18T15:00:21.000Z",
+   "dueAt": "2026-10-18T16:45:15.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T14:49:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron al papá de la abogada acusada de racismo en Brasil\n\nEl hombre fue arrestado en el marco de una causa vinculada a su hija, quien había quedado en el centro de la polémica tras gestos discriminatorios en un evento internacional.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron al papá de la abogada acusada de racismo en Brasil",
+   "urgente": false,
+   "vence": "2026-10-19T08:49:59.000Z",
+   "video_bytes": 81524,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1208_03_9-de-julio_detuvieron-al-pap-de-la-abogad.mp4"
+  },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok": {
    "actualizado": "2026-10-15T13:00:17.000Z",
    "buffer_id": "",
@@ -16843,18 +16923,19 @@
    "video_url": ""
   },
   "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x": {
-   "actualizado": "2026-10-18T10:40:14.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad4a20e938409f1d0c7bf3d",
    "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
    "creado": "2026-10-17T23:40:13.000Z",
    "dueAt": "2026-10-18T14:30:40.000Z",
+   "enviado": "2026-10-18T14:30:46.173Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T23:30:46.054Z",
    "id": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111827329014010066",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
    "origen": "web",
    "plataforma": "x",
@@ -18206,18 +18287,19 @@
    "video_url": ""
   },
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x": {
-   "actualizado": "2026-10-18T09:00:21.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad48aab769b457934b519eb",
    "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
    "creado": "2026-10-18T01:00:19.000Z",
    "dueAt": "2026-10-18T13:45:27.000Z",
+   "enviado": "2026-10-18T13:45:31.344Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T00:44:31.671Z",
    "id": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111815942724366637",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
    "origen": "web",
    "plataforma": "x",
@@ -19337,18 +19419,19 @@
    "video_url": ""
   },
   "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x": {
-   "actualizado": "2026-10-18T10:20:13.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad49d5d2ac332131c0cf198",
    "clave": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x",
    "creado": "2026-10-18T00:20:13.000Z",
    "dueAt": "2026-10-18T14:15:49.000Z",
+   "enviado": "2026-10-18T14:16:02.483Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T00:02:04.510Z",
    "id": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111823623077937604",
    "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
    "origen": "web",
    "plataforma": "x",
@@ -19853,18 +19936,19 @@
    "video_url": ""
   },
   "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x": {
-   "actualizado": "2026-10-18T10:20:13.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad49d5d0b0d72757a192340",
    "clave": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x",
    "creado": "2026-10-18T00:40:14.000Z",
    "dueAt": "2026-10-18T14:00:54.000Z",
+   "enviado": "2026-10-18T14:02:56.088Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T00:26:21.199Z",
    "id": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111820324861874250",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
    "origen": "web",
    "plataforma": "x",
@@ -21150,18 +21234,19 @@
    "video_url": ""
   },
   "web:ccce7a0b-db66-488d-8412-6628b516975f|x": {
-   "actualizado": "2026-10-18T11:00:18.000Z",
+   "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad4a6c6938409f1d0c8ce5b",
    "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
    "creado": "2026-10-17T23:20:15.000Z",
    "dueAt": "2026-10-18T14:45:49.000Z",
+   "enviado": "2026-10-18T14:46:01.932Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T23:02:14.556Z",
    "id": "web:ccce7a0b-db66-488d-8412-6628b516975f",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111831170564440170",
    "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
    "origen": "web",
    "plataforma": "x",
@@ -22399,72 +22484,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
-   "cuando": "2026-10-15T19:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok",
-   "cuando": "2026-10-15T19:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b|x",
-   "cuando": "2026-10-15T19:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a03ec47f-a0f9-483a-a8d9-146c88206c83|x",
-   "cuando": "2026-10-15T19:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|tiktok",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696957087108074772"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110800649822605343"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696967246366657808"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110804220546789658"
-  },
-  {
-   "clave": "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2|x",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110811954243584264"
-  },
-  {
-   "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110808564973347251"
-  },
   {
    "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
    "cuando": "2026-10-15T19:20:17.000Z",
@@ -26543,10 +26562,75 @@
    "cuando": "2026-10-18T14:40:14.000Z",
    "dueAt": "2026-10-18T16:30:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698013552829156628"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698003171033042197"
+  },
+  {
+   "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111827329014010066"
+  },
+  {
+   "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111815942724366637"
+  },
+  {
+   "clave": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111823623077937604"
+  },
+  {
+   "clave": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111820324861874250"
+  },
+  {
+   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
+   "cuando": "2026-10-18T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111831170564440170"
+  },
+  {
+   "buffer_id": "6ad4df070b0d72757a288eec",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
+   "cuando": "2026-10-18T15:00:23.000Z",
+   "dueAt": "2026-10-18T16:45:15.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T13:40:14.000Z",
+ "ultima_sync": "2026-10-18T15:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -26707,6 +26791,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/": "2026-10-15T18:00:21.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/": "2026-10-18T15:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
