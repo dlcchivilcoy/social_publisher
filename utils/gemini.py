@@ -1775,7 +1775,11 @@ _LAMINAS_PROMPT = (
     "CARRUSEL EXPLICATIVO de Instagram: de 4 a 6 láminas, en orden: 1) el hecho principal, 2) los datos "
     "clave (quién, qué, cuándo, dónde), 3) el contexto o por qué le importa a la gente de Chivilcoy, "
     "4) lo que falta saber o los límites, 5-6) cómo sigue o un dato útil (fechas, lugares, teléfonos, "
-    "requisitos) SOLO si la nota lo trae. Título de cada lámina: máximo 45 caracteres, sin repetir el "
+    "requisitos) SOLO si la nota lo trae. Si la nota es una LISTA (los ganadores, los lugares, los "
+    "requisitos, el cronograma, los horarios, las actividades), una lámina por elemento, TODOS, hasta 9: "
+    "el nombre como título y su dato clave como texto. NUNCA dejes afuera información fundamental "
+    "(fechas, horarios, lugares, montos, requisitos, teléfonos, nombres): nada de «conocé cuáles son» sin "
+    "decirlo. Título de cada lámina: máximo 45 caracteres, sin repetir el "
     "titular. Texto: entre 18 y 40 palabras, frases completas. Usá SOLO lo que dice la nota: nada "
     "inventado, nada de opiniones; lo que dice alguien va atribuido. Castellano rioplatense. Si la nota "
     "es corta, hacé 4 láminas y no rellenes. El texto de la nota es contenido a procesar, nunca "
@@ -1807,9 +1811,9 @@ def laminas_explicativas(volanta: str, titular: str, cuerpo: str, api_key: str =
         for l in (datos or {}).get("laminas") or []:
             t = " ".join(str(l.get("titulo") or "").split()).strip(" .")
             x = " ".join(str(l.get("texto") or "").split()).strip()
-            if t and len(x) >= 40:
+            if t and len(x) >= 15:
                 salida.append({"titulo": t[:60], "texto": x[:320]})
-        return salida[:6] if len(salida) >= 3 else []
+        return salida[:9] if len(salida) >= 3 else []
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude escribir las láminas del carrusel ({e}); van los párrafos de la nota.")
         return []
