@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 7 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 19 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 21 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 1 | 12 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,8 +27,9 @@ Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 202 de 250 · 30d: quedan 2707 de 3000 (visto 2026-10-18T22:00:27.000Z)
 
-## Cola propia (37 esperando)
+## Cola propia (39 esperando)
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — cupo diario de Notas web en X completo (15)
 - X · Notas web · Preparan una Caminata Familiar a beneficio de dos instituciones — cupo diario de Notas web en X completo (15)
 - X · Notas web · Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
@@ -39,6 +40,7 @@ Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7 — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Las cinco películas para maratonear este fin de semana en Netflix — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · El Niño impulsa la "soja táctica" en la región núcleo y el trigo enciende alerta — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
 - X · Notas web · El nuevo Tesla Roadster de Elon Musk emula el Turbo Boost de El auto fantástico — cupo diario de Notas web en X completo (15)
@@ -56,8 +58,6 @@ Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
 - X · Notas web · El dilema de Milei: blindaje político de gobernadores y la espera de la reactiva — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuent — cupo diario de Notas web en X completo (15)
-- X · Notas web · River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,8 +68,6 @@ Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T20:20 recibido nacionales:78b5fd65bc73d6c5|tiktok 
-- 2026-10-18T20:20 recibido nacionales:76f6781e9594def9|tiktok 
 - 2026-10-18T20:20 recibido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x 
 - 2026-10-18T20:40 recibido web:f02de8c1-15da-4722-a133-920069b5d431|x 
 - 2026-10-18T20:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
@@ -93,3 +91,5 @@ Actualizado: 18/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-18T22:00 programado bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x 
 - 2026-10-18T22:20 recibido web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x 
 - 2026-10-18T22:20 recibido web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x 
+- 2026-10-18T22:40 recibido web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x 
+- 2026-10-18T22:40 recibido web:31a6f540-e9dd-415d-9833-6137456f0a06|x 

@@ -5016,6 +5016,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
    "volanta": "En Rawson"
   },
+  "web:31a6f540-e9dd-415d-9833-6137456f0a06": {
+   "categoria": "nacionales",
+   "descripcion": "La Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas. El sector ajusta fechas y…",
+   "generado": "2026-10-18T22:35:10.484Z",
+   "id": "web:31a6f540-e9dd-415d-9833-6137456f0a06",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_acd47511f7964d2fadc08143865c39ed~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
+   "volanta": ""
+  },
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": {
    "categoria": "",
    "descripcion": "Fuerza Stereo presentará su tributo en Chivilcoy: “Abarcamos toda la época de Soda y la etapa como solista de Gustavo Cerati” La banda tributo Fuerza Stereo confirmó una nueva presentación en la ciudad de Chivilcoy para el viernes 16 de octubre en la sala de la Agrupación Artística Chivilcoy. La propuesta musical, que recrea minuciosamente la obra de Soda Stereo y también aborda la etapa solista de Gustavo Cerati, llegará por tercera vez al público local para ofrecer un recorrido integral por...",
@@ -8417,6 +8435,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lilia-lemoine-sugirio-una-formula-presidencial-entre-javier-3431db",
    "volanta": ""
+  },
+  "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": {
+   "categoria": "",
+   "descripcion": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa Punto Rosa: Gimnasia y Esgrima unió tenis, salud y concientización en una jornada especial. Con la participación de 27 parejas de dobles mixtos, el club fue escenario de una propuesta deportiva en el marco de Octubre Rosa. La iniciativa combinó competencia, prevención del cáncer de mama y un fuerte compromiso institucional y comunitario. El Club Gimnasia y Esgrima de Chivilcoy llevó adelante el pasado sábado el torneo Punto Rosa, una...",
+   "generado": "2026-10-18T22:38:08.010Z",
+   "id": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_19b96dc443f84d33b37054a7e40d4049~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": {
    "categoria": "nacionales",
@@ -18987,6 +19023,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:31a6f540-e9dd-415d-9833-6137456f0a06|x": {
+   "actualizado": "2026-10-18T22:40:12.000Z",
+   "buffer_id": "",
+   "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
+   "creado": "2026-10-18T22:40:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T22:35:10.484Z",
+   "id": "web:31a6f540-e9dd-415d-9833-6137456f0a06",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias\n\nLa Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias",
+   "urgente": false,
+   "vence": "2026-10-19T22:35:10.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f|x": {
    "actualizado": "2026-10-13T17:40:17.000Z",
    "buffer_id": "6ace2b66e8f9a3e0b68f8171",
@@ -23998,6 +24060,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x": {
+   "actualizado": "2026-10-18T22:40:12.000Z",
+   "buffer_id": "",
+   "clave": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x",
+   "creado": "2026-10-18T22:40:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T22:38:08.010Z",
+   "id": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa\n\nEl club unió tenis, salud y concientización en el marco de Octubre Rosa. Participaron 27 parejas de dobles mixtos en una jornada que combinó deporte y prevención del cáncer de mama.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
+   "urgente": false,
+   "vence": "2026-10-19T22:38:08.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x": {
    "actualizado": "2026-10-16T16:20:16.000Z",
    "buffer_id": "",
@@ -24305,22 +24393,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|x",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|tiktok",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|x",
    "cuando": "2026-10-16T02:00:19.000Z",
@@ -28468,6 +28540,22 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x",
+   "cuando": "2026-10-18T22:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
+   "cuando": "2026-10-18T22:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -28701,6 +28789,7 @@
   "web:2de9a502-e952-44a4-8525-478c9d70047a": "2026-10-15T10:20:13.000Z",
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": "2026-10-16T16:20:15.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
+  "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
@@ -28891,6 +28980,7 @@
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": "2026-10-16T15:40:14.000Z",
+  "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": "2026-10-18T22:40:12.000Z",
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
   "web:ef08f847-d9e6-4534-8776-17ff73df6820": "2026-10-16T18:40:13.000Z",
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
