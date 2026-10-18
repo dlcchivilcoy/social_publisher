@@ -7878,17 +7878,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 219,
-   "segundos": 28810,
+   "restantes": 218,
+   "segundos": 27610,
    "tope": 250
   },
   "30d": {
-   "restantes": 2724,
-   "segundos": 2011827,
+   "restantes": 2723,
+   "segundos": 2010627,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T14:20:14.000Z",
+ "cuota_visto": "2026-10-18T14:40:14.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -22220,14 +22220,14 @@
    "video_url": ""
   },
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x": {
-   "actualizado": "2026-10-17T22:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T14:40:13.000Z",
+   "buffer_id": "6ad4da4da48c8f83719fe346",
    "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
    "creado": "2026-10-17T22:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T16:30:05.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T22:06:29.335Z",
    "id": "web:eff024d5-cc52-4c26-9548-edd418eb2cec",
    "intentos": 0,
@@ -22399,14 +22399,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok",
-   "cuando": "2026-10-15T19:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
    "cuando": "2026-10-15T19:20:16.000Z",
@@ -26543,6 +26535,13 @@
    "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
    "cuando": "2026-10-18T14:20:14.000Z",
    "dueAt": "2026-10-18T16:15:43.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4da4da48c8f83719fe346",
+   "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
+   "cuando": "2026-10-18T14:40:14.000Z",
+   "dueAt": "2026-10-18T16:30:05.000Z",
    "evento": "programado"
   }
  ],
