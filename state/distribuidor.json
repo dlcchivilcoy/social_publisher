@@ -7380,6 +7380,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": {
+   "categoria": "nacionales",
+   "descripcion": "A casi un mes del fallecimiento del joven modelo a los 27 años, la supermodelo y su hija rompieron el silencio en redes sociales con tiernos recuerdos y…",
+   "generado": "2026-10-18T23:35:12.217Z",
+   "id": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b6b68cee7f8b4debaae6030010b9632d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Gerber",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
+   "volanta": ""
+  },
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": {
    "categoria": "nacionales",
    "descripcion": "A pesar del clima, el fin de semana del 12 de octubre dejó un impacto económico de $ 313.610 millones De acuerdo con el relevamiento de la Confederación Argentina de la Mediana Empresa (CAME) durante el fin de semana largo por el 12 de octubre, 1.490.400 turistas viajaron por el país, generando un impacto económico directo de $ 313.610 millones. La cantidad de viajeros creció 3,5% frente al mismo feriado de 2025, lo que reflejó una mejora en la actividad, aunque con diferencias importantes...",
@@ -22667,6 +22685,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x": {
+   "actualizado": "2026-10-18T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x",
+   "creado": "2026-10-18T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T23:35:12.217Z",
+   "id": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Gerber\n\nhttps://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Gerber",
+   "urgente": false,
+   "vence": "2026-10-19T23:35:12.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -24718,13 +24762,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad1e7a84ed7d375a451ee05",
-   "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
-   "cuando": "2026-10-16T09:00:26.000Z",
-   "dueAt": "2026-10-16T13:00:55.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad1e7a89597cd166275046c",
    "clave": "web:ce42efb6-366a-4469-b255-64d747973441|x",
@@ -28888,6 +28925,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x",
+   "cuando": "2026-10-18T23:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -29253,6 +29298,7 @@
   "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1": "2026-10-15T10:20:13.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": "2026-10-14T13:20:22.000Z",
+  "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": "2026-10-18T23:40:13.000Z",
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410": "2026-10-15T10:20:13.000Z",
