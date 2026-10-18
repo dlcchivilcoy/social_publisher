@@ -409,8 +409,13 @@ def _laminas_de_parrafos(cuerpo: list) -> list:
 
 def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
                           site: str, escribir=None) -> list:
-    """Las placas del carrusel de UNA nota: la portada (la misma placa del carrusel de siempre) y las
-    láminas que la explican. `escribir(volanta, titular, texto)` → [{titulo, texto}] (Gemini)."""
+    """Las placas del carrusel de UNA nota: la portada CON LA FOTO de la nota (la misma placa del carrusel
+    de siempre) y las láminas que la explican, SOLO TEXTO (pedido del 18/10/2026: «la primera con imagen y
+    las siguientes solo texto bien diseñado; no quiero carruseles sin fotos»). Sin foto de la nota no hay
+    carrusel: ValueError, y la nota no sale en Instagram. `escribir(volanta, titular, texto)` →
+    [{titulo, texto}] (Gemini)."""
+    if not note.get("image") or not Path(note["image"]).is_file():
+        raise ValueError("la nota no tiene foto propia: sin foto no sale el carrusel")
     if escribir is None:
         from utils import gemini
         escribir = gemini.laminas_explicativas
@@ -419,7 +424,7 @@ def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, 
     placas = [compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=1, total=total,
                                      tema="claro")]
     for i, l in enumerate(laminas, 2):
-        placas.append(compose_lamina_carrusel(note["image"], volanta, l["titulo"], l["texto"], site,
+        placas.append(compose_lamina_carrusel(None, volanta, l["titulo"], l["texto"], site,
                                               idx=i, total=total))
     # El compositor nombra el archivo por el texto: dos notas con láminas parecidas (o la placa del
     # carrusel de Facebook) se pisarían. Cada nota guarda las suyas en su propia carpeta.

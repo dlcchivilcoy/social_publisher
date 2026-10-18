@@ -1654,6 +1654,8 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
             foto = _abrir_foto(photo_path)
         except Exception as e:
             logger.warning(f"No se pudo abrir la foto de la lámina: {e}")
+    if foto is None:
+        return _lamina_solo_texto(volanta, titulo, texto, site_url, idx, total, t)
     foto_h = FOTO_B_H - 80 if foto is not None else 0
     if foto is not None:
         canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
@@ -1683,6 +1685,58 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
                                    lambda s_: _franklin(s_, 400), max_size=52, min_size=34, salto=1.38)
         _dibujar_renglones(draw, m, y, lx, fx, lhx)
     _pie_carrusel(canvas, draw, t, m, SLIDE_W - m, pie_y, idx, total, site_url)
+    return _save(canvas, f"lamina_{_safe_stem(titulo or volanta, 'nota')}_{idx or 0:02d}")
+
+
+def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx, total, t: dict) -> Path:
+    """La lámina SOLO TEXTO del carrusel explicativo (pedido del usuario 2026-10-18: «la primera con
+    imagen y las siguientes enfocate en hacer solo texto bien diseñado»). Arriba el isotipo, el nombre
+    del diario y «02 / 06» con un filete; el número de la lámina enorme y tenue de fondo; el bloque
+    centrado (volanta con su filo naranja, título y texto); abajo el pie de siempre (sitio, número,
+    flecha)."""
+    W, H = SLIDE_W, SLIDE_H
+    m = 84
+    ancho = W - 2 * m
+    claro = sum(t["fondo"]) > 600
+    tenue = tuple(round(f * 0.94 + a * 0.06) for f, a in zip(t["fondo"], t["acento"]))
+    linea = (226, 228, 233) if claro else (64, 66, 74)
+    canvas = Image.new("RGB", (W, H), t["fondo"])
+    draw = ImageDraw.Draw(canvas)
+    if idx:
+        draw.text((W - 40, H - 150), f"{idx:02d}", font=_franklin(520, 800), fill=tenue, anchor="rs")
+    # Cabecera: isotipo + DIARIO LA CAMPAÑA a la izquierda, «02 / 06» a la derecha.
+    x = _paste_iso(canvas, m, 70, 50, orange=True) + 16
+    draw.text((x, 95), "DIARIO LA CAMPAÑA", font=_franklin(24, 700), fill=t["texto"], anchor="lm")
+    if idx and total:
+        draw.text((W - m, 95), f"{idx:02d} / {total:02d}", font=_franklin(32, 700), fill=t["acento"],
+                  anchor="rm")
+    draw.line((m, 160, W - m, 160), fill=linea, width=2)
+    # El bloque, medido antes de dibujar para centrarlo entre el filete y el pie.
+    arriba, abajo = 210, H - 170
+    vol = (volanta or "").strip().upper()
+    alto_vol = 30 + 24 + 8 + 40 if vol else 0
+    titulo = (titulo or "").strip()
+    ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 330,
+                               lambda s_: _franklin(s_, 800), max_size=76, min_size=48, salto=1.12,
+                               max_lineas=4) if titulo else (None, [], 0)
+    resto = abajo - arriba - alto_vol - len(lt) * lht - 44
+    fx, lx, lhx = _medir_texto(draw, [(w, t["suave"]) for w in (texto or "").split()], ancho, max(resto, 120),
+                               lambda s_: _franklin(s_, 400), max_size=50, min_size=34,
+                               salto=1.38) if (texto or "").strip() else (None, [], 0)
+    alto = alto_vol + len(lt) * lht + (44 if lt and lx else 0) + len(lx) * lhx
+    y = arriba + max(0, (abajo - arriba - alto) // 2)
+    if vol:
+        draw.text((m, y), vol, font=_franklin(30, 700), fill=t["acento"], anchor="lt")
+        y += 30 + 24
+        draw.rectangle((m, y, m + 96, y + 8), fill=t["acento"])
+        y += 8 + 40
+    if lt:
+        _dibujar_renglones(draw, m, y, lt, ft, lht)
+        y += len(lt) * lht + 44
+    if lx:
+        _dibujar_renglones(draw, m, y, lx, fx, lhx)
+    draw.line((m, H - 120, W - m, H - 120), fill=linea, width=2)
+    _pie_carrusel(canvas, draw, t, m, W - m, H - 66, idx, total, site_url)
     return _save(canvas, f"lamina_{_safe_stem(titulo or volanta, 'nota')}_{idx or 0:02d}")
 
 
