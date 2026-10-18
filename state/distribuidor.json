@@ -5397,6 +5397,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
    "volanta": ""
   },
+  "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": {
+   "categoria": "nacionales",
+   "descripcion": "El Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos…",
+   "generado": "2026-10-18T15:37:35.894Z",
+   "id": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a5e288fb1e7745e79f2afe43328f551a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
+   "volanta": ""
+  },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno analiza declarar feriados y asuetos del 8 al 11 de noviembre por la llegada del papa León XIV. La agenda sigue en pie a la espera de su…",
@@ -18914,6 +18932,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x": {
+   "actualizado": "2026-10-18T15:40:18.000Z",
+   "buffer_id": "",
+   "clave": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x",
+   "creado": "2026-10-18T15:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:37:35.894Z",
+   "id": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje\n\nEl Sumo Pontífice brindó el Ángelus tras recibir el alta médica. Su equipo confirmó que no existen impedimentos.\n\nhttps://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje",
+   "urgente": false,
+   "vence": "2026-10-19T15:37:35.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x": {
    "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "",
@@ -21842,14 +21886,14 @@
    "video_url": ""
   },
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x": {
-   "actualizado": "2026-10-17T15:40:15.000Z",
+   "actualizado": "2026-10-18T15:40:20.000Z",
    "buffer_id": "",
    "clave": "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x",
    "creado": "2026-10-17T15:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T15:36:16.807Z",
    "id": "web:d9d5c19d-7cdc-4599-9431-674725b57a40",
    "intentos": 0,
@@ -22689,18 +22733,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen|x",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|x",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado|tiktok",
    "cuando": "2026-10-15T20:00:18.000Z",
@@ -26840,6 +26872,20 @@
    "cuando": "2026-10-18T15:20:25.000Z",
    "dueAt": "2026-10-18T17:00:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x",
+   "cuando": "2026-10-18T15:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x",
+   "cuando": "2026-10-18T15:40:20.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -27101,6 +27147,7 @@
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",
+  "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": "2026-10-18T15:40:18.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",

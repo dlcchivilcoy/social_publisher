@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 3 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 4 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
@@ -36,6 +36,7 @@ Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · El papa León XIV reapareció en público tras una cirugía de pulmón y descartan im — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Misión minera en Londres en plena tensión diplomática por las Islas Malvinas — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
@@ -45,7 +46,6 @@ Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
 - X · Notas web · Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados — cupo diario de Notas web en X completo (15)
 - X · Notas web · Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar  — cupo diario de Notas web en X completo (15)
 - X · Notas web · El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados — cupo diario de Notas web en X completo (15)
-- X · Notas web · El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,8 +56,6 @@ Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T13:40 enviado web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x 
-- 2026-10-18T13:40 enviado web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x 
 - 2026-10-18T13:40 enviado web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
 - 2026-10-18T13:40 programado web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 
 - 2026-10-18T14:00 programado web:1a3f2450-d820-426b-a2f8-b91f8e338629|x 
@@ -81,3 +79,5 @@ Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-18T15:20 recibido web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x 
 - 2026-10-18T15:20 vencido web:36f35444-e990-4d78-aeea-920acd95d869|x cupo diario de Notas web en X completo (15)
 - 2026-10-18T15:20 programado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 
+- 2026-10-18T15:40 recibido web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x 
+- 2026-10-18T15:40 vencido web:d9d5c19d-7cdc-4599-9431-674725b57a40|x cupo diario de Notas web en X completo (15)
