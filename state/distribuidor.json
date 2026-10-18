@@ -661,6 +661,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4",
    "youtube_url": "https://www.youtube.com/shorts/5JWQzOkUeVY"
   },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": {
+   "descripcion": "El deportista de Roque Pérez, de 23 años, consiguió su clasificación tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero. Este logro le abre",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-18T04:33:50.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
+   "urgente": false,
+   "video_bytes": 445428,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/_opQKoz8pNI"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -3720,6 +3741,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
    "volanta": ""
+  },
+  "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": {
+   "categoria": "",
+   "descripcion": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá El deportista de Roque Pérez, de 23 años, consiguió su clasificación tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero. Este logro le abre la posibilidad de representar a la Argentina en el Mundial de Canadá, llevando su preparación y dedicación al escenario internacional.",
+   "generado": "2026-10-18T04:31:55.617Z",
+   "id": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e98f38ddb5b6473c93d6594b6f802ad9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "volanta": "Roque Pérez · Deportes"
   },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": {
    "categoria": "",
@@ -7671,17 +7710,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 231,
-   "segundos": 73205,
+   "restantes": 230,
+   "segundos": 48001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2736,
-   "segundos": 2056222,
+   "restantes": 2735,
+   "segundos": 2031019,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T02:00:18.000Z",
+ "cuota_visto": "2026-10-18T09:00:27.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -9439,6 +9478,58 @@
    "video_bytes": 779667,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
   },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok": {
+   "actualizado": "2026-10-18T09:00:15.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok",
+   "creado": "2026-10-18T09:00:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T04:33:50.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de Roque Pérez, de 23 años, compitió en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
+   "urgente": false,
+   "vence": "2026-10-20T04:33:50.000Z",
+   "video_bytes": 445428,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x": {
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aa6ae173d6e00f35ee5",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
+   "creado": "2026-10-18T09:00:15.000Z",
+   "dueAt": "2026-10-18T10:00:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T04:33:50.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de Roque Pérez, de 23 años, logró el pase tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
+   "urgente": false,
+   "vence": "2026-10-20T04:33:50.000Z",
+   "video_bytes": 445428,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -10036,14 +10127,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
   },
   "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x": {
-   "actualizado": "2026-10-18T01:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aa86d56c60a73023598",
    "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x",
    "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T10:45:18.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T00:46:10.000Z",
    "id": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4",
    "intentos": 0,
@@ -10088,14 +10179,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
   },
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x": {
-   "actualizado": "2026-10-18T01:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aa80a208cb3235991f2",
    "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x",
    "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T10:30:20.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T00:58:02.000Z",
    "id": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4",
    "intentos": 0,
@@ -10120,7 +10211,7 @@
    "creado": "2026-10-18T01:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-18T01:10:20.000Z",
    "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
@@ -10140,14 +10231,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
   },
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x": {
-   "actualizado": "2026-10-18T01:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aa7938409f1d0c24c5e",
    "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
    "creado": "2026-10-18T01:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T10:15:35.000Z",
    "error": "",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T01:10:20.000Z",
    "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
    "intentos": 0,
@@ -16101,6 +16192,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x": {
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aa90b0d72757a14b79f",
+   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
+   "creado": "2026-10-18T09:00:15.000Z",
+   "dueAt": "2026-10-18T13:00:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T04:31:55.617Z",
+   "id": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de 23 años logró su pase en el Campeonato de Culturismo Natural WNBF Argentina. Podrá representar al país en el torneo internacional.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
+   "urgente": false,
+   "vence": "2026-10-19T04:31:55.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
    "actualizado": "2026-10-16T15:40:15.000Z",
    "buffer_id": "",
@@ -17678,14 +17795,14 @@
    "video_url": ""
   },
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x": {
-   "actualizado": "2026-10-18T01:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aaa6d56c60a730236b0",
    "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
    "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T13:30:56.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T00:56:58.699Z",
    "id": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b",
    "intentos": 0,
@@ -17781,14 +17898,14 @@
    "video_url": ""
   },
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x": {
-   "actualizado": "2026-10-18T01:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aab769b457934b519eb",
    "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
    "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T13:45:27.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T00:44:31.671Z",
    "id": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8",
    "intentos": 0,
@@ -17831,14 +17948,14 @@
    "video_url": ""
   },
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x": {
-   "actualizado": "2026-10-18T01:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T09:00:21.000Z",
+   "buffer_id": "6ad48aaa0b0d72757a14b865",
    "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
    "creado": "2026-10-18T01:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T13:15:19.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T01:09:46.723Z",
    "id": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20",
    "intentos": 0,
@@ -19433,7 +19550,7 @@
    "creado": "2026-10-18T00:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera para separarse de la otra publicación de la misma noticia",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-18T00:26:21.199Z",
    "id": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf",
@@ -21895,78 +22012,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|x",
-   "cuando": "2026-10-15T15:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110751473688531424"
-  },
-  {
-   "clave": "web:474e6223-8e55-4add-aedc-549975a9f8e1|x",
-   "cuando": "2026-10-15T15:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110743878852632868"
-  },
-  {
-   "clave": "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x",
-   "cuando": "2026-10-15T15:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110748678331752903"
-  },
-  {
-   "buffer_id": "6ad0f89a605d6a26c8ec56d2",
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|tiktok",
-   "cuando": "2026-10-15T16:00:28.000Z",
-   "dueAt": "2026-10-15T16:03:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0f89a1fb40d4b0cc44c4b",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|tiktok",
-   "cuando": "2026-10-15T16:00:28.000Z",
-   "dueAt": "2026-10-15T16:43:53.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0f89b1fb40d4b0cc44cfb",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok",
-   "cuando": "2026-10-15T16:00:28.000Z",
-   "dueAt": "2026-10-15T17:23:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0f89c43886cbb0751e804",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|tiktok",
-   "cuando": "2026-10-15T16:00:28.000Z",
-   "dueAt": "2026-10-15T18:03:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x",
-   "cuando": "2026-10-15T16:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|tiktok",
-   "cuando": "2026-10-15T16:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/|x",
-   "cuando": "2026-10-15T16:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|tiktok",
-   "cuando": "2026-10-15T16:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html|x",
    "cuando": "2026-10-15T16:20:20.000Z",
@@ -26039,6 +26084,86 @@
    "cuando": "2026-10-18T02:00:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111619241317122090"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
+   "cuando": "2026-10-18T09:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok",
+   "cuando": "2026-10-18T09:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
+   "cuando": "2026-10-18T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad48aa6ae173d6e00f35ee5",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T10:00:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aa7938409f1d0c24c5e",
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T10:15:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aa80a208cb3235991f2",
+   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T10:30:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aa86d56c60a73023598",
+   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T10:45:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aa90b0d72757a14b79f",
+   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T13:00:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aaa0b0d72757a14b865",
+   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T13:15:19.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aaa6d56c60a730236b0",
+   "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T13:30:56.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad48aab769b457934b519eb",
+   "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
+   "cuando": "2026-10-18T09:00:27.000Z",
+   "dueAt": "2026-10-18T13:45:27.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -26075,6 +26200,7 @@
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -26208,6 +26334,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": "2026-10-17T09:00:19.000Z",
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
+  "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
