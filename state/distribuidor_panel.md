@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 7 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -25,9 +25,9 @@ Actualizado: 18/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2733 de 3000 (visto 2026-10-18T10:20:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2732 de 3000 (visto 2026-10-18T10:40:14.000Z)
 
-## Cola propia (21 esperando)
+## Cola propia (20 esperando)
 - TikTok · Reels del bot · Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Luciano Dellepiane participó del encuentro en Apertura Peronista — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Constanza Alonso habló en el Partido Justicialista de Chivilcoy — tope de 12 publicaciones en 24 h de TikTok
@@ -35,8 +35,7 @@ Actualizado: 18/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · El Niño en Argentina: advierten por lluvias intensas y picos de agua entre dicie — cupo diario de Notas web en X completo (15)
+- X · Notas web · El Niño en Argentina: advierten por lluvias intensas y picos de agua entre dicie — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Cayó un joven de 24 años por el robo a un maxikiosco en avenida República — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
 - X · Notas web · Crecida del Paraná en Corrientes: el río supera los 7 metros y hay más de 200 ev — cupo diario de Notas web en X completo (15)
@@ -59,7 +58,6 @@ Actualizado: 18/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x 
 - 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok 
 - 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x 
 - 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok 
@@ -84,3 +82,4 @@ Actualizado: 18/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-18T10:20 enviado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x 
 - 2026-10-18T10:20 programado web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x 
 - 2026-10-18T10:20 programado web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x 
+- 2026-10-18T10:40 programado web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x 
