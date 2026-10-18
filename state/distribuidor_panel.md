@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 11:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 3 | 9 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 3 | 11 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
@@ -25,19 +25,17 @@ Actualizado: 18/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2725 de 3000 (visto 2026-10-18T14:00:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2724 de 3000 (visto 2026-10-18T14:20:14.000Z)
 
-## Cola propia (17 esperando)
+## Cola propia (15 esperando)
 - TikTok · Nacionales y categorías · Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Docentes bonaerenses aceptaron un incremento salarial del 6% en dos tramos — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Crecida del Paraná en Corrientes: el río supera los 7 metros y hay más de 200 ev — cupo diario de Notas web en X completo (15)
+- X · Notas web · Crecida del Paraná en Corrientes: el río supera los 7 metros y hay más de 200 ev — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia — cupo diario de Notas web en X completo (15)
 - X · Notas web · Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados — cupo diario de Notas web en X completo (15)
@@ -55,8 +53,6 @@ Actualizado: 18/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T11:00 programado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok 
-- 2026-10-18T11:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
 - 2026-10-18T11:00 programado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok 
 - 2026-10-18T11:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tikto 
 - 2026-10-18T11:20 recibido web:2501c79e-6248-40fd-9e51-af526da9d612|x 
@@ -80,3 +76,5 @@ Actualizado: 18/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-18T13:40 enviado web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
 - 2026-10-18T13:40 programado web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 
 - 2026-10-18T14:00 programado web:1a3f2450-d820-426b-a2f8-b91f8e338629|x 
+- 2026-10-18T14:20 programado web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x 
+- 2026-10-18T14:20 programado web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x 
