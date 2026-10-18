@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 8 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 8 | 1 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 4 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 1 enviadas + 5 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -25,9 +25,10 @@ Actualizado: 18/10/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2731 de 3000 (visto 2026-10-18T11:00:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2730 de 3000 (visto 2026-10-18T11:20:13.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (14 esperando)
+- X · Notas web · Soja en la región núcleo: 4,5 millones de hectáreas y siembra adelantada — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
@@ -51,10 +52,6 @@ Actualizado: 18/10/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T01:20 recibido web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
-- 2026-10-18T02:00 enviado bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x 
-- 2026-10-18T09:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x 
-- 2026-10-18T09:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tikto 
 - 2026-10-18T09:00 recibido web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x 
 - 2026-10-18T09:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x 
 - 2026-10-18T09:00 programado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x 
@@ -76,3 +73,7 @@ Actualizado: 18/10/2026 08:00 (hora AR) · ACTIVO
 - 2026-10-18T11:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
 - 2026-10-18T11:00 programado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok 
 - 2026-10-18T11:00 programado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tikto 
+- 2026-10-18T11:20 recibido web:2501c79e-6248-40fd-9e51-af526da9d612|x 
+- 2026-10-18T11:20 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tikto 
+- 2026-10-18T11:20 enviado bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x 
+- 2026-10-18T11:20 enviado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x 
