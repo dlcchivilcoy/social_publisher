@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 11
+    "scheduled": 0,
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-18T21:40:21.000Z"
+   "visto": "2026-10-18T23:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 0,
-    "sent": 24
+    "sent": 26
    },
    "pausado": false,
-   "visto": "2026-10-18T21:40:21.000Z"
+   "visto": "2026-10-18T23:00:22.000Z"
   }
  },
  "contenidos": {
@@ -702,6 +702,48 @@
    "video_mb": 0.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/vTnJv5gBwzY"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": {
+   "descripcion": "Punto Rosa: Gimnasia y Esgrima unió tenis, salud y concientización en una jornada especial. Con la participación de 27 parejas de dobles mixtos, el club fue escenario de una propuesta deportiva en el marco de Octubre Rosa. La iniciativa combinó competencia y prevención de la salud.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-18T22:41:07.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
+   "urgente": false,
+   "video_bytes": 1419145,
+   "video_mb": 1.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cd480690212bf0ea.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/M6S4CrVCkDw"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv": {
+   "descripcion": "Este sábado, la Juventud Radical de la Cuarta Sección Electoral llevó adelante una jornada de formación e intercambio en la ciudad de Chacabuco, que culminó con el recambio de sus autoridades seccionales. El encuentro contó con espacios de formación política, debate e intercambio.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-18T22:49:15.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
+   "urgente": false,
+   "video_bytes": 908176,
+   "video_mb": 0.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Hsq2oE8ZzSs"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -6546,6 +6588,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/internada-en-el-hospital-colecta-solidaria-para-sofia-meletto-fue",
    "volanta": "Internada en el Hospital"
   },
+  "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": {
+   "categoria": "nacionales",
+   "descripcion": "Tras arrestar a casi 2400 personas y registrar 1000 policías heridos por protestas contra el costo de vida, el mandatario francés reclamó calma.",
+   "generado": "2026-10-18T22:50:11.917Z",
+   "id": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_971a0b9494704df891b2c804ba4a3e99~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
+   "volanta": ""
+  },
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": {
    "categoria": "",
    "descripcion": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida Un choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha. El siniestro involucró a una camioneta utilitaria y un automóvil que circulaban en sentidos opuestos. El periodista de Suipacha, Jorge Lasala, describió las características del impacto al señalar que se trató de «una Kangoo de color blanco que circulaba...",
@@ -7445,6 +7505,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
    "volanta": ""
+  },
+  "web:be16b20b-29a0-45de-ae35-dec56c678655": {
+   "categoria": "nacionales",
+   "descripcion": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco Este sábado, la Juventud Radical de la Cuarta Sección Electoral llevó adelante una jornada de formación e intercambio en la ciudad de Chacabuco, que culminó con el recambio de sus autoridades seccionales. El encuentro contó con espacios de formación política, debate e intercambio de experiencias. Durante la jornada se abordaron distintas temáticas vinculadas a la participación juvenil en instituciones sociales, los...",
+   "generado": "2026-10-18T22:47:06.105Z",
+   "id": "web:be16b20b-29a0-45de-ae35-dec56c678655",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_18b21f493d514391b0226421b15843ae~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "volanta": "Chacabuco · Política"
   },
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": {
    "categoria": "",
@@ -8673,22 +8751,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 202,
-   "segundos": 1197,
+   "restantes": 248,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2707,
-   "segundos": 1984214,
+   "restantes": 2705,
+   "segundos": 1980618,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T22:00:27.000Z",
+ "cuota_visto": "2026-10-18T23:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10555,6 +10633,110 @@
    "video_bytes": 569895,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4"
   },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok": {
+   "actualizado": "2026-10-18T23:00:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok",
+   "creado": "2026-10-18T23:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T22:41:07.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa\n\nPunto Rosa: Gimnasia y Esgrima unió tenis, salud y concientización en una jornada especial. Con la participación de 27 parejas de dobles mixtos, el club fue escenario de una propuesta deportiva en el marco de Octubre Rosa. La iniciativa combinó competencia y prevención de la salud.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
+   "urgente": false,
+   "vence": "2026-10-20T22:41:07.000Z",
+   "video_bytes": 1419145,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cd480690212bf0ea.mp4"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x": {
+   "actualizado": "2026-10-18T23:00:22.000Z",
+   "buffer_id": "6ad54f880b0d72757a40ce1e",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
+   "creado": "2026-10-18T23:00:17.000Z",
+   "dueAt": "2026-10-18T23:18:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T22:41:07.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa\n\nEl club albergó una jornada deportiva con 27 parejas de dobles mixtos en el marco de Octubre Rosa. La iniciativa combinó competencia y prevención de la salud.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
+   "urgente": false,
+   "vence": "2026-10-20T22:41:07.000Z",
+   "video_bytes": 1419145,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cd480690212bf0ea.mp4"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok": {
+   "actualizado": "2026-10-18T23:00:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
+   "creado": "2026-10-18T23:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T22:49:15.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco\n\nEste sábado, la Juventud Radical de la Cuarta Sección Electoral llevó adelante una jornada de formación e intercambio en la ciudad de Chacabuco, que culminó con el recambio de sus autoridades seccionales. El encuentro contó con espacios de formación política, debate e intercambio.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-20T22:49:15.000Z",
+   "video_bytes": 908176,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x": {
+   "actualizado": "2026-10-18T23:00:22.000Z",
+   "buffer_id": "6ad54f87769b457934e2090f",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x",
+   "creado": "2026-10-18T23:00:17.000Z",
+   "dueAt": "2026-10-18T23:03:37.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T22:49:15.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco\n\nEl espacio llevó adelante una jornada de debate y formación en Chacabuco. El encuentro culminó con el recambio de las autoridades seccionales.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-20T22:49:15.000Z",
+   "video_bytes": 908176,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -11421,18 +11603,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
   },
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x": {
-   "actualizado": "2026-10-18T22:00:26.000Z",
+   "actualizado": "2026-10-18T23:00:22.000Z",
    "buffer_id": "6ad5417bae173d6e001ca567",
    "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x",
    "creado": "2026-10-18T22:00:19.000Z",
    "dueAt": "2026-10-18T22:03:07.000Z",
+   "enviado": "2026-10-18T22:03:19.986Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T21:50:36.000Z",
    "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111941221237014847",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
    "origen": "bot",
    "plataforma": "x",
@@ -12222,18 +12405,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
   },
   "nacionales:76f6781e9594def9|tiktok": {
-   "actualizado": "2026-10-18T21:20:14.000Z",
+   "actualizado": "2026-10-18T23:00:22.000Z",
    "buffer_id": "6ad538100b0d72757a3c3d9d",
    "clave": "nacionales:76f6781e9594def9|tiktok",
    "creado": "2026-10-18T20:20:13.000Z",
    "dueAt": "2026-10-18T22:03:31.000Z",
+   "enviado": "2026-10-18T22:05:28.107Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T20:07:27.000Z",
    "id": "nacionales:76f6781e9594def9",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698131974233394453",
    "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -14844,18 +15028,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x": {
-   "actualizado": "2026-10-18T21:40:22.000Z",
+   "actualizado": "2026-10-18T23:00:22.000Z",
    "buffer_id": "6ad53cc70b0d72757a3cf630",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
    "creado": "2026-10-18T21:40:15.000Z",
    "dueAt": "2026-10-18T21:43:48.000Z",
+   "enviado": "2026-10-18T21:44:03.419Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T21:21:18.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111936370142822530",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
    "origen": "policiales",
    "plataforma": "x",
@@ -21266,6 +21451,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x": {
+   "actualizado": "2026-10-18T23:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
+   "creado": "2026-10-18T23:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T22:50:11.917Z",
+   "id": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas\n\nTras arrestar a casi 2400 personas y registrar 1000 policías heridos por protestas contra el costo de vida, el mandatario francés reclamó calma.\n\nhttps://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas",
+   "urgente": false,
+   "vence": "2026-10-19T22:50:11.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x": {
    "actualizado": "2026-10-13T11:40:15.000Z",
    "buffer_id": "6acdf329ca68ebbd369c1a0e",
@@ -22601,6 +22812,32 @@
    "titulo": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario",
    "urgente": false,
    "vence": "2026-10-19T16:37:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:be16b20b-29a0-45de-ae35-dec56c678655|x": {
+   "actualizado": "2026-10-18T23:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
+   "creado": "2026-10-18T23:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T22:47:06.105Z",
+   "id": "web:be16b20b-29a0-45de-ae35-dec56c678655",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco\n\nLa jornada incluyó formación política, debate y el tratamiento de temas vinculados a la participación juvenil en instituciones sociales.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-19T22:47:06.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -24393,81 +24630,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|x",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|tiktok",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9|x",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
-   "cuando": "2026-10-16T02:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697075329101270273"
-  },
-  {
-   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x",
-   "cuando": "2026-10-16T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
-   "cuando": "2026-10-16T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x",
-   "cuando": "2026-10-16T09:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
-   "cuando": "2026-10-16T09:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697085807319895303"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
-   "cuando": "2026-10-16T09:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110925080876245269"
-  },
-  {
-   "clave": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x",
-   "cuando": "2026-10-16T09:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110921425196392474"
-  },
-  {
-   "buffer_id": "6ad1e7a6a82f34dbe1539180",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x",
-   "cuando": "2026-10-16T09:00:26.000Z",
-   "dueAt": "2026-10-16T10:00:04.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad1e7a74ed7d375a451ed61",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x",
@@ -28556,10 +28718,90 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
+   "cuando": "2026-10-18T23:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok",
+   "cuando": "2026-10-18T23:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x",
+   "cuando": "2026-10-18T23:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
+   "cuando": "2026-10-18T23:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
+   "cuando": "2026-10-18T23:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
+   "cuando": "2026-10-18T23:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x",
+   "cuando": "2026-10-18T23:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111941221237014847"
+  },
+  {
+   "clave": "nacionales:76f6781e9594def9|tiktok",
+   "cuando": "2026-10-18T23:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698131974233394453"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
+   "cuando": "2026-10-18T23:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111936370142822530"
+  },
+  {
+   "buffer_id": "6ad54f87769b457934e2090f",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x",
+   "cuando": "2026-10-18T23:00:24.000Z",
+   "dueAt": "2026-10-18T23:03:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad54f880b0d72757a40ce1e",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
+   "cuando": "2026-10-18T23:00:24.000Z",
+   "dueAt": "2026-10-18T23:18:36.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T21:40:21.000Z",
+ "ultima_sync": "2026-10-18T23:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -28594,6 +28836,8 @@
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": "2026-10-18T23:00:17.000Z",
+  "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv": "2026-10-18T23:00:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -28875,6 +29119,7 @@
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
+  "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": "2026-10-18T23:00:17.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
   "web:902234a6-60aa-4826-bffd-430eafadfad0": "2026-10-17T21:20:16.000Z",
   "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
@@ -28925,6 +29170,7 @@
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c": "2026-10-16T01:00:17.000Z",
   "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": "2026-10-18T16:40:14.000Z",
+  "web:be16b20b-29a0-45de-ae35-dec56c678655": "2026-10-18T23:00:17.000Z",
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": "2026-10-15T10:20:13.000Z",
   "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": "2026-10-18T17:20:13.000Z",

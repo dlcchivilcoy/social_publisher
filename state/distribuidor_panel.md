@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 7 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 8 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 7 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 21 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 0 | 1 | 12 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 23 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 1 | 0 | 12 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 11 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 26 enviadas + 0 programadas de 50 por día
+- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -25,9 +25,11 @@ Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 202 de 250 · 30d: quedan 2707 de 3000 (visto 2026-10-18T22:00:27.000Z)
+15m: quedan 98 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2705 de 3000 (visto 2026-10-18T23:00:24.000Z)
 
-## Cola propia (39 esperando)
+## Cola propia (43 esperando)
+- TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — cupo diario de Notas web en X completo (15)
 - X · Notas web · Preparan una Caminata Familiar a beneficio de dos instituciones — cupo diario de Notas web en X completo (15)
@@ -40,6 +42,8 @@ Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7 — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Las cinco películas para maratonear este fin de semana en Netflix — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de prote — cupo diario de Notas web en X completo (15)
+- X · Notas web · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño impulsa la "soja táctica" en la región núcleo y el trigo enciende alerta — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
@@ -54,10 +58,6 @@ Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
 - X · Notas web · Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de d — cupo diario de Notas web en X completo (15)
 - X · Notas web · Racing: quién es el nuevo jefe de la barra brava antes del clásico — cupo diario de Notas web en X completo (15)
 - X · Notas web · Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco — cupo diario de Notas web en X completo (15)
-- X · Notas web · Netflix: las cinco películas recomendadas para ver este fin de semana con duraci — cupo diario de Notas web en X completo (15)
-- X · Notas web · El dilema de Milei: blindaje político de gobernadores y la espera de la reactiva — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,17 +68,6 @@ Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T20:20 recibido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x 
-- 2026-10-18T20:40 recibido web:f02de8c1-15da-4722-a133-920069b5d431|x 
-- 2026-10-18T20:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
-- 2026-10-18T21:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x 
-- 2026-10-18T21:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tikto 
-- 2026-10-18T21:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x 
-- 2026-10-18T21:20 vencido web:902234a6-60aa-4826-bffd-430eafadfad0|x cupo diario de Notas web en X completo (15)
-- 2026-10-18T21:20 programado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tikto 
-- 2026-10-18T21:20 programado nacionales:76f6781e9594def9|tiktok 
-- 2026-10-18T21:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
-- 2026-10-18T21:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
 - 2026-10-18T21:40 recibido web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x 
 - 2026-10-18T21:40 vencido web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x cupo diario de Notas web en X completo (15)
 - 2026-10-18T21:40 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tikto 
@@ -93,3 +82,14 @@ Actualizado: 18/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-18T22:20 recibido web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x 
 - 2026-10-18T22:40 recibido web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x 
 - 2026-10-18T22:40 recibido web:31a6f540-e9dd-415d-9833-6137456f0a06|x 
+- 2026-10-18T23:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x 
+- 2026-10-18T23:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tikto 
+- 2026-10-18T23:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x 
+- 2026-10-18T23:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tikto 
+- 2026-10-18T23:00 recibido web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x 
+- 2026-10-18T23:00 recibido web:be16b20b-29a0-45de-ae35-dec56c678655|x 
+- 2026-10-18T23:00 enviado bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x 
+- 2026-10-18T23:00 enviado nacionales:76f6781e9594def9|tiktok 
+- 2026-10-18T23:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
+- 2026-10-18T23:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x 
+- 2026-10-18T23:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x 
