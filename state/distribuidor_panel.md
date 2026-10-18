@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 16:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 5 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 10 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 11 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 8 | 0 | 0 | 0 |
 
 ## Canales
@@ -37,6 +37,7 @@ Actualizado: 18/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · crece el optimismo por la posible visita del papa León XIV a la Argentina — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El papa León XIV reapareció tras ser operado de un cáncer de pulmón — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Delegación argentina en Londres en medio de la tensión por Malvinas — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco — cupo diario de Notas web en X completo (15)
 - X · Notas web · Netflix: las cinco películas recomendadas para ver este fin de semana con duraci — cupo diario de Notas web en X completo (15)
 - X · Notas web · El dilema de Milei: blindaje político de gobernadores y la espera de la reactiva — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
@@ -52,7 +53,6 @@ Actualizado: 18/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia — cupo diario de Notas web en X completo (15)
-- X · Notas web · Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -63,8 +63,6 @@ Actualizado: 18/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T17:20 recibido nacionales:b6108526eb42ff8a|tiktok 
-- 2026-10-18T17:20 recibido nacionales:fbd1321e4156d9c7|tiktok 
 - 2026-10-18T17:20 recibido nacionales:b010138b1fbfe036|tiktok 
 - 2026-10-18T17:20 recibido nacionales:2be0a52708a62532|tiktok 
 - 2026-10-18T17:20 recibido nacionales:b541d9169f033092|tiktok 
@@ -88,3 +86,5 @@ Actualizado: 18/10/2026 16:00 (hora AR) · ACTIVO
 - 2026-10-18T18:20 programado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
 - 2026-10-18T18:20 programado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
 - 2026-10-18T18:40 recibido web:c6663899-669a-41de-b04f-299805304e87|x 
+- 2026-10-18T19:20 recibido web:82b6cce8-6765-4661-8b19-1e22966dd60a|x 
+- 2026-10-18T19:20 vencido web:18e1be80-a9ad-41f2-9e05-274978b011a3|x cupo diario de Notas web en X completo (15)

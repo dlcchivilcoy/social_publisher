@@ -6150,6 +6150,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cultura-chivilcoy-sera-sede-del-2-encuentro-regional-de-coros",
    "volanta": "Cultura"
   },
+  "web:82b6cce8-6765-4661-8b19-1e22966dd60a": {
+   "categoria": "nacionales",
+   "descripcion": "El sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos. En paralelo, el PAMI atraviesa tensiones internas y…",
+   "generado": "2026-10-18T19:07:23.613Z",
+   "id": "web:82b6cce8-6765-4661-8b19-1e22966dd60a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_91d504ab5dfb46ee9c24e6e4264d97fe~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco mil clínicas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
+   "volanta": ""
+  },
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": {
    "categoria": "",
    "descripcion": "Emanuel Boveri y el gran presente de Atlético Tostado: \"Estamos muy motivados y con ganas de volver a jugar el Federal\" El basquetbolista chivilcoyano repasó la actualidad del equipo santafesino, analizó la reestructuración del plantel para la segunda parte del año y se enfocó en los próximos desafíos: los cruces definitorios de la Copa Centenario y el debut en la Copa Santa Fe. En un mano a mano con el programa periodístico, Emanuel \"Manu\" Boveri compartió sus impresiones sobre el momento...",
@@ -17676,14 +17694,14 @@
    "video_url": ""
   },
   "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x": {
-   "actualizado": "2026-10-17T19:20:13.000Z",
+   "actualizado": "2026-10-18T19:20:21.000Z",
    "buffer_id": "",
    "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
    "creado": "2026-10-17T19:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T19:06:10.766Z",
    "id": "web:18e1be80-a9ad-41f2-9e05-274978b011a3",
    "intentos": 0,
@@ -20295,6 +20313,32 @@
    "titulo": "Chivilcoy será sede del 2° Encuentro Regional de Coros Infantiles",
    "urgente": false,
    "vence": "2026-10-16T10:09:37.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x": {
+   "actualizado": "2026-10-18T19:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
+   "creado": "2026-10-18T19:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T19:07:23.613Z",
+   "id": "web:82b6cce8-6765-4661-8b19-1e22966dd60a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco mil clínicas\n\nEl sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos.\n\nhttps://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco mil clínicas",
+   "urgente": false,
+   "vence": "2026-10-19T19:07:23.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -23419,21 +23463,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad16461a82f34dbe1387b9d",
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
-   "cuando": "2026-10-15T23:40:17.000Z",
-   "dueAt": "2026-10-16T00:23:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
-   "cuando": "2026-10-16T00:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|tiktok",
    "cuando": "2026-10-16T00:00:21.000Z",
@@ -27586,6 +27615,20 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
+   "cuando": "2026-10-18T19:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
+   "cuando": "2026-10-18T19:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -27886,6 +27929,7 @@
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
   "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": "2026-10-18T00:20:13.000Z",
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
+  "web:82b6cce8-6765-4661-8b19-1e22966dd60a": "2026-10-18T19:20:13.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
