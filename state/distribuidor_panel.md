@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 9 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 5 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 9 | 1 | 2 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 5 | 0 | 5 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 9 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 2 | 0 | 1 | 0 |
-| Notas web | X | 15 | 15 | 0 | 13 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 15 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,10 +27,16 @@ Actualizado: 17/10/2026 21:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 97 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2737 de 3000 (visto 2026-10-18T00:40:30.000Z)
 
-## Cola propia (19 esperando)
+## Cola propia (25 esperando)
+- X · Reels del bot · Constanza Alonso habló en el Partido Justicialista de Chivilcoy — cupo diario de Reels del bot en X completo (10)
+- TikTok · Reels del bot · Constanza Alonso habló en el Partido Justicialista de Chivilcoy — tope de 12 publicaciones en 24 h de TikTok
+- X · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — cupo diario de Reels del bot en X completo (10)
+- TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Constanza Alonso habló en el Partido Justicialista de Chivilcoy — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — cupo diario de Notas web en X completo (15)
 - X · Notas web · Álvaro Cortes presentó su tercer libro de poesía — espera para separarse de la otra publicación de la misma noticia
 - X · Notas web · Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar — cupo diario de Notas web en X completo (15)
 - X · Notas web · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — cupo diario de Notas web en X completo (15)
@@ -57,12 +63,6 @@ Actualizado: 17/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T23:40 recibido bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x 
-- 2026-10-17T23:40 recibido bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok 
-- 2026-10-17T23:40 recibido web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x 
-- 2026-10-17T23:40 enviado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x 
-- 2026-10-17T23:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-m 
-- 2026-10-17T23:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
 - 2026-10-17T23:40 enviado policiales:https://www.presentenoticias.com/noticias/2026/10 
 - 2026-10-17T23:40 enviado web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x 
 - 2026-10-17T23:40 programado bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x 
@@ -82,3 +82,9 @@ Actualizado: 17/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-18T00:40 enviado bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x 
 - 2026-10-18T00:40 enviado policiales:https://www.diariodemocracia.com/policiales/34669 
 - 2026-10-18T00:40 programado bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x 
+- 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x 
+- 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok 
+- 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x 
+- 2026-10-18T01:00 recibido bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok 
+- 2026-10-18T01:00 recibido web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x 
+- 2026-10-18T01:00 recibido web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x 
