@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 4 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 5 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 12 enviadas + 7 programadas de 50 por día
+- X: conectado · Buffer: 18 enviadas + 3 programadas de 50 por día
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -25,7 +25,7 @@ Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2720 de 3000 (visto 2026-10-18T15:20:25.000Z)
+15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2719 de 3000 (visto 2026-10-18T16:20:15.000Z)
 
 ## Cola propia (18 esperando)
 - TikTok · Reels del bot · El Padre Ricardo brindó una bendición especial a las madres — tope de 12 publicaciones en 24 h de TikTok
@@ -35,6 +35,7 @@ Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Detuvieron al papá de la abogada acusada de racismo en Brasil — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El papa León XIV reapareció en público tras una cirugía de pulmón y descartan im — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
@@ -45,7 +46,6 @@ Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
 - X · Notas web · El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia — cupo diario de Notas web en X completo (15)
 - X · Notas web · Ley de Discapacidad: gobernadores darán sus votos al oficialismo en Diputados — cupo diario de Notas web en X completo (15)
 - X · Notas web · Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar  — cupo diario de Notas web en X completo (15)
-- X · Notas web · El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -56,14 +56,6 @@ Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T13:40 enviado web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
-- 2026-10-18T13:40 programado web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 
-- 2026-10-18T14:00 programado web:1a3f2450-d820-426b-a2f8-b91f8e338629|x 
-- 2026-10-18T14:20 programado web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x 
-- 2026-10-18T14:20 programado web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x 
-- 2026-10-18T14:40 programado web:eff024d5-cc52-4c26-9548-edd418eb2cec|x 
-- 2026-10-18T15:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
-- 2026-10-18T15:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
 - 2026-10-18T15:00 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tikto 
 - 2026-10-18T15:00 enviado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok 
 - 2026-10-18T15:00 enviado web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x 
@@ -81,3 +73,11 @@ Actualizado: 18/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-18T15:20 programado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 
 - 2026-10-18T15:40 recibido web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x 
 - 2026-10-18T15:40 vencido web:d9d5c19d-7cdc-4599-9431-674725b57a40|x cupo diario de Notas web en X completo (15)
+- 2026-10-18T16:20 recibido web:1abafabb-ff53-4fcd-911c-6a4465fed747|x 
+- 2026-10-18T16:20 vencido web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x cupo diario de Notas web en X completo (15)
+- 2026-10-18T16:20 enviado web:1a3f2450-d820-426b-a2f8-b91f8e338629|x 
+- 2026-10-18T16:20 enviado web:2501c79e-6248-40fd-9e51-af526da9d612|x 
+- 2026-10-18T16:20 enviado web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x 
+- 2026-10-18T16:20 enviado web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x 
+- 2026-10-18T16:20 enviado web:b355a924-69fb-44bb-b43c-862727b7b5f2|x 
+- 2026-10-18T16:20 enviado web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 

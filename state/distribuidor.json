@@ -15,7 +15,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-18T15:00:22.000Z"
+   "visto": "2026-10-18T16:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 12
+    "scheduled": 3,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-10-18T15:00:22.000Z"
+   "visto": "2026-10-18T16:20:14.000Z"
   }
  },
  "contenidos": {
@@ -4281,6 +4281,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquetbol-liga-nacional-racing-de-chivilcoy-piso-fuerte-en-obera-y",
    "volanta": "Basquetbol"
   },
+  "web:1abafabb-ff53-4fcd-911c-6a4465fed747": {
+   "categoria": "nacionales",
+   "descripcion": "El aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.",
+   "generado": "2026-10-18T16:07:34.820Z",
+   "id": "web:1abafabb-ff53-4fcd-911c-6a4465fed747",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d3d6f95dab85465ea7943ac581763118~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
+   "volanta": ""
+  },
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": {
    "categoria": "",
    "descripcion": "Una nueva resolución permite a los entes sanitarios comercializar los dispositivos electrónicos y registrar los datos del rodeo.",
@@ -7997,17 +8015,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 215,
-   "segundos": 25199,
+   "restantes": 214,
+   "segundos": 21609,
    "tope": 250
   },
   "30d": {
-   "restantes": 2720,
-   "segundos": 2008216,
+   "restantes": 2719,
+   "segundos": 2004626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T15:20:25.000Z",
+ "cuota_visto": "2026-10-18T16:20:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -17231,18 +17249,19 @@
    "video_url": ""
   },
   "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x": {
-   "actualizado": "2026-10-18T14:00:19.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4d0f30a208cb32369ae12",
    "clave": "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x",
    "creado": "2026-10-18T12:40:15.000Z",
    "dueAt": "2026-10-18T15:45:58.000Z",
+   "enviado": "2026-10-18T15:46:03.107Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T12:36:28.965Z",
    "id": "web:1a3f2450-d820-426b-a2f8-b91f8e338629",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111846274676760778",
    "nota_url": "https://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
    "origen": "web",
    "plataforma": "x",
@@ -17279,6 +17298,32 @@
    "titulo": "Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa",
    "urgente": false,
    "vence": "2026-10-16T10:06:49.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:1abafabb-ff53-4fcd-911c-6a4465fed747|x": {
+   "actualizado": "2026-10-18T16:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:1abafabb-ff53-4fcd-911c-6a4465fed747|x",
+   "creado": "2026-10-18T16:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T16:07:34.820Z",
+   "id": "web:1abafabb-ff53-4fcd-911c-6a4465fed747",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV\n\nEl aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV",
+   "urgente": false,
+   "vence": "2026-10-19T16:07:34.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -17393,18 +17438,19 @@
    "video_url": ""
   },
   "web:2501c79e-6248-40fd-9e51-af526da9d612|x": {
-   "actualizado": "2026-10-18T13:20:19.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4c794938409f1d0d05f1f",
    "clave": "web:2501c79e-6248-40fd-9e51-af526da9d612|x",
    "creado": "2026-10-18T11:20:13.000Z",
    "dueAt": "2026-10-18T15:15:09.000Z",
+   "enviado": "2026-10-18T15:15:31.263Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T11:02:42.808Z",
    "id": "web:2501c79e-6248-40fd-9e51-af526da9d612",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111838591743643911",
    "nota_url": "https://www.diariolacampaña.com.ar/n/soja-en-la-region-nucleo-4-5-millones-de-hectareas-y-siembra-235868",
    "origen": "web",
    "plataforma": "x",
@@ -17580,18 +17626,19 @@
    "video_url": ""
   },
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x": {
-   "actualizado": "2026-10-18T14:20:12.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4d59d938409f1d0d38cde",
    "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
    "creado": "2026-10-17T21:00:16.000Z",
    "dueAt": "2026-10-18T16:15:43.000Z",
+   "enviado": "2026-10-18T16:15:46.286Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T20:46:45.417Z",
    "id": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111853754408456234",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
    "origen": "web",
    "plataforma": "x",
@@ -20629,18 +20676,19 @@
    "video_url": ""
   },
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x": {
-   "actualizado": "2026-10-18T14:20:12.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4d59d0a208cb3236b238f",
    "clave": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x",
    "creado": "2026-10-18T12:20:16.000Z",
    "dueAt": "2026-10-18T16:00:48.000Z",
+   "enviado": "2026-10-18T16:03:55.254Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T12:06:30.060Z",
    "id": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111850771629093325",
    "nota_url": "https://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
    "origen": "web",
    "plataforma": "x",
@@ -20815,18 +20863,19 @@
    "video_url": ""
   },
   "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x": {
-   "actualizado": "2026-10-18T13:20:19.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4c794938409f1d0d05edf",
    "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
    "creado": "2026-10-18T12:20:16.000Z",
    "dueAt": "2026-10-18T15:00:30.000Z",
+   "enviado": "2026-10-18T15:02:29.508Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T12:02:22.204Z",
    "id": "web:b355a924-69fb-44bb-b43c-862727b7b5f2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111835312095735982",
    "nota_url": "https://www.diariolacampaña.com.ar/n/frigorifico-rioplatense-envio-carne-a-paris-bajo-la-exigencia-e39007",
    "origen": "web",
    "plataforma": "x",
@@ -21510,14 +21559,14 @@
    "video_url": ""
   },
   "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x": {
-   "actualizado": "2026-10-17T16:20:14.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "",
    "clave": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x",
    "creado": "2026-10-17T16:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T16:06:13.676Z",
    "id": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0",
    "intentos": 0,
@@ -22321,18 +22370,19 @@
    "video_url": ""
   },
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x": {
-   "actualizado": "2026-10-18T13:40:14.000Z",
+   "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4cc3e938409f1d0d14c8b",
    "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
    "creado": "2026-10-18T13:20:13.000Z",
    "dueAt": "2026-10-18T15:30:00.000Z",
+   "enviado": "2026-10-18T15:30:08.058Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T13:06:32.271Z",
    "id": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111842268537582064",
    "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
    "origen": "web",
    "plataforma": "x",
@@ -22733,63 +22783,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado|tiktok",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado|x",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad130d34fd04e4eb3aaf69d",
-   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x",
-   "cuando": "2026-10-15T20:00:20.000Z",
-   "dueAt": "2026-10-15T23:15:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x",
-   "cuando": "2026-10-15T20:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok",
-   "cuando": "2026-10-15T20:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x",
-   "cuando": "2026-10-15T20:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad1358184453eae6f340a8a",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x",
-   "cuando": "2026-10-15T20:20:18.000Z",
-   "dueAt": "2026-10-15T23:30:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad1358184453eae6f340ac0",
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|x",
-   "cuando": "2026-10-15T20:20:18.000Z",
-   "dueAt": "2026-10-15T23:45:32.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad135823ccfcf93aab78707",
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok",
@@ -26886,10 +26879,60 @@
    "cuando": "2026-10-18T15:40:20.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:1abafabb-ff53-4fcd-911c-6a4465fed747|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111846274676760778"
+  },
+  {
+   "clave": "web:2501c79e-6248-40fd-9e51-af526da9d612|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111838591743643911"
+  },
+  {
+   "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111853754408456234"
+  },
+  {
+   "clave": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111850771629093325"
+  },
+  {
+   "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111835312095735982"
+  },
+  {
+   "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
+   "cuando": "2026-10-18T16:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111842268537582064"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T15:00:22.000Z",
+ "ultima_sync": "2026-10-18T16:20:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -27084,6 +27127,7 @@
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
   "web:1a3f2450-d820-426b-a2f8-b91f8e338629": "2026-10-18T12:40:15.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
+  "web:1abafabb-ff53-4fcd-911c-6a4465fed747": "2026-10-18T16:20:14.000Z",
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
