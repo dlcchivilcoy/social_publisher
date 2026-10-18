@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 5 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 11 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 8 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 22 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 50 por día
+- TikTok: conectado · Buffer: 9 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -25,9 +25,9 @@ Actualizado: 18/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 209 de 250 · 30d: quedan 2714 de 3000 (visto 2026-10-18T18:20:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 208 de 250 · 30d: quedan 2713 de 3000 (visto 2026-10-18T19:40:21.000Z)
 
-## Cola propia (25 esperando)
+## Cola propia (26 esperando)
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
@@ -37,6 +37,7 @@ Actualizado: 18/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · crece el optimismo por la posible visita del papa León XIV a la Argentina — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El papa León XIV reapareció tras ser operado de un cáncer de pulmón — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Delegación argentina en Londres en medio de la tensión por Malvinas — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Racing: quién es el nuevo jefe de la barra brava antes del clásico — cupo diario de Notas web en X completo (15)
 - X · Notas web · Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco — cupo diario de Notas web en X completo (15)
 - X · Notas web · Netflix: las cinco películas recomendadas para ver este fin de semana con duraci — cupo diario de Notas web en X completo (15)
 - X · Notas web · El dilema de Milei: blindaje político de gobernadores y la espera de la reactiva — cupo diario de Notas web en X completo (15)
@@ -63,10 +64,6 @@ Actualizado: 18/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T17:20 recibido nacionales:b010138b1fbfe036|tiktok 
-- 2026-10-18T17:20 recibido nacionales:2be0a52708a62532|tiktok 
-- 2026-10-18T17:20 recibido nacionales:b541d9169f033092|tiktok 
-- 2026-10-18T17:20 recibido web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x 
 - 2026-10-18T17:20 enviado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 
 - 2026-10-18T17:20 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
 - 2026-10-18T17:20 enviado web:eff024d5-cc52-4c26-9548-edd418eb2cec|x 
@@ -88,3 +85,7 @@ Actualizado: 18/10/2026 16:20 (hora AR) · ACTIVO
 - 2026-10-18T18:40 recibido web:c6663899-669a-41de-b04f-299805304e87|x 
 - 2026-10-18T19:20 recibido web:82b6cce8-6765-4661-8b19-1e22966dd60a|x 
 - 2026-10-18T19:20 vencido web:18e1be80-a9ad-41f2-9e05-274978b011a3|x cupo diario de Notas web en X completo (15)
+- 2026-10-18T19:40 recibido web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x 
+- 2026-10-18T19:40 enviado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
+- 2026-10-18T19:40 enviado policiales:https://www.diariodemocracia.com/policiales/34670 
+- 2026-10-18T19:40 enviado policiales:https://www.diariodemocracia.com/policiales/34670 
