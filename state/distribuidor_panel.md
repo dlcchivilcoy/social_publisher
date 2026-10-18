@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 3 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
@@ -25,15 +25,19 @@ Actualizado: 18/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2721 de 3000 (visto 2026-10-18T15:00:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2720 de 3000 (visto 2026-10-18T15:20:25.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (18 esperando)
+- TikTok · Reels del bot · El Padre Ricardo brindó una bendición especial a las madres — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
+- X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Detuvieron al papá de la abogada acusada de racismo en Brasil — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Misión minera en Londres en plena tensión diplomática por las Islas Malvinas — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores — cupo diario de Notas web en X completo (15)
@@ -42,7 +46,6 @@ Actualizado: 18/10/2026 12:00 (hora AR) · ACTIVO
 - X · Notas web · Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar  — cupo diario de Notas web en X completo (15)
 - X · Notas web · El oficialismo busca dictamen para el proyecto sobre Malvinas en Diputados — cupo diario de Notas web en X completo (15)
 - X · Notas web · El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan — cupo diario de Notas web en X completo (15)
-- X · Notas web · Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -53,13 +56,6 @@ Actualizado: 18/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T13:20 recibido nacionales:6e5b52bbe69fd410|tiktok 
-- 2026-10-18T13:20 recibido nacionales:58461ddc8e0149c5|tiktok 
-- 2026-10-18T13:20 recibido web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 
-- 2026-10-18T13:20 programado web:b355a924-69fb-44bb-b43c-862727b7b5f2|x 
-- 2026-10-18T13:20 programado web:2501c79e-6248-40fd-9e51-af526da9d612|x 
-- 2026-10-18T13:40 enviado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok 
-- 2026-10-18T13:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
 - 2026-10-18T13:40 enviado web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x 
 - 2026-10-18T13:40 enviado web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x 
 - 2026-10-18T13:40 enviado web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
@@ -78,3 +74,10 @@ Actualizado: 18/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-18T15:00 enviado web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x 
 - 2026-10-18T15:00 enviado web:ccce7a0b-db66-488d-8412-6628b516975f|x 
 - 2026-10-18T15:00 programado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
+- 2026-10-18T15:20 recibido bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 
+- 2026-10-18T15:20 recibido bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok 
+- 2026-10-18T15:20 recibido web:2991bf21-e852-48ba-87ce-5d073c3a7487|x 
+- 2026-10-18T15:20 recibido web:5e1b7468-652a-43da-baf9-771cda1103ff|x 
+- 2026-10-18T15:20 recibido web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x 
+- 2026-10-18T15:20 vencido web:36f35444-e990-4d78-aeea-920acd95d869|x cupo diario de Notas web en X completo (15)
+- 2026-10-18T15:20 programado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 

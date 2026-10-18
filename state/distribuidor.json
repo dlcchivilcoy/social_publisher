@@ -934,6 +934,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4",
    "youtube_url": "https://www.youtube.com/shorts/w3c8EqspOpQ"
   },
+  "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": {
+   "descripcion": "En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo llevó a cabo una bendición especial dedicada a todas las madres de la comunidad en la Parroquia San Pedro de Chivilcoy.\n\nDurante su mensaje, el sacerdote resaltó la importancia de recordar, agradecer y valorar a las madres, a quienes consideró como uno de los regalos más preciados. En ese sentido, destacó el rol fundamental que cumplen al orientar y acompañar el crecimiento de sus hijos a través de la fe, la esperanza y la caridad.\n\nAsimismo, en la ceremonia religiosa se elevó una oración especial por todas las mujeres que recibieron la gracia de la maternidad y se pidió bendecir a aquellas que enriquecen este camino con fidelidad.",
+   "duracion_seg": 60.2,
+   "generado": "2026-10-18T15:04:59.000Z",
+   "id": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
+   "urgente": false,
+   "video_bytes": 11185102,
+   "video_mb": 10.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/lqfpZiN2FnQ"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -4422,6 +4443,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vtv-en-la-ciudad-extienden-las-concesiones-actuales-por-dos-ec77bc",
    "volanta": ""
   },
+  "web:2991bf21-e852-48ba-87ce-5d073c3a7487": {
+   "categoria": "nacionales",
+   "descripcion": "El secretario de Minería, Luis Lucero, encabeza una comitiva en el Reino Unido para foros de inversión. El viaje se da tras la demanda argentina en…",
+   "generado": "2026-10-18T15:07:35.915Z",
+   "id": "web:2991bf21-e852-48ba-87ce-5d073c3a7487",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4808a292940c405ead1e585c66225af9~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Misión minera en Londres en plena tensión diplomática por las Islas Malvinas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
+   "volanta": ""
+  },
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": {
    "categoria": "",
    "descripcion": "Operativos de saturación y controles preventivos en distintos puntos de Chivilcoy durante el fin de semana",
@@ -4708,6 +4747,24 @@
    "titulo": "Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar una alternativa para 2027",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/kicillof-cuestiono-al-gobierno-de-milei-en-el-dia-de-la-lealtad-8f5043",
+   "volanta": ""
+  },
+  "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": {
+   "categoria": "",
+   "descripcion": "La Secretaría de Agricultura estrenó un sitio web para monitorear el fenómeno climático y brindar asesoramiento técnico a productores.",
+   "generado": "2026-10-18T15:02:20.979Z",
+   "id": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_44d763046e7f406bbf86a73d35ec24db~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
    "volanta": ""
   },
   "web:39554db5-c84a-492e-9690-89d95fba95ec": {
@@ -5141,6 +5198,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-debate-en-el-oficialismo-rumbo-a-2027-las-discusiones-sobre-75f2bd",
    "volanta": ""
+  },
+  "web:5e1b7468-652a-43da-baf9-771cda1103ff": {
+   "categoria": "",
+   "descripcion": "El Padre Ricardo brindó una bendición especial a las madres En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo realizó una bendición especial dedicada a todas las madres en la Parroquia San Pedro de Chivilcoy. Durante su mensaje, destacó la importancia de «recordar, agradecer y valorar» a las madres «como uno de los regalos más preciosos», remarcando que desde la fe, la esperanza y la caridad van orientando y haciendo crecer a sus hijos. Asimismo, pidió bendecir a las...",
+   "generado": "2026-10-18T15:04:15.437Z",
+   "id": "web:5e1b7468-652a-43da-baf9-771cda1103ff",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0be924d832434556a66f9cfb6ba3bc13~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": {
    "categoria": "",
@@ -7899,22 +7974,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 26400,
+   "restantes": 215,
+   "segundos": 25199,
    "tope": 250
   },
   "30d": {
-   "restantes": 2721,
-   "segundos": 2009418,
+   "restantes": 2720,
+   "segundos": 2008216,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T15:00:23.000Z",
+ "cuota_visto": "2026-10-18T15:20:25.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10457,6 +10532,58 @@
    "vence": "2026-10-20T01:10:20.000Z",
    "video_bytes": 7636070,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
+  },
+  "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok": {
+   "actualizado": "2026-10-18T15:20:15.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
+   "creado": "2026-10-18T15:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:04:59.000Z",
+   "id": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Padre Ricardo brindó una bendición especial a las madres\n\nEn la Parroquia San Pedro de Chivilcoy, el sacerdote destacó la importancia de agradecer y valorar a las madres como uno de los regalos más preciados. Además, se elevó una oración especial por todas las mujeres que recibieron la gracia de la maternidad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
+   "urgente": false,
+   "vence": "2026-10-20T15:04:59.000Z",
+   "video_bytes": 11185102,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4"
+  },
+  "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x": {
+   "actualizado": "2026-10-18T15:20:24.000Z",
+   "buffer_id": "6ad4e3b8938409f1d0d7478c",
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
+   "creado": "2026-10-18T15:20:15.000Z",
+   "dueAt": "2026-10-18T17:00:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T15:04:59.000Z",
+   "id": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El Padre Ricardo brindó una bendición especial a las madres\n\nEn la Parroquia San Pedro de Chivilcoy, el sacerdote destacó el rol de las madres al orientar a sus hijos en la fe y las consideró uno de los regalos más preciados. Se rezó por la maternidad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
+   "urgente": false,
+   "vence": "2026-10-20T15:04:59.000Z",
+   "video_bytes": 11185102,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -17384,6 +17511,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:2991bf21-e852-48ba-87ce-5d073c3a7487|x": {
+   "actualizado": "2026-10-18T15:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:2991bf21-e852-48ba-87ce-5d073c3a7487|x",
+   "creado": "2026-10-18T15:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:07:35.915Z",
+   "id": "web:2991bf21-e852-48ba-87ce-5d073c3a7487",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Misión minera en Londres en plena tensión diplomática por las Islas Malvinas\n\nEl secretario de Minería, Luis Lucero, encabeza una comitiva en el Reino Unido para foros de inversión. El viaje se da tras una demanda argentina.\n\nhttps://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Misión minera en Londres en plena tensión diplomática por las Islas Malvinas",
+   "urgente": false,
+   "vence": "2026-10-19T15:07:35.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
    "buffer_id": "",
@@ -17699,14 +17852,14 @@
    "video_url": ""
   },
   "web:36f35444-e990-4d78-aeea-920acd95d869|x": {
-   "actualizado": "2026-10-17T15:20:13.000Z",
+   "actualizado": "2026-10-18T15:20:24.000Z",
    "buffer_id": "",
    "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
    "creado": "2026-10-17T15:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T15:06:17.302Z",
    "id": "web:36f35444-e990-4d78-aeea-920acd95d869",
    "intentos": 0,
@@ -17796,6 +17949,32 @@
    "titulo": "Kicillof cuestionó al gobierno de Milei en el Día de la Lealtad y llamó a armar una alternativa para 2027",
    "urgente": false,
    "vence": "2026-10-18T18:06:08.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x": {
+   "actualizado": "2026-10-18T15:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x",
+   "creado": "2026-10-18T15:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:02:20.979Z",
+   "id": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro\n\nLa Secretaría de Agricultura estrenó un sitio web para monitorear el fenómeno climático y brindar asesoramiento técnico a productores.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro",
+   "urgente": false,
+   "vence": "2026-10-19T15:02:20.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -18447,6 +18626,32 @@
    "titulo": "El debate en el oficialismo rumbo a 2027: las discusiones sobre polarizar con Axel Kicillof",
    "urgente": false,
    "vence": "2026-10-12T21:06:21.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:5e1b7468-652a-43da-baf9-771cda1103ff|x": {
+   "actualizado": "2026-10-18T15:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:5e1b7468-652a-43da-baf9-771cda1103ff|x",
+   "creado": "2026-10-18T15:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:04:15.437Z",
+   "id": "web:5e1b7468-652a-43da-baf9-771cda1103ff",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Padre Ricardo brindó una bendición especial a las madres\n\nEn la Parroquia San Pedro de Chivilcoy, el sacerdote destacó la importancia de recordar, agradecer y valorar a las madres como uno de los regalos más preciosos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
+   "urgente": false,
+   "vence": "2026-10-19T15:04:15.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -22484,51 +22689,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x",
-   "cuando": "2026-10-15T19:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110796664948605391"
-  },
-  {
-   "buffer_id": "6ad127728fb2c19f54de363c",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x",
-   "cuando": "2026-10-15T19:20:19.000Z",
-   "dueAt": "2026-10-15T22:30:43.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad127738fb2c19f54de3683",
-   "clave": "entrevistas:job00211|x",
-   "cuando": "2026-10-15T19:20:19.000Z",
-   "dueAt": "2026-10-15T22:45:26.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad12c1fd27a77f8514dca44",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
-   "cuando": "2026-10-15T19:40:15.000Z",
-   "dueAt": "2026-10-15T23:00:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/|tiktok",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/|x",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen|tiktok",
-   "cuando": "2026-10-15T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
   {
    "clave": "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen|x",
    "cuando": "2026-10-15T20:00:18.000Z",
@@ -26627,6 +26787,59 @@
    "cuando": "2026-10-18T15:00:23.000Z",
    "dueAt": "2026-10-18T16:45:15.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
+   "cuando": "2026-10-18T15:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
+   "cuando": "2026-10-18T15:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:2991bf21-e852-48ba-87ce-5d073c3a7487|x",
+   "cuando": "2026-10-18T15:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5e1b7468-652a-43da-baf9-771cda1103ff|x",
+   "cuando": "2026-10-18T15:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x",
+   "cuando": "2026-10-18T15:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
+   "cuando": "2026-10-18T15:20:24.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad4e3b8938409f1d0d7478c",
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
+   "cuando": "2026-10-18T15:20:25.000Z",
+   "dueAt": "2026-10-18T17:00:18.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -26676,6 +26889,7 @@
   "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": "2026-10-18T01:20:13.000Z",
+  "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": "2026-10-18T15:20:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -26833,6 +27047,7 @@
   "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": "2026-10-13T12:20:17.000Z",
   "web:28e067b4-ba01-429e-8c1a-11e30f5d6846": "2026-10-14T09:00:20.000Z",
   "web:2981a70b-4786-42f4-adb6-8b9121c1ed06": "2026-10-17T12:40:14.000Z",
+  "web:2991bf21-e852-48ba-87ce-5d073c3a7487": "2026-10-18T15:20:15.000Z",
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": "2026-10-15T10:20:13.000Z",
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": "2026-10-17T21:00:16.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
@@ -26849,6 +27064,7 @@
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:38a2facb-610c-48c3-ba78-33049770dfcf": "2026-10-17T18:20:13.000Z",
+  "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
@@ -26874,6 +27090,7 @@
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
+  "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
   "web:6092c4f7-b53e-4964-a892-2470dfeed127": "2026-10-14T10:20:15.000Z",
