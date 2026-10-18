@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 5,
-    "sent": 1
+    "scheduled": 4,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-18T11:20:13.000Z"
+   "visto": "2026-10-18T12:20:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-18T11:20:13.000Z"
+   "visto": "2026-10-18T12:20:22.000Z"
   }
  },
  "contenidos": {
@@ -6334,6 +6334,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/confirman-condena-millonaria-a-una-empresa-de-colectivos-y-su-3cb0a3",
    "volanta": ""
   },
+  "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": {
+   "categoria": "nacionales",
+   "descripcion": "SUTEBA, UDOCBA, AMET y SADOP aceptaron la propuesta de la administración provincial. El incremento se abonará en dos tramos entre octubre y noviembre de…",
+   "generado": "2026-10-18T12:06:30.060Z",
+   "id": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7b379a35c3724ea085858c0bf7075c6d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Docentes bonaerenses aceptaron un incremento salarial del 6% en dos tramos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
+   "volanta": ""
+  },
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": {
    "categoria": "",
    "descripcion": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento En el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de urgencia en una vivienda ubicada en la calle De los Inmigrantes 321, donde aprehendió a un hombre de 27 años e incautó diversos elementos de interés para la causa. El procedimiento se llevó a cabo en el marco de una investigación iniciada a partir de la...",
@@ -6441,6 +6459,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campana-triguera-juan-jose-lanzillota-analizo-el-estado-de-los",
    "volanta": "Campaña Triguera"
+  },
+  "web:b355a924-69fb-44bb-b43c-862727b7b5f2": {
+   "categoria": "",
+   "descripcion": "El establecimiento exportó 500 kilos de novillo a Francia para demostrar ajuste al régimen contra la deforestación de la Unión Europea.",
+   "generado": "2026-10-18T12:02:22.204Z",
+   "id": "web:b355a924-69fb-44bb-b43c-862727b7b5f2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_91e85195746845cb9fbdde412fcf58cb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/frigorifico-rioplatense-envio-carne-a-paris-bajo-la-exigencia-e39007",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Frigorífico Rioplatense envió carne a París bajo la exigencia antideforestación de la Unión Europea",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/frigorifico-rioplatense-envio-carne-a-paris-bajo-la-exigencia-e39007",
+   "volanta": ""
   },
   "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1": {
    "categoria": "",
@@ -7728,17 +7764,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 39610,
+   "restantes": 224,
+   "segundos": 36001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2730,
-   "segundos": 2022627,
+   "restantes": 2729,
+   "segundos": 2019018,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T11:20:13.000Z",
+ "cuota_visto": "2026-10-18T12:20:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14553,18 +14589,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok": {
-   "actualizado": "2026-10-18T11:00:18.000Z",
+   "actualizado": "2026-10-18T12:20:22.000Z",
    "buffer_id": "6ad4a6c90a208cb323601dab",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
    "creado": "2026-10-18T00:20:13.000Z",
    "dueAt": "2026-10-18T11:43:52.000Z",
+   "enviado": "2026-10-18T11:45:43.517Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T00:11:04.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697972292801858837",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -20035,6 +20072,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x": {
+   "actualizado": "2026-10-18T12:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x",
+   "creado": "2026-10-18T12:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-18T12:06:30.060Z",
+   "id": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Docentes bonaerenses aceptaron un incremento salarial del 6% en dos tramos\n\nSUTEBA, UDOCBA, AMET y SADOP aceptaron la propuesta de la administración provincial.\n\nhttps://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Docentes bonaerenses aceptaron un incremento salarial del 6% en dos tramos",
+   "urgente": false,
+   "vence": "2026-10-19T12:06:30.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x": {
    "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a99597cd166275050c",
@@ -20192,6 +20254,32 @@
    "titulo": "Juan José Lanzillota analizó el estado de los cultivos y la evolución del rendimiento",
    "urgente": false,
    "vence": "2026-10-15T10:11:40.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x": {
+   "actualizado": "2026-10-18T12:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
+   "creado": "2026-10-18T12:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T12:02:22.204Z",
+   "id": "web:b355a924-69fb-44bb-b43c-862727b7b5f2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/frigorifico-rioplatense-envio-carne-a-paris-bajo-la-exigencia-e39007",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Frigorífico Rioplatense envió carne a París bajo la exigencia antideforestación de la Unión Europea\n\nEl establecimiento exportó 500 kilos de novillo a Francia para demostrar ajuste al régimen contra la deforestación de la Unión Europea.\n\nhttps://www.diariolacampaña.com.ar/n/frigorifico-rioplatense-envio-carne-a-paris-bajo-la-exigencia-e39007",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Frigorífico Rioplatense envió carne a París bajo la exigencia antideforestación de la Unión Europea",
+   "urgente": false,
+   "vence": "2026-10-19T12:02:22.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -22061,30 +22149,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
-   "cuando": "2026-10-15T18:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|tiktok",
-   "cuando": "2026-10-15T18:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x",
-   "cuando": "2026-10-15T18:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
    "cuando": "2026-10-15T18:00:22.000Z",
@@ -26209,10 +26273,32 @@
    "cuando": "2026-10-18T11:20:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111766890397700495"
+  },
+  {
+   "clave": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x",
+   "cuando": "2026-10-18T12:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
+   "cuando": "2026-10-18T12:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
+   "cuando": "2026-10-18T12:20:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697972292801858837"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T11:20:13.000Z",
+ "ultima_sync": "2026-10-18T12:20:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -26524,12 +26610,14 @@
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": "2026-10-17T21:40:12.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
+  "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": "2026-10-16T16:00:18.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
   "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": "2026-10-14T23:40:15.000Z",
   "web:b308ba50-9b48-4b60-9072-d0b9aabd48e2": "2026-10-14T10:20:15.000Z",
+  "web:b355a924-69fb-44bb-b43c-862727b7b5f2": "2026-10-18T12:20:16.000Z",
   "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1": "2026-10-15T10:20:13.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": "2026-10-14T13:20:22.000Z",

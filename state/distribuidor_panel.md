@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,13 +8,13 @@ Actualizado: 18/10/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 1 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 8 | 1 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 8 | 3 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 4 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 1 enviadas + 5 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 2 enviadas + 4 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -25,13 +25,15 @@ Actualizado: 18/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2730 de 3000 (visto 2026-10-18T11:20:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2729 de 3000 (visto 2026-10-18T12:20:22.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (16 esperando)
+- X · Notas web · Frigorífico Rioplatense envió carne a París bajo la exigencia antideforestación  — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Soja en la región núcleo: 4,5 millones de hectáreas y siembra adelantada — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Docentes bonaerenses aceptaron un incremento salarial del 6% en dos tramos — en turno
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Crecida del Paraná en Corrientes: el río supera los 7 metros y hay más de 200 ev — cupo diario de Notas web en X completo (15)
@@ -52,9 +54,6 @@ Actualizado: 18/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T09:00 recibido web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x 
-- 2026-10-18T09:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x 
-- 2026-10-18T09:00 programado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x 
 - 2026-10-18T09:00 programado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x 
 - 2026-10-18T09:00 programado bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x 
 - 2026-10-18T09:00 programado web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x 
@@ -77,3 +76,6 @@ Actualizado: 18/10/2026 09:00 (hora AR) · ACTIVO
 - 2026-10-18T11:20 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tikto 
 - 2026-10-18T11:20 enviado bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x 
 - 2026-10-18T11:20 enviado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x 
+- 2026-10-18T12:20 recibido web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x 
+- 2026-10-18T12:20 recibido web:b355a924-69fb-44bb-b43c-862727b7b5f2|x 
+- 2026-10-18T12:20 enviado policiales:https://www.diariodemocracia.com/policiales/34669 
