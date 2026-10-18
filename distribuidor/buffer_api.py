@@ -124,6 +124,21 @@ def estado_general(desde_iso: str, hasta_iso: str) -> dict:
             "posts": posts}
 
 
+def metricas_enviados(desde_iso: str, hasta_iso: str) -> dict:
+    """{buffer_id: {tipo: valor}} de lo ENVIADO en la ventana (17/10/2026, panel de la etapa 7). Lo que
+    Buffer tenga: si el plan no trae métricas, la lista viene vacía (o la consulta falla y quien
+    llama lo anota como «no disponible»)."""
+    canales = [config.canal(p) for p in config.PLATAFORMAS]
+    q = """query($o:OrganizationId!, $c:[ChannelId!]!, $d:DateTime, $h:DateTime){
+      posts(first:100, input:{organizationId:$o, filter:{channelIds:$c, status:[sent], dueAt:{start:$d, end:$h}}}){
+        edges{ node{ id metricsUpdatedAt metrics{ type value } } }
+      }
+    }"""
+    d = gql(q, {"o": config.ORGANIZACION, "c": canales, "d": desde_iso, "h": hasta_iso})
+    return {e["node"]["id"]: {m["type"]: m["value"] for m in e["node"].get("metrics") or []}
+            for e in ((d.get("posts") or {}).get("edges") or [])}
+
+
 # ------------------------------------------------------------------------------ escrituras
 _SEL = ("{ __typename ... on PostActionSuccess{ post{ id status dueAt } } "
         "... on MutationError{ message } }")

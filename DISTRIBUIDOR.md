@@ -69,6 +69,11 @@ Todo lo configurable está en `distribuidor/config.py`.
     hours» (pasó 6 veces del 12 al 16/10, con 13 y 15 publicaciones en las 24 h previas), el canal
     queda **en pausa 24 h** (`est["pausas"]`, mail de aviso) y su tope pasa a **lo que aguantó menos
     una** durante 7 días. Con los cortes históricos quedó en 12. Se ve en el panel.
+- **Métricas (etapa 7, 17/10/2026)**: una vez por día se leen las métricas que Buffer tenga de lo
+  enviado en 3 días (1 solicitud, `buffer_api.metricas_enviados`) y se pegan a cada publicación; el
+  panel muestra la mediana por red y origen. Si el plan no las da, queda «no disponible» y no se
+  insiste hasta el día siguiente. El panel editorial completo vive en policiales-bsas
+  (`estado/panel_editorial.md`).
 - **Intercalado (17/10/2026, PDF «Prompt integral»)**: en cada canal nunca dos policiales
   seguidos; entre uno y otro, al menos `MIN_NON_POLICE_POSTS_BETWEEN_POLICE` (1) de otra temática.
   Policial = origen «policiales» o un título con un hecho policial (`distribuidor/tema.py`: el bot

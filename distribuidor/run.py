@@ -349,6 +349,56 @@ def registrar_pausa(est: dict, red: str, cuando: datetime, simular: bool = False
     return pausas[red]
 
 
+def leer_metricas(est: dict, cada_horas: int = 24) -> None:
+    """Métricas de Buffer de lo enviado en los últimos 3 días, una vez por día (1 solicitud). Panel
+    de la etapa 7 (17/10/2026). Si el plan no las da, queda dicho y no se reintenta hasta mañana."""
+    ahora = estado.ahora()
+    visto = estado.de_iso((est.get("metricas_buffer") or {}).get("visto"))
+    if visto and ahora - visto < timedelta(hours=cada_horas):
+        return
+    info = {"visto": estado.iso(ahora)}
+    try:
+        datos = buffer_api.metricas_enviados(estado.iso(ahora - timedelta(days=3)), estado.iso(ahora))
+    except Exception as e:                                       # noqa: BLE001 — nunca frena
+        info.update(disponible=False, motivo=f"Buffer no las dio: {str(e)[:160]}")
+    else:
+        por_id = {p.get("buffer_id"): p for p in est["publicaciones"].values() if p.get("buffer_id")}
+        con = 0
+        for bid, m in datos.items():
+            if m and bid in por_id:
+                por_id[bid]["metricas"] = m
+                con += 1
+        info.update(disponible=con > 0, con_metricas=con, enviados=len(datos),
+                    motivo="" if con else "Buffer devolvió los posts sin métricas (¿plan Free?)")
+    est["metricas_buffer"] = info
+
+
+def metricas_panel(est: dict) -> list:
+    """Por red y origen: cuántos enviados tienen métricas y la mediana de vistas/impresiones y likes."""
+    import statistics
+    info = est.get("metricas_buffer") or {}
+    if not info:
+        return ["- todavía no se leyeron (una vez por día)"]
+    if not info.get("disponible"):
+        return [f"- no disponibles: {info.get('motivo') or 'sin datos'} (visto {info.get('visto', '—')[:16]})"]
+    filas = []
+    for red in config.PLATAFORMAS:
+        for origen in config.ORIGENES:
+            ms = [p["metricas"] for p in est["publicaciones"].values()
+                  if p["plataforma"] == red and p["origen"] == origen and p.get("metricas")]
+            if not ms:
+                continue
+            def med(*claves):
+                v = [m.get(c) for m in ms for c in claves[:1] if isinstance(m.get(c), (int, float))]
+                if not v:
+                    v = [m.get(c) for m in ms for c in claves[1:] if isinstance(m.get(c), (int, float))]
+                return f"{statistics.median(v):g}" if v else "s/d"
+            filas.append(f"- {config.NOMBRE[red]} · {config.NOMBRE_ORIGEN[origen]}: {len(ms)} con métricas · "
+                         f"mediana vistas/impresiones {med('views', 'impressions')} · likes {med('likes', 'reactions')}"
+                         + (" ⚠️muestra chica" if len(ms) < 5 else ""))
+    return filas or ["- ninguna publicación con métricas todavía"]
+
+
 def medir_topes_historicos(est: dict) -> None:
     """Una sola vez (17/10/2026): los cortes de TikTok que ya estaban en el estado fijan su tope
     medido, sin mandar mails (ya pasaron)."""
@@ -524,6 +574,8 @@ def panel(est: dict) -> str:
             + (f" · tope medido {est['pausas'][r]['tope_medido']} por 24 h"
                if ((est.get("pausas") or {}).get(r) or {}).get("tope_medido") else "")
             for r in config.PLATAFORMAS],
+          "", "## Métricas (Buffer, lo enviado en 3 días)",
+          *metricas_panel(est),
           "", "## Cuota de la API de Buffer",
           (" · ".join(f"{v}: quedan {q[v]['restantes']} de {q[v]['tope']}" for v in ("15m", "24h", "30d") if v in q)
            or "sin datos todavía") + f" (visto {est.get('cuota_visto', '—')})", "",
@@ -547,6 +599,8 @@ def pasada(simular: bool = False) -> int:
     cuenta = encolar(est, eventos)
     migrar_textos(est, simular)
     medir_topes_historicos(est)
+    if config.activo() and not simular and cuota_alcanza(est, "consulta"):
+        leer_metricas(est)
     venc = vencer(est)
     logger.info(f"entrada: {cuenta} · vencidos: {venc}")
 

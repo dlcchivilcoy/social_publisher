@@ -547,10 +547,43 @@ def prueba_etapa6():
              any("tope de 14" in m for m in espera.values()) or len(_a) <= 1, espera)
 
 
+def prueba_metricas_buffer():
+    print("métricas de Buffer una vez por día (17/10/2026)")
+    reloj(AR_10)
+    falso = preparar(lambda: [ev("m1", "bot")])
+    llamadas = []
+    buffer_api.metricas_enviados = lambda d, h: llamadas.append(1) or {"post1": {"views": 120, "likes": 4}}
+    run.pasada()
+    falso.publicar_vencidos()
+    est = estado.cargar()
+    est.pop("metricas_buffer", None)
+    estado.guardar(est)
+    reloj(AR_10 + timedelta(hours=2))
+    run.pasada()
+    est = estado.cargar()
+    con = [p for p in est["publicaciones"].values() if p.get("metricas")]
+    chequear("las métricas de Buffer se pegan a su publicación", len(con) == 1 and con[0]["metricas"]["views"] == 120,
+             est.get("metricas_buffer"))
+    n = len(llamadas)
+    reloj(AR_10 + timedelta(hours=3))
+    run.pasada()
+    chequear("...y se piden una sola vez por día", len(llamadas) == n, len(llamadas))
+    chequear("...el panel las muestra", any("mediana vistas/impresiones 120" in l for l in run.metricas_panel(estado.cargar())))
+    def falla(d, h):
+        raise RuntimeError("field not available on this plan")
+    buffer_api.metricas_enviados = falla
+    est = estado.cargar()
+    est["metricas_buffer"]["visto"] = estado.iso(AR_10 - timedelta(days=2))
+    estado.guardar(est)
+    run.pasada()
+    chequear("si el plan no las da, queda «no disponible» y la pasada sigue",
+             estado.cargar()["metricas_buffer"].get("disponible") is False)
+
+
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)
