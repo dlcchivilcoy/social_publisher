@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 10
+    "scheduled": 1,
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-18T20:40:21.000Z"
+   "visto": "2026-10-18T21:40:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 0,
-    "sent": 23
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-18T20:40:21.000Z"
+   "visto": "2026-10-18T21:40:21.000Z"
   }
  },
  "contenidos": {
@@ -2850,6 +2850,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/s3e8gtfpWrs"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "El siniestro vial ocurrió esta tarde a la altura del kilómetro 208 en Chacabuco. Una motociclista y su acompañante fueron trasladadas en ambulancia al Hospital municipal.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T21:21:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento choque tuvo lugar esta tarde sobre el kilómetro 208 de la Ruta 7, en jurisdicción de Chacabuco.\n\nEl impacto se produjo entre un automóvil Volkswagen Gol Trend y una motocicleta marca Honda XR en la que se desplazaban dos mujeres.\n\nA raíz de la colisión, ambas ocupantes del rodado de menor porte requirieron asistencia médica y fueron trasladadas en ambulancia hacia el hospital local para su atención.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7",
+   "urgente": false,
+   "video_bytes": 74306,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4",
+   "volanta": "Choque en la Ruta 7",
+   "youtube_url": "https://youtube.com/shorts/3o0yRJd_n8k"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": {
    "categoria": "otro_policial",
@@ -5887,6 +5913,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/financiamiento-universitario-la-justicia-freno-las-multas-al-c89e96",
    "volanta": ""
   },
+  "web:6fce11f4-2889-4f5e-89f9-c45d46743b64": {
+   "categoria": "nacionales",
+   "descripcion": "El trágico episodio ocurrió en una iglesia de Guayaquil durante la transmisión en vivo de la ceremonia. La víctima fue identificada como el padre Patricio…",
+   "generado": "2026-10-18T21:35:12.752Z",
+   "id": "web:6fce11f4-2889-4f5e-89f9-c45d46743b64",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_686b1ecee2cd47dab31d3ecd4fa0163f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Murió un sacerdote en plena misa en Ecuador tras la caída de una cruz de madera",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
+   "volanta": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
    "categoria": "nacionales",
    "descripcion": "La fiscalía solicitó una pena de una década de prisión para Maximiliano Cabaleyro, referente de Camioneros, tras el bloqueo a una distribuidora familiar…",
@@ -8500,22 +8544,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 205,
-   "segundos": 3608,
+   "restantes": 203,
+   "segundos": 2401,
    "tope": 250
   },
   "30d": {
-   "restantes": 2710,
-   "segundos": 1986626,
+   "restantes": 2708,
+   "segundos": 1985418,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T21:20:16.000Z",
+ "cuota_visto": "2026-10-18T21:40:23.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10329,18 +10373,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok": {
-   "actualizado": "2026-10-18T21:20:14.000Z",
+   "actualizado": "2026-10-18T21:40:21.000Z",
    "buffer_id": "6ad5380f0a208cb32380710e",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
    "creado": "2026-10-18T21:00:16.000Z",
    "dueAt": "2026-10-18T21:23:33.000Z",
+   "enviado": "2026-10-18T21:25:27.894Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T20:40:05.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698121692236877076",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10355,18 +10400,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x": {
-   "actualizado": "2026-10-18T21:00:19.000Z",
+   "actualizado": "2026-10-18T21:40:21.000Z",
    "buffer_id": "6ad53365a48c8f8371b391da",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
    "creado": "2026-10-18T21:00:16.000Z",
    "dueAt": "2026-10-18T21:03:32.000Z",
+   "enviado": "2026-10-18T21:03:53.338Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T20:40:05.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111926261656256663",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
    "origen": "bot",
    "plataforma": "x",
@@ -14589,6 +14635,58 @@
    "vence": "2026-10-18T06:11:01.000Z",
    "video_bytes": 86640,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-18T21:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
+   "creado": "2026-10-18T21:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T21:21:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7\n\nEl siniestro vial ocurrió esta tarde a la altura del kilómetro 208 en Chacabuco. Una motociclista y su acompañante fueron trasladadas en ambulancia al Hospital municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7",
+   "urgente": false,
+   "vence": "2026-10-19T15:21:18.000Z",
+   "video_bytes": 74306,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x": {
+   "actualizado": "2026-10-18T21:40:22.000Z",
+   "buffer_id": "6ad53cc70b0d72757a3cf630",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
+   "creado": "2026-10-18T21:40:15.000Z",
+   "dueAt": "2026-10-18T21:43:48.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T21:21:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7\n\nEl siniestro vial ocurrió esta tarde a la altura del kilómetro 208 en Chacabuco. Una motociclista y su acompañante fueron trasladadas en ambulancia al Hospital municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7",
+   "urgente": false,
+   "vence": "2026-10-19T15:21:18.000Z",
+   "video_bytes": 74306,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T23:40:17.000Z",
@@ -20095,6 +20193,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x": {
+   "actualizado": "2026-10-18T21:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x",
+   "creado": "2026-10-18T21:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T21:35:12.752Z",
+   "id": "web:6fce11f4-2889-4f5e-89f9-c45d46743b64",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Murió un sacerdote en plena misa en Ecuador tras la caída de una cruz de madera\n\nEl trágico episodio ocurrió en una iglesia de Guayaquil durante la transmisión en vivo de la ceremonia. La víctima fue identificada como el padre Patricio.\n\nhttps://www.diariolacampaña.com.ar/n/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Murió un sacerdote en plena misa en Ecuador tras la caída de una cruz de madera",
+   "urgente": false,
+   "vence": "2026-10-19T21:35:12.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc0b9f7db619a2914ceb6c",
@@ -21643,14 +21767,14 @@
    "video_url": ""
   },
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x": {
-   "actualizado": "2026-10-17T21:40:12.000Z",
+   "actualizado": "2026-10-18T21:40:21.000Z",
    "buffer_id": "",
    "clave": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x",
    "creado": "2026-10-17T21:40:12.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T21:36:29.285Z",
    "id": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08",
    "intentos": 0,
@@ -23932,60 +24056,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
-   "cuando": "2026-10-16T00:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x",
-   "cuando": "2026-10-16T01:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
-   "cuando": "2026-10-16T01:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x",
-   "cuando": "2026-10-16T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
-   "cuando": "2026-10-16T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
-   "cuando": "2026-10-16T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ce42efb6-366a-4469-b255-64d747973441|x",
-   "cuando": "2026-10-16T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
    "cuando": "2026-10-16T01:20:15.000Z",
@@ -28097,10 +28167,59 @@
    "cuando": "2026-10-18T21:20:16.000Z",
    "dueAt": "2026-10-18T22:03:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
+   "cuando": "2026-10-18T21:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-18T21:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x",
+   "cuando": "2026-10-18T21:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x",
+   "cuando": "2026-10-18T21:40:21.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
+   "cuando": "2026-10-18T21:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698121692236877076"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
+   "cuando": "2026-10-18T21:40:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111926261656256663"
+  },
+  {
+   "buffer_id": "6ad53cc70b0d72757a3cf630",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
+   "cuando": "2026-10-18T21:40:23.000Z",
+   "dueAt": "2026-10-18T21:43:48.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T20:40:21.000Z",
+ "ultima_sync": "2026-10-18T21:40:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -28229,6 +28348,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis": "2026-10-16T13:00:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-tarde-de-chacabuco.html": "2026-10-12T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html": "2026-10-17T16:00:19.000Z",
@@ -28380,6 +28500,7 @@
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": "2026-10-15T18:40:15.000Z",
+  "web:6fce11f4-2889-4f5e-89f9-c45d46743b64": "2026-10-18T21:40:15.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70161ba5-8aec-496b-844f-0838565b94a8": "2026-10-16T10:20:16.000Z",
   "web:70276865-8c0d-4a78-83f8-610a2dffcc17": "2026-10-11T21:58:03.000Z",
