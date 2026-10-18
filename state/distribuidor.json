@@ -1394,6 +1394,84 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00223.mp4",
    "youtube_url": "https://youtu.be/-zx6kPNf-4I"
   },
+  "nacionales:502713ec1f96e399": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "SUTEBA, UDOCBA, AMET y SADOP aceptaron la propuesta de la administración provincial. El incremento se abonará en dos tramos entre octubre y noviembre de 2026, mientras la FEB evaluará la medida en los próximos días.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T12:06:34.000Z",
+   "hashtags": [
+    "DocentesBonaerenses",
+    "Paritaria"
+   ],
+   "id": "nacionales:502713ec1f96e399",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral",
+   "urgente": false,
+   "video_bytes": 89625,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_502713ec1f_docentes-bonaerenses-aceptaron-un-aumento.mp4",
+   "volanta": "Salarios docentes",
+   "youtube_url": "https://youtube.com/shorts/vYZl46y9LeY"
+  },
+  "nacionales:58461ddc8e0149c5": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "Diferentes referentes del espacio justicialista conmemoraron el 17 de Octubre con llamados a la cohesión partidaria, críticas al escenario actual y declaraciones públicas.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T13:06:37.000Z",
+   "hashtags": [
+    "DiaDeLaLealtad",
+    "Politica"
+   ],
+   "id": "nacionales:58461ddc8e0149c5",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balcón",
+   "urgente": false,
+   "video_bytes": 101911,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_58461ddc8e_mensajes-de-unidad-en-el-peronismo-y-reaparicion.mp4",
+   "volanta": "Día de la Lealtad",
+   "youtube_url": "https://youtube.com/shorts/h8FnB2dnURo"
+  },
+  "nacionales:6e5b52bbe69fd410": {
+   "categoria": "Espectáculos",
+   "categoria_nacional": "espectaculos",
+   "descripcion": "La conductora llevó tranquilidad sobre la recuperación de su abuela en su casa. El productor Carlos Rottemberg confirmó que superó una neumonía bacteriana.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T12:36:30.000Z",
+   "hashtags": [
+    "MirthaLegrand",
+    "JuanaViale"
+   ],
+   "id": "nacionales:6e5b52bbe69fd410",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años",
+   "urgente": false,
+   "video_bytes": 85205,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4",
+   "volanta": "Salud de Mirtha Legrand",
+   "youtube_url": "https://youtube.com/shorts/zX5GSK4ZnSY"
+  },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
@@ -7504,6 +7582,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/derogacion-del-convenio-fueron-retirados-los-radares-de-las-rutas-5-y",
    "volanta": "Derogación del convenio"
   },
+  "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": {
+   "categoria": "nacionales",
+   "descripcion": "Diferentes referentes del espacio justicialista conmemoraron el 17 de Octubre con llamados a la cohesión partidaria, críticas al escenario actual y…",
+   "generado": "2026-10-18T13:06:32.271Z",
+   "id": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e5d4f6640cb3454e8d427b05ae68137a~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Día de la Lealtad: mensajes de unidad en el peronismo y Cristina Kirchner en su balcón",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
+   "volanta": ""
+  },
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": {
    "categoria": "",
    "descripcion": "Piden colaboración para recuperar una moto robada en calle 94 Brandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA. Como características distintivas, tiene un logo de River debajo del tablero y una calcomanía amarilla de Cariboni Motos en el guardabarros trasero. El propietario expresó su angustia por la pérdida y solicitó colaboración para encontrarla....",
@@ -7782,17 +7878,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 224,
-   "segundos": 36001,
+   "restantes": 223,
+   "segundos": 32403,
    "tope": 250
   },
   "30d": {
-   "restantes": 2729,
-   "segundos": 2019018,
+   "restantes": 2728,
+   "segundos": 2015421,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T12:20:22.000Z",
+ "cuota_visto": "2026-10-18T13:20:20.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10977,6 +11073,84 @@
    "vence": "2026-10-18T19:20:14.000Z",
    "video_bytes": 30297181,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00223.mp4"
+  },
+  "nacionales:502713ec1f96e399|tiktok": {
+   "actualizado": "2026-10-18T13:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:502713ec1f96e399|tiktok",
+   "creado": "2026-10-18T13:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T12:06:34.000Z",
+   "id": "nacionales:502713ec1f96e399",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral\n\nSUTEBA, UDOCBA, AMET y SADOP aceptaron la propuesta de la administración provincial. El incremento se abonará en dos tramos entre octubre y noviembre de 2026, mientras la FEB evaluará la medida en los próximos días.\n\nhttps://www.diariolacampaña.com.ar/n/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #DocentesBonaerenses",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral",
+   "urgente": false,
+   "vence": "2026-10-19T06:06:34.000Z",
+   "video_bytes": 89625,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_502713ec1f_docentes-bonaerenses-aceptaron-un-aumento.mp4"
+  },
+  "nacionales:58461ddc8e0149c5|tiktok": {
+   "actualizado": "2026-10-18T13:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:58461ddc8e0149c5|tiktok",
+   "creado": "2026-10-18T13:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T13:06:37.000Z",
+   "id": "nacionales:58461ddc8e0149c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balcón\n\nDiferentes referentes del espacio justicialista conmemoraron el 17 de Octubre con llamados a la cohesión partidaria, críticas al escenario actual y declaraciones públicas.\n\nhttps://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #DiaDeLaLealtad",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balcón",
+   "urgente": false,
+   "vence": "2026-10-19T07:06:37.000Z",
+   "video_bytes": 101911,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_58461ddc8e_mensajes-de-unidad-en-el-peronismo-y-reaparicion.mp4"
+  },
+  "nacionales:6e5b52bbe69fd410|tiktok": {
+   "actualizado": "2026-10-18T13:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:6e5b52bbe69fd410|tiktok",
+   "creado": "2026-10-18T13:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T12:36:30.000Z",
+   "id": "nacionales:6e5b52bbe69fd410",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años\n\nLa conductora llevó tranquilidad sobre la recuperación de su abuela en su casa. El productor Carlos Rottemberg confirmó que superó una neumonía bacteriana.\n\nhttps://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52\n\n#chivilcoy #diariolacampaña #radiodelcentro #espectáculos #MirthaLegrand",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años",
+   "urgente": false,
+   "vence": "2026-10-19T06:36:30.000Z",
+   "video_bytes": 85205,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
@@ -16989,14 +17163,14 @@
    "video_url": ""
   },
   "web:2501c79e-6248-40fd-9e51-af526da9d612|x": {
-   "actualizado": "2026-10-18T11:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T13:20:19.000Z",
+   "buffer_id": "6ad4c794938409f1d0d05f1f",
    "clave": "web:2501c79e-6248-40fd-9e51-af526da9d612|x",
    "creado": "2026-10-18T11:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T15:15:09.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T11:02:42.808Z",
    "id": "web:2501c79e-6248-40fd-9e51-af526da9d612",
    "intentos": 0,
@@ -20301,14 +20475,14 @@
    "video_url": ""
   },
   "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x": {
-   "actualizado": "2026-10-18T12:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T13:20:19.000Z",
+   "buffer_id": "6ad4c794938409f1d0d05edf",
    "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
    "creado": "2026-10-18T12:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T15:00:30.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T12:02:22.204Z",
    "id": "web:b355a924-69fb-44bb-b43c-862727b7b5f2",
    "intentos": 0,
@@ -21805,6 +21979,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x": {
+   "actualizado": "2026-10-18T13:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
+   "creado": "2026-10-18T13:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T13:06:32.271Z",
+   "id": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Día de la Lealtad: mensajes de unidad en el peronismo y Cristina Kirchner en su balcón\n\nReferentes del espacio justicialista conmemoraron el 17 de Octubre con llamados a la cohesión partidaria y críticas al escenario actual.\n\nhttps://www.diariolacampaña.com.ar/n/dia-de-la-lealtad-mensajes-de-unidad-en-el-peronismo-y-cristina-58461d",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Día de la Lealtad: mensajes de unidad en el peronismo y Cristina Kirchner en su balcón",
+   "urgente": false,
+   "vence": "2026-10-19T13:06:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8|x": {
    "actualizado": "2026-10-16T19:40:16.000Z",
    "buffer_id": "6ad2329e1ffe47098034f627",
@@ -22192,46 +22392,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok",
-   "cuando": "2026-10-15T18:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696946525720743188"
-  },
-  {
-   "clave": "entrevistas:job00212",
-   "cuando": "2026-10-15T18:20:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x",
-   "cuando": "2026-10-15T18:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00212|x",
-   "cuando": "2026-10-15T18:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "web:efbef857-ab9c-4566-904e-f8f5926bed12|x",
-   "cuando": "2026-10-15T18:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad119634313e4161eacd058",
-   "clave": "entrevistas:job00212|x",
-   "cuando": "2026-10-15T18:20:19.000Z",
-   "dueAt": "2026-10-15T20:15:55.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00216",
    "cuando": "2026-10-15T18:40:16.000Z",
@@ -26338,6 +26498,52 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "nacionales:502713ec1f96e399|tiktok",
+   "cuando": "2026-10-18T13:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:6e5b52bbe69fd410|tiktok",
+   "cuando": "2026-10-18T13:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:58461ddc8e0149c5|tiktok",
+   "cuando": "2026-10-18T13:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
+   "cuando": "2026-10-18T13:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad4c794938409f1d0d05edf",
+   "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
+   "cuando": "2026-10-18T13:20:20.000Z",
+   "dueAt": "2026-10-18T15:00:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4c794938409f1d0d05f1f",
+   "clave": "web:2501c79e-6248-40fd-9e51-af526da9d612|x",
+   "cuando": "2026-10-18T13:20:20.000Z",
+   "dueAt": "2026-10-18T15:15:09.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -26410,6 +26616,9 @@
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
   "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
+  "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
+  "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
+  "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
@@ -26718,6 +26927,7 @@
   "web:e80eb9f8-449c-4d4b-a410-387331e0d747": "2026-10-16T13:20:18.000Z",
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
+  "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": "2026-10-16T14:00:21.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
