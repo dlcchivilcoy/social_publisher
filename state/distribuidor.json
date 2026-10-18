@@ -2897,6 +2897,32 @@
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/o5KCf0DnHdU"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec": {
+   "categoria": "robo",
+   "descripcion": "Un operativo policial en Junín terminó con la aprehensión de un sospechoso de 24 años este 16 de octubre. Secuestraron ropa vinculada al ilícito ocurrido en un comercio.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T00:11:04.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de 24 años fue aprehendido este 16 de octubre tras un allanamiento en Junín acusado de robar un maxikiosco.\n\nEl hecho ocurrió en un comercio situado sobre la avenida República al 700, donde sustrajeron mercadería y 150.000 pesos en efectivo el pasado 13 de octubre.\n\nLos investigadores utilizaron las cámaras del local y del municipio para identificar al sospechoso, a quien le incautaron ropa clave para la causa.\n\nLa investigación quedó bajo la órbita de la UFIyJ N.º 8 y la DDI Junín, imputado por el delito de robo.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República",
+   "urgente": false,
+   "video_bytes": 80572,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4",
+   "volanta": "Robo en Junín",
+   "youtube_url": "https://youtube.com/shorts/RtdtVixVqkQ"
+  },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": {
    "categoria": "accidente_vial",
    "descripcion": "Un Volkswagen Gol volcó en el kilómetro 271, entre la cabecera distrital y French. El conductor tiene 31 años y viajaba junto a cuatro jóvenes. Todos salieron ilesos.",
@@ -5465,6 +5491,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/expulsaron-a-un-ciudadano-brasileno-que-habia-cuestionado-a-470f1f",
    "volanta": ""
   },
+  "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": {
+   "categoria": "",
+   "descripcion": "Investigadores lograron aislar una cepa bacteriana para crear un biofertilizante destinado al cultivo de maíz que fija nitrógeno de forma biológica.",
+   "generado": "2026-10-18T00:02:04.510Z",
+   "id": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5b5e1b0936d3405e83f47df231f7b236~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
+   "volanta": ""
+  },
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": {
    "categoria": "",
    "descripcion": "Chivilcoy será sede del 2° Encuentro Regional de Coros Infantiles El evento se llevara a cabo este sábado a partir de las 17 en el Museo ‘Pompeo Boggio’, con la participación de agrupaciones locales y de la región. La música coral vuelve a convocar a los más chicos en una jornada que promete estar llena de emoción, talento y canto compartido. Este sábado 17 de octubre, las instalaciones del Museo Pompeo Boggio serán el escenario del 2° Encuentro Regional de Coros Infantiles, una propuesta...",
@@ -7466,22 +7510,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 81601,
+   "restantes": 246,
+   "segundos": 79210,
    "tope": 250
   },
   "30d": {
-   "restantes": 2752,
-   "segundos": 2064618,
+   "restantes": 2751,
+   "segundos": 2062227,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-17T23:40:23.000Z",
+ "cuota_visto": "2026-10-18T00:20:14.000Z",
  "pausas": {
   "tiktok": {
    "hasta": "2026-10-17T13:23:02.000Z",
@@ -13495,6 +13539,58 @@
    "video_bytes": 81312,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok": {
+   "actualizado": "2026-10-18T00:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
+   "creado": "2026-10-18T00:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
+   "estado": "pendiente",
+   "generado": "2026-10-18T00:11:04.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República\n\nUn operativo policial en Junín terminó con la aprehensión de un sospechoso de 24 años este 16 de octubre. Secuestraron ropa vinculada al ilícito ocurrido en un comercio.\n\nhttps://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República",
+   "urgente": false,
+   "vence": "2026-10-18T18:11:04.000Z",
+   "video_bytes": 80572,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|x": {
+   "actualizado": "2026-10-18T00:20:13.000Z",
+   "buffer_id": "6ad410bee272c4918fa8e02e",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|x",
+   "creado": "2026-10-18T00:20:13.000Z",
+   "dueAt": "2026-10-18T00:23:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T00:11:04.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República\n\nUn operativo policial en Junín terminó con la aprehensión de un sospechoso de 24 años este 16 de octubre. Secuestraron ropa vinculada al ilícito ocurrido en un comercio.\n\nhttps://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República",
+   "urgente": false,
+   "vence": "2026-10-18T18:11:04.000Z",
+   "video_bytes": 80572,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4"
+  },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
    "buffer_id": "6acc2c717db619a29151f186",
@@ -17630,6 +17726,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x": {
+   "actualizado": "2026-10-18T00:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x",
+   "creado": "2026-10-18T00:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T00:02:04.510Z",
+   "id": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar\n\nInvestigadores lograron aislar una cepa bacteriana para crear un biofertilizante destinado al cultivo de maíz que fija nitrógeno de forma biológica.\n\nhttps://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar",
+   "urgente": false,
+   "vence": "2026-10-19T00:02:04.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929|x": {
    "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "6ad0b6f1b0cc171adf18974e",
@@ -20443,31 +20565,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad0e122b7bdcc4fb8830fec",
-   "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
-   "cuando": "2026-10-15T14:20:18.000Z",
-   "dueAt": "2026-10-15T19:00:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|tiktok",
-   "cuando": "2026-10-15T14:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696889956119088385"
-  },
-  {
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|x",
-   "cuando": "2026-10-15T14:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110734217625604448"
-  },
-  {
-   "clave": "web:62679199-0cb1-44ba-8928-add87ea1fa3f|x",
-   "cuando": "2026-10-15T14:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110728716011618402"
-  },
   {
    "clave": "web:8573e42b-75a0-4616-bdb3-930c6007225a|x",
    "cuando": "2026-10-15T14:40:15.000Z",
@@ -24572,6 +24669,37 @@
    "hasta": "2026-10-17T13:23:02.000Z",
    "red": "tiktok",
    "tope": 12
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|x",
+   "cuando": "2026-10-18T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
+   "cuando": "2026-10-18T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x",
+   "cuando": "2026-10-18T00:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad410bee272c4918fa8e02e",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|x",
+   "cuando": "2026-10-18T00:20:14.000Z",
+   "dueAt": "2026-10-18T00:23:08.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -24706,6 +24834,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/346495-chacabuco-detuvieron-a-un-hombre-que-estaba-profug": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli": "2026-10-15T19:20:15.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de": "2026-10-16T00:00:21.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec": "2026-10-18T00:20:13.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -24840,6 +24969,7 @@
   "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7": "2026-10-14T13:20:22.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
+  "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": "2026-10-18T00:20:13.000Z",
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",

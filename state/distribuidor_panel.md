@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,9 +7,9 @@ Actualizado: 17/10/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 5 | 0 | 2 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 8 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 7 | 0 | 1 | 0 | 1 | 0 |
-| Notas web | X | 15 | 15 | 0 | 11 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 8 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 7 | 0 | 2 | 0 | 1 | 0 |
+| Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -17,14 +17,16 @@ Actualizado: 17/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2752 de 3000 (visto 2026-10-17T23:40:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2751 de 3000 (visto 2026-10-18T00:20:14.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (17 esperando)
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar — cupo diario de Notas web en X completo (15)
 - X · Notas web · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño en Argentina: advierten por lluvias intensas y picos de agua entre dicie — cupo diario de Notas web en X completo (15)
 - X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — cupo diario de Notas web en X completo (15)
+- TikTok · Reels policiales · Cayó un joven de 24 años por el robo a un maxikiosco en avenida República — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
 - X · Notas web · Crecida del Paraná en Corrientes: el río supera los 7 metros y hay más de 200 ev — cupo diario de Notas web en X completo (15)
 - X · Notas web · El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
@@ -45,10 +47,6 @@ Actualizado: 17/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T21:20 enviado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok 
-- 2026-10-17T21:40 recibido web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x 
-- 2026-10-17T21:40 vencido policiales:https://www.presentenoticias.com/noticias/2026/10 intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
-- 2026-10-17T21:40 vencido web:559ac15c-0c52-40db-b3a1-6118e02867ed|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T22:20 recibido web:eff024d5-cc52-4c26-9548-edd418eb2cec|x 
 - 2026-10-17T22:20 vencido web:14436815-e65b-4622-81a4-d215bbfc9d5f|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T22:20 enviado policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
@@ -70,3 +68,7 @@ Actualizado: 17/10/2026 21:00 (hora AR) · ACTIVO
 - 2026-10-18T00:00 pausa_red  
 - 2026-10-18T00:00 pausa_red  
 - 2026-10-18T00:00 pausa_red  
+- 2026-10-18T00:20 recibido policiales:https://www.diariodemocracia.com/policiales/34669 
+- 2026-10-18T00:20 recibido policiales:https://www.diariodemocracia.com/policiales/34669 
+- 2026-10-18T00:20 recibido web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x 
+- 2026-10-18T00:20 programado policiales:https://www.diariodemocracia.com/policiales/34669 
