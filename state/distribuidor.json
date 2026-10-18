@@ -6909,6 +6909,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
    "volanta": "Chivilcoy · Gremiales"
   },
+  "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": {
+   "categoria": "nacionales",
+   "descripcion": "El conjunto dirigido de manera interina por Leonardo Ponzio se medirá este domingo ante el Pirata en el estadio Mario Alberto Kempes, con la urgencia de…",
+   "generado": "2026-10-18T16:37:32.896Z",
+   "id": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3439c9aa2f9d49b8abf83329ad4cedef~mv2.webp",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
+   "volanta": ""
+  },
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": {
    "categoria": "",
    "descripcion": "La Secretaría de Agricultura aprobó la comercialización de un desarrollo de Syngenta con resistencia a múltiples principios activos.",
@@ -21177,6 +21195,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x": {
+   "actualizado": "2026-10-18T16:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
+   "creado": "2026-10-18T16:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T16:37:32.896Z",
+   "id": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario\n\nhttps://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario",
+   "urgente": false,
+   "vence": "2026-10-19T16:37:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x": {
    "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "",
@@ -22783,13 +22827,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad135823ccfcf93aab78707",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok",
-   "cuando": "2026-10-15T20:20:18.000Z",
-   "dueAt": "2026-10-15T20:23:58.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok",
    "cuando": "2026-10-15T20:40:16.000Z",
@@ -26929,6 +26966,14 @@
    "cuando": "2026-10-18T16:20:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111842268537582064"
+  },
+  {
+   "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
+   "cuando": "2026-10-18T16:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -27274,6 +27319,7 @@
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": "2026-10-13T15:20:18.000Z",
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c": "2026-10-16T01:00:17.000Z",
+  "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": "2026-10-18T16:40:14.000Z",
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": "2026-10-15T10:20:13.000Z",
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",

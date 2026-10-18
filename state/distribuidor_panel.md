@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 4 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 5 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 6 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 214 de 250 · 30d: quedan 2719 de 3000 (visto 2026-10-18T16:20:15.000Z)
 
-## Cola propia (18 esperando)
+## Cola propia (19 esperando)
 - TikTok · Reels del bot · El Padre Ricardo brindó una bendición especial a las madres — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
@@ -35,6 +35,7 @@ Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Detuvieron al papá de la abogada acusada de racismo en Brasil — intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario — cupo diario de Notas web en X completo (15)
 - X · Notas web · Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El papa León XIV reapareció en público tras una cirugía de pulmón y descartan im — cupo diario de Notas web en X completo (15)
@@ -56,7 +57,6 @@ Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T15:00 enviado bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tikto 
 - 2026-10-18T15:00 enviado bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok 
 - 2026-10-18T15:00 enviado web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x 
 - 2026-10-18T15:00 enviado web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x 
@@ -81,3 +81,4 @@ Actualizado: 18/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-18T16:20 enviado web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x 
 - 2026-10-18T16:20 enviado web:b355a924-69fb-44bb-b43c-862727b7b5f2|x 
 - 2026-10-18T16:20 enviado web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 
+- 2026-10-18T16:40 recibido web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x 
