@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 15:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 5 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 10 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 8 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 18/10/2026 15:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 209 de 250 · 30d: quedan 2714 de 3000 (visto 2026-10-18T18:20:27.000Z)
 
-## Cola propia (24 esperando)
+## Cola propia (25 esperando)
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
@@ -37,6 +37,7 @@ Actualizado: 18/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · crece el optimismo por la posible visita del papa León XIV a la Argentina — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El papa León XIV reapareció tras ser operado de un cáncer de pulmón — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Delegación argentina en Londres en medio de la tensión por Malvinas — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Netflix: las cinco películas recomendadas para ver este fin de semana con duraci — cupo diario de Notas web en X completo (15)
 - X · Notas web · El dilema de Milei: blindaje político de gobernadores y la espera de la reactiva — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
@@ -62,7 +63,6 @@ Actualizado: 18/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T16:40 recibido web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x 
 - 2026-10-18T17:20 recibido nacionales:b6108526eb42ff8a|tiktok 
 - 2026-10-18T17:20 recibido nacionales:fbd1321e4156d9c7|tiktok 
 - 2026-10-18T17:20 recibido nacionales:b010138b1fbfe036|tiktok 
@@ -87,3 +87,4 @@ Actualizado: 18/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-18T18:20 programado policiales:https://www.diariodemocracia.com/policiales/34670 
 - 2026-10-18T18:20 programado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
 - 2026-10-18T18:20 programado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
+- 2026-10-18T18:40 recibido web:c6663899-669a-41de-b04f-299805304e87|x 

@@ -7230,6 +7230,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguridad-en-el-trabajo-erardo-spinelli-analizo-la-prevencion-de-los",
    "volanta": "Seguridad en el Trabajo"
   },
+  "web:c6663899-669a-41de-b04f-299805304e87": {
+   "categoria": "nacionales",
+   "descripcion": "La plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan…",
+   "generado": "2026-10-18T18:37:26.849Z",
+   "id": "web:c6663899-669a-41de-b04f-299805304e87",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a53061983ba24c77a69669f5149c360b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Netflix: las cinco películas recomendadas para ver este fin de semana con duración detallada",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
+   "volanta": ""
+  },
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284": {
    "categoria": "",
    "descripcion": "Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra En el marco del espacio radial de difusión del INTA en Radio del Centro, Antonio Martín brindó un detallado informe sobre el escenario agroclimático en Chivilcoy y la zona de influencia. El especialista analizó el comportamiento de las precipitaciones en lo que va del mes, el estado de las napas freáticas, el balance de la última cosecha y la marcha de la siembra correspondiente al ciclo productivo en marcha, todo...",
@@ -21865,6 +21883,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c6663899-669a-41de-b04f-299805304e87|x": {
+   "actualizado": "2026-10-18T18:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
+   "creado": "2026-10-18T18:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T18:37:26.849Z",
+   "id": "web:c6663899-669a-41de-b04f-299805304e87",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Netflix: las cinco películas recomendadas para ver este fin de semana con duración detallada\n\nLa plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación.\n\nhttps://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Netflix: las cinco películas recomendadas para ver este fin de semana con duración detallada",
+   "urgente": false,
+   "vence": "2026-10-19T18:37:26.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x": {
    "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad22493b948bf9e9d97c5ef",
@@ -23375,13 +23419,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad16461fb64fffcf1a5e767",
-   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
-   "cuando": "2026-10-15T23:40:17.000Z",
-   "dueAt": "2026-10-15T23:43:28.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad16461a82f34dbe1387b9d",
    "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
@@ -27541,6 +27578,14 @@
    "cuando": "2026-10-18T18:20:27.000Z",
    "dueAt": "2026-10-18T19:43:38.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
+   "cuando": "2026-10-18T18:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -27901,6 +27946,7 @@
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",
   "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": "2026-10-15T21:40:16.000Z",
   "web:c6470534-4523-4411-a14d-e8390249bc0c": "2026-10-14T10:20:15.000Z",
+  "web:c6663899-669a-41de-b04f-299805304e87": "2026-10-18T18:40:13.000Z",
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284": "2026-10-16T10:20:16.000Z",
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
