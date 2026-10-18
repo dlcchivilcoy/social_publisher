@@ -15,7 +15,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-18T16:20:14.000Z"
+   "visto": "2026-10-18T17:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 3,
-    "sent": 18
+    "scheduled": 0,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-18T16:20:14.000Z"
+   "visto": "2026-10-18T17:20:15.000Z"
   }
  },
  "contenidos": {
@@ -1415,6 +1415,32 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00223.mp4",
    "youtube_url": "https://youtu.be/-zx6kPNf-4I"
   },
+  "nacionales:2be0a52708a62532": {
+   "categoria": "Deportes",
+   "categoria_nacional": "deportes",
+   "descripcion": "El conjunto dirigido de manera interina por Leonardo Ponzio se medirá este domingo ante el Pirata en el estadio Mario Alberto Kempes, con la urgencia de sumar de a tres.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T16:38:37.000Z",
+   "hashtags": [
+    "RiverPlate",
+    "Belgrano"
+   ],
+   "id": "nacionales:2be0a52708a62532",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "River visita a Belgrano con dudas en el equipo y la obligación de ganar",
+   "urgente": false,
+   "video_bytes": 96022,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2be0a52708_river-visita-a-belgrano-con-dudas-en-el-equipo-y.mp4",
+   "volanta": "Torneo Clausura",
+   "youtube_url": "https://youtube.com/shorts/iXTNO5lYvj0"
+  },
   "nacionales:502713ec1f96e399": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -1492,6 +1518,110 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4",
    "volanta": "Salud de Mirtha Legrand",
    "youtube_url": "https://youtube.com/shorts/zX5GSK4ZnSY"
+  },
+  "nacionales:b010138b1fbfe036": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T16:07:35.000Z",
+   "hashtags": [
+    "PapaLeonXIV",
+    "Vaticano"
+   ],
+   "id": "nacionales:b010138b1fbfe036",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "crece el optimismo por la posible visita del papa León XIV a la Argentina",
+   "urgente": false,
+   "video_bytes": 97171,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4",
+   "volanta": "Visita papal",
+   "youtube_url": "https://youtube.com/shorts/AX4EKiBZ2FI"
+  },
+  "nacionales:b541d9169f033092": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "El organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento según la fecha y la modalidad elegida.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T17:07:38.000Z",
+   "hashtags": [
+    "ARBA",
+    "Impuestos"
+   ],
+   "id": "nacionales:b541d9169f033092",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos",
+   "urgente": false,
+   "video_bytes": 98299,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b541d9169f_nueva-moratoria-bonaerense-descuentos-y-plazos.mp4",
+   "volanta": "ARBA",
+   "youtube_url": "https://youtube.com/shorts/wcCXtaLJEjQ"
+  },
+  "nacionales:b6108526eb42ff8a": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El secretario de Minería, Luis Lucero, encabeza una comitiva en el Reino Unido para foros de inversión. El viaje se da tras la demanda argentina en Hamburgo contra la extracción petrolera británica.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T15:07:37.000Z",
+   "hashtags": [
+    "Malvinas",
+    "Mineria"
+   ],
+   "id": "nacionales:b6108526eb42ff8a",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Delegación argentina en Londres en medio de la tensión por Malvinas",
+   "urgente": false,
+   "video_bytes": 93793,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b6108526eb_delegacion-argentina-en-londres-en-medio-de-la.mp4",
+   "volanta": "Malvinas y minería",
+   "youtube_url": "https://youtube.com/shorts/nYYR5alASJ4"
+  },
+  "nacionales:fbd1321e4156d9c7": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "El Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos clínicos para concretar su gira por Sudamérica en noviembre.",
+   "duracion_seg": 20.1,
+   "generado": "2026-10-18T15:38:17.000Z",
+   "hashtags": [
+    "PapaLeonXIV",
+    "Vaticano"
+   ],
+   "id": "nacionales:fbd1321e4156d9c7",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "El papa León XIV reapareció tras ser operado de un cáncer de pulmón",
+   "urgente": false,
+   "video_bytes": 1328728,
+   "video_mb": 1.3,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fbd1321e41_el-papa-leon-xiv-reaparecio-tras-ser-operado-de.mp4",
+   "volanta": "Vaticano",
+   "youtube_url": "https://youtube.com/shorts/21HFj1mTKmE"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
    "categoria": "accidente_vial",
@@ -6963,6 +7093,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vuelta-a-las-raices-kuki-errante-presenta-violin-folclorico-en-el",
    "volanta": "Vuelta a las raíces"
   },
+  "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": {
+   "categoria": "nacionales",
+   "descripcion": "El organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento según la fecha y la…",
+   "generado": "2026-10-18T17:07:33.493Z",
+   "id": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3a7806cfc2e743e6921e8a8dde48c802~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuentos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
+   "volanta": ""
+  },
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": {
    "categoria": "nacionales",
    "descripcion": "La oposición no logró el quórum y se cayó la sesión para tratar la derogación del DNU 70 La oposición en la que iba a tratarse la derogación del DNU 70/23 fracasó luego de que la oposición no lograra el quórum necesario para abrir el debate: debía obtener 129 votos cómo mínimo, pero solo consiguió 121. De ese modo, el Ejecutivo logró preservar una herramienta clave de gestión, sobre la que asienta medidas como la derogación de la ley de alquileres, la quita de topes a las cuotas de las...",
@@ -8028,22 +8176,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 214,
-   "segundos": 21609,
+   "restantes": 212,
+   "segundos": 18008,
    "tope": 250
   },
   "30d": {
-   "restantes": 2719,
-   "segundos": 2004626,
+   "restantes": 2717,
+   "segundos": 2001025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T16:20:15.000Z",
+ "cuota_visto": "2026-10-18T17:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10588,14 +10736,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
   },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T15:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T17:20:15.000Z",
+   "buffer_id": "6ad4ffd0a48c8f8371a942dd",
    "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
    "creado": "2026-10-18T15:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T17:23:04.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T15:04:59.000Z",
    "id": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4",
    "intentos": 0,
@@ -10614,18 +10762,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4"
   },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x": {
-   "actualizado": "2026-10-18T15:20:24.000Z",
+   "actualizado": "2026-10-18T17:20:15.000Z",
    "buffer_id": "6ad4e3b8938409f1d0d7478c",
    "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
    "creado": "2026-10-18T15:20:15.000Z",
    "dueAt": "2026-10-18T17:00:18.000Z",
+   "enviado": "2026-10-18T17:03:01.922Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T15:04:59.000Z",
    "id": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111865647814545518",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
    "origen": "bot",
    "plataforma": "x",
@@ -11284,6 +11433,32 @@
    "video_bytes": 30297181,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00223.mp4"
   },
+  "nacionales:2be0a52708a62532|tiktok": {
+   "actualizado": "2026-10-18T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:2be0a52708a62532|tiktok",
+   "creado": "2026-10-18T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T16:38:37.000Z",
+   "id": "nacionales:2be0a52708a62532",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "River visita a Belgrano con dudas en el equipo y la obligación de ganar\n\nEl conjunto dirigido de manera interina por Leonardo Ponzio se medirá este domingo ante el Pirata en el estadio Mario Alberto Kempes, con la urgencia de sumar de a tres.\n\nhttps://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #RiverPlate",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "River visita a Belgrano con dudas en el equipo y la obligación de ganar",
+   "urgente": false,
+   "vence": "2026-10-19T10:38:37.000Z",
+   "video_bytes": 96022,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2be0a52708_river-visita-a-belgrano-con-dudas-en-el-equipo-y.mp4"
+  },
   "nacionales:502713ec1f96e399|tiktok": {
    "actualizado": "2026-10-18T13:20:13.000Z",
    "buffer_id": "",
@@ -11361,6 +11536,110 @@
    "vence": "2026-10-19T06:36:30.000Z",
    "video_bytes": 85205,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
+  },
+  "nacionales:b010138b1fbfe036|tiktok": {
+   "actualizado": "2026-10-18T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b010138b1fbfe036|tiktok",
+   "creado": "2026-10-18T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T16:07:35.000Z",
+   "id": "nacionales:b010138b1fbfe036",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "crece el optimismo por la posible visita del papa León XIV a la Argentina\n\nEl aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #PapaLeonXIV",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "crece el optimismo por la posible visita del papa León XIV a la Argentina",
+   "urgente": false,
+   "vence": "2026-10-19T10:07:35.000Z",
+   "video_bytes": 97171,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4"
+  },
+  "nacionales:b541d9169f033092|tiktok": {
+   "actualizado": "2026-10-18T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b541d9169f033092|tiktok",
+   "creado": "2026-10-18T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T17:07:38.000Z",
+   "id": "nacionales:b541d9169f033092",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos\n\nEl organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento según la fecha y la modalidad elegida.\n\nhttps://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #ARBA",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos",
+   "urgente": false,
+   "vence": "2026-10-19T11:07:38.000Z",
+   "video_bytes": 98299,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b541d9169f_nueva-moratoria-bonaerense-descuentos-y-plazos.mp4"
+  },
+  "nacionales:b6108526eb42ff8a|tiktok": {
+   "actualizado": "2026-10-18T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b6108526eb42ff8a|tiktok",
+   "creado": "2026-10-18T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:07:37.000Z",
+   "id": "nacionales:b6108526eb42ff8a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Delegación argentina en Londres en medio de la tensión por Malvinas\n\nEl secretario de Minería, Luis Lucero, encabeza una comitiva en el Reino Unido para foros de inversión. El viaje se da tras la demanda argentina en Hamburgo contra la extracción petrolera británica.\n\nhttps://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Delegación argentina en Londres en medio de la tensión por Malvinas",
+   "urgente": false,
+   "vence": "2026-10-19T09:07:37.000Z",
+   "video_bytes": 93793,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b6108526eb_delegacion-argentina-en-londres-en-medio-de-la.mp4"
+  },
+  "nacionales:fbd1321e4156d9c7|tiktok": {
+   "actualizado": "2026-10-18T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:fbd1321e4156d9c7|tiktok",
+   "creado": "2026-10-18T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T15:38:17.000Z",
+   "id": "nacionales:fbd1321e4156d9c7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "El papa León XIV reapareció tras ser operado de un cáncer de pulmón\n\nEl Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos clínicos para concretar su gira por Sudamérica en noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #PapaLeonXIV",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El papa León XIV reapareció tras ser operado de un cáncer de pulmón",
+   "urgente": false,
+   "vence": "2026-10-19T09:38:17.000Z",
+   "video_bytes": 1328728,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fbd1321e41_el-papa-leon-xiv-reaparecio-tras-ser-operado-de.mp4"
   },
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
@@ -16192,7 +16471,7 @@
    "creado": "2026-10-18T15:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-18T14:49:59.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
@@ -16212,18 +16491,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1208_03_9-de-julio_detuvieron-al-pap-de-la-abogad.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
+   "actualizado": "2026-10-18T17:20:15.000Z",
    "buffer_id": "6ad4df070b0d72757a288eec",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
    "creado": "2026-10-18T15:00:21.000Z",
    "dueAt": "2026-10-18T16:45:15.000Z",
+   "enviado": "2026-10-18T16:45:18.293Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T14:49:59.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111861186811609548",
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
    "origen": "policiales",
    "plataforma": "x",
@@ -21271,6 +21551,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x": {
+   "actualizado": "2026-10-18T17:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x",
+   "creado": "2026-10-18T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T17:07:33.493Z",
+   "id": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuentos\n\nEl organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento.\n\nhttps://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuentos",
+   "urgente": false,
+   "vence": "2026-10-19T17:07:33.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x": {
    "actualizado": "2026-10-17T10:20:15.000Z",
    "buffer_id": "",
@@ -22648,18 +22954,19 @@
    "video_url": ""
   },
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x": {
-   "actualizado": "2026-10-18T14:40:13.000Z",
+   "actualizado": "2026-10-18T17:20:15.000Z",
    "buffer_id": "6ad4da4da48c8f83719fe346",
    "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
    "creado": "2026-10-17T22:20:14.000Z",
    "dueAt": "2026-10-18T16:30:05.000Z",
+   "enviado": "2026-10-18T16:30:38.751Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T22:06:29.335Z",
    "id": "web:eff024d5-cc52-4c26-9548-edd418eb2cec",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111857497287873026",
    "nota_url": "https://www.diariolacampaña.com.ar/n/crecida-del-parana-en-corrientes-el-rio-supera-los-7-metros-y-916840",
    "origen": "web",
    "plataforma": "x",
@@ -22827,69 +23134,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7696993003600088326"
-  },
-  {
-   "clave": "entrevistas:job00212|x",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110827099648876815"
-  },
-  {
-   "clave": "entrevistas:job00216|x",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110830916750745842"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|tiktok",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
-  {
-   "clave": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110819438559723810"
-  },
-  {
-   "clave": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110823435647451388"
-  },
-  {
-   "clave": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x",
-   "cuando": "2026-10-15T20:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110815663765758418"
-  },
-  {
-   "buffer_id": "6ad13a304fd04e4eb3ad3ffb",
-   "clave": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x",
-   "cuando": "2026-10-15T20:40:17.000Z",
-   "dueAt": "2026-10-16T02:30:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad13a3184453eae6f351b17",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|tiktok",
-   "cuando": "2026-10-15T20:40:17.000Z",
-   "dueAt": "2026-10-15T21:03:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad13ee45533140b41c8c6f0",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
-   "cuando": "2026-10-15T21:00:20.000Z",
-   "dueAt": "2026-10-16T02:45:19.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
    "cuando": "2026-10-15T21:20:18.000Z",
@@ -26974,10 +27218,83 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "nacionales:b6108526eb42ff8a|tiktok",
+   "cuando": "2026-10-18T17:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:fbd1321e4156d9c7|tiktok",
+   "cuando": "2026-10-18T17:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b010138b1fbfe036|tiktok",
+   "cuando": "2026-10-18T17:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:2be0a52708a62532|tiktok",
+   "cuando": "2026-10-18T17:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b541d9169f033092|tiktok",
+   "cuando": "2026-10-18T17:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x",
+   "cuando": "2026-10-18T17:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
+   "cuando": "2026-10-18T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111865647814545518"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
+   "cuando": "2026-10-18T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111861186811609548"
+  },
+  {
+   "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
+   "cuando": "2026-10-18T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111857497287873026"
+  },
+  {
+   "buffer_id": "6ad4ffd0a48c8f8371a942dd",
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
+   "cuando": "2026-10-18T17:20:16.000Z",
+   "dueAt": "2026-10-18T17:23:04.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T16:20:14.000Z",
+ "ultima_sync": "2026-10-18T17:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -27047,9 +27364,14 @@
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
   "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
+  "nacionales:2be0a52708a62532": "2026-10-18T17:20:13.000Z",
   "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
   "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
   "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
+  "nacionales:b010138b1fbfe036": "2026-10-18T17:20:13.000Z",
+  "nacionales:b541d9169f033092": "2026-10-18T17:20:13.000Z",
+  "nacionales:b6108526eb42ff8a": "2026-10-18T17:20:13.000Z",
+  "nacionales:fbd1321e4156d9c7": "2026-10-18T17:20:13.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
@@ -27322,6 +27644,7 @@
   "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": "2026-10-18T16:40:14.000Z",
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": "2026-10-15T10:20:13.000Z",
+  "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": "2026-10-18T17:20:13.000Z",
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",
   "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": "2026-10-15T21:40:16.000Z",
   "web:c6470534-4523-4411-a14d-e8390249bc0c": "2026-10-14T10:20:15.000Z",
