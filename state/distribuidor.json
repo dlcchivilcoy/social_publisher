@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-18T17:20:15.000Z"
+   "visto": "2026-10-18T18:20:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 50,
     "scheduled": 0,
-    "sent": 21
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-10-18T17:20:15.000Z"
+   "visto": "2026-10-18T18:20:23.000Z"
   }
  },
  "contenidos": {
@@ -3277,6 +3277,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4",
    "volanta": "Robo en Junín",
    "youtube_url": "https://youtube.com/shorts/RtdtVixVqkQ"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener": {
+   "categoria": "robo",
+   "descripcion": "Un sospechoso fue arrestado durante un operativo policial tras robar mercadería y dinero en efectivo de un comercio. La investigación incluyó análisis de cámaras y testimonios.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T18:12:00.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un operativo policial culminó con la detención de un joven de 24 años vinculado al robo de un comercio local.\n\nEl sospechoso había ingresado por la fuerza al maxikiosco La Avenida para sustraer dinero y mercadería.\n\nEl hecho se esclareció gracias al análisis de registros fílmicos y diversas pesquisas llevadas adelante por las autoridades.\n\nDurante el procedimiento se incautaron prendas de vestir utilizadas en el ilícito.\n\nEl aprehendido quedó alojado en sede policial a disposición de la fiscalía interviniente para continuar con los trámites legales correspondientes.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 24 años por el robo a un maxikiosco",
+   "urgente": false,
+   "video_bytes": 113963,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1809_01_chacabuco_detuvieron-a-un-joven-de-24-a-.mp4",
+   "volanta": "Robo esclarecido en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/QUB3cjkSLaw"
   },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": {
    "categoria": "accidente_vial",
@@ -7744,6 +7770,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inauguracion-oficial-el-arte-y-la-cultura-se-citan-en-chivilcoy-con",
    "volanta": "Inauguración oficial"
   },
+  "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": {
+   "categoria": "nacionales",
+   "descripcion": "El oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella. El…",
+   "generado": "2026-10-18T18:07:28.224Z",
+   "id": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a68e80b05a8d4be1b232a1b3d39fd625~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El dilema de Milei: blindaje político de gobernadores y la espera de la reactivación económica",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
+   "volanta": ""
+  },
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": {
    "categoria": "",
    "descripcion": "Suyana Climate Insurance se impuso entre 44 proyectos regionales con una herramienta que automatiza pagos ante eventos climáticos extremos.",
@@ -8215,22 +8259,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 211,
-   "segundos": 15599,
+   "restantes": 209,
+   "segundos": 14398,
    "tope": 250
   },
   "30d": {
-   "restantes": 2716,
-   "segundos": 1998617,
+   "restantes": 2714,
+   "segundos": 1997415,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T18:00:25.000Z",
+ "cuota_visto": "2026-10-18T18:20:27.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10775,18 +10819,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
   },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T17:20:15.000Z",
+   "actualizado": "2026-10-18T18:20:23.000Z",
    "buffer_id": "6ad4ffd0a48c8f8371a942dd",
    "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
    "creado": "2026-10-18T15:20:15.000Z",
    "dueAt": "2026-10-18T17:23:04.000Z",
+   "enviado": "2026-10-18T17:24:58.422Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T15:04:59.000Z",
    "id": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698059723773414677",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10828,14 +10873,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4"
   },
   "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T18:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T18:20:24.000Z",
+   "buffer_id": "6ad50dea938409f1d0e112df",
    "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
    "creado": "2026-10-18T18:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T19:03:05.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T17:47:43.000Z",
    "id": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4",
    "intentos": 0,
@@ -10854,18 +10899,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4"
   },
   "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x": {
-   "actualizado": "2026-10-18T18:00:23.000Z",
+   "actualizado": "2026-10-18T18:20:23.000Z",
    "buffer_id": "6ad50939ae173d6e0011b1e9",
    "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
    "creado": "2026-10-18T18:00:17.000Z",
    "dueAt": "2026-10-18T18:03:36.000Z",
+   "enviado": "2026-10-18T18:04:01.359Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T17:47:43.000Z",
    "id": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111880996647784744",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
    "origen": "bot",
    "plataforma": "x",
@@ -15423,6 +15469,58 @@
    "video_bytes": 80572,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok": {
+   "actualizado": "2026-10-18T18:20:24.000Z",
+   "buffer_id": "6ad50dea0a208cb323787ca3",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok",
+   "creado": "2026-10-18T18:20:15.000Z",
+   "dueAt": "2026-10-18T18:23:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T18:12:00.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Detuvieron a un joven de 24 años por el robo a un maxikiosco\n\nUn sospechoso fue arrestado durante un operativo policial tras robar mercadería y dinero en efectivo de un comercio. La investigación incluyó análisis de cámaras y testimonios.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 24 años por el robo a un maxikiosco",
+   "urgente": false,
+   "vence": "2026-10-19T12:12:00.000Z",
+   "video_bytes": 113963,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1809_01_chacabuco_detuvieron-a-un-joven-de-24-a-.mp4"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x": {
+   "actualizado": "2026-10-18T18:20:24.000Z",
+   "buffer_id": "6ad50dea769b457934d4eb2d",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x",
+   "creado": "2026-10-18T18:20:15.000Z",
+   "dueAt": "2026-10-18T18:23:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T18:12:00.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Detuvieron a un joven de 24 años por el robo a un maxikiosco\n\nUn sospechoso fue arrestado durante un operativo policial tras robar mercadería y dinero en efectivo de un comercio. La investigación incluyó análisis de cámaras y testimonios.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 24 años por el robo a un maxikiosco",
+   "urgente": false,
+   "vence": "2026-10-19T12:12:00.000Z",
+   "video_bytes": 113963,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1809_01_chacabuco_detuvieron-a-un-joven-de-24-a-.mp4"
+  },
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542|tiktok": {
    "actualizado": "2026-10-12T02:00:19.000Z",
    "buffer_id": "6acc2c717db619a29151f186",
@@ -16556,14 +16654,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_09_9-de-julio_hallaron-asesinado-a-un-hombre.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok": {
-   "actualizado": "2026-10-18T15:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T18:20:24.000Z",
+   "buffer_id": "6ad50debae173d6e0012d7a0",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
    "creado": "2026-10-18T15:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T19:43:38.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T14:49:59.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
    "intentos": 0,
@@ -18381,14 +18479,14 @@
    "video_url": ""
   },
   "web:38a2facb-610c-48c3-ba78-33049770dfcf|x": {
-   "actualizado": "2026-10-17T18:20:13.000Z",
+   "actualizado": "2026-10-18T18:20:23.000Z",
    "buffer_id": "",
    "clave": "web:38a2facb-610c-48c3-ba78-33049770dfcf|x",
    "creado": "2026-10-17T18:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T18:06:08.085Z",
    "id": "web:38a2facb-610c-48c3-ba78-33049770dfcf",
    "intentos": 0,
@@ -22585,6 +22683,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x": {
+   "actualizado": "2026-10-18T18:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
+   "creado": "2026-10-18T18:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T18:07:28.224Z",
+   "id": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El dilema de Milei: blindaje político de gobernadores y la espera de la reactivación económica\n\nEl oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella.\n\nhttps://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El dilema de Milei: blindaje político de gobernadores y la espera de la reactivación económica",
+   "urgente": false,
+   "vence": "2026-10-19T18:07:28.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
    "buffer_id": "",
@@ -23251,72 +23375,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
-   "cuando": "2026-10-15T21:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2|x",
-   "cuando": "2026-10-15T21:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "entrevistas:job00213|x",
-   "cuando": "2026-10-15T21:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110834549751963879"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|tiktok",
-   "cuando": "2026-10-15T21:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697003219813289222"
-  },
-  {
-   "clave": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x",
-   "cuando": "2026-10-15T22:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
-   "cuando": "2026-10-15T22:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x",
-   "cuando": "2026-10-15T23:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110860976421478658"
-  },
-  {
-   "clave": "entrevistas:job00211|x",
-   "cuando": "2026-10-15T23:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110864737206517887"
-  },
-  {
-   "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
-   "cuando": "2026-10-15T23:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x",
-   "cuando": "2026-10-15T23:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "fuera del horizonte de programación (espera en la cola)"
-  },
   {
    "buffer_id": "6ad16461fb64fffcf1a5e767",
    "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
@@ -27413,10 +27471,80 @@
    "cuando": "2026-10-18T18:00:25.000Z",
    "dueAt": "2026-10-18T18:03:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x",
+   "cuando": "2026-10-18T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok",
+   "cuando": "2026-10-18T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
+   "cuando": "2026-10-18T18:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:38a2facb-610c-48c3-ba78-33049770dfcf|x",
+   "cuando": "2026-10-18T18:20:23.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
+   "cuando": "2026-10-18T18:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698059723773414677"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
+   "cuando": "2026-10-18T18:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111880996647784744"
+  },
+  {
+   "buffer_id": "6ad50dea769b457934d4eb2d",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x",
+   "cuando": "2026-10-18T18:20:27.000Z",
+   "dueAt": "2026-10-18T18:23:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad50dea0a208cb323787ca3",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok",
+   "cuando": "2026-10-18T18:20:27.000Z",
+   "dueAt": "2026-10-18T18:23:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad50dea938409f1d0e112df",
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
+   "cuando": "2026-10-18T18:20:27.000Z",
+   "dueAt": "2026-10-18T19:03:05.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad50debae173d6e0012d7a0",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
+   "cuando": "2026-10-18T18:20:27.000Z",
+   "dueAt": "2026-10-18T19:43:38.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T17:20:15.000Z",
+ "ultima_sync": "2026-10-18T18:20:23.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -27563,6 +27691,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli": "2026-10-15T19:20:15.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec": "2026-10-18T00:20:13.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener": "2026-10-18T18:20:15.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -27802,6 +27931,7 @@
   "web:dca831fd-6866-464f-a367-e6b85d1a5640": "2026-10-15T23:40:15.000Z",
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": "2026-10-15T18:20:17.000Z",
   "web:dd7f1568-1a2a-4716-94cc-9e7125c22801": "2026-10-16T10:20:16.000Z",
+  "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": "2026-10-18T18:20:15.000Z",
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": "2026-10-15T10:20:13.000Z",
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c": "2026-10-16T10:20:16.000Z",
