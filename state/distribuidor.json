@@ -7873,22 +7873,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 31209,
+   "restantes": 220,
+   "segundos": 30004,
    "tope": 250
   },
   "30d": {
-   "restantes": 2726,
-   "segundos": 2014226,
+   "restantes": 2725,
+   "segundos": 2013021,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T13:40:14.000Z",
+ "cuota_visto": "2026-10-18T14:00:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -17005,14 +17005,14 @@
    "video_url": ""
   },
   "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x": {
-   "actualizado": "2026-10-18T12:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T14:00:19.000Z",
+   "buffer_id": "6ad4d0f30a208cb32369ae12",
    "clave": "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x",
    "creado": "2026-10-18T12:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T15:45:58.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T12:36:28.965Z",
    "id": "web:1a3f2450-d820-426b-a2f8-b91f8e338629",
    "intentos": 0,
@@ -20302,6 +20302,7 @@
    "creado": "2026-10-18T12:20:16.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-18T12:06:30.060Z",
    "id": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e",
@@ -22398,14 +22399,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
-   "cuando": "2026-10-15T19:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok",
    "cuando": "2026-10-15T19:20:15.000Z",
@@ -26545,6 +26538,13 @@
    "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
    "cuando": "2026-10-18T13:40:14.000Z",
    "dueAt": "2026-10-18T15:30:00.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4d0f30a208cb32369ae12",
+   "clave": "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x",
+   "cuando": "2026-10-18T14:00:19.000Z",
+   "dueAt": "2026-10-18T15:45:58.000Z",
    "evento": "programado"
   }
  ],
