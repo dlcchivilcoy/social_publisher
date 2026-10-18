@@ -7482,6 +7482,14 @@
   }
  },
  "cuota_visto": "2026-10-17T23:40:23.000Z",
+ "pausas": {
+  "tiktok": {
+   "hasta": "2026-10-17T13:23:02.000Z",
+   "medido": "2026-10-16T13:23:02.000Z",
+   "motivo": "TikTok pidió esperar 24 h (salieron 15 en las 24 h previas)",
+   "tope_medido": 12
+  }
+ },
  "publicaciones": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|tiktok": {
    "actualizado": "2026-10-11T23:20:15.000Z",
@@ -9000,7 +9008,7 @@
    "creado": "2026-10-17T17:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-17T17:21:29.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
@@ -9419,7 +9427,7 @@
    "creado": "2026-10-17T23:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-17T23:31:28.000Z",
    "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
@@ -20436,51 +20444,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok",
-   "cuando": "2026-10-15T14:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x",
-   "cuando": "2026-10-15T14:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|tiktok",
-   "cuando": "2026-10-15T14:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6ad0dc76438b564fdb3f8670",
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|x",
-   "cuando": "2026-10-15T14:00:22.000Z",
-   "dueAt": "2026-10-15T14:06:52.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0e121109a34529aa20ad8",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela|x",
-   "cuando": "2026-10-15T14:20:18.000Z",
-   "dueAt": "2026-10-15T18:30:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad0e122b7bdcc4fb8830fb2",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|x",
-   "cuando": "2026-10-15T14:20:18.000Z",
-   "dueAt": "2026-10-15T18:45:13.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad0e122b7bdcc4fb8830fec",
    "clave": "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x",
    "cuando": "2026-10-15T14:20:18.000Z",
@@ -24567,9 +24530,51 @@
    "cuando": "2026-10-17T23:40:23.000Z",
    "dueAt": "2026-10-17T23:48:54.000Z",
    "evento": "programado"
+  },
+  {
+   "cuando": "2026-10-18T00:00:18.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-13T19:23:18.000Z",
+   "red": "tiktok",
+   "tope": 12
+  },
+  {
+   "cuando": "2026-10-18T00:00:18.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-13T20:03:18.000Z",
+   "red": "tiktok",
+   "tope": 12
+  },
+  {
+   "cuando": "2026-10-18T00:00:18.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-13T21:43:49.000Z",
+   "red": "tiktok",
+   "tope": 12
+  },
+  {
+   "cuando": "2026-10-18T00:00:18.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-16T16:03:55.000Z",
+   "red": "tiktok",
+   "tope": 12
+  },
+  {
+   "cuando": "2026-10-18T00:00:18.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-16T19:23:22.000Z",
+   "red": "tiktok",
+   "tope": 12
+  },
+  {
+   "cuando": "2026-10-18T00:00:18.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-17T13:23:02.000Z",
+   "red": "tiktok",
+   "tope": 12
   }
  ],
- "ultima_limpieza_release": "2026-10-17",
+ "ultima_limpieza_release": "2026-10-18",
  "ultima_sync": "2026-10-17T23:40:22.000Z",
  "version": 1,
  "vistos": {

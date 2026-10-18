@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,17 +10,18 @@ Actualizado: 17/10/2026 20:40 (hora AR) · ACTIVO
 | Reels policiales | X | 12 | 8 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 15 | 0 | 11 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 31 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día
+- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2752 de 3000 (visto 2026-10-17T23:40:23.000Z)
 
 ## Cola propia (15 esperando)
-- TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 15 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 15 publicaciones en 24 h de TikTok
+- TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño en Argentina: advierten por lluvias intensas y picos de agua entre dicie — cupo diario de Notas web en X completo (15)
 - X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — cupo diario de Notas web en X completo (15)
@@ -44,12 +45,6 @@ Actualizado: 17/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T21:00 recibido web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x 
-- 2026-10-17T21:00 programado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x 
-- 2026-10-17T21:00 programado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok 
-- 2026-10-17T21:00 programado policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
-- 2026-10-17T21:20 recibido web:902234a6-60aa-4826-bffd-430eafadfad0|x 
-- 2026-10-17T21:20 vencido web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x cupo diario de Notas web en X completo (15)
 - 2026-10-17T21:20 enviado bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok 
 - 2026-10-17T21:40 recibido web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x 
 - 2026-10-17T21:40 vencido policiales:https://www.presentenoticias.com/noticias/2026/10 intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática
@@ -69,3 +64,9 @@ Actualizado: 17/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-17T23:40 enviado policiales:https://www.presentenoticias.com/noticias/2026/10 
 - 2026-10-17T23:40 enviado web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x 
 - 2026-10-17T23:40 programado bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x 
+- 2026-10-18T00:00 pausa_red  
+- 2026-10-18T00:00 pausa_red  
+- 2026-10-18T00:00 pausa_red  
+- 2026-10-18T00:00 pausa_red  
+- 2026-10-18T00:00 pausa_red  
+- 2026-10-18T00:00 pausa_red  
