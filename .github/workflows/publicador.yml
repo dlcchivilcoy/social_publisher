@@ -82,7 +82,9 @@ jobs:
     # a mitad y quedan notas sin postear (paso 2026-08-20/21 con timeout 40 + delay 300s). Con el apt
     # YA FUERA (ffmpeg viene por pip), no hay cuelgue de apt que justifique un timeout agresivo: 90 min
     # da margen de sobra para el posteo completo y aun asi corta una corrida realmente trabada.
-    timeout-minutes: 90
+    # 120 desde el 18/10/2026: el carrusel de las 10 sale NOTA POR NOTA en Instagram, una cada 5
+    # minutos (CARRUSEL_INTERVALO_MIN): 14 notas son ~65 min de publicacion legitima.
+    timeout-minutes: 120
     # El runner corre en UTC; con esto Python usa hora de Argentina para
     # date.today()/now() (clave para detectar la "edicion de hoy" y los ledgers diarios).
     env:

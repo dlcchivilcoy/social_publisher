@@ -1637,6 +1637,55 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     return _save(canvas, "carrusel_" + _safe_stem(titular or volanta, "nota"))
 
 
+def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, site_url: str = "",
+                            idx: int | None = None, total: int | None = None, *, tema: str = "claro") -> Path:
+    """Una LÁMINA del carrusel EXPLICATIVO de cada nota local (pedido del usuario 2026-10-18: las notas
+    del carrusel de las 10 salen una por una, cada una como carrusel explicativo). 4:5, misma estética
+    que la portada (compose_carrusel_slide, estilo B): la foto de la nota arriba con los logos, la
+    franja naranja, la volanta, el título de la lámina y el texto; abajo «Seguí leyendo en…», el número
+    y la flecha si hay otra. Sin foto, el texto ocupa todo el alto."""
+    t = TEMAS_CARRUSEL.get(tema, TEMAS_CARRUSEL["claro"])
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), t["fondo"])
+    m = CARRUSEL_MARGEN
+    ancho = SLIDE_W - 2 * m
+    foto = None
+    if photo_path:
+        try:
+            foto = _abrir_foto(photo_path)
+        except Exception as e:
+            logger.warning(f"No se pudo abrir la foto de la lámina: {e}")
+    foto_h = FOTO_B_H - 80 if foto is not None else 0
+    if foto is not None:
+        canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
+        _cabecera_carrusel(canvas)
+    draw = ImageDraw.Draw(canvas)
+    if foto is not None:
+        draw.rectangle((0, foto_h, SLIDE_W, foto_h + 10), fill=t["acento"])
+        y = foto_h + 10 + 52
+    else:
+        draw.rectangle((m, 70, m + 200, 79), fill=t["acento"])
+        y = 130
+    vol = (volanta or "").strip().upper()
+    if vol:
+        fv = _franklin(30, 700)
+        draw.text((m, y), vol, font=fv, fill=t["acento"], anchor="lt")
+        y += 30 + 30
+    pie_y = SLIDE_H - 66
+    titulo = (titulo or "").strip()
+    if titulo:
+        ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 230,
+                                   lambda s_: _franklin(s_, 800), max_size=64, min_size=44, salto=1.14,
+                                   max_lineas=3)
+        y = _dibujar_renglones(draw, m, y, lt, ft, lht) + round(lht * 0.25) + 34
+    alto = pie_y - 60 - y
+    if alto >= 40 and (texto or "").strip():
+        fx, lx, lhx = _medir_texto(draw, [(w, t["suave"]) for w in texto.split()], ancho, alto,
+                                   lambda s_: _franklin(s_, 400), max_size=52, min_size=34, salto=1.38)
+        _dibujar_renglones(draw, m, y, lx, fx, lhx)
+    _pie_carrusel(canvas, draw, t, m, SLIDE_W - m, pie_y, idx, total, site_url)
+    return _save(canvas, f"lamina_{_safe_stem(titulo or volanta, 'nota')}_{idx or 0:02d}")
+
+
 def compose_tapa_slide(cover_path: Path) -> Path:
     """Slide 4:5 con la tapa entera (fondo desenfocado para entrar en 1080x1350)."""
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), BG)

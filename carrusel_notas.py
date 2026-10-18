@@ -1,6 +1,12 @@
 """Carrusel de NOTAS (10:00).
 
-Un solo posteo en Facebook + Instagram con TODAS las notas del día (un slide por
+INSTAGRAM, desde el 18/10/2026 (pedido del usuario: «meter todas las notas del carrusel de las 10 como
+notas individuales, como carrusel explicativo, espaciadas cada 5 minutos»): cada nota sale SOLA, como
+un carrusel EXPLICATIVO (la portada de la nota + 4 a 6 láminas que la cuentan, escritas por Gemini con
+lo que dice la nota), una cada CARRUSEL_INTERVALO_MIN (5) minutos, en el orden del número del archivo.
+El texto lleva el sitio, nunca el link de la nota. CARRUSEL_INDIVIDUAL=0 vuelve al carrusel único.
+
+Facebook (si está en CARRUSEL_PLATFORMS) sigue con un solo posteo con TODAS las notas (un slide por
 nota: foto + titular + resumen breve), ordenadas por el número con que empieza el
 nombre del archivo. Además:
   - publica cada nota en Wix/web (destino del "seguí leyendo"),
@@ -22,7 +28,8 @@ from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
                        _save_ledger)
-from story_image import compose_carrusel_slide, compose_carrusel_story, estilos_carrusel
+from story_image import (compose_carrusel_slide, compose_carrusel_story, compose_lamina_carrusel,
+                         estilos_carrusel)
 from utils.branding import linea_canal_yt, sitio_web
 from utils.config import get
 from utils.logger import get_logger
@@ -373,6 +380,119 @@ def _historia_activa() -> bool:
     return (get("CARRUSEL_HISTORIA") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
+def _individual_activo() -> bool:
+    """Instagram: cada nota como su propio carrusel explicativo (18/10/2026). CARRUSEL_INDIVIDUAL=0
+    vuelve al carrusel único con todas las notas."""
+    return (get("CARRUSEL_INDIVIDUAL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _intervalo_seg() -> int:
+    """Minutos entre una nota y la siguiente en Instagram (CARRUSEL_INTERVALO_MIN, 5 por defecto)."""
+    try:
+        return max(0, int(float(get("CARRUSEL_INTERVALO_MIN") or 5) * 60))
+    except ValueError:
+        return 300
+
+
+def _laminas_de_parrafos(cuerpo: list) -> list:
+    """Respaldo si Gemini no contesta: los párrafos de la nota (desde el segundo; el primero va en la
+    portada), uno por lámina, hasta 5."""
+    salida = []
+    for par in (cuerpo or [])[1:]:
+        texto = _resumen_caption(par, 300)
+        if len(texto) >= 60:
+            salida.append({"titulo": "", "texto": texto})
+        if len(salida) >= 5:
+            break
+    return salida
+
+
+def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
+                          site: str, escribir=None) -> list:
+    """Las placas del carrusel de UNA nota: la portada (la misma placa del carrusel de siempre) y las
+    láminas que la explican. `escribir(volanta, titular, texto)` → [{titulo, texto}] (Gemini)."""
+    if escribir is None:
+        from utils import gemini
+        escribir = gemini.laminas_explicativas
+    laminas = escribir(volanta, titular, "\n\n".join(cuerpo)) or _laminas_de_parrafos(cuerpo)
+    total = 1 + len(laminas)
+    placas = [compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=1, total=total,
+                                     tema="claro")]
+    for i, l in enumerate(laminas, 2):
+        placas.append(compose_lamina_carrusel(note["image"], volanta, l["titulo"], l["texto"], site,
+                                              idx=i, total=total))
+    # El compositor nombra el archivo por el texto: dos notas con láminas parecidas (o la placa del
+    # carrusel de Facebook) se pisarían. Cada nota guarda las suyas en su propia carpeta.
+    import hashlib
+    import shutil
+    carpeta = placas[0].parent / "explicativo" / hashlib.sha1(note["key"].encode("utf-8")).hexdigest()[:12]
+    carpeta.mkdir(parents=True, exist_ok=True)
+    propias = []
+    for i, placa in enumerate(placas, 1):
+        destino = carpeta / f"{i:02d}.jpg"
+        shutil.move(str(placa), destino)
+        propias.append(destino)
+    return propias
+
+
+def _caption_individual(note: dict, volanta: str, titular: str, primer: str, site: str) -> str:
+    """El texto de cada nota en Instagram: volanta, titular, un resumen, la invitación a deslizar y la
+    WEB del diario (pedido del 18/10/2026: nunca el link de la nota) + hashtags."""
+    cabeza = f"{volanta.strip().upper()}\n📰 {titular}" if (volanta or "").strip() else f"📰 {titular}"
+    partes = [cabeza]
+    resumen = _resumen_caption(primer, 280)
+    if resumen:
+        partes.append(resumen)
+    partes += ["👉 Deslizá para conocer los detalles.", f"📲 Más noticias en {site}", _hashtags(note)]
+    return "\n\n".join(p for p in partes if p)
+
+
+def _instagram_individual(posts_folder: Path, notas: list, ledger: set, hoy: date, site: str,
+                          dry_run: bool, escribir=None, dormir=time.sleep, reloj=time.monotonic) -> int:
+    """Publica cada nota como su propio carrusel explicativo en Instagram, una cada _intervalo_seg().
+    `notas`: [(note, volanta, titular, cuerpo, primer)] en orden. Anota cada nota en el ledger apenas
+    sale (una corrida cortada no repite las que ya salieron). Devuelve cuántas salieron."""
+    armadas = []
+    for note, volanta, titular, cuerpo, primer in notas:
+        try:
+            placas = _carrusel_explicativo(note, volanta, titular, cuerpo, primer, site, escribir)
+        except Exception as e:  # noqa: BLE001 — una nota que no se puede armar no frena a las otras
+            logger.error(f"[instagram] no se pudo armar el carrusel de «{titular[:40]}»: {e}")
+            continue
+        armadas.append((note, titular, placas, _caption_individual(note, volanta, titular, primer, site)))
+    intervalo = _intervalo_seg()
+    logger.info(f"[instagram] {len(armadas)} nota(s) como carrusel explicativo, una cada {intervalo // 60} min")
+    if dry_run:
+        for note, titular, placas, caption in armadas:
+            logger.info(f"[dry-run] «{titular[:50]}»: {len(placas)} placa(s)\n{caption}")
+        return 0
+    salieron, ultimo, historia_hecha = 0, None, False
+    for note, titular, placas, caption in armadas:
+        if ultimo is not None:
+            falta = ultimo + intervalo - reloj()
+            if falta > 0:
+                dormir(falta)
+        ultimo = reloj()
+        try:
+            instagram.publish_carousel(caption, placas)
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"[instagram] «{titular[:40]}» FALLÓ: {e}")
+            continue
+        salieron += 1
+        ledger.add(note["key"])
+        _save_ledger(posts_folder, ledger)          # tras cada nota: un corte no repite lo hecho
+        logger.info(f"[instagram] carrusel explicativo OK — «{titular[:40]}» ({len(placas)} placas)")
+        # La historia con la portada (pedido 2026-10-03), con la primera que sale.
+        if not historia_hecha and _historia_activa():
+            historia_hecha = True
+            try:
+                instagram.publish_story(compose_carrusel_story(placas[0], _fecha_larga(hoy), len(armadas), site))
+                logger.info("[instagram] historia de la portada OK")
+            except Exception as e:  # noqa: BLE001
+                logger.error(f"[instagram] historia de la portada FALLÓ: {e}")
+    return salieron
+
+
 def _orden(note: dict) -> int:
     """Número con que empieza el nombre del .docx (1, 2, 3…). Sin número → al final."""
     m = re.match(r"\s*(\d+)", note["docx"].name)
@@ -452,6 +572,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     x_ledger = _load_x_ledger(posts_folder)
     slides: list[Path] = []
     bajadas: list[tuple] = []  # (titular, primer_parrafo) para el caption
+    datos: list[tuple] = []    # (note, volanta, titular, cuerpo, primer): Instagram nota por nota
     wix_ok = 0
     web_changed = False
 
@@ -469,6 +590,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         if not titular:
             titular = note.get("titular") or note["title"]
         primer = cuerpo[0] if cuerpo else ""
+        datos.append((note, volanta, titular, cuerpo, primer))
         if i <= total_carrusel:
             try:
                 slide = compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site,
@@ -532,8 +654,13 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         f"{hashtags}"
     )
 
+    plats = _carousel_platforms()
+    individual = _individual_activo() and "instagram" in plats
+    if dry_run and individual:
+        _instagram_individual(posts_folder, datos, ledger, hoy, site, dry_run=True)
     if dry_run:
-        logger.info(f"[dry-run] carrusel de {len(slides)} slide(s): {[s.name for s in slides]}")
+        logger.info(f"[dry-run] carrusel de {len(slides)} slide(s): {[s.name for s in slides]}"
+                    + (" (solo Facebook: Instagram va nota por nota)" if individual else ""))
         logger.info(f"[dry-run] caption:\n{caption}")
         if _historia_activa():
             try:
@@ -550,16 +677,25 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         logger.info("=== Carrusel de notas: fin (carrusel apagado) ===")
         return
 
-    plats = _carousel_platforms()
     algun_ok = False
+    # Con Instagram nota por nota, el posteo único de Facebook se anota aparte (si no, una nota que no
+    # salió en Instagram haría repetir el de Facebook en la corrida siguiente).
+    marca_fb = f"{pending[0].get('edition') or hoy.isoformat()}|facebook_carrusel"
 
-    if "facebook" in plats:
+    if "facebook" in plats and not (individual and marca_fb in ledger):
         try:
             facebook.publish_multi(caption, slides)
             algun_ok = True
             logger.info("[facebook] carrusel OK")
+            if individual:
+                ledger.add(marca_fb)
+                _save_ledger(posts_folder, ledger)
         except Exception as e:
             logger.error(f"[facebook] carrusel FALLÓ: {e}")
+    if individual:
+        n = _instagram_individual(posts_folder, datos, ledger, hoy, site, dry_run=False)
+        logger.info(f"=== Carrusel de notas: fin — {n}/{len(datos)} nota(s) en Instagram. Wix OK: {wix_ok} ===")
+        return
     ig_ok = False
     if "instagram" in plats:
         try:
