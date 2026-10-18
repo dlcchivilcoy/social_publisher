@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 9
+    "scheduled": 0,
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-18T19:40:21.000Z"
+   "visto": "2026-10-18T20:40:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-18T19:40:21.000Z"
+   "visto": "2026-10-18T20:40:21.000Z"
   }
  },
  "contenidos": {
@@ -8350,6 +8350,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crecida-del-parana-en-corrientes-el-rio-supera-los-7-metros-y-916840",
    "volanta": ""
   },
+  "web:f02de8c1-15da-4722-a133-920069b5d431": {
+   "categoria": "",
+   "descripcion": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar El intendente de Chivilcoy, Guillermo Britos, cuestionó una publicación de un diario local sobre la recuperación de la nave industrial de Bicontinentar y aseguró que el Municipio reclamó judicialmente el pago de una suma equivalente a un sueldo de empleado municipal por cada día de demora en la restitución del inmueble. Además, sostuvo que eso se puso en conocimiento de toda la comunidad el día viernes a través del...",
+   "generado": "2026-10-18T20:37:42.324Z",
+   "id": "web:f02de8c1-15da-4722-a133-920069b5d431",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_941c61e5edea42aaa8727a7452a141d1~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": {
    "categoria": "",
    "descripcion": "Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro momento eran imposibles de pensar. Eso tiene que ver con la dinámica de la oferta y la demanda” La martillera y corredora pública Marisa Mindeguia brindó un minucioso y extenso análisis sobre el presente del sector inmobiliario a nivel local y en las ciudades de la región. La profesional dialogó en el marco de las fechas conmemorativas por el Día del Martillero y Corredor Público, repasando las complejidades que...",
@@ -8466,17 +8484,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 208,
-   "segundos": 9602,
+   "restantes": 207,
+   "segundos": 6002,
    "tope": 250
   },
   "30d": {
-   "restantes": 2713,
-   "segundos": 1992619,
+   "restantes": 2712,
+   "segundos": 1989019,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T19:40:21.000Z",
+ "cuota_visto": "2026-10-18T20:40:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16989,18 +17007,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_09_9-de-julio_hallaron-asesinado-a-un-hombre.mp4"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok": {
-   "actualizado": "2026-10-18T18:20:24.000Z",
+   "actualizado": "2026-10-18T20:40:21.000Z",
    "buffer_id": "6ad50debae173d6e0012d7a0",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
    "creado": "2026-10-18T15:00:21.000Z",
    "dueAt": "2026-10-18T19:43:38.000Z",
+   "enviado": "2026-10-18T19:44:27.344Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T14:49:59.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698095682451754241",
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -23660,6 +23679,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:f02de8c1-15da-4722-a133-920069b5d431|x": {
+   "actualizado": "2026-10-18T20:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:f02de8c1-15da-4722-a133-920069b5d431|x",
+   "creado": "2026-10-18T20:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T20:37:42.324Z",
+   "id": "web:f02de8c1-15da-4722-a133-920069b5d431",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar",
+   "urgente": false,
+   "vence": "2026-10-19T20:37:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
    "buffer_id": "",
@@ -23814,22 +23859,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
-   "cuando": "2026-10-16T00:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x",
    "cuando": "2026-10-16T00:00:24.000Z",
@@ -27974,10 +28003,24 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:f02de8c1-15da-4722-a133-920069b5d431|x",
+   "cuando": "2026-10-18T20:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
+   "cuando": "2026-10-18T20:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698095682451754241"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T19:40:21.000Z",
+ "ultima_sync": "2026-10-18T20:40:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -28394,6 +28437,7 @@
   "web:ef08f847-d9e6-4534-8776-17ff73df6820": "2026-10-16T18:40:13.000Z",
   "web:efbef857-ab9c-4566-904e-f8f5926bed12": "2026-10-14T18:20:14.000Z",
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec": "2026-10-17T22:20:14.000Z",
+  "web:f02de8c1-15da-4722-a133-920069b5d431": "2026-10-18T20:40:13.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",

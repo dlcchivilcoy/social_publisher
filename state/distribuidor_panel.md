@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,13 +8,13 @@ Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 13 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 14 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 13 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 23 enviadas + 0 programadas de 50 por día
-- TikTok: conectado · Buffer: 9 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -25,9 +25,10 @@ Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 208 de 250 · 30d: quedan 2713 de 3000 (visto 2026-10-18T19:40:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 207 de 250 · 30d: quedan 2712 de 3000 (visto 2026-10-18T20:40:21.000Z)
 
-## Cola propia (32 esperando)
+## Cola propia (33 esperando)
+- X · Notas web · Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Procesaron al exjefe de ARSAT y le hallaron 2,6 millones de dólares en efectivo — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia — tope de 12 publicaciones en 24 h de TikTok
@@ -57,7 +58,6 @@ Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Misión minera en Londres en plena tensión diplomática por las Islas Malvinas — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,8 +68,6 @@ Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T18:00 recibido web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x 
-- 2026-10-18T18:00 programado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x 
 - 2026-10-18T18:20 recibido policiales:https://www.diariodemocracia.com/policiales/34670 
 - 2026-10-18T18:20 recibido policiales:https://www.diariodemocracia.com/policiales/34670 
 - 2026-10-18T18:20 recibido web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x 
@@ -93,3 +91,5 @@ Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
 - 2026-10-18T20:20 recibido nacionales:78b5fd65bc73d6c5|tiktok 
 - 2026-10-18T20:20 recibido nacionales:76f6781e9594def9|tiktok 
 - 2026-10-18T20:20 recibido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x 
+- 2026-10-18T20:40 recibido web:f02de8c1-15da-4722-a133-920069b5d431|x 
+- 2026-10-18T20:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
