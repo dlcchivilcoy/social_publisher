@@ -1,27 +1,37 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 5 | 0 | 2 | 0 | 0 | 0 |
-| Reels policiales | X | 12 | 8 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 9 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 5 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 12 | 9 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 2 | 0 | 1 | 0 |
-| Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 13 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 31 enviadas + 0 programadas de 50 por día
+- X: conectado · Buffer: 33 enviadas + 0 programadas de 50 por día
 - TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
-## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2751 de 3000 (visto 2026-10-18T00:20:14.000Z)
+## Métricas (Buffer, lo enviado en 3 días)
+- X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
+- X · Reels del bot: 17 con métricas · mediana vistas/impresiones 19 · likes 0
+- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 30 con métricas · mediana vistas/impresiones 7.5 · likes 0
+- TikTok · Reels del bot: 14 con métricas · mediana vistas/impresiones 216 · likes 1
+- TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
-## Cola propia (17 esperando)
+## Cuota de la API de Buffer
+15m: quedan 97 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2737 de 3000 (visto 2026-10-18T00:40:30.000Z)
+
+## Cola propia (19 esperando)
+- TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Álvaro Cortes presentó su tercer libro de poesía — espera para separarse de la otra publicación de la misma noticia
 - X · Notas web · Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar — cupo diario de Notas web en X completo (15)
 - X · Notas web · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño en Argentina: advierten por lluvias intensas y picos de agua entre dicie — cupo diario de Notas web en X completo (15)
@@ -47,12 +57,6 @@ Actualizado: 17/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-17T22:20 recibido web:eff024d5-cc52-4c26-9548-edd418eb2cec|x 
-- 2026-10-17T22:20 vencido web:14436815-e65b-4622-81a4-d215bbfc9d5f|x cupo diario de Notas web en X completo (15)
-- 2026-10-17T22:20 enviado policiales:https://noticiasmercedes.com/mercedes-en-un-fallo 
-- 2026-10-17T22:20 enviado web:90ccf787-b147-4a06-9acf-05aa45b23cca|x 
-- 2026-10-17T22:20 enviado web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x 
-- 2026-10-17T23:20 recibido web:ccce7a0b-db66-488d-8412-6628b516975f|x 
 - 2026-10-17T23:40 recibido bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x 
 - 2026-10-17T23:40 recibido bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok 
 - 2026-10-17T23:40 recibido web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x 
@@ -72,3 +76,9 @@ Actualizado: 17/10/2026 21:20 (hora AR) · ACTIVO
 - 2026-10-18T00:20 recibido policiales:https://www.diariodemocracia.com/policiales/34669 
 - 2026-10-18T00:20 recibido web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x 
 - 2026-10-18T00:20 programado policiales:https://www.diariodemocracia.com/policiales/34669 
+- 2026-10-18T00:40 recibido bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x 
+- 2026-10-18T00:40 recibido bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|tiktok 
+- 2026-10-18T00:40 recibido web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x 
+- 2026-10-18T00:40 enviado bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x 
+- 2026-10-18T00:40 enviado policiales:https://www.diariodemocracia.com/policiales/34669 
+- 2026-10-18T00:40 programado bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x 
