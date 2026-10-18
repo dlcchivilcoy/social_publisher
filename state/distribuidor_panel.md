@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,8 +9,8 @@ Actualizado: 18/10/2026 17:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 12 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 0 | 0 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 13 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 0 | 0 | 13 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 23 enviadas + 0 programadas de 50 por día
@@ -27,16 +27,22 @@ Actualizado: 18/10/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 208 de 250 · 30d: quedan 2713 de 3000 (visto 2026-10-18T19:40:21.000Z)
 
-## Cola propia (26 esperando)
+## Cola propia (32 esperando)
+- TikTok · Nacionales y categorías · Procesaron al exjefe de ARSAT y le hallaron 2,6 millones de dólares en efectivo — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económi — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
+- TikTok · Nacionales y categorías · Racing define al nuevo líder de su barra brava en la antesala del clásico — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Las cinco películas para maratonear este fin de semana en Netflix — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · crece el optimismo por la posible visita del papa León XIV a la Argentina — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El papa León XIV reapareció tras ser operado de un cáncer de pulmón — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Delegación argentina en Londres en medio de la tensión por Malvinas — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de d — cupo diario de Notas web en X completo (15)
 - X · Notas web · Racing: quién es el nuevo jefe de la barra brava antes del clásico — cupo diario de Notas web en X completo (15)
 - X · Notas web · Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco — cupo diario de Notas web en X completo (15)
 - X · Notas web · Netflix: las cinco películas recomendadas para ver este fin de semana con duraci — cupo diario de Notas web en X completo (15)
@@ -52,8 +58,6 @@ Actualizado: 18/10/2026 17:00 (hora AR) · ACTIVO
 - X · Notas web · Misión minera en Londres en plena tensión diplomática por las Islas Malvinas — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · El aviso del cuerpo técnico de la Selección al delantero de Boca Leonel Flores — cupo diario de Notas web en X completo (15)
-- X · Notas web · El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -64,12 +68,6 @@ Actualizado: 18/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T17:20 enviado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 
-- 2026-10-18T17:20 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
-- 2026-10-18T17:20 enviado web:eff024d5-cc52-4c26-9548-edd418eb2cec|x 
-- 2026-10-18T17:20 programado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok 
-- 2026-10-18T18:00 recibido bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x 
-- 2026-10-18T18:00 recibido bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
 - 2026-10-18T18:00 recibido web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x 
 - 2026-10-18T18:00 programado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x 
 - 2026-10-18T18:20 recibido policiales:https://www.diariodemocracia.com/policiales/34670 
@@ -89,3 +87,9 @@ Actualizado: 18/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-18T19:40 enviado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
 - 2026-10-18T19:40 enviado policiales:https://www.diariodemocracia.com/policiales/34670 
 - 2026-10-18T19:40 enviado policiales:https://www.diariodemocracia.com/policiales/34670 
+- 2026-10-18T20:20 recibido nacionales:4d4c5be14febf1aa|tiktok 
+- 2026-10-18T20:20 recibido nacionales:82015de779d2e56d|tiktok 
+- 2026-10-18T20:20 recibido nacionales:b1c71e9d1312dd69|tiktok 
+- 2026-10-18T20:20 recibido nacionales:78b5fd65bc73d6c5|tiktok 
+- 2026-10-18T20:20 recibido nacionales:76f6781e9594def9|tiktok 
+- 2026-10-18T20:20 recibido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x 

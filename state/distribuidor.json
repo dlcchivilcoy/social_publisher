@@ -1462,6 +1462,32 @@
    "volanta": "Torneo Clausura",
    "youtube_url": "https://youtube.com/shorts/iXTNO5lYvj0"
   },
+  "nacionales:4d4c5be14febf1aa": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella. El Gobierno busca sostener el escudo político mientras aguarda la reactivación económica.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T18:07:32.000Z",
+   "hashtags": [
+    "Politica",
+    "GobiernoNacional"
+   ],
+   "id": "nacionales:4d4c5be14febf1aa",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económica",
+   "urgente": false,
+   "video_bytes": 97876,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4d4c5be14f_el-dilema-de-milei-apoyo-de-gobernadores-y-la.mp4",
+   "volanta": "Blindaje político",
+   "youtube_url": "https://youtube.com/shorts/jL46LySK2ak"
+  },
   "nacionales:502713ec1f96e399": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -1540,6 +1566,84 @@
    "volanta": "Salud de Mirtha Legrand",
    "youtube_url": "https://youtube.com/shorts/zX5GSK4ZnSY"
   },
+  "nacionales:76f6781e9594def9": {
+   "categoria": "Justicia",
+   "categoria_nacional": "",
+   "descripcion": "La Justicia procesó al exfuncionario Facundo Leal en una causa por presuntos sobornos y direccionamiento de contrataciones. Hallaron dinero en efectivo en propiedades de Buenos Aires y Mendoza.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T20:07:27.000Z",
+   "hashtags": [
+    "Judiciales",
+    "Corrupcion"
+   ],
+   "id": "nacionales:76f6781e9594def9",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Procesaron al exjefe de ARSAT y le hallaron 2,6 millones de dólares en efectivo",
+   "urgente": false,
+   "video_bytes": 77035,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_76f6781e95_procesaron-al-exjefe-de-arsat-y-le-hallaron-2-6.mp4",
+   "volanta": "Corrupción en ARSAT",
+   "youtube_url": "https://youtube.com/shorts/5Z1d0K-w85w"
+  },
+  "nacionales:78b5fd65bc73d6c5": {
+   "categoria": "Deportes",
+   "categoria_nacional": "deportes",
+   "descripcion": "Darío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. El anterior jefe, Leandro Paredes, sigue prófugo.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T19:38:06.000Z",
+   "hashtags": [
+    "Racing",
+    "FutbolArgentino"
+   ],
+   "id": "nacionales:78b5fd65bc73d6c5",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Racing define al nuevo líder de su barra brava en la antesala del clásico",
+   "urgente": false,
+   "video_bytes": 91884,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_78b5fd65bc_racing-define-al-nuevo-lider-de-su-barra-brava-en.mp4",
+   "volanta": "Interna en Racing",
+   "youtube_url": "https://youtube.com/shorts/BqvBt9P8caM"
+  },
+  "nacionales:82015de779d2e56d": {
+   "categoria": "Cine y series",
+   "categoria_nacional": "cine_series",
+   "descripcion": "La plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan tendencia con duraciones de 1 h 48 min, 1 h 43 min, 1 h 41 min y 1 h 17 min.",
+   "duracion_seg": 20.1,
+   "generado": "2026-10-18T18:39:00.000Z",
+   "hashtags": [
+    "CineYSeries",
+    "Netflix"
+   ],
+   "id": "nacionales:82015de779d2e56d",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Las cinco películas para maratonear este fin de semana en Netflix",
+   "urgente": false,
+   "video_bytes": 418635,
+   "video_mb": 0.4,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_82015de779_las-cinco-peliculas-para-maratonear-este-fin-de.mp4",
+   "volanta": "Estrenos en Netflix",
+   "youtube_url": "https://youtube.com/shorts/XJCgrqgAfQQ"
+  },
   "nacionales:b010138b1fbfe036": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -1565,6 +1669,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4",
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/AX4EKiBZ2FI"
+  },
+  "nacionales:b1c71e9d1312dd69": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos. En paralelo, el PAMI atraviesa tensiones internas y protestas que afectaron a seis millones de afiliados.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-18T19:07:27.000Z",
+   "hashtags": [
+    "Salud",
+    "Clinicas"
+   ],
+   "id": "nacionales:b1c71e9d1312dd69",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia",
+   "urgente": false,
+   "video_bytes": 77666,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b1c71e9d13_advierten-riesgo-para-5000-clinicas-y-sanatorios.mp4",
+   "volanta": "Crisis sanitaria",
+   "youtube_url": "https://youtube.com/shorts/lizgrBu68yA"
   },
   "nacionales:b541d9169f033092": {
    "categoria": "Economía",
@@ -6762,6 +6892,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/banco-nacion-preven-otorgar-40-000-creditos-hipotecarios-antes-e884fc",
    "volanta": ""
   },
+  "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130": {
+   "categoria": "nacionales",
+   "descripcion": "La Justicia procesó al exfuncionario Facundo Leal en una causa por presuntos sobornos y direccionamiento de contrataciones. Hallaron dinero en efectivo en…",
+   "generado": "2026-10-18T20:07:25.938Z",
+   "id": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ad014b38cd5a4ddb864acc2bd8fd98fc~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de dólares",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
+   "volanta": ""
+  },
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": {
    "categoria": "nacionales",
    "descripcion": "Roberto Fabián Ayala reveló detalles de la charla con Leonel Flores por su exposición fuera de la cancha y habló sobre la salud de Emiliano Dibu Martínez.",
@@ -11651,6 +11799,32 @@
    "video_bytes": 96022,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2be0a52708_river-visita-a-belgrano-con-dudas-en-el-equipo-y.mp4"
   },
+  "nacionales:4d4c5be14febf1aa|tiktok": {
+   "actualizado": "2026-10-18T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:4d4c5be14febf1aa|tiktok",
+   "creado": "2026-10-18T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T18:07:32.000Z",
+   "id": "nacionales:4d4c5be14febf1aa",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económica\n\nEl oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella. El Gobierno busca sostener el escudo político mientras aguarda la reactivación económica.\n\nhttps://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económica",
+   "urgente": false,
+   "vence": "2026-10-19T12:07:32.000Z",
+   "video_bytes": 97876,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4d4c5be14f_el-dilema-de-milei-apoyo-de-gobernadores-y-la.mp4"
+  },
   "nacionales:502713ec1f96e399|tiktok": {
    "actualizado": "2026-10-18T13:20:13.000Z",
    "buffer_id": "",
@@ -11729,6 +11903,84 @@
    "video_bytes": 85205,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
   },
+  "nacionales:76f6781e9594def9|tiktok": {
+   "actualizado": "2026-10-18T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:76f6781e9594def9|tiktok",
+   "creado": "2026-10-18T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T20:07:27.000Z",
+   "id": "nacionales:76f6781e9594def9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Procesaron al exjefe de ARSAT y le hallaron 2,6 millones de dólares en efectivo\n\nLa Justicia procesó al exfuncionario Facundo Leal en una causa por presuntos sobornos y direccionamiento de contrataciones. Hallaron dinero en efectivo en propiedades de Buenos Aires y Mendoza.\n\nhttps://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678\n\n#chivilcoy #diariolacampaña #radiodelcentro #justicia #Judiciales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Procesaron al exjefe de ARSAT y le hallaron 2,6 millones de dólares en efectivo",
+   "urgente": false,
+   "vence": "2026-10-19T14:07:27.000Z",
+   "video_bytes": 77035,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_76f6781e95_procesaron-al-exjefe-de-arsat-y-le-hallaron-2-6.mp4"
+  },
+  "nacionales:78b5fd65bc73d6c5|tiktok": {
+   "actualizado": "2026-10-18T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
+   "creado": "2026-10-18T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T19:38:06.000Z",
+   "id": "nacionales:78b5fd65bc73d6c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Racing define al nuevo líder de su barra brava en la antesala del clásico\n\nDarío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. El anterior jefe, Leandro Paredes, sigue prófugo.\n\nhttps://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #Racing",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Racing define al nuevo líder de su barra brava en la antesala del clásico",
+   "urgente": false,
+   "vence": "2026-10-19T13:38:06.000Z",
+   "video_bytes": 91884,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_78b5fd65bc_racing-define-al-nuevo-lider-de-su-barra-brava-en.mp4"
+  },
+  "nacionales:82015de779d2e56d|tiktok": {
+   "actualizado": "2026-10-18T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:82015de779d2e56d|tiktok",
+   "creado": "2026-10-18T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T18:39:00.000Z",
+   "id": "nacionales:82015de779d2e56d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Las cinco películas para maratonear este fin de semana en Netflix\n\nLa plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan tendencia con duraciones de 1 h 48 min, 1 h 43 min, 1 h 41 min y 1 h 17 min.\n\nhttps://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d\n\n#chivilcoy #diariolacampaña #radiodelcentro #CineYSeries #Netflix",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Las cinco películas para maratonear este fin de semana en Netflix",
+   "urgente": false,
+   "vence": "2026-10-19T12:39:00.000Z",
+   "video_bytes": 418635,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_82015de779_las-cinco-peliculas-para-maratonear-este-fin-de.mp4"
+  },
   "nacionales:b010138b1fbfe036|tiktok": {
    "actualizado": "2026-10-18T17:20:13.000Z",
    "buffer_id": "",
@@ -11754,6 +12006,32 @@
    "vence": "2026-10-19T10:07:35.000Z",
    "video_bytes": 97171,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4"
+  },
+  "nacionales:b1c71e9d1312dd69|tiktok": {
+   "actualizado": "2026-10-18T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b1c71e9d1312dd69|tiktok",
+   "creado": "2026-10-18T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T19:07:27.000Z",
+   "id": "nacionales:b1c71e9d1312dd69",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia\n\nEl sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos. En paralelo, el PAMI atraviesa tensiones internas y protestas que afectaron a seis millones de afiliados.\n\nhttps://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Salud",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia",
+   "urgente": false,
+   "vence": "2026-10-19T13:07:27.000Z",
+   "video_bytes": 77666,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b1c71e9d13_advierten-riesgo-para-5000-clinicas-y-sanatorios.mp4"
   },
   "nacionales:b541d9169f033092|tiktok": {
    "actualizado": "2026-10-18T17:20:13.000Z",
@@ -21246,6 +21524,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x": {
+   "actualizado": "2026-10-18T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
+   "creado": "2026-10-18T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T20:07:25.938Z",
+   "id": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de dólares\n\nLa Justicia procesó al exfuncionario Facundo Leal en una causa por presuntos sobornos y direccionamiento de contrataciones.\n\nhttps://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de dólares",
+   "urgente": false,
+   "vence": "2026-10-19T20:07:25.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x": {
    "actualizado": "2026-10-17T21:40:12.000Z",
    "buffer_id": "",
@@ -23510,54 +23814,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok",
-   "cuando": "2026-10-16T00:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x",
-   "cuando": "2026-10-16T00:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok",
-   "cuando": "2026-10-16T00:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x",
-   "cuando": "2026-10-16T00:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
-   "cuando": "2026-10-16T00:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
-   "cuando": "2026-10-16T00:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|tiktok",
    "cuando": "2026-10-16T00:00:23.000Z",
@@ -27670,6 +27926,54 @@
    "cuando": "2026-10-18T19:40:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2111885974745588053"
+  },
+  {
+   "clave": "nacionales:4d4c5be14febf1aa|tiktok",
+   "cuando": "2026-10-18T20:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:82015de779d2e56d|tiktok",
+   "cuando": "2026-10-18T20:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b1c71e9d1312dd69|tiktok",
+   "cuando": "2026-10-18T20:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
+   "cuando": "2026-10-18T20:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:76f6781e9594def9|tiktok",
+   "cuando": "2026-10-18T20:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
+   "cuando": "2026-10-18T20:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -27745,10 +28049,15 @@
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
   "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
   "nacionales:2be0a52708a62532": "2026-10-18T17:20:13.000Z",
+  "nacionales:4d4c5be14febf1aa": "2026-10-18T20:20:13.000Z",
   "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
   "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
   "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
+  "nacionales:76f6781e9594def9": "2026-10-18T20:20:13.000Z",
+  "nacionales:78b5fd65bc73d6c5": "2026-10-18T20:20:13.000Z",
+  "nacionales:82015de779d2e56d": "2026-10-18T20:20:13.000Z",
   "nacionales:b010138b1fbfe036": "2026-10-18T17:20:13.000Z",
+  "nacionales:b1c71e9d1312dd69": "2026-10-18T20:20:13.000Z",
   "nacionales:b541d9169f033092": "2026-10-18T17:20:13.000Z",
   "nacionales:b6108526eb42ff8a": "2026-10-18T17:20:13.000Z",
   "nacionales:fbd1321e4156d9c7": "2026-10-18T17:20:13.000Z",
@@ -28004,6 +28313,7 @@
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
+  "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130": "2026-10-18T20:20:13.000Z",
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": "2026-10-17T21:40:12.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
