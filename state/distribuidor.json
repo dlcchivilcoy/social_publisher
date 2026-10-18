@@ -955,6 +955,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4",
    "youtube_url": "https://www.youtube.com/shorts/lqfpZiN2FnQ"
   },
+  "bot:video_matias-zucchi_mve43kv7d0je_01.mp4": {
+   "descripcion": "En un encuentro disputado en Chivilcoy, Gimnasia igualó 3-3 frente a Defensores de Vilelas por una nueva fecha del Torneo Federal A.\n\nEl equipo local debió sobreponerse a un trámite adverso, ya que estuvo dos veces abajo en el marcador durante el desarrollo del partido.\n\nRamiro Medina se encargó de marcar el primer descuento para el Lobo y más tarde, a través de la ejecución de un penal, estableció el 2-2 parcial. Sin embargo, el elenco visitante volvió a ponerse en ventaja y exigió una nueva respuesta por parte de los dirigidos locales.\n\nFinalmente, a los 33 minutos, Fausto Fiol apareció para convertir el gol que sentenció el 3-3 definitivo, sellando un empate con múltiples emociones.",
+   "duracion_seg": 93.6,
+   "generado": "2026-10-18T17:47:43.000Z",
+   "id": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 9556006,
+   "video_mb": 9.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Lxl5fWBu0Qs"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -5149,6 +5170,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
    "volanta": "Chivilcoy · Politica"
   },
+  "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": {
+   "categoria": "",
+   "descripcion": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy En el marco del Torneo Federal A, Gimnasia de Chivilcoy empató 3-3 frente a Defensores de Vilelas, en un encuentro donde el conjunto local estuvo dos veces en desventaja en el marcador. Ramiro Medina fue el autor del primer descuento y posteriormente, mediante un tiro penal, estableció el 2-2 transitorio. Luego de que la visita volviera a ponerse al frente, Fausto Fiol apareció a los 33 minutos para sellar el 3-3 definitivo.",
+   "generado": "2026-10-18T17:47:03.110Z",
+   "id": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6da298586c5845f595edc390f985467d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": {
    "categoria": "",
    "descripcion": "El Centro de Primera Infancia celebró el Día de la Familia Se llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de la institución. El CPI, que depende de la Secretaría de Desarrollo Social de la Municipalidad de Chivilcoy, a cargo de Ivana Aronna, convocó a las familias a compartir una jornada de encuentro en la que pudieron disfrutar de algo para comer y tomar,...",
@@ -8176,22 +8215,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 212,
-   "segundos": 18008,
+   "restantes": 211,
+   "segundos": 15599,
    "tope": 250
   },
   "30d": {
-   "restantes": 2717,
-   "segundos": 2001025,
+   "restantes": 2716,
+   "segundos": 1998617,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T17:20:16.000Z",
+ "cuota_visto": "2026-10-18T18:00:25.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10787,6 +10826,58 @@
    "vence": "2026-10-20T15:04:59.000Z",
    "video_bytes": 11185102,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e75fb896710fab36.mp4"
+  },
+  "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok": {
+   "actualizado": "2026-10-18T18:00:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
+   "creado": "2026-10-18T18:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T17:47:43.000Z",
+   "id": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy\n\nEl equipo local logró sobreponerse tras estar dos veces abajo en el marcador gracias a los dos tantos de Ramiro Medina, uno de ellos de penal. Finalmente, Fausto Fiol convirtió a los 33 minutos el gol que sentenció la igualdad definitiva por el Torneo Federal A.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-20T17:47:43.000Z",
+   "video_bytes": 9556006,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4"
+  },
+  "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x": {
+   "actualizado": "2026-10-18T18:00:23.000Z",
+   "buffer_id": "6ad50939ae173d6e0011b1e9",
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
+   "creado": "2026-10-18T18:00:17.000Z",
+   "dueAt": "2026-10-18T18:03:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T17:47:43.000Z",
+   "id": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy\n\nPor el Torneo Federal A, el Lobo remontó dos veces el marcador con tantos de Ramiro Medina y un gol de Fausto Fiol a los 33 minutos. El equipo local debió sobreponerse a un trámite adverso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-20T17:47:43.000Z",
+   "video_bytes": 9556006,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -18690,6 +18781,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x": {
+   "actualizado": "2026-10-18T18:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
+   "creado": "2026-10-18T18:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T17:47:03.110Z",
+   "id": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy\n\nEl local remontó dos veces la desventaja con tantos de Ramiro Medina. Fausto Fiol anotó a los 33 minutos para sellar el resultado definitivo en el Torneo Federal A.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-19T17:47:03.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x": {
    "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad35541769b45793473307f",
@@ -23135,32 +23252,6 @@
  },
  "registro": [
   {
-   "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
-   "cuando": "2026-10-15T21:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|tiktok",
-   "cuando": "2026-10-15T21:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado|x",
-   "cuando": "2026-10-15T21:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:14487ca8-2475-41c1-b598-3490602d4ec8|x",
-   "cuando": "2026-10-15T21:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
    "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
    "cuando": "2026-10-15T21:40:16.000Z",
    "estado": "pendiente",
@@ -27291,6 +27382,37 @@
    "cuando": "2026-10-18T17:20:16.000Z",
    "dueAt": "2026-10-18T17:23:04.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
+   "cuando": "2026-10-18T18:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
+   "cuando": "2026-10-18T18:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
+   "cuando": "2026-10-18T18:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad50939ae173d6e0011b1e9",
+   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
+   "cuando": "2026-10-18T18:00:25.000Z",
+   "dueAt": "2026-10-18T18:03:36.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -27341,6 +27463,7 @@
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": "2026-10-18T01:20:13.000Z",
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": "2026-10-18T15:20:15.000Z",
+  "bot:video_matias-zucchi_mve43kv7d0je_01.mp4": "2026-10-18T18:00:17.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -27536,6 +27659,7 @@
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": "2026-10-15T10:20:13.000Z",
   "web:480e86f5-f14e-481b-844f-2ac1f1192f77": "2026-10-17T00:20:12.000Z",
+  "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": "2026-10-18T18:00:17.000Z",
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",

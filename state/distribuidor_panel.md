@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 4 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 2 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 8 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 8 | 0 | 0 | 0 |
 
 ## Canales
@@ -25,10 +25,12 @@ Actualizado: 18/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 212 de 250 · 30d: quedan 2717 de 3000 (visto 2026-10-18T17:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 211 de 250 · 30d: quedan 2716 de 3000 (visto 2026-10-18T18:00:25.000Z)
 
-## Cola propia (24 esperando)
+## Cola propia (26 esperando)
+- TikTok · Reels del bot · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
@@ -62,10 +64,6 @@ Actualizado: 18/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T15:20 recibido web:5e1b7468-652a-43da-baf9-771cda1103ff|x 
-- 2026-10-18T15:20 recibido web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x 
-- 2026-10-18T15:20 vencido web:36f35444-e990-4d78-aeea-920acd95d869|x cupo diario de Notas web en X completo (15)
-- 2026-10-18T15:20 programado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x 
 - 2026-10-18T15:40 recibido web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x 
 - 2026-10-18T15:40 vencido web:d9d5c19d-7cdc-4599-9431-674725b57a40|x cupo diario de Notas web en X completo (15)
 - 2026-10-18T16:20 recibido web:1abafabb-ff53-4fcd-911c-6a4465fed747|x 
@@ -87,3 +85,7 @@ Actualizado: 18/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-18T17:20 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
 - 2026-10-18T17:20 enviado web:eff024d5-cc52-4c26-9548-edd418eb2cec|x 
 - 2026-10-18T17:20 programado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok 
+- 2026-10-18T18:00 recibido bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x 
+- 2026-10-18T18:00 recibido bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
+- 2026-10-18T18:00 recibido web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x 
+- 2026-10-18T18:00 programado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x 
