@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 6 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 14 | 0 | 0 | 0 |
@@ -25,9 +25,10 @@ Actualizado: 18/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 207 de 250 · 30d: quedan 2712 de 3000 (visto 2026-10-18T20:40:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 206 de 250 · 30d: quedan 2711 de 3000 (visto 2026-10-18T21:00:21.000Z)
 
-## Cola propia (33 esperando)
+## Cola propia (34 esperando)
+- TikTok · Reels del bot · Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Procesaron al exjefe de ARSAT y le hallaron 2,6 millones de dólares en efectivo — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
@@ -57,7 +58,6 @@ Actualizado: 18/10/2026 17:40 (hora AR) · ACTIVO
 - X · Notas web · El papa León XIV reapareció en público tras una cirugía de pulmón y descartan im — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Misión minera en Londres en plena tensión diplomática por las Islas Malvinas — cupo diario de Notas web en X completo (15)
-- TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,9 +68,6 @@ Actualizado: 18/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T18:20 recibido policiales:https://www.diariodemocracia.com/policiales/34670 
-- 2026-10-18T18:20 recibido policiales:https://www.diariodemocracia.com/policiales/34670 
-- 2026-10-18T18:20 recibido web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x 
 - 2026-10-18T18:20 vencido web:38a2facb-610c-48c3-ba78-33049770dfcf|x cupo diario de Notas web en X completo (15)
 - 2026-10-18T18:20 enviado bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok 
 - 2026-10-18T18:20 enviado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x 
@@ -93,3 +90,6 @@ Actualizado: 18/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-18T20:20 recibido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x 
 - 2026-10-18T20:40 recibido web:f02de8c1-15da-4722-a133-920069b5d431|x 
 - 2026-10-18T20:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/18/det 
+- 2026-10-18T21:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x 
+- 2026-10-18T21:00 recibido bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tikto 
+- 2026-10-18T21:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x 

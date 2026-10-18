@@ -682,6 +682,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4",
    "youtube_url": "https://www.youtube.com/shorts/_opQKoz8pNI"
   },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": {
+   "descripcion": "El intendente de Chivilcoy, Guillermo Britos, cuestionó una publicación de un diario local sobre la recuperación de la nave industrial de Bicontinentar y aseguró que el Municipio reclamó judicialmente el pago de una suma equivalente a un sueldo de empleado municipal por cada día",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-18T20:40:05.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar",
+   "urgente": false,
+   "video_bytes": 569895,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/vTnJv5gBwzY"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -8484,17 +8505,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 207,
-   "segundos": 6002,
+   "restantes": 206,
+   "segundos": 4802,
    "tope": 250
   },
   "30d": {
-   "restantes": 2712,
-   "segundos": 1989019,
+   "restantes": 2711,
+   "segundos": 1987820,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T20:40:21.000Z",
+ "cuota_visto": "2026-10-18T21:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10306,6 +10327,58 @@
    "vence": "2026-10-20T04:33:50.000Z",
    "video_bytes": 445428,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok": {
+   "actualizado": "2026-10-18T21:00:16.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
+   "creado": "2026-10-18T21:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T20:40:05.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar\n\nEl intendente de Chivilcoy, Guillermo Britos, cuestionó una publicación de un diario local sobre la recuperación de la nave industrial de Bicontinentar. Además, aseguró que el Municipio reclamó judicialmente el pago de una suma equivalente a un sueldo de empleado municipal por cada día.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar",
+   "urgente": false,
+   "vence": "2026-10-20T20:40:05.000Z",
+   "video_bytes": 569895,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4"
+  },
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x": {
+   "actualizado": "2026-10-18T21:00:19.000Z",
+   "buffer_id": "6ad53365a48c8f8371b391da",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
+   "creado": "2026-10-18T21:00:16.000Z",
+   "dueAt": "2026-10-18T21:03:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T20:40:05.000Z",
+   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar\n\nEl intendente Guillermo Britos cuestionó una publicación local y aseguró que el Municipio reclamó judicialmente un pago diario por la recuperación de la nave de Bicontinentar.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar",
+   "urgente": false,
+   "vence": "2026-10-20T20:40:05.000Z",
+   "video_bytes": 569895,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -23860,24 +23933,6 @@
  },
  "registro": [
   {
-   "clave": "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b|x",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110876084392640622"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697044413817818389"
-  },
-  {
    "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x",
    "cuando": "2026-10-16T00:00:24.000Z",
    "evento": "enviado",
@@ -28017,6 +28072,29 @@
    "cuando": "2026-10-18T20:40:21.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7698095682451754241"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
+   "cuando": "2026-10-18T21:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
+   "cuando": "2026-10-18T21:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6ad53365a48c8f8371b391da",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
+   "cuando": "2026-10-18T21:00:21.000Z",
+   "dueAt": "2026-10-18T21:03:32.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -28054,6 +28132,7 @@
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
+  "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
