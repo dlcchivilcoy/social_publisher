@@ -892,6 +892,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4",
    "youtube_url": "https://www.youtube.com/shorts/quiiJy0JtbY"
   },
+  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": {
+   "descripcion": "En el marco de la conmemoración del Día de la Lealtad, se llevó a cabo una jornada de encuentro en el espacio Apertura Peronista, ámbito en el que participó Luciano Dellepiane para compartir su mirada sobre el presente político y social.\n\nDurante la actividad, Dellepiane consideró que se trata de una fecha muy cara a los sentimientos del movimiento, aunque advirtió que el contexto actual resulta preocupante y complejo en materia institucional para el país.\n\nEn ese sentido, el dirigente cuestionó con dureza el deterioro económico general y la gestión encabezada por el presidente Javier Milei, a la que definió críticamente como una tragedia tras compararla con crisis y vaivenes anteriores.\n\nFinalmente, remarcó que desde su sector trabajan con el objetivo de aportar propuestas y consolidar una alternativa política para los próximos tiempos, destacando el nivel de convocatoria alcanzado en las distintas iniciativas desarrolladas a lo largo de la fecha.",
+   "duracion_seg": 61.4,
+   "generado": "2026-10-18T01:10:20.000Z",
+   "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
+   "urgente": false,
+   "video_bytes": 7636070,
+   "video_mb": 7.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/w3c8EqspOpQ"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -4869,6 +4890,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
    "volanta": "Manifestaciones"
+  },
+  "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": {
+   "categoria": "",
+   "descripcion": "Luciano Dellepiane participó del encuentro en Apertura Peronista En el marco del Día de la Lealtad, se llevó a cabo un encuentro en Apertura Peronista, donde Luciano Dellepiane compartió sus reflexiones sobre la jornada y la coyuntura actual. Dellepiane señaló que se trata de una fecha muy cara para el peronismo y un motivo de encuentro, aunque remarcó el contexto actual: «Es un momento triste, creo que ayer casualmente estuvo el Gato Sylvestre acá en Chivilcoy y decía una cosa que creo que...",
+   "generado": "2026-10-18T01:09:46.723Z",
+   "id": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1b637d6d414e4c7da3c3a809aad82fbc~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "volanta": "Chivilcoy · Política"
   },
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": {
    "categoria": "nacionales",
@@ -10072,6 +10111,58 @@
    "vence": "2026-10-20T00:58:02.000Z",
    "video_bytes": 7799823,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
+  },
+  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok": {
+   "actualizado": "2026-10-18T01:20:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
+   "creado": "2026-10-18T01:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T01:10:20.000Z",
+   "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nDurante la conmemoración del Día de la Lealtad, Luciano Dellepiane advirtió que el contexto actual resulta preocupante y complejo en materia institucional para el país. Además, cuestionó el deterioro económico y definió como una tragedia a la gestión de Javier Milei, al tiempo que remarcó que desde su sector trabajan para consolidar una alternativa política.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
+   "urgente": false,
+   "vence": "2026-10-20T01:10:20.000Z",
+   "video_bytes": 7636070,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
+  },
+  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x": {
+   "actualizado": "2026-10-18T01:20:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
+   "creado": "2026-10-18T01:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Reels del bot en X completo (10)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T01:10:20.000Z",
+   "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nDurante la jornada, el dirigente cuestionó con dureza el deterioro económico y la gestión de Javier Milei. Además, remarcó que trabajan para consolidar una alternativa política.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
+   "urgente": false,
+   "vence": "2026-10-20T01:10:20.000Z",
+   "video_bytes": 7636070,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -17738,6 +17829,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x": {
+   "actualizado": "2026-10-18T01:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
+   "creado": "2026-10-18T01:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T01:09:46.723Z",
+   "id": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nPor el Día de la Lealtad, se realizó un encuentro donde Luciano Dellepiane compartió sus reflexiones y remarcó que se vive un momento triste.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
+   "urgente": false,
+   "vence": "2026-10-19T01:09:46.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x": {
    "actualizado": "2026-10-17T21:40:13.000Z",
    "buffer_id": "",
@@ -21777,29 +21894,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad0ef304fc2f6b7dbe465cd",
-   "clave": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x",
-   "cuando": "2026-10-15T15:20:16.000Z",
-   "dueAt": "2026-10-15T20:00:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
-   "cuando": "2026-10-15T15:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
-   "cuando": "2026-10-15T15:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x",
    "cuando": "2026-10-15T15:40:19.000Z",
@@ -25920,6 +26014,30 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
+   "cuando": "2026-10-18T01:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
+   "cuando": "2026-10-18T01:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
+   "cuando": "2026-10-18T01:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -25967,6 +26085,7 @@
   "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4": "2026-10-18T00:40:14.000Z",
   "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4": "2026-10-18T01:00:19.000Z",
+  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": "2026-10-18T01:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -26154,6 +26273,7 @@
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8": "2026-10-18T01:00:19.000Z",
   "web:529a6711-cd47-4076-ac13-c952c77ee9c7": "2026-10-15T10:20:13.000Z",
+  "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": "2026-10-18T01:20:13.000Z",
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
