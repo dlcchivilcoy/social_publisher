@@ -7710,17 +7710,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 227,
-   "segundos": 42009,
+   "restantes": 226,
+   "segundos": 40802,
    "tope": 250
   },
   "30d": {
-   "restantes": 2732,
-   "segundos": 2025026,
+   "restantes": 2731,
+   "segundos": 2023820,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T10:40:14.000Z",
+ "cuota_visto": "2026-10-18T11:00:27.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -8796,14 +8796,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok": {
-   "actualizado": "2026-10-16T14:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6cb0a208cb323602036",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
    "creado": "2026-10-16T14:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T14:23:49.000Z",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-16T13:43:28.000Z",
    "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
    "intentos": 0,
@@ -9479,14 +9479,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok": {
-   "actualizado": "2026-10-18T09:00:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6c7ae173d6e00fa053f",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok",
    "creado": "2026-10-18T09:00:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T11:03:59.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T04:33:50.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
    "intentos": 0,
@@ -10154,14 +10154,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
   },
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T01:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6cb769b457934bbe07a",
    "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
    "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T13:43:39.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T00:58:02.000Z",
    "id": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4",
    "intentos": 0,
@@ -10206,14 +10206,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
   },
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T01:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6c90a208cb323601e52",
    "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
    "creado": "2026-10-18T01:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T12:23:54.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T01:10:20.000Z",
    "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
    "intentos": 0,
@@ -13790,14 +13790,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok": {
-   "actualizado": "2026-10-17T19:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6ca0a208cb323601f48",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
    "creado": "2026-10-17T19:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T13:03:53.000Z",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
    "intentos": 0,
@@ -14532,14 +14532,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_02_chacabuco_detuvieron-en-chacabuco-a-un-h.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok": {
-   "actualizado": "2026-10-18T00:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6c90a208cb323601dab",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
    "creado": "2026-10-18T00:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T11:43:52.000Z",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T00:11:04.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
    "intentos": 0,
@@ -17029,7 +17029,7 @@
    "creado": "2026-10-17T21:00:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-17T20:46:45.417Z",
    "id": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e",
@@ -20791,14 +20791,14 @@
    "video_url": ""
   },
   "web:ccce7a0b-db66-488d-8412-6628b516975f|x": {
-   "actualizado": "2026-10-17T23:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T11:00:18.000Z",
+   "buffer_id": "6ad4a6c6938409f1d0c8ce5b",
    "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
    "creado": "2026-10-17T23:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T14:45:49.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-17T23:02:14.556Z",
    "id": "web:ccce7a0b-db66-488d-8412-6628b516975f",
    "intentos": 0,
@@ -22014,55 +22014,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|tiktok",
-   "cuando": "2026-10-15T17:00:22.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
-  {
-   "buffer_id": "6ad106a77208706296a0c3c0",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html|tiktok",
-   "cuando": "2026-10-15T17:00:24.000Z",
-   "dueAt": "2026-10-15T18:43:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad106a702634b2d67e5b5f1",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|tiktok",
-   "cuando": "2026-10-15T17:00:24.000Z",
-   "dueAt": "2026-10-15T19:23:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00213",
-   "cuando": "2026-10-15T17:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00213|x",
-   "cuando": "2026-10-15T17:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|x",
-   "cuando": "2026-10-15T18:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
-   "cuando": "2026-10-15T18:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region|x",
    "cuando": "2026-10-15T18:00:21.000Z",
@@ -26167,6 +26118,55 @@
    "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
    "cuando": "2026-10-18T10:40:14.000Z",
    "dueAt": "2026-10-18T14:30:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6c6938409f1d0c8ce5b",
+   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T14:45:49.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6c7ae173d6e00fa053f",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T11:03:59.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6c90a208cb323601dab",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T11:43:52.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6c90a208cb323601e52",
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T12:23:54.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6ca0a208cb323601f48",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T13:03:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6cb769b457934bbe07a",
+   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T13:43:39.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad4a6cb0a208cb323602036",
+   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
+   "cuando": "2026-10-18T11:00:27.000Z",
+   "dueAt": "2026-10-18T14:23:49.000Z",
    "evento": "programado"
   }
  ],
