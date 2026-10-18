@@ -1,3 +1,4 @@
+import re
 import tempfile
 import time
 from datetime import datetime
@@ -16,15 +17,66 @@ GRAPH_VERSION = "v19.0"
 MAX_CAPTION = 2200  # límite de Instagram
 
 
+# INSTAGRAM SIN LINKS (regla del usuario, 18/10/2026: «sacá el link a la nota en los reels o carruseles de
+# IG… para todas las categorías»): en Instagram los links no se pueden tocar; va el sitio y nada más. Es la
+# ÚLTIMA barrera: publish, publish_carousel y publish_reel pasan el texto por _acotar, que lo limpia acá.
+_LINK = re.compile(r"(?:https?://|www\.)\S+", re.I)
+_LINK_INVITA = re.compile(r"(nota completa|seguí leyendo|segui leyendo|leé|lee la nota|leela|más info|mas info|"
+                          r"más noticias|mas noticias|en nuestra web|link)", re.I)
+
+
+def _sitio() -> str:
+    from utils.branding import sitio_web
+    return sitio_web()
+
+
+def _es_link_prohibido(url: str) -> bool:
+    """El sitio pelado (www.diariolacampaña.com.ar) se permite; cualquier otra dirección, no."""
+    limpio = re.sub(r"^https?://", "", url.rstrip(".,;:)»\"'").lower()).rstrip("/")
+    sitio = _sitio().lower()
+    return limpio not in {sitio, sitio.removeprefix("www."), "www.diariolacampana.com.ar", "diariolacampana.com.ar"}
+
+
+def caption_sin_links(texto: str) -> str:
+    """El texto de Instagram sin links: el renglón que invita a la nota pasa a ser «📲 Más noticias en
+    <sitio>»; otro renglón corto con un link (el canal de YouTube…) se saca; en un párrafo largo se saca
+    solo la dirección."""
+    if not texto or not any(_es_link_prohibido(u) for u in _LINK.findall(texto)):
+        return texto
+    sitio = _sitio()
+    linea_sitio = f"📲 Más noticias en {sitio}"
+    salida, puso_sitio = [], False
+    for renglon in texto.split("\n"):
+        links = [u for u in _LINK.findall(renglon) if _es_link_prohibido(u)]
+        if not links:
+            salida.append(renglon)
+            continue
+        if len(renglon) > 160:                        # un párrafo con una dirección adentro
+            for u in links:
+                renglon = renglon.replace(u, "")
+            salida.append(" ".join(renglon.split()))
+            continue
+        if _LINK_INVITA.search(renglon) and not puso_sitio:
+            salida.append(linea_sitio)
+            puso_sitio = True
+    texto = "\n".join(salida)
+    if sitio.lower() not in texto.lower():
+        partes = texto.rstrip().split("\n\n")
+        j = len(partes) - 1 if partes and partes[-1].lstrip().startswith("#") else len(partes)
+        partes.insert(j, linea_sitio)
+        texto = "\n\n".join(partes)
+    return re.sub(r"\n{3,}", "\n\n", texto).strip()
+
+
 def _acotar(caption: str) -> str:
-    """Último tope antes de mandar, por si algo llega largo igual.
+    """Último tope antes de mandar, por si algo llega largo igual. Y sin links (caption_sin_links).
 
     Antes se hacía `caption[:MAX_CAPTION]`, que corta EN SECO: la última palabra quedaba
     partida al medio. Acá se corta por palabra y se cierra con «…».
 
     Lo normal es que esto no haga nada: el caption ya viene resumido de
     `transcriber._caption_ig`, que en vez de cortar le pide un resumen a Gemini."""
-    caption = (caption or "").strip()
+    caption = caption_sin_links((caption or "").strip())
     if len(caption) <= MAX_CAPTION:
         return caption
     corte = caption[:MAX_CAPTION - 1]
@@ -237,7 +289,7 @@ def _es_transitorio(resp) -> bool:
 
 def _clave_caption(texto: str) -> str:
     """Arranque normalizado del caption, para reconocer nuestro propio posteo."""
-    return " ".join((texto or "").split())[:80].lower()
+    return " ".join((caption_sin_links(texto) or "").split())[:80].lower()
 
 
 def _epoch(ts: str) -> float:
