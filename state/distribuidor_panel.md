@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 7 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 7 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 2 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 15 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 17 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 1 | 12 | 0 | 0 | 0 |
 
 ## Canales
@@ -25,9 +25,11 @@ Actualizado: 18/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 203 de 250 · 30d: quedan 2708 de 3000 (visto 2026-10-18T21:40:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 202 de 250 · 30d: quedan 2707 de 3000 (visto 2026-10-18T22:00:27.000Z)
 
-## Cola propia (32 esperando)
+## Cola propia (35 esperando)
+- TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Preparan una Caminata Familiar a beneficio de dos instituciones — cupo diario de Notas web en X completo (15)
 - X · Notas web · Britos defendió el patrimonio municipal y cruzó a un medio por Bicontinentar — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia — tope de 12 publicaciones en 24 h de TikTok
@@ -40,6 +42,7 @@ Actualizado: 18/10/2026 18:40 (hora AR) · ACTIVO
 - X · Notas web · El Padre Ricardo brindó una bendición especial a las madres — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026 — cupo diario de Notas web en X completo (15)
 - X · Notas web · Murió un sacerdote en plena misa en Ecuador tras la caída de una cruz de madera — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · crece el optimismo por la posible visita del papa León XIV a la Argentina — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El papa León XIV reapareció tras ser operado de un cáncer de pulmón — tope de 12 publicaciones en 24 h de TikTok
@@ -55,9 +58,6 @@ Actualizado: 18/10/2026 18:40 (hora AR) · ACTIVO
 - X · Notas web · River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario — cupo diario de Notas web en X completo (15)
 - X · Notas web · Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · El papa León XIV reapareció en público tras una cirugía de pulmón y descartan im — cupo diario de Notas web en X completo (15)
-- TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Misión minera en Londres en plena tensión diplomática por las Islas Malvinas — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,11 +68,6 @@ Actualizado: 18/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T19:40 recibido web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x 
-- 2026-10-18T19:40 enviado bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok 
-- 2026-10-18T19:40 enviado policiales:https://www.diariodemocracia.com/policiales/34670 
-- 2026-10-18T19:40 enviado policiales:https://www.diariodemocracia.com/policiales/34670 
-- 2026-10-18T20:20 recibido nacionales:4d4c5be14febf1aa|tiktok 
 - 2026-10-18T20:20 recibido nacionales:82015de779d2e56d|tiktok 
 - 2026-10-18T20:20 recibido nacionales:b1c71e9d1312dd69|tiktok 
 - 2026-10-18T20:20 recibido nacionales:78b5fd65bc73d6c5|tiktok 
@@ -93,3 +88,8 @@ Actualizado: 18/10/2026 18:40 (hora AR) · ACTIVO
 - 2026-10-18T21:40 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tikto 
 - 2026-10-18T21:40 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x 
 - 2026-10-18T21:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
+- 2026-10-18T22:00 recibido bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x 
+- 2026-10-18T22:00 recibido bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok 
+- 2026-10-18T22:00 recibido web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x 
+- 2026-10-18T22:00 recibido web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x 
+- 2026-10-18T22:00 programado bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x 

@@ -997,6 +997,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Lxl5fWBu0Qs"
   },
+  "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4": {
+   "descripcion": "Comenzaron los preparativos iniciales para la realización de una Caminata Familiar comunitaria a beneficio de dos instituciones educativas de la ciudad.\n\nLa propuesta solidaria estará destinada a colaborar con la Escuela de Educación Especial N° 502 y el Centro de Formación Integral N° 1.\n\nSegún informaron en la convocatoria, la actividad tiene horario de inicio programado para las 18.",
+   "duracion_seg": 18.1,
+   "generado": "2026-10-18T21:50:36.000Z",
+   "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
+   "urgente": false,
+   "video_bytes": 4050055,
+   "video_mb": 3.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/SjXHCr65IPs"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -4706,6 +4727,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/anses-montos-aumento-y-calendario-de-pagos-para-este-jueves-15-e48071",
    "volanta": ""
+  },
+  "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": {
+   "categoria": "",
+   "descripcion": "Preparan una Caminata Familiar a beneficio de dos instituciones Comenzaron los preparativos iniciales para la realización de una Caminata Familiar a beneficio de la EEE N° 502 y el CFI N° 1. La actividad tiene horario de inicio programado para las 18.",
+   "generado": "2026-10-18T21:49:19.375Z",
+   "id": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_758e4311b51a47e28a985651a9102229~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": {
    "categoria": "",
@@ -8451,6 +8490,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercado-inmobiliario-marisa-mindeguia-hoy-se-estan-vendiendo",
    "volanta": "MERCADO INMOBILIARIO"
   },
+  "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": {
+   "categoria": "nacionales",
+   "descripcion": "El músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.",
+   "generado": "2026-10-18T21:50:12.597Z",
+   "id": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_706b6501daf64346a7eff5e143d21df2~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
+   "volanta": ""
+  },
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": {
    "categoria": "nacionales",
    "descripcion": "El Indec difundió el Índice de Precios al Consumidor del mes pasado. Vivienda y educación lideraron las subas, mientras analistas prevén un ritmo similar…",
@@ -8544,22 +8601,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 203,
-   "segundos": 2401,
+   "restantes": 202,
+   "segundos": 1197,
    "tope": 250
   },
   "30d": {
-   "restantes": 2708,
-   "segundos": 1985418,
+   "restantes": 2707,
+   "segundos": 1984214,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T21:40:23.000Z",
+ "cuota_visto": "2026-10-18T22:00:27.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -11264,6 +11321,58 @@
    "vence": "2026-10-20T17:47:43.000Z",
    "video_bytes": 9556006,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4"
+  },
+  "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok": {
+   "actualizado": "2026-10-18T22:00:19.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok",
+   "creado": "2026-10-18T22:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-18T21:50:36.000Z",
+   "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Preparan una Caminata Familiar a beneficio de dos instituciones\n\nComenzaron los preparativos iniciales para la realización de una Caminata Familiar comunitaria a beneficio de dos instituciones educativas de la ciudad. La propuesta solidaria estará destinada a colaborar con la Escuela de Educación Especial N° 502 y el Centro de Formación Integral N° 1. Según informaron en la convocatoria, la actividad tiene horario de inicio programado para las 18.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
+   "urgente": false,
+   "vence": "2026-10-20T21:50:36.000Z",
+   "video_bytes": 4050055,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
+  },
+  "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x": {
+   "actualizado": "2026-10-18T22:00:26.000Z",
+   "buffer_id": "6ad5417bae173d6e001ca567",
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x",
+   "creado": "2026-10-18T22:00:19.000Z",
+   "dueAt": "2026-10-18T22:03:07.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-18T21:50:36.000Z",
+   "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Preparan una Caminata Familiar a beneficio de dos instituciones\n\nLa actividad solidaria colaborará con la Escuela Especial N° 502 y el Centro de Formación Integral N° 1. La convocatoria informó que comenzará a las 18.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
+   "urgente": false,
+   "vence": "2026-10-20T21:50:36.000Z",
+   "video_bytes": 4050055,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -18423,6 +18532,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x": {
+   "actualizado": "2026-10-18T22:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
+   "creado": "2026-10-18T22:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T21:49:19.375Z",
+   "id": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Preparan una Caminata Familiar a beneficio de dos instituciones\n\nComenzaron los preparativos iniciales para la realización de una Caminata Familiar a beneficio de la EEE N° 502 y el CFI N° 1. La actividad tiene horario de inicio programado para las 18.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
+   "urgente": false,
+   "vence": "2026-10-19T21:49:19.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x": {
    "actualizado": "2026-10-17T17:20:32.000Z",
    "buffer_id": "",
@@ -23926,6 +24061,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x": {
+   "actualizado": "2026-10-18T22:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x",
+   "creado": "2026-10-18T22:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T21:50:12.597Z",
+   "id": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026\n\nEl músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.\n\nhttps://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026",
+   "urgente": false,
+   "vence": "2026-10-19T21:50:12.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750|x": {
    "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "",
@@ -24056,42 +24217,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok",
-   "cuando": "2026-10-16T01:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697054735370652949"
-  },
-  {
-   "buffer_id": "6ad180809597cd1662607795",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|tiktok",
-   "cuando": "2026-10-16T01:40:16.000Z",
-   "dueAt": "2026-10-16T01:43:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad180804ed7d375a43dd85d",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
-   "cuando": "2026-10-16T01:40:16.000Z",
-   "dueAt": "2026-10-16T02:23:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|x",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-16T02:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|x",
    "cuando": "2026-10-16T02:00:19.000Z",
@@ -28216,6 +28341,45 @@
    "cuando": "2026-10-18T21:40:23.000Z",
    "dueAt": "2026-10-18T21:43:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x",
+   "cuando": "2026-10-18T22:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok",
+   "cuando": "2026-10-18T22:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x",
+   "cuando": "2026-10-18T22:00:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
+   "cuando": "2026-10-18T22:00:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad5417bae173d6e001ca567",
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x",
+   "cuando": "2026-10-18T22:00:27.000Z",
+   "dueAt": "2026-10-18T22:03:07.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -28268,6 +28432,7 @@
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": "2026-10-18T01:20:13.000Z",
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": "2026-10-18T15:20:15.000Z",
   "bot:video_matias-zucchi_mve43kv7d0je_01.mp4": "2026-10-18T18:00:17.000Z",
+  "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4": "2026-10-18T22:00:19.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -28432,6 +28597,7 @@
   "web:1abafabb-ff53-4fcd-911c-6a4465fed747": "2026-10-18T16:20:14.000Z",
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
+  "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": "2026-10-18T22:00:19.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:2501c79e-6248-40fd-9e51-af526da9d612": "2026-10-18T11:20:13.000Z",
@@ -28641,6 +28807,7 @@
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec": "2026-10-17T22:20:14.000Z",
   "web:f02de8c1-15da-4722-a133-920069b5d431": "2026-10-18T20:40:13.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
+  "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": "2026-10-18T22:00:19.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
