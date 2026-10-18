@@ -8505,17 +8505,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 206,
-   "segundos": 4802,
+   "restantes": 205,
+   "segundos": 3608,
    "tope": 250
   },
   "30d": {
-   "restantes": 2711,
-   "segundos": 1987820,
+   "restantes": 2710,
+   "segundos": 1986626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T21:00:21.000Z",
+ "cuota_visto": "2026-10-18T21:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10329,14 +10329,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok": {
-   "actualizado": "2026-10-18T21:00:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T21:20:14.000Z",
+   "buffer_id": "6ad5380f0a208cb32380710e",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
    "creado": "2026-10-18T21:00:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T21:23:33.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T20:40:05.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l",
    "intentos": 0,
@@ -11995,14 +11995,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
   },
   "nacionales:76f6781e9594def9|tiktok": {
-   "actualizado": "2026-10-18T20:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T21:20:14.000Z",
+   "buffer_id": "6ad538100b0d72757a3c3d9d",
    "clave": "nacionales:76f6781e9594def9|tiktok",
    "creado": "2026-10-18T20:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T22:03:31.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T20:07:27.000Z",
    "id": "nacionales:76f6781e9594def9",
    "intentos": 0,
@@ -20936,14 +20936,14 @@
    "video_url": ""
   },
   "web:902234a6-60aa-4826-bffd-430eafadfad0|x": {
-   "actualizado": "2026-10-17T21:20:16.000Z",
+   "actualizado": "2026-10-18T21:20:14.000Z",
    "buffer_id": "",
    "clave": "web:902234a6-60aa-4826-bffd-430eafadfad0|x",
    "creado": "2026-10-17T21:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T21:06:30.465Z",
    "id": "web:902234a6-60aa-4826-bffd-430eafadfad0",
    "intentos": 0,
@@ -23932,24 +23932,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|x",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110872368675483829"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/|x",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110868762198941855"
-  },
-  {
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|x",
-   "cuando": "2026-10-16T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2110879846586872081"
-  },
   {
    "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
    "cuando": "2026-10-16T00:20:17.000Z",
@@ -28094,6 +28076,26 @@
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
    "cuando": "2026-10-18T21:00:21.000Z",
    "dueAt": "2026-10-18T21:03:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "web:902234a6-60aa-4826-bffd-430eafadfad0|x",
+   "cuando": "2026-10-18T21:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad5380f0a208cb32380710e",
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
+   "cuando": "2026-10-18T21:20:16.000Z",
+   "dueAt": "2026-10-18T21:23:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad538100b0d72757a3c3d9d",
+   "clave": "nacionales:76f6781e9594def9|tiktok",
+   "cuando": "2026-10-18T21:20:16.000Z",
+   "dueAt": "2026-10-18T22:03:31.000Z",
    "evento": "programado"
   }
  ],
