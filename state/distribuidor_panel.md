@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 3 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 10 | 3 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 3 | 8 | 2 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 3 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 4 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 2 enviadas + 4 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 7 enviadas + 7 programadas de 50 por día
+- TikTok: conectado · Buffer: 4 enviadas + 2 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -25,17 +25,16 @@ Actualizado: 18/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2728 de 3000 (visto 2026-10-18T13:20:20.000Z)
+15m: quedan 98 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2726 de 3000 (visto 2026-10-18T13:40:14.000Z)
 
-## Cola propia (19 esperando)
+## Cola propia (18 esperando)
 - TikTok · Nacionales y categorías · Docentes bonaerenses aceptaron un aumento salarial del 6% bimestral — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Mensajes de unidad en el peronismo y reaparición de Cristina Kirchner en su balc — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Juana Viale habló sobre la salud de Mirtha Legrand y bromeó con los 100 años — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Álvaro Cortes presentó su tercer libro de poesía — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Día de la Lealtad: mensajes de unidad en el peronismo y Cristina Kirchner en su  — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Juana Viale habló sobre la salud de Mirtha Legrand: cómo sigue su recuperación e — en turno
+- X · Notas web · Juana Viale habló sobre la salud de Mirtha Legrand: cómo sigue su recuperación e — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Docentes bonaerenses aceptaron un incremento salarial del 6% en dos tramos — en turno
 - TikTok · Reels del bot · Capacitaron al personal de los hogares municipales en control de infecciones — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Máximo Cataldi finalizó entre los cuatro mejores del torneo — Buffer lleno (10 programadas por canal en el plan Free)
@@ -57,12 +56,6 @@ Actualizado: 18/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T10:20 enviado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x 
-- 2026-10-18T10:20 programado web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x 
-- 2026-10-18T10:20 programado web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x 
-- 2026-10-18T10:40 programado web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x 
-- 2026-10-18T11:00 programado web:ccce7a0b-db66-488d-8412-6628b516975f|x 
-- 2026-10-18T11:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tikto 
 - 2026-10-18T11:00 programado policiales:https://www.diariodemocracia.com/policiales/34669 
 - 2026-10-18T11:00 programado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok 
 - 2026-10-18T11:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
@@ -82,3 +75,9 @@ Actualizado: 18/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-18T13:20 recibido web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 
 - 2026-10-18T13:20 programado web:b355a924-69fb-44bb-b43c-862727b7b5f2|x 
 - 2026-10-18T13:20 programado web:2501c79e-6248-40fd-9e51-af526da9d612|x 
+- 2026-10-18T13:40 enviado bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok 
+- 2026-10-18T13:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/situacion 
+- 2026-10-18T13:40 enviado web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x 
+- 2026-10-18T13:40 enviado web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x 
+- 2026-10-18T13:40 enviado web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
+- 2026-10-18T13:40 programado web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x 

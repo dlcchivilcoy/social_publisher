@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 2
+    "scheduled": 2,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-18T12:20:22.000Z"
+   "visto": "2026-10-18T13:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 8,
-    "sent": 4
+    "scheduled": 7,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-18T12:20:22.000Z"
+   "visto": "2026-10-18T13:40:14.000Z"
   }
  },
  "contenidos": {
@@ -7873,22 +7873,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 223,
-   "segundos": 32403,
+   "restantes": 221,
+   "segundos": 31209,
    "tope": 250
   },
   "30d": {
-   "restantes": 2728,
-   "segundos": 2015421,
+   "restantes": 2726,
+   "segundos": 2014226,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-18T13:20:20.000Z",
+ "cuota_visto": "2026-10-18T13:40:14.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -10377,18 +10377,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
   },
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T11:00:18.000Z",
+   "actualizado": "2026-10-18T13:40:14.000Z",
    "buffer_id": "6ad4a6c90a208cb323601e52",
    "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
    "creado": "2026-10-18T01:20:13.000Z",
    "dueAt": "2026-10-18T12:23:54.000Z",
+   "enviado": "2026-10-18T12:25:45.181Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T01:10:20.000Z",
    "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697982624068914453",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14039,18 +14040,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_03_chacabuco_persecuci-n-policial-termin-co.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok": {
-   "actualizado": "2026-10-18T11:00:18.000Z",
+   "actualizado": "2026-10-18T13:40:14.000Z",
    "buffer_id": "6ad4a6ca0a208cb323601f48",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
    "creado": "2026-10-17T19:00:17.000Z",
    "dueAt": "2026-10-18T13:03:53.000Z",
+   "enviado": "2026-10-18T13:07:54.339Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-17T18:41:23.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7697993387323952390",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -16445,18 +16447,19 @@
    "video_url": ""
   },
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x": {
-   "actualizado": "2026-10-18T09:00:21.000Z",
+   "actualizado": "2026-10-18T13:40:14.000Z",
    "buffer_id": "6ad48aa90b0d72757a14b79f",
    "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
    "creado": "2026-10-18T09:00:15.000Z",
    "dueAt": "2026-10-18T13:00:45.000Z",
+   "enviado": "2026-10-18T13:02:38.635Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T04:31:55.617Z",
    "id": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111805151652598045",
    "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
    "origen": "web",
    "plataforma": "x",
@@ -17008,6 +17011,7 @@
    "creado": "2026-10-18T12:40:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-18T12:36:28.965Z",
    "id": "web:1a3f2450-d820-426b-a2f8-b91f8e338629",
@@ -18098,18 +18102,19 @@
    "video_url": ""
   },
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x": {
-   "actualizado": "2026-10-18T09:00:21.000Z",
+   "actualizado": "2026-10-18T13:40:14.000Z",
    "buffer_id": "6ad48aaa6d56c60a730236b0",
    "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
    "creado": "2026-10-18T01:00:19.000Z",
    "dueAt": "2026-10-18T13:30:56.000Z",
+   "enviado": "2026-10-18T13:31:02.623Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T00:56:58.699Z",
    "id": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111812299207962890",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
    "origen": "web",
    "plataforma": "x",
@@ -18251,18 +18256,19 @@
    "video_url": ""
   },
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x": {
-   "actualizado": "2026-10-18T09:00:21.000Z",
+   "actualizado": "2026-10-18T13:40:14.000Z",
    "buffer_id": "6ad48aaa0b0d72757a14b865",
    "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
    "creado": "2026-10-18T01:20:13.000Z",
    "dueAt": "2026-10-18T13:15:19.000Z",
+   "enviado": "2026-10-18T13:15:31.242Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T01:09:46.723Z",
    "id": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2111808392733851808",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
    "origen": "web",
    "plataforma": "x",
@@ -21980,14 +21986,14 @@
    "video_url": ""
   },
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x": {
-   "actualizado": "2026-10-18T13:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-18T13:40:14.000Z",
+   "buffer_id": "6ad4cc3e938409f1d0d14c8b",
    "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
    "creado": "2026-10-18T13:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-18T15:30:00.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T13:06:32.271Z",
    "id": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11",
    "intentos": 0,
@@ -22392,47 +22398,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00216",
-   "cuando": "2026-10-15T18:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x",
-   "cuando": "2026-10-15T18:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00216|x",
-   "cuando": "2026-10-15T18:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "web:b0047360-2401-4617-a433-07cb41aa8ce4|x",
-   "cuando": "2026-10-15T18:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad11e114313e4161eadd36d",
-   "clave": "entrevistas:job00216|x",
-   "cuando": "2026-10-15T18:40:18.000Z",
-   "dueAt": "2026-10-15T20:30:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad122c602e4efb731a771c7",
-   "clave": "entrevistas:job00213|x",
-   "cuando": "2026-10-15T19:00:22.000Z",
-   "dueAt": "2026-10-15T20:45:22.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
    "cuando": "2026-10-15T19:20:15.000Z",
@@ -26544,10 +26509,47 @@
    "cuando": "2026-10-18T13:20:20.000Z",
    "dueAt": "2026-10-18T15:15:09.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
+   "cuando": "2026-10-18T13:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697982624068914453"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
+   "cuando": "2026-10-18T13:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7697993387323952390"
+  },
+  {
+   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
+   "cuando": "2026-10-18T13:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111805151652598045"
+  },
+  {
+   "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
+   "cuando": "2026-10-18T13:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111812299207962890"
+  },
+  {
+   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
+   "cuando": "2026-10-18T13:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2111808392733851808"
+  },
+  {
+   "buffer_id": "6ad4cc3e938409f1d0d14c8b",
+   "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
+   "cuando": "2026-10-18T13:40:14.000Z",
+   "dueAt": "2026-10-18T15:30:00.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
- "ultima_sync": "2026-10-18T12:20:22.000Z",
+ "ultima_sync": "2026-10-18T13:40:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
