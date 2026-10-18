@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 9 | 1 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 10 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 5 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 9 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 7 | 0 | 2 | 0 | 1 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 17/10/2026 22:40 (hora AR) · ACTIVO
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 33 enviadas + 0 programadas de 50 por día
+- X: conectado · Buffer: 34 enviadas + 0 programadas de 50 por día
 - TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -25,7 +25,7 @@ Actualizado: 17/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
 
 ## Cuota de la API de Buffer
-15m: quedan 97 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2737 de 3000 (visto 2026-10-18T00:40:30.000Z)
+15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2736 de 3000 (visto 2026-10-18T02:00:18.000Z)
 
 ## Cola propia (28 esperando)
 - TikTok · Reels del bot · Luciano Dellepiane participó del encuentro en Apertura Peronista — tope de 12 publicaciones en 24 h de TikTok
@@ -71,7 +71,6 @@ Actualizado: 17/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-10-18T00:00 pausa_red  
 - 2026-10-18T00:00 pausa_red  
 - 2026-10-18T00:00 pausa_red  
-- 2026-10-18T00:00 pausa_red  
 - 2026-10-18T00:20 recibido policiales:https://www.diariodemocracia.com/policiales/34669 
 - 2026-10-18T00:20 recibido policiales:https://www.diariodemocracia.com/policiales/34669 
 - 2026-10-18T00:20 recibido web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x 
@@ -91,3 +90,4 @@ Actualizado: 17/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-10-18T01:20 recibido bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x 
 - 2026-10-18T01:20 recibido bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok 
 - 2026-10-18T01:20 recibido web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x 
+- 2026-10-18T02:00 enviado bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x 
