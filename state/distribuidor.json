@@ -4120,6 +4120,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/asociacion-bancaria-acordo-un-aumento-del-1-9-y-el-sueldo-bbeeb2",
    "volanta": ""
   },
+  "web:1a3f2450-d820-426b-a2f8-b91f8e338629": {
+   "categoria": "nacionales",
+   "descripcion": "La conductora llevó tranquilidad sobre la recuperación de su abuela en su casa. El productor Carlos Rottemberg confirmó que superó una neumonía bacteriana.",
+   "generado": "2026-10-18T12:36:28.965Z",
+   "id": "web:1a3f2450-d820-426b-a2f8-b91f8e338629",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_465608504008497a94d0a64f550dc58e~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Juana Viale habló sobre la salud de Mirtha Legrand: cómo sigue su recuperación en casa",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
+   "volanta": ""
+  },
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": {
    "categoria": "",
    "descripcion": "Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club. Sin descanso, este jueves buscará revalidar el triunfo en el estadio Cincuentenario frente a La Unión. Un gran triunfo racinguista que le permite recuperar el punto que en su casa se le escapó en su partido anterior. VICTORIA CLAVE EN MISIONES En una noche de básquet intenso y de alto nivel,...",
@@ -16809,6 +16827,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x": {
+   "actualizado": "2026-10-18T12:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x",
+   "creado": "2026-10-18T12:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-18T12:36:28.965Z",
+   "id": "web:1a3f2450-d820-426b-a2f8-b91f8e338629",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Juana Viale habló sobre la salud de Mirtha Legrand: cómo sigue su recuperación en casa\n\nLa conductora llevó tranquilidad sobre la recuperación de su abuela en su casa. El productor Carlos Rottemberg confirmó que superó una neumonía bacteriana.\n\nhttps://www.diariolacampaña.com.ar/n/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Juana Viale habló sobre la salud de Mirtha Legrand: cómo sigue su recuperación en casa",
+   "urgente": false,
+   "vence": "2026-10-19T12:36:28.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x": {
    "actualizado": "2026-10-15T20:40:16.000Z",
    "buffer_id": "6ad0ef304fc2f6b7dbe465cd",
@@ -22150,14 +22193,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento|tiktok",
-   "cuando": "2026-10-15T18:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok",
    "cuando": "2026-10-15T18:00:22.000Z",
    "evento": "enviado",
@@ -26295,6 +26330,14 @@
    "cuando": "2026-10-18T12:20:22.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7697972292801858837"
+  },
+  {
+   "clave": "web:1a3f2450-d820-426b-a2f8-b91f8e338629|x",
+   "cuando": "2026-10-18T12:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -26486,6 +26529,7 @@
   "web:18e1be80-a9ad-41f2-9e05-274978b011a3": "2026-10-17T19:20:13.000Z",
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
+  "web:1a3f2450-d820-426b-a2f8-b91f8e338629": "2026-10-18T12:40:15.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
