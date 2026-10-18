@@ -782,12 +782,18 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         if (es_corresponsal and len(grupo) > 1
                 and (get("MONTAJE_VIDEOS") or "1").strip().lower() not in ("0", "no", "off")):
             from montaje import montar
+            from video import _bloque_on, tema_usado
+            tema_usado(reset=True)
             base = montar(grupo, WORK_DIR / f"montaje_{slug}.mp4",
                           fuentes=(f"TÍTULO: {titulo}\nVOLANTA: {volanta}\nNOTA:\n{texto}\n\n"
                                    f"LO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}"),
-                          work_dir=WORK_DIR / f"montaje_{slug}")
+                          work_dir=WORK_DIR / f"montaje_{slug}",
+                          tema=_tema_4x5(rows, fila), titulo=(volanta, titulo))
             if base:
-                reel = to_vertical_reel(base, reel_path, compuesto=True, estilo="corresponsal")
+                # Con el bloque (2026-10-18), el isologo ya va en el bloque de cada tramo.
+                reel = to_vertical_reel(base, reel_path, compuesto=True, estilo="corresponsal",
+                                        logo=not _bloque_on())
+                tema_reel = tema_usado()
         if reel is None:
             # Lo que llega por WhatsApp va con el diseño de los corresponsales: vertical a sangre
             # con cajas abajo, apaisado entero en 4:5. Y si el video da para más de una idea, la

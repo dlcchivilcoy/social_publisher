@@ -2254,7 +2254,10 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
                 halo=[], cajas=[], titulo=[], volanta="", lienzo=(1080, 1920), foco=foco,
                 sombra_alto=CORR_SOMBRA_ALTO,
                 texto=(CORR_X, CORR_MARCA[0][0], CORR_X + CORR_CAJA_ANCHO, CORR_MARCA[1][0] + 30))
-    if forma == "afiche" or (grafica and w / h <= CORR_AR_APAISADO):
+    # Con el bloque abajo (2026-10-18) un afiche TAMBIÉN lleva texto: va entero arriba, así que
+    # el bloque no tapa su letra. Pasó con la foto de Tomás Coltrinari: un escenario lleno de
+    # carteles se tomó por afiche y el reel salió sin título. Esto queda para `REEL_BLOQUE_4X5=0`.
+    if (forma == "afiche" or (grafica and w / h <= CORR_AR_APAISADO)) and not _bloque_on():
         # Un flyer CUADRADO también va entero y sin tarjeta (2026-10-04: uno de 1024x1024 salió
         # recortado a 9:16, con el título encima de su propio texto). Centrado en el alto.
         esc = min(1080 / w, 1920 / h)
@@ -4617,7 +4620,8 @@ def _fotos_compuestas(fotos: list, base: Path, seg_cont: float, *, titular: str,
                                     f"son personas según Gemini.")
                     caras = reales
             # Un afiche o un flyer cuadrado no lleva caja (`_plan_corr`): no gasta tarjeta.
-            sin_caja = grafica and img.width / max(1, img.height) <= CORR_AR_APAISADO
+            sin_caja = (grafica and img.width / max(1, img.height) <= CORR_AR_APAISADO
+                        and not _bloque_on())
             v, t = volanta, titular
             if i > 0 and not sin_caja and extra:
                 v, t = extra.pop(0)

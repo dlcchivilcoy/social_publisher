@@ -228,6 +228,27 @@ def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema
     horizontal y el estilo bloque prendido, además `tema` y `cajas` (la línea y el bloque)."""
     f = V._fuentes_placa()
     w, h = max(1, int(w)), max(1, int(h))
+    if V._bloque_on() and w / h < AR_4X5:
+        # VERTICAL (2026-10-18, «todos los posteos con el texto abajo»): 9:16 con el bloque
+        # abajo, como las fotos y los videos verticales del bot; la imagen ENTERA, achicada y
+        # centrada arriba, sobre sí misma difuminada (`_fondo`). Si el bloque es alto (cargo
+        # largo, frase larga), la imagen cede alto antes de que el texto baje a la franja de IG.
+        tema = tema if tema in V.BLOQUE_TEMAS else V.tema_siguiente("")
+        V._TEMA_USADO[0] = tema
+        H = 1920
+        pad_a, _pad_b = V.BLOQUE_PAD
+        alto_b = bloque_4x5(nombre, cargo, frases, f, tema, 0)["alto"]
+        hm = min(V.BLOQUE_9X16_ENTERA, Y_ABAJO_9X16 - alto_b - pad_a - V.BLOQUE_LINEA)
+        hm = max(round(V.BLOQUE_9X16_ENTERA * RECORTE_MIN), hm) // 2 * 2
+        esc = min(1080 / w, hm / h)
+        wi, hi = max(2, round(w * esc) // 2 * 2), max(2, round(h * esc) // 2 * 2)
+        extra = max(0, Y_ABAJO_9X16 - hm - V.BLOQUE_LINEA - pad_a - alto_b)
+        b = bloque_4x5(nombre, cargo, frases, f, tema,
+                       hm + V.BLOQUE_LINEA + pad_a + round(extra * 0.38))
+        cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.CORR_NARANJA),
+                 (0, hm + V.BLOQUE_LINEA, 1080, H, V.BLOQUE_TEMAS[tema]["fondo"])]
+        return dict(lienzo=(1080, H), media=((1080 - wi) // 2, (hm - hi) // 2, wi, hi, False),
+                    bloque=b, encima=False, fuentes=f, tema=tema, cajas=cajas)
     if w / h >= AR_4X5 and V._bloque_on():
         tema = tema if tema in V.BLOQUE_TEMAS else V.tema_siguiente("")
         V._TEMA_USADO[0] = tema

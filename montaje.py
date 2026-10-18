@@ -36,6 +36,22 @@ FPS = 30
 PANELES = {3: ((0, 0, 1080, 1344), (0, 1344, 540, 576), (540, 1344, 540, 576)),
            2: ((0, 0, 1080, 960), (0, 960, 1080, 960))}
 SEPARADOR = 2                  # px, naranja de acento (el prompt: «de 0 a 2 px»)
+
+
+def _paneles(n: int) -> tuple:
+    """Los paneles para `n` cámaras (1 = secuencial). Con el BLOQUE (2026-10-18: «todos los
+    posteos con el texto abajo») van en el alto de arriba del bloque, como una foto vertical;
+    sin él (`REEL_BLOQUE_4X5=0`), en el cuadro entero como antes."""
+    if not V._bloque_on():
+        return PANELES[n] if n > 1 else ((0, 0, 1080, 1920),)
+    a = V.BLOQUE_9X16_ENTERA
+    if n == 3:
+        p = round(a * 0.7) // 2 * 2
+        return ((0, 0, 1080, p), (0, p, 540, a - p), (540, p, 540, a - p))
+    if n == 2:
+        p = a // 2 // 2 * 2
+        return ((0, 0, 1080, p), (0, p, 1080, a - p))
+    return ((0, 0, 1080, a),)
 ETIQUETA_TAM = 22
 
 
@@ -178,7 +194,8 @@ def validar(raw: dict, durs: list) -> dict | None:
 
 
 # ── Dibujo de cada tramo ───────────────────────────────────────────────────────────
-def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> tuple:
+def _capa(paneles: list, roles: list, tramo: dict, salida: Path, tema: str = "",
+          titulo: tuple = ("", "")) -> tuple:
     """Los PNG transparentes que van encima de un tramo: `salida` con los separadores naranjas
     entre paneles, la etiqueta de cada cámara (arriba a la izquierda de su panel; en la
     principal, con la velocidad si va acelerada) y la marca; y aparte la TARJETA del tramo
@@ -186,8 +203,20 @@ def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> tuple:
     from PIL import Image, ImageDraw
     f = V._fuentes_placa()
     lienzo = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
-    plan = dict(bloques=list(V._marca_corr(f)), cajas=[], halo=[], sombra_arriba=True)
-    plan["halo"] = list(plan["bloques"])
+    bloque = None
+    vol, texto = tramo.get("volanta", ""), tramo.get("texto", "")
+    if V._bloque_on():
+        # El bloque de abajo, con su línea, el logo y el isologo (fijos en todos los tramos);
+        # el texto va en la tarjeta. Un tramo sin texto propio lleva el título del reel.
+        if not texto:
+            vol, texto = titulo
+        bloque = V.plan_placa(vol, texto, "", 1080, 1920, estilo="corresponsal", tema=tema,
+                              foto=True)
+        plan = dict(cajas=list(bloque["cajas"]), logo_bloque=bloque["logo_bloque"],
+                    bloques=[], halo=[])
+    else:
+        plan = dict(bloques=list(V._marca_corr(f)), cajas=[], halo=[], sombra_arriba=True)
+        plan["halo"] = list(plan["bloques"])
     dib = ImageDraw.Draw(lienzo)
     for i, (x, y, w, h) in enumerate(paneles[1:], start=1):   # separadores
         if y > 0:
@@ -201,8 +230,8 @@ def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> tuple:
             continue
         txt = rol + (f" · {tramo['velocidad']:g}×".replace(".", ",")
                      if i == 0 and tramo["velocidad"] != 1 else "")
-        # La principal arranca arriba de todo, debajo de la marca y el isologo.
-        ex, ey = (x + 24, (300 if y == 0 else y + 20))
+        # La principal arranca arriba de todo: debajo de la marca, o de la barra de la app.
+        ex, ey = (x + 24, ((240 if bloque else 420) if y == 0 else y + 20))
         ancho = round(V._ancho_texto(txt, f["f_r"], ETIQUETA_TAM, "500")) + 24
         alto = ETIQUETA_TAM + 18
         plan["cajas"].append((ex, ey, ex + ancho, ey + alto,
@@ -213,7 +242,10 @@ def _capa(paneles: list, roles: list, tramo: dict, salida: Path) -> tuple:
     V.pintar_placa(lienzo, plan)
     lienzo.save(salida)
     tarjeta = None
-    if tramo.get("texto") or tramo.get("volanta"):
+    if bloque and (texto or vol):
+        tarjeta = V.bloque_tarjeta_png(vol, texto, bloque,
+                                       salida.with_name(salida.stem + "_tarjeta.png"))
+    elif tramo.get("texto") or tramo.get("volanta"):
         tarjeta = V.tarjeta_png(tramo.get("volanta", ""), tramo.get("texto", ""),
                                 V.CORR_Y_ABAJO, (1080, 1920),
                                 salida.with_name(salida.stem + "_tarjeta.png"))
@@ -301,8 +333,13 @@ def _unir(tramos: list, salida: Path) -> Path:
     return salida
 
 
-def armar(plan: dict, videos: list, salida: Path, work_dir: Path) -> Path:
-    """Arma un plan YA validado (`validar`): cada tramo por separado y después los une."""
+def armar(plan: dict, videos: list, salida: Path, work_dir: Path, tema: str = "",
+          titulo: tuple = ("", "")) -> Path:
+    """Arma un plan YA validado (`validar`): cada tramo por separado y después los une. `tema`:
+    los colores del bloque; `titulo` (volanta, título): el texto de los tramos que no traen."""
+    if V._bloque_on():
+        tema = tema if tema in V.BLOQUE_TEMAS else V.tema_siguiente("")
+        V._TEMA_USADO[0] = tema
     recortes = [V.detectar_recorte(v) for v in videos]
     con_audio = [V.has_audio(v) for v in videos]
     partes = []
@@ -311,7 +348,7 @@ def armar(plan: dict, videos: list, salida: Path, work_dir: Path) -> Path:
         if plan["modo"] == "simultaneo":
             # La principal primero; después las otras cámaras usadas, en su orden.
             orden = ([t["principal"]] + [k for k in plan["usadas"] if k != t["principal"]])[:3]
-            paneles = PANELES[len(orden)]
+            paneles = _paneles(len(orden))
             # La principal sigue la acción (foco → foco_fin); las chicas, encuadre fijo.
             entradas = [(videos[k], t["reloj_ini"] - plan["camaras"][k]["reloj"], recortes[k],
                          t["foco"] if k == t["principal"] else plan["camaras"][k]["foco"],
@@ -321,18 +358,21 @@ def armar(plan: dict, videos: list, salida: Path, work_dir: Path) -> Path:
             audio = 0 if (t["velocidad"] == 1 and con_audio[orden[0]]) else None
         else:
             k = t["video"]
-            paneles = ((0, 0, 1080, 1920),)
+            paneles = _paneles(1)
             entradas = [(videos[k], t["desde"], recortes[k], t["foco"], 1.0,
                          t.get("foco_fin"))]
             roles = [""]
             audio = 0 if con_audio[k] else None
-        _base, tarjeta = _capa(paneles, roles, t, capa_png)
+        _base, tarjeta = _capa(paneles, roles, t, capa_png, tema, titulo)
         # Fundido de la tarjeta solo donde CAMBIA respecto del tramo vecino (si sigue la misma,
         # no parpadea), y nunca al arrancar el reel: el primer cuadro es la portada.
-        tj = (t["volanta"], t["texto"])
-        antes = (plan["tramos"][j - 1]["volanta"], plan["tramos"][j - 1]["texto"]) if j else tj
-        despues = ((plan["tramos"][j + 1]["volanta"], plan["tramos"][j + 1]["texto"])
-                   if j + 1 < len(plan["tramos"]) else tj)
+
+        def _tj(tr):
+            par = (tr["volanta"], tr["texto"])
+            return titulo if (V._bloque_on() and not tr["texto"]) else par
+        tj = _tj(t)
+        antes = _tj(plan["tramos"][j - 1]) if j else tj
+        despues = _tj(plan["tramos"][j + 1]) if j + 1 < len(plan["tramos"]) else tj
         partes.append(_armar_tramo(entradas, paneles, capa_png, t["dur_salida"],
                                    work_dir / f"_tramo_{j}.mp4", audio, tarjeta,
                                    (j > 0 and antes != tj, despues != tj)))
@@ -388,7 +428,8 @@ def autoprueba(tmp: Path) -> bool:
 
 
 # ── Entrada ─────────────────────────────────────────────────────────────────────────
-def montar(videos: list, salida: Path, *, fuentes: str, work_dir: Path) -> Path | None:
+def montar(videos: list, salida: Path, *, fuentes: str, work_dir: Path, tema: str = "",
+           titulo: tuple = ("", "")) -> Path | None:
     """Arma el montaje de `videos` (varios, del mismo envío) en `salida` (1080x1920, hasta 55 s,
     con marca, etiquetas y tarjetas; sin isologo ni placa de cierre). None si no se pudo: el
     que llama usa el armado de siempre."""
@@ -409,7 +450,7 @@ def montar(videos: list, salida: Path, *, fuentes: str, work_dir: Path) -> Path 
         plan = validar(raw, durs)
         if not plan:
             raise RuntimeError("el plan de montaje no trajo tramos usables")
-        armar(plan, videos, Path(salida), work_dir)
+        armar(plan, videos, Path(salida), work_dir, tema, titulo)
         total = sum(t["dur_salida"] for t in plan["tramos"])
         logger.info(f"Montaje {plan['modo']}: {len(plan['tramos'])} tramo(s), {total:.1f} s, "
                     f"{len(videos)} video(s) → {Path(salida).name}")
