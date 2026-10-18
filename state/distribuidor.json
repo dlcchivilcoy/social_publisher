@@ -4824,6 +4824,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reclamo-regional-polemica-por-la-instalacion-de-radares-en-la-ruta",
    "volanta": "Reclamo Regional"
   },
+  "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2": {
+   "categoria": "nacionales",
+   "descripcion": "El arquero de la Selección Argentina sufrió un choque de cabezas en el partido de su equipo y estará un mes y medio inactivo, por lo que se perderá la…",
+   "generado": "2026-10-18T23:05:09.254Z",
+   "id": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ad08a318868a410e9074f75e32f96180~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y estará un mes y medio inactivo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
+   "volanta": ""
+  },
   "web:2501c79e-6248-40fd-9e51-af526da9d612": {
    "categoria": "",
    "descripcion": "La Guía Estratégica para el Agro proyecta 4,5 millones de hectáreas para blindar los lotes ante el fenómeno de El Niño.",
@@ -6964,6 +6982,24 @@
    "titulo": "El nuevo Tesla Roadster de Elon Musk emula el Turbo Boost de El auto fantástico",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
+   "volanta": ""
+  },
+  "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": {
+   "categoria": "nacionales",
+   "descripcion": "El Consejo de la Magistratura acelera las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite, 77 en el Ejecutivo y 30 en el…",
+   "generado": "2026-10-18T23:20:10.841Z",
+   "id": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_29ebaeb3090245818a38b56fd0fbeaba~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
    "volanta": ""
   },
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": {
@@ -18867,6 +18903,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x": {
+   "actualizado": "2026-10-18T23:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
+   "creado": "2026-10-18T23:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T23:05:09.254Z",
+   "id": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y estará un mes y medio inactivo\n\nEl arquero de la Selección Argentina sufrió un choque de cabezas en el partido de su equipo. Estará un mes y medio inactivo.\n\nhttps://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y estará un mes y medio inactivo",
+   "urgente": false,
+   "vence": "2026-10-19T23:05:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:2501c79e-6248-40fd-9e51-af526da9d612|x": {
    "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4c794938409f1d0d05f1f",
@@ -22031,6 +22093,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x": {
+   "actualizado": "2026-10-18T23:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
+   "creado": "2026-10-18T23:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-18T23:20:10.841Z",
+   "id": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos\n\nEl Consejo de la Magistratura busca acelerar las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite y otras 77 en el Ejecutivo.\n\nhttps://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos",
+   "urgente": false,
+   "vence": "2026-10-19T23:20:10.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x": {
    "actualizado": "2026-10-16T15:40:15.000Z",
    "buffer_id": "",
@@ -24630,20 +24718,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad1e7a74ed7d375a451ed61",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x",
-   "cuando": "2026-10-16T09:00:26.000Z",
-   "dueAt": "2026-10-16T10:15:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad1e7a8e991a49db3d6948a",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx|x",
-   "cuando": "2026-10-16T09:00:26.000Z",
-   "dueAt": "2026-10-16T10:30:41.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad1e7a84ed7d375a451ee05",
    "clave": "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x",
@@ -28798,6 +28872,22 @@
    "cuando": "2026-10-18T23:00:24.000Z",
    "dueAt": "2026-10-18T23:18:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
+   "cuando": "2026-10-18T23:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
+   "cuando": "2026-10-18T23:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-18",
@@ -29020,6 +29110,7 @@
   "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": "2026-10-18T22:00:19.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
+  "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2": "2026-10-18T23:20:13.000Z",
   "web:2501c79e-6248-40fd-9e51-af526da9d612": "2026-10-18T11:20:13.000Z",
   "web:26bd6ef4-c90a-4e95-9ab1-86d2a30025d2": "2026-10-15T10:20:13.000Z",
   "web:284a2a7c-5d1f-47ee-9e22-449293fa6783": "2026-10-13T12:20:17.000Z",
@@ -29140,6 +29231,7 @@
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": "2026-10-18T22:20:14.000Z",
+  "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",

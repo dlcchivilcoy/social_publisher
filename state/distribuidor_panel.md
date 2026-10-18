@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 7 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 23 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 25 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 12 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2705 de 3000 (visto 2026-10-18T23:00:24.000Z)
 
-## Cola propia (43 esperando)
+## Cola propia (45 esperando)
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
@@ -42,6 +42,8 @@ Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels policiales · Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7 — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Las cinco películas para maratonear este fin de semana en Netflix — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos — cupo diario de Notas web en X completo (15)
+- X · Notas web · Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y esta — cupo diario de Notas web en X completo (15)
 - X · Notas web · Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de prote — cupo diario de Notas web en X completo (15)
 - X · Notas web · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Niño impulsa la "soja táctica" en la región núcleo y el trigo enciende alerta — cupo diario de Notas web en X completo (15)
@@ -56,8 +58,6 @@ Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · El papa León XIV reapareció tras ser operado de un cáncer de pulmón — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Delegación argentina en Londres en medio de la tensión por Malvinas — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de d — cupo diario de Notas web en X completo (15)
-- X · Notas web · Racing: quién es el nuevo jefe de la barra brava antes del clásico — cupo diario de Notas web en X completo (15)
-- X · Notas web · Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,8 +68,6 @@ Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T21:40 recibido web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x 
-- 2026-10-18T21:40 vencido web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x cupo diario de Notas web en X completo (15)
 - 2026-10-18T21:40 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tikto 
 - 2026-10-18T21:40 enviado bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x 
 - 2026-10-18T21:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
@@ -93,3 +91,5 @@ Actualizado: 18/10/2026 20:00 (hora AR) · ACTIVO
 - 2026-10-18T23:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
 - 2026-10-18T23:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x 
 - 2026-10-18T23:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x 
+- 2026-10-18T23:20 recibido web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x 
+- 2026-10-18T23:20 recibido web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x 
