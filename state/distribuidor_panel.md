@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 17/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,8 +28,8 @@ Actualizado: 17/10/2026 22:20 (hora AR) · ACTIVO
 15m: quedan 97 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2737 de 3000 (visto 2026-10-18T00:40:30.000Z)
 
 ## Cola propia (28 esperando)
-- X · Reels del bot · Luciano Dellepiane participó del encuentro en Apertura Peronista — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Luciano Dellepiane participó del encuentro en Apertura Peronista — tope de 12 publicaciones en 24 h de TikTok
+- X · Reels del bot · Luciano Dellepiane participó del encuentro en Apertura Peronista — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Constanza Alonso habló en el Partido Justicialista de Chivilcoy — tope de 12 publicaciones en 24 h de TikTok
 - X · Reels del bot · Constanza Alonso habló en el Partido Justicialista de Chivilcoy — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio — tope de 12 publicaciones en 24 h de TikTok
