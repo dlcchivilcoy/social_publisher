@@ -1081,6 +1081,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4",
    "youtube_url": "https://www.youtube.com/shorts/63QK96Pt_0U"
   },
+  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4": {
+   "descripcion": "La delegación de Chivilcoy viaja rumbo a Mar del Plata con el objetivo de participar en la Final Provincial de los Juegos Bonaerenses.\n\nLos representantes locales forman parte de la comitiva que disputará las distintas instancias decisivas del certamen en la ciudad balnearia.\n\nLa competencia reúne a clasificados de diversos distritos de la provincia de Buenos Aires en el cierre de la tradicional cita deportiva y cultural.",
+   "duracion_seg": 42.7,
+   "generado": "2026-10-19T11:18:12.000Z",
+   "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "video_bytes": 8740858,
+   "video_mb": 8.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ub6C18o1M0U"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -6481,6 +6502,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
    "volanta": "Chivilcoy · Politica"
   },
+  "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": {
+   "categoria": "",
+   "descripcion": "Investigadores, productores y empresas se darán cita del 21 al 23 de octubre para analizar genética, manejo, tecnología y calidad industrial del cultivo.",
+   "generado": "2026-10-19T11:02:32.156Z",
+   "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6ee65532b97c4d72a88f1bb63d1b0886~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
+   "volanta": ""
+  },
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": {
    "categoria": "",
    "descripcion": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy En el marco del Torneo Federal A, Gimnasia de Chivilcoy empató 3-3 frente a Defensores de Vilelas, en un encuentro donde el conjunto local estuvo dos veces en desventaja en el marcador. Ramiro Medina fue el autor del primer descuento y posteriormente, mediante un tiro penal, estableció el 2-2 transitorio. Luego de que la visita volviera a ponerse al frente, Fausto Fiol apareció a los 33 minutos para sellar el 3-3 definitivo.",
@@ -7703,6 +7742,24 @@
    "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-entregaron-indumentaria-a-la-delegacion-que",
+   "volanta": "Chivilcoy · Deportes"
+  },
+  "web:8c2797b4-7dbb-4d7f-ac67-65970009882b": {
+   "categoria": "",
+   "descripcion": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata La delegación de Chivilcoy viaja hacia Mar del Plata para competir en la Final Provincial de los Juegos Bonaerenses.",
+   "generado": "2026-10-19T11:16:12.587Z",
+   "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d1e13fd4d8bc46e69dabb82586cfe342~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "volanta": "Chivilcoy · Deportes"
   },
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": {
@@ -10246,22 +10303,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 45530,
+   "restantes": 242,
+   "segundos": 42005,
    "tope": 250
   },
   "30d": {
-   "restantes": 2700,
-   "segundos": 1939748,
+   "restantes": 2699,
+   "segundos": 1936223,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T10:21:33.000Z",
+ "cuota_visto": "2026-10-19T11:20:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13285,14 +13342,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
   },
   "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T01:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T11:20:16.000Z",
+   "buffer_id": "6ad5fcf4b9948a7ec0693f1f",
    "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok",
    "creado": "2026-10-19T01:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T13:23:12.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T00:41:18.000Z",
    "id": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4",
    "intentos": 0,
@@ -13336,6 +13393,58 @@
    "vence": "2026-10-21T00:41:18.000Z",
    "video_bytes": 8987863,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4"
+  },
+  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok": {
+   "actualizado": "2026-10-19T11:20:16.000Z",
+   "buffer_id": "6ad5fcf238bcdab6ee512843",
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
+   "creado": "2026-10-19T11:20:14.000Z",
+   "dueAt": "2026-10-19T12:03:19.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-19T11:18:12.000Z",
+   "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata\n\nLa delegación de Chivilcoy viaja rumbo a Mar del Plata con el objetivo de participar en la Final Provincial de los Juegos Bonaerenses. Los representantes locales forman parte de la comitiva que disputará las distintas instancias decisivas del certamen en la ciudad balnearia. La competencia reúne a clasificados de diversos distritos de la provincia de Buenos Aires en el cierre de la tradicional cita deportiva y cultural.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-21T11:18:12.000Z",
+   "video_bytes": 8740858,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
+  },
+  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x": {
+   "actualizado": "2026-10-19T11:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x",
+   "creado": "2026-10-19T11:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T11:18:12.000Z",
+   "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata\n\nLos representantes locales disputarán las instancias decisivas de los Juegos Bonaerenses. La competencia reúne a clasificados de diversos distritos provinciales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-21T11:18:12.000Z",
+   "video_bytes": 8740858,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
   },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
@@ -14243,14 +14352,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_502713ec1f_docentes-bonaerenses-aceptaron-un-aumento.mp4"
   },
   "nacionales:509780bc5420f2f5|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T11:20:16.000Z",
+   "buffer_id": "6ad5fcf238bcdab6ee5127ee",
    "clave": "nacionales:509780bc5420f2f5|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T11:23:30.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T00:21:01.000Z",
    "id": "nacionales:509780bc5420f2f5",
    "intentos": 0,
@@ -14618,14 +14727,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e7b427db1_chile-decreta-emergencia-preventiva-por-clima.mp4"
   },
   "nacionales:a28aa737cf87213c|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T11:20:16.000Z",
+   "buffer_id": "6ad5fcf3189a03b5ff21238f",
    "clave": "nacionales:a28aa737cf87213c|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T12:43:32.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T03:06:13.000Z",
    "id": "nacionales:a28aa737cf87213c",
    "intentos": 0,
@@ -14800,14 +14909,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b4cf751f44_enzo-perez-estuvo-en-la-tribuna-de-river-en-la.mp4"
   },
   "nacionales:b541d9169f033092|tiktok": {
-   "actualizado": "2026-10-18T17:20:13.000Z",
+   "actualizado": "2026-10-19T11:20:16.000Z",
    "buffer_id": "",
    "clave": "nacionales:b541d9169f033092|tiktok",
    "creado": "2026-10-18T17:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T17:07:38.000Z",
    "id": "nacionales:b541d9169f033092",
    "intentos": 0,
@@ -15034,14 +15143,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ef9d9f6be8_la-libertad-avanza-acelera-su-armado-juvenil-en.mp4"
   },
   "nacionales:f8cbb878e65900d1|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T11:20:16.000Z",
+   "buffer_id": "6ad5fcf561ffad979f0d40c2",
    "clave": "nacionales:f8cbb878e65900d1|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T14:43:54.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T03:50:54.000Z",
    "id": "nacionales:f8cbb878e65900d1",
    "intentos": 0,
@@ -17474,14 +17583,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-18T21:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T11:20:16.000Z",
+   "buffer_id": "6ad5fcf438bcdab6ee512883",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
    "creado": "2026-10-18T21:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T14:03:48.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-18T21:21:18.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
    "intentos": 0,
@@ -22731,6 +22840,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x": {
+   "actualizado": "2026-10-19T11:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
+   "creado": "2026-10-19T11:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T11:02:32.156Z",
+   "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech\n\nInvestigadores, productores y empresas se darán cita del 21 al 23 de octubre para analizar genética, manejo, tecnología y calidad industrial del cultivo.\n\nhttps://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech",
+   "urgente": false,
+   "vence": "2026-10-20T11:02:32.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x": {
    "actualizado": "2026-10-18T18:00:17.000Z",
    "buffer_id": "",
@@ -24544,6 +24678,31 @@
    "titulo": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses",
    "urgente": false,
    "vence": "2026-10-17T15:40:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x": {
+   "actualizado": "2026-10-19T11:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
+   "creado": "2026-10-19T11:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T11:16:12.587Z",
+   "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata\n\nLa delegación de Chivilcoy viaja hacia Mar del Plata para competir en la Final Provincial de los Juegos Bonaerenses.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-20T11:16:12.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -28309,82 +28468,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
-   "cuando": "2026-10-16T15:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111111061139038606"
-  },
-  {
-   "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
-   "cuando": "2026-10-16T15:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111113816016580706"
-  },
-  {
-   "clave": "web:91984193-d136-423a-8896-e837bb387c4a|x",
-   "cuando": "2026-10-16T15:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111098779172573489"
-  },
-  {
-   "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
-   "cuando": "2026-10-16T15:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111106328659669459"
-  },
-  {
-   "clave": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x",
-   "cuando": "2026-10-16T15:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111102695733948636"
-  },
-  {
-   "buffer_id": "6ad240b1709e3eab3f93db1f",
-   "clave": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x",
-   "cuando": "2026-10-16T15:20:17.000Z",
-   "dueAt": "2026-10-16T19:45:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad240b17521b876061691bc",
-   "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
-   "cuando": "2026-10-16T15:20:17.000Z",
-   "dueAt": "2026-10-16T20:00:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
-   "cuando": "2026-10-16T15:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|tiktok",
-   "cuando": "2026-10-16T15:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x",
    "cuando": "2026-10-16T15:40:15.000Z",
@@ -32546,6 +32629,86 @@
    "cuando": "2026-10-19T10:40:17.000Z",
    "evento": "vencido",
    "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x",
+   "cuando": "2026-10-19T11:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
+   "cuando": "2026-10-19T11:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
+   "cuando": "2026-10-19T11:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
+   "cuando": "2026-10-19T11:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:b541d9169f033092|tiktok",
+   "cuando": "2026-10-19T11:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "buffer_id": "6ad5fcf238bcdab6ee5127ee",
+   "clave": "nacionales:509780bc5420f2f5|tiktok",
+   "cuando": "2026-10-19T11:20:21.000Z",
+   "dueAt": "2026-10-19T11:23:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad5fcf238bcdab6ee512843",
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
+   "cuando": "2026-10-19T11:20:21.000Z",
+   "dueAt": "2026-10-19T12:03:19.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad5fcf3189a03b5ff21238f",
+   "clave": "nacionales:a28aa737cf87213c|tiktok",
+   "cuando": "2026-10-19T11:20:21.000Z",
+   "dueAt": "2026-10-19T12:43:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad5fcf4b9948a7ec0693f1f",
+   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok",
+   "cuando": "2026-10-19T11:20:21.000Z",
+   "dueAt": "2026-10-19T13:23:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad5fcf438bcdab6ee512883",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-19T11:20:21.000Z",
+   "dueAt": "2026-10-19T14:03:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad5fcf561ffad979f0d40c2",
+   "clave": "nacionales:f8cbb878e65900d1|tiktok",
+   "cuando": "2026-10-19T11:20:21.000Z",
+   "dueAt": "2026-10-19T14:43:54.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -32602,6 +32765,7 @@
   "bot:video_matias-zucchi_mve43kv7d0je_01.mp4": "2026-10-18T18:00:17.000Z",
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4": "2026-10-18T22:00:19.000Z",
   "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4": "2026-10-19T01:00:18.000Z",
+  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4": "2026-10-19T11:20:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -32848,6 +33012,7 @@
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": "2026-10-15T10:20:13.000Z",
   "web:480e86f5-f14e-481b-844f-2ac1f1192f77": "2026-10-17T00:20:12.000Z",
+  "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": "2026-10-19T11:20:14.000Z",
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": "2026-10-18T18:00:17.000Z",
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
@@ -32916,6 +33081,7 @@
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4": "2026-10-19T10:20:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",
+  "web:8c2797b4-7dbb-4d7f-ac67-65970009882b": "2026-10-19T11:20:14.000Z",
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
   "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": "2026-10-18T23:00:17.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
