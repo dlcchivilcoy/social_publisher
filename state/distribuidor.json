@@ -745,6 +745,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Hsq2oE8ZzSs"
   },
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn": {
+   "descripcion": "En el marco de la investigación por la sustracción de tres motocicletas al vecino Sebastián Porto, personal policial logró recuperar un segundo rodado, que fue hallado en un descampado de Chivilcoy. El procedimiento se llevó a cabo en la zona de las calles Garibaldi y 26, donde los efectivos",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-19T13:12:41.000Z",
+   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
+   "urgente": false,
+   "video_bytes": 1160584,
+   "video_mb": 1.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/B1OkSWIzHP8"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -6142,6 +6163,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-se-realizo-una-nueva-edicion-de-chivilcoy-ofrece",
    "volanta": "Chivilcoy · Educación"
   },
+  "web:3620c5d5-68d9-4902-898d-2347615ba891": {
+   "categoria": "",
+   "descripcion": "Recuperaron dos de las tres motos robadas a Sebastián Porto En el marco de la investigación por la sustracción de tres motocicletas al vecino Sebastián Porto, personal policial logró recuperar un segundo rodado, que fue hallado en un descampado de Chivilcoy. El procedimiento se llevó a cabo en la zona de las calles Garibaldi y 26, donde los efectivos secuestraron una motocicleta Honda GLH 150, de color negro, dominio A255CIJ, que no presentaba faltantes. El hallazgo fue resultado de las...",
+   "generado": "2026-10-19T13:09:09.120Z",
+   "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_88def9ec5c8444c3b80fafaf2d902045~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:364ed235-37a6-4310-b188-750e40d877a8": {
    "categoria": "nacionales",
    "descripcion": "La Administración Nacional de la Seguridad Social avanza con el pago de haberes actualizados por el IPC. Jubilaciones, asignaciones y pensiones con fechas…",
@@ -6808,6 +6847,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
    "volanta": ""
   },
+  "web:5c389835-1655-4415-b7ad-23045aa7c3ca": {
+   "categoria": "nacionales",
+   "descripcion": "Tras la quinta amarilla del defensor frente a Belgrano, Leonardo Ponzio debe decidir entre Lautaro Rivero y Tobías Ramírez para acompañar a Nicolás…",
+   "generado": "2026-10-19T13:05:12.155Z",
+   "id": "web:5c389835-1655-4415-b7ad-23045aa7c3ca",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dbac626fc70945a3b1accd003afd0a68~mv2.webp",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/river-quienes-son-los-candidatos-de-ponzio-para-reemplazar-a-23d1fc",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "River: quiénes son los candidatos de Ponzio para reemplazar a Martínez Quarta ante Racing en la 15ª fecha",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/river-quienes-son-los-candidatos-de-ponzio-para-reemplazar-a-23d1fc",
+   "volanta": ""
+  },
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": {
    "categoria": "",
    "descripcion": "El Padre Ricardo brindó una bendición especial a las madres En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo realizó una bendición especial dedicada a todas las madres en la Parroquia San Pedro de Chivilcoy. Durante su mensaje, destacó la importancia de «recordar, agradecer y valorar» a las madres «como uno de los regalos más preciosos», remarcando que desde la fe, la esperanza y la caridad van orientando y haciendo crecer a sus hijos. Asimismo, pidió bendecir a las...",
@@ -7275,6 +7332,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tenis-punto-a-punto-hacia-el-sueno-australiano-el-gran-arranque-de",
    "volanta": "Tenis"
+  },
+  "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793": {
+   "categoria": "",
+   "descripcion": "Recuperaron un auto con pedido de secuestro por robo en CABA Personal policial interceptó un Ford Fiesta en la intersección de las calles 516 y Bolívar, en Chivilcoy, y constató que el vehículo tenía colocada una patente apócrifa. El rodado, dominio AB699AZ, era conducido por Andrés David Avendaño, de 44 años. Al verificar los números de chasis y motor, los efectivos comprobaron que registraba un pedido de secuestro activo desde el 12 de septiembre de 2022, en el marco de una causa por robo...",
+   "generado": "2026-10-19T13:18:51.375Z",
+   "id": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7722d91a769242d9afda5091f8b0334e~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2": {
    "categoria": "nacionales",
@@ -9904,6 +9979,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
    "volanta": ""
   },
+  "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101": {
+   "categoria": "nacionales",
+   "descripcion": "La artista explicó que el recinto no cumplió con las exigencias técnicas ni de seguridad previstas para su gira Futttura.",
+   "generado": "2026-10-19T13:20:14.693Z",
+   "id": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_222d2228ff504fac80e3d4c196fa1fff~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tini-stoessel-suspendio-su-concierto-en-miami-y-culpo-a-la-588268",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Tini Stoessel suspendió su concierto en Miami y culpó a la organización por graves fallas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tini-stoessel-suspendio-su-concierto-en-miami-y-culpo-a-la-588268",
+   "volanta": ""
+  },
   "web:e883209a-2652-420f-bb41-8ef9185d415e": {
    "categoria": "",
    "descripcion": "Confirmaciones a un mes de la 9ª edición de Raíces: el Festival Internacional de Cine de Chivilcoy prepara cuatro días de pantallas y resistencia Del 12 al 15 de noviembre, como viene ocurriendo en los últimos nuestra ciudad volverá a convertirse en el epicentro del cine independiente con la llegada de la novena edición de Raíces - Festival Internacional de Cine de Chivilcoy. La cita tendrá lugar en la histórica sede del Teatro ‘El Chasqui’ (ubicado en la calle General Rodríguez),...",
@@ -10344,17 +10437,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 36001,
+   "restantes": 239,
+   "segundos": 34771,
    "tope": 250
   },
   "30d": {
-   "restantes": 2697,
-   "segundos": 1930219,
+   "restantes": 2696,
+   "segundos": 1928990,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T13:00:22.000Z",
+ "cuota_visto": "2026-10-19T13:20:51.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -12388,6 +12481,58 @@
    "vence": "2026-10-20T22:49:15.000Z",
    "video_bytes": 908176,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
+  },
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok": {
+   "actualizado": "2026-10-19T13:20:16.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
+   "creado": "2026-10-19T13:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:12:41.000Z",
+   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Recuperaron dos de las tres motos robadas a Sebastián Porto\n\nPersonal policial logró recuperar un segundo rodado en un descampado de Chivilcoy, en la zona de las calles Garibaldi y 26. El procedimiento se llevó a cabo en el marco de la investigación por la sustracción de tres motocicletas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
+   "urgente": false,
+   "vence": "2026-10-21T13:12:41.000Z",
+   "video_bytes": 1160584,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
+  },
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x": {
+   "actualizado": "2026-10-19T13:20:50.000Z",
+   "buffer_id": "6ad61933e15f9b60b3a136d9",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
+   "creado": "2026-10-19T13:20:16.000Z",
+   "dueAt": "2026-10-19T15:15:50.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-19T13:12:41.000Z",
+   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Recuperaron dos de las tres motos robadas a Sebastián Porto\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
+   "urgente": false,
+   "vence": "2026-10-21T13:12:41.000Z",
+   "video_bytes": 1160584,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -14896,14 +15041,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b18ec19773_masterchef-junior-debuto-con-vero-lozano-y-toco.mp4"
   },
   "nacionales:b1c71e9d1312dd69|tiktok": {
-   "actualizado": "2026-10-18T20:20:13.000Z",
+   "actualizado": "2026-10-19T13:20:50.000Z",
    "buffer_id": "",
    "clave": "nacionales:b1c71e9d1312dd69|tiktok",
    "creado": "2026-10-18T20:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T19:07:27.000Z",
    "id": "nacionales:b1c71e9d1312dd69",
    "intentos": 0,
@@ -22352,6 +22497,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3620c5d5-68d9-4902-898d-2347615ba891|x": {
+   "actualizado": "2026-10-19T13:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
+   "creado": "2026-10-19T13:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:09:09.120Z",
+   "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Recuperaron dos de las tres motos robadas a Sebastián Porto\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
+   "urgente": false,
+   "vence": "2026-10-20T13:09:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:364ed235-37a6-4310-b188-750e40d877a8|x": {
    "actualizado": "2026-10-14T15:20:14.000Z",
    "buffer_id": "",
@@ -23358,6 +23528,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:5c389835-1655-4415-b7ad-23045aa7c3ca|x": {
+   "actualizado": "2026-10-19T13:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:5c389835-1655-4415-b7ad-23045aa7c3ca|x",
+   "creado": "2026-10-19T13:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:05:12.155Z",
+   "id": "web:5c389835-1655-4415-b7ad-23045aa7c3ca",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/river-quienes-son-los-candidatos-de-ponzio-para-reemplazar-a-23d1fc",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "River: quiénes son los candidatos de Ponzio para reemplazar a Martínez Quarta ante Racing en la 15ª fecha\n\nhttps://www.diariolacampaña.com.ar/n/river-quienes-son-los-candidatos-de-ponzio-para-reemplazar-a-23d1fc",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "River: quiénes son los candidatos de Ponzio para reemplazar a Martínez Quarta ante Racing en la 15ª fecha",
+   "urgente": false,
+   "vence": "2026-10-20T13:05:12.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:5e1b7468-652a-43da-baf9-771cda1103ff|x": {
    "actualizado": "2026-10-18T15:20:15.000Z",
    "buffer_id": "",
@@ -24039,6 +24234,31 @@
    "titulo": "Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en Brasil",
    "urgente": false,
    "vence": "2026-10-17T10:05:47.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x": {
+   "actualizado": "2026-10-19T13:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
+   "creado": "2026-10-19T13:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:18:51.375Z",
+   "id": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nLa policía interceptó en Chivilcoy un vehículo que circulaba con patente apócrifa. Al verificar chasis y motor, los efectivos comprobaron que registraba pedido de secuestro activo por robo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
+   "urgente": false,
+   "vence": "2026-10-20T13:18:51.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -27920,6 +28140,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x": {
+   "actualizado": "2026-10-19T13:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x",
+   "creado": "2026-10-19T13:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:20:14.693Z",
+   "id": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tini-stoessel-suspendio-su-concierto-en-miami-y-culpo-a-la-588268",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Tini Stoessel suspendió su concierto en Miami y culpó a la organización por graves fallas\n\nLa artista explicó que el recinto no cumplió con las exigencias técnicas ni de seguridad previstas para su gira Futttura.\n\nhttps://www.diariolacampaña.com.ar/n/tini-stoessel-suspendio-su-concierto-en-miami-y-culpo-a-la-588268",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Tini Stoessel suspendió su concierto en Miami y culpó a la organización por graves fallas",
+   "urgente": false,
+   "vence": "2026-10-20T13:20:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:e883209a-2652-420f-bb41-8ef9185d415e|x": {
    "actualizado": "2026-10-14T19:20:15.000Z",
    "buffer_id": "6acf99034713c18c89d63c1f",
@@ -28558,70 +28803,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok",
-   "cuando": "2026-10-16T16:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x",
-   "cuando": "2026-10-16T16:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|tiktok",
-   "cuando": "2026-10-16T16:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
-   "cuando": "2026-10-16T16:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok",
-   "cuando": "2026-10-16T16:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
-   "cuando": "2026-10-16T16:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok",
-   "cuando": "2026-10-16T16:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x",
-   "cuando": "2026-10-16T16:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x",
    "cuando": "2026-10-16T16:00:19.000Z",
@@ -32794,6 +32975,67 @@
    "cuando": "2026-10-19T13:00:22.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
+   "cuando": "2026-10-19T13:20:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
+   "cuando": "2026-10-19T13:20:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x",
+   "cuando": "2026-10-19T13:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
+   "cuando": "2026-10-19T13:20:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
+   "cuando": "2026-10-19T13:20:41.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5c389835-1655-4415-b7ad-23045aa7c3ca|x",
+   "cuando": "2026-10-19T13:20:50.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:b1c71e9d1312dd69|tiktok",
+   "cuando": "2026-10-19T13:20:50.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "buffer_id": "6ad61933e15f9b60b3a136d9",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
+   "cuando": "2026-10-19T13:20:51.000Z",
+   "dueAt": "2026-10-19T15:15:50.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -32834,6 +33076,7 @@
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": "2026-10-18T23:00:17.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv": "2026-10-18T23:00:17.000Z",
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn": "2026-10-19T13:20:16.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -33076,6 +33319,7 @@
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff": "2026-10-14T17:00:17.000Z",
+  "web:3620c5d5-68d9-4902-898d-2347615ba891": "2026-10-19T13:20:16.000Z",
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",
   "web:36f35444-e990-4d78-aeea-920acd95d869": "2026-10-17T15:20:13.000Z",
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
@@ -33114,6 +33358,7 @@
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
   "web:593361c2-110f-4e68-b565-1c86df54fffe": "2026-10-19T00:40:14.000Z",
   "web:594e84e0-bc01-4c60-a132-6a7f872182e0": "2026-10-19T01:40:13.000Z",
+  "web:5c389835-1655-4415-b7ad-23045aa7c3ca": "2026-10-19T13:20:16.000Z",
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
@@ -33140,6 +33385,7 @@
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
   "web:725569a0-fb4a-45ea-b7ed-10abf912cf30": "2026-10-16T10:20:16.000Z",
+  "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793": "2026-10-19T13:20:16.000Z",
   "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2": "2026-10-14T21:40:16.000Z",
   "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": "2026-10-13T22:20:15.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
@@ -33286,6 +33532,7 @@
   "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b": "2026-10-15T19:20:15.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
   "web:e80eb9f8-449c-4d4b-a410-387331e0d747": "2026-10-16T13:20:18.000Z",
+  "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101": "2026-10-19T13:20:16.000Z",
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
