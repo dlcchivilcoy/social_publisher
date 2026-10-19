@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 4 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 6 | 35 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 34 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 3 | 0 | 20 | 0 | 0 | 0 |
 
 ## Canales
@@ -26,9 +26,11 @@ Actualizado: 19/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2689 de 3000 (visto 2026-10-19T15:20:51.000Z)
+15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2688 de 3000 (visto 2026-10-19T15:40:25.000Z)
 
-## Cola propia (115 esperando)
+## Cola propia (114 esperando)
+- X · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — espera para separarse de la otra publicación de la misma noticia
+- TikTok · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La delegación de Chivilcoy arribó para los Juegos Bonaerenses — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron un auto con pedido de secuestro por robo en CABA — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron dos de las tres motos robadas a Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
@@ -45,20 +47,18 @@ Actualizado: 19/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Murió un militar tras caer más de 30 metros en un estadio de Texas — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · 100 días de engaño: de qué trata el k-drama histórico que llegó a Netflix — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Ponzio define quién reemplaza a Martínez Quarta ante Racing en la 15ª fecha — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · El Museo ‘Pompeo Boggio’ fue escenario del 35º Aniversario de la Feria Artesanal — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — en turno
-- X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — en turno
-- X · Notas web · Despedida de la delegación local que viajará a la ciudad de Mar del Plata para c — en turno
-- X · Notas web · Primera División: El Torneo Clausura se pone al día a puro empate y emoción — en turno
-- X · Notas web · Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una d — en turno
-- X · Notas web · El periodista Gustavo "Gato" Sylvestre presentó su nuevo libro en Chivilcoy con  — en turno
-- X · Notas web · “Estamos acá reconociendo nuestro error, el voto fue nuestro y el error también. — en turno
-- X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — en turno
-- X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — en turno
-- X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — en turno
-- X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — en turno
-- X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — en turno
-- X · Notas web · Coty Granjera: la historia de la influencer rural que causa furor con sus ocho h — en turno
+- X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — cupo diario de Notas web en X completo (15)
+- X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — cupo diario de Notas web en X completo (15)
+- X · Notas web · Despedida de la delegación local que viajará a la ciudad de Mar del Plata para c — cupo diario de Notas web en X completo (15)
+- X · Notas web · Primera División: El Torneo Clausura se pone al día a puro empate y emoción — cupo diario de Notas web en X completo (15)
+- X · Notas web · Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una d — cupo diario de Notas web en X completo (15)
+- X · Notas web · El periodista Gustavo "Gato" Sylvestre presentó su nuevo libro en Chivilcoy con  — cupo diario de Notas web en X completo (15)
+- X · Notas web · “Estamos acá reconociendo nuestro error, el voto fue nuestro y el error también. — cupo diario de Notas web en X completo (15)
+- X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — cupo diario de Notas web en X completo (15)
+- X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — cupo diario de Notas web en X completo (15)
+- X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — cupo diario de Notas web en X completo (15)
+- X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — cupo diario de Notas web en X completo (15)
+- X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,11 +69,6 @@ Actualizado: 19/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T15:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
-- 2026-10-19T15:00 enviado web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x 
-- 2026-10-19T15:00 enviado web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x 
-- 2026-10-19T15:00 enviado web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x 
-- 2026-10-19T15:00 enviado web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x 
 - 2026-10-19T15:00 programado web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x 
 - 2026-10-19T15:00 programado web:3620c5d5-68d9-4902-898d-2347615ba891|x 
 - 2026-10-19T15:20 recibido nacionales:43c837025338a70a|tiktok 
@@ -94,3 +89,8 @@ Actualizado: 19/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-19T15:20 vencido web:5e1b7468-652a-43da-baf9-771cda1103ff|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T15:20 programado web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x 
 - 2026-10-19T15:20 programado web:a1643449-bbde-4592-a6b3-8e7158b579e6|x 
+- 2026-10-19T15:40 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x 
+- 2026-10-19T15:40 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tikto 
+- 2026-10-19T15:40 vencido nacionales:c557a454a9895504|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T15:40 vencido web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T15:40 programado web:4199d5d7-7749-42b5-a204-16844f3014eb|x 
