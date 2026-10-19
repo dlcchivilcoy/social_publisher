@@ -16182,14 +16182,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_82015de779_las-cinco-peliculas-para-maratonear-este-fin-de.mp4"
   },
   "nacionales:883bc6cd67a29d7e|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
+   "actualizado": "2026-10-19T20:40:17.000Z",
    "buffer_id": "",
    "clave": "nacionales:883bc6cd67a29d7e|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T02:20:56.000Z",
    "id": "nacionales:883bc6cd67a29d7e",
    "intentos": 0,
@@ -16286,14 +16286,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_97bd2fed89_tension-oficialista-por-las-alianzas-y-el-rumbo.mp4"
   },
   "nacionales:9d5801d6974360c3|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
+   "actualizado": "2026-10-19T20:40:17.000Z",
    "buffer_id": "",
    "clave": "nacionales:9d5801d6974360c3|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T02:36:12.000Z",
    "id": "nacionales:9d5801d6974360c3",
    "intentos": 0,
@@ -30638,14 +30638,14 @@
    "video_url": ""
   },
   "web:f02de8c1-15da-4722-a133-920069b5d431|x": {
-   "actualizado": "2026-10-18T20:40:13.000Z",
+   "actualizado": "2026-10-19T20:40:17.000Z",
    "buffer_id": "",
    "clave": "web:f02de8c1-15da-4722-a133-920069b5d431|x",
    "creado": "2026-10-18T20:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T20:37:42.324Z",
    "id": "web:f02de8c1-15da-4722-a133-920069b5d431",
    "intentos": 0,
@@ -30947,28 +30947,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|x",
-   "cuando": "2026-10-17T01:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
-   "cuando": "2026-10-17T01:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
-   "cuando": "2026-10-17T01:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697430930507451669"
-  },
   {
    "buffer_id": "6ad2cd521c7e49ea4c308f2a",
    "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|x",
@@ -35181,6 +35159,24 @@
   {
    "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
    "cuando": "2026-10-19T20:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "nacionales:883bc6cd67a29d7e|tiktok",
+   "cuando": "2026-10-19T20:40:17.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "nacionales:9d5801d6974360c3|tiktok",
+   "cuando": "2026-10-19T20:40:17.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:f02de8c1-15da-4722-a133-920069b5d431|x",
+   "cuando": "2026-10-19T20:40:17.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
   }

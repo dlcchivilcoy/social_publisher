@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 17:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 175 de 250 · 30d: quedan 2632 de 3000 (visto 2026-10-19T20:00:24.000Z)
 
-## Cola propia (91 esperando)
+## Cola propia (88 esperando)
 - X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — cupo diario de Notas web en X completo (15)
 - X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -70,9 +70,6 @@ Actualizado: 19/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T19:00 enviado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok 
-- 2026-10-19T19:00 enviado web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x 
-- 2026-10-19T19:00 programado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x 
 - 2026-10-19T19:00 programado bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tikto 
 - 2026-10-19T19:00 programado bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok 
 - 2026-10-19T19:20 recibido web:c4a5c4d8-6c34-494d-8c50-85f771cba512|x 
@@ -95,3 +92,6 @@ Actualizado: 19/10/2026 17:20 (hora AR) · ACTIVO
 - 2026-10-19T20:20 recibido web:ce515f56-0397-44d3-b63d-c656faf40928|x 
 - 2026-10-19T20:20 vencido nacionales:a45e03c51dbe2f12|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-19T20:20 vencido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T20:40 vencido nacionales:883bc6cd67a29d7e|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T20:40 vencido nacionales:9d5801d6974360c3|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T20:40 vencido web:f02de8c1-15da-4722-a133-920069b5d431|x cupo diario de Notas web en X completo (15)
