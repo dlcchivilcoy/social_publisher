@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,8 +9,8 @@ Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 7 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 37 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 1 | 0 | 23 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 38 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 1 | 0 | 32 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 28 enviadas + 0 programadas de 50 por día
@@ -28,17 +28,26 @@ Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2703 de 3000 (visto 2026-10-19T01:00:29.000Z)
 
-## Cola propia (70 esperando)
+## Cola propia (80 esperando)
 - TikTok · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — tope de 12 publicaciones en 24 h de TikTok
 - X · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Racing e Independiente empataron en el clásico y Boca lidera la tabla anual — en turno
+- TikTok · Nacionales y categorías · Nuevos saqueos y violentos disturbios en París ponen en jaque al gobierno de Mac — en turno
+- TikTok · Nacionales y categorías · Graves disturbios en Milán y Bolonia contra el costo de vida con 7 detenidos — fuera del horizonte de programación (espera en la cola)
+- TikTok · Nacionales y categorías · Aldosivi cayó 2-1 ante Estudiantes de Río Cuarto y se complica en la permanencia — en turno
+- TikTok · Nacionales y categorías · Ricardo Darín y Diego Peretti juntos en Lo dejamos acá — en turno
 - TikTok · Nacionales y categorías · Operaron con éxito a Emiliano 'Dibu' Martínez tras una fractura de maxilar — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Francia: Macron condenó la violencia y responsabilizó a sectores de extrema izqu — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Huracán y Florencio Varela igualaron tras una histórica remontada — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Nvidia analiza no vender chips a desarrolladores de IA insegura según su CEO — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Javier Milei viaja a España para reunirse con Díaz Ayuso y disertar sobre econom — en turno
+- TikTok · Nacionales y categorías · Wanda Nara celebró el Día de la Madre rodeada de sus hijos y recuerdos — en turno
 - TikTok · Nacionales y categorías · Cindy Crawford y Kaia Gerber despidieron con emotivos mensajes a Presley — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Tensión oficialista por las alianzas y el rumbo electoral de cara a 2027 — en turno
+- TikTok · Nacionales y categorías · El doble saludo del Chato Prada a Lourdes Sánchez tras la separación — en turno
 - X · Notas web · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Elon Musk creó el Turbo Boost del auto fantástico con un Tesla — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Racing e Independiente empataron 1-1 en el Cilindro por el Torneo Clausura — tope de 12 publicaciones en 24 h de TikTok
@@ -50,15 +59,6 @@ Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Murió un sacerdote en plena misa tras caerle una cruz de madera en la cabeza — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Wanda Nara festejó el Día de la Madre con sus hijos y una tierna foto retro — cupo diario de Notas web en X completo (15)
-- X · Notas web · Aldosivi perdió 2-1 con Estudiantes de Río Cuarto y se complica en la permanenci — cupo diario de Notas web en X completo (15)
-- X · Notas web · Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdo — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económi — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá en Netflix: de qué tra — cupo diario de Notas web en X completo (15)
-- X · Notas web · El doble saludo público del Chato Prada a Lourdes Sánchez tras su separación — cupo diario de Notas web en X completo (15)
-- X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
-- X · Notas web · Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,16 +69,6 @@ Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T00:00 enviado bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x 
-- 2026-10-19T00:00 enviado bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x 
-- 2026-10-19T00:20 recibido nacionales:c557a454a9895504|tiktok 
-- 2026-10-19T00:20 recibido nacionales:0ffb2e8d26094748|tiktok 
-- 2026-10-19T00:20 recibido nacionales:c27183ebaf507280|tiktok 
-- 2026-10-19T00:20 recibido nacionales:7570d6c409614369|tiktok 
-- 2026-10-19T00:20 recibido nacionales:605a06264731bcec|tiktok 
-- 2026-10-19T00:20 recibido nacionales:552c66c451a5584e|tiktok 
-- 2026-10-19T00:20 recibido nacionales:e2ff40109224ceb4|tiktok 
-- 2026-10-19T00:20 recibido nacionales:2b26f422b8cc341a|tiktok 
 - 2026-10-19T00:20 recibido nacionales:eb29261c90f4bdfa|tiktok 
 - 2026-10-19T00:20 recibido nacionales:ef9d9f6be8029c31|tiktok 
 - 2026-10-19T00:20 recibido nacionales:897bae57805e193b|tiktok 
@@ -94,3 +84,13 @@ Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
 - 2026-10-19T02:00 recibido web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x 
 - 2026-10-19T02:20 recibido web:010e4114-35e9-438d-8057-51285ef42a56|x 
 - 2026-10-19T02:20 recibido web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x 
+- 2026-10-19T02:40 recibido nacionales:509780bc5420f2f5|tiktok 
+- 2026-10-19T02:40 recibido nacionales:e50827dd69db5a5d|tiktok 
+- 2026-10-19T02:40 recibido nacionales:a9f9a2fbd358a314|tiktok 
+- 2026-10-19T02:40 recibido nacionales:02472f0cd4ba4800|tiktok 
+- 2026-10-19T02:40 recibido nacionales:2f1a6dccc7eef682|tiktok 
+- 2026-10-19T02:40 recibido nacionales:97bd2fed895cbca6|tiktok 
+- 2026-10-19T02:40 recibido nacionales:a45e03c51dbe2f12|tiktok 
+- 2026-10-19T02:40 recibido nacionales:883bc6cd67a29d7e|tiktok 
+- 2026-10-19T02:40 recibido nacionales:9d5801d6974360c3|tiktok 
+- 2026-10-19T02:40 recibido web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x 
