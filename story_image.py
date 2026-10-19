@@ -1499,8 +1499,9 @@ def _caja_flecha(lado: int, fondo, color) -> "Image.Image":
 
 def _pie_carrusel(canvas, draw, tema: dict, x0: int, x1: int, y_centro: int, idx, total,
                   site_url: str, color_sitio=None) -> None:
-    """«Seguí leyendo en la web» a la izquierda; número de la placa y flecha (si hay otra) a la
-    derecha, todo centrado en y_centro."""
+    """A la izquierda, «Deslizá y seguí leyendo» si hay otra placa (pedido del editor, 19/10/2026: que el
+    lector sepa que el carrusel sigue y retenerlo) o, en la última, «Seguí leyendo en la web»; número de
+    la placa y flecha (si hay otra) a la derecha, todo centrado en y_centro."""
     lado = 58
     derecha = x1
     if idx and total and idx < total:
@@ -1512,7 +1513,13 @@ def _pie_carrusel(canvas, draw, tema: dict, x0: int, x1: int, y_centro: int, idx
         num = f"{idx:02d}"
         draw.text((derecha, y_centro), num, font=fn, fill=tema["acento"], anchor="rm")
         derecha -= round(draw.textlength(num, font=fn)) + 28
-    if site_url:
+    if idx and total and idx < total:
+        fd = _sans(32, 700)
+        texto = "Deslizá y seguí leyendo"
+        if draw.textlength(texto, font=fd) > derecha - x0:
+            fd = _sans(26, 700)
+        draw.text((x0, y_centro), texto, font=fd, fill=tema["acento"], anchor="lm")
+    elif site_url:
         fs = _sans(26, 600)
         texto = f"Seguí leyendo en {site_url}"
         if draw.textlength(texto, font=fs) > derecha - x0:
