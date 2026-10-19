@@ -14139,14 +14139,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2b26f422b8_la-justicia-federal-registra-298-cargos-vacantes.mp4"
   },
   "nacionales:2be0a52708a62532|tiktok": {
-   "actualizado": "2026-10-18T17:20:13.000Z",
+   "actualizado": "2026-10-19T10:40:17.000Z",
    "buffer_id": "",
    "clave": "nacionales:2be0a52708a62532|tiktok",
    "creado": "2026-10-18T17:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T16:38:37.000Z",
    "id": "nacionales:2be0a52708a62532",
    "intentos": 0,
@@ -28310,12 +28310,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
-   "cuando": "2026-10-16T15:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111095979852046734"
-  },
-  {
    "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
    "cuando": "2026-10-16T15:20:16.000Z",
    "evento": "enviado",
@@ -32546,6 +32540,12 @@
    "cuando": "2026-10-19T10:21:33.000Z",
    "dueAt": "2026-10-19T15:00:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:2be0a52708a62532|tiktok",
+   "cuando": "2026-10-19T10:40:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",

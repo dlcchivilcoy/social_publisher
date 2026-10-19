@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 07:21 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 07:21 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2700 de 3000 (visto 2026-10-19T10:21:33.000Z)
 
-## Cola propia (98 esperando)
+## Cola propia (97 esperando)
 - X · Notas web · El Museo ‘Pompeo Boggio’ fue escenario del 35º Aniversario de la Feria Artesanal — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — en turno
 - X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — en turno
@@ -69,7 +69,6 @@ Actualizado: 19/10/2026 07:21 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T09:01 programado web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x 
 - 2026-10-19T09:01 programado web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x 
 - 2026-10-19T09:20 vencido nacionales:b6108526eb42ff8a|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T09:40 vencido nacionales:fbd1321e4156d9c7|tiktok tope de 12 publicaciones en 24 h de TikTok
@@ -94,3 +93,4 @@ Actualizado: 19/10/2026 07:21 (hora AR) · ACTIVO
 - 2026-10-19T10:21 enviado web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc|x 
 - 2026-10-19T10:21 programado web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x 
 - 2026-10-19T10:21 programado web:c876f210-4b35-4b4a-add4-8813297977a9|x 
+- 2026-10-19T10:40 vencido nacionales:2be0a52708a62532|tiktok tope de 12 publicaciones en 24 h de TikTok
