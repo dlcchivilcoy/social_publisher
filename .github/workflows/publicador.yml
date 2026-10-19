@@ -43,7 +43,9 @@ on:
 #                                 (.videos_contabilidad.json) y tiene que serializar con ellos.
 #   - publicador-notas-web      : --notas-web ("notas para web": Word+foto+video por subcarpeta).
 #   - publicador-historias      : --news-stories / --yt-live / --yt-notes / --canal-story / --sepelios.
-#   - publicador-notas          : carga de notas del diario a WEB/FB/IG: --notes-web / --notes-carousel / --run-now.
+#   - publicador-notas          : carga de notas del diario a WEB/FB: --notes-web / --run-now.
+#   - publicador-carrusel       : --notes-carousel (desde el 19/10/2026 a las 7, a la par de --notes-web: ~3 h 30
+#                                 de una nota cada 15 min; si compartiera grupo, la web esperaría hasta las 10:30).
 #   - publicador-otros          : el resto manual/raro (--mail, --newsletter, --reel, --repost, --videos-report, --dry-run).
 # Nota anti-falsos-positivos: se usa '-radio' (con guion) para no confundir un email de --uploader
 # que contenga "radio"; y 'corresponsales' (plural) no matchea el --file "corresponsal_..." (singular).
@@ -64,7 +66,8 @@ concurrency:
     || contains(github.event.inputs.args, 'notas-web') && 'publicador-notas-web'
     || (contains(github.event.inputs.args, 'farmacias') || contains(github.event.inputs.args, 'tapa') || contains(github.event.inputs.args, 'muro')) && 'publicador-tapa-farmacias'
     || (contains(github.event.inputs.args, 'news-stories') || contains(github.event.inputs.args, 'yt-live') || contains(github.event.inputs.args, 'yt-notes') || contains(github.event.inputs.args, 'canal-story') || contains(github.event.inputs.args, 'sepelios')) && 'publicador-historias'
-    || (contains(github.event.inputs.args, 'notes-web') || contains(github.event.inputs.args, 'notes-carousel') || contains(github.event.inputs.args, 'run-now')) && 'publicador-notas'
+    || contains(github.event.inputs.args, 'notes-carousel') && 'publicador-carrusel'
+    || (contains(github.event.inputs.args, 'notes-web') || contains(github.event.inputs.args, 'run-now')) && 'publicador-notas'
     || 'publicador-otros'
     }}
   cancel-in-progress: false
