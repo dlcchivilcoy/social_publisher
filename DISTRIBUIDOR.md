@@ -168,3 +168,13 @@ radio, bot, policiales, nacionales/generales), sincronizada con las otras redes.
 
 Para que llegue a tiempo, policiales y nacionales suben su buzón al repo **apenas sale cada pieza**
 (policiales-bsas, `reels/distribuidor.subir_al_repo`). `X_SINCRO=0` vuelve al goteo de antes.
+
+### Qué va a X (19/10/2026, noche)
+
+- **Siempre:** notas de la web, recortes de la radio, policiales, nacionales (generales), virales e internacionales.
+- **Solo sábado y domingo:** IA, espectáculos, cine y series y deportes de nacionales (`NAC_SOLO_FINDE`; en la web,
+  su sección + «Nacionales automáticas»).
+- **Nunca:** agro (sección Agro de la web), Archivo Literario, tapa, farmacias, sepelios y clima
+  (`WEB_CATS_EXCLUIDAS`, `WEB_TITULOS_EXCLUIDOS`).
+- **Lugar para los virales:** los reels virales (categoría virales o potencial 9-10) van primero y no se frenan por
+  el cupo de su origen; los últimos `X_RESERVA_VIRALES` (6) lugares del tope de 24 h son solo para ellos.

@@ -25,7 +25,11 @@ import re
 import unicodedata
 from datetime import datetime, timedelta
 
+from zoneinfo import ZoneInfo
+
 from . import config, estado
+
+_AR = ZoneInfo(config.ZONA)
 
 CUENTAN = ("enviando", "programado", "enviado")
 ACTIVAS = ("pendiente",) + CUENTAN
@@ -101,6 +105,8 @@ def filtrar(est: dict, ev: dict, ahora: datetime) -> tuple[str, str]:
     """(noticia, motivo para NO publicarla en X o ""). Si un reel llega con su nota todavía en la cola,
     la nota se descarta y el reel ocupa su lugar."""
     noticia = clave_noticia(ev)
+    if solo_finde(ev) and (estado.de_iso(ev.get("generado")) or ahora).astimezone(_AR).weekday() < 5:
+        return noticia, "IA, espectáculos, cine y series y deportes van a X solo el sábado y el domingo"
     previa = misma_noticia(est, ev, noticia, ahora)
     if not previa:
         return noticia, ""
@@ -111,6 +117,22 @@ def filtrar(est: dict, ev: dict, ahora: datetime) -> tuple[str, str]:
         return noticia, ""
     return noticia, (f"la misma noticia ya sale en X ({config.NOMBRE_ORIGEN.get(previa['origen'], previa['origen'])}, "
                      f"{previa['estado']})")
+
+
+def es_viral(ev: dict) -> bool:
+    """Un reel viral: la categoría virales de nacionales, o un video de potencial 9 o 10."""
+    if (ev.get("categoria_nacional") or "") in config.NAC_VIRALES:
+        return True
+    return ev.get("tipo") == "video" and int(ev.get("prioridad") or 0) >= config.VIRAL_PRIORIDAD
+
+
+def solo_finde(ev: dict) -> bool:
+    return bool(ev.get("solo_finde")) or (ev.get("categoria_nacional") or "") in config.NAC_SOLO_FINDE
+
+
+def reserva_virales() -> int:
+    """Lugares del tope de 24 h que solo pueden usar los virales («si queda lugar, dale espacio…»)."""
+    return config._int("X_RESERVA_VIRALES", 6)
 
 
 # ------------------------------------------------------------------------------------ cuándo sale
@@ -141,8 +163,11 @@ def planificar(est: dict, ahora: datetime) -> tuple[list, list, dict]:
     linea = PL.linea_del_canal(est, "x")
     intercalar, n_inter = config.intercalado(), config.min_entre_policiales()
 
+    # Lo urgente primero; después los VIRALES (19/10/2026); después, por orden de llegada.
     cola = sorted((p for p in pubs if p["estado"] == "pendiente"),
-                  key=lambda p: (not p.get("urgente"), estado.de_iso(p.get("generado")) or ahora))
+                  key=lambda p: (not p.get("urgente"), not p.get("viral"),
+                                 estado.de_iso(p.get("generado")) or ahora))
+    reserva = reserva_virales()
     asignadas, espera = [], {}
     for pub in cola:
         if libres <= 0:
@@ -162,11 +187,16 @@ def planificar(est: dict, ahora: datetime) -> tuple[list, list, dict]:
             espera[pub["clave"]] = "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
             continue
         dia = PL._dia_ar(t)
-        if por_dia.get((dia, pub["origen"]), 0) >= config.cupo(pub["origen"], "x"):
+        en24 = sum(1 for d in ocupadas if t - timedelta(hours=24) < d <= t)
+        if not pub.get("viral") and en24 >= tope24 - reserva:
+            espera[pub["clave"]] = f"los últimos {reserva} lugares de las 24 h quedan para los reels virales"
+            continue
+        # Un viral no se frena por el cupo de su origen: solo por el tope total de X.
+        if not pub.get("viral") and por_dia.get((dia, pub["origen"]), 0) >= config.cupo(pub["origen"], "x"):
             espera[pub["clave"]] = (f"cupo diario de {config.NOMBRE_ORIGEN[pub['origen']]} en X completo "
                                     f"({config.cupo(pub['origen'], 'x')})")
             continue
-        if sum(1 for d in ocupadas if t - timedelta(hours=24) < d <= t) >= tope24:
+        if en24 >= tope24:
             espera[pub["clave"]] = f"tope de {tope24} publicaciones en 24 h de X"
             continue
         t = PL._segundo_fijo(t, pub["clave"])

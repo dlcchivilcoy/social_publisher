@@ -170,7 +170,12 @@ def notas_web() -> list[dict]:
         logger.warning(f"web: no pude consultar Wix ({e}); se reintenta en la próxima")
         return []
     out = []
+    excluir_titulo = re.compile(config.WEB_TITULOS_EXCLUIDOS, re.I)
     for p in posts:
+        if set(p.get("categoryIds") or []) & config.WEB_CATS_EXCLUIDAS:
+            continue                                   # agro: tiene su propia cuenta
+        if excluir_titulo.search(p.get("title") or ""):
+            continue                                   # sepelios, farmacias, clima, tapa, Archivo
         u = p.get("url") or {}
         url_wix = (u.get("base", "") + u.get("path", "")) or ""
         link = link_nota(url_wix) if url_wix else ""
@@ -182,6 +187,7 @@ def notas_web() -> list[dict]:
         titulo = partes[0] if partes else (p.get("title") or "")
         bajada = " — ".join(partes[1:]) or (p.get("excerpt") or "")
         nacional = bool({config.WEB_CAT_NACIONALES_AUTO, config.WEB_CAT_NACIONALES} & set(cats))
+        solo_finde = config.WEB_CAT_NACIONALES_AUTO in cats and bool(set(cats) & config.WEB_CATS_SOLO_FINDE)
         texto = f"{titulo} {bajada}".lower()
         out.append({
             "id": f"web:{p.get('id')}",
@@ -191,6 +197,7 @@ def notas_web() -> list[dict]:
             "nota_url": link, "url_canonica": url_wix,
             "imagen_url": _foto(p),
             "categoria": "nacionales" if nacional else "",
+            "solo_finde": solo_finde,
             # Lo nacional automático (Infobae reescrito) va después de lo propio.
             "prioridad": 3 if nacional else 6,
             "urgente": bool(re.search(r"\b(urgente|último momento|ultimo momento)\b", texto)),

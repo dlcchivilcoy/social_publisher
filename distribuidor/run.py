@@ -149,6 +149,7 @@ def encolar(est: dict, eventos: list) -> dict:
                    "error": "", "link": ""}
             if red == "x" and x_sincro.activo():
                 pub["noticia"] = noticia
+                pub["viral"] = x_sincro.es_viral(ev)
                 # Sincronizado: fuera de su ventana ya no sale (no se publica tarde).
                 pub["vence"] = estado.iso(min(vence, generado + timedelta(hours=x_sincro.ventana_h(ev["tipo"]))))
             apto, motivo = (ok, problema) if not ok else fuentes.apto_para(ev, red)

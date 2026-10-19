@@ -186,6 +186,22 @@ WEB_CAT_REGION = "55c5c23e-4ac1-43c4-ae24-125fce001311"
 WEB_CAT_NACIONALES_AUTO = "b4cdfc99-ec74-4581-8ce1-3de7d5d1f59b"
 WEB_CAT_NACIONALES = (get("WIX_CAT_NACIONALES") or "").strip() or "-"
 WEB_VENTANA_HORAS = 24
+# QUÉ NO VA A X (pedido del editor, 19/10/2026: «descartá agro, archivo literario, tapa, farmacias,
+# sepelios, clima»). Agro publica sus notas en la sección Agro de la web; sepelios, una nota diaria.
+WEB_CATS_EXCLUIDAS = {"0b4eafce-3bb8-44df-96dd-43e53fa24a9c"}       # Agro (ex Campo)
+WEB_TITULOS_EXCLUIDOS = (r"^\s*(sepelios|farmacias?( de turno)?|clima|pron[oó]stico|tapa|archivo literario|"
+                         r"pregunta del d[ií]a|un d[ií]a como hoy|efem[eé]ride)\b")
+# Las categorías nacionales que van a X SOLO el sábado y el domingo («ia, espectáculos, cine y series,
+# deportes: dejalo para el finde»). En la web: la sección de la categoría + «Nacionales automáticas».
+NAC_SOLO_FINDE = {"deportes", "espectaculos", "cine_series", "tecnologia_ia"}
+WEB_CATS_SOLO_FINDE = {"094f631e-1b56-485f-8777-6e167802455e",   # Deportes
+                       "973d6c3f-8893-4d88-92fe-78c91ab6d1ce",   # Espectáculos
+                       "03a75413-7258-4eca-b163-2f931193635c",   # Cine y series
+                       "5b9d1e36-6d94-48ab-b5f6-6f9cb1b8fcaf"}   # Tecnología (IA)
+# Los VIRALES («si queda lugar, dale espacio a los reels de videos virales»): la categoría virales de
+# nacionales y cualquier video de potencial 9 o 10.
+NAC_VIRALES = {"virales"}
+VIRAL_PRIORIDAD = 9
 # La nota en X sale con su foto destacada adjunta (más visible que la tarjeta del link,
 # que además X puede no leer en una nota recién publicada). 0 = solo el link.
 WEB_X_CON_FOTO = _bool("WEB_X_CON_FOTO", True)

@@ -687,6 +687,44 @@ def prueba_x_sincro():
         chequear("X: las notas del diario van cada 15 minutos (el ritmo del carrusel)",
                  len(webs) == 3 and all((b - x).total_seconds() >= 15 * 60 - 60 for x, b in zip(webs, webs[1:])), webs)
         chequear("X: nada se programa más allá de 90 min", all(h <= AR_10 + timedelta(minutes=91) for h in orden))
+
+        # Qué va y qué no (19/10/2026).
+        import re as _re
+        excl = _re.compile(config.WEB_TITULOS_EXCLUIDOS, _re.I)
+        chequear("X: sepelios, farmacias, clima, tapa y el Archivo no van; una nota común sí",
+                 all(excl.search(t) for t in ("Sepelios — lunes 19 de octubre", "Farmacias de turno",
+                                             "Clima en Chivilcoy", "Tapa del diario", "Archivo Literario: 1948"))
+                 and not excl.search("Gimnasia ganó el clásico y es puntero"))
+        chequear("X: agro no va (su sección está excluida)",
+                 "0b4eafce-3bb8-44df-96dd-43e53fa24a9c" in config.WEB_CATS_EXCLUIDAS)
+        run.encolar(est, [dict(ev(8, "nacionales"), categoria_nacional="deportes",
+                               titulo="Boca le ganó a River en la Bombonera", plataformas=["x", "tiktok"])])
+        chequear("X: deportes, espectáculos, cine e IA de nacionales NO salen un lunes",
+                 px["nacionales:8|x"]["estado"] == "descartado" and "sábado" in px["nacionales:8|x"]["error"]
+                 and px["nacionales:8|tiktok"]["estado"] == "pendiente")
+        sabado = AR_10 + timedelta(days=5)
+        reloj(sabado)
+        run.encolar(est, [dict(ev(9, "nacionales"), categoria_nacional="espectaculos",
+                               titulo="Mirtha Legrand volvió a la televisión", plataformas=["x", "tiktok"])])
+        chequear("X: …y el sábado sí", px["nacionales:9|x"]["estado"] == "pendiente")
+
+        # Lugar para los virales: con el tope casi lleno, solo entra el viral.
+        os.environ["TOPE_X_24H"], os.environ["X_RESERVA_VIRALES"] = "10", "3"
+        est2 = estado.vacio()
+        for i in range(7):
+            est2["publicaciones"][f"ya{i}|x"] = {"clave": f"ya{i}|x", "id": f"ya{i}", "plataforma": "x",
+                                                 "origen": "web", "estado": "enviado", "tipo": "nota",
+                                                 "dueAt": estado.iso(sabado - timedelta(minutes=30 + 10 * i))}
+        run.encolar(est2, [dict(ev(20, "nacionales"), categoria_nacional="virales",
+                                titulo="El video del perro que aprendió a abrir la heladera", plataformas=["x"]),
+                           dict(ev(21, "web"), titulo="El municipio repavimentó la avenida Soarez")])
+        a2, _d, e2 = planificador.planificar(est2, "x", sabado)
+        claves = [k for k, _t in a2]
+        chequear("X: con el tope casi lleno, el lugar que queda es para el reel viral",
+                 claves == ["nacionales:20|x"] and "virales" in e2.get("web:21|x", ""), (claves, e2))
+        chequear("X: el viral queda marcado y sale primero", est2["publicaciones"]["nacionales:20|x"].get("viral") is True)
+        os.environ.pop("TOPE_X_24H")
+        os.environ.pop("X_RESERVA_VIRALES")
     finally:
         os.environ["X_SINCRO"] = "0"
         os.environ["INTERCALADO"] = "0"
