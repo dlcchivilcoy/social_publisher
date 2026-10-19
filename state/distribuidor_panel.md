@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 0 | 1 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 39 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 40 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 3 | 0 | 22 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,7 +28,8 @@ Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 175 de 250 · 30d: quedan 2632 de 3000 (visto 2026-10-19T20:00:24.000Z)
 
-## Cola propia (92 esperando)
+## Cola propia (91 esperando)
+- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — cupo diario de Notas web en X completo (15)
 - X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Desacuerdo entre Milei y Trump por el Comité de Descolonización de la ONU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -58,7 +59,6 @@ Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
 - X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — cupo diario de Notas web en X completo (15)
 - X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — cupo diario de Notas web en X completo (15)
 - X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — cupo diario de Notas web en X completo (15)
-- X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -70,9 +70,6 @@ Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T18:40 vencido web:c6663899-669a-41de-b04f-299805304e87|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T19:00 vencido nacionales:e50827dd69db5a5d|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T19:00 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tikto 
 - 2026-10-19T19:00 enviado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok 
 - 2026-10-19T19:00 enviado web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x 
 - 2026-10-19T19:00 programado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x 
@@ -95,3 +92,6 @@ Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-19T20:00 enviado web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x 
 - 2026-10-19T20:00 enviado web:a1643449-bbde-4592-a6b3-8e7158b579e6|x 
 - 2026-10-19T20:00 programado entrevistas:job00225|x 
+- 2026-10-19T20:20 recibido web:ce515f56-0397-44d3-b63d-c656faf40928|x 
+- 2026-10-19T20:20 vencido nacionales:a45e03c51dbe2f12|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T20:20 vencido web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x cupo diario de Notas web en X completo (15)

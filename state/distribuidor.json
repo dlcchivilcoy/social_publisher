@@ -10229,6 +10229,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo",
    "volanta": "Brasil · Deportes"
   },
+  "web:ce515f56-0397-44d3-b63d-c656faf40928": {
+   "categoria": "",
+   "descripcion": "Casafe editó un manual junto a la FAUBA con pautas operativas, criterios de seguridad y telemetría para mejorar las pulverizaciones aéreas.",
+   "generado": "2026-10-19T20:04:34.221Z",
+   "id": "web:ce515f56-0397-44d3-b63d-c656faf40928",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_28c6f99b945f421b91755010cc0f941a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lanzan-un-manual-tecnico-para-mejorar-las-pulverizaciones-con-a17a3a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lanzan-un-manual-tecnico-para-mejorar-las-pulverizaciones-con-a17a3a",
+   "volanta": ""
+  },
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": {
    "categoria": "",
    "descripcion": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta Desconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde. La Policía investiga el hecho para identificar a los responsables.",
@@ -16373,14 +16391,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a28aa737cf_detuvieron-a-una-mujer-acusada-de-ordenar-el.mp4"
   },
   "nacionales:a45e03c51dbe2f12|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
+   "actualizado": "2026-10-19T20:20:16.000Z",
    "buffer_id": "",
    "clave": "nacionales:a45e03c51dbe2f12|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T02:06:01.000Z",
    "id": "nacionales:a45e03c51dbe2f12",
    "intentos": 0,
@@ -27945,14 +27963,14 @@
    "video_url": ""
   },
   "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x": {
-   "actualizado": "2026-10-18T20:20:13.000Z",
+   "actualizado": "2026-10-19T20:20:16.000Z",
    "buffer_id": "",
    "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
    "creado": "2026-10-18T20:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T20:07:25.938Z",
    "id": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130",
    "intentos": 0,
@@ -29325,6 +29343,32 @@
    "titulo": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil",
    "urgente": false,
    "vence": "2026-10-17T00:49:02.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:ce515f56-0397-44d3-b63d-c656faf40928|x": {
+   "actualizado": "2026-10-19T20:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:ce515f56-0397-44d3-b63d-c656faf40928|x",
+   "creado": "2026-10-19T20:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T20:04:34.221Z",
+   "id": "web:ce515f56-0397-44d3-b63d-c656faf40928",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lanzan-un-manual-tecnico-para-mejorar-las-pulverizaciones-con-a17a3a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas\n\nCasafe editó un manual junto a la FAUBA con pautas operativas, criterios de seguridad y telemetría para mejorar las pulverizaciones aéreas.\n\nhttps://www.diariolacampaña.com.ar/n/lanzan-un-manual-tecnico-para-mejorar-las-pulverizaciones-con-a17a3a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas",
+   "urgente": false,
+   "vence": "2026-10-20T20:04:34.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -30903,30 +30947,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|tiktok",
-   "cuando": "2026-10-17T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|x",
-   "cuando": "2026-10-17T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|tiktok",
-   "cuando": "2026-10-17T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|x",
    "cuando": "2026-10-17T01:20:17.000Z",
@@ -35143,6 +35163,26 @@
    "cuando": "2026-10-19T20:00:24.000Z",
    "dueAt": "2026-10-20T00:00:08.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:ce515f56-0397-44d3-b63d-c656faf40928|x",
+   "cuando": "2026-10-19T20:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:a45e03c51dbe2f12|tiktok",
+   "cuando": "2026-10-19T20:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
+   "cuando": "2026-10-19T20:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "tandas": {
@@ -35648,6 +35688,7 @@
   "web:ccce7a0b-db66-488d-8412-6628b516975f": "2026-10-17T23:20:15.000Z",
   "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": "2026-10-17T16:20:14.000Z",
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
+  "web:ce515f56-0397-44d3-b63d-c656faf40928": "2026-10-19T20:20:15.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",
   "web:ceec6742-f491-45cb-b224-31d1a7caf1da": "2026-10-12T18:20:14.000Z",
