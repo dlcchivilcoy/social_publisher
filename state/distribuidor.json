@@ -15799,14 +15799,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_23d1fc7d23_ponzio-define-quien-reemplaza-a-martinez-quarta.mp4"
   },
   "nacionales:25f7704c0cf2a754|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
+   "actualizado": "2026-10-19T22:40:15.000Z",
    "buffer_id": "",
    "clave": "nacionales:25f7704c0cf2a754|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T04:37:04.000Z",
    "id": "nacionales:25f7704c0cf2a754",
    "intentos": 0,
@@ -24258,14 +24258,14 @@
    "video_url": ""
   },
   "web:31a6f540-e9dd-415d-9833-6137456f0a06|x": {
-   "actualizado": "2026-10-18T22:40:12.000Z",
+   "actualizado": "2026-10-19T22:40:15.000Z",
    "buffer_id": "",
    "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
    "creado": "2026-10-18T22:40:12.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:35:10.484Z",
    "id": "web:31a6f540-e9dd-415d-9833-6137456f0a06",
    "intentos": 0,
@@ -31208,22 +31208,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x",
-   "cuando": "2026-10-17T09:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok",
-   "cuando": "2026-10-17T09:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok",
    "cuando": "2026-10-17T09:00:20.000Z",
    "evento": "vencido",
@@ -35432,6 +35416,18 @@
   {
    "clave": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x",
    "cuando": "2026-10-19T22:20:24.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "nacionales:25f7704c0cf2a754|tiktok",
+   "cuando": "2026-10-19T22:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
+   "cuando": "2026-10-19T22:40:15.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
   }

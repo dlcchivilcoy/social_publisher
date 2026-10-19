@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -11,7 +11,7 @@ Actualizado: 19/10/2026 19:20 (hora AR) · ACTIVO
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 44 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 3 | 0 | 20 | 0 | 2 | 0 |
+| Nacionales y categorías | TikTok | 4 | 3 | 0 | 19 | 0 | 3 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 6 programadas de 100 por día
@@ -29,7 +29,7 @@ Actualizado: 19/10/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 61 de 100 · 24h: quedan 136 de 250 · 30d: quedan 2593 de 3000 (visto 2026-10-19T21:00:30.000Z)
 
-## Cola propia (87 esperando)
+## Cola propia (85 esperando)
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — cupo diario de Notas web en X completo (15)
 - X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — cupo diario de Notas web en X completo (15)
@@ -71,8 +71,6 @@ Actualizado: 19/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T20:00 enviado web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x 
-- 2026-10-19T20:00 enviado web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x 
 - 2026-10-19T20:00 enviado web:a1643449-bbde-4592-a6b3-8e7158b579e6|x 
 - 2026-10-19T20:00 programado entrevistas:job00225|x 
 - 2026-10-19T20:20 recibido web:ce515f56-0397-44d3-b63d-c656faf40928|x 
@@ -96,3 +94,5 @@ Actualizado: 19/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-19T22:20 vencido nacionales:0d6b3d4ada951c07|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-19T22:20 vencido web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T22:20 vencido web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T22:40 vencido nacionales:25f7704c0cf2a754|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T22:40 vencido web:31a6f540-e9dd-415d-9833-6137456f0a06|x cupo diario de Notas web en X completo (15)
