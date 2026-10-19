@@ -9851,6 +9851,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aprobaron-una-nueva-soja-con-tolerancia-a-cuatro-herbicidas-en-c9c177",
    "volanta": ""
   },
+  "web:c4a5c4d8-6c34-494d-8c50-85f771cba512": {
+   "categoria": "",
+   "descripcion": "Un ensayo del INTA San Salvador comprobó que el uso de esta leguminosa disminuye los residuos químicos y potencia la cosecha.",
+   "generado": "2026-10-19T19:02:42.465Z",
+   "id": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bbb8c56267f844f59842569e9c0ee747~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-el-trebol-alejandrino-mejora-el-suelo-y-aumenta-el-7cd76d",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arroz",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-el-trebol-alejandrino-mejora-el-suelo-y-aumenta-el-7cd76d",
+   "volanta": ""
+  },
   "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765": {
    "categoria": "",
    "descripcion": "Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una definición dramática y ya conoce a su próximo rival El \"Lobo\" igualó 3 a 3 frente a Defensores de Puerto Vilelas en un encuentro con el corazón en la boca. Gracias a la ventaja deportiva, los dirigidos por Salvaggio lograron meterse en los cruces de la Tercera Etapa, donde se medirán ante Boca Unidos de Corrientes. En una jornada vibrante, Gimnasia y Esgrima de Chivilcoy selló su clasificación a la Tercera Etapa de...",
@@ -11294,22 +11312,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 898,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 223,
-   "segundos": 14401,
+   "restantes": 222,
+   "segundos": 13206,
    "tope": 250
   },
   "30d": {
-   "restantes": 2680,
-   "segundos": 1908620,
+   "restantes": 2679,
+   "segundos": 1907424,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T19:00:23.000Z",
+ "cuota_visto": "2026-10-19T19:20:18.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15409,6 +15427,7 @@
    "creado": "2026-10-19T17:20:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-19T17:20:14.000Z",
    "id": "entrevistas:job00226",
@@ -15428,13 +15447,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00226.mp4"
   },
   "entrevistas:job00228|x": {
-   "actualizado": "2026-10-19T17:40:30.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T19:20:16.000Z",
+   "buffer_id": "6ad66d7237a3bee8ce02d9db",
    "clave": "entrevistas:job00228|x",
    "creado": "2026-10-19T17:40:30.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T23:30:49.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T17:40:30.000Z",
    "id": "entrevistas:job00228",
    "intentos": 0,
@@ -15453,14 +15473,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00228.mp4"
   },
   "entrevistas:job00229|x": {
-   "actualizado": "2026-10-19T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T19:20:16.000Z",
+   "buffer_id": "6ad66d7137a3bee8ce02d981",
    "clave": "entrevistas:job00229|x",
    "creado": "2026-10-19T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T23:15:19.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T18:20:14.000Z",
    "id": "entrevistas:job00229",
    "intentos": 0,
@@ -16376,14 +16396,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a45e03c51d_aldosivi-cayo-2-1-ante-estudiantes-de-rio-cuarto.mp4"
   },
   "nacionales:a9f9a2fbd358a314|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
+   "actualizado": "2026-10-19T19:20:16.000Z",
    "buffer_id": "",
    "clave": "nacionales:a9f9a2fbd358a314|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T01:06:29.000Z",
    "id": "nacionales:a9f9a2fbd358a314",
    "intentos": 0,
@@ -26555,14 +26575,14 @@
    "video_url": ""
   },
   "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x": {
-   "actualizado": "2026-10-18T19:20:13.000Z",
+   "actualizado": "2026-10-19T19:20:16.000Z",
    "buffer_id": "",
    "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
    "creado": "2026-10-18T19:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T19:07:23.613Z",
    "id": "web:82b6cce8-6765-4661-8b19-1e22966dd60a",
    "intentos": 0,
@@ -28718,6 +28738,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c4a5c4d8-6c34-494d-8c50-85f771cba512|x": {
+   "actualizado": "2026-10-19T19:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512|x",
+   "creado": "2026-10-19T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T19:02:42.465Z",
+   "id": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-el-trebol-alejandrino-mejora-el-suelo-y-aumenta-el-7cd76d",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arroz\n\nUn ensayo del INTA San Salvador comprobó que el uso de esta leguminosa disminuye los residuos químicos y potencia la cosecha.\n\nhttps://www.diariolacampaña.com.ar/n/maiz-el-trebol-alejandrino-mejora-el-suelo-y-aumenta-el-7cd76d",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arroz",
+   "urgente": false,
+   "vence": "2026-10-20T19:02:42.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x": {
    "actualizado": "2026-10-19T10:20:14.000Z",
    "buffer_id": "",
@@ -30848,42 +30893,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
-   "cuando": "2026-10-16T23:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad2ba948ac6cfe54421119d",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
-   "cuando": "2026-10-17T00:00:20.000Z",
-   "dueAt": "2026-10-17T00:03:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad2ba94c34368e4b09bd2a2",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
-   "cuando": "2026-10-17T00:00:20.000Z",
-   "dueAt": "2026-10-17T00:43:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
-   "cuando": "2026-10-17T00:20:12.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
-   "cuando": "2026-10-17T00:20:12.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
    "cuando": "2026-10-17T00:20:13.000Z",
@@ -35098,6 +35107,40 @@
    "cuando": "2026-10-19T19:00:23.000Z",
    "dueAt": "2026-10-19T19:43:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512|x",
+   "cuando": "2026-10-19T19:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:a9f9a2fbd358a314|tiktok",
+   "cuando": "2026-10-19T19:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
+   "cuando": "2026-10-19T19:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad66d7137a3bee8ce02d981",
+   "clave": "entrevistas:job00229|x",
+   "cuando": "2026-10-19T19:20:18.000Z",
+   "dueAt": "2026-10-19T23:15:19.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad66d7237a3bee8ce02d9db",
+   "clave": "entrevistas:job00228|x",
+   "cuando": "2026-10-19T19:20:18.000Z",
+   "dueAt": "2026-10-19T23:30:49.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -35579,6 +35622,7 @@
   "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": "2026-10-18T16:40:14.000Z",
   "web:be16b20b-29a0-45de-ae35-dec56c678655": "2026-10-18T23:00:17.000Z",
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
+  "web:c4a5c4d8-6c34-494d-8c50-85f771cba512": "2026-10-19T19:20:15.000Z",
   "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765": "2026-10-19T10:20:14.000Z",
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": "2026-10-15T10:20:13.000Z",
   "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": "2026-10-18T17:20:13.000Z",
