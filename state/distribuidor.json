@@ -28865,14 +28865,14 @@
    "video_url": ""
   },
   "web:c6663899-669a-41de-b04f-299805304e87|x": {
-   "actualizado": "2026-10-18T18:40:13.000Z",
+   "actualizado": "2026-10-19T18:40:16.000Z",
    "buffer_id": "",
    "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
    "creado": "2026-10-18T18:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T18:37:26.849Z",
    "id": "web:c6663899-669a-41de-b04f-299805304e87",
    "intentos": 0,
@@ -30844,12 +30844,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
-   "cuando": "2026-10-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111227202977030472"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
    "cuando": "2026-10-16T23:00:21.000Z",
@@ -35097,6 +35091,12 @@
   {
    "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
    "cuando": "2026-10-19T18:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
+   "cuando": "2026-10-19T18:40:16.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
   }

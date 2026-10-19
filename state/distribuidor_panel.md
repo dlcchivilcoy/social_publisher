@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 15:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2682 de 3000 (visto 2026-10-19T17:40:33.000Z)
 
-## Cola propia (106 esperando)
+## Cola propia (105 esperando)
 - X · Reels del bot · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Matias Carrettoni: "Hay que volver a enamorar a los jóvenes" — en turno
 - X · Recortes de entrevistas · Eduardo Falcone: crédito para terminar la Ruta 5 — en turno
@@ -70,7 +70,6 @@ Actualizado: 19/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T17:00 recibido bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok 
 - 2026-10-19T17:00 recibido web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x 
 - 2026-10-19T17:00 recibido entrevistas:job00225|x 
 - 2026-10-19T17:00 vencido nacionales:552c66c451a5584e|tiktok tope de 12 publicaciones en 24 h de TikTok
@@ -95,3 +94,4 @@ Actualizado: 19/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-19T18:20 recibido entrevistas:job00229|x 
 - 2026-10-19T18:20 vencido nacionales:897bae57805e193b|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T18:20 vencido web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T18:40 vencido web:c6663899-669a-41de-b04f-299805304e87|x cupo diario de Notas web en X completo (15)
