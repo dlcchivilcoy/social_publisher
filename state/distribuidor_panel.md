@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -11,7 +11,7 @@ Actualizado: 19/10/2026 18:20 (hora AR) · ACTIVO
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 42 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 3 | 0 | 22 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 3 | 0 | 21 | 0 | 1 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 6 programadas de 100 por día
@@ -29,7 +29,7 @@ Actualizado: 19/10/2026 18:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 61 de 100 · 24h: quedan 136 de 250 · 30d: quedan 2593 de 3000 (visto 2026-10-19T21:00:30.000Z)
 
-## Cola propia (91 esperando)
+## Cola propia (89 esperando)
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — cupo diario de Notas web en X completo (15)
 - X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — cupo diario de Notas web en X completo (15)
@@ -71,8 +71,6 @@ Actualizado: 19/10/2026 18:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T19:40 vencido nacionales:02472f0cd4ba4800|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T19:40 vencido nacionales:2f1a6dccc7eef682|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T19:40 vencido web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T19:40 programado entrevistas:job00226|x 
 - 2026-10-19T20:00 vencido nacionales:97bd2fed895cbca6|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -96,3 +94,5 @@ Actualizado: 19/10/2026 18:20 (hora AR) · ACTIVO
 - 2026-10-19T21:00 enviado web:4199d5d7-7749-42b5-a204-16844f3014eb|x 
 - 2026-10-19T21:00 programado bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|x 
 - 2026-10-19T21:20 recibido web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x 
+- 2026-10-19T21:40 vencido nacionales:9e7b427db11bc8f2|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T21:40 vencido web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x cupo diario de Notas web en X completo (15)
