@@ -4861,6 +4861,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campana-comunitaria-el-club-de-leones-y-el-rally-regional-impulsan",
    "volanta": "Campaña Comunitaria"
   },
+  "web:1577e055-5def-4f13-aaba-45b5fbac35da": {
+   "categoria": "nacionales",
+   "descripcion": "El clásico de Avellaneda terminó igualado en el Cilindro. Por su parte, el conjunto xeneize superó a Talleres y trepó a la cima de la tabla anual del…",
+   "generado": "2026-10-19T01:05:08.425Z",
+   "id": "web:1577e055-5def-4f13-aaba-45b5fbac35da",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f43dd773050d4f3bb2cbe9447cb6e23c~mv2.webp",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
+   "volanta": ""
+  },
   "web:15858ae6-1837-4436-b8ed-3a098530f992": {
    "categoria": "",
    "descripcion": "Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una discusión para tenerla en 15 días cuando es algo que lleva más de 40 años sin finalizar” La concejal Constanza Alonso, presidenta del bloque Fuerza Patria en el Concejo Deliberante, visitó los estudios de Radio del Centro durante el programa La Mañana del Centro para analizar diversas problemáticas de la actualidad local y nacional. Durante la entrevista, la edil profundizó sobre las razones que llevaron a su espacio...",
@@ -19496,6 +19514,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:1577e055-5def-4f13-aaba-45b5fbac35da|x": {
+   "actualizado": "2026-10-19T01:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
+   "creado": "2026-10-19T01:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T01:05:08.425Z",
+   "id": "web:1577e055-5def-4f13-aaba-45b5fbac35da",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca\n\nEl clásico de Avellaneda terminó igualado en el Cilindro. Por su parte, el conjunto xeneize superó a Talleres y trepó a la cima de la tabla anual.\n\nhttps://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca",
+   "urgente": false,
+   "vence": "2026-10-20T01:05:08.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:15858ae6-1837-4436-b8ed-3a098530f992|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
    "buffer_id": "",
@@ -25982,14 +26026,6 @@
  },
  "registro": [
   {
-   "clave": "web:6c2dee19-96b1-4489-897a-ad0acfed084b|x",
-   "cuando": "2026-10-16T10:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x",
    "cuando": "2026-10-16T10:20:18.000Z",
    "estado": "pendiente",
@@ -30152,6 +30188,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
+   "cuando": "2026-10-19T01:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -30371,6 +30415,7 @@
   "web:14436815-e65b-4622-81a4-d215bbfc9d5f": "2026-10-16T22:20:13.000Z",
   "web:14487ca8-2475-41c1-b598-3490602d4ec8": "2026-10-14T21:20:14.000Z",
   "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a": "2026-10-16T10:20:16.000Z",
+  "web:1577e055-5def-4f13-aaba-45b5fbac35da": "2026-10-19T01:20:15.000Z",
   "web:15858ae6-1837-4436-b8ed-3a098530f992": "2026-10-15T10:20:13.000Z",
   "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": "2026-10-17T23:40:13.000Z",
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
