@@ -215,6 +215,10 @@ def planificar(est: dict, plataforma: str, ahora: datetime) -> tuple[list, list,
     """Devuelve (asignaciones, a_desprogramar, motivos_de_espera)."""
     if plataforma == "tiktok" and config.tiktok_tandas():
         return planificar_tanda(est, plataforma, ahora)
+    if plataforma == "x":
+        from . import x_sincro
+        if x_sincro.activo():
+            return x_sincro.planificar(est, ahora)
     pubs = est["publicaciones"]
     mias = [p for p in pubs.values() if p["plataforma"] == plataforma]
     sep = timedelta(minutes=config.separacion_min(plataforma))

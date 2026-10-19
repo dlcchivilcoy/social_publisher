@@ -63,12 +63,13 @@ def canal(plataforma: str) -> str:
 # Máximos por día (calendario de Argentina). Son TOPES, no objetivos: nunca se rellena.
 # Variable: CUPO_<ORIGEN>_<PLATAFORMA>, p. ej. CUPO_POLICIALES_TIKTOK=8
 MATRIZ_DEFAULT = {
-    "entrevistas": {"x": 10, "tiktok": 0},
+    "entrevistas": {"x": 8, "tiktok": 0},
     "bot":         {"x": 10, "tiktok": 10},
-    "policiales":  {"x": 12, "tiktok": 12},
+    "policiales":  {"x": 6, "tiktok": 12},   # 19/10/2026: 2 pasadas × 3 hechos
     "web":         {"x": 15, "tiktok": 0},   # las notas web NUNCA van a TikTok (ver puede_ir)
     # Dentro del MISMO tope de TikTok (15): reemplaza parte de lo policial, no suma (17/10/2026).
-    "nacionales":  {"x": 0, "tiktok": 4},
+    # X (19/10/2026): las nacionales salen con su VIDEO y su nota no se repite (x_sincro).
+    "nacionales":  {"x": 12, "tiktok": 4},
 }
 
 

@@ -16,6 +16,12 @@ os.environ.setdefault("DISTRIBUIDOR_ACTIVO", "1")
 os.environ["INTERCALADO"] = "0"
 # TikTok en tandas (19/10/2026) tiene su prueba propia (prueba_tandas_tiktok); las demás son del goteo.
 os.environ["TIKTOK_TANDAS"] = "0"
+# X sincronizado y sin repetidos (19/10/2026) tiene su prueba propia (prueba_x_sincro); las demás son del
+# goteo de antes, con sus cupos de entonces.
+os.environ["X_SINCRO"] = "0"
+os.environ.setdefault("CUPO_POLICIALES_X", "12")
+os.environ.setdefault("CUPO_NACIONALES_X", "0")
+os.environ.setdefault("CUPO_ENTREVISTAS_X", "10")
 
 from distribuidor import buffer_api, config, estado, fuentes, planificador, run, textos  # noqa: E402
 
@@ -627,10 +633,70 @@ def prueba_tandas_tiktok():
         os.environ["INTERCALADO"] = "0"
 
 
+def prueba_x_sincro():
+    """X SINCRONIZADO Y SIN REPETIDOS (19/10/2026): una noticia, un posteo (el reel gana a la nota); sale
+    cuando salió en las otras redes, con 5 min entre posteos de X y las notas web cada 15."""
+    print("\n— X sincronizado y sin repetidos")
+    os.environ["X_SINCRO"] = "1"
+    os.environ["INTERCALADO"] = "1"
+    for k in ("CUPO_POLICIALES_X", "CUPO_NACIONALES_X", "CUPO_ENTREVISTAS_X"):
+        os.environ.pop(k, None)
+    try:
+        preparar(lambda: [])
+        reloj(AR_10)
+        est = estado.vacio()
+        url = "https://www.diariolacampaña.com.ar/n/vacunacion-antigripal-en-chivilcoy-abc123"
+        nota = dict(ev(1, "web"), nota_url=url, titulo="Vacunación antigripal en el hospital de Chivilcoy")
+        reel = dict(ev(1, "bot"), nota_url=url, titulo="Vacunación antigripal en el hospital de Chivilcoy",
+                    plataformas=["x", "tiktok"])
+        run.encolar(est, [nota, reel])
+        px = est["publicaciones"]
+        chequear("misma noticia (nota + reel del bot) → en X sale una sola, el REEL",
+                 px["bot:1|x"]["estado"] == "pendiente" and px["web:1|x"]["estado"] == "descartado"
+                 and "ya sale en X" in px["web:1|x"]["error"], {k: v["estado"] for k, v in px.items()})
+        chequear("…y el reel igual va a TikTok", px["bot:1|tiktok"]["estado"] == "pendiente")
+
+        url2 = "https://www.diariolacampaña.com.ar/n/el-gobierno-anuncio-cambios-en-el-rigi-def456"
+        run.encolar(est, [dict(ev(2, "web"), nota_url=url2, titulo="El Gobierno anunció cambios en el RIGI")])
+        run.encolar(est, [dict(ev(2, "nacionales"), nota_url=url2, titulo="El Gobierno anunció cambios en el RIGI",
+                               plataformas=["x", "tiktok"])])
+        chequear("la nota que esperaba en la cola cede su lugar al reel de nacionales de la misma noticia",
+                 px["web:2|x"]["estado"] == "descartado" and "reemplazada" in px["web:2|x"]["error"]
+                 and px["nacionales:2|x"]["estado"] == "pendiente")
+
+        run.encolar(est, [dict(ev(3, "policiales"), nota_url="", titulo="Choque en la Ruta 5: dos heridos cerca de Chivilcoy"),
+                          dict(ev(4, "entrevistas"), nota_url="", titulo="Choque en la Ruta 5: dos heridos cerca de Chivilcoy hoy")])
+        chequear("sin nota, un título casi igual también cuenta como la misma noticia",
+                 px["policiales:3|x"]["estado"] == "pendiente" and px["entrevistas:4|x"]["estado"] == "descartado")
+        chequear("un reel en X vence a las 2 h de salir en las otras redes (no se publica tarde)",
+                 estado.de_iso(px["bot:1|x"]["vence"]) <= AR_10 + timedelta(hours=2, minutes=1))
+
+        # Planificación: tres notas del diario a la vez y dos reels.
+        for i, t in ((5, "Inauguraron la nueva plaza del barrio Villa Moquehuá"),
+                     (6, "El Concejo Deliberante aprobó el presupuesto municipal 2027"),
+                     (7, "Gimnasia ganó el clásico y es puntero del torneo local")):
+            run.encolar(est, [dict(ev(i, "web"), titulo=t)])
+        a, _d, espera = planificador.planificar(est, "x", AR_10)
+        horas = {k: estado.de_iso(due) for k, due in a}
+        orden = sorted(horas.values())
+        chequear("X: todo lo pendiente se programa ya (sincronizado con las otras redes)",
+                 orden and (orden[0] - AR_10).total_seconds() / 60 <= 5, [(k, h.isoformat()) for k, h in horas.items()])
+        chequear("X: nunca dos posteos a menos de 5 minutos",
+                 all((b - x).total_seconds() >= 5 * 60 - 60 for x, b in zip(orden, orden[1:])), orden)
+        webs = sorted(h for k, h in horas.items() if k.startswith("web:"))
+        chequear("X: las notas del diario van cada 15 minutos (el ritmo del carrusel)",
+                 len(webs) == 3 and all((b - x).total_seconds() >= 15 * 60 - 60 for x, b in zip(webs, webs[1:])), webs)
+        chequear("X: nada se programa más allá de 90 min", all(h <= AR_10 + timedelta(minutes=91) for h in orden))
+    finally:
+        os.environ["X_SINCRO"] = "0"
+        os.environ["INTERCALADO"] = "0"
+        os.environ["CUPO_POLICIALES_X"], os.environ["CUPO_NACIONALES_X"], os.environ["CUPO_ENTREVISTAS_X"] = "12", "0", "10"
+
+
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok, prueba_x_sincro):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)

@@ -29,7 +29,7 @@ load_config()
 
 from utils.logger import get_logger  # noqa: E402
 
-from . import buffer_api, config, estado, fuentes, planificador, tema, textos  # noqa: E402
+from . import buffer_api, config, estado, fuentes, planificador, tema, textos, x_sincro  # noqa: E402
 
 logger = get_logger("distribuidor")
 
@@ -96,6 +96,9 @@ def encolar(est: dict, eventos: list) -> dict:
     cuenta = {"nuevos": 0, "repetidos": 0, "rechazados": 0, "reintentar": 0}
     ahora = estado.ahora()
     eventos = esperan_youtube(est, eventos)
+    # X sin repetidos (19/10/2026): los REELS primero, así el video de una noticia gana a su nota.
+    eventos = sorted(eventos, key=lambda e: 1 if (e.get("tipo") or ("nota" if e.get("origen") == "web" else "video"))
+                     == "nota" else 0)
     for crudo in eventos:
         ev, motivo = fuentes.normalizar(crudo)
         if not ev:
@@ -127,6 +130,10 @@ def encolar(est: dict, eventos: list) -> dict:
         est["contenidos"][ev["id"]] = {k: v for k, v in ev.items() if not k.startswith("_")}
         est["vistos"][ev["id"]] = estado.iso(ahora)
         cuenta["nuevos"] += 1
+        # X: una noticia, un posteo (x_sincro). La nota que ya estaba en la cola cede su lugar al reel.
+        noticia, repetida_x = ("", "")
+        if "x" in redes and x_sincro.activo():
+            noticia, repetida_x = x_sincro.filtrar(est, ev, ahora)
         for red in redes:
             k = estado.clave(ev["id"], red)
             if k in est["publicaciones"]:
@@ -140,7 +147,13 @@ def encolar(est: dict, eventos: list) -> dict:
                    "video_bytes": ev.get("video_bytes", 0),
                    "estado": "pendiente", "intentos": 0, "buffer_id": "", "dueAt": "",
                    "error": "", "link": ""}
+            if red == "x" and x_sincro.activo():
+                pub["noticia"] = noticia
+                # Sincronizado: fuera de su ventana ya no sale (no se publica tarde).
+                pub["vence"] = estado.iso(min(vence, generado + timedelta(hours=x_sincro.ventana_h(ev["tipo"]))))
             apto, motivo = (ok, problema) if not ok else fuentes.apto_para(ev, red)
+            if apto and red == "x" and repetida_x:
+                apto, motivo = False, repetida_x
             if not apto:
                 pub.update(estado="descartado", error=motivo)
             else:

@@ -150,3 +150,21 @@ tanda (ventana de 50 min) entra el tope de 24 h dividido por la cantidad de tand
 - Lo que no entra sigue en la cola para la tanda siguiente (o vence: policiales y nacionales a las 18 h).
 
 `TIKTOK_TANDAS=0` vuelve al goteo de antes (cupos por origen y 40 min entre posteos). X no cambia.
+
+## X sincronizado y sin repetidos (19/10/2026)
+
+Pedido del editor: una estructura para X sin posteos repetidos, con todo lo que sale (notas web, recortes de la
+radio, bot, policiales, nacionales/generales), sincronizada con las otras redes. `distribuidor/x_sincro.py`:
+
+1. **Una noticia, un posteo.** Cada publicación de X lleva su «noticia» (slug de la nota o, sin nota, la huella
+   del título). Si ya hay en X algo de la misma noticia en 48 h (mismo slug o título parecido ≥ 0,6), lo nuevo no
+   entra. Un **reel reemplaza a la nota** de la misma noticia que todavía no llegó a Buffer (en cada corrida se
+   encolan primero los videos).
+2. **Al mismo tiempo que las otras redes.** Cada pieza se programa a la hora en que salió en IG/FB/YouTube (o lo
+   antes posible), con `X_SEPARACION_SINCRO_MIN` (5) entre posteos de X; las notas web cada `X_WEB_RITMO_MIN` (15),
+   el ritmo del carrusel del diario. Nada se programa a más de `X_HORIZONTE_SINCRO_MIN` (90).
+3. **No se publica tarde:** un reel vence a las `X_VENTANA_REEL_H` (2) y una nota a las `X_VENTANA_NOTA_H` (4).
+4. Cupos de X por día: web 15, nacionales 12, bot 10, recortes 8, policiales 6; tope total 47 en 24 h.
+
+Para que llegue a tiempo, policiales y nacionales suben su buzón al repo **apenas sale cada pieza**
+(policiales-bsas, `reels/distribuidor.subir_al_repo`). `X_SINCRO=0` vuelve al goteo de antes.
