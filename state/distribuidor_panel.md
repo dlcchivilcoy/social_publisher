@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 4 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 35 | 0 | 0 | 0 |
+| Notas web | X | 15 | 9 | 6 | 36 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 3 | 0 | 22 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 9 enviadas + 6 programadas de 50 por día
+- X: conectado · Buffer: 14 enviadas + 6 programadas de 50 por día
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -26,9 +26,9 @@ Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2688 de 3000 (visto 2026-10-19T15:40:25.000Z)
+15m: quedan 98 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2686 de 3000 (visto 2026-10-19T16:20:24.000Z)
 
-## Cola propia (116 esperando)
+## Cola propia (115 esperando)
 - TikTok · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
 - X · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — espera para separarse de la otra publicación de la misma noticia
 - TikTok · Reels del bot · La delegación de Chivilcoy arribó para los Juegos Bonaerenses — tope de 12 publicaciones en 24 h de TikTok
@@ -39,6 +39,7 @@ Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Mirtha Legrand reapareció en familia tras 18 días internada y habló Rottemberg — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Jugador de Racing reaccionó con insultos y gestos hacia los hinchas — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Toques de queda localizados en Francia tras disturbios y saqueos masivos — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — tope de 12 publicaciones en 24 h de TikTok
@@ -58,7 +59,6 @@ Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
 - X · Notas web · “Estamos acá reconociendo nuestro error, el voto fue nuestro y el error también. — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — cupo diario de Notas web en X completo (15)
 - X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — cupo diario de Notas web en X completo (15)
-- X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,17 +69,6 @@ Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T15:20 recibido nacionales:588268bbf306f395|tiktok 
-- 2026-10-19T15:20 recibido nacionales:c6ed9c5ff821ce8c|tiktok 
-- 2026-10-19T15:20 recibido nacionales:d6dc41a1ad7b38ad|tiktok 
-- 2026-10-19T15:20 recibido nacionales:a09771b77a360e01|tiktok 
-- 2026-10-19T15:20 recibido nacionales:8f3dac102e5cdee4|tiktok 
-- 2026-10-19T15:20 recibido nacionales:54abafdb21dc7c6a|tiktok 
-- 2026-10-19T15:20 recibido nacionales:d4259eeed3d3426d|tiktok 
-- 2026-10-19T15:20 recibido nacionales:f370b43343c04756|tiktok 
-- 2026-10-19T15:20 recibido web:a1643449-bbde-4592-a6b3-8e7158b579e6|x 
-- 2026-10-19T15:20 recibido web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5|x 
-- 2026-10-19T15:20 recibido web:8d5f9e45-c3ff-4b47-a721-0097362139bf|x 
 - 2026-10-19T15:20 vencido web:2991bf21-e852-48ba-87ce-5d073c3a7487|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T15:20 vencido web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T15:20 vencido web:5e1b7468-652a-43da-baf9-771cda1103ff|x cupo diario de Notas web en X completo (15)
@@ -94,3 +83,14 @@ Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-19T16:00 recibido nacionales:dc18047933ea00df|tiktok 
 - 2026-10-19T16:00 recibido web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x 
 - 2026-10-19T16:00 vencido nacionales:0ffb2e8d26094748|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T16:20 entrevista_aprobada entrevistas:job00224 
+- 2026-10-19T16:20 recibido web:8823bbc2-feae-46ef-8a92-a08165b6e26c|x 
+- 2026-10-19T16:20 recibido entrevistas:job00224|x 
+- 2026-10-19T16:20 vencido nacionales:c27183ebaf507280|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T16:20 vencido web:1abafabb-ff53-4fcd-911c-6a4465fed747|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T16:20 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x 
+- 2026-10-19T16:20 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x 
+- 2026-10-19T16:20 enviado bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x 
+- 2026-10-19T16:20 enviado bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x 
+- 2026-10-19T16:20 enviado web:c876f210-4b35-4b4a-add4-8813297977a9|x 
+- 2026-10-19T16:20 programado entrevistas:job00224|x 
