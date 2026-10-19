@@ -14771,14 +14771,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4"
   },
   "nacionales:fbd1321e4156d9c7|tiktok": {
-   "actualizado": "2026-10-18T17:20:13.000Z",
+   "actualizado": "2026-10-19T09:40:16.000Z",
    "buffer_id": "",
    "clave": "nacionales:fbd1321e4156d9c7|tiktok",
    "creado": "2026-10-18T17:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T15:38:17.000Z",
    "id": "nacionales:fbd1321e4156d9c7",
    "intentos": 0,
@@ -27617,13 +27617,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad224932fe657de6ea75a21",
-   "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
-   "cuando": "2026-10-16T13:20:19.000Z",
-   "dueAt": "2026-10-16T15:00:15.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad2249325d13dd62eea1ebd",
    "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
    "cuando": "2026-10-16T13:20:19.000Z",
@@ -31833,6 +31826,12 @@
   {
    "clave": "nacionales:b6108526eb42ff8a|tiktok",
    "cuando": "2026-10-19T09:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "nacionales:fbd1321e4156d9c7|tiktok",
+   "cuando": "2026-10-19T09:40:16.000Z",
    "evento": "vencido",
    "motivo": "tope de 12 publicaciones en 24 h de TikTok"
   }
