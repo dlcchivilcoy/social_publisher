@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 2 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 1 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 8 | 28 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 8 | 29 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 2 | 1 | 7 | 0 | 0 | 0 |
 
 ## Canales
@@ -26,11 +26,12 @@ Actualizado: 19/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2696 de 3000 (visto 2026-10-19T13:20:51.000Z)
+15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2695 de 3000 (visto 2026-10-19T13:40:24.000Z)
 
-## Cola propia (98 esperando)
+## Cola propia (99 esperando)
+- X · Reels del bot · Recuperaron un auto con pedido de secuestro por robo en CABA — Buffer lleno (10 programadas por canal en el plan Free)
+- TikTok · Reels del bot · Recuperaron un auto con pedido de secuestro por robo en CABA — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron dos de las tres motos robadas a Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
-- X · Reels del bot · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Recuperaron un auto con pedido de secuestro por robo en CABA — en turno
 - X · Notas web · Recuperaron dos de las tres motos robadas a Sebastián Porto — en turno
 - X · Notas web · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — en turno
@@ -49,6 +50,7 @@ Actualizado: 19/10/2026 10:20 (hora AR) · ACTIVO
 - X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — en turno
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · 100 días de engaño en Netflix: de qué trata el k-drama histórico de espionaje — en turno
 - X · Notas web · Tini Stoessel suspendió su concierto en Miami y culpó a la organización por grav — en turno
 - X · Notas web · River: quiénes son los candidatos de Ponzio para reemplazar a Martínez Quarta an — en turno
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
@@ -57,8 +59,6 @@ Actualizado: 19/10/2026 10:20 (hora AR) · ACTIVO
 - X · Notas web · Francia: Macron admitió fallas de inteligencia tras protestas con 2.400 detenido — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Nacionales y categorías · Santilli aseguró que Milei ganará en 2027 y ratificó la eliminación de las PASO — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Racing e Independiente empataron en el clásico y Boca lidera la tabla anual — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Chile decreta emergencia preventiva por clima tras una avalancha fatal en Los An — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Nuevos saqueos y violentos disturbios en París ponen en jaque al gobierno de Mac — tope de 12 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,11 +69,6 @@ Actualizado: 19/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T11:20 recibido bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok 
-- 2026-10-19T11:20 recibido web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x 
-- 2026-10-19T11:20 recibido web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x 
-- 2026-10-19T11:20 vencido nacionales:b541d9169f033092|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T11:20 programado nacionales:509780bc5420f2f5|tiktok 
 - 2026-10-19T11:20 programado bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok 
 - 2026-10-19T11:20 programado nacionales:a28aa737cf87213c|tiktok 
 - 2026-10-19T11:20 programado bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok 
@@ -94,3 +89,8 @@ Actualizado: 19/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-19T13:20 recibido web:5c389835-1655-4415-b7ad-23045aa7c3ca|x 
 - 2026-10-19T13:20 vencido nacionales:b1c71e9d1312dd69|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T13:20 programado bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x 
+- 2026-10-19T13:40 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x 
+- 2026-10-19T13:40 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tikto 
+- 2026-10-19T13:40 recibido web:847aec7b-6e8c-4074-82b2-d77103ae355f|x 
+- 2026-10-19T13:40 vencido nacionales:78b5fd65bc73d6c5|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T13:40 programado bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x 

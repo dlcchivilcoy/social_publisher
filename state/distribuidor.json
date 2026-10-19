@@ -766,6 +766,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4",
    "youtube_url": "https://www.youtube.com/shorts/B1OkSWIzHP8"
   },
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr": {
+   "descripcion": "Personal policial interceptó un Ford Fiesta en la intersección de las calles 516 y Bolívar, en Chivilcoy, y constató que el vehículo tenía colocada una patente apócrifa. El rodado, dominio AB699AZ, era conducido por Andrés David Avendaño, de 44 años. Al verificar los números de",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-19T13:21:05.000Z",
+   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
+   "urgente": false,
+   "video_bytes": 698289,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/rfy8ERhwViU"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -7747,6 +7768,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
    "volanta": "Una fue recuperada"
   },
+  "web:847aec7b-6e8c-4074-82b2-d77103ae355f": {
+   "categoria": "nacionales",
+   "descripcion": "Llegó a la plataforma de streaming y a la televisión de Corea del Sur la nueva producción de romance, espionaje y resistencia ambientada en 1932.",
+   "generado": "2026-10-19T13:35:15.528Z",
+   "id": "web:847aec7b-6e8c-4074-82b2-d77103ae355f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d216bd28da9d47cdb30b2d574c7f58ed~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "100 días de engaño en Netflix: de qué trata el k-drama histórico de espionaje",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
+   "volanta": ""
+  },
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": {
    "categoria": "",
    "descripcion": "Emanuel Boveri y el gran presente de Atlético Tostado: \"Estamos muy motivados y con ganas de volver a jugar el Federal\" El basquetbolista chivilcoyano repasó la actualidad del equipo santafesino, analizó la reestructuración del plantel para la segunda parte del año y se enfocó en los próximos desafíos: los cruces definitorios de la Copa Centenario y el debut en la Copa Santa Fe. En un mano a mano con el programa periodístico, Emanuel \"Manu\" Boveri compartió sus impresiones sobre el momento...",
@@ -10437,17 +10476,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 239,
-   "segundos": 34771,
+   "restantes": 238,
+   "segundos": 33599,
    "tope": 250
   },
   "30d": {
-   "restantes": 2696,
-   "segundos": 1928990,
+   "restantes": 2695,
+   "segundos": 1927817,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T13:20:51.000Z",
+ "cuota_visto": "2026-10-19T13:40:24.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -12534,6 +12573,58 @@
    "video_bytes": 1160584,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
   },
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok": {
+   "actualizado": "2026-10-19T13:40:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
+   "creado": "2026-10-19T13:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:21:05.000Z",
+   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nPersonal policial interceptó un Ford Fiesta conducido por Andrés David Avendaño en la intersección de las calles 516 y Bolívar, en Chivilcoy. En el lugar, constataron que el vehículo circulaba con una patente apócrifa.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
+   "urgente": false,
+   "vence": "2026-10-21T13:21:05.000Z",
+   "video_bytes": 698289,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
+  },
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x": {
+   "actualizado": "2026-10-19T13:40:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x",
+   "creado": "2026-10-19T13:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:21:05.000Z",
+   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nPersonal policial interceptó un Ford Fiesta con patente apócrifa en Chivilcoy. El vehículo era conducido por un hombre de 44 años.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
+   "urgente": false,
+   "vence": "2026-10-21T13:21:05.000Z",
+   "video_bytes": 698289,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accd089355aa519678991b2",
@@ -13603,14 +13694,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
   },
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x": {
-   "actualizado": "2026-10-19T11:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T13:40:23.000Z",
+   "buffer_id": "6ad61dc8f8ab1a7963229a09",
    "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x",
    "creado": "2026-10-19T11:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T15:30:27.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T11:18:12.000Z",
    "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
    "intentos": 0,
@@ -14728,14 +14819,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_76f6781e95_procesaron-al-exjefe-de-arsat-y-le-hallaron-2-6.mp4"
   },
   "nacionales:78b5fd65bc73d6c5|tiktok": {
-   "actualizado": "2026-10-18T20:20:13.000Z",
+   "actualizado": "2026-10-19T13:40:23.000Z",
    "buffer_id": "",
    "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
    "creado": "2026-10-18T20:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T19:38:06.000Z",
    "id": "nacionales:78b5fd65bc73d6c5",
    "intentos": 0,
@@ -24840,6 +24931,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x": {
+   "actualizado": "2026-10-19T13:40:18.000Z",
+   "buffer_id": "",
+   "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
+   "creado": "2026-10-19T13:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:35:15.528Z",
+   "id": "web:847aec7b-6e8c-4074-82b2-d77103ae355f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "100 días de engaño en Netflix: de qué trata el k-drama histórico de espionaje\n\nLlegó a la plataforma de streaming y a la televisión de Corea del Sur la nueva producción de romance, espionaje y resistencia ambientada en 1932.\n\nhttps://www.diariolacampaña.com.ar/n/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "100 días de engaño en Netflix: de qué trata el k-drama histórico de espionaje",
+   "urgente": false,
+   "vence": "2026-10-20T13:35:15.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -28803,41 +28919,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x",
-   "cuando": "2026-10-16T16:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad24a1445dfa13a723bdac4",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
-   "cuando": "2026-10-16T16:00:20.000Z",
-   "dueAt": "2026-10-16T16:03:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x",
-   "cuando": "2026-10-16T16:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x",
-   "cuando": "2026-10-16T16:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x",
-   "cuando": "2026-10-16T16:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111121321010647065"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
    "cuando": "2026-10-16T16:20:16.000Z",
@@ -33036,6 +33117,43 @@
    "cuando": "2026-10-19T13:20:51.000Z",
    "dueAt": "2026-10-19T15:15:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x",
+   "cuando": "2026-10-19T13:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
+   "cuando": "2026-10-19T13:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
+   "cuando": "2026-10-19T13:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
+   "cuando": "2026-10-19T13:40:23.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "buffer_id": "6ad61dc8f8ab1a7963229a09",
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x",
+   "cuando": "2026-10-19T13:40:24.000Z",
+   "dueAt": "2026-10-19T15:30:27.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -33077,6 +33195,7 @@
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": "2026-10-18T23:00:17.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv": "2026-10-18T23:00:17.000Z",
   "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn": "2026-10-19T13:20:16.000Z",
+  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr": "2026-10-19T13:40:18.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -33408,6 +33527,7 @@
   "web:82b6cce8-6765-4661-8b19-1e22966dd60a": "2026-10-18T19:20:13.000Z",
   "web:82d9c768-a466-49ff-882d-09e27a21796f": "2026-10-19T01:40:13.000Z",
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692": "2026-10-19T10:20:14.000Z",
+  "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
