@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,8 +9,8 @@ Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 7 | 34 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 3 | 0 | 20 | 0 | 0 | 0 |
+| Notas web | X | 15 | 8 | 7 | 35 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 3 | 0 | 22 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 9 enviadas + 6 programadas de 50 por día
@@ -28,9 +28,9 @@ Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2688 de 3000 (visto 2026-10-19T15:40:25.000Z)
 
-## Cola propia (114 esperando)
-- X · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — espera para separarse de la otra publicación de la misma noticia
+## Cola propia (116 esperando)
 - TikTok · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
+- X · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — espera para separarse de la otra publicación de la misma noticia
 - TikTok · Reels del bot · La delegación de Chivilcoy arribó para los Juegos Bonaerenses — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron un auto con pedido de secuestro por robo en CABA — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron dos de las tres motos robadas a Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
@@ -39,7 +39,9 @@ Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Mirtha Legrand reapareció en familia tras 18 días internada y habló Rottemberg — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Jugador de Racing reaccionó con insultos y gestos hacia los hinchas — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Toques de queda localizados en Francia tras disturbios y saqueos masivos — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Se agita la interna del peronismo: cumbre de Cristina y Massa, y tensiones con K — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministr — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Tini Stoessel apuntó contra los organizadores tras suspender su concierto en Mia — tope de 12 publicaciones en 24 h de TikTok
@@ -57,8 +59,6 @@ Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 - X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — cupo diario de Notas web en X completo (15)
 - X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — cupo diario de Notas web en X completo (15)
 - X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — cupo diario de Notas web en X completo (15)
-- X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — cupo diario de Notas web en X completo (15)
-- X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,10 +69,6 @@ Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T15:00 programado web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x 
-- 2026-10-19T15:00 programado web:3620c5d5-68d9-4902-898d-2347615ba891|x 
-- 2026-10-19T15:20 recibido nacionales:43c837025338a70a|tiktok 
-- 2026-10-19T15:20 recibido nacionales:23d1fc7d2341fc89|tiktok 
 - 2026-10-19T15:20 recibido nacionales:588268bbf306f395|tiktok 
 - 2026-10-19T15:20 recibido nacionales:c6ed9c5ff821ce8c|tiktok 
 - 2026-10-19T15:20 recibido nacionales:d6dc41a1ad7b38ad|tiktok 
@@ -94,3 +90,7 @@ Actualizado: 19/10/2026 12:40 (hora AR) · ACTIVO
 - 2026-10-19T15:40 vencido nacionales:c557a454a9895504|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T15:40 vencido web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T15:40 programado web:4199d5d7-7749-42b5-a204-16844f3014eb|x 
+- 2026-10-19T16:00 recibido nacionales:cb2e9c67cd146106|tiktok 
+- 2026-10-19T16:00 recibido nacionales:dc18047933ea00df|tiktok 
+- 2026-10-19T16:00 recibido web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x 
+- 2026-10-19T16:00 vencido nacionales:0ffb2e8d26094748|tiktok tope de 12 publicaciones en 24 h de TikTok

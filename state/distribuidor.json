@@ -2816,6 +2816,32 @@
    "volanta": "Estrenos en Netflix",
    "youtube_url": "https://youtube.com/shorts/_TrAbhQ66iA"
   },
+  "nacionales:cb2e9c67cd146106": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "El Gobierno nacional contabilizó una baja de 77.515 puestos de trabajo en el sector público durante los primeros 32 meses de gestión, según informó la administración central.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-19T15:15:15.000Z",
+   "hashtags": [
+    "EmpleoPublico",
+    "Estado"
+   ],
+   "id": "nacionales:cb2e9c67cd146106",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-estado-nacional-registra-mas-de-77-mil-puestos-menos-y-lanza-cb2e9c",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023",
+   "urgente": false,
+   "video_bytes": 81436,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_cb2e9c67cd_el-estado-nacional-acumula-mas-de-77-mil-puestos.mp4",
+   "volanta": "Empleo público",
+   "youtube_url": "https://youtube.com/shorts/nynVXl_bveE"
+  },
   "nacionales:d4259eeed3d3426d": {
    "categoria": "Tecnología",
    "categoria_nacional": "tecnologia_ia",
@@ -2867,6 +2893,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d6dc41a1ad_se-agita-la-interna-del-peronismo-cumbre-de.mp4",
    "volanta": "Interna peronista",
    "youtube_url": "https://youtube.com/shorts/_fSe86WEAe0"
+  },
+  "nacionales:dc18047933ea00df": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "La secretaria general de la Presidencia lideró una conferencia por la mudanza de presos a Marcos Paz y coordinó la agenda ante una posible visita papal.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-19T15:45:14.000Z",
+   "hashtags": [
+    "KarinaMilei",
+    "Devoto"
+   ],
+   "id": "nacionales:dc18047933ea00df",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo político",
+   "urgente": false,
+   "video_bytes": 95380,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_dc18047933_karina-milei-encabezo-el-traslado-de-reclusos-de.mp4",
+   "volanta": "Cárcel de Devoto",
+   "youtube_url": "https://youtube.com/shorts/DGtvR3FVSic"
   },
   "nacionales:e2ff40109224ceb4": {
    "categoria": "Deportes",
@@ -5609,6 +5661,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-primera-division-el-torneo-clausura-se-pone-al-dia-a-puro",
    "volanta": "Fútbol"
+  },
+  "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": {
+   "categoria": "nacionales",
+   "descripcion": "La secretaria general de la Presidencia lideró una conferencia por la mudanza de presos a Marcos Paz y coordinó la agenda ante una posible visita papal.",
+   "generado": "2026-10-19T15:45:07.109Z",
+   "id": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_df98f4950dee4e9ea113fef2b622e81f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagonismo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
+   "volanta": ""
   },
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": {
    "categoria": "",
@@ -15126,14 +15196,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0d6b3d4ada_famosos-en-las-redes-mensajes-y-dedicatorias-por.mp4"
   },
   "nacionales:0ffb2e8d26094748|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T16:00:17.000Z",
    "buffer_id": "",
    "clave": "nacionales:0ffb2e8d26094748|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T21:50:44.000Z",
    "id": "nacionales:0ffb2e8d26094748",
    "intentos": 0,
@@ -16230,6 +16300,32 @@
    "video_bytes": 78933,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c6ed9c5ff8_100-dias-de-engano-de-que-trata-el-k-drama.mp4"
   },
+  "nacionales:cb2e9c67cd146106|tiktok": {
+   "actualizado": "2026-10-19T16:00:16.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:cb2e9c67cd146106|tiktok",
+   "creado": "2026-10-19T16:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T15:15:15.000Z",
+   "id": "nacionales:cb2e9c67cd146106",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-estado-nacional-registra-mas-de-77-mil-puestos-menos-y-lanza-cb2e9c",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023\n\nEl Gobierno nacional contabilizó una baja de 77.515 puestos de trabajo en el sector público durante los primeros 32 meses de gestión, según informó la administración central.\n\nhttps://www.diariolacampaña.com.ar/n/el-estado-nacional-registra-mas-de-77-mil-puestos-menos-y-lanza-cb2e9c\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #EmpleoPublico",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023",
+   "urgente": false,
+   "vence": "2026-10-20T09:15:15.000Z",
+   "video_bytes": 81436,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_cb2e9c67cd_el-estado-nacional-acumula-mas-de-77-mil-puestos.mp4"
+  },
   "nacionales:d4259eeed3d3426d|tiktok": {
    "actualizado": "2026-10-19T15:20:16.000Z",
    "buffer_id": "",
@@ -16281,6 +16377,32 @@
    "vence": "2026-10-20T07:50:12.000Z",
    "video_bytes": 83698,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d6dc41a1ad_se-agita-la-interna-del-peronismo-cumbre-de.mp4"
+  },
+  "nacionales:dc18047933ea00df|tiktok": {
+   "actualizado": "2026-10-19T16:00:16.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:dc18047933ea00df|tiktok",
+   "creado": "2026-10-19T16:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T15:45:14.000Z",
+   "id": "nacionales:dc18047933ea00df",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo político\n\nLa secretaria general de la Presidencia lideró una conferencia por la mudanza de presos a Marcos Paz y coordinó la agenda ante una posible visita papal.\n\nhttps://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #KarinaMilei",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo político",
+   "urgente": false,
+   "vence": "2026-10-20T09:45:14.000Z",
+   "video_bytes": 95380,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_dc18047933_karina-milei-encabezo-el-traslado-de-reclusos-de.mp4"
   },
   "nacionales:e2ff40109224ceb4|tiktok": {
    "actualizado": "2026-10-19T00:20:16.000Z",
@@ -22179,6 +22301,32 @@
    "titulo": "Primera División: El Torneo Clausura se pone al día a puro empate y emoción",
    "urgente": false,
    "vence": "2026-10-20T10:03:30.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x": {
+   "actualizado": "2026-10-19T16:00:16.000Z",
+   "buffer_id": "",
+   "clave": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x",
+   "creado": "2026-10-19T16:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T15:45:07.109Z",
+   "id": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagonismo\n\nLa secretaria general de la Presidencia lideró una conferencia por la mudanza de presos a Marcos Paz y coordinó la agenda ante una posible visita papal.\n\nhttps://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagonismo",
+   "urgente": false,
+   "vence": "2026-10-20T15:45:07.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -30262,30 +30410,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada|x",
-   "cuando": "2026-10-16T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-16T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html|x",
-   "cuando": "2026-10-16T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|tiktok",
-   "cuando": "2026-10-16T20:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/|x",
    "cuando": "2026-10-16T20:00:18.000Z",
    "evento": "vencido",
@@ -34525,6 +34649,36 @@
    "cuando": "2026-10-19T15:40:25.000Z",
    "dueAt": "2026-10-19T20:00:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:cb2e9c67cd146106|tiktok",
+   "cuando": "2026-10-19T16:00:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:dc18047933ea00df|tiktok",
+   "cuando": "2026-10-19T16:00:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x",
+   "cuando": "2026-10-19T16:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:0ffb2e8d26094748|tiktok",
+   "cuando": "2026-10-19T16:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -34654,8 +34808,10 @@
   "nacionales:c27183ebaf507280": "2026-10-19T00:20:16.000Z",
   "nacionales:c557a454a9895504": "2026-10-19T00:20:16.000Z",
   "nacionales:c6ed9c5ff821ce8c": "2026-10-19T15:20:16.000Z",
+  "nacionales:cb2e9c67cd146106": "2026-10-19T16:00:16.000Z",
   "nacionales:d4259eeed3d3426d": "2026-10-19T15:20:16.000Z",
   "nacionales:d6dc41a1ad7b38ad": "2026-10-19T15:20:16.000Z",
+  "nacionales:dc18047933ea00df": "2026-10-19T16:00:16.000Z",
   "nacionales:e2ff40109224ceb4": "2026-10-19T00:20:16.000Z",
   "nacionales:e50827dd69db5a5d": "2026-10-19T02:40:14.000Z",
   "nacionales:eb29261c90f4bdfa": "2026-10-19T00:20:16.000Z",
@@ -34771,6 +34927,7 @@
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17": "2026-10-19T10:20:14.000Z",
+  "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
