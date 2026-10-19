@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 7 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 28 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 29 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 23 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2704 de 3000 (visto 2026-10-19T00:00:26.000Z)
 
-## Cola propia (59 esperando)
+## Cola propia (60 esperando)
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
@@ -50,6 +50,7 @@ Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económi — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Racing define al nuevo líder de su barra brava en la antesala del clásico — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Violentos disturbios y saqueos en Milán y Bolonia en medio de protestas el 18 de — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El CEO de Nvidia advirtió que evaluarán dejar de vender chips a creadores de IA  — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7 — tope de 12 publicaciones en 24 h de TikTok
@@ -57,7 +58,6 @@ Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Las cinco películas para maratonear este fin de semana en Netflix — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Ger — cupo diario de Notas web en X completo (15)
 - X · Notas web · La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos — cupo diario de Notas web en X completo (15)
-- X · Notas web · Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y esta — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,7 +68,6 @@ Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T23:00 recibido web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x 
 - 2026-10-18T23:00 recibido web:be16b20b-29a0-45de-ae35-dec56c678655|x 
 - 2026-10-18T23:00 enviado bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x 
 - 2026-10-18T23:00 enviado nacionales:76f6781e9594def9|tiktok 
@@ -93,3 +92,4 @@ Actualizado: 18/10/2026 21:20 (hora AR) · ACTIVO
 - 2026-10-19T00:20 recibido nacionales:ef9d9f6be8029c31|tiktok 
 - 2026-10-19T00:20 recibido nacionales:897bae57805e193b|tiktok 
 - 2026-10-19T00:20 recibido web:dad7423e-f855-41dd-8505-49e56691870b|x 
+- 2026-10-19T00:40 recibido web:593361c2-110f-4e68-b565-1c86df54fffe|x 

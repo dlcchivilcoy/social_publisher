@@ -6028,6 +6028,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-debate-en-el-oficialismo-rumbo-a-2027-las-discusiones-sobre-75f2bd",
    "volanta": ""
   },
+  "web:593361c2-110f-4e68-b565-1c86df54fffe": {
+   "categoria": "nacionales",
+   "descripcion": "El 18 de octubre de 2026 se registraron violentos enfrentamientos, saqueos y destrozos en Milán y Bolonia durante protestas por la situación económica,…",
+   "generado": "2026-10-19T00:20:19.630Z",
+   "id": "web:593361c2-110f-4e68-b565-1c86df54fffe",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a41be539090e47a3bc212a0d4cce556a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Violentos disturbios y saqueos en Milán y Bolonia en medio de protestas el 18 de octubre de 2026",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
+   "volanta": ""
+  },
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": {
    "categoria": "",
    "descripcion": "El Padre Ricardo brindó una bendición especial a las madres En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo realizó una bendición especial dedicada a todas las madres en la Parroquia San Pedro de Chivilcoy. Durante su mensaje, destacó la importancia de «recordar, agradecer y valorar» a las madres «como uno de los regalos más preciosos», remarcando que desde la fe, la esperanza y la caridad van orientando y haciendo crecer a sus hijos. Asimismo, pidió bendecir a las...",
@@ -20892,6 +20910,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:593361c2-110f-4e68-b565-1c86df54fffe|x": {
+   "actualizado": "2026-10-19T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:593361c2-110f-4e68-b565-1c86df54fffe|x",
+   "creado": "2026-10-19T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T00:20:19.630Z",
+   "id": "web:593361c2-110f-4e68-b565-1c86df54fffe",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Violentos disturbios y saqueos en Milán y Bolonia en medio de protestas el 18 de octubre de 2026\n\nHubo destrozos y enfrentamientos durante protestas por la situación económica.\n\nhttps://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Violentos disturbios y saqueos en Milán y Bolonia en medio de protestas el 18 de octubre de 2026",
+   "urgente": false,
+   "vence": "2026-10-20T00:20:19.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:5e1b7468-652a-43da-baf9-771cda1103ff|x": {
    "actualizado": "2026-10-18T15:20:15.000Z",
    "buffer_id": "",
@@ -25425,14 +25469,6 @@
  },
  "registro": [
   {
-   "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
-   "cuando": "2026-10-16T10:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x",
    "cuando": "2026-10-16T10:20:17.000Z",
    "estado": "pendiente",
@@ -29595,6 +29631,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:593361c2-110f-4e68-b565-1c86df54fffe|x",
+   "cuando": "2026-10-19T00:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -29880,6 +29924,7 @@
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
+  "web:593361c2-110f-4e68-b565-1c86df54fffe": "2026-10-19T00:40:14.000Z",
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
