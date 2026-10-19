@@ -375,9 +375,16 @@ def _carrusel_activo() -> bool:
 
 
 def _historia_activa() -> bool:
-    """Historia de IG con la portada del carrusel (pedido 2026-10-03). Sale solo si el
-    carrusel entró a Instagram. CARRUSEL_HISTORIA=0 la apaga sin tocar el carrusel."""
-    return (get("CARRUSEL_HISTORIA") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+    """Historia de IG con la portada del carrusel (pedido 2026-10-03). APAGADA desde el 19/10/2026
+    (pedido del editor: «sacar carrusel único con todas las notas + historia»). CARRUSEL_HISTORIA=1 la
+    vuelve a prender."""
+    return (get("CARRUSEL_HISTORIA") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _unico_fb_activo() -> bool:
+    """El posteo ÚNICO de Facebook con todas las notas. APAGADO desde el 19/10/2026 (mismo pedido): las
+    notas ya salen una por una en Facebook a las 7:00 (--notes-web). CARRUSEL_UNICO_FB=1 lo prende."""
+    return (get("CARRUSEL_UNICO_FB") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
 def _individual_activo() -> bool:
@@ -712,7 +719,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     # salió en Instagram haría repetir el de Facebook en la corrida siguiente).
     marca_fb = f"{pending[0].get('edition') or hoy.isoformat()}|facebook_carrusel"
 
-    if "facebook" in plats and not (individual and marca_fb in ledger):
+    if "facebook" in plats and _unico_fb_activo() and not (individual and marca_fb in ledger):
         try:
             facebook.publish_multi(caption, slides)
             algun_ok = True
