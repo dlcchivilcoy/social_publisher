@@ -14537,14 +14537,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b541d9169f_nueva-moratoria-bonaerense-descuentos-y-plazos.mp4"
   },
   "nacionales:b6108526eb42ff8a|tiktok": {
-   "actualizado": "2026-10-18T17:20:13.000Z",
+   "actualizado": "2026-10-19T09:20:14.000Z",
    "buffer_id": "",
    "clave": "nacionales:b6108526eb42ff8a|tiktok",
    "creado": "2026-10-18T17:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T15:07:37.000Z",
    "id": "nacionales:b6108526eb42ff8a",
    "intentos": 0,
@@ -27617,13 +27617,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad22493b948bf9e9d97c5ef",
-   "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
-   "cuando": "2026-10-16T13:20:19.000Z",
-   "dueAt": "2026-10-16T14:45:42.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad224932fe657de6ea75a21",
    "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
    "cuando": "2026-10-16T13:20:19.000Z",
@@ -31836,6 +31829,12 @@
    "cuando": "2026-10-19T09:01:12.000Z",
    "dueAt": "2026-10-19T14:30:27.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:b6108526eb42ff8a|tiktok",
+   "cuando": "2026-10-19T09:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",

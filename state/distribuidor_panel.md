@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 06:01 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 06:01 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2702 de 3000 (visto 2026-10-19T09:01:12.000Z)
 
-## Cola propia (87 esperando)
+## Cola propia (86 esperando)
 - TikTok · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Dibu Martínez recibió el alta médica tras ser operado de la mandíbula — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
@@ -69,7 +69,6 @@ Actualizado: 19/10/2026 06:01 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T09:00 recibido nacionales:25f7704c0cf2a754|tiktok 
 - 2026-10-19T09:00 recibido nacionales:b18ec1977365d369|tiktok 
 - 2026-10-19T09:00 recibido nacionales:b4cf751f44529f62|tiktok 
 - 2026-10-19T09:00 recibido nacionales:07376db2590e79bf|tiktok 
@@ -94,3 +93,4 @@ Actualizado: 19/10/2026 06:01 (hora AR) · ACTIVO
 - 2026-10-19T09:01 programado web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x 
 - 2026-10-19T09:01 programado web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x 
 - 2026-10-19T09:01 programado web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x 
+- 2026-10-19T09:20 vencido nacionales:b6108526eb42ff8a|tiktok tope de 12 publicaciones en 24 h de TikTok
