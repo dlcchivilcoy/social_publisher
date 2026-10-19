@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 5,
-    "sent": 1
+    "scheduled": 3,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-19T11:40:19.000Z"
+   "visto": "2026-10-19T13:00:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-19T11:40:19.000Z"
+   "visto": "2026-10-19T13:00:21.000Z"
   }
  },
  "contenidos": {
@@ -6286,6 +6286,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
    "volanta": "Chivilcoy · Accidente"
   },
+  "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": {
+   "categoria": "nacionales",
+   "descripcion": "El gobierno de Emmanuel Macron ordenó restricciones parciales tras jornadas de protestas contra el costo de vida que dejaron más de 2000 detenidos y un…",
+   "generado": "2026-10-19T12:50:10.747Z",
+   "id": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1d64e373e4bc47c3af580e0d1256a34c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Francia: el gobierno ordena toques de queda localizados tras masivos disturbios",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
+   "volanta": ""
+  },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno nacional oficializó el nombramiento del doctor Diego Masaragian al frente de la Secretaría Nacional de Discapacidad. La decisión se tomó tras…",
@@ -10326,17 +10344,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 241,
-   "segundos": 40803,
+   "restantes": 240,
+   "segundos": 36001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2698,
-   "segundos": 1935021,
+   "restantes": 2697,
+   "segundos": 1930219,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T11:40:19.000Z",
+ "cuota_visto": "2026-10-19T13:00:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13413,18 +13431,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4"
   },
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T11:20:16.000Z",
+   "actualizado": "2026-10-19T13:00:21.000Z",
    "buffer_id": "6ad5fcf238bcdab6ee512843",
    "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
    "creado": "2026-10-19T11:20:14.000Z",
    "dueAt": "2026-10-19T12:03:19.000Z",
+   "enviado": "2026-10-19T12:06:48.965Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T11:18:12.000Z",
    "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698348865329712405",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14746,18 +14765,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e7b427db1_chile-decreta-emergencia-preventiva-por-clima.mp4"
   },
   "nacionales:a28aa737cf87213c|tiktok": {
-   "actualizado": "2026-10-19T11:20:16.000Z",
+   "actualizado": "2026-10-19T13:00:21.000Z",
    "buffer_id": "6ad5fcf3189a03b5ff21238f",
    "clave": "nacionales:a28aa737cf87213c|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "2026-10-19T12:43:32.000Z",
+   "enviado": "2026-10-19T12:45:29.129Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T03:06:13.000Z",
    "id": "nacionales:a28aa737cf87213c",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048",
    "nota_url": "https://www.diariolacampaña.com.ar/n/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -22544,6 +22564,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x": {
+   "actualizado": "2026-10-19T13:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x",
+   "creado": "2026-10-19T13:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T12:50:10.747Z",
+   "id": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Francia: el gobierno ordena toques de queda localizados tras masivos disturbios\n\nEl gobierno de Emmanuel Macron ordenó restricciones parciales tras jornadas de protestas contra el costo de vida que dejaron más de 2000 detenidos.\n\nhttps://www.diariolacampaña.com.ar/n/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Francia: el gobierno ordena toques de queda localizados tras masivos disturbios",
+   "urgente": false,
+   "vence": "2026-10-20T12:50:10.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x": {
    "actualizado": "2026-10-14T21:40:16.000Z",
    "buffer_id": "",
@@ -28514,27 +28559,6 @@
  },
  "registro": [
   {
-   "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad24560cb7df35161481f59",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
-   "cuando": "2026-10-16T15:40:16.000Z",
-   "dueAt": "2026-10-16T20:15:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
-   "cuando": "2026-10-16T16:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|tiktok",
    "cuando": "2026-10-16T16:00:18.000Z",
    "estado": "pendiente",
@@ -32750,10 +32774,30 @@
    "cuando": "2026-10-19T12:40:16.000Z",
    "evento": "vencido",
    "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x",
+   "cuando": "2026-10-19T13:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
+   "cuando": "2026-10-19T13:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698348865329712405"
+  },
+  {
+   "clave": "nacionales:a28aa737cf87213c|tiktok",
+   "cuando": "2026-10-19T13:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T11:40:19.000Z",
+ "ultima_sync": "2026-10-19T13:00:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -33040,6 +33084,7 @@
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
+  "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": "2026-10-19T13:00:18.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",

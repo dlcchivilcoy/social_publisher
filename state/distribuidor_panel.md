@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 8 | 23 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 1 | 2 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 8 | 24 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 2 | 1 | 7 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 8 programadas de 50 por día
-- TikTok: conectado · Buffer: 1 enviadas + 5 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 3 enviadas + 3 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -26,9 +26,9 @@ Actualizado: 19/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2698 de 3000 (visto 2026-10-19T11:40:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2697 de 3000 (visto 2026-10-19T13:00:22.000Z)
 
-## Cola propia (93 esperando)
+## Cola propia (94 esperando)
 - X · Reels del bot · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — en turno
 - X · Notas web · Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTec — en turno
@@ -47,6 +47,7 @@ Actualizado: 19/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Francia: el gobierno ordena toques de queda localizados tras masivos disturbios — en turno
 - TikTok · Nacionales y categorías · Masterchef Junior debutó con Vero Lozano y tocó los 10,2 puntos de rating — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Francia: Macron admitió fallas de inteligencia tras protestas con 2.400 detenido — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Nacionales y categorías · Santilli aseguró que Milei ganará en 2027 y ratificó la eliminación de las PASO — tope de 12 publicaciones en 24 h de TikTok
@@ -58,7 +59,6 @@ Actualizado: 19/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Enzo Pérez estuvo en la tribuna de River en la victoria ante Belgrano — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Las ventas por el Día de la Madre cayeron 1,4% interanual — en turno
 - X · Notas web · Kicillof acordó un aumento salarial del 6% y desactivó un frente de conflicto — en turno
-- TikTok · Nacionales y categorías · Aldosivi cayó 2-1 ante Estudiantes de Río Cuarto y se complica en la permanencia — tope de 12 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,9 +69,6 @@ Actualizado: 19/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T10:21 recibido web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x 
-- 2026-10-19T10:21 recibido web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
-- 2026-10-19T10:21 recibido web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x 
 - 2026-10-19T10:21 recibido web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
 - 2026-10-19T10:21 vencido nacionales:b010138b1fbfe036|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T10:21 enviado bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|x 
@@ -94,3 +91,6 @@ Actualizado: 19/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-19T12:20 vencido nacionales:4d4c5be14febf1aa|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T12:40 recibido web:6f8cf702-5cb7-4b03-8945-02d406201533|x 
 - 2026-10-19T12:40 vencido nacionales:82015de779d2e56d|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T13:00 recibido web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x 
+- 2026-10-19T13:00 enviado bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok 
+- 2026-10-19T13:00 enviado nacionales:a28aa737cf87213c|tiktok 
