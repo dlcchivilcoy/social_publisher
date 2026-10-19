@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-19T14:00:35.000Z"
+   "visto": "2026-10-19T15:00:47.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 7,
-    "sent": 5
+    "scheduled": 6,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-19T14:00:35.000Z"
+   "visto": "2026-10-19T15:00:47.000Z"
   }
  },
  "contenidos": {
@@ -1833,6 +1833,32 @@
    "volanta": "Estreno en Netflix",
    "youtube_url": "https://youtube.com/shorts/wfq9bhC3Sno"
   },
+  "nacionales:41adf48909fb7a57": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "El presidente francés reconoció problemas operativos y de planificación luego de jornadas de disturbios que dejaron 2.400 detenidos y 1.000 policías heridos. Sostuvo al ministro del Interior pese a los reclamos.",
+   "duracion_seg": 182.6,
+   "generado": "2026-10-19T13:47:54.000Z",
+   "hashtags": [
+    "Francia",
+    "EmmanuelMacron"
+   ],
+   "id": "nacionales:41adf48909fb7a57",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministro",
+   "urgente": false,
+   "video_bytes": 13727419,
+   "video_mb": 13.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_41adf48909_francia-macron-admitio-fallas-de-inteligencia-y.mp4",
+   "volanta": "Crisis en Francia",
+   "youtube_url": "https://youtube.com/shorts/I7BKil6hK_E"
+  },
   "nacionales:4d4c5be14febf1aa": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -1988,6 +2014,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_605a062647_el-nino-condiciona-al-campo-lanzan-la-estrategia.mp4",
    "volanta": "Soja y trigo",
    "youtube_url": "https://youtube.com/shorts/rpi0g2-uPtk"
+  },
+  "nacionales:677e9def2f7175b0": {
+   "categoria": "Virales",
+   "categoria_nacional": "virales",
+   "descripcion": "Un golden retriever recuperó su movilidad tras tres meses de sesiones diarias en el estudio de su dueña, instructora en Hawái. El video acumuló millones de reproducciones.",
+   "duracion_seg": 31.5,
+   "generado": "2026-10-19T14:15:18.000Z",
+   "hashtags": [
+    "Virales",
+    "Mascotas"
+   ],
+   "id": "nacionales:677e9def2f7175b0",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/un-perro-de-15-anos-volvio-a-caminar-gracias-al-pilates-y-se-677e9d",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram",
+   "urgente": false,
+   "video_bytes": 1209233,
+   "video_mb": 1.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_677e9def2f_perro-de-15-anos-volvio-a-caminar-gracias-al.mp4",
+   "volanta": "Mascotas y redes",
+   "youtube_url": "https://youtube.com/shorts/K2knZz3rUX0"
   },
   "nacionales:6e5b52bbe69fd410": {
    "categoria": "Espectáculos",
@@ -2482,6 +2534,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b6108526eb_delegacion-argentina-en-londres-en-medio-de-la.mp4",
    "volanta": "Malvinas y minería",
    "youtube_url": "https://youtube.com/shorts/nYYR5alASJ4"
+  },
+  "nacionales:be6592b07ce935fb": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "Un efectivo de las fuerzas armadas estadounidense falleció luego de precipitarse al vacío durante una práctica previa a un encuentro universitario de fútbol americano en el estadio Alamodome.",
+   "duracion_seg": 24.9,
+   "generado": "2026-10-19T14:45:14.000Z",
+   "hashtags": [
+    "EstadosUnidos",
+    "Mundo"
+   ],
+   "id": "nacionales:be6592b07ce935fb",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Murió un militar tras caer más de 30 metros en un estadio de Texas",
+   "urgente": false,
+   "video_bytes": 1559830,
+   "video_mb": 1.5,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_be6592b07c_murio-un-militar-tras-caer-mas-de-30-metros-en-un.mp4",
+   "volanta": "Militar de EE.UU.",
+   "youtube_url": "https://youtube.com/shorts/nVxvGx3zhqw"
   },
   "nacionales:c27183ebaf507280": {
    "categoria": "Deportes",
@@ -5701,6 +5779,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
    "volanta": "Chivilcoy · Sociedad"
   },
+  "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f": {
+   "categoria": "nacionales",
+   "descripcion": "Elegir un asistente virtual depende de la tarea específica, ya que las herramientas varían según su capacidad para redactar, programar, verificar datos o…",
+   "generado": "2026-10-19T14:50:13.014Z",
+   "id": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fe40ddc4082d4e3a964b319e28d1b681~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
+   "volanta": ""
+  },
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": {
    "categoria": "",
    "descripcion": "Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar El director de Gobierno de Chivilcoy, Hugo Kübler, explicó cómo se desarrolló el proceso judicial para recuperar la nave industrial donde funcionó la empresa Perchet, vinculada a Bicontinentar, y respondió a los cuestionamientos sobre el convenio firmado con la firma, la condonación de multas y las indemnizaciones que aún reclaman los trabajadores. Kübler señaló que asume “con muchísima responsabilidad y seriedad” la...",
@@ -6475,6 +6571,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/particular-celebracion-el-museo-pompeo-boggio-fue-escenario-del-35",
    "volanta": "Particular celebración"
   },
+  "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": {
+   "categoria": "nacionales",
+   "descripcion": "La histórica conductora compartió una foto por el Día de la Madre, a casi dos semanas de salir del sanatorio. Su amigo Carlos Rottemberg reveló detalles…",
+   "generado": "2026-10-19T14:20:21.839Z",
+   "id": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f398270033284cc788efc432725df2e9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Mirtha Legrand reapareció en familia por el Día de la Madre y Rottemberg habló de su salud",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
+   "volanta": ""
+  },
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": {
    "categoria": "",
    "descripcion": "Miriam Latorre analizó una nueva edición de las Jornadas Regionales y Públicas ante los desafíos que impone la IA Tras la realización de una nueva edición de las Jornadas Regionales por la Educación Pública en Chivilcoy, la docente e integrante del comité organizador, Miriam Latorre, visitó los estudios de Radio del Centro para realizar un balance exhaustivo sobre el desarrollo de las actividades, el compromiso de la comunidad y los debates pedagógicos contemporáneos, fuertemente atravesados...",
@@ -6690,6 +6804,24 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/automovilismo-campeonato-regional-se-viene-el-rally-de-chivilcoy-una",
    "volanta": "Automovilismo"
+  },
+  "web:4d61cc5b-9d70-46db-b815-a8250038f4de": {
+   "categoria": "nacionales",
+   "descripcion": "Un efectivo de las fuerzas armadas estadounidense falleció luego de precipitarse al vacío durante una práctica previa a un encuentro universitario de…",
+   "generado": "2026-10-19T14:45:12.771Z",
+   "id": "web:4d61cc5b-9d70-46db-b815-a8250038f4de",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b81cc98baa02448faceae7f4fb2196ca~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Murió un militar estadounidense tras caer más de 30 metros durante una exhibición en Texas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
+   "volanta": ""
   },
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": {
    "categoria": "nacionales",
@@ -10489,6 +10621,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/escandalo-en-racing-luis-alfonso-espino-se-cruzo-con-los-a09771",
    "volanta": ""
   },
+  "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5": {
+   "categoria": "nacionales",
+   "descripcion": "La iniciativa de Washington para eliminar el organismo de Naciones Unidas choca con la postura nacional sobre las islas australes, marcando el primer…",
+   "generado": "2026-10-19T14:35:45Z",
+   "id": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5e12f87b28ad48b08f4e010482b7d4d9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/primer-desacuerdo-geopolitico-entre-javier-milei-y-donald-trump-54abaf",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Primer desacuerdo geopolítico entre Javier Milei y Donald Trump por las Islas Malvinas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/primer-desacuerdo-geopolitico-entre-javier-milei-y-donald-trump-54abaf",
+   "volanta": ""
+  },
   "web:fb360714-5639-4bf4-a1f0-001886885d15": {
    "categoria": "nacionales",
    "descripcion": "La fractura en el peronismo se profundiza por desconfianzas políticas y personales. Desde el cristinismo acusan al sector del gobernador de especular con…",
@@ -10564,22 +10714,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 235,
-   "segundos": 31193,
+   "restantes": 233,
+   "segundos": 28774,
    "tope": 250
   },
   "30d": {
-   "restantes": 2692,
-   "segundos": 1925411,
+   "restantes": 2690,
+   "segundos": 1922993,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T14:20:30.000Z",
+ "cuota_visto": "2026-10-19T15:00:48.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14718,6 +14868,32 @@
    "video_bytes": 4938098,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2f1a6dccc7_ricardo-darin-y-diego-peretti-juntos-en-lo.mp4"
   },
+  "nacionales:41adf48909fb7a57|tiktok": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:41adf48909fb7a57|tiktok",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T13:47:54.000Z",
+   "id": "nacionales:41adf48909fb7a57",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministro\n\nEl presidente francés reconoció problemas operativos y de planificación luego de jornadas de disturbios que dejaron 2.400 detenidos y 1.000 policías heridos. Sostuvo al ministro del Interior pese a los reclamos.\n\nhttps://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Francia",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministro",
+   "urgente": false,
+   "vence": "2026-10-20T07:47:54.000Z",
+   "video_bytes": 13727419,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_41adf48909_francia-macron-admitio-fallas-de-inteligencia-y.mp4"
+  },
   "nacionales:4d4c5be14febf1aa|tiktok": {
    "actualizado": "2026-10-19T12:20:15.000Z",
    "buffer_id": "",
@@ -14874,6 +15050,32 @@
    "vence": "2026-10-19T16:36:24.000Z",
    "video_bytes": 98198,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_605a062647_el-nino-condiciona-al-campo-lanzan-la-estrategia.mp4"
+  },
+  "nacionales:677e9def2f7175b0|tiktok": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:677e9def2f7175b0|tiktok",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T14:15:18.000Z",
+   "id": "nacionales:677e9def2f7175b0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/un-perro-de-15-anos-volvio-a-caminar-gracias-al-pilates-y-se-677e9d",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram\n\nUn golden retriever recuperó su movilidad tras tres meses de sesiones diarias en el estudio de su dueña, instructora en Hawái. El video acumuló millones de reproducciones.\n\nhttps://www.diariolacampaña.com.ar/n/un-perro-de-15-anos-volvio-a-caminar-gracias-al-pilates-y-se-677e9d\n\n#chivilcoy #diariolacampaña #radiodelcentro #Virales #Mascotas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram",
+   "urgente": false,
+   "vence": "2026-10-20T08:15:18.000Z",
+   "video_bytes": 1209233,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_677e9def2f_perro-de-15-anos-volvio-a-caminar-gracias-al.mp4"
   },
   "nacionales:6e5b52bbe69fd410|tiktok": {
    "actualizado": "2026-10-19T09:01:09.000Z",
@@ -15381,6 +15583,32 @@
    "video_bytes": 93793,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b6108526eb_delegacion-argentina-en-londres-en-medio-de-la.mp4"
   },
+  "nacionales:be6592b07ce935fb|tiktok": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:be6592b07ce935fb|tiktok",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T14:45:14.000Z",
+   "id": "nacionales:be6592b07ce935fb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Murió un militar tras caer más de 30 metros en un estadio de Texas\n\nUn efectivo de las fuerzas armadas estadounidense falleció luego de precipitarse al vacío durante una práctica previa a un encuentro universitario de fútbol americano en el estadio Alamodome.\n\nhttps://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592\n\n#chivilcoy #diariolacampaña #radiodelcentro #EstadosUnidos #Mundo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Murió un militar tras caer más de 30 metros en un estadio de Texas",
+   "urgente": false,
+   "vence": "2026-10-20T08:45:14.000Z",
+   "video_bytes": 1559830,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_be6592b07c_murio-un-militar-tras-caer-mas-de-30-metros-en-un.mp4"
+  },
   "nacionales:c27183ebaf507280|tiktok": {
    "actualizado": "2026-10-19T00:20:16.000Z",
    "buffer_id": "",
@@ -15564,18 +15792,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ef9d9f6be8_la-libertad-avanza-acelera-su-armado-juvenil-en.mp4"
   },
   "nacionales:f8cbb878e65900d1|tiktok": {
-   "actualizado": "2026-10-19T11:20:16.000Z",
+   "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5fcf561ffad979f0d40c2",
    "clave": "nacionales:f8cbb878e65900d1|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "2026-10-19T14:43:54.000Z",
+   "enviado": "2026-10-19T14:45:45.169Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T03:50:54.000Z",
    "id": "nacionales:f8cbb878e65900d1",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698389776776400148",
    "nota_url": "https://www.diariolacampaña.com.ar/n/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -18004,18 +18233,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1209_04_chacabuco_disparos-y-corridas-a-la-salid.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-19T11:20:16.000Z",
+   "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5fcf438bcdab6ee512883",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
    "creado": "2026-10-18T21:40:15.000Z",
    "dueAt": "2026-10-19T14:03:48.000Z",
+   "enviado": "2026-10-19T14:06:56.341Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T21:21:18.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698379749432855815",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -21957,18 +22187,19 @@
    "video_url": ""
   },
   "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x": {
-   "actualizado": "2026-10-19T09:01:09.000Z",
+   "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5dc584eb85d76d18ff4e0",
    "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
    "creado": "2026-10-18T22:00:19.000Z",
    "dueAt": "2026-10-19T14:15:23.000Z",
+   "enviado": "2026-10-19T14:15:33.777Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-18T21:49:19.375Z",
    "id": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112185890655121533",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
    "origen": "web",
    "plataforma": "x",
@@ -21979,6 +22210,31 @@
    "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
    "urgente": false,
    "vence": "2026-10-19T21:49:19.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T14:50:13.014Z",
+   "id": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio\n\nElegir un asistente virtual depende de la tarea específica. Las herramientas varían según su capacidad para redactar, programar o verificar datos.\n\nhttps://www.diariolacampaña.com.ar/n/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio",
+   "urgente": false,
+   "vence": "2026-10-20T14:50:13.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -22735,13 +22991,14 @@
    "video_url": ""
   },
   "web:3620c5d5-68d9-4902-898d-2347615ba891|x": {
-   "actualizado": "2026-10-19T13:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T15:00:48.000Z",
+   "buffer_id": "6ad630a0e811392c99f9b935",
    "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
    "creado": "2026-10-19T13:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T19:15:41.000Z",
    "error": "",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T13:09:09.120Z",
    "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
    "intentos": 0,
@@ -23122,6 +23379,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T14:20:21.839Z",
+   "id": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Mirtha Legrand reapareció en familia por el Día de la Madre y Rottemberg habló de su salud\n\nLa histórica conductora compartió una foto por el Día de la Madre, a casi dos semanas de salir del sanatorio.\n\nhttps://www.diariolacampaña.com.ar/n/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Mirtha Legrand reapareció en familia por el Día de la Madre y Rottemberg habló de su salud",
+   "urgente": false,
+   "vence": "2026-10-20T14:20:21.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517|x": {
    "actualizado": "2026-10-12T11:40:14.000Z",
    "buffer_id": "6accb467ccd31a0d0ed3be94",
@@ -23318,6 +23600,7 @@
    "creado": "2026-10-19T11:20:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-19T11:02:32.156Z",
    "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
@@ -23454,6 +23737,31 @@
    "titulo": "Campeonato Regional: se viene el Rally de Chivilcoy, una cita emblemática del calendario",
    "urgente": false,
    "vence": "2026-10-13T10:09:09.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T14:45:12.771Z",
+   "id": "web:4d61cc5b-9d70-46db-b815-a8250038f4de",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Murió un militar estadounidense tras caer más de 30 metros durante una exhibición en Texas\n\nhttps://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Murió un militar estadounidense tras caer más de 30 metros durante una exhibición en Texas",
+   "urgente": false,
+   "vence": "2026-10-20T14:45:12.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -24888,18 +25196,19 @@
    "video_url": ""
   },
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x": {
-   "actualizado": "2026-10-19T09:01:09.000Z",
+   "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5dc58ea56886c47177788",
    "clave": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "2026-10-19T14:30:27.000Z",
+   "enviado": "2026-10-19T14:30:41.147Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T05:05:11.301Z",
    "id": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112189696411394280",
    "nota_url": "https://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
    "origen": "web",
    "plataforma": "x",
@@ -25078,18 +25387,19 @@
    "video_url": ""
   },
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x": {
-   "actualizado": "2026-10-19T10:21:32.000Z",
+   "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5ef2c784342f6387601a1",
    "clave": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-19T14:45:44.000Z",
+   "enviado": "2026-10-19T14:45:46.017Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:02:45.102Z",
    "id": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112193491853844577",
    "nota_url": "https://www.diariolacampaña.com.ar/n/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
    "origen": "web",
    "plataforma": "x",
@@ -25305,14 +25615,14 @@
    "video_url": ""
   },
   "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x": {
-   "actualizado": "2026-10-19T11:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T15:00:48.000Z",
+   "buffer_id": "6ad630a027c86cdd6c2acd6f",
    "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
    "creado": "2026-10-19T11:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T19:00:25.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T11:16:12.587Z",
    "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
    "intentos": 0,
@@ -26175,18 +26485,19 @@
    "video_url": ""
   },
   "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x": {
-   "actualizado": "2026-10-19T09:01:09.000Z",
+   "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5dc57fbe396fa0f895cba",
    "clave": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "2026-10-19T14:00:58.000Z",
+   "enviado": "2026-10-19T14:04:48.671Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T05:20:29.227Z",
    "id": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112183184616034305",
    "nota_url": "https://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
    "origen": "web",
    "plataforma": "x",
@@ -29065,6 +29376,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x": {
+   "actualizado": "2026-10-19T15:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x",
+   "creado": "2026-10-19T15:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T14:35:45Z",
+   "id": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/primer-desacuerdo-geopolitico-entre-javier-milei-y-donald-trump-54abaf",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Primer desacuerdo geopolítico entre Javier Milei y Donald Trump por las Islas Malvinas\n\nLa iniciativa de Washington para eliminar el organismo choca con la postura nacional sobre las islas australes. Esto marca una diferencia entre ambos países.\n\nhttps://www.diariolacampaña.com.ar/n/primer-desacuerdo-geopolitico-entre-javier-milei-y-donald-trump-54abaf",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Primer desacuerdo geopolítico entre Javier Milei y Donald Trump por las Islas Malvinas",
+   "urgente": false,
+   "vence": "2026-10-20T14:35:45.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:fb360714-5639-4bf4-a1f0-001886885d15|x": {
    "actualizado": "2026-10-12T02:00:19.000Z",
    "buffer_id": "6acc1500ea568e911a441ab8",
@@ -29170,104 +29506,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00218|x",
-   "cuando": "2026-10-16T17:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok",
-   "cuando": "2026-10-16T17:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697312875588701460"
-  },
-  {
-   "clave": "entrevistas:job00219",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00219|x",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|x",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|tiktok",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego|x",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|x",
-   "cuando": "2026-10-16T18:00:17.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "entrevistas:job00221",
-   "cuando": "2026-10-16T18:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x",
-   "cuando": "2026-10-16T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00221|x",
-   "cuando": "2026-10-16T18:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x",
-   "cuando": "2026-10-16T18:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:ef08f847-d9e6-4534-8776-17ff73df6820|x",
-   "cuando": "2026-10-16T18:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x",
    "cuando": "2026-10-16T18:40:13.000Z",
@@ -33409,10 +33647,116 @@
    "cuando": "2026-10-19T14:20:30.000Z",
    "dueAt": "2026-10-19T18:45:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:41adf48909fb7a57|tiktok",
+   "cuando": "2026-10-19T15:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:677e9def2f7175b0|tiktok",
+   "cuando": "2026-10-19T15:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:be6592b07ce935fb|tiktok",
+   "cuando": "2026-10-19T15:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
+   "cuando": "2026-10-19T15:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x",
+   "cuando": "2026-10-19T15:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x",
+   "cuando": "2026-10-19T15:00:35.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x",
+   "cuando": "2026-10-19T15:00:47.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:f8cbb878e65900d1|tiktok",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698389776776400148"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698379749432855815"
+  },
+  {
+   "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112185890655121533"
+  },
+  {
+   "clave": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112189696411394280"
+  },
+  {
+   "clave": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112193491853844577"
+  },
+  {
+   "clave": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112183184616034305"
+  },
+  {
+   "buffer_id": "6ad630a027c86cdd6c2acd6f",
+   "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "dueAt": "2026-10-19T19:00:25.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad630a0e811392c99f9b935",
+   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
+   "cuando": "2026-10-19T15:00:48.000Z",
+   "dueAt": "2026-10-19T19:15:41.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T14:00:35.000Z",
+ "ultima_sync": "2026-10-19T15:00:47.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -33500,12 +33844,14 @@
   "nacionales:2b26f422b8cc341a": "2026-10-19T00:20:16.000Z",
   "nacionales:2be0a52708a62532": "2026-10-18T17:20:13.000Z",
   "nacionales:2f1a6dccc7eef682": "2026-10-19T02:40:14.000Z",
+  "nacionales:41adf48909fb7a57": "2026-10-19T15:00:20.000Z",
   "nacionales:4d4c5be14febf1aa": "2026-10-18T20:20:13.000Z",
   "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
   "nacionales:509780bc5420f2f5": "2026-10-19T02:40:14.000Z",
   "nacionales:552c66c451a5584e": "2026-10-19T00:20:16.000Z",
   "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
   "nacionales:605a06264731bcec": "2026-10-19T00:20:16.000Z",
+  "nacionales:677e9def2f7175b0": "2026-10-19T15:00:20.000Z",
   "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
   "nacionales:7570d6c409614369": "2026-10-19T00:20:16.000Z",
   "nacionales:76f6781e9594def9": "2026-10-18T20:20:13.000Z",
@@ -33525,6 +33871,7 @@
   "nacionales:b4cf751f44529f62": "2026-10-19T09:00:17.000Z",
   "nacionales:b541d9169f033092": "2026-10-18T17:20:13.000Z",
   "nacionales:b6108526eb42ff8a": "2026-10-18T17:20:13.000Z",
+  "nacionales:be6592b07ce935fb": "2026-10-19T15:00:20.000Z",
   "nacionales:c27183ebaf507280": "2026-10-19T00:20:16.000Z",
   "nacionales:c557a454a9895504": "2026-10-19T00:20:16.000Z",
   "nacionales:e2ff40109224ceb4": "2026-10-19T00:20:16.000Z",
@@ -33666,6 +34013,7 @@
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
   "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": "2026-10-18T22:00:19.000Z",
+  "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f": "2026-10-19T15:00:20.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e": "2026-10-19T09:00:17.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
@@ -33710,6 +34058,7 @@
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
   "web:4199d5d7-7749-42b5-a204-16844f3014eb": "2026-10-19T10:20:14.000Z",
+  "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
   "web:44657646-5aa8-40e2-92e8-9107905b81c5": "2026-10-14T00:20:13.000Z",
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
@@ -33722,6 +34071,7 @@
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
+  "web:4d61cc5b-9d70-46db-b815-a8250038f4de": "2026-10-19T15:00:20.000Z",
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8": "2026-10-18T01:00:19.000Z",
@@ -33933,6 +34283,7 @@
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc": "2026-10-19T14:20:14.000Z",
+  "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5": "2026-10-19T15:00:20.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
   "web:fcc38531-e614-4892-a005-314730e4df18": "2026-10-19T09:00:17.000Z",
   "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": "2026-10-19T02:00:17.000Z",
