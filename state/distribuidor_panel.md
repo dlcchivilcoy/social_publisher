@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 3 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 4 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 4 | 2 | 0 | 1 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -26,30 +26,29 @@ Actualizado: 19/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 222 de 250 · 30d: quedan 2679 de 3000 (visto 2026-10-19T19:20:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 177 de 250 · 30d: quedan 2634 de 3000 (visto 2026-10-19T19:40:16.000Z)
 
-## Cola propia (98 esperando)
-- X · Recortes de entrevistas · Hugo Kübler: No se le perdonó la deuda a Bicontinentar — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Recortes de entrevistas · Gustavo Caggiano: colecciones ocultas en Chivilcoy — en turno
+## Cola propia (94 esperando)
+- X · Recortes de entrevistas · Gustavo Caggiano: colecciones ocultas en Chivilcoy — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — en turno
-- TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Desacuerdo entre Milei y Trump por el Comité de Descolonización de la ONU — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Desacuerdo entre Milei y Trump por el Comité de Descolonización de la ONU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — en turno
-- TikTok · Nacionales y categorías · Mirtha Legrand reapareció en familia tras 18 días internada y habló Rottemberg — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Mirtha Legrand reapareció en familia tras 18 días internada y habló Rottemberg — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — en turno
-- TikTok · Nacionales y categorías · Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Jugador de Racing reaccionó con insultos y gestos hacia los hinchas — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Jugador de Racing reaccionó con insultos y gestos hacia los hinchas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Toques de queda localizados en Francia tras disturbios y saqueos masivos — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Se agita la interna del peronismo: cumbre de Cristina y Massa, y tensiones con K — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministr — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Tini Stoessel apuntó contra los organizadores tras suspender su concierto en Mia — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Cuál es el mejor chatbot de inteligencia artificial para cada tarea laboral — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Murió un militar tras caer más de 30 metros en un estadio de Texas — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · 100 días de engaño: de qué trata el k-drama histórico que llegó a Netflix — tope de 12 publicaciones en 24 h de TikTok
-- TikTok · Nacionales y categorías · Ponzio define quién reemplaza a Martínez Quarta ante Racing en la 15ª fecha — tope de 12 publicaciones en 24 h de TikTok
+- TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Toques de queda localizados en Francia tras disturbios y saqueos masivos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Se agita la interna del peronismo: cumbre de Cristina y Massa, y tensiones con K — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministr — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Tini Stoessel apuntó contra los organizadores tras suspender su concierto en Mia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Cuál es el mejor chatbot de inteligencia artificial para cada tarea laboral — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Murió un militar tras caer más de 30 metros en un estadio de Texas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · 100 días de engaño: de qué trata el k-drama histórico que llegó a Netflix — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Ponzio define quién reemplaza a Martínez Quarta ante Racing en la 15ª fecha — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — cupo diario de Notas web en X completo (15)
 - X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — cupo diario de Notas web en X completo (15)
 - X · Notas web · Despedida de la delegación local que viajará a la ciudad de Mar del Plata para c — cupo diario de Notas web en X completo (15)
@@ -59,6 +58,7 @@ Actualizado: 19/10/2026 16:20 (hora AR) · ACTIVO
 - X · Notas web · “Estamos acá reconociendo nuestro error, el voto fue nuestro y el error también. — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — cupo diario de Notas web en X completo (15)
 - X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — cupo diario de Notas web en X completo (15)
+- X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -70,10 +70,6 @@ Actualizado: 19/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T17:40 vencido bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tikto tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T17:40 vencido nacionales:2b26f422b8cc341a|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T17:40 vencido nacionales:eb29261c90f4bdfa|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T17:40 error_publicacion bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tikto Please update the media URL to be publicly accessible before retrying the post.
 - 2026-10-19T17:40 programado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tikto 
 - 2026-10-19T17:40 programado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok 
 - 2026-10-19T18:00 vencido nacionales:ef9d9f6be8029c31|tiktok tope de 12 publicaciones en 24 h de TikTok
@@ -95,3 +91,7 @@ Actualizado: 19/10/2026 16:20 (hora AR) · ACTIVO
 - 2026-10-19T19:20 vencido web:82b6cce8-6765-4661-8b19-1e22966dd60a|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T19:20 programado entrevistas:job00229|x 
 - 2026-10-19T19:20 programado entrevistas:job00228|x 
+- 2026-10-19T19:40 vencido nacionales:02472f0cd4ba4800|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T19:40 vencido nacionales:2f1a6dccc7eef682|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T19:40 vencido web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T19:40 programado entrevistas:job00226|x 
