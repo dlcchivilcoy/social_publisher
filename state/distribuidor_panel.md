@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2682 de 3000 (visto 2026-10-19T17:40:33.000Z)
 
-## Cola propia (109 esperando)
+## Cola propia (107 esperando)
 - X · Reels del bot · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Recortes de entrevistas · Eduardo Falcone: crédito para terminar la Ruta 5 — en turno
 - X · Recortes de entrevistas · Hugo Kübler: No se le perdonó la deuda a Bicontinentar — en turno
@@ -70,8 +70,6 @@ Actualizado: 19/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T16:20 programado entrevistas:job00224|x 
-- 2026-10-19T16:40 vencido nacionales:605a06264731bcec|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T16:40 vencido nacionales:7570d6c409614369|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T16:40 vencido web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T17:00 entrevista_aprobada entrevistas:job00225 
@@ -95,3 +93,5 @@ Actualizado: 19/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-19T17:40 error_publicacion bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tikto Please update the media URL to be publicly accessible before retrying the post.
 - 2026-10-19T17:40 programado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tikto 
 - 2026-10-19T17:40 programado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok 
+- 2026-10-19T18:00 vencido nacionales:ef9d9f6be8029c31|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T18:00 vencido web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x cupo diario de Notas web en X completo (15)

@@ -16822,14 +16822,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eba0c0c1b9_el-gobierno-evalua-cambios-para-destrabar-el.mp4"
   },
   "nacionales:ef9d9f6be8029c31|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T18:00:19.000Z",
    "buffer_id": "",
    "clave": "nacionales:ef9d9f6be8029c31|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:50:48.000Z",
    "id": "nacionales:ef9d9f6be8029c31",
    "intentos": 0,
@@ -24786,14 +24786,14 @@
    "video_url": ""
   },
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x": {
-   "actualizado": "2026-10-18T18:00:17.000Z",
+   "actualizado": "2026-10-19T18:00:19.000Z",
    "buffer_id": "",
    "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
    "creado": "2026-10-18T18:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T17:47:03.110Z",
    "id": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659",
    "intentos": 0,
@@ -30800,19 +30800,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00223|x",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111201013201768760"
-  },
-  {
-   "buffer_id": "6ad29e751c7e49ea4c26ab74",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
-   "cuando": "2026-10-16T22:00:21.000Z",
-   "dueAt": "2026-10-16T23:45:48.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x",
    "cuando": "2026-10-16T22:20:13.000Z",
    "estado": "pendiente",
@@ -35058,6 +35045,18 @@
    "cuando": "2026-10-19T17:40:33.000Z",
    "dueAt": "2026-10-19T18:23:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:ef9d9f6be8029c31|tiktok",
+   "cuando": "2026-10-19T18:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
+   "cuando": "2026-10-19T18:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
