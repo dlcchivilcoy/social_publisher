@@ -15655,14 +15655,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_588268bbf3_tini-stoessel-apunto-contra-los-organizadores.mp4"
   },
   "nacionales:605a06264731bcec|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T16:40:15.000Z",
    "buffer_id": "",
    "clave": "nacionales:605a06264731bcec|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:36:24.000Z",
    "id": "nacionales:605a06264731bcec",
    "intentos": 0,
@@ -15733,14 +15733,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
   },
   "nacionales:7570d6c409614369|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T16:40:15.000Z",
    "buffer_id": "",
    "clave": "nacionales:7570d6c409614369|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:20:52.000Z",
    "id": "nacionales:7570d6c409614369",
    "intentos": 0,
@@ -28298,14 +28298,14 @@
    "video_url": ""
   },
   "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x": {
-   "actualizado": "2026-10-18T16:40:14.000Z",
+   "actualizado": "2026-10-19T16:40:15.000Z",
    "buffer_id": "",
    "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
    "creado": "2026-10-18T16:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T16:37:32.896Z",
    "id": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a",
    "intentos": 0,
@@ -30504,28 +30504,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad28bb2d254ff4dc47c7818",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok",
-   "cuando": "2026-10-16T20:40:19.000Z",
-   "dueAt": "2026-10-16T20:43:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad28bb3c74c39c9ee579a43",
-   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
-   "cuando": "2026-10-16T20:40:19.000Z",
-   "dueAt": "2026-10-16T21:23:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
-   "cuando": "2026-10-16T21:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
    "cuando": "2026-10-16T21:00:18.000Z",
@@ -34774,6 +34752,24 @@
    "cuando": "2026-10-19T16:20:24.000Z",
    "dueAt": "2026-10-19T20:15:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:605a06264731bcec|tiktok",
+   "cuando": "2026-10-19T16:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "nacionales:7570d6c409614369|tiktok",
+   "cuando": "2026-10-19T16:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
+   "cuando": "2026-10-19T16:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",

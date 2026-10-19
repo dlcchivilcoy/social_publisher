@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2686 de 3000 (visto 2026-10-19T16:20:24.000Z)
 
-## Cola propia (115 esperando)
+## Cola propia (112 esperando)
 - TikTok · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
 - X · Reels del bot · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — espera para separarse de la otra publicación de la misma noticia
 - TikTok · Reels del bot · La delegación de Chivilcoy arribó para los Juegos Bonaerenses — tope de 12 publicaciones en 24 h de TikTok
@@ -69,9 +69,6 @@ Actualizado: 19/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T15:20 vencido web:2991bf21-e852-48ba-87ce-5d073c3a7487|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T15:20 vencido web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T15:20 vencido web:5e1b7468-652a-43da-baf9-771cda1103ff|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T15:20 programado web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x 
 - 2026-10-19T15:20 programado web:a1643449-bbde-4592-a6b3-8e7158b579e6|x 
 - 2026-10-19T15:40 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x 
@@ -94,3 +91,6 @@ Actualizado: 19/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-19T16:20 enviado bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x 
 - 2026-10-19T16:20 enviado web:c876f210-4b35-4b4a-add4-8813297977a9|x 
 - 2026-10-19T16:20 programado entrevistas:job00224|x 
+- 2026-10-19T16:40 vencido nacionales:605a06264731bcec|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T16:40 vencido nacionales:7570d6c409614369|tiktok tope de 12 publicaciones en 24 h de TikTok
+- 2026-10-19T16:40 vencido web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x cupo diario de Notas web en X completo (15)
