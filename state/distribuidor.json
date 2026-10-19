@@ -15,19 +15,19 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-19T16:20:22.000Z"
+   "visto": "2026-10-19T17:40:31.000Z"
   },
   "x": {
    "desconectado": false,
    "limite_buffer": {
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
-    "limit": 50,
-    "scheduled": 6,
-    "sent": 14
+    "limit": 100,
+    "scheduled": 7,
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-10-19T16:20:22.000Z"
+   "visto": "2026-10-19T17:40:31.000Z"
   }
  },
  "contenidos": {
@@ -1726,6 +1726,26 @@
    "video_mb": 14.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00226.mp4",
    "youtube_url": "https://youtu.be/P5Flb06q8R4"
+  },
+  "entrevistas:job00228": {
+   "descripcion": "En Chivilcoy, el diputado nacional Eduardo Falcone reveló que el Gobierno nacional volcará un crédito remanente de la CAF para avanzar con las obras de la Ruta 5.",
+   "duracion_seg": null,
+   "entrevistado": "Eduardo Falcone",
+   "generado": "2026-10-19T17:40:30.000Z",
+   "id": "entrevistas:job00228",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Eduardo Falcone: crédito para terminar la Ruta 5",
+   "urgente": false,
+   "video_bytes": 15498155,
+   "video_mb": 14.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00228.mp4",
+   "youtube_url": "https://youtu.be/93z-andhXmU"
   },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
@@ -11254,22 +11274,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 227,
-   "segundos": 20406,
+   "restantes": 225,
+   "segundos": 19190,
    "tope": 250
   },
   "30d": {
-   "restantes": 2684,
-   "segundos": 1914624,
+   "restantes": 2682,
+   "segundos": 1913409,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T17:20:17.000Z",
+ "cuota_visto": "2026-10-19T17:40:33.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -12978,14 +12998,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok": {
-   "actualizado": "2026-10-17T17:40:13.000Z",
+   "actualizado": "2026-10-19T17:40:31.000Z",
    "buffer_id": "",
    "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok",
    "creado": "2026-10-17T17:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T17:21:29.000Z",
    "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
    "intentos": 0,
@@ -13311,7 +13331,7 @@
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T13:12:41.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
@@ -13358,14 +13378,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok": {
-   "actualizado": "2026-10-19T13:40:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T17:40:31.000Z",
+   "buffer_id": "6ad6561000e70b77e05cc00b",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
    "creado": "2026-10-19T13:40:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T17:43:40.000Z",
    "error": "",
-   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T13:21:05.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
    "intentos": 0,
@@ -13411,14 +13431,15 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok": {
-   "actualizado": "2026-10-19T17:20:16.000Z",
+   "actualizado": "2026-10-19T17:40:31.000Z",
    "buffer_id": "6ad65150d1648e7b92bf3b9b",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
    "creado": "2026-10-19T15:40:14.000Z",
    "dueAt": "2026-10-19T17:23:33.000Z",
-   "error": "",
+   "error": "Please update the media URL to be publicly accessible before retrying the post.",
+   "error_crudo": "Media URL is not publicly accessible (HTTP 502). Ensure the media URL is publicly reachable before publishing.",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-19T15:21:07.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
    "intentos": 0,
@@ -14612,14 +14633,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4"
   },
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T17:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T17:40:31.000Z",
+   "buffer_id": "6ad656112d69a6fbbf3b1a03",
    "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
    "creado": "2026-10-19T17:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T18:23:03.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T16:50:06.000Z",
    "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
    "intentos": 0,
@@ -15384,6 +15405,31 @@
    "video_bytes": 14732127,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00226.mp4"
   },
+  "entrevistas:job00228|x": {
+   "actualizado": "2026-10-19T17:40:30.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00228|x",
+   "creado": "2026-10-19T17:40:30.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T17:40:30.000Z",
+   "id": "entrevistas:job00228",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Eduardo Falcone: crédito para terminar la Ruta 5\n\nEn Chivilcoy, el diputado nacional Eduardo Falcone reveló que el Gobierno nacional volcará un crédito remanente de la CAF para avanzar con las obras de la Ruta 5.\n\nhttps://youtu.be/93z-andhXmU",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Eduardo Falcone: crédito para terminar la Ruta 5",
+   "urgente": false,
+   "vence": "2026-10-21T17:40:30.000Z",
+   "video_bytes": 15498155,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00228.mp4"
+  },
   "nacionales:02472f0cd4ba4800|tiktok": {
    "actualizado": "2026-10-19T02:40:14.000Z",
    "buffer_id": "",
@@ -15541,14 +15587,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_25f7704c0c_santilli-aseguro-que-milei-ganara-en-2027-y.mp4"
   },
   "nacionales:2b26f422b8cc341a|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T17:40:31.000Z",
    "buffer_id": "",
    "clave": "nacionales:2b26f422b8cc341a|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:21:02.000Z",
    "id": "nacionales:2b26f422b8cc341a",
    "intentos": 0,
@@ -16724,14 +16770,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e50827dd69_nuevos-saqueos-y-violentos-disturbios-en-paris.mp4"
   },
   "nacionales:eb29261c90f4bdfa|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T17:40:31.000Z",
    "buffer_id": "",
    "clave": "nacionales:eb29261c90f4bdfa|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:35:48.000Z",
    "id": "nacionales:eb29261c90f4bdfa",
    "intentos": 0,
@@ -30754,55 +30800,6 @@
  },
  "registro": [
   {
-   "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
-   "cuando": "2026-10-16T21:40:13.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad299be1694d771d509b90d",
-   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
-   "cuando": "2026-10-16T21:40:14.000Z",
-   "dueAt": "2026-10-16T23:30:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111211914357252124"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697369112648994066"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|x",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111196934375407641"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|tiktok",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697379384604265735"
-  },
-  {
-   "clave": "entrevistas:job00221|x",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111208307218137099"
-  },
-  {
-   "clave": "entrevistas:job00222|x",
-   "cuando": "2026-10-16T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111204481308262584"
-  },
-  {
    "clave": "entrevistas:job00223|x",
    "cuando": "2026-10-16T22:00:19.000Z",
    "evento": "enviado",
@@ -35010,10 +35007,61 @@
    "cuando": "2026-10-19T17:20:17.000Z",
    "dueAt": "2026-10-19T17:23:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00228",
+   "cuando": "2026-10-19T17:40:30.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00228|x",
+   "cuando": "2026-10-19T17:40:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok",
+   "cuando": "2026-10-19T17:40:31.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "nacionales:2b26f422b8cc341a|tiktok",
+   "cuando": "2026-10-19T17:40:31.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "nacionales:eb29261c90f4bdfa|tiktok",
+   "cuando": "2026-10-19T17:40:31.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
+   "cuando": "2026-10-19T17:40:31.000Z",
+   "evento": "error_publicacion",
+   "motivo": "Please update the media URL to be publicly accessible before retrying the post."
+  },
+  {
+   "buffer_id": "6ad6561000e70b77e05cc00b",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
+   "cuando": "2026-10-19T17:40:33.000Z",
+   "dueAt": "2026-10-19T17:43:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad656112d69a6fbbf3b1a03",
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
+   "cuando": "2026-10-19T17:40:33.000Z",
+   "dueAt": "2026-10-19T18:23:03.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T16:20:22.000Z",
+ "ultima_sync": "2026-10-19T17:40:31.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -35098,6 +35146,7 @@
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
+  "entrevistas:job00228": "2026-10-19T17:40:30.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
