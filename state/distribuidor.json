@@ -1228,6 +1228,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f39461367cac8a5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/0jqyiN7sDGk"
   },
+  "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4": {
+   "descripcion": "El diputado provincial y presidente del bloque de Fuerza Patria, Facundo Tignanelli, advirtió sobre las sumas millonarias de dinero que pierde el país y la provincia de Buenos Aires a causa de las apuestas online, tanto en sus variantes legales como ilegales.\n\nSegún expresó el legislador a partir de estimaciones realizadas con información oficial de la provincia de Buenos Aires, alrededor de 20 mil millones de dólares al año salen de los recursos de los bonaerenses con destino a este sector. En ese sentido, puntualizó que el 80% de las empresas licenciatarias son extranjeras, por lo cual los fondos se retiran de la economía local hacia otras naciones.\n\nPor otra parte, Tignanelli hizo referencia a datos provistos por el titular de Lotería y remarcó que más del 70% de las jugadas que se registran en territorio bonaerense corresponden al circuito ilegal. Frente a los 1.600 millones contabilizados en el mercado legal, estimó que casi el triple de ese monto se canaliza de forma no regulada.\n\nPara finalizar, el diputado cuestionó el drenaje de estos recursos hacia firmas foráneas que buscan captar apostadores a partir de las necesidades económicas de la sociedad.",
+   "duracion_seg": 74.8,
+   "generado": "2026-10-19T23:18:39.000Z",
+   "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
+   "urgente": false,
+   "video_bytes": 6844311,
+   "video_mb": 6.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9c24662b0b29779d.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/WRdfo7Xdhyw"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -1892,6 +1913,32 @@
    "volanta": "Tomás Videla",
    "youtube_url": "https://youtube.com/shorts/DfIQ80gOckM"
   },
+  "nacionales:206df88111ec06ca": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "El gobierno francés anunció toques de queda y prohibición de protestas en París, Lyon, Niza y otras ciudades tras los graves disturbios del fin de semana.",
+   "duracion_seg": 15.1,
+   "generado": "2026-10-19T21:15:26.000Z",
+   "hashtags": [
+    "Francia",
+    "Paris"
+   ],
+   "id": "nacionales:206df88111ec06ca",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Toques de queda en Francia por violentas protestas y saqueos",
+   "urgente": false,
+   "video_bytes": 1514279,
+   "video_mb": 1.4,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_206df88111_toques-de-queda-en-francia-por-violentas.mp4",
+   "volanta": "Francia",
+   "youtube_url": "https://youtube.com/shorts/nMS28dxW7ro"
+  },
   "nacionales:23d1fc7d2341fc89": {
    "categoria": "Deportes",
    "categoria_nacional": "deportes",
@@ -2282,6 +2329,32 @@
    "volanta": "Soja y trigo",
    "youtube_url": "https://youtube.com/shorts/rpi0g2-uPtk"
   },
+  "nacionales:632442afcb23e9fb": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "Fuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante. Hay ciudades aisladas, rescates en helicóptero y registros sin precedentes desde 1987.",
+   "duracion_seg": 30.6,
+   "generado": "2026-10-19T22:15:15.000Z",
+   "hashtags": [
+    "Inundaciones",
+    "Espana"
+   ],
+   "id": "nacionales:632442afcb23e9fb",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "España: cuatro muertos y más de 800.000 confinados por inundaciones",
+   "urgente": false,
+   "video_bytes": 1741538,
+   "video_mb": 1.7,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_632442afcb_espana-cuatro-muertos-y-mas-de-800-000-confinados.mp4",
+   "volanta": "Temporal en España",
+   "youtube_url": "https://youtube.com/shorts/shPnmQNh93M"
+  },
   "nacionales:677e9def2f7175b0": {
    "categoria": "Virales",
    "categoria_nacional": "virales",
@@ -2307,6 +2380,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_677e9def2f_perro-de-15-anos-volvio-a-caminar-gracias-al.mp4",
    "volanta": "Mascotas y redes",
    "youtube_url": "https://youtube.com/shorts/K2knZz3rUX0"
+  },
+  "nacionales:6b05c0de5e77c089": {
+   "categoria": "Virales",
+   "categoria_nacional": "virales",
+   "descripcion": "Un video viral en Sídney generó debate luego de que una mujer retirara un enorme ejemplar de carpa común de un estanque público.",
+   "duracion_seg": 17.8,
+   "generado": "2026-10-19T23:15:15.000Z",
+   "hashtags": [
+    "Virales",
+    "Australia"
+   ],
+   "id": "nacionales:6b05c0de5e77c089",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Sacan una carpa gigante de un parque en Sídney y se arma debate",
+   "urgente": false,
+   "video_bytes": 1444124,
+   "video_mb": 1.4,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6b05c0de5e_sacan-una-carpa-gigante-de-un-parque-en-sidney-y.mp4",
+   "volanta": "Pez invasor",
+   "youtube_url": "https://youtube.com/shorts/lojQ5fKEsfY"
   },
   "nacionales:6e5b52bbe69fd410": {
    "categoria": "Espectáculos",
@@ -2541,6 +2640,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_97bd2fed89_tension-oficialista-por-las-alianzas-y-el-rumbo.mp4",
    "volanta": "Estrategia 2027",
    "youtube_url": "https://youtube.com/shorts/DTDcxnZ4g18"
+  },
+  "nacionales:9cae8a7fbd11ec6c": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "Las altas de la Prestación por Desempleo aumentaron un 29,4% entre enero y septiembre de 2026. La provincia de Buenos Aires concentra la mayor cantidad de beneficiarios.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-19T22:45:10.000Z",
+   "hashtags": [
+    "Desempleo",
+    "Anses"
+   ],
+   "id": "nacionales:9cae8a7fbd11ec6c",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Sube el seguro de desempleo: quiénes cobran y de cuánto es el haber promedio",
+   "urgente": false,
+   "video_bytes": 98840,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9cae8a7fbd_sube-el-seguro-de-desempleo-quienes-cobran-y-de.mp4",
+   "volanta": "Seguro de desempleo",
+   "youtube_url": "https://youtube.com/shorts/77RfL2y4U3c"
   },
   "nacionales:9d5801d6974360c3": {
    "categoria": "Política",
@@ -3009,6 +3134,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d4259eeed3_cual-es-el-mejor-chatbot-de-inteligencia.mp4",
    "volanta": "Chatbots de Inteligencia",
    "youtube_url": "https://youtube.com/shorts/WTrOWxzxdkg"
+  },
+  "nacionales:d553fbc1ee6752bd": {
+   "categoria": "Policiales",
+   "categoria_nacional": "",
+   "descripcion": "A doce días de la desaparición de Nancy Estela Godoy en Esquina, la fiscalía investiga prendas y armas blancas incautadas en la vivienda de un sospechoso.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-19T21:45:15.000Z",
+   "hashtags": [
+    "Corrientes",
+    "Policiales"
+   ],
+   "id": "nacionales:d553fbc1ee6752bd",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "origen": "nacionales",
+   "plataformas": [
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Hallaron elementos con manchas rojas en la casa del detenido por la docente",
+   "urgente": false,
+   "video_bytes": 78849,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d553fbc1ee_hallaron-elementos-con-manchas-rojas-en-la-casa.mp4",
+   "volanta": "Búsqueda en Corrientes",
+   "youtube_url": "https://youtube.com/shorts/bNLNcn7RXBc"
   },
   "nacionales:d6dc41a1ad7b38ad": {
    "categoria": "Política",
@@ -9146,6 +9297,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-estado-nacional-registra-mas-de-77-mil-puestos-menos-y-lanza-cb2e9c",
    "volanta": ""
   },
+  "web:992a0e03-d222-428d-b6f8-9d7b90cebe38": {
+   "categoria": "nacionales",
+   "descripcion": "Un video viral en Sídney generó debate luego de que una mujer retirara un enorme ejemplar de carpa común de un estanque público.",
+   "generado": "2026-10-19T23:15:10.551Z",
+   "id": "web:992a0e03-d222-428d-b6f8-9d7b90cebe38",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7286d9eab07941f2a4e6e9ad1a89af7c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Polémica en Sídney por un video viral: sacaron un pez invasor de un estanque público",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "volanta": ""
+  },
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": {
    "categoria": "nacionales",
    "descripcion": "Las fuerzas de seguridad llevan adelante un amplio operativo para reubicar a unos 1.500 internos desde el penal porteño hacia el complejo de Marcos Paz.",
@@ -10153,6 +10323,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/panorama-agroclimatico-antonio-martin-y-un-analisis-el-estado-de-las",
    "volanta": "Panorama Agroclimático"
+  },
+  "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8": {
+   "categoria": "nacionales",
+   "descripcion": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online El diputado provincial y presidente del Bloque de Fuerza Patria, Facundo Tignanelli, se refirió al dinero que pierde el país y la provincia en concepto de apuestas online, tanto bajo modalidades legales como ilegales, señalando que esos fondos quedan en manos de empresas extranjeras. Al respecto, Tignanelli indicó: \"El cálculo que hicimos con Mica según la información oficial que tiene la provincia de Buenos Aires...",
+   "generado": "2026-10-19T23:17:58.159Z",
+   "id": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6ecb072f28c44a38850887296699871d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "volanta": "Provincia · Política"
   },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": {
    "categoria": "nacionales",
@@ -11471,22 +11660,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 86400,
+   "restantes": 247,
+   "segundos": 85203,
    "tope": 250
   },
   "30d": {
-   "restantes": 2558,
-   "segundos": 1894215,
+   "restantes": 2557,
+   "segundos": 1893017,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T23:00:26.000Z",
+ "cuota_visto": "2026-10-19T23:20:24.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14938,6 +15127,60 @@
    "video_bytes": 21687244,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f39461367cac8a5.mp4"
   },
+  "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T23:18:39.000Z",
+   "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online\n\nA partir de información oficial bonaerense, el diputado Facundo Tignanelli estimó que unos 20 mil millones de dólares anuales salen de los recursos provinciales hacia las apuestas online, con un 80% de licenciatarias extranjeras. Además, con datos provistos por el titular de Lotería, remarcó que más del 70% de las jugadas en el territorio corresponden al circuito ilegal.\n\nhttps://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
+   "urgente": false,
+   "vence": "2026-10-21T23:18:39.000Z",
+   "video_bytes": 6844311,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9c24662b0b29779d.mp4"
+  },
+  "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x": {
+   "actualizado": "2026-10-19T23:20:22.000Z",
+   "buffer_id": "6ad6a5b7cba41b01404fc8bb",
+   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "2026-10-19T23:23:33.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-19T23:18:39.000Z",
+   "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "noticia": "nota:provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online\n\nEl legislador estimó que 20 mil millones de dólares al año se van en este sector. Remarcó que la mayoría de las firmas son foráneas y gran parte del juego es ilegal.\n\nhttps://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
+   "urgente": false,
+   "vence": "2026-10-20T01:18:39.000Z",
+   "video_bytes": 6844311,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9c24662b0b29779d.mp4",
+   "viral": false
+  },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd12237eb16fd28e94048f",
@@ -15818,6 +16061,32 @@
    "video_bytes": 656560,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0ffb2e8d26_el-compositor-argentino-tomas-videla-fue-nominado.mp4"
   },
+  "nacionales:206df88111ec06ca|tiktok": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:206df88111ec06ca|tiktok",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T21:15:26.000Z",
+   "id": "nacionales:206df88111ec06ca",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Toques de queda en Francia por violentas protestas y saqueos\n\nEl gobierno francés anunció toques de queda y prohibición de protestas en París, Lyon, Niza y otras ciudades tras los graves disturbios del fin de semana.\n\nhttps://www.diariolacampaña.com.ar/n/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Francia",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Toques de queda en Francia por violentas protestas y saqueos",
+   "urgente": false,
+   "vence": "2026-10-20T15:15:26.000Z",
+   "video_bytes": 1514279,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_206df88111_toques-de-queda-en-francia-por-violentas.mp4"
+  },
   "nacionales:23d1fc7d2341fc89|tiktok": {
    "actualizado": "2026-10-19T15:20:16.000Z",
    "buffer_id": "",
@@ -16209,6 +16478,32 @@
    "video_bytes": 98198,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_605a062647_el-nino-condiciona-al-campo-lanzan-la-estrategia.mp4"
   },
+  "nacionales:632442afcb23e9fb|tiktok": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:632442afcb23e9fb|tiktok",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T22:15:15.000Z",
+   "id": "nacionales:632442afcb23e9fb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "España: cuatro muertos y más de 800.000 confinados por inundaciones\n\nFuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante. Hay ciudades aisladas, rescates en helicóptero y registros sin precedentes desde 1987.\n\nhttps://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Inundaciones",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "España: cuatro muertos y más de 800.000 confinados por inundaciones",
+   "urgente": false,
+   "vence": "2026-10-20T16:15:15.000Z",
+   "video_bytes": 1741538,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_632442afcb_espana-cuatro-muertos-y-mas-de-800-000-confinados.mp4"
+  },
   "nacionales:677e9def2f7175b0|tiktok": {
    "actualizado": "2026-10-19T15:00:20.000Z",
    "buffer_id": "",
@@ -16234,6 +16529,32 @@
    "vence": "2026-10-20T08:15:18.000Z",
    "video_bytes": 1209233,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_677e9def2f_perro-de-15-anos-volvio-a-caminar-gracias-al.mp4"
+  },
+  "nacionales:6b05c0de5e77c089|tiktok": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:6b05c0de5e77c089|tiktok",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T23:15:15.000Z",
+   "id": "nacionales:6b05c0de5e77c089",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Sacan una carpa gigante de un parque en Sídney y se arma debate\n\nUn video viral en Sídney generó debate luego de que una mujer retirara un enorme ejemplar de carpa común de un estanque público.\n\nhttps://www.diariolacampaña.com.ar/n/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0\n\n#chivilcoy #diariolacampaña #radiodelcentro #Virales #Australia",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Sacan una carpa gigante de un parque en Sídney y se arma debate",
+   "urgente": false,
+   "vence": "2026-10-20T17:15:15.000Z",
+   "video_bytes": 1444124,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6b05c0de5e_sacan-una-carpa-gigante-de-un-parque-en-sidney-y.mp4"
   },
   "nacionales:6e5b52bbe69fd410|tiktok": {
    "actualizado": "2026-10-19T09:01:09.000Z",
@@ -16480,6 +16801,32 @@
    "video_bytes": 93322,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_97bd2fed89_tension-oficialista-por-las-alianzas-y-el-rumbo.mp4"
   },
+  "nacionales:9cae8a7fbd11ec6c|tiktok": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:9cae8a7fbd11ec6c|tiktok",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T22:45:10.000Z",
+   "id": "nacionales:9cae8a7fbd11ec6c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Sube el seguro de desempleo: quiénes cobran y de cuánto es el haber promedio\n\nLas altas de la Prestación por Desempleo aumentaron un 29,4% entre enero y septiembre de 2026. La provincia de Buenos Aires concentra la mayor cantidad de beneficiarios.\n\nhttps://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #Desempleo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Sube el seguro de desempleo: quiénes cobran y de cuánto es el haber promedio",
+   "urgente": false,
+   "vence": "2026-10-20T16:45:10.000Z",
+   "video_bytes": 98840,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9cae8a7fbd_sube-el-seguro-de-desempleo-quienes-cobran-y-de.mp4"
+  },
   "nacionales:9d5801d6974360c3|tiktok": {
    "actualizado": "2026-10-19T20:40:17.000Z",
    "buffer_id": "",
@@ -16716,14 +17063,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b1c71e9d13_advierten-riesgo-para-5000-clinicas-y-sanatorios.mp4"
   },
   "nacionales:b4cf751f44529f62|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
+   "actualizado": "2026-10-19T23:20:22.000Z",
    "buffer_id": "",
    "clave": "nacionales:b4cf751f44529f62|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T05:05:59.000Z",
    "id": "nacionales:b4cf751f44529f62",
    "intentos": 0,
@@ -16948,6 +17295,32 @@
    "vence": "2026-10-20T08:50:16.000Z",
    "video_bytes": 76792,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d4259eeed3_cual-es-el-mejor-chatbot-de-inteligencia.mp4"
+  },
+  "nacionales:d553fbc1ee6752bd|tiktok": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:d553fbc1ee6752bd|tiktok",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T21:45:15.000Z",
+   "id": "nacionales:d553fbc1ee6752bd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Hallaron elementos con manchas rojas en la casa del detenido por la docente\n\nA doce días de la desaparición de Nancy Estela Godoy en Esquina, la fiscalía investiga prendas y armas blancas incautadas en la vivienda de un sospechoso.\n\nhttps://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb\n\n#chivilcoy #diariolacampaña #radiodelcentro #Corrientes #Policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Hallaron elementos con manchas rojas en la casa del detenido por la docente",
+   "urgente": false,
+   "vence": "2026-10-20T15:45:15.000Z",
+   "video_bytes": 78849,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d553fbc1ee_hallaron-elementos-con-manchas-rojas-en-la-casa.mp4"
   },
   "nacionales:d6dc41a1ad7b38ad|tiktok": {
    "actualizado": "2026-10-19T15:20:16.000Z",
@@ -23765,14 +24138,14 @@
    "video_url": ""
   },
   "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x": {
-   "actualizado": "2026-10-18T23:20:13.000Z",
+   "actualizado": "2026-10-19T23:20:22.000Z",
    "buffer_id": "",
    "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
    "creado": "2026-10-18T23:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:05:09.254Z",
    "id": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2",
    "intentos": 0,
@@ -27910,6 +28283,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:992a0e03-d222-428d-b6f8-9d7b90cebe38|x": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:992a0e03-d222-428d-b6f8-9d7b90cebe38|x",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T23:15:10.551Z",
+   "id": "web:992a0e03-d222-428d-b6f8-9d7b90cebe38",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "noticia": "nota:polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Polémica en Sídney por un video viral: sacaron un pez invasor de un estanque público\n\nUn video viral en Sídney generó debate luego de que una mujer retirara un enorme ejemplar de carpa común de un estanque público.\n\nhttps://www.diariolacampaña.com.ar/n/polemica-en-sidney-por-un-video-viral-sacaron-un-pez-invasor-de-6b05c0",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Polémica en Sídney por un video viral: sacaron un pez invasor de un estanque público",
+   "urgente": false,
+   "vence": "2026-10-20T03:15:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e|x": {
    "actualizado": "2026-10-13T12:20:19.000Z",
    "buffer_id": "",
@@ -27988,14 +28389,14 @@
    "video_url": ""
   },
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x": {
-   "actualizado": "2026-10-18T23:20:13.000Z",
+   "actualizado": "2026-10-19T23:20:22.000Z",
    "buffer_id": "",
    "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
    "creado": "2026-10-18T23:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:20:10.841Z",
    "id": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241",
    "intentos": 0,
@@ -29388,6 +29789,31 @@
    "vence": "2026-10-17T10:11:10.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8|x": {
+   "actualizado": "2026-10-19T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8|x",
+   "creado": "2026-10-19T23:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-19T23:17:58.159Z",
+   "id": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "noticia": "nota:provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
+   "urgente": false,
+   "vence": "2026-10-20T03:17:58.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x": {
    "actualizado": "2026-10-11T22:20:14.000Z",
@@ -31335,93 +31761,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad3392b0b0d72757acc341c",
-   "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T13:15:43.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392c769b4579346ccce9",
-   "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|tiktok",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T11:00:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392cae173d6e00abd626",
-   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|tiktok",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T11:40:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392d938409f1d07a4d3a",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok",
-   "cuando": "2026-10-17T09:00:31.000Z",
-   "dueAt": "2026-10-17T12:20:42.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392e938409f1d07a4dbc",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
-   "cuando": "2026-10-17T09:00:31.000Z",
-   "dueAt": "2026-10-17T13:00:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392fdd83363c4dc48948",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
-   "cuando": "2026-10-17T09:00:31.000Z",
-   "dueAt": "2026-10-17T13:40:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392f769b4579346cce0c",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
-   "cuando": "2026-10-17T09:00:31.000Z",
-   "dueAt": "2026-10-17T14:20:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|tiktok",
-   "cuando": "2026-10-17T10:00:16.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:12954328-2406-4753-ade8-612eaeebeb3a|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:6c2dee19-96b1-4489-897a-ad0acfed084b|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x",
    "cuando": "2026-10-17T10:20:15.000Z",
@@ -35558,6 +35897,103 @@
    "cuando": "2026-10-19T23:00:26.000Z",
    "dueAt": "2026-10-19T23:05:45.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x",
+   "cuando": "2026-10-19T23:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok",
+   "cuando": "2026-10-19T23:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "nacionales:206df88111ec06ca|tiktok",
+   "cuando": "2026-10-19T23:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:d553fbc1ee6752bd|tiktok",
+   "cuando": "2026-10-19T23:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:632442afcb23e9fb|tiktok",
+   "cuando": "2026-10-19T23:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:9cae8a7fbd11ec6c|tiktok",
+   "cuando": "2026-10-19T23:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:6b05c0de5e77c089|tiktok",
+   "cuando": "2026-10-19T23:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8|x",
+   "cuando": "2026-10-19T23:20:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:992a0e03-d222-428d-b6f8-9d7b90cebe38|x",
+   "cuando": "2026-10-19T23:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:b4cf751f44529f62|tiktok",
+   "cuando": "2026-10-19T23:20:22.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
+   "cuando": "2026-10-19T23:20:22.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
+   "cuando": "2026-10-19T23:20:22.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad6a5b7cba41b01404fc8bb",
+   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x",
+   "cuando": "2026-10-19T23:20:24.000Z",
+   "dueAt": "2026-10-19T23:23:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -35626,6 +36062,7 @@
   "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4": "2026-10-19T14:00:19.000Z",
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4": "2026-10-19T17:00:21.000Z",
   "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4": "2026-10-19T21:00:21.000Z",
+  "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4": "2026-10-19T23:20:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -35658,6 +36095,7 @@
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
   "nacionales:0ffb2e8d26094748": "2026-10-19T00:20:16.000Z",
+  "nacionales:206df88111ec06ca": "2026-10-19T23:20:14.000Z",
   "nacionales:23d1fc7d2341fc89": "2026-10-19T15:20:16.000Z",
   "nacionales:25f7704c0cf2a754": "2026-10-19T09:00:17.000Z",
   "nacionales:2b26f422b8cc341a": "2026-10-19T00:20:16.000Z",
@@ -35673,7 +36111,9 @@
   "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
   "nacionales:588268bbf306f395": "2026-10-19T15:20:16.000Z",
   "nacionales:605a06264731bcec": "2026-10-19T00:20:16.000Z",
+  "nacionales:632442afcb23e9fb": "2026-10-19T23:20:14.000Z",
   "nacionales:677e9def2f7175b0": "2026-10-19T15:00:20.000Z",
+  "nacionales:6b05c0de5e77c089": "2026-10-19T23:20:14.000Z",
   "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
   "nacionales:7570d6c409614369": "2026-10-19T00:20:16.000Z",
   "nacionales:76f6781e9594def9": "2026-10-18T20:20:13.000Z",
@@ -35683,6 +36123,7 @@
   "nacionales:897bae57805e193b": "2026-10-19T00:20:16.000Z",
   "nacionales:8f3dac102e5cdee4": "2026-10-19T15:20:16.000Z",
   "nacionales:97bd2fed895cbca6": "2026-10-19T02:40:14.000Z",
+  "nacionales:9cae8a7fbd11ec6c": "2026-10-19T23:20:14.000Z",
   "nacionales:9d5801d6974360c3": "2026-10-19T02:40:14.000Z",
   "nacionales:9e7b427db11bc8f2": "2026-10-19T09:00:17.000Z",
   "nacionales:a09771b77a360e01": "2026-10-19T15:20:16.000Z",
@@ -35701,6 +36142,7 @@
   "nacionales:c6ed9c5ff821ce8c": "2026-10-19T15:20:16.000Z",
   "nacionales:cb2e9c67cd146106": "2026-10-19T16:00:16.000Z",
   "nacionales:d4259eeed3d3426d": "2026-10-19T15:20:16.000Z",
+  "nacionales:d553fbc1ee6752bd": "2026-10-19T23:20:14.000Z",
   "nacionales:d6dc41a1ad7b38ad": "2026-10-19T15:20:16.000Z",
   "nacionales:dc18047933ea00df": "2026-10-19T16:00:16.000Z",
   "nacionales:e2ff40109224ceb4": "2026-10-19T00:20:16.000Z",
@@ -36004,6 +36446,7 @@
   "web:975c6fd2-4e78-4b7d-b793-7760379b7320": "2026-10-16T10:20:16.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5": "2026-10-19T15:20:16.000Z",
+  "web:992a0e03-d222-428d-b6f8-9d7b90cebe38": "2026-10-19T23:20:14.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": "2026-10-18T22:20:14.000Z",
@@ -36060,6 +36503,7 @@
   "web:c6470534-4523-4411-a14d-e8390249bc0c": "2026-10-14T10:20:15.000Z",
   "web:c6663899-669a-41de-b04f-299805304e87": "2026-10-18T18:40:13.000Z",
   "web:c6c994e0-7772-4aac-b4f4-693e1662b284": "2026-10-16T10:20:16.000Z",
+  "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8": "2026-10-19T23:20:14.000Z",
   "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": "2026-10-11T21:58:03.000Z",
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": "2026-10-11T21:58:03.000Z",
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": "2026-10-14T10:20:15.000Z",
