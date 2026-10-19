@@ -7096,6 +7096,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/financiamiento-universitario-la-justicia-freno-las-multas-al-c89e96",
    "volanta": ""
   },
+  "web:6f8cf702-5cb7-4b03-8945-02d406201533": {
+   "categoria": "nacionales",
+   "descripcion": "El presidente Emmanuel Macron reconoció fallas de inteligencia tras violentas protestas por el costo de vida que dejaron casi 2.400 detenidos, 1.000…",
+   "generado": "2026-10-19T12:20:44.102Z",
+   "id": "web:6f8cf702-5cb7-4b03-8945-02d406201533",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_adc44b08d30f41c9ac9a6fec5805b39d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-macron-admitio-fallas-de-inteligencia-tras-protestas-41adf4",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Francia: Macron admitió fallas de inteligencia tras protestas con 2.400 detenidos y heridos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-macron-admitio-fallas-de-inteligencia-tras-protestas-41adf4",
+   "volanta": ""
+  },
   "web:6fce11f4-2889-4f5e-89f9-c45d46743b64": {
    "categoria": "nacionales",
    "descripcion": "El trágico episodio ocurrió en una iglesia de Guayaquil durante la transmisión en vivo de la ceremonia. La víctima fue identificada como el padre Patricio…",
@@ -14572,14 +14590,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_78b5fd65bc_racing-define-al-nuevo-lider-de-su-barra-brava-en.mp4"
   },
   "nacionales:82015de779d2e56d|tiktok": {
-   "actualizado": "2026-10-18T20:20:13.000Z",
+   "actualizado": "2026-10-19T12:40:16.000Z",
    "buffer_id": "",
    "clave": "nacionales:82015de779d2e56d|tiktok",
    "creado": "2026-10-18T20:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T18:39:00.000Z",
    "id": "nacionales:82015de779d2e56d",
    "intentos": 0,
@@ -23730,6 +23748,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:6f8cf702-5cb7-4b03-8945-02d406201533|x": {
+   "actualizado": "2026-10-19T12:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
+   "creado": "2026-10-19T12:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T12:20:44.102Z",
+   "id": "web:6f8cf702-5cb7-4b03-8945-02d406201533",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-macron-admitio-fallas-de-inteligencia-tras-protestas-41adf4",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Francia: Macron admitió fallas de inteligencia tras protestas con 2.400 detenidos y heridos\n\nEl presidente Emmanuel Macron reconoció fallas de inteligencia tras violentas protestas por el costo de vida. Hubo casi 2.400 detenidos.\n\nhttps://www.diariolacampaña.com.ar/n/francia-macron-admitio-fallas-de-inteligencia-tras-protestas-41adf4",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Francia: Macron admitió fallas de inteligencia tras protestas con 2.400 detenidos y heridos",
+   "urgente": false,
+   "vence": "2026-10-20T12:20:44.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x": {
    "actualizado": "2026-10-18T21:40:15.000Z",
    "buffer_id": "",
@@ -28470,20 +28514,6 @@
  },
  "registro": [
   {
-   "clave": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "Buffer lleno (10 programadas por canal en el plan Free)"
-  },
-  {
    "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
    "cuando": "2026-10-16T15:40:15.000Z",
    "evento": "vencido",
@@ -32706,6 +32736,20 @@
    "cuando": "2026-10-19T12:20:15.000Z",
    "evento": "vencido",
    "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
+   "cuando": "2026-10-19T12:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:82015de779d2e56d|tiktok",
+   "cuando": "2026-10-19T12:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -33042,6 +33086,7 @@
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": "2026-10-15T18:40:15.000Z",
+  "web:6f8cf702-5cb7-4b03-8945-02d406201533": "2026-10-19T12:40:14.000Z",
   "web:6fce11f4-2889-4f5e-89f9-c45d46743b64": "2026-10-18T21:40:15.000Z",
   "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": "2026-10-11T21:58:03.000Z",
   "web:70161ba5-8aec-496b-844f-0838565b94a8": "2026-10-16T10:20:16.000Z",
