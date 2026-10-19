@@ -1707,6 +1707,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00225.mp4",
    "youtube_url": "https://youtu.be/75sEZvAizj8"
   },
+  "entrevistas:job00226": {
+   "descripcion": "El director de Gobierno de Chivilcoy, Hugo Kübler, desmintió las acusaciones de La Libertad Avanza y aclaró que el Municipio inició acciones judiciales para cobrar la deuda de Bicontinentar.",
+   "duracion_seg": null,
+   "entrevistado": "Hugo Kübler",
+   "generado": "2026-10-19T17:20:14.000Z",
+   "id": "entrevistas:job00226",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Hugo Kübler: No se le perdonó la deuda a Bicontinentar",
+   "urgente": false,
+   "video_bytes": 14732127,
+   "video_mb": 14.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00226.mp4",
+   "youtube_url": "https://youtu.be/P5Flb06q8R4"
+  },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -6623,6 +6643,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-despedida-de-la-delegacion-local-que-viajara-a-la",
    "volanta": "Juegos Bonaerenses"
   },
+  "web:317c620f-6da5-4b5a-b6b9-577556143229": {
+   "categoria": "",
+   "descripcion": "Productores ganaderos aceleran el retiro de hacienda bovina ante la crecida del río Paraná frente al departamento San Javier.",
+   "generado": "2026-10-19T17:03:24.907Z",
+   "id": "web:317c620f-6da5-4b5a-b6b9-577556143229",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3b157b473ab940f8a131bb3359bf2bb2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/crecida-del-parana-preparan-la-evacuacion-de-15-000-vacas-en-c0e5d0",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crecida-del-parana-preparan-la-evacuacion-de-15-000-vacas-en-c0e5d0",
+   "volanta": ""
+  },
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": {
    "categoria": "nacionales",
    "descripcion": "La Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas. El sector ajusta fechas y…",
@@ -11221,17 +11259,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 228,
-   "segundos": 21577,
+   "restantes": 227,
+   "segundos": 20406,
    "tope": 250
   },
   "30d": {
-   "restantes": 2685,
-   "segundos": 1915795,
+   "restantes": 2684,
+   "segundos": 1914624,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T17:00:46.000Z",
+ "cuota_visto": "2026-10-19T17:20:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13273,7 +13311,7 @@
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "estado": "pendiente",
    "generado": "2026-10-19T13:12:41.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
@@ -13326,7 +13364,7 @@
    "creado": "2026-10-19T13:40:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "espera": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática",
    "estado": "pendiente",
    "generado": "2026-10-19T13:21:05.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
@@ -13373,14 +13411,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok": {
-   "actualizado": "2026-10-19T15:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T17:20:16.000Z",
+   "buffer_id": "6ad65150d1648e7b92bf3b9b",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
    "creado": "2026-10-19T15:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T17:23:33.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T15:21:07.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
    "intentos": 0,
@@ -14606,7 +14644,7 @@
    "creado": "2026-10-19T17:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-19T16:50:06.000Z",
    "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
@@ -15320,6 +15358,31 @@
    "vence": "2026-10-21T17:00:21.000Z",
    "video_bytes": 27445634,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00225.mp4"
+  },
+  "entrevistas:job00226|x": {
+   "actualizado": "2026-10-19T17:20:14.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00226|x",
+   "creado": "2026-10-19T17:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T17:20:14.000Z",
+   "id": "entrevistas:job00226",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Hugo Kübler: No se le perdonó la deuda a Bicontinentar\n\nEl director de Gobierno de Chivilcoy, Hugo Kübler, desmintió las acusaciones de La Libertad Avanza y aclaró que el Municipio inició acciones judiciales para cobrar la deuda de Bicontinentar.\n\nhttps://youtu.be/P5Flb06q8R4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Hugo Kübler: No se le perdonó la deuda a Bicontinentar",
+   "urgente": false,
+   "vence": "2026-10-21T17:20:14.000Z",
+   "video_bytes": 14732127,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00226.mp4"
   },
   "nacionales:02472f0cd4ba4800|tiktok": {
    "actualizado": "2026-10-19T02:40:14.000Z",
@@ -16609,14 +16672,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_dc18047933_karina-milei-encabezo-el-traslado-de-reclusos-de.mp4"
   },
   "nacionales:e2ff40109224ceb4|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T17:20:16.000Z",
    "buffer_id": "",
    "clave": "nacionales:e2ff40109224ceb4|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:05:56.000Z",
    "id": "nacionales:e2ff40109224ceb4",
    "intentos": 0,
@@ -23856,6 +23919,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:317c620f-6da5-4b5a-b6b9-577556143229|x": {
+   "actualizado": "2026-10-19T17:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:317c620f-6da5-4b5a-b6b9-577556143229|x",
+   "creado": "2026-10-19T17:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T17:03:24.907Z",
+   "id": "web:317c620f-6da5-4b5a-b6b9-577556143229",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/crecida-del-parana-preparan-la-evacuacion-de-15-000-vacas-en-c0e5d0",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas\n\nProductores ganaderos aceleran el retiro de hacienda bovina ante la crecida del río Paraná frente al departamento San Javier.\n\nhttps://www.diariolacampaña.com.ar/n/crecida-del-parana-preparan-la-evacuacion-de-15-000-vacas-en-c0e5d0",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas",
+   "urgente": false,
+   "vence": "2026-10-20T17:03:24.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:31a6f540-e9dd-415d-9833-6137456f0a06|x": {
    "actualizado": "2026-10-18T22:40:12.000Z",
    "buffer_id": "",
@@ -28587,14 +28675,14 @@
    "video_url": ""
   },
   "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x": {
-   "actualizado": "2026-10-18T17:20:13.000Z",
+   "actualizado": "2026-10-19T17:20:16.000Z",
    "buffer_id": "",
    "clave": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x",
    "creado": "2026-10-18T17:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T17:07:33.493Z",
    "id": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700",
    "intentos": 0,
@@ -30665,50 +30753,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x",
-   "cuando": "2026-10-16T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3|x",
-   "cuando": "2026-10-16T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x",
-   "cuando": "2026-10-16T21:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad295101694d771d508b639",
-   "clave": "entrevistas:job00217|x",
-   "cuando": "2026-10-16T21:20:17.000Z",
-   "dueAt": "2026-10-16T23:00:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad2951152adf2bfae61948d",
-   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
-   "cuando": "2026-10-16T21:20:17.000Z",
-   "dueAt": "2026-10-16T23:15:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x",
-   "cuando": "2026-10-16T21:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
    "cuando": "2026-10-16T21:40:13.000Z",
@@ -34926,6 +34970,46 @@
    "cuando": "2026-10-19T17:00:46.000Z",
    "dueAt": "2026-10-19T22:45:49.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00226",
+   "cuando": "2026-10-19T17:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "web:317c620f-6da5-4b5a-b6b9-577556143229|x",
+   "cuando": "2026-10-19T17:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00226|x",
+   "cuando": "2026-10-19T17:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "nacionales:e2ff40109224ceb4|tiktok",
+   "cuando": "2026-10-19T17:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x",
+   "cuando": "2026-10-19T17:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad65150d1648e7b92bf3b9b",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
+   "cuando": "2026-10-19T17:20:17.000Z",
+   "dueAt": "2026-10-19T17:23:33.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -35013,6 +35097,7 @@
   "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
+  "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
@@ -35227,6 +35312,7 @@
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": "2026-10-16T16:20:15.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe": "2026-10-19T10:20:14.000Z",
+  "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
