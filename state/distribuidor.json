@@ -1249,6 +1249,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9c24662b0b29779d.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WRdfo7Xdhyw"
   },
+  "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4": {
+   "descripcion": "El lunes 19 de octubre se llevó a cabo en la sede de la Defensoría del Pueblo de Chivilcoy la presentación del proyecto de Ley de Prevención y Control de las Apuestas en Línea, ante la presencia de vecinos y representantes de diversas instituciones.\n\nLa propuesta legislativa, que busca regular el juego digital en el territorio bonaerense y abordar la problemática de la ciberludopatía, fue explicada en sus puntos centrales por la diputada provincial Micaela Olivetto.\n\nEntre los ejes destacados se encuentra la asignación de fondos destinados a la salud mental, instituciones y deportistas de alto rendimiento, además de la implementación de controles biométricos para impedir el acceso de menores en el inicio de sesión, depósitos y retiros.\n\nPara los adultos, el proyecto contempla límites de tiempo y alertas de gastos en las plataformas, junto con la agilización del registro de autoexclusión y una herramienta judicial cautelar rápida para familiares o el Ministerio Público.",
+   "duracion_seg": 64.7,
+   "generado": "2026-10-19T23:33:44.000Z",
+   "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
+   "urgente": false,
+   "video_bytes": 7228730,
+   "video_mb": 6.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_660cd3e35984076f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/c0dS-b15aTc"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -4648,6 +4669,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
    "volanta": "Choque en Chacabuco",
    "youtube_url": ""
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un conductor de moto debió ser trasladado de urgencia al hospital local con dolencias en una pierna tras protagonizar un violento impacto contra un automóvil en la intersección de las calles Alberdi y Falucho.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-19T23:21:15.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un motociclista fue trasladado al hospital municipal con una lesión en la pierna tras protagonizar un fuerte choque contra un automóvil en la tarde de este lunes en la ciudad de Chacabuco.\n\nEl siniestro vial ocurrió en la esquina de las calles Alberdi y Falucho, según confirmaron testigos en el lugar.\n\nEl conductor del rodado menor, identificado como de apellido Schettino y señalado como docente de la Universidad Tecnológica Nacional, debió ser asistido por personal médico y evacuado en ambulancia.\n\nEn el hecho participaron una moto y un auto, y las actuaciones quedaron en curso para establecer la mecánica exacta de la colisión.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #AccidenteDeTransito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco",
+   "urgente": false,
+   "video_bytes": 154752,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_01_chacabuco_un-motociclista-termin-interna.mp4",
+   "volanta": "Choque en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/_xTOtXUBmYc"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": {
    "categoria": "otro_policial",
@@ -10000,6 +10047,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
    "volanta": "Chivilcoy · Solidaridad"
   },
+  "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": {
+   "categoria": "",
+   "descripcion": "Presentaron el proyecto de ley contra las apuestas en línea Con la presencia de vecinos y representantes de instituciones, este lunes se llevó a cabo en la sede de la Defensoría del Pueblo de Chivilcoy la presentación del proyecto de Ley de Prevención y Control de las Apuestas en Línea, iniciativa destinada a regular el juego digital en la provincia de Buenos Aires y hacer frente a la problemática de la ciberludopatía. Durante el encuentro, la diputada provincial Micaela Olivetto detalló los...",
+   "generado": "2026-10-19T23:33:03.043Z",
+   "id": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_08a95976701e4ea3830ec54866244a81~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410": {
    "categoria": "",
    "descripcion": "Juan Martín Bodda, en dupla con Ariel Zurraco, se consagraron campeones en Mar del Plata El chivilcoyano Juan Martín Bodda y Ariel Zurraco, oriundo de Saladillo, se consagraron campeones en la categoría mayores de 30 años del Torneo Nacional de Pádel disputado en Mar del Plata, certamen organizado por la Federación Argentina de Pádel (FAP). Tras superar la fase de grupos con dos encuentros disputados, la dupla avanzó a cuartos de final, donde venció a una pareja de Santa Fe. Luego, en...",
@@ -11665,17 +11731,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 85203,
+   "restantes": 246,
+   "segundos": 83997,
    "tope": 250
   },
   "30d": {
-   "restantes": 2557,
-   "segundos": 1893017,
+   "restantes": 2556,
+   "segundos": 1891812,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T23:20:24.000Z",
+ "cuota_visto": "2026-10-19T23:40:30.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14329,14 +14395,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4"
   },
   "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok": {
-   "actualizado": "2026-10-17T23:40:13.000Z",
+   "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
    "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
    "creado": "2026-10-17T23:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-17T23:31:28.000Z",
    "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
    "intentos": 0,
@@ -15181,6 +15247,60 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9c24662b0b29779d.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|tiktok": {
+   "actualizado": "2026-10-19T23:40:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|tiktok",
+   "creado": "2026-10-19T23:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T23:33:44.000Z",
+   "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Presentaron el proyecto de ley contra las apuestas en línea\n\nLa iniciativa para regular el juego digital en territorio bonaerense y abordar la ciberludopatía fue explicada por la diputada provincial Micaela Olivetto. La propuesta contempla controles biométricos para impedir el acceso de menores, límites de tiempo y alertas de gastos para adultos, además de fondos para salud mental y deportistas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
+   "urgente": false,
+   "vence": "2026-10-21T23:33:44.000Z",
+   "video_bytes": 7228730,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_660cd3e35984076f.mp4"
+  },
+  "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x": {
+   "actualizado": "2026-10-19T23:40:28.000Z",
+   "buffer_id": "6ad6aa6ecba41b014050c9c6",
+   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x",
+   "creado": "2026-10-19T23:40:17.000Z",
+   "dueAt": "2026-10-20T00:05:58.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-19T23:33:44.000Z",
+   "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "noticia": "nota:chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Presentaron el proyecto de ley contra las apuestas en línea\n\nLa iniciativa explicada por la diputada Micaela Olivetto busca regular el juego digital y abordar la ciberludopatía. Contempla controles biométricos para impedir el acceso de menores.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
+   "urgente": false,
+   "vence": "2026-10-20T01:33:44.000Z",
+   "video_bytes": 7228730,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_660cd3e35984076f.mp4",
+   "viral": false
+  },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd12237eb16fd28e94048f",
@@ -15984,14 +16104,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_02472f0cd4_el-doble-saludo-del-chato-prada-a-lourdes-sanchez.mp4"
   },
   "nacionales:07376db2590e79bf|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
+   "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
    "clave": "nacionales:07376db2590e79bf|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T05:22:09.000Z",
    "id": "nacionales:07376db2590e79bf",
    "intentos": 0,
@@ -17453,14 +17573,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eb29261c90_cindy-crawford-y-kaia-gerber-despidieron-con.mp4"
   },
   "nacionales:eba0c0c1b9408496|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
+   "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
    "clave": "nacionales:eba0c0c1b9408496|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T05:36:19.000Z",
    "id": "nacionales:eba0c0c1b9408496",
    "intentos": 0,
@@ -20370,6 +20490,60 @@
    "vence": "2026-10-17T12:41:22.000Z",
    "video_bytes": 105348,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-19T23:40:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
+   "creado": "2026-10-19T23:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T23:21:15.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco\n\nUn conductor de moto debió ser trasladado de urgencia al hospital local con dolencias en una pierna tras protagonizar un violento impacto contra un automóvil en la intersección de las calles Alberdi y Falucho.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-20T17:21:15.000Z",
+   "video_bytes": 154752,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_01_chacabuco_un-motociclista-termin-interna.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x": {
+   "actualizado": "2026-10-19T23:40:28.000Z",
+   "buffer_id": "6ad6aa6db81183413da31aec",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x",
+   "creado": "2026-10-19T23:40:17.000Z",
+   "dueAt": "2026-10-19T23:51:53.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-19T23:21:15.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
+   "noticia": "nota:chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco",
+   "urgente": false,
+   "vence": "2026-10-20T01:21:15.000Z",
+   "video_bytes": 154752,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_01_chacabuco_un-motociclista-termin-interna.mp4",
+   "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-12T09:00:23.000Z",
@@ -29164,14 +29338,14 @@
    "video_url": ""
   },
   "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x": {
-   "actualizado": "2026-10-18T23:40:13.000Z",
+   "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
    "clave": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x",
    "creado": "2026-10-18T23:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T23:35:12.217Z",
    "id": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41",
    "intentos": 0,
@@ -29316,6 +29490,31 @@
    "vence": "2026-10-16T00:24:55.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x": {
+   "actualizado": "2026-10-19T23:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x",
+   "creado": "2026-10-19T23:40:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-19T23:33:03.043Z",
+   "id": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "noticia": "nota:chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
+   "urgente": false,
+   "vence": "2026-10-20T03:33:03.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410|x": {
    "actualizado": "2026-10-15T19:20:16.000Z",
@@ -31761,76 +31960,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:c546061b-2a6f-44e9-b39f-577c4f187d8e|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111400729093034087"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x",
-   "cuando": "2026-10-17T10:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111397199347126749"
-  },
-  {
-   "buffer_id": "6ad34bdf0b0d72757ad0b285",
-   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
-   "cuando": "2026-10-17T10:20:16.000Z",
-   "dueAt": "2026-10-17T13:30:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad34be0dd83363c4dc8ea61",
-   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
-   "cuando": "2026-10-17T10:20:16.000Z",
-   "dueAt": "2026-10-17T13:45:09.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3508f0b0d72757ad1ad05",
-   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
-   "cuando": "2026-10-17T10:40:15.000Z",
-   "dueAt": "2026-10-17T14:00:47.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad35541769b45793473307f",
-   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
-   "cuando": "2026-10-17T11:00:17.000Z",
-   "dueAt": "2026-10-17T14:15:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
-   "cuando": "2026-10-17T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111415835424112786"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
-   "cuando": "2026-10-17T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111408332309197130"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
    "cuando": "2026-10-17T11:20:16.000Z",
@@ -35994,6 +36123,84 @@
    "cuando": "2026-10-19T23:20:24.000Z",
    "dueAt": "2026-10-19T23:23:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x",
+   "cuando": "2026-10-19T23:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|tiktok",
+   "cuando": "2026-10-19T23:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "nacionales:07376db2590e79bf|tiktok",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "nacionales:eba0c0c1b9408496|tiktok",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x",
+   "cuando": "2026-10-19T23:40:28.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad6aa6db81183413da31aec",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x",
+   "cuando": "2026-10-19T23:40:30.000Z",
+   "dueAt": "2026-10-19T23:51:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad6aa6ecba41b014050c9c6",
+   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x",
+   "cuando": "2026-10-19T23:40:30.000Z",
+   "dueAt": "2026-10-20T00:05:58.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -36063,6 +36270,7 @@
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4": "2026-10-19T17:00:21.000Z",
   "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4": "2026-10-19T21:00:21.000Z",
   "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4": "2026-10-19T23:20:14.000Z",
+  "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4": "2026-10-19T23:40:17.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -36204,6 +36412,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": "2026-10-16T19:00:17.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": "2026-10-19T23:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
@@ -36485,6 +36694,7 @@
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f": "2026-10-19T10:20:14.000Z",
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
+  "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": "2026-10-19T23:40:17.000Z",
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410": "2026-10-15T10:20:13.000Z",
   "web:ba878935-3e6f-4357-a078-3447ed612c35": "2026-10-13T21:20:15.000Z",
   "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": "2026-10-15T00:00:18.000Z",

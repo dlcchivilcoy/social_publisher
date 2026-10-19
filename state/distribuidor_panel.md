@@ -1,17 +1,17 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 1 | 4 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 3 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 2 | 1 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 12 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 46 | 0 | 0 | 1 |
+| Reels del bot | X | 10 | 6 | 4 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 3 | 1 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 1 | 0 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 46 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 3 | 0 | 22 | 0 | 5 | 0 |
+| Nacionales y categorías | TikTok | 4 | 3 | 0 | 20 | 0 | 7 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 22 enviadas + 6 programadas de 100 por día
@@ -27,9 +27,10 @@ Actualizado: 19/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2557 de 3000 (visto 2026-10-19T23:20:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2556 de 3000 (visto 2026-10-19T23:40:30.000Z)
 
-## Cola propia (88 esperando)
+## Cola propia (86 esperando)
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Sube el seguro de desempleo: quiénes cobran y de cuánto es el haber promedio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,6 +41,7 @@ Actualizado: 19/10/2026 20:20 (hora AR) · ACTIVO
 - X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — cupo diario de Notas web en X completo (15)
 - X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — cupo diario de Notas web en X completo (15)
 - X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — cupo diario de Notas web en X completo (15)
+- TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Balea con proyectil de goma a un joven que eludió un control en moto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Desacuerdo entre Milei y Trump por el Comité de Descolonización de la ONU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -58,8 +60,6 @@ Actualizado: 19/10/2026 20:20 (hora AR) · ACTIVO
 - X · Notas web · Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con  — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Se agita la interna del peronismo: cumbre de Cristina y Massa, y tensiones con K — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministr — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Francia: el gobierno decretó toques de queda y prohibió protestas tras los saque — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · Tini Stoessel apuntó contra los organizadores tras suspender su concierto en Mia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -71,17 +71,6 @@ Actualizado: 19/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T22:20 vencido web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T22:20 vencido web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T22:40 vencido nacionales:25f7704c0cf2a754|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-19T22:40 vencido web:31a6f540-e9dd-415d-9833-6137456f0a06|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T23:00 recibido policiales:https://infociudad.com.ar/actualidad/san-antonio- 
-- 2026-10-19T23:00 recibido policiales:https://infociudad.com.ar/actualidad/san-antonio- 
-- 2026-10-19T23:00 recibido web:660ce08b-5eea-4d96-ac71-12f7add445dd|x 
-- 2026-10-19T23:00 vencido nacionales:b18ec1977365d369|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-19T23:00 vencido web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T23:00 vencido web:be16b20b-29a0-45de-ae35-dec56c678655|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T23:00 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x 
 - 2026-10-19T23:00 programado policiales:https://infociudad.com.ar/actualidad/san-antonio- 
 - 2026-10-19T23:20 recibido bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x 
 - 2026-10-19T23:20 recibido bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok 
@@ -96,3 +85,14 @@ Actualizado: 19/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-19T23:20 vencido web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T23:20 vencido web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T23:20 programado bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x 
+- 2026-10-19T23:40 recibido bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x 
+- 2026-10-19T23:40 recibido bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|tiktok 
+- 2026-10-19T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
+- 2026-10-19T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
+- 2026-10-19T23:40 recibido web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-19T23:40 vencido bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T23:40 vencido nacionales:07376db2590e79bf|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T23:40 vencido nacionales:eba0c0c1b9408496|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T23:40 vencido web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T23:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
+- 2026-10-19T23:40 programado bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x 
