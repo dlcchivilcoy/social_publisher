@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 3 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 5 | 31 | 0 | 0 | 0 |
+| Notas web | X | 15 | 4 | 6 | 32 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 2 | 1 | 7 | 0 | 0 | 0 |
 
 ## Canales
@@ -26,16 +26,14 @@ Actualizado: 19/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2693 de 3000 (visto 2026-10-19T14:00:37.000Z)
+15m: quedan 99 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2692 de 3000 (visto 2026-10-19T14:20:30.000Z)
 
 ## Cola propia (102 esperando)
-- X · Reels del bot · La delegación de Chivilcoy arribó para los Juegos Bonaerenses — Buffer lleno (10 programadas por canal en el plan Free)
 - TikTok · Reels del bot · La delegación de Chivilcoy arribó para los Juegos Bonaerenses — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron un auto con pedido de secuestro por robo en CABA — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Recuperaron dos de las tres motos robadas a Sebastián Porto — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Recuperaron un auto con pedido de secuestro por robo en CABA — en turno
 - X · Notas web · Recuperaron dos de las tres motos robadas a Sebastián Porto — en turno
-- X · Notas web · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — en turno
+- X · Notas web · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTec — en turno
 - X · Notas web · El Museo ‘Pompeo Boggio’ fue escenario del 35º Aniversario de la Feria Artesanal — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — en turno
@@ -49,6 +47,8 @@ Actualizado: 19/10/2026 11:00 (hora AR) · ACTIVO
 - X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — en turno
 - X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — en turno
 - X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — en turno
+- X · Notas web · Un perro de 15 años volvió a caminar gracias al Pilates y se viralizó en las red — en turno
+- X · Notas web · Escándalo en Racing: Luis Alfonso Espino se cruzó con los hinchas tras el clásic — en turno
 - X · Notas web · Interna peronista: los secretos de la reunión entre Cristina Kirchner y Sergio M — en turno
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Francia: Emmanuel Macron admitió fallas de inteligencia tras las violentas prote — en turno
@@ -69,10 +69,6 @@ Actualizado: 19/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T13:00 recibido web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x 
-- 2026-10-19T13:00 enviado bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok 
-- 2026-10-19T13:00 enviado nacionales:a28aa737cf87213c|tiktok 
-- 2026-10-19T13:20 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x 
 - 2026-10-19T13:20 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tikto 
 - 2026-10-19T13:20 recibido web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x 
 - 2026-10-19T13:20 recibido web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x 
@@ -94,3 +90,7 @@ Actualizado: 19/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-19T14:00 enviado web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a|x 
 - 2026-10-19T14:00 enviado web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x 
 - 2026-10-19T14:00 programado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x 
+- 2026-10-19T14:20 recibido web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x 
+- 2026-10-19T14:20 recibido web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x 
+- 2026-10-19T14:20 programado bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x 
+- 2026-10-19T14:20 programado web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x 
