@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,11 +10,11 @@ Actualizado: 19/10/2026 08:20 (hora AR) · ACTIVO
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 1 | 8 | 22 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 0 | 3 | 7 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 1 | 2 | 7 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 2 enviadas + 6 programadas de 50 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 2 enviadas + 8 programadas de 50 por día
+- TikTok: conectado · Buffer: 1 enviadas + 5 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -26,7 +26,7 @@ Actualizado: 19/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2699 de 3000 (visto 2026-10-19T11:20:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2698 de 3000 (visto 2026-10-19T11:40:19.000Z)
 
 ## Cola propia (94 esperando)
 - X · Reels del bot · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — Buffer lleno (10 programadas por canal en el plan Free)
@@ -69,7 +69,6 @@ Actualizado: 19/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T10:20 recibido web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x 
 - 2026-10-19T10:20 recibido web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 
 - 2026-10-19T10:20 recibido web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x 
 - 2026-10-19T10:21 recibido web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
@@ -94,3 +93,4 @@ Actualizado: 19/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-19T11:20 programado bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok 
 - 2026-10-19T11:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
 - 2026-10-19T11:20 programado nacionales:f8cbb878e65900d1|tiktok 
+- 2026-10-19T11:40 enviado nacionales:509780bc5420f2f5|tiktok 

@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 5,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-19T10:21:31.000Z"
+   "visto": "2026-10-19T11:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 50,
-    "scheduled": 6,
+    "scheduled": 8,
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-19T10:21:31.000Z"
+   "visto": "2026-10-19T11:40:19.000Z"
   }
  },
  "contenidos": {
@@ -10308,17 +10308,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 42005,
+   "restantes": 241,
+   "segundos": 40803,
    "tope": 250
   },
   "30d": {
-   "restantes": 2699,
-   "segundos": 1936223,
+   "restantes": 2698,
+   "segundos": 1935021,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T11:20:21.000Z",
+ "cuota_visto": "2026-10-19T11:40:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14352,18 +14352,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_502713ec1f_docentes-bonaerenses-aceptaron-un-aumento.mp4"
   },
   "nacionales:509780bc5420f2f5|tiktok": {
-   "actualizado": "2026-10-19T11:20:16.000Z",
+   "actualizado": "2026-10-19T11:40:19.000Z",
    "buffer_id": "6ad5fcf238bcdab6ee5127ee",
    "clave": "nacionales:509780bc5420f2f5|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "2026-10-19T11:23:30.000Z",
+   "enviado": "2026-10-19T11:25:13.226Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T00:21:01.000Z",
    "id": "nacionales:509780bc5420f2f5",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853",
    "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -28469,14 +28470,6 @@
  },
  "registro": [
   {
-   "clave": "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x",
    "cuando": "2026-10-16T15:40:15.000Z",
    "estado": "pendiente",
@@ -32709,10 +32702,16 @@
    "cuando": "2026-10-19T11:20:21.000Z",
    "dueAt": "2026-10-19T14:43:54.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:509780bc5420f2f5|tiktok",
+   "cuando": "2026-10-19T11:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T10:21:31.000Z",
+ "ultima_sync": "2026-10-19T11:40:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
