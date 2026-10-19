@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 16:40 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 17:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 10 | 0 | 4 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 4 | 2 | 0 | 1 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 0 | 1 | 0 | 0 |
 | Reels policiales | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 5 | 39 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 39 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 3 | 0 | 22 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 6 programadas de 100 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 24 enviadas + 2 programadas de 100 por día
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -26,16 +26,15 @@ Actualizado: 19/10/2026 16:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 177 de 250 · 30d: quedan 2634 de 3000 (visto 2026-10-19T19:40:16.000Z)
+15m: quedan 98 de 100 · 24h: quedan 175 de 250 · 30d: quedan 2632 de 3000 (visto 2026-10-19T20:00:24.000Z)
 
-## Cola propia (94 esperando)
-- X · Recortes de entrevistas · Gustavo Caggiano: colecciones ocultas en Chivilcoy — Buffer lleno (10 programadas por canal en el plan Free)
-- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — en turno
+## Cola propia (92 esperando)
+- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Desacuerdo entre Milei y Trump por el Comité de Descolonización de la ONU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — en turno
+- X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Mirtha Legrand reapareció en familia tras 18 días internada y habló Rottemberg — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — en turno
+- X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Perro de 15 años volvió a caminar gracias al Pilates y es furor en Instagram — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Jugador de Racing reaccionó con insultos y gestos hacia los hinchas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — cupo diario de Notas web en X completo (15)
@@ -59,6 +58,7 @@ Actualizado: 19/10/2026 16:40 (hora AR) · ACTIVO
 - X · Notas web · El Círculo Criollo El Bozal celebra sus 50 años con múltiples actividades — cupo diario de Notas web en X completo (15)
 - X · Notas web · El diputado Eduardo Falcone exige incluir reclamos clave sobre discapacidad, edu — cupo diario de Notas web en X completo (15)
 - X · Notas web · “No se entiende por qué hay 50 millones de dólares para hacer la travesía de Mer — cupo diario de Notas web en X completo (15)
+- X · Notas web · Entre la actuación policial y la movilización de los vecinos para recuperar las  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -70,14 +70,6 @@ Actualizado: 19/10/2026 16:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T17:40 programado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tikto 
-- 2026-10-19T17:40 programado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok 
-- 2026-10-19T18:00 vencido nacionales:ef9d9f6be8029c31|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T18:00 vencido web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T18:20 entrevista_aprobada entrevistas:job00229 
-- 2026-10-19T18:20 recibido entrevistas:job00229|x 
-- 2026-10-19T18:20 vencido nacionales:897bae57805e193b|tiktok tope de 12 publicaciones en 24 h de TikTok
-- 2026-10-19T18:20 vencido web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T18:40 vencido web:c6663899-669a-41de-b04f-299805304e87|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T19:00 vencido nacionales:e50827dd69db5a5d|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T19:00 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tikto 
@@ -95,3 +87,11 @@ Actualizado: 19/10/2026 16:40 (hora AR) · ACTIVO
 - 2026-10-19T19:40 vencido nacionales:2f1a6dccc7eef682|tiktok tope de 12 publicaciones en 24 h de TikTok
 - 2026-10-19T19:40 vencido web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x cupo diario de Notas web en X completo (15)
 - 2026-10-19T19:40 programado entrevistas:job00226|x 
+- 2026-10-19T20:00 vencido nacionales:97bd2fed895cbca6|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-19T20:00 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tikto 
+- 2026-10-19T20:00 enviado bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok 
+- 2026-10-19T20:00 enviado web:3620c5d5-68d9-4902-898d-2347615ba891|x 
+- 2026-10-19T20:00 enviado web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x 
+- 2026-10-19T20:00 enviado web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x 
+- 2026-10-19T20:00 enviado web:a1643449-bbde-4592-a6b3-8e7158b579e6|x 
+- 2026-10-19T20:00 programado entrevistas:job00225|x 

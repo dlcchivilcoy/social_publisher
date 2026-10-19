@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 8
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-19T19:00:19.000Z"
+   "visto": "2026-10-19T20:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 6,
-    "sent": 20
+    "scheduled": 2,
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-19T19:00:19.000Z"
+   "visto": "2026-10-19T20:00:22.000Z"
   }
  },
  "contenidos": {
@@ -11312,22 +11312,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 177,
-   "segundos": 12007,
+   "restantes": 175,
+   "segundos": 10799,
    "tope": 250
   },
   "30d": {
-   "restantes": 2634,
-   "segundos": 1906225,
+   "restantes": 2632,
+   "segundos": 1905018,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T19:40:16.000Z",
+ "cuota_visto": "2026-10-19T20:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13363,18 +13363,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok": {
-   "actualizado": "2026-10-19T19:00:20.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad668c6a443b466be722424",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "2026-10-19T19:03:45.000Z",
+   "enviado": "2026-10-19T19:04:27.370Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:12:41.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698456660397821202",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14619,18 +14620,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
   },
   "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T19:00:20.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad668c7a443b466be72255d",
    "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
    "creado": "2026-10-19T14:00:19.000Z",
    "dueAt": "2026-10-19T19:43:31.000Z",
+   "enviado": "2026-10-19T19:45:28.482Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:45:38.000Z",
    "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698466997759167752",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15396,14 +15398,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00224.mp4"
   },
   "entrevistas:job00225|x": {
-   "actualizado": "2026-10-19T17:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T20:00:22.000Z",
+   "buffer_id": "6ad676d7cb7e7ed0ae61ee1c",
    "clave": "entrevistas:job00225|x",
    "creado": "2026-10-19T17:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T00:00:08.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T17:00:21.000Z",
    "id": "entrevistas:job00225",
    "intentos": 0,
@@ -16240,14 +16242,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_8f3dac102e_mirtha-legrand-reaparecio-en-familia-tras-18-dias.mp4"
   },
   "nacionales:97bd2fed895cbca6|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "",
    "clave": "nacionales:97bd2fed895cbca6|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T01:50:57.000Z",
    "id": "nacionales:97bd2fed895cbca6",
    "intentos": 0,
@@ -24041,6 +24043,7 @@
    "creado": "2026-10-19T17:20:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T17:03:24.907Z",
    "id": "web:317c620f-6da5-4b5a-b6b9-577556143229",
@@ -24199,18 +24202,19 @@
    "video_url": ""
   },
   "web:3620c5d5-68d9-4902-898d-2347615ba891|x": {
-   "actualizado": "2026-10-19T15:00:48.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad630a0e811392c99f9b935",
    "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "2026-10-19T19:15:41.000Z",
+   "enviado": "2026-10-19T19:15:46.555Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:09:09.120Z",
    "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112261441436664186",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "origen": "web",
    "plataforma": "x",
@@ -24750,6 +24754,7 @@
    "creado": "2026-10-19T17:00:21.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T16:48:12.833Z",
    "id": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92",
@@ -24829,18 +24834,19 @@
    "video_url": ""
   },
   "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x": {
-   "actualizado": "2026-10-19T15:20:50.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad6355399bd92f0dcee15cb",
    "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
    "creado": "2026-10-19T11:20:14.000Z",
    "dueAt": "2026-10-19T19:30:46.000Z",
+   "enviado": "2026-10-19T19:31:01.904Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T11:02:32.156Z",
    "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112265280755798326",
    "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
    "origen": "web",
    "plataforma": "x",
@@ -26885,18 +26891,19 @@
    "video_url": ""
   },
   "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x": {
-   "actualizado": "2026-10-19T15:00:48.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad630a027c86cdd6c2acd6f",
    "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
    "creado": "2026-10-19T11:20:14.000Z",
    "dueAt": "2026-10-19T19:00:25.000Z",
+   "enviado": "2026-10-19T19:02:52.192Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T11:16:12.587Z",
    "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112258193506042072",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "origen": "web",
    "plataforma": "x",
@@ -27784,18 +27791,19 @@
    "video_url": ""
   },
   "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x": {
-   "actualizado": "2026-10-19T15:20:50.000Z",
+   "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad6355399bd92f0dcee15f4",
    "clave": "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x",
    "creado": "2026-10-19T15:20:16.000Z",
    "dueAt": "2026-10-19T19:45:51.000Z",
+   "enviado": "2026-10-19T19:46:02.160Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T15:19:06.367Z",
    "id": "web:a1643449-bbde-4592-a6b3-8e7158b579e6",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112269056359244054",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
    "origen": "web",
    "plataforma": "x",
@@ -28746,6 +28754,7 @@
    "creado": "2026-10-19T19:20:15.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T19:02:42.465Z",
    "id": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512",
@@ -30894,56 +30903,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697420795781369108"
-  },
-  {
-   "clave": "entrevistas:job00217|x",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111231254905409632"
-  },
-  {
-   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111246229849964690"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111234620616224898"
-  },
-  {
-   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|x",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111238525790101908"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111249849249149148"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|x",
-   "cuando": "2026-10-17T00:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111242298365219281"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|x",
-   "cuando": "2026-10-17T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|tiktok",
    "cuando": "2026-10-17T01:20:16.000Z",
@@ -35135,13 +35094,62 @@
    "cuando": "2026-10-19T19:40:16.000Z",
    "dueAt": "2026-10-19T23:45:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:97bd2fed895cbca6|tiktok",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698456660397821202"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698466997759167752"
+  },
+  {
+   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112261441436664186"
+  },
+  {
+   "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112265280755798326"
+  },
+  {
+   "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112258193506042072"
+  },
+  {
+   "clave": "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x",
+   "cuando": "2026-10-19T20:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112269056359244054"
+  },
+  {
+   "buffer_id": "6ad676d7cb7e7ed0ae61ee1c",
+   "clave": "entrevistas:job00225|x",
+   "cuando": "2026-10-19T20:00:24.000Z",
+   "dueAt": "2026-10-20T00:00:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": []
  },
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T19:00:19.000Z",
+ "ultima_sync": "2026-10-19T20:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
