@@ -1296,6 +1296,12 @@ def _franklin(size: int, peso: int = 400) -> ImageFont.FreeTypeFont:
     return _vfont("LibreFranklin-Variable.ttf", size, peso)
 
 
+def _sans(size: int, peso: int = 400) -> ImageFont.FreeTypeFont:
+    """Google Sans, la letra de los REELS. Desde el 19/10/2026 también la de los carruseles (pedido del
+    editor: «usá la misma tipografía que los reels, porque aparece todo el titular en mayúsculas»)."""
+    return _vfont("GoogleSans-Variable.ttf", size, peso)
+
+
 def _abrir_foto(photo_path) -> "Image.Image":
     """La foto derecha (respeta la rotación EXIF de los celulares)."""
     return ImageOps.exif_transpose(Image.open(photo_path)).convert("RGB")
@@ -1502,12 +1508,12 @@ def _pie_carrusel(canvas, draw, tema: dict, x0: int, x1: int, y_centro: int, idx
         canvas.paste(fl, (derecha - lado, y_centro - lado // 2), fl)
         derecha -= lado + 14
     if idx:
-        fn = _angosta(50)
+        fn = _sans(48, 700)
         num = f"{idx:02d}"
         draw.text((derecha, y_centro), num, font=fn, fill=tema["acento"], anchor="rm")
         derecha -= round(draw.textlength(num, font=fn)) + 28
     if site_url:
-        fs = _franklin(26, 600)
+        fs = _sans(26, 600)
         texto = f"Seguí leyendo en {site_url}"
         if draw.textlength(texto, font=fs) > derecha - x0:
             texto = site_url
@@ -1552,7 +1558,9 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     ancho = SLIDE_W - 2 * m
     draw = ImageDraw.Draw(canvas)
     lead, resto = _partes_titular(volanta, titular)
-    mayus = [(w, t["acento"]) for w in lead.upper().split()] + [(w, t["texto"]) for w in resto.upper().split()]
+    # Como en los reels: Google Sans y el titular tal como se escribe (antes, todo en mayúsculas).
+    mayus = [(w, t["acento"]) for w in lead.split()] + [(w, t["texto"]) for w in resto.split()]
+    _titulo = lambda s_: _sans(s_, 700)                                                  # noqa: E731
 
     if estilo in ("A", "B"):
         if estilo == "A":
@@ -1569,7 +1577,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
         if estilo == "A":
             draw.rectangle((0, foto_h, SLIDE_W, foto_h + 10), fill=t["acento"])
             y0 = foto_h + 10 + 52
-            f, lineas, lh = _medir_texto(draw, mayus, ancho, pie_y - 60 - y0, _angosta,
+            f, lineas, lh = _medir_texto(draw, mayus, ancho, pie_y - 60 - y0, _titulo,
                                          max_size=92, min_size=50, salto=1.06)
             _dibujar_renglones(draw, m, y0, lineas, f, lh)
         else:
@@ -1577,14 +1585,14 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
             y = foto_h + 50
             vol = (volanta or "").strip().upper()
             if vol:
-                fv = _franklin(30, 700)
+                fv = _sans(30, 700)
                 draw.text((m, y), vol, font=fv, fill=t["acento"], anchor="lt")
                 y += 30 + 26
             alto_libre = pie_y - 56 - y
             baj = (bajada or "").strip()
             alto_tit = round(alto_libre * 0.55) if baj else alto_libre
             ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in (titular or "").split()], ancho,
-                                       alto_tit, lambda s: _franklin(s, 800), max_size=72 if baj else 100,
+                                       alto_tit, lambda s: _sans(s, 700), max_size=72 if baj else 100,
                                        min_size=42, salto=1.14, max_lineas=5)
             base = _dibujar_renglones(draw, m, y, lt, ft, lht)
             if baj:
@@ -1592,7 +1600,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
                 fb_alto = pie_y - 56 - y_baj
                 if fb_alto >= 40:
                     fb, lb, lhb = _medir_texto(draw, [(w, t["texto"]) for w in baj.split()], ancho, fb_alto,
-                                               lambda s: _franklin(s, 400), max_size=40, min_size=34,
+                                               lambda s: _sans(s, 400), max_size=40, min_size=34,
                                                salto=1.35)
                     _dibujar_renglones(draw, m, y_baj, lb, fb, lhb)
         _pie_carrusel(canvas, draw, t, m, SLIDE_W - m, pie_y, idx, total, site_url)
@@ -1612,7 +1620,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     eleccion = None
     cuerpos = list(range(84, 45, -4))
     for size in cuerpos:
-        f, lineas, lh = _medir_texto(draw, mayus, bx1 - bx0 - 2 * pad, 6 * round(size * 1.06), _angosta,
+        f, lineas, lh = _medir_texto(draw, mayus, bx1 - bx0 - 2 * pad, 6 * round(size * 1.06), _titulo,
                                      max_size=size, min_size=size, salto=1.06, max_lineas=6)
         if lineas and lineas[-1][-1][0].endswith("…") and size != cuerpos[-1]:
             continue                                  # no entra en 6 renglones: más chico
@@ -1669,20 +1677,20 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
         y = 130
     vol = (volanta or "").strip().upper()
     if vol:
-        fv = _franklin(30, 700)
+        fv = _sans(30, 700)
         draw.text((m, y), vol, font=fv, fill=t["acento"], anchor="lt")
         y += 30 + 30
     pie_y = SLIDE_H - 66
     titulo = (titulo or "").strip()
     if titulo:
         ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 230,
-                                   lambda s_: _franklin(s_, 800), max_size=64, min_size=44, salto=1.14,
+                                   lambda s_: _sans(s_, 700), max_size=64, min_size=44, salto=1.14,
                                    max_lineas=3)
         y = _dibujar_renglones(draw, m, y, lt, ft, lht) + round(lht * 0.25) + 34
     alto = pie_y - 60 - y
     if alto >= 40 and (texto or "").strip():
         fx, lx, lhx = _medir_texto(draw, [(w, t["suave"]) for w in texto.split()], ancho, alto,
-                                   lambda s_: _franklin(s_, 400), max_size=52, min_size=34, salto=1.38)
+                                   lambda s_: _sans(s_, 400), max_size=52, min_size=34, salto=1.38)
         _dibujar_renglones(draw, m, y, lx, fx, lhx)
     _pie_carrusel(canvas, draw, t, m, SLIDE_W - m, pie_y, idx, total, site_url)
     return _save(canvas, f"lamina_{_safe_stem(titulo or volanta, 'nota')}_{idx or 0:02d}")
@@ -1703,12 +1711,12 @@ def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx
     canvas = Image.new("RGB", (W, H), t["fondo"])
     draw = ImageDraw.Draw(canvas)
     if idx:
-        draw.text((W - 40, H - 150), f"{idx:02d}", font=_franklin(520, 800), fill=tenue, anchor="rs")
+        draw.text((W - 40, H - 150), f"{idx:02d}", font=_sans(520, 800), fill=tenue, anchor="rs")
     # Cabecera: isotipo + DIARIO LA CAMPAÑA a la izquierda, «02 / 06» a la derecha.
     x = _paste_iso(canvas, m, 70, 50, orange=True) + 16
-    draw.text((x, 95), "DIARIO LA CAMPAÑA", font=_franklin(24, 700), fill=t["texto"], anchor="lm")
+    draw.text((x, 95), "DIARIO LA CAMPAÑA", font=_sans(24, 700), fill=t["texto"], anchor="lm")
     if idx and total:
-        draw.text((W - m, 95), f"{idx:02d} / {total:02d}", font=_franklin(32, 700), fill=t["acento"],
+        draw.text((W - m, 95), f"{idx:02d} / {total:02d}", font=_sans(32, 700), fill=t["acento"],
                   anchor="rm")
     draw.line((m, 160, W - m, 160), fill=linea, width=2)
     # El bloque, medido antes de dibujar para centrarlo entre el filete y el pie.
@@ -1717,16 +1725,16 @@ def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx
     alto_vol = 30 + 24 + 8 + 40 if vol else 0
     titulo = (titulo or "").strip()
     ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 330,
-                               lambda s_: _franklin(s_, 800), max_size=76, min_size=48, salto=1.12,
+                               lambda s_: _sans(s_, 700), max_size=76, min_size=48, salto=1.12,
                                max_lineas=4) if titulo else (None, [], 0)
     resto = abajo - arriba - alto_vol - len(lt) * lht - 44
     fx, lx, lhx = _medir_texto(draw, [(w, t["suave"]) for w in (texto or "").split()], ancho, max(resto, 120),
-                               lambda s_: _franklin(s_, 400), max_size=50, min_size=34,
+                               lambda s_: _sans(s_, 400), max_size=50, min_size=34,
                                salto=1.38) if (texto or "").strip() else (None, [], 0)
     alto = alto_vol + len(lt) * lht + (44 if lt and lx else 0) + len(lx) * lhx
     y = arriba + max(0, (abajo - arriba - alto) // 2)
     if vol:
-        draw.text((m, y), vol, font=_franklin(30, 700), fill=t["acento"], anchor="lt")
+        draw.text((m, y), vol, font=_sans(30, 700), fill=t["acento"], anchor="lt")
         y += 30 + 24
         draw.rectangle((m, y, m + 96, y + 8), fill=t["acento"])
         y += 8 + 40

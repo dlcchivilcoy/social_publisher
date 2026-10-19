@@ -387,11 +387,34 @@ def _individual_activo() -> bool:
 
 
 def _intervalo_seg() -> int:
-    """Minutos entre una nota y la siguiente en Instagram (CARRUSEL_INTERVALO_MIN, 5 por defecto)."""
+    """Minutos entre una nota y la siguiente en Instagram (CARRUSEL_INTERVALO_MIN). 15 desde el 19/10/2026
+    (pedido del editor: «que arranque a las 7am y se posteen cada 15 minutos»); antes, 5."""
     try:
-        return max(0, int(float(get("CARRUSEL_INTERVALO_MIN") or 5) * 60))
+        return max(0, int(float(get("CARRUSEL_INTERVALO_MIN") or 15) * 60))
     except ValueError:
-        return 300
+        return 900
+
+
+# Colores intercalados (19/10/2026): cada nota del diario sale con el tema que sigue, blanco o grafito.
+TEMAS_INTERCALADOS = ("claro", "grafito")
+
+
+def _tema_de(i: int) -> str:
+    return TEMAS_INTERCALADOS[i % len(TEMAS_INTERCALADOS)]
+
+
+def _web_todavia_no(ahora=None) -> bool:
+    """Desde el 19/10/2026 esta corrida arranca a las 7:00, a la par de la carga a la web (--notes-web).
+    Hasta CARRUSEL_WEB_DESDE (08:30) no sube notas a Wix por su cuenta: las sube la de las 7 y, si
+    corrieran las dos a la vez, una nota podría quedar duplicada en la web."""
+    from datetime import datetime
+    desde = (get("CARRUSEL_WEB_DESDE") or "08:30").strip()
+    try:
+        hh, mm = (int(x) for x in desde.split(":"))
+    except ValueError:
+        hh, mm = 8, 30
+    ahora = ahora or datetime.now()
+    return (ahora.hour, ahora.minute) < (hh, mm)
 
 
 def _laminas_de_parrafos(cuerpo: list) -> list:
@@ -408,7 +431,7 @@ def _laminas_de_parrafos(cuerpo: list) -> list:
 
 
 def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
-                          site: str, escribir=None) -> list:
+                          site: str, escribir=None, tema: str = "claro") -> list:
     """Las placas del carrusel de UNA nota: la portada CON LA FOTO de la nota (la misma placa del carrusel
     de siempre) y las láminas que la explican, SOLO TEXTO (pedido del 18/10/2026: «la primera con imagen y
     las siguientes solo texto bien diseñado; no quiero carruseles sin fotos»). Sin foto de la nota no hay
@@ -422,10 +445,10 @@ def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, 
     laminas = escribir(volanta, titular, "\n\n".join(cuerpo)) or _laminas_de_parrafos(cuerpo)
     total = 1 + len(laminas)
     placas = [compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=1, total=total,
-                                     tema="claro")]
+                                     tema=tema)]
     for i, l in enumerate(laminas, 2):
         placas.append(compose_lamina_carrusel(None, volanta, l["titulo"], l["texto"], site,
-                                              idx=i, total=total))
+                                              idx=i, total=total, tema=tema))
     # El compositor nombra el archivo por el texto: dos notas con láminas parecidas (o la placa del
     # carrusel de Facebook) se pisarían. Cada nota guarda las suyas en su propia carpeta.
     import hashlib
@@ -458,9 +481,9 @@ def _instagram_individual(posts_folder: Path, notas: list, ledger: set, hoy: dat
     `notas`: [(note, volanta, titular, cuerpo, primer)] en orden. Anota cada nota en el ledger apenas
     sale (una corrida cortada no repite las que ya salieron). Devuelve cuántas salieron."""
     armadas = []
-    for note, volanta, titular, cuerpo, primer in notas:
+    for k, (note, volanta, titular, cuerpo, primer) in enumerate(notas):
         try:
-            placas = _carrusel_explicativo(note, volanta, titular, cuerpo, primer, site, escribir)
+            placas = _carrusel_explicativo(note, volanta, titular, cuerpo, primer, site, escribir, _tema_de(k))
         except Exception as e:  # noqa: BLE001 — una nota que no se puede armar no frena a las otras
             logger.error(f"[instagram] no se pudo armar el carrusel de «{titular[:40]}»: {e}")
             continue
@@ -611,6 +634,8 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         # (la corrida de las 7:00 ya la habría tuiteado).
         if note["key"] in web_ledger and not dry_run:
             logger.info(f"[wix] ya cargada a las 7:00 — se saltea «{titular[:40]}»")
+        elif not dry_run and _web_todavia_no():
+            logger.info(f"[wix] la sube la corrida de las 7:00 (--notes-web) — se saltea «{titular[:40]}»")
         else:
             try:
                 wix_url = "" if dry_run else _publicar_nota_wix(note, volanta, titular, cuerpo, primer)
