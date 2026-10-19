@@ -1747,6 +1747,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00228.mp4",
    "youtube_url": "https://youtu.be/93z-andhXmU"
   },
+  "entrevistas:job00229": {
+   "descripcion": "El dirigente de Chivilcoy Matias Carrettoni, presidente de la Juventud Radical de la Cuarta Sección, planteó el desafío de convocar a quienes están descreídos de la política. Destacó la importancia de involucrarse más allá de presentarse a elecciones.",
+   "duracion_seg": null,
+   "entrevistado": "Matias Carrettoni",
+   "generado": "2026-10-19T18:20:14.000Z",
+   "id": "entrevistas:job00229",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Matias Carrettoni: \"Hay que volver a enamorar a los jóvenes\"",
+   "urgente": false,
+   "video_bytes": 29602471,
+   "video_mb": 28.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00229.mp4",
+   "youtube_url": "https://youtu.be/gzrhdms-g1s"
+  },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -15430,6 +15450,31 @@
    "video_bytes": 15498155,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00228.mp4"
   },
+  "entrevistas:job00229|x": {
+   "actualizado": "2026-10-19T18:20:14.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00229|x",
+   "creado": "2026-10-19T18:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T18:20:14.000Z",
+   "id": "entrevistas:job00229",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Matias Carrettoni: \"Hay que volver a enamorar a los jóvenes\"\n\nEl dirigente Matias Carrettoni planteó el desafío de convocar a los descreídos de la política. Además, destacó la importancia de involucrarse más allá de las elecciones.\n\nhttps://youtu.be/gzrhdms-g1s",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Matias Carrettoni: \"Hay que volver a enamorar a los jóvenes\"",
+   "urgente": false,
+   "vence": "2026-10-21T18:20:14.000Z",
+   "video_bytes": 29602471,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00229.mp4"
+  },
   "nacionales:02472f0cd4ba4800|tiktok": {
    "actualizado": "2026-10-19T02:40:14.000Z",
    "buffer_id": "",
@@ -16119,14 +16164,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_883bc6cd67_wanda-nara-celebro-el-dia-de-la-madre-rodeada-de.mp4"
   },
   "nacionales:897bae57805e193b|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T18:20:17.000Z",
    "buffer_id": "",
    "clave": "nacionales:897bae57805e193b|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T00:06:13.000Z",
    "id": "nacionales:897bae57805e193b",
    "intentos": 0,
@@ -29804,14 +29849,14 @@
    "video_url": ""
   },
   "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x": {
-   "actualizado": "2026-10-18T18:20:15.000Z",
+   "actualizado": "2026-10-19T18:20:17.000Z",
    "buffer_id": "",
    "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
    "creado": "2026-10-18T18:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T18:07:28.224Z",
    "id": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34",
    "intentos": 0,
@@ -30799,34 +30844,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x",
-   "cuando": "2026-10-16T22:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x",
-   "cuando": "2026-10-16T22:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "buffer_id": "6ad2a31e1c7e49ea4c27e954",
-   "clave": "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/|x",
-   "cuando": "2026-10-16T22:20:15.000Z",
-   "dueAt": "2026-10-17T00:00:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad2a31f1c7e49ea4c27e993",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|x",
-   "cuando": "2026-10-16T22:20:15.000Z",
-   "dueAt": "2026-10-17T00:15:53.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
    "cuando": "2026-10-16T23:00:21.000Z",
@@ -35057,6 +35074,31 @@
    "cuando": "2026-10-19T18:00:19.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "entrevistas:job00229",
+   "cuando": "2026-10-19T18:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00229|x",
+   "cuando": "2026-10-19T18:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "nacionales:897bae57805e193b|tiktok",
+   "cuando": "2026-10-19T18:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
+   "cuando": "2026-10-19T18:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -35146,6 +35188,7 @@
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
   "entrevistas:job00228": "2026-10-19T17:40:30.000Z",
+  "entrevistas:job00229": "2026-10-19T18:20:14.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
