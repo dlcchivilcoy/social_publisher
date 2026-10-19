@@ -31339,5 +31339,61 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-19T20:33:42",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
+    "uploader": "",
+    "fecha_recibido": "2026-10-19T20:50:10",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Ruta 30 · Bomberos",
+    "titulo": "Se incendió un automóvil en el trazado de la Ruta 30",
+    "resumen": "Se reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy. Noticia en desarrollo.",
+    "texto": "Se reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy.\n\nNoticia en desarrollo.",
+    "bajada_reel": "El hecho se registró a la altura de los silos de Alagna, en Chivilcoy.",
+    "escrito": "🚨 Incendio de un auto en la Ruta 30\nSe reporta un incendio de un automóvil entre la entrada de Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy.\n🟠 Noticia en desarrollo.\n#chivilcoy #diariolacampaña #radiodelcentro #Ruta30 #Incendio",
+    "tarjetas_fotos": [
+      [
+        "UBICACIÓN EXACTA",
+        "Ocurrió entre el acceso a Ozono y el Cementerio Parque"
+      ],
+      [
+        "ZONA AFECTADA",
+        "El foco se localizó a la altura de silos Alagna"
+      ],
+      [
+        "EN DESARROLLO",
+        "La información continúa en desarrollo durante la jornada"
+      ]
+    ],
+    "draft_id": "99a98512-7ac4-4629-a1a6-eab0dc99a301",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-19-matias-zucchi-mv.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-19T23:47:04.126Z — wa:5492346417636",
+    "decl": null,
+    "tema_4x5": "grafito",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-10-19T20:52:21",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
+    "ig_media_id": "17911004694307122",
+    "fb_video_id": "28960505043603466",
+    "ig_historia_id": "17960333814237975",
+    "fb_historia_id": "1052101727873581",
+    "yt_video_id": "6pl0sLGtsbc",
+    "yt_url": "https://www.youtube.com/shorts/6pl0sLGtsbc"
   }
 ]
