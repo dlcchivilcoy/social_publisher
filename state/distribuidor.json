@@ -8830,6 +8830,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/musica-y-danza-tradicional-claudia-goggi-presentara-su-espectaculo",
    "volanta": ""
   },
+  "web:90a67262-a0c0-4d38-9911-bafe84c9db3a": {
+   "categoria": "nacionales",
+   "descripcion": "Fuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante. Hay ciudades aisladas, rescates en helicóptero y…",
+   "generado": "2026-10-19T22:15:13.470Z",
+   "id": "web:90a67262-a0c0-4d38-9911-bafe84c9db3a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_41c2b47b4ccc4255be17327f941c8c8f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Temporal histórico en España: cuatro muertos y más de 800.000 personas confinadas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "volanta": ""
+  },
   "web:90cb2fe1-4568-4f3b-b570-73550002c005": {
    "categoria": "nacionales",
    "descripcion": "El presidente Javier Milei retomará su recorrido por el interior con una agenda enfocada en proyectos petroleros y mineros. Viajará a Neuquén el 19 de…",
@@ -15702,14 +15721,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_07376db259_julieta-prandi-viajo-a-brasil-tras-su-separacion.mp4"
   },
   "nacionales:0d6b3d4ada951c07|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
+   "actualizado": "2026-10-19T22:20:24.000Z",
    "buffer_id": "",
    "clave": "nacionales:0d6b3d4ada951c07|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T04:07:09.000Z",
    "id": "nacionales:0d6b3d4ada951c07",
    "intentos": 0,
@@ -27344,6 +27363,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x": {
+   "actualizado": "2026-10-19T22:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x",
+   "creado": "2026-10-19T22:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T22:15:13.470Z",
+   "id": "web:90a67262-a0c0-4d38-9911-bafe84c9db3a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "noticia": "nota:temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Temporal histórico en España: cuatro muertos y más de 800.000 personas confinadas\n\nFuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante.\n\nhttps://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Temporal histórico en España: cuatro muertos y más de 800.000 personas confinadas",
+   "urgente": false,
+   "vence": "2026-10-20T02:15:13.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:90cb2fe1-4568-4f3b-b570-73550002c005|x": {
    "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "",
@@ -27787,14 +27834,14 @@
    "video_url": ""
   },
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x": {
-   "actualizado": "2026-10-18T22:20:14.000Z",
+   "actualizado": "2026-10-19T22:20:24.000Z",
    "buffer_id": "",
    "clave": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x",
    "creado": "2026-10-18T22:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:20:09.603Z",
    "id": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283",
    "intentos": 0,
@@ -29379,14 +29426,14 @@
    "video_url": ""
   },
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x": {
-   "actualizado": "2026-10-18T22:20:14.000Z",
+   "actualizado": "2026-10-19T22:20:24.000Z",
    "buffer_id": "",
    "clave": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x",
    "creado": "2026-10-18T22:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:05:11.376Z",
    "id": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4",
    "intentos": 0,
@@ -31160,38 +31207,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
-   "cuando": "2026-10-17T09:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok",
-   "cuando": "2026-10-17T09:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
-   "cuando": "2026-10-17T09:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
-   "cuando": "2026-10-17T09:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x",
    "cuando": "2026-10-17T09:00:20.000Z",
@@ -35393,6 +35408,32 @@
    "cuando": "2026-10-19T22:00:20.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x",
+   "cuando": "2026-10-19T22:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:0d6b3d4ada951c07|tiktok",
+   "cuando": "2026-10-19T22:20:24.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x",
+   "cuando": "2026-10-19T22:20:24.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x",
+   "cuando": "2026-10-19T22:20:24.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "tandas": {
@@ -35822,6 +35863,7 @@
   "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
   "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad": "2026-10-16T10:20:16.000Z",
   "web:90793449-fe94-4a94-a7d7-67bd22f391dd": "2026-10-16T10:20:16.000Z",
+  "web:90a67262-a0c0-4d38-9911-bafe84c9db3a": "2026-10-19T22:20:15.000Z",
   "web:90cb2fe1-4568-4f3b-b570-73550002c005": "2026-10-15T15:20:14.000Z",
   "web:90ccf787-b147-4a06-9acf-05aa45b23cca": "2026-10-17T17:20:13.000Z",
   "web:9110bbe1-bdf4-4c81-bcba-062f16958539": "2026-10-12T15:20:17.000Z",
