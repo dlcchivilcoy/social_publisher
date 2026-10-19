@@ -9235,6 +9235,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/se-profundiza-la-ruptura-entre-cristina-kirchner-y-axel-c3e37b",
    "volanta": ""
   },
+  "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": {
+   "categoria": "nacionales",
+   "descripcion": "El bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Divergencias internas entre el sector que busca acuerdos con…",
+   "generado": "2026-10-19T01:50:11.307Z",
+   "id": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e7dcc42ee4e844ca98dc32bb93c6fa57~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdos con gobernadores",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
+   "volanta": ""
+  },
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc": {
    "categoria": "",
    "descripcion": "Britos confirmó contactos con otros espacios para su futuro político De cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus próximos pasos. Además, consideró que no se modificará la normativa que le impide buscar otra reelección municipal. “Me he sentido cómodo, varias veces,...",
@@ -26085,6 +26103,32 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x": {
+   "actualizado": "2026-10-19T02:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x",
+   "creado": "2026-10-19T02:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T01:50:11.307Z",
+   "id": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdos con gobernadores\n\nEl bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Hay divergencias internas sobre los acuerdos.\n\nhttps://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdos con gobernadores",
+   "urgente": false,
+   "vence": "2026-10-20T01:50:11.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc|x": {
    "actualizado": "2026-10-15T19:20:16.000Z",
    "buffer_id": "6ad0d7c1cd335deaefee72da",
@@ -26113,12 +26157,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x",
-   "cuando": "2026-10-16T10:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "web:2de9a502-e952-44a4-8525-478c9d70047a|x",
    "cuando": "2026-10-16T10:20:18.000Z",
@@ -30286,6 +30324,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x",
+   "cuando": "2026-10-19T02:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -30749,6 +30795,7 @@
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
+  "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": "2026-10-19T02:00:17.000Z",
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc": "2026-10-15T13:20:17.000Z"
  }
 }
