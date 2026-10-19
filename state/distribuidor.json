@@ -15,7 +15,7 @@
     "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-19T21:00:29.000Z"
+   "visto": "2026-10-19T23:00:25.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 6,
-    "sent": 21
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-10-19T21:00:29.000Z"
+   "visto": "2026-10-19T23:00:25.000Z"
   }
  },
  "contenidos": {
@@ -3509,6 +3509,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4",
    "volanta": "Mar del Plata en General Arenales",
    "youtube_url": "https://youtube.com/shorts/YX9WFl3iMHo"
+  },
+  "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un motociclista de 22 años resultó herido con un proyectil de goma en una pierna luego de escapar de un control de tránsito e intentar embestir a un agente en San Antonio de Areco.",
+   "distancia_km": 88.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-19T22:50:41.000Z",
+   "id": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/",
+   "localidad": "San Antonio de Areco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un motociclista de 22 años terminó herido de bala de goma tras eludir un operativo de tránsito en la ciudad de San Antonio de Areco.\n\nEl episodio ocurrió cuando el conductor aceleró para escapar e intentó atropellar a uno de los inspectores municipales presentes en el lugar.\n\nTras una persecución, personal policial logró interceptar al infractor, quien sufrió una lesión leve en una de sus extremidades inferiores.\n\nLa causa quedó en manos de la fiscalía interviniente para esclarecer formalmente la conducta del joven y el accionar de los uniformados.\n\n📲 Más noticias de San Antonio de Areco en www.diariolacampaña.com.ar\n\n#SanAntonioDeAreco #Policiales #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Balea con proyectil de goma a un joven que eludió un control en moto",
+   "urgente": false,
+   "video_bytes": 117294,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_02_carmen-de-areco_balea-con-proyectil-de-goma-a-.mp4",
+   "volanta": "San Antonio de Areco",
+   "youtube_url": "https://youtube.com/shorts/3NxHdGk3aII"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": {
    "categoria": "robo",
@@ -7767,6 +7793,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/termas-de-rio-hondo-la-pena-virgen-de-loreto-deslumbro-al-publico-en",
    "volanta": "Termas de Río Hondo"
   },
+  "web:660ce08b-5eea-4d96-ac71-12f7add445dd": {
+   "categoria": "nacionales",
+   "descripcion": "Las altas de la Prestación por Desempleo aumentaron un 29,4% entre enero y septiembre de 2026. La provincia de Buenos Aires concentra la mayor cantidad de…",
+   "generado": "2026-10-19T22:45:08.011Z",
+   "id": "web:660ce08b-5eea-4d96-ac71-12f7add445dd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f6eb38e7dc744270a5aff1b46205be6e~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el monto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "volanta": ""
+  },
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": {
    "categoria": "",
    "descripcion": "Operativos policiales y alerta vecinal: varias aprehensiones en Chivilcoy por pedidos de captura activos En los últimos meses, el trabajo conjunto entre la Policía Comunal, el Departamento de Seguridad Vial y las denuncias realizadas por la comunidad ha permitido interceptar a diversos sujetos que circulaban por las calles de Chivilcoy sobre quienes pesaban requerimientos de la Justicia. A través de operativos de interceptación vehicular, controles poblacionales y llamados de alerta por parte...",
@@ -11426,22 +11471,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 61,
-   "segundos": 638,
+   "restantes": 98,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 136,
-   "segundos": 7193,
+   "restantes": 248,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2593,
-   "segundos": 1901411,
+   "restantes": 2558,
+   "segundos": 1894215,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T21:00:30.000Z",
+ "cuota_visto": "2026-10-19T23:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13612,18 +13657,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_78b93f0d3d02a624.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x": {
-   "actualizado": "2026-10-19T17:00:44.000Z",
+   "actualizado": "2026-10-19T23:00:25.000Z",
    "buffer_id": "6ad64cbdd1648e7b92bde029",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
    "creado": "2026-10-19T15:40:14.000Z",
    "dueAt": "2026-10-19T22:45:49.000Z",
+   "enviado": "2026-10-19T22:46:06.163Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T15:21:07.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112314372383003091",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
    "origen": "bot",
    "plataforma": "x",
@@ -16618,14 +16664,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4"
   },
   "nacionales:b18ec1977365d369|tiktok": {
-   "actualizado": "2026-10-19T09:00:17.000Z",
+   "actualizado": "2026-10-19T23:00:25.000Z",
    "buffer_id": "",
    "clave": "nacionales:b18ec1977365d369|tiktok",
    "creado": "2026-10-19T09:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T04:52:04.000Z",
    "id": "nacionales:b18ec1977365d369",
    "intentos": 0,
@@ -17715,6 +17761,60 @@
    "vence": "2026-10-17T09:41:32.000Z",
    "video_bytes": 116133,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
+  },
+  "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok": {
+   "actualizado": "2026-10-19T23:00:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
+   "creado": "2026-10-19T23:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-19T22:50:41.000Z",
+   "id": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Balea con proyectil de goma a un joven que eludió un control en moto\n\nUn motociclista de 22 años resultó herido con un proyectil de goma en una pierna luego de escapar de un control de tránsito e intentar embestir a un agente en San Antonio de Areco.\n\nhttps://www.diariolacampaña.com.ar/n/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c\n\n#chivilcoy #diariolacampaña #radiodelcentro #sanantoniodeareco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Balea con proyectil de goma a un joven que eludió un control en moto",
+   "urgente": false,
+   "vence": "2026-10-20T16:50:41.000Z",
+   "video_bytes": 117294,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_02_carmen-de-areco_balea-con-proyectil-de-goma-a-.mp4"
+  },
+  "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x": {
+   "actualizado": "2026-10-19T23:00:25.000Z",
+   "buffer_id": "6ad6a10a2fcafd0f183dffd7",
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x",
+   "creado": "2026-10-19T23:00:18.000Z",
+   "dueAt": "2026-10-19T23:05:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-19T22:50:41.000Z",
+   "id": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
+   "noticia": "nota:san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Balea con proyectil de goma a un joven que eludió un control en moto\n\nUn motociclista de 22 años resultó herido con un proyectil de goma en una pierna luego de escapar de un control de tránsito e intentar embestir a un agente en San Antonio de Areco.\n\nhttps://www.diariolacampaña.com.ar/n/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Balea con proyectil de goma a un joven que eludió un control en moto",
+   "urgente": false,
+   "vence": "2026-10-20T00:50:41.000Z",
+   "video_bytes": 117294,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_02_carmen-de-areco_balea-con-proyectil-de-goma-a-.mp4",
+   "viral": false
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok": {
    "actualizado": "2026-10-12T21:20:15.000Z",
@@ -25801,6 +25901,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:660ce08b-5eea-4d96-ac71-12f7add445dd|x": {
+   "actualizado": "2026-10-19T23:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:660ce08b-5eea-4d96-ac71-12f7add445dd|x",
+   "creado": "2026-10-19T23:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T22:45:08.011Z",
+   "id": "web:660ce08b-5eea-4d96-ac71-12f7add445dd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "noticia": "nota:seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el monto\n\nLas altas de la Prestación por Desempleo aumentaron un 29,4% entre enero y septiembre de 2026.\n\nhttps://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el monto",
+   "urgente": false,
+   "vence": "2026-10-20T02:45:08.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -27192,14 +27320,14 @@
    "video_url": ""
   },
   "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x": {
-   "actualizado": "2026-10-18T23:00:17.000Z",
+   "actualizado": "2026-10-19T23:00:25.000Z",
    "buffer_id": "",
    "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:50:11.917Z",
    "id": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3",
    "intentos": 0,
@@ -28975,14 +29103,14 @@
    "video_url": ""
   },
   "web:be16b20b-29a0-45de-ae35-dec56c678655|x": {
-   "actualizado": "2026-10-18T23:00:17.000Z",
+   "actualizado": "2026-10-19T23:00:25.000Z",
    "buffer_id": "",
    "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:47:06.105Z",
    "id": "web:be16b20b-29a0-45de-ae35-dec56c678655",
    "intentos": 0,
@@ -31207,61 +31335,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis|tiktok",
-   "cuando": "2026-10-17T09:00:20.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "buffer_id": "6ad339280b0d72757acc3257",
-   "clave": "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T10:00:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad33929938409f1d07a4a81",
-   "clave": "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T10:15:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad339290a208cb32311cc24",
-   "clave": "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T10:30:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392a938409f1d07a4b3a",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T10:45:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392a0b0d72757acc339c",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T11:00:35.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392bdd83363c4dc48814",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T11:15:24.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3392b0b0d72757acc33e7",
-   "clave": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x",
-   "cuando": "2026-10-17T09:00:29.000Z",
-   "dueAt": "2026-10-17T13:00:40.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad3392b0b0d72757acc341c",
    "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
@@ -35430,6 +35503,61 @@
    "cuando": "2026-10-19T22:40:15.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x",
+   "cuando": "2026-10-19T23:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
+   "cuando": "2026-10-19T23:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:660ce08b-5eea-4d96-ac71-12f7add445dd|x",
+   "cuando": "2026-10-19T23:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:b18ec1977365d369|tiktok",
+   "cuando": "2026-10-19T23:00:25.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
+   "cuando": "2026-10-19T23:00:25.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
+   "cuando": "2026-10-19T23:00:25.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
+   "cuando": "2026-10-19T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112314372383003091"
+  },
+  {
+   "buffer_id": "6ad6a10a2fcafd0f183dffd7",
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x",
+   "cuando": "2026-10-19T23:00:26.000Z",
+   "dueAt": "2026-10-19T23:05:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -35438,7 +35566,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T21:00:29.000Z",
+ "ultima_sync": "2026-10-19T23:00:25.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -35593,6 +35721,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
+  "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": "2026-10-19T23:00:18.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
@@ -35800,6 +35929,7 @@
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
   "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
+  "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": "2026-10-18T15:40:18.000Z",
