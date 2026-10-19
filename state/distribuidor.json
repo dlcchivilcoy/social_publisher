@@ -8199,6 +8199,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reforma-electoral-los-plazos-que-evalua-el-gobierno-y-el-pedido-cf9e19",
    "volanta": ""
   },
+  "web:76ff5169-2518-4c32-96e7-955ae7a8d272": {
+   "categoria": "nacionales",
+   "descripcion": "A doce días de la desaparición de Nancy Estela Godoy en Esquina, la fiscalía investiga prendas y armas blancas incautadas en la vivienda de un sospechoso.",
+   "generado": "2026-10-19T21:45:08.004Z",
+   "id": "web:76ff5169-2518-4c32-96e7-955ae7a8d272",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_75b884d82b404da7aca966b80e3345f0~mv2.gif",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con manchas rojas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "volanta": ""
+  },
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": {
    "categoria": "",
    "descripcion": "Chivilcoy es uno de ellos: Los químicos bonaerenses le piden informes a 11 municipios por la presencia de arsénico en el agua El Consejo Profesional de los químicos bonaerenses envió notas a los distritos donde el mapa elaborado por el Instituto Tecnológico de Buenos Aires (ITBA) detectó concentraciones elevadas de arsénico en el agua destinada al consumo humano, para conocer los controles, los resultados de los análisis y las medidas previstas para garantizar su potabilidad. “La presencia...",
@@ -26397,6 +26416,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x": {
+   "actualizado": "2026-10-19T22:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x",
+   "creado": "2026-10-19T22:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T21:45:08.004Z",
+   "id": "web:76ff5169-2518-4c32-96e7-955ae7a8d272",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "noticia": "nota:desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con manchas rojas\n\nA doce días de la desaparición de Nancy Estela Godoy en Esquina, la fiscalía investiga prendas y armas blancas incautadas en la vivienda de un sospechoso.\n\nhttps://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con manchas rojas",
+   "urgente": false,
+   "vence": "2026-10-20T01:45:08.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d|x": {
    "actualizado": "2026-10-14T10:20:21.000Z",
    "buffer_id": "",
@@ -30854,14 +30901,14 @@
    "video_url": ""
   },
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x": {
-   "actualizado": "2026-10-18T22:00:19.000Z",
+   "actualizado": "2026-10-19T22:00:20.000Z",
    "buffer_id": "",
    "clave": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x",
    "creado": "2026-10-18T22:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T21:50:12.597Z",
    "id": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055",
    "intentos": 0,
@@ -31113,18 +31160,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|x",
-   "cuando": "2026-10-17T02:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111270670621450626"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|x",
-   "cuando": "2026-10-17T02:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111274445255959020"
-  },
   {
    "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
    "cuando": "2026-10-17T09:00:19.000Z",
@@ -35344,6 +35379,20 @@
    "cuando": "2026-10-19T21:40:17.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x",
+   "cuando": "2026-10-19T22:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x",
+   "cuando": "2026-10-19T22:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
   }
  ],
  "tandas": {
@@ -35738,6 +35787,7 @@
   "web:76224348-2766-4a07-947f-ef8503976009": "2026-10-13T15:20:18.000Z",
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": "2026-10-17T02:20:17.000Z",
   "web:76c3d71e-5104-400d-a4f4-414ceb358697": "2026-10-12T15:20:17.000Z",
+  "web:76ff5169-2518-4c32-96e7-955ae7a8d272": "2026-10-19T22:00:20.000Z",
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": "2026-10-13T10:20:16.000Z",
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
   "web:79374449-0d19-4bc1-8bac-ee1a849f1966": "2026-10-13T10:20:16.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 1 | 1 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 42 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 43 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 3 | 0 | 21 | 0 | 1 | 0 |
 
@@ -45,6 +45,7 @@ Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Toques de queda localizados en Francia tras disturbios y saqueos masivos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con  — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Se agita la interna del peronismo: cumbre de Cristina y Massa, y tensiones con K — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Francia: Macron admitió fallas de inteligencia y rechazó la renuncia del ministr — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Francia: el gobierno decretó toques de queda y prohibió protestas tras los saque — cupo diario de Notas web en X completo (15)
@@ -59,7 +60,6 @@ Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
 - X · Notas web · Primera División: El Torneo Clausura se pone al día a puro empate y emoción — cupo diario de Notas web en X completo (15)
 - X · Notas web · Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una d — cupo diario de Notas web en X completo (15)
 - X · Notas web · El periodista Gustavo "Gato" Sylvestre presentó su nuevo libro en Chivilcoy con  — cupo diario de Notas web en X completo (15)
-- X · Notas web · “Estamos acá reconociendo nuestro error, el voto fue nuestro y el error también. — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -71,8 +71,6 @@ Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T19:40 vencido web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T19:40 programado entrevistas:job00226|x 
 - 2026-10-19T20:00 vencido nacionales:97bd2fed895cbca6|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-19T20:00 enviado bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tikto 
 - 2026-10-19T20:00 enviado bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok 
@@ -96,3 +94,5 @@ Actualizado: 19/10/2026 18:40 (hora AR) · ACTIVO
 - 2026-10-19T21:20 recibido web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x 
 - 2026-10-19T21:40 vencido nacionales:9e7b427db11bc8f2|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-19T21:40 vencido web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x cupo diario de Notas web en X completo (15)
+- 2026-10-19T22:00 recibido web:76ff5169-2518-4c32-96e7-955ae7a8d272|x 
+- 2026-10-19T22:00 vencido web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x cupo diario de Notas web en X completo (15)
