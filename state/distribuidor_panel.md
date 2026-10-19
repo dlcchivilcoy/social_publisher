@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 10 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 7 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 10 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 7 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 29 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 31 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 23 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,21 +18,25 @@ Actualizado: 18/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 17 con métricas · mediana vistas/impresiones 19 · likes 0
-- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 23 · likes 0
-- X · Notas web: 30 con métricas · mediana vistas/impresiones 7.5 · likes 0
-- TikTok · Reels del bot: 14 con métricas · mediana vistas/impresiones 216 · likes 1
-- TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 189.5 · likes 1.5
+- X · Reels del bot: 28 con métricas · mediana vistas/impresiones 19 · likes 0
+- X · Reels policiales: 24 con métricas · mediana vistas/impresiones 28.5 · likes 0
+- X · Notas web: 45 con métricas · mediana vistas/impresiones 13 · likes 0
+- TikTok · Reels del bot: 21 con métricas · mediana vistas/impresiones 194 · likes 1
+- TikTok · Reels policiales: 16 con métricas · mediana vistas/impresiones 455.5 · likes 3
+- TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2704 de 3000 (visto 2026-10-19T00:00:26.000Z)
+15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2703 de 3000 (visto 2026-10-19T01:00:29.000Z)
 
-## Cola propia (60 esperando)
+## Cola propia (64 esperando)
+- X · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — cupo diario de Reels del bot en X completo (10)
+- TikTok · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Operaron con éxito a Emiliano 'Dibu' Martínez tras una fractura de maxilar — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Francia: Macron condenó la violencia y responsabilizó a sectores de extrema izqu — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Huracán y Florencio Varela igualaron tras una histórica remontada — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Nvidia analiza no vender chips a desarrolladores de IA insegura según su CEO — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Cindy Crawford y Kaia Gerber despidieron con emotivos mensajes a Presley — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — cupo diario de Notas web en X completo (15)
@@ -49,15 +53,12 @@ Actualizado: 18/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Murió un sacerdote en plena misa tras caerle una cruz de madera en la cabeza — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económi — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
+- X · Notas web · Francia: nuevos saqueos, 2000 detenidos y fuerte tensión en París contra el gobi — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Racing define al nuevo líder de su barra brava en la antesala del clásico — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Violentos disturbios y saqueos en Milán y Bolonia en medio de protestas el 18 de — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · River visita a Belgrano con dudas en el equipo y la obligación de ganar — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · El CEO de Nvidia advirtió que evaluarán dejar de vender chips a creadores de IA  — cupo diario de Notas web en X completo (15)
 - TikTok · Reels policiales · Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7 — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · La Libertad Avanza acelera el armado juvenil y expone internas entre virtuales y — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · Las cinco películas para maratonear este fin de semana en Netflix — tope de 12 publicaciones en 24 h de TikTok
-- X · Notas web · Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Ger — cupo diario de Notas web en X completo (15)
-- X · Notas web · La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -68,10 +69,6 @@ Actualizado: 18/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T23:00 recibido web:be16b20b-29a0-45de-ae35-dec56c678655|x 
-- 2026-10-18T23:00 enviado bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x 
-- 2026-10-18T23:00 enviado nacionales:76f6781e9594def9|tiktok 
-- 2026-10-18T23:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
 - 2026-10-18T23:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x 
 - 2026-10-18T23:00 programado bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x 
 - 2026-10-18T23:20 recibido web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x 
@@ -93,3 +90,7 @@ Actualizado: 18/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-19T00:20 recibido nacionales:897bae57805e193b|tiktok 
 - 2026-10-19T00:20 recibido web:dad7423e-f855-41dd-8505-49e56691870b|x 
 - 2026-10-19T00:40 recibido web:593361c2-110f-4e68-b565-1c86df54fffe|x 
+- 2026-10-19T01:00 recibido bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|x 
+- 2026-10-19T01:00 recibido bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok 
+- 2026-10-19T01:00 recibido web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc|x 
+- 2026-10-19T01:00 recibido web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a|x 
