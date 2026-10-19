@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 18/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/10/2026 23:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 7 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 4 | 0 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 35 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 37 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 23 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,7 +28,7 @@ Actualizado: 18/10/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2703 de 3000 (visto 2026-10-19T01:00:29.000Z)
 
-## Cola propia (68 esperando)
+## Cola propia (70 esperando)
 - TikTok · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — tope de 12 publicaciones en 24 h de TikTok
 - X · Reels del bot · Huracán y Florencio Varela igualaron tras una histórica remontada — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — tope de 12 publicaciones en 24 h de TikTok
@@ -51,14 +51,14 @@ Actualizado: 18/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia — tope de 12 publicaciones en 24 h de TikTok
 - TikTok · Nacionales y categorías · Murió un sacerdote en plena misa tras caerle una cruz de madera en la cabeza — tope de 12 publicaciones en 24 h de TikTok
+- X · Notas web · Wanda Nara festejó el Día de la Madre con sus hijos y una tierna foto retro — cupo diario de Notas web en X completo (15)
+- X · Notas web · Aldosivi perdió 2-1 con Estudiantes de Río Cuarto y se complica en la permanenci — cupo diario de Notas web en X completo (15)
 - X · Notas web · Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdo — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · El dilema de Milei: apoyo de gobernadores y la espera de la recuperación económi — tope de 12 publicaciones en 24 h de TikTok
 - X · Notas web · Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá en Netflix: de qué tra — cupo diario de Notas web en X completo (15)
 - X · Notas web · El doble saludo público del Chato Prada a Lourdes Sánchez tras su separación — cupo diario de Notas web en X completo (15)
 - X · Notas web · Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy — cupo diario de Notas web en X completo (15)
 - X · Notas web · Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca — cupo diario de Notas web en X completo (15)
-- X · Notas web · Francia: nuevos saqueos, 2000 detenidos y fuerte tensión en París contra el gobi — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · Racing define al nuevo líder de su barra brava en la antesala del clásico — tope de 12 publicaciones en 24 h de TikTok
 
 ## Errores recientes
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -69,8 +69,6 @@ Actualizado: 18/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-18T23:40 recibido web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x 
-- 2026-10-19T00:00 recibido web:2e67d217-7a79-4046-8927-8123258e800c|x 
 - 2026-10-19T00:00 enviado bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x 
 - 2026-10-19T00:00 enviado bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x 
 - 2026-10-19T00:20 recibido nacionales:c557a454a9895504|tiktok 
@@ -94,3 +92,5 @@ Actualizado: 18/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-19T01:40 recibido web:594e84e0-bc01-4c60-a132-6a7f872182e0|x 
 - 2026-10-19T01:40 recibido web:82d9c768-a466-49ff-882d-09e27a21796f|x 
 - 2026-10-19T02:00 recibido web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x 
+- 2026-10-19T02:20 recibido web:010e4114-35e9-438d-8057-51285ef42a56|x 
+- 2026-10-19T02:20 recibido web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x 

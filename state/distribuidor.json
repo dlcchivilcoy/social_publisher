@@ -4573,6 +4573,24 @@
    "volanta": "Incendio en Bolívar",
    "youtube_url": "https://youtube.com/shorts/vxxgXXK-YAY"
   },
+  "web:010e4114-35e9-438d-8057-51285ef42a56": {
+   "categoria": "nacionales",
+   "descripcion": "La conductora de MasterChef Celebrity compartió postales familiares, un desayuno especial y una foto retro junto a Zaira Nara y Nora Colosimo.",
+   "generado": "2026-10-19T02:20:14.408Z",
+   "id": "web:010e4114-35e9-438d-8057-51285ef42a56",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5c2f1c544c9f412c8a994100731bc622~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/wanda-nara-festejo-el-dia-de-la-madre-con-sus-hijos-y-una-883bc6",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Wanda Nara festejó el Día de la Madre con sus hijos y una tierna foto retro",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/wanda-nara-festejo-el-dia-de-la-madre-con-sus-hijos-y-una-883bc6",
+   "volanta": ""
+  },
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": {
    "categoria": "nacionales",
    "descripcion": "El ministro nacional criticó la suba del 17,6% que rige desde el 15 de octubre en territorio bonaerense y apuntó contra el rechazo local a la…",
@@ -5291,6 +5309,24 @@
    "titulo": "Accesos y arterias de la ciudad",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accesos-y-arterias-de-la-ciudad-operativos-de-saturacion-y-controles",
+   "volanta": ""
+  },
+  "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082": {
+   "categoria": "nacionales",
+   "descripcion": "El conjunto marplatense ganaba con un tanto de Andrés Vombergar a los 68 minutos, pero el equipo cordobés lo dio vuelta sobre el cierre con las…",
+   "generado": "2026-10-19T02:05:20.548Z",
+   "id": "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_832793a605814c1eaa1d0baf3c22ca59~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Aldosivi perdió 2-1 con Estudiantes de Río Cuarto y se complica en la permanencia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
    "volanta": ""
   },
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": {
@@ -19128,6 +19164,32 @@
    "video_bytes": 86336,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
   },
+  "web:010e4114-35e9-438d-8057-51285ef42a56|x": {
+   "actualizado": "2026-10-19T02:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:010e4114-35e9-438d-8057-51285ef42a56|x",
+   "creado": "2026-10-19T02:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T02:20:14.408Z",
+   "id": "web:010e4114-35e9-438d-8057-51285ef42a56",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/wanda-nara-festejo-el-dia-de-la-madre-con-sus-hijos-y-una-883bc6",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Wanda Nara festejó el Día de la Madre con sus hijos y una tierna foto retro\n\nLa conductora de MasterChef Celebrity compartió postales familiares, un desayuno especial y una foto retro junto a Zaira Nara y Nora Colosimo.\n\nhttps://www.diariolacampaña.com.ar/n/wanda-nara-festejo-el-dia-de-la-madre-con-sus-hijos-y-una-883bc6",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Wanda Nara festejó el Día de la Madre con sus hijos y una tierna foto retro",
+   "urgente": false,
+   "vence": "2026-10-20T02:20:14.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x": {
    "actualizado": "2026-10-17T16:40:27.000Z",
    "buffer_id": "6ad37f720b0d72757adcb45f",
@@ -20231,6 +20293,32 @@
    "titulo": "Accesos y arterias de la ciudad",
    "urgente": false,
    "vence": "2026-10-16T10:04:41.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
+  "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x": {
+   "actualizado": "2026-10-19T02:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x",
+   "creado": "2026-10-19T02:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T02:05:20.548Z",
+   "id": "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Aldosivi perdió 2-1 con Estudiantes de Río Cuarto y se complica en la permanencia\n\nEl conjunto marplatense ganaba con un tanto de Andrés Vombergar a los 68 minutos. Sin embargo, el equipo cordobés lo dio vuelta sobre el cierre.\n\nhttps://www.diariolacampaña.com.ar/n/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Aldosivi perdió 2-1 con Estudiantes de Río Cuarto y se complica en la permanencia",
+   "urgente": false,
+   "vence": "2026-10-20T02:05:20.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -26158,18 +26246,6 @@
  },
  "registro": [
   {
-   "clave": "web:2de9a502-e952-44a4-8525-478c9d70047a|x",
-   "cuando": "2026-10-16T10:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:529a6711-cd47-4076-ac13-c952c77ee9c7|x",
-   "cuando": "2026-10-16T10:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
    "clave": "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x",
    "cuando": "2026-10-16T10:20:18.000Z",
    "evento": "vencido",
@@ -30332,6 +30408,22 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "web"
+  },
+  {
+   "clave": "web:010e4114-35e9-438d-8057-51285ef42a56|x",
+   "cuando": "2026-10-19T02:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x",
+   "cuando": "2026-10-19T02:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -30535,6 +30627,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": "2026-10-17T09:00:19.000Z",
+  "web:010e4114-35e9-438d-8057-51285ef42a56": "2026-10-19T02:20:15.000Z",
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": "2026-10-18T19:40:15.000Z",
@@ -30575,6 +30668,7 @@
   "web:2981a70b-4786-42f4-adb6-8b9121c1ed06": "2026-10-17T12:40:14.000Z",
   "web:2991bf21-e852-48ba-87ce-5d073c3a7487": "2026-10-18T15:20:15.000Z",
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": "2026-10-15T10:20:13.000Z",
+  "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082": "2026-10-19T02:20:15.000Z",
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": "2026-10-17T21:00:16.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9": "2026-10-15T02:00:18.000Z",
