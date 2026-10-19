@@ -14300,14 +14300,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2f1a6dccc7_ricardo-darin-y-diego-peretti-juntos-en-lo.mp4"
   },
   "nacionales:4d4c5be14febf1aa|tiktok": {
-   "actualizado": "2026-10-18T20:20:13.000Z",
+   "actualizado": "2026-10-19T12:20:15.000Z",
    "buffer_id": "",
    "clave": "nacionales:4d4c5be14febf1aa|tiktok",
    "creado": "2026-10-18T20:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T18:07:32.000Z",
    "id": "nacionales:4d4c5be14febf1aa",
    "intentos": 0,
@@ -28470,14 +28470,6 @@
  },
  "registro": [
   {
-   "clave": "web:c07869bb-4b38-46ca-ad18-588d0b35d614|x",
-   "cuando": "2026-10-16T15:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x",
    "cuando": "2026-10-16T15:40:15.000Z",
    "estado": "pendiente",
@@ -32708,6 +32700,12 @@
    "cuando": "2026-10-19T11:40:19.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853"
+  },
+  {
+   "clave": "nacionales:4d4c5be14febf1aa|tiktok",
+   "cuando": "2026-10-19T12:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",

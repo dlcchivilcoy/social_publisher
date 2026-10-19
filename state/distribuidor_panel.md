@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,7 +28,7 @@ Actualizado: 19/10/2026 09:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2698 de 3000 (visto 2026-10-19T11:40:19.000Z)
 
-## Cola propia (94 esperando)
+## Cola propia (93 esperando)
 - X · Reels del bot · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — Buffer lleno (10 programadas por canal en el plan Free)
 - X · Notas web · La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata — en turno
 - X · Notas web · Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTec — en turno
@@ -69,7 +69,6 @@ Actualizado: 19/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T10:20 recibido web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 
 - 2026-10-19T10:20 recibido web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x 
 - 2026-10-19T10:21 recibido web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
 - 2026-10-19T10:21 recibido web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x 
@@ -94,3 +93,4 @@ Actualizado: 19/10/2026 09:00 (hora AR) · ACTIVO
 - 2026-10-19T11:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/accidente 
 - 2026-10-19T11:20 programado nacionales:f8cbb878e65900d1|tiktok 
 - 2026-10-19T11:40 enviado nacionales:509780bc5420f2f5|tiktok 
+- 2026-10-19T12:20 vencido nacionales:4d4c5be14febf1aa|tiktok tope de 12 publicaciones en 24 h de TikTok
