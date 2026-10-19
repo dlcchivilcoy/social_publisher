@@ -14,6 +14,8 @@ os.environ.setdefault("DISTRIBUIDOR_ACTIVO", "1")
 # El intercalado de policiales (17/10/2026) tiene su prueba propia (prueba_intercalado); las demás
 # son de cupos, topes y urgentes con lotes casi todos policiales, y se escribieron sin él.
 os.environ["INTERCALADO"] = "0"
+# TikTok en tandas (19/10/2026) tiene su prueba propia (prueba_tandas_tiktok); las demás son del goteo.
+os.environ["TIKTOK_TANDAS"] = "0"
 
 from distribuidor import buffer_api, config, estado, fuentes, planificador, run, textos  # noqa: E402
 
@@ -580,10 +582,55 @@ def prueba_metricas_buffer():
              estado.cargar()["metricas_buffer"].get("disponible") is False)
 
 
+def prueba_tandas_tiktok():
+    """TikTok en TANDAS (19/10/2026): a las 10, 18 y 21 entra lo más viral (15 / 3 = 5), con equilibrio
+    entre orígenes y nunca dos policiales seguidos; fuera de tanda no se programa nada."""
+    print("\n— TikTok en tandas (10, 18 y 21) con lo más viral")
+    os.environ["TIKTOK_TANDAS"] = "10,18,21"
+    os.environ["INTERCALADO"] = "1"
+    try:
+        def pub(i, origen, viral, horas=1):
+            return {"clave": f"{origen}{i}|tiktok", "id": f"{origen}{i}", "plataforma": "tiktok",
+                    "estado": "pendiente", "origen": origen, "prioridad": viral, "titulo": f"Pieza {origen} {i}",
+                    "generado": estado.iso(AR_10 - timedelta(hours=horas))}
+        est = estado.vacio()
+        lote = ([pub(i, "policiales", v) for i, v in enumerate((10, 9, 9, 8, 3))]
+                + [pub(i, "nacionales", v) for i, v in enumerate((9, 7, 2))]
+                + [pub(i, "bot", v) for i, v in enumerate((8, 4))])
+        est["publicaciones"] = {x["clave"]: x for x in lote}
+        a, d, espera = planificador.planificar(est, "tiktok", AR_10 + timedelta(minutes=5))
+        elegidas = [k for k, _due in a]
+        origenes = [est["publicaciones"][k]["origen"] for k in elegidas]
+        chequear("tanda de las 10: entran 5 (tope 15 / 3 tandas)", len(elegidas) == 5, elegidas)
+        chequear("equilibrio: no más de 2 del mismo origen si hay de otros",
+                 max(origenes.count(o) for o in set(origenes)) <= 2, origenes)
+        chequear("lo más viral adentro: el policial de 10 y el nacional de 9",
+                 "policiales0|tiktok" in elegidas and "nacionales0|tiktok" in elegidas, elegidas)
+        chequear("lo menos viral afuera (el policial de 3 y el nacional de 2)",
+                 "policiales4|tiktok" not in elegidas and "nacionales2|tiktok" not in elegidas, elegidas)
+        pol = [est["publicaciones"][k]["origen"] == "policiales" for k in elegidas]
+        chequear("nunca dos policiales seguidos", not any(x and y for x, y in zip(pol, pol[1:])), origenes)
+        horas = [estado.de_iso(due) for _k, due in a]
+        chequear("una cada 20 minutos desde el arranque de la tanda",
+                 all(19 <= (b - x).total_seconds() / 60 <= 21 for x, b in zip(horas, horas[1:])), horas)
+        a2, _d, _e = planificador.planificar(est, "tiktok", AR_10 + timedelta(minutes=25))
+        chequear("la misma tanda no se arma dos veces (la corrida siguiente, 20 min después)", a2 == [])
+        a3, _d, e3 = planificador.planificar(est, "tiktok", AR_10 + timedelta(hours=3))
+        chequear("fuera de tanda (13:00) no se programa nada y lo que queda espera la próxima",
+                 a3 == [] and all("tandas" in m for m in e3.values()))
+        chequear("las tandas son 10, 18 y 21",
+                 planificador.tanda_actual("tiktok", AR_10 + timedelta(hours=8, minutes=10)).endswith("18")
+                 and planificador.tanda_actual("tiktok", AR_10 + timedelta(hours=11, minutes=30)).endswith(" 21")
+                 and planificador.tanda_actual("x", AR_10) == "")
+    finally:
+        os.environ["TIKTOK_TANDAS"] = "0"
+        os.environ["INTERCALADO"] = "0"
+
+
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)

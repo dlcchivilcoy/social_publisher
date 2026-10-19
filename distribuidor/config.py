@@ -106,6 +106,34 @@ def min_entre_policiales() -> int:
     return max(1, _int("MIN_NON_POLICE_POSTS_BETWEEN_POLICE", 1))
 
 
+# TIKTOK EN TANDAS (pedido del editor, 19/10/2026: «hacé un equilibrio en los posteos de TikTok: subí a
+# Buffer lo más viral; del máximo permitido dividí los posteos en 3 corridas (10, 18 y 21) y ahí cargá lo
+# más viral de cada contenido que subiste en el momento a mis otras redes»). En cada tanda entra el tope
+# de 24 h dividido por la cantidad de tandas (15 / 3 = 5), elegido por viralidad, con no más de
+# TIKTOK_TANDA_MAX_ORIGEN del mismo origen si hay otra cosa. TIKTOK_TANDAS=0 vuelve al goteo de antes.
+def tiktok_tandas() -> tuple:
+    crudo = (get("TIKTOK_TANDAS") or "10,18,21").strip()
+    if crudo in ("", "0", "no", "off"):
+        return ()
+    try:
+        return tuple(sorted({int(x) for x in crudo.replace(" ", "").split(",") if x}))
+    except ValueError:
+        return (10, 18, 21)
+
+
+def tanda_ventana_min() -> int:
+    """Una tanda se arma en la primera corrida del distribuidor (cada 20 min) dentro de esta ventana."""
+    return _int("TIKTOK_TANDA_VENTANA_MIN", 50)
+
+
+def tanda_max_origen() -> int:
+    return max(1, _int("TIKTOK_TANDA_MAX_ORIGEN", 2))
+
+
+def tanda_separacion_min() -> int:
+    return max(5, _int("TIKTOK_TANDA_SEPARACION_MIN", 20))
+
+
 # Una nota web y el reel de la MISMA nota en X: separados al menos esto (y con otro texto).
 SEPARACION_MISMA_NOTA_MIN = _int("SEPARACION_MISMA_NOTA_MIN", 180)
 

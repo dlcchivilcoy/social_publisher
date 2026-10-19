@@ -135,3 +135,18 @@ Buffer Free: USD 0 (2 de 3 canales). GitHub Actions: repo público, minutos grat
 servicios nuevos: los videos usan los Releases de GitHub que ya se usaban para Instagram
 (Buffer los lee aunque redirijan; probado). Si algún día hace falta más (más de 10 programadas
 por canal o más cuota), el plan Essentials de Buffer sube la cuota a 7.500/mes.
+
+## TikTok en tandas (19/10/2026)
+
+Pedido del editor: equilibrar TikTok y subir lo más viral. TikTok ya no gotea cada 40 min: se programa solo en
+**tandas a las 10, 18 y 21** (`TIKTOK_TANDAS`, hora AR). En la primera corrida del distribuidor dentro de cada
+tanda (ventana de 50 min) entra el tope de 24 h dividido por la cantidad de tandas (15 / 3 = **5**):
+
+- **Las más virales** de lo pendiente (la «prioridad» del buzón = potencial viral de la pieza; a igual
+  viralidad, la más nueva; lo urgente primero).
+- **Equilibrio:** no más de `TIKTOK_TANDA_MAX_ORIGEN` (2) del mismo origen (policiales, nacionales, bot…) si
+  hay de otros.
+- Una cada `TIKTOK_TANDA_SEPARACION_MIN` (20) minutos, nunca dos policiales seguidos.
+- Lo que no entra sigue en la cola para la tanda siguiente (o vence: policiales y nacionales a las 18 h).
+
+`TIKTOK_TANDAS=0` vuelve al goteo de antes (cupos por origen y 40 min entre posteos). X no cambia.

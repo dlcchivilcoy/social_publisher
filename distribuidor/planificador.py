@@ -120,8 +120,101 @@ def linea_del_canal(est: dict, plataforma: str) -> list:
     return linea
 
 
+def tanda_actual(plataforma: str, ahora: datetime) -> str:
+    """El id de la tanda de TikTok en curso («2026-10-19 18»), o "" si ahora no hay tanda."""
+    if plataforma != "tiktok":
+        return ""
+    local = ahora.astimezone(AR)
+    for h in config.tiktok_tandas():
+        inicio = local.replace(hour=h, minute=0, second=0, microsecond=0)
+        if inicio <= local < inicio + timedelta(minutes=config.tanda_ventana_min()):
+            return f"{local:%Y-%m-%d} {h:02d}"
+    return ""
+
+
+def puntaje_viral(pub: dict, ahora: datetime) -> float:
+    """Lo más viral primero (la «prioridad» del buzón ES el potencial viral de la pieza, 1-10); a igual
+    viralidad, lo más nuevo. Lo urgente, antes que todo."""
+    edad_h = max(0.0, (ahora - (estado.de_iso(pub.get("generado")) or ahora)).total_seconds() / 3600)
+    return (config.BONO_URGENTE if pub.get("urgente") else 0) + 10 * int(pub.get("prioridad") or 5) - edad_h
+
+
+def elegir_tanda(cola: list, n: int, max_origen: int, ahora: datetime) -> list:
+    """Las `n` más virales de la cola, sin más de `max_origen` del mismo origen mientras haya de otros
+    (equilibrio entre policiales, nacionales, el bot…); si no alcanza, completa con las que quedan."""
+    orden = sorted(cola, key=lambda p: puntaje_viral(p, ahora), reverse=True)
+    elegidas, por_origen = [], {}
+    for p in orden:
+        if len(elegidas) >= n:
+            break
+        if por_origen.get(p["origen"], 0) < max_origen:
+            elegidas.append(p)
+            por_origen[p["origen"]] = por_origen.get(p["origen"], 0) + 1
+    for p in orden:
+        if len(elegidas) >= n:
+            break
+        if p not in elegidas:
+            elegidas.append(p)
+    return elegidas
+
+
+def planificar_tanda(est: dict, plataforma: str, ahora: datetime) -> tuple[list, list, dict]:
+    """TikTok en TANDAS (19/10/2026): solo a las 10, 18 y 21 se programa en Buffer, y en cada tanda entra
+    lo más viral del momento (tope de 24 h / cantidad de tandas), una cada TIKTOK_TANDA_SEPARACION_MIN,
+    sin dos policiales seguidos. Lo que no entra sigue en la cola para la tanda siguiente (o vence)."""
+    pubs = est["publicaciones"]
+    mias = [p for p in pubs.values() if p["plataforma"] == plataforma]
+    pendientes = [p for p in mias if p["estado"] == "pendiente"]
+    tanda = tanda_actual(plataforma, ahora)
+    hechas = est.setdefault("tandas", {}).setdefault(plataforma, [])
+    if not tanda or tanda in hechas:
+        proxima = ", ".join(f"{h:02d}:00" for h in config.tiktok_tandas())
+        return [], [], {p["clave"]: f"TikTok sale en tandas ({proxima}): espera la próxima" for p in pendientes}
+    hechas.append(tanda)
+    del hechas[:-30]                      # alcanza con recordar las últimas
+
+    tope24 = config.tope_24h(plataforma)
+    medido = (est.get("pausas") or {}).get(plataforma) or {}
+    if medido.get("tope_medido") and (estado.de_iso(medido.get("medido")) or ahora) > ahora - timedelta(days=7):
+        tope24 = min(tope24, int(medido["tope_medido"]))
+    ocupadas = sorted(estado.de_iso(p["dueAt"]) for p in mias if p["estado"] in CUENTAN and p.get("dueAt"))
+    en_24h = sum(1 for d in ocupadas if ahora - timedelta(hours=24) < d <= ahora + timedelta(hours=3))
+    en_buffer = [p for p in mias if p["estado"] in ("programado", "enviando")
+                 and (estado.de_iso(p.get("dueAt")) or ahora) > ahora - timedelta(minutes=2)]
+    n = min(max(1, tope24 // max(1, len(config.tiktok_tandas()))),
+            config.max_pendientes(plataforma) - len(en_buffer), max(0, tope24 - en_24h))
+    espera = {}
+    if n <= 0:
+        return [], [], {p["clave"]: "tanda sin lugar (tope de 24 h o Buffer lleno)" for p in pendientes}
+
+    elegidas = elegir_tanda(pendientes, n, config.tanda_max_origen(), ahora)
+    linea = linea_del_canal(est, plataforma)
+    intercalar, n_inter = config.intercalado(), config.min_entre_policiales()
+    if intercalar:
+        elegidas = intercalar_cola(sorted(elegidas, key=lambda p: puntaje_viral(p, ahora), reverse=True),
+                                   linea, n_inter)
+    sep = timedelta(minutes=config.tanda_separacion_min())
+    t = en_franja(max([ahora + timedelta(minutes=3)] + [d + sep for d in ocupadas if d >= ahora - sep]),
+                  plataforma)
+    asignadas = []
+    for pub in elegidas:
+        if intercalar and tema.es_policial(pub) and pegado(linea, t, n_inter):
+            espera[pub["clave"]] = "intercalado: quedaría pegado a otro policial; va en otra tanda"
+            continue
+        due = _segundo_fijo(t, pub["clave"])
+        asignadas.append((pub["clave"], estado.iso(due)))
+        linea.append((due, tema.es_policial(pub)))
+        t = en_franja(t + sep, plataforma)
+    for p in pendientes:
+        if p["clave"] not in dict(asignadas) and p["clave"] not in espera:
+            espera[p["clave"]] = f"no entró entre las {n} más virales de la tanda {tanda[-2:]} h"
+    return asignadas, [], espera
+
+
 def planificar(est: dict, plataforma: str, ahora: datetime) -> tuple[list, list, dict]:
     """Devuelve (asignaciones, a_desprogramar, motivos_de_espera)."""
+    if plataforma == "tiktok" and config.tiktok_tandas():
+        return planificar_tanda(est, plataforma, ahora)
     pubs = est["publicaciones"]
     mias = [p for p in pubs.values() if p["plataforma"] == plataforma]
     sep = timedelta(minutes=config.separacion_min(plataforma))
