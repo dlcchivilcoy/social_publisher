@@ -1186,6 +1186,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4",
    "youtube_url": "https://www.youtube.com/shorts/6nj5OqAnUgQ"
   },
+  "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4": {
+   "descripcion": "El intendente Guillermo Britos mantuvo un cruce con un concejal libertario y desmintió haber condonado una deuda de aproximadamente 200 millones de pesos a la empresa Bicontinentar.\n\nEl jefe comunal remarcó que el monto mencionado se encuentra actualmente reclamado por la vía judicial. En ese sentido, advirtió que iniciará acciones legales correspondientes en caso de que no exista una rectificación pública sobre las acusaciones vertidas.\n\nPor su parte, el edil libertario cuestionó el tratamiento informativo del tema por parte de la prensa y lo vinculó de manera directa con la pauta municipal, tras difundir una planilla de proveedores perteneciente al ejercicio 2025.\n\nEl material aportado por las partes expone ambas posturas sobre lo sucedido, aunque no permite verificar por sí mismo el estado efectivo de la deuda ni el vínculo señalado con la pauta oficial.",
+   "duracion_seg": 39.3,
+   "generado": "2026-10-19T16:50:06.000Z",
+   "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales",
+   "urgente": false,
+   "video_bytes": 1022794,
+   "video_mb": 1.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f9ee75a83eee9237.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/_ll8JrSWoDs"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -1665,6 +1686,26 @@
    "video_mb": 11.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00224.mp4",
    "youtube_url": "https://youtu.be/V_2aQVfTOhw"
+  },
+  "entrevistas:job00225": {
+   "descripcion": "Gustavo Caggiano, referente del Ateneo \"Jorge Luis Borges\", prepara un libro sobre los coleccionistas de Chivilcoy y el valor de los tesoros privados que muchos resguardan.",
+   "duracion_seg": null,
+   "entrevistado": "Gustavo Caggiano",
+   "generado": "2026-10-19T17:00:21.000Z",
+   "id": "entrevistas:job00225",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gustavo Caggiano: colecciones ocultas en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 27445634,
+   "video_mb": 26.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00225.mp4",
+   "youtube_url": "https://youtu.be/75sEZvAizj8"
   },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
@@ -7050,6 +7091,24 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/handball-las-selecciones-juveniles-de-asambal-brillaron-en-el",
    "volanta": "Handball"
   },
+  "web:46323048-26ab-4cde-bf1b-7382a5e5ce92": {
+   "categoria": "",
+   "descripcion": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales El intendente Guillermo Britos mantuvo un cruce con un concejal libertario y negó haberle condonado una deuda de aproximadamente 200 millones de pesos a la empresa Bicontinentar. El jefe comunal sostuvo que el monto se encuentra reclamado por vía judicial y advirtió que iniciará acciones legales si no hay una rectificación pública: «Si vos decís que yo perdoné una deuda de 200 millones de pesos y no la...",
+   "generado": "2026-10-19T16:48:12.833Z",
+   "id": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d3e29043ed30415a868e2afa408e1116~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": {
    "categoria": "",
    "descripcion": "Más de 20 instituciones acercaron oportunidades de estudio y formación laboral La propuesta reunió a más de 20 instituciones educativas, organismos y representantes del sector productivo para acercar a jóvenes y adultos las alternativas de formación superior, capacitación laboral y orientación para el futuro. El intendente Guillermo Britos participó de la jornada, que contó además con una muestra itinerante de la Policía de la Provincia de Buenos Aires. La Municipalidad de Chivilcoy acompañó...",
@@ -11157,22 +11216,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 23999,
+   "restantes": 228,
+   "segundos": 21577,
    "tope": 250
   },
   "30d": {
-   "restantes": 2686,
-   "segundos": 1918217,
+   "restantes": 2685,
+   "segundos": 1915795,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T16:20:24.000Z",
+ "cuota_visto": "2026-10-19T17:00:46.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13340,14 +13399,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_78b93f0d3d02a624.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x": {
-   "actualizado": "2026-10-19T15:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T17:00:44.000Z",
+   "buffer_id": "6ad64cbdd1648e7b92bde029",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
    "creado": "2026-10-19T15:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T22:45:49.000Z",
    "error": "",
-   "espera": "espera para separarse de la otra publicación de la misma noticia",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T15:21:07.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
    "intentos": 0,
@@ -14514,6 +14573,58 @@
    "video_bytes": 19087882,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4"
   },
+  "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok": {
+   "actualizado": "2026-10-19T17:00:21.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
+   "creado": "2026-10-19T17:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tope de 12 publicaciones en 24 h de TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-19T16:50:06.000Z",
+   "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales\n\nTras un cruce con un concejal libertario, el intendente Guillermo Britos desmintió haber perdonado una deuda de cerca de 200 millones de pesos a la firma Bicontinentar y remarcó que el monto se reclama por vía judicial. Además, advirtió que iniciará acciones legales si no hay una rectificación pública, mientras que el edil cuestionó a la prensa y la vinculó con la pauta municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales",
+   "urgente": false,
+   "vence": "2026-10-21T16:50:06.000Z",
+   "video_bytes": 1022794,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f9ee75a83eee9237.mp4"
+  },
+  "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x": {
+   "actualizado": "2026-10-19T17:00:21.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x",
+   "creado": "2026-10-19T17:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "fuera del horizonte de programación (espera en la cola)",
+   "estado": "pendiente",
+   "generado": "2026-10-19T16:50:06.000Z",
+   "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales\n\nEl jefe comunal afirmó que el monto se reclama por vía judicial. Exigió una rectificación pública ante las acusaciones del concejal libertario.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales",
+   "urgente": false,
+   "vence": "2026-10-21T16:50:06.000Z",
+   "video_bytes": 1022794,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f9ee75a83eee9237.mp4"
+  },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd12237eb16fd28e94048f",
@@ -15185,6 +15296,31 @@
    "video_bytes": 11780226,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00224.mp4"
   },
+  "entrevistas:job00225|x": {
+   "actualizado": "2026-10-19T17:00:21.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00225|x",
+   "creado": "2026-10-19T17:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T17:00:21.000Z",
+   "id": "entrevistas:job00225",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gustavo Caggiano: colecciones ocultas en Chivilcoy\n\nGustavo Caggiano, referente del Ateneo \"Jorge Luis Borges\", prepara un libro sobre los coleccionistas de Chivilcoy y el valor de los tesoros privados que muchos resguardan.\n\nhttps://youtu.be/75sEZvAizj8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gustavo Caggiano: colecciones ocultas en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-21T17:00:21.000Z",
+   "video_bytes": 27445634,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00225.mp4"
+  },
   "nacionales:02472f0cd4ba4800|tiktok": {
    "actualizado": "2026-10-19T02:40:14.000Z",
    "buffer_id": "",
@@ -15577,14 +15713,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_54abafdb21_desacuerdo-entre-milei-y-trump-por-el-comite-de.mp4"
   },
   "nacionales:552c66c451a5584e|tiktok": {
-   "actualizado": "2026-10-19T00:20:16.000Z",
+   "actualizado": "2026-10-19T17:00:44.000Z",
    "buffer_id": "",
    "clave": "nacionales:552c66c451a5584e|tiktok",
    "creado": "2026-10-19T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:51:37.000Z",
    "id": "nacionales:552c66c451a5584e",
    "intentos": 0,
@@ -24404,6 +24540,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x": {
+   "actualizado": "2026-10-19T17:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x",
+   "creado": "2026-10-19T17:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "estado": "pendiente",
+   "generado": "2026-10-19T16:48:12.833Z",
+   "id": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales",
+   "urgente": false,
+   "vence": "2026-10-20T16:48:12.000Z",
+   "video_bytes": 0,
+   "video_url": ""
+  },
   "web:474e6223-8e55-4add-aedc-549975a9f8e1|x": {
    "actualizado": "2026-10-15T15:40:19.000Z",
    "buffer_id": "6ad0b6f0d955ee29a33fa875",
@@ -30505,61 +30666,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
-   "cuando": "2026-10-16T21:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
-   "cuando": "2026-10-16T21:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad290638ac6cfe5441864bd",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|x",
-   "cuando": "2026-10-16T21:00:19.000Z",
-   "dueAt": "2026-10-16T22:45:52.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x",
-   "cuando": "2026-10-16T21:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
-   "cuando": "2026-10-16T21:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|x",
-   "cuando": "2026-10-16T21:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok",
-   "cuando": "2026-10-16T21:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x",
    "cuando": "2026-10-16T21:20:15.000Z",
    "estado": "pendiente",
@@ -34770,6 +34876,56 @@
    "cuando": "2026-10-19T16:40:15.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "entrevistas:job00225",
+   "cuando": "2026-10-19T17:00:22.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x",
+   "cuando": "2026-10-19T17:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
+   "cuando": "2026-10-19T17:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x",
+   "cuando": "2026-10-19T17:00:44.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00225|x",
+   "cuando": "2026-10-19T17:00:44.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "nacionales:552c66c451a5584e|tiktok",
+   "cuando": "2026-10-19T17:00:44.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "buffer_id": "6ad64cbdd1648e7b92bde029",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
+   "cuando": "2026-10-19T17:00:46.000Z",
+   "dueAt": "2026-10-19T22:45:49.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
@@ -34831,6 +34987,7 @@
   "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4": "2026-10-19T01:00:18.000Z",
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4": "2026-10-19T11:20:14.000Z",
   "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4": "2026-10-19T14:00:19.000Z",
+  "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -34855,6 +35012,7 @@
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
   "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
+  "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
@@ -35096,6 +35254,7 @@
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
+  "web:46323048-26ab-4cde-bf1b-7382a5e5ce92": "2026-10-19T17:00:21.000Z",
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": "2026-10-15T10:20:13.000Z",
   "web:480e86f5-f14e-481b-844f-2ac1f1192f77": "2026-10-17T00:20:12.000Z",
   "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": "2026-10-19T11:20:14.000Z",
