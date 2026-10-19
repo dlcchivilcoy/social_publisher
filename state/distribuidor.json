@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-19T17:40:31.000Z"
+   "visto": "2026-10-19T19:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 7,
-    "sent": 19
+    "scheduled": 6,
+    "sent": 20
    },
    "pausado": false,
-   "visto": "2026-10-19T17:40:31.000Z"
+   "visto": "2026-10-19T19:00:19.000Z"
   }
  },
  "contenidos": {
@@ -11295,21 +11295,21 @@
  "cuota": {
   "15m": {
    "restantes": 98,
-   "segundos": 900,
+   "segundos": 898,
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 19190,
+   "restantes": 223,
+   "segundos": 14401,
    "tope": 250
   },
   "30d": {
-   "restantes": 2682,
-   "segundos": 1913409,
+   "restantes": 2680,
+   "segundos": 1908620,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-19T17:40:33.000Z",
+ "cuota_visto": "2026-10-19T19:00:23.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13345,14 +13345,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok": {
-   "actualizado": "2026-10-19T13:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T19:00:20.000Z",
+   "buffer_id": "6ad668c6a443b466be722424",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
    "creado": "2026-10-19T13:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T19:03:45.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T13:12:41.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
    "intentos": 0,
@@ -13398,18 +13398,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok": {
-   "actualizado": "2026-10-19T17:40:31.000Z",
+   "actualizado": "2026-10-19T19:00:19.000Z",
    "buffer_id": "6ad6561000e70b77e05cc00b",
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
    "creado": "2026-10-19T13:40:18.000Z",
    "dueAt": "2026-10-19T17:43:40.000Z",
+   "enviado": "2026-10-19T17:45:28.292Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:21:05.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698436096232819975",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14600,14 +14601,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
   },
   "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T14:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T19:00:20.000Z",
+   "buffer_id": "6ad668c7a443b466be72255d",
    "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
    "creado": "2026-10-19T14:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T19:43:31.000Z",
    "error": "",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T13:45:38.000Z",
    "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
    "intentos": 0,
@@ -14653,18 +14654,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4"
   },
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T17:40:31.000Z",
+   "actualizado": "2026-10-19T19:00:19.000Z",
    "buffer_id": "6ad656112d69a6fbbf3b1a03",
    "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
    "creado": "2026-10-19T17:00:21.000Z",
    "dueAt": "2026-10-19T18:23:03.000Z",
+   "enviado": "2026-10-19T18:24:58.394Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T16:50:06.000Z",
    "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698446237464284437",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14679,14 +14681,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f9ee75a83eee9237.mp4"
   },
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x": {
-   "actualizado": "2026-10-19T17:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-19T19:00:20.000Z",
+   "buffer_id": "6ad668c5055abbe925e167f5",
    "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x",
    "creado": "2026-10-19T17:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-19T23:00:06.000Z",
    "error": "",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T16:50:06.000Z",
    "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
    "intentos": 0,
@@ -15457,6 +15459,7 @@
    "creado": "2026-10-19T18:20:14.000Z",
    "dueAt": "",
    "error": "",
+   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
    "estado": "pendiente",
    "generado": "2026-10-19T18:20:14.000Z",
    "id": "entrevistas:job00229",
@@ -16789,14 +16792,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e2ff401092_operaron-con-exito-a-emiliano-dibu-martinez-tras.mp4"
   },
   "nacionales:e50827dd69db5a5d|tiktok": {
-   "actualizado": "2026-10-19T02:40:14.000Z",
+   "actualizado": "2026-10-19T19:00:19.000Z",
    "buffer_id": "",
    "clave": "nacionales:e50827dd69db5a5d|tiktok",
    "creado": "2026-10-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tope de 12 publicaciones en 24 h de TikTok",
    "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T00:51:10.000Z",
    "id": "nacionales:e50827dd69db5a5d",
    "intentos": 0,
@@ -26024,18 +26027,19 @@
    "video_url": ""
   },
   "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x": {
-   "actualizado": "2026-10-19T14:20:28.000Z",
+   "actualizado": "2026-10-19T19:00:19.000Z",
    "buffer_id": "6ad6272ef8ab1a7963257479",
    "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "2026-10-19T18:45:03.000Z",
+   "enviado": "2026-10-19T18:45:16.471Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:18:51.375Z",
    "id": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112253765487096155",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "origen": "web",
    "plataforma": "x",
@@ -30845,56 +30849,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvb3xje6e409_01.mp4|x",
-   "cuando": "2026-10-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111219464716833230"
-  },
-  {
-   "clave": "entrevistas:job00218|x",
-   "cuando": "2026-10-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111223476925112478"
-  },
-  {
-   "clave": "entrevistas:job00219|x",
-   "cuando": "2026-10-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111216178630713447"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|x",
-   "cuando": "2026-10-16T23:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b|tiktok",
-   "cuando": "2026-10-16T23:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
-   "cuando": "2026-10-16T23:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
-   "cuando": "2026-10-16T23:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:dca831fd-6866-464f-a367-e6b85d1a5640|x",
    "cuando": "2026-10-16T23:40:15.000Z",
    "evento": "vencido",
@@ -35099,10 +35053,55 @@
    "cuando": "2026-10-19T18:40:16.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "nacionales:e50827dd69db5a5d|tiktok",
+   "cuando": "2026-10-19T19:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
+   "cuando": "2026-10-19T19:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698436096232819975"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
+   "cuando": "2026-10-19T19:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698446237464284437"
+  },
+  {
+   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
+   "cuando": "2026-10-19T19:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112253765487096155"
+  },
+  {
+   "buffer_id": "6ad668c5055abbe925e167f5",
+   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x",
+   "cuando": "2026-10-19T19:00:23.000Z",
+   "dueAt": "2026-10-19T23:00:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad668c6a443b466be722424",
+   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
+   "cuando": "2026-10-19T19:00:23.000Z",
+   "dueAt": "2026-10-19T19:03:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad668c7a443b466be72255d",
+   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
+   "cuando": "2026-10-19T19:00:23.000Z",
+   "dueAt": "2026-10-19T19:43:31.000Z",
+   "evento": "programado"
   }
  ],
  "ultima_limpieza_release": "2026-10-19",
- "ultima_sync": "2026-10-19T17:40:31.000Z",
+ "ultima_sync": "2026-10-19T19:00:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
