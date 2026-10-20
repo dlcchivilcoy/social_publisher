@@ -2057,6 +2057,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00233.mp4",
    "youtube_url": "https://youtu.be/_moa8RfVXis"
   },
+  "entrevistas:job00234": {
+   "descripcion": "Nicolás Gonzalez Bergés, titular de AIKE Drones en Chivilcoy, explica cómo funcionan los equipos con cámara térmica para vigilancia rural y búsqueda nocturna de personas.",
+   "duracion_seg": null,
+   "entrevistado": "Nicolás Gonzalez Bergés",
+   "generado": "2026-10-20T19:00:19.000Z",
+   "id": "entrevistas:job00234",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Nicolás Gonzalez Bergés: drones térmicos y seguridad en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 34514648,
+   "video_mb": 32.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00234.mp4",
+   "youtube_url": "https://youtu.be/gfYI66dMI0M"
+  },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -12536,17 +12556,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 53,
-   "segundos": 15611,
+   "restantes": 52,
+   "segundos": 14406,
    "tope": 250
   },
   "30d": {
-   "restantes": 2363,
-   "segundos": 1823425,
+   "restantes": 2362,
+   "segundos": 1822220,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T18:40:15.000Z",
+ "cuota_visto": "2026-10-20T19:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -17568,6 +17588,34 @@
    "vence": "2026-10-20T20:20:18.000Z",
    "video_bytes": 28712062,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00233.mp4",
+   "viral": false
+  },
+  "entrevistas:job00234|x": {
+   "actualizado": "2026-10-20T19:00:20.000Z",
+   "buffer_id": "6ad7ba451a1ce97999a577f3",
+   "clave": "entrevistas:job00234|x",
+   "creado": "2026-10-20T19:00:19.000Z",
+   "dueAt": "2026-10-20T19:02:57.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T19:00:19.000Z",
+   "id": "entrevistas:job00234",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:berges-chivilcoy-drones-gonzalez-nicolas-seguridad-termicos",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Nicolás Gonzalez Bergés: drones térmicos y seguridad en Chivilcoy\n\nNicolás Gonzalez Bergés, titular de AIKE Drones en Chivilcoy, explica cómo funcionan los equipos con cámara térmica para vigilancia rural y búsqueda nocturna de personas.\n\nhttps://youtu.be/gfYI66dMI0M",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Nicolás Gonzalez Bergés: drones térmicos y seguridad en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-20T21:00:19.000Z",
+   "video_bytes": 34514648,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00234.mp4",
    "viral": false
   },
   "nacionales:02472f0cd4ba4800|tiktok": {
@@ -34604,24 +34652,6 @@
  },
  "registro": [
   {
-   "clave": "web:2501c79e-6248-40fd-9e51-af526da9d612|x",
-   "cuando": "2026-10-18T16:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111838591743643911"
-  },
-  {
-   "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
-   "cuando": "2026-10-18T16:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111853754408456234"
-  },
-  {
-   "clave": "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x",
-   "cuando": "2026-10-18T16:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111850771629093325"
-  },
-  {
    "clave": "web:b355a924-69fb-44bb-b43c-862727b7b5f2|x",
    "cuando": "2026-10-18T16:20:14.000Z",
    "evento": "enviado",
@@ -38773,6 +38803,26 @@
    "cuando": "2026-10-20T18:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112610502119457161"
+  },
+  {
+   "clave": "entrevistas:job00234",
+   "cuando": "2026-10-20T19:00:19.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00234|x",
+   "cuando": "2026-10-20T19:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad7ba451a1ce97999a577f3",
+   "clave": "entrevistas:job00234|x",
+   "cuando": "2026-10-20T19:00:21.000Z",
+   "dueAt": "2026-10-20T19:02:57.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38884,6 +38934,7 @@
   "entrevistas:job00231": "2026-10-20T17:40:15.000Z",
   "entrevistas:job00232": "2026-10-20T18:00:17.000Z",
   "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
+  "entrevistas:job00234": "2026-10-20T19:00:19.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
