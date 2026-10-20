@@ -90,7 +90,8 @@ jobs:
     # 120 desde el 18/10/2026: el carrusel de las 10 sale NOTA POR NOTA en Instagram, una cada 5
     # minutos (CARRUSEL_INTERVALO_MIN): 14 notas son ~65 min de publicacion legitima.
     # 260 desde el 19/10/2026: arranca a las 7 y sale una cada 15 minutos: 14 notas son ~3 h 30.
-    timeout-minutes: 260
+    # 340: --notes-web publica en Facebook una nota cada 15 min (20/10/2026): 20 notas ≈ 5 h.
+    timeout-minutes: 340
     # El runner corre en UTC; con esto Python usa hora de Argentina para
     # date.today()/now() (clave para detectar la "edicion de hoy" y los ledgers diarios).
     env:

@@ -28,7 +28,7 @@ from pathlib import Path
 
 from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_edition
 from platforms import facebook, instagram, wix
-from publisher import (_hashtags, _load_ledger, _post_delay, _prepare_image, _resumen,
+from publisher import (_hashtags, _load_ledger, _prepare_image, _resumen,
                        _save_ledger)
 from story_image import (compose_carrusel_slide, compose_carrusel_story, compose_lamina_carrusel,
                          estilos_carrusel)
@@ -108,6 +108,16 @@ def _fb_individual_activo() -> bool:
     """Posteo individual de cada nota a Facebook (uno por nota). ON por defecto; se
     apaga con NOTAS_FB_INDIVIDUAL=0. Instagram sigue con el carrusel (no se toca)."""
     return str(get("NOTAS_FB_INDIVIDUAL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _fb_intervalo_seg() -> int:
+    """Minutos entre una nota y la siguiente en Facebook (NOTAS_FB_INTERVALO_MIN). 15 desde el 20/10/2026
+    (pedido del editor: «que se publiquen desde las 7am de lunes a viernes pero cada 15 minutos»); antes
+    salían cada 2 minutos (POST_DELAY_SECONDS)."""
+    try:
+        return max(0, int(float(get("NOTAS_FB_INTERVALO_MIN") or 15) * 60))
+    except ValueError:
+        return 900
 
 
 # ── Posteo de cada nota en Facebook: SUBIENDO LA FOTO PROPIA (imagen garantizada) ─────
@@ -232,6 +242,9 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
     logger.info(f"[facebook] {len(pending)} nota(s) para postear ({modo}, una por una)…")
 
     sin_url, errores = [], []
+    intervalo = _fb_intervalo_seg()
+    logger.info(f"[facebook] una nota cada {intervalo // 60} min")
+    ultimo = None
     for i, note in enumerate(pending):
         volanta, titular, _ = _parse_nota(note["docx"])
         if not titular:
@@ -248,6 +261,11 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
             logger.info(f"[facebook][dry-run] postearía [{modo}] «{titular[:40]}» → {url}")
             continue
 
+        # Una cada `intervalo` desde la anterior que salió (la primera, enseguida).
+        if ultimo is not None:
+            falta = ultimo + intervalo - time.monotonic()
+            if falta > 0:
+                time.sleep(falta)
         try:
             if subir_foto:
                 # Subimos la FOTO PROPIA de la nota → la imagen SIEMPRE es la correcta.
@@ -259,6 +277,7 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
                         img.unlink()
             else:
                 facebook.publish_link(url)  # SOLO el link (FB arma la tarjeta él mismo)
+            ultimo = time.monotonic()
             fb_ledger.add(note["key"])
             _save_fb_ledger(posts_folder, fb_ledger)  # guarda tras cada uno (resiliente)
             logger.info(f"[facebook] OK [{modo}] — «{titular[:40]}» → {url}")
@@ -266,8 +285,6 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
             logger.error(f"[facebook] FALLÓ — «{titular[:40]}»: {e}")
             errores.append(f"{titular[:50]} ({e})")
             continue
-        if i < len(pending) - 1:  # espaciar entre posteos (anti-ráfaga), no tras el último
-            time.sleep(_post_delay())
 
     if not dry_run:
         _avisar_notas_no_posteadas(sin_foto, sin_url, errores)
