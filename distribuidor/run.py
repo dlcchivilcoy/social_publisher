@@ -223,6 +223,47 @@ def vencer(est: dict) -> int:
     return n
 
 
+# ----------------------------------------------------------------------------- 2b. depurar
+def depurar(est: dict, simular: bool = False) -> int:
+    """Saca de la cola (y de Buffer, si ya estaba programado) lo que no va según las reglas vigentes
+    (x_sincro.fuera_de_regla: entre semana solo el diario, el bot y los recortes)."""
+    ahora, n, borrar = estado.ahora(), 0, []
+    plan = x_sincro.plan_ig(ahora) if x_sincro.a_la_par_activo() else []
+    for p in est["publicaciones"].values():
+        if p["estado"] not in ("pendiente", "programado"):
+            continue
+        motivo = x_sincro.fuera_de_regla(p, ahora, plan)
+        if not motivo:
+            continue
+        if p["estado"] == "programado":
+            if not p.get("buffer_id") or (estado.de_iso(p.get("dueAt")) or ahora) <= ahora + timedelta(minutes=3):
+                continue                     # ya sale: no se toca
+            p["_motivo"] = motivo
+            borrar.append(p)
+            continue
+        p.update(estado="descartado", actualizado=estado.iso(ahora), error=motivo)
+        estado.anotar(est, "depurado", clave=p["clave"], motivo=motivo)
+        n += 1
+    if borrar and not simular and config.activo():
+        try:
+            res = buffer_api.crear_lote([], [p["buffer_id"] for p in borrar])
+        except buffer_api.BufferError as e:
+            logger.warning(f"no pude sacar de Buffer lo que ya no va: {e}")
+            res = {"_borrados": []}
+        for p in borrar:
+            motivo = p.pop("_motivo")
+            if p["buffer_id"] in res.get("_borrados", []):
+                p.update(estado="descartado", actualizado=estado.iso(ahora), error=motivo + " (sacado de Buffer)")
+                estado.anotar(est, "depurado", clave=p["clave"], motivo=p["error"])
+                n += 1
+    else:
+        for p in borrar:
+            p.pop("_motivo", None)
+    if n:
+        logger.info(f"depurados (ya no van según las reglas): {n}")
+    return n
+
+
 # ----------------------------------------------------------------------------- 3. sincronizar
 def cuota_alcanza(est: dict, para: str) -> bool:
     """¿Queda cuota? `para` = "consulta" (prescindible) o "publicar" (lo importante)."""
@@ -616,7 +657,8 @@ def pasada(simular: bool = False) -> int:
     if config.activo() and not simular and cuota_alcanza(est, "consulta"):
         leer_metricas(est)
     venc = vencer(est)
-    logger.info(f"entrada: {cuenta} · vencidos: {venc}")
+    dep = depurar(est, simular)
+    logger.info(f"entrada: {cuenta} · vencidos: {venc} · depurados: {dep}")
 
     if not config.activo() and not simular:
         logger.info("DISTRIBUIDOR_ACTIVO no está prendido: se junta la cola, no se toca Buffer.")

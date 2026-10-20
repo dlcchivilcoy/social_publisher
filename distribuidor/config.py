@@ -204,6 +204,17 @@ NAC_VIRALES = {"virales"}
 # 20/10/2026: las nacionales salen solo como REEL con video y llegan a X por el buzón de policiales-bsas;
 # su nota de la web ya no va (era la misma noticia dos veces y se comía el tope de X).
 X_SIN_NOTAS_NACIONALES = _bool("X_SIN_NOTAS_NACIONALES", True)
+# ENTRE SEMANA, SOLO LO PROPIO (pedido del editor, 20/10/2026: «solo dejá las notas de Chivilcoy de mi diario
+# que se publican a la mañana, el espacio para las publicaciones del bot como prioridad y que aparezcan
+# también mis recortes de entrevistas; virales, deportes, espectáculos, IA, generales, nacionales, etc.,
+# dejalo para el fin de semana»). De lunes a viernes, X y TikTok llevan solo el diario (X), el bot y los
+# recortes; estos orígenes salen solo el sábado y el domingo. DIST_SOLO_FINDE="" lo apaga.
+SOLO_FINDE = {o.strip() for o in (os.environ["DIST_SOLO_FINDE"] if "DIST_SOLO_FINDE" in os.environ
+                                  else "nacionales,policiales").split(",") if o.strip()}
+# De la web, a X solo van las notas del diario de la mañana (las del carrusel, con su hora de Instagram).
+X_WEB_SOLO_DIARIO = _bool("X_WEB_SOLO_DIARIO", True)
+# El bot, primero (X y TikTok): no lo frenan la reserva de virales ni el cupo de su origen.
+BOT_PRIMERO = _bool("BOT_PRIMERO", True)
 VIRAL_PRIORIDAD = 9
 # La nota en X sale con su foto destacada adjunta (más visible que la tarjeta del link,
 # que además X puede no leer en una nota recién publicada). 0 = solo el link.

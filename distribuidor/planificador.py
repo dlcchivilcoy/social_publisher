@@ -136,7 +136,9 @@ def puntaje_viral(pub: dict, ahora: datetime) -> float:
     """Lo más viral primero (la «prioridad» del buzón ES el potencial viral de la pieza, 1-10); a igual
     viralidad, lo más nuevo. Lo urgente, antes que todo."""
     edad_h = max(0.0, (ahora - (estado.de_iso(pub.get("generado")) or ahora)).total_seconds() / 3600)
-    return (config.BONO_URGENTE if pub.get("urgente") else 0) + 10 * int(pub.get("prioridad") or 5) - edad_h
+    bot = 1000 if config.BOT_PRIMERO and pub.get("origen") == "bot" else 0     # el bot, primero (20/10/2026)
+    return (bot + (config.BONO_URGENTE if pub.get("urgente") else 0) + 10 * int(pub.get("prioridad") or 5)
+            - edad_h)
 
 
 def elegir_tanda(cola: list, n: int, max_origen: int, ahora: datetime) -> list:
@@ -147,7 +149,7 @@ def elegir_tanda(cola: list, n: int, max_origen: int, ahora: datetime) -> list:
     for p in orden:
         if len(elegidas) >= n:
             break
-        if por_origen.get(p["origen"], 0) < max_origen:
+        if por_origen.get(p["origen"], 0) < max_origen or (config.BOT_PRIMERO and p["origen"] == "bot"):
             elegidas.append(p)
             por_origen[p["origen"]] = por_origen.get(p["origen"], 0) + 1
     for p in orden:

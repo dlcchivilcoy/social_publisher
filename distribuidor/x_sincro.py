@@ -182,7 +182,27 @@ def hora_en_ig(pub: dict, plan: list):
 
 
 def prioritaria(pub: dict) -> bool:
-    return bool(pub.get("ig_hora")) or pub.get("origen") == "entrevistas"
+    return (bool(pub.get("ig_hora")) or pub.get("origen") == "entrevistas"
+            or (config.BOT_PRIMERO and pub.get("origen") == "bot"))
+
+
+def fuera_de_regla(pub: dict, ahora: datetime, plan: list = None) -> str:
+    """Por qué una publicación PENDIENTE ya no va (20/10/2026), o "".
+      - entre semana, nacionales y policiales no van (son del fin de semana);
+      - de la web, a X solo las notas del diario de la mañana: las del plan del carrusel o, si el plan
+        no llegó, las cargadas a la mañana de un día hábil."""
+    hora = (estado.de_iso(pub.get("dueAt")) if pub.get("estado") == "programado" else None) or ahora
+    if pub.get("origen") in config.SOLO_FINDE and hora.astimezone(_AR).weekday() < 5:
+        return "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
+    if pub.get("origen") == "web" and pub.get("plataforma") == "x" and config.X_WEB_SOLO_DIARIO \
+            and not pub.get("ig_hora"):
+        gen = (estado.de_iso(pub.get("generado")) or ahora).astimezone(_AR)
+        manana = gen.weekday() < 5 and 6 <= gen.hour < 11 and gen.date() == ahora.astimezone(_AR).date()
+        if not manana:
+            return "de la web, a X solo van las notas del diario de la mañana"
+        if plan and ahora - gen > timedelta(minutes=40):
+            return "no está en el carrusel del diario de hoy"
+    return ""
 
 
 def espera_plan(pub: dict, plan: list, ahora: datetime) -> str:

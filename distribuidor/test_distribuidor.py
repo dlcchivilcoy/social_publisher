@@ -90,6 +90,8 @@ def preparar(eventos_fn):
     estado.BUZON = tmp / "buzon"
     from distribuidor import x_sincro as _xs
     _xs.PLAN_IG = tmp / "carrusel_plan.json"          # nunca el plan real del repo
+    # Las reglas del 20/10/2026 (entre semana solo lo propio) tienen su prueba (prueba_semana_finde).
+    config.SOLO_FINDE, config.X_WEB_SOLO_DIARIO, config.BOT_PRIMERO = set(), False, False
     falso = BufferFalso()
     buffer_api.crear_lote = falso.crear_lote
     buffer_api.estado_general = falso.estado_general
@@ -636,6 +638,43 @@ def prueba_tandas_tiktok():
         os.environ["INTERCALADO"] = "0"
 
 
+def prueba_semana_finde():
+    """Entre semana, X y TikTok llevan solo el diario de la mañana, el bot (primero) y los recortes; nacionales
+    y policiales, el finde (20/10/2026)."""
+    print("\n— Entre semana solo lo propio; lo demás, el finde —")
+    preparar(lambda: [])
+    config.SOLO_FINDE, config.X_WEB_SOLO_DIARIO, config.BOT_PRIMERO = {"nacionales", "policiales"}, True, True
+    try:
+        reloj(AR_10)                                                     # lunes 10:00
+        est = estado.vacio()
+        run.encolar(est, [ev(1, "nacionales", plataformas=["x", "tiktok"], titulo="Tormenta en Córdoba deja evacuados"),
+                          ev(2, "policiales", titulo="Robaron una moto en Bragado"),
+                          dict(ev(3, "bot"), plataformas=["x", "tiktok"], titulo="Inauguraron la plaza de Villa Moquehuá"),
+                          dict(ev(4, "entrevistas"), plataformas=["x"], titulo="Britos habló de las cloacas en la radio"),
+                          dict(ev(5, "web"), titulo="Agro: cultivos de cobertura en soja", generado=estado.iso(AR_10 - timedelta(hours=20)))])
+        n = run.depurar(est)
+        px = est["publicaciones"]
+        quedan = sorted(k for k, p in px.items() if p["estado"] == "pendiente")
+        chequear("lunes: nacionales, policiales y notas web viejas salen de la cola; quedan el bot y los recortes",
+                 quedan == ["bot:3|tiktok", "bot:3|x", "entrevistas:4|x"] and n >= 4, (quedan, n))
+        chequear("…con su motivo", "finde" in px["nacionales:1|tiktok"]["error"] and "mañana" in px["web:5|x"]["error"])
+        a, _d, _e = planificador.planificar(est, "x", AR_10)
+        chequear("X: el bot y el recorte se programan (el bot, prioridad)", {k for k, _t in a} == {"bot:3|x", "entrevistas:4|x"}, a)
+        sabado = AR_10 + timedelta(days=5)
+        reloj(sabado)
+        est2 = estado.vacio()
+        run.encolar(est2, [ev(6, "nacionales", plataformas=["x", "tiktok"], titulo="Gran final del torneo de vóley"),
+                           ev(7, "policiales", titulo="Choque en la ruta 5 cerca de Alberti")])
+        chequear("sábado: nacionales y policiales sí van", run.depurar(est2) == 0
+                 and all(p["estado"] == "pendiente" for p in est2["publicaciones"].values()))
+        cola = [dict(clave=f"n{i}", origen="nacionales", prioridad=9, generado=estado.iso(sabado)) for i in range(4)]
+        cola += [dict(clave=f"b{i}", origen="bot", prioridad=5, generado=estado.iso(sabado)) for i in range(3)]
+        elegidas = [p["clave"] for p in planificador.elegir_tanda(cola, 4, 2, sabado)]
+        chequear("TikTok: en la tanda el bot va primero, sin el tope de 2 por origen", elegidas[:3] == ["b0", "b1", "b2"], elegidas)
+    finally:
+        config.SOLO_FINDE, config.X_WEB_SOLO_DIARIO, config.BOT_PRIMERO = set(), False, False
+
+
 def prueba_x_sincro():
     """X SINCRONIZADO Y SIN REPETIDOS (19/10/2026): una noticia, un posteo (el reel gana a la nota); sale
     cuando salió en las otras redes, con 5 min entre posteos de X y las notas web cada 15."""
@@ -754,7 +793,8 @@ def prueba_x_sincro():
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
-              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok, prueba_x_sincro):
+              prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok, prueba_x_sincro,
+              prueba_semana_finde):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)

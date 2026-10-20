@@ -195,3 +195,22 @@ diario y de los recortes de la radio».
 - **Las nacionales de la web ya no van a X** (`X_SIN_NOTAS_NACIONALES`): llegan como reel por el buzón de
   policiales-bsas.
 - Interruptores: `CARRUSEL_PLAN_X=0` (el carrusel no deja plan y arranca enseguida), `X_A_LA_PAR_IG=0`.
+
+## Entre semana, solo lo propio (20/10/2026)
+
+Pedido del editor: «solo dejá las notas de Chivilcoy de mi diario que se publican a la mañana, el espacio
+para las publicaciones del bot como prioridad y que aparezcan también mis recortes de entrevistas; lo que es
+virales, deportes, espectáculos, IA, generales, nacionales, etc., dejalo para el fin de semana».
+
+| | lunes a viernes | sábado y domingo |
+|---|---|---|
+| X | notas del diario de la mañana (a su hora de IG), bot, recortes | bot, recortes, nacionales, policiales |
+| TikTok | bot | bot, nacionales, policiales |
+
+- Cada pasada **depura** (`run.depurar`): lo pendiente que ya no va se descarta y lo programado en Buffer se
+  borra (salvo lo que sale en 3 minutos). Motivos en `x_sincro.fuera_de_regla`.
+- **El bot, primero**: en X no lo frenan la reserva de virales ni su cupo; en TikTok va primero en cada
+  tanda y sin el tope de 2 por origen.
+- De la web, a X solo las notas del carrusel del día (o, si el plan no llegó, las cargadas a la mañana).
+- Interruptores: `DIST_SOLO_FINDE` (orígenes del finde; vacío = todos todos los días), `X_WEB_SOLO_DIARIO=0`,
+  `BOT_PRIMERO=0`.
