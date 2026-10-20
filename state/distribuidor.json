@@ -2202,6 +2202,33 @@
    "volanta": "Tomás Videla",
    "youtube_url": "https://youtube.com/shorts/DfIQ80gOckM"
   },
+  "nacionales:10671478a956c2ad": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "Un programa chilena mostró objetos de homenaje a los soldados argentinos arrojados tras la cerca del predio en las islas, pero la empresa encargada aclaró que se trató de tareas de mantenimiento autorizadas.",
+   "duracion_seg": 41.8,
+   "generado": "2026-10-20T22:16:49.000Z",
+   "hashtags": [
+    "Malvinas",
+    "Darwin"
+   ],
+   "id": "nacionales:10671478a956c2ad",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-por-placas-de-caidos-en-malvinas-halladas-fuera-del-106714",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Polémica por placas y ofrendas argentinas halladas fuera del Cementerio de Darwin",
+   "urgente": false,
+   "video_bytes": 2812344,
+   "video_mb": 2.7,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_10671478a9_polemica-por-placas-y-ofrendas-argentinas.mp4",
+   "volanta": "Malvinas",
+   "youtube_url": "https://youtube.com/shorts/weZlFxILbYI"
+  },
   "nacionales:206df88111ec06ca": {
    "categoria": "Mundo",
    "categoria_nacional": "internacionales",
@@ -17873,6 +17900,60 @@
    "vence": "2026-10-19T15:50:44.000Z",
    "video_bytes": 656560,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0ffb2e8d26_el-compositor-argentino-tomas-videla-fue-nominado.mp4"
+  },
+  "nacionales:10671478a956c2ad|tiktok": {
+   "actualizado": "2026-10-20T22:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:10671478a956c2ad|tiktok",
+   "creado": "2026-10-20T22:20:13.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-20T22:16:49.000Z",
+   "id": "nacionales:10671478a956c2ad",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-por-placas-de-caidos-en-malvinas-halladas-fuera-del-106714",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Polémica por placas y ofrendas argentinas halladas fuera del Cementerio de Darwin\n\nUn programa chilena mostró objetos de homenaje a los soldados argentinos arrojados tras la cerca del predio en las islas, pero la empresa encargada aclaró que se trató de tareas de mantenimiento autorizadas.\n\nhttps://www.diariolacampaña.com.ar/n/polemica-por-placas-de-caidos-en-malvinas-halladas-fuera-del-106714\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Polémica por placas y ofrendas argentinas halladas fuera del Cementerio de Darwin",
+   "urgente": false,
+   "vence": "2026-10-21T16:16:49.000Z",
+   "video_bytes": 2812344,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_10671478a9_polemica-por-placas-y-ofrendas-argentinas.mp4",
+   "viral": false
+  },
+  "nacionales:10671478a956c2ad|x": {
+   "actualizado": "2026-10-20T22:20:15.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:10671478a956c2ad|x",
+   "creado": "2026-10-20T22:20:13.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-20T22:16:49.000Z",
+   "id": "nacionales:10671478a956c2ad",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/polemica-por-placas-de-caidos-en-malvinas-halladas-fuera-del-106714",
+   "noticia": "nota:polemica-por-placas-de-caidos-en-malvinas-halladas-fuera-del-106714",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Polémica por placas y ofrendas argentinas halladas fuera del Cementerio de Darwin\n\nUn programa chileno mostró homenajes a soldados arrojados tras la cerca de un predio. La empresa encargada aclaró que se trató de tareas de mantenimiento autorizadas.\n\nhttps://www.diariolacampaña.com.ar/n/polemica-por-placas-de-caidos-en-malvinas-halladas-fuera-del-106714",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Polémica por placas y ofrendas argentinas halladas fuera del Cementerio de Darwin",
+   "urgente": false,
+   "vence": "2026-10-21T00:16:49.000Z",
+   "video_bytes": 2812344,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_10671478a9_polemica-por-placas-y-ofrendas-argentinas.mp4",
+   "viral": false
   },
   "nacionales:206df88111ec06ca|tiktok": {
    "actualizado": "2026-10-20T15:20:17.000Z",
@@ -34934,36 +35015,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x",
-   "cuando": "2026-10-18T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok",
-   "cuando": "2026-10-18T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
-   "cuando": "2026-10-18T18:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:38a2facb-610c-48c3-ba78-33049770dfcf|x",
-   "cuando": "2026-10-18T18:20:23.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
    "cuando": "2026-10-18T18:20:24.000Z",
    "evento": "enviado",
@@ -39102,6 +39153,34 @@
    "cuando": "2026-10-20T22:00:21.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "nacionales:10671478a956c2ad|x",
+   "cuando": "2026-10-20T22:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:10671478a956c2ad|tiktok",
+   "cuando": "2026-10-20T22:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:10671478a956c2ad|x",
+   "cuando": "2026-10-20T22:20:15.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:10671478a956c2ad|tiktok",
+   "cuando": "2026-10-20T22:20:15.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -39220,6 +39299,7 @@
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
   "nacionales:0ffb2e8d26094748": "2026-10-19T00:20:16.000Z",
+  "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
   "nacionales:206df88111ec06ca": "2026-10-19T23:20:14.000Z",
   "nacionales:23d1fc7d2341fc89": "2026-10-19T15:20:16.000Z",
   "nacionales:25f7704c0cf2a754": "2026-10-19T09:00:17.000Z",
