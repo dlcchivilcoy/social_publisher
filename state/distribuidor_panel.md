@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -29,7 +29,7 @@ Actualizado: 19/10/2026 21:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2553 de 3000 (visto 2026-10-20T00:20:20.000Z)
 
-## Cola propia (85 esperando)
+## Cola propia (83 esperando)
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -71,8 +71,6 @@ Actualizado: 19/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T23:40 vencido web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x cupo diario de Notas web en X completo (15)
-- 2026-10-19T23:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
 - 2026-10-19T23:40 programado bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x 
 - 2026-10-20T00:00 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|x 
 - 2026-10-20T00:00 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|tikto 
@@ -96,3 +94,5 @@ Actualizado: 19/10/2026 21:20 (hora AR) · ACTIVO
 - 2026-10-20T00:20 enviado policiales:https://infociudad.com.ar/actualidad/san-antonio- 
 - 2026-10-20T00:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
 - 2026-10-20T00:20 programado nacionales:42bad0f0b5785838|x 
+- 2026-10-20T00:40 vencido bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T00:40 vencido web:593361c2-110f-4e68-b565-1c86df54fffe|x cupo diario de Notas web en X completo (15)
