@@ -1,21 +1,21 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 10 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 6 | 0 | 4 | 1 | 0 | 0 |
+| Reels del bot | X | 10 | 10 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 6 | 0 | 5 | 1 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 45 | 0 | 1 | 6 |
-| Nacionales y categorías | X | 12 | 0 | 3 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 4 | 1 | 21 | 0 | 7 | 0 |
+| Notas web | X | 15 | 15 | 0 | 45 | 0 | 1 | 7 |
+| Nacionales y categorías | X | 12 | 3 | 0 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 5 | 0 | 21 | 0 | 7 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 32 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 11 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 35 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
@@ -28,9 +28,11 @@ Actualizado: 19/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2550 de 3000 (visto 2026-10-20T01:20:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2549 de 3000 (visto 2026-10-20T01:40:18.000Z)
 
 ## Cola propia (82 esperando)
+- X · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — cupo diario de Reels del bot en X completo (10)
+- TikTok · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -59,8 +61,6 @@ Actualizado: 19/10/2026 22:20 (hora AR) · ACTIVO
 - X · Notas web · Polémica en Sídney por un video viral: sacaron un pez invasor de un estanque púb — cupo diario de Notas web en X completo (15)
 - TikTok · Nacionales y categorías · Toques de queda localizados en Francia tras disturbios y saqueos masivos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el mont — cupo diario de Notas web en X completo (15)
-- X · Notas web · Temporal histórico en España: cuatro muertos y más de 800.000 personas confinada — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,15 +72,6 @@ Actualizado: 19/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x 
-- 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|x 
-- 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x 
-- 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x 
-- 2026-10-20T00:20 enviado entrevistas:job00225|x 
-- 2026-10-20T00:20 enviado entrevistas:job00226|x 
-- 2026-10-20T00:20 enviado entrevistas:job00228|x 
-- 2026-10-20T00:20 enviado entrevistas:job00229|x 
-- 2026-10-20T00:20 enviado nacionales:9cae8a7fbd11ec6c|tiktok 
 - 2026-10-20T00:20 enviado policiales:https://infociudad.com.ar/actualidad/san-antonio- 
 - 2026-10-20T00:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en 
 - 2026-10-20T00:20 programado nacionales:42bad0f0b5785838|x 
@@ -97,3 +88,12 @@ Actualizado: 19/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-20T01:20 vencido web:1577e055-5def-4f13-aaba-45b5fbac35da|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T01:20 vencido web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T01:20 programado nacionales:4399eb58559e6a51|x 
+- 2026-10-20T01:40 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|x 
+- 2026-10-20T01:40 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|tikto 
+- 2026-10-20T01:40 recibido web:d831e553-7a38-4db9-87b3-9dc75a105046|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-20T01:40 vencido web:594e84e0-bc01-4c60-a132-6a7f872182e0|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T01:40 vencido web:82d9c768-a466-49ff-882d-09e27a21796f|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T01:40 enviado nacionales:42bad0f0b5785838|x 
+- 2026-10-20T01:40 enviado nacionales:4399eb58559e6a51|x 
+- 2026-10-20T01:40 enviado nacionales:632442afcb23e9fb|tiktok 
+- 2026-10-20T01:40 enviado nacionales:9e0c09454f9048c5|x 
