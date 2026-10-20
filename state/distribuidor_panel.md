@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 3 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 1 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 20/10/2026 15:20 (hora AR) · ACTIVO
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 41 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 45 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 20/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 54 de 250 · 30d: quedan 2364 de 3000 (visto 2026-10-20T18:20:22.000Z)
+15m: quedan 99 de 100 · 24h: quedan 53 de 250 · 30d: quedan 2363 de 3000 (visto 2026-10-20T18:40:15.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Robaron en Troka y difundieron las cámaras de seguridad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,10 +55,6 @@ Actualizado: 20/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T15:47 recuperado policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- la regla vigente lo deja
-- 2026-10-20T15:47 recuperado policiales:https://www.diariodemocracia.com/policiales/34678 la regla vigente lo deja
-- 2026-10-20T16:20 recibido bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
-- 2026-10-20T16:20 recibido bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
 - 2026-10-20T16:20 enviado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x 
 - 2026-10-20T16:20 programado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
 - 2026-10-20T17:00 entrevista_aprobada entrevistas:job00230 
@@ -80,3 +76,7 @@ Actualizado: 20/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-20T18:20 entrevista_aprobada entrevistas:job00233 
 - 2026-10-20T18:20 recibido entrevistas:job00233|x 
 - 2026-10-20T18:20 programado entrevistas:job00233|x 
+- 2026-10-20T18:40 enviado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x 
+- 2026-10-20T18:40 enviado entrevistas:job00231|x 
+- 2026-10-20T18:40 enviado entrevistas:job00232|x 
+- 2026-10-20T18:40 enviado entrevistas:job00233|x 
