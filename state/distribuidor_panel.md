@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
@@ -28,9 +28,9 @@ Actualizado: 20/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 59 de 250 · 30d: quedan 2369 de 3000 (visto 2026-10-20T16:20:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 58 de 250 · 30d: quedan 2368 de 3000 (visto 2026-10-20T17:00:19.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Robaron la caja registradora de una carnicería en la avenida Güemes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -41,7 +41,6 @@ Actualizado: 20/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Vecino evitó un robo al alertar a la Policía sobre tres ladrones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Balea con proyectil de goma a un joven que eludió un control en moto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -56,10 +55,6 @@ Actualizado: 20/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T15:40 programado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x 
-- 2026-10-20T15:43 depurado nacionales:42bad0f0b5785838|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
-- 2026-10-20T15:43 depurado nacionales:4399eb58559e6a51|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
-- 2026-10-20T15:43 depurado nacionales:6b05c0de5e77c089|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
 - 2026-10-20T15:43 depurado nacionales:9e0c09454f9048c5|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
 - 2026-10-20T15:43 depurado nacionales:d553fbc1ee6752bd|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
 - 2026-10-20T15:43 depurado policiales:https://infociudad.com.ar/actualidad/san-antonio- entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
@@ -81,3 +76,7 @@ Actualizado: 20/10/2026 13:40 (hora AR) · ACTIVO
 - 2026-10-20T16:20 recibido bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
 - 2026-10-20T16:20 enviado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x 
 - 2026-10-20T16:20 programado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
+- 2026-10-20T17:00 entrevista_aprobada entrevistas:job00230 
+- 2026-10-20T17:00 recibido entrevistas:job00230|x 
+- 2026-10-20T17:00 vencido policiales:https://infociudad.com.ar/actualidad/san-antonio- TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T17:00 programado entrevistas:job00230|x 

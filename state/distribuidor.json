@@ -1956,6 +1956,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00229.mp4",
    "youtube_url": "https://youtu.be/gzrhdms-g1s"
   },
+  "entrevistas:job00230": {
+   "descripcion": "En Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.",
+   "duracion_seg": null,
+   "entrevistado": "Jorge Giallorenzi",
+   "generado": "2026-10-20T17:00:17.000Z",
+   "id": "entrevistas:job00230",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto",
+   "urgente": false,
+   "video_bytes": 24158249,
+   "video_mb": 23.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
+   "youtube_url": "https://youtu.be/MCVGMIP1KV4"
+  },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -12430,22 +12450,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 59,
-   "segundos": 24000,
+   "restantes": 58,
+   "segundos": 21608,
    "tope": 250
   },
   "30d": {
-   "restantes": 2369,
-   "segundos": 1831814,
+   "restantes": 2368,
+   "segundos": 1829423,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T16:20:27.000Z",
+ "cuota_visto": "2026-10-20T17:00:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -17297,6 +17317,34 @@
    "video_bytes": 29602471,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00229.mp4"
   },
+  "entrevistas:job00230|x": {
+   "actualizado": "2026-10-20T17:00:17.000Z",
+   "buffer_id": "6ad79e224367d45ae956ea3b",
+   "clave": "entrevistas:job00230|x",
+   "creado": "2026-10-20T17:00:17.000Z",
+   "dueAt": "2026-10-20T17:02:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T17:00:17.000Z",
+   "id": "entrevistas:job00230",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:desgarrador-giallorenzi-haiku-jorge-terremoto",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto\n\nEn Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.\n\nhttps://youtu.be/MCVGMIP1KV4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto",
+   "urgente": false,
+   "vence": "2026-10-20T19:00:17.000Z",
+   "video_bytes": 24158249,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
+   "viral": false
+  },
   "nacionales:02472f0cd4ba4800|tiktok": {
    "actualizado": "2026-10-19T19:40:15.000Z",
    "buffer_id": "",
@@ -19765,14 +19813,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
   },
   "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok": {
-   "actualizado": "2026-10-20T15:47:41.000Z",
+   "actualizado": "2026-10-20T17:00:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
    "creado": "2026-10-19T23:00:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T22:50:41.000Z",
    "id": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/",
    "intentos": 0,
@@ -34331,35 +34379,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad4da4da48c8f83719fe346",
-   "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
-   "cuando": "2026-10-18T14:40:14.000Z",
-   "dueAt": "2026-10-18T16:30:05.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698013552829156628"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
    "cuando": "2026-10-18T15:00:22.000Z",
    "evento": "enviado",
@@ -38508,6 +38527,32 @@
    "cuando": "2026-10-20T16:20:27.000Z",
    "dueAt": "2026-10-20T16:22:58.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00230",
+   "cuando": "2026-10-20T17:00:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00230|x",
+   "cuando": "2026-10-20T17:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
+   "cuando": "2026-10-20T17:00:17.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ad79e224367d45ae956ea3b",
+   "clave": "entrevistas:job00230|x",
+   "cuando": "2026-10-20T17:00:19.000Z",
+   "dueAt": "2026-10-20T17:02:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38614,6 +38659,7 @@
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
   "entrevistas:job00228": "2026-10-19T17:40:30.000Z",
   "entrevistas:job00229": "2026-10-19T18:20:14.000Z",
+  "entrevistas:job00230": "2026-10-20T17:00:17.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
