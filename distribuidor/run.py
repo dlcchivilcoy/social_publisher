@@ -229,6 +229,13 @@ def depurar(est: dict, simular: bool = False) -> int:
     (x_sincro.fuera_de_regla: entre semana solo el diario, el bot y los recortes)."""
     ahora, n, borrar = estado.ahora(), 0, []
     plan = x_sincro.plan_ig(ahora) if x_sincro.a_la_par_activo() else []
+    # Lo que una regla vieja sacó y la vigente deja (los policiales, 20/10/2026) vuelve a la cola (si vence,
+    # lo vence vencer() en la próxima pasada).
+    for p in est["publicaciones"].values():
+        if (p["estado"] == "descartado" and p["origen"] not in config.SOLO_FINDE
+                and (p.get("error") or "").startswith("entre semana X y TikTok llevan solo")):
+            p.update(estado="pendiente", actualizado=estado.iso(ahora), error="")
+            estado.anotar(est, "recuperado", clave=p["clave"], motivo="la regla vigente lo deja")
     for p in est["publicaciones"].values():
         if p["estado"] not in ("pendiente", "programado"):
             continue
