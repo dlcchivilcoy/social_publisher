@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 1 | 0 | 1 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 1 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 11 | 4 | 0 | 0 | 13 | 3 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 40 enviadas + 1 programadas de 100 por día
+- X: conectado · Buffer: 41 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,9 +28,9 @@ Actualizado: 20/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 145 de 250 · 30d: quedan 2455 de 3000 (visto 2026-10-20T15:00:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 144 de 250 · 30d: quedan 2454 de 3000 (visto 2026-10-20T15:20:17.000Z)
 
-## Cola propia (29 esperando)
+## Cola propia (26 esperando)
 - TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -45,18 +45,15 @@ Actualizado: 20/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Vecino evitó un robo al alertar a la Policía sobre tres ladrones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · El modelo de París para vivir a quince minutos de todo llega a las librerías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Nacionales y categorías · Toques de queda en Francia por violentas protestas y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — cupo diario de Notas web en X completo (15)
-- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — cupo diario de Notas web en X completo (15)
-- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — cupo diario de Notas web en X completo (15)
+- X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Balea con proyectil de goma a un joven que eludió un control en moto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — cupo diario de Notas web en X completo (15)
-- X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — cupo diario de Notas web en X completo (15)
-- X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — cupo diario de Notas web en X completo (15)
-- X · Notas web · Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagon — cupo diario de Notas web en X completo (15)
-- X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — cupo diario de Notas web en X completo (15)
-- X · Notas web · Coty Granjera: la historia de la influencer rural que causa furor con sus ocho h — cupo diario de Notas web en X completo (15)
+- X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagon — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -71,14 +68,6 @@ Actualizado: 20/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T14:00 recibido bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
-- 2026-10-20T14:00 recibido web:78916e74-3542-4bb3-a594-1c57aa500533|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-20T14:00 recibido web:80dd52dd-b09d-4340-b669-62eba0dc1ce1|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-20T14:20 vencido bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x los últimos 6 lugares de las 24 h quedan para los reels virales
-- 2026-10-20T14:20 vencido web:053f7722-ce93-4d22-9679-cc89862bee76|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T14:20 vencido web:0ad113d1-0797-400e-8161-494cc3be7804|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T14:20 vencido web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T14:20 vencido web:43a2b43f-fc3d-423a-ac09-144e2e421326|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T14:20 vencido web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T14:20 vencido web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T14:20 vencido web:7524a117-5ec3-428b-862c-0238cd3653e6|x cupo diario de Notas web en X completo (15)
@@ -96,3 +85,11 @@ Actualizado: 20/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-20T14:20 enviado web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x 
 - 2026-10-20T15:00 vencido web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T15:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x 
+- 2026-10-20T15:20 vencido nacionales:206df88111ec06ca|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T15:20 vencido web:8d5f9e45-c3ff-4b47-a721-0097362139bf|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T15:20 vencido web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T15:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x 
+- 2026-10-20T15:20 enviado web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x 
+- 2026-10-20T15:20 enviado web:4d61cc5b-9d70-46db-b815-a8250038f4de|x 
+- 2026-10-20T15:20 enviado web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x 
+- 2026-10-20T15:20 enviado web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x 
