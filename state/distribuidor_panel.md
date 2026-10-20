@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 20/10/2026 20:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 5 | 6 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 2 | 0 |
+| Reels policiales | TikTok | 5 | 0 | 0 | 1 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | TikTok | 5 | 1 | 0 | 1 | 0 | 0 | 2 |
@@ -28,11 +28,12 @@ Actualizado: 20/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 25 de 250 · 30d: quedan 2335 de 3000 (visto 2026-10-20T22:40:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2334 de 3000 (visto 2026-10-20T23:40:23.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (7 esperando)
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Francia aplicará nuevos toques de queda tras los disturbios y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,9 +49,6 @@ Actualizado: 20/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
-- 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
-- 2026-10-20T21:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tikto 
 - 2026-10-20T21:20 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
 - 2026-10-20T21:20 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tikto 
 - 2026-10-20T21:20 recibido nacionales:fb8bbb9c2285b74b|x 
@@ -73,3 +71,6 @@ Actualizado: 20/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-20T23:00 vencido bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T23:00 vencido bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T23:00 vencido policiales:https://www.diariodemocracia.com/policiales/34678 TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
+- 2026-10-20T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
+- 2026-10-20T23:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 

@@ -5177,6 +5177,32 @@
    "volanta": "Vandalismo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/PMhjysUX4P0"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": {
+   "categoria": "operativo_policial",
+   "descripcion": "La Policía bonaerense apresó a un sujeto mayor de edad que eludía las audiencias ante la Justicia. Acumula expedientes por amenazas, daños, violación de domicilio y violencia de género.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-20T23:30:49.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "La Policía de la provincia de Buenos Aires concretó la captura de un hombre mayor de edad en la ciudad de Chacabuco.\n\nEl procedimiento se originó luego de que el sujeto fuera declarado en rebeldía por no presentarse de manera sistemática a las audiencias requeridas por la Justicia.\n\nEl implicado enfrenta causas penales acumuladas por los delitos de amenazas, daños, violación de domicilio y violencia de género.\n\nLas actuaciones continúan bajo la órbita de los estrados judiciales correspondientes para definir su situación procesal.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Detenido #ViolenciaDeGenero #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia",
+   "urgente": false,
+   "video_bytes": 82085,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_03_chacabuco_detuvieron-a-un-hombre-en-chac.mp4",
+   "volanta": "Operativo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/9Fsp3YCm_B0"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": {
    "categoria": "operativo_policial",
    "descripcion": "Una vecina fue demorada tras amenazar con una cuchilla a un menor de edad en la plaza San Martín de Chacabuco. Pasó la noche en la Subcomisaría de O'Higgins y declaró en la fiscalía.",
@@ -12677,17 +12703,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 25,
-   "segundos": 1212,
+   "restantes": 249,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2335,
-   "segundos": 1809027,
+   "restantes": 2334,
+   "segundos": 1805418,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T22:40:13.000Z",
+ "cuota_visto": "2026-10-20T23:40:23.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -22796,6 +22822,62 @@
    "vence": "2026-10-12T18:21:23.000Z",
    "video_bytes": 95264,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-20T23:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
+   "creado": "2026-10-20T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-20T23:30:49.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia\n\nLa Policía bonaerense apresó a un sujeto mayor de edad que eludía las audiencias ante la Justicia. Acumula expedientes por amenazas, daños, violación de domicilio y violencia de género.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia",
+   "urgente": false,
+   "vence": "2026-10-21T17:30:49.000Z",
+   "video_bytes": 82085,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_03_chacabuco_detuvieron-a-un-hombre-en-chac.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x": {
+   "actualizado": "2026-10-20T23:40:22.000Z",
+   "buffer_id": "6ad7fbe78c20162e7ecd73de",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
+   "creado": "2026-10-20T23:40:14.000Z",
+   "dueAt": "2026-10-20T23:43:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T23:30:49.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
+   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia\n\nLa Policía bonaerense apresó a un sujeto mayor de edad que eludía las audiencias ante la Justicia.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia",
+   "urgente": false,
+   "vence": "2026-10-21T01:30:49.000Z",
+   "video_bytes": 82085,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_03_chacabuco_detuvieron-a-un-hombre-en-chac.mp4",
+   "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok": {
    "actualizado": "2026-10-16T15:20:16.000Z",
@@ -35019,28 +35101,6 @@
  },
  "registro": [
   {
-   "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
-   "cuando": "2026-10-18T19:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
-   "cuando": "2026-10-18T19:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x",
-   "cuando": "2026-10-18T19:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
    "cuando": "2026-10-18T19:40:21.000Z",
    "evento": "enviado",
@@ -39179,6 +39239,29 @@
    "cuando": "2026-10-20T23:00:18.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
+   "cuando": "2026-10-20T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-20T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6ad7fbe78c20162e7ecd73de",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
+   "cuando": "2026-10-20T23:40:23.000Z",
+   "dueAt": "2026-10-20T23:43:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39415,6 +39498,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": "2026-10-16T19:00:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": "2026-10-19T23:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": "2026-10-20T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html": "2026-10-20T09:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
