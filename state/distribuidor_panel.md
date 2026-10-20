@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 12:43 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 12:47 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 20/10/2026 12:43 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -30,13 +30,17 @@ Actualizado: 20/10/2026 12:43 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 142 de 250 · 30d: quedan 2452 de 3000 (visto 2026-10-20T15:40:18.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Vecino evitó un robo al alertar a la Policía sobre tres ladrones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Balea con proyectil de goma a un joven que eludió un control en moto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,10 +55,6 @@ Actualizado: 20/10/2026 12:43 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T15:20 vencido nacionales:206df88111ec06ca|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T15:20 vencido web:8d5f9e45-c3ff-4b47-a721-0097362139bf|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T15:20 vencido web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T15:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x 
 - 2026-10-20T15:20 enviado web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x 
 - 2026-10-20T15:20 enviado web:4d61cc5b-9d70-46db-b815-a8250038f4de|x 
 - 2026-10-20T15:20 enviado web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x 
@@ -76,3 +76,7 @@ Actualizado: 20/10/2026 12:43 (hora AR) · ACTIVO
 - 2026-10-20T15:43 depurado web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-20T15:43 depurado web:c4a5c4d8-6c34-494d-8c50-85f771cba512|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-20T15:43 depurado web:ce515f56-0397-44d3-b63d-c656faf40928|x de la web, a X solo van las notas del diario de la mañana
+- 2026-10-20T15:47 recuperado policiales:https://infociudad.com.ar/actualidad/san-antonio- la regla vigente lo deja
+- 2026-10-20T15:47 recuperado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en la regla vigente lo deja
+- 2026-10-20T15:47 recuperado policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- la regla vigente lo deja
+- 2026-10-20T15:47 recuperado policiales:https://www.diariodemocracia.com/policiales/34678 la regla vigente lo deja

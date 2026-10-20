@@ -19689,14 +19689,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_02_general-arenales_ofrecen-hasta-10-millones-por-.mp4"
   },
   "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok": {
-   "actualizado": "2026-10-20T15:43:36.000Z",
+   "actualizado": "2026-10-20T15:47:41.000Z",
    "buffer_id": "",
    "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
    "creado": "2026-10-19T23:00:18.000Z",
    "dueAt": "",
-   "error": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)",
+   "error": "",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "descartado",
+   "estado": "pendiente",
    "generado": "2026-10-19T22:50:41.000Z",
    "id": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/",
    "intentos": 0,
@@ -21944,14 +21944,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-20T15:43:36.000Z",
+   "actualizado": "2026-10-20T15:47:41.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
-   "error": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)",
+   "error": "",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "descartado",
+   "estado": "pendiente",
    "generado": "2026-10-19T23:21:15.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
    "intentos": 0,
@@ -22119,14 +22119,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok": {
-   "actualizado": "2026-10-20T15:43:36.000Z",
+   "actualizado": "2026-10-20T15:47:41.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
    "creado": "2026-10-20T09:00:21.000Z",
    "dueAt": "",
-   "error": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)",
+   "error": "",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "descartado",
+   "estado": "pendiente",
    "generado": "2026-10-20T02:50:52.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html",
    "intentos": 0,
@@ -23171,14 +23171,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1809_01_chacabuco_detuvieron-a-un-joven-de-24-a-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok": {
-   "actualizado": "2026-10-20T15:43:36.000Z",
+   "actualizado": "2026-10-20T15:47:41.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
    "creado": "2026-10-20T09:00:21.000Z",
    "dueAt": "",
-   "error": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)",
+   "error": "",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "descartado",
+   "estado": "pendiente",
    "generado": "2026-10-20T04:51:09.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma",
    "intentos": 0,
@@ -34255,30 +34255,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
-   "cuando": "2026-10-18T13:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697993387323952390"
-  },
-  {
-   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
-   "cuando": "2026-10-18T13:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111805151652598045"
-  },
-  {
-   "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
-   "cuando": "2026-10-18T13:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111812299207962890"
-  },
-  {
-   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
-   "cuando": "2026-10-18T13:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111808392733851808"
-  },
-  {
    "buffer_id": "6ad4cc3e938409f1d0d14c8b",
    "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
    "cuando": "2026-10-18T13:40:14.000Z",
@@ -38431,6 +38407,30 @@
    "cuando": "2026-10-20T15:43:36.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
+   "cuando": "2026-10-20T15:47:41.000Z",
+   "evento": "recuperado",
+   "motivo": "la regla vigente lo deja"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-20T15:47:41.000Z",
+   "evento": "recuperado",
+   "motivo": "la regla vigente lo deja"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
+   "cuando": "2026-10-20T15:47:41.000Z",
+   "evento": "recuperado",
+   "motivo": "la regla vigente lo deja"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
+   "cuando": "2026-10-20T15:47:41.000Z",
+   "evento": "recuperado",
+   "motivo": "la regla vigente lo deja"
   }
  ],
  "tandas": {
