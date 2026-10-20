@@ -2280,6 +2280,33 @@
    "volanta": "Reforma electoral",
    "youtube_url": "https://youtube.com/shorts/4Le0lO7VSw0"
   },
+  "nacionales:2880ee387867b2da": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "Desde el sector empresario alertan por el impacto de los costos y advierten que el boleto sin asistencia estatal treparía hasta los $2.500. El peso de las tarifas frente al salario y la caída de frecuencias.",
+   "duracion_seg": 905.1,
+   "generado": "2026-10-20T21:47:58.000Z",
+   "hashtags": [
+    "Colectivos",
+    "Subsidios"
+   ],
+   "id": "nacionales:2880ee387867b2da",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/advierten-que-el-boleto-de-colectivo-en-el-amba-podria-llegar-a-2880ee",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Advierten que el boleto de colectivo podría llegar a $2.500 sin subsidios",
+   "urgente": false,
+   "video_bytes": 27928725,
+   "video_mb": 26.6,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
+   "volanta": "Tarifas de colectivos",
+   "youtube_url": ""
+  },
   "nacionales:2b26f422b8cc341a": {
    "categoria": "Justicia",
    "categoria_nacional": "",
@@ -16022,14 +16049,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0a8f6fa1abe8b07c.mp4"
   },
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T22:00:19.000Z",
+   "actualizado": "2026-10-20T22:00:21.000Z",
    "buffer_id": "",
    "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok",
    "creado": "2026-10-18T22:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T21:50:36.000Z",
    "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
    "intentos": 0,
@@ -17924,6 +17951,56 @@
    "vence": "2026-10-19T22:37:04.000Z",
    "video_bytes": 10512704,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_25f7704c0c_santilli-aseguro-que-milei-ganara-en-2027-y.mp4"
+  },
+  "nacionales:2880ee387867b2da|tiktok": {
+   "actualizado": "2026-10-20T22:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:2880ee387867b2da|tiktok",
+   "creado": "2026-10-20T22:00:21.000Z",
+   "dueAt": "",
+   "error": "dura 905 s (TikTok: 3-600 s)",
+   "estado": "descartado",
+   "generado": "2026-10-20T21:47:58.000Z",
+   "id": "nacionales:2880ee387867b2da",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/advierten-que-el-boleto-de-colectivo-en-el-amba-podria-llegar-a-2880ee",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Advierten que el boleto de colectivo podría llegar a $2.500 sin subsidios",
+   "urgente": false,
+   "vence": "2026-10-21T15:47:58.000Z",
+   "video_bytes": 27928725,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
+   "viral": false
+  },
+  "nacionales:2880ee387867b2da|x": {
+   "actualizado": "2026-10-20T22:00:21.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:2880ee387867b2da|x",
+   "creado": "2026-10-20T22:00:21.000Z",
+   "dueAt": "",
+   "error": "dura 905 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-20T21:47:58.000Z",
+   "id": "nacionales:2880ee387867b2da",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/advierten-que-el-boleto-de-colectivo-en-el-amba-podria-llegar-a-2880ee",
+   "noticia": "nota:advierten-que-el-boleto-de-colectivo-en-el-amba-podria-llegar-a-2880ee",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Advierten que el boleto de colectivo podría llegar a $2.500 sin subsidios",
+   "urgente": false,
+   "vence": "2026-10-20T23:47:58.000Z",
+   "video_bytes": 27928725,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
+   "viral": false
   },
   "nacionales:2b26f422b8cc341a|tiktok": {
    "actualizado": "2026-10-19T17:40:31.000Z",
@@ -34857,29 +34934,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
-   "cuando": "2026-10-18T18:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
-   "cuando": "2026-10-18T18:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad50939ae173d6e0011b1e9",
-   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
-   "cuando": "2026-10-18T18:00:25.000Z",
-   "dueAt": "2026-10-18T18:03:36.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x",
    "cuando": "2026-10-18T18:20:15.000Z",
    "estado": "pendiente",
@@ -39026,6 +39080,28 @@
    "cuando": "2026-10-20T21:20:26.000Z",
    "dueAt": "2026-10-20T21:22:13.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:2880ee387867b2da|x",
+   "cuando": "2026-10-20T22:00:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 905 s y X admite 140 s sin suscripción",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:2880ee387867b2da|tiktok",
+   "cuando": "2026-10-20T22:00:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 905 s (TikTok: 3-600 s)",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok",
+   "cuando": "2026-10-20T22:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {
@@ -39147,6 +39223,7 @@
   "nacionales:206df88111ec06ca": "2026-10-19T23:20:14.000Z",
   "nacionales:23d1fc7d2341fc89": "2026-10-19T15:20:16.000Z",
   "nacionales:25f7704c0cf2a754": "2026-10-19T09:00:17.000Z",
+  "nacionales:2880ee387867b2da": "2026-10-20T22:00:21.000Z",
   "nacionales:2b26f422b8cc341a": "2026-10-19T00:20:16.000Z",
   "nacionales:2be0a52708a62532": "2026-10-18T17:20:13.000Z",
   "nacionales:2f1a6dccc7eef682": "2026-10-19T02:40:14.000Z",

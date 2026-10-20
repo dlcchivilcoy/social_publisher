@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 20/10/2026 18:40 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 4 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Nacionales y categorías | TikTok | 5 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Nacionales y categorías | TikTok | 5 | 1 | 0 | 1 | 0 | 0 | 1 |
 
 ## Canales
 - X: conectado · Buffer: 39 enviadas + 0 programadas de 100 por día
@@ -30,7 +30,7 @@ Actualizado: 20/10/2026 18:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 26 de 250 · 30d: quedan 2336 de 3000 (visto 2026-10-20T21:20:26.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (9 esperando)
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Francia aplicará nuevos toques de queda tras los disturbios y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,7 +40,6 @@ Actualizado: 20/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -52,9 +51,6 @@ Actualizado: 20/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T18:00 programado entrevistas:job00232|x 
-- 2026-10-20T18:20 entrevista_aprobada entrevistas:job00233 
-- 2026-10-20T18:20 recibido entrevistas:job00233|x 
 - 2026-10-20T18:20 programado entrevistas:job00233|x 
 - 2026-10-20T18:40 enviado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x 
 - 2026-10-20T18:40 enviado entrevistas:job00231|x 
@@ -77,3 +73,6 @@ Actualizado: 20/10/2026 18:40 (hora AR) · ACTIVO
 - 2026-10-20T21:20 depurado nacionales:fb8bbb9c2285b74b|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
 - 2026-10-20T21:20 enviado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok 
 - 2026-10-20T21:20 programado bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
+- 2026-10-20T22:00 recibido nacionales:2880ee387867b2da|x dura 905 s y X admite 140 s sin suscripción
+- 2026-10-20T22:00 recibido nacionales:2880ee387867b2da|tiktok dura 905 s (TikTok: 3-600 s)
+- 2026-10-20T22:00 vencido bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
