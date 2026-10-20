@@ -1,21 +1,21 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 7 | 0 | 13 | 0 | 0 | 1 |
+| Notas web | X | 15 | 7 | 6 | 13 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 1 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 41 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 40 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 1 enviadas + 2 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
@@ -28,39 +28,39 @@ Actualizado: 20/10/2026 10:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 97 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2537 de 3000 (visto 2026-10-20T13:00:24.000Z)
+15m: quedan 98 de 100 · 24h: quedan 148 de 250 · 30d: quedan 2458 de 3000 (visto 2026-10-20T13:20:19.000Z)
 
-## Cola propia (51 esperando)
+## Cola propia (43 esperando)
 - X · Reels del bot · Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Exitoso debut de la primera "Carrera Aventura" del Club Atlético Huracán — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Derogar las PASO para recuperar la democracia interna de los partidos — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Romina Serrano detalló los tratamientos médicos frente a la caída capilar — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Secc — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo d — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y e — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Conflicto con Bicontinentar — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Exitoso debut de la primera "Carrera Aventura" del Club Atlético Huracán — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Derogar las PASO para recuperar la democracia interna de los partidos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Romina Serrano detalló los tratamientos médicos frente a la caída capilar — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Secc — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Conflicto con Bicontinentar — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Por — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Restringir acceso a Menores — los últimos 6 lugares de las 24 h quedan para los reels virales
-- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — no entró entre las 3 más virales de la tanda 10 h
-- X · Notas web · Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Pl — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció  — los últimos 6 lugares de las 24 h quedan para los reels virales
-- TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Nacionales y categorías · Sacan una carpa gigante de un parque en Sídney y se arma debate — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Nacionales y categorías · Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevi — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Nacionales y categorías · Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels policiales · Vecino evitó un robo al alertar a la Policía sobre tres ladrones — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Nacionales y categorías · El modelo de París para vivir a quince minutos de todo llega a las librerías — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Nacionales y categorías · Toques de queda en Francia por violentas protestas y saqueos — no entró entre las 3 más virales de la tanda 10 h
-- X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — los últimos 6 lugares de las 24 h quedan para los reels virales
-- TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — no entró entre las 3 más virales de la tanda 10 h
+- X · Notas web · Restringir acceso a Menores — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Pl — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Sacan una carpa gigante de un parque en Sídney y se arma debate — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Vecino evitó un robo al alertar a la Policía sobre tres ladrones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · El modelo de París para vivir a quince minutos de todo llega a las librerías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Toques de queda en Francia por violentas protestas y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,15 +72,6 @@ Actualizado: 20/10/2026 10:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T10:21 recibido web:053f7722-ce93-4d22-9679-cc89862bee76|x 
-- 2026-10-20T10:21 recibido web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x 
-- 2026-10-20T10:21 vencido web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-20T10:21 vencido web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-20T10:21 vencido web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-20T10:21 vencido web:9627f721-ec60-4caa-8de1-29648f987444|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-20T10:21 vencido web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-20T10:21 vencido web:b4cfec79-0715-4512-9344-baf46d5042d1|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-20T10:21 vencido web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-20T10:21 enviado web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
 - 2026-10-20T10:21 enviado web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
 - 2026-10-20T10:21 programado web:6f8cf702-5cb7-4b03-8945-02d406201533|x 
@@ -97,3 +88,12 @@ Actualizado: 20/10/2026 10:00 (hora AR) · ACTIVO
 - 2026-10-20T13:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|tikto 
 - 2026-10-20T13:00 programado bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok 
 - 2026-10-20T13:00 programado nacionales:7473fc970bead57a|tiktok 
+- 2026-10-20T13:20 vencido web:5c389835-1655-4415-b7ad-23045aa7c3ca|x los últimos 6 lugares de las 24 h quedan para los reels virales
+- 2026-10-20T13:20 vencido web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x los últimos 6 lugares de las 24 h quedan para los reels virales
+- 2026-10-20T13:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|tikto 
+- 2026-10-20T13:20 programado web:847aec7b-6e8c-4074-82b2-d77103ae355f|x 
+- 2026-10-20T13:20 programado web:5253b590-963f-4a40-8acf-18a1f53713b5|x 
+- 2026-10-20T13:20 programado web:85b0f263-df46-4783-b4dd-311f977e50c9|x 
+- 2026-10-20T13:20 programado web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x 
+- 2026-10-20T13:20 programado web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x 
+- 2026-10-20T13:20 programado web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x 
