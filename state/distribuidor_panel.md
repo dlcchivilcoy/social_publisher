@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/10/2026 23:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 5 | 1 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 44 | 0 | 2 | 8 |
+| Notas web | X | 15 | 15 | 0 | 43 | 0 | 3 | 8 |
 | Nacionales y categorías | X | 12 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 5 | 0 | 22 | 0 | 7 | 0 |
 
@@ -30,7 +30,7 @@ Actualizado: 19/10/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2548 de 3000 (visto 2026-10-20T02:00:30.000Z)
 
-## Cola propia (80 esperando)
+## Cola propia (77 esperando)
 - TikTok · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -72,9 +72,6 @@ Actualizado: 19/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T01:00 recibido web:2412c923-bb37-4065-b81b-1dac0777e220|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
-- 2026-10-20T01:00 vencido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T01:00 programado nacionales:9e0c09454f9048c5|x 
 - 2026-10-20T01:20 recibido nacionales:4399eb58559e6a51|x 
 - 2026-10-20T01:20 recibido nacionales:4399eb58559e6a51|tiktok 
 - 2026-10-20T01:20 recibido web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
@@ -97,3 +94,6 @@ Actualizado: 19/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-20T02:00 vencido web:76ff5169-2518-4c32-96e7-955ae7a8d272|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T02:00 vencido web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T02:00 programado nacionales:7473fc970bead57a|x 
+- 2026-10-20T02:20 vencido web:010e4114-35e9-438d-8057-51285ef42a56|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T02:20 vencido web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T02:20 vencido web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x cupo diario de Notas web en X completo (15)
