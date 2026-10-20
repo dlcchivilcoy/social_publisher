@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 20/10/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 5 | 13 | 0 | 0 | 0 |
+| Notas web | X | 15 | 7 | 0 | 13 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 36 enviadas + 4 programadas de 100 por día
+- X: conectado · Buffer: 41 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 20/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2541 de 3000 (visto 2026-10-20T10:21:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2540 de 3000 (visto 2026-10-20T11:40:16.000Z)
 
 ## Cola propia (53 esperando)
 - X · Notas web · Exitoso debut de la primera "Carrera Aventura" del Club Atlético Huracán — los últimos 6 lugares de las 24 h quedan para los reels virales
@@ -72,11 +72,6 @@ Actualizado: 20/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T10:00 vencido nacionales:dc18047933ea00df|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T10:00 programado web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 
-- 2026-10-20T10:20 recibido web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x 
-- 2026-10-20T10:20 recibido web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x 
-- 2026-10-20T10:20 recibido web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x 
 - 2026-10-20T10:20 recibido web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x 
 - 2026-10-20T10:20 recibido web:0ad113d1-0797-400e-8161-494cc3be7804|x 
 - 2026-10-20T10:20 recibido web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x 
@@ -97,3 +92,8 @@ Actualizado: 20/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-20T10:21 enviado web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
 - 2026-10-20T10:21 enviado web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
 - 2026-10-20T10:21 programado web:6f8cf702-5cb7-4b03-8945-02d406201533|x 
+- 2026-10-20T11:40 enviado web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
+- 2026-10-20T11:40 enviado web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x 
+- 2026-10-20T11:40 enviado web:6f8cf702-5cb7-4b03-8945-02d406201533|x 
+- 2026-10-20T11:40 enviado web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x 
+- 2026-10-20T11:40 enviado web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 

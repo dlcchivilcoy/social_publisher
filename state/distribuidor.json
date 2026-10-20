@@ -15,7 +15,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-20T10:21:12.000Z"
+   "visto": "2026-10-20T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 36
+    "scheduled": 0,
+    "sent": 41
    },
    "pausado": false,
-   "visto": "2026-10-20T10:21:12.000Z"
+   "visto": "2026-10-20T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -12289,22 +12289,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 231,
-   "segundos": 45553,
+   "restantes": 230,
+   "segundos": 40810,
    "tope": 250
   },
   "30d": {
-   "restantes": 2541,
-   "segundos": 1853368,
+   "restantes": 2540,
+   "segundos": 1848625,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T10:21:13.000Z",
+ "cuota_visto": "2026-10-20T11:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -25900,18 +25900,19 @@
    "video_url": ""
   },
   "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x": {
-   "actualizado": "2026-10-20T09:20:15.000Z",
+   "actualizado": "2026-10-20T11:40:15.000Z",
    "buffer_id": "6ad7324ffc46f49b92850511",
    "clave": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-20T10:45:17.000Z",
+   "enviado": "2026-10-20T10:45:31.116Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:03:10.722Z",
    "id": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112495419041210868",
    "nota_url": "https://www.diariolacampaña.com.ar/n/aniversario-especial-el-circulo-criollo-el-bozal-celebra-sus-50-anos",
    "origen": "web",
    "plataforma": "x",
@@ -27613,18 +27614,19 @@
    "video_url": ""
   },
   "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x": {
-   "actualizado": "2026-10-20T09:00:31.000Z",
+   "actualizado": "2026-10-20T11:40:15.000Z",
    "buffer_id": "6ad72db08c1133338d575ce3",
    "clave": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-20T10:30:08.000Z",
+   "enviado": "2026-10-20T10:31:08.738Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:03:02.613Z",
    "id": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112491802041131187",
    "nota_url": "https://www.diariolacampaña.com.ar/n/presupuesto-2027-el-diputado-eduardo-falcone-exige-incluir-reclamos",
    "origen": "web",
    "plataforma": "x",
@@ -28231,18 +28233,19 @@
    "video_url": ""
   },
   "web:6f8cf702-5cb7-4b03-8945-02d406201533|x": {
-   "actualizado": "2026-10-20T10:21:12.000Z",
+   "actualizado": "2026-10-20T11:40:15.000Z",
    "buffer_id": "6ad740989204fdb17045cb54",
    "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
    "creado": "2026-10-19T12:40:14.000Z",
    "dueAt": "2026-10-20T11:30:09.000Z",
+   "enviado": "2026-10-20T11:31:00.451Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T12:20:44.102Z",
    "id": "web:6f8cf702-5cb7-4b03-8945-02d406201533",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112506866018238718",
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-macron-admitio-fallas-de-inteligencia-tras-protestas-41adf4",
    "origen": "web",
    "plataforma": "x",
@@ -29376,18 +29379,19 @@
    "video_url": ""
   },
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x": {
-   "actualizado": "2026-10-20T09:40:16.000Z",
+   "actualizado": "2026-10-20T11:40:15.000Z",
    "buffer_id": "6ad737000b25f71ece5873cf",
    "clave": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-20T11:00:55.000Z",
+   "enviado": "2026-10-20T11:03:06.147Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:03:17.646Z",
    "id": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112499843859943526",
    "nota_url": "https://www.diariolacampaña.com.ar/n/autocritica-publica-estamos-aca-reconociendo-nuestro-error-el-voto",
    "origen": "web",
    "plataforma": "x",
@@ -30669,18 +30673,19 @@
    "video_url": ""
   },
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x": {
-   "actualizado": "2026-10-20T10:00:20.000Z",
+   "actualizado": "2026-10-20T11:40:15.000Z",
    "buffer_id": "6ad73bb4afbc1740acd32d0b",
    "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-20T11:15:37.000Z",
+   "enviado": "2026-10-20T11:15:46.190Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:03:22.515Z",
    "id": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112503031992361058",
    "nota_url": "https://www.diariolacampaña.com.ar/n/apertura-peronista-el-periodista-gustavo-gato-sylvestre-presento-su",
    "origen": "web",
    "plataforma": "x",
@@ -33877,40 +33882,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
-   "cuando": "2026-10-17T22:20:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697755587399994640"
-  },
-  {
-   "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
-   "cuando": "2026-10-17T22:20:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111578942595313981"
-  },
-  {
-   "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
-   "cuando": "2026-10-17T22:20:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111582717934436741"
-  },
-  {
-   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
-   "cuando": "2026-10-17T23:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|x",
-   "cuando": "2026-10-17T23:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
    "cuando": "2026-10-17T23:40:19.000Z",
@@ -38112,6 +38083,36 @@
    "cuando": "2026-10-20T10:21:13.000Z",
    "dueAt": "2026-10-20T11:30:09.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x",
+   "cuando": "2026-10-20T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112495419041210868"
+  },
+  {
+   "clave": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x",
+   "cuando": "2026-10-20T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112491802041131187"
+  },
+  {
+   "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
+   "cuando": "2026-10-20T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112506866018238718"
+  },
+  {
+   "clave": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x",
+   "cuando": "2026-10-20T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112499843859943526"
+  },
+  {
+   "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
+   "cuando": "2026-10-20T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112503031992361058"
   }
  ],
  "tandas": {
@@ -38121,7 +38122,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-20",
- "ultima_sync": "2026-10-20T10:21:12.000Z",
+ "ultima_sync": "2026-10-20T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
