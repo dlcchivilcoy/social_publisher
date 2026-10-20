@@ -14601,14 +14601,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b663a4a5f0c01c5.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok": {
-   "actualizado": "2026-10-18T23:00:17.000Z",
+   "actualizado": "2026-10-20T23:00:18.000Z",
    "buffer_id": "",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok",
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:41:07.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj",
    "intentos": 0,
@@ -14662,14 +14662,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cd480690212bf0ea.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok": {
-   "actualizado": "2026-10-18T23:00:17.000Z",
+   "actualizado": "2026-10-20T23:00:18.000Z",
    "buffer_id": "",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T22:49:15.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv",
    "intentos": 0,
@@ -23910,14 +23910,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1809_01_chacabuco_detuvieron-a-un-joven-de-24-a-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok": {
-   "actualizado": "2026-10-20T15:47:41.000Z",
+   "actualizado": "2026-10-20T23:00:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
    "creado": "2026-10-20T09:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T04:51:09.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma",
    "intentos": 0,
@@ -35019,28 +35019,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad50dea938409f1d0e112df",
-   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
-   "cuando": "2026-10-18T18:20:27.000Z",
-   "dueAt": "2026-10-18T19:03:05.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad50debae173d6e0012d7a0",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
-   "cuando": "2026-10-18T18:20:27.000Z",
-   "dueAt": "2026-10-18T19:43:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
-   "cuando": "2026-10-18T18:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
    "cuando": "2026-10-18T19:20:21.000Z",
    "estado": "pendiente",
@@ -39183,6 +39161,24 @@
    "cuando": "2026-10-20T22:40:13.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7698868986011864341"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok",
+   "cuando": "2026-10-20T23:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
+   "cuando": "2026-10-20T23:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
+   "cuando": "2026-10-20T23:00:18.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

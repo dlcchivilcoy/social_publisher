@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 20/10/2026 19:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 5 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 0 | 1 | 0 | 1 | 0 |
+| Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | TikTok | 5 | 1 | 0 | 1 | 0 | 0 | 2 |
@@ -30,16 +30,13 @@ Actualizado: 20/10/2026 19:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 25 de 250 · 30d: quedan 2335 de 3000 (visto 2026-10-20T22:40:13.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (6 esperando)
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Francia aplicará nuevos toques de queda tras los disturbios y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -51,9 +48,6 @@ Actualizado: 20/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T19:40 enviado entrevistas:job00234|x 
-- 2026-10-20T21:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok 
 - 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
 - 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
 - 2026-10-20T21:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tikto 
@@ -76,3 +70,6 @@ Actualizado: 20/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-20T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
 - 2026-10-20T22:40 enviado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
 - 2026-10-20T22:40 enviado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
+- 2026-10-20T23:00 vencido bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T23:00 vencido bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T23:00 vencido policiales:https://www.diariodemocracia.com/policiales/34678 TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
