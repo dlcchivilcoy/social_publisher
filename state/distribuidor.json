@@ -2037,6 +2037,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00232.mp4",
    "youtube_url": "https://youtu.be/qj0ae_9Ebow"
   },
+  "entrevistas:job00233": {
+   "descripcion": "El coordinador de Deportes de Chivilcoy, Emilio Carabelli, detalló el despliegue de la delegación local en Mar del Plata durante la final de los Juegos Bonaerenses. Destacó el trabajo conjunto entre los clubes, los profes y el municipio.",
+   "duracion_seg": null,
+   "entrevistado": "Emilio Carabelli",
+   "generado": "2026-10-20T18:20:18.000Z",
+   "id": "entrevistas:job00233",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Emilio Carabelli: 255 chivilcoyanos en Juegos Bonaerenses",
+   "urgente": false,
+   "video_bytes": 28712062,
+   "video_mb": 27.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00233.mp4",
+   "youtube_url": "https://youtu.be/_moa8RfVXis"
+  },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -12516,17 +12536,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 55,
-   "segundos": 17998,
+   "restantes": 54,
+   "segundos": 16805,
    "tope": 250
   },
   "30d": {
-   "restantes": 2365,
-   "segundos": 1825813,
+   "restantes": 2364,
+   "segundos": 1824620,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T18:00:29.000Z",
+ "cuota_visto": "2026-10-20T18:20:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -17516,6 +17536,34 @@
    "vence": "2026-10-20T20:00:17.000Z",
    "video_bytes": 33708334,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00232.mp4",
+   "viral": false
+  },
+  "entrevistas:job00233|x": {
+   "actualizado": "2026-10-20T18:20:20.000Z",
+   "buffer_id": "6ad7b0e559e93798fafa7959",
+   "clave": "entrevistas:job00233|x",
+   "creado": "2026-10-20T18:20:18.000Z",
+   "dueAt": "2026-10-20T18:22:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T18:20:18.000Z",
+   "id": "entrevistas:job00233",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:bonaerenses-carabelli-chivilcoyanos-emilio-juegos",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Emilio Carabelli: 255 chivilcoyanos en Juegos Bonaerenses\n\nEl coordinador de Deportes, Emilio Carabelli, detalló el despliegue local en Mar del Plata. Destacó el trabajo conjunto entre clubes, profes y el municipio.\n\nhttps://youtu.be/_moa8RfVXis",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Emilio Carabelli: 255 chivilcoyanos en Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-20T20:20:18.000Z",
+   "video_bytes": 28712062,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00233.mp4",
    "viral": false
   },
   "nacionales:02472f0cd4ba4800|tiktok": {
@@ -34552,27 +34600,6 @@
  },
  "registro": [
   {
-   "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
-   "cuando": "2026-10-18T15:20:24.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad4e3b8938409f1d0d7478c",
-   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
-   "cuando": "2026-10-18T15:20:25.000Z",
-   "dueAt": "2026-10-18T17:00:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x",
-   "cuando": "2026-10-18T15:40:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x",
    "cuando": "2026-10-18T15:40:20.000Z",
    "evento": "vencido",
@@ -38724,6 +38751,26 @@
    "cuando": "2026-10-20T18:00:29.000Z",
    "dueAt": "2026-10-20T18:08:28.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00233",
+   "cuando": "2026-10-20T18:20:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00233|x",
+   "cuando": "2026-10-20T18:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad7b0e559e93798fafa7959",
+   "clave": "entrevistas:job00233|x",
+   "cuando": "2026-10-20T18:20:21.000Z",
+   "dueAt": "2026-10-20T18:22:18.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38834,6 +38881,7 @@
   "entrevistas:job00230": "2026-10-20T17:00:17.000Z",
   "entrevistas:job00231": "2026-10-20T17:40:15.000Z",
   "entrevistas:job00232": "2026-10-20T18:00:17.000Z",
+  "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
