@@ -12409,22 +12409,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 863,
    "tope": 100
   },
   "24h": {
-   "restantes": 144,
-   "segundos": 27609,
+   "restantes": 142,
+   "segundos": 26409,
    "tope": 250
   },
   "30d": {
-   "restantes": 2454,
-   "segundos": 1835424,
+   "restantes": 2452,
+   "segundos": 1834223,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T15:20:17.000Z",
+ "cuota_visto": "2026-10-20T15:40:18.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16374,14 +16374,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21fb0ad580ac177.mp4"
   },
   "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x": {
-   "actualizado": "2026-10-20T14:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T15:40:16.000Z",
+   "buffer_id": "6ad78b628cf9a879674b3b15",
    "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x",
    "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T15:43:02.000Z",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T13:54:14.000Z",
    "id": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4",
    "intentos": 0,
@@ -25104,7 +25104,7 @@
    "creado": "2026-10-19T16:00:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T15:45:07.109Z",
    "id": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2",
@@ -26542,7 +26542,7 @@
    "creado": "2026-10-19T17:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T17:03:24.907Z",
    "id": "web:317c620f-6da5-4b5a-b6b9-577556143229",
@@ -27355,7 +27355,7 @@
    "creado": "2026-10-19T17:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T16:48:12.833Z",
    "id": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92",
@@ -29700,7 +29700,7 @@
    "creado": "2026-10-19T16:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T16:02:32.709Z",
    "id": "web:8823bbc2-feae-46ef-8a92-a08165b6e26c",
@@ -31519,7 +31519,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T20:43:27.120Z",
    "id": "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd",
@@ -31910,7 +31910,7 @@
    "creado": "2026-10-19T19:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T19:02:42.465Z",
    "id": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512",
@@ -32524,7 +32524,7 @@
    "creado": "2026-10-19T20:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "espera": "cupo diario de Notas web en X completo (15)",
    "estado": "pendiente",
    "generado": "2026-10-19T20:04:34.221Z",
    "id": "web:ce515f56-0397-44d3-b63d-c656faf40928",
@@ -34254,13 +34254,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad4a6cb769b457934bbe07a",
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
-   "cuando": "2026-10-18T11:00:27.000Z",
-   "dueAt": "2026-10-18T13:43:39.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad4a6cb0a208cb323602036",
    "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
@@ -38450,6 +38443,13 @@
    "cuando": "2026-10-20T15:20:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112557831463301465"
+  },
+  {
+   "buffer_id": "6ad78b628cf9a879674b3b15",
+   "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x",
+   "cuando": "2026-10-20T15:40:18.000Z",
+   "dueAt": "2026-10-20T15:43:02.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
