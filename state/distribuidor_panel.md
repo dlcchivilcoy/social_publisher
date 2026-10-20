@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 07:21 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,13 +9,13 @@ Actualizado: 20/10/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 5 | 13 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 36 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 36 enviadas + 4 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
@@ -28,14 +28,27 @@ Actualizado: 20/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2543 de 3000 (visto 2026-10-20T10:00:20.000Z)
+15m: quedan 98 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2541 de 3000 (visto 2026-10-20T10:21:13.000Z)
 
-## Cola propia (48 esperando)
+## Cola propia (53 esperando)
+- X · Notas web · Exitoso debut de la primera "Carrera Aventura" del Club Atlético Huracán — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Derogar las PASO para recuperar la democracia interna de los partidos — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Romina Serrano detalló los tratamientos médicos frente a la caída capilar — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Secc — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo d — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y e — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Conflicto con Bicontinentar — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Por — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Restringir acceso a Menores — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Pl — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció  — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Nacionales y categorías · Superávit energético histórico: USD 9.427 millones explicados por Vaca Muerta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Sacan una carpa gigante de un parque en Sídney y se arma debate — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -45,22 +58,9 @@ Actualizado: 20/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · El modelo de París para vivir a quince minutos de todo llega a las librerías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Toques de queda en Francia por violentas protestas y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Balea con proyectil de goma a un joven que eludió un control en moto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Despedida de la delegación local que viajará a la ciudad de Mar del Plata para c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Primera División: El Torneo Clausura se pone al día a puro empate y emoción — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagon — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Coty Granjera: la historia de la influencer rural que causa furor con sus ocho h — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — los últimos 6 lugares de las 24 h quedan para los reels virales
+- X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — los últimos 6 lugares de las 24 h quedan para los reels virales
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,28 +72,28 @@ Actualizado: 20/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T09:00 vencido nacionales:8f3dac102e5cdee4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:a09771b77a360e01|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:be6592b07ce935fb|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:c6ed9c5ff821ce8c|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:d4259eeed3d3426d|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:d6dc41a1ad7b38ad|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido web:248ece43-82ef-4e37-a82d-ea5d6b751b0e|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:2618a8ce-8352-4c8a-8e71-1b5bf69b11e0|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:28d31caa-4225-4df6-852e-fce87e6a75a7|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:660ce08b-5eea-4d96-ac71-12f7add445dd|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:992a0e03-d222-428d-b6f8-9d7b90cebe38|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:b213f18b-774f-4f28-a33d-398709d50fbe|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:d7ad4f31-314f-442d-8bc0-e21896071433|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido web:fcc38531-e614-4892-a005-314730e4df18|x cupo diario de Notas web en X completo (15)
-- 2026-10-20T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- no hubo lugar antes de su vencimiento
-- 2026-10-20T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34678 no hubo lugar antes de su vencimiento
-- 2026-10-20T09:00 programado web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
-- 2026-10-20T09:00 programado web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
-- 2026-10-20T09:00 programado web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x 
-- 2026-10-20T09:20 vencido nacionales:cb2e9c67cd146106|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:20 vencido nacionales:f370b43343c04756|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:20 programado web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
-- 2026-10-20T09:40 programado web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x 
 - 2026-10-20T10:00 vencido nacionales:dc18047933ea00df|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T10:00 programado web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 
+- 2026-10-20T10:20 recibido web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x 
+- 2026-10-20T10:20 recibido web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x 
+- 2026-10-20T10:20 recibido web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x 
+- 2026-10-20T10:20 recibido web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x 
+- 2026-10-20T10:20 recibido web:0ad113d1-0797-400e-8161-494cc3be7804|x 
+- 2026-10-20T10:20 recibido web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x 
+- 2026-10-20T10:20 recibido web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x 
+- 2026-10-20T10:20 recibido web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x 
+- 2026-10-20T10:20 recibido web:7524a117-5ec3-428b-862c-0238cd3653e6|x 
+- 2026-10-20T10:21 recibido web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x 
+- 2026-10-20T10:21 recibido web:43a2b43f-fc3d-423a-ac09-144e2e421326|x 
+- 2026-10-20T10:21 recibido web:053f7722-ce93-4d22-9679-cc89862bee76|x 
+- 2026-10-20T10:21 recibido web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x 
+- 2026-10-20T10:21 vencido web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 vencido web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 vencido web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 vencido web:9627f721-ec60-4caa-8de1-29648f987444|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 vencido web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 vencido web:b4cfec79-0715-4512-9344-baf46d5042d1|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 vencido web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-20T10:21 enviado web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
+- 2026-10-20T10:21 enviado web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
+- 2026-10-20T10:21 programado web:6f8cf702-5cb7-4b03-8945-02d406201533|x 

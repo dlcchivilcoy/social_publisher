@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 12
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-20T02:40:18.000Z"
+   "visto": "2026-10-20T10:21:12.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 4,
     "sent": 36
    },
    "pausado": false,
-   "visto": "2026-10-20T02:40:18.000Z"
+   "visto": "2026-10-20T10:21:12.000Z"
   }
  },
  "contenidos": {
@@ -6194,6 +6194,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
    "volanta": ""
   },
+  "web:053f7722-ce93-4d22-9679-cc89862bee76": {
+   "categoria": "",
+   "descripcion": "La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Porto Tras un intenso operativo de investigación y el análisis de cámaras de seguridad, las fuerzas de seguridad locales hallaron el tercer rodado y dieron por esclarecido el hecho que conmocionó a Chivilcoy. En un eficaz y rápido accionar de las fuerzas de seguridad locales, la causa por el audaz robo sufrido por el reconocido ex piloto de motociclismo Sebastián Porto quedó completamente esclarecida. Este lunes,...",
+   "generado": "2026-10-20T10:01:02.357Z",
+   "id": "web:053f7722-ce93-4d22-9679-cc89862bee76",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_310feb5331464dc5bf83d223e955df34~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/hecho-esclarecido-la-policia-recupero-la-totalidad-de-las-motos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Porto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/hecho-esclarecido-la-policia-recupero-la-totalidad-de-las-motos",
+   "volanta": "Hecho esclarecido"
+  },
   "web:054fa202-87fe-43be-afff-36d09259bbf7": {
    "categoria": "",
    "descripcion": "La apertura de importaciones dinamizó el mercado de maquinaria agrícola con menor demora para los últimos modelos y más opciones para el productor.",
@@ -6319,6 +6338,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/causa-vialidad-la-camara-de-casacion-ratifico-el-rechazo-de-la-e4c6ce",
    "volanta": ""
+  },
+  "web:0ad113d1-0797-400e-8161-494cc3be7804": {
+   "categoria": "nacionales",
+   "descripcion": "El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció su reclamo a Nación por los fondos recortados El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este lunes el acto de apertura de la etapa final de la 35º edición de los Juegos Bonaerenses, que se desarrollarán en la ciudad de Mar del Plata con la participación de 30.000 personas, en distintas disciplinas deportivas y culturales. El mandatario provincial estuvo acompañado por el ministro de...",
+   "generado": "2026-10-20T10:01:59.238Z",
+   "id": "web:0ad113d1-0797-400e-8161-494cc3be7804",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5147eabf7afc4442baa4d0b7cfde0f37~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/final-provincial-el-gobernador-bonaerense-en-la-inauguracion-de-los",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció su reclamo a Nación por los fondos recortados",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-el-gobernador-bonaerense-en-la-inauguracion-de-los",
+   "volanta": "Final Provincial"
   },
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f": {
    "categoria": "",
@@ -7510,6 +7548,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gobierno-habilita-el-penal-de-marcos-paz-y-traslada-a-609-9bef81",
    "volanta": ""
   },
+  "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": {
+   "categoria": "",
+   "descripcion": "Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en el cuarto puesto El seleccionado bahiense dominó la final de punta a punta tras vencer al combinado local. La Selección de Chivilcoy completó una destacada actuación en el certamen provincial U17 femenino y se ubicó entre las cuatro mejores de Buenos Aires. En las instalaciones del club Argentino Junior de Tres Arroyos, se bajó el telón del Campeonato Provincial de Selecciones U17 femenino, certamen organizado...",
+   "generado": "2026-10-20T10:02:04.911Z",
+   "id": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8ba88ffff2bb41e397f0eedfa8d96a98~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-bahia-blanca-grito-campeon-en-el-provincial-u17-femenino-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en el cuarto puesto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-bahia-blanca-grito-campeon-en-el-provincial-u17-femenino-y",
+   "volanta": "Básquet"
+  },
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": {
    "categoria": "",
    "descripcion": "Una vecina de casi 80 años fue atacada por un pitbull Una vecina de casi 80 años fue atacada por un pitbull en Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco. Según sus familiares, el perro circulaba suelto y sin bozal y atacó a la mujer y a su mascota. La vecina sufrió mordeduras en los brazos y heridas en el rostro. La familia denuncia una atención insuficiente en la guardia del Hospital Municipal y sostiene que debió recurrir a...",
@@ -7582,6 +7639,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-tecnologia-miriam-latorre-analizo-una-nueva-edicion-de",
    "volanta": "Educación y Tecnología"
   },
+  "web:43a2b43f-fc3d-423a-ac09-144e2e421326": {
+   "categoria": "",
+   "descripcion": "Hugo Kübler: “La restitución de la nave municipal no exime en lo absoluto a la empresa del pago de las obligaciones que mantiene con la comunidad”",
+   "generado": "2026-10-20T10:01:10.572Z",
+   "id": "web:43a2b43f-fc3d-423a-ac09-144e2e421326",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9d56c62ee49c49ae86283148dde08236~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/conflicto-con-bicontinentar-hugo-kubler-la-restitucion-de-la-nave",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Conflicto con Bicontinentar",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conflicto-con-bicontinentar-hugo-kubler-la-restitucion-de-la-nave",
+   "volanta": ""
+  },
   "web:44657646-5aa8-40e2-92e8-9107905b81c5": {
    "categoria": "",
    "descripcion": "El Ing. Agr. Justo MacLoughlin detalla cómo ajustar densidad, fertilización y germoplasma para maximizar rindes.",
@@ -7635,6 +7711,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/napoles-deportes-camisetas-de-clubes-de-chivilcoy-llegaron-al",
    "volanta": "Nápoles · Deportes"
+  },
+  "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c": {
+   "categoria": "",
+   "descripcion": "Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y en la agenda nacional El pasado viernes 16 de octubre vivimos una jornada sumamente enriquecedora en la Universidad Nacional de La Pampa. Contamos con el acompañamiento institucional del Decano de la Facultad de Ciencias Humanas, Dr. Eric Morales Schmuker, y del Secretario de Extensión de la facultad, Prof. Carlos Alainez. Junto al reconocido especialista en seguridad vial, Dr. Horacio Botta Bernaus; y a María del...",
+   "generado": "2026-10-20T10:01:23.887Z",
+   "id": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_62b35aefb0ee4aa0a03a6eb1dc918e38~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estrellas-amarillas-transformar-los-datos-en-conciencia-el-trabajo-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y en la agenda nacional",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/estrellas-amarillas-transformar-los-datos-en-conciencia-el-trabajo-de",
+   "volanta": "Estrellas Amarillas"
   },
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": {
    "categoria": "",
@@ -7888,6 +7983,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
    "volanta": "Chivilcoy · Cultura"
+  },
+  "web:51e471e5-2b2b-43ba-8451-9ac391cdb485": {
+   "categoria": "",
+   "descripcion": "Derogar las PASO para recuperar la democracia interna de los partidos No es la primera vez que escribo para expresar mi desacuerdo con las elecciones Primarias, Abiertas, Simultáneas y Obligatorias (PASO). Desde su implementación sostuve que, lejos de fortalecer la democracia interna de los partidos políticos, terminarían convirtiéndose en una gran encuesta electoral, particularmente útil para los gobiernos de turno, interesados en medir anticipadamente sus posibilidades y las de sus...",
+   "generado": "2026-10-20T10:01:53.153Z",
+   "id": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_02052a69715f4b20bfc0862552ab8173~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-derogar-las-paso-para-recuperar-la-democracia-interna-de-los",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Derogar las PASO para recuperar la democracia interna de los partidos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-derogar-las-paso-para-recuperar-la-democracia-interna-de-los",
+   "volanta": "Opinión"
   },
   "web:5253b590-963f-4a40-8acf-18a1f53713b5": {
    "categoria": "nacionales",
@@ -8647,6 +8761,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
    "volanta": "Rawson · Cultura"
   },
+  "web:7524a117-5ec3-428b-862c-0238cd3653e6": {
+   "categoria": "",
+   "descripcion": "Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo de Chivilcoy El operativo se realizó el domingo con el auxilio de la Policía. EDEN notificará al Municipio e iniciará acciones penales ante el grave riesgo eléctrico para el público y los asistentes a las competencias de trote. En un operativo llevado a cabo este domingo 18 de octubre, personal de la empresa distribuidora de energía EDEN Chivilcoy detectó y retiró en dos oportunidades una conexión eléctrica...",
+   "generado": "2026-10-20T10:01:30.394Z",
+   "id": "web:7524a117-5ec3-428b-862c-0238cd3653e6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_05437fde7a18449da386561bb7e07f6f~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo de Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
+   "volanta": "EDEN"
+  },
   "web:76224348-2766-4a07-947f-ef8503976009": {
    "categoria": "nacionales",
    "descripcion": "Mandatarios provinciales de diversas fuerzas políticas participarán en dos cumbres en Buenos Aires junto a Diego Santilli y Luis Caputo, en plena…",
@@ -8791,6 +8924,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
    "volanta": "Chivilcoy · Deportes"
+  },
+  "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": {
+   "categoria": "",
+   "descripcion": "Expusieron en Chivilcoy los ejes del proyecto de Ley de Prevención y Control de las Apuestas en Línea",
+   "generado": "2026-10-20T10:00:56.355Z",
+   "id": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_56e5abf4552948b08e6fa8882bd44251~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Restringir acceso a Menores",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
+   "volanta": ""
   },
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": {
    "categoria": "",
@@ -8990,6 +9142,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
    "volanta": ""
   },
+  "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4": {
+   "categoria": "nacionales",
+   "descripcion": "Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Plan Maestro del río Salado En medio del temor por lo que puede generar el evento climático El Niño, el Gobierno de la provincia de Buenos Aires volvió a reclamarle a la administración de Javier Milei que reactive el Tramo IV del Plan Maestro del río Salado, una obra hídrica clave para mitigar las inundaciones en el territorio bonaerense. Así lo hicieron saber el ministro de Gobierno, Carlos Bianco y el de...",
+   "generado": "2026-10-20T10:02:31.407Z",
+   "id": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f6a1f37b847d47db833ddff15a2e9b8a~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/temor-por-el-nino-denuncian-que-sigue-paralizado-un-tramo-clave-para",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Plan Maestro del río Salado",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/temor-por-el-nino-denuncian-que-sigue-paralizado-un-tramo-clave-para",
+   "volanta": "Temor por El Niño"
+  },
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692": {
    "categoria": "",
    "descripcion": "Sebastián Porto sufrió el robo de tres motos: “Es la primera vez que me toca pasar una cosa así y no es para nada agradable” El expiloto y subcampeón mundial de motociclismo llevó tranquilidad a la comunidad tras el mal momento vivido junto a sus hijas. Una de las unidades pudo ser recuperada gracias al sistema de rastreo satelital. Un hecho de inseguridad golpeó en las últimas horas al reconocido expiloto de motociclismo Sebastián Porto. Delincuentes ingresaron durante la madrugada a su...",
@@ -9133,6 +9304,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/autocritica-publica-estamos-aca-reconociendo-nuestro-error-el-voto",
    "volanta": "Autocrítica Pública"
+  },
+  "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": {
+   "categoria": "",
+   "descripcion": "Exitoso debut de la primera \"Carrera Aventura\" del Club Atlético Huracán Con un gran marco de público y competidores de toda la región, Chivilcoy vivió una jornada pura de deporte, naturaleza y comunidad en los circuitos de 5K y 15K. En una fría tarde sabatina pero colmada de entusiasmo, se disputó la esperada primera edición de la Carrera Aventura, una propuesta innovadora organizada por el Club Atlético Huracán que logró convocar a un importante número de atletas, familias y vecinos de la...",
+   "generado": "2026-10-20T10:02:18.797Z",
+   "id": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_719b0a93856d424199d5ea8570a732c1~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/5-y-15k-exitoso-debut-de-la-primera-carrera-aventura-del-club",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Exitoso debut de la primera \"Carrera Aventura\" del Club Atlético Huracán",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/5-y-15k-exitoso-debut-de-la-primera-carrera-aventura-del-club",
+   "volanta": "5 y 15K"
   },
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": {
    "categoria": "nacionales",
@@ -9893,6 +10083,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
    "volanta": ""
+  },
+  "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b": {
+   "categoria": "",
+   "descripcion": "Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su Aniversario La Escuela de Fútbol del Club Atlético Independiente se encuentra festejando tres décadas de trayectoria ininterrumpida dedicada a la formación deportiva, social y humana de cientos de niños y jóvenes de la comunidad. En el marco de las actividades conmemorativas desarrolladas en el predio de la institución, referentes históricos y actuales de la escuela compartieron emotivos testimonios sobre el...",
+   "generado": "2026-10-20T10:02:10.364Z",
+   "id": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bc241967f6dc429899dd065e4df25bd3~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-infanto-juvenil-tres-decadas-de-pasion-y-formacion-la-escuela",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su Aniversario",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-infanto-juvenil-tres-decadas-de-pasion-y-formacion-la-escuela",
+   "volanta": "Fútbol Infanto – Juvenil"
   },
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": {
    "categoria": "nacionales",
@@ -11120,6 +11329,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:d799c57f-7212-48e4-a327-deb6d13d1b4f": {
+   "categoria": "",
+   "descripcion": "Romina Serrano detalló los tratamientos médicos frente a la caída capilar En el marco de su habitual columna sobre salud en el programa “La Mañana del Centro”, la médica dermatóloga Romina Serrano abordó de manera integral la problemática de la caída del cabello y las alternativas terapéuticas que existen en la actualidad. Durante la entrevista, la especialista hizo especial hincapié en la necesidad de desmitificar soluciones comerciales que prometen resultados milagrosos y remarcó que...",
+   "generado": "2026-10-20T10:01:46.765Z",
+   "id": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8178c0d579a941fba46000af600fe73b~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-dermatologica-romina-serrano-detallo-los-tratamientos-medicos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Romina Serrano detalló los tratamientos médicos frente a la caída capilar",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/salud-dermatologica-romina-serrano-detallo-los-tratamientos-medicos",
+   "volanta": "Salud Dermatológica"
+  },
   "web:d7ad4f31-314f-442d-8bc0-e21896071433": {
    "categoria": "nacionales",
    "descripcion": "Una mujer de 26 años fue arrestada en el departamento de Colón acusada de contratar a dos sicarios para asesinar a Yeni Elizabeth Rivera Guzmán, de 20…",
@@ -11444,6 +11672,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/punto-rosa-la-salud-y-el-deporte-se-unen-en-chivilcoy-en-una-jornada",
    "volanta": "Punto Rosa"
+  },
+  "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b": {
+   "categoria": "",
+   "descripcion": "Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Sección El dirigente chivilcoyano Matías Carrettoni asumió formalmente la presidencia de la Juventud Radical de la Cuarta Sección Electoral dentro del recambio de autoridades partidarias desarrollado el pasado sábado en la localidad de Chacabuco. El encuentro seccional contó con una nutrida concurrencia de más de 80 personas procedentes de distintos puntos de la región, marcando el inicio de una nueva etapa de...",
+   "generado": "2026-10-20T10:01:38.640Z",
+   "id": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7f6baf9c2f6b459988e9660db0a2cfd0~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/recambio-de-autoridades-matias-carrettoni-asumio-la-presidencia-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Sección",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/recambio-de-autoridades-matias-carrettoni-asumio-la-presidencia-de-la",
+   "volanta": "Recambio de autoridades"
   },
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": {
    "categoria": "",
@@ -12042,22 +12289,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 46806,
+   "restantes": 231,
+   "segundos": 45553,
    "tope": 250
   },
   "30d": {
-   "restantes": 2543,
-   "segundos": 1854620,
+   "restantes": 2541,
+   "segundos": 1853368,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T10:00:20.000Z",
+ "cuota_visto": "2026-10-20T10:21:13.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -24476,6 +24723,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:053f7722-ce93-4d22-9679-cc89862bee76|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:053f7722-ce93-4d22-9679-cc89862bee76|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:02.357Z",
+   "id": "web:053f7722-ce93-4d22-9679-cc89862bee76",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/hecho-esclarecido-la-policia-recupero-la-totalidad-de-las-motos",
+   "noticia": "nota:hecho-esclarecido-la-policia-recupero-la-totalidad-de-las-motos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Porto\n\nTras analizar cámaras de seguridad, las fuerzas de seguridad locales hallaron el tercer rodado y dieron por esclarecido el hecho que conmocionó a Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/hecho-esclarecido-la-policia-recupero-la-totalidad-de-las-motos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Porto",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:02.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:054fa202-87fe-43be-afff-36d09259bbf7|x": {
    "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad3508f0b0d72757ad1ad05",
@@ -24511,14 +24786,14 @@
    "video_url": ""
   },
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:03:30.497Z",
    "id": "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17",
    "intentos": 0,
@@ -24543,7 +24818,7 @@
    "creado": "2026-10-19T16:00:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T15:45:07.109Z",
    "id": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2",
@@ -24669,6 +24944,34 @@
    "vence": "2026-10-14T18:17:18.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:0ad113d1-0797-400e-8161-494cc3be7804|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:0ad113d1-0797-400e-8161-494cc3be7804|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:59.238Z",
+   "id": "web:0ad113d1-0797-400e-8161-494cc3be7804",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/final-provincial-el-gobernador-bonaerense-en-la-inauguracion-de-los",
+   "noticia": "nota:final-provincial-el-gobernador-bonaerense-en-la-inauguracion-de-los",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció su reclamo a Nación por los fondos recortados\n\nhttps://www.diariolacampaña.com.ar/n/final-provincial-el-gobernador-bonaerense-en-la-inauguracion-de-los",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció su reclamo a Nación por los fondos recortados",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:59.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x": {
    "actualizado": "2026-10-16T09:00:21.000Z",
@@ -25256,7 +25559,7 @@
    "creado": "2026-10-19T15:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T14:50:13.014Z",
    "id": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f",
@@ -25920,14 +26223,14 @@
    "video_url": ""
   },
   "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:03:43.099Z",
    "id": "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe",
    "intentos": 0,
@@ -25952,7 +26255,7 @@
    "creado": "2026-10-19T17:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T17:03:24.907Z",
    "id": "web:317c620f-6da5-4b5a-b6b9-577556143229",
@@ -26364,7 +26667,7 @@
    "creado": "2026-10-19T13:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T12:50:10.747Z",
    "id": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a",
@@ -26457,6 +26760,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:02:04.911Z",
+   "id": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-bahia-blanca-grito-campeon-en-el-provincial-u17-femenino-y",
+   "noticia": "nota:basquet-bahia-blanca-grito-campeon-en-el-provincial-u17-femenino-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en el cuarto puesto\n\nEl seleccionado bahiense dominó la final de punta a punta tras vencer al combinado local.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-bahia-blanca-grito-campeon-en-el-provincial-u17-femenino-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en el cuarto puesto",
+   "urgente": false,
+   "vence": "2026-10-20T14:02:04.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198|x": {
    "actualizado": "2026-10-13T17:40:17.000Z",
    "buffer_id": "6ace2204b7b7fb6d7b084a68",
@@ -26525,7 +26856,7 @@
    "creado": "2026-10-19T15:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T14:20:21.839Z",
    "id": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03",
@@ -26569,6 +26900,34 @@
    "vence": "2026-10-13T10:09:54.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:10.572Z",
+   "id": "web:43a2b43f-fc3d-423a-ac09-144e2e421326",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/conflicto-con-bicontinentar-hugo-kubler-la-restitucion-de-la-nave",
+   "noticia": "nota:conflicto-con-bicontinentar-hugo-kubler-la-restitucion-de-la-nave",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Conflicto con Bicontinentar\n\nHugo Kübler afirmó que la restitución de la nave municipal no exime en lo absoluto a la empresa del pago de las obligaciones que mantiene con la comunidad.\n\nhttps://www.diariolacampaña.com.ar/n/conflicto-con-bicontinentar-hugo-kubler-la-restitucion-de-la-nave",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Conflicto con Bicontinentar",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:44657646-5aa8-40e2-92e8-9107905b81c5|x": {
    "actualizado": "2026-10-14T14:40:21.000Z",
@@ -26647,6 +27006,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:23.887Z",
+   "id": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estrellas-amarillas-transformar-los-datos-en-conciencia-el-trabajo-de",
+   "noticia": "nota:estrellas-amarillas-transformar-los-datos-en-conciencia-el-trabajo-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y en la agenda nacional\n\nSe realizó una jornada en la Universidad Nacional de La Pampa junto a autoridades y especialistas. Hubo acompañamiento institucional de la facultad.\n\nhttps://www.diariolacampaña.com.ar/n/estrellas-amarillas-transformar-los-datos-en-conciencia-el-trabajo-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Transformar los datos en conciencia: el trabajo de la Fundación en las aulas y en la agenda nacional",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:23.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9|x": {
    "actualizado": "2026-10-12T12:40:21.000Z",
    "buffer_id": "6accb468556a69b3a0b2c98f",
@@ -26680,7 +27067,7 @@
    "creado": "2026-10-19T17:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T16:48:12.833Z",
    "id": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92",
@@ -26947,7 +27334,7 @@
    "creado": "2026-10-19T15:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T14:45:12.771Z",
    "id": "web:4d61cc5b-9d70-46db-b815-a8250038f4de",
@@ -27052,6 +27439,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:53.153Z",
+   "id": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-derogar-las-paso-para-recuperar-la-democracia-interna-de-los",
+   "noticia": "nota:opinion-derogar-las-paso-para-recuperar-la-democracia-interna-de-los",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Derogar las PASO para recuperar la democracia interna de los partidos\n\nEl autor sostiene que las elecciones PASO no fortalecen la democracia interna partidaria. Afirma que se convirtieron en una gran encuesta electoral útil para los gobiernos de turno.\n\nhttps://www.diariolacampaña.com.ar/n/opinion-derogar-las-paso-para-recuperar-la-democracia-interna-de-los",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Derogar las PASO para recuperar la democracia interna de los partidos",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:53.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:5253b590-963f-4a40-8acf-18a1f53713b5|x": {
    "actualizado": "2026-10-19T14:00:19.000Z",
    "buffer_id": "",
@@ -27059,7 +27474,7 @@
    "creado": "2026-10-19T14:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T13:47:49.556Z",
    "id": "web:5253b590-963f-4a40-8acf-18a1f53713b5",
@@ -27308,7 +27723,7 @@
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T13:05:12.155Z",
    "id": "web:5c389835-1655-4415-b7ad-23045aa7c3ca",
@@ -27816,14 +28231,14 @@
    "video_url": ""
   },
   "web:6f8cf702-5cb7-4b03-8945-02d406201533|x": {
-   "actualizado": "2026-10-19T12:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T10:21:12.000Z",
+   "buffer_id": "6ad740989204fdb17045cb54",
    "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
    "creado": "2026-10-19T12:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T11:30:09.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T12:20:44.102Z",
    "id": "web:6f8cf702-5cb7-4b03-8945-02d406201533",
    "intentos": 0,
@@ -27954,14 +28369,14 @@
    "video_url": ""
   },
   "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:04:13.006Z",
    "id": "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37",
    "intentos": 0,
@@ -28174,6 +28589,34 @@
    "vence": "2026-10-12T17:57:07.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:7524a117-5ec3-428b-862c-0238cd3653e6|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:7524a117-5ec3-428b-862c-0238cd3653e6|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:30.394Z",
+   "id": "web:7524a117-5ec3-428b-862c-0238cd3653e6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
+   "noticia": "nota:eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo de Chivilcoy\n\nEDEN notificará al Municipio e iniciará acciones penales ante el grave riesgo eléctrico para el público y los asistentes a las competencias.\n\nhttps://www.diariolacampaña.com.ar/n/eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:30.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:76224348-2766-4a07-947f-ef8503976009|x": {
    "actualizado": "2026-10-14T15:20:14.000Z",
@@ -28388,6 +28831,34 @@
    "vence": "2026-10-17T15:29:58.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:00:56.355Z",
+   "id": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
+   "noticia": "nota:restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Restringir acceso a Menores\n\nEn Chivilcoy expusieron los ejes del proyecto de Ley de Prevención y Control de las Apuestas en Línea.\n\nhttps://www.diariolacampaña.com.ar/n/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Restringir acceso a Menores",
+   "urgente": false,
+   "vence": "2026-10-20T14:00:56.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452|x": {
    "actualizado": "2026-10-12T11:40:14.000Z",
@@ -28689,6 +29160,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:02:31.407Z",
+   "id": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/temor-por-el-nino-denuncian-que-sigue-paralizado-un-tramo-clave-para",
+   "noticia": "nota:temor-por-el-nino-denuncian-que-sigue-paralizado-un-tramo-clave-para",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "texto": "Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Plan Maestro del río Salado\n\nEl Gobierno bonaerense le reclamó a la administración de Javier Milei que reactive las obras del Plan Maestro del río Salado.\n\nhttps://www.diariolacampaña.com.ar/n/temor-por-el-nino-denuncian-que-sigue-paralizado-un-tramo-clave-para",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Plan Maestro del río Salado",
+   "urgente": false,
+   "vence": "2026-10-20T14:02:31.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x": {
    "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5ef2c784342f6387601a1",
@@ -28731,7 +29230,7 @@
    "creado": "2026-10-19T13:40:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T13:35:15.528Z",
    "id": "web:847aec7b-6e8c-4074-82b2-d77103ae355f",
@@ -28807,7 +29306,7 @@
    "creado": "2026-10-19T14:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T13:50:09.778Z",
    "id": "web:85b0f263-df46-4783-b4dd-311f977e50c9",
@@ -28857,7 +29356,7 @@
    "creado": "2026-10-19T16:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T16:02:32.709Z",
    "id": "web:8823bbc2-feae-46ef-8a92-a08165b6e26c",
@@ -28901,6 +29400,34 @@
    "vence": "2026-10-20T10:03:17.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:02:18.797Z",
+   "id": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/5-y-15k-exitoso-debut-de-la-primera-carrera-aventura-del-club",
+   "noticia": "nota:5-y-15k-exitoso-debut-de-la-primera-carrera-aventura-del-club",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Exitoso debut de la primera \"Carrera Aventura\" del Club Atlético Huracán\n\nCon un gran marco de público y competidores de toda la región, Chivilcoy vivió una jornada pura de deporte, naturaleza y comunidad en los circuitos de 5K y 15K.\n\nhttps://www.diariolacampaña.com.ar/n/5-y-15k-exitoso-debut-de-la-primera-carrera-aventura-del-club",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Exitoso debut de la primera \"Carrera Aventura\" del Club Atlético Huracán",
+   "urgente": false,
+   "vence": "2026-10-20T14:02:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x": {
    "actualizado": "2026-10-13T11:40:15.000Z",
@@ -29045,7 +29572,7 @@
    "creado": "2026-10-19T15:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T15:05:24.036Z",
    "id": "web:8d5f9e45-c3ff-4b47-a721-0097362139bf",
@@ -29519,14 +30046,14 @@
    "video_url": ""
   },
   "web:9627f721-ec60-4caa-8de1-29648f987444|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:9627f721-ec60-4caa-8de1-29648f987444|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:03:47.129Z",
    "id": "web:9627f721-ec60-4caa-8de1-29648f987444",
    "intentos": 0,
@@ -29636,7 +30163,7 @@
    "creado": "2026-10-19T15:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T15:15:08.042Z",
    "id": "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5",
@@ -29943,18 +30470,19 @@
    "video_url": ""
   },
   "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x": {
-   "actualizado": "2026-10-20T09:00:31.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "6ad72db0dd13ed293956cbdb",
    "clave": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-20T10:15:09.000Z",
+   "enviado": "2026-10-20T10:15:16.188Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:02:53.607Z",
    "id": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112487806647836736",
    "nota_url": "https://www.diariolacampaña.com.ar/n/oscar-potetti-no-se-entiende-por-que-hay-50-millones-de-dolares-para",
    "origen": "web",
    "plataforma": "x",
@@ -30004,14 +30532,14 @@
    "video_url": ""
   },
   "web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:04:04.106Z",
    "id": "web:a2af1a45-c946-45f9-8384-08d4404d0b4a",
    "intentos": 0,
@@ -30063,6 +30591,34 @@
    "vence": "2026-10-20T05:20:29.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:02:10.364Z",
+   "id": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-infanto-juvenil-tres-decadas-de-pasion-y-formacion-la-escuela",
+   "noticia": "nota:futbol-infanto-juvenil-tres-decadas-de-pasion-y-formacion-la-escuela",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su Aniversario\n\nLa institución festeja tres décadas dedicadas a la formación deportiva, social y humana de cientos de niños y jóvenes. Referentes dieron testimonio.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-infanto-juvenil-tres-decadas-de-pasion-y-formacion-la-escuela",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su Aniversario",
+   "urgente": false,
+   "vence": "2026-10-20T14:02:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:a48b6d42-70dd-4459-94a5-2c178959330a|x": {
    "actualizado": "2026-10-15T22:20:20.000Z",
@@ -30617,7 +31173,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T20:43:27.120Z",
    "id": "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd",
@@ -30637,14 +31193,14 @@
    "video_url": ""
   },
   "web:b4cfec79-0715-4512-9344-baf46d5042d1|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:b4cfec79-0715-4512-9344-baf46d5042d1|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:03:51.490Z",
    "id": "web:b4cfec79-0715-4512-9344-baf46d5042d1",
    "intentos": 0,
@@ -30687,18 +31243,19 @@
    "video_url": ""
   },
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x": {
-   "actualizado": "2026-10-20T09:00:31.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "6ad72db0ed43fb48e28f923e",
    "clave": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "2026-10-20T10:00:16.000Z",
+   "enviado": "2026-10-20T10:02:51.429Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T10:02:40.234Z",
    "id": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112484683053138343",
    "nota_url": "https://www.diariolacampaña.com.ar/n/malestar-y-restitucion-entre-la-actuacion-policial-y-la-movilizacion",
    "origen": "web",
    "plataforma": "x",
@@ -31007,7 +31564,7 @@
    "creado": "2026-10-19T19:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T19:02:42.465Z",
    "id": "web:c4a5c4d8-6c34-494d-8c50-85f771cba512",
@@ -31027,14 +31584,14 @@
    "video_url": ""
   },
   "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
+   "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
    "clave": "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x",
    "creado": "2026-10-19T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T10:03:26.530Z",
    "id": "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765",
    "intentos": 0,
@@ -31621,7 +32178,7 @@
    "creado": "2026-10-19T20:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T20:04:34.221Z",
    "id": "web:ce515f56-0397-44d3-b63d-c656faf40928",
@@ -31904,6 +32461,34 @@
    "vence": "2026-10-15T14:12:14.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:46.765Z",
+   "id": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-dermatologica-romina-serrano-detallo-los-tratamientos-medicos",
+   "noticia": "nota:salud-dermatologica-romina-serrano-detallo-los-tratamientos-medicos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Romina Serrano detalló los tratamientos médicos frente a la caída capilar\n\nLa dermatóloga Romina Serrano abordó la caída del cabello y las alternativas terapéuticas actuales. La especialista remarcó la necesidad de desmitificar soluciones milagrosas.\n\nhttps://www.diariolacampaña.com.ar/n/salud-dermatologica-romina-serrano-detallo-los-tratamientos-medicos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Romina Serrano detalló los tratamientos médicos frente a la caída capilar",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:46.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:d7ad4f31-314f-442d-8bc0-e21896071433|x": {
    "actualizado": "2026-10-20T09:00:31.000Z",
@@ -32379,6 +32964,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x": {
+   "actualizado": "2026-10-20T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
+   "creado": "2026-10-20T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T10:01:38.640Z",
+   "id": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/recambio-de-autoridades-matias-carrettoni-asumio-la-presidencia-de-la",
+   "noticia": "nota:recambio-de-autoridades-matias-carrettoni-asumio-la-presidencia-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Sección\n\nEl recambio de autoridades se realizó el pasado sábado en Chacabuco con más de 80 personas de la región.\n\nhttps://www.diariolacampaña.com.ar/n/recambio-de-autoridades-matias-carrettoni-asumio-la-presidencia-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Matías Carrettoni asumió la presidencia de la Juventud Radical de la Cuarta Sección",
+   "urgente": false,
+   "vence": "2026-10-20T14:01:38.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x": {
    "actualizado": "2026-10-13T10:20:19.000Z",
    "buffer_id": "",
@@ -32411,7 +33024,7 @@
    "creado": "2026-10-19T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T14:15:13.423Z",
    "id": "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34",
@@ -32536,7 +33149,7 @@
    "creado": "2026-10-19T13:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T13:20:14.693Z",
    "id": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101",
@@ -33113,7 +33726,7 @@
    "creado": "2026-10-19T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T14:05:11.716Z",
    "id": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc",
@@ -33139,7 +33752,7 @@
    "creado": "2026-10-19T15:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "estado": "pendiente",
    "generado": "2026-10-19T14:35:45Z",
    "id": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5",
@@ -33264,162 +33877,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
-   "cuando": "2026-10-17T19:20:40.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|tiktok",
-   "cuando": "2026-10-17T19:20:40.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido|tiktok",
-   "cuando": "2026-10-17T19:20:40.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 15 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x",
-   "cuando": "2026-10-17T19:20:40.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 47 publicaciones en 24 h de X"
-  },
-  {
-   "buffer_id": "6ad3ca89e272c4918f9b788c",
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
-   "cuando": "2026-10-17T19:20:41.000Z",
-   "dueAt": "2026-10-17T23:18:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x",
-   "cuando": "2026-10-17T20:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111537437730021544"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|x",
-   "cuando": "2026-10-17T20:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111533657580024252"
-  },
-  {
-   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
-   "cuando": "2026-10-17T20:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111541077324730674"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-17T20:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697719605791395093"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
-   "cuando": "2026-10-17T21:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok",
-   "cuando": "2026-10-17T21:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x",
-   "cuando": "2026-10-17T21:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad3e1e60a208cb3233931e4",
-   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
-   "cuando": "2026-10-17T21:00:24.000Z",
-   "dueAt": "2026-10-17T23:33:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3e1e70b0d72757af3dc05",
-   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok",
-   "cuando": "2026-10-17T21:00:24.000Z",
-   "dueAt": "2026-10-17T21:03:42.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3e1e7e272c4918f9fa1cd",
-   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
-   "cuando": "2026-10-17T21:00:24.000Z",
-   "dueAt": "2026-10-17T21:43:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:902234a6-60aa-4826-bffd-430eafadfad0|x",
-   "cuando": "2026-10-17T21:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c9371dd8-162b-4f1a-b810-3babc7cd5394|x",
-   "cuando": "2026-10-17T21:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|tiktok",
-   "cuando": "2026-10-17T21:20:23.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697745399506930965"
-  },
-  {
-   "clave": "web:a71527cf-9969-4a41-b023-0cbb15aa0c08|x",
-   "cuando": "2026-10-17T21:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|tiktok",
-   "cuando": "2026-10-17T21:40:13.000Z",
-   "evento": "vencido",
-   "motivo": "intercalado: en TikTok quedaría pegado a otro policial; espera una publicación de otra temática"
-  },
-  {
-   "clave": "web:559ac15c-0c52-40db-b3a1-6118e02867ed|x",
-   "cuando": "2026-10-17T21:40:13.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
-   "cuando": "2026-10-17T22:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x",
-   "cuando": "2026-10-17T22:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
    "cuando": "2026-10-17T22:20:22.000Z",
@@ -37490,6 +37947,171 @@
    "cuando": "2026-10-20T10:00:20.000Z",
    "dueAt": "2026-10-20T11:15:37.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x",
+   "cuando": "2026-10-20T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x",
+   "cuando": "2026-10-20T10:20:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
+   "cuando": "2026-10-20T10:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x",
+   "cuando": "2026-10-20T10:20:40.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0ad113d1-0797-400e-8161-494cc3be7804|x",
+   "cuando": "2026-10-20T10:20:48.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x",
+   "cuando": "2026-10-20T10:20:51.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x",
+   "cuando": "2026-10-20T10:20:54.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
+   "cuando": "2026-10-20T10:20:56.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7524a117-5ec3-428b-862c-0238cd3653e6|x",
+   "cuando": "2026-10-20T10:20:57.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x",
+   "cuando": "2026-10-20T10:21:00.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x",
+   "cuando": "2026-10-20T10:21:02.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:053f7722-ce93-4d22-9679-cc89862bee76|x",
+   "cuando": "2026-10-20T10:21:04.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:9627f721-ec60-4caa-8de1-29648f987444|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:b4cfec79-0715-4512-9344-baf46d5042d1|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112487806647836736"
+  },
+  {
+   "clave": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x",
+   "cuando": "2026-10-20T10:21:12.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112484683053138343"
+  },
+  {
+   "buffer_id": "6ad740989204fdb17045cb54",
+   "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
+   "cuando": "2026-10-20T10:21:13.000Z",
+   "dueAt": "2026-10-20T11:30:09.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -37499,7 +38121,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-20",
- "ultima_sync": "2026-10-20T02:40:18.000Z",
+ "ultima_sync": "2026-10-20T10:21:12.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -37766,6 +38388,7 @@
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": "2026-10-18T19:40:15.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
+  "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17": "2026-10-19T10:20:14.000Z",
   "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
@@ -37773,6 +38396,7 @@
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
+  "web:0ad113d1-0797-400e-8161-494cc3be7804": "2026-10-20T10:20:14.000Z",
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f": "2026-10-15T20:20:15.000Z",
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": "2026-10-15T10:20:13.000Z",
@@ -37840,13 +38464,16 @@
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
+  "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": "2026-10-20T10:20:14.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
   "web:4199d5d7-7749-42b5-a204-16844f3014eb": "2026-10-19T10:20:14.000Z",
   "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
+  "web:43a2b43f-fc3d-423a-ac09-144e2e421326": "2026-10-20T10:20:14.000Z",
   "web:44657646-5aa8-40e2-92e8-9107905b81c5": "2026-10-14T00:20:13.000Z",
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
   "web:45068b15-aced-4c18-90c2-1a6b12ad49c1": "2026-10-12T12:20:13.000Z",
+  "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c": "2026-10-20T10:20:14.000Z",
   "web:460f2444-1e6f-479e-a30a-997a5bb82cc9": "2026-10-12T10:20:17.000Z",
   "web:46323048-26ab-4cde-bf1b-7382a5e5ce92": "2026-10-19T17:00:21.000Z",
   "web:474e6223-8e55-4add-aedc-549975a9f8e1": "2026-10-15T10:20:13.000Z",
@@ -37861,6 +38488,7 @@
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8": "2026-10-18T01:00:19.000Z",
+  "web:51e471e5-2b2b-43ba-8451-9ac391cdb485": "2026-10-20T10:20:14.000Z",
   "web:5253b590-963f-4a40-8acf-18a1f53713b5": "2026-10-19T14:00:19.000Z",
   "web:529a6711-cd47-4076-ac13-c952c77ee9c7": "2026-10-15T10:20:13.000Z",
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": "2026-10-18T01:20:13.000Z",
@@ -37903,6 +38531,7 @@
   "web:73884e5f-be3c-4110-ad9d-8ec04b0a9ef2": "2026-10-14T21:40:16.000Z",
   "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": "2026-10-13T22:20:15.000Z",
   "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": "2026-10-11T21:58:03.000Z",
+  "web:7524a117-5ec3-428b-862c-0238cd3653e6": "2026-10-20T10:20:14.000Z",
   "web:76224348-2766-4a07-947f-ef8503976009": "2026-10-13T15:20:18.000Z",
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": "2026-10-17T02:20:17.000Z",
   "web:76c3d71e-5104-400d-a4f4-414ceb358697": "2026-10-12T15:20:17.000Z",
@@ -37911,6 +38540,7 @@
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
   "web:79374449-0d19-4bc1-8bac-ee1a849f1966": "2026-10-13T10:20:16.000Z",
   "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d": "2026-10-16T15:40:14.000Z",
+  "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": "2026-10-20T10:20:14.000Z",
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": "2026-10-16T15:20:15.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
@@ -37922,6 +38552,7 @@
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
   "web:82b6cce8-6765-4661-8b19-1e22966dd60a": "2026-10-18T19:20:13.000Z",
   "web:82d9c768-a466-49ff-882d-09e27a21796f": "2026-10-19T01:40:13.000Z",
+  "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4": "2026-10-20T10:20:14.000Z",
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692": "2026-10-19T10:20:14.000Z",
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
@@ -37930,6 +38561,7 @@
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
   "web:8823bbc2-feae-46ef-8a92-a08165b6e26c": "2026-10-19T16:20:14.000Z",
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4": "2026-10-19T10:20:14.000Z",
+  "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": "2026-10-20T10:20:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",
   "web:8b1f621b-9386-459e-a867-db045379ced7": "2026-10-20T00:20:16.000Z",
@@ -37972,6 +38604,7 @@
   "web:a1643449-bbde-4592-a6b3-8e7158b579e6": "2026-10-19T15:20:16.000Z",
   "web:a2af1a45-c946-45f9-8384-08d4404d0b4a": "2026-10-19T10:20:14.000Z",
   "web:a2b829fd-dfab-4681-94c5-581ba33a9d16": "2026-10-19T09:00:17.000Z",
+  "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b": "2026-10-20T10:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a": "2026-10-19T10:20:14.000Z",
@@ -38040,6 +38673,7 @@
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": "2026-10-15T22:20:20.000Z",
   "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": "2026-10-19T01:00:18.000Z",
   "web:d72917a3-67e5-41df-affc-436383926d89": "2026-10-14T14:20:14.000Z",
+  "web:d799c57f-7212-48e4-a327-deb6d13d1b4f": "2026-10-20T10:20:14.000Z",
   "web:d7ad4f31-314f-442d-8bc0-e21896071433": "2026-10-19T09:00:17.000Z",
   "web:d831e553-7a38-4db9-87b3-9dc75a105046": "2026-10-20T01:40:15.000Z",
   "web:d8fc72f1-41f0-4010-8cc8-3544c2c8f311": "2026-10-12T10:20:17.000Z",
@@ -38058,6 +38692,7 @@
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399": "2026-10-19T02:40:14.000Z",
   "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c": "2026-10-16T10:20:16.000Z",
+  "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b": "2026-10-20T10:20:14.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
   "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34": "2026-10-19T14:20:14.000Z",
   "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": "2026-10-14T10:20:15.000Z",
