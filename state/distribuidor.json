@@ -1396,6 +1396,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a736f6dc52cc6da9.mp4",
    "youtube_url": "https://www.youtube.com/shorts/QaZXdRs838A"
   },
+  "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4": {
+   "descripcion": "Un robo ocurrió en el comercio Troka y desde el establecimiento decidieron difundir las imágenes registradas por las cámaras de seguridad para visibilizar lo sucedido.\n\nTras el hecho, los responsables del local compartieron el video y manifestaron sentir una profunda tristeza e impotencia frente a este episodio de inseguridad.\n\nAsimismo, remarcaron que detrás de cada negocio hay personas que dedican muchas horas de trabajo y esfuerzo diario para sostener el emprendimiento. A su vez, expresaron su agradecimiento a los clientes por el constante acompañamiento que les brindan.\n\nEl comercio damnificado cuenta con una sucursal situada en la esquina de Lavalle y Chacabuco, en la ciudad de Chivilcoy.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-20T17:46:03.000Z",
+   "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Robaron en Troka y difundieron las cámaras de seguridad",
+   "urgente": false,
+   "video_bytes": 1586715,
+   "video_mb": 1.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_81afb90091bfbc33.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/sYn6p-oJYRc"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -1995,6 +2016,26 @@
    "video_mb": 23.8,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00231.mp4",
    "youtube_url": "https://youtu.be/i6g7HigNUPI"
+  },
+  "entrevistas:job00232": {
+   "descripcion": "En Chivilcoy, el meteorólogo Marcelo Speranza advirtió que los centros internacionales coinciden en que transitamos el fenómeno de El Niño más potente registrado.",
+   "duracion_seg": null,
+   "entrevistado": "Marcelo Speranza",
+   "generado": "2026-10-20T18:00:17.000Z",
+   "id": "entrevistas:job00232",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: El Niño más fuerte de la historia",
+   "urgente": false,
+   "video_bytes": 33708334,
+   "video_mb": 32.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00232.mp4",
+   "youtube_url": "https://youtu.be/qj0ae_9Ebow"
   },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
@@ -12470,22 +12511,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 56,
-   "segundos": 19210,
+   "restantes": 55,
+   "segundos": 17998,
    "tope": 250
   },
   "30d": {
-   "restantes": 2366,
-   "segundos": 1827025,
+   "restantes": 2365,
+   "segundos": 1825813,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T17:40:17.000Z",
+ "cuota_visto": "2026-10-20T18:00:29.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16518,6 +16559,60 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a736f6dc52cc6da9.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok": {
+   "actualizado": "2026-10-20T18:00:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
+   "creado": "2026-10-20T18:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-20T17:46:03.000Z",
+   "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Robaron en Troka y difundieron las cámaras de seguridad\n\nLos responsables del local difundieron las imágenes para visibilizar lo sucedido y manifestaron sentir una profunda tristeza e impotencia frente a este episodio de inseguridad. Asimismo, remarcaron el esfuerzo diario de trabajo detrás del negocio y agradecieron el acompañamiento de sus clientes.\n\nhttps://www.youtube.com/shorts/sYn6p-oJYRc\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron en Troka y difundieron las cámaras de seguridad",
+   "urgente": false,
+   "vence": "2026-10-22T17:46:03.000Z",
+   "video_bytes": 1586715,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_81afb90091bfbc33.mp4"
+  },
+  "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x": {
+   "actualizado": "2026-10-20T18:00:27.000Z",
+   "buffer_id": "6ad7ac3ddbe8f4b851e4ef4e",
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x",
+   "creado": "2026-10-20T18:00:17.000Z",
+   "dueAt": "2026-10-20T18:02:28.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T17:46:03.000Z",
+   "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:camaras-difundieron-robaron-seguridad-troka",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Robaron en Troka y difundieron las cámaras de seguridad\n\nLos responsables del local manifestaron tristeza e impotencia tras el hecho. Además, agradecieron a sus clientes por el constante acompañamiento recibido.\n\nhttps://www.youtube.com/shorts/sYn6p-oJYRc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron en Troka y difundieron las cámaras de seguridad",
+   "urgente": false,
+   "vence": "2026-10-20T19:46:03.000Z",
+   "video_bytes": 1586715,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_81afb90091bfbc33.mp4",
+   "viral": false
+  },
   "entrevistas:job00188|x": {
    "actualizado": "2026-10-12T18:00:16.000Z",
    "buffer_id": "6acd12237eb16fd28e94048f",
@@ -17393,6 +17488,34 @@
    "vence": "2026-10-20T19:40:15.000Z",
    "video_bytes": 24946685,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00231.mp4",
+   "viral": false
+  },
+  "entrevistas:job00232|x": {
+   "actualizado": "2026-10-20T18:00:27.000Z",
+   "buffer_id": "6ad7ac3ddbe8f4b851e4f035",
+   "clave": "entrevistas:job00232|x",
+   "creado": "2026-10-20T18:00:17.000Z",
+   "dueAt": "2026-10-20T18:08:28.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T18:00:17.000Z",
+   "id": "entrevistas:job00232",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:fuerte-historia-marcelo-nino-speranza",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marcelo Speranza: El Niño más fuerte de la historia\n\nEn Chivilcoy, el meteorólogo Marcelo Speranza advirtió que los centros internacionales coinciden en que transitamos el fenómeno de El Niño más potente registrado.\n\nhttps://youtu.be/qj0ae_9Ebow",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: El Niño más fuerte de la historia",
+   "urgente": false,
+   "vence": "2026-10-20T20:00:17.000Z",
+   "video_bytes": 33708334,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00232.mp4",
    "viral": false
   },
   "nacionales:02472f0cd4ba4800|tiktok": {
@@ -34429,53 +34552,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad4df070b0d72757a288eec",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
-   "cuando": "2026-10-18T15:00:23.000Z",
-   "dueAt": "2026-10-18T16:45:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
-   "cuando": "2026-10-18T15:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
-   "cuando": "2026-10-18T15:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:2991bf21-e852-48ba-87ce-5d073c3a7487|x",
-   "cuando": "2026-10-18T15:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:5e1b7468-652a-43da-baf9-771cda1103ff|x",
-   "cuando": "2026-10-18T15:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x",
-   "cuando": "2026-10-18T15:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
    "cuando": "2026-10-18T15:20:24.000Z",
    "evento": "vencido",
@@ -38605,6 +38681,49 @@
    "cuando": "2026-10-20T17:40:17.000Z",
    "dueAt": "2026-10-20T17:42:17.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00232",
+   "cuando": "2026-10-20T18:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x",
+   "cuando": "2026-10-20T18:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
+   "cuando": "2026-10-20T18:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "entrevistas:job00232|x",
+   "cuando": "2026-10-20T18:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad7ac3ddbe8f4b851e4ef4e",
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x",
+   "cuando": "2026-10-20T18:00:29.000Z",
+   "dueAt": "2026-10-20T18:02:28.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad7ac3ddbe8f4b851e4f035",
+   "clave": "entrevistas:job00232|x",
+   "cuando": "2026-10-20T18:00:29.000Z",
+   "dueAt": "2026-10-20T18:08:28.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38683,6 +38802,7 @@
   "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4": "2026-10-20T12:40:14.000Z",
   "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4": "2026-10-20T14:00:21.000Z",
   "bot:video_matias-zucchi_mvgve3f60o53_01.mp4": "2026-10-20T16:20:16.000Z",
+  "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4": "2026-10-20T18:00:17.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -38713,6 +38833,7 @@
   "entrevistas:job00229": "2026-10-19T18:20:14.000Z",
   "entrevistas:job00230": "2026-10-20T17:00:17.000Z",
   "entrevistas:job00231": "2026-10-20T17:40:15.000Z",
+  "entrevistas:job00232": "2026-10-20T18:00:17.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",

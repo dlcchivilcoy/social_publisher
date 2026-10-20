@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 3 |
@@ -28,9 +28,10 @@ Actualizado: 20/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 56 de 250 · 30d: quedan 2366 de 3000 (visto 2026-10-20T17:40:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 55 de 250 · 30d: quedan 2365 de 3000 (visto 2026-10-20T18:00:29.000Z)
 
-## Cola propia (12 esperando)
+## Cola propia (13 esperando)
+- TikTok · Reels del bot · Robaron en Troka y difundieron las cámaras de seguridad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Robaron la caja registradora de una carnicería en la avenida Güemes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,12 +55,6 @@ Actualizado: 20/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T15:43 depurado web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-20T15:43 depurado web:317c620f-6da5-4b5a-b6b9-577556143229|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-20T15:43 depurado web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-20T15:43 depurado web:8823bbc2-feae-46ef-8a92-a08165b6e26c|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-20T15:43 depurado web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-20T15:43 depurado web:c4a5c4d8-6c34-494d-8c50-85f771cba512|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-20T15:43 depurado web:ce515f56-0397-44d3-b63d-c656faf40928|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-20T15:47 recuperado policiales:https://infociudad.com.ar/actualidad/san-antonio- la regla vigente lo deja
 - 2026-10-20T15:47 recuperado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en la regla vigente lo deja
@@ -79,3 +74,9 @@ Actualizado: 20/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-20T17:40 enviado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
 - 2026-10-20T17:40 enviado entrevistas:job00230|x 
 - 2026-10-20T17:40 programado entrevistas:job00231|x 
+- 2026-10-20T18:00 entrevista_aprobada entrevistas:job00232 
+- 2026-10-20T18:00 recibido bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x 
+- 2026-10-20T18:00 recibido bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok 
+- 2026-10-20T18:00 recibido entrevistas:job00232|x 
+- 2026-10-20T18:00 programado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x 
+- 2026-10-20T18:00 programado entrevistas:job00232|x 
