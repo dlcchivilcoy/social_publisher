@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 10 | 2 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 3 |
@@ -14,7 +14,7 @@ Actualizado: 20/10/2026 13:00 (hora AR) · ACTIVO
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 41 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 39 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,9 +28,10 @@ Actualizado: 20/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 142 de 250 · 30d: quedan 2452 de 3000 (visto 2026-10-20T15:40:18.000Z)
+15m: quedan 98 de 100 · 24h: quedan 59 de 250 · 30d: quedan 2369 de 3000 (visto 2026-10-20T16:20:27.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (14 esperando)
+- TikTok · Reels del bot · Robaron la caja registradora de una carnicería en la avenida Güemes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,10 +56,6 @@ Actualizado: 20/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T15:20 enviado web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x 
-- 2026-10-20T15:20 enviado web:4d61cc5b-9d70-46db-b815-a8250038f4de|x 
-- 2026-10-20T15:20 enviado web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x 
-- 2026-10-20T15:20 enviado web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x 
 - 2026-10-20T15:40 programado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x 
 - 2026-10-20T15:43 depurado nacionales:42bad0f0b5785838|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
 - 2026-10-20T15:43 depurado nacionales:4399eb58559e6a51|tiktok entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)
@@ -80,3 +77,7 @@ Actualizado: 20/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-20T15:47 recuperado policiales:https://www.chacabuquero.com.ar/2026/10/choque-en la regla vigente lo deja
 - 2026-10-20T15:47 recuperado policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- la regla vigente lo deja
 - 2026-10-20T15:47 recuperado policiales:https://www.diariodemocracia.com/policiales/34678 la regla vigente lo deja
+- 2026-10-20T16:20 recibido bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
+- 2026-10-20T16:20 recibido bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
+- 2026-10-20T16:20 enviado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x 
+- 2026-10-20T16:20 programado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
