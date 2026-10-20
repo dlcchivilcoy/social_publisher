@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 5 | 3 | 3 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 5 | 6 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 4 |
@@ -14,8 +14,8 @@ Actualizado: 20/10/2026 19:20 (hora AR) · ACTIVO
 | Nacionales y categorías | TikTok | 5 | 1 | 0 | 1 | 0 | 0 | 2 |
 
 ## Canales
-- X: conectado · Buffer: 39 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 4 enviadas + 3 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 40 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 20/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 26 de 250 · 30d: quedan 2336 de 3000 (visto 2026-10-20T21:20:26.000Z)
+15m: quedan 99 de 100 · 24h: quedan 25 de 250 · 30d: quedan 2335 de 3000 (visto 2026-10-20T22:40:13.000Z)
 
 ## Cola propia (9 esperando)
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,10 +51,6 @@ Actualizado: 20/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T18:40 enviado entrevistas:job00233|x 
-- 2026-10-20T19:00 entrevista_aprobada entrevistas:job00234 
-- 2026-10-20T19:00 recibido entrevistas:job00234|x 
-- 2026-10-20T19:00 programado entrevistas:job00234|x 
 - 2026-10-20T19:40 enviado entrevistas:job00234|x 
 - 2026-10-20T21:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok 
@@ -76,3 +72,7 @@ Actualizado: 20/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-20T22:20 recibido nacionales:10671478a956c2ad|tiktok 
 - 2026-10-20T22:20 depurado nacionales:10671478a956c2ad|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
 - 2026-10-20T22:20 depurado nacionales:10671478a956c2ad|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-20T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tikto 
+- 2026-10-20T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
+- 2026-10-20T22:40 enviado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
+- 2026-10-20T22:40 enviado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
