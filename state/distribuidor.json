@@ -15,7 +15,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-20T16:20:25.000Z"
+   "visto": "2026-10-20T17:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 39
+    "sent": 41
    },
    "pausado": false,
-   "visto": "2026-10-20T16:20:25.000Z"
+   "visto": "2026-10-20T17:40:15.000Z"
   }
  },
  "contenidos": {
@@ -1975,6 +1975,26 @@
    "video_mb": 23.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
    "youtube_url": "https://youtu.be/MCVGMIP1KV4"
+  },
+  "entrevistas:job00231": {
+   "descripcion": "En Chivilcoy, la médica clínica Itatí Pérez Cosimano reflexionó sobre la formación tradicional de la medicina y destacó el valor de los cuidados paliativos para acompañar al paciente.",
+   "duracion_seg": null,
+   "entrevistado": "Itatí Pérez Cosimano",
+   "generado": "2026-10-20T17:40:15.000Z",
+   "id": "entrevistas:job00231",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Itatí Pérez Cosimano: Cuando no se puede curar, hay que cuidar",
+   "urgente": false,
+   "video_bytes": 24946685,
+   "video_mb": 23.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00231.mp4",
+   "youtube_url": "https://youtu.be/i6g7HigNUPI"
   },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
@@ -12450,22 +12470,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 58,
-   "segundos": 21608,
+   "restantes": 56,
+   "segundos": 19210,
    "tope": 250
   },
   "30d": {
-   "restantes": 2368,
-   "segundos": 1829423,
+   "restantes": 2366,
+   "segundos": 1827025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T17:00:19.000Z",
+ "cuota_visto": "2026-10-20T17:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16470,18 +16490,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a736f6dc52cc6da9.mp4"
   },
   "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x": {
-   "actualizado": "2026-10-20T16:20:26.000Z",
+   "actualizado": "2026-10-20T17:40:15.000Z",
    "buffer_id": "6ad794ca7a8c18c236ab0576",
    "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x",
    "creado": "2026-10-20T16:20:16.000Z",
    "dueAt": "2026-10-20T16:22:58.000Z",
+   "enviado": "2026-10-20T16:23:05.114Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T16:06:52.000Z",
    "id": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112580370763813335",
    "nota_url": "",
    "noticia": "titulo:avenida-caja-carniceria-guemes-registradora-robaron",
    "origen": "bot",
@@ -17318,18 +17339,19 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00229.mp4"
   },
   "entrevistas:job00230|x": {
-   "actualizado": "2026-10-20T17:00:17.000Z",
+   "actualizado": "2026-10-20T17:40:15.000Z",
    "buffer_id": "6ad79e224367d45ae956ea3b",
    "clave": "entrevistas:job00230|x",
    "creado": "2026-10-20T17:00:17.000Z",
    "dueAt": "2026-10-20T17:02:24.000Z",
+   "enviado": "2026-10-20T17:05:42.147Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T17:00:17.000Z",
    "id": "entrevistas:job00230",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112591095636922703",
    "nota_url": "",
    "noticia": "titulo:desgarrador-giallorenzi-haiku-jorge-terremoto",
    "origen": "entrevistas",
@@ -17343,6 +17365,34 @@
    "vence": "2026-10-20T19:00:17.000Z",
    "video_bytes": 24158249,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
+   "viral": false
+  },
+  "entrevistas:job00231|x": {
+   "actualizado": "2026-10-20T17:40:15.000Z",
+   "buffer_id": "6ad7a78099840d511e09a17c",
+   "clave": "entrevistas:job00231|x",
+   "creado": "2026-10-20T17:40:15.000Z",
+   "dueAt": "2026-10-20T17:42:17.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T17:40:15.000Z",
+   "id": "entrevistas:job00231",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:cosimano-cuidar-curar-itati-perez-puede",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Itatí Pérez Cosimano: Cuando no se puede curar, hay que cuidar\n\nEn Chivilcoy, la médica clínica Itatí Pérez Cosimano reflexionó sobre la formación tradicional de la medicina y destacó el valor de los cuidados paliativos para acompañar al paciente.\n\nhttps://youtu.be/i6g7HigNUPI",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Itatí Pérez Cosimano: Cuando no se puede curar, hay que cuidar",
+   "urgente": false,
+   "vence": "2026-10-20T19:40:15.000Z",
+   "video_bytes": 24946685,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00231.mp4",
    "viral": false
   },
   "nacionales:02472f0cd4ba4800|tiktok": {
@@ -22068,14 +22118,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-20T15:47:41.000Z",
+   "actualizado": "2026-10-20T17:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T23:21:15.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
    "intentos": 0,
@@ -34379,42 +34429,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698003171033042197"
-  },
-  {
-   "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111827329014010066"
-  },
-  {
-   "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111815942724366637"
-  },
-  {
-   "clave": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111823623077937604"
-  },
-  {
-   "clave": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111820324861874250"
-  },
-  {
-   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
-   "cuando": "2026-10-18T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111831170564440170"
-  },
-  {
    "buffer_id": "6ad4df070b0d72757a288eec",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
    "cuando": "2026-10-18T15:00:23.000Z",
@@ -38553,6 +38567,44 @@
    "cuando": "2026-10-20T17:00:19.000Z",
    "dueAt": "2026-10-20T17:02:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00231",
+   "cuando": "2026-10-20T17:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00231|x",
+   "cuando": "2026-10-20T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-20T17:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x",
+   "cuando": "2026-10-20T17:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112580370763813335"
+  },
+  {
+   "clave": "entrevistas:job00230|x",
+   "cuando": "2026-10-20T17:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112591095636922703"
+  },
+  {
+   "buffer_id": "6ad7a78099840d511e09a17c",
+   "clave": "entrevistas:job00231|x",
+   "cuando": "2026-10-20T17:40:17.000Z",
+   "dueAt": "2026-10-20T17:42:17.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38563,7 +38615,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-20",
- "ultima_sync": "2026-10-20T16:20:25.000Z",
+ "ultima_sync": "2026-10-20T17:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -38660,6 +38712,7 @@
   "entrevistas:job00228": "2026-10-19T17:40:30.000Z",
   "entrevistas:job00229": "2026-10-19T18:20:14.000Z",
   "entrevistas:job00230": "2026-10-20T17:00:17.000Z",
+  "entrevistas:job00231": "2026-10-20T17:40:15.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
