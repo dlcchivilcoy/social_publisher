@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00230",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-10-20T16:52:03.000Z",
+ "titulo": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto",
+ "descripcion": "En Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "vfigPd4Vua8",
+  "largo": "MCVGMIP1KV4"
+ },
+ "youtube_url": "https://youtube.com/shorts/vfigPd4Vua8",
+ "prioridad": 7,
+ "entrevistado": "Jorge Giallorenzi",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
