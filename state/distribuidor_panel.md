@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 06:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 07:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/10/2026 06:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,9 @@ Actualizado: 20/10/2026 06:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2544 de 3000 (visto 2026-10-20T09:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2543 de 3000 (visto 2026-10-20T10:00:20.000Z)
 
-## Cola propia (50 esperando)
+## Cola propia (48 esperando)
 - TikTok · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,14 +53,14 @@ Actualizado: 20/10/2026 06:40 (hora AR) · ACTIVO
 - X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Despedida de la delegación local que viajará a la ciudad de Mar del Plata para c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Primera División: El Torneo Clausura se pone al día a puro empate y emoción — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · El periodista Gustavo "Gato" Sylvestre presentó su nuevo libro en Chivilcoy con  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagon — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Coty Granjera: la historia de la influencer rural que causa furor con sus ocho h — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,8 +72,6 @@ Actualizado: 20/10/2026 06:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T09:00 vencido nacionales:588268bbf306f395|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:677e9def2f7175b0|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:00 vencido nacionales:8f3dac102e5cdee4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:00 vencido nacionales:a09771b77a360e01|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:00 vencido nacionales:be6592b07ce935fb|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -97,3 +95,5 @@ Actualizado: 20/10/2026 06:40 (hora AR) · ACTIVO
 - 2026-10-20T09:20 vencido nacionales:f370b43343c04756|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:20 programado web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
 - 2026-10-20T09:40 programado web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x 
+- 2026-10-20T10:00 vencido nacionales:dc18047933ea00df|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T10:00 programado web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 

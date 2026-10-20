@@ -12047,17 +12047,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 234,
-   "segundos": 48010,
+   "restantes": 233,
+   "segundos": 46806,
    "tope": 250
   },
   "30d": {
-   "restantes": 2544,
-   "segundos": 1855824,
+   "restantes": 2543,
+   "segundos": 1854620,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T09:40:16.000Z",
+ "cuota_visto": "2026-10-20T10:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18359,14 +18359,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d6dc41a1ad_se-agita-la-interna-del-peronismo-cumbre-de.mp4"
   },
   "nacionales:dc18047933ea00df|tiktok": {
-   "actualizado": "2026-10-19T16:00:16.000Z",
+   "actualizado": "2026-10-20T10:00:20.000Z",
    "buffer_id": "",
    "clave": "nacionales:dc18047933ea00df|tiktok",
    "creado": "2026-10-19T16:00:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T15:45:14.000Z",
    "id": "nacionales:dc18047933ea00df",
    "intentos": 0,
@@ -30113,14 +30113,14 @@
    "video_url": ""
   },
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T10:00:20.000Z",
+   "buffer_id": "6ad73bb4afbc1740acd32d0b",
    "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
    "creado": "2026-10-19T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T11:15:37.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T10:03:22.515Z",
    "id": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a",
    "intentos": 0,
@@ -33264,20 +33264,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad3c5c7938409f1d09c12cd",
-   "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
-   "cuando": "2026-10-17T19:00:24.000Z",
-   "dueAt": "2026-10-17T22:48:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3c5c80a208cb32333f62e",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x",
-   "cuando": "2026-10-17T19:00:24.000Z",
-   "dueAt": "2026-10-17T23:03:04.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x",
    "cuando": "2026-10-17T19:20:40.000Z",
@@ -37490,6 +37476,19 @@
    "clave": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x",
    "cuando": "2026-10-20T09:40:16.000Z",
    "dueAt": "2026-10-20T11:00:55.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "nacionales:dc18047933ea00df|tiktok",
+   "cuando": "2026-10-20T10:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ad73bb4afbc1740acd32d0b",
+   "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
+   "cuando": "2026-10-20T10:00:20.000Z",
+   "dueAt": "2026-10-20T11:15:37.000Z",
    "evento": "programado"
   }
  ],
