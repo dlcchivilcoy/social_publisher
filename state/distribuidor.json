@@ -2164,6 +2164,33 @@
    "volanta": "Urbanismo moderno",
    "youtube_url": "https://youtube.com/shorts/JZ0Z9DNDrc0"
   },
+  "nacionales:4399eb58559e6a51": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "Una aeronave con tres personas a bordo colisionó contra un poste y se precipitó sobre una transitada avenida en la ciudad de San José. Los pasajeros sufrieron heridas leves.",
+   "duracion_seg": 19.1,
+   "generado": "2026-10-20T01:16:43.000Z",
+   "hashtags": [
+    "California",
+    "SanJose"
+   ],
+   "id": "nacionales:4399eb58559e6a51",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron",
+   "urgente": false,
+   "video_bytes": 1317400,
+   "video_mb": 1.3,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4399eb5855_una-avioneta-se-estrello-en-una-calle-de.mp4",
+   "volanta": "Accidente aéreo",
+   "youtube_url": "https://youtube.com/shorts/mIpxoORCjEU"
+  },
   "nacionales:43c837025338a70a": {
    "categoria": "Mundo",
    "categoria_nacional": "internacionales",
@@ -7653,6 +7680,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
    "volanta": "Chivilcoy · Política"
   },
+  "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": {
+   "categoria": "nacionales",
+   "descripcion": "Una aeronave con tres personas a bordo colisionó contra un poste y se precipitó sobre una transitada avenida en la ciudad de San José. Los pasajeros…",
+   "generado": "2026-10-20T01:15:10.942Z",
+   "id": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1ad5a54d3a974e6a9ddafc796ea721ab~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Una avioneta cayó en plena calle de California: tres pasajeros resultaron con heridas leves",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "volanta": ""
+  },
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": {
    "categoria": "",
    "descripcion": "Campeonato Regional: se viene el Rally de Chivilcoy, una cita emblemática del calendario Del 23 al 25 de octubre, la ciudad volverá a recibir al campeonato. Sus últimas cuatro ediciones dejaron triunfos locales y homenajes que acompañaron el crecimiento del certamen. El próximo desafío tendrá un significado especial: regresar a los caminos donde comenzó el Campeonato Regional de Rally. Chivilcoy recibirá nuevamente a pilotos, navegantes, equipos y fanáticos, en una competencia que ocupa un...",
@@ -11858,28 +11904,28 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 79200,
+   "restantes": 240,
+   "segundos": 78008,
    "tope": 250
   },
   "30d": {
-   "restantes": 2552,
-   "segundos": 1887015,
+   "restantes": 2550,
+   "segundos": 1885823,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T01:00:26.000Z",
+ "cuota_visto": "2026-10-20T01:20:18.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
   "enviados": 100,
   "motivo": "",
-  "visto": "2026-10-19T01:00:29.000Z"
+  "visto": "2026-10-20T01:20:17.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -12963,14 +13009,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698013552829156628",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 3.68,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.29,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 19.3,
+    "views": 310
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
    "origen": "bot",
@@ -13564,7 +13610,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 20,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -13657,14 +13703,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7697961998981631239",
    "metricas": {
-    "averageTimeWatched": 3.08,
+    "averageTimeWatched": 2.37,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.68,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 3.18,
-    "views": 61
+    "totalTimeWatched": 6.3,
+    "views": 146
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
    "origen": "bot",
@@ -13697,7 +13743,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 9,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -13729,14 +13775,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698121692236877076",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.82,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.77,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 22.73,
+    "views": 261
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
    "origen": "bot",
@@ -13769,7 +13815,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 0
    },
@@ -13827,10 +13873,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2111960219521618395",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 5.41,
+    "impressions": 37,
     "reactions": 0,
     "reposts": 0
    },
@@ -13891,7 +13937,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -13922,6 +13968,16 @@
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698456660397821202",
+   "metricas": {
+    "averageTimeWatched": 6.7,
+    "comments": 0,
+    "engagementRate": 1.97,
+    "reach": 0,
+    "reactions": 4,
+    "shares": 0,
+    "totalTimeWatched": 21.45,
+    "views": 203
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -13949,6 +14005,14 @@
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112201134693646354",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "origen": "bot",
    "plataforma": "x",
@@ -13976,6 +14040,16 @@
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698436096232819975",
+   "metricas": {
+    "averageTimeWatched": 3.76,
+    "comments": 0,
+    "engagementRate": 0.64,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 10.6,
+    "views": 157
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14003,6 +14077,14 @@
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112208605642367437",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "origen": "bot",
    "plataforma": "x",
@@ -14057,6 +14139,14 @@
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112314372383003091",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
    "origen": "bot",
    "plataforma": "x",
@@ -14523,14 +14613,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7697745399506930965",
    "metricas": {
-    "averageTimeWatched": 3.74,
+    "averageTimeWatched": 4.28,
     "comments": 0,
-    "engagementRate": 1.16,
-    "reach": 0,
-    "reactions": 2,
+    "engagementRate": 1.33,
+    "reach": 56,
+    "reactions": 3,
     "shares": 0,
-    "totalTimeWatched": 11.02,
-    "views": 173
+    "totalTimeWatched": 16.62,
+    "views": 226
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
    "origen": "bot",
@@ -14563,7 +14653,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -14624,7 +14714,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 30,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -14685,7 +14775,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 31,
+    "impressions": 42,
     "reactions": 0,
     "reposts": 0
    },
@@ -14746,7 +14836,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 12,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -14778,14 +14868,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698003171033042197",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 3.5,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.22,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 32.57,
+    "views": 450
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
    "origen": "bot",
@@ -14818,7 +14908,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 20,
     "reactions": 0,
     "reposts": 0
    },
@@ -14850,14 +14940,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7697982624068914453",
    "metricas": {
-    "averageTimeWatched": 5.23,
-    "comments": 0,
-    "engagementRate": 0,
+    "averageTimeWatched": 3.9,
+    "comments": 1,
+    "engagementRate": 0.22,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 7.4,
-    "views": 89
+    "totalTimeWatched": 36.48,
+    "views": 457
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
    "origen": "bot",
@@ -14890,7 +14980,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 6,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -14922,14 +15012,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698059723773414677",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.6,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.07,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 7,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 53.17,
+    "views": 654
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
    "origen": "bot",
@@ -14962,7 +15052,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -14994,14 +15084,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698084979871583540",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 8.07,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.5,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 11,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 104.88,
+    "views": 735
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
    "origen": "bot",
@@ -15034,7 +15124,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 44,
     "reactions": 0,
     "reposts": 0
    },
@@ -15095,7 +15185,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -15126,6 +15216,16 @@
    "id": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698368844783488257",
+   "metricas": {
+    "averageTimeWatched": 9.65,
+    "comments": 0,
+    "engagementRate": 1.77,
+    "reach": 0,
+    "reactions": 4,
+    "shares": 0,
+    "totalTimeWatched": 37.63,
+    "views": 226
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15153,6 +15253,14 @@
    "id": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112125567256412525",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 16,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
    "origen": "bot",
    "plataforma": "x",
@@ -15180,6 +15288,16 @@
    "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698348865329712405",
+   "metricas": {
+    "averageTimeWatched": 5.82,
+    "comments": 0,
+    "engagementRate": 0.76,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 13,
+    "views": 132
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15207,6 +15325,14 @@
    "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112205034083504339",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "origen": "bot",
    "plataforma": "x",
@@ -15234,6 +15360,16 @@
    "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698466997759167752",
+   "metricas": {
+    "averageTimeWatched": 5.32,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 3.63,
+    "views": 59
+   },
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15261,6 +15397,14 @@
    "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112213808814891181",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "origen": "bot",
    "plataforma": "x",
@@ -15288,6 +15432,16 @@
    "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698446237464284437",
+   "metricas": {
+    "averageTimeWatched": 12,
+    "comments": 0,
+    "engagementRate": 1.03,
+    "reach": 0,
+    "reactions": 2,
+    "shares": 0,
+    "totalTimeWatched": 37.98,
+    "views": 194
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15315,6 +15469,14 @@
    "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112318435803726303",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
    "origen": "bot",
    "plataforma": "x",
@@ -15368,6 +15530,14 @@
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112336943560249485",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-se-inauguraron-los-juegos-bonaerenses-2026-en",
    "origen": "bot",
    "plataforma": "x",
@@ -15421,6 +15591,14 @@
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112323878265532683",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
    "noticia": "nota:provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
    "origen": "bot",
@@ -15476,6 +15654,14 @@
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112334509358161977",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
    "noticia": "nota:chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
    "origen": "bot",
@@ -16150,6 +16336,14 @@
    "id": "entrevistas:job00224",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112276441412837805",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -16177,6 +16371,14 @@
    "id": "entrevistas:job00225",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112333580722409829",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -16204,6 +16406,14 @@
    "id": "entrevistas:job00226",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112329414486765935",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -16231,6 +16441,14 @@
    "id": "entrevistas:job00228",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112325707317567935",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -16258,6 +16476,14 @@
    "id": "entrevistas:job00229",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112321809802498295",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "x",
@@ -16596,6 +16822,14 @@
    "id": "nacionales:42bad0f0b5785838",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
    "noticia": "nota:la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
    "origen": "nacionales",
@@ -16609,6 +16843,60 @@
    "vence": "2026-10-20T02:15:50.000Z",
    "video_bytes": 1325632,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_42bad0f0b5_el-modelo-de-paris-para-vivir-a-quince-minutos-de.mp4",
+   "viral": false
+  },
+  "nacionales:4399eb58559e6a51|tiktok": {
+   "actualizado": "2026-10-20T01:20:14.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:4399eb58559e6a51|tiktok",
+   "creado": "2026-10-20T01:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-20T01:16:43.000Z",
+   "id": "nacionales:4399eb58559e6a51",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron\n\nUna aeronave con tres personas a bordo colisionó contra un poste y se precipitó sobre una transitada avenida en la ciudad de San José. Los pasajeros sufrieron heridas leves.\n\nhttps://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #California",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron",
+   "urgente": false,
+   "vence": "2026-10-20T19:16:43.000Z",
+   "video_bytes": 1317400,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4399eb5855_una-avioneta-se-estrello-en-una-calle-de.mp4"
+  },
+  "nacionales:4399eb58559e6a51|x": {
+   "actualizado": "2026-10-20T01:20:17.000Z",
+   "buffer_id": "6ad6c1d2cba41b014055f739",
+   "clave": "nacionales:4399eb58559e6a51|x",
+   "creado": "2026-10-20T01:20:14.000Z",
+   "dueAt": "2026-10-20T01:23:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T01:16:43.000Z",
+   "id": "nacionales:4399eb58559e6a51",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "noticia": "nota:una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron\n\nUna aeronave colisionó contra un poste y cayó sobre una transitada avenida en San José. Las tres personas que iban a bordo sufrieron heridas leves.\n\nhttps://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron",
+   "urgente": false,
+   "vence": "2026-10-20T03:16:43.000Z",
+   "video_bytes": 1317400,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4399eb5855_una-avioneta-se-estrello-en-una-calle-de.mp4",
    "viral": false
   },
   "nacionales:43c837025338a70a|tiktok": {
@@ -16703,6 +16991,16 @@
    "id": "nacionales:509780bc5420f2f5",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853",
+   "metricas": {
+    "averageTimeWatched": 6.12,
+    "comments": 0,
+    "engagementRate": 4.39,
+    "reach": 0,
+    "reactions": 5,
+    "shares": 0,
+    "totalTimeWatched": 13.35,
+    "views": 114
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -16859,6 +17157,16 @@
    "id": "nacionales:632442afcb23e9fb",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -16991,14 +17299,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698131974233394453",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.34,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 43.22,
+    "views": 511
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
    "origen": "nacionales",
@@ -17183,6 +17491,16 @@
    "id": "nacionales:9cae8a7fbd11ec6c",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698534033801678101",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -17261,6 +17579,14 @@
    "id": "nacionales:9e0c09454f9048c5",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
    "noticia": "nota:kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
    "origen": "nacionales",
@@ -17342,6 +17668,16 @@
    "id": "nacionales:a28aa737cf87213c",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048",
+   "metricas": {
+    "averageTimeWatched": 6.19,
+    "comments": 0,
+    "engagementRate": 0.33,
+    "reach": 0,
+    "reactions": 2,
+    "shares": 0,
+    "totalTimeWatched": 63.58,
+    "views": 602
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -17967,6 +18303,16 @@
    "id": "nacionales:f8cbb878e65900d1",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698389776776400148",
+   "metricas": {
+    "averageTimeWatched": 7.63,
+    "comments": 0,
+    "engagementRate": 3.86,
+    "reach": 0,
+    "reactions": 19,
+    "shares": 0,
+    "totalTimeWatched": 63.73,
+    "views": 492
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -18598,6 +18944,14 @@
    "id": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112319330205532283",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
    "noticia": "nota:san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-9c6b8c",
    "origen": "policiales",
@@ -19402,14 +19756,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7697755587399994640",
    "metricas": {
-    "averageTimeWatched": 5.56,
+    "averageTimeWatched": 5.61,
     "comments": 0,
-    "engagementRate": 0.34,
-    "reach": 0,
+    "engagementRate": 0.32,
+    "reach": 270,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 55.88,
-    "views": 589
+    "totalTimeWatched": 60.23,
+    "views": 627
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
    "origen": "policiales",
@@ -19442,7 +19796,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 34,
+    "impressions": 39,
     "reactions": 0,
     "reposts": 0
    },
@@ -20463,6 +20817,16 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698379749432855815",
+   "metricas": {
+    "averageTimeWatched": 4.29,
+    "comments": 0,
+    "engagementRate": 0.69,
+    "reach": 0,
+    "reactions": 3,
+    "shares": 0,
+    "totalTimeWatched": 31.48,
+    "views": 434
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -20491,10 +20855,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2111936370142822530",
    "metricas": {
-    "clicks": 0,
+    "clicks": 2,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 6.25,
+    "impressions": 48,
     "reactions": 0,
     "reposts": 0
    },
@@ -20670,7 +21034,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 26,
+    "impressions": 33,
     "reactions": 0,
     "reposts": 0
    },
@@ -20835,6 +21199,14 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112330972699955454",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
    "noticia": "nota:chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
    "origen": "policiales",
@@ -21079,14 +21451,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7697993387323952390",
    "metricas": {
-    "averageTimeWatched": 4.16,
+    "averageTimeWatched": 3.75,
     "comments": 0,
-    "engagementRate": 0.63,
+    "engagementRate": 0.43,
     "reach": 0,
-    "reactions": 1,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 11.02,
-    "views": 159
+    "totalTimeWatched": 33.98,
+    "views": 460
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
    "origen": "policiales",
@@ -21119,7 +21491,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 49,
+    "impressions": 68,
     "reactions": 0,
     "reposts": 0
    },
@@ -21832,14 +22204,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7697972292801858837",
    "metricas": {
-    "averageTimeWatched": 4.75,
+    "averageTimeWatched": 4.27,
     "comments": 0,
-    "engagementRate": 1.02,
+    "engagementRate": 1.76,
     "reach": 0,
-    "reactions": 2,
+    "reactions": 9,
     "shares": 0,
-    "totalTimeWatched": 15.97,
-    "views": 196
+    "totalTimeWatched": 40.38,
+    "views": 511
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
    "origen": "policiales",
@@ -21872,7 +22244,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 37,
     "reactions": 0,
     "reposts": 0
    },
@@ -21904,14 +22276,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698075063286861062",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.68,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.28,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 7,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 45.48,
+    "views": 547
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739",
    "origen": "policiales",
@@ -21944,7 +22316,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 36,
     "reactions": 0,
     "reposts": 0
    },
@@ -23108,14 +23480,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698095682451754241",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.61,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.95,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 6,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 50.9,
+    "views": 632
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
    "origen": "policiales",
@@ -23148,7 +23520,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -23583,8 +23955,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 7.41,
-    "impressions": 27,
+    "engagementRate": 6.06,
+    "impressions": 33,
     "reactions": 0,
     "reposts": 0
    },
@@ -23679,7 +24051,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 7,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -24120,14 +24492,14 @@
    "video_url": ""
   },
   "web:1577e055-5def-4f13-aaba-45b5fbac35da|x": {
-   "actualizado": "2026-10-19T01:20:15.000Z",
+   "actualizado": "2026-10-20T01:20:17.000Z",
    "buffer_id": "",
    "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
    "creado": "2026-10-19T01:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T01:05:08.425Z",
    "id": "web:1577e055-5def-4f13-aaba-45b5fbac35da",
    "intentos": 0,
@@ -24187,7 +24559,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -24358,7 +24730,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 98,
     "reactions": 0,
     "reposts": 0
    },
@@ -24499,6 +24871,14 @@
    "id": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112185890655121533",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
    "origen": "web",
    "plataforma": "x",
@@ -24685,7 +25065,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -24755,14 +25135,14 @@
    "video_url": ""
   },
   "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x": {
-   "actualizado": "2026-10-19T21:20:14.000Z",
+   "actualizado": "2026-10-20T01:20:17.000Z",
    "buffer_id": "",
    "clave": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x",
    "creado": "2026-10-19T21:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T21:15:17.422Z",
    "id": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4",
    "intentos": 0,
@@ -25012,8 +25392,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 5.26,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -25387,6 +25767,14 @@
    "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112261441436664186",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "origen": "web",
    "plataforma": "x",
@@ -25752,6 +26140,14 @@
    "id": "web:4199d5d7-7749-42b5-a204-16844f3014eb",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112272917841039653",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/particular-celebracion-el-museo-pompeo-boggio-fue-escenario-del-35",
    "origen": "web",
    "plataforma": "x",
@@ -26020,6 +26416,14 @@
    "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112265280755798326",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
    "origen": "web",
    "plataforma": "x",
@@ -26111,7 +26515,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 4,
+    "impressions": 33,
     "reactions": 0,
     "reposts": 0
    },
@@ -26127,6 +26531,31 @@
    "vence": "2026-10-19T00:56:58.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x": {
+   "actualizado": "2026-10-20T01:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x",
+   "creado": "2026-10-20T01:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-20T01:15:10.942Z",
+   "id": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "noticia": "nota:una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Una avioneta cayó en plena calle de California: tres pasajeros resultaron con heridas leves",
+   "urgente": false,
+   "vence": "2026-10-20T05:15:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e|x": {
    "actualizado": "2026-10-12T12:40:21.000Z",
@@ -26249,7 +26678,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 4,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -26331,10 +26760,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2111808392733851808",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 2,
+    "engagementRate": 4,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -27268,6 +27697,14 @@
    "id": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112253765487096155",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "origen": "web",
    "plataforma": "x",
@@ -27685,6 +28122,14 @@
    "id": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112189696411394280",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
    "origen": "web",
    "plataforma": "x",
@@ -27767,7 +28212,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -27876,6 +28321,14 @@
    "id": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112193491853844577",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
    "origen": "web",
    "plataforma": "x",
@@ -28158,6 +28611,14 @@
    "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112258193506042072",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "origen": "web",
    "plataforma": "x",
@@ -28463,7 +28924,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 27,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -28607,7 +29068,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -29139,6 +29600,14 @@
    "id": "web:a1643449-bbde-4592-a6b3-8e7158b579e6",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112269056359244054",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
    "origen": "web",
    "plataforma": "x",
@@ -29192,6 +29661,14 @@
    "id": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112183184616034305",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
    "origen": "web",
    "plataforma": "x",
@@ -29345,6 +29822,14 @@
    "id": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112178394825662736",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
    "origen": "web",
    "plataforma": "x",
@@ -29401,7 +29886,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -29622,7 +30107,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 37,
     "reactions": 0,
     "reposts": 0
    },
@@ -30484,6 +30969,14 @@
    "id": "web:c876f210-4b35-4b4a-add4-8813297977a9",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112197349275541524",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bolsa-de-cereales-ba-pese-a-la-mejora-en-las-reservas-hidricas-se",
    "origen": "web",
    "plataforma": "x",
@@ -30515,7 +31008,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 22,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -30601,8 +31094,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 3.7,
-    "impressions": 27,
+    "engagementRate": 3.33,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -30662,7 +31155,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -30983,6 +31476,14 @@
    "id": "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112122278859186546",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 31,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
    "origen": "web",
    "plataforma": "x",
@@ -31717,7 +32218,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -31830,6 +32331,14 @@
    "id": "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112170909863698732",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
    "origen": "web",
    "plataforma": "x",
@@ -31908,6 +32417,14 @@
    "id": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112174714231685240",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
    "origen": "web",
    "plataforma": "x",
@@ -32012,8 +32529,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 3.23,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -32340,45 +32857,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111458039068791148"
-  },
-  {
-   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111453491629592602"
-  },
-  {
-   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111449865049800743"
-  },
-  {
-   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111461167528919408"
-  },
-  {
-   "buffer_id": "6ad388cdae173d6e00bec59c",
-   "clave": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "dueAt": "2026-10-17T16:30:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
-   "cuando": "2026-10-17T15:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x",
    "cuando": "2026-10-17T15:20:13.000Z",
@@ -36585,6 +37063,49 @@
    "cuando": "2026-10-20T01:00:26.000Z",
    "dueAt": "2026-10-20T01:03:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:4399eb58559e6a51|x",
+   "cuando": "2026-10-20T01:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:4399eb58559e6a51|tiktok",
+   "cuando": "2026-10-20T01:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x",
+   "cuando": "2026-10-20T01:20:17.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
+   "cuando": "2026-10-20T01:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x",
+   "cuando": "2026-10-20T01:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad6c1d2cba41b014055f739",
+   "clave": "nacionales:4399eb58559e6a51|x",
+   "cuando": "2026-10-20T01:20:18.000Z",
+   "dueAt": "2026-10-20T01:23:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -36697,6 +37218,7 @@
   "nacionales:2f1a6dccc7eef682": "2026-10-19T02:40:14.000Z",
   "nacionales:41adf48909fb7a57": "2026-10-19T15:00:20.000Z",
   "nacionales:42bad0f0b5785838": "2026-10-20T00:20:16.000Z",
+  "nacionales:4399eb58559e6a51": "2026-10-20T01:20:14.000Z",
   "nacionales:43c837025338a70a": "2026-10-19T15:20:16.000Z",
   "nacionales:4d4c5be14febf1aa": "2026-10-18T20:20:13.000Z",
   "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
@@ -36945,6 +37467,7 @@
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": "2026-10-18T18:00:17.000Z",
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
+  "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": "2026-10-20T01:20:14.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:4d61cc5b-9d70-46db-b815-a8250038f4de": "2026-10-19T15:00:20.000Z",
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",

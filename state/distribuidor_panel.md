@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,33 +9,35 @@ Actualizado: 19/10/2026 22:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 4 | 1 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 46 | 0 | 0 | 5 |
-| Nacionales y categorías | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 4 | 1 | 20 | 0 | 7 | 0 |
+| Notas web | X | 15 | 15 | 0 | 45 | 0 | 1 | 6 |
+| Nacionales y categorías | X | 12 | 0 | 3 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 4 | 1 | 21 | 0 | 7 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 32 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 11 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 6 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 28 con métricas · mediana vistas/impresiones 19 · likes 0
-- X · Reels policiales: 24 con métricas · mediana vistas/impresiones 28.5 · likes 0
-- X · Notas web: 45 con métricas · mediana vistas/impresiones 13 · likes 0
-- TikTok · Reels del bot: 21 con métricas · mediana vistas/impresiones 194 · likes 1
-- TikTok · Reels policiales: 16 con métricas · mediana vistas/impresiones 455.5 · likes 3
-- TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
+- X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
+- X · Reels del bot: 38 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Reels policiales: 26 con métricas · mediana vistas/impresiones 32 · likes 0
+- X · Notas web: 60 con métricas · mediana vistas/impresiones 16.5 · likes 0
+- X · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
+- TikTok · Reels del bot: 27 con métricas · mediana vistas/impresiones 255 · likes 2
+- TikTok · Reels policiales: 17 con métricas · mediana vistas/impresiones 493 · likes 4
+- TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2552 de 3000 (visto 2026-10-20T01:00:26.000Z)
+15m: quedan 98 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2550 de 3000 (visto 2026-10-20T01:20:18.000Z)
 
-## Cola propia (83 esperando)
+## Cola propia (82 esperando)
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Sacan una carpa gigante de un parque en Sídney y se arma debate — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · El modelo de París para vivir a quince minutos de todo llega a las librerías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -59,7 +61,6 @@ Actualizado: 19/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el mont — cupo diario de Notas web en X completo (15)
 - X · Notas web · Temporal histórico en España: cuatro muertos y más de 800.000 personas confinada — cupo diario de Notas web en X completo (15)
-- X · Notas web · Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con  — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -71,12 +72,6 @@ Actualizado: 19/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T00:00 programado nacionales:9cae8a7fbd11ec6c|tiktok 
-- 2026-10-20T00:00 programado nacionales:632442afcb23e9fb|tiktok 
-- 2026-10-20T00:20 recibido nacionales:42bad0f0b5785838|x 
-- 2026-10-20T00:20 recibido nacionales:42bad0f0b5785838|tiktok 
-- 2026-10-20T00:20 recibido web:8b1f621b-9386-459e-a867-db045379ced7|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
-- 2026-10-20T00:20 vencido web:dad7423e-f855-41dd-8505-49e56691870b|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x 
 - 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|x 
 - 2026-10-20T00:20 enviado bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x 
@@ -96,3 +91,9 @@ Actualizado: 19/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-20T01:00 recibido web:2412c923-bb37-4065-b81b-1dac0777e220|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
 - 2026-10-20T01:00 vencido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T01:00 programado nacionales:9e0c09454f9048c5|x 
+- 2026-10-20T01:20 recibido nacionales:4399eb58559e6a51|x 
+- 2026-10-20T01:20 recibido nacionales:4399eb58559e6a51|tiktok 
+- 2026-10-20T01:20 recibido web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
+- 2026-10-20T01:20 vencido web:1577e055-5def-4f13-aaba-45b5fbac35da|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T01:20 vencido web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T01:20 programado nacionales:4399eb58559e6a51|x 
