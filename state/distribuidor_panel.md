@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 2 | 4 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 12 | 0 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -28,22 +28,17 @@ Actualizado: 20/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 51 de 250 · 30d: quedan 2361 de 3000 (visto 2026-10-20T19:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 50 de 250 · 30d: quedan 2360 de 3000 (visto 2026-10-20T21:00:26.000Z)
 
-## Cola propia (13 esperando)
-- TikTok · Reels del bot · Robaron en Troka y difundieron las cámaras de seguridad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Robaron la caja registradora de una carnicería en la avenida Güemes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Vecino evitó un robo al alertar a la Policía sobre tres ladrones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (8 esperando)
+- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels policiales · Dos adolescentes aprehendidos tras amenazar a una mujer con un arma de juguete — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — no entró entre las 4 más virales de la tanda 18 h
+- TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — no entró entre las 4 más virales de la tanda 18 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -55,11 +50,6 @@ Actualizado: 20/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T17:00 vencido policiales:https://infociudad.com.ar/actualidad/san-antonio- TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T17:00 programado entrevistas:job00230|x 
-- 2026-10-20T17:40 entrevista_aprobada entrevistas:job00231 
-- 2026-10-20T17:40 recibido entrevistas:job00231|x 
-- 2026-10-20T17:40 vencido policiales:https://www.chacabuquero.com.ar/2026/10/choque-en TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T17:40 enviado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x 
 - 2026-10-20T17:40 enviado entrevistas:job00230|x 
 - 2026-10-20T17:40 programado entrevistas:job00231|x 
@@ -80,3 +70,8 @@ Actualizado: 20/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-20T19:00 recibido entrevistas:job00234|x 
 - 2026-10-20T19:00 programado entrevistas:job00234|x 
 - 2026-10-20T19:40 enviado entrevistas:job00234|x 
+- 2026-10-20T21:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/ladrones- TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok 
+- 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
+- 2026-10-20T21:00 programado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
+- 2026-10-20T21:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tikto 

@@ -12556,17 +12556,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 51,
-   "segundos": 12010,
+   "restantes": 50,
+   "segundos": 7203,
    "tope": 250
   },
   "30d": {
-   "restantes": 2361,
-   "segundos": 1819825,
+   "restantes": 2360,
+   "segundos": 1815018,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T19:40:15.000Z",
+ "cuota_visto": "2026-10-20T21:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14486,7 +14486,7 @@
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-18T22:41:07.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj",
@@ -14547,7 +14547,7 @@
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-18T22:49:15.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv",
@@ -14814,7 +14814,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -14917,14 +14917,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tiktok": {
-   "actualizado": "2026-10-20T14:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T21:00:21.000Z",
+   "buffer_id": "6ad7d66a652214940f006aa6",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tiktok",
    "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T22:03:14.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T13:43:25.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr",
    "intentos": 0,
@@ -15905,7 +15905,7 @@
    "creado": "2026-10-18T22:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-18T21:50:36.000Z",
    "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
@@ -16254,7 +16254,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-19T20:44:10.000Z",
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
@@ -16315,7 +16315,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -16378,7 +16378,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -16490,14 +16490,14 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok": {
-   "actualizado": "2026-10-20T14:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T21:00:21.000Z",
+   "buffer_id": "6ad7d668a2af9351fbbfd1ab",
    "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok",
    "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T21:23:11.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T13:54:14.000Z",
    "id": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4",
    "intentos": 0,
@@ -16545,14 +16545,14 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok": {
-   "actualizado": "2026-10-20T16:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T21:00:21.000Z",
+   "buffer_id": "6ad7d66965cedd57fee67309",
    "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok",
    "creado": "2026-10-20T16:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T21:43:43.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T16:06:52.000Z",
    "id": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4",
    "intentos": 0,
@@ -16600,14 +16600,14 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok": {
-   "actualizado": "2026-10-20T18:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T21:00:21.000Z",
+   "buffer_id": "6ad7d66765cedd57fee67167",
    "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
    "creado": "2026-10-20T18:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T21:03:13.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T17:46:03.000Z",
    "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
    "intentos": 0,
@@ -22517,14 +22517,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok": {
-   "actualizado": "2026-10-20T15:47:41.000Z",
+   "actualizado": "2026-10-20T21:00:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
    "creado": "2026-10-20T09:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T02:50:52.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html",
    "intentos": 0,
@@ -23575,7 +23575,7 @@
    "creado": "2026-10-20T09:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-20T04:51:09.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma",
@@ -34653,44 +34653,6 @@
  },
  "registro": [
   {
-   "clave": "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x",
-   "cuando": "2026-10-18T16:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111842268537582064"
-  },
-  {
-   "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
-   "cuando": "2026-10-18T16:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:b6108526eb42ff8a|tiktok",
-   "cuando": "2026-10-18T17:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:fbd1321e4156d9c7|tiktok",
-   "cuando": "2026-10-18T17:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b010138b1fbfe036|tiktok",
-   "cuando": "2026-10-18T17:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:2be0a52708a62532|tiktok",
    "cuando": "2026-10-18T17:20:13.000Z",
    "estado": "pendiente",
@@ -38824,13 +38786,48 @@
    "cuando": "2026-10-20T19:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112620665324867732"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
+   "cuando": "2026-10-20T21:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ad7d66765cedd57fee67167",
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
+   "cuando": "2026-10-20T21:00:26.000Z",
+   "dueAt": "2026-10-20T21:03:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad7d668a2af9351fbbfd1ab",
+   "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok",
+   "cuando": "2026-10-20T21:00:26.000Z",
+   "dueAt": "2026-10-20T21:23:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad7d66965cedd57fee67309",
+   "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok",
+   "cuando": "2026-10-20T21:00:26.000Z",
+   "dueAt": "2026-10-20T21:43:43.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad7d66a652214940f006aa6",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tiktok",
+   "cuando": "2026-10-20T21:00:26.000Z",
+   "dueAt": "2026-10-20T22:03:14.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
    "2026-10-19 18",
    "2026-10-19 21",
-   "2026-10-20 10"
+   "2026-10-20 10",
+   "2026-10-20 18"
   ]
  },
  "ultima_limpieza_release": "2026-10-20",
