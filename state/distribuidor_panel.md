@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,9 +9,9 @@ Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 6 | 0 | 4 | 1 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 46 | 0 | 0 | 4 |
-| Nacionales y categorías | X | 12 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 4 | 4 | 1 | 19 | 0 | 7 | 0 |
+| Notas web | X | 15 | 15 | 0 | 46 | 0 | 0 | 5 |
+| Nacionales y categorías | X | 12 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 4 | 4 | 1 | 20 | 0 | 7 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 32 enviadas + 0 programadas de 100 por día
@@ -27,7 +27,7 @@ Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2553 de 3000 (visto 2026-10-20T00:20:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2552 de 3000 (visto 2026-10-20T01:00:26.000Z)
 
 ## Cola propia (83 esperando)
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,6 +36,7 @@ Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Sacan una carpa gigante de un parque en Sídney y se arma debate — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · El modelo de París para vivir a quince minutos de todo llega a las librerías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Toques de queda en Francia por violentas protestas y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -59,7 +60,6 @@ Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 - X · Notas web · Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el mont — cupo diario de Notas web en X completo (15)
 - X · Notas web · Temporal histórico en España: cuatro muertos y más de 800.000 personas confinada — cupo diario de Notas web en X completo (15)
 - X · Notas web · Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con  — cupo diario de Notas web en X completo (15)
-- TikTok · Nacionales y categorías · Se agita la interna del peronismo: cumbre de Cristina y Massa, y tensiones con K — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -71,11 +71,6 @@ Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-19T23:40 programado bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x 
-- 2026-10-20T00:00 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|x 
-- 2026-10-20T00:00 recibido bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|tikto 
-- 2026-10-20T00:00 recibido web:99a98512-7ac4-4629-a1a6-eab0dc99a301|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-20T00:00 vencido web:2e67d217-7a79-4046-8927-8123258e800c|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T00:00 programado nacionales:9cae8a7fbd11ec6c|tiktok 
 - 2026-10-20T00:00 programado nacionales:632442afcb23e9fb|tiktok 
 - 2026-10-20T00:20 recibido nacionales:42bad0f0b5785838|x 
@@ -96,3 +91,8 @@ Actualizado: 19/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-20T00:20 programado nacionales:42bad0f0b5785838|x 
 - 2026-10-20T00:40 vencido bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T00:40 vencido web:593361c2-110f-4e68-b565-1c86df54fffe|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T01:00 recibido nacionales:9e0c09454f9048c5|x 
+- 2026-10-20T01:00 recibido nacionales:9e0c09454f9048c5|tiktok 
+- 2026-10-20T01:00 recibido web:2412c923-bb37-4065-b81b-1dac0777e220|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
+- 2026-10-20T01:00 vencido bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T01:00 programado nacionales:9e0c09454f9048c5|x 

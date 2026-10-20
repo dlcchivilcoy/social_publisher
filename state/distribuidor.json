@@ -2762,6 +2762,33 @@
    "volanta": "Gira presidencial",
    "youtube_url": "https://youtube.com/shorts/b9jRv1FfCRs"
   },
+  "nacionales:9e0c09454f9048c5": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El gobernador bonaerense inauguró la trigésima quinta edición del certamen en Mar del Plata, que se desarrollará del 19 al 23 de octubre con más de 30.000 participantes en más de 100 disciplinas.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-20T00:46:05.000Z",
+   "hashtags": [
+    "JuegosBonaerenses",
+    "AxelKicillof"
+   ],
+   "id": "nacionales:9e0c09454f9048c5",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei",
+   "urgente": false,
+   "video_bytes": 105772,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e0c09454f_kicillof-inauguro-los-juegos-bonaerenses-en-mar.mp4",
+   "volanta": "Juegos Bonaerenses",
+   "youtube_url": "https://youtube.com/shorts/Qb7aFVQTfJg"
+  },
   "nacionales:9e7b427db11bc8f2": {
    "categoria": "Mundo",
    "categoria_nacional": "internacionales",
@@ -6579,6 +6606,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
    "volanta": "Chivilcoy · Política"
+  },
+  "web:2412c923-bb37-4065-b81b-1dac0777e220": {
+   "categoria": "nacionales",
+   "descripcion": "El gobernador bonaerense inauguró la trigésima quinta edición del certamen en Mar del Plata, que se desarrollará del 19 al 23 de octubre con más de 30.000…",
+   "generado": "2026-10-20T00:45:07.268Z",
+   "id": "web:2412c923-bb37-4065-b81b-1dac0777e220",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_66f9bca1fab5424f9e55b4ef1d5df96a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 3,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata con récord de inscriptos y críticas a la Nación",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "volanta": ""
   },
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e": {
    "categoria": "nacionales",
@@ -11812,22 +11858,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 81607,
+   "restantes": 242,
+   "segundos": 79200,
    "tope": 250
   },
   "30d": {
-   "restantes": 2553,
-   "segundos": 1889421,
+   "restantes": 2552,
+   "segundos": 1887015,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T00:20:20.000Z",
+ "cuota_visto": "2026-10-20T01:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14657,14 +14703,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b27073ca5c7ec0e.mp4"
   },
   "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T01:00:19.000Z",
+   "actualizado": "2026-10-20T01:00:25.000Z",
    "buffer_id": "",
    "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok",
    "creado": "2026-10-18T01:00:19.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-18T00:46:10.000Z",
    "id": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4",
    "intentos": 0,
@@ -17175,6 +17221,60 @@
    "vence": "2026-10-19T20:36:12.000Z",
    "video_bytes": 1858356,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9d5801d697_javier-milei-viaja-a-espana-para-reunirse-con.mp4"
+  },
+  "nacionales:9e0c09454f9048c5|tiktok": {
+   "actualizado": "2026-10-20T01:00:18.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:9e0c09454f9048c5|tiktok",
+   "creado": "2026-10-20T01:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-20T00:46:05.000Z",
+   "id": "nacionales:9e0c09454f9048c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei\n\nEl gobernador bonaerense inauguró la trigésima quinta edición del certamen en Mar del Plata, que se desarrollará del 19 al 23 de octubre con más de 30.000 participantes en más de 100 disciplinas.\n\nhttps://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #JuegosBonaerenses",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei",
+   "urgente": false,
+   "vence": "2026-10-20T18:46:05.000Z",
+   "video_bytes": 105772,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e0c09454f_kicillof-inauguro-los-juegos-bonaerenses-en-mar.mp4"
+  },
+  "nacionales:9e0c09454f9048c5|x": {
+   "actualizado": "2026-10-20T01:00:25.000Z",
+   "buffer_id": "6ad6bd2ab81183413da73d08",
+   "clave": "nacionales:9e0c09454f9048c5|x",
+   "creado": "2026-10-20T01:00:18.000Z",
+   "dueAt": "2026-10-20T01:03:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T00:46:05.000Z",
+   "id": "nacionales:9e0c09454f9048c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "noticia": "nota:kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei\n\nhttps://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei",
+   "urgente": false,
+   "vence": "2026-10-20T02:46:05.000Z",
+   "video_bytes": 105772,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e0c09454f_kicillof-inauguro-los-juegos-bonaerenses-en-mar.mp4",
+   "viral": false
   },
   "nacionales:9e7b427db11bc8f2|tiktok": {
    "actualizado": "2026-10-19T21:40:17.000Z",
@@ -24463,6 +24563,31 @@
    "vence": "2026-10-17T17:09:57.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:2412c923-bb37-4065-b81b-1dac0777e220|x": {
+   "actualizado": "2026-10-20T01:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:2412c923-bb37-4065-b81b-1dac0777e220|x",
+   "creado": "2026-10-20T01:00:18.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-20T00:45:07.268Z",
+   "id": "web:2412c923-bb37-4065-b81b-1dac0777e220",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "noticia": "nota:kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 3,
+   "tipo": "nota",
+   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata con récord de inscriptos y críticas a la Nación",
+   "urgente": false,
+   "vence": "2026-10-20T04:45:07.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e|x": {
    "actualizado": "2026-10-19T09:00:17.000Z",
@@ -32216,38 +32341,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad3841e769b4579347f0d10",
-   "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
-   "cuando": "2026-10-17T14:20:15.000Z",
-   "dueAt": "2026-10-17T16:00:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3841f0b0d72757ade6029",
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
-   "cuando": "2026-10-17T14:20:15.000Z",
-   "dueAt": "2026-10-17T16:15:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697641574297226517"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111464950392594562"
-  },
-  {
-   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
-   "cuando": "2026-10-17T14:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7697631376035630352"
-  },
-  {
    "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
    "cuando": "2026-10-17T14:40:13.000Z",
    "evento": "enviado",
@@ -36455,6 +36548,43 @@
    "cuando": "2026-10-20T00:40:15.000Z",
    "evento": "vencido",
    "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "nacionales:9e0c09454f9048c5|x",
+   "cuando": "2026-10-20T01:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:9e0c09454f9048c5|tiktok",
+   "cuando": "2026-10-20T01:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:2412c923-bb37-4065-b81b-1dac0777e220|x",
+   "cuando": "2026-10-20T01:00:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok",
+   "cuando": "2026-10-20T01:00:25.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ad6bd2ab81183413da73d08",
+   "clave": "nacionales:9e0c09454f9048c5|x",
+   "cuando": "2026-10-20T01:00:26.000Z",
+   "dueAt": "2026-10-20T01:03:32.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -36590,6 +36720,7 @@
   "nacionales:97bd2fed895cbca6": "2026-10-19T02:40:14.000Z",
   "nacionales:9cae8a7fbd11ec6c": "2026-10-19T23:20:14.000Z",
   "nacionales:9d5801d6974360c3": "2026-10-19T02:40:14.000Z",
+  "nacionales:9e0c09454f9048c5": "2026-10-20T01:00:18.000Z",
   "nacionales:9e7b427db11bc8f2": "2026-10-19T09:00:17.000Z",
   "nacionales:a09771b77a360e01": "2026-10-19T15:20:16.000Z",
   "nacionales:a28aa737cf87213c": "2026-10-19T09:00:17.000Z",
@@ -36755,6 +36886,7 @@
   "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": "2026-10-18T22:00:19.000Z",
   "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f": "2026-10-19T15:00:20.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
+  "web:2412c923-bb37-4065-b81b-1dac0777e220": "2026-10-20T01:00:18.000Z",
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e": "2026-10-19T09:00:17.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
   "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2": "2026-10-18T23:20:13.000Z",
