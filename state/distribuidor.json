@@ -12414,17 +12414,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 146,
-   "segundos": 31209,
+   "restantes": 145,
+   "segundos": 28805,
    "tope": 250
   },
   "30d": {
-   "restantes": 2456,
-   "segundos": 1839024,
+   "restantes": 2455,
+   "segundos": 1836620,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T14:20:17.000Z",
+ "cuota_visto": "2026-10-20T15:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14801,14 +14801,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_711a0a3a640637ee.mp4"
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x": {
-   "actualizado": "2026-10-20T14:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T15:00:20.000Z",
+   "buffer_id": "6ad78205ca72dcf8918267e7",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x",
    "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T15:03:08.000Z",
    "error": "",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T13:43:25.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr",
    "intentos": 0,
@@ -25838,14 +25838,14 @@
    "video_url": ""
   },
   "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x": {
-   "actualizado": "2026-10-19T15:00:20.000Z",
+   "actualizado": "2026-10-20T15:00:20.000Z",
    "buffer_id": "",
    "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
    "creado": "2026-10-19T15:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T14:50:13.014Z",
    "id": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f",
    "intentos": 0,
@@ -34250,18 +34250,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
-   "cuando": "2026-10-18T10:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111759595165135142"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
-   "cuando": "2026-10-18T10:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111763221556113819"
-  },
-  {
    "buffer_id": "6ad49d5d0b0d72757a192340",
    "clave": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x",
    "cuando": "2026-10-18T10:20:13.000Z",
@@ -38452,6 +38440,19 @@
    "cuando": "2026-10-20T14:20:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112546443135238334"
+  },
+  {
+   "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
+   "cuando": "2026-10-20T15:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "buffer_id": "6ad78205ca72dcf8918267e7",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x",
+   "cuando": "2026-10-20T15:00:21.000Z",
+   "dueAt": "2026-10-20T15:03:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {

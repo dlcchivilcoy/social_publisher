@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 11:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 12:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 2 | 0 | 1 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 1 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 10 | 2 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
@@ -28,13 +28,12 @@ Actualizado: 20/10/2026 11:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 146 de 250 · 30d: quedan 2456 de 3000 (visto 2026-10-20T14:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 145 de 250 · 30d: quedan 2455 de 3000 (visto 2026-10-20T15:00:21.000Z)
 
-## Cola propia (31 esperando)
+## Cola propia (29 esperando)
 - TikTok · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels del bot · El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos — los últimos 6 lugares de las 24 h quedan para los reels virales
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -58,9 +57,9 @@ Actualizado: 20/10/2026 11:40 (hora AR) · ACTIVO
 - X · Notas web · Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagon — cupo diario de Notas web en X completo (15)
 - X · Notas web · El Estado nacional registra más de 77 mil puestos menos y lanza un nuevo retiro  — cupo diario de Notas web en X completo (15)
 - X · Notas web · Coty Granjera: la historia de la influencer rural que causa furor con sus ocho h — cupo diario de Notas web en X completo (15)
-- X · Notas web · Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio — cupo diario de Notas web en X completo (15)
 - TikTok · Reels del bot · La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Preparan una Caminata Familiar a beneficio de dos instituciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,8 +71,6 @@ Actualizado: 20/10/2026 11:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T14:00 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tikto 
-- 2026-10-20T14:00 recibido bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x 
 - 2026-10-20T14:00 recibido bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
 - 2026-10-20T14:00 recibido web:78916e74-3542-4bb3-a594-1c57aa500533|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-20T14:00 recibido web:80dd52dd-b09d-4340-b669-62eba0dc1ce1|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -97,3 +94,5 @@ Actualizado: 20/10/2026 11:40 (hora AR) · ACTIVO
 - 2026-10-20T14:20 enviado web:847aec7b-6e8c-4074-82b2-d77103ae355f|x 
 - 2026-10-20T14:20 enviado web:85b0f263-df46-4783-b4dd-311f977e50c9|x 
 - 2026-10-20T14:20 enviado web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x 
+- 2026-10-20T15:00 vencido web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T15:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x 
