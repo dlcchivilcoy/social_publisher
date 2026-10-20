@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 19/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,11 +10,11 @@ Actualizado: 19/10/2026 23:20 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 12 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 43 | 0 | 3 | 8 |
-| Nacionales y categorías | X | 12 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | X | 12 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 5 | 0 | 22 | 0 | 7 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 35 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 36 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,9 +28,9 @@ Actualizado: 19/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2548 de 3000 (visto 2026-10-20T02:00:30.000Z)
+15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2547 de 3000 (visto 2026-10-20T02:40:18.000Z)
 
-## Cola propia (77 esperando)
+## Cola propia (76 esperando)
 - TikTok · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — cupo diario de Reels del bot en X completo (10)
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -72,8 +72,6 @@ Actualizado: 19/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T01:20 recibido nacionales:4399eb58559e6a51|x 
-- 2026-10-20T01:20 recibido nacionales:4399eb58559e6a51|tiktok 
 - 2026-10-20T01:20 recibido web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x la misma noticia ya sale en X (Nacionales y categorías, pendiente)
 - 2026-10-20T01:20 vencido web:1577e055-5def-4f13-aaba-45b5fbac35da|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T01:20 vencido web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x cupo diario de Notas web en X completo (15)
@@ -97,3 +95,5 @@ Actualizado: 19/10/2026 23:20 (hora AR) · ACTIVO
 - 2026-10-20T02:20 vencido web:010e4114-35e9-438d-8057-51285ef42a56|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T02:20 vencido web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x cupo diario de Notas web en X completo (15)
 - 2026-10-20T02:20 vencido web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T02:40 vencido web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x cupo diario de Notas web en X completo (15)
+- 2026-10-20T02:40 enviado nacionales:7473fc970bead57a|x 
