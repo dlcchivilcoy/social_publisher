@@ -12329,22 +12329,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 148,
-   "segundos": 34810,
+   "restantes": 147,
+   "segundos": 33611,
    "tope": 250
   },
   "30d": {
-   "restantes": 2458,
-   "segundos": 1842625,
+   "restantes": 2457,
+   "segundos": 1841426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T13:20:19.000Z",
+ "cuota_visto": "2026-10-20T13:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -27424,14 +27424,14 @@
    "video_url": ""
   },
   "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x": {
-   "actualizado": "2026-10-19T15:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T13:40:14.000Z",
+   "buffer_id": "6ad76f3fc48462888b4d8abe",
    "clave": "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x",
    "creado": "2026-10-19T15:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T15:08:32.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T14:45:12.771Z",
    "id": "web:4d61cc5b-9d70-46db-b815-a8250038f4de",
    "intentos": 0,
@@ -33846,14 +33846,14 @@
    "video_url": ""
   },
   "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x": {
-   "actualizado": "2026-10-19T15:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T13:40:14.000Z",
+   "buffer_id": "6ad76f3f8c342e4a3123cacb",
    "clave": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x",
    "creado": "2026-10-19T15:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T14:53:25.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T14:35:45Z",
    "id": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5",
    "intentos": 0,
@@ -34005,21 +34005,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad410bee272c4918fa8e02e",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|x",
-   "cuando": "2026-10-18T00:20:14.000Z",
-   "dueAt": "2026-10-18T00:23:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x",
-   "cuando": "2026-10-18T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|tiktok",
    "cuando": "2026-10-18T00:40:19.000Z",
@@ -38233,6 +38218,20 @@
    "clave": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x",
    "cuando": "2026-10-20T13:20:19.000Z",
    "dueAt": "2026-10-20T14:38:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad76f3f8c342e4a3123cacb",
+   "clave": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x",
+   "cuando": "2026-10-20T13:40:15.000Z",
+   "dueAt": "2026-10-20T14:53:25.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad76f3fc48462888b4d8abe",
+   "clave": "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x",
+   "cuando": "2026-10-20T13:40:15.000Z",
+   "dueAt": "2026-10-20T15:08:32.000Z",
    "evento": "programado"
   }
  ],

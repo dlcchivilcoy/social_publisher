@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/10/2026 10:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 7 | 6 | 13 | 0 | 0 | 1 |
+| Notas web | X | 15 | 7 | 8 | 13 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 1 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,9 @@ Actualizado: 20/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 148 de 250 · 30d: quedan 2458 de 3000 (visto 2026-10-20T13:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 147 de 250 · 30d: quedan 2457 de 3000 (visto 2026-10-20T13:40:15.000Z)
 
-## Cola propia (43 esperando)
+## Cola propia (41 esperando)
 - X · Reels del bot · Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses — los últimos 6 lugares de las 24 h quedan para los reels virales
 - X · Notas web · Exitoso debut de la primera "Carrera Aventura" del Club Atlético Huracán — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -72,8 +72,6 @@ Actualizado: 20/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T10:21 enviado web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
-- 2026-10-20T10:21 enviado web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
 - 2026-10-20T10:21 programado web:6f8cf702-5cb7-4b03-8945-02d406201533|x 
 - 2026-10-20T11:40 enviado web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
 - 2026-10-20T11:40 enviado web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x 
@@ -97,3 +95,5 @@ Actualizado: 20/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-20T13:20 programado web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x 
 - 2026-10-20T13:20 programado web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x 
 - 2026-10-20T13:20 programado web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x 
+- 2026-10-20T13:40 programado web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x 
+- 2026-10-20T13:40 programado web:4d61cc5b-9d70-46db-b815-a8250038f4de|x 
