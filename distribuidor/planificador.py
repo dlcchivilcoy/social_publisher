@@ -20,7 +20,7 @@ import hashlib
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from . import config, estado, tema
+from . import config, estado, tema, x_sincro
 
 AR = ZoneInfo(config.ZONA)
 CUENTAN = ("enviando", "programado", "enviado")
@@ -160,6 +160,23 @@ def elegir_tanda(cola: list, n: int, max_origen: int, ahora: datetime) -> list:
     return elegidas
 
 
+def elegir_reparto(cola: list, n: int, limite: dict, ahora: datetime) -> list:
+    """Las `n` más virales respetando el reparto de TikTok: primero hasta `limite[cat]["tanda"]` de cada
+    categoría (su parte de esta tanda), después se completa con lo que quede sin pasar `limite[cat]["dia"]`
+    (los lugares del día de cada una son suyos: nunca se los come otra)."""
+    orden = sorted(cola, key=lambda p: puntaje_viral(p, ahora), reverse=True)
+    elegidas, usadas = [], {}
+    for clave in ("tanda", "dia"):
+        for p in orden:
+            if len(elegidas) >= n:
+                break
+            cat = x_sincro.categoria_tiktok(p)
+            if p not in elegidas and usadas.get(cat, 0) < limite.get(cat, {}).get(clave, 0):
+                elegidas.append(p)
+                usadas[cat] = usadas.get(cat, 0) + 1
+    return elegidas
+
+
 def planificar_tanda(est: dict, plataforma: str, ahora: datetime) -> tuple[list, list, dict]:
     """TikTok en TANDAS (19/10/2026): solo a las 10, 18 y 21 se programa en Buffer, y en cada tanda entra
     lo más viral del momento (tope de 24 h / cantidad de tandas), una cada TIKTOK_TANDA_SEPARACION_MIN,
@@ -189,7 +206,26 @@ def planificar_tanda(est: dict, plataforma: str, ahora: datetime) -> tuple[list,
     if n <= 0:
         return [], [], {p["clave"]: "tanda sin lugar (tope de 24 h o Buffer lleno)" for p in pendientes}
 
-    elegidas = elegir_tanda(pendientes, n, config.tanda_max_origen(), ahora)
+    reparto = config.tiktok_reparto()
+    if reparto:
+        # 5 del bot, 5 policiales y 5 virales por día (20/10/2026): lo que ya salió hoy de cada uno cuenta, y
+        # en cada tanda le toca su parte de lo que le queda (en la última, todo).
+        hoy = _dia_ar(ahora)
+        hechas_hoy = {p["clave"]: x_sincro.categoria_tiktok(p) for p in mias if p["estado"] in CUENTAN
+                      and p.get("dueAt") and _dia_ar(estado.de_iso(p["dueAt"])) == hoy}
+        local = ahora.astimezone(AR)
+        tandas_quedan = max(1, sum(1 for h in config.tiktok_tandas() if h >= local.hour))
+        limite = {}
+        for cat, total in reparto.items():
+            queda = max(0, total - sum(1 for c in hechas_hoy.values() if c == cat))
+            limite[cat] = {"dia": queda, "tanda": -(-queda // tandas_quedan)}
+        elegidas = elegir_reparto(pendientes, n, limite, ahora)
+        for p in pendientes:
+            cat = x_sincro.categoria_tiktok(p)
+            if p not in elegidas and cat in limite and                     limite[cat]["dia"] <= sum(1 for e in elegidas if x_sincro.categoria_tiktok(e) == cat):
+                espera[p["clave"]] = f"ya salieron los {reparto[cat]} de {cat} de hoy en TikTok"
+    else:
+        elegidas = elegir_tanda(pendientes, n, config.tanda_max_origen(), ahora)
     linea = linea_del_canal(est, plataforma)
     intercalar, n_inter = config.intercalado(), config.min_entre_policiales()
     if intercalar:

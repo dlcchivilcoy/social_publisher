@@ -151,6 +151,25 @@ tanda (ventana de 50 min) entra el tope de 24 h dividido por la cantidad de tand
 
 `TIKTOK_TANDAS=0` vuelve al goteo de antes (cupos por origen y 40 min entre posteos). X no cambia.
 
+### Reparto 5 + 5 + 5 (20/10/2026)
+
+Pedido del editor: «si el máximo por día son 15 posteos, 5 tienen que estar habilitados para el bot, 5 para
+policiales y 5 para virales; todo haciendo énfasis en video / reels». Por día (hora AR), en las tandas:
+
+| Categoría | Por día | Qué entra |
+|---|---|---|
+| Bot | 5 | los reels del bot |
+| Policiales | 5 | los reels de policiales (todos los días) |
+| Virales | 5 | nacionales de la categoría virales o de mundo (internacionales virales con video) y cualquier video de potencial 9-10; **todos los días** |
+
+- A TikTok van solo videos. Lo demás (generales, deportes, espectáculos, IA, cine, recortes) no va a TikTok.
+- Cada categoría tiene sus lugares: no se los presta a otra. En cada tanda le toca su parte de lo que le queda
+  del día (a las 10, hasta 2 de cada una; en la de las 21, todo lo que le quede); si una no tiene nada, las
+  otras pueden adelantar sus propios lugares del día.
+- Dentro de cada categoría, lo más viral primero; sigue el intercalado (nunca dos policiales seguidos).
+- `TIKTOK_REPARTO="bot:5,policiales:5,virales:5"` lo cambia; `TIKTOK_REPARTO=0` vuelve a «lo más viral de todo».
+- El tope total sigue siendo el de TikTok: si la cuenta midió un tope menor (`tope_medido`), manda ese.
+
 ## X sincronizado y sin repetidos (19/10/2026)
 
 Pedido del editor: una estructura para X sin posteos repetidos, con todo lo que sale (notas web, recortes de la
@@ -205,7 +224,7 @@ virales, deportes, espectáculos, IA, generales, nacionales, etc., dejalo para e
 | | lunes a viernes | sábado y domingo |
 |---|---|---|
 | X | notas del diario de la mañana (a su hora de IG), bot, recortes, policiales | bot, recortes, policiales, nacionales |
-| TikTok | bot, policiales | bot, policiales, nacionales |
+| TikTok | 5 bot, 5 policiales, 5 virales (ver «Reparto 5 + 5 + 5») | ídem |
 
 - Cada pasada **depura** (`run.depurar`): lo pendiente que ya no va se descarta y lo programado en Buffer se
   borra (salvo lo que sale en 3 minutos). Motivos en `x_sincro.fuera_de_regla`.

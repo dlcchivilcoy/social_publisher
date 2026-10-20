@@ -64,12 +64,12 @@ def canal(plataforma: str) -> str:
 # Variable: CUPO_<ORIGEN>_<PLATAFORMA>, p. ej. CUPO_POLICIALES_TIKTOK=8
 MATRIZ_DEFAULT = {
     "entrevistas": {"x": 8, "tiktok": 0},
-    "bot":         {"x": 10, "tiktok": 10},
-    "policiales":  {"x": 6, "tiktok": 12},   # 19/10/2026: 2 pasadas × 3 hechos
+    "bot":         {"x": 10, "tiktok": 5},    # TikTok: 5 + 5 + 5 (TIKTOK_REPARTO, 20/10/2026)
+    "policiales":  {"x": 6, "tiktok": 5},
     "web":         {"x": 15, "tiktok": 0},   # las notas web NUNCA van a TikTok (ver puede_ir)
     # Dentro del MISMO tope de TikTok (15): reemplaza parte de lo policial, no suma (17/10/2026).
     # X (19/10/2026): las nacionales salen con su VIDEO y su nota no se repite (x_sincro).
-    "nacionales":  {"x": 12, "tiktok": 4},
+    "nacionales":  {"x": 12, "tiktok": 5},   # en TikTok, solo los virales (TIKTOK_REPARTO)
 }
 
 
@@ -120,6 +120,32 @@ def tiktok_tandas() -> tuple:
         return tuple(sorted({int(x) for x in crudo.replace(" ", "").split(",") if x}))
     except ValueError:
         return (10, 18, 21)
+
+
+# REPARTO DE TIKTOK (pedido del editor, 20/10/2026: «si el máximo por día son 15 posteos, 5 tienen que estar
+# habilitados para el bot, 5 para policiales y 5 para virales; todo haciendo énfasis en video / reels»).
+# Por día (calendario de Argentina): cada categoría tiene SUS lugares y no se los presta a otra. A TikTok solo
+# van videos. Virales = las nacionales de la categoría virales o de mundo (internacionales virales con video)
+# y cualquier video de potencial 9-10; salen TODOS los días (el resto de nacionales no va a TikTok).
+# TIKTOK_REPARTO="bot:5,policiales:5,virales:5"; "0" lo apaga (vuelve a lo más viral de todo).
+TIKTOK_REPARTO_DEFAULT = {"bot": 5, "policiales": 5, "virales": 5}
+NAC_VIRALES_TIKTOK = {"virales", "internacionales"}
+
+
+def tiktok_reparto() -> dict:
+    crudo = (get("TIKTOK_REPARTO") or "").strip()
+    if crudo.lower() in ("0", "no", "off"):
+        return {}
+    if not crudo:
+        return dict(TIKTOK_REPARTO_DEFAULT)
+    salida = {}
+    for parte in crudo.split(","):
+        k, _, v = parte.partition(":")
+        try:
+            salida[k.strip().lower()] = max(0, int(v))
+        except ValueError:
+            continue
+    return salida or dict(TIKTOK_REPARTO_DEFAULT)
 
 
 def tanda_ventana_min() -> int:

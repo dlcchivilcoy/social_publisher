@@ -147,6 +147,9 @@ def encolar(est: dict, eventos: list) -> dict:
                    "video_bytes": ev.get("video_bytes", 0),
                    "estado": "pendiente", "intentos": 0, "buffer_id": "", "dueAt": "",
                    "error": "", "link": ""}
+            if red == "tiktok":
+                pub["viral"] = x_sincro.viral_tiktok(ev)        # para el reparto 5 + 5 + 5 (20/10/2026)
+                pub["categoria"] = ev.get("categoria_nacional") or ""
             if red == "x" and x_sincro.activo():
                 pub["noticia"] = noticia
                 pub["viral"] = x_sincro.es_viral(ev)
