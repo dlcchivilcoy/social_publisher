@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 3
+    "scheduled": 3,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-20T19:40:15.000Z"
+   "visto": "2026-10-20T21:20:25.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 42
+    "sent": 39
    },
    "pausado": false,
-   "visto": "2026-10-20T19:40:15.000Z"
+   "visto": "2026-10-20T21:20:25.000Z"
   }
  },
  "contenidos": {
@@ -870,6 +870,27 @@
    "video_mb": 1.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_711a0a3a640637ee.mp4",
    "youtube_url": "https://www.youtube.com/shorts/7UfNkV7qhgc"
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": {
+   "descripcion": "Chivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios. El programa municipal, desarrollado en articulación con el CUCH, promueve la formación, la autonomía económica y la inserción laboral. Desde el área anticiparon que ya trabajan...",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-20T21:07:56.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
+   "urgente": false,
+   "video_bytes": 908760,
+   "video_mb": 0.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/AWtdJRTPfQU"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -3770,6 +3791,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4",
    "volanta": "Fútbol internacional",
    "youtube_url": "https://youtube.com/shorts/EfeHq_gk8Wk"
+  },
+  "nacionales:fb8bbb9c2285b74b": {
+   "categoria": "Mundo",
+   "categoria_nacional": "internacionales",
+   "descripcion": "El primer ministro Sébastien Lecornu confirmó que se implementarán restricciones nocturnas localizadas. Hubo 2.400 detenidos y cerca de 3.000 comercios afectados.",
+   "duracion_seg": 129.4,
+   "generado": "2026-10-20T21:16:40.000Z",
+   "hashtags": [
+    "Francia",
+    "Protestas"
+   ],
+   "id": "nacionales:fb8bbb9c2285b74b",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Francia aplicará nuevos toques de queda tras los disturbios y saqueos",
+   "urgente": false,
+   "video_bytes": 10054309,
+   "video_mb": 9.6,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fb8bbb9c22_francia-aplicara-nuevos-toques-de-queda-tras-los.mp4",
+   "volanta": "Crisis en Francia",
+   "youtube_url": "https://youtube.com/shorts/SnVEgXdAGuo"
   },
   "nacionales:fbd1321e4156d9c7": {
    "categoria": "Mundo",
@@ -7680,6 +7728,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
    "volanta": "Chivilcoy · Accidente"
+  },
+  "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": {
+   "categoria": "",
+   "descripcion": "Alrededor de 450 personas se capacitan en 23 cursos de oficios Chivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios. El programa municipal, desarrollado en articulación con el CUCH, promueve la formación, la autonomía económica y la inserción laboral. Desde el área anticiparon que ya trabajan en la planificación de las propuestas para el próximo año y destacaron la calidad de las capacitaciones y el acompañamiento que reciben los participantes....",
+   "generado": "2026-10-20T21:05:20.436Z",
+   "id": "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_60c647329fe54b7e8babc0551d2e4eff~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": {
    "categoria": "nacionales",
@@ -12551,22 +12618,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 50,
-   "segundos": 7203,
+   "restantes": 26,
+   "segundos": 6000,
    "tope": 250
   },
   "30d": {
-   "restantes": 2360,
-   "segundos": 1815018,
+   "restantes": 2336,
+   "segundos": 1813815,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T21:00:26.000Z",
+ "cuota_visto": "2026-10-20T21:20:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14486,7 +14553,7 @@
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-18T22:41:07.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj",
@@ -14547,7 +14614,7 @@
    "creado": "2026-10-18T23:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-18T22:49:15.000Z",
    "id": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv",
@@ -14814,7 +14881,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -14969,6 +15036,62 @@
    "vence": "2026-10-20T15:43:25.000Z",
    "video_bytes": 1286134,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_711a0a3a640637ee.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok": {
+   "actualizado": "2026-10-20T21:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok",
+   "creado": "2026-10-20T21:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-20T21:07:56.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Alrededor de 450 personas se capacitan en 23 cursos de oficios\n\nChivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios. El programa municipal, desarrollado en articulación con el CUCH, promueve la formación, la autonomía económica y la inserción laboral. Desde el área anticiparon que ya trabajan...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
+   "urgente": false,
+   "vence": "2026-10-22T21:07:56.000Z",
+   "video_bytes": 908760,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x": {
+   "actualizado": "2026-10-20T21:20:25.000Z",
+   "buffer_id": "6ad7db1aa40664bdbaea5277",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x",
+   "creado": "2026-10-20T21:20:16.000Z",
+   "dueAt": "2026-10-20T21:22:13.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T21:07:56.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "noticia": "nota:chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alrededor de 450 personas se capacitan en 23 cursos de oficios\n\nChivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
+   "urgente": false,
+   "vence": "2026-10-20T23:07:56.000Z",
+   "video_bytes": 908760,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
@@ -15905,7 +16028,7 @@
    "creado": "2026-10-18T22:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-18T21:50:36.000Z",
    "id": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4",
@@ -16254,7 +16377,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T20:44:10.000Z",
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
@@ -16315,7 +16438,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -16378,7 +16501,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -16600,18 +16723,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok": {
-   "actualizado": "2026-10-20T21:00:21.000Z",
+   "actualizado": "2026-10-20T21:20:25.000Z",
    "buffer_id": "6ad7d66765cedd57fee67167",
    "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
    "creado": "2026-10-20T18:00:17.000Z",
    "dueAt": "2026-10-20T21:03:13.000Z",
+   "enviado": "2026-10-20T21:04:58.253Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T17:46:03.000Z",
    "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698858576617409799",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19507,6 +19631,61 @@
    "vence": "2026-10-19T21:50:54.000Z",
    "video_bytes": 2819314,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4"
+  },
+  "nacionales:fb8bbb9c2285b74b|tiktok": {
+   "actualizado": "2026-10-20T21:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "internacionales",
+   "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
+   "creado": "2026-10-20T21:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-20T21:16:40.000Z",
+   "id": "nacionales:fb8bbb9c2285b74b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Francia aplicará nuevos toques de queda tras los disturbios y saqueos\n\nEl primer ministro Sébastien Lecornu confirmó que se implementarán restricciones nocturnas localizadas. Hubo 2.400 detenidos y cerca de 3.000 comercios afectados.\n\nhttps://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Francia",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Francia aplicará nuevos toques de queda tras los disturbios y saqueos",
+   "urgente": false,
+   "vence": "2026-10-21T15:16:40.000Z",
+   "video_bytes": 10054309,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fb8bbb9c22_francia-aplicara-nuevos-toques-de-queda-tras-los.mp4",
+   "viral": true
+  },
+  "nacionales:fb8bbb9c2285b74b|x": {
+   "actualizado": "2026-10-20T21:20:25.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:fb8bbb9c2285b74b|x",
+   "creado": "2026-10-20T21:20:16.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-20T21:16:40.000Z",
+   "id": "nacionales:fb8bbb9c2285b74b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
+   "noticia": "nota:francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Francia aplicará nuevos toques de queda tras los disturbios y saqueos\n\nEl primer ministro Sébastien Lecornu confirmó que se implementarán restricciones nocturnas localizadas. Hubo 2.400 detenidos y cerca de 3.000 comercios afectados.\n\nhttps://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Francia aplicará nuevos toques de queda tras los disturbios y saqueos",
+   "urgente": false,
+   "vence": "2026-10-20T23:16:40.000Z",
+   "video_bytes": 10054309,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fb8bbb9c22_francia-aplicara-nuevos-toques-de-queda-tras-los.mp4",
+   "viral": false
   },
   "nacionales:fbd1321e4156d9c7|tiktok": {
    "actualizado": "2026-10-19T09:40:16.000Z",
@@ -23575,7 +23754,7 @@
    "creado": "2026-10-20T09:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T04:51:09.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma",
@@ -27344,6 +27523,31 @@
    "vence": "2026-10-17T20:54:53.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade|x": {
+   "actualizado": "2026-10-20T21:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade|x",
+   "creado": "2026-10-20T21:20:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-20T21:05:20.436Z",
+   "id": "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "noticia": "nota:chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
+   "urgente": false,
+   "vence": "2026-10-21T01:05:20.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x": {
    "actualizado": "2026-10-20T13:00:18.000Z",
@@ -34653,63 +34857,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:2be0a52708a62532|tiktok",
-   "cuando": "2026-10-18T17:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b541d9169f033092|tiktok",
-   "cuando": "2026-10-18T17:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x",
-   "cuando": "2026-10-18T17:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|x",
-   "cuando": "2026-10-18T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111865647814545518"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|x",
-   "cuando": "2026-10-18T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111861186811609548"
-  },
-  {
-   "clave": "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x",
-   "cuando": "2026-10-18T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111857497287873026"
-  },
-  {
-   "buffer_id": "6ad4ffd0a48c8f8371a942dd",
-   "clave": "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok",
-   "cuando": "2026-10-18T17:20:16.000Z",
-   "dueAt": "2026-10-18T17:23:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|x",
-   "cuando": "2026-10-18T18:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
    "cuando": "2026-10-18T18:00:21.000Z",
    "estado": "pendiente",
@@ -38820,6 +38967,65 @@
    "cuando": "2026-10-20T21:00:26.000Z",
    "dueAt": "2026-10-20T22:03:14.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x",
+   "cuando": "2026-10-20T21:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok",
+   "cuando": "2026-10-20T21:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "nacionales:fb8bbb9c2285b74b|x",
+   "cuando": "2026-10-20T21:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
+   "cuando": "2026-10-20T21:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade|x",
+   "cuando": "2026-10-20T21:20:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:fb8bbb9c2285b74b|x",
+   "cuando": "2026-10-20T21:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
+   "cuando": "2026-10-20T21:20:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698858576617409799"
+  },
+  {
+   "buffer_id": "6ad7db1aa40664bdbaea5277",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x",
+   "cuando": "2026-10-20T21:20:26.000Z",
+   "dueAt": "2026-10-20T21:22:13.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38831,7 +39037,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-20",
- "ultima_sync": "2026-10-20T19:40:15.000Z",
+ "ultima_sync": "2026-10-20T21:20:25.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -38874,6 +39080,7 @@
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3": "2026-10-20T00:00:19.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i": "2026-10-20T01:40:15.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr": "2026-10-20T14:00:21.000Z",
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": "2026-10-20T21:20:16.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -38998,6 +39205,7 @@
   "nacionales:ef9d9f6be8029c31": "2026-10-19T00:20:16.000Z",
   "nacionales:f370b43343c04756": "2026-10-19T15:20:16.000Z",
   "nacionales:f8cbb878e65900d1": "2026-10-19T09:00:17.000Z",
+  "nacionales:fb8bbb9c2285b74b": "2026-10-20T21:20:16.000Z",
   "nacionales:fbd1321e4156d9c7": "2026-10-18T17:20:13.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
@@ -39179,6 +39387,7 @@
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
+  "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
   "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": "2026-10-19T13:00:18.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
