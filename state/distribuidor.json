@@ -12047,17 +12047,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 50394,
+   "restantes": 235,
+   "segundos": 49211,
    "tope": 250
   },
   "30d": {
-   "restantes": 2546,
-   "segundos": 1858209,
+   "restantes": 2545,
+   "segundos": 1857025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T09:00:32.000Z",
+ "cuota_visto": "2026-10-20T09:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18255,14 +18255,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c6ed9c5ff8_100-dias-de-engano-de-que-trata-el-k-drama.mp4"
   },
   "nacionales:cb2e9c67cd146106|tiktok": {
-   "actualizado": "2026-10-19T16:00:16.000Z",
+   "actualizado": "2026-10-20T09:20:15.000Z",
    "buffer_id": "",
    "clave": "nacionales:cb2e9c67cd146106|tiktok",
    "creado": "2026-10-19T16:00:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T15:15:15.000Z",
    "id": "nacionales:cb2e9c67cd146106",
    "intentos": 0,
@@ -18515,14 +18515,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ef9d9f6be8_la-libertad-avanza-acelera-su-armado-juvenil-en.mp4"
   },
   "nacionales:f370b43343c04756|tiktok": {
-   "actualizado": "2026-10-19T15:20:16.000Z",
+   "actualizado": "2026-10-20T09:20:15.000Z",
    "buffer_id": "",
    "clave": "nacionales:f370b43343c04756|tiktok",
    "creado": "2026-10-19T15:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T15:05:26.000Z",
    "id": "nacionales:f370b43343c04756",
    "intentos": 0,
@@ -25597,14 +25597,14 @@
    "video_url": ""
   },
   "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x": {
-   "actualizado": "2026-10-19T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-20T09:20:15.000Z",
+   "buffer_id": "6ad7324ffc46f49b92850511",
    "clave": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x",
    "creado": "2026-10-19T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-20T10:45:17.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-19T10:03:10.722Z",
    "id": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3",
    "intentos": 0,
@@ -33265,27 +33265,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad3c5c5938409f1d09c11d1",
-   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|x",
-   "cuando": "2026-10-17T19:00:24.000Z",
-   "dueAt": "2026-10-17T19:33:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3c5c6e272c4918f9a62ed",
-   "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
-   "cuando": "2026-10-17T19:00:24.000Z",
-   "dueAt": "2026-10-17T22:03:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad3c5c6ae173d6e00cd36ff",
-   "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
-   "cuando": "2026-10-17T19:00:24.000Z",
-   "dueAt": "2026-10-17T22:18:34.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad3c5c7938409f1d09c1297",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
    "cuando": "2026-10-17T19:00:24.000Z",
@@ -37492,6 +37471,25 @@
    "clave": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x",
    "cuando": "2026-10-20T09:00:32.000Z",
    "dueAt": "2026-10-20T10:30:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "nacionales:cb2e9c67cd146106|tiktok",
+   "cuando": "2026-10-20T09:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "nacionales:f370b43343c04756|tiktok",
+   "cuando": "2026-10-20T09:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ad7324ffc46f49b92850511",
+   "clave": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x",
+   "cuando": "2026-10-20T09:20:16.000Z",
+   "dueAt": "2026-10-20T10:45:17.000Z",
    "evento": "programado"
   }
  ],

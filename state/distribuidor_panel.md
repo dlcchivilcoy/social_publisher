@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/10/2026 06:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 3 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,9 @@ Actualizado: 20/10/2026 06:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2546 de 3000 (visto 2026-10-20T09:00:32.000Z)
+15m: quedan 99 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2545 de 3000 (visto 2026-10-20T09:20:16.000Z)
 
-## Cola propia (54 esperando)
+## Cola propia (51 esperando)
 - TikTok · Reels del bot · Aprehendieron a dos personas y secuestraron dosis de cocaína — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -50,17 +50,17 @@ Actualizado: 20/10/2026 06:00 (hora AR) · ACTIVO
 - X · Notas web · Maíz: el trébol alejandrino mejora el suelo y aumenta el rendimiento tras el arr — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Un motociclista terminó internado tras chocar contra un auto en Chacabuco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Balea con proyectil de goma a un joven que eludió un control en moto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Nacionales y categorías · Quién es la influencer que muestra su vida rural sin filtros junto a sus ocho hi — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones le — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Cultivos de cobertura en soja: ensayos del INTA muestran menor uso de herbicidas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Nacionales y categorías · Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo polí — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Nacionales y categorías · El Estado nacional acumula más de 77 mil puestos menos desde diciembre de 2023 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La Cultura Chivilcoyana de Fiesta: Inauguraron la 19° edición de Exposade - Asim — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Éxito y gran convocatoria en una nueva edición de la Crono en Parejas del Club C — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Despedida de la delegación local que viajará a la ciudad de Mar del Plata para c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Primera División: El Torneo Clausura se pone al día a puro empate y emoción — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · El periodista Gustavo "Gato" Sylvestre presentó su nuevo libro en Chivilcoy con  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · “Estamos acá reconociendo nuestro error, el voto fue nuestro y el error también. — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,9 +72,6 @@ Actualizado: 20/10/2026 06:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T09:00 vencido nacionales:23d1fc7d2341fc89|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:41adf48909fb7a57|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-20T09:00 vencido nacionales:43c837025338a70a|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:00 vencido nacionales:54abafdb21dc7c6a|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:00 vencido nacionales:588268bbf306f395|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T09:00 vencido nacionales:677e9def2f7175b0|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -97,3 +94,6 @@ Actualizado: 20/10/2026 06:00 (hora AR) · ACTIVO
 - 2026-10-20T09:00 programado web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x 
 - 2026-10-20T09:00 programado web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x 
 - 2026-10-20T09:00 programado web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x 
+- 2026-10-20T09:20 vencido nacionales:cb2e9c67cd146106|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T09:20 vencido nacionales:f370b43343c04756|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-20T09:20 programado web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x 
