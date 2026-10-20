@@ -187,6 +187,8 @@ def notas_web() -> list[dict]:
         titulo = partes[0] if partes else (p.get("title") or "")
         bajada = " — ".join(partes[1:]) or (p.get("excerpt") or "")
         nacional = bool({config.WEB_CAT_NACIONALES_AUTO, config.WEB_CAT_NACIONALES} & set(cats))
+        if nacional and config.X_SIN_NOTAS_NACIONALES:
+            continue                                   # las nacionales van a X como reel (buzón)
         solo_finde = config.WEB_CAT_NACIONALES_AUTO in cats and bool(set(cats) & config.WEB_CATS_SOLO_FINDE)
         texto = f"{titulo} {bajada}".lower()
         out.append({

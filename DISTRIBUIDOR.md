@@ -178,3 +178,20 @@ Para que llegue a tiempo, policiales y nacionales suben su buzón al repo **apen
   (`WEB_CATS_EXCLUIDAS`, `WEB_TITULOS_EXCLUIDOS`).
 - **Lugar para los virales:** los reels virales (categoría virales o potencial 9-10) van primero y no se frenan por
   el cupo de su origen; los últimos `X_RESERVA_VIRALES` (6) lugares del tope de 24 h son solo para ellos.
+
+## X a la par de Instagram (20/10/2026)
+
+Pedido del editor: «en X se publiquen en el mismo horario que se publica en IG los posteos, ya sea del
+diario y de los recortes de la radio».
+
+- **Notas del diario.** Antes de la primera nota, el carrusel (`--notes-carousel`, 7:00 lun-vie) sube su
+  plan —qué nota sale a qué hora en Instagram— a `state/carrusel_plan.json` y despierta al distribuidor
+  (`workflow_dispatch`). La primera nota sale 5 minutos después (`CARRUSEL_PLAN_ADELANTO_MIN`), así el
+  distribuidor llega a programarla. Cada nota va a X a la hora exacta del plan (`ig_hora`). Una nota de la
+  carga de la mañana de un día hábil espera el plan hasta 3 h; después sale sola.
+- **Recortes de la radio.** Salen apenas su Short es público (el momento de Instagram), a 2 minutos.
+- **Primero ellos.** Las notas del diario con su hora de IG y los recortes no los frenan la reserva de los
+  virales ni el cupo de su origen; solo el tope de 24 h de X.
+- **Las nacionales de la web ya no van a X** (`X_SIN_NOTAS_NACIONALES`): llegan como reel por el buzón de
+  policiales-bsas.
+- Interruptores: `CARRUSEL_PLAN_X=0` (el carrusel no deja plan y arranca enseguida), `X_A_LA_PAR_IG=0`.

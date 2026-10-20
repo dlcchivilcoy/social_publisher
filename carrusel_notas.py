@@ -14,12 +14,14 @@ nombre del archivo. Además:
   - sube a las historias de IG la portada del carrusel (CARRUSEL_HISTORIA).
 Reemplaza el feed por nota (07:00/13:00) y las historias por nota (07:15).
 """
+import base64
 import json
+import os
 import re
 import smtplib
 import ssl
 import time
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from email.message import EmailMessage
 from email.utils import formataddr
 from pathlib import Path
@@ -402,6 +404,72 @@ def _intervalo_seg() -> int:
         return 900
 
 
+# X A LA PAR DE INSTAGRAM (pedido del editor, 20/10/2026: «necesito que en X se publiquen en el mismo
+# horario que se publica en IG los posteos del diario»). Antes de la primera nota, el carrusel deja su
+# PLAN —qué nota sale a qué hora— en state/carrusel_plan.json del repo (por la API de GitHub, en el
+# momento) y despierta al distribuidor, que programa cada nota en Buffer para esa misma hora. Para que el
+# distribuidor llegue, la primera nota sale CARRUSEL_PLAN_ADELANTO_MIN (5) después. CARRUSEL_PLAN_X=0 lo
+# apaga (y el carrusel arranca enseguida, como antes).
+PLAN_RUTA = "state/carrusel_plan.json"
+
+
+def _plan_x_activo() -> bool:
+    return (get("CARRUSEL_PLAN_X") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _plan_adelanto_seg() -> int:
+    try:
+        return max(0, int(float(get("CARRUSEL_PLAN_ADELANTO_MIN") or 5) * 60))
+    except ValueError:
+        return 300
+
+
+def plan_para_x(titulares: list, primera: datetime, intervalo: int) -> dict:
+    return {"creado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+            "intervalo_seg": intervalo,
+            "notas": [{"titular": t, "hora": (primera + timedelta(seconds=intervalo * k))
+                       .astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")}
+                      for k, t in enumerate(titulares)]}
+
+
+def _avisar_plan_x(plan: dict, http=None) -> bool:
+    """Sube el plan al repo y dispara el distribuidor. True si el plan quedó arriba. Nunca lanza: si
+    falla, el carrusel sale igual y X sigue con su ritmo de siempre."""
+    tok, repo = os.environ.get("GITHUB_TOKEN", ""), os.environ.get("GITHUB_REPOSITORY", "")
+    if http is None:
+        if not (tok and repo):
+            return False
+        import requests as http
+    h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
+    api = f"https://api.github.com/repos/{repo}"
+    try:
+        cuerpo = {"message": "Carrusel: plan de horarios para X [skip ci]", "branch": "main",
+                  "content": base64.b64encode(json.dumps(plan, ensure_ascii=False, indent=1)
+                                              .encode("utf-8")).decode("ascii")}
+        subido = False
+        for _intento in range(3):
+            r = http.get(f"{api}/contents/{PLAN_RUTA}", headers=h, params={"ref": "main"}, timeout=30)
+            if r.status_code == 200:
+                cuerpo["sha"] = r.json().get("sha")
+            p = http.put(f"{api}/contents/{PLAN_RUTA}", headers=h, json=cuerpo, timeout=60)
+            if p.status_code in (200, 201):
+                subido = True
+                break
+            if p.status_code not in (409, 422):        # otro push en el medio: se reintenta
+                break
+        if not subido:
+            logger.warning("[x] no se pudo dejar el plan del carrusel para X")
+            return False
+        d = http.post(f"{api}/actions/workflows/distribuidor.yml/dispatches", headers=h,
+                      json={"ref": "main"}, timeout=30)
+        logger.info(f"[x] plan del carrusel para X: {len(plan['notas'])} nota(s); distribuidor "
+                    + ("despertado" if d.status_code in (200, 204) else f"sin despertar (HTTP {d.status_code})"))
+        return True
+    except Exception as e:  # noqa: BLE001 — X nunca frena el carrusel
+        logger.warning(f"[x] no se pudo dejar el plan del carrusel para X: {e}")
+        return False
+
+
 # Colores intercalados (19/10/2026): cada nota del diario sale con el tema que sigue, blanco o grafito.
 TEMAS_INTERCALADOS = ("claro", "grafito")
 
@@ -501,13 +569,21 @@ def _instagram_individual(posts_folder: Path, notas: list, ledger: set, hoy: dat
         for note, titular, placas, caption in armadas:
             logger.info(f"[dry-run] «{titular[:50]}»: {len(placas)} placa(s)\n{caption}")
         return 0
-    salieron, ultimo, historia_hecha = 0, None, False
-    for note, titular, placas, caption in armadas:
-        if ultimo is not None:
-            falta = ultimo + intervalo - reloj()
-            if falta > 0:
-                dormir(falta)
-        ultimo = reloj()
+    # X a la par (20/10/2026): el plan va primero; si quedó arriba, la primera nota espera al distribuidor.
+    adelanto = 0
+    if armadas and _plan_x_activo():
+        adelanto = _plan_adelanto_seg()
+        plan = plan_para_x([t for _n, t, _p, _c in armadas],
+                           datetime.now(timezone.utc) + timedelta(seconds=adelanto), intervalo)
+        if not _avisar_plan_x(plan):
+            adelanto = 0
+    inicio = reloj() + adelanto
+    salieron, historia_hecha = 0, False
+    for k, (note, titular, placas, caption) in enumerate(armadas):
+        # Grilla fija (la hora del plan), aunque una publicación tarde.
+        falta = inicio + intervalo * k - reloj()
+        if falta > 0:
+            dormir(falta)
         try:
             instagram.publish_carousel(caption, placas)
         except Exception as e:  # noqa: BLE001

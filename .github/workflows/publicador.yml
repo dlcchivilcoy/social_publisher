@@ -75,6 +75,8 @@ concurrency:
 # Necesario para commitear de vuelta los registros anti-repeticion.
 permissions:
   contents: write
+  # El carrusel despierta al distribuidor (X a la par de Instagram, 20/10/2026).
+  actions: write
 
 jobs:
   publicar:

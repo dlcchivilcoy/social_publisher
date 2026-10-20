@@ -201,6 +201,9 @@ WEB_CATS_SOLO_FINDE = {"094f631e-1b56-485f-8777-6e167802455e",   # Deportes
 # Los VIRALES («si queda lugar, dale espacio a los reels de videos virales»): la categoría virales de
 # nacionales y cualquier video de potencial 9 o 10.
 NAC_VIRALES = {"virales"}
+# 20/10/2026: las nacionales salen solo como REEL con video y llegan a X por el buzón de policiales-bsas;
+# su nota de la web ya no va (era la misma noticia dos veces y se comía el tope de X).
+X_SIN_NOTAS_NACIONALES = _bool("X_SIN_NOTAS_NACIONALES", True)
 VIRAL_PRIORIDAD = 9
 # La nota en X sale con su foto destacada adjunta (más visible que la tarjeta del link,
 # que además X puede no leer en una nota recién publicada). 0 = solo el link.

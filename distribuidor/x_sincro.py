@@ -21,9 +21,11 @@ y el intercalado de policiales. X_SINCRO=0 vuelve al goteo de antes.
 """
 from __future__ import annotations
 
+import json
 import re
 import unicodedata
 from datetime import datetime, timedelta
+from pathlib import Path
 
 from zoneinfo import ZoneInfo
 
@@ -135,6 +137,65 @@ def reserva_virales() -> int:
     return config._int("X_RESERVA_VIRALES", 6)
 
 
+# ------------------------------------------------------------------------------ a la par de Instagram
+# (pedido del editor, 20/10/2026: «en X se publiquen en el mismo horario que se publica en IG los posteos,
+# ya sea del diario y de los recortes de la radio»). El carrusel del diario deja su plan (qué nota sale a
+# qué hora en Instagram) en state/carrusel_plan.json; cada nota del diario va a X a ESA hora. Los recortes
+# salen apenas son públicos (el momento en que salen en Instagram). Los dos van antes que todo lo demás:
+# no los frenan la reserva de los virales ni el cupo de su origen (solo el tope de 24 h de X).
+PLAN_IG = Path(__file__).resolve().parent.parent / "state" / "carrusel_plan.json"
+ESPERA_PLAN_H = 3
+
+
+def a_la_par_activo() -> bool:
+    return config._bool("X_A_LA_PAR_IG", True)
+
+
+def plan_ig(ahora: datetime, ruta: Path = None) -> list:
+    """[(titular, hora)] del plan del carrusel de hoy (horas de Argentina del mismo día)."""
+    try:
+        d = json.loads((ruta or PLAN_IG).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    hoy = ahora.astimezone(_AR).date()
+    out = []
+    for n in d.get("notas") or []:
+        h = estado.de_iso(n.get("hora"))
+        if h and h.astimezone(_AR).date() == hoy and n.get("titular"):
+            out.append((n["titular"], h))
+    return out
+
+
+def _cubre(chico: str, grande: str) -> float:
+    pa, pb = palabras(chico), palabras(grande)
+    return len(pa & pb) / len(pa) if pa else 0.0
+
+
+def hora_en_ig(pub: dict, plan: list):
+    """La hora del plan de la nota (por el titular), o None."""
+    mejor, hora = 0.0, None
+    for titular, h in plan:
+        s = max(parecido(titular, pub.get("titulo") or ""), _cubre(titular, pub.get("titulo") or ""))
+        if s > mejor:
+            mejor, hora = s, h
+    return hora if mejor >= PARECIDO_TITULO else None
+
+
+def prioritaria(pub: dict) -> bool:
+    return bool(pub.get("ig_hora")) or pub.get("origen") == "entrevistas"
+
+
+def espera_plan(pub: dict, plan: list, ahora: datetime) -> str:
+    """Una nota propia de la web cargada a la mañana de un día hábil (la carga de las 7) espera el plan
+    del carrusel para salir en X a su hora de Instagram; si el plan no llega en ESPERA_PLAN_H, sale sola."""
+    if pub.get("origen") != "web" or pub.get("ig_hora") or plan:
+        return ""
+    gen = (estado.de_iso(pub.get("generado")) or ahora).astimezone(_AR)
+    if gen.weekday() >= 5 or not 6 <= gen.hour < 11 or ahora - gen > timedelta(hours=ESPERA_PLAN_H):
+        return ""
+    return "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)"
+
+
 # ------------------------------------------------------------------------------------ cuándo sale
 def planificar(est: dict, ahora: datetime) -> tuple[list, list, dict]:
     """(asignaciones, a_desprogramar, motivos_de_espera) para X: cada pieza a la hora en que salió en
@@ -163,36 +224,56 @@ def planificar(est: dict, ahora: datetime) -> tuple[list, list, dict]:
     linea = PL.linea_del_canal(est, "x")
     intercalar, n_inter = config.intercalado(), config.min_entre_policiales()
 
-    # Lo urgente primero; después los VIRALES (19/10/2026); después, por orden de llegada.
+    # A la par de Instagram (20/10/2026): cada nota del diario toma la hora del plan del carrusel.
+    plan = plan_ig(ahora) if a_la_par_activo() else []
+    for p in pubs:
+        if p["estado"] == "pendiente" and p["origen"] == "web" and not p.get("ig_hora") and plan:
+            h = hora_en_ig(p, plan)
+            if h:
+                p["ig_hora"] = estado.iso(h)
+                p["vence"] = estado.iso(max(estado.de_iso(p.get("vence")) or h, h + timedelta(hours=1)))
+
+    # Lo del diario y los recortes primero (a la par de IG); después lo urgente, los VIRALES (19/10/2026)
+    # y el resto, por orden de llegada.
     cola = sorted((p for p in pubs if p["estado"] == "pendiente"),
-                  key=lambda p: (not p.get("urgente"), not p.get("viral"),
-                                 estado.de_iso(p.get("generado")) or ahora))
+                  key=lambda p: (not prioritaria(p), not p.get("urgente"), not p.get("viral"),
+                                 estado.de_iso(p.get("ig_hora") or p.get("generado")) or ahora))
     reserva = reserva_virales()
     asignadas, espera = [], {}
     for pub in cola:
         if libres <= 0:
             espera[pub["clave"]] = "Buffer lleno (10 programadas por canal en el plan Free)"
             continue
-        t = max(ahora + timedelta(minutes=3), estado.de_iso(pub.get("generado")) or ahora)
-        if pub["origen"] == "web" and ultima_web:
-            t = max(t, ultima_web + ritmo_web)
-        t = PL.en_franja(t, "x")
+        motivo = espera_plan(pub, plan, ahora) if a_la_par_activo() else ""
+        if motivo:
+            espera[pub["clave"]] = motivo
+            continue
         policial = tema.es_policial(pub)
-        for _ in range(24 * 60):
-            libre = all(abs(t - d) >= sep for d in ocupadas)
-            if libre and not (policial and intercalar and PL.pegado(linea, t, n_inter)):
-                break
-            t = PL.en_franja(t + timedelta(minutes=1), "x")
+        if pub.get("ig_hora"):
+            # A la hora exacta en que sale en Instagram (los demás se acomodan alrededor).
+            t = max(ahora + timedelta(minutes=2), estado.de_iso(pub["ig_hora"]))
+        else:
+            t = max(ahora + timedelta(minutes=2 if prioritaria(pub) else 3),
+                    estado.de_iso(pub.get("generado")) or ahora)
+            if pub["origen"] == "web" and ultima_web:
+                t = max(t, ultima_web + ritmo_web)
+            t = PL.en_franja(t, "x")
+            for _ in range(24 * 60):
+                libre = all(abs(t - d) >= sep for d in ocupadas)
+                if libre and not (policial and intercalar and PL.pegado(linea, t, n_inter)):
+                    break
+                t = PL.en_franja(t + timedelta(minutes=1), "x")
         if t > horizonte:
             espera[pub["clave"]] = "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
             continue
         dia = PL._dia_ar(t)
         en24 = sum(1 for d in ocupadas if t - timedelta(hours=24) < d <= t)
-        if not pub.get("viral") and en24 >= tope24 - reserva:
+        if not pub.get("viral") and not prioritaria(pub) and en24 >= tope24 - reserva:
             espera[pub["clave"]] = f"los últimos {reserva} lugares de las 24 h quedan para los reels virales"
             continue
         # Un viral no se frena por el cupo de su origen: solo por el tope total de X.
-        if not pub.get("viral") and por_dia.get((dia, pub["origen"]), 0) >= config.cupo(pub["origen"], "x"):
+        if (not pub.get("viral") and not prioritaria(pub)
+                and por_dia.get((dia, pub["origen"]), 0) >= config.cupo(pub["origen"], "x")):
             espera[pub["clave"]] = (f"cupo diario de {config.NOMBRE_ORIGEN[pub['origen']]} en X completo "
                                     f"({config.cupo(pub['origen'], 'x')})")
             continue

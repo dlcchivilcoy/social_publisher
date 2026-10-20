@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import os
 import sys
+import json
 import tempfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -23,7 +24,7 @@ os.environ.setdefault("CUPO_POLICIALES_X", "12")
 os.environ.setdefault("CUPO_NACIONALES_X", "0")
 os.environ.setdefault("CUPO_ENTREVISTAS_X", "10")
 
-from distribuidor import buffer_api, config, estado, fuentes, planificador, run, textos  # noqa: E402
+from distribuidor import buffer_api, config, estado, fuentes, planificador, run, textos, x_sincro  # noqa: E402
 
 OK, MAL = [], []
 
@@ -87,6 +88,8 @@ def preparar(eventos_fn):
     estado.ARCHIVO = tmp / "distribuidor.json"
     estado.PANEL = tmp / "panel.md"
     estado.BUZON = tmp / "buzon"
+    from distribuidor import x_sincro as _xs
+    _xs.PLAN_IG = tmp / "carrusel_plan.json"          # nunca el plan real del repo
     falso = BufferFalso()
     buffer_api.crear_lote = falso.crear_lote
     buffer_api.estado_general = falso.estado_general
@@ -672,10 +675,19 @@ def prueba_x_sincro():
                  estado.de_iso(px["bot:1|x"]["vence"]) <= AR_10 + timedelta(hours=2, minutes=1))
 
         # Planificación: tres notas del diario a la vez y dos reels.
-        for i, t in ((5, "Inauguraron la nueva plaza del barrio Villa Moquehuá"),
-                     (6, "El Concejo Deliberante aprobó el presupuesto municipal 2027"),
-                     (7, "Gimnasia ganó el clásico y es puntero del torneo local")):
+        titulos = ((5, "Inauguraron la nueva plaza del barrio Villa Moquehuá"),
+                   (6, "El Concejo Deliberante aprobó el presupuesto municipal 2027"),
+                   (7, "Gimnasia ganó el clásico y es puntero del torneo local"))
+        for i, t in titulos:
             run.encolar(est, [dict(ev(i, "web"), titulo=t)])
+        # Sin el plan del carrusel, una nota de la carga de la mañana espera su hora de Instagram.
+        _a0, _d0, espera0 = planificador.planificar(est, "x", AR_10)
+        chequear("X: sin el plan del carrusel, las notas de la mañana esperan su hora de Instagram (20/10/2026)",
+                 "Instagram" in espera0.get("web:5|x", ""), espera0)
+        # El plan: el carrusel saca en Instagram una nota cada 15 min desde las 10:10.
+        import carrusel_notas as _cn
+        plan = _cn.plan_para_x([t for _i, t in titulos], AR_10 + timedelta(minutes=10), 900)
+        x_sincro.PLAN_IG.write_text(json.dumps(plan), encoding="utf-8")
         a, _d, espera = planificador.planificar(est, "x", AR_10)
         horas = {k: estado.de_iso(due) for k, due in a}
         orden = sorted(horas.values())
@@ -684,8 +696,9 @@ def prueba_x_sincro():
         chequear("X: nunca dos posteos a menos de 5 minutos",
                  all((b - x).total_seconds() >= 5 * 60 - 60 for x, b in zip(orden, orden[1:])), orden)
         webs = sorted(h for k, h in horas.items() if k.startswith("web:"))
-        chequear("X: las notas del diario van cada 15 minutos (el ritmo del carrusel)",
-                 len(webs) == 3 and all((b - x).total_seconds() >= 15 * 60 - 60 for x, b in zip(webs, webs[1:])), webs)
+        chequear("X: cada nota del diario sale a la MISMA hora que en Instagram (el plan del carrusel)",
+                 len(webs) == 3 and all(abs((h - (AR_10 + timedelta(minutes=10 + 15 * k))).total_seconds()) < 60
+                                        for k, h in enumerate(webs)), webs)
         chequear("X: nada se programa más allá de 90 min", all(h <= AR_10 + timedelta(minutes=91) for h in orden))
 
         # Qué va y qué no (19/10/2026).
@@ -695,6 +708,8 @@ def prueba_x_sincro():
                  all(excl.search(t) for t in ("Sepelios — lunes 19 de octubre", "Farmacias de turno",
                                              "Clima en Chivilcoy", "Tapa del diario", "Archivo Literario: 1948"))
                  and not excl.search("Gimnasia ganó el clásico y es puntero"))
+        chequear("X: las notas nacionales de la web no van (las nacionales llegan como reel, 20/10/2026)",
+                 config.X_SIN_NOTAS_NACIONALES)
         chequear("X: agro no va (su sección está excluida)",
                  "0b4eafce-3bb8-44df-96dd-43e53fa24a9c" in config.WEB_CATS_EXCLUIDAS)
         run.encolar(est, [dict(ev(8, "nacionales"), categoria_nacional="deportes",
@@ -717,11 +732,16 @@ def prueba_x_sincro():
                                                  "dueAt": estado.iso(sabado - timedelta(minutes=30 + 10 * i))}
         run.encolar(est2, [dict(ev(20, "nacionales"), categoria_nacional="virales",
                                 titulo="El video del perro que aprendió a abrir la heladera", plataformas=["x"]),
-                           dict(ev(21, "web"), titulo="El municipio repavimentó la avenida Soarez")])
+                           dict(ev(21, "web"), titulo="El municipio repavimentó la avenida Soarez"),
+                           dict(ev(22, "entrevistas"), titulo="Britos habló de las obras de cloacas en la radio",
+                                plataformas=["x"])])
         a2, _d, e2 = planificador.planificar(est2, "x", sabado)
         claves = [k for k, _t in a2]
-        chequear("X: con el tope casi lleno, el lugar que queda es para el reel viral",
-                 claves == ["nacionales:20|x"] and "virales" in e2.get("web:21|x", ""), (claves, e2))
+        chequear("X: con el tope casi lleno, el lugar que queda es para el reel viral… y el recorte de la radio",
+                 sorted(claves) == ["entrevistas:22|x", "nacionales:20|x"] and "virales" in e2.get("web:21|x", ""),
+                 (claves, e2))
+        chequear("X: el recorte de la radio sale apenas sale en Instagram (antes que el resto)",
+                 claves[0] == "entrevistas:22|x", claves)
         chequear("X: el viral queda marcado y sale primero", est2["publicaciones"]["nacionales:20|x"].get("viral") is True)
         os.environ.pop("TOPE_X_24H")
         os.environ.pop("X_RESERVA_VIRALES")
