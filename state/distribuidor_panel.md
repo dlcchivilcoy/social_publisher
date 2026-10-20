@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 7 | 0 | 14 | 0 | 0 | 0 |
+| Notas web | X | 15 | 7 | 0 | 13 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -30,8 +30,9 @@ Actualizado: 20/10/2026 09:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2540 de 3000 (visto 2026-10-20T11:40:16.000Z)
 
-## Cola propia (54 esperando)
-- X · Notas web · Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses — los últimos 6 lugares de las 24 h quedan para los reels virales
+## Cola propia (55 esperando)
+- X · Reels del bot · Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses — los últimos 6 lugares de las 24 h quedan para los reels virales
+- TikTok · Reels del bot · Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Exitoso debut de la primera "Carrera Aventura" del Club Atlético Huracán — los últimos 6 lugares de las 24 h quedan para los reels virales
 - X · Notas web · Tres décadas de Pasión y Formación: La Escuela del Club Independiente Celebra su — los últimos 6 lugares de las 24 h quedan para los reels virales
 - X · Notas web · Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en — los últimos 6 lugares de las 24 h quedan para los reels virales
@@ -60,7 +61,6 @@ Actualizado: 20/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías · Hallaron elementos con manchas rojas en la casa del detenido por la docente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Nacionales y categorías · Toques de queda en Francia por violentas protestas y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — los últimos 6 lugares de las 24 h quedan para los reels virales
-- X · Notas web · Lanzan un manual técnico para mejorar las pulverizaciones con drones agrícolas — los últimos 6 lugares de las 24 h quedan para los reels virales
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -72,9 +72,6 @@ Actualizado: 20/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T10:20 recibido web:0ad113d1-0797-400e-8161-494cc3be7804|x 
-- 2026-10-20T10:20 recibido web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x 
-- 2026-10-20T10:20 recibido web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x 
 - 2026-10-20T10:20 recibido web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x 
 - 2026-10-20T10:20 recibido web:7524a117-5ec3-428b-862c-0238cd3653e6|x 
 - 2026-10-20T10:21 recibido web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x 
@@ -97,3 +94,6 @@ Actualizado: 20/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-20T11:40 enviado web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x 
 - 2026-10-20T11:40 enviado web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x 
 - 2026-10-20T12:20 recibido web:fe8f1548-d224-494b-8549-4bd21362e5b3|x 
+- 2026-10-20T12:40 reemplazada web:fe8f1548-d224-494b-8549-4bd21362e5b3|x reemplazada por el reel de la misma noticia (bot)
+- 2026-10-20T12:40 recibido bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x 
+- 2026-10-20T12:40 recibido bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok 
