@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 1
+    "scheduled": 0,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-20T13:20:15.000Z"
+   "visto": "2026-10-20T14:20:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 1,
     "sent": 40
    },
    "pausado": false,
-   "visto": "2026-10-20T13:20:15.000Z"
+   "visto": "2026-10-20T14:20:17.000Z"
   }
  },
  "contenidos": {
@@ -12414,17 +12414,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 147,
-   "segundos": 33611,
+   "restantes": 146,
+   "segundos": 31209,
    "tope": 250
   },
   "30d": {
-   "restantes": 2457,
-   "segundos": 1841426,
+   "restantes": 2456,
+   "segundos": 1839024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T13:40:15.000Z",
+ "cuota_visto": "2026-10-20T14:20:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16292,18 +16292,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok": {
-   "actualizado": "2026-10-20T13:00:18.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad765e7fcb5599ad939f64a",
    "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok",
    "creado": "2026-10-20T12:40:14.000Z",
    "dueAt": "2026-10-20T13:23:20.000Z",
+   "enviado": "2026-10-20T13:25:13.286Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T12:20:08.000Z",
    "id": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698740059100466484",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16318,14 +16319,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fe15b42b566bcdb3.mp4"
   },
   "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x": {
-   "actualizado": "2026-10-20T12:40:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x",
    "creado": "2026-10-20T12:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "los últimos 6 lugares de las 24 h quedan para los reels virales",
    "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T12:20:08.000Z",
    "id": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4",
    "intentos": 0,
@@ -17984,18 +17985,19 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_6e5b52bbe6_juana-viale-hablo-sobre-la-salud-de-mirtha.mp4"
   },
   "nacionales:7473fc970bead57a|tiktok": {
-   "actualizado": "2026-10-20T13:00:18.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad765e8fcb5599ad939f74e",
    "clave": "nacionales:7473fc970bead57a|tiktok",
    "creado": "2026-10-20T02:00:19.000Z",
    "dueAt": "2026-10-20T13:43:30.000Z",
+   "enviado": "2026-10-20T13:45:13.465Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T01:46:16.000Z",
    "id": "nacionales:7473fc970bead57a",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698745252835888436",
    "nota_url": "https://www.diariolacampaña.com.ar/n/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -25007,14 +25009,14 @@
    "video_url": ""
   },
   "web:053f7722-ce93-4d22-9679-cc89862bee76|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:053f7722-ce93-4d22-9679-cc89862bee76|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:02.357Z",
    "id": "web:053f7722-ce93-4d22-9679-cc89862bee76",
    "intentos": 0,
@@ -25229,14 +25231,14 @@
    "video_url": ""
   },
   "web:0ad113d1-0797-400e-8161-494cc3be7804|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:0ad113d1-0797-400e-8161-494cc3be7804|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:59.238Z",
    "id": "web:0ad113d1-0797-400e-8161-494cc3be7804",
    "intentos": 0,
@@ -27045,14 +27047,14 @@
    "video_url": ""
   },
   "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:02:04.911Z",
    "id": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1",
    "intentos": 0,
@@ -27186,14 +27188,14 @@
    "video_url": ""
   },
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:10.572Z",
    "id": "web:43a2b43f-fc3d-423a-ac09-144e2e421326",
    "intentos": 0,
@@ -27291,14 +27293,14 @@
    "video_url": ""
   },
   "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:23.887Z",
    "id": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c",
    "intentos": 0,
@@ -27724,14 +27726,14 @@
    "video_url": ""
   },
   "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:53.153Z",
    "id": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485",
    "intentos": 0,
@@ -27752,18 +27754,19 @@
    "viral": false
   },
   "web:5253b590-963f-4a40-8acf-18a1f53713b5|x": {
-   "actualizado": "2026-10-20T13:20:15.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad76a90892e8621b52c841c",
    "clave": "web:5253b590-963f-4a40-8acf-18a1f53713b5|x",
    "creado": "2026-10-19T14:00:19.000Z",
    "dueAt": "2026-10-20T13:38:56.000Z",
+   "enviado": "2026-10-20T13:39:02.186Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:47:49.556Z",
    "id": "web:5253b590-963f-4a40-8acf-18a1f53713b5",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112539086086885439",
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4",
    "origen": "web",
    "plataforma": "x",
@@ -28877,14 +28880,14 @@
    "video_url": ""
   },
   "web:7524a117-5ec3-428b-862c-0238cd3653e6|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:7524a117-5ec3-428b-862c-0238cd3653e6|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:30.394Z",
    "id": "web:7524a117-5ec3-428b-862c-0238cd3653e6",
    "intentos": 0,
@@ -29144,14 +29147,14 @@
    "video_url": ""
   },
   "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:00:56.355Z",
    "id": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6",
    "intentos": 0,
@@ -29497,14 +29500,14 @@
    "video_url": ""
   },
   "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:02:31.407Z",
    "id": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4",
    "intentos": 0,
@@ -29560,18 +29563,19 @@
    "video_url": ""
   },
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x": {
-   "actualizado": "2026-10-20T13:20:15.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad76a90ff291a23994f7376",
    "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
    "creado": "2026-10-19T13:40:18.000Z",
    "dueAt": "2026-10-20T13:23:53.000Z",
+   "enviado": "2026-10-20T13:24:02.218Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:35:15.528Z",
    "id": "web:847aec7b-6e8c-4074-82b2-d77103ae355f",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112535310252855614",
    "nota_url": "https://www.diariolacampaña.com.ar/n/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
    "origen": "web",
    "plataforma": "x",
@@ -29636,18 +29640,19 @@
    "video_url": ""
   },
   "web:85b0f263-df46-4783-b4dd-311f977e50c9|x": {
-   "actualizado": "2026-10-20T13:20:15.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad76a91029e8e5ef9920a24",
    "clave": "web:85b0f263-df46-4783-b4dd-311f977e50c9|x",
    "creado": "2026-10-19T14:00:19.000Z",
    "dueAt": "2026-10-20T13:53:27.000Z",
+   "enviado": "2026-10-20T13:53:31.216Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T13:50:09.778Z",
    "id": "web:85b0f263-df46-4783-b4dd-311f977e50c9",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112542731146813801",
    "nota_url": "https://www.diariolacampaña.com.ar/n/interna-peronista-los-secretos-de-la-reunion-entre-cristina-d6dc41",
    "origen": "web",
    "plataforma": "x",
@@ -29739,14 +29744,14 @@
    "video_url": ""
   },
   "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:02:18.797Z",
    "id": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0",
    "intentos": 0,
@@ -30930,14 +30935,14 @@
    "video_url": ""
   },
   "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:02:10.364Z",
    "id": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b",
    "intentos": 0,
@@ -32801,14 +32806,14 @@
    "video_url": ""
   },
   "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:46.765Z",
    "id": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f",
    "intentos": 0,
@@ -33303,14 +33308,14 @@
    "video_url": ""
   },
   "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x": {
-   "actualizado": "2026-10-20T10:20:14.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
    "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
    "creado": "2026-10-20T10:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "cupo diario de Notas web en X completo (15)",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T10:01:38.640Z",
    "id": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b",
    "intentos": 0,
@@ -34058,18 +34063,19 @@
    "video_url": ""
   },
   "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x": {
-   "actualizado": "2026-10-20T13:20:15.000Z",
+   "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad76a92cf1d4d5c5e602528",
    "clave": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x",
    "creado": "2026-10-19T14:20:14.000Z",
    "dueAt": "2026-10-20T14:08:04.000Z",
+   "enviado": "2026-10-20T14:08:16.183Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-19T14:05:11.716Z",
    "id": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112546443135238334",
    "nota_url": "https://www.diariolacampaña.com.ar/n/escandalo-en-racing-luis-alfonso-espino-se-cruzo-con-los-a09771",
    "origen": "web",
    "plataforma": "x",
@@ -34243,156 +34249,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok",
-   "cuando": "2026-10-18T01:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x",
-   "cuando": "2026-10-18T01:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
-   "cuando": "2026-10-18T01:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
-   "cuando": "2026-10-18T01:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
-   "cuando": "2026-10-18T01:00:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
-   "cuando": "2026-10-18T01:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
-   "cuando": "2026-10-18T01:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
-   "cuando": "2026-10-18T01:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x",
-   "cuando": "2026-10-18T02:00:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111619241317122090"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
-   "cuando": "2026-10-18T09:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok",
-   "cuando": "2026-10-18T09:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
-   "cuando": "2026-10-18T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad48aa6ae173d6e00f35ee5",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T10:00:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aa7938409f1d0c24c5e",
-   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T10:15:35.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aa80a208cb3235991f2",
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T10:30:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aa86d56c60a73023598",
-   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T10:45:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aa90b0d72757a14b79f",
-   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T13:00:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aaa0b0d72757a14b865",
-   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T13:15:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aaa6d56c60a730236b0",
-   "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T13:30:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad48aab769b457934b519eb",
-   "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
-   "cuando": "2026-10-18T09:00:27.000Z",
-   "dueAt": "2026-10-18T13:45:27.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
    "cuando": "2026-10-18T10:20:13.000Z",
@@ -38476,6 +38332,126 @@
    "evento": "recibido",
    "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
    "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "los últimos 6 lugares de las 24 h quedan para los reels virales"
+  },
+  {
+   "clave": "web:053f7722-ce93-4d22-9679-cc89862bee76|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:0ad113d1-0797-400e-8161-494cc3be7804|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:7524a117-5ec3-428b-862c-0238cd3653e6|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "cupo diario de Notas web en X completo (15)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698740059100466484"
+  },
+  {
+   "clave": "nacionales:7473fc970bead57a|tiktok",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698745252835888436"
+  },
+  {
+   "clave": "web:5253b590-963f-4a40-8acf-18a1f53713b5|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112539086086885439"
+  },
+  {
+   "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112535310252855614"
+  },
+  {
+   "clave": "web:85b0f263-df46-4783-b4dd-311f977e50c9|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112542731146813801"
+  },
+  {
+   "clave": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x",
+   "cuando": "2026-10-20T14:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112546443135238334"
   }
  ],
  "tandas": {
@@ -38486,7 +38462,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-20",
- "ultima_sync": "2026-10-20T13:20:15.000Z",
+ "ultima_sync": "2026-10-20T14:20:17.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
