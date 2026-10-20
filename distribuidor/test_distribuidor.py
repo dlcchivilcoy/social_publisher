@@ -643,7 +643,7 @@ def prueba_semana_finde():
     y policiales, el finde (20/10/2026)."""
     print("\n— Entre semana solo lo propio; lo demás, el finde —")
     preparar(lambda: [])
-    config.SOLO_FINDE, config.X_WEB_SOLO_DIARIO, config.BOT_PRIMERO = {"nacionales", "policiales"}, True, True
+    config.SOLO_FINDE, config.X_WEB_SOLO_DIARIO, config.BOT_PRIMERO = {"nacionales"}, True, True
     try:
         reloj(AR_10)                                                     # lunes 10:00
         est = estado.vacio()
@@ -655,17 +655,19 @@ def prueba_semana_finde():
         n = run.depurar(est)
         px = est["publicaciones"]
         quedan = sorted(k for k, p in px.items() if p["estado"] == "pendiente")
-        chequear("lunes: nacionales, policiales y notas web viejas salen de la cola; quedan el bot y los recortes",
-                 quedan == ["bot:3|tiktok", "bot:3|x", "entrevistas:4|x"] and n >= 4, (quedan, n))
+        chequear("lunes: nacionales y notas web viejas salen de la cola; quedan el bot, los recortes y los policiales",
+                 quedan == ["bot:3|tiktok", "bot:3|x", "entrevistas:4|x", "policiales:2|tiktok", "policiales:2|x"]
+                 and n >= 2, (quedan, n))
         chequear("…con su motivo", "finde" in px["nacionales:1|tiktok"]["error"] and "mañana" in px["web:5|x"]["error"])
         a, _d, _e = planificador.planificar(est, "x", AR_10)
-        chequear("X: el bot y el recorte se programan (el bot, prioridad)", {k for k, _t in a} == {"bot:3|x", "entrevistas:4|x"}, a)
+        chequear("X: el bot y el recorte se programan primero (prioridad)", {"bot:3|x", "entrevistas:4|x"} <= {k for k, _t in a}
+                 and [k for k, _t in a][:2] in (["bot:3|x", "entrevistas:4|x"], ["entrevistas:4|x", "bot:3|x"]), a)
         sabado = AR_10 + timedelta(days=5)
         reloj(sabado)
         est2 = estado.vacio()
         run.encolar(est2, [ev(6, "nacionales", plataformas=["x", "tiktok"], titulo="Gran final del torneo de vóley"),
                            ev(7, "policiales", titulo="Choque en la ruta 5 cerca de Alberti")])
-        chequear("sábado: nacionales y policiales sí van", run.depurar(est2) == 0
+        chequear("sábado: nacionales sí van", run.depurar(est2) == 0
                  and all(p["estado"] == "pendiente" for p in est2["publicaciones"].values()))
         cola = [dict(clave=f"n{i}", origen="nacionales", prioridad=9, generado=estado.iso(sabado)) for i in range(4)]
         cola += [dict(clave=f"b{i}", origen="bot", prioridad=5, generado=estado.iso(sabado)) for i in range(3)]

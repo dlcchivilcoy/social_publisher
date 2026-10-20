@@ -193,7 +193,7 @@ def fuera_de_regla(pub: dict, ahora: datetime, plan: list = None) -> str:
         no llegó, las cargadas a la mañana de un día hábil."""
     hora = (estado.de_iso(pub.get("dueAt")) if pub.get("estado") == "programado" else None) or ahora
     if pub.get("origen") in config.SOLO_FINDE and hora.astimezone(_AR).weekday() < 5:
-        return "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
+        return "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
     if pub.get("origen") == "web" and pub.get("plataforma") == "x" and config.X_WEB_SOLO_DIARIO \
             and not pub.get("ig_hora"):
         gen = (estado.de_iso(pub.get("generado")) or ahora).astimezone(_AR)

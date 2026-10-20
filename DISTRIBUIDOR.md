@@ -204,13 +204,14 @@ virales, deportes, espectáculos, IA, generales, nacionales, etc., dejalo para e
 
 | | lunes a viernes | sábado y domingo |
 |---|---|---|
-| X | notas del diario de la mañana (a su hora de IG), bot, recortes | bot, recortes, nacionales, policiales |
-| TikTok | bot | bot, nacionales, policiales |
+| X | notas del diario de la mañana (a su hora de IG), bot, recortes, policiales | bot, recortes, policiales, nacionales |
+| TikTok | bot, policiales | bot, policiales, nacionales |
 
 - Cada pasada **depura** (`run.depurar`): lo pendiente que ya no va se descarta y lo programado en Buffer se
   borra (salvo lo que sale en 3 minutos). Motivos en `x_sincro.fuera_de_regla`.
 - **El bot, primero**: en X no lo frenan la reserva de virales ni su cupo; en TikTok va primero en cada
   tanda y sin el tope de 2 por origen.
 - De la web, a X solo las notas del carrusel del día (o, si el plan no llegó, las cargadas a la mañana).
-- Interruptores: `DIST_SOLO_FINDE` (orígenes del finde; vacío = todos todos los días), `X_WEB_SOLO_DIARIO=0`,
+- Los policiales siguen toda la semana («los policiales dejalos», 20/10/2026).
+- Interruptores: `DIST_SOLO_FINDE` (orígenes del finde, `nacionales`; vacío = todos todos los días), `X_WEB_SOLO_DIARIO=0`,
   `BOT_PRIMERO=0`.
