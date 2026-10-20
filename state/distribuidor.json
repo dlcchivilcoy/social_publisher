@@ -12250,6 +12250,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dia-de-la-madre-los-mensajes-recuerdos-y-dedicatorias-de-los-0d6b3d",
    "volanta": ""
   },
+  "web:fe8f1548-d224-494b-8549-4bd21362e5b3": {
+   "categoria": "",
+   "descripcion": "Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses Comenzaron los Juegos Bonaerenses y parte de la delegación de Chivilcoy inició su jornada a primera hora de este día. Los representantes locales se encontraban en el hotel Marques del Mar a minutos de dirigirse hacia la competencia, iniciando la actividad a partir de las 7 de la mañana con la presencia de la Dirección de Deportes de la Municipalidad de Chivilcoy.",
+   "generado": "2026-10-20T12:18:45.691Z",
+   "id": "web:fe8f1548-d224-494b-8549-4bd21362e5b3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c260db39dfcd47279a7d7aeaf9796266~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": {
    "categoria": "nacionales",
    "descripcion": "El bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Divergencias internas entre el sector que busca acuerdos con…",
@@ -33828,6 +33847,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:fe8f1548-d224-494b-8549-4bd21362e5b3|x": {
+   "actualizado": "2026-10-20T12:20:18.000Z",
+   "buffer_id": "",
+   "clave": "web:fe8f1548-d224-494b-8549-4bd21362e5b3|x",
+   "creado": "2026-10-20T12:20:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
+   "estado": "pendiente",
+   "generado": "2026-10-20T12:18:45.691Z",
+   "id": "web:fe8f1548-d224-494b-8549-4bd21362e5b3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
+   "noticia": "nota:chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses\n\nRepresentantes locales iniciaron su actividad desde las 7 de la mañana en el hotel Marques del Mar con la presencia de la Dirección de Deportes municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Comenzó la actividad para la delegación de Chivilcoy en los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-20T16:18:45.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x": {
    "actualizado": "2026-10-20T02:00:29.000Z",
    "buffer_id": "",
@@ -33882,14 +33929,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
-   "cuando": "2026-10-17T23:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
    "cuando": "2026-10-17T23:40:22.000Z",
@@ -38113,6 +38152,14 @@
    "cuando": "2026-10-20T11:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112503031992361058"
+  },
+  {
+   "clave": "web:fe8f1548-d224-494b-8549-4bd21362e5b3|x",
+   "cuando": "2026-10-20T12:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "tandas": {
@@ -38725,6 +38772,7 @@
   "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5": "2026-10-19T15:00:20.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
   "web:fcc38531-e614-4892-a005-314730e4df18": "2026-10-19T09:00:17.000Z",
+  "web:fe8f1548-d224-494b-8549-4bd21362e5b3": "2026-10-20T12:20:18.000Z",
   "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": "2026-10-19T02:00:17.000Z",
   "web:ff73c4bb-5d20-4860-bf03-45ebd88757bc": "2026-10-15T13:20:17.000Z"
  }
