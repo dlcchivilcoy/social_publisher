@@ -2140,6 +2140,33 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00234.mp4",
    "youtube_url": "https://youtu.be/gfYI66dMI0M"
   },
+  "nacionales:01c0d7889e6b5047": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El organismo internacional convocó a audiencias los días 10 y 11 de noviembre de 2026 tras el pedido presentado por el gobierno de Javier Milei en el litigio contra el Reino Unido.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T00:16:02.000Z",
+   "hashtags": [
+    "Malvinas",
+    "Politica"
+   ],
+   "id": "nacionales:01c0d7889e6b5047",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-tribunal-del-mar-fijo-audiencias-para-noviembre-por-la-01c0d7",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Tribunal del Mar fijó audiencias por la extracción petrolera británica en Malvinas",
+   "urgente": false,
+   "video_bytes": 86992,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_01c0d7889e_tribunal-del-mar-fijo-audiencias-por-la.mp4",
+   "volanta": "Malvinas",
+   "youtube_url": "https://youtube.com/shorts/QOKsb3JPkqQ"
+  },
   "nacionales:02472f0cd4ba4800": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -4878,6 +4905,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4",
    "volanta": "Incendio en Bragado",
    "youtube_url": "https://youtube.com/shorts/h5tNmVsk9Rc"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Un Volkswagen Gol colisionó por alcance a una motocicleta en la esquina de Falcón y Del Busto. Cuatro personas debieron ser hospitalizadas, entre ellas una mujer con fractura expuesta y tres menores que sufrieron escoriaciones.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T00:01:14.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un automóvil Volkswagen Gol y una motocicleta Keller protagonizaron un violento accidente de tránsito en la esquina de las calles Falcón y Del Busto, en la ciudad de Bragado.\n\nEl siniestro ocurrió este martes cuando el vehículo mayor, al mando de Nicolás Montenegro, de 32 años, impactó desde atrás al rodado menor en el que circulaba Flavia Martínez, de 30 años, junto a tres niños de 4, 7 y 12 años.\n\nA raíz de la colisión, los cuatro ocupantes de la moto fueron trasladados de urgencia al hospital local para su atención médica.\n\nEl parte oficial indicó que Martínez sufrió una fractura expuesta en el brazo derecho, mientras que los menores presentaron diversas escoriaciones sin riesgo de vida.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #SiniestroVial #Choque #BuenosAires",
+   "tipo": "video",
+   "titulo": "Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos",
+   "urgente": false,
+   "video_bytes": 90589,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_04_bragado_bragado-un-auto-embisti-a-una-.mp4",
+   "volanta": "Choque en Bragado",
+   "youtube_url": "https://youtube.com/shorts/PkdfGS--TKY"
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": {
    "categoria": "robo",
@@ -12778,22 +12831,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 85180,
+   "restantes": 246,
+   "segundos": 83997,
    "tope": 250
   },
   "30d": {
-   "restantes": 2332,
-   "segundos": 1804197,
+   "restantes": 2331,
+   "segundos": 1803015,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T00:00:46.000Z",
+ "cuota_visto": "2026-10-21T00:20:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15041,7 +15094,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -15207,7 +15260,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -15264,7 +15317,7 @@
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T23:44:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
@@ -15320,7 +15373,7 @@
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T23:52:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
@@ -16651,7 +16704,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T20:44:10.000Z",
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
@@ -16712,7 +16765,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -16775,7 +16828,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -18017,6 +18070,60 @@
    "vence": "2026-10-20T21:00:19.000Z",
    "video_bytes": 34514648,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00234.mp4",
+   "viral": false
+  },
+  "nacionales:01c0d7889e6b5047|tiktok": {
+   "actualizado": "2026-10-21T00:20:25.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:01c0d7889e6b5047|tiktok",
+   "creado": "2026-10-21T00:20:18.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-21T00:16:02.000Z",
+   "id": "nacionales:01c0d7889e6b5047",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-tribunal-del-mar-fijo-audiencias-para-noviembre-por-la-01c0d7",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Tribunal del Mar fijó audiencias por la extracción petrolera británica en Malvinas\n\nEl organismo internacional convocó a audiencias los días 10 y 11 de noviembre de 2026 tras el pedido presentado por el gobierno de Javier Milei en el litigio contra el Reino Unido.\n\nhttps://www.diariolacampaña.com.ar/n/el-tribunal-del-mar-fijo-audiencias-para-noviembre-por-la-01c0d7\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Tribunal del Mar fijó audiencias por la extracción petrolera británica en Malvinas",
+   "urgente": false,
+   "vence": "2026-10-21T18:16:02.000Z",
+   "video_bytes": 86992,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_01c0d7889e_tribunal-del-mar-fijo-audiencias-por-la.mp4",
+   "viral": false
+  },
+  "nacionales:01c0d7889e6b5047|x": {
+   "actualizado": "2026-10-21T00:20:25.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:01c0d7889e6b5047|x",
+   "creado": "2026-10-21T00:20:18.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-21T00:16:02.000Z",
+   "id": "nacionales:01c0d7889e6b5047",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-tribunal-del-mar-fijo-audiencias-para-noviembre-por-la-01c0d7",
+   "noticia": "nota:el-tribunal-del-mar-fijo-audiencias-para-noviembre-por-la-01c0d7",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Tribunal del Mar fijó audiencias por la extracción petrolera británica en Malvinas\n\nEl organismo internacional convocó a audiencias para noviembre de 2026 tras el pedido del gobierno de Javier Milei en el litigio contra el Reino Unido.\n\nhttps://www.diariolacampaña.com.ar/n/el-tribunal-del-mar-fijo-audiencias-para-noviembre-por-la-01c0d7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Tribunal del Mar fijó audiencias por la extracción petrolera británica en Malvinas",
+   "urgente": false,
+   "vence": "2026-10-21T02:16:02.000Z",
+   "video_bytes": 86992,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_01c0d7889e_tribunal-del-mar-fijo-audiencias-por-la.mp4",
    "viral": false
   },
   "nacionales:02472f0cd4ba4800|tiktok": {
@@ -22209,6 +22316,62 @@
    "vence": "2026-10-17T21:39:53.000Z",
    "video_bytes": 96669,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok": {
+   "actualizado": "2026-10-21T00:20:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok",
+   "creado": "2026-10-21T00:20:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-21T00:01:14.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos\n\nUn Volkswagen Gol colisionó por alcance a una motocicleta en la esquina de Falcón y Del Busto. Cuatro personas debieron ser hospitalizadas, entre ellas una mujer con fractura expuesta y tres menores que sufrieron escoriaciones.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos",
+   "urgente": false,
+   "vence": "2026-10-21T18:01:14.000Z",
+   "video_bytes": 90589,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_04_bragado_bragado-un-auto-embisti-a-una-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x": {
+   "actualizado": "2026-10-21T00:20:25.000Z",
+   "buffer_id": "6ad8054a5af80146fcc029fa",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
+   "creado": "2026-10-21T00:20:18.000Z",
+   "dueAt": "2026-10-21T00:23:47.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T00:01:14.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
+   "noticia": "nota:bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos\n\nCuatro personas fueron hospitalizadas tras el choque en Falcón y Del Busto. Una mujer sufrió una fractura expuesta y tres menores resultaron con escoriaciones.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos",
+   "urgente": false,
+   "vence": "2026-10-21T02:01:14.000Z",
+   "video_bytes": 90589,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_04_bragado_bragado-un-auto-embisti-a-una-.mp4",
+   "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok": {
    "actualizado": "2026-10-15T09:00:22.000Z",
@@ -35344,57 +35507,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
-   "cuando": "2026-10-18T21:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
-   "cuando": "2026-10-18T21:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "buffer_id": "6ad53365a48c8f8371b391da",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
-   "cuando": "2026-10-18T21:00:21.000Z",
-   "dueAt": "2026-10-18T21:03:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:902234a6-60aa-4826-bffd-430eafadfad0|x",
-   "cuando": "2026-10-18T21:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad5380f0a208cb32380710e",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok",
-   "cuando": "2026-10-18T21:20:16.000Z",
-   "dueAt": "2026-10-18T21:23:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad538100b0d72757a3c3d9d",
-   "clave": "nacionales:76f6781e9594def9|tiktok",
-   "cuando": "2026-10-18T21:20:16.000Z",
-   "dueAt": "2026-10-18T22:03:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
-   "cuando": "2026-10-18T21:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
    "cuando": "2026-10-18T21:40:15.000Z",
    "estado": "pendiente",
@@ -39507,6 +39619,57 @@
    "cuando": "2026-10-21T00:00:45.000Z",
    "dueAt": "2026-10-21T00:23:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
+   "cuando": "2026-10-21T00:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok",
+   "cuando": "2026-10-21T00:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "nacionales:01c0d7889e6b5047|x",
+   "cuando": "2026-10-21T00:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:01c0d7889e6b5047|tiktok",
+   "cuando": "2026-10-21T00:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:01c0d7889e6b5047|x",
+   "cuando": "2026-10-21T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:01c0d7889e6b5047|tiktok",
+   "cuando": "2026-10-21T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "buffer_id": "6ad8054a5af80146fcc029fa",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
+   "cuando": "2026-10-21T00:20:26.000Z",
+   "dueAt": "2026-10-21T00:23:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39624,6 +39787,7 @@
   "entrevistas:job00232": "2026-10-20T18:00:17.000Z",
   "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
   "entrevistas:job00234": "2026-10-20T19:00:19.000Z",
+  "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
@@ -39732,6 +39896,7 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": "2026-10-15T14:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html": "2026-10-15T14:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": "2026-10-17T09:00:19.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html": "2026-10-21T00:20:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",

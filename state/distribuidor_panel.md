@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,11 +7,11 @@ Actualizado: 20/10/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 2 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 5 | 6 | 0 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 1 | 0 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 2 | 0 |
+| Reels policiales | TikTok | 5 | 0 | 1 | 1 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 6 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
-| Nacionales y categorías | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 2 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Nacionales y categorías | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 3 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 0 programadas de 100 por día
@@ -28,16 +28,17 @@ Actualizado: 20/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2332 de 3000 (visto 2026-10-21T00:00:46.000Z)
+15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2331 de 3000 (visto 2026-10-21T00:20:26.000Z)
 
-## Cola propia (7 esperando)
-- TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — ya salieron los 5 de bot de hoy en TikTok
+## Cola propia (8 esperando)
+- TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -49,13 +50,6 @@ Actualizado: 20/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T22:20 recibido nacionales:10671478a956c2ad|x 
-- 2026-10-20T22:20 recibido nacionales:10671478a956c2ad|tiktok 
-- 2026-10-20T22:20 depurado nacionales:10671478a956c2ad|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
-- 2026-10-20T22:20 depurado nacionales:10671478a956c2ad|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
-- 2026-10-20T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tikto 
-- 2026-10-20T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
-- 2026-10-20T22:40 enviado bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok 
 - 2026-10-20T22:40 enviado bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok 
 - 2026-10-20T23:00 vencido bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T23:00 vencido bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -74,3 +68,10 @@ Actualizado: 20/10/2026 21:00 (hora AR) · ACTIVO
 - 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
 - 2026-10-21T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
 - 2026-10-21T00:00 programado nacionales:fb8bbb9c2285b74b|tiktok 
+- 2026-10-21T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
+- 2026-10-21T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
+- 2026-10-21T00:20 recibido nacionales:01c0d7889e6b5047|x 
+- 2026-10-21T00:20 recibido nacionales:01c0d7889e6b5047|tiktok 
+- 2026-10-21T00:20 depurado nacionales:01c0d7889e6b5047|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-21T00:20 depurado nacionales:01c0d7889e6b5047|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-21T00:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
