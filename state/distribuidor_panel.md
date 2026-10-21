@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 2 | 3 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 2 |
@@ -28,17 +28,13 @@ Actualizado: 21/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 189 de 250 · 30d: quedan 2274 de 3000 (visto 2026-10-21T20:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 188 de 250 · 30d: quedan 2273 de 3000 (visto 2026-10-21T21:00:23.000Z)
 
-## Cola propia (8 esperando)
-- TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (4 esperando)
+- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — ya salieron los 5 de bot de hoy en TikTok
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -50,10 +46,6 @@ Actualizado: 21/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T13:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
-- 2026-10-21T13:00 programado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tikto 
-- 2026-10-21T13:00 programado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok 
-- 2026-10-21T14:20 enviado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tikto 
 - 2026-10-21T14:20 enviado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok 
 - 2026-10-21T14:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
 - 2026-10-21T14:20 enviado web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x 
@@ -75,3 +67,7 @@ Actualizado: 21/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-21T20:00 recibido entrevistas:job00236|x 
 - 2026-10-21T20:00 programado entrevistas:job00236|x 
 - 2026-10-21T20:20 enviado entrevistas:job00236|x 
+- 2026-10-21T21:00 vencido bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-21T21:00 programado bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok 
+- 2026-10-21T21:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tikto 
+- 2026-10-21T21:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tikto 

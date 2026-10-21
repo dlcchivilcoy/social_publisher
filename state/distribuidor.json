@@ -13370,17 +13370,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 189,
-   "segundos": 12006,
+   "restantes": 188,
+   "segundos": 9603,
    "tope": 250
   },
   "30d": {
-   "restantes": 2274,
-   "segundos": 1731023,
+   "restantes": 2273,
+   "segundos": 1728620,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T20:20:17.000Z",
+ "cuota_visto": "2026-10-21T21:00:23.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15628,7 +15628,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -15822,7 +15822,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -15880,15 +15880,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok": {
-   "actualizado": "2026-10-21T00:00:28.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T21:00:19.000Z",
+   "buffer_id": "6ad927e6e7a121c462def57d",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
    "creado": "2026-10-21T00:00:28.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T21:43:40.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T23:44:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
    "intentos": 0,
@@ -15945,15 +15945,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok": {
-   "actualizado": "2026-10-21T00:00:28.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T21:00:19.000Z",
+   "buffer_id": "6ad927e5498426ee6906dde7",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
    "creado": "2026-10-21T00:00:28.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T21:23:18.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T23:52:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
    "intentos": 0,
@@ -17344,14 +17344,14 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f9ee75a83eee9237.mp4"
   },
   "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T21:00:21.000Z",
+   "actualizado": "2026-10-21T21:00:19.000Z",
    "buffer_id": "",
    "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok",
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-19T20:44:10.000Z",
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
    "intentos": 0,
@@ -17411,7 +17411,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -17474,7 +17474,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -17818,15 +17818,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok": {
-   "actualizado": "2026-10-21T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T21:00:19.000Z",
+   "buffer_id": "6ad927e54989bea5baf5b48b",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok",
    "creado": "2026-10-21T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T21:03:20.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-21T00:21:37.000Z",
    "id": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4",
    "intentos": 0,
@@ -37344,32 +37344,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad5dc584eb85d76d18ff4e0",
-   "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
-   "cuando": "2026-10-19T09:01:12.000Z",
-   "dueAt": "2026-10-19T14:15:23.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5dc58ea56886c47177788",
-   "clave": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x",
-   "cuando": "2026-10-19T09:01:12.000Z",
-   "dueAt": "2026-10-19T14:30:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:b6108526eb42ff8a|tiktok",
-   "cuando": "2026-10-19T09:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "nacionales:fbd1321e4156d9c7|tiktok",
-   "cuando": "2026-10-19T09:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
    "clave": "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x",
    "cuando": "2026-10-19T10:20:20.000Z",
    "estado": "pendiente",
@@ -41440,6 +41414,33 @@
    "cuando": "2026-10-21T20:20:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112997985634173024"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok",
+   "cuando": "2026-10-21T21:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ad927e54989bea5baf5b48b",
+   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok",
+   "cuando": "2026-10-21T21:00:23.000Z",
+   "dueAt": "2026-10-21T21:03:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad927e5498426ee6906dde7",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
+   "cuando": "2026-10-21T21:00:23.000Z",
+   "dueAt": "2026-10-21T21:23:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad927e6e7a121c462def57d",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
+   "cuando": "2026-10-21T21:00:23.000Z",
+   "dueAt": "2026-10-21T21:43:40.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41449,7 +41450,8 @@
    "2026-10-20 10",
    "2026-10-20 18",
    "2026-10-20 21",
-   "2026-10-21 10"
+   "2026-10-21 10",
+   "2026-10-21 18"
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
