@@ -3018,6 +3018,33 @@
    "volanta": "Temporal en España",
    "youtube_url": "https://youtube.com/shorts/shPnmQNh93M"
   },
+  "nacionales:64c61b88e47d5daf": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "El organismo previsional continúa este miércoles con el cronograma de haberes. Conocé los montos actualizados, los bonos vigentes y qué documentos perciben el beneficio hoy.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T21:45:56.000Z",
+   "hashtags": [
+    "ANSES",
+    "Jubilados"
+   ],
+   "id": "nacionales:64c61b88e47d5daf",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-miercoles-21-de-octubre-de-2026-y-64c61b",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "ANSES: quiénes cobran este miércoles 21 de octubre de 2026",
+   "urgente": false,
+   "video_bytes": 115871,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_64c61b88e4_anses-quienes-cobran-este-miercoles-21-de-octubre.mp4",
+   "volanta": "ANSES",
+   "youtube_url": "https://youtube.com/shorts/rZqwQP-t_4I"
+  },
   "nacionales:677e9def2f7175b0": {
    "categoria": "Virales",
    "categoria_nacional": "virales",
@@ -20052,6 +20079,60 @@
    "vence": "2026-10-20T16:15:15.000Z",
    "video_bytes": 1741538,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_632442afcb_espana-cuatro-muertos-y-mas-de-800-000-confinados.mp4"
+  },
+  "nacionales:64c61b88e47d5daf|tiktok": {
+   "actualizado": "2026-10-21T22:00:22.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:64c61b88e47d5daf|tiktok",
+   "creado": "2026-10-21T22:00:22.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-21T21:45:56.000Z",
+   "id": "nacionales:64c61b88e47d5daf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-miercoles-21-de-octubre-de-2026-y-64c61b",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "ANSES: quiénes cobran este miércoles 21 de octubre de 2026\n\nEl organismo previsional continúa este miércoles con el cronograma de haberes. Conocé los montos actualizados, los bonos vigentes y qué documentos perciben el beneficio hoy.\n\nhttps://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-miercoles-21-de-octubre-de-2026-y-64c61b\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #ANSES",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ANSES: quiénes cobran este miércoles 21 de octubre de 2026",
+   "urgente": false,
+   "vence": "2026-10-22T15:45:56.000Z",
+   "video_bytes": 115871,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_64c61b88e4_anses-quienes-cobran-este-miercoles-21-de-octubre.mp4",
+   "viral": false
+  },
+  "nacionales:64c61b88e47d5daf|x": {
+   "actualizado": "2026-10-21T22:00:22.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:64c61b88e47d5daf|x",
+   "creado": "2026-10-21T22:00:22.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-21T21:45:56.000Z",
+   "id": "nacionales:64c61b88e47d5daf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-miercoles-21-de-octubre-de-2026-y-64c61b",
+   "noticia": "nota:anses-quienes-cobran-este-miercoles-21-de-octubre-de-2026-y-64c61b",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "ANSES: quiénes cobran este miércoles 21 de octubre de 2026\n\nEl organismo previsional continúa este miércoles con el cronograma de haberes. Conocé los montos actualizados, los bonos vigentes y qué documentos perciben el beneficio hoy.\n\nhttps://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-miercoles-21-de-octubre-de-2026-y-64c61b",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ANSES: quiénes cobran este miércoles 21 de octubre de 2026",
+   "urgente": false,
+   "vence": "2026-10-21T23:45:56.000Z",
+   "video_bytes": 115871,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_64c61b88e4_anses-quienes-cobran-este-miercoles-21-de-octubre.mp4",
+   "viral": false
   },
   "nacionales:677e9def2f7175b0|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
@@ -37426,38 +37507,6 @@
  },
  "registro": [
   {
-   "clave": "web:9627f721-ec60-4caa-8de1-29648f987444|x",
-   "cuando": "2026-10-19T10:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe|x",
-   "cuando": "2026-10-19T10:20:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x",
-   "cuando": "2026-10-19T10:20:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x",
-   "cuando": "2026-10-19T10:20:43.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
    "cuando": "2026-10-19T10:20:53.000Z",
    "estado": "pendiente",
@@ -41517,6 +41566,34 @@
    "cuando": "2026-10-21T21:20:24.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7699229723469073671"
+  },
+  {
+   "clave": "nacionales:64c61b88e47d5daf|x",
+   "cuando": "2026-10-21T22:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:64c61b88e47d5daf|tiktok",
+   "cuando": "2026-10-21T22:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:64c61b88e47d5daf|x",
+   "cuando": "2026-10-21T22:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:64c61b88e47d5daf|tiktok",
+   "cuando": "2026-10-21T22:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -41671,6 +41748,7 @@
   "nacionales:588268bbf306f395": "2026-10-19T15:20:16.000Z",
   "nacionales:605a06264731bcec": "2026-10-19T00:20:16.000Z",
   "nacionales:632442afcb23e9fb": "2026-10-19T23:20:14.000Z",
+  "nacionales:64c61b88e47d5daf": "2026-10-21T22:00:22.000Z",
   "nacionales:677e9def2f7175b0": "2026-10-19T15:00:20.000Z",
   "nacionales:6b05c0de5e77c089": "2026-10-19T23:20:14.000Z",
   "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
