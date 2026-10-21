@@ -3202,6 +3202,33 @@
    "volanta": "Corrupción en ARSAT",
    "youtube_url": "https://youtube.com/shorts/5Z1d0K-w85w"
   },
+  "nacionales:780212f6b8352df4": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "La entidad financiera ofrece financiamiento indexado en UVA para adquirir viviendas industrializadas mediante canales digitales, con plazos de hasta 96 cuotas mensuales.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T22:46:27.000Z",
+   "hashtags": [
+    "BancoProvinia",
+    "Viviendas"
+   ],
+   "id": "nacionales:780212f6b8352df4",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-provincia-como-son-los-prestamos-para-comprar-casas-780212",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Banco Provincia lanzó préstamos de hasta 50 millones para casas prefabricadas",
+   "urgente": false,
+   "video_bytes": 93720,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_780212f6b8_banco-provincia-lanzo-prestamos-de-hasta-50.mp4",
+   "volanta": "Créditos hipotecarios",
+   "youtube_url": "https://youtube.com/shorts/EbdFuZNpCqU"
+  },
   "nacionales:78b5fd65bc73d6c5": {
    "categoria": "Deportes",
    "categoria_nacional": "deportes",
@@ -20341,6 +20368,60 @@
    "vence": "2026-10-19T14:07:27.000Z",
    "video_bytes": 77035,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_76f6781e95_procesaron-al-exjefe-de-arsat-y-le-hallaron-2-6.mp4"
+  },
+  "nacionales:780212f6b8352df4|tiktok": {
+   "actualizado": "2026-10-21T23:00:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:780212f6b8352df4|tiktok",
+   "creado": "2026-10-21T23:00:16.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-21T22:46:27.000Z",
+   "id": "nacionales:780212f6b8352df4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-provincia-como-son-los-prestamos-para-comprar-casas-780212",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Banco Provincia lanzó préstamos de hasta 50 millones para casas prefabricadas\n\nLa entidad financiera ofrece financiamiento indexado en UVA para adquirir viviendas industrializadas mediante canales digitales, con plazos de hasta 96 cuotas mensuales.\n\nhttps://www.diariolacampaña.com.ar/n/banco-provincia-como-son-los-prestamos-para-comprar-casas-780212\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #BancoProvinia",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Banco Provincia lanzó préstamos de hasta 50 millones para casas prefabricadas",
+   "urgente": false,
+   "vence": "2026-10-22T16:46:27.000Z",
+   "video_bytes": 93720,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_780212f6b8_banco-provincia-lanzo-prestamos-de-hasta-50.mp4",
+   "viral": false
+  },
+  "nacionales:780212f6b8352df4|x": {
+   "actualizado": "2026-10-21T23:00:17.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:780212f6b8352df4|x",
+   "creado": "2026-10-21T23:00:16.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-21T22:46:27.000Z",
+   "id": "nacionales:780212f6b8352df4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-provincia-como-son-los-prestamos-para-comprar-casas-780212",
+   "noticia": "nota:banco-provincia-como-son-los-prestamos-para-comprar-casas-780212",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Banco Provincia lanzó préstamos de hasta 50 millones para casas prefabricadas\n\nLa entidad financiera ofrece financiamiento indexado en UVA para adquirir viviendas industrializadas mediante canales digitales, con plazos de hasta 96 cuotas mensuales.\n\nhttps://www.diariolacampaña.com.ar/n/banco-provincia-como-son-los-prestamos-para-comprar-casas-780212",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Banco Provincia lanzó préstamos de hasta 50 millones para casas prefabricadas",
+   "urgente": false,
+   "vence": "2026-10-22T00:46:27.000Z",
+   "video_bytes": 93720,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_780212f6b8_banco-provincia-lanzo-prestamos-de-hasta-50.mp4",
+   "viral": false
   },
   "nacionales:78b5fd65bc73d6c5|tiktok": {
    "actualizado": "2026-10-19T13:40:23.000Z",
@@ -37502,32 +37583,6 @@
  },
  "registro": [
   {
-   "clave": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x",
-   "cuando": "2026-10-19T10:21:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:b010138b1fbfe036|tiktok",
-   "cuando": "2026-10-19T10:21:31.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|x",
-   "cuando": "2026-10-19T10:21:32.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112125567256412525"
-  },
-  {
-   "clave": "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc|x",
-   "cuando": "2026-10-19T10:21:32.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112122278859186546"
-  },
-  {
    "buffer_id": "6ad5ef2c784342f6387601a1",
    "clave": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x",
    "cuando": "2026-10-19T10:21:33.000Z",
@@ -41581,6 +41636,34 @@
    "cuando": "2026-10-21T22:40:14.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7699234822467636500"
+  },
+  {
+   "clave": "nacionales:780212f6b8352df4|x",
+   "cuando": "2026-10-21T23:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:780212f6b8352df4|tiktok",
+   "cuando": "2026-10-21T23:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:780212f6b8352df4|x",
+   "cuando": "2026-10-21T23:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:780212f6b8352df4|tiktok",
+   "cuando": "2026-10-21T23:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -41742,6 +41825,7 @@
   "nacionales:7473fc970bead57a": "2026-10-20T02:00:19.000Z",
   "nacionales:7570d6c409614369": "2026-10-19T00:20:16.000Z",
   "nacionales:76f6781e9594def9": "2026-10-18T20:20:13.000Z",
+  "nacionales:780212f6b8352df4": "2026-10-21T23:00:16.000Z",
   "nacionales:78b5fd65bc73d6c5": "2026-10-18T20:20:13.000Z",
   "nacionales:82015de779d2e56d": "2026-10-18T20:20:13.000Z",
   "nacionales:883bc6cd67a29d7e": "2026-10-19T02:40:14.000Z",

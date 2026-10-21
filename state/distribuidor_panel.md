@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 21/10/2026 19:40 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 2 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
-| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 4 |
 
 ## Canales
 - X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
@@ -46,10 +46,6 @@ Actualizado: 21/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T18:40 programado entrevistas:job00238|x 
-- 2026-10-21T19:20 enviado entrevistas:job00238|x 
-- 2026-10-21T20:00 entrevista_aprobada entrevistas:job00236 
-- 2026-10-21T20:00 recibido entrevistas:job00236|x 
 - 2026-10-21T20:00 programado entrevistas:job00236|x 
 - 2026-10-21T20:20 enviado entrevistas:job00236|x 
 - 2026-10-21T21:00 vencido bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -71,3 +67,7 @@ Actualizado: 21/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-21T22:20 depurado nacionales:a7e42407f5ea13c5|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
 - 2026-10-21T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tikto 
 - 2026-10-21T22:40 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tikto 
+- 2026-10-21T23:00 recibido nacionales:780212f6b8352df4|x 
+- 2026-10-21T23:00 recibido nacionales:780212f6b8352df4|tiktok 
+- 2026-10-21T23:00 depurado nacionales:780212f6b8352df4|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-21T23:00 depurado nacionales:780212f6b8352df4|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
