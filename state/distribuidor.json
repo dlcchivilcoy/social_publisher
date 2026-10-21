@@ -2629,6 +2629,33 @@
    "volanta": "Crisis en Francia",
    "youtube_url": "https://youtube.com/shorts/R7pntb77Yzc"
   },
+  "nacionales:4ce13bf44cf7dbc5": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "Cristian Girard cuestionó al Ejecutivo nacional por retener avales para créditos internacionales destinados a la provincia. Aseguró que la administración de Axel Kicillof sufre asfixia financiera y advirtió una fuerte caída en la actividad económica.",
+   "duracion_seg": 905.1,
+   "generado": "2026-10-21T00:48:22.000Z",
+   "hashtags": [
+    "Economia",
+    "ARBA"
+   ],
+   "id": "nacionales:4ce13bf44cf7dbc5",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arba-acusa-a-luis-caputo-de-bloquear-creditos-internacionales-4ce13b",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ARBA acusa a la Nación de bloquear fondos para obras clave contra inundaciones",
+   "urgente": false,
+   "video_bytes": 29378793,
+   "video_mb": 28.0,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4ce13bf44c_arba-acusa-a-la-nacion-de-bloquear-fondos-para.mp4",
+   "volanta": "Financiamiento bonaerense",
+   "youtube_url": ""
+  },
   "nacionales:4d4c5be14febf1aa": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -18877,6 +18904,56 @@
    "vence": "2026-10-20T06:51:18.000Z",
    "video_bytes": 98862,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_43c8370253_toques-de-queda-localizados-en-francia-tras.mp4"
+  },
+  "nacionales:4ce13bf44cf7dbc5|tiktok": {
+   "actualizado": "2026-10-21T01:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:4ce13bf44cf7dbc5|tiktok",
+   "creado": "2026-10-21T01:00:18.000Z",
+   "dueAt": "",
+   "error": "dura 905 s (TikTok: 3-600 s)",
+   "estado": "descartado",
+   "generado": "2026-10-21T00:48:22.000Z",
+   "id": "nacionales:4ce13bf44cf7dbc5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arba-acusa-a-luis-caputo-de-bloquear-creditos-internacionales-4ce13b",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ARBA acusa a la Nación de bloquear fondos para obras clave contra inundaciones",
+   "urgente": false,
+   "vence": "2026-10-21T18:48:22.000Z",
+   "video_bytes": 29378793,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4ce13bf44c_arba-acusa-a-la-nacion-de-bloquear-fondos-para.mp4",
+   "viral": false
+  },
+  "nacionales:4ce13bf44cf7dbc5|x": {
+   "actualizado": "2026-10-21T01:00:18.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:4ce13bf44cf7dbc5|x",
+   "creado": "2026-10-21T01:00:18.000Z",
+   "dueAt": "",
+   "error": "dura 905 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-21T00:48:22.000Z",
+   "id": "nacionales:4ce13bf44cf7dbc5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arba-acusa-a-luis-caputo-de-bloquear-creditos-internacionales-4ce13b",
+   "noticia": "nota:arba-acusa-a-luis-caputo-de-bloquear-creditos-internacionales-4ce13b",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ARBA acusa a la Nación de bloquear fondos para obras clave contra inundaciones",
+   "urgente": false,
+   "vence": "2026-10-21T02:48:22.000Z",
+   "video_bytes": 29378793,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4ce13bf44c_arba-acusa-a-la-nacion-de-bloquear-fondos-para.mp4",
+   "viral": false
   },
   "nacionales:4d4c5be14febf1aa|tiktok": {
    "actualizado": "2026-10-19T12:20:15.000Z",
@@ -35831,22 +35908,6 @@
  },
  "registro": [
   {
-   "clave": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x",
-   "cuando": "2026-10-18T22:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x",
-   "cuando": "2026-10-18T22:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x",
    "cuando": "2026-10-18T22:40:15.000Z",
    "estado": "pendiente",
@@ -39999,6 +40060,22 @@
    "cuando": "2026-10-21T00:40:27.000Z",
    "dueAt": "2026-10-21T00:53:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:4ce13bf44cf7dbc5|x",
+   "cuando": "2026-10-21T01:00:18.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 905 s y X admite 140 s sin suscripción",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:4ce13bf44cf7dbc5|tiktok",
+   "cuando": "2026-10-21T01:00:18.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 905 s (TikTok: 3-600 s)",
+   "origen": "nacionales"
   }
  ],
  "tandas": {
@@ -40135,6 +40212,7 @@
   "nacionales:42bad0f0b5785838": "2026-10-20T00:20:16.000Z",
   "nacionales:4399eb58559e6a51": "2026-10-20T01:20:14.000Z",
   "nacionales:43c837025338a70a": "2026-10-19T15:20:16.000Z",
+  "nacionales:4ce13bf44cf7dbc5": "2026-10-21T01:00:18.000Z",
   "nacionales:4d4c5be14febf1aa": "2026-10-18T20:20:13.000Z",
   "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
   "nacionales:509780bc5420f2f5": "2026-10-19T02:40:14.000Z",

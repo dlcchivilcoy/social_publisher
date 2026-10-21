@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 20/10/2026 21:40 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 1 | 2 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 1 | 2 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 8 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 4 |
-| Nacionales y categorías | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 3 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 5 |
+| Nacionales y categorías | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 4 |
 
 ## Canales
 - X: conectado · Buffer: 33 enviadas + 0 programadas de 100 por día
@@ -53,8 +53,6 @@ Actualizado: 20/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T00:00 recibido web:b4a12021-9279-4b86-9d0b-ae839890e171|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-21T00:00 recibido web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-21T00:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
 - 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
 - 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
@@ -78,3 +76,5 @@ Actualizado: 20/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-21T00:40 programado bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x 
 - 2026-10-21T00:40 programado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
 - 2026-10-21T00:40 programado policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
+- 2026-10-21T01:00 recibido nacionales:4ce13bf44cf7dbc5|x dura 905 s y X admite 140 s sin suscripción
+- 2026-10-21T01:00 recibido nacionales:4ce13bf44cf7dbc5|tiktok dura 905 s (TikTok: 3-600 s)
