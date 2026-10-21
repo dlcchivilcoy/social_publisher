@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 9
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-21T02:40:13.000Z"
+   "visto": "2026-10-21T10:20:57.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 34
+    "scheduled": 1,
+    "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-21T02:40:13.000Z"
+   "visto": "2026-10-21T10:20:57.000Z"
   }
  },
  "contenidos": {
@@ -6774,6 +6774,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
    "volanta": "Roque Pérez · Deportes"
   },
+  "web:037db3cf-2837-40cd-af9c-c0b367f30802": {
+   "categoria": "",
+   "descripcion": "Evoluciona favorablemente Héctor Matucheski y podría recibir el alta en los próximos días El albertino de 54 años salió de terapia intensiva y fue trasladado a una sala común del Hospital Blas Dubarry de Mercedes. Mientras tanto, la Justicia avanza en las pericias para esclarecer las circunstancias del choque fatal que se cobra una vida e involucra una causa por violencia de género. En medio del dolor y la conmoción tras el trágico siniestro vial ocurrido en la Ruta Nacional 5, se conoció una...",
+   "generado": "2026-10-21T10:02:27.711Z",
+   "id": "web:037db3cf-2837-40cd-af9c-c0b367f30802",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8b1d05c8b96f42b8a23d366caeb14eaa~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Evoluciona favorablemente Héctor Matucheski y podría recibir el alta en los próximos días",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
+   "volanta": "Tragedia en la Ruta 5"
+  },
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": {
    "categoria": "nacionales",
    "descripcion": "Darío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. El anterior jefe, Leandro Paredes, sigue…",
@@ -6973,6 +6992,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-el-gobernador-bonaerense-en-la-inauguracion-de-los",
    "volanta": "Final Provincial"
+  },
+  "web:0ae2afb6-52d2-4336-b9c9-318dc164617e": {
+   "categoria": "",
+   "descripcion": "Presentan el proyecto “La UNLu corre por la inclusión”: la iniciativa que busca derribar barreras en las carreras de calle Con el objetivo de fomentar la integración y derribar barreras a través del deporte, se llevó a cabo la presentación oficial del proyecto “La UNLu corre por la inclusión”. La iniciativa se sumará a la 21ª edición de la tradicional Media Maratón Eduardo Pollaroli, que se realizará el próximo 1 de noviembre en las calles de Chivilcoy.   El proyecto contempla la...",
+   "generado": "2026-10-21T10:02:52.608Z",
+   "id": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9ff45d4b00f245539056967ab88ad59f~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Presentan el proyecto “La UNLu corre por la inclusión”: la iniciativa que busca derribar barreras en las carreras de calle",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
+   "volanta": "Atletismo"
   },
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f": {
    "categoria": "",
@@ -8040,6 +8078,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/salud-mental-remarcaron-el-valor-estrategico-de-la-incorporacion-del",
    "volanta": "Salud Mental"
   },
+  "web:3759665f-fb36-4adc-8b4c-b317b209876b": {
+   "categoria": "",
+   "descripcion": "Jorge Giallorenzi presentará una edición especial de su publicación internacional de poesía haiku titulada “Terremotos” En el marco de las celebraciones por el aniversario de la fundación de la ciudad, el escritor y coleccionista Jorge Giallorenzi presentará en Chivilcoy una edición especial de su publicación internacional de poesía haiku titulada “Terremotos”. La propuesta literaria y artística tendrá lugar el venidero jueves 22 de octubre a las 19.30 horas en el salón de la planta baja de...",
+   "generado": "2026-10-21T10:02:22.121Z",
+   "id": "web:3759665f-fb36-4adc-8b4c-b317b209876b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_07f4bd95926e4ac9a1ec1f5e15aa9da9~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Jorge Giallorenzi presentará una edición especial de su publicación internacional de poesía haiku titulada “Terremotos”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
+   "volanta": "Haikus"
+  },
   "web:380cc711-312c-4089-9509-56feaafc5238": {
    "categoria": "nacionales",
    "descripcion": "Durante una reunión en el Vaticano con el arzobispo de San Juan, Jorge Eduardo Lozano, el Sumo Pontífice ratificó su gira prevista para noviembre.",
@@ -8203,6 +8260,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malvinas-reino-unido-anuncio-actos-para-2027-y-rechazo-la-c1646a",
    "volanta": ""
   },
+  "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": {
+   "categoria": "",
+   "descripcion": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata Benjamín Gómez conquistó la primera medalla de bronce en atletismo. En una jornada intensa, las disciplinas de conjunto y PCD lograron importantes victorias para el municipio. La delegación de la Municipalidad de Chivilcoy completó con éxito su primer día de competencia en la etapa final de los Juegos Bonaerenses 2026. En una jornada repleta de acción, emoción y espíritu deportivo, los deportistas y...",
+   "generado": "2026-10-21T10:02:34.422Z",
+   "id": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3cee55295dbf465ca4bf6c6fba9b9f32~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
+   "volanta": "Juegos Bonaerenses 2026"
+  },
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno oficializó la apertura de la nueva cárcel bonaerense. Ya reubican a los primeros detenidos en un operativo coordinado que busca vaciar el…",
@@ -8239,6 +8315,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-bahia-blanca-grito-campeon-en-el-provincial-u17-femenino-y",
    "volanta": "Básquet"
+  },
+  "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc": {
+   "categoria": "",
+   "descripcion": "Chivilcoy se prepara para celebrar su 172° aniversario con un variado cronograma de actividades Con la distinguida presencia de los Granaderos a Caballo, actos oficiales y un festival musical en el Monumento a los Fundadores, la ciudad vive una semana festiva en honor a sus raíces e historia. En el marco de la Semana de Aniversario de Chivilcoy, la comunidad comenzó a vivir los homenajes por el 172° aniversario de la fundación de la ciudad. Las actividades, impulsadas por la gestión municipal...",
+   "generado": "2026-10-21T10:02:12.076Z",
+   "id": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_335aa3fc83dc4d2c979b30a53411d660~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy se prepara para celebrar su 172° aniversario con un variado cronograma de actividades",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
+   "volanta": "Acto y festejo musical"
   },
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": {
    "categoria": "",
@@ -9744,6 +9839,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
    "volanta": "Colegios de Abogados"
   },
+  "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197": {
+   "categoria": "",
+   "descripcion": "“La verdad que es mucha disciplina, mucho deporte y tenemos mucha gente trabajando para tratar de que salga lo mejor posible” La delegación de Chivilcoy ya se encuentra plenamente instalada en Mar del Plata para disputar la final provincial de los Juegos Bonaerenses, certamen donde el distrito dice presente con un contingente integrado por 255 personas entre competidores, entrenadores, coordinadores y delegados de distintas áreas municipales. La comitiva local arribó para sumarse a una...",
+   "generado": "2026-10-21T10:02:47.271Z",
+   "id": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b49898905d4f448590b31cf2a57b0a4d~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "“La verdad que es mucha disciplina, mucho deporte y tenemos mucha gente trabajando para tratar de que salga lo mejor posible”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
+   "volanta": "Emilio Carabelli"
+  },
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": {
    "categoria": "nacionales",
    "descripcion": "El Ejecutivo nacional revocó la residencia permanente a José Rogério Rogerio Tomaz Jr. tras arribar a Aeroparque. Argumentaron falta de arraigo y…",
@@ -9961,6 +10075,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/interna-peronista-los-secretos-de-la-reunion-entre-cristina-d6dc41",
    "volanta": ""
+  },
+  "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": {
+   "categoria": "",
+   "descripcion": "Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque ante Porteño El pasado fin de semana, el equipo demostró una vez más su carácter al imponerse con contundencia frente a Argentino en Pergamino por 75 a 59, en lo que significó la sexta fecha del certamen. El juego colectivo y la efectividad en ataque fueron determinantes, destacándose las actuaciones de Francisco Luengo —goleador del encuentro con 21 puntos—, seguido por Erbel De Pietro (16), Stefano Denicio (15)...",
+   "generado": "2026-10-21T10:02:58.493Z",
+   "id": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b66b003f42934c72b0c29636a3d3f83c~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque ante Porteño",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
+   "volanta": "Básquet"
   },
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": {
    "categoria": "nacionales",
@@ -10578,6 +10711,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/carcel-de-devoto-como-sigue-el-operativo-de-traslado-de-presos-1c609b",
    "volanta": ""
+  },
+  "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada El operativo se llevó a cabo en un domicilio de la calle Ángel Peñaloza en el marco de una investigación iniciada en julio. Se incautaron 22 envoltorios de sustancia, celulares y una balanza de precisión. En horas de la tarde del pasado sábado 17 de octubre de 2026, personal de la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas (SDDITDI) Chivilcoy, bajo la dirección de...",
+   "generado": "2026-10-21T10:03:17.727Z",
+   "id": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8b5953cb4d9a41d58d385cc4c4b9fdf1~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
+   "volanta": "Drogas Ilícitas"
   },
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": {
    "categoria": "",
@@ -12966,6 +13118,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
    "volanta": "Chivilcoy · Política"
   },
+  "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7": {
+   "categoria": "",
+   "descripcion": "La Provincia aprobó la “Ley Ema” contra el acoso digital en las escuelas y reguló el uso de celulares en las aulas",
+   "generado": "2026-10-21T10:03:11.915Z",
+   "id": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_892393c8bc82412db03a192e52145abb~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-respaldo-la-normativa-la-provincia-aprobo-la-ley-ema-contra",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy respaldó la normativa",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-respaldo-la-normativa-la-provincia-aprobo-la-ley-ema-contra",
+   "volanta": ""
+  },
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": {
    "categoria": "nacionales",
    "descripcion": "Rogelio Frigerio e Ignacio Torres apoyaron quitar las primarias. Aseguraron que ir cinco veces a las urnas en 2027 es excesivo y destacaron el respaldo…",
@@ -13114,22 +13285,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 49079,
+   "restantes": 238,
+   "segundos": 47966,
    "tope": 250
   },
   "30d": {
-   "restantes": 2325,
-   "segundos": 1768097,
+   "restantes": 2323,
+   "segundos": 1766983,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T10:02:25.000Z",
+ "cuota_visto": "2026-10-21T10:20:58.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -27079,6 +27250,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:037db3cf-2837-40cd-af9c-c0b367f30802|x": {
+   "actualizado": "2026-10-21T10:20:57.000Z",
+   "buffer_id": "6ad8920aeeda5396835d94d0",
+   "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "2026-10-21T11:21:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T10:02:27.711Z",
+   "id": "web:037db3cf-2837-40cd-af9c-c0b367f30802",
+   "ig_hora": "2026-10-21T11:21:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
+   "noticia": "nota:tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Evoluciona favorablemente Héctor Matucheski y podría recibir el alta en los próximos días\n\nEl albertino de 54 años salió de terapia intensiva y fue trasladado a una sala común del Hospital Blas Dubarry de Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Evoluciona favorablemente Héctor Matucheski y podría recibir el alta en los próximos días",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:27.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x": {
    "actualizado": "2026-10-19T19:40:15.000Z",
    "buffer_id": "",
@@ -27380,6 +27580,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x": {
+   "actualizado": "2026-10-21T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-21T10:02:52.608Z",
+   "id": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e",
+   "ig_hora": "2026-10-21T12:06:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
+   "noticia": "nota:atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Presentan el proyecto “La UNLu corre por la inclusión”: la iniciativa que busca derribar barreras en las carreras de calle\n\nhttps://www.diariolacampaña.com.ar/n/atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Presentan el proyecto “La UNLu corre por la inclusión”: la iniciativa que busca derribar barreras en las carreras de calle",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:52.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x": {
    "actualizado": "2026-10-16T09:00:21.000Z",
    "buffer_id": "6ad13a304fd04e4eb3ad3ffb",
@@ -27459,19 +27688,20 @@
    "video_url": ""
   },
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x": {
-   "actualizado": "2026-10-21T10:02:23.000Z",
+   "actualizado": "2026-10-21T10:20:57.000Z",
    "buffer_id": "6ad88db07143aca6ab09c059",
    "clave": "web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x",
    "creado": "2026-10-21T10:02:08.000Z",
    "dueAt": "2026-10-21T10:06:49.000Z",
+   "enviado": "2026-10-21T10:07:02.334Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:01:47.402Z",
    "id": "web:126d1602-781f-4ba0-8fa9-63424a9f9e78",
    "ig_hora": "2026-10-21T10:06:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112848123085160807",
    "nota_url": "https://www.diariolacampaña.com.ar/n/modalidad-relampago-robaron-en-un-par-de-comercios-de-la-ciudad",
    "noticia": "nota:modalidad-relampago-robaron-en-un-par-de-comercios-de-la-ciudad",
    "origen": "web",
@@ -28997,6 +29227,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3759665f-fb36-4adc-8b4c-b317b209876b|x": {
+   "actualizado": "2026-10-21T10:20:57.000Z",
+   "buffer_id": "6ad8920aeeda5396835d94a7",
+   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "2026-10-21T11:06:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T10:02:22.121Z",
+   "id": "web:3759665f-fb36-4adc-8b4c-b317b209876b",
+   "ig_hora": "2026-10-21T11:06:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
+   "noticia": "nota:haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Jorge Giallorenzi presentará una edición especial de su publicación internacional de poesía haiku titulada “Terremotos”\n\nEl evento será en Chivilcoy por el aniversario de la fundación de la ciudad. Tendrá lugar el jueves 22 de octubre a las 19.30 horas.\n\nhttps://www.diariolacampaña.com.ar/n/haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Jorge Giallorenzi presentará una edición especial de su publicación internacional de poesía haiku titulada “Terremotos”",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:22.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:380cc711-312c-4089-9509-56feaafc5238|x": {
    "actualizado": "2026-10-13T15:20:21.000Z",
    "buffer_id": "",
@@ -29234,6 +29493,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980|x": {
+   "actualizado": "2026-10-21T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "estado": "descartado",
+   "generado": "2026-10-21T10:02:34.422Z",
+   "id": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
+   "noticia": "nota:juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:34.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc|x": {
    "actualizado": "2026-10-14T12:20:17.000Z",
    "buffer_id": "",
@@ -29283,6 +29567,35 @@
    "titulo": "Bahía Blanca gritó campeón en el Provincial U17 femenino y Chivilcoy finalizó en el cuarto puesto",
    "urgente": false,
    "vence": "2026-10-20T14:02:04.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x": {
+   "actualizado": "2026-10-21T10:20:57.000Z",
+   "buffer_id": "6ad89209d803b33b75382fa6",
+   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "2026-10-21T10:51:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T10:02:12.076Z",
+   "id": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc",
+   "ig_hora": "2026-10-21T10:51:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
+   "noticia": "nota:acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy se prepara para celebrar su 172° aniversario con un variado cronograma de actividades\n\nLa ciudad vive una semana festiva con la presencia de Granaderos a Caballo, actos oficiales y un festival musical impulsados por la gestión municipal.\n\nhttps://www.diariolacampaña.com.ar/n/acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy se prepara para celebrar su 172° aniversario con un variado cronograma de actividades",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:12.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -31591,6 +31904,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x": {
+   "actualizado": "2026-10-21T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-21T10:02:47.271Z",
+   "id": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197",
+   "ig_hora": "2026-10-21T11:51:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
+   "noticia": "nota:emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "“La verdad que es mucha disciplina, mucho deporte y tenemos mucha gente trabajando para tratar de que salga lo mejor posible”\n\nhttps://www.diariolacampaña.com.ar/n/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "“La verdad que es mucha disciplina, mucho deporte y tenemos mucha gente trabajando para tratar de que salga lo mejor posible”",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:47.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90|x": {
    "actualizado": "2026-10-13T18:20:17.000Z",
    "buffer_id": "",
@@ -31936,6 +32278,35 @@
    "vence": "2026-10-20T13:50:09.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x": {
+   "actualizado": "2026-10-21T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-21T10:02:58.493Z",
+   "id": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d",
+   "ig_hora": "2026-10-21T12:21:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
+   "noticia": "nota:basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque ante Porteño\n\nEl equipo se impuso con contundencia frente a Argentino en Pergamino por 75 a 59. Francisco Luengo fue el goleador del encuentro con 21 puntos.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque ante Porteño",
+   "urgente": false,
+   "vence": "2026-10-21T14:02:58.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866|x": {
    "actualizado": "2026-10-16T21:20:15.000Z",
@@ -32880,6 +33251,35 @@
    "vence": "2026-10-13T12:11:43.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x": {
+   "actualizado": "2026-10-21T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-21T10:03:17.727Z",
+   "id": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce",
+   "ig_hora": "2026-10-21T13:06:57.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
+   "noticia": "nota:drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada\n\nIncautaron 22 envoltorios de sustancia, celulares y una balanza de precisión. El operativo se realizó tras una investigación.\n\nhttps://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada",
+   "urgente": false,
+   "vence": "2026-10-21T14:06:57.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x": {
    "actualizado": "2026-10-13T13:40:22.000Z",
@@ -36477,6 +36877,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x": {
+   "actualizado": "2026-10-21T10:20:57.000Z",
+   "buffer_id": "6ad8920a7bfd13c0fd92c218",
+   "clave": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x",
+   "creado": "2026-10-21T10:20:15.000Z",
+   "dueAt": "2026-10-21T11:36:48.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T10:03:11.915Z",
+   "id": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-respaldo-la-normativa-la-provincia-aprobo-la-ley-ema-contra",
+   "noticia": "nota:chivilcoy-respaldo-la-normativa-la-provincia-aprobo-la-ley-ema-contra",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy respaldó la normativa\n\nLa Provincia aprobó la Ley Ema contra el acoso digital en las escuelas. Además, reguló el uso de celulares en las aulas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-respaldo-la-normativa-la-provincia-aprobo-la-ley-ema-contra",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy respaldó la normativa",
+   "urgente": false,
+   "vence": "2026-10-21T14:03:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e|x": {
    "actualizado": "2026-10-11T23:20:15.000Z",
    "buffer_id": "6acc066fa9411fbcc55decb5",
@@ -36707,118 +37135,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:eb29261c90f4bdfa|tiktok",
-   "cuando": "2026-10-19T00:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:ef9d9f6be8029c31|tiktok",
-   "cuando": "2026-10-19T00:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:897bae57805e193b|tiktok",
-   "cuando": "2026-10-19T00:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:dad7423e-f855-41dd-8505-49e56691870b|x",
-   "cuando": "2026-10-19T00:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:593361c2-110f-4e68-b565-1c86df54fffe|x",
-   "cuando": "2026-10-19T00:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|x",
-   "cuando": "2026-10-19T01:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok",
-   "cuando": "2026-10-19T01:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc|x",
-   "cuando": "2026-10-19T01:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a|x",
-   "cuando": "2026-10-19T01:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
-   "cuando": "2026-10-19T01:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:594e84e0-bc01-4c60-a132-6a7f872182e0|x",
-   "cuando": "2026-10-19T01:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:82d9c768-a466-49ff-882d-09e27a21796f|x",
-   "cuando": "2026-10-19T01:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x",
-   "cuando": "2026-10-19T02:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:010e4114-35e9-438d-8057-51285ef42a56|x",
-   "cuando": "2026-10-19T02:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x",
    "cuando": "2026-10-19T02:20:19.000Z",
@@ -40859,6 +41175,112 @@
    "cuando": "2026-10-21T10:02:25.000Z",
    "dueAt": "2026-10-21T10:36:09.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
+   "cuando": "2026-10-21T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x",
+   "cuando": "2026-10-21T10:20:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
+   "cuando": "2026-10-21T10:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x",
+   "cuando": "2026-10-21T10:20:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x",
+   "cuando": "2026-10-21T10:20:43.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980|x",
+   "cuando": "2026-10-21T10:20:43.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
+   "cuando": "2026-10-21T10:20:53.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
+   "cuando": "2026-10-21T10:20:55.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
+   "cuando": "2026-10-21T10:20:57.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x",
+   "cuando": "2026-10-21T10:20:57.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112848123085160807"
+  },
+  {
+   "buffer_id": "6ad89209d803b33b75382fa6",
+   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
+   "cuando": "2026-10-21T10:20:58.000Z",
+   "dueAt": "2026-10-21T10:51:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad8920aeeda5396835d94a7",
+   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
+   "cuando": "2026-10-21T10:20:58.000Z",
+   "dueAt": "2026-10-21T11:06:39.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad8920aeeda5396835d94d0",
+   "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
+   "cuando": "2026-10-21T10:20:58.000Z",
+   "dueAt": "2026-10-21T11:21:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad8920a7bfd13c0fd92c218",
+   "clave": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x",
+   "cuando": "2026-10-21T10:20:58.000Z",
+   "dueAt": "2026-10-21T11:36:48.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40871,7 +41293,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T02:40:13.000Z",
+ "ultima_sync": "2026-10-21T10:20:57.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -41163,6 +41585,7 @@
   "web:010e4114-35e9-438d-8057-51285ef42a56": "2026-10-19T02:20:15.000Z",
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
+  "web:037db3cf-2837-40cd-af9c-c0b367f30802": "2026-10-21T10:20:15.000Z",
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": "2026-10-18T19:40:15.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
@@ -41174,6 +41597,7 @@
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
   "web:0ad113d1-0797-400e-8161-494cc3be7804": "2026-10-20T10:20:14.000Z",
+  "web:0ae2afb6-52d2-4336-b9c9-318dc164617e": "2026-10-21T10:20:15.000Z",
   "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f": "2026-10-15T20:20:15.000Z",
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": "2026-10-15T10:20:13.000Z",
@@ -41233,6 +41657,7 @@
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",
   "web:36f35444-e990-4d78-aeea-920acd95d869": "2026-10-17T15:20:13.000Z",
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
+  "web:3759665f-fb36-4adc-8b4c-b317b209876b": "2026-10-21T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:38a2facb-610c-48c3-ba78-33049770dfcf": "2026-10-17T18:20:13.000Z",
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
@@ -41243,8 +41668,10 @@
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
+  "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": "2026-10-21T10:20:15.000Z",
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
   "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": "2026-10-20T10:20:14.000Z",
+  "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc": "2026-10-21T10:20:15.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
   "web:4199d5d7-7749-42b5-a204-16844f3014eb": "2026-10-19T10:20:14.000Z",
   "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
@@ -41328,6 +41755,7 @@
   "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7": "2026-10-14T13:20:22.000Z",
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": "2026-10-19T09:00:17.000Z",
   "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": "2026-10-12T10:20:17.000Z",
+  "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197": "2026-10-21T10:20:15.000Z",
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
   "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": "2026-10-18T00:20:13.000Z",
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
@@ -41340,6 +41768,7 @@
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
   "web:85b0f263-df46-4783-b4dd-311f977e50c9": "2026-10-19T14:00:19.000Z",
+  "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": "2026-10-21T10:20:15.000Z",
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
   "web:8823bbc2-feae-46ef-8a92-a08165b6e26c": "2026-10-19T16:20:14.000Z",
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4": "2026-10-19T10:20:14.000Z",
@@ -41374,6 +41803,7 @@
   "web:992a0e03-d222-428d-b6f8-9d7b90cebe38": "2026-10-19T23:20:14.000Z",
   "web:99a98512-7ac4-4629-a1a6-eab0dc99a301": "2026-10-20T00:00:19.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
+  "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce": "2026-10-21T10:20:15.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": "2026-10-18T22:20:14.000Z",
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
@@ -41506,6 +41936,7 @@
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": "2026-10-18T22:00:19.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
+  "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7": "2026-10-21T10:20:15.000Z",
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc": "2026-10-19T14:20:14.000Z",
   "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5": "2026-10-19T15:00:20.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 07:02 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,13 +9,13 @@ Actualizado: 21/10/2026 07:02 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 3 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 4 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 34 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 33 enviadas + 1 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 16 con métricas · mediana vistas/impresiones 19 · likes 0
@@ -28,9 +28,13 @@ Actualizado: 21/10/2026 07:02 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2325 de 3000 (visto 2026-10-21T10:02:25.000Z)
+15m: quedan 98 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2323 de 3000 (visto 2026-10-21T10:20:58.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (17 esperando)
+- X · Notas web · Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaí — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Presentan el proyecto “La UNLu corre por la inclusión”: la iniciativa que busca  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · “La verdad que es mucha disciplina, mucho deporte y tenemos mucha gente trabajan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Presentaron el cronograma por el 172° aniversario de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,20 +59,6 @@ Actualizado: 21/10/2026 07:02 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T01:20 depurado nacionales:b164c7aa50445aed|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
-- 2026-10-21T01:20 depurado nacionales:b164c7aa50445aed|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
-- 2026-10-21T01:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
-- 2026-10-21T01:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
-- 2026-10-21T01:20 enviado bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x 
-- 2026-10-21T01:20 enviado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
-- 2026-10-21T01:20 enviado nacionales:fb8bbb9c2285b74b|tiktok 
-- 2026-10-21T01:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
-- 2026-10-21T01:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
-- 2026-10-21T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
-- 2026-10-21T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
-- 2026-10-21T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
-- 2026-10-21T02:20 recibido bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
-- 2026-10-21T02:20 recibido bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tikto 
 - 2026-10-21T02:20 recibido web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-21T02:20 programado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
 - 2026-10-21T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
@@ -80,3 +70,17 @@ Actualizado: 21/10/2026 07:02 (hora AR) · ACTIVO
 - 2026-10-21T10:02 programado web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x 
 - 2026-10-21T10:02 programado web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x 
 - 2026-10-21T10:02 programado web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x 
+- 2026-10-21T10:20 recibido web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x 
+- 2026-10-21T10:20 recibido web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x 
+- 2026-10-21T10:20 recibido web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x 
+- 2026-10-21T10:20 recibido web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x 
+- 2026-10-21T10:20 recibido web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x 
+- 2026-10-21T10:20 recibido web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980|x la misma noticia ya sale en X (Reels del bot, enviado)
+- 2026-10-21T10:20 recibido web:037db3cf-2837-40cd-af9c-c0b367f30802|x 
+- 2026-10-21T10:20 recibido web:3759665f-fb36-4adc-8b4c-b317b209876b|x 
+- 2026-10-21T10:20 recibido web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x 
+- 2026-10-21T10:20 enviado web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x 
+- 2026-10-21T10:20 programado web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x 
+- 2026-10-21T10:20 programado web:3759665f-fb36-4adc-8b4c-b317b209876b|x 
+- 2026-10-21T10:20 programado web:037db3cf-2837-40cd-af9c-c0b367f30802|x 
+- 2026-10-21T10:20 programado web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x 
