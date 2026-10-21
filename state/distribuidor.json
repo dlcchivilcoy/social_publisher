@@ -15,7 +15,7 @@
     "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-21T01:20:16.000Z"
+   "visto": "2026-10-21T02:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 34
    },
    "pausado": false,
-   "visto": "2026-10-21T01:20:16.000Z"
+   "visto": "2026-10-21T02:40:13.000Z"
   }
  },
  "contenidos": {
@@ -13062,17 +13062,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 76802,
+   "restantes": 241,
+   "segundos": 75610,
    "tope": 250
   },
   "30d": {
-   "restantes": 2327,
-   "segundos": 1795820,
+   "restantes": 2326,
+   "segundos": 1794627,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T02:20:22.000Z",
+ "cuota_visto": "2026-10-21T02:40:13.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15730,18 +15730,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x": {
-   "actualizado": "2026-10-21T02:20:20.000Z",
+   "actualizado": "2026-10-21T02:40:13.000Z",
    "buffer_id": "6ad82165db7d8198213edcde",
    "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
    "creado": "2026-10-21T02:20:14.000Z",
    "dueAt": "2026-10-21T02:22:23.000Z",
+   "enviado": "2026-10-21T02:22:38.524Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T02:10:14.000Z",
    "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112731253828952083",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
    "noticia": "nota:chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
    "origen": "bot",
@@ -24355,18 +24356,19 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x": {
-   "actualizado": "2026-10-21T02:20:20.000Z",
+   "actualizado": "2026-10-21T02:40:13.000Z",
    "buffer_id": "6ad821669fdbc474fbf7abc7",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
    "creado": "2026-10-21T01:40:14.000Z",
    "dueAt": "2026-10-21T02:28:45.000Z",
+   "enviado": "2026-10-21T02:28:48.374Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T01:31:08.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112732805364899974",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
    "noticia": "nota:chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
    "origen": "policiales",
@@ -36562,22 +36564,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:c557a454a9895504|tiktok",
-   "cuando": "2026-10-19T00:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:0ffb2e8d26094748|tiktok",
-   "cuando": "2026-10-19T00:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:c27183ebaf507280|tiktok",
    "cuando": "2026-10-19T00:20:17.000Z",
    "estado": "pendiente",
@@ -40720,6 +40706,18 @@
    "cuando": "2026-10-21T02:20:22.000Z",
    "dueAt": "2026-10-21T02:28:45.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
+   "cuando": "2026-10-21T02:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112731253828952083"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
+   "cuando": "2026-10-21T02:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112732805364899974"
   }
  ],
  "tandas": {
@@ -40732,7 +40730,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T01:20:16.000Z",
+ "ultima_sync": "2026-10-21T02:40:13.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
