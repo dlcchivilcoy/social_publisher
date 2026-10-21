@@ -934,6 +934,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
    "youtube_url": "https://www.youtube.com/shorts/IjtihqJpC6c"
   },
+  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": {
+   "descripcion": "La Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas y espectáculos.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-21T02:10:14.000Z",
+   "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
+   "urgente": false,
+   "video_bytes": 842913,
+   "video_mb": 0.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b552eeb93ecf83e0.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/tPRNG86WU0w"
+  },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
    "duracion_seg": 72.7,
@@ -10574,6 +10595,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
    "volanta": ""
   },
+  "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": {
+   "categoria": "",
+   "descripcion": "Presentaron el cronograma por el 172° aniversario de Chivilcoy La Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas, espectáculos musicales en vivo, teatro y eventos deportivos. Miércoles 21 de octubre: Vísperas y festival artístico Las actividades comenzarán a partir de las 18:00 con la...",
+   "generado": "2026-10-21T02:07:52.816Z",
+   "id": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_675a189a4709442489e18de0361f5fb9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "volanta": "Chivilcoy · Sociedad"
+  },
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": {
    "categoria": "nacionales",
    "descripcion": "Londres evalúa oponerse a la incorporación del país al tratado de libre comercio tras el reclamo judicial argentino por la explotación petrolera en la…",
@@ -13022,17 +13062,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 79201,
+   "restantes": 242,
+   "segundos": 76802,
    "tope": 250
   },
   "30d": {
-   "restantes": 2328,
-   "segundos": 1798218,
+   "restantes": 2327,
+   "segundos": 1795820,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T01:40:22.000Z",
+ "cuota_visto": "2026-10-21T02:20:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15659,6 +15699,62 @@
    "vence": "2026-10-21T01:52:29.000Z",
    "video_bytes": 627174,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok": {
+   "actualizado": "2026-10-21T02:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
+   "creado": "2026-10-21T02:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-21T02:10:14.000Z",
+   "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Presentaron el cronograma por el 172° aniversario de Chivilcoy\n\nLa Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas y espectáculos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-23T02:10:14.000Z",
+   "video_bytes": 842913,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b552eeb93ecf83e0.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x": {
+   "actualizado": "2026-10-21T02:20:20.000Z",
+   "buffer_id": "6ad82165db7d8198213edcde",
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
+   "creado": "2026-10-21T02:20:14.000Z",
+   "dueAt": "2026-10-21T02:22:23.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T02:10:14.000Z",
+   "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "noticia": "nota:chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Presentaron el cronograma por el 172° aniversario de Chivilcoy\n\nLa Municipalidad de Chivilcoy anunció los festejos por los 172 años de la ciudad del 21 al 25 de octubre de 2026. Habrá actos, arte y espectáculos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-21T04:10:14.000Z",
+   "video_bytes": 842913,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b552eeb93ecf83e0.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
@@ -24259,14 +24355,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x": {
-   "actualizado": "2026-10-21T01:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T02:20:20.000Z",
+   "buffer_id": "6ad821669fdbc474fbf7abc7",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
    "creado": "2026-10-21T01:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T02:28:45.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-21T01:31:08.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
    "intentos": 0,
@@ -32746,6 +32842,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x": {
+   "actualizado": "2026-10-21T02:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x",
+   "creado": "2026-10-21T02:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-21T02:07:52.816Z",
+   "id": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "noticia": "nota:chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-21T06:07:52.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x": {
    "actualizado": "2026-10-16T15:40:15.000Z",
    "buffer_id": "",
@@ -36440,42 +36561,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
-   "cuando": "2026-10-18T23:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x",
-   "cuando": "2026-10-18T23:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2e67d217-7a79-4046-8927-8123258e800c|x",
-   "cuando": "2026-10-19T00:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
-   "cuando": "2026-10-19T00:00:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111960219521618395"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x",
-   "cuando": "2026-10-19T00:00:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111956443586867708"
-  },
   {
    "clave": "nacionales:c557a454a9895504|tiktok",
    "cuando": "2026-10-19T00:20:16.000Z",
@@ -40597,6 +40682,44 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
+   "cuando": "2026-10-21T02:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
+   "cuando": "2026-10-21T02:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x",
+   "cuando": "2026-10-21T02:20:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad82165db7d8198213edcde",
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
+   "cuando": "2026-10-21T02:20:22.000Z",
+   "dueAt": "2026-10-21T02:22:23.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad821669fdbc474fbf7abc7",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
+   "cuando": "2026-10-21T02:20:22.000Z",
+   "dueAt": "2026-10-21T02:28:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40655,6 +40778,7 @@
   "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": "2026-10-20T21:20:16.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x": "2026-10-21T00:00:28.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095": "2026-10-21T00:00:28.000Z",
+  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": "2026-10-21T02:20:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -41112,6 +41236,7 @@
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": "2026-10-18T22:20:14.000Z",
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
+  "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": "2026-10-21T02:20:14.000Z",
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",

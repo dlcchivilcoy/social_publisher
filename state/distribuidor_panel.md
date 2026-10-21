@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 9 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 5 | 6 | 0 | 5 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 2 | 0 |
+| Reels del bot | X | 10 | 9 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 5 | 6 | 0 | 6 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 3 | 1 | 0 | 0 | 2 | 0 |
 | Reels policiales | TikTok | 5 | 1 | 0 | 3 | 0 | 2 | 0 |
-| Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 8 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 5 |
 
@@ -28,16 +28,16 @@ Actualizado: 20/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2328 de 3000 (visto 2026-10-21T01:40:22.000Z)
+15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2327 de 3000 (visto 2026-10-21T02:20:22.000Z)
 
 ## Cola propia (13 esperando)
+- TikTok · Reels del bot · Presentaron el cronograma por el 172° aniversario de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Fuego en un departamento del barrio Fonavi 2 movilizó a los bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,11 +55,6 @@ Actualizado: 20/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
-- 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok 
-- 2026-10-21T00:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
-- 2026-10-21T00:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
-- 2026-10-21T00:40 recibido web:d6abc04f-5ec6-4b07-8f51-5bccc93205ef|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-21T00:40 recibido web:ba897d31-ac41-4f84-8f0c-c7ed0f8e504d|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-21T00:40 programado bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x 
 - 2026-10-21T00:40 programado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
@@ -80,3 +75,8 @@ Actualizado: 20/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-21T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
 - 2026-10-21T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
 - 2026-10-21T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
+- 2026-10-21T02:20 recibido bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
+- 2026-10-21T02:20 recibido bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tikto 
+- 2026-10-21T02:20 recibido web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-21T02:20 programado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
+- 2026-10-21T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
