@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,14 +28,13 @@ Actualizado: 21/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 193 de 250 · 30d: quedan 2278 de 3000 (visto 2026-10-21T18:00:22.000Z)
+15m: quedan 99 de 100 · 24h: quedan 192 de 250 · 30d: quedan 2277 de 3000 (visto 2026-10-21T18:40:16.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (8 esperando)
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Fuego en un departamento del barrio Fonavi 2 movilizó a los bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,10 +50,6 @@ Actualizado: 21/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T11:40 enviado web:037db3cf-2837-40cd-af9c-c0b367f30802|x 
-- 2026-10-21T11:40 enviado web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x 
-- 2026-10-21T11:40 enviado web:3759665f-fb36-4adc-8b4c-b317b209876b|x 
-- 2026-10-21T11:40 enviado web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x 
 - 2026-10-21T11:40 enviado web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x 
 - 2026-10-21T11:40 programado web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x 
 - 2026-10-21T13:00 enviado web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x 
@@ -76,3 +71,7 @@ Actualizado: 21/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-21T17:40 programado entrevistas:job00237|x 
 - 2026-10-21T18:00 enviado entrevistas:job00237|x 
 - 2026-10-21T18:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-21T18:40 entrevista_aprobada entrevistas:job00238 
+- 2026-10-21T18:40 recibido entrevistas:job00238|x 
+- 2026-10-21T18:40 vencido policiales:https://www.bragadoinforma.com.ar/nota/31026/prin TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-21T18:40 programado entrevistas:job00238|x 
