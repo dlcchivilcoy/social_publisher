@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-21T21:20:24.000Z"
+   "visto": "2026-10-21T22:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-21T21:20:24.000Z"
+   "visto": "2026-10-21T22:40:14.000Z"
   }
  },
  "contenidos": {
@@ -13415,17 +13415,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 187,
-   "segundos": 8399,
+   "restantes": 186,
+   "segundos": 3609,
    "tope": 250
   },
   "30d": {
-   "restantes": 2272,
-   "segundos": 1727416,
+   "restantes": 2271,
+   "segundos": 1722626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T21:20:24.000Z",
+ "cuota_visto": "2026-10-21T22:40:14.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15925,19 +15925,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok": {
-   "actualizado": "2026-10-21T21:00:19.000Z",
+   "actualizado": "2026-10-21T22:40:14.000Z",
    "buffer_id": "6ad927e6e7a121c462def57d",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "2026-10-21T21:43:40.000Z",
+   "enviado": "2026-10-21T21:45:27.903Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T23:44:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699240044262870279",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15990,19 +15991,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok": {
-   "actualizado": "2026-10-21T21:00:19.000Z",
+   "actualizado": "2026-10-21T22:40:14.000Z",
    "buffer_id": "6ad927e5498426ee6906dde7",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "2026-10-21T21:23:18.000Z",
+   "enviado": "2026-10-21T21:24:12.821Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T23:52:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699234822467636500",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -37500,22 +37502,6 @@
  },
  "registro": [
   {
-   "clave": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x",
-   "cuando": "2026-10-19T10:21:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x",
-   "cuando": "2026-10-19T10:21:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x",
    "cuando": "2026-10-19T10:21:31.000Z",
    "estado": "pendiente",
@@ -41583,6 +41569,18 @@
    "cuando": "2026-10-21T22:20:17.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
+   "cuando": "2026-10-21T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699240044262870279"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
+   "cuando": "2026-10-21T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699234822467636500"
   }
  ],
  "tandas": {
@@ -41597,7 +41595,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T21:20:24.000Z",
+ "ultima_sync": "2026-10-21T22:40:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
