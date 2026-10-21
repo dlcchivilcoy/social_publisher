@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 6 | 4 | 0 | 0 | 1 |
+| Notas web | X | 15 | 1 | 8 | 2 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,13 +28,11 @@ Actualizado: 21/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2323 de 3000 (visto 2026-10-21T10:20:58.000Z)
+15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2322 de 3000 (visto 2026-10-21T10:40:16.000Z)
 
-## Cola propia (17 esperando)
+## Cola propia (15 esperando)
 - X · Notas web · Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaí — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Presentan el proyecto “La UNLu corre por la inclusión”: la iniciativa que busca  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · “La verdad que es mucha disciplina, mucho deporte y tenemos mucha gente trabajan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Presentaron el cronograma por el 172° aniversario de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -59,8 +57,6 @@ Actualizado: 21/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T02:20 recibido web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-21T02:20 programado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
 - 2026-10-21T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
 - 2026-10-21T02:40 enviado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
 - 2026-10-21T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
@@ -84,3 +80,5 @@ Actualizado: 21/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-21T10:20 programado web:3759665f-fb36-4adc-8b4c-b317b209876b|x 
 - 2026-10-21T10:20 programado web:037db3cf-2837-40cd-af9c-c0b367f30802|x 
 - 2026-10-21T10:20 programado web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x 
+- 2026-10-21T10:40 programado web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x 
+- 2026-10-21T10:40 programado web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x 
