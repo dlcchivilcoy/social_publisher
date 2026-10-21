@@ -15,7 +15,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-21T19:20:15.000Z"
+   "visto": "2026-10-21T20:20:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-21T19:20:15.000Z"
+   "visto": "2026-10-21T20:20:17.000Z"
   }
  },
  "contenidos": {
@@ -13370,17 +13370,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 190,
-   "segundos": 13204,
+   "restantes": 189,
+   "segundos": 12006,
    "tope": 250
   },
   "30d": {
-   "restantes": 2275,
-   "segundos": 1732221,
+   "restantes": 2274,
+   "segundos": 1731023,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T20:00:21.000Z",
+ "cuota_visto": "2026-10-21T20:20:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18983,18 +18983,19 @@
    "viral": false
   },
   "entrevistas:job00236|x": {
-   "actualizado": "2026-10-21T20:00:19.000Z",
+   "actualizado": "2026-10-21T20:20:17.000Z",
    "buffer_id": "6ad919d4b945508d3f845e7d",
    "clave": "entrevistas:job00236|x",
    "creado": "2026-10-21T20:00:18.000Z",
    "dueAt": "2026-10-21T20:02:05.000Z",
+   "enviado": "2026-10-21T20:02:32.246Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T20:00:18.000Z",
    "id": "entrevistas:job00236",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112997985634173024",
    "nota_url": "",
    "noticia": "titulo:chivilcoy-critico-gestion-pablo-poggi",
    "origen": "entrevistas",
@@ -37343,13 +37344,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad5dc57fbe396fa0f895cba",
-   "clave": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x",
-   "cuando": "2026-10-19T09:01:12.000Z",
-   "dueAt": "2026-10-19T14:00:58.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad5dc584eb85d76d18ff4e0",
    "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
    "cuando": "2026-10-19T09:01:12.000Z",
@@ -41440,6 +41434,12 @@
    "cuando": "2026-10-21T20:00:20.000Z",
    "dueAt": "2026-10-21T20:02:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00236|x",
+   "cuando": "2026-10-21T20:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112997985634173024"
   }
  ],
  "tandas": {
@@ -41453,7 +41453,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T19:20:15.000Z",
+ "ultima_sync": "2026-10-21T20:20:17.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
