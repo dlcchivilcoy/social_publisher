@@ -1,17 +1,17 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-10-20)
+## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 10 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 5 | 6 | 0 | 6 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 4 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 1 | 0 | 3 | 0 | 2 | 0 |
-| Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 9 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 6 |
-| Nacionales y categorías | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 5 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 34 enviadas + 0 programadas de 100 por día
