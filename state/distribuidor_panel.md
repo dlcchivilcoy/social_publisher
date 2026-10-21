@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 07:02 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/10/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,7 +28,7 @@ Actualizado: 21/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2326 de 3000 (visto 2026-10-21T02:40:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2325 de 3000 (visto 2026-10-21T10:02:25.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Presentaron el cronograma por el 172° aniversario de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,12 +55,6 @@ Actualizado: 21/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T00:40 programado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
-- 2026-10-21T00:40 programado policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
-- 2026-10-21T01:00 recibido nacionales:4ce13bf44cf7dbc5|x dura 905 s y X admite 140 s sin suscripción
-- 2026-10-21T01:00 recibido nacionales:4ce13bf44cf7dbc5|tiktok dura 905 s (TikTok: 3-600 s)
-- 2026-10-21T01:20 recibido nacionales:b164c7aa50445aed|x 
-- 2026-10-21T01:20 recibido nacionales:b164c7aa50445aed|tiktok 
 - 2026-10-21T01:20 depurado nacionales:b164c7aa50445aed|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
 - 2026-10-21T01:20 depurado nacionales:b164c7aa50445aed|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
 - 2026-10-21T01:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
@@ -80,3 +74,9 @@ Actualizado: 21/10/2026 07:00 (hora AR) · ACTIVO
 - 2026-10-21T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
 - 2026-10-21T02:40 enviado bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x 
 - 2026-10-21T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
+- 2026-10-21T10:02 recibido web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x 
+- 2026-10-21T10:02 recibido web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x 
+- 2026-10-21T10:02 recibido web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x 
+- 2026-10-21T10:02 programado web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x 
+- 2026-10-21T10:02 programado web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x 
+- 2026-10-21T10:02 programado web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x 
