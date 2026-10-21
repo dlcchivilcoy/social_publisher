@@ -3541,6 +3541,33 @@
    "volanta": "Torneo Clausura",
    "youtube_url": "https://youtube.com/shorts/acDjsUbAH00"
   },
+  "nacionales:a7e42407f5ea13c5": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El presidente argentino agredió verbalmente a una cronista de la Cadena SER que le consultó sobre su vínculo con los partidos opositores durante su estadía en Madrid.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T22:16:00.000Z",
+   "hashtags": [
+    "JavierMilei",
+    "Espana"
+   ],
+   "id": "nacionales:a7e42407f5ea13c5",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-insulto-a-una-periodista-espanola-tras-una-a7e424",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Javier Milei trató de «miserables» a una periodista española que le hizo una pregunta",
+   "urgente": false,
+   "video_bytes": 74101,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a7e42407f5_javier-milei-trato-de-miserables-a-una-periodista.mp4",
+   "volanta": "España",
+   "youtube_url": "https://youtube.com/shorts/9WrNChFwTWw"
+  },
   "nacionales:a9f9a2fbd358a314": {
    "categoria": "Deportes",
    "categoria_nacional": "deportes",
@@ -9645,24 +9672,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
    "volanta": ""
   },
-  "web:74a60a71-4264-46cc-9934-e75ed9b5e26a": {
-   "categoria": "",
-   "descripcion": "Chivilcoy sin Barreras participó en la Fiesta Regional de la Danza Folclórica Los integrantes del espacio de folclore del taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional de la Danza Folclórica, donde tuvieron la oportunidad de compartir su talento y su pasión por las tradiciones argentinas. Participaron delegaciones de toda la zona y destacaron que la de Chivilcoy fue la única integrada por personas con discapacidad. La delegación,...",
-   "generado": "2026-10-11T17:57:07.290Z",
-   "id": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_9fb9423d9c154edebd7edd1a460641c1~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy sin Barreras participó en la Fiesta Regional de la Danza Folclórica",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
-   "volanta": "Rawson · Cultura"
-  },
   "web:7524a117-5ec3-428b-862c-0238cd3653e6": {
    "categoria": "",
    "descripcion": "Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo de Chivilcoy El operativo se realizó el domingo con el auxilio de la Policía. EDEN notificará al Municipio e iniciará acciones penales ante el grave riesgo eléctrico para el público y los asistentes a las competencias de trote. En un operativo llevado a cabo este domingo 18 de octubre, personal de la empresa distribuidora de energía EDEN Chivilcoy detectó y retiró en dos oportunidades una conexión eléctrica...",
@@ -11968,24 +11977,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
    "volanta": "Provincia · Política"
-  },
-  "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5": {
-   "categoria": "nacionales",
-   "descripcion": "Una iniciativa que busca penalizar la intrusión y los daños en establecimientos productivos obtuvo dictamen de mayoría en la Cámara baja, con el respaldo…",
-   "generado": "2026-10-11T21:16:42.169Z",
-   "id": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_12d151ef25d9419393be36b5dc9e1cf1~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-congreso-debate-un-proyecto-sobre-vandalismo-rural-que-suma-d98a79",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El Congreso debate un proyecto sobre vandalismo rural que suma penas de prisión",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-congreso-debate-un-proyecto-sobre-vandalismo-rural-que-suma-d98a79",
-   "volanta": ""
   },
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": {
    "categoria": "nacionales",
@@ -20745,6 +20736,60 @@
    "vence": "2026-10-19T20:06:01.000Z",
    "video_bytes": 7688244,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a45e03c51d_aldosivi-cayo-2-1-ante-estudiantes-de-rio-cuarto.mp4"
+  },
+  "nacionales:a7e42407f5ea13c5|tiktok": {
+   "actualizado": "2026-10-21T22:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:a7e42407f5ea13c5|tiktok",
+   "creado": "2026-10-21T22:20:16.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-21T22:16:00.000Z",
+   "id": "nacionales:a7e42407f5ea13c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-insulto-a-una-periodista-espanola-tras-una-a7e424",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Javier Milei trató de «miserables» a una periodista española que le hizo una pregunta\n\nEl presidente argentino agredió verbalmente a una cronista de la Cadena SER que le consultó sobre su vínculo con los partidos opositores durante su estadía en Madrid.\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-insulto-a-una-periodista-espanola-tras-una-a7e424\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #JavierMilei",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Javier Milei trató de «miserables» a una periodista española que le hizo una pregunta",
+   "urgente": false,
+   "vence": "2026-10-22T16:16:00.000Z",
+   "video_bytes": 74101,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a7e42407f5_javier-milei-trato-de-miserables-a-una-periodista.mp4",
+   "viral": false
+  },
+  "nacionales:a7e42407f5ea13c5|x": {
+   "actualizado": "2026-10-21T22:20:17.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:a7e42407f5ea13c5|x",
+   "creado": "2026-10-21T22:20:16.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-21T22:16:00.000Z",
+   "id": "nacionales:a7e42407f5ea13c5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-insulto-a-una-periodista-espanola-tras-una-a7e424",
+   "noticia": "nota:javier-milei-insulto-a-una-periodista-espanola-tras-una-a7e424",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Javier Milei trató de «miserables» a una periodista española que le hizo una pregunta\n\nEl presidente argentino agredió verbalmente a una cronista de la Cadena SER que le consultó sobre su vínculo con los partidos opositores durante su estadía en Madrid.\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-insulto-a-una-periodista-espanola-tras-una-a7e424",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Javier Milei trató de «miserables» a una periodista española que le hizo una pregunta",
+   "urgente": false,
+   "vence": "2026-10-22T00:16:00.000Z",
+   "video_bytes": 74101,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a7e42407f5_javier-milei-trato-de-miserables-a-una-periodista.mp4",
+   "viral": false
   },
   "nacionales:a9f9a2fbd358a314|tiktok": {
    "actualizado": "2026-10-19T19:20:16.000Z",
@@ -31788,32 +31833,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x": {
-   "actualizado": "2026-10-11T22:20:14.000Z",
-   "buffer_id": "6acc066eea568e911a41c37b",
-   "clave": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a|x",
-   "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "2026-10-11T22:01:23.000Z",
-   "enviado": "2026-10-11T22:01:31.618Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T17:57:07.290Z",
-   "id": "web:74a60a71-4264-46cc-9934-e75ed9b5e26a",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109404051087478855",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Chivilcoy sin Barreras participó en la Fiesta Regional de la Danza Folclórica\n\nLos integrantes del espacio de folclore del taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional de la Danza…\n\nhttps://www.diariolacampaña.com.ar/n/rawson-cultura-chivilcoy-sin-barreras-participo-en-la-fiesta-regional",
-   "tipo": "nota",
-   "titulo": "Chivilcoy sin Barreras participó en la Fiesta Regional de la Danza Folclórica",
-   "urgente": false,
-   "vence": "2026-10-12T17:57:07.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:7524a117-5ec3-428b-862c-0238cd3653e6|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -35309,32 +35328,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x": {
-   "actualizado": "2026-10-11T22:20:14.000Z",
-   "buffer_id": "6acc066eea568e911a41c3a4",
-   "clave": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5|x",
-   "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "2026-10-11T22:16:21.000Z",
-   "enviado": "2026-10-11T22:16:31.227Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T21:16:42.169Z",
-   "id": "web:c70aa026-ab7a-49b6-b3f9-85fd4972edc5",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109407824660906392",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-congreso-debate-un-proyecto-sobre-vandalismo-rural-que-suma-d98a79",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 El Congreso debate un proyecto sobre vandalismo rural que suma penas de prisión\n\nUna iniciativa que busca penalizar la intrusión y los daños en establecimientos productivos obtuvo dictamen de mayoría en la Cámara baja, con el respaldo…\n\nhttps://www.diariolacampaña.com.ar/n/el-congreso-debate-un-proyecto-sobre-vandalismo-rural-que-suma-d98a79",
-   "tipo": "nota",
-   "titulo": "El Congreso debate un proyecto sobre vandalismo rural que suma penas de prisión",
-   "urgente": false,
-   "vence": "2026-10-12T21:16:42.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x": {
    "actualizado": "2026-10-12T00:40:13.000Z",
    "buffer_id": "6acc1050ea568e911a43726b",
@@ -37506,38 +37499,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
-   "cuando": "2026-10-19T10:20:53.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x",
-   "cuando": "2026-10-19T10:20:54.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x",
-   "cuando": "2026-10-19T10:21:07.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x",
-   "cuando": "2026-10-19T10:21:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x",
    "cuando": "2026-10-19T10:21:20.000Z",
@@ -41594,6 +41555,34 @@
    "cuando": "2026-10-21T22:00:22.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "nacionales:a7e42407f5ea13c5|x",
+   "cuando": "2026-10-21T22:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:a7e42407f5ea13c5|tiktok",
+   "cuando": "2026-10-21T22:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:a7e42407f5ea13c5|x",
+   "cuando": "2026-10-21T22:20:17.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:a7e42407f5ea13c5|tiktok",
+   "cuando": "2026-10-21T22:20:17.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -41768,6 +41757,7 @@
   "nacionales:a09771b77a360e01": "2026-10-19T15:20:16.000Z",
   "nacionales:a28aa737cf87213c": "2026-10-19T09:00:17.000Z",
   "nacionales:a45e03c51dbe2f12": "2026-10-19T02:40:14.000Z",
+  "nacionales:a7e42407f5ea13c5": "2026-10-21T22:20:16.000Z",
   "nacionales:a9f9a2fbd358a314": "2026-10-19T02:40:14.000Z",
   "nacionales:b010138b1fbfe036": "2026-10-18T17:20:13.000Z",
   "nacionales:b164c7aa50445aed": "2026-10-21T01:20:15.000Z",
