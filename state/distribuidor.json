@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 3
+    "scheduled": 2,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-21T20:20:17.000Z"
+   "visto": "2026-10-21T21:20:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-21T20:20:17.000Z"
+   "visto": "2026-10-21T21:20:24.000Z"
   }
  },
  "contenidos": {
@@ -2623,6 +2623,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2f1a6dccc7_ricardo-darin-y-diego-peretti-juntos-en-lo.mp4",
    "volanta": "Estreno en Netflix",
    "youtube_url": "https://youtube.com/shorts/wfq9bhC3Sno"
+  },
+  "nacionales:41a4276d3cbfa924": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El presidente argentino usó un vendaje tras sufrir un golpe en la bañadera. Durante su estadía en Madrid, mantuvo una intensa agenda política y criticó con dureza al jefe del Gobierno español.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T21:15:50.000Z",
+   "hashtags": [
+    "JavierMilei",
+    "Espana"
+   ],
+   "id": "nacionales:41a4276d3cbfa924",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-en-espana-el-motivo-de-su-venda-en-el-cuello-y-los-41a427",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Por qué Javier Milei usó una venda en el cuello durante su visita a Madrid",
+   "urgente": false,
+   "video_bytes": 72628,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_41a4276d3c_por-que-javier-milei-uso-una-venda-en-el-cuello.mp4",
+   "volanta": "Viaje a España",
+   "youtube_url": "https://youtube.com/shorts/ds2mkQFQb28"
   },
   "nacionales:41adf48909fb7a57": {
    "categoria": "Mundo",
@@ -13370,17 +13397,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 188,
-   "segundos": 9603,
+   "restantes": 187,
+   "segundos": 8399,
    "tope": 250
   },
   "30d": {
-   "restantes": 2273,
-   "segundos": 1728620,
+   "restantes": 2272,
+   "segundos": 1727416,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T21:00:23.000Z",
+ "cuota_visto": "2026-10-21T21:20:24.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15628,7 +15655,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -15822,7 +15849,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -17411,7 +17438,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -17474,7 +17501,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -17818,19 +17845,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok": {
-   "actualizado": "2026-10-21T21:00:19.000Z",
+   "actualizado": "2026-10-21T21:20:24.000Z",
    "buffer_id": "6ad927e54989bea5baf5b48b",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok",
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "2026-10-21T21:03:20.000Z",
+   "enviado": "2026-10-21T21:05:13.384Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T00:21:37.000Z",
    "id": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699229723469073671",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19486,6 +19514,60 @@
    "vence": "2026-10-19T19:36:13.000Z",
    "video_bytes": 4938098,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2f1a6dccc7_ricardo-darin-y-diego-peretti-juntos-en-lo.mp4"
+  },
+  "nacionales:41a4276d3cbfa924|tiktok": {
+   "actualizado": "2026-10-21T21:20:24.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:41a4276d3cbfa924|tiktok",
+   "creado": "2026-10-21T21:20:15.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-21T21:15:50.000Z",
+   "id": "nacionales:41a4276d3cbfa924",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-en-espana-el-motivo-de-su-venda-en-el-cuello-y-los-41a427",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Por qué Javier Milei usó una venda en el cuello durante su visita a Madrid\n\nEl presidente argentino usó un vendaje tras sufrir un golpe en la bañadera. Durante su estadía en Madrid, mantuvo una intensa agenda política y criticó con dureza al jefe del Gobierno español.\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-en-espana-el-motivo-de-su-venda-en-el-cuello-y-los-41a427\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #JavierMilei",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Por qué Javier Milei usó una venda en el cuello durante su visita a Madrid",
+   "urgente": false,
+   "vence": "2026-10-22T15:15:50.000Z",
+   "video_bytes": 72628,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_41a4276d3c_por-que-javier-milei-uso-una-venda-en-el-cuello.mp4",
+   "viral": false
+  },
+  "nacionales:41a4276d3cbfa924|x": {
+   "actualizado": "2026-10-21T21:20:24.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:41a4276d3cbfa924|x",
+   "creado": "2026-10-21T21:20:15.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-21T21:15:50.000Z",
+   "id": "nacionales:41a4276d3cbfa924",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-en-espana-el-motivo-de-su-venda-en-el-cuello-y-los-41a427",
+   "noticia": "nota:javier-milei-en-espana-el-motivo-de-su-venda-en-el-cuello-y-los-41a427",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Por qué Javier Milei usó una venda en el cuello durante su visita a Madrid\n\nEl presidente argentino usó un vendaje tras sufrir un golpe en la bañadera.\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-en-espana-el-motivo-de-su-venda-en-el-cuello-y-los-41a427",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Por qué Javier Milei usó una venda en el cuello durante su visita a Madrid",
+   "urgente": false,
+   "vence": "2026-10-21T23:15:50.000Z",
+   "video_bytes": 72628,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_41a4276d3c_por-que-javier-milei-uso-una-venda-en-el-cuello.mp4",
+   "viral": false
   },
   "nacionales:41adf48909fb7a57|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
@@ -37344,46 +37426,6 @@
  },
  "registro": [
   {
-   "clave": "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x",
-   "cuando": "2026-10-19T10:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x",
-   "cuando": "2026-10-19T10:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c876f210-4b35-4b4a-add4-8813297977a9|x",
-   "cuando": "2026-10-19T10:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:4199d5d7-7749-42b5-a204-16844f3014eb|x",
-   "cuando": "2026-10-19T10:20:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b4cfec79-0715-4512-9344-baf46d5042d1|x",
-   "cuando": "2026-10-19T10:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:9627f721-ec60-4caa-8de1-29648f987444|x",
    "cuando": "2026-10-19T10:20:30.000Z",
    "estado": "pendiente",
@@ -41441,6 +41483,40 @@
    "cuando": "2026-10-21T21:00:23.000Z",
    "dueAt": "2026-10-21T21:43:40.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:41a4276d3cbfa924|x",
+   "cuando": "2026-10-21T21:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:41a4276d3cbfa924|tiktok",
+   "cuando": "2026-10-21T21:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:41a4276d3cbfa924|x",
+   "cuando": "2026-10-21T21:20:24.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:41a4276d3cbfa924|tiktok",
+   "cuando": "2026-10-21T21:20:24.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok",
+   "cuando": "2026-10-21T21:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699229723469073671"
   }
  ],
  "tandas": {
@@ -41455,7 +41531,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T20:20:17.000Z",
+ "ultima_sync": "2026-10-21T21:20:24.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -41580,6 +41656,7 @@
   "nacionales:2b26f422b8cc341a": "2026-10-19T00:20:16.000Z",
   "nacionales:2be0a52708a62532": "2026-10-18T17:20:13.000Z",
   "nacionales:2f1a6dccc7eef682": "2026-10-19T02:40:14.000Z",
+  "nacionales:41a4276d3cbfa924": "2026-10-21T21:20:15.000Z",
   "nacionales:41adf48909fb7a57": "2026-10-19T15:00:20.000Z",
   "nacionales:42bad0f0b5785838": "2026-10-20T00:20:16.000Z",
   "nacionales:4399eb58559e6a51": "2026-10-20T01:20:14.000Z",
