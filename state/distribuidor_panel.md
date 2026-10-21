@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,7 +28,7 @@ Actualizado: 21/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 195 de 250 · 30d: quedan 2280 de 3000 (visto 2026-10-21T17:00:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 194 de 250 · 30d: quedan 2279 de 3000 (visto 2026-10-21T17:40:17.000Z)
 
 ## Cola propia (10 esperando)
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,9 +52,6 @@ Actualizado: 21/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T10:20 programado web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x 
-- 2026-10-21T10:40 programado web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x 
-- 2026-10-21T10:40 programado web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x 
 - 2026-10-21T11:00 depurado web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-10-21T11:00 programado web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x 
 - 2026-10-21T11:40 enviado web:037db3cf-2837-40cd-af9c-c0b367f30802|x 
@@ -77,3 +74,6 @@ Actualizado: 21/10/2026 14:20 (hora AR) · ACTIVO
 - 2026-10-21T16:40 recibido entrevistas:job00235|x 
 - 2026-10-21T16:40 programado entrevistas:job00235|x 
 - 2026-10-21T17:00 enviado entrevistas:job00235|x 
+- 2026-10-21T17:40 entrevista_aprobada entrevistas:job00237 
+- 2026-10-21T17:40 recibido entrevistas:job00237|x 
+- 2026-10-21T17:40 programado entrevistas:job00237|x 

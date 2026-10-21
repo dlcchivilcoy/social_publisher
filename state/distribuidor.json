@@ -2223,6 +2223,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
    "youtube_url": "https://youtu.be/nbVuebH4AQ4"
   },
+  "entrevistas:job00237": {
+   "descripcion": "En Chivilcoy, Nicolás Felice, referente de juventud de La Libertad Avanza, cuestionó a los militantes que pasan años en la universidad pública sin recibirse.",
+   "duracion_seg": null,
+   "entrevistado": "Nicolás Felice",
+   "generado": "2026-10-21T17:40:15.000Z",
+   "id": "entrevistas:job00237",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Nicolás Felice criticó a los estudiantes eternos en la UBA",
+   "urgente": false,
+   "video_bytes": 28108963,
+   "video_mb": 26.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00237.mp4",
+   "youtube_url": "https://youtu.be/n8hLzg7Uoe4"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -13310,17 +13330,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 195,
-   "segundos": 24004,
+   "restantes": 194,
+   "segundos": 21606,
    "tope": 250
   },
   "30d": {
-   "restantes": 2280,
-   "segundos": 1743022,
+   "restantes": 2279,
+   "segundos": 1740624,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T17:00:19.000Z",
+ "cuota_visto": "2026-10-21T17:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18920,6 +18940,34 @@
    "vence": "2026-10-21T18:40:14.000Z",
    "video_bytes": 30763549,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
+   "viral": false
+  },
+  "entrevistas:job00237|x": {
+   "actualizado": "2026-10-21T17:40:16.000Z",
+   "buffer_id": "6ad8f9014c68046f77a91fd2",
+   "clave": "entrevistas:job00237|x",
+   "creado": "2026-10-21T17:40:15.000Z",
+   "dueAt": "2026-10-21T17:42:27.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T17:40:15.000Z",
+   "id": "entrevistas:job00237",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:critico-estudiantes-eternos-felice-nicolas",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Nicolás Felice criticó a los estudiantes eternos en la UBA\n\nEn Chivilcoy, Nicolás Felice, referente de juventud de La Libertad Avanza, cuestionó a los militantes que pasan años en la universidad pública sin recibirse.\n\nhttps://youtu.be/n8hLzg7Uoe4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Nicolás Felice criticó a los estudiantes eternos en la UBA",
+   "urgente": false,
+   "vence": "2026-10-21T19:40:15.000Z",
+   "video_bytes": 28108963,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00237.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -37197,30 +37245,6 @@
  },
  "registro": [
   {
-   "clave": "web:28d31caa-4225-4df6-852e-fce87e6a75a7|x",
-   "cuando": "2026-10-19T09:00:36.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:fcc38531-e614-4892-a005-314730e4df18|x",
-   "cuando": "2026-10-19T09:00:39.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e|x",
-   "cuando": "2026-10-19T09:00:48.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:b213f18b-774f-4f28-a33d-398709d50fbe|x",
    "cuando": "2026-10-19T09:00:59.000Z",
    "estado": "pendiente",
@@ -41303,6 +41327,26 @@
    "cuando": "2026-10-21T17:00:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112947834018201982"
+  },
+  {
+   "clave": "entrevistas:job00237",
+   "cuando": "2026-10-21T17:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00237|x",
+   "cuando": "2026-10-21T17:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad8f9014c68046f77a91fd2",
+   "clave": "entrevistas:job00237|x",
+   "cuando": "2026-10-21T17:40:17.000Z",
+   "dueAt": "2026-10-21T17:42:27.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41425,6 +41469,7 @@
   "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
   "entrevistas:job00234": "2026-10-20T19:00:19.000Z",
   "entrevistas:job00235": "2026-10-21T16:40:14.000Z",
+  "entrevistas:job00237": "2026-10-21T17:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
