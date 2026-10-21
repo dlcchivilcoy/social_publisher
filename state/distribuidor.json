@@ -15,7 +15,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-21T11:40:16.000Z"
+   "visto": "2026-10-21T13:00:25.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 33
+    "scheduled": 1,
+    "sent": 36
    },
    "pausado": false,
-   "visto": "2026-10-21T11:40:16.000Z"
+   "visto": "2026-10-21T13:00:25.000Z"
   }
  },
  "contenidos": {
@@ -13286,21 +13286,21 @@
  "cuota": {
   "15m": {
    "restantes": 98,
-   "segundos": 900,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 43206,
+   "restantes": 231,
+   "segundos": 38396,
    "tope": 250
   },
   "30d": {
-   "restantes": 2318,
-   "segundos": 1762223,
+   "restantes": 2316,
+   "segundos": 1757414,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T11:40:17.000Z",
+ "cuota_visto": "2026-10-21T13:00:30.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15548,7 +15548,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -15742,7 +15742,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -15807,7 +15807,7 @@
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-20T23:44:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
@@ -15872,7 +15872,7 @@
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-20T23:52:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
@@ -15930,15 +15930,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok": {
-   "actualizado": "2026-10-21T02:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T13:00:25.000Z",
+   "buffer_id": "6ad8b76c820ac627995086d8",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
    "creado": "2026-10-21T02:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T13:23:53.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-21T02:10:14.000Z",
    "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
    "intentos": 0,
@@ -17269,7 +17269,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-19T20:44:10.000Z",
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
@@ -17330,7 +17330,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -17393,7 +17393,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -17744,7 +17744,7 @@
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-21T00:21:37.000Z",
    "id": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4",
@@ -17802,15 +17802,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok": {
-   "actualizado": "2026-10-21T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T13:00:25.000Z",
+   "buffer_id": "6ad8b76e0c5e774bdfb0c60e",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
    "creado": "2026-10-21T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T13:43:01.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-21T00:29:10.000Z",
    "id": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4",
    "intentos": 0,
@@ -23265,7 +23265,7 @@
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-21T00:31:58.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html",
@@ -23330,7 +23330,7 @@
    "creado": "2026-10-21T00:20:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 3 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-21T00:01:14.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
@@ -24556,15 +24556,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-21T01:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T13:00:25.000Z",
+   "buffer_id": "6ad8b76b88865f7e6d302290",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
    "creado": "2026-10-21T01:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T13:03:37.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-21T01:31:08.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
    "intentos": 0,
@@ -27582,19 +27582,20 @@
    "viral": false
   },
   "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x": {
-   "actualizado": "2026-10-21T10:40:15.000Z",
+   "actualizado": "2026-10-21T13:00:25.000Z",
    "buffer_id": "6ad896903021c1ef52af8d71",
    "clave": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T12:06:14.000Z",
+   "enviado": "2026-10-21T12:06:16.563Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:52.608Z",
    "id": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e",
    "ig_hora": "2026-10-21T12:06:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112878129807077820",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
    "noticia": "nota:atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
    "origen": "web",
@@ -31909,19 +31910,20 @@
    "video_url": ""
   },
   "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x": {
-   "actualizado": "2026-10-21T10:40:15.000Z",
+   "actualizado": "2026-10-21T13:00:25.000Z",
    "buffer_id": "6ad896909c5d256f6595bbb8",
    "clave": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T11:51:15.000Z",
+   "enviado": "2026-10-21T11:51:16.288Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:47.271Z",
    "id": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197",
    "ig_hora": "2026-10-21T11:51:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112874353977114664",
    "nota_url": "https://www.diariolacampaña.com.ar/n/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
    "noticia": "nota:emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
    "origen": "web",
@@ -32284,19 +32286,20 @@
    "video_url": ""
   },
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x": {
-   "actualizado": "2026-10-21T11:00:19.000Z",
+   "actualizado": "2026-10-21T13:00:25.000Z",
    "buffer_id": "6ad89b43befea41f139bc309",
    "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T12:21:36.000Z",
+   "enviado": "2026-10-21T12:21:46.112Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:58.493Z",
    "id": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d",
    "ig_hora": "2026-10-21T12:21:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112882029276627049",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
    "noticia": "nota:basquet-colon-en-el-prefederal-triunfo-clave-en-pergamino-y-la-mira",
    "origen": "web",
@@ -37141,54 +37144,6 @@
  },
  "registro": [
   {
-   "clave": "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x",
-   "cuando": "2026-10-19T02:40:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:a28aa737cf87213c|tiktok",
-   "cuando": "2026-10-19T09:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:9e7b427db11bc8f2|tiktok",
-   "cuando": "2026-10-19T09:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:f8cbb878e65900d1|tiktok",
-   "cuando": "2026-10-19T09:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:0d6b3d4ada951c07|tiktok",
-   "cuando": "2026-10-19T09:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:25f7704c0cf2a754|tiktok",
-   "cuando": "2026-10-19T09:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:b18ec1977365d369|tiktok",
    "cuando": "2026-10-19T09:00:18.000Z",
    "estado": "pendiente",
@@ -41270,6 +41225,45 @@
    "cuando": "2026-10-21T11:40:17.000Z",
    "dueAt": "2026-10-21T13:06:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x",
+   "cuando": "2026-10-21T13:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112878129807077820"
+  },
+  {
+   "clave": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x",
+   "cuando": "2026-10-21T13:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112874353977114664"
+  },
+  {
+   "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
+   "cuando": "2026-10-21T13:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112882029276627049"
+  },
+  {
+   "buffer_id": "6ad8b76b88865f7e6d302290",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-21T13:00:30.000Z",
+   "dueAt": "2026-10-21T13:03:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad8b76c820ac627995086d8",
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
+   "cuando": "2026-10-21T13:00:30.000Z",
+   "dueAt": "2026-10-21T13:23:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad8b76e0c5e774bdfb0c60e",
+   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
+   "cuando": "2026-10-21T13:00:30.000Z",
+   "dueAt": "2026-10-21T13:43:01.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41278,11 +41272,12 @@
    "2026-10-19 21",
    "2026-10-20 10",
    "2026-10-20 18",
-   "2026-10-20 21"
+   "2026-10-20 21",
+   "2026-10-21 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T11:40:16.000Z",
+ "ultima_sync": "2026-10-21T13:00:25.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
