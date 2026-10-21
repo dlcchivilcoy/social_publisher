@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,11 +30,10 @@ Actualizado: 21/10/2026 20:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 186 de 250 · 30d: quedan 2271 de 3000 (visto 2026-10-21T22:40:14.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (3 esperando)
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -46,7 +45,6 @@ Actualizado: 21/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T20:00 programado entrevistas:job00236|x 
 - 2026-10-21T20:20 enviado entrevistas:job00236|x 
 - 2026-10-21T21:00 vencido bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-21T21:00 programado bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok 
@@ -71,3 +69,4 @@ Actualizado: 21/10/2026 20:00 (hora AR) · ACTIVO
 - 2026-10-21T23:00 recibido nacionales:780212f6b8352df4|tiktok 
 - 2026-10-21T23:00 depurado nacionales:780212f6b8352df4|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
 - 2026-10-21T23:00 depurado nacionales:780212f6b8352df4|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-21T23:20 vencido bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
