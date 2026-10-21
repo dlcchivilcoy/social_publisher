@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 7
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-10-21T00:00:41.000Z"
+   "visto": "2026-10-21T01:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 33
+    "sent": 34
    },
    "pausado": false,
-   "visto": "2026-10-21T00:00:41.000Z"
+   "visto": "2026-10-21T01:20:16.000Z"
   }
  },
  "contenidos": {
@@ -3437,6 +3437,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4",
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/AX4EKiBZ2FI"
+  },
+  "nacionales:b164c7aa50445aed": {
+   "categoria": "Sociedad",
+   "categoria_nacional": "",
+   "descripcion": "Mariano Páez optó por no hablar ante la Justicia por el hurto de un millón y medio de pesos en un local. Su defensa adelantó que devolverá el monto sustraído para lograr la liberación.",
+   "duracion_seg": 42.1,
+   "generado": "2026-10-21T01:16:05.000Z",
+   "hashtags": [
+    "SantiagoDelEstero",
+    "Policiales"
+   ],
+   "id": "nacionales:b164c7aa50445aed",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robo-en-santiago-del-estero-el-padre-de-agostina-paez-se-nego-a-b164c7",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Padre de Agostina Páez se negó a declarar y piden su excarcelación",
+   "urgente": false,
+   "video_bytes": 2064452,
+   "video_mb": 2.0,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b164c7aa50_padre-de-agostina-paez-se-nego-a-declarar-y-piden.mp4",
+   "volanta": "Robo millonario",
+   "youtube_url": "https://youtube.com/shorts/4oZfEuG4E6A"
   },
   "nacionales:b18ec1977365d369": {
    "categoria": "Cine y series",
@@ -12969,17 +12996,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 82797,
+   "restantes": 244,
+   "segundos": 80407,
    "tope": 250
   },
   "30d": {
-   "restantes": 2330,
-   "segundos": 1801815,
+   "restantes": 2329,
+   "segundos": 1799424,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T00:40:27.000Z",
+ "cuota_visto": "2026-10-21T01:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15471,18 +15498,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x": {
-   "actualizado": "2026-10-21T00:00:41.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad800ac5af80146fcbeebde",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "2026-10-21T00:02:20.000Z",
+   "enviado": "2026-10-21T00:02:38.647Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T23:44:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112696022010855772",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
    "noticia": "nota:chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
    "origen": "bot",
@@ -15527,18 +15555,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x": {
-   "actualizado": "2026-10-21T00:00:41.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad800ac1dbc8c88b1f2e573",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
    "creado": "2026-10-21T00:00:28.000Z",
    "dueAt": "2026-10-21T00:07:18.000Z",
+   "enviado": "2026-10-21T00:07:34.445Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T23:52:29.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112697262837055678",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
    "noticia": "nota:chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
    "origen": "bot",
@@ -17269,18 +17298,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x": {
-   "actualizado": "2026-10-21T00:40:24.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad809faaff466fe09f48289",
    "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x",
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "2026-10-21T00:42:57.000Z",
+   "enviado": "2026-10-21T00:43:07.930Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T00:21:37.000Z",
    "id": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112706211577483489",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "noticia": "nota:chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "origen": "bot",
@@ -17325,18 +17355,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x": {
-   "actualizado": "2026-10-21T00:40:24.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad809fad894396f66bb4b92",
    "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x",
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "2026-10-21T00:48:03.000Z",
+   "enviado": "2026-10-21T00:48:23.205Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T00:29:10.000Z",
    "id": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112707533500489815",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
    "noticia": "nota:chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
    "origen": "bot",
@@ -19857,6 +19888,60 @@
    "video_bytes": 97171,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4"
   },
+  "nacionales:b164c7aa50445aed|tiktok": {
+   "actualizado": "2026-10-21T01:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:b164c7aa50445aed|tiktok",
+   "creado": "2026-10-21T01:20:15.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-21T01:16:05.000Z",
+   "id": "nacionales:b164c7aa50445aed",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robo-en-santiago-del-estero-el-padre-de-agostina-paez-se-nego-a-b164c7",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Padre de Agostina Páez se negó a declarar y piden su excarcelación\n\nMariano Páez optó por no hablar ante la Justicia por el hurto de un millón y medio de pesos en un local. Su defensa adelantó que devolverá el monto sustraído para lograr la liberación.\n\nhttps://www.diariolacampaña.com.ar/n/robo-en-santiago-del-estero-el-padre-de-agostina-paez-se-nego-a-b164c7\n\n#chivilcoy #diariolacampaña #radiodelcentro #sociedad #SantiagoDelEstero",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Padre de Agostina Páez se negó a declarar y piden su excarcelación",
+   "urgente": false,
+   "vence": "2026-10-21T19:16:05.000Z",
+   "video_bytes": 2064452,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b164c7aa50_padre-de-agostina-paez-se-nego-a-declarar-y-piden.mp4",
+   "viral": false
+  },
+  "nacionales:b164c7aa50445aed|x": {
+   "actualizado": "2026-10-21T01:20:16.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b164c7aa50445aed|x",
+   "creado": "2026-10-21T01:20:15.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-21T01:16:05.000Z",
+   "id": "nacionales:b164c7aa50445aed",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robo-en-santiago-del-estero-el-padre-de-agostina-paez-se-nego-a-b164c7",
+   "noticia": "nota:robo-en-santiago-del-estero-el-padre-de-agostina-paez-se-nego-a-b164c7",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Padre de Agostina Páez se negó a declarar y piden su excarcelación\n\nMariano Páez optó por no hablar ante la Justicia por el hurto de un millón y medio de pesos en un local. Su defensa adelantó que devolverá el monto sustraído para lograr la liberación.\n\nhttps://www.diariolacampaña.com.ar/n/robo-en-santiago-del-estero-el-padre-de-agostina-paez-se-nego-a-b164c7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Padre de Agostina Páez se negó a declarar y piden su excarcelación",
+   "urgente": false,
+   "vence": "2026-10-21T03:16:05.000Z",
+   "video_bytes": 2064452,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b164c7aa50_padre-de-agostina-paez-se-nego-a-declarar-y-piden.mp4",
+   "viral": false
+  },
   "nacionales:b18ec1977365d369|tiktok": {
    "actualizado": "2026-10-19T23:00:25.000Z",
    "buffer_id": "",
@@ -20415,19 +20500,20 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4"
   },
   "nacionales:fb8bbb9c2285b74b|tiktok": {
-   "actualizado": "2026-10-21T00:00:41.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad800adc11f7f6be272f4a1",
    "categoria": "internacionales",
    "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "2026-10-21T00:23:12.000Z",
+   "enviado": "2026-10-21T00:24:58.254Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T21:16:40.000Z",
    "id": "nacionales:fb8bbb9c2285b74b",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698910088416857351",
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -22641,18 +22727,19 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|x": {
-   "actualizado": "2026-10-21T00:40:24.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad809fb9fdbc474fbf3010a",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|x",
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "2026-10-21T00:53:48.000Z",
+   "enviado": "2026-10-21T00:54:04.696Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T00:31:58.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112708966220185827",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-principio-de-incendio-en-un-departamento-del-barrio-4ab108",
    "noticia": "nota:bragado-un-principio-de-incendio-en-un-departamento-del-barrio-4ab108",
    "origen": "policiales",
@@ -22697,18 +22784,19 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x": {
-   "actualizado": "2026-10-21T00:20:25.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad8054a5af80146fcc029fa",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
    "creado": "2026-10-21T00:20:18.000Z",
    "dueAt": "2026-10-21T00:23:47.000Z",
+   "enviado": "2026-10-21T00:24:04.289Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T00:01:14.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112701414778560630",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
    "noticia": "nota:bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
    "origen": "policiales",
@@ -23530,19 +23618,20 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-21T00:00:41.000Z",
+   "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad800ad8ebd684dd5ca5a78",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
    "creado": "2026-10-20T23:40:14.000Z",
    "dueAt": "2026-10-21T00:03:17.000Z",
+   "enviado": "2026-10-21T00:04:12.560Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T23:30:49.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7698904991599316225",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -35908,95 +35997,6 @@
  },
  "registro": [
   {
-   "clave": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x",
-   "cuando": "2026-10-18T22:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
-   "cuando": "2026-10-18T22:40:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
-   "cuando": "2026-10-18T23:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok",
-   "cuando": "2026-10-18T23:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x",
-   "cuando": "2026-10-18T23:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
-   "cuando": "2026-10-18T23:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
-   "cuando": "2026-10-18T23:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
-   "cuando": "2026-10-18T23:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|x",
-   "cuando": "2026-10-18T23:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111941221237014847"
-  },
-  {
-   "clave": "nacionales:76f6781e9594def9|tiktok",
-   "cuando": "2026-10-18T23:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698131974233394453"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|x",
-   "cuando": "2026-10-18T23:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111936370142822530"
-  },
-  {
-   "buffer_id": "6ad54f87769b457934e2090f",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|x",
-   "cuando": "2026-10-18T23:00:24.000Z",
-   "dueAt": "2026-10-18T23:03:37.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad54f880b0d72757a40ce1e",
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
    "cuando": "2026-10-18T23:00:24.000Z",
@@ -40076,6 +40076,82 @@
    "evento": "recibido",
    "motivo": "dura 905 s (TikTok: 3-600 s)",
    "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b164c7aa50445aed|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b164c7aa50445aed|tiktok",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b164c7aa50445aed|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:b164c7aa50445aed|tiktok",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112696022010855772"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112697262837055678"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112706211577483489"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112707533500489815"
+  },
+  {
+   "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698910088416857351"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112708966220185827"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112701414778560630"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-21T01:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7698904991599316225"
   }
  ],
  "tandas": {
@@ -40088,7 +40164,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T00:00:41.000Z",
+ "ultima_sync": "2026-10-21T01:20:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -40243,6 +40319,7 @@
   "nacionales:a45e03c51dbe2f12": "2026-10-19T02:40:14.000Z",
   "nacionales:a9f9a2fbd358a314": "2026-10-19T02:40:14.000Z",
   "nacionales:b010138b1fbfe036": "2026-10-18T17:20:13.000Z",
+  "nacionales:b164c7aa50445aed": "2026-10-21T01:20:15.000Z",
   "nacionales:b18ec1977365d369": "2026-10-19T09:00:17.000Z",
   "nacionales:b1c71e9d1312dd69": "2026-10-18T20:20:13.000Z",
   "nacionales:b4cf751f44529f62": "2026-10-19T09:00:17.000Z",

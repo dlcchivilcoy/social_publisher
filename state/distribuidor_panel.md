@@ -1,21 +1,21 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 4 | 0 | 0 | 1 | 0 |
+| Reels del bot | X | 10 | 9 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 5 | 6 | 0 | 5 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 2 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 1 | 2 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 0 | 0 | 2 | 0 |
+| Reels policiales | TikTok | 5 | 1 | 0 | 2 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 8 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 5 |
-| Nacionales y categorías | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 4 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Nacionales y categorías | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 5 |
 
 ## Canales
-- X: conectado · Buffer: 33 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 34 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 20/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2330 de 3000 (visto 2026-10-21T00:40:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2329 de 3000 (visto 2026-10-21T01:20:16.000Z)
 
 ## Cola propia (11 esperando)
 - TikTok · Reels del bot · Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,18 +53,6 @@ Actualizado: 20/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T00:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
-- 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
-- 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
-- 2026-10-21T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
-- 2026-10-21T00:00 programado nacionales:fb8bbb9c2285b74b|tiktok 
-- 2026-10-21T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
-- 2026-10-21T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
-- 2026-10-21T00:20 recibido nacionales:01c0d7889e6b5047|x 
-- 2026-10-21T00:20 recibido nacionales:01c0d7889e6b5047|tiktok 
-- 2026-10-21T00:20 depurado nacionales:01c0d7889e6b5047|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
-- 2026-10-21T00:20 depurado nacionales:01c0d7889e6b5047|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
-- 2026-10-21T00:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
 - 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x 
 - 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok 
 - 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
@@ -78,3 +66,15 @@ Actualizado: 20/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-21T00:40 programado policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
 - 2026-10-21T01:00 recibido nacionales:4ce13bf44cf7dbc5|x dura 905 s y X admite 140 s sin suscripción
 - 2026-10-21T01:00 recibido nacionales:4ce13bf44cf7dbc5|tiktok dura 905 s (TikTok: 3-600 s)
+- 2026-10-21T01:20 recibido nacionales:b164c7aa50445aed|x 
+- 2026-10-21T01:20 recibido nacionales:b164c7aa50445aed|tiktok 
+- 2026-10-21T01:20 depurado nacionales:b164c7aa50445aed|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-21T01:20 depurado nacionales:b164c7aa50445aed|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-21T01:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
+- 2026-10-21T01:20 enviado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
+- 2026-10-21T01:20 enviado bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x 
+- 2026-10-21T01:20 enviado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
+- 2026-10-21T01:20 enviado nacionales:fb8bbb9c2285b74b|tiktok 
+- 2026-10-21T01:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
+- 2026-10-21T01:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
+- 2026-10-21T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
