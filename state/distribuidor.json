@@ -15,7 +15,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-20T22:40:13.000Z"
+   "visto": "2026-10-21T00:00:41.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 40
+    "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-20T22:40:13.000Z"
+   "visto": "2026-10-21T00:00:41.000Z"
   }
  },
  "contenidos": {
@@ -891,6 +891,48 @@
    "video_mb": 0.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
    "youtube_url": "https://www.youtube.com/shorts/AWtdJRTPfQU"
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x": {
+   "descripcion": "Primera medalla para la delegación de Chivilcoy: en atletismo, 3000 metros, Benjamín Gómez.\n\nResultados de la primera jornada:\n● Medalla de bronce en 3000 metros sub-16 libre: Benjamín Gómez.\n● Fútbol PCD mayores de 17 años: Chivilcoy 2 vs. Escobar 9.\n● Fútbol PCD sub-16: Chivilcoy 8 vs. Tres",
+   "duracion_seg": 34.4,
+   "generado": "2026-10-20T23:44:29.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Benjamín Gómez logró la primera medalla para Chivilcoy",
+   "urgente": false,
+   "video_bytes": 3727261,
+   "video_mb": 3.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1efa1dfd7628de54.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/j-Nn-pCiHPE"
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095": {
+   "descripcion": "El intendente de Chivilcoy, Guillermo Britos, recibió el Premio Comunas al Compromiso Ciudadano, una distinción que reconoce la labor de dirigentes, funcionarios y referentes sociales por su trabajo en la gestión pública y su contribución al desarrollo de sus comunidades.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-20T23:52:29.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación",
+   "urgente": false,
+   "video_bytes": 627174,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/IjtihqJpC6c"
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": {
    "descripcion": "Camisetas de equipos de fútbol de Chivilcoy llegaron al emblemático Santuario de Diego Armando Maradona, ubicado en la ciudad de Nápoles, Italia.\n\nA través de un registro audiovisual enviado a este medio, se conocieron imágenes que dan cuenta de la presencia de casacas representativas de clubes de nuestra ciudad en dicho espacio de homenaje.\n\nEn la grabación compartida se refleja cómo estas prendas locales forman parte de las distintas ofrendas y recuerdos exhibidos en el sitio dedicado a la memoria del astro argentino en tierras italianas.",
@@ -6437,6 +6479,25 @@
    "volanta": "Incendio en Bolívar",
    "youtube_url": "https://youtube.com/shorts/vxxgXXK-YAY"
   },
+  "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": {
+   "categoria": "",
+   "descripcion": "Benjamín Gómez logró la primera medalla para Chivilcoy Primera medalla para la delegación de Chivilcoy: en atletismo, 3000 metros, Benjamín Gómez. Resultados de la primera jornada: ● Medalla de bronce en 3000 metros sub-16 libre: Benjamín Gómez. ● Fútbol PCD mayores de 17 años: Chivilcoy 2 vs. Escobar 9. ● Fútbol PCD sub-16: Chivilcoy 8 vs. Tres Arroyos 0. ● Fútbol tenis: Chivilcoy 0 vs. Quilmes 2 (8-15 y 11-15). ● Handball sub-14 femenino libre: Chivilcoy 30 vs. Tandil 24. ● Handball sub-14...",
+   "generado": "2026-10-20T23:42:33.196Z",
+   "id": "web:004e7af4-996b-4844-babe-bcc9c91c2fe6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d508be3811fa4737951e19a568172abe~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Benjamín Gómez logró la primera medalla para Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:010e4114-35e9-438d-8057-51285ef42a56": {
    "categoria": "nacionales",
    "descripcion": "La conductora de MasterChef Celebrity compartió postales familiares, un desayuno especial y una foto retro junto a Zaira Nara y Nora Colosimo.",
@@ -10835,6 +10896,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:b4a12021-9279-4b86-9d0b-ae839890e171": {
+   "categoria": "",
+   "descripcion": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación El intendente de Chivilcoy, Guillermo Britos, recibió el Premio Comunas al Compromiso Ciudadano, una distinción que reconoce la labor de dirigentes, funcionarios y referentes sociales por su trabajo en la gestión pública y su contribución al desarrollo de sus comunidades. La ceremonia de entrega se realizó en el Anexo del Senado de la Nación, en el marco de una convocatoria que reúne a representantes de distintos ámbitos y...",
+   "generado": "2026-10-20T23:49:38.418Z",
+   "id": "web:b4a12021-9279-4b86-9d0b-ae839890e171",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1289ec2dcaa74632962327ed458a0ba4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": {
    "categoria": "nacionales",
    "descripcion": "A casi un mes del fallecimiento del joven modelo a los 27 años, la supermodelo y su hija rompieron el silencio en redes sociales con tiernos recuerdos y…",
@@ -12698,22 +12778,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
-   "segundos": 900,
+   "restantes": 98,
+   "segundos": 899,
    "tope": 100
   },
   "24h": {
-   "restantes": 249,
-   "segundos": 86400,
+   "restantes": 247,
+   "segundos": 85180,
    "tope": 250
   },
   "30d": {
-   "restantes": 2334,
-   "segundos": 1805418,
+   "restantes": 2332,
+   "segundos": 1804197,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-20T23:40:23.000Z",
+ "cuota_visto": "2026-10-21T00:00:46.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -14961,7 +15041,7 @@
    "creado": "2026-10-20T00:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T23:52:22.000Z",
    "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
@@ -15127,7 +15207,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -15174,6 +15254,118 @@
    "vence": "2026-10-20T23:07:56.000Z",
    "video_bytes": 908760,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok": {
+   "actualizado": "2026-10-21T00:00:28.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
+   "creado": "2026-10-21T00:00:28.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-20T23:44:29.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Benjamín Gómez logró la primera medalla para Chivilcoy\n\nBenjamín Gómez obtuvo la medalla de bronce en la prueba de atletismo de 3000 metros sub-16 libre durante la primera jornada. La delegación sumó además partidos de fútbol PCD, con una derrota 2 a 9 frente a Escobar en mayores de 17 años.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Benjamín Gómez logró la primera medalla para Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-22T23:44:29.000Z",
+   "video_bytes": 3727261,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1efa1dfd7628de54.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x": {
+   "actualizado": "2026-10-21T00:00:41.000Z",
+   "buffer_id": "6ad800ac5af80146fcbeebde",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
+   "creado": "2026-10-21T00:00:28.000Z",
+   "dueAt": "2026-10-21T00:02:20.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T23:44:29.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "noticia": "nota:chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Benjamín Gómez logró la primera medalla para Chivilcoy\n\nEl atleta obtuvo la medalla de bronce en los 3000 metros sub-16 libre. Además, se conocieron los resultados de fútbol PCD en la primera jornada.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Benjamín Gómez logró la primera medalla para Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-21T01:44:29.000Z",
+   "video_bytes": 3727261,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1efa1dfd7628de54.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok": {
+   "actualizado": "2026-10-21T00:00:28.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
+   "creado": "2026-10-21T00:00:28.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "estado": "pendiente",
+   "generado": "2026-10-20T23:52:29.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación\n\nEl intendente de Chivilcoy, Guillermo Britos, recibió el Premio Comunas al Compromiso Ciudadano, una distinción que reconoce la labor de dirigentes, funcionarios y referentes sociales por su trabajo en la gestión pública y su contribución al desarrollo de sus comunidades.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación",
+   "urgente": false,
+   "vence": "2026-10-22T23:52:29.000Z",
+   "video_bytes": 627174,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x": {
+   "actualizado": "2026-10-21T00:00:41.000Z",
+   "buffer_id": "6ad800ac1dbc8c88b1f2e573",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
+   "creado": "2026-10-21T00:00:28.000Z",
+   "dueAt": "2026-10-21T00:07:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-20T23:52:29.000Z",
+   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "noticia": "nota:chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación",
+   "urgente": false,
+   "vence": "2026-10-21T01:52:29.000Z",
+   "video_bytes": 627174,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4|tiktok": {
@@ -16459,7 +16651,7 @@
    "creado": "2026-10-19T21:00:21.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T20:44:10.000Z",
    "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
@@ -16520,7 +16712,7 @@
    "creado": "2026-10-19T23:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T23:18:39.000Z",
    "id": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4",
@@ -16583,7 +16775,7 @@
    "creado": "2026-10-19T23:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "ya salieron los 5 de bot de hoy en TikTok",
    "estado": "pendiente",
    "generado": "2026-10-19T23:33:44.000Z",
    "id": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4",
@@ -19821,15 +20013,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4"
   },
   "nacionales:fb8bbb9c2285b74b|tiktok": {
-   "actualizado": "2026-10-20T21:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T00:00:41.000Z",
+   "buffer_id": "6ad800adc11f7f6be272f4a1",
    "categoria": "internacionales",
    "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
    "creado": "2026-10-20T21:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T00:23:12.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T21:16:40.000Z",
    "id": "nacionales:fb8bbb9c2285b74b",
    "intentos": 0,
@@ -22824,15 +23016,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0009_05_chacabuco_destrozaron-la-puerta-de-una-c.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-20T23:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T00:00:41.000Z",
+   "buffer_id": "6ad800ad8ebd684dd5ca5a78",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
    "creado": "2026-10-20T23:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T00:03:17.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-20T23:30:49.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
    "intentos": 0,
@@ -22852,18 +23044,19 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x": {
-   "actualizado": "2026-10-20T23:40:22.000Z",
+   "actualizado": "2026-10-21T00:00:41.000Z",
    "buffer_id": "6ad7fbe78c20162e7ecd73de",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
    "creado": "2026-10-20T23:40:14.000Z",
    "dueAt": "2026-10-20T23:43:34.000Z",
+   "enviado": "2026-10-20T23:43:48.421Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-20T23:30:49.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112691281432391842",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
    "noticia": "nota:chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
    "origen": "policiales",
@@ -25683,6 +25876,31 @@
    "vence": "2026-10-17T21:39:53.000Z",
    "video_bytes": 86336,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
+  },
+  "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x": {
+   "actualizado": "2026-10-21T00:00:28.000Z",
+   "buffer_id": "",
+   "clave": "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x",
+   "creado": "2026-10-21T00:00:28.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-20T23:42:33.196Z",
+   "id": "web:004e7af4-996b-4844-babe-bcc9c91c2fe6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "noticia": "nota:chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Benjamín Gómez logró la primera medalla para Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-21T03:42:33.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:010e4114-35e9-438d-8057-51285ef42a56|x": {
    "actualizado": "2026-10-20T02:20:17.000Z",
@@ -32332,6 +32550,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b4a12021-9279-4b86-9d0b-ae839890e171|x": {
+   "actualizado": "2026-10-21T00:00:28.000Z",
+   "buffer_id": "",
+   "clave": "web:b4a12021-9279-4b86-9d0b-ae839890e171|x",
+   "creado": "2026-10-21T00:00:28.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-20T23:49:38.418Z",
+   "id": "web:b4a12021-9279-4b86-9d0b-ae839890e171",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "noticia": "nota:chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación",
+   "urgente": false,
+   "vence": "2026-10-21T03:49:38.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x": {
    "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
@@ -35100,86 +35343,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mve43kv7d0je_01.mp4|tiktok",
-   "cuando": "2026-10-18T19:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698084979871583540"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok",
-   "cuando": "2026-10-18T19:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698075063286861062"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|x",
-   "cuando": "2026-10-18T19:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2111885974745588053"
-  },
-  {
-   "clave": "nacionales:4d4c5be14febf1aa|tiktok",
-   "cuando": "2026-10-18T20:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:82015de779d2e56d|tiktok",
-   "cuando": "2026-10-18T20:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b1c71e9d1312dd69|tiktok",
-   "cuando": "2026-10-18T20:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
-   "cuando": "2026-10-18T20:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:76f6781e9594def9|tiktok",
-   "cuando": "2026-10-18T20:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
-   "cuando": "2026-10-18T20:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f02de8c1-15da-4722-a133-920069b5d431|x",
-   "cuando": "2026-10-18T20:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/|tiktok",
-   "cuando": "2026-10-18T20:40:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698095682451754241"
-  },
   {
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|x",
    "cuando": "2026-10-18T21:00:18.000Z",
@@ -39262,6 +39425,88 @@
    "cuando": "2026-10-20T23:40:23.000Z",
    "dueAt": "2026-10-20T23:43:34.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
+   "cuando": "2026-10-21T00:00:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
+   "cuando": "2026-10-21T00:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
+   "cuando": "2026-10-21T00:00:40.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
+   "cuando": "2026-10-21T00:00:40.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:b4a12021-9279-4b86-9d0b-ae839890e171|x",
+   "cuando": "2026-10-21T00:00:41.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x",
+   "cuando": "2026-10-21T00:00:41.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
+   "cuando": "2026-10-21T00:00:41.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112691281432391842"
+  },
+  {
+   "buffer_id": "6ad800ac5af80146fcbeebde",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
+   "cuando": "2026-10-21T00:00:45.000Z",
+   "dueAt": "2026-10-21T00:02:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad800ac1dbc8c88b1f2e573",
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
+   "cuando": "2026-10-21T00:00:45.000Z",
+   "dueAt": "2026-10-21T00:07:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad800ad8ebd684dd5ca5a78",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-21T00:00:45.000Z",
+   "dueAt": "2026-10-21T00:03:17.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad800adc11f7f6be272f4a1",
+   "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
+   "cuando": "2026-10-21T00:00:45.000Z",
+   "dueAt": "2026-10-21T00:23:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39269,11 +39514,12 @@
    "2026-10-19 18",
    "2026-10-19 21",
    "2026-10-20 10",
-   "2026-10-20 18"
+   "2026-10-20 18",
+   "2026-10-20 21"
   ]
  },
- "ultima_limpieza_release": "2026-10-20",
- "ultima_sync": "2026-10-20T22:40:13.000Z",
+ "ultima_limpieza_release": "2026-10-21",
+ "ultima_sync": "2026-10-21T00:00:41.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -39317,6 +39563,8 @@
   "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i": "2026-10-20T01:40:15.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr": "2026-10-20T14:00:21.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": "2026-10-20T21:20:16.000Z",
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x": "2026-10-21T00:00:28.000Z",
+  "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095": "2026-10-21T00:00:28.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -39550,6 +39798,7 @@
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": "2026-10-17T09:00:19.000Z",
+  "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": "2026-10-21T00:00:28.000Z",
   "web:010e4114-35e9-438d-8057-51285ef42a56": "2026-10-19T02:20:15.000Z",
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
@@ -39794,6 +40043,7 @@
   "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1": "2026-10-15T10:20:13.000Z",
   "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": "2026-10-12T10:20:17.000Z",
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": "2026-10-14T13:20:22.000Z",
+  "web:b4a12021-9279-4b86-9d0b-ae839890e171": "2026-10-21T00:00:28.000Z",
   "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": "2026-10-18T23:40:13.000Z",
   "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd": "2026-10-19T21:00:21.000Z",
   "web:b4cfec79-0715-4512-9344-baf46d5042d1": "2026-10-19T10:20:14.000Z",

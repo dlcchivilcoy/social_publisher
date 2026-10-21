@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 5 | 6 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 0 | 1 | 0 | 2 | 0 |
-| Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 4 |
+| Reels del bot | X | 10 | 5 | 2 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 5 | 6 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 2 | 0 |
+| Reels policiales | TikTok | 5 | 0 | 1 | 0 | 0 | 2 | 0 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
-| Nacionales y categorías | TikTok | 5 | 1 | 0 | 1 | 0 | 0 | 2 |
+| Nacionales y categorías | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 2 |
 
 ## Canales
-- X: conectado · Buffer: 40 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 33 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,16 +28,16 @@ Actualizado: 20/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2334 de 3000 (visto 2026-10-20T23:40:23.000Z)
+15m: quedan 98 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2332 de 3000 (visto 2026-10-21T00:00:46.000Z)
 
 ## Cola propia (7 esperando)
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Nacionales y categorías · Francia aplicará nuevos toques de queda tras los disturbios y saqueos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Detuvieron a un hombre en Chacabuco por rebeldía judicial y violencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — ya salieron los 5 de bot de hoy en TikTok
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -49,17 +49,6 @@ Actualizado: 20/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-20T21:20 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
-- 2026-10-20T21:20 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tikto 
-- 2026-10-20T21:20 recibido nacionales:fb8bbb9c2285b74b|x 
-- 2026-10-20T21:20 recibido nacionales:fb8bbb9c2285b74b|tiktok 
-- 2026-10-20T21:20 recibido web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-20T21:20 depurado nacionales:fb8bbb9c2285b74b|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
-- 2026-10-20T21:20 enviado bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok 
-- 2026-10-20T21:20 programado bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x 
-- 2026-10-20T22:00 recibido nacionales:2880ee387867b2da|x dura 905 s y X admite 140 s sin suscripción
-- 2026-10-20T22:00 recibido nacionales:2880ee387867b2da|tiktok dura 905 s (TikTok: 3-600 s)
-- 2026-10-20T22:00 vencido bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-20T22:20 recibido nacionales:10671478a956c2ad|x 
 - 2026-10-20T22:20 recibido nacionales:10671478a956c2ad|tiktok 
 - 2026-10-20T22:20 depurado nacionales:10671478a956c2ad|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
@@ -74,3 +63,14 @@ Actualizado: 20/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-20T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
 - 2026-10-20T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
 - 2026-10-20T23:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
+- 2026-10-21T00:00 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
+- 2026-10-21T00:00 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tikto 
+- 2026-10-21T00:00 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
+- 2026-10-21T00:00 recibido bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tikto 
+- 2026-10-21T00:00 recibido web:b4a12021-9279-4b86-9d0b-ae839890e171|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-21T00:00 recibido web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-21T00:00 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
+- 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x 
+- 2026-10-21T00:00 programado bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x 
+- 2026-10-21T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
+- 2026-10-21T00:00 programado nacionales:fb8bbb9c2285b74b|tiktok 
