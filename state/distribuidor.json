@@ -5542,6 +5542,32 @@
    "volanta": "Violencia urbana en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/tfJUuD3vol8"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos. El agresor escapó antes de la llegada de los móviles.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-21T01:31:08.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una vecina de Chacabuco vivió momentos de tensión durante la madrugada cuando su ex pareja intentó ingresar a la fuerza a su domicilio.\n\nEl sujeto trató de entrar por los fondos de la propiedad y una reja en una ventana frustró su ingreso a la vivienda.\n\nEfectivos de la policía local acudieron al llamado de auxilio de la víctima, aunque el acusado logró escapar antes de ser interceptado.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #ViolenciaDeGenero #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos",
+   "urgente": false,
+   "video_bytes": 82430,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/KoqoLADZ27Y"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": {
    "categoria": "robo",
    "descripcion": "Tres sospechosos fueron arrestados en Moreno y Arrecifes en el marco de una causa por un robo en Chacabuco. La policía incautó vehículos y dinero extranjero, mientras persisten las dudas sobre el monto total recuperado.",
@@ -12996,23 +13022,23 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 244,
-   "segundos": 80407,
+   "restantes": 243,
+   "segundos": 79201,
    "tope": 250
   },
   "30d": {
-   "restantes": 2329,
-   "segundos": 1799424,
+   "restantes": 2328,
+   "segundos": 1798218,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T01:20:16.000Z",
+ "cuota_visto": "2026-10-21T01:40:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
   "enviados": 100,
   "motivo": "",
-  "visto": "2026-10-20T01:20:17.000Z"
+  "visto": "2026-10-21T01:40:22.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -14862,14 +14888,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698121692236877076",
    "metricas": {
-    "averageTimeWatched": 4.82,
+    "averageTimeWatched": 4.6,
     "comments": 0,
-    "engagementRate": 0.77,
-    "reach": 0,
+    "engagementRate": 0.65,
+    "reach": 123,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 22.73,
-    "views": 261
+    "totalTimeWatched": 26.13,
+    "views": 306
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-defendio-el-patrimonio-municipal-y-cruzo-a",
    "origen": "bot",
@@ -14902,7 +14928,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -14962,8 +14988,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 5.41,
-    "impressions": 37,
+    "engagementRate": 4.76,
+    "impressions": 42,
     "reactions": 0,
     "reposts": 0
    },
@@ -15024,7 +15050,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 21,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -15056,14 +15082,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698456660397821202",
    "metricas": {
-    "averageTimeWatched": 6.7,
+    "averageTimeWatched": 6.08,
     "comments": 0,
-    "engagementRate": 1.97,
+    "engagementRate": 1.18,
     "reach": 0,
-    "reactions": 4,
+    "reactions": 7,
     "shares": 0,
-    "totalTimeWatched": 21.45,
-    "views": 203
+    "totalTimeWatched": 65.17,
+    "views": 591
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "origen": "bot",
@@ -15096,7 +15122,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -15128,14 +15154,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698436096232819975",
    "metricas": {
-    "averageTimeWatched": 3.76,
+    "averageTimeWatched": 3.65,
     "comments": 0,
-    "engagementRate": 0.64,
+    "engagementRate": 0.54,
     "reach": 0,
-    "reactions": 1,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 10.6,
-    "views": 157
+    "totalTimeWatched": 25.95,
+    "views": 373
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "origen": "bot",
@@ -15168,7 +15194,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -15230,7 +15256,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 0
    },
@@ -15315,6 +15341,16 @@
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698735568456273173",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-personas-y-secuestraron",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15370,6 +15406,16 @@
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698874022259363093",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15397,6 +15443,14 @@
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112560663289577927",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
    "noticia": "nota:chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
    "origen": "bot",
@@ -15454,6 +15508,14 @@
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112655676841312263",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
    "noticia": "nota:chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
    "origen": "bot",
@@ -15511,6 +15573,14 @@
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112696022010855772",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
    "noticia": "nota:chivilcoy-deportes-benjamin-gomez-logro-la-primera-medalla-para",
    "origen": "bot",
@@ -15568,6 +15638,14 @@
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112697262837055678",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
    "noticia": "nota:chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
    "origen": "bot",
@@ -16453,14 +16531,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698084979871583540",
    "metricas": {
-    "averageTimeWatched": 8.07,
+    "averageTimeWatched": 8.05,
     "comments": 0,
-    "engagementRate": 1.5,
-    "reach": 0,
+    "engagementRate": 1.39,
+    "reach": 317,
     "reactions": 11,
     "shares": 0,
-    "totalTimeWatched": 104.88,
-    "views": 735
+    "totalTimeWatched": 113.12,
+    "views": 789
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
    "origen": "bot",
@@ -16554,7 +16632,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 21,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -16586,14 +16664,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698368844783488257",
    "metricas": {
-    "averageTimeWatched": 9.65,
+    "averageTimeWatched": 8.86,
     "comments": 0,
-    "engagementRate": 1.77,
+    "engagementRate": 1.78,
     "reach": 0,
-    "reactions": 4,
+    "reactions": 10,
     "shares": 0,
-    "totalTimeWatched": 37.63,
-    "views": 226
+    "totalTimeWatched": 88.33,
+    "views": 563
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
    "origen": "bot",
@@ -16625,9 +16703,9 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 16,
-    "reactions": 0,
+    "engagementRate": 6.38,
+    "impressions": 47,
+    "reactions": 1,
     "reposts": 0
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
@@ -16658,14 +16736,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698348865329712405",
    "metricas": {
-    "averageTimeWatched": 5.82,
+    "averageTimeWatched": 4.2,
     "comments": 0,
-    "engagementRate": 0.76,
+    "engagementRate": 1.69,
     "reach": 0,
-    "reactions": 1,
+    "reactions": 7,
     "shares": 0,
-    "totalTimeWatched": 13,
-    "views": 132
+    "totalTimeWatched": 29.75,
+    "views": 413
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
    "origen": "bot",
@@ -16695,10 +16773,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112205034083504339",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 2.94,
+    "impressions": 34,
     "reactions": 0,
     "reposts": 0
    },
@@ -16730,14 +16808,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698466997759167752",
    "metricas": {
-    "averageTimeWatched": 5.32,
+    "averageTimeWatched": 5.12,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.34,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 3.63,
-    "views": 59
+    "totalTimeWatched": 53.63,
+    "views": 592
    },
    "nota_url": "",
    "origen": "bot",
@@ -16770,7 +16848,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -16802,14 +16880,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698446237464284437",
    "metricas": {
-    "averageTimeWatched": 12,
+    "averageTimeWatched": 10.2,
     "comments": 0,
-    "engagementRate": 1.03,
+    "engagementRate": 0.8,
     "reach": 0,
-    "reactions": 2,
+    "reactions": 7,
     "shares": 0,
-    "totalTimeWatched": 37.98,
-    "views": 194
+    "totalTimeWatched": 166.12,
+    "views": 874
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
    "origen": "bot",
@@ -16842,7 +16920,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -16903,7 +16981,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -16964,7 +17042,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -17027,7 +17105,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -17060,6 +17138,16 @@
    "id": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698740059100466484",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-actividad-para-la-delegacion-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17115,6 +17203,16 @@
    "id": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698863722617474322",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17142,6 +17240,14 @@
    "id": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112570369043251613",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
    "noticia": "nota:chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
    "origen": "bot",
@@ -17171,6 +17277,16 @@
    "id": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698868986011864341",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17198,6 +17314,14 @@
    "id": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112580370763813335",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:avenida-caja-carniceria-guemes-registradora-robaron",
    "origen": "bot",
@@ -17227,6 +17351,16 @@
    "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698858576617409799",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17254,6 +17388,14 @@
    "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112605835037708576",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:camaras-difundieron-robaron-seguridad-troka",
    "origen": "bot",
@@ -17311,6 +17453,14 @@
    "id": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112706211577483489",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "noticia": "nota:chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "origen": "bot",
@@ -17368,6 +17518,14 @@
    "id": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112707533500489815",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
    "noticia": "nota:chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
    "origen": "bot",
@@ -18046,7 +18204,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 33,
     "reactions": 0,
     "reposts": 0
    },
@@ -18081,7 +18239,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 53,
     "reactions": 0,
     "reposts": 0
    },
@@ -18116,7 +18274,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -18151,7 +18309,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 20,
     "reactions": 0,
     "reposts": 0
    },
@@ -18186,7 +18344,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -18217,6 +18375,14 @@
    "id": "entrevistas:job00230",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112591095636922703",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:desgarrador-giallorenzi-haiku-jorge-terremoto",
    "origen": "entrevistas",
@@ -18246,6 +18412,14 @@
    "id": "entrevistas:job00231",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112600398385025535",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:cosimano-cuidar-curar-itati-perez-puede",
    "origen": "entrevistas",
@@ -18275,6 +18449,14 @@
    "id": "entrevistas:job00232",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112606982641156112",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:fuerte-historia-marcelo-nino-speranza",
    "origen": "entrevistas",
@@ -18304,6 +18486,14 @@
    "id": "entrevistas:job00233",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112610502119457161",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:bonaerenses-carabelli-chivilcoyanos-emilio-juegos",
    "origen": "entrevistas",
@@ -18333,6 +18523,14 @@
    "id": "entrevistas:job00234",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112620665324867732",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:berges-chivilcoy-drones-gonzalez-nicolas-seguridad-termicos",
    "origen": "entrevistas",
@@ -18833,12 +19031,12 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112338964770173167",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
-    "reactions": 0,
-    "reposts": 0
+    "engagementRate": 5.56,
+    "impressions": 90,
+    "reactions": 1,
+    "reposts": 1
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
    "noticia": "nota:la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
@@ -18895,6 +19093,14 @@
    "id": "nacionales:4399eb58559e6a51",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112353944265494811",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 37,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
    "noticia": "nota:una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
    "origen": "nacionales",
@@ -19053,14 +19259,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853",
    "metricas": {
-    "averageTimeWatched": 6.12,
+    "averageTimeWatched": 6.1,
     "comments": 0,
-    "engagementRate": 4.39,
+    "engagementRate": 4.2,
     "reach": 0,
     "reactions": 5,
     "shares": 0,
-    "totalTimeWatched": 13.35,
-    "views": 114
+    "totalTimeWatched": 13.92,
+    "views": 119
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
    "origen": "nacionales",
@@ -19220,14 +19426,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698538640070298881",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 5.87,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.29,
     "reach": 0,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "reactions": 7,
+    "shares": 2,
+    "totalTimeWatched": 74.67,
+    "views": 698
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
    "origen": "nacionales",
@@ -19334,6 +19540,16 @@
    "id": "nacionales:7473fc970bead57a",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698745252835888436",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -19361,6 +19577,14 @@
    "id": "nacionales:7473fc970bead57a",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112364125397323940",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 23,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
    "noticia": "nota:vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
    "origen": "nacionales",
@@ -19417,14 +19641,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698131974233394453",
    "metricas": {
-    "averageTimeWatched": 4.34,
+    "averageTimeWatched": 4.32,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 117,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 43.22,
-    "views": 511
+    "totalTimeWatched": 43.47,
+    "views": 514
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
    "origen": "nacionales",
@@ -19610,14 +19834,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698534033801678101",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 3.54,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.78,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 16.92,
+    "views": 258
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
    "origen": "nacionales",
@@ -19702,7 +19926,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 41,
     "reactions": 0,
     "reposts": 0
    },
@@ -19788,14 +20012,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048",
    "metricas": {
-    "averageTimeWatched": 6.19,
+    "averageTimeWatched": 5.67,
     "comments": 0,
     "engagementRate": 0.33,
     "reach": 0,
-    "reactions": 2,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 63.58,
-    "views": 602
+    "totalTimeWatched": 125.3,
+    "views": 1228
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7",
    "origen": "nacionales",
@@ -20477,14 +20701,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698389776776400148",
    "metricas": {
-    "averageTimeWatched": 7.63,
-    "comments": 0,
-    "engagementRate": 3.86,
+    "averageTimeWatched": 7.23,
+    "comments": 1,
+    "engagementRate": 3.54,
     "reach": 0,
-    "reactions": 19,
+    "reactions": 20,
     "shares": 0,
-    "totalTimeWatched": 63.73,
-    "views": 492
+    "totalTimeWatched": 75.4,
+    "views": 593
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8",
    "origen": "nacionales",
@@ -20514,6 +20738,16 @@
    "id": "nacionales:fb8bbb9c2285b74b",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698910088416857351",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-impondra-nuevos-toques-de-queda-tras-los-fb8bbb",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -21177,7 +21411,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 36,
     "reactions": 0,
     "reposts": 0
    },
@@ -22740,6 +22974,14 @@
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112708966220185827",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-principio-de-incendio-en-un-departamento-del-barrio-4ab108",
    "noticia": "nota:bragado-un-principio-de-incendio-en-un-departamento-del-barrio-4ab108",
    "origen": "policiales",
@@ -22797,6 +23039,14 @@
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112701414778560630",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
    "noticia": "nota:bragado-un-auto-choco-a-una-moto-y-cuatro-personas-terminaron-c1c845",
    "origen": "policiales",
@@ -23161,14 +23411,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698379749432855815",
    "metricas": {
-    "averageTimeWatched": 4.29,
+    "averageTimeWatched": 4.19,
     "comments": 0,
-    "engagementRate": 0.69,
+    "engagementRate": 0.76,
     "reach": 0,
-    "reactions": 3,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 31.48,
-    "views": 434
+    "totalTimeWatched": 38,
+    "views": 525
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
    "origen": "policiales",
@@ -23200,8 +23450,8 @@
    "metricas": {
     "clicks": 2,
     "comments": 0,
-    "engagementRate": 6.25,
-    "impressions": 48,
+    "engagementRate": 5.36,
+    "impressions": 56,
     "reactions": 0,
     "reposts": 0
    },
@@ -23546,7 +23796,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 39,
     "reactions": 0,
     "reposts": 0
    },
@@ -23632,6 +23882,16 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698904991599316225",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -23660,6 +23920,14 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112691281432391842",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
    "noticia": "nota:chacabuco-detuvieron-a-un-hombre-que-acumulaba-causas-por-65a1ec",
    "origen": "policiales",
@@ -23961,6 +24229,62 @@
    "vence": "2026-10-18T12:41:23.000Z",
    "video_bytes": 79842,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-21T01:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
+   "creado": "2026-10-21T01:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-21T01:31:08.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos\n\nUna vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos. El agresor escapó antes de la llegada de los móviles.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos",
+   "urgente": false,
+   "vence": "2026-10-21T19:31:08.000Z",
+   "video_bytes": 82430,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x": {
+   "actualizado": "2026-10-21T01:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
+   "creado": "2026-10-21T01:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-21T01:31:08.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
+   "noticia": "nota:chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos\n\nUna vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos",
+   "urgente": false,
+   "vence": "2026-10-21T03:31:08.000Z",
+   "video_bytes": 82430,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
+   "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|tiktok": {
    "actualizado": "2026-10-17T19:00:18.000Z",
@@ -24730,14 +25054,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7698075063286861062",
    "metricas": {
-    "averageTimeWatched": 4.68,
+    "averageTimeWatched": 4.34,
     "comments": 0,
-    "engagementRate": 1.28,
-    "reach": 0,
-    "reactions": 7,
+    "engagementRate": 1.4,
+    "reach": 328,
+    "reactions": 9,
     "shares": 0,
-    "totalTimeWatched": 45.48,
-    "views": 547
+    "totalTimeWatched": 50.9,
+    "views": 644
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-de-24-anos-tras-el-robo-a-un-ae4739",
    "origen": "policiales",
@@ -24770,7 +25094,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 36,
+    "impressions": 37,
     "reactions": 0,
     "reposts": 0
    },
@@ -25989,12 +26313,12 @@
    "metricas": {
     "averageTimeWatched": 4.61,
     "comments": 0,
-    "engagementRate": 0.95,
-    "reach": 0,
+    "engagementRate": 0.93,
+    "reach": 436,
     "reactions": 6,
     "shares": 0,
-    "totalTimeWatched": 50.9,
-    "views": 632
+    "totalTimeWatched": 51.82,
+    "views": 643
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-detuvieron-al-papa-de-la-abogada-acusada-de-racismo-b2beac",
    "origen": "policiales",
@@ -27463,7 +27787,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 0
    },
@@ -27841,6 +28165,14 @@
    "id": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112495419041210868",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 12.5,
+    "impressions": 8,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/aniversario-especial-el-circulo-criollo-el-bozal-celebra-sus-50-anos",
    "origen": "web",
    "plataforma": "x",
@@ -28360,7 +28692,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -28785,8 +29117,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 4.17,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -28817,6 +29149,14 @@
    "id": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112553994077835629",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
    "origen": "web",
    "plataforma": "x",
@@ -29119,7 +29459,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -29296,6 +29636,14 @@
    "id": "web:4d61cc5b-9d70-46db-b815-a8250038f4de",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112561668530098432",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
    "origen": "web",
    "plataforma": "x",
@@ -29437,6 +29785,14 @@
    "id": "web:5253b590-963f-4a40-8acf-18a1f53713b5",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112539086086885439",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4",
    "origen": "web",
    "plataforma": "x",
@@ -29583,6 +29939,14 @@
    "id": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112491802041131187",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 8,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/presupuesto-2027-el-diputado-eduardo-falcone-exige-incluir-reclamos",
    "origen": "web",
    "plataforma": "x",
@@ -30202,6 +30566,14 @@
    "id": "web:6f8cf702-5cb7-4b03-8945-02d406201533",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112506866018238718",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 16,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/francia-macron-admitio-fallas-de-inteligencia-tras-protestas-41adf4",
    "origen": "web",
    "plataforma": "x",
@@ -30457,7 +30829,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -30963,7 +31335,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 39,
     "reactions": 0,
     "reposts": 0
    },
@@ -31212,10 +31584,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112193491853844577",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 3.13,
+    "impressions": 32,
     "reactions": 0,
     "reposts": 0
    },
@@ -31246,6 +31618,14 @@
    "id": "web:847aec7b-6e8c-4074-82b2-d77103ae355f",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112535310252855614",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
    "origen": "web",
    "plataforma": "x",
@@ -31323,6 +31703,14 @@
    "id": "web:85b0f263-df46-4783-b4dd-311f977e50c9",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112542731146813801",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/interna-peronista-los-secretos-de-la-reunion-entre-cristina-d6dc41",
    "origen": "web",
    "plataforma": "x",
@@ -31400,6 +31788,14 @@
    "id": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112499843859943526",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 9.09,
+    "impressions": 11,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/autocritica-publica-estamos-aca-reconociendo-nuestro-error-el-voto",
    "origen": "web",
    "plataforma": "x",
@@ -31535,8 +31931,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 3.85,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -32495,6 +32891,14 @@
    "id": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112487806647836736",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 9,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/oscar-potetti-no-se-entiende-por-que-hay-50-millones-de-dolares-para",
    "origen": "web",
    "plataforma": "x",
@@ -32526,7 +32930,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -32587,7 +32991,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 49,
     "reactions": 0,
     "reposts": 0
    },
@@ -32694,6 +33098,14 @@
    "id": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112503031992361058",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 9,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/apertura-peronista-el-periodista-gustavo-gato-sylvestre-presento-su",
    "origen": "web",
    "plataforma": "x",
@@ -32777,7 +33189,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -33294,6 +33706,14 @@
    "id": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112484683053138343",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 10,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/malestar-y-restitucion-entre-la-actuacion-policial-y-la-movilizacion",
    "origen": "web",
    "plataforma": "x",
@@ -33975,7 +34395,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -34482,7 +34902,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 31,
+    "impressions": 42,
     "reactions": 0,
     "reposts": 0
    },
@@ -35119,6 +35539,14 @@
    "id": "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112550218872836210",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/un-perro-de-15-anos-volvio-a-caminar-gracias-al-pilates-y-se-677e9d",
    "origen": "web",
    "plataforma": "x",
@@ -35444,7 +35872,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -35530,7 +35958,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -35822,6 +36250,14 @@
    "id": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112546443135238334",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/escandalo-en-racing-luis-alfonso-espino-se-cruzo-con-los-a09771",
    "origen": "web",
    "plataforma": "x",
@@ -35849,6 +36285,14 @@
    "id": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2112557831463301465",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/primer-desacuerdo-geopolitico-entre-javier-milei-y-donald-trump-54abaf",
    "origen": "web",
    "plataforma": "x",
@@ -35996,21 +36440,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad54f880b0d72757a40ce1e",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|x",
-   "cuando": "2026-10-18T23:00:24.000Z",
-   "dueAt": "2026-10-18T23:18:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
-   "cuando": "2026-10-18T23:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
    "cuando": "2026-10-18T23:20:25.000Z",
@@ -40152,6 +40581,22 @@
    "cuando": "2026-10-21T01:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7698904991599316225"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
+   "cuando": "2026-10-21T01:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-21T01:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -40404,6 +40849,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html": "2026-10-17T19:00:17.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": "2026-10-21T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",

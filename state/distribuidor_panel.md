@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 20/10/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 9 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 5 | 6 | 0 | 5 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 0 | 0 | 0 | 2 | 0 |
-| Reels policiales | TikTok | 5 | 1 | 0 | 2 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 2 | 0 |
+| Reels policiales | TikTok | 5 | 1 | 0 | 3 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 13 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 5 |
@@ -18,24 +18,26 @@ Actualizado: 20/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 11 con métricas · mediana vistas/impresiones 18 · likes 0
-- X · Reels del bot: 38 con métricas · mediana vistas/impresiones 20 · likes 0
-- X · Reels policiales: 26 con métricas · mediana vistas/impresiones 32 · likes 0
-- X · Notas web: 60 con métricas · mediana vistas/impresiones 16.5 · likes 0
-- X · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 27 con métricas · mediana vistas/impresiones 255 · likes 2
-- TikTok · Reels policiales: 17 con métricas · mediana vistas/impresiones 493 · likes 4
-- TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 303 · likes 1
+- X · Recortes de entrevistas: 16 con métricas · mediana vistas/impresiones 19 · likes 0
+- X · Reels del bot: 47 con métricas · mediana vistas/impresiones 21 · likes 0
+- X · Reels policiales: 29 con métricas · mediana vistas/impresiones 33 · likes 0
+- X · Notas web: 75 con métricas · mediana vistas/impresiones 18 · likes 0
+- X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 39 · likes 0 ⚠️muestra chica
+- TikTok · Reels del bot: 33 con métricas · mediana vistas/impresiones 306 · likes 2
+- TikTok · Reels policiales: 18 con métricas · mediana vistas/impresiones 493 · likes 4
+- TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2329 de 3000 (visto 2026-10-21T01:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2328 de 3000 (visto 2026-10-21T01:40:22.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Fuego en un departamento del barrio Fonavi 2 movilizó a los bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,8 +55,6 @@ Actualizado: 20/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x 
-- 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok 
 - 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x 
 - 2026-10-21T00:40 recibido bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok 
 - 2026-10-21T00:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
@@ -78,3 +78,5 @@ Actualizado: 20/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-21T01:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31026/prin 
 - 2026-10-21T01:20 enviado policiales:https://www.bragadoinforma.com.ar/nota/31032/un-a 
 - 2026-10-21T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/detenido- 
+- 2026-10-21T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
+- 2026-10-21T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
