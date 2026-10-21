@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -31,16 +31,16 @@ Actualizado: 21/10/2026 10:00 (hora AR) · ACTIVO
 15m: quedan 98 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2316 de 3000 (visto 2026-10-21T13:00:30.000Z)
 
 ## Cola propia (10 esperando)
-- TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels policiales · Fuego en un departamento del barrio Fonavi 2 movilizó a los bomberos — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels policiales · Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — no entró entre las 3 más virales de la tanda 10 h
-- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — no entró entre las 3 más virales de la tanda 10 h
+- TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Fuego en un departamento del barrio Fonavi 2 movilizó a los bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels policiales · Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Presentaron el proyecto de ley contra las apuestas en línea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
