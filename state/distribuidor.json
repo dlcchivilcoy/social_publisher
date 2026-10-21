@@ -2223,6 +2223,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
    "youtube_url": "https://youtu.be/nbVuebH4AQ4"
   },
+  "entrevistas:job00236": {
+   "descripcion": "El referente peronista Pablo Poggi cuestionó con dureza al intendente de Chivilcoy y afirmó que la gestión municipal está terminada ante las fallas en seguridad, tránsito y salud pública.",
+   "duracion_seg": null,
+   "entrevistado": "Pablo Poggi",
+   "generado": "2026-10-21T20:00:18.000Z",
+   "id": "entrevistas:job00236",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Pablo Poggi criticó la gestión en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 28043208,
+   "video_mb": 26.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00236.mp4",
+   "youtube_url": "https://youtu.be/_gvuAHILQsY"
+  },
   "entrevistas:job00237": {
    "descripcion": "En Chivilcoy, Nicolás Felice, referente de juventud de La Libertad Avanza, cuestionó a los militantes que pasan años en la universidad pública sin recibirse.",
    "duracion_seg": null,
@@ -13350,17 +13370,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 191,
-   "segundos": 15608,
+   "restantes": 190,
+   "segundos": 13204,
    "tope": 250
   },
   "30d": {
-   "restantes": 2276,
-   "segundos": 1734625,
+   "restantes": 2275,
+   "segundos": 1732221,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T19:20:15.000Z",
+ "cuota_visto": "2026-10-21T20:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18960,6 +18980,34 @@
    "vence": "2026-10-21T18:40:14.000Z",
    "video_bytes": 30763549,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
+   "viral": false
+  },
+  "entrevistas:job00236|x": {
+   "actualizado": "2026-10-21T20:00:19.000Z",
+   "buffer_id": "6ad919d4b945508d3f845e7d",
+   "clave": "entrevistas:job00236|x",
+   "creado": "2026-10-21T20:00:18.000Z",
+   "dueAt": "2026-10-21T20:02:05.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T20:00:18.000Z",
+   "id": "entrevistas:job00236",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chivilcoy-critico-gestion-pablo-poggi",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Pablo Poggi criticó la gestión en Chivilcoy\n\nEl referente peronista Pablo Poggi cuestionó con dureza al intendente de Chivilcoy y afirmó que la gestión municipal está terminada ante las fallas en seguridad, tránsito y salud pública.\n\nhttps://youtu.be/_gvuAHILQsY",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Pablo Poggi criticó la gestión en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-21T22:00:18.000Z",
+   "video_bytes": 28043208,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00236.mp4",
    "viral": false
   },
   "entrevistas:job00237|x": {
@@ -37295,27 +37343,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad5dc56ea56886c471776da",
-   "clave": "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a|x",
-   "cuando": "2026-10-19T09:01:12.000Z",
-   "dueAt": "2026-10-19T13:15:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5dc56e1ba3b5f47d6b0fd",
-   "clave": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x",
-   "cuando": "2026-10-19T09:01:12.000Z",
-   "dueAt": "2026-10-19T13:30:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5dc57ea5ddfc300f51ca1",
-   "clave": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5|x",
-   "cuando": "2026-10-19T09:01:12.000Z",
-   "dueAt": "2026-10-19T13:45:38.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad5dc57fbe396fa0f895cba",
    "clave": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x",
    "cuando": "2026-10-19T09:01:12.000Z",
@@ -41393,6 +41420,26 @@
    "cuando": "2026-10-21T19:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112977964396630214"
+  },
+  {
+   "clave": "entrevistas:job00236",
+   "cuando": "2026-10-21T20:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00236|x",
+   "cuando": "2026-10-21T20:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad919d4b945508d3f845e7d",
+   "clave": "entrevistas:job00236|x",
+   "cuando": "2026-10-21T20:00:20.000Z",
+   "dueAt": "2026-10-21T20:02:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41515,6 +41562,7 @@
   "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
   "entrevistas:job00234": "2026-10-20T19:00:19.000Z",
   "entrevistas:job00235": "2026-10-21T16:40:14.000Z",
+  "entrevistas:job00236": "2026-10-21T20:00:18.000Z",
   "entrevistas:job00237": "2026-10-21T17:40:15.000Z",
   "entrevistas:job00238": "2026-10-21T18:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
