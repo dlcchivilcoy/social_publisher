@@ -160,14 +160,14 @@ policiales y 5 para virales; todo haciendo énfasis en video / reels». Por día
 |---|---|---|
 | Bot | 5 | los reels del bot |
 | Policiales | 5 | los reels de policiales (todos los días) |
-| Virales | 5 | nacionales de la categoría virales o de mundo (internacionales virales con video) y cualquier video de potencial 9-10; **todos los días** |
+| Virales | 10 (desde el 21/10; antes 5) | nacionales de la categoría virales o de mundo (internacionales virales con video) y cualquier video de potencial 9-10; **todos los días** |
 
 - A TikTok van solo videos. Lo demás (generales, deportes, espectáculos, IA, cine, recortes) no va a TikTok.
 - Cada categoría tiene sus lugares: no se los presta a otra. En cada tanda le toca su parte de lo que le queda
   del día (a las 10, hasta 2 de cada una; en la de las 21, todo lo que le quede); si una no tiene nada, las
   otras pueden adelantar sus propios lugares del día.
 - Dentro de cada categoría, lo más viral primero; sigue el intercalado (nunca dos policiales seguidos).
-- `TIKTOK_REPARTO="bot:5,policiales:5,virales:5"` lo cambia; `TIKTOK_REPARTO=0` vuelve a «lo más viral de todo».
+- `TIKTOK_REPARTO="bot:5,policiales:5,virales:10"` lo cambia (tope de TikTok 20 desde el 21/10/2026); `TIKTOK_REPARTO=0` vuelve a «lo más viral de todo».
 - El tope total sigue siendo el de TikTok: si la cuenta midió un tope menor (`tope_medido`), manda ese.
 
 ## X sincronizado y sin repetidos (19/10/2026)

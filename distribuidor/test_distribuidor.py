@@ -21,6 +21,8 @@ os.environ["TIKTOK_TANDAS"] = "0"
 os.environ["TIKTOK_REPARTO"] = "0"
 # …y los cupos de TikTok por origen de antes (bot 10, policiales 12, nacionales 4).
 os.environ["CUPO_BOT_TIKTOK"], os.environ["CUPO_POLICIALES_TIKTOK"], os.environ["CUPO_NACIONALES_TIKTOK"] = "10", "12", "4"
+# …y el tope de TikTok de antes (15; desde el 21/10/2026 es 20).
+os.environ["TOPE_TIKTOK_24H"] = "15"
 # X sincronizado y sin repetidos (19/10/2026) tiene su prueba propia (prueba_x_sincro); las demás son del
 # goteo de antes, con sus cupos de entonces.
 os.environ["X_SINCRO"] = "0"
@@ -797,28 +799,30 @@ def prueba_x_sincro():
 
 
 def prueba_reparto_tiktok():
-    """TikTok 5 + 5 + 5 (20/10/2026): 5 del bot, 5 policiales y 5 virales por día, solo videos; los virales
-    salen todos los días y el resto de las nacionales no va a TikTok."""
-    print("\n— TikTok: 5 del bot, 5 policiales y 5 virales por día —")
+    """TikTok 5 + 5 + 10 (20/10/2026; virales 10 desde el 21/10): 5 del bot, 5 policiales y 10 virales por
+    día (tope 20), solo videos; los virales salen todos los días y el resto de las nacionales no va."""
+    print("\n— TikTok: 5 del bot, 5 policiales y 10 virales por día —")
     preparar(lambda: [])
     os.environ["TIKTOK_TANDAS"], os.environ["INTERCALADO"] = "10,18,21", "0"
     os.environ.pop("TIKTOK_REPARTO", None)
+    os.environ.pop("TOPE_TIKTOK_24H", None)
     config.SOLO_FINDE = {"nacionales"}
     try:
-        chequear("reparto de fábrica: 5, 5 y 5", config.tiktok_reparto() == {"bot": 5, "policiales": 5, "virales": 5})
+        chequear("reparto de fábrica: 5, 5 y 10 (tope 20)",
+                 config.tiktok_reparto() == {"bot": 5, "policiales": 5, "virales": 10} and config.tope_24h("tiktok") == 20)
 
         def pub(i, origen, viral_pot, viral=False):
             return {"clave": f"{origen}{i}|tiktok", "id": f"{origen}{i}", "plataforma": "tiktok", "estado": "pendiente",
                     "origen": origen, "prioridad": viral_pot, "titulo": f"Pieza {origen} {i}", "viral": viral,
                     "generado": estado.iso(AR_10 - timedelta(hours=1))}
         lote = ([pub(i, "bot", 9 - i % 5) for i in range(7)] + [pub(i, "policiales", 10 - i % 6) for i in range(7)]
-                + [pub(i, "nacionales", 8, viral=True) for i in range(7)] + [pub(9, "nacionales", 10)])
+                + [pub(i, "nacionales", 8, viral=True) for i in range(12)] + [pub(99, "nacionales", 10)])
         est = estado.vacio()
         est["publicaciones"] = {x["clave"]: x for x in lote}
         lunes = AR_10                                                    # lunes 12/10, 10:00
         chequear("lunes: el viral nacional sí va a TikTok; la nacional que no es viral, no; en X, al finde",
                  x_sincro.fuera_de_regla(est["publicaciones"]["nacionales0|tiktok"], lunes) == ""
-                 and "solo el bot" in x_sincro.fuera_de_regla(est["publicaciones"]["nacionales9|tiktok"], lunes)
+                 and "solo el bot" in x_sincro.fuera_de_regla(est["publicaciones"]["nacionales99|tiktok"], lunes)
                  and "finde" in x_sincro.fuera_de_regla(dict(pub(0, "nacionales", 8, True), plataforma="x"), lunes))
         chequear("viral para TikTok: virales, mundo o potencial 9-10",
                  x_sincro.viral_tiktok({"categoria_nacional": "internacionales"})
@@ -832,11 +836,13 @@ def prueba_reparto_tiktok():
             for k, due in a:
                 est["publicaciones"][k].update(estado="programado", dueAt=due)
         total = [c for t in por_tanda for c in t]
-        chequear("en el día: exactamente 5 del bot, 5 policiales y 5 virales (15)",
-                 len(total) == 15 and all(total.count(c) == 5 for c in ("bot", "policiales", "virales")), por_tanda)
-        chequear("cada tanda reparte (ninguna categoría se lleva toda la de las 10)",
-                 max(por_tanda[0].count(c) for c in ("bot", "policiales", "virales")) <= 2, por_tanda)
-        chequear("la nacional que no es viral nunca entra", est["publicaciones"]["nacionales9|tiktok"]["estado"] == "pendiente")
+        chequear("en el día: exactamente 5 del bot, 5 policiales y 10 virales (20)",
+                 len(total) == 20 and total.count("bot") == 5 and total.count("policiales") == 5
+                 and total.count("virales") == 10, por_tanda)
+        chequear("cada tanda reparte (a las 10: hasta 2 del bot, 2 policiales y 4 virales)",
+                 por_tanda[0].count("bot") <= 2 and por_tanda[0].count("policiales") <= 2
+                 and por_tanda[0].count("virales") <= 4, por_tanda)
+        chequear("la nacional que no es viral nunca entra", est["publicaciones"]["nacionales99|tiktok"]["estado"] == "pendiente")
         sobra_bot = [k for k, p in est["publicaciones"].items() if p["origen"] == "bot" and p["estado"] == "pendiente"]
         chequear("lo que sobra espera con su motivo (ya salieron los 5 de hoy)",
                  sobra_bot and all("ya salieron los 5 de bot" in espera.get(k, "") for k in sobra_bot), espera)
@@ -857,6 +863,7 @@ def prueba_reparto_tiktok():
         chequear("TIKTOK_REPARTO se puede cambiar", config.tiktok_reparto() == {"bot": 6, "policiales": 4, "virales": 5})
     finally:
         os.environ["TIKTOK_TANDAS"], os.environ["INTERCALADO"], os.environ["TIKTOK_REPARTO"] = "0", "0", "0"
+        os.environ["TOPE_TIKTOK_24H"] = "15"
         config.SOLO_FINDE = set()
 
 

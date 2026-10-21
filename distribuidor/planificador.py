@@ -200,7 +200,8 @@ def planificar_tanda(est: dict, plataforma: str, ahora: datetime) -> tuple[list,
     en_24h = sum(1 for d in ocupadas if ahora - timedelta(hours=24) < d <= ahora + timedelta(hours=3))
     en_buffer = [p for p in mias if p["estado"] in ("programado", "enviando")
                  and (estado.de_iso(p.get("dueAt")) or ahora) > ahora - timedelta(minutes=2)]
-    n = min(max(1, tope24 // max(1, len(config.tiktok_tandas()))),
+    # Lo de cada tanda, redondeado para arriba (20 / 3 = 7): el tope de 24 h igual frena el total.
+    n = min(max(1, -(-tope24 // max(1, len(config.tiktok_tandas())))),
             config.max_pendientes(plataforma) - len(en_buffer), max(0, tope24 - en_24h))
     espera = {}
     if n <= 0:

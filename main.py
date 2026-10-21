@@ -130,6 +130,12 @@ def main() -> None:
         help="CARRUSEL Tapa+Farmacias en FB/IG (tapa 1°, farmacias 2°) + historia de la tapa.",
     )
     parser.add_argument(
+        "--solo-muro",
+        action="store_true",
+        help="Con --tapa-farmacias: SOLO las publicaciones del muro de Facebook (la corrida de las 06:00); "
+             "las historias quedan para la de las 08:00.",
+    )
+    parser.add_argument(
         "--muro-tapa-farmacias",
         action="store_true",
         help="POSTEO en el muro de Facebook (00:00) con la tapa del día + la foto de farmacias de turno (una sola publicación, solo FB).",
@@ -427,7 +433,7 @@ def main() -> None:
     if args.tapa_farmacias:
         from carrusel_tapa_farmacias import run_tapa_farmacias
         logger.info(f"Modo --tapa-farmacias (dry_run={args.dry_run}).")
-        run_tapa_farmacias(dry_run=args.dry_run)
+        run_tapa_farmacias(dry_run=args.dry_run, solo_muro=args.solo_muro)
         return
     if args.tiktok_opciones:
         # Lo elegido en la pantalla de confirmación viaja como un solo argumento y se vuelca

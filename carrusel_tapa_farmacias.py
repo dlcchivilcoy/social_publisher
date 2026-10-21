@@ -267,9 +267,14 @@ def _caption_clima(fecha: str, d: dict) -> str:
             f"Datos: Instituto Meteorológico de Noruega (MET Norway).")
 
 
-def run_tapa_farmacias(dry_run: bool = False) -> None:
+def run_tapa_farmacias(dry_run: bool = False, solo_muro: bool = False) -> None:
     """Publicaciones + historias de la mañana (08:00), en este orden:
     TAPA → FARMACIAS → SEPELIOS → CLIMA (pedido 2026-10-04).
+
+    `solo_muro` (21/10/2026, pedido del editor: «quiero que el posteo en Facebook de tapa, farmacias,
+    sepelios y clima salga a las 6 am»): la corrida de las 06:00 publica SOLO las 4 publicaciones del muro
+    de Facebook; la de las 08:00 (la de siempre) saltea lo que ya salió a las 6 (ledger) y publica las
+    historias. Si el muro de las 6 falló, la de las 8 lo reintenta.
 
     Cada pieza sale como PUBLICACIÓN en el muro de Facebook (foto 4:5 + texto) y,
     enseguida, como HISTORIA en Instagram y Facebook. Tapa solo lun–vie; farmacias,
@@ -281,7 +286,8 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
 
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
     hoy = date.today()
-    logger.info(f"=== Publicaciones e historias de la mañana [{modo}] — {hoy.isoformat()} ===")
+    logger.info(f"=== Publicaciones e historias de la mañana [{modo}{', solo el muro de Facebook' if solo_muro else ''}]"
+                f" — {hoy.isoformat()} ===")
 
     fecha = farm._fecha_larga(hoy).capitalize()
     plats, extra = _platforms(), _extra_platforms()
@@ -343,7 +349,10 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
         return
 
     muro = _muro_activo()
-    story_fns = {"instagram": instagram.publish_story, "facebook": facebook.publish_story}
+    if solo_muro and not muro:
+        logger.info("Muro de Facebook apagado (MURO_FB=0): la corrida de solo el muro no hace nada.")
+        return
+    story_fns = {} if solo_muro else {"instagram": instagram.publish_story, "facebook": facebook.publish_story}
 
     # Acciones en ORDEN: por cada pieza, primero la publicación del muro y después sus
     # historias. Cada una es (etiqueta, red, función); red "muro" = muro de Facebook.
@@ -424,7 +433,10 @@ def run_tapa_farmacias(dry_run: bool = False) -> None:
     # corrida en alguna red: si una red falló, mañana no se repiten en las otras. (Si los
     # de hoy ya habían salido antes, los nuevos que aparecieron después no se marcan:
     # entran mañana.)
-    if "sepelios" in salieron_ahora:
+    # Con el muro a las 06:00 (solo_muro), los sepelios se marcan recién en la corrida de las 08:00, cuando
+    # salen sus historias: si se marcaran a las 6, a las 8 ya no habría sepelios para las historias.
+    if not solo_muro and ("sepelios" in salieron_ahora
+                          or any(k.startswith("sepelios|") for k in hechos)):
         sep.marcar_historia(sepelios_hoy)
 
     if not pendientes:

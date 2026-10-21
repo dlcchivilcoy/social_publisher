@@ -81,9 +81,10 @@ def cupo(origen: str, plataforma: str) -> int:
 
 # Tope TOTAL por plataforma en 24 h móviles (suma de todos los orígenes).
 #   X: Buffer admite 50 a una cuenta sin verificar → 47 deja margen para posteos a mano.
-#   TikTok: 15 (ver arriba). Si TikTok admite más en la práctica, subir TOPE_TIKTOK_24H.
+#   TikTok: 20 desde el 21/10/2026 (5 bot + 5 policiales + 10 virales; antes 15). Si TikTok frena antes
+#   («esperá 24 h»), el distribuidor anota el tope que midió (pausas.tiktok.tope_medido) y lo respeta 7 días.
 def tope_24h(plataforma: str) -> int:
-    return _int(f"TOPE_{plataforma.upper()}_24H", {"x": 47, "tiktok": 15}[plataforma])
+    return _int(f"TOPE_{plataforma.upper()}_24H", {"x": 47, "tiktok": 20}[plataforma])
 
 
 # Programadas a la vez en Buffer por canal. El plan Free admite 10; se dejan 2 libres para
@@ -127,8 +128,9 @@ def tiktok_tandas() -> tuple:
 # Por día (calendario de Argentina): cada categoría tiene SUS lugares y no se los presta a otra. A TikTok solo
 # van videos. Virales = las nacionales de la categoría virales o de mundo (internacionales virales con video)
 # y cualquier video de potencial 9-10; salen TODOS los días (el resto de nacionales no va a TikTok).
-# TIKTOK_REPARTO="bot:5,policiales:5,virales:5"; "0" lo apaga (vuelve a lo más viral de todo).
-TIKTOK_REPARTO_DEFAULT = {"bot": 5, "policiales": 5, "virales": 5}
+# TIKTOK_REPARTO="bot:5,policiales:5,virales:10"; "0" lo apaga (vuelve a lo más viral de todo).
+# 21/10/2026 («de TikTok agregá 5 más de virales»): virales 5 → 10, y el tope de 24 h 15 → 20.
+TIKTOK_REPARTO_DEFAULT = {"bot": 5, "policiales": 5, "virales": 10}
 NAC_VIRALES_TIKTOK = {"virales", "internacionales"}
 
 
