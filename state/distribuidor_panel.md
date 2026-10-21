@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 20/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -36,8 +36,8 @@ Actualizado: 20/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Guillermo Britos recibió el Premio Comunas en el Senado de la Nación — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Benjamín Gómez logró la primera medalla para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Fuego en un departamento del barrio Fonavi 2 movilizó a los bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Bragado: un auto embistió a una moto con cuatro personas y hubo cuatro heridos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se incendió un automóvil en el trazado de la Ruta 30 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
