@@ -23423,15 +23423,15 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok": {
-   "actualizado": "2026-10-21T00:20:18.000Z",
+   "actualizado": "2026-10-21T18:20:17.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok",
    "creado": "2026-10-21T00:20:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-21T00:01:14.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html",
    "intentos": 0,
@@ -37246,14 +37246,6 @@
  },
  "registro": [
   {
-   "clave": "web:d7ad4f31-314f-442d-8bc0-e21896071433|x",
-   "cuando": "2026-10-19T09:01:09.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "nacionales:502713ec1f96e399|tiktok",
    "cuando": "2026-10-19T09:01:09.000Z",
    "evento": "vencido",
@@ -41346,6 +41338,12 @@
    "cuando": "2026-10-21T18:00:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112962814683857036"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok",
+   "cuando": "2026-10-21T18:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {
