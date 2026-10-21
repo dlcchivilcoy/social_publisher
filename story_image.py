@@ -1239,9 +1239,10 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
 #     alternan uno y uno dos estilos: "A" (foto grande, filete naranja, titular en
 #     mayúsculas con la volanta en naranja) y "B" (foto más chica con pestaña naranja,
 #     titular + bajada).
-#   • Fotos CUADRADAS o VERTICALES: "C", la foto a sangre y el titular en una caja
-#     semitransparente que NUNCA tapa una cara: va abajo, o arriba (debajo de los logos)
-#     si las caras están abajo.
+#   • Fotos CUADRADAS o VERTICALES: también A/B (21/10/2026, pedido del editor: el básquet y
+#     los Juegos Bonaerenses salieron «con una estética distinta a la que habíamos quedado»):
+#     la foto arriba recortada cuidando las caras y el bloque de texto abajo. "C" (la foto a
+#     sangre con el titular en una caja semitransparente) queda solo para las placas SIN foto.
 #   • Logo «La Campaña / RADIO DEL CENTRO» arriba a la izquierda, isologo arriba a la
 #     derecha. Número de la placa y flecha abajo a la derecha (invitan a deslizar).
 # compose_note_slide (arriba) queda para los posteos sueltos de Facebook de nacionales.
@@ -1317,11 +1318,11 @@ def es_horizontal(photo_path) -> bool:
 
 
 def estilos_carrusel(fotos: list) -> list:
-    """Estilo de cada placa: "C" las cuadradas/verticales (y las que no tienen foto); las
-    horizontales alternan "A", "B", "A"… en el orden en que aparecen."""
+    """Estilo de cada placa: las que tienen foto (horizontal, cuadrada o vertical) alternan "A", "B",
+    "A"… en el orden en que aparecen; "C", solo las que no tienen foto (21/10/2026)."""
     estilos, n = [], 0
     for foto in fotos:
-        if foto and es_horizontal(foto):
+        if foto:
             estilos.append("AB"[n % 2])
             n += 1
         else:
@@ -1549,11 +1550,11 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
                            site_url: str = "", idx: int | None = None, total: int | None = None,
                            *, tema: str = "claro", estilo: str | None = None) -> Path:
     """Placa 4:5 del carrusel, estilo portal (ver el bloque de arriba). `estilo`: "A", "B" o
-    "C"; sin estilo, "C" si la foto es cuadrada o vertical y "A" si es horizontal (el que
-    alterna es el que llama, con estilos_carrusel)."""
+    "C"; sin estilo, "A" si hay foto (de cualquier forma) y "C" si no hay (el que alterna es el
+    que llama, con estilos_carrusel)."""
     t = TEMAS_CARRUSEL.get(tema, TEMAS_CARRUSEL["claro"])
     if estilo not in ("A", "B", "C"):
-        estilo = "A" if photo_path and es_horizontal(photo_path) else "C"
+        estilo = "A" if photo_path else "C"
     canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), t["fondo"])
     foto = None
     if photo_path:
