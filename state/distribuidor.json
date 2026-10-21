@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-21T13:00:25.000Z"
+   "visto": "2026-10-21T14:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 36
+    "scheduled": 0,
+    "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-21T13:00:25.000Z"
+   "visto": "2026-10-21T14:20:14.000Z"
   }
  },
  "contenidos": {
@@ -13285,22 +13285,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 231,
-   "segundos": 38396,
+   "restantes": 197,
+   "segundos": 33609,
    "tope": 250
   },
   "30d": {
-   "restantes": 2316,
-   "segundos": 1757414,
+   "restantes": 2282,
+   "segundos": 1752626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T13:00:30.000Z",
+ "cuota_visto": "2026-10-21T14:20:14.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15930,19 +15930,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok": {
-   "actualizado": "2026-10-21T13:00:25.000Z",
+   "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8b76c820ac627995086d8",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
    "creado": "2026-10-21T02:20:14.000Z",
    "dueAt": "2026-10-21T13:23:53.000Z",
+   "enviado": "2026-10-21T13:25:47.139Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T02:10:14.000Z",
    "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699111332712353032",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17802,19 +17803,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok": {
-   "actualizado": "2026-10-21T13:00:25.000Z",
+   "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8b76e0c5e774bdfb0c60e",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
    "creado": "2026-10-21T00:40:14.000Z",
    "dueAt": "2026-10-21T13:43:01.000Z",
+   "enviado": "2026-10-21T13:44:58.851Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T00:29:10.000Z",
    "id": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699116206346784052",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -24556,19 +24558,20 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-21T13:00:25.000Z",
+   "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8b76b88865f7e6d302290",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
    "creado": "2026-10-21T01:40:14.000Z",
    "dueAt": "2026-10-21T13:03:37.000Z",
+   "enviado": "2026-10-21T13:09:07.869Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T01:31:08.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699107057726688532",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -33260,19 +33263,20 @@
    "video_url": ""
   },
   "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x": {
-   "actualizado": "2026-10-21T11:40:17.000Z",
+   "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8a4a13021c1ef52b36650",
    "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T13:06:59.000Z",
+   "enviado": "2026-10-21T13:07:39.040Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:03:17.727Z",
    "id": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce",
    "ig_hora": "2026-10-21T13:06:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112893575486742860",
    "nota_url": "https://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
    "noticia": "nota:drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
    "origen": "web",
@@ -37143,38 +37147,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:b18ec1977365d369|tiktok",
-   "cuando": "2026-10-19T09:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b4cf751f44529f62|tiktok",
-   "cuando": "2026-10-19T09:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:07376db2590e79bf|tiktok",
-   "cuando": "2026-10-19T09:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:eba0c0c1b9408496|tiktok",
-   "cuando": "2026-10-19T09:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
   {
    "clave": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5|x",
    "cuando": "2026-10-19T09:00:19.000Z",
@@ -41264,6 +41236,30 @@
    "cuando": "2026-10-21T13:00:30.000Z",
    "dueAt": "2026-10-21T13:43:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
+   "cuando": "2026-10-21T14:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699111332712353032"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
+   "cuando": "2026-10-21T14:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699116206346784052"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
+   "cuando": "2026-10-21T14:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699107057726688532"
+  },
+  {
+   "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
+   "cuando": "2026-10-21T14:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112893575486742860"
   }
  ],
  "tandas": {
@@ -41277,7 +41273,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T13:00:25.000Z",
+ "ultima_sync": "2026-10-21T14:20:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
