@@ -15,7 +15,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-21T10:20:57.000Z"
+   "visto": "2026-10-21T11:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
+    "scheduled": 3,
     "sent": 33
    },
    "pausado": false,
-   "visto": "2026-10-21T10:20:57.000Z"
+   "visto": "2026-10-21T11:40:16.000Z"
   }
  },
  "contenidos": {
@@ -13290,17 +13290,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 235,
-   "segundos": 45604,
+   "restantes": 233,
+   "segundos": 43206,
    "tope": 250
   },
   "30d": {
-   "restantes": 2320,
-   "segundos": 1764622,
+   "restantes": 2318,
+   "segundos": 1762223,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T11:00:19.000Z",
+ "cuota_visto": "2026-10-21T11:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -27251,19 +27251,20 @@
    "video_url": ""
   },
   "web:037db3cf-2837-40cd-af9c-c0b367f30802|x": {
-   "actualizado": "2026-10-21T10:20:57.000Z",
+   "actualizado": "2026-10-21T11:40:16.000Z",
    "buffer_id": "6ad8920aeeda5396835d94d0",
    "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T11:21:03.000Z",
+   "enviado": "2026-10-21T11:21:16.375Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:27.711Z",
    "id": "web:037db3cf-2837-40cd-af9c-c0b367f30802",
    "ig_hora": "2026-10-21T11:21:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112866804833882438",
    "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
    "noticia": "nota:tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
    "origen": "web",
@@ -28489,19 +28490,20 @@
    "viral": false
   },
   "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x": {
-   "actualizado": "2026-10-21T10:02:23.000Z",
+   "actualizado": "2026-10-21T11:40:16.000Z",
    "buffer_id": "6ad88db1d1cf44a4af4d561e",
    "clave": "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x",
    "creado": "2026-10-21T10:02:08.000Z",
    "dueAt": "2026-10-21T10:21:49.000Z",
+   "enviado": "2026-10-21T10:22:02.045Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:01:53.439Z",
    "id": "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3",
    "ig_hora": "2026-10-21T10:21:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112851896725627015",
    "nota_url": "https://www.diariolacampaña.com.ar/n/plaza-francia-realizaran-modificaciones-para-evitar-danos-las",
    "noticia": "nota:plaza-francia-realizaran-modificaciones-para-evitar-danos-las",
    "origen": "web",
@@ -29228,19 +29230,20 @@
    "video_url": ""
   },
   "web:3759665f-fb36-4adc-8b4c-b317b209876b|x": {
-   "actualizado": "2026-10-21T10:20:57.000Z",
+   "actualizado": "2026-10-21T11:40:16.000Z",
    "buffer_id": "6ad8920aeeda5396835d94a7",
    "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T11:06:39.000Z",
+   "enviado": "2026-10-21T11:06:46.270Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:22.121Z",
    "id": "web:3759665f-fb36-4adc-8b4c-b317b209876b",
    "ig_hora": "2026-10-21T11:06:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112863155202261317",
    "nota_url": "https://www.diariolacampaña.com.ar/n/haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
    "noticia": "nota:haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
    "origen": "web",
@@ -29572,19 +29575,20 @@
    "viral": false
   },
   "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x": {
-   "actualizado": "2026-10-21T10:20:57.000Z",
+   "actualizado": "2026-10-21T11:40:16.000Z",
    "buffer_id": "6ad89209d803b33b75382fa6",
    "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
    "creado": "2026-10-21T10:20:15.000Z",
    "dueAt": "2026-10-21T10:51:08.000Z",
+   "enviado": "2026-10-21T10:51:16.416Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:12.076Z",
    "id": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc",
    "ig_hora": "2026-10-21T10:51:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112859254759514481",
    "nota_url": "https://www.diariolacampaña.com.ar/n/acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
    "noticia": "nota:acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
    "origen": "web",
@@ -33253,14 +33257,14 @@
    "video_url": ""
   },
   "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x": {
-   "actualizado": "2026-10-21T10:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-21T11:40:17.000Z",
+   "buffer_id": "6ad8a4a13021c1ef52b36650",
    "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
    "creado": "2026-10-21T10:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-21T13:06:59.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-21T10:03:17.727Z",
    "id": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce",
    "ig_hora": "2026-10-21T13:06:57.000Z",
@@ -36749,19 +36753,20 @@
    "video_url": ""
   },
   "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x": {
-   "actualizado": "2026-10-21T10:02:23.000Z",
+   "actualizado": "2026-10-21T11:40:16.000Z",
    "buffer_id": "6ad88db1d109f3f66b8bef8c",
    "clave": "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x",
    "creado": "2026-10-21T10:02:08.000Z",
    "dueAt": "2026-10-21T10:36:09.000Z",
+   "enviado": "2026-10-21T10:36:16.494Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T10:02:06.049Z",
    "id": "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62",
    "ig_hora": "2026-10-21T10:36:57.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2112855480317972759",
    "nota_url": "https://www.diariolacampaña.com.ar/n/volveria-la-inestabilidad-speranza-sostuvo-que-si-no-se-trata-del",
    "noticia": "nota:volveria-la-inestabilidad-speranza-sostuvo-que-si-no-se-trata-del",
    "origen": "web",
@@ -37135,54 +37140,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:02472f0cd4ba4800|tiktok",
-   "cuando": "2026-10-19T02:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:2f1a6dccc7eef682|tiktok",
-   "cuando": "2026-10-19T02:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:97bd2fed895cbca6|tiktok",
-   "cuando": "2026-10-19T02:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:a45e03c51dbe2f12|tiktok",
-   "cuando": "2026-10-19T02:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:883bc6cd67a29d7e|tiktok",
-   "cuando": "2026-10-19T02:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:9d5801d6974360c3|tiktok",
-   "cuando": "2026-10-19T02:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
   {
    "clave": "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x",
    "cuando": "2026-10-19T02:40:26.000Z",
@@ -41276,6 +41233,43 @@
    "cuando": "2026-10-21T11:00:19.000Z",
    "dueAt": "2026-10-21T12:21:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
+   "cuando": "2026-10-21T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112866804833882438"
+  },
+  {
+   "clave": "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x",
+   "cuando": "2026-10-21T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112851896725627015"
+  },
+  {
+   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
+   "cuando": "2026-10-21T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112863155202261317"
+  },
+  {
+   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
+   "cuando": "2026-10-21T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112859254759514481"
+  },
+  {
+   "clave": "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x",
+   "cuando": "2026-10-21T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2112855480317972759"
+  },
+  {
+   "buffer_id": "6ad8a4a13021c1ef52b36650",
+   "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
+   "cuando": "2026-10-21T11:40:17.000Z",
+   "dueAt": "2026-10-21T13:06:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41288,7 +41282,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-21",
- "ultima_sync": "2026-10-21T10:20:57.000Z",
+ "ultima_sync": "2026-10-21T11:40:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
