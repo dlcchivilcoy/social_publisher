@@ -2203,6 +2203,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00234.mp4",
    "youtube_url": "https://youtu.be/gfYI66dMI0M"
   },
+  "entrevistas:job00235": {
+   "descripcion": "La concejal Rosario Galland advirtió sobre las graves fallas edilicias y la humedad en las viviendas de San Ceferino 3 en Chivilcoy. También alertó sobre la falta de respuestas y asfalto de cara a las obras del San Ceferino 4.",
+   "duracion_seg": null,
+   "entrevistado": "Rosario Galland",
+   "generado": "2026-10-21T16:40:14.000Z",
+   "id": "entrevistas:job00235",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Rosario Galland denuncia fallas en San Ceferino 3",
+   "urgente": false,
+   "video_bytes": 30763549,
+   "video_mb": 29.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
+   "youtube_url": "https://youtu.be/nbVuebH4AQ4"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -13290,17 +13310,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 197,
-   "segundos": 33609,
+   "restantes": 196,
+   "segundos": 25206,
    "tope": 250
   },
   "30d": {
-   "restantes": 2282,
-   "segundos": 1752626,
+   "restantes": 2281,
+   "segundos": 1744224,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-21T14:20:14.000Z",
+ "cuota_visto": "2026-10-21T16:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18871,6 +18891,34 @@
    "vence": "2026-10-20T21:00:19.000Z",
    "video_bytes": 34514648,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00234.mp4",
+   "viral": false
+  },
+  "entrevistas:job00235|x": {
+   "actualizado": "2026-10-21T16:40:16.000Z",
+   "buffer_id": "6ad8eaf1bc53d1798323c30a",
+   "clave": "entrevistas:job00235|x",
+   "creado": "2026-10-21T16:40:14.000Z",
+   "dueAt": "2026-10-21T16:42:51.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-21T16:40:14.000Z",
+   "id": "entrevistas:job00235",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:ceferino-denuncia-fallas-galland-rosario",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Rosario Galland denuncia fallas en San Ceferino 3\n\nLa concejal Rosario Galland advirtió sobre fallas edilicias y humedad en viviendas de San Ceferino 3 en Chivilcoy. También alertó por la falta de respuestas y asfalto ante obras del San Ceferino 4.\n\nhttps://youtu.be/nbVuebH4AQ4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rosario Galland denuncia fallas en San Ceferino 3",
+   "urgente": false,
+   "vence": "2026-10-21T18:40:14.000Z",
+   "video_bytes": 30763549,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -37148,30 +37196,6 @@
  },
  "registro": [
   {
-   "clave": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5|x",
-   "cuando": "2026-10-19T09:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x",
-   "cuando": "2026-10-19T09:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x",
-   "cuando": "2026-10-19T09:00:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:2618a8ce-8352-4c8a-8e71-1b5bf69b11e0|x",
    "cuando": "2026-10-19T09:00:33.000Z",
    "estado": "pendiente",
@@ -41260,6 +41284,26 @@
    "cuando": "2026-10-21T14:20:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2112893575486742860"
+  },
+  {
+   "clave": "entrevistas:job00235",
+   "cuando": "2026-10-21T16:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00235|x",
+   "cuando": "2026-10-21T16:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ad8eaf1bc53d1798323c30a",
+   "clave": "entrevistas:job00235|x",
+   "cuando": "2026-10-21T16:40:17.000Z",
+   "dueAt": "2026-10-21T16:42:51.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41381,6 +41425,7 @@
   "entrevistas:job00232": "2026-10-20T18:00:17.000Z",
   "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
   "entrevistas:job00234": "2026-10-20T19:00:19.000Z",
+  "entrevistas:job00235": "2026-10-21T16:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

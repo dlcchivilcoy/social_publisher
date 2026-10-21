@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,7 +28,7 @@ Actualizado: 21/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 386 · likes 3
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 197 de 250 · 30d: quedan 2282 de 3000 (visto 2026-10-21T14:20:14.000Z)
+15m: quedan 99 de 100 · 24h: quedan 196 de 250 · 30d: quedan 2281 de 3000 (visto 2026-10-21T16:40:17.000Z)
 
 ## Cola propia (10 esperando)
 - TikTok · Reels del bot · German Romanello presentó la iniciativa La UNLu Corre por la Inclusión — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,9 +52,6 @@ Actualizado: 21/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-21T10:20 enviado web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x 
-- 2026-10-21T10:20 programado web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x 
-- 2026-10-21T10:20 programado web:3759665f-fb36-4adc-8b4c-b317b209876b|x 
 - 2026-10-21T10:20 programado web:037db3cf-2837-40cd-af9c-c0b367f30802|x 
 - 2026-10-21T10:20 programado web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x 
 - 2026-10-21T10:40 programado web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x 
@@ -77,3 +74,6 @@ Actualizado: 21/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-21T14:20 enviado bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok 
 - 2026-10-21T14:20 enviado policiales:https://www.chacabuquero.com.ar/2026/10/vecina-ac 
 - 2026-10-21T14:20 enviado web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x 
+- 2026-10-21T16:40 entrevista_aprobada entrevistas:job00235 
+- 2026-10-21T16:40 recibido entrevistas:job00235|x 
+- 2026-10-21T16:40 programado entrevistas:job00235|x 
