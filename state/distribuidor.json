@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 7
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-22T02:20:19.000Z"
+   "visto": "2026-10-22T10:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-22T02:20:19.000Z"
+   "visto": "2026-10-22T10:20:14.000Z"
   }
  },
  "contenidos": {
@@ -13706,22 +13706,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 50182,
+   "restantes": 238,
+   "segundos": 49205,
    "tope": 250
   },
   "30d": {
-   "restantes": 2260,
-   "segundos": 1681603,
+   "restantes": 2258,
+   "segundos": 1680626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T10:03:59.000Z",
+ "cuota_visto": "2026-10-22T10:20:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -32107,14 +32107,14 @@
    "video_url": ""
   },
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x": {
-   "actualizado": "2026-10-22T10:02:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-22T10:20:14.000Z",
+   "buffer_id": "6ad9e35f81158a0b17983abe",
    "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
    "creado": "2026-10-22T10:02:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-22T11:37:48.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-22T10:01:33.292Z",
    "id": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32",
    "ig_hora": "2026-10-22T11:37:12.000Z",
@@ -34646,19 +34646,20 @@
    "viral": false
   },
   "web:993aea8e-95de-4b48-ac0f-22d386bc338b|x": {
-   "actualizado": "2026-10-22T10:03:57.000Z",
+   "actualizado": "2026-10-22T10:20:14.000Z",
    "buffer_id": "6ad9df8e194287d6a1f17158",
    "clave": "web:993aea8e-95de-4b48-ac0f-22d386bc338b|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T10:07:07.000Z",
+   "enviado": "2026-10-22T10:07:16.079Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:00:57.399Z",
    "id": "web:993aea8e-95de-4b48-ac0f-22d386bc338b",
    "ig_hora": "2026-10-22T10:07:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113210568836350252",
    "nota_url": "https://www.diariolacampaña.com.ar/n/recursos-especificos-proponen-financiar-la-autovia-ruta-5-con-un",
    "noticia": "nota:recursos-especificos-proponen-financiar-la-autovia-ruta-5-con-un",
    "origen": "web",
@@ -38636,22 +38637,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:8f3dac102e5cdee4|tiktok",
-   "cuando": "2026-10-19T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:54abafdb21dc7c6a|tiktok",
-   "cuando": "2026-10-19T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
   {
    "clave": "nacionales:d4259eeed3d3426d|tiktok",
    "cuando": "2026-10-19T15:20:18.000Z",
@@ -42723,6 +42708,19 @@
    "cuando": "2026-10-22T10:03:59.000Z",
    "dueAt": "2026-10-22T11:22:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:993aea8e-95de-4b48-ac0f-22d386bc338b|x",
+   "cuando": "2026-10-22T10:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113210568836350252"
+  },
+  {
+   "buffer_id": "6ad9e35f81158a0b17983abe",
+   "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
+   "cuando": "2026-10-22T10:20:15.000Z",
+   "dueAt": "2026-10-22T11:37:48.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42738,7 +42736,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T02:20:19.000Z",
+ "ultima_sync": "2026-10-22T10:20:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
