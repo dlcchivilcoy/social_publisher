@@ -15,7 +15,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-22T22:00:28.000Z"
+   "visto": "2026-10-22T23:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 29
+    "sent": 30
    },
    "pausado": false,
-   "visto": "2026-10-22T22:00:28.000Z"
+   "visto": "2026-10-22T23:20:15.000Z"
   }
  },
  "contenidos": {
@@ -13530,17 +13530,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 211,
-   "segundos": 4797,
+   "restantes": 210,
+   "segundos": 2404,
    "tope": 250
   },
   "30d": {
-   "restantes": 2231,
-   "segundos": 1636218,
+   "restantes": 2230,
+   "segundos": 1633825,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T22:40:23.000Z",
+ "cuota_visto": "2026-10-22T23:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16308,18 +16308,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x": {
-   "actualizado": "2026-10-22T22:40:22.000Z",
+   "actualizado": "2026-10-22T23:20:15.000Z",
    "buffer_id": "6ada90d71dc335d347e1bce8",
    "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x",
    "creado": "2026-10-22T22:40:13.000Z",
    "dueAt": "2026-10-22T22:42:59.000Z",
+   "enviado": "2026-10-22T22:43:51.197Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T22:20:46.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113400969828446329",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
    "noticia": "nota:chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
    "origen": "bot",
@@ -38213,12 +38214,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:0d6b3d4ada951c07|tiktok",
-   "cuando": "2026-10-19T22:20:24.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
    "clave": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x",
    "cuando": "2026-10-19T22:20:24.000Z",
    "evento": "vencido",
@@ -42314,6 +42309,12 @@
    "cuando": "2026-10-22T22:40:23.000Z",
    "dueAt": "2026-10-22T22:42:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x",
+   "cuando": "2026-10-22T23:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113400969828446329"
   }
  ],
  "tandas": {
@@ -42331,7 +42332,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T22:00:28.000Z",
+ "ultima_sync": "2026-10-22T23:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
