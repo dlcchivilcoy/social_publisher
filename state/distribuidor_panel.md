@@ -1,21 +1,21 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 5 | 0 | 2 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 1 | 1 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 1 | 0 | 0 | 0 | 4 |
+| Reels policiales | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 1 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 2 enviadas + 2 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 20 con métricas · mediana vistas/impresiones 22 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 22/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2250 de 3000 (visto 2026-10-22T13:20:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2249 de 3000 (visto 2026-10-22T13:40:15.000Z)
 
 ## Cola propia (5 esperando)
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -47,10 +47,6 @@ Actualizado: 22/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T10:20 programado web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x 
-- 2026-10-22T10:40 programado web:976bae39-fdab-4787-9e26-8828e58badc1|x 
-- 2026-10-22T10:40 programado web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x 
-- 2026-10-22T11:00 depurado web:2e4fe240-6f88-48fa-9527-8c188ea675b0|x no está en el carrusel del diario de hoy
 - 2026-10-22T11:00 depurado web:a223c7fb-02cc-4f0e-8968-13bbf35af953|x no está en el carrusel del diario de hoy
 - 2026-10-22T11:00 depurado web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be|x no está en el carrusel del diario de hoy
 - 2026-10-22T11:00 programado web:6fd91d62-6af9-4582-8ddd-55770c943c13|x 
@@ -72,3 +68,7 @@ Actualizado: 22/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-22T13:20 recibido bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok 
 - 2026-10-22T13:20 recibido web:a7875969-2bc4-498e-8b29-ec2539b13deb|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-22T13:20 programado bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x 
+- 2026-10-22T13:40 enviado bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tikto 
+- 2026-10-22T13:40 enviado bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x 
+- 2026-10-22T13:40 enviado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
+- 2026-10-22T13:40 enviado web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x 
