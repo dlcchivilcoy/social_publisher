@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 5 | 5 | 0 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 5 | 2 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 4 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 5 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 7 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,14 +28,16 @@ Actualizado: 21/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2262 de 3000 (visto 2026-10-22T01:40:32.000Z)
+15m: quedan 99 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2261 de 3000 (visto 2026-10-22T02:20:19.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (9 esperando)
 - TikTok · Reels del bot · Presentaron oficialmente la 39ª edición del Rally de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · José Navarro clasificó a la final de Taba y definirá el podio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Sufrió su décimo robo la Cooperativa 27 de Octubre en el basural municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · El jardinero entregó a una jubilada para un violento asalto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Dos detenidos tras cuatro allanamientos por un robo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -49,11 +51,6 @@ Actualizado: 21/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T00:40 recibido bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok 
-- 2026-10-22T00:40 recibido web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-22T00:40 programado bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x 
-- 2026-10-22T01:00 recibido policiales:https://diariodelujan.com/un-robo-dos-sospechosos 
-- 2026-10-22T01:00 recibido policiales:https://diariodelujan.com/un-robo-dos-sospechosos 
 - 2026-10-22T01:00 recibido nacionales:b3aa9eb0744c0822|x 
 - 2026-10-22T01:00 recibido nacionales:b3aa9eb0744c0822|tiktok 
 - 2026-10-22T01:00 depurado nacionales:b3aa9eb0744c0822|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
@@ -74,3 +71,8 @@ Actualizado: 21/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-22T01:40 recibido web:d650e27a-6c22-4e26-a19b-afcb223f9d3f|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-22T01:40 programado bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x 
 - 2026-10-22T01:40 programado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
+- 2026-10-22T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/motocicli 
+- 2026-10-22T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/motocicli 
+- 2026-10-22T02:20 enviado bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x 
+- 2026-10-22T02:20 enviado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
+- 2026-10-22T02:20 enviado policiales:https://diariodelujan.com/un-robo-dos-sospechosos 

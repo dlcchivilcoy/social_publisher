@@ -15,7 +15,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-22T01:00:23.000Z"
+   "visto": "2026-10-22T02:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 20
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-22T01:00:23.000Z"
+   "visto": "2026-10-22T02:20:19.000Z"
   }
  },
  "contenidos": {
@@ -5881,6 +5881,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_0239_01_chacabuco_vecino-evit-un-robo-al-alertar.mp4",
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/Qv-J3gWVvbI"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una joven de 20 años resultó herida esta tarde tras protagonizar un accidente en su moto en Chacabuco. Fue trasladada al hospital y no hubo otros vehículos involucrados, pero la policía halló la escena sin el rodado.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T02:01:05.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-motociclista-de-20-anos-hospitalizada-tras-un-extrano-dc59c5",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una joven de 20 años protagonizó un accidente vial esta tarde en la ciudad de Chacabuco.\n\nEl hecho ocurrió en la esquina de Alem y Pueyrredón, donde la conductora sufrió heridas por causas que se investigan.\n\nSegún informaron fuentes policiales, no hubo otro vehículo involucrado en el siniestro.\n\nLa víctima fue trasladada en ambulancia al hospital municipal, mientras que la moto ya no se encontraba en el lugar cuando arribó la policía.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desapareció",
+   "urgente": false,
+   "video_bytes": 104548,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_04_chacabuco_una-motociclista-de-20-a-os-su.mp4",
+   "volanta": "Siniestro vial en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/O_7zp65rxFY"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": {
    "categoria": "accidente_vial",
@@ -13481,22 +13507,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 80388,
+   "restantes": 241,
+   "segundos": 78001,
    "tope": 250
   },
   "30d": {
-   "restantes": 2262,
-   "segundos": 1711809,
+   "restantes": 2261,
+   "segundos": 1709421,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T01:40:32.000Z",
+ "cuota_visto": "2026-10-22T02:20:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16200,18 +16226,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x": {
-   "actualizado": "2026-10-22T01:40:31.000Z",
+   "actualizado": "2026-10-22T02:20:19.000Z",
    "buffer_id": "6ad96990282deeeeb2c3a96f",
    "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x",
    "creado": "2026-10-22T01:40:20.000Z",
    "dueAt": "2026-10-22T01:42:32.000Z",
+   "enviado": "2026-10-22T01:42:53.440Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T01:31:03.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113083638174613867",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
    "noticia": "nota:chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
    "origen": "bot",
@@ -22192,18 +22219,19 @@
    "viral": false
   },
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x": {
-   "actualizado": "2026-10-22T01:40:31.000Z",
+   "actualizado": "2026-10-22T02:20:19.000Z",
    "buffer_id": "6ad96990282deeeeb2c3a99b",
    "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x",
    "creado": "2026-10-22T01:40:20.000Z",
    "dueAt": "2026-10-22T01:48:59.000Z",
+   "enviado": "2026-10-22T01:49:03.839Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T01:32:00.000Z",
    "id": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113085191736434850",
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-la-cooperativa-27-de-octubre-sufrio-su-35d0de",
    "noticia": "nota:san-antonio-de-areco-la-cooperativa-27-de-octubre-sufrio-su-35d0de",
    "origen": "policiales",
@@ -22516,18 +22544,19 @@
    "viral": false
   },
   "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x": {
-   "actualizado": "2026-10-22T01:00:23.000Z",
+   "actualizado": "2026-10-22T02:20:19.000Z",
    "buffer_id": "6ad96028ecaa6cda041ebeba",
    "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
    "creado": "2026-10-22T01:00:18.000Z",
    "dueAt": "2026-10-22T01:03:29.000Z",
+   "enviado": "2026-10-22T01:03:34.220Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T00:42:23.000Z",
    "id": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113073742846845361",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -25507,6 +25536,62 @@
    "vence": "2026-10-20T04:50:52.000Z",
    "video_bytes": 80822,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_0239_01_chacabuco_vecino-evit-un-robo-al-alertar.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok": {
+   "actualizado": "2026-10-22T02:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
+   "creado": "2026-10-22T02:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T02:01:05.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-motociclista-de-20-anos-hospitalizada-tras-un-extrano-dc59c5",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desapareció\n\nUna joven de 20 años resultó herida esta tarde tras protagonizar un accidente en su moto en Chacabuco. Fue trasladada al hospital y no hubo otros vehículos involucrados, pero la policía halló la escena sin el rodado.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-motociclista-de-20-anos-hospitalizada-tras-un-extrano-dc59c5\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desapareció",
+   "urgente": false,
+   "vence": "2026-10-22T20:01:05.000Z",
+   "video_bytes": 104548,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_04_chacabuco_una-motociclista-de-20-a-os-su.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x": {
+   "actualizado": "2026-10-22T02:20:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
+   "creado": "2026-10-22T02:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-22T02:01:05.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-motociclista-de-20-anos-hospitalizada-tras-un-extrano-dc59c5",
+   "noticia": "nota:chacabuco-motociclista-de-20-anos-hospitalizada-tras-un-extrano-dc59c5",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desapareció\n\nFue trasladada al hospital tras accidentarse sin otros vehículos involucrados. La policía halló la escena sin el rodado.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-motociclista-de-20-anos-hospitalizada-tras-un-extrano-dc59c5",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desapareció",
+   "urgente": false,
+   "vence": "2026-10-22T04:01:05.000Z",
+   "video_bytes": 104548,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_04_chacabuco_una-motociclista-de-20-a-os-su.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html|tiktok": {
@@ -38057,44 +38142,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad6272de15f9b60b3a56b93",
-   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x",
-   "cuando": "2026-10-19T14:20:30.000Z",
-   "dueAt": "2026-10-19T16:00:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad6272ef8ab1a7963257479",
-   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
-   "cuando": "2026-10-19T14:20:30.000Z",
-   "dueAt": "2026-10-19T18:45:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:41adf48909fb7a57|tiktok",
-   "cuando": "2026-10-19T15:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:677e9def2f7175b0|tiktok",
-   "cuando": "2026-10-19T15:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:be6592b07ce935fb|tiktok",
-   "cuando": "2026-10-19T15:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
    "cuando": "2026-10-19T15:00:23.000Z",
    "estado": "pendiente",
@@ -42139,6 +42186,40 @@
    "cuando": "2026-10-22T01:40:32.000Z",
    "dueAt": "2026-10-22T01:48:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
+   "cuando": "2026-10-22T02:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-22T02:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x",
+   "cuando": "2026-10-22T02:20:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113083638174613867"
+  },
+  {
+   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x",
+   "cuando": "2026-10-22T02:20:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113085191736434850"
+  },
+  {
+   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
+   "cuando": "2026-10-22T02:20:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113073742846845361"
   }
  ],
  "tandas": {
@@ -42154,7 +42235,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T01:00:23.000Z",
+ "ultima_sync": "2026-10-22T02:20:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -42410,6 +42491,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": "2026-10-20T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html": "2026-10-20T09:00:21.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html": "2026-10-22T02:20:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html": "2026-10-17T19:00:17.000Z",
