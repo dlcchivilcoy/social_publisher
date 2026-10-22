@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 5 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 9 | 1 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,17 +28,13 @@ Actualizado: 22/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2252 de 3000 (visto 2026-10-22T12:40:14.000Z)
+15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2251 de 3000 (visto 2026-10-22T13:00:26.000Z)
 
-## Cola propia (8 esperando)
-- TikTok · Reels del bot · Presentaron oficialmente la 39ª edición del Rally de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · José Navarro clasificó a la final de Taba y definirá el podio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Sufrió su décimo robo la Cooperativa 27 de Octubre en el basural municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · El jardinero entregó a una jubilada para un violento asalto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Dos detenidos tras cuatro allanamientos por un robo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (4 esperando)
+- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels policiales · Dos detenidos tras cuatro allanamientos por un robo — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — no entró entre las 4 más virales de la tanda 10 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -50,10 +46,6 @@ Actualizado: 22/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T10:03 recibido web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x 
-- 2026-10-22T10:03 recibido web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x 
-- 2026-10-22T10:03 recibido web:993aea8e-95de-4b48-ac0f-22d386bc338b|x 
-- 2026-10-22T10:03 programado web:993aea8e-95de-4b48-ac0f-22d386bc338b|x 
 - 2026-10-22T10:03 programado web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x 
 - 2026-10-22T10:03 programado web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x 
 - 2026-10-22T10:03 programado web:ff2853a5-e6da-4760-9b15-060f61d644a1|x 
@@ -75,3 +67,7 @@ Actualizado: 22/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-22T12:40 enviado web:6fd91d62-6af9-4582-8ddd-55770c943c13|x 
 - 2026-10-22T12:40 enviado web:976bae39-fdab-4787-9e26-8828e58badc1|x 
 - 2026-10-22T12:40 enviado web:f86f8375-5d60-4a7c-9520-9169b60938a8|x 
+- 2026-10-22T13:00 programado bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tikto 
+- 2026-10-22T13:00 programado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
+- 2026-10-22T13:00 programado bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok 
+- 2026-10-22T13:00 programado policiales:https://laopinionline.ar/articulo/la-fiscalia-sos 
