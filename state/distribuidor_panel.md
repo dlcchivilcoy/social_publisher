@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 5 | 2 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
@@ -28,7 +28,7 @@ Actualizado: 22/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2244 de 3000 (visto 2026-10-22T17:00:26.000Z)
+15m: quedan 98 de 100 · 24h: quedan 222 de 250 · 30d: quedan 2242 de 3000 (visto 2026-10-22T17:20:22.000Z)
 
 ## Cola propia (10 esperando)
 - TikTok · Reels del bot · Clara Galván obtuvo la medalla de bronce en lanzamiento de disco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,10 +52,6 @@ Actualizado: 22/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T13:40 enviado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
-- 2026-10-22T13:40 enviado web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x 
-- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjluzixklug_01.mp4|x 
-- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok 
 - 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
 - 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok 
 - 2026-10-22T14:20 recibido web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -77,3 +73,7 @@ Actualizado: 22/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-22T17:00 recibido bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x 
 - 2026-10-22T17:00 recibido bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok 
 - 2026-10-22T17:00 programado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x 
+- 2026-10-22T17:20 entrevista_aprobada entrevistas:job00239 
+- 2026-10-22T17:20 recibido entrevistas:job00239|x 
+- 2026-10-22T17:20 enviado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x 
+- 2026-10-22T17:20 programado entrevistas:job00239|x 

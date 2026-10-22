@@ -15,7 +15,7 @@
     "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-22T15:40:18.000Z"
+   "visto": "2026-10-22T17:20:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-22T15:40:18.000Z"
+   "visto": "2026-10-22T17:20:21.000Z"
   }
  },
  "contenidos": {
@@ -2408,6 +2408,26 @@
    "video_mb": 37.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00238.mp4",
    "youtube_url": "https://youtu.be/a8yfaVSoqdk"
+  },
+  "entrevistas:job00239": {
+   "descripcion": "Fabián Casco, organizador del festival La Pampa Rock en Chivilcoy, destacó la gran respuesta del público y la pasión con la que preparan cada edición. Mirá todo lo que contó sobre el evento.",
+   "duracion_seg": null,
+   "entrevistado": "Fabián Casco",
+   "generado": "2026-10-22T17:20:20.000Z",
+   "id": "entrevistas:job00239",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Fabián Casco y el crecimiento de La Pampa Rock en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 24105857,
+   "video_mb": 23.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00239.mp4",
+   "youtube_url": "https://youtu.be/cWoZML5Iu3U"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -13543,22 +13563,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 224,
-   "segundos": 25194,
+   "restantes": 222,
+   "segundos": 23998,
    "tope": 250
   },
   "30d": {
-   "restantes": 2244,
-   "segundos": 1656615,
+   "restantes": 2242,
+   "segundos": 1655419,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T17:00:26.000Z",
+ "cuota_visto": "2026-10-22T17:20:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18530,18 +18550,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x": {
-   "actualizado": "2026-10-22T17:00:25.000Z",
+   "actualizado": "2026-10-22T17:20:21.000Z",
    "buffer_id": "6ada412aca69a1b7d3cad02d",
    "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x",
    "creado": "2026-10-22T17:00:19.000Z",
    "dueAt": "2026-10-22T17:02:51.000Z",
+   "enviado": "2026-10-22T17:07:04.612Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T16:49:25.000Z",
    "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113316216316051611",
    "nota_url": "",
    "noticia": "titulo:bronce-clara-disco-galvan-lanzamiento-medalla-obtuvo",
    "origen": "bot",
@@ -19708,6 +19729,34 @@
    "vence": "2026-10-21T20:40:15.000Z",
    "video_bytes": 39385706,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00238.mp4",
+   "viral": false
+  },
+  "entrevistas:job00239|x": {
+   "actualizado": "2026-10-22T17:20:21.000Z",
+   "buffer_id": "6ada45d69a8a68d3cd70711b",
+   "clave": "entrevistas:job00239|x",
+   "creado": "2026-10-22T17:20:20.000Z",
+   "dueAt": "2026-10-22T17:22:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T17:20:20.000Z",
+   "id": "entrevistas:job00239",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:casco-chivilcoy-crecimiento-fabian-pampa-rock",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Fabián Casco y el crecimiento de La Pampa Rock en Chivilcoy\n\nFabián Casco, organizador del festival La Pampa Rock en Chivilcoy, destacó la gran respuesta del público y la pasión con la que preparan cada edición. Mirá todo lo que contó sobre el evento.\n\nhttps://youtu.be/cWoZML5Iu3U",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fabián Casco y el crecimiento de La Pampa Rock en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-22T19:20:20.000Z",
+   "video_bytes": 24105857,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00239.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -38222,32 +38271,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
-   "cuando": "2026-10-19T17:40:31.000Z",
-   "evento": "error_publicacion",
-   "motivo": "Please update the media URL to be publicly accessible before retrying the post."
-  },
-  {
-   "buffer_id": "6ad6561000e70b77e05cc00b",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
-   "cuando": "2026-10-19T17:40:33.000Z",
-   "dueAt": "2026-10-19T17:43:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad656112d69a6fbbf3b1a03",
-   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
-   "cuando": "2026-10-19T17:40:33.000Z",
-   "dueAt": "2026-10-19T18:23:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:ef9d9f6be8029c31|tiktok",
-   "cuando": "2026-10-19T18:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
    "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
    "cuando": "2026-10-19T18:00:19.000Z",
    "evento": "vencido",
@@ -42313,6 +42336,32 @@
    "cuando": "2026-10-22T17:00:26.000Z",
    "dueAt": "2026-10-22T17:02:51.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00239",
+   "cuando": "2026-10-22T17:20:20.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00239|x",
+   "cuando": "2026-10-22T17:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x",
+   "cuando": "2026-10-22T17:20:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113316216316051611"
+  },
+  {
+   "buffer_id": "6ada45d69a8a68d3cd70711b",
+   "clave": "entrevistas:job00239|x",
+   "cuando": "2026-10-22T17:20:22.000Z",
+   "dueAt": "2026-10-22T17:22:32.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42329,7 +42378,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T15:40:18.000Z",
+ "ultima_sync": "2026-10-22T17:20:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -42450,6 +42499,7 @@
   "entrevistas:job00236": "2026-10-21T20:00:18.000Z",
   "entrevistas:job00237": "2026-10-21T17:40:15.000Z",
   "entrevistas:job00238": "2026-10-21T18:40:15.000Z",
+  "entrevistas:job00239": "2026-10-22T17:20:20.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
