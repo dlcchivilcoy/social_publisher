@@ -1648,6 +1648,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_075e80146ebc6818.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WAhnK6tXL5Q"
   },
+  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": {
+   "descripcion": "La atleta Clara Galván logró una destacada actuación al obtener la medalla de bronce en la disciplina de lanzamiento de disco.\n\nCon este resultado, la deportista subió al podio en su especialidad, sumando un importante reconocimiento a su desempeño en la competencia.",
+   "duracion_seg": 25.3,
+   "generado": "2026-10-22T16:49:25.000Z",
+   "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco",
+   "urgente": false,
+   "video_bytes": 5496629,
+   "video_mb": 5.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/WWKPjSVUxWA"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -13527,17 +13548,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 30001,
+   "restantes": 224,
+   "segundos": 25194,
    "tope": 250
   },
   "30d": {
-   "restantes": 2245,
-   "segundos": 1661422,
+   "restantes": 2244,
+   "segundos": 1656615,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T15:40:19.000Z",
+ "cuota_visto": "2026-10-22T17:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18478,6 +18499,62 @@
    "vence": "2026-10-22T17:30:34.000Z",
    "video_bytes": 15204265,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_075e80146ebc6818.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok": {
+   "actualizado": "2026-10-22T17:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok",
+   "creado": "2026-10-22T17:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T16:49:25.000Z",
+   "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco\n\nLa atleta Clara Galván logró una destacada actuación al obtener la medalla de bronce en la disciplina de lanzamiento de disco. Con este resultado, la deportista subió al podio en su especialidad, sumando un importante reconocimiento a su desempeño en la competencia.\n\nhttps://www.youtube.com/shorts/WWKPjSVUxWA\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco",
+   "urgente": false,
+   "vence": "2026-10-24T16:49:25.000Z",
+   "video_bytes": 5496629,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x": {
+   "actualizado": "2026-10-22T17:00:25.000Z",
+   "buffer_id": "6ada412aca69a1b7d3cad02d",
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x",
+   "creado": "2026-10-22T17:00:19.000Z",
+   "dueAt": "2026-10-22T17:02:51.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T16:49:25.000Z",
+   "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:bronce-clara-disco-galvan-lanzamiento-medalla-obtuvo",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco\n\nLa atleta logró una destacada actuación y subió al podio en su especialidad. Sumó un importante reconocimiento a su desempeño en la competencia.\n\nhttps://www.youtube.com/shorts/WWKPjSVUxWA",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco",
+   "urgente": false,
+   "vence": "2026-10-22T18:49:25.000Z",
+   "video_bytes": 5496629,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
    "viral": false
   },
   "entrevistas:job00188|x": {
@@ -38145,24 +38222,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok",
-   "cuando": "2026-10-19T17:40:31.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "nacionales:2b26f422b8cc341a|tiktok",
-   "cuando": "2026-10-19T17:40:31.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "nacionales:eb29261c90f4bdfa|tiktok",
-   "cuando": "2026-10-19T17:40:31.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
    "cuando": "2026-10-19T17:40:31.000Z",
    "evento": "error_publicacion",
@@ -42231,6 +42290,29 @@
    "cuando": "2026-10-22T15:40:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113289820290035989"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x",
+   "cuando": "2026-10-22T17:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok",
+   "cuando": "2026-10-22T17:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6ada412aca69a1b7d3cad02d",
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x",
+   "cuando": "2026-10-22T17:00:26.000Z",
+   "dueAt": "2026-10-22T17:02:51.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42330,6 +42412,7 @@
   "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4": "2026-10-22T14:20:16.000Z",
   "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4": "2026-10-22T15:20:17.000Z",
   "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4": "2026-10-22T15:40:16.000Z",
+  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": "2026-10-22T17:00:19.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
