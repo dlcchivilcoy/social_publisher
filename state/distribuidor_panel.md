@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 22/10/2026 18:00 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
@@ -30,28 +30,21 @@ Actualizado: 22/10/2026 18:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 213 de 250 · 30d: quedan 2233 de 3000 (visto 2026-10-22T21:00:23.000Z)
 
-## Cola propia (6 esperando)
-- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — ya salieron los 5 de bot de hoy en TikTok
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — ya salieron los 5 de bot de hoy en TikTok
+## Cola propia (5 esperando)
+- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T18:00 programado entrevistas:job00240|x 
-- 2026-10-22T18:20 entrevista_aprobada entrevistas:job00241 
-- 2026-10-22T18:20 recibido entrevistas:job00241|x 
-- 2026-10-22T18:20 programado entrevistas:job00241|x 
-- 2026-10-22T18:40 entrevista_aprobada entrevistas:job00242 
 - 2026-10-22T18:40 recibido entrevistas:job00242|x 
 - 2026-10-22T18:40 enviado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x 
 - 2026-10-22T18:40 enviado entrevistas:job00239|x 
@@ -72,3 +65,8 @@ Actualizado: 22/10/2026 18:00 (hora AR) · ACTIVO
 - 2026-10-22T21:00 programado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
 - 2026-10-22T21:00 programado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok 
 - 2026-10-22T21:00 programado bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok 
+- 2026-10-22T21:20 recibido nacionales:e25c9cf3646e5306|x 
+- 2026-10-22T21:20 recibido nacionales:e25c9cf3646e5306|tiktok 
+- 2026-10-22T21:20 vencido bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tikto ya salieron los 5 de bot de hoy en TikTok
+- 2026-10-22T21:20 depurado nacionales:e25c9cf3646e5306|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-22T21:20 depurado nacionales:e25c9cf3646e5306|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)

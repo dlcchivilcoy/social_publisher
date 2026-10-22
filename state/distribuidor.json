@@ -4306,6 +4306,33 @@
    "volanta": "Cárcel de Devoto",
    "youtube_url": "https://youtube.com/shorts/DGtvR3FVSic"
   },
+  "nacionales:e25c9cf3646e5306": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "Funcionarios y legisladores de La Libertad Avanza celebraron el cumpleaños número 56 del mandatario con mensajes en redes sociales y un festejo en el Congreso encabezado por Karina Milei y Martín Menem.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T21:15:47.000Z",
+   "hashtags": [
+    "JavierMilei",
+    "Politica"
+   ],
+   "id": "nacionales:e25c9cf3646e5306",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "tipo": "video",
+   "titulo": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños",
+   "urgente": false,
+   "video_bytes": 80334,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
+   "volanta": "Javier Milei",
+   "youtube_url": "https://youtube.com/shorts/935r-7nZec0"
+  },
   "nacionales:e2ff40109224ceb4": {
    "categoria": "Deportes",
    "categoria_nacional": "deportes",
@@ -15849,15 +15876,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok": {
-   "actualizado": "2026-10-20T21:20:16.000Z",
+   "actualizado": "2026-10-22T21:20:15.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok",
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "ya salieron los 5 de bot de hoy en TikTok",
    "espera": "ya salieron los 5 de bot de hoy en TikTok",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
    "intentos": 0,
@@ -18114,7 +18141,7 @@
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T00:12:48.000Z",
    "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
@@ -18245,7 +18272,7 @@
    "creado": "2026-10-22T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T13:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
@@ -18302,7 +18329,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T14:04:12.000Z",
    "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
@@ -18359,7 +18386,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T14:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
@@ -18416,7 +18443,7 @@
    "creado": "2026-10-22T15:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T15:16:22.000Z",
    "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
@@ -22160,6 +22187,60 @@
    "video_bytes": 95380,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_dc18047933_karina-milei-encabezo-el-traslado-de-reclusos-de.mp4"
   },
+  "nacionales:e25c9cf3646e5306|tiktok": {
+   "actualizado": "2026-10-22T21:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:e25c9cf3646e5306|tiktok",
+   "creado": "2026-10-22T21:20:13.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-22T21:15:47.000Z",
+   "id": "nacionales:e25c9cf3646e5306",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 5,
+   "texto": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños\n\nFuncionarios y legisladores de La Libertad Avanza celebraron el cumpleaños número 56 del mandatario con mensajes en redes sociales y un festejo en el Congreso encabezado por Karina Milei y Martín Menem.\n\nhttps://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #JavierMilei",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños",
+   "urgente": false,
+   "vence": "2026-10-23T15:15:47.000Z",
+   "video_bytes": 80334,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
+   "viral": false
+  },
+  "nacionales:e25c9cf3646e5306|x": {
+   "actualizado": "2026-10-22T21:20:15.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:e25c9cf3646e5306|x",
+   "creado": "2026-10-22T21:20:13.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-22T21:15:47.000Z",
+   "id": "nacionales:e25c9cf3646e5306",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
+   "noticia": "nota:el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños\n\nLegisladores y funcionarios de La Libertad Avanza celebraron el cumpleaños 56 del mandatario en redes y en el Congreso. Karina Milei y Martín Menem encabezaron el festejo.\n\nhttps://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños",
+   "urgente": false,
+   "vence": "2026-10-22T23:15:47.000Z",
+   "video_bytes": 80334,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
+   "viral": false
+  },
   "nacionales:e2ff40109224ceb4|tiktok": {
    "actualizado": "2026-10-19T17:20:16.000Z",
    "buffer_id": "",
@@ -23258,32 +23339,6 @@
    "video_bytes": 1348253,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_01_junin_dos-aprehendidos-en-jun-n-por-.mp4",
    "viral": false
-  },
-  "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok": {
-   "actualizado": "2026-10-12T21:20:15.000Z",
-   "buffer_id": "6acd24e4235298ab870f0550",
-   "clave": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|tiktok",
-   "creado": "2026-10-12T18:20:14.000Z",
-   "dueAt": "2026-10-12T20:03:18.000Z",
-   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
-   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
-   "espera": "",
-   "estado": "error",
-   "generado": "2026-10-12T18:16:38.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-apresaron-a-dos-sujetos-por-robar-baterias-y-d58a08",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Dos hombres fueron apresados en Pergamino tras cometer distintos robos de baterías de autos y herramientas.\n\nEl operativo estuvo a cargo de la Brigada Motorizada de la Policía Local y la causa la lleva la Unidad Funcional de Instrucción y Juicio N° 3.\n\nUno de los implicados, de 34 años, había salido en libertad horas antes y volvió a delinquir junto a su cómplice de 43.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
-   "tipo": "video",
-   "titulo": "Detuvieron a dos hombres por robar baterías y herramientas",
-   "urgente": false,
-   "vence": "2026-10-13T12:16:38.000Z",
-   "video_bytes": 95335,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_02_pergamino_detuvieron-a-dos-hombres-por-r.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva|x": {
    "actualizado": "2026-10-12T22:40:13.000Z",
@@ -38153,36 +38208,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:a45e03c51dbe2f12|tiktok",
-   "cuando": "2026-10-19T20:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
-   "cuando": "2026-10-19T20:20:16.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "nacionales:883bc6cd67a29d7e|tiktok",
-   "cuando": "2026-10-19T20:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:9d5801d6974360c3|tiktok",
-   "cuando": "2026-10-19T20:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:f02de8c1-15da-4722-a133-920069b5d431|x",
-   "cuando": "2026-10-19T20:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|x",
    "cuando": "2026-10-19T21:00:26.000Z",
    "estado": "pendiente",
@@ -42252,6 +42277,40 @@
    "cuando": "2026-10-22T21:00:23.000Z",
    "dueAt": "2026-10-22T21:43:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:e25c9cf3646e5306|x",
+   "cuando": "2026-10-22T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:e25c9cf3646e5306|tiktok",
+   "cuando": "2026-10-22T21:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok",
+   "cuando": "2026-10-22T21:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "ya salieron los 5 de bot de hoy en TikTok"
+  },
+  {
+   "clave": "nacionales:e25c9cf3646e5306|x",
+   "cuando": "2026-10-22T21:20:15.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:e25c9cf3646e5306|tiktok",
+   "cuando": "2026-10-22T21:20:15.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -42467,6 +42526,7 @@
   "nacionales:d553fbc1ee6752bd": "2026-10-19T23:20:14.000Z",
   "nacionales:d6dc41a1ad7b38ad": "2026-10-19T15:20:16.000Z",
   "nacionales:dc18047933ea00df": "2026-10-19T16:00:16.000Z",
+  "nacionales:e25c9cf3646e5306": "2026-10-22T21:20:13.000Z",
   "nacionales:e2ff40109224ceb4": "2026-10-19T00:20:16.000Z",
   "nacionales:e50827dd69db5a5d": "2026-10-19T02:40:14.000Z",
   "nacionales:eb29261c90f4bdfa": "2026-10-19T00:20:16.000Z",
