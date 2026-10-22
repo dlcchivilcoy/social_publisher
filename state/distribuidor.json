@@ -5295,30 +5295,6 @@
    "volanta": "Condena en Mercedes",
    "youtube_url": "https://youtube.com/shorts/xW2lPahXG2I"
   },
-  "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": {
-   "categoria": "otro_policial",
-   "descripcion": "Un joven ingresó de manera violenta a una vivienda y amenazó a una mujer, que logró escapar. Tras horas de tensión y negociaciones, se entregó a la policía y fue derivado al hospital.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-12T18:16:38.000Z",
-   "id": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/",
-   "localidad": "Bolívar",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-un-joven-armado-se-atrinchero-en-una-vivienda-y-se-69fba5",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "Momentos de máxima tensión se vivieron en Bolívar por un joven que se atrincheró armado dentro de una vivienda.\n\nLa situación se desencadenó al mediodía de este lunes en la calle Bernardo de Irigoyen, entre Brown y Belgrano.\n\nTras una intensa negociación con la policía, el masculino se entregó de forma voluntaria y fue trasladado al hospital.\n\n📲 Más noticias de Bolívar en www.diariolacampaña.com.ar\n\n#Bolivar #Policiales #OperativoPolicial #BuenosAires",
-   "tipo": "video",
-   "titulo": "Se atrincheró con un arma en una casa de Bolívar y terminó detenido",
-   "urgente": false,
-   "video_bytes": 118979,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_01_bolivar_se-atrincher-con-un-arma-en-un.mp4",
-   "volanta": "Operativo en Bolívar",
-   "youtube_url": "https://youtube.com/shorts/Z6lBZhAaoFw"
-  },
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/": {
    "categoria": "estafa",
    "descripcion": "Un hombre de Bolívar denunció que delincuentes se hicieron pasar por su hija usando WhatsApp. Le pedían dinero para arreglar un teléfono roto pero el plan falló cuando le dieron un alias ajeno.",
@@ -24194,32 +24170,6 @@
    "video_bytes": 99398,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
   },
-  "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok": {
-   "actualizado": "2026-10-12T20:00:22.000Z",
-   "buffer_id": "6acd24e3536740a2d1159178",
-   "clave": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/|tiktok",
-   "creado": "2026-10-12T18:20:14.000Z",
-   "dueAt": "2026-10-12T19:23:18.000Z",
-   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
-   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
-   "espera": "",
-   "estado": "error",
-   "generado": "2026-10-12T18:16:38.000Z",
-   "id": "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-un-joven-armado-se-atrinchero-en-una-vivienda-y-se-69fba5",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Momentos de máxima tensión se vivieron en Bolívar por un joven que se atrincheró armado dentro de una vivienda.\n\nLa situación se desencadenó al mediodía de este lunes en la calle Bernardo de Irigoyen, entre Brown y Belgrano.\n\nTras una intensa negociación con la policía, el masculino se entregó de forma voluntaria y fue trasladado al hospital.\n\n📲 Más noticias de Bolívar en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bolívar #policiales",
-   "tipo": "video",
-   "titulo": "Se atrincheró con un arma en una casa de Bolívar y terminó detenido",
-   "urgente": false,
-   "vence": "2026-10-13T12:16:38.000Z",
-   "video_bytes": 118979,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1809_01_bolivar_se-atrincher-con-un-arma-en-un.mp4"
-  },
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/|tiktok": {
    "actualizado": "2026-10-14T00:40:13.000Z",
    "buffer_id": "6aceb807848c31c8094f2889",
@@ -25741,15 +25691,15 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-22T02:20:17.000Z",
+   "actualizado": "2026-10-22T20:20:13.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
    "creado": "2026-10-22T02:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-22T02:01:05.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html",
    "intentos": 0,
@@ -38202,12 +38152,6 @@
  },
  "registro": [
   {
-   "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
-   "cuando": "2026-10-19T20:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112265280755798326"
-  },
-  {
    "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
    "cuando": "2026-10-19T20:00:22.000Z",
    "evento": "enviado",
@@ -42301,6 +42245,12 @@
    "cuando": "2026-10-22T20:00:21.000Z",
    "dueAt": "2026-10-22T20:02:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
+   "cuando": "2026-10-22T20:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,7 +30,7 @@ Actualizado: 22/10/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2235 de 3000 (visto 2026-10-22T20:00:21.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (9 esperando)
 - TikTok · Reels del bot · Britos evalúa que De Lillo complete el mandato municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Clara Galván obtuvo la medalla de bronce en lanzamiento de disco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo obtuvo la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -39,20 +39,17 @@ Actualizado: 22/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Detuvieron a dos hombres por robar baterías y herramientas — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- TikTok · Se atrincheró con un arma en una casa de Bolívar y terminó detenido — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Murió un trabajador de 32 años tras ser aplastado por maíz en un silo — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T18:00 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x 
 - 2026-10-22T18:00 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
 - 2026-10-22T18:00 recibido entrevistas:job00240|x 
 - 2026-10-22T18:00 recibido web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -77,3 +74,4 @@ Actualizado: 22/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-22T20:00 enviado entrevistas:job00242|x 
 - 2026-10-22T20:00 enviado entrevistas:job00243|x 
 - 2026-10-22T20:00 programado entrevistas:job00244|x 
+- 2026-10-22T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/motocicli TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
