@@ -31,27 +31,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": {
-   "descripcion": "Hugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla». El director de Gobierno, Hugo Kübler, se refirió al Complejo Federación y a la empresa SENTRA, aclarando afirmaciones vertidas en el Concejo Deliberante local. Chivilcoy no iba a poner ni un peso.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-11T22:06:34.000Z",
-   "id": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
-   "urgente": false,
-   "video_bytes": 450309,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/Mc97VbOR7_s"
-  },
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": {
    "descripcion": "Una mujer falleció tras un choque frontal entre dos vehículos sobre el kilómetro 113 de la Ruta Nacional 5. Los dos conductores fueron derivados a un centro de salud y la Justicia investiga el hecho.",
    "duracion_seg": 26.5,
@@ -1563,6 +1542,27 @@
    "video_mb": 10.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7ba739b9785044b9.mp4",
    "youtube_url": "https://www.youtube.com/shorts/xAYbfZZqvxk"
+  },
+  "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4": {
+   "descripcion": "El competidor José Navarro logró la clasificación a la final en la disciplina de Taba y se aseguró un lugar en la definición del podio.\n\nLa confirmación estuvo a cargo de Saúl Pesce, quien se desempeña como su delegado en el certamen y ratificó que el representante disputará la siguiente instancia, con la posibilidad de competir por el primer, segundo o tercer puesto el jueves 22 de octubre.\n\nPor su parte, Pesce valoró la experiencia que transitan durante la competencia, remarcó la atención recibida en el hotel asignado y resaltó la importancia del encuentro deportivo y social con participantes de otras delegaciones.",
+   "duracion_seg": 71.7,
+   "generado": "2026-10-22T00:33:31.000Z",
+   "id": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
+   "urgente": false,
+   "video_bytes": 13571003,
+   "video_mb": 12.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_361c5a37cb9dc76f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/s9TIm3b5kw8"
   },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
@@ -7553,24 +7553,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ley-de-discapacidad-gobernadores-daran-sus-votos-al-oficialismo-6762e6",
    "volanta": ""
   },
-  "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": {
-   "categoria": "nacionales",
-   "descripcion": "El Presidente disertará en la Cámara de Comercio estadounidense y recibirá una distinción. Además, participará en un encuentro contra el antisemitismo en…",
-   "generado": "2026-10-11T18:06:40.496Z",
-   "id": "web:18e92eb6-bc8a-4f82-8473-f134932a7f19",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e0f8109ecfe44252a07b31c4272512b9~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-viaja-a-washington-para-reforzar-su-alianza-con-69df65",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Javier Milei viaja a Washington para reforzar su alianza con Donald Trump y disertar ante empresarios",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-viaja-a-washington-para-reforzar-su-alianza-con-69df65",
-   "volanta": ""
-  },
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": {
    "categoria": "nacionales",
    "descripcion": "La Asociación Bancaria cerró el entendimiento con los empresarios para septiembre y confirmó que se mantendrá la indexación automática por inflación en el…",
@@ -8511,6 +8493,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
    "volanta": ""
+  },
+  "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": {
+   "categoria": "",
+   "descripcion": "José Navarro clasificó a la final de Taba y definirá el podio El competidor José Navarro logró la clasificación en la disciplina de Taba y disputará la jornada final en busca del podio. Saúl Pesce, quien se desempeña en esta oportunidad como su delegado, confirmó que Navarro completó su participación de la fecha logrando el pase a la siguiente instancia, donde competirá por el primer, segundo o tercer puesto. Pesce destacó la experiencia que vive en el certamen, la atención recibida en el...",
+   "generado": "2026-10-22T00:32:45.083Z",
+   "id": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_649c75dd4e9b4d9e9cdbbfe3e05db443~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": {
    "categoria": "nacionales",
@@ -9601,24 +9602,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
    "volanta": ""
   },
-  "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82": {
-   "categoria": "nacionales",
-   "descripcion": "La fiscalía solicitó una pena de una década de prisión para Maximiliano Cabaleyro, referente de Camioneros, tras el bloqueo a una distribuidora familiar…",
-   "generado": "2026-10-11T15:11:37.101Z",
-   "id": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1b8476e0d2804ae2b04679436c6d34ba~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/juicio-a-camioneros-por-bloquear-una-pyme-familiar-piden-10-881239",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Juicio a Camioneros por bloquear una pyme familiar: piden 10 años de cárcel para el líder gremial",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juicio-a-camioneros-por-bloquear-una-pyme-familiar-piden-10-881239",
-   "volanta": ""
-  },
   "web:70161ba5-8aec-496b-844f-0838565b94a8": {
    "categoria": "",
    "descripcion": "Estrena “Como un roble antiguo” en el Teatro La Cueva La obra, escrita por Hernán Naval y dirigida por Mirta Comerio, ofrecerá cuatro únicas funciones durante el mes de octubre. El escenario del Teatro La Cueva (ubicado en Rosetti 35) se prepara para recibir una de las propuestas teatrales más esperadas de la temporada: «Como un roble antiguo», una comedia dramática de Hernán Naval. Bajo la dirección general de Mirta Comerio, la puesta en escena combina emotividad y humor para reflexionar...",
@@ -9981,24 +9964,6 @@
    "titulo": "Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
-   "volanta": ""
-  },
-  "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": {
-   "categoria": "nacionales",
-   "descripcion": "Un tribunal ordenó una millonaria indemnización y exigió modificar la estructura de un predio de Mar del Plata donde un joven se fracturó el brazo tras…",
-   "generado": "2026-10-11T15:16:51.564Z",
-   "id": "web:7b1a2e63-d062-48a9-ada5-e17347e06d48",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8930c34bf56c44f8a114a303802c6756~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/condenan-a-un-club-de-mar-del-plata-a-pagar-99-millones-por-un-8905d8",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Condenan a un club de Mar del Plata a pagar 99 millones por un muro sin protección",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/condenan-a-un-club-de-mar-del-plata-a-pagar-99-millones-por-un-8905d8",
    "volanta": ""
   },
   "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7": {
@@ -12051,24 +12016,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
    "volanta": "Provincia · Política"
   },
-  "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1": {
-   "categoria": "nacionales",
-   "descripcion": "Más de 3.500 deportistas compiten este domingo en la cuarta edición del torneo con recorridos por autopistas y avenidas porteñas. Habrá restricciones…",
-   "generado": "2026-10-11T15:06:24.415Z",
-   "id": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d64bbbd3f86d4deb9a168d71185a4609~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gran-fondo-buenos-aires-que-calles-y-autopistas-estan-cortadas-0150e5",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Gran Fondo Buenos Aires: qué calles y autopistas están cortadas este domingo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gran-fondo-buenos-aires-que-calles-y-autopistas-estan-cortadas-0150e5",
-   "volanta": ""
-  },
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3": {
    "categoria": "",
    "descripcion": "Uriel Scalise obtuvo el subcampeonato en el Iberoamericano de powerlifting realizado en Chile El atleta chivilcoyano Uriel Scalise visitó los estudios de Radio del Centro tras su destacada actuación en el Campeonato Iberoamericano de powerlifting disputado en Chile. En el certamen internacional, integrando las filas del seleccionado argentino, el deportista local completó una labor sobresaliente al consagrarse subcampeón en la categoría Junior de hasta 75 kilos de peso corporal, conquistando...",
@@ -13489,17 +13436,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 85194,
+   "restantes": 246,
+   "segundos": 83998,
    "tope": 250
   },
   "30d": {
-   "restantes": 2267,
-   "segundos": 1716614,
+   "restantes": 2266,
+   "segundos": 1715419,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T00:20:27.000Z",
+ "cuota_visto": "2026-10-22T00:40:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13516,32 +13463,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x": {
-   "actualizado": "2026-10-12T00:40:13.000Z",
-   "buffer_id": "6acc0b9f8e8dd50ffc5a19f1",
-   "clave": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03|x",
-   "creado": "2026-10-11T22:20:13.000Z",
-   "dueAt": "2026-10-12T00:01:13.000Z",
-   "enviado": "2026-10-12T00:01:36.236Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T22:06:34.000Z",
-   "id": "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109434269940560005",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación\n\nHugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla».\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "tipo": "video",
-   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
-   "urgente": false,
-   "vence": "2026-10-13T22:06:34.000Z",
-   "video_bytes": 450309,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cba241e0fc269356.mp4"
-  },
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic|tiktok": {
    "actualizado": "2026-10-12T16:40:14.000Z",
    "buffer_id": "6accfab4d38ece527cc0de3d",
@@ -18098,6 +18019,62 @@
    "vence": "2026-10-22T02:12:48.000Z",
    "video_bytes": 10910867,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7ba739b9785044b9.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok": {
+   "actualizado": "2026-10-22T00:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok",
+   "creado": "2026-10-22T00:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T00:33:31.000Z",
+   "id": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "José Navarro clasificó a la final de Taba y definirá el podio\n\nEl delegado Saúl Pesce confirmó que el competidor disputará la siguiente instancia el jueves 22 de octubre con la posibilidad de competir por el primer, segundo o tercer puesto. Además, Pesce valoró la experiencia, la atención en el hotel y el encuentro con otras delegaciones.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
+   "urgente": false,
+   "vence": "2026-10-24T00:33:31.000Z",
+   "video_bytes": 13571003,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_361c5a37cb9dc76f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x": {
+   "actualizado": "2026-10-22T00:40:21.000Z",
+   "buffer_id": "6ad95b76b086d40f5727fbc2",
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
+   "creado": "2026-10-22T00:40:17.000Z",
+   "dueAt": "2026-10-22T00:42:17.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T00:33:31.000Z",
+   "id": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "noticia": "nota:chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "José Navarro clasificó a la final de Taba y definirá el podio\n\nSu delegado, Saúl Pesce, ratificó que el representante competirá por el primer, segundo o tercer puesto el jueves 22 de octubre. Además, valoró la atención recibida en el certamen.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
+   "urgente": false,
+   "vence": "2026-10-22T02:33:31.000Z",
+   "video_bytes": 13571003,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_361c5a37cb9dc76f.mp4",
    "viral": false
   },
   "entrevistas:job00188|x": {
@@ -28722,32 +28699,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x": {
-   "actualizado": "2026-10-12T00:40:13.000Z",
-   "buffer_id": "6acc0670fa026cfb8117dddb",
-   "clave": "web:18e92eb6-bc8a-4f82-8473-f134932a7f19|x",
-   "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "2026-10-11T23:31:33.000Z",
-   "enviado": "2026-10-11T23:31:46.581Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T18:06:40.496Z",
-   "id": "web:18e92eb6-bc8a-4f82-8473-f134932a7f19",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109426763268870521",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-viaja-a-washington-para-reforzar-su-alianza-con-69df65",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Javier Milei viaja a Washington para reforzar su alianza con Donald Trump y disertar ante empresarios\n\nEl Presidente disertará en la Cámara de Comercio estadounidense y recibirá una distinción.\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-viaja-a-washington-para-reforzar-su-alianza-con-69df65",
-   "tipo": "nota",
-   "titulo": "Javier Milei viaja a Washington para reforzar su alianza con Donald Trump y disertar ante empresarios",
-   "urgente": false,
-   "vence": "2026-10-12T18:06:40.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2|x": {
    "actualizado": "2026-10-17T19:20:40.000Z",
    "buffer_id": "",
@@ -30181,6 +30132,31 @@
    "vence": "2026-10-20T12:50:10.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x": {
+   "actualizado": "2026-10-22T00:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x",
+   "creado": "2026-10-22T00:40:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-22T00:32:45.083Z",
+   "id": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "noticia": "nota:chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
+   "urgente": false,
+   "vence": "2026-10-22T04:32:45.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x": {
    "actualizado": "2026-10-14T21:40:16.000Z",
@@ -31852,32 +31828,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x": {
-   "actualizado": "2026-10-12T00:40:13.000Z",
-   "buffer_id": "6acc0b9f7db619a2914ceb6c",
-   "clave": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82|x",
-   "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "2026-10-12T00:16:54.000Z",
-   "enviado": "2026-10-12T00:17:01.803Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T15:11:37.101Z",
-   "id": "web:6fd0668a-d96d-469c-b843-0fa8f0d7eb82",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109438151630487987",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/juicio-a-camioneros-por-bloquear-una-pyme-familiar-piden-10-881239",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Juicio a Camioneros por bloquear una pyme familiar: piden 10 años de cárcel para el líder gremial\n\nLa fiscalía solicitó una pena de una década de prisión para Maximiliano Cabaleyro, referente de Camioneros, tras el bloqueo a una distribuidora…\n\nhttps://www.diariolacampaña.com.ar/n/juicio-a-camioneros-por-bloquear-una-pyme-familiar-piden-10-881239",
-   "tipo": "nota",
-   "titulo": "Juicio a Camioneros por bloquear una pyme familiar: piden 10 años de cárcel para el líder gremial",
-   "urgente": false,
-   "vence": "2026-10-12T15:11:37.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:70161ba5-8aec-496b-844f-0838565b94a8|x": {
    "actualizado": "2026-10-16T15:20:16.000Z",
    "buffer_id": "6ad224932fe657de6ea75a21",
@@ -32425,32 +32375,6 @@
    "titulo": "Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses",
    "urgente": false,
    "vence": "2026-10-17T15:06:31.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:7b1a2e63-d062-48a9-ada5-e17347e06d48|x": {
-   "actualizado": "2026-10-12T00:40:13.000Z",
-   "buffer_id": "6acc06707db619a2914baf51",
-   "clave": "web:7b1a2e63-d062-48a9-ada5-e17347e06d48|x",
-   "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "2026-10-11T23:46:28.000Z",
-   "enviado": "2026-10-11T23:46:31.157Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T15:16:51.564Z",
-   "id": "web:7b1a2e63-d062-48a9-ada5-e17347e06d48",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109430473621397793",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/condenan-a-un-club-de-mar-del-plata-a-pagar-99-millones-por-un-8905d8",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Condenan a un club de Mar del Plata a pagar 99 millones por un muro sin protección\n\nUn tribunal ordenó una millonaria indemnización y exigió modificar la estructura de un predio de Mar del Plata donde un joven se fracturó el brazo tras…\n\nhttps://www.diariolacampaña.com.ar/n/condenan-a-un-club-de-mar-del-plata-a-pagar-99-millones-por-un-8905d8",
-   "tipo": "nota",
-   "titulo": "Condenan a un club de Mar del Plata a pagar 99 millones por un muro sin protección",
-   "urgente": false,
-   "vence": "2026-10-12T15:16:51.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35577,32 +35501,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x": {
-   "actualizado": "2026-10-12T00:40:13.000Z",
-   "buffer_id": "6acc1050ea568e911a43726b",
-   "clave": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1|x",
-   "creado": "2026-10-11T21:58:03.000Z",
-   "dueAt": "2026-10-12T00:31:07.000Z",
-   "enviado": "2026-10-12T00:31:16.345Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T15:06:24.415Z",
-   "id": "web:c7a4e0f5-85e9-47e5-947c-5664d26294b1",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109441735927484760",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gran-fondo-buenos-aires-que-calles-y-autopistas-estan-cortadas-0150e5",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Gran Fondo Buenos Aires: qué calles y autopistas están cortadas este domingo\n\nMás de 3.500 deportistas compiten este domingo en la cuarta edición del torneo con recorridos por autopistas y avenidas porteñas. Habrá restricciones…\n\nhttps://www.diariolacampaña.com.ar/n/gran-fondo-buenos-aires-que-calles-y-autopistas-estan-cortadas-0150e5",
-   "tipo": "nota",
-   "titulo": "Gran Fondo Buenos Aires: qué calles y autopistas están cortadas este domingo",
-   "urgente": false,
-   "vence": "2026-10-12T15:06:24.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:c7dbe17c-e7c5-4a6d-9fb2-ef882e6bf9f3|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -37747,34 +37645,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
-   "cuando": "2026-10-19T13:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698348865329712405"
-  },
-  {
-   "clave": "nacionales:a28aa737cf87213c|tiktok",
-   "cuando": "2026-10-19T13:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
-   "cuando": "2026-10-19T13:20:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
-   "cuando": "2026-10-19T13:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x",
    "cuando": "2026-10-19T13:20:30.000Z",
@@ -41831,6 +41701,37 @@
    "cuando": "2026-10-22T00:20:27.000Z",
    "dueAt": "2026-10-22T00:28:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
+   "cuando": "2026-10-22T00:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok",
+   "cuando": "2026-10-22T00:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x",
+   "cuando": "2026-10-22T00:40:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ad95b76b086d40f5727fbc2",
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
+   "cuando": "2026-10-22T00:40:22.000Z",
+   "dueAt": "2026-10-22T00:42:17.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41922,6 +41823,7 @@
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4": "2026-10-21T00:40:14.000Z",
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4": "2026-10-21T00:40:14.000Z",
   "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": "2026-10-22T00:20:17.000Z",
+  "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4": "2026-10-22T00:40:17.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -42230,6 +42132,7 @@
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
   "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": "2026-10-19T13:00:18.000Z",
+  "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
