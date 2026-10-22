@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 6 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 5 | 2 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,10 @@ Actualizado: 22/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 222 de 250 · 30d: quedan 2242 de 3000 (visto 2026-10-22T17:20:22.000Z)
+15m: quedan 99 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2241 de 3000 (visto 2026-10-22T18:00:26.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (11 esperando)
+- TikTok · Reels del bot · Britos evalúa que De Lillo complete el mandato municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Clara Galván obtuvo la medalla de bronce en lanzamiento de disco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo obtuvo la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,13 +53,6 @@ Actualizado: 22/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
-- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok 
-- 2026-10-22T14:20 recibido web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-22T14:20 recibido web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-22T14:20 programado bot:video_matias-zucchi_mvjluzixklug_01.mp4|x 
-- 2026-10-22T14:20 programado bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
-- 2026-10-22T14:40 enviado bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok 
 - 2026-10-22T14:40 enviado bot:video_matias-zucchi_mvjluzixklug_01.mp4|x 
 - 2026-10-22T14:40 enviado bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
 - 2026-10-22T14:40 enviado policiales:https://laopinionline.ar/articulo/la-fiscalia-sos 
@@ -77,3 +71,10 @@ Actualizado: 22/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-22T17:20 recibido entrevistas:job00239|x 
 - 2026-10-22T17:20 enviado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x 
 - 2026-10-22T17:20 programado entrevistas:job00239|x 
+- 2026-10-22T18:00 entrevista_aprobada entrevistas:job00240 
+- 2026-10-22T18:00 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x 
+- 2026-10-22T18:00 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
+- 2026-10-22T18:00 recibido entrevistas:job00240|x 
+- 2026-10-22T18:00 recibido web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-22T18:00 programado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x 
+- 2026-10-22T18:00 programado entrevistas:job00240|x 

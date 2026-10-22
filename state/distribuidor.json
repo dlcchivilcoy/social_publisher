@@ -934,6 +934,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d900088211d66e7e.mp4",
    "youtube_url": "https://www.youtube.com/shorts/mV1In68pkS8"
   },
+  "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": {
+   "descripcion": "Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-22T17:42:57.000Z",
+   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
+   "urgente": false,
+   "video_bytes": 759817,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_71b9a0d818aa609a.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/2JrmslSkQ9o"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -1669,46 +1690,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WWKPjSVUxWA"
   },
-  "entrevistas:job00188": {
-   "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
-   "duracion_seg": null,
-   "entrevistado": "Estefanía Cruz",
-   "generado": "2026-10-12T17:00:17.000Z",
-   "id": "entrevistas:job00188",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Estefanía Cruz: el secreto de la bandera de Filipinas",
-   "urgente": false,
-   "video_bytes": 27391279,
-   "video_mb": 26.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4",
-   "youtube_url": "https://youtu.be/dt1BkouTlJw"
-  },
-  "entrevistas:job00189": {
-   "descripcion": "Mirá los detalles que reveló en la escultura.",
-   "duracion_seg": null,
-   "entrevistado": "Alicia Ríos",
-   "generado": "2026-10-12T17:20:13.000Z",
-   "id": "entrevistas:job00189",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Alicia Ríos: Símbolos masónicos en Chivilcoy",
-   "urgente": false,
-   "video_bytes": 41143665,
-   "video_mb": 39.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00189.mp4",
-   "youtube_url": "https://youtu.be/tBQtNSGhxcc"
-  },
   "entrevistas:job00190": {
    "descripcion": "El atleta de Chivilcoy Uriel Scalani relató el esfuerzo de viajar a competir desde el interior frente a delegaciones numerosas. Con dedicación propia y sin grandes estructuras, logró llegar a lo más alto de la disciplina.",
    "duracion_seg": null,
@@ -2428,6 +2409,26 @@
    "video_mb": 23.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00239.mp4",
    "youtube_url": "https://youtu.be/cWoZML5Iu3U"
+  },
+  "entrevistas:job00240": {
+   "descripcion": "Jorge Llanes, directivo del Club Social Ramón Biaus de Chivilcoy, detalló que el 80% de lo recaudado por inscripciones se destinará a premios del certamen de cocina.",
+   "duracion_seg": null,
+   "entrevistado": "Jorge Llanes",
+   "generado": "2026-10-22T18:00:18.000Z",
+   "id": "entrevistas:job00240",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Biaus al Disco: Jorge Llanes confirmó premios para el concurso",
+   "urgente": false,
+   "video_bytes": 23776633,
+   "video_mb": 22.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00240.mp4",
+   "youtube_url": "https://youtu.be/tRPJIDKpmfs"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -6452,30 +6453,6 @@
    "volanta": "Bragado en Junín",
    "youtube_url": "https://youtube.com/shorts/3VFNiconxcE"
   },
-  "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": {
-   "categoria": "accidente_vial",
-   "descripcion": "Cinco personas sufrieron heridas de diversa consideración este lunes 12 de octubre de 2026 a las 09:31 hs, tras un violento impacto frontal entre dos automóviles sobre la Ruta Nacional 7, en el límite jurisdiccional entre Luján y General Rodríguez.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-12T15:37:21.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html",
-   "localidad": "Luján",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-y-general-rodriguez-cinco-heridos-en-choque-frontal-en-dcb16e",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Cinco heridos dejó un violento choque frontal entre dos automóviles registrado este lunes 12 de octubre de 2026 a las 09:31 hs sobre la Ruta Nacional 7.\n\nEl episodio vial ocurrió en el tramo que se extiende entre la avenida Teresa Mastellone y el puente de la Ruta Provincial 6, en territorio lujanense.\n\nComo saldo del impacto entre un Volkswagen Gol y un Chevrolet Corsa, cuatro mujeres de entre 24 y 38 años terminaron hospitalizadas.\n\nTrabajaron en la zona bomberos de ambos distritos, efectivos policiales y ambulancias del SAME que derivaron a los lesionados.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #SiniestroVial #Transito #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cinco heridos tras choque frontal en la Ruta 7 este lunes a las 09:31 hs",
-   "urgente": false,
-   "video_bytes": 92958,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_12_junin_cinco-heridos-tras-choque-fron.mp4",
-   "volanta": "Luján y General Rodríguez",
-   "youtube_url": "https://youtube.com/shorts/9JS7efuENm4"
-  },
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html": {
    "categoria": "operativo_policial",
    "descripcion": "Un vecino de 31 años fue capturado en un allanamiento luego de intimidar a su expareja de 26 en la zona de calles Battilana y Bolivia. Secuestraron una moto y se investiga una causa por violencia familiar.",
@@ -6667,30 +6644,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_02_junin_robaron-y-destrozaron-el-club-.mp4",
    "volanta": "Robo en el Club River de Junín",
    "youtube_url": "https://youtube.com/shorts/RVmqCHYfMok"
-  },
-  "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera": {
-   "categoria": "otro_policial",
-   "descripcion": "Un jubilado de 70 años fue detenido en una vivienda de calle Peira al 300 tras agredir a los uniformados y a un familiar con un arma blanca.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-12T15:37:21.000Z",
-   "id": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-jubilado-agredio-a-machetazos-a-policias-y-a-su-nuera-a43906",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Un jubilado de 70 años fue arrestado en Junín tras protagonizar un violento episodio en un domicilio.\n\nEl hecho sucedió el domingo cerca de las 18 en una finca situada en la cuadra del 300 de la calle Peira.\n\nAl llegar los agentes del Comando de Patrullas por un llamado al 911, el morador los agredió con un machete y lastimó a la nuera, de 33 años.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Atacó con un machete a policías y a su nuera",
-   "urgente": false,
-   "video_bytes": 80614,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_06_junin_atac-con-un-machete-a-polic-as.mp4",
-   "volanta": "Junín",
-   "youtube_url": "https://youtube.com/shorts/g_Mx17wQElw"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos": {
    "categoria": "operativo_policial",
@@ -13105,6 +13058,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": {
+   "categoria": "",
+   "descripcion": "Britos evalúa que De Lillo complete el mandato municipal Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión en materia de seguridad, anticipó gestiones para recuperar parte de la ex clínica IMO para el patrimonio municipal y puso en valor el trabajo de los...",
+   "generado": "2026-10-22T17:40:51.756Z",
+   "id": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f1600f3e2f3c4c3aacd67e018795620f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": {
    "categoria": "",
    "descripcion": "Leticia Berdugo: “Propiciamos siempre el tratamiento ambulatorio porque vamos a trabajar en la cotidianidad, no la aislamos a la persona” En el marco de la reciente conmemoración del Día Mundial de la Salud Mental y tras diversas actividades desplegadas en el ámbito local, la directora del Dispositivo Territorial Comunitario (DTC) de Sedronar en nuestra ciudad, Leticia Berdugo, visitó los estudios de Radio del Centro con motivo de  profundizar sobre los lineamientos institucionales, el...",
@@ -13563,22 +13535,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 222,
-   "segundos": 23998,
+   "restantes": 221,
+   "segundos": 21596,
    "tope": 250
   },
   "30d": {
-   "restantes": 2242,
-   "segundos": 1655419,
+   "restantes": 2241,
+   "segundos": 1653017,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T17:20:22.000Z",
+ "cuota_visto": "2026-10-22T18:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16259,6 +16231,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d900088211d66e7e.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok": {
+   "actualizado": "2026-10-22T18:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
+   "creado": "2026-10-22T18:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T17:42:57.000Z",
+   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Britos evalúa que De Lillo complete el mandato municipal\n\nDurante el acto central por el 172° aniversario de Chivilcoy, se reconoció a Horacio Milozzi como Ciudadano Ilustre y el intendente Britos brindó un mensaje sobre el futuro de la gestión. En la ceremonia, el mandatario comunal destacó los avances de los últimos 11 años y defendió la labor realizada.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
+   "urgente": false,
+   "vence": "2026-10-24T17:42:57.000Z",
+   "video_bytes": 759817,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_71b9a0d818aa609a.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x": {
+   "actualizado": "2026-10-22T18:00:23.000Z",
+   "buffer_id": "6ada4f38b2fbfbb7e989147d",
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x",
+   "creado": "2026-10-22T18:00:18.000Z",
+   "dueAt": "2026-10-22T18:02:43.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T17:42:57.000Z",
+   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "noticia": "nota:chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Britos evalúa que De Lillo complete el mandato municipal\n\nChivilcoy celebró su 172° aniversario con un homenaje a Horacio Milozzi. El intendente Britos defendió su gestión y destacó los avances locales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
+   "urgente": false,
+   "vence": "2026-10-22T19:42:57.000Z",
+   "video_bytes": 759817,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_71b9a0d818aa609a.mp4",
+   "viral": false
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
    "actualizado": "2026-10-15T11:20:16.000Z",
    "buffer_id": "6ad0b2488e44c0222ce2d5f9",
@@ -18578,58 +18606,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
    "viral": false
   },
-  "entrevistas:job00188|x": {
-   "actualizado": "2026-10-12T18:00:16.000Z",
-   "buffer_id": "6acd12237eb16fd28e94048f",
-   "clave": "entrevistas:job00188|x",
-   "creado": "2026-10-12T17:00:17.000Z",
-   "dueAt": "2026-10-12T17:03:02.000Z",
-   "enviado": "2026-10-12T17:05:07.526Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T17:00:17.000Z",
-   "id": "entrevistas:job00188",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109691847371026627",
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Estefanía Cruz: el secreto de la bandera de Filipinas\n\nEstefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos…\n\n▶️ La entrevista completa: https://youtu.be/dt1BkouTlJw",
-   "tipo": "video",
-   "titulo": "Estefanía Cruz: el secreto de la bandera de Filipinas",
-   "urgente": false,
-   "vence": "2026-10-14T17:00:17.000Z",
-   "video_bytes": 27391279,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00188.mp4"
-  },
-  "entrevistas:job00189|x": {
-   "actualizado": "2026-10-12T18:00:16.000Z",
-   "buffer_id": "6acd16cf7eb16fd28e9547f2",
-   "clave": "entrevistas:job00189|x",
-   "creado": "2026-10-12T17:20:13.000Z",
-   "dueAt": "2026-10-12T17:23:43.000Z",
-   "enviado": "2026-10-12T17:24:09.185Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T17:20:13.000Z",
-   "id": "entrevistas:job00189",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109696636066713641",
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Alicia Ríos: Símbolos masónicos en Chivilcoy\n\nMirá los detalles que reveló en la escultura.\n\n▶️ La entrevista completa: https://youtu.be/tBQtNSGhxcc",
-   "tipo": "video",
-   "titulo": "Alicia Ríos: Símbolos masónicos en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-14T17:20:13.000Z",
-   "video_bytes": 41143665,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00189.mp4"
-  },
   "entrevistas:job00190|x": {
    "actualizado": "2026-10-12T19:00:17.000Z",
    "buffer_id": "6acd203284949d5b220e3b28",
@@ -19757,6 +19733,34 @@
    "vence": "2026-10-22T19:20:20.000Z",
    "video_bytes": 24105857,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00239.mp4",
+   "viral": false
+  },
+  "entrevistas:job00240|x": {
+   "actualizado": "2026-10-22T18:00:23.000Z",
+   "buffer_id": "6ada4f3aad1fc1b5527c6bba",
+   "clave": "entrevistas:job00240|x",
+   "creado": "2026-10-22T18:00:18.000Z",
+   "dueAt": "2026-10-22T18:08:52.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T18:00:18.000Z",
+   "id": "entrevistas:job00240",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:biaus-concurso-confirmo-disco-jorge-llanes-premios",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Biaus al Disco: Jorge Llanes confirmó premios para el concurso\n\nJorge Llanes, directivo del Club Social Ramón Biaus de Chivilcoy, detalló que el 80% de lo recaudado por inscripciones se destinará a premios del certamen de cocina.\n\nhttps://youtu.be/tRPJIDKpmfs",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Biaus al Disco: Jorge Llanes confirmó premios para el concurso",
+   "urgente": false,
+   "vence": "2026-10-22T20:00:18.000Z",
+   "video_bytes": 23776633,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00240.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -24486,32 +24490,6 @@
    "video_bytes": 130889,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_07_bragado_daniel-ferrari-volc-con-su-che.mp4"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|x": {
-   "actualizado": "2026-10-12T18:00:16.000Z",
-   "buffer_id": "6accff6817154ed8aaf48b98",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|x",
-   "creado": "2026-10-12T15:40:18.000Z",
-   "dueAt": "2026-10-12T16:43:47.000Z",
-   "enviado": "2026-10-12T16:44:04.309Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T15:37:21.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109686549293985980",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-hombre-de-72-anos-volco-con-su-auto-en-la-ruta-65bebd",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Daniel Ferrari volcó con su Chevrolet Corsa en la Ruta 46\n\nUn conductor de 72 años volcó este lunes con su auto en la Ruta Provincial 46, a la altura de Warnes.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-un-hombre-de-72-anos-volco-con-su-auto-en-la-ruta-65bebd\n#Bragado",
-   "tipo": "video",
-   "titulo": "Daniel Ferrari volcó con su Chevrolet Corsa en la Ruta 46",
-   "urgente": false,
-   "vence": "2026-10-13T09:37:21.000Z",
-   "video_bytes": 130889,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_07_bragado_daniel-ferrari-volc-con-su-che.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|tiktok": {
    "actualizado": "2026-10-15T20:40:16.000Z",
    "buffer_id": "6ad106a702634b2d67e5b5f1",
@@ -26914,32 +26892,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_0239_07_junin_dos-adolescentes-aprehendidos-.mp4",
    "viral": false
   },
-  "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok": {
-   "actualizado": "2026-10-12T18:00:16.000Z",
-   "buffer_id": "6accff6a176c301054879424",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html|tiktok",
-   "creado": "2026-10-12T15:40:18.000Z",
-   "dueAt": "2026-10-12T17:23:17.000Z",
-   "enviado": "2026-10-12T17:25:12.785Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T15:37:21.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7695833236223642898",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-y-general-rodriguez-cinco-heridos-en-choque-frontal-en-dcb16e",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Cinco heridos dejó un violento choque frontal entre dos automóviles registrado este lunes 12 de octubre de 2026 a las 09:31 hs sobre la Ruta Nacional 7.\n\nEl episodio vial ocurrió en el tramo que se extiende entre la avenida Teresa Mastellone y el puente de la Ruta Provincial 6, en territorio lujanense.\n\nComo saldo del impacto entre un Volkswagen Gol y un Chevrolet Corsa, cuatro mujeres de entre 24 y 38 años terminaron hospitalizadas.\n\nTrabajaron en la zona bomberos de ambos distritos, efectivos policiales y ambulancias del SAME que derivaron a los lesionados.\n\n📲 Más noticias de Luján en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #luján #policiales",
-   "tipo": "video",
-   "titulo": "Cinco heridos tras choque frontal en la Ruta 7 este lunes a las 09:31 hs",
-   "urgente": false,
-   "vence": "2026-10-13T09:37:21.000Z",
-   "video_bytes": 92958,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_12_junin_cinco-heridos-tras-choque-fron.mp4"
-  },
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|tiktok": {
    "actualizado": "2026-10-13T01:20:19.000Z",
    "buffer_id": "6acd82a5aec88be081ed01f4",
@@ -27387,32 +27339,6 @@
    "vence": "2026-10-17T19:09:30.000Z",
    "video_bytes": 73255,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_02_junin_robaron-y-destrozaron-el-club-.mp4"
-  },
-  "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|tiktok": {
-   "actualizado": "2026-10-12T18:00:16.000Z",
-   "buffer_id": "6accff69ba9a2573f195aabe",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera|tiktok",
-   "creado": "2026-10-12T15:40:18.000Z",
-   "dueAt": "2026-10-12T16:43:36.000Z",
-   "enviado": "2026-10-12T16:45:27.927Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T15:37:21.000Z",
-   "id": "policiales:https://www.junindigital.com/policiales/2026-10-12-10-0-0-un-hombre-de-70-anos-ataco-con-un-machete-a-policias-y-lesiono-a-su-nuera",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7695822996086328584",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-jubilado-agredio-a-machetazos-a-policias-y-a-su-nuera-a43906",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Un jubilado de 70 años fue arrestado en Junín tras protagonizar un violento episodio en un domicilio.\n\nEl hecho sucedió el domingo cerca de las 18 en una finca situada en la cuadra del 300 de la calle Peira.\n\nAl llegar los agentes del Comando de Patrullas por un llamado al 911, el morador los agredió con un machete y lastimó a la nuera, de 33 años.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Atacó con un machete a policías y a su nuera",
-   "urgente": false,
-   "vence": "2026-10-13T09:37:21.000Z",
-   "video_bytes": 80614,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_1509_06_junin_atac-con-un-machete-a-polic-as.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos|tiktok": {
    "actualizado": "2026-10-13T20:00:29.000Z",
@@ -37562,6 +37488,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x": {
+   "actualizado": "2026-10-22T18:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x",
+   "creado": "2026-10-22T18:00:18.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-22T17:40:51.756Z",
+   "id": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "noticia": "nota:chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
+   "urgente": false,
+   "vence": "2026-10-22T21:40:51.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -38270,49 +38221,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
-   "cuando": "2026-10-19T18:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "entrevistas:job00229",
-   "cuando": "2026-10-19T18:20:14.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00229|x",
-   "cuando": "2026-10-19T18:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "nacionales:897bae57805e193b|tiktok",
-   "cuando": "2026-10-19T18:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
-   "cuando": "2026-10-19T18:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
-   "cuando": "2026-10-19T18:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "nacionales:e50827dd69db5a5d|tiktok",
-   "cuando": "2026-10-19T19:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
   {
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
    "cuando": "2026-10-19T19:00:20.000Z",
@@ -42362,6 +42270,57 @@
    "cuando": "2026-10-22T17:20:22.000Z",
    "dueAt": "2026-10-22T17:22:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00240",
+   "cuando": "2026-10-22T18:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x",
+   "cuando": "2026-10-22T18:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
+   "cuando": "2026-10-22T18:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "entrevistas:job00240|x",
+   "cuando": "2026-10-22T18:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x",
+   "cuando": "2026-10-22T18:00:23.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ada4f38b2fbfbb7e989147d",
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x",
+   "cuando": "2026-10-22T18:00:26.000Z",
+   "dueAt": "2026-10-22T18:02:43.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ada4f3aad1fc1b5527c6bba",
+   "clave": "entrevistas:job00240|x",
+   "cuando": "2026-10-22T18:00:26.000Z",
+   "dueAt": "2026-10-22T18:08:52.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42426,6 +42385,7 @@
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095": "2026-10-21T00:00:28.000Z",
   "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": "2026-10-21T02:20:14.000Z",
   "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe": "2026-10-22T01:40:20.000Z",
+  "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": "2026-10-22T18:00:18.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -42500,6 +42460,7 @@
   "entrevistas:job00237": "2026-10-21T17:40:15.000Z",
   "entrevistas:job00238": "2026-10-21T18:40:15.000Z",
   "entrevistas:job00239": "2026-10-22T17:20:20.000Z",
+  "entrevistas:job00240": "2026-10-22T18:00:18.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -43050,6 +43011,7 @@
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": "2026-10-16T14:00:21.000Z",
+  "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": "2026-10-22T18:00:18.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a": "2026-10-19T01:00:18.000Z",
