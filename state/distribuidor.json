@@ -1585,6 +1585,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_361c5a37cb9dc76f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/s9TIm3b5kw8"
   },
+  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4": {
+   "descripcion": "La Fuente de Hebe, ubicada en el centro de la Plaza 25 de Mayo, volvió a funcionar después de más de 20 años tras la inauguración de las obras de puesta en valor realizadas por la Municipalidad de Chivilcoy.\n\nLa intervención fue llevada adelante durante tres meses y medio por trabajadores de la Secretaría de Servicios Públicos y personal de distintas áreas municipales, quienes se encargaron de las tareas de restauración, arenado, reacondicionamiento y puesta a punto del sistema eléctrico.\n\nEl intendente Guillermo Britos destacó el compromiso de los empleados comunales y señaló que el proyecto se concretó con recursos propios, alcanzando un costo aproximado del 30% en comparación con presupuestos recibidos en años anteriores. Asimismo, felicitó al secretario de Servicios Públicos, Esteban Genaro, y al director de Espacios Verdes, Matías Muo, por la labor realizada para preservar el patrimonio histórico.\n\nPor su parte, Muo explicó que la estructura fue desarmada en su totalidad para devolverle su terminación original. Según detalló, en base a registros fotográficos y restos hallados, se aplicó cobre en polvo con laca para restituir el revestimiento que la escultura tenía al llegar a la ciudad, sumado a productos para asegurar su conservación a la intemperie.\n\nCon estas tareas concluidas, los vecinos ya pueden disfrutar nuevamente de la emblemática fuente en funcionamiento dentro de la plaza principal.",
+   "duracion_seg": 39.1,
+   "generado": "2026-10-22T13:05:47.000Z",
+   "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
+   "urgente": false,
+   "video_bytes": 12893075,
+   "video_mb": 12.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ZDppaYnqJ04"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -11376,6 +11397,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/confirman-condena-millonaria-a-una-empresa-de-colectivos-y-su-3cb0a3",
    "volanta": ""
   },
+  "web:a7875969-2bc4-498e-8b29-ec2539b13deb": {
+   "categoria": "",
+   "descripcion": "La Fuente de Hebe volvió a funcionar después de más de 20 años La Municipalidad de Chivilcoy inauguró la puesta en valor de la Fuente de Hebe, ubicada en el centro de la Plaza 25 de Mayo, que volvió a funcionar después de más de 20 años. La obra fue realizada por trabajadores municipales de la Secretaría de Servicios Públicos y la colaboración de distintas áreas, quienes durante tres meses y medio llevaron adelante tareas de restauración, reacondicionamiento y reparación. El intendente...",
+   "generado": "2026-10-22T13:03:17.234Z",
+   "id": "web:a7875969-2bc4-498e-8b29-ec2539b13deb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2faf2d58e37a436ca58a9f55474d40a9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "volanta": "Chivilcoy · Sociedad"
+  },
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": {
    "categoria": "nacionales",
    "descripcion": "SUTEBA, UDOCBA, AMET y SADOP aceptaron la propuesta de la administración provincial. El incremento se abonará en dos tramos entre octubre y noviembre de…",
@@ -13507,17 +13547,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 231,
-   "segundos": 39598,
+   "restantes": 230,
+   "segundos": 38401,
    "tope": 250
   },
   "30d": {
-   "restantes": 2251,
-   "segundos": 1671018,
+   "restantes": 2250,
+   "segundos": 1669822,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T13:00:26.000Z",
+ "cuota_visto": "2026-10-22T13:20:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15907,7 +15947,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 10 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -18133,7 +18173,7 @@
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 10 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T00:12:48.000Z",
    "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
@@ -18253,6 +18293,62 @@
    "vence": "2026-10-22T02:33:31.000Z",
    "video_bytes": 13571003,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_361c5a37cb9dc76f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok": {
+   "actualizado": "2026-10-22T13:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok",
+   "creado": "2026-10-22T13:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T13:05:47.000Z",
+   "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "La Fuente de Hebe volvió a funcionar después de más de 20 años\n\nLa Municipalidad de Chivilcoy inauguró las obras de puesta en valor realizadas durante tres meses y medio en la Plaza 25 de Mayo por personal comunal. El intendente Guillermo Britos destacó el compromiso de los trabajadores y señaló que el proyecto se concretó con recursos propios, con un costo cercano al 30% respecto de presupuestos anteriores.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
+   "urgente": false,
+   "vence": "2026-10-24T13:05:47.000Z",
+   "video_bytes": 12893075,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x": {
+   "actualizado": "2026-10-22T13:20:18.000Z",
+   "buffer_id": "6ada0d93bf6d801ac6ecd605",
+   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x",
+   "creado": "2026-10-22T13:20:15.000Z",
+   "dueAt": "2026-10-22T13:22:07.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T13:05:47.000Z",
+   "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "noticia": "nota:chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "La Fuente de Hebe volvió a funcionar después de más de 20 años\n\nLa Municipalidad de Chivilcoy inauguró las obras de puesta en valor en la Plaza 25 de Mayo. El intendente Guillermo Britos destacó que el proyecto se concretó con recursos propios.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
+   "urgente": false,
+   "vence": "2026-10-22T15:05:47.000Z",
+   "video_bytes": 12893075,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
    "viral": false
   },
   "entrevistas:job00188|x": {
@@ -22492,7 +22588,7 @@
    "creado": "2026-10-22T01:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 10 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T00:42:23.000Z",
    "id": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/",
@@ -25411,7 +25507,7 @@
    "creado": "2026-10-22T02:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 4 más virales de la tanda 10 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T02:01:05.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html",
@@ -34895,6 +34991,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:a7875969-2bc4-498e-8b29-ec2539b13deb|x": {
+   "actualizado": "2026-10-22T13:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:a7875969-2bc4-498e-8b29-ec2539b13deb|x",
+   "creado": "2026-10-22T13:20:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-22T13:03:17.234Z",
+   "id": "web:a7875969-2bc4-498e-8b29-ec2539b13deb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "noticia": "nota:chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
+   "urgente": false,
+   "vence": "2026-10-22T17:03:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e|x": {
    "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4d59d0a208cb3236b238f",
@@ -38103,34 +38224,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:8823bbc2-feae-46ef-8a92-a08165b6e26c|x",
-   "cuando": "2026-10-19T16:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00224|x",
-   "cuando": "2026-10-19T16:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "nacionales:c27183ebaf507280|tiktok",
-   "cuando": "2026-10-19T16:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:1abafabb-ff53-4fcd-911c-6a4465fed747|x",
-   "cuando": "2026-10-19T16:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
    "cuando": "2026-10-19T16:20:23.000Z",
@@ -42174,6 +42267,37 @@
    "cuando": "2026-10-22T13:00:26.000Z",
    "dueAt": "2026-10-22T14:03:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x",
+   "cuando": "2026-10-22T13:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok",
+   "cuando": "2026-10-22T13:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:a7875969-2bc4-498e-8b29-ec2539b13deb|x",
+   "cuando": "2026-10-22T13:20:18.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ada0d93bf6d801ac6ecd605",
+   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x",
+   "cuando": "2026-10-22T13:20:19.000Z",
+   "dueAt": "2026-10-22T13:22:07.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42268,6 +42392,7 @@
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4": "2026-10-21T00:40:14.000Z",
   "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": "2026-10-22T00:20:17.000Z",
   "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4": "2026-10-22T00:40:17.000Z",
+  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4": "2026-10-22T13:20:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -42751,6 +42876,7 @@
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": "2026-10-17T21:40:12.000Z",
   "web:a7506907-93aa-4f39-beaa-3504a79c1fe5": "2026-10-19T09:00:17.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
+  "web:a7875969-2bc4-498e-8b29-ec2539b13deb": "2026-10-22T13:20:15.000Z",
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
