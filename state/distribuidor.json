@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 2
+    "scheduled": 0,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-22T13:40:15.000Z"
+   "visto": "2026-10-22T14:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 22
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-22T13:40:15.000Z"
+   "visto": "2026-10-22T14:40:16.000Z"
   }
  },
  "contenidos": {
@@ -13537,17 +13537,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 228,
-   "segundos": 34793,
+   "restantes": 227,
+   "segundos": 33604,
    "tope": 250
   },
   "30d": {
-   "restantes": 2248,
-   "segundos": 1666214,
+   "restantes": 2247,
+   "segundos": 1665025,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T14:20:28.000Z",
+ "cuota_visto": "2026-10-22T14:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18222,19 +18222,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok": {
-   "actualizado": "2026-10-22T13:00:20.000Z",
+   "actualizado": "2026-10-22T14:40:16.000Z",
    "buffer_id": "6ada08e9e8cca8cdcc5192d4",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok",
    "creado": "2026-10-22T00:40:17.000Z",
    "dueAt": "2026-10-22T13:43:02.000Z",
+   "enviado": "2026-10-22T13:46:58.764Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T00:33:31.000Z",
    "id": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699487357656911112",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18372,18 +18373,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x": {
-   "actualizado": "2026-10-22T14:20:26.000Z",
+   "actualizado": "2026-10-22T14:40:16.000Z",
    "buffer_id": "6ada1babeb1348c17ac34588",
    "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "2026-10-22T14:22:17.000Z",
+   "enviado": "2026-10-22T14:22:50.715Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T14:04:12.000Z",
    "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113274886940463320",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
    "noticia": "nota:chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
    "origen": "bot",
@@ -18428,18 +18430,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x": {
-   "actualizado": "2026-10-22T14:20:26.000Z",
+   "actualizado": "2026-10-22T14:40:16.000Z",
    "buffer_id": "6ada1bab1cc831fdc3c12789",
    "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "2026-10-22T14:27:18.000Z",
+   "enviado": "2026-10-22T14:27:45.890Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T14:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113276125111611837",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
    "noticia": "nota:chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
    "origen": "bot",
@@ -23482,19 +23485,20 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok": {
-   "actualizado": "2026-10-22T13:00:20.000Z",
+   "actualizado": "2026-10-22T14:40:16.000Z",
    "buffer_id": "6ada08eaa6a09108d268b585",
    "categoria": "",
    "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok",
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "2026-10-22T14:03:12.000Z",
+   "enviado": "2026-10-22T14:09:44.260Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T00:01:09.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699493467696794932",
    "nota_url": "https://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -38225,35 +38229,6 @@
  },
  "registro": [
   {
-   "clave": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x",
-   "cuando": "2026-10-19T17:00:44.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00225|x",
-   "cuando": "2026-10-19T17:00:44.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "nacionales:552c66c451a5584e|tiktok",
-   "cuando": "2026-10-19T17:00:44.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "buffer_id": "6ad64cbdd1648e7b92bde029",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
-   "cuando": "2026-10-19T17:00:46.000Z",
-   "dueAt": "2026-10-19T22:45:49.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00226",
    "cuando": "2026-10-19T17:20:15.000Z",
    "evento": "entrevista_aprobada"
@@ -42308,6 +42283,30 @@
    "cuando": "2026-10-22T14:20:28.000Z",
    "dueAt": "2026-10-22T14:27:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok",
+   "cuando": "2026-10-22T14:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699487357656911112"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
+   "cuando": "2026-10-22T14:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113274886940463320"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
+   "cuando": "2026-10-22T14:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113276125111611837"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok",
+   "cuando": "2026-10-22T14:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699493467696794932"
   }
  ],
  "tandas": {
@@ -42324,7 +42323,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T13:40:15.000Z",
+ "ultima_sync": "2026-10-22T14:40:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
