@@ -15,7 +15,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-22T10:20:14.000Z"
+   "visto": "2026-10-22T11:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 21
+    "scheduled": 4,
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-10-22T10:20:14.000Z"
+   "visto": "2026-10-22T11:40:14.000Z"
   }
  },
  "contenidos": {
@@ -5294,30 +5294,6 @@
    "volanta": "Hallazgo trágico en Pehuajó",
    "youtube_url": "https://youtube.com/shorts/S_FSlbIokQ8"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": {
-   "categoria": "robo",
-   "descripcion": "El rodado de color negro había sido dejado estacionado en la vía pública por su dueño. Los delincuentes se lo llevaron durante la madrugada.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-12T02:41:56.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "['Delincuentes se llevaron una camioneta Toyota Hilux negra en Bragado durante la celebración de la Fiesta Nacional del Caballo.', 'El rodado, patente AH513NH, había sido estacionado el sábado a las 21:30 en la calle Macaya, entre General Paz y Remedios de Escalada.', 'Su propietario, Gustavo Adolfo Andrioni, de 51 años, descubrió el faltante cerca de la 1:30 de la madrugada del domingo al regresar al lugar.', 'La denuncia quedó radicada y la investigación penal preparatoria quedó bajo la órbita de la UFIyJ N.º 2 del departamento judicial de Mercedes.']\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #RoboDeAutos #FiestaDelCaballo #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado",
-   "urgente": false,
-   "video_bytes": 86525,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4",
-   "volanta": "Bragado",
-   "youtube_url": "https://youtube.com/shorts/qiEx5KDuyqg"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un conductor de 72 años volcó este lunes con su auto en la Ruta Provincial 46, a la altura de Warnes. No sufrió lesiones y fue trasladado consciente al hospital de O’Brien.",
@@ -8797,24 +8773,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
    "volanta": ""
   },
-  "web:432a1738-bd99-40ee-ac9f-6bc60445b517": {
-   "categoria": "",
-   "descripcion": "Miriam Latorre analizó una nueva edición de las Jornadas Regionales y Públicas ante los desafíos que impone la IA Tras la realización de una nueva edición de las Jornadas Regionales por la Educación Pública en Chivilcoy, la docente e integrante del comité organizador, Miriam Latorre, visitó los estudios de Radio del Centro para realizar un balance exhaustivo sobre el desarrollo de las actividades, el compromiso de la comunidad y los debates pedagógicos contemporáneos, fuertemente atravesados...",
-   "generado": "2026-10-12T10:09:54.415Z",
-   "id": "web:432a1738-bd99-40ee-ac9f-6bc60445b517",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f8b5894dae7c4b15b848f02ddd1addff~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-tecnologia-miriam-latorre-analizo-una-nueva-edicion-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Miriam Latorre analizó una nueva edición de las Jornadas Regionales y Públicas ante los desafíos que impone la IA",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-tecnologia-miriam-latorre-analizo-una-nueva-edicion-de",
-   "volanta": "Educación y Tecnología"
-  },
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326": {
    "categoria": "",
    "descripcion": "Hugo Kübler: “La restitución de la nave municipal no exime en lo absoluto a la empresa del pago de las obligaciones que mantiene con la comunidad”",
@@ -10125,24 +10083,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
    "volanta": ""
   },
-  "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": {
-   "categoria": "",
-   "descripcion": "Carlos Armando Costanzo y La Verdadera Felicidad... El siempre recordado intérprete musical y compositor, Facundo Cabral, solía puntualizar que “es rico no el que más tiene, sino el que menos necesita”, subrayando así, la importancia y la dimensión de la auténtica sabiduría, para comprender entonces que, la acumulación de bienes, el lujo, el boato y la fortuna, nada valen ni tampoco, nada significan; por el contrario, equivalen a vanidad y aflicción de espíritu, pues, en definitiva, sujetan...",
-   "generado": "2026-10-12T10:10:40.861Z",
-   "id": "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c03b7a8e9a204dab81af5f4852b67778~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reflexion-lunfarda-carlos-armando-costanzo-y-la-verdadera-felicidad",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Carlos Armando Costanzo y La Verdadera Felicidad...",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reflexion-lunfarda-carlos-armando-costanzo-y-la-verdadera-felicidad",
-   "volanta": "Reflexión Lunfarda"
-  },
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": {
    "categoria": "nacionales",
    "descripcion": "Entre julio y septiembre, nueve entidades financieras recortaron sus tasas, diez las mantuvieron y una las subió, con un promedio que pasó de 8,7% a 7,7%.",
@@ -10196,24 +10136,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
    "volanta": ""
-  },
-  "web:7d5f6c0a-c319-4699-b784-5e34babbcefc": {
-   "categoria": "",
-   "descripcion": "Horacio Vero presento su nuevo libro en la Provincia de Corrientes El abogado y escritor Horacio Vero presentó su nuevo libro “Justicia: levántate y anda” (La Razón Ediciones) en la provincia de Corrientes, continuando de esta manera con su visita a distintos Colegios de Abogados de la República Argentina. El día martes 6 de octubre, con la organización del Colegio de Abogados de Curuzú Cuatiá, el acto se llevó a cabo en la sede ubicada en la ciudad de Mercedes, siendo presidido por el...",
-   "generado": "2026-10-12T10:12:58.688Z",
-   "id": "web:7d5f6c0a-c319-4699-b784-5e34babbcefc",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0d16e5c2ace74a3189b93a5c1ba78126~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Horacio Vero presento su nuevo libro en la Provincia de Corrientes",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
-   "volanta": "Colegios de Abogados"
   },
   "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197": {
    "categoria": "",
@@ -11706,24 +11628,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aiaca-y-plexagro-patricio-lo-valvo-invito-a-una-nueva-jornada-a-campo",
    "volanta": "AIACA y Plexagro"
   },
-  "web:b395e5df-d8a5-4838-8478-88d0f4b8786c": {
-   "categoria": "",
-   "descripcion": "La Escuela Nacional organiza una cena show para renovar su edificio histórico La comunidad de la Escuela de Educación Secundaria N° 3 ‘José Hernández’, emblemática institución de Chivilcoy popularmente conocida como la Escuela Nacional, llevará adelante una gran cena show a beneficio el próximo 31 de octubre. La iniciativa surgió del trabajo mancomunado entre el equipo directivo, la asociación cooperadora y distintas promociones de exalumnos, con el propósito prioritario de reunir fondos...",
-   "generado": "2026-10-12T10:12:09.129Z",
-   "id": "web:b395e5df-d8a5-4838-8478-88d0f4b8786c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c227f8f5a34f46c6a39a893ff7b4a4d8~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/a-beneficio-la-escuela-nacional-organiza-una-cena-show-para-renovar",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "La Escuela Nacional organiza una cena show para renovar su edificio histórico",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/a-beneficio-la-escuela-nacional-organiza-una-cena-show-para-renovar",
-   "volanta": "A beneficio"
-  },
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4": {
    "categoria": "",
    "descripcion": "Una vecina denunció el robo de su moto y ofrece recompensa Milagros Reinoso denunció que el jueves, alrededor de las 21:40, le sustrajeron una Keller Cronos 110 azul, patente A268BDY, del porche de su vivienda ubicada en la calle 80, entre Rossetti y Deán Funes. «Siento que Chivilcoy es tierra de nadie», expresó al reclamar respuestas. Según relató, las cámaras del barrio registraron la participación de tres jóvenes. La moto era el medio que utilizaba para llevar a sus hijas a la escuela y al...",
@@ -12742,24 +12646,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/feria-artesanal-de-chivilcoy-celebraran-sus-35-anos-con-una-gran",
    "volanta": ""
   },
-  "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": {
-   "categoria": "",
-   "descripcion": "Más de 3.200 productores, 3,15 Mill. Has, y 50 instituciones: el modelo cordobés de BPA que busca llegar a todo el Agro Córdoba busca nacionalizar su programa de Buenas Prácticas Agropecuarias tras cumplir 10 años. La provincia celebró una década del programa BPAs, que articula al Estado, productores y más de 50 instituciones para promover una producción sostenible. Durante el encuentro, se anunció la intención de impulsar una ley nacional que reconozca a quienes incorporan buenas prácticas...",
-   "generado": "2026-10-12T10:11:23.296Z",
-   "id": "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d4813814aa9f4a218f68892839e5d4c9~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Más de 3.200 productores, 3,15 Mill. Has, y 50 instituciones: el modelo cordobés de BPA que busca llegar a todo el Agro",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
-   "volanta": "De Córdoba al país"
-  },
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40": {
    "categoria": "nacionales",
    "descripcion": "En el marco del Día de la Lealtad, el Partido Justicialista lanzó un duro comunicado donde comparó la condena a la expresidenta con el destierro histórico…",
@@ -13688,22 +13574,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 235,
-   "segundos": 45607,
+   "restantes": 233,
+   "segundos": 44405,
    "tope": 250
   },
   "30d": {
-   "restantes": 2255,
-   "segundos": 1677028,
+   "restantes": 2253,
+   "segundos": 1675826,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T11:20:13.000Z",
+ "cuota_visto": "2026-10-22T11:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -24319,32 +24205,6 @@
    "video_bytes": 102479,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok": {
-   "actualizado": "2026-10-12T11:40:14.000Z",
-   "buffer_id": "6acca1aaa2941ce81769b228",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|tiktok",
-   "creado": "2026-10-12T09:00:23.000Z",
-   "dueAt": "2026-10-12T11:00:11.000Z",
-   "enviado": "2026-10-12T11:04:24.674Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T02:41:56.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7695735123064573205",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "['Delincuentes se llevaron una camioneta Toyota Hilux negra en Bragado durante la celebración de la Fiesta Nacional del Caballo.', 'El rodado, patente AH513NH, había sido estacionado el sábado a las 21:30 en la calle Macaya, entre General Paz y Remedios de Escalada.', 'Su propietario, Gustavo Adolfo Andrioni, de 51 años, descubrió el faltante cerca de la 1:30 de la madrugada del domingo al regresar al lugar.', 'La denuncia quedó radicada y la investigación penal preparatoria quedó bajo la órbita de la UFIyJ N.º 2 del departamento judicial de Mercedes.']\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
-   "tipo": "video",
-   "titulo": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado",
-   "urgente": false,
-   "vence": "2026-10-12T20:41:56.000Z",
-   "video_bytes": 86525,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|tiktok": {
    "actualizado": "2026-10-12T19:00:17.000Z",
    "buffer_id": "6accff6b0e025935d3b842b0",
@@ -29810,19 +29670,20 @@
    "viral": false
   },
   "web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x": {
-   "actualizado": "2026-10-22T10:03:57.000Z",
+   "actualizado": "2026-10-22T11:40:14.000Z",
    "buffer_id": "6ad9df8f194287d6a1f17188",
    "clave": "web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T10:37:01.000Z",
+   "enviado": "2026-10-22T10:37:16.340Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:10.593Z",
    "id": "web:280999ac-1b54-4b50-93c1-5c7aa19298cf",
    "ig_hora": "2026-10-22T10:37:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113218119342735624",
    "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-habitacional-rosario-galland-advirtio-sobre-las",
    "noticia": "nota:problematica-habitacional-rosario-galland-advirtio-sobre-las",
    "origen": "web",
@@ -31088,32 +30949,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:432a1738-bd99-40ee-ac9f-6bc60445b517|x": {
-   "actualizado": "2026-10-12T11:40:14.000Z",
-   "buffer_id": "6accb467ccd31a0d0ed3be94",
-   "clave": "web:432a1738-bd99-40ee-ac9f-6bc60445b517|x",
-   "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "2026-10-12T11:30:25.000Z",
-   "enviado": "2026-10-12T11:30:39.215Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T10:09:54.415Z",
-   "id": "web:432a1738-bd99-40ee-ac9f-6bc60445b517",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109607674874589245",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-tecnologia-miriam-latorre-analizo-una-nueva-edicion-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Miriam Latorre analizó una nueva edición de las Jornadas Regionales y Públicas ante los desafíos que impone la IA\n\nTras la realización de una nueva edición de las Jornadas Regionales por la Educación Pública en Chivilcoy, la docente e integrante del…\n\nhttps://www.diariolacampaña.com.ar/n/educacion-y-tecnologia-miriam-latorre-analizo-una-nueva-edicion-de",
-   "tipo": "nota",
-   "titulo": "Miriam Latorre analizó una nueva edición de las Jornadas Regionales y Públicas ante los desafíos que impone la IA",
-   "urgente": false,
-   "vence": "2026-10-13T10:09:54.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -32063,19 +31898,20 @@
    "video_url": ""
   },
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x": {
-   "actualizado": "2026-10-22T10:20:14.000Z",
+   "actualizado": "2026-10-22T11:40:14.000Z",
    "buffer_id": "6ad9e35f81158a0b17983abe",
    "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T11:37:48.000Z",
+   "enviado": "2026-10-22T11:38:02.034Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:33.292Z",
    "id": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32",
    "ig_hora": "2026-10-22T11:37:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113233410625863899",
    "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-reunio-a-mas-de-400-concejales-bonaerenses-con-la",
    "noticia": "nota:la-libertad-avanza-reunio-a-mas-de-400-concejales-bonaerenses-con-la",
    "origen": "web",
@@ -32404,19 +32240,20 @@
    "video_url": ""
   },
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x": {
-   "actualizado": "2026-10-22T10:03:57.000Z",
+   "actualizado": "2026-10-22T11:40:14.000Z",
    "buffer_id": "6ad9df8e4278e7eb700e7ef8",
    "clave": "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T10:22:28.000Z",
+   "enviado": "2026-10-22T10:22:31.162Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:05.871Z",
    "id": "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d",
    "ig_hora": "2026-10-22T10:22:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113214406838431779",
    "nota_url": "https://www.diariolacampaña.com.ar/n/costanza-alonso-necesitamos-que-sea-ley-para-empezar-a-abordar-un",
    "noticia": "nota:costanza-alonso-necesitamos-que-sea-ley-para-empezar-a-abordar-un",
    "origen": "web",
@@ -33120,32 +32957,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452|x": {
-   "actualizado": "2026-10-12T11:40:14.000Z",
-   "buffer_id": "6accb467a0f0173687a914de",
-   "clave": "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452|x",
-   "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "2026-10-12T11:15:06.000Z",
-   "enviado": "2026-10-12T11:15:16.619Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T10:10:40.861Z",
-   "id": "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109603805218128040",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reflexion-lunfarda-carlos-armando-costanzo-y-la-verdadera-felicidad",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Carlos Armando Costanzo y La Verdadera Felicidad...\n\nEl siempre recordado intérprete musical y compositor, Facundo Cabral, solía puntualizar que “es rico no el que más tiene, sino el que menos necesita”, subrayando así, la importancia y la dimensión…\n\nhttps://www.diariolacampaña.com.ar/n/reflexion-lunfarda-carlos-armando-costanzo-y-la-verdadera-felicidad",
-   "tipo": "nota",
-   "titulo": "Carlos Armando Costanzo y La Verdadera Felicidad...",
-   "urgente": false,
-   "vence": "2026-10-13T10:10:40.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x": {
    "actualizado": "2026-10-17T15:20:13.000Z",
    "buffer_id": "",
@@ -33227,32 +33038,6 @@
    "titulo": "Enzo Pérez alentó a River en la tribuna durante el partido ante Belgrano",
    "urgente": false,
    "vence": "2026-10-20T05:05:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:7d5f6c0a-c319-4699-b784-5e34babbcefc|x": {
-   "actualizado": "2026-10-12T11:40:14.000Z",
-   "buffer_id": "6accb4650b395b96ab0761d1",
-   "clave": "web:7d5f6c0a-c319-4699-b784-5e34babbcefc|x",
-   "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "2026-10-12T10:30:15.000Z",
-   "enviado": "2026-10-12T10:30:23.366Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T10:12:58.688Z",
-   "id": "web:7d5f6c0a-c319-4699-b784-5e34babbcefc",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109592508611146017",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Horacio Vero presento su nuevo libro en la Provincia de Corrientes\n\nEl abogado y escritor Horacio Vero presentó su nuevo libro “Justicia: levántate y anda” (La Razón Ediciones) en la provincia de Corrientes, continuando de esta manera con su visita a…\n\nhttps://www.diariolacampaña.com.ar/n/colegios-de-abogados-horacio-vero-presento-su-nuevo-libro-en-la",
-   "tipo": "nota",
-   "titulo": "Horacio Vero presento su nuevo libro en la Provincia de Corrientes",
-   "urgente": false,
-   "vence": "2026-10-13T10:12:58.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35591,32 +35376,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:b395e5df-d8a5-4838-8478-88d0f4b8786c|x": {
-   "actualizado": "2026-10-12T11:40:14.000Z",
-   "buffer_id": "6accb467a0f0173687a9148b",
-   "clave": "web:b395e5df-d8a5-4838-8478-88d0f4b8786c|x",
-   "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "2026-10-12T10:45:31.000Z",
-   "enviado": "2026-10-12T10:45:46.557Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T10:12:09.129Z",
-   "id": "web:b395e5df-d8a5-4838-8478-88d0f4b8786c",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109596379907502501",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/a-beneficio-la-escuela-nacional-organiza-una-cena-show-para-renovar",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 La Escuela Nacional organiza una cena show para renovar su edificio histórico\n\nLa comunidad de la Escuela de Educación Secundaria N° 3 ‘José Hernández’, emblemática institución de Chivilcoy popularmente conocida como la Escuela Nacional, llevará…\n\nhttps://www.diariolacampaña.com.ar/n/a-beneficio-la-escuela-nacional-organiza-una-cena-show-para-renovar",
-   "tipo": "nota",
-   "titulo": "La Escuela Nacional organiza una cena show para renovar su edificio histórico",
-   "urgente": false,
-   "vence": "2026-10-13T10:12:09.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:b3b7723e-9a30-4750-a6ab-43c542ed71d4|x": {
    "actualizado": "2026-10-14T16:00:20.000Z",
    "buffer_id": "6acf819aba9c302b3b845e72",
@@ -36222,14 +35981,14 @@
    "video_url": ""
   },
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x": {
-   "actualizado": "2026-10-22T10:02:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-22T11:40:14.000Z",
+   "buffer_id": "6ad9f61febec8224f3bd6be1",
    "clave": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x",
    "creado": "2026-10-22T10:02:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-22T13:07:21.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-22T10:02:08.336Z",
    "id": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e",
    "ig_hora": "2026-10-22T13:07:12.000Z",
@@ -37136,32 +36895,6 @@
    "titulo": "Feria Artesanal de Chivilcoy",
    "urgente": false,
    "vence": "2026-10-17T10:11:55.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252|x": {
-   "actualizado": "2026-10-12T11:40:14.000Z",
-   "buffer_id": "6accb467a0f0173687a914b4",
-   "clave": "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252|x",
-   "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "2026-10-12T11:00:08.000Z",
-   "enviado": "2026-10-12T11:02:42.358Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T10:11:23.296Z",
-   "id": "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109600641492390086",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Más de 3.200 productores, 3,15 Mill. Has, y 50 instituciones: el modelo cordobés de BPA que busca llegar a todo el Agro\n\nCórdoba busca nacionalizar su programa de Buenas Prácticas Agropecuarias tras cumplir 10 años.\n\nhttps://www.diariolacampaña.com.ar/n/de-cordoba-al-pais-mas-de-3-200-productores-3-15-mill-has-y-50",
-   "tipo": "nota",
-   "titulo": "Más de 3.200 productores, 3,15 Mill. Has, y 50 instituciones: el modelo cordobés de BPA que busca llegar a todo el Agro",
-   "urgente": false,
-   "vence": "2026-10-13T10:11:23.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -38485,19 +38218,20 @@
    "viral": false
   },
   "web:ff2853a5-e6da-4760-9b15-060f61d644a1|x": {
-   "actualizado": "2026-10-22T10:03:57.000Z",
+   "actualizado": "2026-10-22T11:40:14.000Z",
    "buffer_id": "6ad9df8fd7259dd11b167870",
    "clave": "web:ff2853a5-e6da-4760-9b15-060f61d644a1|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T11:22:18.000Z",
+   "enviado": "2026-10-22T11:22:31.227Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:28.872Z",
    "id": "web:ff2853a5-e6da-4760-9b15-060f61d644a1",
    "ig_hora": "2026-10-22T11:22:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113229506601218391",
    "nota_url": "https://www.diariolacampaña.com.ar/n/lla-4-seccion-nicolas-felice-enfatizo-los-jovenes-somos-los-que",
    "noticia": "nota:lla-4-seccion-nicolas-felice-enfatizo-los-jovenes-somos-los-que",
    "origen": "web",
@@ -38567,42 +38301,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5e1b7468-652a-43da-baf9-771cda1103ff|x",
-   "cuando": "2026-10-19T15:20:50.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad6355399bd92f0dcee15cb",
-   "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
-   "cuando": "2026-10-19T15:20:51.000Z",
-   "dueAt": "2026-10-19T19:30:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad6355399bd92f0dcee15f4",
-   "clave": "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x",
-   "cuando": "2026-10-19T15:20:51.000Z",
-   "dueAt": "2026-10-19T19:45:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
-   "cuando": "2026-10-19T15:40:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
-   "cuando": "2026-10-19T15:40:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "nacionales:c557a454a9895504|tiktok",
    "cuando": "2026-10-19T15:40:25.000Z",
@@ -42645,6 +42343,37 @@
    "cuando": "2026-10-22T11:20:13.000Z",
    "dueAt": "2026-10-22T12:37:17.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x",
+   "cuando": "2026-10-22T11:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113218119342735624"
+  },
+  {
+   "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
+   "cuando": "2026-10-22T11:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113233410625863899"
+  },
+  {
+   "clave": "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x",
+   "cuando": "2026-10-22T11:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113214406838431779"
+  },
+  {
+   "clave": "web:ff2853a5-e6da-4760-9b15-060f61d644a1|x",
+   "cuando": "2026-10-22T11:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113229506601218391"
+  },
+  {
+   "buffer_id": "6ad9f61febec8224f3bd6be1",
+   "clave": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x",
+   "cuando": "2026-10-22T11:40:15.000Z",
+   "dueAt": "2026-10-22T13:07:21.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42660,7 +42389,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T10:20:14.000Z",
+ "ultima_sync": "2026-10-22T11:40:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
