@@ -25567,14 +25567,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x": {
-   "actualizado": "2026-10-22T02:20:17.000Z",
+   "actualizado": "2026-10-22T09:00:19.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
    "creado": "2026-10-22T02:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-22T02:01:05.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html",
    "intentos": 0,
@@ -38142,14 +38142,6 @@
  },
  "registro": [
   {
-   "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
-   "cuando": "2026-10-19T15:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x",
    "cuando": "2026-10-19T15:00:33.000Z",
    "estado": "pendiente",
@@ -42220,6 +42212,12 @@
    "cuando": "2026-10-22T02:20:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113073742846845361"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
+   "cuando": "2026-10-22T09:00:19.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
