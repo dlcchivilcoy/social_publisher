@@ -15,7 +15,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-22T11:40:14.000Z"
+   "visto": "2026-10-22T12:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 17
+    "scheduled": 1,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-22T11:40:14.000Z"
+   "visto": "2026-10-22T12:40:14.000Z"
   }
  },
  "contenidos": {
@@ -13574,22 +13574,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 44405,
+   "restantes": 232,
+   "segundos": 40806,
    "tope": 250
   },
   "30d": {
-   "restantes": 2253,
-   "segundos": 1675826,
+   "restantes": 2252,
+   "segundos": 1672227,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T11:40:15.000Z",
+ "cuota_visto": "2026-10-22T12:40:14.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -31645,19 +31645,20 @@
    "video_url": ""
   },
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x": {
-   "actualizado": "2026-10-22T10:40:14.000Z",
+   "actualizado": "2026-10-22T12:40:14.000Z",
    "buffer_id": "6ad9e80eb7096b8d380e31c1",
    "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T12:07:01.000Z",
+   "enviado": "2026-10-22T12:07:16.186Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:44.288Z",
    "id": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438",
    "ig_hora": "2026-10-22T12:07:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113240768160608708",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-2026-definicion-del-primer-ascenso-y-comienzo",
    "noticia": "nota:futbol-torneo-federal-a-2026-definicion-del-primer-ascenso-y-comienzo",
    "origen": "web",
@@ -32430,19 +32431,20 @@
    "video_url": ""
   },
   "web:6fd91d62-6af9-4582-8ddd-55770c943c13|x": {
-   "actualizado": "2026-10-22T11:00:23.000Z",
+   "actualizado": "2026-10-22T12:40:14.000Z",
    "buffer_id": "6ad9ecc8ebec8224f3baa787",
    "clave": "web:6fd91d62-6af9-4582-8ddd-55770c943c13|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T12:22:30.000Z",
+   "enviado": "2026-10-22T12:22:31.106Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:48.758Z",
    "id": "web:6fd91d62-6af9-4582-8ddd-55770c943c13",
    "ig_hora": "2026-10-22T12:22:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113244605814616451",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-torneo-clausura-de-primera-racing-club-conserva-su-posicion",
    "noticia": "nota:basquet-torneo-clausura-de-primera-racing-club-conserva-su-posicion",
    "origen": "web",
@@ -34278,19 +34280,20 @@
    "video_url": ""
   },
   "web:976bae39-fdab-4787-9e26-8828e58badc1|x": {
-   "actualizado": "2026-10-22T10:40:14.000Z",
+   "actualizado": "2026-10-22T12:40:14.000Z",
    "buffer_id": "6ad9e80e28df0d23e734357d",
    "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T11:52:31.000Z",
+   "enviado": "2026-10-22T11:52:46.549Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:38.353Z",
    "id": "web:976bae39-fdab-4787-9e26-8828e58badc1",
    "ig_hora": "2026-10-22T11:52:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113237120156389846",
    "nota_url": "https://www.diariolacampaña.com.ar/n/final-provincial-juegos-bonaerenses-2026-chivilcoy-vive-una-jornada",
    "noticia": "nota:final-provincial-juegos-bonaerenses-2026-chivilcoy-vive-una-jornada",
    "origen": "web",
@@ -38100,19 +38103,20 @@
    "video_url": ""
   },
   "web:f86f8375-5d60-4a7c-9520-9169b60938a8|x": {
-   "actualizado": "2026-10-22T11:20:13.000Z",
+   "actualizado": "2026-10-22T12:40:14.000Z",
    "buffer_id": "6ad9f16db3b4a1914c95f4a3",
    "clave": "web:f86f8375-5d60-4a7c-9520-9169b60938a8|x",
    "creado": "2026-10-22T10:02:31.000Z",
    "dueAt": "2026-10-22T12:37:17.000Z",
+   "enviado": "2026-10-22T12:37:31.326Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T10:01:53.623Z",
    "id": "web:f86f8375-5d60-4a7c-9520-9169b60938a8",
    "ig_hora": "2026-10-22T12:37:12.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113248381334061427",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-destacada-actuacion-de-los-hermanos-vega-en-los-15k-de",
    "noticia": "nota:atletismo-destacada-actuacion-de-los-hermanos-vega-en-los-15k-de",
    "origen": "web",
@@ -38301,33 +38305,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:c557a454a9895504|tiktok",
-   "cuando": "2026-10-19T15:40:25.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x",
-   "cuando": "2026-10-19T15:40:25.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad639e9052a3a25666ac05f",
-   "clave": "web:4199d5d7-7749-42b5-a204-16844f3014eb|x",
-   "cuando": "2026-10-19T15:40:25.000Z",
-   "dueAt": "2026-10-19T20:00:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:cb2e9c67cd146106|tiktok",
-   "cuando": "2026-10-19T16:00:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
   {
    "clave": "nacionales:dc18047933ea00df|tiktok",
    "cuando": "2026-10-19T16:00:16.000Z",
@@ -42374,6 +42351,30 @@
    "cuando": "2026-10-22T11:40:15.000Z",
    "dueAt": "2026-10-22T13:07:21.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
+   "cuando": "2026-10-22T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113240768160608708"
+  },
+  {
+   "clave": "web:6fd91d62-6af9-4582-8ddd-55770c943c13|x",
+   "cuando": "2026-10-22T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113244605814616451"
+  },
+  {
+   "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
+   "cuando": "2026-10-22T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113237120156389846"
+  },
+  {
+   "clave": "web:f86f8375-5d60-4a7c-9520-9169b60938a8|x",
+   "cuando": "2026-10-22T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113248381334061427"
   }
  ],
  "tandas": {
@@ -42389,7 +42390,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T11:40:14.000Z",
+ "ultima_sync": "2026-10-22T12:40:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
