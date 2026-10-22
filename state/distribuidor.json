@@ -2430,6 +2430,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00240.mp4",
    "youtube_url": "https://youtu.be/tRPJIDKpmfs"
   },
+  "entrevistas:job00241": {
+   "descripcion": "En Chivilcoy, el productor autoconvocado Martin De La Serna cuestionó el destino de 300.000 millones de dólares aportados por el sector agropecuario ante la falta de obras e infraestructura básica.",
+   "duracion_seg": null,
+   "entrevistado": "Martin De La Serna",
+   "generado": "2026-10-22T18:20:18.000Z",
+   "id": "entrevistas:job00241",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Martin De La Serna: ¿A dónde fue la plata del campo?",
+   "urgente": false,
+   "video_bytes": 15775229,
+   "video_mb": 15.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00241.mp4",
+   "youtube_url": "https://youtu.be/vWiqIP7Rkso"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -13540,17 +13560,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 21596,
+   "restantes": 220,
+   "segundos": 20401,
    "tope": 250
   },
   "30d": {
-   "restantes": 2241,
-   "segundos": 1653017,
+   "restantes": 2240,
+   "segundos": 1651822,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T18:00:26.000Z",
+ "cuota_visto": "2026-10-22T18:20:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -19761,6 +19781,34 @@
    "vence": "2026-10-22T20:00:18.000Z",
    "video_bytes": 23776633,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00240.mp4",
+   "viral": false
+  },
+  "entrevistas:job00241|x": {
+   "actualizado": "2026-10-22T18:20:18.000Z",
+   "buffer_id": "6ada53e377984f39b2b0a03b",
+   "clave": "entrevistas:job00241|x",
+   "creado": "2026-10-22T18:20:18.000Z",
+   "dueAt": "2026-10-22T18:22:13.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T18:20:18.000Z",
+   "id": "entrevistas:job00241",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:campo-martin-plata-serna",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Martin De La Serna: ¿A dónde fue la plata del campo?\n\nEn Chivilcoy, el productor autoconvocado Martin De La Serna cuestionó el destino de 300.000 millones de dólares aportados por el sector agropecuario ante la falta de obras e infraestructura básica.\n\nhttps://youtu.be/vWiqIP7Rkso",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Martin De La Serna: ¿A dónde fue la plata del campo?",
+   "urgente": false,
+   "vence": "2026-10-22T20:20:18.000Z",
+   "video_bytes": 15775229,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00241.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -38222,24 +38270,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
-   "cuando": "2026-10-19T19:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698436096232819975"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
-   "cuando": "2026-10-19T19:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698446237464284437"
-  },
-  {
-   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
-   "cuando": "2026-10-19T19:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112253765487096155"
-  },
-  {
    "buffer_id": "6ad668c5055abbe925e167f5",
    "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x",
    "cuando": "2026-10-19T19:00:23.000Z",
@@ -42321,6 +42351,26 @@
    "cuando": "2026-10-22T18:00:26.000Z",
    "dueAt": "2026-10-22T18:08:52.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00241",
+   "cuando": "2026-10-22T18:20:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00241|x",
+   "cuando": "2026-10-22T18:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ada53e377984f39b2b0a03b",
+   "clave": "entrevistas:job00241|x",
+   "cuando": "2026-10-22T18:20:19.000Z",
+   "dueAt": "2026-10-22T18:22:13.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42461,6 +42511,7 @@
   "entrevistas:job00238": "2026-10-21T18:40:15.000Z",
   "entrevistas:job00239": "2026-10-22T17:20:20.000Z",
   "entrevistas:job00240": "2026-10-22T18:00:18.000Z",
+  "entrevistas:job00241": "2026-10-22T18:20:18.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
