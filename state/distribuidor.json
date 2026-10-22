@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 4
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-22T21:00:20.000Z"
+   "visto": "2026-10-22T22:00:28.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-22T21:00:20.000Z"
+   "visto": "2026-10-22T22:00:28.000Z"
   }
  },
  "contenidos": {
@@ -3572,6 +3572,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_8f3dac102e_mirtha-legrand-reaparecio-en-familia-tras-18-dias.mp4",
    "volanta": "Mirtha Legrand",
    "youtube_url": "https://youtube.com/shorts/J2lbmz0VD5o"
+  },
+  "nacionales:975c5666332b123b": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "La senadora nacional aseguró estar lista para postularse a la presidencia, pero pidió postergar las definiciones electorales. Además, advirtió que el Congreso debe definir el futuro de las primarias antes de fin de año.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T21:46:04.000Z",
+   "hashtags": [
+    "PatriciaBullrich",
+    "Politica"
+   ],
+   "id": "nacionales:975c5666332b123b",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO",
+   "urgente": false,
+   "video_bytes": 75944,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
+   "volanta": "Elecciones y candidaturas",
+   "youtube_url": "https://youtube.com/shorts/Ud2s4theh5A"
   },
   "nacionales:97bd2fed895cbca6": {
    "categoria": "Política",
@@ -13530,22 +13557,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 213,
-   "segundos": 10798,
+   "restantes": 212,
+   "segundos": 7191,
    "tope": 250
   },
   "30d": {
-   "restantes": 2233,
-   "segundos": 1642219,
+   "restantes": 2232,
+   "segundos": 1638612,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T21:00:23.000Z",
+ "cuota_visto": "2026-10-22T22:00:29.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16227,19 +16254,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok": {
-   "actualizado": "2026-10-22T21:00:20.000Z",
+   "actualizado": "2026-10-22T22:00:28.000Z",
    "buffer_id": "6ada796665d602339aec77dc",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
    "creado": "2026-10-22T18:00:18.000Z",
    "dueAt": "2026-10-22T21:03:29.000Z",
+   "enviado": "2026-10-22T21:04:13.212Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T17:42:57.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699600789576158472",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18493,19 +18521,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok": {
-   "actualizado": "2026-10-22T21:00:20.000Z",
+   "actualizado": "2026-10-22T22:00:28.000Z",
    "buffer_id": "6ada796765d602339aec78b7",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok",
    "creado": "2026-10-22T15:40:16.000Z",
    "dueAt": "2026-10-22T21:43:00.000Z",
+   "enviado": "2026-10-22T21:44:44.017Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T15:30:34.000Z",
    "id": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699610978505346324",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18546,19 +18575,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok": {
-   "actualizado": "2026-10-22T21:00:20.000Z",
+   "actualizado": "2026-10-22T22:00:28.000Z",
    "buffer_id": "6ada79669daa16478767fd74",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok",
    "creado": "2026-10-22T17:00:19.000Z",
    "dueAt": "2026-10-22T21:23:30.000Z",
+   "enviado": "2026-10-22T21:24:13.120Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T16:49:25.000Z",
    "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699605909567196422",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -21287,6 +21317,60 @@
    "vence": "2026-10-20T08:20:24.000Z",
    "video_bytes": 2618206,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_8f3dac102e_mirtha-legrand-reaparecio-en-familia-tras-18-dias.mp4"
+  },
+  "nacionales:975c5666332b123b|tiktok": {
+   "actualizado": "2026-10-22T22:00:28.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:975c5666332b123b|tiktok",
+   "creado": "2026-10-22T22:00:20.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-22T21:46:04.000Z",
+   "id": "nacionales:975c5666332b123b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO\n\nLa senadora nacional aseguró estar lista para postularse a la presidencia, pero pidió postergar las definiciones electorales. Además, advirtió que el Congreso debe definir el futuro de las primarias antes de fin de año.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #PatriciaBullrich",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO",
+   "urgente": false,
+   "vence": "2026-10-23T15:46:04.000Z",
+   "video_bytes": 75944,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
+   "viral": false
+  },
+  "nacionales:975c5666332b123b|x": {
+   "actualizado": "2026-10-22T22:00:28.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:975c5666332b123b|x",
+   "creado": "2026-10-22T22:00:20.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-22T21:46:04.000Z",
+   "id": "nacionales:975c5666332b123b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
+   "noticia": "nota:patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO\n\nLa senadora nacional aseguró estar lista para postularse a la presidencia, pero pidió postergar las definiciones electorales.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO",
+   "urgente": false,
+   "vence": "2026-10-22T23:46:04.000Z",
+   "video_bytes": 75944,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
+   "viral": false
   },
   "nacionales:97bd2fed895cbca6|tiktok": {
    "actualizado": "2026-10-19T20:00:22.000Z",
@@ -38208,57 +38292,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|x",
-   "cuando": "2026-10-19T21:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok",
-   "cuando": "2026-10-19T21:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd|x",
-   "cuando": "2026-10-19T21:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00224|x",
-   "cuando": "2026-10-19T21:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112276441412837805"
-  },
-  {
-   "clave": "web:4199d5d7-7749-42b5-a204-16844f3014eb|x",
-   "cuando": "2026-10-19T21:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112272917841039653"
-  },
-  {
-   "buffer_id": "6ad684ee46c9e2453b9fe4e2",
-   "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|x",
-   "cuando": "2026-10-19T21:00:30.000Z",
-   "dueAt": "2026-10-20T00:15:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x",
-   "cuando": "2026-10-19T21:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "nacionales:9e7b427db11bc8f2|tiktok",
    "cuando": "2026-10-19T21:40:17.000Z",
    "evento": "vencido",
@@ -42311,6 +42344,52 @@
    "cuando": "2026-10-22T21:20:15.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "nacionales:975c5666332b123b|x",
+   "cuando": "2026-10-22T22:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:975c5666332b123b|tiktok",
+   "cuando": "2026-10-22T22:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:975c5666332b123b|x",
+   "cuando": "2026-10-22T22:00:28.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:975c5666332b123b|tiktok",
+   "cuando": "2026-10-22T22:00:28.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
+   "cuando": "2026-10-22T22:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699600789576158472"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok",
+   "cuando": "2026-10-22T22:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699610978505346324"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok",
+   "cuando": "2026-10-22T22:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699605909567196422"
   }
  ],
  "tandas": {
@@ -42328,7 +42407,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T21:00:20.000Z",
+ "ultima_sync": "2026-10-22T22:00:28.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -42498,6 +42577,7 @@
   "nacionales:897bae57805e193b": "2026-10-19T00:20:16.000Z",
   "nacionales:89b6dd1b304f6c4e": "2026-10-22T00:20:17.000Z",
   "nacionales:8f3dac102e5cdee4": "2026-10-19T15:20:16.000Z",
+  "nacionales:975c5666332b123b": "2026-10-22T22:00:20.000Z",
   "nacionales:97bd2fed895cbca6": "2026-10-19T02:40:14.000Z",
   "nacionales:9cae8a7fbd11ec6c": "2026-10-19T23:20:14.000Z",
   "nacionales:9d5801d6974360c3": "2026-10-19T02:40:14.000Z",
