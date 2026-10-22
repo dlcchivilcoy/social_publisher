@@ -3879,6 +3879,33 @@
    "volanta": "Malvinas y minería",
    "youtube_url": "https://youtube.com/shorts/nYYR5alASJ4"
   },
+  "nacionales:b7b1426a9ab6b8b3": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El Tribunal Internacional fijó las audiencias pedidas por la administración de Javier Milei para frenar la explotación petrolera británica en Malvinas.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T01:16:11.000Z",
+   "hashtags": [
+    "Malvinas",
+    "PoliticaExterior"
+   ],
+   "id": "nacionales:b7b1426a9ab6b8b3",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres",
+   "urgente": false,
+   "video_bytes": 82798,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b7b1426a9a_quien-es-la-jueza-argentina-que-integra-el.mp4",
+   "volanta": "Malvinas y petróleo",
+   "youtube_url": "https://youtube.com/shorts/6O_EOWeXYlE"
+  },
   "nacionales:be6592b07ce935fb": {
    "categoria": "Mundo",
    "categoria_nacional": "internacionales",
@@ -21327,6 +21354,60 @@
    "video_bytes": 93793,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b6108526eb_delegacion-argentina-en-londres-en-medio-de-la.mp4"
   },
+  "nacionales:b7b1426a9ab6b8b3|tiktok": {
+   "actualizado": "2026-10-22T01:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:b7b1426a9ab6b8b3|tiktok",
+   "creado": "2026-10-22T01:20:15.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-22T01:16:11.000Z",
+   "id": "nacionales:b7b1426a9ab6b8b3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres\n\nEl Tribunal Internacional fijó las audiencias pedidas por la administración de Javier Milei para frenar la explotación petrolera británica en Malvinas.\n\nhttps://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres",
+   "urgente": false,
+   "vence": "2026-10-22T19:16:11.000Z",
+   "video_bytes": 82798,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b7b1426a9a_quien-es-la-jueza-argentina-que-integra-el.mp4",
+   "viral": false
+  },
+  "nacionales:b7b1426a9ab6b8b3|x": {
+   "actualizado": "2026-10-22T01:20:16.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b7b1426a9ab6b8b3|x",
+   "creado": "2026-10-22T01:20:15.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-22T01:16:11.000Z",
+   "id": "nacionales:b7b1426a9ab6b8b3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
+   "noticia": "nota:quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres\n\nEl Tribunal Internacional fijó las audiencias pedidas por la administración de Javier Milei para frenar la explotación petrolera británica en Malvinas.\n\nhttps://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres",
+   "urgente": false,
+   "vence": "2026-10-22T03:16:11.000Z",
+   "video_bytes": 82798,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b7b1426a9a_quien-es-la-jueza-argentina-que-integra-el.mp4",
+   "viral": false
+  },
   "nacionales:be6592b07ce935fb|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -37813,38 +37894,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x",
-   "cuando": "2026-10-19T14:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
-   "cuando": "2026-10-19T14:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:85b0f263-df46-4783-b4dd-311f977e50c9|x",
-   "cuando": "2026-10-19T14:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:5253b590-963f-4a40-8acf-18a1f53713b5|x",
-   "cuando": "2026-10-19T14:00:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok",
    "cuando": "2026-10-19T14:00:36.000Z",
    "evento": "enviado",
@@ -41892,6 +41941,34 @@
    "cuando": "2026-10-22T01:00:24.000Z",
    "dueAt": "2026-10-22T01:03:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:b7b1426a9ab6b8b3|x",
+   "cuando": "2026-10-22T01:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b7b1426a9ab6b8b3|tiktok",
+   "cuando": "2026-10-22T01:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b7b1426a9ab6b8b3|x",
+   "cuando": "2026-10-22T01:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:b7b1426a9ab6b8b3|tiktok",
+   "cuando": "2026-10-22T01:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -42081,6 +42158,7 @@
   "nacionales:b4cf751f44529f62": "2026-10-19T09:00:17.000Z",
   "nacionales:b541d9169f033092": "2026-10-18T17:20:13.000Z",
   "nacionales:b6108526eb42ff8a": "2026-10-18T17:20:13.000Z",
+  "nacionales:b7b1426a9ab6b8b3": "2026-10-22T01:20:15.000Z",
   "nacionales:be6592b07ce935fb": "2026-10-19T15:00:20.000Z",
   "nacionales:c27183ebaf507280": "2026-10-19T00:20:16.000Z",
   "nacionales:c557a454a9895504": "2026-10-19T00:20:16.000Z",
