@@ -15,7 +15,7 @@
     "sent": 4
    },
    "pausado": false,
-   "visto": "2026-10-22T18:40:22.000Z"
+   "visto": "2026-10-22T20:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 28
+    "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-22T18:40:22.000Z"
+   "visto": "2026-10-22T20:00:20.000Z"
   }
  },
  "contenidos": {
@@ -2449,6 +2449,26 @@
    "video_mb": 23.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00243.mp4",
    "youtube_url": "https://youtu.be/opsrAP7jJ3Q"
+  },
+  "entrevistas:job00244": {
+   "descripcion": "En Chivilcoy, Alejandra Suarez reflexiona sobre las estructuras familiares y la ruptura del mandato patriarcal que expone la obra \"Como un roble antiguo\". Mirá la entrevista completa para conocer más sobre esta puesta en escena.",
+   "duracion_seg": null,
+   "entrevistado": "Alejandra Suarez",
+   "generado": "2026-10-22T20:00:17.000Z",
+   "id": "entrevistas:job00244",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alejandra Suarez y los mandatos en \"Como un roble antiguo\"",
+   "urgente": false,
+   "video_bytes": 34416988,
+   "video_mb": 32.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00244.mp4",
+   "youtube_url": "https://youtu.be/sEHWj5oExEc"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -13507,22 +13527,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 217,
-   "segundos": 16793,
+   "restantes": 215,
+   "segundos": 14399,
    "tope": 250
   },
   "30d": {
-   "restantes": 2237,
-   "segundos": 1648214,
+   "restantes": 2235,
+   "segundos": 1645820,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T19:20:27.000Z",
+ "cuota_visto": "2026-10-22T20:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -19716,18 +19736,19 @@
    "viral": false
   },
   "entrevistas:job00242|x": {
-   "actualizado": "2026-10-22T18:40:23.000Z",
+   "actualizado": "2026-10-22T20:00:20.000Z",
    "buffer_id": "6ada5898ca69a1b7d3d08286",
    "clave": "entrevistas:job00242|x",
    "creado": "2026-10-22T18:40:14.000Z",
    "dueAt": "2026-10-22T18:42:46.000Z",
+   "enviado": "2026-10-22T18:43:20.120Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T18:40:14.000Z",
    "id": "entrevistas:job00242",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113340441533845588",
    "nota_url": "",
    "noticia": "titulo:emocion-festejos-lucrecia-virgen",
    "origen": "entrevistas",
@@ -19744,18 +19765,19 @@
    "viral": false
   },
   "entrevistas:job00243|x": {
-   "actualizado": "2026-10-22T19:20:26.000Z",
+   "actualizado": "2026-10-22T20:00:20.000Z",
    "buffer_id": "6ada61fbe391db54dafa1d41",
    "clave": "entrevistas:job00243|x",
    "creado": "2026-10-22T19:20:17.000Z",
    "dueAt": "2026-10-22T19:22:06.000Z",
+   "enviado": "2026-10-22T19:22:24.497Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T19:20:17.000Z",
    "id": "entrevistas:job00243",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113350274244858172",
    "nota_url": "",
    "noticia": "titulo:apunto-britos-complejo-federacion-fernando-poggio",
    "origen": "entrevistas",
@@ -19769,6 +19791,34 @@
    "vence": "2026-10-22T21:20:17.000Z",
    "video_bytes": 24516408,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00243.mp4",
+   "viral": false
+  },
+  "entrevistas:job00244|x": {
+   "actualizado": "2026-10-22T20:00:20.000Z",
+   "buffer_id": "6ada6b55e391db54dafc3507",
+   "clave": "entrevistas:job00244|x",
+   "creado": "2026-10-22T20:00:17.000Z",
+   "dueAt": "2026-10-22T20:02:22.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T20:00:17.000Z",
+   "id": "entrevistas:job00244",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alejandra-antiguo-mandatos-roble-suarez",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alejandra Suarez y los mandatos en \"Como un roble antiguo\"\n\nEn Chivilcoy, Alejandra Suarez reflexiona sobre las estructuras familiares y la ruptura del mandato patriarcal que expone la obra. La entrevista completa aborda esta puesta en escena.\n\nhttps://youtu.be/sEHWj5oExEc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alejandra Suarez y los mandatos en \"Como un roble antiguo\"",
+   "urgente": false,
+   "vence": "2026-10-22T22:00:17.000Z",
+   "video_bytes": 34416988,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00244.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -38152,37 +38202,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad67220e19a00fc46f13257",
-   "clave": "entrevistas:job00226|x",
-   "cuando": "2026-10-19T19:40:16.000Z",
-   "dueAt": "2026-10-19T23:45:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:97bd2fed895cbca6|tiktok",
-   "cuando": "2026-10-19T20:00:22.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
-   "cuando": "2026-10-19T20:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698456660397821202"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
-   "cuando": "2026-10-19T20:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698466997759167752"
-  },
-  {
-   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
-   "cuando": "2026-10-19T20:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112261441436664186"
-  },
-  {
    "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
    "cuando": "2026-10-19T20:00:22.000Z",
    "evento": "enviado",
@@ -42250,6 +42269,38 @@
    "cuando": "2026-10-22T19:20:27.000Z",
    "dueAt": "2026-10-22T19:22:06.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00244",
+   "cuando": "2026-10-22T20:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00244|x",
+   "cuando": "2026-10-22T20:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00242|x",
+   "cuando": "2026-10-22T20:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113340441533845588"
+  },
+  {
+   "clave": "entrevistas:job00243|x",
+   "cuando": "2026-10-22T20:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113350274244858172"
+  },
+  {
+   "buffer_id": "6ada6b55e391db54dafc3507",
+   "clave": "entrevistas:job00244|x",
+   "cuando": "2026-10-22T20:00:21.000Z",
+   "dueAt": "2026-10-22T20:02:22.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42266,7 +42317,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T18:40:22.000Z",
+ "ultima_sync": "2026-10-22T20:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -42393,6 +42444,7 @@
   "entrevistas:job00241": "2026-10-22T18:20:18.000Z",
   "entrevistas:job00242": "2026-10-22T18:40:14.000Z",
   "entrevistas:job00243": "2026-10-22T19:20:17.000Z",
+  "entrevistas:job00244": "2026-10-22T20:00:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
