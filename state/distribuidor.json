@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-22T00:00:19.000Z"
+   "visto": "2026-10-22T01:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 20
    },
    "pausado": false,
-   "visto": "2026-10-22T00:00:19.000Z"
+   "visto": "2026-10-22T01:00:23.000Z"
   }
  },
  "contenidos": {
@@ -3774,6 +3774,33 @@
    "volanta": "Crisis sanitaria",
    "youtube_url": "https://youtube.com/shorts/lizgrBu68yA"
   },
+  "nacionales:b3aa9eb0744c0822": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "Un informe de la UBA y el Conicet reveló que la canasta de servicios públicos trepó muy por encima del 261% de inflación acumulada. El transporte encabeza las subas y los usuarios cubren el 57% del costo real.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T00:45:45.000Z",
+   "hashtags": [
+    "Tarifas",
+    "Economia"
+   ],
+   "id": "nacionales:b3aa9eb0744c0822",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tarifas-en-el-amba-aumentaron-860-desde-diciembre-de-2023-y-b3aa9e",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Las tarifas del AMBA subieron 860% desde diciembre de 2023 y superan a la inflación",
+   "urgente": false,
+   "video_bytes": 82688,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b3aa9eb074_las-tarifas-del-amba-subieron-860-desde-diciembre.mp4",
+   "volanta": "Tarifas y subsidios",
+   "youtube_url": "https://youtube.com/shorts/1aDoJ_rUB0I"
+  },
   "nacionales:b4cf751f44529f62": {
    "categoria": "Deportes",
    "categoria_nacional": "deportes",
@@ -4488,6 +4515,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/32mBCgrD3-M"
+  },
+  "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": {
+   "categoria": "robo",
+   "descripcion": "La DDI realizó cuatro procedimientos en el marco de un asalto cometido en julio. Secuestraron un arma y notificaron a un preso en Mercedes.",
+   "distancia_km": 90.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T00:42:23.000Z",
+   "id": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/",
+   "localidad": "Luján",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-detenidos-y-un-arma-secuestrada-por-un-violento-robo-7aab97",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "La investigación por un violento asalto cometido en la localidad de Duggan sumó avances concretos tras una serie de operativos simultáneos.\n\nLos procedimientos incluyeron cuatro allanamientos en distintos distritos bonaerenses a cargo del personal de la DDI.\n\nUno de los sospechosos fue atrapado en Luján junto con un revólver, mientras que el segundo implicado fue notificado en una cárcel de Mercedes.\n\nLa fiscalía interviniente continúa con las diligencias para esclarecer el hecho y determinar la vinculación de los acusados con otros delitos.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos detenidos tras cuatro allanamientos por un robo",
+   "urgente": false,
+   "video_bytes": 84552,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_05_lujan_dos-detenidos-tras-cuatro-alla.mp4",
+   "volanta": "Operativo en Luján y Duggan",
+   "youtube_url": "https://youtube.com/shorts/SPh5IPXwFIQ"
   },
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": {
    "categoria": "homicidio",
@@ -13431,22 +13484,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 83998,
+   "restantes": 244,
+   "segundos": 82796,
    "tope": 250
   },
   "30d": {
-   "restantes": 2266,
-   "segundos": 1715419,
+   "restantes": 2264,
+   "segundos": 1714217,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T00:40:22.000Z",
+ "cuota_visto": "2026-10-22T01:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -17994,18 +18047,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x": {
-   "actualizado": "2026-10-22T00:20:25.000Z",
+   "actualizado": "2026-10-22T01:00:23.000Z",
    "buffer_id": "6ad956cbecaa6cda041cde64",
    "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "2026-10-22T00:22:32.000Z",
+   "enviado": "2026-10-22T00:23:01.992Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T00:12:48.000Z",
    "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113063541234143651",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
    "origen": "bot",
@@ -18050,18 +18104,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x": {
-   "actualizado": "2026-10-22T00:40:21.000Z",
+   "actualizado": "2026-10-22T01:00:23.000Z",
    "buffer_id": "6ad95b76b086d40f5727fbc2",
    "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
    "creado": "2026-10-22T00:40:17.000Z",
    "dueAt": "2026-10-22T00:42:17.000Z",
+   "enviado": "2026-10-22T00:42:38.125Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T00:33:31.000Z",
    "id": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113068474507424227",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
    "noticia": "nota:chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
    "origen": "bot",
@@ -21140,6 +21195,60 @@
    "video_bytes": 77666,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b1c71e9d13_advierten-riesgo-para-5000-clinicas-y-sanatorios.mp4"
   },
+  "nacionales:b3aa9eb0744c0822|tiktok": {
+   "actualizado": "2026-10-22T01:00:23.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:b3aa9eb0744c0822|tiktok",
+   "creado": "2026-10-22T01:00:18.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-22T00:45:45.000Z",
+   "id": "nacionales:b3aa9eb0744c0822",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tarifas-en-el-amba-aumentaron-860-desde-diciembre-de-2023-y-b3aa9e",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Las tarifas del AMBA subieron 860% desde diciembre de 2023 y superan a la inflación\n\nUn informe de la UBA y el Conicet reveló que la canasta de servicios públicos trepó muy por encima del 261% de inflación acumulada. El transporte encabeza las subas y los usuarios cubren el 57% del costo real.\n\nhttps://www.diariolacampaña.com.ar/n/tarifas-en-el-amba-aumentaron-860-desde-diciembre-de-2023-y-b3aa9e\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #Tarifas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Las tarifas del AMBA subieron 860% desde diciembre de 2023 y superan a la inflación",
+   "urgente": false,
+   "vence": "2026-10-22T18:45:45.000Z",
+   "video_bytes": 82688,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b3aa9eb074_las-tarifas-del-amba-subieron-860-desde-diciembre.mp4",
+   "viral": false
+  },
+  "nacionales:b3aa9eb0744c0822|x": {
+   "actualizado": "2026-10-22T01:00:23.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:b3aa9eb0744c0822|x",
+   "creado": "2026-10-22T01:00:18.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-22T00:45:45.000Z",
+   "id": "nacionales:b3aa9eb0744c0822",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tarifas-en-el-amba-aumentaron-860-desde-diciembre-de-2023-y-b3aa9e",
+   "noticia": "nota:tarifas-en-el-amba-aumentaron-860-desde-diciembre-de-2023-y-b3aa9e",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Las tarifas del AMBA subieron 860% desde diciembre de 2023 y superan a la inflación\n\nUn informe de la UBA y el Conicet reveló que los servicios treparon por encima del 261% de inflación. El transporte lidera las subas.\n\nhttps://www.diariolacampaña.com.ar/n/tarifas-en-el-amba-aumentaron-860-desde-diciembre-de-2023-y-b3aa9e",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Las tarifas del AMBA subieron 860% desde diciembre de 2023 y superan a la inflación",
+   "urgente": false,
+   "vence": "2026-10-22T02:45:45.000Z",
+   "video_bytes": 82688,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b3aa9eb074_las-tarifas-del-amba-subieron-860-desde-diciembre.mp4",
+   "viral": false
+  },
   "nacionales:b4cf751f44529f62|tiktok": {
    "actualizado": "2026-10-19T23:20:22.000Z",
    "buffer_id": "",
@@ -22109,6 +22218,62 @@
    "video_bytes": 119138,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
   },
+  "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|tiktok": {
+   "actualizado": "2026-10-22T01:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|tiktok",
+   "creado": "2026-10-22T01:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T00:42:23.000Z",
+   "id": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-detenidos-y-un-arma-secuestrada-por-un-violento-robo-7aab97",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Dos detenidos tras cuatro allanamientos por un robo\n\nLa DDI realizó cuatro procedimientos en el marco de un asalto cometido en julio. Secuestraron un arma y notificaron a un preso en Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-dos-detenidos-y-un-arma-secuestrada-por-un-violento-robo-7aab97\n\n#chivilcoy #diariolacampaña #radiodelcentro #luján #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos detenidos tras cuatro allanamientos por un robo",
+   "urgente": false,
+   "vence": "2026-10-22T18:42:23.000Z",
+   "video_bytes": 84552,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_05_lujan_dos-detenidos-tras-cuatro-alla.mp4",
+   "viral": false
+  },
+  "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x": {
+   "actualizado": "2026-10-22T01:00:23.000Z",
+   "buffer_id": "6ad96028ecaa6cda041ebeba",
+   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
+   "creado": "2026-10-22T01:00:18.000Z",
+   "dueAt": "2026-10-22T01:03:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T00:42:23.000Z",
+   "id": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-detenidos-y-un-arma-secuestrada-por-un-violento-robo-7aab97",
+   "noticia": "nota:lujan-dos-detenidos-y-un-arma-secuestrada-por-un-violento-robo-7aab97",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Dos detenidos tras cuatro allanamientos por un robo\n\nLa DDI realizó cuatro procedimientos en el marco de un asalto cometido en julio. Secuestraron un arma y notificaron a un preso en Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-dos-detenidos-y-un-arma-secuestrada-por-un-violento-robo-7aab97",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos detenidos tras cuatro allanamientos por un robo",
+   "urgente": false,
+   "vence": "2026-10-22T02:42:23.000Z",
+   "video_bytes": 84552,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_05_lujan_dos-detenidos-tras-cuatro-alla.mp4",
+   "viral": false
+  },
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/|tiktok": {
    "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad21fe61ffe4709802eecd5",
@@ -22353,19 +22518,20 @@
    "viral": false
   },
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|tiktok": {
-   "actualizado": "2026-10-22T00:00:19.000Z",
+   "actualizado": "2026-10-22T01:00:23.000Z",
    "buffer_id": "6ad952147dadc432f72f9387",
    "categoria": "",
    "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|tiktok",
    "creado": "2026-10-21T23:40:15.000Z",
    "dueAt": "2026-10-22T00:03:57.000Z",
+   "enviado": "2026-10-22T00:04:44.270Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-21T23:31:41.000Z",
    "id": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699275384419912966",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-el-hurto-de-carne-en-una-carniceria-8c1b0c",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -22850,18 +23016,19 @@
    "viral": false
   },
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x": {
-   "actualizado": "2026-10-22T00:20:25.000Z",
+   "actualizado": "2026-10-22T01:00:23.000Z",
    "buffer_id": "6ad956cbecaa6cda041cdea2",
    "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "2026-10-22T00:28:59.000Z",
+   "enviado": "2026-10-22T00:29:04.040Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T00:01:09.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113065059781906438",
    "nota_url": "https://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
    "noticia": "nota:salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
    "origen": "policiales",
@@ -37646,88 +37813,6 @@
  },
  "registro": [
   {
-   "clave": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x",
-   "cuando": "2026-10-19T13:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
-   "cuando": "2026-10-19T13:20:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
-   "cuando": "2026-10-19T13:20:41.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:5c389835-1655-4415-b7ad-23045aa7c3ca|x",
-   "cuando": "2026-10-19T13:20:50.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:b1c71e9d1312dd69|tiktok",
-   "cuando": "2026-10-19T13:20:50.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "buffer_id": "6ad61933e15f9b60b3a136d9",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
-   "cuando": "2026-10-19T13:20:51.000Z",
-   "dueAt": "2026-10-19T15:15:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x",
-   "cuando": "2026-10-19T13:40:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
-   "cuando": "2026-10-19T13:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
-   "cuando": "2026-10-19T13:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
-   "cuando": "2026-10-19T13:40:23.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "buffer_id": "6ad61dc8f8ab1a7963229a09",
-   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x",
-   "cuando": "2026-10-19T13:40:24.000Z",
-   "dueAt": "2026-10-19T15:30:27.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x",
    "cuando": "2026-10-19T14:00:26.000Z",
    "estado": "pendiente",
@@ -41732,6 +41817,81 @@
    "cuando": "2026-10-22T00:40:22.000Z",
    "dueAt": "2026-10-22T00:42:17.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
+   "cuando": "2026-10-22T01:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|tiktok",
+   "cuando": "2026-10-22T01:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "nacionales:b3aa9eb0744c0822|x",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b3aa9eb0744c0822|tiktok",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:b3aa9eb0744c0822|x",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:b3aa9eb0744c0822|tiktok",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113063541234143651"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113068474507424227"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|tiktok",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699275384419912966"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
+   "cuando": "2026-10-22T01:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113065059781906438"
+  },
+  {
+   "buffer_id": "6ad96028ecaa6cda041ebeba",
+   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
+   "cuando": "2026-10-22T01:00:24.000Z",
+   "dueAt": "2026-10-22T01:03:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41747,7 +41907,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-22",
- "ultima_sync": "2026-10-22T00:00:19.000Z",
+ "ultima_sync": "2026-10-22T01:00:23.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -41917,6 +42077,7 @@
   "nacionales:b164c7aa50445aed": "2026-10-21T01:20:15.000Z",
   "nacionales:b18ec1977365d369": "2026-10-19T09:00:17.000Z",
   "nacionales:b1c71e9d1312dd69": "2026-10-18T20:20:13.000Z",
+  "nacionales:b3aa9eb0744c0822": "2026-10-22T01:00:18.000Z",
   "nacionales:b4cf751f44529f62": "2026-10-19T09:00:17.000Z",
   "nacionales:b541d9169f033092": "2026-10-18T17:20:13.000Z",
   "nacionales:b6108526eb42ff8a": "2026-10-18T17:20:13.000Z",
@@ -41945,6 +42106,7 @@
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida": "2026-10-16T09:00:20.000Z",
+  "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
