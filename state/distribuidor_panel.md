@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,7 +30,7 @@ Actualizado: 22/10/2026 15:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2238 de 3000 (visto 2026-10-22T18:40:24.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (10 esperando)
 - TikTok · Reels del bot · Britos evalúa que De Lillo complete el mandato municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Clara Galván obtuvo la medalla de bronce en lanzamiento de disco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo obtuvo la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,7 +40,6 @@ Actualizado: 22/10/2026 15:40 (hora AR) · ACTIVO
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Dos detenidos tras cuatro allanamientos por un robo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -53,7 +52,6 @@ Actualizado: 22/10/2026 15:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T15:40 enviado bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|x 
 - 2026-10-22T17:00 recibido bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x 
 - 2026-10-22T17:00 recibido bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok 
 - 2026-10-22T17:00 programado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|x 
@@ -78,3 +76,4 @@ Actualizado: 22/10/2026 15:40 (hora AR) · ACTIVO
 - 2026-10-22T18:40 enviado entrevistas:job00240|x 
 - 2026-10-22T18:40 enviado entrevistas:job00241|x 
 - 2026-10-22T18:40 programado entrevistas:job00242|x 
+- 2026-10-22T19:00 vencido policiales:https://diariodelujan.com/un-robo-dos-sospechosos TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
