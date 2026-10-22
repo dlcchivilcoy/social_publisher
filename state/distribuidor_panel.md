@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 21/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -36,8 +36,8 @@ Actualizado: 21/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Sufrió su décimo robo la Cooperativa 27 de Octubre en el basural municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · El jardinero entregó a una jubilada para un violento asalto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Dos detenidos tras cuatro allanamientos por un robo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
