@@ -12045,6 +12045,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
    "volanta": ""
   },
+  "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b": {
+   "categoria": "",
+   "descripcion": "Imputaron a un menor tras allanamientos por robos en dos comercios La Policía Comunal, junto con personal de la SubDDI Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos durante la madrugada del 20 de octubre, con intervención de la Justicia de Mercedes. La investigación se inició a partir de la denuncia por el robo en la carnicería La Cabaña, ubicada en la avenida Güemes 475, propiedad de Silvana Bravo. A partir de la recolección de imágenes de cámaras...",
+   "generado": "2026-10-22T22:18:26.627Z",
+   "id": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ac892805c97e4f54b6c342f82cc5939d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e": {
    "categoria": "",
    "descripcion": "Cierre de temporada con sello propio: \"Habladurías\" despide su primer ciclo con teatro, monólogo y performance El espectáculo de teatro improvisado encabezado por Sebastián Bravo y Memi Mesplet ofrecerá su última función este domingo en CasaVieja San Luis. La jornada contará con las actuaciones especiales de Juan Luis Bayona y Drag Fride. El teatro independiente local se prepara para vivir una tarde a pura emoción y expresión artística. Este domingo 25 de octubre a las 18:30 hs, el espacio...",
@@ -35995,6 +36014,33 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x": {
+   "actualizado": "2026-10-22T22:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x",
+   "creado": "2026-10-22T22:20:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-22T22:18:26.627Z",
+   "id": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
+   "noticia": "nota:chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Imputaron a un menor tras allanamientos por robos en dos comercios\n\nLa Policía Comunal y la SubDDI Chivilcoy realizaron un allanamiento que esclareció dos hechos delictivos ocurridos el 20 de octubre. La causa intervino en la Justicia de Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
+   "urgente": false,
+   "vence": "2026-10-23T02:18:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x": {
    "actualizado": "2026-10-22T13:40:15.000Z",
    "buffer_id": "6ad9f61febec8224f3bd6be1",
@@ -38291,18 +38337,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:9e7b427db11bc8f2|tiktok",
-   "cuando": "2026-10-19T21:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:6fce11f4-2889-4f5e-89f9-c45d46743b64|x",
-   "cuando": "2026-10-19T21:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x",
    "cuando": "2026-10-19T22:00:20.000Z",
@@ -42390,6 +42424,20 @@
    "cuando": "2026-10-22T22:00:29.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7699605909567196422"
+  },
+  {
+   "clave": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x",
+   "cuando": "2026-10-22T22:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x",
+   "cuando": "2026-10-22T22:20:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -43022,6 +43070,7 @@
   "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765": "2026-10-19T10:20:14.000Z",
   "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": "2026-10-15T10:20:13.000Z",
   "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": "2026-10-18T17:20:13.000Z",
+  "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b": "2026-10-22T22:20:17.000Z",
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e": "2026-10-22T10:02:31.000Z",
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",
   "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": "2026-10-15T21:40:16.000Z",

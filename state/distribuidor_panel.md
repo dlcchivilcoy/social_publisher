@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 22/10/2026 19:00 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 5 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 2 |
 
@@ -45,8 +45,6 @@ Actualizado: 22/10/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T19:20 entrevista_aprobada entrevistas:job00243 
-- 2026-10-22T19:20 recibido entrevistas:job00243|x 
 - 2026-10-22T19:20 programado entrevistas:job00243|x 
 - 2026-10-22T20:00 entrevista_aprobada entrevistas:job00244 
 - 2026-10-22T20:00 recibido entrevistas:job00244|x 
@@ -70,3 +68,5 @@ Actualizado: 22/10/2026 19:00 (hora AR) · ACTIVO
 - 2026-10-22T22:00 enviado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
 - 2026-10-22T22:00 enviado bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok 
 - 2026-10-22T22:00 enviado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok 
+- 2026-10-22T22:20 recibido web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x 
+- 2026-10-22T22:20 depurado web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x de la web, a X solo van las notas del diario de la mañana
