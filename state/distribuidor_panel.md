@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 22/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 4 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 6 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,15 +28,13 @@ Actualizado: 22/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2258 de 3000 (visto 2026-10-22T10:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2257 de 3000 (visto 2026-10-22T10:40:15.000Z)
 
-## Cola propia (16 esperando)
+## Cola propia (14 esperando)
 - X · Notas web · Cierre de temporada con sello propio: "Habladurías" despide su primer ciclo con  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Viernes en Teatro La Cueva — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Destacada actuación de los hermanos Vega en los 15K de Saucony en Buenos Aires — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Clausura de Primera: Racing Club conserva su posición de escolta aunque G — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Torneo Federal A 2026: Definición del primer Ascenso y Comienzo de los octavos d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Juegos Bonaerenses 2026: Chivilcoy vive una jornada llena de triunfos en Mar del — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Actualidad del Peronismo y la ciudad — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Sector productivo local y la Provincia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Presentaron oficialmente la 39ª edición del Rally de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -58,8 +56,6 @@ Actualizado: 22/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/motocicli 
-- 2026-10-22T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/motocicli 
 - 2026-10-22T02:20 enviado bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x 
 - 2026-10-22T02:20 enviado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
 - 2026-10-22T02:20 enviado policiales:https://diariodelujan.com/un-robo-dos-sospechosos 
@@ -83,3 +79,5 @@ Actualizado: 22/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-22T10:03 programado web:ff2853a5-e6da-4760-9b15-060f61d644a1|x 
 - 2026-10-22T10:20 enviado web:993aea8e-95de-4b48-ac0f-22d386bc338b|x 
 - 2026-10-22T10:20 programado web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x 
+- 2026-10-22T10:40 programado web:976bae39-fdab-4787-9e26-8828e58badc1|x 
+- 2026-10-22T10:40 programado web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x 

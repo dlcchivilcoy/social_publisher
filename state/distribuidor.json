@@ -11015,24 +11015,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-juegos-bonaerenses-2026-chivilcoy-vive-una-jornada",
    "volanta": "Final Provincial"
   },
-  "web:97ba4aaf-5415-49c5-b1e4-62844c322155": {
-   "categoria": "",
-   "descripcion": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación Hugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla». El director de Gobierno, Hugo Kübler, se refirió al Complejo Federación y a la empresa SENTRA, aclarando afirmaciones vertidas en el Concejo Deliberante local. Chivilcoy no iba a poner ni un solo peso. Los iba a ahorrar. Esa es la verdad de la cuestión. La afirmación del concejal, si es literal, es falsa. La finalización del Complejo...",
-   "generado": "2026-10-11T22:04:48.750Z",
-   "id": "web:97ba4aaf-5415-49c5-b1e4-62844c322155",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8dbe80da9bfb4cf387f4960ae9e07586~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5": {
    "categoria": "nacionales",
    "descripcion": "El Gobierno nacional contabilizó una baja de 77.515 puestos de trabajo en el sector público durante los primeros 32 meses de gestión, según informó la…",
@@ -13706,22 +13688,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 49205,
+   "restantes": 237,
+   "segundos": 48006,
    "tope": 250
   },
   "30d": {
-   "restantes": 2258,
-   "segundos": 1680626,
+   "restantes": 2257,
+   "segundos": 1679426,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T10:20:15.000Z",
+ "cuota_visto": "2026-10-22T10:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -24363,32 +24345,6 @@
    "video_bytes": 86525,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x": {
-   "actualizado": "2026-10-12T10:20:20.000Z",
-   "buffer_id": "6acca1a9c5fdc4c02d0f89c6",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html|x",
-   "creado": "2026-10-12T09:00:23.000Z",
-   "dueAt": "2026-10-12T10:00:46.000Z",
-   "enviado": "2026-10-12T10:03:07.759Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T02:41:56.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109585648696906145",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado\n\nEl rodado de color negro había sido dejado estacionado en la vía pública por su dueño. Los delincuentes se lo llevaron durante la madrugada.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-robaron-una-camioneta-toyota-hilux-durante-la-fiesta-16d7ae",
-   "tipo": "video",
-   "titulo": "Robaron una camioneta Toyota Hilux en plena Fiesta del Caballo en Bragado",
-   "urgente": false,
-   "vence": "2026-10-12T20:41:56.000Z",
-   "video_bytes": 86525,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-12_0239_02_bragado_robaron-una-camioneta-toyota-h.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html|tiktok": {
    "actualizado": "2026-10-12T19:00:17.000Z",
    "buffer_id": "6accff6b0e025935d3b842b0",
@@ -31854,14 +31810,14 @@
    "video_url": ""
   },
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x": {
-   "actualizado": "2026-10-22T10:02:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-22T10:40:14.000Z",
+   "buffer_id": "6ad9e80eb7096b8d380e31c1",
    "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
    "creado": "2026-10-22T10:02:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-22T12:07:01.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-22T10:01:44.288Z",
    "id": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438",
    "ig_hora": "2026-10-22T12:07:12.000Z",
@@ -34537,14 +34493,14 @@
    "video_url": ""
   },
   "web:976bae39-fdab-4787-9e26-8828e58badc1|x": {
-   "actualizado": "2026-10-22T10:02:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-22T10:40:14.000Z",
+   "buffer_id": "6ad9e80e28df0d23e734357d",
    "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
    "creado": "2026-10-22T10:02:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-22T11:52:31.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-22T10:01:38.353Z",
    "id": "web:976bae39-fdab-4787-9e26-8828e58badc1",
    "ig_hora": "2026-10-22T11:52:12.000Z",
@@ -34564,32 +34520,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x": {
-   "actualizado": "2026-10-12T10:20:20.000Z",
-   "buffer_id": "6acca1a9c5fdc4c02d0f89f1",
-   "clave": "web:97ba4aaf-5415-49c5-b1e4-62844c322155|x",
-   "creado": "2026-10-11T22:20:13.000Z",
-   "dueAt": "2026-10-12T10:15:38.000Z",
-   "enviado": "2026-10-12T10:15:46.226Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-11T22:04:48.750Z",
-   "id": "web:97ba4aaf-5415-49c5-b1e4-62844c322155",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109588829652877789",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación\n\nHugo Kübler: «Chivilcoy ha perdido una gran oportunidad, ojalá podamos recuperarla».\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-defendio-el-acuerdo-con-sentra-por-el",
-   "tipo": "nota",
-   "titulo": "Hugo Kübler defendió el acuerdo con SENTRA por el Complejo Federación",
-   "urgente": false,
-   "vence": "2026-10-12T22:04:48.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5|x": {
    "actualizado": "2026-10-20T15:20:17.000Z",
@@ -38637,22 +38567,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:d4259eeed3d3426d|tiktok",
-   "cuando": "2026-10-19T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:f370b43343c04756|tiktok",
-   "cuando": "2026-10-19T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
   {
    "clave": "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x",
    "cuando": "2026-10-19T15:20:28.000Z",
@@ -42720,6 +42634,20 @@
    "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
    "cuando": "2026-10-22T10:20:15.000Z",
    "dueAt": "2026-10-22T11:37:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad9e80e28df0d23e734357d",
+   "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
+   "cuando": "2026-10-22T10:40:14.000Z",
+   "dueAt": "2026-10-22T11:52:31.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad9e80eb7096b8d380e31c1",
+   "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
+   "cuando": "2026-10-22T10:40:14.000Z",
+   "dueAt": "2026-10-22T12:07:01.000Z",
    "evento": "programado"
   }
  ],
