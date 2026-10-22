@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,10 @@ Actualizado: 22/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2247 de 3000 (visto 2026-10-22T14:40:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2246 de 3000 (visto 2026-10-22T15:20:24.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (8 esperando)
+- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,10 +50,6 @@ Actualizado: 22/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T12:40 enviado web:f86f8375-5d60-4a7c-9520-9169b60938a8|x 
-- 2026-10-22T13:00 programado bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tikto 
-- 2026-10-22T13:00 programado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
-- 2026-10-22T13:00 programado bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok 
 - 2026-10-22T13:00 programado policiales:https://laopinionline.ar/articulo/la-fiscalia-sos 
 - 2026-10-22T13:20 recibido bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x 
 - 2026-10-22T13:20 recibido bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok 
@@ -74,3 +71,7 @@ Actualizado: 22/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-22T14:40 enviado bot:video_matias-zucchi_mvjluzixklug_01.mp4|x 
 - 2026-10-22T14:40 enviado bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
 - 2026-10-22T14:40 enviado policiales:https://laopinionline.ar/articulo/la-fiscalia-sos 
+- 2026-10-22T15:20 recibido bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|x 
+- 2026-10-22T15:20 recibido bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok 
+- 2026-10-22T15:20 recibido web:0e1ea41e-dbd2-458f-9377-3409f308f7eb|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-22T15:20 programado bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|x 
