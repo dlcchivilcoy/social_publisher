@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 7 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 2 | 3 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
@@ -28,18 +28,15 @@ Actualizado: 22/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 215 de 250 · 30d: quedan 2235 de 3000 (visto 2026-10-22T20:00:21.000Z)
+15m: quedan 98 de 100 · 24h: quedan 213 de 250 · 30d: quedan 2233 de 3000 (visto 2026-10-22T21:00:23.000Z)
 
-## Cola propia (9 esperando)
-- TikTok · Reels del bot · Britos evalúa que De Lillo complete el mandato municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Clara Galván obtuvo la medalla de bronce en lanzamiento de disco — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Santiago Zalabardo obtuvo la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (6 esperando)
+- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Alrededor de 450 personas se capacitan en 23 cursos de oficios — ya salieron los 5 de bot de hoy en TikTok
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -50,10 +47,6 @@ Actualizado: 22/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T18:00 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
-- 2026-10-22T18:00 recibido entrevistas:job00240|x 
-- 2026-10-22T18:00 recibido web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-22T18:00 programado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x 
 - 2026-10-22T18:00 programado entrevistas:job00240|x 
 - 2026-10-22T18:20 entrevista_aprobada entrevistas:job00241 
 - 2026-10-22T18:20 recibido entrevistas:job00241|x 
@@ -75,3 +68,7 @@ Actualizado: 22/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-22T20:00 enviado entrevistas:job00243|x 
 - 2026-10-22T20:00 programado entrevistas:job00244|x 
 - 2026-10-22T20:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/motocicli TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-22T21:00 enviado entrevistas:job00244|x 
+- 2026-10-22T21:00 programado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
+- 2026-10-22T21:00 programado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok 
+- 2026-10-22T21:00 programado bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok 
