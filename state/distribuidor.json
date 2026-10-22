@@ -1606,6 +1606,48 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
    "youtube_url": "https://www.youtube.com/shorts/ZDppaYnqJ04"
   },
+  "bot:video_matias-zucchi_mvjluzixklug_01.mp4": {
+   "descripcion": "El atleta chivilcoyano Santiago Zalabardo obtuvo la medalla de plata en la disciplina de salto en alto, en el marco de la final provincial de los Juegos Bonaerenses.\n\nZalabardo se quedó con el segundo puesto de la competencia tras registrar una marca de 1,70 metros, sumando un importante logro para la delegación local en la definición del certamen bonaerense.\n\nLa prueba fue ganada por Juan Medina, representante de Campana, quien se llevó el primer lugar con un registro de 1,75 metros. En tanto, el tercer puesto quedó en manos de Emiliano Nadal, de Trenque Lauquen, quien alcanzó también una marca de 1,70 metros.",
+   "duracion_seg": 114.5,
+   "generado": "2026-10-22T14:04:12.000Z",
+   "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Santiago Zalabardo logró la medalla de plata en salto en alto",
+   "urgente": false,
+   "video_bytes": 21200456,
+   "video_mb": 20.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4fd5be58d219e24f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/iwKjCNLyOts"
+  },
+  "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4": {
+   "descripcion": "La deportista chivilcoyana Juanita Fernández se consagró campeona y obtuvo la medalla de oro en la prueba de 400 metros de la categoría sub 18.\n\nLa atleta, que compitió identificada con el dorsal 0360, logró el primer puesto de la carrera tras destacarse en su respectiva serie y subirse a lo más alto del podio.\n\nCon este resultado, la representante local cerró una destacada actuación en la competencia, sumando un nuevo logro deportivo para la ciudad.",
+   "duracion_seg": 63.2,
+   "generado": "2026-10-22T14:17:21.000Z",
+   "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18",
+   "urgente": false,
+   "video_bytes": 9473268,
+   "video_mb": 9.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_477d38faa1de0273.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/vFqtSuJsnn4"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -10160,6 +10202,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
    "volanta": ""
   },
+  "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae": {
+   "categoria": "",
+   "descripcion": "Santiago Zalabardo logró la medalla de plata en salto en alto En el marco de la final provincial de los Juegos Bonaerenses, el atleta chivilcoyano Santiago Zalabardo obtuvo la medalla de plata en la disciplina de salto en alto. Zalabardo se quedó con el segundo puesto de la competencia tras registrar una marca de 1,70 metros. La prueba fue ganada por Juan Medina, representante de Campana, quien se llevó el primer lugar con 1,75 metros, mientras que el tercer puesto fue para Emiliano Nadal, de...",
+   "generado": "2026-10-22T14:03:16.264Z",
+   "id": "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4edad8d9ed0b4156a4a10624af30493c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Santiago Zalabardo logró la medalla de plata en salto en alto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4": {
    "categoria": "nacionales",
    "descripcion": "Denuncian que sigue paralizado un tramo clave para el noroeste bonaerense del Plan Maestro del río Salado En medio del temor por lo que puede generar el evento climático El Niño, el Gobierno de la provincia de Buenos Aires volvió a reclamarle a la administración de Javier Milei que reactive el Tramo IV del Plan Maestro del río Salado, una obra hídrica clave para mitigar las inundaciones en el territorio bonaerense. Así lo hicieron saber el ministro de Gobierno, Carlos Bianco y el de...",
@@ -11052,6 +11113,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-espera-definiciones-del-vaticano-por-la-salud-del-172f52",
    "volanta": ""
+  },
+  "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a": {
+   "categoria": "",
+   "descripcion": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 Una representante chivilcoyana, identificada en la competencia con el dorsal 0360, obtuvo la medalla de oro en la prueba de 400 metros de la categoría sub 18 tras consagrarse en su carrera.",
+   "generado": "2026-10-22T14:16:39.636Z",
+   "id": "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_51985cdb6fcd431f975507bd7193b143~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": {
    "categoria": "",
@@ -13457,17 +13537,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 37204,
+   "restantes": 228,
+   "segundos": 34793,
    "tope": 250
   },
   "30d": {
-   "restantes": 2249,
-   "segundos": 1668625,
+   "restantes": 2248,
+   "segundos": 1666214,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T13:40:15.000Z",
+ "cuota_visto": "2026-10-22T14:20:28.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18261,6 +18341,118 @@
    "vence": "2026-10-22T15:05:47.000Z",
    "video_bytes": 12893075,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok": {
+   "actualizado": "2026-10-22T14:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok",
+   "creado": "2026-10-22T14:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T14:04:12.000Z",
+   "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Santiago Zalabardo logró la medalla de plata en salto en alto\n\nEl atleta chivilcoyano se quedó con el segundo puesto en la final provincial de los Juegos Bonaerenses tras registrar una marca de 1,70 metros. La prueba fue ganada por el representante de Campana, Juan Medina, con un registro de 1,75 metros.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Santiago Zalabardo logró la medalla de plata en salto en alto",
+   "urgente": false,
+   "vence": "2026-10-24T14:04:12.000Z",
+   "video_bytes": 21200456,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4fd5be58d219e24f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x": {
+   "actualizado": "2026-10-22T14:20:26.000Z",
+   "buffer_id": "6ada1babeb1348c17ac34588",
+   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
+   "creado": "2026-10-22T14:20:16.000Z",
+   "dueAt": "2026-10-22T14:22:17.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T14:04:12.000Z",
+   "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "noticia": "nota:chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Santiago Zalabardo logró la medalla de plata en salto en alto\n\nEl atleta chivilcoyano obtuvo el segundo puesto en la final provincial de los Juegos Bonaerenses con una marca de 1,70 metros. Juan Medina, de Campana, ganó la prueba con 1,75 metros.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Santiago Zalabardo logró la medalla de plata en salto en alto",
+   "urgente": false,
+   "vence": "2026-10-22T16:04:12.000Z",
+   "video_bytes": 21200456,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4fd5be58d219e24f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok": {
+   "actualizado": "2026-10-22T14:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok",
+   "creado": "2026-10-22T14:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T14:17:21.000Z",
+   "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18\n\nLa deportista chivilcoyana se consagró campeona tras lograr el primer puesto y subir a lo más alto del podio con el dorsal 0360. Con este resultado, la atleta sumó un nuevo logro para su ciudad al cerrar una destacada actuación en la competencia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18",
+   "urgente": false,
+   "vence": "2026-10-24T14:17:21.000Z",
+   "video_bytes": 9473268,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_477d38faa1de0273.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x": {
+   "actualizado": "2026-10-22T14:20:26.000Z",
+   "buffer_id": "6ada1bab1cc831fdc3c12789",
+   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
+   "creado": "2026-10-22T14:20:16.000Z",
+   "dueAt": "2026-10-22T14:27:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T14:17:21.000Z",
+   "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "noticia": "nota:chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18\n\nLa atleta chivilcoyana logró el primer puesto de la carrera tras destacarse en su serie. Así, sumó un nuevo logro para su ciudad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18",
+   "urgente": false,
+   "vence": "2026-10-22T16:17:21.000Z",
+   "video_bytes": 9473268,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_477d38faa1de0273.mp4",
    "viral": false
   },
   "entrevistas:job00188|x": {
@@ -32947,6 +33139,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x": {
+   "actualizado": "2026-10-22T14:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x",
+   "creado": "2026-10-22T14:20:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-22T14:03:16.264Z",
+   "id": "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "noticia": "nota:chivilcoy-deportes-santiago-zalabardo-logro-la-medalla-de-plata-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Santiago Zalabardo logró la medalla de plata en salto en alto",
+   "urgente": false,
+   "vence": "2026-10-22T18:03:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -34334,6 +34551,31 @@
    "vence": "2026-10-15T12:06:23.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x": {
+   "actualizado": "2026-10-22T14:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x",
+   "creado": "2026-10-22T14:20:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-22T14:16:39.636Z",
+   "id": "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "noticia": "nota:chivilcoy-deportes-juanita-fernandez-obtuvo-la-medalla-de-oro-en-400",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18",
+   "urgente": false,
+   "vence": "2026-10-22T18:16:39.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:9f367ea4-375b-4d70-99b9-15eec836b557|x": {
    "actualizado": "2026-10-16T19:40:16.000Z",
@@ -37982,58 +38224,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c876f210-4b35-4b4a-add4-8813297977a9|x",
-   "cuando": "2026-10-19T16:20:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112197349275541524"
-  },
-  {
-   "buffer_id": "6ad64347b5b645b3c338e4b4",
-   "clave": "entrevistas:job00224|x",
-   "cuando": "2026-10-19T16:20:24.000Z",
-   "dueAt": "2026-10-19T20:15:05.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:605a06264731bcec|tiktok",
-   "cuando": "2026-10-19T16:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "nacionales:7570d6c409614369|tiktok",
-   "cuando": "2026-10-19T16:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
-   "cuando": "2026-10-19T16:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "entrevistas:job00225",
-   "cuando": "2026-10-19T17:00:22.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x",
-   "cuando": "2026-10-19T17:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
-   "cuando": "2026-10-19T17:00:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:46323048-26ab-4cde-bf1b-7382a5e5ce92|x",
    "cuando": "2026-10-19T17:00:44.000Z",
@@ -42056,6 +42246,68 @@
    "cuando": "2026-10-22T13:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113255931601449354"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
+   "cuando": "2026-10-22T14:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok",
+   "cuando": "2026-10-22T14:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
+   "cuando": "2026-10-22T14:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok",
+   "cuando": "2026-10-22T14:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x",
+   "cuando": "2026-10-22T14:20:26.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x",
+   "cuando": "2026-10-22T14:20:26.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ada1babeb1348c17ac34588",
+   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
+   "cuando": "2026-10-22T14:20:28.000Z",
+   "dueAt": "2026-10-22T14:22:17.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ada1bab1cc831fdc3c12789",
+   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
+   "cuando": "2026-10-22T14:20:28.000Z",
+   "dueAt": "2026-10-22T14:27:18.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42151,6 +42403,8 @@
   "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": "2026-10-22T00:20:17.000Z",
   "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4": "2026-10-22T00:40:17.000Z",
   "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4": "2026-10-22T13:20:15.000Z",
+  "bot:video_matias-zucchi_mvjluzixklug_01.mp4": "2026-10-22T14:20:16.000Z",
+  "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4": "2026-10-22T14:20:16.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -42568,6 +42822,7 @@
   "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1": "2026-10-20T14:00:21.000Z",
   "web:82b6cce8-6765-4661-8b19-1e22966dd60a": "2026-10-18T19:20:13.000Z",
   "web:82d9c768-a466-49ff-882d-09e27a21796f": "2026-10-19T01:40:13.000Z",
+  "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae": "2026-10-22T14:20:16.000Z",
   "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4": "2026-10-20T10:20:14.000Z",
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692": "2026-10-19T10:20:14.000Z",
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
@@ -42618,6 +42873,7 @@
   "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": "2026-10-21T02:20:14.000Z",
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
+  "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a": "2026-10-22T14:20:16.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",
   "web:9f779d0b-1649-4d51-99d8-ba550d5285a5": "2026-10-16T12:20:15.000Z",
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",

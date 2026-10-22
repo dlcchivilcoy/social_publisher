@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 5 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 1 | 1 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,11 @@ Actualizado: 22/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2249 de 3000 (visto 2026-10-22T13:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2248 de 3000 (visto 2026-10-22T14:20:28.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (7 esperando)
+- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Una motociclista de 20 años sufrió un accidente en Chacabuco y la moto desaparec — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -47,14 +49,6 @@ Actualizado: 22/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T11:00 depurado web:a223c7fb-02cc-4f0e-8968-13bbf35af953|x no está en el carrusel del diario de hoy
-- 2026-10-22T11:00 depurado web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be|x no está en el carrusel del diario de hoy
-- 2026-10-22T11:00 programado web:6fd91d62-6af9-4582-8ddd-55770c943c13|x 
-- 2026-10-22T11:20 programado web:f86f8375-5d60-4a7c-9520-9169b60938a8|x 
-- 2026-10-22T11:40 enviado web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x 
-- 2026-10-22T11:40 enviado web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x 
-- 2026-10-22T11:40 enviado web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x 
-- 2026-10-22T11:40 enviado web:ff2853a5-e6da-4760-9b15-060f61d644a1|x 
 - 2026-10-22T11:40 programado web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x 
 - 2026-10-22T12:40 enviado web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x 
 - 2026-10-22T12:40 enviado web:6fd91d62-6af9-4582-8ddd-55770c943c13|x 
@@ -72,3 +66,11 @@ Actualizado: 22/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-22T13:40 enviado bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x 
 - 2026-10-22T13:40 enviado policiales:https://boscoproducciones.com.ar/decimo-robo-a-la 
 - 2026-10-22T13:40 enviado web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x 
+- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjluzixklug_01.mp4|x 
+- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok 
+- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
+- 2026-10-22T14:20 recibido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok 
+- 2026-10-22T14:20 recibido web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-22T14:20 recibido web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-22T14:20 programado bot:video_matias-zucchi_mvjluzixklug_01.mp4|x 
+- 2026-10-22T14:20 programado bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x 
