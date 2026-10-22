@@ -1543,6 +1543,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c58edec5691bf919.mp4",
    "youtube_url": "https://www.youtube.com/shorts/9UpeqM31mz4"
   },
+  "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": {
+   "descripcion": "Representantes de Chivilcoy continúan con su participación en la disciplina de tejo intergeneracional en el marco de los Juegos Bonaerenses.\n\nLa pareja integrada por Leonardo Raúl Miguez y José Mir compite en dicha categoría. En relación con el desarrollo deportivo, explicaron que hasta el momento registran una victoria y una derrota, por lo que su continuidad en el certamen quedó sujeta a los resultados de los demás partidos de la zona.\n\nRespecto a la experiencia en el torneo provincial, los protagonistas destacaron el saldo positivo. Para Miguez se trata de su primera presentación en la competencia, mientras que para Mir representa su tercer año de participación.\n\nPor su parte, desde el acompañamiento técnico describieron cómo se vive la actividad desde afuera de la cancha y valoraron de manera favorable la estancia y la atención recibida durante el evento.",
+   "duracion_seg": 82.6,
+   "generado": "2026-10-22T00:12:48.000Z",
+   "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
+   "urgente": false,
+   "video_bytes": 10910867,
+   "video_mb": 10.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7ba739b9785044b9.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/xAYbfZZqvxk"
+  },
   "entrevistas:job00188": {
    "descripcion": "Estefanía Cruz, directora de la Escuela N°30 de Chivilcoy, contó la particularidad que aprendieron sobre los colores de la bandera filipina y su significado en tiempos de guerra.",
    "duracion_seg": null,
@@ -3333,6 +3354,33 @@
    "volanta": "Inteligencia artificial",
    "youtube_url": "https://youtube.com/shorts/UQ2Vw_QQrBw"
   },
+  "nacionales:89b6dd1b304f6c4e": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "La Cámara baja avaló la inviolabilidad de la propiedad privada, la trazabilidad de medicamentos de alto riesgo tras el caso del fentanilo contaminado y subió sanciones por vandalismo en campos. Prosigue el debate sobre discapacidad y endeudamiento.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T00:16:05.000Z",
+   "hashtags": [
+    "Diputados",
+    "Congreso"
+   ],
+   "id": "nacionales:89b6dd1b304f6c4e",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales",
+   "urgente": false,
+   "video_bytes": 123889,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_89b6dd1b30_diputados-aprobo-propiedad-privada-trazabilidad.mp4",
+   "volanta": "Sesión en Diputados",
+   "youtube_url": "https://youtube.com/shorts/-qfB5gGSgEg"
+  },
   "nacionales:8f3dac102e5cdee4": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -4756,6 +4804,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4",
    "volanta": "Pergamino",
    "youtube_url": "https://youtube.com/shorts/6czOikPl34I"
+  },
+  "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": {
+   "categoria": "robo",
+   "descripcion": "La Justicia esclareció el violento asalto a una mujer de 74 años en su casa de Salto. El fiscal Germán Guidi determinó que el empleado que cuidaba el parque actuó como entregador y tocó el timbre para que su tío ingresara a robar.",
+   "distancia_km": 70.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-22T00:01:09.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba",
+   "localidad": "Salto",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "El fiscal Germán Guidi logró esclarecer un violento asalto ocurrido en una vivienda de la calle Italia al 1200 en Salto.\n\nLa investigación determinó que el jardinero de la víctima actuó como cómplice al tocar el timbre para facilitar la entrada de su tío.\n\nEl autor material del ataque golpeó brutalmente a la jubilada de 74 años y escapó en su vehículo tras dejarla maniatada.\n\nEl principal sospechoso permanece prófugo de la Justicia mientras avanzan las medidas procesales.\n\n📲 Más noticias de Salto en www.diariolacampaña.com.ar\n\n#Salto #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "El jardinero entregó a una jubilada para un violento asalto",
+   "urgente": false,
+   "video_bytes": 104055,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_03_pergamino_el-jardinero-entreg-a-una-jubi.mp4",
+   "volanta": "Robo en Salto",
+   "youtube_url": "https://youtube.com/shorts/twkflsrnghw"
   },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": {
    "categoria": "operativo_policial",
@@ -12827,6 +12901,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juicio-por-la-muerte-de-diego-maradona-fernando-burlando-5c3932",
    "volanta": ""
   },
+  "web:e790e167-f2c1-4e20-bcee-7d86399107cd": {
+   "categoria": "",
+   "descripcion": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses En el marco de la competencia de los Juegos Bonaerenses, representantes de Chivilcoy brindaron sus testimonios sobre el desarrollo de su participación en la disciplina de tejo intergeneracional. Leonardo Raúl Miguez compite junto a José Mir en la categoría mencionada. Al ser consultados sobre la marcha deportiva, explicaron que hasta el momento registran una derrota y una victoria: \"Perdimos uno y ganamos uno. Mañana...",
+   "generado": "2026-10-22T00:11:54.903Z",
+   "id": "web:e790e167-f2c1-4e20-bcee-7d86399107cd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_492378bac49044319ba827d1ac693d54~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": {
    "categoria": "nacionales",
    "descripcion": "La Justicia ordenó abonar 15 millones de pesos a los herederos de una pasajera de 85 años que se accidentó en septiembre de 2017 durante un viaje médico.",
@@ -13391,22 +13484,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 86400,
+   "restantes": 247,
+   "segundos": 85194,
    "tope": 250
   },
   "30d": {
-   "restantes": 2268,
-   "segundos": 1717821,
+   "restantes": 2267,
+   "segundos": 1716614,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-22T00:00:21.000Z",
+ "cuota_visto": "2026-10-22T00:20:27.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -15822,7 +15915,7 @@
    "creado": "2026-10-20T21:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-20T21:07:56.000Z",
    "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
@@ -17949,6 +18042,62 @@
    "vence": "2026-10-21T02:29:10.000Z",
    "video_bytes": 9087491,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c58edec5691bf919.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|tiktok": {
+   "actualizado": "2026-10-22T00:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|tiktok",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T00:12:48.000Z",
+   "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses\n\nLeonardo Raúl Miguez y José Mir acumulan una victoria y una derrota en la competencia, por lo que su continuidad depende de otros resultados de la zona. Pese a esto, los representantes locales destacaron el saldo positivo de la experiencia deportiva provincial.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-24T00:12:48.000Z",
+   "video_bytes": 10910867,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7ba739b9785044b9.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x": {
+   "actualizado": "2026-10-22T00:20:25.000Z",
+   "buffer_id": "6ad956cbecaa6cda041cde64",
+   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "2026-10-22T00:22:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T00:12:48.000Z",
+   "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses\n\nLa pareja local suma una victoria y una derrota, por lo que su continuidad depende de otros resultados. Los protagonistas y el cuerpo técnico destacaron el saldo positivo del torneo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-22T02:12:48.000Z",
+   "video_bytes": 10910867,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7ba739b9785044b9.mp4",
    "viral": false
   },
   "entrevistas:job00188|x": {
@@ -20455,6 +20604,60 @@
    "video_bytes": 88520,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_897bae5780_nvidia-analiza-no-vender-chips-a-desarrolladores.mp4"
   },
+  "nacionales:89b6dd1b304f6c4e|tiktok": {
+   "actualizado": "2026-10-22T00:20:25.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:89b6dd1b304f6c4e|tiktok",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-22T00:16:05.000Z",
+   "id": "nacionales:89b6dd1b304f6c4e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales\n\nLa Cámara baja avaló la inviolabilidad de la propiedad privada, la trazabilidad de medicamentos de alto riesgo tras el caso del fentanilo contaminado y subió sanciones por vandalismo en campos. Prosigue el debate sobre discapacidad y endeudamiento.\n\nhttps://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Diputados",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales",
+   "urgente": false,
+   "vence": "2026-10-22T18:16:05.000Z",
+   "video_bytes": 123889,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_89b6dd1b30_diputados-aprobo-propiedad-privada-trazabilidad.mp4",
+   "viral": false
+  },
+  "nacionales:89b6dd1b304f6c4e|x": {
+   "actualizado": "2026-10-22T00:20:25.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:89b6dd1b304f6c4e|x",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-22T00:16:05.000Z",
+   "id": "nacionales:89b6dd1b304f6c4e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
+   "noticia": "nota:diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales\n\nLa Cámara baja avaló la trazabilidad de fármacos de alto riesgo y subió sanciones por vandalismo en campos. Prosigue el debate sobre discapacidad y endeudamiento.\n\nhttps://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales",
+   "urgente": false,
+   "vence": "2026-10-22T02:16:05.000Z",
+   "video_bytes": 123889,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_89b6dd1b30_diputados-aprobo-propiedad-privada-trazabilidad.mp4",
+   "viral": false
+  },
   "nacionales:8f3dac102e5cdee4|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -22640,6 +22843,62 @@
    "vence": "2026-10-14T20:41:22.000Z",
    "video_bytes": 104736,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4"
+  },
+  "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok": {
+   "actualizado": "2026-10-22T00:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-22T00:01:09.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "El jardinero entregó a una jubilada para un violento asalto\n\nLa Justicia esclareció el violento asalto a una mujer de 74 años en su casa de Salto. El fiscal Germán Guidi determinó que el empleado que cuidaba el parque actuó como entregador y tocó el timbre para que su tío ingresara a robar.\n\nhttps://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4\n\n#chivilcoy #diariolacampaña #radiodelcentro #salto #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El jardinero entregó a una jubilada para un violento asalto",
+   "urgente": false,
+   "vence": "2026-10-22T18:01:09.000Z",
+   "video_bytes": 104055,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_03_pergamino_el-jardinero-entreg-a-una-jubi.mp4",
+   "viral": false
+  },
+  "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x": {
+   "actualizado": "2026-10-22T00:20:25.000Z",
+   "buffer_id": "6ad956cbecaa6cda041cdea2",
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "2026-10-22T00:28:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-22T00:01:09.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
+   "noticia": "nota:salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "El jardinero entregó a una jubilada para un violento asalto\n\nEl fiscal determinó que el empleado que cuidaba el parque actuó como entregador. Tocó el timbre para que su tío ingresara a robar a la casa.\n\nhttps://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El jardinero entregó a una jubilada para un violento asalto",
+   "urgente": false,
+   "vence": "2026-10-22T02:01:09.000Z",
+   "video_bytes": 104055,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_03_pergamino_el-jardinero-entreg-a-una-jubi.mp4",
+   "viral": false
   },
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos|tiktok": {
    "actualizado": "2026-10-14T20:20:13.000Z",
@@ -36599,6 +36858,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e790e167-f2c1-4e20-bcee-7d86399107cd|x": {
+   "actualizado": "2026-10-22T00:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:e790e167-f2c1-4e20-bcee-7d86399107cd|x",
+   "creado": "2026-10-22T00:20:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-22T00:11:54.903Z",
+   "id": "web:e790e167-f2c1-4e20-bcee-7d86399107cd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
+   "urgente": false,
+   "vence": "2026-10-22T04:11:54.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b|x": {
    "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6acdf32aca68ebbd369c1a8d",
@@ -37463,82 +37747,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad5fcf238bcdab6ee5127ee",
-   "clave": "nacionales:509780bc5420f2f5|tiktok",
-   "cuando": "2026-10-19T11:20:21.000Z",
-   "dueAt": "2026-10-19T11:23:30.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5fcf238bcdab6ee512843",
-   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
-   "cuando": "2026-10-19T11:20:21.000Z",
-   "dueAt": "2026-10-19T12:03:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5fcf3189a03b5ff21238f",
-   "clave": "nacionales:a28aa737cf87213c|tiktok",
-   "cuando": "2026-10-19T11:20:21.000Z",
-   "dueAt": "2026-10-19T12:43:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5fcf4b9948a7ec0693f1f",
-   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok",
-   "cuando": "2026-10-19T11:20:21.000Z",
-   "dueAt": "2026-10-19T13:23:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5fcf438bcdab6ee512883",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-19T11:20:21.000Z",
-   "dueAt": "2026-10-19T14:03:48.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad5fcf561ffad979f0d40c2",
-   "clave": "nacionales:f8cbb878e65900d1|tiktok",
-   "cuando": "2026-10-19T11:20:21.000Z",
-   "dueAt": "2026-10-19T14:43:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:509780bc5420f2f5|tiktok",
-   "cuando": "2026-10-19T11:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853"
-  },
-  {
-   "clave": "nacionales:4d4c5be14febf1aa|tiktok",
-   "cuando": "2026-10-19T12:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:6f8cf702-5cb7-4b03-8945-02d406201533|x",
-   "cuando": "2026-10-19T12:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:82015de779d2e56d|tiktok",
-   "cuando": "2026-10-19T12:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "tope de 12 publicaciones en 24 h de TikTok"
-  },
-  {
-   "clave": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x",
-   "cuando": "2026-10-19T13:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
    "cuando": "2026-10-19T13:00:22.000Z",
@@ -41541,6 +41749,88 @@
    "cuando": "2026-10-22T00:00:21.000Z",
    "dueAt": "2026-10-22T00:03:57.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
+   "cuando": "2026-10-22T00:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|tiktok",
+   "cuando": "2026-10-22T00:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
+   "cuando": "2026-10-22T00:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok",
+   "cuando": "2026-10-22T00:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "nacionales:89b6dd1b304f6c4e|x",
+   "cuando": "2026-10-22T00:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:89b6dd1b304f6c4e|tiktok",
+   "cuando": "2026-10-22T00:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:e790e167-f2c1-4e20-bcee-7d86399107cd|x",
+   "cuando": "2026-10-22T00:20:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:89b6dd1b304f6c4e|x",
+   "cuando": "2026-10-22T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:89b6dd1b304f6c4e|tiktok",
+   "cuando": "2026-10-22T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "buffer_id": "6ad956cbecaa6cda041cde64",
+   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
+   "cuando": "2026-10-22T00:20:27.000Z",
+   "dueAt": "2026-10-22T00:22:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ad956cbecaa6cda041cdea2",
+   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
+   "cuando": "2026-10-22T00:20:27.000Z",
+   "dueAt": "2026-10-22T00:28:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41631,6 +41921,7 @@
   "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4": "2026-10-20T18:00:17.000Z",
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4": "2026-10-21T00:40:14.000Z",
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4": "2026-10-21T00:40:14.000Z",
+  "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": "2026-10-22T00:20:17.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -41708,6 +41999,7 @@
   "nacionales:82015de779d2e56d": "2026-10-18T20:20:13.000Z",
   "nacionales:883bc6cd67a29d7e": "2026-10-19T02:40:14.000Z",
   "nacionales:897bae57805e193b": "2026-10-19T00:20:16.000Z",
+  "nacionales:89b6dd1b304f6c4e": "2026-10-22T00:20:17.000Z",
   "nacionales:8f3dac102e5cdee4": "2026-10-19T15:20:16.000Z",
   "nacionales:97bd2fed895cbca6": "2026-10-19T02:40:14.000Z",
   "nacionales:9cae8a7fbd11ec6c": "2026-10-19T23:20:14.000Z",
@@ -41764,6 +42056,7 @@
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": "2026-10-16T21:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": "2026-10-14T09:00:20.000Z",
+  "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": "2026-10-22T00:20:17.000Z",
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": "2026-10-14T02:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento": "2026-10-15T18:00:21.000Z",
@@ -42185,6 +42478,7 @@
   "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34": "2026-10-19T14:20:14.000Z",
   "web:e04efdf6-203c-406b-84c5-3dfa3debaee6": "2026-10-14T10:20:15.000Z",
   "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b": "2026-10-15T19:20:15.000Z",
+  "web:e790e167-f2c1-4e20-bcee-7d86399107cd": "2026-10-22T00:20:17.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
   "web:e80eb9f8-449c-4d4b-a410-387331e0d747": "2026-10-16T13:20:18.000Z",
   "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101": "2026-10-19T13:20:16.000Z",
