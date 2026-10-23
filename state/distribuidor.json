@@ -15,7 +15,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-23T22:40:19.000Z"
+   "visto": "2026-10-23T23:40:25.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T22:40:19.000Z"
+   "visto": "2026-10-23T23:40:25.000Z"
   }
  },
  "contenidos": {
@@ -1962,6 +1962,27 @@
    "video_mb": 9.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5d007da4bdb54d49.mp4",
    "youtube_url": "https://www.youtube.com/shorts/ODq8odWsJSU"
+  },
+  "bot:video_matias-zucchi_mvllmur3yyre_01.mp4": {
+   "descripcion": "El Rally Regional puso en marcha su penúltima fecha de la temporada con la tradicional largada simbólica frente al Palacio Municipal, dando el inicio formal al Rally de Chivilcoy.\n\nTras completar las verificaciones previas y la presentación ante el público, la competencia afronta un itinerario de diez pruebas especiales que sumarán 121,66 kilómetros cronometrados sobre caminos rurales, distribuidos en dos etapas.\n\nLa primera etapa, programada para el sábado 24 de octubre, comprende 59,11 kilómetros de velocidad pura. Los tramos por los caminos rurales comenzarán a la mañana con PE1 Pantalón Cortito a las 10:33 y PE2 Circuito Largo a las 10:56, repitiéndose a las 12:54 y 13:17 con PE3 y PE4, para cerrar la jornada a las 16:13 en el sector urbano con el superespecial PSE5 Matías B.\n\nEl domingo 25 de octubre se completarán los 62,55 kilómetros restantes con la segunda etapa. La actividad largará a las 09:13 con PE6 Pantalón Cortito, seguida por PE7 Circuito Largo a las 09:36, PE8 a las 11:34, PE9 a las 11:57 y el tramo decisivo PE10 Circuito Corto a las 13:43, culminando una fecha clave para las aspiraciones del campeonato.",
+   "duracion_seg": 33.5,
+   "generado": "2026-10-23T23:34:19.000Z",
+   "id": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
+   "urgente": false,
+   "video_bytes": 9147019,
+   "video_mb": 8.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c3ec38e679c1e655.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Lz5ErE_3xTw"
   },
   "entrevistas:job00206": {
    "descripcion": "El violinista Kuki Errante analizó en Chivilcoy las diferencias musicales entre el tango y el folclore. Explicó por qué considera al tango como música académica y repasó el origen de las melodías criollas.",
@@ -6716,6 +6737,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_01_chacabuco_cay-un-joven-de-19-a-os-tras-r.mp4",
    "volanta": "Robo en Salto",
    "youtube_url": "https://youtube.com/shorts/Te2eJStAxGQ"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un joven de 20 años fue arrestado en un comercio céntrico de Chacabuco tras intentar estafar al comerciante con una aplicación de pagos falsa. Su cómplice logró escapar.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T23:31:28.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de 20 años fue detenido en un kiosco ubicado en la calle Mitre al 100 de Chacabuco.\n\nEl sospechoso intentó pagar mercadería por un valor de 30 mil pesos utilizando una billetera virtual apócrifa.\n\nEl comerciante notó la maniobra y alertó a la policía, logrando la captura de uno de los involucrados mientras su cómplice escapó a pie.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Chacabuco: atrapan a un joven que quiso pagar con una billetera virtual trucha",
+   "urgente": false,
+   "video_bytes": 76736,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_02_chacabuco_chacabuco-atrapan-a-un-joven-q.mp4",
+   "volanta": "Operativo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/ku_VJJGbiq8"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html": {
    "categoria": "operativo_policial",
@@ -12340,6 +12387,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pyme-bloqueada-por-camioneros-el-dueno-teme-por-su-familia-tras-ec2d8e",
    "volanta": ""
   },
+  "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": {
+   "categoria": "",
+   "descripcion": "El Rally Regional puso en marcha su penúltima fecha El Rally Regional puso en marcha su penúltima fecha con la clásica largada simbólica frente al Palacio Municipal, dando inicio formal a la competencia en Chivilcoy. Superadas las verificaciones previas, la carrera cuenta con un recorrido total de 121,66 kilómetros de pruebas especiales distribuidos en dos etapas sobre caminos rurales. La primera etapa se desarrolla este sábado con un total de 59,11 kilómetros de velocidad pura. El cronograma...",
+   "generado": "2026-10-23T23:33:01.370Z",
+   "id": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_da14bc111817406d8f0f85f711116f49~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": {
    "categoria": "nacionales",
    "descripcion": "La Academia y el Rojo no se sacaron ventajas en el interzonal de la fecha 13. Anotaron Matías Zaracho y Maximiliano Meza. Iván Marcone y Matías…",
@@ -13699,17 +13765,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 214,
-   "segundos": 6006,
+   "restantes": 212,
+   "segundos": 2400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2193,
-   "segundos": 1549821,
+   "restantes": 2191,
+   "segundos": 1546215,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T22:40:20.000Z",
+ "cuota_visto": "2026-10-23T23:40:27.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16981,18 +17047,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x": {
-   "actualizado": "2026-10-23T22:40:20.000Z",
+   "actualizado": "2026-10-23T23:40:25.000Z",
    "buffer_id": "6adbe254e4be8a4d862b540a",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
    "creado": "2026-10-23T22:40:17.000Z",
    "dueAt": "2026-10-23T22:42:29.000Z",
+   "enviado": "2026-10-23T22:42:34.309Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T22:24:12.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113763035282108457",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
    "origen": "bot",
@@ -19635,6 +19702,62 @@
    "vence": "2026-10-23T21:56:14.000Z",
    "video_bytes": 9952745,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5d007da4bdb54d49.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok": {
+   "actualizado": "2026-10-23T23:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
+   "creado": "2026-10-23T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T23:34:19.000Z",
+   "id": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Rally Regional puso en marcha su penúltima fecha\n\nLa largada simbólica frente al Palacio Municipal dio inicio formal al Rally de Chivilcoy. La competencia afronta un itinerario de diez pruebas especiales que sumarán 121,66 kilómetros cronometrados sobre caminos rurales, distribuidos en dos etapas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
+   "urgente": false,
+   "vence": "2026-10-25T23:34:19.000Z",
+   "video_bytes": 9147019,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c3ec38e679c1e655.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x": {
+   "actualizado": "2026-10-23T23:40:25.000Z",
+   "buffer_id": "6adbf06a9acae620d8225d0d",
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
+   "creado": "2026-10-23T23:40:15.000Z",
+   "dueAt": "2026-10-23T23:42:35.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T23:34:19.000Z",
+   "id": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "noticia": "nota:chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El Rally Regional puso en marcha su penúltima fecha\n\nCon la largada simbólica comenzó el Rally de Chivilcoy. La competencia tendrá diez pruebas especiales y 121,66 kilómetros sobre caminos rurales divididos en dos etapas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
+   "urgente": false,
+   "vence": "2026-10-24T01:34:19.000Z",
+   "video_bytes": 9147019,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c3ec38e679c1e655.mp4",
    "viral": false
   },
   "entrevistas:job00206|x": {
@@ -25624,32 +25747,6 @@
    "video_bytes": 117542,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_04_bolivar_usaron-foto-de-su-hija-y-carac.mp4"
   },
-  "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok": {
-   "actualizado": "2026-10-13T23:20:15.000Z",
-   "buffer_id": "6aceb80633507eb5b0e228a9",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|tiktok",
-   "creado": "2026-10-13T23:00:20.000Z",
-   "dueAt": "2026-10-13T23:03:55.000Z",
-   "enviado": "2026-10-13T23:04:43.695Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T22:42:06.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696292035296283910",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-y-arroyo-seco-diez-afectados-y-dos-detenidos-por-estafa-de4bf9",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Investigan una presunta estafa de 40.000 dólares con paquetes turísticos que dejó a diez afectados.\n\nLos operativos incluyeron allanamientos en Rosario y Arroyo Seco.\n\nComo resultado de los procedimientos, hay dos personas detenidas.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Estafa con paquetes turísticos de 40.000 dólares: diez afectados y dos detenidos",
-   "urgente": false,
-   "vence": "2026-10-14T16:42:06.000Z",
-   "video_bytes": 74828,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_2109_01_junin_estafa-con-paquetes-tur-sticos.mp4"
-  },
   "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos|x": {
    "actualizado": "2026-10-14T17:00:19.000Z",
    "buffer_id": "",
@@ -28043,6 +28140,62 @@
    "vence": "2026-10-23T01:31:07.000Z",
    "video_bytes": 73242,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_01_chacabuco_cay-un-joven-de-19-a-os-tras-r.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok": {
+   "actualizado": "2026-10-23T23:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok",
+   "creado": "2026-10-23T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T23:31:28.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Chacabuco: atrapan a un joven que quiso pagar con una billetera virtual trucha\n\nUn joven de 20 años fue arrestado en un comercio céntrico de Chacabuco tras intentar estafar al comerciante con una aplicación de pagos falsa. Su cómplice logró escapar.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chacabuco: atrapan a un joven que quiso pagar con una billetera virtual trucha",
+   "urgente": false,
+   "vence": "2026-10-24T17:31:28.000Z",
+   "video_bytes": 76736,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_02_chacabuco_chacabuco-atrapan-a-un-joven-q.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x": {
+   "actualizado": "2026-10-23T23:40:25.000Z",
+   "buffer_id": "6adbf06b8b3d437ddc8efe00",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
+   "creado": "2026-10-23T23:40:15.000Z",
+   "dueAt": "2026-10-23T23:48:40.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T23:31:28.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
+   "noticia": "nota:chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chacabuco: atrapan a un joven que quiso pagar con una billetera virtual trucha\n\nUn joven de 20 años fue arrestado en un comercio céntrico de Chacabuco tras intentar estafar al comerciante con una aplicación de pagos falsa. Su cómplice logró escapar.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chacabuco: atrapan a un joven que quiso pagar con una billetera virtual trucha",
+   "urgente": false,
+   "vence": "2026-10-24T01:31:28.000Z",
+   "video_bytes": 76736,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_02_chacabuco_chacabuco-atrapan-a-un-joven-q.mp4",
    "viral": false
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok": {
@@ -37193,6 +37346,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x": {
+   "actualizado": "2026-10-23T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x",
+   "creado": "2026-10-23T23:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T23:33:01.370Z",
+   "id": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "noticia": "nota:chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
+   "urgente": false,
+   "vence": "2026-10-24T03:33:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x": {
    "actualizado": "2026-10-19T22:20:24.000Z",
    "buffer_id": "",
@@ -39260,68 +39438,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad76f3f8c342e4a3123cacb",
-   "clave": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x",
-   "cuando": "2026-10-20T13:40:15.000Z",
-   "dueAt": "2026-10-20T14:53:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad76f3fc48462888b4d8abe",
-   "clave": "web:4d61cc5b-9d70-46db-b815-a8250038f4de|x",
-   "cuando": "2026-10-20T13:40:15.000Z",
-   "dueAt": "2026-10-20T15:08:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x",
-   "cuando": "2026-10-20T14:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|tiktok",
-   "cuando": "2026-10-20T14:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x",
-   "cuando": "2026-10-20T14:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok",
-   "cuando": "2026-10-20T14:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:78916e74-3542-4bb3-a594-1c57aa500533|x",
-   "cuando": "2026-10-20T14:00:29.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1|x",
-   "cuando": "2026-10-20T14:00:29.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x",
    "cuando": "2026-10-20T14:20:17.000Z",
@@ -43413,6 +43529,66 @@
    "cuando": "2026-10-23T23:00:24.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
+   "cuando": "2026-10-23T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
+   "cuando": "2026-10-23T23:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
+   "cuando": "2026-10-23T23:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok",
+   "cuando": "2026-10-23T23:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x",
+   "cuando": "2026-10-23T23:40:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
+   "cuando": "2026-10-23T23:40:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113763035282108457"
+  },
+  {
+   "buffer_id": "6adbf06a9acae620d8225d0d",
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
+   "cuando": "2026-10-23T23:40:27.000Z",
+   "dueAt": "2026-10-23T23:42:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adbf06b8b3d437ddc8efe00",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
+   "cuando": "2026-10-23T23:40:27.000Z",
+   "dueAt": "2026-10-23T23:48:40.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43433,7 +43609,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T22:40:19.000Z",
+ "ultima_sync": "2026-10-23T23:40:25.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43532,6 +43708,7 @@
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4": "2026-10-23T13:40:14.000Z",
   "bot:video_matias-zucchi_mvl80hcengob_01.mp4": "2026-10-23T17:20:14.000Z",
   "bot:video_matias-zucchi_mvldteosy8fo_01.mp4": "2026-10-23T20:00:19.000Z",
+  "bot:video_matias-zucchi_mvllmur3yyre_01.mp4": "2026-10-23T23:40:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -43753,6 +43930,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener": "2026-10-18T18:20:15.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma": "2026-10-20T09:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten": "2026-10-22T23:40:15.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un": "2026-10-23T23:40:15.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -44109,6 +44287,7 @@
   "web:c876f210-4b35-4b4a-add4-8813297977a9": "2026-10-19T10:20:14.000Z",
   "web:c8fffffc-9fd5-4775-9a97-2aa26888b072": "2026-10-17T18:40:12.000Z",
   "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
+  "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": "2026-10-23T23:40:15.000Z",
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": "2026-10-18T22:20:14.000Z",
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
