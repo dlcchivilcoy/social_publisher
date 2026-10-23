@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 5 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 5 | 2 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 5 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,10 +28,11 @@ Actualizado: 23/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2207 de 3000 (visto 2026-10-23T15:00:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2206 de 3000 (visto 2026-10-23T16:20:21.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (16 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El Club Independiente celebrará los 30 años de su escuela de fútbol — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,13 +55,6 @@ Actualizado: 23/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T13:20 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tikto 
-- 2026-10-23T13:20 recibido web:96fc984a-5682-4bad-8148-1f36bdb208c1|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T13:20 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x 
-- 2026-10-23T13:40 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x 
-- 2026-10-23T13:40 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tikto 
-- 2026-10-23T13:40 recibido bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x 
-- 2026-10-23T13:40 recibido bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok 
 - 2026-10-23T13:40 recibido web:8a598b83-5323-45ea-98bb-999b66679299|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T13:40 recibido web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T13:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tikto 
@@ -79,3 +73,10 @@ Actualizado: 23/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-23T15:00 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x 
 - 2026-10-23T15:00 enviado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x 
 - 2026-10-23T15:00 enviado nacionales:47f4536459d66a4a|tiktok 
+- 2026-10-23T16:20 entrevista_aprobada entrevistas:job00245 
+- 2026-10-23T16:20 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x 
+- 2026-10-23T16:20 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tikto 
+- 2026-10-23T16:20 recibido entrevistas:job00245|x 
+- 2026-10-23T16:20 recibido web:a88f249c-9e23-46be-8a40-bb31f049e2b7|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-23T16:20 programado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x 
+- 2026-10-23T16:20 programado entrevistas:job00245|x 
