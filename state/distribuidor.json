@@ -13954,22 +13954,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 241,
-   "segundos": 50383,
+   "restantes": 240,
+   "segundos": 49212,
    "tope": 250
   },
   "30d": {
-   "restantes": 2220,
-   "segundos": 1594198,
+   "restantes": 2219,
+   "segundos": 1593026,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T10:20:43.000Z",
+ "cuota_visto": "2026-10-23T10:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -30084,14 +30084,14 @@
    "video_url": ""
   },
   "web:1666fae3-dd89-410f-b67f-9206fc69affb|x": {
-   "actualizado": "2026-10-23T10:02:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T10:40:14.000Z",
+   "buffer_id": "6adb398ffe8ae6dfd4556e9f",
    "clave": "web:1666fae3-dd89-410f-b67f-9206fc69affb|x",
    "creado": "2026-10-23T10:02:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T12:07:13.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:02:37.839Z",
    "id": "web:1666fae3-dd89-410f-b67f-9206fc69affb",
    "ig_hora": "2026-10-23T12:07:37.000Z",
@@ -34236,14 +34236,14 @@
    "viral": false
   },
   "web:815f1320-b368-407e-9e43-21cf0ad1b815|x": {
-   "actualizado": "2026-10-23T10:02:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T10:40:14.000Z",
+   "buffer_id": "6adb398eefac72e60fc3924d",
    "clave": "web:815f1320-b368-407e-9e43-21cf0ad1b815|x",
    "creado": "2026-10-23T10:02:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T11:52:45.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:02:32.134Z",
    "id": "web:815f1320-b368-407e-9e43-21cf0ad1b815",
    "ig_hora": "2026-10-23T11:52:37.000Z",
@@ -39692,20 +39692,6 @@
  },
  "registro": [
   {
-   "clave": "web:593361c2-110f-4e68-b565-1c86df54fffe|x",
-   "cuando": "2026-10-20T00:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "nacionales:9e0c09454f9048c5|x",
-   "cuando": "2026-10-20T01:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:9e0c09454f9048c5|tiktok",
    "cuando": "2026-10-20T01:00:24.000Z",
    "estado": "pendiente",
@@ -43817,6 +43803,20 @@
    "clave": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x",
    "cuando": "2026-10-23T10:20:43.000Z",
    "dueAt": "2026-10-23T11:37:00.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb398eefac72e60fc3924d",
+   "clave": "web:815f1320-b368-407e-9e43-21cf0ad1b815|x",
+   "cuando": "2026-10-23T10:40:15.000Z",
+   "dueAt": "2026-10-23T11:52:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb398ffe8ae6dfd4556e9f",
+   "clave": "web:1666fae3-dd89-410f-b67f-9206fc69affb|x",
+   "cuando": "2026-10-23T10:40:15.000Z",
+   "dueAt": "2026-10-23T12:07:13.000Z",
    "evento": "programado"
   }
  ],
