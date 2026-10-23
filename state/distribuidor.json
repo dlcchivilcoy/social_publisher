@@ -15,7 +15,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-23T18:00:19.000Z"
+   "visto": "2026-10-23T19:20:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 32
+    "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T18:00:19.000Z"
+   "visto": "2026-10-23T19:20:21.000Z"
   }
  },
  "contenidos": {
@@ -13680,17 +13680,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 222,
-   "segundos": 19197,
+   "restantes": 221,
+   "segundos": 18004,
    "tope": 250
   },
   "30d": {
-   "restantes": 2201,
-   "segundos": 1563012,
+   "restantes": 2200,
+   "segundos": 1561819,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T19:00:29.000Z",
+ "cuota_visto": "2026-10-23T19:20:22.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16846,18 +16846,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x": {
-   "actualizado": "2026-10-23T19:00:28.000Z",
+   "actualizado": "2026-10-23T19:20:21.000Z",
    "buffer_id": "6adbaecdbd33ce99c3e769e7",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
    "creado": "2026-10-23T19:00:17.000Z",
    "dueAt": "2026-10-23T19:02:24.000Z",
+   "enviado": "2026-10-23T19:04:16.808Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T18:56:51.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113708100255437211",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
    "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
    "origen": "bot",
@@ -39087,14 +39088,6 @@
  },
  "registro": [
   {
-   "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
-   "cuando": "2026-10-20T10:20:56.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:7524a117-5ec3-428b-862c-0238cd3653e6|x",
    "cuando": "2026-10-20T10:20:57.000Z",
    "estado": "pendiente",
@@ -43229,6 +43222,12 @@
    "cuando": "2026-10-23T19:00:29.000Z",
    "dueAt": "2026-10-23T19:02:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
+   "cuando": "2026-10-23T19:20:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113708100255437211"
   }
  ],
  "tandas": {
@@ -43248,7 +43247,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T18:00:19.000Z",
+ "ultima_sync": "2026-10-23T19:20:21.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
