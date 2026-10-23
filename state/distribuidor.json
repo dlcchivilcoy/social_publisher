@@ -1102,6 +1102,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a336ff7a5e3c81c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/MQEjcrdTx_M"
   },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62": {
+   "descripcion": "Dos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soárez, en inmediaciones de Plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos. Según explicó Alejo,",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-23T19:32:58.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
+   "urgente": false,
+   "video_bytes": 677394,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f5adb33329c1e452.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/CqLNBGF6QB8"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -10570,6 +10591,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:89c9f8af-db2e-425f-9362-568f282ebcfe": {
+   "categoria": "",
+   "descripcion": "Intentaron robar una moto tras romper la puerta de un comercio Dos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soárez, en inmediaciones de Plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos. Según explicó Alejo, uno de los responsables del establecimiento, el episodio se registró alrededor de las 5. Los sujetos dieron una patada contra la puerta de vidrio del...",
+   "generado": "2026-10-23T19:30:36.145Z",
+   "id": "web:89c9f8af-db2e-425f-9362-568f282ebcfe",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2913eaf8b6d347c7b363063cae01b602~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:8a598b83-5323-45ea-98bb-999b66679299": {
    "categoria": "",
    "descripcion": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional La dupla chivilcoyana de bochas intergeneracional, integrada por Jorge Ponte y Marcos Curioni, logró meterse en la final del certamen. El encuentro definitorio se disputará a las 11:45 frente a Saavedra.",
@@ -13680,17 +13720,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 18004,
+   "restantes": 220,
+   "segundos": 16793,
    "tope": 250
   },
   "30d": {
-   "restantes": 2200,
-   "segundos": 1561819,
+   "restantes": 2199,
+   "segundos": 1560607,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T19:20:22.000Z",
+ "cuota_visto": "2026-10-23T19:40:34.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16872,6 +16912,62 @@
    "vence": "2026-10-23T20:56:51.000Z",
    "video_bytes": 695393,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a336ff7a5e3c81c.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok": {
+   "actualizado": "2026-10-23T19:40:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok",
+   "creado": "2026-10-23T19:40:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T19:32:58.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Intentaron robar una moto tras romper la puerta de un comercio\n\nDos personas ingresaron durante la madrugada a un local comercial ubicado en la avenida Soárez e intentaron sustraer una motocicleta de 110 centímetros cúbicos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
+   "urgente": false,
+   "vence": "2026-10-25T19:32:58.000Z",
+   "video_bytes": 677394,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f5adb33329c1e452.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x": {
+   "actualizado": "2026-10-23T19:40:33.000Z",
+   "buffer_id": "6adbb8310b5343d07049c98e",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
+   "creado": "2026-10-23T19:40:20.000Z",
+   "dueAt": "2026-10-23T19:42:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T19:32:58.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Intentaron robar una moto tras romper la puerta de un comercio\n\nDos personas ingresaron de madrugada al local de Motos Distribuidora Oeste. Intentaron sustraer una motocicleta de 110 centímetros cúbicos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
+   "urgente": false,
+   "vence": "2026-10-23T21:32:58.000Z",
+   "video_bytes": 677394,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f5adb33329c1e452.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -26553,15 +26649,15 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok": {
-   "actualizado": "2026-10-23T01:40:14.000Z",
+   "actualizado": "2026-10-23T19:40:33.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok",
    "creado": "2026-10-23T01:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T01:32:04.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html",
    "intentos": 0,
@@ -34323,6 +34419,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x": {
+   "actualizado": "2026-10-23T19:40:20.000Z",
+   "buffer_id": "",
+   "clave": "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x",
+   "creado": "2026-10-23T19:40:20.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T19:30:36.145Z",
+   "id": "web:89c9f8af-db2e-425f-9362-568f282ebcfe",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
+   "urgente": false,
+   "vence": "2026-10-23T23:30:36.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8a598b83-5323-45ea-98bb-999b66679299|x": {
    "actualizado": "2026-10-23T13:40:14.000Z",
    "buffer_id": "",
@@ -39088,46 +39209,6 @@
  },
  "registro": [
   {
-   "clave": "web:7524a117-5ec3-428b-862c-0238cd3653e6|x",
-   "cuando": "2026-10-20T10:20:57.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c|x",
-   "cuando": "2026-10-20T10:21:00.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x",
-   "cuando": "2026-10-20T10:21:02.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:053f7722-ce93-4d22-9679-cc89862bee76|x",
-   "cuando": "2026-10-20T10:21:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:7a521c20-c0d0-4494-9499-82a795b8a1f6|x",
-   "cuando": "2026-10-20T10:21:12.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x",
    "cuando": "2026-10-20T10:21:12.000Z",
    "evento": "vencido",
@@ -43228,6 +43309,43 @@
    "cuando": "2026-10-23T19:20:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113708100255437211"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
+   "cuando": "2026-10-23T19:40:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok",
+   "cuando": "2026-10-23T19:40:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x",
+   "cuando": "2026-10-23T19:40:33.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok",
+   "cuando": "2026-10-23T19:40:33.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6adbb8310b5343d07049c98e",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
+   "cuando": "2026-10-23T19:40:34.000Z",
+   "dueAt": "2026-10-23T19:42:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43304,6 +43422,7 @@
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei": "2026-10-23T14:00:23.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj": "2026-10-23T16:20:15.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3": "2026-10-23T19:00:17.000Z",
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62": "2026-10-23T19:40:20.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -43804,6 +43923,7 @@
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4": "2026-10-19T10:20:14.000Z",
   "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": "2026-10-20T10:20:14.000Z",
   "web:88cf316f-775e-44d8-a2ae-b1cca1162e08": "2026-10-22T15:40:16.000Z",
+  "web:89c9f8af-db2e-425f-9362-568f282ebcfe": "2026-10-23T19:40:20.000Z",
   "web:8a598b83-5323-45ea-98bb-999b66679299": "2026-10-23T13:40:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",

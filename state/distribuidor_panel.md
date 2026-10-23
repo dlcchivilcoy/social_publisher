@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 8 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 5 | 2 | 0 | 9 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 8 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,9 +28,10 @@ Actualizado: 23/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2200 de 3000 (visto 2026-10-23T19:20:22.000Z)
+15m: quedan 99 de 100 · 24h: quedan 220 de 250 · 30d: quedan 2199 de 3000 (visto 2026-10-23T19:40:34.000Z)
 
 ## Cola propia (16 esperando)
+- TikTok · Reels del bot · Intentaron robar una moto tras romper la puerta de un comercio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Intentaron robar una motocicleta en un comercio de la avenida Soáres — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Club Independiente celebrará los 30 años de su escuela de fútbol — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -45,7 +46,6 @@ Actualizado: 23/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -55,11 +55,6 @@ Actualizado: 23/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T16:20 recibido web:a88f249c-9e23-46be-8a40-bb31f049e2b7|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T16:20 programado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x 
-- 2026-10-23T16:20 programado entrevistas:job00245|x 
-- 2026-10-23T16:40 entrevista_aprobada entrevistas:job00246 
-- 2026-10-23T16:40 recibido entrevistas:job00246|x 
 - 2026-10-23T16:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x 
 - 2026-10-23T16:40 enviado entrevistas:job00245|x 
 - 2026-10-23T16:40 programado entrevistas:job00246|x 
@@ -80,3 +75,8 @@ Actualizado: 23/10/2026 16:20 (hora AR) · ACTIVO
 - 2026-10-23T19:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-23T19:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x 
 - 2026-10-23T19:20 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x 
+- 2026-10-23T19:40 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x 
+- 2026-10-23T19:40 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tikto 
+- 2026-10-23T19:40 recibido web:89c9f8af-db2e-425f-9362-568f282ebcfe|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-23T19:40 vencido policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-r TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-23T19:40 programado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x 
