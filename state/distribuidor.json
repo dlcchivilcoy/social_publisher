@@ -25606,14 +25606,14 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x": {
-   "actualizado": "2026-10-23T02:20:14.000Z",
+   "actualizado": "2026-10-23T09:00:23.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x",
    "creado": "2026-10-23T02:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T02:01:39.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html",
    "intentos": 0,
@@ -26363,14 +26363,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x": {
-   "actualizado": "2026-10-23T01:40:14.000Z",
+   "actualizado": "2026-10-23T09:00:23.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x",
    "creado": "2026-10-23T01:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T01:32:04.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html",
    "intentos": 0,
@@ -27059,32 +27059,6 @@
    "vence": "2026-10-16T11:42:27.000Z",
    "video_bytes": 83629,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_06_chacabuco_descontrol-gases-y-corridas-en.mp4"
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok": {
-   "actualizado": "2026-10-13T02:40:17.000Z",
-   "buffer_id": "6acd82a65229b40e868af3f6",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|tiktok",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T02:23:10.000Z",
-   "enviado": "2026-10-13T02:24:57.832Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:48.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7695972368119958804",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-arrestaron-a-un-hombre-de-70-anos-por-atacar-con-un-05c122",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Un hombre de 70 años terminó detenido en Chacabuco tras un operativo policial.\n\nEl violento episodio ocurrió en una vivienda situada sobre la calle Peira al 300.\n\nTodo comenzó a las 18 horas del domingo a raíz de un llamado al sistema de emergencias.\n\nEl agresor hirió con un machete a su nuera de 33 años y a dos efectivos que intentaron reducirlo.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 70 años tras atacar a su nuera y a policías con un machete",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:48.000Z",
-   "video_bytes": 88539,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x": {
    "actualizado": "2026-10-13T10:20:19.000Z",
@@ -28866,32 +28840,6 @@
    "vence": "2026-10-16T11:42:26.000Z",
    "video_bytes": 78309,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_04_las-flores_hirieron-a-una-pareja-de-jubil.mp4"
-  },
-  "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok": {
-   "actualizado": "2026-10-13T02:40:17.000Z",
-   "buffer_id": "6acd82a6aec88be081ed0277",
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|tiktok",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T01:43:19.000Z",
-   "enviado": "2026-10-13T01:45:12.907Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:48.000Z",
-   "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7695962147926330676",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-murio-electrocutado-un-operario-de-la-cooperativa-ae358c",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Un operario de la Cooperativa Eléctrica de Bolívar falleció este lunes tras sufrir una descarga eléctrica durante una jornada de trabajo.\n\nEl trágico episodio ocurrió en un sector rural del partido, donde el trabajador realizaba tareas de mantenimiento en las instalaciones eléctricas.\n\nTras el fatal accidente, personal policial y judicial intervino en el lugar para constatar las circunstancias del hecho y realizar las pericias correspondientes.\n\n📲 Más noticias de Bolívar en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bolívar #policiales",
-   "tipo": "video",
-   "titulo": "Tragedia laboral: murió electrocutado un operario en Bolívar",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:48.000Z",
-   "video_bytes": 100748,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x": {
    "actualizado": "2026-10-13T11:40:15.000Z",
@@ -39311,19 +39259,6 @@
  },
  "registro": [
   {
-   "clave": "web:2e67d217-7a79-4046-8927-8123258e800c|x",
-   "cuando": "2026-10-20T00:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad6af142d48e20f64bc551a",
-   "clave": "nacionales:9cae8a7fbd11ec6c|tiktok",
-   "cuando": "2026-10-20T00:00:21.000Z",
-   "dueAt": "2026-10-20T00:03:58.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad6af15cba41b0140518ab1",
    "clave": "nacionales:632442afcb23e9fb|tiktok",
    "cuando": "2026-10-20T00:00:21.000Z",
@@ -43417,6 +43352,18 @@
    "cuando": "2026-10-23T02:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113452295962632320"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x",
+   "cuando": "2026-10-23T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x",
+   "cuando": "2026-10-23T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
