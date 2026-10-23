@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 7
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-22T23:20:15.000Z"
+   "visto": "2026-10-23T00:20:25.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 30
+    "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-22T23:20:15.000Z"
+   "visto": "2026-10-23T00:20:25.000Z"
   }
  },
  "contenidos": {
@@ -2648,6 +2648,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_10671478a9_polemica-por-placas-y-ofrendas-argentinas.mp4",
    "volanta": "Malvinas",
    "youtube_url": "https://youtube.com/shorts/weZlFxILbYI"
+  },
+  "nacionales:1bc3bff36ba5e828": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "La senadora nacional dejó abierta su postulación para 2027 y expertos señalan que intenta revalorizarse dentro del oficialismo sin arriesgar la estabilidad institucional.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T00:15:57.000Z",
+   "hashtags": [
+    "Politica",
+    "PatriciaBullrich"
+   ],
+   "id": "nacionales:1bc3bff36ba5e828",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei",
+   "urgente": false,
+   "video_bytes": 71146,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_1bc3bff36b_analizan-como-patricia-bullrich-busca-condicionar.mp4",
+   "volanta": "Estrategia política",
+   "youtube_url": "https://youtube.com/shorts/Ldye5l5bhyk"
   },
   "nacionales:206df88111ec06ca": {
    "categoria": "Mundo",
@@ -6714,6 +6741,32 @@
    "volanta": "Mercedes y Suipacha en Junín",
    "youtube_url": "https://youtube.com/shorts/mFvTGuATQFs"
   },
+  "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": {
+   "categoria": "alerta_meteorologica",
+   "descripcion": "El Servicio Meteorológico Nacional y Defensa Civil emitieron advertencias por precipitaciones intensas, ráfagas de hasta 90 kilómetros por hora y posible caída de granizo en distritos del centro y norte bonaerense durante este jueves.",
+   "distancia_km": 61.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T00:00:55.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
+   "localidad": "25 de Mayo",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "El Servicio Meteorológico Nacional junto a Defensa Civil lanzaron advertencias de niveles amarillo y naranja para varios partidos del territorio bonaerense.\n\nSe esperan chaparrones intensos, actividad eléctrica constante, ráfagas muy fuertes que podrían alcanzar los 90 kilómetros por hora y posible caída de granizo.\n\nLos acumulados de agua estimados rondarán entre los 40 y 70 milímetros en las zonas bajo advertencia amarilla, mientras que en las áreas con nivel naranja podrían trepar hasta los 100 milímetros.\n\n📲 Más noticias de 25 de Mayo en www.diariolacampaña.com.ar\n\n#25DeMayo #AlertaMeteorologica #Tormentas #DefensaCivil #BuenosAires",
+   "tipo": "video",
+   "titulo": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires",
+   "urgente": true,
+   "video_bytes": 86547,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_02_25-de-mayo_rige-alerta-naranja-y-amarilla.mp4",
+   "volanta": "Alerta en 25 de Mayo",
+   "youtube_url": "https://youtube.com/shorts/w-u1dut_2TM"
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": {
    "categoria": "robo",
    "descripcion": "Un operativo cerrojo culminó con la aprehensión de un hombre que era perseguido desde la vecina ciudad tras sustraer un ciclomotor. Interviene la justicia correspondiente.",
@@ -10084,6 +10137,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cultura-chivilcoy-sera-sede-del-2-encuentro-regional-de-coros",
    "volanta": "Cultura"
+  },
+  "web:7fb16583-71d2-4d12-9242-d6637d144fca": {
+   "categoria": "",
+   "descripcion": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización La edición 2026 del Medio Maraton Eduardo Pollaroli tendrá un perfil inclusivo y participativo. A los tradicionales 21K se incorporarán las distancias de 5 y 10K, además de una caminata promovida por el servicio de Oncologia del Hospital Municipal destinada a concientizar sobre el cáncer de mama y de próstata. Asimismo, en esta edición se llevará a cabo por primera vez la iniciativa denominada «UNLu corre por...",
+   "generado": "2026-10-23T00:19:11.417Z",
+   "id": "web:7fb16583-71d2-4d12-9242-d6637d144fca",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_aa9533b505134536b1ffb41b70457e96~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1": {
    "categoria": "",
@@ -13532,17 +13604,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 209,
-   "segundos": 1,
+   "restantes": 249,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2229,
-   "segundos": 1631421,
+   "restantes": 2228,
+   "segundos": 1630215,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T00:00:21.000Z",
+ "cuota_visto": "2026-10-23T00:20:26.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16289,7 +16361,7 @@
    "creado": "2026-10-22T22:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T22:20:46.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
@@ -18196,7 +18268,7 @@
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T00:12:48.000Z",
    "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
@@ -18327,7 +18399,7 @@
    "creado": "2026-10-22T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T13:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
@@ -18384,7 +18456,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T14:04:12.000Z",
    "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
@@ -18441,7 +18513,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T14:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
@@ -18498,7 +18570,7 @@
    "creado": "2026-10-22T15:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-22T15:16:22.000Z",
    "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
@@ -20092,6 +20164,60 @@
    "vence": "2026-10-21T00:16:49.000Z",
    "video_bytes": 2812344,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_10671478a9_polemica-por-placas-y-ofrendas-argentinas.mp4",
+   "viral": false
+  },
+  "nacionales:1bc3bff36ba5e828|tiktok": {
+   "actualizado": "2026-10-23T00:20:25.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:1bc3bff36ba5e828|tiktok",
+   "creado": "2026-10-23T00:20:14.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-23T00:15:57.000Z",
+   "id": "nacionales:1bc3bff36ba5e828",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei\n\nLa senadora nacional dejó abierta su postulación para 2027 y expertos señalan que intenta revalorizarse dentro del oficialismo sin arriesgar la estabilidad institucional.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei",
+   "urgente": false,
+   "vence": "2026-10-23T18:15:57.000Z",
+   "video_bytes": 71146,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_1bc3bff36b_analizan-como-patricia-bullrich-busca-condicionar.mp4",
+   "viral": false
+  },
+  "nacionales:1bc3bff36ba5e828|x": {
+   "actualizado": "2026-10-23T00:20:25.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:1bc3bff36ba5e828|x",
+   "creado": "2026-10-23T00:20:14.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-23T00:15:57.000Z",
+   "id": "nacionales:1bc3bff36ba5e828",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
+   "noticia": "nota:patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei\n\nLa senadora nacional dejó abierta su postulación para 2027 y expertos señalan que intenta revalorizarse dentro del oficialismo sin arriesgar la estabilidad institucional.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei",
+   "urgente": false,
+   "vence": "2026-10-23T02:15:57.000Z",
+   "video_bytes": 71146,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_1bc3bff36b_analizan-como-patricia-bullrich-busca-condicionar.mp4",
    "viral": false
   },
   "nacionales:206df88111ec06ca|tiktok": {
@@ -26808,19 +26934,20 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok": {
-   "actualizado": "2026-10-23T00:00:18.000Z",
+   "actualizado": "2026-10-23T00:20:25.000Z",
    "buffer_id": "6adaa3949ef33e7811ab2531",
    "categoria": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok",
    "creado": "2026-10-22T23:40:15.000Z",
    "dueAt": "2026-10-23T00:03:41.000Z",
+   "enviado": "2026-10-23T00:04:27.628Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-22T23:31:07.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699647230004792597",
    "nota_url": "https://www.diariolacampaña.com.ar/n/salto-detuvieron-a-un-sospechoso-de-19-anos-tras-el-robo-de-una-f61b26",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -27530,6 +27657,62 @@
    "vence": "2026-10-17T09:41:32.000Z",
    "video_bytes": 85860,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4"
+  },
+  "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok": {
+   "actualizado": "2026-10-23T00:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
+   "creado": "2026-10-23T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T00:00:55.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 9,
+   "texto": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires\n\nEl Servicio Meteorológico Nacional y Defensa Civil emitieron advertencias por precipitaciones intensas, ráfagas de hasta 90 kilómetros por hora y posible caída de granizo en distritos del centro y norte bonaerense durante este jueves.\n\nhttps://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62\n\n#chivilcoy #diariolacampaña #radiodelcentro #25demayo #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires",
+   "urgente": true,
+   "vence": "2026-10-23T18:00:55.000Z",
+   "video_bytes": 86547,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_02_25-de-mayo_rige-alerta-naranja-y-amarilla.mp4",
+   "viral": true
+  },
+  "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x": {
+   "actualizado": "2026-10-23T00:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
+   "creado": "2026-10-23T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T00:00:55.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
+   "noticia": "nota:25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires\n\nhttps://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires",
+   "urgente": true,
+   "vence": "2026-10-23T02:00:55.000Z",
+   "video_bytes": 86547,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_02_25-de-mayo_rige-alerta-naranja-y-amarilla.mp4",
+   "viral": true
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|tiktok": {
    "actualizado": "2026-10-13T17:40:17.000Z",
@@ -32980,6 +33163,33 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:7fb16583-71d2-4d12-9242-d6637d144fca|x": {
+   "actualizado": "2026-10-23T00:20:25.000Z",
+   "buffer_id": "",
+   "clave": "web:7fb16583-71d2-4d12-9242-d6637d144fca|x",
+   "creado": "2026-10-23T00:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-23T00:19:11.417Z",
+   "id": "web:7fb16583-71d2-4d12-9242-d6637d144fca",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "noticia": "nota:chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización\n\nEl evento sumará carreras de 5 y 10K. También habrá una caminata del Hospital Municipal para concientizar sobre el cáncer de mama y próstata.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
+   "urgente": false,
+   "vence": "2026-10-23T04:19:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1|x": {
    "actualizado": "2026-10-20T14:00:21.000Z",
    "buffer_id": "",
@@ -38220,67 +38430,6 @@
  },
  "registro": [
   {
-   "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
-   "cuando": "2026-10-19T22:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x",
-   "cuando": "2026-10-19T23:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
-   "cuando": "2026-10-19T23:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:660ce08b-5eea-4d96-ac71-12f7add445dd|x",
-   "cuando": "2026-10-19T23:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:b18ec1977365d369|tiktok",
-   "cuando": "2026-10-19T23:00:25.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
-   "cuando": "2026-10-19T23:00:25.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
-   "cuando": "2026-10-19T23:00:25.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
-   "cuando": "2026-10-19T23:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112314372383003091"
-  },
-  {
-   "buffer_id": "6ad6a10a2fcafd0f183dffd7",
-   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x",
-   "cuando": "2026-10-19T23:00:26.000Z",
-   "dueAt": "2026-10-19T23:05:45.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x",
    "cuando": "2026-10-19T23:20:18.000Z",
    "estado": "pendiente",
@@ -42326,6 +42475,70 @@
    "cuando": "2026-10-23T00:00:21.000Z",
    "dueAt": "2026-10-23T00:03:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
+   "cuando": "2026-10-23T00:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
+   "cuando": "2026-10-23T00:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "nacionales:1bc3bff36ba5e828|x",
+   "cuando": "2026-10-23T00:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:1bc3bff36ba5e828|tiktok",
+   "cuando": "2026-10-23T00:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "web:7fb16583-71d2-4d12-9242-d6637d144fca|x",
+   "cuando": "2026-10-23T00:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "nacionales:1bc3bff36ba5e828|x",
+   "cuando": "2026-10-23T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:1bc3bff36ba5e828|tiktok",
+   "cuando": "2026-10-23T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "web:7fb16583-71d2-4d12-9242-d6637d144fca|x",
+   "cuando": "2026-10-23T00:20:25.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok",
+   "cuando": "2026-10-23T00:20:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699647230004792597"
   }
  ],
  "tandas": {
@@ -42344,7 +42557,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-22T23:20:15.000Z",
+ "ultima_sync": "2026-10-23T00:20:25.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -42479,6 +42692,7 @@
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
   "nacionales:0ffb2e8d26094748": "2026-10-19T00:20:16.000Z",
   "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
+  "nacionales:1bc3bff36ba5e828": "2026-10-23T00:20:14.000Z",
   "nacionales:206df88111ec06ca": "2026-10-19T23:20:14.000Z",
   "nacionales:23d1fc7d2341fc89": "2026-10-19T15:20:16.000Z",
   "nacionales:25f7704c0cf2a754": "2026-10-19T09:00:17.000Z",
@@ -42654,6 +42868,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-14-17-0-0-robo-una-moto-en-junin-la-ddi-lo-identifico-y-lo-atrapo-con-otro-rodado-adulterado": "2026-10-15T02:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": "2026-10-16T16:00:18.000Z",
+  "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/": "2026-10-14T18:00:18.000Z",
@@ -42854,6 +43069,7 @@
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
   "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": "2026-10-18T00:20:13.000Z",
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
+  "web:7fb16583-71d2-4d12-9242-d6637d144fca": "2026-10-23T00:20:14.000Z",
   "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1": "2026-10-20T14:00:21.000Z",
   "web:82b6cce8-6765-4661-8b19-1e22966dd60a": "2026-10-18T19:20:13.000Z",
   "web:82d9c768-a466-49ff-882d-09e27a21796f": "2026-10-19T01:40:13.000Z",
