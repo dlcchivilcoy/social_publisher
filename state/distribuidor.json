@@ -5689,6 +5689,32 @@
    "volanta": "Choque en Bragado",
    "youtube_url": "https://youtube.com/shorts/PkdfGS--TKY"
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un conductor colisionó contra el automóvil de una persona llamada Fernández en San Martín y Laprida, huyó y dejó el rodado vacío a pocas cuadras.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T02:01:39.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-choco-a-otro-auto-en-san-martin-y-laprida-huyo-y-dejo-c5d5f4",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un extraño episodio de tránsito tuvo lugar en la esquina de San Martín y Laprida, donde un Volkswagen Gol chocó el lateral de otro automóvil guiado por una persona de apellido Fernández.\n\nTras el impacto, el rodado infractor huyó del lugar y fue hallado vacío a pocas cuadras por los vecinos de la zona.\n\nAhora la policía busca determinar la identidad del conductor, el motivo de la huida y si el vehículo registra algún impedimento legal o pedido de secuestro.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #SiniestroVial #ChoqueYFuga #Investigacion #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado",
+   "urgente": false,
+   "video_bytes": 102400,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_0105_04_bragado_choque-fuga-y-misterio-impact-.mp4",
+   "volanta": "Siniestro vial en Bragado",
+   "youtube_url": "https://youtube.com/shorts/yOR6dd30irI"
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": {
    "categoria": "robo",
    "descripcion": "Sustrajeron una camioneta Toyota Hilux modelo 2025 propiedad de Gustavo Andreoni en Bragado el 14/10/2026. Los ladrones anularon el rastreo y huyeron hacia La Limpia.",
@@ -25550,6 +25576,62 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_04_bragado_bragado-un-auto-embisti-a-una-.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok": {
+   "actualizado": "2026-10-23T02:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok",
+   "creado": "2026-10-23T02:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T02:01:39.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-choco-a-otro-auto-en-san-martin-y-laprida-huyo-y-dejo-c5d5f4",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado\n\nUn conductor colisionó contra el automóvil de una persona llamada Fernández en San Martín y Laprida, huyó y dejó el rodado vacío a pocas cuadras.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-choco-a-otro-auto-en-san-martin-y-laprida-huyo-y-dejo-c5d5f4\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado",
+   "urgente": false,
+   "vence": "2026-10-23T20:01:39.000Z",
+   "video_bytes": 102400,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_0105_04_bragado_choque-fuga-y-misterio-impact-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x": {
+   "actualizado": "2026-10-23T02:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x",
+   "creado": "2026-10-23T02:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T02:01:39.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-choco-a-otro-auto-en-san-martin-y-laprida-huyo-y-dejo-c5d5f4",
+   "noticia": "nota:bragado-choco-a-otro-auto-en-san-martin-y-laprida-huyo-y-dejo-c5d5f4",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado\n\nUn conductor colisionó contra el automóvil de una persona llamada Fernández en San Martín y Laprida, huyó y dejó el rodado vacío a pocas cuadras.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-choco-a-otro-auto-en-san-martin-y-laprida-huyo-y-dejo-c5d5f4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado",
+   "urgente": false,
+   "vence": "2026-10-23T04:01:39.000Z",
+   "video_bytes": 102400,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_0105_04_bragado_choque-fuga-y-misterio-impact-.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes|tiktok": {
    "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "",
@@ -39227,21 +39309,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad6aa6ecba41b014050c9c6",
-   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x",
-   "cuando": "2026-10-19T23:40:30.000Z",
-   "dueAt": "2026-10-20T00:05:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|x",
-   "cuando": "2026-10-20T00:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|tiktok",
    "cuando": "2026-10-20T00:00:19.000Z",
    "estado": "pendiente",
@@ -43336,6 +43403,22 @@
    "cuando": "2026-10-23T02:00:22.000Z",
    "dueAt": "2026-10-23T02:07:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x",
+   "cuando": "2026-10-23T02:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok",
+   "cuando": "2026-10-23T02:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -43614,6 +43697,7 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": "2026-10-17T09:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html": "2026-10-21T00:40:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html": "2026-10-21T00:20:18.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html": "2026-10-23T02:20:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",

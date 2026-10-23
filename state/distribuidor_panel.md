@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,8 +7,8 @@ Actualizado: 22/10/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 1 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 5 | 5 | 0 | 7 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 1 | 0 |
-| Reels policiales | TikTok | 5 | 3 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 2 | 0 | 1 | 0 |
+| Reels policiales | TikTok | 5 | 3 | 0 | 4 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 12 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 1 | 0 | 0 | 4 |
@@ -30,7 +30,7 @@ Actualizado: 22/10/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2224 de 3000 (visto 2026-10-23T02:00:22.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (15 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy sumó nueve medallas en diversas disciplinas deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientiza — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -39,6 +39,8 @@ Actualizado: 22/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels policiales · Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels policiales · Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -52,8 +54,6 @@ Actualizado: 22/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T00:20 depurado web:7fb16583-71d2-4d12-9242-d6637d144fca|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-23T00:20 enviado policiales:https://www.diariodemocracia.com/policiales/34694 
 - 2026-10-23T00:40 recibido bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x 
 - 2026-10-23T00:40 recibido bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok 
 - 2026-10-23T00:40 programado bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x 
@@ -77,3 +77,5 @@ Actualizado: 22/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-10-23T02:00 recibido web:d02ad89e-79f9-411b-86f5-added49bc1ff|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T02:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|x 
 - 2026-10-23T02:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a 
+- 2026-10-23T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq 
+- 2026-10-23T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq 
