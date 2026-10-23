@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,11 +7,11 @@ Actualizado: 22/10/2026 21:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 5 | 5 | 0 | 6 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 5 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 5 | 3 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 11 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
-| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Nacionales y categorías | TikTok | 5 | 0 | 0 | 1 | 0 | 0 | 3 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
@@ -30,15 +30,18 @@ Actualizado: 22/10/2026 21:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2227 de 3000 (visto 2026-10-23T00:40:23.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (12 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientiza — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Nacionales y categorías · ANSES: montos, jubilaciones y quiénes cobran este jueves 22 de octubre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Cayó un joven de 19 años tras robar una moto bajo la modalidad de falsa compra e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -48,11 +51,6 @@ Actualizado: 22/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T22:00 enviado bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tikto 
-- 2026-10-22T22:00 enviado bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok 
-- 2026-10-22T22:00 enviado bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok 
-- 2026-10-22T22:20 recibido web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x 
-- 2026-10-22T22:20 depurado web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-22T22:40 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x 
 - 2026-10-22T22:40 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tikto 
 - 2026-10-22T22:40 programado bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x 
@@ -73,3 +71,8 @@ Actualizado: 22/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-23T00:40 recibido bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok 
 - 2026-10-23T00:40 programado bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x 
 - 2026-10-23T00:40 programado policiales:https://www.lamanana.com.ar/alerta-naranja-y-amar 
+- 2026-10-23T01:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a 
+- 2026-10-23T01:00 recibido policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a 
+- 2026-10-23T01:00 recibido nacionales:47f4536459d66a4a|x 
+- 2026-10-23T01:00 recibido nacionales:47f4536459d66a4a|tiktok 
+- 2026-10-23T01:00 depurado nacionales:47f4536459d66a4a|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
