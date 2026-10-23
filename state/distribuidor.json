@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 1,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-23T12:40:19.000Z"
+   "visto": "2026-10-23T13:40:28.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 27
+    "scheduled": 0,
+    "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T12:40:19.000Z"
+   "visto": "2026-10-23T13:40:28.000Z"
   }
  },
  "contenidos": {
@@ -1039,6 +1039,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e790c56f32162fc.mp4",
    "youtube_url": "https://www.youtube.com/shorts/3vpdXkpCZBA"
   },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01": {
+   "descripcion": "En el salón del Centro Universitario de Chivilcoy se llevó adelante una jornada de capacitación destinada al personal de las distintas fuerzas de seguridad que trabajan en la ciudad, con la participación de representantes del Departamento Judicial de Mercedes y la Ayudantía Fiscal.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-23T13:24:16.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia",
+   "urgente": false,
+   "video_bytes": 809946,
+   "video_mb": 0.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7f175522a50a20db.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/jZfyau42nX8"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -1794,6 +1815,27 @@
    "video_mb": 5.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_482d3b029f7f0f3d.mp4",
    "youtube_url": "https://www.youtube.com/shorts/mMez0WLrIE0"
+  },
+  "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4": {
+   "descripcion": "La dupla chivilcoyana de bochas intergeneracional, conformada por Jorge Ponte y Marcos Curioni, alcanzó la final del certamen tras una destacada actuación.\n\nEl binomio local logró acceder a la instancia decisiva de la competencia, donde buscará quedarse con el título en representación de Chivilcoy.\n\nEl encuentro definitorio está programado para disputarse a las 11:45 frente al representativo de Saavedra.",
+   "duracion_seg": 88.9,
+   "generado": "2026-10-23T13:30:59.000Z",
+   "id": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional",
+   "urgente": false,
+   "video_bytes": 18368187,
+   "video_mb": 17.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c11de0f592000205.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/U0ps4NO5dpg"
   },
   "entrevistas:job00192": {
    "descripcion": "En Chivilcoy, el especialista en Seguridad e Higiene Erardo Spinelli explicó cómo el estrés laboral crónico puede derivar en burnout y depresión. También detalló qué acciones pueden implementar las empresas para contrarrestarlo.",
@@ -8688,6 +8730,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/kicillof-cuestiono-al-gobierno-de-milei-en-el-dia-de-la-lealtad-8f5043",
    "volanta": ""
   },
+  "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72": {
+   "categoria": "",
+   "descripcion": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia En el salón del Centro Universitario de Chivilcoy se llevó adelante una jornada de capacitación destinada al personal de las distintas fuerzas de seguridad que trabajan en la ciudad, con la participación de representantes del Departamento Judicial de Mercedes, la Ayudantía Fiscal local y especialistas en tecnología aplicada a la investigación. La actividad contó con la presencia del fiscal general adjunto del...",
+   "generado": "2026-10-23T13:21:39.319Z",
+   "id": "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c039de2cc7734edda7af986d83a44a5c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "volanta": "Chivilcoy · Seguridad"
+  },
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": {
    "categoria": "",
    "descripcion": "La Secretaría de Agricultura estrenó un sitio web para monitorear el fenómeno climático y brindar asesoramiento técnico a productores.",
@@ -9436,24 +9497,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": {
-   "categoria": "",
-   "descripcion": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad El \"Lobo\" aplastó 5-0 a Alsina en el cierre del domingo y quedó como único líder del Torneo Clausura de Primera División. En una novena fecha empañada por las suspensiones, Colón e Independiente regalaron sendas goleadas para prendirse en la lucha de arriba. La novena fecha del Torneo Clausura de Primera División dejó un saldo agitado tanto en la tabla de posiciones como en el calendario....",
-   "generado": "2026-10-13T10:07:34.429Z",
-   "id": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_782e944eeebe480699574f05c0d3d37f~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
-   "volanta": "Fútbol"
-  },
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": {
    "categoria": "nacionales",
    "descripcion": "El Ejecutivo nacional promulgó la normativa que modifica el esquema de descuentos en las facturas de gas. Chivilcoy figura entre los distritos bonaerenses…",
@@ -9909,24 +9952,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/came-las-ventas-por-el-dia-de-la-madre-cayeron-1-4-interanual",
    "volanta": "CAME"
-  },
-  "web:70c111e7-3198-400b-89de-c2aca69f11ce": {
-   "categoria": "",
-   "descripcion": "Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura El Torneo Clausura de Primera División de la Asociación Básquetbol Chivilcoy vivió una novena fecha a puro básquet, emociones y marcas históricas. El gran protagonista de la jornada volvió a ser Colón, que estiró su impresionante momento de forma y continúa agigantando su legado a nivel local. COLÓN ESTIRA LA DINASTÍA: ¡40 TRIUNFOS CONSECUTIVOS! El Rojinegro ratificó su absoluto dominio en el certamen local...",
-   "generado": "2026-10-13T10:08:14.886Z",
-   "id": "web:70c111e7-3198-400b-89de-c2aca69f11ce",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_80f8cfb3ee84443fbebe3953284b7193~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
-   "volanta": "Básquet"
   },
   "web:725569a0-fb4a-45ea-b7ed-10abf912cf30": {
    "categoria": "",
@@ -10644,6 +10669,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:8a598b83-5323-45ea-98bb-999b66679299": {
+   "categoria": "",
+   "descripcion": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional La dupla chivilcoyana de bochas intergeneracional, integrada por Jorge Ponte y Marcos Curioni, logró meterse en la final del certamen. El encuentro definitorio se disputará a las 11:45 frente a Saavedra.",
+   "generado": "2026-10-23T13:30:06.629Z",
+   "id": "web:8a598b83-5323-45ea-98bb-999b66679299",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_63c2454a98344e0a9ce7593a88aca059~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": {
    "categoria": "",
    "descripcion": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses La Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará en Mar del Plata. Durante el encuentro, se hizo entrega de la indumentaria a los integrantes de la delegación, que competirá en distintas disciplinas de las categorías Juveniles, Adultos Mayores y personas con discapacidad. Participaron de la...",
@@ -10770,24 +10814,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-celebro-el-aval-medico-a-la-gira-de-leon-xiv-pero-f3deae",
    "volanta": ""
-  },
-  "web:903567f7-46a1-4218-a19a-686670a11eb1": {
-   "categoria": "",
-   "descripcion": "El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana Con la participación destacada del entrenador de la Selección Argentina, Lionel Scaloni, se llevó a cabo la cuarta edición de esta emblemática prueba de ciclismo de ruta. El equipo \"Chacinados El Pato\", dirigido por Fernando Antogna, dijo presente entre los miles de pedalistas. Buenos Aires vivió una verdadera fiesta del deporte sobre dos ruedas con la realización de la cuarta edición del Gran...",
-   "generado": "2026-10-13T10:08:56.201Z",
-   "id": "web:903567f7-46a1-4218-a19a-686670a11eb1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8d43074fa4cc43f2af315dfb0f92b6d9~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
-   "volanta": "Ciclismo"
   },
   "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad": {
    "categoria": "",
@@ -11211,24 +11237,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
    "volanta": "Drogas Ilícitas"
-  },
-  "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": {
-   "categoria": "",
-   "descripcion": "Florencia Nannini y Enrique Balardini propusieron: “Diseñarte: del patrón a la coherencia”",
-   "generado": "2026-10-13T10:09:41.149Z",
-   "id": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7e172ad9452545e29fb9e6a6fae102c6~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Propuesta interdisciplinaria",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
-   "volanta": ""
   },
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": {
    "categoria": "nacionales",
@@ -13782,22 +13790,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 232,
-   "segundos": 39603,
+   "restantes": 230,
+   "segundos": 38397,
    "tope": 250
   },
   "30d": {
-   "restantes": 2211,
-   "segundos": 1583418,
+   "restantes": 2209,
+   "segundos": 1582211,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T13:20:23.000Z",
+ "cuota_visto": "2026-10-23T13:40:30.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13814,32 +13822,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok": {
-   "actualizado": "2026-10-13T13:40:22.000Z",
-   "buffer_id": "6ace26b3d8537df3c5559f27",
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|tiktok",
-   "creado": "2026-10-13T12:20:17.000Z",
-   "dueAt": "2026-10-13T12:43:09.000Z",
-   "enviado": "2026-10-13T12:44:57.749Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T12:10:17.000Z",
-   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696132134616059137",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Una vecina de casi 80 años fue atacada por un pitbull\n\nen Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco. Según sus familiares, el perro circulaba suelto y sin bozal y atacó a la mujer y a su mascota.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
-   "urgente": false,
-   "vence": "2026-10-15T12:10:17.000Z",
-   "video_bytes": 737216,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
-  },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x": {
    "actualizado": "2026-10-13T15:00:20.000Z",
    "buffer_id": "6ace220476384aa24c2d70d1",
@@ -16638,19 +16620,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok": {
-   "actualizado": "2026-10-23T13:00:21.000Z",
+   "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb5a687c3aac797e8115f2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok",
    "creado": "2026-10-23T02:00:16.000Z",
    "dueAt": "2026-10-23T13:03:39.000Z",
+   "enviado": "2026-10-23T13:17:27.658Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T01:46:10.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699848972705303860",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-nueve-medallas-en-diversas",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16776,18 +16759,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x": {
-   "actualizado": "2026-10-23T13:20:22.000Z",
+   "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb5f176fe59a6ed27694ae",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x",
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "2026-10-23T13:28:39.000Z",
+   "enviado": "2026-10-23T13:28:53.401Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T13:14:38.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113623696522780867",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-accidente-un-camion-cerealero-volco-en-la-ruta-5-y-dos",
    "noticia": "nota:ruta-5-accidente-un-camion-cerealero-volco-en-la-ruta-5-y-dos",
    "origen": "bot",
@@ -16801,6 +16785,62 @@
    "vence": "2026-10-23T15:14:38.000Z",
    "video_bytes": 678152,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e790c56f32162fc.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok": {
+   "actualizado": "2026-10-23T13:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
+   "creado": "2026-10-23T13:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T13:24:16.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia\n\nEn el salón del Centro Universitario de Chivilcoy se llevó adelante una jornada de capacitación destinada al personal de las distintas fuerzas de seguridad que trabajan en la ciudad, con la participación de representantes del Departamento Judicial de Mercedes y la Ayudantía Fiscal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia",
+   "urgente": false,
+   "vence": "2026-10-25T13:24:16.000Z",
+   "video_bytes": 809946,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7f175522a50a20db.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x": {
+   "actualizado": "2026-10-23T13:40:28.000Z",
+   "buffer_id": "6adb63cd6fe59a6ed277c3e7",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
+   "creado": "2026-10-23T13:40:14.000Z",
+   "dueAt": "2026-10-23T13:42:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T13:24:16.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "noticia": "nota:chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia",
+   "urgente": false,
+   "vence": "2026-10-23T15:24:16.000Z",
+   "video_bytes": 809946,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7f175522a50a20db.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -19195,19 +19235,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok": {
-   "actualizado": "2026-10-23T13:00:21.000Z",
+   "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb5a6997d61d392147ab0b",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
    "creado": "2026-10-23T00:40:14.000Z",
    "dueAt": "2026-10-23T13:23:44.000Z",
+   "enviado": "2026-10-23T13:33:30.836Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T00:20:30.000Z",
    "id": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699853402569755922",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19257,6 +19298,62 @@
    "vence": "2026-10-23T02:20:30.000Z",
    "video_bytes": 5295640,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_482d3b029f7f0f3d.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok": {
+   "actualizado": "2026-10-23T13:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
+   "creado": "2026-10-23T13:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T13:30:59.000Z",
+   "id": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional\n\nLa dupla chivilcoyana de bochas intergeneracional, conformada por Jorge Ponte y Marcos Curioni, alcanzó la final del certamen tras una destacada actuación. El binomio local logró acceder a la instancia decisiva de la competencia, donde buscará quedarse con el título en representación de Chivilcoy. El encuentro definitorio está programado para disputarse a las 11:45 frente al representativo de Saavedra.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional",
+   "urgente": false,
+   "vence": "2026-10-25T13:30:59.000Z",
+   "video_bytes": 18368187,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c11de0f592000205.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x": {
+   "actualizado": "2026-10-23T13:40:28.000Z",
+   "buffer_id": "6adb63ce10223fea5666ab2f",
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
+   "creado": "2026-10-23T13:40:14.000Z",
+   "dueAt": "2026-10-23T13:48:30.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T13:30:59.000Z",
+   "id": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional\n\nEl binomio local buscará quedarse con el título en representación de Chivilcoy. El encuentro definitorio frente al representativo de Saavedra se disputará a las 11:45.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional",
+   "urgente": false,
+   "vence": "2026-10-23T15:30:59.000Z",
+   "video_bytes": 18368187,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c11de0f592000205.mp4",
    "viral": false
   },
   "entrevistas:job00192|x": {
@@ -24427,32 +24524,6 @@
    "vence": "2026-10-15T21:11:52.000Z",
    "video_bytes": 86889,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0239_02_pergamino_choque-m-ltiple-en-la-ruta-188.mp4"
-  },
-  "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok": {
-   "actualizado": "2026-10-13T13:40:22.000Z",
-   "buffer_id": "6ace26b3d8537df3c5559fa2",
-   "clave": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|tiktok",
-   "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "2026-10-13T13:23:16.000Z",
-   "enviado": "2026-10-13T13:25:12.911Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T12:21:38.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696142486015724807",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-53c50a",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "El Tribunal en lo Criminal Nº 1 sentenció a Marcos Guerrini a cumplir una pena de 14 años de cárcel.\n\nEl magistrado Ignacio Uthurry avaló el entendimiento judicial alcanzado por las partes involucradas.\n\nEl ataque mortal sucedió en el barrio José Hernández cuando la víctima iba en bicicleta y recibió varios disparos.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
-   "tipo": "video",
-   "titulo": "14 años de prisión para Marcos Guerrini por el homicidio de Daniel Scaldaferri",
-   "urgente": false,
-   "vence": "2026-10-14T06:21:38.000Z",
-   "video_bytes": 93019,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_01_pergamino_14-a-os-de-prisi-n-para-marcos.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri|x": {
    "actualizado": "2026-10-13T17:40:17.000Z",
@@ -31421,6 +31492,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72|x": {
+   "actualizado": "2026-10-23T13:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72|x",
+   "creado": "2026-10-23T13:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T13:21:39.319Z",
+   "id": "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "noticia": "nota:chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justicia",
+   "urgente": false,
+   "vence": "2026-10-23T17:21:39.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x": {
    "actualizado": "2026-10-19T15:20:50.000Z",
    "buffer_id": "",
@@ -32621,32 +32717,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x": {
-   "actualizado": "2026-10-13T13:40:22.000Z",
-   "buffer_id": "6ace18a0ed1fb1ea0f934a39",
-   "clave": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T13:30:16.000Z",
-   "enviado": "2026-10-13T13:30:38.616Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:07:34.429Z",
-   "id": "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110000259187327188",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad\n\nEl \"Lobo\" aplastó 5-0 a Alsina en el cierre del domingo y quedó como único líder del Torneo Clausura de Primera División.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-clausura-de-primera-division-gimnasia-goleo-aprovecho-la-parda",
-   "tipo": "nota",
-   "titulo": "Clausura de Primera División: Gimnasia goleó, aprovechó la parda de Moquehuá y ahora, manda en soledad",
-   "urgente": false,
-   "vence": "2026-10-14T10:07:34.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e|x": {
    "actualizado": "2026-10-14T12:20:17.000Z",
    "buffer_id": "",
@@ -33345,32 +33415,6 @@
    "titulo": "Las ventas por el Día de la Madre cayeron 1,4% interanual",
    "urgente": false,
    "vence": "2026-10-20T10:04:13.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:70c111e7-3198-400b-89de-c2aca69f11ce|x": {
-   "actualizado": "2026-10-13T13:40:22.000Z",
-   "buffer_id": "6ace13f13b22eef92826b202",
-   "clave": "web:70c111e7-3198-400b-89de-c2aca69f11ce|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T13:15:25.000Z",
-   "enviado": "2026-10-13T13:15:31.305Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:08:14.886Z",
-   "id": "web:70c111e7-3198-400b-89de-c2aca69f11ce",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109996453435183449",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura\n\nEl Torneo Clausura de Primera División de la Asociación Básquetbol Chivilcoy vivió una novena fecha a puro básquet, emociones y marcas históricas.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-colon-llego-a-las-40-victorias-al-hilo-y-es-el-lider-absoluto",
-   "tipo": "nota",
-   "titulo": "Colón: llegó a las 40 victorias al hilo y es el líder absoluto que tiene el Clausura",
-   "urgente": false,
-   "vence": "2026-10-14T10:08:14.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -34251,18 +34295,19 @@
    "video_url": ""
   },
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x": {
-   "actualizado": "2026-10-23T13:00:21.000Z",
+   "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb5a6797d61d392147a841",
    "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
    "creado": "2026-10-23T13:00:20.000Z",
    "dueAt": "2026-10-23T13:37:01.000Z",
+   "enviado": "2026-10-23T13:37:16.247Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T12:57:59.440Z",
    "id": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113625805481783465",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
    "noticia": "nota:chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
    "origen": "web",
@@ -34489,6 +34534,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:8a598b83-5323-45ea-98bb-999b66679299|x": {
+   "actualizado": "2026-10-23T13:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:8a598b83-5323-45ea-98bb-999b66679299|x",
+   "creado": "2026-10-23T13:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T13:30:06.629Z",
+   "id": "web:8a598b83-5323-45ea-98bb-999b66679299",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional",
+   "urgente": false,
+   "vence": "2026-10-23T17:30:06.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x": {
    "actualizado": "2026-10-17T16:01:43.000Z",
    "buffer_id": "",
@@ -34674,32 +34744,6 @@
    "titulo": "El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia",
    "urgente": false,
    "vence": "2026-10-18T21:06:30.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:903567f7-46a1-4218-a19a-686670a11eb1|x": {
-   "actualizado": "2026-10-13T13:40:22.000Z",
-   "buffer_id": "6ace13f195a61d8e02c8052c",
-   "clave": "web:903567f7-46a1-4218-a19a-686670a11eb1|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T13:00:55.000Z",
-   "enviado": "2026-10-13T13:04:23.025Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:08:56.201Z",
-   "id": "web:903567f7-46a1-4218-a19a-686670a11eb1",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109993650667102607",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana\n\nCon la participación destacada del entrenador de la Selección Argentina, Lionel Scaloni, se llevó a cabo la cuarta edición de esta emblemática prueba…\n\nhttps://www.diariolacampaña.com.ar/n/ciclismo-el-gran-fondo-de-buenos-aires-convoco-a-mas-de-3-500",
-   "tipo": "nota",
-   "titulo": "El Gran Fondo de Buenos Aires convocó a más de 3.500 ciclistas y contó con presencia chivilcoyana",
-   "urgente": false,
-   "vence": "2026-10-14T10:08:56.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35057,19 +35101,20 @@
    "video_url": ""
   },
   "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x": {
-   "actualizado": "2026-10-23T11:40:16.000Z",
+   "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb47a07af88b8f19af6e2c",
    "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
    "creado": "2026-10-23T10:20:15.000Z",
    "dueAt": "2026-10-23T12:52:25.000Z",
+   "enviado": "2026-10-23T12:52:31.314Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:02:59.083Z",
    "id": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d",
    "ig_hora": "2026-10-23T12:52:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113614544165642635",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
    "noticia": "nota:futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
    "origen": "web",
@@ -35387,32 +35432,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x": {
-   "actualizado": "2026-10-13T13:40:22.000Z",
-   "buffer_id": "6ace0f443b22eef928254cdd",
-   "clave": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T12:45:38.000Z",
-   "enviado": "2026-10-13T12:45:46.175Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:09:41.149Z",
-   "id": "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109988966405455935",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Propuesta interdisciplinaria\n\nFlorencia Nannini y Enrique Balardini propusieron: “Diseñarte: del patrón a la coherencia”\n\nhttps://www.diariolacampaña.com.ar/n/propuesta-interdisciplinaria-florencia-nannini-y-enrique-balardini",
-   "tipo": "nota",
-   "titulo": "Propuesta interdisciplinaria",
-   "urgente": false,
-   "vence": "2026-10-14T10:09:41.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x": {
    "actualizado": "2026-10-19T22:20:24.000Z",
@@ -36577,19 +36596,20 @@
    "video_url": ""
   },
   "web:b9460b4c-9981-4efd-a82e-33108e7090de|x": {
-   "actualizado": "2026-10-23T12:00:18.000Z",
+   "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb4c5297d61d3921437f3f",
    "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
    "creado": "2026-10-23T10:20:15.000Z",
    "dueAt": "2026-10-23T13:22:42.000Z",
+   "enviado": "2026-10-23T13:22:46.236Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:03:15.460Z",
    "id": "web:b9460b4c-9981-4efd-a82e-33108e7090de",
    "ig_hora": "2026-10-23T13:22:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113622156416303308",
    "nota_url": "https://www.diariolacampaña.com.ar/n/festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
    "noticia": "nota:festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
    "origen": "web",
@@ -39303,99 +39323,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x",
-   "cuando": "2026-10-20T02:00:29.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad6cb3ecba41b014057b037",
-   "clave": "nacionales:7473fc970bead57a|x",
-   "cuando": "2026-10-20T02:00:30.000Z",
-   "dueAt": "2026-10-20T02:03:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:010e4114-35e9-438d-8057-51285ef42a56|x",
-   "cuando": "2026-10-20T02:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x",
-   "cuando": "2026-10-20T02:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x",
-   "cuando": "2026-10-20T02:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x",
-   "cuando": "2026-10-20T02:40:18.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "nacionales:7473fc970bead57a|x",
-   "cuando": "2026-10-20T02:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112364125397323940"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|x",
-   "cuando": "2026-10-20T09:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
-   "cuando": "2026-10-20T09:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|x",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|x",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Reels del bot en X completo (10)"
-  },
-  {
-   "clave": "nacionales:23d1fc7d2341fc89|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:41adf48909fb7a57|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
   {
    "clave": "nacionales:43c837025338a70a|tiktok",
    "cuando": "2026-10-20T09:00:31.000Z",
@@ -43427,6 +43354,104 @@
    "cuando": "2026-10-23T13:20:23.000Z",
    "dueAt": "2026-10-23T13:28:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
+   "cuando": "2026-10-23T13:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
+   "cuando": "2026-10-23T13:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
+   "cuando": "2026-10-23T13:40:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
+   "cuando": "2026-10-23T13:40:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:8a598b83-5323-45ea-98bb-999b66679299|x",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72|x",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699848972705303860"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113623696522780867"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699853402569755922"
+  },
+  {
+   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113625805481783465"
+  },
+  {
+   "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113614544165642635"
+  },
+  {
+   "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
+   "cuando": "2026-10-23T13:40:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113622156416303308"
+  },
+  {
+   "buffer_id": "6adb63cd6fe59a6ed277c3e7",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
+   "cuando": "2026-10-23T13:40:30.000Z",
+   "dueAt": "2026-10-23T13:42:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb63ce10223fea5666ab2f",
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
+   "cuando": "2026-10-23T13:40:30.000Z",
+   "dueAt": "2026-10-23T13:48:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43446,7 +43471,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T12:40:19.000Z",
+ "ultima_sync": "2026-10-23T13:40:28.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43499,6 +43524,7 @@
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc": "2026-10-23T02:00:16.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg": "2026-10-23T13:20:15.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9": "2026-10-23T13:20:15.000Z",
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01": "2026-10-23T13:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -43536,6 +43562,7 @@
   "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4": "2026-10-22T15:40:16.000Z",
   "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": "2026-10-22T17:00:19.000Z",
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4": "2026-10-23T00:40:14.000Z",
+  "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4": "2026-10-23T13:40:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -43867,6 +43894,7 @@
   "web:3759665f-fb36-4adc-8b4c-b317b209876b": "2026-10-21T10:20:15.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:38a2facb-610c-48c3-ba78-33049770dfcf": "2026-10-17T18:20:13.000Z",
+  "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72": "2026-10-23T13:40:14.000Z",
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
   "web:39554db5-c84a-492e-9690-89d95fba95ec": "2026-10-12T10:20:17.000Z",
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
@@ -43991,6 +44019,7 @@
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4": "2026-10-19T10:20:14.000Z",
   "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": "2026-10-20T10:20:14.000Z",
   "web:88cf316f-775e-44d8-a2ae-b1cca1162e08": "2026-10-22T15:40:16.000Z",
+  "web:8a598b83-5323-45ea-98bb-999b66679299": "2026-10-23T13:40:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",
   "web:8b1f621b-9386-459e-a867-db045379ced7": "2026-10-20T00:20:16.000Z",
