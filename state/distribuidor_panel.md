@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 23/10/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 8 | 2 | 0 | 0 | 1 |
+| Notas web | X | 15 | 5 | 5 | 1 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 27 enviadas + 1 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,12 +28,11 @@ Actualizado: 23/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2217 de 3000 (visto 2026-10-23T11:20:14.000Z)
+15m: quedan 98 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2215 de 3000 (visto 2026-10-23T11:40:16.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (14 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Chivilcoy sumó nueve medallas en diversas disciplinas deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientiza — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,11 +53,6 @@ Actualizado: 23/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-r espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-23T10:02 recibido web:ce117f38-054b-4f6b-92d7-4743edb8711b|x 
-- 2026-10-23T10:03 recibido web:1666fae3-dd89-410f-b67f-9206fc69affb|x 
-- 2026-10-23T10:03 recibido web:815f1320-b368-407e-9e43-21cf0ad1b815|x 
 - 2026-10-23T10:03 recibido web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x 
 - 2026-10-23T10:03 recibido web:1deb9aa6-a333-4510-9fa6-def9de7621af|x 
 - 2026-10-23T10:03 recibido web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x 
@@ -79,3 +73,8 @@ Actualizado: 23/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-23T11:00 depurado web:92c264ae-78ff-431e-bebc-0875504ae30a|x no está en el carrusel del diario de hoy
 - 2026-10-23T11:00 programado web:ce117f38-054b-4f6b-92d7-4743edb8711b|x 
 - 2026-10-23T11:20 programado web:dd86062e-10d5-470e-a60e-27533841a020|x 
+- 2026-10-23T11:40 enviado web:1deb9aa6-a333-4510-9fa6-def9de7621af|x 
+- 2026-10-23T11:40 enviado web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x 
+- 2026-10-23T11:40 enviado web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x 
+- 2026-10-23T11:40 enviado web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x 
+- 2026-10-23T11:40 programado web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x 

@@ -15,7 +15,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-23T10:20:42.000Z"
+   "visto": "2026-10-23T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -23,11 +23,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 1,
     "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-23T10:20:42.000Z"
+   "visto": "2026-10-23T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -6699,30 +6699,6 @@
    "volanta": "Trenque Lauquen y Pehuajó",
    "youtube_url": "https://youtube.com/shorts/_vV-KhUobjY"
   },
-  "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania": {
-   "categoria": "otro_policial",
-   "descripcion": "El Comando de Prevención Rural esclareció un abigeato de diez terneros. Hubo operativos en la provincia de Santa Fe con secuestro de armas y drogas.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-13T00:42:47.000Z",
-   "id": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania",
-   "localidad": "General Pinto",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/general-pinto-recuperaron-ganado-robado-en-germania-y-c2c155",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "['La policía rural esclareció un robo de ganado en la zona rural de Germania tras una rápida investigación.', 'Los operativos se concretaron en la localidad santafesina de Diego de Alvear con la colaboración de distintas fuerzas.', 'Los efectivos recuperaron los diez animales sustraídos y secuestraron armas, estupefacientes y elementos de interés para la causa.']\n\n📲 Más noticias de General Pinto en www.diariolacampaña.com.ar\n\n#GeneralPinto #Abigeato #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Recuperaron ganado robado en un campo y hay tres detenidos tras allanamientos",
-   "urgente": false,
-   "video_bytes": 95738,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_03_general-villegas_recuperaron-ganado-robado-en-u.mp4",
-   "volanta": "General Pinto y Germania",
-   "youtube_url": "https://youtube.com/shorts/Gu6YUhYdlek"
-  },
   "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente": {
    "categoria": "otro_policial",
    "descripcion": "Un joven sufrió una seria fractura expuesta en su pierna izquierda y varias heridas al colisionar con su moto contra un camión en la esquina de Pueyrredón y Larrea.",
@@ -7062,30 +7038,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_04_las-flores_hirieron-a-una-pareja-de-jubil.mp4",
    "volanta": "Asalto violento en Olavarría",
    "youtube_url": "https://youtube.com/shorts/YMk9dIj4G8w"
-  },
-  "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": {
-   "categoria": "otro_policial",
-   "descripcion": "Un trabajador de la Cooperativa Eléctrica falleció este lunes tras recibir una descarga eléctrica mientras realizaba tareas en la zona rural del partido.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-13T00:42:48.000Z",
-   "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/",
-   "localidad": "Bolívar",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-murio-electrocutado-un-operario-de-la-cooperativa-ae358c",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "Un operario de la Cooperativa Eléctrica de Bolívar falleció este lunes tras sufrir una descarga eléctrica durante una jornada de trabajo.\n\nEl trágico episodio ocurrió en un sector rural del partido, donde el trabajador realizaba tareas de mantenimiento en las instalaciones eléctricas.\n\nTras el fatal accidente, personal policial y judicial intervino en el lugar para constatar las circunstancias del hecho y realizar las pericias correspondientes.\n\n📲 Más noticias de Bolívar en www.diariolacampaña.com.ar\n\n#Bolivar #TragediaLaboral #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Tragedia laboral: murió electrocutado un operario en Bolívar",
-   "urgente": false,
-   "video_bytes": 100748,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4",
-   "volanta": "Bolívar",
-   "youtube_url": "https://youtube.com/shorts/iEXj7MXoEQc"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/": {
    "categoria": "otro_policial",
@@ -10691,24 +10643,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": {
-   "categoria": "nacionales",
-   "descripcion": "La Justicia desestimó el reclamo civil de una propietaria contra los habitantes de una finca lindera y le ordenó abonar las costas procesales del litigio.",
-   "generado": "2026-10-12T21:16:45.399Z",
-   "id": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_57422ce93c974553a37ac8375c7d0217~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Rechazaron una demanda por 3 millones de pesos en un litigio entre vecinos en Buenos Aires",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
-   "volanta": ""
-  },
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": {
    "categoria": "",
    "descripcion": "Entregaron indumentaria a la delegación que viajará a los Juegos Bonaerenses La Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará en Mar del Plata. Durante el encuentro, se hizo entrega de la indumentaria a los integrantes de la delegación, que competirá en distintas disciplinas de las categorías Juveniles, Adultos Mayores y personas con discapacidad. Participaron de la...",
@@ -10817,24 +10751,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
    "volanta": ""
-  },
-  "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": {
-   "categoria": "",
-   "descripcion": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida Un choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha. El siniestro involucró a una camioneta utilitaria y un automóvil que circulaban en sentidos opuestos. El periodista de Suipacha, Jorge Lasala, describió las características del impacto al señalar que se trató de «una Kangoo de color blanco que circulaba...",
-   "generado": "2026-10-12T15:04:00.428Z",
-   "id": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0d1e2b9caebf4c6ea0eb6bd67d5baa40~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
-   "volanta": "Siniestro vial"
   },
   "web:902234a6-60aa-4826-bffd-430eafadfad0": {
    "categoria": "nacionales",
@@ -13954,22 +13870,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 46812,
+   "restantes": 236,
+   "segundos": 45610,
    "tope": 250
   },
   "30d": {
-   "restantes": 2217,
-   "segundos": 1590627,
+   "restantes": 2215,
+   "segundos": 1589424,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T11:20:14.000Z",
+ "cuota_visto": "2026-10-23T11:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -27248,32 +27164,6 @@
    "video_bytes": 102413,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_02_chacabuco_fuego-en-un-galp-n-de-la-empre.mp4"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
-   "buffer_id": "6acdf3295167b5c45eb2937b",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|x",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T11:00:40.000Z",
-   "enviado": "2026-10-13T11:02:38.428Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:47.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109963012987670687",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-incendio-afecto-un-galpon-de-la-empresa-amerisu-y-no-db8f7f",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Fuego en un galpón de la empresa Amerisu en Junín\n\nLas llamas se desataron este lunes por la tarde en un depósito donde se almacenaba espeler de girasol.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/junin-un-incendio-afecto-un-galpon-de-la-empresa-amerisu-y-no-db8f7f",
-   "tipo": "video",
-   "titulo": "Fuego en un galpón de la empresa Amerisu en Junín",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:47.000Z",
-   "video_bytes": 102413,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_02_chacabuco_fuego-en-un-galp-n-de-la-empre.mp4"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de|tiktok": {
    "actualizado": "2026-10-13T16:20:16.000Z",
    "buffer_id": "6ace50e11ced551792bbe8dd",
@@ -28127,58 +28017,6 @@
    "video_bytes": 75875,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_01_pehuajo_hallan-muerto-a-un-jubilado-de.mp4"
   },
-  "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
-   "buffer_id": "6acdf32aca68ebbd369c1b43",
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|tiktok",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T11:00:02.000Z",
-   "enviado": "2026-10-13T11:04:38.574Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:47.000Z",
-   "id": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696106291726421266",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/general-pinto-recuperaron-ganado-robado-en-germania-y-c2c155",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "['La policía rural esclareció un robo de ganado en la zona rural de Germania tras una rápida investigación.', 'Los operativos se concretaron en la localidad santafesina de Diego de Alvear con la colaboración de distintas fuerzas.', 'Los efectivos recuperaron los diez animales sustraídos y secuestraron armas, estupefacientes y elementos de interés para la causa.']\n\n📲 Más noticias de General Pinto en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #generalpinto #policiales",
-   "tipo": "video",
-   "titulo": "Recuperaron ganado robado en un campo y hay tres detenidos tras allanamientos",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:47.000Z",
-   "video_bytes": 95738,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_03_general-villegas_recuperaron-ganado-robado-en-u.mp4"
-  },
-  "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
-   "buffer_id": "6acdf328e43d40721c7e1053",
-   "clave": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania|x",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T10:45:13.000Z",
-   "enviado": "2026-10-13T10:45:18.143Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:47.000Z",
-   "id": "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109958649867043059",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/general-pinto-recuperaron-ganado-robado-en-germania-y-c2c155",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Recuperaron ganado robado en un campo y hay tres detenidos tras allanamientos\n\nEl Comando de Prevención Rural esclareció un abigeato de diez terneros.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/general-pinto-recuperaron-ganado-robado-en-germania-y-c2c155\n#GeneralPinto",
-   "tipo": "video",
-   "titulo": "Recuperaron ganado robado en un campo y hay tres detenidos tras allanamientos",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:47.000Z",
-   "video_bytes": 95738,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_03_general-villegas_recuperaron-ganado-robado-en-u.mp4"
-  },
   "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente|tiktok": {
    "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
@@ -28950,32 +28788,6 @@
    "vence": "2026-10-16T11:42:26.000Z",
    "video_bytes": 78309,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_04_las-flores_hirieron-a-una-pareja-de-jubil.mp4"
-  },
-  "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
-   "buffer_id": "6acdf327e43d40721c7e0fdd",
-   "clave": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/|x",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T10:30:14.000Z",
-   "enviado": "2026-10-13T10:30:27.873Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:48.000Z",
-   "id": "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109954915829248270",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-murio-electrocutado-un-operario-de-la-cooperativa-ae358c",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Tragedia laboral: murió electrocutado un operario en Bolívar\n\nUn trabajador de la Cooperativa Eléctrica falleció este lunes tras recibir una descarga eléctrica mientras realizaba tareas en la zona rural del partido.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bolivar-murio-electrocutado-un-operario-de-la-cooperativa-ae358c",
-   "tipo": "video",
-   "titulo": "Tragedia laboral: murió electrocutado un operario en Bolívar",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:48.000Z",
-   "video_bytes": 100748,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_05_las-flores_tragedia-laboral-muri-electroc.mp4"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/|tiktok": {
    "actualizado": "2026-10-15T12:00:21.000Z",
@@ -30368,19 +30180,20 @@
    "video_url": ""
   },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x": {
-   "actualizado": "2026-10-23T10:03:44.000Z",
+   "actualizado": "2026-10-23T11:40:15.000Z",
    "buffer_id": "6adb3101efac72e60fc118fc",
    "clave": "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x",
    "creado": "2026-10-23T10:02:47.000Z",
    "dueAt": "2026-10-23T11:22:41.000Z",
+   "enviado": "2026-10-23T11:22:46.042Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:02:14.304Z",
    "id": "web:1deb9aa6-a333-4510-9fa6-def9de7621af",
    "ig_hora": "2026-10-23T11:22:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113591956819362262",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cem-espacio-de-arte-llega-a-chivilcoy-la-hermana-infame-una-mirada",
    "noticia": "nota:cem-espacio-de-arte-llega-a-chivilcoy-la-hermana-infame-una-mirada",
    "origen": "web",
@@ -30954,19 +30767,20 @@
    "video_url": ""
   },
   "web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x": {
-   "actualizado": "2026-10-23T10:03:44.000Z",
+   "actualizado": "2026-10-23T11:40:15.000Z",
    "buffer_id": "6adb3101e4169c55aabddab3",
    "clave": "web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x",
    "creado": "2026-10-23T10:02:47.000Z",
    "dueAt": "2026-10-23T10:37:18.000Z",
+   "enviado": "2026-10-23T10:37:31.205Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:01:53.698Z",
    "id": "web:29bafb6c-db7b-4454-ba46-6708c7e90b80",
    "ig_hora": "2026-10-23T10:37:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113580569825034694",
    "nota_url": "https://www.diariolacampaña.com.ar/n/aniversario-172-a-pesar-de-las-dificultades-britos-aseguro-que-en-los",
    "noticia": "nota:aniversario-172-a-pesar-de-las-dificultades-britos-aseguro-que-en-los",
    "origen": "web",
@@ -33375,19 +33189,20 @@
    "video_url": ""
   },
   "web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x": {
-   "actualizado": "2026-10-23T10:03:44.000Z",
+   "actualizado": "2026-10-23T11:40:15.000Z",
    "buffer_id": "6adb3101da167f502688a1b8",
    "clave": "web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x",
    "creado": "2026-10-23T10:02:47.000Z",
    "dueAt": "2026-10-23T11:07:03.000Z",
+   "enviado": "2026-10-23T11:07:16.243Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:02:08.201Z",
    "id": "web:6f536878-4577-4da9-9ab2-31ae024c0a0e",
    "ig_hora": "2026-10-23T11:07:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113588056720613484",
    "nota_url": "https://www.diariolacampaña.com.ar/n/comedia-dramatica-como-un-roble-antiguo-y-sus-ultimas-dos-funciones",
    "noticia": "nota:comedia-dramatica-como-un-roble-antiguo-y-sus-ultimas-dos-funciones",
    "origen": "web",
@@ -34700,32 +34515,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
-   "buffer_id": "6acdf329c0184667a9e254cb",
-   "clave": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff|x",
-   "creado": "2026-10-12T21:20:14.000Z",
-   "dueAt": "2026-10-13T11:30:27.000Z",
-   "enviado": "2026-10-13T11:30:40.030Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T21:16:45.399Z",
-   "id": "web:8ac555c1-2aa6-417f-a7be-91ff500635ff",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109970065843982465",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Rechazaron una demanda por 3 millones de pesos en un litigio entre vecinos en Buenos Aires\n\nLa Justicia desestimó el reclamo civil de una propietaria contra los habitantes de una finca lindera y le ordenó abonar las costas procesales del litigio.\n\nhttps://www.diariolacampaña.com.ar/n/rechazaron-una-demanda-por-3-millones-de-pesos-en-un-litigio-3fc80d",
-   "tipo": "nota",
-   "titulo": "Rechazaron una demanda por 3 millones de pesos en un litigio entre vecinos en Buenos Aires",
-   "urgente": false,
-   "vence": "2026-10-13T21:16:45.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b|x": {
    "actualizado": "2026-10-17T16:01:43.000Z",
    "buffer_id": "",
@@ -34885,32 +34674,6 @@
    "titulo": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas",
    "urgente": false,
    "vence": "2026-10-19T22:50:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x": {
-   "actualizado": "2026-10-13T11:40:15.000Z",
-   "buffer_id": "6acdf329ca68ebbd369c1a0e",
-   "clave": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd|x",
-   "creado": "2026-10-12T15:20:17.000Z",
-   "dueAt": "2026-10-13T11:15:46.000Z",
-   "enviado": "2026-10-13T11:16:01.858Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-12T15:04:00.428Z",
-   "id": "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109966382624375142",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida\n\nUn choque frontal sobre la Ruta Nacional 5 dejó como saldo una mujer fallecida y dos personas heridas a la altura del kilómetro 113, en el tramo comprendido entre Mercedes y Suipacha.\n\nhttps://www.diariolacampaña.com.ar/n/siniestro-vial-lasala-choque-frontal-en-ruta-5-dejo-a-una-mujer",
-   "tipo": "nota",
-   "titulo": "Lasala: choque frontal en Ruta 5 dejó a una mujer fallecida",
-   "urgente": false,
-   "vence": "2026-10-13T15:04:00.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35345,14 +35108,14 @@
    "video_url": ""
   },
   "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x": {
-   "actualizado": "2026-10-23T10:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T11:40:16.000Z",
+   "buffer_id": "6adb47a07af88b8f19af6e2c",
    "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
    "creado": "2026-10-23T10:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T12:52:25.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:02:59.083Z",
    "id": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d",
    "ig_hora": "2026-10-23T12:52:37.000Z",
@@ -38717,19 +38480,20 @@
    "video_url": ""
   },
   "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x": {
-   "actualizado": "2026-10-23T10:20:43.000Z",
+   "actualizado": "2026-10-23T11:40:15.000Z",
    "buffer_id": "6adb34fb50cce2289e0c8032",
    "clave": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x",
    "creado": "2026-10-23T10:02:47.000Z",
    "dueAt": "2026-10-23T11:37:00.000Z",
+   "enviado": "2026-10-23T11:37:01.757Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:02:20.208Z",
    "id": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b",
    "ig_hora": "2026-10-23T11:37:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113595545675497547",
    "nota_url": "https://www.diariolacampaña.com.ar/n/fuente-de-hebe-autentico-y-verdadero-simbolo-de-chivilcoy-se-habia",
    "noticia": "nota:fuente-de-hebe-autentico-y-verdadero-simbolo-de-chivilcoy-se-habia",
    "origen": "web",
@@ -39691,43 +39455,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad6bd2ab81183413da73d08",
-   "clave": "nacionales:9e0c09454f9048c5|x",
-   "cuando": "2026-10-20T01:00:26.000Z",
-   "dueAt": "2026-10-20T01:03:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:4399eb58559e6a51|x",
-   "cuando": "2026-10-20T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:4399eb58559e6a51|tiktok",
-   "cuando": "2026-10-20T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x",
-   "cuando": "2026-10-20T01:20:17.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
-   "cuando": "2026-10-20T01:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "clave": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x",
    "cuando": "2026-10-20T01:20:17.000Z",
@@ -43816,6 +43543,37 @@
    "cuando": "2026-10-23T11:20:14.000Z",
    "dueAt": "2026-10-23T12:37:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x",
+   "cuando": "2026-10-23T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113591956819362262"
+  },
+  {
+   "clave": "web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x",
+   "cuando": "2026-10-23T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113580569825034694"
+  },
+  {
+   "clave": "web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x",
+   "cuando": "2026-10-23T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113588056720613484"
+  },
+  {
+   "clave": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x",
+   "cuando": "2026-10-23T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113595545675497547"
+  },
+  {
+   "buffer_id": "6adb47a07af88b8f19af6e2c",
+   "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
+   "cuando": "2026-10-23T11:40:16.000Z",
+   "dueAt": "2026-10-23T12:52:25.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43834,7 +43592,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T10:20:42.000Z",
+ "ultima_sync": "2026-10-23T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
