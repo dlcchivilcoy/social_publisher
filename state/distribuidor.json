@@ -10454,6 +10454,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/informacion-a-la-comunidad-la-direccion-de-genero-puso-en-marcha-una",
    "volanta": ""
   },
+  "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": {
+   "categoria": "",
+   "descripcion": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad Matías Zucchi.",
+   "generado": "2026-10-23T12:57:59.440Z",
+   "id": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e57f9cf089004844af48cad2eddf4826~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
+   "volanta": "Chivilcoy · Sociedad"
+  },
   "web:85b0f263-df46-4783-b4dd-311f977e50c9": {
    "categoria": "nacionales",
    "descripcion": "La expresidenta recibió a Sergio Massa en su domicilio de San José 1111 y evaluaron el escenario electoral. Crece el distanciamiento con Axel Kicillof y…",
@@ -13707,17 +13726,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 234,
-   "segundos": 42007,
+   "restantes": 233,
+   "segundos": 40804,
    "tope": 250
   },
   "30d": {
-   "restantes": 2213,
-   "segundos": 1585821,
+   "restantes": 2212,
+   "segundos": 1584618,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T12:40:19.000Z",
+ "cuota_visto": "2026-10-23T13:00:28.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16500,7 +16519,7 @@
    "creado": "2026-10-22T22:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T22:20:46.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
@@ -16558,15 +16577,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok": {
-   "actualizado": "2026-10-23T02:00:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T13:00:21.000Z",
+   "buffer_id": "6adb5a687c3aac797e8115f2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok",
    "creado": "2026-10-23T02:00:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T13:03:39.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T01:46:10.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc",
    "intentos": 0,
@@ -18472,7 +18491,7 @@
    "creado": "2026-10-22T00:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T00:12:48.000Z",
    "id": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4",
@@ -18613,7 +18632,7 @@
    "creado": "2026-10-22T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T13:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
@@ -18678,7 +18697,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T14:04:12.000Z",
    "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
@@ -18743,7 +18762,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T14:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
@@ -18808,7 +18827,7 @@
    "creado": "2026-10-22T15:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T15:16:22.000Z",
    "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
@@ -19006,15 +19025,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok": {
-   "actualizado": "2026-10-23T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T13:00:21.000Z",
+   "buffer_id": "6adb5a6997d61d392147ab0b",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
    "creado": "2026-10-23T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T13:23:44.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T00:20:30.000Z",
    "id": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4",
    "intentos": 0,
@@ -21046,15 +21065,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_43c8370253_toques-de-queda-localizados-en-francia-tras.mp4"
   },
   "nacionales:47f4536459d66a4a|tiktok": {
-   "actualizado": "2026-10-23T01:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T13:00:21.000Z",
+   "buffer_id": "6adb5a6bcc96832878a35a83",
    "categoria": "",
    "clave": "nacionales:47f4536459d66a4a|tiktok",
    "creado": "2026-10-23T01:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T13:43:16.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T00:45:50.000Z",
    "id": "nacionales:47f4536459d66a4a",
    "intentos": 0,
@@ -25495,7 +25514,7 @@
    "creado": "2026-10-23T02:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-23T02:01:39.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html",
@@ -26252,7 +26271,7 @@
    "creado": "2026-10-23T01:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-23T01:32:04.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html",
@@ -26444,7 +26463,7 @@
    "creado": "2026-10-23T01:00:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 4 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-23T00:42:04.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html",
@@ -28161,7 +28180,7 @@
    "creado": "2026-10-23T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "intercalado: quedaría pegado a otro policial; va en otra tanda",
    "estado": "pendiente",
    "generado": "2026-10-23T00:00:55.000Z",
    "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
@@ -34061,6 +34080,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x": {
+   "actualizado": "2026-10-23T13:00:21.000Z",
+   "buffer_id": "6adb5a6797d61d392147a841",
+   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
+   "creado": "2026-10-23T13:00:20.000Z",
+   "dueAt": "2026-10-23T13:37:01.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T12:57:59.440Z",
+   "id": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
+   "noticia": "nota:chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad\n\nMatías Zucchi.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad",
+   "urgente": false,
+   "vence": "2026-10-23T16:57:59.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:85b0f263-df46-4783-b4dd-311f977e50c9|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad76a91029e8e5ef9920a24",
@@ -39062,36 +39109,6 @@
  },
  "registro": [
   {
-   "clave": "web:594e84e0-bc01-4c60-a132-6a7f872182e0|x",
-   "cuando": "2026-10-20T01:40:18.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:82d9c768-a466-49ff-882d-09e27a21796f|x",
-   "cuando": "2026-10-20T01:40:18.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "nacionales:42bad0f0b5785838|x",
-   "cuando": "2026-10-20T01:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112338964770173167"
-  },
-  {
-   "clave": "nacionales:4399eb58559e6a51|x",
-   "cuando": "2026-10-20T01:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112353944265494811"
-  },
-  {
-   "clave": "nacionales:632442afcb23e9fb|tiktok",
-   "cuando": "2026-10-20T01:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698538640070298881"
-  },
-  {
    "clave": "nacionales:9e0c09454f9048c5|x",
    "cuando": "2026-10-20T01:40:18.000Z",
    "evento": "enviado",
@@ -43174,6 +43191,42 @@
    "cuando": "2026-10-23T12:40:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113610705672765835"
+  },
+  {
+   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
+   "cuando": "2026-10-23T13:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adb5a6797d61d392147a841",
+   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
+   "cuando": "2026-10-23T13:00:28.000Z",
+   "dueAt": "2026-10-23T13:37:01.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb5a687c3aac797e8115f2",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok",
+   "cuando": "2026-10-23T13:00:28.000Z",
+   "dueAt": "2026-10-23T13:03:39.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb5a6997d61d392147ab0b",
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
+   "cuando": "2026-10-23T13:00:28.000Z",
+   "dueAt": "2026-10-23T13:23:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb5a6bcc96832878a35a83",
+   "clave": "nacionales:47f4536459d66a4a|tiktok",
+   "cuando": "2026-10-23T13:00:28.000Z",
+   "dueAt": "2026-10-23T13:43:16.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43188,7 +43241,8 @@
    "2026-10-21 21",
    "2026-10-22 10",
    "2026-10-22 18",
-   "2026-10-22 21"
+   "2026-10-22 21",
+   "2026-10-23 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
@@ -43727,6 +43781,7 @@
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
+  "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": "2026-10-23T13:00:20.000Z",
   "web:85b0f263-df46-4783-b4dd-311f977e50c9": "2026-10-19T14:00:19.000Z",
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": "2026-10-21T10:20:15.000Z",
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",

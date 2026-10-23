@@ -1,17 +1,17 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 2 | 0 | 0 | 0 | 1 |
+| Notas web | X | 15 | 9 | 3 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nacionales y categorías | TikTok | 5 | 0 | 1 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 27 enviadas + 1 programadas de 100 por día
@@ -28,22 +28,19 @@ Actualizado: 23/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2213 de 3000 (visto 2026-10-23T12:40:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2212 de 3000 (visto 2026-10-23T13:00:28.000Z)
 
-## Cola propia (13 esperando)
-- TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Chivilcoy sumó nueve medallas en diversas disciplinas deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientiza — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Nacionales y categorías · ANSES: montos, jubilaciones y quiénes cobran este jueves 22 de octubre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (10 esperando)
+- TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — intercalado: quedaría pegado a otro policial; va en otra tanda
+- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels policiales · Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels policiales · Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5 — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — no entró entre las 4 más virales de la tanda 10 h
+- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — no entró entre las 4 más virales de la tanda 10 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -52,11 +49,6 @@ Actualizado: 23/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T10:03 programado web:1df540af-0585-4bf5-9430-5b0234724aff|x 
-- 2026-10-23T10:03 programado web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x 
-- 2026-10-23T10:03 programado web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x 
-- 2026-10-23T10:03 programado web:1deb9aa6-a333-4510-9fa6-def9de7621af|x 
-- 2026-10-23T10:20 recibido web:92c264ae-78ff-431e-bebc-0875504ae30a|x 
 - 2026-10-23T10:20 recibido web:b9460b4c-9981-4efd-a82e-33108e7090de|x 
 - 2026-10-23T10:20 recibido web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x 
 - 2026-10-23T10:20 recibido web:dd86062e-10d5-470e-a60e-27533841a020|x 
@@ -77,3 +69,8 @@ Actualizado: 23/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-23T12:40 enviado web:815f1320-b368-407e-9e43-21cf0ad1b815|x 
 - 2026-10-23T12:40 enviado web:ce117f38-054b-4f6b-92d7-4743edb8711b|x 
 - 2026-10-23T12:40 enviado web:dd86062e-10d5-470e-a60e-27533841a020|x 
+- 2026-10-23T13:00 recibido web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x 
+- 2026-10-23T13:00 programado web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x 
+- 2026-10-23T13:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tikto 
+- 2026-10-23T13:00 programado bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok 
+- 2026-10-23T13:00 programado nacionales:47f4536459d66a4a|tiktok 
