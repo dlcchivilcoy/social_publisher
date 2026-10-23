@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 23/10/2026 18:40 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 1 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 2 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
@@ -52,10 +52,6 @@ Actualizado: 23/10/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T19:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tikto 
-- 2026-10-23T19:00 recibido web:07ef819a-940d-48e5-aee9-922cce690ab8|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T19:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-23T19:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x 
 - 2026-10-23T19:20 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x 
 - 2026-10-23T19:40 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x 
 - 2026-10-23T19:40 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tikto 
@@ -77,3 +73,7 @@ Actualizado: 23/10/2026 18:40 (hora AR) · ACTIVO
 - 2026-10-23T21:20 depurado nacionales:5de2902aa9f0dc53|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
 - 2026-10-23T21:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tikto 
 - 2026-10-23T21:40 enviado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok 
+- 2026-10-23T22:00 recibido nacionales:0f149db2f4d13c80|x 
+- 2026-10-23T22:00 recibido nacionales:0f149db2f4d13c80|tiktok 
+- 2026-10-23T22:00 depurado nacionales:0f149db2f4d13c80|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-23T22:00 depurado nacionales:0f149db2f4d13c80|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)

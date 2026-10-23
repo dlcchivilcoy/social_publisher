@@ -2767,6 +2767,33 @@
    "volanta": "Día de la Madre",
    "youtube_url": "https://youtube.com/shorts/NpqDZJcQEwI"
   },
+  "nacionales:0f149db2f4d13c80": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "El Banco Ciudad bajó al 7,5% la tasa fija en UVA para créditos destinados a la mudanza a propiedades más grandes. Financia hasta el 25 años y un tope de 200 millones de pesos.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T21:45:53.000Z",
+   "hashtags": [
+    "BancoCiudad",
+    "CreditosHipotecarios"
+   ],
+   "id": "nacionales:0f149db2f4d13c80",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-ciudad-lanzo-nuevos-creditos-hipotecarios-tasas-montos-y-0f149d",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "tipo": "video",
+   "titulo": "Banco Ciudad bajó la tasa de sus hipotecarios para compra y venta simultánea",
+   "urgente": false,
+   "video_bytes": 93767,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0f149db2f4_banco-ciudad-bajo-la-tasa-de-sus-hipotecarios.mp4",
+   "volanta": "Créditos hipotecarios",
+   "youtube_url": "https://youtube.com/shorts/NdYh5vxrZFw"
+  },
   "nacionales:0ffb2e8d26094748": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -20793,6 +20820,60 @@
    "vence": "2026-10-19T22:07:09.000Z",
    "video_bytes": 84790,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0d6b3d4ada_famosos-en-las-redes-mensajes-y-dedicatorias-por.mp4"
+  },
+  "nacionales:0f149db2f4d13c80|tiktok": {
+   "actualizado": "2026-10-23T22:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:0f149db2f4d13c80|tiktok",
+   "creado": "2026-10-23T22:00:20.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-23T21:45:53.000Z",
+   "id": "nacionales:0f149db2f4d13c80",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-ciudad-lanzo-nuevos-creditos-hipotecarios-tasas-montos-y-0f149d",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 8,
+   "texto": "Banco Ciudad bajó la tasa de sus hipotecarios para compra y venta simultánea\n\nEl Banco Ciudad bajó al 7,5% la tasa fija en UVA para créditos destinados a la mudanza a propiedades más grandes. Financia hasta el 25 años y un tope de 200 millones de pesos.\n\nhttps://www.diariolacampaña.com.ar/n/banco-ciudad-lanzo-nuevos-creditos-hipotecarios-tasas-montos-y-0f149d\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #BancoCiudad",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Banco Ciudad bajó la tasa de sus hipotecarios para compra y venta simultánea",
+   "urgente": false,
+   "vence": "2026-10-24T15:45:53.000Z",
+   "video_bytes": 93767,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0f149db2f4_banco-ciudad-bajo-la-tasa-de-sus-hipotecarios.mp4",
+   "viral": false
+  },
+  "nacionales:0f149db2f4d13c80|x": {
+   "actualizado": "2026-10-23T22:00:21.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:0f149db2f4d13c80|x",
+   "creado": "2026-10-23T22:00:20.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-23T21:45:53.000Z",
+   "id": "nacionales:0f149db2f4d13c80",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/banco-ciudad-lanzo-nuevos-creditos-hipotecarios-tasas-montos-y-0f149d",
+   "noticia": "nota:banco-ciudad-lanzo-nuevos-creditos-hipotecarios-tasas-montos-y-0f149d",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Banco Ciudad bajó la tasa de sus hipotecarios para compra y venta simultánea\n\nEl Banco Ciudad bajó al 7,5% la tasa fija en UVA para créditos destinados a la mudanza a propiedades más grandes. Financia hasta el 25 años y un tope de 200 millones de pesos.\n\nhttps://www.diariolacampaña.com.ar/n/banco-ciudad-lanzo-nuevos-creditos-hipotecarios-tasas-montos-y-0f149d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Banco Ciudad bajó la tasa de sus hipotecarios para compra y venta simultánea",
+   "urgente": false,
+   "vence": "2026-10-23T23:45:53.000Z",
+   "video_bytes": 93767,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0f149db2f4_banco-ciudad-bajo-la-tasa-de-sus-hipotecarios.mp4",
+   "viral": false
   },
   "nacionales:0ffb2e8d26094748|tiktok": {
    "actualizado": "2026-10-19T16:00:17.000Z",
@@ -38896,36 +38977,6 @@
  },
  "registro": [
   {
-   "clave": "web:fe8f1548-d224-494b-8549-4bd21362e5b3|x",
-   "cuando": "2026-10-20T12:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:fe8f1548-d224-494b-8549-4bd21362e5b3|x",
-   "cuando": "2026-10-20T12:40:15.000Z",
-   "evento": "reemplazada",
-   "motivo": "reemplazada por el reel de la misma noticia (bot)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|x",
-   "cuando": "2026-10-20T12:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok",
-   "cuando": "2026-10-20T12:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x",
    "cuando": "2026-10-20T13:00:18.000Z",
    "evento": "vencido",
@@ -43044,6 +43095,34 @@
    "cuando": "2026-10-23T21:40:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7699972055248178453"
+  },
+  {
+   "clave": "nacionales:0f149db2f4d13c80|x",
+   "cuando": "2026-10-23T22:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:0f149db2f4d13c80|tiktok",
+   "cuando": "2026-10-23T22:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:0f149db2f4d13c80|x",
+   "cuando": "2026-10-23T22:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:0f149db2f4d13c80|tiktok",
+   "cuando": "2026-10-23T22:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -43212,6 +43291,7 @@
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
   "nacionales:0d6b3d4ada951c07": "2026-10-19T09:00:17.000Z",
+  "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:0ffb2e8d26094748": "2026-10-19T00:20:16.000Z",
   "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
   "nacionales:1bc3bff36ba5e828": "2026-10-23T00:20:14.000Z",
