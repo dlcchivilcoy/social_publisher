@@ -13959,17 +13959,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 49212,
+   "restantes": 239,
+   "segundos": 48008,
    "tope": 250
   },
   "30d": {
-   "restantes": 2219,
-   "segundos": 1593026,
+   "restantes": 2218,
+   "segundos": 1591823,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T10:40:15.000Z",
+ "cuota_visto": "2026-10-23T11:00:18.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -35231,14 +35231,14 @@
    "video_url": ""
   },
   "web:92c264ae-78ff-431e-bebc-0875504ae30a|x": {
-   "actualizado": "2026-10-23T10:20:15.000Z",
+   "actualizado": "2026-10-23T11:00:17.000Z",
    "buffer_id": "",
    "clave": "web:92c264ae-78ff-431e-bebc-0875504ae30a|x",
    "creado": "2026-10-23T10:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-23T10:03:21.453Z",
    "id": "web:92c264ae-78ff-431e-bebc-0875504ae30a",
    "intentos": 0,
@@ -37748,14 +37748,14 @@
    "video_url": ""
   },
   "web:ce117f38-054b-4f6b-92d7-4743edb8711b|x": {
-   "actualizado": "2026-10-23T10:02:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T11:00:17.000Z",
+   "buffer_id": "6adb3e42fe8ae6dfd456a127",
    "clave": "web:ce117f38-054b-4f6b-92d7-4743edb8711b|x",
    "creado": "2026-10-23T10:02:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T12:22:36.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:02:47.125Z",
    "id": "web:ce117f38-054b-4f6b-92d7-4743edb8711b",
    "ig_hora": "2026-10-23T12:22:37.000Z",
@@ -39691,22 +39691,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:9e0c09454f9048c5|tiktok",
-   "cuando": "2026-10-20T01:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:2412c923-bb37-4065-b81b-1dac0777e220|x",
-   "cuando": "2026-10-20T01:00:25.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
-   "origen": "web"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok",
    "cuando": "2026-10-20T01:00:25.000Z",
@@ -43817,6 +43801,19 @@
    "clave": "web:1666fae3-dd89-410f-b67f-9206fc69affb|x",
    "cuando": "2026-10-23T10:40:15.000Z",
    "dueAt": "2026-10-23T12:07:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "web:92c264ae-78ff-431e-bebc-0875504ae30a|x",
+   "cuando": "2026-10-23T11:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "buffer_id": "6adb3e42fe8ae6dfd456a127",
+   "clave": "web:ce117f38-054b-4f6b-92d7-4743edb8711b|x",
+   "cuando": "2026-10-23T11:00:18.000Z",
+   "dueAt": "2026-10-23T12:22:36.000Z",
    "evento": "programado"
   }
  ],

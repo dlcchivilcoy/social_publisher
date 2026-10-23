@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 23/10/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 6 | 5 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 3 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,15 +28,13 @@ Actualizado: 23/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2219 de 3000 (visto 2026-10-23T10:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2218 de 3000 (visto 2026-10-23T11:00:18.000Z)
 
-## Cola propia (18 esperando)
+## Cola propia (16 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Centro de Jubilados Jo.T.A. — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Rally de Chivilcoy: el recorrido y los horarios de la penúltima fecha de la temp — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Chivilcoy sumó nueve medallas en diversas disciplinas deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientiza — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -57,8 +55,6 @@ Actualizado: 23/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq 
-- 2026-10-23T02:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|x 
 - 2026-10-23T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a 
 - 2026-10-23T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-r espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -82,3 +78,5 @@ Actualizado: 23/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-23T10:20 programado web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x 
 - 2026-10-23T10:40 programado web:815f1320-b368-407e-9e43-21cf0ad1b815|x 
 - 2026-10-23T10:40 programado web:1666fae3-dd89-410f-b67f-9206fc69affb|x 
+- 2026-10-23T11:00 depurado web:92c264ae-78ff-431e-bebc-0875504ae30a|x no está en el carrusel del diario de hoy
+- 2026-10-23T11:00 programado web:ce117f38-054b-4f6b-92d7-4743edb8711b|x 
