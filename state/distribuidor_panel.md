@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 22/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | X | 10 | 8 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 5 | 5 | 0 | 6 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 3 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 11 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 4 |
-| Nacionales y categorías | TikTok | 5 | 0 | 0 | 1 | 0 | 0 | 3 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 5 |
+| Nacionales y categorías | TikTok | 5 | 0 | 0 | 1 | 0 | 0 | 4 |
 
 ## Canales
-- X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 22/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2227 de 3000 (visto 2026-10-23T00:40:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2226 de 3000 (visto 2026-10-23T01:20:28.000Z)
 
 ## Cola propia (12 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,8 +40,8 @@ Actualizado: 22/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Cayó un joven de 19 años tras robar una moto bajo la modalidad de falsa compra e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Jóvenes escaparon y abandonaron una moto tras ver a inspectores municipales — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -51,12 +51,6 @@ Actualizado: 22/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-22T22:40 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x 
-- 2026-10-22T22:40 recibido bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tikto 
-- 2026-10-22T22:40 programado bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x 
-- 2026-10-22T23:20 enviado bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x 
-- 2026-10-22T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34694 
-- 2026-10-22T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34694 
 - 2026-10-23T00:00 programado policiales:https://www.diariodemocracia.com/policiales/34694 
 - 2026-10-23T00:20 recibido policiales:https://www.lamanana.com.ar/alerta-naranja-y-amar 
 - 2026-10-23T00:20 recibido policiales:https://www.lamanana.com.ar/alerta-naranja-y-amar 
@@ -76,3 +70,9 @@ Actualizado: 22/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-23T01:00 recibido nacionales:47f4536459d66a4a|x 
 - 2026-10-23T01:00 recibido nacionales:47f4536459d66a4a|tiktok 
 - 2026-10-23T01:00 depurado nacionales:47f4536459d66a4a|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-23T01:20 recibido nacionales:f8740af29dcd48f9|x 
+- 2026-10-23T01:20 recibido nacionales:f8740af29dcd48f9|tiktok 
+- 2026-10-23T01:20 depurado nacionales:f8740af29dcd48f9|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-23T01:20 depurado nacionales:f8740af29dcd48f9|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-23T01:20 enviado bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x 
+- 2026-10-23T01:20 enviado policiales:https://www.lamanana.com.ar/alerta-naranja-y-amar 

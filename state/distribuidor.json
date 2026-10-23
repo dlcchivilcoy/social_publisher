@@ -15,7 +15,7 @@
     "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-23T00:20:25.000Z"
+   "visto": "2026-10-23T01:20:27.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 29
+    "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-23T00:20:25.000Z"
+   "visto": "2026-10-23T01:20:27.000Z"
   }
  },
  "contenidos": {
@@ -4611,6 +4611,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f370b43343_quien-es-la-influencer-que-muestra-su-vida-rural.mp4",
    "volanta": "Coty Granjera",
    "youtube_url": "https://youtube.com/shorts/ReL0VFzh6i0"
+  },
+  "nacionales:f8740af29dcd48f9": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "La Conferencia Episcopal comenzó a enviar convocatorias para el encuentro sindical del 9 de noviembre en la UCA. Pese a las señales positivas tras la operación del Sumo Pontífice, anticipan modificaciones en la agenda local.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T01:16:04.000Z",
+   "hashtags": [
+    "CGT",
+    "PapaLeonXIV"
+   ],
+   "id": "nacionales:f8740af29dcd48f9",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-la-cgt-recibio-invitaciones-y-preven-f8740a",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "La CGT recibió invitaciones para ver al Papa pero evalúan posibles cambios",
+   "urgente": false,
+   "video_bytes": 85988,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
+   "volanta": "Visita papal",
+   "youtube_url": "https://youtube.com/shorts/2hV-5DWkXog"
   },
   "nacionales:f8cbb878e65900d1": {
    "categoria": "Deportes",
@@ -13678,17 +13705,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 85203,
+   "restantes": 247,
+   "segundos": 82798,
    "tope": 250
   },
   "30d": {
-   "restantes": 2227,
-   "segundos": 1629018,
+   "restantes": 2226,
+   "segundos": 1626613,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T00:40:23.000Z",
+ "cuota_visto": "2026-10-23T01:20:28.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18834,18 +18861,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x": {
-   "actualizado": "2026-10-23T00:40:22.000Z",
+   "actualizado": "2026-10-23T01:20:27.000Z",
    "buffer_id": "6adaacf7cc1b7cdc08c29f71",
    "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x",
    "creado": "2026-10-23T00:40:14.000Z",
    "dueAt": "2026-10-23T00:42:30.000Z",
+   "enviado": "2026-10-23T00:42:36.604Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T00:20:30.000Z",
    "id": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113430855901126842",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
    "noticia": "nota:chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
    "origen": "bot",
@@ -22818,6 +22846,60 @@
    "vence": "2026-10-20T09:05:26.000Z",
    "video_bytes": 6717964,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f370b43343_quien-es-la-influencer-que-muestra-su-vida-rural.mp4"
+  },
+  "nacionales:f8740af29dcd48f9|tiktok": {
+   "actualizado": "2026-10-23T01:20:27.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:f8740af29dcd48f9|tiktok",
+   "creado": "2026-10-23T01:20:18.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-23T01:16:04.000Z",
+   "id": "nacionales:f8740af29dcd48f9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-la-cgt-recibio-invitaciones-y-preven-f8740a",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "La CGT recibió invitaciones para ver al Papa pero evalúan posibles cambios\n\nLa Conferencia Episcopal comenzó a enviar convocatorias para el encuentro sindical del 9 de noviembre en la UCA. Pese a las señales positivas tras la operación del Sumo Pontífice, anticipan modificaciones en la agenda local.\n\nhttps://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-la-cgt-recibio-invitaciones-y-preven-f8740a\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #CGT",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La CGT recibió invitaciones para ver al Papa pero evalúan posibles cambios",
+   "urgente": false,
+   "vence": "2026-10-23T19:16:04.000Z",
+   "video_bytes": 85988,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
+   "viral": false
+  },
+  "nacionales:f8740af29dcd48f9|x": {
+   "actualizado": "2026-10-23T01:20:27.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:f8740af29dcd48f9|x",
+   "creado": "2026-10-23T01:20:18.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-23T01:16:04.000Z",
+   "id": "nacionales:f8740af29dcd48f9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-la-cgt-recibio-invitaciones-y-preven-f8740a",
+   "noticia": "nota:visita-del-papa-leon-xiv-la-cgt-recibio-invitaciones-y-preven-f8740a",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "La CGT recibió invitaciones para ver al Papa pero evalúan posibles cambios\n\nLa Conferencia Episcopal comenzó a enviar convocatorias para el encuentro sindical del 9 de noviembre en la UCA.\n\nhttps://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-la-cgt-recibio-invitaciones-y-preven-f8740a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La CGT recibió invitaciones para ver al Papa pero evalúan posibles cambios",
+   "urgente": false,
+   "vence": "2026-10-23T03:16:04.000Z",
+   "video_bytes": 85988,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
+   "viral": false
   },
   "nacionales:f8cbb878e65900d1|tiktok": {
    "actualizado": "2026-10-19T15:00:47.000Z",
@@ -27231,32 +27313,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_01_chacabuco_cay-un-joven-de-19-a-os-tras-r.mp4",
    "viral": false
   },
-  "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|tiktok": {
-   "actualizado": "2026-10-13T01:20:19.000Z",
-   "buffer_id": "6acd82a5aec88be081ed01f4",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|tiktok",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T01:03:53.000Z",
-   "enviado": "2026-10-13T01:04:43.639Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:49.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7695951909588372757",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-31-anos-por-amenazar-a-su-153da2",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Un operativo policial culminó con la aprehensión de un hombre de 31 años en la localidad de Junín.\n\nLa investigación se inició el Lunes, 12 de Octubre del 2026 a las 19:03 hs, a raíz de la denuncia de una joven de 26 años.\n\nEl sospechoso se presentó en su vivienda de calles Battilana y Bolivia, donde la intimidó verbalmente y le mostró un arma de fuego.\n\nTras un allanamiento en Bolivia al 1200, los efectivos secuestraron una motocicleta Mondial Max 110 cc gris y detuvieron al acusado.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Junín: aprehendieron a un hombre de 31 años tras amenazar a su expareja con un arma",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:49.000Z",
-   "video_bytes": 89877,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
-  },
   "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x": {
    "actualizado": "2026-10-13T10:20:19.000Z",
    "buffer_id": "6acdf3265167b5c45eb291e5",
@@ -27928,18 +27984,19 @@
    "viral": true
   },
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x": {
-   "actualizado": "2026-10-23T00:40:22.000Z",
+   "actualizado": "2026-10-23T01:20:27.000Z",
    "buffer_id": "6adaacf7535235087b73913e",
    "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
    "creado": "2026-10-23T00:20:14.000Z",
    "dueAt": "2026-10-23T00:48:07.000Z",
+   "enviado": "2026-10-23T00:48:18.400Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T00:00:55.000Z",
    "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113432289405292547",
    "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
    "noticia": "nota:25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
    "origen": "policiales",
@@ -38671,47 +38728,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:b4cf751f44529f62|tiktok",
-   "cuando": "2026-10-19T23:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
-   "cuando": "2026-10-19T23:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
-   "cuando": "2026-10-19T23:20:22.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "buffer_id": "6ad6a5b7cba41b01404fc8bb",
-   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x",
-   "cuando": "2026-10-19T23:20:24.000Z",
-   "dueAt": "2026-10-19T23:23:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|x",
-   "cuando": "2026-10-19T23:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4|tiktok",
-   "cuando": "2026-10-19T23:40:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x",
    "cuando": "2026-10-19T23:40:28.000Z",
    "estado": "pendiente",
@@ -42776,6 +42792,46 @@
    "cuando": "2026-10-23T01:00:32.000Z",
    "evento": "depurado",
    "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:f8740af29dcd48f9|x",
+   "cuando": "2026-10-23T01:20:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:f8740af29dcd48f9|tiktok",
+   "cuando": "2026-10-23T01:20:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:f8740af29dcd48f9|x",
+   "cuando": "2026-10-23T01:20:27.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:f8740af29dcd48f9|tiktok",
+   "cuando": "2026-10-23T01:20:27.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x",
+   "cuando": "2026-10-23T01:20:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113430855901126842"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
+   "cuando": "2026-10-23T01:20:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113432289405292547"
   }
  ],
  "tandas": {
@@ -42794,7 +42850,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T00:20:25.000Z",
+ "ultima_sync": "2026-10-23T01:20:27.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43004,6 +43060,7 @@
   "nacionales:eba0c0c1b9408496": "2026-10-19T09:00:17.000Z",
   "nacionales:ef9d9f6be8029c31": "2026-10-19T00:20:16.000Z",
   "nacionales:f370b43343c04756": "2026-10-19T15:20:16.000Z",
+  "nacionales:f8740af29dcd48f9": "2026-10-23T01:20:18.000Z",
   "nacionales:f8cbb878e65900d1": "2026-10-19T09:00:17.000Z",
   "nacionales:fb8bbb9c2285b74b": "2026-10-20T21:20:16.000Z",
   "nacionales:fbd1321e4156d9c7": "2026-10-18T17:20:13.000Z",
