@@ -4790,6 +4790,33 @@
    "volanta": "Armado libertario",
    "youtube_url": "https://youtube.com/shorts/Fvr38U7Sw5Q"
   },
+  "nacionales:f1cea0fec08ce954": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "La administración libertaria restó trascendencia a los reparos planteados por enviados de Washington sobre el proyecto oficial. Participaron del encuentro Adrián Ravier, María Ibarzábal Murphy y Santiago Caputo, mientras el debate legislativo sigue demorado.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T22:15:53.000Z",
+   "hashtags": [
+    "Malvinas",
+    "Politica"
+   ],
+   "id": "nacionales:f1cea0fec08ce954",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "tipo": "video",
+   "titulo": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas",
+   "urgente": false,
+   "video_bytes": 88736,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f1cea0fec0_el-gobierno-minimizo-las-dudas-de-ee-uu-sobre-la.mp4",
+   "volanta": "Ley de Malvinas",
+   "youtube_url": "https://youtube.com/shorts/h45_Lvn0Kj8"
+  },
   "nacionales:f370b43343c04756": {
    "categoria": "Virales",
    "categoria_nacional": "virales",
@@ -23507,6 +23534,60 @@
    "video_bytes": 101390,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ef9d9f6be8_la-libertad-avanza-acelera-su-armado-juvenil-en.mp4"
   },
+  "nacionales:f1cea0fec08ce954|tiktok": {
+   "actualizado": "2026-10-23T22:20:23.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:f1cea0fec08ce954|tiktok",
+   "creado": "2026-10-23T22:20:15.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-23T22:15:53.000Z",
+   "id": "nacionales:f1cea0fec08ce954",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas\n\nLa administración libertaria restó trascendencia a los reparos planteados por enviados de Washington sobre el proyecto oficial. Participaron del encuentro Adrián Ravier, María Ibarzábal Murphy y Santiago Caputo, mientras el debate legislativo sigue demorado.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas",
+   "urgente": false,
+   "vence": "2026-10-24T16:15:53.000Z",
+   "video_bytes": 88736,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f1cea0fec0_el-gobierno-minimizo-las-dudas-de-ee-uu-sobre-la.mp4",
+   "viral": false
+  },
+  "nacionales:f1cea0fec08ce954|x": {
+   "actualizado": "2026-10-23T22:20:23.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:f1cea0fec08ce954|x",
+   "creado": "2026-10-23T22:20:15.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-23T22:15:53.000Z",
+   "id": "nacionales:f1cea0fec08ce954",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
+   "noticia": "nota:el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas\n\nLa administración libertaria restó trascendencia a los reparos planteados por enviados de Washington sobre el proyecto oficial.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas",
+   "urgente": false,
+   "vence": "2026-10-24T00:15:53.000Z",
+   "video_bytes": 88736,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f1cea0fec0_el-gobierno-minimizo-las-dudas-de-ee-uu-sobre-la.mp4",
+   "viral": false
+  },
   "nacionales:f370b43343c04756|tiktok": {
    "actualizado": "2026-10-20T09:20:15.000Z",
    "buffer_id": "",
@@ -38977,33 +39058,6 @@
  },
  "registro": [
   {
-   "clave": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x",
-   "cuando": "2026-10-20T13:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "los últimos 6 lugares de las 24 h quedan para los reels virales"
-  },
-  {
-   "buffer_id": "6ad765e5029e8e5ef990797d",
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|tiktok",
-   "cuando": "2026-10-20T13:00:24.000Z",
-   "dueAt": "2026-10-20T13:03:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad765e7fcb5599ad939f64a",
-   "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok",
-   "cuando": "2026-10-20T13:00:24.000Z",
-   "dueAt": "2026-10-20T13:23:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad765e8fcb5599ad939f74e",
-   "clave": "nacionales:7473fc970bead57a|tiktok",
-   "cuando": "2026-10-20T13:00:24.000Z",
-   "dueAt": "2026-10-20T13:43:30.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:5c389835-1655-4415-b7ad-23045aa7c3ca|x",
    "cuando": "2026-10-20T13:20:15.000Z",
    "evento": "vencido",
@@ -43123,6 +43177,34 @@
    "cuando": "2026-10-23T22:00:21.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "nacionales:f1cea0fec08ce954|x",
+   "cuando": "2026-10-23T22:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:f1cea0fec08ce954|tiktok",
+   "cuando": "2026-10-23T22:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:f1cea0fec08ce954|x",
+   "cuando": "2026-10-23T22:20:23.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:f1cea0fec08ce954|tiktok",
+   "cuando": "2026-10-23T22:20:23.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -43368,6 +43450,7 @@
   "nacionales:eb29261c90f4bdfa": "2026-10-19T00:20:16.000Z",
   "nacionales:eba0c0c1b9408496": "2026-10-19T09:00:17.000Z",
   "nacionales:ef9d9f6be8029c31": "2026-10-19T00:20:16.000Z",
+  "nacionales:f1cea0fec08ce954": "2026-10-23T22:20:15.000Z",
   "nacionales:f370b43343c04756": "2026-10-19T15:20:16.000Z",
   "nacionales:f8740af29dcd48f9": "2026-10-23T01:20:18.000Z",
   "nacionales:f8cbb878e65900d1": "2026-10-19T09:00:17.000Z",
