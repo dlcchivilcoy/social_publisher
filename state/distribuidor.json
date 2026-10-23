@@ -13870,22 +13870,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 45610,
+   "restantes": 235,
+   "segundos": 44407,
    "tope": 250
   },
   "30d": {
-   "restantes": 2215,
-   "segundos": 1589424,
+   "restantes": 2214,
+   "segundos": 1588222,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T11:40:16.000Z",
+ "cuota_visto": "2026-10-23T12:00:19.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -36653,14 +36653,14 @@
    "video_url": ""
   },
   "web:b9460b4c-9981-4efd-a82e-33108e7090de|x": {
-   "actualizado": "2026-10-23T10:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T12:00:18.000Z",
+   "buffer_id": "6adb4c5297d61d3921437f3f",
    "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
    "creado": "2026-10-23T10:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T13:22:42.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:03:15.460Z",
    "id": "web:b9460b4c-9981-4efd-a82e-33108e7090de",
    "ig_hora": "2026-10-23T13:22:37.000Z",
@@ -39455,12 +39455,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x",
-   "cuando": "2026-10-20T01:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
   {
    "buffer_id": "6ad6c1d2cba41b014055f739",
    "clave": "nacionales:4399eb58559e6a51|x",
@@ -43573,6 +43567,13 @@
    "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
    "cuando": "2026-10-23T11:40:16.000Z",
    "dueAt": "2026-10-23T12:52:25.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb4c5297d61d3921437f3f",
+   "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
+   "cuando": "2026-10-23T12:00:19.000Z",
+   "dueAt": "2026-10-23T13:22:42.000Z",
    "evento": "programado"
   }
  ],
