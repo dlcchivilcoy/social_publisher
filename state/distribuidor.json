@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 2
+    "scheduled": 0,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-23T13:40:28.000Z"
+   "visto": "2026-10-23T15:00:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,34 +24,13 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 29
+    "sent": 30
    },
    "pausado": false,
-   "visto": "2026-10-23T13:40:28.000Z"
+   "visto": "2026-10-23T15:00:18.000Z"
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz": {
-   "descripcion": "Una vecina de casi 80 años fue atacada por un pitbull en Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco. Según sus familiares, el perro circulaba suelto y sin bozal y atacó a la mujer y a su mascota.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-13T12:10:17.000Z",
-   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
-   "urgente": false,
-   "video_bytes": 737216,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/U7yb-ybO65I"
-  },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": {
    "descripcion": "Desconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde.",
    "duracion_seg": 30.0,
@@ -8588,24 +8567,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
    "volanta": ""
   },
-  "web:359c8325-07b4-4de6-9aca-1c26e7243c29": {
-   "categoria": "",
-   "descripcion": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior Con orgullo, emoción y la convicción de estar viviendo un momento histórico, el tenista de Chivilcoy Máximo Cataldi ya se encuentra instalado en San Pablo, Brasil, junto a su entrenador, Iván Jorge, para disputar el Australian Open Junior Series South America. El gran objetivo: quedarse con el título y la clasificación directa al cuadro principal del Australian Open Junior 2027. El certamen...",
-   "generado": "2026-10-13T10:06:49.714Z",
-   "id": "web:359c8325-07b4-4de6-9aca-1c26e7243c29",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6c33c81c31004ccf990be8aee6a0340f~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
-   "volanta": "Tenis"
-  },
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff": {
    "categoria": "",
    "descripcion": "Se realizó una nueva edición de Chivilcoy Ofrece en la plaza principal La Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa y de formación para el trabajo disponible en la ciudad, especialmente para estudiantes que transitan el último año de la escuela secundaria. La propuesta reunió a más de 20 instituciones educativas, organismos y representantes del sector productivo para acercar...",
@@ -13835,17 +13796,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 229,
-   "segundos": 37194,
+   "restantes": 228,
+   "segundos": 33608,
    "tope": 250
   },
   "30d": {
-   "restantes": 2208,
-   "segundos": 1581009,
+   "restantes": 2207,
+   "segundos": 1577423,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T14:00:32.000Z",
+ "cuota_visto": "2026-10-23T15:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -13862,32 +13823,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x": {
-   "actualizado": "2026-10-13T15:00:20.000Z",
-   "buffer_id": "6ace220476384aa24c2d70d1",
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz|x",
-   "creado": "2026-10-13T12:20:17.000Z",
-   "dueAt": "2026-10-13T14:00:35.000Z",
-   "enviado": "2026-10-13T14:04:41.250Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T12:10:17.000Z",
-   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110008826552365233",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Una vecina de casi 80 años fue atacada por un pitbull\n\nen Chivilcoy. El hecho ocurrió el sábado, alrededor de las 14, en avenida 22 de Octubre y Chacabuco.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-una-vecina-de-casi-80-anos-fue-atacada-por-un",
-   "tipo": "video",
-   "titulo": "Una vecina de casi 80 años fue atacada por un pitbull",
-   "urgente": false,
-   "vence": "2026-10-15T12:10:17.000Z",
-   "video_bytes": 737216,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_456a090867359ff3.mp4"
-  },
   "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok": {
    "actualizado": "2026-10-14T01:40:14.000Z",
    "buffer_id": "6aced8d1f847f2ad9eba1d7a",
@@ -16856,18 +16791,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x": {
-   "actualizado": "2026-10-23T13:40:28.000Z",
+   "actualizado": "2026-10-23T15:00:18.000Z",
    "buffer_id": "6adb63cd6fe59a6ed277c3e7",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
    "creado": "2026-10-23T13:40:14.000Z",
    "dueAt": "2026-10-23T13:42:34.000Z",
+   "enviado": "2026-10-23T13:42:53.536Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T13:24:16.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113627220602167753",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
    "noticia": "nota:chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
    "origen": "bot",
@@ -16912,18 +16848,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x": {
-   "actualizado": "2026-10-23T14:00:31.000Z",
+   "actualizado": "2026-10-23T15:00:18.000Z",
    "buffer_id": "6adb68806bf37011a37a5aa0",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
    "creado": "2026-10-23T14:00:23.000Z",
    "dueAt": "2026-10-23T14:02:35.000Z",
+   "enviado": "2026-10-23T14:05:45.930Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T13:51:39.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113632976642736375",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
    "noticia": "nota:chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
    "origen": "bot",
@@ -19425,18 +19362,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x": {
-   "actualizado": "2026-10-23T13:40:28.000Z",
+   "actualizado": "2026-10-23T15:00:18.000Z",
    "buffer_id": "6adb63ce10223fea5666ab2f",
    "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
    "creado": "2026-10-23T13:40:14.000Z",
    "dueAt": "2026-10-23T13:48:30.000Z",
+   "enviado": "2026-10-23T13:48:38.552Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T13:30:59.000Z",
    "id": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113628667397955896",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
    "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
    "origen": "bot",
@@ -21428,19 +21366,20 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_43c8370253_toques-de-queda-localizados-en-francia-tras.mp4"
   },
   "nacionales:47f4536459d66a4a|tiktok": {
-   "actualizado": "2026-10-23T13:00:21.000Z",
+   "actualizado": "2026-10-23T15:00:18.000Z",
    "buffer_id": "6adb5a6bcc96832878a35a83",
    "categoria": "",
    "clave": "nacionales:47f4536459d66a4a|tiktok",
    "creado": "2026-10-23T01:00:17.000Z",
    "dueAt": "2026-10-23T13:43:16.000Z",
+   "enviado": "2026-10-23T13:47:13.857Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T00:45:50.000Z",
    "id": "nacionales:47f4536459d66a4a",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699858126392118529",
    "nota_url": "https://www.diariolacampaña.com.ar/n/anses-jubilacion-minima-de-435-662-86-montos-y-quienes-cobran-47f453",
    "origen": "nacionales",
    "plataforma": "tiktok",
@@ -31337,32 +31276,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x": {
-   "actualizado": "2026-10-13T15:00:20.000Z",
-   "buffer_id": "6ace1d57b4d66b8b80b52062",
-   "clave": "web:359c8325-07b4-4de6-9aca-1c26e7243c29|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T13:45:49.000Z",
-   "enviado": "2026-10-13T13:46:02.718Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:06:49.714Z",
-   "id": "web:359c8325-07b4-4de6-9aca-1c26e7243c29",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110004135168806952",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior\n\nCon orgullo, emoción y la convicción de estar viviendo un momento histórico, el tenista de Chivilcoy Máximo Cataldi ya se encuentra instalado en San…\n\nhttps://www.diariolacampaña.com.ar/n/tenis-un-sueno-en-san-pablo-el-chivilcoyano-maximo-cataldi-va-por-el",
-   "tipo": "nota",
-   "titulo": "Un sueño en San Pablo: el chivilcoyano Máximo Cataldi va por el pase al Australian Open Junior",
-   "urgente": false,
-   "vence": "2026-10-14T10:06:49.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff|x": {
    "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6ad004cfecf932275358cab5",
@@ -39445,30 +39358,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:8f3dac102e5cdee4|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:a09771b77a360e01|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:be6592b07ce935fb|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:c6ed9c5ff821ce8c|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
    "clave": "nacionales:d4259eeed3d3426d|tiktok",
    "cuando": "2026-10-20T09:00:31.000Z",
    "evento": "vencido",
@@ -43580,6 +43469,30 @@
    "cuando": "2026-10-23T14:00:32.000Z",
    "dueAt": "2026-10-23T14:02:35.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
+   "cuando": "2026-10-23T15:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113627220602167753"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
+   "cuando": "2026-10-23T15:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113632976642736375"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
+   "cuando": "2026-10-23T15:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113628667397955896"
+  },
+  {
+   "clave": "nacionales:47f4536459d66a4a|tiktok",
+   "cuando": "2026-10-23T15:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699858126392118529"
   }
  ],
  "tandas": {
@@ -43599,7 +43512,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T13:40:28.000Z",
+ "ultima_sync": "2026-10-23T15:00:18.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
