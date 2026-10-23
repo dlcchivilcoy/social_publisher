@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 23/10/2026 19:40 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 10 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 3 |
-| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 3 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 4 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
@@ -53,10 +53,6 @@ Actualizado: 23/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T20:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-23T20:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x 
-- 2026-10-23T20:40 enviado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x 
-- 2026-10-23T21:00 programado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok 
 - 2026-10-23T21:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tikto 
 - 2026-10-23T21:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tikto 
 - 2026-10-23T21:20 recibido nacionales:5de2902aa9f0dc53|x 
@@ -78,3 +74,7 @@ Actualizado: 23/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-23T22:40 recibido web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T22:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tikto 
 - 2026-10-23T22:40 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x 
+- 2026-10-23T23:00 recibido nacionales:ae9e5a4804b66987|x 
+- 2026-10-23T23:00 recibido nacionales:ae9e5a4804b66987|tiktok 
+- 2026-10-23T23:00 depurado nacionales:ae9e5a4804b66987|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-23T23:00 depurado nacionales:ae9e5a4804b66987|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)

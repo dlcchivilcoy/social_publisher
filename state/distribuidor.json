@@ -4183,6 +4183,33 @@
    "volanta": "Liga Profesional",
    "youtube_url": "https://youtube.com/shorts/7wS5VzWSk4A"
   },
+  "nacionales:ae9e5a4804b66987": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "El Banco Ciudad realizará dos subastas online los días 5 y 12 de noviembre por cuenta de ARCA. Habrá más de 1.100 botellas de vino y whiskys, además de consolas Pioneer, parlantes JBL y equipos de audio.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T22:45:55.000Z",
+   "hashtags": [
+    "Economia",
+    "Subastas"
+   ],
+   "id": "nacionales:ae9e5a4804b66987",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000",
+   "urgente": false,
+   "video_bytes": 80162,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
+   "volanta": "Subastas de ARCA",
+   "youtube_url": "https://youtube.com/shorts/qVERJf7R1Eg"
+  },
   "nacionales:b010138b1fbfe036": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -22895,6 +22922,60 @@
    "video_bytes": 89169,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a9f9a2fbd3_racing-e-independiente-empataron-en-el-clasico-y.mp4"
   },
+  "nacionales:ae9e5a4804b66987|tiktok": {
+   "actualizado": "2026-10-23T23:00:24.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:ae9e5a4804b66987|tiktok",
+   "creado": "2026-10-23T23:00:18.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-23T22:45:55.000Z",
+   "id": "nacionales:ae9e5a4804b66987",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000\n\nEl Banco Ciudad realizará dos subastas online los días 5 y 12 de noviembre por cuenta de ARCA. Habrá más de 1.100 botellas de vino y whiskys, además de consolas Pioneer, parlantes JBL y equipos de audio.\n\nhttps://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #Economia",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000",
+   "urgente": false,
+   "vence": "2026-10-24T16:45:55.000Z",
+   "video_bytes": 80162,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
+   "viral": false
+  },
+  "nacionales:ae9e5a4804b66987|x": {
+   "actualizado": "2026-10-23T23:00:24.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:ae9e5a4804b66987|x",
+   "creado": "2026-10-23T23:00:18.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-23T22:45:55.000Z",
+   "id": "nacionales:ae9e5a4804b66987",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
+   "noticia": "nota:arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000\n\nEl Banco Ciudad realizará dos subastas online los días 5 y 12 de noviembre por cuenta de ARCA.\n\nhttps://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000",
+   "urgente": false,
+   "vence": "2026-10-24T00:45:55.000Z",
+   "video_bytes": 80162,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
+   "viral": false
+  },
   "nacionales:b010138b1fbfe036|tiktok": {
    "actualizado": "2026-10-19T10:21:31.000Z",
    "buffer_id": "",
@@ -39180,34 +39261,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad76a91029e8e5ef9920a24",
-   "clave": "web:85b0f263-df46-4783-b4dd-311f977e50c9|x",
-   "cuando": "2026-10-20T13:20:19.000Z",
-   "dueAt": "2026-10-20T13:53:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad76a92cf1d4d5c5e602528",
-   "clave": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x",
-   "cuando": "2026-10-20T13:20:19.000Z",
-   "dueAt": "2026-10-20T14:08:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad76a92fcb5599ad93b81a4",
-   "clave": "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x",
-   "cuando": "2026-10-20T13:20:19.000Z",
-   "dueAt": "2026-10-20T14:23:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad76a93029e8e5ef9920b16",
-   "clave": "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03|x",
-   "cuando": "2026-10-20T13:20:19.000Z",
-   "dueAt": "2026-10-20T14:38:15.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad76f3f8c342e4a3123cacb",
    "clave": "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5|x",
    "cuando": "2026-10-20T13:40:15.000Z",
@@ -43332,6 +43385,34 @@
    "cuando": "2026-10-23T22:40:20.000Z",
    "dueAt": "2026-10-23T22:42:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "nacionales:ae9e5a4804b66987|x",
+   "cuando": "2026-10-23T23:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:ae9e5a4804b66987|tiktok",
+   "cuando": "2026-10-23T23:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:ae9e5a4804b66987|x",
+   "cuando": "2026-10-23T23:00:24.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:ae9e5a4804b66987|tiktok",
+   "cuando": "2026-10-23T23:00:24.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -43554,6 +43635,7 @@
   "nacionales:a45e03c51dbe2f12": "2026-10-19T02:40:14.000Z",
   "nacionales:a7e42407f5ea13c5": "2026-10-21T22:20:16.000Z",
   "nacionales:a9f9a2fbd358a314": "2026-10-19T02:40:14.000Z",
+  "nacionales:ae9e5a4804b66987": "2026-10-23T23:00:18.000Z",
   "nacionales:b010138b1fbfe036": "2026-10-18T17:20:13.000Z",
   "nacionales:b164c7aa50445aed": "2026-10-21T01:20:15.000Z",
   "nacionales:b18ec1977365d369": "2026-10-19T09:00:17.000Z",
