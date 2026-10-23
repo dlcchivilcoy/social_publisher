@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 9 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 10 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 2 | 3 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
@@ -28,25 +28,22 @@ Actualizado: 23/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2197 de 3000 (visto 2026-10-23T20:40:13.000Z)
+15m: quedan 99 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2196 de 3000 (visto 2026-10-23T21:00:23.000Z)
 
-## Cola propia (16 esperando)
-- TikTok · Reels del bot · El Rally de Chivilcoy tendrá diez pruebas especiales este fin de semana — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Intentaron robar una moto tras romper la puerta de un comercio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Intentaron robar una motocicleta en un comercio de la avenida Soáres — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Club Independiente celebrará los 30 años de su escuela de fútbol — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (13 esperando)
+- TikTok · Reels del bot · Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · El Club Independiente celebrará los 30 años de su escuela de fútbol — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — ya salieron los 5 de bot de hoy en TikTok
+- TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — ya salieron los 5 de bot de hoy en TikTok
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -55,9 +52,6 @@ Actualizado: 23/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T17:20 recibido entrevistas:job00247|x 
-- 2026-10-23T17:20 recibido web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T17:20 programado bot:video_matias-zucchi_mvl80hcengob_01.mp4|x 
 - 2026-10-23T17:20 programado entrevistas:job00247|x 
 - 2026-10-23T18:00 enviado bot:video_matias-zucchi_mvl80hcengob_01.mp4|x 
 - 2026-10-23T18:00 enviado entrevistas:job00246|x 
@@ -80,3 +74,6 @@ Actualizado: 23/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-23T20:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-23T20:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x 
 - 2026-10-23T20:40 enviado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x 
+- 2026-10-23T21:00 programado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok 
+- 2026-10-23T21:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tikto 
+- 2026-10-23T21:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tikto 
