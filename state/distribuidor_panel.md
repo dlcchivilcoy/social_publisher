@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 23/10/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 6 | 0 | 0 | 0 | 1 |
+| Notas web | X | 15 | 9 | 2 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,7 +28,7 @@ Actualizado: 23/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2214 de 3000 (visto 2026-10-23T12:00:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2213 de 3000 (visto 2026-10-23T12:40:19.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,10 +52,6 @@ Actualizado: 23/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T10:03 recibido web:1deb9aa6-a333-4510-9fa6-def9de7621af|x 
-- 2026-10-23T10:03 recibido web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x 
-- 2026-10-23T10:03 recibido web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x 
-- 2026-10-23T10:03 recibido web:1df540af-0585-4bf5-9430-5b0234724aff|x 
 - 2026-10-23T10:03 programado web:1df540af-0585-4bf5-9430-5b0234724aff|x 
 - 2026-10-23T10:03 programado web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x 
 - 2026-10-23T10:03 programado web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x 
@@ -77,3 +73,7 @@ Actualizado: 23/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-23T11:40 enviado web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x 
 - 2026-10-23T11:40 programado web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x 
 - 2026-10-23T12:00 programado web:b9460b4c-9981-4efd-a82e-33108e7090de|x 
+- 2026-10-23T12:40 enviado web:1666fae3-dd89-410f-b67f-9206fc69affb|x 
+- 2026-10-23T12:40 enviado web:815f1320-b368-407e-9e43-21cf0ad1b815|x 
+- 2026-10-23T12:40 enviado web:ce117f38-054b-4f6b-92d7-4743edb8711b|x 
+- 2026-10-23T12:40 enviado web:dd86062e-10d5-470e-a60e-27533841a020|x 
