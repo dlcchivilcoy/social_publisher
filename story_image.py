@@ -931,6 +931,55 @@ def compose_canal_story(url: str, *,
 
 
 # ---------------------------------------------------------------------------
+# GRUPO DE CLASIFICADOS (23/10/2026): la invitación semanal a sumarse al grupo de Facebook. Misma placa
+# en 9:16 (historia) y 4:5 (muro): logo, título, el QR al grupo (en la historia el link no se toca, el QR
+# sí se escanea) y la llamada a la acción.
+# ---------------------------------------------------------------------------
+def compose_grupo_placa(url: str, alto: int = H, *,
+                        titulo="Sumate a nuestro grupo de CLASIFICADOS",
+                        subtitulo="Compra, venta, alquileres, empleos y servicios en Chivilcoy",
+                        cta="Buscá el link en nuestra página de Facebook o escaneá el código") -> Path:
+    """Todo se arma como un bloque y se centra en la zona segura (en la historia, lejos de la barra de
+    arriba y de la caja de respuesta de abajo)."""
+    import qrcode
+
+    chico = alto < H                                   # el 4:5 del muro: todo un poco más compacto
+    zona = (40, alto - 40) if chico else (260, 1640)
+    bloque = Image.new("RGB", (W, 2600), BG)
+    draw = ImageDraw.Draw(bloque)
+    inner = W - 2 * MARGIN
+    y = _paste_logo(bloque, 0, 520 if chico else 600) + (30 if chico else 50)
+    f_t = _font(66 if chico else 76, True)
+    y = _texto_centrado(draw, _wrap(draw, titulo, f_t, inner)[:3], f_t, y, ACCENT, gap=12) + 6
+    f_s = _font(36 if chico else 40, False)
+    y = _texto_centrado(draw, _wrap(draw, subtitulo, f_s, inner)[:3], f_s, y, GRAY, gap=8) + 34
+    panel = 680 if chico else 700
+    px = (W - panel) // 2
+    draw.rounded_rectangle((px - 6, y - 6, px + panel + 6, y + panel + 6), radius=44, fill=ACCENT)
+    draw.rounded_rectangle((px, y, px + panel, y + panel), radius=40, fill=(255, 255, 255))
+    qr = qrcode.QRCode(border=1, box_size=10, error_correction=qrcode.constants.ERROR_CORRECT_M)
+    qr.add_data(url)
+    qr.make(fit=True)
+    qsize = panel - 80
+    qr_img = qr.make_image(fill_color=(17, 19, 26), back_color=(255, 255, 255)).convert("RGB")
+    bloque.paste(qr_img.resize((qsize, qsize), Image.NEAREST), (px + 40, y + 40))
+    y += panel + 34
+    f_cta = _font(36 if chico else 42, True)
+    y = _texto_centrado(draw, _wrap(draw, cta, f_cta, inner)[:2], f_cta, y, GRAY, gap=8) + 22
+    f_m = _font(30 if chico else 34, True)
+    y = _texto_centrado(draw, ["Diario La Campaña · Radio del Centro"], f_m, y, ACCENT)
+    bloque = bloque.crop((0, 0, W, y))
+    alto_zona = zona[1] - zona[0]
+    if bloque.height > alto_zona:
+        k = alto_zona / bloque.height
+        bloque = bloque.resize((round(W * k), alto_zona), Image.LANCZOS)
+    canvas = Image.new("RGB", (W, alto), BG)
+    ImageDraw.Draw(canvas).rectangle((0, 0, W, 12), fill=ACCENT)
+    canvas.paste(bloque, ((W - bloque.width) // 2, zona[0] + (alto_zona - bloque.height) // 2))
+    return _save(canvas, f"grupo_clasificados_{alto}")
+
+
+# ---------------------------------------------------------------------------
 # Historia de REPOSTEO de publicidad: el flyer del comercio centrado (sin
 # recortar) sobre el fondo de marca + un pie discreto. Sirve para cualquier
 # proporción de flyer (cuadrado, 4:5, etc.) quedando siempre 9:16 prolijo.

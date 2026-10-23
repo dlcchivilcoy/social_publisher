@@ -65,7 +65,7 @@ concurrency:
     || (contains(github.event.inputs.args, 'transcribe-video') || contains(github.event.inputs.args, 'publish-video') || contains(github.event.inputs.args, 'metricas-videos')) && 'publicador-videos'
     || contains(github.event.inputs.args, 'notas-web') && 'publicador-notas-web'
     || (contains(github.event.inputs.args, 'farmacias') || contains(github.event.inputs.args, 'tapa') || contains(github.event.inputs.args, 'muro')) && 'publicador-tapa-farmacias'
-    || (contains(github.event.inputs.args, 'news-stories') || contains(github.event.inputs.args, 'yt-live') || contains(github.event.inputs.args, 'yt-notes') || contains(github.event.inputs.args, 'canal-story') || contains(github.event.inputs.args, 'sepelios')) && 'publicador-historias'
+    || (contains(github.event.inputs.args, 'news-stories') || contains(github.event.inputs.args, 'yt-live') || contains(github.event.inputs.args, 'yt-notes') || contains(github.event.inputs.args, 'canal-story') || contains(github.event.inputs.args, 'grupo-clasificados') || contains(github.event.inputs.args, 'sepelios')) && 'publicador-historias'
     || contains(github.event.inputs.args, 'notes-carousel') && 'publicador-carrusel'
     || (contains(github.event.inputs.args, 'notes-web') || contains(github.event.inputs.args, 'run-now')) && 'publicador-notas'
     || 'publicador-otros'
@@ -278,7 +278,7 @@ jobs:
           [ -f "state/.web.json" ] && cp "state/.web.json" "diario/NOTAS AUTOMATICAS/.web.json" || true
           [ -f "state/.fb.json" ] && cp "state/.fb.json" "diario/NOTAS AUTOMATICAS/.fb.json" || true
           [ -f "state/.x.json" ] && cp "state/.x.json" "diario/NOTAS AUTOMATICAS/.x.json" || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json .reels_listos.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json .grupo_clasificados.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json .reels_listos.json; do
             [ -f "state/$f" ] && cp "state/$f" "./$f" || true
           done
 
@@ -324,7 +324,7 @@ jobs:
           cp "diario/NOTAS AUTOMATICAS/.web.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.fb.json" state/ 2>/dev/null || true
           cp "diario/NOTAS AUTOMATICAS/.x.json" state/ 2>/dev/null || true
-          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json .reels_listos.json; do
+          for f in .tapa.json .farmacias.json .farmacias_cache.json .farmacias_web.json .farmacias_aviso.json .carrusel_tf.json .carrusel_tf_aviso.json .sepelios_historia.json .muro_tf.json .canal_story.json .grupo_clasificados.json youtube-historias.json .newsletter.json .reel.json .videos_contabilidad.json .videos_radio.json .notas_web.json .yt_desgrabaciones.json .yt_seo.json .yt_facebook.json .reels_listos.json; do
             [ -f "$f" ] && cp "$f" state/ || true
           done
           git config user.name "github-actions[bot]"

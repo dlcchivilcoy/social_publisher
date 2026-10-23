@@ -130,6 +130,17 @@ def main() -> None:
         help="CARRUSEL Tapa+Farmacias en FB/IG (tapa 1°, farmacias 2°) + historia de la tapa.",
     )
     parser.add_argument(
+        "--grupo-clasificados",
+        action="store_true",
+        help="Invitación SEMANAL a sumarse al grupo de clasificados de Facebook: publicación en el muro con el "
+             "link + historia con QR (una vez por semana desde GRUPO_DIA; --forzar la saca igual).",
+    )
+    parser.add_argument(
+        "--forzar",
+        action="store_true",
+        help="Con --grupo-clasificados: sale aunque esta semana ya haya salido o no sea el día.",
+    )
+    parser.add_argument(
         "--solo-muro",
         action="store_true",
         help="Con --tapa-farmacias: SOLO las publicaciones del muro de Facebook (la corrida de las 06:00); "
@@ -400,6 +411,12 @@ def main() -> None:
         logger.info(f"Modo --tapa (dry_run={args.dry_run}).")
         run_tapa(dry_run=args.dry_run)
         return
+    if args.grupo_clasificados:
+        from stories import run_grupo_clasificados
+        logger.info(f"Modo --grupo-clasificados (dry_run={args.dry_run}).")
+        run_grupo_clasificados(dry_run=args.dry_run, forzar=args.forzar)
+        return
+
     if args.canal_story:
         from stories import run_canal_story
         logger.info(f"Modo --canal-story (dry_run={args.dry_run}).")

@@ -17,7 +17,7 @@ import youtube
 from file_scanner import find_notes
 from platforms import facebook, instagram
 from publisher import _resumen
-from story_image import (compose_canal_story, compose_note_story,
+from story_image import (compose_canal_story, compose_grupo_placa, compose_note_story,
                          compose_youtube_resumen_story, compose_youtube_story)
 from utils.branding import sitio_web
 from utils.config import get
@@ -265,6 +265,91 @@ def _canal_ya_hoy() -> bool:
 def _canal_marcar() -> None:
     CANAL_LEDGER.write_text(json.dumps({"fecha": date.today().isoformat()},
                                        ensure_ascii=False), encoding="utf-8")
+
+
+# ---------------------------------------------------------------------------
+# 5) GRUPO DE CLASIFICADOS (pedido del editor, 23/10/2026: «un posteo semanal en la página de Facebook y una
+#    historia que invite a sumarse al grupo de clasificados, con el link del grupo»). Facebook no deja
+#    publicar EN el grupo ni invitar gente por la API (Groups API retirada en abril de 2024): esto lo
+#    promociona desde la página. Sale una vez por semana: el día GRUPO_DIA (4 = viernes; 0 = lunes) o el
+#    primero después si ese día no corrió. Publicación en el muro (placa 4:5 + texto con el link) e historia
+#    (9:16 con QR) en las redes de STORIES_PLATFORMS.
+# ---------------------------------------------------------------------------
+GRUPO_LEDGER = Path(__file__).parent / ".grupo_clasificados.json"
+GRUPO_URL_DEFAULT = "https://www.facebook.com/groups/1889259989118980"
+GRUPO_DIA_DEFAULT = 4
+
+
+def _grupo_semana(hoy) -> str:
+    a, s, _ = hoy.isocalendar()
+    return f"{a}-W{s:02d}"
+
+
+def _grupo_estado() -> dict:
+    try:
+        if GRUPO_LEDGER.exists():
+            return json.loads(GRUPO_LEDGER.read_text(encoding="utf-8"))
+    except Exception:
+        pass
+    return {}
+
+
+def grupo_toca(hoy) -> bool:
+    """¿Sale hoy? Una vez por semana ISO, desde el día GRUPO_DIA en adelante."""
+    try:
+        dia = int(get("GRUPO_DIA") or GRUPO_DIA_DEFAULT)
+    except ValueError:
+        dia = GRUPO_DIA_DEFAULT
+    hechas = _grupo_estado().get("semanas") or {}
+    return hoy.weekday() >= dia and not all(hechas.get(_grupo_semana(hoy), {}).get(r) for r in ("muro", "historia"))
+
+
+def grupo_texto(url: str) -> str:
+    return ("📢 ¿Querés vender, comprar, alquilar o buscás un servicio en Chivilcoy?\n\n"
+            "Sumate a nuestro grupo de CLASIFICADOS de Diario La Campaña y Radio del Centro: publicá lo tuyo "
+            "y encontrá lo que necesitás, entre vecinos.\n\n"
+            f"👉 Unite acá: {url}\n\n"
+            "Compartilo con quien esté buscando o vendiendo algo. 🙌\n\n#Chivilcoy #Clasificados #ComprayVenta")
+
+
+def run_grupo_clasificados(dry_run: bool = False, forzar: bool = False) -> None:
+    modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
+    logger.info(f"=== Invitación semanal al grupo de clasificados [{modo}] ===")
+    url = get("GRUPO_CLASIFICADOS_URL") or GRUPO_URL_DEFAULT
+    hoy = date.today()
+    if not forzar and not grupo_toca(hoy):
+        logger.info("Esta semana ya salió (o todavía no es el día). Se omite.")
+        return
+    estado = _grupo_estado()
+    hecho = estado.setdefault("semanas", {}).setdefault(_grupo_semana(hoy), {})
+    try:
+        feed = compose_grupo_placa(url, alto=1350)
+        historia = compose_grupo_placa(url)
+    except Exception as e:
+        logger.error(f"No se pudo armar la placa del grupo: {e}")
+        return
+    if dry_run:
+        logger.info(f"   [dry-run] muro: {feed.name} + texto:\n{grupo_texto(url)}")
+        logger.info(f"   [dry-run] historia: {historia.name}")
+        return
+
+    def guardar():
+        estado["semanas"] = dict(sorted(estado["semanas"].items())[-8:])
+        GRUPO_LEDGER.write_text(json.dumps(estado, ensure_ascii=False), encoding="utf-8")
+
+    if not hecho.get("muro"):
+        try:
+            facebook.publish(grupo_texto(url), feed)
+            hecho["muro"] = date.today().isoformat()
+            guardar()
+            logger.info("   [facebook] publicación en el muro OK")
+        except Exception as e:
+            logger.error(f"   [facebook] publicación en el muro FALLÓ: {e}")
+    if not hecho.get("historia"):
+        if _ok(_publish(historia, False)):
+            hecho["historia"] = date.today().isoformat()
+            guardar()
+    logger.info("=== Invitación al grupo de clasificados: fin ===")
 
 
 def run_canal_story(dry_run: bool = False) -> None:
