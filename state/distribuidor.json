@@ -1711,6 +1711,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WWKPjSVUxWA"
   },
+  "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4": {
+   "descripcion": "La edición 2026 del Medio Maratón Eduardo Pollaroli presentará un perfil inclusivo y participativo con la incorporación de nuevas modalidades a la tradicional competencia de 21 kilómetros.\n\nPara esta edición, la prueba sumará circuitos de 5 y 10 kilómetros, a los que se agregará una caminata impulsada por el servicio de Oncología del Hospital Municipal, orientada a concientizar sobre el cáncer de mama y de próstata.\n\nAsimismo, se implementará por primera vez la iniciativa «UNLu corre por la inclusión», una propuesta pensada especialmente para que personas con discapacidad motriz formen parte de la jornada deportiva.\n\nEl presidente del Círculo de Atletas de Chivilcoy, Juan Borgogna, resaltó el trabajo coordinado entre las instituciones locales. Explicó que la entidad se mantiene abierta a nuevos desafíos y manifestó satisfacción por la articulación conjunta para brindar una mejor propuesta a la comunidad.",
+   "duracion_seg": 55.9,
+   "generado": "2026-10-23T00:20:30.000Z",
+   "id": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
+   "urgente": false,
+   "video_bytes": 5295640,
+   "video_mb": 5.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_482d3b029f7f0f3d.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/mMez0WLrIE0"
+  },
   "entrevistas:job00192": {
    "descripcion": "En Chivilcoy, el especialista en Seguridad e Higiene Erardo Spinelli explicó cómo el estrés laboral crónico puede derivar en burnout y depresión. También detalló qué acciones pueden implementar las empresas para contrarrestarlo.",
    "duracion_seg": null,
@@ -13604,17 +13625,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 249,
-   "segundos": 86400,
+   "restantes": 248,
+   "segundos": 85203,
    "tope": 250
   },
   "30d": {
-   "restantes": 2228,
-   "segundos": 1630215,
+   "restantes": 2227,
+   "segundos": 1629018,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T00:20:26.000Z",
+ "cuota_visto": "2026-10-23T00:40:23.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -18729,6 +18750,62 @@
    "vence": "2026-10-22T18:49:25.000Z",
    "video_bytes": 5496629,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok": {
+   "actualizado": "2026-10-23T00:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
+   "creado": "2026-10-23T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T00:20:30.000Z",
+   "id": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización\n\nLa edición 2026 sumará circuitos de 5 y 10 kilómetros a la carrera de 21 kilómetros, además de una caminata del servicio de Oncología del Hospital Municipal para concientizar sobre el cáncer de mama y próstata. También se implementará una iniciativa de la UNLu pensada para personas con discapacidad motriz.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
+   "urgente": false,
+   "vence": "2026-10-25T00:20:30.000Z",
+   "video_bytes": 5295640,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_482d3b029f7f0f3d.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x": {
+   "actualizado": "2026-10-23T00:40:22.000Z",
+   "buffer_id": "6adaacf7cc1b7cdc08c29f71",
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x",
+   "creado": "2026-10-23T00:40:14.000Z",
+   "dueAt": "2026-10-23T00:42:30.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T00:20:30.000Z",
+   "id": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "noticia": "nota:chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización\n\nLa prueba sumará circuitos de 5 y 10 kilómetros. También habrá una caminata de concientización y una propuesta para personas con discapacidad motriz.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
+   "urgente": false,
+   "vence": "2026-10-23T02:20:30.000Z",
+   "video_bytes": 5295640,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_482d3b029f7f0f3d.mp4",
    "viral": false
   },
   "entrevistas:job00192|x": {
@@ -27687,14 +27764,14 @@
    "viral": true
   },
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x": {
-   "actualizado": "2026-10-23T00:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T00:40:22.000Z",
+   "buffer_id": "6adaacf7535235087b73913e",
    "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
    "creado": "2026-10-23T00:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T00:48:07.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T00:00:55.000Z",
    "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
    "intentos": 0,
@@ -38430,38 +38507,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|x",
-   "cuando": "2026-10-19T23:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok",
-   "cuando": "2026-10-19T23:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "nacionales:206df88111ec06ca|tiktok",
-   "cuando": "2026-10-19T23:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:d553fbc1ee6752bd|tiktok",
-   "cuando": "2026-10-19T23:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:632442afcb23e9fb|tiktok",
    "cuando": "2026-10-19T23:20:21.000Z",
    "estado": "pendiente",
@@ -42539,6 +42584,36 @@
    "cuando": "2026-10-23T00:20:25.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7699647230004792597"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x",
+   "cuando": "2026-10-23T00:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
+   "cuando": "2026-10-23T00:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6adaacf7cc1b7cdc08c29f71",
+   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x",
+   "cuando": "2026-10-23T00:40:23.000Z",
+   "dueAt": "2026-10-23T00:42:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adaacf7535235087b73913e",
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
+   "cuando": "2026-10-23T00:40:23.000Z",
+   "dueAt": "2026-10-23T00:48:07.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42643,6 +42718,7 @@
   "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4": "2026-10-22T15:20:17.000Z",
   "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4": "2026-10-22T15:40:16.000Z",
   "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": "2026-10-22T17:00:19.000Z",
+  "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4": "2026-10-23T00:40:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
