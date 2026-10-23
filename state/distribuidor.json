@@ -1081,6 +1081,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_00bc10685ca686d2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/wIL9t32LUe8"
   },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3": {
+   "descripcion": "Dos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soáres, en inmediaciones de la plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-23T18:56:51.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
+   "urgente": false,
+   "video_bytes": 695393,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a336ff7a5e3c81c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/MQEjcrdTx_M"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -6027,30 +6048,6 @@
    "volanta": "Choque en la Ruta 7",
    "youtube_url": "https://youtube.com/shorts/3o0yRJd_n8k"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html": {
-   "categoria": "incendio",
-   "descripcion": "Bomberos voluntarios debieron intervenir tras registrarse un principio de incendio en un automóvil en la localidad de Chacabuco.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-13T12:21:38.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 4,
-   "texto_tiktok": "Un principio de incendio se registró en un automóvil en la localidad de Chacabuco.\n\nPersonal del cuerpo de bomberos voluntarios acudió rápidamente al lugar del hecho para contener la situación.\n\nEl foco ígneo fue controlado a tiempo y se registraron daños materiales en la unidad afectada.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Incendio #Bomberos #BuenosAires",
-   "tipo": "video",
-   "titulo": "Principio de incendio en un auto en Chacabuco",
-   "urgente": false,
-   "video_bytes": 93300,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4",
-   "volanta": "Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/4-yIZ8vu3QM"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "La Subsecretaría de Tránsito de Chacabuco llevó a cabo controles durante la madrugada. Retuvieron diez vehículos en total y suspendieron habilitaciones por distintas infracciones.",
@@ -6963,30 +6960,6 @@
    "volanta": "Alerta en 25 de Mayo",
    "youtube_url": "https://youtube.com/shorts/w-u1dut_2TM"
   },
-  "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": {
-   "categoria": "robo",
-   "descripcion": "Un operativo cerrojo culminó con la aprehensión de un hombre que era perseguido desde la vecina ciudad tras sustraer un ciclomotor. Interviene la justicia correspondiente.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-13T12:21:38.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Una intensa persecución policial se desató en la ruta que une ambas localidades tras el robo de un ciclomotor.\n\nEl operativo culminó en territorio chacabuquense con la captura del sospechoso y el secuestro del rodado sustraído.\n\nLas actuaciones judiciales continúan bajo la carátula correspondiente.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada",
-   "urgente": false,
-   "video_bytes": 94050,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4",
-   "volanta": "Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/A0D5iPE8oRI"
-  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/": {
    "categoria": "accidente_vial",
    "descripcion": "El siniestro vial ocurrió en el kilómetro 258 de la Ruta Nacional 5, en jurisdicción de 9 de Julio. Investigan las circunstancias del impacto.",
@@ -7472,6 +7445,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
    "volanta": "Chivilcoy · Cultura"
   },
+  "web:07ef819a-940d-48e5-aee9-922cce690ab8": {
+   "categoria": "",
+   "descripcion": "Intentaron robar una motocicleta en un comercio de la avenida Soáres Dos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soáres, en inmediaciones de la plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos. Según explicó Alejo, uno de los responsables del establecimiento, el episodio se registró alrededor de las 5. Los sujetos dieron una patada contra la puerta de...",
+   "generado": "2026-10-23T18:53:24.868Z",
+   "id": "web:07ef819a-940d-48e5-aee9-922cce690ab8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_61a8829da1c44c27a96d5b95b053fe1f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": {
    "categoria": "",
    "descripcion": "El pronóstico indica que el ambiente fresco y húmedo con nubosidad persistente se mantendrá firme y continuará, al menos, hasta el próximo día viernes inclusive La ciudad transita jornadas de ambiente fresco y húmedo. Aunque durante los últimos días las tardes se presentaron agradables pero sin lluvias en la región, el escenario meteorológico sufrirá modificaciones a partir de las próximas horas. De acuerdo con el informe brindado por el meteorólogo Marcelo Speranza en El Tiempo en Chivilcoy,...",
@@ -7581,24 +7573,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": {
-   "categoria": "",
-   "descripcion": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas La directora de la Escuela Primaria N° 30 de Chivilcoy, Estefanía Cruz, visitó los estudios de Radio del Centro durante el programa La Mañana del Centro para detallar el presente institucional del establecimiento y profundizar sobre el singular lazo que une a la comunidad educativa con la República de Filipinas. A lo largo de la charla, la docente repasó las reformas edilicias...",
-   "generado": "2026-10-13T10:04:42.608Z",
-   "id": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_87d5386229a44d85ab8eae56e13a3d33~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
-   "volanta": "Vínculo Internacional"
   },
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": {
    "categoria": "",
@@ -8492,24 +8466,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/diputados-la-oposicion-no-reunio-quorum-para-voltear-el-dnu-70-c31171",
    "volanta": ""
-  },
-  "web:2f28167a-6caf-4b85-81ac-e53b3248f984": {
-   "categoria": "",
-   "descripcion": "Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica Los integrantes del espacio de folclore del Taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional de la Danza Folclórica, donde tuvieron la oportunidad de compartir su talento y su pasión por las tradiciones argentinas. Participaron delegaciones de toda la zona y destacaron que Chivilcoy fue la única integrada por Personas con discapacidad. La...",
-   "generado": "2026-10-13T10:05:24.695Z",
-   "id": "web:2f28167a-6caf-4b85-81ac-e53b3248f984",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_26a759c42a7d456ca56d238881fe915b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
-   "volanta": "En Rawson"
   },
   "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe": {
    "categoria": "",
@@ -13724,17 +13680,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 223,
-   "segundos": 22807,
+   "restantes": 222,
+   "segundos": 19197,
    "tope": 250
   },
   "30d": {
-   "restantes": 2202,
-   "segundos": 1566622,
+   "restantes": 2201,
+   "segundos": 1563012,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T18:00:20.000Z",
+ "cuota_visto": "2026-10-23T19:00:29.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16859,6 +16815,62 @@
    "vence": "2026-10-23T18:05:57.000Z",
    "video_bytes": 731932,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_00bc10685ca686d2.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tiktok": {
+   "actualizado": "2026-10-23T19:00:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tiktok",
+   "creado": "2026-10-23T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T18:56:51.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Intentaron robar una motocicleta en un comercio de la avenida Soáres\n\nDos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soáres, en inmediaciones de la plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
+   "urgente": false,
+   "vence": "2026-10-25T18:56:51.000Z",
+   "video_bytes": 695393,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a336ff7a5e3c81c.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x": {
+   "actualizado": "2026-10-23T19:00:28.000Z",
+   "buffer_id": "6adbaecdbd33ce99c3e769e7",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
+   "creado": "2026-10-23T19:00:17.000Z",
+   "dueAt": "2026-10-23T19:02:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T18:56:51.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Intentaron robar una motocicleta en un comercio de la avenida Soáres\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
+   "urgente": false,
+   "vence": "2026-10-23T20:56:51.000Z",
+   "video_bytes": 695393,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a336ff7a5e3c81c.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -26296,58 +26308,6 @@
    "video_bytes": 74306,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok": {
-   "actualizado": "2026-10-13T18:40:26.000Z",
-   "buffer_id": "6ace50e3aefe64c2a8cf5ac8",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|tiktok",
-   "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "2026-10-13T17:43:43.000Z",
-   "enviado": "2026-10-13T17:45:29.651Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T12:21:38.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696209515556900097",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 4,
-   "texto": "Un principio de incendio se registró en un automóvil en la localidad de Chacabuco.\n\nPersonal del cuerpo de bomberos voluntarios acudió rápidamente al lugar del hecho para contener la situación.\n\nEl foco ígneo fue controlado a tiempo y se registraron daños materiales en la unidad afectada.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "tipo": "video",
-   "titulo": "Principio de incendio en un auto en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-14T06:21:38.000Z",
-   "video_bytes": 93300,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x": {
-   "actualizado": "2026-10-13T18:40:26.000Z",
-   "buffer_id": "6ace3978e66b409d53fb2eee",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html|x",
-   "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "2026-10-13T18:30:55.000Z",
-   "enviado": "2026-10-13T18:31:05.241Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T12:21:38.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-de-chacabuco-principio-de.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110075868429119886",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 4,
-   "texto": "Principio de incendio en un auto en Chacabuco\n\nBomberos voluntarios debieron intervenir tras registrarse un principio de incendio en un automóvil en la localidad de Chacabuco.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-bomberos-intervinieron-por-un-principio-de-incendio-388647",
-   "tipo": "video",
-   "titulo": "Principio de incendio en un auto en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-14T06:21:38.000Z",
-   "video_bytes": 93300,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_06_chacabuco_principio-de-incendio-en-un-au.mp4"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|tiktok": {
    "actualizado": "2026-10-17T19:00:18.000Z",
    "buffer_id": "6ad3ae63938409f1d097288f",
@@ -26784,15 +26744,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|tiktok": {
-   "actualizado": "2026-10-23T01:00:17.000Z",
+   "actualizado": "2026-10-23T19:00:28.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|tiktok",
    "creado": "2026-10-23T01:00:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T00:42:04.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html",
    "intentos": 0,
@@ -28513,32 +28473,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_02_25-de-mayo_rige-alerta-naranja-y-amarilla.mp4",
    "viral": true
   },
-  "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x": {
-   "actualizado": "2026-10-13T18:40:26.000Z",
-   "buffer_id": "6ace34c81077be9dba265cc5",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/|x",
-   "creado": "2026-10-13T12:40:15.000Z",
-   "dueAt": "2026-10-13T18:15:37.000Z",
-   "enviado": "2026-10-13T18:15:48.466Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T12:21:38.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110072023233782105",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada\n\nUn operativo cerrojo culminó con la aprehensión de un hombre que era perseguido desde la vecina ciudad tras sustraer un ciclomotor.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-una-persecucion-policial-8266e1",
-   "tipo": "video",
-   "titulo": "Persecución policial desde Chivilcoy hasta Chacabuco por una moto robada",
-   "urgente": false,
-   "vence": "2026-10-14T06:21:38.000Z",
-   "video_bytes": 94050,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_1209_08_9-de-julio_persecuci-n-policial-desde-chi.mp4"
-  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/|tiktok": {
    "actualizado": "2026-10-15T12:00:21.000Z",
    "buffer_id": "",
@@ -29504,6 +29438,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:07ef819a-940d-48e5-aee9-922cce690ab8|x": {
+   "actualizado": "2026-10-23T19:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:07ef819a-940d-48e5-aee9-922cce690ab8|x",
+   "creado": "2026-10-23T19:00:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T18:53:24.868Z",
+   "id": "web:07ef819a-940d-48e5-aee9-922cce690ab8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
+   "urgente": false,
+   "vence": "2026-10-23T22:53:24.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
    "buffer_id": "",
@@ -29667,32 +29626,6 @@
    "titulo": "Destrozaron la vidriera y robaron en el comercio Aromas",
    "urgente": false,
    "vence": "2026-10-16T20:14:40.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x": {
-   "actualizado": "2026-10-13T18:40:26.000Z",
-   "buffer_id": "6ace300f8c4d573c4e547d6a",
-   "clave": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T18:00:27.000Z",
-   "enviado": "2026-10-13T18:03:17.880Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:04:42.608Z",
-   "id": "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110068874850767052",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas\n\nLa directora de la Escuela Primaria N° 30 de Chivilcoy, Estefanía Cruz, visitó los estudios de Radio del Centro durante el programa La…\n\nhttps://www.diariolacampaña.com.ar/n/vinculo-internacional-estefania-cruz-destaco-la-importancia-de",
-   "tipo": "nota",
-   "titulo": "Estefanía Cruz destacó la importancia de profundizar los lazos entre la Escuela 30 y la República de Filipinas",
-   "urgente": false,
-   "vence": "2026-10-14T10:04:42.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -31082,32 +31015,6 @@
    "titulo": "Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer en minoría",
    "urgente": false,
    "vence": "2026-10-17T16:06:30.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x": {
-   "actualizado": "2026-10-13T18:40:26.000Z",
-   "buffer_id": "6ace300f7a819fc95e4a7a2a",
-   "clave": "web:2f28167a-6caf-4b85-81ac-e53b3248f984|x",
-   "creado": "2026-10-13T10:20:16.000Z",
-   "dueAt": "2026-10-13T17:45:37.000Z",
-   "enviado": "2026-10-13T17:45:46.129Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T10:05:24.695Z",
-   "id": "web:2f28167a-6caf-4b85-81ac-e53b3248f984",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110064463617384452",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica\n\nLos integrantes del espacio de folclore del Taller Chivilcoy sin Barreras viajaron a la localidad de Rawson para participar de la XV Fiesta Regional…\n\nhttps://www.diariolacampaña.com.ar/n/en-rawson-integrantes-de-chivilcoy-sin-barreras-participaron-de-la-xv",
-   "tipo": "nota",
-   "titulo": "Integrantes de Chivilcoy sin Barreras participaron de la XV Fiesta Regional de la Danza Folclórica",
-   "urgente": false,
-   "vence": "2026-10-14T10:05:24.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -39180,46 +39087,6 @@
  },
  "registro": [
   {
-   "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
-   "cuando": "2026-10-20T10:20:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1|x",
-   "cuando": "2026-10-20T10:20:40.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0ad113d1-0797-400e-8161-494cc3be7804|x",
-   "cuando": "2026-10-20T10:20:48.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x",
-   "cuando": "2026-10-20T10:20:51.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x",
-   "cuando": "2026-10-20T10:20:54.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
    "cuando": "2026-10-20T10:20:56.000Z",
    "estado": "pendiente",
@@ -43325,6 +43192,43 @@
    "cuando": "2026-10-23T18:20:14.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
+   "cuando": "2026-10-23T19:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tiktok",
+   "cuando": "2026-10-23T19:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:07ef819a-940d-48e5-aee9-922cce690ab8|x",
+   "cuando": "2026-10-23T19:00:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|tiktok",
+   "cuando": "2026-10-23T19:00:28.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6adbaecdbd33ce99c3e769e7",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
+   "cuando": "2026-10-23T19:00:29.000Z",
+   "dueAt": "2026-10-23T19:02:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43400,6 +43304,7 @@
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01": "2026-10-23T13:40:14.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei": "2026-10-23T14:00:23.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj": "2026-10-23T16:20:15.000Z",
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3": "2026-10-23T19:00:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -43699,6 +43604,7 @@
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17": "2026-10-19T10:20:14.000Z",
   "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
+  "web:07ef819a-940d-48e5-aee9-922cce690ab8": "2026-10-23T19:00:17.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
