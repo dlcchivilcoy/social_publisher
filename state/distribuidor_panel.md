@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 2 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 3 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 5 | 2 | 0 | 5 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 1 | 0 | 0 | 0 | 0 |
 
@@ -28,10 +28,11 @@ Actualizado: 23/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2209 de 3000 (visto 2026-10-23T13:40:30.000Z)
+15m: quedan 99 de 100 · 24h: quedan 229 de 250 · 30d: quedan 2208 de 3000 (visto 2026-10-23T14:00:32.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (15 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,10 +54,6 @@ Actualizado: 23/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T13:00 recibido web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x 
-- 2026-10-23T13:00 programado web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x 
-- 2026-10-23T13:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tikto 
-- 2026-10-23T13:00 programado bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok 
 - 2026-10-23T13:00 programado nacionales:47f4536459d66a4a|tiktok 
 - 2026-10-23T13:20 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|x la misma noticia ya sale en X (Notas web, programado)
 - 2026-10-23T13:20 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tikto 
@@ -78,3 +75,7 @@ Actualizado: 23/10/2026 10:40 (hora AR) · ACTIVO
 - 2026-10-23T13:40 enviado web:b9460b4c-9981-4efd-a82e-33108e7090de|x 
 - 2026-10-23T13:40 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x 
 - 2026-10-23T13:40 programado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x 
+- 2026-10-23T14:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x 
+- 2026-10-23T14:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tikto 
+- 2026-10-23T14:00 recibido web:e92d7cef-125b-45bf-8655-591a3ccc565b|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-23T14:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x 

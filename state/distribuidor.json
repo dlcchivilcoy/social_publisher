@@ -1060,6 +1060,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7f175522a50a20db.mp4",
    "youtube_url": "https://www.youtube.com/shorts/jZfyau42nX8"
   },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei": {
+   "descripcion": "El domingo se realizará la Primera Feria de Cooperadoras Escolares en la Plaza 25 de Mayo. En el marco del 172° aniversario de Chivilcoy y del Mes de la Cooperación Escolar, el espacio albergará una jornada comunitaria con 17 instituciones educativas, espectáculos y reinauguración.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-23T13:51:39.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
+   "urgente": false,
+   "video_bytes": 664294,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a22d7b26f649a73f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/OOZvf1X_YPg"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -13295,6 +13316,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/del-12-al-15-de-noviembre-confirmaciones-a-un-mes-de-la-9-edicion-de",
    "volanta": "Del 12 al 15 de noviembre"
   },
+  "web:e92d7cef-125b-45bf-8655-591a3ccc565b": {
+   "categoria": "",
+   "descripcion": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal El domingo se realizará la Primera Feria de Cooperadoras Escolares en la Plaza 25 de Mayo. En el marco del 172° aniversario de Chivilcoy y del Mes de la Cooperación Escolar, la Plaza 25 de Mayo albergará una jornada comunitaria con 17 instituciones educativas, espectáculos folclóricos y la reinauguración de la emblemática Fuente de Hebe. Este próximo domingo 25 de octubre, a partir de las 15:00 horas, la zona central...",
+   "generado": "2026-10-23T13:48:55.272Z",
+   "id": "web:e92d7cef-125b-45bf-8655-591a3ccc565b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_49589be15f10431e86c5c13bb4137e66~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "volanta": "Chivilcoy · Educación"
+  },
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": {
    "categoria": "nacionales",
    "descripcion": "Diferentes referentes del espacio justicialista conmemoraron el 17 de Octubre con llamados a la cohesión partidaria, críticas al escenario actual y…",
@@ -13790,22 +13830,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 230,
-   "segundos": 38397,
+   "restantes": 229,
+   "segundos": 37194,
    "tope": 250
   },
   "30d": {
-   "restantes": 2209,
-   "segundos": 1582211,
+   "restantes": 2208,
+   "segundos": 1581009,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T13:40:30.000Z",
+ "cuota_visto": "2026-10-23T14:00:32.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16841,6 +16881,62 @@
    "vence": "2026-10-23T15:24:16.000Z",
    "video_bytes": 809946,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7f175522a50a20db.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok": {
+   "actualizado": "2026-10-23T14:00:23.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
+   "creado": "2026-10-23T14:00:23.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T13:51:39.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal\n\nEl domingo se realizará la Primera Feria de Cooperadoras Escolares en la Plaza 25 de Mayo. En el marco del 172° aniversario de Chivilcoy y del Mes de la Cooperación Escolar, el espacio albergará una jornada comunitaria con 17 instituciones educativas, espectáculos y reinauguración.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-25T13:51:39.000Z",
+   "video_bytes": 664294,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a22d7b26f649a73f.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x": {
+   "actualizado": "2026-10-23T14:00:31.000Z",
+   "buffer_id": "6adb68806bf37011a37a5aa0",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
+   "creado": "2026-10-23T14:00:23.000Z",
+   "dueAt": "2026-10-23T14:02:35.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T13:51:39.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "noticia": "nota:chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal\n\nEl domingo se realizará la Primera Feria de Cooperadoras Escolares en la Plaza 25 de Mayo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-23T15:51:39.000Z",
+   "video_bytes": 664294,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a22d7b26f649a73f.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -38531,6 +38627,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x": {
+   "actualizado": "2026-10-23T14:00:23.000Z",
+   "buffer_id": "",
+   "clave": "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x",
+   "creado": "2026-10-23T14:00:23.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T13:48:55.272Z",
+   "id": "web:e92d7cef-125b-45bf-8655-591a3ccc565b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "noticia": "nota:chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-23T17:48:55.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11|x": {
    "actualizado": "2026-10-18T16:20:14.000Z",
    "buffer_id": "6ad4cc3e938409f1d0d14c8b",
@@ -39323,30 +39444,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:43c837025338a70a|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:54abafdb21dc7c6a|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:588268bbf306f395|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:677e9def2f7175b0|tiktok",
-   "cuando": "2026-10-20T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
   {
    "clave": "nacionales:8f3dac102e5cdee4|tiktok",
    "cuando": "2026-10-20T09:00:31.000Z",
@@ -43452,6 +43549,37 @@
    "cuando": "2026-10-23T13:40:30.000Z",
    "dueAt": "2026-10-23T13:48:30.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
+   "cuando": "2026-10-23T14:00:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
+   "cuando": "2026-10-23T14:00:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x",
+   "cuando": "2026-10-23T14:00:31.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adb68806bf37011a37a5aa0",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
+   "cuando": "2026-10-23T14:00:32.000Z",
+   "dueAt": "2026-10-23T14:02:35.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43525,6 +43653,7 @@
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg": "2026-10-23T13:20:15.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9": "2026-10-23T13:20:15.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01": "2026-10-23T13:40:14.000Z",
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei": "2026-10-23T14:00:23.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -44182,6 +44311,7 @@
   "web:e80eb9f8-449c-4d4b-a410-387331e0d747": "2026-10-16T13:20:18.000Z",
   "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101": "2026-10-19T13:20:16.000Z",
   "web:e883209a-2652-420f-bb41-8ef9185d415e": "2026-10-14T10:20:15.000Z",
+  "web:e92d7cef-125b-45bf-8655-591a3ccc565b": "2026-10-23T14:00:23.000Z",
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": "2026-10-16T14:00:21.000Z",
