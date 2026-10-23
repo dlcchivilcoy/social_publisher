@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 5
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-23T21:40:15.000Z"
+   "visto": "2026-10-23T22:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T21:40:15.000Z"
+   "visto": "2026-10-23T22:40:19.000Z"
   }
  },
  "contenidos": {
@@ -1122,6 +1122,27 @@
    "video_mb": 0.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f5adb33329c1e452.mp4",
    "youtube_url": "https://www.youtube.com/shorts/CqLNBGF6QB8"
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm": {
+   "descripcion": "Medallero Chivilcoy 2026 (Total: 17)\n\nMedallas de oro (6):\n• Atletismo en 400 metros sub-18.\n• Magali Cortiana (patín artístico).\n• Tejo intergeneracional: Raúl Miguez y Josemir Montalbano.\n• Salto en largo.\n• Bochas intergeneracional.\n• Básquet 3x3 sub-14 masculino.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-23T22:24:12.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva",
+   "urgente": false,
+   "video_bytes": 867723,
+   "video_mb": 0.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e4bed9aec22c41f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/USn6C5ooMTI"
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
@@ -13241,6 +13262,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9": {
+   "categoria": "",
+   "descripcion": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva Medallero Chivilcoy 2026 (Total: 17) Medallas de oro (6): • Atletismo en 400 metros sub-18. • Magali Cortiana (patín artístico). • Tejo intergeneracional: Raúl Miguez y Josemir Montalbano. • Salto en largo. • Bochas intergeneracional. • Básquet 3x3 sub-14 masculino. Medallas de plata (4): • Atletismo: salto en alto sub-16. • Ramon Marzano y Hugo Torres (escoba de 15). • Básquet 3x3 sub-14 femenino. • Básquet sub-16 masculino....",
+   "generado": "2026-10-23T22:22:01.565Z",
+   "id": "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_febb955494ec4ff9a5f5407a6374a391~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": {
    "categoria": "nacionales",
    "descripcion": "La diputada libertaria se refirió a las elecciones de 2027 y respaldó un binomio presidencial integrado por el mandatario y la senadora. Además, cuestionó…",
@@ -13627,22 +13667,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 216,
-   "segundos": 9610,
+   "restantes": 214,
+   "segundos": 6006,
    "tope": 250
   },
   "30d": {
-   "restantes": 2195,
-   "segundos": 1553425,
+   "restantes": 2193,
+   "segundos": 1549821,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T21:40:15.000Z",
+ "cuota_visto": "2026-10-23T22:40:20.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16770,19 +16810,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tiktok": {
-   "actualizado": "2026-10-23T21:00:19.000Z",
+   "actualizado": "2026-10-23T22:40:19.000Z",
    "buffer_id": "6adbcae63d5b27036b50a839",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tiktok",
    "creado": "2026-10-23T19:00:17.000Z",
    "dueAt": "2026-10-23T21:43:12.000Z",
+   "enviado": "2026-10-23T21:44:57.866Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T18:56:51.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699982126430555413",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16882,6 +16923,62 @@
    "vence": "2026-10-23T21:32:58.000Z",
    "video_bytes": 677394,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f5adb33329c1e452.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok": {
+   "actualizado": "2026-10-23T22:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok",
+   "creado": "2026-10-23T22:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T22:24:12.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva\n\nMedallero Chivilcoy 2026 (Total: 17) Medallas de oro (6): • Atletismo en 400 metros sub-18. • Magali Cortiana (patín artístico). • Tejo intergeneracional: Raúl Miguez y Josemir Montalbano. • Salto en largo. • Bochas intergeneracional. • Básquet 3x3 sub-14 masculino.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva",
+   "urgente": false,
+   "vence": "2026-10-25T22:24:12.000Z",
+   "video_bytes": 867723,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e4bed9aec22c41f.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x": {
+   "actualizado": "2026-10-23T22:40:20.000Z",
+   "buffer_id": "6adbe254e4be8a4d862b540a",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
+   "creado": "2026-10-23T22:40:17.000Z",
+   "dueAt": "2026-10-23T22:42:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T22:24:12.000Z",
+   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva\n\nLa ciudad logró seis preseas de oro en distintas disciplinas. Entre los ganadores estuvieron Magali Cortiana, Raúl Miguez y Josemir Montalbano.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva",
+   "urgente": false,
+   "vence": "2026-10-24T00:24:12.000Z",
+   "video_bytes": 867723,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e4bed9aec22c41f.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -38442,6 +38539,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9|x": {
+   "actualizado": "2026-10-23T22:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9|x",
+   "creado": "2026-10-23T22:40:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T22:22:01.565Z",
+   "id": "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva",
+   "urgente": false,
+   "vence": "2026-10-24T02:22:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b|x": {
    "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "",
@@ -39057,38 +39179,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5c389835-1655-4415-b7ad-23045aa7c3ca|x",
-   "cuando": "2026-10-20T13:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "los últimos 6 lugares de las 24 h quedan para los reels virales"
-  },
-  {
-   "clave": "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x",
-   "cuando": "2026-10-20T13:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "los últimos 6 lugares de las 24 h quedan para los reels virales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|tiktok",
-   "cuando": "2026-10-20T13:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698735568456273173"
-  },
-  {
-   "buffer_id": "6ad76a90ff291a23994f7376",
-   "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
-   "cuando": "2026-10-20T13:20:19.000Z",
-   "dueAt": "2026-10-20T13:23:53.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad76a90892e8621b52c841c",
-   "clave": "web:5253b590-963f-4a40-8acf-18a1f53713b5|x",
-   "cuando": "2026-10-20T13:20:19.000Z",
-   "dueAt": "2026-10-20T13:38:56.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad76a91029e8e5ef9920a24",
    "clave": "web:85b0f263-df46-4783-b4dd-311f977e50c9|x",
@@ -43205,6 +43295,43 @@
    "cuando": "2026-10-23T22:20:23.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
+   "cuando": "2026-10-23T22:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok",
+   "cuando": "2026-10-23T22:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9|x",
+   "cuando": "2026-10-23T22:40:19.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tiktok",
+   "cuando": "2026-10-23T22:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699982126430555413"
+  },
+  {
+   "buffer_id": "6adbe254e4be8a4d862b540a",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
+   "cuando": "2026-10-23T22:40:20.000Z",
+   "dueAt": "2026-10-23T22:42:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43225,7 +43352,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T21:40:15.000Z",
+ "ultima_sync": "2026-10-23T22:40:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43283,6 +43410,7 @@
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj": "2026-10-23T16:20:15.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3": "2026-10-23T19:00:17.000Z",
   "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62": "2026-10-23T19:40:20.000Z",
+  "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm": "2026-10-23T22:40:17.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -43961,6 +44089,7 @@
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
   "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a": "2026-10-19T01:00:18.000Z",
   "web:ec050eb7-2687-4bbf-8f0d-1f89558cbc14": "2026-10-13T10:20:16.000Z",
+  "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9": "2026-10-23T22:40:17.000Z",
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": "2026-10-16T15:40:14.000Z",
   "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": "2026-10-18T22:40:12.000Z",
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
