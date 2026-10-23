@@ -28503,15 +28503,15 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4"
   },
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok": {
-   "actualizado": "2026-10-23T00:20:14.000Z",
+   "actualizado": "2026-10-23T18:20:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
    "creado": "2026-10-23T00:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T00:00:55.000Z",
    "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
    "intentos": 0,
@@ -39309,14 +39309,6 @@
  },
  "registro": [
   {
-   "clave": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x",
-   "cuando": "2026-10-20T10:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
    "cuando": "2026-10-20T10:20:32.000Z",
    "estado": "pendiente",
@@ -43456,6 +43448,12 @@
    "cuando": "2026-10-23T18:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113684139249435055"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
+   "cuando": "2026-10-23T18:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

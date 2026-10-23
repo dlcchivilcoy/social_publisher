@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,8 +30,7 @@ Actualizado: 23/10/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2202 de 3000 (visto 2026-10-23T18:00:20.000Z)
 
-## Cola propia (17 esperando)
-- TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (16 esperando)
 - TikTok · Reels del bot · Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Club Independiente celebrará los 30 años de su escuela de fútbol — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -56,7 +55,6 @@ Actualizado: 23/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T15:00 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x 
 - 2026-10-23T15:00 enviado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x 
 - 2026-10-23T15:00 enviado nacionales:47f4536459d66a4a|tiktok 
 - 2026-10-23T16:20 entrevista_aprobada entrevistas:job00245 
@@ -81,3 +79,4 @@ Actualizado: 23/10/2026 15:00 (hora AR) · ACTIVO
 - 2026-10-23T18:00 enviado bot:video_matias-zucchi_mvl80hcengob_01.mp4|x 
 - 2026-10-23T18:00 enviado entrevistas:job00246|x 
 - 2026-10-23T18:00 enviado entrevistas:job00247|x 
+- 2026-10-23T18:20 vencido policiales:https://www.lamanana.com.ar/alerta-naranja-y-amar TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
