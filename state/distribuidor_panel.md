@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 5 | 2 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 23/10/2026 13:20 (hora AR) · ACTIVO
 | Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 30 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 31 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 23/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 227 de 250 · 30d: quedan 2206 de 3000 (visto 2026-10-23T16:20:21.000Z)
+15m: quedan 98 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2204 de 3000 (visto 2026-10-23T16:40:23.000Z)
 
 ## Cola propia (16 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,11 +55,6 @@ Actualizado: 23/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T13:40 recibido web:8a598b83-5323-45ea-98bb-999b66679299|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T13:40 recibido web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T13:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tikto 
-- 2026-10-23T13:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x 
-- 2026-10-23T13:40 enviado bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok 
 - 2026-10-23T13:40 enviado web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x 
 - 2026-10-23T13:40 enviado web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x 
 - 2026-10-23T13:40 enviado web:b9460b4c-9981-4efd-a82e-33108e7090de|x 
@@ -80,3 +75,8 @@ Actualizado: 23/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-23T16:20 recibido web:a88f249c-9e23-46be-8a40-bb31f049e2b7|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T16:20 programado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x 
 - 2026-10-23T16:20 programado entrevistas:job00245|x 
+- 2026-10-23T16:40 entrevista_aprobada entrevistas:job00246 
+- 2026-10-23T16:40 recibido entrevistas:job00246|x 
+- 2026-10-23T16:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x 
+- 2026-10-23T16:40 enviado entrevistas:job00245|x 
+- 2026-10-23T16:40 programado entrevistas:job00246|x 
