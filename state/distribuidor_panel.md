@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 07:03 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,13 +9,13 @@ Actualizado: 23/10/2026 07:03 (hora AR) · ACTIVO
 | Reels del bot | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 4 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 4 | 7 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 22 · likes 0
@@ -28,14 +28,17 @@ Actualizado: 23/10/2026 07:03 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2222 de 3000 (visto 2026-10-23T10:03:45.000Z)
+15m: quedan 98 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2220 de 3000 (visto 2026-10-23T10:20:43.000Z)
 
-## Cola propia (17 esperando)
+## Cola propia (20 esperando)
 - TikTok · Reels policiales · 🔴 URGENTE · Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos A — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Centro de Jubilados Jo.T.A. — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Rally de Chivilcoy: el recorrido y los horarios de la penúltima fecha de la temp — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Cosecha récord de medallas para Chivilcoy en la tercera jornada de los Juegos Bo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · “Construir un trazado simple en territorio pampeano puede demandar entre 1,6 y 2 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Auténtico y verdadero símbolo de Chivilcoy, se había inaugurado el 9 de julio de — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Chivilcoy sumó nueve medallas en diversas disciplinas deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientiza — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -56,12 +59,6 @@ Actualizado: 23/10/2026 07:03 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T01:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-r 
-- 2026-10-23T01:40 vencido policiales:https://www.diariodemocracia.com/policiales/34694 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-23T02:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|x 
-- 2026-10-23T02:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tikto 
-- 2026-10-23T02:00 recibido web:d02ad89e-79f9-411b-86f5-added49bc1ff|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T02:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|x 
 - 2026-10-23T02:00 programado policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a 
 - 2026-10-23T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq 
 - 2026-10-23T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq 
@@ -81,3 +78,9 @@ Actualizado: 23/10/2026 07:03 (hora AR) · ACTIVO
 - 2026-10-23T10:03 programado web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x 
 - 2026-10-23T10:03 programado web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x 
 - 2026-10-23T10:03 programado web:1deb9aa6-a333-4510-9fa6-def9de7621af|x 
+- 2026-10-23T10:20 recibido web:92c264ae-78ff-431e-bebc-0875504ae30a|x 
+- 2026-10-23T10:20 recibido web:b9460b4c-9981-4efd-a82e-33108e7090de|x 
+- 2026-10-23T10:20 recibido web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x 
+- 2026-10-23T10:20 recibido web:dd86062e-10d5-470e-a60e-27533841a020|x 
+- 2026-10-23T10:20 enviado web:1df540af-0585-4bf5-9430-5b0234724aff|x 
+- 2026-10-23T10:20 programado web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x 

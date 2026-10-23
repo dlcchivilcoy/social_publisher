@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 8
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-23T02:40:15.000Z"
+   "visto": "2026-10-23T10:20:42.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-23T02:40:15.000Z"
+   "visto": "2026-10-23T10:20:42.000Z"
   }
  },
  "contenidos": {
@@ -6307,30 +6307,6 @@
    "volanta": "Incidentes en Junín",
    "youtube_url": "https://youtube.com/shorts/r1SmqarlQc4"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir": {
-   "categoria": "operativo_policial",
-   "descripcion": "Un jubilado fue detenido en una vivienda de la calle Peira tras amenazar con un arma blanca a su nuera y lesionar a dos agentes durante un operativo.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-13T00:42:48.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-arrestaron-a-un-hombre-de-70-anos-por-atacar-con-un-05c122",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "Un hombre de 70 años terminó detenido en Chacabuco tras un operativo policial.\n\nEl violento episodio ocurrió en una vivienda situada sobre la calle Peira al 300.\n\nTodo comenzó a las 18 horas del domingo a raíz de un llamado al sistema de emergencias.\n\nEl agresor hirió con un machete a su nuera de 33 años y a dos efectivos que intentaron reducirlo.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 70 años tras atacar a su nuera y a policías con un machete",
-   "urgente": false,
-   "video_bytes": 88539,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4",
-   "volanta": "Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/iOsrycryOeI"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu": {
    "categoria": "incendio",
    "descripcion": "Las llamas se desataron este lunes por la tarde en un depósito donde se almacenaba espeler de girasol. El foco ígneo fue controlado rápidamente y confirmaron que no hubo personas lesionadas.",
@@ -6626,30 +6602,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_01_chacabuco_cay-un-joven-de-19-a-os-tras-r.mp4",
    "volanta": "Robo en Salto",
    "youtube_url": "https://youtube.com/shorts/Te2eJStAxGQ"
-  },
-  "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html": {
-   "categoria": "operativo_policial",
-   "descripcion": "Un vecino de 31 años fue capturado en un allanamiento luego de intimidar a su expareja de 26 en la zona de calles Battilana y Bolivia. Secuestraron una moto y se investiga una causa por violencia familiar.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-13T00:42:49.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-31-anos-por-amenazar-a-su-153da2",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "Un operativo policial culminó con la aprehensión de un hombre de 31 años en la localidad de Junín.\n\nLa investigación se inició el Lunes, 12 de Octubre del 2026 a las 19:03 hs, a raíz de la denuncia de una joven de 26 años.\n\nEl sospechoso se presentó en su vivienda de calles Battilana y Bolivia, donde la intimidó verbalmente y le mostró un arma de fuego.\n\nTras un allanamiento en Bolivia al 1200, los efectivos secuestraron una motocicleta Mondial Max 110 cc gris y detuvieron al acusado.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Junín: aprehendieron a un hombre de 31 años tras amenazar a su expareja con un arma",
-   "urgente": false,
-   "video_bytes": 89877,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4",
-   "volanta": "Junín",
-   "youtube_url": "https://youtube.com/shorts/_n0du2_LAyw"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html": {
    "categoria": "operativo_policial",
@@ -11083,6 +11035,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/semana-caliente-en-el-congreso-debate-por-el-presupuesto-2027-5b60ff",
    "volanta": ""
   },
+  "web:92c264ae-78ff-431e-bebc-0875504ae30a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy celebra la tradición con el 5° Gran Encuentro Folklórico en la Plaza Principal",
+   "generado": "2026-10-23T10:03:21.453Z",
+   "id": "web:92c264ae-78ff-431e-bebc-0875504ae30a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_eef3fa3a4ce344b9874b88525d4ff1ef~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Centro de Jubilados Jo.T.A.",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
+   "volanta": ""
+  },
   "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf": {
    "categoria": "",
    "descripcion": "Álvaro Cortes presentó su tercer libro de poesía En las instalaciones de la Sociedad Francesa, Álvaro Cortes llevó a cabo la presentación de su tercer libro de poesía titulado «Cuando corten la música». Durante la jornada, el autor estuvo acompañado por Carla Chapetto, quien se encargó de entrevistarlo y de leer varios de sus poemas, con la ambientación musical a cargo de Santiago Chapetto. En relación con el proceso de creación literaria, Cortes reflexionó sobre la importancia de atender a...",
@@ -11136,6 +11107,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/feriado-del-12-de-octubre-que-se-conmemora-y-como-se-debe-2c8c0c",
    "volanta": ""
+  },
+  "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d": {
+   "categoria": "",
+   "descripcion": "Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del certamen y juegos directos por la clasificación La Liga Chivilcoyana de Fútbol programó una apasionante jornada que comenzará el sábado y se extenderá hasta el domingo, con partidos clave por el liderazgo, la clasificación a los playoffs y un clásico con clima encendido.   El Comité Ejecutivo de la Liga Chivilcoyana de Fútbol confirmó la programación oficial para la décima fecha del Torneo Clausura de Primera...",
+   "generado": "2026-10-23T10:02:59.083Z",
+   "id": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d34fc89815594488be1181bba6b2b802~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del certamen y juegos directos por la clasificación",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
+   "volanta": "Fútbol"
   },
   "web:9627f721-ec60-4caa-8de1-29648f987444": {
    "categoria": "",
@@ -12120,6 +12110,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/padel-juan-martin-bodda-en-dupla-con-ariel-zurraco-se-consagraron",
    "volanta": "Padel"
+  },
+  "web:b9460b4c-9981-4efd-a82e-33108e7090de": {
+   "categoria": "",
+   "descripcion": "La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre el escenario y  agregando un encuentro motero Luego de que las condiciones meteorológicas adversas obligaran a postergar la jornada prevista originalmente para el mes pasado, quedó confirmada la reprogramación de una nueva edición de La Pampa Rock en Chivilcoy. El festival, que conjuga música en vivo a cargo de agrupaciones locales con una variada serie de actividades al aire libre y propuestas para toda la...",
+   "generado": "2026-10-23T10:03:15.460Z",
+   "id": "web:b9460b4c-9981-4efd-a82e-33108e7090de",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_faa81da8f9d54c1080ea8029148e4490~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre el escenario y agregando un encuentro motero",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
+   "volanta": "Festival al aire libre"
   },
   "web:ba878935-3e6f-4357-a078-3447ed612c35": {
    "categoria": "nacionales",
@@ -13140,6 +13149,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inauguracion-oficial-el-arte-y-la-cultura-se-citan-en-chivilcoy-con",
    "volanta": "Inauguración oficial"
   },
+  "web:dd86062e-10d5-470e-a60e-27533841a020": {
+   "categoria": "",
+   "descripcion": "Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira triunfal La ciudad se prepara para vivir un fin de semana a puro básquet de máxima jerarquía. Luego de una exigente y exitosa gira por el norte del país, donde cosechó valiosas victorias en escenarios complejos frente a Oberá Tenis Club en Misiones y La Unión de Formosa, Racing de Chivilcoy regresa a su casa con el objetivo de consolidar su gran momento en la Liga Nacional. El estadio Grilón Arena volverá a abrir...",
+   "generado": "2026-10-23T10:02:52.690Z",
+   "id": "web:dd86062e-10d5-470e-a60e-27533841a020",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_862bc4940912414ab58b77899afe6f54~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-prueba-de-fuego-en-el-grilon-arena-racing-recibe-a-boca-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira triunfal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-prueba-de-fuego-en-el-grilon-arena-racing-recibe-a-boca-y",
+   "volanta": "Básquet"
+  },
   "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": {
    "categoria": "nacionales",
    "descripcion": "El oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella. El…",
@@ -13248,24 +13276,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/recambio-de-autoridades-matias-carrettoni-asumio-la-presidencia-de-la",
    "volanta": "Recambio de autoridades"
-  },
-  "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": {
-   "categoria": "",
-   "descripcion": "Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación A través de un comunicado firmado por su presidente, Carlos Jaunarena, la empresa constructora SENTRA S.A. respondió formalmente a las acusaciones realizadas por el concejal Martín Etcheverría. En el documento, la firma buscó llevar claridad a la comunidad de Chivilcoy respecto a su situación contable, la historia contractual de la obra del Complejo Federación y los detalles de la Adenda...",
-   "generado": "2026-10-12T10:02:37.030Z",
-   "id": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0c2c9b4b59c34441869e861356409933~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/sentra-respondieron-a-las-acusaciones-del-concejal-etcheverria-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sentra-respondieron-a-las-acusaciones-del-concejal-etcheverria-y",
-   "volanta": "SENTRA"
   },
   "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34": {
    "categoria": "nacionales",
@@ -13944,22 +13954,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 51402,
+   "restantes": 241,
+   "segundos": 50383,
    "tope": 250
   },
   "30d": {
-   "restantes": 2222,
-   "segundos": 1595216,
+   "restantes": 2220,
+   "segundos": 1594198,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T10:03:45.000Z",
+ "cuota_visto": "2026-10-23T10:20:43.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -27212,32 +27222,6 @@
    "video_bytes": 83629,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1509_06_chacabuco_descontrol-gases-y-corridas-en.mp4"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x": {
-   "actualizado": "2026-10-13T10:20:19.000Z",
-   "buffer_id": "6acdf3275540c90f0a846084",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir|x",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T10:15:34.000Z",
-   "enviado": "2026-10-13T10:15:49.242Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:48.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109951230378164675",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-arrestaron-a-un-hombre-de-70-anos-por-atacar-con-un-05c122",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Aprehendieron a un hombre de 70 años tras atacar a su nuera y a policías con un machete\n\nUn jubilado fue detenido en una vivienda de la calle Peira tras amenazar con un arma blanca a su nuera y lesionar a dos agentes durante…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chacabuco-arrestaron-a-un-hombre-de-70-anos-por-atacar-con-un-05c122\n#Chacabuco",
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 70 años tras atacar a su nuera y a policías con un machete",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:48.000Z",
-   "video_bytes": 88539,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_06_chacabuco_aprehendieron-a-un-hombre-de-7.mp4"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu|tiktok": {
    "actualizado": "2026-10-13T12:40:16.000Z",
    "buffer_id": "6acdf32be43d40721c7e11ed",
@@ -27908,32 +27892,6 @@
    "video_bytes": 73242,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_01_chacabuco_cay-un-joven-de-19-a-os-tras-r.mp4",
    "viral": false
-  },
-  "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x": {
-   "actualizado": "2026-10-13T10:20:19.000Z",
-   "buffer_id": "6acdf3265167b5c45eb291e5",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html|x",
-   "creado": "2026-10-13T01:00:18.000Z",
-   "dueAt": "2026-10-13T10:00:16.000Z",
-   "enviado": "2026-10-13T10:02:57.771Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T00:42:49.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2109947994808213548",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-31-anos-por-amenazar-a-su-153da2",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Junín: aprehendieron a un hombre de 31 años tras amenazar a su expareja con un arma\n\nUn vecino de 31 años fue capturado en un allanamiento luego de intimidar a su expareja de 26 en la zona de calles Battilana y Bolivia.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-31-anos-por-amenazar-a-su-153da2",
-   "tipo": "video",
-   "titulo": "Junín: aprehendieron a un hombre de 31 años tras amenazar a su expareja con un arma",
-   "urgente": false,
-   "vence": "2026-10-13T18:42:49.000Z",
-   "video_bytes": 89877,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-13_0009_12_junin_jun-n-aprehendieron-a-un-hombr.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok": {
    "actualizado": "2026-10-14T12:40:21.000Z",
@@ -30439,19 +30397,20 @@
    "viral": false
   },
   "web:1df540af-0585-4bf5-9430-5b0234724aff|x": {
-   "actualizado": "2026-10-23T10:03:44.000Z",
+   "actualizado": "2026-10-23T10:20:42.000Z",
    "buffer_id": "6adb3100e4169c55aabdda8a",
    "clave": "web:1df540af-0585-4bf5-9430-5b0234724aff|x",
    "creado": "2026-10-23T10:02:47.000Z",
    "dueAt": "2026-10-23T10:07:57.000Z",
+   "enviado": "2026-10-23T10:08:01.819Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T10:01:37.767Z",
    "id": "web:1df540af-0585-4bf5-9430-5b0234724aff",
    "ig_hora": "2026-10-23T10:07:37.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113573147807002830",
    "nota_url": "https://www.diariolacampaña.com.ar/n/allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
    "noticia": "nota:allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
    "origen": "web",
@@ -35271,6 +35230,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:92c264ae-78ff-431e-bebc-0875504ae30a|x": {
+   "actualizado": "2026-10-23T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:92c264ae-78ff-431e-bebc-0875504ae30a|x",
+   "creado": "2026-10-23T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T10:03:21.453Z",
+   "id": "web:92c264ae-78ff-431e-bebc-0875504ae30a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
+   "noticia": "nota:centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Centro de Jubilados Jo.T.A.\n\nChivilcoy celebra la tradición con el 5° Gran Encuentro Folklórico. La fiesta se realiza en la Plaza Principal.\n\nhttps://www.diariolacampaña.com.ar/n/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Centro de Jubilados Jo.T.A.",
+   "urgente": false,
+   "vence": "2026-10-23T14:03:21.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x": {
    "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad49d5d0b0d72757a192340",
@@ -35356,6 +35343,35 @@
    "vence": "2026-10-13T12:06:31.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x": {
+   "actualizado": "2026-10-23T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
+   "creado": "2026-10-23T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T10:02:59.083Z",
+   "id": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d",
+   "ig_hora": "2026-10-23T12:52:37.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
+   "noticia": "nota:futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del certamen y juegos directos por la clasificación\n\nhttps://www.diariolacampaña.com.ar/n/futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del certamen y juegos directos por la clasificación",
+   "urgente": false,
+   "vence": "2026-10-23T14:02:59.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:9627f721-ec60-4caa-8de1-29648f987444|x": {
    "actualizado": "2026-10-20T10:21:12.000Z",
@@ -36872,6 +36888,35 @@
    "vence": "2026-10-16T10:09:00.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:b9460b4c-9981-4efd-a82e-33108e7090de|x": {
+   "actualizado": "2026-10-23T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
+   "creado": "2026-10-23T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T10:03:15.460Z",
+   "id": "web:b9460b4c-9981-4efd-a82e-33108e7090de",
+   "ig_hora": "2026-10-23T13:22:37.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
+   "noticia": "nota:festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre el escenario y agregando un encuentro motero\n\nhttps://www.diariolacampaña.com.ar/n/festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La Pampa Rock reprogramó su fecha manteniendo su esencia de bandas locales sobre el escenario y agregando un encuentro motero",
+   "urgente": false,
+   "vence": "2026-10-23T14:22:37.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:ba878935-3e6f-4357-a078-3447ed612c35|x": {
    "actualizado": "2026-10-14T21:20:15.000Z",
@@ -38404,6 +38449,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:dd86062e-10d5-470e-a60e-27533841a020|x": {
+   "actualizado": "2026-10-23T10:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:dd86062e-10d5-470e-a60e-27533841a020|x",
+   "creado": "2026-10-23T10:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T10:02:52.690Z",
+   "id": "web:dd86062e-10d5-470e-a60e-27533841a020",
+   "ig_hora": "2026-10-23T12:37:37.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-prueba-de-fuego-en-el-grilon-arena-racing-recibe-a-boca-y",
+   "noticia": "nota:basquet-prueba-de-fuego-en-el-grilon-arena-racing-recibe-a-boca-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira triunfal\n\nTras una exitosa gira por el norte del país, Racing de Chivilcoy regresa a su casa para consolidar su momento en la Liga Nacional.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-prueba-de-fuego-en-el-grilon-arena-racing-recibe-a-boca-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira triunfal",
+   "urgente": false,
+   "vence": "2026-10-23T14:02:52.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x": {
    "actualizado": "2026-10-19T18:20:17.000Z",
    "buffer_id": "",
@@ -38559,31 +38633,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x": {
-   "actualizado": "2026-10-13T10:20:19.000Z",
-   "buffer_id": "",
-   "clave": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3|x",
-   "creado": "2026-10-12T10:20:17.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-12T10:02:37.030Z",
-   "id": "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/sentra-respondieron-a-las-acusaciones-del-concejal-etcheverria-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación\n\nA través de un comunicado firmado por su presidente, Carlos Jaunarena, la empresa constructora SENTRA S.A.\n\nhttps://www.diariolacampaña.com.ar/n/sentra-respondieron-a-las-acusaciones-del-concejal-etcheverria-y",
-   "tipo": "nota",
-   "titulo": "Respondieron a las acusaciones del concejal Etcheverría y aclararon la situación del Complejo Federación",
-   "urgente": false,
-   "vence": "2026-10-13T10:02:37.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:e03b5e39-743f-48de-bbd5-c3b9bec31a34|x": {
    "actualizado": "2026-10-20T15:20:17.000Z",
    "buffer_id": "6ad76a92fcb5599ad93b81a4",
@@ -38668,14 +38717,14 @@
    "video_url": ""
   },
   "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x": {
-   "actualizado": "2026-10-23T10:02:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T10:20:43.000Z",
+   "buffer_id": "6adb34fb50cce2289e0c8032",
    "clave": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x",
    "creado": "2026-10-23T10:02:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T11:37:00.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:02:20.208Z",
    "id": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b",
    "ig_hora": "2026-10-23T11:37:37.000Z",
@@ -39642,43 +39691,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00229|x",
-   "cuando": "2026-10-20T00:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112321809802498295"
-  },
-  {
-   "clave": "nacionales:9cae8a7fbd11ec6c|tiktok",
-   "cuando": "2026-10-20T00:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698534033801678101"
-  },
-  {
-   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|x",
-   "cuando": "2026-10-20T00:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112319330205532283"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x",
-   "cuando": "2026-10-20T00:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112330972699955454"
-  },
-  {
-   "buffer_id": "6ad6b3c32fcafd0f1842313c",
-   "clave": "nacionales:42bad0f0b5785838|x",
-   "cuando": "2026-10-20T00:20:20.000Z",
-   "dueAt": "2026-10-20T00:23:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|tiktok",
-   "cuando": "2026-10-20T00:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
   {
    "clave": "web:593361c2-110f-4e68-b565-1c86df54fffe|x",
    "cuando": "2026-10-20T00:40:15.000Z",
@@ -43761,6 +43773,51 @@
    "cuando": "2026-10-23T10:03:45.000Z",
    "dueAt": "2026-10-23T11:22:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:92c264ae-78ff-431e-bebc-0875504ae30a|x",
+   "cuando": "2026-10-23T10:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
+   "cuando": "2026-10-23T10:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
+   "cuando": "2026-10-23T10:20:39.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:dd86062e-10d5-470e-a60e-27533841a020|x",
+   "cuando": "2026-10-23T10:20:42.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1df540af-0585-4bf5-9430-5b0234724aff|x",
+   "cuando": "2026-10-23T10:20:43.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113573147807002830"
+  },
+  {
+   "buffer_id": "6adb34fb50cce2289e0c8032",
+   "clave": "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b|x",
+   "cuando": "2026-10-23T10:20:43.000Z",
+   "dueAt": "2026-10-23T11:37:00.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43779,7 +43836,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T02:40:15.000Z",
+ "ultima_sync": "2026-10-23T10:20:42.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -44340,9 +44397,11 @@
   "web:91984193-d136-423a-8896-e837bb387c4a": "2026-10-16T10:20:16.000Z",
   "web:92431890-c8e8-4999-9e83-03174b736b52": "2026-10-14T10:20:15.000Z",
   "web:927118e7-c2d0-4dcd-b107-70f5e84dc1d9": "2026-10-12T21:20:14.000Z",
+  "web:92c264ae-78ff-431e-bebc-0875504ae30a": "2026-10-23T10:20:15.000Z",
   "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf": "2026-10-18T00:40:14.000Z",
   "web:94f11536-c6e6-485e-b136-564a4c85d23b": "2026-10-15T10:20:13.000Z",
   "web:956456a1-039d-48b3-a3ac-13c1f4a6ef75": "2026-10-12T12:20:13.000Z",
+  "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d": "2026-10-23T10:20:15.000Z",
   "web:9627f721-ec60-4caa-8de1-29648f987444": "2026-10-19T10:20:14.000Z",
   "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef": "2026-10-16T10:20:16.000Z",
   "web:975c6fd2-4e78-4b7d-b793-7760379b7320": "2026-10-16T10:20:16.000Z",
@@ -44399,6 +44458,7 @@
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": "2026-10-19T23:40:17.000Z",
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410": "2026-10-15T10:20:13.000Z",
+  "web:b9460b4c-9981-4efd-a82e-33108e7090de": "2026-10-23T10:20:15.000Z",
   "web:ba878935-3e6f-4357-a078-3447ed612c35": "2026-10-13T21:20:15.000Z",
   "web:ba897d31-ac41-4f84-8f0c-c7ed0f8e504d": "2026-10-21T00:40:14.000Z",
   "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": "2026-10-15T00:00:18.000Z",
@@ -44462,6 +44522,7 @@
   "web:dca831fd-6866-464f-a367-e6b85d1a5640": "2026-10-15T23:40:15.000Z",
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": "2026-10-15T18:20:17.000Z",
   "web:dd7f1568-1a2a-4716-94cc-9e7125c22801": "2026-10-16T10:20:16.000Z",
+  "web:dd86062e-10d5-470e-a60e-27533841a020": "2026-10-23T10:20:15.000Z",
   "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": "2026-10-18T18:20:15.000Z",
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": "2026-10-15T10:20:13.000Z",
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
