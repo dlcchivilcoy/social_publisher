@@ -1858,6 +1858,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c11de0f592000205.mp4",
    "youtube_url": "https://www.youtube.com/shorts/U0ps4NO5dpg"
   },
+  "bot:video_matias-zucchi_mvl80hcengob_01.mp4": {
+   "descripcion": "Jorge Ponte y Marcos Curioni se consagraron campeones y obtuvieron la medalla de oro en la disciplina de bochas intergeneracional.\n\nLa dupla representó a la ciudad en la competencia y alcanzó el máximo galardón tras destacarse en su categoría.\n\nDurante el acto de premiación, estuvo presente el coordinador de Deportes del municipio, Emilio Calabelli, quien acompañó a los deportistas en el reconocimiento por el logro obtenido.",
+   "duracion_seg": 95.2,
+   "generado": "2026-10-23T17:11:14.000Z",
+   "id": "bot:video_matias-zucchi_mvl80hcengob_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
+   "urgente": false,
+   "video_bytes": 13864521,
+   "video_mb": 13.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fc7659fb9b35b992.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ZKje57i1duM"
+  },
   "entrevistas:job00192": {
    "descripcion": "En Chivilcoy, el especialista en Seguridad e Higiene Erardo Spinelli explicó cómo el estrés laboral crónico puede derivar en burnout y depresión. También detalló qué acciones pueden implementar las empresas para contrarrestarlo.",
    "duracion_seg": null,
@@ -2677,6 +2698,26 @@
    "video_mb": 33.3,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00246.mp4",
    "youtube_url": "https://youtu.be/jF63hrWzZ0w"
+  },
+  "entrevistas:job00247": {
+   "descripcion": "Natalia Rodriguez, referente del área comunitaria de Cruz Roja Filial Chivilcoy, convocó a sumarse como voluntario a partir de los 16 años. Explicó que se puede participar en diversas áreas según la vocación de cada persona.",
+   "duracion_seg": null,
+   "entrevistado": "Natalia Rodriguez",
+   "generado": "2026-10-23T17:20:14.000Z",
+   "id": "entrevistas:job00247",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Natalia Rodriguez: Cómo ser voluntario en Cruz Roja",
+   "urgente": false,
+   "video_bytes": 31380616,
+   "video_mb": 29.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00247.mp4",
+   "youtube_url": "https://youtu.be/y8bRIy3qdEQ"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -10137,6 +10178,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da": {
+   "categoria": "",
+   "descripcion": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas Jorge Ponte y Marcos Curioni lograron la medalla de oro en la disciplina bochas intergeneracional. En la premiación estuvo presente el coordinador de Deportes de Chivilcoy, Emilio Calabelli.",
+   "generado": "2026-10-23T17:10:26.683Z",
+   "id": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b137bc95281f49d88f85e415b0f64e0a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d": {
    "categoria": "",
    "descripcion": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín Reconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín. La deportista se ubicó como la segunda mejor argentina en una de las ocho maratones más importantes del mundo, que reunió a más de 60.000 corredores. Durante el encuentro, compartió su experiencia y destacó la importancia de la preparación y la práctica responsable del running. El intendente Guillermo...",
@@ -13793,22 +13853,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 27604,
+   "restantes": 224,
+   "segundos": 25199,
    "tope": 250
   },
   "30d": {
-   "restantes": 2204,
-   "segundos": 1571418,
+   "restantes": 2203,
+   "segundos": 1569014,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T16:40:23.000Z",
+ "cuota_visto": "2026-10-23T17:20:28.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -19449,6 +19509,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c11de0f592000205.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok": {
+   "actualizado": "2026-10-23T17:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok",
+   "creado": "2026-10-23T17:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T17:11:14.000Z",
+   "id": "bot:video_matias-zucchi_mvl80hcengob_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas\n\nJorge Ponte y Marcos Curioni se consagraron campeones y obtuvieron la medalla de oro en la disciplina de bochas intergeneracional. La dupla representó a la ciudad en la competencia y alcanzó el máximo galardón tras destacarse en su categoría. Durante el acto de premiación, estuvo presente el coordinador de Deportes del municipio, Emilio Calabelli, quien acompañó a los deportistas en el reconocimiento por el logro obtenido.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
+   "urgente": false,
+   "vence": "2026-10-25T17:11:14.000Z",
+   "video_bytes": 13864521,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fc7659fb9b35b992.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvl80hcengob_01.mp4|x": {
+   "actualizado": "2026-10-23T17:20:25.000Z",
+   "buffer_id": "6adb975b0b5343d07040c5b2",
+   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|x",
+   "creado": "2026-10-23T17:20:14.000Z",
+   "dueAt": "2026-10-23T17:22:54.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T17:11:14.000Z",
+   "id": "bot:video_matias-zucchi_mvl80hcengob_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas\n\nLa dupla representó a la ciudad en la disciplina intergeneracional y logró el máximo galardón. El coordinador de Deportes municipal, Emilio Calabelli, los acompañó en la premiación.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
+   "urgente": false,
+   "vence": "2026-10-23T19:11:14.000Z",
+   "video_bytes": 13864521,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fc7659fb9b35b992.mp4",
+   "viral": false
+  },
   "entrevistas:job00192|x": {
    "actualizado": "2026-10-13T20:00:29.000Z",
    "buffer_id": "6ace68510b1619ab656aa069",
@@ -20775,6 +20891,34 @@
    "vence": "2026-10-23T18:40:15.000Z",
    "video_bytes": 34865467,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00246.mp4",
+   "viral": false
+  },
+  "entrevistas:job00247|x": {
+   "actualizado": "2026-10-23T17:20:25.000Z",
+   "buffer_id": "6adb975bbd33ce99c3e0eb3d",
+   "clave": "entrevistas:job00247|x",
+   "creado": "2026-10-23T17:20:14.000Z",
+   "dueAt": "2026-10-23T17:28:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-23T17:20:14.000Z",
+   "id": "entrevistas:job00247",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:cruz-natalia-rodriguez-roja-voluntario",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Natalia Rodriguez: Cómo ser voluntario en Cruz Roja\n\nDesde Cruz Roja Chivilcoy convocan a personas desde los 16 años para sumarse como voluntarias. Explicaron que se puede participar en diversas áreas según la vocación.\n\nhttps://youtu.be/y8bRIy3qdEQ",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Natalia Rodriguez: Cómo ser voluntario en Cruz Roja",
+   "urgente": false,
+   "vence": "2026-10-23T19:20:14.000Z",
+   "video_bytes": 31380616,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00247.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -33749,6 +33893,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x": {
+   "actualizado": "2026-10-23T17:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x",
+   "creado": "2026-10-23T17:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-23T17:10:26.683Z",
+   "id": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
+   "urgente": false,
+   "vence": "2026-10-23T21:10:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d|x": {
    "actualizado": "2026-10-17T15:40:15.000Z",
    "buffer_id": "",
@@ -39372,53 +39541,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad72db0ed43fb48e28f923e",
-   "clave": "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x",
-   "cuando": "2026-10-20T09:00:32.000Z",
-   "dueAt": "2026-10-20T10:00:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad72db0dd13ed293956cbdb",
-   "clave": "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x",
-   "cuando": "2026-10-20T09:00:32.000Z",
-   "dueAt": "2026-10-20T10:15:09.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad72db08c1133338d575ce3",
-   "clave": "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a|x",
-   "cuando": "2026-10-20T09:00:32.000Z",
-   "dueAt": "2026-10-20T10:30:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:cb2e9c67cd146106|tiktok",
-   "cuando": "2026-10-20T09:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "nacionales:f370b43343c04756|tiktok",
-   "cuando": "2026-10-20T09:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "buffer_id": "6ad7324ffc46f49b92850511",
-   "clave": "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3|x",
-   "cuando": "2026-10-20T09:20:16.000Z",
-   "dueAt": "2026-10-20T10:45:17.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad737000b25f71ece5873cf",
-   "clave": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x",
-   "cuando": "2026-10-20T09:40:16.000Z",
-   "dueAt": "2026-10-20T11:00:55.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "nacionales:dc18047933ea00df|tiktok",
    "cuando": "2026-10-20T10:00:20.000Z",
    "evento": "vencido",
@@ -43518,6 +43640,57 @@
    "cuando": "2026-10-23T16:40:23.000Z",
    "dueAt": "2026-10-23T16:42:58.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00247",
+   "cuando": "2026-10-23T17:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|x",
+   "cuando": "2026-10-23T17:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok",
+   "cuando": "2026-10-23T17:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "entrevistas:job00247|x",
+   "cuando": "2026-10-23T17:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x",
+   "cuando": "2026-10-23T17:20:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adb975b0b5343d07040c5b2",
+   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|x",
+   "cuando": "2026-10-23T17:20:28.000Z",
+   "dueAt": "2026-10-23T17:22:54.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb975bbd33ce99c3e0eb3d",
+   "clave": "entrevistas:job00247|x",
+   "cuando": "2026-10-23T17:20:28.000Z",
+   "dueAt": "2026-10-23T17:28:36.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43631,6 +43804,7 @@
   "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": "2026-10-22T17:00:19.000Z",
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4": "2026-10-23T00:40:14.000Z",
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4": "2026-10-23T13:40:14.000Z",
+  "bot:video_matias-zucchi_mvl80hcengob_01.mp4": "2026-10-23T17:20:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -43676,6 +43850,7 @@
   "entrevistas:job00244": "2026-10-22T20:00:17.000Z",
   "entrevistas:job00245": "2026-10-23T16:20:15.000Z",
   "entrevistas:job00246": "2026-10-23T16:40:15.000Z",
+  "entrevistas:job00247": "2026-10-23T17:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -44057,6 +44232,7 @@
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": "2026-10-13T10:20:16.000Z",
   "web:7848aaf4-d1b7-4d04-8b54-c44f6e37aaba": "2026-10-12T10:20:17.000Z",
   "web:78916e74-3542-4bb3-a594-1c57aa500533": "2026-10-20T14:00:21.000Z",
+  "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da": "2026-10-23T17:20:14.000Z",
   "web:79374449-0d19-4bc1-8bac-ee1a849f1966": "2026-10-13T10:20:16.000Z",
   "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d": "2026-10-16T15:40:14.000Z",
   "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": "2026-10-20T10:20:14.000Z",
