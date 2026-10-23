@@ -15,7 +15,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-23T19:20:21.000Z"
+   "visto": "2026-10-23T20:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T19:20:21.000Z"
+   "visto": "2026-10-23T20:40:13.000Z"
   }
  },
  "contenidos": {
@@ -13657,17 +13657,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 219,
-   "segundos": 15596,
+   "restantes": 218,
+   "segundos": 13213,
    "tope": 250
   },
   "30d": {
-   "restantes": 2198,
-   "segundos": 1559411,
+   "restantes": 2197,
+   "segundos": 1557028,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T20:00:30.000Z",
+ "cuota_visto": "2026-10-23T20:40:13.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16880,18 +16880,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x": {
-   "actualizado": "2026-10-23T19:40:33.000Z",
+   "actualizado": "2026-10-23T20:40:13.000Z",
    "buffer_id": "6adbb8310b5343d07049c98e",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
    "creado": "2026-10-23T19:40:20.000Z",
    "dueAt": "2026-10-23T19:42:12.000Z",
+   "enviado": "2026-10-23T19:42:19.366Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T19:32:58.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113717674135978432",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
    "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
    "origen": "bot",
@@ -19507,18 +19508,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x": {
-   "actualizado": "2026-10-23T20:00:29.000Z",
+   "actualizado": "2026-10-23T20:40:13.000Z",
    "buffer_id": "6adbbcdee4be8a4d8623485a",
    "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x",
    "creado": "2026-10-23T20:00:19.000Z",
    "dueAt": "2026-10-23T20:02:56.000Z",
+   "enviado": "2026-10-23T20:03:08.116Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T19:56:14.000Z",
    "id": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113722911693414626",
    "nota_url": "",
    "noticia": "titulo:chivilcoy-diez-especiales-pruebas-rally-semana-tendra",
    "origen": "bot",
@@ -39046,18 +39048,6 @@
  },
  "registro": [
   {
-   "clave": "web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x",
-   "cuando": "2026-10-20T10:21:12.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:b4cfec79-0715-4512-9344-baf46d5042d1|x",
-   "cuando": "2026-10-20T10:21:12.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
    "clave": "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765|x",
    "cuando": "2026-10-20T10:21:12.000Z",
    "evento": "vencido",
@@ -43188,6 +43178,18 @@
    "cuando": "2026-10-23T20:20:14.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
+   "cuando": "2026-10-23T20:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113717674135978432"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x",
+   "cuando": "2026-10-23T20:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113722911693414626"
   }
  ],
  "tandas": {
@@ -43207,7 +43209,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T19:20:21.000Z",
+ "ultima_sync": "2026-10-23T20:40:13.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
