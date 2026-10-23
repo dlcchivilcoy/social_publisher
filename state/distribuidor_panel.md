@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 9 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 5 | 2 | 3 | 7 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 5 | 4 | 1 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
@@ -15,7 +15,7 @@ Actualizado: 23/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 5 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 22 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 23/10/2026 18:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2196 de 3000 (visto 2026-10-23T21:00:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 216 de 250 · 30d: quedan 2195 de 3000 (visto 2026-10-23T21:40:15.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,8 +52,6 @@ Actualizado: 23/10/2026 18:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T18:20 vencido policiales:https://www.lamanana.com.ar/alerta-naranja-y-amar TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-23T19:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x 
 - 2026-10-23T19:00 recibido bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tikto 
 - 2026-10-23T19:00 recibido web:07ef819a-940d-48e5-aee9-922cce690ab8|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T19:00 vencido policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-a TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -77,3 +75,5 @@ Actualizado: 23/10/2026 18:20 (hora AR) · ACTIVO
 - 2026-10-23T21:20 recibido nacionales:5de2902aa9f0dc53|tiktok 
 - 2026-10-23T21:20 depurado nacionales:5de2902aa9f0dc53|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
 - 2026-10-23T21:20 depurado nacionales:5de2902aa9f0dc53|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-23T21:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tikto 
+- 2026-10-23T21:40 enviado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok 

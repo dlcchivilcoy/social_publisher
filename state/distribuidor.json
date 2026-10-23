@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 3
+    "scheduled": 1,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-23T20:40:13.000Z"
+   "visto": "2026-10-23T21:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T20:40:13.000Z"
+   "visto": "2026-10-23T21:40:15.000Z"
   }
  },
  "contenidos": {
@@ -13578,17 +13578,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 217,
-   "segundos": 12005,
+   "restantes": 216,
+   "segundos": 9610,
    "tope": 250
   },
   "30d": {
-   "restantes": 2196,
-   "segundos": 1555820,
+   "restantes": 2195,
+   "segundos": 1553425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T21:00:23.000Z",
+ "cuota_visto": "2026-10-23T21:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -16773,19 +16773,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok": {
-   "actualizado": "2026-10-23T21:00:19.000Z",
+   "actualizado": "2026-10-23T21:40:15.000Z",
    "buffer_id": "6adbcae6bd33ce99c3edfb2c",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok",
    "creado": "2026-10-23T19:40:20.000Z",
    "dueAt": "2026-10-23T21:23:24.000Z",
+   "enviado": "2026-10-23T21:25:12.668Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T19:32:58.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699977059396783380",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19401,19 +19402,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok": {
-   "actualizado": "2026-10-23T21:00:19.000Z",
+   "actualizado": "2026-10-23T21:40:15.000Z",
    "buffer_id": "6adbcae50b5343d0704dfdf1",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok",
    "creado": "2026-10-23T20:00:19.000Z",
    "dueAt": "2026-10-23T21:03:50.000Z",
+   "enviado": "2026-10-23T21:05:44.791Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T19:56:14.000Z",
    "id": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7699972055248178453",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -38894,18 +38896,6 @@
  },
  "registro": [
   {
-   "clave": "web:887e9416-1c3a-42bc-923b-55f9724b7fc4|x",
-   "cuando": "2026-10-20T11:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112499843859943526"
-  },
-  {
-   "clave": "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x",
-   "cuando": "2026-10-20T11:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112503031992361058"
-  },
-  {
    "clave": "web:fe8f1548-d224-494b-8549-4bd21362e5b3|x",
    "cuando": "2026-10-20T12:20:21.000Z",
    "estado": "pendiente",
@@ -43042,6 +43032,18 @@
    "cuando": "2026-10-23T21:20:15.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok",
+   "cuando": "2026-10-23T21:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699977059396783380"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok",
+   "cuando": "2026-10-23T21:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7699972055248178453"
   }
  ],
  "tandas": {
@@ -43062,7 +43064,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-23",
- "ultima_sync": "2026-10-23T20:40:13.000Z",
+ "ultima_sync": "2026-10-23T21:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
