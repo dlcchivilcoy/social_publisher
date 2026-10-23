@@ -5960,6 +5960,32 @@
    "volanta": "Choque en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/_xTOtXUBmYc"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": {
+   "categoria": "robo",
+   "descripcion": "Autores ignorados ingresaron a una propiedad tras forzar un acceso y se llevaron dinero en efectivo junto a varias pertenencias. El hecho ocurrió en la zona de Carlos Gardel y Montensano.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-23T01:32:04.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-danaron-una-puerta-y-robaron-dinero-de-una-cancha-de-175197",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un robo se registró en las últimas horas en una propiedad dedicada a la práctica deportiva situada en las inmediaciones de las calles Carlos Gardel y Montensano.\n\nLos malvivientes provocaron daños materiales importantes al forzar y dañar una de las puertas de ingreso al predio.\n\nDel interior del lugar lograron sustraer dinero en efectivo y diversas pertenencias de valor, según informaron fuentes policiales.\n\nEl episodio generó preocupación entre los vecinos de la zona mientras avanzan las averiguaciones para dar con los responsables.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5",
+   "urgente": false,
+   "video_bytes": 76742,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_0105_02_chacabuco_delincuentes-destrozaron-una-p.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/PPRCCVEzCho"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": {
    "categoria": "operativo_policial",
    "descripcion": "La Policía bonaerense apresó a un sujeto mayor de edad que eludía las audiencias ante la Justicia. Acumula expedientes por amenazas, daños, violación de domicilio y violencia de género.",
@@ -25931,6 +25957,62 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_01_chacabuco_un-motociclista-termin-interna.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok": {
+   "actualizado": "2026-10-23T01:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok",
+   "creado": "2026-10-23T01:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-23T01:32:04.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-danaron-una-puerta-y-robaron-dinero-de-una-cancha-de-175197",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 5,
+   "texto": "Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5\n\nAutores ignorados ingresaron a una propiedad tras forzar un acceso y se llevaron dinero en efectivo junto a varias pertenencias. El hecho ocurrió en la zona de Carlos Gardel y Montensano.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-danaron-una-puerta-y-robaron-dinero-de-una-cancha-de-175197\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5",
+   "urgente": false,
+   "vence": "2026-10-23T19:32:04.000Z",
+   "video_bytes": 76742,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_0105_02_chacabuco_delincuentes-destrozaron-una-p.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x": {
+   "actualizado": "2026-10-23T01:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x",
+   "creado": "2026-10-23T01:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-23T01:32:04.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-danaron-una-puerta-y-robaron-dinero-de-una-cancha-de-175197",
+   "noticia": "nota:chacabuco-danaron-una-puerta-y-robaron-dinero-de-una-cancha-de-175197",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5\n\nAutores ignorados ingresaron a una propiedad tras forzar un acceso y se llevaron dinero en efectivo junto a pertenencias. El hecho ocurrió en Carlos Gardel y Montensano.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-danaron-una-puerta-y-robaron-dinero-de-una-cancha-de-175197",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Delincuentes destrozaron una puerta y robaron en un complejo de fútbol 5",
+   "urgente": false,
+   "vence": "2026-10-23T03:32:04.000Z",
+   "video_bytes": 76742,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_0105_02_chacabuco_delincuentes-destrozaron-una-p.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok": {
    "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad800ad8ebd684dd5ca5a78",
@@ -27286,14 +27368,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|x": {
-   "actualizado": "2026-10-22T23:40:15.000Z",
+   "actualizado": "2026-10-23T01:40:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|x",
    "creado": "2026-10-22T23:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-22T23:31:07.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten",
    "intentos": 0,
@@ -38728,30 +38810,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|x",
-   "cuando": "2026-10-19T23:40:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-19T23:40:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x",
-   "cuando": "2026-10-19T23:40:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
    "cuando": "2026-10-19T23:40:28.000Z",
    "evento": "vencido",
@@ -42832,6 +42890,28 @@
    "cuando": "2026-10-23T01:20:27.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113432289405292547"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x",
+   "cuando": "2026-10-23T01:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok",
+   "cuando": "2026-10-23T01:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|x",
+   "cuando": "2026-10-23T01:40:18.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -43123,6 +43203,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": "2026-10-16T19:00:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": "2026-10-19T23:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-en-una-vivienda-de-chacabuco.html": "2026-10-12T00:40:12.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": "2026-10-23T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": "2026-10-20T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html": "2026-10-23T01:00:17.000Z",
