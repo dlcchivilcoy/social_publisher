@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,7 +30,7 @@ Actualizado: 23/10/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2198 de 3000 (visto 2026-10-23T20:00:30.000Z)
 
-## Cola propia (17 esperando)
+## Cola propia (16 esperando)
 - TikTok · Reels del bot · El Rally de Chivilcoy tendrá diez pruebas especiales este fin de semana — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Intentaron robar una moto tras romper la puerta de un comercio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Intentaron robar una motocicleta en un comercio de la avenida Soáres — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -45,7 +45,6 @@ Actualizado: 23/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels policiales · Choque, fuga y misterio: impactó a un auto y dejó el vehículo abandonado — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -56,7 +55,6 @@ Actualizado: 23/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T17:20 entrevista_aprobada entrevistas:job00247 
 - 2026-10-23T17:20 recibido bot:video_matias-zucchi_mvl80hcengob_01.mp4|x 
 - 2026-10-23T17:20 recibido bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok 
 - 2026-10-23T17:20 recibido entrevistas:job00247|x 
@@ -81,3 +79,4 @@ Actualizado: 23/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-23T20:00 recibido bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x 
 - 2026-10-23T20:00 recibido bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok 
 - 2026-10-23T20:00 programado bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x 
+- 2026-10-23T20:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31050/choq TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima

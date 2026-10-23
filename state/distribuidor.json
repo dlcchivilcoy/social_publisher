@@ -25833,15 +25833,15 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok": {
-   "actualizado": "2026-10-23T02:20:14.000Z",
+   "actualizado": "2026-10-23T20:20:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok",
    "creado": "2026-10-23T02:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T02:01:39.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html",
    "intentos": 0,
@@ -39046,12 +39046,6 @@
  },
  "registro": [
   {
-   "clave": "web:9627f721-ec60-4caa-8de1-29648f987444|x",
-   "cuando": "2026-10-20T10:21:12.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
    "clave": "web:a2af1a45-c946-45f9-8384-08d4404d0b4a|x",
    "cuando": "2026-10-20T10:21:12.000Z",
    "evento": "vencido",
@@ -43188,6 +43182,12 @@
    "cuando": "2026-10-23T20:00:30.000Z",
    "dueAt": "2026-10-23T20:02:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok",
+   "cuando": "2026-10-23T20:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {
