@@ -13959,17 +13959,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 239,
-   "segundos": 48008,
+   "restantes": 238,
+   "segundos": 46812,
    "tope": 250
   },
   "30d": {
-   "restantes": 2218,
-   "segundos": 1591823,
+   "restantes": 2217,
+   "segundos": 1590627,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-23T11:00:18.000Z",
+ "cuota_visto": "2026-10-23T11:20:14.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -38450,14 +38450,14 @@
    "video_url": ""
   },
   "web:dd86062e-10d5-470e-a60e-27533841a020|x": {
-   "actualizado": "2026-10-23T10:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-23T11:20:13.000Z",
+   "buffer_id": "6adb42eec3741d7d48c81b9a",
    "clave": "web:dd86062e-10d5-470e-a60e-27533841a020|x",
    "creado": "2026-10-23T10:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-23T12:37:01.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T10:02:52.690Z",
    "id": "web:dd86062e-10d5-470e-a60e-27533841a020",
    "ig_hora": "2026-10-23T12:37:37.000Z",
@@ -39691,12 +39691,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok",
-   "cuando": "2026-10-20T01:00:25.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
   {
    "buffer_id": "6ad6bd2ab81183413da73d08",
    "clave": "nacionales:9e0c09454f9048c5|x",
@@ -43814,6 +43808,13 @@
    "clave": "web:ce117f38-054b-4f6b-92d7-4743edb8711b|x",
    "cuando": "2026-10-23T11:00:18.000Z",
    "dueAt": "2026-10-23T12:22:36.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adb42eec3741d7d48c81b9a",
+   "clave": "web:dd86062e-10d5-470e-a60e-27533841a020|x",
+   "cuando": "2026-10-23T11:20:14.000Z",
+   "dueAt": "2026-10-23T12:37:01.000Z",
    "evento": "programado"
   }
  ],
