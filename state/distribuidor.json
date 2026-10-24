@@ -1165,6 +1165,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
    "youtube_url": "https://www.youtube.com/shorts/htgfVsPRN_4"
   },
+  "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
+   "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
+   "duracion_seg": 77.5,
+   "generado": "2026-10-24T23:37:09.000Z",
+   "id": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
+   "urgente": false,
+   "video_bytes": 3585991,
+   "video_mb": 3.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -7339,6 +7360,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tragedia-en-la-ruta-5-evoluciona-favorablemente-hector-matucheski-y",
    "volanta": "Tragedia en la Ruta 5"
+  },
+  "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151": {
+   "categoria": "",
+   "descripcion": "Una vecina denunció que le robaron la moto frente a su vivienda Una vecina de Chivilcoy denunció el robo de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda en la calle 86, entre Arenales y Miguel Calderón. Según relató Victoria, propietaria del rodado, el episodio ocurrió alrededor de las 2:45 de la madrugada, pocos minutos después de que ingresara a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de...",
+   "generado": "2026-10-24T23:36:26.249Z",
+   "id": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7f0f9c751c1d4fa1b039d7b1d99cb6a3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": {
    "categoria": "nacionales",
@@ -16966,6 +17006,62 @@
    "vence": "2026-10-24T21:20:15.000Z",
    "video_bytes": 738687,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
+   "viral": false
+  },
+  "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
+   "actualizado": "2026-10-24T23:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
+   "creado": "2026-10-24T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-24T23:37:09.000Z",
+   "id": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una vecina denunció que le robaron la moto frente a su vivienda\n\nDos personas sustrajeron una motocicleta estacionada tras forzar su sistema de seguridad y se la llevaron a tiro, según relató la damnificada. La víctima afirmó que identificó perfiles en redes sociales donde exhibieron el rodado y aportará las filmaciones a la investigación.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
+   "urgente": false,
+   "vence": "2026-10-26T23:37:09.000Z",
+   "video_bytes": 3585991,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
+   "viral": false
+  },
+  "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x": {
+   "actualizado": "2026-10-24T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
+   "creado": "2026-10-24T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-24T23:37:09.000Z",
+   "id": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "noticia": "nota:chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una vecina denunció que le robaron la moto frente a su vivienda\n\nDos personas sustrajeron una moto estacionada en la calle tras forzar su traba. La dueña afirmó que identificó a sospechosos que exhibieron el vehículo en redes sociales. No hay detenidos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
+   "urgente": false,
+   "vence": "2026-10-25T01:37:09.000Z",
+   "video_bytes": 3585991,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -29411,6 +29507,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x": {
+   "actualizado": "2026-10-24T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x",
+   "creado": "2026-10-24T23:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-24T23:36:26.249Z",
+   "id": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "noticia": "nota:chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
+   "urgente": false,
+   "vence": "2026-10-25T03:36:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x": {
    "actualizado": "2026-10-19T19:40:15.000Z",
    "buffer_id": "",
@@ -39001,26 +39122,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
-   "cuando": "2026-10-21T00:00:41.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112691281432391842"
-  },
-  {
-   "buffer_id": "6ad800ac5af80146fcbeebde",
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
-   "cuando": "2026-10-21T00:00:45.000Z",
-   "dueAt": "2026-10-21T00:02:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad800ac1dbc8c88b1f2e573",
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
-   "cuando": "2026-10-21T00:00:45.000Z",
-   "dueAt": "2026-10-21T00:07:18.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ad800ad8ebd684dd5ca5a78",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
    "cuando": "2026-10-21T00:00:45.000Z",
@@ -43205,6 +43306,30 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
+   "cuando": "2026-10-24T23:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
+   "cuando": "2026-10-24T23:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x",
+   "cuando": "2026-10-24T23:40:19.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
   }
  ],
  "tandas": {
@@ -43295,6 +43420,7 @@
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w": "2026-10-24T18:00:17.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth": "2026-10-24T18:40:13.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8": "2026-10-24T19:40:16.000Z",
+  "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
@@ -43605,6 +43731,7 @@
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:037db3cf-2837-40cd-af9c-c0b367f30802": "2026-10-21T10:20:15.000Z",
+  "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151": "2026-10-24T23:40:14.000Z",
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": "2026-10-18T19:40:15.000Z",
   "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
