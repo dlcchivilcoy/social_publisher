@@ -31,27 +31,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": {
-   "descripcion": "Desconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-13T23:12:07.000Z",
-   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
-   "urgente": false,
-   "video_bytes": 443607,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/WjgoclOOY4E"
-  },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a": {
    "descripcion": "En el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos dispositivos de saturación y controles en puntos estratégicos de Chivilcoy, con la participación de personal del GAD, Guardia",
    "duracion_seg": 30.0,
@@ -13925,32 +13904,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok": {
-   "actualizado": "2026-10-14T01:40:14.000Z",
-   "buffer_id": "6aced8d1f847f2ad9eba1d7a",
-   "clave": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1|tiktok",
-   "creado": "2026-10-13T23:20:14.000Z",
-   "dueAt": "2026-10-14T01:23:01.000Z",
-   "enviado": "2026-10-14T01:23:57.536Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-13T23:12:07.000Z",
-   "id": "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696327983035845906",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-robaron-bebidas-en-el-boliche-ozono-planet-tras",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta\n\nDesconocidos forzaron una puerta del boliche ubicado en la avenida Suárez, en Chivilcoy, y sustrajeron bebidas. Según informó su propietario, Walter Tomasini, durante la huida los autores dejaron una mochila en el lugar. El dueño radicó la denuncia el lunes por la tarde.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Robaron bebidas en el boliche Ozono Planet tras forzar una puerta",
-   "urgente": false,
-   "vence": "2026-10-15T23:12:07.000Z",
-   "video_bytes": 443607,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f70b5f9c6744174c.mp4"
-  },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok": {
    "actualizado": "2026-10-14T11:40:15.000Z",
    "buffer_id": "6acf44b43188d8aa57b0fc80",
