@@ -1211,7 +1211,7 @@
  "diario": {},
  "invalidas": {},
  "audiencia": {},
- "semanas": {},
+ "semanas": {"2026-10-12": {"facebook": {"neto": null, "posteos": 133, "rendimiento": 1.22, "seguidores": null}, "instagram": {"neto": null, "posteos": 214, "rendimiento": 1.0, "seguidores": null}}},
  "permisos": {"fb_insights": false, "fb_posteos": false, "ig_insights": false, "revisado": "2026-10-24T13:47:38+00:00"},
  "ultima_foto": "2026-10-24T13:47:38+00:00"
 }
