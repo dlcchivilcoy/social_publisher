@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,11 +30,11 @@ Actualizado: 24/10/2026 18:00 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2163 de 3000 (visto 2026-10-24T21:00:26.000Z)
 
 ## Cola propia (5 esperando)
-- TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — no entró entre las 7 más virales de la tanda 18 h
-- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — no entró entre las 7 más virales de la tanda 18 h
-- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — no entró entre las 7 más virales de la tanda 18 h
-- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — no entró entre las 7 más virales de la tanda 18 h
-- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — no entró entre las 7 más virales de la tanda 18 h
+- TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
