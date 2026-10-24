@@ -1,0 +1,75 @@
+name: Métricas de redes (informe semanal)
+
+# Foto diaria de las métricas de @diarioyradio en Instagram y Facebook, y el informe semanal por mail.
+# Sin IA ni tokens: son cuentas en Python (ver METRICAS_REDES.md). Liviano a propósito: no baja Drive
+# ni ffmpeg, solo `requests` y la API de Meta.
+#
+# Usa el `schedule:` de GitHub y no cron-job.org: acá una demora de media hora no cambia nada (la foto
+# mide posteos de 48 h o más y la cuenta por día se completa sola si un día no corrió).
+on:
+  schedule:
+    - cron: "15 3 * * *"     # 00:15 de Argentina: la foto del día
+    - cron: "0 11 * * 3"     # miércoles 08:00: foto + informe de la semana lunes a domingo anterior
+  workflow_dispatch:
+    inputs:
+      args:
+        description: 'Argumentos (--foto | --informe | --informe --simular | --informe --sin-foto)'
+        required: true
+        default: '--foto'
+
+concurrency:
+  group: metricas-redes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TZ: America/Argentina/Buenos_Aires
+    steps:
+      - name: "Bajar el codigo (punta de main, el estado mas nuevo)"
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar lo minimo
+        run: pip install requests python-dotenv
+
+      - name: Escribir credenciales (.env)
+        env:
+          ENV_FILE: ${{ secrets.ENV_FILE }}
+        run: printf '%s' "$ENV_FILE" > .env
+
+      - name: Metricas
+        env:
+          ARGS: >-
+            ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.args
+            || (github.event.schedule == '0 11 * * 3' && '--foto --informe' || '--foto') }}
+        run: python -m metricas_redes.run $ARGS
+
+      - name: Guardar el estado de las metricas
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          [ -e state/metricas_redes.json ] && git add state/metricas_redes.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+          else
+            git commit -m "Métricas: foto del día [skip ci]"
+            ok=0
+            for intento in 1 2 3 4 5; do
+              if git pull --rebase --autostash && git push; then ok=1; break; fi
+              echo "Push rechazado, reintento $intento..."; sleep 4
+            done
+            [ "$ok" = "1" ] || { echo "::error::No se pudo guardar el estado de las metricas"; exit 1; }
+          fi
