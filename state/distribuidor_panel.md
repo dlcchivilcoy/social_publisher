@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 24/10/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 7 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,24 +27,17 @@ Actualizado: 24/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2188 de 3000 (visto 2026-10-24T02:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2176 de 3000 (visto 2026-10-24T13:00:27.000Z)
 
-## Cola propia (15 esperando)
-- TikTok · Reels del bot · Boca venció a Racing de Chivilcoy en la Liga Nacional — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Rally Regional puso en marcha su penúltima fecha — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Chivilcoy sumó 17 medallas con una destacada cosecha deportiva — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Club Independiente celebrará los 30 años de su escuela de fútbol — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (8 esperando)
+- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · Santiago Zalabardo logró la medalla de plata en salto en alto — no entró entre las 7 más virales de la tanda 10 h
+- TikTok · Reels del bot · La Fuente de Hebe volvió a funcionar después de más de 20 años — no entró entre las 7 más virales de la tanda 10 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -53,13 +46,6 @@ Actualizado: 24/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T00:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-2 
-- 2026-10-24T00:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-2 
-- 2026-10-24T01:00 recibido nacionales:56e46b4aea933185|x 
-- 2026-10-24T01:00 recibido nacionales:56e46b4aea933185|tiktok 
-- 2026-10-24T01:00 depurado nacionales:56e46b4aea933185|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
-- 2026-10-24T01:00 depurado nacionales:56e46b4aea933185|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
-- 2026-10-24T01:00 enviado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x 
 - 2026-10-24T01:00 enviado policiales:https://www.diariodemocracia.com/policiales/34700 
 - 2026-10-24T01:00 enviado policiales:https://www.diariodemocracia.com/policiales/34700 
 - 2026-10-24T01:20 recibido nacionales:48bb4e9d6ed706f8|x 
@@ -78,3 +64,10 @@ Actualizado: 24/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-24T12:40 depurado policiales:https://diariodelujan.com/dos-aprehendidos-por-am a TikTok van solo recortes y bot (TIKTOK_REPARTO)
 - 2026-10-24T12:40 depurado policiales:https://www.junindigital.com/policiales/2026-10-2 a TikTok van solo recortes y bot (TIKTOK_REPARTO)
 - 2026-10-24T12:40 depurado policiales:https://www.latrochadigital.com.ar/2026/10/23/rut a TikTok van solo recortes y bot (TIKTOK_REPARTO)
+- 2026-10-24T13:00 programado bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok 
+- 2026-10-24T13:00 programado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok 
+- 2026-10-24T13:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tikto 
+- 2026-10-24T13:00 programado bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok 
+- 2026-10-24T13:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tikto 
+- 2026-10-24T13:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tikto 
+- 2026-10-24T13:00 programado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok 

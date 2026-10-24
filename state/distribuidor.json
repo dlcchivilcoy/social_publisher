@@ -6850,30 +6850,6 @@
    "volanta": "Operativo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/ku_VJJGbiq8"
   },
-  "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html": {
-   "categoria": "operativo_policial",
-   "descripcion": "Luis Alan Valverde Rodríguez, de 40 años y tío de Tony Janzen Valverde Victoriano, fue capturado este lunes a las 19:38 en Huachipa. Está acusado de integrar una red narcocriminal.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-14T02:13:16.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cayo-en-peru-un-profugo-de-40-anos-vinculado-al-triple-crimen-53fee4",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "texto_tiktok": "Efectivos de seguridad detuvieron en Lima al ciudadano Luis Alan Valverde Rodríguez, de 40 años, quien era buscado por la Justicia de nuestro país.\n\nEl operativo se llevó a cabo el lunes en la zona de Huachipa, donde el sospechoso intentaba eludir el accionar policial mediante el uso de documentos falsos.\n\nEl detenido está señalado por los investigadores como uno de los presuntos jefes de una estructura narcocriminal relacionada con el asesinato de tres jóvenes.\n\nLas actuaciones judiciales se tramitan ante el Juzgado Federal 2 de Morón, cuyo titular había requerido su captura internacional en septiembre del año pasado.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #OperativoPolicial #Narcotrafico #Detenido #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó en Perú un prófugo vinculado al triple crimen de La Matanza",
-   "urgente": false,
-   "video_bytes": 78251,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_12_junin_cay-en-per-un-pr-fugo-vinculad.mp4",
-   "volanta": "Operativo internacional en Lima",
-   "youtube_url": "https://youtube.com/shorts/EDjhe59KGHs"
-  },
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": {
    "categoria": "otro_policial",
    "descripcion": "El Gobierno nacional radicó una presentación judicial tras los choques frente al Congreso del jueves 15 de octubre. Reclaman investigar destrozos y agresiones a efectivos.",
@@ -13814,17 +13790,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 81604,
+   "restantes": 236,
+   "segundos": 43201,
    "tope": 250
   },
   "30d": {
-   "restantes": 2188,
-   "segundos": 1536624,
+   "restantes": 2176,
+   "segundos": 1498220,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T02:20:17.000Z",
+ "cuota_visto": "2026-10-24T13:00:27.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -16451,7 +16427,7 @@
    "creado": "2026-10-22T22:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T22:20:46.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
@@ -16592,7 +16568,7 @@
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-23T13:00:49.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
@@ -16645,7 +16621,7 @@
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-23T13:14:38.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9",
@@ -16710,7 +16686,7 @@
    "creado": "2026-10-23T13:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-23T13:24:16.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01",
@@ -16768,15 +16744,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok": {
-   "actualizado": "2026-10-23T14:00:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabe96887a2efc1b9031e",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
    "creado": "2026-10-23T14:00:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T14:43:36.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T13:51:39.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei",
    "intentos": 0,
@@ -16833,15 +16809,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tiktok": {
-   "actualizado": "2026-10-23T16:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabe80b5343d07083895d",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tiktok",
    "creado": "2026-10-23T16:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T14:23:45.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T16:05:57.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj",
    "intentos": 0,
@@ -17050,15 +17026,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok": {
-   "actualizado": "2026-10-23T22:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabe63d5b27036b852732",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok",
    "creado": "2026-10-23T22:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T13:43:09.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T22:24:12.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
    "intentos": 0,
@@ -19113,7 +19089,7 @@
    "creado": "2026-10-22T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T13:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
@@ -19178,7 +19154,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T14:04:12.000Z",
    "id": "bot:video_matias-zucchi_mvjluzixklug_01.mp4",
@@ -19243,7 +19219,7 @@
    "creado": "2026-10-22T14:20:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T14:17:21.000Z",
    "id": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4",
@@ -19308,7 +19284,7 @@
    "creado": "2026-10-22T15:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 7 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-22T15:16:22.000Z",
    "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
@@ -19582,15 +19558,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok": {
-   "actualizado": "2026-10-23T13:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabebbd33ce99c32338a3",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
    "creado": "2026-10-23T13:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T15:03:45.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T13:30:59.000Z",
    "id": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4",
    "intentos": 0,
@@ -19647,15 +19623,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok": {
-   "actualizado": "2026-10-23T17:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabe78b3d437ddcbc5686",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok",
    "creado": "2026-10-23T17:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T14:03:44.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T17:11:14.000Z",
    "id": "bot:video_matias-zucchi_mvl80hcengob_01.mp4",
    "intentos": 0,
@@ -19788,15 +19764,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok": {
-   "actualizado": "2026-10-23T23:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabe5bd33ce99c3232f8d",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
    "creado": "2026-10-23T23:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T13:23:38.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-23T23:34:19.000Z",
    "id": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4",
    "intentos": 0,
@@ -19853,15 +19829,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok": {
-   "actualizado": "2026-10-24T09:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T13:00:18.000Z",
+   "buffer_id": "6adcabe50b5343d07083821f",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok",
    "creado": "2026-10-24T09:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T13:03:29.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-24T03:12:29.000Z",
    "id": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4",
    "intentos": 0,
@@ -25559,32 +25535,6 @@
    "video_bytes": 92216,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4"
   },
-  "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok": {
-   "actualizado": "2026-10-14T12:40:21.000Z",
-   "buffer_id": "6acf44b68fea659be5b386cc",
-   "clave": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|tiktok",
-   "creado": "2026-10-14T09:00:20.000Z",
-   "dueAt": "2026-10-14T12:20:50.000Z",
-   "enviado": "2026-10-14T12:22:45.353Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T02:41:22.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696497499002998037",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-familiares-de-maria-de-los-angeles-ruiz-aportaron-41b551",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Familiares y amigos de María de los Ángeles Ruiz, de 29 años, se congregaron pacíficamente ante la Fiscalía de Pergamino para reclamar avances en la causa.\n\nDurante la medida, llevada a cabo el 13 de octubre de 2026, fueron recibidos por el fiscal Francisco Furnari, a quien le entregaron nuevos elementos probatorios.\n\nEl entorno familiar busca que la justicia analice presuntos episodios de violencia y hostigamiento previos al fallecimiento de la joven.\n\nEl expediente judicial continúa caratulado como averiguación de causales de muerte mientras los allegados exigen esclarecer las responsabilidades.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
-   "tipo": "video",
-   "titulo": "Familiares de María de los Ángeles Ruiz pidieron justicia frente a la Fiscalía este 13",
-   "urgente": false,
-   "vence": "2026-10-14T20:41:22.000Z",
-   "video_bytes": 104736,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0239_02_pergamino_familiares-de-mar-a-de-los-nge.mp4"
-  },
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia|x": {
    "actualizado": "2026-10-14T13:40:21.000Z",
    "buffer_id": "6acf44b06435f1d309461003",
@@ -28572,32 +28522,6 @@
    "video_bytes": 76736,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_02_chacabuco_chacabuco-atrapan-a-un-joven-q.mp4",
    "viral": false
-  },
-  "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok": {
-   "actualizado": "2026-10-14T12:40:21.000Z",
-   "buffer_id": "6acf44b5d592dd5ee6b84426",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html|tiktok",
-   "creado": "2026-10-14T02:20:13.000Z",
-   "dueAt": "2026-10-14T11:40:58.000Z",
-   "enviado": "2026-10-14T11:42:44.307Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T02:13:16.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696487161905827092",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cayo-en-peru-un-profugo-de-40-anos-vinculado-al-triple-crimen-53fee4",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 9,
-   "texto": "Efectivos de seguridad detuvieron en Lima al ciudadano Luis Alan Valverde Rodríguez, de 40 años, quien era buscado por la Justicia de nuestro país.\n\nEl operativo se llevó a cabo el lunes en la zona de Huachipa, donde el sospechoso intentaba eludir el accionar policial mediante el uso de documentos falsos.\n\nEl detenido está señalado por los investigadores como uno de los presuntos jefes de una estructura narcocriminal relacionada con el asesinato de tres jóvenes.\n\nLas actuaciones judiciales se tramitan ante el Juzgado Federal 2 de Morón, cuyo titular había requerido su captura internacional en septiembre del año pasado.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Cayó en Perú un prófugo vinculado al triple crimen de La Matanza",
-   "urgente": false,
-   "vence": "2026-10-14T20:13:16.000Z",
-   "video_bytes": 78251,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_0009_12_junin_cay-en-per-un-pr-fugo-vinculad.mp4"
   },
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok": {
    "actualizado": "2026-10-17T14:40:12.000Z",
@@ -39871,48 +39795,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:6b05c0de5e77c089|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
-   "clave": "nacionales:9e0c09454f9048c5|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
-   "clave": "nacionales:d553fbc1ee6752bd|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
-   "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok llevan solo el diario, el bot y los recortes (esto va el finde)"
-  },
-  {
    "clave": "web:071fe0d7-07fd-406f-9b34-979c80fb37a2|x",
    "cuando": "2026-10-20T15:43:36.000Z",
    "evento": "depurado",
@@ -44050,6 +43932,55 @@
    "cuando": "2026-10-24T12:40:12.000Z",
    "evento": "depurado",
    "motivo": "a TikTok van solo recortes y bot (TIKTOK_REPARTO)"
+  },
+  {
+   "buffer_id": "6adcabe50b5343d07083821f",
+   "clave": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T13:03:29.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcabe5bd33ce99c3232f8d",
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T13:23:38.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcabe63d5b27036b852732",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T13:43:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcabe78b3d437ddcbc5686",
+   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T14:03:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcabe80b5343d07083895d",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T14:23:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcabe96887a2efc1b9031e",
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T14:43:36.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcabebbd33ce99c32338a3",
+   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
+   "cuando": "2026-10-24T13:00:27.000Z",
+   "dueAt": "2026-10-24T15:03:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -44067,7 +43998,8 @@
    "2026-10-22 21",
    "2026-10-23 10",
    "2026-10-23 18",
-   "2026-10-23 21"
+   "2026-10-23 21",
+   "2026-10-24 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-24",
