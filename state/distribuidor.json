@@ -5479,6 +5479,32 @@
    "volanta": "San Antonio de Areco",
    "youtube_url": "https://youtube.com/shorts/3NxHdGk3aII"
   },
+  "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": {
+   "categoria": "narcotrafico",
+   "descripcion": "Cuatro personas fueron detenidas tras una serie de procedimientos antidrogas realizados en los barrios La Celeste y Los Paraguayos de esta ciudad.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-24T22:01:57.000Z",
+   "id": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un importante operativo policial contra la venta de estupefacientes al menudeo culminó con la detención de cuatro sospechosos en nuestra ciudad.\n\nLos procedimientos se llevaron a cabo de manera simultánea en los barrios La Celeste y Los Paraguayos, donde las fuerzas de seguridad concretaron las capturas.\n\nEntre los apresados se encuentra el sujeto conocido como El Paisa, quien era buscado por los investigadores en el marco de la causa.\n\nLa investigación continúa para determinar la dimensión de la red de comercialización de drogas en la zona.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Narcotrafico #Operativo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó El Paisa y tres sospechosos en allanamientos contra el narcomenudeo en Junín",
+   "urgente": false,
+   "video_bytes": 89307,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_01_junin_cay-el-paisa-y-tres-sospechoso.mp4",
+   "volanta": "Operativo antidrogas en Junín",
+   "youtube_url": "https://youtube.com/shorts/qKnAEzQKeio"
+  },
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": {
    "categoria": "robo",
    "descripcion": "La policía aprehendió a dos personas vinculadas con el hurto de carne en una carnicería y su participación en una serie de robos contra distintos comercios locales.",
@@ -9061,24 +9087,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/marcha-federal-suteba-marcho-al-congreso-por-el-presupuesto-educativo",
    "volanta": "Marcha Federal"
   },
-  "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": {
-   "categoria": "",
-   "descripcion": "El fenómeno de El Niño aporta registros clave en la región central para consolidar los rindes del cereal.",
-   "generado": "2026-10-14T15:33:14.595Z",
-   "id": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e719ff45f1d64bd2bb4154a0dec2bff2~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Lluvias de hasta 102 mm frenan el deterioro del trigo en la región central",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
-   "volanta": ""
-  },
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8": {
    "categoria": "",
    "descripcion": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio La Feria Artesanal y Cultural celebró su 35° aniversario con una propuesta que combinó muestra artística, feria y música en las instalaciones del Museo Pompeo Boggio. Miguel Pierantoni, referente del espacio, expresó su satisfacción por el camino recorrido desde los inicios de la iniciativa: «Hubo un par de personas de las cuales algunos están hoy acá presentes, me incluyo porque yo también estaba, y se decidió hacer una...",
@@ -9535,24 +9543,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/costanza-alonso-necesitamos-que-sea-ley-para-empezar-a-abordar-un",
    "volanta": "Costanza Alonso"
-  },
-  "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": {
-   "categoria": "",
-   "descripcion": "Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’ El Jardín Maternal ‘Estrellita de Belén’ llevó adelante la muestra de la Semana de las Artes en ambos turnos, compartiendo con las familias las producciones y experiencias artísticas realizadas por los niños y niñas. “Felicitamos a las docentes por su compromiso, dedicación y creatividad, y a las familias por el acompañamiento y el trabajo conjunto en cada actividad”, destacaron desde la dirección municipal de educación, y...",
-   "generado": "2026-10-14T10:09:29.150Z",
-   "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_65569c93719d4588b1ee936de9b64c71~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
-   "volanta": "Muestra"
   },
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": {
    "categoria": "",
@@ -12488,24 +12478,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:d72917a3-67e5-41df-affc-436383926d89": {
-   "categoria": "",
-   "descripcion": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar Maximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón Municipal. Según relató, dos personas salieron desde un campo, le propinaron una fuerte patada en el estómago y le sustrajeron la mochila. Llevaba su equipo de mate y una billetera con documentación, pero no tenía dinero. Los agresores huyeron. El...",
-   "generado": "2026-10-14T14:12:14.151Z",
-   "id": "web:d72917a3-67e5-41df-affc-436383926d89",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8d34633ee0d7460c90f8be93c27294f6~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:d799c57f-7212-48e4-a327-deb6d13d1b4f": {
    "categoria": "",
    "descripcion": "Romina Serrano detalló los tratamientos médicos frente a la caída capilar En el marco de su habitual columna sobre salud en el programa “La Mañana del Centro”, la médica dermatóloga Romina Serrano abordó de manera integral la problemática de la caída del cabello y las alternativas terapéuticas que existen en la actualidad. Durante la entrevista, la especialista hizo especial hincapié en la necesidad de desmitificar soluciones comerciales que prometen resultados milagrosos y remarcó que...",
@@ -13537,17 +13509,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 222,
-   "segundos": 12006,
+   "restantes": 221,
+   "segundos": 9606,
    "tope": 250
   },
   "30d": {
-   "restantes": 2162,
-   "segundos": 1467026,
+   "restantes": 2161,
+   "segundos": 1464625,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T21:40:15.000Z",
+ "cuota_visto": "2026-10-24T22:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -25130,6 +25102,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_02_carmen-de-areco_balea-con-proyectil-de-goma-a-.mp4",
    "viral": false
   },
+  "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x": {
+   "actualizado": "2026-10-24T22:20:14.000Z",
+   "buffer_id": "6add2f1f8b3d437ddcde1644",
+   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
+   "creado": "2026-10-24T22:20:14.000Z",
+   "dueAt": "2026-10-24T22:23:49.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-24T22:01:57.000Z",
+   "id": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
+   "noticia": "nota:junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Cayó El Paisa y tres sospechosos en allanamientos contra el narcomenudeo en Junín\n\nCuatro personas fueron detenidas tras una serie de procedimientos antidrogas realizados en los barrios La Celeste y Los Paraguayos de esta ciudad.\n\nhttps://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó El Paisa y tres sospechosos en allanamientos contra el narcomenudeo en Junín",
+   "urgente": false,
+   "vence": "2026-10-25T00:01:57.000Z",
+   "video_bytes": 89307,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_01_junin_cay-el-paisa-y-tres-sospechoso.mp4",
+   "viral": false
+  },
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|tiktok": {
    "actualizado": "2026-10-22T01:00:23.000Z",
    "buffer_id": "6ad952147dadc432f72f9387",
@@ -32222,32 +32222,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x": {
-   "actualizado": "2026-10-14T22:00:24.000Z",
-   "buffer_id": "6acfa26361a1b9da73640d6d",
-   "clave": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06|x",
-   "creado": "2026-10-14T15:40:18.000Z",
-   "dueAt": "2026-10-14T21:30:39.000Z",
-   "enviado": "2026-10-14T21:30:49.155Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T15:33:14.595Z",
-   "id": "web:4f30d608-68d1-40d6-9ef4-4e069e213a06",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110483486947557647",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Lluvias de hasta 102 mm frenan el deterioro del trigo en la región central\n\nEl fenómeno de El Niño aporta registros clave en la región central para consolidar los rindes del cereal.\n\nhttps://www.diariolacampaña.com.ar/n/lluvias-de-hasta-102-mm-frenan-el-deterioro-del-trigo-en-la-dde75b",
-   "tipo": "nota",
-   "titulo": "Lluvias de hasta 102 mm frenan el deterioro del trigo en la región central",
-   "urgente": false,
-   "vence": "2026-10-15T15:33:14.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x": {
    "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad48aab769b457934b519eb",
@@ -32980,32 +32954,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x": {
-   "actualizado": "2026-10-14T22:00:24.000Z",
-   "buffer_id": "6acfa716c7801890a279c6c2",
-   "clave": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc|x",
-   "creado": "2026-10-14T10:20:15.000Z",
-   "dueAt": "2026-10-14T21:45:46.000Z",
-   "enviado": "2026-10-14T21:46:02.926Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T10:09:29.150Z",
-   "id": "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110487319769739704",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’\n\nEl Jardín Maternal ‘Estrellita de Belén’ llevó adelante la muestra de la Semana de las Artes en ambos turnos, compartiendo con las familias las producciones y experiencias artísticas…\n\nhttps://www.diariolacampaña.com.ar/n/muestra-semana-de-las-artes-en-el-jardin-maternal-estrellita-de-belen",
-   "tipo": "nota",
-   "titulo": "Semana de las Artes en el Jardín Maternal ‘Estrellita De Belén’",
-   "urgente": false,
-   "vence": "2026-10-15T10:09:29.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b|x": {
    "actualizado": "2026-10-17T10:20:15.000Z",
@@ -37582,32 +37530,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:d72917a3-67e5-41df-affc-436383926d89|x": {
-   "actualizado": "2026-10-14T22:00:24.000Z",
-   "buffer_id": "6acf9dae33f7fa2d2ad2a948",
-   "clave": "web:d72917a3-67e5-41df-affc-436383926d89|x",
-   "creado": "2026-10-14T14:20:14.000Z",
-   "dueAt": "2026-10-14T21:15:43.000Z",
-   "enviado": "2026-10-14T21:15:46.302Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T14:12:14.151Z",
-   "id": "web:d72917a3-67e5-41df-affc-436383926d89",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110479700153823483",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Golpearon y asaltaron a un empleado municipal cuando iba a trabajar\n\nMaximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
-   "tipo": "nota",
-   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
-   "urgente": false,
-   "vence": "2026-10-15T14:12:14.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -39188,18 +39110,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x",
-   "cuando": "2026-10-20T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112655676841312263"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|tiktok",
-   "cuando": "2026-10-20T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698863722617474322"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok",
    "cuando": "2026-10-20T22:40:13.000Z",
@@ -43395,6 +43305,21 @@
    "cuando": "2026-10-24T21:40:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7700348242227105044"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
+   "cuando": "2026-10-24T22:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6add2f1f8b3d437ddcde1644",
+   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
+   "cuando": "2026-10-24T22:20:15.000Z",
+   "dueAt": "2026-10-24T22:23:49.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43678,6 +43603,7 @@
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
   "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": "2026-10-19T23:00:18.000Z",
+  "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": "2026-10-24T22:20:14.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": "2026-10-21T23:40:15.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
