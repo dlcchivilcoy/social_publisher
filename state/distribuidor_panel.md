@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 7 | 0 | 7 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 7 | 0 | 8 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,9 +27,10 @@ Actualizado: 24/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2166 de 3000 (visto 2026-10-24T19:20:24.000Z)
+15m: quedan 99 de 100 · 24h: quedan 225 de 250 · 30d: quedan 2165 de 3000 (visto 2026-10-24T19:40:23.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (12 esperando)
+- TikTok · Reels del bot · La UTN abre la inscripción para su oferta académica 2027 en el CUCH — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Monserrat y Muciachio lideran la general del Rally de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,9 +50,6 @@ Actualizado: 24/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T17:40 depurado web:6871a7bc-9ddf-4c76-927a-6d48120cbf5a|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-24T17:40 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x 
-- 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x 
 - 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tikto 
 - 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x 
 - 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tikto 
@@ -74,3 +72,6 @@ Actualizado: 24/10/2026 16:20 (hora AR) · ACTIVO
 - 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x 
 - 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x 
 - 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x 
+- 2026-10-24T19:40 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x 
+- 2026-10-24T19:40 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tikto 
+- 2026-10-24T19:40 programado bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x 

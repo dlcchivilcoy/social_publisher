@@ -1186,6 +1186,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b3452a9068856bed.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Pl0nQg-6HXs"
   },
+  "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8": {
+   "descripcion": "La UTN Chivilcoy abre la inscripción para su oferta académica 2027, con tres nuevas propuestas en el CUCH. Las carreras que se ofrecen para el próximo ciclo lectivo son la Tecnicatura Universitaria en Mantenimiento Industrial, la Tecnicatura Universitaria en Higiene y Seguridad...",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-24T19:20:15.000Z",
+   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH",
+   "urgente": false,
+   "video_bytes": 738687,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/htgfVsPRN_4"
+  },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": {
    "descripcion": "La Subsecretaría de Defensa del Consumidor y Lealtad Comercial prohibió la venta en todo el país de los juguetes squishy de la marca Pinch Family.\n\nLa decisión oficial se tomó luego de detectar concentraciones de ftalatos superiores al límite permitido en estas figuras de plástico blando importadas de China.\n\nA través de la Disposición 804/2026, el organismo nacional exige a importadores, distribuidores y comercios retirar de forma obligatoria los productos del mercado y avanzar con la destrucción total del stock existente.\n\nFrente a este escenario, la Cámara Argentina de la Industria del Juguete recomendó a la población no adquirir artículos de esta línea y suspender de manera inmediata su uso en caso de que ya hayan sido comprados y se encuentren en los hogares.",
    "duracion_seg": 22.9,
@@ -13600,17 +13621,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 226,
-   "segundos": 20396,
+   "restantes": 225,
+   "segundos": 19199,
    "tope": 250
   },
   "30d": {
-   "restantes": 2166,
-   "segundos": 1475416,
+   "restantes": 2165,
+   "segundos": 1474218,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T19:20:24.000Z",
+ "cuota_visto": "2026-10-24T19:40:23.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -17144,6 +17165,62 @@
    "vence": "2026-10-24T20:29:34.000Z",
    "video_bytes": 555965,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b3452a9068856bed.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tiktok": {
+   "actualizado": "2026-10-24T19:40:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tiktok",
+   "creado": "2026-10-24T19:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-24T19:20:15.000Z",
+   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH\n\nLa UTN Chivilcoy abre la inscripción para su oferta académica 2027, con tres nuevas propuestas en el CUCH. Las carreras que se ofrecen para el próximo ciclo lectivo son la Tecnicatura Universitaria en Mantenimiento Industrial, la Tecnicatura Universitaria en Higiene y Seguridad...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH",
+   "urgente": false,
+   "vence": "2026-10-26T19:20:15.000Z",
+   "video_bytes": 738687,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x": {
+   "actualizado": "2026-10-24T19:40:22.000Z",
+   "buffer_id": "6add09a60b5343d0709cd55d",
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
+   "creado": "2026-10-24T19:40:16.000Z",
+   "dueAt": "2026-10-24T19:42:33.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-24T19:20:15.000Z",
+   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
+   "noticia": "nota:chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH\n\nLa sede local sumará tres nuevas carreras el próximo ciclo lectivo. Se dictarán Mantenimiento Industrial e Higiene y Seguridad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH",
+   "urgente": false,
+   "vence": "2026-10-24T21:20:15.000Z",
+   "video_bytes": 738687,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4|tiktok": {
@@ -39370,28 +39447,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
-   "cuando": "2026-10-20T21:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade|x",
-   "cuando": "2026-10-20T21:20:25.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:fb8bbb9c2285b74b|x",
-   "cuando": "2026-10-20T21:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
    "cuando": "2026-10-20T21:20:25.000Z",
    "evento": "enviado",
@@ -43577,6 +43632,29 @@
    "cuando": "2026-10-24T19:20:24.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114064971436814378"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
+   "cuando": "2026-10-24T19:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tiktok",
+   "cuando": "2026-10-24T19:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6add09a60b5343d0709cd55d",
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
+   "cuando": "2026-10-24T19:40:23.000Z",
+   "dueAt": "2026-10-24T19:42:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43665,6 +43743,7 @@
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u": "2026-10-24T18:00:17.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w": "2026-10-24T18:00:17.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth": "2026-10-24T18:40:13.000Z",
+  "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8": "2026-10-24T19:40:16.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
   "bot:video_matias-zucchi_mvb3xje6e409_01.mp4": "2026-10-16T15:40:14.000Z",
