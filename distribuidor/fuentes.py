@@ -82,7 +82,11 @@ def normalizar(ev: dict) -> tuple[dict | None, str]:
     e["urgente"] = bool(e.get("urgente"))
     e["generado"] = e.get("generado") or estado.iso(estado.ahora())
     pl = e.get("plataformas") or list(config.PLATAFORMAS)
-    e["plataformas"] = [p for p in pl if p in config.PLATAFORMAS]
+    # Los recortes de la radio llegan solo para X; desde el 24/10/2026 también van a TikTok (hasta 10 por
+    # día, config.TIKTOK_REPARTO), con la misma espera: recién cuando su Short es público.
+    if e["origen"] == "entrevistas" and e["tipo"] == "video" and config.tiktok_reparto().get("recortes"):
+        pl = list(pl) + ["tiktok"]
+    e["plataformas"] = [p for p in config.PLATAFORMAS if p in pl]
     return e, ""
 
 

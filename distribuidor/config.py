@@ -63,13 +63,14 @@ def canal(plataforma: str) -> str:
 # Máximos por día (calendario de Argentina). Son TOPES, no objetivos: nunca se rellena.
 # Variable: CUPO_<ORIGEN>_<PLATAFORMA>, p. ej. CUPO_POLICIALES_TIKTOK=8
 MATRIZ_DEFAULT = {
-    "entrevistas": {"x": 8, "tiktok": 0},
-    "bot":         {"x": 10, "tiktok": 5},    # TikTok: 5 + 5 + 5 (TIKTOK_REPARTO, 20/10/2026)
-    "policiales":  {"x": 6, "tiktok": 5},
+    # TikTok (24/10/2026): solo los recortes (hasta 10) y el bot con lo que sobra (TIKTOK_REPARTO).
+    "entrevistas": {"x": 8, "tiktok": 10},
+    "bot":         {"x": 10, "tiktok": 20},
+    "policiales":  {"x": 6, "tiktok": 0},
     "web":         {"x": 15, "tiktok": 0},   # las notas web NUNCA van a TikTok (ver puede_ir)
     # Dentro del MISMO tope de TikTok (15): reemplaza parte de lo policial, no suma (17/10/2026).
     # X (19/10/2026): las nacionales salen con su VIDEO y su nota no se repite (x_sincro).
-    "nacionales":  {"x": 12, "tiktok": 5},   # en TikTok, solo los virales (TIKTOK_REPARTO)
+    "nacionales":  {"x": 12, "tiktok": 0},   # en TikTok, nada desde el 24/10/2026
 }
 
 
@@ -81,7 +82,7 @@ def cupo(origen: str, plataforma: str) -> int:
 
 # Tope TOTAL por plataforma en 24 h móviles (suma de todos los orígenes).
 #   X: Buffer admite 50 a una cuenta sin verificar → 47 deja margen para posteos a mano.
-#   TikTok: 20 desde el 21/10/2026 (5 bot + 5 policiales + 10 virales; antes 15). Si TikTok frena antes
+#   TikTok: 20 desde el 21/10/2026 (antes 15); desde el 24/10, hasta 10 recortes y el resto del bot. Si TikTok frena antes
 #   («esperá 24 h»), el distribuidor anota el tope que midió (pausas.tiktok.tope_medido) y lo respeta 7 días.
 def tope_24h(plataforma: str) -> int:
     return _int(f"TOPE_{plataforma.upper()}_24H", {"x": 47, "tiktok": 20}[plataforma])
@@ -130,7 +131,12 @@ def tiktok_tandas() -> tuple:
 # y cualquier video de potencial 9-10; salen TODOS los días (el resto de nacionales no va a TikTok).
 # TIKTOK_REPARTO="bot:5,policiales:5,virales:10"; "0" lo apaga (vuelve a lo más viral de todo).
 # 21/10/2026 («de TikTok agregá 5 más de virales»): virales 5 → 10, y el tope de 24 h 15 → 20.
-TIKTOK_REPARTO_DEFAULT = {"bot": 5, "policiales": 5, "virales": 10}
+# 24/10/2026 («TikTok: habilitalo solo para postear mis recortes, máximo 10, y lo que sobra que se utilice
+# para el bot»): recortes 10 y el bot con «resto» (lo que quede del tope de 24 h). Policiales y virales
+# ya no van a TikTok. Una categoría con «resto» (RESTO) no tiene lugares propios: entra después de las
+# demás y usa lo que dejen libre.
+RESTO = -1
+TIKTOK_REPARTO_DEFAULT = {"recortes": 10, "bot": RESTO}
 NAC_VIRALES_TIKTOK = {"virales", "internacionales"}
 
 
@@ -143,6 +149,9 @@ def tiktok_reparto() -> dict:
     salida = {}
     for parte in crudo.split(","):
         k, _, v = parte.partition(":")
+        if v.strip().lower() == "resto":
+            salida[k.strip().lower()] = RESTO
+            continue
         try:
             salida[k.strip().lower()] = max(0, int(v))
         except ValueError:

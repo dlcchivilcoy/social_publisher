@@ -166,7 +166,8 @@ def elegir_reparto(cola: list, n: int, limite: dict, ahora: datetime) -> list:
     (los lugares del día de cada una son suyos: nunca se los come otra)."""
     orden = sorted(cola, key=lambda p: puntaje_viral(p, ahora), reverse=True)
     elegidas, usadas = [], {}
-    for clave in ("tanda", "dia"):
+    # La categoría «resto» (el bot desde el 24/10/2026) entra última: solo en «resto» tiene lugar.
+    for clave in ("tanda", "dia", "resto"):
         for p in orden:
             if len(elegidas) >= n:
                 break
@@ -218,13 +219,31 @@ def planificar_tanda(est: dict, plataforma: str, ahora: datetime) -> tuple[list,
         tandas_quedan = max(1, sum(1 for h in config.tiktok_tandas() if h >= local.hour))
         limite = {}
         for cat, total in reparto.items():
+            if total == config.RESTO:
+                continue
             queda = max(0, total - sum(1 for c in hechas_hoy.values() if c == cat))
-            limite[cat] = {"dia": queda, "tanda": -(-queda // tandas_quedan)}
+            limite[cat] = {"dia": queda, "tanda": -(-queda // tandas_quedan), "resto": queda}
+        # «Lo que sobra, para el bot» (24/10/2026): lo que queda del tope del día, menos los lugares que las
+        # otras categorías todavía tienen guardados para lo que ya está en la cola.
+        en_cola = {}
+        for p in pendientes:
+            c = x_sincro.categoria_tiktok(p)
+            en_cola[c] = en_cola.get(c, 0) + 1
+        guardados = sum(min(lim["dia"], en_cola.get(c, 0)) for c, lim in limite.items())
+        for cat, total in reparto.items():
+            if total == config.RESTO:
+                libre = max(0, tope24 - len(hechas_hoy) - guardados)
+                limite[cat] = {"dia": 0, "tanda": 0, "resto": libre}
         elegidas = elegir_reparto(pendientes, n, limite, ahora)
         for p in pendientes:
             cat = x_sincro.categoria_tiktok(p)
-            if p not in elegidas and cat in limite and                     limite[cat]["dia"] <= sum(1 for e in elegidas if x_sincro.categoria_tiktok(e) == cat):
+            if p in elegidas or cat not in limite:
+                continue
+            ya = sum(1 for e in elegidas if x_sincro.categoria_tiktok(e) == cat)
+            if reparto[cat] != config.RESTO and limite[cat]["dia"] <= ya:
                 espera[p["clave"]] = f"ya salieron los {reparto[cat]} de {cat} de hoy en TikTok"
+            elif reparto[cat] == config.RESTO and limite[cat]["resto"] <= ya:
+                espera[p["clave"]] = f"{cat}: el resto del tope de hoy ya está usado o guardado para los otros"
     else:
         elegidas = elegir_tanda(pendientes, n, config.tanda_max_origen(), ahora)
     linea = linea_del_canal(est, plataforma)

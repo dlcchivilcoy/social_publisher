@@ -804,11 +804,12 @@ def prueba_reparto_tiktok():
     print("\n— TikTok: 5 del bot, 5 policiales y 10 virales por día —")
     preparar(lambda: [])
     os.environ["TIKTOK_TANDAS"], os.environ["INTERCALADO"] = "10,18,21", "0"
-    os.environ.pop("TIKTOK_REPARTO", None)
+    # Desde el 24/10/2026 el de fábrica es otro (prueba_recortes_tiktok): acá, el 5 + 5 + 10 fijado a mano.
+    os.environ["TIKTOK_REPARTO"] = "bot:5,policiales:5,virales:10"
     os.environ.pop("TOPE_TIKTOK_24H", None)
     config.SOLO_FINDE = {"nacionales"}
     try:
-        chequear("reparto de fábrica: 5, 5 y 10 (tope 20)",
+        chequear("reparto 5, 5 y 10 (tope 20)",
                  config.tiktok_reparto() == {"bot": 5, "policiales": 5, "virales": 10} and config.tope_24h("tiktok") == 20)
 
         def pub(i, origen, viral_pot, viral=False):
@@ -822,7 +823,7 @@ def prueba_reparto_tiktok():
         lunes = AR_10                                                    # lunes 12/10, 10:00
         chequear("lunes: el viral nacional sí va a TikTok; la nacional que no es viral, no; en X, al finde",
                  x_sincro.fuera_de_regla(est["publicaciones"]["nacionales0|tiktok"], lunes) == ""
-                 and "solo el bot" in x_sincro.fuera_de_regla(est["publicaciones"]["nacionales99|tiktok"], lunes)
+                 and "solo bot" in x_sincro.fuera_de_regla(est["publicaciones"]["nacionales99|tiktok"], lunes)
                  and "finde" in x_sincro.fuera_de_regla(dict(pub(0, "nacionales", 8, True), plataforma="x"), lunes))
         chequear("viral para TikTok: virales, mundo o potencial 9-10",
                  x_sincro.viral_tiktok({"categoria_nacional": "internacionales"})
@@ -867,11 +868,73 @@ def prueba_reparto_tiktok():
         config.SOLO_FINDE = set()
 
 
+def prueba_recortes_tiktok():
+    """TikTok desde el 24/10/2026: solo los recortes de la radio (hasta 10 por día) y el bot con lo que sobra
+    del tope; policiales y virales ya no van."""
+    print("\n— TikTok: hasta 10 recortes y el resto para el bot —")
+    preparar(lambda: [])
+    os.environ["TIKTOK_TANDAS"], os.environ["INTERCALADO"] = "10,18,21", "0"
+    os.environ.pop("TIKTOK_REPARTO", None)
+    os.environ.pop("TOPE_TIKTOK_24H", None)
+    viejos = {k: os.environ.pop(k, None) for k in ("CUPO_BOT_TIKTOK", "CUPO_POLICIALES_TIKTOK", "CUPO_NACIONALES_TIKTOK")}
+    try:
+        chequear("de fábrica: recortes 10 y el bot con el resto (tope 20)",
+                 config.tiktok_reparto() == {"recortes": 10, "bot": config.RESTO} and config.tope_24h("tiktok") == 20)
+        chequear("policiales y nacionales ya no se encolan para TikTok; recortes y bot sí",
+                 not config.puede_ir("policiales", "tiktok") and not config.puede_ir("nacionales", "tiktok")
+                 and config.puede_ir("entrevistas", "tiktok") and config.puede_ir("bot", "tiktok"))
+        e, _m = fuentes.normalizar({"id": "j1", "origen": "entrevistas", "tipo": "video", "titulo": "Recorte",
+                                    "video_url": "https://github.com/x/y/releases/download/b/j1.mp4",
+                                    "plataformas": ["x"]})
+        chequear("el recorte que llega solo para X también va a TikTok", e and e["plataformas"] == ["x", "tiktok"], e)
+        os.environ["TIKTOK_REPARTO"] = "bot:resto"
+        e2, _m = fuentes.normalizar({"id": "j2", "origen": "entrevistas", "tipo": "video", "titulo": "Recorte",
+                                     "video_url": "https://github.com/x/y/releases/download/b/j2.mp4",
+                                     "plataformas": ["x"]})
+        chequear("sin recortes en el reparto, el recorte sigue solo para X", e2 and e2["plataformas"] == ["x"], e2)
+        os.environ.pop("TIKTOK_REPARTO")
+
+        def pub(i, origen, pot):
+            return {"clave": f"{origen}{i}|tiktok", "id": f"{origen}{i}", "plataforma": "tiktok", "estado": "pendiente",
+                    "origen": origen, "prioridad": pot, "titulo": f"Pieza {origen} {i}",
+                    "generado": estado.iso(AR_10 - timedelta(hours=1))}
+        lote = [pub(i, "bot", 9) for i in range(25)] + [pub(i, "entrevistas", 5) for i in range(4)] + [pub(1, "policiales", 10)]
+        est = estado.vacio()
+        est["publicaciones"] = {x["clave"]: x for x in lote}
+        lunes = AR_10
+        chequear("el policial queda fuera de regla en TikTok",
+                 "recortes" in x_sincro.fuera_de_regla(est["publicaciones"]["policiales1|tiktok"], lunes))
+        por_tanda = []
+        for h in (10, 18, 21):
+            if h == 21:                                     # a la noche llegan 7 recortes más
+                for i in range(4, 11):
+                    est["publicaciones"][f"entrevistas{i}|tiktok"] = pub(i, "entrevistas", 4)
+            a, _d, esp = planificador.planificar(est, "tiktok", lunes + timedelta(hours=h - 10, minutes=5))
+            por_tanda.append([x_sincro.categoria_tiktok(est["publicaciones"][k]) for k, _t in a])
+            for k, due in a:
+                est["publicaciones"][k].update(estado="programado", dueAt=due)
+        total = [c for t in por_tanda for c in t]
+        chequear("a las 10 entran los 4 recortes primero (aunque el bot sea más viral) y el bot completa",
+                 por_tanda[0].count("recortes") == 4 and len(por_tanda[0]) == 7, por_tanda)
+        chequear("en el día: 20 en total, nunca un policial, y los recortes no pasan de 10",
+                 len(total) == 20 and "policiales" not in total and total.count("recortes") <= 10, por_tanda)
+        chequear("los recortes que llegan a la noche tienen su lugar: el bot no se comió sus 10",
+                 total.count("recortes") == 10, por_tanda)
+        os.environ["TIKTOK_REPARTO"] = "recortes:8,bot:resto"
+        chequear("TIKTOK_REPARTO acepta «resto»", config.tiktok_reparto() == {"recortes": 8, "bot": config.RESTO})
+    finally:
+        os.environ["TIKTOK_TANDAS"], os.environ["INTERCALADO"], os.environ["TIKTOK_REPARTO"] = "0", "0", "0"
+        os.environ["TOPE_TIKTOK_24H"] = "15"
+        for k, v in viejos.items():
+            if v is not None:
+                os.environ[k] = v
+
+
 if __name__ == "__main__":
     for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
               prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok, prueba_x_sincro,
-              prueba_semana_finde, prueba_reparto_tiktok):
+              prueba_semana_finde, prueba_reparto_tiktok, prueba_recortes_tiktok):
         f()
     print(f"\n{len(OK)}/{len(OK) + len(MAL)} ok")
     sys.exit(1 if MAL else 0)

@@ -151,6 +151,19 @@ tanda (ventana de 50 min) entra el tope de 24 h dividido por la cantidad de tand
 
 `TIKTOK_TANDAS=0` vuelve al goteo de antes (cupos por origen y 40 min entre posteos). X no cambia.
 
+### TikTok: recortes y bot (24/10/2026)
+
+Pedido del editor: «TikTok: habilitalo solo para postear mis recortes (máximo 10) y lo que sobra que se
+utilice para el bot». Reemplaza al reparto 5 + 5 + 5 de abajo.
+
+- **Recortes** (las entrevistas de la radio): hasta 10 por día. Llegan al buzón solo para X; el distribuidor
+  les suma TikTok (`fuentes.normalizar`) y salen con la misma espera de siempre: cuando su Short es público.
+- **Bot**: lo que sobra del tope de 20. Entra después de los recortes en cada tanda y nunca usa los lugares
+  que los recortes todavía tienen guardados para lo que ya está en la cola.
+- **Policiales y nacionales (virales)** ya no van a TikTok: `CUPO_POLICIALES_TIKTOK` y `CUPO_NACIONALES_TIKTOK`
+  quedan en 0 y lo pendiente se depura.
+- `TIKTOK_REPARTO="recortes:10,bot:resto"` es el de fábrica; «resto» marca la categoría que usa lo que sobra.
+
 ### Reparto 5 + 5 + 5 (20/10/2026)
 
 Pedido del editor: «si el máximo por día son 15 posteos, 5 tienen que estar habilitados para el bot, 5 para
@@ -224,7 +237,7 @@ virales, deportes, espectáculos, IA, generales, nacionales, etc., dejalo para e
 | | lunes a viernes | sábado y domingo |
 |---|---|---|
 | X | notas del diario de la mañana (a su hora de IG), bot, recortes, policiales | bot, recortes, policiales, nacionales |
-| TikTok | 5 bot, 5 policiales, 5 virales (ver «Reparto 5 + 5 + 5») | ídem |
+| TikTok | hasta 10 recortes y el resto del bot (ver «TikTok: recortes y bot») | ídem |
 
 - Cada pasada **depura** (`run.depurar`): lo pendiente que ya no va se descarta y lo programado en Buffer se
   borra (salvo lo que sale en 3 minutos). Motivos en `x_sincro.fuera_de_regla`.

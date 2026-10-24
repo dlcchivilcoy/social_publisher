@@ -134,7 +134,10 @@ def viral_tiktok(ev: dict) -> bool:
 
 
 def categoria_tiktok(pub: dict) -> str:
-    """En qué lugar del reparto de TikTok entra (config.TIKTOK_REPARTO): «bot», «policiales», «virales» o ""."""
+    """En qué lugar del reparto de TikTok entra (config.TIKTOK_REPARTO): «recortes», «bot», «policiales»,
+    «virales» o ""."""
+    if pub.get("origen") == "entrevistas":
+        return "recortes"
     if pub.get("origen") in ("bot", "policiales"):
         return pub["origen"]
     if pub.get("origen") == "nacionales" and pub.get("viral"):
@@ -208,7 +211,7 @@ def fuera_de_regla(pub: dict, ahora: datetime, plan: list = None) -> str:
     hora = (estado.de_iso(pub.get("dueAt")) if pub.get("estado") == "programado" else None) or ahora
     reparto = config.tiktok_reparto() if pub.get("plataforma") == "tiktok" else {}
     if reparto and not reparto.get(categoria_tiktok(pub)):
-        return "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+        return "a TikTok van solo " + " y ".join(c for c in reparto if reparto[c]) + " (TIKTOK_REPARTO)"
     viral_tt = bool(reparto) and categoria_tiktok(pub) == "virales"      # los virales de TikTok, todos los días
     if pub.get("origen") in config.SOLO_FINDE and hora.astimezone(_AR).weekday() < 5 and not viral_tt:
         return "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
