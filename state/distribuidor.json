@@ -8731,24 +8731,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": {
-   "categoria": "nacionales",
-   "descripcion": "El Gobierno nacional oficializó el nombramiento del doctor Diego Masaragian al frente de la Secretaría Nacional de Discapacidad. La decisión se tomó tras…",
-   "generado": "2026-10-13T21:36:28.039Z",
-   "id": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_38e98fb31644488197888e942b8c2d20~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Discapacidad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
-   "volanta": ""
-  },
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": {
    "categoria": "nacionales",
    "descripcion": "El gobierno británico confirmó actos para 2027 a 45 años de la guerra y rechazó la presentación del país en Alemania por el proyecto petrolero Sea Lion…",
@@ -31697,31 +31679,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x": {
-   "actualizado": "2026-10-14T21:40:16.000Z",
-   "buffer_id": "",
-   "clave": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627|x",
-   "creado": "2026-10-13T21:40:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T21:36:28.039Z",
-   "id": "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Discapacidad\n\nEl Gobierno nacional oficializó el nombramiento del doctor Diego Masaragian al frente de la Secretaría Nacional de Discapacidad. La decisión se tomó tras…\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-designo-a-diego-masaragian-al-frente-de-la-5c0fa8",
-   "tipo": "nota",
-   "titulo": "El Gobierno designó a Diego Masaragian al frente de la Secretaría Nacional de Discapacidad",
-   "urgente": false,
-   "vence": "2026-10-14T21:36:28.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e|x": {
    "actualizado": "2026-10-15T15:20:15.000Z",
