@@ -7216,6 +7216,32 @@
    "volanta": "Operativo policial en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/e39mGw6kYRY"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": {
+   "categoria": "accidente_vial",
+   "descripcion": "El transporte pesado salió de la calzada durante la noche del jueves a la altura de la estancia Los Hornitos. Advierten sobre el peligro del asfalto roto.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-24T02:30:21.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-un-camion-despisto-en-la-ruta-65-a-la-altura-de-la-d08be9",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un transporte de carga protagonizó un despiste sobre el asfalto provincial durante las últimas horas del jueves.\n\nEl incidente tuvo lugar en el tramo ubicado entre las localidades de Los Toldos y Zavalía, precisamente frente al establecimiento agropecuario Los Hornitos.\n\nLa calzada presentaba acumulación de agua debido a las precipitaciones vespertinas y el sector se encuentra muy deteriorado con baches profundos.\n\nHasta el momento no se informaron personas lesionadas a causa del suceso.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Un camión volcó en la Ruta 65 tras las fuertes lluvias",
+   "urgente": false,
+   "video_bytes": 80218,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_0106_04_9-de-julio_un-cami-n-volc-en-la-ruta-65-t.mp4",
+   "volanta": "Despiste en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/OsyWCKqXsqw"
+  },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": {
    "categoria": "accidente_vial",
    "descripcion": "Una mujer debió ser trasladada al hospital municipal tras protagonizar un violento choque a bordo de su moto contra un utilitario en la esquina de Azul y San Martín.",
@@ -29200,14 +29226,14 @@
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|x": {
-   "actualizado": "2026-10-24T00:40:15.000Z",
+   "actualizado": "2026-10-24T02:40:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|x",
    "creado": "2026-10-24T00:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-24T00:30:53.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros",
    "intentos": 0,
@@ -29515,6 +29541,62 @@
    "vence": "2026-10-19T08:49:59.000Z",
    "video_bytes": 81524,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_1208_03_9-de-julio_detuvieron-al-pap-de-la-abogad.mp4"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|tiktok": {
+   "actualizado": "2026-10-24T02:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|tiktok",
+   "creado": "2026-10-24T02:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-24T02:30:21.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-un-camion-despisto-en-la-ruta-65-a-la-altura-de-la-d08be9",
+   "origen": "policiales",
+   "plataforma": "tiktok",
+   "prioridad": 6,
+   "texto": "Un camión volcó en la Ruta 65 tras las fuertes lluvias\n\nEl transporte pesado salió de la calzada durante la noche del jueves a la altura de la estancia Los Hornitos. Advierten sobre el peligro del asfalto roto.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-un-camion-despisto-en-la-ruta-65-a-la-altura-de-la-d08be9\n\n#chivilcoy #diariolacampaña #radiodelcentro #9dejulio #policiales",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Un camión volcó en la Ruta 65 tras las fuertes lluvias",
+   "urgente": false,
+   "vence": "2026-10-24T20:30:21.000Z",
+   "video_bytes": 80218,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_0106_04_9-de-julio_un-cami-n-volc-en-la-ruta-65-t.mp4",
+   "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|x": {
+   "actualizado": "2026-10-24T02:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|x",
+   "creado": "2026-10-24T02:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-24T02:30:21.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-un-camion-despisto-en-la-ruta-65-a-la-altura-de-la-d08be9",
+   "noticia": "nota:9-de-julio-un-camion-despisto-en-la-ruta-65-a-la-altura-de-la-d08be9",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Un camión volcó en la Ruta 65 tras las fuertes lluvias\n\nEl transporte pesado salió de la calzada durante la noche del jueves a la altura de la estancia Los Hornitos. Advierten sobre el peligro del asfalto roto.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-un-camion-despisto-en-la-ruta-65-a-la-altura-de-la-d08be9",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Un camión volcó en la Ruta 65 tras las fuertes lluvias",
+   "urgente": false,
+   "vence": "2026-10-24T04:30:21.000Z",
+   "video_bytes": 80218,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_0106_04_9-de-julio_un-cami-n-volc-en-la-ruta-65-t.mp4",
+   "viral": false
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok": {
    "actualizado": "2026-10-15T13:00:17.000Z",
@@ -40052,24 +40134,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:206df88111ec06ca|tiktok",
-   "cuando": "2026-10-20T15:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:8d5f9e45-c3ff-4b47-a721-0097362139bf|x",
-   "cuando": "2026-10-20T15:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5|x",
-   "cuando": "2026-10-20T15:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x",
    "cuando": "2026-10-20T15:20:17.000Z",
    "evento": "enviado",
@@ -44222,6 +44286,28 @@
    "cuando": "2026-10-24T02:20:17.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|x",
+   "cuando": "2026-10-24T02:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|tiktok",
+   "cuando": "2026-10-24T02:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|x",
+   "cuando": "2026-10-24T02:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -44593,6 +44679,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/": "2026-10-18T15:00:21.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": "2026-10-24T02:40:13.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
