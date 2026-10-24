@@ -31,27 +31,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a": {
-   "descripcion": "En el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos dispositivos de saturación y controles en puntos estratégicos de Chivilcoy, con la participación de personal del GAD, Guardia",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-14T02:59:52.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
-   "urgente": false,
-   "video_bytes": 2482354,
-   "video_mb": 2.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/_AR3-hv3K6A"
-  },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq": {
    "descripcion": "Milagros Reinoso denunció que el jueves, alrededor de las 21:40, le sustrajeron una Keller Cronos 110 azul, patente A268BDY, del porche de su vivienda ubicada en la calle 80, entre Rossetti y Deán Funes. «Siento que Chivilcoy es tierra de nadie», expresó al reclamar respuestas.",
    "duracion_seg": 30.0,
@@ -13916,32 +13895,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok": {
-   "actualizado": "2026-10-14T11:40:15.000Z",
-   "buffer_id": "6acf44b43188d8aa57b0fc80",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a|tiktok",
-   "creado": "2026-10-14T09:00:20.000Z",
-   "dueAt": "2026-10-14T11:00:36.000Z",
-   "enviado": "2026-10-14T11:05:10.582Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T02:59:52.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696477494987312405",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-realizaron-operativos-de-saturacion-y-controles",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Realizaron operativos de saturación y controles preventivos en distintos puntos\n\nEn el marco de los operativos de prevención y seguridad desarrollados durante el fin de semana, el secretario Néstor Dabi informó que se desplegaron distintos dispositivos de saturación y controles en puntos estratégicos de Chivilcoy, con la participación de personal del GAD, Guardia\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Realizaron operativos de saturación y controles preventivos en distintos puntos",
-   "urgente": false,
-   "vence": "2026-10-16T02:59:52.000Z",
-   "video_bytes": 2482354,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8560a432026a04f1.mp4"
-  },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok": {
    "actualizado": "2026-10-14T18:20:15.000Z",
    "buffer_id": "6acfa718c7801890a279c897",
