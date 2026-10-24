@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 24/10/2026 18:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 7 | 7 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 9 | 5 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 9 enviadas + 5 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 24/10/2026 18:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 223 de 250 · 30d: quedan 2163 de 3000 (visto 2026-10-24T21:00:26.000Z)
+15m: quedan 99 de 100 · 24h: quedan 222 de 250 · 30d: quedan 2162 de 3000 (visto 2026-10-24T21:40:15.000Z)
 
 ## Cola propia (5 esperando)
 - TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -43,8 +43,6 @@ Actualizado: 24/10/2026 18:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T18:20 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x 
-- 2026-10-24T18:40 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x 
 - 2026-10-24T18:40 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tikto 
 - 2026-10-24T18:40 recibido web:98e77637-c555-4989-b556-499e25484041|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-24T18:40 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x 
@@ -68,3 +66,5 @@ Actualizado: 24/10/2026 18:20 (hora AR) · ACTIVO
 - 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tikto 
 - 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tikto 
 - 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tikto 
+- 2026-10-24T21:40 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tikto 
+- 2026-10-24T21:40 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tikto 
