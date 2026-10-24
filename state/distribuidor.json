@@ -11,11 +11,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 5,
-    "sent": 9
+    "scheduled": 1,
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-24T21:40:15.000Z"
+   "visto": "2026-10-24T23:00:25.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-24T21:40:15.000Z"
+   "visto": "2026-10-24T23:00:25.000Z"
   }
  },
  "contenidos": {
@@ -2067,6 +2067,27 @@
    "video_mb": 4.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77991029b30a0e72.mp4",
    "youtube_url": "https://www.youtube.com/shorts/bwwGz3vOOtk"
+  },
+  "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": {
+   "descripcion": "La delegación de Chivilcoy fue recibida en la ciudad tras concluir su participación en la Final Provincial de los Juegos Bonaerenses, desarrollada en Mar del Plata.\n\nLos representantes locales regresaron luego de competir en las distintas disciplinas del certamen bonaerense frente a delegaciones de toda la provincia.\n\nDe esta manera, los deportistas y participantes cerraron una nueva experiencia deportiva y cultural en el tradicional evento provincial.",
+   "duracion_seg": 106.6,
+   "generado": "2026-10-24T22:41:56.000Z",
+   "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "video_bytes": 37599017,
+   "video_mb": 35.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a3687d6cf6e2ef22.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/HZ4B_MuhYCY"
   },
   "entrevistas:job00206": {
    "descripcion": "El violinista Kuki Errante analizó en Chivilcoy las diferencias musicales entre el tango y el folclore. Explicó por qué considera al tango como música académica y repasó el origen de las melodías criollas.",
@@ -12596,6 +12617,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/elecciones-en-el-consejo-de-la-magistratura-cuando-votan-los-7686bd",
    "volanta": ""
   },
+  "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": {
+   "categoria": "",
+   "descripcion": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata La delegación de Chivilcoy fue recibida luego de su participación y competencia en la Final Provincial de los Juegos Bonaerenses, desarrollada en la ciudad de Mar del Plata.",
+   "generado": "2026-10-24T22:41:09.237Z",
+   "id": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b70872b1bd644e3b8e0a52e4fe08d93a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:dad7423e-f855-41dd-8505-49e56691870b": {
    "categoria": "nacionales",
    "descripcion": "Jensen Huang advirtió que la firma podría cortar el suministro de procesadores. Además, anunció una donación millonaria para investigar la seguridad en el…",
@@ -13512,22 +13552,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 221,
-   "segundos": 9606,
+   "restantes": 219,
+   "segundos": 7195,
    "tope": 250
   },
   "30d": {
-   "restantes": 2161,
-   "segundos": 1464625,
+   "restantes": 2159,
+   "segundos": 1462215,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T22:20:16.000Z",
+ "cuota_visto": "2026-10-24T23:00:27.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -16670,19 +16710,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok": {
-   "actualizado": "2026-10-24T21:00:19.000Z",
+   "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c678b3d437ddcd9c0d7",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok",
    "creado": "2026-10-24T17:20:15.000Z",
    "dueAt": "2026-10-24T21:43:48.000Z",
+   "enviado": "2026-10-24T21:44:43.518Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T17:14:36.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700353427767020821",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16842,19 +16883,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok": {
-   "actualizado": "2026-10-24T21:00:19.000Z",
+   "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c696887a2efc1d59eaa",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
    "creado": "2026-10-24T18:00:17.000Z",
    "dueAt": "2026-10-24T22:43:23.000Z",
+   "enviado": "2026-10-24T22:44:12.411Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T17:40:43.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700368725207239943",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16899,19 +16941,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok": {
-   "actualizado": "2026-10-24T21:00:19.000Z",
+   "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c69bd33ce99c34047dd",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok",
    "creado": "2026-10-24T18:00:17.000Z",
    "dueAt": "2026-10-24T22:23:18.000Z",
+   "enviado": "2026-10-24T22:25:12.958Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T17:50:20.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700362732515626292",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16956,19 +16999,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok": {
-   "actualizado": "2026-10-24T21:00:19.000Z",
+   "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c683d5b27036ba19bf2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok",
    "creado": "2026-10-24T18:40:13.000Z",
    "dueAt": "2026-10-24T22:03:03.000Z",
+   "enviado": "2026-10-24T22:03:57.422Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T18:29:34.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700358359815425301",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19865,6 +19909,62 @@
    "vence": "2026-10-24T05:12:29.000Z",
    "video_bytes": 4657186,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77991029b30a0e72.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok": {
+   "actualizado": "2026-10-24T23:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
+   "creado": "2026-10-24T23:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-24T22:41:56.000Z",
+   "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata\n\nLa delegación de Chivilcoy regresó a la ciudad tras competir frente a representantes de toda la provincia en los Juegos Bonaerenses. De esta manera, los participantes cerraron una nueva experiencia deportiva y cultural en el tradicional certamen.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-26T22:41:56.000Z",
+   "video_bytes": 37599017,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a3687d6cf6e2ef22.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x": {
+   "actualizado": "2026-10-24T23:00:25.000Z",
+   "buffer_id": "6add388a8b3d437ddcdff473",
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
+   "creado": "2026-10-24T23:00:21.000Z",
+   "dueAt": "2026-10-24T23:02:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-24T22:41:56.000Z",
+   "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "noticia": "nota:chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata\n\nLa delegación de Chivilcoy regresó tras competir en los Juegos Bonaerenses. Los participantes cerraron una experiencia deportiva y cultural.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-25T00:41:56.000Z",
+   "video_bytes": 37599017,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a3687d6cf6e2ef22.mp4",
    "viral": false
   },
   "entrevistas:job00206|x": {
@@ -25111,18 +25211,19 @@
    "viral": false
   },
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x": {
-   "actualizado": "2026-10-24T22:20:14.000Z",
+   "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add2f1f8b3d437ddcde1644",
    "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
    "creado": "2026-10-24T22:20:14.000Z",
    "dueAt": "2026-10-24T22:23:49.000Z",
+   "enviado": "2026-10-24T22:24:04.668Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T22:01:57.000Z",
    "id": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114120768850120890",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
    "noticia": "nota:junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
    "origen": "policiales",
@@ -28154,14 +28255,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x": {
-   "actualizado": "2026-10-24T22:40:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T23:00:25.000Z",
+   "buffer_id": "6add388a8b3d437ddcdff4d2",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
    "creado": "2026-10-24T22:40:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T23:07:48.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-24T22:30:37.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u",
    "intentos": 0,
@@ -37705,6 +37806,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x": {
+   "actualizado": "2026-10-24T23:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x",
+   "creado": "2026-10-24T23:00:21.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-24T22:41:09.237Z",
+   "id": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "noticia": "nota:chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
+   "urgente": false,
+   "vence": "2026-10-25T02:41:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:dad7423e-f855-41dd-8505-49e56691870b|x": {
    "actualizado": "2026-10-20T00:20:18.000Z",
    "buffer_id": "",
@@ -39121,81 +39247,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
-   "cuando": "2026-10-20T23:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma|tiktok",
-   "cuando": "2026-10-20T23:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
-   "cuando": "2026-10-20T23:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-20T23:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6ad7fbe78c20162e7ecd73de",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|x",
-   "cuando": "2026-10-20T23:40:23.000Z",
-   "dueAt": "2026-10-20T23:43:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
-   "cuando": "2026-10-21T00:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|tiktok",
-   "cuando": "2026-10-21T00:00:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
-   "cuando": "2026-10-21T00:00:40.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|tiktok",
-   "cuando": "2026-10-21T00:00:40.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:b4a12021-9279-4b86-9d0b-ae839890e171|x",
-   "cuando": "2026-10-21T00:00:41.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "clave": "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x",
    "cuando": "2026-10-21T00:00:41.000Z",
@@ -43333,6 +43384,74 @@
    "cuando": "2026-10-24T22:40:14.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
+   "cuando": "2026-10-24T23:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
+   "cuando": "2026-10-24T23:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x",
+   "cuando": "2026-10-24T23:00:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok",
+   "cuando": "2026-10-24T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700353427767020821"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
+   "cuando": "2026-10-24T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700368725207239943"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok",
+   "cuando": "2026-10-24T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700362732515626292"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok",
+   "cuando": "2026-10-24T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700358359815425301"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
+   "cuando": "2026-10-24T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114120768850120890"
+  },
+  {
+   "buffer_id": "6add388a8b3d437ddcdff473",
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
+   "cuando": "2026-10-24T23:00:27.000Z",
+   "dueAt": "2026-10-24T23:02:24.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6add388a8b3d437ddcdff4d2",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
+   "cuando": "2026-10-24T23:00:27.000Z",
+   "dueAt": "2026-10-24T23:07:48.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -43356,7 +43475,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-24",
- "ultima_sync": "2026-10-24T21:40:15.000Z",
+ "ultima_sync": "2026-10-24T23:00:25.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43465,6 +43584,7 @@
   "bot:video_matias-zucchi_mvldteosy8fo_01.mp4": "2026-10-23T20:00:19.000Z",
   "bot:video_matias-zucchi_mvllmur3yyre_01.mp4": "2026-10-23T23:40:15.000Z",
   "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4": "2026-10-24T09:00:20.000Z",
+  "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": "2026-10-24T23:00:21.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -44090,6 +44210,7 @@
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40": "2026-10-17T15:40:15.000Z",
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c": "2026-10-16T12:40:14.000Z",
+  "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": "2026-10-24T23:00:21.000Z",
   "web:dad7423e-f855-41dd-8505-49e56691870b": "2026-10-19T00:20:16.000Z",
   "web:dae9d3f8-bd74-4de6-a065-60f894be222e": "2026-10-14T10:20:15.000Z",
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",

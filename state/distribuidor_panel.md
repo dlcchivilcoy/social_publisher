@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 9 | 5 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
+| Reels del bot | X | 10 | 8 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 13 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 9 enviadas + 5 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 13 enviadas + 1 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -27,11 +27,11 @@ Actualizado: 24/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 221 de 250 · 30d: quedan 2161 de 3000 (visto 2026-10-24T22:20:16.000Z)
+15m: quedan 98 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2159 de 3000 (visto 2026-10-24T23:00:27.000Z)
 
 ## Cola propia (5 esperando)
+- TikTok · Reels del bot · Recibieron a la delegación local tras la Final Provincial en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Cayó una dupla familiar por venta de drogas y detuvieron a un prófugo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -43,16 +43,6 @@ Actualizado: 24/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T19:20 recibido web:6eaf6418-146a-46ea-add6-5506d89ee4b7|x 
-- 2026-10-24T19:20 depurado web:6eaf6418-146a-46ea-add6-5506d89ee4b7|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x 
-- 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x 
-- 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x 
-- 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x 
-- 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x 
-- 2026-10-24T19:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x 
-- 2026-10-24T19:40 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x 
-- 2026-10-24T19:40 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tikto 
 - 2026-10-24T19:40 programado bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x 
 - 2026-10-24T20:40 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x 
 - 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tikto 
@@ -68,3 +58,13 @@ Actualizado: 24/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-24T22:20 programado policiales:https://junin24.com/policiales/golpes-al-narcomen 
 - 2026-10-24T22:40 recibido policiales:https://www.diariodemocracia.com/policiales/34704 
 - 2026-10-24T22:40 vencido bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-24T23:00 recibido bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x 
+- 2026-10-24T23:00 recibido bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok 
+- 2026-10-24T23:00 recibido web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-24T23:00 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tikto 
+- 2026-10-24T23:00 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tikto 
+- 2026-10-24T23:00 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tikto 
+- 2026-10-24T23:00 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tikto 
+- 2026-10-24T23:00 enviado policiales:https://junin24.com/policiales/golpes-al-narcomen 
+- 2026-10-24T23:00 programado bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x 
+- 2026-10-24T23:00 programado policiales:https://www.diariodemocracia.com/policiales/34704 
