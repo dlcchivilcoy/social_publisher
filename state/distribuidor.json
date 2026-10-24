@@ -15,7 +15,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-24T19:20:24.000Z"
+   "visto": "2026-10-24T20:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -24,10 +24,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 12
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-24T19:20:24.000Z"
+   "visto": "2026-10-24T20:40:13.000Z"
   }
  },
  "contenidos": {
@@ -13573,17 +13573,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 19199,
+   "restantes": 224,
+   "segundos": 15608,
    "tope": 250
   },
   "30d": {
-   "restantes": 2165,
-   "segundos": 1474218,
+   "restantes": 2164,
+   "segundos": 1470627,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T19:40:23.000Z",
+ "cuota_visto": "2026-10-24T20:40:13.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -17148,18 +17148,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x": {
-   "actualizado": "2026-10-24T19:40:22.000Z",
+   "actualizado": "2026-10-24T20:40:13.000Z",
    "buffer_id": "6add09a60b5343d0709cd55d",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
    "creado": "2026-10-24T19:40:16.000Z",
    "dueAt": "2026-10-24T19:42:33.000Z",
+   "enviado": "2026-10-24T19:42:53.604Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T19:20:15.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114080205669064984",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
    "noticia": "nota:chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
    "origen": "bot",
@@ -39324,12 +39325,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok",
-   "cuando": "2026-10-20T21:20:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698858576617409799"
-  },
-  {
    "buffer_id": "6ad7db1aa40664bdbaea5277",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|x",
    "cuando": "2026-10-20T21:20:26.000Z",
@@ -43532,6 +43527,12 @@
    "cuando": "2026-10-24T19:40:23.000Z",
    "dueAt": "2026-10-24T19:42:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
+   "cuando": "2026-10-24T20:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114080205669064984"
   }
  ],
  "tandas": {
@@ -43554,7 +43555,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-24",
- "ultima_sync": "2026-10-24T19:20:24.000Z",
+ "ultima_sync": "2026-10-24T20:40:13.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
