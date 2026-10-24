@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 7 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 1 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 7 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -29,7 +29,9 @@ Actualizado: 24/10/2026 13:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2173 de 3000 (visto 2026-10-24T15:40:14.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (6 esperando)
+- X · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -42,9 +44,6 @@ Actualizado: 24/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T09:00 recibido bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok 
-- 2026-10-24T09:00 recibido web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-24T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/10/23/rut espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-24T09:00 vencido bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|x no hubo lugar antes de su vencimiento
 - 2026-10-24T12:40 depurado policiales:https://diariodelujan.com/dos-aprehendidos-por-am a TikTok van solo recortes y bot (TIKTOK_REPARTO)
 - 2026-10-24T12:40 depurado policiales:https://www.junindigital.com/policiales/2026-10-2 a TikTok van solo recortes y bot (TIKTOK_REPARTO)
@@ -67,3 +66,6 @@ Actualizado: 24/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-24T15:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tikto 
 - 2026-10-24T15:40 enviado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok 
 - 2026-10-24T15:40 enviado bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok 
+- 2026-10-24T16:20 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x 
+- 2026-10-24T16:20 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tikto 
+- 2026-10-24T16:20 recibido web:1e08419d-60ee-4c27-98d2-488e539b6952|x la misma noticia ya sale en X (Reels del bot, pendiente)
