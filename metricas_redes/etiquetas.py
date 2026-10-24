@@ -116,7 +116,9 @@ def indice(registros: dict) -> dict:
     for dia, c in (nac.get("carruseles") or {}).items():
         if isinstance(c, dict):
             poner([c.get("id"), c.get("facebook_id"), (c.get("facebook") or {}).get("id")],
-                  {"origen": "Nacionales · carrusel de las 22", "categoria": "general",
+                  # Desde el 24/10/2026 el resumen es un reel a las 23 (policiales-bsas de9f4d2).
+                  {"origen": ("Nacionales · resumen de las 23 (reel)" if c.get("formato") == "reel"
+                              else "Nacionales · carrusel de las 22"), "categoria": "general",
                    "titulo": f"Las {c.get('diapositivas') or 10} noticias del día ({dia})"})
     pubs = (registros.get("archivo.json") or {}).get("publicaciones") or []
     for fila in (pubs.values() if isinstance(pubs, dict) else pubs):
