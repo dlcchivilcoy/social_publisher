@@ -31,48 +31,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq": {
-   "descripcion": "Milagros Reinoso denunció que el jueves, alrededor de las 21:40, le sustrajeron una Keller Cronos 110 azul, patente A268BDY, del porche de su vivienda ubicada en la calle 80, entre Rossetti y Deán Funes. «Siento que Chivilcoy es tierra de nadie», expresó al reclamar respuestas.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-14T13:22:31.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Una vecina denunció el robo de su moto y ofrece recompensa",
-   "urgente": false,
-   "video_bytes": 517013,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8ce861781c98b5e7.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/_wVlgqIMLYo"
-  },
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye": {
-   "descripcion": "Maximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se dirigía en moto al Corralón Municipal. Según relató, dos personas salieron desde un campo, le propinaron una fuerte patada en el estómago",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-14T14:14:12.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
-   "urgente": false,
-   "video_bytes": 371590,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/H1AGcWi6Z3E"
-  },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf": {
    "descripcion": "La Municipalidad de Chivilcoy acompañó una nueva edición de la Feria Distrital “Chivilcoy Ofrece 2026”, un espacio destinado a presentar la amplia oferta educativa y de formación para el trabajo disponible en la ciudad, especialmente para estudiantes que transitan el último año.",
    "duracion_seg": 30.0,
@@ -5183,30 +5141,6 @@
    "volanta": "Vaticano",
    "youtube_url": "https://youtube.com/shorts/21HFj1mTKmE"
   },
-  "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": {
-   "categoria": "accidente_vial",
-   "descripcion": "Un joven de quien no trascendió la identidad perdió la vida tras ser embestido por un vehículo sobre la Ruta Nacional 7 cuando emprendía su regreso hacia su hogar.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-14T13:11:25.000Z",
-   "id": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html",
-   "localidad": "Luján",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-un-joven-murio-tras-ser-atropellado-en-la-traza-de-la-5989d8",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "Un trágico siniestro vial se cobró la vida de un joven sobre la traza de la Ruta Nacional 7.\n\nLa víctima fue embestida por un rodado en circunstancias que aún son materia de investigación policial.\n\nEl hecho ocurrió cuando el damnificado se desplazaba de regreso tras haber estado en la localidad de Luján.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #SiniestroVial #Ruta7 #BuenosAires",
-   "tipo": "video",
-   "titulo": "Un joven murió atropellado en la Ruta 7 al regresar de Luján",
-   "urgente": false,
-   "video_bytes": 72320,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_06_lujan_un-joven-muri-atropellado-en-l.mp4",
-   "volanta": "Tragedia vial en Luján",
-   "youtube_url": "https://youtube.com/shorts/iTT4pd6pnYs"
-  },
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": {
    "categoria": "accidente_vial",
    "descripcion": "Dos personas fallecieron tras un violento choque frontal registrado en el Acceso Oeste, a la altura de la localidad de Luján. Intervinieron los servicios de emergencia en el lugar del siniestro.",
@@ -7579,24 +7513,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/clima-en-chivilcoy-el-pronostico-indica-que-el-ambiente-fresco-y",
    "volanta": "Clima en Chivilcoy"
   },
-  "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": {
-   "categoria": "nacionales",
-   "descripcion": "La Cámara Federal ratificó que Mauricio Collareda, condenado junto a Cristina Kirchner, continuará alojado en una cárcel de Santa Cruz.",
-   "generado": "2026-10-13T18:17:18.464Z",
-   "id": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7d2d3e2c472145f7b955180288bb1875~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/causa-vialidad-la-camara-de-casacion-ratifico-el-rechazo-de-la-e4c6ce",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domiciliaria para Mauricio Collareda",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/causa-vialidad-la-camara-de-casacion-ratifico-el-rechazo-de-la-e4c6ce",
-   "volanta": ""
-  },
   "web:0ad113d1-0797-400e-8161-494cc3be7804": {
    "categoria": "nacionales",
    "descripcion": "El Gobernador Bonaerense en la inauguración de los Juegos Bonaerenses endureció su reclamo a Nación por los fondos recortados El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este lunes el acto de apertura de la etapa final de la 35º edición de los Juegos Bonaerenses, que se desarrollarán en la ciudad de Mar del Plata con la participación de 30.000 personas, en distintas disciplinas deportivas y culturales. El mandatario provincial estuvo acompañado por el ministro de...",
@@ -9496,24 +9412,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/xxi-edicion-el-club-de-ciencias-de-chivilcoy-brillo-en-infomatrix-con",
    "volanta": "XXI edición"
   },
-  "web:63610a74-1ceb-4c17-9d20-a5b404821855": {
-   "categoria": "nacionales",
-   "descripcion": "El gobierno británico aplicará la legislación de Protección de Intereses Comerciales para respaldar el proyecto Sea Lion frente a los reclamos realizados…",
-   "generado": "2026-10-13T18:12:03.864Z",
-   "id": "web:63610a74-1ceb-4c17-9d20-a5b404821855",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ae403fd043994c2983561dc38d243ff3~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/malvinas-el-reino-unido-aprobo-normas-para-proteger-a-las-a80867",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Malvinas: el Reino Unido aprobó normas para proteger a las petroleras",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malvinas-el-reino-unido-aprobo-normas-para-proteger-a-las-a80867",
-   "volanta": ""
-  },
   "web:65614571-f714-4991-a75b-bc27850d9de1": {
    "categoria": "",
    "descripcion": "Investigan un posible femicidio tras un choque fatal en la Ruta 5 Aquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba la víctima fatal era su expareja y tenía una orden judicial vigente de restricción de acercamiento. El episodio tuvo lugar el pasado lunes a la altura...",
@@ -9641,24 +9539,6 @@
    "titulo": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "volanta": ""
-  },
-  "web:6ab0651a-5f39-461f-9277-fae18ec231f6": {
-   "categoria": "nacionales",
-   "descripcion": "El Gobierno analiza declarar feriados y asuetos del 8 al 11 de noviembre por la llegada del papa León XIV. La agenda sigue en pie a la espera de su…",
-   "generado": "2026-10-13T18:06:48.632Z",
-   "id": "web:6ab0651a-5f39-461f-9277-fae18ec231f6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_53e4c21893984dc6b1088d9a446a0688~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-a-la-argentina-cuando-serian-los-1111e7",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Visita del papa León XIV a la Argentina: cuándo serían los feriados y cómo sigue la gira tras su operación",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/visita-del-papa-leon-xiv-a-la-argentina-cuando-serian-los-1111e7",
    "volanta": ""
   },
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": {
@@ -13692,22 +13572,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 230,
-   "segundos": 25187,
+   "restantes": 229,
+   "segundos": 24004,
    "tope": 250
   },
   "30d": {
-   "restantes": 2170,
-   "segundos": 1480207,
+   "restantes": 2169,
+   "segundos": 1479024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T18:00:36.000Z",
+ "cuota_visto": "2026-10-24T18:20:17.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13724,84 +13604,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "6acfa718c7801890a279c897",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|tiktok",
-   "creado": "2026-10-14T13:40:20.000Z",
-   "dueAt": "2026-10-14T17:23:07.000Z",
-   "enviado": "2026-10-14T17:23:57.492Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T13:22:31.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696575364109225237",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Una vecina denunció el robo de su moto y ofrece recompensa\n\nMilagros Reinoso denunció que el jueves, alrededor de las 21:40, le sustrajeron una Keller Cronos 110 azul, patente A268BDY, del porche de su vivienda ubicada en la calle 80, entre Rossetti y Deán Funes. «Siento que Chivilcoy es tierra de nadie», expresó al reclamar respuestas.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Una vecina denunció el robo de su moto y ofrece recompensa",
-   "urgente": false,
-   "vence": "2026-10-16T13:22:31.000Z",
-   "video_bytes": 517013,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8ce861781c98b5e7.mp4"
-  },
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "6acf8af48570d416620b947e",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq|x",
-   "creado": "2026-10-14T13:40:20.000Z",
-   "dueAt": "2026-10-14T18:00:15.000Z",
-   "enviado": "2026-10-14T18:03:42.520Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T13:22:31.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110431365900464340",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Una vecina denunció el robo de su moto y ofrece recompensa\n\nMilagros Reinoso denunció que el jueves, alrededor de las 21:40, le sustrajeron una Keller Cronos 110 azul, patente A268BDY, del porche de su vivienda ubicada en la calle 80…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-el-robo-de-su-moto-y-ofrece",
-   "tipo": "video",
-   "titulo": "Una vecina denunció el robo de su moto y ofrece recompensa",
-   "urgente": false,
-   "vence": "2026-10-16T13:22:31.000Z",
-   "video_bytes": 517013,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8ce861781c98b5e7.mp4"
-  },
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "6acf8fa08b6c76b221fef6ed",
-   "clave": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye|x",
-   "creado": "2026-10-14T14:20:14.000Z",
-   "dueAt": "2026-10-14T18:15:14.000Z",
-   "enviado": "2026-10-14T18:15:19.458Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T14:14:12.000Z",
-   "id": "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110434289259004356",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar\n\nMaximiliano Zacarías, de 22 años, fue atacado el martes alrededor de las 4:45 en la calle 520, cerca del predio de la confitería Vallerga, mientras se…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-golpearon-y-asaltaron-a-un-empleado-municipal\n#Chivilcoy",
-   "tipo": "video",
-   "titulo": "Golpearon y asaltaron a un empleado municipal cuando iba a trabajar",
-   "urgente": false,
-   "vence": "2026-10-16T14:14:12.000Z",
-   "video_bytes": 371590,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f30888f935abdd78.mp4"
-  },
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf|tiktok": {
    "actualizado": "2026-10-14T20:40:29.000Z",
    "buffer_id": "6acfd5f1199c0449d73ba3ef",
@@ -17007,14 +16809,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x": {
-   "actualizado": "2026-10-24T17:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T18:20:16.000Z",
+   "buffer_id": "6adcf6e1e4be8a4d8671923c",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x",
    "creado": "2026-10-24T17:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T18:22:11.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-24T17:14:36.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
    "intentos": 0,
@@ -24590,32 +24392,6 @@
    "video_bytes": 1328728,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fbd1321e41_el-papa-leon-xiv-reaparecio-tras-ser-operado-de.mp4"
   },
-  "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "6acfa71a95350f80b3547079",
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html|tiktok",
-   "creado": "2026-10-14T13:20:22.000Z",
-   "dueAt": "2026-10-14T18:03:06.000Z",
-   "enviado": "2026-10-14T18:04:48.682Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T13:11:25.000Z",
-   "id": "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696585853136637202",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-un-joven-murio-tras-ser-atropellado-en-la-traza-de-la-5989d8",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Un trágico siniestro vial se cobró la vida de un joven sobre la traza de la Ruta Nacional 7.\n\nLa víctima fue embestida por un rodado en circunstancias que aún son materia de investigación policial.\n\nEl hecho ocurrió cuando el damnificado se desplazaba de regreso tras haber estado en la localidad de Luján.\n\n📲 Más noticias de Luján en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #luján #policiales",
-   "tipo": "video",
-   "titulo": "Un joven murió atropellado en la Ruta 7 al regresar de Luján",
-   "urgente": false,
-   "vence": "2026-10-15T07:11:25.000Z",
-   "video_bytes": 72320,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1209_06_lujan_un-joven-muri-atropellado-en-l.mp4"
-  },
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok": {
    "actualizado": "2026-10-15T00:20:15.000Z",
    "buffer_id": "6ad00e30d9430f324aebd269",
@@ -30040,31 +29816,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366|x",
-   "creado": "2026-10-13T18:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T18:17:18.464Z",
-   "id": "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/causa-vialidad-la-camara-de-casacion-ratifico-el-rechazo-de-la-e4c6ce",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domiciliaria para Mauricio Collareda\n\nLa Cámara Federal ratificó que Mauricio Collareda, condenado junto a Cristina Kirchner, continuará alojado en una cárcel de Santa Cruz.\n\nhttps://www.diariolacampaña.com.ar/n/causa-vialidad-la-camara-de-casacion-ratifico-el-rechazo-de-la-e4c6ce",
-   "tipo": "nota",
-   "titulo": "Causa Vialidad: la Cámara de Casación ratificó el rechazo de la prisión domiciliaria para Mauricio Collareda",
-   "urgente": false,
-   "vence": "2026-10-14T18:17:18.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:0ad113d1-0797-400e-8161-494cc3be7804|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -33110,31 +32861,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:63610a74-1ceb-4c17-9d20-a5b404821855|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:63610a74-1ceb-4c17-9d20-a5b404821855|x",
-   "creado": "2026-10-13T18:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T18:12:03.864Z",
-   "id": "web:63610a74-1ceb-4c17-9d20-a5b404821855",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/malvinas-el-reino-unido-aprobo-normas-para-proteger-a-las-a80867",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Malvinas: el Reino Unido aprobó normas para proteger a las petroleras\n\nEl gobierno británico aplicará la legislación de Protección de Intereses Comerciales para respaldar el proyecto Sea Lion frente a los reclamos realizados…\n\nhttps://www.diariolacampaña.com.ar/n/malvinas-el-reino-unido-aprobo-normas-para-proteger-a-las-a80867",
-   "tipo": "nota",
-   "titulo": "Malvinas: el Reino Unido aprobó normas para proteger a las petroleras",
-   "urgente": false,
-   "vence": "2026-10-14T18:12:03.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:65614571-f714-4991-a75b-bc27850d9de1|x": {
    "actualizado": "2026-10-16T00:20:17.000Z",
    "buffer_id": "",
@@ -33311,31 +33037,6 @@
    "titulo": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje",
    "urgente": false,
    "vence": "2026-10-19T15:37:35.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x": {
-   "actualizado": "2026-10-14T18:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:6ab0651a-5f39-461f-9277-fae18ec231f6|x",
-   "creado": "2026-10-13T18:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T18:06:48.632Z",
-   "id": "web:6ab0651a-5f39-461f-9277-fae18ec231f6",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-a-la-argentina-cuando-serian-los-1111e7",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Visita del papa León XIV a la Argentina: cuándo serían los feriados y cómo sigue la gira tras su operación\n\nEl Gobierno analiza declarar feriados y asuetos del 8 al 11 de noviembre por la llegada del papa León XIV.\n\nhttps://www.diariolacampaña.com.ar/n/visita-del-papa-leon-xiv-a-la-argentina-cuando-serian-los-1111e7",
-   "tipo": "nota",
-   "titulo": "Visita del papa León XIV a la Argentina: cuándo serían los feriados y cómo sigue la gira tras su operación",
-   "urgente": false,
-   "vence": "2026-10-14T18:06:48.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -39610,12 +39311,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00232|x",
-   "cuando": "2026-10-20T18:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112606982641156112"
-  },
-  {
    "clave": "entrevistas:job00233|x",
    "cuando": "2026-10-20T18:40:15.000Z",
    "evento": "enviado",
@@ -43817,6 +43512,13 @@
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x",
    "cuando": "2026-10-24T18:00:36.000Z",
    "dueAt": "2026-10-24T18:12:19.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adcf6e1e4be8a4d8671923c",
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x",
+   "cuando": "2026-10-24T18:20:17.000Z",
+   "dueAt": "2026-10-24T18:22:11.000Z",
    "evento": "programado"
   }
  ],
