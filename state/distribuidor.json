@@ -13617,17 +13617,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 228,
-   "segundos": 22807,
+   "restantes": 227,
+   "segundos": 21601,
    "tope": 250
   },
   "30d": {
-   "restantes": 2168,
-   "segundos": 1477826,
+   "restantes": 2167,
+   "segundos": 1476621,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T18:40:15.000Z",
+ "cuota_visto": "2026-10-24T19:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -16905,14 +16905,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x": {
-   "actualizado": "2026-10-24T17:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-24T19:00:19.000Z",
+   "buffer_id": "6add00448b3d437ddcd40945",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x",
    "creado": "2026-10-24T17:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-24T19:02:10.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-24T17:22:39.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6",
    "intentos": 0,
@@ -39432,12 +39432,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00234|x",
-   "cuando": "2026-10-20T19:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112620665324867732"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
    "cuando": "2026-10-20T21:00:21.000Z",
    "evento": "vencido",
@@ -43645,6 +43639,13 @@
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x",
    "cuando": "2026-10-24T18:40:15.000Z",
    "dueAt": "2026-10-24T18:42:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6add00448b3d437ddcd40945",
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x",
+   "cuando": "2026-10-24T19:00:20.000Z",
+   "dueAt": "2026-10-24T19:02:10.000Z",
    "evento": "programado"
   }
  ],
