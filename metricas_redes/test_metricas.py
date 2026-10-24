@@ -91,7 +91,18 @@ class MetaFalso:
         if ruta == "v1/video_insights":
             return {"data": [{"name": "post_video_followers", "values": [{"value": 3}]}]}
         if ruta == "FB/published_posts":
-            return {"error": {"code": 10, "message": "requires pages_read_user_content"}}
+            if "pages_read_user_content" not in self.scopes:
+                return {"error": {"code": 10, "message": "requires pages_read_user_content"}}
+            return {"data": [
+                {"id": "FB_p1", "created_time": ts(55), "message": "Gran festival en la plaza", "status_type": "added_video",
+                 "attachments": {"data": [{"media_type": "video", "type": "video_inline", "target": {"id": "v1"}}]},
+                 "reactions": {"summary": {"total_count": 26}}, "comments": {"summary": {"total_count": 4}}},
+                {"id": "FB_p2", "created_time": ts(70), "message": "Farmacias de turno de hoy", "status_type": "added_photos",
+                 "attachments": {"data": [{"media_type": "photo", "type": "photo", "target": {"id": "f9"}}]},
+                 "reactions": {"summary": {"total_count": 8}}, "shares": {"count": 2}}]}
+        if ruta == "FB_p2/insights":
+            return {"data": [{"name": "post_media_view", "values": [{"value": 900}]},
+                             {"name": "post_clicks", "values": [{"value": 12}]}]}
         if ruta == "FB/insights":
             return {"data": []}
         return {"error": {"code": 100, "message": f"ruta desconocida {ruta}"}}
@@ -177,6 +188,23 @@ dia = d["diario"]["instagram"].get("2026-10-27") or {}
 chequear("la cuenta por día: nuevos y bajas", dia.get("nuevos") == 30 and dia.get("bajas") == 12 and dia.get("alcance") == 100, dia)
 chequear("horas de conexión pasadas a Argentina", d["audiencia"]["instagram"]["por_hora"] == {"20": 500, "21": 900})
 chequear("Facebook: seguidores que trajo el reel", d["posteos"]["fb:v1"]["m"].get("seguidores") == 3)
+
+print("Cuando llegan los permisos")
+d, _, _ = correr_foto({"instagram_basic"})
+chequear("antes: el posteo quedó medido sin estadísticas", "vistas" not in d["posteos"]["ig:m1"]["m"])
+d, _, _ = correr_foto({"instagram_manage_insights", "read_insights", "pages_read_user_content"}, d)
+chequear("después: se vuelve a medir con estadísticas, una sola vez", d["posteos"]["ig:m1"]["m"].get("vistas") == 1000
+         and d["posteos"]["ig:m1"].get("con_insights") and d["completo"] == {"instagram": True, "facebook": True})
+fbs = [k for k, v in d["posteos"].items() if v["red"] == "facebook"]
+chequear("el reel de Facebook no se duplica (lista de reels y posteo son el mismo)",
+         sorted(fbs) == ["fb:FB_p2", "fb:v1"] and d["posteos"]["fb:v1"]["m"].get("seguidores") == 3, fbs)
+chequear("las fotos de Facebook entran con vistas y clics", d["posteos"]["fb:FB_p2"]["m"].get("vistas") == 900
+         and d["posteos"]["fb:FB_p2"]["formato"] == "foto" and d["posteos"]["fb:FB_p2"]["m"].get("compartidas") == 2)
+d_viejo = {"posteos": {"fb:1456_77": {"red": "facebook", "reel_id": "v5", "m": {"a": 1, "b": 2}},
+                       "fb:v5": {"red": "facebook", "reel_id": "v5", "m": {"a": 1}}}}
+R._unificar_reels_fb(d_viejo)
+chequear("los reels guardados con el id del posteo se pasan al id del video",
+         list(d_viejo["posteos"]) == ["fb:v5"] and d_viejo["posteos"]["fb:v5"]["m"] == {"a": 1, "b": 2})
 
 # ------------------------------------------------------------------ 5. guardar
 with tempfile.TemporaryDirectory() as tmp:

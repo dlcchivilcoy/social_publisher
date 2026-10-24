@@ -27,7 +27,8 @@ permissions:
 jobs:
   metricas:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    # 120: la primera foto con permisos completa 5 semanas (~2.000 posteos con estadísticas).
+    timeout-minutes: 120
     env:
       TZ: America/Argentina/Buenos_Aires
     steps:

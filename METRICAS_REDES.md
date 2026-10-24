@@ -51,21 +51,27 @@ informe compara posteos de la misma edad. Por eso el informe sale el miércoles:
 vistas 1, espectadores 1, me gusta 1, comentarios 2, guardados 2, compartidas 3, reposts 3, nuevos seguidores 4.
 1,0 = un posteo típico. Pesos y umbrales en `analisis.py` (`PESOS`, `MIN_N`, `VENTAJA`).
 
-## ⚠️ Permisos que faltan (24/10/2026)
+## Permisos (completos desde el 24/10/2026)
 
-Hoy el token de la página solo deja leer **seguidores, me gusta y comentarios en Instagram** y **los reels de
-Facebook** (vistas, me gusta y comentarios). Para el resto hay que sumar tres permisos al token:
+El token de la página del diario (app «diario», tipo Page, no vence) tiene desde el 24/10/2026 los 9 permisos:
+los 6 de publicar + `instagram_manage_insights`, `read_insights` y `pages_read_user_content`. Está en
+`FACEBOOK_PAGE_ACCESS_TOKEN` e `INSTAGRAM_ACCESS_TOKEN` de los `.env` de social_publisher y policiales-bsas
+y en sus secrets. Si algún día se renueva sin esos tres, el informe sigue andando con lo básico y lo avisa
+en «Lo que falta medir».
 
-| Permiso | Qué destraba |
-|---|---|
-| `instagram_manage_insights` | IG: vistas, espectadores, compartidas, guardados, reposts, nuevos seguidores por posteo, bajas por día, historias, horas de conexión |
-| `read_insights` | FB: espectadores, nuevos seguidores por reel, bajas por día, ocultar y dejar de seguir |
-| `pages_read_user_content` | FB: leer los posteos que no son reels (fotos, carruseles, links) |
+**Lo que Meta da y no da (probado el 24/10/2026):**
+- Instagram, posteos: vistas, espectadores, me gusta, comentarios, compartidas, guardados, reposts; reels
+  también tiempo medio de reproducción. **Seguidores y visitas al perfil por posteo: solo en fotos y
+  carruseles, NO en reels** (Meta rechaza `follows` y `profile_visits` para REELS).
+- Instagram, historias: vistas, espectadores, respuestas, compartidas, seguidores, visitas al perfil, salidas.
+- Instagram, cuenta por día: espectadores, vistas, interacciones, nuevos y **bajas**; horas de conexión.
+- Facebook, posteos: vistas, clics, me gusta, comentarios, compartidas. Reels: vistas, seguidores que trajo
+  y tiempo medio. **Ya no existen** el alcance por posteo (`post_impressions_unique`) ni «ocultar / dejar de
+  seguir» por posteo (`post_negative_feedback_*`): Meta los retiró.
+- Facebook, página por día: nuevos, **bajas**, vistas, espectadores, interacciones, visitas.
 
-Cómo: Graph API Explorer → app del diario → agregar esos permisos → *Generate Access Token* → *Extend* en el
-Debugger → `me/accounts` → token de la página. Va en `FACEBOOK_PAGE_ACCESS_TOKEN` e `INSTAGRAM_ACCESS_TOKEN`
-del `.env`, y se sube con «Sincronizar credenciales.bat». Hay que hacer lo mismo en `policiales-bsas`.
-**Cuando el token los tenga, el informe los suma solo:** no hay que tocar el código.
+La primera foto con permisos completa 5 semanas: vuelve a medir con estadísticas los posteos que ya estaban
+medidos sin ellas (marca `con_insights`) y lee las fotos de Facebook desde 35 días atrás (`completo` en el estado).
 
 ## Comandos
 

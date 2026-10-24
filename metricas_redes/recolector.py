@@ -96,6 +96,7 @@ def foto(meta: Meta, d: dict, ig_id: str, fb_id: str, idx: dict, ahora: datetime
     ahora = ahora or datetime.now(timezone.utc)
     viejo = (ahora - timedelta(days=DIAS_LISTA)).isoformat()
     dias = DIAS_LISTA if any((p.get("cuando") or "") < viejo for p in d["posteos"].values()) else DIAS_PRIMERA
+    _unificar_reels_fb(d)
     hecho = {"posteos_medidos": 0, "historias": 0, "fallas": []}
     try:
         permisos = meta.permisos()
@@ -113,10 +114,34 @@ def foto(meta: Meta, d: dict, ig_id: str, fb_id: str, idx: dict, ahora: datetime
         _cuenta_ig(meta, d, ig_id, ahora, hecho, log)
     if p["fb_insights"]:
         _cuenta_fb(meta, d, fb_id, ahora, hecho)
-    _posteos_ig(meta, d, ig_id, idx, ahora, hecho, p["ig_insights"], dias)
-    _posteos_fb(meta, d, fb_id, idx, ahora, hecho, p, dias)
+    # La primera vez que aparece un permiso se completan las 5 semanas: los posteos ya medidos sin
+    # estadísticas se vuelven a medir y las fotos de Facebook se leen desde DIAS_PRIMERA.
+    completo = d.setdefault("completo", {})
+    dias_ig = DIAS_PRIMERA if p["ig_insights"] and not completo.get("instagram") else dias
+    dias_fb = DIAS_PRIMERA if (p["fb_insights"] or p["fb_posteos"]) and not completo.get("facebook") else dias
+    _posteos_ig(meta, d, ig_id, idx, ahora, hecho, p["ig_insights"], dias_ig)
+    _posteos_fb(meta, d, fb_id, idx, ahora, hecho, p, dias_fb)
+    completo["instagram"] = completo.get("instagram") or p["ig_insights"]
+    completo["facebook"] = completo.get("facebook") or (p["fb_insights"] and p["fb_posteos"])
     d["ultima_foto"] = ahora.isoformat(timespec="seconds")
     return hecho
+
+
+def _falta_completar(d, clave, con_insights) -> bool:
+    """¿Ya está medido pero sin estadísticas, y ahora hay permiso? Entonces se vuelve a medir."""
+    reg = d["posteos"].get(clave)
+    return reg is not None and con_insights and not reg.get("con_insights")
+
+
+def _unificar_reels_fb(d):
+    """Un reel de Facebook se guarda siempre como fb:<id del video>. Sin permiso de leer posteos entra por
+    la lista de reels (id del video); con permiso, por el posteo (id página_posteo). Esto junta los dos."""
+    for k in [k for k, v in d["posteos"].items() if v.get("red") == "facebook" and v.get("reel_id")
+              and k != f"fb:{v['reel_id']}"]:
+        v = d["posteos"].pop(k)
+        viejo = d["posteos"].get(f"fb:{v['reel_id']}")
+        if not viejo or len(v.get("m") or {}) >= len(viejo.get("m") or {}):
+            d["posteos"][f"fb:{v['reel_id']}"] = v
 
 
 def _dia_corte(ahora: datetime) -> str:
@@ -246,7 +271,8 @@ def _posteos_ig(meta, d, ig_id, idx, ahora, hecho, con_insights, dias=DIAS_LISTA
         clave = f"ig:{x['id']}"
         es_historia = x.get("media_product_type") == "STORY"
         edad = (ahora - cuando).total_seconds() / 3600
-        if not es_historia and (clave in d["posteos"] or edad < EDAD_HORAS):
+        if not es_historia and (edad < EDAD_HORAS or (clave in d["posteos"]
+                                                      and not _falta_completar(d, clave, con_insights))):
             continue
         formato = ET.formato_ig(x.get("media_type"), x.get("media_product_type"))
         reg = _registro("instagram", x["id"], cuando, formato, x.get("caption") or "", x.get("permalink"), idx, ahora)
@@ -271,6 +297,8 @@ def _posteos_ig(meta, d, ig_id, idx, ahora, hecho, con_insights, dias=DIAS_LISTA
                 con_insights = False
             except ErrorMeta as e:
                 hecho["fallas"].append(f"Instagram {x['id']}: {e}")
+            else:
+                reg["con_insights"] = True
         d["posteos"][clave] = reg
         hecho["historias" if es_historia else "posteos_medidos"] += 1
 
@@ -294,30 +322,36 @@ def _posteos_fb(meta, d, fb_id, idx, ahora, hecho, permisos, dias=DIAS_LISTA):
         except ErrorMeta as e:
             hecho["fallas"].append(f"Facebook (posteos): {e}")
     vistos = set()
+    con_insights = bool(permisos.get("fb_insights"))
     for x in posteos:
         cuando = _fecha(x.get("created_time"))
-        clave = f"fb:{x['id']}"
-        if not cuando or clave in d["posteos"] or (ahora - cuando).total_seconds() / 3600 < EDAD_HORAS:
-            continue
         adj = (((x.get("attachments") or {}).get("data")) or [{}])[0]
         destino = str((adj.get("target") or {}).get("id") or "")
+        clave = f"fb:{destino}" if destino in reels else f"fb:{x['id']}"
+        if destino in reels:
+            vistos.add(destino)
+        if not cuando or (ahora - cuando).total_seconds() / 3600 < EDAD_HORAS or (
+                clave in d["posteos"] and not _falta_completar(d, clave, con_insights)):
+            continue
         formato = "reel" if destino in reels else ET.formato_fb(x.get("status_type"), adj.get("media_type"), adj.get("type"))
         reg = _registro("facebook", x["id"], cuando, formato, x.get("message") or "", x.get("permalink_url"),
                         {**idx, **({x["id"]: idx[destino]} if destino in idx else {})}, ahora)
         reg["m"] = {"likes": _total(x.get("reactions")), "comentarios": _total(x.get("comments")),
                     "compartidas": (x.get("shares") or {}).get("count", 0)}
         if destino in reels:
-            vistos.add(destino)
             _medir_reel_fb(meta, reels[destino], reg, permisos, hecho)
-        elif permisos.get("fb_insights"):
+        elif con_insights:
             _medir_posteo_fb(meta, x["id"], reg, hecho)
+        if con_insights:
+            reg["con_insights"] = True
         d["posteos"][clave] = reg
         hecho["posteos_medidos"] += 1
     # Sin permiso para leer posteos: los reels igual se leen por su lado.
     for vid, v in reels.items():
         cuando = _fecha(v.get("created_time"))
         clave = f"fb:{vid}"
-        if vid in vistos or not cuando or clave in d["posteos"] or (ahora - cuando).total_seconds() / 3600 < EDAD_HORAS:
+        if vid in vistos or not cuando or (ahora - cuando).total_seconds() / 3600 < EDAD_HORAS or (
+                clave in d["posteos"] and not _falta_completar(d, clave, permisos.get("fb_insights"))):
             continue
         if any(p.get("red") == "facebook" and p.get("reel_id") == vid for p in d["posteos"].values()):
             continue
@@ -328,6 +362,8 @@ def _posteos_fb(meta, d, fb_id, idx, ahora, hecho, permisos, dias=DIAS_LISTA):
         except ErrorMeta as e:
             hecho["fallas"].append(f"Facebook reel {vid}: {e}")
         _medir_reel_fb(meta, v, reg, permisos, hecho)
+        if permisos.get("fb_insights"):
+            reg["con_insights"] = True
         d["posteos"][clave] = reg
         hecho["posteos_medidos"] += 1
 
