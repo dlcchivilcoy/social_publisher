@@ -8609,24 +8609,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:364ed235-37a6-4310-b188-750e40d877a8": {
-   "categoria": "nacionales",
-   "descripcion": "La Administración Nacional de la Seguridad Social avanza con el pago de haberes actualizados por el IPC. Jubilaciones, asignaciones y pensiones con fechas…",
-   "generado": "2026-10-13T15:06:32.836Z",
-   "id": "web:364ed235-37a6-4310-b188-750e40d877a8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_9cd6e483c5ae4f82b6cb29d336f77a62~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-martes-13-de-octubre-de-2026-y-cuales-fd7f55",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/anses-quienes-cobran-este-martes-13-de-octubre-de-2026-y-cuales-fd7f55",
-   "volanta": ""
-  },
   "web:36f35444-e990-4d78-aeea-920acd95d869": {
    "categoria": "nacionales",
    "descripcion": "La Asociación Bancaria acordó con las cámaras empresariales un incremento del 1,9% para septiembre. Con este ajuste, el salario inicial bruto escaló a más…",
@@ -9941,24 +9923,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
    "volanta": "EDEN"
-  },
-  "web:76224348-2766-4a07-947f-ef8503976009": {
-   "categoria": "nacionales",
-   "descripcion": "Mandatarios provinciales de diversas fuerzas políticas participarán en dos cumbres en Buenos Aires junto a Diego Santilli y Luis Caputo, en plena…",
-   "generado": "2026-10-13T15:16:59.566Z",
-   "id": "web:76224348-2766-4a07-947f-ef8503976009",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1f3f160d460a4886a0da517901e08e8d~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/doce-gobernadores-se-reuniran-con-diego-santilli-y-luis-caputo-b0950d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Doce gobernadores se reunirán con Diego Santilli y Luis Caputo en Buenos Aires",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/doce-gobernadores-se-reuniran-con-diego-santilli-y-luis-caputo-b0950d",
-   "volanta": ""
   },
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": {
    "categoria": "",
@@ -11922,24 +11886,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-una-moto-robada-e-investigan-a-un",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:baeb5d08-b026-4158-a946-6ff35dd140c1": {
-   "categoria": "nacionales",
-   "descripcion": "El Banco Nación financia hasta el 75% del valor de un inmueble. Los requisitos de ingresos familiares y el costo de la primera cuota a 20 y 30 años.",
-   "generado": "2026-10-13T15:11:46.320Z",
-   "id": "web:baeb5d08-b026-4158-a946-6ff35dd140c1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c86d8af04783470dae450fbe38f58a47~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/creditos-hipotecarios-del-banco-nacion-que-sueldo-exigen-para-444b9f",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Créditos hipotecarios del Banco Nación: qué sueldo exigen para una propiedad de USD 100.000",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/creditos-hipotecarios-del-banco-nacion-que-sueldo-exigen-para-444b9f",
-   "volanta": ""
   },
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c": {
    "categoria": "",
@@ -19152,15 +19098,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok": {
-   "actualizado": "2026-10-22T15:20:17.000Z",
+   "actualizado": "2026-10-24T15:20:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok",
    "creado": "2026-10-22T15:20:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-22T15:16:22.000Z",
    "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
    "intentos": 0,
@@ -31556,31 +31502,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:364ed235-37a6-4310-b188-750e40d877a8|x": {
-   "actualizado": "2026-10-14T15:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:364ed235-37a6-4310-b188-750e40d877a8|x",
-   "creado": "2026-10-13T15:20:18.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T15:06:32.836Z",
-   "id": "web:364ed235-37a6-4310-b188-750e40d877a8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-martes-13-de-octubre-de-2026-y-cuales-fd7f55",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos\n\nLa Administración Nacional de la Seguridad Social avanza con el pago de haberes actualizados por el IPC. Jubilaciones, asignaciones y pensiones con fechas…\n\nhttps://www.diariolacampaña.com.ar/n/anses-quienes-cobran-este-martes-13-de-octubre-de-2026-y-cuales-fd7f55",
-   "tipo": "nota",
-   "titulo": "ANSES: quiénes cobran este martes 13 de octubre de 2026 y cuáles son los montos",
-   "urgente": false,
-   "vence": "2026-10-14T15:06:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:36f35444-e990-4d78-aeea-920acd95d869|x": {
    "actualizado": "2026-10-18T15:20:24.000Z",
    "buffer_id": "",
@@ -33672,31 +33593,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:76224348-2766-4a07-947f-ef8503976009|x": {
-   "actualizado": "2026-10-14T15:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:76224348-2766-4a07-947f-ef8503976009|x",
-   "creado": "2026-10-13T15:20:18.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T15:16:59.566Z",
-   "id": "web:76224348-2766-4a07-947f-ef8503976009",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/doce-gobernadores-se-reuniran-con-diego-santilli-y-luis-caputo-b0950d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Doce gobernadores se reunirán con Diego Santilli y Luis Caputo en Buenos Aires\n\nMandatarios provinciales de diversas fuerzas políticas participarán en dos cumbres en Buenos Aires junto a Diego Santilli y Luis Caputo, en plena…\n\nhttps://www.diariolacampaña.com.ar/n/doce-gobernadores-se-reuniran-con-diego-santilli-y-luis-caputo-b0950d",
-   "tipo": "nota",
-   "titulo": "Doce gobernadores se reunirán con Diego Santilli y Luis Caputo en Buenos Aires",
-   "urgente": false,
-   "vence": "2026-10-14T15:16:59.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x": {
    "actualizado": "2026-10-17T13:20:17.000Z",
@@ -36764,31 +36660,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:baeb5d08-b026-4158-a946-6ff35dd140c1|x": {
-   "actualizado": "2026-10-14T15:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:baeb5d08-b026-4158-a946-6ff35dd140c1|x",
-   "creado": "2026-10-13T15:20:18.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T15:11:46.320Z",
-   "id": "web:baeb5d08-b026-4158-a946-6ff35dd140c1",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/creditos-hipotecarios-del-banco-nacion-que-sueldo-exigen-para-444b9f",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Créditos hipotecarios del Banco Nación: qué sueldo exigen para una propiedad de USD 100.000\n\nEl Banco Nación financia hasta el 75% del valor de un inmueble. Los requisitos de ingresos familiares y el costo de la primera cuota a 20 y 30 años.\n\nhttps://www.diariolacampaña.com.ar/n/creditos-hipotecarios-del-banco-nacion-que-sueldo-exigen-para-444b9f",
-   "tipo": "nota",
-   "titulo": "Créditos hipotecarios del Banco Nación: qué sueldo exigen para una propiedad de USD 100.000",
-   "urgente": false,
-   "vence": "2026-10-14T15:11:46.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c|x": {
    "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a84ed7d375a451ee05",
@@ -39437,12 +39308,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:ce515f56-0397-44d3-b63d-c656faf40928|x",
-   "cuando": "2026-10-20T15:43:36.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/|tiktok",
    "cuando": "2026-10-20T15:47:41.000Z",
@@ -43624,6 +43489,12 @@
    "cuando": "2026-10-24T14:20:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7700224521046953237"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok",
+   "cuando": "2026-10-24T15:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {
