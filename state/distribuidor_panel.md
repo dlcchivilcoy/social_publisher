@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,8 +30,8 @@ Actualizado: 24/10/2026 13:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2173 de 3000 (visto 2026-10-24T15:40:14.000Z)
 
 ## Cola propia (6 esperando)
-- X · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
