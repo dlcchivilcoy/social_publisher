@@ -145,9 +145,9 @@ def _seccion_seguidores(r, red) -> str:
                           [[_desc_posteo(p), A.fmt(A.valor(p, "seguidores")), A.fmt(A.valor(p, "vistas"))] for p in sp]))
     rk = r["rank_seguidores"]
     if rk:
-        out.append(_h3("Qué tipo de posteo trae más seguidores (últimas 4 semanas, mediana por posteo)"))
+        out.append(_h3("Qué tipo de posteo trae más seguidores (últimas 4 semanas, promedio por posteo)"))
         out.append(_tabla(["Tipo", "Seguidores por posteo", "Posteos"],
-                          [[e(g), A.fmt(v), n] for g, v, n in rk[:6]]))
+                          [[e(g), A.fmt(v, 2), n] for g, v, n in rk[:6]]))
     dm = r["dias_malos"]
     que = "bajas" if dm["tipo"] == "bajas" else "caída neta de seguidores"
     if dm["dias"]:
@@ -203,8 +203,9 @@ def _seccion_rankings(r) -> str:
             continue
         g1, v1, n1 = rk[0]
         g0, v0, n0 = rk[-1]
-        filas.append([nombre, f"<b>{e(g1)}</b><br><span style='color:{GRIS};font-size:12px'>{A.fmt(v1)} por posteo · {n1} posteos</span>",
-                      f"{e(g0)}<br><span style='color:{GRIS};font-size:12px'>{A.fmt(v0)} por posteo · {n0} posteos</span>"])
+        dec = 1 if m in A.ESCASAS else 0
+        filas.append([nombre, f"<b>{e(g1)}</b><br><span style='color:{GRIS};font-size:12px'>{A.fmt(v1, dec)} por posteo · {n1} posteos</span>",
+                      f"{e(g0)}<br><span style='color:{GRIS};font-size:12px'>{A.fmt(v0, dec)} por posteo · {n0} posteos</span>"])
     if filas:
         out.append(_h3("Por categoría y formato"))
         out.append(_tabla(["Métrica", "Genera MÁS", "Genera MENOS"], filas))

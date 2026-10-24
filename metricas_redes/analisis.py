@@ -32,6 +32,9 @@ VENTAJA = 1.15            # cuánto mejor tiene que rendir algo para recomendar 
 DIAS_RANKING = 28
 DIAS_REGRESION = 35
 REDES = ("instagram", "facebook")
+# Métricas que casi siempre dan 0 o 1 por posteo: la mediana sale 0 para todos, así que se rankea por promedio.
+ESCASAS = {"seguidores", "comentarios", "compartidas", "reposts", "guardados", "dejar_de_seguir", "ocultar",
+           "denuncias", "salidas"}
 
 
 # ---------------------------------------------------------------- utilidades
@@ -248,10 +251,13 @@ def regresion_bajas(d, red, posteos, fin: date) -> dict:
                      if sum(1 for dd in dias if (conteos.get(dd) or {}).get(g)) >= 5})
     if not grupos:
         return {"tipo": tipo, "dias": len(dias), "coef": []}
-    X = [[1.0] + [float((conteos.get(dd) or {}).get(g, 0)) for g in grupos] for dd in dias]
+    # El fin de semana va como factor propio: si no, lo que sale solo de lunes a viernes carga con la
+    # diferencia entre días hábiles y finde.
+    X = [[1.0, 1.0 if date.fromisoformat(dd).weekday() >= 5 else 0.0]
+         + [float((conteos.get(dd) or {}).get(g, 0)) for g in grupos] for dd in dias]
     y = [float(serie[dd]) for dd in dias]
     beta = _ridge(X, y, lam=1.0)
-    coef = sorted(({"grupo": g, "por_posteo": round(b, 2)} for g, b in zip(grupos, beta[1:])),
+    coef = sorted(({"grupo": g, "por_posteo": round(b, 2)} for g, b in zip(grupos, beta[2:])),
                   key=lambda x: -x["por_posteo"])
     return {"tipo": tipo, "dias": len(dias), "coef": coef, "base": round(beta[0], 1)}
 
@@ -292,7 +298,7 @@ def ranking(posteos, m, clave=tipo_de, n_min=MIN_N) -> list:
     for g, ps in grupos(posteos, clave).items():
         vals = [valor(p, m) for p in ps if valor(p, m) is not None]
         if len(vals) >= n_min:
-            filas.append((g, mediana(vals), len(vals)))
+            filas.append((g, statistics.mean(vals) if m in ESCASAS else mediana(vals), len(vals)))
     return sorted(filas, key=lambda x: -x[1])
 
 
