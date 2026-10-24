@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 24/10/2026 12:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 3 | 4 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 7 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 3 enviadas + 3 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 24/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2174 de 3000 (visto 2026-10-24T14:20:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2173 de 3000 (visto 2026-10-24T15:40:14.000Z)
 
 ## Cola propia (4 esperando)
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -42,10 +42,6 @@ Actualizado: 24/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T02:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/23/rut 
-- 2026-10-24T02:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/23/rut 
-- 2026-10-24T02:40 vencido policiales:https://www.junindigital.com/policiales/2026-10-2 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-24T09:00 recibido bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|x 
 - 2026-10-24T09:00 recibido bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok 
 - 2026-10-24T09:00 recibido web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-24T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/10/23/rut espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -67,3 +63,7 @@ Actualizado: 24/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-24T14:20 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tikto 
 - 2026-10-24T14:20 enviado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok 
 - 2026-10-24T15:20 vencido bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-24T15:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tikto 
+- 2026-10-24T15:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tikto 
+- 2026-10-24T15:40 enviado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok 
+- 2026-10-24T15:40 enviado bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok 
