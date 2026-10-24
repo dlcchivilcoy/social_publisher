@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 3 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 7 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 3 | 2 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 7 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 7 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,16 +27,17 @@ Actualizado: 24/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2172 de 3000 (visto 2026-10-24T17:40:32.000Z)
+15m: quedan 98 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2170 de 3000 (visto 2026-10-24T18:00:36.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (12 esperando)
+- TikTok · Reels del bot · Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Ordenan ejecutar una sentencia laboral y embargar definitivamente el edificio de — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels del bot · Choque entre dos camionetas en Saavedra y avenida 3 de Febrero — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Choque entre dos camionetas en Saavedra y avenida 3 de Febrero — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels del bot · Choque entre dos camionetas en Saavedra y avenida 3 de Febrero — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · APREHENDIERON a una mujer acusada de tentativa de robo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · APREHENDIERON a una mujer acusada de tentativa de robo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,15 +50,6 @@ Actualizado: 24/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T14:20 vencido bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-24T14:20 vencido bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-24T14:20 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tikto 
-- 2026-10-24T14:20 enviado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok 
-- 2026-10-24T15:20 vencido bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-24T15:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tikto 
-- 2026-10-24T15:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tikto 
-- 2026-10-24T15:40 enviado bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok 
-- 2026-10-24T15:40 enviado bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok 
 - 2026-10-24T16:20 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x 
 - 2026-10-24T16:20 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tikto 
 - 2026-10-24T16:20 recibido web:1e08419d-60ee-4c27-98d2-488e539b6952|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -74,3 +66,12 @@ Actualizado: 24/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-24T17:40 recibido web:df585fc0-4639-4338-88f4-51fc0c0eb03c|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-24T17:40 depurado web:6871a7bc-9ddf-4c76-927a-6d48120cbf5a|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-24T17:40 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x 
+- 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x 
+- 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tikto 
+- 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x 
+- 2026-10-24T18:00 recibido bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tikto 
+- 2026-10-24T18:00 recibido web:9f2f4ad4-ec7d-4e33-94b8-2d8c741a84d4|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-24T18:00 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x 
+- 2026-10-24T18:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x 
+- 2026-10-24T18:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x 
+- 2026-10-24T18:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x 
