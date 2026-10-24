@@ -6765,6 +6765,32 @@
    "volanta": "Operativo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/ku_VJJGbiq8"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u": {
+   "categoria": "narcotrafico",
+   "descripcion": "Tres allanamientos en el barrio La Celeste permitieron detener a un hombre de 66 años y a su hijo de 34, acusados de vender cocaína al menudeo. En otro operativo cayó un prófugo.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-24T22:30:37.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Tres allanamientos nocturnos permitieron desbaratar un punto de venta de drogas en el barrio La Celeste.\n\nFueron detenidos un hombre de 66 años y su hijo de 34, acusados de comercializar cocaína al menudeo.\n\nEn un procedimiento paralelo en la ciudad, la policía capturó a un joven de 27 años que permanecía prófugo desde octubre.\n\nLos operativos se desarrollaron el sábado, 24 de octubre de 2026 · 4:31 PM e incluyeron el secuestro de droga fraccionada y teléfonos celulares.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Narcotrafico #Operativo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó una dupla familiar por venta de drogas y detuvieron a un prófugo",
+   "urgente": false,
+   "video_bytes": 93825,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_02_chacabuco_cay-una-dupla-familiar-por-ven.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/ssKx7gnAyJA"
+  },
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": {
    "categoria": "otro_policial",
    "descripcion": "El Gobierno nacional radicó una presentación judicial tras los choques frente al Congreso del jueves 15 de octubre. Reclaman investigar destrozos y agresiones a efectivos.",
@@ -9779,24 +9805,6 @@
    "titulo": "Mar del Plata: Montenegro y Monteoliva coordinan medidas de seguridad con Nación y Provincia",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mar-del-plata-montenegro-y-monteoliva-coordinan-medidas-de-c35c5c",
-   "volanta": ""
-  },
-  "web:73f835c1-793d-4801-b9ff-3ec55a54d55b": {
-   "categoria": "nacionales",
-   "descripcion": "Tras el testimonio de Valentín Yankelevich sobre el maltrato en su infancia, el abogado Juan Pablo Gallego detalló los plazos judiciales y las vías…",
-   "generado": "2026-10-13T22:06:28.666Z",
-   "id": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ae5dbec8bb5d4d7882129e89a6761906~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
    "volanta": ""
   },
   "web:7524a117-5ec3-428b-862c-0238cd3653e6": {
@@ -15931,15 +15939,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok": {
-   "actualizado": "2026-10-22T22:40:13.000Z",
+   "actualizado": "2026-10-24T22:40:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok",
    "creado": "2026-10-22T22:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-22T22:20:46.000Z",
    "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
    "intentos": 0,
@@ -28145,6 +28153,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_02_chacabuco_chacabuco-atrapan-a-un-joven-q.mp4",
    "viral": false
   },
+  "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x": {
+   "actualizado": "2026-10-24T22:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
+   "creado": "2026-10-24T22:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-24T22:30:37.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
+   "noticia": "nota:chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Cayó una dupla familiar por venta de drogas y detuvieron a un prófugo\n\nTres allanamientos en el barrio La Celeste permitieron detener a un hombre de 66 años y a su hijo de 34, acusados de vender cocaína al menudeo. En otro operativo cayó un prófugo.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó una dupla familiar por venta de drogas y detuvieron a un prófugo",
+   "urgente": false,
+   "vence": "2026-10-25T00:30:37.000Z",
+   "video_bytes": 93825,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_02_chacabuco_cay-una-dupla-familiar-por-ven.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok": {
    "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad3392fdd83363c4dc48948",
@@ -33342,31 +33378,6 @@
    "titulo": "Mar del Plata: Montenegro y Monteoliva coordinan medidas de seguridad con Nación y Provincia",
    "urgente": false,
    "vence": "2026-10-15T21:36:25.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x": {
-   "actualizado": "2026-10-14T22:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b|x",
-   "creado": "2026-10-13T22:20:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-13T22:06:28.666Z",
-   "id": "web:73f835c1-793d-4801-b9ff-3ec55a54d55b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley\n\nTras el testimonio de Valentín Yankelevich sobre el maltrato en su infancia, el abogado Juan Pablo Gallego detalló los plazos judiciales y las vías…\n\nhttps://www.diariolacampaña.com.ar/n/cambio-de-apellido-por-violencia-familiar-como-se-solicita-y-91efa6",
-   "tipo": "nota",
-   "titulo": "Cambio de apellido por violencia familiar: cómo se solicita y qué dice la ley",
-   "urgente": false,
-   "vence": "2026-10-14T22:06:28.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -39111,18 +39122,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok",
-   "cuando": "2026-10-20T22:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698868986011864341"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok",
-   "cuando": "2026-10-20T23:00:18.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv|tiktok",
    "cuando": "2026-10-20T23:00:18.000Z",
    "evento": "vencido",
@@ -43320,6 +43319,20 @@
    "cuando": "2026-10-24T22:20:15.000Z",
    "dueAt": "2026-10-24T22:23:49.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
+   "cuando": "2026-10-24T22:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok",
+   "cuando": "2026-10-24T22:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {
@@ -43679,6 +43692,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma": "2026-10-20T09:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten": "2026-10-22T23:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un": "2026-10-23T23:40:15.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u": "2026-10-24T22:40:13.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
