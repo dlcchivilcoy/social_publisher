@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -10,8 +10,8 @@ Actualizado: 23/10/2026 22:00 (hora AR) · ACTIVO
 | Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | TikTok | 5 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 11 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 6 |
-| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 7 |
+| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 7 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
@@ -57,10 +57,6 @@ Actualizado: 23/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T23:40 recibido bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x 
-- 2026-10-23T23:40 recibido bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok 
-- 2026-10-23T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34700 
-- 2026-10-23T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34700 
 - 2026-10-23T23:40 recibido web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-23T23:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x 
 - 2026-10-23T23:40 programado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x 
@@ -82,3 +78,7 @@ Actualizado: 23/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-24T01:00 enviado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x 
 - 2026-10-24T01:00 enviado policiales:https://www.diariodemocracia.com/policiales/34700 
 - 2026-10-24T01:00 enviado policiales:https://www.diariodemocracia.com/policiales/34700 
+- 2026-10-24T01:20 recibido nacionales:48bb4e9d6ed706f8|x 
+- 2026-10-24T01:20 recibido nacionales:48bb4e9d6ed706f8|tiktok 
+- 2026-10-24T01:20 depurado nacionales:48bb4e9d6ed706f8|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-24T01:20 depurado nacionales:48bb4e9d6ed706f8|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)

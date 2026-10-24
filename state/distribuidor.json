@@ -3259,6 +3259,33 @@
    "volanta": "ANSES",
    "youtube_url": "https://youtube.com/shorts/gB2P2pUEshU"
   },
+  "nacionales:48bb4e9d6ed706f8": {
+   "categoria": "Política",
+   "categoria_nacional": "",
+   "descripcion": "El analista político evaluó el escenario electoral rumbo a 2027, la centralidad de Javier Milei frente a Axel Kicillof, el peso del conurbano y los desafíos económicos.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-24T01:15:48.000Z",
+   "hashtags": [
+    "Politica",
+    "Elecciones2027"
+   ],
+   "id": "nacionales:48bb4e9d6ed706f8",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei",
+   "urgente": false,
+   "video_bytes": 72665,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_48bb4e9d6e_cristian-buttie-analizo-las-chances-de-patricia.mp4",
+   "volanta": "Candidaturas 2027",
+   "youtube_url": "https://youtube.com/shorts/Y_JqAmQNsy4"
+  },
   "nacionales:4ce13bf44cf7dbc5": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -21858,6 +21885,60 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_47f4536459_anses-montos-jubilaciones-y-quienes-cobran-este.mp4",
    "viral": true
   },
+  "nacionales:48bb4e9d6ed706f8|tiktok": {
+   "actualizado": "2026-10-24T01:20:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:48bb4e9d6ed706f8|tiktok",
+   "creado": "2026-10-24T01:20:18.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-24T01:15:48.000Z",
+   "id": "nacionales:48bb4e9d6ed706f8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei\n\nEl analista político evaluó el escenario electoral rumbo a 2027, la centralidad de Javier Milei frente a Axel Kicillof, el peso del conurbano y los desafíos económicos.\n\nhttps://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei",
+   "urgente": false,
+   "vence": "2026-10-24T19:15:48.000Z",
+   "video_bytes": 72665,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_48bb4e9d6e_cristian-buttie-analizo-las-chances-de-patricia.mp4",
+   "viral": false
+  },
+  "nacionales:48bb4e9d6ed706f8|x": {
+   "actualizado": "2026-10-24T01:20:18.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:48bb4e9d6ed706f8|x",
+   "creado": "2026-10-24T01:20:18.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-24T01:15:48.000Z",
+   "id": "nacionales:48bb4e9d6ed706f8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
+   "noticia": "nota:cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei\n\nEl analista político evaluó el escenario electoral rumbo a 2027, la centralidad de Javier Milei frente a Axel Kicillof, el peso del conurbano y los desafíos económicos.\n\nhttps://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei",
+   "urgente": false,
+   "vence": "2026-10-24T03:15:48.000Z",
+   "video_bytes": 72665,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_48bb4e9d6e_cristian-buttie-analizo-las-chances-de-patricia.mp4",
+   "viral": false
+  },
   "nacionales:4ce13bf44cf7dbc5|tiktok": {
    "actualizado": "2026-10-21T01:00:18.000Z",
    "buffer_id": "",
@@ -39716,30 +39797,6 @@
  },
  "registro": [
   {
-   "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112535310252855614"
-  },
-  {
-   "clave": "web:85b0f263-df46-4783-b4dd-311f977e50c9|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112542731146813801"
-  },
-  {
-   "clave": "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112546443135238334"
-  },
-  {
-   "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
-   "cuando": "2026-10-20T15:00:20.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
    "buffer_id": "6ad78205ca72dcf8918267e7",
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr|x",
    "cuando": "2026-10-20T15:00:21.000Z",
@@ -43883,6 +43940,34 @@
    "cuando": "2026-10-24T01:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2113779702892548245"
+  },
+  {
+   "clave": "nacionales:48bb4e9d6ed706f8|x",
+   "cuando": "2026-10-24T01:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:48bb4e9d6ed706f8|tiktok",
+   "cuando": "2026-10-24T01:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:48bb4e9d6ed706f8|x",
+   "cuando": "2026-10-24T01:20:18.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:48bb4e9d6ed706f8|tiktok",
+   "cuando": "2026-10-24T01:20:18.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
   }
  ],
  "tandas": {
@@ -44071,6 +44156,7 @@
   "nacionales:4399eb58559e6a51": "2026-10-20T01:20:14.000Z",
   "nacionales:43c837025338a70a": "2026-10-19T15:20:16.000Z",
   "nacionales:47f4536459d66a4a": "2026-10-23T01:00:17.000Z",
+  "nacionales:48bb4e9d6ed706f8": "2026-10-24T01:20:18.000Z",
   "nacionales:4ce13bf44cf7dbc5": "2026-10-21T01:00:18.000Z",
   "nacionales:4d4c5be14febf1aa": "2026-10-18T20:20:13.000Z",
   "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
