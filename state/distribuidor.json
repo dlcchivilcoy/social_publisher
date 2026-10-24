@@ -12,10 +12,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-23T23:40:25.000Z"
+   "visto": "2026-10-24T01:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +27,7 @@
     "sent": 29
    },
    "pausado": false,
-   "visto": "2026-10-23T23:40:25.000Z"
+   "visto": "2026-10-24T01:00:20.000Z"
   }
  },
  "contenidos": {
@@ -3442,6 +3442,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_552c66c451_francia-macron-condeno-la-violencia-y.mp4",
    "volanta": "Disturbios en Francia",
    "youtube_url": "https://youtube.com/shorts/arL_c0Ljl6c"
+  },
+  "nacionales:56e46b4aea933185": {
+   "categoria": "Economía",
+   "categoria_nacional": "",
+   "descripcion": "Un relevamiento de la Fundación Observatorio PyME reveló que la actividad cayó 11,9% interanual en el tercer trimestre. Además, se registró un retroceso trimestral desestacionalizado de 4,7% y una baja de la ocupación trimestral de 1,8%.",
+   "duracion_seg": 13.0,
+   "generado": "2026-10-24T00:45:50.000Z",
+   "hashtags": [
+    "PyMEs",
+    "Industria"
+   ],
+   "id": "nacionales:56e46b4aea933185",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pymes-industriales-la-produccion-cayo-11-9-y-el-empleo-se-56e46b",
+   "origen": "nacionales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "PyMEs industriales: la producción cayó casi 12% y se perdieron miles de empleos",
+   "urgente": false,
+   "video_bytes": 94355,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_56e46b4aea_pymes-industriales-la-produccion-cayo-casi-12-y.mp4",
+   "volanta": "PyMEs industriales",
+   "youtube_url": "https://youtube.com/shorts/0wPQuTeUEf8"
   },
   "nacionales:58461ddc8e0149c5": {
    "categoria": "Política",
@@ -13844,17 +13871,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 211,
-   "segundos": 1206,
+   "restantes": 249,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2190,
-   "segundos": 1545021,
+   "restantes": 2189,
+   "segundos": 1541420,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-24T00:00:20.000Z",
+ "cuota_visto": "2026-10-24T01:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 100,
   "disponible": true,
@@ -19786,18 +19813,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x": {
-   "actualizado": "2026-10-23T23:40:25.000Z",
+   "actualizado": "2026-10-24T01:00:20.000Z",
    "buffer_id": "6adbf06a9acae620d8225d0d",
    "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
    "creado": "2026-10-23T23:40:15.000Z",
    "dueAt": "2026-10-23T23:42:35.000Z",
+   "enviado": "2026-10-23T23:42:55.556Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T23:34:19.000Z",
    "id": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113778223720915260",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
    "noticia": "nota:chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
    "origen": "bot",
@@ -22074,6 +22102,60 @@
    "vence": "2026-10-19T16:51:37.000Z",
    "video_bytes": 98355,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_552c66c451_francia-macron-condeno-la-violencia-y.mp4"
+  },
+  "nacionales:56e46b4aea933185|tiktok": {
+   "actualizado": "2026-10-24T01:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "nacionales:56e46b4aea933185|tiktok",
+   "creado": "2026-10-24T01:00:18.000Z",
+   "dueAt": "",
+   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
+   "estado": "descartado",
+   "generado": "2026-10-24T00:45:50.000Z",
+   "id": "nacionales:56e46b4aea933185",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pymes-industriales-la-produccion-cayo-11-9-y-el-empleo-se-56e46b",
+   "origen": "nacionales",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "PyMEs industriales: la producción cayó casi 12% y se perdieron miles de empleos\n\nUn relevamiento de la Fundación Observatorio PyME reveló que la actividad cayó 11,9% interanual en el tercer trimestre. Además, se registró un retroceso trimestral desestacionalizado de 4,7% y una baja de la ocupación trimestral de 1,8%.\n\nhttps://www.diariolacampaña.com.ar/n/pymes-industriales-la-produccion-cayo-11-9-y-el-empleo-se-56e46b\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #PyMEs",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "PyMEs industriales: la producción cayó casi 12% y se perdieron miles de empleos",
+   "urgente": false,
+   "vence": "2026-10-24T18:45:50.000Z",
+   "video_bytes": 94355,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_56e46b4aea_pymes-industriales-la-produccion-cayo-casi-12-y.mp4",
+   "viral": false
+  },
+  "nacionales:56e46b4aea933185|x": {
+   "actualizado": "2026-10-24T01:00:20.000Z",
+   "buffer_id": "",
+   "clave": "nacionales:56e46b4aea933185|x",
+   "creado": "2026-10-24T01:00:18.000Z",
+   "dueAt": "",
+   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
+   "estado": "descartado",
+   "generado": "2026-10-24T00:45:50.000Z",
+   "id": "nacionales:56e46b4aea933185",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pymes-industriales-la-produccion-cayo-11-9-y-el-empleo-se-56e46b",
+   "noticia": "nota:pymes-industriales-la-produccion-cayo-11-9-y-el-empleo-se-56e46b",
+   "origen": "nacionales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "PyMEs industriales: la producción cayó casi 12% y se perdieron miles de empleos\n\nSegún la Fundación Observatorio PyME, la actividad retrocedió 4,7% desestacionalizado y la ocupación trimestral bajó 1,8%.\n\nhttps://www.diariolacampaña.com.ar/n/pymes-industriales-la-produccion-cayo-11-9-y-el-empleo-se-56e46b",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "PyMEs industriales: la producción cayó casi 12% y se perdieron miles de empleos",
+   "urgente": false,
+   "vence": "2026-10-24T02:45:50.000Z",
+   "video_bytes": 94355,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_56e46b4aea_pymes-industriales-la-produccion-cayo-casi-12-y.mp4",
+   "viral": false
   },
   "nacionales:58461ddc8e0149c5|tiktok": {
    "actualizado": "2026-10-19T09:01:09.000Z",
@@ -28280,19 +28362,20 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok": {
-   "actualizado": "2026-10-24T00:00:19.000Z",
+   "actualizado": "2026-10-24T01:00:20.000Z",
    "buffer_id": "6adbf5146887a2efc18ceb7a",
    "categoria": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok",
    "creado": "2026-10-23T23:40:15.000Z",
    "dueAt": "2026-10-24T00:03:22.000Z",
+   "enviado": "2026-10-24T00:04:12.717Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T23:31:28.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700016586958163252",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
    "origen": "policiales",
    "plataforma": "tiktok",
@@ -28308,18 +28391,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x": {
-   "actualizado": "2026-10-23T23:40:25.000Z",
+   "actualizado": "2026-10-24T01:00:20.000Z",
    "buffer_id": "6adbf06b8b3d437ddc8efe00",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
    "creado": "2026-10-23T23:40:15.000Z",
    "dueAt": "2026-10-23T23:48:40.000Z",
+   "enviado": "2026-10-23T23:48:48.193Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-23T23:31:28.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2113779702892548245",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
    "noticia": "nota:chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
    "origen": "policiales",
@@ -39632,48 +39716,6 @@
  },
  "registro": [
   {
-   "clave": "web:88c4485b-b3c8-4e50-b111-0de101c23ab0|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:d799c57f-7212-48e4-a327-deb6d13d1b4f|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "cupo diario de Notas web en X completo (15)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4|tiktok",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698740059100466484"
-  },
-  {
-   "clave": "nacionales:7473fc970bead57a|tiktok",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698745252835888436"
-  },
-  {
-   "clave": "web:5253b590-963f-4a40-8acf-18a1f53713b5|x",
-   "cuando": "2026-10-20T14:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112539086086885439"
-  },
-  {
    "clave": "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x",
    "cuando": "2026-10-20T14:20:17.000Z",
    "evento": "enviado",
@@ -43795,6 +43837,52 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "nacionales:56e46b4aea933185|x",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:56e46b4aea933185|tiktok",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "nacionales"
+  },
+  {
+   "clave": "nacionales:56e46b4aea933185|x",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
+  },
+  {
+   "clave": "nacionales:56e46b4aea933185|tiktok",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113778223720915260"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700016586958163252"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
+   "cuando": "2026-10-24T01:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2113779702892548245"
   }
  ],
  "tandas": {
@@ -43816,7 +43904,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-24",
- "ultima_sync": "2026-10-23T23:40:25.000Z",
+ "ultima_sync": "2026-10-24T01:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43990,6 +44078,7 @@
   "nacionales:545f9842d5a42866": "2026-10-24T00:20:16.000Z",
   "nacionales:54abafdb21dc7c6a": "2026-10-19T15:20:16.000Z",
   "nacionales:552c66c451a5584e": "2026-10-19T00:20:16.000Z",
+  "nacionales:56e46b4aea933185": "2026-10-24T01:00:18.000Z",
   "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
   "nacionales:588268bbf306f395": "2026-10-19T15:20:16.000Z",
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",

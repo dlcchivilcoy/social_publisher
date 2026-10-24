@@ -1,21 +1,21 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 23/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 10 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | X | 10 | 11 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 5 | 5 | 0 | 9 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
-| Reels policiales | TikTok | 5 | 0 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | TikTok | 5 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 11 |
-| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 5 |
-| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 5 |
+| Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Nacionales y categorías | TikTok | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
 
 ## Canales
 - X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
+- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 12 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 22 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 23/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 553.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 211 de 250 · 30d: quedan 2190 de 3000 (visto 2026-10-24T00:00:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2189 de 3000 (visto 2026-10-24T01:00:21.000Z)
 
 ## Cola propia (18 esperando)
 - TikTok · Reels del bot · El Rally Regional puso en marcha su penúltima fecha — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -42,8 +42,8 @@ Actualizado: 23/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Allanamiento en Junín por amenazas vecinales y secuestro de una pistola — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels policiales · Allanamiento en Junín por amenazas vecinales y secuestro de una pistola — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Allanamiento en Junín por amenazas vecinales y secuestro de una pistola — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Imputaron a un menor tras allanamientos por robos en dos comercios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández logró la primera medalla de oro para Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -57,13 +57,6 @@ Actualizado: 23/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-23T22:40 recibido web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-23T22:40 enviado bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|tikto 
-- 2026-10-23T22:40 programado bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x 
-- 2026-10-23T23:00 recibido nacionales:ae9e5a4804b66987|x 
-- 2026-10-23T23:00 recibido nacionales:ae9e5a4804b66987|tiktok 
-- 2026-10-23T23:00 depurado nacionales:ae9e5a4804b66987|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
-- 2026-10-23T23:00 depurado nacionales:ae9e5a4804b66987|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
 - 2026-10-23T23:40 recibido bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x 
 - 2026-10-23T23:40 recibido bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok 
 - 2026-10-23T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34700 
@@ -82,3 +75,10 @@ Actualizado: 23/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-24T00:20 depurado nacionales:545f9842d5a42866|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
 - 2026-10-24T00:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-2 
 - 2026-10-24T00:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-2 
+- 2026-10-24T01:00 recibido nacionales:56e46b4aea933185|x 
+- 2026-10-24T01:00 recibido nacionales:56e46b4aea933185|tiktok 
+- 2026-10-24T01:00 depurado nacionales:56e46b4aea933185|x entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)
+- 2026-10-24T01:00 depurado nacionales:56e46b4aea933185|tiktok a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)
+- 2026-10-24T01:00 enviado bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x 
+- 2026-10-24T01:00 enviado policiales:https://www.diariodemocracia.com/policiales/34700 
+- 2026-10-24T01:00 enviado policiales:https://www.diariodemocracia.com/policiales/34700 
