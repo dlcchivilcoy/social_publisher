@@ -54,27 +54,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4",
    "youtube_url": "https://www.youtube.com/shorts/oU7k5mLPxU8"
   },
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": {
-   "descripcion": "Aquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-15T00:16:17.000Z",
-   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
-   "urgente": false,
-   "video_bytes": 437313,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/Rb7Q2FdlwMY"
-  },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": {
    "descripcion": "De cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus pasos.",
    "duracion_seg": 30.0,
@@ -13040,32 +13019,6 @@
    "vence": "2026-10-16T23:47:18.000Z",
    "video_bytes": 803762,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_40ee6582245e5d5a.mp4"
-  },
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok": {
-   "actualizado": "2026-10-15T12:20:16.000Z",
-   "buffer_id": "6ad0b249f262243260620a34",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50|tiktok",
-   "creado": "2026-10-15T00:20:14.000Z",
-   "dueAt": "2026-10-15T11:43:48.000Z",
-   "enviado": "2026-10-15T11:45:44.615Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T00:16:17.000Z",
-   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696858995780308276",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Investigan un posible femicidio tras un choque fatal en la Ruta 5\n\nAquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
-   "urgente": false,
-   "vence": "2026-10-17T00:16:17.000Z",
-   "video_bytes": 437313,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e68260b40911625a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok": {
    "actualizado": "2026-10-15T18:00:22.000Z",
