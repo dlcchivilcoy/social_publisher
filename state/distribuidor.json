@@ -1104,6 +1104,48 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/_vOIouXgtP8"
   },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro": {
+   "descripcion": "Aumentó el peaje de Olivera: los autos pagan $4.262,18 con Telepase y $8.600 de forma manual. El nuevo cuadro tarifario rige desde el 22 de octubre en la estación de la Ruta Nacional 5. Los valores varían según la categoría del vehículo y la modalidad de pago. Viajar desde Chivilcoy",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-25T14:03:51.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Aumentó el peaje de Olivera en la Ruta Nacional 5",
+   "urgente": false,
+   "video_bytes": 578426,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a7629b49ee9baae2.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/sX6YqwzPkDs"
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0": {
+   "descripcion": "La Comisión Fiscalizadora informó que el agua de las cisternas escolares analizadas es apta para el consumo. El organismo difundió resultados de estudios de la Universidad Nacional de Luján, fechados el 20 de agosto, que no detectaron arsénico en las muestras evaluadas.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-25T14:11:09.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El agua de las cisternas escolares analizadas es apta para consumo",
+   "urgente": false,
+   "video_bytes": 678893,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1d22792e8927003.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/DMVE2oxg4iI"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -7718,6 +7760,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
    "volanta": "Chivilcoy · Política"
   },
+  "web:23a74d83-2170-4408-abe4-23838297e05f": {
+   "categoria": "",
+   "descripcion": "El agua de las cisternas escolares analizadas es apta para consumo La Comisión Fiscalizadora informó que el agua de las cisternas escolares analizadas es apta para el consumo. El organismo difundió resultados de estudios de la Universidad Nacional de Luján, fechados el 20 de agosto, que no detectaron arsénico en las muestras evaluadas. También prepara una reunión con autoridades de ABSA. La Comisión Fiscalizadora del Agua de Chivilcoy informó que los análisis realizados sobre muestras de...",
+   "generado": "2026-10-25T14:08:35.926Z",
+   "id": "web:23a74d83-2170-4408-abe4-23838297e05f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1ffab9f2450e424daad3e9e2961d39ba~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El agua de las cisternas escolares analizadas es apta para consumo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "volanta": "Chivilcoy · Salud"
+  },
   "web:2412c923-bb37-4065-b81b-1dac0777e220": {
    "categoria": "nacionales",
    "descripcion": "El gobernador bonaerense inauguró la trigésima quinta edición del certamen en Mar del Plata, que se desarrollará del 19 al 23 de octubre con más de 30.000…",
@@ -8191,6 +8252,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
    "volanta": ""
+  },
+  "web:35d13524-acfa-4d7e-b1ad-255c88759bcc": {
+   "categoria": "",
+   "descripcion": "Aumentó el peaje de Olivera en la Ruta Nacional 5 Aumentó el peaje de Olivera: los autos pagan $4.262,18 con Telepase y $8.600 de forma manual. El nuevo cuadro tarifario rige desde el 22 de octubre en la estación de la Ruta Nacional 5. Los valores varían según la categoría del vehículo y la modalidad de pago. Viajar desde Chivilcoy hacia Luján o la Ciudad Autónoma de Buenos Aires implica un mayor gasto en peajes. Desde el jueves 22 de octubre entraron en vigencia nuevas tarifas en la estación...",
+   "generado": "2026-10-25T14:01:43.680Z",
+   "id": "web:35d13524-acfa-4d7e-b1ad-255c88759bcc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8d4625270fb64051b70e754d7168cc56~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Aumentó el peaje de Olivera en la Ruta Nacional 5",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "volanta": "Ruta 5 · Sociedad"
   },
   "web:3620c5d5-68d9-4902-898d-2347615ba891": {
    "categoria": "",
@@ -12860,17 +12940,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 246,
-   "segundos": 43201,
+   "restantes": 245,
+   "segundos": 40781,
    "tope": 250
   },
   "30d": {
-   "restantes": 2153,
-   "segundos": 1409427,
+   "restantes": 2152,
+   "segundos": 1407007,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T13:40:14.000Z",
+ "cuota_visto": "2026-10-25T14:20:35.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -16380,6 +16460,118 @@
    "vence": "2026-10-25T15:06:49.000Z",
    "video_bytes": 585998,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tiktok": {
+   "actualizado": "2026-10-25T14:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tiktok",
+   "creado": "2026-10-25T14:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T14:03:51.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Aumentó el peaje de Olivera en la Ruta Nacional 5\n\nEl nuevo cuadro tarifario rige desde el 22 de octubre con valores que varían según la categoría del vehículo y la modalidad de pago. Para los autos, la tarifa es de $4.262,18 con Telepase y de $8.600 de forma manual.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aumentó el peaje de Olivera en la Ruta Nacional 5",
+   "urgente": false,
+   "vence": "2026-10-27T14:03:51.000Z",
+   "video_bytes": 578426,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a7629b49ee9baae2.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x": {
+   "actualizado": "2026-10-25T14:20:33.000Z",
+   "buffer_id": "6ade10328b3d437ddc0fb385",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
+   "creado": "2026-10-25T14:20:14.000Z",
+   "dueAt": "2026-10-25T14:22:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-25T14:03:51.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "noticia": "nota:ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Aumentó el peaje de Olivera en la Ruta Nacional 5\n\nAumentó el peaje de Olivera: los autos pagan $4.262,18 con Telepase y $8.600 de forma manual. El nuevo cuadro tarifario rige desde el 22 de octubre en la estación de la Ruta Nacional 5.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aumentó el peaje de Olivera en la Ruta Nacional 5",
+   "urgente": false,
+   "vence": "2026-10-25T16:03:51.000Z",
+   "video_bytes": 578426,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a7629b49ee9baae2.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok": {
+   "actualizado": "2026-10-25T14:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok",
+   "creado": "2026-10-25T14:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T14:11:09.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El agua de las cisternas escolares analizadas es apta para consumo\n\nLa Comisión Fiscalizadora informó que el agua de las cisternas escolares analizadas es apta para el consumo. El organismo difundió resultados de estudios de la Universidad Nacional de Luján, fechados el 20 de agosto, que no detectaron arsénico en las muestras evaluadas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El agua de las cisternas escolares analizadas es apta para consumo",
+   "urgente": false,
+   "vence": "2026-10-27T14:11:09.000Z",
+   "video_bytes": 678893,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1d22792e8927003.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x": {
+   "actualizado": "2026-10-25T14:20:33.000Z",
+   "buffer_id": "6ade1033e4be8a4d86aee20e",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
+   "creado": "2026-10-25T14:20:14.000Z",
+   "dueAt": "2026-10-25T14:28:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-25T14:11:09.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "noticia": "nota:chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El agua de las cisternas escolares analizadas es apta para consumo\n\nLa Comisión Fiscalizadora informó que el agua de las cisternas escolares analizadas es apta para el consumo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El agua de las cisternas escolares analizadas es apta para consumo",
+   "urgente": false,
+   "vence": "2026-10-25T16:11:09.000Z",
+   "video_bytes": 678893,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1d22792e8927003.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -29504,6 +29696,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:23a74d83-2170-4408-abe4-23838297e05f|x": {
+   "actualizado": "2026-10-25T14:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:23a74d83-2170-4408-abe4-23838297e05f|x",
+   "creado": "2026-10-25T14:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-25T14:08:35.926Z",
+   "id": "web:23a74d83-2170-4408-abe4-23838297e05f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "noticia": "nota:chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El agua de las cisternas escolares analizadas es apta para consumo",
+   "urgente": false,
+   "vence": "2026-10-25T18:08:35.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:2412c923-bb37-4065-b81b-1dac0777e220|x": {
    "actualizado": "2026-10-20T01:00:18.000Z",
    "buffer_id": "",
@@ -30256,6 +30473,31 @@
    "vence": "2026-10-18T15:03:19.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x": {
+   "actualizado": "2026-10-25T14:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x",
+   "creado": "2026-10-25T14:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-25T14:01:43.680Z",
+   "id": "web:35d13524-acfa-4d7e-b1ad-255c88759bcc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "noticia": "nota:ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Aumentó el peaje de Olivera en la Ruta Nacional 5",
+   "urgente": false,
+   "vence": "2026-10-25T18:01:43.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:3620c5d5-68d9-4902-898d-2347615ba891|x": {
    "actualizado": "2026-10-19T20:00:22.000Z",
@@ -37609,56 +37851,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112697262837055678"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112706211577483489"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112707533500489815"
-  },
-  {
-   "clave": "nacionales:fb8bbb9c2285b74b|tiktok",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698910088416857351"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112708966220185827"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112701414778560630"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7698904991599316225"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
-   "cuando": "2026-10-21T01:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
    "cuando": "2026-10-21T01:40:22.000Z",
    "estado": "pendiente",
@@ -41797,6 +41989,68 @@
    "cuando": "2026-10-25T13:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114346819249393739"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
+   "cuando": "2026-10-25T14:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tiktok",
+   "cuando": "2026-10-25T14:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
+   "cuando": "2026-10-25T14:20:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok",
+   "cuando": "2026-10-25T14:20:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:23a74d83-2170-4408-abe4-23838297e05f|x",
+   "cuando": "2026-10-25T14:20:33.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x",
+   "cuando": "2026-10-25T14:20:33.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ade10328b3d437ddc0fb385",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
+   "cuando": "2026-10-25T14:20:35.000Z",
+   "dueAt": "2026-10-25T14:22:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ade1033e4be8a4d86aee20e",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
+   "cuando": "2026-10-25T14:20:35.000Z",
+   "dueAt": "2026-10-25T14:28:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41889,6 +42143,8 @@
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth": "2026-10-24T18:40:13.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8": "2026-10-24T19:40:16.000Z",
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": "2026-10-25T13:20:14.000Z",
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro": "2026-10-25T14:20:14.000Z",
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0": "2026-10-25T14:20:14.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -42244,6 +42500,7 @@
   "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": "2026-10-18T22:00:19.000Z",
   "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f": "2026-10-19T15:00:20.000Z",
   "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
+  "web:23a74d83-2170-4408-abe4-23838297e05f": "2026-10-25T14:20:14.000Z",
   "web:2412c923-bb37-4065-b81b-1dac0777e220": "2026-10-20T01:00:18.000Z",
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e": "2026-10-19T09:00:17.000Z",
   "web:24998057-0e22-47d2-a4b2-742700e77f3d": "2026-10-12T10:20:17.000Z",
@@ -42277,6 +42534,7 @@
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
+  "web:35d13524-acfa-4d7e-b1ad-255c88759bcc": "2026-10-25T14:20:14.000Z",
   "web:361ea80f-9fe5-496d-8c4f-2964a8ddc3ff": "2026-10-14T17:00:17.000Z",
   "web:3620c5d5-68d9-4902-898d-2347615ba891": "2026-10-19T13:20:16.000Z",
   "web:364ed235-37a6-4310-b188-750e40d877a8": "2026-10-13T15:20:18.000Z",

@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,9 +27,11 @@ Actualizado: 25/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 246 de 250 · 30d: quedan 2153 de 3000 (visto 2026-10-25T13:40:14.000Z)
+15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2152 de 3000 (visto 2026-10-25T14:20:35.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (3 esperando)
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 
 ## Errores recientes
@@ -43,14 +45,6 @@ Actualizado: 25/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T00:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tikto 
-- 2026-10-25T00:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tikto 
-- 2026-10-25T00:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tikto 
-- 2026-10-25T00:20 recibido policiales:https://www.latrochadigital.com.ar/2026/10/24/inc 
-- 2026-10-25T00:20 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tikto 
-- 2026-10-25T00:20 error_publicacion bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- 2026-10-25T00:20 pausa_red  
-- 2026-10-25T00:20 enviado bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x 
 - 2026-10-25T00:20 enviado policiales:https://www.diariodemocracia.com/policiales/34704 
 - 2026-10-25T01:20 vencido policiales:https://www.diariodemocracia.com/policiales/34704 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-25T01:40 vencido bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -68,3 +62,11 @@ Actualizado: 25/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-25T13:20 vencido bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tikto en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - 2026-10-25T13:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
 - 2026-10-25T13:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
+- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
+- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tikto 
+- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
+- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tikto 
+- 2026-10-25T14:20 recibido web:23a74d83-2170-4408-abe4-23838297e05f|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T14:20 recibido web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
+- 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
