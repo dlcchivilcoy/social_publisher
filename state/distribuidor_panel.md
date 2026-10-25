@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 25/10/2026 19:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 8 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,7 +27,7 @@ Actualizado: 25/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 235 de 250 · 30d: quedan 2142 de 3000 (visto 2026-10-25T22:40:26.000Z)
+15m: quedan 99 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2141 de 3000 (visto 2026-10-25T23:00:19.000Z)
 
 ## Cola propia (8 esperando)
 - TikTok · Reels del bot · Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -48,7 +48,6 @@ Actualizado: 25/10/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T14:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
 - 2026-10-25T14:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 
 - 2026-10-25T15:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
 - 2026-10-25T15:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|tikto 
@@ -73,3 +72,4 @@ Actualizado: 25/10/2026 19:40 (hora AR) · ACTIVO
 - 2026-10-25T22:00 enviado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x 
 - 2026-10-25T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/ 
 - 2026-10-25T22:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/ 
+- 2026-10-25T23:00 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/ 
