@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 11:20 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 11:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 12 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · ⏸ EN PAUSA hasta 25/10 22:23 · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,9 +27,10 @@ Actualizado: 25/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2152 de 3000 (visto 2026-10-25T14:20:35.000Z)
+15m: quedan 98 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2150 de 3000 (visto 2026-10-25T14:40:20.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -45,12 +46,6 @@ Actualizado: 25/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T00:20 enviado policiales:https://www.diariodemocracia.com/policiales/34704 
-- 2026-10-25T01:20 vencido policiales:https://www.diariodemocracia.com/policiales/34704 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-25T01:40 vencido bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-25T01:40 error_publicacion bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tikto TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- 2026-10-25T01:40 pausa_red  
-- 2026-10-25T01:40 error_publicacion bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tikto TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - 2026-10-25T01:40 pausa_red  
 - 2026-10-25T01:40 error_publicacion bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tikto TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - 2026-10-25T01:40 pausa_red  
@@ -70,3 +65,9 @@ Actualizado: 25/10/2026 11:20 (hora AR) · ACTIVO
 - 2026-10-25T14:20 recibido web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
 - 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
+- 2026-10-25T14:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 
+- 2026-10-25T14:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tikto 
+- 2026-10-25T14:40 recibido web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T14:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
+- 2026-10-25T14:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
+- 2026-10-25T14:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 

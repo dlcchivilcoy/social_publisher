@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-25T13:40:14.000Z"
+   "visto": "2026-10-25T14:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 12
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-25T13:40:14.000Z"
+   "visto": "2026-10-25T14:40:19.000Z"
   }
  },
  "contenidos": {
@@ -1145,6 +1145,27 @@
    "video_mb": 0.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1d22792e8927003.mp4",
    "youtube_url": "https://www.youtube.com/shorts/DMVE2oxg4iI"
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0": {
+   "descripcion": "La denuncia fue radicada este sábado. Según informó la Policía Rural, el perjuicio económico todavía debe determinarse y no se estableció una relación directa con un hecho anterior en un establecimiento vecino. La Policía Rural inició actuaciones por la sustracción de herramientas",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-25T14:26:51.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
+   "urgente": false,
+   "video_bytes": 705990,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b4519b9a5026c7cd.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/V8kE5TcIoGE"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -9059,24 +9080,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/piden-un-exhorto-a-suiza-para-investigar-transferencias-de-la-9e789b",
    "volanta": ""
   },
-  "web:62679199-0cb1-44ba-8928-add87ea1fa3f": {
-   "categoria": "",
-   "descripcion": "El Club de Ciencias de Chivilcoy brilló en Infomatrix con una importante distinción Los estudiantes Bautista Olivera y Sofía Rodríguez Santucci, acompañados por la profesora Rocío Ares, representaron a la ciudad en la XXI edición del prestigioso certamen iberoamericano realizado en Realicó, La Pampa. Una vez más, la juventud chivilcoyana demuestra el enorme valor del esfuerzo, la curiosidad y la pasión por la investigación. El Club de Ciencias de Chivilcoy, con sede en el Parque Cielos del...",
-   "generado": "2026-10-15T10:14:34.675Z",
-   "id": "web:62679199-0cb1-44ba-8928-add87ea1fa3f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d2f55d46d30f4b99b1a0f1b43e8617d3~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/xxi-edicion-el-club-de-ciencias-de-chivilcoy-brillo-en-infomatrix-con",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Club de Ciencias de Chivilcoy brilló en Infomatrix con una importante distinción",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/xxi-edicion-el-club-de-ciencias-de-chivilcoy-brillo-en-infomatrix-con",
-   "volanta": "XXI edición"
-  },
   "web:65614571-f714-4991-a75b-bc27850d9de1": {
    "categoria": "",
    "descripcion": "Investigan un posible femicidio tras un choque fatal en la Ruta 5 Aquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba la víctima fatal era su expareja y tenía una orden judicial vigente de restricción de acercamiento. El episodio tuvo lugar el pasado lunes a la altura...",
@@ -9833,24 +9836,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/100-dias-de-engano-en-netflix-de-que-trata-el-k-drama-historico-c6ed9c",
    "volanta": ""
   },
-  "web:8573e42b-75a0-4616-bdb3-930c6007225a": {
-   "categoria": "",
-   "descripcion": "La Dirección de Género puso en marcha una mesa itinerante de prevención de la violencia",
-   "generado": "2026-10-15T10:12:17.532Z",
-   "id": "web:8573e42b-75a0-4616-bdb3-930c6007225a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e47216584f44470cbbb4d90d84b3b363~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/informacion-a-la-comunidad-la-direccion-de-genero-puso-en-marcha-una",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Información a la comunidad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/informacion-a-la-comunidad-la-direccion-de-genero-puso-en-marcha-una",
-   "volanta": ""
-  },
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": {
    "categoria": "",
    "descripcion": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad Matías Zucchi.",
@@ -10328,24 +10313,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
    "volanta": "Chivilcoy · Cultura"
-  },
-  "web:94f11536-c6e6-485e-b136-564a4c85d23b": {
-   "categoria": "",
-   "descripcion": "Destacada participación de chivilcoyanos en la 55ª Fiesta Nacional del Caballo de Bragado",
-   "generado": "2026-10-15T10:13:44.949Z",
-   "id": "web:94f11536-c6e6-485e-b136-564a4c85d23b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0096641b0ae64fad882459ee555ad3bc~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/competencias-tradicionalistas-destacada-participacion-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Competencias tradicionalistas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/competencias-tradicionalistas-destacada-participacion-de",
-   "volanta": ""
   },
   "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d": {
    "categoria": "",
@@ -11118,24 +11085,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/frigorifico-rioplatense-envio-carne-a-paris-bajo-la-exigencia-e39007",
    "volanta": ""
   },
-  "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1": {
-   "categoria": "",
-   "descripcion": "Patricio Lo Valvo invitó a una nueva jornada a campo con el trigo y la camelina como protagonistas principales El presidente de la Asociación de Ingenieros Agrónomos de Chivilcoy y Alberti (AIACA) y socio de la empresa Plexagro, Patricio Lo Valvo, visitó los estudios de Radio del Centro para brindar detalles sobre la realización de una nueva jornada técnica a campo enfocada en cultivos de invierno. La propuesta, organizada en forma conjunta entre Plexagro, el INTA y AIACA, se llevará a cabo...",
-   "generado": "2026-10-15T10:12:58.855Z",
-   "id": "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a8616671849f4712932e88e6288aacbd~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/aiaca-y-plexagro-patricio-lo-valvo-invito-a-una-nueva-jornada-a-campo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Patricio Lo Valvo invitó a una nueva jornada a campo con el trigo y la camelina como protagonistas principales",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aiaca-y-plexagro-patricio-lo-valvo-invito-a-una-nueva-jornada-a-campo",
-   "volanta": "AIACA y Plexagro"
-  },
   "web:b4a12021-9279-4b86-9d0b-ae839890e171": {
    "categoria": "",
    "descripcion": "Guillermo Britos recibió el Premio Comunas en el Senado de la Nación El intendente de Chivilcoy, Guillermo Britos, recibió el Premio Comunas al Compromiso Ciudadano, una distinción que reconoce la labor de dirigentes, funcionarios y referentes sociales por su trabajo en la gestión pública y su contribución al desarrollo de sus comunidades. La ceremonia de entrega se realizó en el Anexo del Senado de la Nación, en el marco de una convocatoria que reúne a representantes de distintos ámbitos y...",
@@ -11226,24 +11175,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malestar-y-restitucion-entre-la-actuacion-policial-y-la-movilizacion",
    "volanta": "Malestar y restitución"
-  },
-  "web:b6fb5d90-4508-431b-b874-06c3716a8faf": {
-   "categoria": "",
-   "descripcion": "Piden colaboración para una joven atacada por un caballo en el Hipódromo Internada en el Hospital Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis La joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal «Dr. Santiago Fornos». Su familia solicita la colaboración de la comunidad para cubrir el costo del material médico, mientras evoluciona de la reciente intervención quirúrgica. Una joven...",
-   "generado": "2026-10-15T00:24:55.021Z",
-   "id": "web:b6fb5d90-4508-431b-b874-06c3716a8faf",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_89218b5e82d347c282ce8ac049f3626f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
-   "volanta": "Chivilcoy · Solidaridad"
   },
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": {
    "categoria": "",
@@ -12493,6 +12424,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:ea96db9d-ebd8-4901-99d2-e402feab16e7": {
+   "categoria": "",
+   "descripcion": "Investigan el faltante de herramientas y agroquímicos en un campo La denuncia fue radicada este sábado. Según informó la Policía Rural, el perjuicio económico todavía debe determinarse y no se estableció una relación directa con un hecho anterior en un establecimiento vecino. La Policía Rural inició actuaciones por la sustracción de herramientas de mano y agroquímicos del interior de un galpón en un establecimiento de la familia Colombo, ubicado en la zona rural de Ayarza. De acuerdo con las...",
+   "generado": "2026-10-25T14:23:39.145Z",
+   "id": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2d4e2f7326d34ad49acb11ecfa15dfb4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "volanta": "Ayarza · Policiales"
+  },
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": {
    "categoria": "",
    "descripcion": "Britos evalúa que De Lillo complete el mandato municipal Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión en materia de seguridad, anticipó gestiones para recuperar parte de la ex clínica IMO para el patrimonio municipal y puso en valor el trabajo de los...",
@@ -12935,22 +12885,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 40781,
+   "restantes": 243,
+   "segundos": 39595,
    "tope": 250
   },
   "30d": {
-   "restantes": 2152,
-   "segundos": 1407007,
+   "restantes": 2150,
+   "segundos": 1405821,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T14:20:35.000Z",
+ "cuota_visto": "2026-10-25T14:40:20.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -16491,18 +16441,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x": {
-   "actualizado": "2026-10-25T14:20:33.000Z",
+   "actualizado": "2026-10-25T14:40:19.000Z",
    "buffer_id": "6ade10328b3d437ddc0fb385",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "2026-10-25T14:22:45.000Z",
+   "enviado": "2026-10-25T14:22:48.245Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T14:03:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114362040261235054",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
    "noticia": "nota:ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
    "origen": "bot",
@@ -16547,18 +16498,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x": {
-   "actualizado": "2026-10-25T14:20:33.000Z",
+   "actualizado": "2026-10-25T14:40:19.000Z",
    "buffer_id": "6ade1033e4be8a4d86aee20e",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "2026-10-25T14:28:29.000Z",
+   "enviado": "2026-10-25T14:28:34.274Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T14:11:09.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114363491750461873",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
    "noticia": "nota:chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
    "origen": "bot",
@@ -16572,6 +16524,62 @@
    "vence": "2026-10-25T16:11:09.000Z",
    "video_bytes": 678893,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1d22792e8927003.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok": {
+   "actualizado": "2026-10-25T14:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok",
+   "creado": "2026-10-25T14:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T14:26:51.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Investigan el faltante de herramientas y agroquímicos en un campo\n\nLa Policía Rural inició actuaciones por la sustracción de herramientas tras una denuncia radicada este sábado. Según informó la fuerza, el perjuicio económico aún debe determinarse y no se estableció una relación directa con un hecho anterior.\n\nhttps://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
+   "urgente": false,
+   "vence": "2026-10-27T14:26:51.000Z",
+   "video_bytes": 705990,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b4519b9a5026c7cd.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x": {
+   "actualizado": "2026-10-25T14:40:19.000Z",
+   "buffer_id": "6ade14d40b5343d070d7d3bd",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
+   "creado": "2026-10-25T14:40:14.000Z",
+   "dueAt": "2026-10-25T14:42:19.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-25T14:26:51.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "noticia": "nota:ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Investigan el faltante de herramientas y agroquímicos en un campo\n\nLa Policía Rural inició actuaciones tras una denuncia por la sustracción. Según informó la fuerza, el perjuicio económico aún debe determinarse y no se vinculó con un hecho anterior.\n\nhttps://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
+   "urgente": false,
+   "vence": "2026-10-25T16:26:51.000Z",
+   "video_bytes": 705990,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b4519b9a5026c7cd.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -25102,32 +25110,6 @@
    "video_bytes": 92942,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_01_pergamino_incendio-en-papel-prensa-bombe.mp4"
   },
-  "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|tiktok": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0b24cb0cc171adf174ea2",
-   "clave": "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|tiktok",
-   "creado": "2026-10-15T02:00:18.000Z",
-   "dueAt": "2026-10-15T13:43:56.000Z",
-   "enviado": "2026-10-15T13:47:46.967Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T01:42:20.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696889956119088385",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-adolescente-ataco-a-fierrazos-un-patrullero-0f3110",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Un adolescente de 17 años atacó a fierrazos una camioneta de la Patrulla Urbana en Pergamino tras una denuncia por violencia de género.\n\nEl violento episodio ocurrió este miércoles alrededor de las 13:48 en la calle Patrone al 1800, luego de un llamado de vecinos al sistema Ojo en Alerta.\n\nEl sospechoso, que contaría con un pedido de captura vigente, destrozó la luneta trasera, las ópticas, el capó y el interior del móvil 30, una camioneta Ford Ranger.\n\nDurante la agresión también intimidó al agente municipal Lucas Ruiz Díaz, quien logró salir ileso.\n\nTras cometer los destrozos, el joven escapó del lugar trepando por los tapiales de las viviendas linderas.\n\nLas circunstancias del ataque son investigadas en el marco de las actuaciones judiciales correspondientes.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
-   "tipo": "video",
-   "titulo": "Un adolescente atacó a fierrazos un patrullero urbano tras una denuncia de violencia",
-   "urgente": false,
-   "vence": "2026-10-15T19:42:20.000Z",
-   "video_bytes": 87475,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_0009_03_pergamino_un-adolescente-atac-a-fierrazo.mp4"
-  },
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana|x": {
    "actualizado": "2026-10-15T20:00:18.000Z",
    "buffer_id": "",
@@ -27595,32 +27577,6 @@
    "plataforma": "tiktok",
    "prioridad": 9,
    "texto": "La investigación por el crimen de un hombre de 78 años conmociona a la región tras confirmarse el hallazgo de su cuerpo durante un allanamiento.\n\nLa víctima había sido reportada como desaparecida luego de ausentarse de su domicilio durante la mañana del miércoles.\n\nPersonal policial y judicial logró dar con el paradero del vecino tras rastrear su vehículo y analizar cámaras de seguridad y comunicaciones telefónicas.\n\nLos operativos culminaron en una vivienda donde se concretó la aprehensión del único sospechoso hasta el momento.\n\n📲 Más noticias de Trenque Lauquen en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #trenquelauquen #policiales",
-   "tipo": "video",
-   "titulo": "Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 27",
-   "urgente": true,
-   "vence": "2026-10-16T07:42:33.000Z",
-   "video_bytes": 75875,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_01_pehuajo_hallan-muerto-a-un-jubilado-de.mp4"
-  },
-  "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0dc76438b564fdb3f8670",
-   "clave": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/|x",
-   "creado": "2026-10-15T14:00:19.000Z",
-   "dueAt": "2026-10-15T14:06:52.000Z",
-   "enviado": "2026-10-15T14:07:08.074Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T13:42:33.000Z",
-   "id": "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110734217625604448",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/trenque-lauquen-hallaron-muerto-a-un-vecino-de-78-anos-y-10b4bb",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 27\n\nLa víctima había sido denunciada como desaparecida tras salir de su casa.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/trenque-lauquen-hallaron-muerto-a-un-vecino-de-78-anos-y-10b4bb\n#TrenqueLauquen",
    "tipo": "video",
    "titulo": "Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 27",
    "urgente": true,
@@ -31793,32 +31749,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:62679199-0cb1-44ba-8928-add87ea1fa3f|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0a8e0230b9109a48b7dba",
-   "clave": "web:62679199-0cb1-44ba-8928-add87ea1fa3f|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "2026-10-15T13:45:06.000Z",
-   "enviado": "2026-10-15T13:45:16.275Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T10:14:34.675Z",
-   "id": "web:62679199-0cb1-44ba-8928-add87ea1fa3f",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110728716011618402",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/xxi-edicion-el-club-de-ciencias-de-chivilcoy-brillo-en-infomatrix-con",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 El Club de Ciencias de Chivilcoy brilló en Infomatrix con una importante distinción\n\nLos estudiantes Bautista Olivera y Sofía Rodríguez Santucci, acompañados por la profesora Rocío Ares, representaron a la ciudad en la XXI edición del prestigioso…\n\nhttps://www.diariolacampaña.com.ar/n/xxi-edicion-el-club-de-ciencias-de-chivilcoy-brillo-en-infomatrix-con",
-   "tipo": "nota",
-   "titulo": "El Club de Ciencias de Chivilcoy brilló en Infomatrix con una importante distinción",
-   "urgente": false,
-   "vence": "2026-10-16T10:14:34.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:65614571-f714-4991-a75b-bc27850d9de1|x": {
    "actualizado": "2026-10-16T00:20:17.000Z",
    "buffer_id": "",
@@ -33019,32 +32949,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:8573e42b-75a0-4616-bdb3-930c6007225a|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0b247a5eef0dc227f982e",
-   "clave": "web:8573e42b-75a0-4616-bdb3-930c6007225a|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "2026-10-15T14:30:49.000Z",
-   "enviado": "2026-10-15T14:31:06.241Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T10:12:17.532Z",
-   "id": "web:8573e42b-75a0-4616-bdb3-930c6007225a",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110740250129580193",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/informacion-a-la-comunidad-la-direccion-de-genero-puso-en-marcha-una",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Información a la comunidad\n\nLa Dirección de Género puso en marcha una mesa itinerante de prevención de la violencia\n\nhttps://www.diariolacampaña.com.ar/n/informacion-a-la-comunidad-la-direccion-de-genero-puso-en-marcha-una",
-   "tipo": "nota",
-   "titulo": "Información a la comunidad",
-   "urgente": false,
-   "vence": "2026-10-16T10:12:17.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x": {
    "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb5a6797d61d392147a841",
@@ -33805,32 +33709,6 @@
    "titulo": "Álvaro Cortes presentó su tercer libro de poesía",
    "urgente": false,
    "vence": "2026-10-19T00:26:21.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:94f11536-c6e6-485e-b136-564a4c85d23b|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0a8e0670326712d1c8168",
-   "clave": "web:94f11536-c6e6-485e-b136-564a4c85d23b|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "2026-10-15T14:00:34.000Z",
-   "enviado": "2026-10-15T14:04:58.138Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T10:13:44.949Z",
-   "id": "web:94f11536-c6e6-485e-b136-564a4c85d23b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110733672764579844",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/competencias-tradicionalistas-destacada-participacion-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Competencias tradicionalistas\n\nDestacada participación de chivilcoyanos en la 55ª Fiesta Nacional del Caballo de Bragado\n\nhttps://www.diariolacampaña.com.ar/n/competencias-tradicionalistas-destacada-participacion-de",
-   "tipo": "nota",
-   "titulo": "Competencias tradicionalistas",
-   "urgente": false,
-   "vence": "2026-10-16T10:13:44.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35046,32 +34924,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0ad910bac0656ce0429ea",
-   "clave": "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "2026-10-15T14:15:55.000Z",
-   "enviado": "2026-10-15T14:16:02.845Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T10:12:58.855Z",
-   "id": "web:b366f564-7201-4ff3-a0fe-9e78dabcd6d1",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110736461116944700",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/aiaca-y-plexagro-patricio-lo-valvo-invito-a-una-nueva-jornada-a-campo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Patricio Lo Valvo invitó a una nueva jornada a campo con el trigo y la camelina como protagonistas principales\n\nEl presidente de la Asociación de Ingenieros Agrónomos de Chivilcoy y Alberti (AIACA) y socio de la empresa Plexagro, Patricio Lo Valvo…\n\nhttps://www.diariolacampaña.com.ar/n/aiaca-y-plexagro-patricio-lo-valvo-invito-a-una-nueva-jornada-a-campo",
-   "tipo": "nota",
-   "titulo": "Patricio Lo Valvo invitó a una nueva jornada a campo con el trigo y la camelina como protagonistas principales",
-   "urgente": false,
-   "vence": "2026-10-16T10:12:58.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:b4a12021-9279-4b86-9d0b-ae839890e171|x": {
    "actualizado": "2026-10-21T00:00:28.000Z",
    "buffer_id": "",
@@ -35207,32 +35059,6 @@
    "titulo": "Entre la actuación policial y la movilización de los vecinos para recuperar las motos sustraídas en Chivilcoy",
    "urgente": false,
    "vence": "2026-10-20T10:02:40.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x": {
-   "actualizado": "2026-10-15T14:40:15.000Z",
-   "buffer_id": "6ad0962d1b1f1d94be38c10d",
-   "clave": "web:b6fb5d90-4508-431b-b874-06c3716a8faf|x",
-   "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "2026-10-15T13:30:37.000Z",
-   "enviado": "2026-10-15T13:31:03.002Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T00:24:55.021Z",
-   "id": "web:b6fb5d90-4508-431b-b874-06c3716a8faf",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110725136865276323",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Piden colaboración para una joven atacada por un caballo en el Hipódromo\n\nInternada en el Hospital Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis La joven de 25 años sufrió una fractura…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-piden-colaboracion-para-una-joven-atacada-por",
-   "tipo": "nota",
-   "titulo": "Piden colaboración para una joven atacada por un caballo en el Hipódromo",
-   "urgente": false,
-   "vence": "2026-10-16T00:24:55.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -37150,6 +36976,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x": {
+   "actualizado": "2026-10-25T14:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x",
+   "creado": "2026-10-25T14:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-25T14:23:39.145Z",
+   "id": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "noticia": "nota:ayarza-policiales-investigan-el-faltante-de-herramientas-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
+   "urgente": false,
+   "vence": "2026-10-25T18:23:39.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x": {
    "actualizado": "2026-10-22T18:00:18.000Z",
    "buffer_id": "",
@@ -37850,52 +37701,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-21T01:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
-   "cuando": "2026-10-21T02:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
-   "cuando": "2026-10-21T02:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x",
-   "cuando": "2026-10-21T02:20:20.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad82165db7d8198213edcde",
-   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
-   "cuando": "2026-10-21T02:20:22.000Z",
-   "dueAt": "2026-10-21T02:22:23.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad821669fdbc474fbf7abc7",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|x",
-   "cuando": "2026-10-21T02:20:22.000Z",
-   "dueAt": "2026-10-21T02:28:45.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|x",
    "cuando": "2026-10-21T02:40:13.000Z",
@@ -42051,6 +41856,49 @@
    "cuando": "2026-10-25T14:20:35.000Z",
    "dueAt": "2026-10-25T14:28:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
+   "cuando": "2026-10-25T14:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok",
+   "cuando": "2026-10-25T14:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x",
+   "cuando": "2026-10-25T14:40:19.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
+   "cuando": "2026-10-25T14:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114362040261235054"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
+   "cuando": "2026-10-25T14:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114363491750461873"
+  },
+  {
+   "buffer_id": "6ade14d40b5343d070d7d3bd",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
+   "cuando": "2026-10-25T14:40:20.000Z",
+   "dueAt": "2026-10-25T14:42:19.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -42075,7 +41923,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-25",
- "ultima_sync": "2026-10-25T13:40:14.000Z",
+ "ultima_sync": "2026-10-25T14:40:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -42145,6 +41993,7 @@
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": "2026-10-25T13:20:14.000Z",
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro": "2026-10-25T14:20:14.000Z",
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0": "2026-10-25T14:20:14.000Z",
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0": "2026-10-25T14:40:14.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -42849,6 +42698,7 @@
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": "2026-10-16T14:00:21.000Z",
+  "web:ea96db9d-ebd8-4901-99d2-e402feab16e7": "2026-10-25T14:40:14.000Z",
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": "2026-10-22T18:00:18.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
