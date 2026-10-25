@@ -3,7 +3,9 @@
   "tiktok": [],
   "x": []
  },
- "avisos": {},
+ "avisos": {
+  "pausa_tiktok": "2026-10-25T00:20:18.000Z"
+ },
  "canales": {
   "tiktok": {
    "desconectado": false,
@@ -11,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 13
+    "scheduled": 4,
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-24T23:00:25.000Z"
+   "visto": "2026-10-25T00:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -27,7 +29,7 @@
     "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-24T23:00:25.000Z"
+   "visto": "2026-10-25T00:20:15.000Z"
   }
  },
  "contenidos": {
@@ -5123,30 +5125,6 @@
    "volanta": "Vaticano",
    "youtube_url": "https://youtube.com/shorts/21HFj1mTKmE"
   },
-  "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": {
-   "categoria": "accidente_vial",
-   "descripcion": "Dos personas fallecieron tras un violento choque frontal registrado en el Acceso Oeste, a la altura de la localidad de Luján. Intervinieron los servicios de emergencia en el lugar del siniestro.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-14T17:42:35.000Z",
-   "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
-   "localidad": "Luján",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-muertos-en-un-tragico-choque-frontal-sobre-el-acceso-fc62b7",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "texto_tiktok": "Un trágico siniestro vial se produjo en las últimas horas sobre el Acceso Oeste, en jurisdicción de Luján.\n\nEl hecho consistió en un choque frontal entre vehículos que dejó como saldo fatal dos personas fallecidas.\n\nPersonal policial y de emergencias acudió rápidamente al lugar del impacto para realizar las tareas de rigor y asistir a los involucrados.\n\nLas autoridades investigan las causas que desencadenaron la colisión frontal.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #AccesoOeste #SiniestroVial #BuenosAires",
-   "tipo": "video",
-   "titulo": "Dos muertos en un choque frontal en el Acceso Oeste",
-   "urgente": false,
-   "video_bytes": 124421,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_09_lujan_dos-muertos-en-un-choque-front.mp4",
-   "volanta": "Luján",
-   "youtube_url": "https://youtube.com/shorts/qp8s-p8-tok"
-  },
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": {
    "categoria": "robo",
    "descripcion": "La planta de reciclaje sufrió un nuevo ataque delictivo tras forzar las rejas y una ventana de la oficina. Se llevaron herramientas, materiales y alimentos. Apuntan a la falta de respuestas del secretario de Seguridad, Ramón Ojeda.",
@@ -7124,6 +7102,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_0106_04_9-de-julio_un-cami-n-volc-en-la-ruta-65-t.mp4",
    "volanta": "Despiste en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/OsyWCKqXsqw"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/": {
+   "categoria": "incendio",
+   "descripcion": "Un hombre mayor de edad resultó afectado tras desatarse las llamas en una estructura de chapa ubicada en Balcarce y Garmendia. Bomberos controlaron el foco ígneo y no hubo heridos. Investigan una disputa previa con un vecino.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-25T00:01:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-un-incendio-en-el-complejo-fonavi-i-de-9-de-julio-a4eb54",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un incendio afectó anoche una estructura de chapa utilizada como cochera en el complejo habitacional FONAVI I.\n\nEl hecho ocurrió en la esquina de las calles Balcarce y Garmendia tras un llamado al sistema de emergencias 911.\n\nTrabajaron en el lugar Bomberos Voluntarios, móviles policiales y personal de la Guardia Urbana sin que se registraran personas lesionadas.\n\nLa Policía y la Fiscalía investigan las circunstancias del episodio y buscan individualizar a un vecino con el que la víctima habría tenido un conflicto.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Incendio #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Fuego en las cocheras del FONAVI I por un presunto conflicto vecinal",
+   "urgente": false,
+   "video_bytes": 78294,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_08_9-de-julio_fuego-en-las-cocheras-del-fona.mp4",
+   "volanta": "Incendio en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/GEEG802joec"
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": {
    "categoria": "accidente_vial",
@@ -13503,17 +13507,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 218,
-   "segundos": 3601,
+   "restantes": 217,
+   "segundos": 2405,
    "tope": 250
   },
   "30d": {
-   "restantes": 2158,
-   "segundos": 1458620,
+   "restantes": 2157,
+   "segundos": 1457425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T00:00:24.000Z",
+ "cuota_visto": "2026-10-25T00:20:18.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13523,10 +13527,10 @@
  },
  "pausas": {
   "tiktok": {
-   "hasta": "2026-10-17T13:23:02.000Z",
-   "medido": "2026-10-16T13:23:02.000Z",
+   "hasta": "2026-10-26T00:03:07.000Z",
+   "medido": "2026-10-25T00:03:07.000Z",
    "motivo": "TikTok pidió esperar 24 h (salieron 15 en las 24 h previas)",
-   "tope_medido": 12
+   "tope_medido": 14
   }
  },
  "publicaciones": {
@@ -16021,7 +16025,7 @@
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 21 h",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 15 en las 24 h previas)",
    "estado": "pendiente",
    "generado": "2026-10-23T13:00:49.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
@@ -16720,19 +16724,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok": {
-   "actualizado": "2026-10-24T21:00:19.000Z",
+   "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add1c6a6887a2efc1d59f5c",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok",
    "creado": "2026-10-24T17:40:14.000Z",
    "dueAt": "2026-10-24T23:03:38.000Z",
+   "enviado": "2026-10-24T23:04:27.289Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T17:32:04.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700373864315981063",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17009,15 +17014,16 @@
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
-   "actualizado": "2026-10-25T00:00:19.000Z",
+   "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add4695bd33ce99c3492b8f",
    "categoria": "",
    "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
    "creado": "2026-10-24T23:40:14.000Z",
    "dueAt": "2026-10-25T00:03:07.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-24T23:37:09.000Z",
    "id": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4",
    "intentos": 0,
@@ -19890,18 +19896,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
+   "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add388a8b3d437ddcdff473",
    "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
    "creado": "2026-10-24T23:00:21.000Z",
    "dueAt": "2026-10-24T23:02:24.000Z",
+   "enviado": "2026-10-24T23:02:41.025Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T22:41:56.000Z",
    "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114130484485574785",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
    "noticia": "nota:chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
    "origen": "bot",
@@ -24373,32 +24380,6 @@
    "video_bytes": 1328728,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fbd1321e41_el-papa-leon-xiv-reaparecio-tras-ser-operado-de.mp4"
   },
-  "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok": {
-   "actualizado": "2026-10-15T00:20:15.000Z",
-   "buffer_id": "6ad00e30d9430f324aebd269",
-   "clave": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html|tiktok",
-   "creado": "2026-10-14T18:00:18.000Z",
-   "dueAt": "2026-10-15T00:03:28.000Z",
-   "enviado": "2026-10-15T00:04:12.542Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T17:42:35.000Z",
-   "id": "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696678478954958088",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-muertos-en-un-tragico-choque-frontal-sobre-el-acceso-fc62b7",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 9,
-   "texto": "Un trágico siniestro vial se produjo en las últimas horas sobre el Acceso Oeste, en jurisdicción de Luján.\n\nEl hecho consistió en un choque frontal entre vehículos que dejó como saldo fatal dos personas fallecidas.\n\nPersonal policial y de emergencias acudió rápidamente al lugar del impacto para realizar las tareas de rigor y asistir a los involucrados.\n\nLas autoridades investigan las causas que desencadenaron la colisión frontal.\n\n📲 Más noticias de Luján en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #luján #policiales",
-   "tipo": "video",
-   "titulo": "Dos muertos en un choque frontal en el Acceso Oeste",
-   "urgente": false,
-   "vence": "2026-10-15T11:42:35.000Z",
-   "video_bytes": 124421,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_1509_09_lujan_dos-muertos-en-un-choque-front.mp4"
-  },
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|tiktok": {
    "actualizado": "2026-10-22T13:40:15.000Z",
    "buffer_id": "6ada08e8f09f431dcadc90ea",
@@ -26489,32 +26470,6 @@
    "video_bytes": 91416,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok": {
-   "actualizado": "2026-10-15T00:20:15.000Z",
-   "buffer_id": "6ad00e2f5f62d3c5af0f4585",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|tiktok",
-   "creado": "2026-10-14T22:20:16.000Z",
-   "dueAt": "2026-10-14T23:23:48.000Z",
-   "enviado": "2026-10-14T23:24:42.800Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-14T22:11:38.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/123.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696668285332393268",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-asaltaron-ataron-a-una-mujer-de-73-anos-en-su-casa-y-233cc6",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Una jubilada de 73 años fue brutalmente asaltada en su vivienda de Chacabuco por dos delincuentes.\n\nLos ladrones la maniataron de las muñecas y le robaron varios miles de pesos y dólares.\n\nEl hecho ocurrió en una finca situada en la calle Miguel Gil, entre Mendoza y La Rioja, durante la tarde.\n\nTras el ataque, un albañil que realizaba tareas en la zona llamó al servicio de emergencias para pedir asistencia médica y policial.\n\nLa víctima fue trasladada de urgencia al Hospital de Chacabuco mientras la policía analiza cámaras de seguridad de la zona.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "tipo": "video",
-   "titulo": "Atacaron y ataron a una mujer de 73 años en su casa para robarle pesos y dólares",
-   "urgente": false,
-   "vence": "2026-10-15T16:11:38.000Z",
-   "video_bytes": 74620,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-14_2109_04_chacabuco_atacaron-y-ataron-a-una-mujer-.mp4"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html|x": {
    "actualizado": "2026-10-15T09:00:22.000Z",
    "buffer_id": "6ad000232a2f648468f17ef0",
@@ -28129,18 +28084,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
+   "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add388a8b3d437ddcdff4d2",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
    "creado": "2026-10-24T22:40:13.000Z",
    "dueAt": "2026-10-24T23:07:48.000Z",
+   "enviado": "2026-10-24T23:08:04.110Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T22:30:37.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114131839623287109",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
    "noticia": "nota:chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
    "origen": "policiales",
@@ -29015,6 +28971,34 @@
    "vence": "2026-10-24T04:30:21.000Z",
    "video_bytes": 80218,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_0106_04_9-de-julio_un-cami-n-volc-en-la-ruta-65-t.mp4",
+   "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x": {
+   "actualizado": "2026-10-25T00:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x",
+   "creado": "2026-10-25T00:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T00:01:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-un-incendio-en-el-complejo-fonavi-i-de-9-de-julio-a4eb54",
+   "noticia": "nota:investigan-un-incendio-en-el-complejo-fonavi-i-de-9-de-julio-a4eb54",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Fuego en las cocheras del FONAVI I por un presunto conflicto vecinal\n\nBomberos controlaron las llamas en una estructura de chapa y no hubo heridos. Investigan si el hecho se originó por una disputa previa con un vecino.\n\nhttps://www.diariolacampaña.com.ar/n/investigan-un-incendio-en-el-complejo-fonavi-i-de-9-de-julio-a4eb54",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fuego en las cocheras del FONAVI I por un presunto conflicto vecinal",
+   "urgente": false,
+   "vence": "2026-10-25T02:01:59.000Z",
+   "video_bytes": 78294,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_08_9-de-julio_fuego-en-las-cocheras-del-fona.mp4",
    "viral": false
   },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/|tiktok": {
@@ -39122,49 +39106,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:01c0d7889e6b5047|tiktok",
-   "cuando": "2026-10-21T00:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:01c0d7889e6b5047|x",
-   "cuando": "2026-10-21T00:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:01c0d7889e6b5047|tiktok",
-   "cuando": "2026-10-21T00:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "buffer_id": "6ad8054a5af80146fcc029fa",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|x",
-   "cuando": "2026-10-21T00:20:26.000Z",
-   "dueAt": "2026-10-21T00:23:47.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x",
-   "cuando": "2026-10-21T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok",
-   "cuando": "2026-10-21T00:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x",
    "cuando": "2026-10-21T00:40:21.000Z",
    "estado": "pendiente",
@@ -43327,6 +43268,45 @@
    "cuando": "2026-10-25T00:00:24.000Z",
    "dueAt": "2026-10-25T01:23:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x",
+   "cuando": "2026-10-25T00:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok",
+   "cuando": "2026-10-25T00:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700373864315981063"
+  },
+  {
+   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
+   "cuando": "2026-10-25T00:20:16.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
+  },
+  {
+   "cuando": "2026-10-25T00:20:16.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-26T00:03:07.000Z",
+   "red": "tiktok",
+   "tope": 14
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
+   "cuando": "2026-10-25T00:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114130484485574785"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
+   "cuando": "2026-10-25T00:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114131839623287109"
   }
  ],
  "tandas": {
@@ -43351,7 +43331,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-25",
- "ultima_sync": "2026-10-24T23:00:25.000Z",
+ "ultima_sync": "2026-10-25T00:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -43716,6 +43696,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/": "2026-10-18T15:00:21.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": "2026-10-24T02:40:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/": "2026-10-25T00:20:13.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
