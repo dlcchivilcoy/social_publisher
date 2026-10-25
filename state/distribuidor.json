@@ -6664,6 +6664,32 @@
    "volanta": "Incendio en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/GEEG802joec"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": {
+   "categoria": "accidente_vial",
+   "descripcion": "El piloto Luis Zuffo sufrió múltiples fracturas tras un violento vuelco durante la competencia automovilística. Su vehículo despistó en un sector de alta velocidad.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-25T23:31:06.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/grave-accidente-en-el-rally-de-chivilcoy-volco-un-auto-y-el-5fb80d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento vuelco protagonizado este sábado por un automóvil de competición encendió las alarmas durante el desarrollo del Rally de Chivilcoy.\n\nEl siniestro vial ocurrió cuando el piloto Luis Zuffo perdió el control de su vehículo en una zona de alta velocidad y terminó dando varios tumbos.\n\nTras el grave despiste, los bomberos voluntarios y el personal médico acudieron rápidamente al lugar para rescatar y asistir a los tripulantes.\n\nZuffo fue trasladado de urgencia al Hospital Municipal de Chivilcoy, donde el secretario de Salud, Dr.\n\nJosé Luis Nene, confirmó que padece traumatismo de tórax y diversas fracturas.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Grave accidente de un piloto de Mercedes en el Rally de Chivilcoy",
+   "urgente": false,
+   "video_bytes": 180691,
+   "video_mb": 0.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_06_9-de-julio_grave-accidente-de-un-piloto-d.mp4",
+   "volanta": "Vuelco en el Rally de Chivilcoy",
+   "youtube_url": "https://youtube.com/shorts/UODfk-2XyPc"
+  },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": {
    "categoria": "robo",
    "descripcion": "Una pareja de jubilados fue baleada y golpeada durante un violento asalto en su vivienda de Olavarría. Los delincuentes ingresaron a la propiedad, los amenazaron y les exigieron dinero antes de escapar con objetos de valor.",
@@ -10619,24 +10645,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": {
-   "categoria": "",
-   "descripcion": "La empresa VAF, del Grupo GR, presentó dos subsistemas electrónicos para monitorear la distribución de semillas y controlar cada surco de siembra.",
-   "generado": "2026-10-14T23:33:04.681Z",
-   "id": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0677606085974838b51761bdfdfcdaf5~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Presentan nueva tecnología nacional para monitorear sembradoras surco por surco",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
-   "volanta": ""
   },
   "web:b213f18b-774f-4f28-a33d-398709d50fbe": {
    "categoria": "nacionales",
@@ -27232,6 +27240,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_08_9-de-julio_fuego-en-las-cocheras-del-fona.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x": {
+   "actualizado": "2026-10-25T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
+   "creado": "2026-10-25T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T23:31:06.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/grave-accidente-en-el-rally-de-chivilcoy-volco-un-auto-y-el-5fb80d",
+   "noticia": "nota:grave-accidente-en-el-rally-de-chivilcoy-volco-un-auto-y-el-5fb80d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Grave accidente de un piloto de Mercedes en el Rally de Chivilcoy\n\nEl piloto Luis Zuffo sufrió múltiples fracturas tras un violento vuelco durante la competencia automovilística. Su vehículo despistó en un sector de alta velocidad.\n\nhttps://www.diariolacampaña.com.ar/n/grave-accidente-en-el-rally-de-chivilcoy-volco-un-auto-y-el-5fb80d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Grave accidente de un piloto de Mercedes en el Rally de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-26T01:31:06.000Z",
+   "video_bytes": 180691,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_06_9-de-julio_grave-accidente-de-un-piloto-d.mp4",
+   "viral": false
+  },
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/|tiktok": {
    "actualizado": "2026-10-16T01:20:15.000Z",
    "buffer_id": "6ad16461a82f34dbe1387b9d",
@@ -33657,31 +33693,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x": {
-   "actualizado": "2026-10-15T23:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b|x",
-   "creado": "2026-10-14T23:40:15.000Z",
-   "dueAt": "",
-   "error": "fuera del horizonte de programación (espera en la cola)",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "vencido",
-   "generado": "2026-10-14T23:33:04.681Z",
-   "id": "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Presentan nueva tecnología nacional para monitorear sembradoras surco por surco\n\nLa empresa VAF, del Grupo GR, presentó dos subsistemas electrónicos para monitorear la distribución de semillas y controlar cada surco de siembra.\n\nhttps://www.diariolacampaña.com.ar/n/presentan-nueva-tecnologia-nacional-para-monitorear-sembradoras-5e4ffe",
-   "tipo": "nota",
-   "titulo": "Presentan nueva tecnología nacional para monitorear sembradoras surco por surco",
-   "urgente": false,
-   "vence": "2026-10-15T23:33:04.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:b213f18b-774f-4f28-a33d-398709d50fbe|x": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -36419,12 +36430,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x",
-   "cuando": "2026-10-21T11:00:19.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
   {
    "buffer_id": "6ad89b43befea41f139bc309",
    "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
@@ -40615,6 +40620,14 @@
    "cuando": "2026-10-25T23:00:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114488000423825477"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
+   "cuando": "2026-10-25T23:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -41014,6 +41027,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/": "2026-10-18T15:00:21.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": "2026-10-24T02:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/": "2026-10-25T00:20:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": "2026-10-25T23:40:15.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
