@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-25T17:00:16.000Z"
+   "visto": "2026-10-25T20:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 17
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-25T17:00:16.000Z"
+   "visto": "2026-10-25T20:40:15.000Z"
   }
  },
  "contenidos": {
@@ -12575,17 +12575,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 239,
-   "segundos": 19190,
+   "restantes": 238,
+   "segundos": 18000,
    "tope": 250
   },
   "30d": {
-   "restantes": 2146,
-   "segundos": 1385416,
+   "restantes": 2145,
+   "segundos": 1384226,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T20:20:25.000Z",
+ "cuota_visto": "2026-10-25T20:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -16333,18 +16333,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x": {
-   "actualizado": "2026-10-25T20:20:24.000Z",
+   "actualizado": "2026-10-25T20:40:15.000Z",
    "buffer_id": "6ade64890b5343d070edcb0e",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x",
    "creado": "2026-10-25T20:20:14.000Z",
    "dueAt": "2026-10-25T20:22:54.000Z",
+   "enviado": "2026-10-25T20:23:06.869Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T20:13:48.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114452715426197609",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
    "noticia": "nota:chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
    "origen": "bot",
@@ -36882,14 +36883,6 @@
  },
  "registro": [
   {
-   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
-   "cuando": "2026-10-21T10:20:55.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
    "cuando": "2026-10-21T10:20:57.000Z",
    "estado": "pendiente",
@@ -41077,6 +41070,12 @@
    "cuando": "2026-10-25T20:20:25.000Z",
    "dueAt": "2026-10-25T20:22:54.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x",
+   "cuando": "2026-10-25T20:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114452715426197609"
   }
  ],
  "tandas": {
@@ -41101,7 +41100,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-25",
- "ultima_sync": "2026-10-25T17:00:16.000Z",
+ "ultima_sync": "2026-10-25T20:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

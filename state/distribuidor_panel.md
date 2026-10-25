@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 10 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · ⏸ EN PAUSA hasta 25/10 22:23 · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,7 @@ Actualizado: 25/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2146 de 3000 (visto 2026-10-25T20:20:25.000Z)
+15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2145 de 3000 (visto 2026-10-25T20:40:15.000Z)
 
 ## Cola propia (7 esperando)
 - TikTok · Reels del bot · Los ganadores de la octava fecha del Rally de Chivilcoy — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -48,7 +48,6 @@ Actualizado: 25/10/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T14:20 recibido web:23a74d83-2170-4408-abe4-23838297e05f|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-25T14:20 recibido web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
 - 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
@@ -73,3 +72,4 @@ Actualizado: 25/10/2026 17:20 (hora AR) · ACTIVO
 - 2026-10-25T20:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tikto 
 - 2026-10-25T20:20 recibido web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-25T20:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x 
+- 2026-10-25T20:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x 
