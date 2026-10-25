@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -45,7 +45,6 @@ Actualizado: 25/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
 - 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
