@@ -1104,6 +1104,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
    "youtube_url": "https://www.youtube.com/shorts/htgfVsPRN_4"
   },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": {
+   "descripcion": "Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-25T13:06:49.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Suspenden la competencia de Rally por las lluvias",
+   "urgente": false,
+   "video_bytes": 585998,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/_vOIouXgtP8"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -11867,6 +11888,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/marco-rubio-y-javier-milei-conversaron-para-fortalecer-el-74c86d",
    "volanta": ""
   },
+  "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f": {
+   "categoria": "",
+   "descripcion": "Suspenden la competencia de Rally por las lluvias Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
+   "generado": "2026-10-25T13:04:40.145Z",
+   "id": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_afac0180924040d6868ac98ea639d159~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Suspenden la competencia de Rally por las lluvias",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": {
    "categoria": "nacionales",
    "descripcion": "El Banco Central actualiza los límites de la banda cambiaria según la inflación informada por el Indec. El dólar mayorista cerró a $1.515,85 y mantiene…",
@@ -12901,17 +12941,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 248,
-   "segundos": 82799,
+   "restantes": 247,
+   "segundos": 44400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2155,
-   "segundos": 1449024,
+   "restantes": 2154,
+   "segundos": 1410625,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T02:40:17.000Z",
+ "cuota_visto": "2026-10-25T13:20:17.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -15230,15 +15270,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok": {
-   "actualizado": "2026-10-23T13:20:15.000Z",
+   "actualizado": "2026-10-25T13:20:15.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok",
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
    "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-23T13:00:49.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
    "intentos": 0,
@@ -16390,6 +16430,62 @@
    "vence": "2026-10-24T21:20:15.000Z",
    "video_bytes": 738687,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d98c958a3d32147d.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok": {
+   "actualizado": "2026-10-25T13:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok",
+   "creado": "2026-10-25T13:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T13:06:49.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Suspenden la competencia de Rally por las lluvias\n\nSuspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Suspenden la competencia de Rally por las lluvias",
+   "urgente": false,
+   "vence": "2026-10-27T13:06:49.000Z",
+   "video_bytes": 585998,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x": {
+   "actualizado": "2026-10-25T13:20:15.000Z",
+   "buffer_id": "6ade02103d5b27036bd3c55a",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x",
+   "creado": "2026-10-25T13:20:14.000Z",
+   "dueAt": "2026-10-25T13:22:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-25T13:06:49.000Z",
+   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "noticia": "nota:chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Suspenden la competencia de Rally por las lluvias\n\nSuspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Suspenden la competencia de Rally por las lluvias",
+   "urgente": false,
+   "vence": "2026-10-25T15:06:49.000Z",
+   "video_bytes": 585998,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -36077,6 +36173,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x": {
+   "actualizado": "2026-10-25T13:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x",
+   "creado": "2026-10-25T13:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-25T13:04:40.145Z",
+   "id": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "noticia": "nota:chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Suspenden la competencia de Rally por las lluvias",
+   "urgente": false,
+   "vence": "2026-10-25T17:04:40.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000|x": {
    "actualizado": "2026-10-16T22:20:13.000Z",
    "buffer_id": "",
@@ -37669,42 +37790,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:4ce13bf44cf7dbc5|tiktok",
-   "cuando": "2026-10-21T01:00:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "dura 905 s (TikTok: 3-600 s)",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b164c7aa50445aed|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b164c7aa50445aed|tiktok",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b164c7aa50445aed|x",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:b164c7aa50445aed|tiktok",
-   "cuando": "2026-10-21T01:20:16.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
   {
    "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x|x",
    "cuando": "2026-10-21T01:20:16.000Z",
@@ -41857,6 +41942,43 @@
    "cuando": "2026-10-25T02:20:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x",
+   "cuando": "2026-10-25T13:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok",
+   "cuando": "2026-10-25T13:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x",
+   "cuando": "2026-10-25T13:20:15.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok",
+   "cuando": "2026-10-25T13:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)"
+  },
+  {
+   "buffer_id": "6ade02103d5b27036bd3c55a",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x",
+   "cuando": "2026-10-25T13:20:17.000Z",
+   "dueAt": "2026-10-25T13:22:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41948,6 +42070,7 @@
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w": "2026-10-24T18:00:17.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth": "2026-10-24T18:40:13.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8": "2026-10-24T19:40:16.000Z",
+  "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": "2026-10-25T13:20:14.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -42606,6 +42729,7 @@
   "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a": "2026-10-11T21:58:03.000Z",
   "web:d35101a5-0683-4dc9-8422-7280ee9bf814": "2026-10-11T21:58:03.000Z",
   "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2": "2026-10-16T18:20:15.000Z",
+  "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f": "2026-10-25T13:20:14.000Z",
   "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d": "2026-10-14T13:40:20.000Z",
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": "2026-10-15T22:20:20.000Z",
   "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": "2026-10-19T01:00:18.000Z",
