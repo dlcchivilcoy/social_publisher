@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 24/10/2026 20:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 1 | 1 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 13 | 1 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 13 | 6 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 11 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,17 +27,12 @@ Actualizado: 24/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 219 de 250 · 30d: quedan 2159 de 3000 (visto 2026-10-24T23:00:27.000Z)
+15m: quedan 99 de 100 · 24h: quedan 218 de 250 · 30d: quedan 2158 de 3000 (visto 2026-10-25T00:00:24.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (3 esperando)
 - X · Reels del bot · Una vecina denunció que le robaron la moto frente a su vivienda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Recibieron a la delegación local tras la Final Provincial en Mar del Plata — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Cuatro aprehendidos y cuatro motos secuestradas en controles nocturnos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con la Justici — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — no entró entre las 5 más virales de la tanda 21 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -46,11 +41,6 @@ Actualizado: 24/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tikto 
-- 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tikto 
-- 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tikto 
-- 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tikto 
-- 2026-10-24T21:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tikto 
 - 2026-10-24T21:40 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tikto 
 - 2026-10-24T21:40 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tikto 
 - 2026-10-24T22:20 recibido policiales:https://junin24.com/policiales/golpes-al-narcomen 
@@ -71,3 +61,8 @@ Actualizado: 24/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-24T23:40 recibido bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x 
 - 2026-10-24T23:40 recibido bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok 
 - 2026-10-24T23:40 recibido web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T00:00 programado bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok 
+- 2026-10-25T00:00 programado bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok 
+- 2026-10-25T00:00 programado bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tikto 
+- 2026-10-25T00:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tikto 
+- 2026-10-25T00:00 programado bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tikto 
