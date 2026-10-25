@@ -28056,14 +28056,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x": {
-   "actualizado": "2026-10-24T23:20:14.000Z",
+   "actualizado": "2026-10-25T01:20:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x",
    "creado": "2026-10-24T23:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-24T23:02:08.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en",
    "intentos": 0,
@@ -39106,14 +39106,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x",
-   "cuando": "2026-10-21T00:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
    "cuando": "2026-10-21T00:40:24.000Z",
    "estado": "pendiente",
@@ -43307,6 +43299,12 @@
    "cuando": "2026-10-25T00:20:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114131839623287109"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x",
+   "cuando": "2026-10-25T01:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {

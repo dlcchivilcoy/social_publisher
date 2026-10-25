@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 24/10/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 9 | 0 | 1 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 14 | 4 | 0 | 1 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 11 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -29,10 +29,9 @@ Actualizado: 24/10/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 217 de 250 · 30d: quedan 2157 de 3000 (visto 2026-10-25T00:20:18.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (3 esperando)
 - X · Reels del bot · Una vecina denunció que le robaron la moto frente a su vivienda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Fuego en las cocheras del FONAVI I por un presunto conflicto vecinal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Cuatro aprehendidos y cuatro motos secuestradas en controles nocturnos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — en pausa: TikTok pidió esperar 24 h (salieron 15 en las 24 h previas)
 
 ## Errores recientes
@@ -43,7 +42,6 @@ Actualizado: 24/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-24T23:00 recibido bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x 
 - 2026-10-24T23:00 recibido bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok 
 - 2026-10-24T23:00 recibido web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-24T23:00 enviado bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tikto 
@@ -68,3 +66,4 @@ Actualizado: 24/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-25T00:20 pausa_red  
 - 2026-10-25T00:20 enviado bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x 
 - 2026-10-25T00:20 enviado policiales:https://www.diariodemocracia.com/policiales/34704 
+- 2026-10-25T01:20 vencido policiales:https://www.diariodemocracia.com/policiales/34704 espera su momento (se programa cerca de la hora en que sale en las otras redes)
