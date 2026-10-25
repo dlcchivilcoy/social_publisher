@@ -5751,6 +5751,32 @@
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/0gvPEEc9F8Y"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados": {
+   "categoria": "robo",
+   "descripcion": "Tras una persecución que llegó hasta la Ruta 29, la policía apresó a dos hombres acusados de asaltar la vivienda del productor Félix Pissinis. Secuestraron dinero, joyas y armas.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-25T22:31:06.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-dos-detenidos-y-secuestro-de-joyas-y-dinero-tras-el-6e8dff",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "La investigación por el asalto a la propiedad del productor agropecuario Félix Pissinis sumó importantes avances con la detención de dos sospechosos.\n\nEl hecho principal sucedió el lunes 19 de octubre en una finca situada en San Martín al 1400.\n\nLos implicados habrían forzado una puerta para sustraer dinero en efectivo, joyas, armas de fuego y cuchillos.\n\nMediante el análisis de cámaras de seguridad, los investigadores rastrearon un Peugeot 208 rojo.\n\nEl seguimiento del vehículo permitió interceptarlo el viernes 23 de octubre en el kilómetro 226 de la Ruta 29, a la altura de Ayacucho, gracias a un operativo del Comando de Prevención Rural.\n\nPosteriormente, los allanamientos realizados en Mar del Plata y Coronel Vidal permitieron recuperar gran parte de los objetos robados, los cuales fueron reconocidos por la propia víctima.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Robo #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos aprehendidos por el robo a la casa de un productor agropecuario en Bragado",
+   "urgente": false,
+   "video_bytes": 95746,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_02_bragado_dos-aprehendidos-por-el-robo-a.mp4",
+   "volanta": "Robo calificado en Bragado",
+   "youtube_url": "https://youtube.com/shorts/QaLwBIdN6Cw"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "La madrugada terminó en medio de corridas y detonaciones de balas de estruendo por parte de la Policía en la zona de los locales nocturnos.",
@@ -10471,24 +10497,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-infanto-juvenil-tres-decadas-de-pasion-y-formacion-la-escuela",
    "volanta": "Fútbol Infanto – Juvenil"
   },
-  "web:a48b6d42-70dd-4459-94a5-2c178959330a": {
-   "categoria": "nacionales",
-   "descripcion": "La autoridad monetaria adquirió divisas en el mercado este miércoles 14 de octubre. Las reservas brutas bajaron a USD 117 millones y el blue operó sin…",
-   "generado": "2026-10-14T22:06:25.250Z",
-   "id": "web:a48b6d42-70dd-4459-94a5-2c178959330a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c940788eeda24addae5395dda23f9291~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miércoles",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
-   "volanta": ""
-  },
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a": {
    "categoria": "",
    "descripcion": "El periodista Gustavo \"Gato\" Sylvestre presentó su nuevo libro en Chivilcoy con un auditorio repleto en la Biblioteca Popular Con una masiva concurrencia en la Biblioteca Popular \"Antonio Novaro\", el periodista expuso las claves de \"El mundo que nos queda\", una obra centreada en el legado político y social del Papa Francisco. El encuentro contó con la organización del espacio Apertura Peronista. En una jornada marcada por una gran convocatoria de vecinos y referentes políticos de la región,...",
@@ -12441,17 +12449,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 13196,
+   "restantes": 235,
+   "segundos": 10790,
    "tope": 250
   },
   "30d": {
-   "restantes": 2143,
-   "segundos": 1379422,
+   "restantes": 2142,
+   "segundos": 1377015,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T22:00:19.000Z",
+ "cuota_visto": "2026-10-25T22:40:26.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -25101,6 +25109,34 @@
    "video_bytes": 91416,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_03_bragado_dos-menores-aprehendidos-por-a.mp4"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x": {
+   "actualizado": "2026-10-25T22:40:25.000Z",
+   "buffer_id": "6ade855a0b5343d070f595dc",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x",
+   "creado": "2026-10-25T22:40:17.000Z",
+   "dueAt": "2026-10-25T22:43:10.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-25T22:31:06.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-dos-detenidos-y-secuestro-de-joyas-y-dinero-tras-el-6e8dff",
+   "noticia": "nota:bragado-dos-detenidos-y-secuestro-de-joyas-y-dinero-tras-el-6e8dff",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Dos aprehendidos por el robo a la casa de un productor agropecuario en Bragado\n\n. Secuestraron dinero, joyas y armas.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-dos-detenidos-y-secuestro-de-joyas-y-dinero-tras-el-6e8dff",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos aprehendidos por el robo a la casa de un productor agropecuario en Bragado",
+   "urgente": false,
+   "vence": "2026-10-26T00:31:06.000Z",
+   "video_bytes": 95746,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_02_bragado_dos-aprehendidos-por-el-robo-a.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-17T20:00:19.000Z",
    "buffer_id": "6ad3ae64769b4579348a18f6",
@@ -33446,30 +33482,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:a48b6d42-70dd-4459-94a5-2c178959330a|x": {
-   "actualizado": "2026-10-15T22:20:20.000Z",
-   "buffer_id": "",
-   "clave": "web:a48b6d42-70dd-4459-94a5-2c178959330a|x",
-   "creado": "2026-10-14T22:20:16.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-14T22:06:25.250Z",
-   "id": "web:a48b6d42-70dd-4459-94a5-2c178959330a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miércoles\n\nLa autoridad monetaria adquirió divisas en el mercado este miércoles 14 de octubre. Las reservas brutas bajaron a USD 117 millones y el blue operó sin…\n\nhttps://www.diariolacampaña.com.ar/n/el-bcra-compro-usd-101-millones-y-el-dolar-minorista-opero-sin-5c0628",
-   "tipo": "nota",
-   "titulo": "El BCRA compró USD 101 millones y el dólar minorista operó sin cambios este miércoles",
-   "urgente": false,
-   "vence": "2026-10-15T22:06:25.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a|x": {
    "actualizado": "2026-10-20T11:40:15.000Z",
    "buffer_id": "6ad73bb4afbc1740acd32d0b",
@@ -36499,20 +36511,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad8920a7bfd13c0fd92c218",
-   "clave": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x",
-   "cuando": "2026-10-21T10:20:58.000Z",
-   "dueAt": "2026-10-21T11:36:48.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad896909c5d256f6595bbb8",
-   "clave": "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197|x",
-   "cuando": "2026-10-21T10:40:16.000Z",
-   "dueAt": "2026-10-21T11:51:15.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad896903021c1ef52af8d71",
    "clave": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x",
@@ -40695,6 +40693,21 @@
    "cuando": "2026-10-25T22:00:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114462601442697661"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x",
+   "cuando": "2026-10-25T22:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6ade855a0b5343d070f595dc",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x",
+   "cuando": "2026-10-25T22:40:26.000Z",
+   "dueAt": "2026-10-25T22:43:10.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41027,6 +41040,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis": "2026-10-16T13:00:18.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados": "2026-10-25T22:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
