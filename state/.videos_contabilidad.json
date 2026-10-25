@@ -33812,5 +33812,57 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-24T20:37:07",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
+    "uploader": "",
+    "fecha_recibido": "2026-10-25T10:04:14",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Deportes",
+    "titulo": "Suspenden la competencia de Rally por las lluvias",
+    "resumen": "Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
+    "texto": "Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
+    "bajada_reel": "El mal estado de los caminos tras las últimas precipitaciones obligó a frenar la actividad.",
+    "escrito": "Suspenden competencia de Rally en Chivilcoy por la ultima lluvia que empeoro los caminos",
+    "tarjetas_fotos": [
+      [
+        "CLIMA ADVERSO",
+        "Las últimas precipitaciones afectaron gravemente el trazado previsto para la carrera"
+      ],
+      [
+        "ESTADO VIAL",
+        "El mal estado de los caminos impidió garantizar la competencia deportiva"
+      ]
+    ],
+    "draft_id": "d37c6bc6-4b95-4911-9530-c232b7b72a1f",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-25-matias-zucchi-mv.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-25T13:01:16.841Z — wa:5492346417636",
+    "decl": null,
+    "tema_4x5": "blanco",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-10-25T10:06:48",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
+    "ig_media_id": "18095116049149677",
+    "fb_video_id": "1638872971234861",
+    "ig_historia_id": "17901865224672411",
+    "fb_historia_id": "1639170661139309",
+    "yt_video_id": "_vOIouXgtP8",
+    "yt_url": "https://www.youtube.com/shorts/_vOIouXgtP8"
   }
 ]
