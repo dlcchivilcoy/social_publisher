@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · ⏸ EN PAUSA hasta 25/10 22:23 · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,9 +27,11 @@ Actualizado: 25/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2150 de 3000 (visto 2026-10-25T14:40:20.000Z)
+15m: quedan 98 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2148 de 3000 (visto 2026-10-25T15:40:21.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (6 esperando)
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -46,15 +48,6 @@ Actualizado: 25/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T01:40 pausa_red  
-- 2026-10-25T01:40 error_publicacion bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tikto TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- 2026-10-25T01:40 pausa_red  
-- 2026-10-25T01:40 enviado bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok 
-- 2026-10-25T02:20 vencido policiales:https://www.latrochadigital.com.ar/2026/10/24/inc espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-25T13:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
-- 2026-10-25T13:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tikto 
-- 2026-10-25T13:20 recibido web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-25T13:20 vencido bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tikto en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - 2026-10-25T13:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
 - 2026-10-25T13:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
 - 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
@@ -71,3 +64,12 @@ Actualizado: 25/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-25T14:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
 - 2026-10-25T14:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
 - 2026-10-25T14:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 
+- 2026-10-25T15:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
+- 2026-10-25T15:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|tikto 
+- 2026-10-25T15:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
+- 2026-10-25T15:40 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|tikto 
+- 2026-10-25T15:40 recibido web:4738ab65-8dbc-4d5e-807d-78b88a465544|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T15:40 recibido web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T15:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 
+- 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
+- 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
