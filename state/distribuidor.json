@@ -13507,23 +13507,23 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 249,
-   "segundos": 86400,
+   "restantes": 248,
+   "segundos": 82799,
    "tope": 250
   },
   "30d": {
-   "restantes": 2156,
-   "segundos": 1452626,
+   "restantes": 2155,
+   "segundos": 1449024,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T01:40:15.000Z",
+ "cuota_visto": "2026-10-25T02:40:17.000Z",
  "metricas_buffer": {
-  "con_metricas": 99,
+  "con_metricas": 95,
   "disponible": true,
-  "enviados": 99,
+  "enviados": 95,
   "motivo": "",
-  "visto": "2026-10-24T02:20:17.000Z"
+  "visto": "2026-10-25T02:40:16.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -15714,14 +15714,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699477911946186036",
    "metricas": {
-    "averageTimeWatched": 5.67,
+    "averageTimeWatched": 5.61,
     "comments": 0,
-    "engagementRate": 1.45,
+    "engagementRate": 1.43,
     "reach": 0,
     "reactions": 3,
     "shares": 0,
-    "totalTimeWatched": 22.18,
-    "views": 207
+    "totalTimeWatched": 22.33,
+    "views": 210
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
    "origen": "bot",
@@ -15790,14 +15790,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699600789576158472",
    "metricas": {
-    "averageTimeWatched": 5.67,
+    "averageTimeWatched": 5.5,
     "comments": 0,
-    "engagementRate": 1.47,
+    "engagementRate": 1.42,
     "reach": 0,
     "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 27.4,
-    "views": 272
+    "totalTimeWatched": 28.15,
+    "views": 282
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
    "origen": "bot",
@@ -15830,8 +15830,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 4,
-    "impressions": 25,
+    "engagementRate": 3.57,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 1
    },
@@ -15896,7 +15896,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 18,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -15931,14 +15931,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699848972705303860",
    "metricas": {
-    "averageTimeWatched": 3.16,
+    "averageTimeWatched": 2.82,
     "comments": 0,
-    "engagementRate": 0.76,
+    "engagementRate": 0.31,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 7.73,
-    "views": 132
+    "totalTimeWatched": 16.28,
+    "views": 319
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-nueve-medallas-en-diversas",
    "origen": "bot",
@@ -15972,7 +15972,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 17,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -16091,7 +16091,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 36,
     "reactions": 0,
     "reposts": 0
    },
@@ -16157,7 +16157,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 10,
     "reactions": 0,
     "reposts": 0
    },
@@ -16191,6 +16191,16 @@
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700245124176940296",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16222,10 +16232,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
-    "reactions": 0,
-    "reposts": 0
+    "engagementRate": 36,
+    "impressions": 25,
+    "reactions": 4,
+    "reposts": 5
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
    "noticia": "nota:chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
@@ -16257,6 +16267,16 @@
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700239985978526997",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-club-independiente-celebrara-los-30-anos-de-su",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16289,7 +16309,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 0
    },
@@ -16324,14 +16344,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699982126430555413",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.57,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.12,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 30.82,
+    "views": 358
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
    "origen": "bot",
@@ -16441,7 +16461,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -16475,6 +16495,16 @@
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700229194143272244",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16504,12 +16534,12 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2113763035282108457",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 6.45,
+    "impressions": 31,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
@@ -16569,6 +16599,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114055086187917480",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
    "noticia": "nota:chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
    "origen": "bot",
@@ -16599,6 +16637,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700353427767020821",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16627,6 +16675,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114059929774374985",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
    "noticia": "nota:chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
    "origen": "bot",
@@ -16657,6 +16713,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700342974583934228",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16685,6 +16751,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114070056447484314",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
    "noticia": "nota:chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
    "origen": "bot",
@@ -16715,6 +16789,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700373864315981063",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16743,6 +16827,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114049943132397692",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
    "noticia": "nota:chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
    "origen": "bot",
@@ -16773,6 +16865,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700368725207239943",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16801,6 +16903,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114056154259103822",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
    "noticia": "nota:chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
    "origen": "bot",
@@ -16831,6 +16941,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700362732515626292",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16859,6 +16979,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114057475687059838",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
    "noticia": "nota:chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
    "origen": "bot",
@@ -16889,6 +17017,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700358359815425301",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16917,6 +17055,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114064971436814378",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
    "noticia": "nota:chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
    "origen": "bot",
@@ -16947,6 +17093,16 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700348242227105044",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16975,6 +17131,14 @@
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114080205669064984",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
    "noticia": "nota:chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
    "origen": "bot",
@@ -18978,14 +19142,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699487357656911112",
    "metricas": {
-    "averageTimeWatched": 4.66,
+    "averageTimeWatched": 4.62,
     "comments": 0,
-    "engagementRate": 0.47,
+    "engagementRate": 0.43,
     "reach": 0,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 38.97,
-    "views": 425
+    "totalTimeWatched": 42.6,
+    "views": 460
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
    "origen": "bot",
@@ -19214,7 +19378,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 33,
+    "impressions": 34,
     "reactions": 0,
     "reposts": 0
    },
@@ -19314,14 +19478,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699610978505346324",
    "metricas": {
-    "averageTimeWatched": 5.23,
+    "averageTimeWatched": 5.1,
     "comments": 0,
-    "engagementRate": 1.1,
+    "engagementRate": 0.99,
     "reach": 0,
     "reactions": 3,
     "shares": 0,
-    "totalTimeWatched": 25.78,
-    "views": 272
+    "totalTimeWatched": 28.27,
+    "views": 303
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
    "origen": "bot",
@@ -19378,14 +19542,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699605909567196422",
    "metricas": {
-    "averageTimeWatched": 4.66,
+    "averageTimeWatched": 4.61,
     "comments": 0,
-    "engagementRate": 0.46,
+    "engagementRate": 0.45,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 18.73,
-    "views": 216
+    "totalTimeWatched": 18.88,
+    "views": 220
    },
    "nota_url": "",
    "origen": "bot",
@@ -19454,14 +19618,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699853402569755922",
    "metricas": {
-    "averageTimeWatched": 5.26,
+    "averageTimeWatched": 4.98,
     "comments": 0,
-    "engagementRate": 0.74,
+    "engagementRate": 1.27,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 2,
     "shares": 2,
-    "totalTimeWatched": 24.28,
-    "views": 270
+    "totalTimeWatched": 27.38,
+    "views": 316
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
    "origen": "bot",
@@ -19494,8 +19658,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 7.69,
-    "impressions": 13,
+    "engagementRate": 6.67,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 1
    },
@@ -19529,6 +19693,16 @@
    "id": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700250611882691841",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19560,10 +19734,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 4.76,
+    "impressions": 21,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
    "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-son-finalistas-en",
@@ -19595,6 +19769,16 @@
    "id": "bot:video_matias-zucchi_mvl80hcengob_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700235213494062356",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19627,7 +19811,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -19662,14 +19846,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699972055248178453",
    "metricas": {
-    "averageTimeWatched": 5.25,
+    "averageTimeWatched": 5.42,
     "comments": 0,
-    "engagementRate": 0.65,
+    "engagementRate": 1.03,
     "reach": 0,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 10.32,
-    "views": 154
+    "reactions": 3,
+    "shares": 1,
+    "totalTimeWatched": 37.4,
+    "views": 387
    },
    "nota_url": "",
    "origen": "bot",
@@ -19703,7 +19887,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -19737,6 +19921,16 @@
    "id": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700224521046953237",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19769,7 +19963,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -19803,6 +19997,16 @@
    "id": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700219619839053076",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19859,6 +20063,16 @@
    "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700393778057579782",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19887,6 +20101,14 @@
    "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114130484485574785",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
    "noticia": "nota:chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
    "origen": "bot",
@@ -20736,7 +20958,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 25,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -20773,7 +20995,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 20,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -20810,7 +21032,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 66,
+    "impressions": 84,
     "reactions": 0,
     "reposts": 0
    },
@@ -20847,7 +21069,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 53,
+    "impressions": 684,
     "reactions": 0,
     "reposts": 0
    },
@@ -20884,7 +21106,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 29,
+    "impressions": 32,
     "reactions": 0,
     "reposts": 0
    },
@@ -20921,7 +21143,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 40,
+    "impressions": 43,
     "reactions": 0,
     "reposts": 0
    },
@@ -20958,7 +21180,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -20995,7 +21217,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -21032,7 +21254,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -21825,14 +22047,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699858126392118529",
    "metricas": {
-    "averageTimeWatched": 2.92,
+    "averageTimeWatched": 3.04,
     "comments": 0,
-    "engagementRate": 0.38,
+    "engagementRate": 0.57,
     "reach": 0,
-    "reactions": 1,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 13.92,
-    "views": 262
+    "totalTimeWatched": 20.1,
+    "views": 352
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/anses-jubilacion-minima-de-435-662-86-montos-y-quienes-cobran-47f453",
    "origen": "nacionales",
@@ -24374,14 +24596,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699482347594337557",
    "metricas": {
-    "averageTimeWatched": 4.93,
+    "averageTimeWatched": 4.83,
     "comments": 0,
-    "engagementRate": 0.88,
+    "engagementRate": 1,
     "reach": 0,
-    "reactions": 5,
+    "reactions": 6,
     "shares": 0,
-    "totalTimeWatched": 51.88,
-    "views": 567
+    "totalTimeWatched": 53.65,
+    "views": 601
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-la-cooperativa-27-de-octubre-sufrio-su-35d0de",
    "origen": "policiales",
@@ -25029,6 +25251,14 @@
    "id": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114120768850120890",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
    "noticia": "nota:junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
    "origen": "policiales",
@@ -25392,14 +25622,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699493467696794932",
    "metricas": {
-    "averageTimeWatched": 5.34,
+    "averageTimeWatched": 5.31,
     "comments": 0,
-    "engagementRate": 0.36,
+    "engagementRate": 0.35,
     "reach": 0,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 58.1,
-    "views": 560
+    "totalTimeWatched": 58.53,
+    "views": 568
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/salto-el-jardinero-fue-acusado-de-actuar-como-entregador-en-el-407cd4",
    "origen": "policiales",
@@ -27097,8 +27327,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 3.57,
-    "impressions": 28,
+    "engagementRate": 2.63,
+    "impressions": 38,
     "reactions": 1,
     "reposts": 0
    },
@@ -27906,14 +28136,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7699647230004792597",
    "metricas": {
-    "averageTimeWatched": 5.9,
+    "averageTimeWatched": 5.79,
     "comments": 1,
-    "engagementRate": 1.1,
+    "engagementRate": 1.04,
     "reach": 0,
     "reactions": 7,
     "shares": 1,
-    "totalTimeWatched": 90.4,
-    "views": 819
+    "totalTimeWatched": 94.4,
+    "views": 869
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/salto-detuvieron-a-un-sospechoso-de-19-anos-tras-el-robo-de-una-f61b26",
    "origen": "policiales",
@@ -27973,14 +28203,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7700016586958163252",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.62,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.27,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 31.88,
+    "views": 365
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-joven-que-intento-estafar-a-un-c9815b",
    "origen": "policiales",
@@ -28014,7 +28244,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -28075,6 +28305,14 @@
    "id": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2114131839623287109",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
    "noticia": "nota:chacabuco-cayeron-padre-e-hijo-por-venta-de-cocaina-y-47d9cb",
    "origen": "policiales",
@@ -28652,7 +28890,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 41,
+    "impressions": 57,
     "reactions": 0,
     "reposts": 0
    },
@@ -30126,10 +30364,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 9.09,
+    "impressions": 11,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/final-provincial-cosecha-record-de-medallas-para-chivilcoy-en-la",
    "noticia": "nota:final-provincial-cosecha-record-de-medallas-para-chivilcoy-en-la",
@@ -30420,7 +30658,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -30457,8 +30695,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 2.86,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -30996,10 +31234,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
-    "reactions": 0,
-    "reposts": 0
+    "engagementRate": 33.33,
+    "impressions": 15,
+    "reactions": 2,
+    "reposts": 3
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/aniversario-172-a-pesar-de-las-dificultades-britos-aseguro-que-en-los",
    "noticia": "nota:aniversario-172-a-pesar-de-las-dificultades-britos-aseguro-que-en-los",
@@ -32421,8 +32659,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 8.62,
-    "impressions": 58,
+    "engagementRate": 8.33,
+    "impressions": 60,
     "reactions": 1,
     "reposts": 2
    },
@@ -33072,7 +33310,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 0
    },
@@ -33789,9 +34027,9 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
-    "reactions": 0,
+    "engagementRate": 12,
+    "impressions": 25,
+    "reactions": 1,
     "reposts": 0
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/rutas-5-y-3-construir-un-trazado-simple-en-territorio-pampeano-puede",
@@ -34052,7 +34290,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 36,
     "reactions": 0,
     "reposts": 0
    },
@@ -34867,7 +35105,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -35014,8 +35252,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 7.14,
-    "impressions": 42,
+    "engagementRate": 6.98,
+    "impressions": 43,
     "reactions": 1,
     "reposts": 2
    },
@@ -36368,7 +36606,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 9,
     "reactions": 0,
     "reposts": 0
    },
@@ -36747,8 +36985,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 8.33,
-    "impressions": 24,
+    "engagementRate": 6.45,
+    "impressions": 31,
     "reactions": 1,
     "reposts": 1
    },
@@ -37210,10 +37448,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
-    "reactions": 0,
-    "reposts": 0
+    "engagementRate": 12.5,
+    "impressions": 16,
+    "reactions": 1,
+    "reposts": 1
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/campeonato-regional-rally-de-chivilcoy-el-recorrido-y-los-horarios-de",
    "noticia": "nota:campeonato-regional-rally-de-chivilcoy-el-recorrido-y-los-horarios-de",
@@ -37845,7 +38083,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -38146,7 +38384,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },

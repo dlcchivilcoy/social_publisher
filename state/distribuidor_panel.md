@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 24/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -18,16 +18,16 @@ Actualizado: 24/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels del bot: 71 con métricas · mediana vistas/impresiones 23 · likes 0
-- X · Reels policiales: 37 con métricas · mediana vistas/impresiones 35 · likes 0
-- X · Notas web: 107 con métricas · mediana vistas/impresiones 21 · likes 0
+- X · Reels del bot: 80 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Reels policiales: 39 con métricas · mediana vistas/impresiones 35 · likes 0
+- X · Notas web: 107 con métricas · mediana vistas/impresiones 22 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 48 con métricas · mediana vistas/impresiones 303.5 · likes 2
+- TikTok · Reels del bot: 63 con métricas · mediana vistas/impresiones 282 · likes 2
 - TikTok · Reels policiales: 24 con métricas · mediana vistas/impresiones 493 · likes 3.5
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2156 de 3000 (visto 2026-10-25T01:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2155 de 3000 (visto 2026-10-25T02:40:17.000Z)
 
 ## Cola propia (1 esperando)
 - TikTok · Reels del bot · Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
