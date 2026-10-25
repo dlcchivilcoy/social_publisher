@@ -2091,6 +2091,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a3687d6cf6e2ef22.mp4",
    "youtube_url": "https://www.youtube.com/shorts/HZ4B_MuhYCY"
   },
+  "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4": {
+   "descripcion": "El encuentro entre Boca Unidos y Gimnasia y Esgrima de Chivilcoy fue suspendido este domingo 25 de octubre en Corrientes, tras registrarse una explosión en el campo de juego que afectó a futbolistas del conjunto chivilcoyano.\n\nEl hecho ocurrió a los 40 minutos de la primera etapa en el complejo Leoncio Benítez, en el marco de la ida de los octavos de final de la Reválida del Torneo Federal A. Cuando el marcador estaba igualado sin goles, una bomba de estruendo lanzada desde la tribuna ubicada detrás de uno de los arcos afectó a los jugadores Nicolás Dormisch, Mario Dauría, Fausto Fiol y Lucas Samaniego, quienes quedaron tendidos sobre el césped.\n\nLos cuatro deportistas fueron asistidos por los cuerpos médicos de ambos planteles. Pese a que intentaron reincorporarse, permanecieron aturdidos, por lo que tras unos quince minutos dos de ellos debieron ser trasladados en ambulancia hacia un centro de salud. Ante este panorama, el árbitro Fernando Rekers dialogó con los capitanes y resolvió dar por suspendido el cotejo.\n\nMinutos después, desde el Club Gimnasia comunicaron en sus redes oficiales que todos los integrantes de la delegación se encuentran bien. El futuro del partido y la continuidad de la serie quedarán a resolución del Tribunal de Disciplina del Consejo Federal.",
+   "duracion_seg": 25.1,
+   "generado": "2026-10-25T20:47:43.000Z",
+   "id": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
+   "urgente": false,
+   "video_bytes": 5571829,
+   "video_mb": 5.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1fdaf60e7ae6e7b.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/6UOmlfzm0mc"
+  },
   "entrevistas:job00211": {
    "descripcion": "Eva Mussio, del Club de Leones de Chivilcoy, advirtió sobre el fuerte incremento en la demanda alimentaria que enfrentan los comedores y clubes de servicio. Explicó el trabajo solidario que realizan para mitigar el hambre y llevar raciones a quienes lo necesitan.",
    "duracion_seg": null,
@@ -2111,26 +2132,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00211.mp4",
    "youtube_url": "https://youtu.be/vki0e_ffls4"
   },
-  "entrevistas:job00212": {
-   "descripcion": "Mari Pissaco, referente del PTS en Chivilcoy, alertó sobre la difícil situación de los jubilados frente a los aumentos en remedios y el impacto del DNU. Explicó cómo los costos médicos superan los ingresos de la mínima.",
-   "duracion_seg": null,
-   "entrevistado": "Mari Pissaco",
-   "generado": "2026-10-15T18:20:17.000Z",
-   "id": "entrevistas:job00212",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Mari Pissaco: El drama de los medicamentos y las jubilaciones",
-   "urgente": false,
-   "video_bytes": 35792667,
-   "video_mb": 34.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00212.mp4",
-   "youtube_url": "https://youtu.be/5gU-8XHxQ8A"
-  },
   "entrevistas:job00213": {
    "descripcion": "En Chivilcoy, el escritor Alvaro Cortes reflexionó sobre el proceso creativo y la idea de la inspiración artística. Presentó su poemario 'Cuando corten la música' en la Sociedad Francesa.",
    "duracion_seg": null,
@@ -2150,26 +2151,6 @@
    "video_mb": 28.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00213.mp4",
    "youtube_url": "https://youtu.be/dMBiD9yiRg4"
-  },
-  "entrevistas:job00216": {
-   "descripcion": "Karina, artesana de Chivilcoy, contó cómo se animó a pasar de sus miniaturas de porcelana a una escultura en tamaño natural para la muestra de los 35 años de la Feria Artesanal y Cultural en el Museo Pompeo Boggio.",
-   "duracion_seg": null,
-   "entrevistado": "Sofia",
-   "generado": "2026-10-15T18:40:15.000Z",
-   "id": "entrevistas:job00216",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Karina y su desafío en la Feria Artesanal de Chivilcoy",
-   "urgente": false,
-   "video_bytes": 44611187,
-   "video_mb": 42.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00216.mp4",
-   "youtube_url": "https://youtu.be/ub6ultpuslI"
   },
   "entrevistas:job00217": {
    "descripcion": "En Chivilcoy, la ciclista Daniela Ghio explicó que se puede ser competitivo sin gastar de más y recordó que ganó tres años consecutivos el Gran Fondo con bicicleta de aluminio frente a cuadros de carbono.",
@@ -7170,24 +7151,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": {
-   "categoria": "",
-   "descripcion": "El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y Florencio Varela por la Primera División local El Tribunal de Disciplina de la Federación Norte de Fútbol dio a conocer la resolución definitiva sobre el expediente derivado del encuentro suspendido entre el Club Huracán y el Club Florencio Varela, correspondiente a la Primera División del torneo local. Tras evaluar las actuaciones y la documentación remitida, el organismo disciplinario resolvió reprogramar el...",
-   "generado": "2026-10-15T10:07:39.157Z",
-   "id": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b9f1ff849309402fa1bddc3204479972~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-el-tribunal-de-disciplina-determino-la-reprogramacion-del",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y Florencio Varela por la Primera División local",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-el-tribunal-de-disciplina-determino-la-reprogramacion-del",
-   "volanta": "Fútbol"
-  },
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78": {
    "categoria": "",
    "descripcion": "Robaron en un par de comercios de la ciudad: pérdidas económicas y daños materiales En la madrugada del martes 20 de octubre, dos reconocidos locales de la ciudad sufrieron robos bajo modalidades relámpago. Cámaras de seguridad registraron los hechos y los comerciantes apelan a la colaboración ciudadana en medio de una creciente preocupación por el delito. La tranquilidad de la madrugada del martes 20 de octubre se vio drásticamente interrumpida por una serie de hechos delictivos que...",
@@ -7423,24 +7386,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juana-viale-hablo-sobre-la-salud-de-mirtha-legrand-como-sigue-6e5b52",
    "volanta": ""
-  },
-  "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": {
-   "categoria": "",
-   "descripcion": "Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club. Sin descanso, este jueves buscará revalidar el triunfo en el estadio Cincuentenario frente a La Unión. Un gran triunfo racinguista que le permite recuperar el punto que en su casa se le escapó en su partido anterior. VICTORIA CLAVE EN MISIONES En una noche de básquet intenso y de alto nivel,...",
-   "generado": "2026-10-15T10:06:49.588Z",
-   "id": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2f5d398e0a3a40b9b34e5cfa6156f5e9~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquetbol-liga-nacional-racing-de-chivilcoy-piso-fuerte-en-obera-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquetbol-liga-nacional-racing-de-chivilcoy-piso-fuerte-en-obera-y",
-   "volanta": "Basquetbol"
   },
   "web:1abafabb-ff53-4fcd-911c-6a4465fed747": {
    "categoria": "nacionales",
@@ -8322,6 +8267,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
    "volanta": "Juegos Bonaerenses 2026"
+  },
+  "web:3e3abc09-6c21-4ab2-88f6-118e63835441": {
+   "categoria": "",
+   "descripcion": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha El encuentro entre Boca Unidos y Gimnasia y Esgrima de Chivilcoy, correspondiente a la ida de los octavos de final de la Reválida del Torneo Federal A, fue suspendido este domingo en el complejo Leoncio Benítez, en Corrientes. El episodio ocurrió a los 40 minutos de la primera etapa, con el marcador 0 a 0, cuando una bomba de estruendo cayó desde la tribuna ubicada detrás de uno de los arcos. Las explosiones afectaron a...",
+   "generado": "2026-10-25T20:45:28.703Z",
+   "id": "web:3e3abc09-6c21-4ab2-88f6-118e63835441",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a724d1005daa4db4bfb824835150c5c3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "volanta": "Corrientes · Deportes"
   },
   "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": {
    "categoria": "",
@@ -12401,24 +12365,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
    "volanta": ""
   },
-  "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": {
-   "categoria": "",
-   "descripcion": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio El intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave industrial ubicada sobre la Ruta Nacional 5, donde funcionaron Paquetá y posteriormente Bicontinentar, vinculada a la empresa Perchet. Además, se refirió a la situación del Complejo Federación, defendió el convenio propuesto con la firma SENTRA y cuestionó...",
-   "generado": "2026-10-15T14:57:10.098Z",
-   "id": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_09ac30c5a481468599295096a5cf4825~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7": {
    "categoria": "",
    "descripcion": "La Provincia aprobó la “Ley Ema” contra el acoso digital en las escuelas y reguló el uso de celulares en las aulas",
@@ -12575,17 +12521,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 18000,
+   "restantes": 237,
+   "segundos": 16794,
    "tope": 250
   },
   "30d": {
-   "restantes": 2145,
-   "segundos": 1384226,
+   "restantes": 2144,
+   "segundos": 1383020,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T20:40:15.000Z",
+ "cuota_visto": "2026-10-25T21:00:22.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -12627,32 +12573,6 @@
    "vence": "2026-10-17T15:00:49.000Z",
    "video_bytes": 439897,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ac8632662e2ed69.mp4"
-  },
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad135823ccfcf93aab78707",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|tiktok",
-   "creado": "2026-10-15T20:20:15.000Z",
-   "dueAt": "2026-10-15T20:23:58.000Z",
-   "enviado": "2026-10-15T20:24:44.045Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T20:17:43.000Z",
-   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696993003600088326",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Destrozaron la vidriera y robaron en el comercio Aromas\n\nEl local de decoración y regalería Aromas, ubicado en avenida Villarino 369, frente a la Capilla del Carmen, sufrió un robo durante la madrugada de este jueves. Tras romper el ventanal, delincuentes ingresaron y sustrajeron mercadería, una notebook, una pava eléctrica y dinero.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Destrozaron la vidriera y robaron en el comercio Aromas",
-   "urgente": false,
-   "vence": "2026-10-17T20:17:43.000Z",
-   "video_bytes": 1045808,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_38b75cd48882103a.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2|x": {
    "actualizado": "2026-10-16T00:00:24.000Z",
@@ -19279,6 +19199,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a3687d6cf6e2ef22.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok": {
+   "actualizado": "2026-10-25T21:00:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
+   "creado": "2026-10-25T21:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "estado": "pendiente",
+   "generado": "2026-10-25T20:47:43.000Z",
+   "id": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha\n\nUna bomba de estruendo arrojada desde la tribuna afectó a cuatro jugadores del conjunto visitante, obligando al árbitro a dar por finalizado el encuentro en Corrientes luego de que dos de ellos fueran derivados en ambulancia. Más tarde, el Club Gimnasia comunicó en sus redes oficiales que todos los integrantes de su delegación se encuentran bien.\n\nhttps://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
+   "urgente": false,
+   "vence": "2026-10-27T20:47:43.000Z",
+   "video_bytes": 5571829,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1fdaf60e7ae6e7b.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x": {
+   "actualizado": "2026-10-25T21:00:20.000Z",
+   "buffer_id": "6ade6de6bd33ce99c38f1784",
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x",
+   "creado": "2026-10-25T21:00:16.000Z",
+   "dueAt": "2026-10-25T21:02:04.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-25T20:47:43.000Z",
+   "id": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "noticia": "nota:corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha\n\nUna bomba de estruendo afectó a futbolistas del conjunto visitante. El árbitro resolvió suspender el partido y el club comunicó que la delegación se encuentra bien.\n\nhttps://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
+   "urgente": false,
+   "vence": "2026-10-25T22:47:43.000Z",
+   "video_bytes": 5571829,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1fdaf60e7ae6e7b.mp4",
+   "viral": false
+  },
   "entrevistas:job00211|x": {
    "actualizado": "2026-10-15T23:00:19.000Z",
    "buffer_id": "6ad127738fb2c19f54de3683",
@@ -19305,32 +19281,6 @@
    "video_bytes": 23721591,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00211.mp4"
   },
-  "entrevistas:job00212|x": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad119634313e4161eacd058",
-   "clave": "entrevistas:job00212|x",
-   "creado": "2026-10-15T18:20:17.000Z",
-   "dueAt": "2026-10-15T20:15:55.000Z",
-   "enviado": "2026-10-15T20:16:12.705Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T18:20:17.000Z",
-   "id": "entrevistas:job00212",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110827099648876815",
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Mari Pissaco: El drama de los medicamentos y las jubilaciones\n\nMari Pissaco, referente del PTS en Chivilcoy, alertó sobre la difícil situación de los jubilados frente a los aumentos en remedios y el impacto del DNU.\n\n▶️ La entrevista completa: https://youtu.be/5gU-8XHxQ8A",
-   "tipo": "video",
-   "titulo": "Mari Pissaco: El drama de los medicamentos y las jubilaciones",
-   "urgente": false,
-   "vence": "2026-10-17T18:20:17.000Z",
-   "video_bytes": 35792667,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00212.mp4"
-  },
   "entrevistas:job00213|x": {
    "actualizado": "2026-10-15T21:40:16.000Z",
    "buffer_id": "6ad122c602e4efb731a771c7",
@@ -19356,32 +19306,6 @@
    "vence": "2026-10-17T17:40:16.000Z",
    "video_bytes": 29602491,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00213.mp4"
-  },
-  "entrevistas:job00216|x": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad11e114313e4161eadd36d",
-   "clave": "entrevistas:job00216|x",
-   "creado": "2026-10-15T18:40:15.000Z",
-   "dueAt": "2026-10-15T20:30:55.000Z",
-   "enviado": "2026-10-15T20:31:22.775Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T18:40:15.000Z",
-   "id": "entrevistas:job00216",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110830916750745842",
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Karina y su desafío en la Feria Artesanal de Chivilcoy\n\nKarina, artesana de Chivilcoy, contó cómo se animó a pasar de sus miniaturas de porcelana a una escultura en tamaño natural para la muestra de los 35 años de la Feria…\n\n▶️ La entrevista completa: https://youtu.be/ub6ultpuslI",
-   "tipo": "video",
-   "titulo": "Karina y su desafío en la Feria Artesanal de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-17T18:40:15.000Z",
-   "video_bytes": 44611187,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00216.mp4"
   },
   "entrevistas:job00217|x": {
    "actualizado": "2026-10-17T00:20:13.000Z",
@@ -24992,32 +24916,6 @@
    "video_bytes": 102479,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|tiktok": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad106a702634b2d67e5b5f1",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|tiktok",
-   "creado": "2026-10-15T14:00:19.000Z",
-   "dueAt": "2026-10-15T19:23:22.000Z",
-   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
-   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
-   "espera": "",
-   "estado": "error",
-   "generado": "2026-10-15T13:42:33.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-una-camioneta-se-prendio-fuego-por-una-falla-electrica-15daea",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Una camioneta Ford Ranger sufrió daños este miércoles a causa de un principio de incendio sobre la traza urbana.\n\nEl episodio ocurrió en la vía pública, precisamente en la arteria Italia comprendida entre las intersecciones de 12 de Octubre y Del Busto.\n\nEl rodado era manejado por un vecino de la zona identificado como Franco Vullien, de 46 años, quien resultó ileso según el parte oficial.\n\nUna dotación perteneciente al cuerpo de Bomberos Voluntarios de Bragado acudió rápidamente al sector y logró extinguir las llamas antes de que destruyeran por completo la unidad.\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
-   "tipo": "video",
-   "titulo": "Una camioneta sufrió daños totales por una falla eléctrica en Bragado",
-   "urgente": false,
-   "vence": "2026-10-16T07:42:33.000Z",
-   "video_bytes": 79660,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_07_bragado_una-camioneta-sufri-da-os-tota.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x": {
    "actualizado": "2026-10-16T09:00:21.000Z",
    "buffer_id": "",
@@ -28326,32 +28224,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad0ef2f0d345057f7d18a0d",
-   "clave": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "2026-10-15T19:45:42.000Z",
-   "enviado": "2026-10-15T19:45:46.249Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T10:07:39.157Z",
-   "id": "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110819438559723810",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-el-tribunal-de-disciplina-determino-la-reprogramacion-del",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y Florencio Varela por la Primera División local\n\nEl Tribunal de Disciplina de la Federación Norte de Fútbol dio a conocer la resolución definitiva sobre el expediente…\n\nhttps://www.diariolacampaña.com.ar/n/futbol-el-tribunal-de-disciplina-determino-la-reprogramacion-del",
-   "tipo": "nota",
-   "titulo": "El Tribunal de Disciplina determinó la reprogramación del cruce entre Huracán y Florencio Varela por la Primera División local",
-   "urgente": false,
-   "vence": "2026-10-16T10:07:39.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x": {
    "actualizado": "2026-10-21T10:20:57.000Z",
    "buffer_id": "6ad88db07143aca6ab09c059",
@@ -28731,32 +28603,6 @@
    "titulo": "Juana Viale habló sobre la salud de Mirtha Legrand: cómo sigue su recuperación en casa",
    "urgente": false,
    "vence": "2026-10-19T12:36:28.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad0ef304fc2f6b7dbe465cd",
-   "clave": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "2026-10-15T20:00:22.000Z",
-   "enviado": "2026-10-15T20:01:39.299Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T10:06:49.588Z",
-   "id": "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110823435647451388",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquetbol-liga-nacional-racing-de-chivilcoy-piso-fuerte-en-obera-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa\n\nEl conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club.\n\nhttps://www.diariolacampaña.com.ar/n/basquetbol-liga-nacional-racing-de-chivilcoy-piso-fuerte-en-obera-y",
-   "tipo": "nota",
-   "titulo": "Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa",
-   "urgente": false,
-   "vence": "2026-10-16T10:06:49.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -30141,6 +29987,31 @@
    "titulo": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata",
    "urgente": false,
    "vence": "2026-10-21T14:02:34.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x": {
+   "actualizado": "2026-10-25T21:00:16.000Z",
+   "buffer_id": "",
+   "clave": "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x",
+   "creado": "2026-10-25T21:00:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-25T20:45:28.703Z",
+   "id": "web:3e3abc09-6c21-4ab2-88f6-118e63835441",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "noticia": "nota:corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
+   "urgente": false,
+   "vence": "2026-10-26T00:45:28.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -36600,32 +36471,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x": {
-   "actualizado": "2026-10-15T20:40:16.000Z",
-   "buffer_id": "6ad0ea874ed96805c7c1687d",
-   "clave": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b|x",
-   "creado": "2026-10-15T15:00:22.000Z",
-   "dueAt": "2026-10-15T19:30:33.000Z",
-   "enviado": "2026-10-15T19:30:46.293Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T14:57:10.098Z",
-   "id": "web:f60dffe4-816b-4ff3-be02-73d07b38f55b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110815663765758418",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 La Justicia ordenó restituir la nave de Bicontinentar al Municipio\n\nEl intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-la-justicia-ordeno-restituir-la-nave-de",
-   "tipo": "nota",
-   "titulo": "La Justicia ordenó restituir la nave de Bicontinentar al Municipio",
-   "urgente": false,
-   "vence": "2026-10-16T14:57:10.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x": {
    "actualizado": "2026-10-21T11:00:18.000Z",
    "buffer_id": "6ad8920a7bfd13c0fd92c218",
@@ -36882,34 +36727,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
-   "cuando": "2026-10-21T10:20:57.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x",
-   "cuando": "2026-10-21T10:20:57.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112848123085160807"
-  },
-  {
-   "buffer_id": "6ad89209d803b33b75382fa6",
-   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
-   "cuando": "2026-10-21T10:20:58.000Z",
-   "dueAt": "2026-10-21T10:51:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad8920aeeda5396835d94a7",
-   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
-   "cuando": "2026-10-21T10:20:58.000Z",
-   "dueAt": "2026-10-21T11:06:39.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad8920aeeda5396835d94d0",
    "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
@@ -41076,6 +40893,37 @@
    "cuando": "2026-10-25T20:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114452715426197609"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x",
+   "cuando": "2026-10-25T21:00:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
+   "cuando": "2026-10-25T21:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x",
+   "cuando": "2026-10-25T21:00:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ade6de6bd33ce99c38f1784",
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x",
+   "cuando": "2026-10-25T21:00:22.000Z",
+   "dueAt": "2026-10-25T21:02:04.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41218,6 +41066,7 @@
   "bot:video_matias-zucchi_mvllmur3yyre_01.mp4": "2026-10-23T23:40:15.000Z",
   "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4": "2026-10-24T09:00:20.000Z",
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": "2026-10-24T23:00:21.000Z",
+  "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4": "2026-10-25T21:00:16.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -41585,6 +41434,7 @@
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
   "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": "2026-10-21T10:20:15.000Z",
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
+  "web:3e3abc09-6c21-4ab2-88f6-118e63835441": "2026-10-25T21:00:16.000Z",
   "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": "2026-10-20T10:20:14.000Z",
   "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc": "2026-10-21T10:20:15.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
