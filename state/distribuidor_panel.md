@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 6 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 6 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,9 +27,10 @@ Actualizado: 25/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2147 de 3000 (visto 2026-10-25T17:00:18.000Z)
+15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2146 de 3000 (visto 2026-10-25T20:20:25.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (7 esperando)
+- TikTok · Reels del bot · Los ganadores de la octava fecha del Rally de Chivilcoy — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
 - TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -47,10 +48,6 @@ Actualizado: 25/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Una camioneta sufrió daños totales por una falla eléctrica en Bragado — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
-- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tikto 
-- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
-- 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tikto 
 - 2026-10-25T14:20 recibido web:23a74d83-2170-4408-abe4-23838297e05f|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-25T14:20 recibido web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-25T14:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
@@ -72,3 +69,7 @@ Actualizado: 25/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
 - 2026-10-25T17:00 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
 - 2026-10-25T17:00 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
+- 2026-10-25T20:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x 
+- 2026-10-25T20:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tikto 
+- 2026-10-25T20:20 recibido web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-25T20:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x 
