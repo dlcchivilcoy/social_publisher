@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": {
-   "descripcion": "De cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus pasos.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-15T13:17:11.000Z",
-   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
-   "urgente": false,
-   "video_bytes": 298090,
-   "video_mb": 0.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/xSy1loDxK9s"
-  },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9": {
    "descripcion": "El intendente de Chivilcoy, Guillermo Britos, informó que la Justicia hizo lugar a una medida cautelar solicitada por la Municipalidad para recuperar la posesión de la nave industrial ubicada sobre la Ruta Nacional 5, donde funcionaron Paquetá y posteriormente Bicontinentar.",
    "duracion_seg": 30.0,
@@ -12835,32 +12814,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok": {
-   "actualizado": "2026-10-15T18:00:22.000Z",
-   "buffer_id": "6ad0f89b1fb40d4b0cc44cfb",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4|tiktok",
-   "creado": "2026-10-15T13:20:17.000Z",
-   "dueAt": "2026-10-15T17:23:22.000Z",
-   "enviado": "2026-10-15T17:25:14.179Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T13:17:11.000Z",
-   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696946525720743188",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-confirmo-contactos-con-otros-espacios-para",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Britos confirmó contactos con otros espacios para su futuro político\n\nDe cara al cierre de su tercer mandato como intendente en 2027, Guillermo Britos aseguró que recibió llamados y ofrecimientos para sumarse a otros espacios políticos. El jefe comunal señaló que esperará a conocer las reglas electorales y los candidatos antes de definir sus pasos.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Britos confirmó contactos con otros espacios para su futuro político",
-   "urgente": false,
-   "vence": "2026-10-17T13:17:11.000Z",
-   "video_bytes": 298090,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec1f0ebe9462997e.mp4"
-  },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9|x": {
    "actualizado": "2026-10-15T23:00:19.000Z",
    "buffer_id": "6ad127728fb2c19f54de363c",
