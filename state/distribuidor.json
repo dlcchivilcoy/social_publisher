@@ -28952,14 +28952,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x": {
-   "actualizado": "2026-10-25T00:20:13.000Z",
+   "actualizado": "2026-10-25T02:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x",
    "creado": "2026-10-25T00:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-25T00:01:59.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/",
    "intentos": 0,
@@ -39084,14 +39084,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:4ce13bf44cf7dbc5|x",
-   "cuando": "2026-10-21T01:00:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "dura 905 s y X admite 140 s sin suscripción",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:4ce13bf44cf7dbc5|tiktok",
    "cuando": "2026-10-21T01:00:18.000Z",
    "estado": "descartado",
@@ -43273,6 +43265,12 @@
    "cuando": "2026-10-25T01:40:14.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7700393778057579782"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x",
+   "cuando": "2026-10-25T02:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
