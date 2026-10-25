@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 14
+    "scheduled": 0,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-25T00:20:15.000Z"
+   "visto": "2026-10-25T01:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-25T00:20:15.000Z"
+   "visto": "2026-10-25T01:40:14.000Z"
   }
  },
  "contenidos": {
@@ -13507,17 +13507,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 217,
-   "segundos": 2405,
+   "restantes": 249,
+   "segundos": 86400,
    "tope": 250
   },
   "30d": {
-   "restantes": 2157,
-   "segundos": 1457425,
+   "restantes": 2156,
+   "segundos": 1452626,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T00:20:18.000Z",
+ "cuota_visto": "2026-10-25T01:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13527,10 +13527,10 @@
  },
  "pausas": {
   "tiktok": {
-   "hasta": "2026-10-26T00:03:07.000Z",
-   "medido": "2026-10-25T00:03:07.000Z",
-   "motivo": "TikTok pidió esperar 24 h (salieron 15 en las 24 h previas)",
-   "tope_medido": 14
+   "hasta": "2026-10-26T01:23:00.000Z",
+   "medido": "2026-10-25T00:43:54.000Z",
+   "motivo": "TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "tope_medido": 13
   }
  },
  "publicaciones": {
@@ -13689,32 +13689,6 @@
    "vence": "2026-10-17T00:26:56.000Z",
    "video_bytes": 398958,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c294e615eb8422bd.mp4"
-  },
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok": {
-   "actualizado": "2026-10-15T01:40:15.000Z",
-   "buffer_id": "6ad02a4f5f62d3c5af1441ed",
-   "clave": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|tiktok",
-   "creado": "2026-10-15T00:40:14.000Z",
-   "dueAt": "2026-10-15T01:23:56.000Z",
-   "enviado": "2026-10-15T01:24:42.886Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T00:34:12.000Z",
-   "id": "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7696699264440732949",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/obera-deportes-racing-de-chivilcoy-vencio-a-obera-tenis-club-por-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional\n\nBásquetbol. Liga Nacional: Racing de Chivilcoy pisó fuerte en Oberá y ya piensa en La Unión de Formosa. El conjunto dirigido por Diego D'Ambrosio festejó en Misiones tras imponerse por 84 a 78 sobre Oberá Tenis Club. Sin descanso, este jueves buscará revalidar el triunfo.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Racing de Chivilcoy venció a Oberá Tenis Club por la Liga Nacional",
-   "urgente": false,
-   "vence": "2026-10-17T00:34:12.000Z",
-   "video_bytes": 724537,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e98115b31bf0afce.mp4"
   },
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr|x": {
    "actualizado": "2026-10-15T10:20:16.000Z",
@@ -16025,7 +15999,7 @@
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 15 en las 24 h previas)",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
    "estado": "pendiente",
    "generado": "2026-10-23T13:00:49.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
@@ -16071,15 +16045,16 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok": {
-   "actualizado": "2026-10-25T00:00:19.000Z",
+   "actualizado": "2026-10-25T01:40:14.000Z",
    "buffer_id": "6add46976887a2efc1de470c",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok",
    "creado": "2026-10-23T13:20:15.000Z",
    "dueAt": "2026-10-25T01:23:00.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-23T13:14:38.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9",
    "intentos": 0,
@@ -16136,15 +16111,16 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok": {
-   "actualizado": "2026-10-25T00:00:19.000Z",
+   "actualizado": "2026-10-25T01:40:14.000Z",
    "buffer_id": "6add46978b3d437ddce30de9",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
    "creado": "2026-10-23T13:40:14.000Z",
    "dueAt": "2026-10-25T01:03:08.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-23T13:24:16.000Z",
    "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01",
    "intentos": 0,
@@ -16551,15 +16527,16 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok": {
-   "actualizado": "2026-10-25T00:00:19.000Z",
+   "actualizado": "2026-10-25T01:40:14.000Z",
    "buffer_id": "6add4696e4be8a4d86821ffd",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok",
    "creado": "2026-10-24T16:20:14.000Z",
    "dueAt": "2026-10-25T00:43:54.000Z",
-   "error": "",
+   "error": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.",
+   "error_crudo": "Failed to create media container for tiktok: Failed to post tiktok video: Failed to post tiktok video: This TikTok creator has made too many posts via OpenAPI in the last 24 hours, so this publishing attempt is blocked to minimize spam. The user can try again later or publish it in the mobile app in",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-24T16:05:55.000Z",
    "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9",
    "intentos": 0,
@@ -17043,14 +17020,14 @@
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x": {
-   "actualizado": "2026-10-24T23:40:14.000Z",
+   "actualizado": "2026-10-25T01:40:14.000Z",
    "buffer_id": "",
    "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
    "creado": "2026-10-24T23:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-24T23:37:09.000Z",
    "id": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4",
    "intentos": 0,
@@ -19868,19 +19845,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok": {
-   "actualizado": "2026-10-25T00:00:19.000Z",
+   "actualizado": "2026-10-25T01:40:14.000Z",
    "buffer_id": "6add4695bd33ce99c3492c7c",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
    "creado": "2026-10-24T23:00:21.000Z",
    "dueAt": "2026-10-25T00:23:23.000Z",
+   "enviado": "2026-10-25T00:25:13.401Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-24T22:41:56.000Z",
    "id": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700393778057579782",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -39106,67 +39084,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
-   "cuando": "2026-10-21T00:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|x",
-   "cuando": "2026-10-21T00:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|tiktok",
-   "cuando": "2026-10-21T00:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:d6abc04f-5ec6-4b07-8f51-5bccc93205ef|x",
-   "cuando": "2026-10-21T00:40:24.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ba897d31-ac41-4f84-8f0c-c7ed0f8e504d|x",
-   "cuando": "2026-10-21T00:40:24.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad809faaff466fe09f48289",
-   "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|x",
-   "cuando": "2026-10-21T00:40:27.000Z",
-   "dueAt": "2026-10-21T00:42:57.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad809fad894396f66bb4b92",
-   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|x",
-   "cuando": "2026-10-21T00:40:27.000Z",
-   "dueAt": "2026-10-21T00:48:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad809fb9fdbc474fbf3010a",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|x",
-   "cuando": "2026-10-21T00:40:27.000Z",
-   "dueAt": "2026-10-21T00:53:48.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "nacionales:4ce13bf44cf7dbc5|x",
    "cuando": "2026-10-21T01:00:18.000Z",
    "estado": "descartado",
@@ -43305,6 +43222,57 @@
    "cuando": "2026-10-25T01:20:14.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok",
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
+  },
+  {
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-26T01:23:00.000Z",
+   "red": "tiktok",
+   "tope": 13
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
+  },
+  {
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-26T01:23:00.000Z",
+   "red": "tiktok",
+   "tope": 13
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok",
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "error_publicacion",
+   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
+  },
+  {
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "pausa_red",
+   "hasta": "2026-10-26T01:23:00.000Z",
+   "red": "tiktok",
+   "tope": 13
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
+   "cuando": "2026-10-25T01:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700393778057579782"
   }
  ],
  "tandas": {
@@ -43329,7 +43297,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-25",
- "ultima_sync": "2026-10-25T00:20:15.000Z",
+ "ultima_sync": "2026-10-25T01:40:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
