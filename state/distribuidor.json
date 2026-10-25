@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-25T15:40:19.000Z"
+   "visto": "2026-10-25T17:00:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 15
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-10-25T15:40:19.000Z"
+   "visto": "2026-10-25T17:00:16.000Z"
   }
  },
  "contenidos": {
@@ -12827,22 +12827,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 241,
-   "segundos": 35995,
+   "restantes": 240,
+   "segundos": 31198,
    "tope": 250
   },
   "30d": {
-   "restantes": 2148,
-   "segundos": 1402221,
+   "restantes": 2147,
+   "segundos": 1397423,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T15:40:21.000Z",
+ "cuota_visto": "2026-10-25T17:00:18.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -16528,18 +16528,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x": {
-   "actualizado": "2026-10-25T15:40:19.000Z",
+   "actualizado": "2026-10-25T17:00:16.000Z",
    "buffer_id": "6ade22e48b3d437ddc14d885",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x",
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "2026-10-25T15:42:59.000Z",
+   "enviado": "2026-10-25T15:43:05.873Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T15:22:33.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114382246853435739",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-el-centro-criollo-el-bozal-cumple-50-anos-y-prepara",
    "noticia": "nota:chivilcoy-cultura-el-centro-criollo-el-bozal-cumple-50-anos-y-prepara",
    "origen": "bot",
@@ -16584,18 +16585,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x": {
-   "actualizado": "2026-10-25T15:40:19.000Z",
+   "actualizado": "2026-10-25T17:00:16.000Z",
    "buffer_id": "6ade22e5e4be8a4d86b3feef",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x",
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "2026-10-25T15:48:19.000Z",
+   "enviado": "2026-10-25T15:48:34.416Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T15:30:32.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114383624908726714",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gastronomia-domingo-pastas-representara-a-chivilcoy-en-la",
    "noticia": "nota:chivilcoy-gastronomia-domingo-pastas-representara-a-chivilcoy-en-la",
    "origen": "bot",
@@ -37559,22 +37561,6 @@
  },
  "registro": [
   {
-   "clave": "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7|x",
-   "cuando": "2026-10-21T10:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
-   "cuando": "2026-10-21T10:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:0ae2afb6-52d2-4336-b9c9-318dc164617e|x",
    "cuando": "2026-10-21T10:20:37.000Z",
    "estado": "pendiente",
@@ -41759,6 +41745,18 @@
    "cuando": "2026-10-25T15:40:21.000Z",
    "dueAt": "2026-10-25T15:48:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x",
+   "cuando": "2026-10-25T17:00:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114382246853435739"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x",
+   "cuando": "2026-10-25T17:00:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114383624908726714"
   }
  ],
  "tandas": {
@@ -41783,7 +41781,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-25",
- "ultima_sync": "2026-10-25T15:40:19.000Z",
+ "ultima_sync": "2026-10-25T17:00:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · ⏸ EN PAUSA hasta 25/10 22:23 · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,7 @@ Actualizado: 25/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 241 de 250 · 30d: quedan 2148 de 3000 (visto 2026-10-25T15:40:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2147 de 3000 (visto 2026-10-25T17:00:18.000Z)
 
 ## Cola propia (6 esperando)
 - TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -48,8 +48,6 @@ Actualizado: 25/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Hallan muerto a un jubilado de 78 años y detienen a un sospechoso de 2 — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T13:20 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
-- 2026-10-25T13:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x 
 - 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x 
 - 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tikto 
 - 2026-10-25T14:20 recibido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x 
@@ -73,3 +71,5 @@ Actualizado: 25/10/2026 13:40 (hora AR) · ACTIVO
 - 2026-10-25T15:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 
 - 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
 - 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
+- 2026-10-25T17:00 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
+- 2026-10-25T17:00 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
