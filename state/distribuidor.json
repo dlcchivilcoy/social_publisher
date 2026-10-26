@@ -7306,24 +7306,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
    "volanta": ""
   },
-  "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": {
-   "categoria": "nacionales",
-   "descripcion": "La Administración Nacional de la Seguridad Social efectiviza este jueves los pagos de jubilaciones, pensiones y asignaciones con un incremento del 1,66% y…",
-   "generado": "2026-10-15T12:36:48.958Z",
-   "id": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7bbc017467d84d3cae6bf60dd4af3390~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-montos-aumento-y-calendario-de-pagos-para-este-jueves-15-e48071",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2026",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/anses-montos-aumento-y-calendario-de-pagos-para-este-jueves-15-e48071",
-   "volanta": ""
-  },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af": {
    "categoria": "",
    "descripcion": "Llega a Chivilcoy “La hermana infame”: una mirada descarnada sobre los recuerdos y los lazos familiares La cartelera teatral local suma una destacada propuesta dramática. El próximo domingo 25 de octubre a las 19:00 horas, el público chivilcoyano podrá disfrutar de “La hermana infame”, una obra escrita por el reconocido dramaturgo Sebastián Suñé, bajo la dirección de Elena Acuña y la actuación unipersonal de Gilda Scarpetta. La historia gira en torno a Gilda, quien decide homenajear a su...",
@@ -12684,17 +12666,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 84029,
+   "restantes": 246,
+   "segundos": 46822,
    "tope": 250
   },
   "30d": {
-   "restantes": 2136,
-   "segundos": 1362624,
+   "restantes": 2135,
+   "segundos": 1325417,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T02:40:16.000Z",
+ "cuota_visto": "2026-10-26T13:00:28.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -15827,7 +15809,7 @@
    "creado": "2026-10-25T13:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-25T13:06:49.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
@@ -15892,7 +15874,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-25T14:03:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
@@ -15957,7 +15939,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-25T14:11:09.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
@@ -16022,7 +16004,7 @@
    "creado": "2026-10-25T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-25T14:26:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
@@ -16087,7 +16069,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-25T15:22:33.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l",
@@ -16152,7 +16134,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-25T15:30:32.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw",
@@ -16210,15 +16192,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok": {
-   "actualizado": "2026-10-25T20:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T13:00:20.000Z",
+   "buffer_id": "6adf4eeb1af33188f8df8e45",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok",
    "creado": "2026-10-25T20:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T14:23:24.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-25T20:13:48.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2",
    "intentos": 0,
@@ -16275,15 +16257,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok": {
-   "actualizado": "2026-10-26T02:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T13:00:20.000Z",
+   "buffer_id": "6adf4ee875610ee6069f1ecb",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok",
    "creado": "2026-10-26T02:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T13:03:02.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T01:57:29.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj",
    "intentos": 0,
@@ -19258,15 +19240,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok": {
-   "actualizado": "2026-10-25T21:00:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T13:00:20.000Z",
+   "buffer_id": "6adf4eeb2cad517d9eff2901",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
    "creado": "2026-10-25T21:00:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T14:03:07.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-25T20:47:43.000Z",
    "id": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4",
    "intentos": 0,
@@ -19323,15 +19305,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok": {
-   "actualizado": "2026-10-26T00:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T13:00:20.000Z",
+   "buffer_id": "6adf4eea19b3b1f093a917c7",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
    "creado": "2026-10-26T00:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T13:43:42.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T00:38:37.000Z",
    "id": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4",
    "intentos": 0,
@@ -19388,15 +19370,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok": {
-   "actualizado": "2026-10-26T02:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T13:00:20.000Z",
+   "buffer_id": "6adf4ee9e09544fe900e78e9",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok",
    "creado": "2026-10-26T02:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T13:23:55.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T01:47:27.000Z",
    "id": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4",
    "intentos": 0,
@@ -23879,42 +23861,6 @@
    "video_bytes": 86885,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_01_san-antonio-de-areco_sufri-su-d-cimo-robo-la-cooper.mp4",
    "viral": false
-  },
-  "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok": {
-   "actualizado": "2026-10-16T12:40:15.000Z",
-   "buffer_id": "6ad20873f24c5797a237fb3c",
-   "clave": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|tiktok",
-   "creado": "2026-10-16T09:00:20.000Z",
-   "dueAt": "2026-10-16T12:03:42.000Z",
-   "enviado": "2026-10-16T12:05:55.256Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T02:41:51.000Z",
-   "id": "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697235245464096016",
-   "metricas": {
-    "averageTimeWatched": 4.06,
-    "comments": 0,
-    "engagementRate": 0.41,
-    "reach": 0,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 36.35,
-    "views": 491
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-chocaron-la-camioneta-estacionada-la-dejaron-1508d2",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Una vecina de Chacabuco se llevó una desagradable sorpresa al descubrir que su camioneta Ford Territory tenía la dirección completamente rota tras recibir un fuerte impacto.\n\nEl violento episodio vial sucedió en la intersección de las calles San Luis y Belgrano.\n\nEl rodado que provocó los daños sería de color gris y de diseño redondeado, según indicaron los datos preliminares del caso.\n\nLa damnificada solicita que el automovilista se presente por sus propios medios para evitar la difusión de las imágenes registradas por las cámaras de seguridad de la zona.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "tipo": "video",
-   "titulo": "Le chocaron la camioneta estacionada y escaparon",
-   "urgente": false,
-   "vence": "2026-10-16T20:41:51.000Z",
-   "video_bytes": 119138,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0239_02_chacabuco_le-chocaron-la-camioneta-estac.mp4"
   },
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida|x": {
    "actualizado": "2026-10-16T14:00:22.000Z",
@@ -28614,30 +28560,6 @@
    "titulo": "El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina",
    "urgente": false,
    "vence": "2026-10-18T10:03:06.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x": {
-   "actualizado": "2026-10-16T12:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d|x",
-   "creado": "2026-10-15T12:40:15.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T12:36:48.958Z",
-   "id": "web:1c71e481-4fa9-41df-8f32-fdda04fa980d",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-montos-aumento-y-calendario-de-pagos-para-este-jueves-15-e48071",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2026\n\nLa Administración Nacional de la Seguridad Social efectiviza este jueves los pagos de jubilaciones, pensiones y asignaciones con un incremento del 1,66% y…\n\nhttps://www.diariolacampaña.com.ar/n/anses-montos-aumento-y-calendario-de-pagos-para-este-jueves-15-e48071",
-   "tipo": "nota",
-   "titulo": "ANSES: montos, aumento y calendario de pagos para este jueves 15 de octubre de 2026",
-   "urgente": false,
-   "vence": "2026-10-16T12:36:48.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -37082,46 +37004,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
-   "cuando": "2026-10-22T00:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|tiktok",
-   "cuando": "2026-10-22T00:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
-   "cuando": "2026-10-22T00:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok",
-   "cuando": "2026-10-22T00:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "nacionales:89b6dd1b304f6c4e|x",
-   "cuando": "2026-10-22T00:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:89b6dd1b304f6c4e|tiktok",
    "cuando": "2026-10-22T00:20:25.000Z",
    "estado": "pendiente",
@@ -41325,6 +41207,41 @@
    "cuando": "2026-10-26T12:06:20.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "buffer_id": "6adf4ee875610ee6069f1ecb",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok",
+   "cuando": "2026-10-26T13:00:28.000Z",
+   "dueAt": "2026-10-26T13:03:02.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adf4ee9e09544fe900e78e9",
+   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok",
+   "cuando": "2026-10-26T13:00:28.000Z",
+   "dueAt": "2026-10-26T13:23:55.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adf4eea19b3b1f093a917c7",
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
+   "cuando": "2026-10-26T13:00:28.000Z",
+   "dueAt": "2026-10-26T13:43:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adf4eeb2cad517d9eff2901",
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
+   "cuando": "2026-10-26T13:00:28.000Z",
+   "dueAt": "2026-10-26T14:03:07.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adf4eeb1af33188f8df8e45",
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok",
+   "cuando": "2026-10-26T13:00:28.000Z",
+   "dueAt": "2026-10-26T14:23:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41345,7 +41262,8 @@
    "2026-10-23 21",
    "2026-10-24 10",
    "2026-10-24 18",
-   "2026-10-24 21"
+   "2026-10-24 21",
+   "2026-10-26 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
