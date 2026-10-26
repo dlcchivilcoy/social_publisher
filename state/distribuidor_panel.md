@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 34 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,10 +27,11 @@ Actualizado: 26/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 236 de 250 · 30d: quedan 2125 de 3000 (visto 2026-10-26T17:40:26.000Z)
+15m: quedan 98 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2123 de 3000 (visto 2026-10-26T18:20:16.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (14 esperando)
 - TikTok · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Lorena D'Amico: bienestar real más allá del 90-60-90 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Biaus Sanguineti: el Municipio no sabe los km de caminos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,13 +53,6 @@ Actualizado: 26/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T14:40 enviado bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok 
-- 2026-10-26T15:20 recibido bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
-- 2026-10-26T15:20 recibido bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok 
-- 2026-10-26T15:20 recibido web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-26T15:20 programado bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
-- 2026-10-26T15:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x 
-- 2026-10-26T16:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x 
 - 2026-10-26T16:00 enviado bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
 - 2026-10-26T16:40 entrevista_aprobada entrevistas:job00248 
 - 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
@@ -77,3 +71,10 @@ Actualizado: 26/10/2026 15:00 (hora AR) · ACTIVO
 - 2026-10-26T17:40 recibido entrevistas:job00250|x 
 - 2026-10-26T17:40 recibido entrevistas:job00250|tiktok 
 - 2026-10-26T17:40 programado entrevistas:job00250|x 
+- 2026-10-26T18:20 entrevista_aprobada entrevistas:job00251 
+- 2026-10-26T18:20 recibido entrevistas:job00251|x 
+- 2026-10-26T18:20 recibido entrevistas:job00251|tiktok 
+- 2026-10-26T18:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
+- 2026-10-26T18:20 enviado entrevistas:job00249|x 
+- 2026-10-26T18:20 enviado entrevistas:job00250|x 
+- 2026-10-26T18:20 programado entrevistas:job00251|x 

@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-26T17:00:29.000Z"
+   "visto": "2026-10-26T18:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 11
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-10-26T17:00:29.000Z"
+   "visto": "2026-10-26T18:20:15.000Z"
   }
  },
  "contenidos": {
@@ -2796,6 +2796,27 @@
    "video_mb": 28.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
    "youtube_url": "https://youtu.be/CYYoo7wurUU"
+  },
+  "entrevistas:job00251": {
+   "descripcion": "Lorena Ghinzani, referente de la Escuela Secundaria N° 8 de Chivilcoy, destacó las producciones musicales de los estudiantes de sexto año que recrearon el Himno Nacional y el Canto a Chivilcoy.",
+   "duracion_seg": null,
+   "entrevistado": "Lorena Ghinzani",
+   "generado": "2026-10-26T18:20:14.000Z",
+   "id": "entrevistas:job00251",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani",
+   "urgente": false,
+   "video_bytes": 28534886,
+   "video_mb": 27.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00251.mp4",
+   "youtube_url": "https://youtu.be/A--qcobs0CY"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -11664,24 +11685,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gira-federal-de-pla-recorrio-seis-provincias-con-su-nueva-8b34b2",
    "volanta": ""
   },
-  "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": {
-   "categoria": "nacionales",
-   "descripcion": "El oficialismo frenó la sesión especial convocada para rechazar el mega decreto gracias a las ausencias de legisladores que responden a gobernadores…",
-   "generado": "2026-10-15T18:06:25.288Z",
-   "id": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_fe1d2fca423548e692a592789040f301~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogación del DNU 70",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
-   "volanta": ""
-  },
   "web:dd86062e-10d5-470e-a60e-27533841a020": {
    "categoria": "",
    "descripcion": "Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira triunfal La ciudad se prepara para vivir un fin de semana a puro básquet de máxima jerarquía. Luego de una exigente y exitosa gira por el norte del país, donde cosechó valiosas victorias en escenarios complejos frente a Oberá Tenis Club en Misiones y La Unión de Formosa, Racing de Chivilcoy regresa a su casa con el objetivo de consolidar su gran momento en la Liga Nacional. El estadio Grilón Arena volverá a abrir...",
@@ -12368,22 +12371,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 236,
-   "segundos": 30020,
+   "restantes": 234,
+   "segundos": 27629,
    "tope": 250
   },
   "30d": {
-   "restantes": 2125,
-   "segundos": 1308615,
+   "restantes": 2123,
+   "segundos": 1306225,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T17:40:26.000Z",
+ "cuota_visto": "2026-10-26T18:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -16139,18 +16142,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x": {
-   "actualizado": "2026-10-26T17:00:29.000Z",
+   "actualizado": "2026-10-26T18:20:15.000Z",
    "buffer_id": "6adf872efd915805681eb270",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
    "creado": "2026-10-26T16:40:17.000Z",
    "dueAt": "2026-10-26T17:02:44.000Z",
+   "enviado": "2026-10-26T17:07:27.018Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T16:27:37.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114765862779392223",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
    "noticia": "nota:chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
    "origen": "bot",
@@ -20470,18 +20474,19 @@
    "viral": false
   },
   "entrevistas:job00249|x": {
-   "actualizado": "2026-10-26T17:00:29.000Z",
+   "actualizado": "2026-10-26T18:20:15.000Z",
    "buffer_id": "6adf872f79c317817cfe982f",
    "clave": "entrevistas:job00249|x",
    "creado": "2026-10-26T17:00:18.000Z",
    "dueAt": "2026-10-26T17:08:20.000Z",
+   "enviado": "2026-10-26T17:08:40.307Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T17:00:18.000Z",
    "id": "entrevistas:job00249",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114766170146439335",
    "nota_url": "",
    "noticia": "titulo:biaus-caminos-municipio-sabe-sanguineti",
    "origen": "entrevistas",
@@ -20526,18 +20531,19 @@
    "viral": false
   },
   "entrevistas:job00250|x": {
-   "actualizado": "2026-10-26T17:40:25.000Z",
+   "actualizado": "2026-10-26T18:20:15.000Z",
    "buffer_id": "6adf90895ca6f486414671ab",
    "clave": "entrevistas:job00250|x",
    "creado": "2026-10-26T17:40:14.000Z",
    "dueAt": "2026-10-26T17:42:29.000Z",
+   "enviado": "2026-10-26T17:42:40.029Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T17:40:14.000Z",
    "id": "entrevistas:job00250",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114774725373083985",
    "nota_url": "",
    "noticia": "titulo:alla-amico-bienestar-lorena-real",
    "origen": "entrevistas",
@@ -20551,6 +20557,62 @@
    "vence": "2026-10-26T19:40:14.000Z",
    "video_bytes": 29440033,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
+   "viral": false
+  },
+  "entrevistas:job00251|tiktok": {
+   "actualizado": "2026-10-26T18:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00251|tiktok",
+   "creado": "2026-10-26T18:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T18:20:14.000Z",
+   "id": "entrevistas:job00251",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani\n\nLorena Ghinzani, referente de la Escuela Secundaria N° 8 de Chivilcoy, destacó las producciones musicales de los estudiantes de sexto año que recrearon el Himno Nacional y el Canto a Chivilcoy.\n\nhttps://youtu.be/A--qcobs0CY\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani",
+   "urgente": false,
+   "vence": "2026-10-28T18:20:14.000Z",
+   "video_bytes": 28534886,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00251.mp4",
+   "viral": false
+  },
+  "entrevistas:job00251|x": {
+   "actualizado": "2026-10-26T18:20:15.000Z",
+   "buffer_id": "6adf99e0188ed7b87267b2a9",
+   "clave": "entrevistas:job00251|x",
+   "creado": "2026-10-26T18:20:14.000Z",
+   "dueAt": "2026-10-26T18:22:58.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T18:20:14.000Z",
+   "id": "entrevistas:job00251",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alumnos-chivilcoy-ghinzani-graban-himnos-lorena",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani\n\nLorena Ghinzani, referente de la Escuela Secundaria N° 8 de Chivilcoy, destacó las producciones musicales de los estudiantes de sexto año que recrearon el Himno Nacional y el Canto a Chivilcoy.\n\nhttps://youtu.be/A--qcobs0CY",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani",
+   "urgente": false,
+   "vence": "2026-10-26T20:20:14.000Z",
+   "video_bytes": 28534886,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00251.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -35062,30 +35124,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x": {
-   "actualizado": "2026-10-16T18:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e|x",
-   "creado": "2026-10-15T18:20:17.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T18:06:25.288Z",
-   "id": "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogación del DNU 70\n\nEl oficialismo frenó la sesión especial convocada para rechazar el mega decreto gracias a las ausencias de legisladores que responden a gobernadores…\n\nhttps://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
-   "tipo": "nota",
-   "titulo": "Diputados: la oposición no alcanzó el quórum y el oficialismo frenó la derogación del DNU 70",
-   "urgente": false,
-   "vence": "2026-10-16T18:06:25.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:dd86062e-10d5-470e-a60e-27533841a020|x": {
    "actualizado": "2026-10-23T12:40:19.000Z",
    "buffer_id": "6adb42eec3741d7d48c81b9a",
@@ -36173,60 +36211,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
-   "cuando": "2026-10-22T09:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x",
-   "cuando": "2026-10-22T10:02:36.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be|x",
-   "cuando": "2026-10-22T10:02:40.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f86f8375-5d60-4a7c-9520-9169b60938a8|x",
-   "cuando": "2026-10-22T10:02:48.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6fd91d62-6af9-4582-8ddd-55770c943c13|x",
-   "cuando": "2026-10-22T10:03:00.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
-   "cuando": "2026-10-22T10:03:09.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
-   "cuando": "2026-10-22T10:03:11.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
    "cuando": "2026-10-22T10:03:20.000Z",
@@ -40410,6 +40394,52 @@
    "cuando": "2026-10-26T17:40:26.000Z",
    "dueAt": "2026-10-26T17:42:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00251",
+   "cuando": "2026-10-26T18:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00251|x",
+   "cuando": "2026-10-26T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00251|tiktok",
+   "cuando": "2026-10-26T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
+   "cuando": "2026-10-26T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114765862779392223"
+  },
+  {
+   "clave": "entrevistas:job00249|x",
+   "cuando": "2026-10-26T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114766170146439335"
+  },
+  {
+   "clave": "entrevistas:job00250|x",
+   "cuando": "2026-10-26T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114774725373083985"
+  },
+  {
+   "buffer_id": "6adf99e0188ed7b87267b2a9",
+   "clave": "entrevistas:job00251|x",
+   "cuando": "2026-10-26T18:20:16.000Z",
+   "dueAt": "2026-10-26T18:22:58.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40435,7 +40465,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
- "ultima_sync": "2026-10-26T17:00:29.000Z",
+ "ultima_sync": "2026-10-26T18:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -40610,6 +40640,7 @@
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
+  "entrevistas:job00251": "2026-10-26T18:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
