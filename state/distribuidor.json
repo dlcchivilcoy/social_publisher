@@ -2070,6 +2070,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1fdaf60e7ae6e7b.mp4",
    "youtube_url": "https://www.youtube.com/shorts/6UOmlfzm0mc"
   },
+  "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4": {
+   "descripcion": "La obra teatral «Habladurías», escrita y protagonizada por Memi Mesplet junto a Sebastián Bravo, cerró su primera temporada de presentaciones en el espacio CasaVieja San Luis.\n\nLa puesta en escena ofreció una propuesta innovadora para la ciudad, ya que se trató de un espectáculo de improvisación donde los diálogos y las acciones fueron cambiando de manera constante función a función. Previamente a su llegada a la cartelera local, la producción había formado parte del festival de improvisación de Pergamino.\n\nDurante todo el ciclo, cada función sumó a diferentes artistas invitados para enriquecer la dinámica de la obra. En esta última velada, participaron Juan Bayona y Fernando Burgueño, quienes aportaron sus improntas a la propuesta artística sobre el escenario.",
+   "duracion_seg": 72.8,
+   "generado": "2026-10-26T00:38:37.000Z",
+   "id": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
+   "urgente": false,
+   "video_bytes": 5797128,
+   "video_mb": 5.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0acd567dc7b71c65.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/O8LYekz8MMg"
+  },
   "entrevistas:job00217": {
    "descripcion": "En Chivilcoy, la ciclista Daniela Ghio explicó que se puede ser competitivo sin gastar de más y recordó que ganó tres años consecutivos el Gran Fondo con bicicleta de aluminio frente a cuadros de carbono.",
    "duracion_seg": null,
@@ -8734,24 +8755,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/piden-un-exhorto-a-suiza-para-investigar-transferencias-de-la-9e789b",
    "volanta": ""
   },
-  "web:65614571-f714-4991-a75b-bc27850d9de1": {
-   "categoria": "",
-   "descripcion": "Investigan un posible femicidio tras un choque fatal en la Ruta 5 Aquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La Justicia investiga el hecho como un presunto femicidio, tras confirmarse que el conductor del vehículo en el que viajaba la víctima fatal era su expareja y tenía una orden judicial vigente de restricción de acercamiento. El episodio tuvo lugar el pasado lunes a la altura...",
-   "generado": "2026-10-15T00:14:14.695Z",
-   "id": "web:65614571-f714-4991-a75b-bc27850d9de1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8bbb1cea10a54252ae1a89bd2abf762e~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
-   "volanta": "Mercedes · Policiales"
-  },
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": {
    "categoria": "nacionales",
    "descripcion": "Las altas de la Prestación por Desempleo aumentaron un 29,4% entre enero y septiembre de 2026. La provincia de Buenos Aires concentra la mayor cantidad de…",
@@ -10723,6 +10726,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malestar-y-restitucion-entre-la-actuacion-policial-y-la-movilizacion",
    "volanta": "Malestar y restitución"
   },
+  "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": {
+   "categoria": "",
+   "descripcion": "Cerró la primera temporada de la obra teatral Habladurías La obra teatral «Habladurías», escrita y protagonizada por Memi Mesplet junto a Sebastian Bravo, cerró su primera temporada de presentaciones en CasaVieja San Luis. La propuesta, que previamente había sido presentada en el festival de improvisación de Pergamino antes de llegar a la ciudad, ofreció un formato innovador donde los diálogos y las acciones fueron cambiando de función a función a partir de pautas de improvisación. Cada una...",
+   "generado": "2026-10-26T00:37:54.107Z",
+   "id": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dafccc203fad48f583a75feabc877dd2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "volanta": "Chivilcoy · Cultura"
+  },
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": {
    "categoria": "",
    "descripcion": "Presentaron el proyecto de ley contra las apuestas en línea Con la presencia de vecinos y representantes de instituciones, este lunes se llevó a cabo en la sede de la Defensoría del Pueblo de Chivilcoy la presentación del proyecto de Ley de Prevención y Control de las Apuestas en Línea, iniciativa destinada a regular el juego digital en la provincia de Buenos Aires y hacer frente a la problemática de la ciberludopatía. Durante el encuentro, la diputada provincial Micaela Olivetto detalló los...",
@@ -12329,17 +12351,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 234,
-   "segundos": 9596,
+   "restantes": 233,
+   "segundos": 3596,
    "tope": 250
   },
   "30d": {
-   "restantes": 2141,
-   "segundos": 1375822,
+   "restantes": 2140,
+   "segundos": 1369821,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-25T23:00:19.000Z",
+ "cuota_visto": "2026-10-26T00:40:20.000Z",
  "metricas_buffer": {
   "con_metricas": 95,
   "disponible": true,
@@ -19010,6 +19032,62 @@
    "vence": "2026-10-25T22:47:43.000Z",
    "video_bytes": 5571829,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1fdaf60e7ae6e7b.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok": {
+   "actualizado": "2026-10-26T00:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
+   "creado": "2026-10-26T00:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T00:38:37.000Z",
+   "id": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Cerró la primera temporada de la obra teatral Habladurías\n\nLa obra escrita y protagonizada por Memi Mesplet junto a Sebastián Bravo concluyó su ciclo de presentaciones en CasaVieja San Luis tras ofrecer funciones de improvisación con artistas invitados. En esta última velada, participaron Juan Bayona y Fernando Burgueño.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
+   "urgente": false,
+   "vence": "2026-10-28T00:38:37.000Z",
+   "video_bytes": 5797128,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0acd567dc7b71c65.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x": {
+   "actualizado": "2026-10-26T00:40:19.000Z",
+   "buffer_id": "6adea1730b5343d070fe28af",
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x",
+   "creado": "2026-10-26T00:40:15.000Z",
+   "dueAt": "2026-10-26T00:42:51.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T00:38:37.000Z",
+   "id": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "noticia": "nota:chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cerró la primera temporada de la obra teatral Habladurías\n\nMemi Mesplet y Sebastián Bravo finalizaron las funciones de su espectáculo de improvisación en CasaVieja San Luis. La última velada sumó a los artistas Juan Bayona y Fernando Burgueño.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
+   "urgente": false,
+   "vence": "2026-10-26T02:38:37.000Z",
+   "video_bytes": 5797128,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0acd567dc7b71c65.mp4",
    "viral": false
   },
   "entrevistas:job00217|x": {
@@ -27050,14 +27128,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x": {
-   "actualizado": "2026-10-25T23:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T00:40:19.000Z",
+   "buffer_id": "6adea1743d5b27036bfed3e5",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
    "creado": "2026-10-25T23:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T00:48:00.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-25T23:31:06.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/",
    "intentos": 0,
@@ -30533,31 +30611,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:65614571-f714-4991-a75b-bc27850d9de1|x": {
-   "actualizado": "2026-10-16T00:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:65614571-f714-4991-a75b-bc27850d9de1|x",
-   "creado": "2026-10-15T00:20:14.000Z",
-   "dueAt": "",
-   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "vencido",
-   "generado": "2026-10-15T00:14:14.695Z",
-   "id": "web:65614571-f714-4991-a75b-bc27850d9de1",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Investigan un posible femicidio tras un choque fatal en la Ruta 5\n\nAquello que comenzó en sus primeras actuaciones como un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-policiales-investigan-un-posible-femicidio-tras-un-choque",
-   "tipo": "nota",
-   "titulo": "Investigan un posible femicidio tras un choque fatal en la Ruta 5",
-   "urgente": false,
-   "vence": "2026-10-16T00:14:14.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd|x": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -33700,6 +33753,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x": {
+   "actualizado": "2026-10-26T00:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x",
+   "creado": "2026-10-26T00:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-26T00:37:54.107Z",
+   "id": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "noticia": "nota:chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
+   "urgente": false,
+   "vence": "2026-10-26T04:37:54.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x": {
    "actualizado": "2026-10-19T23:40:17.000Z",
    "buffer_id": "",
@@ -36189,37 +36267,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad89b43befea41f139bc309",
-   "clave": "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x",
-   "cuando": "2026-10-21T11:00:19.000Z",
-   "dueAt": "2026-10-21T12:21:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:037db3cf-2837-40cd-af9c-c0b367f30802|x",
-   "cuando": "2026-10-21T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112866804833882438"
-  },
-  {
-   "clave": "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x",
-   "cuando": "2026-10-21T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112851896725627015"
-  },
-  {
-   "clave": "web:3759665f-fb36-4adc-8b4c-b317b209876b|x",
-   "cuando": "2026-10-21T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112863155202261317"
-  },
-  {
-   "clave": "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc|x",
-   "cuando": "2026-10-21T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112859254759514481"
-  },
   {
    "clave": "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62|x",
    "cuando": "2026-10-21T11:40:17.000Z",
@@ -40387,6 +40434,44 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x",
+   "cuando": "2026-10-26T00:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
+   "cuando": "2026-10-26T00:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x",
+   "cuando": "2026-10-26T00:40:19.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adea1730b5343d070fe28af",
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x",
+   "cuando": "2026-10-26T00:40:20.000Z",
+   "dueAt": "2026-10-26T00:42:51.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adea1743d5b27036bfed3e5",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
+   "cuando": "2026-10-26T00:40:20.000Z",
+   "dueAt": "2026-10-26T00:48:00.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40530,6 +40615,7 @@
   "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4": "2026-10-24T09:00:20.000Z",
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": "2026-10-24T23:00:21.000Z",
   "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4": "2026-10-25T21:00:16.000Z",
+  "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4": "2026-10-26T00:40:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -41103,6 +41189,7 @@
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f": "2026-10-19T10:20:14.000Z",
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
+  "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": "2026-10-26T00:40:15.000Z",
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": "2026-10-19T23:40:17.000Z",
   "web:b928159c-c0a2-48b2-9ed1-0ad61e933410": "2026-10-15T10:20:13.000Z",
   "web:b9460b4c-9981-4efd-a82e-33108e7090de": "2026-10-23T10:20:15.000Z",
