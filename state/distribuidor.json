@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-26T14:40:15.000Z"
+   "visto": "2026-10-26T16:00:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 11
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-26T14:40:15.000Z"
+   "visto": "2026-10-26T16:00:18.000Z"
   }
  },
  "contenidos": {
@@ -12426,17 +12426,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 241,
-   "segundos": 37230,
+   "restantes": 240,
+   "segundos": 36026,
    "tope": 250
   },
   "30d": {
-   "restantes": 2130,
-   "segundos": 1315825,
+   "restantes": 2129,
+   "segundos": 1314622,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T15:40:16.000Z",
+ "cuota_visto": "2026-10-26T16:00:19.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -16169,18 +16169,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x": {
-   "actualizado": "2026-10-26T15:40:14.000Z",
+   "actualizado": "2026-10-26T16:00:18.000Z",
    "buffer_id": "6adf745fbc208c66b5000f9f",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
    "creado": "2026-10-26T14:20:14.000Z",
    "dueAt": "2026-10-26T15:42:20.000Z",
+   "enviado": "2026-10-26T15:42:34.683Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114744503961543134",
    "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
    "noticia": "nota:gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
    "origen": "bot",
@@ -19341,18 +19342,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x": {
-   "actualizado": "2026-10-26T15:20:18.000Z",
+   "actualizado": "2026-10-26T16:00:18.000Z",
    "buffer_id": "6adf6fb3fc971906906ff133",
    "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "2026-10-26T15:22:00.000Z",
+   "enviado": "2026-10-26T15:22:10.618Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114739369844126064",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
    "noticia": "nota:chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
    "origen": "bot",
@@ -36284,18 +36286,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|tiktok",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699275384419912966"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113065059781906438"
-  },
-  {
    "buffer_id": "6ad96028ecaa6cda041ebeba",
    "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
    "cuando": "2026-10-22T01:00:24.000Z",
@@ -40522,6 +40512,18 @@
    "cuando": "2026-10-26T15:40:16.000Z",
    "dueAt": "2026-10-26T15:42:20.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
+   "cuando": "2026-10-26T16:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114744503961543134"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
+   "cuando": "2026-10-26T16:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114739369844126064"
   }
  ],
  "tandas": {
@@ -40547,7 +40549,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
- "ultima_sync": "2026-10-26T14:40:15.000Z",
+ "ultima_sync": "2026-10-26T16:00:18.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
