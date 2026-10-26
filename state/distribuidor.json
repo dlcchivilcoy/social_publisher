@@ -1125,6 +1125,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec9c16d63a47d613.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Mkf4CT6-vKA"
   },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl": {
+   "descripcion": "La Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-26T13:23:58.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
+   "urgente": false,
+   "video_bytes": 873840,
+   "video_mb": 0.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88e85627d3ffff39.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/SGXScOK5PdE"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -5347,30 +5368,6 @@
    "volanta": "Pergamino: operativo en el barrio José Hernández",
    "youtube_url": "https://youtube.com/shorts/dxnwfqkpxf8"
   },
-  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": {
-   "categoria": "accidente_vial",
-   "descripcion": "El siniestro fatal ocurrió este miércoles por la noche a la altura del kilómetro 129, entre San Antonio de Areco y Capitán Sarmiento. La víctima aún no fue identificada y la conductora de la Toyota Hilux resultó ilesa.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-15T19:12:18.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
-   "localidad": "Pergamino",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Un ciclista falleció este miércoles por la noche tras ser embestido por una camioneta Toyota Hilux blanca en la autopista de la ruta nacional 8, a la altura del kilómetro 129, en un tramo ubicado entre San Antonio de Areco y Capitán Sarmiento.\n\nLa víctima circulaba en bicicleta cuando se produjo el violento impacto alrededor de las 20:55, y hasta el momento las autoridades no lograron establecer su identidad.\n\nAl mando del rodado mayor iba una mujer de 42 años oriunda de Pergamino, quien resultó ilesa tras el choque.\n\nEn el lugar trabajaron efectivos policiales, Policía Vial, Bomberos y peritos de Policía Científica, cuyas labores provocaron demoras e interrupciones en la circulación vehicular.\n\nLa causa quedó caratulada de forma preventiva como homicidio culposo, mientras la Justicia y los investigadores avanzan con las pericias para determinar la mecánica exacta del siniestro y dar con los datos personales del ciclista fallecido.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #SiniestroVial #Ruta8 #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8",
-   "urgente": false,
-   "video_bytes": 78250,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4",
-   "volanta": "Autopista de la ruta en Pergamino",
-   "youtube_url": "https://youtube.com/shorts/4yIxuShVE4w"
-  },
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": {
    "categoria": "robo",
    "descripcion": "Dos hombres fueron atrapados por la policía mientras escapaban arrastrando un electrodoméstico robado en una finca situada en Roque Sáenz Peña al 700.",
@@ -5494,30 +5491,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4",
    "volanta": "Operativo antidrogas en Lobos",
    "youtube_url": "https://youtube.com/shorts/bjZhSevFweQ"
-  },
-  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": {
-   "categoria": "otro_policial",
-   "descripcion": "Un vecino de la localidad de Gowland halló a dos uniformados dentro de su terreno tras la denuncia de una vecina. Uno de los agentes se negó a dar sus datos y el propietario aseguró que suele hostigarlo en su lugar de trabajo.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-15T19:12:19.000Z",
-   "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
-   "localidad": "Mercedes",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "texto_tiktok": "Un vecino de la localidad de Gowland, partido de Mercedes, vivió una situación insólita al encontrar a dos uniformados dentro de su propiedad.\n\nEl episodio comenzó luego de que una vecina lo acusara de interrumpir el suministro de agua y, según le explicaron los agentes, la mujer les habría permitido el ingreso al inmueble.\n\nMientras uno de los policías accedió a identificarse, el otro se negó rotundamente a proporcionar sus datos personales.\n\nEl propietario, empleado de una metalúrgica local, denunció además que este mismo efectivo suele acercarse a su lugar de trabajo para insultarlo.\n\n📲 Más noticias de Mercedes en www.diariolacampaña.com.ar\n\n#Mercedes #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Encontró a dos policías en su propiedad y uno se negó a identificarse",
-   "urgente": false,
-   "video_bytes": 139286,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4",
-   "volanta": "Gowland, Mercedes",
-   "youtube_url": "https://youtube.com/shorts/OML_8-5BiU0"
   },
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": {
    "categoria": "otro_policial",
@@ -6094,30 +6067,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_01_chacabuco_agresi-n-y-traslado-policial-t.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/ior_yYc7Zj8"
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli": {
-   "categoria": "operativo_policial",
-   "descripcion": "Un sospechoso de 23 años fue atrapado en El Triunfo tras una investigación por un asalto cometido en el barrio Los Docentes. Secuestraron un vehículo vinculado al hecho.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-15T19:12:19.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
-   "localidad": "Lincoln",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Cayó un joven de 23 años tras una investigación por un asalto a mano armada cometido en Lincoln.\n\nLos operativos estuvieron a cargo de la SubDDI y culminaron con una captura en la localidad de El Triunfo.\n\nLa causa tramita en la fiscalía departamental.\n\n📲 Más noticias de Lincoln en www.diariolacampaña.com.ar\n\n#Lincoln #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó un joven acusado de robar con un arma blanca en Lincoln",
-   "urgente": false,
-   "video_bytes": 81724,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4",
-   "volanta": "Lincoln y El Triunfo",
-   "youtube_url": "https://youtube.com/shorts/nCgoX9guah0"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de": {
    "categoria": "operativo_policial",
@@ -8968,24 +8917,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
    "volanta": "Atletismo"
   },
-  "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": {
-   "categoria": "nacionales",
-   "descripcion": "El secretario de Trabajo justificó la caída del empleo formal en la elección de los ciudadanos por el trabajo independiente. El funcionario brindó…",
-   "generado": "2026-10-15T13:06:46.139Z",
-   "id": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8978993587114f5692bafb3a2dd9ad9c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relación de dependencia",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
-   "volanta": ""
-  },
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": {
    "categoria": "nacionales",
    "descripcion": "La Cámara de Apelaciones frenó de manera temporal los castigos económicos contra la Jefatura de Gabinete. Fue tras un planteo del Ministerio de Capital…",
@@ -10465,6 +10396,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-uba-se-desmarco-de-los-disturbios-y-exigio-que-la-casa-9a8205",
    "volanta": ""
+  },
+  "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": {
+   "categoria": "",
+   "descripcion": "Esclarecieron el hurto de una moto e identificaron a dos menores La Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años. La investigación se inició a partir de una denuncia radicada el 24 de octubre, luego de que sustrajeran una motocicleta Honda Wave 110 cc, color gris...",
+   "generado": "2026-10-26T13:22:04.940Z",
+   "id": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8188fa3974134088a41d7682356b22aa~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784": {
    "categoria": "",
@@ -12666,17 +12616,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 245,
-   "segundos": 45628,
+   "restantes": 244,
+   "segundos": 43927,
    "tope": 250
   },
   "30d": {
-   "restantes": 2134,
-   "segundos": 1324223,
+   "restantes": 2133,
+   "segundos": 1322523,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T13:20:17.000Z",
+ "cuota_visto": "2026-10-26T13:48:38.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -16320,6 +16270,62 @@
    "vence": "2026-10-26T03:57:29.000Z",
    "video_bytes": 751144,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec9c16d63a47d613.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok": {
+   "actualizado": "2026-10-26T13:48:30.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
+   "creado": "2026-10-26T13:48:30.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T13:23:58.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Esclarecieron el hurto de una moto e identificaron a dos menores\n\nLa Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
+   "urgente": false,
+   "vence": "2026-10-28T13:23:58.000Z",
+   "video_bytes": 873840,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88e85627d3ffff39.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x": {
+   "actualizado": "2026-10-26T13:48:37.000Z",
+   "buffer_id": "6adf5a3600bfbbae70047c19",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
+   "creado": "2026-10-26T13:48:30.000Z",
+   "dueAt": "2026-10-26T13:50:43.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T13:23:58.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "noticia": "nota:chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Esclarecieron el hurto de una moto e identificaron a dos menores\n\nLa Secretaría de Seguridad informó que la policía y la SubDDI Chivilcoy esclarecieron el hurto de una moto en la vía pública e identificaron a dos menores sospechosos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
+   "urgente": false,
+   "vence": "2026-10-26T15:23:58.000Z",
+   "video_bytes": 873840,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88e85627d3ffff39.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -24450,56 +24456,6 @@
    "video_bytes": 91517,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_06_pergamino_aprehendieron-a-un-joven-de-28.mp4"
   },
-  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|tiktok",
-   "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "",
-   "error": "tope de 15 publicaciones en 24 h de TikTok",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-15T19:12:18.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Un ciclista falleció este miércoles por la noche tras ser embestido por una camioneta Toyota Hilux blanca en la autopista de la ruta nacional 8, a la altura del kilómetro 129, en un tramo ubicado entre San Antonio de Areco y Capitán Sarmiento.\n\nLa víctima circulaba en bicicleta cuando se produjo el violento impacto alrededor de las 20:55, y hasta el momento las autoridades no lograron establecer su identidad.\n\nAl mando del rodado mayor iba una mujer de 42 años oriunda de Pergamino, quien resultó ilesa tras el choque.\n\nEn el lugar trabajaron efectivos policiales, Policía Vial, Bomberos y peritos de Policía Científica, cuyas labores provocaron demoras e interrupciones en la circulación vehicular.\n\nLa causa quedó caratulada de forma preventiva como homicidio culposo, mientras la Justicia y los investigadores avanzan con las pericias para determinar la mecánica exacta del siniestro y dar con los datos personales del ciclista fallecido.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
-   "tipo": "video",
-   "titulo": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8",
-   "urgente": false,
-   "vence": "2026-10-16T13:12:18.000Z",
-   "video_bytes": 78250,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4"
-  },
-  "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista|x",
-   "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "",
-   "error": "fuera del horizonte de programación (espera en la cola)",
-   "espera": "fuera del horizonte de programación (espera en la cola)",
-   "estado": "vencido",
-   "generado": "2026-10-15T19:12:18.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8\n\nEl siniestro fatal ocurrió este miércoles por la noche a la altura del kilómetro 129, entre San Antonio de Areco y Capitán Sarmiento.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/pergamino-un-ciclista-murio-tras-ser-atropellado-por-una-ad3c9a\n#Pergamino",
-   "tipo": "video",
-   "titulo": "Murió un ciclista tras ser atropellado por una camioneta en la ruta 8",
-   "urgente": false,
-   "vence": "2026-10-16T13:12:18.000Z",
-   "video_bytes": 78250,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_02_pergamino_muri-un-ciclista-tras-ser-atro.mp4"
-  },
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok": {
    "actualizado": "2026-10-17T15:20:13.000Z",
    "buffer_id": "",
@@ -24769,55 +24725,6 @@
    "vence": "2026-10-17T12:41:21.000Z",
    "video_bytes": 158763,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4"
-  },
-  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|tiktok",
-   "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "",
-   "error": "tope de 15 publicaciones en 24 h de TikTok",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-15T19:12:19.000Z",
-   "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Un vecino de la localidad de Gowland, partido de Mercedes, vivió una situación insólita al encontrar a dos uniformados dentro de su propiedad.\n\nEl episodio comenzó luego de que una vecina lo acusara de interrumpir el suministro de agua y, según le explicaron los agentes, la mujer les habría permitido el ingreso al inmueble.\n\nMientras uno de los policías accedió a identificarse, el otro se negó rotundamente a proporcionar sus datos personales.\n\nEl propietario, empleado de una metalúrgica local, denunció además que este mismo efectivo suele acercarse a su lugar de trabajo para insultarlo.\n\n📲 Más noticias de Mercedes en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #mercedes #policiales",
-   "tipo": "video",
-   "titulo": "Encontró a dos policías en su propiedad y uno se negó a identificarse",
-   "urgente": false,
-   "vence": "2026-10-16T13:12:19.000Z",
-   "video_bytes": 139286,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
-  },
-  "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/|x",
-   "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T19:12:19.000Z",
-   "id": "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Encontró a dos policías en su propiedad y uno se negó a identificarse\n\nUn vecino de la localidad de Gowland halló a dos uniformados dentro de su terreno tras la denuncia de una vecina.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/gowland-encontro-a-dos-policias-en-su-propiedad-y-uno-se-nego-a-17c41a\n#Mercedes",
-   "tipo": "video",
-   "titulo": "Encontró a dos policías en su propiedad y uno se negó a identificarse",
-   "urgente": false,
-   "vence": "2026-10-16T13:12:19.000Z",
-   "video_bytes": 139286,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_05_mercedes_encontr-a-dos-polic-as-en-su-p.mp4"
   },
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok": {
    "actualizado": "2026-10-17T22:20:22.000Z",
@@ -26284,31 +26191,6 @@
    "vence": "2026-10-16T19:41:44.000Z",
    "video_bytes": 69283,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_0009_01_chacabuco_agresi-n-y-traslado-policial-t.mp4"
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|tiktok",
-   "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "",
-   "error": "tope de 15 publicaciones en 24 h de TikTok",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-15T19:12:19.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Cayó un joven de 23 años tras una investigación por un asalto a mano armada cometido en Lincoln.\n\nLos operativos estuvieron a cargo de la SubDDI y culminaron con una captura en la localidad de El Triunfo.\n\nLa causa tramita en la fiscalía departamental.\n\n📲 Más noticias de Lincoln en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #lincoln #policiales",
-   "tipo": "video",
-   "titulo": "Cayó un joven acusado de robar con un arma blanca en Lincoln",
-   "urgente": false,
-   "vence": "2026-10-16T13:12:19.000Z",
-   "video_bytes": 81724,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok": {
    "actualizado": "2026-10-16T18:00:17.000Z",
@@ -31217,30 +31099,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x": {
-   "actualizado": "2026-10-16T13:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x",
-   "creado": "2026-10-15T13:20:17.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T13:06:46.139Z",
-   "id": "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relación de dependencia\n\nEl secretario de Trabajo justificó la caída del empleo formal en la elección de los ciudadanos por el trabajo independiente. El funcionario brindó…\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-defendio-el-monotributo-y-aseguro-que-muchos-eligen-90c13c",
-   "tipo": "nota",
-   "titulo": "El Gobierno defendió el monotributo y aseguró que muchos eligen dejar la relación de dependencia",
-   "urgente": false,
-   "vence": "2026-10-16T13:06:46.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7|x": {
    "actualizado": "2026-10-16T18:40:13.000Z",
    "buffer_id": "",
@@ -33597,6 +33455,31 @@
    "vence": "2026-10-17T12:06:35.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x": {
+   "actualizado": "2026-10-26T13:48:30.000Z",
+   "buffer_id": "",
+   "clave": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x",
+   "creado": "2026-10-26T13:48:30.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-26T13:22:04.940Z",
+   "id": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "noticia": "nota:chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
+   "urgente": false,
+   "vence": "2026-10-26T17:22:04.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784|x": {
    "actualizado": "2026-10-20T10:21:12.000Z",
@@ -37004,33 +36887,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:e790e167-f2c1-4e20-bcee-7d86399107cd|x",
-   "cuando": "2026-10-22T00:20:25.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:89b6dd1b304f6c4e|x",
-   "cuando": "2026-10-22T00:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:89b6dd1b304f6c4e|tiktok",
-   "cuando": "2026-10-22T00:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "buffer_id": "6ad956cbecaa6cda041cde64",
-   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
-   "cuando": "2026-10-22T00:20:27.000Z",
-   "dueAt": "2026-10-22T00:22:32.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ad956cbecaa6cda041cdea2",
    "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|x",
@@ -41241,6 +41097,37 @@
    "cuando": "2026-10-26T13:20:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7700962619070352647"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
+   "cuando": "2026-10-26T13:48:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
+   "cuando": "2026-10-26T13:48:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x",
+   "cuando": "2026-10-26T13:48:37.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adf5a3600bfbbae70047c19",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
+   "cuando": "2026-10-26T13:48:38.000Z",
+   "dueAt": "2026-10-26T13:50:43.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41341,6 +41228,7 @@
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw": "2026-10-25T15:40:13.000Z",
   "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2": "2026-10-25T20:20:14.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj": "2026-10-26T02:00:18.000Z",
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl": "2026-10-26T13:48:30.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -41947,6 +41835,7 @@
   "web:9f2f4ad4-ec7d-4e33-94b8-2d8c741a84d4": "2026-10-24T18:00:17.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",
   "web:9f779d0b-1649-4d51-99d8-ba550d5285a5": "2026-10-16T12:20:15.000Z",
+  "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": "2026-10-26T13:48:30.000Z",
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784": "2026-10-19T10:20:14.000Z",
   "web:a1643449-bbde-4592-a6b3-8e7158b579e6": "2026-10-19T15:20:16.000Z",

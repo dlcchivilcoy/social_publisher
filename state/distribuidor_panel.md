@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 10:48 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 4 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 4 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 30 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 31 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,9 +27,10 @@ Actualizado: 26/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2134 de 3000 (visto 2026-10-26T13:20:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 244 de 250 · 30d: quedan 2133 de 3000 (visto 2026-10-26T13:48:38.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (7 esperando)
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -46,10 +47,6 @@ Actualizado: 26/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T12:06 recibido web:02e93911-55df-4a65-bb82-d3e764bdb7c5|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-10-26T12:06 recibido web:543a1dac-3518-4b28-b261-d81059e2857d|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-10-26T12:06 recibido web:daae8efc-080c-4b85-8684-6b87ab41878c|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-10-26T12:06 recibido web:8b789d89-b735-4a61-8637-1f4be868e032|x la misma noticia ya sale en X (Notas web, pendiente)
 - 2026-10-26T12:06 depurado web:110a806e-7381-4845-8f7e-851f18f79901|x no está en el carrusel del diario de hoy
 - 2026-10-26T12:06 depurado web:2c08d2bb-2c10-4352-a617-4a84c0781807|x no está en el carrusel del diario de hoy
 - 2026-10-26T12:06 depurado web:34578935-f4ba-4a48-b177-a3e196a4e890|x no está en el carrusel del diario de hoy
@@ -71,3 +68,7 @@ Actualizado: 26/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-26T13:00 programado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok 
 - 2026-10-26T13:00 programado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tikto 
 - 2026-10-26T13:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tikto 
+- 2026-10-26T13:48 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x 
+- 2026-10-26T13:48 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tikto 
+- 2026-10-26T13:48 recibido web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-26T13:48 programado bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x 
