@@ -2112,6 +2112,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4e782f56d62d017c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/eTRLFzZcQ5o"
   },
+  "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": {
+   "descripcion": "Una vecina hizo pública una denuncia a través de sus redes sociales luego de sufrir un tocamiento sin su consentimiento mientras circulaba en bicicleta por la intersección de Emilio Mitre y Necochea.\n\nDe acuerdo con su testimonio, el hecho ocurrió alrededor de las 8 de la mañana. En ese momento, un hombre que se desplazaba a bordo de una motocicleta negra frenó a su lado, la tocó y continuó su marcha a plena luz del día.\n\nSegún la descripción que brindó la damnificada, el motociclista no llevaba casco, vestía una capucha gris junto a una campera inflable de color negro, y el rodado no tenía la patente colocada. Con el fin de alertar a quienes transitan por la zona, la mujer difundió una grabación de una cámara de seguridad donde se observa el paso del sospechoso.\n\nAsimismo, en publicaciones posteriores compartió mensajes de terceros sobre episodios de similares características ocurridos previamente en la ciudad. Sin embargo, los elementos aportados hasta el momento no permiten identificar al autor ni establecer una relación directa entre los distintos relatos.",
+   "duracion_seg": 27.3,
+   "generado": "2026-10-26T15:02:14.000Z",
+   "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
+   "urgente": false,
+   "video_bytes": 759835,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_607c85e981189c84.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Y4F4WXAYv3o"
+  },
   "entrevistas:job00217": {
    "descripcion": "En Chivilcoy, la ciclista Daniela Ghio explicó que se puede ser competitivo sin gastar de más y recordó que ganó tres años consecutivos el Gran Fondo con bicicleta de aluminio frente a cuadros de carbono.",
    "duracion_seg": null,
@@ -6549,30 +6570,6 @@
    "volanta": "Vuelco en el Rally de Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/UODfk-2XyPc"
   },
-  "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": {
-   "categoria": "operativo_policial",
-   "descripcion": "Tras varias horas de tensión, un joven de 24 años fue arrestado luego de atrincherarse armado en la vivienda de su exnovia, quien logró escapar ilesa. La Justicia ordenó su alojamiento en el penal de Sierra Chica.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-15T23:41:36.000Z",
-   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
-   "localidad": "Bolívar",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "Un joven de 24 años quedó formalmente detenido tras protagonizar un violento episodio donde se atrincheró armado en el domicilio de su expareja en Bolívar.\n\nLa víctima logró escapar ilesa a la casa de un vecino mientras se desplegaba un importante operativo con negociadores y bomberos.\n\nLa medida fue ordenada por la Justicia y prevé su traslado a una unidad del Servicio Penitenciario Bonaerense bajo múltiples cargos penales.\n\n📲 Más noticias de Bolívar en www.diariolacampaña.com.ar\n\n#Bolivar #OperativoPolicial #Detenido #Seguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Detuvieron al joven armado que se atrincheró en la casa de su expareja",
-   "urgente": false,
-   "video_bytes": 99715,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4",
-   "volanta": "Operativo policial en Bolívar",
-   "youtube_url": "https://youtube.com/shorts/SBAAzf0rgvA"
-  },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": {
    "categoria": "desaparicion",
    "descripcion": "El hallazgo se produjo este jueves por la tarde en calle Danessa al 300. La Justicia investiga las causales del fallecimiento con intervención de la Fiscalía 15.",
@@ -9001,24 +8998,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-torneo-clausura-de-primera-racing-club-conserva-su-posicion",
    "volanta": "Básquet"
   },
-  "web:70161ba5-8aec-496b-844f-0838565b94a8": {
-   "categoria": "",
-   "descripcion": "Estrena “Como un roble antiguo” en el Teatro La Cueva La obra, escrita por Hernán Naval y dirigida por Mirta Comerio, ofrecerá cuatro únicas funciones durante el mes de octubre. El escenario del Teatro La Cueva (ubicado en Rosetti 35) se prepara para recibir una de las propuestas teatrales más esperadas de la temporada: «Como un roble antiguo», una comedia dramática de Hernán Naval. Bajo la dirección general de Mirta Comerio, la puesta en escena combina emotividad y humor para reflexionar...",
-   "generado": "2026-10-16T10:10:32.990Z",
-   "id": "web:70161ba5-8aec-496b-844f-0838565b94a8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c278307b49574da0ba4eff8f29b21622~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cuatro-funciones-estrena-como-un-roble-antiguo-en-el-teatro-la-cueva",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Estrena “Como un roble antiguo” en el Teatro La Cueva",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cuatro-funciones-estrena-como-un-roble-antiguo-en-el-teatro-la-cueva",
-   "volanta": "Cuatro funciones"
-  },
   "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37": {
    "categoria": "nacionales",
    "descripcion": "Las ventas por el Día de la Madre cayeron 1,4% interanual Los comercios minoristas pyme acumularon cinco años consecutivos de bajas para esta fecha, según CAME. El ticket promedio fue de $ 63.197 y las promociones no alcanzaron para revertir la cautela de los consumidores. Las ventas de los comercios minoristas pymes por el Día de la Madre bajaron 1,4% interanual a precios constantes, según un relevamiento de la Confederación Argentina de la Mediana Empresa (CAME). Con este resultado, la...",
@@ -9852,24 +9831,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-el-federal-a-en-etapa-de-definiciones-gimnasia-de-chivilcoy-va",
    "volanta": "Fútbol"
   },
-  "web:90793449-fe94-4a94-a7d7-67bd22f391dd": {
-   "categoria": "",
-   "descripcion": "Claudia Goggi presentará su espectáculo folclórico “Raíces, el canto de mi gente” en el Teatro El Chasqui",
-   "generado": "2026-10-16T10:09:49.670Z",
-   "id": "web:90793449-fe94-4a94-a7d7-67bd22f391dd",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_14240ec983f04948b06b0c2a11daff74~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/musica-y-danza-tradicional-claudia-goggi-presentara-su-espectaculo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Música y Danza Tradicional",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/musica-y-danza-tradicional-claudia-goggi-presentara-su-espectaculo",
-   "volanta": ""
-  },
   "web:90a67262-a0c0-4d38-9911-bafe84c9db3a": {
    "categoria": "nacionales",
    "descripcion": "Fuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante. Hay ciudades aisladas, rescates en helicóptero y…",
@@ -9889,24 +9850,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
    "volanta": ""
   },
-  "web:90cb2fe1-4568-4f3b-b570-73550002c005": {
-   "categoria": "nacionales",
-   "descripcion": "El presidente Javier Milei retomará su recorrido por el interior con una agenda enfocada en proyectos petroleros y mineros. Viajará a Neuquén el 19 de…",
-   "generado": "2026-10-15T15:06:37.868Z",
-   "id": "web:90cb2fe1-4568-4f3b-b570-73550002c005",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e7fd892395d149ed850d85d8bf7cef62~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
-   "volanta": ""
-  },
   "web:90ccf787-b147-4a06-9acf-05aa45b23cca": {
    "categoria": "",
    "descripcion": "Capacitaron al personal de los hogares municipales en control de infecciones En el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares municipales de Chivilcoy. La jornada se realizó el viernes 16 de octubre en el Hogar Municipal del Carmen y estuvo dirigida al personal de...",
@@ -9924,24 +9867,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
    "volanta": "Chivilcoy · Salud"
-  },
-  "web:91984193-d136-423a-8896-e837bb387c4a": {
-   "categoria": "",
-   "descripcion": "Humor, improvisación y reencuentro: Los Minga regresan a La Ronda",
-   "generado": "2026-10-16T10:12:37.006Z",
-   "id": "web:91984193-d136-423a-8896-e837bb387c4a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_eace41a463cc443596457dda7035fe8e~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/independiente-y-autogestivo-humor-improvisacion-y-reencuentro-los",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Independiente y autogestivo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/independiente-y-autogestivo-humor-improvisacion-y-reencuentro-los",
-   "volanta": ""
   },
   "web:92c264ae-78ff-431e-bebc-0875504ae30a": {
    "categoria": "",
@@ -11219,24 +11144,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
    "volanta": ""
   },
-  "web:c6c994e0-7772-4aac-b4f4-693e1662b284": {
-   "categoria": "",
-   "descripcion": "Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra En el marco del espacio radial de difusión del INTA en Radio del Centro, Antonio Martín brindó un detallado informe sobre el escenario agroclimático en Chivilcoy y la zona de influencia. El especialista analizó el comportamiento de las precipitaciones en lo que va del mes, el estado de las napas freáticas, el balance de la última cosecha y la marcha de la siembra correspondiente al ciclo productivo en marcha, todo...",
-   "generado": "2026-10-16T10:11:10.876Z",
-   "id": "web:c6c994e0-7772-4aac-b4f4-693e1662b284",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_fbbd2e04d1144db2bb628cf22fee71c3~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/panorama-agroclimatico-antonio-martin-y-un-analisis-el-estado-de-las",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/panorama-agroclimatico-antonio-martin-y-un-analisis-el-estado-de-las",
-   "volanta": "Panorama Agroclimático"
-  },
   "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8": {
    "categoria": "nacionales",
    "descripcion": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online El diputado provincial y presidente del Bloque de Fuerza Patria, Facundo Tignanelli, se refirió al dinero que pierde el país y la provincia en concepto de apuestas online, tanto bajo modalidades legales como ilegales, señalando que esos fondos quedan en manos de empresas extranjeras. Al respecto, Tignanelli indicó: \"El cálculo que hicimos con Mica según la información oficial que tiene la provincia de Buenos Aires...",
@@ -11456,6 +11363,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lanzan-un-manual-tecnico-para-mejorar-las-pulverizaciones-con-a17a3a",
    "volanta": ""
+  },
+  "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": {
+   "categoria": "",
+   "descripcion": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta Una vecina de Chivilcoy hizo pública una denuncia por un tocamiento sin su consentimiento mientras se trasladaba en bicicleta por la intersección de Emilio Mitre y Necochea. De acuerdo con su relato, un hombre que circulaba en una motocicleta negra se acercó, frenó a su lado, la tocó y continuó su marcha. La mujer situó el episodio alrededor de las 8 de la mañana y remarcó que ocurrió a plena luz del día. “Yo iba...",
+   "generado": "2026-10-26T15:00:45.979Z",
+   "id": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d6eba4a429e4444da33f2dd1f4b8983d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": {
    "categoria": "",
@@ -11699,24 +11625,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
    "volanta": "Gorostiaga · Policiales"
-  },
-  "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b": {
-   "categoria": "",
-   "descripcion": "Celebrarán sus 35 años con una gran muestra dentro y fuera del Museo ‘Pompeo Boggio’",
-   "generado": "2026-10-16T10:11:55.189Z",
-   "id": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f7b9eef561a84e84b3266fdb98602185~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/feria-artesanal-de-chivilcoy-celebraran-sus-35-anos-con-una-gran",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Feria Artesanal de Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/feria-artesanal-de-chivilcoy-celebraran-sus-35-anos-con-una-gran",
-   "volanta": ""
   },
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40": {
    "categoria": "nacionales",
@@ -12554,17 +12462,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 40830,
+   "restantes": 242,
+   "segundos": 38426,
    "tope": 250
   },
   "30d": {
-   "restantes": 2132,
-   "segundos": 1319425,
+   "restantes": 2131,
+   "segundos": 1317022,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T14:40:15.000Z",
+ "cuota_visto": "2026-10-26T15:20:19.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -19440,6 +19348,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4e782f56d62d017c.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok": {
+   "actualizado": "2026-10-26T15:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok",
+   "creado": "2026-10-26T15:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T15:02:14.000Z",
+   "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta\n\nUna vecina denunció en redes sociales que un hombre en una moto negra la tocó sin su consentimiento en la esquina de Emilio Mitre y Necochea, tras lo cual siguió su marcha. Para alertar a la zona, difundió un video de seguridad del sospechoso, a quien describió con capucha gris, campera inflable y sin casco en un rodado sin patente.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
+   "urgente": false,
+   "vence": "2026-10-28T15:02:14.000Z",
+   "video_bytes": 759835,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_607c85e981189c84.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x": {
+   "actualizado": "2026-10-26T15:20:18.000Z",
+   "buffer_id": "6adf6fb3fc971906906ff133",
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
+   "creado": "2026-10-26T15:20:14.000Z",
+   "dueAt": "2026-10-26T15:22:00.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T15:02:14.000Z",
+   "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "noticia": "nota:chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta\n\nLa víctima relató en redes sociales que el hecho ocurrió a las 8 de la mañana en Emilio Mitre y Necochea. Para alertar a la zona, difundió un video del sospechoso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
+   "urgente": false,
+   "vence": "2026-10-26T17:02:14.000Z",
+   "video_bytes": 759835,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_607c85e981189c84.mp4",
+   "viral": false
+  },
   "entrevistas:job00217|x": {
    "actualizado": "2026-10-17T00:20:13.000Z",
    "buffer_id": "6ad295101694d771d508b639",
@@ -25558,42 +25522,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_2304_03_chacabuco_detuvieron-a-un-hombre-en-chac.mp4",
    "viral": false
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad20874b948bf9e9d906e57",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|tiktok",
-   "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "2026-10-16T14:03:01.000Z",
-   "enviado": "2026-10-16T14:06:42.264Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T23:41:35.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697266425345346837",
-   "metricas": {
-    "averageTimeWatched": 7.47,
-    "comments": 0,
-    "engagementRate": 0.7,
-    "reach": 0,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 76.82,
-    "views": 572
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-una-mujer-de-53-anos-tras-un-incidente-d4f427",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Una mujer de 53 años fue demorada por la policía en la plaza San Martín de Chacabuco tras protagonizar un violento cruce con un menor de edad.\n\nLa vecina pasó la noche en la Subcomisaría de O'Higgins y este jueves declaró en la fiscalía, donde se le inició una causa penal por amenazas agravadas.\n\nSegún explicó la imputada, reaccionó de esa manera porque el joven hostigaba a su hijo de 15 años y lo había amenazado previamente con una faca.\n\nEl episodio ocurrió en las inmediaciones del Monumento y terminó cuando la involucrada aguardó la llegada de los efectivos policiales.\n\nLa acusada reconoció que no debió actuar así y aseguró que ya existían denuncias previas radicadas desde el pasado 17 de agosto.\n\nTras prestar declaración, recuperó la libertad mientras continúa la investigación a cargo de la justicia.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "tipo": "video",
-   "titulo": "Demoraron a una mujer de 53 años tras un incidente con un menor en la plaza San Martín",
-   "urgente": false,
-   "vence": "2026-10-16T17:41:35.000Z",
-   "video_bytes": 81128,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_04_chacabuco_demoraron-a-una-mujer-de-53-a-.mp4"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/hablo-la-mujer-detenida-me-dijo-vos.html|x": {
    "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
@@ -27164,40 +27092,6 @@
    "video_bytes": 180691,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_06_9-de-julio_grave-accidente-de-un-piloto-d.mp4",
    "viral": false
-  },
-  "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad1e7aae991a49db3d69568",
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica|x",
-   "creado": "2026-10-16T00:00:21.000Z",
-   "dueAt": "2026-10-16T14:00:59.000Z",
-   "enviado": "2026-10-16T14:04:38.735Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T23:41:36.000Z",
-   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111095979852046734",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 6.45,
-    "impressions": 31,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Detuvieron al joven armado que se atrincheró en la casa de su expareja\n\nTras varias horas de tensión, un joven de 24 años fue arrestado luego de atrincherarse armado en la vivienda de su exnovia, quien logró escapar ilesa.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bolivar-dictaron-la-detencion-del-joven-que-se-atrinchero-d29544\n#Bolívar",
-   "tipo": "video",
-   "titulo": "Detuvieron al joven armado que se atrincheró en la casa de su expareja",
-   "urgente": false,
-   "vence": "2026-10-16T17:41:36.000Z",
-   "video_bytes": 99715,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_2109_06_bolivar_detuvieron-al-joven-armado-que.mp4"
   },
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya|tiktok": {
    "actualizado": "2026-10-16T20:00:18.000Z",
@@ -31120,40 +31014,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:70161ba5-8aec-496b-844f-0838565b94a8|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad224932fe657de6ea75a21",
-   "clave": "web:70161ba5-8aec-496b-844f-0838565b94a8|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T15:00:15.000Z",
-   "enviado": "2026-10-16T15:04:34.580Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:10:32.990Z",
-   "id": "web:70161ba5-8aec-496b-844f-0838565b94a8",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111111061139038606",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 16,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cuatro-funciones-estrena-como-un-roble-antiguo-en-el-teatro-la-cueva",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Estrena “Como un roble antiguo” en el Teatro La Cueva\n\nLa obra, escrita por Hernán Naval y dirigida por Mirta Comerio, ofrecerá cuatro únicas funciones durante el mes de octubre.\n\nhttps://www.diariolacampaña.com.ar/n/cuatro-funciones-estrena-como-un-roble-antiguo-en-el-teatro-la-cueva",
-   "tipo": "nota",
-   "titulo": "Estrena “Como un roble antiguo” en el Teatro La Cueva",
-   "urgente": false,
-   "vence": "2026-10-17T10:10:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:708e44d7-ceed-4488-bd22-c68f2d8bdb37|x": {
    "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
@@ -32467,40 +32327,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad2249325d13dd62eea1ebd",
-   "clave": "web:90793449-fe94-4a94-a7d7-67bd22f391dd|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T15:15:16.000Z",
-   "enviado": "2026-10-16T15:15:31.330Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:09:49.670Z",
-   "id": "web:90793449-fe94-4a94-a7d7-67bd22f391dd",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111113816016580706",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 8,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/musica-y-danza-tradicional-claudia-goggi-presentara-su-espectaculo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Música y Danza Tradicional\n\nClaudia Goggi presentará su espectáculo folclórico “Raíces, el canto de mi gente” en el Teatro El Chasqui\n\nhttps://www.diariolacampaña.com.ar/n/musica-y-danza-tradicional-claudia-goggi-presentara-su-espectaculo",
-   "tipo": "nota",
-   "titulo": "Música y Danza Tradicional",
-   "urgente": false,
-   "vence": "2026-10-17T10:09:49.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x": {
    "actualizado": "2026-10-20T02:20:17.000Z",
    "buffer_id": "",
@@ -32528,30 +32354,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:90cb2fe1-4568-4f3b-b570-73550002c005|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:90cb2fe1-4568-4f3b-b570-73550002c005|x",
-   "creado": "2026-10-15T15:20:14.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T15:06:37.868Z",
-   "id": "web:90cb2fe1-4568-4f3b-b570-73550002c005",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca\n\nEl presidente Javier Milei retomará su recorrido por el interior con una agenda enfocada en proyectos petroleros y mineros. Viajará a Neuquén el 19 de…\n\nhttps://www.diariolacampaña.com.ar/n/javier-milei-retomara-su-agenda-federal-con-visitas-a-neuquen-y-fb67d2",
-   "tipo": "nota",
-   "titulo": "Javier Milei retomará su agenda federal con visitas a Neuquén y Catamarca",
-   "urgente": false,
-   "vence": "2026-10-16T15:06:37.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x": {
    "actualizado": "2026-10-17T22:20:22.000Z",
@@ -32585,40 +32387,6 @@
    "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
    "urgente": false,
    "vence": "2026-10-18T17:19:31.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:91984193-d136-423a-8896-e837bb387c4a|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad1fa62bbb9ce09f66ba33f",
-   "clave": "web:91984193-d136-423a-8896-e837bb387c4a|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T14:15:35.000Z",
-   "enviado": "2026-10-16T14:15:46.272Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:12:37.006Z",
-   "id": "web:91984193-d136-423a-8896-e837bb387c4a",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111098779172573489",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 7,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/independiente-y-autogestivo-humor-improvisacion-y-reencuentro-los",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Independiente y autogestivo\n\nHumor, improvisación y reencuentro: Los Minga regresan a La Ronda\n\nhttps://www.diariolacampaña.com.ar/n/independiente-y-autogestivo-humor-improvisacion-y-reencuentro-los",
-   "tipo": "nota",
-   "titulo": "Independiente y autogestivo",
-   "urgente": false,
-   "vence": "2026-10-17T10:12:37.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -34580,40 +34348,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad22493b948bf9e9d97c5ef",
-   "clave": "web:c6c994e0-7772-4aac-b4f4-693e1662b284|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T14:45:42.000Z",
-   "enviado": "2026-10-16T14:45:46.137Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:11:10.876Z",
-   "id": "web:c6c994e0-7772-4aac-b4f4-693e1662b284",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111106328659669459",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/panorama-agroclimatico-antonio-martin-y-un-analisis-el-estado-de-las",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra\n\nEn el marco del espacio radial de difusión del INTA en Radio del Centro, Antonio Martín brindó un detallado informe sobre el escenario agroclimático en Chivilcoy y la zona…\n\nhttps://www.diariolacampaña.com.ar/n/panorama-agroclimatico-antonio-martin-y-un-analisis-el-estado-de-las",
-   "tipo": "nota",
-   "titulo": "Antonio Martín y un análisis el estado de las napas, las lluvias y la siembra",
-   "urgente": false,
-   "vence": "2026-10-17T10:11:10.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8|x": {
    "actualizado": "2026-10-19T23:20:14.000Z",
    "buffer_id": "",
@@ -34971,6 +34705,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x": {
+   "actualizado": "2026-10-26T15:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x",
+   "creado": "2026-10-26T15:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-26T15:00:45.979Z",
+   "id": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "noticia": "nota:chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
+   "urgente": false,
+   "vence": "2026-10-26T19:00:45.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be|x": {
    "actualizado": "2026-10-22T11:00:23.000Z",
    "buffer_id": "",
@@ -35312,40 +35071,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x": {
-   "actualizado": "2026-10-16T15:20:16.000Z",
-   "buffer_id": "6ad1fa62c0accac7dac938b1",
-   "clave": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T14:30:06.000Z",
-   "enviado": "2026-10-16T14:31:20.032Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:11:55.189Z",
-   "id": "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111102695733948636",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 16,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/feria-artesanal-de-chivilcoy-celebraran-sus-35-anos-con-una-gran",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Feria Artesanal de Chivilcoy\n\nCelebrarán sus 35 años con una gran muestra dentro y fuera del Museo ‘Pompeo Boggio’\n\nhttps://www.diariolacampaña.com.ar/n/feria-artesanal-de-chivilcoy-celebraran-sus-35-anos-con-una-gran",
-   "tipo": "nota",
-   "titulo": "Feria Artesanal de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-17T10:11:55.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x": {
    "actualizado": "2026-10-18T15:40:20.000Z",
@@ -36643,32 +36368,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:b3aa9eb0744c0822|tiktok",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b3aa9eb0744c0822|x",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:b3aa9eb0744c0822|tiktok",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|x",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113063541234143651"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
    "cuando": "2026-10-22T01:00:23.000Z",
@@ -40876,6 +40575,37 @@
    "cuando": "2026-10-26T14:40:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7700966724073524487"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
+   "cuando": "2026-10-26T15:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok",
+   "cuando": "2026-10-26T15:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x",
+   "cuando": "2026-10-26T15:20:18.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adf6fb3fc971906906ff133",
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
+   "cuando": "2026-10-26T15:20:19.000Z",
+   "dueAt": "2026-10-26T15:22:00.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -41025,6 +40755,7 @@
   "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4": "2026-10-25T21:00:16.000Z",
   "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4": "2026-10-26T00:40:15.000Z",
   "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4": "2026-10-26T02:00:18.000Z",
+  "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": "2026-10-26T15:20:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -41670,6 +41401,7 @@
   "web:ce117f38-054b-4f6b-92d7-4743edb8711b": "2026-10-23T10:02:47.000Z",
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
   "web:ce515f56-0397-44d3-b63d-c656faf40928": "2026-10-19T20:20:15.000Z",
+  "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": "2026-10-26T15:20:14.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
   "web:ce9e4178-fa7a-44dd-895a-6e84fbe55f4a": "2026-10-11T21:58:03.000Z",
   "web:ceec6742-f491-45cb-b224-31d1a7caf1da": "2026-10-12T18:20:14.000Z",

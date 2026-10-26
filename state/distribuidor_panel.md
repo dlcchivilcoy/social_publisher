@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 32 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 33 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -19,17 +19,18 @@ Actualizado: 26/10/2026 12:00 (hora AR) · ACTIVO
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels del bot: 90 con métricas · mediana vistas/impresiones 23 · likes 0
-- X · Reels policiales: 39 con métricas · mediana vistas/impresiones 37 · likes 0
-- X · Notas web: 104 con métricas · mediana vistas/impresiones 22.5 · likes 0
+- X · Reels policiales: 38 con métricas · mediana vistas/impresiones 37 · likes 0
+- X · Notas web: 99 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Reels del bot: 62 con métricas · mediana vistas/impresiones 304.5 · likes 2
-- TikTok · Reels policiales: 21 con métricas · mediana vistas/impresiones 511 · likes 4
+- TikTok · Reels policiales: 20 con métricas · mediana vistas/impresiones 502 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2132 de 3000 (visto 2026-10-26T14:40:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2131 de 3000 (visto 2026-10-26T15:20:19.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (10 esperando)
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,10 +49,6 @@ Actualizado: 26/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T12:06 depurado web:76ba9989-902f-48e4-be31-1bb0265c5c60|x no está en el carrusel del diario de hoy
-- 2026-10-26T12:06 depurado web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x no está en el carrusel del diario de hoy
-- 2026-10-26T12:06 depurado web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x no está en el carrusel del diario de hoy
-- 2026-10-26T12:06 depurado web:aac6f864-9661-40bc-8e13-c03b62c05fed|x no está en el carrusel del diario de hoy
 - 2026-10-26T12:06 depurado web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x no está en el carrusel del diario de hoy
 - 2026-10-26T12:06 depurado web:b4dddc38-6caa-416d-8010-6276dec99036|x no está en el carrusel del diario de hoy
 - 2026-10-26T12:06 depurado web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x no está en el carrusel del diario de hoy
@@ -73,3 +70,7 @@ Actualizado: 26/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-26T14:40 enviado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok 
 - 2026-10-26T14:40 enviado bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok 
 - 2026-10-26T14:40 enviado bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok 
+- 2026-10-26T15:20 recibido bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
+- 2026-10-26T15:20 recibido bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok 
+- 2026-10-26T15:20 recibido web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-26T15:20 programado bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
