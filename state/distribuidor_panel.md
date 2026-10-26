@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 34 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 10 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,12 +27,12 @@ Actualizado: 26/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2128 de 3000 (visto 2026-10-26T16:40:37.000Z)
+15m: quedan 98 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2126 de 3000 (visto 2026-10-26T17:00:31.000Z)
 
 ## Cola propia (12 esperando)
-- X · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Biaus Sanguineti: el Municipio no sabe los km de caminos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ana Maria Berón: La fibromialgia no se cura con analgésicos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,12 +51,6 @@ Actualizado: 26/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T13:48 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tikto 
-- 2026-10-26T13:48 recibido web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-26T13:48 programado bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x 
-- 2026-10-26T14:20 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x 
-- 2026-10-26T14:20 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|tikto 
-- 2026-10-26T14:20 recibido web:d8e94a2d-145b-4ca4-a85b-0994863d6185|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T14:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tikto 
 - 2026-10-26T14:40 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x 
 - 2026-10-26T14:40 enviado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok 
@@ -76,3 +70,9 @@ Actualizado: 26/10/2026 13:40 (hora AR) · ACTIVO
 - 2026-10-26T16:40 recibido entrevistas:job00248|tiktok 
 - 2026-10-26T16:40 recibido web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T16:40 programado entrevistas:job00248|x 
+- 2026-10-26T17:00 entrevista_aprobada entrevistas:job00249 
+- 2026-10-26T17:00 recibido entrevistas:job00249|x 
+- 2026-10-26T17:00 recibido entrevistas:job00249|tiktok 
+- 2026-10-26T17:00 enviado entrevistas:job00248|x 
+- 2026-10-26T17:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
+- 2026-10-26T17:00 programado entrevistas:job00249|x 

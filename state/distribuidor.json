@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-26T16:00:18.000Z"
+   "visto": "2026-10-26T17:00:29.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 10
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-26T16:00:18.000Z"
+   "visto": "2026-10-26T17:00:29.000Z"
   }
  },
  "contenidos": {
@@ -2754,6 +2754,27 @@
    "video_mb": 18.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00248.mp4",
    "youtube_url": "https://youtu.be/fZfaGpRrV0A"
+  },
+  "entrevistas:job00249": {
+   "descripcion": "El economista Ramón Biaus Sanguineti advirtió en Chivilcoy que la comuna no precisa la cantidad real de kilómetros de caminos rurales a mantener. Señaló que sin datos básicos no se puede planificar un consorcio o cooperativa vial.",
+   "duracion_seg": null,
+   "entrevistado": "Ramón Biaus Sanguineti",
+   "generado": "2026-10-26T17:00:18.000Z",
+   "id": "entrevistas:job00249",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Biaus Sanguineti: el Municipio no sabe los km de caminos",
+   "urgente": false,
+   "video_bytes": 30576920,
+   "video_mb": 29.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
+   "youtube_url": "https://youtu.be/dGj7ND9Lx2I"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -12446,22 +12467,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 239,
-   "segundos": 33609,
+   "restantes": 237,
+   "segundos": 32415,
    "tope": 250
   },
   "30d": {
-   "restantes": 2128,
-   "segundos": 1312205,
+   "restantes": 2126,
+   "segundos": 1311011,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T16:40:37.000Z",
+ "cuota_visto": "2026-10-26T17:00:31.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -16217,14 +16238,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x": {
-   "actualizado": "2026-10-26T16:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T17:00:29.000Z",
+   "buffer_id": "6adf872efd915805681eb270",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
    "creado": "2026-10-26T16:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T17:02:44.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T16:27:37.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
    "intentos": 0,
@@ -20491,18 +20512,19 @@
    "viral": false
   },
   "entrevistas:job00248|x": {
-   "actualizado": "2026-10-26T16:40:35.000Z",
+   "actualizado": "2026-10-26T17:00:29.000Z",
    "buffer_id": "6adf8284d0e68644af58b9cf",
    "clave": "entrevistas:job00248|x",
    "creado": "2026-10-26T16:40:17.000Z",
    "dueAt": "2026-10-26T16:42:24.000Z",
+   "enviado": "2026-10-26T16:42:38.227Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T16:40:17.000Z",
    "id": "entrevistas:job00248",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114759618370932749",
    "nota_url": "",
    "noticia": "titulo:analgesicos-beron-cura-fibromialgia-maria",
    "origen": "entrevistas",
@@ -20516,6 +20538,62 @@
    "vence": "2026-10-26T18:40:17.000Z",
    "video_bytes": 19632360,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00248.mp4",
+   "viral": false
+  },
+  "entrevistas:job00249|tiktok": {
+   "actualizado": "2026-10-26T17:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00249|tiktok",
+   "creado": "2026-10-26T17:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T17:00:18.000Z",
+   "id": "entrevistas:job00249",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Biaus Sanguineti: el Municipio no sabe los km de caminos\n\nEl economista Ramón Biaus Sanguineti advirtió en Chivilcoy que la comuna no precisa la cantidad real de kilómetros de caminos rurales a mantener. Señaló que sin datos básicos no se puede planificar un consorcio o cooperativa vial.\n\nhttps://youtu.be/dGj7ND9Lx2I\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Biaus Sanguineti: el Municipio no sabe los km de caminos",
+   "urgente": false,
+   "vence": "2026-10-28T17:00:18.000Z",
+   "video_bytes": 30576920,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
+   "viral": false
+  },
+  "entrevistas:job00249|x": {
+   "actualizado": "2026-10-26T17:00:29.000Z",
+   "buffer_id": "6adf872f79c317817cfe982f",
+   "clave": "entrevistas:job00249|x",
+   "creado": "2026-10-26T17:00:18.000Z",
+   "dueAt": "2026-10-26T17:08:20.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T17:00:18.000Z",
+   "id": "entrevistas:job00249",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:biaus-caminos-municipio-sabe-sanguineti",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Biaus Sanguineti: el Municipio no sabe los km de caminos\n\nEl economista Ramón Biaus Sanguineti advirtió en Chivilcoy que la comuna no precisa la cantidad real de kilómetros de caminos rurales a mantener.\n\nhttps://youtu.be/dGj7ND9Lx2I",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Biaus Sanguineti: el Municipio no sabe los km de caminos",
+   "urgente": false,
+   "vence": "2026-10-26T19:00:18.000Z",
+   "video_bytes": 30576920,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -36322,52 +36400,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x",
-   "cuando": "2026-10-22T01:40:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|tiktok",
-   "cuando": "2026-10-22T01:40:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f|x",
-   "cuando": "2026-10-22T01:40:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad96990282deeeeb2c3a96f",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x",
-   "cuando": "2026-10-22T01:40:32.000Z",
-   "dueAt": "2026-10-22T01:42:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad96990282deeeeb2c3a99b",
-   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x",
-   "cuando": "2026-10-22T01:40:32.000Z",
-   "dueAt": "2026-10-22T01:48:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
-   "cuando": "2026-10-22T02:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
    "cuando": "2026-10-22T02:20:19.000Z",
    "estado": "pendiente",
@@ -40561,6 +40593,47 @@
    "cuando": "2026-10-26T16:40:36.000Z",
    "dueAt": "2026-10-26T16:42:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00249",
+   "cuando": "2026-10-26T17:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00249|x",
+   "cuando": "2026-10-26T17:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00249|tiktok",
+   "cuando": "2026-10-26T17:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00248|x",
+   "cuando": "2026-10-26T17:00:29.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114759618370932749"
+  },
+  {
+   "buffer_id": "6adf872efd915805681eb270",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
+   "cuando": "2026-10-26T17:00:31.000Z",
+   "dueAt": "2026-10-26T17:02:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adf872f79c317817cfe982f",
+   "clave": "entrevistas:job00249|x",
+   "cuando": "2026-10-26T17:00:31.000Z",
+   "dueAt": "2026-10-26T17:08:20.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40586,7 +40659,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
- "ultima_sync": "2026-10-26T16:00:18.000Z",
+ "ultima_sync": "2026-10-26T17:00:29.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -40759,6 +40832,7 @@
   "entrevistas:job00246": "2026-10-23T16:40:15.000Z",
   "entrevistas:job00247": "2026-10-23T17:20:14.000Z",
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
+  "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
