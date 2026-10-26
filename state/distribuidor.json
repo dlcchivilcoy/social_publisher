@@ -6766,24 +6766,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
    "volanta": ""
   },
-  "web:0488321b-e07d-4538-90b9-84ad4724ad17": {
-   "categoria": "",
-   "descripcion": "El INTA proyecta rindes altos para el cereal y aconseja intensificar la inversión en tecnología con diagnósticos precisos de suelo.",
-   "generado": "2026-10-15T15:33:32.822Z",
-   "id": "web:0488321b-e07d-4538-90b9-84ad4724ad17",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_366903039f3c489e930d246036afb651~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
-   "volanta": ""
-  },
   "web:053f7722-ce93-4d22-9679-cc89862bee76": {
    "categoria": "",
    "descripcion": "La Policía recuperó la totalidad de las motos robadas al ex piloto Sebastián Porto Tras un intenso operativo de investigación y el análisis de cámaras de seguridad, las fuerzas de seguridad locales hallaron el tercer rodado y dieron por esclarecido el hecho que conmocionó a Chivilcoy. En un eficaz y rápido accionar de las fuerzas de seguridad locales, la causa por el audaz robo sufrido por el reconocido ex piloto de motociclismo Sebastián Porto quedó completamente esclarecida. Este lunes,...",
@@ -10203,24 +10185,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:9cb13f8f-7629-4775-bc59-668a4e784c85": {
-   "categoria": "nacionales",
-   "descripcion": "Londres evalúa oponerse a la incorporación del país al tratado de libre comercio tras el reclamo judicial argentino por la explotación petrolera en la…",
-   "generado": "2026-10-15T15:36:39.180Z",
-   "id": "web:9cb13f8f-7629-4775-bc59-668a4e784c85",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d3e2079648674c5c8891bbc82bdcee5f~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTPP por Malvinas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
-   "volanta": ""
-  },
   "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a": {
    "categoria": "",
    "descripcion": "Juanita Fernández obtuvo la medalla de oro en 400 metros sub 18 Una representante chivilcoyana, identificada en la competencia con el dorsal 0360, obtuvo la medalla de oro en la prueba de 400 metros de la categoría sub 18 tras consagrarse en su carrera.",
@@ -12462,17 +12426,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 38426,
+   "restantes": 241,
+   "segundos": 37230,
    "tope": 250
   },
   "30d": {
-   "restantes": 2131,
-   "segundos": 1317022,
+   "restantes": 2130,
+   "segundos": 1315825,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T15:20:19.000Z",
+ "cuota_visto": "2026-10-26T15:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -16205,14 +16169,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x": {
-   "actualizado": "2026-10-26T14:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T15:40:14.000Z",
+   "buffer_id": "6adf745fbc208c66b5000f9f",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
    "creado": "2026-10-26T14:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T15:42:20.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
    "intentos": 0,
@@ -27437,31 +27401,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:0488321b-e07d-4538-90b9-84ad4724ad17|x": {
-   "actualizado": "2026-10-16T15:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:0488321b-e07d-4538-90b9-84ad4724ad17|x",
-   "creado": "2026-10-15T15:40:19.000Z",
-   "dueAt": "",
-   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "vencido",
-   "generado": "2026-10-15T15:33:32.822Z",
-   "id": "web:0488321b-e07d-4538-90b9-84ad4724ad17",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición\n\nEl INTA proyecta rindes altos para el cereal y aconseja intensificar la inversión en tecnología con diagnósticos precisos de suelo.\n\nhttps://www.diariolacampaña.com.ar/n/maiz-pronostican-mas-agua-y-el-inta-aconseja-ajustar-manejo-y-19ce5b",
-   "tipo": "nota",
-   "titulo": "Maíz: pronostican más agua y el INTA aconseja ajustar manejo y nutrición",
-   "urgente": false,
-   "vence": "2026-10-16T15:33:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:053f7722-ce93-4d22-9679-cc89862bee76|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -32924,30 +32863,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x": {
-   "actualizado": "2026-10-16T15:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:9cb13f8f-7629-4775-bc59-668a4e784c85|x",
-   "creado": "2026-10-15T15:40:19.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T15:36:39.180Z",
-   "id": "web:9cb13f8f-7629-4775-bc59-668a4e784c85",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTPP por Malvinas\n\nLondres evalúa oponerse a la incorporación del país al tratado de libre comercio tras el reclamo judicial argentino por la explotación petrolera en la…\n\nhttps://www.diariolacampaña.com.ar/n/reino-unido-evalua-usar-su-veto-para-bloquear-el-ingreso-de-la-51ae85",
-   "tipo": "nota",
-   "titulo": "Reino Unido evalúa usar su veto para bloquear el ingreso de la Argentina al CPTPP por Malvinas",
-   "urgente": false,
-   "vence": "2026-10-16T15:36:39.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x": {
    "actualizado": "2026-10-22T14:20:16.000Z",
    "buffer_id": "",
@@ -36368,12 +36283,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113068474507424227"
-  },
   {
    "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|tiktok",
    "cuando": "2026-10-22T01:00:23.000Z",
@@ -40605,6 +40514,13 @@
    "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
    "cuando": "2026-10-26T15:20:19.000Z",
    "dueAt": "2026-10-26T15:22:00.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adf745fbc208c66b5000f9f",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
+   "cuando": "2026-10-26T15:40:16.000Z",
+   "dueAt": "2026-10-26T15:42:20.000Z",
    "evento": "programado"
   }
  ],
