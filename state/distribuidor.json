@@ -2776,6 +2776,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
    "youtube_url": "https://youtu.be/dGj7ND9Lx2I"
   },
+  "entrevistas:job00250": {
+   "descripcion": "Lorena D'Amico, responsable de Benessere 360 en Chivilcoy, explica por qué los cambios físicos comienzan desde el bienestar interior. La terapeuta destaca la importancia de respetar los tiempos individuales en cada tratamiento.",
+   "duracion_seg": null,
+   "entrevistado": "Lorena D'Amico",
+   "generado": "2026-10-26T17:40:14.000Z",
+   "id": "entrevistas:job00250",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Lorena D'Amico: bienestar real más allá del 90-60-90",
+   "urgente": false,
+   "video_bytes": 29440033,
+   "video_mb": 28.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
+   "youtube_url": "https://youtu.be/CYYoo7wurUU"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -6402,30 +6423,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_02_junin_robaron-y-destrozaron-el-club-.mp4",
    "volanta": "Robo en el Club River de Junín",
    "youtube_url": "https://youtube.com/shorts/RVmqCHYfMok"
-  },
-  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": {
-   "categoria": "homicidio",
-   "descripcion": "Una mujer de 37 años murió tras el impacto frontal de un auto contra una camioneta. Su expareja manejaba el vehículo a pesar de tener una perimetral vigente.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-16T15:41:32.000Z",
-   "id": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "texto_tiktok": "Una vecina de Suipacha de 37 años falleció este lunes en un violento impacto frontal sobre el kilómetro 112 de la Ruta Nacional 5.\n\nLa víctima iba a bordo de un automóvil guiado por su expareja, un hombre de 41 años que contaba con una medida judicial de prohibición de acercamiento.\n\nEl conductor y el otro automovilista involucrado sufrieron heridas de gravedad y continúan internados en el hospital municipal.\n\nLa fiscalía interviniente ordenó diversas medidas de prueba para esclarecer si el episodio fatal estuvo vinculado a un contexto de violencia de género.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Homicidio #BuenosAires",
-   "tipo": "video",
-   "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
-   "urgente": true,
-   "video_bytes": 85860,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4",
-   "volanta": "Mercedes y Suipacha en Junín",
-   "youtube_url": "https://youtube.com/shorts/mFvTGuATQFs"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": {
    "categoria": "operativo_policial",
@@ -12467,22 +12464,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
+   "restantes": 99,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 237,
-   "segundos": 32415,
+   "restantes": 236,
+   "segundos": 30020,
    "tope": 250
   },
   "30d": {
-   "restantes": 2126,
-   "segundos": 1311011,
+   "restantes": 2125,
+   "segundos": 1308615,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T17:00:31.000Z",
+ "cuota_visto": "2026-10-26T17:40:26.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -20596,6 +20593,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
    "viral": false
   },
+  "entrevistas:job00250|tiktok": {
+   "actualizado": "2026-10-26T17:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00250|tiktok",
+   "creado": "2026-10-26T17:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T17:40:14.000Z",
+   "id": "entrevistas:job00250",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Lorena D'Amico: bienestar real más allá del 90-60-90\n\nLorena D'Amico, responsable de Benessere 360 en Chivilcoy, explica por qué los cambios físicos comienzan desde el bienestar interior. La terapeuta destaca la importancia de respetar los tiempos individuales en cada tratamiento.\n\nhttps://youtu.be/CYYoo7wurUU\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lorena D'Amico: bienestar real más allá del 90-60-90",
+   "urgente": false,
+   "vence": "2026-10-28T17:40:14.000Z",
+   "video_bytes": 29440033,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
+   "viral": false
+  },
+  "entrevistas:job00250|x": {
+   "actualizado": "2026-10-26T17:40:25.000Z",
+   "buffer_id": "6adf90895ca6f486414671ab",
+   "clave": "entrevistas:job00250|x",
+   "creado": "2026-10-26T17:40:14.000Z",
+   "dueAt": "2026-10-26T17:42:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T17:40:14.000Z",
+   "id": "entrevistas:job00250",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alla-amico-bienestar-lorena-real",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Lorena D'Amico: bienestar real más allá del 90-60-90\n\nLorena D'Amico, responsable de Benessere 360 en Chivilcoy, explica por qué los cambios físicos comienzan desde el bienestar interior.\n\nhttps://youtu.be/CYYoo7wurUU",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lorena D'Amico: bienestar real más allá del 90-60-90",
+   "urgente": false,
+   "vence": "2026-10-26T19:40:14.000Z",
+   "video_bytes": 29440033,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
+   "viral": false
+  },
   "nacionales:01c0d7889e6b5047|tiktok": {
    "actualizado": "2026-10-21T00:20:25.000Z",
    "buffer_id": "",
@@ -26779,42 +26832,6 @@
    "vence": "2026-10-17T19:09:30.000Z",
    "video_bytes": 73255,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_02_junin_robaron-y-destrozaron-el-club-.mp4"
-  },
-  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok": {
-   "actualizado": "2026-10-16T17:20:18.000Z",
-   "buffer_id": "6ad2582580c0829214db3949",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|tiktok",
-   "creado": "2026-10-16T16:00:18.000Z",
-   "dueAt": "2026-10-16T17:03:50.000Z",
-   "enviado": "2026-10-16T17:06:53.408Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T15:41:32.000Z",
-   "id": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697312875588701460",
-   "metricas": {
-    "averageTimeWatched": 6.21,
-    "comments": 0,
-    "engagementRate": 1.65,
-    "reach": 0,
-    "reactions": 6,
-    "shares": 1,
-    "totalTimeWatched": 51.3,
-    "views": 424
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 9,
-   "texto": "Una vecina de Suipacha de 37 años falleció este lunes en un violento impacto frontal sobre el kilómetro 112 de la Ruta Nacional 5.\n\nLa víctima iba a bordo de un automóvil guiado por su expareja, un hombre de 41 años que contaba con una medida judicial de prohibición de acercamiento.\n\nEl conductor y el otro automovilista involucrado sufrieron heridas de gravedad y continúan internados en el hospital municipal.\n\nLa fiscalía interviniente ordenó diversas medidas de prueba para esclarecer si el episodio fatal estuvo vinculado a un contexto de violencia de género.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
-   "urgente": true,
-   "vence": "2026-10-17T09:41:32.000Z",
-   "video_bytes": 85860,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|tiktok": {
    "actualizado": "2026-10-24T12:40:12.000Z",
@@ -36400,32 +36417,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-22T02:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x",
-   "cuando": "2026-10-22T02:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113083638174613867"
-  },
-  {
-   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x",
-   "cuando": "2026-10-22T02:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113085191736434850"
-  },
-  {
-   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
-   "cuando": "2026-10-22T02:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113073742846845361"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|x",
    "cuando": "2026-10-22T09:00:19.000Z",
    "evento": "vencido",
@@ -40634,6 +40625,34 @@
    "cuando": "2026-10-26T17:00:31.000Z",
    "dueAt": "2026-10-26T17:08:20.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00250",
+   "cuando": "2026-10-26T17:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00250|x",
+   "cuando": "2026-10-26T17:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00250|tiktok",
+   "cuando": "2026-10-26T17:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6adf90895ca6f486414671ab",
+   "clave": "entrevistas:job00250|x",
+   "cuando": "2026-10-26T17:40:26.000Z",
+   "dueAt": "2026-10-26T17:42:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40833,6 +40852,7 @@
   "entrevistas:job00247": "2026-10-23T17:20:14.000Z",
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
+  "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
