@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 09:06 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/10/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 15 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 30 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -29,22 +29,7 @@ Actualizado: 26/10/2026 09:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2136 de 3000 (visto 2026-10-26T02:40:16.000Z)
 
-## Cola propia (26 esperando)
-- X · Notas web · Destacada actuación chivilcoyana en la 27ª Maratón Internacional "Dino Hugo Tine — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Con seis pruebas especiales disputadas: Monserratt y Muciachio marcaron el ritmo — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Mejora en los procedimientos — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · La Peña Virgen de Loreto brilló en Santiago del Estero y la celebración local se — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Chivilcoy cerró un brillante desempeño en los Juegos Bonaerenses con 17 medallas — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Torneo Federal ‘A’: suspendieron el choque entre Boca Unidos y Gimnasia de Chivi — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Domingo Pastas representará a la ciudad en la Final del certamen provincial — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · El CUCH presentó su oferta académica: “Hemos logrado tener la diversidad de prop — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · El derecho a protestar no es el derecho a ejercer la violencia — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Preso mientras la Justicia demora: un fallo del Tribunal de Casación Bonaerense  — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · El libro de Alicia Ríos profundiza el recorrido histórico de la institución deno — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Comisión Fiscalizadora del Agua — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Actualidad local y judicial — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46 — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
-- X · Notas web · Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió — espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)
+## Cola propia (11 esperando)
 - TikTok · Reels del bot · Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un auto se despistó y chocó contra un poste en el Rally — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Cerró la primera temporada de la obra teatral Habladurías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -66,28 +51,28 @@ Actualizado: 26/10/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T02:00 programado bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x 
-- 2026-10-26T02:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x 
-- 2026-10-26T02:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x 
-- 2026-10-26T02:20 enviado bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x 
-- 2026-10-26T09:00 recibido policiales:https://laopinionline.ar/articulo/gatillo-facil-e 
-- 2026-10-26T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/25/chi 
-- 2026-10-26T09:00 recibido policiales:https://diarionucleo.com/ciudad/pergamino/291155- 
-- 2026-10-26T09:00 vencido policiales:https://laopinionline.ar/articulo/gatillo-facil-e no hubo lugar antes de su vencimiento
-- 2026-10-26T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/10/25/chi no hubo lugar antes de su vencimiento
-- 2026-10-26T09:00 vencido policiales:https://diarionucleo.com/ciudad/pergamino/291155- no hubo lugar antes de su vencimiento
-- 2026-10-26T10:20 recibido web:6c509d7f-52e1-4541-aa96-22083404a169|x 
-- 2026-10-26T10:20 recibido web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x 
-- 2026-10-26T10:20 recibido web:34578935-f4ba-4a48-b177-a3e196a4e890|x 
-- 2026-10-26T10:20 recibido web:110a806e-7381-4845-8f7e-851f18f79901|x 
-- 2026-10-26T10:20 recibido web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x 
-- 2026-10-26T10:20 recibido web:b4dddc38-6caa-416d-8010-6276dec99036|x 
-- 2026-10-26T10:20 recibido web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x 
-- 2026-10-26T10:20 recibido web:aac6f864-9661-40bc-8e13-c03b62c05fed|x 
-- 2026-10-26T10:21 recibido web:2c08d2bb-2c10-4352-a617-4a84c0781807|x 
-- 2026-10-26T10:21 recibido web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x 
-- 2026-10-26T10:21 recibido web:439df9f0-970a-42fd-979a-69b57c0f8607|x 
-- 2026-10-26T10:21 recibido web:76ba9989-902f-48e4-be31-1bb0265c5c60|x 
-- 2026-10-26T10:21 recibido web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x 
-- 2026-10-26T10:21 recibido web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x 
-- 2026-10-26T10:21 recibido web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x 
+- 2026-10-26T12:06 recibido web:bfd610a6-2963-4140-98d0-d45bf948298c|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:f34b4317-aae2-4788-9b60-afe5d1e7eb93|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:2bda9681-8499-4001-bce8-f38052f6e045|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:141e8c71-d366-458d-8748-f475405147ab|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:d243e208-dd8e-46a7-9465-8665ba05218a|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:1f7131d8-0343-4072-9cd4-8996b6088ee3|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:02e93911-55df-4a65-bb82-d3e764bdb7c5|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:543a1dac-3518-4b28-b261-d81059e2857d|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:daae8efc-080c-4b85-8684-6b87ab41878c|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 recibido web:8b789d89-b735-4a61-8637-1f4be868e032|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-10-26T12:06 depurado web:110a806e-7381-4845-8f7e-851f18f79901|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:2c08d2bb-2c10-4352-a617-4a84c0781807|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:34578935-f4ba-4a48-b177-a3e196a4e890|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:439df9f0-970a-42fd-979a-69b57c0f8607|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:6c509d7f-52e1-4541-aa96-22083404a169|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:76ba9989-902f-48e4-be31-1bb0265c5c60|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:aac6f864-9661-40bc-8e13-c03b62c05fed|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:b4dddc38-6caa-416d-8010-6276dec99036|x no está en el carrusel del diario de hoy
+- 2026-10-26T12:06 depurado web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x no está en el carrusel del diario de hoy
