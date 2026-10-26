@@ -8912,24 +8912,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
    "volanta": "Chivilcoy · Educación"
   },
-  "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": {
-   "categoria": "nacionales",
-   "descripcion": "Una polémica sentencia en San Nicolás absolvió a acusados por protestas gremiales. Mientras en 2023 hubo un fallo sobre arresto, los bloqueos bajaron a 8…",
-   "generado": "2026-10-15T12:06:45.465Z",
-   "id": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7ba6e9b9902a41f0b103459883efa52d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las empresas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
-   "volanta": ""
-  },
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": {
    "categoria": "nacionales",
    "descripcion": "El Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos…",
@@ -31194,30 +31176,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x": {
-   "actualizado": "2026-10-16T12:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a|x",
-   "creado": "2026-10-15T12:20:15.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T12:06:45.465Z",
-   "id": "web:6a095240-50d7-424b-8a14-3d4713bb5b8a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las empresas\n\nUna polémica sentencia en San Nicolás absolvió a acusados por protestas gremiales. Mientras en 2023 hubo un fallo sobre arresto, los bloqueos bajaron a 8…\n\nhttps://www.diariolacampaña.com.ar/n/polemico-fallo-judicial-en-san-nicolas-sobre-bloqueos-8da5c9",
-   "tipo": "nota",
-   "titulo": "Polémico fallo judicial en San Nicolás sobre bloqueos sindicales preocupa a las empresas",
-   "urgente": false,
-   "vence": "2026-10-16T12:06:45.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x": {
    "actualizado": "2026-10-19T15:40:25.000Z",
