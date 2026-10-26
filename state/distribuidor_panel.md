@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 9 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 9 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,7 +27,7 @@ Actualizado: 25/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2140 de 3000 (visto 2026-10-26T00:40:20.000Z)
+15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2139 de 3000 (visto 2026-10-26T01:00:19.000Z)
 
 ## Cola propia (9 esperando)
 - TikTok · Reels del bot · Cerró la primera temporada de la obra teatral Habladurías — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
@@ -49,8 +49,6 @@ Actualizado: 25/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T15:40 recibido web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-25T15:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x 
 - 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
 - 2026-10-25T15:40 programado bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x 
 - 2026-10-25T17:00 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x 
@@ -74,3 +72,5 @@ Actualizado: 25/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-26T00:40 recibido web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T00:40 programado bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x 
 - 2026-10-26T00:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/25/ral 
+- 2026-10-26T01:00 enviado bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x 
+- 2026-10-26T01:00 enviado policiales:https://www.latrochadigital.com.ar/2026/10/25/ral 
