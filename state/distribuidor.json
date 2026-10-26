@@ -10793,24 +10793,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sin-tratamiento-la-oposicion-no-logro-el-quorum-y-se-cayo-la-sesion",
    "volanta": "Sin tratamiento"
   },
-  "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": {
-   "categoria": "nacionales",
-   "descripcion": "La Justicia determinó que utilizar el artículo 280 para desestimar recursos sin dar fundamentos no constituye delito. La medida benefició a Lorenzetti,…",
-   "generado": "2026-10-15T21:36:24.573Z",
-   "id": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_91f3f6fff6494e8396263f8741ca704e~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-camara-de-casacion-ratifico-el-archivo-de-una-causa-contra-73ad9a",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "La Cámara de Casación ratificó el archivo de una causa contra los jueces de la Corte Suprema",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-camara-de-casacion-ratifico-el-archivo-de-una-causa-contra-73ad9a",
-   "volanta": ""
-  },
   "web:c6663899-669a-41de-b04f-299805304e87": {
    "categoria": "nacionales",
    "descripcion": "La plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan…",
@@ -33307,30 +33289,6 @@
    "titulo": "La oposición no logró el quórum y se cayó la sesión para tratar la derogación del DNU 70",
    "urgente": false,
    "vence": "2026-10-17T10:09:07.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x": {
-   "actualizado": "2026-10-16T21:40:13.000Z",
-   "buffer_id": "",
-   "clave": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab|x",
-   "creado": "2026-10-15T21:40:16.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T21:36:24.573Z",
-   "id": "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-camara-de-casacion-ratifico-el-archivo-de-una-causa-contra-73ad9a",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 La Cámara de Casación ratificó el archivo de una causa contra los jueces de la Corte Suprema\n\nLa Justicia determinó que utilizar el artículo 280 para desestimar recursos sin dar fundamentos no constituye delito. La medida benefició a Lorenzetti,…\n\nhttps://www.diariolacampaña.com.ar/n/la-camara-de-casacion-ratifico-el-archivo-de-una-causa-contra-73ad9a",
-   "tipo": "nota",
-   "titulo": "La Cámara de Casación ratificó el archivo de una causa contra los jueces de la Corte Suprema",
-   "urgente": false,
-   "vence": "2026-10-16T21:36:24.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
