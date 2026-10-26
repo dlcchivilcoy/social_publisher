@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 5 | 1 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 34 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -18,32 +18,27 @@ Actualizado: 26/10/2026 17:40 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 31 · likes 0
-- X · Reels del bot: 89 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Reels del bot: 87 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Reels policiales: 37 con métricas · mediana vistas/impresiones 37 · likes 0
-- X · Notas web: 94 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 92 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Reels del bot: 59 con métricas · mediana vistas/impresiones 309 · likes 2
 - TikTok · Reels policiales: 19 con métricas · mediana vistas/impresiones 511 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2122 de 3000 (visto 2026-10-26T19:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2121 de 3000 (visto 2026-10-26T21:00:23.000Z)
 
-## Cola propia (14 esperando)
-- TikTok · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Alumnos de Chivilcoy graban los himnos | Lorena Ghinzani — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Lorena D'Amico: bienestar real más allá del 90-60-90 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Biaus Sanguineti: el Municipio no sabe los km de caminos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Ana Maria Berón: La fibromialgia no se cura con analgésicos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (9 esperando)
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — no entró entre las 5 más virales de la tanda 18 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -53,11 +48,6 @@ Actualizado: 26/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T16:40 entrevista_aprobada entrevistas:job00248 
-- 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
-- 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
-- 2026-10-26T16:40 recibido entrevistas:job00248|x 
-- 2026-10-26T16:40 recibido entrevistas:job00248|tiktok 
 - 2026-10-26T16:40 recibido web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T16:40 programado entrevistas:job00248|x 
 - 2026-10-26T17:00 entrevista_aprobada entrevistas:job00249 
@@ -78,3 +68,8 @@ Actualizado: 26/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-26T18:20 enviado entrevistas:job00250|x 
 - 2026-10-26T18:20 programado entrevistas:job00251|x 
 - 2026-10-26T19:20 enviado entrevistas:job00251|x 
+- 2026-10-26T21:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
+- 2026-10-26T21:00 programado entrevistas:job00251|tiktok 
+- 2026-10-26T21:00 programado entrevistas:job00250|tiktok 
+- 2026-10-26T21:00 programado entrevistas:job00249|tiktok 
+- 2026-10-26T21:00 programado entrevistas:job00248|tiktok 

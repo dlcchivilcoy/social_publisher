@@ -54,27 +54,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/18IXmpACoNk"
   },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs": {
-   "descripcion": "Reconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín. La deportista se ubicó como la segunda mejor argentina en una de las ocho maratones más importantes del mundo, que reunió a más de 60.000 corredores. Durante el encuentro,",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-16T15:32:18.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
-   "urgente": false,
-   "video_bytes": 346393,
-   "video_mb": 0.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/FZ7BohMk_M4"
-  },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c": {
    "descripcion": "La Municipalidad de Chivilcoy realizó la despedida simbólica de los deportistas que representarán a la ciudad en la etapa final de los Juegos Bonaerenses, que se disputará en Mar del Plata. Durante el encuentro, se hizo entrega de la indumentaria a los integrantes de la delegación,",
    "duracion_seg": 30.0,
@@ -95,27 +74,6 @@
    "video_mb": 1.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4",
    "youtube_url": "https://www.youtube.com/shorts/qisxzid7ckM"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi": {
-   "descripcion": "Personal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15 años en el marco de una causa por encubrimiento. El procedimiento se llevó a cabo el 16 de octubre en calles 88 y 81.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-16T15:52:36.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
-   "urgente": false,
-   "video_bytes": 1054659,
-   "video_mb": 1.0,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/IGJ8sItybGw"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd": {
    "descripcion": "El director de Gobierno de Chivilcoy, Hugo Kübler, explicó cómo se desarrolló el proceso judicial para recuperar la nave industrial donde funcionó la empresa Perchet, vinculada a Bicontinentar, y respondió a los cuestionamientos sobre el convenio firmado con la firma, la condonación de multas",
@@ -6988,24 +6946,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-cosecha-record-de-medallas-para-chivilcoy-en-la",
    "volanta": "Final Provincial"
   },
-  "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0": {
-   "categoria": "",
-   "descripcion": "Álvaro Cortés presenta su nuevo libro: “el lector no encontrará respuestas cerradas, sino un recorrido por preguntas universales vinculadas al amor, la existencia y los vínculos humanos” El escritor Álvaro Cortés presentará este sábado en la ciudad su nuevo poemario titulado “Cuando corten la música”. La actividad cultural tendrá lugar en las instalaciones de la Sociedad Francesa de Chivilcoy a partir de las 19 horas, con entrada libre y gratuita para toda la comunidad que desee acercarse a...",
-   "generado": "2026-10-16T10:05:01.560Z",
-   "id": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_70597bc60a404dc6ac7134c3bc7204f1~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cuando-corten-la-musica-alvaro-cortes-presenta-su-nuevo-libro-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Álvaro Cortés presenta su nuevo libro: “el lector no encontrará respuestas cerradas, sino un recorrido por preguntas universales vinculadas al amor, la existencia y los…",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cuando-corten-la-musica-alvaro-cortes-presenta-su-nuevo-libro-el",
-   "volanta": "“Cuando corten la música”"
-  },
   "web:18e1be80-a9ad-41f2-9e05-274978b011a3": {
    "categoria": "nacionales",
    "descripcion": "El bloque de mandatarios provinciales acordó acompañar el proyecto del oficialismo en Diputados tras conseguir modificaciones presupuestarias. La…",
@@ -8887,24 +8827,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt-1",
    "volanta": "Campeonato Regional"
-  },
-  "web:725569a0-fb4a-45ea-b7ed-10abf912cf30": {
-   "categoria": "",
-   "descripcion": "Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en Brasil El tenis juvenil argentino tiene a un protagonista que brilla con fuerza en tierras brasileñas. Máximo Cataldi comenzó su participación en el South America Junior Series de manera arrolladora y se metió de lleno en la pelea por el gran objetivo: conseguir el boleto al cuadro juvenil del Australian Open. Un debut sólido y una victoria contundente En su presentación dentro de la fase de grupos, el joven...",
-   "generado": "2026-10-16T10:05:47.376Z",
-   "id": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c0efefc68879491e8165d4fd9adb2922~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-punto-a-punto-hacia-el-sueno-australiano-el-gran-arranque-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en Brasil",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tenis-punto-a-punto-hacia-el-sueno-australiano-el-gran-arranque-de",
-   "volanta": "Tenis"
   },
   "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793": {
    "categoria": "",
@@ -12172,17 +12094,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 233,
-   "segundos": 24029,
+   "restantes": 232,
+   "segundos": 18025,
    "tope": 250
   },
   "30d": {
-   "restantes": 2122,
-   "segundos": 1302625,
+   "restantes": 2121,
+   "segundos": 1296621,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T19:20:16.000Z",
+ "cuota_visto": "2026-10-26T21:00:23.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -12236,40 +12158,6 @@
    "video_bytes": 942586,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
   },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
-   "buffer_id": "6ad24560cb7df35161481f59",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs|x",
-   "creado": "2026-10-16T15:40:14.000Z",
-   "dueAt": "2026-10-16T20:15:32.000Z",
-   "enviado": "2026-10-16T20:15:53.437Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T15:32:18.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb4e90g2yvs",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111189406585409729",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 25,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín\n\nReconocimiento a la atleta chivilcoyana Gisela Spinelli por su destacada participación en la Maratón de Berlín.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-reconocieron-a-gisela-spinelli-tras-su-destacada",
-   "tipo": "video",
-   "titulo": "Reconocieron a Gisela Spinelli tras su destacada labor en la Maratón de Berlín",
-   "urgente": false,
-   "vence": "2026-10-18T15:32:18.000Z",
-   "video_bytes": 346393,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7851ec7426de3140.mp4"
-  },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb4oc7ieh2c|x": {
    "actualizado": "2026-10-16T22:00:19.000Z",
    "buffer_id": "6ad2825329a10da0161a8c5a",
@@ -12303,40 +12191,6 @@
    "vence": "2026-10-18T15:44:43.000Z",
    "video_bytes": 1075136,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c5bca63b2d364e11.mp4"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
-   "buffer_id": "6ad24ec1709e3eab3f97854f",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi|x",
-   "creado": "2026-10-16T16:00:18.000Z",
-   "dueAt": "2026-10-16T20:30:37.000Z",
-   "enviado": "2026-10-16T20:30:49.580Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T15:52:36.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb54dlzyufi",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111193165378019710",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 19,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Recuperaron una moto robada y aprehendieron a un adolescente\n\nPersonal del Grupo Táctico Operativo (GTO) de la Policía de Chivilcoy recuperó una motocicleta Gilera de 110 cc que había sido sustraída y aprehendió a un adolescente de 15…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-robada-y-aprehendieron-a-un",
-   "tipo": "video",
-   "titulo": "Recuperaron una moto robada y aprehendieron a un adolescente",
-   "urgente": false,
-   "vence": "2026-10-18T15:52:36.000Z",
-   "video_bytes": 1054659,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_de95c7f3c5235dbf.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd|tiktok": {
    "actualizado": "2026-10-16T22:00:19.000Z",
@@ -15173,7 +15027,7 @@
    "creado": "2026-10-25T13:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-25T13:06:49.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
@@ -15238,7 +15092,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-25T14:03:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
@@ -15303,7 +15157,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-25T14:11:09.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
@@ -15368,7 +15222,7 @@
    "creado": "2026-10-25T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-25T14:26:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
@@ -15433,7 +15287,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-25T15:22:33.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l",
@@ -15498,7 +15352,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-25T15:30:32.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw",
@@ -15695,7 +15549,7 @@
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
@@ -15752,7 +15606,7 @@
    "creado": "2026-10-26T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
@@ -15802,15 +15656,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok": {
-   "actualizado": "2026-10-26T16:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T21:00:18.000Z",
+   "buffer_id": "6adfbf64465475d287755669",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
    "creado": "2026-10-26T16:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T21:03:33.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T16:27:37.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
    "intentos": 0,
@@ -18982,7 +18836,7 @@
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
@@ -20077,15 +19931,15 @@
    "viral": false
   },
   "entrevistas:job00248|tiktok": {
-   "actualizado": "2026-10-26T16:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T21:00:18.000Z",
+   "buffer_id": "6adfbf67ca308c8a232544e0",
    "categoria": "",
    "clave": "entrevistas:job00248|tiktok",
    "creado": "2026-10-26T16:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T22:23:08.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T16:40:17.000Z",
    "id": "entrevistas:job00248",
    "intentos": 0,
@@ -20134,15 +19988,15 @@
    "viral": false
   },
   "entrevistas:job00249|tiktok": {
-   "actualizado": "2026-10-26T17:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T21:00:18.000Z",
+   "buffer_id": "6adfbf663ffda7dd0590fcba",
    "categoria": "",
    "clave": "entrevistas:job00249|tiktok",
    "creado": "2026-10-26T17:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T22:03:59.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T17:00:18.000Z",
    "id": "entrevistas:job00249",
    "intentos": 0,
@@ -20191,15 +20045,15 @@
    "viral": false
   },
   "entrevistas:job00250|tiktok": {
-   "actualizado": "2026-10-26T17:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T21:00:18.000Z",
+   "buffer_id": "6adfbf66ca308c8a23254421",
    "categoria": "",
    "clave": "entrevistas:job00250|tiktok",
    "creado": "2026-10-26T17:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T21:43:57.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T17:40:14.000Z",
    "id": "entrevistas:job00250",
    "intentos": 0,
@@ -20248,15 +20102,15 @@
    "viral": false
   },
   "entrevistas:job00251|tiktok": {
-   "actualizado": "2026-10-26T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-26T21:00:18.000Z",
+   "buffer_id": "6adfbf653ffda7dd0590f9f9",
    "categoria": "",
    "clave": "entrevistas:job00251|tiktok",
    "creado": "2026-10-26T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-26T21:23:26.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T18:20:14.000Z",
    "id": "entrevistas:job00251",
    "intentos": 0,
@@ -27409,40 +27263,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
-   "buffer_id": "6ad240b17521b876061691bc",
-   "clave": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T20:00:15.000Z",
-   "enviado": "2026-10-16T20:01:36.037Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:05:01.560Z",
-   "id": "web:185498dd-56b9-4dad-a05b-ba86a7b3c2d0",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111185810020081798",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 3.7,
-    "impressions": 27,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cuando-corten-la-musica-alvaro-cortes-presenta-su-nuevo-libro-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Álvaro Cortés presenta su nuevo libro: “el lector no encontrará respuestas cerradas, sino un recorrido por preguntas universales vinculadas al amor, la existencia y los…\n\nvínculos humanos” El escritor Álvaro Cortés presentará este sábado en la…\n\nhttps://www.diariolacampaña.com.ar/n/cuando-corten-la-musica-alvaro-cortes-presenta-su-nuevo-libro-el",
-   "tipo": "nota",
-   "titulo": "Álvaro Cortés presenta su nuevo libro: “el lector no encontrará respuestas cerradas, sino un recorrido por preguntas universales vinculadas al amor, la existencia y los…",
-   "urgente": false,
-   "vence": "2026-10-17T10:05:01.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:18e1be80-a9ad-41f2-9e05-274978b011a3|x": {
    "actualizado": "2026-10-18T19:20:21.000Z",
    "buffer_id": "",
@@ -30457,40 +30277,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x": {
-   "actualizado": "2026-10-16T20:40:16.000Z",
-   "buffer_id": "6ad240b1709e3eab3f93db1f",
-   "clave": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T19:45:15.000Z",
-   "enviado": "2026-10-16T19:45:16.109Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:05:47.376Z",
-   "id": "web:725569a0-fb4a-45ea-b7ed-10abf912cf30",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111181700327768462",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-punto-a-punto-hacia-el-sueno-australiano-el-gran-arranque-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en Brasil\n\nEl tenis juvenil argentino tiene a un protagonista que brilla con fuerza en tierras brasileñas.\n\nhttps://www.diariolacampaña.com.ar/n/tenis-punto-a-punto-hacia-el-sueno-australiano-el-gran-arranque-de",
-   "tipo": "nota",
-   "titulo": "Punto a punto hacia el sueño australiano: el gran arranque de Máximo Cataldi en Brasil",
-   "urgente": false,
-   "vence": "2026-10-17T10:05:47.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x": {
    "actualizado": "2026-10-19T19:00:19.000Z",
@@ -35521,46 +35307,6 @@
  },
  "registro": [
   {
-   "clave": "web:ff2853a5-e6da-4760-9b15-060f61d644a1|x",
-   "cuando": "2026-10-22T10:03:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a223c7fb-02cc-4f0e-8968-13bbf35af953|x",
-   "cuando": "2026-10-22T10:03:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2e4fe240-6f88-48fa-9527-8c188ea675b0|x",
-   "cuando": "2026-10-22T10:03:37.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x",
-   "cuando": "2026-10-22T10:03:44.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x",
-   "cuando": "2026-10-22T10:03:53.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:993aea8e-95de-4b48-ac0f-22d386bc338b|x",
    "cuando": "2026-10-22T10:03:57.000Z",
    "estado": "pendiente",
@@ -39747,6 +39493,41 @@
    "cuando": "2026-10-26T19:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114784927321346532"
+  },
+  {
+   "buffer_id": "6adfbf64465475d287755669",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
+   "cuando": "2026-10-26T21:00:23.000Z",
+   "dueAt": "2026-10-26T21:03:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adfbf653ffda7dd0590f9f9",
+   "clave": "entrevistas:job00251|tiktok",
+   "cuando": "2026-10-26T21:00:23.000Z",
+   "dueAt": "2026-10-26T21:23:26.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adfbf66ca308c8a23254421",
+   "clave": "entrevistas:job00250|tiktok",
+   "cuando": "2026-10-26T21:00:23.000Z",
+   "dueAt": "2026-10-26T21:43:57.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adfbf663ffda7dd0590fcba",
+   "clave": "entrevistas:job00249|tiktok",
+   "cuando": "2026-10-26T21:00:23.000Z",
+   "dueAt": "2026-10-26T22:03:59.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adfbf67ca308c8a232544e0",
+   "clave": "entrevistas:job00248|tiktok",
+   "cuando": "2026-10-26T21:00:23.000Z",
+   "dueAt": "2026-10-26T22:23:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39768,7 +39549,8 @@
    "2026-10-24 10",
    "2026-10-24 18",
    "2026-10-24 21",
-   "2026-10-26 10"
+   "2026-10-26 10",
+   "2026-10-26 18"
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
