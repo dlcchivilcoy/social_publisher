@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 1
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-26T13:20:17.000Z"
+   "visto": "2026-10-26T14:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 13
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-10-26T13:20:17.000Z"
+   "visto": "2026-10-26T14:40:15.000Z"
   }
  },
  "contenidos": {
@@ -12554,17 +12554,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 244,
-   "segundos": 43927,
+   "restantes": 243,
+   "segundos": 40830,
    "tope": 250
   },
   "30d": {
-   "restantes": 2133,
-   "segundos": 1322523,
+   "restantes": 2132,
+   "segundos": 1319425,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T13:48:38.000Z",
+ "cuota_visto": "2026-10-26T14:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -16080,19 +16080,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok": {
-   "actualizado": "2026-10-26T13:00:20.000Z",
+   "actualizado": "2026-10-26T14:40:15.000Z",
    "buffer_id": "6adf4eeb1af33188f8df8e45",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok",
    "creado": "2026-10-25T20:20:14.000Z",
    "dueAt": "2026-10-26T14:23:24.000Z",
+   "enviado": "2026-10-26T14:27:14.891Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T20:13:48.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700982030967950598",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16239,18 +16240,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x": {
-   "actualizado": "2026-10-26T13:48:37.000Z",
+   "actualizado": "2026-10-26T14:40:15.000Z",
    "buffer_id": "6adf5a3600bfbbae70047c19",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "2026-10-26T13:50:43.000Z",
+   "enviado": "2026-10-26T13:50:53.585Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114716397544563038",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
    "noticia": "nota:chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
    "origen": "bot",
@@ -19241,19 +19243,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok": {
-   "actualizado": "2026-10-26T13:00:20.000Z",
+   "actualizado": "2026-10-26T14:40:15.000Z",
    "buffer_id": "6adf4eeb2cad517d9eff2901",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
    "creado": "2026-10-25T21:00:16.000Z",
    "dueAt": "2026-10-26T14:03:07.000Z",
+   "enviado": "2026-10-26T14:07:06.502Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-25T20:47:43.000Z",
    "id": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700977573999758599",
    "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19306,19 +19309,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok": {
-   "actualizado": "2026-10-26T13:00:20.000Z",
+   "actualizado": "2026-10-26T14:40:15.000Z",
    "buffer_id": "6adf4eea19b3b1f093a917c7",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
    "creado": "2026-10-26T00:40:15.000Z",
    "dueAt": "2026-10-26T13:43:42.000Z",
+   "enviado": "2026-10-26T13:45:28.210Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T00:38:37.000Z",
    "id": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700971810233322758",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19371,19 +19375,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok": {
-   "actualizado": "2026-10-26T13:00:20.000Z",
+   "actualizado": "2026-10-26T14:40:15.000Z",
    "buffer_id": "6adf4ee9e09544fe900e78e9",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok",
    "creado": "2026-10-26T02:00:18.000Z",
    "dueAt": "2026-10-26T13:23:55.000Z",
+   "enviado": "2026-10-26T13:25:43.947Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T01:47:27.000Z",
    "id": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7700966724073524487",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -36639,45 +36644,6 @@
  },
  "registro": [
   {
-   "clave": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x",
-   "cuando": "2026-10-22T00:40:21.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ad95b76b086d40f5727fbc2",
-   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|x",
-   "cuando": "2026-10-22T00:40:22.000Z",
-   "dueAt": "2026-10-22T00:42:17.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
-   "cuando": "2026-10-22T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|tiktok",
-   "cuando": "2026-10-22T01:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "nacionales:b3aa9eb0744c0822|x",
-   "cuando": "2026-10-22T01:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:b3aa9eb0744c0822|tiktok",
    "cuando": "2026-10-22T01:00:23.000Z",
    "estado": "pendiente",
@@ -40880,6 +40846,36 @@
    "evento": "recibido",
    "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
    "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok",
+   "cuando": "2026-10-26T14:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700982030967950598"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
+   "cuando": "2026-10-26T14:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114716397544563038"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
+   "cuando": "2026-10-26T14:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700977573999758599"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
+   "cuando": "2026-10-26T14:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700971810233322758"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok",
+   "cuando": "2026-10-26T14:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7700966724073524487"
   }
  ],
  "tandas": {
@@ -40905,7 +40901,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
- "ultima_sync": "2026-10-26T13:20:17.000Z",
+ "ultima_sync": "2026-10-26T14:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
