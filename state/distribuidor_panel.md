@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -14,7 +14,7 @@ Actualizado: 25/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · ⏸ EN PAUSA hasta 25/10 22:23 · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -30,15 +30,15 @@ Actualizado: 25/10/2026 22:20 (hora AR) · ACTIVO
 15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2139 de 3000 (visto 2026-10-26T01:00:19.000Z)
 
 ## Cola propia (9 esperando)
-- TikTok · Reels del bot · Cerró la primera temporada de la obra teatral Habladurías — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · Los ganadores de la octava fecha del Rally de Chivilcoy — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
-- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)
+- TikTok · Reels del bot · Cerró la primera temporada de la obra teatral Habladurías — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Los ganadores de la octava fecha del Rally de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
