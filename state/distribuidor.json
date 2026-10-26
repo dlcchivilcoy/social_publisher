@@ -54,48 +54,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/gyURd6DfQmo"
   },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop": {
-   "descripcion": "El tenis juvenil argentino tiene a un protagonista que brilla con fuerza en tierras brasileñas. Máximo Cataldi comenzó su participación en el South America Junior Series de manera arrolladora y se metió de lleno en la pelea por el gran objetivo: conseguir el boleto al cuadro juvenil",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-16T00:51:01.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil",
-   "urgente": false,
-   "video_bytes": 597545,
-   "video_mb": 0.6,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_176ccf7b5f24e2ba.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/YZxV7617_JM"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3": {
-   "descripcion": "Dirigentes de SUTEBA Chivilcoy y del ámbito provincial formaron parte de una multitudinaria Marcha Federal Educativa junto a la CTERA y las centrales obreras. Exigen el cumplimiento de la Ley de Financiamiento, paritarias nacionales y protocolos de resguardo frente a agresiones a docentes.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-16T00:59:51.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar",
-   "urgente": false,
-   "video_bytes": 509076,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/562TXu0niqI"
-  },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix": {
    "descripcion": "Brandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA. Como características distintivas, tiene un logo de River debajo del tablero y una calcomanía",
    "duracion_seg": 30.0,
@@ -7124,6 +7082,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:110a806e-7381-4845-8f7e-851f18f79901": {
+   "categoria": "",
+   "descripcion": "La Peña Virgen de Loreto brilló en Santiago del Estero y la celebración local será el 6 de diciembre en su cierre de año Con una delegación récord de 56 bailarines en escena y un fuerte sentido de pertenencia bonaerense, la tradicional agrupación local dejó su huella en los escenarios norteños. Tras 16 años de trayectoria, ya palpitan su gran cierre de año previsto para diciembre. El folclore de la llanura pampeana volvió a trascender las fronteras de nuestra ciudad de la mano de la Peña...",
+   "generado": "2026-10-26T10:03:14.394Z",
+   "id": "web:110a806e-7381-4845-8f7e-851f18f79901",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f164343d04ce4198ba4c722f60eb84d9~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/delegacion-destacada-la-pena-virgen-de-loreto-brillo-en-santiago-del",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "La Peña Virgen de Loreto brilló en Santiago del Estero y la celebración local será el 6 de diciembre en su cierre de año",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/delegacion-destacada-la-pena-virgen-de-loreto-brillo-en-santiago-del",
+   "volanta": "Delegación destacada"
+  },
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78": {
    "categoria": "",
    "descripcion": "Robaron en un par de comercios de la ciudad: pérdidas económicas y daños materiales En la madrugada del martes 20 de octubre, dos reconocidos locales de la ciudad sufrieron robos bajo modalidades relámpago. Cámaras de seguridad registraron los hechos y los comerciantes apelan a la colaboración ciudadana en medio de una creciente preocupación por el delito. La tranquilidad de la madrugada del martes 20 de octubre se vio drásticamente interrumpida por una serie de hechos delictivos que...",
@@ -7214,24 +7191,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
    "volanta": ""
-  },
-  "web:15858ae6-1837-4436-b8ed-3a098530f992": {
-   "categoria": "",
-   "descripcion": "Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una discusión para tenerla en 15 días cuando es algo que lleva más de 40 años sin finalizar” La concejal Constanza Alonso, presidenta del bloque Fuerza Patria en el Concejo Deliberante, visitó los estudios de Radio del Centro durante el programa La Mañana del Centro para analizar diversas problemáticas de la actualidad local y nacional. Durante la entrevista, la edil profundizó sobre las razones que llevaron a su espacio...",
-   "generado": "2026-10-15T10:03:58.513Z",
-   "id": "web:15858ae6-1837-4436-b8ed-3a098530f992",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_004e3ba82de64a6ca889c89b34ef50c9~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bloque-fuerza-patria-coty-alonso-fijo-postura-sobre-el-complejo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una discusión para tenerla en 15 días cuando es algo que lleva más de 40 años sin finalizar”",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bloque-fuerza-patria-coty-alonso-fijo-postura-sobre-el-complejo",
-   "volanta": "Bloque Fuerza Patria"
   },
   "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": {
    "categoria": "",
@@ -7765,24 +7724,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aniversario-172-a-pesar-de-las-dificultades-britos-aseguro-que-en-los",
    "volanta": "Aniversario 172°"
   },
-  "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": {
-   "categoria": "",
-   "descripcion": "Operativos de saturación y controles preventivos en distintos puntos de Chivilcoy durante el fin de semana",
-   "generado": "2026-10-15T10:04:41.593Z",
-   "id": "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_442edd956cd94567b8efd7fee8d2e86d~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/accesos-y-arterias-de-la-ciudad-operativos-de-saturacion-y-controles",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Accesos y arterias de la ciudad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accesos-y-arterias-de-la-ciudad-operativos-de-saturacion-y-controles",
-   "volanta": ""
-  },
   "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082": {
    "categoria": "nacionales",
    "descripcion": "El conjunto marplatense ganaba con un tanto de Andrés Vombergar a los 68 minutos, pero el equipo cordobés lo dio vuelta sobre el cierre con las…",
@@ -7801,6 +7742,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
    "volanta": ""
   },
+  "web:2c08d2bb-2c10-4352-a617-4a84c0781807": {
+   "categoria": "",
+   "descripcion": "El derecho a protestar no es el derecho a ejercer la violencia En una sociedad democrática, el derecho a manifestarse, reclamar y expresar disconformidad es indiscutible. La protesta es una herramienta legítima para hacer visibles las injusticias, exigir respuestas y defender intereses individuales o colectivos. Pero existe una distinción esencial: el derecho a protestar no habilita el ejercicio de la violencia. Una reivindicación, por justa que sea, no legitima las agresiones, las amenazas...",
+   "generado": "2026-10-26T10:02:23.676Z",
+   "id": "web:2c08d2bb-2c10-4352-a617-4a84c0781807",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_189f8b6506ed489c83647c5959596dfd~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El derecho a protestar no es el derecho a ejercer la violencia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia",
+   "volanta": "Opinión"
+  },
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": {
    "categoria": "",
    "descripcion": "Máximo Cataldi finalizó entre los cuatro mejores del torneo El tenista Máximo Cataldi completó su participación en el certamen AO Junior Series South America tras alcanzar las semifinales, donde cayó frente al brasileño Livas Damazio, número uno del torneo, por 6-3 y 6-3. Luego del encuentro, el jugador y su equipo realizaron un balance positivo sobre la experiencia y el nivel exhibido en la cancha. Explicaron que el partido se definió por un quiebre por set y remarcaron que continuarán...",
@@ -7818,24 +7778,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:2de9a502-e952-44a4-8525-478c9d70047a": {
-   "categoria": "",
-   "descripcion": "Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Ruta 5 Ocurrió a la altura de Mercedes. Falleció una mujer de 37 años. El conductor del vehículo era su ex pareja, sobre quien pesaba una restricción perimetral por violencia de género. Aquello que comenzó en sus primeras actuaciones por un trágico choque frontal sobre la Ruta Nacional Nº 5 dio un giro determinante hacia la órbita penal. La justicia investiga el hecho como un presunto femicidio, tras confirmarse que...",
-   "generado": "2026-10-15T10:02:14.808Z",
-   "id": "web:2de9a502-e952-44a4-8525-478c9d70047a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_257ae0ed976e4ecfbf2f7af1fe54d4a9~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/giro-en-la-causa-investigan-un-posible-femicidio-tras-el-choque-fatal",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Ruta 5",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/giro-en-la-causa-investigan-un-posible-femicidio-tras-el-choque-fatal",
-   "volanta": "Giro en la causa"
   },
   "web:2e4fe240-6f88-48fa-9527-8c188ea675b0": {
    "categoria": "",
@@ -7963,6 +7905,25 @@
    "titulo": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
+   "volanta": ""
+  },
+  "web:34578935-f4ba-4a48-b177-a3e196a4e890": {
+   "categoria": "",
+   "descripcion": "Capacitación a personal de las fuerzas de seguridad para fortalecer la articulación con la Justicia",
+   "generado": "2026-10-26T10:03:27.295Z",
+   "id": "web:34578935-f4ba-4a48-b177-a3e196a4e890",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_058e7ee6bc224c1d9188fef81fe93f9a~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Mejora en los procedimientos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
    "volanta": ""
   },
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": {
@@ -8167,6 +8128,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
    "volanta": ""
   },
+  "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": {
+   "categoria": "",
+   "descripcion": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral El competidor sufrió lesiones de consideración tras despistarse en el tramo de velocidad. Su navegante, Hugo Chopita, resultó casi ileso. Hubo otros despistes durante la jornada que obligaron a neutralizar temporalmente la competencia provocando demoras en su cronograma original. La 39ª edición del Rally de Chivilcoy vivió momentos de alta tensión este sábado tras registrarse un...",
+   "generado": "2026-10-26T10:01:37.024Z",
+   "id": "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fe4fd240d6eb45598a24ef7b7b97f81c~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
+   "volanta": "Accidentes de carrera"
+  },
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": {
    "categoria": "",
    "descripcion": "José Navarro clasificó a la final de Taba y definirá el podio El competidor José Navarro logró la clasificación en la disciplina de Taba y disputará la jornada final en busca del podio. Saúl Pesce, quien se desempeña en esta oportunidad como su delegado, confirmó que Navarro completó su participación de la fecha logrando el pase a la siguiente instancia, donde competirá por el primer, segundo o tercer puesto. Pesce destacó la experiencia que vive en el certamen, la atención recibida en el...",
@@ -8297,6 +8277,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mirtha-legrand-reaparecio-en-familia-por-el-dia-de-la-madre-y-8f3dac",
    "volanta": ""
+  },
+  "web:439df9f0-970a-42fd-979a-69b57c0f8607": {
+   "categoria": "",
+   "descripcion": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919” La investigadora y museóloga Alicia Ríos presentó detalles de su obra bibliográfica dedicada a reconstruir el accionar y la trayectoria de la logia masónica que funcionó en Chivilcoy. Tras una primera exposición realizada en el marco de las Jornadas Regionales por la Educación Pública desarrolladas en la Escuela Normal, la...",
+   "generado": "2026-10-26T10:02:08.710Z",
+   "id": "web:439df9f0-970a-42fd-979a-69b57c0f8607",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f6640f2e5e9842e6882f7e18488179f2~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/masoneria-en-chivilcoy-el-libro-de-alicia-rios-profundiza-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/masoneria-en-chivilcoy-el-libro-de-alicia-rios-profundiza-el",
+   "volanta": "Masonería en Chivilcoy"
   },
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326": {
    "categoria": "",
@@ -8573,24 +8572,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4",
    "volanta": ""
   },
-  "web:529a6711-cd47-4076-ac13-c952c77ee9c7": {
-   "categoria": "nacionales",
-   "descripcion": "Marcha e intento opositor de sesionar por el DNU 70, las universidades, la discapacidad y el endeudamiento La consigna de defensa de la educación pública y de la soberanía nacional reunirá este jueves a estudiantes, docentes, sindicatos, organizaciones sociales y partidos políticos en una movilización que tendrá su epicentro frente al Congreso, donde la oposición intentará tratar un proyecto de ley con media sanción para derogar el decreto 70/23, pero también el proyecto de financiamiento...",
-   "generado": "2026-10-15T10:10:45.618Z",
-   "id": "web:529a6711-cd47-4076-ac13-c952c77ee9c7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_3b4353abd65748568070521761c97e33~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Marcha e intento opositor de sesionar por el DNU 70, las universidades, la discapacidad y el endeudamiento",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
-   "volanta": "Manifestaciones"
-  },
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": {
    "categoria": "",
    "descripcion": "Luciano Dellepiane participó del encuentro en Apertura Peronista En el marco del Día de la Lealtad, se llevó a cabo un encuentro en Apertura Peronista, donde Luciano Dellepiane compartió sus reflexiones sobre la jornada y la coyuntura actual. Dellepiane señaló que se trata de una fecha muy cara para el peronismo y un motivo de encuentro, aunque remarcó el contexto actual: «Es un momento triste, creo que ayer casualmente estuvo el Gato Sylvestre acá en Chivilcoy y decía una cosa que creo que...",
@@ -8681,6 +8662,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/presupuesto-2027-el-diputado-eduardo-falcone-exige-incluir-reclamos",
    "volanta": "Presupuesto 2027"
+  },
+  "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84": {
+   "categoria": "",
+   "descripcion": "Domingo Pastas representará a la ciudad en la Final del certamen provincial En el Día Mundial de la Pasta, domingo 25 de octubre, se conoció la noticia que la fábrica chivilcoyana Domingo Pastas, ubicada sobre la calle Lavalle 177, clasificó a la final del certamen provincial “Raviol de Oro 2026”, una iniciativa organizada por el Centro de Fabricantes de Pasta de la Provincia. Gonzalo Jaime y su madre, María Mancuso, serán los encargados de representar al comercio local en la definición que...",
+   "generado": "2026-10-26T10:02:43.727Z",
+   "id": "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d1e9d48ca6724c7698e22c4936e0cea7~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Domingo Pastas representará a la ciudad en la Final del certamen provincial",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la",
+   "volanta": "‘Raviol de Oro 2026’"
   },
   "web:593361c2-110f-4e68-b565-1c86df54fffe": {
    "categoria": "nacionales",
@@ -8790,6 +8790,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/piden-un-exhorto-a-suiza-para-investigar-transferencias-de-la-9e789b",
    "volanta": ""
+  },
+  "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": {
+   "categoria": "",
+   "descripcion": "Con seis pruebas especiales disputadas: Monserratt y Muciachio marcaron el ritmo en el Rally de Chivilcoy escoltados por Gandolfo - Labaronnie La jornada combinó las dos pasadas por Pantalón Cortito y Circuito Largo con el cierre en la súper especial Matías B. y Circuito Corto. Los sectores finales tuvieron peso en el resultado: ampliaron algunas diferencias y modificaron el orden entre los principales protagonistas de varias clases siendo a la postre la única jornada de competencia que...",
+   "generado": "2026-10-26T10:03:38.245Z",
+   "id": "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8a33f712212a49c9ae9fc1b4880daa02~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Con seis pruebas especiales disputadas: Monserratt y Muciachio marcaron el ritmo en el Rally de Chivilcoy escoltados por Gandolfo - Labaronnie",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt",
+   "volanta": "Campeonato Regional"
   },
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": {
    "categoria": "nacionales",
@@ -8920,6 +8939,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/allanamiento-en-chivilcoy-un-aprehendido-por-robos-reiterados-y-una",
    "volanta": "Allanamiento en Chivilcoy"
+  },
+  "web:6c509d7f-52e1-4541-aa96-22083404a169": {
+   "categoria": "",
+   "descripcion": "Destacada actuación chivilcoyana en la 27ª Maratón Internacional \"Dino Hugo Tinelli\" La ciudad de San Carlos de Bolívar vivió este sábado 24 de octubre una jornada deportiva histórica con la realización de la 27.ª edición de la Maratón Internacional \"Dino Hugo Tinelli\". El evento reunió a más de 2.500 competidores de diversos puntos del país y estrenó un nuevo circuito certificado que recorrió distintos puntos estratégicos de la localidad. Para el atletismo de nuestra ciudad, el punto más...",
+   "generado": "2026-10-26T10:03:45.952Z",
+   "id": "web:6c509d7f-52e1-4541-aa96-22083404a169",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_63c8a73b2774452b9a3313f2d14f1493~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Destacada actuación chivilcoyana en la 27ª Maratón Internacional \"Dino Hugo Tinelli\"",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
+   "volanta": "Atletismo"
   },
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": {
    "categoria": "nacionales",
@@ -9158,6 +9196,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/brasil-tenis-maximo-cataldi-clasifico-a-semifinales-del-ao-junior",
    "volanta": "Brasil · Tenis"
+  },
+  "web:76ba9989-902f-48e4-be31-1bb0265c5c60": {
+   "categoria": "",
+   "descripcion": "Los resultados de los análisis de la segunda etapa ‘arrojaron valores negativos’ para la presencia de arsénico en establecimiento educativos",
+   "generado": "2026-10-26T10:01:59.109Z",
+   "id": "web:76ba9989-902f-48e4-be31-1bb0265c5c60",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3dd60cb5efef44b3a524ed697bddd352~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/comision-fiscalizadora-del-agua-los-resultados-de-los-analisis-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Comisión Fiscalizadora del Agua",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/comision-fiscalizadora-del-agua-los-resultados-de-los-analisis-de-la",
+   "volanta": ""
   },
   "web:76ff5169-2518-4c32-96e7-955ae7a8d272": {
    "categoria": "nacionales",
@@ -9475,6 +9532,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
    "volanta": "Una fue recuperada"
   },
+  "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f": {
+   "categoria": "",
+   "descripcion": "Preso mientras la Justicia demora: un fallo del Tribunal de Casación Bonaerense que expone los tiempos de la justicia bonaerense La administración de justicia no solamente debe garantizar decisiones ajustadas a derecho, sino también asegurar que estas sean dictadas dentro de un plazo razonable. Después de todo, no hay que olvidar que, cuando una persona se encuentra privada de su libertad y todavía espera una decisión judicial que podría modificar su situación, el tiempo deja de ser una...",
+   "generado": "2026-10-26T10:02:16.728Z",
+   "id": "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6b66fd4dacc343c39ef6507def3b5631~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Preso mientras la Justicia demora: un fallo del Tribunal de Casación Bonaerense que expone los tiempos de la justicia bonaerense",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de",
+   "volanta": "Opinión"
+  },
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f": {
    "categoria": "nacionales",
    "descripcion": "Llegó a la plataforma de streaming y a la televisión de Corea del Sur la nueva producción de romance, espionaje y resistencia ambientada en 1932.",
@@ -9752,24 +9828,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": {
-   "categoria": "",
-   "descripcion": "Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis La joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal “Dr. Santiago Fornos”. Su familia solicita la colaboración de la comunidad para cubrir el costo del material médico, mientras evoluciona de la reciente intervención quirúrgica. Una joven chivilcoyana de 25 años, identificada como Sofía Paola Meletto, sufrió graves heridas tras ser...",
-   "generado": "2026-10-15T10:03:05.289Z",
-   "id": "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_62b56716d25b40ef833a938b02831c41~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internada-en-el-hospital-colecta-solidaria-para-sofia-meletto-fue",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/internada-en-el-hospital-colecta-solidaria-para-sofia-meletto-fue",
-   "volanta": "Internada en el Hospital"
   },
   "web:8d5f9e45-c3ff-4b47-a721-0097362139bf": {
    "categoria": "nacionales",
@@ -10195,6 +10253,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
    "volanta": "Drogas Ilícitas"
   },
+  "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892": {
+   "categoria": "",
+   "descripcion": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46 Tres accidentes de tránsito de consideración se registraron entre el jueves y el sábado en jurisdicción de Chivilcoy, Luján y Morse. Pese a la espectacularidad de los vuelcos e importantes daños materiales, no se lamentaron víctimas fatales. Siniestros viales de diversa magnitud movilizaron a las fuerzas de seguridad, bomberos y personal vial de la región durante el fin de semana. Los hechos se registraron en las rutas...",
+   "generado": "2026-10-26T10:01:44.635Z",
+   "id": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_90e2d9b4c92c449ba9f0fad8d227e301~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
+   "volanta": "Camiones y camioneta"
+  },
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": {
    "categoria": "nacionales",
    "descripcion": "El nuevo vehículo eléctrico de Tesla fue presentado con propulsores de SpaceX capaces de realizar saltos aéreos, una función que recordó a la clásica…",
@@ -10580,6 +10657,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/docentes-bonaerenses-aceptaron-un-incremento-salarial-del-6-en-502713",
    "volanta": ""
   },
+  "web:aac6f864-9661-40bc-8e13-c03b62c05fed": {
+   "categoria": "",
+   "descripcion": "El CUCH presentó su oferta académica: “Hemos logrado tener la diversidad de propuestas que siempre estamos buscando”, resaltó Barros El Centro Universitario de Chivilcoy (CUCH) dio a conocer de manera oficial la nómina de carreras y trayectos formativos que compondrán su propuesta académica para el ciclo lectivo 2027. La presentación abarca la continuidad de ciclos tradicionales, la apertura de tecnicaturas fuertemente orientadas al agro y la producción industrial, y una amplia batería de...",
+   "generado": "2026-10-26T10:02:34.025Z",
+   "id": "web:aac6f864-9661-40bc-8e13-c03b62c05fed",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0c3c33c9b5c64bed9a01f7f9d0cacb2a~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclo-lectivo-2027-el-cuch-presento-su-oferta-academica-hemos-logrado",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El CUCH presentó su oferta académica: “Hemos logrado tener la diversidad de propuestas que siempre estamos buscando”, resaltó Barros",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclo-lectivo-2027-el-cuch-presento-su-oferta-academica-hemos-logrado",
+   "volanta": "Ciclo Lectivo 2027"
+  },
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": {
    "categoria": "",
    "descripcion": "Aprehendieron a un hombre por robos y a una mujer por encubrimiento En el marco de una investigación por robos reiterados, personal de la Policía Comunal de Chivilcoy, junto con efectivos de la SubDDI local, realizó un allanamiento de urgencia en una vivienda ubicada en la calle De los Inmigrantes 321, donde aprehendió a un hombre de 27 años e incautó diversos elementos de interés para la causa. El procedimiento se llevó a cabo en el marco de una investigación iniciada a partir de la...",
@@ -10597,6 +10693,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-un-hombre-por-robos-y-a-una",
    "volanta": "Chivilcoy · Policiales"
+  },
+  "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938": {
+   "categoria": "",
+   "descripcion": "Ana Paula Martorelli consideró que Chivilcoy necesita un Juzgado de Familia teniendo en cuenta que “es una de las ciudades que más causas de violencia está teniendo”",
+   "generado": "2026-10-26T10:01:51.836Z",
+   "id": "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e79b3ca6955e4dc98a25cc2fe2302577~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/actualidad-local-y-judicial-ana-paula-martorelli-considero-que",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Actualidad local y judicial",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/actualidad-local-y-judicial-ana-paula-martorelli-considero-que",
+   "volanta": ""
   },
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": {
    "categoria": "",
@@ -10744,6 +10859,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reconocimientos-y-muestra-la-cultura-chivilcoyana-de-fiesta",
    "volanta": "Reconocimientos y muestra"
   },
+  "web:b4dddc38-6caa-416d-8010-6276dec99036": {
+   "categoria": "",
+   "descripcion": "Torneo Federal ‘A’: suspendieron el choque entre Boca Unidos y Gimnasia de Chivilcoy por la agresión con una bomba de estruendo Un grave hecho de violencia ocurrió en el estadio Leoncio Benítez a los 40 minutos del primer tiempo. El proyectil pirotécnico afectó a cuatro futbolistas del equipo visitante, provocando la intervención de la ambulancia y la posterior suspensión decretada por el árbitro Fernando Rekers. La violencia volvió a opacar una jornada del fútbol de ascenso argentino. Este...",
+   "generado": "2026-10-26T10:02:54.107Z",
+   "id": "web:b4dddc38-6caa-416d-8010-6276dec99036",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bf465de4bab94c11b408a21e782232f6~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-suspendieron-el-choque-entre-boca-unidos-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Torneo Federal ‘A’: suspendieron el choque entre Boca Unidos y Gimnasia de Chivilcoy por la agresión con una bomba de estruendo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-torneo-federal-a-suspendieron-el-choque-entre-boca-unidos-y",
+   "volanta": "Fútbol"
+  },
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f": {
    "categoria": "",
    "descripcion": "Entre la actuación policial y la movilización de los vecinos para recuperar las motos sustraídas en Chivilcoy La problemática del robo de motocicletas y la creciente ola de inseguridad continúan generando una profunda alarma social en distintos sectores de la ciudad. A las actuaciones de las fuerzas de seguridad para recuperar los vehículos sustraídos se contrapone la indignación y la movilización activa de los propios vecinos, quienes en muchos casos señalan tener que recurrir a la búsqueda...",
@@ -10761,6 +10895,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/malestar-y-restitucion-entre-la-actuacion-policial-y-la-movilizacion",
    "volanta": "Malestar y restitución"
+  },
+  "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": {
+   "categoria": "",
+   "descripcion": "Chivilcoy cerró un brillante desempeño en los Juegos Bonaerenses con 17 medallas La delegación local conquistó 6 preseas de oro, 4 de plata y 7 de bronce, ubicándose en el puesto 41 del medallero general entre 135 municipios de la provincia. Con un balance sumamente positivo y el orgullo intacto, concluyó una nueva edición de los tradicionales Juegos Bonaerenses para la delegación de Chivilcoy. La representación local cosechó un total de 17 medallas (seis de oro, cuatro de plata y siete de...",
+   "generado": "2026-10-26T10:03:02.577Z",
+   "id": "web:b6d79f8b-20cb-429f-95dc-adf0d9340584",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7b6ae21d6d67427e989975b321c2e205~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy cerró un brillante desempeño en los Juegos Bonaerenses con 17 medallas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos",
+   "volanta": "Final Provincial"
   },
   "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": {
    "categoria": "",
@@ -10983,24 +11136,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-torneo-federal-a-gimnasia-avanza-a-la-tercera-etapa-de-la",
    "volanta": "Fútbol"
-  },
-  "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3": {
-   "categoria": "",
-   "descripcion": "Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una gira proyectada por salas bonaerenses El violinista Kuki Errante se presentará en Chivilcoy con su nuevo espectáculo titulado “Violín Folclórico”. La esperada función tendrá lugar el próximo sábado 17 de octubre a las 21 horas en la tradicional sala del Teatro El Chasqui. En el marco de una gira proyectada por distintas salas teatrales de la provincia de Buenos Aires y otros puntos del país, el reconocido músico...",
-   "generado": "2026-10-15T10:06:04.659Z",
-   "id": "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_09fd2000201d42f3965217a4267de6c8~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/vuelta-a-las-raices-kuki-errante-presenta-violin-folclorico-en-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una gira proyectada por salas bonaerenses",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vuelta-a-las-raices-kuki-errante-presenta-violin-folclorico-en-el",
-   "volanta": "Vuelta a las raíces"
   },
   "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": {
    "categoria": "nacionales",
@@ -11736,24 +11871,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
    "volanta": ""
   },
-  "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": {
-   "categoria": "",
-   "descripcion": "Suyana Climate Insurance se impuso entre 44 proyectos regionales con una herramienta que automatiza pagos ante eventos climáticos extremos.",
-   "generado": "2026-10-15T10:02:52.011Z",
-   "id": "web:dda2c07c-c88b-47e7-b8f5-6d103245c317",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_cb2d7bfba0994f55858d511313caf04d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-startup-gano-agtech-revolution-con-seguros-parametricos-ca3b9f",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Una startup ganó AgTech Revolution con seguros paramétricos automáticos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-startup-gano-agtech-revolution-con-seguros-parametricos-ca3b9f",
-   "volanta": ""
-  },
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399": {
    "categoria": "nacionales",
    "descripcion": "El presidente argentino partirá rumbo a Madrid en una breve visita enfocada en la Escuela Austríaca y en un nuevo encuentro con la dirigente del Partido…",
@@ -12195,24 +12312,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/volveria-la-inestabilidad-speranza-sostuvo-que-si-no-se-trata-del",
    "volanta": "Volvería la inestabilidad"
   },
-  "web:f1bd5374-e321-4707-b267-340e4fb19c4e": {
-   "categoria": "",
-   "descripcion": "Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro momento eran imposibles de pensar. Eso tiene que ver con la dinámica de la oferta y la demanda” La martillera y corredora pública Marisa Mindeguia brindó un minucioso y extenso análisis sobre el presente del sector inmobiliario a nivel local y en las ciudades de la región. La profesional dialogó en el marco de las fechas conmemorativas por el Día del Martillero y Corredor Público, repasando las complejidades que...",
-   "generado": "2026-10-15T10:05:24.170Z",
-   "id": "web:f1bd5374-e321-4707-b267-340e4fb19c4e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1f8938cb33eb4c47aa6a1e72516682e0~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercado-inmobiliario-marisa-mindeguia-hoy-se-estan-vendiendo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro momento eran imposibles de pensar. Eso tiene que ver con la dinámica de la oferta y la demanda”",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercado-inmobiliario-marisa-mindeguia-hoy-se-estan-vendiendo",
-   "volanta": "MERCADO INMOBILIARIO"
-  },
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": {
    "categoria": "nacionales",
    "descripcion": "El músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.",
@@ -12483,58 +12582,6 @@
    "vence": "2026-10-17T23:47:42.000Z",
    "video_bytes": 1631458,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "6ad1e7a74ed7d375a451ed61",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x",
-   "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "2026-10-16T10:15:46.000Z",
-   "enviado": "2026-10-16T10:16:05.235Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T00:51:01.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111038460689539341",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil\n\nEl tenis juvenil argentino tiene a un protagonista que brilla con fuerza en tierras brasileñas.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo\n#Chivilcoy",
-   "tipo": "video",
-   "titulo": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil",
-   "urgente": false,
-   "vence": "2026-10-18T00:51:01.000Z",
-   "video_bytes": 597545,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_176ccf7b5f24e2ba.mp4"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "6ad1e7a6a82f34dbe1539180",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3|x",
-   "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "2026-10-16T10:00:04.000Z",
-   "enviado": "2026-10-16T10:02:41.711Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T00:59:51.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111035091027632638",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar\n\nDirigentes de SUTEBA Chivilcoy y del ámbito provincial formaron parte de una multitudinaria Marcha Federal Educativa junto a la CTERA y las centrales obreras.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-suteba-marcho-al-congreso-por-presupuesto-y",
-   "tipo": "video",
-   "titulo": "SUTEBA marchó al Congreso por presupuesto y alertó por la violencia escolar",
-   "urgente": false,
-   "vence": "2026-10-18T00:59:51.000Z",
-   "video_bytes": 509076,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d60fee245d7394b2.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok": {
    "actualizado": "2026-10-18T15:00:22.000Z",
@@ -28068,6 +28115,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:110a806e-7381-4845-8f7e-851f18f79901|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:110a806e-7381-4845-8f7e-851f18f79901|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:03:14.394Z",
+   "id": "web:110a806e-7381-4845-8f7e-851f18f79901",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/delegacion-destacada-la-pena-virgen-de-loreto-brillo-en-santiago-del",
+   "noticia": "nota:delegacion-destacada-la-pena-virgen-de-loreto-brillo-en-santiago-del",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "La Peña Virgen de Loreto brilló en Santiago del Estero y la celebración local será el 6 de diciembre en su cierre de año\n\nCon 56 bailarines, la tradicional agrupación local dejó su huella en el norte. Tras 16 años, ya palpitan su gran cierre de año.\n\nhttps://www.diariolacampaña.com.ar/n/delegacion-destacada-la-pena-virgen-de-loreto-brillo-en-santiago-del",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La Peña Virgen de Loreto brilló en Santiago del Estero y la celebración local será el 6 de diciembre en su cierre de año",
+   "urgente": false,
+   "vence": "2026-10-26T14:03:14.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78|x": {
    "actualizado": "2026-10-21T10:20:57.000Z",
    "buffer_id": "6ad88db07143aca6ab09c059",
@@ -28205,30 +28280,6 @@
    "titulo": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca",
    "urgente": false,
    "vence": "2026-10-20T01:05:08.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:15858ae6-1837-4436-b8ed-3a098530f992|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:15858ae6-1837-4436-b8ed-3a098530f992|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:03:58.513Z",
-   "id": "web:15858ae6-1837-4436-b8ed-3a098530f992",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bloque-fuerza-patria-coty-alonso-fijo-postura-sobre-el-complejo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una discusión para tenerla en 15 días cuando es algo que lleva más de 40 años sin finalizar”\n\nLa concejal Constanza Alonso, presidenta del bloque Fuerza Patria en el Concejo…\n\nhttps://www.diariolacampaña.com.ar/n/bloque-fuerza-patria-coty-alonso-fijo-postura-sobre-el-complejo",
-   "tipo": "nota",
-   "titulo": "Coty Alonso fijó postura sobre el Complejo Federación “Se intentó forzar una discusión para tenerla en 15 días cuando es algo que lleva más de 40 años sin finalizar”",
-   "urgente": false,
-   "vence": "2026-10-16T10:03:58.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -29124,30 +29175,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:04:41.593Z",
-   "id": "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/accesos-y-arterias-de-la-ciudad-operativos-de-saturacion-y-controles",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Accesos y arterias de la ciudad\n\nOperativos de saturación y controles preventivos en distintos puntos de Chivilcoy durante el fin de semana\n\nhttps://www.diariolacampaña.com.ar/n/accesos-y-arterias-de-la-ciudad-operativos-de-saturacion-y-controles",
-   "tipo": "nota",
-   "titulo": "Accesos y arterias de la ciudad",
-   "urgente": false,
-   "vence": "2026-10-16T10:04:41.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082|x": {
    "actualizado": "2026-10-20T02:20:17.000Z",
    "buffer_id": "",
@@ -29173,6 +29200,34 @@
    "vence": "2026-10-20T02:05:20.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:2c08d2bb-2c10-4352-a617-4a84c0781807|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:2c08d2bb-2c10-4352-a617-4a84c0781807|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:02:23.676Z",
+   "id": "web:2c08d2bb-2c10-4352-a617-4a84c0781807",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia",
+   "noticia": "nota:opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El derecho a protestar no es el derecho a ejercer la violencia\n\nManifestarse es una herramienta legítima para reclamar y visibilizar injusticias. Sin embargo, una demanda justa no habilita agresiones ni amenazas.\n\nhttps://www.diariolacampaña.com.ar/n/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El derecho a protestar no es el derecho a ejercer la violencia",
+   "urgente": false,
+   "vence": "2026-10-26T14:02:23.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e|x": {
    "actualizado": "2026-10-18T16:20:14.000Z",
@@ -29206,30 +29261,6 @@
    "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
    "urgente": false,
    "vence": "2026-10-18T20:46:45.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:2de9a502-e952-44a4-8525-478c9d70047a|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:2de9a502-e952-44a4-8525-478c9d70047a|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:02:14.808Z",
-   "id": "web:2de9a502-e952-44a4-8525-478c9d70047a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/giro-en-la-causa-investigan-un-posible-femicidio-tras-el-choque-fatal",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Ruta 5\n\nOcurrió a la altura de Mercedes. Falleció una mujer de 37 años. El conductor del vehículo era su ex pareja, sobre quien pesaba una restricción perimetral por…\n\nhttps://www.diariolacampaña.com.ar/n/giro-en-la-causa-investigan-un-posible-femicidio-tras-el-choque-fatal",
-   "tipo": "nota",
-   "titulo": "Investigan un posible femicidio tras el choque fatal ocurrido el lunes en la Ruta 5",
-   "urgente": false,
-   "vence": "2026-10-16T10:02:14.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -29415,6 +29446,34 @@
    "vence": "2026-10-19T22:35:10.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:34578935-f4ba-4a48-b177-a3e196a4e890|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:34578935-f4ba-4a48-b177-a3e196a4e890|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:03:27.295Z",
+   "id": "web:34578935-f4ba-4a48-b177-a3e196a4e890",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
+   "noticia": "nota:mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Mejora en los procedimientos\n\nCapacitan a personal de las fuerzas de seguridad. La iniciativa busca fortalecer la articulación con la Justicia.\n\nhttps://www.diariolacampaña.com.ar/n/mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Mejora en los procedimientos",
+   "urgente": false,
+   "vence": "2026-10-26T14:03:27.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x": {
    "actualizado": "2026-10-17T16:40:27.000Z",
@@ -29737,6 +29796,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:01:37.024Z",
+   "id": "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
+   "noticia": "nota:accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral\n\nEl competidor sufrió lesiones de consideración tras despistarse. Su navegante resultó casi ileso.\n\nhttps://www.diariolacampaña.com.ar/n/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral",
+   "urgente": false,
+   "vence": "2026-10-26T14:01:37.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x": {
    "actualizado": "2026-10-22T00:40:17.000Z",
    "buffer_id": "",
@@ -29947,6 +30034,34 @@
    "vence": "2026-10-20T14:20:21.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:439df9f0-970a-42fd-979a-69b57c0f8607|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:439df9f0-970a-42fd-979a-69b57c0f8607|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:02:08.710Z",
+   "id": "web:439df9f0-970a-42fd-979a-69b57c0f8607",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/masoneria-en-chivilcoy-el-libro-de-alicia-rios-profundiza-el",
+   "noticia": "nota:masoneria-en-chivilcoy-el-libro-de-alicia-rios-profundiza-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919”\n\nhttps://www.diariolacampaña.com.ar/n/masoneria-en-chivilcoy-el-libro-de-alicia-rios-profundiza-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919”",
+   "urgente": false,
+   "vence": "2026-10-26T14:02:08.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
@@ -30402,30 +30517,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:529a6711-cd47-4076-ac13-c952c77ee9c7|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:529a6711-cd47-4076-ac13-c952c77ee9c7|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:10:45.618Z",
-   "id": "web:529a6711-cd47-4076-ac13-c952c77ee9c7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Marcha e intento opositor de sesionar por el DNU 70, las universidades, la discapacidad y el endeudamiento\n\nLa consigna de defensa de la educación pública y de la soberanía nacional reunirá este jueves a estudiantes, docentes, sindicatos…\n\nhttps://www.diariolacampaña.com.ar/n/manifestaciones-marcha-e-intento-opositor-de-sesionar-por-el-dnu-70",
-   "tipo": "nota",
-   "titulo": "Marcha e intento opositor de sesionar por el DNU 70, las universidades, la discapacidad y el endeudamiento",
-   "urgente": false,
-   "vence": "2026-10-16T10:10:45.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x": {
    "actualizado": "2026-10-18T13:40:14.000Z",
    "buffer_id": "6ad48aaa0b0d72757a14b865",
@@ -30593,6 +30684,34 @@
    "vence": "2026-10-20T10:03:02.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:02:43.727Z",
+   "id": "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la",
+   "noticia": "nota:raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Domingo Pastas representará a la ciudad en la Final del certamen provincial\n\nLa fábrica chivilcoyana clasificó a la final del certamen provincial Raviol de Oro 2026. La iniciativa es organizada por el Centro de Fabricantes de Pasta.\n\nhttps://www.diariolacampaña.com.ar/n/raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Domingo Pastas representará a la ciudad en la Final del certamen provincial",
+   "urgente": false,
+   "vence": "2026-10-26T14:02:43.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:593361c2-110f-4e68-b565-1c86df54fffe|x": {
    "actualizado": "2026-10-20T00:40:15.000Z",
@@ -30769,6 +30888,34 @@
    "vence": "2026-10-18T13:06:26.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:03:38.245Z",
+   "id": "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt",
+   "noticia": "nota:campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Con seis pruebas especiales disputadas: Monserratt y Muciachio marcaron el ritmo en el Rally de Chivilcoy escoltados por Gandolfo - Labaronnie\n\nhttps://www.diariolacampaña.com.ar/n/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Con seis pruebas especiales disputadas: Monserratt y Muciachio marcaron el ritmo en el Rally de Chivilcoy escoltados por Gandolfo - Labaronnie",
+   "urgente": false,
+   "vence": "2026-10-26T14:03:38.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd|x": {
    "actualizado": "2026-10-20T09:00:31.000Z",
@@ -30962,6 +31109,34 @@
    "vence": "2026-10-17T10:02:12.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:6c509d7f-52e1-4541-aa96-22083404a169|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:6c509d7f-52e1-4541-aa96-22083404a169|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:03:45.952Z",
+   "id": "web:6c509d7f-52e1-4541-aa96-22083404a169",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
+   "noticia": "nota:atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Destacada actuación chivilcoyana en la 27ª Maratón Internacional \"Dino Hugo Tinelli\"\n\nSan Carlos de Bolívar vivió una jornada histórica con la 27.ª edición de la maratón. El evento reunió a más de 2.500 competidores y estrenó circuito certificado.\n\nhttps://www.diariolacampaña.com.ar/n/atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Destacada actuación chivilcoyana en la 27ª Maratón Internacional \"Dino Hugo Tinelli\"",
+   "urgente": false,
+   "vence": "2026-10-26T14:03:45.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf|x": {
    "actualizado": "2026-10-16T13:20:18.000Z",
@@ -31365,6 +31540,34 @@
    "vence": "2026-10-18T02:16:35.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:76ba9989-902f-48e4-be31-1bb0265c5c60|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:76ba9989-902f-48e4-be31-1bb0265c5c60|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:01:59.109Z",
+   "id": "web:76ba9989-902f-48e4-be31-1bb0265c5c60",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/comision-fiscalizadora-del-agua-los-resultados-de-los-analisis-de-la",
+   "noticia": "nota:comision-fiscalizadora-del-agua-los-resultados-de-los-analisis-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Comisión Fiscalizadora del Agua\n\nLos análisis de la segunda etapa dieron negativo para la presencia de arsénico en establecimientos educativos.\n\nhttps://www.diariolacampaña.com.ar/n/comision-fiscalizadora-del-agua-los-resultados-de-los-analisis-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Comisión Fiscalizadora del Agua",
+   "urgente": false,
+   "vence": "2026-10-26T14:01:59.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x": {
    "actualizado": "2026-10-20T02:00:29.000Z",
@@ -31860,6 +32063,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:02:16.728Z",
+   "id": "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de",
+   "noticia": "nota:opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Preso mientras la Justicia demora: un fallo del Tribunal de Casación Bonaerense que expone los tiempos de la justicia bonaerense\n\nhttps://www.diariolacampaña.com.ar/n/opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Preso mientras la Justicia demora: un fallo del Tribunal de Casación Bonaerense que expone los tiempos de la justicia bonaerense",
+   "urgente": false,
+   "vence": "2026-10-26T14:02:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "6ad76a90ff291a23994f7376",
@@ -32303,30 +32534,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:03:05.289Z",
-   "id": "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internada-en-el-hospital-colecta-solidaria-para-sofia-meletto-fue",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis\n\nLa joven de 25 años sufrió una fractura expuesta de húmero y permanece internada en el Hospital Municipal “Dr. Santiago Fornos”.\n\nhttps://www.diariolacampaña.com.ar/n/internada-en-el-hospital-colecta-solidaria-para-sofia-meletto-fue",
-   "tipo": "nota",
-   "titulo": "Colecta solidaria para Sofía Meletto: fue atacada por un caballo en el Hipódromo y necesita una prótesis",
-   "urgente": false,
-   "vence": "2026-10-16T10:03:05.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:8d5f9e45-c3ff-4b47-a721-0097362139bf|x": {
    "actualizado": "2026-10-20T15:20:17.000Z",
@@ -33024,6 +33231,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:01:44.635Z",
+   "id": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
+   "noticia": "nota:camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46\n\nTres accidentes de tránsito de consideración se registraron entre el jueves y el sábado. Pese a los vuelcos y los daños materiales, no se lamentaron víctimas fatales.\n\nhttps://www.diariolacampaña.com.ar/n/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46",
+   "urgente": false,
+   "vence": "2026-10-26T14:01:44.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x": {
    "actualizado": "2026-10-19T22:20:24.000Z",
    "buffer_id": "",
@@ -33628,6 +33863,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:aac6f864-9661-40bc-8e13-c03b62c05fed|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:aac6f864-9661-40bc-8e13-c03b62c05fed|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:02:34.025Z",
+   "id": "web:aac6f864-9661-40bc-8e13-c03b62c05fed",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclo-lectivo-2027-el-cuch-presento-su-oferta-academica-hemos-logrado",
+   "noticia": "nota:ciclo-lectivo-2027-el-cuch-presento-su-oferta-academica-hemos-logrado",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El CUCH presentó su oferta académica: “Hemos logrado tener la diversidad de propuestas que siempre estamos buscando”, resaltó Barros\n\nhttps://www.diariolacampaña.com.ar/n/ciclo-lectivo-2027-el-cuch-presento-su-oferta-academica-hemos-logrado",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El CUCH presentó su oferta académica: “Hemos logrado tener la diversidad de propuestas que siempre estamos buscando”, resaltó Barros",
+   "urgente": false,
+   "vence": "2026-10-26T14:02:34.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87|x": {
    "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad1e7a99597cd166275050c",
@@ -33661,6 +33924,34 @@
    "vence": "2026-10-16T23:45:30.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:01:51.836Z",
+   "id": "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/actualidad-local-y-judicial-ana-paula-martorelli-considero-que",
+   "noticia": "nota:actualidad-local-y-judicial-ana-paula-martorelli-considero-que",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Actualidad local y judicial\n\nhttps://www.diariolacampaña.com.ar/n/actualidad-local-y-judicial-ana-paula-martorelli-considero-que",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Actualidad local y judicial",
+   "urgente": false,
+   "vence": "2026-10-26T14:01:51.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801|x": {
    "actualizado": "2026-10-17T16:01:43.000Z",
@@ -33877,6 +34168,34 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:b4dddc38-6caa-416d-8010-6276dec99036|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:b4dddc38-6caa-416d-8010-6276dec99036|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:02:54.107Z",
+   "id": "web:b4dddc38-6caa-416d-8010-6276dec99036",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-suspendieron-el-choque-entre-boca-unidos-y",
+   "noticia": "nota:futbol-torneo-federal-a-suspendieron-el-choque-entre-boca-unidos-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Torneo Federal ‘A’: suspendieron el choque entre Boca Unidos y Gimnasia de Chivilcoy por la agresión con una bomba de estruendo\n\nUn grave hecho de violencia ocurrió en el estadio Leoncio Benítez a los 40 minutos del primer tiempo.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-suspendieron-el-choque-entre-boca-unidos-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Torneo Federal ‘A’: suspendieron el choque entre Boca Unidos y Gimnasia de Chivilcoy por la agresión con una bomba de estruendo",
+   "urgente": false,
+   "vence": "2026-10-26T14:02:54.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f|x": {
    "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "6ad72db0ed43fb48e28f923e",
@@ -33911,6 +34230,34 @@
    "vence": "2026-10-20T10:02:40.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x": {
+   "actualizado": "2026-10-26T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x",
+   "creado": "2026-10-26T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su hora en Instagram (el carrusel del diario todavía no dejó su plan)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T10:03:02.577Z",
+   "id": "web:b6d79f8b-20cb-429f-95dc-adf0d9340584",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos",
+   "noticia": "nota:final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy cerró un brillante desempeño en los Juegos Bonaerenses con 17 medallas\n\nLa delegación conquistó 6 preseas de oro, 4 de plata y 7 de bronce. Se ubicó en el puesto 41 del medallero general entre 135 municipios.\n\nhttps://www.diariolacampaña.com.ar/n/final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy cerró un brillante desempeño en los Juegos Bonaerenses con 17 medallas",
+   "urgente": false,
+   "vence": "2026-10-26T14:03:02.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x": {
    "actualizado": "2026-10-26T00:40:15.000Z",
@@ -34237,31 +34584,6 @@
    "titulo": "Torneo Federal ‘A’: Gimnasia avanza a la tercera etapa de la Reválida tras una definición dramática y ya conoce a su próximo rival",
    "urgente": false,
    "vence": "2026-10-20T10:03:26.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "espera": "Buffer lleno (10 programadas por canal en el plan Free)",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:06:04.659Z",
-   "id": "web:c4be1e72-33d5-4fdd-be5f-747b13c4ede3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/vuelta-a-las-raices-kuki-errante-presenta-violin-folclorico-en-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una gira proyectada por salas bonaerenses\n\nEl violinista Kuki Errante se presentará en Chivilcoy con su nuevo espectáculo titulado “Violín Folclórico”.\n\nhttps://www.diariolacampaña.com.ar/n/vuelta-a-las-raices-kuki-errante-presenta-violin-folclorico-en-el",
-   "tipo": "nota",
-   "titulo": "Kuki Errante presenta “Violín Folclórico” en el Teatro El Chasqui dentro de una gira proyectada por salas bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-16T10:06:04.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35406,30 +35728,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:dda2c07c-c88b-47e7-b8f5-6d103245c317|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:02:52.011Z",
-   "id": "web:dda2c07c-c88b-47e7-b8f5-6d103245c317",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-startup-gano-agtech-revolution-con-seguros-parametricos-ca3b9f",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Una startup ganó AgTech Revolution con seguros paramétricos automáticos\n\nSuyana Climate Insurance se impuso entre 44 proyectos regionales con una herramienta que automatiza pagos ante eventos climáticos extremos.\n\nhttps://www.diariolacampaña.com.ar/n/una-startup-gano-agtech-revolution-con-seguros-parametricos-ca3b9f",
-   "tipo": "nota",
-   "titulo": "Una startup ganó AgTech Revolution con seguros paramétricos automáticos",
-   "urgente": false,
-   "vence": "2026-10-16T10:02:52.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x": {
    "actualizado": "2026-10-20T02:40:18.000Z",
    "buffer_id": "",
@@ -36120,30 +36418,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:f1bd5374-e321-4707-b267-340e4fb19c4e|x": {
-   "actualizado": "2026-10-16T10:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:f1bd5374-e321-4707-b267-340e4fb19c4e|x",
-   "creado": "2026-10-15T10:20:13.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T10:05:24.170Z",
-   "id": "web:f1bd5374-e321-4707-b267-340e4fb19c4e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercado-inmobiliario-marisa-mindeguia-hoy-se-estan-vendiendo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro momento eran imposibles de pensar. Eso tiene que ver con la dinámica de la oferta y la demanda”\n\nLa martillera y corredora pública Marisa Mindeguia brindó un minucioso y…\n\nhttps://www.diariolacampaña.com.ar/n/mercado-inmobiliario-marisa-mindeguia-hoy-se-estan-vendiendo",
-   "tipo": "nota",
-   "titulo": "Marisa Mindeguia: “Hoy se están vendiendo propiedades por valores que en otro momento eran imposibles de pensar. Eso tiene que ver con la dinámica de la oferta y la demanda”",
-   "urgente": false,
-   "vence": "2026-10-16T10:05:24.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x": {
    "actualizado": "2026-10-19T22:00:20.000Z",
    "buffer_id": "",
@@ -36426,102 +36700,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00237",
-   "cuando": "2026-10-21T17:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00237|x",
-   "cuando": "2026-10-21T17:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ad8f9014c68046f77a91fd2",
-   "clave": "entrevistas:job00237|x",
-   "cuando": "2026-10-21T17:40:17.000Z",
-   "dueAt": "2026-10-21T17:42:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00237|x",
-   "cuando": "2026-10-21T18:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112962814683857036"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html|tiktok",
-   "cuando": "2026-10-21T18:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "entrevistas:job00238",
-   "cuando": "2026-10-21T18:40:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00238|x",
-   "cuando": "2026-10-21T18:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|tiktok",
-   "cuando": "2026-10-21T18:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "buffer_id": "6ad90710eaafbeb8d210754c",
-   "clave": "entrevistas:job00238|x",
-   "cuando": "2026-10-21T18:40:16.000Z",
-   "dueAt": "2026-10-21T18:42:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00238|x",
-   "cuando": "2026-10-21T19:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112977964396630214"
-  },
-  {
-   "clave": "entrevistas:job00236",
-   "cuando": "2026-10-21T20:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00236|x",
-   "cuando": "2026-10-21T20:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ad919d4b945508d3f845e7d",
-   "clave": "entrevistas:job00236|x",
-   "cuando": "2026-10-21T20:00:20.000Z",
-   "dueAt": "2026-10-21T20:02:05.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00236|x",
-   "cuando": "2026-10-21T20:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112997985634173024"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok",
-   "cuando": "2026-10-21T21:00:19.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
   {
    "buffer_id": "6ad927e54989bea5baf5b48b",
    "clave": "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok",
@@ -40641,6 +40819,126 @@
    "cuando": "2026-10-26T09:00:29.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:6c509d7f-52e1-4541-aa96-22083404a169|x",
+   "cuando": "2026-10-26T10:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x",
+   "cuando": "2026-10-26T10:20:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:34578935-f4ba-4a48-b177-a3e196a4e890|x",
+   "cuando": "2026-10-26T10:20:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:110a806e-7381-4845-8f7e-851f18f79901|x",
+   "cuando": "2026-10-26T10:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x",
+   "cuando": "2026-10-26T10:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b4dddc38-6caa-416d-8010-6276dec99036|x",
+   "cuando": "2026-10-26T10:20:41.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x",
+   "cuando": "2026-10-26T10:20:47.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:aac6f864-9661-40bc-8e13-c03b62c05fed|x",
+   "cuando": "2026-10-26T10:20:57.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2c08d2bb-2c10-4352-a617-4a84c0781807|x",
+   "cuando": "2026-10-26T10:21:04.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x",
+   "cuando": "2026-10-26T10:21:11.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:439df9f0-970a-42fd-979a-69b57c0f8607|x",
+   "cuando": "2026-10-26T10:21:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:76ba9989-902f-48e4-be31-1bb0265c5c60|x",
+   "cuando": "2026-10-26T10:21:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x",
+   "cuando": "2026-10-26T10:21:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x",
+   "cuando": "2026-10-26T10:21:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x",
+   "cuando": "2026-10-26T10:21:36.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
   }
  ],
  "tandas": {
@@ -41078,6 +41376,7 @@
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": "2026-10-22T15:20:17.000Z",
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": "2026-10-15T10:20:13.000Z",
+  "web:110a806e-7381-4845-8f7e-851f18f79901": "2026-10-26T10:20:14.000Z",
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78": "2026-10-21T10:02:08.000Z",
   "web:12954328-2406-4753-ade8-612eaeebeb3a": "2026-10-16T10:20:16.000Z",
   "web:14436815-e65b-4622-81a4-d215bbfc9d5f": "2026-10-16T22:20:13.000Z",
@@ -41123,6 +41422,7 @@
   "web:29bafb6c-db7b-4454-ba46-6708c7e90b80": "2026-10-23T10:02:47.000Z",
   "web:2a29cbb6-ff0c-4a0f-82d0-3c873c52bc14": "2026-10-15T10:20:13.000Z",
   "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082": "2026-10-19T02:20:15.000Z",
+  "web:2c08d2bb-2c10-4352-a617-4a84c0781807": "2026-10-26T10:20:14.000Z",
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": "2026-10-17T21:00:16.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9": "2026-10-15T02:00:18.000Z",
@@ -41136,6 +41436,7 @@
   "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
+  "web:34578935-f4ba-4a48-b177-a3e196a4e890": "2026-10-26T10:20:14.000Z",
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
   "web:35d13524-acfa-4d7e-b1ad-255c88759bcc": "2026-10-25T14:20:14.000Z",
@@ -41153,6 +41454,7 @@
   "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
   "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": "2026-10-19T13:00:18.000Z",
+  "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": "2026-10-26T10:20:14.000Z",
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
@@ -41166,6 +41468,7 @@
   "web:4199d5d7-7749-42b5-a204-16844f3014eb": "2026-10-19T10:20:14.000Z",
   "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
+  "web:439df9f0-970a-42fd-979a-69b57c0f8607": "2026-10-26T10:20:14.000Z",
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326": "2026-10-20T10:20:14.000Z",
   "web:44657646-5aa8-40e2-92e8-9107905b81c5": "2026-10-14T00:20:13.000Z",
   "web:44ef3a25-1f1a-4d97-9f24-5a89a2f8d703": "2026-10-12T10:20:17.000Z",
@@ -41195,6 +41498,7 @@
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a": "2026-10-19T10:20:14.000Z",
   "web:58114495-39f3-4653-ae6b-639c6c61dae5": "2026-10-11T21:58:03.000Z",
+  "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84": "2026-10-26T10:20:14.000Z",
   "web:593361c2-110f-4e68-b565-1c86df54fffe": "2026-10-19T00:40:14.000Z",
   "web:594e84e0-bc01-4c60-a132-6a7f872182e0": "2026-10-19T01:40:13.000Z",
   "web:5c389835-1655-4415-b7ad-23045aa7c3ca": "2026-10-19T13:20:16.000Z",
@@ -41206,6 +41510,7 @@
   "web:61fa0efb-5787-4c59-bce8-a86006933cfa": "2026-10-17T13:20:16.000Z",
   "web:62679199-0cb1-44ba-8928-add87ea1fa3f": "2026-10-15T10:20:13.000Z",
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
+  "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
   "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
@@ -41218,6 +41523,7 @@
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": "2026-10-22T10:02:31.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
+  "web:6c509d7f-52e1-4541-aa96-22083404a169": "2026-10-26T10:20:14.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": "2026-10-15T18:40:15.000Z",
   "web:6eaf6418-146a-46ea-add6-5506d89ee4b7": "2026-10-24T19:20:18.000Z",
@@ -41239,6 +41545,7 @@
   "web:7524a117-5ec3-428b-862c-0238cd3653e6": "2026-10-20T10:20:14.000Z",
   "web:76224348-2766-4a07-947f-ef8503976009": "2026-10-13T15:20:18.000Z",
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": "2026-10-17T02:20:17.000Z",
+  "web:76ba9989-902f-48e4-be31-1bb0265c5c60": "2026-10-26T10:20:14.000Z",
   "web:76c3d71e-5104-400d-a4f4-414ceb358697": "2026-10-12T15:20:17.000Z",
   "web:76ff5169-2518-4c32-96e7-955ae7a8d272": "2026-10-19T22:00:20.000Z",
   "web:77e44fa5-4d5a-4703-ae02-192a85495c8d": "2026-10-13T10:20:16.000Z",
@@ -41266,6 +41573,7 @@
   "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae": "2026-10-22T14:20:16.000Z",
   "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4": "2026-10-20T10:20:14.000Z",
   "web:8333ce89-a093-49e0-b6b1-c26d84ac0692": "2026-10-19T10:20:14.000Z",
+  "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f": "2026-10-26T10:20:14.000Z",
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
@@ -41317,6 +41625,7 @@
   "web:99a98512-7ac4-4629-a1a6-eab0dc99a301": "2026-10-20T00:00:19.000Z",
   "web:99bd3968-dcb1-4628-b28b-b9ea9d0d9e3e": "2026-10-12T12:20:13.000Z",
   "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce": "2026-10-21T10:20:15.000Z",
+  "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892": "2026-10-26T10:20:14.000Z",
   "web:9a2a2b2f-26f8-49d0-980c-9dd2bac1be24": "2026-10-13T10:20:16.000Z",
   "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": "2026-10-18T22:20:14.000Z",
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
@@ -41344,7 +41653,9 @@
   "web:a7875969-2bc4-498e-8b29-ec2539b13deb": "2026-10-22T13:20:15.000Z",
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
+  "web:aac6f864-9661-40bc-8e13-c03b62c05fed": "2026-10-26T10:20:14.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
+  "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938": "2026-10-26T10:20:14.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": "2026-10-16T16:00:18.000Z",
   "web:b09afc2b-05f7-4a02-8d8f-cde6433880a4": "2026-10-12T12:20:13.000Z",
@@ -41360,8 +41671,10 @@
   "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": "2026-10-18T23:40:13.000Z",
   "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd": "2026-10-19T21:00:21.000Z",
   "web:b4cfec79-0715-4512-9344-baf46d5042d1": "2026-10-19T10:20:14.000Z",
+  "web:b4dddc38-6caa-416d-8010-6276dec99036": "2026-10-26T10:20:14.000Z",
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f": "2026-10-19T10:20:14.000Z",
+  "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": "2026-10-26T10:20:14.000Z",
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
   "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": "2026-10-26T00:40:15.000Z",
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": "2026-10-19T23:40:17.000Z",
