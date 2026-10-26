@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 25/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,17 +17,17 @@ Actualizado: 25/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels del bot: 80 con métricas · mediana vistas/impresiones 23 · likes 0
-- X · Reels policiales: 39 con métricas · mediana vistas/impresiones 35 · likes 0
+- X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 31 · likes 0
+- X · Reels del bot: 91 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Reels policiales: 41 con métricas · mediana vistas/impresiones 37 · likes 0
 - X · Notas web: 107 con métricas · mediana vistas/impresiones 22 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 63 con métricas · mediana vistas/impresiones 282 · likes 2
-- TikTok · Reels policiales: 24 con métricas · mediana vistas/impresiones 493 · likes 3.5
+- TikTok · Reels del bot: 63 con métricas · mediana vistas/impresiones 306 · likes 2
+- TikTok · Reels policiales: 24 con métricas · mediana vistas/impresiones 499.5 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2137 de 3000 (visto 2026-10-26T02:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2136 de 3000 (visto 2026-10-26T02:40:16.000Z)
 
 ## Cola propia (11 esperando)
 - TikTok · Reels del bot · Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
