@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 4 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 26/10/2026 16:00 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,7 @@ Actualizado: 26/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 234 de 250 · 30d: quedan 2123 de 3000 (visto 2026-10-26T18:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 233 de 250 · 30d: quedan 2122 de 3000 (visto 2026-10-26T19:20:16.000Z)
 
 ## Cola propia (14 esperando)
 - TikTok · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,7 +53,6 @@ Actualizado: 26/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T16:00 enviado bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
 - 2026-10-26T16:40 entrevista_aprobada entrevistas:job00248 
 - 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
 - 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
@@ -78,3 +77,4 @@ Actualizado: 26/10/2026 16:00 (hora AR) · ACTIVO
 - 2026-10-26T18:20 enviado entrevistas:job00249|x 
 - 2026-10-26T18:20 enviado entrevistas:job00250|x 
 - 2026-10-26T18:20 programado entrevistas:job00251|x 
+- 2026-10-26T19:20 enviado entrevistas:job00251|x 
