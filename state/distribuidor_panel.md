@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 33 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 34 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,19 +18,22 @@ Actualizado: 26/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 31 · likes 0
-- X · Reels del bot: 90 con métricas · mediana vistas/impresiones 23 · likes 0
-- X · Reels policiales: 38 con métricas · mediana vistas/impresiones 37 · likes 0
-- X · Notas web: 99 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Reels del bot: 89 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Reels policiales: 37 con métricas · mediana vistas/impresiones 37 · likes 0
+- X · Notas web: 98 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Reels del bot: 62 con métricas · mediana vistas/impresiones 304.5 · likes 2
 - TikTok · Reels policiales: 20 con métricas · mediana vistas/impresiones 502 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2129 de 3000 (visto 2026-10-26T16:00:19.000Z)
+15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2128 de 3000 (visto 2026-10-26T16:40:37.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (12 esperando)
+- X · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Principio de incendio en un Renault 12 en calle 9 de Julio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Ana Maria Berón: La fibromialgia no se cura con analgésicos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,13 +51,6 @@ Actualizado: 26/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T13:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tikto 
-- 2026-10-26T13:00 programado bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok 
-- 2026-10-26T13:00 programado bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok 
-- 2026-10-26T13:00 programado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok 
-- 2026-10-26T13:00 programado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tikto 
-- 2026-10-26T13:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tikto 
-- 2026-10-26T13:48 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x 
 - 2026-10-26T13:48 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tikto 
 - 2026-10-26T13:48 recibido web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T13:48 programado bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x 
@@ -73,3 +69,10 @@ Actualizado: 26/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-26T15:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x 
 - 2026-10-26T16:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x 
 - 2026-10-26T16:00 enviado bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x 
+- 2026-10-26T16:40 entrevista_aprobada entrevistas:job00248 
+- 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
+- 2026-10-26T16:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
+- 2026-10-26T16:40 recibido entrevistas:job00248|x 
+- 2026-10-26T16:40 recibido entrevistas:job00248|tiktok 
+- 2026-10-26T16:40 recibido web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-26T16:40 programado entrevistas:job00248|x 

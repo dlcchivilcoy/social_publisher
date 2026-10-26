@@ -1167,6 +1167,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_136ffd3afd644ec2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/xXH7I_PiGaM"
   },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq": {
+   "descripcion": "Una dotación de Bomberos Voluntarios de Chivilcoy intervino ante un principio de incendio registrado en un automóvil Renault 12, dominio VGV 320, propiedad de Nicolás Centurión. El hecho ocurrió en la calle 9 de Julio, a la altura del 142. Al arribar al lugar, constataron que el fuego...",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-26T16:27:37.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
+   "urgente": false,
+   "video_bytes": 529591,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/aoWpCs0EWCU"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -2712,6 +2733,27 @@
    "video_mb": 29.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00247.mp4",
    "youtube_url": "https://youtu.be/y8bRIy3qdEQ"
+  },
+  "entrevistas:job00248": {
+   "descripcion": "En Chivilcoy, la médica reumatóloga Ana Maria Berón explicó por qué los analgésicos no curan la fibromialgia al no existir daño en el tejido. También remarcó la constante formación médica ante patologías reumatológicas muy frecuentes pero poco conocidas.",
+   "duracion_seg": null,
+   "entrevistado": "Ana Maria Berón",
+   "generado": "2026-10-26T16:40:17.000Z",
+   "id": "entrevistas:job00248",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Ana Maria Berón: La fibromialgia no se cura con analgésicos",
+   "urgente": false,
+   "video_bytes": 19632360,
+   "video_mb": 18.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00248.mp4",
+   "youtube_url": "https://youtu.be/fZfaGpRrV0A"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -11718,24 +11760,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/diputados-la-oposicion-no-alcanzo-el-quorum-y-el-oficialismo-350372",
    "volanta": ""
   },
-  "web:dd7f1568-1a2a-4716-94cc-9e7125c22801": {
-   "categoria": "",
-   "descripcion": "El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra \"Bellas Artes Unidas\" La Sociedad Argentina de Escritores (SADE) y la Asociación de Supervisores de la Industria Metalmecánica de la República Argentina (ASIMRA) vuelven a unir esfuerzos para celebrar una de las citas culturales más esperadas de la región: la 19ª edición de la muestra artística competitiva \"Bellas Artes Unidas\". La inauguración oficial se llevará a cabo este sábado 17 de octubre a las 20:30 horas...",
-   "generado": "2026-10-16T10:08:26.164Z",
-   "id": "web:dd7f1568-1a2a-4716-94cc-9e7125c22801",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8efce077de4a4bfdbe095391963f3b33~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/inauguracion-oficial-el-arte-y-la-cultura-se-citan-en-chivilcoy-con",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra \"Bellas Artes Unidas\"",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inauguracion-oficial-el-arte-y-la-cultura-se-citan-en-chivilcoy-con",
-   "volanta": "Inauguración oficial"
-  },
   "web:dd86062e-10d5-470e-a60e-27533841a020": {
    "categoria": "",
    "descripcion": "Prueba de fuego en el Grilón Arena: Racing recibe a Boca y Quimsa tras una gira triunfal La ciudad se prepara para vivir un fin de semana a puro básquet de máxima jerarquía. Luego de una exigente y exitosa gira por el norte del país, donde cosechó valiosas victorias en escenarios complejos frente a Oberá Tenis Club en Misiones y La Unión de Formosa, Racing de Chivilcoy regresa a su casa con el objetivo de consolidar su gran momento en la Liga Nacional. El estadio Grilón Arena volverá a abrir...",
@@ -12142,24 +12166,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": {
-   "categoria": "nacionales",
-   "descripcion": "El espacio libertario y el partido amarillo preparan las discusiones territoriales de cara a las elecciones. El armado de listas, el rol de los…",
-   "generado": "2026-10-15T16:06:39.353Z",
-   "id": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_45e9a5c4b9954fa0b30a22e4fbb95ef8~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provincia de Buenos Aires",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
-   "volanta": ""
-  },
   "web:ef08f847-d9e6-4534-8776-17ff73df6820": {
    "categoria": "nacionales",
    "descripcion": "El esperado superdeportivo de la compañía de Elon Musk incorporó tecnología de propulsión vertical y sistemas de máxima adherencia, aunque la variante…",
@@ -12251,6 +12257,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la-1",
    "volanta": "‘Raviol de Oro 2026’"
+  },
+  "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d": {
+   "categoria": "",
+   "descripcion": "Principio de incendio en un Renault 12 en calle 9 de Julio Una dotación de Bomberos Voluntarios de Chivilcoy intervino ante un principio de incendio registrado en un automóvil Renault 12, dominio VGV 320, propiedad de Nicolás Centurión. El hecho ocurrió en la calle 9 de Julio, a la altura del 142. Al arribar al lugar, los servidores públicos constataron que el fuego se había originado en el sector del motor y que el propietario ya había logrado sofocarlo mediante el uso de extintores. La...",
+   "generado": "2026-10-26T16:25:31.086Z",
+   "id": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5ff1e48a92b54cdd9b798a4ef3f8d161~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "volanta": "Chivilcoy · Incidentes"
   },
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": {
    "categoria": "nacionales",
@@ -12426,17 +12451,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 240,
-   "segundos": 36026,
+   "restantes": 239,
+   "segundos": 33609,
    "tope": 250
   },
   "30d": {
-   "restantes": 2129,
-   "segundos": 1314622,
+   "restantes": 2128,
+   "segundos": 1312205,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T16:00:19.000Z",
+ "cuota_visto": "2026-10-26T16:40:37.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -12483,40 +12508,6 @@
    "prioridad": 7,
    "texto": "Piden colaboración para recuperar una moto robada en calle 94\n\nBrandon Videla solicitó ayuda para dar con su motocicleta sustraída el miércoles 14 de octubre alrededor de las 23. Se trata de una Gilera Smash negra y azul, patente A154COA, que lleva un logo de River debajo del tablero.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto\n\n#chivilcoy #diariolacampaña #radiodelcentro",
    "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
-   "urgente": false,
-   "vence": "2026-10-18T13:43:28.000Z",
-   "video_bytes": 942586,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x": {
-   "actualizado": "2026-10-16T16:20:16.000Z",
-   "buffer_id": "6ad22df825d13dd62eec8f90",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|x",
-   "creado": "2026-10-16T14:00:21.000Z",
-   "dueAt": "2026-10-16T15:45:08.000Z",
-   "enviado": "2026-10-16T15:45:20.582Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T13:43:28.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111121321010647065",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Piden colaboración para recuperar una moto robada en calle 94\n\nBrandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto\n#Chivilcoy",
    "tipo": "video",
    "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
    "urgente": false,
@@ -16195,6 +16186,62 @@
    "vence": "2026-10-26T16:07:32.000Z",
    "video_bytes": 625009,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_136ffd3afd644ec2.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok": {
+   "actualizado": "2026-10-26T16:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
+   "creado": "2026-10-26T16:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T16:27:37.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Principio de incendio en un Renault 12 en calle 9 de Julio\n\nUna dotación de Bomberos Voluntarios de Chivilcoy intervino ante un principio de incendio registrado en un automóvil Renault 12, dominio VGV 320, propiedad de Nicolás Centurión. El hecho ocurrió en la calle 9 de Julio, a la altura del 142. Al arribar al lugar, constataron que el fuego...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
+   "urgente": false,
+   "vence": "2026-10-28T16:27:37.000Z",
+   "video_bytes": 529591,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x": {
+   "actualizado": "2026-10-26T16:40:17.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
+   "creado": "2026-10-26T16:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-26T16:27:37.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "noticia": "nota:chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Principio de incendio en un Renault 12 en calle 9 de Julio\n\nBomberos Voluntarios de Chivilcoy intervinieron por el siniestro en el vehículo de Nicolás Centurión. Ocurrió a la altura del 142.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
+   "urgente": false,
+   "vence": "2026-10-26T18:27:37.000Z",
+   "video_bytes": 529591,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -20413,6 +20460,62 @@
    "vence": "2026-10-23T19:20:14.000Z",
    "video_bytes": 31380616,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00247.mp4",
+   "viral": false
+  },
+  "entrevistas:job00248|tiktok": {
+   "actualizado": "2026-10-26T16:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00248|tiktok",
+   "creado": "2026-10-26T16:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T16:40:17.000Z",
+   "id": "entrevistas:job00248",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Ana Maria Berón: La fibromialgia no se cura con analgésicos\n\nEn Chivilcoy, la médica reumatóloga Ana Maria Berón explicó por qué los analgésicos no curan la fibromialgia al no existir daño en el tejido. También remarcó la constante formación médica ante patologías reumatológicas muy frecuentes pero poco conocidas.\n\nhttps://youtu.be/fZfaGpRrV0A\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ana Maria Berón: La fibromialgia no se cura con analgésicos",
+   "urgente": false,
+   "vence": "2026-10-28T16:40:17.000Z",
+   "video_bytes": 19632360,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00248.mp4",
+   "viral": false
+  },
+  "entrevistas:job00248|x": {
+   "actualizado": "2026-10-26T16:40:35.000Z",
+   "buffer_id": "6adf8284d0e68644af58b9cf",
+   "clave": "entrevistas:job00248|x",
+   "creado": "2026-10-26T16:40:17.000Z",
+   "dueAt": "2026-10-26T16:42:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T16:40:17.000Z",
+   "id": "entrevistas:job00248",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:analgesicos-beron-cura-fibromialgia-maria",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ana Maria Berón: La fibromialgia no se cura con analgésicos\n\nEn Chivilcoy, la médica reumatóloga Ana Maria Berón explicó por qué los analgésicos no curan la fibromialgia al no existir daño en el tejido.\n\nhttps://youtu.be/fZfaGpRrV0A",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ana Maria Berón: La fibromialgia no se cura con analgésicos",
+   "urgente": false,
+   "vence": "2026-10-26T18:40:17.000Z",
+   "video_bytes": 19632360,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00248.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -26628,40 +26731,6 @@
    "plataforma": "tiktok",
    "prioridad": 9,
    "texto": "Una vecina de Suipacha de 37 años falleció este lunes en un violento impacto frontal sobre el kilómetro 112 de la Ruta Nacional 5.\n\nLa víctima iba a bordo de un automóvil guiado por su expareja, un hombre de 41 años que contaba con una medida judicial de prohibición de acercamiento.\n\nEl conductor y el otro automovilista involucrado sufrieron heridas de gravedad y continúan internados en el hospital municipal.\n\nLa fiscalía interviniente ordenó diversas medidas de prueba para esclarecer si el episodio fatal estuvo vinculado a un contexto de violencia de género.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
-   "urgente": true,
-   "vence": "2026-10-17T09:41:32.000Z",
-   "video_bytes": 85860,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1509_04_junin_investigan-choque-fatal-en-la-.mp4"
-  },
-  "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x": {
-   "actualizado": "2026-10-16T16:20:16.000Z",
-   "buffer_id": "6ad24a1445dfa13a723bdac4",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos|x",
-   "creado": "2026-10-16T16:00:18.000Z",
-   "dueAt": "2026-10-16T16:03:58.000Z",
-   "enviado": "2026-10-16T16:06:08.561Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T15:41:32.000Z",
-   "id": "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111126555439055285",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 4.48,
-    "impressions": 67,
-    "reactions": 2,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "Investigan choque fatal en la Ruta 5 como presunto femicidio\n\nUna mujer de 37 años murió tras el impacto frontal de un auto contra una camioneta. Su expareja manejaba el vehículo a pesar de tener una perimetral vigente.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/investigan-choque-fatal-en-la-ruta-5-como-presunto-femicidio-de-969d42\n#Junín",
    "tipo": "video",
    "titulo": "Investigan choque fatal en la Ruta 5 como presunto femicidio",
    "urgente": true,
@@ -35165,40 +35234,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:dd7f1568-1a2a-4716-94cc-9e7125c22801|x": {
-   "actualizado": "2026-10-16T16:20:16.000Z",
-   "buffer_id": "6ad2293e25d13dd62eeb727f",
-   "clave": "web:dd7f1568-1a2a-4716-94cc-9e7125c22801|x",
-   "creado": "2026-10-16T10:20:16.000Z",
-   "dueAt": "2026-10-16T15:30:20.000Z",
-   "enviado": "2026-10-16T15:31:23.028Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T10:08:26.164Z",
-   "id": "web:dd7f1568-1a2a-4716-94cc-9e7125c22801",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111117808142622948",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 11,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/inauguracion-oficial-el-arte-y-la-cultura-se-citan-en-chivilcoy-con",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra \"Bellas Artes Unidas\"\n\nLa Sociedad Argentina de Escritores (SADE) y la Asociación de Supervisores de la Industria Metalmecánica de la República Argentina (ASIMRA)…\n\nhttps://www.diariolacampaña.com.ar/n/inauguracion-oficial-el-arte-y-la-cultura-se-citan-en-chivilcoy-con",
-   "tipo": "nota",
-   "titulo": "El arte y la cultura se citan en Chivilcoy con la 19ª edición de ExpoSade-Asimra \"Bellas Artes Unidas\"",
-   "urgente": false,
-   "vence": "2026-10-17T10:08:26.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:dd86062e-10d5-470e-a60e-27533841a020|x": {
    "actualizado": "2026-10-23T12:40:19.000Z",
    "buffer_id": "6adb42eec3741d7d48c81b9a",
@@ -35829,30 +35864,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x": {
-   "actualizado": "2026-10-16T16:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b|x",
-   "creado": "2026-10-15T16:20:19.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T16:06:39.353Z",
-   "id": "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provincia de Buenos Aires\n\nEl espacio libertario y el partido amarillo preparan las discusiones territoriales de cara a las elecciones. El armado de listas, el rol de los…\n\nhttps://www.diariolacampaña.com.ar/n/tension-entre-la-libertad-avanza-y-el-pro-por-el-armado-de-a92595",
-   "tipo": "nota",
-   "titulo": "Tensión entre La Libertad Avanza y el PRO por el armado de listas en la provincia de Buenos Aires",
-   "urgente": false,
-   "vence": "2026-10-16T16:06:39.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:ef08f847-d9e6-4534-8776-17ff73df6820|x": {
    "actualizado": "2026-10-17T18:40:14.000Z",
    "buffer_id": "",
@@ -35999,6 +36010,31 @@
    "titulo": "Domingo Pastas representará a la ciudad en la Final del certamen provincial",
    "urgente": false,
    "vence": "2026-10-26T16:03:14.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x": {
+   "actualizado": "2026-10-26T16:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x",
+   "creado": "2026-10-26T16:40:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-26T16:25:31.086Z",
+   "id": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "noticia": "nota:chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
+   "urgente": false,
+   "vence": "2026-10-26T20:25:31.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -36285,57 +36321,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ad96028ecaa6cda041ebeba",
-   "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|x",
-   "cuando": "2026-10-22T01:00:24.000Z",
-   "dueAt": "2026-10-22T01:03:29.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:b7b1426a9ab6b8b3|x",
-   "cuando": "2026-10-22T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b7b1426a9ab6b8b3|tiktok",
-   "cuando": "2026-10-22T01:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:b7b1426a9ab6b8b3|x",
-   "cuando": "2026-10-22T01:20:16.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:b7b1426a9ab6b8b3|tiktok",
-   "cuando": "2026-10-22T01:20:16.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|x",
-   "cuando": "2026-10-22T01:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tiktok",
-   "cuando": "2026-10-22T01:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|x",
    "cuando": "2026-10-22T01:40:31.000Z",
@@ -40524,6 +40509,58 @@
    "cuando": "2026-10-26T16:00:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114739369844126064"
+  },
+  {
+   "clave": "entrevistas:job00248",
+   "cuando": "2026-10-26T16:40:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
+   "cuando": "2026-10-26T16:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
+   "cuando": "2026-10-26T16:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "entrevistas:job00248|x",
+   "cuando": "2026-10-26T16:40:35.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00248|tiktok",
+   "cuando": "2026-10-26T16:40:35.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x",
+   "cuando": "2026-10-26T16:40:35.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adf8284d0e68644af58b9cf",
+   "clave": "entrevistas:job00248|x",
+   "cuando": "2026-10-26T16:40:36.000Z",
+   "dueAt": "2026-10-26T16:42:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -40626,6 +40663,7 @@
   "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj": "2026-10-26T02:00:18.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl": "2026-10-26T13:48:30.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl": "2026-10-26T14:20:14.000Z",
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq": "2026-10-26T16:40:17.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -40720,6 +40758,7 @@
   "entrevistas:job00245": "2026-10-23T16:20:15.000Z",
   "entrevistas:job00246": "2026-10-23T16:40:15.000Z",
   "entrevistas:job00247": "2026-10-23T17:20:14.000Z",
+  "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -41393,6 +41432,7 @@
   "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62": "2026-10-21T10:02:08.000Z",
   "web:f1bd5374-e321-4707-b267-340e4fb19c4e": "2026-10-15T10:20:13.000Z",
   "web:f34b4317-aae2-4788-9b60-afe5d1e7eb93": "2026-10-26T12:06:06.000Z",
+  "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d": "2026-10-26T16:40:17.000Z",
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": "2026-10-18T22:00:19.000Z",
   "web:f50f31fd-f8b9-4ff4-ba84-eb2dd03e8750": "2026-10-14T15:40:18.000Z",
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
