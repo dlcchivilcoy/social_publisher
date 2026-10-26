@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 26/10/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 5 | 1 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 6 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 34 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 13 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 6 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 31 · likes 0
@@ -27,18 +27,18 @@ Actualizado: 26/10/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 232 de 250 · 30d: quedan 2121 de 3000 (visto 2026-10-26T21:00:23.000Z)
+15m: quedan 99 de 100 · 24h: quedan 231 de 250 · 30d: quedan 2120 de 3000 (visto 2026-10-26T21:20:19.000Z)
 
 ## Cola propia (9 esperando)
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -48,7 +48,6 @@ Actualizado: 26/10/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T16:40 recibido web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T16:40 programado entrevistas:job00248|x 
 - 2026-10-26T17:00 entrevista_aprobada entrevistas:job00249 
 - 2026-10-26T17:00 recibido entrevistas:job00249|x 
@@ -73,3 +72,4 @@ Actualizado: 26/10/2026 18:00 (hora AR) · ACTIVO
 - 2026-10-26T21:00 programado entrevistas:job00250|tiktok 
 - 2026-10-26T21:00 programado entrevistas:job00249|tiktok 
 - 2026-10-26T21:00 programado entrevistas:job00248|tiktok 
+- 2026-10-26T21:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
