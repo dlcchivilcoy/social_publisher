@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 6
+    "scheduled": 0,
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-26T21:20:19.000Z"
+   "visto": "2026-10-26T22:40:32.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 13
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-26T21:20:19.000Z"
+   "visto": "2026-10-26T22:40:32.000Z"
   }
  },
  "contenidos": {
@@ -1124,6 +1124,48 @@
    "video_mb": 0.8,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55d077578cb8c258.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Au9SS5G7WVk"
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5": {
+   "descripcion": "Diez distritos bonaerenses compartieron en Alberti propuestas para el desarrollo productivo. La jornada reunió a funcionarios provinciales, referentes empresariales, responsables de parques industriales y representantes académicos, bajo la organización del MDF Chivilcoy y Alberti.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-26T22:22:48.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
+   "urgente": false,
+   "video_bytes": 709631,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b884508f93b3289e.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/1-Nk-gioe8A"
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt": {
+   "descripcion": "La Policía de Chivilcoy llevó adelante cuatro allanamientos en distintos domicilios de la ciudad, en el marco de una investigación por infracción a la Ley de Drogas iniciada en junio de este año. Como resultado de los procedimientos, se secuestraron estupefacientes, dinero en efectivo,",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-26T22:34:02.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
+   "urgente": false,
+   "video_bytes": 3347183,
+   "video_mb": 3.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dabda25c3cc53fc5.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ZTh2Siud-YU"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -6465,6 +6507,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
    "volanta": ""
   },
+  "web:024c510b-0090-4885-a004-6612c092f38b": {
+   "categoria": "",
+   "descripcion": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos La Policía de Chivilcoy llevó adelante cuatro allanamientos en distintos domicilios de la ciudad, en el marco de una investigación por infracción a la Ley de Drogas iniciada en junio de este año. Como resultado de los procedimientos, se secuestraron estupefacientes, dinero en efectivo, balanzas de precisión, elementos utilizados para el fraccionamiento de sustancias y teléfonos celulares. Además, tres hombres mayores...",
+   "generado": "2026-10-26T22:31:01.687Z",
+   "id": "web:024c510b-0090-4885-a004-6612c092f38b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4c3eac8464854a52b572c89fbde2519c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": {
    "categoria": "",
    "descripcion": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá El deportista de Roque Pérez, de 23 años, consiguió su clasificación tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero. Este logro le abre la posibilidad de representar a la Argentina en el Mundial de Canadá, llevando su preparación y dedicación al escenario internacional.",
@@ -8568,6 +8629,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
    "volanta": ""
+  },
+  "web:67070b71-0e27-4e84-903f-83a20dacbf1a": {
+   "categoria": "",
+   "descripcion": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo Diez distritos bonaerenses compartieron en Alberti propuestas para el desarrollo productivo. La jornada reunió a funcionarios provinciales, referentes empresariales, responsables de parques industriales y representantes académicos. La organización estuvo a cargo del MDF Chivilcoy, con la participación del Dr. Luciano Dellepiane, junto a la Municipalidad de Alberti. Representantes de diez distritos bonaerenses...",
+   "generado": "2026-10-26T22:20:34.483Z",
+   "id": "web:67070b71-0e27-4e84-903f-83a20dacbf1a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0171182e964b45f599195bf259348c2a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "volanta": "Alberti · Producción"
   },
   "web:6871a7bc-9ddf-4c76-927a-6d48120cbf5a": {
    "categoria": "",
@@ -11999,22 +12079,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 230,
-   "segundos": 13227,
+   "restantes": 228,
+   "segundos": 12011,
    "tope": 250
   },
   "30d": {
-   "restantes": 2119,
-   "segundos": 1291822,
+   "restantes": 2117,
+   "segundos": 1290607,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-26T22:20:19.000Z",
+ "cuota_visto": "2026-10-26T22:40:35.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -15548,18 +15628,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x": {
-   "actualizado": "2026-10-26T22:20:18.000Z",
+   "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfd222786a2b5ea421b85a",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x",
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "2026-10-26T22:22:58.000Z",
+   "enviado": "2026-10-26T22:23:05.344Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T22:09:40.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114845295724966334",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
    "noticia": "nota:chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
    "origen": "bot",
@@ -15573,6 +15654,118 @@
    "vence": "2026-10-27T00:09:40.000Z",
    "video_bytes": 805759,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55d077578cb8c258.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok": {
+   "actualizado": "2026-10-26T22:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok",
+   "creado": "2026-10-26T22:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T22:22:48.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo\n\nDiez distritos bonaerenses compartieron en Alberti propuestas para el desarrollo productivo. La jornada reunió a funcionarios provinciales, referentes empresariales, responsables de parques industriales y representantes académicos, bajo la organización del MDF Chivilcoy y Alberti.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
+   "urgente": false,
+   "vence": "2026-10-28T22:22:48.000Z",
+   "video_bytes": 709631,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b884508f93b3289e.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x": {
+   "actualizado": "2026-10-26T22:40:33.000Z",
+   "buffer_id": "6adfd6e2ade6626d93178ef3",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x",
+   "creado": "2026-10-26T22:40:15.000Z",
+   "dueAt": "2026-10-26T22:42:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T22:22:48.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "noticia": "nota:alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo\n\nDiez distritos bonaerenses compartieron en Alberti propuestas para el desarrollo productivo.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
+   "urgente": false,
+   "vence": "2026-10-27T00:22:48.000Z",
+   "video_bytes": 709631,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b884508f93b3289e.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok": {
+   "actualizado": "2026-10-26T22:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok",
+   "creado": "2026-10-26T22:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-26T22:34:02.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos\n\nLa Policía de Chivilcoy realizó cuatro allanamientos en distintos domicilios de la ciudad en el marco de una investigación por infracción a la Ley de Drogas iniciada en junio de este año. Como resultado de los procedimientos, los efectivos secuestraron estupefacientes y dinero en efectivo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
+   "urgente": false,
+   "vence": "2026-10-28T22:34:02.000Z",
+   "video_bytes": 3347183,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dabda25c3cc53fc5.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x": {
+   "actualizado": "2026-10-26T22:40:33.000Z",
+   "buffer_id": "6adfd6e3c26d8b40cc7b7531",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
+   "creado": "2026-10-26T22:40:15.000Z",
+   "dueAt": "2026-10-26T22:47:01.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-26T22:34:02.000Z",
+   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "noticia": "nota:chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos\n\nLa Policía de Chivilcoy realizó procedimientos en distintos domicilios de la ciudad por una causa iniciada en junio. Se incautaron estupefacientes y dinero en efectivo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
+   "urgente": false,
+   "vence": "2026-10-27T00:34:02.000Z",
+   "video_bytes": 3347183,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dabda25c3cc53fc5.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -19656,19 +19849,20 @@
    "viral": false
   },
   "entrevistas:job00248|tiktok": {
-   "actualizado": "2026-10-26T21:00:18.000Z",
+   "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfbf67ca308c8a232544e0",
    "categoria": "",
    "clave": "entrevistas:job00248|tiktok",
    "creado": "2026-10-26T16:40:17.000Z",
    "dueAt": "2026-10-26T22:23:08.000Z",
+   "enviado": "2026-10-26T22:24:06.579Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T16:40:17.000Z",
    "id": "entrevistas:job00248",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701105715200527637",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -19713,19 +19907,20 @@
    "viral": false
   },
   "entrevistas:job00249|tiktok": {
-   "actualizado": "2026-10-26T21:00:18.000Z",
+   "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfbf663ffda7dd0590fcba",
    "categoria": "",
    "clave": "entrevistas:job00249|tiktok",
    "creado": "2026-10-26T17:00:18.000Z",
    "dueAt": "2026-10-26T22:03:59.000Z",
+   "enviado": "2026-10-26T22:06:32.223Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T17:00:18.000Z",
    "id": "entrevistas:job00249",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701100867365162241",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -19770,19 +19965,20 @@
    "viral": false
   },
   "entrevistas:job00250|tiktok": {
-   "actualizado": "2026-10-26T21:00:18.000Z",
+   "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfbf66ca308c8a23254421",
    "categoria": "",
    "clave": "entrevistas:job00250|tiktok",
    "creado": "2026-10-26T17:40:14.000Z",
    "dueAt": "2026-10-26T21:43:57.000Z",
+   "enviado": "2026-10-26T21:45:54.502Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T17:40:14.000Z",
    "id": "entrevistas:job00250",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701095606680472852",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -19827,19 +20023,20 @@
    "viral": false
   },
   "entrevistas:job00251|tiktok": {
-   "actualizado": "2026-10-26T21:00:18.000Z",
+   "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfbf653ffda7dd0590f9f9",
    "categoria": "",
    "clave": "entrevistas:job00251|tiktok",
    "creado": "2026-10-26T18:20:14.000Z",
    "dueAt": "2026-10-26T21:23:26.000Z",
+   "enviado": "2026-10-26T21:25:19.304Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T18:20:14.000Z",
    "id": "entrevistas:job00251",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701090283609394484",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -23650,18 +23847,19 @@
    "viral": false
   },
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x": {
-   "actualizado": "2026-10-26T22:20:18.000Z",
+   "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfd223c26d8b40cc7a5a35",
    "clave": "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x",
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "2026-10-26T22:28:26.000Z",
+   "enviado": "2026-10-26T22:28:32.421Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T22:01:15.000Z",
    "id": "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114846667673424230",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-recuperan-rodado-robado-apresan-a-profugo-y-arrestan-a-un-a8d06e",
    "noticia": "nota:junin-recuperan-rodado-robado-apresan-a-profugo-y-arrestan-a-un-a8d06e",
    "origen": "policiales",
@@ -26336,6 +26534,31 @@
    "vence": "2026-10-18T12:06:26.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:024c510b-0090-4885-a004-6612c092f38b|x": {
+   "actualizado": "2026-10-26T22:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:024c510b-0090-4885-a004-6612c092f38b|x",
+   "creado": "2026-10-26T22:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-26T22:31:01.687Z",
+   "id": "web:024c510b-0090-4885-a004-6612c092f38b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "noticia": "nota:chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
+   "urgente": false,
+   "vence": "2026-10-27T02:31:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x": {
    "actualizado": "2026-10-18T13:40:14.000Z",
@@ -29693,6 +29916,31 @@
    "titulo": "Vaca Muerta dispara el superávit energético a USD 9.427 millones en nueve meses",
    "urgente": false,
    "vence": "2026-10-20T05:45:07.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:67070b71-0e27-4e84-903f-83a20dacbf1a|x": {
+   "actualizado": "2026-10-26T22:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:67070b71-0e27-4e84-903f-83a20dacbf1a|x",
+   "creado": "2026-10-26T22:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-26T22:20:34.483Z",
+   "id": "web:67070b71-0e27-4e84-903f-83a20dacbf1a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "noticia": "nota:alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
+   "urgente": false,
+   "vence": "2026-10-27T02:20:34.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -35013,95 +35261,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ad9e80e28df0d23e734357d",
-   "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
-   "cuando": "2026-10-22T10:40:14.000Z",
-   "dueAt": "2026-10-22T11:52:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad9e80eb7096b8d380e31c1",
-   "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
-   "cuando": "2026-10-22T10:40:14.000Z",
-   "dueAt": "2026-10-22T12:07:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:2e4fe240-6f88-48fa-9527-8c188ea675b0|x",
-   "cuando": "2026-10-22T11:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:a223c7fb-02cc-4f0e-8968-13bbf35af953|x",
-   "cuando": "2026-10-22T11:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be|x",
-   "cuando": "2026-10-22T11:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "buffer_id": "6ad9ecc8ebec8224f3baa787",
-   "clave": "web:6fd91d62-6af9-4582-8ddd-55770c943c13|x",
-   "cuando": "2026-10-22T11:00:24.000Z",
-   "dueAt": "2026-10-22T12:22:30.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ad9f16db3b4a1914c95f4a3",
-   "clave": "web:f86f8375-5d60-4a7c-9520-9169b60938a8|x",
-   "cuando": "2026-10-22T11:20:13.000Z",
-   "dueAt": "2026-10-22T12:37:17.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:280999ac-1b54-4b50-93c1-5c7aa19298cf|x",
-   "cuando": "2026-10-22T11:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113218119342735624"
-  },
-  {
-   "clave": "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x",
-   "cuando": "2026-10-22T11:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113233410625863899"
-  },
-  {
-   "clave": "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x",
-   "cuando": "2026-10-22T11:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113214406838431779"
-  },
-  {
-   "clave": "web:ff2853a5-e6da-4760-9b15-060f61d644a1|x",
-   "cuando": "2026-10-22T11:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113229506601218391"
-  },
-  {
-   "buffer_id": "6ad9f61febec8224f3bd6be1",
-   "clave": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x",
-   "cuando": "2026-10-22T11:40:15.000Z",
-   "dueAt": "2026-10-22T13:07:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438|x",
-   "cuando": "2026-10-22T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113240768160608708"
-  },
-  {
-   "clave": "web:6fd91d62-6af9-4582-8ddd-55770c943c13|x",
-   "cuando": "2026-10-22T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113244605814616451"
-  },
-  {
    "clave": "web:976bae39-fdab-4787-9e26-8828e58badc1|x",
    "cuando": "2026-10-22T12:40:14.000Z",
    "evento": "enviado",
@@ -39237,6 +39396,104 @@
    "cuando": "2026-10-26T22:20:19.000Z",
    "dueAt": "2026-10-26T22:28:26.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x",
+   "cuando": "2026-10-26T22:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok",
+   "cuando": "2026-10-26T22:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
+   "cuando": "2026-10-26T22:40:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok",
+   "cuando": "2026-10-26T22:40:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:024c510b-0090-4885-a004-6612c092f38b|x",
+   "cuando": "2026-10-26T22:40:32.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:67070b71-0e27-4e84-903f-83a20dacbf1a|x",
+   "cuando": "2026-10-26T22:40:32.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x",
+   "cuando": "2026-10-26T22:40:33.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114845295724966334"
+  },
+  {
+   "clave": "entrevistas:job00248|tiktok",
+   "cuando": "2026-10-26T22:40:33.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701105715200527637"
+  },
+  {
+   "clave": "entrevistas:job00249|tiktok",
+   "cuando": "2026-10-26T22:40:33.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701100867365162241"
+  },
+  {
+   "clave": "entrevistas:job00250|tiktok",
+   "cuando": "2026-10-26T22:40:33.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701095606680472852"
+  },
+  {
+   "clave": "entrevistas:job00251|tiktok",
+   "cuando": "2026-10-26T22:40:33.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701090283609394484"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x",
+   "cuando": "2026-10-26T22:40:33.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114846667673424230"
+  },
+  {
+   "buffer_id": "6adfd6e2ade6626d93178ef3",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x",
+   "cuando": "2026-10-26T22:40:35.000Z",
+   "dueAt": "2026-10-26T22:42:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adfd6e3c26d8b40cc7b7531",
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
+   "cuando": "2026-10-26T22:40:35.000Z",
+   "dueAt": "2026-10-26T22:47:01.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39263,7 +39520,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-26",
- "ultima_sync": "2026-10-26T21:20:19.000Z",
+ "ultima_sync": "2026-10-26T22:40:32.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -39342,6 +39599,8 @@
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl": "2026-10-26T14:20:14.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq": "2026-10-26T16:40:17.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum": "2026-10-26T22:20:14.000Z",
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5": "2026-10-26T22:40:15.000Z",
+  "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt": "2026-10-26T22:40:15.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -39666,6 +39925,7 @@
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": "2026-10-21T00:00:28.000Z",
   "web:010e4114-35e9-438d-8057-51285ef42a56": "2026-10-19T02:20:15.000Z",
   "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
+  "web:024c510b-0090-4885-a004-6612c092f38b": "2026-10-26T22:40:15.000Z",
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:02e93911-55df-4a65-bb82-d3e764bdb7c5": "2026-10-26T12:06:06.000Z",
   "web:037db3cf-2837-40cd-af9c-c0b367f30802": "2026-10-21T10:20:15.000Z",
@@ -39832,6 +40092,7 @@
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
   "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4": "2026-10-20T02:00:19.000Z",
+  "web:67070b71-0e27-4e84-903f-83a20dacbf1a": "2026-10-26T22:40:15.000Z",
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
   "web:6871a7bc-9ddf-4c76-927a-6d48120cbf5a": "2026-10-24T17:40:14.000Z",
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",

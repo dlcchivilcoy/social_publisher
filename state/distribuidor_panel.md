@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 6 | 0 | 4 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 35 |
+| Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 5 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 6 | 0 | 6 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 3 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 37 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 13 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 29 · likes 0
@@ -27,9 +27,11 @@ Actualizado: 26/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 230 de 250 · 30d: quedan 2119 de 3000 (visto 2026-10-26T22:20:19.000Z)
+15m: quedan 98 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2117 de 3000 (visto 2026-10-26T22:40:35.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (12 esperando)
+- TikTok · Reels del bot · Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,20 +51,6 @@ Actualizado: 26/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T17:00 programado entrevistas:job00249|x 
-- 2026-10-26T17:40 entrevista_aprobada entrevistas:job00250 
-- 2026-10-26T17:40 recibido entrevistas:job00250|x 
-- 2026-10-26T17:40 recibido entrevistas:job00250|tiktok 
-- 2026-10-26T17:40 programado entrevistas:job00250|x 
-- 2026-10-26T18:20 entrevista_aprobada entrevistas:job00251 
-- 2026-10-26T18:20 recibido entrevistas:job00251|x 
-- 2026-10-26T18:20 recibido entrevistas:job00251|tiktok 
-- 2026-10-26T18:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x 
-- 2026-10-26T18:20 enviado entrevistas:job00249|x 
-- 2026-10-26T18:20 enviado entrevistas:job00250|x 
-- 2026-10-26T18:20 programado entrevistas:job00251|x 
-- 2026-10-26T19:20 enviado entrevistas:job00251|x 
-- 2026-10-26T21:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
 - 2026-10-26T21:00 programado entrevistas:job00251|tiktok 
 - 2026-10-26T21:00 programado entrevistas:job00250|tiktok 
 - 2026-10-26T21:00 programado entrevistas:job00249|tiktok 
@@ -74,3 +62,17 @@ Actualizado: 26/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-26T22:20 recibido web:23544596-7ffd-4da0-9940-5700227a63bf|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-26T22:20 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x 
 - 2026-10-26T22:20 programado policiales:https://junin24.com/policiales/recuperan-una-bici 
+- 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
+- 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
+- 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
+- 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tikto 
+- 2026-10-26T22:40 recibido web:024c510b-0090-4885-a004-6612c092f38b|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-26T22:40 recibido web:67070b71-0e27-4e84-903f-83a20dacbf1a|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-26T22:40 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x 
+- 2026-10-26T22:40 enviado entrevistas:job00248|tiktok 
+- 2026-10-26T22:40 enviado entrevistas:job00249|tiktok 
+- 2026-10-26T22:40 enviado entrevistas:job00250|tiktok 
+- 2026-10-26T22:40 enviado entrevistas:job00251|tiktok 
+- 2026-10-26T22:40 enviado policiales:https://junin24.com/policiales/recuperan-una-bici 
+- 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
+- 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
