@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/10/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-10-25)
+## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 11 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 11 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -51,12 +51,6 @@ Actualizado: 25/10/2026 23:40 (hora AR) · ACTIVO
 - TikTok · Piden investigar a Julio Iglesias por abusos y explotación — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-25T20:40 enviado bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x 
-- 2026-10-25T21:00 recibido bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x 
-- 2026-10-25T21:00 recibido bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok 
-- 2026-10-25T21:00 recibido web:3e3abc09-6c21-4ab2-88f6-118e63835441|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-25T21:00 programado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x 
-- 2026-10-25T22:00 enviado bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x 
 - 2026-10-25T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/ 
 - 2026-10-25T22:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/ 
 - 2026-10-25T23:00 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/ 
@@ -76,3 +70,9 @@ Actualizado: 25/10/2026 23:40 (hora AR) · ACTIVO
 - 2026-10-26T02:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x 
 - 2026-10-26T02:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x 
 - 2026-10-26T02:20 enviado bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x 
+- 2026-10-26T09:00 recibido policiales:https://laopinionline.ar/articulo/gatillo-facil-e 
+- 2026-10-26T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/10/25/chi 
+- 2026-10-26T09:00 recibido policiales:https://diarionucleo.com/ciudad/pergamino/291155- 
+- 2026-10-26T09:00 vencido policiales:https://laopinionline.ar/articulo/gatillo-facil-e no hubo lugar antes de su vencimiento
+- 2026-10-26T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/10/25/chi no hubo lugar antes de su vencimiento
+- 2026-10-26T09:00 vencido policiales:https://diarionucleo.com/ciudad/pergamino/291155- no hubo lugar antes de su vencimiento

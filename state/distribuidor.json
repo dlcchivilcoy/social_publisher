@@ -5234,6 +5234,32 @@
    "volanta": "Alberti",
    "youtube_url": "https://youtube.com/shorts/NNUg4jN_Vso"
   },
+  "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": {
+   "categoria": "otro_policial",
+   "descripcion": "Dos chicas oriundas de Pergamino sufrieron heridas de bala tras un procedimiento de las fuerzas de seguridad en Arrecifes. Una de las víctimas se encuentra internada en terapia intensiva.",
+   "distancia_km": 92.6,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-26T02:42:17.000Z",
+   "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura",
+   "localidad": "Pergamino",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-dos-jovenes-heridas-de-bala-en-una-persecucion-e595d2",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Dos jóvenes oriundas de Pergamino terminaron heridas de bala en medio de un operativo de las fuerzas de seguridad en la vecina ciudad de Arrecifes.\n\nEl episodio se desencadenó a la salida de un local bailable cuando las víctimas circulaban a bordo de un vehículo junto a otras cuatro personas.\n\nUna de las heridas permanece internada en terapia intensiva mientras se aguarda su evolución y la otra espera ser derivada a un centro de mayor complejidad.\n\nLa Justicia investiga el accionar de los uniformados, quienes quedaron demorados mientras avanzan las medidas procesales.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos jóvenes de Pergamino baleadas en una persecución policial",
+   "urgente": false,
+   "video_bytes": 86554,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_03_pergamino_dos-j-venes-de-pergamino-balea.mp4",
+   "volanta": "Pergamino en Arrecifes",
+   "youtube_url": "https://youtube.com/shorts/0UcHoPo_Gdc"
+  },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": {
    "categoria": "otro_policial",
    "descripcion": "Un fiscal español solicitó abrir una causa contra el músico de 83 años tras la denuncia de dos exempleadas por hechos ocurridos en 2021. El artista rechazó las acusaciones.",
@@ -5432,6 +5458,32 @@
    "volanta": "Robo en Pergamino",
    "youtube_url": "https://youtube.com/shorts/mNnp5yzkyVA"
   },
+  "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": {
+   "categoria": "operativo_policial",
+   "descripcion": "Una persecución policial terminó con dos mujeres heridas de bala y dos efectivos demorados en Arrecifes. El auto en el que viajaban seis jóvenes fue interceptado en la Ruta Nacional 8.",
+   "distancia_km": 92.6,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-26T01:13:10.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial",
+   "localidad": "Arrecifes",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-dos-policias-demorados-y-dos-jovenes-heridas-de-bala-c4eb69",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Una persecución policial en Arrecifes terminó con dos mujeres jóvenes heridas de bala y el secuestro de las armas de los efectivos involucrados.\n\nEl episodio comenzó durante la madrugada de este domingo en la intersección de la avenida Merlassino y Roque Sáenz Peña, cuando un Volkswagen Gol blanco evadió un control.\n\nEl seguimiento culminó en el kilómetro 180 de la Ruta Nacional 8, donde el coche presentaba impactos de proyectiles tras la intervención de la Policía Comunal, la SubDDI y el GAD.\n\nLas dos heridas fueron trasladadas en una ambulancia del SAME al hospital local, mientras que el fiscal Marizcurrena interviene en la causa caratulada como «Averiguación de ilícito».\n\n📲 Más noticias de Arrecifes en www.diariolacampaña.com.ar\n\n#Arrecifes #OperativoPolicial #Persecucion #Investigacion #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos policías demorados y dos jóvenes heridas tras una balacera en Arrecifes",
+   "urgente": false,
+   "video_bytes": 86004,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_01_pergamino_dos-polic-as-demorados-y-dos-j.mp4",
+   "volanta": "Arrecifes",
+   "youtube_url": "https://youtube.com/shorts/Bdr0EelOjRI"
+  },
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": {
    "categoria": "robo",
    "descripcion": "La Justicia esclareció el violento asalto a una mujer de 74 años en su casa de Salto. El fiscal Germán Guidi determinó que el empleado que cuidaba el parque actuó como entregador y tocó el timbre para que su tío ingresara a robar.",
@@ -5577,30 +5629,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4",
    "volanta": "Hallazgo trágico en Pehuajó",
    "youtube_url": "https://youtube.com/shorts/S_FSlbIokQ8"
-  },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": {
-   "categoria": "incendio",
-   "descripcion": "El rodado era guiado por un hombre de 46 años. El foco ígneo se desató este miércoles sobre la calzada y requirió el rápido accionar de los bomberos locales, sin dejar heridos.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-15T13:42:33.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-una-camioneta-se-prendio-fuego-por-una-falla-electrica-15daea",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "texto_tiktok": "Una camioneta Ford Ranger sufrió daños este miércoles a causa de un principio de incendio sobre la traza urbana.\n\nEl episodio ocurrió en la vía pública, precisamente en la arteria Italia comprendida entre las intersecciones de 12 de Octubre y Del Busto.\n\nEl rodado era manejado por un vecino de la zona identificado como Franco Vullien, de 46 años, quien resultó ileso según el parte oficial.\n\nUna dotación perteneciente al cuerpo de Bomberos Voluntarios de Bragado acudió rápidamente al sector y logró extinguir las llamas antes de que destruyeran por completo la unidad.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Incendio #BomberosVoluntarios #SiniestroVehicular #BuenosAires",
-   "tipo": "video",
-   "titulo": "Una camioneta sufrió daños totales por una falla eléctrica en Bragado",
-   "urgente": false,
-   "video_bytes": 79660,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_07_bragado_una-camioneta-sufri-da-os-tota.mp4",
-   "volanta": "Incendio en Bragado",
-   "youtube_url": "https://youtube.com/shorts/CMHtzsnYjeQ"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": {
    "categoria": "incendio",
@@ -6658,6 +6686,32 @@
    "volanta": "Incendio en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/GEEG802joec"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/": {
+   "categoria": "robo",
+   "descripcion": "Victoria denunció que delincuentes se llevaron su motocicleta de la calle 86. Minutos después, descubrió que los sospechosos presumían el rodado en historias de Instagram.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-26T02:42:17.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-los-ladrones-la-f299bf",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una vecina de Chivilcoy sufrió el robo de su motocicleta durante la madrugada del sábado.\n\nEl episodio sucedió cerca de las 2:45 frente a un domicilio situado en la calle 86, entre Arenales y Miguel Calderón.\n\nLa damnificada, identificada como Victoria, advirtió la faltante cinco minutos más tarde al salir tras escuchar ruidos.\n\nPosteriormente, constató que los presuntos autores subieron imágenes del vehículo sustraído a Instagram antes de borrar las publicaciones.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Inseguridad #RoboDeMotos #Chivilcoy #BuenosAires",
+   "tipo": "video",
+   "titulo": "Le robaron la moto en la puerta de su casa y la publicaron en Instagram",
+   "urgente": false,
+   "video_bytes": 127803,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_07_9-de-julio_le-robaron-la-moto-en-la-puert.mp4",
+   "volanta": "Robo de moto en Chivilcoy",
+   "youtube_url": "https://youtube.com/shorts/SDRA4W970rY"
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": {
    "categoria": "accidente_vial",
    "descripcion": "El piloto Luis Zuffo sufrió múltiples fracturas tras un violento vuelco durante la competencia automovilística. Su vehículo despistó en un sector de alta velocidad.",
@@ -7050,24 +7104,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-presentan-el-proyecto-la-unlu-corre-por-la-inclusion-la",
    "volanta": "Atletismo"
-  },
-  "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f": {
-   "categoria": "",
-   "descripcion": "Destrozaron la vidriera y robaron en el comercio Aromas El local de decoración y regalería Aromas, ubicado en avenida Villarino 369, frente a la Capilla del Carmen, sufrió un robo durante la madrugada de este jueves. Tras romper el ventanal, delincuentes ingresaron y sustrajeron mercadería, una notebook, una pava eléctrica y dinero en efectivo. Delfina, hija de la propietaria, contó que la familia se enteró mediante un llamado alrededor de las 4 de la mañana. Lamentó especialmente la pérdida...",
-   "generado": "2026-10-15T20:14:40.990Z",
-   "id": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a486e09eaaed4fc5970f0d5a3e3413b9~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Destrozaron la vidriera y robaron en el comercio Aromas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
-   "volanta": "Chivilcoy · Policiales"
   },
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": {
    "categoria": "",
@@ -12447,32 +12483,6 @@
    "vence": "2026-10-17T23:47:42.000Z",
    "video_bytes": 1631458,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e9cd6e6849967a7.mp4"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
-   "buffer_id": "6ad180804ed7d375a43dd85d",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|tiktok",
-   "creado": "2026-10-16T01:00:17.000Z",
-   "dueAt": "2026-10-16T02:23:50.000Z",
-   "enviado": "2026-10-16T02:25:43.103Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T00:51:01.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697085807319895303",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-deportes-maximo-cataldi-tuvo-un-gran-arranque-en-el-torneo",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil\n\nEl tenis juvenil argentino tiene a un protagonista que brilla con fuerza en tierras brasileñas. Máximo Cataldi comenzó su participación en el South America Junior Series de manera arrolladora y se metió de lleno en la pelea por el gran objetivo: conseguir el boleto al cuadro juvenil\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Máximo Cataldi tuvo un gran arranque en el torneo juvenil en Brasil",
-   "urgente": false,
-   "vence": "2026-10-18T00:51:01.000Z",
-   "video_bytes": 597545,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_176ccf7b5f24e2ba.mp4"
   },
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop|x": {
    "actualizado": "2026-10-16T10:20:18.000Z",
@@ -23956,6 +23966,33 @@
    "video_bytes": 101137,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1209_02_alberti_alberti-trasladaron-a-la-c-rce.mp4"
   },
+  "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x": {
+   "actualizado": "2026-10-26T09:00:29.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x",
+   "creado": "2026-10-26T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-10-26T02:42:17.000Z",
+   "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-dos-jovenes-heridas-de-bala-en-una-persecucion-e595d2",
+   "noticia": "nota:pergamino-dos-jovenes-heridas-de-bala-en-una-persecucion-e595d2",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Dos jóvenes de Pergamino baleadas en una persecución policial\n\nDos chicas oriundas de Pergamino sufrieron heridas de bala tras un procedimiento de las fuerzas de seguridad en Arrecifes. Una de las víctimas se encuentra internada en terapia intensiva.\n\nhttps://www.diariolacampaña.com.ar/n/pergamino-dos-jovenes-heridas-de-bala-en-una-persecucion-e595d2",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos jóvenes de Pergamino baleadas en una persecución policial",
+   "urgente": false,
+   "vence": "2026-10-26T04:42:17.000Z",
+   "video_bytes": 86554,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_03_pergamino_dos-j-venes-de-pergamino-balea.mp4",
+   "viral": true
+  },
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/|tiktok": {
    "actualizado": "2026-10-16T14:00:22.000Z",
    "buffer_id": "6ad208742fe657de6e9faf6a",
@@ -24400,6 +24437,33 @@
    "video_bytes": 92216,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4"
   },
+  "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x": {
+   "actualizado": "2026-10-26T09:00:29.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x",
+   "creado": "2026-10-26T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-10-26T01:13:10.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-dos-policias-demorados-y-dos-jovenes-heridas-de-bala-c4eb69",
+   "noticia": "nota:arrecifes-dos-policias-demorados-y-dos-jovenes-heridas-de-bala-c4eb69",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Dos policías demorados y dos jóvenes heridas tras una balacera en Arrecifes\n\nUna persecución policial terminó con dos mujeres heridas de bala y dos efectivos demorados en Arrecifes.\n\nhttps://www.diariolacampaña.com.ar/n/arrecifes-dos-policias-demorados-y-dos-jovenes-heridas-de-bala-c4eb69",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos policías demorados y dos jóvenes heridas tras una balacera en Arrecifes",
+   "urgente": false,
+   "vence": "2026-10-26T03:13:10.000Z",
+   "video_bytes": 86004,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_01_pergamino_dos-polic-as-demorados-y-dos-j.mp4",
+   "viral": true
+  },
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok": {
    "actualizado": "2026-10-22T14:40:16.000Z",
    "buffer_id": "6ada08eaa6a09108d268b585",
@@ -24774,30 +24838,6 @@
    "vence": "2026-10-17T21:39:53.000Z",
    "video_bytes": 102479,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4"
-  },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html|x",
-   "creado": "2026-10-15T14:00:19.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-15T13:42:33.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-una-camioneta-se-prendio-fuego-por-una-falla-electrica-15daea",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Una camioneta sufrió daños totales por una falla eléctrica en Bragado\n\nEl rodado era guiado por un hombre de 46 años. El foco ígneo se desató este miércoles sobre la calzada y requirió el rápido accionar de los bomberos locales, sin…\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-una-camioneta-se-prendio-fuego-por-una-falla-electrica-15daea",
-   "tipo": "video",
-   "titulo": "Una camioneta sufrió daños totales por una falla eléctrica en Bragado",
-   "urgente": false,
-   "vence": "2026-10-16T07:42:33.000Z",
-   "video_bytes": 79660,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1209_07_bragado_una-camioneta-sufri-da-os-tota.mp4"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok": {
    "actualizado": "2026-10-17T14:40:12.000Z",
@@ -26197,32 +26237,6 @@
    "video_bytes": 81724,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
-   "buffer_id": "6ad13ee45533140b41c8c6f0",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli|x",
-   "creado": "2026-10-15T19:20:15.000Z",
-   "dueAt": "2026-10-16T02:45:19.000Z",
-   "enviado": "2026-10-16T02:45:33.270Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T19:12:19.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346579-detuvieron-a-un-joven-con-frondoso-prontuario-deli",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110925080876245269",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Cayó un joven acusado de robar con un arma blanca en Lincoln\n\nUn sospechoso de 23 años fue atrapado en El Triunfo tras una investigación por un asalto cometido en el barrio Los Docentes. Secuestraron un vehículo vinculado al hecho.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/lincoln-detuvieron-a-un-joven-acusado-de-un-robo-con-arma-blanca-761b7e",
-   "tipo": "video",
-   "titulo": "Cayó un joven acusado de robar con un arma blanca en Lincoln",
-   "urgente": false,
-   "vence": "2026-10-16T13:12:19.000Z",
-   "video_bytes": 81724,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-15_1809_03_chacabuco_cay-un-joven-acusado-de-robar-.mp4"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de|tiktok": {
    "actualizado": "2026-10-16T18:00:17.000Z",
    "buffer_id": "",
@@ -27312,6 +27326,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_08_9-de-julio_fuego-en-las-cocheras-del-fona.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x": {
+   "actualizado": "2026-10-26T09:00:29.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x",
+   "creado": "2026-10-26T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-10-26T02:42:17.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-los-ladrones-la-f299bf",
+   "noticia": "nota:chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-los-ladrones-la-f299bf",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Le robaron la moto en la puerta de su casa y la publicaron en Instagram\n\nVictoria denunció que delincuentes se llevaron su motocicleta de la calle 86. Minutos después, descubrió que los sospechosos presumían el rodado en historias de Instagram.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-los-ladrones-la-f299bf",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Le robaron la moto en la puerta de su casa y la publicaron en Instagram",
+   "urgente": false,
+   "vence": "2026-10-26T04:42:17.000Z",
+   "video_bytes": 127803,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_07_9-de-julio_le-robaron-la-moto-en-la-puert.mp4",
+   "viral": false
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x": {
    "actualizado": "2026-10-26T01:00:18.000Z",
    "buffer_id": "6adea1743d5b27036bfed3e5",
@@ -28001,32 +28042,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x": {
-   "actualizado": "2026-10-16T09:00:21.000Z",
-   "buffer_id": "6ad13a304fd04e4eb3ad3ffb",
-   "clave": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f|x",
-   "creado": "2026-10-15T20:20:15.000Z",
-   "dueAt": "2026-10-16T02:30:51.000Z",
-   "enviado": "2026-10-16T02:31:01.918Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-15T20:14:40.990Z",
-   "id": "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2110921425196392474",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Destrozaron la vidriera y robaron en el comercio Aromas\n\nEl local de decoración y regalería Aromas, ubicado en avenida Villarino 369, frente a la Capilla del Carmen, sufrió un robo durante la madrugada de este jueves.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-destrozaron-la-vidriera-y-robaron-en-el-comercio",
-   "tipo": "nota",
-   "titulo": "Destrozaron la vidriera y robaron en el comercio Aromas",
-   "urgente": false,
-   "vence": "2026-10-16T20:14:40.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb|x": {
    "actualizado": "2026-10-22T15:20:17.000Z",
@@ -36412,44 +36427,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
-   "cuando": "2026-10-21T14:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699107057726688532"
-  },
-  {
-   "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
-   "cuando": "2026-10-21T14:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112893575486742860"
-  },
-  {
-   "clave": "entrevistas:job00235",
-   "cuando": "2026-10-21T16:40:14.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00235|x",
-   "cuando": "2026-10-21T16:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ad8eaf1bc53d1798323c30a",
-   "clave": "entrevistas:job00235|x",
-   "cuando": "2026-10-21T16:40:17.000Z",
-   "dueAt": "2026-10-21T16:42:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00235|x",
-   "cuando": "2026-10-21T17:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2112947834018201982"
-  },
-  {
    "clave": "entrevistas:job00237",
    "cuando": "2026-10-21T17:40:16.000Z",
    "evento": "entrevista_aprobada"
@@ -40622,6 +40599,48 @@
    "cuando": "2026-10-26T02:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114538144431222933"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x",
+   "cuando": "2026-10-26T09:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x",
+   "cuando": "2026-10-26T09:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x",
+   "cuando": "2026-10-26T09:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x",
+   "cuando": "2026-10-26T09:00:29.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x",
+   "cuando": "2026-10-26T09:00:29.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x",
+   "cuando": "2026-10-26T09:00:29.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -40916,6 +40935,7 @@
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
   "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
+  "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
   "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": "2026-10-19T23:00:18.000Z",
@@ -40929,6 +40949,7 @@
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": "2026-10-16T21:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/familiares-de-maria-de-los-angeles-ruiz-reclamaron-justicia-y-aportaron-pruebas-en-la-fiscalia": "2026-10-14T09:00:20.000Z",
+  "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": "2026-10-26T09:00:18.000Z",
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": "2026-10-22T00:20:17.000Z",
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": "2026-10-14T02:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
@@ -41024,6 +41045,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/18/detuvieron-al-papa-de-la-abogada-acusada-de-racismo-en-brasil/": "2026-10-18T15:00:21.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": "2026-10-24T02:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/": "2026-10-25T00:20:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/": "2026-10-26T09:00:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": "2026-10-25T23:40:15.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
