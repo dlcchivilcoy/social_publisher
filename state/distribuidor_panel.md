@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/10/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 6 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 4 | 7 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -23,12 +23,12 @@ Actualizado: 27/10/2026 09:20 (hora AR) · ACTIVO
 - X · Notas web: 92 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 4 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 62 con métricas · mediana vistas/impresiones 304.5 · likes 2
+- TikTok · Reels del bot: 61 con métricas · mediana vistas/impresiones 306 · likes 2
 - TikTok · Reels policiales: 19 con métricas · mediana vistas/impresiones 511 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 240 de 250 · 30d: quedan 2103 de 3000 (visto 2026-10-27T12:20:14.000Z)
+15m: quedan 99 de 100 · 24h: quedan 239 de 250 · 30d: quedan 2102 de 3000 (visto 2026-10-27T12:40:32.000Z)
 
 ## Cola propia (12 esperando)
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,8 +52,6 @@ Actualizado: 27/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T10:04 recibido web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
-- 2026-10-27T10:04 recibido web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
 - 2026-10-27T10:04 recibido web:114e0244-c0a8-4f64-8b31-96e1a4aa4cb9|x 
 - 2026-10-27T10:04 recibido web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x 
 - 2026-10-27T10:04 recibido web:5ca863ea-d5c6-45ae-b613-ee86268b66cc|x 
@@ -77,3 +75,5 @@ Actualizado: 27/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-27T12:00 enviado web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
 - 2026-10-27T12:00 enviado web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x 
 - 2026-10-27T12:20 programado web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
+- 2026-10-27T12:40 recibido web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x 
+- 2026-10-27T12:40 programado web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x 
