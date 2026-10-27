@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T15:20:19.000Z"
+   "visto": "2026-10-27T16:40:30.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-27T15:20:19.000Z"
+   "visto": "2026-10-27T16:40:30.000Z"
   }
  },
  "contenidos": {
@@ -1187,6 +1187,27 @@
    "video_mb": 0.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e492fc5ebab29c9c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/etCliIg9WA0"
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti": {
+   "descripcion": "La 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero.",
+   "duracion_seg": 32.0,
+   "generado": "2026-10-27T16:29:40.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
+   "urgente": false,
+   "video_bytes": 3845007,
+   "video_mb": 3.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/YtMunqKpLbI"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -6320,24 +6341,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/wanda-nara-festejo-el-dia-de-la-madre-con-sus-hijos-y-una-883bc6",
    "volanta": ""
   },
-  "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": {
-   "categoria": "nacionales",
-   "descripcion": "El ministro nacional criticó la suba del 17,6% que rige desde el 15 de octubre en territorio bonaerense y apuntó contra el rechazo local a la…",
-   "generado": "2026-10-17T12:06:26.553Z",
-   "id": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c223d4d6c8004e6493b4dc103f391be7~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Sturzenegger",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
-   "volanta": ""
-  },
   "web:024c510b-0090-4885-a004-6612c092f38b": {
    "categoria": "",
    "descripcion": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos La Policía de Chivilcoy llevó adelante cuatro allanamientos en distintos domicilios de la ciudad, en el marco de una investigación por infracción a la Ley de Drogas iniciada en junio de este año. Como resultado de los procedimientos, se secuestraron estupefacientes, dinero en efectivo, balanzas de precisión, elementos utilizados para el fraccionamiento de sustancias y teléfonos celulares. Además, tres hombres mayores...",
@@ -7340,24 +7343,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
    "volanta": ""
   },
-  "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": {
-   "categoria": "nacionales",
-   "descripcion": "Los bloques opositores no alcanzaron el quórum necesario para derogar el decreto firmado por Javier Milei. La jornada coincidió con protestas en las…",
-   "generado": "2026-10-16T16:06:30.064Z",
-   "id": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0c8d1180d54241cda6e28c99774bd49e~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-reunio-quorum-para-voltear-el-dnu-70-c31171",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer en minoría",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/diputados-la-oposicion-no-reunio-quorum-para-voltear-el-dnu-70-c31171",
-   "volanta": ""
-  },
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9": {
    "categoria": "",
    "descripcion": "Los ganadores de la octava fecha del Rally de Chivilcoy Ellos son los ganadores de la octava fecha de la temporada: - Clase MR: Sebastián Monserrat / Claudio Muciachio - Clase N4: José Catera / Jorge Ramírez - Clase JR: Jorge Villarino / Sebastián Urriza - Clase A: Emmanuel Bracco / Mariano Pissaco - Clase N7: Luis Sciutto / Matías Bregant - Clase N3: Roberto Amichetti / Alejo Amichetti - Clase RC5: Sebastián Antico / Sebastián Olari - Clase N1: Mauricio Bondanza / Gastón Bondanza...",
@@ -7467,24 +7452,6 @@
    "titulo": "Mejora en los procedimientos",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
-   "volanta": ""
-  },
-  "web:357de5ae-2788-4cb5-9198-9e07743ac18f": {
-   "categoria": "",
-   "descripcion": "El agro argentino concretó un volumen histórico de ventas y fijaciones. El maíz tocó US$ 194/t y la soja subió un 14%.",
-   "generado": "2026-10-17T15:03:19.485Z",
-   "id": "web:357de5ae-2788-4cb5-9198-9e07743ac18f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_37decf988d94483b853190fd96fc0dc1~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
    "volanta": ""
   },
   "web:35d13524-acfa-4d7e-b1ad-255c88759bcc": {
@@ -7634,24 +7601,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
    "volanta": ""
-  },
-  "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": {
-   "categoria": "",
-   "descripcion": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado Un Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso de la Patria. El motociclista sufrió heridas, fue asistido por personal del SAME y trasladado al Hospital Municipal para su evaluación médica. En el lugar trabajaron efectivos policiales para ordenar el tránsito y realizar las actuaciones...",
-   "generado": "2026-10-16T20:54:53.891Z",
-   "id": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ba29de2465004927b7a3f1708331ab3f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
-   "volanta": "Chivilcoy · Accidente"
   },
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": {
    "categoria": "",
@@ -11280,6 +11229,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/fuente-de-hebe-autentico-y-verdadero-simbolo-de-chivilcoy-se-habia",
    "volanta": "Fuente de Hebe"
   },
+  "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b": {
+   "categoria": "",
+   "descripcion": "Comienza una nueva edición del festival Chivilcoy Teatrero La 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero, el festival que desde hace 11 años reúne a los elencos independientes de la ciudad y promueve el acceso a las expresiones artísticas. Este año, la...",
+   "generado": "2026-10-27T16:27:01.265Z",
+   "id": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_80f5021b9143497e975ce84bfe2c2a41~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "volanta": "Chivilcoy · Cultura"
+  },
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70": {
    "categoria": "",
    "descripcion": "Moquehuá recuperó la cima en una décima fecha a puro gol en la Liga Chivilcoyana La fase regular del Torneo Clausura de la Primera División ingresó en su recta final y la décima jornada dejó absoluta claridad en la lucha de arriba, goleadas estrepitosas y emociones hasta el último suspiro. Con tres fechas por delante para el cierre, el campeonato promete emociones al máximo tanto en la pelea por el título como en la zona baja. El gran beneficiado de la fecha fue Moquehuá, que se adueñó...",
@@ -11784,22 +11752,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 583,
-   "segundos": 37196,
+   "restantes": 581,
+   "segundos": 35987,
    "tope": 600
   },
   "30d": {
-   "restantes": 1096,
-   "segundos": 1227019,
+   "restantes": 1094,
+   "segundos": 1225810,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T16:20:22.000Z",
+ "cuota_visto": "2026-10-27T16:40:31.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -15579,18 +15547,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x": {
-   "actualizado": "2026-10-27T16:20:21.000Z",
+   "actualizado": "2026-10-27T16:40:30.000Z",
    "buffer_id": "6ae0cf46b256432e54172c0d",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x",
    "creado": "2026-10-27T16:20:15.000Z",
    "dueAt": "2026-10-27T16:22:38.000Z",
+   "enviado": "2026-10-27T16:22:50.502Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T16:16:18.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115117024556830785",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
    "noticia": "nota:chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
    "origen": "bot",
@@ -15604,6 +15573,62 @@
    "vence": "2026-10-27T18:16:18.000Z",
    "video_bytes": 778548,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e492fc5ebab29c9c.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok": {
+   "actualizado": "2026-10-27T16:40:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok",
+   "creado": "2026-10-27T16:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-27T16:29:40.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Comienza una nueva edición del festival Chivilcoy Teatrero\n\nLa 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
+   "urgente": false,
+   "vence": "2026-10-29T16:29:40.000Z",
+   "video_bytes": 3845007,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x": {
+   "actualizado": "2026-10-27T16:40:30.000Z",
+   "buffer_id": "6ae0d3ffd7e117a25cbf0fe8",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
+   "creado": "2026-10-27T16:40:16.000Z",
+   "dueAt": "2026-10-27T16:42:30.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-27T16:29:40.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "noticia": "nota:chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Comienza una nueva edición del festival Chivilcoy Teatrero\n\nLa 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
+   "urgente": false,
+   "vence": "2026-10-27T18:29:40.000Z",
+   "video_bytes": 3845007,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -24736,41 +24761,6 @@
    "video_bytes": 89495,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_07_chacabuco_detuvieron-a-tres-personas-y-s.mp4"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|x": {
-   "actualizado": "2026-10-17T16:40:27.000Z",
-   "buffer_id": "6ad39be80b0d72757ae4ebdf",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html|x",
-   "creado": "2026-10-17T16:00:19.000Z",
-   "dueAt": "2026-10-17T16:30:47.000Z",
-   "enviado": "2026-10-17T16:31:04.660Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T15:47:09.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111495218495139979",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 24,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-tres-personas-secuestraron-autos-y-52ed95",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Detuvieron a tres personas y secuestraron dólares por un asalto\n\nTres sospechosos fueron arrestados en Moreno y Arrecifes en el marco de una causa por un robo en Chacabuco.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-tres-personas-secuestraron-autos-y-52ed95",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Detuvieron a tres personas y secuestraron dólares por un asalto",
-   "urgente": false,
-   "vence": "2026-10-18T09:47:09.000Z",
-   "video_bytes": 89495,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_07_chacabuco_detuvieron-a-tres-personas-y-s.mp4"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok": {
    "actualizado": "2026-10-18T12:20:22.000Z",
    "buffer_id": "6ad4a6c90a208cb323601dab",
@@ -25734,40 +25724,6 @@
    "titulo": "Wanda Nara festejó el Día de la Madre con sus hijos y una tierna foto retro",
    "urgente": false,
    "vence": "2026-10-20T02:20:14.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x": {
-   "actualizado": "2026-10-17T16:40:27.000Z",
-   "buffer_id": "6ad37f720b0d72757adcb45f",
-   "clave": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553|x",
-   "creado": "2026-10-17T12:20:16.000Z",
-   "dueAt": "2026-10-17T15:45:04.000Z",
-   "enviado": "2026-10-17T15:45:16.398Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T12:06:26.553Z",
-   "id": "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111483691020992910",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 10,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Sturzenegger\n\nEl ministro nacional criticó la suba del 17,6% que rige desde el 15 de octubre en territorio bonaerense y apuntó contra el rechazo local a la…\n\nhttps://www.diariolacampaña.com.ar/n/aumento-de-la-vtv-en-buenos-aires-cuanto-cuesta-el-tramite-y-la-b87e16",
-   "tipo": "nota",
-   "titulo": "Aumento de la VTV en Buenos Aires: cuánto cuesta el trámite y la crítica de Sturzenegger",
-   "urgente": false,
-   "vence": "2026-10-18T12:06:26.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -27351,32 +27307,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x": {
-   "actualizado": "2026-10-17T16:20:29.000Z",
-   "buffer_id": "",
-   "clave": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6|x",
-   "creado": "2026-10-16T16:20:15.000Z",
-   "dueAt": "",
-   "error": "tope de 47 publicaciones en 24 h de X",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "vencido",
-   "generado": "2026-10-16T16:06:30.064Z",
-   "id": "web:2e89e9c4-767d-4596-9b02-2002f8c153f6",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-reunio-quorum-para-voltear-el-dnu-70-c31171",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer en minoría\n\nLos bloques opositores no alcanzaron el quórum necesario para derogar el decreto firmado por Javier Milei. La jornada coincidió con protestas.\n\nhttps://www.diariolacampaña.com.ar/n/diputados-la-oposicion-no-reunio-quorum-para-voltear-el-dnu-70-c31171",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Diputados: la oposición no reunió quórum para voltear el DNU 70 y debió exponer en minoría",
-   "urgente": false,
-   "vence": "2026-10-17T16:06:30.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x": {
    "actualizado": "2026-10-25T20:20:14.000Z",
    "buffer_id": "",
@@ -27532,41 +27462,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x": {
-   "actualizado": "2026-10-17T16:40:27.000Z",
-   "buffer_id": "6ad39be8938409f1d092cb1a",
-   "clave": "web:357de5ae-2788-4cb5-9198-9e07743ac18f|x",
-   "creado": "2026-10-17T15:20:13.000Z",
-   "dueAt": "2026-10-17T16:15:54.000Z",
-   "enviado": "2026-10-17T16:16:02.173Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T15:03:19.485Z",
-   "id": "web:357de5ae-2788-4cb5-9198-9e07743ac18f",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111491432955490684",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 13,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t\n\nEl agro argentino concretó un volumen histórico de ventas y fijaciones. El maíz tocó US$ 194/t y la soja subió un 14%.\n\nhttps://www.diariolacampaña.com.ar/n/el-agro-argentino-comercializo-un-record-de-105-mt-y-el-maiz-c4c475",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El agro argentino comercializó un récord de 105 Mt y el maíz tocó US$ 194/t",
-   "urgente": false,
-   "vence": "2026-10-18T15:03:19.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x": {
    "actualizado": "2026-10-25T14:20:14.000Z",
@@ -27791,40 +27686,6 @@
    "titulo": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro",
    "urgente": false,
    "vence": "2026-10-19T15:02:20.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x": {
-   "actualizado": "2026-10-17T16:40:27.000Z",
-   "buffer_id": "6ad3841e769b4579347f0d10",
-   "clave": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37|x",
-   "creado": "2026-10-16T21:00:18.000Z",
-   "dueAt": "2026-10-17T16:00:03.000Z",
-   "enviado": "2026-10-17T16:04:30.253Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T20:54:53.891Z",
-   "id": "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111488529880506587",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 66,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado\n\nUn Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
-   "tipo": "nota",
-   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
-   "urgente": false,
-   "vence": "2026-10-17T20:54:53.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -33479,6 +33340,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x": {
+   "actualizado": "2026-10-27T16:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x",
+   "creado": "2026-10-27T16:40:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-27T16:27:01.265Z",
+   "id": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "noticia": "nota:chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
+   "urgente": false,
+   "vence": "2026-10-27T20:27:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x": {
    "actualizado": "2026-10-27T13:00:20.000Z",
    "buffer_id": "6ae08446a5ccad78dbcacac7",
@@ -34275,41 +34161,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x",
-   "cuando": "2026-10-22T22:20:19.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x",
-   "cuando": "2026-10-22T22:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok",
-   "cuando": "2026-10-22T22:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "buffer_id": "6ada90d71dc335d347e1bce8",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x",
-   "cuando": "2026-10-22T22:40:23.000Z",
-   "dueAt": "2026-10-22T22:42:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x",
-   "cuando": "2026-10-22T23:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113400969828446329"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|x",
    "cuando": "2026-10-22T23:40:21.000Z",
@@ -38520,6 +38371,43 @@
    "cuando": "2026-10-27T16:20:22.000Z",
    "dueAt": "2026-10-27T16:22:38.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
+   "cuando": "2026-10-27T16:40:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok",
+   "cuando": "2026-10-27T16:40:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x",
+   "cuando": "2026-10-27T16:40:30.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x",
+   "cuando": "2026-10-27T16:40:30.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115117024556830785"
+  },
+  {
+   "buffer_id": "6ae0d3ffd7e117a25cbf0fe8",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
+   "cuando": "2026-10-27T16:40:31.000Z",
+   "dueAt": "2026-10-27T16:42:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38548,7 +38436,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T15:20:19.000Z",
+ "ultima_sync": "2026-10-27T16:40:30.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -38633,6 +38521,7 @@
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": "2026-10-27T00:40:14.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk": "2026-10-27T13:00:20.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1": "2026-10-27T16:20:15.000Z",
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti": "2026-10-27T16:40:16.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -39403,6 +39292,7 @@
   "web:e0c14974-bd79-41bb-b97a-1e341aab7c5b": "2026-10-15T19:20:15.000Z",
   "web:e32dc39e-b193-41c9-8bce-3a9773d75a39": "2026-10-27T10:03:31.000Z",
   "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b": "2026-10-23T10:02:47.000Z",
+  "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b": "2026-10-27T16:40:16.000Z",
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70": "2026-10-27T10:03:31.000Z",
   "web:e790e167-f2c1-4e20-bcee-7d86399107cd": "2026-10-22T00:20:17.000Z",
   "web:e7ba1c3e-8f3d-4a66-9577-a61c78df7d4b": "2026-10-12T21:20:14.000Z",
