@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-10-26)
+## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 9 | 0 | 5 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 6 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 39 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -30,7 +30,8 @@ Actualizado: 26/10/2026 23:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2112 de 3000 (visto 2026-10-27T02:40:17.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (12 esperando)
+- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,9 +52,6 @@ Actualizado: 26/10/2026 23:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34711 
-- 2026-10-27T00:00 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x 
-- 2026-10-27T00:00 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
 - 2026-10-27T00:00 recibido web:36e83a1d-e03b-401c-8c1b-edd4182a003f|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-27T00:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
 - 2026-10-27T00:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
@@ -76,3 +74,6 @@ Actualizado: 26/10/2026 23:40 (hora AR) · ACTIVO
 - 2026-10-27T02:00 vencido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-27T02:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-27T02:20 vencido policiales:https://www.latrochadigital.com.ar/2026/10/26/bra espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-27T09:00 recibido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x 
+- 2026-10-27T09:00 recibido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok 
+- 2026-10-27T09:00 vencido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x no hubo lugar antes de su vencimiento
