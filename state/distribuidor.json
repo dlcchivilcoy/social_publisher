@@ -1209,6 +1209,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
    "youtube_url": "https://www.youtube.com/shorts/YtMunqKpLbI"
   },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a": {
+   "descripcion": "La decisión fue comunicada durante una audiencia en el Ministerio de Trabajo. La empresa se comprometió a pagar el 100% de las indemnizaciones y confirmó que continuará con la comercialización y distribución de gas envasado. Amarilla Gas confirmó el cierre definitivo del sector.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-27T18:24:37.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados",
+   "urgente": false,
+   "video_bytes": 711229,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3b2a7e7eaa69d2a3.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/YPdxcM85EEM"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -9527,6 +9548,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-estado-nacional-registra-mas-de-77-mil-puestos-menos-y-lanza-cb2e9c",
    "volanta": ""
   },
+  "web:98a9875b-509c-4991-a320-f773a9713053": {
+   "categoria": "",
+   "descripcion": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados La decisión fue comunicada durante una audiencia en el Ministerio de Trabajo. La empresa se comprometió a pagar el 100% de las indemnizaciones y confirmó que continuará con la comercialización y distribución de gas envasado. Amarilla Gas confirmó el cierre definitivo del sector de fraccionamiento de su planta ubicada sobre la Ruta Nacional 5, en Chivilcoy. La medida afecta a ocho trabajadores que se desempeñaban en el área...",
+   "generado": "2026-10-27T18:22:46.304Z",
+   "id": "web:98a9875b-509c-4991-a320-f773a9713053",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0dd4d278ede6437d8b993a2f98cbc853~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "volanta": "Chivilcoy · Gremiales"
+  },
   "web:98e77637-c555-4989-b556-499e25484041": {
    "categoria": "",
    "descripcion": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy Monserrat y Muciachio lideran en Chivilcoy. Con el VW Maxi Rally, la dupla comanda la clasificación general tras la disputa de la PE4.",
@@ -10864,24 +10904,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de-1",
    "volanta": "Opinión"
   },
-  "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2": {
-   "categoria": "nacionales",
-   "descripcion": "El secretario de Estado de los EEUU y el presidente argentino mantuvieron una comunicación este viernes para afianzar los lazos estratégicos.",
-   "generado": "2026-10-16T18:06:23.672Z",
-   "id": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_903965b936cd4a21873ce67e8b61f6e1~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/marco-rubio-y-javier-milei-conversaron-para-fortalecer-el-74c86d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la seguridad regional",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/marco-rubio-y-javier-milei-conversaron-para-fortalecer-el-74c86d",
-   "volanta": ""
-  },
   "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f": {
    "categoria": "",
    "descripcion": "Suspenden la competencia de Rally por las lluvias Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
@@ -11517,24 +11539,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:ef08f847-d9e6-4534-8776-17ff73df6820": {
-   "categoria": "nacionales",
-   "descripcion": "El esperado superdeportivo de la compañía de Elon Musk incorporó tecnología de propulsión vertical y sistemas de máxima adherencia, aunque la variante…",
-   "generado": "2026-10-16T18:36:27.079Z",
-   "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_372e5ad8302d481fa75e071db6ca7ffa~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se entrega",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
-   "volanta": ""
-  },
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec": {
    "categoria": "nacionales",
    "descripcion": "El avance del agua provocó anegamientos en barrios costeros de la capital provincial y el total de afectados ya alcanza los 222 desplazados en todo el…",
@@ -11802,17 +11806,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 577,
-   "segundos": 30001,
+   "restantes": 576,
+   "segundos": 28795,
    "tope": 600
   },
   "30d": {
-   "restantes": 1090,
-   "segundos": 1219824,
+   "restantes": 1089,
+   "segundos": 1218618,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T18:20:17.000Z",
+ "cuota_visto": "2026-10-27T18:40:22.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -15638,6 +15642,62 @@
    "vence": "2026-10-27T18:29:40.000Z",
    "video_bytes": 3845007,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok": {
+   "actualizado": "2026-10-27T18:40:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok",
+   "creado": "2026-10-27T18:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-27T18:24:37.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados\n\nLa decisión fue comunicada durante una audiencia en el Ministerio de Trabajo. La empresa se comprometió a pagar el 100% de las indemnizaciones y confirmó que continuará con la comercialización y distribución de gas envasado. Amarilla Gas confirmó el cierre definitivo del sector.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados",
+   "urgente": false,
+   "vence": "2026-10-29T18:24:37.000Z",
+   "video_bytes": 711229,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3b2a7e7eaa69d2a3.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x": {
+   "actualizado": "2026-10-27T18:40:22.000Z",
+   "buffer_id": "6ae0f0169886bd6ed21cf7a8",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x",
+   "creado": "2026-10-27T18:40:16.000Z",
+   "dueAt": "2026-10-27T18:42:26.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-27T18:24:37.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "noticia": "nota:chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados\n\nLa firma se comprometió a pagar el total de las indemnizaciones en Trabajo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados",
+   "urgente": false,
+   "vence": "2026-10-27T20:24:37.000Z",
+   "video_bytes": 711229,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3b2a7e7eaa69d2a3.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -30831,6 +30891,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:98a9875b-509c-4991-a320-f773a9713053|x": {
+   "actualizado": "2026-10-27T18:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:98a9875b-509c-4991-a320-f773a9713053|x",
+   "creado": "2026-10-27T18:40:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-27T18:22:46.304Z",
+   "id": "web:98a9875b-509c-4991-a320-f773a9713053",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "noticia": "nota:chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados",
+   "urgente": false,
+   "vence": "2026-10-27T22:22:46.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:98e77637-c555-4989-b556-499e25484041|x": {
    "actualizado": "2026-10-24T18:40:13.000Z",
    "buffer_id": "",
@@ -32876,32 +32961,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x": {
-   "actualizado": "2026-10-17T18:20:20.000Z",
-   "buffer_id": "",
-   "clave": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2|x",
-   "creado": "2026-10-16T18:20:15.000Z",
-   "dueAt": "",
-   "error": "tope de 47 publicaciones en 24 h de X",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "vencido",
-   "generado": "2026-10-16T18:06:23.672Z",
-   "id": "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/marco-rubio-y-javier-milei-conversaron-para-fortalecer-el-74c86d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la seguridad regional\n\nEl secretario de Estado de los EEUU y el presidente argentino mantuvieron una comunicación este viernes para afianzar los lazos estratégicos.\n\nhttps://www.diariolacampaña.com.ar/n/marco-rubio-y-javier-milei-conversaron-para-fortalecer-el-74c86d",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Marco Rubio y Javier Milei conversaron para fortalecer el vínculo comercial y la seguridad regional",
-   "urgente": false,
-   "vence": "2026-10-17T18:06:23.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x": {
    "actualizado": "2026-10-25T13:20:14.000Z",
    "buffer_id": "",
@@ -33856,32 +33915,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:ef08f847-d9e6-4534-8776-17ff73df6820|x": {
-   "actualizado": "2026-10-17T18:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:ef08f847-d9e6-4534-8776-17ff73df6820|x",
-   "creado": "2026-10-16T18:40:13.000Z",
-   "dueAt": "",
-   "error": "tope de 47 publicaciones en 24 h de X",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "vencido",
-   "generado": "2026-10-16T18:36:27.079Z",
-   "id": "web:ef08f847-d9e6-4534-8776-17ff73df6820",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se entrega\n\nhttps://www.diariolacampaña.com.ar/n/tesla-roadster-cuanto-cuesta-el-nuevo-auto-con-capacidad-de-7c8049",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Tesla Roadster: cuánto cuesta el nuevo auto con capacidad de vuelo y cuándo se entrega",
-   "urgente": false,
-   "vence": "2026-10-17T18:36:27.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec|x": {
    "actualizado": "2026-10-18T17:20:15.000Z",
    "buffer_id": "6ad4da4da48c8f83719fe346",
@@ -34313,36 +34346,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6adaacf7cc1b7cdc08c29f71",
-   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|x",
-   "cuando": "2026-10-23T00:40:23.000Z",
-   "dueAt": "2026-10-23T00:42:30.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adaacf7535235087b73913e",
-   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
-   "cuando": "2026-10-23T00:40:23.000Z",
-   "dueAt": "2026-10-23T00:48:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|x",
-   "cuando": "2026-10-23T01:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|tiktok",
-   "cuando": "2026-10-23T01:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "nacionales:47f4536459d66a4a|x",
    "cuando": "2026-10-23T01:00:32.000Z",
@@ -38553,6 +38556,37 @@
    "cuando": "2026-10-27T18:20:17.000Z",
    "dueAt": "2026-10-27T18:22:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x",
+   "cuando": "2026-10-27T18:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok",
+   "cuando": "2026-10-27T18:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:98a9875b-509c-4991-a320-f773a9713053|x",
+   "cuando": "2026-10-27T18:40:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae0f0169886bd6ed21cf7a8",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x",
+   "cuando": "2026-10-27T18:40:22.000Z",
+   "dueAt": "2026-10-27T18:42:26.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38667,6 +38701,7 @@
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk": "2026-10-27T13:00:20.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1": "2026-10-27T16:20:15.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti": "2026-10-27T16:40:16.000Z",
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a": "2026-10-27T18:40:16.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -39285,6 +39320,7 @@
   "web:976bae39-fdab-4787-9e26-8828e58badc1": "2026-10-22T10:02:31.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5": "2026-10-19T15:20:16.000Z",
+  "web:98a9875b-509c-4991-a320-f773a9713053": "2026-10-27T18:40:16.000Z",
   "web:98e77637-c555-4989-b556-499e25484041": "2026-10-24T18:40:13.000Z",
   "web:992a0e03-d222-428d-b6f8-9d7b90cebe38": "2026-10-19T23:20:14.000Z",
   "web:993aea8e-95de-4b48-ac0f-22d386bc338b": "2026-10-22T10:02:31.000Z",
