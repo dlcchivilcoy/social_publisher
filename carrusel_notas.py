@@ -829,7 +829,7 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
     ig_ok = False
     if "instagram" in plats:
         try:
-            instagram.publish_carousel(caption, slides)
+            instagram.publish_carousel(caption, slides, colab=False)  # varias notas juntas: sin colab
             algun_ok = ig_ok = True
             logger.info("[instagram] carrusel OK")
         except Exception as e:

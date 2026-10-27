@@ -390,13 +390,58 @@ def _url_imagen(jpeg_path: Path, intento: int) -> str:
     return upload_to_imgbb(jpeg_path)
 
 
-def publish(body: str, image_path: Path) -> dict:
+def _colaborador(caption: str, colab: bool, user_id: str) -> str:
+    """@diarioyradioagro si el posteo es del campo (utils/colab_agro, 27/10/2026); "" si no."""
+    if not colab:
+        return ""
+    try:
+        from utils import colab_agro
+        return colab_agro.colaborador_para(caption, user_id)
+    except Exception as e:  # noqa: BLE001 — la colab nunca puede costar el posteo
+        logger.warning(f"colab agro: no pude decidir ({e}); sale sin colab")
+        return ""
+
+
+def _con_colab(data: dict, colaborador: str) -> dict:
+    from utils import colab_agro
+    return colab_agro.con_colab(data, colaborador)
+
+
+def _aceptar_colab(media_id: str, colaborador: str) -> str:
+    if not (colaborador and media_id):
+        return ""
+    try:
+        from utils import colab_agro
+        return colab_agro.aceptar(media_id)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"colab agro: no pude aceptar ({e})")
+        return "pendiente"
+
+
+def _crear_con_colab(user_id: str, token: str, data: dict, colaborador: str, crear) -> tuple:
+    """(id, colaborador que quedó): primero con @diarioyradioagro y, si Instagram no crea el contenedor
+    con la colab, sin ella. Los errores de PROCESO del medio (ContenedorFallo) no tienen que ver con la
+    colab y suben tal cual."""
+    if not colaborador:
+        return crear(data), ""
+    try:
+        return crear(_con_colab(data, colaborador)), colaborador
+    except ContenedorFallo:
+        raise
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Instagram no tomó la colab con @{colaborador} ({e}); sale sin colab")
+        return crear(data), ""
+
+
+def publish(body: str, image_path: Path, colab: bool = True) -> dict:
+    """`colab=False`: nunca invita a @diarioyradioagro (las publicidades, por ejemplo)."""
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
     caption = _acotar(body)
+    colaborador = _colaborador(caption, colab, user_id)
     jpeg_path = _as_jpeg(image_path)
     temp_created = jpeg_path != image_path
 
@@ -410,7 +455,8 @@ def publish(body: str, image_path: Path) -> dict:
             try:
                 creation_id = _crear_contenedor(
                     user_id, token,
-                    {"image_url": _url_imagen(jpeg_path, intento), "caption": caption},
+                    _con_colab({"image_url": _url_imagen(jpeg_path, intento), "caption": caption},
+                               colaborador),
                     intentos=1,
                 )
                 # Paso 1.5: esperar a que Instagram procese la imagen (evita 2207027)
@@ -419,6 +465,9 @@ def publish(body: str, image_path: Path) -> dict:
             except Exception as e:  # noqa: BLE001
                 ultimo = e
                 creation_id = None
+                if colaborador:
+                    logger.warning(f"Instagram (posteo con colab @{colaborador}) falló: {e}; sigo sin colab")
+                    colaborador = ""
                 if intento < 2:
                     logger.warning(f"Instagram (crear posteo) falló (intento {intento + 1}/3): {e}. "
                                    f"Reintento subiendo la imagen de nuevo…")
@@ -430,7 +479,7 @@ def publish(body: str, image_path: Path) -> dict:
         media_id = _publicar_contenedor(user_id, token, creation_id, "publicar media",
                                         caption=caption)
         logger.debug(f"Instagram media publicado id={media_id}")
-        return {"success": True, "id": media_id}
+        return {"success": True, "id": media_id, "colab": _aceptar_colab(media_id, colaborador)}
     finally:
         if temp_created and jpeg_path.exists():
             jpeg_path.unlink()
@@ -489,7 +538,7 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
     raise ultimo
 
 
-def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
+def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True) -> dict:
     """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
 
     Flujo: por cada imagen se crea un contenedor hijo (is_carousel_item=true);
@@ -504,9 +553,10 @@ def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
 
     paths = list(image_paths)[:MAX_CAROUSEL]
     if len(paths) < 2:
-        return publish(caption, paths[0])
+        return publish(caption, paths[0], colab=colab)
 
     caption = _acotar(caption)
+    colaborador = _colaborador(caption, colab, user_id)
     temps: list[Path] = []
     try:
         child_ids: list[str] = []
@@ -523,13 +573,14 @@ def publish_carousel(caption: str, image_paths: list[Path]) -> dict:
         }
         if _location():
             parent_data["location_id"] = _location()
-        carousel_id = _crear_contenedor(user_id, token, parent_data)
+        carousel_id, colaborador = _crear_con_colab(
+            user_id, token, parent_data, colaborador, lambda d: _crear_contenedor(user_id, token, d))
         _wait_container_ready(carousel_id, token)
 
         media_id = _publicar_contenedor(user_id, token, carousel_id, "publicar carrusel",
                                         caption=caption)
         logger.debug(f"Instagram carrusel publicado id={media_id} ({len(child_ids)} imágenes)")
-        return {"success": True, "id": media_id}
+        return {"success": True, "id": media_id, "colab": _aceptar_colab(media_id, colaborador)}
     finally:
         for t in temps:
             if t.exists():
@@ -628,7 +679,7 @@ def _contenedor_video_listo(user_id: str, token: str, data: dict, video_url: str
     raise ultimo  # pragma: no cover — el for siempre sale por return o raise
 
 
-def publish_reel(video_url: str, caption: str, cover_url: str = "") -> dict:
+def publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool = True) -> dict:
     """Publica un REEL (video vertical) en Instagram a partir de una URL pública del .mp4.
 
     Flujo: crear contenedor media_type=REELS con video_url → esperar a que IG
@@ -652,12 +703,15 @@ def publish_reel(video_url: str, caption: str, cover_url: str = "") -> dict:
         reel_data["cover_url"] = cover_url
     if _location():
         reel_data["location_id"] = _location()
-    creation_id = _contenedor_video_listo(user_id, token, reel_data, video_url, "reel")
+    colaborador = _colaborador(reel_data["caption"], colab, user_id)
+    creation_id, colaborador = _crear_con_colab(
+        user_id, token, reel_data, colaborador,
+        lambda d: _contenedor_video_listo(user_id, token, d, video_url, "reel"))
 
     media_id = _publicar_contenedor(user_id, token, creation_id, "publicar reel",
                                     caption=reel_data["caption"], timeout=60)
     logger.debug(f"Instagram reel publicado id={media_id}")
-    return {"success": True, "id": media_id}
+    return {"success": True, "id": media_id, "colab": _aceptar_colab(media_id, colaborador)}
 
 
 def publish_video_story(video_url: str) -> dict:

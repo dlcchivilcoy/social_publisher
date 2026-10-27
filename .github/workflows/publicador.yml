@@ -96,6 +96,10 @@ jobs:
     # date.today()/now() (clave para detectar la "edicion de hoy" y los ledgers diarios).
     env:
       TZ: America/Argentina/Buenos_Aires
+      # Colab con @diarioyradioagro (utils/colab_agro.py, 27/10/2026): con esto la cuenta de agro
+      # acepta al momento la invitacion de los posteos del campo. Sin ellas, la acepta la corrida de agro.
+      AGRO_INSTAGRAM_USER_ID: ${{ secrets.AGRO_INSTAGRAM_USER_ID }}
+      AGRO_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.AGRO_INSTAGRAM_ACCESS_TOKEN }}
     steps:
       - name: Bajar el codigo
         uses: actions/checkout@v4

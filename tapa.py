@@ -97,7 +97,7 @@ def run_tapa(dry_run: bool = False) -> None:
         logger.error(f"No se pudo preparar la tapa para el muro: {e}")
         feed_img = tapa
     feed_fns = {"facebook": lambda: facebook.publish(caption, feed_img),
-                "instagram": lambda: instagram.publish(caption, feed_img)}
+                "instagram": lambda: instagram.publish(caption, feed_img, colab=False)}
     for name in plats:
         fn = feed_fns.get(name)
         if not fn:

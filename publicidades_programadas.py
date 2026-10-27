@@ -340,16 +340,16 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
         if feed_ig:
             if tipo == "video":
                 _intentar(ids, fallas, "ig_feed", "Instagram (video)",
-                          lambda: instagram.publish_reel(url_video(), texto))
+                          lambda: instagram.publish_reel(url_video(), texto, colab=False))
             elif carrusel:
                 _intentar(ids, fallas, "ig_feed", "Instagram (carrusel)",
-                          lambda: instagram.publish_carousel(texto, carrusel))
+                          lambda: instagram.publish_carousel(texto, carrusel, colab=False))
             else:
                 _intentar(ids, fallas, "ig_feed", "Instagram (publicación)",
-                          lambda: instagram.publish(texto, piezas[0]))
+                          lambda: instagram.publish(texto, piezas[0], colab=False))
         if "reel" in formatos and video:
             _intentar(ids, fallas, "ig_reel", "Instagram (reel)",
-                      lambda: instagram.publish_reel(url_video(), texto))
+                      lambda: instagram.publish_reel(url_video(), texto, colab=False))
         if "historia" in formatos:
             if video:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",

@@ -357,7 +357,7 @@ def run_sepelios(dry_run: bool = False) -> None:
 
     # 2) Muro Facebook / Instagram
     feed_fns = {"facebook": lambda: facebook.publish(caption, feed_img),
-                "instagram": lambda: instagram.publish(caption, feed_img)}
+                "instagram": lambda: instagram.publish(caption, feed_img, colab=False)}
     for name in plats:
         fn = feed_fns.get(name)
         if not fn:

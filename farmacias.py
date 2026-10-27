@@ -282,7 +282,7 @@ def run_farmacias(dry_run: bool = False) -> None:
 
     # Las farmacias de turno NO se publican en Wix; solo en redes sociales (FB/IG).
     feed_fns = {"facebook": lambda: facebook.publish(caption, feed_img),
-                "instagram": lambda: instagram.publish(caption, feed_img)}
+                "instagram": lambda: instagram.publish(caption, feed_img, colab=False)}
     for name in plats:
         fn = feed_fns.get(name)
         if not fn:
