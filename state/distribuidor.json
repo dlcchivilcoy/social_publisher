@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 10
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-10-27T00:00:30.000Z"
+   "visto": "2026-10-27T01:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 16
    },
    "pausado": false,
-   "visto": "2026-10-27T00:00:30.000Z"
+   "visto": "2026-10-27T01:20:14.000Z"
   }
  },
  "contenidos": {
@@ -12169,17 +12169,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 225,
-   "segundos": 4821,
+   "restantes": 224,
+   "segundos": 2430,
    "tope": 250
   },
   "30d": {
-   "restantes": 2114,
-   "segundos": 1283417,
+   "restantes": 2113,
+   "segundos": 1281026,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T00:40:25.000Z",
+ "cuota_visto": "2026-10-27T01:20:15.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -15672,19 +15672,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok": {
-   "actualizado": "2026-10-27T00:00:30.000Z",
+   "actualizado": "2026-10-27T01:20:14.000Z",
    "buffer_id": "6adfe9a13bff354cec682e0b",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok",
    "creado": "2026-10-26T22:40:15.000Z",
    "dueAt": "2026-10-27T00:23:43.000Z",
+   "enviado": "2026-10-27T00:24:33.435Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T22:22:48.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701136715909500166",
    "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15729,19 +15730,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok": {
-   "actualizado": "2026-10-27T00:00:30.000Z",
+   "actualizado": "2026-10-27T01:20:14.000Z",
    "buffer_id": "6adfe9a2f266a5f7e104931f",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok",
    "creado": "2026-10-26T22:40:15.000Z",
    "dueAt": "2026-10-27T00:43:30.000Z",
+   "enviado": "2026-10-27T00:45:15.876Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T22:34:02.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701141804296473863",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15786,19 +15788,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tiktok": {
-   "actualizado": "2026-10-27T00:00:30.000Z",
+   "actualizado": "2026-10-27T01:20:14.000Z",
    "buffer_id": "6adfe9a00565644c947fbc75",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tiktok",
    "creado": "2026-10-27T00:00:21.000Z",
    "dueAt": "2026-10-27T00:03:29.000Z",
+   "enviado": "2026-10-27T00:04:32.108Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T23:58:14.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701131594215509266",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperan-una-moto-robada-y-demoran-a-un-menor",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15870,18 +15873,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x": {
-   "actualizado": "2026-10-27T00:40:22.000Z",
+   "actualizado": "2026-10-27T01:20:14.000Z",
    "buffer_id": "6adff2f85837b0fb9bfbbd3e",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x",
    "creado": "2026-10-27T00:40:14.000Z",
    "dueAt": "2026-10-27T00:42:25.000Z",
+   "enviado": "2026-10-27T00:42:35.756Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T00:34:43.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114880403643179397",
    "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
    "noticia": "nota:sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
    "origen": "bot",
@@ -23605,18 +23609,19 @@
    "viral": true
   },
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x": {
-   "actualizado": "2026-10-27T00:40:22.000Z",
+   "actualizado": "2026-10-27T01:20:14.000Z",
    "buffer_id": "6adff2f914a7789a82fadc0d",
    "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x",
    "creado": "2026-10-26T23:20:14.000Z",
    "dueAt": "2026-10-27T00:48:57.000Z",
+   "enviado": "2026-10-27T00:49:03.801Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T23:01:20.000Z",
    "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2114882031372952027",
    "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-familiares-de-una-joven-baleada-aseguran-que-la-ba6ab9",
    "noticia": "nota:arrecifes-familiares-de-una-joven-baleada-aseguran-que-la-ba6ab9",
    "origen": "policiales",
@@ -35221,44 +35226,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok",
-   "cuando": "2026-10-22T14:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a|x",
-   "cuando": "2026-10-22T14:20:26.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x",
-   "cuando": "2026-10-22T14:20:26.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ada1babeb1348c17ac34588",
-   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
-   "cuando": "2026-10-22T14:20:28.000Z",
-   "dueAt": "2026-10-22T14:22:17.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ada1bab1cc831fdc3c12789",
-   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
-   "cuando": "2026-10-22T14:20:28.000Z",
-   "dueAt": "2026-10-22T14:27:18.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok",
    "cuando": "2026-10-22T14:40:16.000Z",
    "evento": "enviado",
@@ -39462,6 +39429,36 @@
    "cuando": "2026-10-27T00:40:25.000Z",
    "dueAt": "2026-10-27T00:48:57.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok",
+   "cuando": "2026-10-27T01:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701136715909500166"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok",
+   "cuando": "2026-10-27T01:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701141804296473863"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tiktok",
+   "cuando": "2026-10-27T01:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701131594215509266"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x",
+   "cuando": "2026-10-27T01:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114880403643179397"
+  },
+  {
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x",
+   "cuando": "2026-10-27T01:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2114882031372952027"
   }
  ],
  "tandas": {
@@ -39489,7 +39486,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T00:00:30.000Z",
+ "ultima_sync": "2026-10-27T01:20:14.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
