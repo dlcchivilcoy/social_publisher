@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 8 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 8 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 9 | 0 | 5 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 0 | 2 | 0 | 4 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 39 |
@@ -29,9 +29,8 @@ Actualizado: 26/10/2026 22:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2113 de 3000 (visto 2026-10-27T01:20:15.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels del bot · Recuperan una moto robada y demoran a un menor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Persecución y captura de una banda tras un robo en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,7 +52,6 @@ Actualizado: 26/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
 - 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
 - 2026-10-26T23:20 recibido policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
 - 2026-10-26T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34711 
@@ -78,3 +76,4 @@ Actualizado: 26/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-10-27T01:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x 
 - 2026-10-27T01:20 enviado policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
 - 2026-10-27T01:40 vencido policiales:https://www.diariodemocracia.com/policiales/34711 espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-27T02:00 vencido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x espera su momento (se programa cerca de la hora en que sale en las otras redes)

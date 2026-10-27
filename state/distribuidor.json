@@ -15781,14 +15781,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x": {
-   "actualizado": "2026-10-27T00:00:21.000Z",
+   "actualizado": "2026-10-27T02:00:20.000Z",
    "buffer_id": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x",
    "creado": "2026-10-27T00:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-26T23:58:14.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p",
    "intentos": 0,
@@ -35190,12 +35190,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
-   "cuando": "2026-10-22T14:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113274886940463320"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
    "cuando": "2026-10-22T14:40:16.000Z",
    "evento": "enviado",
@@ -39421,6 +39415,12 @@
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x",
    "cuando": "2026-10-27T01:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x",
+   "cuando": "2026-10-27T02:00:20.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
