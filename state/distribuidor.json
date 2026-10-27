@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T16:40:30.000Z"
+   "visto": "2026-10-27T17:41:27.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-10-27T16:40:30.000Z"
+   "visto": "2026-10-27T17:41:27.000Z"
   }
  },
  "contenidos": {
@@ -6957,24 +6957,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/masoneria-en-chivilcoy-el-libro-de-alicia-rios-profundiza-el-1",
    "volanta": "Masonería en Chivilcoy"
   },
-  "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": {
-   "categoria": "",
-   "descripcion": "Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar El director de Gobierno de Chivilcoy, Hugo Kübler, explicó cómo se desarrolló el proceso judicial para recuperar la nave industrial donde funcionó la empresa Perchet, vinculada a Bicontinentar, y respondió a los cuestionamientos sobre el convenio firmado con la firma, la condonación de multas y las indemnizaciones que aún reclaman los trabajadores. Kübler señaló que asume “con muchísima responsabilidad y seriedad” la...",
-   "generado": "2026-10-16T17:09:57.561Z",
-   "id": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b2e27ecec90e437ea7b958c8935450f3~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:23544596-7ffd-4da0-9940-5700227a63bf": {
    "categoria": "",
    "descripcion": "Recuperaron una moto sustraída y demoraron a un hombre La Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que personal policial trasladó a un hombre de 29 años, identificado como Brian Mitrovich, quien circulaba en una motocicleta marca Gilera Smash 110 cc que registraba un pedido de secuestro activo. El procedimiento se llevó a cabo en la calle Ceferino Namuncurá al 519, de Chivilcoy. Al verificar los datos del rodado, los efectivos constataron que poseía un pedido de...",
@@ -11778,17 +11760,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 580,
-   "segundos": 33600,
+   "restantes": 579,
+   "segundos": 32330,
    "tope": 600
   },
   "30d": {
-   "restantes": 1093,
-   "segundos": 1223423,
+   "restantes": 1092,
+   "segundos": 1222153,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T17:20:18.000Z",
+ "cuota_visto": "2026-10-27T17:41:27.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -15625,18 +15607,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x": {
-   "actualizado": "2026-10-27T16:40:30.000Z",
+   "actualizado": "2026-10-27T17:41:27.000Z",
    "buffer_id": "6ae0d3ffd7e117a25cbf0fe8",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
    "creado": "2026-10-27T16:40:16.000Z",
    "dueAt": "2026-10-27T16:42:30.000Z",
+   "enviado": "2026-10-27T16:42:35.280Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T16:29:40.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115121993867546633",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
    "noticia": "nota:chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
    "origen": "bot",
@@ -19869,18 +19852,19 @@
    "viral": false
   },
   "entrevistas:job00252|x": {
-   "actualizado": "2026-10-27T17:20:17.000Z",
+   "actualizado": "2026-10-27T17:41:27.000Z",
    "buffer_id": "6ae0dd524490ad849033e11e",
    "clave": "entrevistas:job00252|x",
    "creado": "2026-10-27T17:20:17.000Z",
    "dueAt": "2026-10-27T17:22:05.000Z",
+   "enviado": "2026-10-27T17:22:57.054Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T17:20:17.000Z",
    "id": "entrevistas:job00252",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115132151314157597",
    "nota_url": "",
    "noticia": "titulo:cultura-memoria-pablo-pueblos-torres",
    "origen": "entrevistas",
@@ -26742,32 +26726,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x": {
-   "actualizado": "2026-10-17T17:20:32.000Z",
-   "buffer_id": "",
-   "clave": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de|x",
-   "creado": "2026-10-16T17:20:17.000Z",
-   "dueAt": "",
-   "error": "tope de 47 publicaciones en 24 h de X",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "vencido",
-   "generado": "2026-10-16T17:09:57.561Z",
-   "id": "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar\n\nEl funcionario Hugo Kübler explicó el proceso judicial para recuperar la nave industrial. Además, respondió sobre el convenio firmado y los reclamos de los trabajadores.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-hugo-kubler-detallo-las-acciones-para-recuperar-el",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Hugo Kübler detalló las acciones para recuperar el predio de Bicontinentar",
-   "urgente": false,
-   "vence": "2026-10-17T17:09:57.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:23544596-7ffd-4da0-9940-5700227a63bf|x": {
    "actualizado": "2026-10-26T22:20:14.000Z",
@@ -34239,22 +34197,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
-   "cuando": "2026-10-23T00:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "nacionales:1bc3bff36ba5e828|x",
-   "cuando": "2026-10-23T00:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:1bc3bff36ba5e828|tiktok",
    "cuando": "2026-10-23T00:20:22.000Z",
    "estado": "pendiente",
@@ -38482,6 +38424,18 @@
    "cuando": "2026-10-27T17:20:18.000Z",
    "dueAt": "2026-10-27T17:22:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
+   "cuando": "2026-10-27T17:41:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115121993867546633"
+  },
+  {
+   "clave": "entrevistas:job00252|x",
+   "cuando": "2026-10-27T17:41:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115132151314157597"
   }
  ],
  "tandas": {
@@ -38510,7 +38464,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T16:40:30.000Z",
+ "ultima_sync": "2026-10-27T17:41:27.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

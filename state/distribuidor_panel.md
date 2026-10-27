@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 14:41 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 1 | 1 |
+| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 27/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 1093 de 2000 (visto 2026-10-27T17:20:18.000Z)
+15m: quedan 149 de 150 · 24h: quedan 579 de 600 · 30d: quedan 1092 de 2000 (visto 2026-10-27T17:41:27.000Z)
 
 ## Cola propia (11 esperando)
 - TikTok · Reels del bot · Comienza una nueva edición del festival Chivilcoy Teatrero — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,8 +51,6 @@ Actualizado: 27/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T14:00 enviado web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
-- 2026-10-27T14:00 enviado web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
 - 2026-10-27T14:20 recibido bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x 
 - 2026-10-27T14:20 recibido bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok 
 - 2026-10-27T14:20 recibido web:08a3a06e-b121-4743-b4b4-bbecd0cf597d|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -76,3 +74,5 @@ Actualizado: 27/10/2026 14:20 (hora AR) · ACTIVO
 - 2026-10-27T17:20 recibido entrevistas:job00252|x 
 - 2026-10-27T17:20 recibido entrevistas:job00252|tiktok 
 - 2026-10-27T17:20 programado entrevistas:job00252|x 
+- 2026-10-27T17:41 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x 
+- 2026-10-27T17:41 enviado entrevistas:job00252|x 
