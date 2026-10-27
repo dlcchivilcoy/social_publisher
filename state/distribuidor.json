@@ -54,27 +54,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/18IXmpACoNk"
   },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": {
-   "descripcion": "Un Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso de la Patria. El motociclista sufrió heridas, fue asistido por SAME y trasladado al Hospital Municipal.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-16T20:57:34.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
-   "urgente": false,
-   "video_bytes": 719546,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/loznN0El0cw"
-  },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": {
    "descripcion": "El secretario de Servicios Públicos de la Municipalidad de Chivilcoy, Esteban Genaro, realizó un repaso de los trabajos que lleva adelante el área en distintos puntos de la ciudad, destacó las tareas de puesta en valor de espacios públicos y brindó recomendaciones sobre la disposi",
    "duracion_seg": 30.0,
@@ -5364,30 +5343,6 @@
    "volanta": "Condena en Mercedes",
    "youtube_url": "https://youtube.com/shorts/xW2lPahXG2I"
   },
-  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos": {
-   "categoria": "desaparicion",
-   "descripcion": "El hombre era buscado tras desaparecer en Pehuajó. Su vehículo fue localizado en una calle urbana y la pesquisa derivó en un domicilio donde se produjo el arresto.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos",
-   "localidad": "Pehuajó",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-cbc776",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "texto_tiktok": "El jubilado Hugo Juárez fue encontrado sin vida en la localidad de Pehuajó tras varios días de intensa búsqueda.\n\nSu automóvil había sido hallado estacionado en una calle céntrica, lo que alertó a los investigadores.\n\nTras una serie de averiguaciones, la policía allanó una vivienda donde hallaron el cuerpo y detuvieron a un joven de 27 años vinculado al hecho.\n\n📲 Más noticias de Pehuajó en www.diariolacampaña.com.ar\n\n#Pehuajo #Policiales #Investigacion #BuenosAires",
-   "tipo": "video",
-   "titulo": "Encontraron muerto al jubilado Hugo Juárez y hay un detenido de 27 años",
-   "urgente": false,
-   "video_bytes": 102479,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4",
-   "volanta": "Hallazgo trágico en Pehuajó",
-   "youtube_url": "https://youtube.com/shorts/S_FSlbIokQ8"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": {
    "categoria": "incendio",
    "descripcion": "Bomberos voluntarios acudieron anoche a un inmueble céntrico tras detectarse fuego en el aparato refrigerante de un tercer piso. No hubo heridos.",
@@ -8062,24 +8017,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gastronomia-domingo-pastas-representara-a-chivilcoy-en-la",
    "volanta": "Chivilcoy · Gastronomía"
   },
-  "web:480e86f5-f14e-481b-844f-2ac1f1192f77": {
-   "categoria": "",
-   "descripcion": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA El referente de Fuerza Chivilcoyana, José Ferro, reconoció que su espacio político cometió una equivocación al respaldar el convenio con la empresa SENTRA a través del voto afirmativo de la concejal Rosario Galland. Al respecto, Ferro explicó que al momento de la votación desconocían las presuntas irregularidades fiscales de la firma. En ese sentido, señaló que tras analizar la situación con los equipos técnicos constataron...",
-   "generado": "2026-10-17T00:11:40.984Z",
-   "id": "web:480e86f5-f14e-481b-844f-2ac1f1192f77",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_dd079b3cdb9b421392670d9aaf388548~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
-   "volanta": "Chivilcoy · Politica"
-  },
   "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": {
    "categoria": "",
    "descripcion": "Investigadores, productores y empresas se darán cita del 21 al 23 de octubre para analizar genética, manejo, tecnología y calidad industrial del cultivo.",
@@ -8875,24 +8812,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/eden-detectan-y-desarticulan-dos-conexiones-clandestinas-de-energia",
    "volanta": "EDEN"
-  },
-  "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": {
-   "categoria": "",
-   "descripcion": "Máximo Cataldi clasificó a semifinales del AO Junior Series El tenista Máximo Cataldi avanzó a las semifinales masculinas del AO Junior Series South America 2026, certamen que se disputa en Brasil y otorga la clasificación a Australia. El jugador argentino completó la fase regular liderando su zona tras ganar los tres partidos correspondientes. Con este resultado, Cataldi se medirá ante el brasileño Livas Damazio, máximo preclasificado de la competencia. El encuentro de semifinales se...",
-   "generado": "2026-10-17T02:16:35.774Z",
-   "id": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b9e0b0a67e8b43f383491e954f8760a4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-tenis-maximo-cataldi-clasifico-a-semifinales-del-ao-junior",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Máximo Cataldi clasificó a semifinales del AO Junior Series",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/brasil-tenis-maximo-cataldi-clasifico-a-semifinales-del-ao-junior",
-   "volanta": "Brasil · Tenis"
   },
   "web:76ba9989-902f-48e4-be31-1bb0265c5c60": {
    "categoria": "",
@@ -11607,24 +11526,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:e80eb9f8-449c-4d4b-a410-387331e0d747": {
-   "categoria": "nacionales",
-   "descripcion": "Pese a la reciente cirugía del Pontífice en Roma, la organización nacional sigue adelante con los preparativos y ya juntó el 60 por ciento del presupuesto…",
-   "generado": "2026-10-16T13:06:37.519Z",
-   "id": "web:e80eb9f8-449c-4d4b-a410-387331e0d747",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0f62f0e4f1b543368c5e67324c2a6451~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
-   "volanta": ""
-  },
   "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101": {
    "categoria": "nacionales",
    "descripcion": "La artista explicó que el recinto no cumplió con las exigencias técnicas ni de seguridad previstas para su gira Futttura.",
@@ -12114,17 +12015,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 238,
-   "segundos": 49197,
+   "restantes": 237,
+   "segundos": 48000,
    "tope": 250
   },
   "30d": {
-   "restantes": 2101,
-   "segundos": 1239020,
+   "restantes": 2100,
+   "segundos": 1237823,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T13:00:21.000Z",
+ "cuota_visto": "2026-10-27T13:20:18.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -12177,42 +12078,6 @@
    "vence": "2026-10-18T13:43:28.000Z",
    "video_bytes": 942586,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
-  },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
-   "buffer_id": "6ad3392e938409f1d07a4dbc",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p|tiktok",
-   "creado": "2026-10-16T21:00:18.000Z",
-   "dueAt": "2026-10-17T13:00:59.000Z",
-   "enviado": "2026-10-17T13:05:19.947Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T20:57:34.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697621771213671698",
-   "metricas": {
-    "averageTimeWatched": 5.86,
-    "comments": 0,
-    "engagementRate": 0.2,
-    "reach": 0,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 54.37,
-    "views": 508
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-ceballos-y-paso-de-la-patria-un",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado\n\nUn Fiat Cronos, conducido por Héctor Gerardo Hofsteter, y una moto Honda Wave, en la que circulaba Matías Ventieri, colisionaron en la intersección de avenida Ceballos y Paso de la Patria. El motociclista sufrió heridas, fue asistido por SAME y trasladado al Hospital Municipal.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Choque en Ceballos y Paso de la Patria: un motociclista fue hospitalizado",
-   "urgente": false,
-   "vence": "2026-10-18T20:57:34.000Z",
-   "video_bytes": 719546,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok": {
    "actualizado": "2026-10-17T18:00:16.000Z",
@@ -14762,15 +14627,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok": {
-   "actualizado": "2026-10-25T13:20:14.000Z",
+   "actualizado": "2026-10-27T13:20:17.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok",
    "creado": "2026-10-25T13:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-25T13:06:49.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
    "intentos": 0,
@@ -14834,7 +14699,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-25T14:03:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
@@ -14899,7 +14764,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-25T14:11:09.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
@@ -14964,7 +14829,7 @@
    "creado": "2026-10-25T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-25T14:26:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
@@ -15029,7 +14894,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-25T15:22:33.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l",
@@ -15094,7 +14959,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-25T15:30:32.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw",
@@ -15311,7 +15176,7 @@
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
@@ -15376,7 +15241,7 @@
    "creado": "2026-10-26T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
@@ -15517,7 +15382,7 @@
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T22:09:40.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum",
@@ -15801,7 +15666,7 @@
    "creado": "2026-10-27T00:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T00:34:43.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
@@ -15866,7 +15731,7 @@
    "creado": "2026-10-27T13:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T12:41:37.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
@@ -18785,7 +18650,7 @@
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
@@ -18850,7 +18715,7 @@
    "creado": "2026-10-27T09:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T02:52:24.000Z",
    "id": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4",
@@ -24023,42 +23888,6 @@
    "video_bytes": 99398,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
   },
-  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
-   "buffer_id": "6ad3392d938409f1d07a4d3a",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos|tiktok",
-   "creado": "2026-10-17T09:00:19.000Z",
-   "dueAt": "2026-10-17T12:20:42.000Z",
-   "enviado": "2026-10-17T12:22:32.570Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697610671093058836",
-   "metricas": {
-    "averageTimeWatched": 6.08,
-    "comments": 0,
-    "engagementRate": 0.61,
-    "reach": 0,
-    "reactions": 3,
-    "shares": 0,
-    "totalTimeWatched": 58.23,
-    "views": 493
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pehuajo-hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-cbc776",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 9,
-   "texto": "El jubilado Hugo Juárez fue encontrado sin vida en la localidad de Pehuajó tras varios días de intensa búsqueda.\n\nSu automóvil había sido hallado estacionado en una calle céntrica, lo que alertó a los investigadores.\n\nTras una serie de averiguaciones, la policía allanó una vivienda donde hallaron el cuerpo y detuvieron a un joven de 27 años vinculado al hecho.\n\n📲 Más noticias de Pehuajó en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pehuajó #policiales",
-   "tipo": "video",
-   "titulo": "Encontraron muerto al jubilado Hugo Juárez y hay un detenido de 27 años",
-   "urgente": false,
-   "vence": "2026-10-17T21:39:53.000Z",
-   "video_bytes": 102479,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_03_junin_encontraron-muerto-al-jubilado.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok": {
    "actualizado": "2026-10-17T14:40:12.000Z",
    "buffer_id": "6ad3392f769b4579346cce0c",
@@ -28813,40 +28642,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
-   "buffer_id": "6ad3392b0b0d72757acc341c",
-   "clave": "web:480e86f5-f14e-481b-844f-2ac1f1192f77|x",
-   "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "2026-10-17T13:15:43.000Z",
-   "enviado": "2026-10-17T13:15:46.097Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T00:11:40.984Z",
-   "id": "web:480e86f5-f14e-481b-844f-2ac1f1192f77",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111446066977448257",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 12,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 José Ferro admitió que su espacio se equivocó al respaldar a SENTRA\n\nEl referente de Fuerza Chivilcoyana, José Ferro, reconoció que su espacio político cometió una equivocación al respaldar el convenio con la empresa SENTRA a través del voto…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-jose-ferro-admitio-que-su-espacio-se-equivoco-al",
-   "tipo": "nota",
-   "titulo": "José Ferro admitió que su espacio se equivocó al respaldar a SENTRA",
-   "urgente": false,
-   "vence": "2026-10-18T00:11:40.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x": {
    "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad6355399bd92f0dcee15cb",
@@ -30150,40 +29945,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
-   "buffer_id": "6ad3392b0b0d72757acc33e7",
-   "clave": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f|x",
-   "creado": "2026-10-17T02:20:17.000Z",
-   "dueAt": "2026-10-17T13:00:40.000Z",
-   "enviado": "2026-10-17T13:03:09.961Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T02:16:35.774Z",
-   "id": "web:767181b8-08a7-40d4-a0b0-598f6f0c540f",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111442895630672326",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-tenis-maximo-cataldi-clasifico-a-semifinales-del-ao-junior",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Máximo Cataldi clasificó a semifinales del AO Junior Series\n\nEl tenista Máximo Cataldi avanzó a las semifinales masculinas del AO Junior Series South America 2026, certamen que se disputa en Brasil y otorga la clasificación a Australia.\n\nhttps://www.diariolacampaña.com.ar/n/brasil-tenis-maximo-cataldi-clasifico-a-semifinales-del-ao-junior",
-   "tipo": "nota",
-   "titulo": "Máximo Cataldi clasificó a semifinales del AO Junior Series",
-   "urgente": false,
-   "vence": "2026-10-18T02:16:35.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:76ba9989-902f-48e4-be31-1bb0265c5c60|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
@@ -34364,31 +34125,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:e80eb9f8-449c-4d4b-a410-387331e0d747|x": {
-   "actualizado": "2026-10-17T13:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:e80eb9f8-449c-4d4b-a410-387331e0d747|x",
-   "creado": "2026-10-16T13:20:18.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-16T13:06:37.519Z",
-   "id": "web:e80eb9f8-449c-4d4b-a410-387331e0d747",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV\n\nPese a la reciente cirugía del Pontífice en Roma, la organización nacional sigue adelante con los preparativos y ya juntó el 60 por ciento del presupuesto…\n\nhttps://www.diariolacampaña.com.ar/n/la-iglesia-ya-reunio-mas-de-usd-3-5-millones-para-la-visita-del-7b8518",
-   "tipo": "nota",
-   "titulo": "La Iglesia ya reunió más de USD 3,5 millones para la visita del papa León XIV",
-   "urgente": false,
-   "vence": "2026-10-17T13:06:37.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101|x": {
    "actualizado": "2026-10-20T13:20:15.000Z",
    "buffer_id": "",
@@ -34476,14 +34212,14 @@
    "video_url": ""
   },
   "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x": {
-   "actualizado": "2026-10-27T12:40:31.000Z",
+   "actualizado": "2026-10-27T13:20:17.000Z",
    "buffer_id": "6ae09bc06cd613c4832841dd",
    "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
    "creado": "2026-10-27T12:40:18.000Z",
    "dueAt": "2026-10-27T13:53:46.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-10-27T12:39:44.709Z",
    "id": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52",
    "intentos": 0,
@@ -35155,18 +34891,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
-   "cuando": "2026-10-22T20:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "entrevistas:job00244|x",
-   "cuando": "2026-10-22T21:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113360451547300118"
-  },
   {
    "buffer_id": "6ada796665d602339aec77dc",
    "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
@@ -39399,6 +39123,18 @@
    "cuando": "2026-10-27T13:00:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115056734645473654"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok",
+   "cuando": "2026-10-27T13:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "tanda sin lugar (tope de 24 h o Buffer lleno)"
+  },
+  {
+   "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
+   "cuando": "2026-10-27T13:20:18.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
   }
  ],
  "tandas": {

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/10/2026 10:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 3 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 8 | 2 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,30 +20,29 @@ Actualizado: 27/10/2026 10:00 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
 - X · Reels del bot: 86 con métricas · mediana vistas/impresiones 27 · likes 0
 - X · Reels policiales: 30 con métricas · mediana vistas/impresiones 38 · likes 0
-- X · Notas web: 92 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 90 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 4 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 61 con métricas · mediana vistas/impresiones 306 · likes 2
-- TikTok · Reels policiales: 19 con métricas · mediana vistas/impresiones 511 · likes 4
+- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 304.5 · likes 2
+- TikTok · Reels policiales: 18 con métricas · mediana vistas/impresiones 513 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 238 de 250 · 30d: quedan 2101 de 3000 (visto 2026-10-27T13:00:21.000Z)
+15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2100 de 3000 (visto 2026-10-27T13:20:18.000Z)
 
-## Cola propia (13 esperando)
-- TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — tanda sin lugar (tope de 24 h o Buffer lleno)
-- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — tanda sin lugar (tope de 24 h o Buffer lleno)
+## Cola propia (12 esperando)
+- TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -53,8 +52,6 @@ Actualizado: 27/10/2026 10:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T10:04 programado web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x 
-- 2026-10-27T10:04 programado web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
 - 2026-10-27T10:20 recibido web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
 - 2026-10-27T10:20 programado web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
 - 2026-10-27T10:40 enviado web:c6773443-ef8a-493a-b392-a16cd01f5057|x 
@@ -78,3 +75,5 @@ Actualizado: 27/10/2026 10:00 (hora AR) · ACTIVO
 - 2026-10-27T13:00 enviado web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x 
 - 2026-10-27T13:00 enviado web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
 - 2026-10-27T13:00 enviado web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x 
+- 2026-10-27T13:20 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tikto tanda sin lugar (tope de 24 h o Buffer lleno)
+- 2026-10-27T13:20 depurado web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x no está en el carrusel del diario de hoy (sacado de Buffer)
