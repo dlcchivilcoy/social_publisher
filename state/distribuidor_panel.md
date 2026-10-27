@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 4 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -28,12 +28,14 @@ Actualizado: 27/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 116 de 150 · 24h: quedan 539 de 600 · 30d: quedan 1052 de 2000 (visto 2026-10-27T22:20:15.000Z)
+15m: quedan 148 de 150 · 24h: quedan 526 de 600 · 30d: quedan 1039 de 2000 (visto 2026-10-27T23:20:26.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (11 esperando)
 - TikTok · Reels del bot · Presentaron una nueva edición de la Expo Hecho en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Confirman la preventiva de Germán Díaz y definirán su reemplazo en el Concejo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Sufrió dos robos en 24 horas y destrozaron una casa en construcción — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,11 +51,6 @@ Actualizado: 27/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T17:41 enviado entrevistas:job00252|x 
-- 2026-10-27T18:00 entrevista_aprobada entrevistas:job00253 
-- 2026-10-27T18:00 recibido entrevistas:job00253|x 
-- 2026-10-27T18:00 recibido entrevistas:job00253|tiktok 
-- 2026-10-27T18:00 programado entrevistas:job00253|x 
 - 2026-10-27T18:20 entrevista_aprobada entrevistas:job00254 
 - 2026-10-27T18:20 recibido entrevistas:job00254|x 
 - 2026-10-27T18:20 recibido entrevistas:job00254|tiktok 
@@ -74,3 +71,8 @@ Actualizado: 27/10/2026 20:00 (hora AR) · ACTIVO
 - 2026-10-27T22:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tikto 
 - 2026-10-27T22:20 enviado entrevistas:job00253|tiktok 
 - 2026-10-27T22:20 enviado entrevistas:job00254|tiktok 
+- 2026-10-27T23:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31068/albe 
+- 2026-10-27T23:20 recibido policiales:https://junin24.com/locales/destrozos-en-la-vivie 
+- 2026-10-27T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/ 
+- 2026-10-27T23:20 enviado entrevistas:job00252|tiktok 
+- 2026-10-27T23:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31068/albe 
