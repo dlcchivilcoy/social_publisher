@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 07:04 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/10/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 3 | 9 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,10 +28,19 @@ Actualizado: 27/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2112 de 3000 (visto 2026-10-27T02:40:17.000Z)
+15m: quedan 99 de 100 · 24h: quedan 248 de 250 · 30d: quedan 2111 de 3000 (visto 2026-10-27T10:04:55.000Z)
 
-## Cola propia (12 esperando)
+## Cola propia (21 esperando)
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Colón no afloja en el Prefederal: venció a Porteño y se mantiene en los primeros — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Gimnasia de Chivilcoy repudió los graves incidentes en Corrientes: cuatro futbol — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Fin de semana amargo para la Academia: Racing no pudo hacerse fuerte en casa, ca — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Moquehuá recuperó la cima en una décima fecha a puro gol en la Liga Chivilcoyana — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Itatí Pérez Cosimano destacó el valor de los cuidados paliativos en Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · La UTN Chivilcoy abre la inscripción 2027, con tres nuevas propuestas en el CUCH — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Andrea Bustabas ‘Construyendo Puentes’ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Comunidad educativa movilizada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Investigación iniciada en junio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,21 +61,6 @@ Actualizado: 27/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T00:00 recibido web:36e83a1d-e03b-401c-8c1b-edd4182a003f|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-27T00:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
-- 2026-10-27T00:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
-- 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
-- 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
-- 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tikto 
-- 2026-10-27T00:20 recibido policiales:https://www.latrochadigital.com.ar/2026/10/26/bra 
-- 2026-10-27T00:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
-- 2026-10-27T00:40 recibido bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x 
-- 2026-10-27T00:40 recibido bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tikto 
-- 2026-10-27T00:40 recibido web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-27T00:40 programado bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x 
-- 2026-10-27T00:40 programado policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
-- 2026-10-27T01:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
-- 2026-10-27T01:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tikto 
 - 2026-10-27T01:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
 - 2026-10-27T01:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x 
 - 2026-10-27T01:20 enviado policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
@@ -77,3 +71,18 @@ Actualizado: 27/10/2026 07:00 (hora AR) · ACTIVO
 - 2026-10-27T09:00 recibido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x 
 - 2026-10-27T09:00 recibido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok 
 - 2026-10-27T09:00 vencido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x no hubo lugar antes de su vencimiento
+- 2026-10-27T10:03 recibido web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
+- 2026-10-27T10:03 recibido web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
+- 2026-10-27T10:03 recibido web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x 
+- 2026-10-27T10:03 recibido web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x 
+- 2026-10-27T10:04 recibido web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x 
+- 2026-10-27T10:04 recibido web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
+- 2026-10-27T10:04 recibido web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
+- 2026-10-27T10:04 recibido web:114e0244-c0a8-4f64-8b31-96e1a4aa4cb9|x 
+- 2026-10-27T10:04 recibido web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x 
+- 2026-10-27T10:04 recibido web:5ca863ea-d5c6-45ae-b613-ee86268b66cc|x 
+- 2026-10-27T10:04 recibido web:c6773443-ef8a-493a-b392-a16cd01f5057|x 
+- 2026-10-27T10:04 recibido web:d455c1c4-5f25-4847-bf67-277dd0e30dd7|x 
+- 2026-10-27T10:04 programado web:c6773443-ef8a-493a-b392-a16cd01f5057|x 
+- 2026-10-27T10:04 programado web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x 
+- 2026-10-27T10:04 programado web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
