@@ -12269,42 +12269,6 @@
    "video_bytes": 719546,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_13e74a6577cbd8b7.mp4"
   },
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok": {
-   "actualizado": "2026-10-17T01:20:17.000Z",
-   "buffer_id": "6ad2ba94c34368e4b09bd2a2",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|tiktok",
-   "creado": "2026-10-16T21:20:13.000Z",
-   "dueAt": "2026-10-17T00:43:07.000Z",
-   "enviado": "2026-10-17T00:44:57.918Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T21:06:15.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697430930507451669",
-   "metricas": {
-    "averageTimeWatched": 5.84,
-    "comments": 0,
-    "engagementRate": 0.22,
-    "reach": 0,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 48.25,
-    "views": 461
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-le-robaron-tres-motos-a-sebastian-porto-y",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo\n\nLe robaron tres motos a Sebastián Porto y logró recuperar una mediante el rastreo satelital. El hecho ocurrió durante la madrugada de este viernes en una vivienda de calle 516, cerca de avenida De Tomaso, mientras la familia dormía. Los delincuentes forzaron el portón.\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "tipo": "video",
-   "titulo": "Le robaron tres motos a Sebastián Porto y recuperó una con rastreo",
-   "urgente": false,
-   "vence": "2026-10-18T21:06:15.000Z",
-   "video_bytes": 547577,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c128f25506963c67.mp4"
-  },
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc|x": {
    "actualizado": "2026-10-17T11:20:16.000Z",
    "buffer_id": "6ad3392bdd83363c4dc48814",
@@ -25743,14 +25707,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x": {
-   "actualizado": "2026-10-26T23:40:20.000Z",
+   "actualizado": "2026-10-27T01:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x",
    "creado": "2026-10-26T23:40:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-26T23:32:02.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se",
    "intentos": 0,
@@ -35226,12 +35190,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4|tiktok",
-   "cuando": "2026-10-22T14:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699487357656911112"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
    "cuando": "2026-10-22T14:40:16.000Z",
    "evento": "enviado",
@@ -39459,6 +39417,12 @@
    "cuando": "2026-10-27T01:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2114882031372952027"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x",
+   "cuando": "2026-10-27T01:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {

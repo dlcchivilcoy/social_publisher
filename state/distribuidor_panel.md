@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 26/10/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 8 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 9 | 0 | 5 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 3 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 2 | 0 | 4 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 39 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -22,14 +22,14 @@ Actualizado: 26/10/2026 22:20 (hora AR) · ACTIVO
 - X · Reels policiales: 32 con métricas · mediana vistas/impresiones 37.5 · likes 0
 - X · Notas web: 92 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 56 con métricas · mediana vistas/impresiones 309.5 · likes 2
+- TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 309 · likes 2
 - TikTok · Reels policiales: 19 con métricas · mediana vistas/impresiones 511 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2113 de 3000 (visto 2026-10-27T01:20:15.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (14 esperando)
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels del bot · Recuperan una moto robada y demoran a un menor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,7 +37,6 @@ Actualizado: 26/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Dos jóvenes detenidos y allanamiento positivo tras un robo en Junín — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Se prendió fuego un auto en plena marcha en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,7 +53,6 @@ Actualizado: 26/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T22:40 enviado policiales:https://junin24.com/policiales/recuperan-una-bici 
 - 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
 - 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
 - 2026-10-26T23:20 recibido policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
@@ -79,3 +77,4 @@ Actualizado: 26/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-27T01:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
 - 2026-10-27T01:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x 
 - 2026-10-27T01:20 enviado policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
+- 2026-10-27T01:40 vencido policiales:https://www.diariodemocracia.com/policiales/34711 espera su momento (se programa cerca de la hora en que sale en las otras redes)
