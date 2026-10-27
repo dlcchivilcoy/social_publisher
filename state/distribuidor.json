@@ -5421,30 +5421,6 @@
    "volanta": "Robo en Salto",
    "youtube_url": "https://youtube.com/shorts/twkflsrnghw"
   },
-  "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": {
-   "categoria": "otro_policial",
-   "descripcion": "La Justicia dictó una nueva condena contra Sandro Herrera, ex mano derecha del Superintendente, por un hecho cometido en 2019 contra una subalterna. Seguirá en prisión domiciliaria.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T18:41:23.000Z",
-   "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
-   "localidad": "Mercedes",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "texto_tiktok": "La Justicia dictó una nueva condena de ocho años de prisión efectiva contra el excapitán de la Policía Bonaerense Sandro Herrera por el abuso sexual de una subalterna.\n\nEl hecho ocurrió en la ciudad de Mercedes durante el año 2019.\n\nEl fallo estuvo a cargo de los jueces del Juzgado en lo Criminal y Correccional N.º 1, con la intervención del fiscal de juicio Adrián Landini y el fiscal de investigaciones Pedro Illanes.\n\nA pesar de la sentencia, el acusado continuará cumpliendo prisión domiciliaria hasta que el fallo quede firme.\n\n📲 Más noticias de Mercedes en www.diariolacampaña.com.ar\n\n#Mercedes #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual",
-   "urgente": false,
-   "video_bytes": 99398,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4",
-   "volanta": "Condena en Mercedes",
-   "youtube_url": "https://youtube.com/shorts/xW2lPahXG2I"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html": {
    "categoria": "incendio",
    "descripcion": "Una dotación de bomberos controló un foco ígneo que se desató en la cocina de un cuarto piso. No hubo heridos y solo se registraron daños materiales.",
@@ -6645,24 +6621,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia-1",
    "volanta": "Opinión"
-  },
-  "web:14436815-e65b-4622-81a4-d215bbfc9d5f": {
-   "categoria": "nacionales",
-   "descripcion": "El Instituto Nacional de Estadística y Censos informó que el Índice de precios internos al por mayor subió tras el fuerte avance del sector energético y…",
-   "generado": "2026-10-16T22:06:42.229Z",
-   "id": "web:14436815-e65b-4622-81a4-d215bbfc9d5f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_9ed51ad2b61745c8aba6630af8fdf5b8~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Inflación mayorista del Indec: los precios subieron 3,2% en septiembre",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
-   "volanta": ""
   },
   "web:1577e055-5def-4f13-aaba-45b5fbac35da": {
    "categoria": "nacionales",
@@ -9247,24 +9205,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
    "volanta": ""
   },
-  "web:90ccf787-b147-4a06-9acf-05aa45b23cca": {
-   "categoria": "",
-   "descripcion": "Capacitaron al personal de los hogares municipales en control de infecciones En el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares municipales de Chivilcoy. La jornada se realizó el viernes 16 de octubre en el Hogar Municipal del Carmen y estuvo dirigida al personal de...",
-   "generado": "2026-10-17T17:19:31.660Z",
-   "id": "web:90ccf787-b147-4a06-9acf-05aa45b23cca",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1ad4e5e4b739459493ad9dac3741b5f8~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
-   "volanta": "Chivilcoy · Salud"
-  },
   "web:92c264ae-78ff-431e-bebc-0875504ae30a": {
    "categoria": "",
    "descripcion": "Chivilcoy celebra la tradición con el 5° Gran Encuentro Folklórico en la Plaza Principal",
@@ -10545,24 +10485,6 @@
    "titulo": "Racing e Independiente empataron 1-1 en el Cilindro por la fecha 13 del Torneo Clausura",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "volanta": ""
-  },
-  "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": {
-   "categoria": "",
-   "descripcion": "Servicios Públicos repone contenedores y avanza con mejoras en plazas",
-   "generado": "2026-10-17T16:59:26.852Z",
-   "id": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d6a13135e4e1493e89303685bea613c4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy · Servicios Públicos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
    "volanta": ""
   },
   "web:ccce7a0b-db66-488d-8412-6628b516975f": {
@@ -23670,43 +23592,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_03_pergamino_el-jardinero-entreg-a-una-jubi.mp4",
    "viral": false
   },
-  "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok": {
-   "actualizado": "2026-10-17T22:20:22.000Z",
-   "buffer_id": "6ad3e1e7e272c4918f9fa1cd",
-   "clave": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok",
-   "creado": "2026-10-17T19:00:17.000Z",
-   "dueAt": "2026-10-17T21:43:01.000Z",
-   "enviado": "2026-10-17T21:43:57.356Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T18:41:23.000Z",
-   "id": "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697755587399994640",
-   "metricas": {
-    "averageTimeWatched": 5.61,
-    "comments": 0,
-    "engagementRate": 0.32,
-    "reach": 270,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 60.23,
-    "views": 627
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual\n\nLa Justicia dictó una nueva condena contra Sandro Herrera, ex mano derecha del Superintendente, por un hecho cometido en 2019 contra una subalterna. Seguirá en prisión domiciliaria.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-condenan-a-ocho-anos-de-prision-a-un-excapitan-de-la-f9c989\n\n#chivilcoy #diariolacampaña #radiodelcentro #mercedes #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Ocho años de prisión para un excapitán de la Bonaerense por abuso sexual",
-   "urgente": false,
-   "vence": "2026-10-18T12:41:23.000Z",
-   "video_bytes": 99398,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|tiktok": {
    "actualizado": "2026-10-21T18:40:15.000Z",
    "buffer_id": "",
@@ -25983,32 +25868,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x": {
-   "actualizado": "2026-10-17T22:20:22.000Z",
-   "buffer_id": "",
-   "clave": "web:14436815-e65b-4622-81a4-d215bbfc9d5f|x",
-   "creado": "2026-10-16T22:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-16T22:06:42.229Z",
-   "id": "web:14436815-e65b-4622-81a4-d215bbfc9d5f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Inflación mayorista del Indec: los precios subieron 3,2% en septiembre\n\nhttps://www.diariolacampaña.com.ar/n/inflacion-mayorista-del-indec-los-precios-subieron-3-2-en-be8d1a",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Inflación mayorista del Indec: los precios subieron 3,2% en septiembre",
-   "urgente": false,
-   "vence": "2026-10-17T22:06:42.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:1577e055-5def-4f13-aaba-45b5fbac35da|x": {
    "actualizado": "2026-10-20T01:20:17.000Z",
@@ -30093,41 +29952,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x": {
-   "actualizado": "2026-10-17T22:20:22.000Z",
-   "buffer_id": "6ad3c5c6e272c4918f9a62ed",
-   "clave": "web:90ccf787-b147-4a06-9acf-05aa45b23cca|x",
-   "creado": "2026-10-17T17:20:13.000Z",
-   "dueAt": "2026-10-17T22:03:40.000Z",
-   "enviado": "2026-10-17T22:03:46.076Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T17:19:31.660Z",
-   "id": "web:90ccf787-b147-4a06-9acf-05aa45b23cca",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111578942595313981",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 30,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Capacitaron al personal de los hogares municipales en control de infecciones\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
-   "urgente": false,
-   "vence": "2026-10-18T17:19:31.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:92c264ae-78ff-431e-bebc-0875504ae30a|x": {
    "actualizado": "2026-10-23T11:00:17.000Z",
    "buffer_id": "",
@@ -32097,41 +31921,6 @@
    "titulo": "Racing e Independiente empataron 1-1 en el Cilindro por la fecha 13 del Torneo Clausura",
    "urgente": false,
    "vence": "2026-10-19T22:05:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x": {
-   "actualizado": "2026-10-17T22:20:22.000Z",
-   "buffer_id": "6ad3c5c6ae173d6e00cd36ff",
-   "clave": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af|x",
-   "creado": "2026-10-17T17:00:15.000Z",
-   "dueAt": "2026-10-17T22:18:34.000Z",
-   "enviado": "2026-10-17T22:18:46.196Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T16:59:26.852Z",
-   "id": "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111582717934436741",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 3.33,
-    "impressions": 30,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy · Servicios Públicos\n\nServicios Públicos repone contenedores y avanza con mejoras en plazas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy · Servicios Públicos",
-   "urgente": false,
-   "vence": "2026-10-18T16:59:26.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
