@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 26/10/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 7 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 6 | 3 | 4 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 38 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -17,32 +17,34 @@ Actualizado: 26/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 31.5 · likes 0
+- X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 32 · likes 0
 - X · Reels del bot: 83 con métricas · mediana vistas/impresiones 24 · likes 0
-- X · Reels policiales: 37 con métricas · mediana vistas/impresiones 37 · likes 0
+- X · Reels policiales: 32 con métricas · mediana vistas/impresiones 37.5 · likes 0
 - X · Notas web: 92 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 57 con métricas · mediana vistas/impresiones 309 · likes 2
+- TikTok · Reels del bot: 56 con métricas · mediana vistas/impresiones 309.5 · likes 2
 - TikTok · Reels policiales: 19 con métricas · mediana vistas/impresiones 511 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 98 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2115 de 3000 (visto 2026-10-27T00:00:34.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (15 esperando)
 - X · Reels del bot · Recuperan una moto robada y demoran a un menor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Persecución y captura de una banda tras un robo en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Joven baleada en Arrecifes: familiares cuestionan el accionar policial — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Dos jóvenes detenidos y allanamiento positivo tras un robo en Junín — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — bot: el resto del tope de hoy ya está usado o guardado para los otros
-- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- X · Reels policiales · Se prendió fuego un auto en plena marcha en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -52,8 +54,6 @@ Actualizado: 26/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T22:20 programado policiales:https://junin24.com/policiales/recuperan-una-bici 
-- 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
 - 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
 - 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
 - 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tikto 
@@ -77,3 +77,5 @@ Actualizado: 26/10/2026 21:00 (hora AR) · ACTIVO
 - 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
 - 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
 - 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tikto 
+- 2026-10-27T00:20 recibido policiales:https://www.latrochadigital.com.ar/2026/10/26/bra 
+- 2026-10-27T00:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- 
