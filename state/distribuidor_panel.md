@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 6 | 0 | 6 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 7 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 6 | 3 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 37 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 38 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 16 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,23 +27,22 @@ Actualizado: 26/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 98 de 100 · 24h: quedan 228 de 250 · 30d: quedan 2117 de 3000 (visto 2026-10-26T22:40:35.000Z)
+15m: quedan 98 de 100 · 24h: quedan 226 de 250 · 30d: quedan 2115 de 3000 (visto 2026-10-27T00:00:34.000Z)
 
-## Cola propia (14 esperando)
-- TikTok · Reels del bot · Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (13 esperando)
+- X · Reels del bot · Recuperan una moto robada y demoran a un menor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — bot: el resto del tope de hoy ya está usado o guardado para los otros
 - X · Reels policiales · Joven baleada en Arrecifes: familiares cuestionan el accionar policial — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — bot: el resto del tope de hoy ya está usado o guardado para los otros
 - X · Reels policiales · Dos jóvenes detenidos y allanamiento positivo tras un robo en Junín — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · El agua de las cisternas escolares analizadas es apta para consumo — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Aumentó el peaje de Olivera en la Ruta Nacional 5 — bot: el resto del tope de hoy ya está usado o guardado para los otros
+- TikTok · Reels del bot · Suspenden la competencia de Rally por las lluvias — bot: el resto del tope de hoy ya está usado o guardado para los otros
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -53,14 +52,6 @@ Actualizado: 26/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-26T21:00 programado entrevistas:job00249|tiktok 
-- 2026-10-26T21:00 programado entrevistas:job00248|tiktok 
-- 2026-10-26T21:20 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tikto 
-- 2026-10-26T22:20 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x 
-- 2026-10-26T22:20 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tikto 
-- 2026-10-26T22:20 recibido policiales:https://junin24.com/policiales/recuperan-una-bici 
-- 2026-10-26T22:20 recibido web:23544596-7ffd-4da0-9940-5700227a63bf|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-26T22:20 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x 
 - 2026-10-26T22:20 programado policiales:https://junin24.com/policiales/recuperan-una-bici 
 - 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
 - 2026-10-26T22:40 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
@@ -78,3 +69,11 @@ Actualizado: 26/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-26T22:40 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
 - 2026-10-26T23:20 recibido policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
 - 2026-10-26T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34711 
+- 2026-10-27T00:00 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x 
+- 2026-10-27T00:00 recibido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
+- 2026-10-27T00:00 recibido web:36e83a1d-e03b-401c-8c1b-edd4182a003f|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-27T00:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x 
+- 2026-10-27T00:00 enviado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x 
+- 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tikto 
+- 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tikto 
+- 2026-10-27T00:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tikto 
