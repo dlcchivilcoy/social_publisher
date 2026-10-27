@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/10/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 6 | 3 | 0 | 0 | 3 |
+| Notas web | X | 15 | 1 | 8 | 1 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,13 +28,11 @@ Actualizado: 27/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 243 de 250 · 30d: quedan 2106 de 3000 (visto 2026-10-27T11:20:16.000Z)
+15m: quedan 99 de 100 · 24h: quedan 242 de 250 · 30d: quedan 2105 de 3000 (visto 2026-10-27T11:40:14.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La Provincia impulsa la articulación productiva regional en un encuentro con rep — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Colón no afloja en el Prefederal: venció a Porteño y se mantiene en los primeros — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Gimnasia de Chivilcoy repudió los graves incidentes en Corrientes: cuatro futbol — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,8 +53,6 @@ Actualizado: 27/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T09:00 vencido bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x no hubo lugar antes de su vencimiento
-- 2026-10-27T10:03 recibido web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
 - 2026-10-27T10:03 recibido web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
 - 2026-10-27T10:03 recibido web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x 
 - 2026-10-27T10:03 recibido web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x 
@@ -80,3 +76,5 @@ Actualizado: 27/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-27T11:00 depurado web:d455c1c4-5f25-4847-bf67-277dd0e30dd7|x no está en el carrusel del diario de hoy
 - 2026-10-27T11:00 programado web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x 
 - 2026-10-27T11:20 programado web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x 
+- 2026-10-27T11:40 programado web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
+- 2026-10-27T11:40 programado web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 

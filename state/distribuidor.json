@@ -12179,17 +12179,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 243,
-   "segundos": 55202,
+   "restantes": 242,
+   "segundos": 54003,
    "tope": 250
   },
   "30d": {
-   "restantes": 2106,
-   "segundos": 1245025,
+   "restantes": 2105,
+   "segundos": 1243827,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T11:20:16.000Z",
+ "cuota_visto": "2026-10-27T11:40:14.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -29268,14 +29268,14 @@
    "video_url": ""
   },
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x": {
-   "actualizado": "2026-10-27T10:03:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-27T11:40:14.000Z",
+   "buffer_id": "6ae08d9ea21f4739ba9b8f04",
    "clave": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x",
    "creado": "2026-10-27T10:03:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-27T13:08:27.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T10:03:26.346Z",
    "id": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba",
    "ig_hora": "2026-10-27T13:08:19.000Z",
@@ -34385,14 +34385,14 @@
    "video_url": ""
   },
   "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x": {
-   "actualizado": "2026-10-27T10:03:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-27T11:40:14.000Z",
+   "buffer_id": "6ae08d9e131c5aeac59f1d8d",
    "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
    "creado": "2026-10-27T10:03:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-27T12:53:27.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T10:03:19.185Z",
    "id": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39",
    "ig_hora": "2026-10-27T12:53:19.000Z",
@@ -35268,18 +35268,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x",
-   "cuando": "2026-10-22T18:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113330740196679922"
-  },
-  {
-   "clave": "entrevistas:job00239|x",
-   "cuando": "2026-10-22T18:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113320200573423702"
-  },
   {
    "clave": "entrevistas:job00240|x",
    "cuando": "2026-10-22T18:40:23.000Z",
@@ -39506,6 +39494,20 @@
    "clave": "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x",
    "cuando": "2026-10-27T11:20:16.000Z",
    "dueAt": "2026-10-27T12:38:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae08d9e131c5aeac59f1d8d",
+   "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
+   "cuando": "2026-10-27T11:40:14.000Z",
+   "dueAt": "2026-10-27T12:53:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae08d9ea21f4739ba9b8f04",
+   "clave": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x",
+   "cuando": "2026-10-27T11:40:14.000Z",
+   "dueAt": "2026-10-27T13:08:27.000Z",
    "evento": "programado"
   }
  ],
