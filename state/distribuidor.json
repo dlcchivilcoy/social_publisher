@@ -1188,6 +1188,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eb311d96f895574f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/PyAuwQOQ9YI"
   },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": {
+   "descripcion": "Este fin de semana se corrió en Sierra de los Padres el Campeonato Argentino de Gravel de la FACiMo. Daniela Ghio obtuvo el tercer puesto con medalla de bronce en un circuito épico por la lluvia.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-27T00:34:43.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel",
+   "urgente": false,
+   "video_bytes": 1296213,
+   "video_mb": 1.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_111fb28e7059c360.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/O_gnCAqtPis"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -9399,6 +9420,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/interna-peronista-los-secretos-de-la-reunion-entre-cristina-d6dc41",
    "volanta": ""
   },
+  "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4": {
+   "categoria": "",
+   "descripcion": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel",
+   "generado": "2026-10-27T00:32:47.916Z",
+   "id": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d80484201bd243048e5fe0ff281c3e91~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Sierra de los Padres · Deportes",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "volanta": ""
+  },
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": {
    "categoria": "",
    "descripcion": "Colón en el Prefederal: Triunfo clave en Pergamino y la mira puesta en el choque ante Porteño El pasado fin de semana, el equipo demostró una vez más su carácter al imponerse con contundencia frente a Argentino en Pergamino por 75 a 59, en lo que significó la sexta fecha del certamen. El juego colectivo y la efectividad en ataque fueron determinantes, destacándose las actuaciones de Francisco Luengo —goleador del encuentro con 21 puntos—, seguido por Erbel De Pietro (16), Stefano Denicio (15)...",
@@ -12124,22 +12164,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 98,
-   "segundos": 899,
+   "restantes": 99,
+   "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 226,
-   "segundos": 7213,
+   "restantes": 225,
+   "segundos": 4821,
    "tope": 250
   },
   "30d": {
-   "restantes": 2115,
-   "segundos": 1285809,
+   "restantes": 2114,
+   "segundos": 1283417,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T00:00:34.000Z",
+ "cuota_visto": "2026-10-27T00:40:25.000Z",
  "metricas_buffer": {
   "con_metricas": 73,
   "disponible": true,
@@ -15799,6 +15839,62 @@
    "vence": "2026-10-27T01:58:14.000Z",
    "video_bytes": 2148931,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eb311d96f895574f.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok": {
+   "actualizado": "2026-10-27T00:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
+   "creado": "2026-10-27T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-27T00:34:43.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel\n\nEste fin de semana se corrió en Sierra de los Padres el Campeonato Argentino de Gravel de la FACiMo. Daniela Ghio obtuvo el tercer puesto con medalla de bronce en un circuito épico por la lluvia.\n\nhttps://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel",
+   "urgente": false,
+   "vence": "2026-10-29T00:34:43.000Z",
+   "video_bytes": 1296213,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_111fb28e7059c360.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x": {
+   "actualizado": "2026-10-27T00:40:22.000Z",
+   "buffer_id": "6adff2f85837b0fb9bfbbd3e",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x",
+   "creado": "2026-10-27T00:40:14.000Z",
+   "dueAt": "2026-10-27T00:42:25.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-27T00:34:43.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "noticia": "nota:sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel\n\nEste fin de semana se corrió en Sierra de los Padres el Campeonato Argentino de Gravel de la FACiMo.\n\nhttps://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel",
+   "urgente": false,
+   "vence": "2026-10-27T02:34:43.000Z",
+   "video_bytes": 1296213,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_111fb28e7059c360.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -23509,14 +23605,14 @@
    "viral": true
   },
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x": {
-   "actualizado": "2026-10-26T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-27T00:40:22.000Z",
+   "buffer_id": "6adff2f914a7789a82fadc0d",
    "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x",
    "creado": "2026-10-26T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-27T00:48:57.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-26T23:01:20.000Z",
    "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron",
    "intentos": 0,
@@ -30922,6 +31018,31 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4|x": {
+   "actualizado": "2026-10-27T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4|x",
+   "creado": "2026-10-27T00:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-27T00:32:47.916Z",
+   "id": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "noticia": "nota:sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Sierra de los Padres · Deportes",
+   "urgente": false,
+   "vence": "2026-10-27T04:32:47.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d|x": {
    "actualizado": "2026-10-21T13:00:25.000Z",
    "buffer_id": "6ad89b43befea41f139bc309",
@@ -35099,42 +35220,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|tiktok",
-   "cuando": "2026-10-22T13:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699482347594337557"
-  },
-  {
-   "clave": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x",
-   "cuando": "2026-10-22T13:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113255931601449354"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|x",
-   "cuando": "2026-10-22T14:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok",
-   "cuando": "2026-10-22T14:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
-   "cuando": "2026-10-22T14:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok",
    "cuando": "2026-10-22T14:20:25.000Z",
@@ -39339,6 +39424,44 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x",
+   "cuando": "2026-10-27T00:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
+   "cuando": "2026-10-27T00:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4|x",
+   "cuando": "2026-10-27T00:40:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6adff2f85837b0fb9bfbbd3e",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|x",
+   "cuando": "2026-10-27T00:40:25.000Z",
+   "dueAt": "2026-10-27T00:42:25.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6adff2f914a7789a82fadc0d",
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x",
+   "cuando": "2026-10-27T00:40:25.000Z",
+   "dueAt": "2026-10-27T00:48:57.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39448,6 +39571,7 @@
   "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5": "2026-10-26T22:40:15.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt": "2026-10-26T22:40:15.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p": "2026-10-27T00:00:21.000Z",
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": "2026-10-27T00:40:14.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -40010,6 +40134,7 @@
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": "2026-10-23T13:00:20.000Z",
   "web:85b0f263-df46-4783-b4dd-311f977e50c9": "2026-10-19T14:00:19.000Z",
+  "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4": "2026-10-27T00:40:14.000Z",
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": "2026-10-21T10:20:15.000Z",
   "web:87e2bd08-5d5c-4641-835f-adc4c2401866": "2026-10-15T21:20:18.000Z",
   "web:8823bbc2-feae-46ef-8a92-a08165b6e26c": "2026-10-19T16:20:14.000Z",
