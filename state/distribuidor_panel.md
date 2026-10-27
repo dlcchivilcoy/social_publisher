@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/10/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 26/10/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,17 +17,18 @@ Actualizado: 26/10/2026 23:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 32 · likes 0
-- X · Reels del bot: 83 con métricas · mediana vistas/impresiones 24 · likes 0
-- X · Reels policiales: 32 con métricas · mediana vistas/impresiones 37.5 · likes 0
+- X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
+- X · Reels del bot: 91 con métricas · mediana vistas/impresiones 27 · likes 0
+- X · Reels policiales: 31 con métricas · mediana vistas/impresiones 38 · likes 0
 - X · Notas web: 92 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
-- TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 309 · likes 2
+- TikTok · Recortes de entrevistas: 4 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
+- TikTok · Reels del bot: 63 con métricas · mediana vistas/impresiones 303 · likes 2
 - TikTok · Reels policiales: 19 con métricas · mediana vistas/impresiones 511 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 224 de 250 · 30d: quedan 2113 de 3000 (visto 2026-10-27T01:20:15.000Z)
+15m: quedan 99 de 100 · 24h: quedan 249 de 250 · 30d: quedan 2112 de 3000 (visto 2026-10-27T02:40:17.000Z)
 
 ## Cola propia (11 esperando)
 - TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
