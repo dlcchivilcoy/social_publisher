@@ -24588,14 +24588,14 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x": {
-   "actualizado": "2026-10-27T00:20:13.000Z",
+   "actualizado": "2026-10-27T02:20:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x",
    "creado": "2026-10-27T00:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-27T00:01:35.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html",
    "intentos": 0,
@@ -26266,14 +26266,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/|x": {
-   "actualizado": "2026-10-27T00:20:13.000Z",
+   "actualizado": "2026-10-27T02:20:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/|x",
    "creado": "2026-10-27T00:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-27T00:01:34.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/",
    "intentos": 0,
@@ -35190,18 +35190,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|x",
-   "cuando": "2026-10-22T14:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113276125111611837"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba|tiktok",
-   "cuando": "2026-10-22T14:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699493467696794932"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|x",
    "cuando": "2026-10-22T15:20:19.000Z",
    "estado": "pendiente",
@@ -39421,6 +39409,18 @@
   {
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x",
    "cuando": "2026-10-27T02:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x",
+   "cuando": "2026-10-27T02:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/|x",
+   "cuando": "2026-10-27T02:20:16.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
