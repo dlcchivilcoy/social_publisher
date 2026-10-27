@@ -2070,6 +2070,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_29e2c70e49d56f16.mp4",
    "youtube_url": "https://www.youtube.com/shorts/IE5CawyPl3c"
   },
+  "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4": {
+   "descripcion": "Un choque en cadena se produjo alrededor de las 5 de la madrugada en la calle Maipú, entre Alsina y Guido. El siniestro involucró a un patrullero y a otros dos vehículos, dejando como saldo a dos efectivos policiales con lesiones leves.\n\nDe acuerdo con la información recabada en el lugar, el móvil policial impactó contra una Renault Kangoo. Como consecuencia de la colisión, este utilitario golpeó a un automóvil que se encontraba ubicado adelante, el cual terminó chocando contra un contenedor.\n\nA raíz del impacto en cadena, el automóvil presentó daños visibles en su parte trasera y en la zona del faro izquierdo. En tanto, los dos agentes que circulaban en el móvil sufrieron escoriaciones que no revisten gravedad.\n\nEn el sitio también se observó que al contenedor involucrado le faltaba una rueda y tenía parte de su base apoyada sobre la vereda, aunque no se determinó que ese factor haya tenido incidencia en el hecho. Por el momento, las causas que desencadenaron el choque no fueron establecidas.",
+   "duracion_seg": 22.1,
+   "generado": "2026-10-27T14:17:57.000Z",
+   "id": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
+   "urgente": false,
+   "video_bytes": 1783843,
+   "video_mb": 1.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0c6ccdb5adadde33.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/4SQgjMWFLLs"
+  },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
    "duracion_seg": null,
@@ -6589,6 +6610,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
    "volanta": "Chivilcoy · Policiales"
+  },
+  "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d": {
+   "categoria": "",
+   "descripcion": "Choque en cadena involucró a un patrullero en calle Maipú Un choque en cadena se registró alrededor de las 5 de la madrugada en la calle Maipú, entre Alsina y Guido. Dos efectivos policiales que viajaban en el patrullero involucrado sufrieron escoriaciones que no revisten gravedad. De acuerdo con los datos aportados desde el lugar, el móvil policial chocó contra una Renault Kangoo. Como parte de la secuencia, la Kangoo impactó contra un automóvil que se encontraba adelante y este último...",
+   "generado": "2026-10-27T14:16:18.599Z",
+   "id": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ab0c7ea665ce4e2eb8aa3059cbfa59bd~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "volanta": "Chivilcoy · Accidente"
   },
   "web:0ad113d1-0797-400e-8161-494cc3be7804": {
    "categoria": "nacionales",
@@ -12015,17 +12055,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 586,
-   "segundos": 45595,
+   "restantes": 585,
+   "segundos": 44397,
    "tope": 600
   },
   "30d": {
-   "restantes": 1099,
-   "segundos": 1235418,
+   "restantes": 1098,
+   "segundos": 1234220,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T14:00:23.000Z",
+ "cuota_visto": "2026-10-27T14:20:21.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -14692,15 +14732,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tiktok": {
-   "actualizado": "2026-10-25T14:20:14.000Z",
+   "actualizado": "2026-10-27T14:20:20.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tiktok",
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-25T14:03:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
    "intentos": 0,
@@ -14757,15 +14797,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok": {
-   "actualizado": "2026-10-25T14:20:14.000Z",
+   "actualizado": "2026-10-27T14:20:20.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok",
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-25T14:11:09.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
    "intentos": 0,
@@ -18760,6 +18800,62 @@
    "vence": "2026-10-27T04:52:24.000Z",
    "video_bytes": 807842,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_29e2c70e49d56f16.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok": {
+   "actualizado": "2026-10-27T14:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
+   "creado": "2026-10-27T14:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-27T14:17:57.000Z",
+   "id": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Choque en cadena involucró a un patrullero en calle Maipú\n\nDos efectivos policiales sufrieron lesiones leves luego de que el móvil en el que circulaban impactara contra un utilitario y provocara un choque en cadena entre Alsina y Guido. El siniestro involucró a tres vehículos y a un contenedor, mientras que las causas del hecho aún no fueron establecidas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
+   "urgente": false,
+   "vence": "2026-10-29T14:17:57.000Z",
+   "video_bytes": 1783843,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0c6ccdb5adadde33.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x": {
+   "actualizado": "2026-10-27T14:20:20.000Z",
+   "buffer_id": "6ae0b3247d2301ca995b2827",
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
+   "creado": "2026-10-27T14:20:14.000Z",
+   "dueAt": "2026-10-27T14:22:33.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-27T14:17:57.000Z",
+   "id": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "noticia": "nota:chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Choque en cadena involucró a un patrullero en calle Maipú\n\nDos policías sufrieron lesiones leves tras un siniestro vial entre tres vehículos. El móvil policial impactó contra un utilitario y este chocó a otro automóvil que dio contra un contenedor.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
+   "urgente": false,
+   "vence": "2026-10-27T16:17:57.000Z",
+   "video_bytes": 1783843,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0c6ccdb5adadde33.mp4",
    "viral": false
   },
   "entrevistas:job00224|x": {
@@ -26392,6 +26488,31 @@
    "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
    "urgente": false,
    "vence": "2026-10-23T22:53:24.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d|x": {
+   "actualizado": "2026-10-27T14:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d|x",
+   "creado": "2026-10-27T14:20:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-27T14:16:18.599Z",
+   "id": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "noticia": "nota:chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
+   "urgente": false,
+   "vence": "2026-10-27T18:16:18.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -34894,47 +35015,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ada796765d602339aec78b7",
-   "clave": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok",
-   "cuando": "2026-10-22T21:00:23.000Z",
-   "dueAt": "2026-10-22T21:43:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "nacionales:e25c9cf3646e5306|x",
-   "cuando": "2026-10-22T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:e25c9cf3646e5306|tiktok",
-   "cuando": "2026-10-22T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok",
-   "cuando": "2026-10-22T21:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "ya salieron los 5 de bot de hoy en TikTok"
-  },
-  {
-   "clave": "nacionales:e25c9cf3646e5306|x",
-   "cuando": "2026-10-22T21:20:15.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:e25c9cf3646e5306|tiktok",
-   "cuando": "2026-10-22T21:20:15.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
    "clave": "nacionales:975c5666332b123b|x",
    "cuando": "2026-10-22T22:00:28.000Z",
    "estado": "pendiente",
@@ -39135,6 +39215,49 @@
    "cuando": "2026-10-27T14:00:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115075608862429479"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
+   "cuando": "2026-10-27T14:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
+   "cuando": "2026-10-27T14:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d|x",
+   "cuando": "2026-10-27T14:20:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tiktok",
+   "cuando": "2026-10-27T14:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok",
+   "cuando": "2026-10-27T14:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "buffer_id": "6ae0b3247d2301ca995b2827",
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
+   "cuando": "2026-10-27T14:20:21.000Z",
+   "dueAt": "2026-10-27T14:22:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39296,6 +39419,7 @@
   "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4": "2026-10-26T02:00:18.000Z",
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": "2026-10-26T15:20:14.000Z",
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4": "2026-10-27T09:00:19.000Z",
+  "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4": "2026-10-27T14:20:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -39591,6 +39715,7 @@
   "web:07ef819a-940d-48e5-aee9-922cce690ab8": "2026-10-23T19:00:17.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
+  "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d": "2026-10-27T14:20:14.000Z",
   "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
   "web:0ad113d1-0797-400e-8161-494cc3be7804": "2026-10-20T10:20:14.000Z",
   "web:0ae2afb6-52d2-4336-b9c9-318dc164617e": "2026-10-21T10:20:15.000Z",
