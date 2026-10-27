@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T14:00:22.000Z"
+   "visto": "2026-10-27T15:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-27T14:00:22.000Z"
+   "visto": "2026-10-27T15:20:19.000Z"
   }
  },
  "contenidos": {
@@ -5264,30 +5264,6 @@
    "volanta": "Operativos policiales en Junín",
    "youtube_url": "https://youtube.com/shorts/Qlde3FGjxvI"
   },
-  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": {
-   "categoria": "robo",
-   "descripcion": "Dos hombres fueron atrapados por la policía mientras escapaban arrastrando un electrodoméstico robado en una finca situada en Roque Sáenz Peña al 700.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-16T21:10:39.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
-   "localidad": "Pergamino",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Dos sujetos fueron arrestados en la vía pública luego de sustraer un artefacto refrigerante de una propiedad.\n\nLa maniobra llamó la atención de los uniformados que patrullaban la zona durante la tarde del jueves.\n\nLos implicados intentaron escapar al ver el patrullero tras descartar el botín.\n\nEl operativo estuvo a cargo del personal de la Comisaría Tercera en conjunto con la fiscalía interviniente.\n\n📲 Más noticias de Pergamino en www.diariolacampaña.com.ar\n\n#Pergamino #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026",
-   "urgente": false,
-   "video_bytes": 92216,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4",
-   "volanta": "Robo en Pergamino",
-   "youtube_url": "https://youtube.com/shorts/mNnp5yzkyVA"
-  },
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": {
    "categoria": "operativo_policial",
    "descripcion": "Una persecución policial terminó con dos mujeres heridas de bala y dos efectivos demorados en Arrecifes. El auto en el que viajaban seis jóvenes fue interceptado en la Ruta Nacional 8.",
@@ -8865,24 +8841,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
    "volanta": ""
   },
-  "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": {
-   "categoria": "nacionales",
-   "descripcion": "Entre julio y septiembre, nueve entidades financieras recortaron sus tasas, diez las mantuvieron y una las subió, con un promedio que pasó de 8,7% a 7,7%.",
-   "generado": "2026-10-16T15:06:31.344Z",
-   "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c3a383d55cc44f2d9414b24d7e4e7290~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
-   "volanta": ""
-  },
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": {
    "categoria": "nacionales",
    "descripcion": "El experimentado mediocampista aprovechó su jornada libre en el Deportivo Maipú y vivió el encuentro ante el Pirata junto a los hinchas en el estadio…",
@@ -11935,17 +11893,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 585,
-   "segundos": 44397,
+   "restantes": 584,
+   "segundos": 40798,
    "tope": 600
   },
   "30d": {
-   "restantes": 1098,
-   "segundos": 1234220,
+   "restantes": 1097,
+   "segundos": 1230621,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T14:20:21.000Z",
+ "cuota_visto": "2026-10-27T15:20:20.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -18711,18 +18669,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x": {
-   "actualizado": "2026-10-27T14:20:20.000Z",
+   "actualizado": "2026-10-27T15:20:19.000Z",
    "buffer_id": "6ae0b3247d2301ca995b2827",
    "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
    "creado": "2026-10-27T14:20:14.000Z",
    "dueAt": "2026-10-27T14:22:33.000Z",
+   "enviado": "2026-10-27T14:22:49.664Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T14:17:57.000Z",
    "id": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115086821872865326",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
    "noticia": "nota:chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
    "origen": "bot",
@@ -23663,31 +23622,6 @@
    "video_bytes": 76979,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_02_junin_jun-n-recuperan-bicicleta-roba.mp4",
    "viral": false
-  },
-  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok": {
-   "actualizado": "2026-10-17T15:20:13.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra|tiktok",
-   "creado": "2026-10-16T21:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 15 publicaciones en 24 h de TikTok",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-16T21:10:39.000Z",
-   "id": "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-detuvieron-a-dos-ladrones-que-llevaban-una-heladera-6c4e75",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Dos sujetos fueron arrestados en la vía pública luego de sustraer un artefacto refrigerante de una propiedad.\n\nLa maniobra llamó la atención de los uniformados que patrullaban la zona durante la tarde del jueves.\n\nLos implicados intentaron escapar al ver el patrullero tras descartar el botín.\n\nEl operativo estuvo a cargo del personal de la Comisaría Tercera en conjunto con la fiscalía interviniente.\n\n📲 Más noticias de Pergamino en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #pergamino #policiales",
-   "tipo": "video",
-   "titulo": "Dos detenidos tras robar una heladera con una zorra el 16 de octubre de 2026",
-   "urgente": false,
-   "vence": "2026-10-17T15:10:39.000Z",
-   "video_bytes": 92216,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_2109_03_pergamino_dos-detenidos-tras-robar-una-h.mp4"
   },
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x": {
    "actualizado": "2026-10-26T09:00:29.000Z",
@@ -29896,31 +29830,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x": {
-   "actualizado": "2026-10-17T15:20:13.000Z",
-   "buffer_id": "",
-   "clave": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9|x",
-   "creado": "2026-10-16T15:20:15.000Z",
-   "dueAt": "",
-   "error": "tope de 47 publicaciones en 24 h de X",
-   "espera": "tope de 47 publicaciones en 24 h de X",
-   "estado": "vencido",
-   "generado": "2026-10-16T15:06:31.344Z",
-   "id": "web:7a98b9ec-3121-4e64-91db-56be15cef0a9",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "📰 Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses\n\nEntre julio y septiembre, nueve entidades financieras recortaron sus tasas, diez las mantuvieron y una las subió, con un promedio que pasó de 8,7% a 7,7%.\n\nhttps://www.diariolacampaña.com.ar/n/baja-de-tasas-en-creditos-hipotecarios-tras-la-inyeccion-de-bb576b",
-   "tipo": "nota",
-   "titulo": "Baja de tasas en créditos hipotecarios tras la inyección de fondos de la Anses",
-   "urgente": false,
-   "vence": "2026-10-17T15:06:31.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x": {
    "actualizado": "2026-10-19T15:00:47.000Z",
    "buffer_id": "6ad5dc58ea56886c47177788",
@@ -34653,14 +34562,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:975c5666332b123b|tiktok",
-   "cuando": "2026-10-22T22:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:975c5666332b123b|x",
    "cuando": "2026-10-22T22:00:28.000Z",
    "evento": "depurado",
@@ -38894,6 +38795,12 @@
    "cuando": "2026-10-27T14:40:16.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
+   "cuando": "2026-10-27T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115086821872865326"
   }
  ],
  "tandas": {
@@ -38922,7 +38829,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T14:00:22.000Z",
+ "ultima_sync": "2026-10-27T15:20:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

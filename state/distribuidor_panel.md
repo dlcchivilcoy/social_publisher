@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 1 | 1 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 27/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 585 de 600 · 30d: quedan 1098 de 2000 (visto 2026-10-27T14:20:21.000Z)
+15m: quedan 149 de 150 · 24h: quedan 584 de 600 · 30d: quedan 1097 de 2000 (visto 2026-10-27T15:20:20.000Z)
 
 ## Cola propia (10 esperando)
 - TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -50,7 +50,6 @@ Actualizado: 27/10/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T11:40 programado web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
 - 2026-10-27T11:40 programado web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
 - 2026-10-27T12:00 enviado web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
 - 2026-10-27T12:00 enviado web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
@@ -75,3 +74,4 @@ Actualizado: 27/10/2026 12:00 (hora AR) · ACTIVO
 - 2026-10-27T14:20 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-27T14:20 programado bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x 
 - 2026-10-27T14:40 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-27T15:20 enviado bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x 
