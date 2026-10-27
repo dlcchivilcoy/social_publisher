@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 27/10/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 1 |
-| Reels del bot | TikTok | 20 | 0 | 2 | 4 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 1 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -28,18 +28,18 @@ Actualizado: 27/10/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 574 de 600 · 30d: quedan 1087 de 2000 (visto 2026-10-27T21:00:25.000Z)
+15m: quedan 149 de 150 · 24h: quedan 573 de 600 · 30d: quedan 1086 de 2000 (visto 2026-10-27T21:20:15.000Z)
 
 ## Cola propia (9 esperando)
-- TikTok · Reels del bot · Presentaron una nueva edición de la Expo Hecho en Chivilcoy — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — no entró entre las 5 más virales de la tanda 18 h
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Presentaron una nueva edición de la Expo Hecho en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -49,7 +49,6 @@ Actualizado: 27/10/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T17:20 recibido entrevistas:job00252|x 
 - 2026-10-27T17:20 recibido entrevistas:job00252|tiktok 
 - 2026-10-27T17:20 programado entrevistas:job00252|x 
 - 2026-10-27T17:41 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x 
@@ -74,3 +73,4 @@ Actualizado: 27/10/2026 18:00 (hora AR) · ACTIVO
 - 2026-10-27T21:00 programado entrevistas:job00254|tiktok 
 - 2026-10-27T21:00 programado entrevistas:job00253|tiktok 
 - 2026-10-27T21:00 programado entrevistas:job00252|tiktok 
+- 2026-10-27T21:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tikto 

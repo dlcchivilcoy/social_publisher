@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 4,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-27T19:00:20.000Z"
+   "visto": "2026-10-27T21:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-27T19:00:20.000Z"
+   "visto": "2026-10-27T21:20:15.000Z"
   }
  },
  "contenidos": {
@@ -11671,17 +11671,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 574,
-   "segundos": 20395,
+   "restantes": 573,
+   "segundos": 19202,
    "tope": 600
   },
   "30d": {
-   "restantes": 1087,
-   "segundos": 1210218,
+   "restantes": 1086,
+   "segundos": 1209025,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T21:00:25.000Z",
+ "cuota_visto": "2026-10-27T21:20:15.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -14725,7 +14725,7 @@
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
@@ -14790,7 +14790,7 @@
    "creado": "2026-10-26T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
@@ -14931,7 +14931,7 @@
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T22:09:40.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum",
@@ -15215,7 +15215,7 @@
    "creado": "2026-10-27T00:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T00:34:43.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
@@ -15280,7 +15280,7 @@
    "creado": "2026-10-27T13:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T12:41:37.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
@@ -15333,7 +15333,7 @@
    "creado": "2026-10-27T16:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T16:16:18.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1",
@@ -15440,19 +15440,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok": {
-   "actualizado": "2026-10-27T21:00:20.000Z",
+   "actualizado": "2026-10-27T21:20:15.000Z",
    "buffer_id": "6ae110e64e914b3cee29a19b",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok",
    "creado": "2026-10-27T18:40:16.000Z",
    "dueAt": "2026-10-27T21:03:09.000Z",
+   "enviado": "2026-10-27T21:03:58.759Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T18:24:37.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701455551355571508",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18370,7 +18371,7 @@
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
@@ -18435,7 +18436,7 @@
    "creado": "2026-10-27T09:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T02:52:24.000Z",
    "id": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4",
@@ -18490,7 +18491,7 @@
    "creado": "2026-10-27T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-27T14:17:57.000Z",
    "id": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4",
@@ -33921,12 +33922,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
-   "cuando": "2026-10-23T01:20:27.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113432289405292547"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x",
    "cuando": "2026-10-23T01:40:18.000Z",
    "estado": "pendiente",
@@ -38158,6 +38153,12 @@
    "cuando": "2026-10-27T21:00:25.000Z",
    "dueAt": "2026-10-27T22:23:30.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok",
+   "cuando": "2026-10-27T21:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701455551355571508"
   }
  ],
  "tandas": {
@@ -38187,7 +38188,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T19:00:20.000Z",
+ "ultima_sync": "2026-10-27T21:20:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
