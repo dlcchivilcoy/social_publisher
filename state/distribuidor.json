@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T13:00:20.000Z"
+   "visto": "2026-10-27T14:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 22
+    "scheduled": 0,
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-27T13:00:20.000Z"
+   "visto": "2026-10-27T14:00:22.000Z"
   }
  },
  "contenidos": {
@@ -12010,22 +12010,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 149,
    "segundos": 900,
-   "tope": 100
+   "tope": 150
   },
   "24h": {
-   "restantes": 237,
-   "segundos": 48000,
-   "tope": 250
+   "restantes": 586,
+   "segundos": 45595,
+   "tope": 600
   },
   "30d": {
-   "restantes": 2100,
-   "segundos": 1237823,
-   "tope": 3000
+   "restantes": 1099,
+   "segundos": 1235418,
+   "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T13:20:18.000Z",
+ "cuota_visto": "2026-10-27T14:00:23.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -28966,19 +28966,20 @@
    "video_url": ""
   },
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x": {
-   "actualizado": "2026-10-27T11:40:14.000Z",
+   "actualizado": "2026-10-27T14:00:22.000Z",
    "buffer_id": "6ae08d9ea21f4739ba9b8f04",
    "clave": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T13:08:27.000Z",
+   "enviado": "2026-10-27T13:08:31.078Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:03:26.346Z",
    "id": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba",
    "ig_hora": "2026-10-27T13:08:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115068121262239746",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-colon-no-afloja-en-el-prefederal-vencio-a-porteno-y-se",
    "noticia": "nota:basquet-colon-no-afloja-en-el-prefederal-vencio-a-porteno-y-se",
    "origen": "web",
@@ -29233,19 +29234,20 @@
    "video_url": ""
   },
   "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x": {
-   "actualizado": "2026-10-27T12:20:13.000Z",
+   "actualizado": "2026-10-27T14:00:22.000Z",
    "buffer_id": "6ae096fe8e7337e594349086",
    "clave": "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x",
    "creado": "2026-10-27T10:20:16.000Z",
    "dueAt": "2026-10-27T13:38:13.000Z",
+   "enviado": "2026-10-27T13:38:16.360Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:03:44.865Z",
    "id": "web:5bed14ed-a1b5-489b-a283-67d7d832c78c",
    "ig_hora": "2026-10-27T13:38:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115075608862429479",
    "nota_url": "https://www.diariolacampaña.com.ar/n/reunion-en-alberti-la-provincia-impulsa-la-articulacion-productiva",
    "noticia": "nota:reunion-en-alberti-la-provincia-impulsa-la-articulacion-productiva",
    "origen": "web",
@@ -34892,20 +34894,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ada796665d602339aec77dc",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
-   "cuando": "2026-10-22T21:00:23.000Z",
-   "dueAt": "2026-10-22T21:03:29.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ada79669daa16478767fd74",
-   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok",
-   "cuando": "2026-10-22T21:00:23.000Z",
-   "dueAt": "2026-10-22T21:23:30.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ada796765d602339aec78b7",
    "clave": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok",
    "cuando": "2026-10-22T21:00:23.000Z",
@@ -39135,6 +39123,18 @@
    "cuando": "2026-10-27T13:20:18.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x",
+   "cuando": "2026-10-27T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115068121262239746"
+  },
+  {
+   "clave": "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x",
+   "cuando": "2026-10-27T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115075608862429479"
   }
  ],
  "tandas": {
@@ -39163,7 +39163,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T13:00:20.000Z",
+ "ultima_sync": "2026-10-27T14:00:22.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

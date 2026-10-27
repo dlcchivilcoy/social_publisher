@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 27/10/2026 10:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 8 | 2 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 22 enviadas + 2 programadas de 100 por día
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 27/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 237 de 250 · 30d: quedan 2100 de 3000 (visto 2026-10-27T13:20:18.000Z)
+15m: quedan 149 de 150 · 24h: quedan 586 de 600 · 30d: quedan 1099 de 2000 (visto 2026-10-27T14:00:23.000Z)
 
 ## Cola propia (12 esperando)
 - TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,8 +52,6 @@ Actualizado: 27/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T10:20 recibido web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
-- 2026-10-27T10:20 programado web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
 - 2026-10-27T10:40 enviado web:c6773443-ef8a-493a-b392-a16cd01f5057|x 
 - 2026-10-27T10:40 programado web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x 
 - 2026-10-27T11:00 depurado web:114e0244-c0a8-4f64-8b31-96e1a4aa4cb9|x no está en el carrusel del diario de hoy
@@ -77,3 +75,5 @@ Actualizado: 27/10/2026 10:40 (hora AR) · ACTIVO
 - 2026-10-27T13:00 enviado web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x 
 - 2026-10-27T13:20 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tikto tanda sin lugar (tope de 24 h o Buffer lleno)
 - 2026-10-27T13:20 depurado web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-10-27T14:00 enviado web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
+- 2026-10-27T14:00 enviado web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
