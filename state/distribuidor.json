@@ -2698,6 +2698,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
    "youtube_url": "https://youtu.be/Hi8zJv8Rc-4"
   },
+  "entrevistas:job00253": {
+   "descripcion": "Vale Vassallo, integrante de la Comisión de Mujeres de CECOINSE en Chivilcoy, relató cómo su diagnóstico de cáncer de mama la impulsó a crear un grupo de contención entre pares. Explicó el valor de compartir vivencias con quienes atravesaron la misma situación.",
+   "duracion_seg": null,
+   "entrevistado": "Carla Palomequez",
+   "generado": "2026-10-27T18:00:20.000Z",
+   "id": "entrevistas:job00253",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 32616873,
+   "video_mb": 31.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00253.mp4",
+   "youtube_url": "https://youtu.be/0-zQetn8oMw"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -11760,17 +11781,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 579,
-   "segundos": 32330,
+   "restantes": 578,
+   "segundos": 31195,
    "tope": 600
   },
   "30d": {
-   "restantes": 1092,
-   "segundos": 1222153,
+   "restantes": 1091,
+   "segundos": 1221018,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T17:41:27.000Z",
+ "cuota_visto": "2026-10-27T18:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -11823,43 +11844,6 @@
    "vence": "2026-10-18T13:43:28.000Z",
    "video_bytes": 942586,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
-  },
-  "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok": {
-   "actualizado": "2026-10-17T18:00:16.000Z",
-   "buffer_id": "6ad3ae610a208cb3232f58d0",
-   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|tiktok",
-   "creado": "2026-10-17T17:20:13.000Z",
-   "dueAt": "2026-10-17T17:23:15.000Z",
-   "enviado": "2026-10-17T17:24:57.832Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T17:01:22.000Z",
-   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697688465281961222",
-   "metricas": {
-    "averageTimeWatched": 3.4,
-    "comments": 0,
-    "engagementRate": 0.78,
-    "reach": 0,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 15.8,
-    "views": 255
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Servicios Públicos repone contenedores y avanza con mejoras en plazas\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-servicios-publicos-repone-contenedores-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Servicios Públicos repone contenedores y avanza con mejoras en plazas",
-   "urgente": false,
-   "vence": "2026-10-19T17:01:22.000Z",
-   "video_bytes": 1832769,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6dffc5e6c2aec321.mp4"
   },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa|x": {
    "actualizado": "2026-10-17T20:00:19.000Z",
@@ -19878,6 +19862,62 @@
    "vence": "2026-10-27T19:20:17.000Z",
    "video_bytes": 32855327,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
+   "viral": false
+  },
+  "entrevistas:job00253|tiktok": {
+   "actualizado": "2026-10-27T18:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00253|tiktok",
+   "creado": "2026-10-27T18:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-27T18:00:20.000Z",
+   "id": "entrevistas:job00253",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy\n\nVale Vassallo, integrante de la Comisión de Mujeres de CECOINSE en Chivilcoy, relató cómo su diagnóstico de cáncer de mama la impulsó a crear un grupo de contención entre pares. Explicó el valor de compartir vivencias con quienes atravesaron la misma situación.\n\nhttps://youtu.be/0-zQetn8oMw\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-29T18:00:20.000Z",
+   "video_bytes": 32616873,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00253.mp4",
+   "viral": false
+  },
+  "entrevistas:job00253|x": {
+   "actualizado": "2026-10-27T18:00:22.000Z",
+   "buffer_id": "6ae0e6b9500f0a489fea180b",
+   "clave": "entrevistas:job00253|x",
+   "creado": "2026-10-27T18:00:20.000Z",
+   "dueAt": "2026-10-27T18:02:20.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-27T18:00:20.000Z",
+   "id": "entrevistas:job00253",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:apoyo-chivilcoy-creo-grupo-oncologico-vale-vassallo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy\n\nIntegrada en CECOINSE, relató que su diagnóstico de cáncer de mama la impulsó a formar el espacio de contención. Explicó el valor de compartir vivencias con pares.\n\nhttps://youtu.be/0-zQetn8oMw",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-27T20:00:20.000Z",
+   "video_bytes": 32616873,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00253.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -34197,34 +34237,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:1bc3bff36ba5e828|tiktok",
-   "cuando": "2026-10-23T00:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "web:7fb16583-71d2-4d12-9242-d6637d144fca|x",
-   "cuando": "2026-10-23T00:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "nacionales:1bc3bff36ba5e828|x",
-   "cuando": "2026-10-23T00:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:1bc3bff36ba5e828|tiktok",
-   "cuando": "2026-10-23T00:20:25.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
    "clave": "web:7fb16583-71d2-4d12-9242-d6637d144fca|x",
    "cuando": "2026-10-23T00:20:25.000Z",
    "evento": "depurado",
@@ -38436,6 +38448,34 @@
    "cuando": "2026-10-27T17:41:27.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115132151314157597"
+  },
+  {
+   "clave": "entrevistas:job00253",
+   "cuando": "2026-10-27T18:00:20.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00253|x",
+   "cuando": "2026-10-27T18:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00253|tiktok",
+   "cuando": "2026-10-27T18:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae0e6b9500f0a489fea180b",
+   "clave": "entrevistas:job00253|x",
+   "cuando": "2026-10-27T18:00:26.000Z",
+   "dueAt": "2026-10-27T18:02:20.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38651,6 +38691,7 @@
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
   "entrevistas:job00251": "2026-10-26T18:20:14.000Z",
   "entrevistas:job00252": "2026-10-27T17:20:17.000Z",
+  "entrevistas:job00253": "2026-10-27T18:00:20.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
