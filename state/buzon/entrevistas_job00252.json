@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00252",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-10-27T17:05:27.000Z",
+ "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
+ "descripcion": "En Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "pV89GKEzVe4",
+  "largo": "Hi8zJv8Rc-4"
+ },
+ "youtube_url": "https://youtube.com/shorts/pV89GKEzVe4",
+ "prioridad": 7,
+ "entrevistado": "Pablo Torres",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
