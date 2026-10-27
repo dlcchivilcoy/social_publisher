@@ -5364,30 +5364,6 @@
    "volanta": "Condena en Mercedes",
    "youtube_url": "https://youtube.com/shorts/xW2lPahXG2I"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": {
-   "categoria": "incendio",
-   "descripcion": "Bomberos voluntarios acudieron anoche a un inmueble céntrico tras detectarse fuego en el aparato refrigerante de un tercer piso. No hubo heridos.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "texto_tiktok": "Un foco ígneo se desató la noche del viernes en un edificio situado en calle Pellegrini al 1400.\n\nLas llamas afectaron al aparato refrigerante colocado en el tercer nivel del inmueble céntrico.\n\nPersonal del cuartel local intervino de inmediato y neutralizó el peligro sin que se registraran víctimas.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Incendio #BomberosVoluntarios #BuenosAires",
-   "tipo": "video",
-   "titulo": "Fuego en un edificio del centro por un desperfecto eléctrico",
-   "urgente": false,
-   "video_bytes": 96669,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4",
-   "volanta": "Incendio en Bragado",
-   "youtube_url": "https://youtube.com/shorts/h5tNmVsk9Rc"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html": {
    "categoria": "incendio",
    "descripcion": "Una dotación de bomberos controló un foco ígneo que se desató en la cocina de un cuarto piso. No hubo heridos y solo se registraron daños materiales.",
@@ -6030,30 +6006,6 @@
    "volanta": "Robo en ferretería en Junín",
    "youtube_url": "https://youtube.com/shorts/g3MKzV7ofdc"
   },
-  "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": {
-   "categoria": "otro_policial",
-   "descripcion": "El Gobierno nacional radicó una presentación judicial tras los choques frente al Congreso del jueves 15 de octubre. Reclaman investigar destrozos y agresiones a efectivos.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T01:09:30.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gobierno-presento-denuncia-penal-por-incidentes-frente-al-5374e6",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "texto_tiktok": "El Gobierno nacional formalizó una denuncia penal este viernes 16 de octubre a las 19:11 horas para exigir que se investiguen los hechos de violencia registrados el jueves 15 de octubre frente al Congreso.\n\nLa presentación fue impulsada por la cartera de Seguridad e incluye cargos por agresiones contra personal uniformado, destrozos y entorpecimiento de la labor legislativa durante una protesta universitaria.\n\nComo saldo de los enfrentamientos resultaron heridos cuatro agentes de Gendarmería Nacional, dos de Prefectura Naval y dos de la Policía Federal, además de registrarse al menos 31 detenciones.\n\nLa causa quedó en manos de la Justicia, que deberá analizar los registros fílmicos y las pruebas reunidas para determinar responsabilidades penales e identificar a los agresores.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #DenunciaPenal #Congreso #Seguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Denuncian penalmente al menos 31 detenidos y 8 policías heridos tras marcha universitaria",
-   "urgente": false,
-   "video_bytes": 77396,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_05_junin_denuncian-penalmente-al-menos-.mp4",
-   "volanta": "Denuncia penal por incidentes en el Congreso",
-   "youtube_url": "https://youtube.com/shorts/G_3qVeLn1p0"
-  },
   "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html": {
    "categoria": "robo",
    "descripcion": "Un productor rural denunció que delincuentes ingresaron a su campo, mataron a tres animales que estaban próximos a parir, se llevaron un ternero y robaron carne valuada en 8 millones de pesos.",
@@ -6520,24 +6472,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/hecho-esclarecido-la-policia-recupero-la-totalidad-de-las-motos",
    "volanta": "Hecho esclarecido"
   },
-  "web:054fa202-87fe-43be-afff-36d09259bbf7": {
-   "categoria": "",
-   "descripcion": "La apertura de importaciones dinamizó el mercado de maquinaria agrícola con menor demora para los últimos modelos y más opciones para el productor.",
-   "generado": "2026-10-16T23:33:32.498Z",
-   "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5807e2fd009c4d5ca32ae53233e5ebb6~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argentina",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
-   "volanta": ""
-  },
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17": {
    "categoria": "",
    "descripcion": "Primera División: El Torneo Clausura se pone al día a puro empate y emoción Los encuentros pendientes de la Primera División de la Liga Chivilcoyana de Fútbol dejaron marcadores igualados, hazañas de remontada y movimientos clave en la tabla de posiciones. El Torneo Clausura de la Primera División de la Liga Chivilcoyana de Fútbol comenzó a ponerse al día con una jornada de partidos reprogramados marcada por la paridad y los marcadores cambiantes. La emoción fue la gran protagonista del fin...",
@@ -6573,24 +6507,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
    "volanta": ""
-  },
-  "web:074bc093-e566-4d4d-8d42-0dcd34171beb": {
-   "categoria": "",
-   "descripcion": "Gustavo Sylvestre presentó su libro en Chivilcoy El periodista de Radio 10 y C5N, Gustavo Sylvestre, visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda. Legado político y social del Papa Francisco”, en una actividad a la que fue convocado por el espacio Apertura Peronista. Durante el encuentro, que reunió la reflexión sobre el legado del Sumo Pontífice con el análisis del escenario político, Sylvestre compartió su mirada sobre la historia política nacional y sostuvo que...",
-   "generado": "2026-10-17T00:03:17.106Z",
-   "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f91ef67a1cc44f2f9aad4c3661d5c0d4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
-   "volanta": "Chivilcoy · Cultura"
   },
   "web:07ef819a-940d-48e5-aee9-922cce690ab8": {
    "categoria": "",
@@ -6906,24 +6822,6 @@
    "titulo": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "volanta": ""
-  },
-  "web:1aebaa22-868e-46df-ae05-8c08cc674c03": {
-   "categoria": "",
-   "descripcion": "Una nueva resolución permite a los entes sanitarios comercializar los dispositivos electrónicos y registrar los datos del rodeo.",
-   "generado": "2026-10-17T10:03:06.615Z",
-   "id": "web:1aebaa22-868e-46df-ae05-8c08cc674c03",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_fd7c5e4859d94ac68f904b3f2201c68f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
    "volanta": ""
   },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af": {
@@ -8092,24 +7990,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": {
-   "categoria": "",
-   "descripcion": "El Centro de Primera Infancia celebró el Día de la Familia Se llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de la institución. El CPI, que depende de la Secretaría de Desarrollo Social de la Municipalidad de Chivilcoy, a cargo de Ivana Aronna, convocó a las familias a compartir una jornada de encuentro en la que pudieron disfrutar de algo para comer y tomar,...",
-   "generado": "2026-10-16T23:16:15.689Z",
-   "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ecb6af053bd94608a4910043786181fb~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
-   "volanta": "Chivilcoy · Sociedad"
   },
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": {
    "categoria": "",
@@ -14862,15 +14742,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok": {
-   "actualizado": "2026-10-25T14:40:14.000Z",
+   "actualizado": "2026-10-27T14:40:16.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok",
    "creado": "2026-10-25T14:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-25T14:26:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
    "intentos": 0,
@@ -23984,76 +23864,6 @@
    "video_bytes": 99398,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_05_mercedes_ocho-a-os-de-prisi-n-para-un-e.mp4"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad3392f769b4579346cce0c",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|tiktok",
-   "creado": "2026-10-17T09:00:19.000Z",
-   "dueAt": "2026-10-17T14:20:45.000Z",
-   "enviado": "2026-10-17T14:22:28.609Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697641574297226517",
-   "metricas": {
-    "averageTimeWatched": 4.14,
-    "comments": 0,
-    "engagementRate": 0.41,
-    "reach": 0,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 34.7,
-    "views": 493
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Un foco ígneo se desató la noche del viernes en un edificio situado en calle Pellegrini al 1400.\n\nLas llamas afectaron al aparato refrigerante colocado en el tercer nivel del inmueble céntrico.\n\nPersonal del cuartel local intervino de inmediato y neutralizó el peligro sin que se registraran víctimas.\n\n📲 Más noticias de Bragado en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #bragado #policiales",
-   "tipo": "video",
-   "titulo": "Fuego en un edificio del centro por un desperfecto eléctrico",
-   "urgente": false,
-   "vence": "2026-10-17T21:39:53.000Z",
-   "video_bytes": 96669,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4"
-  },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad359f10a208cb32319984c",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html|x",
-   "creado": "2026-10-17T09:00:19.000Z",
-   "dueAt": "2026-10-17T14:30:45.000Z",
-   "enviado": "2026-10-17T14:30:48.174Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111464950392594562",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Fuego en un edificio del centro por un desperfecto eléctrico\n\nBomberos voluntarios acudieron anoche a un inmueble céntrico tras detectarse fuego en el aparato refrigerante de un tercer piso. No hubo heridos.\n\n📲 Nota completa: https://www.diariolacampaña.com.ar/n/bragado-principio-de-incendio-en-un-edificio-del-centro-138617\n#Bragado",
-   "tipo": "video",
-   "titulo": "Fuego en un edificio del centro por un desperfecto eléctrico",
-   "urgente": false,
-   "vence": "2026-10-17T21:39:53.000Z",
-   "video_bytes": 96669,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_02_bragado_fuego-en-un-edificio-del-centr.mp4"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html|tiktok": {
    "actualizado": "2026-10-21T18:40:15.000Z",
    "buffer_id": "",
@@ -25542,42 +25352,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_05_junin_dos-j-venes-detenidos-y-allana.mp4",
    "viral": false
   },
-  "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad3392fdd83363c4dc48948",
-   "clave": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html|tiktok",
-   "creado": "2026-10-17T01:20:16.000Z",
-   "dueAt": "2026-10-17T13:40:56.000Z",
-   "enviado": "2026-10-17T13:42:46.814Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T01:09:30.000Z",
-   "id": "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697631376035630352",
-   "metricas": {
-    "averageTimeWatched": 4.15,
-    "comments": 0,
-    "engagementRate": 0.73,
-    "reach": 0,
-    "reactions": 3,
-    "shares": 0,
-    "totalTimeWatched": 27.82,
-    "views": 409
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gobierno-presento-denuncia-penal-por-incidentes-frente-al-5374e6",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 9,
-   "texto": "El Gobierno nacional formalizó una denuncia penal este viernes 16 de octubre a las 19:11 horas para exigir que se investiguen los hechos de violencia registrados el jueves 15 de octubre frente al Congreso.\n\nLa presentación fue impulsada por la cartera de Seguridad e incluye cargos por agresiones contra personal uniformado, destrozos y entorpecimiento de la labor legislativa durante una protesta universitaria.\n\nComo saldo de los enfrentamientos resultaron heridos cuatro agentes de Gendarmería Nacional, dos de Prefectura Naval y dos de la Policía Federal, además de registrarse al menos 31 detenciones.\n\nLa causa quedó en manos de la Justicia, que deberá analizar los registros fílmicos y las pruebas reunidas para determinar responsabilidades penales e identificar a los agresores.\n\n📲 Más noticias de Junín en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "tipo": "video",
-   "titulo": "Denuncian penalmente al menos 31 detenidos y 8 policías heridos tras marcha universitaria",
-   "urgente": false,
-   "vence": "2026-10-17T19:09:30.000Z",
-   "video_bytes": 77396,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0007_05_junin_denuncian-penalmente-al-menos-.mp4"
-  },
   "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html|tiktok": {
    "actualizado": "2026-10-17T19:20:40.000Z",
    "buffer_id": "",
@@ -26347,40 +26121,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:054fa202-87fe-43be-afff-36d09259bbf7|x": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad3508f0b0d72757ad1ad05",
-   "clave": "web:054fa202-87fe-43be-afff-36d09259bbf7|x",
-   "creado": "2026-10-16T23:40:15.000Z",
-   "dueAt": "2026-10-17T14:00:47.000Z",
-   "enviado": "2026-10-17T14:03:20.484Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T23:33:32.498Z",
-   "id": "web:054fa202-87fe-43be-afff-36d09259bbf7",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111458039068791148",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 13,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argentina\n\nLa apertura de importaciones dinamizó el mercado de maquinaria agrícola con menor demora para los últimos modelos y más opciones para el productor.\n\nhttps://www.diariolacampaña.com.ar/n/como-la-llegada-de-tractores-asiaticos-acelero-la-oferta-de-dd3548",
-   "tipo": "nota",
-   "titulo": "Cómo la llegada de tractores asiáticos aceleró la oferta de maquinaria en Argentina",
-   "urgente": false,
-   "vence": "2026-10-17T23:33:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17|x": {
    "actualizado": "2026-10-20T10:21:12.000Z",
    "buffer_id": "",
@@ -26430,40 +26170,6 @@
    "titulo": "Karina Milei lideró el traslado de presos de Devoto a Marcos Paz y ganó protagonismo",
    "urgente": false,
    "vence": "2026-10-20T15:45:07.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad34be0dd83363c4dc8ea61",
-   "clave": "web:074bc093-e566-4d4d-8d42-0dcd34171beb|x",
-   "creado": "2026-10-17T00:20:12.000Z",
-   "dueAt": "2026-10-17T13:45:09.000Z",
-   "enviado": "2026-10-17T13:45:16.202Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T00:03:17.106Z",
-   "id": "web:074bc093-e566-4d4d-8d42-0dcd34171beb",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111453491629592602",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 9.09,
-    "impressions": 11,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 Gustavo Sylvestre presentó su libro en Chivilcoy\n\nEl periodista de Radio 10 y C5N, Gustavo Sylvestre, visitó Chivilcoy para presentar su obra titulada “El mundo que nos queda.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-gustavo-sylvestre-presento-su-libro-en-chivilcoy",
-   "tipo": "nota",
-   "titulo": "Gustavo Sylvestre presentó su libro en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-18T00:03:17.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -26962,40 +26668,6 @@
    "titulo": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV",
    "urgente": false,
    "vence": "2026-10-19T16:07:34.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad34bdf0b0d72757ad0b285",
-   "clave": "web:1aebaa22-868e-46df-ae05-8c08cc674c03|x",
-   "creado": "2026-10-17T10:20:15.000Z",
-   "dueAt": "2026-10-17T13:30:06.000Z",
-   "enviado": "2026-10-17T13:30:51.594Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T10:03:06.615Z",
-   "id": "web:1aebaa22-868e-46df-ae05-8c08cc674c03",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111449865049800743",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 22,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina\n\nUna nueva resolución permite a los entes sanitarios comercializar los dispositivos electrónicos y registrar los datos del rodeo.\n\nhttps://www.diariolacampaña.com.ar/n/el-senasa-habilito-a-fundaciones-sanitarias-a-vender-chips-de-e78143",
-   "tipo": "nota",
-   "titulo": "El Senasa habilitó a fundaciones sanitarias a vender chips de identificación bovina",
-   "urgente": false,
-   "vence": "2026-10-18T10:03:06.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -28821,40 +28493,6 @@
    "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
    "urgente": false,
    "vence": "2026-10-19T17:47:03.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x": {
-   "actualizado": "2026-10-17T14:40:12.000Z",
-   "buffer_id": "6ad35541769b45793473307f",
-   "clave": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73|x",
-   "creado": "2026-10-16T23:20:14.000Z",
-   "dueAt": "2026-10-17T14:15:33.000Z",
-   "enviado": "2026-10-17T14:15:46.405Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T23:16:15.689Z",
-   "id": "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111461167528919408",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 14,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "📰 El Centro de Primera Infancia celebró el Día de la Familia\n\nSe llevó adelante una celebración por el Día de la Familia en el Centro de Primera Infancia (CPI) que funciona al lado del CIC Sur, con la participación de las familias que forman parte de…\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-centro-de-primera-infancia-celebro-el-dia-de-la",
-   "tipo": "nota",
-   "titulo": "El Centro de Primera Infancia celebró el Día de la Familia",
-   "urgente": false,
-   "vence": "2026-10-17T23:16:15.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -35015,14 +34653,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:975c5666332b123b|x",
-   "cuando": "2026-10-22T22:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:975c5666332b123b|tiktok",
    "cuando": "2026-10-22T22:00:28.000Z",
    "estado": "pendiente",
@@ -39258,6 +38888,12 @@
    "cuando": "2026-10-27T14:20:21.000Z",
    "dueAt": "2026-10-27T14:22:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok",
+   "cuando": "2026-10-27T14:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

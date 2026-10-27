@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 11:20 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 11:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -19,18 +19,18 @@ Actualizado: 27/10/2026 11:20 (hora AR) · ACTIVO
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
 - X · Reels del bot: 86 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels policiales: 30 con métricas · mediana vistas/impresiones 38 · likes 0
-- X · Notas web: 90 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Reels policiales: 29 con métricas · mediana vistas/impresiones 38 · likes 0
+- X · Notas web: 86 con métricas · mediana vistas/impresiones 24.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 4 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
 - TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 304.5 · likes 2
-- TikTok · Reels policiales: 18 con métricas · mediana vistas/impresiones 513 · likes 4
+- TikTok · Reels policiales: 16 con métricas · mediana vistas/impresiones 520 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 585 de 600 · 30d: quedan 1098 de 2000 (visto 2026-10-27T14:20:21.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (10 esperando)
 - TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -41,7 +41,6 @@ Actualizado: 27/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Domingo Pastas representará a Chivilcoy en la final del Raviol de Oro 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Centro Criollo El Bozal cumple 50 años y prepara festejos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Investigan el faltante de herramientas y agroquímicos en un campo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -51,7 +50,6 @@ Actualizado: 27/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T11:20 programado web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x 
 - 2026-10-27T11:40 programado web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
 - 2026-10-27T11:40 programado web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
 - 2026-10-27T12:00 enviado web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
@@ -76,3 +74,4 @@ Actualizado: 27/10/2026 11:20 (hora AR) · ACTIVO
 - 2026-10-27T14:20 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-27T14:20 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-27T14:20 programado bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x 
+- 2026-10-27T14:40 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
