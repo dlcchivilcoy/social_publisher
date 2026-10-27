@@ -4,6 +4,8 @@ Ventana simple (Tkinter) para:
   • EDITAR una nota: pegás el link de la nota de la web, se carga su título/cuerpo/portada,
     los cambiás y publica los cambios (podés también cambiar la foto de portada).
   • BORRAR una nota: la saca de la web (papelera).
+  • BORRAR TODO: la nota en la web y lo que el bot publicó de ella en IG, FB, YouTube, X y TikTok
+    (borrar_todo.py; lo que una red no deja borrar por API vuelve con su link).
   • CREAR una nota nueva: elegís un Word (.docx o .txt) + fotos y la publica (mismo formato
     que «notas para web»; la 1ª foto es la portada).
 
@@ -21,6 +23,7 @@ from tkinter import ttk, filedialog, messagebox
 from utils.config import load_config
 from platforms import wix
 import avisos_web
+import borrar_todo
 import calendario_tk
 
 NARANJA = "#e2620c"
@@ -151,6 +154,12 @@ class EditorNotas:
         self.link_entry.pack(side="left", fill="x", expand=True, padx=8)
         self.btn_cargar = ttk.Button(top, text="Cargar", command=self.on_cargar)
         self.btn_cargar.pack(side="left")
+        # Anda aunque la nota ya no esté en la web: busca por el link en lo que publicó el bot.
+        self.btn_borrar_todo = tk.Button(top, text="🧨  Borrar TODO (web y redes)…",
+                                         command=self.on_borrar_todo, bg=ROJO, fg="white",
+                                         font=("Segoe UI", 9, "bold"), relief="flat", padx=10,
+                                         cursor="hand2")
+        self.btn_borrar_todo.pack(side="left", padx=(8, 0))
 
         # Zona editable (oculta hasta cargar una nota)
         self.edit_frame = ttk.Frame(f)
@@ -289,6 +298,76 @@ class EditorNotas:
     def on_abrir_web(self):
         if self.nota and self.nota.get("url"):
             webbrowser.open(self.nota["url"])
+
+    # ── BORRAR TODO: la nota en la web y lo que salió en cada red (27/10/2026) ──
+    def on_borrar_todo(self):
+        link = self.link_var.get().strip()
+        if not link:
+            messagebox.showinfo("Falta el link", "Pegá el link de la nota que querés borrar de todos lados.")
+            return
+        nota = self.nota if self.nota and borrar_todo.norm_slug(self.nota.get("url", "")) == \
+            borrar_todo.norm_slug(link) else None
+        self.run_bg(lambda: borrar_todo.buscar(link, nota=nota), self._confirmar_borrar_todo,
+                    busy="Buscando todo lo que se publicó de esta nota…")
+
+    def _confirmar_borrar_todo(self, plan):
+        self.set_status("Listo.")
+        if not plan["items"]:
+            messagebox.showinfo("Borrar todo", borrar_todo.texto_plan(plan))
+            return
+        win = tk.Toplevel(self.root)
+        win.title("Borrar TODO de esta nota")
+        win.transient(self.root)
+        win.grab_set()
+        tk.Label(win, text="⚠️  Esto borra la nota y sus publicaciones. No se puede deshacer.",
+                 fg=ROJO, font=("Segoe UI", 10, "bold")).pack(anchor="w", padx=14, pady=(12, 4))
+        caja = tk.Text(win, wrap="word", width=78, height=18, font=("Segoe UI", 10), relief="flat",
+                       bg="#f7f7f7")
+        caja.insert("1.0", borrar_todo.texto_plan(plan))
+        caja.config(state="disabled")
+        caja.pack(fill="both", expand=True, padx=14, pady=4)
+        pie = ttk.Frame(win)
+        pie.pack(fill="x", padx=14, pady=(4, 12))
+
+        def si():
+            if not messagebox.askyesno("Última confirmación",
+                                       "¿Seguro? Se borra de la web y de las redes, y no hay vuelta atrás.",
+                                       parent=win):
+                return
+            win.destroy()
+            self.run_bg(lambda: borrar_todo.ejecutar(plan, log=lambda *_: None), self._resultado_borrar_todo,
+                        busy="Borrando en la web y en las redes…")
+
+        tk.Button(pie, text="🧨  Sí, borrar todo", command=si, bg=ROJO, fg="white",
+                  font=("Segoe UI", 10, "bold"), relief="flat", padx=14, pady=6, cursor="hand2"
+                  ).pack(side="right")
+        ttk.Button(pie, text="Cancelar", command=win.destroy).pack(side="right", padx=8)
+
+    def _resultado_borrar_todo(self, resultados):
+        if any(r["red"] == "Web" and r["ok"] for r in resultados):
+            self.edit_frame.pack_forget()
+            self.nota = None
+        a_mano = [r for r in resultados if not r["ok"]]
+        self.set_status("🧨 Borrado listo" + (f" — quedan {len(a_mano)} para borrar a mano" if a_mano else ""),
+                        ROJO if a_mano else "#227a22")
+        win = tk.Toplevel(self.root)
+        win.title("Resultado del borrado")
+        win.transient(self.root)
+        cuerpo = ttk.Frame(win)
+        cuerpo.pack(fill="both", expand=True, padx=14, pady=12)
+        for r in resultados:
+            fila = ttk.Frame(cuerpo)
+            fila.pack(fill="x", pady=2)
+            marca = "✅" if r["ok"] else "✋"
+            ttk.Label(fila, text=f"{marca}  {r['red']} — {r['que']}: {r['detalle']}", wraplength=520,
+                      justify="left").pack(side="left", anchor="w")
+            if not r["ok"] and r.get("link"):
+                ttk.Button(fila, text="Abrir para borrar a mano",
+                           command=lambda u=r["link"]: webbrowser.open(u)).pack(side="right")
+        if a_mano:
+            ttk.Label(cuerpo, text="Lo marcado con ✋ hay que borrarlo a mano desde la app de esa red.",
+                      foreground=ROJO).pack(anchor="w", pady=(10, 0))
+        ttk.Button(cuerpo, text="Cerrar", command=win.destroy).pack(anchor="e", pady=(10, 0))
 
     # ── pestaña CREAR ─────────────────────────────────────────────────────────
     def _build_crear(self, f):

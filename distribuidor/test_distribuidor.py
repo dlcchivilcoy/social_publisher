@@ -930,8 +930,53 @@ def prueba_recortes_tiktok():
                 os.environ[k] = v
 
 
+def prueba_bajas_editor():
+    """27/10/2026: el botón «Borrar todo» del Editor de notas deja una baja; el distribuidor saca esa nota de
+    la cola y de Buffer y no la vuelve a aceptar."""
+    print("\n— Bajas del Editor de notas —")
+    import borrar_todo
+    from . import run
+    est = estado.vacio()
+    est["publicaciones"] = {
+        "bot:a|x": {"clave": "bot:a|x", "id": "bot:a", "plataforma": "x", "estado": "pendiente", "nota_url": ""},
+        "bot:a|tiktok": {"clave": "bot:a|tiktok", "id": "bot:a", "plataforma": "tiktok", "estado": "programado",
+                         "buffer_id": "B1", "nota_url": ""},
+        "web:9|x": {"clave": "web:9|x", "id": "web:9", "plataforma": "x", "estado": "pendiente",
+                    "nota_url": "https://diariolacampaña.com.ar/n/chivilcoy-a%C3%B1o-nuevo"},
+        "bot:otro|x": {"clave": "bot:otro|x", "id": "bot:otro", "plataforma": "x", "estado": "pendiente",
+                       "nota_url": ""},
+    }
+    baja = borrar_todo.evento_baja({"slug": "chivilcoy-año-nuevo", "ids": ["bot:a"], "titulo": "t"})
+    nuevo = {"id": "bot:a", "origen": "bot"}
+    resto = run.aplicar_bajas(est, [baja, nuevo], simular=True)
+    pubs = est["publicaciones"]
+    chequear("la baja no llega a encolar (y lo demás sí)", resto == [nuevo], resto)
+    chequear("lo pendiente de esa nota queda descartado, por id y por slug (con ñ en %)",
+             pubs["bot:a|x"]["estado"] == "descartado" and pubs["web:9|x"]["estado"] == "descartado")
+    chequear("lo de otra nota no se toca", pubs["bot:otro|x"]["estado"] == "pendiente")
+    chequear("el contenido queda visto: si el bot lo reenvía, no vuelve a entrar",
+             "bot:a" in est["vistos"] and baja["id"] in est["vistos"])
+    chequear("simulando no se toca Buffer", pubs["bot:a|tiktok"]["estado"] == "programado")
+    chequear("el plan del Editor reconoce el slug con ñ y en punycode",
+             borrar_todo.norm_slug("https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-a%C3%B1o-nuevo/")
+             == "chivilcoy-año-nuevo")
+    plan = borrar_todo.buscar(
+        "https://x/single-post/nota-1", nota={},
+        ledger=[{"post_url": "https://x/single-post/nota-1", "file": "f1", "draft_id": "W1",
+                 "ig_media_id": "I1", "fb_video_id": "F1", "yt_video_id": "Y1", "titulo": "Nota 1"},
+                {"post_url": "https://x/single-post/nota-2", "ig_media_id": "I2"}],
+        dist={"publicaciones": {
+            "bot:f1|x": {"clave": "bot:f1|x", "id": "bot:f1", "plataforma": "x", "estado": "enviado",
+                         "link": "https://x.com/diarioyradio/status/1"},
+            "bot:f1|tiktok": {"clave": "bot:f1|tiktok", "id": "bot:f1", "plataforma": "tiktok",
+                              "estado": "programado", "buffer_id": "B2", "dueAt": ""}}})
+    tipos = sorted(i["tipo"] for i in plan["items"])
+    chequear("el plan junta web, IG, FB, YouTube y X/TikTok de esa nota (y nada de otra)",
+             tipos == ["buffer", "fb", "ig", "wix", "x", "yt"] and plan["ids"] == ["bot:f1", "web:W1"], tipos)
+
+
 if __name__ == "__main__":
-    for f in (prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
+    for f in (prueba_bajas_editor, prueba_textos, prueba_migracion_textos, prueba_idempotencia_y_cupos, prueba_tope_tiktok_15, prueba_urgente,
               prueba_corte_y_recuperacion, prueba_vencimiento_y_reglas, prueba_misma_nota,
               prueba_entrevistas_esperan_youtube, prueba_video_cambiado, prueba_franja, prueba_intercalado, prueba_etapa6, prueba_metricas_buffer, prueba_tandas_tiktok, prueba_x_sincro,
               prueba_semana_finde, prueba_reparto_tiktok, prueba_recortes_tiktok):

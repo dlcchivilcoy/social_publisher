@@ -22,6 +22,7 @@ import json
 import os
 import sys
 from datetime import datetime, timedelta
+from urllib.parse import unquote
 
 from utils.config import load_config
 
@@ -658,9 +659,54 @@ def panel(est: dict) -> str:
 
 
 # ----------------------------------------------------------------------------- pasada
+def _slug_baja(url: str) -> str:
+    s = (url or "").strip().split("#", 1)[0].split("?", 1)[0].rstrip("/")
+    return unquote(s.rsplit("/", 1)[-1]).lower()
+
+
+def aplicar_bajas(est: dict, eventos: list, simular: bool = False) -> list:
+    """Las «bajas» del Editor de notas (borrar_todo.py, 27/10/2026): el editor borró una nota de la web
+    y de las redes → lo de esa nota que espera en la cola se descarta, lo programado sale de Buffer y
+    sus contenidos no vuelven a entrar. Devuelve los eventos que NO son bajas."""
+    bajas = [e for e in eventos if isinstance(e, dict) and e.get("baja")]
+    if not bajas:
+        return eventos
+    ahora, borrar = estado.ahora(), []
+    for b in bajas:
+        if b.get("id") in est["vistos"]:
+            continue
+        ids, slug = set(b.get("ids") or []), (b.get("slug") or "").lower()
+        for i in ids:
+            est["vistos"][i] = estado.iso(ahora)
+        for p in est["publicaciones"].values():
+            if p.get("id") not in ids and not (slug and _slug_baja(p.get("nota_url")) == slug):
+                continue
+            if p["estado"] in ("pendiente", "enviando"):
+                p.update(estado="descartado", error="la borraron desde el Editor de notas",
+                         actualizado=estado.iso(ahora))
+                estado.anotar(est, "baja", clave=p["clave"])
+            elif p["estado"] == "programado" and p.get("buffer_id"):
+                borrar.append(p)
+        est["vistos"][b["id"]] = estado.iso(ahora)
+    if borrar and not simular and config.activo():
+        try:
+            res = buffer_api.crear_lote([], [p["buffer_id"] for p in borrar])
+        except buffer_api.BufferError as e:
+            logger.warning(f"baja: no pude sacar de Buffer {len(borrar)} publicación(es): {e}")
+            res = {"_borrados": []}
+        for p in borrar:
+            # Si el Editor ya la canceló, Buffer contesta que no existe: igual queda descartada.
+            p.update(estado="descartado", error="la borraron desde el Editor de notas"
+                     + (" (sacada de Buffer)" if p["buffer_id"] in res.get("_borrados", []) else ""),
+                     actualizado=estado.iso(ahora))
+            estado.anotar(est, "baja", clave=p["clave"])
+    logger.info(f"bajas del Editor de notas: {len(bajas)}")
+    return [e for e in eventos if not (isinstance(e, dict) and e.get("baja"))]
+
+
 def pasada(simular: bool = False) -> int:
     est = estado.cargar()
-    eventos = fuentes.todas()
+    eventos = aplicar_bajas(est, fuentes.todas(), simular)
     cuenta = encolar(est, eventos)
     migrar_textos(est, simular)
     medir_topes_historicos(est)
