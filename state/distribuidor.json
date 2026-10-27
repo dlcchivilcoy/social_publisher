@@ -2677,6 +2677,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00251.mp4",
    "youtube_url": "https://youtu.be/A--qcobs0CY"
   },
+  "entrevistas:job00252": {
+   "descripcion": "En Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.",
+   "duracion_seg": null,
+   "entrevistado": "Pablo Torres",
+   "generado": "2026-10-27T17:20:17.000Z",
+   "id": "entrevistas:job00252",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
+   "urgente": false,
+   "video_bytes": 32855327,
+   "video_mb": 31.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
+   "youtube_url": "https://youtu.be/Hi8zJv8Rc-4"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -11752,22 +11773,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 581,
-   "segundos": 35987,
+   "restantes": 580,
+   "segundos": 33600,
    "tope": 600
   },
   "30d": {
-   "restantes": 1094,
-   "segundos": 1225810,
+   "restantes": 1093,
+   "segundos": 1223423,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T16:40:31.000Z",
+ "cuota_visto": "2026-10-27T17:20:18.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -19817,6 +19838,62 @@
    "vence": "2026-10-26T20:20:14.000Z",
    "video_bytes": 28534886,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00251.mp4",
+   "viral": false
+  },
+  "entrevistas:job00252|tiktok": {
+   "actualizado": "2026-10-27T17:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00252|tiktok",
+   "creado": "2026-10-27T17:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-27T17:20:17.000Z",
+   "id": "entrevistas:job00252",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Pablo Torres: la cultura es la memoria de los pueblos\n\nEn Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.\n\nhttps://youtu.be/Hi8zJv8Rc-4\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
+   "urgente": false,
+   "vence": "2026-10-29T17:20:17.000Z",
+   "video_bytes": 32855327,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
+   "viral": false
+  },
+  "entrevistas:job00252|x": {
+   "actualizado": "2026-10-27T17:20:17.000Z",
+   "buffer_id": "6ae0dd524490ad849033e11e",
+   "clave": "entrevistas:job00252|x",
+   "creado": "2026-10-27T17:20:17.000Z",
+   "dueAt": "2026-10-27T17:22:05.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-27T17:20:17.000Z",
+   "id": "entrevistas:job00252",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:cultura-memoria-pablo-pueblos-torres",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Pablo Torres: la cultura es la memoria de los pueblos\n\nEn Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.\n\nhttps://youtu.be/Hi8zJv8Rc-4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
+   "urgente": false,
+   "vence": "2026-10-27T19:20:17.000Z",
+   "video_bytes": 32855327,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -34162,37 +34239,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|x",
-   "cuando": "2026-10-22T23:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok",
-   "cuando": "2026-10-22T23:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6adaa3949ef33e7811ab2531",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok",
-   "cuando": "2026-10-23T00:00:21.000Z",
-   "dueAt": "2026-10-23T00:03:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|x",
-   "cuando": "2026-10-23T00:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
    "cuando": "2026-10-23T00:20:22.000Z",
    "estado": "pendiente",
@@ -38408,6 +38454,34 @@
    "cuando": "2026-10-27T16:40:31.000Z",
    "dueAt": "2026-10-27T16:42:30.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00252",
+   "cuando": "2026-10-27T17:20:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00252|x",
+   "cuando": "2026-10-27T17:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00252|tiktok",
+   "cuando": "2026-10-27T17:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae0dd524490ad849033e11e",
+   "clave": "entrevistas:job00252|x",
+   "cuando": "2026-10-27T17:20:18.000Z",
+   "dueAt": "2026-10-27T17:22:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38622,6 +38696,7 @@
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
   "entrevistas:job00251": "2026-10-26T18:20:14.000Z",
+  "entrevistas:job00252": "2026-10-27T17:20:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

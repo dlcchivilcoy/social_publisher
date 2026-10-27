@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,11 +28,12 @@ Actualizado: 27/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 581 de 600 · 30d: quedan 1094 de 2000 (visto 2026-10-27T16:40:31.000Z)
+15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 1093 de 2000 (visto 2026-10-27T17:20:18.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (11 esperando)
 - TikTok · Reels del bot · Comienza una nueva edición del festival Chivilcoy Teatrero — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron una nueva edición de la Expo Hecho en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Pablo Torres: la cultura es la memoria de los pueblos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -50,10 +51,6 @@ Actualizado: 27/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T13:00 enviado web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x 
-- 2026-10-27T13:00 enviado web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x 
-- 2026-10-27T13:20 vencido bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tikto tanda sin lugar (tope de 24 h o Buffer lleno)
-- 2026-10-27T13:20 depurado web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-10-27T14:00 enviado web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x 
 - 2026-10-27T14:00 enviado web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
 - 2026-10-27T14:20 recibido bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x 
@@ -75,3 +72,7 @@ Actualizado: 27/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-27T16:40 recibido web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-27T16:40 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x 
 - 2026-10-27T16:40 programado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x 
+- 2026-10-27T17:20 entrevista_aprobada entrevistas:job00252 
+- 2026-10-27T17:20 recibido entrevistas:job00252|x 
+- 2026-10-27T17:20 recibido entrevistas:job00252|tiktok 
+- 2026-10-27T17:20 programado entrevistas:job00252|x 
