@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 27/10/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 4 | 8 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 16 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 13 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 15 enviadas + 3 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -28,16 +28,15 @@ Actualizado: 27/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 99 de 100 · 24h: quedan 247 de 250 · 30d: quedan 2110 de 3000 (visto 2026-10-27T10:20:27.000Z)
+15m: quedan 98 de 100 · 24h: quedan 245 de 250 · 30d: quedan 2108 de 3000 (visto 2026-10-27T10:40:20.000Z)
 
-## Cola propia (21 esperando)
+## Cola propia (20 esperando)
 - TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La Provincia impulsa la articulación productiva regional en un encuentro con rep — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Colón no afloja en el Prefederal: venció a Porteño y se mantiene en los primeros — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Gimnasia de Chivilcoy repudió los graves incidentes en Corrientes: cuatro futbol — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Fin de semana amargo para la Academia: Racing no pudo hacerse fuerte en casa, ca — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Moquehuá recuperó la cima en una décima fecha a puro gol en la Liga Chivilcoyana — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Itatí Pérez Cosimano destacó el valor de los cuidados paliativos en Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Andrea Bustabas ‘Construyendo Puentes’ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Comunidad educativa movilizada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Investigación iniciada en junio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -61,8 +60,6 @@ Actualizado: 27/10/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T01:20 enviado policiales:https://diarionucleo.com/ciudad/pergamino/291221- 
-- 2026-10-27T01:40 vencido policiales:https://www.diariodemocracia.com/policiales/34711 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-27T02:00 vencido bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-27T02:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/bomberos- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-27T02:20 vencido policiales:https://www.latrochadigital.com.ar/2026/10/26/bra espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -86,3 +83,5 @@ Actualizado: 27/10/2026 07:20 (hora AR) · ACTIVO
 - 2026-10-27T10:04 programado web:6fa97049-5784-463a-a94e-a3d63da21b58|x 
 - 2026-10-27T10:20 recibido web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x 
 - 2026-10-27T10:20 programado web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x 
+- 2026-10-27T10:40 enviado web:c6773443-ef8a-493a-b392-a16cd01f5057|x 
+- 2026-10-27T10:40 programado web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x 

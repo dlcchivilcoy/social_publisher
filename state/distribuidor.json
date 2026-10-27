@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 13
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T01:20:14.000Z"
+   "visto": "2026-10-27T10:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 16
+    "scheduled": 3,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-27T01:20:14.000Z"
+   "visto": "2026-10-27T10:40:19.000Z"
   }
  },
  "contenidos": {
@@ -12237,22 +12237,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 99,
+   "restantes": 98,
    "segundos": 900,
    "tope": 100
   },
   "24h": {
-   "restantes": 247,
-   "segundos": 58791,
+   "restantes": 245,
+   "segundos": 57598,
    "tope": 250
   },
   "30d": {
-   "restantes": 2110,
-   "segundos": 1248614,
+   "restantes": 2108,
+   "segundos": 1247421,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T10:20:27.000Z",
+ "cuota_visto": "2026-10-27T10:40:20.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -30648,14 +30648,14 @@
    "video_url": ""
   },
   "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x": {
-   "actualizado": "2026-10-27T10:03:31.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-27T10:40:19.000Z",
+   "buffer_id": "6ae07f942dee8577b89e413f",
    "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
    "creado": "2026-10-27T10:03:31.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-27T12:08:09.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T10:02:56.428Z",
    "id": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23",
    "ig_hora": "2026-10-27T12:08:19.000Z",
@@ -33557,19 +33557,20 @@
    "video_url": ""
   },
   "web:c6773443-ef8a-493a-b392-a16cd01f5057|x": {
-   "actualizado": "2026-10-27T10:04:54.000Z",
+   "actualizado": "2026-10-27T10:40:19.000Z",
    "buffer_id": "6ae07746227c7f64b78aa878",
    "clave": "web:c6773443-ef8a-493a-b392-a16cd01f5057|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T10:23:40.000Z",
+   "enviado": "2026-10-27T10:23:46.493Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:01:50.344Z",
    "id": "web:c6773443-ef8a-493a-b392-a16cd01f5057",
    "ig_hora": "2026-10-27T10:23:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115026661875876030",
    "nota_url": "https://www.diariolacampaña.com.ar/n/operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
    "noticia": "nota:operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
    "origen": "web",
@@ -35502,20 +35503,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ada4f38b2fbfbb7e989147d",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|x",
-   "cuando": "2026-10-22T18:00:26.000Z",
-   "dueAt": "2026-10-22T18:02:43.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ada4f3aad1fc1b5527c6bba",
-   "clave": "entrevistas:job00240|x",
-   "cuando": "2026-10-22T18:00:26.000Z",
-   "dueAt": "2026-10-22T18:08:52.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00241",
    "cuando": "2026-10-22T18:20:18.000Z",
@@ -39743,6 +39730,19 @@
    "cuando": "2026-10-27T10:20:26.000Z",
    "dueAt": "2026-10-27T11:38:58.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:c6773443-ef8a-493a-b392-a16cd01f5057|x",
+   "cuando": "2026-10-27T10:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115026661875876030"
+  },
+  {
+   "buffer_id": "6ae07f942dee8577b89e413f",
+   "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
+   "cuando": "2026-10-27T10:40:20.000Z",
+   "dueAt": "2026-10-27T12:08:09.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -39770,7 +39770,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T01:20:14.000Z",
+ "ultima_sync": "2026-10-27T10:40:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
