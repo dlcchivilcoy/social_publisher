@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T10:40:19.000Z"
+   "visto": "2026-10-27T12:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 15
+    "scheduled": 5,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-10-27T10:40:19.000Z"
+   "visto": "2026-10-27T12:00:19.000Z"
   }
  },
  "contenidos": {
@@ -12179,17 +12179,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 242,
-   "segundos": 54003,
+   "restantes": 241,
+   "segundos": 52796,
    "tope": 250
   },
   "30d": {
-   "restantes": 2105,
-   "segundos": 1243827,
+   "restantes": 2104,
+   "segundos": 1242619,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T11:40:14.000Z",
+ "cuota_visto": "2026-10-27T12:00:22.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -27386,19 +27386,20 @@
    "viral": false
   },
   "web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x": {
-   "actualizado": "2026-10-27T10:20:26.000Z",
+   "actualizado": "2026-10-27T12:00:19.000Z",
    "buffer_id": "6ae07aeae3a1beb2ea01f620",
    "clave": "web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T11:38:58.000Z",
+   "enviado": "2026-10-27T11:39:02.517Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:02:40.340Z",
    "id": "web:235c69cb-f4d0-4bac-832b-a776588dd3e9",
    "ig_hora": "2026-10-27T11:38:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115045603595919491",
    "nota_url": "https://www.diariolacampaña.com.ar/n/oferta-academica-la-utn-chivilcoy-abre-la-inscripcion-2027-con-tres",
    "noticia": "nota:oferta-academica-la-utn-chivilcoy-abre-la-inscripcion-2027-con-tres",
    "origen": "web",
@@ -30041,19 +30042,20 @@
    "video_url": ""
   },
   "web:6fa97049-5784-463a-a94e-a3d63da21b58|x": {
-   "actualizado": "2026-10-27T10:04:54.000Z",
+   "actualizado": "2026-10-27T12:00:19.000Z",
    "buffer_id": "6ae07747e3a1beb2ea00c7ab",
    "clave": "web:6fa97049-5784-463a-a94e-a3d63da21b58|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T11:23:36.000Z",
+   "enviado": "2026-10-27T11:23:46.094Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:02:27.786Z",
    "id": "web:6fa97049-5784-463a-a94e-a3d63da21b58",
    "ig_hora": "2026-10-27T11:23:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115041760195813849",
    "nota_url": "https://www.diariolacampaña.com.ar/n/proyecto-educativo-murales-de-identidad-chivilcoy-se-cuenta-este",
    "noticia": "nota:proyecto-educativo-murales-de-identidad-chivilcoy-se-cuenta-este",
    "origen": "web",
@@ -32794,19 +32796,20 @@
    "viral": false
   },
   "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x": {
-   "actualizado": "2026-10-27T10:04:54.000Z",
+   "actualizado": "2026-10-27T12:00:19.000Z",
    "buffer_id": "6ae0774738034660d295a9ce",
    "clave": "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T10:53:05.000Z",
+   "enviado": "2026-10-27T10:53:16.260Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:02:07.154Z",
    "id": "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69",
    "ig_hora": "2026-10-27T10:53:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115034084879577457",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ix-edicion-el-festival-de-cine-suma-la-seccion-raices-locales-para",
    "noticia": "nota:ix-edicion-el-festival-de-cine-suma-la-seccion-raices-locales-para",
    "origen": "web",
@@ -35268,25 +35271,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00240|x",
-   "cuando": "2026-10-22T18:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113331869345329294"
-  },
-  {
-   "clave": "entrevistas:job00241|x",
-   "cuando": "2026-10-22T18:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113335167875973565"
-  },
-  {
-   "buffer_id": "6ada5898ca69a1b7d3d08286",
-   "clave": "entrevistas:job00242|x",
-   "cuando": "2026-10-22T18:40:24.000Z",
-   "dueAt": "2026-10-22T18:42:46.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/|tiktok",
    "cuando": "2026-10-22T19:00:34.000Z",
@@ -39509,6 +39493,24 @@
    "cuando": "2026-10-27T11:40:14.000Z",
    "dueAt": "2026-10-27T13:08:27.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x",
+   "cuando": "2026-10-27T12:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115045603595919491"
+  },
+  {
+   "clave": "web:6fa97049-5784-463a-a94e-a3d63da21b58|x",
+   "cuando": "2026-10-27T12:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115041760195813849"
+  },
+  {
+   "clave": "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x",
+   "cuando": "2026-10-27T12:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115034084879577457"
   }
  ],
  "tandas": {
@@ -39536,7 +39538,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T10:40:19.000Z",
+ "ultima_sync": "2026-10-27T12:00:19.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
