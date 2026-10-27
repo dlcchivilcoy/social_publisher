@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-27T12:00:19.000Z"
+   "visto": "2026-10-27T13:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 5,
-    "sent": 18
+    "scheduled": 2,
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-10-27T12:00:19.000Z"
+   "visto": "2026-10-27T13:00:20.000Z"
   }
  },
  "contenidos": {
@@ -1166,6 +1166,27 @@
    "video_mb": 1.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_111fb28e7059c360.mp4",
    "youtube_url": "https://www.youtube.com/shorts/O_gnCAqtPis"
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk": {
+   "descripcion": "Dos efectivos policiales que viajaban en un patrullero sufrieron escoriaciones como consecuencia de un choque en cadena. Según la información adelantada por Gastón Perotti, las lesiones de ambos agentes no revisten gravedad. De acuerdo con los datos aportados desde el lugar...",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-27T12:41:37.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Dos policías sufrieron lesiones leves en un choque en cadena",
+   "urgente": false,
+   "video_bytes": 483748,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_86e491e5e9710fc4.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/oF-UzuQCEEg"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -5319,30 +5340,6 @@
    "volanta": "Robo en Salto",
    "youtube_url": "https://youtube.com/shorts/twkflsrnghw"
   },
-  "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/": {
-   "categoria": "narcotrafico",
-   "descripcion": "Tras escapar de un control en la Ruta Nacional 205 y recorrer 2,5 kilómetros, cuatro personas oriundas de Lobos fueron interceptadas con droga.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-16T18:41:21.000Z",
-   "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
-   "localidad": "Lobos",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "texto_tiktok": "Una persecución policial sobre la Ruta Nacional 205 terminó con el secuestro de estupefacientes y la interceptación de un vehículo en un camino vecinal.\n\nEl operativo se originó a la altura del kilómetro 93 cuando el conductor intentó evadir el control policial realizando una maniobra prohibida.\n\nDentro del rodado viajaban tres hombres y una mujer mayores de edad, todos domiciliados en el distrito, quienes posteriormente recuperaron la libertad.\n\n📲 Más noticias de Lobos en www.diariolacampaña.com.ar\n\n#Lobos #Narcotrafico #Operativo #BuenosAires",
-   "tipo": "video",
-   "titulo": "Persecución y secuestro de cocaína en un camino rural de la Ruta 205",
-   "urgente": false,
-   "video_bytes": 158763,
-   "video_mb": 0.2,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4",
-   "volanta": "Operativo antidrogas en Lobos",
-   "youtube_url": "https://youtube.com/shorts/bjZhSevFweQ"
-  },
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": {
    "categoria": "otro_policial",
    "descripcion": "La Justicia dictó una nueva condena contra Sandro Herrera, ex mano derecha del Superintendente, por un hecho cometido en 2019 contra una subalterna. Seguirá en prisión domiciliaria.",
@@ -5618,30 +5615,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_04_chacabuco_secuestraron-ocho-autos-y-dos-.mp4",
    "volanta": "Operativos viales en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/_9nDCRwXAhQ"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": {
-   "categoria": "otro_policial",
-   "descripcion": "Una motociclista fue trasladada al hospital municipal tras colisionar con otro rodado que huyó del lugar. Sucedió este mediodía en la intersección de Arenales y Almirante Brown.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-16T18:41:22.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "texto_tiktok": "Una mujer terminó hospitalizada este mediodía tras protagonizar un choque a bordo de su moto 110 en las calles Arenales y Almirante Brown.\n\nEl otro rodado implicado en el impacto fue retirado del lugar antes de la llegada de los efectivos policiales.\n\nDesde el lugar se indicó que se trata del tercer siniestro vial de estas características registrado en los últimos tres días en la ciudad.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Una mujer herida tras un choque de motos en Chacabuco",
-   "urgente": false,
-   "video_bytes": 105348,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
-   "volanta": "Choque en Chacabuco",
-   "youtube_url": ""
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": {
    "categoria": "accidente_vial",
@@ -12141,17 +12114,17 @@
    "tope": 100
   },
   "24h": {
-   "restantes": 239,
-   "segundos": 50386,
+   "restantes": 238,
+   "segundos": 49197,
    "tope": 250
   },
   "30d": {
-   "restantes": 2102,
-   "segundos": 1240209,
+   "restantes": 2101,
+   "segundos": 1239020,
    "tope": 3000
   }
  },
- "cuota_visto": "2026-10-27T12:40:32.000Z",
+ "cuota_visto": "2026-10-27T13:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -14796,7 +14769,7 @@
    "creado": "2026-10-25T13:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-25T13:06:49.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
@@ -14861,7 +14834,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-25T14:03:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro",
@@ -14926,7 +14899,7 @@
    "creado": "2026-10-25T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-25T14:11:09.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0",
@@ -14991,7 +14964,7 @@
    "creado": "2026-10-25T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-25T14:26:51.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
@@ -15056,7 +15029,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-25T15:22:33.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l",
@@ -15121,7 +15094,7 @@
    "creado": "2026-10-25T15:40:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-25T15:30:32.000Z",
    "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw",
@@ -15338,7 +15311,7 @@
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
@@ -15403,7 +15376,7 @@
    "creado": "2026-10-26T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
@@ -15544,7 +15517,7 @@
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-26T22:09:40.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum",
@@ -15828,7 +15801,7 @@
    "creado": "2026-10-27T00:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-27T00:34:43.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
@@ -15883,6 +15856,59 @@
    "vence": "2026-10-27T02:34:43.000Z",
    "video_bytes": 1296213,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_111fb28e7059c360.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok": {
+   "actualizado": "2026-10-27T13:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
+   "creado": "2026-10-27T13:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
+   "estado": "pendiente",
+   "generado": "2026-10-27T12:41:37.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Dos policías sufrieron lesiones leves en un choque en cadena\n\nDos efectivos policiales que viajaban en un patrullero sufrieron escoriaciones como consecuencia de un choque en cadena. Según la información adelantada por Gastón Perotti, las lesiones de ambos agentes no revisten gravedad. De acuerdo con los datos aportados desde el lugar...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos policías sufrieron lesiones leves en un choque en cadena",
+   "urgente": false,
+   "vence": "2026-10-29T12:41:37.000Z",
+   "video_bytes": 483748,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_86e491e5e9710fc4.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|x": {
+   "actualizado": "2026-10-27T13:00:20.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|x",
+   "creado": "2026-10-27T13:00:20.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Notas web, programado)",
+   "estado": "descartado",
+   "generado": "2026-10-27T12:41:37.000Z",
+   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un",
+   "noticia": "nota:chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Dos policías sufrieron lesiones leves en un choque en cadena",
+   "urgente": false,
+   "vence": "2026-10-27T14:41:37.000Z",
+   "video_bytes": 483748,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_86e491e5e9710fc4.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -18759,7 +18785,7 @@
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
@@ -18824,7 +18850,7 @@
    "creado": "2026-10-27T09:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "tanda sin lugar (tope de 24 h o Buffer lleno)",
    "estado": "pendiente",
    "generado": "2026-10-27T02:52:24.000Z",
    "id": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4",
@@ -23925,31 +23951,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_03_pergamino_el-jardinero-entreg-a-una-jubi.mp4",
    "viral": false
   },
-  "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok": {
-   "actualizado": "2026-10-17T13:00:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/|tiktok",
-   "creado": "2026-10-16T19:00:17.000Z",
-   "dueAt": "",
-   "error": "tope de 15 publicaciones en 24 h de TikTok",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-16T18:41:21.000Z",
-   "id": "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-persecucion-en-la-ruta-205-detuvieron-a-cuatro-personas-y-b6b432",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Una persecución policial sobre la Ruta Nacional 205 terminó con el secuestro de estupefacientes y la interceptación de un vehículo en un camino vecinal.\n\nEl operativo se originó a la altura del kilómetro 93 cuando el conductor intentó evadir el control policial realizando una maniobra prohibida.\n\nDentro del rodado viajaban tres hombres y una mujer mayores de edad, todos domiciliados en el distrito, quienes posteriormente recuperaron la libertad.\n\n📲 Más noticias de Lobos en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #lobos #policiales",
-   "tipo": "video",
-   "titulo": "Persecución y secuestro de cocaína en un camino rural de la Ruta 205",
-   "urgente": false,
-   "vence": "2026-10-17T12:41:21.000Z",
-   "video_bytes": 158763,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_01_lobos_persecuci-n-y-secuestro-de-coc.mp4"
-  },
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/|tiktok": {
    "actualizado": "2026-10-17T22:20:22.000Z",
    "buffer_id": "6ad3e1e7e272c4918f9fa1cd",
@@ -24593,31 +24594,6 @@
    "vence": "2026-10-18T09:47:09.000Z",
    "video_bytes": 87455,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_04_chacabuco_secuestraron-ocho-autos-y-dos-.mp4"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-17T13:00:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html|tiktok",
-   "creado": "2026-10-16T19:00:17.000Z",
-   "dueAt": "",
-   "error": "tope de 15 publicaciones en 24 h de TikTok",
-   "espera": "tope de 15 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-16T18:41:22.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-de-motos-en-a98acb",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Una mujer terminó hospitalizada este mediodía tras protagonizar un choque a bordo de su moto 110 en las calles Arenales y Almirante Brown.\n\nEl otro rodado implicado en el impacto fue retirado del lugar antes de la llegada de los efectivos policiales.\n\nDesde el lugar se indicó que se trata del tercer siniestro vial de estas características registrado en los últimos tres días en la ciudad.\n\n📲 Más noticias de Chacabuco en\n\n📲 La nota completa, en www.diariolacampaña.com.ar\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "tipo": "video",
-   "titulo": "Una mujer herida tras un choque de motos en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-17T12:41:22.000Z",
-   "video_bytes": 105348,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-16_1809_03_chacabuco_una-mujer-herida-tras-un-choqu.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-20T17:40:15.000Z",
@@ -30341,19 +30317,20 @@
    "video_url": ""
   },
   "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x": {
-   "actualizado": "2026-10-27T10:40:19.000Z",
+   "actualizado": "2026-10-27T13:00:20.000Z",
    "buffer_id": "6ae07f942dee8577b89e413f",
    "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T12:08:09.000Z",
+   "enviado": "2026-10-27T12:08:17.247Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:02:56.428Z",
    "id": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23",
    "ig_hora": "2026-10-27T12:08:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115052963164995880",
    "nota_url": "https://www.diariolacampaña.com.ar/n/salud-y-comunidad-itati-perez-cosimano-destaco-el-valor-de-los",
    "noticia": "nota:salud-y-comunidad-itati-perez-cosimano-destaco-el-valor-de-los",
    "origen": "web",
@@ -30761,19 +30738,20 @@
    "video_url": ""
   },
   "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x": {
-   "actualizado": "2026-10-27T11:20:15.000Z",
+   "actualizado": "2026-10-27T13:00:20.000Z",
    "buffer_id": "6ae088f0a21f4739ba9a54ea",
    "clave": "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T12:38:09.000Z",
+   "enviado": "2026-10-27T12:38:16.385Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:03:10.637Z",
    "id": "web:83aa22b6-5664-4e7e-9984-1dfd644a5220",
    "ig_hora": "2026-10-27T12:38:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115060509711994943",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-fin-de-semana-amargo-para-la-academia-racing-no-pudo-hacerse",
    "noticia": "nota:basquet-fin-de-semana-amargo-para-la-academia-racing-no-pudo-hacerse",
    "origen": "web",
@@ -34264,19 +34242,20 @@
    "video_url": ""
   },
   "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x": {
-   "actualizado": "2026-10-27T11:40:14.000Z",
+   "actualizado": "2026-10-27T13:00:20.000Z",
    "buffer_id": "6ae08d9e131c5aeac59f1d8d",
    "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T12:53:27.000Z",
+   "enviado": "2026-10-27T12:53:31.109Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:03:19.185Z",
    "id": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39",
    "ig_hora": "2026-10-27T12:53:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115064346430554624",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-gimnasia-de-chivilcoy-repudio-los-graves-incidentes-en",
    "noticia": "nota:futbol-gimnasia-de-chivilcoy-repudio-los-graves-incidentes-en",
    "origen": "web",
@@ -34331,19 +34310,20 @@
    "viral": false
   },
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x": {
-   "actualizado": "2026-10-27T11:00:22.000Z",
+   "actualizado": "2026-10-27T13:00:20.000Z",
    "buffer_id": "6ae08446a5ccad78dbcacac7",
    "clave": "web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x",
    "creado": "2026-10-27T10:03:31.000Z",
    "dueAt": "2026-10-27T12:23:05.000Z",
+   "enviado": "2026-10-27T12:23:16.388Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T10:03:03.519Z",
    "id": "web:e71fb0dc-94d7-456d-9127-31522ce0aa70",
    "ig_hora": "2026-10-27T12:23:19.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115056734645473654",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-moquehua-recupero-la-cima-en-una-decima-fecha-a-puro-gol-en-la",
    "noticia": "nota:futbol-moquehua-recupero-la-cima-en-una-decima-fecha-a-puro-gol-en-la",
    "origen": "web",
@@ -35175,45 +35155,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ada61fbe391db54dafa1d41",
-   "clave": "entrevistas:job00243|x",
-   "cuando": "2026-10-22T19:20:27.000Z",
-   "dueAt": "2026-10-22T19:22:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00244",
-   "cuando": "2026-10-22T20:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00244|x",
-   "cuando": "2026-10-22T20:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00242|x",
-   "cuando": "2026-10-22T20:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113340441533845588"
-  },
-  {
-   "clave": "entrevistas:job00243|x",
-   "cuando": "2026-10-22T20:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113350274244858172"
-  },
-  {
-   "buffer_id": "6ada6b55e391db54dafc3507",
-   "clave": "entrevistas:job00244|x",
-   "cuando": "2026-10-22T20:00:21.000Z",
-   "dueAt": "2026-10-22T20:02:22.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok",
    "cuando": "2026-10-22T20:20:13.000Z",
@@ -39418,6 +39359,46 @@
    "cuando": "2026-10-27T12:40:32.000Z",
    "dueAt": "2026-10-27T13:53:46.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|x",
+   "cuando": "2026-10-27T13:00:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Notas web, programado)",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
+   "cuando": "2026-10-27T13:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
+   "cuando": "2026-10-27T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115052963164995880"
+  },
+  {
+   "clave": "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x",
+   "cuando": "2026-10-27T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115060509711994943"
+  },
+  {
+   "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
+   "cuando": "2026-10-27T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115064346430554624"
+  },
+  {
+   "clave": "web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x",
+   "cuando": "2026-10-27T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115056734645473654"
   }
  ],
  "tandas": {
@@ -39441,11 +39422,12 @@
    "2026-10-24 21",
    "2026-10-26 10",
    "2026-10-26 18",
-   "2026-10-26 21"
+   "2026-10-26 21",
+   "2026-10-27 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-27",
- "ultima_sync": "2026-10-27T12:00:19.000Z",
+ "ultima_sync": "2026-10-27T13:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -39528,6 +39510,7 @@
   "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt": "2026-10-26T22:40:15.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p": "2026-10-27T00:00:21.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": "2026-10-27T00:40:14.000Z",
+  "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk": "2026-10-27T13:00:20.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
