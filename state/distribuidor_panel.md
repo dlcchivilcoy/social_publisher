@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 1 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 6 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 2 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,23 +28,18 @@ Actualizado: 27/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 575 de 600 · 30d: quedan 1088 de 2000 (visto 2026-10-27T19:00:21.000Z)
+15m: quedan 149 de 150 · 24h: quedan 574 de 600 · 30d: quedan 1087 de 2000 (visto 2026-10-27T21:00:25.000Z)
 
-## Cola propia (14 esperando)
-- TikTok · Reels del bot · Amarilla Gas cierra el fraccionamiento y desvincula a ocho empleados — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Comienza una nueva edición del festival Chivilcoy Teatrero — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron una nueva edición de la Expo Hecho en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Joaquin Moja: Alerta apícola por resistencia en varroa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Pablo Torres: la cultura es la memoria de los pueblos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (9 esperando)
+- TikTok · Reels del bot · Presentaron una nueva edición de la Expo Hecho en Chivilcoy — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Choque en cadena involucró a un patrullero en calle Maipú — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Dos policías sufrieron lesiones leves en un choque en cadena — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Convocan a compartir imágenes de la Luna en Chivilcoy — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Daniela Ghio logró medalla de bronce en el Argentino de Gravel — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — no entró entre las 5 más virales de la tanda 18 h
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — no entró entre las 5 más virales de la tanda 18 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -54,11 +49,6 @@ Actualizado: 27/10/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T16:40 recibido bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tikto 
-- 2026-10-27T16:40 recibido web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-27T16:40 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x 
-- 2026-10-27T16:40 programado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x 
-- 2026-10-27T17:20 entrevista_aprobada entrevistas:job00252 
 - 2026-10-27T17:20 recibido entrevistas:job00252|x 
 - 2026-10-27T17:20 recibido entrevistas:job00252|tiktok 
 - 2026-10-27T17:20 programado entrevistas:job00252|x 
@@ -79,3 +69,8 @@ Actualizado: 27/10/2026 17:40 (hora AR) · ACTIVO
 - 2026-10-27T19:00 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x 
 - 2026-10-27T19:00 enviado entrevistas:job00253|x 
 - 2026-10-27T19:00 enviado entrevistas:job00254|x 
+- 2026-10-27T21:00 programado bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tikto 
+- 2026-10-27T21:00 programado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tikto 
+- 2026-10-27T21:00 programado entrevistas:job00254|tiktok 
+- 2026-10-27T21:00 programado entrevistas:job00253|tiktok 
+- 2026-10-27T21:00 programado entrevistas:job00252|tiktok 
