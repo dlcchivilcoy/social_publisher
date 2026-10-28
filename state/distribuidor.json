@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-28T17:00:53.000Z"
+   "visto": "2026-10-28T18:20:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 26
    },
    "pausado": false,
-   "visto": "2026-10-28T17:00:53.000Z"
+   "visto": "2026-10-28T18:20:18.000Z"
   }
  },
  "contenidos": {
@@ -2865,6 +2865,27 @@
    "video_mb": 22.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00257.mp4",
    "youtube_url": "https://youtu.be/URhHDpedR8A"
+  },
+  "entrevistas:job00258": {
+   "descripcion": "En Chivilcoy, la médica dermatóloga Romina Serrano advirtió sobre las complicaciones graves en tratamientos estéticos mal aplicados y la necesidad de saber actuar ante una urgencia.",
+   "duracion_seg": null,
+   "entrevistado": "Romina Serrano",
+   "generado": "2026-10-28T18:20:17.000Z",
+   "id": "entrevistas:job00258",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Romina Serrano y el riesgo en la estética",
+   "urgente": false,
+   "video_bytes": 34342019,
+   "video_mb": 32.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00258.mp4",
+   "youtube_url": "https://youtu.be/VzAfXiyXi74"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -11734,22 +11755,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 577,
-   "segundos": 55201,
+   "restantes": 575,
+   "segundos": 52802,
    "tope": 600
   },
   "30d": {
-   "restantes": 1012,
-   "segundos": 1135821,
+   "restantes": 1010,
+   "segundos": 1133422,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T17:40:20.000Z",
+ "cuota_visto": "2026-10-28T18:20:19.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -18684,18 +18705,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x": {
-   "actualizado": "2026-10-28T17:20:24.000Z",
+   "actualizado": "2026-10-28T18:20:18.000Z",
    "buffer_id": "6ae22ed94f060961b743e8fd",
    "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x",
    "creado": "2026-10-28T17:20:19.000Z",
    "dueAt": "2026-10-28T17:22:55.000Z",
+   "enviado": "2026-10-28T17:23:09.122Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T17:15:01.000Z",
    "id": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115494589779910999",
    "nota_url": "",
    "noticia": "titulo:ciclista-colisionar-hospital-trasladada-utilitario",
    "origen": "bot",
@@ -20170,18 +20192,19 @@
    "viral": false
   },
   "entrevistas:job00256|x": {
-   "actualizado": "2026-10-28T17:00:53.000Z",
+   "actualizado": "2026-10-28T18:20:18.000Z",
    "buffer_id": "6ae22a47f0906bbc61437d2d",
    "clave": "entrevistas:job00256|x",
    "creado": "2026-10-28T17:00:32.000Z",
    "dueAt": "2026-10-28T17:07:43.000Z",
+   "enviado": "2026-10-28T17:07:54.021Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T17:00:32.000Z",
    "id": "entrevistas:job00256",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115490751790330278",
    "nota_url": "",
    "noticia": "titulo:1400-alumnos-chivilcoy-diego-llenan-salas-scarpellino-teatrero",
    "origen": "entrevistas",
@@ -20226,18 +20249,19 @@
    "viral": false
   },
   "entrevistas:job00257|x": {
-   "actualizado": "2026-10-28T17:40:19.000Z",
+   "actualizado": "2026-10-28T18:20:18.000Z",
    "buffer_id": "6ae2338443a908ace7dd9e0f",
    "clave": "entrevistas:job00257|x",
    "creado": "2026-10-28T17:40:18.000Z",
    "dueAt": "2026-10-28T17:42:50.000Z",
+   "enviado": "2026-10-28T17:43:11.537Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T17:40:18.000Z",
    "id": "entrevistas:job00257",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115499633224851937",
    "nota_url": "",
    "noticia": "titulo:chivilcoy-clubes-maria-molina-pide-solidaridad",
    "origen": "entrevistas",
@@ -20251,6 +20275,62 @@
    "vence": "2026-10-28T19:40:18.000Z",
    "video_bytes": 23992476,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00257.mp4",
+   "viral": false
+  },
+  "entrevistas:job00258|tiktok": {
+   "actualizado": "2026-10-28T18:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00258|tiktok",
+   "creado": "2026-10-28T18:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-28T18:20:17.000Z",
+   "id": "entrevistas:job00258",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Romina Serrano y el riesgo en la estética\n\nEn Chivilcoy, la médica dermatóloga Romina Serrano advirtió sobre las complicaciones graves en tratamientos estéticos mal aplicados y la necesidad de saber actuar ante una urgencia.\n\nhttps://youtu.be/VzAfXiyXi74\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Romina Serrano y el riesgo en la estética",
+   "urgente": false,
+   "vence": "2026-10-30T18:20:17.000Z",
+   "video_bytes": 34342019,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00258.mp4",
+   "viral": false
+  },
+  "entrevistas:job00258|x": {
+   "actualizado": "2026-10-28T18:20:18.000Z",
+   "buffer_id": "6ae23ce35ab5a911b3697bcd",
+   "clave": "entrevistas:job00258|x",
+   "creado": "2026-10-28T18:20:17.000Z",
+   "dueAt": "2026-10-28T18:22:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-28T18:20:17.000Z",
+   "id": "entrevistas:job00258",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:estetica-riesgo-romina-serrano",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Romina Serrano y el riesgo en la estética\n\nEn Chivilcoy, la médica dermatóloga Romina Serrano advirtió sobre las complicaciones graves en tratamientos estéticos mal aplicados y la necesidad de saber actuar ante una urgencia.\n\nhttps://youtu.be/VzAfXiyXi74",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Romina Serrano y el riesgo en la estética",
+   "urgente": false,
+   "vence": "2026-10-28T20:20:17.000Z",
+   "video_bytes": 34342019,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00258.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -34026,54 +34106,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:5de2902aa9f0dc53|tiktok",
-   "cuando": "2026-10-23T21:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:5de2902aa9f0dc53|x",
-   "cuando": "2026-10-23T21:20:15.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:5de2902aa9f0dc53|tiktok",
-   "cuando": "2026-10-23T21:20:15.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok",
-   "cuando": "2026-10-23T21:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699977059396783380"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok",
-   "cuando": "2026-10-23T21:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699972055248178453"
-  },
-  {
-   "clave": "nacionales:0f149db2f4d13c80|x",
-   "cuando": "2026-10-23T22:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:0f149db2f4d13c80|tiktok",
-   "cuando": "2026-10-23T22:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:0f149db2f4d13c80|x",
    "cuando": "2026-10-23T22:00:21.000Z",
    "evento": "depurado",
@@ -38251,6 +38283,52 @@
    "cuando": "2026-10-28T17:40:20.000Z",
    "dueAt": "2026-10-28T17:42:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00258",
+   "cuando": "2026-10-28T18:20:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00258|x",
+   "cuando": "2026-10-28T18:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00258|tiktok",
+   "cuando": "2026-10-28T18:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x",
+   "cuando": "2026-10-28T18:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115494589779910999"
+  },
+  {
+   "clave": "entrevistas:job00256|x",
+   "cuando": "2026-10-28T18:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115490751790330278"
+  },
+  {
+   "clave": "entrevistas:job00257|x",
+   "cuando": "2026-10-28T18:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115499633224851937"
+  },
+  {
+   "buffer_id": "6ae23ce35ab5a911b3697bcd",
+   "clave": "entrevistas:job00258|x",
+   "cuando": "2026-10-28T18:20:19.000Z",
+   "dueAt": "2026-10-28T18:22:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38282,7 +38360,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T17:00:53.000Z",
+ "ultima_sync": "2026-10-28T18:20:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -38484,6 +38562,7 @@
   "entrevistas:job00255": "2026-10-28T16:40:16.000Z",
   "entrevistas:job00256": "2026-10-28T17:00:32.000Z",
   "entrevistas:job00257": "2026-10-28T17:40:18.000Z",
+  "entrevistas:job00258": "2026-10-28T18:20:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
