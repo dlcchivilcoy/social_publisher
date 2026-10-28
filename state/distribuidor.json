@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-28T10:20:37.000Z"
+   "visto": "2026-10-28T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 19
+    "scheduled": 1,
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-10-28T10:20:37.000Z"
+   "visto": "2026-10-28T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -11887,22 +11887,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 593,
-   "segundos": 78007,
+   "restantes": 591,
+   "segundos": 76805,
    "tope": 600
   },
   "30d": {
-   "restantes": 1028,
-   "segundos": 1158626,
+   "restantes": 1026,
+   "segundos": 1157425,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T11:20:14.000Z",
+ "cuota_visto": "2026-10-28T11:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -28146,14 +28146,14 @@
    "video_url": ""
   },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x": {
-   "actualizado": "2026-10-28T10:20:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T11:40:16.000Z",
+   "buffer_id": "6ae1df20d47ee8ef2fb48e6b",
    "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
    "creado": "2026-10-28T10:20:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T13:07:08.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T10:02:58.266Z",
    "id": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e",
    "ig_hora": "2026-10-28T13:07:17.000Z",
@@ -29416,19 +29416,20 @@
    "viral": false
   },
   "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x": {
-   "actualizado": "2026-10-28T10:03:20.000Z",
+   "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c869979a56d9e57bfd90",
    "clave": "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T11:07:03.000Z",
+   "enviado": "2026-10-28T11:07:16.144Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:01:50.032Z",
    "id": "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d",
    "ig_hora": "2026-10-28T11:07:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115399995624956386",
    "nota_url": "https://www.diariolacampaña.com.ar/n/artistas-invitados-los-duendes-de-cage-se-presentan-en-la-cueva-con",
    "noticia": "nota:artistas-invitados-los-duendes-de-cage-se-presentan-en-la-cueva-con",
    "origen": "web",
@@ -29511,14 +29512,14 @@
    "viral": false
   },
   "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x": {
-   "actualizado": "2026-10-28T10:20:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T11:40:16.000Z",
+   "buffer_id": "6ae1df2063bb1a485a2ae11e",
    "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
    "creado": "2026-10-28T10:20:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T12:52:01.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T10:02:51.226Z",
    "id": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0",
    "ig_hora": "2026-10-28T12:52:17.000Z",
@@ -29575,19 +29576,20 @@
    "video_url": ""
   },
   "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x": {
-   "actualizado": "2026-10-28T10:03:20.000Z",
+   "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c869f3c923de2ca7cca7",
    "clave": "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T10:37:44.000Z",
+   "enviado": "2026-10-28T10:37:46.352Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:01:27.391Z",
    "id": "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234",
    "ig_hora": "2026-10-28T10:37:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115392572394795229",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mujeres-cecoinse-carla-palomequez-y-vale-vassallo-presentaron-una",
    "noticia": "nota:mujeres-cecoinse-carla-palomequez-y-vale-vassallo-presentaron-una",
    "origen": "web",
@@ -30443,19 +30445,20 @@
    "video_url": ""
   },
   "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x": {
-   "actualizado": "2026-10-28T10:03:20.000Z",
+   "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c8692d290d348680093e",
    "clave": "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T10:22:09.000Z",
+   "enviado": "2026-10-28T10:22:16.356Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:01:18.037Z",
    "id": "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755",
    "ig_hora": "2026-10-28T10:22:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115388671608160644",
    "nota_url": "https://www.diariolacampaña.com.ar/n/carta-abierta-reclaman-respuestas-urgentes-y-proponen-un-peaje",
    "noticia": "nota:carta-abierta-reclaman-respuestas-urgentes-y-proponen-un-peaje",
    "origen": "web",
@@ -30498,19 +30501,20 @@
    "video_url": ""
   },
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x": {
-   "actualizado": "2026-10-28T10:03:20.000Z",
+   "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c86a5719a3c4c80fb983",
    "clave": "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T11:22:57.000Z",
+   "enviado": "2026-10-28T11:23:02.962Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:01:57.874Z",
    "id": "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960",
    "ig_hora": "2026-10-28T11:22:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115403966779428962",
    "nota_url": "https://www.diariolacampaña.com.ar/n/entrada-libre-y-gratuita-en-la-ciudad-localidades-y-escuelas-este",
    "noticia": "nota:entrada-libre-y-gratuita-en-la-ciudad-localidades-y-escuelas-este",
    "origen": "web",
@@ -31688,19 +31692,20 @@
    "viral": false
   },
   "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x": {
-   "actualizado": "2026-10-28T10:20:37.000Z",
+   "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1cc7696dccc28f676fd67",
    "clave": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T11:37:05.000Z",
+   "enviado": "2026-10-28T11:37:16.265Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:02:05.827Z",
    "id": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7",
    "ig_hora": "2026-10-28T11:37:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115407545934258361",
    "nota_url": "https://www.diariolacampaña.com.ar/n/misa-y-acto-oficial-el-circulo-criollo-el-bozal-celebro-sus-50-anos",
    "noticia": "nota:misa-y-acto-oficial-el-circulo-criollo-el-bozal-celebro-sus-50-anos",
    "origen": "web",
@@ -34389,60 +34394,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
-   "cuando": "2026-10-23T13:40:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
-   "cuando": "2026-10-23T13:40:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
-   "cuando": "2026-10-23T13:40:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
-   "cuando": "2026-10-23T13:40:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:8a598b83-5323-45ea-98bb-999b66679299|x",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72|x",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699848972705303860"
-  },
   {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x",
    "cuando": "2026-10-23T13:40:28.000Z",
@@ -38624,6 +38575,50 @@
    "cuando": "2026-10-28T11:20:14.000Z",
    "dueAt": "2026-10-28T12:37:44.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x",
+   "cuando": "2026-10-28T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115399995624956386"
+  },
+  {
+   "clave": "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x",
+   "cuando": "2026-10-28T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115392572394795229"
+  },
+  {
+   "clave": "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x",
+   "cuando": "2026-10-28T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115388671608160644"
+  },
+  {
+   "clave": "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x",
+   "cuando": "2026-10-28T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115403966779428962"
+  },
+  {
+   "clave": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x",
+   "cuando": "2026-10-28T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115407545934258361"
+  },
+  {
+   "buffer_id": "6ae1df2063bb1a485a2ae11e",
+   "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
+   "cuando": "2026-10-28T11:40:17.000Z",
+   "dueAt": "2026-10-28T12:52:01.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae1df20d47ee8ef2fb48e6b",
+   "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
+   "cuando": "2026-10-28T11:40:17.000Z",
+   "dueAt": "2026-10-28T13:07:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38654,7 +38649,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T10:20:37.000Z",
+ "ultima_sync": "2026-10-28T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

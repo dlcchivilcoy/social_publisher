@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 28/10/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 8 | 4 | 0 | 0 | 2 |
+| Notas web | X | 15 | 6 | 5 | 2 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 19 enviadas + 4 programadas de 100 por día
+- X: conectado · Buffer: 22 enviadas + 1 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,13 +28,11 @@ Actualizado: 28/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 593 de 600 · 30d: quedan 1028 de 2000 (visto 2026-10-28T11:20:14.000Z)
+15m: quedan 148 de 150 · 24h: quedan 591 de 600 · 30d: quedan 1026 de 2000 (visto 2026-10-28T11:40:17.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (8 esperando)
 - X · Notas web · Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Hecho en Chivilcoy: la exposición para visibilizar la producción local se realiz — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Inte — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategu — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -50,13 +48,6 @@ Actualizado: 28/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T10:02 recibido web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 
-- 2026-10-28T10:02 recibido web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
-- 2026-10-28T10:02 recibido web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
-- 2026-10-28T10:03 recibido web:c47cb128-863f-4d78-97f6-739a46ed4cca|x 
-- 2026-10-28T10:03 recibido web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
-- 2026-10-28T10:03 recibido web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x 
-- 2026-10-28T10:03 recibido web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x 
 - 2026-10-28T10:03 programado web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x 
 - 2026-10-28T10:03 programado web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x 
 - 2026-10-28T10:03 programado web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
@@ -75,3 +66,10 @@ Actualizado: 28/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-28T11:00 depurado web:c47cb128-863f-4d78-97f6-739a46ed4cca|x no está en el carrusel del diario de hoy
 - 2026-10-28T11:00 programado web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
 - 2026-10-28T11:20 programado web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
+- 2026-10-28T11:40 enviado web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
+- 2026-10-28T11:40 enviado web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
+- 2026-10-28T11:40 enviado web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x 
+- 2026-10-28T11:40 enviado web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
+- 2026-10-28T11:40 enviado web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 
+- 2026-10-28T11:40 programado web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
+- 2026-10-28T11:40 programado web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x 
