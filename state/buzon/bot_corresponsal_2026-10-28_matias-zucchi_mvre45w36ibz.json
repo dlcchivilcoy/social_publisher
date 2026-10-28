@@ -1,0 +1,18 @@
+{
+ "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz",
+ "origen": "bot",
+ "tipo": "video",
+ "titulo": "Se incendió una camioneta en la prolongación de la avenida Avellaneda",
+ "descripcion": "Sirena de Bomberos en Chivilcoy: se reporta el incendio de una camioneta en la prolongación de la avenida Avellaneda, llegando al puente. NOTICIA en desarrollo.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1e53feef8e75d70.mp4",
+ "duracion_seg": 30.0,
+ "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-se-incendio-una-camioneta-en-la-prolongacion-de-la",
+ "youtube_url": "https://www.youtube.com/shorts/Fe6nplR07bY",
+ "prioridad": 7,
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x",
+  "tiktok"
+ ],
+ "generado": "2026-10-28T00:48:38.000Z"
+}
