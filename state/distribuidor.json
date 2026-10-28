@@ -11913,17 +11913,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 595,
-   "segundos": 80406,
+   "restantes": 594,
+   "segundos": 79200,
    "tope": 600
   },
   "30d": {
-   "restantes": 1030,
-   "segundos": 1161026,
+   "restantes": 1029,
+   "segundos": 1159820,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T10:40:15.000Z",
+ "cuota_visto": "2026-10-28T11:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -31354,14 +31354,14 @@
    "video_url": ""
   },
   "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x": {
-   "actualizado": "2026-10-28T10:20:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T11:00:20.000Z",
+   "buffer_id": "6ae1d5c4b552088adcb57ae4",
    "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
    "creado": "2026-10-28T10:20:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T12:22:16.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T10:02:34.748Z",
    "id": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34",
    "ig_hora": "2026-10-28T12:22:17.000Z",
@@ -31472,14 +31472,14 @@
    "video_url": ""
   },
   "web:a3d30d89-bce5-41df-b635-6f903026b394|x": {
-   "actualizado": "2026-10-28T10:02:28.000Z",
+   "actualizado": "2026-10-28T11:00:20.000Z",
    "buffer_id": "",
    "clave": "web:a3d30d89-bce5-41df-b635-6f903026b394|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-28T10:02:16.208Z",
    "id": "web:a3d30d89-bce5-41df-b635-6f903026b394",
    "intentos": 0,
@@ -32405,14 +32405,14 @@
    "viral": false
   },
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca|x": {
-   "actualizado": "2026-10-28T10:02:28.000Z",
+   "actualizado": "2026-10-28T11:00:20.000Z",
    "buffer_id": "",
    "clave": "web:c47cb128-863f-4d78-97f6-739a46ed4cca|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-28T10:01:38.068Z",
    "id": "web:c47cb128-863f-4d78-97f6-739a46ed4cca",
    "intentos": 0,
@@ -34517,30 +34517,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x",
-   "cuando": "2026-10-23T13:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok",
-   "cuando": "2026-10-23T13:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:96fc984a-5682-4bad-8148-1f36bdb208c1|x",
-   "cuando": "2026-10-23T13:20:22.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "buffer_id": "6adb5f176fe59a6ed27694ae",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x",
@@ -38756,6 +38732,25 @@
    "clave": "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x",
    "cuando": "2026-10-28T10:40:15.000Z",
    "dueAt": "2026-10-28T12:07:29.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "web:a3d30d89-bce5-41df-b635-6f903026b394|x",
+   "cuando": "2026-10-28T11:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:c47cb128-863f-4d78-97f6-739a46ed4cca|x",
+   "cuando": "2026-10-28T11:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "buffer_id": "6ae1d5c4b552088adcb57ae4",
+   "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
+   "cuando": "2026-10-28T11:00:21.000Z",
+   "dueAt": "2026-10-28T12:22:16.000Z",
    "evento": "programado"
   }
  ],

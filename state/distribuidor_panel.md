@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 28/10/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 6 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,17 +28,14 @@ Actualizado: 28/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 595 de 600 · 30d: quedan 1030 de 2000 (visto 2026-10-28T10:40:15.000Z)
+15m: quedan 149 de 150 · 24h: quedan 594 de 600 · 30d: quedan 1029 de 2000 (visto 2026-10-28T11:00:21.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (11 esperando)
 - X · Notas web · Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Hecho en Chivilcoy: la exposición para visibilizar la producción local se realiz — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Inte — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategu — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimna — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primer — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Ateneo ‘Jorge Luis Borges’ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Herramientas y conocimientos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,9 +51,6 @@ Actualizado: 28/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T02:00 enviado policiales:https://junin24.com/locales/destrozos-en-la-vivie 
-- 2026-10-28T09:00 vencido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-28T10:02 recibido web:d32900c4-88d6-42ae-8c8e-361cf3839478|x 
 - 2026-10-28T10:02 recibido web:a3d30d89-bce5-41df-b635-6f903026b394|x 
 - 2026-10-28T10:02 recibido web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 
 - 2026-10-28T10:02 recibido web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
@@ -79,3 +73,6 @@ Actualizado: 28/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-28T10:20 enviado web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x 
 - 2026-10-28T10:20 programado web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 
 - 2026-10-28T10:40 programado web:d32900c4-88d6-42ae-8c8e-361cf3839478|x 
+- 2026-10-28T11:00 depurado web:a3d30d89-bce5-41df-b635-6f903026b394|x no está en el carrusel del diario de hoy
+- 2026-10-28T11:00 depurado web:c47cb128-863f-4d78-97f6-739a46ed4cca|x no está en el carrusel del diario de hoy
+- 2026-10-28T11:00 programado web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
