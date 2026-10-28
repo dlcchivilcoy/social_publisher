@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-28T11:40:15.000Z"
+   "visto": "2026-10-28T12:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 22
    },
    "pausado": false,
-   "visto": "2026-10-28T11:40:15.000Z"
+   "visto": "2026-10-28T12:40:16.000Z"
   }
  },
  "contenidos": {
@@ -5860,32 +5860,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/KoqoLADZ27Y"
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec": {
-   "categoria": "robo",
-   "descripcion": "Un operativo policial en Junín terminó con la aprehensión de un sospechoso de 24 años este 16 de octubre. Secuestraron ropa vinculada al ilícito ocurrido en un comercio.",
-   "distancia_km": 91.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T00:11:04.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un joven de 24 años fue aprehendido este 16 de octubre tras un allanamiento en Junín acusado de robar un maxikiosco.\n\nEl hecho ocurrió en un comercio situado sobre la avenida República al 700, donde sustrajeron mercadería y 150.000 pesos en efectivo el pasado 13 de octubre.\n\nLos investigadores utilizaron las cámaras del local y del municipio para identificar al sospechoso, a quien le incautaron ropa clave para la causa.\n\nLa investigación quedó bajo la órbita de la UFIyJ N.º 8 y la DDI Junín, imputado por el delito de robo.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República",
-   "urgente": false,
-   "video_bytes": 80572,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4",
-   "volanta": "Robo en Junín",
-   "youtube_url": "https://youtube.com/shorts/RtdtVixVqkQ"
   },
   "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener": {
    "categoria": "robo",
@@ -11887,22 +11861,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 590,
-   "segundos": 74402,
+   "restantes": 588,
+   "segundos": 73204,
    "tope": 600
   },
   "30d": {
-   "restantes": 1025,
-   "segundos": 1155022,
+   "restantes": 1023,
+   "segundos": 1153824,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T12:20:19.000Z",
+ "cuota_visto": "2026-10-28T12:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -24835,43 +24809,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
    "viral": false
   },
-  "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok": {
-   "actualizado": "2026-10-18T12:20:22.000Z",
-   "buffer_id": "6ad4a6c90a208cb323601dab",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec|tiktok",
-   "creado": "2026-10-18T00:20:13.000Z",
-   "dueAt": "2026-10-18T11:43:52.000Z",
-   "enviado": "2026-10-18T11:45:43.517Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:11:04.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346695-allanamiento-en-junin-un-aprehendido-y-prendas-sec",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697972292801858837",
-   "metricas": {
-    "averageTimeWatched": 4.27,
-    "comments": 0,
-    "engagementRate": 1.76,
-    "reach": 0,
-    "reactions": 9,
-    "shares": 0,
-    "totalTimeWatched": 40.38,
-    "views": 511
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República\n\nUn operativo policial en Junín terminó con la aprehensión de un sospechoso de 24 años este 16 de octubre. Secuestraron ropa vinculada al ilícito ocurrido en un comercio.\n\nhttps://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-joven-de-24-anos-tras-un-allanamiento-por-8f4ae1\n\n#chivilcoy #diariolacampaña #radiodelcentro #junín #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cayó un joven de 24 años por el robo a un maxikiosco en avenida República",
-   "urgente": false,
-   "vence": "2026-10-18T18:11:04.000Z",
-   "video_bytes": 80572,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_0009_02_chacabuco_cay-un-joven-de-24-a-os-por-el.mp4"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/346709-durante-un-positivo-allanamiento-se-logro-detener|tiktok": {
    "actualizado": "2026-10-18T19:40:21.000Z",
    "buffer_id": "6ad50dea0a208cb323787ca3",
@@ -27214,19 +27151,20 @@
    "video_url": ""
   },
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x": {
-   "actualizado": "2026-10-28T11:20:14.000Z",
+   "actualizado": "2026-10-28T12:40:16.000Z",
    "buffer_id": "6ae1da6ef8d0c164b1601720",
    "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
    "creado": "2026-10-28T10:20:19.000Z",
    "dueAt": "2026-10-28T12:37:44.000Z",
+   "enviado": "2026-10-28T12:37:46.340Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:02:44.191Z",
    "id": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be",
    "ig_hora": "2026-10-28T12:37:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115422771438064037",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
    "noticia": "nota:futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
    "origen": "web",
@@ -28796,14 +28734,14 @@
    "viral": false
   },
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x": {
-   "actualizado": "2026-10-28T10:20:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T12:40:17.000Z",
+   "buffer_id": "6ae1ed31a2992d2fc00dd97d",
    "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
    "creado": "2026-10-28T10:20:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T13:52:53.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T10:03:30.995Z",
    "id": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b",
    "ig_hora": "2026-10-28T13:52:17.000Z",
@@ -31230,19 +31168,20 @@
    "video_url": ""
   },
   "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x": {
-   "actualizado": "2026-10-28T11:00:20.000Z",
+   "actualizado": "2026-10-28T12:40:16.000Z",
    "buffer_id": "6ae1d5c4b552088adcb57ae4",
    "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
    "creado": "2026-10-28T10:20:19.000Z",
    "dueAt": "2026-10-28T12:22:16.000Z",
+   "enviado": "2026-10-28T12:22:31.111Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:02:34.748Z",
    "id": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34",
    "ig_hora": "2026-10-28T12:22:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115418932878197077",
    "nota_url": "https://www.diariolacampaña.com.ar/n/automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
    "noticia": "nota:automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
    "origen": "web",
@@ -32906,19 +32845,20 @@
    "viral": false
   },
   "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x": {
-   "actualizado": "2026-10-28T10:40:14.000Z",
+   "actualizado": "2026-10-28T12:40:16.000Z",
    "buffer_id": "6ae1d10e715fd2293485e8a1",
    "clave": "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T12:07:29.000Z",
+   "enviado": "2026-10-28T12:07:31.441Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:02:27.773Z",
    "id": "web:d32900c4-88d6-42ae-8c8e-361cf3839478",
    "ig_hora": "2026-10-28T12:07:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115415157971014088",
    "nota_url": "https://www.diariolacampaña.com.ar/n/literatura-remembranzas-de-daniel-magni-llega-a-la-zona-norte-de-la",
    "noticia": "nota:literatura-remembranzas-de-daniel-magni-llega-a-la-zona-norte-de-la",
    "origen": "web",
@@ -34394,30 +34334,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699853402569755922"
-  },
-  {
-   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113625805481783465"
-  },
-  {
-   "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113614544165642635"
-  },
-  {
-   "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
-   "cuando": "2026-10-23T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113622156416303308"
-  },
   {
    "buffer_id": "6adb63cd6fe59a6ed277c3e7",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
@@ -38620,6 +38536,31 @@
    "cuando": "2026-10-28T12:20:19.000Z",
    "dueAt": "2026-10-28T13:37:44.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
+   "cuando": "2026-10-28T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115422771438064037"
+  },
+  {
+   "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
+   "cuando": "2026-10-28T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115418932878197077"
+  },
+  {
+   "clave": "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x",
+   "cuando": "2026-10-28T12:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115415157971014088"
+  },
+  {
+   "buffer_id": "6ae1ed31a2992d2fc00dd97d",
+   "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
+   "cuando": "2026-10-28T12:40:17.000Z",
+   "dueAt": "2026-10-28T13:52:53.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38650,7 +38591,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T11:40:15.000Z",
+ "ultima_sync": "2026-10-28T12:40:16.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",

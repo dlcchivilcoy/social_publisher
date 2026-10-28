@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 28/10/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 6 | 1 | 0 | 0 | 2 |
+| Notas web | X | 15 | 9 | 4 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -24,14 +24,13 @@ Actualizado: 28/10/2026 09:20 (hora AR) · ACTIVO
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 7 con métricas · mediana vistas/impresiones 107 · likes 0
 - TikTok · Reels del bot: 64 con métricas · mediana vistas/impresiones 312.5 · likes 3
-- TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 520 · likes 4
+- TikTok · Reels policiales: 11 con métricas · mediana vistas/impresiones 525 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 590 de 600 · 30d: quedan 1025 de 2000 (visto 2026-10-28T12:20:19.000Z)
+15m: quedan 148 de 150 · 24h: quedan 588 de 600 · 30d: quedan 1023 de 2000 (visto 2026-10-28T12:40:17.000Z)
 
-## Cola propia (7 esperando)
-- X · Notas web · Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (6 esperando)
 - TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -47,10 +46,6 @@ Actualizado: 28/10/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T10:03 programado web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x 
-- 2026-10-28T10:03 programado web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
-- 2026-10-28T10:03 programado web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
-- 2026-10-28T10:03 programado web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
 - 2026-10-28T10:20 recibido web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x 
 - 2026-10-28T10:20 recibido web:fc28ba09-8297-457f-a09e-12190be789d3|x 
 - 2026-10-28T10:20 recibido web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x 
@@ -72,3 +67,7 @@ Actualizado: 28/10/2026 09:20 (hora AR) · ACTIVO
 - 2026-10-28T11:40 programado web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
 - 2026-10-28T11:40 programado web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x 
 - 2026-10-28T12:20 programado web:fc28ba09-8297-457f-a09e-12190be789d3|x 
+- 2026-10-28T12:40 enviado web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
+- 2026-10-28T12:40 enviado web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
+- 2026-10-28T12:40 enviado web:d32900c4-88d6-42ae-8c8e-361cf3839478|x 
+- 2026-10-28T12:40 programado web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x 
