@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -33,10 +33,10 @@ Actualizado: 27/10/2026 21:00 (hora AR) · ACTIVO
 ## Cola propia (6 esperando)
 - X · Reels policiales · Confirman la preventiva de Germán Díaz y definirán su reemplazo en el Concejo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Sufrió dos robos en 24 horas y destrozaron una casa en construcción — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
