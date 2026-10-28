@@ -1335,27 +1335,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4",
    "youtube_url": "https://www.youtube.com/shorts/quiiJy0JtbY"
   },
-  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": {
-   "descripcion": "En el marco de la conmemoración del Día de la Lealtad, se llevó a cabo una jornada de encuentro en el espacio Apertura Peronista, ámbito en el que participó Luciano Dellepiane para compartir su mirada sobre el presente político y social.\n\nDurante la actividad, Dellepiane consideró que se trata de una fecha muy cara a los sentimientos del movimiento, aunque advirtió que el contexto actual resulta preocupante y complejo en materia institucional para el país.\n\nEn ese sentido, el dirigente cuestionó con dureza el deterioro económico general y la gestión encabezada por el presidente Javier Milei, a la que definió críticamente como una tragedia tras compararla con crisis y vaivenes anteriores.\n\nFinalmente, remarcó que desde su sector trabajan con el objetivo de aportar propuestas y consolidar una alternativa política para los próximos tiempos, destacando el nivel de convocatoria alcanzado en las distintas iniciativas desarrolladas a lo largo de la fecha.",
-   "duracion_seg": 61.4,
-   "generado": "2026-10-18T01:10:20.000Z",
-   "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
-   "urgente": false,
-   "video_bytes": 7636070,
-   "video_mb": 7.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/w3c8EqspOpQ"
-  },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": {
    "descripcion": "En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo llevó a cabo una bendición especial dedicada a todas las madres de la comunidad en la Parroquia San Pedro de Chivilcoy.\n\nDurante su mensaje, el sacerdote resaltó la importancia de recordar, agradecer y valorar a las madres, a quienes consideró como uno de los regalos más preciados. En ese sentido, destacó el rol fundamental que cumplen al orientar y acompañar el crecimiento de sus hijos a través de la fe, la esperanza y la caridad.\n\nAsimismo, en la ceremonia religiosa se elevó una oración especial por todas las mujeres que recibieron la gracia de la maternidad y se pidió bendecir a aquellas que enriquecen este camino con fidelidad.",
    "duracion_seg": 60.2,
@@ -5811,30 +5790,6 @@
    "volanta": "Siniestro vial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/O_7zp65rxFY"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html": {
-   "categoria": "otro_policial",
-   "descripcion": "Una persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T18:41:23.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "texto_tiktok": "Registraron múltiples episodios de violencia callejera y domiciliaria durante la jornada del sábado en la ciudad de Chacabuco.\n\nUna persona debió ser hospitalizada de urgencia tras un violento altercado registrado en una vivienda particular, siendo escoltada la ambulancia por personal policial.\n\nPor otro lado, dos hombres se enfrentaron a golpes en la vía pública al mediodía, aunque lograron escapar antes de la llegada del patrullero.\n\nLas autoridades investigan los hechos para esclarecer lo sucedido en ambas situaciones.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #ViolenciaUrbana #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
-   "urgente": false,
-   "video_bytes": 79842,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4",
-   "volanta": "Violencia urbana en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/tfJUuD3vol8"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "Una vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos. El agresor escapó antes de la llegada de los móviles.",
@@ -6306,24 +6261,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": {
-   "categoria": "",
-   "descripcion": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá El deportista de Roque Pérez, de 23 años, consiguió su clasificación tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero. Este logro le abre la posibilidad de representar a la Argentina en el Mundial de Canadá, llevando su preparación y dedicación al escenario internacional.",
-   "generado": "2026-10-18T04:31:55.617Z",
-   "id": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e98f38ddb5b6473c93d6594b6f802ad9~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "volanta": "Roque Pérez · Deportes"
   },
   "web:02e93911-55df-4a65-bb82-d3e764bdb7c5": {
    "categoria": "",
@@ -7869,24 +7806,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": {
-   "categoria": "",
-   "descripcion": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy En el marco del Día de la Lealtad Peronista, la concejal de Fuerza Patria, Constanza Alonso, brindó unas palabras en la sede del Partido Justicialista de Chivilcoy. Durante su mensaje, Alonso reflexionó sobre el significado histórico de la fecha y sostuvo que «fue el momento de la génesis de un movimiento más grande occidente, como dice la canción y que fue el momento en que el pueblo trabajador tomó en sus manos su propio...",
-   "generado": "2026-10-18T00:56:58.699Z",
-   "id": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_cddebc51a35e49aa8ee18cdb9e1aafc1~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e": {
    "categoria": "",
    "descripcion": "Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Intergeneracional En una definición épica con un bochazo inolvidable en la última jugada, la dupla chivilcoyana logró subirse a lo más alto del podio tras una semana brillante de competencia. La emoción y la alegría embargan por estas horas a toda la delegación de Chivilcoy. En una definición para el infarto, Jorge Ponte y Marcos Curioni se consagraron campeones y obtuvieron la ansiada medalla de oro en la disciplina...",
@@ -7997,24 +7916,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-emmanuel-macron-admitio-fallas-de-inteligencia-tras-las-41adf4",
    "volanta": ""
-  },
-  "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": {
-   "categoria": "",
-   "descripcion": "Luciano Dellepiane participó del encuentro en Apertura Peronista En el marco del Día de la Lealtad, se llevó a cabo un encuentro en Apertura Peronista, donde Luciano Dellepiane compartió sus reflexiones sobre la jornada y la coyuntura actual. Dellepiane señaló que se trata de una fecha muy cara para el peronismo y un motivo de encuentro, aunque remarcó el contexto actual: «Es un momento triste, creo que ayer casualmente estuvo el Gato Sylvestre acá en Chivilcoy y decía una cosa que creo que...",
-   "generado": "2026-10-18T01:09:46.723Z",
-   "id": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1b637d6d414e4c7da3c3a809aad82fbc~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "volanta": "Chivilcoy · Política"
   },
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": {
    "categoria": "",
@@ -14841,15 +14742,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok": {
-   "actualizado": "2026-10-26T13:48:30.000Z",
+   "actualizado": "2026-10-28T13:40:15.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
    "intentos": 0,
@@ -15990,43 +15891,6 @@
    "vence": "2026-10-20T00:58:02.000Z",
    "video_bytes": 7799823,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
-  },
-  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T13:40:14.000Z",
-   "buffer_id": "6ad4a6c90a208cb323601e52",
-   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|tiktok",
-   "creado": "2026-10-18T01:20:13.000Z",
-   "dueAt": "2026-10-18T12:23:54.000Z",
-   "enviado": "2026-10-18T12:25:45.181Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T01:10:20.000Z",
-   "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697982624068914453",
-   "metricas": {
-    "averageTimeWatched": 3.9,
-    "comments": 1,
-    "engagementRate": 0.22,
-    "reach": 0,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 36.48,
-    "views": 457
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nDurante la conmemoración del Día de la Lealtad, Luciano Dellepiane advirtió que el contexto actual resulta preocupante y complejo en materia institucional para el país. Además, cuestionó el deterioro económico y definió como una tragedia a la gestión de Javier Milei, al tiempo que remarcó que desde su sector trabajan para consolidar una alternativa política.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
-   "urgente": false,
-   "vence": "2026-10-20T01:10:20.000Z",
-   "video_bytes": 7636070,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
   },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok": {
    "actualizado": "2026-10-18T18:20:23.000Z",
@@ -24696,43 +24560,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_04_chacabuco_una-motociclista-de-20-a-os-su.mp4",
    "viral": false
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok": {
-   "actualizado": "2026-10-18T13:40:14.000Z",
-   "buffer_id": "6ad4a6ca0a208cb323601f48",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|tiktok",
-   "creado": "2026-10-17T19:00:17.000Z",
-   "dueAt": "2026-10-18T13:03:53.000Z",
-   "enviado": "2026-10-18T13:07:54.339Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T18:41:23.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697993387323952390",
-   "metricas": {
-    "averageTimeWatched": 3.75,
-    "comments": 0,
-    "engagementRate": 0.43,
-    "reach": 0,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 33.98,
-    "views": 460
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco\n\nUna persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-18T12:41:23.000Z",
-   "video_bytes": 79842,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8b76b88865f7e6d302290",
@@ -25614,41 +25441,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x": {
-   "actualizado": "2026-10-18T13:40:14.000Z",
-   "buffer_id": "6ad48aa90b0d72757a14b79f",
-   "clave": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803|x",
-   "creado": "2026-10-18T09:00:15.000Z",
-   "dueAt": "2026-10-18T13:00:45.000Z",
-   "enviado": "2026-10-18T13:02:38.635Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T04:31:55.617Z",
-   "id": "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111805151652598045",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de 23 años logró su pase en el Campeonato de Culturismo Natural WNBF Argentina. Podrá representar al país en el torneo internacional.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
-   "urgente": false,
-   "vence": "2026-10-19T04:31:55.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:02e93911-55df-4a65-bb82-d3e764bdb7c5|x": {
    "actualizado": "2026-10-26T12:06:06.000Z",
@@ -28048,41 +27840,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x": {
-   "actualizado": "2026-10-18T13:40:14.000Z",
-   "buffer_id": "6ad48aaa6d56c60a730236b0",
-   "clave": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b|x",
-   "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "2026-10-18T13:30:56.000Z",
-   "enviado": "2026-10-18T13:31:02.623Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:56:58.699Z",
-   "id": "web:4932e566-1b9a-47b3-98b4-4a91035bb79b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111812299207962890",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 33,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy\n\nEn el Día de la Lealtad Peronista, la concejal Constanza Alonso reflexionó sobre la fecha. Sostuvo que fue el momento en que el pueblo trabajador tomó en sus manos su propio destino.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-19T00:56:58.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x": {
    "actualizado": "2026-10-28T11:40:16.000Z",
    "buffer_id": "6ae1df20d47ee8ef2fb48e6b",
@@ -28267,41 +28024,6 @@
    "titulo": "Francia: Emmanuel Macron admitió fallas de inteligencia tras las violentas protestas",
    "urgente": false,
    "vence": "2026-10-20T13:47:49.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x": {
-   "actualizado": "2026-10-18T13:40:14.000Z",
-   "buffer_id": "6ad48aaa0b0d72757a14b865",
-   "clave": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20|x",
-   "creado": "2026-10-18T01:20:13.000Z",
-   "dueAt": "2026-10-18T13:15:19.000Z",
-   "enviado": "2026-10-18T13:15:31.242Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T01:09:46.723Z",
-   "id": "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111808392733851808",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 4,
-    "impressions": 25,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nPor el Día de la Lealtad, se realizó un encuentro donde Luciano Dellepiane compartió sus reflexiones y remarcó que se vive un momento triste.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
-   "urgente": false,
-   "vence": "2026-10-19T01:09:46.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -34335,14 +34057,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
-   "cuando": "2026-10-23T14:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x",
    "cuando": "2026-10-23T14:00:31.000Z",
    "estado": "descartado",
@@ -38560,6 +38274,12 @@
    "cuando": "2026-10-28T13:00:25.000Z",
    "dueAt": "2026-10-28T13:43:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
+   "cuando": "2026-10-28T13:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

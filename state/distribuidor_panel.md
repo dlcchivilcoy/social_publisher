@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -20,20 +20,19 @@ Actualizado: 28/10/2026 10:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
 - X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 24 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 87 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 84 con métricas · mediana vistas/impresiones 22.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 7 con métricas · mediana vistas/impresiones 107 · likes 0
-- TikTok · Reels del bot: 64 con métricas · mediana vistas/impresiones 312.5 · likes 3
-- TikTok · Reels policiales: 11 con métricas · mediana vistas/impresiones 525 · likes 4
+- TikTok · Reels del bot: 63 con métricas · mediana vistas/impresiones 310 · likes 3
+- TikTok · Reels policiales: 10 con métricas · mediana vistas/impresiones 546.5 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 587 de 600 · 30d: quedan 1022 de 2000 (visto 2026-10-28T13:00:25.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Esclarecieron el hurto de una moto e identificaron a dos menores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -43,7 +42,6 @@ Actualizado: 28/10/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T10:20 recibido web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
 - 2026-10-28T10:20 recibido web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
 - 2026-10-28T10:20 recibido web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
 - 2026-10-28T10:20 enviado web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x 
@@ -68,3 +66,4 @@ Actualizado: 28/10/2026 10:20 (hora AR) · ACTIVO
 - 2026-10-28T13:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tikto 
 - 2026-10-28T13:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tikto 
 - 2026-10-28T13:00 programado bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tikto 
+- 2026-10-28T13:40 vencido bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
