@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-28T15:20:24.000Z"
+   "visto": "2026-10-28T17:00:53.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 25
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-28T15:20:24.000Z"
+   "visto": "2026-10-28T17:00:53.000Z"
   }
  },
  "contenidos": {
@@ -2154,6 +2154,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_954b2bc875b06ee0.mp4",
    "youtube_url": "https://www.youtube.com/shorts/OkTkOcbtDyI"
   },
+  "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4": {
+   "descripcion": "Un automóvil y una motocicleta protagonizaron un siniestro vial el 28 de octubre, alrededor de las 13 horas, en la intersección de las calles Necochea y Emilio Mitre.\n\nTras la colisión, personal policial acudió al lugar del hecho junto a varios transeúntes que se acercaron a asistir y observar lo ocurrido. La zona fue delimitada con cintas para restringir de manera preventiva la circulación del tránsito vehicular.\n\nHasta el momento, no se establecieron la mecánica del choque ni la marca y modelo del automóvil involucrado.\n\nTampoco se cuenta con precisiones oficiales sobre el estado de salud de las personas que circulaban en ambos rodados.",
+   "duracion_seg": 17.2,
+   "generado": "2026-10-28T16:53:40.000Z",
+   "id": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Choque entre un auto y una moto en Necochea y Emilio Mitre",
+   "urgente": false,
+   "video_bytes": 3392524,
+   "video_mb": 3.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ff1cd046a6e83fd8.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/XZV0uO-wS20"
+  },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
    "duracion_seg": null,
@@ -2781,6 +2802,27 @@
    "video_mb": 25.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00255.mp4",
    "youtube_url": "https://youtu.be/4p4QUqvgT-Y"
+  },
+  "entrevistas:job00256": {
+   "descripcion": "Diego Scarpellino, referente de TRAC y organizador del Chivilcoy Teatrero, destacó que 1400 estudiantes colmarán teatros, bibliotecas y escuelas en Chivilcoy durante el festival. También anticipó una propuesta especial para el público juvenil.",
+   "duracion_seg": null,
+   "entrevistado": "Diego Scarpellino",
+   "generado": "2026-10-28T17:00:32.000Z",
+   "id": "entrevistas:job00256",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino",
+   "urgente": false,
+   "video_bytes": 24242043,
+   "video_mb": 23.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00256.mp4",
+   "youtube_url": "https://youtu.be/YwTE8NNV98c"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -9966,6 +10008,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclo-lectivo-2027-el-cuch-presento-su-oferta-academica-hemos-logrado",
    "volanta": "Ciclo Lectivo 2027"
   },
+  "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd": {
+   "categoria": "",
+   "descripcion": "Choque entre un auto y una moto en Necochea y Emilio Mitre Un automóvil y una motocicleta protagonizaron un siniestro vial este mediodía en la intersección de las calles Necochea y Emilio Mitre, alrededor de las 13 horas en Chivilcoy. Tras el impacto, se registró la presencia de personal policial y de varias personas junto a los rodados involucrados. Asimismo, el sector fue delimitado con cintas para restringir la circulación en la zona. Por el momento, no se establecieron las causas que...",
+   "generado": "2026-10-28T16:52:22.540Z",
+   "id": "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_32fd1d3b01e64206be03266ceb77404d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Choque entre un auto y una moto en Necochea y Emilio Mitre",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938": {
    "categoria": "",
    "descripcion": "Ana Paula Martorelli consideró que Chivilcoy necesita un Juzgado de Familia teniendo en cuenta que “es una de las ciudades que más causas de violencia está teniendo”",
@@ -11649,22 +11710,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 583,
-   "segundos": 58795,
+   "restantes": 581,
+   "segundos": 57567,
    "tope": 600
   },
   "30d": {
-   "restantes": 1018,
-   "segundos": 1139415,
+   "restantes": 1016,
+   "segundos": 1138187,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T16:40:26.000Z",
+ "cuota_visto": "2026-10-28T17:00:55.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -18549,6 +18610,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_954b2bc875b06ee0.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|tiktok": {
+   "actualizado": "2026-10-28T17:00:32.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|tiktok",
+   "creado": "2026-10-28T17:00:32.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-28T16:53:40.000Z",
+   "id": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Choque entre un auto y una moto en Necochea y Emilio Mitre\n\nPersonal policial y transeúntes acudieron al lugar del siniestro, donde se delimitó la zona para restringir el tránsito de manera preventiva. Hasta el momento no se establecieron la mecánica del hecho ni se cuenta con precisiones oficiales sobre el estado de salud de las personas involucradas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque entre un auto y una moto en Necochea y Emilio Mitre",
+   "urgente": false,
+   "vence": "2026-10-30T16:53:40.000Z",
+   "video_bytes": 3392524,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ff1cd046a6e83fd8.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|x": {
+   "actualizado": "2026-10-28T17:00:53.000Z",
+   "buffer_id": "6ae22a47f0906bbc614379a7",
+   "clave": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|x",
+   "creado": "2026-10-28T17:00:32.000Z",
+   "dueAt": "2026-10-28T17:02:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-28T16:53:40.000Z",
+   "id": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "noticia": "nota:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Choque entre un auto y una moto en Necochea y Emilio Mitre\n\nPersonal policial acudió al lugar del hecho y restringió el tránsito. Aún no se estableció la mecánica del siniestro ni hay precisiones oficiales sobre la salud de los involucrados.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque entre un auto y una moto en Necochea y Emilio Mitre",
+   "urgente": false,
+   "vence": "2026-10-28T18:53:40.000Z",
+   "video_bytes": 3392524,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ff1cd046a6e83fd8.mp4",
+   "viral": false
+  },
   "entrevistas:job00224|x": {
    "actualizado": "2026-10-19T21:00:29.000Z",
    "buffer_id": "6ad64347b5b645b3c338e4b4",
@@ -19951,18 +20068,19 @@
    "viral": false
   },
   "entrevistas:job00255|x": {
-   "actualizado": "2026-10-28T16:40:25.000Z",
+   "actualizado": "2026-10-28T17:00:53.000Z",
    "buffer_id": "6ae2257ac867e35d50ba1590",
    "clave": "entrevistas:job00255|x",
    "creado": "2026-10-28T16:40:16.000Z",
    "dueAt": "2026-10-28T16:42:54.000Z",
+   "enviado": "2026-10-28T16:43:18.935Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T16:40:16.000Z",
    "id": "entrevistas:job00255",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115484564738990401",
    "nota_url": "",
    "noticia": "titulo:adaptados-carros-chivilcoy-guelffi-inclusion-jorge-unlu",
    "origen": "entrevistas",
@@ -19976,6 +20094,62 @@
    "vence": "2026-10-28T18:40:16.000Z",
    "video_bytes": 26351694,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00255.mp4",
+   "viral": false
+  },
+  "entrevistas:job00256|tiktok": {
+   "actualizado": "2026-10-28T17:00:32.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00256|tiktok",
+   "creado": "2026-10-28T17:00:32.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-28T17:00:32.000Z",
+   "id": "entrevistas:job00256",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino\n\nDiego Scarpellino, referente de TRAC y organizador del Chivilcoy Teatrero, destacó que 1400 estudiantes colmarán teatros, bibliotecas y escuelas en Chivilcoy durante el festival. También anticipó una propuesta especial para el público juvenil.\n\nhttps://youtu.be/YwTE8NNV98c\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino",
+   "urgente": false,
+   "vence": "2026-10-30T17:00:32.000Z",
+   "video_bytes": 24242043,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00256.mp4",
+   "viral": false
+  },
+  "entrevistas:job00256|x": {
+   "actualizado": "2026-10-28T17:00:53.000Z",
+   "buffer_id": "6ae22a47f0906bbc61437d2d",
+   "clave": "entrevistas:job00256|x",
+   "creado": "2026-10-28T17:00:32.000Z",
+   "dueAt": "2026-10-28T17:07:43.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-28T17:00:32.000Z",
+   "id": "entrevistas:job00256",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:1400-alumnos-chivilcoy-diego-llenan-salas-scarpellino-teatrero",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino\n\nDiego Scarpellino, referente de TRAC y organizador del Chivilcoy Teatrero, destacó que 1400 estudiantes colmarán teatros, bibliotecas y escuelas en Chivilcoy durante el festival.\n\nhttps://youtu.be/YwTE8NNV98c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino",
+   "urgente": false,
+   "vence": "2026-10-28T19:00:32.000Z",
+   "video_bytes": 24242043,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00256.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -31219,6 +31393,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd|x": {
+   "actualizado": "2026-10-28T17:00:32.000Z",
+   "buffer_id": "",
+   "clave": "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd|x",
+   "creado": "2026-10-28T17:00:32.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-28T16:52:22.540Z",
+   "id": "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "noticia": "nota:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Choque entre un auto y una moto en Necochea y Emilio Mitre",
+   "urgente": false,
+   "vence": "2026-10-28T20:52:22.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
    "buffer_id": "",
@@ -33795,70 +33994,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|tiktok",
-   "cuando": "2026-10-23T19:00:28.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "buffer_id": "6adbaecdbd33ce99c3e769e7",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
-   "cuando": "2026-10-23T19:00:29.000Z",
-   "dueAt": "2026-10-23T19:02:24.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlbr3mx75q3|x",
-   "cuando": "2026-10-23T19:20:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113708100255437211"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
-   "cuando": "2026-10-23T19:40:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|tiktok",
-   "cuando": "2026-10-23T19:40:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x",
-   "cuando": "2026-10-23T19:40:33.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok",
-   "cuando": "2026-10-23T19:40:33.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "buffer_id": "6adbb8310b5343d07049c98e",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvld2uaw6z62|x",
-   "cuando": "2026-10-23T19:40:34.000Z",
-   "dueAt": "2026-10-23T19:42:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|x",
-   "cuando": "2026-10-23T20:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvldteosy8fo_01.mp4|tiktok",
    "cuando": "2026-10-23T20:00:29.000Z",
@@ -38021,6 +38156,71 @@
    "cuando": "2026-10-28T16:40:26.000Z",
    "dueAt": "2026-10-28T16:42:54.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00256",
+   "cuando": "2026-10-28T17:00:32.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|x",
+   "cuando": "2026-10-28T17:00:36.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|tiktok",
+   "cuando": "2026-10-28T17:00:40.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "entrevistas:job00256|x",
+   "cuando": "2026-10-28T17:00:53.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00256|tiktok",
+   "cuando": "2026-10-28T17:00:53.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd|x",
+   "cuando": "2026-10-28T17:00:53.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00255|x",
+   "cuando": "2026-10-28T17:00:53.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115484564738990401"
+  },
+  {
+   "buffer_id": "6ae22a47f0906bbc614379a7",
+   "clave": "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|x",
+   "cuando": "2026-10-28T17:00:55.000Z",
+   "dueAt": "2026-10-28T17:02:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae22a47f0906bbc61437d2d",
+   "clave": "entrevistas:job00256|x",
+   "cuando": "2026-10-28T17:00:55.000Z",
+   "dueAt": "2026-10-28T17:07:43.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38052,7 +38252,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T15:20:24.000Z",
+ "ultima_sync": "2026-10-28T17:00:53.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -38195,6 +38395,7 @@
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4": "2026-10-27T09:00:19.000Z",
   "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4": "2026-10-27T14:20:14.000Z",
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4": "2026-10-28T15:20:14.000Z",
+  "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4": "2026-10-28T17:00:32.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -38249,6 +38450,7 @@
   "entrevistas:job00253": "2026-10-27T18:00:20.000Z",
   "entrevistas:job00254": "2026-10-27T18:20:15.000Z",
   "entrevistas:job00255": "2026-10-28T16:40:16.000Z",
+  "entrevistas:job00256": "2026-10-28T17:00:32.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -38821,6 +39023,7 @@
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": "2026-10-26T10:20:14.000Z",
+  "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd": "2026-10-28T17:00:32.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938": "2026-10-26T10:20:14.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
