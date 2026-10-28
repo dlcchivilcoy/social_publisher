@@ -75,27 +75,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4",
    "youtube_url": "https://www.youtube.com/shorts/5JWQzOkUeVY"
   },
-  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": {
-   "descripcion": "El deportista de Roque Pérez, de 23 años, consiguió su clasificación tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero. Este logro le abre",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-18T04:33:50.000Z",
-   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
-   "urgente": false,
-   "video_bytes": 445428,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/_opQKoz8pNI"
-  },
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": {
    "descripcion": "El intendente de Chivilcoy, Guillermo Britos, cuestionó una publicación de un diario local sobre la recuperación de la nave industrial de Bicontinentar y aseguró que el Municipio reclamó judicialmente el pago de una suma equivalente a un sueldo de empleado municipal por cada día",
    "duracion_seg": 30.0,
@@ -11913,17 +11892,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 594,
-   "segundos": 79200,
+   "restantes": 593,
+   "segundos": 78007,
    "tope": 600
   },
   "30d": {
-   "restantes": 1029,
-   "segundos": 1159820,
+   "restantes": 1028,
+   "segundos": 1158626,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T11:00:21.000Z",
+ "cuota_visto": "2026-10-28T11:20:14.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -12002,43 +11981,6 @@
    "vence": "2026-10-19T17:21:29.000Z",
    "video_bytes": 779667,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
-  },
-  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok": {
-   "actualizado": "2026-10-18T11:20:13.000Z",
-   "buffer_id": "6ad4a6c7ae173d6e00fa053f",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|tiktok",
-   "creado": "2026-10-18T09:00:15.000Z",
-   "dueAt": "2026-10-18T11:03:59.000Z",
-   "enviado": "2026-10-18T11:05:44.743Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T04:33:50.000Z",
-   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7697961998981631239",
-   "metricas": {
-    "averageTimeWatched": 2.37,
-    "comments": 0,
-    "engagementRate": 0.68,
-    "reach": 0,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 6.3,
-    "views": 146
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de Roque Pérez, de 23 años, compitió en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
-   "urgente": false,
-   "vence": "2026-10-20T04:33:50.000Z",
-   "video_bytes": 445428,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
   },
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l|tiktok": {
    "actualizado": "2026-10-18T21:40:21.000Z",
@@ -16038,41 +15980,6 @@
    "video_bytes": 6093842,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
   },
-  "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x": {
-   "actualizado": "2026-10-18T11:20:13.000Z",
-   "buffer_id": "6ad48aa86d56c60a73023598",
-   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|x",
-   "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "2026-10-18T10:45:18.000Z",
-   "enviado": "2026-10-18T10:45:44.406Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:46:10.000Z",
-   "id": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111770699337551895",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 23,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio\n\nEl evento combinó una muestra artística y presentaciones musicales en el museo. Miguel Pierantoni valoró el festejo allí para poner en valor la labor de los artesanos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio",
-   "urgente": false,
-   "vence": "2026-10-20T00:46:10.000Z",
-   "video_bytes": 6093842,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
-  },
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok": {
    "actualizado": "2026-10-18T15:00:22.000Z",
    "buffer_id": "6ad4a6cb769b457934bbe07a",
@@ -16102,41 +16009,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy\n\nDurante un discurso por el Día de la Lealtad Peronista, la concejal de Fuerza Patria señaló que la fecha representó el origen del movimiento y el momento en que los trabajadores asumieron su propio destino. Asimismo, sostuvo que el peronismo está ligado al pueblo y remarcó que la confianza fundamental debe mantenerse con el pueblo trabajador.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-20T00:58:02.000Z",
-   "video_bytes": 7799823,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
-  },
-  "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x": {
-   "actualizado": "2026-10-18T11:20:13.000Z",
-   "buffer_id": "6ad48aa80a208cb3235991f2",
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|x",
-   "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "2026-10-18T10:30:20.000Z",
-   "enviado": "2026-10-18T10:30:36.266Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:58:02.000Z",
-   "id": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111766890397700495",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy\n\nEn el Día de la Lealtad, la concejal reflexionó sobre la fecha histórica. Sostuvo que el peronismo está ligado al pueblo y que la confianza debe mantenerse con los trabajadores.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy",
@@ -27342,14 +27214,14 @@
    "video_url": ""
   },
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x": {
-   "actualizado": "2026-10-28T10:20:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T11:20:14.000Z",
+   "buffer_id": "6ae1da6ef8d0c164b1601720",
    "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
    "creado": "2026-10-28T10:20:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T12:37:44.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T10:02:44.191Z",
    "id": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be",
    "ig_hora": "2026-10-28T12:37:17.000Z",
@@ -34518,13 +34390,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6adb5f176fe59a6ed27694ae",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|x",
-   "cuando": "2026-10-23T13:20:23.000Z",
-   "dueAt": "2026-10-23T13:28:39.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
    "cuando": "2026-10-23T13:40:25.000Z",
    "estado": "pendiente",
@@ -38751,6 +38616,13 @@
    "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
    "cuando": "2026-10-28T11:00:21.000Z",
    "dueAt": "2026-10-28T12:22:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae1da6ef8d0c164b1601720",
+   "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
+   "cuando": "2026-10-28T11:20:14.000Z",
+   "dueAt": "2026-10-28T12:37:44.000Z",
    "evento": "programado"
   }
  ],

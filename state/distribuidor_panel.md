@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 28/10/2026 08:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 2 |
+| Notas web | X | 15 | 1 | 8 | 4 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,24 +18,23 @@ Actualizado: 28/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
-- X · Reels del bot: 84 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 24 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 87 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 7 con métricas · mediana vistas/impresiones 107 · likes 0
-- TikTok · Reels del bot: 65 con métricas · mediana vistas/impresiones 310 · likes 3
+- TikTok · Reels del bot: 64 con métricas · mediana vistas/impresiones 312.5 · likes 3
 - TikTok · Reels policiales: 12 con métricas · mediana vistas/impresiones 520 · likes 4
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 594 de 600 · 30d: quedan 1029 de 2000 (visto 2026-10-28T11:00:21.000Z)
+15m: quedan 149 de 150 · 24h: quedan 593 de 600 · 30d: quedan 1028 de 2000 (visto 2026-10-28T11:20:14.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (10 esperando)
 - X · Notas web · Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Hecho en Chivilcoy: la exposición para visibilizar la producción local se realiz — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Inte — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategu — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimna — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,7 +50,6 @@ Actualizado: 28/10/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T10:02 recibido web:a3d30d89-bce5-41df-b635-6f903026b394|x 
 - 2026-10-28T10:02 recibido web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 
 - 2026-10-28T10:02 recibido web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
 - 2026-10-28T10:02 recibido web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
@@ -76,3 +74,4 @@ Actualizado: 28/10/2026 08:00 (hora AR) · ACTIVO
 - 2026-10-28T11:00 depurado web:a3d30d89-bce5-41df-b635-6f903026b394|x no está en el carrusel del diario de hoy
 - 2026-10-28T11:00 depurado web:c47cb128-863f-4d78-97f6-739a46ed4cca|x no está en el carrusel del diario de hoy
 - 2026-10-28T11:00 programado web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
+- 2026-10-28T11:20 programado web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
