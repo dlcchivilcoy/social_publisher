@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-28T12:40:16.000Z"
+   "visto": "2026-10-28T14:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 22
+    "scheduled": 0,
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-10-28T12:40:16.000Z"
+   "visto": "2026-10-28T14:00:23.000Z"
   }
  },
  "contenidos": {
@@ -11767,17 +11767,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 587,
-   "segundos": 71999,
+   "restantes": 586,
+   "segundos": 68397,
    "tope": 600
   },
   "30d": {
-   "restantes": 1022,
-   "segundos": 1152619,
+   "restantes": 1021,
+   "segundos": 1149017,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T13:00:25.000Z",
+ "cuota_visto": "2026-10-28T14:00:25.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -14948,19 +14948,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok": {
-   "actualizado": "2026-10-28T13:00:20.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1f1e88f09daaaac16b9a2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok",
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "2026-10-28T13:43:18.000Z",
+   "enviado": "2026-10-28T13:45:13.615Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-26T22:09:40.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701713944599317780",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15600,15 +15601,16 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok": {
-   "actualizado": "2026-10-28T13:00:20.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1f1e623102e8c6f81a970",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
    "creado": "2026-10-28T00:40:14.000Z",
    "dueAt": "2026-10-28T13:23:41.000Z",
-   "error": "",
+   "error": "An unknown error has occurred. Please retry the post again, and get in touch if this persists.",
+   "error_crudo": "Failed to create media container for tiktok: Tiktok update failed to publish: 0: internal (status: FAILED)",
    "espera": "",
-   "estado": "programado",
+   "estado": "error",
    "generado": "2026-10-28T00:27:51.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef",
    "intentos": 0,
@@ -15665,19 +15667,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok": {
-   "actualizado": "2026-10-28T13:00:20.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1f1e623102e8c6f81a73d",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
    "creado": "2026-10-28T01:00:19.000Z",
    "dueAt": "2026-10-28T13:03:20.000Z",
+   "enviado": "2026-10-28T13:09:43.681Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T00:48:38.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701704724193512705",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-se-incendio-una-camioneta-en-la-prolongacion-de-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -27841,19 +27844,20 @@
    "video_url": ""
   },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x": {
-   "actualizado": "2026-10-28T11:40:16.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1df20d47ee8ef2fb48e6b",
    "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
    "creado": "2026-10-28T10:20:19.000Z",
    "dueAt": "2026-10-28T13:07:08.000Z",
+   "enviado": "2026-10-28T13:07:16.219Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:02:58.266Z",
    "id": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e",
    "ig_hora": "2026-10-28T13:07:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115430195012198724",
    "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
    "noticia": "nota:juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
    "origen": "web",
@@ -28456,19 +28460,20 @@
    "viral": false
   },
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x": {
-   "actualizado": "2026-10-28T12:40:17.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1ed31a2992d2fc00dd97d",
    "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
    "creado": "2026-10-28T10:20:19.000Z",
    "dueAt": "2026-10-28T13:52:53.000Z",
+   "enviado": "2026-10-28T13:53:01.955Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:03:30.995Z",
    "id": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b",
    "ig_hora": "2026-10-28T13:52:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115441711551820233",
    "nota_url": "https://www.diariolacampaña.com.ar/n/untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
    "noticia": "nota:untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
    "origen": "web",
@@ -29172,19 +29177,20 @@
    "viral": false
   },
   "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x": {
-   "actualizado": "2026-10-28T11:40:16.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1df2063bb1a485a2ae11e",
    "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
    "creado": "2026-10-28T10:20:19.000Z",
    "dueAt": "2026-10-28T12:52:01.000Z",
+   "enviado": "2026-10-28T12:52:16.296Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:02:51.226Z",
    "id": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0",
    "ig_hora": "2026-10-28T12:52:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115426420016967977",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
    "noticia": "nota:ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
    "origen": "web",
@@ -33908,19 +33914,20 @@
    "video_url": ""
   },
   "web:fc28ba09-8297-457f-a09e-12190be789d3|x": {
-   "actualizado": "2026-10-28T12:20:18.000Z",
+   "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1e883dee6d1a87ac35f35",
    "clave": "web:fc28ba09-8297-457f-a09e-12190be789d3|x",
    "creado": "2026-10-28T10:20:19.000Z",
    "dueAt": "2026-10-28T13:37:44.000Z",
+   "enviado": "2026-10-28T13:37:46.516Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:03:17.441Z",
    "id": "web:fc28ba09-8297-457f-a09e-12190be789d3",
    "ig_hora": "2026-10-28T13:37:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115437871540674851",
    "nota_url": "https://www.diariolacampaña.com.ar/n/reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
    "noticia": "nota:reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
    "origen": "web",
@@ -34056,50 +34063,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x",
-   "cuando": "2026-10-23T14:00:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6adb68806bf37011a37a5aa0",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
-   "cuando": "2026-10-23T14:00:32.000Z",
-   "dueAt": "2026-10-23T14:02:35.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|x",
-   "cuando": "2026-10-23T15:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113627220602167753"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|x",
-   "cuando": "2026-10-23T15:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113632976642736375"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|x",
-   "cuando": "2026-10-23T15:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113628667397955896"
-  },
-  {
-   "clave": "nacionales:47f4536459d66a4a|tiktok",
-   "cuando": "2026-10-23T15:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7699858126392118529"
-  },
-  {
-   "clave": "entrevistas:job00245",
-   "cuando": "2026-10-23T16:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|x",
    "cuando": "2026-10-23T16:20:17.000Z",
@@ -38280,6 +38243,48 @@
    "cuando": "2026-10-28T13:40:15.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701713944599317780"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "error_publicacion",
+   "motivo": "An unknown error has occurred. Please retry the post again, and get in touch if this persists."
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701704724193512705"
+  },
+  {
+   "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115430195012198724"
+  },
+  {
+   "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115441711551820233"
+  },
+  {
+   "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115426420016967977"
+  },
+  {
+   "clave": "web:fc28ba09-8297-457f-a09e-12190be789d3|x",
+   "cuando": "2026-10-28T14:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115437871540674851"
   }
  ],
  "tandas": {
@@ -38311,7 +38316,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T12:40:16.000Z",
+ "ultima_sync": "2026-10-28T14:00:23.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
