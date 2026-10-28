@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 1 | 1 |
-| Reels del bot | TikTok | 20 | 4 | 3 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 1 | 1 | 0 | 1 | 1 |
+| Reels del bot | TikTok | 20 | 4 | 3 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,8 +18,8 @@ Actualizado: 27/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels del bot: 83 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels policiales: 23 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Reels del bot: 82 con métricas · mediana vistas/impresiones 27 · likes 0
+- X · Reels policiales: 22 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 77 con métricas · mediana vistas/impresiones 24 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 4 con métricas · mediana vistas/impresiones 0 · likes 0 ⚠️muestra chica
@@ -30,7 +30,9 @@ Actualizado: 27/10/2026 21:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 523 de 600 · 30d: quedan 1036 de 2000 (visto 2026-10-28T00:40:20.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (8 esperando)
+- X · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Confirman la preventiva de Germán Díaz y definirán su reemplazo en el Concejo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -46,9 +48,6 @@ Actualizado: 27/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T21:00 programado entrevistas:job00254|tiktok 
-- 2026-10-27T21:00 programado entrevistas:job00253|tiktok 
-- 2026-10-27T21:00 programado entrevistas:job00252|tiktok 
 - 2026-10-27T21:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tikto 
 - 2026-10-27T22:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tikto 
 - 2026-10-27T22:20 enviado entrevistas:job00253|tiktok 
@@ -71,3 +70,6 @@ Actualizado: 27/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-28T00:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31068/albe 
 - 2026-10-28T00:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|x 
 - 2026-10-28T00:40 programado policiales:https://junin24.com/locales/destrozos-en-la-vivie 
+- 2026-10-28T01:00 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x 
+- 2026-10-28T01:00 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tikto 
+- 2026-10-28T01:00 recibido web:27dff6dd-cc71-429b-b4b6-cd136b76a346|x la misma noticia ya sale en X (Reels del bot, pendiente)
