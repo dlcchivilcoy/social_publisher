@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,9 +30,8 @@ Actualizado: 28/10/2026 11:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 586 de 600 · 30d: quedan 1021 de 2000 (visto 2026-10-28T14:00:25.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -43,7 +42,6 @@ Actualizado: 28/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T11:00 programado web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
 - 2026-10-28T11:20 programado web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
 - 2026-10-28T11:40 enviado web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
 - 2026-10-28T11:40 enviado web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
@@ -68,3 +66,4 @@ Actualizado: 28/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-28T14:00 enviado web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x 
 - 2026-10-28T14:00 enviado web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
 - 2026-10-28T14:00 enviado web:fc28ba09-8297-457f-a09e-12190be789d3|x 
+- 2026-10-28T14:20 vencido bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
