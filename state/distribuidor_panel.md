@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 28/10/2026 20:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 1 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 2 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 7 | 1 | 0 | 1 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -18,19 +18,19 @@ Actualizado: 28/10/2026 20:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
-- X · Reels del bot: 79 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 22 con métricas · mediana vistas/impresiones 42.5 · likes 0
+- X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 72 con métricas · mediana vistas/impresiones 23.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 7 con métricas · mediana vistas/impresiones 107 · likes 0
 - TikTok · Reels del bot: 58 con métricas · mediana vistas/impresiones 298 · likes 3
 - TikTok · Reels policiales: 8 con métricas · mediana vistas/impresiones 520 · likes 3.5
-- TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
+- TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 568 de 600 · 30d: quedan 1003 de 2000 (visto 2026-10-28T22:40:15.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -42,6 +42,8 @@ Actualizado: 28/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Jorge Guelffi: inclusión y carros adaptados en UNLu Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Detuvieron en Lomas de Zamora a un hombre de 41 años por robar techos solares — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Aprehenden a un joven de 24 años por intento de robo de cables en el exsupermerc — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -52,8 +54,6 @@ Actualizado: 28/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T18:20 recibido entrevistas:job00258|tiktok 
-- 2026-10-28T18:20 enviado bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x 
 - 2026-10-28T18:20 enviado entrevistas:job00256|x 
 - 2026-10-28T18:20 enviado entrevistas:job00257|x 
 - 2026-10-28T18:20 programado entrevistas:job00258|x 
@@ -77,3 +77,5 @@ Actualizado: 28/10/2026 20:00 (hora AR) · ACTIVO
 - 2026-10-28T22:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
 - 2026-10-28T22:40 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x 
 - 2026-10-28T22:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
+- 2026-10-28T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/ 
+- 2026-10-28T23:20 recibido policiales:https://www.diariodemocracia.com/policiales/34723 
