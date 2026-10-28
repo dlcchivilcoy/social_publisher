@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 2
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-28T19:40:15.000Z"
+   "visto": "2026-10-28T21:20:31.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-28T19:40:15.000Z"
+   "visto": "2026-10-28T21:20:31.000Z"
   }
  },
  "contenidos": {
@@ -1292,6 +1292,27 @@
    "video_mb": 1.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7adb4f079b291511.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nqBNmA7jBu0"
+  },
+  "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh": {
+   "descripcion": "Simón Domínguez volverá a vestir la camiseta de la Selección Argentina en el Sur-Centro Juvenil a disputarse en Paraguay. El chivilcoyano, actual jugador de Sedalo y ex Independiente de nuestra ciudad, fue uno de los pivotes convocados para defender la celeste y blanca.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-28T21:06:13.000Z",
+   "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil",
+   "urgente": false,
+   "video_bytes": 539440,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_84f995c8c74b2ec5.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/pHPqsStM-HY"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -8714,6 +8735,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
    "volanta": "Emilio Carabelli"
   },
+  "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5": {
+   "categoria": "",
+   "descripcion": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil Simón Domínguez volverá a vestir la camiseta de la Selección Argentina en el Sur-Centro Juvenil a disputarse en Paraguay. El chivilcoyano, actual jugador de Sedalo y ex Independiente de nuestra ciudad, fue uno de los pivotes convocados para defender la celeste y blanca en el certamen juvenil. Rodolfo Jung y Cristian Campos definieron los 16 jugadores convocados para los torneos subcontinentales, clasificatorios para...",
+   "generado": "2026-10-28T21:03:49.056Z",
+   "id": "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6a78b9e12c704b9ea8da0dd032282adb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:7fb16583-71d2-4d12-9242-d6637d144fca": {
    "categoria": "",
    "descripcion": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización La edición 2026 del Medio Maraton Eduardo Pollaroli tendrá un perfil inclusivo y participativo. A los tradicionales 21K se incorporarán las distancias de 5 y 10K, además de una caminata promovida por el servicio de Oncologia del Hospital Municipal destinada a concientizar sobre el cáncer de mama y de próstata. Asimismo, en esta edición se llevará a cabo por primera vez la iniciativa denominada «UNLu corre por...",
@@ -9254,24 +9294,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/entrada-libre-y-gratuita-en-la-ciudad-localidades-y-escuelas-este",
    "volanta": "Entrada libre y gratuita"
-  },
-  "web:902234a6-60aa-4826-bffd-430eafadfad0": {
-   "categoria": "nacionales",
-   "descripcion": "El cirujano Stefano Margaritora aseguró que no hay impedimentos médicos para la gira del papa León XIV por América Latina, tras recibir el alta el sábado.…",
-   "generado": "2026-10-17T21:06:30.465Z",
-   "id": "web:902234a6-60aa-4826-bffd-430eafadfad0",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_039476e6611e4d138969ff65ed19021a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-celebro-el-aval-medico-a-la-gira-de-leon-xiv-pero-f3deae",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-celebro-el-aval-medico-a-la-gira-de-leon-xiv-pero-f3deae",
-   "volanta": ""
   },
   "web:90a67262-a0c0-4d38-9911-bafe84c9db3a": {
    "categoria": "nacionales",
@@ -11686,22 +11708,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 572,
-   "segundos": 43200,
+   "restantes": 570,
+   "segundos": 41989,
    "tope": 600
   },
   "30d": {
-   "restantes": 1007,
-   "segundos": 1123820,
+   "restantes": 1005,
+   "segundos": 1122609,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T21:00:22.000Z",
+ "cuota_visto": "2026-10-28T21:20:32.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -15618,7 +15640,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T14:22:30.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1",
@@ -15675,7 +15697,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T14:29:20.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm",
@@ -15732,7 +15754,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T14:37:26.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq",
@@ -15789,7 +15811,7 @@
    "creado": "2026-10-28T18:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T18:25:40.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p",
@@ -15836,6 +15858,62 @@
    "vence": "2026-10-28T20:25:40.000Z",
    "video_bytes": 1015921,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7adb4f079b291511.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tiktok": {
+   "actualizado": "2026-10-28T21:20:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tiktok",
+   "creado": "2026-10-28T21:20:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-28T21:06:13.000Z",
+   "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil\n\nSimón Domínguez volverá a vestir la camiseta de la Selección Argentina en el Sur-Centro Juvenil a disputarse en Paraguay. El chivilcoyano, actual jugador de Sedalo y ex Independiente de nuestra ciudad, fue uno de los pivotes convocados para defender la celeste y blanca.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil",
+   "urgente": false,
+   "vence": "2026-10-30T21:06:13.000Z",
+   "video_bytes": 539440,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_84f995c8c74b2ec5.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x": {
+   "actualizado": "2026-10-28T21:20:31.000Z",
+   "buffer_id": "6ae26720443b48362ccea2de",
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x",
+   "creado": "2026-10-28T21:20:21.000Z",
+   "dueAt": "2026-10-28T21:22:41.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-28T21:06:13.000Z",
+   "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "noticia": "nota:chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil\n\nSimón Domínguez volverá a vestir la camiseta de la Selección Argentina en el Sur-Centro Juvenil a disputarse en Paraguay.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil",
+   "urgente": false,
+   "vence": "2026-10-28T23:06:13.000Z",
+   "video_bytes": 539440,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_84f995c8c74b2ec5.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -18454,7 +18532,7 @@
    "creado": "2026-10-28T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T15:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4",
@@ -18563,7 +18641,7 @@
    "creado": "2026-10-28T17:20:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T17:15:01.000Z",
    "id": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4",
@@ -19993,7 +20071,7 @@
    "creado": "2026-10-28T16:40:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T16:40:16.000Z",
    "id": "entrevistas:job00255",
@@ -20050,7 +20128,7 @@
    "creado": "2026-10-28T17:00:32.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T17:00:32.000Z",
    "id": "entrevistas:job00256",
@@ -20107,7 +20185,7 @@
    "creado": "2026-10-28T17:40:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T17:40:18.000Z",
    "id": "entrevistas:job00257",
@@ -20164,7 +20242,7 @@
    "creado": "2026-10-28T18:20:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 1 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-28T18:20:17.000Z",
    "id": "entrevistas:job00258",
@@ -20214,19 +20292,20 @@
    "viral": false
   },
   "entrevistas:job00259|tiktok": {
-   "actualizado": "2026-10-28T21:00:19.000Z",
+   "actualizado": "2026-10-28T21:20:31.000Z",
    "buffer_id": "6ae262657570388bc1f0947e",
    "categoria": "",
    "clave": "entrevistas:job00259|tiktok",
    "creado": "2026-10-28T18:40:15.000Z",
    "dueAt": "2026-10-28T21:03:10.000Z",
+   "enviado": "2026-10-28T21:04:58.507Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T18:40:15.000Z",
    "id": "entrevistas:job00259",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701826683745127686",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -29349,6 +29428,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5|x": {
+   "actualizado": "2026-10-28T21:20:21.000Z",
+   "buffer_id": "",
+   "clave": "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5|x",
+   "creado": "2026-10-28T21:20:21.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-28T21:03:49.056Z",
+   "id": "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "noticia": "nota:chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil",
+   "urgente": false,
+   "vence": "2026-10-29T01:03:49.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7fb16583-71d2-4d12-9242-d6637d144fca|x": {
    "actualizado": "2026-10-23T00:20:25.000Z",
    "buffer_id": "",
@@ -30200,32 +30304,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:902234a6-60aa-4826-bffd-430eafadfad0|x": {
-   "actualizado": "2026-10-18T21:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:902234a6-60aa-4826-bffd-430eafadfad0|x",
-   "creado": "2026-10-17T21:20:16.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-17T21:06:30.465Z",
-   "id": "web:902234a6-60aa-4826-bffd-430eafadfad0",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-celebro-el-aval-medico-a-la-gira-de-leon-xiv-pero-f3deae",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia\n\nEl cirujano Stefano Margaritora aseguró que no hay impedimentos médicos para la gira del papa León XIV por América Latina, tras recibir el alta el sábado.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-celebro-el-aval-medico-a-la-gira-de-leon-xiv-pero-f3deae",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Gobierno celebró el aval médico a la gira de León XIV pero pidió prudencia",
-   "urgente": false,
-   "vence": "2026-10-18T21:06:30.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:90a67262-a0c0-4d38-9911-bafe84c9db3a|x": {
    "actualizado": "2026-10-20T02:20:17.000Z",
@@ -33906,42 +33984,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "nacionales:ae9e5a4804b66987|tiktok",
-   "cuando": "2026-10-23T23:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:ae9e5a4804b66987|x",
-   "cuando": "2026-10-23T23:00:24.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
-   "clave": "nacionales:ae9e5a4804b66987|tiktok",
-   "cuando": "2026-10-23T23:00:24.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
-   "cuando": "2026-10-23T23:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
-   "cuando": "2026-10-23T23:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
    "cuando": "2026-10-23T23:40:24.000Z",
@@ -38129,6 +38171,43 @@
    "cuando": "2026-10-28T21:00:22.000Z",
    "dueAt": "2026-10-28T21:03:10.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x",
+   "cuando": "2026-10-28T21:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tiktok",
+   "cuando": "2026-10-28T21:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5|x",
+   "cuando": "2026-10-28T21:20:31.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00259|tiktok",
+   "cuando": "2026-10-28T21:20:31.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701826683745127686"
+  },
+  {
+   "buffer_id": "6ae26720443b48362ccea2de",
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x",
+   "cuando": "2026-10-28T21:20:32.000Z",
+   "dueAt": "2026-10-28T21:22:41.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38161,7 +38240,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T19:40:15.000Z",
+ "ultima_sync": "2026-10-28T21:20:31.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -38255,6 +38334,7 @@
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm": "2026-10-28T14:40:14.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq": "2026-10-28T14:40:14.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p": "2026-10-28T18:40:15.000Z",
+  "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh": "2026-10-28T21:20:21.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -38837,6 +38917,7 @@
   "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
   "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": "2026-10-18T00:20:13.000Z",
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
+  "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5": "2026-10-28T21:20:21.000Z",
   "web:7fb16583-71d2-4d12-9242-d6637d144fca": "2026-10-23T00:20:14.000Z",
   "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1": "2026-10-20T14:00:21.000Z",
   "web:815f1320-b368-407e-9e43-21cf0ad1b815": "2026-10-23T10:02:47.000Z",
