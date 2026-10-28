@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 7
+    "scheduled": 0,
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-28T00:40:18.000Z"
+   "visto": "2026-10-28T02:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-10-28T00:40:18.000Z"
+   "visto": "2026-10-28T02:00:20.000Z"
   }
  },
  "contenidos": {
@@ -11623,22 +11623,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 523,
-   "segundos": 7198,
+   "restantes": 522,
+   "segundos": 2397,
    "tope": 600
   },
   "30d": {
-   "restantes": 1036,
-   "segundos": 1197021,
+   "restantes": 1035,
+   "segundos": 1192220,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T00:40:20.000Z",
+ "cuota_visto": "2026-10-28T02:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -15165,19 +15165,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok": {
-   "actualizado": "2026-10-28T00:00:21.000Z",
+   "actualizado": "2026-10-28T02:00:20.000Z",
    "buffer_id": "6ae13b1ced0a3f2cb4113a5a",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
    "creado": "2026-10-27T00:40:14.000Z",
    "dueAt": "2026-10-28T01:23:25.000Z",
+   "enviado": "2026-10-28T01:25:13.053Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T00:34:43.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701523214643563783",
    "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15230,19 +15231,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok": {
-   "actualizado": "2026-10-28T00:00:21.000Z",
+   "actualizado": "2026-10-28T02:00:20.000Z",
    "buffer_id": "6ae13b1aed0a3f2cb411393b",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
    "creado": "2026-10-27T13:00:20.000Z",
    "dueAt": "2026-10-28T00:43:14.000Z",
+   "enviado": "2026-10-28T00:43:57.323Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T12:41:37.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
    "intentos": 0,
-   "link": "",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7701512843354557716?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15485,18 +15487,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|x": {
-   "actualizado": "2026-10-28T00:40:18.000Z",
+   "actualizado": "2026-10-28T02:00:20.000Z",
    "buffer_id": "6ae14473d689807dda159a1f",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|x",
    "creado": "2026-10-28T00:40:14.000Z",
    "dueAt": "2026-10-28T00:42:40.000Z",
+   "enviado": "2026-10-28T00:42:51.942Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T00:27:51.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115242859410436478",
    "nota_url": "https://www.diariolacampaña.com.ar/n/conflicto-laboral-antonelli-amarilla-gas-cierra-el-fraccionado-y",
    "noticia": "nota:conflicto-laboral-antonelli-amarilla-gas-cierra-el-fraccionado-y",
    "origen": "bot",
@@ -15669,41 +15672,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "Álvaro Cortes presentó su tercer libro de poesía\n\nDurante el evento en la Sociedad Francesa, el autor estuvo acompañado por Carla Chapetto y Santiago Chapetto en una jornada de lectura y música. Al hablar sobre su obra, Cortes reflexionó sobre el proceso creativo y señaló que no existen mandatos que determinen el corte de un verso o la elección de las palabras.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Álvaro Cortes presentó su tercer libro de poesía",
-   "urgente": false,
-   "vence": "2026-10-20T00:27:01.000Z",
-   "video_bytes": 3510111,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7b27073ca5c7ec0e.mp4"
-  },
-  "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x": {
-   "actualizado": "2026-10-18T02:00:18.000Z",
-   "buffer_id": "6ad4157e0b0d72757afe802d",
-   "clave": "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|x",
-   "creado": "2026-10-18T00:40:14.000Z",
-   "dueAt": "2026-10-18T00:43:33.000Z",
-   "enviado": "2026-10-18T00:43:53.989Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:27:01.000Z",
-   "id": "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111619241317122090",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 42,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Álvaro Cortes presentó su tercer libro de poesía\n\nEn la Sociedad Francesa, se presentó la obra Cuando corten la música. Durante el acto, el autor reflexionó sobre el proceso creativo y los desafíos de decidir el rumbo de cada verso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Álvaro Cortes presentó su tercer libro de poesía",
@@ -18393,19 +18361,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok": {
-   "actualizado": "2026-10-28T00:00:21.000Z",
+   "actualizado": "2026-10-28T02:00:20.000Z",
    "buffer_id": "6ae13b1bb24fed5fb48fc291",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok",
    "creado": "2026-10-27T09:00:19.000Z",
    "dueAt": "2026-10-28T01:03:33.000Z",
+   "enviado": "2026-10-28T01:07:28.151Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T02:52:24.000Z",
    "id": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7701518812939668754?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -23456,18 +23425,19 @@
    "viral": false
   },
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas|x": {
-   "actualizado": "2026-10-28T00:40:18.000Z",
+   "actualizado": "2026-10-28T02:00:20.000Z",
    "buffer_id": "6ae1447421e984edd699d49f",
    "clave": "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas|x",
    "creado": "2026-10-27T23:20:16.000Z",
    "dueAt": "2026-10-28T00:48:29.000Z",
+   "enviado": "2026-10-28T00:48:47.760Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-27T23:02:11.000Z",
    "id": "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115244351886393729",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-desvalijaron-y-destrozaron-una-vivienda-en-construccion-ed540e",
    "noticia": "nota:junin-desvalijaron-y-destrozaron-una-vivienda-en-construccion-ed540e",
    "origen": "policiales",
@@ -33639,45 +33609,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6adb3101efac72e60fc118fc",
-   "clave": "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x",
-   "cuando": "2026-10-23T10:03:45.000Z",
-   "dueAt": "2026-10-23T11:22:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:92c264ae-78ff-431e-bebc-0875504ae30a|x",
-   "cuando": "2026-10-23T10:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b9460b4c-9981-4efd-a82e-33108e7090de|x",
-   "cuando": "2026-10-23T10:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d|x",
-   "cuando": "2026-10-23T10:20:39.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:dd86062e-10d5-470e-a60e-27533841a020|x",
-   "cuando": "2026-10-23T10:20:42.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:1df540af-0585-4bf5-9430-5b0234724aff|x",
    "cuando": "2026-10-23T10:20:43.000Z",
    "evento": "enviado",
@@ -37867,6 +37798,36 @@
    "cuando": "2026-10-28T01:20:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
+   "cuando": "2026-10-28T02:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701523214643563783"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
+   "cuando": "2026-10-28T02:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7701512843354557716?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|x",
+   "cuando": "2026-10-28T02:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115242859410436478"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok",
+   "cuando": "2026-10-28T02:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7701518812939668754?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas|x",
+   "cuando": "2026-10-28T02:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115244351886393729"
   }
  ],
  "tandas": {
@@ -37897,7 +37858,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T00:40:18.000Z",
+ "ultima_sync": "2026-10-28T02:00:20.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
