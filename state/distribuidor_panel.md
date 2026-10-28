@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 28/10/2026 20:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 1 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 2 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 7 | 1 | 0 | 1 |
-| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,7 +28,7 @@ Actualizado: 28/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 568 de 600 · 30d: quedan 1003 de 2000 (visto 2026-10-28T22:40:15.000Z)
+15m: quedan 149 de 150 · 24h: quedan 567 de 600 · 30d: quedan 1002 de 2000 (visto 2026-10-28T23:40:14.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,7 +54,6 @@ Actualizado: 28/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T18:20 enviado entrevistas:job00256|x 
 - 2026-10-28T18:20 enviado entrevistas:job00257|x 
 - 2026-10-28T18:20 programado entrevistas:job00258|x 
 - 2026-10-28T18:40 entrevista_aprobada entrevistas:job00259 
@@ -79,3 +78,4 @@ Actualizado: 28/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-28T22:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
 - 2026-10-28T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/ 
 - 2026-10-28T23:20 recibido policiales:https://www.diariodemocracia.com/policiales/34723 
+- 2026-10-28T23:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
