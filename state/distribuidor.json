@@ -1230,27 +1230,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
   },
-  "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4": {
-   "descripcion": "El tenista argentino Máximo Cataldi completó una destacada actuación y finalizó entre los cuatro mejores del certamen AO Junior Series South America.\n\nEn la instancia de semifinales, Cataldi cayó frente al brasileño Livas Damazio, máximo preclasificado y número uno del torneo, con un marcador de 6-3 y 6-3 en un cruce que se definió por un quiebre por set.\n\nTras el encuentro, el deportista y su equipo realizaron un balance positivo de la experiencia y valoraron el nivel exhibido en la cancha. Al mismo tiempo, remarcaron que continuarán trabajando en diferentes aspectos, como el manejo de las emociones y la serenidad en los momentos clave de los partidos.\n\nFinalmente, Cataldi expresó su agradecimiento a su familia, a su equipo de trabajo y a los auspiciantes que lo acompañan en su carrera, así como a todas las personas que siguieron su desempeño y le brindaron apoyo a la distancia.",
-   "duracion_seg": 109.8,
-   "generado": "2026-10-17T20:47:40.000Z",
-   "id": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
-   "urgente": false,
-   "video_bytes": 23506073,
-   "video_mb": 22.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/9AnQyFzWN4k"
-  },
   "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": {
    "descripcion": "En la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa correspondiente al Día de la Lealtad.\n\nDurante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista en las instalaciones de la entidad partidaria.",
    "duracion_seg": 88.1,
@@ -5655,30 +5634,6 @@
    "volanta": "Principio de incendio en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/6ZYsZuWQCu4"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html": {
-   "categoria": "otro_policial",
-   "descripcion": "La Subsecretaría de Tránsito de Chacabuco llevó a cabo controles durante la madrugada. Retuvieron diez vehículos en total y suspendieron habilitaciones por distintas infracciones.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T15:47:09.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-secuestraron-diez-vehiculos-y-retuvieron-licencias-en-8ded1e",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "texto_tiktok": "La Subsecretaría de Tránsito llevó adelante controles nocturnos en distintos puntos de Chacabuco durante la madrugada.\n\nComo resultado de las fiscalizaciones, los inspectores incautaron ocho automóviles y dos motocicletas debido a que los conductores registraron alcoholemia positiva.\n\nAdemás, las autoridades viales sacaron de circulación 2 motos secuestradas por diversas irregularidades administrativas y falta de elementos de seguridad.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Secuestraron ocho autos y dos motos por alcoholemia positiva",
-   "urgente": false,
-   "video_bytes": 87455,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_04_chacabuco_secuestraron-ocho-autos-y-dos-.mp4",
-   "volanta": "Operativos viales en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/_9nDCRwXAhQ"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": {
    "categoria": "accidente_vial",
    "descripcion": "Un conductor de moto debió ser trasladado de urgencia al hospital local con dolencias en una pierna tras protagonizar un violento impacto contra un automóvil en la intersección de las calles Alberdi y Falucho.",
@@ -6300,30 +6255,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_08_9-de-julio_persecuci-n-y-captura-de-una-b.mp4",
    "volanta": "Robo en Bragado",
    "youtube_url": "https://youtube.com/shorts/HGme8Q7thQw"
-  },
-  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": {
-   "categoria": "incendio",
-   "descripcion": "El fuego se desató el viernes por la noche en una vivienda ubicada en la calle Rafael Obligado. Los propietarios resultaron ilesos y el foco ígneo no causó daños materiales.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
-   "localidad": "Bolívar",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "texto_tiktok": "Un llamado de alerta movilizó a los bomberos y fuerzas de seguridad hacia una vivienda del barrio Los Zorzales en Bolívar.\n\nLas llamas comenzaron cerca de las 22 horas del viernes sobre la calle Rafael Obligado.\n\nEl foco ígneo pudo ser controlado a tiempo y los dueños de casa no sufrieron lesiones.\n\n📲 Más noticias de Bolívar en www.diariolacampaña.com.ar\n\n#Bolivar #Incendio #BomberosVoluntarios #BuenosAires",
-   "tipo": "video",
-   "titulo": "Principio de incendio en una casa del barrio Los Zorzales",
-   "urgente": false,
-   "video_bytes": 86336,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4",
-   "volanta": "Incendio en Bolívar",
-   "youtube_url": "https://youtube.com/shorts/vxxgXXK-YAY"
   },
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": {
    "categoria": "",
@@ -10510,24 +10441,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bolsa-de-cereales-ba-pese-a-la-mejora-en-las-reservas-hidricas-se",
    "volanta": "Bolsa de Cereales BA"
   },
-  "web:c8fffffc-9fd5-4775-9a97-2aa26888b072": {
-   "categoria": "nacionales",
-   "descripcion": "Christopher Landau y Juan Pablo Segura viajarán la semana próxima al país para avanzar en la iniciativa conjunta de infraestructura e inversiones…",
-   "generado": "2026-10-17T18:36:07.463Z",
-   "id": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5587688c22654e13bd9a93ad3c4e1d94~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Corredor Andes-Atlántico",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
-   "volanta": ""
-  },
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": {
    "categoria": "",
    "descripcion": "El Rally Regional puso en marcha su penúltima fecha El Rally Regional puso en marcha su penúltima fecha con la clásica largada simbólica frente al Palacio Municipal, dando inicio formal a la competencia en Chivilcoy. Superadas las verificaciones previas, la carrera cuenta con un recorrido total de 121,66 kilómetros de pruebas especiales distribuidos en dos etapas sobre caminos rurales. La primera etapa se desarrolla este sábado con un total de 59,11 kilómetros de velocidad pura. El cronograma...",
@@ -11630,22 +11543,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 526,
-   "segundos": 11991,
+   "restantes": 525,
+   "segundos": 9595,
    "tope": 600
   },
   "30d": {
-   "restantes": 1039,
-   "segundos": 1201815,
+   "restantes": 1038,
+   "segundos": 1199418,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-27T23:20:26.000Z",
+ "cuota_visto": "2026-10-28T00:00:28.000Z",
  "metricas_buffer": {
   "con_metricas": 66,
   "disponible": true,
@@ -14689,7 +14602,7 @@
    "creado": "2026-10-26T13:48:30.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-26T13:23:58.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
@@ -14754,7 +14667,7 @@
    "creado": "2026-10-26T14:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-26T14:07:32.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
@@ -14895,7 +14808,7 @@
    "creado": "2026-10-26T22:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-26T22:09:40.000Z",
    "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum",
@@ -15172,15 +15085,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok": {
-   "actualizado": "2026-10-27T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T00:00:21.000Z",
+   "buffer_id": "6ae13b1ced0a3f2cb4113a5a",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
    "creado": "2026-10-27T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T01:23:25.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T00:34:43.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6",
    "intentos": 0,
@@ -15237,15 +15150,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok": {
-   "actualizado": "2026-10-27T13:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T00:00:21.000Z",
+   "buffer_id": "6ae13b1aed0a3f2cb411393b",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
    "creado": "2026-10-27T13:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T00:43:14.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T12:41:37.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk",
    "intentos": 0,
@@ -15290,15 +15203,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|tiktok": {
-   "actualizado": "2026-10-27T16:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T00:00:21.000Z",
+   "buffer_id": "6ae13b198bc396ba2f122df1",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|tiktok",
    "creado": "2026-10-27T16:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T00:23:40.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T16:16:18.000Z",
    "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1",
    "intentos": 0,
@@ -15518,41 +15431,6 @@
    "video_bytes": 3585991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "viral": false
-  },
-  "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x": {
-   "actualizado": "2026-10-17T23:40:22.000Z",
-   "buffer_id": "6ad3e1e60a208cb3233931e4",
-   "clave": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4|x",
-   "creado": "2026-10-17T21:00:16.000Z",
-   "dueAt": "2026-10-17T23:33:12.000Z",
-   "enviado": "2026-10-17T23:33:35.424Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T20:47:40.000Z",
-   "id": "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111601547356340425",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 31,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Máximo Cataldi finalizó entre los cuatro mejores del torneo\n\nEl tenista argentino cayó en semifinales del AO Junior Series South America ante Livas Damazio por 6-3 y 6-3. Tras el partido, junto a su equipo realizó un balance positivo de la experiencia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-maximo-cataldi-finalizo-entre-los-cuatro-mejores",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Máximo Cataldi finalizó entre los cuatro mejores del torneo",
-   "urgente": false,
-   "vence": "2026-10-19T20:47:40.000Z",
-   "video_bytes": 23506073,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb1c82696f4249e8.mp4"
   },
   "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok": {
    "actualizado": "2026-10-19T23:40:28.000Z",
@@ -18299,7 +18177,7 @@
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
@@ -18357,15 +18235,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok": {
-   "actualizado": "2026-10-27T09:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T00:00:21.000Z",
+   "buffer_id": "6ae13b1bb24fed5fb48fc291",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok",
    "creado": "2026-10-27T09:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T01:03:33.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T02:52:24.000Z",
    "id": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4",
    "intentos": 0,
@@ -18412,15 +18290,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok": {
-   "actualizado": "2026-10-27T14:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T00:00:21.000Z",
+   "buffer_id": "6ae13b17b24fed5fb48fbe4a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
    "creado": "2026-10-27T14:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T00:03:01.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-27T14:17:57.000Z",
    "id": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4",
    "intentos": 0,
@@ -24078,41 +23956,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_03_chacabuco_se-prendi-fuego-un-auto-en-ple.mp4",
    "viral": false
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x": {
-   "actualizado": "2026-10-17T23:40:22.000Z",
-   "buffer_id": "6ad3c5c80a208cb32333f62e",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html|x",
-   "creado": "2026-10-17T16:00:19.000Z",
-   "dueAt": "2026-10-17T23:03:04.000Z",
-   "enviado": "2026-10-17T23:03:18.134Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T15:47:09.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111593925093839240",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 33,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-secuestraron-diez-vehiculos-y-retuvieron-licencias-en-8ded1e",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Secuestraron ocho autos y dos motos por alcoholemia positiva\n\nLa Subsecretaría de Tránsito de Chacabuco llevó a cabo controles durante la madrugada. Retuvieron diez vehículos en total y suspendieron habilitaciones por distintas infracciones.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-secuestraron-diez-vehiculos-y-retuvieron-licencias-en-8ded1e",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Secuestraron ocho autos y dos motos por alcoholemia positiva",
-   "urgente": false,
-   "vence": "2026-10-18T09:47:09.000Z",
-   "video_bytes": 87455,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1514_04_chacabuco_secuestraron-ocho-autos-y-dos-.mp4"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-20T17:40:15.000Z",
    "buffer_id": "",
@@ -24511,41 +24354,6 @@
    "plataforma": "tiktok",
    "prioridad": 6,
    "texto": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco\n\nUna persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-18T12:41:23.000Z",
-   "video_bytes": 79842,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_1809_01_chacabuco_heridos-y-peleas-callejeras-en.mp4"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x": {
-   "actualizado": "2026-10-17T23:40:22.000Z",
-   "buffer_id": "6ad3c5c7938409f1d09c1297",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html|x",
-   "creado": "2026-10-17T19:00:17.000Z",
-   "dueAt": "2026-10-17T22:33:06.000Z",
-   "enviado": "2026-10-17T22:33:18.242Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T18:41:23.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111586375778615558",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 68,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco\n\nUna persona debió ser trasladada al hospital municipal tras un violento episodio en una vivienda. Además, dos hombres se enfrentaron a golpes en plena calle al mediodía.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-herido-hospitalizado-y-una-pelea-callejera-en-una-022140",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Heridos y peleas callejeras en una jornada de extrema violencia en Chacabuco",
@@ -25431,41 +25239,6 @@
    "video_bytes": 103379,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_08_9-de-julio_persecuci-n-y-captura-de-una-b.mp4",
    "viral": false
-  },
-  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x": {
-   "actualizado": "2026-10-17T23:40:22.000Z",
-   "buffer_id": "6ad3ca89e272c4918f9b788c",
-   "clave": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales|x",
-   "creado": "2026-10-17T09:00:19.000Z",
-   "dueAt": "2026-10-17T23:18:25.000Z",
-   "enviado": "2026-10-17T23:18:33.146Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T03:39:53.000Z",
-   "id": "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111597762990989743",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 6.06,
-    "impressions": 33,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Principio de incendio en una casa del barrio Los Zorzales\n\nEl fuego se desató el viernes por la noche en una vivienda ubicada en la calle Rafael Obligado. Los propietarios resultaron ilesos y el foco ígneo no causó daños materiales.\n\nhttps://www.diariolacampaña.com.ar/n/bolivar-principio-de-incendio-en-una-vivienda-del-barrio-los-3f37d9",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Principio de incendio en una casa del barrio Los Zorzales",
-   "urgente": false,
-   "vence": "2026-10-17T21:39:53.000Z",
-   "video_bytes": 86336,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-17_0238_01_bolivar_principio-de-incendio-en-una-c.mp4"
   },
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x": {
    "actualizado": "2026-10-21T00:00:28.000Z",
@@ -32001,41 +31774,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x": {
-   "actualizado": "2026-10-17T23:40:22.000Z",
-   "buffer_id": "6ad3c5c7938409f1d09c12cd",
-   "clave": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072|x",
-   "creado": "2026-10-17T18:40:12.000Z",
-   "dueAt": "2026-10-17T22:48:16.000Z",
-   "enviado": "2026-10-17T22:48:31.244Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T18:36:07.463Z",
-   "id": "web:c8fffffc-9fd5-4775-9a97-2aa26888b072",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111590204762968379",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 31,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Corredor Andes-Atlántico\n\nChristopher Landau y Juan Pablo Segura viajarán al país para avanzar en la iniciativa de infraestructura e inversiones.\n\nhttps://www.diariolacampaña.com.ar/n/llegan-a-la-argentina-altos-funcionarios-de-estados-unidos-para-39da82",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Llegan a la Argentina altos funcionarios de Estados Unidos para avanzar en el Corredor Andes-Atlántico",
-   "urgente": false,
-   "vence": "2026-10-18T18:36:07.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x": {
    "actualizado": "2026-10-23T23:40:15.000Z",
    "buffer_id": "",
@@ -33725,40 +33463,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x",
-   "cuando": "2026-10-23T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|tiktok",
-   "cuando": "2026-10-23T02:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|x",
-   "cuando": "2026-10-23T02:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113450921694744979"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html|x",
-   "cuando": "2026-10-23T02:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113452295962632320"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html|x",
-   "cuando": "2026-10-23T09:00:23.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|x",
    "cuando": "2026-10-23T09:00:23.000Z",
@@ -37958,6 +37662,41 @@
    "cuando": "2026-10-27T23:20:26.000Z",
    "dueAt": "2026-10-27T23:23:41.000Z",
    "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae13b17b24fed5fb48fbe4a",
+   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
+   "cuando": "2026-10-28T00:00:28.000Z",
+   "dueAt": "2026-10-28T00:03:01.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae13b198bc396ba2f122df1",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|tiktok",
+   "cuando": "2026-10-28T00:00:28.000Z",
+   "dueAt": "2026-10-28T00:23:40.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae13b1aed0a3f2cb411393b",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
+   "cuando": "2026-10-28T00:00:28.000Z",
+   "dueAt": "2026-10-28T00:43:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae13b1bb24fed5fb48fc291",
+   "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok",
+   "cuando": "2026-10-28T00:00:28.000Z",
+   "dueAt": "2026-10-28T01:03:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae13b1ced0a3f2cb4113a5a",
+   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
+   "cuando": "2026-10-28T00:00:28.000Z",
+   "dueAt": "2026-10-28T01:23:25.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -37983,10 +37722,11 @@
    "2026-10-26 18",
    "2026-10-26 21",
    "2026-10-27 10",
-   "2026-10-27 18"
+   "2026-10-27 18",
+   "2026-10-27 21"
   ]
  },
- "ultima_limpieza_release": "2026-10-27",
+ "ultima_limpieza_release": "2026-10-28",
  "ultima_sync": "2026-10-27T23:20:25.000Z",
  "version": 1,
  "vistos": {
