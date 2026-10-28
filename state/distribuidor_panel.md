@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 2 | 0 | 5 | 1 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 2 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 5 | 1 | 0 | 1 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -18,9 +18,9 @@ Actualizado: 28/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
-- X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 24 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 73 con métricas · mediana vistas/impresiones 24 · likes 0
+- X · Reels del bot: 81 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels policiales: 23 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Notas web: 72 con métricas · mediana vistas/impresiones 23.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 7 con métricas · mediana vistas/impresiones 107 · likes 0
 - TikTok · Reels del bot: 61 con métricas · mediana vistas/impresiones 306 · likes 3
@@ -28,10 +28,10 @@ Actualizado: 28/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 581 de 600 · 30d: quedan 1016 de 2000 (visto 2026-10-28T17:00:55.000Z)
+15m: quedan 148 de 150 · 24h: quedan 578 de 600 · 30d: quedan 1013 de 2000 (visto 2026-10-28T17:20:25.000Z)
 
 ## Cola propia (7 esperando)
-- TikTok · Reels del bot · Choque entre un auto y una moto en Necochea y Emilio Mitre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,11 +48,6 @@ Actualizado: 28/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T14:40 recibido web:9460231f-30bd-422d-89e0-f6db3cfd0675|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-28T14:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x 
-- 2026-10-28T14:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x 
-- 2026-10-28T14:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x 
-- 2026-10-28T15:20 recibido bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|x dura 186 s y X admite 140 s sin suscripción
 - 2026-10-28T15:20 recibido bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok 
 - 2026-10-28T15:20 recibido web:556c12fe-a45e-4611-9e39-4ff603a2f030|x 
 - 2026-10-28T15:20 vencido bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -73,3 +68,8 @@ Actualizado: 28/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-28T17:00 enviado entrevistas:job00255|x 
 - 2026-10-28T17:00 programado bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|x 
 - 2026-10-28T17:00 programado entrevistas:job00256|x 
+- 2026-10-28T17:20 baja bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|tiktok 
+- 2026-10-28T17:20 baja bot:video_matias-zucchi_mvsckhvf8egf_01.mp4|x 
+- 2026-10-28T17:20 recibido bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x 
+- 2026-10-28T17:20 recibido bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok 
+- 2026-10-28T17:20 programado bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x 
