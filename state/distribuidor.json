@@ -11006,24 +11006,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
    "volanta": "Gorostiaga · Policiales"
   },
-  "web:d9d5c19d-7cdc-4599-9431-674725b57a40": {
-   "categoria": "nacionales",
-   "descripcion": "En el marco del Día de la Lealtad, el Partido Justicialista lanzó un duro comunicado donde comparó la condena a la expresidenta con el destierro histórico…",
-   "generado": "2026-10-17T15:36:16.807Z",
-   "id": "web:d9d5c19d-7cdc-4599-9431-674725b57a40",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_585c1dac66614762aff23ab868497eb3~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan Domingo Perón",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
-   "volanta": ""
-  },
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": {
    "categoria": "",
    "descripcion": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata La delegación de Chivilcoy fue recibida luego de su participación y competencia en la Final Provincial de los Juegos Bonaerenses, desarrollada en la ciudad de Mar del Plata.",
@@ -32904,32 +32886,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x": {
-   "actualizado": "2026-10-18T15:40:20.000Z",
-   "buffer_id": "",
-   "clave": "web:d9d5c19d-7cdc-4599-9431-674725b57a40|x",
-   "creado": "2026-10-17T15:40:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-17T15:36:16.807Z",
-   "id": "web:d9d5c19d-7cdc-4599-9431-674725b57a40",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan Domingo Perón\n\nhttps://www.diariolacampaña.com.ar/n/el-pj-comparo-la-condena-a-cristina-kirchner-con-la-persecucion-00c8f7",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El PJ comparó la condena a Cristina Kirchner con la persecución histórica a Juan Domingo Perón",
-   "urgente": false,
-   "vence": "2026-10-18T15:36:16.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x": {
    "actualizado": "2026-10-24T23:00:21.000Z",
