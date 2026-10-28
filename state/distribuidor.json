@@ -17,7 +17,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-28T21:20:31.000Z"
+   "visto": "2026-10-28T22:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 27
+    "sent": 28
    },
    "pausado": false,
-   "visto": "2026-10-28T21:20:31.000Z"
+   "visto": "2026-10-28T22:40:14.000Z"
   }
  },
  "contenidos": {
@@ -6322,6 +6322,32 @@
    "volanta": "Robo en Bragado",
    "youtube_url": "https://youtube.com/shorts/HGme8Q7thQw"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/": {
+   "categoria": "accidente_vial",
+   "descripcion": "Dos jóvenes de 22 y 24 años terminaron hospitalizadas tras chocar en moto contra una camioneta Toyota Hilux en la avenida Garmendia. Ambas recibieron el alta médica.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-28T22:31:27.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Una moto y una camioneta protagonizaron un violento choque en la tarde del martes sobre la avenida Garmendia, entre las calles Hipólito Yrigoyen y Santa Fe.\n\nA bordo del rodado menor circulaban dos jóvenes identificadas como Sofía J., de 22 años, y Abril P., de 24, quienes debieron ser trasladadas en una ambulancia de la empresa Clysa.\n\nEl impacto se produjo contra una camioneta Toyota Hilux blanca por motivos que aún se investigan, interviniendo personal de la Policía Comunal en el lugar del hecho.\n\nEn el Hospital Interzonal General de Agudos \"Dr.\n\nJulio de Vedia\", la conductora no presentó lesiones mientras que su acompañante quedó en observación hasta recibir el alta.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque entre camioneta y moto: dos jóvenes al hospital",
+   "urgente": false,
+   "video_bytes": 112344,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_07_9-de-julio_choque-entre-camioneta-y-moto-.mp4",
+   "volanta": "Siniestro vial en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/XvYQhOLgDIs"
+  },
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": {
    "categoria": "",
    "descripcion": "Benjamín Gómez logró la primera medalla para Chivilcoy Primera medalla para la delegación de Chivilcoy: en atletismo, 3000 metros, Benjamín Gómez. Resultados de la primera jornada: ● Medalla de bronce en 3000 metros sub-16 libre: Benjamín Gómez. ● Fútbol PCD mayores de 17 años: Chivilcoy 2 vs. Escobar 9. ● Fútbol PCD sub-16: Chivilcoy 8 vs. Tres Arroyos 0. ● Fútbol tenis: Chivilcoy 0 vs. Quilmes 2 (8-15 y 11-15). ● Handball sub-14 femenino libre: Chivilcoy 30 vs. Tandil 24. ● Handball sub-14...",
@@ -11674,17 +11700,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 570,
-   "segundos": 41989,
+   "restantes": 568,
+   "segundos": 37206,
    "tope": 600
   },
   "30d": {
-   "restantes": 1005,
-   "segundos": 1122609,
+   "restantes": 1003,
+   "segundos": 1117826,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T21:20:32.000Z",
+ "cuota_visto": "2026-10-28T22:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -15778,18 +15804,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x": {
-   "actualizado": "2026-10-28T21:20:31.000Z",
+   "actualizado": "2026-10-28T22:40:14.000Z",
    "buffer_id": "6ae26720443b48362ccea2de",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x",
    "creado": "2026-10-28T21:20:21.000Z",
    "dueAt": "2026-10-28T21:22:41.000Z",
+   "enviado": "2026-10-28T21:22:53.630Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T21:06:13.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115554922800242736",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
    "noticia": "nota:chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
    "origen": "bot",
@@ -25578,6 +25605,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_08_9-de-julio_persecuci-n-y-captura-de-una-b.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/|x": {
+   "actualizado": "2026-10-28T22:40:15.000Z",
+   "buffer_id": "6ae279cf59e06155634602dc",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/|x",
+   "creado": "2026-10-28T22:40:14.000Z",
+   "dueAt": "2026-10-28T22:43:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-28T22:31:27.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
+   "noticia": "nota:9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Choque entre camioneta y moto: dos jóvenes al hospital\n\nDos jóvenes de 22 y 24 años terminaron hospitalizadas tras chocar en moto contra una camioneta Toyota Hilux en la avenida Garmendia. Ambas recibieron el alta médica.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque entre camioneta y moto: dos jóvenes al hospital",
+   "urgente": false,
+   "vence": "2026-10-29T00:31:27.000Z",
+   "video_bytes": 112344,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_07_9-de-julio_choque-entre-camioneta-y-moto-.mp4",
+   "viral": false
+  },
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x": {
    "actualizado": "2026-10-21T00:00:28.000Z",
    "buffer_id": "",
@@ -33848,30 +33903,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
-   "cuando": "2026-10-23T23:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok",
-   "cuando": "2026-10-23T23:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x",
-   "cuando": "2026-10-23T23:40:25.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
    "cuando": "2026-10-23T23:40:25.000Z",
    "evento": "enviado",
@@ -38071,6 +38102,27 @@
    "cuando": "2026-10-28T21:20:32.000Z",
    "dueAt": "2026-10-28T21:22:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/|x",
+   "cuando": "2026-10-28T22:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x",
+   "cuando": "2026-10-28T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115554922800242736"
+  },
+  {
+   "buffer_id": "6ae279cf59e06155634602dc",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/|x",
+   "cuando": "2026-10-28T22:40:15.000Z",
+   "dueAt": "2026-10-28T22:43:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38103,7 +38155,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T21:20:31.000Z",
+ "ultima_sync": "2026-10-28T22:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -38531,6 +38583,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/": "2026-10-26T09:00:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": "2026-10-25T23:40:15.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/": "2026-10-27T00:20:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/": "2026-10-28T22:40:14.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",

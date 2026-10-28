@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 1 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 1 | 0 | 0 | 0 | 2 |
+| Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 2 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 7 | 1 | 0 | 1 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 28 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 28/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 570 de 600 · 30d: quedan 1005 de 2000 (visto 2026-10-28T21:20:32.000Z)
+15m: quedan 148 de 150 · 24h: quedan 568 de 600 · 30d: quedan 1003 de 2000 (visto 2026-10-28T22:40:15.000Z)
 
 ## Cola propia (11 esperando)
 - TikTok · Reels del bot · Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,9 +52,6 @@ Actualizado: 28/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T17:40 programado entrevistas:job00257|x 
-- 2026-10-28T18:20 entrevista_aprobada entrevistas:job00258 
-- 2026-10-28T18:20 recibido entrevistas:job00258|x 
 - 2026-10-28T18:20 recibido entrevistas:job00258|tiktok 
 - 2026-10-28T18:20 enviado bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x 
 - 2026-10-28T18:20 enviado entrevistas:job00256|x 
@@ -77,3 +74,6 @@ Actualizado: 28/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-28T21:20 recibido web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-28T21:20 enviado entrevistas:job00259|tiktok 
 - 2026-10-28T21:20 programado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x 
+- 2026-10-28T22:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
+- 2026-10-28T22:40 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x 
+- 2026-10-28T22:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
