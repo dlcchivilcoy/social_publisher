@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-10-28T14:00:23.000Z"
+   "visto": "2026-10-28T15:20:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,34 +26,13 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-28T14:00:23.000Z"
+   "visto": "2026-10-28T15:20:24.000Z"
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix": {
-   "descripcion": "Brandon Videla pidió ayuda para recuperar su motocicleta, sustraída el miércoles 14 de octubre, alrededor de las 23, en calle 94. Se trata de una Gilera Smash negra y azul, dominio A154COA. Como características distintivas, tiene un logo de River debajo del tablero y una calcomanía",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-16T13:43:28.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
-   "urgente": false,
-   "video_bytes": 942586,
-   "video_mb": 0.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/18IXmpACoNk"
-  },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": {
    "descripcion": "En el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares.",
    "duracion_seg": 30.0,
@@ -1377,27 +1356,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4",
    "youtube_url": "https://www.youtube.com/shorts/3WznKwdrDgs"
   },
-  "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4": {
-   "descripcion": "En el marco del Día de la Lealtad Peronista, la concejal de Fuerza Patria, Constanza Alonso, brindó un discurso en la sede del Partido Justicialista de Chivilcoy.\n\nDurante su intervención, Alonso reflexionó sobre el significado histórico de la fecha conmemorada. En ese sentido, señaló que la jornada representó el origen del movimiento y el instante en que los trabajadores asumieron las riendas de su propio destino, remarcando que el acontecimiento no se limitó únicamente a la liberación del líder.\n\nAsimismo, la edil sostuvo que el peronismo está intrínsecamente ligado al pueblo. En esa línea, remarcó que, más allá del rol o el desempeño circunstancial de los dirigentes y de las discusiones coyunturales, la confianza fundamental debe mantenerse siempre con el pueblo trabajador.",
-   "duracion_seg": 67.9,
-   "generado": "2026-10-18T00:58:02.000Z",
-   "id": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy",
-   "urgente": false,
-   "video_bytes": 7799823,
-   "video_mb": 7.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/quiiJy0JtbY"
-  },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": {
    "descripcion": "En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo llevó a cabo una bendición especial dedicada a todas las madres de la comunidad en la Parroquia San Pedro de Chivilcoy.\n\nDurante su mensaje, el sacerdote resaltó la importancia de recordar, agradecer y valorar a las madres, a quienes consideró como uno de los regalos más preciados. En ese sentido, destacó el rol fundamental que cumplen al orientar y acompañar el crecimiento de sus hijos a través de la fe, la esperanza y la caridad.\n\nAsimismo, en la ceremonia religiosa se elevó una oración especial por todas las mujeres que recibieron la gracia de la maternidad y se pidió bendecir a aquellas que enriquecen este camino con fidelidad.",
    "duracion_seg": 60.2,
@@ -2174,6 +2132,27 @@
    "video_mb": 1.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0c6ccdb5adadde33.mp4",
    "youtube_url": "https://www.youtube.com/shorts/4SQgjMWFLLs"
+  },
+  "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4": {
+   "descripcion": "La sede de ATIADIM en Chivilcoy fue el escenario del primer encuentro zonal de instituciones de la discapacidad, una propuesta que convocó a diversos centros de día, hogares y entidades de la región.\n\nLa jornada se impulsó en el marco de la semana de la educación física a nivel provincial y tuvo como eje principal el desarrollo de actividades grupales e integradoras entre los concurrentes.\n\nEl objetivo central estuvo enfocado en propiciar el trabajo en conjunto y afianzar lazos con personas e instituciones con las que habitualmente no se comparte la labor cotidiana.\n\nAsimismo, los referentes destacaron la relevancia de retomar estas instancias presenciales tras varios años de interrupción. De esta manera, el espacio permitió no solo desplegar iniciativas recreativas y físicas, sino también propiciar el intercambio de experiencias, problemáticas e ideas entre los diferentes equipos técnicos.",
+   "duracion_seg": 186.5,
+   "generado": "2026-10-28T15:05:47.000Z",
+   "id": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
+   "urgente": false,
+   "video_bytes": 33736066,
+   "video_mb": 32.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_954b2bc875b06ee0.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/OkTkOcbtDyI"
   },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
@@ -6682,24 +6661,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
    "volanta": ""
   },
-  "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": {
-   "categoria": "",
-   "descripcion": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local En la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa por el Día de la Lealtad. Durante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista.",
-   "generado": "2026-10-17T23:30:46.054Z",
-   "id": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_866beb9e1066447285c344847731c04a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:1666fae3-dd89-410f-b67f-9206fc69affb": {
    "categoria": "",
    "descripcion": "Cosecha récord de medallas para Chivilcoy en la tercera jornada de los Juegos Bonaerenses La delegación local tuvo una jornada consagratoria en Mar del Plata: el atletismo y el patín artístico brillaron con múltiples podios, mientras que los adultos mayores sumaron la primera presea de plata. Además, varias disciplinas aseguraron su lugar en semifinales. El tercer día de competencias en la Final Provincial de los Juegos Bonaerenses dejó un saldo sumamente positivo para la delegación de...",
@@ -7479,24 +7440,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperan-una-moto-robada-y-demoran-a-un-menor",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:36f35444-e990-4d78-aeea-920acd95d869": {
-   "categoria": "nacionales",
-   "descripcion": "La Asociación Bancaria acordó con las cámaras empresariales un incremento del 1,9% para septiembre. Con este ajuste, el salario inicial bruto escaló a más…",
-   "generado": "2026-10-17T15:06:17.302Z",
-   "id": "web:36f35444-e990-4d78-aeea-920acd95d869",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c6b6b01c826141aabcc77a58b186841d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la paritaria",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
-   "volanta": ""
-  },
   "web:3759665f-fb36-4adc-8b4c-b317b209876b": {
    "categoria": "",
    "descripcion": "Jorge Giallorenzi presentará una edición especial de su publicación internacional de poesía haiku titulada “Terremotos” En el marco de las celebraciones por el aniversario de la fundación de la ciudad, el escritor y coleccionista Jorge Giallorenzi presentará en Chivilcoy una edición especial de su publicación internacional de poesía haiku titulada “Terremotos”. La propuesta literaria y artística tendrá lugar el venidero jueves 22 de octubre a las 19.30 horas en el salón de la planta baja de...",
@@ -7944,24 +7887,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/murio-un-militar-estadounidense-tras-caer-mas-de-30-metros-be6592",
    "volanta": ""
   },
-  "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8": {
-   "categoria": "",
-   "descripcion": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio La Feria Artesanal y Cultural celebró su 35° aniversario con una propuesta que combinó muestra artística, feria y música en las instalaciones del Museo Pompeo Boggio. Miguel Pierantoni, referente del espacio, expresó su satisfacción por el camino recorrido desde los inicios de la iniciativa: «Hubo un par de personas de las cuales algunos están hoy acá presentes, me incluyo porque yo también estaba, y se decidió hacer una...",
-   "generado": "2026-10-18T00:44:31.671Z",
-   "id": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0b713739a66a4294b4b678fd57fbd866~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "volanta": "Chivilcoy · Cultura"
-  },
   "web:51e471e5-2b2b-43ba-8451-9ac391cdb485": {
    "categoria": "",
    "descripcion": "Derogar las PASO para recuperar la democracia interna de los partidos No es la primera vez que escribo para expresar mi desacuerdo con las elecciones Primarias, Abiertas, Simultáneas y Obligatorias (PASO). Desde su implementación sostuve que, lejos de fortalecer la democracia interna de los partidos políticos, terminarían convirtiéndose en una gran encuesta electoral, particularmente útil para los gobiernos de turno, interesados en medir anticipadamente sus posibilidades y las de sus...",
@@ -8036,6 +7961,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/actualidad-local-y-judicial-ana-paula-martorelli-considero-que-1",
    "volanta": ""
+  },
+  "web:556c12fe-a45e-4611-9e39-4ff603a2f030": {
+   "categoria": "",
+   "descripcion": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad En la ciudad de Chivilcoy se desarrolló el primer encuentro zonal de instituciones de la discapacidad, una jornada con sede en el predio de ATIADIM que reunió a diversos centros de día, hogares e instituciones de la región. La actividad se gestó en el marco de la semana de la educación física a nivel provincial y apuntó a realizar propuestas de trabajo grupal e integración entre los asistentes. Sobre la propuesta,...",
+   "generado": "2026-10-28T15:04:18.957Z",
+   "id": "web:556c12fe-a45e-4611-9e39-4ff603a2f030",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_783f96334b844abbbfa69735b1eef8d0~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438": {
    "categoria": "",
@@ -8786,24 +8730,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/emilio-carabelli-la-verdad-que-es-mucha-disciplina-mucho-deporte-y",
    "volanta": "Emilio Carabelli"
   },
-  "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": {
-   "categoria": "",
-   "descripcion": "Investigadores lograron aislar una cepa bacteriana para crear un biofertilizante destinado al cultivo de maíz que fija nitrógeno de forma biológica.",
-   "generado": "2026-10-18T00:02:04.510Z",
-   "id": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5b5e1b0936d3405e83f47df231f7b236~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
-   "volanta": ""
-  },
   "web:7fb16583-71d2-4d12-9242-d6637d144fca": {
    "categoria": "",
    "descripcion": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización La edición 2026 del Medio Maraton Eduardo Pollaroli tendrá un perfil inclusivo y participativo. A los tradicionales 21K se incorporarán las distancias de 5 y 10K, además de una caminata promovida por el servicio de Oncologia del Hospital Municipal destinada a concientizar sobre el cáncer de mama y de próstata. Asimismo, en esta edición se llevará a cabo por primera vez la iniciativa denominada «UNLu corre por...",
@@ -9400,24 +9326,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
    "volanta": ""
-  },
-  "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf": {
-   "categoria": "",
-   "descripcion": "Álvaro Cortes presentó su tercer libro de poesía En las instalaciones de la Sociedad Francesa, Álvaro Cortes llevó a cabo la presentación de su tercer libro de poesía titulado «Cuando corten la música». Durante la jornada, el autor estuvo acompañado por Carla Chapetto, quien se encargó de entrevistarlo y de leer varios de sus poemas, con la ambientación musical a cargo de Santiago Chapetto. En relación con el proceso de creación literaria, Cortes reflexionó sobre la importancia de atender a...",
-   "generado": "2026-10-18T00:26:21.199Z",
-   "id": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6e80fb9684a643e1af0ee5ffe6bb12fe~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Álvaro Cortes presentó su tercer libro de poesía",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
-   "volanta": "Chivilcoy · Cultura"
   },
   "web:9460231f-30bd-422d-89e0-f6db3cfd0675": {
    "categoria": "",
@@ -10760,24 +10668,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
    "volanta": ""
   },
-  "web:ccce7a0b-db66-488d-8412-6628b516975f": {
-   "categoria": "",
-   "descripcion": "El climatólogo Rafael Di Marco anticipa precipitaciones localizadas y un pico pluvial entre diciembre y enero que desafiarán al agro argentino.",
-   "generado": "2026-10-17T23:02:14.556Z",
-   "id": "web:ccce7a0b-db66-488d-8412-6628b516975f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b3606fdd7d7b4162b38658163d36f1c4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Niño en Argentina: advierten por lluvias intensas y picos de agua entre diciembre y enero",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
-   "volanta": ""
-  },
   "web:cda8454d-0a50-4bdf-a400-999d0e9be823": {
    "categoria": "",
    "descripcion": "Capacitación a personal de las fuerzas de seguridad para fortalecer la articulación con la Justicia",
@@ -11887,17 +11777,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 585,
-   "segundos": 65986,
+   "restantes": 584,
+   "segundos": 63597,
    "tope": 600
   },
   "30d": {
-   "restantes": 1020,
-   "segundos": 1146606,
+   "restantes": 1019,
+   "segundos": 1144217,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T14:40:37.000Z",
+ "cuota_visto": "2026-10-28T15:20:24.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -11914,43 +11804,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad4a6cb0a208cb323602036",
-   "clave": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix|tiktok",
-   "creado": "2026-10-16T14:00:21.000Z",
-   "dueAt": "2026-10-18T14:23:49.000Z",
-   "enviado": "2026-10-18T14:25:44.805Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-16T13:43:28.000Z",
-   "id": "bot:corresponsal_2026-10-16_matias-zucchi_mvb0c1c5bxix",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698013552829156628",
-   "metricas": {
-    "averageTimeWatched": 3.68,
-    "comments": 0,
-    "engagementRate": 1.29,
-    "reach": 0,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 19.3,
-    "views": 310
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Piden colaboración para recuperar una moto robada en calle 94\n\nBrandon Videla solicitó ayuda para dar con su motocicleta sustraída el miércoles 14 de octubre alrededor de las 23. Se trata de una Gilera Smash negra y azul, patente A154COA, que lleva un logo de River debajo del tablero.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-piden-colaboracion-para-recuperar-una-moto\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Piden colaboración para recuperar una moto robada en calle 94",
-   "urgente": false,
-   "vence": "2026-10-18T13:43:28.000Z",
-   "video_bytes": 942586,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bb5beb9c6a93ff3f.mp4"
-  },
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok": {
    "actualizado": "2026-10-19T17:40:31.000Z",
    "buffer_id": "",
@@ -15872,18 +15725,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x": {
-   "actualizado": "2026-10-28T14:40:34.000Z",
+   "actualizado": "2026-10-28T15:20:24.000Z",
    "buffer_id": "6ae20963620f841dd3487645",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x",
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "2026-10-28T14:42:06.000Z",
+   "enviado": "2026-10-28T14:42:19.726Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T14:22:30.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115454117288067173",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-se-realizo-la-septima-jornada-de-infectologia-en",
    "noticia": "nota:chivilcoy-salud-se-realizo-la-septima-jornada-de-infectologia-en",
    "origen": "bot",
@@ -15928,18 +15782,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x": {
-   "actualizado": "2026-10-28T14:40:34.000Z",
+   "actualizado": "2026-10-28T15:20:24.000Z",
    "buffer_id": "6ae2096400f35d308c80bbd8",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x",
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "2026-10-28T14:47:41.000Z",
+   "enviado": "2026-10-28T14:47:53.701Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T14:29:20.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115455518298800168",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-el-cuch-y-la-utn-convocan-a-un-encuentro-con",
    "noticia": "nota:chivilcoy-educacion-el-cuch-y-la-utn-convocan-a-un-encuentro-con",
    "origen": "bot",
@@ -15984,18 +15839,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x": {
-   "actualizado": "2026-10-28T14:40:34.000Z",
+   "actualizado": "2026-10-28T15:20:24.000Z",
    "buffer_id": "6ae2096400f35d308c80bc2b",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x",
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "2026-10-28T14:53:50.000Z",
+   "enviado": "2026-10-28T14:54:08.771Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T14:37:26.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115457091208908997",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
    "noticia": "nota:chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
    "origen": "bot",
@@ -16145,43 +16001,6 @@
    "vence": "2026-10-20T00:46:10.000Z",
    "video_bytes": 6093842,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
-  },
-  "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad4a6cb769b457934bbe07a",
-   "clave": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4|tiktok",
-   "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "2026-10-18T13:43:39.000Z",
-   "enviado": "2026-10-18T14:19:12.903Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:58:02.000Z",
-   "id": "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698003171033042197",
-   "metricas": {
-    "averageTimeWatched": 3.5,
-    "comments": 0,
-    "engagementRate": 0.22,
-    "reach": 0,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 32.57,
-    "views": 450
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy\n\nDurante un discurso por el Día de la Lealtad Peronista, la concejal de Fuerza Patria señaló que la fecha representó el origen del movimiento y el momento en que los trabajadores asumieron su propio destino. Asimismo, sostuvo que el peronismo está ligado al pueblo y remarcó que la confianza fundamental debe mantenerse con el pueblo trabajador.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Constanza Alonso habló en el Partido Justicialista de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-20T00:58:02.000Z",
-   "video_bytes": 7799823,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_316321b55bebdf4b.mp4"
   },
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4|tiktok": {
    "actualizado": "2026-10-18T18:20:23.000Z",
@@ -18594,15 +18413,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok": {
-   "actualizado": "2026-10-26T15:20:14.000Z",
+   "actualizado": "2026-10-28T15:20:24.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok",
    "creado": "2026-10-26T15:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-26T15:02:14.000Z",
    "id": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4",
    "intentos": 0,
@@ -18798,6 +18617,59 @@
    "vence": "2026-10-27T16:17:57.000Z",
    "video_bytes": 1783843,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0c6ccdb5adadde33.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok": {
+   "actualizado": "2026-10-28T15:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
+   "creado": "2026-10-28T15:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-28T15:05:47.000Z",
+   "id": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad\n\nCentros de día, hogares y entidades de la región participaron en Chivilcoy de una jornada con actividades grupales e integradoras por la semana de la educación física. Además de promover el trabajo en conjunto y afianzar lazos, los referentes destacaron la importancia de retomar estos espacios presenciales tras varios años de interrupción.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
+   "urgente": false,
+   "vence": "2026-10-30T15:05:47.000Z",
+   "video_bytes": 33736066,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_954b2bc875b06ee0.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|x": {
+   "actualizado": "2026-10-28T15:20:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|x",
+   "creado": "2026-10-28T15:20:14.000Z",
+   "dueAt": "",
+   "error": "dura 186 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-28T15:05:47.000Z",
+   "id": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "noticia": "nota:chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
+   "urgente": false,
+   "vence": "2026-10-28T17:05:47.000Z",
+   "video_bytes": 33736066,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_954b2bc875b06ee0.mp4",
    "viral": false
   },
   "entrevistas:job00224|x": {
@@ -26263,41 +26135,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad4a20e938409f1d0c7bf3d",
-   "clave": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b|x",
-   "creado": "2026-10-17T23:40:13.000Z",
-   "dueAt": "2026-10-18T14:30:40.000Z",
-   "enviado": "2026-10-18T14:30:46.173Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T23:30:46.054Z",
-   "id": "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111827329014010066",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 21,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local\n\nEn la sede del Partido Justicialista de Chivilcoy se realizó el cierre de la jornada por el Día de la Lealtad. Los presentes concluyeron la actividad con la tradicional marcha.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
-   "urgente": false,
-   "vence": "2026-10-18T23:30:46.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:1666fae3-dd89-410f-b67f-9206fc69affb|x": {
    "actualizado": "2026-10-23T12:40:19.000Z",
    "buffer_id": "6adb398ffe8ae6dfd4556e9f",
@@ -27529,32 +27366,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:36f35444-e990-4d78-aeea-920acd95d869|x": {
-   "actualizado": "2026-10-18T15:20:24.000Z",
-   "buffer_id": "",
-   "clave": "web:36f35444-e990-4d78-aeea-920acd95d869|x",
-   "creado": "2026-10-17T15:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-17T15:06:17.302Z",
-   "id": "web:36f35444-e990-4d78-aeea-920acd95d869",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la paritaria\n\nLa Asociación Bancaria acordó con las cámaras empresariales un incremento del 1,9% para septiembre.\n\nhttps://www.diariolacampaña.com.ar/n/bancarios-cuanto-cobran-de-sueldo-inicial-y-como-quedaron-los-e0ad94",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Bancarios: cuánto cobran de sueldo inicial y cómo quedaron los aumentos tras la paritaria",
-   "urgente": false,
-   "vence": "2026-10-18T15:06:17.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:3759665f-fb36-4adc-8b4c-b317b209876b|x": {
    "actualizado": "2026-10-21T11:40:16.000Z",
    "buffer_id": "6ad8920aeeda5396835d94a7",
@@ -28246,41 +28057,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad48aab769b457934b519eb",
-   "clave": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8|x",
-   "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "2026-10-18T13:45:27.000Z",
-   "enviado": "2026-10-18T13:45:31.344Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:44:31.671Z",
-   "id": "web:511045b4-d3b7-487b-b2ff-adb1fd1cd0b8",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111815942724366637",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio\n\nEl evento combinó muestra artística, feria y música en el Museo Pompeo Boggio. Su referente, Miguel Pierantoni, celebró el camino recorrido.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio",
-   "urgente": false,
-   "vence": "2026-10-19T00:44:31.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:51e471e5-2b2b-43ba-8451-9ac391cdb485|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -28403,6 +28179,33 @@
    "titulo": "Actualidad local y judicial",
    "urgente": false,
    "vence": "2026-10-26T16:02:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:556c12fe-a45e-4611-9e39-4ff603a2f030|x": {
+   "actualizado": "2026-10-28T15:20:24.000Z",
+   "buffer_id": "",
+   "clave": "web:556c12fe-a45e-4611-9e39-4ff603a2f030|x",
+   "creado": "2026-10-28T15:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-28T15:04:18.957Z",
+   "id": "web:556c12fe-a45e-4611-9e39-4ff603a2f030",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "noticia": "nota:chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad\n\nEl evento reunió en Chivilcoy a centros de día e instituciones de la región. La jornada apuntó a realizar propuestas de trabajo grupal e integración.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
+   "urgente": false,
+   "vence": "2026-10-28T19:04:18.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -29622,41 +29425,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad49d5d2ac332131c0cf198",
-   "clave": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560|x",
-   "creado": "2026-10-18T00:20:13.000Z",
-   "dueAt": "2026-10-18T14:15:49.000Z",
-   "enviado": "2026-10-18T14:16:02.483Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:02:04.510Z",
-   "id": "web:7e9c35e8-7db6-4f24-871e-773dbc78f560",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111823623077937604",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 13,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar\n\nInvestigadores lograron aislar una cepa bacteriana para crear un biofertilizante destinado al cultivo de maíz que fija nitrógeno de forma biológica.\n\nhttps://www.diariolacampaña.com.ar/n/maiz-crean-un-bioestimulante-foliar-a-partir-de-bacterias-de-la-7a5be3",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Maíz: crean un bioestimulante foliar a partir de bacterias de la caña de azúcar",
-   "urgente": false,
-   "vence": "2026-10-19T00:02:04.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:7fb16583-71d2-4d12-9242-d6637d144fca|x": {
    "actualizado": "2026-10-23T00:20:25.000Z",
    "buffer_id": "",
@@ -30590,41 +30358,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad49d5d0b0d72757a192340",
-   "clave": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf|x",
-   "creado": "2026-10-18T00:40:14.000Z",
-   "dueAt": "2026-10-18T14:00:54.000Z",
-   "enviado": "2026-10-18T14:02:56.088Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T00:26:21.199Z",
-   "id": "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111820324861874250",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 22,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Álvaro Cortes presentó su tercer libro de poesía\n\nEn las instalaciones de la Sociedad Francesa, Álvaro Cortes llevó a cabo la presentación de su tercer libro de poesía titulado «Cuando corten la música».\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alvaro-cortes-presento-su-tercer-libro-de-poesia",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Álvaro Cortes presentó su tercer libro de poesía",
-   "urgente": false,
-   "vence": "2026-10-19T00:26:21.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:9460231f-30bd-422d-89e0-f6db3cfd0675|x": {
    "actualizado": "2026-10-28T14:40:14.000Z",
@@ -32682,41 +32415,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:ccce7a0b-db66-488d-8412-6628b516975f|x": {
-   "actualizado": "2026-10-18T15:00:22.000Z",
-   "buffer_id": "6ad4a6c6938409f1d0c8ce5b",
-   "clave": "web:ccce7a0b-db66-488d-8412-6628b516975f|x",
-   "creado": "2026-10-17T23:20:15.000Z",
-   "dueAt": "2026-10-18T14:45:49.000Z",
-   "enviado": "2026-10-18T14:46:01.932Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-17T23:02:14.556Z",
-   "id": "web:ccce7a0b-db66-488d-8412-6628b516975f",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111831170564440170",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El Niño en Argentina: advierten por lluvias intensas y picos de agua entre diciembre y enero\n\nEl climatólogo Rafael Di Marco anticipa precipitaciones localizadas y un pico pluvial entre diciembre y enero que desafiarán al agro argentino.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-en-argentina-advierten-por-lluvias-intensas-y-picos-de-3519f3",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Niño en Argentina: advierten por lluvias intensas y picos de agua entre diciembre y enero",
-   "urgente": false,
-   "vence": "2026-10-18T23:02:14.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:cda8454d-0a50-4bdf-a400-999d0e9be823|x": {
    "actualizado": "2026-10-26T12:06:06.000Z",
    "buffer_id": "",
@@ -34426,62 +34124,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok",
-   "cuando": "2026-10-23T17:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "entrevistas:job00247|x",
-   "cuando": "2026-10-23T17:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x",
-   "cuando": "2026-10-23T17:20:25.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6adb975b0b5343d07040c5b2",
-   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|x",
-   "cuando": "2026-10-23T17:20:28.000Z",
-   "dueAt": "2026-10-23T17:22:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adb975bbd33ce99c3e0eb3d",
-   "clave": "entrevistas:job00247|x",
-   "cuando": "2026-10-23T17:20:28.000Z",
-   "dueAt": "2026-10-23T17:28:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|x",
-   "cuando": "2026-10-23T18:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113682646727327864"
-  },
-  {
-   "clave": "entrevistas:job00246|x",
-   "cuando": "2026-10-23T18:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113672644243374321"
-  },
-  {
-   "clave": "entrevistas:job00247|x",
-   "cuando": "2026-10-23T18:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113684139249435055"
-  },
   {
    "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
    "cuando": "2026-10-23T18:20:14.000Z",
@@ -38656,6 +38298,60 @@
    "cuando": "2026-10-28T14:40:36.000Z",
    "dueAt": "2026-10-28T14:53:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|x",
+   "cuando": "2026-10-28T15:20:14.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 186 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
+   "cuando": "2026-10-28T15:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:556c12fe-a45e-4611-9e39-4ff603a2f030|x",
+   "cuando": "2026-10-28T15:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok",
+   "cuando": "2026-10-28T15:20:24.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:556c12fe-a45e-4611-9e39-4ff603a2f030|x",
+   "cuando": "2026-10-28T15:20:24.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x",
+   "cuando": "2026-10-28T15:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115454117288067173"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x",
+   "cuando": "2026-10-28T15:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115455518298800168"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x",
+   "cuando": "2026-10-28T15:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115457091208908997"
   }
  ],
  "tandas": {
@@ -38687,7 +38383,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T14:00:23.000Z",
+ "ultima_sync": "2026-10-28T15:20:24.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -38829,6 +38525,7 @@
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": "2026-10-26T15:20:14.000Z",
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4": "2026-10-27T09:00:19.000Z",
   "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4": "2026-10-27T14:20:14.000Z",
+  "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4": "2026-10-28T15:20:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -39270,6 +38967,7 @@
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": "2026-10-18T01:20:13.000Z",
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
   "web:543a1dac-3518-4b28-b261-d81059e2857d": "2026-10-26T12:06:06.000Z",
+  "web:556c12fe-a45e-4611-9e39-4ff603a2f030": "2026-10-28T15:20:14.000Z",
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438": "2026-10-22T10:02:31.000Z",
   "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
