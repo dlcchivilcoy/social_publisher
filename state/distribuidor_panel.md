@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 11:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 11:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 1 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 3 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 3 | 1 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,9 +28,12 @@ Actualizado: 28/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 586 de 600 · 30d: quedan 1021 de 2000 (visto 2026-10-28T14:00:25.000Z)
+15m: quedan 149 de 150 · 24h: quedan 585 de 600 · 30d: quedan 1020 de 2000 (visto 2026-10-28T14:40:37.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (4 esperando)
+- TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -42,18 +45,6 @@ Actualizado: 28/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T11:20 programado web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
-- 2026-10-28T11:40 enviado web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
-- 2026-10-28T11:40 enviado web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
-- 2026-10-28T11:40 enviado web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x 
-- 2026-10-28T11:40 enviado web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
-- 2026-10-28T11:40 enviado web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 
-- 2026-10-28T11:40 programado web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
-- 2026-10-28T11:40 programado web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x 
-- 2026-10-28T12:20 programado web:fc28ba09-8297-457f-a09e-12190be789d3|x 
-- 2026-10-28T12:40 enviado web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
-- 2026-10-28T12:40 enviado web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
-- 2026-10-28T12:40 enviado web:d32900c4-88d6-42ae-8c8e-361cf3839478|x 
 - 2026-10-28T12:40 programado web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x 
 - 2026-10-28T13:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tikto 
 - 2026-10-28T13:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tikto 
@@ -67,3 +58,15 @@ Actualizado: 28/10/2026 11:20 (hora AR) · ACTIVO
 - 2026-10-28T14:00 enviado web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
 - 2026-10-28T14:00 enviado web:fc28ba09-8297-457f-a09e-12190be789d3|x 
 - 2026-10-28T14:20 vencido bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-28T14:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x 
+- 2026-10-28T14:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tikto 
+- 2026-10-28T14:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x 
+- 2026-10-28T14:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tikto 
+- 2026-10-28T14:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x 
+- 2026-10-28T14:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tikto 
+- 2026-10-28T14:40 recibido web:a03696d1-157a-48cb-abea-e9cba1380f98|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-28T14:40 recibido web:125df7be-6590-4828-b258-27d7a0764f2d|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-28T14:40 recibido web:9460231f-30bd-422d-89e0-f6db3cfd0675|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-28T14:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x 
+- 2026-10-28T14:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x 
+- 2026-10-28T14:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x 
