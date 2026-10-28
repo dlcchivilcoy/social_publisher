@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 07:03 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,16 +9,16 @@ Actualizado: 28/10/2026 07:03 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 4 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 5 | 9 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 19 enviadas + 4 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
-- X · Reels del bot: 86 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 84 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 24 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 87 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
@@ -28,12 +28,17 @@ Actualizado: 28/10/2026 07:03 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 9 con métricas · mediana vistas/impresiones 514 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 1033 de 2000 (visto 2026-10-28T10:03:22.000Z)
+15m: quedan 148 de 150 · 24h: quedan 596 de 600 · 30d: quedan 1031 de 2000 (visto 2026-10-28T10:20:38.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (15 esperando)
+- X · Notas web · Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Hecho en Chivilcoy: la exposición para visibilizar la producción local se realiz — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Inte — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategu — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimna — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primer — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · “Remembranzas” de Daniel Magni llega a la zona norte de la ciudad y librerías lo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Ateneo ‘Jorge Luis Borges’ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · El Círculo Criollo El Bozal celebró sus 50 años de historia y tradición — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Herramientas y conocimientos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -50,14 +55,6 @@ Actualizado: 28/10/2026 07:03 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T00:40 programado policiales:https://junin24.com/locales/destrozos-en-la-vivie 
-- 2026-10-28T01:00 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x 
-- 2026-10-28T01:00 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tikto 
-- 2026-10-28T01:00 recibido web:27dff6dd-cc71-429b-b4b6-cd136b76a346|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-28T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-10-28T02:00 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tikto 
-- 2026-10-28T02:00 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tikto 
-- 2026-10-28T02:00 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|x 
 - 2026-10-28T02:00 enviado bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok 
 - 2026-10-28T02:00 enviado policiales:https://junin24.com/locales/destrozos-en-la-vivie 
 - 2026-10-28T09:00 vencido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -75,3 +72,11 @@ Actualizado: 28/10/2026 07:03 (hora AR) · ACTIVO
 - 2026-10-28T10:03 programado web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x 
 - 2026-10-28T10:03 programado web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x 
 - 2026-10-28T10:03 programado web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x 
+- 2026-10-28T10:20 recibido web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x 
+- 2026-10-28T10:20 recibido web:fc28ba09-8297-457f-a09e-12190be789d3|x 
+- 2026-10-28T10:20 recibido web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x 
+- 2026-10-28T10:20 recibido web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x 
+- 2026-10-28T10:20 recibido web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x 
+- 2026-10-28T10:20 recibido web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x 
+- 2026-10-28T10:20 enviado web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x 
+- 2026-10-28T10:20 programado web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x 

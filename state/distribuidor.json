@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 10
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-28T02:00:20.000Z"
+   "visto": "2026-10-28T10:20:37.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 20
+    "scheduled": 4,
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-10-28T02:00:20.000Z"
+   "visto": "2026-10-28T10:20:37.000Z"
   }
  },
  "contenidos": {
@@ -7321,6 +7321,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
    "volanta": ""
   },
+  "web:2fdbd396-83fc-451f-926b-d71cfd42c1be": {
+   "categoria": "",
+   "descripcion": "Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimnasia de Chivilcoy Boca Unidos prepara un descargo ante el Tribunal de Disciplina del Consejo Federal de la AFA pero se anticipó que pedirá la continuidad del encuentro frente a Gimnasia de Chivilcoy que fue suspendido a los 40 minutos del primer tiempo cuando una bomba de estruendo cayó en el campo de juego y perjudicó a cuatro jugadores. El presidente de la institución correntina, Marcelo Insaurralde, confirmó la...",
+   "generado": "2026-10-28T10:02:44.191Z",
+   "id": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_22a9314631c143dca539235bd1a90f52~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimnasia de Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
+   "volanta": "Fútbol"
+  },
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9": {
    "categoria": "",
    "descripcion": "Los ganadores de la octava fecha del Rally de Chivilcoy Ellos son los ganadores de la octava fecha de la temporada: - Clase MR: Sebastián Monserrat / Claudio Muciachio - Clase N4: José Catera / Jorge Ramírez - Clase JR: Jorge Villarino / Sebastián Urriza - Clase A: Emmanuel Bracco / Mariano Pissaco - Clase N7: Luis Sciutto / Matías Bregant - Clase N3: Roberto Amichetti / Alejo Amichetti - Clase RC5: Sebastián Antico / Sebastián Olari - Clase N1: Mauricio Bondanza / Gastón Bondanza...",
@@ -7915,6 +7934,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-constanza-alonso-hablo-en-el-partido-justicialista",
    "volanta": "Chivilcoy · Política"
   },
+  "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e": {
+   "categoria": "",
+   "descripcion": "Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Intergeneracional En una definición épica con un bochazo inolvidable en la última jugada, la dupla chivilcoyana logró subirse a lo más alto del podio tras una semana brillante de competencia. La emoción y la alegría embargan por estas horas a toda la delegación de Chivilcoy. En una definición para el infarto, Jorge Ponte y Marcos Curioni se consagraron campeones y obtuvieron la ansiada medalla de oro en la disciplina...",
+   "generado": "2026-10-28T10:02:58.266Z",
+   "id": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_93e79f27545b40a88e833f88a81ef440~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Intergeneracional",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
+   "volanta": "Juegos Bonaerenses"
+  },
   "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": {
    "categoria": "nacionales",
    "descripcion": "Una aeronave con tres personas a bordo colisionó contra un poste y se precipitó sobre una transitada avenida en la ciudad de San José. Los pasajeros…",
@@ -8285,6 +8323,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguro-de-desempleo-en-alza-cuantas-personas-cobran-y-a-cuanto-9cae8a",
    "volanta": ""
+  },
+  "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": {
+   "categoria": "",
+   "descripcion": "Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orientada al deporte En el marco de las actividades de extensión que impulsa el Centro Universitario de Chivilcoy (CUCH), se realizará la charla “Nutrición y salud orientada al deporte recreativo y competitivo”, una propuesta que busca acercar a la comunidad herramientas y conocimientos vinculados al cuidado de la salud, la alimentación y el rendimiento deportivo. La actividad se desarrolla en acompañamiento a la 21°...",
+   "generado": "2026-10-28T10:03:30.995Z",
+   "id": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f47d069fab92458a88e06f1ad6c1a12a~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orientada al deporte",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
+   "volanta": "UNTREF"
   },
   "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4": {
    "categoria": "nacionales",
@@ -8717,6 +8774,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/restringir-acceso-a-menores-expusieron-en-chivilcoy-los-ejes-del",
    "volanta": ""
+  },
+  "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0": {
+   "categoria": "",
+   "descripcion": "Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategui en una fiesta del ciclismo Las calles céntricas de Berazategui se vistieron de fiesta para albergar la 4.ª edición del Gran Premio Argentino Ríos, una competencia de ciclismo federada que se consolidó como una cita ineludible en el calendario de la disciplina nacional. Con una multitud apostada sobre el trazado, la jornada alcanzó su punto máximo con la victoria magistral de Franco Valentini, representante del...",
+   "generado": "2026-10-28T10:02:51.226Z",
+   "id": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6e362971d86f448cafedf1043c5dd447~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategui en una fiesta del ciclismo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
+   "volanta": "Ciclismo"
   },
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": {
    "categoria": "nacionales",
@@ -9780,6 +9856,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
    "volanta": "Chivilcoy · Policiales"
+  },
+  "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34": {
+   "categoria": "",
+   "descripcion": "Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primeros campeones en Chivilcoy El Campeonato Regional de Rally (CRR) disputó su penúltima fecha con epicentro en Chivilcoy, en un fin de semana condicionado por las adversidades climáticas y el estado de los caminos, factores que obligaron a cancelar la segunda etapa y a decretar las clasificaciones del sábado como definitivas tras seis pruebas especiales y 65,46 kilómetros cronometrados. A pesar de que el Gran Premio...",
+   "generado": "2026-10-28T10:02:34.748Z",
+   "id": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8dc2b4d1a20248f29f673789d47a2efb~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primeros campeones en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
+   "volanta": "Automovilismo"
   },
   "web:a223c7fb-02cc-4f0e-8968-13bbf35af953": {
    "categoria": "",
@@ -11717,6 +11812,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/primer-desacuerdo-geopolitico-entre-javier-milei-y-donald-trump-54abaf",
    "volanta": ""
   },
+  "web:fc28ba09-8297-457f-a09e-12190be789d3": {
+   "categoria": "",
+   "descripcion": "Hecho en Chivilcoy: la exposición para visibilizar la producción local se realizará entre sábado y domingo La Expo se realizará este sábado 31 de octubre y domingo 1 de noviembre en el Espacio Vallerga, con la participación de comercios, industrias, pymes y productores locales. Habrá espectáculos musicales, propuestas artísticas y una carpa cultural con 22 artistas de la ciudad. La entrada tendrá un valor de $3.000. La Municipalidad de Chivilcoy anunció una nueva edición de la Expo Hecho en...",
+   "generado": "2026-10-28T10:03:17.441Z",
+   "id": "web:fc28ba09-8297-457f-a09e-12190be789d3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_eca241dbbc33442b89365125aa6e66d2~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Hecho en Chivilcoy: la exposición para visibilizar la producción local se realizará entre sábado y domingo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
+   "volanta": "Reprogramación"
+  },
   "web:fcc38531-e614-4892-a005-314730e4df18": {
    "categoria": "nacionales",
    "descripcion": "Celebridades de distintos ámbitos utilizaron las plataformas digitales para publicar dedicatorias, recuerdos familiares y reflexiones sobre la crianza en…",
@@ -11794,22 +11908,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 598,
-   "segundos": 82620,
+   "restantes": 596,
+   "segundos": 81583,
    "tope": 600
   },
   "30d": {
-   "restantes": 1033,
-   "segundos": 1163240,
+   "restantes": 1031,
+   "segundos": 1162203,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-28T10:03:22.000Z",
+ "cuota_visto": "2026-10-28T10:20:38.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -11918,41 +12032,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de Roque Pérez, de 23 años, compitió en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina. El certamen se realizó el sábado 17 de octubre en Termas de Río Hondo, Santiago del Estero.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
-   "urgente": false,
-   "vence": "2026-10-20T04:33:50.000Z",
-   "video_bytes": 445428,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4e849ae76eb6b4d.mp4"
-  },
-  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x": {
-   "actualizado": "2026-10-18T10:20:12.000Z",
-   "buffer_id": "6ad48aa6ae173d6e00f35ee5",
-   "clave": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2|x",
-   "creado": "2026-10-18T09:00:15.000Z",
-   "dueAt": "2026-10-18T10:00:03.000Z",
-   "enviado": "2026-10-18T10:01:36.956Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T04:33:50.000Z",
-   "id": "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111759595165135142",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá\n\nEl deportista de Roque Pérez, de 23 años, logró el pase tras competir en la categoría Men’s Physique Junior del Campeonato de Culturismo Natural WNBF Argentina.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-deportes-tomas-coltrinari-clasifico-al-mundial-de",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Tomás Coltrinari clasificó al Mundial de Culturismo Natural en Canadá",
@@ -16095,41 +16174,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nDurante la conmemoración del Día de la Lealtad, Luciano Dellepiane advirtió que el contexto actual resulta preocupante y complejo en materia institucional para el país. Además, cuestionó el deterioro económico y definió como una tragedia a la gestión de Javier Milei, al tiempo que remarcó que desde su sector trabajan para consolidar una alternativa política.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
-   "urgente": false,
-   "vence": "2026-10-20T01:10:20.000Z",
-   "video_bytes": 7636070,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_02fb9b98af5bfd92.mp4"
-  },
-  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x": {
-   "actualizado": "2026-10-18T10:20:12.000Z",
-   "buffer_id": "6ad48aa7938409f1d0c24c5e",
-   "clave": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4|x",
-   "creado": "2026-10-18T01:20:13.000Z",
-   "dueAt": "2026-10-18T10:15:35.000Z",
-   "enviado": "2026-10-18T10:16:01.552Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T01:10:20.000Z",
-   "id": "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2111763221556113819",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 15,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Luciano Dellepiane participó del encuentro en Apertura Peronista\n\nDurante la jornada, el dirigente cuestionó con dureza el deterioro económico y la gestión de Javier Milei. Además, remarcó que trabajan para consolidar una alternativa política.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-luciano-dellepiane-participo-del-encuentro-en",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Luciano Dellepiane participó del encuentro en Apertura Peronista",
@@ -27297,6 +27341,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x": {
+   "actualizado": "2026-10-28T10:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
+   "creado": "2026-10-28T10:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-28T10:02:44.191Z",
+   "id": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be",
+   "ig_hora": "2026-10-28T12:37:17.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
+   "noticia": "nota:futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimnasia de Chivilcoy\n\nEl club prepara un descargo ante el Tribunal de Disciplina tras suspenderse el juego porque una bomba de estruendo perjudicó a cuatro futbolistas.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimnasia de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-28T14:02:44.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x": {
    "actualizado": "2026-10-25T20:20:14.000Z",
    "buffer_id": "",
@@ -28200,6 +28273,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x": {
+   "actualizado": "2026-10-28T10:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
+   "creado": "2026-10-28T10:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-28T10:02:58.266Z",
+   "id": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e",
+   "ig_hora": "2026-10-28T13:07:17.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
+   "noticia": "nota:juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Intergeneracional\n\nCon un bochazo inolvidable en la última jugada, la dupla chivilcoyana logró subirse a lo más alto del podio tras una semana brillante de competencia.\n\nhttps://www.diariolacampaña.com.ar/n/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Jorge Ponte y Marcos Curioni se consagraron con la Medalla de Oro en Bochas Intergeneracional",
+   "urgente": false,
+   "vence": "2026-10-28T14:07:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x": {
    "actualizado": "2026-10-20T01:20:14.000Z",
    "buffer_id": "",
@@ -28817,6 +28919,35 @@
    "titulo": "Seguro de desempleo en alza: cuántas personas cobran y a cuánto asciende el monto",
    "urgente": false,
    "vence": "2026-10-20T02:45:08.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x": {
+   "actualizado": "2026-10-28T10:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
+   "creado": "2026-10-28T10:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-28T10:03:30.995Z",
+   "id": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b",
+   "ig_hora": "2026-10-28T13:52:17.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
+   "noticia": "nota:untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orientada al deporte\n\nEl Centro Universitario de Chivilcoy brindará una charla que busca acercar a la comunidad herramientas vinculadas a la salud y el rendimiento deportivo.\n\nhttps://www.diariolacampaña.com.ar/n/untref-actividad-de-extension-el-cuch-propone-una-charla-sobre",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orientada al deporte",
+   "urgente": false,
+   "vence": "2026-10-28T14:52:17.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -29503,6 +29634,35 @@
    "titulo": "Restringir acceso a Menores",
    "urgente": false,
    "vence": "2026-10-20T14:00:56.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x": {
+   "actualizado": "2026-10-28T10:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
+   "creado": "2026-10-28T10:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-28T10:02:51.226Z",
+   "id": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0",
+   "ig_hora": "2026-10-28T12:52:17.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
+   "noticia": "nota:ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategui en una fiesta del ciclismo\n\nLa cuarta edición de la competencia federada reunió a una multitud en las calles céntricas de la ciudad. El evento fue una fiesta deportiva.\n\nhttps://www.diariolacampaña.com.ar/n/ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gran Premio Argentino Ríos: Franco Valentini conquistó el circuito de Berazategui en una fiesta del ciclismo",
+   "urgente": false,
+   "vence": "2026-10-28T14:02:51.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -31193,6 +31353,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x": {
+   "actualizado": "2026-10-28T10:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
+   "creado": "2026-10-28T10:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-28T10:02:34.748Z",
+   "id": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34",
+   "ig_hora": "2026-10-28T12:22:17.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
+   "noticia": "nota:automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primeros campeones en Chivilcoy\n\nEl mal clima y el estado de los caminos obligaron a cancelar la segunda etapa en Chivilcoy. Las posiciones del sábado quedaron como definitivas.\n\nhttps://www.diariolacampaña.com.ar/n/automovilismo-titulos-con-sabor-a-local-el-campeonato-regional-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primeros campeones en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-28T14:02:34.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a223c7fb-02cc-4f0e-8968-13bbf35af953|x": {
    "actualizado": "2026-10-22T11:00:23.000Z",
    "buffer_id": "",
@@ -31627,14 +31816,14 @@
    "viral": false
   },
   "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x": {
-   "actualizado": "2026-10-28T10:02:28.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-28T10:20:37.000Z",
+   "buffer_id": "6ae1cc7696dccc28f676fd67",
    "clave": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x",
    "creado": "2026-10-28T10:02:28.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-28T11:37:05.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T10:02:05.827Z",
    "id": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7",
    "ig_hora": "2026-10-28T11:37:17.000Z",
@@ -34014,19 +34203,20 @@
    "video_url": ""
   },
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x": {
-   "actualizado": "2026-10-28T10:03:20.000Z",
+   "actualizado": "2026-10-28T10:20:37.000Z",
    "buffer_id": "6ae1c868979a56d9e57bfd21",
    "clave": "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x",
    "creado": "2026-10-28T10:02:28.000Z",
    "dueAt": "2026-10-28T10:07:25.000Z",
+   "enviado": "2026-10-28T10:07:31.368Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T10:01:05.352Z",
    "id": "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72",
    "ig_hora": "2026-10-28T10:07:17.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115384960244740529",
    "nota_url": "https://www.diariolacampaña.com.ar/n/medida-de-fuerza-amarilla-gas-cierra-su-sector-de-fraccionamiento-y",
    "noticia": "nota:medida-de-fuerza-amarilla-gas-cierra-su-sector-de-fraccionamiento-y",
    "origen": "web",
@@ -34178,6 +34368,35 @@
    "video_bytes": 0,
    "video_url": ""
   },
+  "web:fc28ba09-8297-457f-a09e-12190be789d3|x": {
+   "actualizado": "2026-10-28T10:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:fc28ba09-8297-457f-a09e-12190be789d3|x",
+   "creado": "2026-10-28T10:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-28T10:03:17.441Z",
+   "id": "web:fc28ba09-8297-457f-a09e-12190be789d3",
+   "ig_hora": "2026-10-28T13:37:17.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
+   "noticia": "nota:reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Hecho en Chivilcoy: la exposición para visibilizar la producción local se realizará entre sábado y domingo\n\nLa Municipalidad anunció el evento en Espacio Vallerga. Habrá shows musicales, una carpa cultural y la entrada costará $3.000.\n\nhttps://www.diariolacampaña.com.ar/n/reprogramacion-hecho-en-chivilcoy-la-exposicion-para-visibilizar-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Hecho en Chivilcoy: la exposición para visibilizar la producción local se realizará entre sábado y domingo",
+   "urgente": false,
+   "vence": "2026-10-28T14:37:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:fcc38531-e614-4892-a005-314730e4df18|x": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -34298,62 +34517,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:ce117f38-054b-4f6b-92d7-4743edb8711b|x",
-   "cuando": "2026-10-23T12:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113607056896696551"
-  },
-  {
-   "clave": "web:dd86062e-10d5-470e-a60e-27533841a020|x",
-   "cuando": "2026-10-23T12:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113610705672765835"
-  },
-  {
-   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
-   "cuando": "2026-10-23T13:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6adb5a6797d61d392147a841",
-   "clave": "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc|x",
-   "cuando": "2026-10-23T13:00:28.000Z",
-   "dueAt": "2026-10-23T13:37:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adb5a687c3aac797e8115f2",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkayb2vbhsc|tiktok",
-   "cuando": "2026-10-23T13:00:28.000Z",
-   "dueAt": "2026-10-23T13:03:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adb5a6997d61d392147ab0b",
-   "clave": "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok",
-   "cuando": "2026-10-23T13:00:28.000Z",
-   "dueAt": "2026-10-23T13:23:44.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adb5a6bcc96832878a35a83",
-   "clave": "nacionales:47f4536459d66a4a|tiktok",
-   "cuando": "2026-10-23T13:00:28.000Z",
-   "dueAt": "2026-10-23T13:43:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|x",
-   "cuando": "2026-10-23T13:20:15.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, programado)",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok",
    "cuando": "2026-10-23T13:20:15.000Z",
@@ -38534,6 +38697,67 @@
    "cuando": "2026-10-28T10:03:22.000Z",
    "dueAt": "2026-10-28T11:22:57.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
+   "cuando": "2026-10-28T10:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:fc28ba09-8297-457f-a09e-12190be789d3|x",
+   "cuando": "2026-10-28T10:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
+   "cuando": "2026-10-28T10:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
+   "cuando": "2026-10-28T10:20:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
+   "cuando": "2026-10-28T10:20:35.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
+   "cuando": "2026-10-28T10:20:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x",
+   "cuando": "2026-10-28T10:20:37.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115384960244740529"
+  },
+  {
+   "buffer_id": "6ae1cc7696dccc28f676fd67",
+   "clave": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x",
+   "cuando": "2026-10-28T10:20:38.000Z",
+   "dueAt": "2026-10-28T11:37:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38564,7 +38788,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-28",
- "ultima_sync": "2026-10-28T02:00:20.000Z",
+ "ultima_sync": "2026-10-28T10:20:37.000Z",
  "version": 1,
  "vistos": {
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -39075,6 +39299,7 @@
   "web:2e67d217-7a79-4046-8927-8123258e800c": "2026-10-19T00:00:21.000Z",
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": "2026-10-16T16:20:15.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
+  "web:2fdbd396-83fc-451f-926b-d71cfd42c1be": "2026-10-28T10:20:19.000Z",
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9": "2026-10-25T20:20:14.000Z",
   "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe": "2026-10-19T10:20:14.000Z",
   "web:30ade280-246e-4cd6-9721-15ac2e67f188": "2026-10-26T12:06:06.000Z",
@@ -39129,6 +39354,7 @@
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": "2026-10-18T18:00:17.000Z",
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
+  "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e": "2026-10-28T10:20:19.000Z",
   "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": "2026-10-20T01:20:14.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
   "web:4d61cc5b-9d70-46db-b815-a8250038f4de": "2026-10-19T15:00:20.000Z",
@@ -39164,6 +39390,7 @@
   "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
+  "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": "2026-10-28T10:20:19.000Z",
   "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4": "2026-10-20T02:00:19.000Z",
   "web:67070b71-0e27-4e84-903f-83a20dacbf1a": "2026-10-26T22:40:15.000Z",
   "web:67f24835-bd85-49b4-9af8-87a85a52dc63": "2026-10-14T10:20:15.000Z",
@@ -39213,6 +39440,7 @@
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": "2026-10-16T15:20:15.000Z",
   "web:7b1a2e63-d062-48a9-ada5-e17347e06d48": "2026-10-11T21:58:03.000Z",
+  "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0": "2026-10-28T10:20:19.000Z",
   "web:7c6a6a67-d47e-4e78-a6dd-7596b8eb89e7": "2026-10-14T13:20:22.000Z",
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": "2026-10-19T09:00:17.000Z",
   "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234": "2026-10-28T10:02:28.000Z",
@@ -39302,6 +39530,7 @@
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784": "2026-10-19T10:20:14.000Z",
   "web:a1643449-bbde-4592-a6b3-8e7158b579e6": "2026-10-19T15:20:16.000Z",
+  "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34": "2026-10-28T10:20:19.000Z",
   "web:a223c7fb-02cc-4f0e-8968-13bbf35af953": "2026-10-22T10:02:31.000Z",
   "web:a2af1a45-c946-45f9-8384-08d4404d0b4a": "2026-10-19T10:20:14.000Z",
   "web:a2b829fd-dfab-4681-94c5-581ba33a9d16": "2026-10-19T09:00:17.000Z",
@@ -39481,6 +39710,7 @@
   "web:f86f8375-5d60-4a7c-9520-9169b60938a8": "2026-10-22T10:02:31.000Z",
   "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5": "2026-10-19T15:00:20.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
+  "web:fc28ba09-8297-457f-a09e-12190be789d3": "2026-10-28T10:20:19.000Z",
   "web:fcc38531-e614-4892-a005-314730e4df18": "2026-10-19T09:00:17.000Z",
   "web:fe8f1548-d224-494b-8549-4bd21362e5b3": "2026-10-20T12:20:18.000Z",
   "web:ff2853a5-e6da-4760-9b15-060f61d644a1": "2026-10-22T10:02:31.000Z",
