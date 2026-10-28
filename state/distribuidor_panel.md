@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/10/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 27/10/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 27/10/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 1 | 1 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 4 | 3 | 2 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -30,11 +30,10 @@ Actualizado: 27/10/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 523 de 600 · 30d: quedan 1036 de 2000 (visto 2026-10-28T00:40:20.000Z)
 
-## Cola propia (8 esperando)
-- X · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (7 esperando)
 - TikTok · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels del bot · Se incendió una camioneta en la prolongación de la avenida Avellaneda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cie — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Confirman la preventiva de Germán Díaz y definirán su reemplazo en el Concejo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Recuperaron una moto sustraída y demoraron a un hombre — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a un joven tras esclarecer un robo en una vivienda — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,7 +47,6 @@ Actualizado: 27/10/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-27T21:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tikto 
 - 2026-10-27T22:20 enviado bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tikto 
 - 2026-10-27T22:20 enviado entrevistas:job00253|tiktok 
 - 2026-10-27T22:20 enviado entrevistas:job00254|tiktok 
@@ -73,3 +71,4 @@ Actualizado: 27/10/2026 22:00 (hora AR) · ACTIVO
 - 2026-10-28T01:00 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x 
 - 2026-10-28T01:00 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tikto 
 - 2026-10-28T01:00 recibido web:27dff6dd-cc71-429b-b4b6-cd136b76a346|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-28T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/ espera su momento (se programa cerca de la hora en que sale en las otras redes)

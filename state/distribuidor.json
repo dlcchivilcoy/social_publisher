@@ -23989,14 +23989,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo|x": {
-   "actualizado": "2026-10-27T23:20:16.000Z",
+   "actualizado": "2026-10-28T01:20:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo|x",
    "creado": "2026-10-27T23:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-27T23:02:12.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo",
    "intentos": 0,
@@ -33639,13 +33639,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6adb3101da167f502688a1b8",
-   "clave": "web:6f536878-4577-4da9-9ab2-31ae024c0a0e|x",
-   "cuando": "2026-10-23T10:03:45.000Z",
-   "dueAt": "2026-10-23T11:07:03.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6adb3101efac72e60fc118fc",
    "clave": "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x",
    "cuando": "2026-10-23T10:03:45.000Z",
@@ -37868,6 +37861,12 @@
    "evento": "recibido",
    "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
    "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo|x",
+   "cuando": "2026-10-28T01:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
