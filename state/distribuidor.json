@@ -17,7 +17,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-29T22:20:22.000Z"
+   "visto": "2026-10-29T23:40:34.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-29T22:20:22.000Z"
+   "visto": "2026-10-29T23:40:34.000Z"
   }
  },
  "contenidos": {
@@ -1292,27 +1292,6 @@
    "video_mb": 3.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
-  },
-  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": {
-   "descripcion": "En la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa correspondiente al Día de la Lealtad.\n\nDurante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista en las instalaciones de la entidad partidaria.",
-   "duracion_seg": 88.1,
-   "generado": "2026-10-17T23:31:28.000Z",
-   "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
-   "urgente": false,
-   "video_bytes": 33806591,
-   "video_mb": 32.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6bce2c61f08cdf64.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/gG3PSHmnFrU"
   },
   "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4": {
    "descripcion": "En las instalaciones de la Sociedad Francesa, Álvaro Cortes llevó a cabo la presentación de su tercer libro de poesía, titulado «Cuando corten la música».\n\nDurante la actividad, el autor estuvo acompañado por Carla Chapetto, quien tuvo a su cargo una entrevista al escritor y realizó la lectura de varios de sus poemas, con la ambientación musical de Santiago Chapetto.\n\nAl referirse al proceso de creación de la obra, Cortes reflexionó sobre la importancia de atender a lo que el poema pide y exige, describiendo ese estado de alerta permanente al momento de decidir el rumbo de cada verso.\n\nEn ese sentido, el autor señaló que no existen mandatos que determinen el corte de un verso o la elección de las palabras, remarcando que allí radica el principal desafío a la hora de escribir.",
@@ -3041,32 +3020,6 @@
    "volanta": "Malvinas",
    "youtube_url": "https://youtube.com/shorts/QOKsb3JPkqQ"
   },
-  "nacionales:07376db2590e79bf": {
-   "categoria": "Espectáculos",
-   "categoria_nacional": "espectaculos",
-   "descripcion": "Tras anunciar su separación de Emanuel Ortega, la modelo viajó a Brasil junto a su amigo Sebastián Waizer para descansar y despejó los rumores de un nuevo romance.",
-   "duracion_seg": 107.1,
-   "generado": "2026-10-19T05:22:09.000Z",
-   "hashtags": [
-    "JulietaPrandi",
-    "Espectaculos"
-   ],
-   "id": "nacionales:07376db2590e79bf",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Julieta Prandi viajó a Brasil tras su separación y aclaró quién la acompaña",
-   "urgente": false,
-   "video_bytes": 10564309,
-   "video_mb": 10.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_07376db259_julieta-prandi-viajo-a-brasil-tras-su-separacion.mp4",
-   "volanta": "Julieta Prandi",
-   "youtube_url": "https://youtube.com/shorts/Mghy9UsuAgU"
-  },
   "nacionales:0f149db2f4d13c80": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -4000,32 +3953,6 @@
    "volanta": "Tarifas y subsidios",
    "youtube_url": "https://youtube.com/shorts/1aDoJ_rUB0I"
   },
-  "nacionales:b4cf751f44529f62": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "El experimentado mediocampista aprovechó su jornada libre en el Deportivo Maipú y vivió el encuentro ante el Pirata junto a los hinchas en el estadio Mario Alberto Kempes.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T05:05:59.000Z",
-   "hashtags": [
-    "RiverPlate",
-    "EnzoPerez"
-   ],
-   "id": "nacionales:b4cf751f44529f62",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Enzo Pérez estuvo en la tribuna de River en la victoria ante Belgrano",
-   "urgente": false,
-   "video_bytes": 83413,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b4cf751f44_enzo-perez-estuvo-en-la-tribuna-de-river-en-la.mp4",
-   "volanta": "Enzo Pérez",
-   "youtube_url": "https://youtube.com/shorts/Yy2G8Sd10WU"
-  },
   "nacionales:b7b1426a9ab6b8b3": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -4261,32 +4188,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "volanta": "Javier Milei",
    "youtube_url": "https://youtube.com/shorts/935r-7nZec0"
-  },
-  "nacionales:eba0c0c1b9408496": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El Ejecutivo presentó una contrapropuesta a los legisladores aliados para destrabar el proyecto de inversiones.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T05:36:19.000Z",
-   "hashtags": [
-    "Politica",
-    "Senado"
-   ],
-   "id": "nacionales:eba0c0c1b9408496",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "El Gobierno evalúa cambios para destrabar el Súper RIGI y sumar apoyos en el Senado",
-   "urgente": false,
-   "video_bytes": 115939,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eba0c0c1b9_el-gobierno-evalua-cambios-para-destrabar-el.mp4",
-   "volanta": "Súper RIGI",
-   "youtube_url": "https://youtube.com/shorts/xA6eVxxqEGg"
   },
   "nacionales:f1cea0fec08ce954": {
    "categoria": "Política",
@@ -4654,6 +4555,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_02_junin_jun-n-recuperan-bicicleta-roba.mp4",
    "volanta": "Operativos policiales en Junín",
    "youtube_url": "https://youtube.com/shorts/Qlde3FGjxvI"
+  },
+  "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": {
+   "categoria": "otro_policial",
+   "descripcion": "Juan Montarana confirmó que su hija continúa internada en terapia intensiva en el Hospital San José de Pergamino tras recibir dos disparos durante un operativo policial. Reclamó la detención de los efectivos involucrados en la persecución.",
+   "distancia_km": 92.6,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-29T23:31:53.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia",
+   "localidad": "Arrecifes",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-celeste-montarana-sigue-critica-tras-recibir-dos-1c7893",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Celeste Montarana sigue internada en terapia intensiva en el Hospital San José de Pergamino con pronóstico reservado.\n\nSu padre, Juan Montarana, confirmó que la joven recibió dos disparos durante una persecución policial ocurrida en Arrecifes.\n\nEl hecho sucedió en la madrugada del domingo tras una persecución de seis kilómetros que comenzó en la zona urbana y llegó hasta la ruta nacional 8.\n\nEl padre de la víctima cuestionó el procedimiento policial y exigió que los efectivos involucrados en el ataque queden detenidos.\n\n📲 Más noticias de Arrecifes en www.diariolacampaña.com.ar\n\n#Arrecifes #Policiales #Justicia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Celeste Montarana sigue crítica tras la balacera policial y su padre exige justicia",
+   "urgente": false,
+   "video_bytes": 72664,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_03_pergamino_celeste-montarana-sigue-cr-tic.mp4",
+   "volanta": "Arrecifes",
+   "youtube_url": "https://youtube.com/shorts/FR4RRhgm0As"
   },
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": {
    "categoria": "operativo_policial",
@@ -5305,6 +5232,32 @@
    "volanta": "Robos en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/H8IfT6pogVk"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": {
+   "categoria": "robo",
+   "descripcion": "Tres procedimientos policiales culminaron con la detención de un acusado de robar aberturas, la captura de un hombre requerido por la justicia y el secuestro de un arma de fuego sin numeración visible en la ciudad.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-29T23:31:53.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una serie de operativos policiales simultáneos permitieron esclarecer distintos hechos delictivos en la ciudad.\n\nEn primer lugar, arrestaron a un individuo acusado de sustraer aberturas y materiales de dos obras en construcción.\n\nAdemás, interceptaron a un transeúnte que tenía un pedido de captura vigente por una causa de protección animal.\n\nPor último, un allanamiento culminó con el secuestro de un revólver sin numeración visible y la aprehensión del morador.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma",
+   "urgente": false,
+   "video_bytes": 81931,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_01_chacabuco_cay-un-sospechoso-por-robos-at.mp4",
+   "volanta": "Operativos policiales en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/VhID-hG78T0"
+  },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": {
    "categoria": "operativo_policial",
    "descripcion": "La policía secuestró un arma de fuego y municiones en una vivienda del barrio Santa Clara tras una denuncia por intimidaciones en un grupo de WhatsApp.",
@@ -5330,6 +5283,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_05_junin_allanamiento-en-jun-n-por-amen.mp4",
    "volanta": "Operativo en Junín",
    "youtube_url": "https://youtube.com/shorts/Pe414Bp0yNk"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": {
+   "categoria": "abuso_sexual",
+   "descripcion": "Un hombre de 56 años fue arrestado en una vivienda situada en calle Posadas al 300 tras el hallazgo de un arma de fuego sin numeración. La diligencia judicial se originó por una denuncia radicada en la Comisaría de la Mujer y la Familia.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-29T23:31:51.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-aprehendido-y-un-revolver-incautado-durante-un-a2d0ab",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Efectivos policiales concretaron un operativo en un domicilio de calle Posadas al 300 en el marco de una pesquisa por delitos contra la integridad y amenazas.\n\nLa orden judicial surgió a raíz de una presentación efectuada en la dependencia especializada en violencia familiar de la ciudad.\n\nDurante la requisa del inmueble, los uniformados incautaron un revólver negro sin municiones ni marcas visibles de fábrica.\n\nEl morador de la propiedad, de 56 años, terminó arrestado y quedó a disposición de las autoridades judiciales intervinientes.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #SecuestroDeArmas #BuenosAires",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre y secuestraron un revólver tras un allanamiento en Junín",
+   "urgente": false,
+   "video_bytes": 69997,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_04_junin_aprehendieron-a-un-hombre-y-se.mp4",
+   "volanta": "Operativo policial en Junín",
+   "youtube_url": "https://youtube.com/shorts/lB0TtqyIwoc"
   },
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": {
    "categoria": "alerta_meteorologica",
@@ -6132,24 +6111,6 @@
    "titulo": "Dibu Martínez recibió el alta tras ser operado con éxito de la fractura de mandíbula",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8",
-   "volanta": ""
-  },
-  "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2": {
-   "categoria": "nacionales",
-   "descripcion": "El arquero de la Selección Argentina sufrió un choque de cabezas en el partido de su equipo y estará un mes y medio inactivo, por lo que se perderá la…",
-   "generado": "2026-10-18T23:05:09.254Z",
-   "id": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ad08a318868a410e9074f75e32f96180~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y estará un mes y medio inactivo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
    "volanta": ""
   },
   "web:2618a8ce-8352-4c8a-8e71-1b5bf69b11e0": {
@@ -8596,24 +8557,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
    "volanta": "Camiones y camioneta"
   },
-  "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": {
-   "categoria": "nacionales",
-   "descripcion": "El Consejo de la Magistratura acelera las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite, 77 en el Ejecutivo y 30 en el…",
-   "generado": "2026-10-18T23:20:10.841Z",
-   "id": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_29ebaeb3090245818a38b56fd0fbeaba~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
-   "volanta": ""
-  },
   "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": {
    "categoria": "",
    "descripcion": "Presentaron el cronograma por el 172° aniversario de Chivilcoy La Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas, espectáculos musicales en vivo, teatro y eventos deportivos. Miércoles 21 de octubre: Vísperas y festival artístico Las actividades comenzarán a partir de las 18:00 con la...",
@@ -9066,24 +9009,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-guillermo-britos-recibio-el-premio-comunas-en-el",
    "volanta": "Chivilcoy · Política"
   },
-  "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": {
-   "categoria": "nacionales",
-   "descripcion": "A casi un mes del fallecimiento del joven modelo a los 27 años, la supermodelo y su hija rompieron el silencio en redes sociales con tiernos recuerdos y…",
-   "generado": "2026-10-18T23:35:12.217Z",
-   "id": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b6b68cee7f8b4debaae6030010b9632d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Gerber",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
-   "volanta": ""
-  },
   "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd": {
    "categoria": "",
    "descripcion": "Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata Se llevó a cabo en la ciudad de Mar del Plata la inauguración correspondiente a los Juegos Bonaerenses 2026. A través de registros desde el lugar, se dio a conocer cómo se presentó el marco de apertura del certamen provincial en la localidad balnearia.",
@@ -9213,25 +9138,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
    "volanta": "Chivilcoy · Cultura"
-  },
-  "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": {
-   "categoria": "",
-   "descripcion": "Presentaron el proyecto de ley contra las apuestas en línea Con la presencia de vecinos y representantes de instituciones, este lunes se llevó a cabo en la sede de la Defensoría del Pueblo de Chivilcoy la presentación del proyecto de Ley de Prevención y Control de las Apuestas en Línea, iniciativa destinada a regular el juego digital en la provincia de Buenos Aires y hacer frente a la problemática de la ciberludopatía. Durante el encuentro, la diputada provincial Micaela Olivetto detalló los...",
-   "generado": "2026-10-19T23:33:03.043Z",
-   "id": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_08a95976701e4ea3830ec54866244a81~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
-   "volanta": "Chivilcoy · Política"
   },
   "web:b9460b4c-9981-4efd-a82e-33108e7090de": {
    "categoria": "",
@@ -10616,17 +10522,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 567,
-   "segundos": 38401,
+   "restantes": 566,
+   "segundos": 34782,
    "tope": 600
   },
   "30d": {
-   "restantes": 965,
-   "segundos": 1031426,
+   "restantes": 964,
+   "segundos": 1027806,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T22:40:15.000Z",
+ "cuota_visto": "2026-10-29T23:40:34.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -14746,32 +14652,6 @@
    "video_bytes": 3585991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "viral": false
-  },
-  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T23:40:28.000Z",
-   "buffer_id": "",
-   "clave": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4|tiktok",
-   "creado": "2026-10-17T23:40:13.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-17T23:31:28.000Z",
-   "id": "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local\n\nEn la sede del Partido Justicialista de Chivilcoy se llevó a cabo el cierre de la jornada conmemorativa correspondiente al Día de la Lealtad. Durante el encuentro, los presentes concluyeron la actividad entonando la tradicional Marcha Peronista en las instalaciones de la entidad partidaria.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-entonaron-la-marcha-peronista-en-el-cierre-de-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Entonaron la Marcha Peronista en el cierre de la jornada en el PJ local",
-   "urgente": false,
-   "vence": "2026-10-19T23:31:28.000Z",
-   "video_bytes": 33806591,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6bce2c61f08cdf64.mp4"
   },
   "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4|tiktok": {
    "actualizado": "2026-10-20T00:40:15.000Z",
@@ -19588,32 +19468,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_01c0d7889e_tribunal-del-mar-fijo-audiencias-por-la.mp4",
    "viral": false
   },
-  "nacionales:07376db2590e79bf|tiktok": {
-   "actualizado": "2026-10-19T23:40:28.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:07376db2590e79bf|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T05:22:09.000Z",
-   "id": "nacionales:07376db2590e79bf",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Julieta Prandi viajó a Brasil tras su separación y aclaró quién la acompaña\n\nTras anunciar su separación de Emanuel Ortega, la modelo viajó a Brasil junto a su amigo Sebastián Waizer para descansar y despejó los rumores de un nuevo romance.\n\nhttps://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d\n\n#chivilcoy #diariolacampaña #radiodelcentro #espectáculos #JulietaPrandi",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Julieta Prandi viajó a Brasil tras su separación y aclaró quién la acompaña",
-   "urgente": false,
-   "vence": "2026-10-19T23:22:09.000Z",
-   "video_bytes": 10564309,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_07376db259_julieta-prandi-viajo-a-brasil-tras-su-separacion.mp4"
-  },
   "nacionales:0f149db2f4d13c80|tiktok": {
    "actualizado": "2026-10-23T22:00:21.000Z",
    "buffer_id": "",
@@ -21241,32 +21095,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b3aa9eb074_las-tarifas-del-amba-subieron-860-desde-diciembre.mp4",
    "viral": false
   },
-  "nacionales:b4cf751f44529f62|tiktok": {
-   "actualizado": "2026-10-19T23:20:22.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:b4cf751f44529f62|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T05:05:59.000Z",
-   "id": "nacionales:b4cf751f44529f62",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Enzo Pérez estuvo en la tribuna de River en la victoria ante Belgrano\n\nEl experimentado mediocampista aprovechó su jornada libre en el Deportivo Maipú y vivió el encuentro ante el Pirata junto a los hinchas en el estadio Mario Alberto Kempes.\n\nhttps://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #RiverPlate",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Enzo Pérez estuvo en la tribuna de River en la victoria ante Belgrano",
-   "urgente": false,
-   "vence": "2026-10-19T23:05:59.000Z",
-   "video_bytes": 83413,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b4cf751f44_enzo-perez-estuvo-en-la-tribuna-de-river-en-la.mp4"
-  },
   "nacionales:b7b1426a9ab6b8b3|tiktok": {
    "actualizado": "2026-10-22T01:20:16.000Z",
    "buffer_id": "",
@@ -21556,32 +21384,6 @@
    "video_bytes": 80334,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "viral": false
-  },
-  "nacionales:eba0c0c1b9408496|tiktok": {
-   "actualizado": "2026-10-19T23:40:28.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:eba0c0c1b9408496|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T05:36:19.000Z",
-   "id": "nacionales:eba0c0c1b9408496",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "El Gobierno evalúa cambios para destrabar el Súper RIGI y sumar apoyos en el Senado\n\nEl Ejecutivo presentó una contrapropuesta a los legisladores aliados para destrabar el proyecto de inversiones.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El Gobierno evalúa cambios para destrabar el Súper RIGI y sumar apoyos en el Senado",
-   "urgente": false,
-   "vence": "2026-10-19T23:36:19.000Z",
-   "video_bytes": 115939,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eba0c0c1b9_el-gobierno-evalua-cambios-para-destrabar-el.mp4"
   },
   "nacionales:f1cea0fec08ce954|tiktok": {
    "actualizado": "2026-10-23T22:20:23.000Z",
@@ -22293,6 +22095,34 @@
    "video_bytes": 76979,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_02_junin_jun-n-recuperan-bicicleta-roba.mp4",
    "viral": false
+  },
+  "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x": {
+   "actualizado": "2026-10-29T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x",
+   "creado": "2026-10-29T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-29T23:31:53.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-celeste-montarana-sigue-critica-tras-recibir-dos-1c7893",
+   "noticia": "nota:arrecifes-celeste-montarana-sigue-critica-tras-recibir-dos-1c7893",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Celeste Montarana sigue crítica tras la balacera policial y su padre exige justicia\n\nJuan Montarana confirmó que su hija continúa internada en terapia intensiva en el Hospital San José de Pergamino tras recibir dos disparos durante un operativo policial.\n\nhttps://www.diariolacampaña.com.ar/n/arrecifes-celeste-montarana-sigue-critica-tras-recibir-dos-1c7893",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Celeste Montarana sigue crítica tras la balacera policial y su padre exige justicia",
+   "urgente": false,
+   "vence": "2026-10-30T01:31:53.000Z",
+   "video_bytes": 72664,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_03_pergamino_celeste-montarana-sigue-cr-tic.mp4",
+   "viral": true
   },
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x": {
    "actualizado": "2026-10-26T09:00:29.000Z",
@@ -23120,18 +22950,19 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x": {
-   "actualizado": "2026-10-29T22:40:14.000Z",
+   "actualizado": "2026-10-29T23:40:34.000Z",
    "buffer_id": "6ae3cb4f2782e7f331bc4dec",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
    "creado": "2026-10-29T22:40:14.000Z",
    "dueAt": "2026-10-29T22:43:29.000Z",
+   "enviado": "2026-10-29T22:43:33.228Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T22:31:42.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115937609469907195",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
    "noticia": "nota:chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
    "origen": "policiales",
@@ -23540,6 +23371,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_01_chacabuco_detuvieron-en-lomas-de-zamora-.mp4",
    "viral": false
   },
+  "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x": {
+   "actualizado": "2026-10-29T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
+   "creado": "2026-10-29T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-29T23:31:53.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
+   "noticia": "nota:chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma\n\nTres procedimientos policiales terminaron con dos detenciones y el secuestro de un arma sin numeración visible en la ciudad.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma",
+   "urgente": false,
+   "vence": "2026-10-30T01:31:53.000Z",
+   "video_bytes": 81931,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_01_chacabuco_cay-un-sospechoso-por-robos-at.mp4",
+   "viral": false
+  },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|tiktok": {
    "actualizado": "2026-10-24T12:40:12.000Z",
    "buffer_id": "",
@@ -23594,6 +23453,34 @@
    "vence": "2026-10-24T02:30:53.000Z",
    "video_bytes": 76945,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_05_junin_allanamiento-en-jun-n-por-amen.mp4",
+   "viral": false
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x": {
+   "actualizado": "2026-10-29T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x",
+   "creado": "2026-10-29T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-29T23:31:51.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-aprehendido-y-un-revolver-incautado-durante-un-a2d0ab",
+   "noticia": "nota:junin-un-aprehendido-y-un-revolver-incautado-durante-un-a2d0ab",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Aprehendieron a un hombre y secuestraron un revólver tras un allanamiento en Junín\n\nUn hombre de 56 años fue arrestado en una vivienda situada en calle Posadas al 300 tras el hallazgo de un arma de fuego sin numeración.\n\nhttps://www.diariolacampaña.com.ar/n/junin-un-aprehendido-y-un-revolver-incautado-durante-un-a2d0ab",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre y secuestraron un revólver tras un allanamiento en Junín",
+   "urgente": false,
+   "vence": "2026-10-30T01:31:51.000Z",
+   "video_bytes": 69997,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_04_junin_aprehendieron-a-un-hombre-y-se.mp4",
    "viral": false
   },
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok": {
@@ -24808,32 +24695,6 @@
    "titulo": "Dibu Martínez recibió el alta tras ser operado con éxito de la fractura de mandíbula",
    "urgente": false,
    "vence": "2026-10-20T03:50:16.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x": {
-   "actualizado": "2026-10-19T23:20:22.000Z",
-   "buffer_id": "",
-   "clave": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2|x",
-   "creado": "2026-10-18T23:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:05:09.254Z",
-   "id": "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y estará un mes y medio inactivo\n\nEl arquero de la Selección Argentina sufrió un choque de cabezas en el partido de su equipo. Estará un mes y medio inactivo.\n\nhttps://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Operaron con éxito a Emiliano 'Dibu' Martínez por una fractura de maxilar y estará un mes y medio inactivo",
-   "urgente": false,
-   "vence": "2026-10-19T23:05:09.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -28709,32 +28570,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x": {
-   "actualizado": "2026-10-19T23:20:22.000Z",
-   "buffer_id": "",
-   "clave": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x",
-   "creado": "2026-10-18T23:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:20:10.841Z",
-   "id": "web:9bcaa52a-5164-4329-99d8-9e88c2c29241",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos\n\nEl Consejo de la Magistratura busca acelerar las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite y otras 77 en el Ejecutivo.\n\nhttps://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La Justicia federal tiene 298 cargos vacantes y el Consejo acelera concursos",
-   "urgente": false,
-   "vence": "2026-10-19T23:20:10.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x": {
    "actualizado": "2026-10-21T02:20:14.000Z",
    "buffer_id": "",
@@ -29406,32 +29241,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x": {
-   "actualizado": "2026-10-19T23:40:28.000Z",
-   "buffer_id": "",
-   "clave": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41|x",
-   "creado": "2026-10-18T23:40:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:35:12.217Z",
-   "id": "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Gerber\n\nhttps://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Cindy Crawford y Kaia Gerber rompieron el silencio tras la muerte de Presley Gerber",
-   "urgente": false,
-   "vence": "2026-10-19T23:35:12.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd|x": {
    "actualizado": "2026-10-20T15:43:36.000Z",
    "buffer_id": "",
@@ -29634,31 +29443,6 @@
    "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
    "urgente": false,
    "vence": "2026-10-26T04:37:54.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x": {
-   "actualizado": "2026-10-19T23:40:17.000Z",
-   "buffer_id": "",
-   "clave": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2|x",
-   "creado": "2026-10-19T23:40:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-19T23:33:03.043Z",
-   "id": "web:b7990fc0-6c89-4df8-a394-ec61efeecec2",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
-   "noticia": "nota:chivilcoy-politica-presentaron-el-proyecto-de-ley-contra-las-apuestas",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Presentaron el proyecto de ley contra las apuestas en línea",
-   "urgente": false,
-   "vence": "2026-10-20T03:33:03.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -31773,32 +31557,6 @@
   }
  },
  "registro": [
-  {
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "pausa_red",
-   "hasta": "2026-10-26T01:23:00.000Z",
-   "red": "tiktok",
-   "tope": 13
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
-  {
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "pausa_red",
-   "hasta": "2026-10-26T01:23:00.000Z",
-   "red": "tiktok",
-   "tope": 13
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok",
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
   {
    "cuando": "2026-10-25T01:40:14.000Z",
    "evento": "pausa_red",
@@ -36001,6 +35759,36 @@
    "cuando": "2026-10-29T22:40:15.000Z",
    "dueAt": "2026-10-29T22:43:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x",
+   "cuando": "2026-10-29T23:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
+   "cuando": "2026-10-29T23:40:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x",
+   "cuando": "2026-10-29T23:40:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
+   "cuando": "2026-10-29T23:40:34.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115937609469907195"
   }
  ],
  "tandas": {
@@ -36036,7 +35824,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T22:20:22.000Z",
+ "ultima_sync": "2026-10-29T23:40:34.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -36370,6 +36158,7 @@
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
+  "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": "2026-10-29T23:40:14.000Z",
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": "2026-10-15T09:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/condenaron-a-14-anos-de-prision-a-marcos-guerrini-por-el-homicidio-de-durazno-scaldaferri": "2026-10-13T12:40:15.000Z",
   "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
@@ -36452,6 +36241,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u": "2026-10-24T22:40:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": "2026-10-26T23:40:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": "2026-10-28T23:20:14.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -36469,6 +36259,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-15-10-26-0-cuento-del-tio-cayo-parte-de-una-banda-que-se-movia-por-junin-y-la-region": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": "2026-10-16T16:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",

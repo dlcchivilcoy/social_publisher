@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 29/10/2026 20:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 4 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 8 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,10 +28,11 @@ Actualizado: 29/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 567 de 600 · 30d: quedan 965 de 2000 (visto 2026-10-29T22:40:15.000Z)
+15m: quedan 149 de 150 · 24h: quedan 566 de 600 · 30d: quedan 964 de 2000 (visto 2026-10-29T23:40:34.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (16 esperando)
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Celeste Montarana sigue crítica tras la balacera policial y su padre exige justi — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fernando Cabani: Apuestas online y salud mental en jóvenes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -42,6 +43,8 @@ Actualizado: 29/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Aprehendieron a un hombre y secuestraron un revólver tras un allanamiento en Jun — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -53,10 +56,6 @@ Actualizado: 29/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T17:40 enviado entrevistas:job00261|x 
-- 2026-10-29T18:00 entrevista_aprobada entrevistas:job00262 
-- 2026-10-29T18:00 recibido entrevistas:job00262|x 
-- 2026-10-29T18:00 recibido entrevistas:job00262|tiktok 
 - 2026-10-29T18:00 programado entrevistas:job00262|x 
 - 2026-10-29T18:20 entrevista_aprobada entrevistas:job00263 
 - 2026-10-29T18:20 recibido entrevistas:job00263|x 
@@ -78,3 +77,7 @@ Actualizado: 29/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-29T22:20 enviado entrevistas:job00263|tiktok 
 - 2026-10-29T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
 - 2026-10-29T22:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
+- 2026-10-29T23:40 recibido policiales:https://www.junindigital.com/policiales/2026-10-2 
+- 2026-10-29T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34728 
+- 2026-10-29T23:40 recibido policiales:https://laopinionline.ar/articulo/celeste-montara 
+- 2026-10-29T23:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
