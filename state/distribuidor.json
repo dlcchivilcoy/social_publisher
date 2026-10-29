@@ -11775,22 +11775,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 591,
-   "segundos": 77997,
+   "restantes": 590,
+   "segundos": 76798,
    "tope": 600
   },
   "30d": {
-   "restantes": 989,
-   "segundos": 1071022,
+   "restantes": 988,
+   "segundos": 1069822,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T11:40:19.000Z",
+ "cuota_visto": "2026-10-29T12:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -31414,14 +31414,14 @@
    "video_url": ""
   },
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x": {
-   "actualizado": "2026-10-29T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T12:00:18.000Z",
+   "buffer_id": "6ae3355344715b877827a3dd",
    "clave": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x",
    "creado": "2026-10-29T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T13:22:02.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:03:14.533Z",
    "id": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56",
    "ig_hora": "2026-10-29T13:22:20.000Z",
@@ -34345,12 +34345,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tiktok",
-   "cuando": "2026-10-24T15:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700239985978526997"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
    "cuando": "2026-10-24T15:40:14.000Z",
@@ -38580,6 +38574,13 @@
    "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
    "cuando": "2026-10-29T11:40:19.000Z",
    "dueAt": "2026-10-29T13:07:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae3355344715b877827a3dd",
+   "clave": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x",
+   "cuando": "2026-10-29T12:00:20.000Z",
+   "dueAt": "2026-10-29T13:22:02.000Z",
    "evento": "programado"
   }
  ],
