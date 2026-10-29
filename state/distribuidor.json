@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 3
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-29T14:00:23.000Z"
+   "visto": "2026-10-29T15:20:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 25
+    "scheduled": 0,
+    "sent": 26
    },
    "pausado": false,
-   "visto": "2026-10-29T14:00:23.000Z"
+   "visto": "2026-10-29T15:20:20.000Z"
   }
  },
  "contenidos": {
@@ -4923,32 +4923,6 @@
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/2hV-5DWkXog"
   },
-  "nacionales:f8cbb878e65900d1": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "El arquero de la Selección Argentina y el Chelsea regresó a su hogar en Inglaterra luego de ser intervenido quirúrgicamente con éxito por una fractura de mandíbula.",
-   "duracion_seg": 41.3,
-   "generado": "2026-10-19T03:50:54.000Z",
-   "hashtags": [
-    "DibuMartinez",
-    "SeleccionArgentina"
-   ],
-   "id": "nacionales:f8cbb878e65900d1",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Dibu Martínez recibió el alta médica tras ser operado de la mandíbula",
-   "urgente": false,
-   "video_bytes": 2819314,
-   "video_mb": 2.7,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4",
-   "volanta": "Fútbol internacional",
-   "youtube_url": "https://youtube.com/shorts/EfeHq_gk8Wk"
-  },
   "nacionales:fb8bbb9c2285b74b": {
    "categoria": "Mundo",
    "categoria_nacional": "internacionales",
@@ -5469,32 +5443,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_08_bragado_aprehenden-a-un-joven-de-24-a-.mp4",
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/9nTrlgsan4M"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": {
-   "categoria": "otro_policial",
-   "descripcion": "El siniestro vial ocurrió esta tarde a la altura del kilómetro 208 en Chacabuco. Una motociclista y su acompañante fueron trasladadas en ambulancia al Hospital municipal.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T21:21:18.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un violento choque tuvo lugar esta tarde sobre el kilómetro 208 de la Ruta 7, en jurisdicción de Chacabuco.\n\nEl impacto se produjo entre un automóvil Volkswagen Gol Trend y una motocicleta marca Honda XR en la que se desplazaban dos mujeres.\n\nA raíz de la colisión, ambas ocupantes del rodado de menor porte requirieron asistencia médica y fueron trasladadas en ambulancia hacia el hospital local para su atención.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7",
-   "urgente": false,
-   "video_bytes": 74306,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4",
-   "volanta": "Choque en la Ruta 7",
-   "youtube_url": "https://youtube.com/shorts/3o0yRJd_n8k"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": {
    "categoria": "incendio",
@@ -6619,24 +6567,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e": {
-   "categoria": "",
-   "descripcion": "Preparan una Caminata Familiar a beneficio de dos instituciones Comenzaron los preparativos iniciales para la realización de una Caminata Familiar a beneficio de la EEE N° 502 y el CFI N° 1. La actividad tiene horario de inicio programado para las 18.",
-   "generado": "2026-10-18T21:49:19.375Z",
-   "id": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_758e4311b51a47e28a985651a9102229~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
-   "volanta": "Chivilcoy · Sociedad"
   },
   "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f": {
    "categoria": "nacionales",
@@ -8582,24 +8512,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-gran-premio-argentino-rios-franco-valentini-conquisto-el",
    "volanta": "Ciclismo"
   },
-  "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": {
-   "categoria": "nacionales",
-   "descripcion": "El experimentado mediocampista aprovechó su jornada libre en el Deportivo Maipú y vivió el encuentro ante el Pirata junto a los hinchas en el estadio…",
-   "generado": "2026-10-19T05:05:11.301Z",
-   "id": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f3bb22cf3a7745aaa2dc249e57423272~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Enzo Pérez alentó a River en la tribuna durante el partido ante Belgrano",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
-   "volanta": ""
-  },
   "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234": {
    "categoria": "",
    "descripcion": "Carla Palomequez y Vale Vassallo presentaron una iniciativa de contención oncológica En los estudios de Radio del Centro, Carla Palomequez, representante del Centro Comercial, Industrial y de Servicios de Chivilcoy (CECOINSE), junto a Valeria Vassallo, presentaron la jornada abierta a la comunidad que se llevará a cabo este viernes a las 13.30 en la sede de la entidad gremial empresaria. La actividad se enmarca dentro de las acciones de concientización por el mes de prevención del cáncer de...",
@@ -8806,24 +8718,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/temor-por-el-nino-denuncian-que-sigue-paralizado-un-tramo-clave-para",
    "volanta": "Temor por El Niño"
-  },
-  "web:8333ce89-a093-49e0-b6b1-c26d84ac0692": {
-   "categoria": "",
-   "descripcion": "Sebastián Porto sufrió el robo de tres motos: “Es la primera vez que me toca pasar una cosa así y no es para nada agradable” El expiloto y subcampeón mundial de motociclismo llevó tranquilidad a la comunidad tras el mal momento vivido junto a sus hijas. Una de las unidades pudo ser recuperada gracias al sistema de rastreo satelital. Un hecho de inseguridad golpeó en las últimas horas al reconocido expiloto de motociclismo Sebastián Porto. Delincuentes ingresaron durante la madrugada a su...",
-   "generado": "2026-10-19T10:02:45.102Z",
-   "id": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_df03069e86114312b18cbdf4d7d14a5b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Sebastián Porto sufrió el robo de tres motos: “Es la primera vez que me toca pasar una cosa así y no es para nada agradable”",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
-   "volanta": "Una fue recuperada"
   },
   "web:83aa22b6-5664-4e7e-9984-1dfd644a5220": {
    "categoria": "",
@@ -9722,24 +9616,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/paritaria-docente-kicillof-acordo-un-aumento-salarial-del-6-y",
    "volanta": "Paritaria docente"
-  },
-  "web:a2b829fd-dfab-4681-94c5-581ba33a9d16": {
-   "categoria": "nacionales",
-   "descripcion": "Tras anunciar su separación de Emanuel Ortega, la modelo viajó a Brasil junto a su amigo Sebastián Waizer para descansar y despejó los rumores de un nuevo…",
-   "generado": "2026-10-19T05:20:29.227Z",
-   "id": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8c9c62418b4741b49fba745d77a91cd8~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Julieta Prandi viajó a Brasil tras su separación de Emanuel Ortega y aclaró quién la acompaña",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
-   "volanta": ""
   },
   "web:a3d30d89-bce5-41df-b635-6f903026b394": {
    "categoria": "",
@@ -11735,17 +11611,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 583,
-   "segundos": 67179,
+   "restantes": 582,
+   "segundos": 64796,
    "tope": 600
   },
   "30d": {
-   "restantes": 981,
-   "segundos": 1060204,
+   "restantes": 980,
+   "segundos": 1057820,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T14:40:37.000Z",
+ "cuota_visto": "2026-10-29T15:20:20.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -15663,19 +15539,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok": {
-   "actualizado": "2026-10-29T13:00:24.000Z",
+   "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae34373650dab96a372d6f5",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "2026-10-29T14:23:39.000Z",
+   "enviado": "2026-10-29T14:25:28.974Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T14:37:26.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702095378472045832",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15898,18 +15775,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x": {
-   "actualizado": "2026-10-29T14:20:23.000Z",
+   "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae356273173bf37af4ecfc3",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "2026-10-29T14:28:16.000Z",
+   "enviado": "2026-10-29T14:28:34.587Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T14:17:52.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115813044387250213",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
    "noticia": "nota:chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
    "origen": "bot",
@@ -15954,18 +15832,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x": {
-   "actualizado": "2026-10-29T14:40:36.000Z",
+   "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae35ae525e7fa4a8db0f2fb",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x",
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "2026-10-29T14:42:21.000Z",
+   "enviado": "2026-10-29T14:42:35.744Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T14:25:34.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115816572518285645",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
    "noticia": "nota:chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
    "origen": "bot",
@@ -18446,19 +18325,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T13:00:24.000Z",
+   "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae34372017e28c83c5eb075",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
    "creado": "2026-10-28T15:20:14.000Z",
    "dueAt": "2026-10-29T14:03:09.000Z",
+   "enviado": "2026-10-29T14:08:08.345Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T15:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702090975904255252",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -23334,43 +23214,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
    "viral": false
   },
-  "nacionales:f8cbb878e65900d1|tiktok": {
-   "actualizado": "2026-10-19T15:00:47.000Z",
-   "buffer_id": "6ad5fcf561ffad979f0d40c2",
-   "clave": "nacionales:f8cbb878e65900d1|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "2026-10-19T14:43:54.000Z",
-   "enviado": "2026-10-19T14:45:45.169Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T03:50:54.000Z",
-   "id": "nacionales:f8cbb878e65900d1",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698389776776400148",
-   "metricas": {
-    "averageTimeWatched": 7.23,
-    "comments": 1,
-    "engagementRate": 3.54,
-    "reach": 0,
-    "reactions": 20,
-    "shares": 0,
-    "totalTimeWatched": 75.4,
-    "views": 593
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Dibu Martínez recibió el alta médica tras ser operado de la mandíbula\n\nEl arquero de la Selección Argentina y el Chelsea regresó a su hogar en Inglaterra luego de ser intervenido quirúrgicamente con éxito por una fractura de mandíbula.\n\nhttps://www.diariolacampaña.com.ar/n/dibu-martinez-recibio-el-alta-tras-ser-operado-con-exito-de-la-f8cbb8\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #DibuMartinez",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dibu Martínez recibió el alta médica tras ser operado de la mandíbula",
-   "urgente": false,
-   "vence": "2026-10-19T21:50:54.000Z",
-   "video_bytes": 2819314,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8cbb878e6_dibu-martinez-recibio-el-alta-medica-tras-ser.mp4"
-  },
   "nacionales:fb8bbb9c2285b74b|tiktok": {
    "actualizado": "2026-10-21T01:20:16.000Z",
    "buffer_id": "6ad800adc11f7f6be272f4a1",
@@ -24375,43 +24218,6 @@
    "video_bytes": 139877,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_08_bragado_aprehenden-a-un-joven-de-24-a-.mp4",
    "viral": false
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-19T15:00:47.000Z",
-   "buffer_id": "6ad5fcf438bcdab6ee512883",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html|tiktok",
-   "creado": "2026-10-18T21:40:15.000Z",
-   "dueAt": "2026-10-19T14:03:48.000Z",
-   "enviado": "2026-10-19T14:06:56.341Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T21:21:18.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698379749432855815",
-   "metricas": {
-    "averageTimeWatched": 4.19,
-    "comments": 0,
-    "engagementRate": 0.76,
-    "reach": 0,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 38,
-    "views": 525
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7\n\nEl siniestro vial ocurrió esta tarde a la altura del kilómetro 208 en Chacabuco. Una motociclista y su acompañante fueron trasladadas en ambulancia al Hospital municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-dos-mujeres-hospitalizadas-tras-un-choque-entre-una-bef1cf\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dos mujeres heridas tras un choque entre una moto y un auto en la Ruta 7",
-   "urgente": false,
-   "vence": "2026-10-19T15:21:18.000Z",
-   "video_bytes": 74306,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-18_2107_02_chacabuco_dos-mujeres-heridas-tras-un-ch.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x": {
    "actualizado": "2026-10-27T02:20:16.000Z",
@@ -26335,41 +26141,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x": {
-   "actualizado": "2026-10-19T15:00:47.000Z",
-   "buffer_id": "6ad5dc584eb85d76d18ff4e0",
-   "clave": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e|x",
-   "creado": "2026-10-18T22:00:19.000Z",
-   "dueAt": "2026-10-19T14:15:23.000Z",
-   "enviado": "2026-10-19T14:15:33.777Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T21:49:19.375Z",
-   "id": "web:1e51734b-3f36-443b-b9a0-a3c0db638b8e",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112185890655121533",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 16,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Preparan una Caminata Familiar a beneficio de dos instituciones\n\nComenzaron los preparativos iniciales para la realización de una Caminata Familiar a beneficio de la EEE N° 502 y el CFI N° 1. La actividad tiene horario de inicio programado para las 18.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-preparan-una-caminata-familiar-a-beneficio-de-dos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Preparan una Caminata Familiar a beneficio de dos instituciones",
-   "urgente": false,
-   "vence": "2026-10-19T21:49:19.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x": {
    "actualizado": "2026-10-20T15:00:20.000Z",
@@ -29438,41 +29209,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x": {
-   "actualizado": "2026-10-19T15:00:47.000Z",
-   "buffer_id": "6ad5dc58ea56886c47177788",
-   "clave": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64|x",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "2026-10-19T14:30:27.000Z",
-   "enviado": "2026-10-19T14:30:41.147Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T05:05:11.301Z",
-   "id": "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112189696411394280",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 39,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Enzo Pérez alentó a River en la tribuna durante el partido ante Belgrano\n\nEl experimentado mediocampista aprovechó su jornada libre en el Deportivo Maipú. Vivió el encuentro ante el Pirata junto a los hinchas en el estadio.\n\nhttps://www.diariolacampaña.com.ar/n/enzo-perez-alento-a-river-en-la-tribuna-durante-el-partido-ante-b4cf75",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Enzo Pérez alentó a River en la tribuna durante el partido ante Belgrano",
-   "urgente": false,
-   "vence": "2026-10-20T05:05:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x": {
    "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c869f3c923de2ca7cca7",
@@ -29798,41 +29534,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x": {
-   "actualizado": "2026-10-19T15:00:47.000Z",
-   "buffer_id": "6ad5ef2c784342f6387601a1",
-   "clave": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692|x",
-   "creado": "2026-10-19T10:20:14.000Z",
-   "dueAt": "2026-10-19T14:45:44.000Z",
-   "enviado": "2026-10-19T14:45:46.017Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T10:02:45.102Z",
-   "id": "web:8333ce89-a093-49e0-b6b1-c26d84ac0692",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112193491853844577",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 3.13,
-    "impressions": 32,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Sebastián Porto sufrió el robo de tres motos: “Es la primera vez que me toca pasar una cosa así y no es para nada agradable”\n\nEl expiloto llevó tranquilidad tras el mal momento vivido junto a sus hijas. Una de las unidades pudo ser recuperada.\n\nhttps://www.diariolacampaña.com.ar/n/una-fue-recuperada-sebastian-porto-sufrio-el-robo-de-tres-motos-es-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Sebastián Porto sufrió el robo de tres motos: “Es la primera vez que me toca pasar una cosa así y no es para nada agradable”",
-   "urgente": false,
-   "vence": "2026-10-20T10:02:45.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x": {
    "actualizado": "2026-10-27T13:00:20.000Z",
@@ -31249,41 +30950,6 @@
    "titulo": "Kicillof acordó un aumento salarial del 6% y desactivó un frente de conflicto",
    "urgente": false,
    "vence": "2026-10-20T10:04:04.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x": {
-   "actualizado": "2026-10-19T15:00:47.000Z",
-   "buffer_id": "6ad5dc57fbe396fa0f895cba",
-   "clave": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16|x",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "2026-10-19T14:00:58.000Z",
-   "enviado": "2026-10-19T14:04:48.671Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T05:20:29.227Z",
-   "id": "web:a2b829fd-dfab-4681-94c5-581ba33a9d16",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112183184616034305",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 49,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Julieta Prandi viajó a Brasil tras su separación de Emanuel Ortega y aclaró quién la acompaña\n\nhttps://www.diariolacampaña.com.ar/n/julieta-prandi-viajo-a-brasil-tras-su-separacion-de-emanuel-07376d",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Julieta Prandi viajó a Brasil tras su separación de Emanuel Ortega y aclaró quién la acompaña",
-   "urgente": false,
-   "vence": "2026-10-20T05:20:29.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -34039,18 +33705,19 @@
    "viral": false
   },
   "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x": {
-   "actualizado": "2026-10-29T14:00:24.000Z",
+   "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae35179958f4a52750a73c6",
    "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
    "creado": "2026-10-29T14:00:20.000Z",
    "dueAt": "2026-10-29T14:22:56.000Z",
+   "enviado": "2026-10-29T14:23:02.844Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T13:59:15.923Z",
    "id": "web:fa24c212-927b-4b43-b2d4-535b06d40feb",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115811652469694679",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
    "noticia": "nota:chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
    "origen": "web",
@@ -34283,19 +33950,20 @@
    "video_url": ""
   },
   "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x": {
-   "actualizado": "2026-10-29T12:40:15.000Z",
+   "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae33eaf650dab96a371692c",
    "clave": "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x",
    "creado": "2026-10-29T10:20:14.000Z",
    "dueAt": "2026-10-29T14:07:22.000Z",
+   "enviado": "2026-10-29T14:07:31.574Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:03:40.244Z",
    "id": "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b",
    "ig_hora": "2026-10-29T14:07:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115807746406629774",
    "nota_url": "https://www.diariolacampaña.com.ar/n/frente-grande-chivilcoy-impulsan-una-colecta-solidaria-para-asistir-a",
    "noticia": "nota:frente-grande-chivilcoy-impulsan-una-colecta-solidaria-para-asistir-a",
    "origen": "web",
@@ -34313,44 +33981,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:6eaf6418-146a-46ea-add6-5506d89ee4b7|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6eaf6418-146a-46ea-add6-5506d89ee4b7|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114055086187917480"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114059929774374985"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114070056447484314"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114056154259103822"
-  },
   {
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x",
    "cuando": "2026-10-24T19:20:24.000Z",
@@ -38535,6 +38165,42 @@
    "cuando": "2026-10-29T14:40:37.000Z",
    "dueAt": "2026-10-29T14:42:21.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
+   "cuando": "2026-10-29T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702095378472045832"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
+   "cuando": "2026-10-29T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115813044387250213"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x",
+   "cuando": "2026-10-29T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115816572518285645"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
+   "cuando": "2026-10-29T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702090975904255252"
+  },
+  {
+   "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
+   "cuando": "2026-10-29T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115811652469694679"
+  },
+  {
+   "clave": "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x",
+   "cuando": "2026-10-29T15:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115807746406629774"
   }
  ],
  "tandas": {
@@ -38569,7 +38235,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T14:00:23.000Z",
+ "ultima_sync": "2026-10-29T15:20:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
