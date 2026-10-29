@@ -4335,32 +4335,6 @@
    "volanta": "Masterchef Junior",
    "youtube_url": "https://youtube.com/shorts/kscwFVXX1nM"
   },
-  "nacionales:b1c71e9d1312dd69": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos. En paralelo, el PAMI atraviesa tensiones internas y protestas que afectaron a seis millones de afiliados.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T19:07:27.000Z",
-   "hashtags": [
-    "Salud",
-    "Clinicas"
-   ],
-   "id": "nacionales:b1c71e9d1312dd69",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia",
-   "urgente": false,
-   "video_bytes": 77666,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b1c71e9d13_advierten-riesgo-para-5000-clinicas-y-sanatorios.mp4",
-   "volanta": "Crisis sanitaria",
-   "youtube_url": "https://youtube.com/shorts/lizgrBu68yA"
-  },
   "nacionales:b3aa9eb0744c0822": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -22456,32 +22430,6 @@
    "vence": "2026-10-19T22:52:04.000Z",
    "video_bytes": 158362,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b18ec19773_masterchef-junior-debuto-con-vero-lozano-y-toco.mp4"
-  },
-  "nacionales:b1c71e9d1312dd69|tiktok": {
-   "actualizado": "2026-10-19T13:20:50.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:b1c71e9d1312dd69|tiktok",
-   "creado": "2026-10-18T20:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T19:07:27.000Z",
-   "id": "nacionales:b1c71e9d1312dd69",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia\n\nEl sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos. En paralelo, el PAMI atraviesa tensiones internas y protestas que afectaron a seis millones de afiliados.\n\nhttps://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Salud",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Advierten riesgo para 5000 clínicas y sanatorios por el fin de la emergencia",
-   "urgente": false,
-   "vence": "2026-10-19T13:07:27.000Z",
-   "video_bytes": 77666,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b1c71e9d13_advierten-riesgo-para-5000-clinicas-y-sanatorios.mp4"
   },
   "nacionales:b3aa9eb0744c0822|tiktok": {
    "actualizado": "2026-10-22T01:00:23.000Z",
