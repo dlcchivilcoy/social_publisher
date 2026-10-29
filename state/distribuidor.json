@@ -2175,6 +2175,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5147ef9ed57dca87.mp4",
    "youtube_url": "https://www.youtube.com/shorts/JnaIwtRQXPo"
   },
+  "bot:video_matias-zucchi_mvstco4fog1j_01.mp4": {
+   "descripcion": "Se realizó la presentación oficial de la 21° edición de la Media Maratón Eduardo Pollaroli, tradicional prueba atlética que tendrá lugar el próximo domingo 1 de noviembre a partir de las 8 de la mañana.\n\nEl anuncio estuvo encabezado por Juan Borgogna, presidente del Círculo de Atletas, y se desarrolló en las instalaciones de Kika Café. Durante la conferencia se detalló que la competencia incluirá tres modalidades de recorrido: las distancias de 21 km, 10 km y 5 km.\n\nEl lanzamiento contó además con la presencia de Ezequiel Pinotti, Javier Azcola en representación del sector de Oncología del Hospital, y funcionarios del área municipal, quienes acompañaron la difusión de este evento deportivo.",
+   "duracion_seg": 60.8,
+   "generado": "2026-10-29T00:43:18.000Z",
+   "id": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "video_bytes": 9430716,
+   "video_mb": 9.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bf98c04fede72a44.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ba-8vK1dbgI"
+  },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
    "duracion_seg": null,
@@ -7438,6 +7459,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mejora-en-los-procedimientos-capacitacion-a-personal-de-las-fuerzas",
    "volanta": ""
   },
+  "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c": {
+   "categoria": "",
+   "descripcion": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli Se realizó la presentación oficial de la edición número 21 de la Media Maratón Eduardo Pollaroli, encabezada por el presidente del Círculo de Atletas, Juan Borgogna. La competencia se llevará a cabo el domingo 1 de noviembre a partir de las 8 de la mañana. Según se detalló durante el anuncio en Kika Café, la prueba contará con distancias de 21 km, 10 km y 5 km. El lanzamiento contó con la presencia de Ezequiel Pinotti, Javier...",
+   "generado": "2026-10-29T00:42:27.541Z",
+   "id": "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_40a2a6b411734ae9825f479548275c32~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:35d13524-acfa-4d7e-b1ad-255c88759bcc": {
    "categoria": "",
    "descripcion": "Aumentó el peaje de Olivera en la Ruta Nacional 5 Aumentó el peaje de Olivera: los autos pagan $4.262,18 con Telepase y $8.600 de forma manual. El nuevo cuadro tarifario rige desde el 22 de octubre en la estación de la Ruta Nacional 5. Los valores varían según la categoría del vehículo y la modalidad de pago. Viajar desde Chivilcoy hacia Luján o la Ciudad Autónoma de Buenos Aires implica un mayor gasto en peajes. Desde el jueves 22 de octubre entraron en vigencia nuevas tarifas en la estación...",
@@ -11726,17 +11766,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 565,
-   "segundos": 30003,
+   "restantes": 564,
+   "segundos": 28786,
    "tope": 600
   },
   "30d": {
-   "restantes": 1000,
-   "segundos": 1110623,
+   "restantes": 999,
+   "segundos": 1109406,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T00:40:17.000Z",
+ "cuota_visto": "2026-10-29T01:00:36.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -18528,6 +18568,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5147ef9ed57dca87.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok": {
+   "actualizado": "2026-10-29T01:00:22.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
+   "creado": "2026-10-29T01:00:22.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T00:43:18.000Z",
+   "id": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli\n\nLa tradicional prueba atlética se disputará el domingo 1 de noviembre desde las 8 de la mañana. Durante el lanzamiento encabezado por Juan Borgogna, presidente del Círculo de Atletas, se detalló que la competencia incluirá distancias de 21 km, 10 km y 5 km.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-10-31T00:43:18.000Z",
+   "video_bytes": 9430716,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bf98c04fede72a44.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x": {
+   "actualizado": "2026-10-29T01:00:34.000Z",
+   "buffer_id": "6ae29ab4cc91be5434bd0f26",
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x",
+   "creado": "2026-10-29T01:00:22.000Z",
+   "dueAt": "2026-10-29T01:02:10.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T00:43:18.000Z",
+   "id": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "noticia": "nota:chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli\n\nLa prueba atlética se correrá el domingo 1 de noviembre desde las 8 de la mañana. La competencia incluirá recorridos de 21 km, 10 km y 5 km.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-10-29T02:43:18.000Z",
+   "video_bytes": 9430716,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bf98c04fede72a44.mp4",
+   "viral": false
+  },
   "entrevistas:job00224|x": {
    "actualizado": "2026-10-19T21:00:29.000Z",
    "buffer_id": "6ad64347b5b645b3c338e4b4",
@@ -24361,14 +24457,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x": {
-   "actualizado": "2026-10-28T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T01:00:34.000Z",
+   "buffer_id": "6ae29ab404f348da4000b75c",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x",
    "creado": "2026-10-28T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T01:07:44.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T23:01:57.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc",
    "intentos": 0,
@@ -27158,6 +27254,31 @@
    "titulo": "Mejora en los procedimientos",
    "urgente": false,
    "vence": "2026-10-26T14:03:27.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c|x": {
+   "actualizado": "2026-10-29T01:00:22.000Z",
+   "buffer_id": "",
+   "clave": "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c|x",
+   "creado": "2026-10-29T01:00:22.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-29T00:42:27.541Z",
+   "id": "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "noticia": "nota:chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-10-29T04:42:27.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -33811,44 +33932,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:545f9842d5a42866|tiktok",
-   "cuando": "2026-10-24T00:20:34.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|x",
-   "cuando": "2026-10-24T00:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|tiktok",
-   "cuando": "2026-10-24T00:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "nacionales:56e46b4aea933185|x",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
-   "clave": "nacionales:56e46b4aea933185|tiktok",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:56e46b4aea933185|x",
    "cuando": "2026-10-24T01:00:20.000Z",
    "evento": "depurado",
@@ -38029,6 +38112,44 @@
    "cuando": "2026-10-29T00:40:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7701878983033457928"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x",
+   "cuando": "2026-10-29T01:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
+   "cuando": "2026-10-29T01:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c|x",
+   "cuando": "2026-10-29T01:00:34.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae29ab4cc91be5434bd0f26",
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x",
+   "cuando": "2026-10-29T01:00:36.000Z",
+   "dueAt": "2026-10-29T01:02:10.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae29ab404f348da4000b75c",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x",
+   "cuando": "2026-10-29T01:00:36.000Z",
+   "dueAt": "2026-10-29T01:07:44.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38210,6 +38331,7 @@
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4": "2026-10-28T15:20:14.000Z",
   "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4": "2026-10-28T17:20:18.000Z",
   "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4": "2026-10-28T17:20:19.000Z",
+  "bot:video_matias-zucchi_mvstco4fog1j_01.mp4": "2026-10-29T01:00:22.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -38599,6 +38721,7 @@
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
   "web:34578935-f4ba-4a48-b177-a3e196a4e890": "2026-10-26T10:20:14.000Z",
+  "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c": "2026-10-29T01:00:22.000Z",
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
   "web:359c8325-07b4-4de6-9aca-1c26e7243c29": "2026-10-13T10:20:16.000Z",
   "web:35d13524-acfa-4d7e-b1ad-255c88759bcc": "2026-10-25T14:20:14.000Z",
