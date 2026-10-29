@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-29T17:40:16.000Z"
+   "visto": "2026-10-29T19:00:27.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 26
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-29T17:40:16.000Z"
+   "visto": "2026-10-29T19:00:27.000Z"
   }
  },
  "contenidos": {
@@ -95,27 +95,6 @@
    "video_mb": 1.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4",
    "youtube_url": "https://www.youtube.com/shorts/B1OkSWIzHP8"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr": {
-   "descripcion": "Personal policial interceptó un Ford Fiesta en la intersección de las calles 516 y Bolívar, en Chivilcoy, y constató que el vehículo tenía colocada una patente apócrifa. El rodado, dominio AB699AZ, era conducido por Andrés David Avendaño, de 44 años. Al verificar los números de",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-19T13:21:05.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
-   "urgente": false,
-   "video_bytes": 698289,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/rfy8ERhwViU"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc": {
    "descripcion": "En el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas. Tras el hallazgo de las dos primeras unidades, y como resultado de la continuidad de las tareas investigativas...",
@@ -3076,6 +3055,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
    "youtube_url": "https://youtu.be/KxLwJsOkOS0"
   },
+  "entrevistas:job00264": {
+   "descripcion": "Lucas Bettoli, referente de la UTN en Chivilcoy, reflexiona sobre la articulación académica con el sector productivo y el verdadero valor agregado de un título universitario. Mirá el análisis completo en la nota.",
+   "duracion_seg": null,
+   "entrevistado": "Lucas Bettoli",
+   "generado": "2026-10-29T19:00:17.000Z",
+   "id": "entrevistas:job00264",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
+   "urgente": false,
+   "video_bytes": 18091646,
+   "video_mb": 17.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
+   "youtube_url": "https://youtu.be/ZsWzInbxJhw"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -4609,32 +4609,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "volanta": "Javier Milei",
    "youtube_url": "https://youtube.com/shorts/935r-7nZec0"
-  },
-  "nacionales:e50827dd69db5a5d": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "Las protestas por el costo de vida en París derivaron en nuevos saqueos y enfrentamientos. Reportan un muerto, 1500 locales saqueados, 600 agentes heridos y 2000 detenidos mientras Macron prepara un discurso.",
-   "duracion_seg": 15.1,
-   "generado": "2026-10-19T00:51:10.000Z",
-   "hashtags": [
-    "Francia",
-    "Paris"
-   ],
-   "id": "nacionales:e50827dd69db5a5d",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Nuevos saqueos y violentos disturbios en París ponen en jaque al gobierno de Macron",
-   "urgente": false,
-   "video_bytes": 1520472,
-   "video_mb": 1.5,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e50827dd69_nuevos-saqueos-y-violentos-disturbios-en-paris.mp4",
-   "volanta": "Crisis en Francia",
-   "youtube_url": "https://youtube.com/shorts/Mnx4l0xHVr0"
   },
   "nacionales:eba0c0c1b9408496": {
    "categoria": "Política",
@@ -8015,24 +7989,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt-1",
    "volanta": "Campeonato Regional"
   },
-  "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793": {
-   "categoria": "",
-   "descripcion": "Recuperaron un auto con pedido de secuestro por robo en CABA Personal policial interceptó un Ford Fiesta en la intersección de las calles 516 y Bolívar, en Chivilcoy, y constató que el vehículo tenía colocada una patente apócrifa. El rodado, dominio AB699AZ, era conducido por Andrés David Avendaño, de 44 años. Al verificar los números de chasis y motor, los efectivos comprobaron que registraba un pedido de secuestro activo desde el 12 de septiembre de 2022, en el marco de una causa por robo...",
-   "generado": "2026-10-19T13:18:51.375Z",
-   "id": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7722d91a769242d9afda5091f8b0334e~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:7524a117-5ec3-428b-862c-0238cd3653e6": {
    "categoria": "",
    "descripcion": "Detectan y desarticulan dos conexiones clandestinas de energía en el Hipódromo de Chivilcoy El operativo se realizó el domingo con el auxilio de la Policía. EDEN notificará al Municipio e iniciará acciones penales ante el grave riesgo eléctrico para el público y los asistentes a las competencias de trote. En un operativo llevado a cabo este domingo 18 de octubre, personal de la empresa distribuidora de energía EDEN Chivilcoy detectó y retiró en dos oportunidades una conexión eléctrica...",
@@ -10040,24 +9996,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
    "volanta": "Chivilcoy · Producción"
   },
-  "web:c6663899-669a-41de-b04f-299805304e87": {
-   "categoria": "nacionales",
-   "descripcion": "La plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan…",
-   "generado": "2026-10-18T18:37:26.849Z",
-   "id": "web:c6663899-669a-41de-b04f-299805304e87",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a53061983ba24c77a69669f5149c360b~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Netflix: las cinco películas recomendadas para ver este fin de semana con duración detallada",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
-   "volanta": ""
-  },
   "web:c6773443-ef8a-493a-b392-a16cd01f5057": {
    "categoria": "",
    "descripcion": "Esclarecen robos, recuperan elementos sustraídos y detienen a sospechosos La Secretaría de Seguridad informó sobre tres procedimientos recientes en la ciudad y la localidad de Gorostiaga, con aprehensiones, recupero de objetos sustraídos y el secuestro de un vehículo. La Secretaría de Seguridad de la Municipalidad de Chivilcoy, a cargo de Néstor Dabi, dio a conocer los resultados de una serie de operativos e investigaciones llevados a cabo por personal policial y dependencias...",
@@ -11283,22 +11221,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 574,
-   "segundos": 53991,
+   "restantes": 572,
+   "segundos": 51588,
    "tope": 600
   },
   "30d": {
-   "restantes": 972,
-   "segundos": 1047016,
+   "restantes": 970,
+   "segundos": 1044613,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T18:20:25.000Z",
+ "cuota_visto": "2026-10-29T19:00:29.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -11403,43 +11341,6 @@
    "vence": "2026-10-21T13:12:41.000Z",
    "video_bytes": 1160584,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok": {
-   "actualizado": "2026-10-19T19:00:19.000Z",
-   "buffer_id": "6ad6561000e70b77e05cc00b",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok",
-   "creado": "2026-10-19T13:40:18.000Z",
-   "dueAt": "2026-10-19T17:43:40.000Z",
-   "enviado": "2026-10-19T17:45:28.292Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:21:05.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698436096232819975",
-   "metricas": {
-    "averageTimeWatched": 3.75,
-    "comments": 0,
-    "engagementRate": 0.68,
-    "reach": 0,
-    "reactions": 3,
-    "shares": 0,
-    "totalTimeWatched": 31.27,
-    "views": 440
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nPersonal policial interceptó un Ford Fiesta conducido por Andrés David Avendaño en la intersección de las calles 516 y Bolívar, en Chivilcoy. En el lugar, constataron que el vehículo circulaba con una patente apócrifa.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
-   "urgente": false,
-   "vence": "2026-10-21T13:21:05.000Z",
-   "video_bytes": 698289,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x": {
    "actualizado": "2026-10-19T23:00:25.000Z",
@@ -15668,43 +15569,6 @@
    "vence": "2026-10-21T13:45:38.000Z",
    "video_bytes": 19087882,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4"
-  },
-  "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T19:00:19.000Z",
-   "buffer_id": "6ad656112d69a6fbbf3b1a03",
-   "clave": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|tiktok",
-   "creado": "2026-10-19T17:00:21.000Z",
-   "dueAt": "2026-10-19T18:23:03.000Z",
-   "enviado": "2026-10-19T18:24:58.394Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T16:50:06.000Z",
-   "id": "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698446237464284437",
-   "metricas": {
-    "averageTimeWatched": 10.1,
-    "comments": 0,
-    "engagementRate": 0.74,
-    "reach": 0,
-    "reactions": 8,
-    "shares": 0,
-    "totalTimeWatched": 199.17,
-    "views": 1078
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales\n\nTras un cruce con un concejal libertario, el intendente Guillermo Britos desmintió haber perdonado una deuda de cerca de 200 millones de pesos a la firma Bicontinentar y remarcó que el monto se reclama por vía judicial. Además, advirtió que iniciará acciones legales si no hay una rectificación pública, mientras que el edil cuestionó a la prensa y la vinculó con la pauta municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-nego-haber-condonado-una-deuda-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Britos negó haber condonado una deuda a Bicontinentar y advirtió con acciones legales",
-   "urgente": false,
-   "vence": "2026-10-21T16:50:06.000Z",
-   "video_bytes": 1022794,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f9ee75a83eee9237.mp4"
   },
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x": {
    "actualizado": "2026-10-20T00:20:18.000Z",
@@ -20227,18 +20091,19 @@
    "viral": false
   },
   "entrevistas:job00262|x": {
-   "actualizado": "2026-10-29T18:00:34.000Z",
+   "actualizado": "2026-10-29T19:00:27.000Z",
    "buffer_id": "6ae389c349b3849a24c9f93c",
    "clave": "entrevistas:job00262|x",
    "creado": "2026-10-29T18:00:21.000Z",
    "dueAt": "2026-10-29T18:02:05.000Z",
+   "enviado": "2026-10-29T18:05:28.535Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T18:00:21.000Z",
    "id": "entrevistas:job00262",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115867628870762786",
    "nota_url": "",
    "noticia": "titulo:apuestas-cabani-fernando-jovenes-mental-online-salud",
    "origen": "entrevistas",
@@ -20283,18 +20148,19 @@
    "viral": false
   },
   "entrevistas:job00263|x": {
-   "actualizado": "2026-10-29T18:20:24.000Z",
+   "actualizado": "2026-10-29T19:00:27.000Z",
    "buffer_id": "6ae38e69b3aaeefe23225ae5",
    "clave": "entrevistas:job00263|x",
    "creado": "2026-10-29T18:20:14.000Z",
    "dueAt": "2026-10-29T18:22:59.000Z",
+   "enviado": "2026-10-29T18:23:11.158Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T18:20:14.000Z",
    "id": "entrevistas:job00263",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115872085864055191",
    "nota_url": "",
    "noticia": "titulo:amena-carolina-dance-emocion-magic-previa-show",
    "origen": "entrevistas",
@@ -20308,6 +20174,62 @@
    "vence": "2026-10-29T20:20:14.000Z",
    "video_bytes": 22593470,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
+   "viral": false
+  },
+  "entrevistas:job00264|tiktok": {
+   "actualizado": "2026-10-29T19:00:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00264|tiktok",
+   "creado": "2026-10-29T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T19:00:17.000Z",
+   "id": "entrevistas:job00264",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Lucas Bettoli: el rol de la universidad frente a las empresas\n\nLucas Bettoli, referente de la UTN en Chivilcoy, reflexiona sobre la articulación académica con el sector productivo y el verdadero valor agregado de un título universitario. Mirá el análisis completo en la nota.\n\nhttps://youtu.be/ZsWzInbxJhw\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
+   "urgente": false,
+   "vence": "2026-10-31T19:00:17.000Z",
+   "video_bytes": 18091646,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
+   "viral": false
+  },
+  "entrevistas:job00264|x": {
+   "actualizado": "2026-10-29T19:00:27.000Z",
+   "buffer_id": "6ae397cda929d1f77543b55c",
+   "clave": "entrevistas:job00264|x",
+   "creado": "2026-10-29T19:00:17.000Z",
+   "dueAt": "2026-10-29T19:02:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T19:00:17.000Z",
+   "id": "entrevistas:job00264",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:bettoli-empresas-frente-lucas-universidad",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Lucas Bettoli: el rol de la universidad frente a las empresas\n\nLucas Bettoli, referente de la UTN en Chivilcoy, reflexiona sobre la articulación académica con el sector productivo y el verdadero valor agregado de un título universitario.\n\nhttps://youtu.be/ZsWzInbxJhw",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
+   "urgente": false,
+   "vence": "2026-10-29T21:00:17.000Z",
+   "video_bytes": 18091646,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -22618,32 +22540,6 @@
    "video_bytes": 80334,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "viral": false
-  },
-  "nacionales:e50827dd69db5a5d|tiktok": {
-   "actualizado": "2026-10-19T19:00:19.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:e50827dd69db5a5d|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-19T00:51:10.000Z",
-   "id": "nacionales:e50827dd69db5a5d",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Nuevos saqueos y violentos disturbios en París ponen en jaque al gobierno de Macron\n\nLas protestas por el costo de vida en París derivaron en nuevos saqueos y enfrentamientos. Reportan un muerto, 1500 locales saqueados, 600 agentes heridos y 2000 detenidos mientras Macron prepara un discurso.\n\nhttps://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Francia",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Nuevos saqueos y violentos disturbios en París ponen en jaque al gobierno de Macron",
-   "urgente": false,
-   "vence": "2026-10-19T18:51:10.000Z",
-   "video_bytes": 1520472,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e50827dd69_nuevos-saqueos-y-violentos-disturbios-en-paris.mp4"
   },
   "nacionales:eba0c0c1b9408496|tiktok": {
    "actualizado": "2026-10-19T23:40:28.000Z",
@@ -28308,41 +28204,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x": {
-   "actualizado": "2026-10-19T19:00:19.000Z",
-   "buffer_id": "6ad6272ef8ab1a7963257479",
-   "clave": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793|x",
-   "creado": "2026-10-19T13:20:16.000Z",
-   "dueAt": "2026-10-19T18:45:03.000Z",
-   "enviado": "2026-10-19T18:45:16.471Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:18:51.375Z",
-   "id": "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112253765487096155",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nLa policía interceptó en Chivilcoy un vehículo que circulaba con patente apócrifa. Al verificar chasis y motor, los efectivos comprobaron que registraba pedido de secuestro activo por robo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
-   "urgente": false,
-   "vence": "2026-10-20T13:18:51.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:7524a117-5ec3-428b-862c-0238cd3653e6|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
    "buffer_id": "",
@@ -31451,32 +31312,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c6663899-669a-41de-b04f-299805304e87|x": {
-   "actualizado": "2026-10-19T18:40:16.000Z",
-   "buffer_id": "",
-   "clave": "web:c6663899-669a-41de-b04f-299805304e87|x",
-   "creado": "2026-10-18T18:40:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T18:37:26.849Z",
-   "id": "web:c6663899-669a-41de-b04f-299805304e87",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Netflix: las cinco películas recomendadas para ver este fin de semana con duración detallada\n\nLa plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación.\n\nhttps://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Netflix: las cinco películas recomendadas para ver este fin de semana con duración detallada",
-   "urgente": false,
-   "vence": "2026-10-19T18:37:26.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:c6773443-ef8a-493a-b392-a16cd01f5057|x": {
    "actualizado": "2026-10-27T10:40:19.000Z",
    "buffer_id": "6ae07746227c7f64b78aa878",
@@ -33355,50 +33190,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
-   "cuando": "2026-10-24T23:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x",
-   "cuando": "2026-10-24T23:40:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6add4695bd33ce99c3492b8f",
-   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
-   "cuando": "2026-10-25T00:00:24.000Z",
-   "dueAt": "2026-10-25T00:03:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add4695bd33ce99c3492c7c",
-   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
-   "cuando": "2026-10-25T00:00:24.000Z",
-   "dueAt": "2026-10-25T00:23:23.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add4696e4be8a4d86821ffd",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok",
-   "cuando": "2026-10-25T00:00:24.000Z",
-   "dueAt": "2026-10-25T00:43:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add46978b3d437ddce30de9",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzx0yntk01|tiktok",
-   "cuando": "2026-10-25T00:00:24.000Z",
-   "dueAt": "2026-10-25T01:03:08.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6add46976887a2efc1de470c",
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok",
@@ -37580,6 +37371,46 @@
    "cuando": "2026-10-29T18:20:25.000Z",
    "dueAt": "2026-10-29T18:22:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00264",
+   "cuando": "2026-10-29T19:00:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00264|x",
+   "cuando": "2026-10-29T19:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00264|tiktok",
+   "cuando": "2026-10-29T19:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00262|x",
+   "cuando": "2026-10-29T19:00:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115867628870762786"
+  },
+  {
+   "clave": "entrevistas:job00263|x",
+   "cuando": "2026-10-29T19:00:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115872085864055191"
+  },
+  {
+   "buffer_id": "6ae397cda929d1f77543b55c",
+   "clave": "entrevistas:job00264|x",
+   "cuando": "2026-10-29T19:00:29.000Z",
+   "dueAt": "2026-10-29T19:02:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -37614,7 +37445,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T17:40:16.000Z",
+ "ultima_sync": "2026-10-29T19:00:27.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -37832,6 +37663,7 @@
   "entrevistas:job00261": "2026-10-29T17:20:13.000Z",
   "entrevistas:job00262": "2026-10-29T18:00:21.000Z",
   "entrevistas:job00263": "2026-10-29T18:20:14.000Z",
+  "entrevistas:job00264": "2026-10-29T19:00:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
