@@ -25284,14 +25284,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac|x": {
-   "actualizado": "2026-10-28T23:20:14.000Z",
+   "actualizado": "2026-10-29T01:20:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac|x",
    "creado": "2026-10-28T23:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-28T23:01:58.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac",
    "intentos": 0,
@@ -33932,12 +33932,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:56e46b4aea933185|x",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "evento": "depurado",
-   "motivo": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)"
-  },
-  {
    "clave": "nacionales:56e46b4aea933185|tiktok",
    "cuando": "2026-10-24T01:00:20.000Z",
    "evento": "depurado",
@@ -38150,6 +38144,12 @@
    "cuando": "2026-10-29T01:00:36.000Z",
    "dueAt": "2026-10-29T01:07:44.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac|x",
+   "cuando": "2026-10-29T01:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
