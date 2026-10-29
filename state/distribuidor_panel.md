@@ -1,36 +1,37 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 3 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 7 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 4 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 8 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 8 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 30 · likes 0
 - X · Reels del bot: 79 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 23 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 75 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 71 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
-- TikTok · Reels del bot: 57 con métricas · mediana vistas/impresiones 294 · likes 3
+- TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 293 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 572 de 600 · 30d: quedan 970 de 2000 (visto 2026-10-29T19:00:29.000Z)
+15m: quedan 149 de 150 · 24h: quedan 571 de 600 · 30d: quedan 969 de 2000 (visto 2026-10-29T20:20:17.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (15 esperando)
+- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Lucas Bettoli: el rol de la universidad frente a las empresas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,10 +55,6 @@ Actualizado: 29/10/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T17:00 entrevista_aprobada entrevistas:job00260 
-- 2026-10-29T17:00 recibido entrevistas:job00260|x 
-- 2026-10-29T17:00 recibido entrevistas:job00260|tiktok 
-- 2026-10-29T17:00 programado entrevistas:job00260|x 
 - 2026-10-29T17:20 entrevista_aprobada entrevistas:job00261 
 - 2026-10-29T17:20 recibido entrevistas:job00261|x 
 - 2026-10-29T17:20 recibido entrevistas:job00261|tiktok 
@@ -79,3 +76,7 @@ Actualizado: 29/10/2026 17:00 (hora AR) · ACTIVO
 - 2026-10-29T19:00 enviado entrevistas:job00262|x 
 - 2026-10-29T19:00 enviado entrevistas:job00263|x 
 - 2026-10-29T19:00 programado entrevistas:job00264|x 
+- 2026-10-29T20:20 recibido bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|x la misma noticia ya sale en X (Reels del bot, enviado)
+- 2026-10-29T20:20 recibido bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok 
+- 2026-10-29T20:20 recibido web:e5615e3b-7d1f-407b-b876-c42670585cb1|x la misma noticia ya sale en X (Reels del bot, enviado)
+- 2026-10-29T20:20 enviado entrevistas:job00264|x 

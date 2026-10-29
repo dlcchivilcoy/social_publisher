@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-29T19:00:27.000Z"
+   "visto": "2026-10-29T20:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-29T19:00:27.000Z"
+   "visto": "2026-10-29T20:20:16.000Z"
   }
  },
  "contenidos": {
@@ -74,27 +74,6 @@
    "video_mb": 0.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Hsq2oE8ZzSs"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn": {
-   "descripcion": "En el marco de la investigación por la sustracción de tres motocicletas al vecino Sebastián Porto, personal policial logró recuperar un segundo rodado, que fue hallado en un descampado de Chivilcoy. El procedimiento se llevó a cabo en la zona de las calles Garibaldi y 26, donde los efectivos",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-19T13:12:41.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
-   "urgente": false,
-   "video_bytes": 1160584,
-   "video_mb": 1.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/B1OkSWIzHP8"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc": {
    "descripcion": "En el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas. Tras el hallazgo de las dos primeras unidades, y como resultado de la continuidad de las tareas investigativas...",
@@ -1419,27 +1398,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4",
    "youtube_url": "https://www.youtube.com/shorts/SjXHCr65IPs"
   },
-  "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4": {
-   "descripcion": "La delegación de Chivilcoy arribó a la ciudad de Mar del Plata para participar de la Final Provincial de los Juegos Bonaerenses 2026.\n\nLos representantes locales hicieron su ingreso a la localidad balnearia para formar parte de la instancia decisiva del certamen provincial.\n\nCon las expectativas puestas en la competencia, los deportistas y participantes chivilcoyanos ya se encuentran en la sede del evento para disputar las distintas disciplinas.",
-   "duracion_seg": 60.4,
-   "generado": "2026-10-19T13:45:38.000Z",
-   "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses",
-   "urgente": false,
-   "video_bytes": 19087882,
-   "video_mb": 18.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/6nj5OqAnUgQ"
-  },
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4": {
    "descripcion": "El intendente Guillermo Britos mantuvo un cruce con un concejal libertario y desmintió haber condonado una deuda de aproximadamente 200 millones de pesos a la empresa Bicontinentar.\n\nEl jefe comunal remarcó que el monto mencionado se encuentra actualmente reclamado por la vía judicial. En ese sentido, advirtió que iniciará acciones legales correspondientes en caso de que no exista una rectificación pública sobre las acusaciones vertidas.\n\nPor su parte, el edil libertario cuestionó el tratamiento informativo del tema por parte de la prensa y lo vinculó de manera directa con la pauta municipal, tras difundir una planilla de proveedores perteneciente al ejercicio 2025.\n\nEl material aportado por las partes expone ambas posturas sobre lo sucedido, aunque no permite verificar por sí mismo el estado efectivo de la deuda ni el vínculo señalado con la pauta oficial.",
    "duracion_seg": 39.3,
@@ -2258,6 +2216,27 @@
    "video_mb": 17.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
    "youtube_url": "https://www.youtube.com/shorts/jMlt7gQlwqo"
+  },
+  "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4": {
+   "descripcion": "El coordinador de Deportes, Emilio Carabelli, y el presidente del Círculo de Atletas, Juan Borgogna, presentaron los detalles organizativos de la Media Maratón «Eduardo Pollaroli».\n\nDesde el área deportiva municipal destacaron el trabajo conjunto con el Círculo, los clubes y las diversas entidades participantes. En esta oportunidad, la competencia contará con la articulación del área de oncología para difundir pautas de prevención y detección temprana, promoviendo la actividad física en relación directa con la salud y los controles médicos.\n\nPor su parte, se informó que las inscripciones siguen disponibles en el sitio web de Finishtime, tanto para la prueba principal como para la caminata, con cupos que contemplan remeras oficiales. La largada del evento está pautada de manera puntual para el domingo a las 8 de la mañana.\n\nEl operativo contará con el acompañamiento de Tránsito, Defensa Civil, el servicio de ambulancias, el Hospital municipal y la Cruz Roja, además del respaldo de la comisión organizadora, las familias y los medios de prensa locales.",
+   "duracion_seg": 130.7,
+   "generado": "2026-10-29T20:15:37.000Z",
+   "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "video_bytes": 13745511,
+   "video_mb": 13.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ee9f57971e38631.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/OY202FGzB5o"
   },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
@@ -3953,32 +3932,6 @@
    "volanta": "Elecciones y candidaturas",
    "youtube_url": "https://youtube.com/shorts/Ud2s4theh5A"
   },
-  "nacionales:97bd2fed895cbca6": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Divergencias internas entre el sector que busca acuerdos con gobernadores y el ala que prioriza la jugada nacional y la economía.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T01:50:57.000Z",
-   "hashtags": [
-    "Politica",
-    "Gobierno"
-   ],
-   "id": "nacionales:97bd2fed895cbca6",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Tensión oficialista por las alianzas y el rumbo electoral de cara a 2027",
-   "urgente": false,
-   "video_bytes": 93322,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_97bd2fed89_tension-oficialista-por-las-alianzas-y-el-rumbo.mp4",
-   "volanta": "Estrategia 2027",
-   "youtube_url": "https://youtube.com/shorts/DTDcxnZ4g18"
-  },
   "nacionales:9cae8a7fbd11ec6c": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -4109,32 +4062,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a09771b77a_jugador-de-racing-reacciono-con-insultos-y-gestos.mp4",
    "volanta": "Racing e Independiente",
    "youtube_url": "https://youtube.com/shorts/1eEvHhl8o5E"
-  },
-  "nacionales:a45e03c51dbe2f12": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "El conjunto marplatense ganaba con un tanto de Andrés Vombergar a los 68 minutos, pero el equipo cordobés lo dio vuelta sobre el cierre con las anotaciones de Ibrahim Hesar y Gabriel Alanís.",
-   "duracion_seg": 91.3,
-   "generado": "2026-10-19T02:06:01.000Z",
-   "hashtags": [
-    "Aldosivi",
-    "EstudiantesRioCuarto"
-   ],
-   "id": "nacionales:a45e03c51dbe2f12",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Aldosivi cayó 2-1 ante Estudiantes de Río Cuarto y se complica en la permanencia",
-   "urgente": false,
-   "video_bytes": 7688244,
-   "video_mb": 7.3,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a45e03c51d_aldosivi-cayo-2-1-ante-estudiantes-de-rio-cuarto.mp4",
-   "volanta": "Torneo Clausura",
-   "youtube_url": "https://youtube.com/shorts/acDjsUbAH00"
   },
   "nacionales:a7e42407f5ea13c5": {
    "categoria": "Política",
@@ -6825,24 +6752,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-5-sociedad-aumento-el-peaje-de-olivera-en-la-ruta-nacional-5",
    "volanta": "Ruta 5 · Sociedad"
   },
-  "web:3620c5d5-68d9-4902-898d-2347615ba891": {
-   "categoria": "",
-   "descripcion": "Recuperaron dos de las tres motos robadas a Sebastián Porto En el marco de la investigación por la sustracción de tres motocicletas al vecino Sebastián Porto, personal policial logró recuperar un segundo rodado, que fue hallado en un descampado de Chivilcoy. El procedimiento se llevó a cabo en la zona de las calles Garibaldi y 26, donde los efectivos secuestraron una motocicleta Honda GLH 150, de color negro, dominio A255CIJ, que no presentaba faltantes. El hallazgo fue resultado de las...",
-   "generado": "2026-10-19T13:09:09.120Z",
-   "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_88def9ec5c8444c3b80fafaf2d902045~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:36e83a1d-e03b-401c-8c1b-edd4182a003f": {
    "categoria": "",
    "descripcion": "Recuperan una moto robada y demoran a un menor Personal de la Sub-DDI Chivilcoy, conjuntamente con efectivos del Gabinete Técnico Operativo de Chivilcoy, interceptó en la intersección de la calle Bartolomé Benites y De los Inmigrantes a un masculino que circulaba en un motovehículo sin dominio colocado. Se trataba de una Honda NF100 Wave de color gris y negro, conducida por un menor de 17 años de edad. Sobre el rodado pesaba un pedido de secuestro activo con fecha del 08/09/2026, bajo la...",
@@ -7180,24 +7089,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gastronomia-domingo-pastas-representara-a-chivilcoy-en-la",
    "volanta": "Chivilcoy · Gastronomía"
-  },
-  "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": {
-   "categoria": "",
-   "descripcion": "Investigadores, productores y empresas se darán cita del 21 al 23 de octubre para analizar genética, manejo, tecnología y calidad industrial del cultivo.",
-   "generado": "2026-10-19T11:02:32.156Z",
-   "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6ee65532b97c4d72a88f1bb63d1b0886~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
-   "volanta": ""
   },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e": {
    "categoria": "",
@@ -8553,24 +8444,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el-1",
    "volanta": "Accidentes de carrera"
   },
-  "web:8c2797b4-7dbb-4d7f-ac67-65970009882b": {
-   "categoria": "",
-   "descripcion": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata La delegación de Chivilcoy viaja hacia Mar del Plata para competir en la Final Provincial de los Juegos Bonaerenses.",
-   "generado": "2026-10-19T11:16:12.587Z",
-   "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d1e13fd4d8bc46e69dabb82586cfe342~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5": {
    "categoria": "",
    "descripcion": "Boca venció a Racing de Chivilcoy en la Liga Nacional Boca Juniors venció 80-72 a Racing de Chivilcoy en el Grilón Arena, por la fase regular de la Liga Nacional de Básquetbol. La visita se quedó con un encuentro equilibrado durante la primera mitad y encontró el quiebre después del descanso, cuando un parcial de 21-12 le permitió tomar el control del marcador. El encuentro del viernes 23 de octubre de 2026 marcó un hito para la institución chivilcoyana: por primera vez, TyC Sports televisó...",
@@ -9115,24 +8988,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/oscar-potetti-no-se-entiende-por-que-hay-50-millones-de-dolares-para",
    "volanta": "Oscar Potetti"
   },
-  "web:a1643449-bbde-4592-a6b3-8e7158b579e6": {
-   "categoria": "",
-   "descripcion": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto En el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas. Tras el hallazgo de las dos primeras unidades, y como resultado de la continuidad de las tareas investigativas, que incluyeron el relevamiento de cámaras de seguridad y trabajos de campo, se logró recuperar la tercera motocicleta. La causa, caratulada como...",
-   "generado": "2026-10-19T15:19:06.367Z",
-   "id": "web:a1643449-bbde-4592-a6b3-8e7158b579e6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e23380631462499b859ed423fab83ec4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34": {
    "categoria": "",
    "descripcion": "Títulos con sabor a local: el Campeonato Regional de Rally consagró a sus primeros campeones en Chivilcoy El Campeonato Regional de Rally (CRR) disputó su penúltima fecha con epicentro en Chivilcoy, en un fin de semana condicionado por las adversidades climáticas y el estado de los caminos, factores que obligaron a cancelar la segunda etapa y a decretar las clasificaciones del sábado como definitivas tras seis pruebas especiales y 65,46 kilómetros cronometrados. A pesar de que el Gran Premio...",
@@ -9263,24 +9118,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/apertura-peronista-el-periodista-gustavo-gato-sylvestre-presento-su",
    "volanta": "Apertura Peronista"
-  },
-  "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130": {
-   "categoria": "nacionales",
-   "descripcion": "La Justicia procesó al exfuncionario Facundo Leal en una causa por presuntos sobornos y direccionamiento de contrataciones. Hallaron dinero en efectivo en…",
-   "generado": "2026-10-18T20:07:25.938Z",
-   "id": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ad014b38cd5a4ddb864acc2bd8fd98fc~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de dólares",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
-   "volanta": ""
   },
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": {
    "categoria": "",
@@ -10560,6 +10397,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
    "volanta": "Chivilcoy · Cultura"
   },
+  "web:e5615e3b-7d1f-407b-b876-c42670585cb1": {
+   "categoria": "",
+   "descripcion": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli El coordinador de Deportes, Emilio Carabelli, y el presidente del Círculo de Atletas, Juan Borgogna, brindaron precisiones sobre la realización de la Media Maratón \"Eduardo Pollaroli\". Carabelli destacó la disposición del área de Deportes hacia el Círculo, los clubes y las instituciones que llevan adelante este tipo de actividades. Además, valoró la articulación con el área de oncología para difundir información sobre prevención y...",
+   "generado": "2026-10-29T20:14:52.161Z",
+   "id": "web:e5615e3b-7d1f-407b-b876-c42670585cb1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c988cebe78044d4687f41e951aea28fb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5": {
    "categoria": "",
    "descripcion": "Robo en una panadería de Chivilcoy: dos menores con antecedentes fueron aprehendidos Dos menores de edad fueron aprehendidos en el marco de una investigación por el robo de $200.000 en efectivo en la panadería El Águila, ubicada en avenida Suárez 350, en Chivilcoy. El hecho fue denunciado luego de que, al abrir el comercio, constataran que desconocidos habían ingresado tras forzar la puerta de blindex y sustraído el dinero. A partir del análisis del material fílmico aportado por el...",
@@ -11107,22 +10963,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 572,
-   "segundos": 51588,
+   "restantes": 571,
+   "segundos": 46799,
    "tope": 600
   },
   "30d": {
-   "restantes": 970,
-   "segundos": 1044613,
+   "restantes": 969,
+   "segundos": 1039824,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T19:00:29.000Z",
+ "cuota_visto": "2026-10-29T20:20:17.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -11190,43 +11046,6 @@
    "vence": "2026-10-20T22:49:15.000Z",
    "video_bytes": 908176,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "6ad668c6a443b466be722424",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|tiktok",
-   "creado": "2026-10-19T13:20:16.000Z",
-   "dueAt": "2026-10-19T19:03:45.000Z",
-   "enviado": "2026-10-19T19:04:27.370Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:12:41.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698456660397821202",
-   "metricas": {
-    "averageTimeWatched": 6.18,
-    "comments": 0,
-    "engagementRate": 1.1,
-    "reach": 0,
-    "reactions": 7,
-    "shares": 0,
-    "totalTimeWatched": 71.12,
-    "views": 635
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Recuperaron dos de las tres motos robadas a Sebastián Porto\n\nPersonal policial logró recuperar un segundo rodado en un descampado de Chivilcoy, en la zona de las calles Garibaldi y 26. El procedimiento se llevó a cabo en el marco de la investigación por la sustracción de tres motocicletas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
-   "urgente": false,
-   "vence": "2026-10-21T13:12:41.000Z",
-   "video_bytes": 1160584,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x": {
    "actualizado": "2026-10-19T23:00:25.000Z",
@@ -15419,43 +15238,6 @@
    "video_bytes": 4050055,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
   },
-  "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "6ad668c7a443b466be72255d",
-   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok",
-   "creado": "2026-10-19T14:00:19.000Z",
-   "dueAt": "2026-10-19T19:43:31.000Z",
-   "enviado": "2026-10-19T19:45:28.482Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:45:38.000Z",
-   "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698466997759167752",
-   "metricas": {
-    "averageTimeWatched": 4.9,
-    "comments": 0,
-    "engagementRate": 0.31,
-    "reach": 0,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 56.48,
-    "views": 653
-   },
-   "nota_url": "",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses\n\nLa delegación de Chivilcoy arribó a la ciudad de Mar del Plata para participar de la Final Provincial de los Juegos Bonaerenses 2026. Los representantes locales hicieron su ingreso a la localidad balnearia para formar parte de la instancia decisiva del certamen provincial. Con las expectativas puestas en la competencia, los deportistas y participantes chivilcoyanos ya se encuentran en la sede del evento para disputar las distintas disciplinas.\n\nhttps://www.youtube.com/shorts/6nj5OqAnUgQ\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-21T13:45:38.000Z",
-   "video_bytes": 19087882,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4"
-  },
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4|x": {
    "actualizado": "2026-10-20T00:20:18.000Z",
    "buffer_id": "6ad668c5055abbe925e167f5",
@@ -18081,6 +17863,59 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok": {
+   "actualizado": "2026-10-29T20:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok",
+   "creado": "2026-10-29T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T20:15:37.000Z",
+   "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli\n\nDesde el área deportiva municipal destacaron el trabajo conjunto con diversas entidades para la competencia, que este año articulará con el sector de oncología para difundir pautas de prevención y controles de salud. Además, se informó que las inscripciones siguen abiertas en la web de Finishtime y que la largada será puntual el domingo a las 8 de la mañana.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-10-31T20:15:37.000Z",
+   "video_bytes": 13745511,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ee9f57971e38631.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|x": {
+   "actualizado": "2026-10-29T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|x",
+   "creado": "2026-10-29T20:20:13.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "estado": "descartado",
+   "generado": "2026-10-29T20:15:37.000Z",
+   "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "noticia": "nota:chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-10-29T22:15:37.000Z",
+   "video_bytes": 13745511,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ee9f57971e38631.mp4",
+   "viral": false
+  },
   "entrevistas:job00224|x": {
    "actualizado": "2026-10-19T21:00:29.000Z",
    "buffer_id": "6ad64347b5b645b3c338e4b4",
@@ -20091,18 +19926,19 @@
    "viral": false
   },
   "entrevistas:job00264|x": {
-   "actualizado": "2026-10-29T19:00:27.000Z",
+   "actualizado": "2026-10-29T20:20:16.000Z",
    "buffer_id": "6ae397cda929d1f77543b55c",
    "clave": "entrevistas:job00264|x",
    "creado": "2026-10-29T19:00:17.000Z",
    "dueAt": "2026-10-29T19:02:24.000Z",
+   "enviado": "2026-10-29T19:04:33.216Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T19:00:17.000Z",
    "id": "entrevistas:job00264",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115882496390816228",
    "nota_url": "",
    "noticia": "titulo:bettoli-empresas-frente-lucas-universidad",
    "origen": "entrevistas",
@@ -21561,32 +21397,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
    "viral": false
   },
-  "nacionales:97bd2fed895cbca6|tiktok": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:97bd2fed895cbca6|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:50:57.000Z",
-   "id": "nacionales:97bd2fed895cbca6",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Tensión oficialista por las alianzas y el rumbo electoral de cara a 2027\n\nEl bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Divergencias internas entre el sector que busca acuerdos con gobernadores y el ala que prioriza la jugada nacional y la economía.\n\nhttps://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Tensión oficialista por las alianzas y el rumbo electoral de cara a 2027",
-   "urgente": false,
-   "vence": "2026-10-19T19:50:57.000Z",
-   "video_bytes": 93322,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_97bd2fed89_tension-oficialista-por-las-alianzas-y-el-rumbo.mp4"
-  },
   "nacionales:9cae8a7fbd11ec6c|tiktok": {
    "actualizado": "2026-10-20T00:20:18.000Z",
    "buffer_id": "6ad6af142d48e20f64bc551a",
@@ -21764,32 +21574,6 @@
    "vence": "2026-10-20T08:05:14.000Z",
    "video_bytes": 84103,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a09771b77a_jugador-de-racing-reacciono-con-insultos-y-gestos.mp4"
-  },
-  "nacionales:a45e03c51dbe2f12|tiktok": {
-   "actualizado": "2026-10-19T20:20:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:a45e03c51dbe2f12|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T02:06:01.000Z",
-   "id": "nacionales:a45e03c51dbe2f12",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Aldosivi cayó 2-1 ante Estudiantes de Río Cuarto y se complica en la permanencia\n\nEl conjunto marplatense ganaba con un tanto de Andrés Vombergar a los 68 minutos, pero el equipo cordobés lo dio vuelta sobre el cierre con las anotaciones de Ibrahim Hesar y Gabriel Alanís.\n\nhttps://www.diariolacampaña.com.ar/n/aldosivi-perdio-2-1-con-estudiantes-de-rio-cuarto-y-se-complica-a45e03\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #Aldosivi",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Aldosivi cayó 2-1 ante Estudiantes de Río Cuarto y se complica en la permanencia",
-   "urgente": false,
-   "vence": "2026-10-19T20:06:01.000Z",
-   "video_bytes": 7688244,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a45e03c51d_aldosivi-cayo-2-1-ante-estudiantes-de-rio-cuarto.mp4"
   },
   "nacionales:a7e42407f5ea13c5|tiktok": {
    "actualizado": "2026-10-21T22:20:17.000Z",
@@ -26262,41 +26046,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:3620c5d5-68d9-4902-898d-2347615ba891|x": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "6ad630a0e811392c99f9b935",
-   "clave": "web:3620c5d5-68d9-4902-898d-2347615ba891|x",
-   "creado": "2026-10-19T13:20:16.000Z",
-   "dueAt": "2026-10-19T19:15:41.000Z",
-   "enviado": "2026-10-19T19:15:46.555Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:09:09.120Z",
-   "id": "web:3620c5d5-68d9-4902-898d-2347615ba891",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112261441436664186",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Recuperaron dos de las tres motos robadas a Sebastián Porto\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
-   "urgente": false,
-   "vence": "2026-10-20T13:09:09.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:36e83a1d-e03b-401c-8c1b-edd4182a003f|x": {
    "actualizado": "2026-10-27T00:00:21.000Z",
    "buffer_id": "",
@@ -26809,41 +26558,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "6ad6355399bd92f0dcee15cb",
-   "clave": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3|x",
-   "creado": "2026-10-19T11:20:14.000Z",
-   "dueAt": "2026-10-19T19:30:46.000Z",
-   "enviado": "2026-10-19T19:31:01.904Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T11:02:32.156Z",
-   "id": "web:4841dd2d-07c3-4c90-b819-3d0e547196a3",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112265280755798326",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech\n\nInvestigadores, productores y empresas se darán cita del 21 al 23 de octubre para analizar genética, manejo, tecnología y calidad industrial del cultivo.\n\nhttps://www.diariolacampaña.com.ar/n/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech",
-   "urgente": false,
-   "vence": "2026-10-20T11:02:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x": {
    "actualizado": "2026-10-28T14:00:23.000Z",
@@ -29037,41 +28751,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "6ad630a027c86cdd6c2acd6f",
-   "clave": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b|x",
-   "creado": "2026-10-19T11:20:14.000Z",
-   "dueAt": "2026-10-19T19:00:25.000Z",
-   "enviado": "2026-10-19T19:02:52.192Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T11:16:12.587Z",
-   "id": "web:8c2797b4-7dbb-4d7f-ac67-65970009882b",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112258193506042072",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 3.7,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata\n\nLa delegación de Chivilcoy viaja hacia Mar del Plata para competir en la Final Provincial de los Juegos Bonaerenses.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "vence": "2026-10-20T11:16:12.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5|x": {
    "actualizado": "2026-10-24T09:00:20.000Z",
    "buffer_id": "",
@@ -29903,41 +29582,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x": {
-   "actualizado": "2026-10-19T20:00:22.000Z",
-   "buffer_id": "6ad6355399bd92f0dcee15f4",
-   "clave": "web:a1643449-bbde-4592-a6b3-8e7158b579e6|x",
-   "creado": "2026-10-19T15:20:16.000Z",
-   "dueAt": "2026-10-19T19:45:51.000Z",
-   "enviado": "2026-10-19T19:46:02.160Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T15:19:06.367Z",
-   "id": "web:a1643449-bbde-4592-a6b3-8e7158b579e6",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112269056359244054",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto\n\nEn el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto",
-   "urgente": false,
-   "vence": "2026-10-20T15:19:06.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x": {
    "actualizado": "2026-10-28T12:40:16.000Z",
    "buffer_id": "6ae1d5c4b552088adcb57ae4",
@@ -30143,32 +29787,6 @@
    "titulo": "El periodista Gustavo \"Gato\" Sylvestre presentó su nuevo libro en Chivilcoy con un auditorio repleto en la Biblioteca Popular",
    "urgente": false,
    "vence": "2026-10-20T10:03:22.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x": {
-   "actualizado": "2026-10-19T20:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130|x",
-   "creado": "2026-10-18T20:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T20:07:25.938Z",
-   "id": "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de dólares\n\nLa Justicia procesó al exfuncionario Facundo Leal en una causa por presuntos sobornos y direccionamiento de contrataciones.\n\nhttps://www.diariolacampaña.com.ar/n/procesaron-al-ex-titular-de-arsat-facundo-leal-y-hallaron-mas-76f678",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Procesaron al ex titular de ARSAT Facundo Leal y hallaron más de 2 millones de dólares",
-   "urgente": false,
-   "vence": "2026-10-19T20:07:25.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -32088,6 +31706,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:e5615e3b-7d1f-407b-b876-c42670585cb1|x": {
+   "actualizado": "2026-10-29T20:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:e5615e3b-7d1f-407b-b876-c42670585cb1|x",
+   "creado": "2026-10-29T20:20:13.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "estado": "descartado",
+   "generado": "2026-10-29T20:14:52.161Z",
+   "id": "web:e5615e3b-7d1f-407b-b876-c42670585cb1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "noticia": "nota:chivilcoy-deportes-presentaron-los-detalles-de-la-media-maraton",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-10-30T00:14:52.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x": {
    "actualizado": "2026-10-29T10:40:16.000Z",
    "buffer_id": "6ae319e968ebd3a1d7752cf9",
@@ -32946,33 +32589,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6add46976887a2efc1de470c",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok",
-   "cuando": "2026-10-25T00:00:24.000Z",
-   "dueAt": "2026-10-25T01:23:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x",
-   "cuando": "2026-10-25T00:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok",
-   "cuando": "2026-10-25T00:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700373864315981063"
-  },
-  {
-   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
-   "cuando": "2026-10-25T00:20:16.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
   {
    "cuando": "2026-10-25T00:20:16.000Z",
    "evento": "pausa_red",
@@ -37167,6 +36783,36 @@
    "cuando": "2026-10-29T19:00:29.000Z",
    "dueAt": "2026-10-29T19:02:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|x",
+   "cuando": "2026-10-29T20:20:14.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok",
+   "cuando": "2026-10-29T20:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:e5615e3b-7d1f-407b-b876-c42670585cb1|x",
+   "cuando": "2026-10-29T20:20:16.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00264|x",
+   "cuando": "2026-10-29T20:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115882496390816228"
   }
  ],
  "tandas": {
@@ -37201,7 +36847,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T19:00:27.000Z",
+ "ultima_sync": "2026-10-29T20:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -37357,6 +37003,7 @@
   "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4": "2026-10-29T14:40:15.000Z",
   "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4": "2026-10-29T16:20:15.000Z",
   "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4": "2026-10-29T16:40:15.000Z",
+  "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4": "2026-10-29T20:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -38136,6 +37783,7 @@
   "web:e32dc39e-b193-41c9-8bce-3a9773d75a39": "2026-10-27T10:03:31.000Z",
   "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b": "2026-10-23T10:02:47.000Z",
   "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b": "2026-10-27T16:40:16.000Z",
+  "web:e5615e3b-7d1f-407b-b876-c42670585cb1": "2026-10-29T20:20:13.000Z",
   "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5": "2026-10-29T10:02:34.000Z",
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70": "2026-10-27T10:03:31.000Z",
   "web:e790e167-f2c1-4e20-bcee-7d86399107cd": "2026-10-22T00:20:17.000Z",
