@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -31,12 +31,12 @@ Actualizado: 28/10/2026 21:00 (hora AR) · ACTIVO
 15m: quedan 149 de 150 · 24h: quedan 566 de 600 · 30d: quedan 1001 de 2000 (visto 2026-10-29T00:00:25.000Z)
 
 ## Cola propia (8 esperando)
-- TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Detuvieron en Lomas de Zamora a un hombre de 41 años por robar techos solares — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Aprehenden a un joven de 24 años por intento de robo de cables en el exsupermerc — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
