@@ -3124,32 +3124,6 @@
    "volanta": "Créditos hipotecarios",
    "youtube_url": "https://youtube.com/shorts/NdYh5vxrZFw"
   },
-  "nacionales:0ffb2e8d26094748": {
-   "categoria": "Espectáculos",
-   "categoria_nacional": "espectaculos",
-   "descripcion": "El músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.",
-   "duracion_seg": 20.1,
-   "generado": "2026-10-18T21:50:44.000Z",
-   "hashtags": [
-    "LatinGrammy",
-    "Musica"
-   ],
-   "id": "nacionales:0ffb2e8d26094748",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY",
-   "urgente": false,
-   "video_bytes": 656560,
-   "video_mb": 0.6,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0ffb2e8d26_el-compositor-argentino-tomas-videla-fue-nominado.mp4",
-   "volanta": "Tomás Videla",
-   "youtube_url": "https://youtube.com/shorts/DfIQ80gOckM"
-  },
   "nacionales:10671478a956c2ad": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -20616,32 +20590,6 @@
    "video_bytes": 93767,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0f149db2f4_banco-ciudad-bajo-la-tasa-de-sus-hipotecarios.mp4",
    "viral": false
-  },
-  "nacionales:0ffb2e8d26094748|tiktok": {
-   "actualizado": "2026-10-19T16:00:17.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:0ffb2e8d26094748|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T21:50:44.000Z",
-   "id": "nacionales:0ffb2e8d26094748",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY\n\nEl músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.\n\nhttps://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e\n\n#chivilcoy #diariolacampaña #radiodelcentro #espectáculos #LatinGrammy",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY",
-   "urgente": false,
-   "vence": "2026-10-19T15:50:44.000Z",
-   "video_bytes": 656560,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0ffb2e8d26_el-compositor-argentino-tomas-videla-fue-nominado.mp4"
   },
   "nacionales:10671478a956c2ad|tiktok": {
    "actualizado": "2026-10-20T22:20:15.000Z",
