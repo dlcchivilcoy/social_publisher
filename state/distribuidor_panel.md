@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 3 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,11 +28,12 @@ Actualizado: 29/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 576 de 600 · 30d: quedan 974 de 2000 (visto 2026-10-29T17:40:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 575 de 600 · 30d: quedan 973 de 2000 (visto 2026-10-29T18:00:35.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (12 esperando)
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Fernando Cabani: Apuestas online y salud mental en jóvenes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -44,7 +45,6 @@ Actualizado: 29/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
-- TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con  — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -52,10 +52,6 @@ Actualizado: 29/10/2026 14:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T15:20 enviado web:fa24c212-927b-4b43-b2d4-535b06d40feb|x 
-- 2026-10-29T15:20 enviado web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x 
-- 2026-10-29T15:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
-- 2026-10-29T15:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tikto 
 - 2026-10-29T15:40 recibido web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-29T15:40 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
 - 2026-10-29T16:20 recibido bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|x dura 250 s y X admite 140 s sin suscripción
@@ -77,3 +73,7 @@ Actualizado: 29/10/2026 14:40 (hora AR) · ACTIVO
 - 2026-10-29T17:40 enviado bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x 
 - 2026-10-29T17:40 enviado entrevistas:job00260|x 
 - 2026-10-29T17:40 enviado entrevistas:job00261|x 
+- 2026-10-29T18:00 entrevista_aprobada entrevistas:job00262 
+- 2026-10-29T18:00 recibido entrevistas:job00262|x 
+- 2026-10-29T18:00 recibido entrevistas:job00262|tiktok 
+- 2026-10-29T18:00 programado entrevistas:job00262|x 

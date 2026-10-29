@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": {
-   "descripcion": "En el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-17T17:21:29.000Z",
-   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
-   "urgente": false,
-   "video_bytes": 779667,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/5JWQzOkUeVY"
-  },
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": {
    "descripcion": "Punto Rosa: Gimnasia y Esgrima unió tenis, salud y concientización en una jornada especial. Con la participación de 27 parejas de dobles mixtos, el club fue escenario de una propuesta deportiva en el marco de Octubre Rosa. La iniciativa combinó competencia y prevención de la salud.",
    "duracion_seg": 30.0,
@@ -3055,6 +3034,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00261.mp4",
    "youtube_url": "https://youtu.be/WWNY-up4DKQ"
   },
+  "entrevistas:job00262": {
+   "descripcion": "El concejal de Chivilcoy por Fuerza Patria, Fernando Cabani, advirtió sobre las graves consecuencias de las apuestas virtuales en los adolescentes. Remarcó que no se trata de un simple juego y alertó sobre los casos de depresión y salud mental.",
+   "duracion_seg": null,
+   "entrevistado": "Fernando Cabani",
+   "generado": "2026-10-29T18:00:21.000Z",
+   "id": "entrevistas:job00262",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Fernando Cabani: Apuestas online y salud mental en jóvenes",
+   "urgente": false,
+   "video_bytes": 25107329,
+   "video_mb": 23.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00262.mp4",
+   "youtube_url": "https://youtu.be/e-Ki_KAEXLs"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -3345,32 +3345,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
    "volanta": "Tarifas de colectivos",
    "youtube_url": ""
-  },
-  "nacionales:2b26f422b8cc341a": {
-   "categoria": "Justicia",
-   "categoria_nacional": "",
-   "descripcion": "El Consejo de la Magistratura acelera las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite, 77 en el Ejecutivo y 30 en el Senado.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T23:21:02.000Z",
-   "hashtags": [
-    "Justicia",
-    "ConsejoDeLaMagistratura"
-   ],
-   "id": "nacionales:2b26f422b8cc341a",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "La Justicia federal registra 298 cargos vacantes y avanza con 81 concursos",
-   "urgente": false,
-   "video_bytes": 82971,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2b26f422b8_la-justicia-federal-registra-298-cargos-vacantes.mp4",
-   "volanta": "Consejo de la Magistratura",
-   "youtube_url": "https://youtube.com/shorts/VnUlY05b_PU"
   },
   "nacionales:2f1a6dccc7eef682": {
    "categoria": "Cine y series",
@@ -4667,32 +4641,6 @@
    "volanta": "Crisis en Francia",
    "youtube_url": "https://youtube.com/shorts/Mnx4l0xHVr0"
   },
-  "nacionales:eb29261c90f4bdfa": {
-   "categoria": "Espectáculos",
-   "categoria_nacional": "espectaculos",
-   "descripcion": "A casi un mes del fallecimiento del joven modelo a los 27 años, la supermodelo y su hija rompieron el silencio en redes sociales con tiernos recuerdos y sentidas cartas.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T23:35:48.000Z",
-   "hashtags": [
-    "CindyCrawford",
-    "KaiaGerber"
-   ],
-   "id": "nacionales:eb29261c90f4bdfa",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Cindy Crawford y Kaia Gerber despidieron con emotivos mensajes a Presley",
-   "urgente": false,
-   "video_bytes": 97553,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eb29261c90_cindy-crawford-y-kaia-gerber-despidieron-con.mp4",
-   "volanta": "Homenaje familiar",
-   "youtube_url": "https://youtube.com/shorts/4aPCKM-eZPc"
-  },
   "nacionales:eba0c0c1b9408496": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -4718,32 +4666,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eba0c0c1b9_el-gobierno-evalua-cambios-para-destrabar-el.mp4",
    "volanta": "Súper RIGI",
    "youtube_url": "https://youtube.com/shorts/xA6eVxxqEGg"
-  },
-  "nacionales:ef9d9f6be8029c31": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El oficialismo despliega congresos en el interior para consolidar su estructura de cara a 2027, mientras persisten las diferencias estratégicas entre las distintas tribus partidarias.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T23:50:48.000Z",
-   "hashtags": [
-    "LaLibertadAvanza",
-    "Politica"
-   ],
-   "id": "nacionales:ef9d9f6be8029c31",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "La Libertad Avanza acelera su armado juvenil en medio de tensiones internas",
-   "urgente": false,
-   "video_bytes": 101390,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ef9d9f6be8_la-libertad-avanza-acelera-su-armado-juvenil-en.mp4",
-   "volanta": "Armado libertario",
-   "youtube_url": "https://youtube.com/shorts/Fvr38U7Sw5Q"
   },
   "nacionales:f1cea0fec08ce954": {
    "categoria": "Política",
@@ -7403,24 +7325,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rosario-reunira-a-la-cadena-triguera-para-debatir-sobre-258b90",
    "volanta": ""
-  },
-  "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": {
-   "categoria": "",
-   "descripcion": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy En el marco del Torneo Federal A, Gimnasia de Chivilcoy empató 3-3 frente a Defensores de Vilelas, en un encuentro donde el conjunto local estuvo dos veces en desventaja en el marcador. Ramiro Medina fue el autor del primer descuento y posteriormente, mediante un tiro penal, estableció el 2-2 transitorio. Luego de que la visita volviera a ponerse al frente, Fausto Fiol apareció a los 33 minutos para sellar el 3-3 definitivo.",
-   "generado": "2026-10-18T17:47:03.110Z",
-   "id": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6da298586c5845f595edc390f985467d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e": {
    "categoria": "",
@@ -11407,17 +11311,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 576,
-   "segundos": 56400,
+   "restantes": 575,
+   "segundos": 55181,
    "tope": 600
   },
   "30d": {
-   "restantes": 974,
-   "segundos": 1049424,
+   "restantes": 973,
+   "segundos": 1048206,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T17:40:16.000Z",
+ "cuota_visto": "2026-10-29T18:00:35.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -11434,32 +11338,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok": {
-   "actualizado": "2026-10-19T17:40:31.000Z",
-   "buffer_id": "",
-   "clave": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo|tiktok",
-   "creado": "2026-10-17T17:40:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-17T17:21:29.000Z",
-   "id": "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Capacitaron al personal de los hogares municipales en control de infecciones\n\nEn el marco de las acciones destinadas a fortalecer el cuidado y la seguridad sanitaria de las personas mayores, se llevó adelante una capacitación sobre Prevención y Control de Infecciones en Residencias de Adultos Mayores, con la participación de trabajadores de ambos hogares.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-capacitaron-al-personal-de-los-hogares-municipales-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Capacitaron al personal de los hogares municipales en control de infecciones",
-   "urgente": false,
-   "vence": "2026-10-19T17:21:29.000Z",
-   "video_bytes": 779667,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_392ca0aafbe1be36.mp4"
-  },
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj|tiktok": {
    "actualizado": "2026-10-20T23:00:18.000Z",
    "buffer_id": "",
@@ -11585,33 +11463,6 @@
    "vence": "2026-10-21T13:21:05.000Z",
    "video_bytes": 698289,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok": {
-   "actualizado": "2026-10-19T17:40:31.000Z",
-   "buffer_id": "6ad65150d1648e7b92bf3b9b",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|tiktok",
-   "creado": "2026-10-19T15:40:14.000Z",
-   "dueAt": "2026-10-19T17:23:33.000Z",
-   "error": "Please update the media URL to be publicly accessible before retrying the post.",
-   "error_crudo": "Media URL is not publicly accessible (HTTP 502). Ensure the media URL is publicly reachable before publishing.",
-   "espera": "",
-   "estado": "error",
-   "generado": "2026-10-19T15:21:07.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto\n\nEn el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas. Tras el hallazgo de las dos primeras unidades, y como resultado de la continuidad de las tareas investigativas...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto",
-   "urgente": false,
-   "vence": "2026-10-21T15:21:07.000Z",
-   "video_bytes": 1742566,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_78b93f0d3d02a624.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x": {
    "actualizado": "2026-10-19T23:00:25.000Z",
@@ -20370,6 +20221,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00261.mp4",
    "viral": false
   },
+  "entrevistas:job00262|tiktok": {
+   "actualizado": "2026-10-29T18:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00262|tiktok",
+   "creado": "2026-10-29T18:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T18:00:21.000Z",
+   "id": "entrevistas:job00262",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Fernando Cabani: Apuestas online y salud mental en jóvenes\n\nEl concejal de Chivilcoy por Fuerza Patria, Fernando Cabani, advirtió sobre las graves consecuencias de las apuestas virtuales en los adolescentes. Remarcó que no se trata de un simple juego y alertó sobre los casos de depresión y salud mental.\n\nhttps://youtu.be/e-Ki_KAEXLs\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fernando Cabani: Apuestas online y salud mental en jóvenes",
+   "urgente": false,
+   "vence": "2026-10-31T18:00:21.000Z",
+   "video_bytes": 25107329,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00262.mp4",
+   "viral": false
+  },
+  "entrevistas:job00262|x": {
+   "actualizado": "2026-10-29T18:00:34.000Z",
+   "buffer_id": "6ae389c349b3849a24c9f93c",
+   "clave": "entrevistas:job00262|x",
+   "creado": "2026-10-29T18:00:21.000Z",
+   "dueAt": "2026-10-29T18:02:05.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T18:00:21.000Z",
+   "id": "entrevistas:job00262",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:apuestas-cabani-fernando-jovenes-mental-online-salud",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Fernando Cabani: Apuestas online y salud mental en jóvenes\n\nEl concejal de Chivilcoy por Fuerza Patria, Fernando Cabani, advirtió sobre las graves consecuencias de las apuestas virtuales en los adolescentes.\n\nhttps://youtu.be/e-Ki_KAEXLs",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fernando Cabani: Apuestas online y salud mental en jóvenes",
+   "urgente": false,
+   "vence": "2026-10-29T20:00:21.000Z",
+   "video_bytes": 25107329,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00262.mp4",
+   "viral": false
+  },
   "nacionales:01c0d7889e6b5047|tiktok": {
    "actualizado": "2026-10-21T00:20:25.000Z",
    "buffer_id": "",
@@ -20791,32 +20698,6 @@
    "video_bytes": 27928725,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
    "viral": false
-  },
-  "nacionales:2b26f422b8cc341a|tiktok": {
-   "actualizado": "2026-10-19T17:40:31.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:2b26f422b8cc341a|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:21:02.000Z",
-   "id": "nacionales:2b26f422b8cc341a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "La Justicia federal registra 298 cargos vacantes y avanza con 81 concursos\n\nEl Consejo de la Magistratura acelera las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite, 77 en el Ejecutivo y 30 en el Senado.\n\nhttps://www.diariolacampaña.com.ar/n/la-justicia-federal-tiene-298-cargos-vacantes-y-el-consejo-2b26f4\n\n#chivilcoy #diariolacampaña #radiodelcentro #Justicia #ConsejoDeLaMagistratura",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La Justicia federal registra 298 cargos vacantes y avanza con 81 concursos",
-   "urgente": false,
-   "vence": "2026-10-19T17:21:02.000Z",
-   "video_bytes": 82971,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2b26f422b8_la-justicia-federal-registra-298-cargos-vacantes.mp4"
   },
   "nacionales:2f1a6dccc7eef682|tiktok": {
    "actualizado": "2026-10-19T19:40:15.000Z",
@@ -22757,32 +22638,6 @@
    "video_bytes": 1520472,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e50827dd69_nuevos-saqueos-y-violentos-disturbios-en-paris.mp4"
   },
-  "nacionales:eb29261c90f4bdfa|tiktok": {
-   "actualizado": "2026-10-19T17:40:31.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:eb29261c90f4bdfa|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:35:48.000Z",
-   "id": "nacionales:eb29261c90f4bdfa",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Cindy Crawford y Kaia Gerber despidieron con emotivos mensajes a Presley\n\nA casi un mes del fallecimiento del joven modelo a los 27 años, la supermodelo y su hija rompieron el silencio en redes sociales con tiernos recuerdos y sentidas cartas.\n\nhttps://www.diariolacampaña.com.ar/n/cindy-crawford-y-kaia-gerber-rompieron-el-silencio-tras-la-eb2926\n\n#chivilcoy #diariolacampaña #radiodelcentro #espectáculos #CindyCrawford",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cindy Crawford y Kaia Gerber despidieron con emotivos mensajes a Presley",
-   "urgente": false,
-   "vence": "2026-10-19T17:35:48.000Z",
-   "video_bytes": 97553,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eb29261c90_cindy-crawford-y-kaia-gerber-despidieron-con.mp4"
-  },
   "nacionales:eba0c0c1b9408496|tiktok": {
    "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
@@ -22808,32 +22663,6 @@
    "vence": "2026-10-19T23:36:19.000Z",
    "video_bytes": 115939,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_eba0c0c1b9_el-gobierno-evalua-cambios-para-destrabar-el.mp4"
-  },
-  "nacionales:ef9d9f6be8029c31|tiktok": {
-   "actualizado": "2026-10-19T18:00:19.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:ef9d9f6be8029c31|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:50:48.000Z",
-   "id": "nacionales:ef9d9f6be8029c31",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "La Libertad Avanza acelera su armado juvenil en medio de tensiones internas\n\nEl oficialismo despliega congresos en el interior para consolidar su estructura de cara a 2027, mientras persisten las diferencias estratégicas entre las distintas tribus partidarias.\n\nhttps://www.diariolacampaña.com.ar/n/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #LaLibertadAvanza",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La Libertad Avanza acelera su armado juvenil en medio de tensiones internas",
-   "urgente": false,
-   "vence": "2026-10-19T17:50:48.000Z",
-   "video_bytes": 101390,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ef9d9f6be8_la-libertad-avanza-acelera-su-armado-juvenil-en.mp4"
   },
   "nacionales:f1cea0fec08ce954|tiktok": {
    "actualizado": "2026-10-23T22:20:23.000Z",
@@ -27328,32 +27157,6 @@
    "titulo": "Rosario reunirá a la cadena triguera para debatir sobre genética, manejo y AgTech",
    "urgente": false,
    "vence": "2026-10-20T11:02:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x": {
-   "actualizado": "2026-10-19T18:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659|x",
-   "creado": "2026-10-18T18:00:17.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T17:47:03.110Z",
-   "id": "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy\n\nEl local remontó dos veces la desventaja con tantos de Ramiro Medina. Fausto Fiol anotó a los 33 minutos para sellar el resultado definitivo en el Torneo Federal A.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-igualo-3-3-ante-defensores-de-vilelas-en",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Gimnasia igualó 3-3 ante Defensores de Vilelas en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-19T17:47:03.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -33572,30 +33375,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
-   "cuando": "2026-10-24T23:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700368725207239943"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok",
-   "cuando": "2026-10-24T23:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700362732515626292"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok",
-   "cuando": "2026-10-24T23:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700358359815425301"
-  },
-  {
-   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
-   "cuando": "2026-10-24T23:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114120768850120890"
-  },
-  {
    "buffer_id": "6add388a8b3d437ddcdff473",
    "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
    "cuando": "2026-10-24T23:00:27.000Z",
@@ -37794,6 +37573,34 @@
    "cuando": "2026-10-29T17:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115856992736530609"
+  },
+  {
+   "clave": "entrevistas:job00262",
+   "cuando": "2026-10-29T18:00:21.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00262|x",
+   "cuando": "2026-10-29T18:00:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00262|tiktok",
+   "cuando": "2026-10-29T18:00:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae389c349b3849a24c9f93c",
+   "clave": "entrevistas:job00262|x",
+   "cuando": "2026-10-29T18:00:35.000Z",
+   "dueAt": "2026-10-29T18:02:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38044,6 +37851,7 @@
   "entrevistas:job00259": "2026-10-28T18:40:15.000Z",
   "entrevistas:job00260": "2026-10-29T17:00:20.000Z",
   "entrevistas:job00261": "2026-10-29T17:20:13.000Z",
+  "entrevistas:job00262": "2026-10-29T18:00:21.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
