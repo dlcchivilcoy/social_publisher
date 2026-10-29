@@ -75,27 +75,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Hsq2oE8ZzSs"
   },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc": {
-   "descripcion": "En el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas. Tras el hallazgo de las dos primeras unidades, y como resultado de la continuidad de las tareas investigativas...",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-19T15:21:07.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto",
-   "urgente": false,
-   "video_bytes": 1742566,
-   "video_mb": 1.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_78b93f0d3d02a624.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/jyKkyzmF6Ow"
-  },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3": {
    "descripcion": "Se reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy. Noticia en desarrollo.",
    "duracion_seg": 30.0,
@@ -3993,32 +3972,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b164c7aa50_padre-de-agostina-paez-se-nego-a-declarar-y-piden.mp4",
    "volanta": "Robo millonario",
    "youtube_url": "https://youtube.com/shorts/4oZfEuG4E6A"
-  },
-  "nacionales:b18ec1977365d369": {
-   "categoria": "Cine y series",
-   "categoria_nacional": "cine_series",
-   "descripcion": "El reality de cocina infantil arrancó en la pantalla de Telefe con catorce participantes y un pico de 10,2 puntos en medio de la competencia contra el fútbol.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T04:52:04.000Z",
-   "hashtags": [
-    "MasterchefJunior",
-    "Telefe"
-   ],
-   "id": "nacionales:b18ec1977365d369",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/masterchef-junior-debuto-por-telefe-con-la-conduccion-de-vero-b18ec1",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Masterchef Junior debutó con Vero Lozano y tocó los 10,2 puntos de rating",
-   "urgente": false,
-   "video_bytes": 158362,
-   "video_mb": 0.2,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b18ec19773_masterchef-junior-debuto-con-vero-lozano-y-toco.mp4",
-   "volanta": "Masterchef Junior",
-   "youtube_url": "https://youtube.com/shorts/kscwFVXX1nM"
   },
   "nacionales:b3aa9eb0744c0822": {
    "categoria": "Economía",
@@ -8322,24 +8275,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/carta-abierta-reclaman-respuestas-urgentes-y-proponen-un-peaje",
    "volanta": "Carta abierta"
   },
-  "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": {
-   "categoria": "nacionales",
-   "descripcion": "Tras arrestar a casi 2400 personas y registrar 1000 policías heridos por protestas contra el costo de vida, el mandatario francés reclamó calma.",
-   "generado": "2026-10-18T22:50:11.917Z",
-   "id": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_971a0b9494704df891b2c804ba4a3e99~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
-   "volanta": ""
-  },
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960": {
    "categoria": "",
    "descripcion": "En la ciudad, localidades y escuelas: Este jueves comienza la undécima edición del “Chivilcoy Teatrero” La 11ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero, el festival que desde hace 11 años reúne a los elencos independientes de la ciudad y promueve el acceso a las...",
@@ -9336,24 +9271,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:be16b20b-29a0-45de-ae35-dec56c678655": {
-   "categoria": "nacionales",
-   "descripcion": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco Este sábado, la Juventud Radical de la Cuarta Sección Electoral llevó adelante una jornada de formación e intercambio en la ciudad de Chacabuco, que culminó con el recambio de sus autoridades seccionales. El encuentro contó con espacios de formación política, debate e intercambio de experiencias. Durante la jornada se abordaron distintas temáticas vinculadas a la participación juvenil en instituciones sociales, los...",
-   "generado": "2026-10-18T22:47:06.105Z",
-   "id": "web:be16b20b-29a0-45de-ae35-dec56c678655",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_18b21f493d514391b0226421b15843ae~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
-   "volanta": "Chacabuco · Política"
-  },
   "web:bf6521bd-4d33-4790-8b06-46d2c1596e82": {
    "categoria": "",
    "descripcion": "APREHENDIERON a una mujer acusada de tentativa de robo Personal policial aprehendió a una mujer de 41 años en un domicilio ubicado en Alem 729, en Chivilcoy, acusada de intentar sustraer distintos elementos. Según se informó, la mujer habría intentado llevarse planchas de PVC, una bordeadora y caños de plástico, propiedad de una vecina. Intervino la UFI N.º 4 de Mercedes, que dispuso el cumplimiento de los recaudos legales correspondientes y las diligencias de rigor. Asimismo, ordenó que la...",
@@ -9541,25 +9458,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
    "volanta": "Operativos policiales"
-  },
-  "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8": {
-   "categoria": "nacionales",
-   "descripcion": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online El diputado provincial y presidente del Bloque de Fuerza Patria, Facundo Tignanelli, se refirió al dinero que pierde el país y la provincia en concepto de apuestas online, tanto bajo modalidades legales como ilegales, señalando que esos fondos quedan en manos de empresas extranjeras. Al respecto, Tignanelli indicó: \"El cálculo que hicimos con Mica según la información oficial que tiene la provincia de Buenos Aires...",
-   "generado": "2026-10-19T23:17:58.159Z",
-   "id": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6ecb072f28c44a38850887296699871d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
-   "volanta": "Provincia · Política"
   },
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": {
    "categoria": "",
@@ -10796,41 +10694,6 @@
    "vence": "2026-10-20T22:49:15.000Z",
    "video_bytes": 908176,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_69d5bbc98f01b5fd.mp4"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x": {
-   "actualizado": "2026-10-19T23:00:25.000Z",
-   "buffer_id": "6ad64cbdd1648e7b92bde029",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc|x",
-   "creado": "2026-10-19T15:40:14.000Z",
-   "dueAt": "2026-10-19T22:45:49.000Z",
-   "enviado": "2026-10-19T22:46:06.163Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T15:21:07.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112314372383003091",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto\n\nEn el marco de la investigación por el hurto de tres motovehículos denunciado por Sebastián Porto, personal policial logró recuperar la totalidad de las motos sustraídas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-la-tercera-moto-robada-en-la",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperaron la tercera moto robada en la propiedad de Sebastián Porto",
-   "urgente": false,
-   "vence": "2026-10-21T15:21:07.000Z",
-   "video_bytes": 1742566,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_78b93f0d3d02a624.mp4"
   },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|tiktok": {
    "actualizado": "2026-10-22T00:00:19.000Z",
@@ -21324,32 +21187,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b164c7aa50_padre-de-agostina-paez-se-nego-a-declarar-y-piden.mp4",
    "viral": false
   },
-  "nacionales:b18ec1977365d369|tiktok": {
-   "actualizado": "2026-10-19T23:00:25.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:b18ec1977365d369|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T04:52:04.000Z",
-   "id": "nacionales:b18ec1977365d369",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/masterchef-junior-debuto-por-telefe-con-la-conduccion-de-vero-b18ec1",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Masterchef Junior debutó con Vero Lozano y tocó los 10,2 puntos de rating\n\nEl reality de cocina infantil arrancó en la pantalla de Telefe con catorce participantes y un pico de 10,2 puntos en medio de la competencia contra el fútbol.\n\nhttps://www.diariolacampaña.com.ar/n/masterchef-junior-debuto-por-telefe-con-la-conduccion-de-vero-b18ec1\n\n#chivilcoy #diariolacampaña #radiodelcentro #cineyseries #MasterchefJunior",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Masterchef Junior debutó con Vero Lozano y tocó los 10,2 puntos de rating",
-   "urgente": false,
-   "vence": "2026-10-19T22:52:04.000Z",
-   "video_bytes": 158362,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b18ec19773_masterchef-junior-debuto-con-vero-lozano-y-toco.mp4"
-  },
   "nacionales:b3aa9eb0744c0822|tiktok": {
    "actualizado": "2026-10-22T01:00:23.000Z",
    "buffer_id": "",
@@ -28368,32 +28205,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x": {
-   "actualizado": "2026-10-19T23:00:25.000Z",
-   "buffer_id": "",
-   "clave": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3|x",
-   "creado": "2026-10-18T23:00:17.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:50:11.917Z",
-   "id": "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas\n\nTras arrestar a casi 2400 personas y registrar 1000 policías heridos por protestas contra el costo de vida, el mandatario francés reclamó calma.\n\nhttps://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Francia: Emmanuel Macron repudió los saqueos y pidió orden tras una ola de protestas",
-   "urgente": false,
-   "vence": "2026-10-19T22:50:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x": {
    "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c86a5719a3c4c80fb983",
@@ -29915,32 +29726,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:be16b20b-29a0-45de-ae35-dec56c678655|x": {
-   "actualizado": "2026-10-19T23:00:25.000Z",
-   "buffer_id": "",
-   "clave": "web:be16b20b-29a0-45de-ae35-dec56c678655|x",
-   "creado": "2026-10-18T23:00:17.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:47:06.105Z",
-   "id": "web:be16b20b-29a0-45de-ae35-dec56c678655",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco\n\nLa jornada incluyó formación política, debate y el tratamiento de temas vinculados a la participación juvenil en instituciones sociales.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-politica-la-juventud-radical-de-la-cuarta-seccion-renovo",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-19T22:47:06.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:bf6521bd-4d33-4790-8b06-46d2c1596e82|x": {
    "actualizado": "2026-10-24T17:20:15.000Z",
    "buffer_id": "",
@@ -30222,31 +30007,6 @@
    "titulo": "Esclarecen robos, recuperan elementos sustraídos y detienen a sospechosos",
    "urgente": false,
    "vence": "2026-10-27T14:01:50.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8|x": {
-   "actualizado": "2026-10-19T23:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8|x",
-   "creado": "2026-10-19T23:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-19T23:17:58.159Z",
-   "id": "web:c6d2dbee-218e-4a95-a175-a36bc569ebb8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
-   "noticia": "nota:provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Facundo Tignanelli advirtió sobre el dinero que se pierde en apuestas online",
-   "urgente": false,
-   "vence": "2026-10-20T03:17:58.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
