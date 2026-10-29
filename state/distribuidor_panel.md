@@ -1,26 +1,26 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 13:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 13:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 2 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 5 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 3 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 6 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 26 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 30 · likes 0
-- X · Reels del bot: 83 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 79 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 23 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 77 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 76 con métricas · mediana vistas/impresiones 23 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
 - TikTok · Reels del bot: 59 con métricas · mediana vistas/impresiones 303 · likes 3
@@ -28,9 +28,10 @@ Actualizado: 29/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 581 de 600 · 30d: quedan 979 de 2000 (visto 2026-10-29T15:40:29.000Z)
+15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 978 de 2000 (visto 2026-10-29T16:20:27.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (8 esperando)
+- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,11 +49,6 @@ Actualizado: 29/10/2026 13:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T14:00 programado web:fa24c212-927b-4b43-b2d4-535b06d40feb|x 
-- 2026-10-29T14:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x 
-- 2026-10-29T14:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tikto 
-- 2026-10-29T14:20 recibido bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|x dura 219 s y X admite 140 s sin suscripción
-- 2026-10-29T14:20 recibido bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok 
 - 2026-10-29T14:20 recibido web:d5f53bed-b052-4c25-bed8-d407293e0f55|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-29T14:20 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x 
 - 2026-10-29T14:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x 
@@ -73,3 +69,8 @@ Actualizado: 29/10/2026 13:00 (hora AR) · ACTIVO
 - 2026-10-29T15:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tikto 
 - 2026-10-29T15:40 recibido web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-29T15:40 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
+- 2026-10-29T16:20 recibido bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|x dura 250 s y X admite 140 s sin suscripción
+- 2026-10-29T16:20 recibido bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok 
+- 2026-10-29T16:20 recibido web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x 
+- 2026-10-29T16:20 depurado web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x de la web, a X solo van las notas del diario de la mañana
+- 2026-10-29T16:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 

@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-29T15:20:20.000Z"
+   "visto": "2026-10-29T16:20:27.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 26
+    "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-29T15:20:20.000Z"
+   "visto": "2026-10-29T16:20:27.000Z"
   }
  },
  "contenidos": {
@@ -1461,27 +1461,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4",
    "youtube_url": "https://www.youtube.com/shorts/SjXHCr65IPs"
   },
-  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4": {
-   "descripcion": "La delegación de Chivilcoy viaja rumbo a Mar del Plata con el objetivo de participar en la Final Provincial de los Juegos Bonaerenses.\n\nLos representantes locales forman parte de la comitiva que disputará las distintas instancias decisivas del certamen en la ciudad balnearia.\n\nLa competencia reúne a clasificados de diversos distritos de la provincia de Buenos Aires en el cierre de la tradicional cita deportiva y cultural.",
-   "duracion_seg": 42.7,
-   "generado": "2026-10-19T11:18:12.000Z",
-   "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "video_bytes": 8740858,
-   "video_mb": 8.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/ub6C18o1M0U"
-  },
   "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4": {
    "descripcion": "La delegación de Chivilcoy arribó a la ciudad de Mar del Plata para participar de la Final Provincial de los Juegos Bonaerenses 2026.\n\nLos representantes locales hicieron su ingreso a la localidad balnearia para formar parte de la instancia decisiva del certamen provincial.\n\nCon las expectativas puestas en la competencia, los deportistas y participantes chivilcoyanos ya se encuentran en la sede del evento para disputar las distintas disciplinas.",
    "duracion_seg": 60.4,
@@ -2279,6 +2258,27 @@
    "video_mb": 17.3,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1783a24a40712c8.mp4",
    "youtube_url": "https://www.youtube.com/shorts/YHOhOqnwtAc"
+  },
+  "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4": {
+   "descripcion": "El concejal de La Libertad Avanza, Juan Ignacio Felice, informó que el 28 de octubre recibió en su domicilio una carta documento enviada por la Municipalidad, en el marco de la controversia por sus declaraciones sobre una presunta condonación de deuda a la empresa Perchet, vinculada a Bicontinentar.\n\nSegún detalló el edil, la notificación lleva la firma de la directora de Legales, Carmen La Ruina, y le atribuye haber afectado la honorabilidad de funcionarios municipales.\n\nFelice cuestionó que el reclamo haya sido canalizado a través del Municipio y no por parte de quienes pudieran sentirse agraviados a título personal. En ese sentido, sostuvo que una persona jurídica no puede invocar daño al honor y pidió al intendente Guillermo Britos que, si considera lesionada su reputación, le envíe una intimación a su nombre y costeándola de manera particular.\n\nAsimismo, el concejal afirmó que la carta documento tuvo un costo cercano a los $24.000 y objetó el uso de fondos públicos para financiar lo que definió como una disputa entre personas políticamente expuestas. Por este motivo, adelantó que no responderá la intimación oficial.\n\nEl conflicto se originó en las críticas de Felice sobre deudas y penalidades en el predio fabril, planteo que Britos había rechazado al asegurar que la comuna reclama judicialmente dichos cobros.",
+   "duracion_seg": 249.7,
+   "generado": "2026-10-29T16:14:55.000Z",
+   "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto",
+   "urgente": false,
+   "video_bytes": 18428972,
+   "video_mb": 17.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ab02763c866b4cb.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/xRtANlKLHKQ"
   },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
@@ -4473,32 +4473,6 @@
    "volanta": "Militar de EE.UU.",
    "youtube_url": "https://youtube.com/shorts/nVxvGx3zhqw"
   },
-  "nacionales:c27183ebaf507280": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "La Academia y el Rojo no se sacaron ventajas en el interzonal de la fecha 13. Anotaron Matías Zaracho y Maximiliano Meza. Iván Marcone y Matías Kranevitter dejaron declaraciones tras el encuentro.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T22:05:56.000Z",
-   "hashtags": [
-    "ClasicoDeAvellaneda",
-    "TorneoClausura"
-   ],
-   "id": "nacionales:c27183ebaf507280",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Racing e Independiente empataron 1-1 en el Cilindro por el Torneo Clausura",
-   "urgente": false,
-   "video_bytes": 89515,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c27183ebaf_racing-e-independiente-empataron-1-1-en-el.mp4",
-   "volanta": "Clásico de Avellaneda",
-   "youtube_url": "https://youtube.com/shorts/Yg_pXXpi3iE"
-  },
   "nacionales:c6ed9c5ff821ce8c": {
    "categoria": "Cine y series",
    "categoria_nacional": "cine_series",
@@ -6461,24 +6435,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-cosecha-record-de-medallas-para-chivilcoy-en-la",
    "volanta": "Final Provincial"
-  },
-  "web:1abafabb-ff53-4fcd-911c-6a4465fed747": {
-   "categoria": "nacionales",
-   "descripcion": "El aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.",
-   "generado": "2026-10-18T16:07:34.820Z",
-   "id": "web:1abafabb-ff53-4fcd-911c-6a4465fed747",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d3d6f95dab85465ea7943ac581763118~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "volanta": ""
   },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af": {
    "categoria": "",
@@ -10318,24 +10274,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/provincia-politica-facundo-tignanelli-advirtio-sobre-el-dinero-que-se",
    "volanta": "Provincia · Política"
   },
-  "web:c876f210-4b35-4b4a-add4-8813297977a9": {
-   "categoria": "",
-   "descripcion": "Pese a la mejora en las reservas hídricas, se demora la siembra y se condiciona la evolución de los cultivos El maíz y el girasol avanzan hacia la ocupación de la mitad de la superficie prevista, según el Panorama Agrícola Semanal de la Bolsa de Cereales de Buenos Aires. Pese a la mejora de las reservas hídricas, la siembra se demora y se condiciona a la evolución de los cultivos, según informó este jueves el Panorama Agrícola Semanal (PAS) de la Bolsa de Cereales de Buenos Aires. Al presente...",
-   "generado": "2026-10-19T10:03:59.885Z",
-   "id": "web:c876f210-4b35-4b4a-add4-8813297977a9",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7b25fb6c8ede448490b608a3a94824f0~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolsa-de-cereales-ba-pese-a-la-mejora-en-las-reservas-hidricas-se",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Pese a la mejora en las reservas hídricas, se demora la siembra y se condiciona la evolución de los cultivos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bolsa-de-cereales-ba-pese-a-la-mejora-en-las-reservas-hidricas-se",
-   "volanta": "Bolsa de Cereales BA"
-  },
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": {
    "categoria": "",
    "descripcion": "El Rally Regional puso en marcha su penúltima fecha El Rally Regional puso en marcha su penúltima fecha con la clásica largada simbólica frente al Palacio Municipal, dando inicio formal a la competencia en Chivilcoy. Superadas las verificaciones previas, la carrera cuenta con un recorrido total de 121,66 kilómetros de pruebas especiales distribuidos en dos etapas sobre caminos rurales. La primera etapa se desarrolla este sábado con un total de 59,11 kilómetros de velocidad pura. El cronograma...",
@@ -10861,6 +10799,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/javier-milei-viaja-a-espana-agenda-con-isabel-diaz-ayuso-y-9d5801",
    "volanta": ""
+  },
+  "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c": {
+   "categoria": "",
+   "descripcion": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto El concejal de La Libertad Avanza de Chivilcoy, Juan Ignacio Felice, informó que el 28 de octubre recibió en su domicilio una carta documento enviada por la Municipalidad, en el marco de la controversia por sus declaraciones sobre una supuesta condonación de deuda a la empresa Perchet, vinculada a Bicontinentar. Mediante un video en el que exhibió la notificación, el edil señaló que el documento lleva la firma...",
+   "generado": "2026-10-29T16:13:29.583Z",
+   "id": "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6cd92bc15ca54dafb76197ee12b497b2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "volanta": "Chivilcoy · Política"
   },
   "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b": {
    "categoria": "",
@@ -11527,17 +11484,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 581,
-   "segundos": 63587,
+   "restantes": 580,
+   "segundos": 61189,
    "tope": 600
   },
   "30d": {
-   "restantes": 979,
-   "segundos": 1056612,
+   "restantes": 978,
+   "segundos": 1054213,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T15:40:29.000Z",
+ "cuota_visto": "2026-10-29T16:20:27.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -11669,41 +11626,6 @@
    "video_bytes": 1160584,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
   },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "6ad61933e15f9b60b3a136d9",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn|x",
-   "creado": "2026-10-19T13:20:16.000Z",
-   "dueAt": "2026-10-19T15:15:50.000Z",
-   "enviado": "2026-10-19T15:16:08.342Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:12:41.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112201134693646354",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 21,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Recuperaron dos de las tres motos robadas a Sebastián Porto\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-dos-de-las-tres-motos-robadas-a",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperaron dos de las tres motos robadas a Sebastián Porto",
-   "urgente": false,
-   "vence": "2026-10-21T13:12:41.000Z",
-   "video_bytes": 1160584,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9770beacde5a1b35.mp4"
-  },
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|tiktok": {
    "actualizado": "2026-10-19T19:00:19.000Z",
    "buffer_id": "6ad6561000e70b77e05cc00b",
@@ -11733,41 +11655,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nPersonal policial interceptó un Ford Fiesta conducido por Andrés David Avendaño en la intersección de las calles 516 y Bolívar, en Chivilcoy. En el lugar, constataron que el vehículo circulaba con una patente apócrifa.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
-   "urgente": false,
-   "vence": "2026-10-21T13:21:05.000Z",
-   "video_bytes": 698289,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_3a67c08e81888696.mp4"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "6ad62285e15f9b60b3a3f351",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr|x",
-   "creado": "2026-10-19T13:40:18.000Z",
-   "dueAt": "2026-10-19T15:45:39.000Z",
-   "enviado": "2026-10-19T15:45:49.420Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:21:05.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112208605642367437",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 32,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Recuperaron un auto con pedido de secuestro por robo en CABA\n\nPersonal policial interceptó un Ford Fiesta con patente apócrifa en Chivilcoy. El vehículo era conducido por un hombre de 44 años.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-un-auto-con-pedido-de-secuestro-por",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Recuperaron un auto con pedido de secuestro por robo en CABA",
@@ -15805,18 +15692,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x": {
-   "actualizado": "2026-10-29T15:40:28.000Z",
+   "actualizado": "2026-10-29T16:20:27.000Z",
    "buffer_id": "6ae368edf3a8aff3f355fc4c",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x",
    "creado": "2026-10-29T15:40:17.000Z",
    "dueAt": "2026-10-29T15:42:24.000Z",
+   "enviado": "2026-10-29T15:42:34.436Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T15:27:59.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115831666539184404",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
    "noticia": "nota:chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
    "origen": "bot",
@@ -15993,41 +15881,6 @@
    "video_bytes": 4050055,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
   },
-  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "6ad61dc8f8ab1a7963229a09",
-   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x",
-   "creado": "2026-10-19T11:20:14.000Z",
-   "dueAt": "2026-10-19T15:30:27.000Z",
-   "enviado": "2026-10-19T15:31:37.875Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T11:18:12.000Z",
-   "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112205034083504339",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 2.86,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata\n\nLos representantes locales disputarán las instancias decisivas de los Juegos Bonaerenses. La competencia reúne a clasificados de diversos distritos provinciales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "vence": "2026-10-21T11:18:12.000Z",
-   "video_bytes": 8740858,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
-  },
   "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|tiktok": {
    "actualizado": "2026-10-19T20:00:22.000Z",
    "buffer_id": "6ad668c7a443b466be72255d",
@@ -16057,41 +15910,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses\n\nLa delegación de Chivilcoy arribó a la ciudad de Mar del Plata para participar de la Final Provincial de los Juegos Bonaerenses 2026. Los representantes locales hicieron su ingreso a la localidad balnearia para formar parte de la instancia decisiva del certamen provincial. Con las expectativas puestas en la competencia, los deportistas y participantes chivilcoyanos ya se encuentran en la sede del evento para disputar las distintas disciplinas.\n\nhttps://www.youtube.com/shorts/6nj5OqAnUgQ\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-21T13:45:38.000Z",
-   "video_bytes": 19087882,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d5d8c620c644a509.mp4"
-  },
-  "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "6ad6272de15f9b60b3a56b93",
-   "clave": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4|x",
-   "creado": "2026-10-19T14:00:19.000Z",
-   "dueAt": "2026-10-19T16:00:31.000Z",
-   "enviado": "2026-10-19T16:06:29.949Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T13:45:38.000Z",
-   "id": "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112213808814891181",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 31,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses\n\nLos representantes locales llegaron a Mar del Plata para disputar la Final Provincial de los Juegos Bonaerenses 2026. Ya se encuentran en la sede del evento.\n\nhttps://www.youtube.com/shorts/6nj5OqAnUgQ",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "La delegación de Chivilcoy arribó para los Juegos Bonaerenses",
@@ -18650,6 +18468,59 @@
    "vence": "2026-10-29T16:36:08.000Z",
    "video_bytes": 18145206,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1783a24a40712c8.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok": {
+   "actualizado": "2026-10-29T16:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok",
+   "creado": "2026-10-29T16:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T16:14:55.000Z",
+   "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto\n\nEl concejal Juan Ignacio Felice informó que recibió una carta documento de la Municipalidad que le atribuye haber afectado el honor de funcionarios tras sus dichos sobre una presunta condonación de deuda. El edil cuestionó el uso de fondos públicos para costear la intimación, afirmó que tuvo un valor cercano a los $24.000 y adelantó que no responderá la notificación oficial.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto",
+   "urgente": false,
+   "vence": "2026-10-31T16:14:55.000Z",
+   "video_bytes": 18428972,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ab02763c866b4cb.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|x": {
+   "actualizado": "2026-10-29T16:20:15.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|x",
+   "creado": "2026-10-29T16:20:15.000Z",
+   "dueAt": "",
+   "error": "dura 250 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-29T16:14:55.000Z",
+   "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "noticia": "nota:chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto",
+   "urgente": false,
+   "vence": "2026-10-29T18:14:55.000Z",
+   "video_bytes": 18428972,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ab02763c866b4cb.mp4",
    "viral": false
   },
   "entrevistas:job00224|x": {
@@ -22634,32 +22505,6 @@
    "video_bytes": 1559830,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_be6592b07c_murio-un-militar-tras-caer-mas-de-30-metros-en-un.mp4"
   },
-  "nacionales:c27183ebaf507280|tiktok": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:c27183ebaf507280|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:05:56.000Z",
-   "id": "nacionales:c27183ebaf507280",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Racing e Independiente empataron 1-1 en el Cilindro por el Torneo Clausura\n\nLa Academia y el Rojo no se sacaron ventajas en el interzonal de la fecha 13. Anotaron Matías Zaracho y Maximiliano Meza. Iván Marcone y Matías Kranevitter dejaron declaraciones tras el encuentro.\n\nhttps://www.diariolacampaña.com.ar/n/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #ClasicoDeAvellaneda",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Racing e Independiente empataron 1-1 en el Cilindro por el Torneo Clausura",
-   "urgente": false,
-   "vence": "2026-10-19T16:05:56.000Z",
-   "video_bytes": 89515,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c27183ebaf_racing-e-independiente-empataron-1-1-en-el.mp4"
-  },
   "nacionales:c6ed9c5ff821ce8c|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -25934,32 +25779,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:1abafabb-ff53-4fcd-911c-6a4465fed747|x": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "",
-   "clave": "web:1abafabb-ff53-4fcd-911c-6a4465fed747|x",
-   "creado": "2026-10-18T16:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T16:07:34.820Z",
-   "id": "web:1abafabb-ff53-4fcd-911c-6a4465fed747",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV\n\nEl aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Crece el optimismo en el Gobierno y la Iglesia por el viaje del papa León XIV",
-   "urgente": false,
-   "vence": "2026-10-19T16:07:34.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x": {
    "actualizado": "2026-10-23T11:40:15.000Z",
@@ -31973,41 +31792,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c876f210-4b35-4b4a-add4-8813297977a9|x": {
-   "actualizado": "2026-10-19T16:20:22.000Z",
-   "buffer_id": "6ad5ef2d61ffad979f095ede",
-   "clave": "web:c876f210-4b35-4b4a-add4-8813297977a9|x",
-   "creado": "2026-10-19T10:20:14.000Z",
-   "dueAt": "2026-10-19T15:00:00.000Z",
-   "enviado": "2026-10-19T15:01:05.752Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T10:03:59.885Z",
-   "id": "web:c876f210-4b35-4b4a-add4-8813297977a9",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112197349275541524",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bolsa-de-cereales-ba-pese-a-la-mejora-en-las-reservas-hidricas-se",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Pese a la mejora en las reservas hídricas, se demora la siembra y se condiciona la evolución de los cultivos\n\nEl maíz y el girasol cubren casi la mitad del área prevista, según la Bolsa de Cereales de Buenos Aires.\n\nhttps://www.diariolacampaña.com.ar/n/bolsa-de-cereales-ba-pese-a-la-mejora-en-las-reservas-hidricas-se",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Pese a la mejora en las reservas hídricas, se demora la siembra y se condiciona la evolución de los cultivos",
-   "urgente": false,
-   "vence": "2026-10-20T10:03:59.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x": {
    "actualizado": "2026-10-23T23:40:15.000Z",
    "buffer_id": "",
@@ -32774,6 +32558,33 @@
    "vence": "2026-10-20T02:35:14.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x": {
+   "actualizado": "2026-10-29T16:20:27.000Z",
+   "buffer_id": "",
+   "clave": "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x",
+   "creado": "2026-10-29T16:20:15.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-29T16:13:29.583Z",
+   "id": "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "noticia": "nota:chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto",
+   "urgente": false,
+   "vence": "2026-10-29T20:13:29.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
@@ -33822,40 +33633,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6add09a60b5343d0709cd55d",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
-   "cuando": "2026-10-24T19:40:23.000Z",
-   "dueAt": "2026-10-24T19:42:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
-   "cuando": "2026-10-24T20:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114080205669064984"
-  },
-  {
-   "buffer_id": "6add1c668b3d437ddcd9bffa",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T21:03:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add1c678b3d437ddcd9c066",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T21:23:57.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add1c678b3d437ddcd9c0d7",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T21:43:48.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6add1c683d5b27036ba19bf2",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok",
@@ -38045,6 +37822,42 @@
    "cuando": "2026-10-29T15:40:29.000Z",
    "dueAt": "2026-10-29T15:42:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|x",
+   "cuando": "2026-10-29T16:20:15.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 250 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok",
+   "cuando": "2026-10-29T16:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x",
+   "cuando": "2026-10-29T16:20:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x",
+   "cuando": "2026-10-29T16:20:27.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x",
+   "cuando": "2026-10-29T16:20:27.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115831666539184404"
   }
  ],
  "tandas": {
@@ -38079,7 +37892,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T15:20:20.000Z",
+ "ultima_sync": "2026-10-29T16:20:27.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -38233,6 +38046,7 @@
   "bot:video_matias-zucchi_mvstco4fog1j_01.mp4": "2026-10-29T01:00:22.000Z",
   "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4": "2026-10-29T14:20:15.000Z",
   "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4": "2026-10-29T14:40:15.000Z",
+  "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4": "2026-10-29T16:20:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -38997,6 +38811,7 @@
   "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399": "2026-10-19T02:40:14.000Z",
   "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c": "2026-10-16T10:20:16.000Z",
+  "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c": "2026-10-29T16:20:15.000Z",
   "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b": "2026-10-20T10:20:14.000Z",
   "web:df585fc0-4639-4338-88f4-51fc0c0eb03c": "2026-10-24T17:40:14.000Z",
   "web:df5fd645-e44a-4aa1-9c87-fe32ad9853b3": "2026-10-12T10:20:17.000Z",
